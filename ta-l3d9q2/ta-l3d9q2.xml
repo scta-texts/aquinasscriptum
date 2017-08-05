@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum III, Distinctio 9, Quaestio 2</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.09-dev-master">
+          <title>Librum III, Distinctio 9, Quaestio 2</title>
+          <date when="2016-03-06">March 06, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-06">March 06, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness>1856 editum</witness>
+          <witness xml:id="H" n="harv245" xml:base="http://iiif.lib.harvard.edu/manifests/drs:51994085/canvas/">Cambridge, Mass., Harvard University, Houghton Library, MS Lat 245</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="2015.09">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+
+
+
+
+      <div xml:id="starts-on">
+        <cb ed="#H" n="38va"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ta-l3d9q2">
+        <head xml:id="ta-l3d9q2-Hd1e97">Librum III, Distinctio 9, Quaestio 2</head>
+        <div xml:id="ta-l3d9q2-Dd1e100">
+          <head xml:id="ta-l3d9q2-Hd1e102">Prooemium</head>
+          <p xml:id="ta-l3d9q2-d1e105">Deinde quaeritur de dulia; et circa hoc quaeruntur tria: 1 quid sit; 2 utrum habeat diversas species; 3 cui debeatur.</p>
+        </div>
+        <div xml:id="ta-l3d9q2-Dd1e109" type="articulus">
+          <head xml:id="ta-l3d9q2-Hd1e111">Articulus 1</head>
+          <head xml:id="ta-l3d9q2-Hd1e114" type="questionTitle">Utrum latria et dulia sint idem</head>
+          <p xml:id="ta-l3d9q2-d1e117">Ad primum sic proceditur. Videtur, quod dulia sit idem quod latria. Deo enim non debetur nisi unus honor. Sed debetur ei dulia et latria, sicut dicit Glossa super illud Psalm. 7: <quote xml:id="ta-l3d9q2-Qd1e119">domine Deus meus, in te speravi. Dominus omnium per potentiam; cui debetur dulia: Deus omnium per creationem, cui debetur latria</quote>. Ergo dulia et latria sunt idem.</p>
+          <p xml:id="ta-l3d9q2-d1e123">Praeterea, eadem virtus caritatis est qua diligitur Deus, et proximus. Sed latria honoratur Deus, dulia proximus. Ergo est eadem virtus.</p>
+          <p xml:id="ta-l3d9q2-d1e126">Praeterea, differentia secundum materiam non diversificat speciem, ut dicitur <ref xml:id="ta-l3d9q2-Rd1e128">10 <title ref="#Metaphysics">Metaphys.</title></ref> Sed honor qui debetur Deo et proximo non differunt nisi secundum materiam. Ergo non sunt diversi in specie; et sic idem quod prius.</p>
+          <p xml:id="ta-l3d9q2-d1e135">Praeterea, magis et minus non diversificant speciem. Ergo quamvis sit Deus magis honorandus quam proximus, non propter hoc sunt diversae species.</p>
+          <p xml:id="ta-l3d9q2-d1e138">Sed contra, sapientia et scientia sunt diversa dona: quia unum est de aeternis, alterum de temporalibus. Ergo simili ratione latria et dulia sunt diversae virtutes.</p>
+          <p xml:id="ta-l3d9q2-d1e141">Praeterea, habitus distinguuntur per actus, et actus per objecta. Sed dulia et latria habent diversa objecta. Ergo sunt diversae virtutes.</p>
+          <p xml:id="ta-l3d9q2-d1e144">Respondeo dicendum, quod honor debetur alicui ratione excellentiae quae in ipso est. Non est autem unius rationis excellentia divina et humana, et ideo non est honor unius rationis. Unde oportet quod latria et dulia differant speciem.</p>
+          <p xml:id="ta-l3d9q2-d1e147">Ad primum ergo dicendum, quod dulia, quantum ad proprietatem vocabuli, dicit servitutem communiter, cuicumque debeatur: et quia Deo debetur honor vel servitus secundum modum perfectiorem; ideo nomen duliae commune contrahitur et quodammodo appropriatur ad honorem creaturae, quia non addit aliquam differentiam ad dignitatem pertinentem supra commune; sicut nomen proprium trahitur ad conversum accidentale; conversum autem essentiale proprio nomine dicitur definitio. Et quia in Deo est omnis ratio honoris qui invenitur in creatura, sed non convertitur; ideo latria debetur sibi secundum id quod est sibi proprium; dulia autem secundum id quod est commune sibi et creaturae per analogiam.</p>
+          <p xml:id="ta-l3d9q2-d1e150">Ad secundum dicendum, quod objectum caritatis, cum sit virtus theologica, est bonitas divina, quae eadem est, sive in se, sive in altero consideretur; et ideo dilectio Dei et proximi ad unam virtutem pertinent. Sed honor exhibetur excellentiae absolutae, quae non est unius rationis in Deo et creaturis, sed variatur.</p>
+          <p xml:id="ta-l3d9q2-d1e154">Ad tertium dicendum, quod haec non est tantum materialis differentia, sed formalis: quia alia ratio reverentiae et honoris invenitur in Deo et in homine, et ideo causatur diversitas secundum speciem.</p>
+          <p xml:id="ta-l3d9q2-d1e157">Ad quartum dicendum, quod magis et minus non causant diversitatem secundum speciem, sed aliquando consequuntur eam, quando scilicet magis et minus causantur ex diversitate eorum quae speciem diversificant.</p>
+        </div>
+        <div xml:id="ta-l3d9q2-Dd1e161" type="articulus">
+          <head xml:id="ta-l3d9q2-Hd1e163">Articulus 2</head>
+          <head xml:id="ta-l3d9q2-Hd1e166" type="questionTitle">Utrum dulia habeat diversas species</head>
+          <p xml:id="ta-l3d9q2-d1e169">Ad secundum sic proceditur. Videtur, quod dulia non habeat diversas species. Dulia enim dividitur contra latriam. Sed latria. Non dividitur per species. Ergo nec dulia.</p>
+          <p xml:id="ta-l3d9q2-d1e172">Praeterea, dulia attendit bonitatem vel excellentiam creatam. Sed hoc invenitur in omnibus communiter quibus debetur dulia. Ergo non habet diversas species.</p>
+          <p xml:id="ta-l3d9q2-d1e175">Praeterea, sicut dulia respicit debitum honoris; ita obedientia debitum praecepti. Sed obedientia non differt specie secundum diversos quibus debetur. Ergo nec dulia.</p>
+          <p xml:id="ta-l3d9q2-d1e179">Praeterea, cum dulia debeatur diversis secundum infinitos gradus excellentiae, si secundum diversos quibus debetur, species diversas haberet, essent infinitae species duliae. Sed hoc est impossibile. Ergo dulia non habet plures species.</p>
+          <p xml:id="ta-l3d9q2-d1e182">Sed contra, dulia debetur Deo et creaturae, ut ex dictis, art. 1, patet. Sed non est eadem ratio honoris in utroque. Ergo est ibi diversa species duliae.</p>
+          <p xml:id="ta-l3d9q2-d1e185">Praeterea, dulia exhibetur rebus inanimatis, sicut cruci, et reliquiis, et etiam hominibus. Sed in his non potest esse una ratio honoris. Ergo dulia habet diversas species.</p>
+          <p xml:id="ta-l3d9q2-d1e188">Respondeo dicendum, quod habitus diversificantur per actus, et actus per objecta; unde ubi invenitur diversa ratio objecti, oportet quod sint actus et habitus specie differentes. Cum ergo honor debeatur alicui ratione excellentiae quam habet, et non sit ejusdem rationis excellentia in diversis; ideo oportet quod sit alia ratio honoris, et alia virtus secundum speciem, quae diversos honores exhibet: non enim idem honor debetur patri, regi et magistro, et sic de aliis, ut dicit <ref xml:id="ta-l3d9q2-Rd1e190"><name ref="#Aristotle">philosophus</name> in 9 <title ref="#Ethics">Ethic.</title></ref> Inter omnes autem alias rationes excellentiae illa est praecipua qua creatura honoratur ratione unionis ad creatorem, sicut humanitas Christi, et quae ad ipsam pertinent; et ideo speciali nomine hyperdulia nominatur, quasi superdulia ad latriam accedens.</p>
+          <p xml:id="ta-l3d9q2-d1e198">Ad primum ergo dicendum, quod excellentia creatoris est unius rationis; et ideo latria, quae hoc attendit, est una tantum. Nec est simile de dulia, cum in creaturis sint diversae rationes excellentiae.</p>
+          <p xml:id="ta-l3d9q2-d1e201">Ad secundum dicendum, quod excellentia creata non est unius rationis in specie, licet sit una secundum genus; et ideo etiam dulia per species dividitur.</p>
+          <p xml:id="ta-l3d9q2-d1e205">Ad tertium dicendum, quod obedientia respicit dominum, secundum hoc quod servus est quasi instrumentum domini, et movetur ad imperium ejus. Sed dulia non considerat rationem unam excellentiae tantum, sed omnes.</p>
+          <p xml:id="ta-l3d9q2-d1e208">Ad quartum dicendum, quod gradus excellentiae possunt accipi dupliciter: vel secundum quantitatem tantum; et sic sunt infiniti, et non diversificant speciem duliae; vel secundum rationem, et sic diversificant, et non sunt infiniti.</p>
+        </div>
+        <div xml:id="ta-l3d9q2-Dd1e212" type="articulus">
+          <head xml:id="ta-l3d9q2-Hd1e214">Articulus 3</head>
+          <head xml:id="ta-l3d9q2-Hd1e217" type="questionTitle">Utrum peccatores debeant honorari dulia</head>
+          <p xml:id="ta-l3d9q2-d1e220">Ad tertium sic proceditur. Videtur, quod peccatores non debeant honorari dulia. Honor enim duliae, ut dicit <name ref="#Aristotle">philosophus</name>, est reverentia exhibita alicui in testimonium virtutis. Sed peccatores, etiam praelati, non habent virtutem. Ergo qui eos honorant, falsum testimonium perhibent, quod est peccatum.</p>
+          <p xml:id="ta-l3d9q2-d1e226">Praeterea, Gregorius in Pastor. dicit, quod <quote xml:id="ta-l3d9q2-Qd1e228">in exemplum culpae vehementer extenditur, quando pro reverentia ordinis peccator honoratur</quote>. Hoc autem fieri non debet ut in exemplum culpa trahatur. Ergo neque praelatus peccator debet honorari.</p>
+          <p xml:id="ta-l3d9q2-d1e232">Praeterea, subditus bonus magis est Deo similis quam praelatus malus. Sed honor non exhibetur homini, nisi inquantum habet Dei similitudinem: quia rebus divinis tantum debetur honor, ut dicit <name ref="#Aristotle">philosophus</name>. Ergo minus honorandus est praelatus malus quam subditus bonus.</p>
+          <p xml:id="ta-l3d9q2-d1e239">Sed contra est quod Abraham honoravit peccatores habitantes in Sichem, quando voluit emere speluncam duplicem.</p>
+          <p xml:id="ta-l3d9q2-d1e242">Item, videtur quod Daemonibus dulia debeat exhiberi. Quia in eis manet divina imago: quia bona naturalia eis data manent lucidissima, ut dicit Dionysius. Sed ratione imaginis, homini dulia exhibetur. Ergo et Daemoni est exhibenda.</p>
+          <p xml:id="ta-l3d9q2-d1e245">Item, videtur quod irrationabilibus. Quia in eis est vestigium, quod est similitudo Dei, sicut imago, etsi non adeo expressa. Magis autem et minus non diversificant speciem. Ergo debetur eis dulia.</p>
+          <p xml:id="ta-l3d9q2-d1e248">Sed contra, videtur quod nec etiam hominibus bonis; quia dulia servitus est. Sed non hominibus servitutem debemus. Ergo nec duliam.</p>
+          <p xml:id="ta-l3d9q2-d1e251">Respondeo dicendum, quod dulia reverentiam et honorem importat quae creaturae exhiberi potest. Cum autem honor ut dicit <name ref="#Aristotle">philosophus</name>, non debeatur nisi rebus divinis, non debetur proprie et directe nisi habenti gratiam et virtutem, quae divinos facit. Sed habet aliquis virtutem multipliciter: vel sicut actu virtuosus; et huic directe debetur et proprie et secundum se honor: vel sicut habens aptitudinem naturalem ad virtutem; et sic cuilibet habenti imaginem est exhibendus honor, nisi sit confirmatus in malo, quia ligatus est in illo ordo ad virtutem: vel sicut ordinatus ad inducendum vel conservandum virtutem; et sic debetur omnibus praelatis, qui ad hoc ordinati sunt ut alios dirigant in virtutem.</p>
+          <p xml:id="ta-l3d9q2-d1e257">Ad primum ergo dicendum, quod peccatores quamvis non habeant virtutem in actu, tamen habent in habilitate; et praelati habent etiam in hoc quod sunt ordinati ad ipsam causandam, vel conservandam.</p>
+          <p xml:id="ta-l3d9q2-d1e261">Ad secundum dicendum, quod praelato, dum est in actu peccati, non debet exhiberi dulia, quia apparet in eo aliquid honori contrarium: sed ante vel post sibi dulia debet exhiberi, quia nescitur in quo statu sit.</p>
+          <p xml:id="ta-l3d9q2-d1e264">Ad tertium dicendum, quod subdito bono debetur secundum se major reverentia; sed ratione praelationis debetur major malo praelato. Et est triplex ratio: primo, quia praelatus gerit vicem Dei, unde Deus in ipso honoratur; secundo, quia ipse est persona publica, et honoratur in ipso bonitas Ecclesiae vel reipublicae, quae est major quam merita unius singularis personae; tertio, quia praelatio se habet ad virtutem sicut causa efficiens in aliis virtutem; et dignius est alterius virtutis causam existere, inquantum hujusmodi, quam virtuosum esse, ut dicit <name ref="#Aristotle">philosophus</name>.</p>
+          <p xml:id="ta-l3d9q2-d1e270">Quartum concedimus.</p>
+          <p xml:id="ta-l3d9q2-d1e273">Ad quintum dicendum, quod in Daemonibus est ligata aptitudo naturalis ad virtutem; et ideo non debet eis dulia exhiberi.</p>
+          <p xml:id="ta-l3d9q2-d1e276">Ad sextum dicendum, quod similitudo vestigii non ponit aptitudinem ad virtutem, sicut similitudo imaginis; et ideo dulia non debetur ei.</p>
+          <p xml:id="ta-l3d9q2-d1e279">Ad septimum dicendum, quod sanctis non servimus quasi obnoxii eis, sed servitute reverentiae; quia sunt nostri ductores vel per doctrinam, vel per administrationem, vel per intercessionem et exemplum: et salvatur in hoc ratio servitutis quantum ad hoc quod est causa alterius agere, sicut finis; non autem sicut moventis per coactionem vel imperium.</p>
+        </div>
+        <!-- still unclear if exposition should be child of a. 3; corpus thomisticum seems to suggest that it is -->
+        <div xml:id="ta-l3d9q2-Dd1e286">
+          <head xml:id="ta-l3d9q2-Hd1e288">Expositio textus</head>
+          <p xml:id="ta-l3d9q2-d1e291"><quote xml:id="ta-l3d9q2-Qd1e292">In dilectione, sacrificii exhibitione, et reverentia</quote>. Dilectio refertur ad honorem interiorem Deo exhibitum; sacrificia ad bona exteriora quae in ejus honorem assumuntur; reverentia, secundum quod corpus nostrum ei in obsequium damus, sicut in prostrationibus, et hujusmodi. <quote xml:id="ta-l3d9q2-Qd1e295">Una adoratione cum incontaminata carne ejus</quote>. Ergo videtur quod filius sit magis adorandus quam pater vel quam ipsemet ante incarnationem. Dicendum, quod humanitas ejus non adoratur latria nisi propter divinitatem: et ideo non facit ipsum magis adorabilem, sed plura in ipso adorari; quia hoc quod additur, ut supra dictum est, non additur ad bonitatem divinam. <quote xml:id="ta-l3d9q2-Qd1e298">Nemo carnem ejus manducat, nisi prius adoret</quote>. Loquitur de manducatione spirituali, quae sine reverentia esse non potest: non autem de sacramentali, quia potest aliquis irreverenter manducare. Vel dicendum, quod loquitur quantum ad id quod debet fieri secundum institutionem Ecclesiae, quae prius proponit carnem Christi adorandam quam tribuat manducandam; et non secundum quod abusive potest fieri.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

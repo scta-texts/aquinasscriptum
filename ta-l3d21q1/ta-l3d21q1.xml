@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum III, Distinctio 21, Quaestio 1</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.09-dev-master">
+          <title>Librum III, Distinctio 21, Quaestio 1</title>
+          <date when="2016-03-12">March 12, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-12">March 12, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness>1856 editum</witness>
+          <witness xml:id="H" n="harv245" xml:base="http://iiif.lib.harvard.edu/manifests/drs:51994085/canvas/">Cambridge, Mass.,
+            Harvard University, Houghton Library, MS Lat 245</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="2015.09">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+
+
+
+
+      <div xml:id="starts-on">
+        <cb ed="#H" n="74ra" select="dd"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ta-l3d21q1">
+        <head xml:id="ta-l3d21q1-Hd1e97">Librum III, Distinctio 21, Quaestio 1</head>
+        <div xml:id="ta-l3d21q1-Dd1e100">
+          <head xml:id="ta-l3d21q1-Hd1e102">Prooemium</head>
+          <p xml:id="ta-l3d21q1-d1e105">Postquam determinavit <name ref="#Lombard">Magister</name> de his quae Christus cum
+            humana natura assumpsit, scilicet gratia et scientia et defectibus, et de his quae per
+            humanam naturam operatus est, scilicet de meritis; hic determinat de morte quam in
+            humana natura sustinuit. Dividitur autem haec pars in duas: primo determinat ea quae ad
+            mortem Christi pertinent; secundo ea quae ad mortem Christi consequuntur, dist. 22, ibi:
+              <quote xml:id="ta-l3d21q1-Qd1e110">hic quaeritur, utrum in illo triduo mortis Christus fuerit homo</quote>. Prima
+            dividitur in duas: primo inquirit utrum mors fuerit in Christo secundum separationem
+            deitatis a carne; secundo, supposito quod non, ostenditur qua ratione Christus dicatur
+            mortuus, ibi: <quote xml:id="ta-l3d21q1-Qd1e113">recedente vero anima, mortua est Christi caro</quote>. Circa primum
+            duo facit: primo movet quaestionem; secundo determinat eam, ibi: <quote xml:id="ta-l3d21q1-Qd1e116">quidam
+              putaverunt tunc carnem sicut ab anima, ita a divinitate in morte fuisse
+              divisam</quote>. Et circa hoc duo facit: primo excludit errorem; secundo veritatem
+            confirmat, ibi: <quote xml:id="ta-l3d21q1-Qd1e119">sicut Augustinus super Joan (...) ait</quote>. Circa primum duo
+            facit: primo excludit probationem erroris sumptam ex ratione et auctoritate Augustini;
+            secundo probationem sumptam ex auctoritate Athanasii, ibi: <quote xml:id="ta-l3d21q1-Qd1e123">alii quoque
+              auctoritati innituntur</quote>. Circa primum tria facit: primo ponit rationem ipsorum;
+            secundo auctoritatem quae videtur pro eis facere, ibi: <quote xml:id="ta-l3d21q1-Qd1e126">huic suae probabilitati
+              addunt auctoritatis testimonium</quote>; tertio solvit, ibi: <quote xml:id="ta-l3d21q1-Qd1e129">quibus
+              respondemus. Alii quoque auctoritati innituntur</quote>. Hic tria facit: primo ponit
+            objectionem ex auctoritate Athanasii; secundo ostendit quod illa auctoritas non facit
+            pro eis, ibi: <quote xml:id="ta-l3d21q1-Qd1e132">quibus respondemus</quote>; tertio auctoritatem Athanasii exponit,
+            ibi: <quote xml:id="ta-l3d21q1-Qd1e135">sciendum est igitur</quote>. Hic est duplex quaestio. Prima de morte
+            Christi. Secunda de resurrectione ejus. Circa primum quaeruntur tria: 1 utrum in morte
+            Christi fuerit separata deitas ab humanitate; 2 utrum corpus Christi fuerit dissolutum,
+            vel incineratum; 3 utrum debeat simpliciter concedi quod Christus, vel filius Dei, sit
+            mortuus.</p>
+        </div>
+        <div xml:id="ta-l3d21q1-Dd1e140" type="articulus">
+          <head xml:id="ta-l3d21q1-Hd1e142">Articulus 1</head>
+          <head xml:id="ta-l3d21q1-Hd1e145" type="questionTitle">Utrum in morte Christi deitas a carne separata sit</head>
+          <div xml:id="ta-l3d21q1-Dd1e148">
+            <head xml:id="ta-l3d21q1-Hd1e150">Quaestiuncula 1</head>
+            <p xml:id="ta-l3d21q1-d1e153">Ad primum sic proceditur. Videtur quod in morte Christi deitas a carne separata sit.
+              Remoto enim medio separantur extrema quae per medium conjunguntur. Sed, sicut in 2
+              dist., quaest. 2, art. 2, quaestiunc. 1, dictum est, divinitas conjungebatur carni
+              mediante anima. Ergo separata anima a carne, separatur etiam divinitas.</p>
+            <p xml:id="ta-l3d21q1-d1e156">Praeterea, sicut in 2 dist., qu. 1, art. 3, quaestiunc. 2, dictum est, corpus
+              insensibile non est assumptibile. Sed separata anima, caro remanet quoddam corpus
+              insensibile. Ergo non potuit remanere deitati unita, cum nihil possit esse unitum quod
+              non est assumptibile.</p>
+            <p xml:id="ta-l3d21q1-d1e159">Praeterea, nulla res est mortua quae habet in se vitam. Sed si deitas in morte a
+              carne separata non fuisset, habuisset in se vitam, quae etiam est fons indeficiens
+              vitae. Ergo mortua non fuisset.</p>
+            <p xml:id="ta-l3d21q1-d1e162">Praeterea, unio humanae naturae ad divinam est per gratiam. Sed corpus non est capax
+              gratiae nisi mediante anima. Ergo corpus, separata anima, non potest remanere deitati
+              unitum.</p>
+            <p xml:id="ta-l3d21q1-d1e166">Sed contra, filius dicitur jacuisse in sepulcro: alias de hoc non esset fides, quae
+              habet objectum veritatem increatam. Sed hoc non dicitur nisi quia corpus in sepulcro
+              fuit. Ergo deitas a corpore separata non fuit.</p>
+            <p xml:id="ta-l3d21q1-d1e169">Praeterea, Leo Papa dicit: <quote xml:id="ta-l3d21q1-Qd1e171">tanta fuit unio Dei et hominis, ut nec supplicio
+                posset diminui, nec morte distingui</quote>. Sed supplicium pati et mori corporis
+              est. Ergo corpus in morte a divinitate non est separatum.</p>
+          </div>
+          <div xml:id="ta-l3d21q1-Dd1e176">
+            <head xml:id="ta-l3d21q1-Hd1e178">Quaestiuncula 2</head>
+            <p xml:id="ta-l3d21q1-d1e181">Ulterius. Videtur quod deitas sit separata ab anima. Utraque enim mors, ut dicitur in
+              littera, scilicet qua separatur corpus ab anima, et qua separatur anima a Deo, Diaboli
+              suasu homini propinata est. Sed Christus in se accepit mortem, qua separatur corpus ab
+              anima, ut a nobis excluderet quod suasu Daemonis in nobis devenit. Ergo simpliciter
+              debuit pati mortem, quae est separatio animae a deitate.</p>
+            <p xml:id="ta-l3d21q1-d1e184">Praeterea, quicumque deponit aliquid, illud a se separat. Sed filius Dei dicit de
+              seipso, Joan. 10, 10: <quote xml:id="ta-l3d21q1-Qd1e186">ego pono animam meam</quote>. Ergo eam a se
+              separavit.</p>
+            <p xml:id="ta-l3d21q1-d1e190">Praeterea, sicut supra, dist. 5, qu. 1, art. 1, quaestiunc. 3, dictum est, uniens est
+              unitum sicut ratione unionis Deus est homo. Si igitur anima esset Deo unita post
+              mortem; posset dici, quod Deus esset anima.</p>
+            <p xml:id="ta-l3d21q1-d1e193">Praeterea, ratione unionis Dei ad hominem est communicatio idiomatum, ut dicit
+              Damascenus. Sed animae idiomata non dicuntur de filio Dei: non enim potest dici, quod
+              filius Dei sit forma corporis. Ergo non remanet post mortem anima verbo unita.</p>
+            <p xml:id="ta-l3d21q1-d1e197">Praeterea, si esset verbum unitum animae et corpori, cum illa sint ad invicem divisa,
+              essent duae uniones verbi ad illa duo. Sed ante mortem erat tantum una unio. Ergo
+              aliqua unio facta est de novo in morte Christi; quod est inconveniens.</p>
+            <p xml:id="ta-l3d21q1-d1e200">Praeterea, anima et corpus separata fuerunt duo quaedam. Si ergo verbum utrique
+              unitum remansit, videtur quod fuerunt duo vel tria Christus in morte: quia uniens est
+              unitum.</p>
+            <p xml:id="ta-l3d21q1-d1e203">Sed contra, major est conjunctio animae ad Deum per unionem in persona quam quae est
+              per fruitionem. Sed anima Deo conjuncta per fruitionem, nunquam ab ipso separatur.
+              Ergo multo minus conjuncta ei per unionem in persona.</p>
+            <p xml:id="ta-l3d21q1-d1e206">Praeterea, filius Dei dicitur descendisse ad Inferos. Sed hoc non convenit sibi nisi
+              ratione animae. Ergo filius Dei post mortem habuit animam sibi unitam.</p>
+          </div>
+          <div xml:id="ta-l3d21q1-Dd1e210">
+            <head xml:id="ta-l3d21q1-Hd1e212">Quaestiuncula 1</head>
+            <p xml:id="ta-l3d21q1-d1e215">Respondeo dicendum ad primam quaestionem, quod corpus Christi in morte non fuit
+              separatum a deitate: cujus ratio ex tribus accipi potest. Primo ex parte Dei: quia cum
+              sit immutabilis, ei quod perfecte sibi conjunctum est incommutabilitatem praestat, ut
+              scilicet immutabiliter ei adhaereat. Secundo ex parte ipsius assumpti: quia per
+              mortem, quam ex obedientia patris sustinuit, non debuit suam dignitatem amittere, sed
+              magis clarificari. Tertio ex fine assumptionis: quia ea quae post mortem ipsius circa
+              ipsum acta sunt, salutaria nobis non fuissent, nisi deitas adjuncta esset.</p>
+            <p xml:id="ta-l3d21q1-d1e218">Ad primum ergo dicendum, quod sicut supra, dist. 2, qu. 2, art. 1, quaestiunc. 1,
+              dictum est, anima quantum ad unibilitatem corporis, est medium necessitatis: quia
+              corpus non esset unibile nisi inquantum est animatum: sed quantum ad unionem in actu,
+              est medium congruentiae, quo remoto, non necessario unio tollitur, ut supra, dist. 2,
+              dictum est; et ideo, quia separata anima a corpore, adhuc remansit in corpore ordo ad
+              animam, et unibile remansit et unitum.</p>
+            <p xml:id="ta-l3d21q1-d1e221">Ad secundum dicendum, quod quamvis esset actu insensibile, tamen hoc habebat supra
+              alia corpora insensibilia quod inerat ei ordo ad animam humanam.</p>
+            <p xml:id="ta-l3d21q1-d1e224">Ad tertium dicendum, quod deitas non potest esse forma corporis. Ad hoc autem quod
+              corpus sit vivum, oportet quod sit aliquid vivificans formaliter.</p>
+            <p xml:id="ta-l3d21q1-d1e228">Ad quartum dicendum, quod corpus non est susceptivum gratiae habitualis: quia illa
+              ordinatur ad actus spirituales, qui non possunt corpori communicari. Haec autem gratia
+              est medium congruentiae ad unionem ex parte animae. Sed gratia unionis, quae est ipsa
+              unio gratis facta, potest esse in corpore: quia ista gratia ordinat ad esse in persona
+              divina, cujus particeps est corpus, sicut et anima; ideo etiam corpus potest remanere
+              unitum, anima separata; in quo etiam manet aliquis ordo ad gloriam ex eo quod fuit
+              instrumentum animae habentis gratiam, ut dictum est; ut sic etiam habitualis gratia
+              quodammodo in corpus redundet, ut supra, dist. 13, dictum est.</p>
+          </div>
+          <div xml:id="ta-l3d21q1-Dd1e233">
+            <head xml:id="ta-l3d21q1-Hd1e235">Quaestiuncula 2</head>
+            <p xml:id="ta-l3d21q1-d1e238">Ad secundam quaestionem dicendum, quod propter easdem rationes anima a verbo in morte
+              Christi separata non fuit, et adhuc amplius, inquantum anima immediatius et pluribus
+              modis verbo unitur quam corpus.</p>
+            <p xml:id="ta-l3d21q1-d1e241">Ad primum ergo dicendum, quod mors animae est secundum separationem animae a Deo per
+              peccatum, opposita conjunctioni quae est per caritatem; quam mortem Christum assumere
+              non decuit sicut nec peccatum, ut supra, dist. 15, qu. 1, art. 1, dictum est; et ideo
+              haec ratio non est ad propositum: quia etiam si esset separatio perfecta animae a
+              verbo quantum ad conjunctionem quae est in persona, adhuc anima non esset mortua sed
+              viva, inquantum remaneret Deo per caritatem conjuncta.</p>
+            <p xml:id="ta-l3d21q1-d1e244">Ad secundum dicendum, quod filius Dei dicitur animam ponere, non quidem a se, sed a
+              carne, a qua in morte separata fuit.</p>
+            <p xml:id="ta-l3d21q1-d1e247">Ad tertium dicendum, quod anima non nominat personam, sed partem naturae; unde anima
+              non est unita verbo sicut importans id in quo facta est unio, sicut est de hoc nomine
+              homo; et ideo non potest dici quod filius Dei sit anima, sicut potest dici quod sit
+              homo, secundum quod est habens animam.</p>
+            <p xml:id="ta-l3d21q1-d1e251">Ad quartum dicendum, quod sicut ea quae dicuntur de natura humana secundum rationem
+              naturae non possunt praedicari de filio Dei, ut quod dicitur esse communis Christo et
+              aliis hominibus; ita etiam ea quae praedicantur de anima Christi inquantum est pars
+              naturae, non possunt dici de filio Dei, sicut quod est forma, vel aliquid hujusmodi.
+              Ea autem quae praedicantur de ipsa inquantum est quid subsistens, possunt de filio Dei
+              praedicari, sicut quod descendit ad Inferos, et alia hujusmodi.</p>
+            <p xml:id="ta-l3d21q1-d1e254">Ad quintum dicendum, quod, sicut supra, dist. 8, quaest. 1, art. 5, dictum est,
+              relationes secundum rem multiplicantur secundum multiplicationem illorum supra quae
+              fundantur elationes; unde contingit quod relatio ex parte unius extremi est una, quae
+              ex parte alterius multiplicatur, sicut de illo qui una paternitate ad multos filios
+              refertur, qui ad ipsum multis filiationibus referuntur. Ita etiam est hoc: quia ex
+              parte ipsius filii Dei est una tantum, quamvis non sit ex parte ipsius relatio realis,
+              sed rationis tantum; ex parte autem assumptorum, quae divisa sunt, sunt duae uniones
+              in actu post mortem; ante autem erat una in actu, et multae in potentia: unde non
+              oportet quod aliqua unio fiat ibi de novo, sicut nec in divisione continui fit aliquid
+              de novo, inquantum id quod prius erat multa potentia, unum autem actu, fit actu
+              plura.</p>
+            <p xml:id="ta-l3d21q1-d1e257">Ad sextum dicendum, quod sicut humana natura non est hypostasis in Christo, quamvis
+              possit dici singulare et individuum, ut supra, dist. 6, qu. 1, art. 1, dictum est; ita
+              etiam anima et corpus non sunt duae completae hypostases, sed unitae uni hypostasi
+              filii Dei; quamvis possint dici duo singularia, vel duo individua. Sed non sequitur ex
+              hoc quod Christus sit duo: quia neutrum illorum de Christo praedicatur, vel de filio
+              Dei.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l3d21q1-Dd1e262" type="articulus">
+          <head xml:id="ta-l3d21q1-Hd1e264">Articulus 2</head>
+          <head xml:id="ta-l3d21q1-Hd1e267">Utrum corpus Christi post mortem debuerit dissolvi</head>
+          <p xml:id="ta-l3d21q1-d1e270">Ad secundum sic proceditur. Videtur quod corpus Christi post mortem debuit dissolvi,
+            sive incinerari. Hebr. 2, 17, dicitur: <quote xml:id="ta-l3d21q1-Qd1e272" ana="#hebr2_17">Christus debuit per omnia fratribus
+              assimilari</quote>. Sed alii homines, qui dicuntur fratres Christi, secundum corpus
+            incinerantur. Ergo et corpus Christi incinerari debuit.</p>
+          <p xml:id="ta-l3d21q1-d1e276">Praeterea, sicut separatio animae a carne fuit inflicta homini propter peccatum primi
+            parentis, ita etiam incineratio: quia dicitur Genes. 3, 19: <quote xml:id="ta-l3d21q1-Qd1e278" ana="#gen3_19">terra es, et in
+              terram ibis</quote>. Sed Christus pro nobis sustinuit mortem, ut debitum naturae
+            solveret. Ergo similiter corpus ejus incinerari debuit.</p>
+          <p xml:id="ta-l3d21q1-d1e282">Praeterea, humilitas est meritum exaltationis, Philipp. 2. Sed corpus Christi fuit
+            maxime exaltandum. Ergo debuit usque ad incinerationem humiliari.</p>
+          <p xml:id="ta-l3d21q1-d1e286">Praeterea, omne compositum ex contrariis, naturaliter est dissolubile in contraria. Sed
+            corpus Christi fuit ex contrariis compositum, quia fuit ejusdem naturae cujus sunt
+            corpora nostra. Ergo cum incineratio nihil aliud sit quam resolutio corporis in
+            contraria ex quibus constituitur, videtur quod corpus Christi incinerari debuit.</p>
+          <p xml:id="ta-l3d21q1-d1e289">Praeterea, anima non recedit a corpore quamdiu in corpore manet aequalitas
+            complexionis, quae requiritur ut dispositio in corpore animato: quia per hanc
+            dispositionem materia fit necessaria ad talem formam. Sed in morte Christi anima
+            recessit a corpore. Ergo in corpore non remansit illa aequalitas quae exigitur ad
+            corpoream animationem. Sed ablata aequalitate complexionis, unum contrarium superat
+            aliud, et sic sequitur corporis dissolutio et incineratio. Ergo corpus Christi fuit
+            corruptum et incineratum.</p>
+          <p xml:id="ta-l3d21q1-d1e292">Sed contra, <ref xml:id="ta-l3d21q1-Rd1e294"><title ref="#ps">Psalm.</title> 15, 10:</ref>
+            <quote xml:id="ta-l3d21q1-Qd1e299" ana="#ps15_10">non dabis sanctum tuum videre corruptionem</quote>. Hoc autem non
+            potest intelligi de corruptione mortis, quia ipse mortuus fuit. Ergo intelligitur de
+            corruptione incinerationis.</p>
+          <p xml:id="ta-l3d21q1-d1e303">Praeterea, corpori non debetur incineratio nisi propter corruptionem fomitis. Sed in
+            Christo nunquam fuit corruptio fomitis: quia natus et conceptus fuit sine originali.
+            Ergo corpus Christi non debuit incinerari.</p>
+          <p xml:id="ta-l3d21q1-d1e306">Praeterea, anima conjuncta corpori ipsum servat ab incineratione. Sed virtus divina est
+            major quam virtus animae. Ergo cum corpori sit conjuncta deitas, videtur quod non debuit
+            incinerari.</p>
+          <p xml:id="ta-l3d21q1-d1e309">Respondeo dicendum, quod mors et incineratio et hujusmodi defectus sunt poenae
+            originalis peccati: in Christo autem nunquam fuit originale: unde Christus non contraxit
+            hujusmodi defectus ex necessitate suae originis, quia sine originali conceptus fuit. Nec
+            in eo fuerunt quia ipse esset debitor eorum, quia peccatum in eo nunquam fuit: sed
+            voluntarie defectus humanae naturae assumpsit ad complendum opus nostrae redemptionis et
+            ut in his nobis mereretur. Unde cum opus redemptionis esset in passione completum, quia
+            dixit: <quote xml:id="ta-l3d21q1-Qd1e311">consummatum est</quote>, Joan. 19, 30, et corpus sine anima non est in
+            statu merendi, ideo corpus ejus incineratum non fuit.</p>
+          <p xml:id="ta-l3d21q1-d1e316">Ad primum ergo dicendum, quod assimilatio illa intelligitur quantum ad illa quae sunt
+            de veritate naturae, et quantum ad ea quae pertinent ad opus redemptionis.</p>
+          <p xml:id="ta-l3d21q1-d1e319">Ad secundum dicendum, quod per passionem, qua separata est anima a carne, removit a
+            nobis mortem, et omnes alios defectus humanae naturae, quantum ad sufficientiam causae;
+            et ideo non oportuit quod ad removendum incinerationem corpus ejus incineraretur.</p>
+          <p xml:id="ta-l3d21q1-d1e322">Ad tertium dicendum, quod humilitas illa fuit necessaria ante opus redemptionis, et
+            quando Christus erat in statu merendi, non autem post, ut dictum est.</p>
+          <p xml:id="ta-l3d21q1-d1e325">Ad quartum dicendum, quod compositum ex contrariis, necessario in ipsa resolvitur, nisi
+            sit aliquid prohibens. In Christo autem erat aliquid prohibens, scilicet virtus
+            divinitatis, et puritas a corruptione fomitis.</p>
+          <p xml:id="ta-l3d21q1-d1e328">Ad quintum dicendum, quod quamvis illa temperies complexionis, quae est necessitas ad
+            formam animae, fuerit amota in morte; non tamen inde secuta est dissolutio et
+            putrefactio corporis, ratione praedicta.</p>
+        </div>
+        <div xml:id="ta-l3d21q1-Dd1e332" type="articulus">
+          <head xml:id="ta-l3d21q1-Hd1e334">Articulus 3</head>
+          <head xml:id="ta-l3d21q1-Hd1e337">Utrum filius Dei debeat dici mortuus</head>
+          <p xml:id="ta-l3d21q1-d1e340">Ad tertium sic proceditur. Videtur quod Christus, vel filius Dei, non debeat dici
+            mortuus. Ea enim quae habent repugnantiam intellectuum ad filium Dei, de eo non
+            praedicantur. Sed cum Dei filius sit vita, sicut dicitur Joan. 14, mortuum esse habet
+            repugnantiam intellectus cum ipso. Ergo non debet dici quod sit mortuus.</p>
+          <p xml:id="ta-l3d21q1-d1e343">Praeterea, esse creatum convenit alicui, secundum quod est a Deo; sed corrumpi,
+            secundum quod est ex nihilo. Ergo magis pertinent ad defectum creaturae ea quae
+            corruptionem important, quam nomen creaturae. Sed nomen creaturae non dicitur de
+            Christo, ut supra, dist. 11, dictum est. Ergo multo minus potest dici quod sit
+            mortuus.</p>
+          <p xml:id="ta-l3d21q1-d1e346">Praeterea, filius Dei est divina essentia. Sed non potest dici quod divina essentia sit
+            mortua. Ergo non debet dici, quod filius Dei sit mortuus.</p>
+          <p xml:id="ta-l3d21q1-d1e350">Praeterea, contradictoria non sunt vera de eodem. Sed de filio Dei vere dicitur quod
+            est immortalis, et per consequens non est mortuus. Ergo non potest dici quod fuerit
+            mortuus.</p>
+          <p xml:id="ta-l3d21q1-d1e353">Praeterea, illud quod est partis, non praedicatur de toto. Sed mori est corporis, a quo
+            anima separatur. Ergo videtur quod Christus non possit dici mortuus.</p>
+          <p xml:id="ta-l3d21q1-d1e356">Sed contra est quod dicitur in symbolo: <quote xml:id="ta-l3d21q1-Qd1e358">crucifixus, mortuus, et
+            sepultus</quote>.</p>
+          <p xml:id="ta-l3d21q1-d1e362">Praeterea, nullus homo dicitur mortuus nisi ex eo quod anima ejus a corpore separata
+            est. Sed anima Christi est a corpore separata. Ergo ipse est mortuus.</p>
+          <p xml:id="ta-l3d21q1-d1e365">Praeterea, sicut supra dictum est, redemptio non potuit convenienter fieri nisi per
+            mortem filii Dei. Ergo si ipse non est mortuus, videtur quod non simus adhuc redempti;
+            quod est haereticum.</p>
+          <p xml:id="ta-l3d21q1-d1e368">Respondeo dicendum, quod sicut supra, dist. 11, quaest. 1, art. 4, dictum est, ea quae
+            solum ad naturam pertinent, simpliciter et sine determinatione de Christo dici possunt.
+            Mors autem in nobis est secundum separationem animae a corpore, et passio est secundum
+            laesionem corporis, vel etiam secundum immutationem animae, quae sunt partes humanae
+            naturae: et ideo simpliciter concedendum est quod Christus mortuus est et passus.</p>
+          <p xml:id="ta-l3d21q1-d1e372">Ad primum ergo dicendum, quod non est ibi aliqua repugnantia intellectuum, quia mors,
+            cum sit conditio naturae, refertur ad humanam; unde non opponitur divinae vitae.</p>
+          <p xml:id="ta-l3d21q1-d1e375">Ad secundum dicendum, quod nomen creaturae non magis se habet ad naturam quam ad
+            personam; et ideo non potest dici simpliciter ratione naturae, sicut supra dictum est;
+            praecipue cum creatio respiciat esse, quod magis videtur pertinere ad suppositum quam ad
+            naturam: et ideo quod magis vel minus ad defectum pertineat, non facit ad
+            propositum.</p>
+          <p xml:id="ta-l3d21q1-d1e378">Ad tertium dicendum, quod unio non est facta in natura, sed in persona; et ideo ea quae
+            sunt naturae, possunt praedicari de persona, non autem de alia natura.</p>
+          <p xml:id="ta-l3d21q1-d1e381">Ad quartum dicendum, quod haec est simpliciter vera, filius Dei, vel Christus est
+            immortalis; et similiter, filius Dei est mortuus: quia ea quae sunt utriusque naturae,
+            possunt affirmari de persona. Sed tamen haec, Christus non est mortuus, est vera
+            secundum quid, et falsa simpliciter: quia ad veritatem affirmativae sufficit quod
+            secundum aliquam naturam conveniat quod de persona dicitur, sed ad veritatem negativae
+            oportet quod secundum neutram conveniat; unde haec est falsa simpliciter, Christus non
+            est animal, et vera secundum quid, scilicet secundum divinam. Non est autem inconveniens
+            quod unum contradictoriorum dicatur de aliquo simpliciter, et alterum secundum quid.</p>
+          <p xml:id="ta-l3d21q1-d1e384">Ad quintum dicendum, quod ea quae sunt partis tantum, et parti nata convenire, dicuntur
+            de toto ratione partis; sicut homo dicitur Crispus propter capillos: et ita mors, quae
+            est conditio corporis, de persona potest praedicari. Tamen sciendum est, quod sicut
+            generari est compositi, ita et corrumpi; quamvis subjectum generationis et corruptionis
+            sit materia.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum III, Distinctio 31, Quaestio 2</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.09-dev-master">
+          <title>Librum III, Distinctio 31, Quaestio 2</title>
+          <date when="2016-03-13">March 13, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-13">March 13, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness>1856 editum</witness>
+          <witness xml:id="H" n="harv245" xml:base="http://iiif.lib.harvard.edu/manifests/drs:51994085/canvas/">Cambridge, Mass.,
+            Harvard University, Houghton Library, MS Lat 245</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="2015.09">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+
+
+
+
+      <div xml:id="starts-on">
+        <cb ed="#H" n="116vb"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ta-l3d31q2">
+        <head xml:id="ta-l3d31q2-Hd1e97">Librum III, Distinctio 31, Quaestio 2</head>
+        <head xml:id="ta-l3d31q2-Hd1e100" type="questionTitle">De evacuatione caritatis per gloriam</head>
+        <div xml:id="ta-l3d31q2-Dd1e103">
+          <head xml:id="ta-l3d31q2-Hd1e105">Prooemium</head>
+          <p xml:id="ta-l3d31q2-d1e108">Deinde quaeritur de evacuatione caritatis per gloriam; et circa hoc quaeruntur quatuor:
+            1 utrum fides et spes evacuentur gloria adveniente; 2 utrum caritas; 3 utrum ordo
+            caritatis; 4 utrum scientia.</p>
+        </div>
+        <div xml:id="ta-l3d31q2-Dd1e112" type="articulus">
+          <head xml:id="ta-l3d31q2-Hd1e114">Articulus 1</head>
+
+          <head xml:id="ta-l3d31q2-Hd1e117" type="questionTitle">Utrum fides evacuetur in patria</head>
+          <div xml:id="ta-l3d31q2-Dd1e120">
+            <head xml:id="ta-l3d31q2-Hd1e122">Quaestiuncula 1</head>
+            <p xml:id="ta-l3d31q2-d1e125">Ad primum sic proceditur. Videtur quod fides non evacuetur. Fides enim est
+              fundamentum spiritualis aedificii. Sed fundamentum immobile manet, quidquid
+              superaedificetur. Ergo fides non evacuatur adveniente gloria.</p>
+            <p xml:id="ta-l3d31q2-d1e128">Praeterea, nihil expellitur nisi a suo contrario. Sed gloria non est contraria fidei.
+              Ergo adveniente gloria non evacuatur fides.</p>
+            <p xml:id="ta-l3d31q2-d1e131">Praeterea, perfectum et imperfectum circa ea quae sunt diversa specie, bene se
+              compatiuntur in eodem, sicut quod homo habeat perfectam geometriam, et imperfectam
+              grammaticam. Sed visio gloriae et fides sunt alterius speciei. Ergo visio gloriae non
+              expellit fidem.</p>
+            <p xml:id="ta-l3d31q2-d1e134">Praeterea, opinio et scientia habent se sicut cognitio perfecta et imperfecta; et
+              similiter cognitio matutina et vespertina in Angelis. Sed in hominibus manent simul
+              scientia et opinio; et in Angelis simul cognitio matutina et vespertina. Ergo fides
+              manet cum visione patriae.</p>
+            <p xml:id="ta-l3d31q2-d1e138">Sed contra est quod apostolus dicit 1 Corinth. 13.</p>
+            <p xml:id="ta-l3d31q2-d1e141">Praeterea, fides est non apparentium. Sed in patria nihil erit non apparens eorum
+              quorum est fides. Ergo ibi fides non erit.</p>
+          </div>
+          <div xml:id="ta-l3d31q2-Dd1e145">
+            <head xml:id="ta-l3d31q2-Hd1e147">Quaestiuncula 2</head>
+            <p xml:id="ta-l3d31q2-d1e150">Ulterius. Videtur quod nec spes evacuetur. Quia sicut se habet spes ad bona, ita se
+              habet timor ad mala. Sed in damnatis semper manebit timor servilis. Ergo et similiter
+              in beatis manebit spes.</p>
+            <p xml:id="ta-l3d31q2-d1e153">Praeterea, Eccli. 24, 29: <quote xml:id="ta-l3d31q2-Qd1e155">qui edunt me adhuc esurient</quote>; et loquitur de
+              fruitione divinae sapientiae quae erit in patria. Sed esuriens expectat aliquid in
+              futurum. Ergo sancti expectabunt aliquid in futurum etiam de praemio substantiali.</p>
+            <p xml:id="ta-l3d31q2-d1e159">Praeterea, in fide quae evacuatur, invenitur aliquid commune fidei et gloriae,
+              scilicet visio. Sed non invenitur aliquid in spe quod possit in patria esse: quia id
+              quod est substantia spei, est expectatio, quae non manebit in patria. Ergo videtur
+              quod non evacuetur spes.</p>
+            <p xml:id="ta-l3d31q2-d1e162">Sed contra, Rom. 8, 24: <quote xml:id="ta-l3d31q2-Qd1e164" ana="#rom8_24">quod videt quis quid sperat?</quote> Sed sancti
+              videbunt in patria quidquid expectaverunt. Ergo spes in eis non erit.</p>
+            <p xml:id="ta-l3d31q2-d1e169">Praeterea, spes est expectatio beatitudinis futurae. Sed beatitudo in patria jam non
+              erit futura. Ergo neque spes erit ibi.</p>
+          </div>
+          <div xml:id="ta-l3d31q2-Dd1e173">
+            <head xml:id="ta-l3d31q2-Hd1e175">Quaestiuncula 3</head>
+            <p xml:id="ta-l3d31q2-d1e178">Ulterius. Videtur quod aliquid de substantia habitus fidei et spei remanebit idem
+              numero. Quia in omni mutatione oportet esse aliquid commune utrique terminorum. Sed
+              fides et spes mutantur in bona gloriae. Ergo oportet quod aliquid de substantia
+              habitus fidei et spei maneat idem numero.</p>
+            <p xml:id="ta-l3d31q2-d1e181">Praeterea, sicut caritas adveniens opponitur fidei informi non secundum substantiam
+              fidei, sed secundum informitatem; ita gloria adveniens opponitur fidei non secundum
+              substantiam visionis, sed secundum imperfectionem tantum. Sed caritas adveniens tollit
+              informitatem et remanet idem habitus numero fidei quantum ad substantiam, ut supra
+              dictum est, dist. 23, quaest. 3, art. 4, quaestiunc. 1. Ergo et similiter gloria
+              adveniens tollit tantum imperfectionem, et dimittit eamdem substantiam habitus
+              numero.</p>
+            <p xml:id="ta-l3d31q2-d1e184">Praeterea, quando scientia imperfecta crescit in perfectam, non tollitur substantia
+              scientiae: similiter nec substantia corporis, quando ex puero fit vir; sed manet idem
+              homo. Sed apostolus evacuationem fidei comparat perfectioni scientiae et aetatis. Ergo
+              substantia fidei manet eadem numero.</p>
+            <p xml:id="ta-l3d31q2-d1e187">Sed contra, formae quando destruuntur, sicut ex nihilo totaliter sunt, ita totaliter
+              in nihilum tendunt. Sed fides et spes cum sint habitus, formae quaedam sunt. Ergo cum
+              adveniente gloria destruantur, ut dicit apostolus, videtur quod nihil ipsarum maneat
+              secundum numerum idem.</p>
+            <p xml:id="ta-l3d31q2-d1e191">Praeterea, impossibile est quod aliquid sit idem numero quod non sit idem specie,
+              sicut dicit philosophus de fide et opinione in 4 Topicor. Sed visio patriae et fides
+              differunt specie multo plus quam fides et opinio. Ergo visio fidei et patriae non est
+              idem numero.</p>
+          </div>
+          <div xml:id="ta-l3d31q2-Dd1e196">
+            <head xml:id="ta-l3d31q2-Hd1e198">Quaestiuncula 1</head>
+            <p xml:id="ta-l3d31q2-d1e201">Respondeo dicendum ad primam quaestionem, quod in fide est cognitio quaedam et modus
+              cognoscendi, quia cognoscit in speculo et in aenigmate; modus autem imperfectionis
+              est, et obscuritatem importat. Unde cum gloria adveniens omnem imperfectionem et
+              obscuritatem tollat, tollet quidem modum fidei quantum ad modum cognoscendi, sed
+              remanebit cognitio eorum quorum est fides, non quidem jam aenigmatica, sed clara.</p>
+            <p xml:id="ta-l3d31q2-d1e204">Ad primum ergo dicendum, quod quantum ad id quod habet de cognitione, fides est
+              fundamentum, non quantum ad id quod habet de aenigmate; unde quantum ad id quod est
+              fundamentum, manebit.</p>
+            <p xml:id="ta-l3d31q2-d1e207">Ad secundum dicendum, quod quamvis gloriae visio non sit contraria fidei quantum ad
+              id quod habet de cognitione, est tamen sibi contraria quantum ad id quod habet de
+              aenigmate; et ex hac parte eam expellit.</p>
+            <p xml:id="ta-l3d31q2-d1e210">Ad tertium dicendum, quod perfectio et imperfectio cognitionis circa diversa bene se
+              compatiuntur, sed non circa idem; et ideo aliquis potest habere simul imperfectam
+              cognitionem de his quae pertinent ad unum, et perfectam de his quae pertinent ad
+              aliud. Sed non est simile in proposito; quia fides et visio gloriae est de eodem.</p>
+            <p xml:id="ta-l3d31q2-d1e214">Ad quartum dicendum, quod opinio et scientia, quamvis sint de eodem, non tamen
+              secundum idem medium, sed secundum diversa; et ideo possunt esse simul; sed fides et
+              visio patriae sunt de eodem, et secundum idem medium: quia fides assentit veritati
+              primae propter se, et similiter visio gloriae; et ideo perfectio unius non patitur
+              imperfectionem alterius. Cognitio autem matutina et vespertina quamvis sint de eodem
+              secundum rem, non tamen sunt de eodem secundum idem esse; quia cognitio matutina est
+              de re secundum quod habet esse in verbo; cognitio autem vespertina de re secundum quod
+              habet esse in propria natura; et ideo non est simile.</p>
+          </div>
+          <div xml:id="ta-l3d31q2-Dd1e218">
+            <head xml:id="ta-l3d31q2-Hd1e220">Quaestiuncula 2</head>
+            <p xml:id="ta-l3d31q2-d1e223">Ad secundam quaestionem dicendum, quod de habitibus oportet ex actibus judicium
+              sumere. Est autem duplex actus; scilicet actus qui est actus imperfecti inquantum
+              hujusmodi, sicut motus; et actus qui est actus perfecti inquantum hujusmodi, sicut
+              operatio consequens formam. Contingit autem quandoque quod actus perfecti inveniantur
+              in imperfecto secundum quod jam participat aliquid de perfectione, sicut aliquid de
+              actu albi est in pallido. Quando ergo imperfectum ad perfectionem venit, actus qui est
+              ejus inquantum habet aliquid de perfectione in quam tendebat, manet quantum ad id quod
+              est substantia actus, sed tollitur quantum ad id quod erat de imperfectione actus;
+              sicut loquela balbutientis pueri tollitur, quando venit ad perfectam aetatem, quantum
+              ad id quod imperfectionis erat in ipso; manet autem quidquid erat de perfectione et de
+              substantia loquelae. Sed motus qui est actus imperfecti, quando pervenitur ad terminum
+              motus, non manet quantum ad aliquid substantiae actus, sed quantum ad radicem,
+              secundum quam motus inerat, quae erat proportio quaedam et ordo imperfecti ad
+              perfectionem. Cognitio autem, inquantum hujusmodi, importat actum perfecti; et ideo
+              cognitio quae habetur in statu imperfectionis, manet quantum ad id quod cognitionis
+              est, imperfectione sublata. Spes autem inquantum tendit in arduum quod est nondum
+              habitum, et futurum expectatum, est sicut actus imperfecti, cum sit quasi quidam
+              motus; et ideo cum ad perfectum venerit, non manet id quod expectationis aut spei est;
+              sed hoc tantum in quo haec expectatio radicabatur, scilicet ordo et proportio ipsius
+              hominis ad illa jam habita, quorum, dum non habebantur, erat spes; et ideo non ponitur
+              aliquid speciale succedens spei, sed tentio sive comprehensio beatitudinis, quae dicit
+              ordinem hominis ad Deum jam habitum, cujus non habiti erat spes; unde ordo iste
+              communis est utrobique; et quantum ad hunc ordinem spes manet, sed quantum ad naturam
+              actus sui transit.</p>
+            <p xml:id="ta-l3d31q2-d1e226">Ad primum igitur dicendum, quod illi qui erunt in poenis, cum sint remoti a
+              participatione aeternitatis, erunt semper in motu et successione; et propter hoc
+              poterit esse timor futuri mali. Sed illi qui erunt in patria, erunt maxime quantum ad
+              praemium substantiale in participatione aeternitatis; et ideo secundum hoc non erit in
+              eis aliquid de praemio futuri, sed totum simul habent; unde non remanet in eis
+              spes.</p>
+            <p xml:id="ta-l3d31q2-d1e229">Ad secundum dicendum, quod illa fames non importat expectationem futuri, sed aufert
+              fastidium jam habiti. Unde respectu praemii substantialis non erit ibi expectatio, sed
+              fruitio plena: sed respectu aliquorum accidentalium, vel etiam stolae corporis,
+              poterit ibi esse expectatio, sed non spes, ut supra, 26 dist., quaest. 2, art. 1,
+              quaestiunc. 2, dictum est.</p>
+            <p xml:id="ta-l3d31q2-d1e232">Ad tertium dicendum, quod etiam in spe invenitur aliquid quod manet in patria,
+              scilicet ordo et proportio ad expectatum bonum. Sed iste ordo erit perfectus in
+              patria, in via autem imperfectus propter absentiam ejus ad quod est.</p>
+          </div>
+          <div xml:id="ta-l3d31q2-Dd1e236">
+            <head xml:id="ta-l3d31q2-Hd1e238">Quaestiuncula 3</head>
+            <p xml:id="ta-l3d31q2-d1e241">Ad tertiam quaestionem dicendum, quod ablatio alicujus quod est de substantia rei,
+              inducit corruptionem rei illius; non autem sublatio alicujus quod se habet
+              accidentaliter ad rem illam. Imperfectio autem illa quam tollit gloria a fide, est
+              substantia fidei, et ad speciem ejus pertinens: quod patet ex hoc quod accipitur
+              secundum rationem objecti, a quo fides speciem recipit. Obscuritas enim, quam aenigma
+              importat, ad genus cognitionis pertinet. Et ideo oportet quod, remota ista
+              imperfectione, substantia et species fidei destruantur, sicut si ab asino removeatur
+              sua irrationabilitas. Quia autem fides forma quaedam est accidentalis simplex, non
+              composita ex materia et forma; ideo ipsa destructa non remanet aliquid fidei idem
+              numero, sed idem genere; sicut patet quod quando ex albo fit nigrum, vel e converso,
+              manet id quod coloris est, non idem numero color, sed idem genere; sed manet eadem lux
+              numero cum est perfecta et imperfecta; quia illa imperfectio vel perfectio non
+              pertinet ad speciem lucis, sed accidentalis est. Et similiter est dicendum de spe, in
+              qua etiam quod dictum est, magis apparet.</p>
+            <p xml:id="ta-l3d31q2-d1e244">Ad primum ergo dicendum, quod commune quod manet in mutatione, idem numero est
+              subjectum, sed idem genere manet in natura generis; et ita in hac transmutatione manet
+              eadem numero anima; sed visio vel cognitio idem genere.</p>
+            <p xml:id="ta-l3d31q2-d1e247">Ad secundum dicendum, quod informitas illa non est de pertinentibus ad speciem fidei,
+              sicut imperfectio aenigmatica; et ideo non est simile.</p>
+            <p xml:id="ta-l3d31q2-d1e250">Et similiter dicendum ad tertium.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l3d31q2-Dd1e255" type="articulus">
+          <head xml:id="ta-l3d31q2-Hd1e257">Articulus 2</head>
+
+          <head xml:id="ta-l3d31q2-Hd1e260" type="questionTitle">Utrum caritas viae evacuetur in patria</head>
+
+          <p xml:id="ta-l3d31q2-d1e263">Ad secundum sic proceditur. Videtur quod caritas viae evacuetur. 1 Corinth. 13, 10:
+              <quote xml:id="ta-l3d31q2-Qd1e265">cum venerit quod perfectum est, evacuabitur quod ex parte est</quote>. Sed
+            caritas est ex parte: quia illud praeceptum: <quote xml:id="ta-l3d31q2-Qd1e268">diliges dominum Deum tuum ex toto
+              corde tuo</quote>, non totaliter impletur in via, ut supra dictum est, dist. 23,
+            quaest. 3, art. 4. Ergo caritas evacuabitur.</p>
+          <p xml:id="ta-l3d31q2-d1e272">Praeterea, destructa causa destruitur effectus. Sed fides generat caritatem, sicut
+            dicitur Matth. 1, in Glossa. Cum ergo fides evacuetur, et caritas evacuabitur.</p>
+          <p xml:id="ta-l3d31q2-d1e275">Praeterea, sicut fides est aenigmatica, ita et caritas; quia caritas movet affectum in
+            id quod non per speciem videtur. Sed fides quae est aenigmatica, evacuabitur. Ergo et
+            caritas.</p>
+          <p xml:id="ta-l3d31q2-d1e279">Praeterea, motus cessat cum perventum fuerit ad terminum. Sed caritas est quidam motus
+            mentis in Deum. Ergo cum ad terminum pervenietur, caritas cessabit.</p>
+          <p xml:id="ta-l3d31q2-d1e282">Praeterea, ea quae sunt unius rationis, unum in alterum potest proficere, si differant
+            secundum perfectum et imperfectum. Sed caritas viae quamvis possit crescere, nunquam
+            tamen potest pervenire ad modum caritatis patriae. Ergo caritas viae et patriae non sunt
+            unius speciei; et ita videtur quod caritas evacuetur.</p>
+          <p xml:id="ta-l3d31q2-d1e285">Sed contra, 1 Corinth. 13, 8: <quote xml:id="ta-l3d31q2-Qd1e287">caritas nunquam excidit</quote>.</p>
+          <p xml:id="ta-l3d31q2-d1e291">Praeterea, praesentia amati non tollit amorem, sed auget. Caritas autem est amor Dei.
+            Ergo quando Deum praesentem videbimus, non tolletur caritas, sed magis augebitur.</p>
+          <p xml:id="ta-l3d31q2-d1e294">Respondeo dicendum, quod amor secundum rationem suae speciei non importat aliquid
+            imperfectionis, sed magis perfectionem, inquantum importat terminationem affectus, et
+            quamdam informationem in re amata; unde gloria adveniens nihil de his quae ad speciem
+            caritatis pertinent, tollet; et ideo caritas non destruetur.</p>
+          <p xml:id="ta-l3d31q2-d1e297">Ad primum ergo dicendum, quod illa imperfectio est accidentalis caritati; et ideo ea
+            remota, nihilominus caritas eadem numero remanebit.</p>
+          <p xml:id="ta-l3d31q2-d1e301">Ad secundum dicendum, quod fides est causa caritatis ratione cognitionis; cognitio
+            autem manebit, ut dictum est, art. praeced. quaestiunc. 2.</p>
+          <p xml:id="ta-l3d31q2-d1e304">Ad tertium dicendum, quod aenigma est essentiale fidei, quia pertinet ad rationem
+            proprii objecti; sed est accidentale caritati; et ideo non est similis ratio.</p>
+          <p xml:id="ta-l3d31q2-d1e307">Ad quartum dicendum, quod amare non dicit motum qui sit actus imperfecti, sed qui est
+            actus perfecti, sicut sentire et intelligere, ut dicit philosophus in 3 de anima; et
+            ideo ratio non sequitur.</p>
+          <p xml:id="ta-l3d31q2-d1e310">Ad quintum dicendum, quod hoc quod caritas viae manens in via, non potest pervenire ad
+            perfectionem caritatis patriae, est propter statum viatoris, et non quantum ad id quod
+            est de ratione caritatis, inquantum viator non possidet perfecte quod amat.</p>
+        </div>
+        <div xml:id="ta-l3d31q2-Dd1e315" type="articulus">
+          <head xml:id="ta-l3d31q2-Hd1e317">Articulus 3</head>
+
+          <head xml:id="ta-l3d31q2-Hd1e320" type="questionTitle">Utrum ordo dilectionis, qui modo est, fuerit in Christo, vel in
+            sanctis qui sunt in patria</head>
+          <div xml:id="ta-l3d31q2-Dd1e323">
+            <head xml:id="ta-l3d31q2-Hd1e325">Quaestiuncula 1</head>
+            <p xml:id="ta-l3d31q2-d1e328">Ad tertium sic proceditur. Videtur quod ordo dilectionis qui modo est, non fuerit in
+              Christo, nec in sanctis qui sunt in patria, quantum ad dilectionem inimicorum. Quia
+              inimici sanctorum, ad minus post diem judicii non erunt nisi Daemones et damnati. Sed
+              ad illos non est habenda caritas, ut supra, dist. 28, art. 5, dictum est. Ergo non
+              diligent inimicos.</p>
+            <p xml:id="ta-l3d31q2-d1e331">Praeterea, in eis erit summa conformitas voluntatum ad Deum. Sed Deus inimicos
+              sanctorum non diligit, sed odit. Ergo nec Christus et beati suos inimicos
+              diligent.</p>
+            <p xml:id="ta-l3d31q2-d1e334">Praeterea, quicumque diligit aliquem ex caritate, vult ei bonum vitae aeternae. Sed
+              hoc Christus non voluit inimicis, nec beati: quia si vellent, etiam fieret. Ergo non
+              diligunt inimicos ex caritate.</p>
+            <p xml:id="ta-l3d31q2-d1e337">Sed contra, diligere inimicum ad perfectionem caritatis pertinet. Sed in Christo et
+              in beatis est perfectissima et amplissima caritas. Ergo ipsi inimicos diligunt.</p>
+            <p xml:id="ta-l3d31q2-d1e341">Praeterea, Christus ex caritate dilexit illos pro quibus mortuus est; Joan. 15, 13:
+                <quote xml:id="ta-l3d31q2-Qd1e343">majorem hac dilectionem nemo habet ut animam suam ponat quis pro amicis
+                suis</quote>. Sed mortuus est pro inimicis; Rom. 5. Ergo dilexit inimicos; et eadem
+              ratione beati.</p>
+          </div>
+          <div xml:id="ta-l3d31q2-Dd1e348">
+            <head xml:id="ta-l3d31q2-Hd1e350">Quaestiuncula 2</head>
+            <p xml:id="ta-l3d31q2-d1e353">Ulterius. Videtur quod in eis non sit ordo caritatis quantum ad se et proximum, et
+              propinquos et extraneos. Augustinus in libro de vera religione: <quote xml:id="ta-l3d31q2-Qd1e355">perfecta
+                justitia est, ut plus potiora bona, et minus minora diligamus</quote>. Sed in patria
+              erit perfecta caritas. Ergo proximum meliorem se plus diliget aliquis quam seipsum, et
+              similiter extraneum quam propinquum secundum carnem.</p>
+            <p xml:id="ta-l3d31q2-d1e359">Praeterea, in patria erit perfecta conformitas humanae voluntatis ad Deum. Sed Deus
+              plus diligit meliorem. Ergo et quilibet plus diliget meliorem quam seipsum.</p>
+            <p xml:id="ta-l3d31q2-d1e362">Praeterea, ille plus diligitur cui majus bonum optatur. Sed quilibet homo vult majus
+              bonum meliori se quam sibi in patria: quia unicuique vult bonum quod habet, nec
+              appetit alicui quod non habet: quia sic desiderium non esset quietatum. Ergo plus
+              diligit meliorem se quam seipsum.</p>
+            <p xml:id="ta-l3d31q2-d1e365">Sed contra, gloria perficit naturam. Sed ordo iste est a natura hominis progrediens,
+              ut homo se plus altero diligat. Ergo et gloria hunc ordinem non aufert.</p>
+            <p xml:id="ta-l3d31q2-d1e369">Praeterea, si aliquis salutem suam negligeret pro salute alterius, peccaret. Sed in
+              patria non erit aliquid inordinatum. Ergo homo ibi semper plus diliget salutem suam
+              quam alterius; et ita plus amabit se quam alterum.</p>
+          </div>
+          <div xml:id="ta-l3d31q2-Dd1e373">
+            <head xml:id="ta-l3d31q2-Hd1e375">Quaestiuncula 3</head>
+            <p xml:id="ta-l3d31q2-d1e378">Ulterius. Quaeritur quem Christus plus dilexerit, Petrum vel Joannem; et videtur quod
+              Joannem. Joan. ultim. 20: <quote xml:id="ta-l3d31q2-Qd1e380">vidit illum discipulum quem diligebat Jesus,
+                sequentem</quote>. Hoc autem non dicitur quia illum tantum diligeret. Ergo propter
+              eminentiam dilectionis ad ipsum.</p>
+            <p xml:id="ta-l3d31q2-d1e384">Praeterea, dilectio in qua affectus effectui, vel signis dilectionis non respondet,
+              est dilectio simulationis. Cum ergo Christus majorem familiaritatem Joanni exhibuerit
+              quam Petro, et ejus dilectio nullo modo fuerit simulata; videtur quod Joannem plus
+              Petro dilexerit.</p>
+            <p xml:id="ta-l3d31q2-d1e387">Sed contra, Proverb. 8, 17: <quote xml:id="ta-l3d31q2-Qd1e389">ego diligentes me diligo</quote>. Sed plus dilexit
+              Petrus, ut patet Joan. ultim. Ergo et plus diligebatur.</p>
+          </div>
+          <div xml:id="ta-l3d31q2-Dd1e395">
+            <head xml:id="ta-l3d31q2-Hd1e397">Quaestiuncula 1</head>
+            <p xml:id="ta-l3d31q2-d1e400">Respondeo dicendum ad primam quaestionem, quod inimici Christi possunt accipi
+              dupliciter; vel quantum ad finalem exitum, sicut damnati, vel in actu, vel in
+              praevisione divina; vel quantum ad praesentem statum tantum, sicut Paulus tunc erat.
+              Quantum ergo ad primos inimicos est eadem ratio dilectionis in Christo quae in nobis
+              ad illos quos scimus damnatos; quia naturam ipsorum diligimus, et considerata natura
+              tantum eis vitam aeternam vellemus; sed considerata justitia divina et eorum meritis,
+              eis hoc non volumus, quia justitiam divinam plus diligimus quam eorum naturam. Et
+              prima voluntas est voluntas antecedens, secunda est voluntas consequens; et ita
+              Christus diligebat inimicos qui erant damnati vel damnandi, volens eis bonum voluntate
+              antecedente, quae non semper impletur, sed non consequente, sicut nec Deus. Et eadem
+              ratio est de aliis beatis quantum ad illos qui actu sunt damnati. Sed de damnandis
+              forte nesciunt de omnibus qui sunt. Sed quantum ad alios inimicos, secundum praesentem
+              statum tantum diligebat, et ad eos bona operabatur, quia pro eis mortem subiit.</p>
+            <p xml:id="ta-l3d31q2-d1e403">Et per hoc patet responsio ad objecta.</p>
+          </div>
+          <div xml:id="ta-l3d31q2-Dd1e407">
+            <head xml:id="ta-l3d31q2-Hd1e409">Quaestiuncula 2</head>
+            <p xml:id="ta-l3d31q2-d1e412">Ad secundam quaestionem dicendum, quod circa hoc est duplex opinio. Quidam dicunt,
+              quod in patria erit <quote xml:id="ta-l3d31q2-Qd1e414">Deus omnia in omnibus</quote>, et mens tota in Deo
+              quiescens, totam rationem dilectionis habebit in Deum; et ideo Deum super omnia
+              diliget, et alios tanto plus quanto erunt Deo proximiores, etiam alios plus quam se,
+              si sunt meliores. Sed illud non videtur rationabiliter dictum: quia unusquisque tantum
+              amabit Deo frui, quantum diliget Deum; unde cum Deum super omnia diliget, super omnia
+              volet Deo frui; et ideo frui Deo plus optabit sibi quam alii. Unde videtur quod magis
+              se quam alium diliget. Praeterea, affectus dilectionis non quiescit in aliquo, nisi in
+              proprio objecto. Sicut autem proprium objectum amoris est bonum, ita proprium
+              subjectum amoris istius hominis est bonum istius; unde et Deum summe diliget,
+              inquantum est summum bonum suum. Unde non oportet quod tanto aliquem plus diligat
+              quanto est simpliciter Deo proximior, sed quanto est Deo proximior, inquantum est
+              bonum suum; et ideo videtur probabilius quod alii dicunt, quod quilibet ibi plus
+              diliget se quam proximum. Sed de comparatione propinquorum ad extraneos credo quod
+              simpliciter loquendo, plus unusquisque diliget extraneum meliorem quam consanguineum
+              minus bonum: quia plus attenditur ordo dilectionis quantum ad proximitatem ad Deum
+              quam quantum ad proximitatem ad seipsum, quamvis utrumque oportet quod attendatur.
+              Unde de aequaliter bonis plus diligit proximiorem, sed de inaequalibus diligit
+              meliorem.</p>
+            <p xml:id="ta-l3d31q2-d1e418">Ad primum ergo dicendum, quod intelligendum est quod plus diligit magis bona quae
+              etiam sibi sunt magis bona, sicut bona spiritualia quam corporalia.</p>
+            <p xml:id="ta-l3d31q2-d1e421">Ad secundum dicendum, quod in hoc ipso voluntas nostra voluntati divinae
+              conformabitur quod sequetur motum naturaliter sibi impositum a Deo.</p>
+            <p xml:id="ta-l3d31q2-d1e424">Ad tertium dicendum, quod voluntate consequente vult majus bonum alteri quam sibi,
+              sibi autem intensius; sed voluntate antecedente vult sibi majus. Sed hoc non impedit
+              quietem desiderii: quia haec voluntas non est voluntas simpliciter, sed conditionata,
+              vel velleitas quaedam, ut quidam dicunt.</p>
+          </div>
+          <div xml:id="ta-l3d31q2-Dd1e428">
+            <head xml:id="ta-l3d31q2-Hd1e430">Quaestiuncula 3</head>
+            <p xml:id="ta-l3d31q2-d1e433">Ad tertiam quaestionem dicendum, quod, sicut dicitur, Petrus plus dilexit Christum
+              dilectione quae ab ipso in membra diffunditur; sed Joannes plus dilexit dilectione
+              quae in Christo sistit; et ideo Petro dominus commisit curam membrorum; Joanni autem
+              curam matris, quae ad personam ejus specialius spectabat. Unde et Petrus a Christo
+              plus diligebatur quantum ad affectum interiorem, quia donum majoris caritatis erat ei
+              tunc collatum. Sed Joannes magis diligebatur quantum ad signa exterioris
+              familiaritatis; et hoc propter quatuor causas. Primo, quia per Joannem significatur
+              vita contemplativa quae familiariorem habet Deum, quamvis activa sit fructuosior, quae
+              significatur in Petro. Secundo propter aetatem, quia juvenis erat. Tertio propter
+              castitatem. Quarto propter ingenitam mansuetudinem.</p>
+            <p xml:id="ta-l3d31q2-d1e436">Et per hoc patet solutio ad objecta: quia uterque plus diligebat, et quodammodo plus
+              diligebatur.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l3d31q2-Dd1e441" type="articulus">
+          <head xml:id="ta-l3d31q2-Hd1e443">Articulus 4</head>
+
+          <head xml:id="ta-l3d31q2-Hd1e446" type="questionTitle">Utrum scientia quam modo habemus, totaliter tolletur</head>
+
+          <p xml:id="ta-l3d31q2-d1e449">Ad quartum sic proceditur. Videtur quod scientia quam modo habemus, totaliter tolletur;
+            1 Corinth. 13, 8: <quote xml:id="ta-l3d31q2-Qd1e451">scientia destruetur</quote>. Sed accidens quod destruitur,
+            totaliter tollitur. Ergo scientia totaliter tolletur.</p>
+          <p xml:id="ta-l3d31q2-d1e455">Praeterea, fides est magis spiritualis quam scientia. Sed fides tolletur. Ergo et
+            scientia.</p>
+          <p xml:id="ta-l3d31q2-d1e458">Praeterea, consideratio scientiae est de delectabilibus maxime. Si ergo scientia hic
+            acquisita remanet, aliquis magnus clericus plus habebit de gaudio quam aliqua vetula,
+            quae erit majoris caritatis; quod esse videtur impossibile.</p>
+          <p xml:id="ta-l3d31q2-d1e462">Praeterea, illi qui sunt in patria, cognoscunt omnia quorum scientiam habuerunt, et
+            multo plura et melius, in verbo. Si ergo scientia non est nisi ad cognoscendum, frustra
+            in eis praeterita scientia remaneret.</p>
+          <p xml:id="ta-l3d31q2-d1e465">Praeterea, habitus ordinatur ad actum. Ergo ubi actus non remanet, neque habitus
+            remanere potest, quia frustra remaneret. Sed actus scientiae qui modo est, non remanebit
+            in patria: quia consideratio scientiarum est in intelligendo cum phantasmate, non solum
+            in accipiendo scientiam, sed etiam in considerando ea quae aliquis jam didicit; unde
+            laeso organo imaginationis, impeditur operatio intellectus etiam in aliis quae prius
+            sciebat. Ergo nec scientia remanebit.</p>
+          <p xml:id="ta-l3d31q2-d1e468">Praeterea, scientiae quam nunc habemus, consideratio est collativa. Sed iste modus
+            conferendi non erit in patria: quia tunc sequeretur quod esset ibi studium et
+            disputatio, quod est absurdum. Ergo scientia hic acquisita non remanebit in patria.</p>
+          <p xml:id="ta-l3d31q2-d1e471">Sed contra, Magister in prima distinctione secundi libri dixit, et philosophi etiam
+            plures dicunt, quod anima posita est in corpore, ut scientiis perficiatur. Sed frustra
+            poneretur ad hoc, nisi post corpus ei scientia remaneret. Ergo scientia remanebit.</p>
+          <p xml:id="ta-l3d31q2-d1e474">Praeterea, constat quod illi qui sunt in Inferno, aliquid cognoscunt esse de his quae
+            prius cognoverunt, sicut patet de divite, qui suorum memoriam habebat. Sed eis non
+            addetur alia cognitio quam hic habuerunt. Ergo prior scientia in eis remanebit.</p>
+          <p xml:id="ta-l3d31q2-d1e477">Praeterea, si scientia destruatur cum corpore, erit bonum temporale; et ita studium
+            scientiae computabitur inter sollicitudines rerum temporalium; quod videtur
+            absurdum.</p>
+          <p xml:id="ta-l3d31q2-d1e481">Respondeo dicendum, quod in scientia quam modo habemus, est tria considerare: scilicet
+            habitum, actum, et modum agendi. Modus autem agendi est ut intelligat cum phantasmate:
+            quia in statu viae verum est quod dicit philosophus in 3 de anima, quod nequaquam sine
+            phantasmate intelligeret anima non solum quantum ad acquirendam scientiam, sed etiam quo
+            ad considerationem eorum quae quis jam scit: quia phantasmata se habent ad intellectum
+            sicut sensibilia ad sensum. Actus autem scientiae proprius est ut cognoscat
+            conclusiones, resolvendo eas ad principia prima per se nota. Habitus autem est quaedam
+            qualitas hominem habilitans ad hunc actum. Modus autem intelligendi praedictus accidit
+            humanae animae ex duobus. Uno modo ex hoc quod anima humana est ultima secundum naturae
+            ordinem in gradibus intellectus; unde se habet intellectus ejus possibilis ad omnia
+            intelligibilia, sicut se habet materia prima ad omnes formas sensibiles; et propter hoc
+            non potest in actum exire prius quam recipiat rerum species, quod fit per sensum et
+            imaginationem. Alio modo ex hoc quod est forma corporis; unde oportet quod operatio ejus
+            sit operatio totius hominis; et ideo communicat ibi corpus non sicut instrumentum per
+            quod operetur, sed sicut repraesentans objectum, scilicet phantasma; et inde contingit
+            quod anima non potest intelligere sine phantasmate etiam ea quae prius novit. In anima
+            ergo separata a corpore remanebit natura animae, sed non remanebit unio ad corpus in
+            actu; et ideo ea considerata in natura sua tantum, non indigebit phantasmatibus quantum
+            ad considerationem eorum quae prius scivit, sed solum quantum ad considerationem eorum
+            quae de novo debet scire; et ideo ea quae prius scivit, poterit considerare non quidem
+            utendo phantasmate, sed ex habitu scientiae prius habito. Ea vero quae ante nescivit,
+            non poterit scire, nisi quatenus ex his quae scit, elici possunt, vel inquantum aliae
+            species ei divinitus infunduntur. Dicere enim, quod secundum id quod modo anima habet in
+            natura sua, non possit intelligere sine corpore aliquo modo, est valde familiare illis
+            qui ponunt animam cum corpore deficere: quia, ut dicitur in 1 de anima, si nulla
+            operationum quas habet, potest esse sine corpore, nec ipsa sine corpore esse posset, cum
+            operatio naturalis consequatur naturam. In actu autem scientiae praedicta duo
+            considerantur; scilicet motus inquisitionis et rationis discurrentis; et terminus,
+            scilicet certitudo, quae habetur de conclusionibus, secundum quod jam sunt reductae in
+            prima principia. Motus autem ille imperfectionis est quantum ad necessitatem
+            discurrendi, ut causetur certitudo; et ideo in beatis non remanebit actus scientiae
+            quantum ad necessitatem motus, sed quantum ad certitudinem tantum. Et ideo videtur
+            dicendum, secundum quod quidam dicunt, quod in patria, quantum ad animas separatas, erit
+            alius modus intelligendi, quia sine phantasmate considerabunt; sed post resurrectionem
+            poterit esse uterque modus, inquantum anima non subjacebit corpori, sed ex toto ei
+            dominabitur. Actus autem mutabitur, quia remanebit quantum ad terminum, sed non quantum
+            ad discursum in sanctis. In damnatis autem non est remotum quin etiam collationis
+            necessitas remaneat; et ideo remanet habitus scientiae quantum ad substantiam. Dicere
+            enim, quod habitus remaneat, et actus nullo modo, videtur absurdum: quia habitus nihil
+            est aliud quam habilitas ad actum.</p>
+          <p xml:id="ta-l3d31q2-d1e484">Ad primum ergo dicendum, quod destruetur scientia quantum ad modum, et quantum ad actum
+            mutabitur; sed quantum ad habitum remanebit, ut dictum est.</p>
+          <p xml:id="ta-l3d31q2-d1e487">Ad secundum dicendum, quod modus imperfectionis est essentialis fidei, et de ratione
+            ejus; sed modus cognoscendi per phantasmata non est de ratione scientiae, sed accidit ei
+            ex conditione subjecti.</p>
+          <p xml:id="ta-l3d31q2-d1e490">Ad tertium dicendum, quod non est inconveniens quod ille qui habet minorem caritatem,
+            habeat plus de gaudio quantum ad aliquem actum; cum tamen habeat minus gaudium de Deo,
+            quod est praemium essentiale.</p>
+          <p xml:id="ta-l3d31q2-d1e493">Ad quartum dicendum, quod cognoscere aliquid pluribus modis non est frustra; sicut
+            etiam Christus habuit scientiam naturalem eorum quae in verbo cognoscebat.</p>
+          <p xml:id="ta-l3d31q2-d1e496">Ad quintum dicendum, quod ille modus cognoscendi accidit scientiae ex statu ejus in quo
+            est: non enim phantasma est objectum propinquum et proprium intellectus, cum sit
+            intelligibile in potentia, non in actu; sed species intellecta est per se objectum
+            ejus.</p>
+          <p xml:id="ta-l3d31q2-d1e500">Ad sextum dicendum, quod non erit actus scientiae quantum ad discursum, sed quantum ad
+            terminum certitudinis. Et praeterea non oporteret ibi esse studium vel disputationem
+            quantum ad bonos, quia omnium illorum quae considerare vellent, in verbo cognitionem
+            possent accipere, vel per illuminationem superiorum habere. Damnatis autem non vacabit
+            disputare poenarum pondere pressis.</p>
+        </div>
+        <div xml:id="ta-l3d31q2-Dd1e504">
+          <head xml:id="ta-l3d31q2-Hd1e506">Expositio textus</head>
+          <p xml:id="ta-l3d31q2-d1e509"><quote xml:id="ta-l3d31q2-Qd1e510">Caritas autem, quae deseri potest</quote>. Verum est, si posset deseri propter
+            debilitatem amoris, ut scilicet aliquis minus diligeret Deum quam rem illam pro qua tunc
+            peccat: tunc enim non esset vera caritas. <quote xml:id="ta-l3d31q2-Qd1e513">De perfecta intelligitur</quote>.
+            Perfecta dicitur quae est in confirmatis vel in via vel in patria; vel intelligitur non
+            quod non possit amitti, sed quia difficile est quod amittatur.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

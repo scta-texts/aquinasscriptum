@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum III, Distinctio 10, Quaestio 3</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.09-dev-master">
+          <title>Librum III, Distinctio 10, Quaestio 3</title>
+          <date when="2016-03-11">March 11, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-11">March 11, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness>1856 editum</witness>
+          <witness xml:id="H" n="harv245" xml:base="http://iiif.lib.harvard.edu/manifests/drs:51994085/canvas/">Cambridge, Mass., Harvard University, Houghton Library, MS Lat 245</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="2015.09">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+      <div xml:id="starts-on">
+        
+        <cb ed="#H" n="42ra" select="dd"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ta-l3d10q3">
+        <head xml:id="ta-l3d10q3-Hd1e97">Librum III, Distinctio 10, Quaestio 3</head>
+        <div xml:id="ta-l3d10q3-Dd1e100" type="articulus">
+          <head xml:id="ta-l3d10q3-Hd1e102">Articulus 1</head>
+          <head xml:id="ta-l3d10q3-Hd1e105" type="questionTitle">Utrum praedestinatio Christi sit de natura, an de persona</head>
+          <div xml:id="ta-l3d10q3-Dd1e108">
+            <head xml:id="ta-l3d10q3-Hd1e110">Quaestiuncula 1</head>
+            <p xml:id="ta-l3d10q3-d1e113">Deinde quaeritur de praedestinatione Christi. Et videtur quod non sit de persona. Praedestinatio enim Christi est ad filiationem, quia <quote xml:id="ta-l3d10q3-Qd1e115" ana="#rom1_4">praedestinatus est filius Dei in virtute</quote>; <ref xml:id="ta-l3d10q3-Rd1e118"><title ref="#rom">Rom.</title> 1, 4.</ref> Sed filiatio non competit naturae. Ergo praedestinatio non est de natura.</p>
+            <p xml:id="ta-l3d10q3-d1e124">Praeterea, ejus videtur praedestinari cujus est agere, quia ejus est etiam felicitari. Sed agere est suppositi, et non naturae. Ergo praedestinatio non est de natura.</p>
+            <p xml:id="ta-l3d10q3-d1e127">Praeterea, humana natura est unius rationis in Christo et in aliis hominibus. Sed in aliis hominibus praedestinatio non est de natura. Ergo nec in Christo.</p>
+            <p xml:id="ta-l3d10q3-d1e130">Sed contra, <ref xml:id="ta-l3d10q3-Rd1e132"><title ref="#rom">Rom.</title> 1,</ref> dicit Glossa, quod praedestinatio est uno modo de eo quod non semper fuit. Sed nihil est in ipso Christo quod non semper fuerit, nisi humana natura. Ergo praedestinatio est de natura.</p>
+            <p xml:id="ta-l3d10q3-d1e139">Praeterea, ex hoc aliquis praedestinatur quod praevidetur Deo uniendus per gratiam unionis. Sed humana natura ab aeterno est praevisa Deo unienda per gratiam unionis. Ergo humana natura est praedestinata in Christo.</p>
+          </div>
+          <div xml:id="ta-l3d10q3-Dd1e143">
+            <head xml:id="ta-l3d10q3-Hd1e145">Quaestiuncula 2</head>
+            <p xml:id="ta-l3d10q3-d1e148">Ulterius. Videtur, quod praedestinatio Christi non sit conformis praedestinationi nostrae. Quia, secundum <name ref="#Augustine">Augustinum</name>, praedestinatio qua nos praedestinamur, est propositum miserendi. Sed hoc non competit praedestinationi Christi, quia ipse nunquam fuit miser. Ergo praedestinatio sua et nostra non sunt unius rationis.</p>
+            <p xml:id="ta-l3d10q3-d1e154">Praeterea, effectus praedestinationis est gratia. Sed gratia Christi est alterius rationis quam gratia nostra: quia nostra gratia non est unionis in persona, sicut sua. Ergo nec praedestinatio ejus et nostra sunt ejusdem rationis.</p>
+            <p xml:id="ta-l3d10q3-d1e157">Praeterea, operationes differunt penes terminos. Sed filiatio naturalis, ad quam terminatur praedestinatio Christi, non est unius rationis cum filiatione adoptionis, ad quam terminatur nostra praedestinatio. Ergo non sunt unius rationis praedestinationes.</p>
+            <p xml:id="ta-l3d10q3-d1e160">Sed contra est quod utrique praedestinationi competit una definitio, scilicet <quote xml:id="ta-l3d10q3-Qd1e162">praedestinatio est praeparatio gratiae in praesenti, et gloriae in futuro</quote>. Ergo sunt unius rationis.</p>
+            <p xml:id="ta-l3d10q3-d1e167">Praeterea, Rom. 1 dicit Glossa, quod praeclarissimum exemplar nostrae praedestinationis praecessit in Christo. Ergo est unius rationis: quia exemplar et exemplatum sunt unius rationis.</p>
+          </div>
+          <div xml:id="ta-l3d10q3-Dd1e171">
+            <head xml:id="ta-l3d10q3-Hd1e173">Quaestiuncula 3</head>
+            <p xml:id="ta-l3d10q3-d1e176">Ulterius. Videtur quod praedestinatio ejus sit causa efficiens nostrae praedestinationis. <ref xml:id="ta-l3d10q3-Rd1e178"><title ref="#eph">Ephes.</title> 1, 5,</ref> dicitur: <quote xml:id="ta-l3d10q3-Qd1e183" ana="#eph1_5">praedestinavit nos in adoptionem filiorum per Jesum Christum</quote>. Sed per denotat causam efficientem, quando dicitur pater operari per filium. Ergo ejus praedestinatio est causa efficiens nostrae praedestinationis.</p>
+            <p xml:id="ta-l3d10q3-d1e187">Item, videtur quod sit causa exemplaris, per illud quod dicitur <ref xml:id="ta-l3d10q3-Rd1e189"><title ref="#rom">Rom.</title> 8, 29:</ref> <quote xml:id="ta-l3d10q3-Qd1e194" ana="#rom8_29">quos praedestinavit conformes fieri imaginis filii sui</quote>. Sed imago ad exemplaritatem pertinet. Ergo est causa exemplaris nostrae praedestinationis; sicut etiam sua resurrectio nostrae resurrectionis.</p>
+            <p xml:id="ta-l3d10q3-d1e198">Item, videtur quod finalis. Quia nostra praedestinatio videtur esse ordinata ad impletionem corporis Christi, ut patet <ref xml:id="ta-l3d10q3-Rd1e200"><title ref="#eph">Ephes.</title> 4,</ref> unde ipse videtur esse finis nostrae salutis. Ergo et ejus praedestinatio nostrae praedestinationis.</p>
+            <p xml:id="ta-l3d10q3-d1e206">Sed contra, aeternum non habet causam. Sed praedestinatio nostra est aeterna. Ergo non habet causam, Christi praedestinationem.</p>
+            <p xml:id="ta-l3d10q3-d1e210">Praeterea, Christus non est praedestinatus nisi secundum quod homo. Sed ipse, secundum quod homo, non est causa nostri, sed secundum quod Deus. Ergo praedestinatio ejus non est causa praedestinationis nostrae.</p>
+          </div>
+          <div xml:id="ta-l3d10q3-Dd1e215">
+            <head xml:id="ta-l3d10q3-Hd1e217">Quaestiuncula 1</head>
+            <p xml:id="ta-l3d10q3-d1e220">Respondeo dicendum ad primam quaestionem, quod praedestinatio accipitur communiter et proprie. Communiter pro praescientia et praeordinatione cujuscumque; et sic patet quod praedestinatio potest esse de natura. Secundum autem quod proprie accipitur importat ordinem praedestinati ad gratiam. Gratia autem creaturae facit unionem ad Deum: quae quidem duplex est: scilicet per operationem, secundum quam nos unimur Deo cognoscendo et amando ipsum: et in persona; et secundum hoc humana natura fuit unita Deo; et ideo, cum praedestinatio Christi ordinetur ad gratiam unionis in persona, potest dici, quod natura est praedestinata, vel persona ratione naturae.</p>
+            <p xml:id="ta-l3d10q3-d1e223">Ad primum ergo dicendum, quod praedestinatio Christi primum effectum habet ipsam unionem: unde cum unio sit naturae, potest etiam dici praedestinata; quamvis sibi filiatio non conveniat, quia filiatio non est primus effectus praedestinationis, sed consequitur ad unionem.</p>
+            <p xml:id="ta-l3d10q3-d1e226">Ad secundum dicendum, quod ratio illa procedit de felicitate creaturae ex hoc quod Deo unitur per operationem; sed ipsa natura beatificatur ex hoc quod Deo unitur in persona.</p>
+            <p xml:id="ta-l3d10q3-d1e229">Et per hoc etiam patet responsio ad tertium: quia praedestinatio aliorum hominum non est ad unionem in persona, sed ad unionem per operationem.</p>
+          </div>
+          <div xml:id="ta-l3d10q3-Dd1e233">
+            <head xml:id="ta-l3d10q3-Hd1e235">Quaestiuncula 2</head>
+            <p xml:id="ta-l3d10q3-d1e238">Ad secundam quaestionem dicendum, quod multa requiruntur in praedestinatione et ex parte praedestinantis, et ex parte praedestinati, et secundum terminum a quo, et secundum terminum ad quem, secundum quod potest attendi diversitas inter praedestinationem Christi et nostram. Ex parte autem praedestinantis, qui Deus est, non est diversitas inter praedestinationem Christi et nostram; est autem differentia ex parte praedestinati: quia in nobis est de persona, in Christo autem de natura, ut dictum est. Similiter est differentia ex parte termini a quo: quia in nobis est ut liberemur a peccato, sicut dicit Glossa super illud <ref xml:id="ta-l3d10q3-Rd1e240"><title ref="#rom">Rom.</title> 8:</ref> <quote xml:id="ta-l3d10q3-Qd1e245" ana="#rom8_30">quos praedestinavit, hos vocavit</quote>: in Christo autem non; quia neque contraxit, neque fecit peccatum. Sed neutra istarum differentiarum diversificat rationem praedestinationis; sed solum illa quae est essentialis et specifica. Specifica autem differentia cujuslibet motus vel operationis, accipitur penes terminum ad quem. Illud autem ad quod est praedestinatio, non est unius rationis in Christo et in nobis: quia praedestinatio Christi est ad unionem in persona; praedestinatio autem nostra ad unionem per operationem, aut per habitum assimilantem; et haec duae uniones non sunt unius rationis, sed se habent secundum prius et posterius, et perfectum et diminutum; et ideo praedestinatio Christi et nostra non est unius rationis secundum univocationem, sed secundum analogiam.</p>
+            <p xml:id="ta-l3d10q3-d1e249">Et per hoc facile est respondere ad objecta.</p>
+          </div>
+          <div xml:id="ta-l3d10q3-Dd1e253">
+            <head xml:id="ta-l3d10q3-Hd1e255">Quaestiuncula 3</head>
+            <p xml:id="ta-l3d10q3-d1e258">Ad tertiam quaestionem dicendum, quod in ipsa praedestinatione duo sunt; unum aeternum, scilicet ipsa Dei operatio; et aliud temporale, scilicet praedestinationis effectus. Praedestinatio ergo nostra quantum ad illud quod est aeternum in ipsa, causam non habet; sed quantum ad effectum potest habere causam, inquantum scilicet ejus effectus producitur mediantibus aliquibus causis creatis: et secundum hoc praedestinationis nostrae causa efficiens est praedestinatio Christi inquantum ipse est mediator nostrae salutis; et formalis, in quantum in filios Dei ad imaginem ejus praedestinamur, et finalis, inquantum nostra salus in ejus gloriam redundat.</p>
+            <p xml:id="ta-l3d10q3-d1e261">Et per hoc patet solutio ad objecta.</p>
+          </div>
+          <div xml:id="ta-l3d10q3-Dd1e265">
+            <head xml:id="ta-l3d10q3-Hd1e267">Expositio textus</head>
+            <p xml:id="ta-l3d10q3-d1e270"><quote xml:id="ta-l3d10q3-Qd1e271">Christum secundum hominem non esse personam, nec aliud</quote>. Primum horum conceditur ab omni opinione; secundum autem non, sed a tertia tantum; quia primae duae opiniones dicunt quod secundum quod Christus est homo, est aliquid. Hoc autem negare est error. <quote xml:id="ta-l3d10q3-Qd1e274">Secundum enim multiplicem habet rationem</quote>. Ista divisio accipitur ex comparatione replicationis ad subjectum propositionis: quia potest fieri replicatio vel ejus quod antecedit subjectum, et sic notat causam; vel ejus quod sequitur, et sic notat habitum, aut quodcumque aliquid accidens; sed specialiter nominat habitum propter rationem tertiae opinionis: vel ipsius subjecti, et hoc vel quantum ad naturam, et sic exprimit conditionem naturae; vel quantum ad suppositum, et sic notat unitatem personae in Christo. <quote xml:id="ta-l3d10q3-Qd1e277">Illa tamen personae descriptio non est data pro divinis personis</quote>. Contra est quod directe ponit eam Boetius in materia ista in Lib. de Duab. Nat. Dicendum, quod Magister verum dicit, si capiantur stricte ea quae in divisione ponuntur; sed Boetius large accipit; et hoc patet in 1 Lib., dist. 25. <quote xml:id="ta-l3d10q3-Qd1e280">Non autem sic dicitur filius natura</quote>. Dicitur enim Deus natura quasi formaliter; sed dicitur filius natura, non formaliter, sed quantum ad modum originis, quia per modum naturae procedit. <quote xml:id="ta-l3d10q3-Qd1e283">Christus nunquam fuit filius</quote>; nec prius tempore, sicut nos, nec prius natura aut intellectu, sicut Angeli, si in gratia creati sunt. <quote xml:id="ta-l3d10q3-Qd1e286">Christum filium virginis esse natura et gratia</quote>. Contra. Natura et gratia ex opposito dividuntur. Ergo quod est per gratiam, non est per naturam. Praeterea, Christus est filius matris, sicut et quilibet alius homo. Sed alii homines non sunt filii matrum suarum per gratiam. Ergo nec Christus. Dicendum ad primum quod gratia unionis non opponitur contra naturam: quia per eam una persona fit duarum naturarum: et sic quod inest per gratiam unionis, inest per alterutram naturarum naturaliter. Ad secundum dicendum, quod Christum, inquantum hominem nasci ex matre, non fuit per gratiam, sed nasci simul Deum et hominem; et hoc fuit per gratiam unionis. <quote xml:id="ta-l3d10q3-Qd1e290">Non talis hic filius</quote>. Ergo videtur quod filiatio dicatur aequivoce. Dicendum, quod non univoce, nec aequivoce, sed analogice, sicut et alia quae dicuntur de Deo et creaturis. <quote xml:id="ta-l3d10q3-Qd1e293">Origine, non adoptione</quote>. Hoc dicitur contra Nestorium, qui cum poneret in Christo duas personas, non potuit ponere unionem nisi per gratiam: et sic sequeretur quod persona hominis non sit filius Dei nisi per gratiam habitualem adoptionis, sicut et nos. <quote xml:id="ta-l3d10q3-Qd1e296">Veritate, vel nuncupatione</quote>. Hoc dicitur contra Sabellium, qui posuit distingui personas tantum nominaliter. <quote xml:id="ta-l3d10q3-Qd1e299">Nativitate, non creatione</quote>. Et hoc dicitur contra Arium, qui dicebat filium Dei esse creaturam.</p>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

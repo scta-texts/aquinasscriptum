@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum III, Distinctio 3, Quaestio 3</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.09-dev-master">
+          <title>Librum III, Distinctio 3, Quaestio 3</title>
+          <date when="2016-02-23">February 23, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-02-23">February 23, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness>1856 editum</witness>
+          <witness xml:id="H" n="harv245" xml:base="http://iiif.lib.harvard.edu/manifests/drs:51994085/canvas/">Cambridge, Mass., Harvard University, Houghton Library, MS Lat 245</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="2015.09">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+
+
+
+
+      <div xml:id="starts-on">
+        <cb ed="#H" n="17ra" select="canvas-51994145.json"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ta-l3d3q3">
+        <head xml:id="ta-l3d3q3-Hd1e97">Librum III, Distinctio 3, Quaestio 3</head>
+        <div xml:id="ta-l3d3q3-Dd1e100">
+          <head xml:id="ta-l3d3q3-Hd1e102">Prooemium</head>
+          <p xml:id="ta-l3d3q3-d1e105">Deinde quaeritur de Annuntiatione facta per Angelum ad beatam virginem; et circa hoc quaeruntur duo: 1 de convenientia Annuntiationis; 2 de convenientia nuntii.</p>
+        </div>
+        <div xml:id="ta-l3d3q3-Dd1e109" type="articulus">
+          <head xml:id="ta-l3d3q3-Hd1e111">Articulus 1</head>
+          <head xml:id="ta-l3d3q3-Hd1e114" type="questionTitle">Utrum conveniebat virgini salvatoris conceptionem nuntiari</head>
+          <div xml:id="ta-l3d3q3-Dd1e117">
+            <head xml:id="ta-l3d3q3-Hd1e119">Quaestiuncula 1</head>
+            <p xml:id="ta-l3d3q3-d1e122">Ad primum sic proceditur. Videtur, quod non oportebat virgini salvatoris annuntiari conceptionem. Ipsa enim fidem habebat. Sed semper ad fidem pertinuit credere incarnationem futuram. Ergo non oportebat ulterius quod per modum Annuntiationis sibi patefieret.</p>
+            <p xml:id="ta-l3d3q3-d1e125">Praeterea, sicut dicit <name>Gregorius</name>, fides non habet meritum cui humana ratio praebet experimentum. Sed in collocutione Angeli ad virginem quaedam persuasiva ratiocinatio facta est. Ergo meritum fidei in ipsa vel evacuavit vel diminuit, quod videtur inconveniens.</p>
+            <p xml:id="ta-l3d3q3-d1e131">Praeterea, in his quae sine hominis arbitrio Deus in homine complet, non requiritur aliquis consensus ex parte hominis. Sed prophetia praedestinationis est de his quae sine nostro complentur arbitrio, ut habetur ex Hieronymo in Glossa Matth. 1 super illud: <quote xml:id="ta-l3d3q3-Qd1e133">ecce virgo in utero habebit</quote>; cujusmodi dicit esse hanc prophetiam Isai. 7, 14: <quote xml:id="ta-l3d3q3-Qd1e136">ecce virgo concipiet</quote>. Ergo non requirebatur aliquis consensus ex parte virginis, ratione cujus oporteret Annuntiationem fieri.</p>
+            <p xml:id="ta-l3d3q3-d1e140">Sed contra, majoris sapientiae ostensivum est miraculum factum in conceptione Christi ex virgine quam in conceptione Joannis ex sterili. Sed conceptio Joannis per Angelum praenuntiata fuit, ne fortuito, sed ex Dei providentia accidere putaretur. Ergo multo amplius conceptionem Christi Annuntiatio praecedere debuit.</p>
+            <p xml:id="ta-l3d3q3-d1e144">Praeterea, in conceptione Christi est factum quoddam matrimonium per indivisibilem conjunctionem divinae et humanae naturae. Sed in matrimonio requiritur consensus, qui per verba nuntiorum et requiritur et reconciliatur. Ergo et decuit ut Deus per Angelum suum consensum exquireret virginis, de qua humanam naturam assumeret.</p>
+          </div>
+          <div xml:id="ta-l3d3q3-Dd1e148">
+            <head xml:id="ta-l3d3q3-Hd1e150">Quaestiuncula 2</head>
+            <p xml:id="ta-l3d3q3-d1e153">Ulterius. Videtur, quod Annuntiatio non fuerit per modum corporalis visionis. Ut enim dicit <name>Augustinus</name>, inter tria visionis genera, quae sunt corporale, spirituale, et intellectuale, intellectualis visio est praestantior. Sed quod dignius est, matrem Dei magis decet. Ergo per intellectualem visionem, et non per corporalem, facta est Annuntiatio.</p>
+            <p xml:id="ta-l3d3q3-d1e159">Praeterea, apparitiones corporales Angelorum eo quod insolitae sunt, et praeter communem cursum naturae, inter signa et mirabilia computari possunt. Signa autem data sunt non fidelibus, sed infidelibus, ut dicit apostolus, 1 Corinth., 14. Cum igitur beata virgo fidelissima fuerit, non videtur ad eam apparitio corporalis Angeli fuisse facta.</p>
+            <p xml:id="ta-l3d3q3-d1e162">Sed contra, Luc. 1, super illud: <quote xml:id="ta-l3d3q3-Qd1e164">quae cum audisset turbata est</quote>, dicit Glossa: <quote xml:id="ta-l3d3q3-Qd1e167">trepidare virginum est, et omnem viri ingressum pavere, omnesque viri affatus vereri</quote>. Non autem hoc virginibus efficitur ex intellectuali consideratione viri vel ex imaginatione, 
+              <cb ed="#H" n="17rb" select="canvas-51994145.json"/>
+              sed ex corporali aspectu. Ergo Angelus in corporali visione virgini apparuit et eam collocutus est.</p>
+          </div>
+          <div xml:id="ta-l3d3q3-Dd1e174">
+            <head xml:id="ta-l3d3q3-Hd1e176">Quaestiuncula 1</head>
+            <p xml:id="ta-l3d3q3-d1e179">Respondeo dicendum ad primam quaestionem, quod congruum fuit virgini suam conceptionem annuntiari, multis de causis. Primo, quia cum mens Deo sit vicinior quam corpus, non decebat ut Dei sapientia ejus uterum inhabitaret sine hoc quod mens ejus cognitione summae sapientiae resplenderet; et ideo non decuit eam ignorare quod in ea fiebat, sed oportuit hoc sibi annuntiari. Secundo, quia ipsa futura erat certissima testis inusitatae conceptionis; unde oportuit quod de tam magno mysterio per Annuntiationem erudiretur. Tertio, quia Deus non diligit coacta sed voluntaria servitia, ut qui obsequuntur ex ipso ministerio mereantur. Unde cum beata virgo singulariter et excellenter in Dei ministerium eligeretur, quem in utero portavit, lacte aluit, et brachiis bajulavit, decuit ut consensus ejus Angelo nuntiante requireretur, quem humiliter praebens, ad obsequium se sedulam et promptam obtulit dicens: <quote xml:id="ta-l3d3q3-Qd1e181">ecce ancilla domini</quote>.</p>
+            <p xml:id="ta-l3d3q3-d1e185">Ad primum ergo dicendum, quod non erat determinate sub fide cadens tempus incarnationis, et per quam virginem hoc esset implendum; unde de hoc instruenda erat per Annuntiationem. Incarnationem enim futuram esse, quod antiquorum fidei subjacebat, firmissima fide tenebat.</p>
+            <p xml:id="ta-l3d3q3-d1e188">Ad secundum dicendum, quod allocutio Angeli non ex humana ratione persuasit, sed ex omnipotentia divina, cui fides maxime innititur: dixit enim: <quote xml:id="ta-l3d3q3-Qd1e190">non erit impossibile apud Deum omne verbum</quote>.</p>
+            <p xml:id="ta-l3d3q3-d1e194">Ad tertium dicendum, quod ea de quibus est prophetia praedestinationis complentur sine nostro arbitrio causante; non tamen oportet quod sine arbitrio consentiente.</p>
+          </div>
+          <div xml:id="ta-l3d3q3-Dd1e199">
+            <head xml:id="ta-l3d3q3-Hd1e201">Quaestiuncula 2</head>
+            <p xml:id="ta-l3d3q3-d1e204">Ad secundam quaestionem dicendum, quod convenientissime per corporalem visionem Annuntiatio facta est. Primo ut Annuntiatio esset certior. In his enim quae visibiliter cernimus minus decipimur. Secundo, quia, ut dicit Dionysius in epistola 9 ad Titum, haec est causa quare nobis divina per corporales figuras proponuntur, ut utraque vita hominis secundum suam proprietatem divina cognitione illuminetur; sensitiva scilicet imaginatione figurarum; intellectiva vero contemplatione spiritualis veritatis. Similiter etiam decuit ut virginis aspectus uterque suo modo nobilitaretur, interior scilicet per revelationem tanti mysterii, et exterior per corporalem Angeli visionem. Tertio, quia Annuntiatio debebat proportionari ei quod annuntiabatur. Annuntiabatur autem visibilis missio filii Dei in mundum; unde decenter Angelus nuntians corporali visione apparuit.</p>
+            <p xml:id="ta-l3d3q3-d1e207">Ad primum ergo contra hoc objectum dicendum, quod quamvis intellectualis visio sit melior corporali, tamen utraque simul efficacior invenitur quam altera, propter connaturalitatem humanae cognitionis ad sensum.</p>
+            <p xml:id="ta-l3d3q3-d1e210">Ad secundum dicendum, quod corporalis apparitio ad virginem facta est, non propter confirmationem fidei, sed propter significationem mysterii, vel propter dignitatem ipsius, ut sibi singulari modo divina panderentur.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l3d3q3-Dd1e215" type="articulus">
+          <head xml:id="ta-l3d3q3-Hd1e217">Articulus 2</head>
+          <head xml:id="ta-l3d3q3-Hd1e220" type="questionTitle">Utrum Annuntiatio debuit fieri per Angelum</head>
+          <div xml:id="ta-l3d3q3-Dd1e223">
+            <head xml:id="ta-l3d3q3-Hd1e225">Quaestiuncula 1</head>
+            <p xml:id="ta-l3d3q3-d1e228">Ad secundum sic proceditur. Videtur, quod Annuntiatio per Angelum fieri non debuit. Missio enim qua filius mittitur ut sit homo, est excellentior ea qua mittitur ut sit cum homine, ex parte effectus. Sed missio qua mittitur in mentem ut sit cum homine, non completur mediante Angelo, qui menti non illabitur, ut in 2 Lib., dist. 11, art. 4, dictum est. Ergo nec quando missus est ut esset homo, oportuit per Annuntiationem Angeli fieri.</p>
+            <p xml:id="ta-l3d3q3-d1e231">Praeterea, superior non instruitur per inferiorem. Sed beata virgo fuit Angelis superior quia Deo acceptior. Ergo non debuit sibi per Angelum Christi conceptio nuntiari.</p>
+            <p xml:id="ta-l3d3q3-d1e234">Praeterea, ordo reparationis debet respondere ordini primae conditionis. Sed in prima conditione praeceptum divinum ad mulierem per virum venit. Ergo et per aliquem virum prophetam annuntiari debuit virgini conceptio filii.</p>
+            <p xml:id="ta-l3d3q3-d1e237">Sed contra est quod dicitur in littera: <quote xml:id="ta-l3d3q3-Qd1e239">missus est Gabriel Angelus</quote>.</p>
+            <p xml:id="ta-l3d3q3-d1e244">Praeterea, ut probat <name ref="#Dionysius">Dionysius</name>, 
+              <cb ed="#H" n="17va" select="canvas-51994146.json"/>
+              Angeli sunt medii inter Deum et nos. Sed ab uno extremo in aliud devenitur per medium. Ergo ea quae beatae virgini divinitus nuntianda erant, per Angelum nuntiari decuit.</p>
+          </div>
+          <div xml:id="ta-l3d3q3-Dd1e253">
+            <head xml:id="ta-l3d3q3-Hd1e255">Quaestiuncula 2</head>
+            <p xml:id="ta-l3d3q3-d1e258">Ulterius. Videtur quod Angelus nuntians fuerit de supremis ordinibus. Dicit enim <name>Gregorius</name> in Homil. de centum ovibus. <quote xml:id="ta-l3d3q3-Qd1e263">Summum nuntium mitti decuit, qui summum omnium nuntiaret</quote>. Sed illi qui sunt in ordine Seraphim, sunt summi inter Angelos. Ideo per aliquem eorum Annuntiatio facta est.</p>
+            <p xml:id="ta-l3d3q3-d1e267">Praeterea, <name>Hieronymus</name> dicit, quod ista est quaestio inferiorum Angelorum mysterium incarnationis non plene cognoscentium, quae ponitur Isai. 63, 1: <quote xml:id="ta-l3d3q3-Qd1e272">quis est iste qui venit de Edom?</quote> Sed non potuit nuntiari mysterium incarnationis nisi per illos quibus plene revelatum est. Ergo Annuntiatio per aliquem de supremis Angelis facta est.</p>
+            <p xml:id="ta-l3d3q3-d1e276">Sed contra est quod Ecclesia cantat: <quote xml:id="ta-l3d3q3-Qd1e278">Gabrielem Archangelus scimus divinitus te esse affatum</quote>. Ordo autem Archangelorum est penultimus caelestis hierarchiae, ut patet ex Gregorio, et ex Dionysio. Ergo Angelus nuntians non fuit de supremis ordinibus.</p>
+          </div>
+          <div xml:id="ta-l3d3q3-Dd1e283">
+            <head xml:id="ta-l3d3q3-Hd1e285">Quaestiuncula 1</head>
+            <p xml:id="ta-l3d3q3-d1e288">Respondeo dicendum, ad primum quaesitum, quod Annuntiatio per Angelum facta est: cujus ratio multipliciter accipi potest. Primo, quia ut dicit Hieronymus, Angelis est cognata virginitas; unde decuit ut ad virginem nuntiandam Angelus mitteretur. Secundo, quia perditio humana initium sumpsit ex hoc quod Diabolus mulierem allocutus est; unde dicit Beda: <quote xml:id="ta-l3d3q3-Qd1e290">congruum apparet ad humanae naturae reparationis exordium ut Angelus virginem alloqueretur</quote>. Tertio, quia ille annuntiabatur qui est rex hominum et Angelorum; et ejus nativitas sicut in salutem hominum fuit, ita et in reparationem ruinae angelicae; et ideo decuit ut tam homines quam Angeli huic mysterio ministerium exhiberent.</p>
+            <p xml:id="ta-l3d3q3-d1e294">Ad primum ergo dicendum, quod quamvis quando filius in mentem mittitur, Angelus in mentem non illabatur; tamen filio venienti obsequitur praeparans mentem purgando, illuminando, et perficiendo ad divinae sapientiae susceptionem. Ita etiam et quando filius in carnem missus est, Angelus non venit ut carnem assumeret, sed ut virginem instrueret, de qua caro assumenda erat.</p>
+            <p xml:id="ta-l3d3q3-d1e297">Ad secundum dicendum, quod quamvis beata virgo superior Angelis fuerit secundum acceptionem divinae praedestinationis, tamen eis inferior erat quantum ad statum: quia ipsa in statu viae erat, Angeli autem in statu patriae. Unde non est inconveniens quod Angelus virginem instrueret.</p>
+            <p xml:id="ta-l3d3q3-d1e300">Ad tertium dicendum, quod in prima conditione mulier prima non accepit divinum praeceptum nisi per illum virum qui erat principium totius carnalis generationis; unde hoc solum debetur homini Christo, qui est spiritualis regenerationis principium, ut matrem doceat ex qua vita spiritualis in omnes quodammodo processit.</p>
+          </div>
+          <div xml:id="ta-l3d3q3-Dd1e305">
+            <head xml:id="ta-l3d3q3-Hd1e307">Quaestiuncula 2</head>
+            <p xml:id="ta-l3d3q3-d1e310">Ad secundam quaestionem ergo dicendum est quod Angelus nuntians non fuit de suprema nec de media hierarchia, sed de infima; nec de primo ordine ejusdem hierarchiae, sed de medio, qui est ordo Archangelorum. Cujus ratio multiplex patet: primo, quia cum Christus nasceretur, ut inordinationem quae in Angelis acciderat repararet, decuit ut in sua conceptione ordo ille caelestis hierarchiae maxime servaretur, ut scilicet supremi Angeli mediantibus infimis homines illuminarent. Secundo, ut tantum mysterium incarnationis conveniens esset. Cum enim inferiores Angeli agant secundum id quod a superioribus recipiunt, et non e converso, dum inferiores Angeli nuntiant, Annuntiatio per superiores ad inferiores expletur: quod non esset, si superiores immediate annuntiarent. Tertio, quia sic salvatur proprietas ordinum, sicut in 2, dist. 9, art. 3 et 4 et 7, dictum est. Infima enim hierarchia officium habet dirigendi homines secundum quamdam limitationem; vel unius provinciae sicut ordo principatuum; vel unius hominis, sicut ordines 
+              <cb ed="#H" n="17vb" select="canvas-51994146.json"/>
+              Angelorum et Archangelorum: sed differunt: quia ad Angelos pertinet dirigere in actibus alicujus hominis qui ad ipsum tantum pertinent; unde dicuntur minima nuntiare: ad Archangelos vero pertinet dirigere in actibus alicujus hominis, qui tamen in totam multitudinem redundant; unde et medii sunt inter principatus et Angelos; quod et eorum nomen ostendit; dicuntur enim Archangeli, quasi principes Angeli. Quia ergo consensus beatae virginis, qui per Annuntiationem requirebatur, actus singularis personae erat in multitudinis salutem redundans, immo totius humani generis, Angelus nuntians de ordine Archangelorum esse debuit, et inter eos summus.</p>
+            <p xml:id="ta-l3d3q3-d1e315">Ad primum ergo contra hoc objectum dicendum, quod <name>Gregorius</name> non intelligit summum simpliciter, sed summum inter Angelos, secundum quod quilibet Archangelus summus nuntius dici potest: quod patet ex hoc quod praemittit: <quote xml:id="ta-l3d3q3-Qd1e320">Archangeli dicuntur quasi summi nuntii</quote>.</p>
+            <p xml:id="ta-l3d3q3-d1e324">Ad secundum dicendum, quod Angeli inferiores non penitus mysterium incarnationis ignoraverunt; sed quia non totam profunditatem consilii divini super salutem humani generis capere poterant, inquirebant plenius edoceri, et de hoc in 2 Lib., dist. 11, plenius dictum est.</p>
+          </div>
+          <div xml:id="ta-l3d3q3-Dd1e328">
+            <head xml:id="ta-l3d3q3-Hd1e330">Expositio textus</head>
+            <p xml:id="ta-l3d3q3-d1e333"><quote xml:id="ta-l3d3q3-Qd1e334">Virtus altissimi obumbrabit tibi</quote>. Virtus altissimi, secundum expositionem Damasceni sequentem intelligitur filius, de quo <ref xml:id="ta-l3d3q3-Rd1e337"><title ref="#Icor">Corinth. 1,</title></ref> dicitur: <quote xml:id="ta-l3d3q3-Qd1e341">Christum Dei virtutem, et Dei sapientiam</quote>; ut sic in verbis Angeli praenuntietur duarum personarum adventus in virginem, scilicet spiritus sancti ad purgandum et potentiam generativam praestandum, et filii ad carnem assumendum: propter quod dicit: <quote xml:id="ta-l3d3q3-Qd1e344">obumbrabit tibi virtus</quote>. Virtus enim altissimi per susceptionem nostrae infirmitatis obumbrata est. Vel dicitur: <quote xml:id="ta-l3d3q3-Qd1e347">obumbrabit tibi</quote>, ad signandum extinctionem omnimodam fomitis: quia per adventum filii in ipsam omnes reliquiae fomitis ab ea extirpatae sunt; et haec extirpatio obumbratio dicitur, sicut et fomes incendium: umbra enim contra aestum refrigerium praestat. <quote xml:id="ta-l3d3q3-Qd1e350">Sicut divinum semen</quote>. Non dicit simpliciter <quote xml:id="ta-l3d3q3-Qd1e354">semen</quote>, ut caveret errorem Apollinaristarum qui ponebant spiritum sanctum in uterum virginis vere sicut semen venisse. In hoc tamen similitudinem seminis habet quod sicut semen est activum in generatione, ita et spiritus sanctus in conceptione Christi, vel filius quem virtutem altissimi dicit. <quote xml:id="ta-l3d3q3-Qd1e357">Nostrae antiquae aspersionis</quote>: non quantum ad vetustatem culpae, sed poenae. <quote xml:id="ta-l3d3q3-Qd1e360">Per spiritum sanctum creans</quote>. Contra, creare est ex nihilo aliquid facere. Sed corpus Christi de materia formatum est. Ergo non est per spiritum sanctum in conceptione creatum. Sed dicendum, quod creatio hic large accipitur pro qualibet operatione supernaturali, quae ipsius tantum Dei est. <quote xml:id="ta-l3d3q3-Qd1e363">Si dixerimus quia peccatum non habemus, nos ipsos seducimus</quote>. Videtur instantia esse de puero baptizato, et de adulto, qui statim vere confessus est. Sed dicendum, quod ad hoc ut veritatem in omnibus habeat dictum apostoli, dupliciter potest accipi. Uno modo ut per peccatum non tantum intelligatur macula et reatus peccati, sed etiam causa et sequela peccati. In puero enim baptizato, et adulto poenitente manet fomes incitans ad peccandum, et ulterius aliquae dispositiones ex actuali peccato relictae; in Christo autem neutrum horum fuit: caro enim ejus sine corruptione fomitis concepta est; et cum peccatum non fecerit, reliquiae peccati in eo non fuerunt: similiter nec in beata virgine, quae immunis a peccato actuali fuit; fomes autem etsi essentialiter in ea remansit post primam sanctificationem, tamen ut ligatus, et non ut incitans ad peccatum, ut dictum est. Alio modo potest verificari, ut intelligatur etiam de peccato actuali quo ad reatum et maculam. Etsi enim homo ad breve tempus sine actuali peccato esse 
+              <cb ed="#H" n="18ra" select="canvas-51994146.json"/>
+              possit, non tantum diu sic perseverare potest, ut saltem in veniale peccatum non cadat; ut sic hoc verbum <quote xml:id="ta-l3d3q3-Qd1e368">habemus</quote> non determinatum, sed confusum praesens importet. In Christo vero et matre ejus nullo modo peccatum actuale locum habuit, nec mortale nec veniale.</p>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

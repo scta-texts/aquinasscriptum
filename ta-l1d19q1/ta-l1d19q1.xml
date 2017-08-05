@@ -1,0 +1,1797 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 19, Quaestio 1</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.09-dev-master">
+          <title>Librum I, Distinctio 19, Quaestio 1</title>
+          <date when="2016-03-14">March 14, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-14">March 14, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p>1856 editum</p>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="2015.09">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <div xml:id="starts-on"> </div>
+    </front>
+    <body>
+      <div xml:id="ta-l1d19q1">
+        <head xml:id="ta-l1d19q1-Hd1e3490">Librum I, Distinctio 19, Quaestio 1</head>
+        <div xml:id="ta-l1d19q1-Dd1e3493">
+          <head xml:id="ta-l1d19q1-Hd1e3495">Prooemium</head>
+          <p xml:id="ta-l1d19q1-d1e3498">Postquam determinavit <name ref="#Lombard">Magister</name> de personis divinis quantum
+            ad earum distinctionem per relationes aeternas, hic incipit determinare de ipsis quantum
+            ad earum aequalitatem. Dividitur autem haec pars in duas: in prima ostendit aequalitatem
+            personarum; in secunda movet quamdam dubitationem quae oritur ex quibusdam locutionibus,
+            quibus in sua probatione usus fuerat, 21 distinct., ibi: <quote xml:id="ta-l1d19q1-Qd1e3503">hic oritur quaestio
+              trahens originem ex praedictis</quote>. Prima in duas: in prima ostendit secundum quid
+            attendenda sit personarum aequalitas; in secunda secundum illa personarum aequalitatem
+            ostendit, ibi: <quote xml:id="ta-l1d19q1-Qd1e3506">quod autem aeternitate, aliqua trium personarum aliam non excedat,
+              supra ostensum est</quote>. Circa primum duo facit: primo ostendit quod aequalitas
+            personarum attenditur quantum ad aeternitatem, magnitudinem, et potestatem; secundo
+            ostendit qualiter ista tria se habent ad invicem, scilicet quod sunt idem secundum rem
+            quod divina essentia, ibi: <quote xml:id="ta-l1d19q1-Qd1e3509">cumque enumerentur ista quasi diversa, in Deo tamen
+              unum et idem sunt. Quod autem aeternitate, aliqua trium personarum aliam non excedat,
+              supra ostensum est</quote>. Hic ostendit propositum; et dividitur in tres partes: in
+            prima ex praedictis relinquit aequalitatem personarum quantum ad aeternitatem; in
+            secunda ostendit earum aequalitatem quantum ad magnitudinem, ibi: <quote xml:id="ta-l1d19q1-Qd1e3512">nunc superest
+              ostendere quod magnitudine vel potentia alius alium non excedat</quote>; in tertia
+            quantum ad potestatem, 20 dist., ibi: <quote xml:id="ta-l1d19q1-Qd1e3516">nunc ostendere restat quomodo aliqua harum
+              personarum aliam non excellat potentia. Nunc superest ostendere quod magnitudine vel
+              potentia alius alium non excedat</quote>. Hic ostendit personarum aequalitatem quantum
+            ad magnitudinem: et primo ostendit aequalitatem in magnitudine; secundo inducit quamdam
+            conclusionem, ibi: <quote xml:id="ta-l1d19q1-Qd1e3519">praeterea cum Deus dicatur trinus, non tamen debet dici
+              triplex</quote>. Prima in tres, secundum tres vias quibus probat aequalem magnitudinem
+            trium personarum: primo ostendit ex mutua inhaesione; secundo ex remotione eorum quae
+            inaequalitatem facere possent, ibi: <quote xml:id="ta-l1d19q1-Qd1e3522">sed jam nunc ad propositum redeamus</quote>;
+            tertio ex ratione divinae simplicitatis et veritatis, ibi: <quote xml:id="ta-l1d19q1-Qd1e3525">sciendum est igitur,
+              tantam aequalitatem esse in Trinitate</quote> et cetera. Circa primum tria facit:
+            primo manifestat propositum; secundo proponit intentum, ibi: <quote xml:id="ta-l1d19q1-Qd1e3528">sciendum igitur est
+              quia pater non est major filio</quote>; tertio ponit aequalitatis signum, ibi:
+              <quote xml:id="ta-l1d19q1-Qd1e3531">et inde est quod pater dicitur esse in filio, et filius in patre, et spiritus
+              sanctus in utroque</quote>. Hic quaeruntur duo. Primo de aequalitate. Secundo de illis
+            in quibus attenditur aequalitas. Circa primum quaeruntur duo: 1 an in divinis sit
+            aequalitas; 2 an ibi sit mutua aequalitas.</p>
+        </div>
+        <div xml:id="ta-l1d19q1-Dd1e3536" type="articulus">
+          <head xml:id="ta-l1d19q1-Hd1e3538">Articulus 1</head>
+
+          <head xml:id="ta-l1d19q1-Hd1e3541" type="questionTitle">Utrum aequalitas sit in divinis</head>
+
+          <p xml:id="ta-l1d19q1-d1e3544">Ad primum sic proceditur. Videtur quod aequalitas non sit in divinis. Sicut enim dicit
+            philosophus, unum in quantitate facit aequale. Sed in Deo non est quantitas, ut supra
+            dixit Augustinus, quod est sine quantitate magnus. Ergo videtur quod non sit aequalitas
+            ibi.</p>
+          <p xml:id="ta-l1d19q1-d1e3547">Praeterea, quidquid est in divinis de absolutis, significat divinam substantiam. Sed
+            secundum unitatem substantiae attenditur identitas, et non aequalitas. Ergo videtur quod
+            per hoc quod probatur una essentia trium personarum, magis probetur identitas quam
+            aequalitas.</p>
+          <p xml:id="ta-l1d19q1-d1e3550">Item, qualitas magis se habet ad spiritualia quam quantitas: quia quaedam species
+            qualitatis, ut scientia et virtus et hujusmodi, inveniuntur in substantiis
+            spiritualibus; non autem species quantitatis, nisi forte numerus, secundum quem non
+            attenditur haec aequalitas personarum. Ergo cum secundum qualitatem potius sit
+            similitudo quam aequalitas, videtur quod ista convenientia in essentialibus magis
+            dicenda sit similitudo quam aequalitas.</p>
+          <p xml:id="ta-l1d19q1-d1e3554">Praeterea, omnis aequalitas dicit proportionem et commensurationem quamdam. Sed
+            infinitorum non est aliqua commensuratio nec proportio. Cum igitur divinae personae
+            infinitae sint, non videtur in eis esse aequalitas.</p>
+          <p xml:id="ta-l1d19q1-d1e3557">In contrarium, est quod in symbolo Athanasii dicitur: <quote xml:id="ta-l1d19q1-Qd1e3559">et totae tres personae
+              coaeternae sibi sunt et coaequales</quote>.</p>
+          <p xml:id="ta-l1d19q1-d1e3563">Respondeo dicendum, quod, sicut dicit philosophus, unum in substantia facit idem, unum
+            in quantitate aequale, unum in qualitate facit simile. Quamvis autem in divinis non sit
+            qualitas vel quantitas secundum communem rationem generis, sunt tamen ibi aliquae
+            species qualitatis secundum proprias rationes suas, quantum ad differentias
+            constitutivas; et similiter aliquae species quantitatis secundum id quod est proprium
+            eis, ut magnitudo et duratio: et ideo ratione eorum dicitur in divinis aequalitas et
+            similitudo. Sicut autem ea quae significantur per modum qualitatis, ut sapientia et
+            hujusmodi, non sunt aliud secundum rem ab essentia, sed solum secundum rationem; ita
+            etiam similitudo et identitas in divinis differunt secundum rationem et non secundum
+            rem, et similiter est de aequalitate. Et inde est quod diversimode invenitur aequalitas
+            et similitudo in divinis personis et in aliis rebus. In aliis enim aequalibus non est
+            eadem quantitas secundum essentiam, sed solummodo secundum commensurationem; et
+            similiter una qualitas secundum speciem; quia in eis est aliud qualitas et essentia,
+            quae respicit esse sicut actum proprium. Qualitas autem vel quantitas non dicitur per
+            respectum ad esse, sed tantum dicunt quidditatem alicujus generis. Unde potest dici una
+            quantitas ubi non est unum esse; sed non potest dici una essentia absolute, nisi ubi est
+            unum esse; et hoc est ubi est eadem essentia secundum numerum. Et inde est quod ad
+            rationem aequalitatis, unitas secundum numerum non requiritur; sed ad identitatem
+            requiritur unitas secundum numerum. In divinis autem personis idem est magnitudo et
+            sapientia, quod essentia: unde aequalitas et similitudo personarum attenditur secundum
+            eamdem sapientiam numero et magnitudine.</p>
+          <p xml:id="ta-l1d19q1-d1e3566">Ad primum igitur dicendum, quod aequalitas non causatur ex uno in quantitate solum
+            secundum rationem quantitatis communem, sed etiam secundum rationem alicujus speciei
+            quantitatis. Ad rationem enim aequalitatis sufficit quod sit unitas numeri, vel etiam
+            temporis. Et ita cum in divinis sit ratio aliquarum specierum quantitatis, potest ibi
+            esse aequalitas proprie. Sed quia quod invenitur in pluribus, convenit eis secundum id
+            quod est eis commune, et non secundum quod est eis proprium: ideo potest melius dici,
+            quod aequalitas consequitur rationem quantitatis in communi, quae consistit in quadam
+            divisibilitate: unde ratio quantitatis invenitur proprie in illis quae secundum se
+            dividuntur; et sic Deo non convenit. Invenitur etiam quodammodo in illis quorum divisio
+            attenditur secundum ea quae extrinsecus sunt, sicut virtus dicitur divisibilis et
+            quantitatis rationem habens ex ratione et divisione actuum et objectorum. Et talis ratio
+            quantitatis, scilicet virtualis, Deo convenit, et per consequens aequalitas.</p>
+          <p xml:id="ta-l1d19q1-d1e3569">Ad secundum dicendum, quod ratione jam dicta, dist. 9, patet quod identitas ponit
+            unitatem in essentia secundum numerum: et quia in rebus creatis, ex quarum
+            consideratione nomina imponimus, etiam illa quae de Deo praedicantur, unitas essentiae
+            non est nisi in eodem supposito; ideo identitas nullam importat distinctionem in
+            supposito; sed magis unitatem. Unde filius non potest dici, masculine loquendo, idem
+            patri, sed neutraliter tantum; ut unitas ad essentiam referatur. Aequalitas vero et
+            similitudo, quae important unitatem quantitatis vel qualitatis non secundum essentiam
+            vel esse, quantum est de sui significatione, non important unitatem quantitatis vel
+            qualitatis in numero; sed sufficit quod sint idem specie. Haec autem unitas est in
+            diversis suppositis: et ideo aequalitas et similitudo simul cum unitate important
+            distinctionem: et propter hoc dicimus filium similem patri vel aequalem; non tamen
+            eumdem. Et inde est quod potius Magister de aequalitate quam de identitate determinavit,
+            dist. 9, quia in identitate importatur tantum unitas essentiae. Nec etiam secundum
+            quemlibet modum divinis personis competit, scilicet masculine; sed in aequalitate
+            importatur utrumque; et unitas essentiae per modum quantitatis significatae, et
+            personarum distinctio.</p>
+          <p xml:id="ta-l1d19q1-d1e3572">Ad tertium dicendum, quod quamvis in similitudine similiter importetur utrumque, ut
+            patet ex verbis Hilarii in 2 distinct. positis quod similitudo sibi ipsi non est, tamen
+            aequalitas addit aliquid supra similitudinem, et includit eam, quando dicitur de divinis
+            personis. Cum enim in divinis non nisi quantitas sit virtutis, quae fundatur in
+            qualitate, in unitate talis quantitatis ponitur unitas qualitatis, et privatur
+            intensionis excessus, ut patet: quia quaecumque aequalia sunt in colore, sunt etiam
+            similia, sed non convertitur.</p>
+          <p xml:id="ta-l1d19q1-d1e3576">Ad quartum dicendum, quod aequalitas est species proportionis: est enim aequalitas
+            proportio aliquorum habentium unam quantitatem. Dico igitur de aequalitate, sicut de
+            quibusdam aliis, quod praedicatur de Deo quantum ad rationem differentiae, quod est
+            habere unam quantitatem, et non quantum ad rationem generis, quae consistit in
+            commensuratione quantitatis. Unde dico, quod divina magnitudo nullo modo est
+            mensurabilis vel mensurata nec ab alio nec a se. Primo, quia mensuratio ponit
+            terminationem, et divina magnitudo non habet terminum intra nec extra; et ideo infinita
+            dicitur, non quidem per extensionem privative, sed per negationem termini. Secundo, quia
+            commensuratio non est unius quantitatis ad se, sed duarum; et nulla alia magnitudo
+            potest esse aequalis sibi. Pater autem et filius non habent aliam et aliam magnitudinem,
+            sed unam et eamdem, secundum quam aequales dicuntur; et ita divinae magnitudini nihil
+            diversum ab ipsa commensuratur. Tertio, quia sicut omnis motus reducitur ad movens quod
+            non est motum neque a se neque ab alio: ita omnis mensuratio reducitur ad unum primum
+            quod nullo modo est mensuratum, sed est omnium mensura; et hoc Deus est, ut etiam
+            Commentator dicit.</p>
+        </div>
+        <div xml:id="ta-l1d19q1-Dd1e3580" type="articulus">
+          <head xml:id="ta-l1d19q1-Hd1e3582">Articulus 2</head>
+
+          <head xml:id="ta-l1d19q1-Hd1e3585" type="questionTitle">Utrum aequalitas in divinis sit mutua</head>
+
+          <p xml:id="ta-l1d19q1-d1e3588">Ad secundum sic proceditur. Videtur quod non sit ibi mutua aequalitas. Ita enim dicit
+            Dionysius quod in causa et in causatis non recipimus conversionem similitudinis et
+            aequalitatis. Sed quamvis in divinis personis non sit causa et causatum, est tamen ibi
+            principium et quod est de principio. Ergo videtur quod filius, qui est a patre sicut a
+            principio, sit similis et aequalis patri, sed non e converso.</p>
+          <p xml:id="ta-l1d19q1-d1e3591">Praeterea, unumquodque est aequale illi quo non est minus; et nihil est aequale illi
+            quo est majus. Sed supra, distinct. 16, dicit Hilarius: <quote xml:id="ta-l1d19q1-Qd1e3593">filius non est minor
+              patre, et tamen pater est major filio</quote>. Ergo filius est aequalis patri, sed non
+            e converso.</p>
+          <p xml:id="ta-l1d19q1-d1e3597">Item, cum nihil sibi ipsi sit aequale, omne quod aequale dicitur praesupponit aliquid
+            cui aequale dicatur. Sed filius secundum ordinem naturae praesupponit patrem, non autem
+            pater praesupponit aliquid. Ergo videtur quod filius sit aequalis patri, et non e
+            converso.</p>
+          <p xml:id="ta-l1d19q1-d1e3601">Contra est quod in symbolo dicitur: <quote xml:id="ta-l1d19q1-Qd1e3603">tres personae coaeternae sibi sunt et
+              coaequales</quote>. Ergo est ibi mutua aequalitas.</p>
+          <p xml:id="ta-l1d19q1-d1e3607">Respondeo dicendum, quod cum aequalitas fundetur in unitate quantitatis, idem est
+            aliquid esse aequale alicui, quod habere quantitatem illius; et esse simile, quod habere
+            qualitatem illius. Qualitas autem alicujus dicitur quam proprie et plene habet.
+            Contingit autem quandoque quod qualitas illa perfecta est in utroque: unde utriusque
+            dici potest: et secundum hoc in talibus potest dici quod utrumque alteri simile est.
+            Quandoque autem qualitas aliqua est proprie et plene in uno, et in alio est tantum
+            quaedam imitatio illius, secundum aliquam participationem: et tunc illa qualitas non
+            dicitur utriusque, sed ejus tantum quod eam plene possidet. Et tunc illud quod non plene
+            habet, dicetur simile ei quod plene habet, et non e converso: ut si dicamus quod pictura
+            est similis homini, et non e converso. Non enim dicitur quod homo sit similis suae
+            imagini, proprie loquendo. Ulterius, assimilari, supra hoc quod est similem esse, ponit
+            quemdam motum et accessum ad unitatem qualitatis, et similiter, adaequari, ad
+            quantitatem. In divinis autem personis non est aliquis motus; sed loco motus est ibi
+            acceptio, prout dicitur una persona ab alia accipere: unde non potest esse assimilatio
+            vel adaequatio, nisi secundum rationem acceptionis. Dico igitur, quod quia magnitudo vel
+            bonitas est plene in qualibet divinarum personarum, quaelibet persona potest dici
+            aequalis vel similis alii. Sed quia una persona accipit ab alia et non e converso, ideo
+            persona accipiens potest dici adaequari vel assimilari illi personae a qua accipit, et
+            non e converso. Concedimus igitur inter patrem et filium esse mutuam similitudinem vel
+            aequalitatem: quia pater est similis filio, et e converso: non autem mutuam
+            adaequationem vel assimilationem: quia filius adaequatur patri et assimilatur, et non e
+            converso.</p>
+          <p xml:id="ta-l1d19q1-d1e3610">Ad primum igitur dicendum, quod Dionysius loquitur in causatis illis quae non perfecte
+            recipiunt similitudinem suae causae, quod non est in divinis personis, quia tota
+            plenitudo patris est in filio: et ideo potest dici mutua similitudo vel aequalitas. Unde
+            Dionysius dicit, quod in coordinatis, idest aequalibus, possibile est similia sibi
+            invicem esse, et convertere ad alterutrum similitudinem.</p>
+          <p xml:id="ta-l1d19q1-d1e3613">Ad secundum dicendum, quod per hoc quod dicitur pater major filio, non ponitur aliquis
+            gradus magnitudinis, sed tantum ordo auctoritatis. Unde per hoc non removetur mutua
+            aequalitas, sed tantum mutua adaequatio.</p>
+          <p xml:id="ta-l1d19q1-d1e3616">Ad tertium dicendum, quod aequalitas non de necessitate praesupponit aliquid aliud, sed
+            supponit. Unde non oportet quod illud quod dicitur aequale, habeat aliquem ordinem vel
+            prioritatis vel principii ad illud cui aequale dicitur, vel e converso.</p>
+        </div>
+
+      </div>
+    </body>
+  </text>
+</TEI>

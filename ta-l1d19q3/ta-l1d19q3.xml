@@ -1,0 +1,1789 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 19, Quaestio 3</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.09-dev-master">
+          <title>Librum I, Distinctio 19, Quaestio 3</title>
+          <date when="2016-03-14">March 14, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-14">March 14, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p>1856 editum</p>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="2015.09">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <div xml:id="starts-on"> </div>
+    </front>
+    <body>
+      <div xml:id="ta-l1d19q3">
+        <head xml:id="ta-l1d19q3-Hd1e3490">Librum I, Distinctio 19, Quaestio 3</head>
+        <div xml:id="ta-l1d19q3-Dd1e3493">
+          <head xml:id="ta-l1d19q3-Hd1e3495">Prooemium</head>
+          <p xml:id="ta-l1d19q3-d1e3498">Deinde quaeritur de magnitudine; et circa hoc quaeruntur duo: 1 utrum magnitudo Deo
+            conveniat, et quid sit; 2 de signo aequalitatis in magnitudine divinarum personarum,
+            secundum quod in se esse dicuntur.</p>
+        </div>
+        <div xml:id="ta-l1d19q3-Dd1e3502" type="articulus">
+          <head xml:id="ta-l1d19q3-Hd1e3504">Articulus 1</head>
+
+          <head xml:id="ta-l1d19q3-Hd1e3507" type="questionTitle">Utrum magnitudo competat Deo</head>
+
+          <p xml:id="ta-l1d19q3-d1e3510">Ad primum sic proceditur. Videtur quod magnitudo Deo non competat. Magnitudo enim est
+            quaedam conditio materiae. Sed nulla conditio materialis de Deo dicitur, nisi
+            metaphorice. Ergo videtur quod magnitudo Deo non conveniat nisi metaphorice.</p>
+          <p xml:id="ta-l1d19q3-d1e3513">Praeterea, magnum et parvum ex opposito dividuntur. Sed, secundum philosophum, omne
+            parvum est magnum sicut et omne paucum est multum, ut 10 Metaphys. dicit. Ergo videtur
+            etiam quod omne magnum sit parvum. Sed Deus non est parvus. Ergo non est magnus.</p>
+          <p xml:id="ta-l1d19q3-d1e3516">Item, magnitudo est quantitas continua. Sed in Deo non potest esse continuatio, cum sit
+            simplex et indivisibilis. Ergo nec magnitudo.</p>
+          <p xml:id="ta-l1d19q3-d1e3520">Si dicas, quod in Deo est quantitas virtutis secundum quam dicitur magnus; contra Deus
+            secundum virtutem suam dicitur potens. Sed hic dividitur potentia contra magnitudinem.
+            Ergo non intelligitur de magnitudine virtutis.</p>
+          <p xml:id="ta-l1d19q3-d1e3523">Contra est quod dicitur in Psalm. 146, 5: <quote xml:id="ta-l1d19q3-Qd1e3525">magnus Deus et magna virtus
+              ejus</quote>.</p>
+          <p xml:id="ta-l1d19q3-d1e3529">Respondeo dicendum, quod in Deo non potest esse quantitas nisi virtutis; et cum
+            aequalitas attendatur secundum aliquam speciem quantitatis, aequalitas non erit nisi
+            secundum virtutem. Virtus autem, secundum philosophum est ultimum in re de potentia.
+            Unde etiam dicitur in 7 Physic., quod virtus est perfectio quaedam, et tunc unumquodque
+            perfectum est quando attingit propriam virtutem. Omnibus igitur illis modis quibus
+            contingit pertingere ad ultimum est considerare virtutem rei. Hoc autem contingit
+            tripliciter: primo in operationibus, in quibus contingit gradus perfectionis inveniri.
+            Unde dicitur habere virtutem ad operandum quod attingit completam operationem, prout
+            dicitur 2 Ethic., quod virtus est quae bonum facit habentem, et opus ejus bonum reddit.
+            Secundo etiam respectu ipsius esse rei, secundum quod etiam philosophus dicit, quod
+            aliquid habet virtutem ut semper sit. Item secundum plenitudinem perfectionis respectu
+            ipsius entis, secundum quod attingit ultimum naturae suae. Unde etiam virtus circuli
+            dicitur, secundum philosophum, quando attingit complete definitionem suam. Si igitur
+            virtus divina consideretur secundum perfectionem ad opus, erit virtus potentiae
+            operativae. Si autem consideretur perfectio quantum ad ipsum esse divinum, virtus ejus
+            erit aeternitas. Si autem consideretur quantum ad complementum perfectionis ipsius
+            naturae divinae, erit magnitudo. Quod patet ex hoc quod ipse probat aequalitatem in
+            magnitudine ex hoc quod tota plenitudo naturae patris est in filio; secundum quem etiam
+            modum Augustinus dicit, quod in his quae non mole magna sunt, idem est majus esse quod
+            melius; secundum quod etiam dicimus aliquem hominem esse magnum, qui est perfectus in
+            scientia et virtute. Et sicut omnipotentiae suae virtute omnes potentias operativas
+            fundat et in eis operatur; ita per virtutem aeternitatis suae instituit et firmat omnem
+            durationem et per virtutem magnitudinis suae omnia implet et continet.</p>
+          <p xml:id="ta-l1d19q3-d1e3532">Ad primum igitur dicendum, quod magnitudo secundum rationem generis sui, quod est
+            quantitas, est conditio materiae; et secundum hoc non praedicatur de Deo, sed secundum
+            rationem differentiae suae; quae consistit in ratione completionis, prout dicimus
+            aliquem ex parvo fieri magnum, quando attingit completam quantitatem.</p>
+          <p xml:id="ta-l1d19q3-d1e3535">Ad secundum dicendum, quod quantitas continua dividitur in infinitum, sed non in
+            infinitum augetur; et ideo ratione divisionis infinitae quodlibet parvum potest habere
+            minus, in cujus respectu videtur magnum; sed tamen non quolibet magno est aliquod majus,
+            respectu cujus possit dici minus, sicut patet in quantitate caeli. Nihilominus tamen si
+            magnum et parvum non dicatur secundum relationem, sed absolute, prout consideratur,
+            quantitas determinata ad aliquam speciem, sic quamvis quodlibet minus sit majus, non
+            tamen quodlibet minus est parvum, nec quodlibet majus est magnum, ut dicit philosophus.
+            Nihilominus tamen sciendum quod Deus sicut dicitur magnus, ita etiam dicitur parvus, ut
+            dicit Dionysius, et accipit parvum pro subtili, secundum quod ipse penetrat omnia, etiam
+            profundas cogitationes, et secundum quod dicitur quod principia sunt parva quantitate et
+            magna virtute.</p>
+          <p xml:id="ta-l1d19q3-d1e3538">Ad tertium dicendum, quod continuitas sequitur magnitudinem dimensivam, non autem
+            magnitudinem virtutis, quae sola debet in Deo intelligi.</p>
+          <p xml:id="ta-l1d19q3-d1e3542">Ad quartum patet jam solutio per ea quae dicta sunt, in corp. art.; quia virtus non
+            tantum dicitur respectu operationis secundum quod hic accipitur potentia, sed etiam
+            aliis modis, ut dictum est, ubi supra.</p>
+        </div>
+        <div xml:id="ta-l1d19q3-Dd1e3546" type="articulus">
+          <head xml:id="ta-l1d19q3-Hd1e3548">Articulus 2</head>
+
+          <head xml:id="ta-l1d19q3-Hd1e3551" type="questionTitle">Utrum pater sit in filio et e converso</head>
+
+          <p xml:id="ta-l1d19q3-d1e3554">Ad secundum sic proceditur. Videtur quod pater non sit in filio nec e converso.
+            Philosophus enim assignat octo modos essendi in, quorum nullus potest aptari ad hoc quod
+            pater in filio esse dicatur vel e converso. Neque enim est sicut totum in partibus neque
+            sicut e converso, neque sicut genus in speciebus neque sicut e converso, neque sicut in
+            loco, neque sicut forma in materia, neque sicut in movente, sicut regnum est in rege;
+            neque sicut in fine optimo, ut de facili potest probari. Ergo pater non est in
+            filio.</p>
+          <p xml:id="ta-l1d19q3-d1e3557">Praeterea, eorum quorum unum est apud alterum, ut distinctum ab ipso, unum non est in
+            altero. Sed filius est apud patrem, ut dicitur Joan. 1: <quote xml:id="ta-l1d19q3-Qd1e3559">et verbum erat apud
+              Deum</quote>. Ergo videtur quod pater non sit in filio, nec e converso.</p>
+          <p xml:id="ta-l1d19q3-d1e3563">Item, in divinis non est nisi relatio originis. Sed haec praepositio in importat
+            aliquam habitudinem. Ergo in divinis non potest importare nisi relationem originis. Sed
+            non eamdem relationem habet filius ad patrem et pater ad filium. Ergo vel non uterque
+            est in altero, vel non eodem modo.</p>
+          <p xml:id="ta-l1d19q3-d1e3567">Contra, ubicumque est essentia patris, est pater. Sed tota essentia patris est in filio
+            et e converso. Ergo pater est in filio et e converso.</p>
+          <p xml:id="ta-l1d19q3-d1e3570">Praeterea, in uno relativorum intelligitur aliud. Sed pater et filius sunt relativa.
+            Ergo videtur quod pater sit in filio et e converso.</p>
+          <p xml:id="ta-l1d19q3-d1e3573">Respondeo dicendum, quod in divinis personis est duo considerare: scilicet essentiam
+            quae est una et eadem, et relationes quibus distinguuntur; et secundum utrumque pater
+            dicitur esse in filio et e converso, secundum diversorum assignationes. Secundum enim
+            tres doctores, qui in littera inducuntur, scilicet Augustinum, Hilarium, Ambrosium, hoc
+            dicitur propter essentiae unitatem, quia essentia patris est in filio et pater non
+            deserit naturam suam; unde ubi est natura sua, ibi est ipse, sicut patuit etiam ex
+            verbis Hilarii supra, dist. 5, inductis. Sed secundum Damascenum, hoc intelligitur
+            secundum rationem relationis, prout in uno relativorum intelligitur aliud.</p>
+          <p xml:id="ta-l1d19q3-d1e3576">Ad primum igitur dicendum, quod stricte accipiendo, non omnes modi quibus aliquid est
+            in aliquo, continentur in illis octo, nisi per quamdam similitudinis reductionem; sicut
+            esse in tempore reducitur ad illum modum quo aliquid dicitur esse in loco, quia utrumque
+            est sicut mensuratum in mensura; sic etiam per quamdam similitudinem ille modus potest
+            reduci ad aliquem illorum. Si enim hoc accipiatur quantum ad unitatem essentiae, tunc
+            pater dicitur esse in filio propter hoc quod essentia patris in filio est. Unde ad illum
+            modum reducitur ad quem reduceretur si essentia in filio esse diceretur. Hoc autem est
+            per modum quo natura communis est in aliquo supposito, et reducitur ad illum modum quo
+            genus est in specie; quamvis in divinis non sit genus et species, ut infra, distin. 25,
+            quaest. unic., art. 3, patebit. Si autem accipiatur quantum ad relationem, tunc
+            reducetur ad illum modum quo aliquid est in aliquo sicut in principio movente et
+            efficiente; quamvis enim pater non sit principium efficiens filii, tamen est originans
+            ipsum. Unde filius est in patre sicut originatum in originante, et e converso pater in
+            filio sicut originans in originato. Sed adhuc magis proprie dicitur in divinis filius in
+            patre, etiam ex parte relationis, quam in humanis; quia filius ex ipsa relatione est
+            persona subsistens; sua enim relatio est sua personalitas, quod in aliis rebus non
+            contingit.</p>
+          <p xml:id="ta-l1d19q3-d1e3579">Ad secundum dicendum, quod una persona dicitur esse apud aliam ratione distinctionis;
+            sed dicitur esse in alia vel quantum ad essentiam, vel quantum ad intellectum
+            relationum, quia in una intelligitur alia, quamvis unum relativum ab altero sit
+            distinctum.</p>
+          <p xml:id="ta-l1d19q3-d1e3582">Ad tertium dicendum, quod si accipiatur pater esse in filio propter unitatem essentiae,
+            eodem modo est pater in filio et filius in patre: et tunc haec praepositio in non
+            importabit aliquam relationem realem, sed tantum relationem rationis, qualis est inter
+            essentiam et personam, secundum quam essentia dicitur esse in persona. Si autem hoc
+            accipiatur ex parte relationis, tunc est alius modus, ut dictum est, in Resp. ad primum,
+            secundum diversam habitudinem patris ad filium et filii ad patrem.</p>
+        </div>
+        <div xml:id="ta-l1d19q3-Dd1e3586">
+          <head xml:id="ta-l1d19q3-Hd1e3588">Expositio textus</head>
+          <p xml:id="ta-l1d19q3-d1e3591"><quote xml:id="ta-l1d19q3-Qd1e3592">In generationem et generationem anni tui</quote>. Aeternitas per annos Dei
+            intelligitur, non propter sui multitudinem, cum sit una et simplex, sed inquantum
+            virtute comprehendere potest magnam multitudinem inferioris mensurae, quae divisibilis
+            est. Sicut etiam dicimus, ante mundum tempus fuisse, non quidem in re, sed secundum
+            imaginationem, prout imaginamur tempori (quod cum mundo incepit) possibilem fuisse
+            additionem fieri ex parte ante, quae additio tota sub aeternitate continetur.
+              <quote xml:id="ta-l1d19q3-Qd1e3595">Confitemur divinitatis naturam omnem perfecte esse in singula suarum
+              hypostaseon</quote>, idest totam et perfectam, et simile in sequentibus accipiendum
+            est. <quote xml:id="ta-l1d19q3-Qd1e3598">Nec exemplum aliquod rebus divinis comparatio humana praestabit</quote>.
+            Verum est, quod sufficienter divina demonstret: quia in qualibet similitudine invenitur
+            major dissimilitudo, ut supra, 2 distin., dictum est. <quote xml:id="ta-l1d19q3-Qd1e3601">Sed quod non intelligibile
+              est homini, Deo possibile est</quote>. Cum enim divina natura et virtus, quae infinita
+            est, nostrum intellectum excedat, nihil quod intelligere possimus, est quod Deus facere
+            non possit; sed multa quae intelligere non possumus, facere potest, et in ipso esse
+            possunt et sunt; non enim in eo potest esse aliquid quod non sit, nec est aliquid quod
+            non esse possit: quia mutabilis esset, si sibi aliquid posset addi vel subtrahi.
+              <quote xml:id="ta-l1d19q3-Qd1e3604">Id divinae veritatis ratio consequatur</quote>; quasi dicat: sufficiat nobis ad
+            credendum, quasi ratio vel medium probans, divina veritas, ex qua nobis sacra Scriptura
+            tradita est; quamvis ex rerum naturis ratio sumpta dissentire videatur. <quote xml:id="ta-l1d19q3-Qd1e3607">Patrem
+              igitur in filio et filium in patre esse</quote>. Sic construe, patrem esse in filio,
+            et filium in patre. <quote xml:id="ta-l1d19q3-Qd1e3611">Perfecta plenitudo divinitatis in utroque est</quote>; idest,
+            ex hoc quod plena divinitas in utroque est, sequitur quod pater sit in filio, et e
+            converso: quod probat consequenter cum dicit: <quote xml:id="ta-l1d19q3-Qd1e3614">quia plenitudo divinitatis est in
+              filio, quod in patre est, hoc et in filio est</quote>. Et ratio sua talis est.
+            Plenitudo divinitatis in utroque ostendit quod quidquid est in uno, est in alio; quia si
+            uni deesset quod alter haberet, neuter perfectus esset: quia dans deitatem, daret partem
+            substantiae suae; et ita uterque, scilicet pater dans et filius recipiens, haberet
+            terminum deitatis. Et ita patet quod nisi totum quod unus habet, alter accipiat,
+            plenitudo divinitatis in utroque esse non potest. Sed ad hoc quod est totum quod est in
+            patre esse in filio, sequitur patrem esse in filio: quia ubicumque est tota natura
+            patris, ibi est pater. Ergo ad plenitudinem deitatis in utroque, sequitur patrem esse in
+            filio, et e converso. Similiter etiam construendum est hoc quod dicit: <quote xml:id="ta-l1d19q3-Qd1e3617">quia
+              plenitudo deitatis in filio est, quod in patre est, hoc et in filio est</quote>; idest
+            ad plenitudinem deitatis hoc sequitur. <quote xml:id="ta-l1d19q3-Qd1e3620">Nec eadem nativitas</quote>: quia nihil a
+            seipso nascitur: <quote xml:id="ta-l1d19q3-Qd1e3623">nec aliud esse permittit</quote>; quia nihil nascitur ex aliquo
+            vivo, nisi ad minus eamdem naturam in specie accipiat hoc modo ut nomen filiationis
+            consequatur. Unde cum divina natura non possit multiplicari in diversa secundum numerum,
+            eo quod est immaterialis, restat ut eamdem numero naturam accipiat: et ita aliud non
+            est, sed alius. <quote xml:id="ta-l1d19q3-Qd1e3626">Non per duplicem convenientium generum conjunctionem</quote>,
+            sicut conjunguntur alia similia in genere, ut equus et asinus, ut procreetur nova
+            species: <quote xml:id="ta-l1d19q3-Qd1e3630">nec per insitam capacioris substantiae naturam</quote>, sicut in arbore
+            inseritur ramus alterius arboris: <quote xml:id="ta-l1d19q3-Qd1e3633">sed per naturae unitam similitudinem</quote>,
+            idest convenientiam in una natura secundum numerum. Si enim in una natura secundum
+            speciem tantum esset convenientia, diceretur similitudo, sed non unitas. <quote xml:id="ta-l1d19q3-Qd1e3636">Per
+              necessitatem vivae naturae</quote>, idest filii, qui est vivens natura: <quote xml:id="ta-l1d19q3-Qd1e3639">ex
+              vivente natura</quote>, patre, qui est vivens natura: <quote xml:id="ta-l1d19q3-Qd1e3642">dum res</quote>, scilicet
+            essentialis, <quote xml:id="ta-l1d19q3-Qd1e3645">non differt, dum naturam Dei non degenerat nativitas</quote>, sicut
+            est quando propter indispositionem materiae non recipitur species agentis completa in
+            patiente, sed degenerat in aliud genus.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 7, Quaestio 1</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Librum IV, Distinctio 7, Quaestio 1</title>
+          <date when="2016-03-18">March 18, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-18">March 18, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness>1856 editum</witness>
+          <witness xml:id="G" n="ghent567">Ghent, Belgium, Ghent University Library, 567</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="0.0.0-dev">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+
+
+
+
+      <div xml:id="starts-on">
+        <cb ed="#G" n="90b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ta-l4d7q1">
+        <head xml:id="ta-l4d7q1-Hd1e97">Librum IV, Distinctio 7, Quaestio 1</head>
+        <div xml:id="ta-l4d7q1-Dd1e100">
+          <head xml:id="ta-l4d7q1-Hd1e102">Prooemium</head>
+          <p xml:id="ta-l4d7q1-d1e105">Postquam Magister determinavit de sacramento intrantium, scilicet de Baptismo, hic
+            intendit determinare de sacramentis quae pertinent ad progredientes in via Dei; et
+            dividitur in partes duas: in prima determinat de sacramentis quibus progredientes in
+            bono perficiuntur; in secunda de sacramento quo a malo sublevantur quos cadere accidit,
+            scilicet de poenitentia, dist. 14, ibi: <quote xml:id="ta-l4d7q1-Qd1e107">post hoc de poenitentia agendum
+              est</quote>. Prima in duas: in prima determinat de sacramento confirmationis qua
+            aliquis in seipso perficitur ad modum quo forma perficit; in secunda de Eucharistia, qua
+            aliquis perficitur per conjunctionem ad finem, 8 dist., ibi: <quote xml:id="ta-l4d7q1-Qd1e110">post sacramentum
+              Baptismi et confirmationis sequitur Eucharistiae sacramentum</quote>. Prima in duas:
+            in prima tangit ea quae sunt intra essentiam sacramenti, scilicet materiam et formam; in
+            secunda ea quae sunt extra essentiam ipsius, ibi: <quote xml:id="ta-l4d7q1-Qd1e113">hoc sacramentum ab aliis
+              perfici non potest, nisi a summis pontificibus</quote>. Et circa hoc tria facit: primo
+            determinat ministrum hujus sacramenti; secundo effectum, ibi: <quote xml:id="ta-l4d7q1-Qd1e116">virtus autem hujus
+              sacramenti est donatio spiritus sancti</quote>; tertio ritum, ibi: <quote xml:id="ta-l4d7q1-Qd1e119">hoc
+              sacramentum tantum a jejunis accipi, et jejunis tradi debet</quote>. Circa primum duo
+            facit: primo determinat veritatem; secundo removet quamdam objectionem, ibi:
+              <quote xml:id="ta-l4d7q1-Qd1e123">Melchiades</quote> et cetera. Hic est triplex quaestio. Prima de ipso
+            sacramento confirmationis. Secunda de effectu ejus. Tertia de celebratione ejus. Circa
+            primum quaeruntur tria: 1 utrum confirmatio sit sacramentum per se; 2 de materia ejus; 3
+            de forma.</p>
+        </div>
+        <div xml:id="ta-l4d7q1-Dd1e128" type="articulus">
+          <head xml:id="ta-l4d7q1-Hd1e130">Articulus 1</head>
+
+          <head xml:id="ta-l4d7q1-Hd1e133" type="questionTitle">Utrum confirmatio sit sacramentum</head>
+          <div xml:id="ta-l4d7q1-Dd1e136">
+            <head xml:id="ta-l4d7q1-Hd1e138">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d7q1-d1e141">Ad primum sic proceditur. Videtur quod confirmatio non sit sacramentum. Omne enim
+              sacramentum efficaciam habet ab institutione divina. Sed confirmatio non legitur a
+              domino instituta. Ergo non est sacramentum.</p>
+            <p xml:id="ta-l4d7q1-d1e144">Praeterea, illud cujus est usus in omnibus vel pluribus sacramentis, non videtur esse
+              sacramentum per se. Sed, sicut dicit Dionysius, usus sacri unguenti, scilicet
+              chrismatis, est in aliis sacramentis pluribus, sicut patet in Baptismo, in quo
+              infunditur chrisma in aqua Baptismi, et baptizatus in vertice chrismate inungitur, et
+              similiter pontifices chrismatis inunctione consecrantur, et altare etiam in quo
+              Eucharistia consecranda est, chrismate linitur, et calix similiter. Ergo confirmatio,
+              quae dicitur chrismatio, non est aliquod sacramentale.</p>
+            <p xml:id="ta-l4d7q1-d1e147">Praeterea, sacramenta novae legis in veteri praefigurata fuerunt. Sed nulla figura
+              confirmationis in lege veteri legitur praecessisse. Ergo confirmatio non est
+              sacramentum.</p>
+            <p xml:id="ta-l4d7q1-d1e150">Sed contra est quod Melchiades in littera dicit: <quote xml:id="ta-l4d7q1-Qd1e152">scitote utrumque magnum esse
+                sacramentum</quote>, scilicet confirmationem et Baptismum.</p>
+            <p xml:id="ta-l4d7q1-d1e157">Praeterea, hoc patet per definitionem sacramenti, quae competit confirmationi, quae
+              habet significationem gratiae in linitione olei, et habet efficaciam, ut in littera
+              dicitur, in collatione gratiae ad plenitudinem sanctitatis. Ergo est sacramentum.</p>
+          </div>
+          <div xml:id="ta-l4d7q1-Dd1e161">
+            <head xml:id="ta-l4d7q1-Hd1e163">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d7q1-d1e166">Ulterius. Videtur quod sit sacramentum necessitatis. Quia, ut Rabanus in littera
+              dicit, omnes fideles debent post Baptismum per episcopos accipere spiritum sanctum, ut
+              pleni Christiani inveniantur. Sed hoc est de necessitate salutis, ut aliquis sit
+              plenus Christianus. Ergo sacramentum confirmationis est sacramentum necessitatis.</p>
+            <p xml:id="ta-l4d7q1-d1e169">Praeterea, sacramentum confirmationis contra morbum peccati ordinatur. Sed hoc est de
+              necessitate salutis, ut quis a morbo peccati liberetur. Ergo confirmatio est
+              sacramentum necessitatis.</p>
+            <p xml:id="ta-l4d7q1-d1e172">Praeterea, sicut ad justitiam exigitur recessus a malo, ita et accessus ad bonum. Sed
+              Baptismus operatur ad recessum a malo, quod ipsum ablutionis nomen ostendit;
+              confirmatio autem ad accessum ad bonum, quod etiam ex nomine patet. Ergo sicut
+              Baptismus est de necessitate sanctificationis, ita et confirmatio.</p>
+            <p xml:id="ta-l4d7q1-d1e175">Sed contra, sine eo quod est de necessitate salutis, non est salus. Sed pueri
+              baptizati salvantur si ante confirmationem moriantur. Ergo non est sacramentum
+              necessitatis.</p>
+            <p xml:id="ta-l4d7q1-d1e179">Praeterea gratia et virtus sufficiunt ad salutem. Sed in Baptismo confertur gratia et
+              plenitudo virtutum. Ergo Baptismus sufficit ad salutem; et ita confirmatio non est
+              sacramentum necessitatis.</p>
+          </div>
+          <div xml:id="ta-l4d7q1-Dd1e183">
+            <head xml:id="ta-l4d7q1-Hd1e185">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d7q1-d1e188">Ulterius. Videtur quod Baptismus sit nobilius sacramentum quam confirmatio: quia
+              essentialia rei accidentalibus digniora sunt, sicut substantia accidente. Sed
+              Baptismus essentialiter se habet ad salutem, cum sit sacramentum necessitatis;
+              confirmatio autem accidentaliter, cum non sit necessitatis sacramentum. Ergo Baptismus
+              est nobilius sacramentum confirmatione.</p>
+            <p xml:id="ta-l4d7q1-d1e191">Praeterea, effectus proportionatur suae causae. Sed Baptismus habet majorem
+              efficaciam in efficiendo: quia delet omnem culpam et poenam, quod non facit
+              confirmatio. Ergo est nobilius sacramentum.</p>
+            <p xml:id="ta-l4d7q1-d1e194">Sed contra, ad nobiliorem actionem ordinatur nobilius ministerium. Sed confirmatio
+              datur a nobiliori ministro quam Baptismus. Ergo confirmatio est nobilius sacramentum
+              Baptismo.</p>
+          </div>
+          <div xml:id="ta-l4d7q1-Dd1e199">
+            <head xml:id="ta-l4d7q1-Hd1e201">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d7q1-d1e204">Respondeo dicendum ad primam quaestionem, quod actiones quae sunt ordinatae ad
+              aliquos effectus proprios et determinatos, recipiunt distinctionem secundum
+              proportionem ad suos effectus; unde si ad duos effectus distinctos ordinentur, erunt
+              duae diversae actiones. Si autem ordinentur ad unum effectum, ita quod una disponat
+              vel impedimentum removeat, et alia perficiat, et alia ornet perfectum; totum
+              computatur pro una integra actione, sicut patet in operibus artificum. Unde cum
+              sacramenta sint quaedam actiones hierarchicae secundum Dionysium, ordinatae ad aliquos
+              effectus salutis, quando plures actiones sacramentales ordinantur ad unum effectum,
+              una ut perficiens, alia ut disponens, vel impedimentum removens, vel aliquo modo
+              ornans, tunc in illa quae efficit effectum principalem consistit essentialiter ratio
+              sacramenti. Aliae autem non dicuntur per se sacramenta, sed sacramentalia quaedam,
+              quasi sacramentis adjuncta, sicut patet ex his quae dicta sunt circa Baptismum in
+              exorcismo et catechismo et aliis hujusmodi concurrere. Quando autem sunt plures
+              actiones ordinatae ad effectus omnino distinctos, tunc sunt diversa sacramenta. Et
+              ideo cum confirmatio habeat per se effectum distinctum ab effectu Baptismi, ut
+              patebit, non est sacramentale Baptismi, sed potius per se est principale
+              sacramentum.</p>
+            <p xml:id="ta-l4d7q1-d1e207">Ad primum ergo dicendum, quod circa institutionem hujus sacramenti est triplex
+              opinio. Una enim dicit, quod hoc sacramentum non fuit institutum nec a Christo nec ab
+              apostolis, sed postea processu temporis in quodam Concilio; et dicunt quod dominus rem
+              sacramenti hujus sine sacramento conferebat manus imponendo, similiter et apostoli, eo
+              quod ipsi confirmati fuerunt immediate a spiritu sancto. Et hoc videtur valde
+              absurdum: quia secundum hoc Ecclesia tota die posset nova sacramenta instituere, quod
+              falsum est, cum ipsi non sint latores legis, sed ministri, et fundamentum cujuslibet
+              legis in sacramentis consistit; et praeterea in littera dicitur de tempore
+              apostolorum: <quote xml:id="ta-l4d7q1-Qd1e209">non ab aliis quam ab apostolis fuit peractum</quote>. Ideo alii
+              dicunt, quod non fuit a Christo sed ab apostolis institutum hoc sacramentum. Sed hoc
+              etiam non competit: quia ipsi apostoli quamvis erant bases Ecclesiae, tamen non
+              fuerunt legislatores; unde ad eos non pertinebat sacramenta instituere. Et ideo
+              probabilior videtur aliorum opinio, qui dicunt, hoc sacramentum, sicut et omnia alia,
+              a Christo fuisse institutum: quod patet ex hoc quod ipse etiam dominus manus pueris
+              imponebat, ut patet Matth. 19. Nec obstat quod in Evangelio vel in actibus apostolorum
+              non fit mentio de materia vel forma hujus sacramenti: quia formae sacramentales et
+              alia quae in sacramentis exiguntur occultanda erant in primitiva Ecclesia propter
+              irrisiones gentilium, ut Dionysius dicit; unde etiam in fine Eccl. Hier. excusat se a
+              determinatione formarum sacramentalium. Secus autem de Baptismo quod erat sacramentum
+              necessitatis, et statim cuilibet offerebatur in principio.</p>
+            <p xml:id="ta-l4d7q1-d1e213">Ad secundum dicendum, quod quamvis materia confirmationis, scilicet chrismate,
+              utantur Ecclesiae ministri in diversis sacramentis; tamen hoc sacramentum non
+              consistit tantum in materia, sed in forma verborum, et actu, sicut et sacramentum
+              Baptismi; et hoc non utuntur in aliis sacramentis; et ideo est per se sacramentum.</p>
+            <p xml:id="ta-l4d7q1-d1e216">Ad tertium dicendum, quod hoc sacramentum est ad perfectionem gratiae. Et quia status
+              legis erat status imperfectionis, eo quod <quote xml:id="ta-l4d7q1-Qd1e218" ana="#hebr7_19">nihil ad perfectum adduxit
+                lex</quote>, Hebr. 7, 19, ideo hoc sacramentum non habuit aliquid sibi respondens in
+              veteri lege: quamvis aliquo modo sit figuratum in unctione pontificum, qua
+              significabatur unctio Christi, a quo haec unctio derivatur.</p>
+          </div>
+          <div xml:id="ta-l4d7q1-Dd1e223">
+            <head xml:id="ta-l4d7q1-Hd1e225">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d7q1-d1e228">Ad secundam quaestionem dicendum, quod est triplex necessitas. Una est necessitas
+              absoluta, sicut necessarium est Deum esse, vel triangulum habere tres angulos. Alia
+              est necessitas ex causa efficiente, quae dicitur necessitas coactionis. Tertia est
+              necessitas ex suppositione finis; et est duplex. Quia uno modo dicitur necessarium
+              sine quo aliquis non potest conservari in esse, sicut nutrimentum animali. Alio modo
+              sine quo non potest haberi quod pertinet ad bene esse, sicut equus dicitur necessarius
+              ambulare volenti, et medicina ad hoc quod homo sane vivat. Primis autem duobus modis
+              non dicitur aliquod sacramentum esse necessitatis, sed tertia necessitate; quaedam
+              quidem quantum ad primum modum, illa scilicet sine quibus non potest homo in
+              spirituali vita vivere, sicut est Baptismus et poenitentia; quaedam autem sine quibus
+              non potest consequi aliquem effectum qui est ad bene esse spiritualis vitae; et hoc
+              modo confirmatio et omnia alia sunt necessaria. Verumtamen contemptus cujuslibet
+              sacramenti est periculosus. Objectiones autem procedunt de primo modo tertiae
+              necessitatis.</p>
+            <p xml:id="ta-l4d7q1-d1e231">Et ideo dicendum ad primum, quod est plenitudo Christianae gratiae sufficiens ad
+              salutem, et haec datur in Baptismo; et est plenitudo copiae gratiae ad fortiter
+              resistendum contra pressuras mundi, et haec datur in confirmatione, et sine hac potest
+              esse salus.</p>
+            <p xml:id="ta-l4d7q1-d1e234">Ad secundum dicendum, quod morbus peccati dupliciter expellitur. Uno modo quo ad
+              culpam originalem in Baptismo, et actualem in poenitentia; et haec expulsio sufficit
+              ad salutem. Alio modo quo ad poenam inclinantem ad culpam; et sic expellitur in
+              confirmatione, et in aliis sacramentis; et haec non est de necessitate salutis.</p>
+            <p xml:id="ta-l4d7q1-d1e237">Ad tertium dicendum, quod in Baptismo datur gratia quae a peccato mundat, et ad bene
+              operandum perficit quantum ad sufficientiam salutis; sed in confirmatione additur
+              amplius munus gratiae, quod non est de necessitate salutis.</p>
+          </div>
+          <div xml:id="ta-l4d7q1-Dd1e241">
+            <head xml:id="ta-l4d7q1-Hd1e243">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d7q1-d1e246">Ad tertiam quaestionem dicendum, quod quinque modis unum sacramentum dicitur esse
+              dignius alio. Uno modo quo ad rem sacramenti, sive effectum ejus; et sic Baptismus,
+              qui delet omnem culpam et aufert omnem poenam, est maximum sacramentorum. Alio modo
+              quantum ad id quod continetur in sacramento; et sic Eucharistia est nobilissimum, in
+              qua continetur ipse Christus. Tertio quantum ad gradum dignitatis in quo constituit;
+              et sic ordo est dignissimum sacramentum. Quarto quantum ad ministrum; et sic
+              confirmatio, et etiam ordo, sunt dignissima, quia non nisi per episcopum ministrantur.
+              Quinto quantum ad signatum et non contentum; et sic matrimonium est dignissimum, quia
+              signat conjunctionem duarum naturarum in persona Christi. Si tamen has dignitates ad
+              invicem comparemus, invenitur illa dignitas potissima quam sacramentum habet ex
+              contento, quia est essentialior; et ideo sacramentum Eucharistiae est simpliciter
+              dignissimum, et ad ipsum quodammodo alia sacramenta ordinantur. Dignitas autem quae
+              est in efficiendo, praevalet ei quae est in significando; et illa quae est in
+              efficiendo respectu boni, simpliciter loquendo, praevalet ei quae est in amotione
+              mali; et ideo, simpliciter loquendo, post Eucharistiam nobilius sacramentum est ordo,
+              per quod homo et in gratia et in gradu dignitatis ponitur; et post hoc confirmatio,
+              per quam perfectio gratiae confertur; et post Baptismus, per quem fit plena remissio
+              culpae et poenae; et post matrimonium, quod habet maximam significationem. Poenitentia
+              autem et extrema unctio ponuntur inter Baptismum et matrimonium: quia ordinantur
+              directe ad remotionem mali: quamvis in hoc poenitentia habeat minorem efficaciam quam
+              Baptismus; quia ordinatur contra culpam actualem tantum, et non delet totaliter
+              poenam; et adhuc minorem extrema unctio, quae contra reliquias peccati ordinatur.</p>
+            <p xml:id="ta-l4d7q1-d1e249">Ad primum ergo dicendum, quod quamvis confirmatio se habeat quasi accidentaliter ad
+              vitam spiritualem simpliciter acceptam, tamen ad vitam spiritualem secundum sui
+              perfectam differentiam non habet se accidentaliter, sed essentialiter; et ideo non
+              oportet quod sit minoris dignitatis quam Baptismus. Sicut etiam rationale est
+              differentia nobilior quam sensibile: quamvis animali inquantum animal accidat esse
+              rationale, cui inquantum hujusmodi per se convenit esse sensibile. Vel dicendum, ut
+              quidam dicunt, quod confirmatio praesupponit Baptismum; unde dupliciter possunt
+              comparari. Uno modo ut accipiatur confirmatio cum praesuppositione Baptismi; et sic
+              confirmatio simpliciter est nobilior: sicut etiam esse substantiale perfectum per
+              accidentalia simpliciter, nobilius est quam esse substantiale simpliciter. Alio modo
+              cum praecisione Baptismi; et sic quodammodo Baptismus est nobilior quantum ad majorem
+              efficaciam in removendo malum.</p>
+            <p xml:id="ta-l4d7q1-d1e252">Ad secundum dicendum, quod Baptismus non habet majorem efficaciam simpliciter, sed
+              solum in remotione mali, ut dictum est.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d7q1-Dd1e257" type="articulus">
+          <head xml:id="ta-l4d7q1-Hd1e259">Articulus 2</head>
+
+          <head xml:id="ta-l4d7q1-Hd1e262" type="questionTitle">Utrum sacramentum confirmationis habeat materiam</head>
+          <div xml:id="ta-l4d7q1-Dd1e265">
+            <head xml:id="ta-l4d7q1-Hd1e267">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d7q1-d1e270">Ad secundum sic proceditur. Videtur quod sacramentum istud materiam non habeat.
+              Sacramenta enim habent efficaciam ex divina institutione. Sed materia hujus sacramenti
+              non legitur a domino instituta. Ergo non habet determinatam materiam.</p>
+            <p xml:id="ta-l4d7q1-d1e273">Praeterea, confirmatio datur ad plenitudinem sancti spiritus percipiendam. Sed super
+              apostolos in die Pentecostes descendit spiritus sancti plenitudo absque omni materia.
+              Ergo hoc sacramentum materia non indiget.</p>
+            <p xml:id="ta-l4d7q1-d1e276">Praeterea, apostoli formam nobis ecclesiastici ritus tradiderunt. Sed ipsi
+              confirmabant manus imponendo sine aliqua materia, ut legitur in Act. apostolorum. Ergo
+              hoc sacramentum materiam non habet.</p>
+            <p xml:id="ta-l4d7q1-d1e279">Sed contra est, quia, secundum Hugonem de s. Victore, sacramentum est materiale
+              elementum. Ergo debet omne sacramentum habere materiam.</p>
+            <p xml:id="ta-l4d7q1-d1e283">Praeterea, si omittatur aliquid quod non sit de substantia sacramenti, non impeditur
+              perceptio sacramenti. Sed si omitteret episcopus chrismatis linitionem, non conferret
+              sacramentum. Ergo materia est de essentia hujus sacramenti.</p>
+          </div>
+          <div xml:id="ta-l4d7q1-Dd1e287">
+            <head xml:id="ta-l4d7q1-Hd1e289">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d7q1-d1e292">Ulterius. Videtur quod chrisma non sit materia competens. In sacramentis enim
+              uniformitas observari debet. Sed in Baptismo est materia simplex elementum, scilicet
+              aqua. Ergo etiam in confirmatione aliquod elementum debet esse materia.</p>
+            <p xml:id="ta-l4d7q1-d1e295">Praeterea, virtus agentis proportionatur agenti. Sed virtus agens in sacramentis est
+              simplex. Ergo et materia debet esse simplex; et ita materia confirmationis non debet
+              esse commixta ex duobus liquoribus, scilicet oleo et balsamo.</p>
+            <p xml:id="ta-l4d7q1-d1e298">Praeterea, materia sacramenti debet esse omnibus communis: quia omnibus sacramenta
+              proponuntur in salutem. Sed oleum olivae et balsamum non est apud omnes. Ergo non sunt
+              conveniens materia alicujus sacramenti.</p>
+            <p xml:id="ta-l4d7q1-d1e301">Praeterea, ex aliis etiam rebus fit oleum quam ex oliva, sicut ex nucibus et
+              papavere. Ergo videtur quod etiam ex tali oleo posset fieri chrisma.</p>
+            <p xml:id="ta-l4d7q1-d1e305">Praeterea, sacramentum confirmationis est ad corroborandum hominem in pugna
+              spirituali. Sed vinum facit homines bonae spei, secundum philosophum, quod ad
+              fortitudinem pugnae exigitur; et similiter panis cor hominis confirmat, ut dicitur in
+              Psal. 103. Ergo panis et vinum esset hujus sacramenti convenientior materia quam oleum
+              et balsamum.</p>
+            <p xml:id="ta-l4d7q1-d1e308">Praeterea, materia sacramenti debet habere significationem et respectu effectus, et
+              respectu alicujus quod in Christo praecessit, a quo sacramenta profluxerunt. Sed per
+              hujusmodi liquores nihil significatur in Christo praecedens. Ergo hujusmodi liquores
+              non sunt conveniens materia hujus sacramenti.</p>
+          </div>
+          <div xml:id="ta-l4d7q1-Dd1e312">
+            <head xml:id="ta-l4d7q1-Hd1e314">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d7q1-d1e317">Ulterius. Videtur quod non exigatur materia prius sanctificata. Confirmatio enim, ut
+              in littera dicitur, non est majoris virtutis quam Baptismus. Sed in Baptismo non
+              requiritur materia prius sanctificata. Ergo nec in confirmatione.</p>
+            <p xml:id="ta-l4d7q1-d1e320">Praeterea, secundum Augustinum, accedit verbum ad elementum, et fit sacramentum. Si
+              ergo oporteret quod materia aliquibus verbis prius sanctificaretur, tunc etiam ipsum
+              chrisma per se est quoddam sacramentum, et non sacramenti materia.</p>
+            <p xml:id="ta-l4d7q1-d1e323">Praeterea, sanctificatio non est iteranda circa idem. Sed per formam sacramenti
+              sanctificatur materia, ut patet in Baptismo, cujus materia est aqua verbo vitae
+              sanctificata; quod verbum supra, dist. 3, dixit Magister esse formam Baptismi. Ergo
+              non debet ante prolationem formae sacramentalis aliqua sanctificatio circa materiam
+              confirmationis adhiberi.</p>
+            <p xml:id="ta-l4d7q1-d1e326">Sed contra est communis usus Ecclesiae, et etiam determinatio Dionysii, qui ponit
+              ritum consecrationis chrismatis.</p>
+          </div>
+          <div xml:id="ta-l4d7q1-Dd1e331">
+            <head xml:id="ta-l4d7q1-Hd1e333">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d7q1-d1e336">Respondeo dicendum ad primam quaestionem, quod materia sacramenti dicitur illa res
+              visibilis sub cujus tegumento divina virtus secretius operatur salutem; et ideo ad hoc
+              necessaria est materia sacramentis, ut ad effectum, ad quem virtus humana nullatenus
+              attingit neque operando neque cooperando, divina virtus in re visibili operans
+              perducat. Et ideo in poenitentia et in matrimonio cujus effectus aliquo modo dependet
+              ex operatione humana, scilicet dolore de peccatis, et consensu etiam in copulam
+              conjugalem, non requiritur talis materia. In Baptismo autem, cujus effectus totaliter
+              est ab extrinseco, nil cooperante interius baptizante neque eo qui baptizatur, nisi ad
+              removendum impedimentum, requiritur materia sensibilis. Cum ergo effectus
+              confirmationis, qui est plenitudo spiritus sancti, sit omnino ab extrinseco, non per
+              aliquam operationem humanam, non est dubium quod in sacramento confirmationis materia
+              exigatur.</p>
+            <p xml:id="ta-l4d7q1-d1e339">Ad primum ergo dicendum, quod plenitudo spiritus sancti non erat danda ante Christi
+              resurrectionem et ascensionem, sicut dicitur Joan. 7, 39: <quote xml:id="ta-l4d7q1-Qd1e341">nondum erat spiritus
+                datus, quia nondum erat Jesus glorificatus</quote>; et ideo secundum unam opinionem,
+              ea quae ad hoc sacramentum pertinent non fuerunt ante Christi ascensionem instituenda.
+              Sed aliquo modo praefiguratum fuit hoc sacramentum in manus impositione Christi super
+              pueros; quamvis etiam illa manus impositio possit referri magis ad manus impositionem
+              quae fit super catechumenos, ut dictum est. Nec hoc differt, sive dominus ipsemet
+              instituit, sive apostoli ejus speciali praecepto. Secundum vero aliam opinionem
+              dicendum, quod dominus materiam hujus sacramenti per seipsum instituit, sicut et
+              adventum spiritus sancti promisit; sed denuntiandam apostolis dereliquit, quando usus
+              sacramenti competebat, scilicet post plenam spiritus sancti missionem.</p>
+            <p xml:id="ta-l4d7q1-d1e345">Ad secundum dicendum, quod sicut sacramentum Baptismi incepit in Baptismo Christi;
+              ita sacramentum confirmationis incepit in adventu spiritus sancti in apostolos. Et
+              quia principia rerum debent esse notissima, ideo utrobique spiritus sanctus apparuit
+              visibiliter; in Baptismo quidem in columbae specie, et in confirmatione apostolorum in
+              linguis igneis; et propter hoc non oportuit esse materiam, in qua spiritus sanctus
+              secretius operaretur salutem, ut Augustinus dicit.</p>
+            <p xml:id="ta-l4d7q1-d1e348">Ad tertium dicendum, quod apostoli non confirmabant sine materia, nisi forte quando
+              praeter legem communem visibilibus signis spiritus sanctus in eos descendebat quibus
+              per apostolos manus impositio facta fuerat: tunc enim illa visibilis apparitio
+              supplebat locum elementi visibilis. Quod autem aliquando materia uterentur, patet per
+              Dionysium in 4 cap. Eccl. Hier. in principio, ubi dicitur, quod est quaedam perfectiva
+              operatio quam duces nostri, quos apostolos nominat, <quote xml:id="ta-l4d7q1-Qd1e350">chrismatis hostiam</quote>
+              nominant, hostiam dicens communiter omnem ritum sacramenti.</p>
+          </div>
+          <div xml:id="ta-l4d7q1-Dd1e355">
+            <head xml:id="ta-l4d7q1-Hd1e357">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d7q1-d1e360">Ad secundam quaestionem dicendum, quod, sicut dictum est, hoc sacramentum initium
+              sumpsit ab adventu spiritus sancti in discipulos, qui quamvis prius spiritum sanctum
+              habuissent in munere gratiae, quo perficiebantur ad ea quae ad singulares personas
+              eorum pertinebant, tamen in die etiam Pentecostes susceperunt spiritum sanctum, sed in
+              munere gratiae quo perficiebantur ad promulgationem fidei in salutem aliorum; et ideo
+              facta est apparitio spiritus sancti linguis igneis, <quote xml:id="ta-l4d7q1-Qd1e362">ut verbis essent
+                proflui</quote> ad divulgandam fidem Christi; <quote xml:id="ta-l4d7q1-Qd1e365">et caritate fervidi</quote>,
+              aliorum salutem quaerentes; et propter hoc dicitur Act. 2, 4: <quote xml:id="ta-l4d7q1-Qd1e368">repleti sunt
+                spiritu sancto, et coeperunt loqui</quote>. Igni autem nihil convenientius accipi
+              potuit loco ejus in materia confirmationis quam oleum, tum quia lucet, tum quia maxime
+              est nutritivum ignis. Figurae autem linguae nihil convenientius esse potuit quam
+              balsamum propter odorem, quia propter confessionem linguae odor bonae notitiae Dei
+              diffunditur in omni loco. Et ideo sicut visibilis apparitio spiritus sancti fuit in
+              igne figurato figura linguae, ita materia confirmationis est oleum balsamatum, ut
+              oleum pertineat ad conscientiam quam oportet nitidam habere eos qui confessores
+              divinae fidei constituuntur; et balsamum ad famam, quam oportet effundere et verbis et
+              factis fidei confessores.</p>
+            <p xml:id="ta-l4d7q1-d1e372">Ad primum ergo dicendum, quod non debet in omnibus sacramentis observari uniformitas
+              identitatis, sed proportionalitatis; ut sicut materia unius sacramenti competit illi
+              sacramento, ita materia alterius sacramenti etiam competat alii. Et quia Baptismus est
+              janua sacramentorum, quasi principium et elementum omnium aliorum, ideo sibi competit
+              materia quae sit simplex elementum, non autem ita aliis sacramentis, in quibus additur
+              aliquid speciale; sicut corpora mixta habent aliquas virtutes superadditas speciem
+              consequentes.</p>
+            <p xml:id="ta-l4d7q1-d1e375">Ad secundum dicendum, quod virtus hujus sacramenti quamvis sit simplex in essentia,
+              tamen est multiplex in effectu: quia et hominem facit ferventem in conscientia, et
+              famosum per confessionem; et ideo materia hujus sacramenti est et una et multiplex:
+              una in actu, sed multiplex in virtute, sicut et alia mixta.</p>
+            <p xml:id="ta-l4d7q1-d1e378">Ad tertium dicendum, quod illa ratio procedit in sacramentis necessitatis, cujusmodi
+              non est hoc sacramentum. Tamen oleum et balsamum quamvis non ubique terrarum crescant,
+              tamen ubique de facili transportari possunt.</p>
+            <p xml:id="ta-l4d7q1-d1e382">Ad quartum dicendum, quod proprietates olei perfectius in oleo olivae inveniuntur,
+              unde antonomastice oleum dicitur; et praeterea ipsa oliva propter virorem perpetuum
+              quem conservat, adjuvat ad significationem mysterii.</p>
+            <p xml:id="ta-l4d7q1-d1e385">Ad quintum dicendum, quod vinum et panis roborant hominem per modum nutrimenti
+              confortando hominem in seipso; ideo magis competunt Eucharistiae; sed oleum facit
+              expeditum et ferventem ad ea quae exterius sunt; et ideo etiam pugiles oleo unguntur;
+              et ideo competit magis oleum huic sacramento.</p>
+            <p xml:id="ta-l4d7q1-d1e388">Ad sextum dicendum, quod hac unctione, ut dicit Hugo de sancto Victore, significatur
+              illa unctio qua Christus unctus est ut rex et sacerdos oleo laetitiae prae consortibus
+              suis. Unde etiam a chrismate Christus dicitur, et a Christo Christianus; et propter
+              hoc etiam Dionysius per chrisma Christum significari dicit.</p>
+          </div>
+          <div xml:id="ta-l4d7q1-Dd1e392">
+            <head xml:id="ta-l4d7q1-Hd1e394">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d7q1-d1e397">Ad tertiam quaestionem dicendum, quod materia sacramenti est quasi instrumentum
+              sanctificationis; est autem instrumentum et principalis agentis et ministri qui
+              materia sacramenti utitur ad significandum. Quodlibet autem sacramentum determinat
+              sibi principale agens quantum ad necessitatem sacramenti, quia non habet efficaciam
+              aliquam nisi ex auctoritate domini et merito Christi; sed non quodlibet sacramentum
+              determinat sibi ministrum quantum ad necessitatem sacramenti, sed quandoque solum
+              quantum ad solemnitatem, sicut patet in Baptismo. Et ideo ut materia sacramenti etiam
+              principali agenti respondeat proportionaliter et ministro, illa sacramenta quae
+              ministrum sibi determinant, materiam sanctificatam exigunt, ut dispositio sacramenti a
+              ministris Ecclesiae descendere ostendatur. Sacramentum autem quod non determinat sibi
+              ministrum nisi quantum ad solemnitatem, non habet materiam sanctificatam quantum ad
+              necessitatem sacramenti, sed solum quantum ad solemnitatem, in cujus materia etiam
+              chrisma in modum crucis effunditur. Et quia sacramentum confirmationis determinat sibi
+              ministrum, ut dicetur, ideo materiam sanctificatam requirit ab eo qui est minister
+              sacramenti, scilicet ab episcopo.</p>
+            <p xml:id="ta-l4d7q1-d1e400">Ad primum ergo dicendum, quod ad hoc nihil facit virtus sacramenti, sed determinatio
+              ministri, ut dictum est. Vel dicendum, quod Baptismus est sacramentum necessitatis; et
+              ideo materiam communissimam habet; et propter hoc sanctificatione non indiget.</p>
+            <p xml:id="ta-l4d7q1-d1e403">Ad secundum dicendum, quod quidam dicunt ipsum chrisma esse sacramentum. Sed hoc
+              falsum apparet in hoc quod usus chrismatis in pluribus est quam sacramentum
+              confirmationis; sicut patet in baptizato, qui chrismate in fronte linitur, et de
+              pontifice, cujus caput chrismate tangitur. Et ideo dicendum, quod sacramentum
+              confirmationis non est ipsum chrisma, sed linitio chrismatis sub forma praescripta
+              verborum. Illa autem benedictio vocalis chrismatis non est forma sacramenti, sed magis
+              est quaedam benedictio sacramentalis, sicut benedictio aquae vel altaris.</p>
+            <p xml:id="ta-l4d7q1-d1e406">Ad tertium dicendum, quod sicut instrumentum virtutem instrumentalem acquirit
+              dupliciter, scilicet quando accipit formam instrumenti, et quando movetur a principali
+              agente ad effectum; ita etiam materia sacramenti duplici sanctificatione indiget: una
+              qua instituitur materia propria sacramenti, et ad hoc est sanctificatio materiae; alia
+              est quando applicatur ad effectum, quae fit per formam sacramenti. Et ideo non fit
+              injuria sanctificationi, si duplex sanctificatio in talibus adhibeatur.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d7q1-Dd1e411" type="articulus">
+          <head xml:id="ta-l4d7q1-Hd1e413">Articulus 3</head>
+
+          <head xml:id="ta-l4d7q1-Hd1e416" type="questionTitle">Utrum sacramentum confirmationis habeat formam</head>
+          <div xml:id="ta-l4d7q1-Dd1e419">
+            <head xml:id="ta-l4d7q1-Hd1e421">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d7q1-d1e424">Ad tertium sic proceditur. Videtur quod sacramentum confirmationis non habeat formam.
+              Sacramenta enim a Christo descenderunt. Sed Christus non legitur aliqua forma usus,
+              manus imponens. Ergo cum illa manus impositio confirmationem designet, videtur quod
+              confirmationis sacramentum non habeat aliquam formam.</p>
+            <p xml:id="ta-l4d7q1-d1e427">Praeterea, apostoli etiam leguntur per manus impositionem spiritum sanctum dedisse.
+              Sed illa manus impositio, ut sancti dicunt, fuit confirmatio illorum quibus manus
+              imponebant. Ergo cum non legatur eos sub aliqua forma verborum manus imposuisse, sicut
+              leguntur in nomine Christi baptizasse, videtur quod hoc sacramentum non habeat
+              formam.</p>
+            <p xml:id="ta-l4d7q1-d1e430">Praeterea, sacramenta quae habent formam, sub eisdem verbis apud omnes perficiuntur.
+              Sed sacramentum confirmationis non perficitur eisdem verbis apud omnes. Dicunt enim
+              quidam: <quote xml:id="ta-l4d7q1-Qd1e432">consigno te signo crucis, et confirmo te chrismate salutis in nomine
+                patris et filii et spiritus sancti</quote>. Quidam autem dicunt: <quote xml:id="ta-l4d7q1-Qd1e435">chrismate
+                sanctificationis</quote>. Ergo hoc sacramentum non habet aliquam formam.</p>
+            <p xml:id="ta-l4d7q1-d1e439">Sed contra est quod Magister dixit in 1 dist., quod duo sunt in quibus sacramenta
+              consistunt, verbum, et res. Verba autem ad formam pertinent.</p>
+            <p xml:id="ta-l4d7q1-d1e443">Praeterea, Augustinus dicit: <quote xml:id="ta-l4d7q1-Qd1e445">accedit verbum ad elementum, et fit
+                sacramentum</quote>.</p>
+          </div>
+          <div xml:id="ta-l4d7q1-Dd1e450">
+            <head xml:id="ta-l4d7q1-Hd1e452">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d7q1-d1e455">Ulterius. Videtur quod illa forma verborum non sit competens. In quolibet enim
+              sacramento exigitur intentio. Sed ad designandum intentionem in forma Baptismi
+              exprimitur persona baptizans hoc pronomine ego. Ergo et in forma confirmationis hoc
+              pronomen ego apponi debet.</p>
+            <p xml:id="ta-l4d7q1-d1e458">Praeterea, consignatio videtur ad characteris impressionem pertinere. Sed characterem
+              non imprimit minister magis hic quam in Baptismo. Cum ergo in Baptismo nulla fiat
+              mentio de consignatione in forma, nec hic fieri deberet de ipsa mentio.</p>
+            <p xml:id="ta-l4d7q1-d1e461">Praeterea, per Baptismum homo maxime configuratur passioni Christi. Sed in forma
+              Baptismi non fit mentio aliqua de Christi passione. Ergo nec in forma ista deberet
+              fieri mentio de cruce.</p>
+            <p xml:id="ta-l4d7q1-d1e464">Praeterea, sicut confirmatio habet formam determinatam, ita et Baptismus. Sed in
+              Baptismi forma non fit mentio de materia ipsius: non enim dicitur: baptizo te aqua.
+              Ergo nec hic deberet fieri mentio de chrismate.</p>
+            <p xml:id="ta-l4d7q1-d1e468">Praeterea, forma est de essentia sacramenti: quia multi accipiunt sacramentum qui non
+              accipiunt rem sacramenti. Ergo non debet res sacramenti poni in forma, sicut hic
+              ponitur, <quote xml:id="ta-l4d7q1-Qd1e470">chrismate salutis</quote>.</p>
+          </div>
+          <div xml:id="ta-l4d7q1-Dd1e475">
+            <head xml:id="ta-l4d7q1-Hd1e477">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d7q1-d1e480">Ulterius. Videtur quod forma ista non habeat in hoc sacramento aliquam efficaciam.
+              Quia, secundum Hugonem de sancto Victore, sacramentum ex sanctificatione invisibilem
+              gratiam continet. Sed materia hujus sacramenti est sanctificata etiam ante formae
+              prolationem. Ergo formae prolatio nullam efficaciam praebet sacramento.</p>
+            <p xml:id="ta-l4d7q1-d1e483">Praeterea, sicut in Eucharistia est sanctificatio hostiae et usus ipsius, ita et hic.
+              Sed ibi tota virtus sacramenti est in hostia sanctificata, ut patet in forma verborum
+              quae proferuntur, cum quis hostiam sumit, cum dicitur: <quote xml:id="ta-l4d7q1-Qd1e485">corpus domini
+                nostri</quote> et cetera. Ergo et similiter hic virtus sacramenti non consistit in
+              verbis praemissis, quae in usu materiae hujus sacramenti dicuntur.</p>
+            <p xml:id="ta-l4d7q1-d1e489">Sed contra est, quod forma est principalior in re quam in materia. Si ergo materia
+              aliquid efficit, multo fortius forma.</p>
+          </div>
+          <div xml:id="ta-l4d7q1-Dd1e494">
+            <head xml:id="ta-l4d7q1-Hd1e496">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d7q1-d1e499">Respondeo dicendum ad primam quaestionem, quod ministri sacramentorum operantur in
+              sacramentis benedicendo et sanctificando; et ideo secundum quod ad aliquod sacramentum
+              requiritur minister, ita requiritur forma qua minister sacramentum dispensat.</p>
+            <p xml:id="ta-l4d7q1-d1e502">Ad primum ergo dicendum, quod, sicut dictum est, illa manus impositio quam dominus
+              pueris exhibebat, non erat proprie sacramentum confirmationis, quod non conveniebat
+              exhiberi ante ipsius glorificationem; sed vel erat signum quoddam futurae
+              confirmationis, vel erat talis manus impositio, qualis fit in catechismo et exorcismo.
+              Si tamen dominus confirmasset sine forma vel materia, non esset inconveniens; quia
+              ipse habebat excellentiae potestatem in sacramentis, qui poterat effectum sacramenti
+              sine sacramentalibus praebere; quod non est de aliis.</p>
+            <p xml:id="ta-l4d7q1-d1e505">Ad secundum dicendum, quod quidam dicunt quod apostoli propter dignitatem et
+              auctoritatem ipsorum confirmabant sine materia et forma per solam manus impositionem.
+              Sed hoc non videtur bene dictum: quia quantumcumque ipsi essent magnae auctoritatis,
+              tamen potestatem excellentiae in sacramentis dispensandis non habebant. Et ideo
+              dicendum, quod apostoli aliqua forma utebantur, quamvis non sit scripta. Multa enim
+              apostoli servabant in sacramentorum dispensatione quae nolebant divulgari propter
+              irrisionem gentilium evitandam, sicut patet per apostolum, qui dicit 1 Corinth. 11,
+              34: <quote xml:id="ta-l4d7q1-Qd1e507">cetera, cum venero, disponam</quote>; et loquitur de celebratione
+              sacramenti Eucharistiae; et hoc est etiam quod Dionysius dicit in fine Eccl. Hier.:
+                <quote xml:id="ta-l4d7q1-Qd1e510">consummativas autem invocationes</quote>, idest verba quibus perficiuntur
+              sacramenta, <quote xml:id="ta-l4d7q1-Qd1e513">non est justum Scripturas interpretantibus, neque mysticum earum,
+                aut in ipsis operatas ex Deo virtutes, ex occulto ad commune adducere; sed, ut
+                nostra sacra traditio habet, sine pompa</quote>, idest occulte, <quote xml:id="ta-l4d7q1-Qd1e516">eas
+                edocere</quote> et cetera. Ex quibus verbis tria possumus accipere. Primo, quia
+              apostoli in sacramentis utebantur forma verborum certa, quia ipse alibi in eodem Lib.
+              dicit, quod tradit ritum sacramentorum sicut apostoli docebant. Secundo, quod in
+              occulto tradebantur hujusmodi sacramentalia in primitiva Ecclesia. Tertio, quod in
+              ipsis verbis est aliqua virtus, quod quidam negant.</p>
+            <p xml:id="ta-l4d7q1-d1e520">Ad tertium dicendum, quod variatio formae in his quae non sunt de essentia formae,
+              potest tolerari secundum diversas Ecclesiarum consuetudines, dummodo substantia formae
+              apud omnes servetur. Hoc autem quod a quibusdam dicitur, <quote xml:id="ta-l4d7q1-Qd1e522">chrismate
+                salutis</quote>, vel <quote xml:id="ta-l4d7q1-Qd1e525">sanctificationis</quote>, quasi in unum redit; et ideo
+              per hoc non removetur quin hoc sacramentum habeat determinatam formam.</p>
+          </div>
+          <div xml:id="ta-l4d7q1-Dd1e530">
+            <head xml:id="ta-l4d7q1-Hd1e532">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d7q1-d1e535">Ad secundam quaestionem dicendum, quod sicut definitio debet indicare totum esse rei,
+              si sit perfecta; ita per formam sacramenti debet innotescere totum quod ad sacramentum
+              pertinet. Sacramentum autem et est ad aliquem finem ordinatum, et ab aliqua causa
+              principali efficaciam habet. Et ideo tria ponuntur in forma hujus sacramenti; quorum
+              primum pertinet ad finem ad quem institutum est hoc sacramentum, qui est confessio
+              fidei Christianae, cujus tota summa consistit in passione Christi; unde apostolus 1
+              Corinth. 2, 2: <quote xml:id="ta-l4d7q1-Qd1e537">non enim judicavi me aliquid scire inter vos, nisi Jesum
+                crucifixum</quote>; et ita hujus articuli confessio majorem habet difficultatem:
+              quia, sicut dicitur in eadem epistola, 1 Corinth. 1, 23, <quote xml:id="ta-l4d7q1-Qd1e540">nos autem praedicamus
+                Christum crucifixum, Judaeis quidem scandalum, gentibus autem stultitiam</quote>; et
+              ad hoc pertinet cum dicitur: <quote xml:id="ta-l4d7q1-Qd1e543">consigno te signo sanctae crucis</quote>, ut
+              crucis verbum non erubescat, sed publice confiteatur. Secundo ponitur ipse
+              sacramentalis actus cum sua materia et effectu, ut sic tangatur et id quod est
+              sacramentum tantum, in hoc quod dicitur, <quote xml:id="ta-l4d7q1-Qd1e546">chrismate</quote>; et id quod est res
+              et sacramentum, in hoc quod dicit, <quote xml:id="ta-l4d7q1-Qd1e549">confirmo</quote>, idest sacramentum
+              confirmationis praebeo; et id quod est res et non sacramentum, in hoc quod dicit,
+                <quote xml:id="ta-l4d7q1-Qd1e553">salutis</quote>. Sed causa agens principalis, unde sacramentum effectum
+              habet, tangitur in hoc quod dicit: <quote xml:id="ta-l4d7q1-Qd1e556">in nomine patris et filii et spiritus
+                sancti</quote>.</p>
+            <p xml:id="ta-l4d7q1-d1e560">Ad primum ergo dicendum, quod Baptismus est sacramentum necessitatis; et ideo
+              intentio baptizantis magis est arctanda ad actum sacramenti. Vel dicendum quod
+              baptizare potest quilibet, confirmare autem solus ille qui est in summo gradu
+              Ecclesiae, de quo praesumitur quod minus possit in dispensatione sacramenti deficere;
+              et ideo non requiritur tanta arctatio intentionis per verba in forma apposita.</p>
+            <p xml:id="ta-l4d7q1-d1e563">Ad secundum dicendum, quod consignatio quae ponitur in forma, non pertinet ad
+              consignationem characteris, sed ad consignationem crucis, quae fit in fronte linitione
+              chrismatis propter confessionem fidei crucis; et talis signatio non fit in Baptismo,
+              quia baptizatus non consecratur ad aliquid speciale, sed universaliter ad spiritualem
+              vitam; consignatio autem importat quamdam ascriptionem, vel aliquid speciale, quod est
+              in sacramento confirmationis.</p>
+            <p xml:id="ta-l4d7q1-d1e566">Ad tertium dicendum, quod ille qui baptizatur, configuratur passioni Christi per
+              fidem ejus, quam habere in corde debet; et ideo non exigitur aliqua consignatio
+              exterior, sed sufficit consignatio interior quae est per characterem, et consignatio
+              ad passionem Christi in consepelitione aquae. Sed confirmatio est sacramentum
+              confessionis passionis Christi, sicut Baptismus sacramentum fidei; et ideo exterius in
+              manifesto imprimitur crucis signaculum, et in forma exprimitur.</p>
+            <p xml:id="ta-l4d7q1-d1e570">Ad quartum dicendum, quod in ipso actu baptizationis intelligitur determinata materia
+              Baptismi: non autem materia confirmationis intelligitur in ipso actu confirmandi; et
+              ideo oportet quod materia addatur.</p>
+            <p xml:id="ta-l4d7q1-d1e573">Ad quintum dicendum, quod in actu ablutionis magis expresse significatur res
+              sacramenti in Baptismo quam in linitione chrismatis; et ideo non oportet quod addatur
+              effectus salutis ad majorem expressionem.</p>
+          </div>
+          <div xml:id="ta-l4d7q1-Dd1e577">
+            <head xml:id="ta-l4d7q1-Hd1e579">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d7q1-d1e582">Ad tertiam quaestionem dicendum, quod formae sacramentorum sunt ad perficiendum
+              sacramenta; unde Dionysius vocat eas consummativas invocationes, ut dictum est; et
+              ideo in illo sacramento quod totum consistit in illa re sensibili sanctificata, et non
+              in usu illius rei, forma sacramenti dicitur illud quo materia sanctificatur, non autem
+              illa verba quae in materiae usu proferuntur, sicut patet in Eucharistia. In illis
+              autem sacramentis quae perficiuntur in usu materiae, sicut Baptismus in ipsa tinctione
+              vel ablutione, forma sacramenti est quae dicitur in usu materiae, non quae dicitur in
+              sanctificatione materiae, quia illa sacramentale quoddam est. Et ideo cum sacramentum
+              confirmationis, ut dictum est, perficiatur in usu materiae, constat quod illa verba
+              quae dicit episcopus confirmans, sunt forma sacramenti, et habent efficaciam sicut et
+              aliae formae sacramentorum.</p>
+            <p xml:id="ta-l4d7q1-d1e585">Ad primum ergo dicendum, quod duplex est sanctificatio sacramenti, ut dictum est. Ex
+              prima ergo sanctificatione quae fit in benedictione materiae, non habet ut actu
+              conferat gratiam, sed ex secunda.</p>
+            <p xml:id="ta-l4d7q1-d1e588">Ad secundum dicendum, quod aliter est in sacramento Eucharistiae quam in aliis
+              sacramentis: quia ibi totum sacramentum consistit in ipsa hostia consecrata, eo quod
+              ibi Christus realiter continetur, et non virtute tantum, sicut in aliis sacramentis;
+              et ideo forma sacramenti illius sunt verba prolata in sanctificatione hostiae.</p>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,2215 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 17, Quaestio 2</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.09-dev-master">
+          <title>Librum I, Distinctio 17, Quaestio 2</title>
+          <date when="2016-03-14">March 14, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-14">March 14, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p>1856 editum</p>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="2015.09">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <div xml:id="starts-on"> </div>
+    </front>
+    <body>
+      <div xml:id="ta-l1d17q2">
+        <head xml:id="ta-l1d17q2-Hd1e3490">Librum I, Distinctio 17, Quaestio 2</head>
+        <div xml:id="ta-l1d17q2-Dd1e3493">
+          <head xml:id="ta-l1d17q2-Hd1e3495">Prooemium</head>
+          <p xml:id="ta-l1d17q2-d1e3498"><quote xml:id="ta-l1d17q2-Qd1e3499">Hic quaeritur, si caritas spiritus sanctus est, cum ipsa augeatur et minuatur in
+              homine, utrum concedendum sit quod spiritus sanctus augeatur vel minuatur in
+              homine</quote>. In parte ista Magister objicit contra praedeterminata, et dividitur in
+            partes duas: in prima objicit per rationem; in secunda per auctoritates, ibi:
+              <quote xml:id="ta-l1d17q2-Qd1e3502">supra dictum est, quod spiritus sanctus caritas est patris et filii</quote>.
+            Prima in tres: primo ponit objectionem; secundo responsionem, ibi: <quote xml:id="ta-l1d17q2-Qd1e3505">his itaque
+              respondemus dicentes, quod spiritus sanctus, sive caritas, penitus immutabilis
+              est</quote>; tertio responsionis confirmationem, ibi: <quote xml:id="ta-l1d17q2-Qd1e3508">ut autem certius fiat
+              quod diximus, auctoritate confirmamus</quote>. Objectio autem est duplex, ut patet in
+            littera, et similiter solutio. <quote xml:id="ta-l1d17q2-Qd1e3511">Supra dictum est, quod spiritus sanctus caritas
+              est patris et filii</quote>. Hic objicit per auctoritates, et dividitur in tres
+            partes, secundum tria, quae contra Magistrum ex auctoritatibus eliciuntur. Primum est
+            quod alia est dilectio qua nos diligimus Deum, et Deus diligit nos. Dilectio autem qua
+            Deus diligit nos, est spiritus sanctus. Ergo dilectio qua nos diligimus Deum, est aliud
+            quam spiritus sanctus. Secundum est, quod dicitur caritas esse ex Deo, sicut et fides.
+            Sed fides est ex Deo, ita quod non est Deus. Ergo et caritas; et hoc ponit ibi:
+              <quote xml:id="ta-l1d17q2-Qd1e3514">sed aliud est, inquiunt, quod magis urget</quote>. Tertium est quod caritas
+            dicitur affectio vel motus mentis. Sed spiritus sanctus non est hujusmodi. Ergo etc., et
+            hoc ponit ibi: <quote xml:id="ta-l1d17q2-Qd1e3518">alias quoque inducunt rationes ad idem ostendendum</quote>.
+            Quaelibet harum partium dividitur in objectionem et solutionem. Ad intelligentiam hujus
+            partis quinque quaeruntur: 1 utrum caritas augeatur; 2 de modo augmenti; 3 utrum
+            quolibet actu augeatur; 4 utrum sit aliquis terminus augmenti; 5 utrum diminuatur.</p>
+        </div>
+        <div xml:id="ta-l1d17q2-Dd1e3523" type="articulus">
+          <head xml:id="ta-l1d17q2-Hd1e3525">Articulus 1</head>
+
+          <head xml:id="ta-l1d17q2-Hd1e3528" type="questionTitle">Utrum caritas augeatur</head>
+
+          <p xml:id="ta-l1d17q2-d1e3531">Ad primum sic proceditur. Videtur quod caritas non augeatur. Nihil enim augetur nisi
+            quantum. Sed nullum simplex est quantum, quia omne quantum est divisibile. Caritas autem
+            est simplex habitus, et ita non est quantum per se, nec similiter per accidens, cum ejus
+            subjectum, scilicet anima, sit etiam indivisibile. Ergo non augetur.</p>
+          <p xml:id="ta-l1d17q2-d1e3534">Si dicis, quod quanta est, non quantitate molis, sed virtutis, contra: quantitas
+            virtutis dividitur secundum objecta in quae virtus potest. Sed in omnia objecta
+            caritatis potest quaelibet caritas, quantumcumque parva. Ergo non augetur secundum
+            quantitatem virtutis.</p>
+          <p xml:id="ta-l1d17q2-d1e3537">Item, cum augmentum sit species motus, quidquid augetur movetur, et quod essentialiter
+            augetur essentialiter movetur. Sed quod movetur est corpus, ut probat philosophus; et
+            quod naturaliter movetur corrumpitur. Cum igitur caritas non corrumpatur, quia
+              <quote xml:id="ta-l1d17q2-Qd1e3539">caritas nunquam excidit</quote>, 1 Corinth. 13, 8, nec sit corpus mobile;
+            videtur quod non essentialiter augeatur.</p>
+          <p xml:id="ta-l1d17q2-d1e3544">Item, cujus causa semper se habet eodem modo, illud neque augetur neque minuitur, nec
+            aliquo modo variatur. Sed causa immediata caritatis Deus est, qui semper eodem modo se
+            habet. Ergo caritas non variatur per augmentum.</p>
+          <p xml:id="ta-l1d17q2-d1e3547">Praeterea, constat quod augmentum qualitatis non potest reduci ad aliquam speciem
+            motus, nisi ad alterationem. Sed alteratio, ut probat philosophus, non est nisi circa
+            partem animae sensitivam, et circa objecta ejus. Cum ergo caritas qualitas sit et sit in
+            parte intellectiva, alioquin non esset in Angelis, qui sensitiva carent, videtur quod
+            non augeatur.</p>
+          <p xml:id="ta-l1d17q2-d1e3550">Contra, Augustinus dicit: <quote xml:id="ta-l1d17q2-Qd1e3552">caritas cum fuerit nata, nutritur; cum fuerit
+              roborata, perficitur</quote>. Omne autem in quo progressus secundum diversos gradus
+            attenditur, augetur. Ergo et cetera.</p>
+          <p xml:id="ta-l1d17q2-d1e3556">Praeterea, per actum devenimus in cognitionem habitus. Sed contingit actum caritatis
+            intensiorem fieri. Ergo etiam et caritas augeri potest.</p>
+          <p xml:id="ta-l1d17q2-d1e3559">Respondeo dicendum, quod quidam posuerunt caritatem essentialiter non augeri, et horum
+            fuit quadruplex opinio. Quidam enim dixerunt, ut Magister in littera, quod caritas
+            secundum se non augetur, sed dicitur augeri in nobis, inquantum nos in caritate
+            proficimus; et hoc quia ponit caritatem esse spiritum sanctum, in quem variatio non
+            cadit. Sed hoc non potest stare: quia non est intelligibile, quod nos in caritate, quae
+            spiritus sanctus est, proficiamus, nisi aliquid fiat in nobis quod prius non fuit; et
+            hoc non potest esse tantum actus, cum omnis actus sit ex virtute aliqua, et actus
+            perfectus, quali spiritu sancto unimur, est a virtute perfecta per habitum. Alii
+            dixerunt, quod caritas essentialiter non augetur, sed dicitur augeri, inquantum magis
+            firmatur in subjecto, secundum ipsam radicationem. Sed ex hoc etiam sequitur ipsam
+            augeri essentialiter. Nulla enim forma potest intelligi magis firmari in subjecto, nisi
+            per hoc quod habet majorem victoriam super subjectum suum. Augmentum autem victoriae
+            redundat in augmentum virtutis, et per consequens in augmentum essentiae: quia virtus,
+            si non est ipsa essentia, oportet quod sit ab essentia, et commensuretur sibi sicut
+            effectus causae proximae. Alii dixerunt, quod caritas essentialiter non augetur, sed
+            adveniente majori caritate, minor caritas, quae inerat, destruitur. Hoc etiam non potest
+            stare: quia nulla forma destruitur, nisi vel ex contrario agente, vel per accidens ex
+            corruptione subjecti. Cum igitur subjectum caritatis maneat, et caritas adveniens
+            caritati inventae non contrarietur; non potest esse quod destruatur nec per se nec per
+            accidens, sicut ignis parvus a magno igne propter consumptionem materiae. Alii dixerunt,
+            quod caritas non augetur nisi quantum ad fervorem. Sed hoc etiam non potest stare: quia
+            fervor caritatis dupliciter accipitur: proprie et metaphorice. Metaphorice, secundum
+            quod dicimus caritatem esse calorem, et intensionem actus caritatis metaphorice dicimus
+            fervorem, secundum quod Dionysius ponit fervidum in amore Angelorum. Sic autem fervor
+            acceptus, est per se consequens essentiam caritatis; unde non potest in tali fervore
+            fieri augmentum, nisi ipsa caritas essentialiter augeatur; cum simul varietur res et
+            omnia quae per se consequuntur ipsam. Alio modo dicitur fervor prout est in parte
+            sensitiva; cum enim vires inferiores sequantur motum superiorum, si sit intensior, sicut
+            videmus quod ad apprehensionem mulieris dilectae totum corpus exardescit et movetur; ita
+            etiam quando affectus superior movetur in Deum, consequitur quaedam impressio etiam in
+            virtutibus sensitivis, secundum quam incitantur ad obediendum divino amori. Intensio
+            autem istius fervoris non sufficit ad augmentum caritatis: quia secundum augmentum
+            istius fervoris non attenditur quantitas meriti, cum consistat in dispositione corporis.
+            Unde magis ferventes non semper magis merentur. Sed ille qui dicitur crescere in
+            caritate, crescit etiam in merito, si sit in statu merendi. Et ideo dicendum, quod
+            caritas essentialiter augetur. Sciendum tamen est, quod augeri nihil aliud est quam
+            sumere majorem quantitatem; unde secundum quod aliquid se habet ad quantitatem, ita se
+            habet ad augmentum. Quantitas autem dicitur dupliciter: quaedam virtualis, quaedam
+            dimensiva. Virtualis quantitas non est ex genere suo quantitas, quia non dividitur
+            divisione essentiae suae; sed magnitudo ejus attenditur ad aliquid divisibile extra, vel
+            multiplicabile, quod est objectum vel actus virtutis. Sed ex genere suo est vel forma
+            accidentalis in genere qualitatis, vel forma substantialis, quae tamen non est major vel
+            minor. Et ideo augmentum secundum quantitatem virtutis non pertinet ad speciem motus
+            quae augmentum dicitur, sed magis ad alterationem; et hoc modo augetur caritas et aliae
+            qualitates. Quantitas autem dimensiva est quorumdam per accidens, sicut albedinis, quae
+            dicitur quanta secundum quantitatem superficiei, ut in praedicamentis dicitur. Unde non
+            augetur nisi per accidens; sed per se invenitur in corporibus quae per se augentur. Hoc
+            autem contingit dupliciter. Quia aliquando illud quod sumit majorem quantitatem, movetur
+            de quantitate minori in majorem. Aliquando autem est sine motu ipsius quod augeri
+            dicitur; unde non quaelibet pars augetur, sicut quaelibet pars moti per se movetur. Et
+            hoc contingit quando efficitur major quantitas per additionem quantitatis, sicut quando
+            additur lignum ligno, vel linea lineae. Unde hoc est augmentum, sed non motus augmenti.
+            Quod autem moveatur aliquid ad majorem quantitatem, contingit dupliciter: vel ita quod
+            quantitas sit per se terminus motus; vel quod consequatur terminum. Quando per se
+            quantitas est terminus motus, oportet quod sit ibi additio ad totum, et quod ad
+            quamlibet partem, ut totum augeatur et quaelibet pars ejus; sicut est in animali et in
+            planta; et tunc proprie est motus augmenti. Unde motus augmenti non est nisi in
+            habentibus nutritivam. Consequitur autem terminum motus, quando est ad formam aliquam
+            quam consequitur aliqua quantitas. Cuilibet enim formae debetur quantitas determinata:
+            et quia motus non specificatur nisi ab eo quod est per se terminus motus, ideo talis
+            motus non dicitur per se motus augmenti; sed vel generatio si sit forma substantialis,
+            sicut quando ex aere fit ignis; vel alteratio, quando est forma accidentalis, sicut in
+            rarefactione aeris patet.</p>
+          <p xml:id="ta-l1d17q2-d1e3562">Ad primum ergo dicendum, quod caritas, quamvis non habeat quantitatem dimensivam neque
+            per se neque per accidens, quia subjectum etiam ejus non est quantum; tamen in ea
+            quantitas virtutis est, ratione cujus augeri dicitur, sicut et albedo et calor.</p>
+          <p xml:id="ta-l1d17q2-d1e3566">Ad secundum dicendum, quod quantitas virtutis attenditur dupliciter: vel quantum ad
+            numerum objectorum, et hoc est per modum quantitatis discretae; vel quantum ad
+            intensionem actus super idem objectum; et hoc est sicut quantitas continua; et ita
+            excrescit virtus caritatis.</p>
+          <p xml:id="ta-l1d17q2-d1e3569">Ad tertium dicendum, quod caritas non dicitur augeri quasi subjectum augmenti, cum sit
+            accidens, sed quia secundum ipsam attenditur augmentum; sicut etiam quantitas augeri
+            dicitur, et albedo variari quando aliquid per albedinem variatur. Nec oportet quod si
+            essentialiter augetur, quod destruatur. Dicitur enim aliquid secundum essentiam suam
+            moveri dupliciter: vel quia essentia est per se terminus motus, et sic moveri per
+            essentiam est essentiam amittere et corrumpi; vel quia est secundum aliquid conjunctum
+            essentiae, quod est per se terminus motus, sicut dicitur aliquid moveri essentialiter
+            dum secundum locum movetur, quia secundum suam essentiam in loco est. Et sic essentiale
+            augmentum dicitur quod est secundum quantitatem essentiam consequentem, manente una et
+            eadem essentia sub diversa quantitate; sive quantitas sit ipsa essentia rei, sicut
+            quantitas virtutis est idem cum ipsa virtute, et tamen movetur per se loquendo secundum
+            quantitatem, secundum majorem et minorem perfectionem virtutis; nec tunc per se secundum
+            essentiam movetur, quia esse suum retinet: sive sit aliud ab essentia, sicut patet in
+            augmento corporali. Nec oportet quod omne quod movetur, sit corpus, nisi accipiatur de
+            motu naturali, qualis non est motus animae.</p>
+          <p xml:id="ta-l1d17q2-d1e3572">Ad quartum dicendum, quod quamvis causa efficiens caritatis sit in se immobilis; tamen
+            secundum ordinem sapientiae suae, potest alicui majorem caritatem praebere pro
+            beneplacito suae voluntatis, et secundum quod aliquis diversimode se ad caritatem
+            praeparat, qui etiam se habet aliquo modo ad caritatem ut causa materialis recipiens ad
+            cujus diversitatem etiam sequitur variatio in effectu.</p>
+          <p xml:id="ta-l1d17q2-d1e3575">Ad quintum dicendum, quod, cum alteratio passiva includat in intellectu suo passionem,
+            sicut duplex est passio, ita et duplex est alteratio. Dicitur enim communiter passio uno
+            modo omnis receptio, secundum etiam quod intelligere pati dicitur, et sic etiam
+            alteratio secundum istam passionem consistit in qualibet variatione circa receptionem
+            alicujus qualitatis; et hoc modo potest esse alteratio etiam in substantiis pure
+            intellectualibus, et sic alteratio potest esse in caritate. Alio modo dicitur proprie
+            passio, quando abjicitur aliquid a substantia, et hoc est ex actione contrarii
+            transmutantis; et secundum istam passionem alteratio dicta non est nisi circa sensibilia
+            et circa sensibilem partem animae per se, et circa intellectum per accidens, quantum ad
+            illas qualitates quae in parte intellectiva ex sensibus oriuntur, sicut sunt omnes
+            habitus acquisiti; quorum non est caritas.</p>
+        </div>
+        <div xml:id="ta-l1d17q2-Dd1e3579" type="articulus">
+          <head xml:id="ta-l1d17q2-Hd1e3581">Articulus 2</head>
+
+          <head xml:id="ta-l1d17q2-Hd1e3584" type="questionTitle">Utrum caritas augeatur per additionem</head>
+
+          <p xml:id="ta-l1d17q2-d1e3587">Ad secundum sic proceditur. Videtur quod caritas augeatur per additionem. Philosophus
+            enim dicit: <quote xml:id="ta-l1d17q2-Qd1e3589">augmentum est praeexistenti quantitati additamentum</quote>. Si
+            igitur caritas augetur, oportet quod praeexistenti caritati alia caritas addatur.</p>
+          <p xml:id="ta-l1d17q2-d1e3593">Item, nihil potest augere caritatem nisi Deus qui dedit. Sed Deus non agit aliquid in
+            anima de novo nisi per novum influxum. Non potest autem intelligi novus influxus nisi
+            aliquid de novo infundatur. Ergo videtur quod caritas augeatur per hoc quod alia caritas
+            de novo infusa praesenti addatur.</p>
+          <p xml:id="ta-l1d17q2-d1e3596">Item, si non augetur per additionem novae caritatis a Deo, non videtur posse augeri
+            nisi per recessum a contrario caritatis. Sed contra, augmentum caritatis potest esse in
+            illis in quibus nihil est de contrario caritatis, sicut in Angelo, et homine in statu
+            innocentiae. Ergo videtur quod isto modo caritas non augeatur, sed praedicto modo.</p>
+          <p xml:id="ta-l1d17q2-d1e3600">Praeterea, videtur, secundum hoc, quod Deus non est causa augmenti caritatis, sed homo,
+            qui se a contrario caritatis refrenat, sicut a concupiscentia. Et hoc est inconveniens.
+            Ergo videtur quod non augeatur nisi per additionem.</p>
+          <p xml:id="ta-l1d17q2-d1e3603">Contra, simplex simplici additum, nihil majus efficit, ut probat philosophus. Sed
+            caritas est quid simplex. Ergo per additionem caritatis ad caritatem non efficitur major
+            caritas.</p>
+          <p xml:id="ta-l1d17q2-d1e3606">Praeterea, secundum Dionysium, tantum distat inter ipsas Dei participationes et
+            participantes, quod participatio quanto simplicior est tanto nobilior, participans vero
+            quanto majorem habet compositionem donorum participatorum, tanto nobilius est; sicut
+            esse est nobilius quam vivere, et vivere quam intelligere, si unum sine altero
+            intelligatur: omnibus enim esse praeeligeretur. Sed quod habet plura ex his, melius est.
+            Sed caritas est quaedam participatio divinae bonitatis. Ergo quanto compositior est per
+            additionem caritatis ad caritatem, minus valebit. Igitur si caritas augetur per
+            additionem, quanto magis augetur, minus erit eligenda. Hoc autem est ridiculum. Ergo non
+            augetur per additionem.</p>
+          <p xml:id="ta-l1d17q2-d1e3609">Respondeo dicendum, quod eorum qui ponunt caritatem essentialiter augeri, dicta
+            revertuntur in duas opiniones: quarum una est, quod augetur per additionem caritatis ad
+            caritatem; alia est quod augetur per intensionem secundum accessum ad terminum; et in
+            hoc revertitur quod quidam dicunt, caritatem augeri per multiplicationem sui in anima
+            sicut lux in aere: lux enim non augetur nisi per intensionem, sicut aliae qualitates.
+            Primam autem positionem non possum intelligere; quia in omni additione oportet
+            intelligere duo diversa, quorum unum alteri additur. Si autem intelligantur duae
+            caritates, aut intelligentur diversae secundum speciem aut numerum. Constat quod non
+            secundum speciem, cum omnes caritates sint in eadem specie virtutis. Diversitas autem
+            secundum numerum est ex diversitate materiae, sicut haec albedo differt ab illa numero,
+            quia est in diverso subjecto. Unde non potest qualitas addi qualitati nisi per hoc quod
+            subjectum subjecto additur. Caritas autem quae potest addi, nunquam fuit in alio
+            subjecto, antequam in isto; et secundum hoc quod est in isto, non differt numero ab alia
+            caritate in eodem existente, ut probatum est, in hac dist., quaest. 1, art. 1. Unde
+            nullo modo est intelligere ibi additionem. Sed ista positio provenit ex falsa
+            imaginatione, quia augmentum caritatis imaginati sunt ad modum augmenti corporalis, in
+            quo fit additio quantitatis ad quantitatem. Et ideo dico, quod quando caritas augetur,
+            nihil ibi additur, sicut philosophus etiam dicit in 4 Physic., quod aliquid efficitur
+            magis album vel magis calidum, non per additionem alicujus albedinis vel caloris; sed
+            quia illa qualitas quae prius inerat intenditur secundum propinquitatem ad terminum.
+            Haec autem intensio contingit diversimode in qualitatibus simplicibus et compositis,
+            primis et secundis. Qualitates enim compositae vel secundae, intenduntur secundum
+            intensionem qualitatum primarum, sicut sapor et sanitas et alia hujusmodi, secundum
+            intensionem caloris et frigoris, humoris et siccitatis. Qualitates autem primae et
+            simplices intenduntur ex causis suis, scilicet ex agente et recipiente. Agens enim
+            intendit reducere patiens de potentia in actum suae similitudinis, quantumcumque potest.
+            Sicut autem non calidum est potentia caloris; ita minus calidum est potentia respectu
+            magis calidi. Unde sicut per potentiam calidi efficitur de non calido calidum, non quod
+            ponatur ibi aliquis calor, sed quia calor qui est in potentia, educitur in actum; ita
+            etiam efficitur magis calidum per actionem calidi, inquantum educitur calor, qui inerat
+            ut actus imperfectus, in majorem perfectionem et majorem assimilationem agentis; et hoc
+            contingit, secundum quod potentia subjecta actui, quae quidem, quantum in se est, ad
+            multa se habet, magis ac magis terminatur ab actu illo; vel quia augetur virtus agentis,
+            sicut ex conjunctione plurium luminarium intenditur illuminatio; vel ex parte ipsius
+            materiae, secundum quod efficitur susceptibilior illius actus, sicut aer quanto plus
+            attenuatur, fit susceptibilior luminis. Intensio autem caritatis non contingit ex hoc
+            quod virtus agentis fortificetur, sed tantum ex hoc quod natura recipiens, quae quantum
+            in se est, dispositionem quamdam habet secundum quod est in potentia ad plura, magis ac
+            magis praeparatur ad susceptionem gratiae, secundum quod ex dicta multitudine, scilicet
+            confusione potentialitatis, in unum colligitur per operationes quibus ad caritatem
+            suscipiendam praeparatur, ut prius dictum est, art. 1 istius quaest. Et ideo Dionysius
+            perfectum sanctitatis semper designat per hoc quod est ex sparsa vita in unicam
+            consurgere. Et sic patet quod augmentum caritatis simile est augmento qualitatum
+            naturalium, licet origo ejus differat ab origine illarum. Cujus ratio est, quia
+            qualitates naturales educuntur de potentia materiae, quarum inchoationes quasdam
+            materiae Deus opere creationis indidit; et ideo quando in actum procedunt, est exitus de
+            imperfecto ad perfectum. Dona autem gratuita non educuntur quasi de potentia naturae;
+            quia nihil est in potentia naturali quod per agens naturale educi non possit. Et ideo
+            origo gratiae est per novam infusionem; sed augmentum ejus est per hoc quod de
+            imperfecto ad perfectum actus infusus educitur.</p>
+          <p xml:id="ta-l1d17q2-d1e3612">Ad primum igitur dicendum, quod propositio philosophi intelligitur de augmento
+            corporali, quod fit semper per additionem quantitatis, quia in hac materia ab ipso
+            proponitur.</p>
+          <p xml:id="ta-l1d17q2-d1e3615">Ad secundum dicendum, quod Deus una et eadem operatione agit in omnia quae sunt,
+            quamvis forte illa operatio differat solum secundum rationem, secundum quod exit a
+            ratione diversorum attributorum, vel diversarum idearum. Unde dico, quod una et eadem
+            operatione infunditur gratia et augetur; nec est diversitas nisi ex parte recipientis,
+            quod ex illa operatione plus minusve recipit, secundum quod ad eam diversimode
+            praeparatur; sicut eadem irradiatione solis efficitur aer clarus et magis clarus,
+            depulsis nebulosis vaporibus qui receptionem luminis impediebant; unde non oportet quod
+            sit ibi alia et alia claritas. Praeterea, etiam si essent duae operationes, non
+            oporteret quod terminarentur ad duo diversa secundum substantiam; sed prima terminaretur
+            ad esse caritatis imperfectae, secunda ad eamdem caritatem secundum perfectionem,
+            secundum quod aliquid educitur de imperfecto ad perfectum.</p>
+          <p xml:id="ta-l1d17q2-d1e3619">Ad tertium dicendum, quod non est de ratione intensionis alicujus qualitatis, quod sit
+            per remotionem a contrario; sed hoc accidit qualitati, secundum quod inest in subjecto
+            participante contrarium. Sed hoc est de necessitate intensionis quod qualitas educatur
+            de imperfecto ad perfectum, sicut patet de diaphano, in quo nihil est contrarium luci,
+            quod potest lumen intendi secundum incrementum virtutis illuminantis. Haec autem
+            imperfectio est ex potentialitate ipsius naturae, quae subjicitur perfectioni et actui.
+            Cum enim omnis potentia receptiva ad multa se habeat, secundum istam multitudinem
+            ipsius, dissimile est principio agenti, quod est terminatum ad actum unum; et secundum
+            quod ista confusio potentialitatis magis subjicitur actui, perfectior perficitur actus,
+            et ipsum perfectum magis efficitur unum, et magis assimilatum principio agenti. Haec
+            autem confusio potentialitatis est in qualibet natura creata, secundum quod nondum est
+            perfecta per actum. Unde etiam per istum modum ponit Dionysius, purgationem in Angelis,
+            scilicet secundum quod removentur a confusione dissimilitudinis.</p>
+          <p xml:id="ta-l1d17q2-d1e3622">Ad quartum dicendum, quod eodem modo sumus causa augmenti gratiae, sicut et causa
+            ipsius gratiae, scilicet per modum dispositionis tantum. Sed efficientia utrobique est
+            ex parte ipsius Dei, sicut patet ex his quae supra dicta sunt, in corp. art.</p>
+        </div>
+        <div xml:id="ta-l1d17q2-Dd1e3626" type="articulus">
+          <head xml:id="ta-l1d17q2-Hd1e3628">Articulus 3</head>
+
+          <head xml:id="ta-l1d17q2-Hd1e3631" type="questionTitle">Utrum caritas augeatur quolibet actu</head>
+
+          <p xml:id="ta-l1d17q2-d1e3634">Ad tertium sic proceditur. Videtur quod caritas quolibet actu augeatur. Ubi enim eadem
+            causa est, et idem effectus. Sed omnes actus caritatis sunt ejusdem speciei quantum ad
+            esse morale, sicut omnes actus fortitudinis. Ergo cum aliquis actus caritatis caritatem
+            augeat, videtur etiam quod quilibet actus.</p>
+          <p xml:id="ta-l1d17q2-d1e3637">Item, quod facere potest majus, potest etiam facere minus. Sed quodlibet actu caritatis
+            meretur quis vitam aeternam. Ergo et potest mereri augmentum caritatis.</p>
+          <p xml:id="ta-l1d17q2-d1e3640">Praeterea, quilibet actus caritatis est longe potentior quantum ad esse gratiae, quam
+            actus qui sunt ex naturalibus tantum. Sed per actus qui sunt tantum ex naturalibus, homo
+            praeparatur per modum dispositionis ad recipiendum gratiam. Ergo multo magis per
+            quemlibet actum caritatis disponitur ad caritatis augmentum.</p>
+          <p xml:id="ta-l1d17q2-d1e3644">Contra, ex eisdem principiis ex quibus aliquid nascitur, et augmentatur. Sed unus actus
+            non sufficit ad dispositionem ut caritas infundatur. Ergo nec ad hoc ut augeatur.
+            Probatio mediae. Majorem causalitatem habet actus noster ad virtutem acquisitam quam ad
+            caritatem infusam. Sed unus actus non sufficit ad generationem virtutis acquisitae;
+            quinimmo ex frequenti bene agere fit homo bonus, secundum philosophum. Ergo multo minus
+            unus actus sufficit disponere ad caritatem.</p>
+          <p xml:id="ta-l1d17q2-d1e3647">Item, secundum augmentum caritatis augetur etiam praemium substantiale; dicitur enim
+            communiter, quod pluribus operibus in caritate factis, non plus meretur quis quantum ad
+            augmentum praemii substantialis, quam uno ex aequali caritate facto. Ergo non quolibet
+            actu caritatis caritas augetur.</p>
+          <p xml:id="ta-l1d17q2-d1e3650">Respondeo dicendum, quod non eodem modo se habet actus informatus caritate ad augmentum
+            caritatis, et actus praecedens caritatem ad habendam caritatem. Actus enim qui est ex
+            caritate, ordinatur ad augmentum caritatis et per modum dispositionis et per modum
+            meriti; sed actus praecedens caritatem ordinatur ad consequendum caritatem solum per
+            modum dispositionis, ut supra dictum est, art. antec., non per modum meriti: quia ante
+            caritatem nullum potest esse meritum. Neuter autem actus ordinatur ad habendam vel
+            augmentandam caritatem per modum alicujus efficientiae, sicut actus nostri ad habendum
+            habitus acquisitos. Sciendum est igitur, quod actus qui praecedit caritatem, quandoque
+            unus solus disponit ultima dispositione ut infundatur caritas, secundum immobilitatem
+            divinae bonitatis, per quam unicuique largitur secundum quod praeparatum est ad
+            recipiendum: quandoque autem unus actus non disponit nisi dispositione remota, et
+            sequens actus magis disponit, et sic deinceps, secundum quod ex multis bonis actibus
+            pervenitur ad ultimam dispositionem, inquantum actus sequens semper agit in virtute
+            omnium praecedentium; ut patet in guttis cavantibus lapidem, quod non quaelibet aufert
+            aliquid de lapide, sed omnes praecedentes disponunt, et una ultima agens in virtute
+            omnium praecedentium, inquantum scilicet invenit materiam dispositam per praecedentes,
+            complet cavationem. Hoc autem ideo contingit, quia homo est dominus sui actus. Unde
+            potest agere secundum totam virtutem naturae suae vel secundum partem: quod non
+            contingit in illis quae agunt ex necessitate naturae: semper enim agunt tota virtute
+            sua. Quando ergo ita est quod homo non habens caritatem ex tota virtute bonitatis
+            naturalis sibi inditae movetur ad caritatem, tunc unus actus disponit eum ultima
+            dispositione, ut caritas sibi detur. Quando vero non secundum totam virtutem, sed
+            secundum aliquid ejus praeparatur ad caritatem, tunc actus non est sicut dispositio
+            ultima, sed remota, et per plures actus poterit pervenire ad dispositionem ultimam.
+            Similiter dico ex parte alia, quod quando actus caritatis procedit ex tota virtute
+            habentis et quantum ad virtutem naturae et quantum ad virtutem habitus infusi, tunc unus
+            actus disponit, et meretur augmentum caritatis, ut statim fiat. Quando autem non
+            secundum totam virtutem procedit actus ille, tunc est ut dispositio remota, et poterit
+            tunc per plures actus pervenire ad augmentum caritatis, non tamen de necessitate: quia
+            homo, quantumcumque sit dispositus, potest non agere secundum rationem dispositionis
+            illius: quod non contingit in dispositionibus non voluntariis, ratione jam dicta, paulo
+            Sup.</p>
+          <p xml:id="ta-l1d17q2-d1e3653">Ad primum igitur dicendum, quod non eodem modo se habet quilibet actus caritatis, eo
+            quod unus potest esse magis intensus, et etiam unus potest esse disponens in virtute
+            plurium praecedentium, ut dictum est, in corp. art., et ideo non sequitur idem
+            effectus.</p>
+          <p xml:id="ta-l1d17q2-d1e3656">Ad secundum dicendum, quod praemium substantiale vitae aeternae ordinatur sicut finis
+            ad actus caritatis, et commensuratur ad invicem, non secundum aequiparantiam, sed
+            secundum proportionem. Unde actui caritatis debetur praemium substantiale, et actui
+            majoris caritatis majus praemium. Unde quilibet actus caritatis, inquantum est
+            informatus tali habitu, ordinatur ad praemium substantiale; non tamen ad augmentum
+            praemii, sicut nec ad augmentum caritatis, secundum quod caritas remanet primum
+            principium merendi, sed solum secundum quod augmentum caritatis pertinet ad perfectionem
+            praemii.</p>
+          <p xml:id="ta-l1d17q2-d1e3659">Ad tertium jam patet responsio per id quod dictum est, quia actus caritatis excedit
+            actum praecedentem caritatem in hoc quod habet virtutem merendi, et ita accedit plus ad
+            causalitatem caritatis quam actus praecedens caritatem.</p>
+          <p xml:id="ta-l1d17q2-d1e3663">Ad quartum dicendum, quod ad hoc quod aliqua perfectio introducatur, duo requiruntur.
+            Unum ex parte introducentis, ut sua operatio commensuretur secundum aequalitatem
+            perfectioni introducendae: non enim ex parva calefactione inducitur calor ignis, sed ex
+            tali calefactione, quae habet aequalem virtutem, ad minus ex suo principio, calori
+            ignis. Aliud ex parte recipientis, ut dispositio sua proportionetur eodem modo
+            perfectioni inducendae. Contingit autem quandoque, sicut in operibus animae, quod
+            aliquid disponitur et perfectionem recipit a seipso, ut in scientia et virtute patet.
+            Unde ad perfectam dispositionem sufficit quod anima operetur secundum virtutem
+            proportionatam illi perfectioni quae inducenda est: et quia tota capacitas animae vix
+            sufficit ad receptionem tantae perfectionis quanta est caritas, nisi Deus de sua
+            liberalitate suppleret; ideo ad hoc quod sit in anima ultima dispositio ad caritatem
+            requiritur actus qui sit secundum totam virtutem suam, et iste sufficit quantum in nobis
+            est; sed minor non sufficit ad talem dispositionem. Ulterius in illis perfectionibus in
+            quibus per actum animae non tantum est dispositio, sed etiam ipsa perfectio, exigitur
+            quod actus ipsius animae sit proportionatus et aequalis in virtute ipsi perfectioni
+            introducendae. Omnis autem habitus de ratione sua habet quod sit difficile mobilis;
+            idest, habet firmitatem quamdam. Unde quando una actio animae habet firmitatem, inducit
+            habitum; sicut patet quod una demonstratio propter sui certitudinem et firmitatem facit
+            habitum scientiae. Quando autem unus actus non habet firmitatem, non sufficit unus, sed
+            oportet quod sint plures. Unde ex uno argumento dialectico non generatur opinio, sed ex
+            pluribus congregatis. Ita etiam quia actus voluntatis humanae non habet firmitatem, cum
+            voluntas indeterminate se habeat ad multa, habitus virtutum politicarum, qui acquiruntur
+            per actus voluntatis, non possunt acquiri tantum per unum actum, sed oportet quod multi
+            conveniant. Habitus autem caritatis non habet firmitatem per actum animae, sed a causa
+            sua, quae Deus est; et ideo unus actus voluntatis potest sufficere ad hoc quod caritas
+            infundatur, et similiter ad hoc quod augeatur.</p>
+          <p xml:id="ta-l1d17q2-d1e3666">Ad quintum dicendum, quod quando est talis actus caritatis qualis requiritur ad
+            augmentum caritatis, tunc etiam augetur praemium substantiale, quod debetur caritati
+            majori consequenti actum, non caritati quae est radix actus. Non autem omnes sunt tales,
+            ut dictum est, in respons., ad 2 istius art.; et ideo ad multitudinem actuum non
+            sequitur de necessitate augmentum praemii substantialis.</p>
+        </div>
+        <div xml:id="ta-l1d17q2-Dd1e3671" type="articulus">
+          <head xml:id="ta-l1d17q2-Hd1e3673">Articulus 4</head>
+
+          <head xml:id="ta-l1d17q2-Hd1e3676" type="questionTitle">Utrum augmentum caritatis habeat aliquem terminum</head>
+
+          <p xml:id="ta-l1d17q2-d1e3679">Ad quartum sic proceditur. Videtur quod augmentum caritatis habeat aliquem terminum.
+            Perfectio enim non excedit capacitatem perfectibilis. Sed capacitas animae finita est.
+            Ergo non potest recipere nisi perfectionem finitam. Sed omnis motus qui est ad finitum,
+            finitus est. Ergo augmentum caritatis, quod est ad perfectionem animae, est finitum.</p>
+          <p xml:id="ta-l1d17q2-d1e3682">Praeterea, nihil ordinate movetur ad id quod consequi non potest, secundum philosophum;
+            sicut qui non potest esse in Aegypto, non movetur ordinate ad eundum illuc. Sed
+            infinitum distans nullus potest consequi, cum nullus motus possit esse secundum
+            distantiam infinitam. Ergo nullus motus est infinitus. Sed augmentum caritatis est
+            quidam motus. Ergo venit ad aliquem terminum.</p>
+          <p xml:id="ta-l1d17q2-d1e3685">Praeterea, sicut infra, in 3, distinct. 13, dicit Magister, gratia Christi nihil potest
+            etiam Deus majus facere. Sed si augmentum caritatis et gratiae esset in infinitum,
+            qualibet caritate posset esse aliqua major. Ergo non est infinitum. Et similiter potest
+            dici de beata virgine, de qua dicit Anselmus, quod ea puritate nituit qua major sub Deo
+            nequit intelligi. Et similiter etiam de beatis, quorum caritas augeri non potest. Per
+            quae omnia videtur quod augmentum caritatis venit ad terminum aliquem, qui augeri non
+            potest.</p>
+          <p xml:id="ta-l1d17q2-d1e3689">Contra, augmentum caritatis est, secundum majorem assimilationem ad Deum. Sed
+            quantumcumque aliquis accedat ad Dei similitudinem, semper in infinitum distat ab eo.
+            Ergo semper magis potest accedere; et ita videtur quod augmentum caritatis non sit
+            infinitum.</p>
+          <p xml:id="ta-l1d17q2-d1e3692">Praeterea, quando caritatis actus procedit a majori caritate, majoris est virtutis in
+            merendo. Sed actus caritatis imperfectae meretur augmentum caritatis. Ergo multo magis
+            merebitur quando caritas magis perficietur, et ita augmentum caritatis nunquam
+            stabit.</p>
+          <p xml:id="ta-l1d17q2-d1e3695">Respondeo dicendum, quod de termino augmenti caritatis dupliciter possumus loqui: aut
+            quantum ad id quod est, aut quantum ad id quod potest esse. Sicut etiam dicimus, quod
+            summum malum non est quo non possit esse aliquid pejus; tamen aliquid est summe malum
+            quo nihil est pejus. Similiter dico, quod augmentum caritatis pervenit ad aliquem
+            terminum ultra quem caritas non augetur in quolibet homine; non tamen pervenit ad
+            aliquem terminum ultra quem non possit augeri. Cujus ratio est ex parte ejus quod
+            movetur secundum hoc augmentum, et ex parte ejus ad quod movetur. Id autem ad quod
+            movetur anima in augmento caritatis, est similitudo divinae caritatis, cui assimilatur;
+            ad quam, cum infinita sit, in infinitum potest accedi plus et plus, et nunquam
+            adaequabitur perfecte. Ex parte autem ejus quod movetur est quod ipsa anima, quantum
+            plus recipit de bonitate divina et lumine gratiae ipsius, tanto capacior efficitur ad
+            recipiendum; et ideo quanto plus recipit, tanto plus potest recipere. Cujus ratio est,
+            quia potentiae materiales sunt terminatae et finitae secundum exigentiam materiae; et
+            ideo non possunt recipere nisi secundum proportionem materiae; potentiae autem
+            immateriales non limitantur ex materia, sed magis secundum quantitatem bonitatis divinae
+            in eis perceptae. Unde quanto plus additur de bonitate, tanto magis est de potentia ad
+            capacitatem; sicut patet in exemplo philosophi de sensu et intellectu. Dicit enim quod
+            sensus a fortibus sensibilibus corrumpuntur, et non augetur eorum capacitas, quia sunt
+            potentiae materiales; sed intellectus quanto magis intelligit difficilia, tanto etiam
+            plus potest; ita etiam quanto natura spiritualis plus recipit de caritate, plus potest
+            recipere. Quidam autem comparantes capacitatem substantiae spiritualis capacitati
+            substantiae materialis, dixerunt quod est terminus in augmento caritatis secundum
+            capacitatem naturae scilicet quod tantum recipit de caritate quod impleatur capacitas
+            prima quae erat ex natura, nec potest plus recipere. Et ponunt exemplum de aere, qui
+            habet terminum subtilitatis suae, quem non excedit. Unde potest in eo intendi lumen,
+            secundum quod magis et magis depuratur a vaporibus permixtis; sed quando pervenitur ad
+            puritatem naturae suae, non potest amplius purificari, nec illuminari ab eodem
+            illuminante. Sed non est simile de capacitate substantiae materialis et spiritus, ut
+            dictum est, in hac dist., qu. 1, art. 3.</p>
+          <p xml:id="ta-l1d17q2-d1e3698">Ad primum igitur dicendum, quod quamvis capacitas animae sit finita in actu, tamen
+            potest plus et plus in finitum elongari, secundum quod plus et plus recipit. Nunquam
+            tamen erit infinita, nec recipiet perfectionem infinitam; sicut etiam patet in additione
+            numeri, qui in infinitum est impossibilis; nunquam tamen est aliquis numerus infinitus
+            in actu; quia potentia additionis numerorum, ut dicit Commentator in 3 Physic., non est
+            una, sed semper ex nova additione efficitur alia potentia in numero secundum quod
+            efficitur nova species numeri. Unde quaelibet potentia potest exire in actum, non tamen
+            potest esse ut omnes exeant in actum, quia in quolibet actu additur etiam potentia; et
+            ita est etiam hic de capacitate animae.</p>
+          <p xml:id="ta-l1d17q2-d1e3701">Ad secundum dicendum, quod quodlibet augmentum caritatis terminatum est, et est ad
+            terminum quem consequi potest homo; sed tamen ille terminus, cum non sit actus purus,
+            est permixtus potentiae; unde adhuc potest esse aliud augmentum numero, et ita in
+            infinitum augmentum succedere augmento, et hoc modo intelligitur augmentum caritatis
+            interminatum.</p>
+          <p xml:id="ta-l1d17q2-d1e3704">Ad tertium dicendum, quod gratia Christi, quamvis secundum essentiam esset finita,
+            tamen secundum quid fuit infinita, inquantum scilicet erat dispositio congruitatis ad
+            unionem, et inquantum concurrebat in operationem Christi, qui erat virtutis infinitae ex
+            hoc quod erat persona divina, et aliis modis, ut dicetur in 3, dist. 17, qu. 1, art. 2,
+            qu. 3, et ex hoc habebat quod non poterat augeri. Ad illud quod objicitur de beata
+            virgine, dicendum est, quod differt puritatis augmentum, et caritatis. Augmentum enim
+            puritatis est secundum recessum a contrario; et quia in beata virgine fuit depuratio ab
+            omni peccato, ideo pervenit ad summum puritatis; sub Deo tamen, in quo non est aliqua
+            potentia deficiendi, quae est in qualibet creatura, quantum in se est. Caritatis autem
+            augmentum est per accessum ad divinam bonitatem; et ideo non habuit beata virgo summam
+            caritatem qua major non possit intelligi, quia etiam profecit in caritate et gratia. Ad
+            illud quod objicitur de beatis, dicendum, quod caritas non augetur in eis propter
+            conditionem status: quia non sunt in via, sed in termino viae. Unde datur eis praemium
+            secundum illud quod caritas in statu viae in eis crevit.</p>
+        </div>
+        <div xml:id="ta-l1d17q2-Dd1e3708" type="articulus">
+          <head xml:id="ta-l1d17q2-Hd1e3710">Articulus 5</head>
+
+          <head xml:id="ta-l1d17q2-Hd1e3713" type="questionTitle">Utrum caritas minuatur</head>
+
+          <p xml:id="ta-l1d17q2-d1e3716">Ad quintum sic proceditur. Videtur quod caritas minuatur. Contraria enim nata sunt
+            fieri circa idem. Sed augmentum et diminutio sunt contraria. Cum igitur caritas
+            augeatur, videtur quod minuatur.</p>
+          <p xml:id="ta-l1d17q2-d1e3719">Item, Augustinus dicit: <quote xml:id="ta-l1d17q2-Qd1e3721">ubi magna cupiditas, ibi parva caritas</quote>; et
+            alibi: <quote xml:id="ta-l1d17q2-Qd1e3724">minus te amat qui aliquid tecum amat</quote>. Sed contingit cupiditatem
+            augeri. Ergo etiam caritatem contingit minui.</p>
+          <p xml:id="ta-l1d17q2-d1e3728">Praeterea, veniale peccatum est malum culpae. Sed omne malum aliquod bonum adimit sibi
+            oppositum. Cum igitur malo culpae opponatur bonum gratiae vel caritas, adimet veniale
+            peccatum bonum caritatis. Sed non adimit totum, quia sic excluderet a regno; sola enim
+            caritas dividit inter filios regni et perditionis, secundum Augustinum, et sic esset
+            mortale. Ergo adimit aliquid ejus; ergo diminuit ipsam.</p>
+          <p xml:id="ta-l1d17q2-d1e3732">Item, secundum quod aliquis se disponit ad caritatem et gratiam, secundum hoc sibi Deus
+            infundit, quia, secundum Augustinum, lumen divinae gratiae omnibus praesens est. Sed
+            quod aliqui non suscipiant eam, est quia avertunt se ab illa; sicut qui claudit oculos
+            ad lumen solis. Sed contingit quod aliquis minus disponit se ad caritatem quam prius
+            fecerat. Ergo minus participabit de lumine gratiae et de caritate.</p>
+          <p xml:id="ta-l1d17q2-d1e3735">Contra, quaelibet caritas creata est finita. Sed omne finitum, secundum philosophum,
+            consumitur per ablationem, ablato quodam semper et semper. Si igitur veniale diminuit
+            aliquid de caritate, sequens etiam diminuit, et sic multiplicatis venialibus tota
+            caritas tolletur. Sed caritas non tollitur nisi per mortale peccatum. Ergo multa
+            venialia fient unum mortale, quod nullus ponit.</p>
+          <p xml:id="ta-l1d17q2-d1e3738">Si dicas, quod in ista ablatione est sicut in divisione continui, quae est in
+            infinitum, si fiat secundum eamdem proportionem, et non secundum eamdem quantitatem,
+            contra: quando est divisio secundum eamdem proportionem, illud quod post aufertur,
+            semper est minus eo quod prius auferebatur; sicut si primo auferatur tertia pars lineae,
+            et postea tertia illius residui, et sic deinceps; semper acceptum post, erit minus
+            secundum quantitatem. Sed quod sequens veniale non habeat minorem virtutem quam primum,
+            potest contingere. Ergo adimet de caritate quantum et primum; et ita consumetur per
+            ablationem.</p>
+          <p xml:id="ta-l1d17q2-d1e3741">Respondeo dicendum, quod caritas non potest diminui essentialiter, nisi forte per
+            successionem, ita scilicet quod destruatur caritas quae inest, per mortale peccatum, et
+            postmodum minor infundatur per minorem praeparationem. Et causa hujus est, quia causa
+            diminutionis caritatis non potest sumi ex parte Dei; cum nullus defectus reducatur in
+            ipsum qui est actus completus, sicut in causam. Oporteret ergo, si caritas diminuatur,
+            quod diminutionis causa ex parte nostra suscipiatur. Defectus autem contingens ex parte
+            nostra, vel est ex cessatione actus vel ex inordinatione. Ex cessatione actus non potest
+            remitti caritas, sicut habitus virtutum acquisitarum, secundum id quod in se est.
+            Firmitas enim caritatis ipsius non est ex actu nostro, sed ex principio influente, ut
+            dictum est, in hac quaest., art. 2. Unde cessantibus actibus, manet nihilominus idem
+            robur caritatis. Sed verum est quod per actus frequentes disponuntur omnes vires animae,
+            et membra corporis rediguntur in obsequium caritatis, in quo consistit fervor, ut dictum
+            est; et ideo ex otio tepescit caritatis fervor. Habitus autem acquisitarum virtutum,
+            robur et firmitatem habent ex nostris operibus: unde cessantibus operibus, remittitur
+            robur virtutis etiam in se. Inordinatio autem actus vel est circa finem, vel circa ea
+            quae sunt ad finem. Si circa finem, ita scilicet quod finis tollatur; sic caritas,
+            secundum quam adhaeretur fini, tollitur: et hoc fit per mortale peccatum. Si autem circa
+            ea quae sunt ad finem, ita scilicet quod finis remaneat, et inordinate aliquis immoretur
+            circa ea quae sunt ad finem; talis inordinatio, quae est peccati venialis, non attingit
+            caritatem, quae est secundum adhaesionem finis, et ideo nihil diminuit de ipsa. Sed
+            verum est quod sicut ea quae sunt ad finem disponunt ad finem, ita inordinatio in eis
+            est dispositio ad inordinationem quae est circa finem, secundum quod dicimus, quod
+            veniale peccatum est dispositio ad mortale. Unde per hujusmodi venialia disponitur quis
+            ad amissionem caritatis. Et inde est quod caritas dicitur diminui quantum ad
+            radicationem et fervorem, et non quantum ad essentiam. Quantum ad radicationem quidem,
+            secundum quod fit dispositio ad contrarium, unde minuitur firma inhaesio caritatis;
+            secundum fervorem vero, prout impeditur obedientia inferiorum virium ad superiores, ex
+            quo dictus fervor causabatur.</p>
+          <p xml:id="ta-l1d17q2-d1e3744">Ad primum igitur dicendum, quod contraria nata sunt fieri circa idem, nisi alterum
+            naturaliter insit. Et dicitur naturaliter inesse, quando consequitur causas ejus. Unde
+            dico, quod augmentabilitas, quia ex parte suscipientis et influentis potest esse aliqua
+            causa augmenti, et non diminutionis, ut dictum est, in corp. art.</p>
+          <p xml:id="ta-l1d17q2-d1e3747">Ad secundum dicendum, quod commensuratio cupiditatis et caritatis per oppositum, potest
+            intelligi dupliciter: vel quantum ad ipsum fieri caritatis, vel quantum ad esse. Si
+            quantum ad fieri, tunc verum est quod quanto per actus inordinatos magis dominatur in eo
+            cupiditas, minus disponitur ad caritatem vel augmentum ejus: quia ad habendum caritatem
+            vel ad proficiendum in ea disponunt actus nostri. Si quantum ad esse, tunc, cum actus
+            nostri non sint causa esse ipsius caritatis, ex inordinatione actuum per cupiditatem
+            nihil derogatur caritati quantum ad suum esse, sed solum quantum ad fervorem, secundum
+            quod dehabilitantur inferiores partes a caritatis obedientia.</p>
+          <p xml:id="ta-l1d17q2-d1e3751">Ad tertium dicendum, quod veniale non potest adimere aliquid de caritate, quia non
+            attingit ad illam partem animae ubi est caritas. Sicut enim superior pars intellectus
+            est in consideratione principiorum per se notorum, per quae alia cognoscuntur; unde
+            quantumcumque dubitatio oriatur circa conclusiones, de certitudine principiorum nihil
+            minuitur; ita etiam superior pars affectus est in adhaesione finis, propter quem omnia
+            diliguntur. Unde quaecumque inordinatio contingat circa illa quae sunt ad finem, ipsa
+            non minuitur inhaesio finis, quae est per caritatem, nisi ponatur finis contrarius. Unde
+            veniale, quia non ponit finem indebitum, non attingit ad illud supremum affectus ubi est
+            caritas. Sed sicut veniale non est peccatum simpliciter, sed solum inquantum est
+            dispositio ad mortale; ita etiam privat bonum, quod se habet ut dispositio ad caritatem,
+            idest fervorem, qui contingit in habilitate actus ex diligenti obedientia vel
+            subjectione inferiorum virium ad superiorem partem affectus, in qua est caritas.</p>
+          <p xml:id="ta-l1d17q2-d1e3754">Ad quartum dicendum, quod dispositio ad caritatem est secundum actus inferiorum virium,
+            prout operantur circa ea quae sunt ad finem, sicut per ea quae sunt ad finem, devenitur
+            in finem. Habito autem fine, non indigetur his quae sunt ad finem. Unde quaecumque
+            inordinatio fit circa ea, non redundat in deordinationem finis, nisi per modum
+            dispositionis; sicut etiam cognitio principiorum primorum determinatur in nobis per
+            sensus, qui si etiam destruantur, non minuitur certitudo principiorum, quae non est
+            acquisita, sed naturaliter insita; et similiter est de caritate infusa.</p>
+        </div>
+        <div xml:id="ta-l1d17q2-Dd1e3758">
+          <head xml:id="ta-l1d17q2-Hd1e3760">Expositio textus</head>
+          <p xml:id="ta-l1d17q2-d1e3763"><quote xml:id="ta-l1d17q2-Qd1e3764">Sicut Deus dicitur magnus et excelsus in nobis</quote>, inquantum scilicet
+            magnos nos et altos in se facit: quod non potest esse, nisi secundum ampliorem
+            perceptionem bonitatis ipsius; et ideo oportet redire in hoc quod aliquod creatum a Deo
+            in nobis ponatur. <quote xml:id="ta-l1d17q2-Qd1e3767">Sunt tamen multi qui eum non habent</quote>. Illi enim eum
+            tantum habere dicuntur quorum est ut hereditas, qui ipso fruuntur vel in spe vel in re.
+              <quote xml:id="ta-l1d17q2-Qd1e3770">Sine spiritu sancto constat nos Christum non diligere, et ejus mandata servare
+              non posse</quote>. Hoc potest dupliciter intelligi: vel ita quod sine spiritu sancto a
+            nobis habito per caritatem, per caritatis donum non possumus praecepta Dei implere, vel
+            Christum diligere; et hoc verum est meritorie. Vel sine spiritu sancto, quocumque modo
+            operante in rebus; et sic verum est quod nec homo nec aliqua creatura sine spiritu
+            sancto operationem aliquam habere potest. Sed hoc non est de intentione Augustini.
+              <quote xml:id="ta-l1d17q2-Qd1e3773">Spiritus sanctus, qui est in te, duplo sit in me</quote>. Videtur hoc non esse
+            ad propositum: quia, ut notula exponit, hoc intelligitur, quia petiit duplex donum,
+            scilicet prophetiae et miraculorum, quae in Elia erant, et quod non petierit magis
+            spiritum sanctum habere. Sed dicendum, quod, etiam ista expositione stante, probatur
+            intentio Augustini: quia si omnes acciperent eum aequaliter, si ipse spiritum sanctum
+            habebat, non eum in se fieri petivisset; et si non habebat vel se habere nesciebat,
+            simpliciter spiritum sanctum petivisset. Unde per hoc quod spiritum sanctum habere,
+            sicut in Elia erat, petiit, ostendit Eliam multis excellentiis spiritum sanctum habere.
+              <quote xml:id="ta-l1d17q2-Qd1e3776">Propria mensura compleatur</quote>. Dicitur esse propria mensura uniuscujusque
+            et ex parte ipsius Dei, quantum ipse unicuique praedestinavit, et ex parte ipsius qui
+            recipit, considerata simul capacitate naturalium, et conatu ejus. <quote xml:id="ta-l1d17q2-Qd1e3779">Supra dictum
+              est, quod spiritus sanctus caritas est patris et filii</quote>. Nota, quod
+            auctoritates quae contra Magistrum inducuntur, tria dicunt. Quaedam enim primo inductae
+            dicunt aliam esse caritatem qua Deus diligit et qua nos diligimus: quod Magister
+            exponit, aliam esse ratione, vel secundum modum intelligendi, et non secundum rem. Aliae
+            vero secundo introductae dicunt dilectionem a spiritu sancto esse; et ita, cum spiritus
+            sanctus non sit a se, caritas nobis data non erit spiritus sanctus. Sed ipse respondet,
+            quod quamvis spiritus sanctus non sit a se, tamen datur a se; et secundum hunc modum
+            caritas dicitur a spiritu sancto. Sed haec responsio est insufficiens: quia non tantum
+            dicitur, caritas datur a spiritu sancto; sed etiam, est ab eo: quod de spiritu sancto
+            concedi non potest. Aliae tertio introductae dicunt, caritatem esse motum vel affectum
+            mentis: quod spiritui sancto non convenit. Sed ad hoc respondet, quod ista praedicatio
+            est per causam, eo quod caritas, motus vel affectionis mentis causa est, qui est
+            diligere. Et haec expositio vera est, quamvis non secundum intentionem Magistri. Caritas
+            enim est causa affectionis sicut habitus eliciens actum, et non solum sicut movens
+            animam ad actum dilectionis, ut ipse intendit. Unde consequenter movet quaestionem, cum
+            spiritus sanctus, qui caritas ab eo dicitur, moveat animam ad omnes actus virtutum,
+            quare specialiter dicitur movere ad actum dilectionis. Et responsio sua patet in
+            littera; sed ejus quod in solutione supponit, causam non assignat, scilicet quod
+            spiritus sanctus causet hunc actum qui est diligere, nullo habitu mediante: unde quo ad
+            hoc remanet insoluta. <quote xml:id="ta-l1d17q2-Qd1e3783">Non enim singuli quique habent omnia; sed hi illa, alii
+              alia</quote>. Sciendum, quod sanctis non solum donum increatum commune est, sed etiam
+            dona ad gratiam gratum facientem pertinentia, quae simul infunduntur, et sine quibus
+            spiritus sanctus non habetur; sed dona gratis data dantur magis ad manifestationem
+            spiritus recepti, quam ad conjungendum spiritui, et hoc propter utilitatem aliorum, 1
+            Corinth. 12, et dividuntur diversis prout competit utilitati Ecclesiae.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

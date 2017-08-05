@@ -1,0 +1,814 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum III, Distinctio 18, Quaestio 1</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.09-dev-master">
+          <title>Librum III, Distinctio 18, Quaestio 1</title>
+          <date when="2016-03-12">March 12, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-12">March 12, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness>1856 editum</witness>
+          <witness xml:id="H" n="harv245" xml:base="http://iiif.lib.harvard.edu/manifests/drs:51994085/canvas/">Cambridge, Mass.,
+            Harvard University, Houghton Library, MS Lat 245</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="2015.09">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+
+
+
+
+      <div xml:id="starts-on">
+        
+        <cb ed="#H" n="65ra"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ta-l3d18q1">
+        <head xml:id="ta-l3d18q1-Hd1e97">Librum III, Distinctio 18, Quaestio 1</head>
+        <div xml:id="ta-l3d18q1-Dd1e100">
+          <head xml:id="ta-l3d18q1-Hd1e102">Prooemium</head>
+          <p xml:id="ta-l3d18q1-d1e105">Postquam determinavit <name ref="#Lombard">Magister</name> de voluntate Christi, quae
+            est principium merendi, hic determinat de merito ipsius. Dividitur autem haec pars in
+            duas: primo determinat de merito ipsius Christi secundum quod ordinatur ad consecutionem
+            boni; secundo secundum quod ordinatur ad remotionem mali, dist. 19, ibi: <quote xml:id="ta-l3d18q1-Qd1e110">nunc
+              igitur quaeramus, quomodo per mortem ipsius a Diabolo et a peccato et a poena redempti
+              sumus</quote>. Prima adhuc dividitur in duas: primo determinat de merito Christi,
+            secundum quod sibi aliquid meruit; secundo de merito ipsius pro ut nobis meruit, ibi:
+              <quote xml:id="ta-l3d18q1-Qd1e113">ad quid ergo pati voluit?</quote> Prima in duas: primo ostendit quid sibi
+            meruit; secundo inquirit, utrum hoc sine merito habere potuisset, ibi: <quote xml:id="ta-l3d18q1-Qd1e116">si vero
+              quaeritur, utrum Christus</quote> et cetera. Prima in duas: primo ostendit quid sibi
+            meruit in seipso; secundo quid meruit in aliis, ibi: <quote xml:id="ta-l3d18q1-Qd1e119">nec tantum gloriam
+              impassibilitatis et immortalitatis meruit, sed etiam meruit donari sibi nomen quod est
+              super omne nomen</quote>. Prima in duas: primo ostendit quomodo Christus sibi meruit
+            glorificationem corporis, et impassibilitatem animae et corporis in instanti suae
+            conceptionis; secundo ostendit quomodo hoc meruit per passionem, ibi: <quote xml:id="ta-l3d18q1-Qd1e123">nec solum
+              hoc meruit Christus</quote>. Circa primum duo facit: primo determinat veritatem;
+            secundo movet quamdam dubitationem, ibi: <quote xml:id="ta-l3d18q1-Qd1e126">utrum autem anima sit facta
+              impassibilis, quando caro facta est immortalis (...) de auctoritate certum nobis non
+              est. Ad quid igitur voluit pati et mori?</quote> Hic ostendit quid nobis meruit per
+            passionem; circa quod duo facit: primo enumerat utilitates quae nobis ex passione
+            Christi proveniunt; secundo prosequitur unam, quae pertinet ad consecutionem boni, ibi:
+              <quote xml:id="ta-l3d18q1-Qd1e129">decreverat Deus in mysterio</quote>. Hic quaeruntur sex: 1 utrum in Christo sit
+            aliqua operatio praeter divinam; 2 utrum per illam potuit mereri; 3 utrum ab instanti
+            conceptionis meruit; 4 quid sibi meruit; 5 utrum per passionem mereri potuit; 6 utrum
+            nobis meruit apertionem januae.</p>
+        </div>
+        <div xml:id="ta-l3d18q1-Dd1e134" type="articulus">
+          <head xml:id="ta-l3d18q1-Hd1e136">Articulus 1</head>
+          <head xml:id="ta-l3d18q1-Hd1e139" type="questionTitle">Utrum in Christo sit aliqua operatio praeter divinam</head>
+          <p xml:id="ta-l3d18q1-d1e142">Ad primum sic proceditur. Videtur quod in Christo sit tantum una actio. Dionysius enim
+            actionem Christi nominat theandricam, idest deivirilem. Hoc autem non diversas actiones,
+            sed unam significat. Ergo in Christo est tantum una actio divinitatis et
+            humanitatis.</p>
+          <p xml:id="ta-l3d18q1-d1e145">Praeterea, actiones, ut dicit philosophus, suppositorum singularium sunt. Sed in
+            Christo est tantum unum suppositum. Ergo tantum una actio.</p>
+          <p xml:id="ta-l3d18q1-d1e148">Praeterea, cujus est esse, ejus est agere. Sed in Christo propter unitatem hypostasis
+            est tantum unum esse. Ergo tantum una actio.</p>
+          <p xml:id="ta-l3d18q1-d1e152">Praeterea, instrumenti et principalis agentis est tantum una actio. Sed, sicut dicit
+            Damascenus, caro est instrumentum divinitatis. Ergo est una actio Christi secundum
+            divinitatem et humanitatem.</p>
+          <p xml:id="ta-l3d18q1-d1e155">Praeterea, ubi est idem activum, est eadem actio: quia actiones diversificantur penes
+            terminos. Sed in Christo est idem opus operatum divinitatis et humanitatis: sicut
+            mundatio leprosi, quem divinitas tactu corporali mundavit, ut dicitur Matth. 8. Ergo in
+            ipso est tantum una actio.</p>
+          <p xml:id="ta-l3d18q1-d1e158">Sed contra, sicut se habet unitas actionis ad unitatem naturae, ita pluralitas ad
+            pluralitatem. Sed in divinis personis propter unitatem naturae est una actio. Ergo et in
+            persona Christi propter diversitatem naturarum est diversa actio.</p>
+          <p xml:id="ta-l3d18q1-d1e161">Praeterea, magis distant divina natura et humana in Christo, quam diversae potentiae
+            animae in Christo. Sed diversarum potentiarum in Christo sunt diversae actiones. Ergo
+            multo fortius duarum naturarum sunt diversae actiones.</p>
+          <p xml:id="ta-l3d18q1-d1e164">Praeterea, actio divinae naturae est ipsa divina essentia, et est aeterna. Actio autem
+            humanae naturae in ipso est accidens, et aliquid tempore mensuratum. Ergo sunt duae
+            actiones in Christo.</p>
+          <p xml:id="ta-l3d18q1-d1e167">Respondeo dicendum, quod quidam negaverunt in Christo duas esse actiones; et ad hoc
+            ponendum diversi diversis rationibus moti sunt. Quidam enim Eutychiani dicebant in
+            Christo unam tantum naturam esse, compositam ex divina et humana; et ideo sequebatur
+            quod etiam Christus haberet unam tantum actionem compositam. Sed ex hoc sequitur quod
+            sua actio non fuerit neque divina neque humana, neque nobis neque patri conformis; et
+            ita frustratur opus redemptionis, ad quod exigitur divina actio, et humana. Unde hoc est
+            haereticum, sicut et primum, ut dicitur dist., 5, qu. 1, art. 1. Alii vero negaverunt
+            duas actiones in Christo, dicentes in comparatione ad divinam, humanam operationem non
+            esse dicendam actionem, sed potius passionem: quod refellit Damascenus. Quia si
+            propterea humana operatio Christi non est dicenda actio, quia divina est actio, eadem
+            ratione quia natura divina est bona, natura humana non esset bona: non enim oportet, si
+            divina natura excedit humanam in bonitate, quod propter hoc humana sit mala aut non
+            bona. Alii vero viderunt quod actio dependet a natura, quae est principium actionis, et
+            a persona quae agit; ideo voluerunt in Christo non esse dicendum unam actionem, ne
+            unitatem naturae ponere videantur; similiter nec esse plures, ne videantur ponere
+            personarum pluralitatem. Sed ex hoc sequitur, ut dicit Damascenus, quod Christus non sit
+            neque unius neque duarum naturarum, quod est absurdum. Et dicendum propter hoc, quod
+            simpliciter in Christo oportet concedere duas actiones: quia ad diversitatem causarum
+            sequitur diversitas in effectibus. Causa autem actionis est species, ut dicitur in 3
+            Physic.: quia unumquodque agit ratione alicujus formae quam habet; et ideo ubi sunt
+            diversae formae, sunt etiam diversae actiones; sicut ignis desiccat et calefacit per
+            caliditatem et siccitatem; et homo audit et videt per visum et auditum. Et similiter
+            Christus ratione diversarum naturarum habet diversas actiones.</p>
+          <p xml:id="ta-l3d18q1-d1e171">Ad primum ergo dicendum, quod actionem Christi dicit Dionysius deivirilem, non quia sit
+            simpliciter una actio deitatis et humanitatis in Christo; sed quia actiones duarum
+            naturarum quantum ad tria uniuntur. Primo quantum ad ipsum suppositum agens actionem
+            divinam et humanam, quod est unum. Secundo quantum ad unum effectum, qui dicitur opus
+            operatum, vel <quote xml:id="ta-l3d18q1-Qd1e173">apotelesma</quote> secundum Damascenum, sicut mundatio leprosi.
+            Tertio quantum ad hoc quod humana actio ipsius Christi participabat aliquid de
+            perfectione divinae naturae, sicut intellectus ejus aliis eminentius intelligebat ex
+            virtute divini intellectus sibi in persona conjuncti; quamvis divina actio in nullo
+            infirmaretur ex consortio humanae.</p>
+          <p xml:id="ta-l3d18q1-d1e177">Ad secundum dicendum, quod quamvis agere sit suppositi, tamen forma sive natura est
+            principium vel causa agendi in supposito, sicut et aliarum proprietatum in supposito
+            existentium; unde sicut idem suppositum est subjectum diversarum proprietatum propter
+            diversa ejus principia causantia illas proprietates; ita idem suppositum habet diversas
+            actiones propter diversas formas sive naturas.</p>
+          <p xml:id="ta-l3d18q1-d1e180">Ad tertium dicendum, quod unitas rei consequitur esse suum: unde eodem modo praedicatur
+            de re ens, et unum, quod convertitur cum ente. Non autem ex actione sua habet res
+            unitatem: et ideo non potest esse quod sit suppositum unum, et esse ejus non sit unum;
+            potest autem esse quod sit suppositum unum, et actio ejus non sit una.</p>
+          <p xml:id="ta-l3d18q1-d1e183">Ad quartum dicendum, quod non potest esse eadem actio numero per essentiam, principalis
+            agentis et instrumenti, quia idem accidens non est in diversis subjectis; sed dicitur
+            una secundum quid, inquantum scilicet instrumentum non agit nisi motum a principali
+            agente, et agit in virtute principalis agentis: et hoc modo in ipsa actione humanitatis
+            Christi est aliqua virtus, inquantum ipsa humanitas est instrumentum deitatis.</p>
+          <p xml:id="ta-l3d18q1-d1e186">Ad quintum dicendum, quod actionis unitas non solum dependet ex termino, sed etiam ex
+            multis aliis causis; et ideo non oportet, si sit idem activum, quod sit eadem actio.
+            Contingit autem quod idem activum ex diversis actionibus causatur quadrupliciter. Uno
+            modo quando unus agens non est sufficiens ad complendum effectum, sed multi simul; sicut
+            multi simul trahunt navem, quam nullus per se trahere posset; et tunc omnes illi sunt
+            quasi unus agens non simpliciter, sed unitate aggregationis; et similiter actio eorum
+            non est una simpliciter, sed quasi una congregata ex multis. Alio modo quando unus agens
+            potest perficere effectum, sed non simul una operatione, sed multis operationibus
+            successivis; sicut est in generatione habituum acquisitorum; et tunc ultima complens
+            effectum agit in virtute omnium praecedentium disponentium ad illum effectum. Et his
+            duobus modis non fuerunt in Christo plures actiones ad unum effectum. Tertio modo quando
+            effectus non est unus simpliciter, sed unus subjecto, sicut vulnus adustum, et ideo
+            actiones causantes sunt diversae simpliciter, conveniunt tamen in supposito, scilicet
+            incisio et adustio; et a diversis formis per essentiam causantur, scilicet ab acumine
+            ferri, et a caliditate. Quarto modo, quando duae actiones sunt diversorum agentium
+            ordinatorum, quorum unum movet aliud, et unum est instrumentum alterius. Et hi duo
+            ultimi modi sunt in Christo, secundum quod diversae ejus actiones ad idem opus operatum
+            terminabantur.</p>
+        </div>
+        <div xml:id="ta-l3d18q1-Dd1e190" type="articulus">
+          <head xml:id="ta-l3d18q1-Hd1e192">Articulus 2</head>
+          <head xml:id="ta-l3d18q1-Hd1e195" type="questionTitle">Utrum Christus potuerit mereri</head>
+          <p xml:id="ta-l3d18q1-d1e198">Ad secundum sic proceditur. Videtur quod Christus non meruerit. Christus enim semper
+            fuit comprehensor. Sed comprehensoris qui est in termino, non est mereri: quia meritum
+            est via ad terminum. Ergo Christus non meruit.</p>
+          <p xml:id="ta-l3d18q1-d1e201">Praeterea, non potest esse idem meritum et praemium, sicut nec causa et causatum. Sed
+            actus caritatis perfectae est praemium, quia est ipsa fruitio. Ergo cum in Christo
+            fuerit caritas consummata, per ipsam mereri non potuit; et ita nullo modo merebatur, cum
+            omnis meriti principium sit caritas.</p>
+          <p xml:id="ta-l3d18q1-d1e204">Praeterea, anima Christi a principio suae conceptionis fuit beata, sicut modo est. Sed
+            modo non meretur. Ergo nec unquam mereri potuit.</p>
+          <p xml:id="ta-l3d18q1-d1e208">Praeterea, quicumque meretur, merendo proficit quantum ad illud quod est merendi
+            principium: quia caritas per meritum augetur. Sed Christi caritas augeri non potuit, nec
+            ipse in spiritualibus bonis proficere. Ergo ipse non merebatur.</p>
+          <p xml:id="ta-l3d18q1-d1e211">Praeterea, naturalibus non meremur, propter hoc quod sunt determinata ad unum. Sed
+            liberum arbitrium in Christo erat determinatum ad bonum. Ergo ipse per liberum arbitrium
+            mereri non potuit; et ita nullo modo, cum omne meritum sit ex libero arbitrio.</p>
+          <p xml:id="ta-l3d18q1-d1e214">Praeterea, nullus meretur id quod suum est: et propter hoc apud homines filii non
+            merentur a patribus, sed servi, quia ea quae patris sunt, hereditario jure competunt
+            filio. Sed omnia quae patris sunt, Christi sunt, ut dicitur Matth. 12, et Joan. 16. Ergo
+            ipse apud patrem non merebatur.</p>
+          <p xml:id="ta-l3d18q1-d1e217">Praeterea, nullus meretur a seipso. Sed quicumque meretur, meretur aliquid a filio Dei.
+            Cum ergo Christus sit filius Dei, ipse nullo modo mereri poterat.</p>
+          <p xml:id="ta-l3d18q1-d1e220">Sed contra, super illud Psal. 15: <quote xml:id="ta-l3d18q1-Qd1e222">conserva me domine, quoniam speravi in
+              te</quote>, Glossa: <quote xml:id="ta-l3d18q1-Qd1e225">ecce meritum quo servari debet</quote>; et loquitur de
+            Christo. Ergo Christus aliquid meruit.</p>
+          <p xml:id="ta-l3d18q1-d1e229">Praeterea, omnis viator habens caritatem meretur. Sed Christus fuit hujusmodi.
+            Ergo.</p>
+          <p xml:id="ta-l3d18q1-d1e233">Praeterea, ubicumque est difficultas in operatione virtutum, ibi est meritum. Sed
+            Christus habuit difficultatem in operibus virtuosis, non quidem ex parte animae, sed ex
+            parte corporis, quod affligebatur. Ergo ipse merebatur.</p>
+          <p xml:id="ta-l3d18q1-d1e236">Respondeo dicendum, quod in justitia duae personae requiruntur, scilicet faciens
+            justitiam, et patiens justitiam. Facientis autem justitiam, reddere unicuique quod suum
+            est, actio est propria; patientis autem justitiam actio propria est facere sibi debitum
+            quod est ei per justitiam reddendum: et hoc proprie mereri est; unde et id quod secundum
+            justitiam redditur, merces dicitur. Sed quia justitia reddit unicuique quod ei debetur
+            et in bonis et in malis; bona autem simpliciter sunt ea quae ad vitam aeternam
+            pertinent, et mala simpliciter ea quae ad miseriam aeternam pertinent; inde est quod
+            secundum theologos meritum proprie dicitur respectu horum; quamvis magis proprie
+            respectu bonorum dicatur meritum, demeritum vero respectu malorum. Ad hoc igitur quod
+            aliquis mereatur, tria necessaria sunt: scilicet agens qui meretur, actio per quam
+            meretur, et merces quam meretur. Et ideo ad meritum tria requiruntur. Primum est
+            secundum comparationem merentis ad mercedem, ut scilicet ille qui meretur, sit in statu
+            acquirendi mercedem: et propter hoc illi qui sunt omnino in termino, nihil merentur,
+            quia nihil acquirere possunt. Secundum est ex comparatione agentis ad actionem, ut
+            scilicet sit dominus suae actionis: alias per actionem suam non dignificatur ad aliquid
+            habendum, nec laudatur; et ideo ea quae agunt per necessitatem naturae, vel etiam per
+            violentiam, non merentur. Tertium est secundum comparationem actionis ad mercedem, ut
+            scilicet aequiparetur mercedi: non quidem secundum aequalitatem quantitatis, quia hoc
+            requiritur in justitia commutativa, quae consistit in emptionibus et venditionibus; sed
+            secundum aequalitatem proportionis, quae requiritur in justitia distributiva, secundum
+            quam Deus aeterna praemia partitur. Actio autem proportionata ad vitam aeternam est
+            actio ex caritate facta: et ideo per eam ex condigno meretur quis ea quae ad vitam
+            aeternam pertinent: opera autem bona quae non sunt ex caritate facta, deficiunt ab ista
+            proportione; et ideo per ea ex condigno non meretur quis vitam aeternam, sed improprie
+            dicitur aliquis mereri, secundum quod habent aliquam similitudinem cum operatione
+            informata a caritate. Et si quidem sit similitudo illa in substantia actus et in
+            intentione, ut cum aliquis existens in mortali peccato dat eleemosynam propter Deum;
+            dicitur meritum congrui: si vero sit, similitudo in substantia actus, et non in
+            intentione; sic dicitur meritum interpretatum, sicut cum quis dat pauperi eleemosynam
+            propter inanem gloriam. Et haec tria in Christo reperiuntur: ipse enim quamvis quantum
+            ad aliquid in termino perfectionis fuerit, scilicet quantum ad operationes animae,
+            quibus erat beatus et comprehensor; tamen quantum ad aliquid defectum patiebatur eorum
+            quae ad gloriam pertinent, inquantum scilicet erat passibilis anima et corpore, et
+            inquantum erat corpore mortalis: et ideo secundum hoc erat viator in statu acquirendi.
+            Similiter et omnis actus ejus informatus erat caritate: et iterum actus sui dominus erat
+            per libertatem voluntatis; et ideo omni actu suo meruit.</p>
+          <p xml:id="ta-l3d18q1-d1e239">Ad primum ergo dicendum, quod quamvis esset comprehensor quantum ad aliquid, erat etiam
+            viator quantum ad aliquid; et sic mereri potuit.</p>
+          <p xml:id="ta-l3d18q1-d1e242">Ad secundum dicendum, quod idem non potest esse meritum et praemium respectu ejusdem et
+            secundum idem; unde ipse motus caritatis hominis Christi, in quo consistit praemium ejus
+            quantum ad beatitudinem animae, potest esse meritum respectu beatitudinis corporis: quod
+            in aliis beatis non contingit, quia non sunt in statu acquirendi secundum aliquid sui:
+            et ideo nec sibi nec aliis merentur: quia quod impetrant modo nobis, contingit ex hoc
+            quod prius dum viverent, meruerunt ut hoc impetrarent.</p>
+          <p xml:id="ta-l3d18q1-d1e245">Ad tertium dicendum, quod Christus est modo tantum comprehensor; tunc autem erat et
+            viator et comprehensor: et ideo tunc mereri potuit, nunc autem non.</p>
+          <p xml:id="ta-l3d18q1-d1e248">Ad quartum dicendum, quod ille qui meretur, non oportet quod proficiat quantum ad
+            rationem merendi: hoc enim accidit sibi ex hoc quod radix merendi, scilicet caritas, non
+            est in ipsius merito: sed oportet quod omnis qui meretur, proficiat quantum ad mercedem
+            quam meretur, ut scilicet eam sibi debitam faciat vel simpliciter, vel quantum ad
+            aliquem modum quo sibi prius debita non erat.</p>
+          <p xml:id="ta-l3d18q1-d1e252">Ad quintum dicendum, quod liberum arbitrium Christi non erat determinatum ad unum
+            secundum numerum, sed ad unum secundum genus, scilicet ad bonum, quia in malum non
+            potest; sed tamen hoc potest facere et non facere; et hoc non excludit libertatem
+            arbitrii, quia posse peccare non est libertas arbitrii nec pars libertatis, ut dicit
+            Anselmus. Et haec quidem determinatio ex perfectione liberi arbitrii contingit secundum
+            quod per habitum gratiae et gloriae terminatur in eo ad quod est naturaliter ordinatum,
+            scilicet in bono: quia liberum arbitrium, quamvis in nobis se habeat ad bonum et ad
+            malum, non tamen est propter malum, sed propter bonum. Vel dicendum, quod si etiam esset
+            determinatum ad unum numero, sicut ad diligendum Deum (quod non facere non potest),
+            tamen ex hoc non amittit libertatem, aut rationem laudis sive meriti: quia in illud non
+            coacte, sed sponte tendit; et ita est actus sui dominus.</p>
+          <p xml:id="ta-l3d18q1-d1e255">Ad sextum dicendum, quod Christus non meretur secundum divinitatem, secundum quam habet
+            quod omnia sunt sua; sed meretur secundum humanitatem, ex qua non habet quod omnia sunt
+            sua.</p>
+          <p xml:id="ta-l3d18q1-d1e258">Et per hoc patet solutio ad septimum: quia a filio Dei meremur ratione divinitatis
+            suae, ex qua parte ipse non merebatur.</p>
+        </div>
+        <div xml:id="ta-l3d18q1-Dd1e262" type="articulus">
+          <head xml:id="ta-l3d18q1-Hd1e264">Articulus 3</head>
+          <head xml:id="ta-l3d18q1-Hd1e267" type="questionTitle">Utrum Christus ab instanti suae conceptionis potuerit
+            mereri</head>
+          <p xml:id="ta-l3d18q1-d1e270">Ad tertium sic proceditur. Videtur quod Christus non potuerit mereri in instanti suae
+            conceptionis. Nullus enim meretur nisi agendo. Sed prius est esse rei quam ejus agere.
+            Ergo in primo instanti conceptionis quando Christus primo habuit esse secundum humanam
+            naturam, non potuit mereri.</p>
+          <p xml:id="ta-l3d18q1-d1e273">Praeterea, opus meritorium cum deliberatione est, cum sit ex electione liberi arbitrii,
+            quae sequitur consilium. Sed deliberatio, cum sit quidam motus, requirit tempus. Ergo in
+            primo instanti conceptionis mereri non potuit.</p>
+          <p xml:id="ta-l3d18q1-d1e276">Praeterea, quidquid Christus habuit in primo instanti suae conceptionis, habuit ab
+            alio, non a se. Sed meriti sui ipse causa fuit. Igitur in primo instanti conceptionis
+            non meruit.</p>
+          <p xml:id="ta-l3d18q1-d1e280">Praeterea, sicut meritum est per liberum arbitrium, ita et peccatum. Sed Diabolus non
+            potuit peccare in primo instanti suae creationis. Ergo nec anima Christi in primo
+            instanti creationis suae potuit mereri. Sed primum instans conceptionis fuit primum
+            instans creationis animae. Ergo in illo instanti mereri non potuit.</p>
+          <p xml:id="ta-l3d18q1-d1e283">Praeterea, Christus quantum ad corpus, in pueritia erat similis aliis pueris. Sed alii
+            pueri propter imbecillitatem organorum corporalium non habent perfectam imaginationem,
+            nec usum liberi arbitrii. Per consequens ergo nec Christus: et ita tunc, ut videtur,
+            mereri non potuit.</p>
+          <p xml:id="ta-l3d18q1-d1e286">Sed contra, Christus in primo instanti suae conceptionis fuit vir. Hierem. 31, 22:
+              <quote xml:id="ta-l3d18q1-Qd1e288">novum faciet dominus super terram: femina circumdabit virum</quote>. Sed
+            perfecti viri est mereri. Ergo Christus in primo instanti suae conceptionis potuit
+            mereri.</p>
+          <p xml:id="ta-l3d18q1-d1e292">Praeterea, perfectior est anima perfecta prima et secunda perfectione, quam perfecta
+            solum perfectione prima. Sed Christo non accrevit aliqua spiritualis perfectio. Ergo cum
+            operatio sit perfectio secunda, et habitus perfectio prima; quandocumque habuit habitum
+            virtutis, habuit actum ejus. Sed actu virtutis merebatur. Ergo Christus in instanti
+            conceptionis merebatur.</p>
+          <p xml:id="ta-l3d18q1-d1e295">Respondeo dicendum, quod Christo debemus attribuere secundum animam, omnem perfectionem
+            spiritualem quae sibi potest attribui; unde, cum possibile sit ipsum in primo instanti
+            suae conceptionis actum meritorium perfecisse, dicendum est, Christum in primo instanti
+            suae conceptionis meruisse. Quod enim aliqua res in primo instanti in quo est non possit
+            suam actionem habere, non potest contingere nisi tribus modis. Primo ex hoc quod deest
+            sibi aliqua perfectio quae requiritur ad agendum; sicut catulus in primo instanti suae
+            nativitatis non potest videre, quia non habet organum videndi completum. Alio modo
+            propter aliquod impediens extrinsecum; sicut aqua generata in aliquo loco concluso
+            impeditur ut non possit proprio motu moveri. Tertio ex natura operationis quae
+            successionem habet; et tunc in primo instanti quo res est, incipit illam actionem, non
+            tamen illa actio est in illo instanti, sed in tempore; sicut patet quod primum instans
+            in quo ignis est ignis, quod est ultimum instans suae generationis, est primum instans
+            motus sui sursum; sed tamen motus ejus non est in illo instanti, quia motus
+            successivorum est. Constat autem quod in Christo non deficiebat aliqua perfectio ex
+            parte ipsius agentis, quae est necessaria ad meritorium actum; et iterum nihil erat quod
+            impedire posset; ipse etiam motus caritatis, quo movebatur, indivisibilis erat, non
+            successivus; et ideo in ipso instanti conceptionis mereri potuit. Quidam autem dicunt,
+            quod in ipso instanti conceptionis non meruit quantum ad usum virtutum; sed solum habuit
+            meritum in radice, scilicet in habitu caritatis et aliarum virtutum ex quibus dignus
+            fuit gloria; sed quantum ad usum virtutum non meruit in ipso instanti, sed post ipsum
+            instans. Et ad hoc moventur rationibus inductis in objiciendo. Sed prima opinio magis
+            mihi placet, et secundum eam respondendum est ad argumenta in contrarium facta.</p>
+          <p xml:id="ta-l3d18q1-d1e298">Ad primum ergo dicendum, quod esse est prius quam agere natura, non tempore de
+            necessitate.</p>
+          <p xml:id="ta-l3d18q1-d1e302">Ad secundum dicendum, quod deliberatio et consilium, ut dicit philosophus, non sunt de
+            his quae sunt ad finem, quando non est certum quae expediant ad finem intentum. In ipsa
+            autem intentione finis aliquis meretur; unde non exigitur deliberatio ad meritum, etiam
+            in aliis hominibus, quantum ad appetitum finis. Et praeterea in Christo non exigebatur
+            deliberatio etiam quantum ad ea quae sunt ad finem, quia de his certus erat.</p>
+          <p xml:id="ta-l3d18q1-d1e305">Ad tertium dicendum, quod illud quod Christus habuit in primo instanti suae
+            conceptionis, scilicet meritum, et ab alio habuit, inquantum scilicet exigitur gratia,
+            et a seipso habuit, inquantum meritum procedit ex libero arbitrio. Non enim semper
+            necessarium est ut causa causatum praecedat tempore, sed quandoque sufficit quod
+            praecedat natura.</p>
+          <p xml:id="ta-l3d18q1-d1e308">Ad quartum dicendum, quod motus voluntatis in finem bonum, est sibi naturalis; unde in
+            primo instanti creationis suae potest habere motum in bonum finem, quia ad finem
+            naturaliter desideratum appetendum non indigemus deliberatione; et in hoc potest esse
+            meritum. Sed peccatum contingit ex hoc quod voluntas movetur in aliquid quod non
+            competit fini naturaliter desiderato; unde oportet quod contingat ex falsa collatione
+            illius ad finem: et ideo requiritur ad peccatum collatio ejus quod habet apparentem
+            bonitatem ad id quod est per se bonum naturaliter desideratum. Unde in primo instanti
+            creationis non potest mens peccare.</p>
+          <p xml:id="ta-l3d18q1-d1e311">Ad quintum dicendum, quod Christus non habebat a sensibus acceptam scientiam, sed
+            infusam; et ita habitus scientiae perfectae poterat esse etiam cum infirmitate
+            organorum; et iterum dictum est, quod infirmitas corporis in ipso non refundebatur in
+            mentem, sicut nec mentis gloria corporis infirmitatem tollebat: et ideo imperfectio
+            organorum corporalium, usum rationis non tollebat in ipso.</p>
+        </div>
+        <div xml:id="ta-l3d18q1-Dd1e316" type="articulus">
+          <head xml:id="ta-l3d18q1-Hd1e318">Articulus 4</head>
+          <head xml:id="ta-l3d18q1-Hd1e321" type="questionTitle">Utrum Christus meruit sibi immortalitatem</head>
+          <div xml:id="ta-l3d18q1-Dd1e324">
+            <head xml:id="ta-l3d18q1-Hd1e326">Quaestiuncula 1</head>
+            <p xml:id="ta-l3d18q1-d1e329">Ad quartum sic proceditur. Videtur quod Christus non meruerit sibi immortalitatem
+              corporis. Mereri enim est extranei, cui non debetur merces nisi per meritum; sicut et
+              adoptari est extranei, cui non debetur hereditas nisi per adoptionem. Sed Christus ad
+              bona patris, quae sunt sua, non dicitur adoptari quasi extraneus. Ergo eadem ratione
+              nec immortalitatem, vel aliquid hujusmodi, meruit.</p>
+            <p xml:id="ta-l3d18q1-d1e332">Praeterea, praemium est dignius merito. Sed bonus motus animae Christi quo merebatur,
+              est dignior quolibet corporali. Ergo non merebatur immortalitatem corporis.</p>
+            <p xml:id="ta-l3d18q1-d1e335">Praeterea, Christus non erat debitor mortis: quia non habebat peccatum, quod mortis
+              debitores facit. Ergo cum nullus mereatur illud malum evitare cujus non est debitor,
+              videtur quod ipse immortalitatem non meruit.</p>
+            <p xml:id="ta-l3d18q1-d1e338">Sed contra est quod in littera dicitur, quod claritas corporis est praemium
+              humiliationis. Sed immortalitas corporis ad claritatem corporis pertinet. Ergo etiam
+              immortalitatem meruit.</p>
+            <p xml:id="ta-l3d18q1-d1e342">Praeterea, bona gloriae nulla creatura habet sine merito. Sed immortalitas pertinet
+              ad gloriam. Ergo ipsam Christus meruit.</p>
+          </div>
+          <div xml:id="ta-l3d18q1-Dd1e346">
+            <head xml:id="ta-l3d18q1-Hd1e348">Quaestiuncula 2</head>
+            <p xml:id="ta-l3d18q1-d1e351">Ulterius. Videtur quod impassibilitatem animae Christus non meruerit. Id enim quod
+              nobis est naturale, non meremur. Sed anima secundum suam naturam est impassibilis.
+              Ergo impassibilitatem non meruit.</p>
+            <p xml:id="ta-l3d18q1-d1e354">Praeterea, omne quod inest alicui per accidens, ex hoc ipso quod accidens removetur,
+              ei non inest. Sed anima patitur, sicut et movetur, per accidens, scilicet per corpus.
+              Ergo ex hoc ipso quod separatur a corpore, fit impassibilis. Sed Christus non meruit
+              animam a corpore separari: quia meritum mortis peccatum est, ut dicitur Rom. 6. Ergo
+              non meruit impassibilitatem animae.</p>
+            <p xml:id="ta-l3d18q1-d1e357">Praeterea, impassibilitas animae pertinet ad beatitudinem animae, sicut
+              impassibilitas corporis ad beatitudinem corporis. Sed anima Christi a principio fuit
+              beata. Ergo impassibilitatem animae non meruit.</p>
+            <p xml:id="ta-l3d18q1-d1e360">Sed contra, anima Christi post resurrectionem fuit impassibilis. Sed ante fuit
+              passibilis. Ergo sicut gloriam resurrectionis, ita et animae impassibilitatem
+              meruit.</p>
+            <p xml:id="ta-l3d18q1-d1e364">Praeterea, animae damnatorum sunt passibiles, quia impassibilitatem non meruerunt.
+              Ergo cum anima Christi non fuerit passibilis post resurrectionem, videtur quod
+              impassibilitatem meruerit.</p>
+          </div>
+          <div xml:id="ta-l3d18q1-Dd1e368">
+            <head xml:id="ta-l3d18q1-Hd1e370">Quaestiuncula 3</head>
+            <p xml:id="ta-l3d18q1-d1e373">Ulterius. Videtur quod non meruerit exaltationem. Quia ex hoc ipso quod humana natura
+              assumpta fuit, exaltata est, et nomen divinitatis sibi debetur. Sed assumptionem non
+              meruit, ut supra, dist. 4, dictum est. Ergo nec exaltationem.</p>
+            <p xml:id="ta-l3d18q1-d1e376">Praeterea, nomen quod est super omne nomen, est nomen in quo flectitur omne genu. Sed
+              hoc est nomen Jesus, ut dicitur Philip. 2. Cum ergo hoc nomen non meruerit, sed ante
+              conceptionem sibi impositum fuerit; videtur quod non meruerit nomen quod est super
+              omne nomen.</p>
+            <p xml:id="ta-l3d18q1-d1e379">Si dicatur, quod meruit quantum ad manifestationem; contra. Hoc etiam ante manifestum
+              erat; unde Daemones ante eum confessi fuerunt, et pueri et prophetae praedixerunt.
+              Ergo hoc ipse non meruit.</p>
+            <p xml:id="ta-l3d18q1-d1e382">Praeterea, meritum ordinatur ad praemium. Sed facere aliquid propter aestimationem
+              hominum pertinet ad vanam gloriam, quae in ipso non fuit. Ergo exaltationem quantum ad
+              manifestationem hominum non meruit.</p>
+            <p xml:id="ta-l3d18q1-d1e386">Sed contra, <ref xml:id="ta-l3d18q1-Rd1e388"><title ref="#lc">Luc.</title> 14, 2:</ref>
+              <quote xml:id="ta-l3d18q1-Qd1e393" ana="#lc14_2">qui se humiliat, exaltabitur</quote>. Sed Christus se humiliavit.
+              Ergo exaltari meruit.</p>
+            <p xml:id="ta-l3d18q1-d1e397">Praeterea, ipse fecit se dignum tali exaltatione quae est in manifestatione ad
+              homines per ea quae gessit. Ergo meruit ipse hanc exaltationem.</p>
+          </div>
+          <div xml:id="ta-l3d18q1-Dd1e402">
+            <head xml:id="ta-l3d18q1-Hd1e404">Quaestiuncula 4</head>
+            <p xml:id="ta-l3d18q1-d1e407">Ulterius. Videtur quod etiam praemium substantiale animae, scilicet fruitionem
+              divinam, ipse meruit. Majoris enim meriti majus est praemium. Sed meritum Christi fuit
+              majus omnium sanctorum meritis. Ergo et major fuit merces quam meruit. Nihil autem
+              majus cadit sub merito quam fruitio Dei, quam sancti merentur. Ergo ipse etiam meruit
+              ipsam.</p>
+            <p xml:id="ta-l3d18q1-d1e410">Praeterea, gloriosius est aliquid per seipsum habere quam ab alio habere omnia. Sed
+              quod quis meretur, quodammodo habet per seipsum. Cum igitur Christus fruitionem
+              divinam gloriosissime habuerit, videtur quod eam meruerit.</p>
+            <p xml:id="ta-l3d18q1-d1e413">Praeterea, secundum illos qui ponunt Angelos in solis naturalibus creatos, simul in
+              eis fuit meritum et praemium. Sed nihil prohibet Christum meruisse fruitionem divinam,
+              nisi quia ab initio suae conceptionis eam habuit. Ergo videtur quod in ipso instanti
+              suae conceptionis mereri potuerit ut simul in eo esset meritum et praemium.</p>
+            <p xml:id="ta-l3d18q1-d1e416">Sed contra, nullus meretur secundum quod est comprehensor. Sed Christus quantum ad
+              fruitionem erat comprehensor. Ergo nunquam fruitionem meruit.</p>
+            <p xml:id="ta-l3d18q1-d1e420">Praeterea, ex hoc ipso quod intellectus ejus erat Deo conjunctus in persona, sibi
+              debebatur fruitio. Sed unionem non meruit. Ergo nec fruitionem.</p>
+          </div>
+          <div xml:id="ta-l3d18q1-Dd1e424">
+            <head xml:id="ta-l3d18q1-Hd1e426">Quaestiuncula 1</head>
+            <p xml:id="ta-l3d18q1-d1e429">Respondeo dicendum ad primam quaestionem, quod, sicut praedictum est, meritum
+              secundum se, est operatio ejus qui justitiam patitur, secundum quam facit suum id quod
+              sibi reddendum est. Non autem datur aliquid alicui qui habet illud eo modo quo habet,
+              nec aliquis facit suum quod suum est eo modo quo suum est; unde ad meritum, secundum
+              quod theologi de ipso loquuntur, in ordine ad ea quae sunt bona simpliciter, quatuor
+              requiruntur quantum ad id quod aliquis mereri dicitur. Primum est quod illud sit de
+              pertinentibus ad beatitudinem. Secundum est quod illud sit non habitum quod per
+              meritum acquiritur reddendum justitia mediante. Tertium est quod illud sit non debitum
+              quod merendo quis sibi debitum facit. Quartum, quod id quod quis mereri dicitur,
+              sequatur ad minus ordine naturae ad ipsum meritum: et ideo gratia quae est merendi
+              principium, et alia naturalia quae exiguntur ad meritum, sub merito non cadunt. Haec
+              autem quatuor in Christi immortalitate inveniuntur. Quia est de his quae pertinent ad
+              beatitudinem corporis. Item non fuit ab eo semper habitum, quia a principio mortale
+              corpus assumpsit. Item non fuit sibi debitum ratione naturae, quamvis esset sibi
+              debitum ratione personae. Item immortalitas non exigitur ad merendum. Et propter hoc
+              immortalitatem meruit.</p>
+            <p xml:id="ta-l3d18q1-d1e432">Ad primum ergo dicendum, quod quamvis immortalitas, et omnia alia bona quae sunt in
+              potestate patris, essent in potestate filii quantum ad divinam personam, non tamen
+              ratione humanae naturae; unde nos merendo facimus nobis debitum de eo quod non erat
+              debitum neque naturae neque personae; Christus autem fecit merendo debitum naturae de
+              non debito naturae, quamvis esset debitum personae. Nec est simile de adoptione: quia
+              adoptio respicit personam, sicut et filiatio; meritum autem in operatione consistit,
+              quae variatur secundum varietatem naturae, ut prius dictum est.</p>
+            <p xml:id="ta-l3d18q1-d1e435">Ad secundum dicendum, quod quamvis actus mentis, quo Christus merebatur, sit
+              simpliciter melius quam immortalitas corporis; tamen illa est melior quantum ad
+              statum, inquantum scilicet pertinet ad statum beatitudinis; actus vero mentis,
+              secundum quod in eo consistit meritum, pertinet ad statum viatoris. Vel dicendum, quod
+              hoc habet veritatem in praemio substantiali animae, et non in aliis.</p>
+            <p xml:id="ta-l3d18q1-d1e438">Ad tertium dicendum, quod Christus quamvis non haberet necessitatem moriendi ex
+              peccato, habebat tamen ex principiis naturalibus, ut supra, dist. 16, qu. 1, art. 2
+              dictum est; et ideo humanae naturae in Christo immortalitas non erat debita. Vel
+              dicendum, quod privatio culpae quamvis auferat meritum mortis, non tamen dat
+              immortalitatem qua impossibile est mori, qualis est immortalitas quam meruit Christus;
+              sicut patet in Adam quantum ad primum statum, in quo non erat praedicta
+              immortalitas.</p>
+          </div>
+          <div xml:id="ta-l3d18q1-Dd1e442">
+            <head xml:id="ta-l3d18q1-Hd1e444">Quaestiuncula 2</head>
+            <p xml:id="ta-l3d18q1-d1e447">Ad secundam quaestionem dicendum, quod anima dupliciter dicitur passibilis. Uno modo
+              secundum justitiam divinam, sicut patitur in Inferno ab igne corporali; et hic est
+              communis animae et omni spiritui creato in suis tantum naturalibus considerato. Alio
+              modo dicitur anima passibilis secundum naturam; et hoc vel per accidens ex passione
+              corporis, ut supra, dist. 15, qu. 2, art. 3, dictum est, quod laesio corporis ad
+              animam pertingit quodammodo, inquantum est forma ejus; vel per operationem propriam;
+              sive illa sit communis animae et corpori, sicut in delectationibus et tristitiis, quae
+              sunt secundum partem sensitivam; sive sit propria ipsi animae, sicut in
+              delectationibus et tristitiis intellectivae partis. Quia autem anima secundum suam
+              naturam est forma corporis, formae autem est ut sit materiae proportionata; ideo in
+              ipsa natura animae etiam sine corpore existentis, est ut sit nata pati ad passionem
+              corporis, quamvis non patiatur actu sine corpore quantum ad illas passiones quae
+              naturaliter ei inesse possunt vel ex corpore vel cum corpore. Haec autem aptitudo non
+              tollitur per id per quod natura per gratiam reformatur: quamvis enim homo reformetur
+              quantum ad actus personales per gratiam, non tamen reformatur quantum ad naturam nisi
+              per gloriam, quae omnes defectus naturae tollit: cujus signum est quod reformati per
+              gratiam, in actu naturali defectum patiuntur, quia in originali peccato generant. Unde
+              oportet quod istam aptitudinem naturalem ab anima habitus gloriae tollat, per quem
+              anima perficitur non solum in potentiis quantum ad actus personales, sed inquantum est
+              natura quaedam: unde ex ipsa glorificata in corpus gloria transfunditur. Per habitum
+              etiam gloriae excluditur et tristitia intellectivae partis, et iterum possibilitas
+              peccandi, per quam est possibilitas ad passionem ex justitia divina. Unde constat quod
+              impassibilitas animae ad gloriam pertinet; et quod Christus gloriam animae, inquantum
+              est natura corporis, non habuit a principio suae conceptionis, quia corpus passibile
+              fuit: quamvis haberet animam gloriosam quantum ad operationes quibus Deo fruebatur.
+              Ideo sicut meruit immortalitatem corporis, ita etiam meruit impassibilitatem
+              animae.</p>
+            <p xml:id="ta-l3d18q1-d1e450">Ad primum ergo dicendum, quod anima secundum suam naturam est impassibilis, ut pati
+              non possit, quantum ad passiones proprie dictas de quibus loquimur, sine corpore; est
+              tamen secundum naturam suam passibilis, idest potens pati has passiones in corpore, et
+              per corpus. Unde haec determinatio per naturam potest determinare passibilitatem vel
+              quantum ad potentiam, et sic falsa est propositio; vel quantum ad actum; et sic vera
+              est, quia passibile est potens pati.</p>
+            <p xml:id="ta-l3d18q1-d1e453">Ad secundum dicendum, quod quamvis per accidens inesset animae passio, non tamen per
+              accidens aptitudo ad patiendum simul cum corpore: et ideo quamvis ea separata a
+              corpore, tollatur passio secundum actum, non tamen tollitur aptitudo patiendi. Unde si
+              iterum corpori uniretur, non faceret conjunctum sibi corpus impassibile, sed in eo per
+              accidens pateretur, sicut et prius, nisi quando glorificata est: tunc enim si corpori
+              unitur, corpus impassibile facit.</p>
+            <p xml:id="ta-l3d18q1-d1e456">Ad tertium dicendum, quod impassibilitas animae pertinet ad beatitudinem animae,
+              inquantum natura et forma corporis: et talem beatitudinem anima Christi non habuit a
+              principio suae conceptionis, sed beatitudinem quae consistit in actu fruitionis.</p>
+          </div>
+          <div xml:id="ta-l3d18q1-Dd1e460">
+            <head xml:id="ta-l3d18q1-Hd1e462">Quaestiuncula 3</head>
+            <p xml:id="ta-l3d18q1-d1e465">Ad tertiam quaestionem dicendum, quod, sicut dicit philosophus in 1 Ethic., in
+              felicitate aliquid invenitur essentiale ipsius, sicut virtutes quae faciunt
+              operationem perfectam; aliquid autem quod facit ad bene esse felicitatis, sicut
+              divitiae, et amici, et hujusmodi. Similiter dico, quod aliqua sunt quae sunt de
+              substantia beatitudinis, sicut dotes animae et corporis; aliquid autem quod est de
+              bene esse ipsius, sicut manifestatio beatitudinis ad alios, in quo etiam gloria
+              consistit, quia gloria est clara cum laude notitia: Glossa Rom. ult.: sicut etiam
+              philosophus dicit, quod de bene esse ipsius felicitatis est ut felix etiam post mortem
+              vivat in memoriis hominum. Quia ergo in Christo debuit esse completissima beatitudo,
+              ideo non solum in seipso beatificatus est, sed ad perfectionem suae beatitudinis etiam
+              sua beatitudo aliis ostensa fuit: et secundum hoc dicitur exaltationem meruisse: quae
+              quidem exaltatio in tribus consistit; scilicet in notitia cordis, secundum quod
+              dicitur accepisse nomen super omne nomen, quia nomen de re notitiam facit: item in
+              reverentia corporis, quantum ad genuflexionem: item in confessione oris; et hoc est
+              quod dicit apostolus: <quote xml:id="ta-l3d18q1-Qd1e467">et omnis lingua confiteatur quia dominus Jesus Christus
+                in gloria est Dei patris</quote>.</p>
+            <p xml:id="ta-l3d18q1-d1e471">Ad primum ergo dicendum, quod quamvis fuerit exaltatus ab initio suae conceptionis,
+              non tamen sua exaltatio fuit tunc manifesta: et res in sacra Scriptura tunc fieri
+              dicitur, quando innotescit.</p>
+            <p xml:id="ta-l3d18q1-d1e474">Ad secundum dicendum, quod nomen super omne nomen dicitur esse vel quantum ad id a
+              quo imponitur; et sic est nomen Jesus vel Christus, quia utrumque imponitur ex unione
+              humanae naturae ad divinam: quia secundum hoc unctus dicitur quod Deo est unitus; et
+              secundum hoc etiam a peccatis salvos facere potest: vel quantum ad id cui nomen
+              imponitur; et sic hoc nomen Deus est super omne nomen, quia imponitur sibi secundum
+              divinam naturam. Et haec omnia quamvis fuerint in eo secundum rei veritatem a
+              principio conceptionis, non tamen erant in notitia hominum.</p>
+            <p xml:id="ta-l3d18q1-d1e477">Ad tertium dicendum, quod ante resurrectionem erat quidem manifesta Christi exaltatio
+              non omnibus, sed paucis: et quibusdam etiam non per certitudinem, sed per quamdam
+              conjecturam, sicut Daemonibus, et aliquibus Judaeis: sed post resurrectionem suam
+              altitudo illius toti mundo innotuit per certitudinem fidei.</p>
+            <p xml:id="ta-l3d18q1-d1e481">Ad quartum dicendum, quod meritum non fit propter praemium, nisi ad quod ordinatur
+              principaliter: hoc autem est illud quod est de substantia beatitudinis. Unde etiam
+              quamvis honor civilis sit quo praemiatur virtus civilis; tamen cives propter illum
+              honorem non operantur virtutis opera, sed propter bonum ipsius virtutis.</p>
+          </div>
+          <div xml:id="ta-l3d18q1-Dd1e485">
+            <head xml:id="ta-l3d18q1-Hd1e487">Quaestiuncula 4</head>
+            <p xml:id="ta-l3d18q1-d1e490">Ad quartam quaestionem dicendum, quod gloria animae consistit in hoc quod anima ipsi
+              Deo unitur per visionem et amorem; et quia posterior unio praesupponit priorem, sicut
+              hoc quod Deus est in sanctis per gratiam, praesupponit hoc quod in omnibus est per
+              essentiam, praesentiam, et potentiam; ideo eadem ratione unio quae est in persona,
+              quae est ultima et completissima, praesupponit omnem aliam unionem ad Deum: unde ex
+              hoc ipso quod anima Christi erat Deo in persona conjuncta, debebatur sibi fruitionis
+              unio, et non per operationem aliquam ei facta debita: et ideo, quia meritum consistit
+              in operatione quae facit nobis aliquid debitum, Christus fruitionem non meruit. Secus
+              autem est de gloria corporis: quia de gloria corporis non consistit in unione ad Deum;
+              unde sine ea corpus divinitati unitum esse potuit, et fuit dispensative propter opus
+              redemptionis implendum. Et propter hoc fruitionem, in qua consistit gloria animae,
+              Christus semper habuit, et ipsam non meruit, sicut meruit gloriam corporis.</p>
+            <p xml:id="ta-l3d18q1-d1e493">Ad primum ergo dicendum, quod hoc quod Christus sibi beatitudinem quae est in
+              fruitione non meruit, non fuit ex insufficientia meriti, sed ex perfectione
+              merentis.</p>
+            <p xml:id="ta-l3d18q1-d1e496">Ad secundum dicendum, quod Christus magis habuit ex seipso quod ex unione habuit quam
+              aliquis habeat id quod ex operatione acquirit: quia habuit illud naturaliter; et ideo
+              etiam gloriosius habuit fruitionem quam aliquis alius.</p>
+            <p xml:id="ta-l3d18q1-d1e499">Ad tertium dicendum, quod secundum illam opinionem, Angeli non semper habuerunt
+              beatitudinem, nec iterum aliquid erat in eis unde eis deberetur; et ideo mereri
+              potuerunt simul quando acceperunt gratiam, ut in 2 Lib., dist. 5, quaest. 2, art. 2,
+              dictum est. Non est autem ita de Christo, qui semper beatus secundum animam fuit, et
+              cui ex ipsa unione debebatur gloria.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l3d18q1-Dd1e504" type="articulus">
+          <head xml:id="ta-l3d18q1-Hd1e506">Articulus 5</head>
+          <head xml:id="ta-l3d18q1-Hd1e509" type="questionTitle">Utrum Christus meruerit sibi per passionem</head>
+          <p xml:id="ta-l3d18q1-d1e512">Ad quintum sic proceditur. Videtur quod Christus per passionem non meruerit sibi.
+            Mereri enim est aliquid sibi debitum facere. Sed qui sibi semel aliquid debitum fecit,
+            puta emendo, non ulterius emit illud. Ergo et qui meruit aliquid semel, ulterius non
+            potest mereri illud. Sed Christus ab instanti conceptionis meruit sibi ea quae dicta
+            sunt. Ergo per passionem nihil sibi meruit.</p>
+          <p xml:id="ta-l3d18q1-d1e515">Praeterea, meritum facit vel de non debito debitum, vel de debito magis debitum. Sed ea
+            quae Christus meruit, non fuerunt sibi magis debita per passionem quam ante: quia per
+            primum meritum fuerunt sibi facta sufficienter debita. Ergo per passionem sibi Christus
+            nihil meruit.</p>
+          <p xml:id="ta-l3d18q1-d1e518">Praeterea, passio in corpore Christi fuit. Sed meritum non est nisi in anima. Ergo per
+            passionem Christus nihil sibi meruit.</p>
+          <p xml:id="ta-l3d18q1-d1e522">Praeterea, meriti principium est in nobis: quia voluntarium est cujus principium est
+            intra, ut dicitur in 3 Ethic. Sed principium passionis non est in patiente, sed in
+            agente. Ergo Christus per passionem non meruit.</p>
+          <p xml:id="ta-l3d18q1-d1e525">Praeterea, omne meritum consistit in caritate. Sed pati passiones laudabiliter, non est
+            opus caritatis, sed patientiae, vel fortitudinis. Ergo Christus per passionem non
+            meruit.</p>
+          <p xml:id="ta-l3d18q1-d1e528">Sed contra est quod dicitur in littera, quod passio claritatis est meritum.</p>
+          <p xml:id="ta-l3d18q1-d1e531">Praeterea, actibus virtutum meremur. Sed Christus est passus ex maxima caritate;
+                <ref xml:id="ta-l3d18q1-Rd1e533"><title ref="#io">Joan.</title> 15, 13:</ref>
+            <quote xml:id="ta-l3d18q1-Qd1e538" ana="#io15_13">majorem hac dilectionem nemo habet</quote>. Ergo ipse per suam
+            passionem meruit.</p>
+          <p xml:id="ta-l3d18q1-d1e542">Praeterea, passio sua major fuit aliorum sanctorum passionibus, ut supra, distinct. 15,
+            qu. 2, art. 3, quaestiunc. 3, dictum est. Sed alii sancti suis passionibus meruerunt.
+            Ergo et Christus per suam passionem meruit.</p>
+          <p xml:id="ta-l3d18q1-d1e545">Respondeo dicendum, quod mereri, sicut dictum est, est facere aliquid sibi debitum. Hoc
+            autem contingit tribus modis. Uno modo quando aliquis facit de non debito debitum; sicut
+            aliquis primo motu caritatis meretur vitam aeternam, faciens eam debitam sibi, quae
+            prius ei debita non erat. Alio modo quod erat minus debitum faciendo sibi magis debitum:
+            quod contingit in eo in quo caritas augetur. Tertio contingit, quando aliquid quod est
+            uno modo debitum sibi, facit alio modo debitum sibi; sicut puer baptizatus, cui debetur
+            vita aeterna ex habitu gratiae in Baptismo infusae, quando usum liberi arbitrii habere
+            incipit, facit sibi debitam eam ex actu. Primo igitur modo Christus meruit in primo
+            instanti suae conceptionis claritatem corporis: quae quidem non erat ei debita neque ex
+            conditione naturae in se consideratae, neque consequebatur ex necessitate unionis, sicut
+            gloria fruitionis, ut dictum est. Secundo autem modo Christus mereri non potuit, quia
+            caritas non est augmentata in Christo. Tertio modo meruit in omnibus actibus suis post
+            primum instans suae conceptionis: quia fecit sibi debitum aliquibus actibus quod prius
+            ex aliis actibus debebatur. Actus autem quo quis meretur, est ille cujus agens est
+            dominus, ut supra dictum est, et qui est proportionatus mercedi. Est autem homo dominus
+            suorum actuum per voluntatem; quam quia caritas perficit in ordine ad finem ultimum,
+            ideo actum fini proportionatum facit, scilicet beatitudini quae proprie merces est
+            nostrorum meritorum; et ideo omnis actus voluntarius caritate informatus, est
+            meritorius. Cum igitur Christus passionem suam voluntarie sustinuerit (<quote xml:id="ta-l3d18q1-Qd1e547">oblatus
+              enim est quia ipse voluit</quote>, Isai. 53), et voluntas ista caritate fuerit
+            informata, non est dubium quod per suam passionem meruerit.</p>
+          <p xml:id="ta-l3d18q1-d1e552">Ad primum ergo dicendum, quod emptio est principaliter propter habendam rem quae
+            emitur: et ideo postquam semel empta est, ulterius non emitur: sed actio qua quis
+            meretur non est principaliter propter praemium consequendum, sed propter bonum
+            caritatis. Unde homo habens caritatem etiam operaretur, si nulla retributio sequeretur;
+            unde etiam postquam meruit aliquid operatur; et id quod sibi primo uno modo debebatur,
+            postea alio modo sibi debetur.</p>
+          <p xml:id="ta-l3d18q1-d1e555">Ad secundum dicendum, quod non oportet quod faciat sibi magis debitum, quia hoc est
+            secundum intensionem caritatis, quae est radix merendi; sed facit sibi pluribus modis
+            debitum.</p>
+          <p xml:id="ta-l3d18q1-d1e558">Ad tertium dicendum, quod quamvis passio sit in corpore, tamen voluntas acceptans
+            passionem fuit in anima.</p>
+          <p xml:id="ta-l3d18q1-d1e561">Ad quartum dicendum, quod passio, inquantum passio, non est meritoria, quia sic
+            principium ejus est extra: sed est meritoria inquantum est acceptata per voluntatem: sic
+            enim est voluntaria, et principium ejus est intra. Acceptatur autem passio a voluntate
+            dupliciter: vel sicut voluntarium absolute, sicut in Christo, qui se voluntarie obtulit
+            passioni, ut nostrae redemptionis opus expleretur: vel sicut voluntarium mixtum, sicut
+            quando aliquis etsi vellet non pati, tamen magis vult sustinere passionem quam aliquid
+            contra Deum faciat.</p>
+          <p xml:id="ta-l3d18q1-d1e564">Ad quintum dicendum, quod quamvis meritum sit in caritate sicut in radice, non tamen
+            meremur sola caritate, sed etiam aliis virtutibus, inquantum earum actus sunt a caritate
+            imperati.</p>
+        </div>
+        <div xml:id="ta-l3d18q1-Dd1e568" type="articulus">
+          <head xml:id="ta-l3d18q1-Hd1e570">Articulus 6</head>
+          <head xml:id="ta-l3d18q1-Hd1e573" type="questionTitle">Utrum Christus potuerit nobis mereri</head>
+          <div xml:id="ta-l3d18q1-Dd1e576">
+            <head xml:id="ta-l3d18q1-Hd1e578">Quaestiuncula 1</head>
+            <p xml:id="ta-l3d18q1-d1e581">Ad sextum sic proceditur. Videtur quod Christus nobis mereri non potuit. Sicut enim
+              laus requirit voluntarium, ita et meritum. Sed propter hoc quod laus requirit
+              voluntarium in laudato, ideo unus non laudatur propter actum alterius. Ergo similiter
+              nec unus alteri mereri potest: et sic Christus nihil nobis meruit.</p>
+            <p xml:id="ta-l3d18q1-d1e584">Praeterea, <ref xml:id="ta-l3d18q1-Rd1e586"><title ref="#ez">Ezech.</title> 18, 4,</ref> dicitur: <quote xml:id="ta-l3d18q1-Qd1e591" ana="#ez18_4">anima quae peccaverit, ipsa morietur</quote>. Ergo eadem ratione anima
+              quae operatur, ipsa praemiabitur; et ita videtur quod Christus nobis mereri non
+              potuit.</p>
+            <p xml:id="ta-l3d18q1-d1e595">Praeterea, Christus non meruit secundum quod Deus, sed secundum quod homo habens
+              caritatem. Sed unus habens caritatem non meretur alteri nisi ex congruo, quod non est
+              per se loquendo meritum. Ergo et cetera.</p>
+            <p xml:id="ta-l3d18q1-d1e598">Sed contra, Christus, secundum quod homo, est caput nostrum. Ergo nobis aliquid
+              influit. Sed non nisi meritorie. Ergo Christus nobis aliquid meruit.</p>
+            <p xml:id="ta-l3d18q1-d1e602">Praeterea, nullus pervenit ad gloriam sine merito. Sed pueri baptizati pervenient ad
+              gloriam. Ergo cum non perveniant per meritum proprium, pervenient per meritum Christi;
+              et ita Christus nobis aliquid meruit.</p>
+          </div>
+          <div xml:id="ta-l3d18q1-Dd1e606">
+            <head xml:id="ta-l3d18q1-Hd1e608">Quaestiuncula 2</head>
+            <p xml:id="ta-l3d18q1-d1e611">Ulterius. Videtur quod non meruit nobis januae apertionem. Quia Enoch et Elias ante
+              Christi incarnationem in Paradisum introierunt. Ergo ante Christum janua erat
+              aperta.</p>
+            <p xml:id="ta-l3d18q1-d1e614">Praeterea, quicumque meretur Paradisum, meretur etiam apertionem januae Paradisi. Sed
+              antiqui patres meruerunt Paradisum, cum haberent caritatem ita perfectam sicut et nos,
+              et cum propter Paradisum omnia operarentur. Ergo meruerunt apertionem januae
+              Paradisi.</p>
+            <p xml:id="ta-l3d18q1-d1e617">Praeterea, posita causa sufficienti non requiritur aliquid aliud ad effectum. Si ergo
+              Christus sufficienter meruit nobis apertionem januae Paradisi, videtur quod non
+              oporteat nos aliquid propter Paradisum operari; quod est falsum. Ergo et primum.</p>
+            <p xml:id="ta-l3d18q1-d1e620">Sed contra, ante Christum nullus in Paradisum intravit, quia sancti patres ad Limbum
+              descendebant. Sed postea homines in Paradisum intraverunt, sicut dicitur Luc. 23:
+                <quote xml:id="ta-l3d18q1-Qd1e622">hodie mecum eris in Paradiso</quote>. Ergo Paradisi apertionem Christus
+              meruit.</p>
+            <p xml:id="ta-l3d18q1-d1e627">Praeterea, per peccatum Adae clausa est janua Paradisi, ut patet Gen. 3. Sed Christus
+              pro peccato Adae satisfecit. Ergo ipse apertionem januae nobis meruit.</p>
+          </div>
+          <div xml:id="ta-l3d18q1-Dd1e631">
+            <head xml:id="ta-l3d18q1-Hd1e633">Quaestiuncula 3</head>
+            <p xml:id="ta-l3d18q1-d1e636">Ulterius. Videtur quod non tantum per passionem apertionem januae nobis meruit.
+              Caritas enim ejus in passione non fuit major quam ante. Si ergo per passionem meruit,
+              etiam ante meruit.</p>
+            <p xml:id="ta-l3d18q1-d1e639">Praeterea, in Baptismo caeli aperti sunt super eum. Sed Baptismus passionem
+              praecessit. Ergo ante passionem caeli apertionem nobis meruit.</p>
+            <p xml:id="ta-l3d18q1-d1e642">Praeterea, videtur quod per ascensionem; per id quod dicitur Mich. 2, 13:
+                <quote xml:id="ta-l3d18q1-Qd1e644">ascendet pandens iter ante eos</quote>.</p>
+            <p xml:id="ta-l3d18q1-d1e648">Sed contra, Christus satisfaciendo, nobis januam aperuit. Sed satisfecit per
+              passionem. Ergo per passionem januae apertionem meruit.</p>
+            <p xml:id="ta-l3d18q1-d1e652">Praeterea, clausio januae fuit decretum quod erat contrarium nobis. Sed hoc tulit
+              Christus de medio affigens illud cruci; Coloss. 2. Ergo per passionem januae
+              apertionem nobis meruit.</p>
+          </div>
+          <div xml:id="ta-l3d18q1-Dd1e657">
+            <head xml:id="ta-l3d18q1-Hd1e659">Quaestiuncula 1</head>
+            <p xml:id="ta-l3d18q1-d1e662">Respondeo dicendum ad primam quaestionem, quod, sicut dicit Damascenus, caro Christi
+              et anima erat quasi instrumentum deitatis, unde quamvis esset alia operatio Dei et
+              hominis, tamen operatio humana habebat in se vim divinitatis sicut instrumentum agit
+              vi principalis agentis: et propter hoc dicit Damascenus quod ea quae hominis sunt,
+              supra hominem agebat; unde et actio Christi meritoria, quamvis esset actio humana,
+              tamen agebat in virtute divina: et ideo erat potestas ei supra totam naturam, quod non
+              poterat esse de aliqua operatione puri hominis, quia homo singularis est minus dignus
+              quam natura communis: quia divinius est bonum gentis quam bonum unius hominis. Et quia
+              omnes homines sunt unus homo in natura communi, ut dicit Porphyrius, inde est quod
+              meritum Christi, quod ad naturam se extendebat, etiam ad singulos se extendere
+              poterat; et ita aliis mereri potuit.</p>
+            <p xml:id="ta-l3d18q1-d1e665">Ad primum ergo dicendum, quod Christum mereri pro alio dicitur dupliciter. Aut ita
+              quod ipse mereatur loco alterius, idest quod pertinet ad alium ut mereatur; et sic
+              Christus pro aliis non meruit: quia meritum oportet quod procedat ex voluntate
+              merentis, ut objectio procedebat. Aut ita quod ipse aliquid alteri mereatur quod sub
+              merito illius non cadit; et sic Christus aliis meruit ea quae ipsi sibi mereri non
+              potuerunt.</p>
+            <p xml:id="ta-l3d18q1-d1e668">Ad secundum dicendum, quod membra et caput ad eamdem personam pertinent; unde cum
+              Christus fuerit caput nostrum propter divinitatem, et plenitudinem gratiae in alios
+              redundantem, nos autem simus membra ejus; meritum suum non est extraneum a nobis, sed
+              in nos redundat propter unitatem corporis mystici.</p>
+            <p xml:id="ta-l3d18q1-d1e671">Ad tertium dicendum, quod Christus ea quae sunt hominis agebat supra hominem, ut
+              dictum est.</p>
+          </div>
+          <div xml:id="ta-l3d18q1-Dd1e675">
+            <head xml:id="ta-l3d18q1-Hd1e677">Quaestiuncula 2</head>
+            <p xml:id="ta-l3d18q1-d1e680">Ad secundam quaestionem dicendum, quod sicut clausio januae est obstaculum prohibens
+              ab ingressu domus; ita per similitudinem dicitur janua Paradisi clausa, inquantum est
+              aliquod obstaculum prohibens ab introitu Paradisi. Obstaculum autem potest esse
+              duplex: unum ex parte personae, quod est per peccatum actuale; aliud ex parte naturae,
+              quod est per peccatum originale. Primum quidem obstaculum non est commune omnibus, sed
+              tantum peccatoribus; sed secundum obstaculum est omnibus commune; et hoc quidem
+              obstaculum auferri non potuit nisi per eum cujus operatio in totam naturam potuit,
+              scilicet Christum: et ideo ipse nobis quantum ad hoc apertionem januae meruit, quae
+              per peccatum primi hominis toti vitiatae naturae clausa erat.</p>
+            <p xml:id="ta-l3d18q1-d1e683">Ad primum ergo dicendum, quod est duplex Paradisus; scilicet caelestis, quae est ipsa
+              visio Dei, et terrestris. Per peccatum autem primi hominis clausa fuit janua Paradisi
+              terrestris in signum quod humanae naturae claudebatur ostium Paradisi caelestis. Enoch
+              ergo et Elias, quamvis Paradisum terrestrem ante passionem ingressi sint, non tamen
+              Paradisum caelestem, de cujus janua hic loquitur.</p>
+            <p xml:id="ta-l3d18q1-d1e686">Ad secundum dicendum, quod antiqui patres meruerunt introitum Paradisi quantum ad id
+              quod personae est, sicut et nos; tamen quod removeretur impedimentum, quod erat ex
+              parte naturae, mereri non potuerunt; et ideo semper remanebat eis janua clausa.</p>
+            <p xml:id="ta-l3d18q1-d1e689">Ad tertium dicendum, quod quamvis remotum sit impedimentum quod erat ex parte
+              naturae, per Christum; tamen oportet quod per actum meritorium efficiatur homini
+              Paradisus debitus quantum ad id quod est personae: et ideo oportet quod homo agat ad
+              hoc ut Paradisum intrare mereatur.</p>
+          </div>
+          <div xml:id="ta-l3d18q1-Dd1e693">
+            <head xml:id="ta-l3d18q1-Hd1e695">Quaestiuncula 3</head>
+            <p xml:id="ta-l3d18q1-d1e698">Ad tertiam quaestionem dicendum, quod obstaculum quod januam Paradisi claudebat, ut
+              dictum est, fuit peccatum totam naturam inficiens: et quia peccatum per satisfactionem
+              tollitur, neque satisfactio potuit congrue aliter fieri nisi per passionem Christi, ut
+              infra dicetur: ideo per passionem ipsius tantum aperta est nobis janua, et non per
+              alia quae prius operatus est. Tamen per alia quae prius operatus est meruit nobis
+              conversionem ad ipsum, inquantum meruit se nobis manifestari; per quam nos proficimus,
+              et non ipse.</p>
+            <p xml:id="ta-l3d18q1-d1e701">Ad primum ergo dicendum, quod meritum satisfactionis non consistit tantum in
+              caritate, sed requirit passionem Christi, ut infra dicetur. Per satisfactionem autem
+              oportebat nobis januam aperiri.</p>
+            <p xml:id="ta-l3d18q1-d1e704">Ad secundum dicendum, quod in Baptismo aperti sunt caeli, quia Baptismus est id per
+              quod efficimur participes passionis Christi, consepulti cum ipso in mortem; Rom. 6;
+              unde Baptismus non aperit januam nisi supposita passione.</p>
+            <p xml:id="ta-l3d18q1-d1e707">Ad tertium dicendum, quod ascensio non aperuit januam quantum ad id quod est
+              essentiale in Paradiso, scilicet visionem Dei (quia etiam ante ascensionem Deum
+              viderunt sancti educti de Limbo); sed quantum ad locum congruentem beatis.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l3d18q1-Dd1e712">
+          <head xml:id="ta-l3d18q1-Hd1e714">Expositio textus</head>
+          <p xml:id="ta-l3d18q1-d1e717"><quote xml:id="ta-l3d18q1-Qd1e718">Ut amota ignea rhomphaea</quote>: quae quidem posita in Paradiso terrestri
+            significabat impedimentum quod prohibebat ingressum Paradisi caelestis. <quote xml:id="ta-l3d18q1-Qd1e721">Sed vel
+              mox post carnis separationem anima impassibilitate donata est</quote>. Hoc probabilius
+            est: quia etiam aliae animae sanctorum, quae nihil purgabile habent, mox post
+            separationem a corpore impassibiles fiunt. <quote xml:id="ta-l3d18q1-Qd1e724">In qua forma crucifixus est, in ea
+              exaltatus est</quote>; contra. Exaltatio est usque ad aequalitatem patris, quod non
+            convenit sibi secundum humanam naturam, in qua crucifixus est. Dicendum, quod exaltatio
+            potest dupliciter intelligi: aut quantum ad cognitionem nostram; et sic debetur personae
+            ratione utriusque naturae: aut quantum ad rem; et sic cum exaltatio duo importet,
+            terminum ad quem, et motum ad ipsum; terminus convenit personae, secundum quod dicitur
+            exaltari usque ad aequalitatem patris; naturae autem assumptae, secundum quod dicitur
+            exaltari ad potiora bona patris; motus autem convenit tantum naturae: et ideo exaltatio
+            convenit personae ratione naturae. <quote xml:id="ta-l3d18q1-Qd1e727">Non est autem inventus inter homines aliquis
+              qui id posset implere</quote>. Quia meritum unius puri hominis non poterat in totam
+            naturam. <quote xml:id="ta-l3d18q1-Qd1e730">Vix unicuique sua sufficiebat virtus</quote>: quia justitiae nostrae
+            imperfectionem habent admixtam; et ideo vix valent quantum ad personale meritum; nullo
+            autem modo ad merendum pro tota natura. <quote xml:id="ta-l3d18q1-Qd1e733">Impleto autem Dei decreto aperire
+              valuit</quote>. Decretum dicitur Dei praeceptum, quod Adam transgressus est, quod
+            Christus obediendo implevit. Vel decretum dicitur sententia mortis, quam in Adam tulit;
+            et hoc etiam decretum Christus implevit quando mortem sustinuit. Chirographum autem
+            dicitur memoria praevaricationis Adae, sive reatus ipsius, quod Christus pro nobis
+            satisfaciendo delevit. <quote xml:id="ta-l3d18q1-Qd1e737">Tantum enim fuit peccatum nostrum ut salvari non possemus,
+              nisi unigenitus Dei filius pro nobis mereretur</quote>. De hoc infra, dist. 20,
+            quaere.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

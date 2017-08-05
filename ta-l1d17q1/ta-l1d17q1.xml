@@ -1,0 +1,2132 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 17, Quaestio 1</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.09-dev-master">
+          <title>Librum I, Distinctio 17, Quaestio 1</title>
+          <date when="2016-03-14">March 14, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-14">March 14, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p>1856 editum</p>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="2015.09">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <div xml:id="starts-on"> </div>
+    </front>
+    <body>
+      <div xml:id="ta-l1d17q1">
+        <head xml:id="ta-l1d17q1-Hd1e3490">Librum I, Distinctio 17, Quaestio 1</head>
+        <div xml:id="ta-l1d17q1-Dd1e3493">
+          <head xml:id="ta-l1d17q1-Hd1e3495">Prooemium</head>
+          <p xml:id="ta-l1d17q1-d1e3498">Postquam determinavit de missione visibili spiritus sancti, hic determinat de missione
+            ejus invisibili; et dividitur in duas partes: in prima determinat veritatem, secundum
+            suam opinionem; secundo determinat objectiones in contrarium factas, ibi: <quote xml:id="ta-l1d17q1-Qd1e3500">hic
+              quaeritur, si caritas spiritus sanctus est, cum ipsa augeatur et minuatur in homine
+              (...) utrum concedendum sit quod spiritus sanctus augeatur vel minuatur in
+              homine</quote>. Circa primum tria facit: in prima praedicit intentionem; in secunda
+            proponit veritatem, ibi: <quote xml:id="ta-l1d17q1-Qd1e3503">hoc autem ut intelligibilius doceri ac plenius perspici
+              valeat, praemittendum est quiddam ad hoc valde necessarium</quote>; in tertia inducit
+            probationem, ibi: <quote xml:id="ta-l1d17q1-Qd1e3506">ne autem in re tanta aliquid de nostro influere videamur,
+              sacris auctoritatibus, quod dictum est, corroboremus</quote>. Et haec dividitur in
+            duas, secundum duo quae probat: primo probat, caritatem esse ipsum spiritum sanctum;
+            secundo probat, spiritum sanctum tunc dari nobis quando nos facit Deum diligere, ibi:
+              <quote xml:id="ta-l1d17q1-Qd1e3509">tunc enim mitti vel dari dicitur, cum ita in nobis est ut faciat nos diligere
+              Deum</quote>. Prima in duas: in prima probat, caritatem esse spiritum sanctum; in
+            secunda excludit quamdam responsionem, ibi: <quote xml:id="ta-l1d17q1-Qd1e3512">sed ne forte aliquis dicat, illud
+              dictum esse per expressionem causae, Deus caritas est (...) occurrit
+              Augustinus</quote>. Circa primum duo facit: primo ostendit, caritatem esse Deum;
+            secundo specialiter ipsam esse spiritum sanctum, ibi: <quote xml:id="ta-l1d17q1-Qd1e3516">cum autem fraterna dilectio
+              sit Deus, nec pater est nec filius, sed tantum spiritus sanctus, qui proprie in
+              Trinitate dilectio vel caritas dicitur</quote>. Ad intellectum hujus partis quinque
+            quaeruntur: 1 utrum caritas sit aliquid creatum in anima; 2 utrum sit substantia, vel
+            accidens; 3 ad quam mensuram detur; 4 utrum possit cognosci ab habente ipsam; 5 utrum
+            ipsa caritas sit ex caritate diligenda.</p>
+        </div>
+        <div xml:id="ta-l1d17q1-Dd1e3521" type="articulus">
+          <head xml:id="ta-l1d17q1-Hd1e3523">Articulus 1</head>
+
+          <head xml:id="ta-l1d17q1-Hd1e3526" type="questionTitle">Utrum caritas sit aliquid creatum in anima</head>
+
+          <p xml:id="ta-l1d17q1-d1e3529">Ad primum sic proceditur. Videtur quod caritas non sit aliquid creatum in anima. Agens
+            enim quod sine medio operatur perfectius est quam illud quod non agit nisi per medium.
+            Sed spiritus sanctus operatur in nobis velle et perficere in actibus meritoriis,
+            secundum apostolum: <quote xml:id="ta-l1d17q1-Qd1e3531">qui enim spiritu Dei aguntur hi filii Dei sunt</quote>,
+            Roman. 8, 14. Ergo cum ipse sit perfectissimum agens, videtur quod non moveat ad hanc
+            operationem per aliquem habitum creatum medium.</p>
+          <p xml:id="ta-l1d17q1-d1e3535">Item, sicut anima se habet ad corpus ut vita ipsius, ita se habet Deus ad animam, ut
+            dicit Augustinus. Sed anima non vivificat corpus per aliquam formam mediam. Ergo nec
+            spiritus sanctus animam per habitum medium.</p>
+          <p xml:id="ta-l1d17q1-d1e3538">Praeterea, esse gratiae immediatius est a Deo et propinquius, quam esse naturae. Sed
+            Deus in creatione non est usus aliquo medio, quando naturam instituit. Ergo nec in
+            recreatione, quando gratiam infundit.</p>
+          <p xml:id="ta-l1d17q1-d1e3542">Hoc etiam ostenditur ex dignitate caritatis. Omnis enim creatura est vanitas. Si ergo
+            caritas est creatura, vanitas erit. Sed vanitas non conjungit veritati, nec confirmat in
+            veritate. Ergo caritas non conjungeret nos Deo; quod falsum est.</p>
+          <p xml:id="ta-l1d17q1-d1e3545">Praeterea, nullum finitum est virtutis infinitae: cum virtus fluat ab essentia. Sed
+            omnis creatura finita est. Ergo nullius creaturae virtus infinita est. Sed virtus
+            caritatis infinita est, quia movet per infinitam distantiam; conjungit enim creaturam
+            creatori, et facit de peccatore justum. Ergo videtur quod non sit creatura.</p>
+          <p xml:id="ta-l1d17q1-d1e3548">Item, nulla creatura est dignior quam anima Christi. Sed caritas est dignior quam anima
+            Christi; quia ipsa caritate anima Christi bona est. Ergo caritas non est creatura.</p>
+          <p xml:id="ta-l1d17q1-d1e3551">Praeterea, majori bono debetur major amor. Sed Deus est infinitum bonum, et infinita
+            fecit pro nobis. Igitur debemus sibi infinitum amorem. Sed amor quo diligimus Deum, est
+            caritas. Ergo caritas est quid infinitum. Ergo non est creatura.</p>
+          <p xml:id="ta-l1d17q1-d1e3554">Praeterea, omne creatum est in praedicamento aliquo. Sed quidquid continetur in decem
+            generibus, est aliqua natura. Si ergo caritas sit quid creatum, erit natura quaedam. Sed
+            natura adveniens naturae non facit nisi naturam. Ergo anima habens caritatem, si caritas
+            sit quid creatum, non habebit nisi esse naturae. Sed per caritatem potest mereri. Ergo
+            natura aliqua per se poterit in actus meritorios; quod est haeresis Pelagiana. Videtur
+            ergo quod caritas non sit quid creatum.</p>
+          <p xml:id="ta-l1d17q1-d1e3557">Contra, omne quod recipitur in aliquo, recipitur in eo per modum recipientis. Sed amor
+            increatus, qui est spiritus sanctus, participatur in creatura. Ergo secundum modum
+            ipsius creaturae. Sed modus ejus est finitus. Ergo oportet quod recipiatur in creatura
+            aliquis amor finitus. Sed omne finitum est creatum. Ergo in anima habente spiritum
+            sanctum, est aliqua caritas creata.</p>
+          <p xml:id="ta-l1d17q1-d1e3561">Item, omnis assimilatio fit per formam aliquam. Sed per caritatem efficimur conformes
+            ipsi Deo; qua amissa, dicitur anima deformari. Ergo videtur quod caritas sit quaedam
+            forma creata manens in anima.</p>
+          <p xml:id="ta-l1d17q1-d1e3564">Praeterea constat quod Deus aliquo modo est in sanctis quo non est in creaturis. Sed
+            ista diversitas non potest poni ex parte ipsius Dei, qui eodem modo se habet ad omnia.
+            Ergo videtur quod sit ex parte creaturae, scilicet quod ipsa creatura habeat aliquid
+            quod alia non habent. Aut ergo habet ipsum divinum esse; et sic omnes justi assumerentur
+            a spiritu sancto in unitatem personae, sicut natura humana assumpta est a Christo in
+            unitatem personae ipsius filii Dei: quod non potest esse. Aut oportet quod illa
+            creatura, in qua speciali modo Deus esse dicitur, habeat in se aliquem effectum Dei,
+            quem alia non habent. Iste autem effectus non potest esse tantum actus; quia sic in
+            justis dormientibus non esset alio modo quam in aliis creaturis. Ergo oportet quod sit
+            aliquis habitus. Oportet igitur aliquem habitum caritatis creatum esse in anima,
+            secundum quem spiritus sanctus ipsam inhabitare dicitur.</p>
+          <p xml:id="ta-l1d17q1-d1e3567">Respondeo dicendum, quod tota bonitas ipsius animae est ex caritate: unde quantum bona
+            est tantum habet de caritate; et si caritatem non habeat, nihil est, sicut dicitur 1
+            Corinth., 13. Constat autem quod per caritatem anima non habet minus de bonitate in esse
+            gratiae, quam per virtutem acquisitam in esse politico. Virtus autem politica duo facit:
+            quia facit bonum habentem, et opus ejus bonum reddit. Multo fortius igitur hoc facit
+            caritas. Neutrum autem horum effici poterit, nisi caritas sit habitus creatus. Constat
+            enim quod omne esse a forma aliqua inhaerente est, sicut esse album ab albedine, et esse
+            substantiale a forma substantiali. Sicut igitur non potest intelligi quod paries sit
+            albus sine albedine inhaerente; ita non potest intelligi quod anima sit bona in esse
+            gratuito sine caritate et gratia informante ipsam. Similiter etiam, cum actus
+            proportionetur potentiae operativae sicut effectus propriae causae, impossibile est
+            intelligere quod actus perfectus in bonitate sit a potentia non perfecta per habitum;
+            sicut etiam calefacere non potest esse ab igne nisi mediante calore. Et ideo cum actus
+            caritatis perfectionem quamdam habeat ex hoc quod est meritorius omnibus modis, oportet
+            ponere, caritatem esse habitum creatum in anima; quae quidem efficienter est a tota
+            Trinitate, sed exemplariter manat ab amore, qui est spiritus sanctus: et ideo frequenter
+            invenitur quod spiritus sanctus sit amor quo diligimus Deum et proximum, sicut etiam
+            dicitur a Dionysio, quod esse divinum est esse omnium rerum, inquantum scilicet ab eo
+            omne esse exemplariter deducitur. Magister tamen vult quod caritas non sit aliquis
+            habitus creatus in anima; sed quod sit tantum actus qui est ex libero arbitrio moto per
+            spiritum sanctum, quem caritatem dicit. Ad cujus explanationem, quidam dixerunt, quod
+            sicut lux dupliciter potest considerari, vel prout est in se, et sic dicitur lux; vel
+            prout est in extremitate diaphani terminati, et sic lux dicitur color (quia hypostasis
+            coloris est lux, et color nihil aliud est quam lux incorporata); ita dicunt, quod
+            spiritus sanctus, prout in se consideratur, spiritus sanctus et Deus dicitur; sed prout
+            consideratur ut existens in anima, quam movet ad actum caritatis, dicitur caritas.
+            Dicunt enim, quod sicut filius univit sibi naturam humanam solus, quamvis sit ibi
+            operatio totius Trinitatis; ita spiritus sanctus solus unit sibi voluntatem, quamvis ibi
+            sit operatio totius Trinitatis. Sed hoc non potest stare; quia unio humanae naturae in
+            Christo terminata est ad unum esse personae divinae: et ideo idem actus numero est
+            personae divinae et naturae humanae assumptae. Sed voluntas alicujus sancti non
+            assumitur in unitatem suppositi spiritus sancti. Unde cum operatio a supposito unitatem
+            habeat et diversitatem; non potest esse quod intelligatur esse una operatio voluntatis
+            et spiritus sancti, nisi per modum quo Deus operatur in qualibet re. Sed iste modus non
+            sufficit ad operationis perfectionem; quia operatio consequitur conditiones causae
+            proximae in necessitate et contingentia et perfectione et hujusmodi, et non primae
+            causae. Unde non est intelligere quod sit operatio perfecta voluntatis per quam uniatur
+            spiritui sancto, nisi sit ibi habitus perficiens potentiam operativam: nec potest esse
+            similitudo actus voluntatis ad spiritum sanctum, nisi sit similitudo spiritus sancti in
+            anima per aliquam formam, quae est principium actus quo spiritui sancto conformetur;
+            quia actus ad hoc non sufficit, ut dictum est.</p>
+          <p xml:id="ta-l1d17q1-d1e3570">Ad primum ergo dicendum, quod in gratificatione animae est considerare duplicem
+            operationem spiritus sancti. Unam, quae terminatur ad esse secundum actum primum qui est
+            esse gratum in habendo habitum caritatis. Aliam, secundum quam operatur actum secundum,
+            qui est operatio movens voluntatem in opus dilectionis: et utroque modo oportet incidere
+            medium non propter indigentiam vel defectum ipsius spiritus operantis, sed propter
+            necessitatem animae recipientis; sed diversimode. Quia quo ad primum effectum, qui est
+            esse gratiae, caritas est medium per modum causae formalis: quia nullum esse potest
+            recipi in creatura, nisi per aliquam formam. Ad effectum autem secundum, qui est
+            operatio, est medium caritas in ratione causae efficientis secundum quod virtutem quae
+            est principium operandi reducimus in causam agentem: quia etiam non est possibile
+            aliquam operationem perfectam a creatura exire, nisi principium illius operationis sit
+            perfectio potentiae operantis, prout dicimus habitum elicientem actum esse principium
+            ejus.</p>
+          <p xml:id="ta-l1d17q1-d1e3573">Ad secundum dicendum, quod anima comparatur ad corpus non tantum ut causa agens,
+            secundum quod est motrix corporis, sed etiam ut forma; unde formaliter seipsa facit
+            vivere corpus, secundum quod vivere dicitur esse viventium. Deus autem non est forma
+            ipsius animae vel voluntatis, qua formaliter vivere possit; sed dicitur vita animae
+            sicut principium exemplariter influens vitam gratiae ipsi. Similiter dicendum de luce,
+            quod lux potest dupliciter considerari. Vel prout est in ipso corpore lucido; et sic se
+            habet ad illuminationem aeris ut principium efficiens, nec illuminat nisi per formam
+            luminis influxam ipsi diaphano illuminato: vel prout est in diaphano illuminato; et sic
+            est forma ipsius, qua formaliter est lucidum. Deus autem dicitur esse illuminans lux per
+            modum lucis quae est in ipso corpore lucenti per se, et non per modum quo illuminatum
+            formaliter illuminatur a forma lucis in ipso recepta. Sed illi lumini recepto
+            assimilatur caritas vel gratia recepta in anima.</p>
+          <p xml:id="ta-l1d17q1-d1e3576">Ad tertium dicendum, quod omnino simile est de creatione et recreatione. Sicut enim
+            Deus per creationem contulit rebus esse naturae, et illud esse est formaliter a forma
+            recepta in ipsa re creata, quae est quasi terminus operationis ipsius agentis; et iterum
+            forma illa est principium operationum naturalium, quas Deus in rebus operatur: ita etiam
+            et in recreatione Deus confert animae esse gratiae; et principium formale illius esse
+            est habitus creatus, quo etiam perficitur operatio meritoria quam Deus in nobis
+            operatur; et ita iste habitus creatus partim se habet ad operationem spiritus sancti ut
+            terminus, et partim ut medium.</p>
+          <p xml:id="ta-l1d17q1-d1e3580">Ad quartum dicendum, quod caritas, inquantum est ex nihilo, habet quod sit vanitas; sed
+            inquantum procedit a Deo ut similitudo ipsius, non habet rationem vanitatis, immo
+            conjungendi ipsi Deo.</p>
+          <p xml:id="ta-l1d17q1-d1e3583">Ad quintum dicendum, quod aliquid dicitur facere dupliciter: vel per modum efficientis,
+            sicut pictor facit parietem album; vel per modum formae, sicut albedo facit album.
+            Facere igitur de peccatore justum vel Deo conjunctum, est ipsius Dei sicut efficientis,
+            et ipsius caritatis sicut formae. Unde non potest concludi quod caritas sit virtutis
+            infinitae, sed solum quod est effectus virtutis infinitae.</p>
+          <p xml:id="ta-l1d17q1-d1e3586">Ad sextum dicendum, quod nobilitas aliquorum potest attendi dupliciter: vel
+            simpliciter, vel secundum quid. Videtur autem simpliciter dignius esse quod secundum
+            suum esse nobilius est, et hoc modo anima Christi et anima cujuscumque justi est
+            nobilior quam caritas creata, quae habet esse accidentis. Videtur etiam aliquid dignius
+            secundum quid, quod secundum aliquod dignius est; et hoc modo caritas creata est
+            nobilior quam anima Christi. In quolibet enim genere actus est nobilior quam potentia,
+            quantum ad illud genus. Unde sicut albedo corporis Christi quantum ad hoc esse quod est
+            esse album, est nobilior quam sit corpus Christi; ita etiam scientia ejus creata est
+            nobilior quam anima ejus quantum ad hoc quod est esse scientem, quod est esse secundum
+            quid. Et similiter caritas quantum ad tale esse: quia se habet in esse illo ad animam
+            Christi, sicut actus ad potentiam.</p>
+          <p xml:id="ta-l1d17q1-d1e3589">Ad septimum dicendum, quod secundum philosophum, nunquam in quibusdam amicitiis
+            contingit aequivalens reddere: sed sufficit ad aequitatem amicitiae illud quod est
+            possibile reddi; sicut filius nunquam potest patri carnali reddere aliquid aequivalens
+            ei quod ab ipso accepit, scilicet esse et doctrinam et nutrimentum. Multo minus divinis
+            beneficiis et bonitati suae possumus reddere amorem aequivalentem. Unde non sequitur
+            quod amor quo Deum diligimus, sit infinitus quantum ad substantiam actus; sed
+            infinitatem habet ex hoc quod objectum amoris omnibus aliis praeponitur: sed sufficit
+            quod amemus cum amore commensurato nobis.</p>
+          <p xml:id="ta-l1d17q1-d1e3592">Ad ultimum dicendum, quod natura dicitur multipliciter, secundum Boetium: dicitur enim
+            uno modo natura omne quod est, vel substantia vel accidens; et hoc modo gratia est
+            natura quaedam. Alio modo dicitur natura quod est principium motus et quietis ipsius in
+            quo est, unde illud dicitur esse naturale vel quod causatur a principiis naturalibus,
+            vel causari potest; et hoc modo caritas non est natura, quia per principia naturalia
+            creaturae non potest causari; et secundum hunc modum dicit Pelagius, per naturalia sola
+            hominem posse in actus meritorios.</p>
+        </div>
+        <div xml:id="ta-l1d17q1-Dd1e3596" type="articulus">
+          <head xml:id="ta-l1d17q1-Hd1e3598">Articulus 2</head>
+
+          <head xml:id="ta-l1d17q1-Hd1e3601" type="questionTitle">Utrum caritas sit accidens</head>
+
+          <p xml:id="ta-l1d17q1-d1e3604">Ad secundum sic proceditur. Videtur quod caritas non sit accidens. Nullum enim accidens
+            extenditur ultra suum subjectum. Sed caritas extenditur ultra suum subjectum, quia
+            caritate etiam alios amamus. Ergo videtur quod caritas non sit accidens.</p>
+          <p xml:id="ta-l1d17q1-d1e3607">Item, omne accidens est causatum a substantia; quia, secundum Avicennam, subjectum est
+            quod est in se completum, praebens alteri occasionem essendi. Sed caritas non causatur a
+            principiis animae in qua est. Ergo videtur quod non sit accidens.</p>
+          <p xml:id="ta-l1d17q1-d1e3610">Praeterea, nullum accidens est melius et nobilius suo subjecto. Sed caritas est melior
+            quam anima. Ergo non est in anima sicut accidens in subjecto. Probatio mediae. Propter
+            quod unumquodque tale, et illud magis. Sed anima est bona propter caritatem. Ergo
+            caritas est melior.</p>
+          <p xml:id="ta-l1d17q1-d1e3614">Item, agens semper est honorabilius patiente, secundum philosophum. Sed caritas agit in
+            animam, mundando ipsam a peccatis. Ergo est honorabilior anima, et ita idem quod
+            prius.</p>
+          <p xml:id="ta-l1d17q1-d1e3617">Contra, quidquid potest adesse et abesse praeter subjecti corruptionem, est accidens.
+            Caritas est hujusmodi. Ergo et cetera.</p>
+          <p xml:id="ta-l1d17q1-d1e3620">Respondeo dicendum, quod omne illud quod advenit alicui post esse completum, advenit
+            sibi accidentaliter; nisi forte assumatur ad participationem ipsius esse substantialis,
+            sicut dictum est supra, 8 dist., quaest. 5, art. 2, de anima. Sed hoc tamen non sufficit
+            ut dicatur accidens in se: potest enim aliquid in se substantia esse, et advenire alicui
+            accidentaliter, sicut vestimenta; sed si adveniat post esse completum ut forma
+            inhaerens, de necessitate est accidens. Et quia post esse naturale animae advenit sibi
+            caritas ut forma perficiens ipsam ad esse gratiae, prout dictum est, art. antec., ideo
+            oportet quod sit accidens.</p>
+          <p xml:id="ta-l1d17q1-d1e3623">Ad primum ergo dicendum, quod idem accidens numero nunquam extenditur ultra subjectum
+            suum, idest ut sit in alio sicut in subjecto; sed bene extenditur extra subjectum suum
+            sicut ad objectum operationis; sed diversimode in operatione activa et passiva. Quia in
+            activa extenditur ad objectum extrinsecum, imprimens similitudinem formae suae in ipso,
+            sicut patet quod calor ignis active calefacit aliud corpus, et est operatio activa.
+            Similiter etiam quando est operatio passiva, et extenditur in aliud objectum
+            extrinsecum, cujus similitudo in ipso recipitur; et ita anima per habitum scientiae scit
+            ea quae sunt extra ipsam, et per habitum amoris eadem amat.</p>
+          <p xml:id="ta-l1d17q1-d1e3626">Ad secundum dicendum, quod subjectum diversimode se habet ad diversa accidentia.
+            Quaedam autem sunt accidentia naturalia quae creantur ex principiis subjecti; et hoc
+            dupliciter: quia vel causantur ex principiis speciei, et sic sunt propriae passiones,
+            quae consequuntur totam speciem; vel ex principiis individui, et sic sunt communia
+            consequentia principia naturalia individua. Sunt etiam quaedam accidentia per violentiam
+            inducta, sicut calor in aqua, et ista sunt repugnantia principiis subjecti. Quaedam
+            autem sunt quae quidem causantur ab extrinseco non repugnantia principiis subjecti, sed
+            magis perficientia ipsa, sicut lumen in aere: et ita etiam caritas in anima est ab
+            extrinseco. Tamen sciendum, quod omnibus accidentibus, communiter loquendo, subjectum
+            est causa quodammodo, inquantum scilicet accidentia in esse subjecti sustentantur; non
+            tamen ita quod ex principiis subjecti omnia accidentia educantur.</p>
+          <p xml:id="ta-l1d17q1-d1e3629">Ad tertium dicendum, quod eadem ratione posset probari quod nulla perfectio animae
+            esset accidens, nec aliqua perfectio corporis: quia unumquodque perfectibile habet
+            bonitatem ex sua perfectione. Dicendum est igitur, quod simpliciter anima est melior
+            caritate, et quodlibet subjectum suo accidente; sed secundum quid est e converso. Cujus
+            ratio est, quia esse, secundum Dionysium est nobilius omnibus aliis quae consequuntur
+            esse: unde esse simpliciter est nobilius quam intelligere, si posset intelligi
+            intelligere sine esse. Unde illud quod excedit in esse, simpliciter nobilius est omni eo
+            quod excedit in aliquo de consequentibus esse; quamvis secundum aliud possit esse minus
+            nobile. Et quia anima et quaelibet substantia habet nobilius esse quam accidens, ideo
+            simpliciter nobilior est. Sed quantum ad aliquod esse, vel secundum aliquod accidens,
+            potest accidens esse nobilius, quia se habet ad substantiam sicut actus ad potentiam; et
+            hanc bonitatem consequentem habet substantia ab accidentibus, sed non bonitatem primam
+            essendi.</p>
+          <p xml:id="ta-l1d17q1-d1e3633">Ad quartum dicendum, quod caritas non dicitur agere in animam per modum efficientis,
+            sed solum formaliter; et secundum id quod forma est, quantum ad esse secundum, nobilior
+            est.</p>
+        </div>
+        <div xml:id="ta-l1d17q1-Dd1e3637" type="articulus">
+          <head xml:id="ta-l1d17q1-Hd1e3639">Articulus 3</head>
+
+          <head xml:id="ta-l1d17q1-Hd1e3642" type="questionTitle">Utrum caritas detur secundum capacitatem naturalium</head>
+
+          <p xml:id="ta-l1d17q1-d1e3645">Ad tertium sic proceditur. Videtur quod caritas detur secundum capacitatem naturalium.
+            Ita dicitur Matth. 25, 15: <quote xml:id="ta-l1d17q1-Qd1e3647" ana="#mt25_15">dedit unicuique secundum propriam virtutem</quote>;
+            ubi Glossa Hieronymi: <quote xml:id="ta-l1d17q1-Qd1e3650">non pro largitate vel parcitate, alii plus vel minus
+              recipiunt; sed secundum virtutem recipientium</quote>. Sed ante adventum caritatis non
+            intelligitur nisi virtus quae est secundum naturalia. Ergo videtur quod secundum
+            capacitatem naturalium caritas infundatur.</p>
+          <p xml:id="ta-l1d17q1-d1e3654">Item, sicut se habet forma substantialis ad esse naturae, ita caritas ad esse gratiae.
+            Sed forma substantialis datur secundum capacitatem materiae, ut dicit Plato. Ergo et
+            caritas datur secundum capacitatem naturae, quae per eam perficitur.</p>
+          <p xml:id="ta-l1d17q1-d1e3657">Praeterea, sicut gloria praesupponit gratiam, ita gratia praesupponit naturam. Sed
+            gloria datur secundum modum gratiae, ut qui plus habet de capacitate, plus etiam de
+            gloria recipiat. Ergo videtur quod etiam caritas detur secundum capacitatem naturae, ut
+            qui meliora naturalia habet, major sibi caritas infundatur.</p>
+          <p xml:id="ta-l1d17q1-d1e3661">Item, in quibuscumque invenitur perfectio ejusdem rationis, videtur esse idem modus
+            consequendi illam perfectionem, cum unaquaeque res proprium modum habeat. Sed caritas
+            invenitur in hominibus et Angelis secundum rationem eamdem, quod patet ex actu et fine.
+            Cum igitur Angeli consecuti sint majorem caritatem et meliora gratuita, secundum gradum
+            naturalium, videtur etiam quod in hominibus ita sit.</p>
+          <p xml:id="ta-l1d17q1-d1e3664">Contra, natura angelica altior est et sublimior quam natura humana. Sed aliqui homines,
+            secundum gradum gratiae assumuntur ad sublimius praemium quam Angeli, cum, secundum
+            Gregorium, ad singulos ordines Angelorum aliqui homines assumantur. Ergo videtur quod
+            perfectiones gratiae et gloriae non dentur secundum mensuram naturalium. Hoc idem
+            videtur per hoc quod dicitur Prov. 30, 28: <quote xml:id="ta-l1d17q1-Qd1e3666">stellio manibus nititur</quote>; ubi
+            dicit Gregorius quod gratia major infunditur, secundum quod ad habendum gratiam aliquis
+            magis nititur.</p>
+          <p xml:id="ta-l1d17q1-d1e3670">Respondeo dicendum, quod, cum Deus habeat se aequaliter ad omnia, oportet quod
+            diversitas donorum receptorum ab ipso, attendatur secundum diversitatem recipientium.
+            Diversitas autem recipientium attenditur, secundum quod aliquid est magis aptum et
+            paratum ad recipiendum. Sicut autem videmus in formis naturalibus, quod per
+            dispositiones accidentales, sicut calorem et frigus et hujusmodi, materia efficitur
+            magis vel minus disposita ad suscipiendum formam; ita etiam in perfectionibus animae ex
+            ipsis operibus animae anima efficitur habilior vel minus habilis ad consequendum
+            perfectionem suam. Sed tamen differenter se habent operationes animae ad perfectiones
+            infusas vel acquisitas. Acquisitae enim perfectiones sunt in natura ipsius animae, in
+            potentia, non pure materiali sed etiam activa, qua aliquid est in causis seminalibus.
+            Sicut patet quod omnis scientia acquisita est in cognitione primorum principiorum, quae
+            naturaliter nota sunt, sicut in principiis activis ex quibus concludi potest. Et
+            similiter virtutes morales sunt in ipsa rectitudine rationis et ordine, sicut in quodam
+            principio seminali. Unde philosophus, dicit esse quasdam virtutes naturales, quae sunt
+            quasi semina virtutum moralium. Et ideo operationes animae se habent ad perfectiones
+            acquisitas, non solum per modum dispositionis, sed sicut principia activa. Perfectiones
+            autem infusae sunt in natura ipsius animae sicut in potentia materiali et nullo modo
+            activa, cum elevent animam supra omnem suam actionem naturalem. Unde operationes animae
+            se habent ad perfectiones infusas solum sicut dispositiones. Dicendum est igitur, quod
+            mensura secundum quam datur caritas, est capacitas ipsius animae, quae est ex natura
+            simul, et dispositione quae est per conatum operum: et quia secundum eumdem conatum
+            magis disponitur natura melior; ideo qui habet meliora naturalia, dummodo sit par
+            conatus, magis recipiet de perfectionibus infusis; et qui pejora naturalia, quandoque
+            magis recipiet, si adsit major conatus.</p>
+          <p xml:id="ta-l1d17q1-d1e3673">Ad primum ergo dicendum, quod virtus recipientis non est consideranda secundum naturam
+            tantum; sed etiam secundum dispositionem conatus advenientem naturae: et ita etiam est
+            in formis substantialibus respectu materiae.</p>
+          <p xml:id="ta-l1d17q1-d1e3676">Unde patet solutio ad secundum.</p>
+          <p xml:id="ta-l1d17q1-d1e3679">Ad tertium dicendum, quod ipsa gratia est dispositio naturae ad gloriam. Unde non
+            requiritur quod interveniat alia dispositio inter caritatem et gloriam: sed inter
+            naturam et gratiam cadit conatus medius, quasi dispositio.</p>
+          <p xml:id="ta-l1d17q1-d1e3683">Ad quartum dicendum, quod in Angelis non est aliquid quod contendat ad motum naturae
+            intellectualis, ex quo conatus naturae retardetur, sicut in natura hominis est natura
+            sensitiva, quae tendit in contrarium de se motus naturae intellectivae, scilicet
+            delectabile secundum sensum, nisi cogatur et reguletur ab ipsa; et ideo in Angelis est
+            diversitas secundum diversitatem naturae. Haec tamen melius in 2, dist. 3, quaest. 1,
+            art. 4, dicentur.</p>
+        </div>
+        <div xml:id="ta-l1d17q1-Dd1e3688" type="articulus">
+          <head xml:id="ta-l1d17q1-Hd1e3690">Articulus 4</head>
+
+          <head xml:id="ta-l1d17q1-Hd1e3693" type="questionTitle">Utrum caritas certitudinaliter ab habente cognoscatur</head>
+
+          <p xml:id="ta-l1d17q1-d1e3696">Ad quartum sic proceditur. Videtur quod caritas certitudinaliter ab habente
+            cognoscatur. Ita enim dicitur in littera: <quote xml:id="ta-l1d17q1-Qd1e3698">magis novit quis dilectionem qua
+              diligit, quam fratrem quem diligit</quote>. Sed fratrem suum certitudinaliter
+            cognoscit. Ergo multo magis caritatem qua ipsum diligit.</p>
+          <p xml:id="ta-l1d17q1-d1e3702">Item, philosophus dicit, contra Platonem, quod inconveniens est habere nos nobilissimos
+            habitus, et nos lateant. Sed caritas est habitus nobilissimus. Ergo videtur quod ab
+            habente certitudinaliter cognoscatur.</p>
+          <p xml:id="ta-l1d17q1-d1e3705">Praeterea, quicumque habet fidem, scit se habere fidem. Sed fides non magis est
+            praesens quam caritas. Ergo et qui habet caritatem, scit se habere illam.</p>
+          <p xml:id="ta-l1d17q1-d1e3709">Item, quidquid cognoscitur ab anima, cognoscitur ab ea per hoc quod praesens sibi
+            efficitur per similitudinem. Sed magis est praesens animae quod est in ipsa
+            essentialiter, quam quod est per sui similitudinem. Ergo cum caritas essentialiter sit
+            in anima, videtur quod certius cognoscatur ab habente quam res exteriores quae per sui
+            similitudinem cognoscuntur.</p>
+          <p xml:id="ta-l1d17q1-d1e3712">Praeterea, caritas est quoddam lumen spirituale, ut habetur 1 Joan., 2, 10: <quote xml:id="ta-l1d17q1-Qd1e3714">qui
+              diligit fratrem, in lumine manet</quote>. Sed lux seipsa videtur. Ergo videtur quod
+            similiter caritas; et sic certius quam alia cognoscatur.</p>
+          <p xml:id="ta-l1d17q1-d1e3718">Contra, per caritatem quae est in aliquo efficitur dignus Dei amore. Sed, ut dicitur
+            Eccle. 9, 1, <quote xml:id="ta-l1d17q1-Qd1e3720">nemo scit, utrum amore an odio dignus sit</quote>. Ergo videtur quod
+            nullus sciat se habere caritatem certitudinaliter.</p>
+          <p xml:id="ta-l1d17q1-d1e3724">Praeterea, apostolus dicit 1 Corinth. 4, 4: <quote xml:id="ta-l1d17q1-Qd1e3726">nihil mihi conscius sum, sed non in
+              hoc justificatus sum</quote>. Cum ergo nullum majus signum possit haberi de caritate
+            quam non habere conscientiam peccati mortalis, et hoc non sufficit; videtur quod per
+            nullum signum possit aliquis certitudinaliter scire se habere caritatem.</p>
+          <p xml:id="ta-l1d17q1-d1e3730">Respondeo dicendum, quod, secundum philosophum, aliquid dicitur esse difficile ad
+            cognoscendum dupliciter: vel secundum se, vel quo ad nos. Dicendum est igitur quod ea
+            quae per esse suum non sunt unum in materia, quantum in se est, sunt maxime nota; sed
+            quo ad nos sunt difficillima ad cognoscendum; propter quod dicit philosophus quod
+            intellectus noster se habet ad manifestissima naturae, sicut oculus vespertilionis ad
+            lucem solis. Cujus ratio est, quia cum intellectus noster potentialis sit in potentia ad
+            omnia intelligibilia, et ante intelligere non sit in actu aliquod eorum; ad hoc quod
+            intelligat actu, oportet quod reducatur in actum per species acceptas a sensibus
+            illustratas lumine intellectus agentis; quia, sicut dicit philosophus, sicut se habent
+            colores ad visum, ita se habent phantasmata ad intellectum potentialem. Unde cum
+            naturale sit nobis procedere ex sensibus ad intelligibilia, ex effectibus in causas, ex
+            posterioribus in priora, secundum statum viae, quia in patria alius modus erit
+            intelligendi; ideo est quod potentias animae et habitus non possumus cognoscere nisi per
+            actus, et actus per objecta. In actu autem animae est plura considerare: scilicet
+            speciem ipsius actus, quae est ab objecto, et modum et effectum. Si igitur accipiamus
+            actum caritatis, qui est diligere Deum et proximum, ex specie actus, non discernitur
+            utrum sit a potentia imperfecta, vel perfecta per habitum; quia ad idem objectum
+            ordinatur potentia et habitus, sicut scientia et intellectus possibilis. Modus autem
+            quem ponit habitus in opere est facilitas et delectatio, ut dicit philosophus, quod
+            signum habitus oportet accipere fientem in opere delectationem. Per istum autem modum
+            non discernitur utrum sit ab habitu caritatis infuso, vel ab habitu acquisito. Effectus
+            autem proprius dilectionis, secundum quod est ex caritate, est in virtute merendi. Hoc
+            autem nullo modo cadit in cognitionem nostram nisi per revelationem. Et ideo nullus
+            certitudinaliter potest scire se habere caritatem; sed potest ex aliquibus signis
+            probabilibus conjicere. Caritatem etiam increatam, quae Deus est, quamdiu vivimus, per
+            speciem non videmus, ut dicitur 1 Corinth. 13. Quamvis quidam aliter dicant, quod ipsam
+            caritatem, quae Deus est, in nobis videmus, sed visio est adeo tenuis, scilicet quod nec
+            visio potest dici, nec aliquis percipit se videre; eo quod visio ipsius Dei quasi
+            confunditur et admiscetur in cognitione aliorum. Sicut etiam dicunt, quod anima semper
+            se intelligit, sed tamen non semper de se cogitat. Hoc autem quomodo intelligendum est,
+            supra, dist. 3, qu. 1, art. 2, dictum est.</p>
+          <p xml:id="ta-l1d17q1-d1e3733">Ad primum igitur dicendum, quod auctoritates Augustini in littera positae loquuntur de
+            cognitione ex parte ipsius cognoscibilis, et non ex parte cognoscentis.</p>
+          <p xml:id="ta-l1d17q1-d1e3737">Ad secundum dicendum, quod philosophus ibi loquitur de habitibus nobilissimis partis
+            cognitivae. Sed istorum habituum actus perfecte exprimunt suos habitus quantum ad id
+            quod est proprium eis; sicut in actu scientiae est certitudo per causam, in qua expresse
+            scientia demonstratur; et multo plus est hoc in intellectu principiorum. Et ideo qui
+            habet scientiam, scit se habere, quamvis non e converso: quia aliqui se credunt habere,
+            qui non habent. Semper enim ad rectum mensuratur obliquum; et ideo, secundum
+            philosophum, virtuosus est mensura in operibus humanis; quia illud est bonum, quod
+            virtuosus appetit; et similiter etiam est de rectitudine intellectus; quia illud est
+            verum quod videtur habenti rectum intellectum; non autem quod videtur cuilibet.</p>
+          <p xml:id="ta-l1d17q1-d1e3740">Et per hoc patet etiam solutio ad tertium. Quia actus fidei per ipsum objectum, quod
+            est creditum, distinguitur ab actibus aliorum habituum vel potentiae imperfectae, quae
+            non potest per se in tale objectum; et ideo habens fidem scit se illam habere.</p>
+          <p xml:id="ta-l1d17q1-d1e3743">Ad quartum dicendum, quod ad hoc quod aliquid cognoscatur ab anima, non sufficit quod
+            sit sibi praesens quocumque modo, sed in ratione objecti. Intellectui autem nostro nihil
+            est secundum statum viae praesens ut objectum, nisi per aliquam similitudinem ipsius,
+            vel ab ipso effectu acceptam: quia per effectus devenimus in causas. Et ideo ipsam
+            animam et potentias ejus et habitus ejus non cognoscimus nisi per actus, qui
+            cognoscuntur per objecta. Nisi largo modo velimus loqui de cognitione, ut Augustinus
+            loquitur, secundum quod intelligere nihil aliud est quam praesentialiter intellectui
+            quocumque modo adesse.</p>
+          <p xml:id="ta-l1d17q1-d1e3746">Ad quintum dicendum, quod per hoc quod caritas creata vel increata est lux, ostenditur
+            quod in se cognoscibilis sit, sed non cognoscitur, ab intellectu nostro in se nisi per
+            effectum suum, ratione jam dicta, in corp. art.</p>
+        </div>
+        <div xml:id="ta-l1d17q1-Dd1e3750" type="articulus">
+          <head xml:id="ta-l1d17q1-Hd1e3752">Articulus 5</head>
+
+          <head xml:id="ta-l1d17q1-Hd1e3755" type="questionTitle">Utrum caritas sit ex caritate diligenda</head>
+
+          <p xml:id="ta-l1d17q1-d1e3758">Ad quintum sic proceditur. Videtur quod caritas non sit ex caritate diligenda. Quatuor
+            enim tantum sunt diligenda ex caritate, ut in 3, dist. 27, qu. unica, art. 5, dicetur:
+            scilicet, Deus, proximus, anima, corpus. Sed caritas nullum horum est. Ergo et
+            cetera.</p>
+          <p xml:id="ta-l1d17q1-d1e3761">Item, nulla res denominat seipsam, quia albedo non dicitur alba. Sed dilectum
+            denominatur a dilectione. Ergo dilectio non diligitur, nec caritas caritate amatur.</p>
+          <p xml:id="ta-l1d17q1-d1e3764">Praeterea, sicut se habet sensus ad sentire, ita se habet affectus ad diligere. Sed
+            sensus proprius non sentit se sentire. Ergo nec affectus diligit suam dilectionem.
+            Caritas autem est in affectu. Ergo caritas ex caritate non diligitur.</p>
+          <p xml:id="ta-l1d17q1-d1e3768">Praeterea, omne quod diligitur, aliqua dilectione diligitur. Si igitur actus caritatis
+            amatur, oportet quod aliquo alio actu ametur, et ille eadem ratione erit diligendus.
+            Ergo hoc modo ducitur in infinitum, quod non est ponendum. Ergo videtur quod caritas non
+            sit ex caritate diligenda.</p>
+          <p xml:id="ta-l1d17q1-d1e3771">Contra est quod habetur in littera ex verbis Augustini: <quote xml:id="ta-l1d17q1-Qd1e3773">qui proximum diligit,
+              consequens est ut ipsam praecipue dilectionem diligat</quote>. Sed proximus diligendus
+            est ex caritate. Ergo et caritas.</p>
+          <p xml:id="ta-l1d17q1-d1e3777">Item, proximus non est diligendus ex caritate, nisi inquantum habet imaginem Dei. Sed
+            expressius repraesentat Deum caritas, quam imago naturalis quae est in anima. Ergo
+            videtur quod ipsa sit magis ex caritate diligenda.</p>
+          <p xml:id="ta-l1d17q1-d1e3780">Respondeo dicendum, quod aliquid est diligibile dupliciter: vel sicut ratio
+            dilectionis, vel sicut objectum, sicut etiam color videtur ut objectum, et lumen ut
+            ratio per quam color est visibilis in actu. Sicut autem eodem actu videtur color et lux,
+            ita etiam eodem actu diligitur quod amatur ut objectum et ut ratio objecti. Sciendum est
+            igitur quod caritas potest tripliciter sumi; vel pro caritate increata, quae spiritus
+            sanctus est; vel pro caritate habituali; vel pro actu caritatis. Quodlibet autem istorum
+            est ratio diligendi, et potest esse objectum dilectionis; sicut proximum diligimus
+            inquantum in ipso Deus inhabitat, et habitum caritatis habet, et actum exercet; et sic
+            diliguntur ut ratio diligibilis. Si autem considerentur in se, sic adhuc diliguntur ut
+            objectum dilectionis. Sic autem non diligitur caritatis habitus vel actus dilectione
+            amicitiae vel benevolentiae quae inanimatorum esse non potest, ut philosophus dicit, sed
+            dilectione cujusdam complacentiae, secundum quod diligere dicimur illud quod approbamus,
+            et quod esse volumus.</p>
+          <p xml:id="ta-l1d17q1-d1e3783">Ad primum ergo dicendum, quod caritas est quodammodo medium inter Deum et proximum:
+            quia est similitudo Dei, et etiam est ratio diligendi ipsum proximum; et ideo
+            consequitur ad dilectionem utriusque.</p>
+          <p xml:id="ta-l1d17q1-d1e3786">Ad secundum dicendum, quod denominatio proprie est secundum habitudinem accidentis ad
+            subjectum: sic autem dilectum non denominatur a dilectione, sed magis sicut objectum; et
+            ideo ratio non procedit.</p>
+          <p xml:id="ta-l1d17q1-d1e3790">Ad tertium dicendum, quod in potentiis materialibus hoc contingit quod potentia non
+            reflectitur super suum actum, propter hoc quod determinata est secundum compilationem
+            organi. Visus enim particularis non potest cognoscere nisi illud cujus species
+            spiritualiter in pupilla potest recipi; et ideo visus non potest comprehendere suum
+            actum. Si autem hoc esset necessarium in omnibus, quod actus cujuslibet potentiae non
+            cognosceretur a propria potentia, sed a superiore, tunc oporteret quod vel in potentiis
+            animae iretur in infinitum, vel remaneret aliquis actus animae imperceptibilis. Et ideo
+            dicendum, quod potentiae immateriales reflectuntur super sua objecta; quia intellectus
+            intelligit se intelligere, et similiter voluntas vult se velle et diligere. Cujus ratio
+            est, quia actus potentiae immaterialis non excluditur a ratione objecti. Objectum enim
+            voluntatis est bonum; et sub hac ratione diligit voluntas omne quod diligit; et ideo
+            potest diligere actum suum inquantum est bonus; et similiter est ex parte intellectus;
+            et propter hoc Lib. de Caus., prop. 15, dicitur quod cujuscumque actio redit in
+            essentiam agentis per quamdam reflexionem, oportet essentiam ejus ad seipsam redire,
+            idest in se subsistentem esse, non super aliud delatam, idest non dependentem a
+            materia.</p>
+          <p xml:id="ta-l1d17q1-d1e3793">Ad quartum dicendum, quod actus dilectionis, secundum quod tendit in alterum, constat
+            quod differt numero ab actu dilectionis qui in alio diligitur, sive diligatur ut
+            objectum, sive ut ratio diligendi. Sed quia etiam animam suam potest aliquis ex caritate
+            diligere, potest etiam ex caritate actum suae caritatis diligere. Et tunc distinguendum
+            est. Quia vel dilectio fertur in actum dilectionis proprium, sicut in rationem
+            dilectionis tantum; et sic constat quod eodem actu numero diligitur diligens et actus
+            ejus; et sic idem actus diligitur per actum qui est ipse. Vel diligitur ut objectum
+            dilectionis, et sic est alius actus dilectionis numero qui diligitur et quo diligitur;
+            sicut patet planius in actu intellectus. Cum enim actus distinguantur per objecta,
+            oportet dicere diversos actus qui terminantur ad objecta diversa. Unde sicut sunt
+            diversi actus quibus intellectus intelligit equum et hominem, ita sunt diversi actus in
+            numero, quo intelligit equum et quo intelligit actum illius sub ratione actus. Nec est
+            inconveniens quod in actibus animae eatur in infinitum in potentia, dummodo actus non
+            sint infiniti in actu. Unde etiam Avicenna concedit non esse impossibile quin relationes
+            consequentes actum animae, multiplicentur in infinitum.</p>
+        </div>
+        <div xml:id="ta-l1d17q1-Dd1e3797">
+          <head xml:id="ta-l1d17q1-Hd1e3799">Expositio textus</head>
+          <p xml:id="ta-l1d17q1-d1e3802"><quote xml:id="ta-l1d17q1-Qd1e3803">Consequens est ut ipsam praecipue dilectionem diligat</quote>. Hoc intelligitur
+            et de dilectione creata et increata. Qui enim diligit aliquem, vult se diligere illum;
+            et ita actum dilectionis suae diligit; et in ipso diligitur ipsa dilectio increata;
+            sicut exemplar in exemplato, quia nihil est bonum vel diligibile, nisi secundum quod est
+            in eo similitudo boni increati. <quote xml:id="ta-l1d17q1-Qd1e3806">Magis enim novit dilectionem qua diligit, quam
+              fratrem quem diligit</quote>. Totum quod sequitur de certitudine dilectionis, sive de
+            habitu creato intelligatur sive de dilectione increata, exponitur secundum quod aliquid
+            dicitur certum ex se, et non ex parte cognoscentis. Sed actus dilectionis etiam ex parte
+            cognoscentis notus est. Sed utrum ex tali habitu procedat, incertum est. <quote xml:id="ta-l1d17q1-Qd1e3809">Et quo
+              nisi Deo plenus est qui plenus est dilectione?</quote> Hoc ideo dicitur, quia cum dono
+            caritatis etiam ipse spiritus sanctus datur, secundum quod novo modo inhabitare dicitur
+            creaturam per novam similitudinem sui ipsius in ea. <quote xml:id="ta-l1d17q1-Qd1e3812">Qui diligit fratrem, in
+              lumine manet</quote>. Lumen comparatur caritati, non quantum ad virtutem
+            manifestationis, quia sic magis ad dona pertinet intellectus, sed quantum ad virtutem
+            actionis: sicut enim lumen est forma universaliter motiva in tota natura, eo quod est
+            qualitas primi alterantis; ita caritas movet et informat omnia dona, inquantum est
+            similitudo primi doni, quod est spiritus sanctus. <quote xml:id="ta-l1d17q1-Qd1e3815">Ista contextio satis aperte
+              declarat, eamdem ipsam fraternam dilectionem non solum ex Deo, sed etiam Deum esse,
+              tanta auctoritate praedicari</quote>. Hoc enim quod dicitur: <quote xml:id="ta-l1d17q1-Qd1e3818">nam fraterna
+              dilectio est qua diligimus invicem</quote>, interponitur per parenthesim. Dicitur
+            autem fraterna dilectio Deus esse, praedicatione causali, per modum quo Dionysius dicit,
+            quod esse divinum est esse omnium, quia ab eo omne esse traducitur et exemplatur.
+              <quote xml:id="ta-l1d17q1-Qd1e3822">Non dicturi sumus, caritatem non propterea esse dictam Deum, quia ipsa caritas
+              sit nulla substantia quae Dei digna sit nomine, sed quod donum sit Dei</quote>. In hoc
+            differt caritas ab aliis virtutibus, secundum intentionem Magistri et Augustini, quia
+            aliae virtutes, quae in se aliquid imperfectionis important in habente, ut fides,
+            patientia et hujusmodi, ita sunt a Deo quod in Deo non sunt per essentiam. Caritas
+            autem, quae nihil imperfectionis habet, etiam de Deo essentialiter praedicatur, et ab eo
+            in nobis est. Nec tamen sequitur quod illa caritas quae forma mentis nostrae est, sit
+            illa eadem numero quae essentialiter de Deo dicitur, sicut etiam esse dicitur de Deo
+            proprie, nec tamen illud esse est idem numero cum nostro esse. <quote xml:id="ta-l1d17q1-Qd1e3825">Nullum enim est
+              isto dono Dei excellentius</quote>. Videtur hoc esse falsum: quia sapientia ponitur
+            excellentissimum donorum. Ad quod dicendum, quod secundum quod dona condividuntur
+            virtutibus sapientia dignissimum donorum dicitur: et hanc dignitatem habet a caritate,
+            cui semper conjungitur, secundum quam divinam veritatem saporat. Si autem donum
+            universaliter sumatur pro omni eo quod ex Dei munere possidemus, sic caritas simpliciter
+            potissima est, quae nos fini conjungit.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

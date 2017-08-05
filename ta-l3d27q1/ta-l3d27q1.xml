@@ -1,0 +1,616 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum III, Distinctio 27, Quaestio 1</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.09-dev-master">
+          <title>Librum III, Distinctio 27, Quaestio 1</title>
+          <date when="2016-03-13">March 13, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-13">March 13, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness>1856 editum</witness>
+          <witness xml:id="H" n="harv245" xml:base="http://iiif.lib.harvard.edu/manifests/drs:51994085/canvas/">Cambridge, Mass.,
+            Harvard University, Houghton Library, MS Lat 245</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="2015.09">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+
+
+
+
+      <div xml:id="starts-on">
+        <cb ed="#H" n="100vb"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ta-l3d27q1">
+        <head xml:id="ta-l3d27q1-Hd1e97">Librum III, Distinctio 27, Quaestio 1</head>
+        <head xml:id="ta-l3d27q1-Hd1e100">Distinctio 27</head>
+        <div xml:id="ta-l3d27q1-Dd1e103">
+          <head xml:id="ta-l3d27q1-Hd1e105">Prooemium</head>
+          <p xml:id="ta-l3d27q1-d1e108">Postquam determinavit <name ref="#Lombard">Magister</name> de fide et spe, hic tertio
+            determinat de caritate. Dividitur autem haec pars in duas: in prima determinat de
+            caritate qua nos diligimus Deum; in secunda de caritate qua nos diligit Deus, dist. 32:
+              <quote xml:id="ta-l3d27q1-Qd1e113">praemissis adjiciendum est de dilectione Dei qua ipse diligit nos</quote>.
+            Prima in duas: in prima determinat de ipsa caritate; in secunda de caritatis duratione,
+            ibi: <quote xml:id="ta-l3d27q1-Qd1e116">illud quoque non est praetermittendum quod quidam asserunt caritatem semel
+              habitam ab aliquo non posse excidere</quote>. Prima in duas: in prima determinat de
+            ipsa dilectione caritatis; in secunda de his quae per caritatem diliguntur, dist. 28,
+            ibi: <quote xml:id="ta-l3d27q1-Qd1e119">hic quaeri potest, utrum in illo mandato dilectionis proximi totum proximum
+              (...) diligere praecipiamur</quote>. Prima in tres partes: in prima continuat se ad
+            praecedentia; in secunda prosequitur suam intentionem, ibi: <quote xml:id="ta-l3d27q1-Qd1e122">caritas est dilectio
+              qua diligitur Deus</quote>; in tertia continuat se ad sequentia, ibi: <quote xml:id="ta-l3d27q1-Qd1e126">sed quae
+              hac dilectione diligenda sint, inquiramus</quote>. Secunda harum partium dividitur in
+            duas: in prima determinat de dilectione caritatis, secundum quod duobus praeceptis
+            imperatur; in secunda ostendit quod illa duo praecepta mutuo se includunt, ibi:
+              <quote xml:id="ta-l3d27q1-Qd1e129">cum autem duo sint praecepta caritatis, pro utroque saepe unum ponitur</quote>.
+            Prima in duas: in prima determinat de dilectione caritatis, secundum quod per duo
+            praecepta in duo diligenda dirigitur, scilicet Deum et proximum; in secunda inquirit
+            modum dilectionis quantum ad utrumque diligibile, ibi: <quote xml:id="ta-l3d27q1-Qd1e132">consequenter modum
+              utriusque dilectionis advertamus</quote>. Circa primum duo facit: primo ostendit quod
+            per caritatem Deus et proximus diligitur; secundo ostendit quod ex eadem caritate, ibi:
+              <quote xml:id="ta-l3d27q1-Qd1e135">hic quaeritur, si ex eadem dilectione diligitur Deus qua diligitur proximus.
+              Consequenter modum utriusque dilectionis advertamus</quote>. Hic ostendit modum
+            praedictae dilectionis: et primo quantum ad dilectionem proximi; secundo quantum ad
+            dilectionem Dei, ibi: <quote xml:id="ta-l3d27q1-Qd1e138">dilectionis autem Dei modus insinuatur cum dicitur, ex toto
+              corde</quote>. Et circa hoc tria facit: primo ostendit dilectionis nostrae modum
+            respectu Dei; secundo ostendit ubi modus ille observari possit, ibi: <quote xml:id="ta-l3d27q1-Qd1e141">illud autem
+              praeceptum non penitus impletur ab homine in hac mortali vita</quote>. Tertio movet
+            quamdam quaestionem, ibi: <quote xml:id="ta-l3d27q1-Qd1e145">sed cur praecipitur homini ista perfectio</quote>. Hic
+            est triplex quaestio. Prima de amore in generali. Secunda de caritate. Tertia de actu et
+            modo caritatis. Circa primum quaeruntur quatuor: 1 quid sit amor; 2 in quo sit; 3 de
+            comparatione ejus ad alias animi affectiones; 4 de comparatione ejus ad ea quae in
+            cognitione sunt.</p>
+        </div>
+        <div xml:id="ta-l3d27q1-Dd1e150" type="articulus">
+
+          <head xml:id="ta-l3d27q1-Hd1e152">Articulus 1</head>
+          <head xml:id="ta-l3d27q1-Hd1e155" type="questionTitle">Utrum definitio Dionysii de amore, secundum omnem partem suam
+            sit bona</head>
+
+          <p xml:id="ta-l3d27q1-d1e158">Ad primum sic proceditur. Dionysius 4 cap. de Div. Nom. sic definit amorem: <quote xml:id="ta-l3d27q1-Qd1e160">amor
+              virtus est unitiva, movens superiora ad providentiam minus habentium</quote>, idest
+            inferiorum: <quote xml:id="ta-l3d27q1-Qd1e163">coordinata autem</quote>, idest aequalia, <quote xml:id="ta-l3d27q1-Qd1e166">rursus ad
+              communicativam alternam habitudinem: subjecta</quote>, idest inferiora, <quote xml:id="ta-l3d27q1-Qd1e169">ad
+              meliorum</quote>, idest superiorum, <quote xml:id="ta-l3d27q1-Qd1e172">conversionem</quote>. Sed videtur quod
+            inconvenienter definiatur hic amor. Nulla enim passio est virtus, ut dicitur 2 Eth. Sed
+            amor est passio. Ergo non est virtus.</p>
+          <p xml:id="ta-l3d27q1-d1e176">Praeterea, Augustinus dicit, quod amor est jam habiti. Sed illud quod jam habitum est,
+            quodammodo est unitum. Ergo amor non est virtus unitiva, sed unionem sequens.</p>
+          <p xml:id="ta-l3d27q1-d1e179">Praeterea, illud quod magis salvatur in dissimilitudine non habet vim uniendi. Sed amor
+            magis salvatur in dissimilitudine quam in similitudine. Videmus enim quod artifices
+            unius artis, sicut figuli, corrixantur ad invicem; cum aliis autem artificibus pacifice
+            vivunt. Similiter stomachus vacuus cibum amat, quem plenus abhorret. Ergo amor non habet
+            vim uniendi.</p>
+          <p xml:id="ta-l3d27q1-d1e183">Praeterea, Dionysius, inter proprietates amoris ponit acutum et fervidum; et etiam
+            liquefactio ponitur effectus amoris; Cant. 5, 6: <quote xml:id="ta-l3d27q1-Qd1e185">anima mea liquefacta
+            est</quote>. Dionysius etiam ponit effectum amoris extasim, idest extra se positionem.
+            Haec autem omnia ad divisionem pertinere videntur, quia acuti est penetrando dividere;
+            fervidi vero per exhalationem resolvi; liquefactio autem divisio quaedam est
+            congelationi opposita: quod etiam est extra se positum, a seipso dividitur. Ergo amor
+            magis est vis divisiva quam unitiva.</p>
+          <p xml:id="ta-l3d27q1-d1e189">Praeterea, omnis concretio est quaedam unio. Ergo superfluum fuit utrumque ponere in
+            definitione amoris, unitivum, et concretivum.</p>
+          <p xml:id="ta-l3d27q1-d1e192">Praeterea, amor est passio. Sed passionis non est movere, immo motionis et actionis
+            effectum esse. Ergo amor non est movens superiora, ut ipse dicit.</p>
+          <p xml:id="ta-l3d27q1-d1e195">Praeterea, superiora inclinantur ad agendum in inferiora ex propriis formis. Sed agendo
+            in ipsa eis provident. Ergo non est amoris movere superiora ad providendum inferioribus,
+            sed naturae.</p>
+          <p xml:id="ta-l3d27q1-d1e198">Praeterea, omne quod communicat aliquid alicui praefertur illi. Ergo non est aequalium
+            ut sibi mutuo per amorem communicent.</p>
+          <p xml:id="ta-l3d27q1-d1e201">Praeterea, omne quod fit ex amore procedit ex principio intrinseco, quod est
+            voluntarium. Sed conversio inferiorum ad superiora est ex principio extrinseco, scilicet
+            ex ipsa actione superiorum, qua sibi ea assimilant. Ergo amor inferiora non convertit ad
+            superiora.</p>
+          <p xml:id="ta-l3d27q1-d1e205">Respondeo dicendum, quod amor ad appetitum pertinet; appetitus autem est virtus
+            passiva; unde in 3 de anima, dicit philosophus, quod appetibile movet sicut movens
+            motum. Omne autem passivum perficitur secundum quod informatur per formam sui activi; et
+            in hoc motus ejus terminatur et quiescit; sicut intellectus, antequam formetur per forma
+            intelligibilis, inquirit et dubitat: qua cum informatus fuerit, inquisitio cessat, et
+            intellectus in illo figitur; et tunc dicitur intellectus firmiter illi rei inhaerere.
+            Similiter quando affectus vel appetitus omnino imbuitur forma boni quod est sibi
+            objectum, complacet sibi in illo, et adhaeret ei quasi fixus in ipso; et tunc dicitur
+            amare ipsum. Unde amor nihil aliud est quam quaedam transformatio affectus in rem
+            amatam. Et quia omne quod efficitur forma alicujus, efficitur unum cum illo; ideo per
+            amorem amans fit unum cum amato, quod est factum forma amantis; et ideo dicit
+            philosophus 9 Ethic., quod amicus est alter ipse; et 1 Corinth. 6, 17: <quote xml:id="ta-l3d27q1-Qd1e207">qui
+              adhaeret Deo unus spiritus est</quote>. Unumquodque autem agit secundum exigentiam
+            suae formae, quae est principium agendi et regula operis. Bonum autem amatum est finis:
+            finis autem est principium in operabilibus sicut prima principia in cognoscendis. Unde
+            sicut intellectus formatus per quidditates rerum ex hoc dirigitur in cognitione
+            principiorum, quae scitis terminis cognoscuntur; et ulterius in cognitionibus
+            conclusionum, quae notae fiunt ex principiis; ita amans, cujus affectus est informatus
+            ipso bono, quod habet rationem finis, quamvis non semper ultimi, inclinatur per amorem
+            ad operandum secundum exigentiam amati; et talis operatio est maxime sibi delectabilis,
+            quasi formae suae conveniens; unde amans quidquid facit vel patitur pro amato, totum est
+            sibi delectabile, et semper magis accenditur in amatum, inquantum majorem delectationem
+            in amato experitur in his quae propter ipsum facit vel patitur. Et sicut ignis non
+            potest retineri a motu qui competit sibi secundum exigentiam suae formae, nisi per
+            violentiam; ita neque amans quin agat secundum amorem; et propter hoc dicit Gregorius,
+            quod non potest esse otiosus, immo magna operatur, si est. Et quia omne violentum est
+            tristabile, quasi voluntati repugnans, ut dicitur 5 Metaphys.; ideo etiam est poenosum
+            contra inclinationem amoris operari, vel etiam praeter eam; operari autem secundum eam,
+            est operari ea quae amato competunt. Cum enim amans amatum assumpserit quasi idem sibi,
+            oportet ut quasi personam amati amans gerat in omnibus quae ad amatum spectant; et sic
+            quodammodo amans amato inservit, inquantum amati terminis regulatur. Sic ergo Dionysius
+            completissime rationem amoris in praedicta assignatione ponit. Ponit enim ipsam unionem
+            amantis ad amatum, quae est facta per transformationem affectus amantis in amatum, in
+            hoc quod dicit amorem esse unitivam et concretivam virtutem; et ponit inclinationem
+            ipsius amoris ad operandum ea quae ad amatum spectant, sive sit superius, sive inferius,
+            sive aequale, in hoc quod dicit: <quote xml:id="ta-l3d27q1-Qd1e210">movens superiora</quote> et cetera.</p>
+          <p xml:id="ta-l3d27q1-d1e214">Ad primum ergo dicendum, quod virtus hic non sumitur pro habitu, sicut in 2 Ethic., sed
+            communiter pro omni eo quod potest esse principium alicujus operationis vel motus. Et
+            quia amor inclinationem facit ad operandum, ut dictum est, ideo amorem virtutem
+            dicit.</p>
+          <p xml:id="ta-l3d27q1-d1e217">Ad secundum dicendum, quod amor dicitur esse habiti, si ut formatum habet suam formam:
+            quam quidem formationem desiderium praecedit in ipsam tendens, sicut ratio intellectum
+            vel scientiam; et ideo dicitur esse non habiti. Unde amor dicitur virtus unitiva
+            formaliter: quia est ipsa unio vel nexus vel transformatio qua amans in amatum
+            transformatur, et quodammodo convertitur in ipsum. Vel dicendum, quod quietatio affectus
+            in aliquo, quam amor importat, non potest esse nisi secundum convenientiam unius ad
+            alterum: quae quidem convenientia est secundum quod ab uno participatur id quod est
+            alterius; et sic amans quodammodo habet amatum; unde conjunctio quae in habere
+            importatur, est conjunctio rei ad rem, et praecedit unionem rei ad affectum, quae est
+            amor.</p>
+          <p xml:id="ta-l3d27q1-d1e220">Ad tertium dicendum, quod amoris radix, per se loquendo, est similitudo amati ad
+            amantem; quia sic est ei bonum et conveniens. Contingit autem per accidens
+            dissimilitudinem amoris et similitudinem odii esse causam tripliciter. Uno modo quando
+            affectus amantis non sibi complacet, neque quiescit in conditione vel aliqua proprietate
+            sui ipsius, sicut cum quis aliquid in se ipso odit; et tunc oportet quod diligat ipsum
+            qui in hoc est sibi dissimilis, quia ex hoc ipso quod est dissimilis sibi in conditione,
+            efficitur similis affectui suo; et e contrario odit illum qui sibi similatur, et
+            affectui suo non similatur. Secundo quando aliquis ex ipsa similitudine impedit amantem
+            ab amati fruitione; et hoc invenitur in omnibus rebus quae non possunt simul a multis
+            haberi, sicut sunt res temporales; unde qui amat lucrum de aliqua re, vel delectationem,
+            impeditur a fruitione sui amati per alium, qui sibi vult similiter illud appropriare; et
+            hinc oritur zelotypia, quae non patitur consortium in amato; et invidia, inquantum bonum
+            alterius aestimatur impeditivum boni proprii. Tertio secundum quod dissimilitudo
+            praecedens facit percipi amorem sequentem. Quia enim sentimus in hoc quod sensus movetur
+            (quae quidem motio cessat, quando sensibile jam effectum est forma sentientis), ideo ea
+            quae consuevimus, non ita percipimus; sicut patet de fabris, quorum aures plenae sunt
+            sonis malleorum; et propter hoc amor magis sentitur, quando affectus de novo per amorem
+            ad aliquid transformatur. Et ideo etiam quando aliquis non habet praesentiam sui amati,
+            magis fervet et anxiatur de amato, inquantum magis amorem percipit, quamvis apud
+            praesentiam amati non sit amor minor, sed minus perceptus. Unde Augustinus: <quote xml:id="ta-l3d27q1-Qd1e222">amor
+              ipse non ita sentitur cum eum non prodit indigentia: quoniam semper praesto est quod
+              amatur</quote>.</p>
+          <p xml:id="ta-l3d27q1-d1e226">Ad quartum dicendum, quod in amore est unio amantis ad amatum, sed est ibi triplex
+            divisio. Ex hoc enim quod amor transformat amantem in amatum, facit amantem intrare ad
+            interiora amati, et e contra; ut nihil amati amanti remaneat non unitum; sicut forma
+            pervenit ad intima formati, et e converso; et ideo amans quodammodo penetrat in amatum,
+            et secundum hoc amor dicitur acutus: acuti enim est dividendo ad intima rei devenire; et
+            similiter amatum penetrat amantem, ad interiora ejus perveniens; et propter hoc dicitur
+            quod amor vulnerat, et quod transfigit jecur. Sed quia nihil potest in alterum
+            transformari nisi secundum quod a sua forma quodammodo recedit, quia unius una est
+            forma, ideo hanc divisionem penetrationis praecedit alia divisio, qua amans a seipso
+            separatur in amatum tendens; et secundum hoc dicitur amor extasim facere, et fervere,
+            quia quod fervet extra se bullit, et exhalat. Quia vero nihil a se recedit nisi soluto
+            eo quod intra seipsum continebatur, sicut res naturalis non amittit formam nisi solutis
+            dispositionibus quibus forma in materia retinebatur, ideo oportet quod ab amante
+            terminatio illa, qua infra terminos suos tantum continebatur, amoveatur; et propter hoc
+            amor dicitur liquefacere cor, quia liquidum suis terminis non continetur; et contraria
+            dispositio dicitur cordis duritia.</p>
+          <p xml:id="ta-l3d27q1-d1e229">Ad quintum dicendum, quod unio est duplex. Quaedam quae facit unum secundum quid, sicut
+            unio congregatorum se superficialiter tangentium; et talis non est unio amoris, cum
+            amans in interiora amati transferatur, ut dictum est. Alia est unio quae facit unum
+            simpliciter, sicut unio continuorum, et formae et materiae; et talis est unio amoris,
+            quia amor facit amatum esse formam amantis; et ideo supra unionem addit concretionem, ad
+            differentiam primae unionis, quia concreta dicuntur quae simpliciter unum sunt effecta;
+            unde et alia littera habet <quote xml:id="ta-l3d27q1-Qd1e231">continuativa</quote>.</p>
+          <p xml:id="ta-l3d27q1-d1e236">Ad sextum dicendum, quod appetitus, ut dictum est, movet motus: unde passio, quia
+            movetur ab amato, est ulterius movens secundum exigentiam amati.</p>
+          <p xml:id="ta-l3d27q1-d1e239">Ad septimum dicendum, quod ipsa inclinatio superiorum ad providendum inferioribus, quae
+            est eis ex propriis formis, amor eorum dicitur, ut infra patebit.</p>
+          <p xml:id="ta-l3d27q1-d1e242">Ad octavum dicendum, quod non est inconveniens aequalium simpliciter, unum altero, quo
+            ad quid, majus esse, secundum quod unum indiget altero.</p>
+          <p xml:id="ta-l3d27q1-d1e245">Ad nonum dicendum, quod conversio qua inferiora ad superiora convertuntur, est
+            ordinatio eorum ad finem a superioribus intentum. Et quamvis hujusmodi ordinatio sit a
+            principio extrinseco inquantum ab ipsis superioribus inferiora ordinantur in fines
+            superiorum; nihilominus est et a principio intrinseco, inquantum in inferioribus est
+            quaedam inclinatio ad hoc, vel ex natura, sicut in amore naturali, vel ex voluntate,
+            sicut est in amore animali; et propter hoc Deus dicitur omnia suaviter disponere,
+            inquantum singula etiam ex seipsis faciunt hoc ad quod ordinata sunt.</p>
+        </div>
+        <div xml:id="ta-l3d27q1-Dd1e249" type="articulus">
+          <head xml:id="ta-l3d27q1-Hd1e251">Articulus 2</head>
+
+          <head xml:id="ta-l3d27q1-Hd1e254" type="questionTitle">Utrum amor sit tantum in concupiscibili</head>
+
+          <p xml:id="ta-l3d27q1-d1e257">Ad secundum sic proceditur. Videtur quod amor non sit tantum in concupiscibili.
+            Dionysius enim ponit amorem esse divinum, angelicum, intellectualem, animalem,
+            naturalem. Sed quidquid est in nobis, pertinet ad intellectum, vel animalitatem, vel
+            naturam. Ergo in omnibus quae sunt in nobis, invenitur amor.</p>
+          <p xml:id="ta-l3d27q1-d1e260">Praeterea, Commentator ibidem ponit duas definitiones amoris. Prima est haec:
+              <quote xml:id="ta-l3d27q1-Qd1e262">amor est connexio vel vinculum, quo omnium rerum universitas ineffabili
+              amicitia insolubilique unitate copulatur</quote>. Secunda est: <quote xml:id="ta-l3d27q1-Qd1e265">amor est
+              naturalis motus omnium rerum quae in motu sunt, finis, quietaque statio, ultra quam
+              nullius creaturae progreditur motus</quote>. Ex quibus est accipere quod amor in
+            omnibus rebus invenitur. Ergo et in omnibus quae in nobis sunt, sive sint partes animae,
+            sive corporis.</p>
+          <p xml:id="ta-l3d27q1-d1e269">Praeterea, omnis potentia delectatur in conjunctione sui convenientis. Sed delectatio
+            non est nisi in re animata. Ergo et cuilibet potentiae inest amor sui convenientis.</p>
+          <p xml:id="ta-l3d27q1-d1e273">Praeterea, sicut praedictum est, art. praeced., et ex praedicta definitione colligitur,
+            amor est finis et quietatio appetitivi motus. Sed cuilibet potentiae quae in nobis est,
+            inest appetitus proprii boni, et tendit in ipsum. Ergo in qualibet potentia est invenire
+            amorem.</p>
+          <p xml:id="ta-l3d27q1-d1e276">Praeterea, ad minus irascibilis ad partem appetitivam pertinet. Appetitivae autem
+            partis universale objectum est bonum. Cum ergo amor sit boni, videtur quod amor non sit
+            tantum in concupiscibili, sed etiam in irascibili.</p>
+          <p xml:id="ta-l3d27q1-d1e279">Sed contra est, quod dicit philosophus in 2 Top., quod amor est in concupiscibili.</p>
+          <p xml:id="ta-l3d27q1-d1e282">Praeterea, ordo partium animae proportionatur ordini partium corporis. Sed in partibus
+            corporis unum membrum officium suum exercet respectu omnium membrorum, sicut pes non
+            solum se, sed omnia alia membra portat. Ergo et concupiscibilis non solum sibi, sed
+            omnibus aliis concupiscit et amat; et ita amor eorum quae ad omnes potentias pertinent,
+            in concupiscibili esse videtur.</p>
+          <p xml:id="ta-l3d27q1-d1e285">Praeterea, amor non est nisi cogniti. Si ergo in omnibus viribus esset amor proprii
+            boni, pari ratione in omnibus esset cognitio proprii boni; quod falsum est.</p>
+          <p xml:id="ta-l3d27q1-d1e288">Praeterea, objectum concupiscibilis est bonum concupiscenti conveniens absolute. Sed
+            quidquid est bonum secundum unamquamque potentiam est concupiscenti conveniens. Ergo
+            appetere bonum uniuscujusque potentiae pertinet ad concupiscibilem, et eadem ratione
+            amor; et ita amor non erit nisi in concupiscibili. Probatio primae. Si enim objectum
+            concupiscibilis non esset bonum conveniens concupiscenti simpliciter, esset objectum
+            ejus bonum conveniens solum concupiscibili. Bonum autem conveniens unicuique potentiae
+            est per comparationem ad suum actum, sicut bonum conveniens visui, id quod est bonum ad
+            videndum. Ergo secundum hoc, objectum concupiscibilis esset bonum sub hac ratione qua
+            est bonum ad concupiscendum. Sed hoc est impossibile: quia concupiscere id quod est
+            bonum ad concupiscendum, sequitur reflexionem concupiscibilis super actum suum, secundum
+            quod concupiscit se concupiscere, vel bene concupiscere: illud enim ad quod aliquid est
+            bonum, per prius desideratur, cum sit finis. Sed reflexionem potentiae super suum actum
+            praecedit naturaliter simplex actus ipsius potentiae in suum objectum directe tendens,
+            sicut per prius video colorem, quam videam me videre. Ergo objectum concupiscibilis non
+            potest esse aliquid sub hac ratione quod est bonum ad concupiscendum: quia concupiscere
+            hoc esset naturaliter prius et posterius reflexione concupiscibilis supra suum actum;
+            quod est impossibile. Ergo necessarium est alterum dare, scilicet quod bonum conveniens
+            concupiscenti absolute sit objectum concupiscibilis.</p>
+          <p xml:id="ta-l3d27q1-d1e292">Respondeo dicendum, quod omne quod sequitur aliquem finem, oportet quod fuerit aliquo
+            modo determinatum ad illum finem: alias non magis in hunc finem quam in alium
+            perveniret. Illa autem determinatio oportet quod proveniat ex intentione finis, non
+            solum ex natura tendente in finem: quia sic omnia essent casu, ut quidam philosophi
+            posuerunt. Intendere autem finem impossibile est, nisi cognoscatur finis sub ratione
+            finis, et proportio eorum quae sunt ad finem in finem ipsum. Cognoscens autem finem et
+            ea quae sunt ad finem, non solum seipsum in finem dirigit, sed etiam alia, sicut
+            sagittator emittit sagittam ad signum. Sic ergo dupliciter aliquid tendit in finem. Uno
+            modo directum in finem a seipso, quod est tantum in cognoscente finem et rationem finis.
+            Alio modo directum ab alio; et hoc modo omnia secundum suam naturam tendunt in fines
+            proprios et naturales, directa a sapientia instituente naturam. Et secundum hoc
+            invenimus duos appetitus: scilicet appetitum naturalem, qui nihil aliud est quam
+            inclinatio rei in finem suum naturalem qui est ex directione instituentis naturam, et
+            iterum appetitum voluntarium, qui est inclinatio cognoscentis finem, et ordinem in finem
+            illum; et inter hos duos appetitus est unus medius, qui procedit ex cognitione finis
+            sine hoc quod cognoscatur ratio finis et proportio ejus quod est ad finem, in finem
+            ipsum; et iste est appetitus sensitivus. Et hujusmodi duo appetitus inveniuntur tantum
+            in natura vivente et cognoscente. Omne autem quod est proprium naturae viventis, oportet
+            quod ad aliquam potentiam animae reducatur in habentibus animam; et ideo oportet unam
+            potentiam animae esse cujus sit appetere, condivisam contra eam cujus est cognoscere,
+            sicut etiam substantiae separatae dividuntur in intellectum et voluntatem, ut dicunt
+            philosophi. Sic ergo patet quod in hoc differt appetitus naturalis et voluntarius, quod
+            inclinatio naturalis appetitus est ex principio extrinseco; et ideo non habet
+            libertatem, quia liberum est quod est sui causa: inclinatio autem voluntarii appetitus
+            est in ipso volente; et ideo habet voluntas libertatem. Sed inclinatio appetitus
+            sensitivi partim est ab appetente, inquantum sequitur apprehensionem appetibilis; unde
+            dicit Augustinus, quod animalia moventur visis: partim ab objecto, inquantum deest
+            cognitio ordinis in finem: et ideo oportet quod ab alio cognoscente finem, expedientia
+            eis provideantur. Et propter hoc non omnino habent libertatem, sed participant aliquid
+            libertatis. Omne autem quod est a Deo, accipit aliquam naturam qua in finem suum ultimum
+            ordinetur. Unde oportet in omnibus creaturis habentibus aliquem finem inveniri appetitum
+            naturalem etiam in ipsa voluntate respectu ultimi finis; unde naturali appetitu vult
+            homo beatitudinem, et ea quae ad naturam voluntatis spectant. Sic ergo dicendum est,
+            quod naturalis appetitus inest omnibus potentiis animae et partibus corporis respectu
+            proprii boni; sed appetitus animalis, qui est boni determinati, ad quod non sufficit
+            naturae inclinatio, est alicujus determinatae potentiae, vel voluntatis vel
+            concupiscibilis. Et inde est quod omnes aliae vires animae coguntur a suis objectis
+            praeter voluntatem: quia omnes aliae habent appetitum naturalem tantum respectu sui
+            objecti; voluntas autem habet praeter inclinationem naturalem, aliam, cujus est ipse
+            volens causa. Et similiter dicendum est de amore, qui est terminatio appetitivi motus:
+            quia amor naturalis est in omnibus potentiis et omnibus rebus; amor autem animalis, ut
+            ita dicam, est in aliqua potentia determinata, vel voluntate, secundum quod dicit
+            terminationem appetitus intellectivae partis; vel in concupiscibili, secundum quod dicit
+            determinationem sensitivi appetitus.</p>
+          <p xml:id="ta-l3d27q1-d1e295">Ad primum ergo dicendum, quod Dionysius accipit amorem communiter ad naturalem,
+            sensitivum quem animalem dicit, et intellectivum, quem dicit intelligibilem, quantum ad
+            homines; angelicum et divinum, quantum ad substantias separatas. Et ponit quinque haec,
+            quia non possunt esse plures gradus appetitus: quia in Deo est voluntarius appetitus
+            tantum, quia ipse determinat omnia et non determinatur ab aliquo: in Angelis autem
+            voluntarius cum naturali, inquantum determinatur a Deo ad aliquid volendum naturaliter;
+            in homine autem voluntarius cum sensibili et naturali; in animalibus sensibilis cum
+            naturali; in aliis naturalis tantum.</p>
+          <p xml:id="ta-l3d27q1-d1e298">Et similiter etiam dicendum ad secundum, quod Commentator definit amorem, secundum quod
+            se habet ad omnes communiter.</p>
+          <p xml:id="ta-l3d27q1-d1e301">Ad tertium dicendum, quod delectatio causatur ex conjunctione convenientis. Conveniens
+            enim adveniens perficit id cui advenit, et quietat inclinationem in illud; et haec
+            quietatio, secundum quod est percepta, est delectatio; unde Plato dixit, quod delectatio
+            est <quote xml:id="ta-l3d27q1-Qd1e303">generatio sensibilis</quote>, idest cognita, <quote xml:id="ta-l3d27q1-Qd1e306">in naturam</quote>, idest
+            connaturalis; unde in his quae cognitionem non habent, non est delectatio aliquo modo.
+            In quodlibet autem conveniens habenti cognitionem est duplex inclinatio: scilicet
+            appetitus naturalis, et appetitus animalis; et utraque inclinatio quietatur per rem
+            praesentem, et utraque etiam quietatio percipitur; unde ex utraque parte delectatio
+            causatur. Delectatio ergo quae est quietatio appetitus naturalis, invenitur in omni
+            potentia cui conjungitur suum objectum; delectatio vero quae est quietatio appetitus
+            animalis, est tantum in concupiscibili, vel voluntate. Prima autem delectatio dicitur
+            tantum delectatio, proprie loquendo, et opposita passio dolor; sed secunda delectatio
+            habet etiam nomen gaudii, et opposita passio dicitur tristitia. Unde quamvis delectatio
+            et dolor sint aliquo modo in omnibus potentiis animae, tamen gaudium et tristitia sunt
+            tantum in concupiscibili vel voluntate.</p>
+          <p xml:id="ta-l3d27q1-d1e310">Ad quartum dicendum sicut ad primum: quia ratio procedit de appetitu naturali.</p>
+          <p xml:id="ta-l3d27q1-d1e313">Ad quintum dicendum, quod amor animalis non pertinet ad irascibilem; quia objectum
+            amoris est bonum sine adjunctione ardui vel difficilis, quod est proprium objectum
+            irascibilis.</p>
+        </div>
+        <div xml:id="ta-l3d27q1-Dd1e318" type="articulus">
+          <head xml:id="ta-l3d27q1-Hd1e320">Articulus 3</head>
+
+          <head xml:id="ta-l3d27q1-Hd1e323" type="questionTitle">Utrum amor sit prima et principalior affectio animae</head>
+
+          <p xml:id="ta-l3d27q1-d1e326">Ad tertium sic proceditur. Videtur quod amor non sit prima et principalis inter omnes
+            alias animae affectiones. Motus enim praecedit terminum. Sed amor est determinatio
+            appetitivi motus, ut patet ex dictis, art. 1. Ergo amor sequitur desiderium quod motum
+            ipsum appetitus importat.</p>
+          <p xml:id="ta-l3d27q1-d1e329">Praeterea, propter quod unumquodque, illud magis. Sed amoris causa est delectatio; unde
+            et quaedam amicitia super delectabili fundatur. Ergo delectatio est principalior
+            affectio quam amor.</p>
+          <p xml:id="ta-l3d27q1-d1e332">Praeterea, Augustinus dicit in Lib. 83 Quaestion., quod nemo est qui non magis dolorem
+            fugiat quam appetat voluptatem. Sed fuga doloris facit odium, sicut appetitus
+            delectationis facit amorem. Ergo odium est vehementior passio quam amor.</p>
+          <p xml:id="ta-l3d27q1-d1e336">Praeterea, illud quod vincitur ab alio, est minus potens. Sed amor vincitur ab ira:
+            quia ira odium parit, ut dicit Augustinus. Ergo ira est vehementior passio quam
+            amor.</p>
+          <p xml:id="ta-l3d27q1-d1e339">Praeterea, illud propter quod agunt quaecumque agunt, est efficacissimum. Sed sicut
+            Dionysius dicit in Lib. de Divin. Nom. propter pacem agunt quaecumque. Ergo pax inter
+            omnes affectiones est efficacissima, etiam respectu amoris.</p>
+          <p xml:id="ta-l3d27q1-d1e342">Sed contra est quod dicit Augustinus, quod omnis affectio ex amore est.</p>
+          <p xml:id="ta-l3d27q1-d1e345">Praeterea, bonum est objectum affectus. Sed illud quod primo respicit ad bonum, est
+            amor. Ergo amor est principium totius affectionis, et principalior passio.</p>
+          <p xml:id="ta-l3d27q1-d1e348">Praeterea, amor igni comparatur, et etiam morti, ut patet Cant. 8. Sed his nihil est
+            vehementius. Ergo nulla passio est vehementior amore.</p>
+          <p xml:id="ta-l3d27q1-d1e351">Praeterea, Chrysostomus dicit: <quote xml:id="ta-l3d27q1-Qd1e353">magnum amor, nec est aliquid quod ejus impetum
+              sustinere possit</quote>.</p>
+          <p xml:id="ta-l3d27q1-d1e358">Respondeo dicendum, quod inter alias affectiones animae amor est prior. Amor enim dicit
+            terminationem affectus per hoc quod informatur suo objecto. In omnibus autem hoc
+            invenitur quod motus procedit a primo immobili quieto: quod quidem patet in naturalibus:
+            quia primum movens in quolibet genere est non motum illo genere motus, sicut primum
+            alterans est non alteratum. Similiter patet de intellectualibus: quia motus rationis
+            discurrentis procedit a principiis et quidditatibus rerum, quibus intellectus informatus
+            terminatur. Cum ergo affectus informetur et terminetur amore, sicut intellectus
+            principiis et quidditatibus, ut prius dictum est, oportet quod omnis motus affectivae
+            procedat ex quietatione et terminatione amoris. Et quia omne quod est primum in aliquo
+            genere, est perfectius, sicut intellectus principiorum in demonstrabilibus; et motus
+            caeli in naturalibus; ideo oportet quod amor inter ceteras affectiones etiam sit
+            vehementior, ut patebit per singula.</p>
+          <p xml:id="ta-l3d27q1-d1e361">Ad primum ergo dicendum, quod sicut in operatione intellectus concluditur quidam
+            circulus, ita et in operatione affectus. Intellectus enim ex certitudine principiorum,
+            quibus immobiliter assentit, procedit ratiocinando ad conclusiones, in quarum cognitione
+            certitudinaliter quiescit, secundum quod resolvuntur in prima principia, quae in eis
+            sunt virtute. Similiter etiam affectus ex amore finis, qui est principium, procedit
+            desiderando in ea quae sunt ad finem, quae prout accipit ut finem in se aliquo modo
+            continentia, per amorem in eis quiescit; et ideo desiderium sequitur amorem finis,
+            quamvis praecedat amorem eorum quae sunt ad finem. Est etiam amor vehementior affectio
+            quam desiderium, inquantum dicit terminationem et informationem affectus per appetibile
+            ad quod movetur desiderium.</p>
+          <p xml:id="ta-l3d27q1-d1e364">Ad secundum dicendum, quod amor naturaliter praecedit delectationem: delectatio enim
+            contingit ex conjunctione rei convenientis realiter; amor autem facit quod amatum sit
+            amanti conveniens, et quasi connaturale, inquantum unit affectum amantis amato, ut
+            dictum est; et ideo ex amati reali praesentia consurgit delectatio. Sed quia delectabile
+            etiam potest amari ut quoddam bonum, ideo contingit per accidens ut aliquis amor ex
+            delectatione causetur, sicut actus ab objecto vel fine. Qui enim aliquid propter
+            delectationem amat, delectationem ipsam praecipue amat. Quamvis ergo quaedam delectatio
+            quodam amore sit prior, tamen amor delectatione simpliciter est prior. Similiter etiam
+            vehementior: quia amor est per informationem appetitus ab appetibili; delectatio autem
+            per conjunctionem rei, ex re praesente sibi conveniente. Non est autem tanta conjunctio
+            rei ad rem, sicut appetitus ad appetibile: quia res adveniens, quae delectationem
+            causat, non conjungitur secundum naturam, quia hoc non fit illud; unde est ibi
+            conjunctio quasi contactus: sed appetitus est ipsius appetibilis secundum suam naturam
+            et substantiam. Unde quando appetitus informatur per appetibile, est quasi conjunctio
+            continuitatis et concretionis; unde amor plus unit quam delectatio, quia facit quod
+            amans sit secundum affectum ipsa res amata; delectatio autem est per participationem
+            alicujus ab illo, secundum quod est realiter praesens. Sciendum autem, quod quando
+            amatum est praesens realiter, secundum quod possibile est, tunc est delectatio, sicut ex
+            conjunctione maxime convenientis. Quando autem est omnino absens secundum rem, tunc
+            maxime affligit; sicut ex divisione continui sequitur dolor, quia amor est continuativa
+            vis, ut dictum est; et inde dicitur, quod amor languere facit. Quando autem est secundum
+            aliquid praesens, et secundum aliquid absens, tunc habet delectationem admixtam
+            afflictioni.</p>
+          <p xml:id="ta-l3d27q1-d1e367">Ad tertium dicendum, quod bonum est vehementius in agendo quam malum: quia bonum non
+            habet de necessitate admixtionem boni; et iterum bonum agit in virtute propria, sed
+            malum agit in virtute boni, ut dicit Dionysius; unde magis amatur bonum quam odiatur
+            malum illi oppositum. Sed dolor corporalis est magis malum quam delectatio quaedam sit
+            bonum: quia delectatio de qua Augustinus ibi loquitur, contingit ex superadditione
+            perfectionum secundarum, sicut in cibis vel in venereis; sed tristitia vel dolor,
+            propter quae dimittitur delectatio talis, contingit ex subtractione primarum
+            perfectionum, quae pertinent ad esse rei, sicut ex divisione continui. Unde si
+            acciperetur tristitia opposita delectationi illi, magis appeteretur delectatio quam
+            fugeretur tristitia; sicut qui appeteret delectationem in cibo, ut postea pateretur
+            tristitiam quae est de subtractione cibi, vel alicujus hujusmodi.</p>
+          <p xml:id="ta-l3d27q1-d1e370">Ad quartum dicendum, quod amor est prior ira, et vehementior. Ira enim ex tristitia
+            causatur, ut prius dictum est, dist. 26, quaest. 1, art. 3, corp., sicut omnes passiones
+            irascibilis. Et ideo, cum amor sit prior et vehementior passionibus concupiscibilis,
+            erit prior et vehementior passionibus irascibilis. Quamvis autem ira odium pariat, non
+            tamen amorem destruit; sed amoris destructionem sequitur, quia non posset appetitus
+            moveri in nocumentum alicujus, nisi antea affectus ab amore superatus esset.</p>
+          <p xml:id="ta-l3d27q1-d1e373">Ad quintum dicendum, quod pax non distinguitur ab amore, sed est aliquid amoris: dicit
+            enim quasi quietationem appetitus; sed amor dicit ulterius transformationem, et quamdam
+            conversionem ipsius in amatum; unde pax est medium inter desiderium et amorem.</p>
+        </div>
+        <div xml:id="ta-l3d27q1-Dd1e377" type="articulus">
+          <head xml:id="ta-l3d27q1-Hd1e379">Articulus 4</head>
+
+          <head xml:id="ta-l3d27q1-Hd1e382" type="questionTitle">Utrum cognitio sit altior amore</head>
+
+          <p xml:id="ta-l3d27q1-d1e385">Ad quartum sic proceditur. Videtur quod cognitio sit altior amore. Quia altissimae
+            potentiae est altissimus actus. Sed intellectus est altissima potentia in nobis, ut
+            dicit philosophus in 10 Ethic. Ergo cognitio est altissima operatio eorum quae in nobis
+            sunt, et ita dignior amore.</p>
+          <p xml:id="ta-l3d27q1-d1e388">Praeterea, sicut Boetius dicit in Lib. 3, natura a perfectis sumpsit originem. Sed
+            cognitio praecedit amorem. Ergo cognitio est altior quam amor.</p>
+          <p xml:id="ta-l3d27q1-d1e391">Praeterea, illud quod est proprium homini, est nobilius quam illud in quo communicat
+            cum brutis. Sed intelligere est proprium hominis, in amore autem convenit cum brutis.
+            Ergo scientia et intellectus sunt digniora quam amor.</p>
+          <p xml:id="ta-l3d27q1-d1e395">Praeterea, vita contemplativa est nobilior quam vita activa, et altior. Sed scientia
+            pertinet ad vitam contemplativam: amor autem videtur ad praxim pertinere, quia objectum
+            ejus est bonum. Ergo scientia est altior quam amor.</p>
+          <p xml:id="ta-l3d27q1-d1e398">Praeterea, objectum amoris est bonum simpliciter. Sed verum est melius quam bonum
+            simpliciter, quia verum est summum in genere bonorum; sicut et optimus homo est melior
+            quam homo simpliciter. Ergo scientia et cognitio est altior quam amor.</p>
+          <p xml:id="ta-l3d27q1-d1e401">Praeterea, quanto aliquid est spiritualius, tanto est altius. Sed cognitio est
+            spiritualior quam amor: quia secundum motum a rebus ad animam est cognitio, secundum
+            autem motum ab anima ad res est amor. Ergo cognitio est nobilior quam amor.</p>
+          <p xml:id="ta-l3d27q1-d1e404">Praeterea, praemium est praestantius merito. Sed cognitio est praemium amoris; Joan.
+            14, 21: <quote xml:id="ta-l3d27q1-Qd1e406">qui diligit me, diligetur a patre meo; et ego manifestabo ei me
+              ipsum</quote>; et Augustinus dicit, quod visio est tota merces. Ergo cognitio
+            praeeminet amori.</p>
+          <p xml:id="ta-l3d27q1-d1e410">Sed contra est quod dicitur Ephes. 3, 19: <quote xml:id="ta-l3d27q1-Qd1e412">supereminentem scientiae caritatem
+              Christi</quote>.</p>
+          <p xml:id="ta-l3d27q1-d1e416">Praeterea, 1 Cor. 13, dicitur, quod caritas est major fide. Ergo eadem ratione quilibet
+            amor est major et dignior cognitione sibi respondente.</p>
+          <p xml:id="ta-l3d27q1-d1e420">Praeterea, Hugo de sancto Victore super illud Dionysii: <quote xml:id="ta-l3d27q1-Qd1e422">mobile et
+            acutum</quote>, dicit: <quote xml:id="ta-l3d27q1-Qd1e425">dilectio supereminet scientiae, et major est
+              intelligentia; plus enim diligitur quam intelligitur: quia intrat dilectio, ubi
+              scientia foris est</quote>. Ergo amor excedit scientiam.</p>
+          <p xml:id="ta-l3d27q1-d1e429">Praeterea, finis in unaquaque re est potissimum. Sed objectum amoris est bonum, quod
+            habet rationem finis. Ergo cum operationes distinguantur penes objecta, amor inter omnes
+            operationes animae est potior.</p>
+          <p xml:id="ta-l3d27q1-d1e432">Praeterea, sicut se habet potentia ad potentiam, ita se habet operatio ad operationem.
+            Sed voluntas est altior omnibus aliis potentiis animae; quia movet omnes alias et non
+            cogitur. Ergo et amor, qui est operatio voluntatis, praeeminet omnibus aliis animae
+            operationibus.</p>
+          <p xml:id="ta-l3d27q1-d1e435">Praeterea, sicut dicit Dionysius, illud quod in pluribus invenitur, simplicius et
+            nobilius est; sicut esse nobilius est quam vivere, quamvis viventia sint nobiliora quam
+            existentia tantum, inquantum etiam viventia nobilius esse participant. Sed amor in
+            pluribus participatur quam cognitio; quia in omnibus aliquo modo est amor, ut dictum est
+            prius, in praec. art., non autem cognitio. Ergo amor est praestantior cognitione.
+            Ridiculum enim est dicere, quod in lapidibus sit cognitio naturalis, sicut amor vel
+            appetitus naturalis.</p>
+          <p xml:id="ta-l3d27q1-d1e438">Respondeo dicendum, quod in rebus omnibus duplex perfectio invenitur; una qua in se
+            subsistit; alia qua ad res alias ordinatur; et utraque perfectio in rebus materialibus
+            terminata et finita est; quia et formam unam determinatam habet, per quam in una tantum
+            specie est; et etiam per determinatam virtutem ad res quasdam sibi proportionatas
+            inclinationem habet et ordinem, sicut grave ad centrum. Ex utraque autem parte res
+            immateriales infinitatem habent quodammodo, quia sunt quodammodo omnia, sive inquantum
+            essentia rei immaterialis est exemplar et similitudo omnium, sicut in Deo accidit, sive
+            quia habet similitudinem omnium vel actu vel potentia, sicut accidit in Angelis et
+            animabus; et ex hac parte accidit eis cognitio. Similiter etiam ad omnes res
+            inclinationem et ordinem habent, ex qua parte accidit eis voluntas, secundum quam omnia
+            placent vel displicent vel actu vel potentia. Et secundum quod aliquam immaterialitatem
+            participant, secundum hoc cognitionis et voluntatis participativa sunt. Unde et animalia
+            cognoscunt, inquantum species sensibilium immaterialiter in organis sensuum recipiuntur,
+            et secundum intentiones spiritualiter ex rebus perceptas per appetitum sensibilem ad
+            diversa inclinantur. Patet ergo quod cognitio pertinet ad perfectionem cognoscentis, qua
+            in seipso perfectum est: voluntas autem pertinet ad perfectionem rei secundum ordinem ad
+            alias res; et ideo objectum cognoscitivae virtutis est verum, quod est in anima, ut
+            dicit philosophus, 6 Metaph.: objectum autem appetitivae bonum, quod est in rebus, ut
+            dicitur ibidem. Potest ergo comparari potentia cognoscitiva ad appetitivam tripliciter.
+            Primo secundum ordinem; et sic cognitiva potentia naturaliter prior est, quia prius est
+            perfectio rei in seipsa quam secundum ordinem ad aliam. Secundo quantum ad capacitatem;
+            et secundum hoc sunt aequales: quia sicut cognoscitiva est respectu omnium, ita et
+            appetitiva; unde etiam mutuo se includunt, quia intellectus voluntatem cognoscit, et
+            voluntas ea quae ad intellectum pertinent, appetit et amat. Tertio possunt comparari
+            secundum eminentiam vel dignitatem; et sic se habent ut excedentia et excessa: quia si
+            consideretur intellectus et voluntas, et quae ad ipsa pertinent, ut quaedam proprietates
+            et accidentia ejus in quo sunt, sic intellectus est praestantior, et quae ad ipsum
+            pertinent. Si autem considerentur ut potentiae, idest secundum ordinem ad actus et
+            objecta; sic voluntas, et quae ad ipsam pertinent, excedit. Si autem quaeratur quid
+            horum simpliciter dignius sit, dicendum quod res quaedam sunt anima superiores, et
+            quaedam inferiores; unde cum per voluntatem et amorem homo in ipsas res volitas et
+            amatas quodammodo trahatur, per cognitionem autem e converso res cognitae in cognoscente
+            efficiantur per suas similitudines; respectu earum rerum quae sunt supra animam,
+            nobilior et altior est amor quam cognitio; illarum vero quae sunt infra animam, cognitio
+            est potior; unde etiam malarum rerum quarum est malus amor, est bona cognitio.</p>
+          <p xml:id="ta-l3d27q1-d1e441">Ad primum ergo dicendum, quod philosophus loquitur de potentiis secundum quod sunt
+            proprietates quaedam ejus in quo sunt. Vel dicendum, quod philosophus sub intellectu
+            comprehendit voluntatem intellectui respondentem, sicut et sub ratione quandoque
+            comprehenditur; et ideo non est ibi comparatio intellectus ad voluntatem, sed
+            intellectus ad vires inferiores.</p>
+          <p xml:id="ta-l3d27q1-d1e445">Ad secundum dicendum, quod quamvis primum principium in quolibet genere sit
+            perfectissimum, non tamen oportet quod omne quod est prius, sit perfectius, cum aliquid
+            sit prius in via generationis quod est imperfectius, sicut puer viro, et addiscens
+            sciente: et ita etiam cognitio quodammodo amorem praecedit.</p>
+          <p xml:id="ta-l3d27q1-d1e448">Ad tertium dicendum, quod illa ratio procedit de intellectu et voluntate secundum
+            respectum ad id in quo sunt. Vel dicendum, quod intellectu aliquo modo alia animalia
+            participant per quamdam obscuram resonantiam, inquantum sentiunt; sicut et voluntate
+            participant, inquantum habent appetitum sensualem, unde et in brutis voluntarium
+            invenitur, ut dicit philosophus 3 Ethic., non quod simpliciter voluntatem habeant.</p>
+          <p xml:id="ta-l3d27q1-d1e451">Ad quartum dicendum, quod a vita contemplativa non excluditur voluntas et amor, sicut
+            nec intellectus a vita activa; et ideo non potest harum gradus distingui secundum gradus
+            duarum vitarum.</p>
+          <p xml:id="ta-l3d27q1-d1e454">Ad quintum dicendum, quod particulare non habet naturam et rationem sui universalis
+            nisi secundum quod natura universalis invenitur in ipso; unde impossibile est quod ratio
+            universalis magis sit in particulari quam in ipso universali, quamvis ratio alicujus
+            alterius possit inveniri magis in particulari quam in universali: sicut homo non potest
+            esse magis animal quam animal commune; potest tamen esse magis bonum, vel aliquid
+            hujusmodi; et ideo neque verum neque aliquod bonum particulariter acceptum potest dici
+            praestantius quam ipsum bonum.</p>
+          <p xml:id="ta-l3d27q1-d1e457">Ad sextum dicendum, quod ratio illa procedit quantum ad illas res quae sunt infra
+            animam; quae sunt minus spirituales quam anima.</p>
+          <p xml:id="ta-l3d27q1-d1e460">Ad septimum dicendum, quod visio illa, non erit sine amore in praemio, sicut nec amor
+            fuit sine cognitione in merito: ideo tamen praemium magis attribuitur cognitioni,
+            meritum vero amori, quia praemium est secundum receptionem, qua aliquis in seipso
+            perficitur; meritum vero secundum operationem, qua aliquis in remunerationem se
+            extendit, et ei se conjungit.</p>
+          <p xml:id="ta-l3d27q1-d1e464">Et quia oportet etiam ad alia respondere, ideo dicendum ad octavum et nonum, quod illae
+            rationes procedunt de cognitione Dei quae est supra animam; unde amor ejus cognitionem
+            de ipso excedit.</p>
+          <p xml:id="ta-l3d27q1-d1e467">Ad decimum dicendum, quod amor magis intrat ad rem quam cognitio: quia cognitio est de
+            re secundum id quod recipitur in cognoscente: amor autem de re, inquantum ipse amans in
+            rem ipsam transformatur, ut dictum est prius. In hac autem via, qua perficitur anima in
+            ordine ad res alias, dictum est, quod voluntas cognitionem excedit, ad quam viam
+            pertinet esse magis vel minus intimum rei.</p>
+          <p xml:id="ta-l3d27q1-d1e470">Ad undecimum dicendum, quod ratio finis proprie respicit motum et operationem, et
+            ordinem rei ad rem, et non esse rei absolute; unde in mathematicis, in quibus non est
+            operatio et motus, non invenitur finis, ut dicitur in 3 Metaph.; et ideo etiam haec
+            ratio procedit secundum illum modum quo voluntas dicitur intellectui praeeminere.</p>
+          <p xml:id="ta-l3d27q1-d1e473">Ad duodecimum dicendum, quod movere alias vires et non cogi ab objecto, pertinet ad
+            voluntatem secundum quod ipsa est primum determinans alias potentias humanas in ordine
+            ad res alias circa quas operantur, et ipsa non determinatur ab alio: unde quantum ad hoc
+            ad quod a Deo determinatur naturali inclinatione, quodammodo libertatem non habet, sed
+            quasi cogitur naturali inclinatione, sicut respectu beatitudinis, quam nullus non potest
+            non velle. Ex hac autem parte qua homo ab alio ordinatur, dictum est, quod amor
+            cognitionem excedit.</p>
+          <p xml:id="ta-l3d27q1-d1e476">Ad tertium decimum dicendum, quod amor, proprie loquendo, non est nisi in illis in
+            quibus est cognitio; sed amoris nomen transumitur ad ea ad quae cognitionis nomen
+            extendi non potest: quia amor dicitur secundum quod amans ad rem aliam ordinatur;
+            aliquid autem ad alterum ordinari potest etiam ab exteriori ordinante; et ideo illa quae
+            ad aliquid ordinantur ab habentibus cognitionem (quorum proprie est amor, inquantum ex
+            seipsis ad amata ordinantur) nomen amoris vel appetitus recipere possunt. Cognitio autem
+            dicitur secundum quod res cognita fit in cognoscente per modum cognoscentis, scilicet
+            secundum esse spirituale et immateriale. Dispositio autem talis non inest alicui nisi ex
+            proprietate suae naturae; unde nomen cognitionis ad animalia quae talem naturam non
+            habent, extendi non potest, ut dicantur insensibilia naturaliter cognoscere, sicut
+            naturaliter amant vel appetunt.</p>
+        </div>
+
+
+      </div>
+    </body>
+  </text>
+</TEI>

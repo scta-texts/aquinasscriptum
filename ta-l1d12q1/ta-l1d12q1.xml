@@ -1,0 +1,1847 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 12, Quaestio 1</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.09-dev-master">
+          <title>Librum I, Distinctio 12, Quaestio 1</title>
+          <date when="2016-03-14">March 14, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-14">March 14, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p>1856 editum</p>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="2015.09">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <div xml:id="starts-on"> </div>
+    </front>
+    <body>
+      <div xml:id="ta-l1d12q1">
+        <head xml:id="ta-l1d12q1-Hd1e3490">Librum I, Distinctio 12, Quaestio 1</head>
+        <div xml:id="ta-l1d12q1-Dd1e3493">
+
+          <head xml:id="ta-l1d12q1-Hd1e3495">Prooemium</head>
+          <p xml:id="ta-l1d12q1-d1e3498">Ostenso quod spiritus sanctus procedit a patre et filio, hic inquirit utrum sit aliquis
+            ordo respectu istius processionis inter patrem et filium, et dividitur in tres partes:
+            in prima excludit ordinem temporis; in secunda ordinem dignitatis vel potestatis, ibi:
+              <quote xml:id="ta-l1d12q1-Qd1e3500">nunc tractandum est quod secundo quaerebatur</quote>; in tertia astruit ordinem
+            naturae, ibi: <quote xml:id="ta-l1d12q1-Qd1e3503">Augustinus tamen in 15 Lib. de Trinit. dicit, quod spiritus sanctus
+              principaliter procedit de patre</quote>. In primo tria facit: primo movet quaestionem;
+            secundo ponit objectionem haeretici, ibi: <quote xml:id="ta-l1d12q1-Qd1e3506">quod nititur haereticus
+              ostendere</quote>; tertio ponit solutionem ibi: <quote xml:id="ta-l1d12q1-Qd1e3509">his, et hujusmodi quaestionibus
+              magis laboriosis quam fructuosis respondet Augustinus. Nunc tractandum est quod
+              secundo quaerebatur</quote>. Hic excludit ordinem dignitatis vel potestatis; ostendens
+            quod spiritus sanctus non plenius procedit a patre quam a filio: et primo movet
+            quaestionem; secundo ponit solutionem, ibi: <quote xml:id="ta-l1d12q1-Qd1e3512">ad quod dicimus</quote> et cetera.
+              <quote xml:id="ta-l1d12q1-Qd1e3516">Augustinus tamen in 15 Lib. de Trinit. dicit, quod spiritus sanctus
+              principaliter procedit de patre</quote>. Hic astruit ordinem naturae, et dividitur in
+            quatuor partes, secundum quatuor quae ostendunt auctoritatem spirationis in patre. Primo
+            per hoc quod dicitur spiritus sanctus a patre principaliter procedere. Secundo ex hoc
+            quod dicitur proprie procedere de ipso, ibi: <quote xml:id="ta-l1d12q1-Qd1e3519">ex eodem sensu etiam dicitur
+              procedere proprie de patre</quote>. Tertio per hoc quod dicitur spiritus sanctus esse
+            a patre per filium, ibi: <quote xml:id="ta-l1d12q1-Qd1e3522">forte etiam juxta hanc intelligentiam dicitur spiritus
+              sanctus mitti per filium, et a patre esse per filium</quote>. Quarto per hoc quod in
+            processione spiritus sancti aliquando solus pater nominatur, ibi: <quote xml:id="ta-l1d12q1-Qd1e3525">inde est etiam
+              quod veritas ostendens patrem esse auctorem processionis qua procedit spiritus sanctus
+              a filio, dixit in Evangelio</quote>. Ad intellectum hujus partis tria quaeruntur: 1
+            utrum generatio filii praecedat aliquo modo processionem spiritus sancti; 2 utrum
+            spiritus sanctus prius vel plenius procedat a patre quam a filio; 3 utrum procedat a
+            patre mediante filio.</p>
+        </div>
+        <div xml:id="ta-l1d12q1-Dd1e3530" type="articulus">
+          <head xml:id="ta-l1d12q1-Hd1e3532">Articulus 1</head>
+
+          <head xml:id="ta-l1d12q1-Hd1e3535" type="questionTitle">Utrum generatio sit prior processione</head>
+
+          <p xml:id="ta-l1d12q1-d1e3538">Ad primum sic proceditur. Videtur quod generatio praecedat processionem. Principium
+            enim processionis, ad minus naturaliter, est prius processione. Principium autem
+            processionis spiritus sancti est filius, qui est terminus generationis; ut supra dictum
+            est, dist. 5, qu. 2, art. 1. Ergo generatio praecedit processionem.</p>
+          <p xml:id="ta-l1d12q1-d1e3541">Item, cum sint duo agentia in rebus creatis, scilicet natura et propositum vel
+            voluntas; actio naturae praecedit actionem voluntatis, quia actio voluntatis fundatur
+            super actionem naturae. Sed generatio filii est a patre per modum naturae; processio
+            spiritus sancti ab utroque per modum voluntatis. Ergo generatio est prior
+            processione.</p>
+          <p xml:id="ta-l1d12q1-d1e3544">Praeterea, in anima est imago Trinitatis in qua processus notitiae a mente praecedit
+            processum amoris. Sed processus notitiae repraesentat generationem filii; processus
+            amoris processionem spiritus sancti. Ergo ut prius.</p>
+          <p xml:id="ta-l1d12q1-d1e3548">Sed contra est quod dicitur in littera, quod spiritus sanctus non procedit jam nato
+            filio; quod oporteret, si nativitas processionem praecederet.</p>
+          <p xml:id="ta-l1d12q1-d1e3551">Praeterea, sicut se habet filius ad patrem in ratione ordinis, ita spiritus sanctus ad
+            filium. Sed pater nullo modo prior est filio, ut supra ostensum est, dist. 9, qu. 2,
+            art. 1, nec intellectu nec dignitate nec tempore. Ergo nec filius spiritu sancto prior
+            est. Ergo nec generatio processione: quia sicut se habet filius ad spiritum sanctum, ita
+            generatio ad processionem.</p>
+          <p xml:id="ta-l1d12q1-d1e3554">Respondeo dicendum, quod, secundum Augustinum, in divinis non est aliquis ordo nisi
+            ordo naturae. Ordo autem naturae est quo aliquis est ex alio, non quo aliquis est prior
+            altero; et ideo in divinis nullo modo potest aliquid altero prius dici. Et ratio hujus
+            est, quia in divinis non potest considerari nisi id quod absolutum est, et hoc unum est
+            et indivisibile, in quo prioritas vel posterioritas non invenitur vel id quod ad aliquid
+            dicitur. Horum autem quae ad aliquid dicuntur, natura est ut sint simul tempore,
+            intellectu, natura. Et ideo dicimus, quod generatio non est prior processione aliquo
+            modo qui possit ad divina referri; sed tantum secundum modum intelligendi, qui est in
+            intellectu nostro tantum, accipiente generationem et processionem in divinis secundum
+            similitudines repertas in creaturis, quae deficientes sunt ad repraesentandum
+            generationem et processionem prout sunt in divinis.</p>
+          <p xml:id="ta-l1d12q1-d1e3557">Ad primum ergo dicendum, quod principium, secundum relationem principii non est eo
+            prius cujus est principium aliquo modo; sed id quod est principium, naturaliter est
+            prius. Si autem ille qui est principium, ipsa relatione sit quis, vel persona distincta;
+            omnis prioritas removetur ab eo respectu illius cujus est principium; et ita, cum
+            filius, ut supra dictum est, dist. 9, qu. 2, art. 1, ipsa sua relatione sit persona
+            distincta, nullo modo est prior spiritu sancto. Sed verum est quod propter ordinem
+            naturae spiritus sanctus est a filio; quamvis enim communis spiratio non sit proprietas
+            personalis filii, est tamen ipsa persona filii, sicut bonitas divina est ipse Deus; et
+            prima processio correspondens sibi est proprietas personalis spiritus sancti.</p>
+          <p xml:id="ta-l1d12q1-d1e3560">Ad secundum dicendum et tertium, quod rationes illae deficiunt ex hoc quod
+            similitudines inventae in creaturis non perfecte repraesentant ea quae sunt in Deo; et
+            hoc patet in proposito: quia non invenitur aliqua creatura quae ab eodem habeat quod ad
+            aliquid dicatur, et sit in se subsistens.</p>
+        </div>
+        <div xml:id="ta-l1d12q1-Dd1e3564" type="articulus">
+          <head xml:id="ta-l1d12q1-Hd1e3566">Articulus 2</head>
+
+          <head xml:id="ta-l1d12q1-Hd1e3569" type="questionTitle">Utrum spiritus sanctus magis procedat a patre quam a
+            filio</head>
+
+          <p xml:id="ta-l1d12q1-d1e3572">Ad secundum sic proceditur. Videtur quod spiritus sanctus magis procedat a patre quam a
+            filio. Sicut enim dicit philosophus, omnis causa primaria plus est influens in suum
+            causatum quam causa secundaria. Sed filius est quasi secunda causa, pater autem quasi
+            primum principium, quod non est de aliquo. Ergo spiritus sanctus magis procedit a patre
+            quam a filio.</p>
+          <p xml:id="ta-l1d12q1-d1e3575">Item, philosophus: <quote xml:id="ta-l1d12q1-Qd1e3577">propter quod unumquodque tale et illud magis</quote>. Sed
+            filius hoc quod est principium spiritus sancti habet a patre. Ergo pater magis est
+            principium quam filius.</p>
+          <p xml:id="ta-l1d12q1-d1e3581">Praeterea, illud quod est principium alicujus principaliter et proprie, videtur esse
+            magis ejus principium quam illud quod non est ita. Sed, sicut dicitur in littera,
+            spiritus sanctus procedit a patre principaliter et proprie; non autem dicitur hoc de
+            filio. Ergo et cetera.</p>
+          <p xml:id="ta-l1d12q1-d1e3585">Praeterea, spiritus sanctus non habet aliquid quod non habeat a patre; habet autem
+            aliquid quod non habet a filio, hoc scilicet quod procedit a patre. Ergo spiritus
+            sanctus magis procedit a patre quam a filio.</p>
+          <p xml:id="ta-l1d12q1-d1e3588">Contra est quod dicitur in littera.</p>
+          <p xml:id="ta-l1d12q1-d1e3591">Praeterea, ubi est summa aequalitas, non potest esse magis et plenius. Sed inter patrem
+            et filium est summa aequalitas. Ergo spiritus sanctus non potest esse magis ab uno quam
+            ab alio.</p>
+          <p xml:id="ta-l1d12q1-d1e3594">Respondeo dicendum, quod spiritus sanctus nec prius nec plenius nec magis procedit a
+            patre quam a filio. Et ratio hujus tota est, quia pater et filius sunt unum principium
+            spiritus sancti; et ubi est unitas, non potest esse distinctio plenitudinis.</p>
+          <p xml:id="ta-l1d12q1-d1e3597">Ad primum ergo dicendum, quod pater quamvis dicatur principium filii et spiritus
+            sancti, tamen non potest dici causa, proprie loquendo: causa enim semper ponit
+            diversitatem essentiae, sicut patet in omnibus. Sed principium aliquod a quo aliquid
+            fluit, est consubstantiale rei cujus est principium; sicut dicimus, quod punctum est
+            principium lineae, et cor principium animalis, et fundamentum domus; et ideo propter
+            consubstantialitatem pater dicitur principium, sed non causa. Praeterea, causatum habet
+            dependentiam ad causam. Sed principium importat originem quamdam, secundum quod dicitur
+            principium, ex quo incipit aliquid. Item, quamvis dicatur principium, non tamen potest
+            dici primum; quia ibi non est aliquid prius et posterius, ut dictum est, dist. 9,
+            quaest. 2, art. 1. Unde patet quod illa auctoritas non est ad propositum: quia pater nec
+            est causa nec primaria respectu filii et spiritus sancti. Si tamen in hoc non fiat vis,
+            adhuc pater et filius respectu spiritus sancti non se habent sicut duo principia, sed
+            sicut unum; et ideo nullus gradus inter eos invenitur in spirando spiritum sanctum.</p>
+          <p xml:id="ta-l1d12q1-d1e3600">Ad secundum dicendum, quod dictum philosophi verificatur, quando illud quod convenit
+            alicui propter aliquid aliud, est diversum in utroque, et praecipue quando unum est
+            causa alterius essentiali ordine causae; tunc enim causalitas sua est respectu totius
+            speciei, et non unius individui tantum, ut dicit Avicenna, sicut calor est magis in igne
+            quam in corpore mixto, quia propter ignem est in corpore mixto. Sed quamvis filius
+            habeat a patre hoc quod spirat spiritum sanctum, nihilominus tamen non est hoc diversum
+            in patre et filio; quia eamdem virtutem spirativam, quam pater habet, filio communicat:
+            et ideo per illam aequaliter pater et filius spiritum sanctum spirant. Et si etiam non
+            esset una numero, sed specie tantum, ratio non valeret: sicut patet in omnibus univocis
+            generationibus: non enim pater Socratis plus influit in filium Socratis quam
+            Socrates.</p>
+          <p xml:id="ta-l1d12q1-d1e3604">Ad tertium dicendum, quod spiritus sanctus dicitur esse principaliter a patre, quia in
+            patre est auctoritas spirationis, a quo etiam habet filius virtutem spirativam, et non
+            propter aliquem ordinem vel gradum prioritatis vel posterioritatis patris et filii.
+            Similiter etiam propter eamdem rationem dicitur proprie procedere a patre, maxime cum
+            haec praepositio a apud Graecos notet relationem ad primam originem: unde apud eos non
+            dicitur, quod lacus sit a rivo, sed quod est a fonte; et inde est etiam, quod non
+            concedunt, quod spiritus sanctus sit a filio, sed a patre. Nihilominus tamen non est
+            dicendum, quin etiam a filio proprie procedat, qui cum patre est unum principium
+            spiritus sancti. Non autem sic rivus et fons sunt unum principium laci.</p>
+          <p xml:id="ta-l1d12q1-d1e3607">Ad quartum dicendum, quod spiritus sanctus non aliter nec alia processione procedit a
+            patre quam a filio: unde processio spiritus sancti tota est a filio, sicut etiam tota
+            est a patre. Unde non sequitur quod alia res sit in spiritu sancto quae non sit a filio.
+            Sed verum est quod illa processio non est a filio secundum omnem sui habitudinem, sed
+            hoc in nullo derogat plenitudini processionis. Accidit enim processioni spiritus sancti
+            quod secundum habitudinem qua est a filio, sit a patre: non quia a filio est spiritus
+            sanctus, sed quia filius est a patre.</p>
+        </div>
+        <div xml:id="ta-l1d12q1-Dd1e3611" type="articulus">
+          <head xml:id="ta-l1d12q1-Hd1e3613">Articulus 3</head>
+
+          <head xml:id="ta-l1d12q1-Hd1e3616" type="questionTitle">Utrum spiritus sanctus procedat a patre mediante filio</head>
+
+          <p xml:id="ta-l1d12q1-d1e3619">Ad tertium sic proceditur. Videtur quod spiritus sanctus procedat a patre mediante
+            filio. Illud enim per quod aliquid procedit, videtur esse medium in processione. Sed
+            spiritus sanctus procedit a patre per filium. Ergo procedit a patre mediante filio.</p>
+          <p xml:id="ta-l1d12q1-d1e3622">Praeterea, constat quod tertium non exit a primo, nisi per medium. Sed spiritus sanctus
+            dicitur esse tertia persona in Trinitate. Ergo non procedit a patre, qui est principium
+            non de principio, nisi mediante filio.</p>
+          <p xml:id="ta-l1d12q1-d1e3625">Praeterea, in imagine creata amor repraesentat spiritum sanctum, et notitia filium. Sed
+            amor non procedit a mente nisi mediante notitia. Ergo nec spiritus sanctus a patre nisi
+            filio mediante.</p>
+          <p xml:id="ta-l1d12q1-d1e3629">Sed contra, videtur quod immediatius procedit a patre quam a filio. Immediatum enim
+            principium dicitur principalius quam mediatum, ut patet in primis propositionibus, quae
+            immediatae dicuntur. Sed spiritus sanctus procedit principaliter a patre. Ergo
+            immediatius procedit ab ipso quam a filio.</p>
+          <p xml:id="ta-l1d12q1-d1e3632">Respondeo dicendum, quod omne medium aliquo modo distinguitur ab his inter quae medium
+            dicitur. Cum autem in spiratione pater et filius sint duo spirantes, inquantum sunt unum
+            in potentia spirativa, possumus loqui de actu spirationis per comparationem ad ipsos
+            spirantes, vel ad principium spirandi sicut virtute cujus fit spiratio. Si autem
+            consideremus ipsum principium, scilicet potentiam spirativam, cum in hoc non
+            distinguantur pater et filius, non potest dici spiratio esse a patre mediante filio. Si
+            autem consideremus ipsos spirantes qui distincti sunt, et secundum hoc praebent
+            suppositum spirationi, sic est ibi mediatio, secundum quod est ibi ordo naturae: quia
+            filius est ex patre, et spiritus sanctus simul a patre et filio. Unde dicit Richardus,
+            quod generatio in divinis est a patre immediate; sed processio spiritus sancti
+            quodammodo est mediate et quodammodo immediate. Immediate quantum ad virtutem
+            spirativam, quae est una patris et filii, et iterum quantum ad ipsum suppositum patris
+            quod immediate est principium processionis, quia ipse simul et filius spirant. Sed
+            mediate, inquantum filius, qui spirat, est a patre.</p>
+          <p xml:id="ta-l1d12q1-d1e3635">Ad primum igitur dicendum, quod per hoc quod dicitur, spiritum sanctum procedere a
+            patre per filium, designatur auctoritas in patre respectu filii; quia filius habet a
+            patre quod spiritum sanctum spiret. Ex hoc autem non ponitur mediatio aliqua nisi ex
+            parte suppositorum, quae distinguuntur per hoc quod unum est ab alio, ratione cujus in
+            uno est auctoritas respectu alterius.</p>
+          <p xml:id="ta-l1d12q1-d1e3638">Ad secundum dicendum, quod spiritus sanctus uno modo, ut dictum est, procedit a patre
+            mediante filio: sed hoc non excludit quin etiam immediate a patre procedat, ut dictum
+            est, in corp. art. praeced.</p>
+          <p xml:id="ta-l1d12q1-d1e3641">Ad tertium dicendum, quod imago quae est in anima, deficienter repraesentat Trinitatem;
+            notitia enim est omnino distincta a mente; et ideo simpliciter amor a mente mediante
+            notitia procedit. Sed in divinis personis filius non quantum ad omnia distinguitur a
+            patre; et ideo secundum aliquid non est ibi mediatio.</p>
+          <p xml:id="ta-l1d12q1-d1e3644">Ad quartum dicendum, quod quando sunt multae causae agentes ordinatae, possunt
+            dupliciter considerari, secundum quod est duo invenire in agente, scilicet ipsum agens
+            quod exercet actionem, et virtutem ipsius quae est principium actionis impositio. Si
+            igitur considerentur causae agentes ordinatae secundum rationem agentis cujus est agere,
+            sic quanto agens est posterius, tanto magis est proximum et immediatum ad actionem, et
+            ad id quod per actionem educitur. Si autem considerentur quantum ad virtutem quae est
+            principium operationis, quanto causa est magis prima, tanto est magis immediata, eo quod
+            agens secundum non agit, nisi inquantum est motum a primo, et secundum quod virtus primi
+            est in ipso. Unde oportet ut semper resolvatur virtus ultimi agentis in virtutem agentis
+            primi. Verbi gratia, quod planta generat plantam hoc habet a virtute solis, et quod sol
+            moveat ad generationem plantae, habet a virtute motoris sui quicumque sit ille. Et inde
+            est quod quia Deus est agens primum, ipse immediatius se habet secundum virtutem suam ad
+            quamlibet operationem naturae, quam aliquod agens naturale. Et inde est etiam quod
+            propositiones primae dicuntur immediatae, quia praedicatum non conjungitur subjecto per
+            virtutem alterius causae praecedentis. Inde est etiam quod haec praepositio per, quae
+            denotat causam mediam, quandoque notat auctoritatem in recto, quandoque in obliquo: in
+            recto, ut cum dicitur: rex facit hoc per balivum; tunc enim mediatio attenditur quantum
+            ad ipsos operantes. In obliquo, cum dicitur: praepositus facit hoc per regem. Hic enim
+            consideratur mediatio quantum ad virtutem, quae est principium operationis. Virtus enim
+            superioris est quasi medium, per quod operans suae operationi conjungitur; in patre
+            autem et in filio non est accipere distinctionem quantum ad principium operationis, quia
+            illud est idem in utroque, scilicet divina potentia; sed solum quantum ad operantes, qui
+            sunt ad invicem distincti. Et ideo, cum in patre sit auctoritas, dicitur pater operari
+            per filium, et nullo modo filius per patrem. Inde est etiam quod secundum aliquem modum
+            filius est medium in operatione patris, sed pater nullo modo in operatione filii.</p>
+        </div>
+        <div xml:id="ta-l1d12q1-Dd1e3649">
+          <head xml:id="ta-l1d12q1-Hd1e3651">Expositio textus</head>
+          <p xml:id="ta-l1d12q1-d1e3654"><quote xml:id="ta-l1d12q1-Qd1e3655">Aut jam nato filio, aut non nato filio</quote>. Videtur quod necessarium sit
+            alterum dare, quia differunt per affirmationem et negationem. Et dicendum, quod utraque
+            istarum est duplex, ex eo quod cum dicitur, spiritus sanctus procedit a patre, jam nato
+            filio, participium potest designare tempus praeteritum, et adverbium, nunc proximum ante
+            praesens tempus, et sic est falsa, quia significatur quod generatio filii duratione
+            processionem spiritus sancti praecedat; et in hoc sensu negativa est vera si negative
+            sumatur, ut feratur negatio ad totum, et non ad participium tantum. Si autem participium
+            designat perfectionem nativitatis, et adverbium, nunc aeternitatis; sic vera est; quia
+            existente perfecta generatione filii est ab aeterno processio spiritus sancti; et in hoc
+            sensu negativa falsa est. <quote xml:id="ta-l1d12q1-Qd1e3658">Aut plenius vel magis procedat spiritus sanctus a patre
+              quam a filio</quote>. Haec duo differunt, ut plenius dicatur procedere ab illo a quo
+            plura recipit, sed magis ab illo qui de majori virtute ad ejus processionem operatur.
+              <quote xml:id="ta-l1d12q1-Qd1e3661">Principaliter procedit de patre</quote>. Videtur esse falsum; quia si a patre
+            principaliter, ergo secundario a filio. Et dicendum, quod <quote xml:id="ta-l1d12q1-Qd1e3664">principaliter</quote>
+            non dicit gradum virtutis, sed ordinem originis; quia a patre filius habet quod spiritum
+            sanctum spiret.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

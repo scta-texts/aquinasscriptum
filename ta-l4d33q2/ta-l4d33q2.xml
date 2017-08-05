@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 33, Quaestio 2</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Librum IV, Distinctio 33, Quaestio 2</title>
+          <date when="2016-03-19">March 19, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-19">March 19, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness>1856 editum</witness>
+          <witness xml:id="G" n="ghent567">Ghent, Belgium, Ghent University Library, 567</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="0.0.0-dev">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+
+
+
+
+      <div xml:id="starts-on">
+        <cb ed="#G" n="488a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ta-l4d33q2">
+        <head xml:id="ta-l4d33q2-Hd1e97">Librum IV, Distinctio 33, Quaestio 2</head>
+        <div xml:id="ta-l4d33q2-Dd1e100">
+          <head xml:id="ta-l4d33q2-Hd1e102">Prooemium</head>
+          <p xml:id="ta-l4d33q2-d1e105">Deinde quaeritur de libello repudii; et circa hoc quaeruntur tria: 1 utrum
+            inseparabilitas matrimonii sit de lege naturae; 2 utrum repudiare uxorem aliquando
+            fuerit licitum; 3 de causis libelli repudii lege permissi, et ejus inscriptione.</p>
+
+        </div>
+        <div xml:id="ta-l4d33q2-Dd1e109" type="articulus">
+          <head xml:id="ta-l4d33q2-Hd1e111">Articulus 1</head>
+
+          <head xml:id="ta-l4d33q2-Hd1e114" type="questionTitle">Utrum inseparabilitas uxoris sit de lege naturae</head>
+
+          <p xml:id="ta-l4d33q2-d1e117">Ad primum sic proceditur. Videtur quod inseparabilitas uxoris non sit de lege naturae.
+            Lex enim naturae communis est apud omnes. Sed nulla lege praeter legem Christi fuit
+            prohibitum uxorem dimittere. Ergo inseparabilitas uxoris non est de lege naturae.</p>
+          <p xml:id="ta-l4d33q2-d1e120">Praeterea, sacramenta non sunt de lege naturae. Sed inseparabilitas matrimonii pertinet
+            ad bonum sacramenti. Ergo non est de lege naturae.</p>
+          <p xml:id="ta-l4d33q2-d1e123">Praeterea, conjunctio viri et feminae in matrimonio ordinatur principaliter ad prolis
+            generationem et educationem et instructionem, ut dictum est. Sed haec omnia aliquo certo
+            tempore consummantur. Ergo post illud tempus licet uxorem dimittere sine aliquo
+            praejudicio legis naturae.</p>
+          <p xml:id="ta-l4d33q2-d1e127">Praeterea, ex matrimonio quaeritur principaliter bonum prolis. Sed inseparabilitas
+            matrimonii est contra bonum prolis; quia, ut tradunt philosophi, aliquis vir non potest
+            ex aliqua femina prolem accipere, qui tamen ex alia concipere posset, et quae etiam ex
+            alio viro impraegnaretur. Ergo inseparabilitas matrimonii magis est contra legem naturae
+            quam de lege naturae.</p>
+          <p xml:id="ta-l4d33q2-d1e130">Sed contra, illud praecipue est de lege naturae quod natura bene instituta accepit in
+            suo principio. Sed inseparabilitas matrimonii est hujusmodi, ut patet Matth. 19. Ergo
+            est de lege naturae.</p>
+          <p xml:id="ta-l4d33q2-d1e133">Praeterea, de lege naturae est quod homo Deo non contrarietur. Sed homo quodammodo Deo
+            contrarius esset, si separaret quos Deus conjunxit. Cum ergo ex hoc habeatur
+            inseparabilitas matrimonii, Matth. 19, videtur quod sit de lege naturae.</p>
+          <p xml:id="ta-l4d33q2-d1e136">Respondeo dicendum, quod matrimonium ex intentione naturae ordinatur ad educationem
+            prolis non solum per aliquod tempus, sed per totam vitam prolis. Unde de lege naturae
+            est quod parentes filiis thesaurizent, et filii parentum heredes sint; et ideo, cum
+            proles sit commune bonum viri et uxoris, oportet eorum societatem perpetuo permanere
+            indivisam secundum legis naturae dictamen; et sic inseparabilitas matrimonii est de lege
+            naturae.</p>
+          <p xml:id="ta-l4d33q2-d1e139">Ad primum ergo dicendum, quod sola lex Christi ad perfectum humanum genus adduxit,
+            reducens in statum novitatis naturae; unde et in lege Moysi et in legibus humanis non
+            potuit totum auferri quod contra legem naturae erat: hoc enim soli legi spiritus et
+            vitae reservatum est.</p>
+          <p xml:id="ta-l4d33q2-d1e142">Ad secundum dicendum, quod inseparabilitas competit matrimonio secundum quod est signum
+            perpetuae conjunctionis Christi et Ecclesiae, et secundum quod est in officium naturae
+            ad bonum prolis ordinatum, ut dictum est. Sed quia separatio matrimonii magis directe
+            repugnat significationi quam prolis bono, cui ex consequenti repugnat, ut dictum est;
+            inseparabilitas matrimonii magis in bono sacramenti intelligitur quam in bono prolis,
+            quamvis in utroque intelligi possit; et secundum quod pertinet ad bonum prolis erit de
+            lege naturae; non autem secundum quod pertinet ad bonum sacramenti.</p>
+          <p xml:id="ta-l4d33q2-d1e146">Ad tertium patet solutio ex dictis.</p>
+          <p xml:id="ta-l4d33q2-d1e149">Ad quartum dicendum, quod matrimonium principaliter ordinatur ad bonum commune ratione
+            principalis finis, qui est bonum prolis; quamvis etiam ratione finis secundarii
+            ordinetur ad bonum matrimonium contrahentis, prout per se est in remedium
+            concupiscentiae. Et ideo in legibus matrimonii magis attenditur quid omnibus expediat
+            quam quid uni competere possit. Quamvis ergo matrimonii inseparabilitas impediat bonum
+            prolis in aliquo homine, tamen est conveniens ad bonum prolis simpliciter; et propter
+            hoc ratio non sequitur.</p>
+
+        </div>
+        <div xml:id="ta-l4d33q2-Dd1e153" type="articulus">
+          <head xml:id="ta-l4d33q2-Hd1e155">Articulus 2</head>
+
+          <head xml:id="ta-l4d33q2-Hd1e158" type="questionTitle">Utrum licitum esse possit per dispensationem uxorem
+            dimittere</head>
+
+          <div xml:id="ta-l4d33q2-Dd1e161">
+            <head xml:id="ta-l4d33q2-Hd1e163">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d33q2-d1e166">Ad secundum sic proceditur. Videtur quod uxorem dimittere licitum per dispensationem
+              esse non potuerit. Illud enim quod est in matrimonio contra bonum prolis, est contra
+              prima praecepta legis naturae, quae indispensabilia sunt. Sed dimissio uxoris est
+              hujusmodi, ut ex dictis patet. Ergo et cetera.</p>
+            <p xml:id="ta-l4d33q2-d1e169">Praeterea, concubina differt praecipue ab uxore in hoc quod non est inseparabiliter
+              juncta. Sed habere concubinas fuit indispensabile. Ergo et dimittere uxorem.</p>
+            <p xml:id="ta-l4d33q2-d1e172">Praeterea, homines sunt modo ita receptibiles dispensationis sicut olim fuerunt. Sed
+              modo non potest dispensari cum aliquo quod uxorem dimittat. Ergo nec olim.</p>
+            <p xml:id="ta-l4d33q2-d1e175">Sed contra, Agar cognita est ab Abraham uxorio affectu, quasi uxor, ut dictum est.
+              Sed ipse praecepto divino eam ejecit, et non peccavit. Ergo potuit per dispensationem
+              fieri licitum quod homo uxorem dimitteret.</p>
+
+          </div>
+          <div xml:id="ta-l4d33q2-Dd1e179">
+            <head xml:id="ta-l4d33q2-Hd1e181">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d33q2-d1e184">Ulterius. Videtur quod sub lege Moysi fuerit licitum uxorem dimittere. Unus enim
+              modus consentiendi est non prohibere, cum prohibere possis. Consentire autem illicito
+              est illicitum. Cum ergo Moyses non prohibuerit uxoris repudium, nec peccaverit, quia
+              lex sancta est, ut dicitur Roman. 7; videtur quod repudium fuerit aliquando
+              licitum.</p>
+            <p xml:id="ta-l4d33q2-d1e187">Praeterea, prophetae locuti sunt spiritu sancto inspirati, ut patet 2 Petr. 1. Sed
+              Malach. 2, 16, dicitur: <quote xml:id="ta-l4d33q2-Qd1e189">si odio habueris eam, dimitte eam</quote>. Ergo cum
+              illud quod spiritus sanctus inspirat, non sit illicitum, videtur quod repudium uxoris
+              non semper fuerit illicitum.</p>
+            <p xml:id="ta-l4d33q2-d1e193">Praeterea, Chrysostomus dicit, quod sicut apostoli permiserunt secundas nuptias, ita
+              Moyses permisit libellum repudii. Sed secundae nuptiae non sunt peccatum. Ergo nec
+              repudium uxoris sub lege Moysi.</p>
+            <p xml:id="ta-l4d33q2-d1e196">Sed contra est quod dominus dicit, quod libellus repudii datus est a Moyse Judaeis
+              propter duritiam cordis eorum. Sed duritia cordis eorum non excusabat eos a peccato.
+              Ergo neque lex de libello repudii.</p>
+            <p xml:id="ta-l4d33q2-d1e200">Praeterea, Chrysostomus dicit super Matth., quod Moyses dando libellum repudii non
+              justitiam Dei monstravit, ut quasi per legem agentibus peccatum non videatur esse
+              peccatum.</p>
+
+          </div>
+          <div xml:id="ta-l4d33q2-Dd1e204">
+            <head xml:id="ta-l4d33q2-Hd1e206">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d33q2-d1e209">Ulterius. Videtur quod liceret uxori repudiatae alium virum habere. Quia in repudio
+              magis erat iniquitas viri repudiantis quam uxoris repudiatae. Sed vir poterat aliam
+              sine peccato ducere in uxorem. Ergo uxor sine peccato alium virum ducere poterat.</p>
+            <p xml:id="ta-l4d33q2-d1e212">Praeterea, Augustinus, dicit de duabus uxoribus, quod quando mos erat, peccatum non
+              erat. Sed tempore legis erat talis consuetudo quod repudiata alium virum ducebat, ut
+              patet Deut. 24, 2: <quote xml:id="ta-l4d33q2-Qd1e214">cumque egressa virum alterum duxerit</quote> et cetera. Ergo
+              uxor non peccabat alteri se jungendo.</p>
+            <p xml:id="ta-l4d33q2-d1e218">Praeterea, dominus, Matth. 5, justitiam novi testamenti ostendit superabundantem esse
+              respectu justitiae veteris testamenti. Hoc autem dicit ad justitiam novi testamenti
+              per superabundantiam pertinere quod uxor repudiata non ducit alterum virum; ergo in
+              veteri lege licebat.</p>
+            <p xml:id="ta-l4d33q2-d1e221">Sed contra est quod dicitur Matth. 19, 9: <quote xml:id="ta-l4d33q2-Qd1e223" ana="#mt19_9">qui dimissam duxerit,
+                moechatur</quote>. Sed moechia nunquam fuit in veteri testamento licita. Ergo nec
+              uxori repudiatae licuit alium virum habere.</p>
+            <p xml:id="ta-l4d33q2-d1e228">Praeterea, Deut. 24 dicitur, quod mulier repudiata quae alium virum duceret, polluta
+              erat, abominabilis facta coram domino. Ergo peccabat alium virum ducendo.</p>
+
+          </div>
+          <div xml:id="ta-l4d33q2-Dd1e233">
+            <head xml:id="ta-l4d33q2-Hd1e235">Quaestiuncula 4</head>
+            <p xml:id="ta-l4d33q2-d1e238">Ulterius. Videtur quod licebat viro repudiatam a se accipere. Licet enim corrigere
+              quod male factum est. Sed male factum erat quod vir uxorem repudiabat. Ergo licebat
+              hoc corrigere, reducendo uxorem ad se.</p>
+            <p xml:id="ta-l4d33q2-d1e241">Praeterea, semper licuit peccanti indulgere, cum sit morale praeceptum, quod in omni
+              lege manet. Sed vir accipiendo repudiatam, ei peccanti indulgebat. Ergo hoc licitum
+              erat.</p>
+            <p xml:id="ta-l4d33q2-d1e244">Praeterea, Deuter. 24 ponitur causa quare non possit accipi iterum, quia polluta est.
+              Sed repudiata non polluitur nisi alterum virum ducendo. Ergo saltem antequam alium
+              virum duceret, licebat eam accipere.</p>
+            <p xml:id="ta-l4d33q2-d1e247">Sed contra est quod dicitur Deut. 24, 4: <quote xml:id="ta-l4d33q2-Qd1e249">non poterit prior maritus accipere
+                eam</quote>.</p>
+          </div>
+          <div xml:id="ta-l4d33q2-Dd1e254">
+            <head xml:id="ta-l4d33q2-Hd1e256">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d33q2-d1e259">Respondeo dicendum ad primam quaestionem, quod dispensatio in praeceptis, praecipue
+              quae sunt aliquo modo legis naturae, est sicut mutatio cursus rei naturalis: qui
+              quidem mutari dupliciter potest. Uno modo ex aliqua causa naturali, per quam alia
+              causa naturalis impeditur a cursu suo, sicut est in omnibus quae in minori parte
+              casualiter accidunt in natura: sed per hunc modum non variatur cursus rerum naturalium
+              quae sunt semper, sed quae sunt frequenter. Alio modo per causam penitus
+              supernaturalem, sicut in miraculis accidit; et hoc modo potest mutari cursus naturalis
+              non solum qui est ordinatus ut sit frequenter, sed qui est ordinatus etiam ut sit
+              semper; ut patet in statione solis tempore Josue, et reditu ejusdem tempore Ezechiae;
+              et de eclypsi miraculosa tempore passionis Christi. Haec autem ratio dispensationis in
+              praeceptis legis naturae quandoque est ex causis inferioribus; et sic dispensatio
+              cadere potest super secunda praecepta legis naturae, non autem super prima: quia illa
+              sunt quasi semper existentia, ut dictum est de pluralitate uxorum, et de hujusmodi.
+              Aliquando autem est tantum ex causis superioribus; et tunc potest dispensatio esse
+              divinitus etiam contra prima praecepta legis naturae, ratione alicujus mysterii divini
+              significandi vel ostendendi, sicut patet de dispensatione in praecepto Abrahae facto
+              de occisione filii innocentis. Tales autem dispensationes non fiunt communiter ad
+              omnes, sed ad aliquas singulares personas, sicut etiam de miraculis accidit. Si ergo
+              inseparabilitas matrimonii inter prima praecepta legis naturae contineatur, solum hoc
+              secundo modo sub dispensatione cadet; si autem sit inter secunda praecepta legis
+              naturae, etiam primo modo cadere potuit sub dispensatione. Videtur autem magis inter
+              secunda praecepta legis naturae contineri. Inseparabilitas enim matrimonii non
+              ordinatur ad prolis bonum, quod est principalis matrimonii finis, nisi quantum ad hoc
+              quod per parentes filiis provideri debet in totam vitam per debitam praeparationem
+              eorum quae sunt necessaria in vita. Hujusmodi autem rerum appropriatio non est de
+              prima intentione naturae, secundum quam omnia sunt communia; et ideo non videtur
+              contra primam intentionem naturae dimissio uxoris esse, et per consequens nec contra
+              prima praecepta, sed contra secunda legis naturae; unde etiam primo modo sub
+              dispensatione posse cadere videtur.</p>
+            <p xml:id="ta-l4d33q2-d1e262">Ad primum ergo dicendum, quod in bono prolis, secundum quod est de prima intentione
+              naturae, intelligitur procreatio, et nutritio, et instructio quousque proles ad
+              perfectam aetatem ducatur. Sed quod ei provideatur in posterum per hereditatis et
+              aliorum bonorum dimissionem, videtur pertinere ad secundam legis naturae
+              intentionem.</p>
+            <p xml:id="ta-l4d33q2-d1e265">Ad secundum dicendum, quod habere concubinam est contra bonum prolis quantum ad id
+              quod natura in eo de prima intentione intendit, scilicet educationem et instructionem,
+              quae requirit diuturnam commansionem parentum; quod non est in concubina, quae ad
+              tempus assumitur; et ideo non est simile. Tamen quantum ad secundam dispensationem
+              etiam habere concubinam sub dispensatione cadere potest, ut patet Oseae 1.</p>
+            <p xml:id="ta-l4d33q2-d1e268">Ad tertium dicendum, quod inseparabilitas quamvis sit de secunda intentione
+              matrimonii prout est in officium naturae, tamen est de prima intentione ipsius prout
+              est sacramentum Ecclesiae; et ideo ex quo institutum est ut sit Ecclesiae sacramentum,
+              manente tali institutione non potest sub dispensatione cadere, nisi forte secundo modo
+              dispensationis.</p>
+
+          </div>
+          <div xml:id="ta-l4d33q2-Dd1e272">
+            <head xml:id="ta-l4d33q2-Hd1e274">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d33q2-d1e277">Ad secundam quaestionem dicendum, quod circa hoc est duplex opinio. Quidam enim
+              dicunt, quod illi qui sub lege uxorem dato libello repudii dimittebant, non
+              excusabantur a peccato, quamvis excusarentur a poena secundum leges infligenda; et
+              propter hoc dicitur Moyses libellum repudii permisisse; et sic ponunt quatuor modos
+              permissionis. Unus per privationem praeceptionis; ut quando majus bonum non
+              praecipitur, minus bonum permitti dicitur; sicut apostolus non praecipiendo
+              virginitatem, matrimonium permisit, 1 Corinth. 7. Secundus per privationem
+              prohibitionis; sicut venialia dicuntur permissa, quia non sunt prohibita. Tertius per
+              privationem cohibitionis; et sic communia peccata dicuntur permitti a Deo, inquantum
+              non impedit, cum impedire posset. Quarta per privationem punitionis; et sic libellus
+              repudii lege permissus fuit, non quidem propter aliquod majus bonum consequendum,
+              sicut fuit dispensatio de pluribus uxoribus habendis; sed propter majus malum
+              cohibendum, scilicet uxoricidium, ad quod Judaei proni erant propter corruptionem
+              irascibilis; sicut et permissum eis fuit extraneis fenerari propter aliquam
+              corruptionem in concupiscibili, ne scilicet fratribus suis fenerarentur; et sicut
+              propter corruptionem suspicionis, in rationali fuit permissum sacrificium zelotypiae,
+              ne sola suspicio apud eos judicium corrumperet. Sed quia lex vetus, quamvis gratiam
+              non conferret, tamen ad hoc data erat ut peccatum ostenderet, ut communiter sancti
+              dicunt; ideo aliis videtur quod si repudiando uxorem peccassent, hoc saltem eis per
+              legem aut prophetas indicari debuisset; Isai. 58, 1: <quote xml:id="ta-l4d33q2-Qd1e279">annuntia populo meo
+                peccata eorum</quote>. Alias viderentur esse nimis neglecti, si ea quae necessaria
+              sunt ad salutem, quae non cognoscebant, nunquam eis nuntiata fuissent; quod non potest
+              dici, cum justitia legis tempore suo observata vitam mereretur aeternam. Et propter
+              hoc dicunt, quod quamvis repudiare uxorem per se sit malum, tamen ex permissione
+              divina licitum fiebat; et hoc confirmant auctoritate Chrysostomi, qui dicit, quod a
+              peccato abstulit culpam legislator, quando permisit repudium. Et quamvis hoc
+              probabiliter dicatur, tamen primum communius sustinetur; ideo ad utrasque rationes
+              respondendum est.</p>
+            <p xml:id="ta-l4d33q2-d1e283">Ad primum ergo dicendum, quod aliquis qui potest prohibere, non peccat, si a
+              prohibitione abstineat non sperans correctionem, sed magis malum aestimans ex tali
+              prohibitione occasionem sumere; et sic accidit Moysi; unde divina auctoritate fretus
+              libellum repudii non prohibuit.</p>
+            <p xml:id="ta-l4d33q2-d1e286">Ad secundum dicendum, quod prophetae spiritu sancto inspirati non dicebant
+              dimittendam esse uxorem quasi spiritus sancti praeceptum sit; sed quasi permissum, ne
+              mala pejora fierent.</p>
+            <p xml:id="ta-l4d33q2-d1e289">Ad tertium dicendum, quod illa permissionis similitudo non est intelligenda quantum
+              ad causam eamdem; quia utraque permissio ad vitandam turpitudinem facta est.</p>
+            <p xml:id="ta-l4d33q2-d1e293">Ad quartum dicendum, quod quamvis duritia cordis non excusaret a peccato, tamen
+              permissio ex duritia facta excusat; quaedam enim prohibentur sanis quae non
+              prohibentur infirmis corporaliter; nec tamen infirmi peccant permissione sibi facta
+              utentes.</p>
+            <p xml:id="ta-l4d33q2-d1e296">Ad quintum dicendum, quod aliquod bonum potest intermitti dupliciter. Uno modo
+              propter aliquod majus bonum consequendum; et tunc intermissio illius boni ex ordine ad
+              majus bonum accipit honestatem, sicut intermittebatur singularitas uxoris honeste a
+              Jacob propter bonum prolis. Alio modo bonum aliquod intermittitur ad vitandum majus
+              malum; et tunc si auctoritate ejus qui dispensare potest, hoc fiat, reatum talis boni
+              intermissio non habet; sed honestatem etiam non acquirit; et sic indivisibilitas
+              matrimonii in lege Moysi intermittebatur propter majus malum vitandum, scilicet
+              uxoricidium: et ideo Chrysostomus dicit, ut Sup., quod a peccato abstulit culpam.
+              Quamvis enim inordinatio maneret in repudio, ex quo peccatum dicitur; tamen reatum
+              poenae non habebat neque temporalis neque perpetuae, inquantum divina dispensatione
+              fiebat, et sic erat ab eo culpa ablata; et ideo etiam ipse ibidem dicit, quod
+              permissum est repudium, non malum quidem, tamen illicitum; quod quidem illi qui sunt
+              de prima opinione referunt ad hoc tantum quod habebat reatum temporalis poenae.</p>
+
+          </div>
+          <div xml:id="ta-l4d33q2-Dd1e300">
+            <head xml:id="ta-l4d33q2-Hd1e302">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d33q2-d1e305">Ad tertiam quaestionem dicendum, quod secundum primam opinionem uxor peccabat, post
+              repudium alteri viro conjuncta; quia adhuc matrimonium primum non erat solutum. Mulier
+              enim quanto tempore vivit, alligata est lege viri, ut patet Rom. 7. Non autem poterat
+              simul plures viros habere. Sed secundum aliam opinionem, sicut licebat ex
+              dispensatione divina viro uxorem repudiare, ita uxori alium virum ducere; quia
+              inseparabilitas matrimonii ex causa divinae dispensationis tollebatur, qua
+              inseparabilitate manente intelligitur verbum apostoli.</p>
+            <p xml:id="ta-l4d33q2-d1e308">Ut ergo ad utrasque rationes respondeamus, dicendum ad primum, quod viro licebat
+              plures uxores simul habere secundum dispensationem divinam; et ideo una dimissa, etiam
+              matrimonio non soluto, poterat aliam ducere. Sed nunquam uxori licuit habere plures
+              viros; et ideo non est simile.</p>
+            <p xml:id="ta-l4d33q2-d1e311">Ad secundum dicendum, quod in illo verbo Augustini mos non ponitur pro consuetudine,
+              sed pro actu honesto, secundum quod a more aliquis dicitur morigeratus, quia est
+              bonorum morum, vel sicut a more philosophia moralis nominatur.</p>
+            <p xml:id="ta-l4d33q2-d1e314">Ad tertium dicendum, quod dominus Matth. 5, ostendit novam legem abundare per
+              consilia ad veterem, non solum quantum ad ea quae lex vetus licita faciebat, sed etiam
+              quantum ad ea quae in veteri lege illicita erant, sed a multis licita putabantur per
+              non rectam praeceptorum expositionem; sicut patet de odio inimici; et ita est etiam de
+              repudio.</p>
+            <p xml:id="ta-l4d33q2-d1e318">Ad quartum dicendum, quod verbum domini intelligitur quantum ad tempus legis novae in
+              quo dicta permissio est sublata; et sic etiam intelligitur verbum quoddam Chrysostomi,
+              qui dicit, quod qui secundum legem dimittit uxorem, quatuor facit iniquitates; quia
+              quo ad Deum existit homicida, inquantum habet propositum occidendi uxorem, nisi eam
+              dimitteret; et quia dimittit non fornicantem, in quo solo casu lex Evangelii uxorem
+              dimittere permittit; et similiter quia facit eam adulteram, et illum cui
+              copulatur.</p>
+            <p xml:id="ta-l4d33q2-d1e321">Ad quintum dicendum, quod quidam interlinealis dicit, Deuter. 24: <quote xml:id="ta-l4d33q2-Qd1e323">polluta est,
+                et abominabilis; scilicet illius judicio qui quasi pollutam eam prius
+                dimisit</quote>; et sic non oportet quod sit polluta simpliciter. Vel dicitur
+              polluta illo modo quo immundus dicebatur qui mortuum tangebat vel leprosum; non
+              immunditia culpae, sed cujusdam irregularitatis legalis; unde et sacerdoti non licebat
+              viduam et repudiatam ducere in uxorem.</p>
+
+          </div>
+          <div xml:id="ta-l4d33q2-Dd1e328">
+            <head xml:id="ta-l4d33q2-Hd1e330">Quaestiuncula 4</head>
+            <p xml:id="ta-l4d33q2-d1e333">Ad quartam quaestionem dicendum, quod in lege de libello repudii duo erant permissa;
+              scilicet dimittere uxorem, et uxorem dimissam alteri jungi; et duo praecepta; scilicet
+              Scriptura libelli repudii, et quod iterum maritus repudians eam accipere non possit;
+              quod quidem, secundum eos qui primam opinionem tenent, factum fuit in poenam mulieris
+              quae alteri nupsit, et in hoc peccato polluta est; sed secundum alios, ut vir non de
+              facili uxorem repudiaret, quam postea nullo modo recuperare posset.</p>
+            <p xml:id="ta-l4d33q2-d1e336">Ad primum ergo dicendum, quod ad illius mali impedimentum quod committebat aliquis
+              repudiando uxorem, ordinabatur quod vir uxorem repudiatam assumere non posset iterato,
+              ut patet ex dictis; et ideo divinitus ordinatum fuit.</p>
+            <p xml:id="ta-l4d33q2-d1e339">Ad secundum dicendum, quod semper licuit indulgere peccanti quantum ad rancorem
+              cordis; sed non quantum ad poenam divinitus taxatam.</p>
+            <p xml:id="ta-l4d33q2-d1e342">Ad tertium dicendum, quod in hoc est duplex opinio. Quidam enim dicunt, quod licuit
+              uxorem repudiatam viro reconciliari, nisi matrimonio alteri viro juncta esset: tunc
+              enim propter adulterium, cui mulier voluntarie se subdit, in poenam ei dabatur quod ad
+              priorem virum non rediret. Sed quia lex universaliter prohibet, ideo dicunt alii, quod
+              etiam ante quam alteri nuberet, non poterat revocari, ex quo repudiata erat: quia
+              pollutio non intelligitur quantum ad culpam, sed ut dictum est.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d33q2-Dd1e347" type="articulus">
+          <head xml:id="ta-l4d33q2-Hd1e349">Articulus 3</head>
+
+          <head xml:id="ta-l4d33q2-Hd1e352" type="questionTitle">Utrum causa repudii fuerit odium uxoris</head>
+
+          <div xml:id="ta-l4d33q2-Dd1e355">
+            <head xml:id="ta-l4d33q2-Hd1e357">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d33q2-d1e360">Ad tertium sic proceditur. Videtur quod causa repudii fuerit odium uxoris, secundum
+              hoc quod dicitur Malach. 2, 16: <quote xml:id="ta-l4d33q2-Qd1e362">si odio habueris eam, dimitte
+              illam</quote>.</p>
+            <p xml:id="ta-l4d33q2-d1e366">Praeterea, Deuteronom. 24, 1, dicitur: <quote xml:id="ta-l4d33q2-Qd1e368">cum non invenerit gratiam in oculis
+                ejus propter aliquam foeditatem, scribet libellum repudii</quote>. Ergo idem quod
+              prius.</p>
+            <p xml:id="ta-l4d33q2-d1e372">Sed contra, sterilitas et fornicatio magis contrariantur matrimonio quam odium. Ergo
+              illa potius debuerunt esse causa repudii quam odium.</p>
+            <p xml:id="ta-l4d33q2-d1e375">Praeterea, odium potest creari ex virtute ejus qui odio habetur. Si ergo odium est
+              sufficiens causa, tunc mulier posset repudiari propter virtutem suam; quod est
+              absurdum.</p>
+            <p xml:id="ta-l4d33q2-d1e379">Praeterea, Deuteronom. 22, dicitur: si duxerit vir uxorem suam, et postea odio eam
+              habuerit, et objecerit ei stuprum aut conjugium; si in probatione defecerit,
+              verberabitur, et centum siclis argenti condemnabitur, et non poterit eam dimittere
+              omni tempore vitae suae. Ergo odium non est causa sufficiens repudii.</p>
+
+          </div>
+          <div xml:id="ta-l4d33q2-Dd1e383">
+            <head xml:id="ta-l4d33q2-Hd1e385">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d33q2-d1e388">Ulterius. Videtur quod repudii causae debebant in libello scribi. Quia per libellum
+              repudii scriptum a poena legis absolvebatur. Sed hoc omnino videtur injustum, nisi
+              causis sufficientibus repudii assignatis. Ergo oportebat illas scribere in
+              libello.</p>
+            <p xml:id="ta-l4d33q2-d1e391">Praeterea, ad nihil illa scripta valere videbantur nisi ut causae repudii
+              ostenderentur. Ergo si non inscribebantur, frustra libellus ille sibi tradebatur.</p>
+            <p xml:id="ta-l4d33q2-d1e394">Praeterea, hoc Magister dicit in littera.</p>
+            <p xml:id="ta-l4d33q2-d1e397">Sed contra, causae repudii aut erant sufficientes, aut non. Si sufficientes,
+              praecludebatur mulieri via ad secundas nuptias, quae ei secundum legem concedebantur.
+              Si autem insufficientes, ostendebatur injustum repudium; et sic repudium fieri non
+              poterat. Ergo nullo modo causae repudii inscribebantur.</p>
+          </div>
+          <div xml:id="ta-l4d33q2-Dd1e401">
+            <head xml:id="ta-l4d33q2-Hd1e403">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d33q2-d1e406">Respondeo dicendum ad primam quaestionem, quod causa permissionis repudiandi uxorem
+              fuit vitatio uxoricidii, ut sancti communiter dicunt. Proxima autem causa homicidii
+              est odium; et ideo proxima causa repudii est odium. Sed odium ex aliqua causa
+              causatur, sicut et amor; et ideo etiam oportet alias causas repudii ponere remotas,
+              quae erant causa odii. Dicit autem Augustinus in Glossa, Deuteron. 24: <quote xml:id="ta-l4d33q2-Qd1e408">multae
+                erant in lege causae dimittendi uxores: Christus solam fornicationem excipit;
+                ceteras molestias jubet pro fide et castitate conjugii sustineri</quote>. Hae autem
+              causae intelliguntur foeditates in corpore, puta infirmitas, vel aliqua notabilis
+              macula; vel in anima, sicut fornicatio, vel aliquid hujusmodi, quod in moribus
+              inhonestatem facit. Sed quidam has causas magis coarctant, satis probabiliter
+              dicentes, quod non licebat uxorem repudiare nisi propter aliquam causam post
+              matrimonium supervenientem; nec propter quamlibet talem, sed propter illas solum quae
+              possunt bonum prolis impedire, vel in corpore, ut sterilitas aut lepra, vel aliquid
+              hujusmodi; vel in anima, ut si esset malorum morum, quos filii ex conversatione ad
+              ipsam imitarentur. Sed quaedam Glossa super illud Deuteron. 24: <quote xml:id="ta-l4d33q2-Qd1e411">cum non
+                invenerit gratiam</quote> etc., videtur magis arctare, scilicet ad peccatum, cum
+              dicit ibi, per foeditatem peccatum intelligi. Sed peccatum Glossa nominat non solum in
+              moribus animae, sed etiam in natura corporis.</p>
+            <p xml:id="ta-l4d33q2-d1e415">Sic ergo prima duo concedimus.</p>
+            <p xml:id="ta-l4d33q2-d1e418">Ad tertium dicendum, quod sterilitas, et alia hujusmodi, sunt causa odii; et sic sunt
+              causae remotae.</p>
+            <p xml:id="ta-l4d33q2-d1e421">Ad quartum dicendum, quod propter virtutem non est aliquis odibilis, per se loquendo;
+              quia bonitas causa est amoris; et ideo ratio non sequitur.</p>
+            <p xml:id="ta-l4d33q2-d1e425">Ad quintum dicendum, quod hoc dabatur in poenam viri, quod non posset in perpetuum
+              repudiare uxorem in casu illo, sicut etiam in alio casu, quando puellam
+              defloraverat.</p>
+
+          </div>
+          <div xml:id="ta-l4d33q2-Dd1e430">
+            <head xml:id="ta-l4d33q2-Hd1e432">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d33q2-d1e435">Ad secundam quaestionem dicendum, quod causae repudii in speciali non scribebantur in
+              libello, sed in generali, ut ostenderetur justum repudium. Sed secundum Josephum, ut
+              mulier habens libellum conscriptum de repudio alteri posset nubere: alias enim ei
+              traditum non fuisset; unde, secundum eum, erat Scriptura talis: <quote xml:id="ta-l4d33q2-Qd1e437">promitto tibi
+                quod nunquam tecum conveniam</quote>. Sed secundum Augustinum, ideo libellus
+              scribebatur, ut mora interveniente, et consilio Scribarum dissuadente, vir a proposito
+              repudiandi desisteret.</p>
+            <p xml:id="ta-l4d33q2-d1e441">Et per hoc patet solutio ad objecta.</p>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

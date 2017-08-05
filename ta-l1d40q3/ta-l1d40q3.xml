@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 40, Quaestio 3</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.09-dev-master">
+          <title>Librum I, Distinctio 40, Quaestio 3</title>
+          <date when="2016-03-15">March 15, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-15">March 15, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p>1856 editum</p>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="2015.09">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+
+
+
+
+      <div xml:id="starts-on"> </div>
+    </front>
+    <body>
+      <div xml:id="ta-l1d40q3">
+        <head xml:id="ta-l1d40q3-Hd1e89">Librum I, Distinctio 40, Quaestio 3</head>
+
+        <head xml:id="ta-l1d40q3-Hd1e92">Quaestio 3</head>
+
+        <head xml:id="ta-l1d40q3-Hd1e95" type="questionTitle">Utrum praedestinatio sit certa</head>
+        <!-- not this question title will not be picked up in rdfextraction because its in the main div. Currently div resources are only created for children divs of the main div -->
+
+        <p xml:id="ta-l1d40q3-d1e100">Deinde quaeritur de certitudine praedestinationis. Et videtur quod non sit certa. Dicitur
+          enim Apoc. 3, 2: <quote xml:id="ta-l1d40q3-Qd1e102">tene quod habes, ne alius accipiat coronam tuam</quote>. Aut hoc
+          intelligitur de corona praesentis justitiae, aut de corona gloriae. Sed non de corona
+          praesentis justitiae; quia gratia quam quis habet, eo peccante destruitur, nec de subjecto
+          in subjectum mutatur. Ergo intelligitur de corona gloriae. Sed gloria non est alicujus in
+          statu viae nisi quia est sibi praedestinata. Ergo videtur quod unus possit accipere hoc
+          quod alii praedestinatum est; et ita praedestinatio certitudinem non habet.</p>
+        <p xml:id="ta-l1d40q3-d1e107">Praeterea, Gregorius in moralibus dicit, quod aliis cadentibus, in eorum locum alii
+          succedunt. Sed locus gloriae non potest dici eorum, nisi quia est eis praedestinatus. Ergo
+          idem quod prius.</p>
+        <p xml:id="ta-l1d40q3-d1e110">Praeterea, in Psal. 68, 12, dicitur: <quote xml:id="ta-l1d40q3-Qd1e112">deleantur de libro viventium</quote>. Sed non
+          potest deleri de libro quod ibi scriptum non est. Cum ergo praedestinatio sit liber vitae,
+          ut dictum est, videtur quod aliquid a praedestinatione possit deficere: et ita non erit
+          certa.</p>
+        <p xml:id="ta-l1d40q3-d1e116">Praeterea, eorum quae non sunt determinata nec in se nec in causis suis, non potest esse
+          certitudo. Sed motus liberi arbitrii, quod est causa ad utrumlibet, non sunt determinati
+          nec in se nec in suis causis, antequam sint. Ergo cum effectus praedestinationis expleatur
+          motibus liberi arbitrii, quae sunt opera meritoria, videtur quod praedestinatio nullam
+          certitudinem habeat.</p>
+        <p xml:id="ta-l1d40q3-d1e119">Praeterea, omnis certa cognitio posita de necessitate concludit cognitum. Sed illud quod
+          est aeternum, cum sit in omni tempore, potest in quocumque tempore poni. Cum igitur
+          praedestinatio sit aeterna, potest poni aliquis praedestinatus antequam salvetur. Ergo
+          potest concludi, iste salvabitur, sicut verum. Sed si futurum contingens esset verum, tunc
+          accideret de necessitate, ut probat philosophus. Ergo sequeretur quod iste ex necessitate
+          salvaretur, et quod non posset non salvari; et sic liberum arbitrium periret, quod est
+          impossibile: et impossibile non sequitur nisi ex impossibili. Ergo videtur quod
+          impossibile sit praedestinationem certitudinem habere; quia alia probata sunt possibilia
+          esse.</p>
+        <p xml:id="ta-l1d40q3-d1e122">Sed contra, praedestinatio in sui ratione includit praescientiam. Sed ipse Deus habet
+          certam cognitionem de omnibus quae cognoscit, ut supra, dist. 36, quaest. 1, art. 3,
+          habitum est. Ergo videtur quod praedestinatio sit certa.</p>
+        <p xml:id="ta-l1d40q3-d1e125">Respondeo dicendum, quod quidam dixerunt quod Deus non cognoscit futura contingentia nisi
+          secundum quod sunt, scilicet sciens ea esse contingentia, sicut necessaria esse
+          necessaria. Sed hoc improbat Boetius: quia secundum hoc sequeretur quod Deus non plus
+          cognosceret de salute hominum futura quam homo, qui scit etiam eam contingentem. Unde alii
+          dixerunt, quod praedestinatio habet certitudinem, ita quod numerus salvandorum apud Deum
+          est certus, accipiendo numerum quo numeramus, scilicet quod salvabuntur centum vel mille,
+          et sic de aliis. Non autem certus est numerus materialiter sumptus, scilicet quo ad
+          supposita; quia isti homines possunt et salvari et non salvari. Sed hoc est attribuere Deo
+          imperfectam cognitionem. Si enim cognoscit quod tot salvabuntur, et non quod isti;
+          imperfecta est ejus cognitio, et in universali tantum. Si autem cognoscit quod etiam isti,
+          oportet hoc certum esse; quia cognitio ejus incerta esse non potest, sicut nec falsa. Et
+          ideo dicendum est, quod numerus praedestinatorum utroque modo acceptus, scilicet et
+          formaliter et materialiter, certus est Deo, sed incertus est nobis. Nec tamen ista
+          certitudo necessitatem salvandis imponit; quod patet ex his quae dicta sunt.
+          Praedestinatio enim includit in suo intellectu praescientiam, et providentiam salutis
+          omnium. Providentia autem, ut dictum est, quamvis sit omnium, non tamen omnia necessario
+          contingunt, sed secundum conditionem causarum proximarum, quarum naturas et ordinem
+          providentia et praedestinatio salvat. Praescientia etiam non imponit necessitatem rebus
+          nec inquantum est causa, cum sit causa prima, cujus conditionem effectus non habet, sed
+          causae proximae; nec ratione adaequationis ad rem scitam quae ad rationem veritatis et
+          certitudinis scientiae exigitur, quia adaequatio ista attenditur scientiae Dei ad rem non
+          secundum quod est in causis suis, in quibus est ut possibile futurum tantum, sed ad ipsam
+          rem, secundum quod habet esse determinatum, prout est praesens, et non futurum: et hoc
+          supra, dist. 38, quaest. 1, art. 5, expositum est; et ita patet quod certitudo
+          praedestinationis nullam necessitatem salvandis imponit.</p>
+        <p xml:id="ta-l1d40q3-d1e129">Ad primum ergo dicendum, quod utroque modo potest exponi. Si enim intelligatur de corona
+          praesentis justitiae, dicitur coronam ejus alius accipere, dum opera ipsius in caritate
+          facta, quae sibi et aliis proderant, secundum quod spiritus caritatis facit communia
+          merita sanctorum, ipso peccante sibi prodesse desinunt ad meritum vitae aeternae; eorum
+          tamen fructus in illis manet qui in gratia perseverant; non autem ita quod eadem numero
+          gratia quae est in uno, ipso peccante, in altero fiat. Et similiter exponitur, si
+          intelligitur de corona futurae gloriae; quia sancti in patria existentes gaudent de
+          omnibus meritis sanctorum qui in mundo sunt. Unde aliquo peccante, cujus multa merita
+          praecesserunt, gaudium illorum meritorum in aeternum manebit in beatis, quod ipse peccando
+          amisit; non ita quod gloria quae praedestinata est uni, alteri detur. Dicitur tamen:
+            <quote xml:id="ta-l1d40q3-Qd1e131">ne alius accipiat coronam tuam</quote>, non ad excludendum praedestinationis
+          certitudinem, sed ad ostendendam arbitrii libertatem.</p>
+        <p xml:id="ta-l1d40q3-d1e135">Ad secundum dicendum, quod dictum Gregorii non intelligitur de loco qui sanctis
+          praedestinatus est, sed de loco quem tenent in Ecclesia per statum praesentis justitiae;
+          quia Ecclesia nunquam destituitur existentibus in gratia; unde peccantibus quibusdam, alii
+          in gratiam a domino advocantur.</p>
+        <p xml:id="ta-l1d40q3-d1e138">Ad tertium dicendum, quod praedestinatio est liber vitae secundum quod dicitur in eo
+          aliquid scribi non solum quantum ad praesentem justitiam, sed etiam quantum ad futuram
+          gloriam; et sic nullo modo potest dici aliquis deleri de libro vitae; sed illud quod est
+          ibi scriptum quantum ad praesentem justitiam tantum, dicitur deleri, non mutatione facta
+          ex parte libri, ut aliquid in eo fuerit, quod postmodum non sit; sed ex parte illius qui
+          in libro scriptus dicitur, inquantum scilicet ipse mutatur a statu praesentis justitiae;
+          et sic vita ejus non repraesentatur ut praesens, sed ut praeterita.</p>
+        <p xml:id="ta-l1d40q3-d1e141">Ad quartum dicendum, quod contingens futurum, ut motus liberi arbitrii, quamvis non sit
+          determinatum in causa sua, est tamen determinatum in esse suo secundum quod est actu; et
+          sic subjacet certitudini praescientiae, sicut supra dictum est de futuris contingentibus,
+          dist. 38, quaest. 1, art. 5.</p>
+        <p xml:id="ta-l1d40q3-d1e144">Ad quintum dicendum, quod illud quod mensuratur aeternitate, est simul cum omni tempore,
+          ita tamen quod nullo eorum mensuratur; et ideo actus divinae praescientiae non potest poni
+          ita esse nunc, quasi mensuretur per praesens tempus, ut ordinem praesentis ad futurum ad
+          suum scitum habeat; sed ad omne tempus et ad omne scitum habet ordinem praesentis ad
+          praesens. Unde cum dicitur, Deus praescit hoc, non intelligitur quod hoc sit futurum
+          respectu divinae scientiae, sed respectu hujus temporis in quo profertur: et ideo oportet
+          hujusmodi verba et participia dicta de Deo a determinatione temporis absolvere, ut
+          consignificent nunc aeternitatis, et non temporis; alias inevitabiliter sequitur
+          error.</p>
+
+      </div>
+    </body>
+  </text>
+</TEI>

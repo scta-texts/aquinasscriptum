@@ -1,0 +1,1046 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 44, Quaestio 3</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Librum IV, Distinctio 44, Quaestio 3</title>
+          <date when="2016-03-19">March 19, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-19">March 19, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness>1856 editum</witness>
+          <witness xml:id="G" n="ghent567">Ghent, Belgium, Ghent University Library, 567</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="0.0.0-dev">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+
+
+
+
+      <div xml:id="starts-on">
+        <cb ed="#G" n="618a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ta-l4d1q1">
+        <head xml:id="ta-l4d1q1-Hd1e97">Librum IV, Distinctio 44, Quaestio 3</head>
+        <div xml:id="ta-l4d1q1-Dd1e100">
+          <head xml:id="ta-l4d1q1-Hd1e102">Prooemium</head>
+          <p xml:id="ta-l4d1q1-d1e105">Deinde quaeritur de his quae pertinent ad damnatos; et circa hoc quaeruntur tria: 1 de
+            qualitate corporum ipsorum; 2 de igne quo cruciabuntur; 3 de conditionibus animarum
+            eorumdem, postquam fuerint separatae.</p>
+
+        </div>
+        <div xml:id="ta-l4d1q1-Dd1e109" type="articulus">
+          <head xml:id="ta-l4d1q1-Hd1e111">Articulus 1</head>
+
+          <head xml:id="ta-l4d1q1-Hd1e114" type="questionTitle">Utrum damnatorum corpora cum suis deformitatibus
+            resurgant</head>
+
+          <div xml:id="ta-l4d1q1-Dd1e117">
+            <head xml:id="ta-l4d1q1-Hd1e119">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d1q1-d1e122">Ad primum sic proceditur. Videtur quod damnatorum corpora cum suis deformitatibus
+              resurgant. Illud enim quod in poenam peccati inductum est, desistere non debet nisi
+              peccato remisso. Sed membrorum defectus qui accidunt per mutilationem, in poenam
+              peccati inducti sunt, et similiter etiam omnes aliae deformitates corporales. Ergo a
+              damnatis, qui peccatorum remissionem non sunt consecuti, in resurrectione non
+              removebuntur.</p>
+            <p xml:id="ta-l4d1q1-d1e125">Praeterea, sicut resurrectio sanctorum erit ad ultimam perfectionem, sic et
+              resurrectio ipsorum erit ad ultimam miseriam. Sed sanctis resurgentibus non auferetur
+              aliquid quod ad eorum perfectionem pertinere possit. Ergo nec impiis resurgentibus
+              aliquid auferetur quod ad eorum defectum vel miseriam pertineat. Hujusmodi autem sunt
+              deformitates. Ergo et cetera.</p>
+            <p xml:id="ta-l4d1q1-d1e128">Praeterea, sicut ad defectum passibilis corporis pertinet deformitas, ita tarditas.
+              Sed a corporibus damnatorum resurgentium tarditas non removebitur, quia eorum corpora
+              non erunt agilia. Ergo eadem ratione nec deformitas removebitur.</p>
+            <p xml:id="ta-l4d1q1-d1e131">Sed contra, 1 Corinth. 15, 53: <quote xml:id="ta-l4d1q1-Qd1e133">mortui resurgent incorrupti</quote>; Glossa:
+                <quote xml:id="ta-l4d1q1-Qd1e136">mortui, idest peccatores, vel generaliter omnes mortui, surgent incorrupti,
+                idest sine aliqua diminutione membrorum</quote>. Ergo mali resurgent sine
+              deformitatibus.</p>
+            <p xml:id="ta-l4d1q1-d1e141">Praeterea, in damnatis non erit aliquid quod sensum doloris in eis impediat. Sed
+              aegritudo impedit sensum doloris, inquantum per eam debilitantur organa sentiendi;
+              similiter defectus membri impediret ne esset universalis dolor in corpore. Ergo sine
+              istis defectibus damnati resurgent.</p>
+
+          </div>
+          <div xml:id="ta-l4d1q1-Dd1e145">
+            <head xml:id="ta-l4d1q1-Hd1e147">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d1q1-d1e150">Ulterius. Videtur quod corpora damnatorum erunt corruptibilia. Omne enim compositum
+              ex contrariis necesse est corrumpi. Sed corpora damnatorum erunt ex contrariis
+              composita, ex quibus etiam nunc componuntur; alias non essent ejusdem speciei, et per
+              consequens eadem numero. Ergo erunt corruptibilia.</p>
+            <p xml:id="ta-l4d1q1-d1e153">Praeterea, corpora damnatorum si incorruptibilia sunt futura, hoc non erit per
+              naturam, cum sint futura ejusdem naturae cujus et nunc sunt, nec etiam erit per
+              gratiam vel gloriam, quia talibus omnino carebunt. Ergo nullo modo erunt
+              incorruptibilia.</p>
+            <p xml:id="ta-l4d1q1-d1e156">Praeterea, illis qui sunt in summa miseria, subtrahere maximam poenarum videtur
+              inconveniens. Sed maxima poenarum est mors, ut patet per philosophum in 3 Ethic. Ergo
+              a damnatis qui sunt in summa miseria, mors removeri non debet; ergo eorum corpora
+              corruptibilia erunt.</p>
+            <p xml:id="ta-l4d1q1-d1e159">Sed contra est quod dicitur Apoc. 9, 6: <quote xml:id="ta-l4d1q1-Qd1e161">in diebus illis quaerent homines
+                mortem, et non invenient eam; et desiderabunt mori, et fugiet mors ab illis</quote>.
+              Praeterea, damnati punientur in anima et corpore poena perpetua: Matth. 25, 46:
+                <quote xml:id="ta-l4d1q1-Qd1e164" ana="#mt25_46">ibunt hi in supplicium aeternum</quote>. Sed hoc esse non posset, si eorum
+              corpora corruptibilia essent. Ergo eorum corpora erunt incorruptibilia.</p>
+
+          </div>
+          <div xml:id="ta-l4d1q1-Dd1e169">
+            <head xml:id="ta-l4d1q1-Hd1e171">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d1q1-d1e174">Ulterius. Videtur quod sint futura impassibilia. Quia secundum philosophum in 6
+              Topic., cap. 10, <quote xml:id="ta-l4d1q1-Qd1e176">omnis passio magis facta abjicit a substantia</quote>. Sed a
+              finito si semper aliquid abjiciatur, necesse est illud tandem consumi, ut dicitur in 3
+              Phys. Ergo si corpora damnatorum erunt passibilia, et semper patientur, quandoque
+              deficient et corrumpentur; quod falsum esse ostensum est. Ergo erunt impassibilia.</p>
+            <p xml:id="ta-l4d1q1-d1e180">Praeterea, omne agens assimilat sibi patiens. Si ergo corpora damnatorum patientur ab
+              igne, ignis ea sibi assimilabit. Sed non consumit aliter ignis corpora, nisi inquantum
+              ea sibi assimilans resolvit. Ergo si corpora damnatorum erunt passibilia ab igne,
+              quandoque consumentur; et sic idem quod prius.</p>
+            <p xml:id="ta-l4d1q1-d1e183">Praeterea, animalia quae in igne sine corruptione vivere dicuntur, ut de salamandra
+              dicitur, ab igne non affliguntur: animal enim dolore corporis non affligitur, nisi
+              corpus aliquo modo laedatur. Ergo corpora damnatorum in igne sine consumptione
+              remanere possunt, sicut et animalia praedicta, ut Augustinus in Lib. de Civit. Dei,
+              dicere videtur, quod nullam afflictionem ibi sustinebunt; quod non esset, nisi eorum
+              impassibilia corpora essent. Ergo et cetera.</p>
+            <p xml:id="ta-l4d1q1-d1e186">Praeterea, si corpora damnatorum sunt passibilia, dolor qui ex eorum passione
+              provenit, ut videtur, superare debet omnem praesentem corporum dolorem, sicut et
+              sanctorum jucunditas superabit omnem praesentem jucunditatem. Sed propter immensitatem
+              doloris quandoque contingit in praesenti statu quod anima a corpore separatur. Ergo
+              multo fortius si corpora illa futura sunt passibilia, ex immensitate doloris anima a
+              corpore separabitur, et sic corpora corrumpentur; quod falsum est. Ergo corpora illa
+              erunt impassibilia.</p>
+            <p xml:id="ta-l4d1q1-d1e190">Sed contra est quod dicitur 1 Corinth. 15, 52: <quote xml:id="ta-l4d1q1-Qd1e192">et nos immutabimur</quote>;
+              Glossa: <quote xml:id="ta-l4d1q1-Qd1e195">nos boni tantummodo immutabimur in gloriam immutabilitatis et
+                impassibilitatis</quote>. Ergo corpora damnatorum non erunt impassibilia.</p>
+            <p xml:id="ta-l4d1q1-d1e199">Praeterea, sicut corpus cooperatur animae ad meritum, ita corpus operatur ei ad
+              peccatum. Sed propter cooperationem praedictam non solum anima, sed et corpus post
+              resurrectionem praemiabitur. Ergo et in resurrectione similiter damnatorum corpora
+              punientur; quod non esset, si impassibilia forent. Ergo erunt passibilia.</p>
+          </div>
+          <div xml:id="ta-l4d1q1-Dd1e204">
+            <head xml:id="ta-l4d1q1-Hd1e206">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d1q1-d1e209">Respondeo dicendum ad primam quaestionem, quod in corpore humano potest esse
+              deformitas dupliciter. Uno modo ex defectu alicujus membri, sicut mutilatos turpes
+              dicimus; deest enim eis debita proportio ad totum; et de tali deformitate nulli dubium
+              est quod in corporibus damnatorum non erit; quia omnia corpora tam bonorum quam
+              malorum integra resurgent, ut supra dictum est cum de integritate corporum
+              resurgentium ageretur. Alio modo deformitas contingit ex indebita partium
+              dispositione, vel indebita quantitate vel qualitate vel situ, quae etiam proportionem
+              debitam partium ad totum non patitur; et de talibus deformitatibus et similibus
+              defectibus, sicut sunt febres et hujusmodi aegritudines, quae interdum sunt
+              deformitatis causae, Augustinus indeterminatum et sub dubio relinquit in Ench., ut
+              Magister in littera dicit. Sed apud doctores modernos est super hoc duplex opinio.
+              Quidam enim dicunt, quod hujusmodi deformitates et defectus in corporibus damnatorum
+              remanebunt, considerantes eorum damnationem, qua ad summam miseriam deputantur, cui
+              nihil incommoditatis subtrahi debet. Sed hoc non videtur rationabiliter dici; in
+              reparatione enim corporis resurgentis magis attenditur naturae perfectio quam conditio
+              quae prius fuit; unde et qui infra perfectam aetatem decedunt, in statura juvenilis
+              aetatis resurgent, ut supra dictum est; unde et illi qui aliquos defectus naturales in
+              corpore habuerunt vel deformitates ex eis provenientes, in resurrectione sine illis
+              defectibus vel deformitatibus repararentur, nisi peccati meritum impediret; et ita, si
+              aliquis cum defectibus vel deformitatibus resurget, hoc erit in poenam; modus autem
+              poenae est secundum mensuram culpae. Contingit autem quod aliquis peccator damnandus
+              minoribus peccatis subjectus, aliquas deformitates vel defectus habeat quas non habuit
+              aliquis damnandus peccatis gravioribus irretitus. Unde si ille qui in hac vita
+              deformitates habuit, cum eis resurgat, sine quibus constat quod resurget alius gravius
+              puniendus, qui eas in hac vita non habuit; modus poenae non responderet quantitati
+              culpae, sed magis videretur aliquis puniri pro poenis quas in hoc mundo passus fuit;
+              quod est absurdum. Et ideo alii rationabilius dicunt, quod auctor qui naturam
+              condidit, in resurrectione naturam corporis integre reparabit; unde quidquid defectus
+              vel turpitudinis ex corruptione vel debilitate naturae, sive principiorum naturalium,
+              in corpore fuit, totum in resurrectione removebitur, sicut febris, lippitudo, et
+              similia; defectus autem qui ex naturalibus principiis in humano corpore naturaliter
+              consequuntur, sicut ponderositas, passibilitas, et similia, in corporibus damnatorum
+              erunt; quos defectus ab electorum corporibus gloria resurrectionis excludit.</p>
+            <p xml:id="ta-l4d1q1-d1e212">Ad primum ergo dicendum, quod cum poena in quolibet foro infligatur secundum
+              conditionem illius fori, poenae quae in hac vita temporali infliguntur pro aliquo
+              peccato, temporales sunt, et ultra vitae terminum non se extendunt; et ideo quamvis
+              peccatum non sit remissum damnatis, non tamen oportet quod easdem poenas ibi
+              sustineant quas in hoc mundo sunt passi; sed divina justitia requirit ut ibi poenis
+              gravioribus in aeternum crucientur.</p>
+            <p xml:id="ta-l4d1q1-d1e215">Ad secundum dicendum, quod non est similis ratio de bonis et malis, eo quod aliquid
+              potest esse pure bonum, non autem pure malum; unde ultima sanctorum felicitas hoc
+              requirit ut ab omni malo penitus sint immunes; sed ultima malorum miseria non excludit
+              omne bonum; quia malum, si integrum sit, corrumpit seipsum, ut philosophus dicit in 4
+              Ethicor. Unde oportet quod miseriae damnatorum substernatur bonum naturae in ipsis,
+              quod est opus conditoris perfecti, qui ipsam naturam in perfectione suae speciei
+              reparabit.</p>
+            <p xml:id="ta-l4d1q1-d1e218">Ad tertium dicendum, quod tarditas est de illis defectibus qui naturaliter sequuntur
+              principia humani corporis, non autem deformitas; et ideo de eis non est similis ratio,
+              ut ex dictis patet.</p>
+
+          </div>
+          <div xml:id="ta-l4d1q1-Dd1e222">
+            <head xml:id="ta-l4d1q1-Hd1e224">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d1q1-d1e227">Ad secundam quaestionem dicendum, quod cum in omni motu oporteat esse aliquod
+              principium motus; dupliciter motus aliquis vel mutatio a mobili removetur. Uno modo
+              per hoc quod deest principium motus; alio modo per hoc quod principium motus
+              impeditur. Corruptio autem mutatio quaedam est; unde dupliciter potest contingere ut
+              corpus quod ex conditione suorum principiorum corruptibilitatem habet, incorruptibile
+              reddatur. Uno modo ex hoc quod principium ad corruptionem movens totaliter tollitur;
+              et hoc modo corpora damnatorum incorruptibilia erunt. Cum enim caelum sit primum
+              alterans per motum suum localem, et omnia alia agentia secunda in virtute ipsius
+              agant, et quasi ab ipso mota; oportet quod cessante motu caeli, nihil sit agens quod
+              possit corpus per alterationem aliquam transmutare a sua naturali proprietate; et ideo
+              post resurrectionem, cessante motu caeli, nulla qualitas erit sufficiens ut corpus
+              humanum alterare possit a sua naturali qualitate. Corruptio autem est terminus
+              alterationis, sicut et generatio; unde corpora damnatorum corrumpi non poterunt; et
+              hoc deservit divinae justitiae, ut perpetuo viventes, perpetuo puniantur, quod divina
+              justitia requirit, ut infra dicetur; sicut et nunc corruptibilitas corporum deservit
+              divinae providentiae, per quam ex aliquibus corruptis alia generantur. Alio modo
+              contingit ex hoc quod principium corruptionis impeditur; et hoc modo corpus Adae
+              incorruptibile fuit; quia contrariae qualitates in corpore hominis existentes,
+              continebantur per gratiam innocentiae ne ad dissolutionem corporis agere possent; et
+              multo plus continebuntur in corporibus gloriosis, quae erunt omnino subjecta spiritui;
+              et sic in corporibus beatorum post resurrectionem communem conjungentur duo praedicti
+              modi incorruptibilitatis.</p>
+            <p xml:id="ta-l4d1q1-d1e230">Ad primum ergo dicendum, quod contraria ex quibus corpora componuntur, sunt duo
+              principia ad corruptionem agentia. Primum enim agens est motus caelestis; unde
+              supposito motu caelesti, necesse est ut corpus ex contrariis compositum corrumpatur,
+              nisi sit aliqua causa potior impediens. Sed motu caeli remoto, contraria ex quibus
+              corpus componitur, non sufficiunt ad corruptionem faciendam etiam secundum naturam, ut
+              patet ex dictis. Cessationem autem motus caeli philosophi non cognoverunt; unde pro
+              infallibili habebant quod corpus compositum ex contrariis corrumpatur secundum
+              naturam.</p>
+            <p xml:id="ta-l4d1q1-d1e233">Ad secundum dicendum, quod incorruptibilitas illa erit per naturam, non quod sit
+              aliquod incorruptionis principium in corporibus damnatorum, sed per defectum principii
+              moventis ad corruptionem, ut ex dictis patet.</p>
+            <p xml:id="ta-l4d1q1-d1e236">Ad tertium dicendum, quod quamvis mors sit simpliciter maxima poenarum secundum quid,
+              tamen nihil prohibet mortem esse in poenarum remedium, et per consequens ablationem
+              mortis in poenarum augmentum. Vivere enim, ut dicitur in 5 Ethic., videtur omnibus
+              delectabile esse, eo quod omnia esse appetunt. Non oportet autem, ut ibidem dicitur,
+              accipere malam vitam, neque corruptam, neque quae est in tristitiis. Sicut ergo vivere
+              simpliciter est delectabile, non autem vita quae est in tristitiis; ita et mors quae
+              est privatio vitae, simpliciter est poenosa, et maxima poenarum, inquantum subtrahit
+              primum bonum, scilicet esse, cum quo omnia alia subtrahuntur; sed inquantum privat
+              malam vitam, et quae est in tristitiis, est in remedium poenarum quas terminat; et per
+              consequens mortis subtractio est in augmentum poenarum, quas perpetuas facit. Si autem
+              dicatur mors esse poenalis propter corporalem dolorem quem sentiunt morientes; non est
+              dubium quod multo majorem dolorem damnati continue sustinebunt; unde in perpetua morte
+              esse dicuntur, sicut scriptum est in Psal. 48, 15: <quote xml:id="ta-l4d1q1-Qd1e238">mors depascet
+              eos</quote>.</p>
+
+          </div>
+          <div xml:id="ta-l4d1q1-Dd1e243">
+            <head xml:id="ta-l4d1q1-Hd1e245">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d1q1-d1e248">Ad tertiam quaestionem dicendum, quod principalis causa quare corpora damnatorum ab
+              igne non consumuntur, erit divina justitia, quia eorum corpora ad perpetuam poenam
+              sunt addicta. Sed divinae justitiae servit etiam naturalis dispositio ex parte
+              corporis patientis, et ex parte agentium: quia cum pati sit recipere quoddam, duplex
+              est modus passionis, secundum quod aliquid in aliquo recipi potest dupliciter. Potest
+              enim aliqua forma recipi in altero aliquo secundum esse naturale materialiter, sicut
+              calor recipitur ab igne in aere; et secundum hunc modum receptionis est unus modus
+              passionis, qui dicitur passio naturae. Alio modo aliquid recipitur in altero
+              spiritualiter per modum intentionis cujusdam, sicut similitudo albedinis recipitur in
+              aere et in pupilla; et haec receptio similatur illi receptioni qua anima recipit
+              similitudines rerum; unde secundum hunc modum receptionis est alius modus passionis,
+              qui vocatur passio animae. Quia ergo post resurrectionem, et motu caeli cessante, non
+              poterit aliquod corpus alterari a sua naturali qualitate, ut dictum est, nullum corpus
+              pati poterit passione naturae; unde quantum ad hunc modum passionis corpora damnatorum
+              impassibilia erunt, sicut et incorruptibilia. Sed cessante motu caeli, adhuc manebit
+              passio quae est per modum animae; quia et aer a sole illuminabitur, et colorum
+              differentias ad visum deferet; unde et secundum hunc modum passionis corpora
+              damnatorum passibilia erunt. Et quia in tali passione sensus perficitur, ideo in
+              corporibus damnatorum sensus poenae erit sine mutatione naturalis dispositionis.
+              Corpora vero gloriosa, etsi recipiant aliquid, et quodammodo patiantur in sentiendo,
+              non tamen passibilia erunt: quia nihil recipient per modum afflictivi vel laesivi,
+              sicut recipient corpora damnatorum quae ob hoc passibilia dicuntur.</p>
+            <p xml:id="ta-l4d1q1-d1e251">Ad primum ergo dicendum, quod philosophus loquitur de illa passione per quam
+              transmutatur patiens a sua naturali dispositione. Talis autem passio non erit in
+              corporibus damnatorum, ut dictum est.</p>
+            <p xml:id="ta-l4d1q1-d1e254">Ad secundum dicendum, quod similitudo agentis est dupliciter in patiente. Uno modo
+              per eumdem modum quo est in agente, sicut est in omnibus agentibus univocis, ut
+              calidum facit calidum, et ignis generat ignem. Alio modo per modum diversum a modo quo
+              est in agente, sicut est in omnibus agentibus aequivocis, in quibus quandoque
+              contingit quod in agente est forma spiritualiter, quae in patiente materialiter
+              recipitur; sicut forma quae est in domo facta per artificem est materialiter in ipsa,
+              et in mente artificis est spiritualiter: quandoque vero e converso est materialiter in
+              agente, et recipitur spiritualiter in patiente: sicut albedo materialiter est in
+              pariete, a quo recipitur spiritualiter in pupilla, et in medio deferente; et similiter
+              est in proposito: quia species quae materialiter est in igne, recipitur spiritualiter
+              in corporibus damnatorum; et sic ignis assimilabit sibi damnatorum corpora, nec tamen
+              ea consumet.</p>
+            <p xml:id="ta-l4d1q1-d1e257">Ad tertium dicendum, quod secundum philosophum in Lib. de proprietatibus elementorum,
+              nullum animal in igne vivere potest. Galenus enim in Lib. de simplici medicina dicit,
+              quod nullum corpus est quod tandem ab igne non consumatur, quamvis quaedam corpora
+              sint quae ad horam in igne sine laesione permaneant, ut patet de ebeno; unde quod
+              inducitur de salamandra, non est omnino simile: quia non posset perseverare finaliter
+              in igne sine corruptione, sicut corpora damnatorum in Inferno. Nec tamen oportet quod
+              quia corpora damnatorum ab igne Inferni per corruptionem aliquam non laeduntur,
+              propter hoc ab igne non affligantur; quia sensibile non solum natum est delectare vel
+              affligere sensum, secundum quod agit actione naturae confortando vel corrumpendo
+              organum, sed etiam secundum quod agit actione spirituali: quia quando sensibile est in
+              debita proportione ad sentientem, delectat; e contrario autem quando se habet in
+              superabundantia vel defectu; unde et colores medii et voces consonantes sunt
+              delectabiles, et inconsonantes offendunt auditum.</p>
+            <p xml:id="ta-l4d1q1-d1e261">Ad quartum dicendum, quod dolor non separat animam a corpore secundum quod manet
+              tantum in potentia animae, cujus est dolere, sed secundum quod ad passionem animae
+              mutatur corpus a sua naturali dispositione, secundum modum quo videmus quod ex ira
+              corpus calefit, et ex timore frigescit. Sed post resurrectionem corpus non poterit
+              transmutari a sua naturali dispositione, ut ex dictis patet, unde quantuscumque sit
+              dolor, animam a corpore non separabit.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d1q1-Dd1e266" type="articulus">
+          <head xml:id="ta-l4d1q1-Hd1e268">Articulus 2</head>
+
+          <head xml:id="ta-l4d1q1-Hd1e271" type="questionTitle">Utrum ignis Inferni, quo corpora damnatorum cruciabuntur, sit
+            ignis corporeus</head>
+
+          <div xml:id="ta-l4d1q1-Dd1e274">
+            <head xml:id="ta-l4d1q1-Hd1e276">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d1q1-d1e279">Ad secundum sic proceditur. Videtur quod ignis Inferni, quo corpora damnatorum
+              cruciabuntur, non sit ignis corporeus. Dicit enim Damascenus in 4 Lib., in fine:
+                <quote xml:id="ta-l4d1q1-Qd1e281">tradetur Diabolus, et Daemones ejus, et homo ejus, scilicet Antichristus, et
+                impii et peccatores, in ignem aeternum, non materialem, qualis est qui apud nos est,
+                sed qualem utique novit Deus</quote>. Sed omne corporeum est materiale. Ergo ignis
+              Inferni non erit corporeus.</p>
+            <p xml:id="ta-l4d1q1-d1e285">Praeterea, animae damnatorum a corpore separatae, ad ignem Inferni deferuntur. Sed
+              Augustinus dicit, 12 super Gen. ad litteram: <quote xml:id="ta-l4d1q1-Qd1e287">spiritualem arbitror esse
+                locum</quote>, scilicet ad quem anima defertur post mortem, <quote xml:id="ta-l4d1q1-Qd1e290">non
+                corporalem</quote>. Ergo ignis ille non est corporeus.</p>
+            <p xml:id="ta-l4d1q1-d1e294">Praeterea, ignis corporeus in modo suae actionis non sequitur modum culpae in eo qui
+              igne crematur, sed magis modum humidi vel sicci: in eodem enim igne corporeo videmus
+              affligi justum et impium. Sed ignis Inferni in modo suae actionis sequitur modum
+              culpae in eo qui punitur; unde Gregorius in 4 Dial.: <quote xml:id="ta-l4d1q1-Qd1e296">unus quidem est Gehennae
+                ignis, sed non uno modo omnes cruciat peccatores: uniuscujusque enim quantum exigit
+                culpa, tantum sentietur poena</quote>. Ergo ignis ille non est corporeus.</p>
+            <p xml:id="ta-l4d1q1-d1e300">Sed contra est quod dicitur in 4 Dial.: <quote xml:id="ta-l4d1q1-Qd1e302">ignem Gehennae corporeum esse non
+                ambigo, in quo certum est corpora cruciari</quote>.</p>
+            <p xml:id="ta-l4d1q1-d1e307">Praeterea, Sap. 5, 21, dicitur: <quote xml:id="ta-l4d1q1-Qd1e309">pugnabit orbis terrarum contra
+                insensatos</quote>. Sed non totus orbis contra insensatos pugnaret, si solummodo
+              spirituali poena, et non corporali, punirentur. Ergo punientur igne corporeo.</p>
+
+          </div>
+          <div xml:id="ta-l4d1q1-Dd1e314">
+            <head xml:id="ta-l4d1q1-Hd1e316">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d1q1-d1e319">Ulterius. Videtur quod ignis ille non sit ejusdem speciei cum igne isto corporeo quem
+              videmus. Augustinus enim dicit, et habetur in littera: <quote xml:id="ta-l4d1q1-Qd1e321">ignis aeternus cujusmodi
+                sit, arbitror scire neminem, nisi forte cui spiritus divinus ostendit</quote>. Sed
+              naturam istius ignis omnes, vel fere omnes, sciunt. Ergo ille ignis non est ejusdem
+              naturae vel speciei cum isto.</p>
+            <p xml:id="ta-l4d1q1-d1e325">Praeterea, Gregorius dicit 15 Lib. Moral., exponens illud Job 20: <quote xml:id="ta-l4d1q1-Qd1e327">devorabit
+                eum ignis, qui non succenditur: ignis corporeus ut esse valeat, corporeis indiget
+                fomentis; nec valet, nisi succensus esset, et nisi refotus, subsistere. At contra
+                Gehennae ignis, cum sit corporeus, et in se missos reprobos corporaliter exurat, nec
+                studio humano succenditur, nec lignis nutritur, sed creatus semel durat
+                inextinguibilis; et successione non indiget, et ardore non caret</quote>. Ergo non
+              est ejusdem naturae cum corporeo igne quem videmus.</p>
+            <p xml:id="ta-l4d1q1-d1e331">Praeterea, aeternum et corruptibile non sunt unius rationis, cum nec etiam in genere
+              conveniant, secundum philosophum in 10 Metaph. Sed ignis iste est corruptibilis, ille
+              autem aeternus; Matth. 25, 41: <quote xml:id="ta-l4d1q1-Qd1e333" ana="#mt25_41">ite, maledicti, in ignem aeternum</quote>. Ergo
+              non sunt ejusdem speciei.</p>
+            <p xml:id="ta-l4d1q1-d1e337">Praeterea, de natura hujus ignis qui apud nos est, est ut luceat. Sed ignis Inferni
+              non lucet; unde dicitur Job 18, 5: <quote xml:id="ta-l4d1q1-Qd1e339" ana="#iob18_5">nonne lux impii extinguetur?</quote> Ergo
+              non est ejusdem naturae cum isto igne.</p>
+            <p xml:id="ta-l4d1q1-d1e344">Sed contra, secundum philosophum in 1 Topic., omnis aqua omni aquae est idem specie.
+              Ergo eadem ratione omnis ignis omni igni idem est in specie.</p>
+            <p xml:id="ta-l4d1q1-d1e347">Praeterea, Sap. 11, 17, dicitur: <quote xml:id="ta-l4d1q1-Qd1e349" ana="#sap11_17">per quae peccat quis, per haec et
+                torquetur</quote>. Sed omnes homines peccant per res sensibiles hujus mundi. Ergo
+              justum est ut per easdem puniantur.</p>
+
+          </div>
+          <div xml:id="ta-l4d1q1-Dd1e354">
+            <head xml:id="ta-l4d1q1-Hd1e356">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d1q1-d1e359">Ulterius. Videtur quod ignis ille non sit sub terra. Quia Job 18, 18, de homine
+              damnato dicitur: <quote xml:id="ta-l4d1q1-Qd1e361">et de orbe transferet eum Deus</quote>. Ergo ille ignis quo
+              damnati punientur, non est sub terra, sed extra orbem.</p>
+            <p xml:id="ta-l4d1q1-d1e365">Praeterea, nullum violentum et per accidens potest esse sempiternum. Sed ignis ille
+              erit in Inferno in sempiternum. Ergo non erit ibi per violentiam, sed naturaliter. Sed
+              sub terra non potest esse ignis nisi per violentiam. Ergo ignis Inferni non est sub
+              terra.</p>
+            <p xml:id="ta-l4d1q1-d1e368">Praeterea, in igne Inferni omnia corpora damnatorum post diem judicii cruciabuntur.
+              Sed corpora illa locum replebunt. Ergo cum futura sit maxima multitudo damnatorum,
+              quia <quote xml:id="ta-l4d1q1-Qd1e370">stultorum infinitus est numerus</quote>, Eccle. 1, 15, oportet maximum
+              esse spatium in quo ignis ille continetur. Sed inconveniens videtur infra terram esse
+              tantam concavitatem, cum partes terrae naturaliter ferantur ad medium. Ergo ignis ille
+              non erit sub terra.</p>
+            <p xml:id="ta-l4d1q1-d1e374">Praeterea, Sap. 11, 17, dicitur: <quote xml:id="ta-l4d1q1-Qd1e376">per quae peccat quis, per haec et
+                torquetur</quote>. Sed mali super terram peccaverunt. Ergo ignis eos puniens non
+              oportet esse sub terra.</p>
+            <p xml:id="ta-l4d1q1-d1e381">Sed contra est quod dicitur Isai. 14, 9: <quote xml:id="ta-l4d1q1-Qd1e383">Infernus subtus conturbatus est in
+                occursum tui</quote>. Ergo ignis Inferni sub nobis est.</p>
+            <p xml:id="ta-l4d1q1-d1e387">Praeterea, Gregorius dicit in 4 Dialog.: <quote xml:id="ta-l4d1q1-Qd1e389">quid obstet non video, ut Infernus
+                sub terra esse credatur</quote>.</p>
+            <p xml:id="ta-l4d1q1-d1e393">Praeterea, Jonae 2, super illud: <quote xml:id="ta-l4d1q1-Qd1e395">projecisti me in corde maris</quote>; Glossa
+              interlinealis: <quote xml:id="ta-l4d1q1-Qd1e398">idest, in Inferno</quote>; pro quo dicitur in Evangelio Matth.
+              12, 40: <quote xml:id="ta-l4d1q1-Qd1e401">in corde terrae</quote>; quia sicut cor est in medio animalis, ita
+              Infernus esse in medio terrae perhibetur.</p>
+          </div>
+          <div xml:id="ta-l4d1q1-Dd1e407">
+            <head xml:id="ta-l4d1q1-Hd1e409">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d1q1-d1e412">Respondeo dicendum ad primam quaestionem, quod de igne Inferni fuit multiplex
+              positio. Quidam enim philosophi, ut Avicenna, resurrectionem non credentes, solius
+              animae post mortem poenam esse crediderunt; et quia eis inconveniens videbatur ut
+              anima, cum sit incorporea, igne corporeo puniretur, negaverunt ignem corporeum esse
+              quo mali punirentur; volentes quod quidquid dicitur de poena animarum post mortem
+              futura per aliqua corporalia, metaphorice dicatur. Sicut enim bonarum animarum
+              delectatio et jucunditas non erit in aliqua re corporali, sed spirituali tantum, quod
+              erit in consecutione finis sui; ita afflictio malorum erit spiritualis tantum, in hoc
+              scilicet quod tristabuntur de hoc quod separantur a fine, cujus inest eis desiderium
+              naturale. Unde sicut omnia quae de delectatione animarum post mortem dicuntur, quae
+              videntur ad delectationem corporalem pertinere, sicut quod reficiantur, quod rideant,
+              et hujusmodi; ita etiam quidquid de harum afflictione dicitur quod in corporalem
+              punitionem sonare videtur, per similitudinem debet intelligi; sicut quod igne ardeant,
+              vel foetoribus affligantur, et cetera hujusmodi. Spiritualis enim delectatio et
+              tristitia, cum sit ignota multitudini, oportet quod per delectationem et tristitias
+              corporales figuraliter manifestetur, ut homines moveantur magis ad desiderium vel
+              timorem. Sed quia in poena damnatorum non solum erit poena damni, quae respondet
+              aversioni quae fuit in culpa, sed etiam poena sensus, quae respondet conversioni; ideo
+              non sufficit praedictum modum punitionis ponere; et ideo etiam ipse Avicenna, alterum
+              modum superaddit, dicens, quod animae malorum post mortem non per corpora, sed per
+              corporum similitudines punientur, sicut in somnis propter similitudines praedictas in
+              imaginatione existentes videtur homini quod torqueatur poenis diversis; et hunc etiam
+              modum punitionis videtur ponere Augustinus in 12 super Gen. ad Lit., sicut ibidem
+              manifeste patet. Sed hoc videtur inconvenienter dictum esse. Imaginatio enim potentia
+              quaedam est utens organo corporali; unde non potest esse quod visiones imaginativae
+              fiant in anima separata a corpore, sicut in anima somniantis; unde etiam Avicenna, ut
+              hoc inconveniens evaderet, dixit, quod animae separatae a corpore utebantur, quasi pro
+              organo, aliqua parte caelestis corporis, cui corpus humanum oportet esse conforme ad
+              hoc quod perficiatur anima rationali, quae est similis motoribus caelestis corporis:
+              in hoc secutus quodammodo opinionem antiquorum philosophorum, qui posuerunt animas
+              redire ad compares stellas. Sed hoc est omnino absurdum secundum doctrinam philosophi;
+              quia anima utitur determinato organo corporali, sicut ars determinatis instrumentis;
+              unde non potest transire de corpore in corpus, quod Pythagoras posuit, ut dicitur in 1
+              de anima. Qualiter autem ad dictum Augustini sit respondendum, infra dicetur. Quidquid
+              autem dicatur de igne qui animas separatas cruciat, de igne tamen quo cruciabuntur
+              corpora damnatorum post resurrectionem, oportet dicere quod sit corporeus; quia
+              corpori non potest convenienter poena aptari nisi corporea. Unde Gregorius in 4 Dial.,
+              ex hoc ipso probat Inferni ignem esse corporeum, quod reprobi post resurrectionem in
+              eum detrudentur. Augustinus etiam, ut in littera, manifeste confitetur ignem illum quo
+              corpora cruciabuntur, corporeum esse; et de hoc ad praesens est quaestio. Qualiter
+              autem animae damnatorum ab igne isto corporeo puniantur, infra, dist. 50, qu. 2, art.
+              3, dicetur.</p>
+            <p xml:id="ta-l4d1q1-d1e415">Ad primum ergo dicendum, quod Damascenus non negat simpliciter ignem illum materialem
+              esse, sed quod non est materialis talis qualis apud nos est, eo quod quibusdam
+              proprietatibus ad hoc igne distinguitur. Vel dicendum, quod quia ignis ille non
+              materialiter alterat corpora, sed quadam spirituali actione agit in ea ad punitionem,
+              ut ex dictis patet, ideo non dicitur materialis, non quantum ad substantiam, sed
+              quantum ad punitionis effectum in corporibus, et multo amplius in animabus.</p>
+            <p xml:id="ta-l4d1q1-d1e418">Ad secundum dicendum, quod dictum Augustini potest hoc modo accipi, ut pro tanto
+              dicatur locus ille ad quem animae deferentur post mortem, non esse corporeus, quia
+              anima in eo corporaliter non existit, per modum scilicet quo corpora existunt in loco,
+              sed alio modo spirituali, sicut Angeli in loco sunt. Vel dicendum, quod Augustinus
+              loquitur opinando, et non determinando, sicut frequenter facit in libro illo.</p>
+            <p xml:id="ta-l4d1q1-d1e421">Ad tertium dicendum, quod ignis ille erit instrumentum divinae justitiae punientis.
+              Instrumentum autem non solum agit in virtute propria, et per proprium modum, sed etiam
+              in virtute principalis agentis, et secundum quod est regulatum ab eo; unde quamvis
+              ignis secundum propriam virtutem non habeat quod aliquos cruciet magis vel minus
+              secundum modum peccati; habet tamen hoc secundum quod ejus actio modificatur ex ordine
+              divinae justitiae; sicut etiam ignis fornacis modificatur ex industria fabri in sua
+              actione secundum quod competit ad effectum artis.</p>
+
+          </div>
+          <div xml:id="ta-l4d1q1-Dd1e425">
+            <head xml:id="ta-l4d1q1-Hd1e427">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d1q1-d1e430">Ad secundam quaestionem dicendum, quod ignis propter hoc quod est maximae virtutis in
+              agendo inter reliqua elementa, alia corpora pro materia habet, ut dicitur in 2
+              Meteor.; unde et ignis dupliciter invenitur; scilicet in propria materia, prout est in
+              sphaera sua; vel in materia aliena, sive terrestri, ut patet in carbone; sive aerea,
+              sicut patet in flamma. Quocumque autem modo ignis inveniatur, semper idem est in
+              specie quantum ad naturam ignis pertinet. Potest autem esse diversitas in specie
+              quantum ad corpora quae sunt materia ignis; unde flamma et carbo differunt specie, et
+              similiter lignum ignitum et ferrum ignitum. Nec differt quantum ad hoc sive ignita
+              sint per violentiam, ut in ferro apparet, sive ex principio intrinseco naturali, ut
+              accidit in sulphure. Quod ergo ignis Inferni quantum ad hoc quod habet de natura
+              ignis, sit ejusdem speciei cum igne qui apud nos est, manifestum est; utrum autem ille
+              ignis sit in propria materia existens, aut in aliena, et si in aliena, in qua materia
+              sit, nobis ignotum est; et secundum hoc potest ab igne qui apud nos est, specie
+              differre materialiter consideratus. Quasdam tamen proprietates differentes habet ab
+              igne isto, sicut quod succensione non indiget, nec lignis nutritur. Sed istae
+              differentiae non ostendunt diversitatem in specie quantum ad id quod pertinet ad
+              naturam ignis.</p>
+            <p xml:id="ta-l4d1q1-d1e433">Ad primum ergo dicendum, quod Augustinus loquitur quantum ad id quod est materiale in
+              illo igne, non autem quantum ad ignis naturam.</p>
+            <p xml:id="ta-l4d1q1-d1e436">Ad secundum dicendum, quod ignis iste qui apud nos est, lignis nutritur, et ab homine
+              succenditur, quia est artificialiter et per violentiam in alienam materiam
+              introductus; sed ignis ille lignis non indiget quibus foveatur, quia vel est in
+              propria materia existens, vel est in materia aliena non per violentiam, sed per
+              naturam a principio intrinseco; unde non est ab homine accensus, sed a Deo, qui
+              naturam illam instituit; et hoc est quod dicitur Isai. 30, 33: <quote xml:id="ta-l4d1q1-Qd1e438">flatus domini
+                sicut torrens sulphuris succendens eam</quote>.</p>
+            <p xml:id="ta-l4d1q1-d1e442">Ad tertium dicendum, quod sicut corpora damnatorum erunt ejusdem speciei cujus et
+              modo sunt, quamvis nunc sint corruptibilia, tunc autem incorruptibilia ex ordine
+              divinae justitiae, et propter quietem motus caeli; ita est etiam de igne Inferni, quo
+              corpora illa punientur.</p>
+            <p xml:id="ta-l4d1q1-d1e446">Ad quartum dicendum, quod lucere non convenit igni secundum quemlibet modum
+              existendi, quia in propria materia existens non lucet; unde non lucet in propria
+              sphaera, ut philosophi dicunt. Similiter etiam in aliqua materia aliena ignis existens
+              non lucet, sicut cum est in materia opaca terrestri, ut in sulphure. Similiter est
+              etiam quando ex aliquo grosso fumo ejus claritas obscuratur. Unde quod ignis Inferni
+              non lucet, non est sufficiens argumentum ad hoc quod non sit ejusdem speciei.</p>
+
+          </div>
+          <div xml:id="ta-l4d1q1-Dd1e450">
+            <head xml:id="ta-l4d1q1-Hd1e452">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d1q1-d1e455">Ad tertiam quaestionem dicendum, quod sicut Augustinus dicit, et habetur in littera,
+                <quote xml:id="ta-l4d1q1-Qd1e457">in qua parte mundi Infernus sit, scire neminem arbitror, nisi cui divinus
+                spiritus revelavit</quote>; unde et Gregorius in 4 Dialog., super hac quaestione
+              interrogatus respondet: <quote xml:id="ta-l4d1q1-Qd1e460">hac de re temere definire non audeo. Nonnulli namque in
+                quadam terrarum parte Infernum esse putaverunt; alii vero hunc sub terra esse
+                existimant</quote>. Et hanc opinionem probabiliorem esse ostendit dupliciter. Primo
+              ex ipsa nominis ratione, sic dicens: <quote xml:id="ta-l4d1q1-Qd1e463">si idcirco Infernum dicimus, quin inferius
+                jacet; quod terra ad caelum est, hoc esse Infernus debet ad terram</quote>. Secundo
+              autem ex hoc quod dicitur Apoc. 5, 3: <quote xml:id="ta-l4d1q1-Qd1e466">nemo poterat neque in caelo neque in
+                terra neque subtus terram aperire librum</quote>: ut hoc quod dicitur <quote xml:id="ta-l4d1q1-Qd1e469">in
+                caelo</quote>, referatur ad Angelos; hoc quod dicitur <quote xml:id="ta-l4d1q1-Qd1e473">in terra</quote>,
+              referatur ad homines viventes in corpore; hoc quod dicitur <quote xml:id="ta-l4d1q1-Qd1e476">subtus
+                terram</quote> referatur ad animas existentes in Inferno. Augustinus etiam in 12
+              super Genes. ad litteram, duas rationes tangere videtur, quare congruum sit quod
+              Infernus sit sub terra. Una est, ut quoniam defunctorum animae amore carnis
+              peccaverunt, hoc eis exhibeatur quod ipsi carni mortuae solet exhiberi, ut scilicet
+              sub terra recondantur. Alia est quod sicut est gravitas in corporibus, ita tristitia
+              in spiritibus; et laetitia sicut levitas: unde sicut secundum corpus, si ponderis sui
+              ordinem teneant, inferiora sunt omnia graviora; ita secundum spiritum inferiora sunt
+              omnia tristiora: et sic sicut conveniens locus gaudio electorum est caelum Empyreum;
+              ita conveniens locus tristitiae damnatorum est infimum terrae. Nec debet movere quod
+              Augustinus ibidem dicit, quod Inferi sub terris esse dicuntur vel creduntur: quia in
+              Lib. Retractationum, hoc retractans dicit: <quote xml:id="ta-l4d1q1-Qd1e479">mihi videor dicere debuisse magis
+                quod sub terris sunt Inferi, quam rationem reddere cur sub terris esse dicantur sive
+                credantur</quote>. Quidam tamen philosophi posuerunt quod locus Inferni erit sub
+              orbe terrestri, tamen supra terrae superficiem, ex parte opposita nobis; et hoc
+              videtur Isidorus sensisse, cum dixit, quod sol et luna in ordine quo creati sunt,
+              stabunt, ne impii in tormentis positi fruantur luce eorum: quae ratio nulla esset, si
+              Infernus infra terram esse dicatur. Qualiter tamen haec verba possint exponi, patebit
+              infra, dist. 48. Pythagoras vero posuit locum poenarum in sphaera ignis, quam in medio
+              totius orbis esse dicit, ut patet per philosophum in 2 Cael. et Mund. Sed tamen
+              convenientius his quae in Scriptura dicuntur, est ut sub terra esse dicatur.</p>
+            <p xml:id="ta-l4d1q1-d1e483">Ad primum ergo dicendum, quod verbum illud Job, <quote xml:id="ta-l4d1q1-Qd1e485">de orbe transferet eum
+                Deus</quote>, intelligendum est de orbe terrarum, idest de hoc mundo; et hoc modo
+              exponit Gregorius dicens: <quote xml:id="ta-l4d1q1-Qd1e488">de orbe quippe transfertur, cum superno apparente
+                judice de hoc mundo tollitur, in quo perverse gloriatur</quote>. Nec est
+              intelligendum quod orbis hic accipiatur pro universo, quasi extra totum universum sit
+              locus poenarum.</p>
+            <p xml:id="ta-l4d1q1-d1e492">Ad secundum dicendum, quod in loco illo conservatur ignis in aeternum ex ordine
+              divinae justitiae, quamvis secundum naturam suam non possit extra locum suum aliquod
+              elementum durare in aeternum, praecipue statu generationis et corruptionis manente in
+              rebus. Ignis autem ibi erit fortissimae caliditatis: quia calor ejus erit undique
+              congregatus propter frigus terrae undique ipsum circumstans.</p>
+            <p xml:id="ta-l4d1q1-d1e495">Ad tertium dicendum, quod Infernus nunquam deficiet in amplitudine, quin sufficiat ad
+              damnatorum corpora capienda: Infernus enim Prov. 30, inter tria insatiabilia ponitur.
+              Nec est inconveniens quod intra viscera terrae tanta concavitas conservetur divina
+              virtute, quae damnatorum omnium corpora possit capere.</p>
+            <p xml:id="ta-l4d1q1-d1e499">Ad quartum dicendum, quod hoc quod dicitur: <quote xml:id="ta-l4d1q1-Qd1e501">per quae peccat quis, per haec et
+                torquetur</quote>, non est necessarium nisi in principalibus instrumentis peccandi.
+              Quia enim homo in anima peccat et corpore, in utroque punitur; non autem oportet quod
+              in quo loco quis peccat, in eodem puniatur, cum alius sit locus qui viatoribus et
+              damnatis debetur. Vel dicendum, quod hoc intelligitur de poenis quibus homo punitur in
+              via, secundum quod quaelibet culpa suam poenam habet annexam, prout quisque
+              inordinatus animus sibi ipsi est poena, ut dicit Augustinus.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d1q1-Dd1e507" type="articulus">
+          <head xml:id="ta-l4d1q1-Hd1e509">Articulus 3</head>
+
+          <head xml:id="ta-l4d1q1-Hd1e512" type="questionTitle">Utrum in anima separata remaneant potentiae sensitivae</head>
+
+          <div xml:id="ta-l4d1q1-Dd1e515">
+            <head xml:id="ta-l4d1q1-Hd1e517">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d1q1-d1e520">Ad tertium sic proceditur. Videtur quod in anima separata remaneant potentiae
+              sensitivae. Augustinus enim, in libro de spiritu et anima, sic dicit: <quote xml:id="ta-l4d1q1-Qd1e522">recedit
+                anima a corpore secum trahens omnia, sensum scilicet, et imaginationem, et rationem,
+                et intellectum, intelligentiam, concupiscibilitatem, et irascibilitatem</quote>. Sed
+              sensus et imaginatio, et vis irascibilis et concupiscibilis sunt vires sensitivae.
+              Ergo et in anima separata vires sensitivae remanent.</p>
+            <p xml:id="ta-l4d1q1-d1e526">Praeterea, Augustinus dicit in libro de Eccles. dogmatibus: <quote xml:id="ta-l4d1q1-Qd1e528">solum hominem
+                credimus habere animam substantivam; quae exuta corpore vivit, et sensus suos atque
+                ingenia vivaciter tenet</quote>. Ergo anima exuta corpore habet potentias
+              sensitivas.</p>
+            <p xml:id="ta-l4d1q1-d1e532">Praeterea, potentiae animae vel essentialiter ei insunt, ut quidam dicunt, vel ad
+              minus sunt naturales proprietates ipsius. Sed illud quod essentialiter inest alicui,
+              non potest ab eo separari, neque subjectum aliquod deseritur a proprietatibus
+              naturalibus. Ergo impossibile est quod anima separata a corpore aliquas potentias
+              amittat.</p>
+            <p xml:id="ta-l4d1q1-d1e535">Praeterea, non est totum integrum cui aliqua partium deest. Sed potentiae animae
+              dicuntur partes ipsius. Si ergo aliquas potentias anima post mortem amittit; non erit
+              anima integra post mortem; quod est inconveniens.</p>
+            <p xml:id="ta-l4d1q1-d1e539">Praeterea, potentiae animae magis comparantur ad meritum quam etiam corpus; cum
+              corpus sit solum instrumentum actus, potentiae vero principia agendi. Sed necesse est
+              ut corpus simul praemietur cum anima propter hoc quod cooperabatur in merito. Ergo
+              multo fortius est necesse quod potentiae animae simul praemientur cum ipsa: ergo anima
+              separata eas non amittit.</p>
+            <p xml:id="ta-l4d1q1-d1e542">Praeterea, si anima, cum separatur a corpore, potentiam sensitivam amittit, oportet
+              quod illa potentia in nihilum cedat: non enim potest dici quod in materiam aliquam
+              resolvatur, cum non habeat materiam partem sui. Sed illud quod omnino in nihilum
+              cedit, non reiteratur idem numero, ut supra dictum est. Ergo anima non habebit in
+              resurrectione eamdem numero potentiam sensitivam. Sed secundum philosophum, sicut se
+              habet anima ad corpus, ita se habent potentiae ad partes corporis, ut visus ad oculum.
+              Si autem non esset eadem anima quae redibit ad corpus, non esset idem homo. Ergo eadem
+              ratione nec esset idem oculus numero, si non habet eamdem numero potentiam visivam; et
+              simili ratione nec aliqua alia pars numero eadem resurgeret, et per consequens nec
+              totus homo idem numero erit. Ergo non potest esse quod anima separata potentias
+              sensitivas amittat.</p>
+            <p xml:id="ta-l4d1q1-d1e545">Praeterea, si potentiae sensitivae corrumperentur corrupto corpore, oporteret quod
+              debilitato corpore debilitarentur. Hoc autem non contingit: quia, ut dicitur in 1 de
+              anima: <quote xml:id="ta-l4d1q1-Qd1e547">si senex accipiat oculum juvenis, videbit utique sicut et
+                juvenis</quote>. Ergo nec corrupto corpore potentiae sensitivae corrumpentur.</p>
+            <p xml:id="ta-l4d1q1-d1e551">Sed contra, Augustinus in Lib. de Eccl. dogmatibus dicit: <quote xml:id="ta-l4d1q1-Qd1e553">duabus substantiis
+                constat homo: anima tantum, et carne; anima cum ratione sua, et carne cum sensibus
+                suis</quote>. Potentiae ergo sensitivae ad carnem pertinent. Ergo corrupta carne, in
+              anima non manent potentiae sensitivae.</p>
+            <p xml:id="ta-l4d1q1-d1e557">Praeterea, philosophus in 12 Met., de separatione animae loquens sic dicit: <quote xml:id="ta-l4d1q1-Qd1e559">si
+                autem aliquid remanet, in postremo quaerendum est de hoc: in quibusdam enim non est
+                impossibile. Verbi gratia, si anima est talis dispositionis, non tota, sed
+                intellectus (tota enim foret impossibile), quaerendum de hoc</quote>. Ex hoc videtur
+              quod anima tota a corpore non separetur, sed solum potentiae intellectivae, non enim
+              sensitivae vel vegetativae.</p>
+            <p xml:id="ta-l4d1q1-d1e563">Praeterea, in 2 de anima, philosophus dicit de intellectu loquens: <quote xml:id="ta-l4d1q1-Qd1e565">hoc solum
+                contingit separari, ut perpetuum a corruptibili; reliquae autem partes animae
+                manifestum est ex his quod non separabiles sunt, ut quidam dicunt</quote>. Ergo
+              potentiae sensitivae non manent in anima separata.</p>
+
+          </div>
+          <div xml:id="ta-l4d1q1-Dd1e570">
+            <head xml:id="ta-l4d1q1-Hd1e572">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d1q1-d1e575">Ulterius. Videtur quod in anima separata remaneant etiam actus sensitivarum
+              potentiarum. Dicit enim Augustinus in Lib. de spiritu et anima: <quote xml:id="ta-l4d1q1-Qd1e577">anima recedens
+                a corpore ex his</quote>, scilicet imaginatione, concupiscibilitate, irascibilitate,
+                <quote xml:id="ta-l4d1q1-Qd1e580">secundum merita afficitur ad delectationem sive ad dolorem</quote>. Sed
+              imaginatio et concupiscibilis et irascibilis sunt sensitivae potentiae. Ergo secundum
+              sensitivas potentias anima separata afficietur, et ita secundum eas in aliquo actu
+              erit.</p>
+            <p xml:id="ta-l4d1q1-d1e584">Praeterea, Augustinus super Genes. ad litteram, in Lib. 12, dicit, quod <quote xml:id="ta-l4d1q1-Qd1e586">corpus
+                non sentit, sed anima per corpus</quote>, et infra: <quote xml:id="ta-l4d1q1-Qd1e589">quaedam autem anima, non
+                corpus, immo sine corpore sentit</quote>: ut est timor, et hujusmodi. Sed illud quod
+              animae sine corpore convenit, potest inesse animae a corpore separatae. Ergo tunc actu
+              anima sentire poterit.</p>
+            <p xml:id="ta-l4d1q1-d1e593">Praeterea, inspicere similitudines corporum, sicut in somnis accidit, ad visionem
+              imaginativam pertinet, quae est in sensitiva parte. Sed hujusmodi similitudines
+              corporum inspicere, sicut in somnis accidit, convenit animae separatae; unde
+              Augustinus, 12 super Genes. ad litteram, sic dicit: <quote xml:id="ta-l4d1q1-Qd1e595">neque enim video cur habeat
+                anima similitudinem corporis sui cum, jacente sine sensu corpore, nondum tamen
+                penitus mortuo, videt talia qualia multi ex illa subductione vivis redditi
+                narraverunt; et non habeat, cum perfecta morte penitus de corpore exierit</quote>.
+              Non enim hoc potest intelligi, quod anima similitudinem corporis habeat, nisi secundum
+              quod eam inspicit; unde et praemisit de jacentibus sine sensu, quod gerunt quamdam
+              similitudinem corporis sui, per quam possunt ad loca corporalia ferri, et falsa,
+              qualia vident, similitudinibus sensuum experiri. Ergo anima separata potest exire in
+              actum sensitivarum potentiarum.</p>
+            <p xml:id="ta-l4d1q1-d1e599">Praeterea, memoria est potentia sensitivae partis, ut probatur in Lib. de memoria et
+              reminiscentia. Sed animae separatae actu memorabuntur eorum quae in hoc mundo
+              gesserunt: unde et diviti epuloni dicitur Luc. 16, 25: <quote xml:id="ta-l4d1q1-Qd1e601">recordare quia recepisti
+                bona in vita tua</quote>. Ergo anima separata exibit in actum potentiae
+              sensitivae.</p>
+            <p xml:id="ta-l4d1q1-d1e606">Praeterea, secundum philosophum in 3 de anima, irascibilis et concupiscibilis sunt in
+              parte sensitiva. Sed in irascibili et concupiscibili sunt gaudium et tristitia, amor
+              et odium, timor et spes, et hujusmodi affectiones, quas secundum fidem nostram ponimus
+              in animabus separatis. Ergo animae separatae non carebunt actibus sensitivarum
+              potentiarum.</p>
+            <p xml:id="ta-l4d1q1-d1e609">Sed contra, illud quod est commune animae et corpori, non potest remanere in anima
+              separata. Sed omnes operationes potentiarum sensitivarum sunt communes animae et
+              corpori; quod patet ex hoc quod nulla potentia sensitiva aliquem actum habet nisi per
+              organum corporale. Ergo anima separata carebit actibus sensitivarum potentiarum.</p>
+            <p xml:id="ta-l4d1q1-d1e612">Praeterea, philosophus dicit in Lib. de anima: <quote xml:id="ta-l4d1q1-Qd1e614">corrupto corpore, anima neque
+                reminiscitur neque amat</quote>; et eadem ratio est de omnibus aliis actibus
+              sensitivarum potentiarum. Ergo non procedit anima separata in aliquem actum alicujus
+              potentiae sensitivae.</p>
+
+          </div>
+          <div xml:id="ta-l4d1q1-Dd1e619">
+            <head xml:id="ta-l4d1q1-Hd1e621">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d1q1-d1e624">Ulterius. Videtur quod anima separata pati non possit ab igne corporeo. Augustinus
+              enim, 12 super Genes. ad litteram, dicit: <quote xml:id="ta-l4d1q1-Qd1e626">non sunt corporalia, sed corporalibus
+                similia, quibus animae corporibus exutae afficiuntur seu bene seu male</quote>. Ergo
+              anima separata igne corporeo non punitur.</p>
+            <p xml:id="ta-l4d1q1-d1e630">Praeterea, Augustinus in eodem Lib., dicit, quod agens semper est nobilius patiente.
+              Sed impossibile est aliquod corporeum esse nobilius anima separata. Ergo non potest ab
+              aliquo corpore pati.</p>
+            <p xml:id="ta-l4d1q1-d1e633">Praeterea, secundum philosophum in 1 de generatione, et secundum Boetium in Lib. de
+              duabus naturis, illa solum agunt et patiuntur ad invicem quae in materia communicant.
+              Sed anima et ignis corporeus non communicant in materia: quia spiritualium et
+              corporalium non est materia communis: unde nec possunt invicem transmutari, ut Boetius
+              in eodem Lib. dicit. Ergo anima separata ab igne corporeo non patitur.</p>
+            <p xml:id="ta-l4d1q1-d1e636">Praeterea, omne quod patitur recipit aliquid ab agente. Si ergo anima patiatur ab
+              igne corporeo, aliquid ab eo recipiet. Sed omne quod recipitur in aliquo, est in eo
+              per modum recipientis. Ergo quod recipitur ab igne in anima, non est in ea
+              materialiter, sed spiritualiter. Sed formae rerum in anima spiritualiter existentes
+              sunt perfectiones ipsius. Ergo etsi ponatur quod anima patiatur ab igne corporeo, hoc
+              non erit in ejus poenam; sed magis in ejus perfectionem.</p>
+            <p xml:id="ta-l4d1q1-d1e640">Si dicatur, quod hoc ipso anima punitur ab igne quod ignem videt, ut videtur dicere
+              Gregorius in 4 Dialog.: contra. Si anima videt ignem Inferni, non potest videre nisi
+              visione intellectuali, cum non habeat organa quibus visio sensitiva vel imaginaria
+              perficitur. Sed visio intellectualis non videtur quod possit esse causa tristitiae:
+              delectationi enim quae est in considerando, non est tristitia contraria, secundum
+              philosophum. Ergo ex tali visione anima non punitur.</p>
+            <p xml:id="ta-l4d1q1-d1e643">Si dicatur, quod anima patitur ab igne corporeo, quia tenetur ab eo, sicut nunc
+              tenetur a corpore, dum in corpore vivit; contra. Anima dum in corpore vivit, tenetur a
+              corpore inquantum ex ea et corpore fit unum, sicut ex materia et forma. Sed anima non
+              erit forma illius ignis corporei. Ergo supra dicto modo non poterit ab illo igne
+              teneri.</p>
+            <p xml:id="ta-l4d1q1-d1e646">Praeterea, omne agens corporeum agit per contactum. Sed non potest esse aliquis
+              contactus animae et ignis corporei: quia contactus fit solum inter corpora quae habent
+              ultima simul. Ergo anima ab igne corporeo non patitur.</p>
+            <p xml:id="ta-l4d1q1-d1e649">Praeterea, agens organicum non agit in remota nisi per hoc quod agit in media: unde
+              per determinatam distantiam agere potest proportionatam suae virtuti. Sed animae, vel
+              ad minus Daemones, de quibus est eadem ratio, quandoque sunt extra locum Inferni,
+              quandoque etiam in hoc mundo hominibus apparent, nec tamen a poena sunt immunes: sicut
+              enim gloria sanctorum nunquam interrumpitur, ita nec poena damnatorum: nec tamen
+              videmus quod omnia intermedia ab igne Inferni patiantur: nec iterum est credibile
+              aliquid corporeum de natura elementi esse tantae virtutis ut ad tantam distantiam
+              actionem suam diffundat. Ergo non videtur quod poenas quas animae damnatorum
+              sustinent, ab igne corporeo patiantur.</p>
+            <p xml:id="ta-l4d1q1-d1e652">Sed contra, eadem est ratio in animabus separatis et Daemonibus, quod ab igne
+              corporeo pati possint. Sed Daemones ab eo patiuntur, cum puniantur ab illo igne in
+              quem corpora damnatorum projicientur post resurrectionem, quem oportet esse corporeum;
+              et hoc patet ex sententia domini, Matth. 25, 41: <quote xml:id="ta-l4d1q1-Qd1e654" ana="#mt25_41">ite maledicti in ignem
+                aeternum, qui paratus est Diabolo, et Angelis ejus</quote>. Ergo et animae separatae
+              igne corporeo pati possunt.</p>
+            <p xml:id="ta-l4d1q1-d1e658">Praeterea, poena debet respondere culpae. Sed anima per culpam corpori se subjecit
+              per pravam concupiscentiam. Ergo justum est ut in poena rei corporeae subjiciatur per
+              passionem.</p>
+            <p xml:id="ta-l4d1q1-d1e662">Praeterea, major est unio formae ad materiam quam agentis ad patiens. Sed diversitas
+              naturae spiritualis et corporalis non impedit quin anima sit forma corporis. Ergo non
+              impedit quin possit a corpore pati.</p>
+          </div>
+          <div xml:id="ta-l4d1q1-Dd1e667">
+            <head xml:id="ta-l4d1q1-Hd1e669">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d1q1-d1e672">Respondeo dicendum ad primam quaestionem, quod circa hoc est multiplex opinio. Quidam
+              enim aestimantes potentias omnes esse in anima ad modum quo color est in corpore,
+              dicunt, quod anima a corpore separata omnes suas potentias secum trahit. Si enim
+              aliqua ei deesset, oporteret animam transmutatam esse secundum naturales proprietates,
+              quae subjecto manente non possunt variari. Sed dicta aestimatio falsa est. Cum enim
+              potentia sit secundum quam potentes dicimur agere vel pati; ejusdem autem sit agere et
+              posse agere; oportet quod ejusdem sit potentia, sicut subjecti, quod est agens vel
+              patiens. Unde philosophus, in principio de somno et Vigil., dicit, quod cujus est
+              potentia, ejus est actio. Videmus autem manifeste quasdam operationes, quarum
+              potentiae animae sunt principia, non esse animae, proprie loquendo, sed conjuncti,
+              quia non explentur nisi mediante corpore, ut videre, audire, et hujusmodi; unde
+              oportet quod istae potentiae sint conjuncti sicut subjecti, animae autem sicut
+              principii influentis, sicut forma est principium proprietatum compositi. Quaedam vero
+              operationes exercentur ab anima sine organo corporali, ut intelligere, considerare, et
+              velle; unde cum hae actiones sint animae propriae; et potentiae quae sunt harum
+              principia, non solum erunt animae ut principii, sed ut subjecti. Quia ergo manente
+              proprio subjecto manere oportet et proprias passiones, et corrupto eo corrumpi,
+              oportet illas potentias quae in suis actibus non utuntur organo corporali, remanere in
+              anima separata; illas autem quae utuntur, corrumpi corpore corrupto; et hujusmodi sunt
+              potentiae omnes quae pertinent ad animam sensibilem et vegetabilem. Et propter hoc
+              quidam potentias animae sensibiles distinguunt: dicunt enim, has esse duplices:
+              quasdam quae sunt actus organorum quae sunt ab anima refluxae in corpus; et hae cum
+              corpore corrumpuntur: quasdam vero originales harum quae sunt in anima, quia per eas
+              anima corpus sensificat ad videndum et audiendum, et ad hujusmodi; et hae originales
+              potentiae manent in anima separata. Sed hoc non videtur convenienter dici. Anima enim
+              per suam essentiam, non mediantibus aliquibus aliis potentiis, est origo illarum
+              potentiarum quae sunt actus organorum; sicut et forma quaelibet ex hoc ipso quod per
+              essentiam suam materiam informat, est origo proprietatum quae compositum naturaliter
+              consequuntur. Si enim oporteret in anima ponere alias potentias quibus mediantibus
+              potentiae quae organa perficiunt, ab essentia animae effluerent; eadem ratione
+              oporteret ponere alias potentias, quibus mediantibus ab essentia animae effluerent
+              illae mediae potentiae, et sic in infinitum: si enim statur alicubi, melius est ut in
+              primo stetur. Unde alii dicunt, quod potentiae sensitivae et aliae similes non manent
+              in anima separata nisi secundum quid, scilicet ut in radice, per modum scilicet quo
+              principiata sunt in principiis suis. In anima enim separata manet efficacia influendi
+              iterum hujusmodi potentias, si corpori uniatur. Nec oportet hanc efficaciam esse
+              aliquid superadditum ipsi essentiae animae, ut dictum est. Et haec opinio videtur
+              magis rationabilis.</p>
+            <p xml:id="ta-l4d1q1-d1e675">Ad primum ergo dicendum, quod verbum illud Augustini intelligendum est, quod anima
+              secum trahat quasdam illarum potentiarum in actu, scilicet intelligentiam et
+              intellectum; quasdam vero radicaliter, ut dictum est.</p>
+            <p xml:id="ta-l4d1q1-d1e678">Ad secundum dicendum, quod sensus quos anima secum trahit, non sunt isti exteriores
+              sensus, sed interiores, qui scilicet ad partem intellectivam pertinent; quia
+              intellectus interdum sensus appellatur, ut patet per Basilium super proverbia, et per
+              philosophum in 6 Ethic. Vel si intelligit de sensibus exterioribus, dicendum sicut ad
+              primum.</p>
+            <p xml:id="ta-l4d1q1-d1e681">Ad tertium dicendum, quod, sicut jam ex dictis patet, potentiae sensitivae non
+              comparantur ad animam sicut naturales passiones ad subjectum, sed sicut ad originem;
+              unde ratio non procedit.</p>
+            <p xml:id="ta-l4d1q1-d1e685">Ad quartum dicendum, quod potentiae animae dicuntur partes ejus potentiales. Talium
+              autem totorum ista est natura, quod tota virtus totius consistit in una partium
+              perfecte, in aliis autem partialiter; sicut in anima virtus animae perfecte consistit
+              in parte intellectiva, in aliis autem partialiter. Unde cum in anima separata
+              remaneant vires intellectivae partis, integra remanebit, non diminuta, quamvis
+              sensitivae potentiae actu non remaneant; sicut nec potentia regis remanet diminuta
+              mortuo praeposito, qui ejus potentiam participabat.</p>
+            <p xml:id="ta-l4d1q1-d1e688">Ad quintum dicendum, quod opus cooperatur ad meritum quasi pars essentialis hominis
+              qui meretur; sic autem non cooperantur potentiae sensitivae, cum sint de genere
+              accidentium; et ideo non est simile.</p>
+            <p xml:id="ta-l4d1q1-d1e691">Ad sextum dicendum, quod potentiae animae sensitivae non dicuntur esse actus
+              organorum quasi formae essentiales ipsorum, nisi ratione animae cujus sunt; sed sunt
+              actus eorum sicut perficientes ea ad proprias operationes, sicut calor est actus ignis
+              perficiens ipsum ad calefaciendum: unde sicut idem ignis numero remaneret, etiam si
+              alius numero calor in eo esset, sicut patet de frigore aquae, quod non redit idem
+              numero postquam fuerit calefacta, aqua nihilominus eadem numero manente; ita et organa
+              erunt eadem numero, quamvis potentiae eaedem numero non sint.</p>
+            <p xml:id="ta-l4d1q1-d1e694">Ad septimum dicendum, quod philosophus loquitur de hujusmodi potentiis secundum quod
+              radicaliter in anima consistunt; quod patet ex hoc quod dicit, quod <quote xml:id="ta-l4d1q1-Qd1e696">senium non
+                est in patiendo animam, sed id in quo est</quote>, scilicet corpus; sic enim propter
+              corpus neque debilitantur neque corrumpuntur animae virtutes.</p>
+
+          </div>
+          <div xml:id="ta-l4d1q1-Dd1e701">
+            <head xml:id="ta-l4d1q1-Hd1e703">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d1q1-d1e706">Ad secundam quaestionem dicendum, quod quidam distinguunt duplices actus sensitivarum
+              potentiarum; quosdam exteriores, quos per corpus exercet; et hi non remanent in anima
+              separata; quosdam vero intrinsecos, quos anima per seipsam exercet; et hi erunt in
+              anima separata. Haec autem positio descendere videtur ab opinione Platonis, qui ponit
+              animam corpori conjungi sicut quamdam substantiam perfectam, in nullo a corpore
+              dependentem, sed solum sicut motorem mobili; quod patet ex transcorporatione quam
+              ponebat. Quia autem secundum ipsum nihil movebat nisi motum, et ne abiretur in
+              infinitum, dicebat quod primum movens movet seipsum, posuit quod anima erat se ipsam
+              movens; et secundum hoc erat duplex motus animae; unus quo movebatur a seipsa, alius
+              quo movebatur corpus ab ea; et sic anima habebat actum qui est videre, primo in se
+              ipsa, secundum quod movebat seipsam, et secundo in organo corporali, secundum quod
+              movebat corpus. Hanc autem positionem philosophus destruit in 1 de anima, ostendens
+              quod anima non movet seipsam, et quod nullo modo movetur secundum istas operationes
+              quae sunt videre, sentire, et hujusmodi, sed quod istae operationes sunt motus
+              conjuncti tantum. Unde oportet dicere, quod actus sensitivarum potentiarum nullo modo
+              maneant in anima separata, nisi forte sicut in radice remota.</p>
+            <p xml:id="ta-l4d1q1-d1e709">Ad primum ergo dicendum, quod liber ille negatur a quibusdam esse Augustini; dicitur
+              enim fuisse cujusdam Cisterciensis qui eum ex dictis Augustini compilavit, et quaedam
+              de suo addidit; unde quod ibi scribitur, pro auctoritate habendum non est. Si tamen
+              auctoritas debeat sustineri, dicendum, quod non debet intelligi quod anima separata,
+              ex imaginatione et aliis hujusmodi potentiis afficiatur, quasi ipsa affectio sit actus
+              praedictarum potentiarum; sed quia ex his quae anima per imaginationem et alias
+              hujusmodi potentias commisit in corpore, in futuro afficietur vel in bonum vel in
+              malum; ut sic imaginatio et hujusmodi potentiae non intelligantur elicere illam
+              affectionem, sed elicuisse in corpore meritum affectionis illius.</p>
+            <p xml:id="ta-l4d1q1-d1e712">Ad secundum dicendum, quod anima dicitur sentire per corpus, non quasi actus
+              sentiendi sit animae secundum se, sed quia est totius conjuncti ratione animae, eo
+              modo loquendi quo dicimus, quod calor calefaciat. Quod autem subjungitur, quod quaedam
+              anima sentit sine corpore, ut timorem, et hujusmodi, intelligendum est sine exteriori
+              corporis motu, qui accidit in actibus sensuum propriorum: non enim timor et hujusmodi
+              passiones sine motu corporali contingunt. Vel potest dici quod Augustinus loquitur
+              secundum opinionem Platonicorum, qui hoc ponebant, ut dictum est.</p>
+            <p xml:id="ta-l4d1q1-d1e715">Ad tertium dicendum, quod Augustinus ibi inquirendo loquitur, non determinando, sicut
+              fere per totum illum librum. Patet enim quod non est similis ratio de anima
+              dormientis, et de anima separata. Anima enim dormientis utitur organo imaginationis,
+              in qua corporales similitudines imprimuntur, quod de anima separata dici non potest.
+              Vel dicendum, quod similitudines rerum sunt in anima et quantum ad potentiam
+              sensitivam et imaginativam et intellectivam, secundum majorem et minorem abstractionem
+              a materia et materialibus conditionibus. Tenet ergo similitudo Augustini quantum ad
+              hoc quod sicut similitudines rerum corporalium sunt in anima somniantis, vel excessum
+              mentis patientis, imaginaliter; ita sunt in anima separata intellectualiter; non autem
+              quod in anima separata sint imaginaliter.</p>
+            <p xml:id="ta-l4d1q1-d1e719">Ad quartum dicendum, quod sicut in 1 Lib., dist. 3, quaest. 4, art. 1, ad 2, dictum
+              est, memoria dupliciter sumitur. Quandoque prout est potentia sensitivae partis:
+              secundum scilicet quod concernit praeteritum tempus; et hoc modo actus memoriae in
+              anima separata non erit; unde dicit philosophus in 1 de anima, quod hoc corrupto,
+              scilicet corpore, anima non reminiscitur. Alio modo, accipitur memoria prout est pars
+              imaginationis ad intellectivam partem pertinens, secundum scilicet quod ab omni
+              differentia temporis abstrahit, cum non sit tantum praeteritorum, sed etiam
+              praesentium et futurorum, ut Augustinus dicit; et secundum hanc memoriam anima
+              separata memorabitur.</p>
+            <p xml:id="ta-l4d1q1-d1e722">Ad quintum dicendum, quod sicut in 3 Lib., distinct. 26, quaest. 1, artic. 2, dictum
+              est, amor, gaudium et tristitia et hujusmodi, dupliciter accipiuntur. Quandoque quidem
+              secundum quod sunt passiones appetitivae sensibilis; et sic non erunt in anima
+              separata: hoc enim modo non explentur sine determinato motu cordis. Alio modo secundum
+              quod sunt actus voluntatis, quae est in parte intellectiva; et hoc modo erunt in anima
+              separata, sicut et delectationem, quae quodammodo est passio sensitivae partis;
+              secundum alium modum accipiendi ponit philosophus de Deo, dicens in 7 Ethic., quod
+              Deus una simplici operatione gaudet.</p>
+
+          </div>
+          <div xml:id="ta-l4d1q1-Dd1e726">
+            <head xml:id="ta-l4d1q1-Hd1e728">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d1q1-d1e731">Ad tertiam quaestionem dicendum, quod supposito, ex praedictis, quod ignis Inferni
+              non sit metaphorice dictus, nec ignis imaginarius, sed verus ignis corporeus; oportet
+              dicere, quod anima ab igne corporeo poenas patietur, cum dominus ignem illum Diabolo
+              et Angelis ejus paratum esse dicat Matth. 25, qui sunt incorporei, sicut et illa. Sed
+              quomodo pati possit, multipliciter assignatur. Quidam enim dixerunt, quod hoc ipsum
+              quod est ignem videre, sit animam ab igne pati; unde Gregorius in 4 Dial. dicit:
+                <quote xml:id="ta-l4d1q1-Qd1e733">ignem eo ipso patitur anima quo videt</quote>. Sed istud non videtur
+              sufficere; quia quodlibet visum ex hoc quod videtur, est perfectio videntis; unde non
+              potest in ejus poenam cedere inquantum est visus; sed quandoque est punitivum vel
+              contristans per accidens, inquantum scilicet apprehenditur ut nocivum; unde oportet
+              quod praeter hoc quod anima illum ignem videt, sit aliqua comparatio animae ad idem,
+              secundum quam ignis animae noceat. Unde alii dixerunt, quod quamvis ignis corporeus
+              non possit animam exurere, tamen anima apprehendit ipsum ut nocivum sibi; et ad talem
+              apprehensionem afficitur timore et dolore, ut in eis impleatur quod dicitur Psalm. 13,
+              5: <quote xml:id="ta-l4d1q1-Qd1e736">trepidaverunt timore, ubi non erat timor</quote>. Unde Gregorius in 4
+              Dialog. dicit, quod quia anima cremari se conspicit, crematur. Sed hoc iterum non
+              videtur sufficere; quia secundum hoc passio animae ab igne non esset secundum rei
+              veritatem, sed secundum apparentiam tantum: quamvis enim possit esse vera passio
+              tristitiae vel doloris ex aliqua falsa imaginatione, ut Augustinus dicit 12 super
+              Genes. ad litteram; non tamen potest dici quod secundum illam passionem vere patiatur
+              a re, sed a similitudine rei quam concipit. Et iterum iste modus passionis magis
+              recederet a reali passione quam ille qui ponitur per imaginarias visiones; cum ille
+              dicatur per veras imagines rerum esse, quas anima secum defert; iste autem per falsas
+              conceptiones quas anima errans fingit. Et iterum non est probabile quod animae
+              separatae, vel Daemones, qui subtilitate ingenii pollent, putarent ignem corporeum
+              sibi nocere posse, si ab eo nullatenus gravarentur. Unde alii dicunt, quod oportet
+              ponere animam etiam realiter ab igne corporeo pati; unde etiam Gregorius in 4 Dial.
+              dicit: <quote xml:id="ta-l4d1q1-Qd1e739">colligere ex dictis evangelicis possumus quia incendium anima non solum
+                videndo, sed etiam experiendo patiatur</quote>. Sed hoc tali modo fieri ponunt.
+              Dicunt enim, quod ignis ille corporeus potest considerari dupliciter. Uno modo
+              secundum quod est res quaedam corporea; et hoc modo non habet quod in animam agere
+              possit; alio modo secundum quod est instrumentum divinae justitiae vindicantis; hoc
+              enim divinae justitiae ordo exigit ut anima quae peccando se rebus corporalibus
+              subdit, eis etiam in poenam subdatur. Instrumentum autem non solum agit in virtute
+              propria, sed etiam in virtute principalis agentis, ut supra, dist. 1, quaest. 1, art.
+              4, dictum est; et ita non est inconveniens, si ignis ille, cum agat in vi spiritualis
+              agentis, in spiritum agat hominis vel Daemonis, per modum etiam quo de sacramentis
+              dictum est, dist. 1, quod animam sanctificant. Sed istud etiam non videtur sufficere:
+              quia omne instrumentum in id circa quod instrumentaliter operatur, habet propriam
+              actionem sibi connaturalem, et non solum actionem secundum quam agit in virtute
+              principalis agentis; immo exercendo primam actionem oportet quod efficiat hanc
+              secundam; sicut aqua lavando corpus in Baptismo sanctificat animam, et sera secando
+              lignum perducit ad formam domus. Unde oportet dare igni aliquam actionem in animam
+              quae sit ei connaturalis ad hoc quod sit instrumentum divinae justitiae peccata
+              vindicantis. Et ideo dicendum, quod corpus in spiritum naturaliter agere non potest,
+              nec ei aliquo modo obesse vel ipsum gravare, nisi secundum quod aliquo modo corpori
+              unitur; sic enim invenimus quod <quote xml:id="ta-l4d1q1-Qd1e742">corpus quod corrumpitur, aggravat
+                animam</quote>; Sap. 9, 15. Spiritus autem corpori unitur dupliciter. Uno modo ut
+              forma materiae, ut ex eis fiat unum simpliciter; et sic spiritus unitur corpori et
+              vivificat corpus, et a corpore aliqualiter aggravatur; sic autem spiritus hominis vel
+              Daemonis igni corporeo non unitur. Alio modo sicut movens mobili, vel sicut locatum
+              loco, eo modo quo incorporalia sunt in loco; et secundum hoc spiritus incorporei
+              creati loco definiuntur, ita in uno loco existentes quod non in alio. Quamvis autem
+              res corporea ex sua natura habeat quod spiritum incorporeum loco definiat, non tamen
+              habet sua natura quod spiritum incorporeum loco definitum detineat, ut ita alligetur
+              illi loco quod ad alia divertere non possit, cum spiritus non ita sit in loco
+              naturaliter quod loco subdatur. Sed hoc superadditur igni corporeo, inquantum est
+              instrumentum divinae justitiae vindicantis, quod sic detinet spiritum, et ita
+              efficitur ei poenalis, retardans eum ab executione propriae voluntatis, ne scilicet
+              possit operari ubi vult, et secundum quod vult; et hunc modum ponit Gregorius in 4
+              Dialog. Exponens enim quomodo anima incendium experiendo patiatur, sic dicit:
+                <quote xml:id="ta-l4d1q1-Qd1e745">dum veritas peccatorem divitem damnatum in igne perhibet, quisnam sapiens
+                reproborum animas teneri ignibus neget?</quote> Et hoc etiam Julianus dixit, ut in
+              littera Magister dicit: <quote xml:id="ta-l4d1q1-Qd1e749">si viventis hominis incorporeus spiritus detinetur in
+                corpore, cur etiam non post mortem corporeo igne teneatur?</quote> Augustinus etiam,
+              21 de Civit. Dei dicit, quod sicut anima in hominis conditione jungitur corpori, ut
+              dans ei vitam, quamvis illud sit spirituale et hoc corporale, et ex illa conjunctione
+              vehementer concipit amorem ad corpus, sic ligatur igni, ut accipiens ab eo poenam; et
+              ex illa conjunctione concipit horrorem. Oportet ergo omnes praedictos modos in unum
+              colligere, ut perfecte videatur quomodo anima ab igne corporeo patiatur; ut scilicet
+              dicamus, quod ignis secundum naturam suam habet quod spiritus incorporeus ei conjungi
+              possit, ut loco locatum; sed inquantum est instrumentum divinae justitiae, habet ut
+              ipsum quodammodo retineat alligatum; et in hoc veraciter ignis ille est spiritui
+              noxius; et sic anima ignem ut noxium sibi videns, ab igne cruciatur; unde Gregorius in
+              4 Dialog., omnia ista per ordinem tangit, ut ex dictis ejus patet.</p>
+            <p xml:id="ta-l4d1q1-d1e753">Ad primum ergo dicendum, quod Augustinus loquitur inquirendo; unde etiam alium modum
+              ponit determinando in Lib. de Civit. Dei, ut ex dictis patet. Vel dicendum, quod
+              Augustinus intelligit quod ea quibus anima proxime afficitur ad dolorem vel
+              tristitiam, sunt spiritualia; non enim affligeretur, nisi ignem ut noxium sibi
+              apprehenderet. Ignis ergo apprehensus est proximum affligens; sed ignis corporeus
+              extra animam existens est affligens remotum.</p>
+            <p xml:id="ta-l4d1q1-d1e756">Ad secundum dicendum, quod quamvis anima simpliciter sit nobilior igne; ignis tamen
+              est secundum quid anima nobilior, inquantum scilicet est instrumentum divinae
+              justitiae.</p>
+            <p xml:id="ta-l4d1q1-d1e759">Ad tertium dicendum, quod philosophus et Boetius loquuntur de illa actione per quam
+              patiens transmutatur in naturam agentis; talis autem non est actio ignis in animam; et
+              propter hoc ratio non concludit.</p>
+            <p xml:id="ta-l4d1q1-d1e763">Ad quartum dicendum, quod ignis in animam non agit per modum influentis, sed per
+              modum detinentis, ut ex dictis patet; et ideo ratio non est ad propositum.</p>
+            <p xml:id="ta-l4d1q1-d1e766">Ad quintum dicendum, quod in visione intellectuali non est tristitia ex hoc ipso quod
+              aliquid videtur; cum illud quod videtur nullo modo intellectui possit esse contrarium,
+              inquantum videtur. In sensu autem hoc quod videtur, ex ipsa actione qua agit in visum
+              ut videatur, potest esse corruptivum visus per accidens, inquantum corrumpit harmoniam
+              organi. Sed tamen visio intellectualis potest esse contristans, inquantum id quod
+              videtur, apprehenditur ut nocivum, non quasi noceat eo ipso quod videtur, sed alio
+              quocumque modo; et sic anima videndo ignem affligitur.</p>
+            <p xml:id="ta-l4d1q1-d1e769">Ad sextum dicendum, quod non est simile quantum ad omnia, sed quantum ad aliquid, ut
+              ex dictis patet.</p>
+            <p xml:id="ta-l4d1q1-d1e772">Ad septimum dicendum, quod quamvis non sit aliquis tactus corporalis inter animam et
+              corpus, tamen est inter ea aliquis tactus spiritualis; sicut etiam motor caeli cum sit
+              spiritualis, spirituali tactu tangit caelum, ipsum movens per modum quod dicitur
+              contristans tangere, sicut dicitur in 1 de generatione; et hujusmodi modus sufficit ad
+              actionem.</p>
+            <p xml:id="ta-l4d1q1-d1e775">Ad octavum dicendum, quod spiritus damnati nunquam sunt extra Infernum, nisi ex
+              dispensatione divina, vel ad instructionem vel ad exercitium electorum. Ubicumque
+              autem extra Infernum sint, semper tamen vident ignem Inferni ut eis in poenam
+              praeparatum; unde cum ista visio sit immediate affligens, ut dictum est, ubicumque
+              sunt, ab igne Inferni affliguntur; sicut et captivi etiam extra carcerem existentes
+              quodammodo a carcere affliguntur, dum vident se ad carcerem damnatos. Unde sicut
+              gloria electorum in nullo minuitur nec quantum ad praemium essentiale, neque quantum
+              ad accidentale, si aliquando extra caelum Empyreum sint, quod quodammodo in gloriam
+              eorum cedit; ita etiam in nullo minuitur poena damnatorum, si extra Infernum ex divina
+              dispensatione ad tempus ponantur; et hoc est quod dicit Glossa Bedae super illud
+              Jacob. 3: <quote xml:id="ta-l4d1q1-Qd1e777">inflammat rotam nativitatis</quote> etc.: <quote xml:id="ta-l4d1q1-Qd1e780">Diabolus ubicumque
+                sit, sive sub aere, sive sub terra, secum fert tormenta suarum flammarum</quote>.
+              Objectio autem procedit ac si ignis corporeus affligeret spiritus immediate, sicut
+              affligit corpora.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d1q1-Dd1e787">
+          <head xml:id="ta-l4d1q1-Hd1e789">Expositio textus</head>
+          <p xml:id="ta-l4d1q1-d1e792"><quote xml:id="ta-l4d1q1-Qd1e793">Omnes ad aetatem eamdem resurgent</quote> et cetera. Hoc intelligendum est non
+            quantum ad mensuram corporis, sed quantum ad perfectionem corporis. <quote xml:id="ta-l4d1q1-Qd1e796">Triginta enim
+              duorum annorum et trium mensium erat aetas Christi</quote>. Hoc intelligendum est
+            secundum illam opinionem quae ponit Christum in principio trigesimi anni nondum completi
+            baptizatum fuisse. Sed secundum opinionem Chrysostomi, qui ponit quod Christus, cum
+            baptizatus fuit, erat triginta annorum, et inceperat trigesimum primum, oportet dicere,
+            quod Christus triginta tribus annis et tribus mensibus vixerit: tribus enim annis
+            praedicavit, et mensibus quasi tribus. <quote xml:id="ta-l4d1q1-Qd1e799">Non est autem fas dicere, quod in
+              resurrectione accedat corpori magnitudo</quote>. Sed contra hoc videtur: nani et
+            gigantes resurgent in quantitate quam hic habuerunt. Et dicendum, quod hoc intelligendum
+            est de quantitate quam hic habuerunt vel habituri essent natura non errante per
+            superabundantiam vel defectum. <quote xml:id="ta-l4d1q1-Qd1e802">Sed in quemlibet pulverem ac cinerem
+              resolvatur</quote> et cetera. Sciendum, quod hae resolutiones quae in littera
+            tanguntur, distribuuntur hoc modo. Primo enim accipit illa in quae corpus humanum
+            proximo resolvitur; unde quantum ad partes grossas et terrestres ponit
+              <quote xml:id="ta-l4d1q1-Qd1e805">pulverem</quote> et <quote xml:id="ta-l4d1q1-Qd1e808">cinerem</quote>; ut in pulverem dicatur resolvi,
+            inquantum exsiccatur per congelationem humidi ex frigore agente; in cinerem vero,
+            inquantum exsiccatur per extractionem humidi a calore agente. Sed quantum ad partes
+            subtiles et aereas <quote xml:id="ta-l4d1q1-Qd1e812">halitus</quote> ponit et <quote xml:id="ta-l4d1q1-Qd1e815">auras</quote>; ut halitus
+            referatur ad vapores humidos, qui ab humano corpore resolvuntur; aura autem ad fumos
+            siccos qui sunt materia venti, qui proprie aura dicitur. Deinde vero ponit illa in quae
+            primo resolvitur. Haec autem vel sunt sensibilia, vel insensibilia. Si insensibilia, sic
+            tangit elementa in hoc quod dicit: <quote xml:id="ta-l4d1q1-Qd1e818">in quamcumque aliorum corporum
+              substantiam</quote>; et elementa in hoc quod dicit: <quote xml:id="ta-l4d1q1-Qd1e821">in ipsa elementa</quote>.
+            Si autem sunt sensibilia, sic tangit alia bruta et homines in hoc quod dicit: <quote xml:id="ta-l4d1q1-Qd1e824">in
+              quorumcumque animalium et hominum cibum carnemque mutetur</quote>; ut cibus pertineat
+            ad id quod est in via transmutationis humani corporis in substantiam praedictam; quod
+            vero dicit carnem, pertineat ad terminum transmutationis praedictae. <quote xml:id="ta-l4d1q1-Qd1e827">Illi animae
+              in puncto temporis reddit quae illam primitus, ut homo fieret, cresceret, viveret,
+              animavit</quote>. Exponendum est <quote xml:id="ta-l4d1q1-Qd1e831">primitus</quote> non solum quod est prius
+            tempore, sed quod est principalius, ut ex dictis patet: alias oporteret dicere, quod
+            costa de qua formata est mulier, in Adam resurgeret, cujus anima primo fuit animata;
+            resurget tamen in Eva, quia in ea principalius fuit, ut scilicet pertinens ad
+            perfectionem individui, non solum ad perfectionem speciei, sicut fuerat in Adam.
+              <quote xml:id="ta-l4d1q1-Qd1e834">Resurgent quidem sanctorum corpora sine ullo vitio</quote> et cetera. Ista quae
+            hic ponuntur, hoc modo differunt, ut <quote xml:id="ta-l4d1q1-Qd1e837">vitium</quote> pertineat ad intemperantiam
+            humorum, aut indispositionem inferiorum partium; <quote xml:id="ta-l4d1q1-Qd1e840">deformitas</quote> autem ad
+            dispositionem partium exteriorum; <quote xml:id="ta-l4d1q1-Qd1e843">corruptio vero</quote> ad diminutionem, ut si
+            corpora sine aliquo membro resurgerent; <quote xml:id="ta-l4d1q1-Qd1e846">onus</quote> autem ad indispositionem
+            organorum respectu virtutis motivae; <quote xml:id="ta-l4d1q1-Qd1e850">difficultas</quote> vero ad ipsius virtutis
+            debilitatem. <quote xml:id="ta-l4d1q1-Qd1e853">Et cruciabit damnatorum corpora hominum vel Daemonum</quote> et
+            cetera. Hoc dicit Augustinus secundum opinionem quae ponit Daemones habere corpora
+            naturaliter sibi unita. <quote xml:id="ta-l4d1q1-Qd1e856">Profiteri animam posse habere similitudinem corporis et
+              corporalium omnino membrorum, quisquis renuit, potest negare animam esse quae in
+              somnis videt vel ambulare se, vel sedere</quote> et cetera. Non est intelligendum,
+            quod anima separata habeat similitudinem corporis, et membrorum corporalium realiter,
+            sicut Apollinarius posuit; sed solummodo per modum apprehensionis vel intellectivae, vel
+            etiam imaginariae, ut quidam volunt. <quote xml:id="ta-l4d1q1-Qd1e859">Neque enim non sentiunt</quote> et cetera.
+            Hoc potest exponi, ut <quote xml:id="ta-l4d1q1-Qd1e862">sentire</quote> non accipiatur pro actu exteriori sensus,
+            sed pro actu intellectus, secundum quod intellectus quandoque sensus dicitur.
+              <quote xml:id="ta-l4d1q1-Qd1e865">Quaeri ac disputari potest, quando incipit homo in utero vivere</quote>. De hoc
+            aliqua dicta sunt in 3 Lib., distinct. 3, ubi de conceptione dominici corporis agebatur.
+              <quote xml:id="ta-l4d1q1-Qd1e869">Ac non potius duos (quod futurum erat, si gemini nascerentur) resurrecturos
+              aestimemus</quote>. Hoc non dicit Augustinus: quia ex quo habebat principalia membra
+            duplicia, sicut duo capita et duo corda, manifestum erat quod duae animae inerant; et
+            ita duo homines erant, sed conjuncti per errorem naturae.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 2, Quaestio 2</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Librum IV, Distinctio 2, Quaestio 2</title>
+          <date when="2016-03-18">March 18, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-18">March 18, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness>1856 editum</witness>
+          <witness xml:id="G" n="ghent567">Ghent, Belgium, Ghent University Library, 567</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="0.0.0-dev">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+      <div xml:id="starts-on"> 
+        <cb ed="#G" n="35b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ta-l4d2q2">
+        <head xml:id="ta-l4d2q2-Hd1e97">Librum IV, Distinctio 2, Quaestio 2</head>
+        <head xml:id="ta-l4d2q2-Hd1e100" type="questionTitle">De Baptismo Iohannis</head>
+        
+        <div xml:id="ta-l4d2q2-Dd1e103">
+        <head xml:id="ta-l4d2q2-Hd1e105">Prooemium</head>
+        <p xml:id="ta-l4d2q2-d1e108">Deinde quaeritur de Baptismo Joannis, et circa hoc quaeruntur quatuor: 1 utrum fuerit sacramentum; 2 de efficacia ipsius; 3 quibus competebat; 4 utrum baptizati a Joanne, essent Baptismo Christi baptizandi.</p>
+        </div>
+        <div xml:id="ta-l4d2q2-Dd1e112" type="articulus">
+        <head xml:id="ta-l4d2q2-Hd1e114">Articulus 1</head>
+        
+        <head xml:id="ta-l4d2q2-Hd1e117" type="questionTitle">Utrum Baptismus Joannis fuerit sacramentum</head>
+        <div xml:id="ta-l4d2q2-Dd1e120">
+        <head xml:id="ta-l4d2q2-Hd1e122">Quaestiuncula 1</head>
+        <p xml:id="ta-l4d2q2-d1e125">Ad primum sic proceditur. Videtur quod Baptismus Joannis non fuerit sacramentum. Joan. 3, super illud: <quote xml:id="ta-l4d2q2-Qd1e127">erat Joannes baptizans</quote> etc., dicit Glossa: <quote xml:id="ta-l4d2q2-Qd1e130">quantum catechumenis nondum baptizatis prodest doctrina fidei, tantum profuit Baptismus Joannis ante Baptismum Christi</quote>. Sed catechismus non est sacramentum, sed sacramentale. Ergo Baptismus Joannis non erat sacramentum sed sacramentale.</p>
+        <p xml:id="ta-l4d2q2-d1e134">Praeterea, omne sacramentum est alicujus legis sacramentum. Sed Baptismus Joannis non erat sacramentum legis naturae, neque legis veteris: quia, sicut Augustinus dicit, nulli praecedentium prophetarum fuit datum baptizare, nisi Joanni soli, quod non contingit de sacramentis veteris legis; similiter non est sacramentum novae legis, quia praedicationem Christi praecessit. Ergo non erat sacramentum.</p>
+        <p xml:id="ta-l4d2q2-d1e137">Sed contra, sacramentum est sacrae rei signum. Sed Baptismus Joannis figurabat Baptismum Christi. Ergo erat sacramentum.</p>
+        </div>
+          <div xml:id="ta-l4d2q2-Dd1e141">
+        <head xml:id="ta-l4d2q2-Hd1e143">Quaestiuncula 2</head>
+        <p xml:id="ta-l4d2q2-d1e146">Ulterius. Videtur quod non baptizaverit sub hac forma: ego baptizo te in nomine venturi. Christus enim, in cujus nomine baptizabat, jam venerat. Ergo non competebat forma illa pro tempore illo.</p>
+        <p xml:id="ta-l4d2q2-d1e149">Praeterea, eadem est fides de Christo venturo quae erat in patribus et de Christo qui jam venit, quam nos habemus. Ergo eadem est forma Baptismi in nomine venturi, et in nomine Christi. Ergo Baptismus idem. Sed apostoli baptizaverunt in nomine Christi, ut infra dicetur. Si ergo Joannes baptizavit in nomine venturi, idem fuit Baptisma Joannis et apostolorum Christi; quod falsum est.</p>
+        <p xml:id="ta-l4d2q2-d1e152">Sed contra est quod dicitur Act. 19, 4: <quote xml:id="ta-l4d2q2-Qd1e154">baptizabat Joannes populum dicens, in eum qui venturus est post ipsum, ut crederent</quote>.</p>
+          </div>
+          <div xml:id="ta-l4d2q2-Dd1e159">
+        <head xml:id="ta-l4d2q2-Hd1e161">Quaestiuncula 3</head>
+        <p xml:id="ta-l4d2q2-d1e164">Ulterius. Videtur quod non fuit institutus a Deo. Nullum enim sacramentum a Deo institutum nominatur a ministro; non enim dicitur Baptismus Petri. Sed Baptismus ille dicitur Baptismus Joannis. Ergo non fuit a Deo institutus.</p>
+        <p xml:id="ta-l4d2q2-d1e167">Praeterea, sacramenta legis naturae, quae ad sacramenta Christi disponebant, a Deo institutionem non habuerunt, sed ex voto celebrabantur, secundum Hugonem. Sed Baptismus Joannis fuit praeparatorius ad sacramenta Christi. Ergo non debuit habere institutionem a Deo.</p>
+        <p xml:id="ta-l4d2q2-d1e170">Sed contra est quod dicitur Joan. 1, 33: <quote xml:id="ta-l4d2q2-Qd1e172">qui me misit baptizare in aqua, ille mihi dixit: super quem videris spiritum descendentem, et manentem super eum, hic est qui baptizat in spiritu sancto</quote>.</p>
+          </div>
+            <div xml:id="ta-l4d2q2-Dd1e178">
+        <head xml:id="ta-l4d2q2-Hd1e180">Quaestiuncula 4</head>
+        <p xml:id="ta-l4d2q2-d1e183">Ulterius. Videtur quod debuit statim Christo baptizato cessare. Quia super illud Joan. 1: <quote xml:id="ta-l4d2q2-Qd1e185">vidit Joannes Jesum venientem ad se</quote>, dicit Augustinus: <quote xml:id="ta-l4d2q2-Qd1e188">baptizatus est dominus Baptismo Joannis, et cessavit Baptismus Joannis</quote>.</p>
+        <p xml:id="ta-l4d2q2-d1e192">Praeterea, Baptismus Joannis erat praeparatorius ad Baptismum Christi. Sed Baptismus Christi incepit statim Christo baptizato: quia tactu mundissimae suae carnis vim regenerativam contulit aquis, ut dicit Beda. Ergo statim debuit cessare.</p>
+        <p xml:id="ta-l4d2q2-d1e195">Sed contra est quod legitur Joan. 3, quod post Baptismum Christi baptizabat Joannes, et discipuli ejus similiter baptizabant. Ergo Baptismus Joannis non cessavit statim Christo baptizato.</p>
+        </div>
+            <div xml:id="ta-l4d2q2-Dd1e199">
+        <head xml:id="ta-l4d2q2-Hd1e201">Quaestiuncula 1</head>
+        <p xml:id="ta-l4d2q2-d1e204">Respondeo dicendum, ad primam quaestionem, quod secundum Hugonem de sancto Victore, secundum processum temporis et majorem propinquitatem ad tempus gratiae, oportuit alia et alia sacramenta institui. Unde quia in Joanne quodammodo incepit tempus gratiae (quia <quote xml:id="ta-l4d2q2-Qd1e206" ana="#mt11_13">lex, et prophetae usque ad Joannem</quote>, Matth. 11, 13), non quasi ab ipso esset gratia, sed quia ad gratiam viam praeparabat; ideo ejus Baptismus fuit aliquod sacramentum; quod quidem erat initiatio quaedam sacramentorum gratiae, quamvis gratia in eo non conferretur. Unde dicendum, quod Baptismus Joannis sacramentum erat quodammodo medium inter sacramenta veteris et novae legis, sicut dispositio ad formam media est quodammodo inter privationem et formam. Conveniebat enim quodammodo cum sacramentis veteris legis in hoc quod erat signum tantum; cum sacramentis autem legis novae in materia, et quodammodo in forma.</p>
+        <p xml:id="ta-l4d2q2-d1e210">Ad primum ergo dicendum, quod Baptismus Joannis habet aliquid simile cum sacramentalibus Baptismi, inquantum erat dispositio ad Baptismum Christi; sed inquantum praecessit institutionem Baptismi Christi, differt a sacramentalibus, et est sacramentum per se; sicut sacramenta veteris legis, quae etiam suo modo, licet non tam de propinquo, ad sacramenta novae legis disponebant.</p>
+        <p xml:id="ta-l4d2q2-d1e213">Ad secundum dicendum, quod dispositio reducitur ad genus formae ad quam disponit; et ideo Baptismus Joannis reducitur ad sacramenta novae legis, sicut incompletum in genere illo; et hoc patet ex ordine procedendi quem Magister servat.</p>
+            </div>
+            <div xml:id="ta-l4d2q2-Dd1e217">
+        <head xml:id="ta-l4d2q2-Hd1e219">Quaestiuncula 2</head>
+        <p xml:id="ta-l4d2q2-d1e222">Ad secundam quaestionem dicendum, quod utilitas rei ex forma sua consequitur; et ideo formae sacramentorum ostendunt illud ex quo sacramenta et efficaciam et utilitatem habent. Et quia utilitas Baptismi Joannis tota erat disponere ad Christum, ideo haec erat sua forma competens, ut in nomine venturi baptizaret.</p>
+        <p xml:id="ta-l4d2q2-d1e225">Ad primum ergo dicendum, quod quamvis jam venisset in carne, non tamen jam venerat ad baptizandum, et alia salutis nostrae opera exercendum.</p>
+        <p xml:id="ta-l4d2q2-d1e228">Ad secundum dicendum, quod fides, cum sit cognitio quaedam, respicit rei veritatem; et quia diversitas temporum significatorum non diversificat veritatem, nec fides penes hoc diversificatur. Sed sacramenta respiciunt effectum; et quia non eodem modo se habet ad actum hoc quod jam est et hoc quod expectatur futurum, quia ad id quod expectatur futurum, actus ordinantur ut disponentes, ab eo autem quod jam est, effective aliquid producitur; ideo diversificatio formae per futurum et praesens designant diversitatem sacramenti.</p>
+            </div>
+            <div xml:id="ta-l4d2q2-Dd1e232">
+        <head xml:id="ta-l4d2q2-Hd1e234">Quaestiuncula 3</head>
+        <p xml:id="ta-l4d2q2-d1e237">Ad tertiam quaestionem dicendum, quod Joannes suum Baptismum instituit praecepto divino. Unde patet quod institutio ipsius fuit a Deo per auctoritatem, et ab ipso Joanne per ministerium.</p>
+        <p xml:id="ta-l4d2q2-d1e240">Ad primum ergo dicendum, quod propter tres rationes Baptismus a Joanne nomen accepit. Primo, quia ipse fuit sui Baptismi institutor aliquo modo; Petrus autem nullo modo Baptismi quo baptizabat. Secundo, quia nihil in illo Baptismo efficiebatur quod Joannes non faceret. Tertio, quia sibi soli erat datum illius Baptismi ministerium.</p>
+        <p xml:id="ta-l4d2q2-d1e243">Ad secundum dicendum, quod fides magis determinabatur secundum appropinquationem ad Christum; et ideo etiam sacramenta, quae quaedam fidei protestationes sunt, magis a Christo remota, minus determinata esse debuerunt. Et quia Baptismus Joannis de propinquo ad Christi sacramenta disponebat, ideo debuit magis habere determinationem quam sacramenta legis naturae.</p>
+            </div>
+            <div xml:id="ta-l4d2q2-Dd1e247">
+        <head xml:id="ta-l4d2q2-Hd1e249">Quaestiuncula 4</head>
+        <p xml:id="ta-l4d2q2-d1e252">Ad quartam quaestionem dicendum, quod cessatio Baptismi Joannis potest accipi dupliciter. Uno modo quando cessavit totaliter; et hoc fuit Joanne in carcerem misso, quia ministerium illud soli Joanni concessum est. Alio modo quantum ad maximum suum posse; et sic cessavit baptizato Christo: quia ex tunc ejus Baptismus non fuit praecipuus, sed alius fuit eo dignior; sicut cessat officium legati domino suo superveniente, quamvis et aliqua exerceat.</p>
+        <p xml:id="ta-l4d2q2-d1e255">Et per hoc patet solutio.</p>
+            </div>
+          </div>
+          <div xml:id="ta-l4d2q2-Dd1e260" type="articulus">
+        <head xml:id="ta-l4d2q2-Hd1e262">Articulus 2</head>
+        
+        <head xml:id="ta-l4d2q2-Hd1e265" type="questionTitle">Utrum Baptismus Joannis gratiam contulerit</head>
+        
+        <p xml:id="ta-l4d2q2-d1e268">Ad secundum sic proceditur. Videtur quod Baptismus Joannis gratiam contulerit. Luc. 3, 3: <quote xml:id="ta-l4d2q2-Qd1e270">erat Joannes baptizans, et praedicans Baptismum poenitentiae in remissionem peccatorum</quote>. Sed remissio peccatorum non fit sine gratia. Ergo Baptismus ille gratiam contulit.</p>
+        <p xml:id="ta-l4d2q2-d1e274">Praeterea, Damascenus dicit: <quote xml:id="ta-l4d2q2-Qd1e276">purgat Joannes spiritum per aquam</quote>. Sed purgatio spiritualis non fit sine gratia. Ergo ille Baptismus gratiam contulit.</p>
+        <p xml:id="ta-l4d2q2-d1e280">Praeterea, Augustinus dicit contra Donatistas: <quote xml:id="ta-l4d2q2-Qd1e282">ita credam Joannem baptizasse in aqua in remissionem peccatorum, ut ab eo baptizatis in spe remitterentur peccata</quote>. Sed spes de remissione peccatorum non potest esse nisi per gratiam. Ergo Baptismus ille gratiam contulit.</p>
+        <p xml:id="ta-l4d2q2-d1e287">Praeterea, Baptismus Joannis propinquior fuit Baptismo Christi quam circumcisio; sed circumcisio gratiam contulit, ut dictum est, dist. 1, quaest. 2, art. 4, quaestiunc. 3. Ergo multo fortius Baptismus Joannis.</p>
+        <p xml:id="ta-l4d2q2-d1e290">Praeterea, sacramentum non instituitur, nisi ad causandum gratiam, vel significandum. Sed gratia sufficienter per sacramenta veteris legis erat significata. Si ergo Baptismus Joannis gratiam non contulit, pro nihilo institutus fuit.</p>
+        <p xml:id="ta-l4d2q2-d1e293">Sed contra, gratia non confertur sine spiritu sancto. Sed in Baptismo Joannis non conferebatur spiritus sanctus, sed aqua tantum, ut patet Act. 1, 3: <quote xml:id="ta-l4d2q2-Qd1e295">Joannes quidem baptizavit aqua; vos autem baptizabimini spiritu sancto</quote>. Ergo in illo Baptismo non erat gratia.</p>
+        <p xml:id="ta-l4d2q2-d1e299">Praeterea, non est idem effectus dispositionis et perfectionis. Si ergo Baptismus Joannis disponebat ad Baptismum Christi, cujus est gratiam conferre: quia <quote xml:id="ta-l4d2q2-Qd1e301">gratia et veritas facta est per Jesum Christum</quote>, Joannes 1, 17, videtur quod Baptismus Joannis gratiam non contulit.</p>
+        <p xml:id="ta-l4d2q2-d1e305">Respondeo dicendum, quod hoc ab omnibus conceditur, quod non efficiebatur aliquid per Baptismum Joannis quod non esset operatio hominis. Et quia gratia non potest ab homine dari, ideo patet quod Baptismus Joannis gratiam non conferebat.</p>
+        <p xml:id="ta-l4d2q2-d1e308">Ad primum ergo dicendum, quod illa auctoritas sic exponenda est, ut referatur ad diversa Baptismata hoc modo. <quote xml:id="ta-l4d2q2-Qd1e310">Erat Joannes baptizans</quote>, scilicet Baptismate suo, <quote xml:id="ta-l4d2q2-Qd1e313">et praedicans</quote>, scilicet Baptismum Christi, qui est <quote xml:id="ta-l4d2q2-Qd1e316">in remissionem peccatorum</quote>. Si autem referatur utrumque ad Baptismum Joannis, sic dicitur esse in remissionem peccatorum: quia baptizatis imponebat dignos fructus poenitentiae agere, quibus peccatorum remissionem consequerentur. Unde Baptismus ille erat quasi quaedam protestatio, et professio poenitentiae.</p>
+        <p xml:id="ta-l4d2q2-d1e321">Ad secundum dicendum, quod Baptismus ille purgare dicitur modo praedicto: vel etiam materialiter a sordibus corporalibus in signum spiritualis purgationis per Christum futurae; vel a caecitate ignorantiae per doctrinam Joannis Christum annuntiantis.</p>
+        <p xml:id="ta-l4d2q2-d1e324">Ad tertium dicendum, quod spes semper ex gratia procedit, non tamen semper ex gratia habita, sed quandoque ex gratia expectata; et sic Baptismus Joannis spem faciebat remissionis peccatorum, non conferens gratiam, sed promittens eam in hoc quod praefigurabat Baptismum Christi, quo gratia daretur.</p>
+        <p xml:id="ta-l4d2q2-d1e327">Ad quartum dicendum, quod quamvis Baptismus Joannis magis conveniret cum Baptismo Christi quam circumcisio quantum ad materiam, non tamen conveniebat magis quantum ad causam institutionis: quia circumcisio ad necessitatem instituta erat ut remedium contra originale; sed Baptismus Joannis, ut assuefaceret ad Baptismum Christi.</p>
+        <p xml:id="ta-l4d2q2-d1e330">Ad quintum dicendum, quod Baptismus Joannis expressius figurabat Baptismum Christi quam sacramenta veteris legis propter majorem similitudinem ad ipsum; et ideo magis de propinquo praeparabat ad ipsum in significatione, et quadam poenitentiae protestatione.</p>
+          </div>
+          <div xml:id="ta-l4d2q2-Dd1e335" type="articulus">
+        <head xml:id="ta-l4d2q2-Hd1e337">Articulus 3</head>
+        
+        <head xml:id="ta-l4d2q2-Hd1e340" type="questionTitle">Utrum convenienter Christus Joannis Baptismate baptizatus fuerit</head>
+        <div xml:id="ta-l4d2q2-Dd1e343">
+        <head xml:id="ta-l4d2q2-Hd1e345">Quaestiuncula 1</head>
+        <p xml:id="ta-l4d2q2-d1e348">Ad tertium sic proceditur. Videtur quod Christo non competeret baptizari Baptismo Joannis. Baptismus enim Joannis erat Baptismus poenitentiae, ut dicitur Luc. 3. Sed Christo non competit poenitentia, sicut nec peccatum. Ergo nec baptizari Baptismo Joannis.</p>
+        <p xml:id="ta-l4d2q2-d1e351">Praeterea, omnis Christi actio nostra est instructio. Sed non instruimur baptizari Baptismo Joannis. Ergo non debuit Christus illo Baptismo baptizari.</p>
+        <p xml:id="ta-l4d2q2-d1e354">Sed contra est quod ipse ad Baptismum Joannis vadens dixit: <quote xml:id="ta-l4d2q2-Qd1e356" ana="#mt3_15">sic decet nos implere omnem justitiam</quote>; Matth. 3, 15.</p>
+        </div>
+            <div xml:id="ta-l4d2q2-Dd1e361">
+            
+        <head xml:id="ta-l4d2q2-Hd1e363">Quaestiuncula 2</head>
+        <p xml:id="ta-l4d2q2-d1e366">Ulterius. Videtur quod nulli alii hoc Baptismo debuerunt baptizari. Hoc enim est solius Christi ut a sacramentis non accipiat, sed magis eis conferat. Sed Baptismus Joannis erat tale sacramentum a quo non poterat aliquid accipi. Ergo soli Christo competebat.</p>
+        <p xml:id="ta-l4d2q2-d1e369">Praeterea, sacramenta eadem ratione omnibus competunt. Sed non erat necessarium quod omnes Baptismo Joannis baptizarentur. Ergo nulli praeter Christum ipso baptizari debuerunt.</p>
+        <p xml:id="ta-l4d2q2-d1e372">Sed contra est quod dicitur Matth. 3, 5: <quote xml:id="ta-l4d2q2-Qd1e374" ana="#mt3_5">egrediebantur ad illum Hierosolymitae universi, et baptizabantur ab eo</quote>.</p>
+            </div>
+            <div xml:id="ta-l4d2q2-Dd1e379">
+        <head xml:id="ta-l4d2q2-Hd1e381">Quaestiuncula 3</head>
+        <p xml:id="ta-l4d2q2-d1e384">Ulterius. Videtur quod debuerunt illo Baptismo pueri baptizari. Erat enim ille Baptismus signum Baptismi Christi. Sed Baptismus Christi competit pueris. Ergo et ille.</p>
+        <p xml:id="ta-l4d2q2-d1e387">Praeterea, circumcisio dabatur etiam pueris, et eis principaliter. Sed Baptismus Joannis est medium inter circumcisionem et Baptismum Christi, qui datur indifferenter magnis et parvis. Ergo et Baptismus Joannis parvis dari debuit.</p>
+        <p xml:id="ta-l4d2q2-d1e390">Sed contra, quia Baptismus ille erat ut assuescerent ad Baptismum Christi. Sed hoc non poterat esse nisi ratione illorum qui discretionem habebant. Ergo pueris ille Baptismus non competebat.</p>
+            </div>
+            <div xml:id="ta-l4d2q2-Dd1e395">
+        <head xml:id="ta-l4d2q2-Hd1e397">Quaestiuncula 1</head>
+        <p xml:id="ta-l4d2q2-d1e400">Respondeo dicendum, quod Christus pluribus de causis a Joanne baptizari voluit, quarum tres tanguntur in Glossa Marc. 1; scilicet propter humilitatem implendam (ut ipsemet dicit Matth. 3); ut Baptismum Joannis approbaret, et ut aquas consecraret suae carnis tactu, et sic Baptismum suum institueret. Quartam causam tangit Augustinus, ut scilicet ostenderet non interesse quis a quo baptizaretur. Quintam tangit in Lib. quaestionum veteris et novi testamenti, scilicet ad exemplum Baptismi proponendum illis qui erant futuri filii Dei per fidem. Sextam tangit Chrysostomus, ut scilicet in Baptismo miracula ostendens, evacuaret illorum errorem qui Joannem Christo majorem credebant.</p>
+        <p xml:id="ta-l4d2q2-d1e403">Ad primum ergo dicendum, quod, sicut dictum est, Christus a sacramentis nihil accepit; et ideo non dicitur Baptismus Joannis Baptismus poenitentiae quo ad Christum, sed quo ad alios qui ad poenitentiam per ipsum praeparabantur; sicut etiam circumcisio Christi non fuit in remedium originalis peccati, a quo Christus immunis erat.</p>
+        <p xml:id="ta-l4d2q2-d1e406">Ad secundum dicendum, quod actio Christi nostra est instructio, non ut eodem modo agamus sicut Christus fecit, sed ut pro modo nostro Christum imitemur; et ideo per Baptismum suum dedit nobis exemplum, ut baptizaremur illo Baptismo qui nobis competit, per quem scilicet remissionem peccatorum consequamur.</p>
+            </div>
+            <div xml:id="ta-l4d2q2-Dd1e410">
+        <head xml:id="ta-l4d2q2-Hd1e412">Quaestiuncula 2</head>
+        <p xml:id="ta-l4d2q2-d1e415">Ad secundam quaestionem dicendum, quod, sicut dicit Augustinus in Lib. de Baptismo contra Donatistas, si Joannes solum Christum baptizasset, videretur melioris Baptismi dispensator, quanto melior erat qui baptizabatur, et si omnes baptizasset videretur quod Christi Baptismus non sufficeret ad salutem; et ideo quosdam alios baptizavit, sed non omnes.</p>
+        <p xml:id="ta-l4d2q2-d1e418">Ad primum ergo dicendum, quod quamvis alii a Baptismo Joannis non acciperent gratiam; accipiebant tamen quoddam signum gratiae suscipiendae, et servandae poenitentiae.</p>
+        <p xml:id="ta-l4d2q2-d1e421">Ad secundum patet solutio ex dictis.</p>
+            </div>
+            <div xml:id="ta-l4d2q2-Dd1e425">
+        <head xml:id="ta-l4d2q2-Hd1e427">Quaestiuncula 3</head>
+        <p xml:id="ta-l4d2q2-d1e430">Ad tertiam quaestionem dicendum, quod Baptismus Joannis erat Baptismus poenitentiae; et quia pueris non competit poenitentia, ideo non competebat eis ille Baptismus. Nec est simile de Baptismo Christi et circumcisione, quae ordinantur contra originale peccatum, quod in pueris est.</p>
+        <p xml:id="ta-l4d2q2-d1e433">Et per hoc patet solutio ad objecta.</p>
+            </div>
+          </div>
+          <div xml:id="ta-l4d2q2-Dd1e438" type="articulus">
+        <head xml:id="ta-l4d2q2-Hd1e440">Articulus 4</head>
+        
+        <head xml:id="ta-l4d2q2-Hd1e443" type="questionTitle">Utrum baptizati Joannis Baptismate, iterum baptizari debuerint</head>
+        
+        <p xml:id="ta-l4d2q2-d1e446">Ad quartum sic proceditur. Videtur quod baptizati Baptismo Joannis, non debebant baptizari Baptismo Christi. Actor. enim 8 dicitur, quod apostoli in Samariam venientes, illos qui baptizati erant in nomine Jesu, non baptizabant, sed tantum manus imponebant. Cum ergo Baptismus in nomine Jesu sine collatione spiritus sancti sit Baptismus Joannis, videtur quod baptizati Baptismo Joannis, non baptizabantur Baptismo Christi.</p>
+        <p xml:id="ta-l4d2q2-d1e449">Praeterea, Hieronymus super illud: <quote xml:id="ta-l4d2q2-Qd1e451">effundam de spiritu meo</quote>, dicit: quod haec est causa quare quidam baptizati a Joanne, Baptismo Christi iterum baptizati sunt a Paulo, Actor. 20 quia fidem Trinitatis non habebant, quia neque si spiritus sanctus est audierant. Si ergo aliqui baptizati essent a Joanne, fidem Trinitatis habentes, videtur quod iterum baptizari non debuerint Baptismo Christi.</p>
+        <p xml:id="ta-l4d2q2-d1e455">Praeterea, in apostolis debuit ostendi omne illud quod est necessarium ad salutem. Sed apostolis post Baptismum Joannis solus Baptismus spiritus sancti praenuntiatur, Actor. 1. Ergo non erat necessarium quod Baptismo Christi iterum baptizarentur.</p>
+        <p xml:id="ta-l4d2q2-d1e459">Praeterea, ad Baptismum requiritur aqua et spiritus sanctus. Sed per Baptismum Joannis erat facta ablutio aquae. Ergo non oportebat nisi quod suppleretur quod deerat, scilicet spiritus sanctus.</p>
+        <p xml:id="ta-l4d2q2-d1e462">Sed contra est quod dicitur Joannis 3, 5: <quote xml:id="ta-l4d2q2-Qd1e464">nisi quis renatus fuerit ex aqua et spiritu sancto, non potest introire in regnum Dei</quote>. Sed Baptismus Joannis non regenerabat aliquo modo. Ergo necessarium erat ut iterum Baptismo Christi baptizarentur.</p>
+        <p xml:id="ta-l4d2q2-d1e468">Praeterea, Augustinus dicit, quod baptizabat Joannes et non est baptizatum. Sed de necessitate salutis tempore gratiae est quod homo sit baptizatus, vel saltem propositum Baptismi habuerit. Ergo oportebat eos qui Baptismum Joannis acceperant, iterum baptizari Baptismo Christi.</p>
+        <p xml:id="ta-l4d2q2-d1e471">Praeterea, impositio manuum praecedente Baptismo Joannis non imprimebat characterem baptismalem. Sed character talis est de necessitate salutis vel in actu vel in proposito. Ergo oportebat quod baptizati Baptismo Joannis iterum baptizarentur Baptismo Christi, et non sufficiebat eis manus impositio.</p>
+        <p xml:id="ta-l4d2q2-d1e474">Respondeo dicendum, quod circa hoc est duplex opinio. Quidam enim dicunt, quod Baptismus Joannis erat praeparatorius ad Christum suscipiendum; et ideo si quis Baptismum Joannis suscepisset in eo sistens, non referens ad Christum, Baptismus in eo frustraretur a fine suo; et ideo oportebat eum iterum baptizari Baptismo Christi. Si autem non figeret spem suam in Baptismo Joannis, sed ulterius referret ad Christum, sic ex gratia Christi et Baptismo Joannis praeaccepto efficiebatur quasi unum quid; et ideo non oportebat quod iterum aqua baptizaretur, sed solum quod spiritum sanctum per manus impositionem acciperet; et haec videtur fuisse Magistri opinio in littera. Sed quia sacramenta novae legis ex ipso opere operato efficaciam habent, ideo videtur quod spes et fides illius qui Baptismum suscipit, nihil faciat ad sacramentum, quamvis posset facere ad rem sacramenti impediendam vel promovendam. Unde quantumcumque spem suam aliquis ad Christum referret baptizatus Baptismo Joannis, Baptismum novae legis non consequebatur; et ideo si Baptismus novae legis est de necessitate salutis, oportebat quod iterum illo Baptismo baptizaretur. Praeterea est generale in omnibus sacramentis, quod si omittatur quod est de substantia sacramenti, oportet id sacramentum iterari. Unde cum non esset forma debita in Baptismo Joannis, oportebat quod iteraretur Baptismus. Et hoc habet communior opinio, quae etiam ex verbis Augustini confirmatur, qui dicit super Joan., Hom. 5: <quote xml:id="ta-l4d2q2-Qd1e476">qui baptizati sunt Baptismate Joannis, non eis sufficit: baptizandi enim sunt Baptismate Christi</quote>.</p>
+        <p xml:id="ta-l4d2q2-d1e480">Et ideo secundum hoc dicendum ad primum, quod ibi agitur de illis qui baptizati erant a Philippo, de quo constat quod Baptismo Christi baptizaverat. Sed non erat ibi spiritus sanctus ad robur, sicut in confirmatione datur: quia ille non fuit Philippus apostolus, sed unus de septem diaconibus, et ideo non poterat manus imponere, quia hoc episcoporum est; et propter hoc missi sunt ad hoc Petrus et Joannes.</p>
+        <p xml:id="ta-l4d2q2-d1e484">Ad secundum dicendum, quod Hieronymus non vult tangere causam rebaptizationis, sed insufficientiam fidei ipsorum ad salutem, ut patet ex verbis praecedentibus. Praemittit enim: <quote xml:id="ta-l4d2q2-Qd1e486">qui dicit se credere in Christum, et non credit in spiritum sanctum, nondum habet claros oculos</quote>. Insufficientiam autem fidei non posset esse causa quare aliqui baptizarentur, sed quare instruendi essent, sicut et nunc fit.</p>
+        <p xml:id="ta-l4d2q2-d1e490">Ad tertium dicendum, quod apostoli creduntur baptizati fuisse Baptismo Christi, quamvis scriptum non inveniatur, ut dicitur in Glossa Joan. 13 super illud: <quote xml:id="ta-l4d2q2-Qd1e492">qui lotus est, non indiget nisi ut pedes lavet</quote>. Ex quo enim ipsi alios baptizabant, ut habetur Joan. 3, videtur quod et ipsi venientes ad Christum baptizati fuerint. Si tamen Christus, qui habuit potestatem remittendi peccata, et qui virtutem suam sacramentis non alligavit, eos sine Baptismo ex privilegio quodam sanctificare voluisset, non esset ad consequentiam trahendum. Ex auctoritate autem inducta non habetur quod apostoli tantum Baptismo Joannis baptizati erant; sed comparatio quaedam Baptismi flaminis ad Baptismum Joannis.</p>
+        <p xml:id="ta-l4d2q2-d1e496">Ad quartum dicendum, quod ad Baptismum requiritur aqua cum debita forma. Joannes autem non observabat formam Baptismi Christi, nec iterum erat in eo efficacia sicut in Baptismo Christi; et ideo, quia omittebantur ea quae erant de necessitate sacramenti, oportebat iterum baptizari.</p>
+          </div>
+          <div xml:id="ta-l4d2q2-Dd1e500">
+        <head xml:id="ta-l4d2q2-Hd1e502">Expositio textus</head>
+        <p xml:id="ta-l4d2q2-d1e505"><quote xml:id="ta-l4d2q2-Qd1e506">Quorum alia remedium contra peccatum praebent (...) alia gratia et virtute nos fulciunt</quote>. Omnia sacramenta novae legis sunt in remedium, et gratiam conferunt, ut dictum est. Ergo distinctio illa nulla videtur. Et dicendum, quod illa distinctio sacramentorum sumitur secundum id ad quod principaliter ordinantur. Quamvis ergo omnia sacramenta aliquo modo gratiam conferant, et in remedium sint, quaedam tamen principaliter ordinata sunt in remedium, contra aliquem specialem morbum, ut matrimonium contra concupiscentiam; quaedam vero de sui propria intentione sunt ordinata ad remedium morbi, et ad gratiam, sicut Baptismus, qui est spiritualis regeneratio, per quam vetus homo corrumpitur, et novus generatur; quaedam autem, quia gratiam praesupponunt, ordinantur ad gratiae perfectionem sicut Eucharistia; et sic intelligenda sunt verba Magistri: <quote xml:id="ta-l4d2q2-Qd1e509">non utique propter remedium, sed ad sacramentum</quote>; et debet accipi sacramentum large pro quolibet signo rei sacrae. <quote xml:id="ta-l4d2q2-Qd1e512">Baptismum Christi Joannes suo Baptismo praenuntiavit</quote>. Ideo Baptismus Christi potius quam alia sacramenta novae legis praeparatorium habuit, quia Baptismus est janua sacramentorum, et ipse facit aliis viam; unde praeparatorio sacramenta alia non indigebant. <quote xml:id="ta-l4d2q2-Qd1e515">Iterum baptizabantur, immo verum Baptisma accipiebant</quote>. Ex hoc patet quod praecedens Baptismus non reputabatur aliquibus pro Baptismo: quia qui Baptisma Christi accipiebant, non iterato baptizabantur, sed verum Baptisma de novo accipiebant; et ideo quasi corrigens quod dixerat: <quote xml:id="ta-l4d2q2-Qd1e518">iterum baptizabantur</quote>, addit, <quote xml:id="ta-l4d2q2-Qd1e521">immo verum Baptisma accipiebant</quote>; et sic Magister per verba Hieronymi suam intentionem probare non potest.</p>
+          </div>
+        
+      </div>
+    </body>
+  </text>
+</TEI>

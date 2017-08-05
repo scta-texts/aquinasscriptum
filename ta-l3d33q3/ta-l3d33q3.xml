@@ -1,0 +1,1029 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum III, Distinctio 33, Quaestio 3</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.09-dev-master">
+          <title>Librum III, Distinctio 33, Quaestio 3</title>
+          <date when="2016-03-13">March 13, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-13">March 13, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness>1856 editum</witness>
+          <witness xml:id="H" n="harv245" xml:base="http://iiif.lib.harvard.edu/manifests/drs:51994085/canvas/">Cambridge, Mass.,
+            Harvard University, Houghton Library, MS Lat 245</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="2015.09">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+
+
+
+
+      <div xml:id="starts-on">
+        <cb ed="#H" n="126rb"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ta-l3d33q3">
+        <head xml:id="ta-l3d33q3-Hd1e97">Librum III, Distinctio 33, Quaestio 3</head>
+        <head xml:id="ta-l3d33q3-Hd1e100" type="questionTitle">De partibus virtutum cardinalium</head>
+        <div xml:id="ta-l3d33q3-Dd1e103">
+          <head xml:id="ta-l3d33q3-Hd1e105">Prooemium</head>
+          <p xml:id="ta-l3d33q3-d1e108">Deinde quaeritur de partibus virtutum cardinalium; et circa hoc quaeruntur quatuor: 1
+            de partibus prudentiae; 2 de partibus temperantiae; 3 de partibus fortitudinis; 4 de
+            partibus justitiae.</p>
+        </div>
+        <div xml:id="ta-l3d33q3-Dd1e112" type="articulus">
+          <head xml:id="ta-l3d33q3-Hd1e114">Articulus 1</head>
+
+          <head xml:id="ta-l3d33q3-Hd1e117" type="questionTitle">An memoria praeteritorum, intelligentia praesentium, et
+            providentia futurorum sint partes prudentiae, sicut dicit Tullius</head>
+          <div xml:id="ta-l3d33q3-Dd1e120">
+            <head xml:id="ta-l3d33q3-Hd1e122">Quaestiuncula 1</head>
+            <p xml:id="ta-l3d33q3-d1e125">Ad primum sic proceditur. Videtur quod partes prudentiae a Tullio male assignentur.
+              Dividit enim prudentiam in memoriam praeteritorum, et intelligentiam praesentium et
+              providentiam futurorum. Providentia enim, secundum philosophum in 6 Ethic., non se
+              extendit ultra humana bona. Sed intelligentia est etiam divinorum. Ergo non potest
+              esse pars prudentiae.</p>
+            <p xml:id="ta-l3d33q3-d1e128">Praeterea, ad prudentem, ut dicitur in 6 Ethic., praecipue pertinet bene consiliari.
+              Sed consilium non est de praeteritis. Cum igitur memoria sit praeteritorum, videtur
+              quod memoria non sit pars prudentiae.</p>
+            <p xml:id="ta-l3d33q3-d1e131">Praeterea, providentia idem videtur quod prudentia. Ergo non debet ei assignari ut
+              pars.</p>
+          </div>
+          <div xml:id="ta-l3d33q3-Dd1e135">
+            <head xml:id="ta-l3d33q3-Hd1e137">Quaestiuncula 2</head>
+            <p xml:id="ta-l3d33q3-d1e140">Ulterius. A quibusdam assignantur partes prudentiae providentia, cautio,
+              circumspectio, docilitas; et videtur quod male. Quia ad quemlibet actum prudentiae
+              omnia oportet praedicta concurrere. Sed habitus distinguuntur per actus. Ergo non sunt
+              virtutes distinctae ab invicem.</p>
+            <p xml:id="ta-l3d33q3-d1e143">Praeterea, docilitas est ex natura. Sed prudentia est virtus acquisita, vel infusa.
+              Ergo non debet poni pars ejus.</p>
+            <p xml:id="ta-l3d33q3-d1e146">Praeterea, cavere oppositum pertinet ad quamlibet virtutem. Ergo cautio non debet
+              poni magis pars prudentiae quam aliarum virtutum.</p>
+          </div>
+          <div xml:id="ta-l3d33q3-Dd1e150">
+            <head xml:id="ta-l3d33q3-Hd1e152">Quaestiuncula 3</head>
+            <p xml:id="ta-l3d33q3-d1e155">Ulterius. Philosophus, in 6 Ethic., adjungit prudentiae tres, scilicet eubuliam,
+              synesim, et gnomen; et videtur quod male. Quia ipse dicit in eodem Lib. quod prudens
+              est totaliter consiliativus. Sed eubulia, ut ipse dicit, est bona consiliatio. Ergo
+              eubulia idem est quod prudentia, et non pars ejus.</p>
+            <p xml:id="ta-l3d33q3-d1e158">Praeterea, synesis est bona dijudicatio. Sed judicium in operabilibus est ipsa
+              electio. Cum igitur eligere recte sit prudentiae proprium, videtur quod synesis sit
+              idem quod prudentia.</p>
+            <p xml:id="ta-l3d33q3-d1e161">Praeterea, Damascenus, in 3 Lib. de fide, dicit, quod gnome idem est quod sententia.
+              Sed sententia ad judicium pertinet. Ergo videtur quod synesis et gnome non
+              differant.</p>
+          </div>
+          <div xml:id="ta-l3d33q3-Dd1e166">
+            <head xml:id="ta-l3d33q3-Hd1e168">Quaestiuncula 4</head>
+            <p xml:id="ta-l3d33q3-d1e171">Ulterius. A quodam philosopho Graeco attribuuntur prudentiae partes decem, scilicet
+              eubulia, solertia, providentia, regnativa, militaris, politica, oeconomica,
+              dialectica, rhetorica, physica; et videtur quod male. Quia physica scientia quaedam
+              est de necessariis, et de his non est prudentia, ut dicit philosophus in 6 Ethic. Ergo
+              physica non est pars prudentiae.</p>
+            <p xml:id="ta-l3d33q3-d1e174">Praeterea, dialectica et rhetorica artes quaedam sunt et scientiae. Sed prudentia
+              dividitur contra scientiam et artem in 6 Ethic. Ergo non sunt partes ejus.</p>
+            <p xml:id="ta-l3d33q3-d1e177">Praeterea, philosophus dicit in 6 Ethic., quod politica est idem quod prudentia. Ergo
+              non debet poni pars ejus.</p>
+            <p xml:id="ta-l3d33q3-d1e180">Praeterea, multa alia exercitia sunt in civitatibus quam militaris. Ergo non debet
+              magis ipsa poni pars prudentiae quam alia civitatis officia, sicut est gubernatoria,
+              negotiativa, et hujusmodi.</p>
+            <p xml:id="ta-l3d33q3-d1e184">Praeterea, urbanitates, ut dicit philosophus in 8 Ethic., sunt tres, scilicet regnum
+              quando unus praesidet ad utilitatem populi, leges condens; aristocratia, quando plures
+              principantur in diversis officiis propter virtutem; timocratia quando divites
+              aequaliter praesunt. In omnibus autem istis est aliquid prudentiae. Ergo non magis
+              debuit ponere regnativam quam alias duas.</p>
+          </div>
+          <div xml:id="ta-l3d33q3-Dd1e188">
+            <head xml:id="ta-l3d33q3-Hd1e190">Quaestiuncula 1</head>
+            <p xml:id="ta-l3d33q3-d1e193">Respondeo dicendum ad primam quaestionem, quod omne totum ad tria genera reducitur,
+              scilicet universale, integrale et potentiale; et similiter pars triplex invenitur
+              dictis tribus respondens. Integralis enim pars intrat in constitutionem totius, sicut
+              paries domus; universalis vero totius pars suscipit totius praedicationem, sicut homo
+              animalis; potentialis vero pars neque praedicationem totius recipit, neque in
+              constitutionem ipsius oportet quod veniat, sed aliquid de potentia totius participat,
+              sicut patet in anima. Rationalis enim anima tota anima dicitur, eo quod in ipsa omnes
+              animae potentiae congregantur. Sensibilis vero in brutis, et in plantis vegetabilis,
+              dicuntur partes animae, quia aliquid de potentia animae habent, sed non totum. Unde
+              dicitur in Lib. de plantis, quod non habent animam, sed partes animae. Et secundum
+              hunc modum tripliciter assignantur partes prudentiae et aliis virtutibus. Uno enim
+              modo assignantur ei partes quasi integrales, cum scilicet partes virtutis alicujus
+              ponuntur aliqua quae exiguntur ad virtutem, in quibus perfectio virtutis consistit; et
+              hae partes, proprie loquendo, non nominant per se virtutes, sed conditiones unius
+              virtutis integrantes ipsam. Alio modo per modum partium subjectivarum; et sic partes
+              illae nominant quidem virtutes, et ad invicem distinctas, sed non quidem a toto, cujus
+              partes assignantur, quia illud de eis praedicatur. Tertio modo per modum totius
+              potentialis, inquantum scilicet aliquae virtutes participant aliquid de modo qui
+              principaliter et perfecte invenitur in aliqua virtute; et hoc patebit per singula. Sic
+              igitur dico, quod partes quas assignat Tullius prudentiae, sunt partes integrales.
+              Quia enim prudentia circa particularia operabilia est, in quibus universalia principia
+              dirigunt propter eorum contingentiam et varietatem; oportet, sicut dicitur de
+              scientiis in libro posteriorum, ex eodem genere principia accipere, ut ex similitudine
+              aliorum factorum de his quae facere oportet, recte ratiocinetur prudens; et ideo
+              indiget experientia et tempore, ut ex his quae fuerunt, quae memoria tenet, et ex his
+              quae intelligentia respicit, de futuris provideat. Memoria enim est, secundum ipsum,
+              per quam animus repetit illa quae fuerunt; intelligentia per quam prospicit ea quae
+              sunt; providentia per quam aliquid futurum videtur antequam factum sit. Unde
+              providentia est completiva et formalis pars prudentiae; aliae vero quasi materiales ad
+              ipsam reducuntur.</p>
+            <p xml:id="ta-l3d33q3-d1e196">Ad primum ergo dicendum, quod intelligentia hic dicitur cognitio eorum quae ad opus
+              eligibile accommodata sunt. Et quia intelligentia est proprie universalium, quae sub
+              tempore non cadunt, et ita quodammodo praesentis formam retinent; ideo intelligentia
+              dicitur praesentium non solum universalium, quibus indiget prudens ad recte
+              ratiocinandum de agendis, sed etiam singularium quae nunc sunt.</p>
+            <p xml:id="ta-l3d33q3-d1e199">Ad secundum dicendum, quod memoria praeteritorum indiget prudens non propter se, sed
+              in ordine ad praesentia eligibilia, ut dictum est.</p>
+            <p xml:id="ta-l3d33q3-d1e202">Ad tertium dicendum, quod prudentia est formalis pars et completiva providentiae; et
+              ideo etiam quodammodo prudentia illa complectitur ex quibus ratio procedit in
+              provisionem futurorum.</p>
+          </div>
+          <div xml:id="ta-l3d33q3-Dd1e206">
+            <head xml:id="ta-l3d33q3-Hd1e208">Quaestiuncula 2</head>
+            <p xml:id="ta-l3d33q3-d1e211">Ad secundam quaestionem de partibus aliis assignatis a quibusdam, dicendum, quod
+              etiam illae sunt sicut partes integrales: requiruntur enim ad prudentiam, secundum
+              quod de futuris conjectat ex parte praeteritorum et praesentium, ex quibus procedit.
+              Oportet enim prudentem viam accommodam ad finem intentum invenire; quod per
+              providentiam facit, quae est praesens notio futurum pertractans eventum; et iterum
+              prohibentia removere. Contingit autem providentiam tripliciter impediri. Uno modo ex
+              parte ipsius viae inveniendae, quae quandoque videtur bona, et non est; et hoc
+              impedimentum cautio aufert, cujus est ex virtutibus vitia virtutum speciem
+              praeferentia discernere. Alio modo ex ordine ipsius in finem, ne scilicet via quae de
+              se apta est ad finem, aliquo extrinseco impediatur ne in finem ducere possit; et hoc
+              ad circumspectionem pertinet, quae est cautela vitiorum contrariorum, quibus praecipue
+              prudentia impeditur. Tertio modo ex parte ipsius hominis tendentis in finem, qui vias
+              accommodas ad finem intentum invenire non potest: unde oportet quod per doctrinam ab
+              aliis accipiat. Quia oportet principia operabilia vel a se habere prudentem, vel ab
+              alio faciliter accipere. Qui autem neutrum habet, hic inutilis est vir, ut dicitur in
+              1 Ethic. Et sic est docilitas passive dicta. Si autem docilitas accipiatur active,
+              tunc pertinebit ad prudentiam secundum suum perfectissimum esse, prout scilicet non
+              solum sibi, sed etiam aliis quae sunt utilia ad finem invenit; et sic dicitur
+              prudentia erudiendi imperitos.</p>
+            <p xml:id="ta-l3d33q3-d1e214">Ad primum ergo dicendum, quod non est contra rationem partium quasi integralium
+              virtutis quod omnes concurrant ad actum unum.</p>
+            <p xml:id="ta-l3d33q3-d1e217">Ad secundum dicendum, quod quamvis docilitas habeat principium in naturali
+              dispositione, tamen complementum habet per gratiam, vel per consuetudinem, ut dicit
+              philosophus 1 Ethic., quod <quote xml:id="ta-l3d33q3-Qd1e219">oportet consuetudinibus duci de civilibus: quia
+                talis principia operabilium habet, vel suscipere potest faciliter</quote>.</p>
+            <p xml:id="ta-l3d33q3-d1e223">Ad tertium dicendum, quod quia prudentia regulat omnes alias virtutes, ideo omnes
+              participant aliquid prudentiae; sicut irascibilis et concupiscibilis participant
+              aliqualiter rationem. Unde illud quod ad alias virtutes pertinet participative, cautio
+              scilicet, ad prudentiam pertinet essentialiter.</p>
+          </div>
+          <div xml:id="ta-l3d33q3-Dd1e227">
+            <head xml:id="ta-l3d33q3-Hd1e229">Quaestiuncula 3</head>
+            <p xml:id="ta-l3d33q3-d1e232">Ad tertiam quaestionem de partibus quas ponit philosophus sciendum est, quod sunt
+              partes quasi potentiales, eo quod sunt virtutes et ab invicem et a prudentia
+              distinctae, sicut ipse vult. Ad rationem enim pertinet praecipere quod faciendum est,
+              quia aliae vires obediunt aliqualiter rationi. Ratio autem non praecipit nisi prius in
+              se perfecta sit quantum ad id quod est sui ipsius, sicut nec aliqua res movet ante sui
+              perfectionem. Perfectio autem rationis practicae, sicut et speculativae, consistit in
+              duobus, scilicet in inveniendo et judicando de inventis. Inventio autem in agendis
+              consilium est; et ideo oportet haberi virtutem per quam ratio consilietur; et haec est
+              eubulia, quae, secundum philosophum, est rectitudo consilii, qua bonum inquiritur
+              convenientibus mediis secundum debitum tempus, et alias circumstantias; et oportet
+              haberi virtutem qua bene judicet de consiliatis; et haec est synesis, et gnome, quae
+              qualiter differant, dicetur; et oportet haberi virtutem quae bene praecipiat; et haec
+              est prudentia, quae, ut philosophus ibidem dicit, praeceptiva est. Sed quia in
+              operabilibus cognitio ordinatur ad opus; ideo et consilium et judicium de consiliatis
+              ad praeceptum de opere reducitur sicut ad finem; et propter hoc prudentia est usualis
+              et principalis respectu aliarum, et aliae participant modum ipsius, sicut supra dictum
+              est.</p>
+            <p xml:id="ta-l3d33q3-d1e235">Ad primum igitur dicendum, quod et consilium et judicium pertinent ad prudentem, non
+              sicut principales actus ejus, sed sicut ea quibus utitur ad suum actum.</p>
+            <p xml:id="ta-l3d33q3-d1e238">Ad secundum dicendum, quod judicium consistit adhuc in cognitivis terminis; sed
+              electio est applicatio cognitionis ad opus; unde judicium praecedit electionem.</p>
+            <p xml:id="ta-l3d33q3-d1e241">Ad tertium dicendum, quod ad synesim pertinet recte judicare in illis ad quae se
+              extendunt legis praecepta communiter: unde synesis est habitus judicativus agibilium;
+              sed ad gnomen pertinet rectum judicium de illis in quibus lex deficit quae specialem
+              habent difficultatem, in quibus epiceia dirigit, ut dicitur 6 Ethic.; unde gnome
+              secundum philosophum est rectum judicium epiceios.</p>
+          </div>
+          <div xml:id="ta-l3d33q3-Dd1e245">
+            <head xml:id="ta-l3d33q3-Hd1e247">Quaestiuncula 4</head>
+            <p xml:id="ta-l3d33q3-d1e250">Ad quartam quaestionem de partibus decem quas assignat philosophus Graecus, dicendum
+              est, quod non sunt partes unius rationis; unde divisio est minus artificialis.
+              Sciendum enim est, quod prudentia potest dupliciter considerari. Uno modo secundum
+              esse absolutum; alio modo secundum perfectum esse ipsius. Salvatur autem ratio
+              prudentiae in his quae ad ipsum prudentem pertinent, sed completum esse ejus secundum
+              quod etiam ad alios se extendit. Primo ergo modo considerando prudentiam, sic
+              providentia est pars ejus quasi integralis formalis, ut dictum est, quae secundum
+              ipsum est habitus viam facere potens ad majus, idest melius, ut fiat sicut oportet;
+              unde ipsa ponitur loco omnium aliarum partium ejusdem rationis. Eubulia autem est pars
+              ejus quasi potentialis; quae secundum ipsum est scientia conferentium, idest utilium
+              ad finem de quibus est consilium: et quia ipsa est prima, ideo ponitur loco aliarum
+              quae consequuntur, et sunt unius rationis. Solertia autem eodem modo reducitur ad
+              prudentiam, sicut eubulia: sed in hoc differunt, quia eubulia invenit medium
+              conveniens ad opus ratiocinando et inquirendo, quia consilium quaestio est, ut dicitur
+              in 3 Ethic.: sed solertia invenit quasi subito: est enim habitus ex repentino
+              inveniens quod convenit, vel ut in 1 posteriorum dicitur, <quote xml:id="ta-l3d33q3-Qd1e252">subtilitas quaedam in
+                non prospecto tempore medii</quote>; non tamen ponitur virtus, in 6 Ethic., sicut
+              eubulia: tum quia eubulia se habet ad bonum tantum, solertia autem ad bonum et ad
+              malum: tum quia solertia magis dependet ex naturali ingenio quam ex assuetudine.
+              Sciendum etiam, quod solertia est inventio medii sine perspecto tempore tam in
+              operativis quam in speculativis, tam in necessariis quam in contingentibus; sed
+              Eustochia est tantum in operativis, quae est bona conjectatio de contingentibus. Si
+              autem consideretur prudentia secundum quod ad alios se extendit, sic non assignantur
+              ei integrales aliae quam etiam prudentiae absolute consideratae; subjectivae autem et
+              potentiales aliae. Potest enim aliquis coordinari alii dupliciter. Uno modo ad aliquem
+              actum specialem, sicut scholares in his quae ad studium spectant, milites in his quae
+              ad pugnandum; unde talis adunatio non remanet sed quamdiu actus talis exercetur
+              respectu talis coordinationis ad alterum; et sic ordinat militaris, quae est habitus
+              speculativus et practicus exercitui conferentium. Alio modo coordinatur aliquis alicui
+              in vita simpliciter; unde talis coordinatio nata est semper manere, nisi per accidens
+              dissolvatur. Haec autem vel est respectu eorum qui sunt in domo una; et sic est
+              oeconomica, quae est habitus speculativus, idest considerativus, et practicus, idest
+              activus, domui conferentium: vel est respectu eorum qui sunt in eadem civitate, et sic
+              est politica, quae est habitus et speculativus et practicus civitati conferentium.
+              Unde hae sunt partes subjectivae prudentiae. Sed quia in qualibet multitudine est
+              duplex ordo, ut in 12 Metaph. dicitur: unus quo ordinatur tota multitudo ad finem
+              communem; alius quo singulariter partes multitudinis ordinantur ad invicem secundum
+              fines proprios; ideo politica habet duas partes: unam quae regi civitatis competit,
+              cujus est bonum commune totius multitudinis conjectare, et haec dicitur regnativa,
+              quae est experientia ejus quod est gubernare multitudinem innocue, vel legis positiva,
+              ut in 6 Ethic. dicitur. Alia est quae competit cuilibet de civitate, secundum quod ad
+              bonum commune ordinatur; et haec politica dicitur, nomen commune retinens. Et ideo
+              dicit philosophus, quod <quote xml:id="ta-l3d33q3-Qd1e255">legis positiva est architectonica</quote>, quia fines
+              proximi ordinantur ad finem communem. Et similiter potest dividi militaris in
+              ductivam; quae competit duci exercitus, et militarem simpliciter; et similiter
+              oeconomica in paternam, quae competit patrifamilias; et oeconomicam simpliciter.
+              Partes autem prudentiae sic acceptae potentiales, sunt omnes artes et disciplinae,
+              quia politica de omnibus ordinat a quibus et quantum sunt addiscendae vel exercendae,
+              ut dicitur in 1 Ethic. Et ideo physica quae est de operibus quae non sunt a nobis,
+              quia est scientia eorum quae circa naturam sunt; et dialectica, quae est ex operibus
+              quae sunt a nobis ordinatis ad sciendum, cum sit scientia bene disputandi; et
+              rhetorica, quae est de his quae sunt a nobis ordinatis ad orandum, cum sit scientia
+              bene dicendi ad persuadendum, dicuntur partes prudentiae, ut dictum est.</p>
+            <p xml:id="ta-l3d33q3-d1e259">Ad primum ergo dicendum, quod physica ponitur pars prudentiae, inquantum de ipsa
+              ordinat et praecipit prudentia, ut dictum est, non autem ita quod sit pars ejus
+              subjectiva vel integralis.</p>
+            <p xml:id="ta-l3d33q3-d1e262">Similiter autem est dicendum ad secundum de dialectica et rhetorica.</p>
+            <p xml:id="ta-l3d33q3-d1e265">Ad tertium dicendum, quod politica est prudentia quaedam, qua homo dirigitur in his
+              quae ad alium spectant; unde nominat prudentiam completam. Et quia non omnis prudentia
+              habet istam completionem; ideo ponitur pars ejus. Tamen in eo in quo completum habet
+              esse, prudentia non differt secundum substantiam habitus prudentiae et politicae, sed
+              ratione tantum.</p>
+            <p xml:id="ta-l3d33q3-d1e269">Ad quartum dicendum, quod militare exercitium maxime pertinet ad conservationem
+              communitatis; et ideo militaris potius ponitur quam aliae, ut negotialis et hujusmodi:
+              per eam enim intelliguntur; sicut etiam per artes liberales quas tangit, dicuntur
+              intelligi mechanicae, quae simili modo sunt partes prudentiae.</p>
+            <p xml:id="ta-l3d33q3-d1e272">Ad quintum dicendum, quod regnum inter alia regimina dignius est, ut philosophus in 8
+              Ethic. dicit, et ideo potius regnum quam alia posuit.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l3d33q3-Dd1e277" type="articulus">
+          <head xml:id="ta-l3d33q3-Hd1e279">Articulus 2</head>
+
+          <head xml:id="ta-l3d33q3-Hd1e282" type="questionTitle">Utrum continentia, clementia et modestia sint partes
+            temperantiae, sicut dicit Tullius</head>
+          <div xml:id="ta-l3d33q3-Dd1e285">
+            <head xml:id="ta-l3d33q3-Hd1e287">Quaestiuncula 1</head>
+            <p xml:id="ta-l3d33q3-d1e290">Ad secundum sic proceditur. Videtur quod partes temperantiae male assignentur a
+              Tullio in prima rhetorica. Dicit enim, quod partes temperantiae sunt continentia,
+              clementia et modestia; et videtur quod male. Quia continentia, ut dicit philosophus in
+              7 Ethic., dividitur contra virtutem universalem. Ergo non debet poni pars alicujus
+              virtutis.</p>
+            <p xml:id="ta-l3d33q3-d1e293"><quote xml:id="ta-l3d33q3-Qd1e294">Praeterea, clementia</quote>, ut dicit Tullius, <quote xml:id="ta-l3d33q3-Qd1e297">est virtus per quam
+                animus concitatus in odium alicujus, benignitate retinetur</quote>. Hoc autem
+              videtur ad mansuetudinem pertinere: mansuetudo autem non est pars temperantiae, cum
+              sit in irascibili, temperantia autem in concupiscibili. Ergo videtur quod nec
+              clementia debeat poni pars temperantiae.</p>
+            <p xml:id="ta-l3d33q3-d1e301">Praeterea, modestia a modo observando dicitur. Sed hoc est necessarium in qualibet
+              virtute. Ergo modestia non est pars alicujus virtutis; sed consequitur omnem
+              virtutem.</p>
+            <p xml:id="ta-l3d33q3-d1e304">Praeterea, Tullius dicit, quod modestia est pudor honestatis, puram et stabilem
+              comparans auctoritatem. Pudor autem videtur esse idem quod verecundia. Cum ergo
+              verecundia non sit virtus, sed passio, ut dicit philosophus in 4 Ethic., videtur quod
+              modestia non debeat poni pars virtutis.</p>
+          </div>
+          <div xml:id="ta-l3d33q3-Dd1e308">
+            <head xml:id="ta-l3d33q3-Hd1e310">Quaestiuncula 2</head>
+            <p xml:id="ta-l3d33q3-d1e313">Ulterius. A quibusdam ponuntur partes temperantiae sobrietas et castitas; et potest
+              haberi ex 3 Ethic.; et videtur quod insufficienter. Quia sobrietas est circa
+              delectationes gustus, castitas autem circa delectationes tactus. Cum igitur etiam alii
+              sensus habeant suas delectationes, videtur etiam quod circa eas debeant assignari
+              aliquae virtutes.</p>
+            <p xml:id="ta-l3d33q3-d1e316">Praeterea, contingit peccare non solum in delectationibus sensuum exteriorum, sed
+              etiam in delectationibus sensuum interiorum, et etiam intellectus, sicut patet de
+              curiositate. Similiter etiam in delectationibus et concupiscentia exteriorum rerum, ut
+              honoris, pecuniae, et hujusmodi, quae secundum se videntur eligibilia, contingit esse
+              peccatum per superabundantiam, ut dicitur in 7 Ethic. Sed virtus et vitium sunt circa
+              idem. Ergo et circa illas delectationes debet aliqua virtus poni.</p>
+            <p xml:id="ta-l3d33q3-d1e319">Praeterea, virtus est circa difficile et bonum. Sed magis sunt difficilia ad quae non
+              omnes tenentur, sicut virginitas, et abstinentia etiam ciborum necessariorum, quam
+              sobrietas et castitas. Ergo magis debent poni partes virtutis.</p>
+          </div>
+          <div xml:id="ta-l3d33q3-Dd1e323">
+            <head xml:id="ta-l3d33q3-Hd1e325">Quaestiuncula 3</head>
+            <p xml:id="ta-l3d33q3-d1e328">Ulterius. Quidam philosophus Graecus ponit septem partes temperantiae, scilicet
+              austeritatem, continentiam, humilitatem, simplicitatem, ornatum, bonam ordinationem,
+              per se sufficientiam; et videtur quod male. Austeritas enim, ut ipse dicit, est
+              habitus secundum quem aliqui neque afferunt aliis delectationes collocutionum, neque
+              ab aliis recipiunt. Hoc autem videtur esse vitiosum, et contrarium amicitiae, quae
+              maxime collocutionibus amicorum gaudet. Ergo austeritas non debet poni pars
+              virtutis.</p>
+            <p xml:id="ta-l3d33q3-d1e331">Praeterea, humilitas superbiae opponitur. Sed superbiam philosophus ponit inter vitia
+              quae opponuntur fortitudini, ut patet in 3 Ethic. Ergo humilitas non est adjuncta
+              temperantiae, sed fortitudini.</p>
+            <p xml:id="ta-l3d33q3-d1e334">Praeterea, ipse dicit, quod humilitas est habitus non superabundans in sumptibus et
+              praeparationibus. Sed quicumque non superabundat, est contentus illis quibus oportet.
+              Ergo cum ipse dicat quod hoc pertinet ad per se sufficientiam, videtur quod idem sit
+              humilitas quod per se sufficientia.</p>
+          </div>
+          <div xml:id="ta-l3d33q3-Dd1e339">
+            <head xml:id="ta-l3d33q3-Hd1e341">Quaestiuncula 1</head>
+            <p xml:id="ta-l3d33q3-d1e344">Respondeo dicendum ad primam quaestionem, quod illae partes quas Tullius ponit,
+              partes potentiales sunt, inquantum participant modum temperantiae. Sicut enim in
+              scientiis modum oportet secundum materiam inquirere, ut dicitur in 1 Ethic., ita et in
+              virtutibus. Materia autem virtutum moralium actiones et passiones humanae sunt. In
+              passionibus autem quaedam sunt in quibus passionem inferens de sui ratione natum est
+              in prosecutionem movere, sicut delectabile quod concupiscibili passiones infert; et in
+              his difficile est retrahi a prosecutione, et facile est prosequi. Unde temperantia,
+              quae circa principalia delectabilia est, modum habet in retrahendo; et propter hoc
+              temperatus plus assimilatur insensibili, qui superabundat in fuga, quam intemperato
+              qui superabundat in prosecutione talium delectabilium. In passionibus autem in quibus
+              passionem inferentia nata sunt ad fugam movere, sicut sunt timores et audaciae,
+              difficile est prosequi vel sustinere, facile autem fugere; unde modus fortitudinis,
+              quae circa timores et audacias maximorum terribilium est, modus est in aggrediendo; et
+              ideo fortis magis similatur audaci qui superabundat in aggrediendo, quam timido qui
+              superabundat in fugiendo. In actionibus autem non consideratur inclinatio affectus
+              magis ad unum quam ad aliud nisi per accidens, inquantum convincitur passionibus. Et
+              ideo justitiae, quae circa actiones est, modus est aequalitas, sicut fortitudinis
+              superextensio, et temperantiae refrenatio et diminutio. Omnes igitur virtutes in
+              quibus difficultas consistit in refrenando prosecutionem, conveniunt in modo cum
+              temperantia: hoc autem contingit in omnibus in quibus est inclinatio ad prosequendum.
+              Haec autem inclinatio duplex est. Una qua affectus inclinatur per passionem; alia qua
+              ex passionibus ipsius est inclinatio ad exteriores gestus, quae sunt signa interioris
+              passionis. Affectus autem inclinat ad prosequendum vel bonum proprium; et hanc
+              inclinationem refrenat continentia, quae, ut dicit Tullius est per quam cupiditas
+              consilii gubernatione regitur; vel malum alienum, inquantum est contrarium bono
+              proprio; et hanc inclinationem refrenat clementia, quae, ut dicit Tullius ibid. est
+              virtus per quam animus in odium alicujus concitatus, benignitate retinetur.
+              Inclinationem autem quae ad exteriores gestus est, quibus interior affectus
+              ostenditur, refrenat modestia, ut nihil in eis immoderatum sit; quae est virtus per
+              quam pudor honestatis puram et stabilem comparat auctoritatem. Sed quia difficillimum
+              est refrenare a delectationibus tactus, ideo iste modus in temperantia quae est circa
+              hujusmodi delectationes consistit principaliter, et quasi integraliter, in aliis autem
+              participative.</p>
+            <p xml:id="ta-l3d33q3-d1e347">Ad primum ergo dicendum, quod continentia tripliciter dicitur. Uno modo secundum quod
+              aliquis habet rationem rectam, quae a passionibus excellentibus nondum edomitis
+              refrenat; et est circa eadem ac temperantia, ut in 7 Ethic. dicitur: sic enim
+              philosophus continentiam accipit; et differt a temperantia in hoc quod temperatus
+              hujusmodi passiones non patitur; et secundum hoc continentia non est virtus, quia
+              operatur quod bonum est, non delectabiliter et faciliter, quod requiritur ad virtutem;
+              et ita reducitur ad temperantiam sicut imperfectum ad perfectum, et ut pars
+              potentialis. Alio modo dicitur continentia secundum quam homo se refrenat non solum ab
+              illicitis delectationibus, sed etiam a licitis; et sic dicit quemdam perfectum statum
+              temperantiae, sicut et virginitas; unde reducitur ad temperantiam per modum partis
+              subjectivae. Tertio modo dicitur continentia per quam retinetur animus a quibuslibet
+              concupiscentiis; et hanc acceptionem ponit etiam philosophus in 7 Ethicor., et sic
+              videtur eam accipere Tullius, ut patet per definitionem positam. Unde sic ponitur pars
+              temperantiae, inquantum participat modum temperantiae, etiam circa alienum.</p>
+            <p xml:id="ta-l3d33q3-d1e350">Ad secundum dicendum, quod clementia non est omnino idem quod mansuetudo: quia
+              mansuetudo refrenat a concitatione, ut scilicet quis per iram non incitetur: est enim
+              secundum philosophum Graecum virtus irascibilis, secundum quam ad iras sumus difficile
+              mobiles; clementia autem refrenat ab executione vindictae etiam post comminationem; et
+              sic clementia magis est circa actiones; et sic est pars justitiae epiceia, quia
+              epiceius est diminutivus poenarum, ut dicit philosophus in 5 Ethic. Tamen possunt
+              ratione praedicta clementia et mansuetudo sicut partes potentiales ad temperantiam
+              reduci: quia partes potentiales virtutum non oportet quod communicent cum eis in
+              materia et subjecto, sed in modo.</p>
+            <p xml:id="ta-l3d33q3-d1e353">Ad tertium dicendum, quod modestia non dicitur ex hoc quod imponat modum in qualibet
+              materia secundum quod hic accipitur, sed tantum in exterioribus gestibus, ut scilicet
+              in eis maturitas debita observetur; et hujus virtutis pars potissima est eutrapelia,
+              quam philosophus ponit 5 Ethic., quia etiam in ludicris, in quibus est difficilius,
+              modum debitum non excedit.</p>
+            <p xml:id="ta-l3d33q3-d1e357">Ad quartum dicendum, quod pudor non ponitur hic pro passione verecundiae, sed pro
+              quadam exteriori compositione, cujus pudor causa esse potest; sicut etiam castitas
+              pudor interdum dicitur, quia contrarium ejus maxime est turpe, quod verecundia timet.
+              Similiter contrarium modestiae est maxime apparens; et sic est natum confusionem
+              inducere, quam pudor timet.</p>
+          </div>
+          <div xml:id="ta-l3d33q3-Dd1e361">
+            <head xml:id="ta-l3d33q3-Hd1e363">Quaestiuncula 2</head>
+            <p xml:id="ta-l3d33q3-d1e366">Ad secundam quaestionem dicendum de aliis partibus, scilicet sobrietate et castitate,
+              quod sunt partes subjectivae temperantiae; quia castitas est circa delectabilia tactus
+              absolute, quae sunt in venereis: sobrietas autem circa delectabilia gustus, prout est
+              tactus quidam, quae sunt in cibis et potibus.</p>
+            <p xml:id="ta-l3d33q3-d1e369">Ad primum ergo dicendum, quod delectationes aliorum sensuum non sunt vehementes sicut
+              delectationes tactus, eo quod non sunt per conjunctionem rei, sed speciei. Unde
+              difficultas refrenandi istas delectationes non est ex impetu earum; et ideo non
+              oportet quod sit aliqua virtus in parte affectiva circa eas; sed sufficit ad hoc
+              prudentia, quae est in ratione.</p>
+            <p xml:id="ta-l3d33q3-d1e372">Ad secundum dicendum similiter de aliis delectationibus.</p>
+            <p xml:id="ta-l3d33q3-d1e375">Ad tertium dicendum, quod virginitas et hujusmodi non sunt virtutes, sed nominant
+              statum virtutis; et ideo de eis non fit mentio.</p>
+          </div>
+          <div xml:id="ta-l3d33q3-Dd1e379">
+            <head xml:id="ta-l3d33q3-Hd1e381">Quaestiuncula 3</head>
+            <p xml:id="ta-l3d33q3-d1e384">Ad tertiam quaestionem de aliis partibus quas philosophus Graecus ponit dicendum est,
+              quod accipiuntur eodem modo sicut partes Tullii, nisi quod clementiam omittit.
+              Continentiam enim ponit, et videtur eam accipere sicut philosophus; unde dicit, quod
+              continentia est habitus invictus a delectatione. Sed modestiam in multa dividit
+              secundum diversa exteriora in quibus oportet hominem modum imponere. Exteriora enim in
+              quibus modestia modum imponit, sunt tria. Primum est collocutiones ad eos quibus
+              convivimus; et in his ponit modum austeritas cujus definitio in objiciendo supra
+              posita est. Secundum est bona exteriora, ut vestes, equi, et hujusmodi, et in his
+              ponit modum humilitas quantum ad quantitatem in usu; unde secundum ipsum, humilitas
+              est <quote xml:id="ta-l3d33q3-Qd1e386">habitus non superabundans in sumptibus et praeparationibus</quote>; sed
+              simplicitas quantum ad modum quaerendi, quae secundum ipsum est <quote xml:id="ta-l3d33q3-Qd1e389">habitus
+                contentus his quae contingunt, non enim multum solicitus est de talibus</quote>.
+              Tertium est actiones propriae quae ad corpus pertinent; et in his ponit modum quantum
+              ad agentem ornatus, qui secundum ipsum est <quote xml:id="ta-l3d33q3-Qd1e392">scientia circa decens in motu et
+                habitudine</quote>: quantum autem ad exteriora, quae consideranda sunt ut debito
+              tempore, et loco, et hujusmodi, ordinatio, quae secundum ipsum est experientia
+              separationis et discretionis actuum, ut sciat loqui verum in tempore suo; quantum vero
+              ad instrumenta, vel auxilia quibus indigemus ad actionem, est per se sufficientia,
+              quae secundum ipsum est <quote xml:id="ta-l3d33q3-Qd1e395">habitus contentus quibus oportet</quote>.</p>
+            <p xml:id="ta-l3d33q3-d1e399">Ad primum ergo dicendum, quod austeritas, secundum quod ponitur virtus, non omnino
+              aufert delectationem quae est in colloquiis, sed aufert superabundantiam in illa. Et
+              quia major difficultas accidit in abstinendo ab his, ideo a defectu haec virtus nomen
+              accepit.</p>
+            <p xml:id="ta-l3d33q3-d1e402">Ad secundum dicendum, quod superbus, inquantum se superextendit ad ea quae sunt supra
+              ipsum, sic habet aliquid de modo audacis; et ideo reducitur aliquo modo ad vitia
+              opposita fortitudini; quamvis proprie loquendo, secundum quod communiter de superbia
+              loquimur, magis sit excessus magnanimitatis. Humilitas autem, inquantum diminutio est,
+              habet aliquid de modo temperantiae; et ideo ad ipsam reducitur sicut pars
+              potentialis.</p>
+            <p xml:id="ta-l3d33q3-d1e405">Ad tertium dicendum, quod differentia humilitatis et per se sufficientiae patet ex
+              his quae dicta sunt.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l3d33q3-Dd1e411" type="articulus">
+          <head xml:id="ta-l3d33q3-Hd1e413">Articulus 3</head>
+
+          <head xml:id="ta-l3d33q3-Hd1e416" type="questionTitle">Utrum magnificentia, fidentia, patientia, perseverantia bene
+            assignentur a Tullio esse partes fortitudinis</head>
+          <div xml:id="ta-l3d33q3-Dd1e419">
+            <head xml:id="ta-l3d33q3-Hd1e421">Quaestiuncula 1</head>
+            <p xml:id="ta-l3d33q3-d1e424">Ad tertium sic proceditur. Videtur quod partes fortitudinis male assignentur a
+              Tullio. Assignat enim has partes, magnificentiam, fidentiam, patientiam,
+              perseverantiam. Magnificentia enim, ut dicit philosophus, est idem liberalitati. Sed
+              liberalitas ad justitiam reducitur. Ergo et magnificentia.</p>
+            <p xml:id="ta-l3d33q3-d1e427">Praeterea, fiducia ad spem pertinet. Sed materia fortitudinis non est spei passio,
+              sed timor et audacia, ut dicit philosophus. Ergo pars fortitudinis non est
+              fiducia.</p>
+            <p xml:id="ta-l3d33q3-d1e430">Praeterea, philosophus reducit in idem mitem et abstinentem, qui videtur idem quod
+              patiens: quia abstinens est qui patitur et non deducitur: mitis qui non patitur. Sed
+              mansuetudo sive clementia ponitur pars temperantiae. Ergo et patientia.</p>
+            <p xml:id="ta-l3d33q3-d1e433">Praeterea, ad perseverantiam pertinere videtur immobiliter operari. Sed hoc in omni
+              virtute requiritur, ut dicit philosophus in 2 Ethic. Ergo perseverantia non debet poni
+              pars fortitudinis.</p>
+          </div>
+          <div xml:id="ta-l3d33q3-Dd1e437">
+            <head xml:id="ta-l3d33q3-Hd1e439">Quaestiuncula 2</head>
+            <p xml:id="ta-l3d33q3-d1e442">Ulterius. A Macrobio ponuntur septem partes fortitudinis, scilicet magnanimitas,
+              fiducia, securitas, magnificentia, constantia, tolerantia, firmitas; et videtur quod
+              male. Magnanimitas enim est circa magnos honores qui inter bona computantur, ut
+              dicitur in 4 Ethicor.: fortitudo autem est circa audacias et timores quae sunt
+              magnorum malorum. Ergo magnanimitas non est fortitudinis pars, cum sit circa oppositam
+              materiam.</p>
+            <p xml:id="ta-l3d33q3-d1e445">Praeterea, unum vitium non opponitur duabus virtutibus. Sed timiditas opponitur
+              securitati et fiduciae. Ergo non sunt duae virtutes, sed una.</p>
+            <p xml:id="ta-l3d33q3-d1e448">Praeterea, constantia mutabilitati opponitur: similiter etiam et firmitas. Ergo non
+              debent poni duae partes fortitudinis.</p>
+          </div>
+          <div xml:id="ta-l3d33q3-Dd1e452">
+            <head xml:id="ta-l3d33q3-Hd1e454">Quaestiuncula 3</head>
+            <p xml:id="ta-l3d33q3-d1e457">Ulterius. Philosophus ponit quinque modos adjunctos fortitudini verae, scilicet
+              civilem, militarem, illam quae ex furore vel tristitia, illam quae procedit ex
+              experientia, quae facit spem vincendi propter frequenter vicisse, et illam quae
+              procedit ex ignorantia; et videtur quod male. Quia istae virtutes cardinales sunt
+              virtutes politicae. Sed genus additum speciei non contrahit in partem speciei. Ergo
+              civilis fortitudo non est pars fortitudinis.</p>
+            <p xml:id="ta-l3d33q3-d1e460">Praeterea, militaris sub politica ordinatur, ut dicit philosophus. Ergo non debet
+              dividi militaris fortitudo contra civilem.</p>
+            <p xml:id="ta-l3d33q3-d1e463">Praeterea, ignorantia excusat a peccato propter hoc quod tollit voluntarium. Sed
+              voluntarium requiritur ad virtutem, sicut ad peccatum. Ergo non debet poni aliqua pars
+              virtutis per ignorantiam.</p>
+          </div>
+          <div xml:id="ta-l3d33q3-Dd1e468">
+            <head xml:id="ta-l3d33q3-Hd1e470">Quaestiuncula 4</head>
+            <p xml:id="ta-l3d33q3-d1e473">Ulterius. Quidam philosophus Graecus ponit septem annexa fortitudini, scilicet
+              eupsychiam, leniam, magnanimitatem, virilitatem, perseverantiam, magnificentiam,
+              andragathiam; et videtur quod male. Quia, ut ipse dicit, eupsychia dicitur robur
+              animae ad perficiendum opera ipsius. Hoc autem in omnibus virtutibus requiritur. Ergo
+              non est pars alicujus virtutis.</p>
+            <p xml:id="ta-l3d33q3-d1e476">Praeterea, lenia secundum ipsum est habitus promptos tribuens ad conari qualiter
+              oportet, et sustinere quae ratio dicit. Sed promptitudo idem videtur esse quod
+              facilitas, quae relinquitur ex quolibet habitu. Ergo lenia est magis genus virtutis
+              quam species alicujus virtutis.</p>
+            <p xml:id="ta-l3d33q3-d1e479">Praeterea, ipse dicit, quod andragathia est viri virtus adinventiva communicabilium
+              operationum. Sed opera communicabilia sunt materia justitiae. Ergo haec virtus non
+              debet poni pars fortitudinis, sed magis justitiae.</p>
+          </div>
+          <div xml:id="ta-l3d33q3-Dd1e483">
+            <head xml:id="ta-l3d33q3-Hd1e485">Quaestiuncula 1</head>
+            <p xml:id="ta-l3d33q3-d1e488">Respondeo dicendum ad primam quaestionem, quod partes quas Tullius assignat, sunt
+              partes potentiales, inquantum participant aliquid de materia fortitudinis. Fortitudo
+              enim, ut dicit philosophus, proprie loquendo est circa pericula mortis, et maxime quae
+              in bellicis est, quia in illis est maxime difficultas. Unde fortitudo, secundum
+              Graecum praedictum, virtus est irascibilis non facile obstupefactibilis a timoribus
+              qui sunt circa mortem, circa quae habet duos actus, scilicet aggredi, et sustinere
+              sine stupore; et hoc est ejus magis proprium, ut ipse dicit. Et quamvis principaliter
+              fortis sit circa ista, tamen in omnibus aliis periculis et arduis etiam bene se habet
+              et in aggrediendo et in sustinendo. Et ideo omnes virtutes in quibus consistit
+              difficultas ex aggressione alicujus ardui, vel ex sustinentia difficilis, aliquid de
+              fortitudinis modo participant, et ad ipsam reducuntur sicut partes potentiales, eo
+              quod non est tanta difficultas in aliis sicut in illis periculis circa quae est
+              fortitudo. Arduum autem in cujus aggressione consistit difficultas, est ad aliquod
+              magnum opus faciendum; et sic est magnificentia, quae secundum ipsum, est <quote xml:id="ta-l3d33q3-Qd1e490">rerum
+                magnarum et excelsarum cum animi ampla quaedam et splendidissima proportione
+                cognitio, vel cogitatio atque ministratio</quote>. Aut est ad aliquod bonum magnum
+              consequendum, et sic est fidentia, quae est certa spes perducendi ad finem rem
+              inchoatam, vel magis consequendi rem speratam; et secundum hanc acceptionem credo quod
+              magnanimitas est idem quod fidentia. Id vero quod facit difficultatem in sustinendo,
+              vel est bonum laboriosum, et circa hoc est perseverantia, quae est <quote xml:id="ta-l3d33q3-Qd1e493">in ratione
+                bene considerata stabilis et perpetua permansio</quote>, et praecipue ut quis a
+              ratione recta propter tristitiam, quae in laboribus accidit, non recedat: quia sicut
+              continentia facit invictum a delectationibus, ita perseverantia a tristitiis, ut
+              dicitur 7 Ethic. Vel est malum nocivum, et sic est patientia, quae secundum Tullium
+              est <quote xml:id="ta-l3d33q3-Qd1e496">honestatis aut utilitatis causa rerum arduarum et terribilium voluntaria ac
+                diuturna perpessio</quote>.</p>
+            <p xml:id="ta-l3d33q3-d1e500">Ad primum ergo dicendum, quod quamvis magnificentia communicet cum liberalitate in
+              materia, quia magna facta magnis sumptibus fiunt, tamen communicat cum fortitudine in
+              modo.</p>
+            <p xml:id="ta-l3d33q3-d1e503">Ad secundum dicendum, quod quamvis fortitudo non sit circa spem sicut circa materiam,
+              sed magis magnanimitas; tamen habet spem concomitantem: quia fortis optimae spei est
+              circa materiam suam. Unde fidentia et aliae supradictae partes in fortitudine etiam
+              secundum quod est specialis virtus, inveniuntur quantum ad id quod est difficillimum
+              in eis, ut quaedam conditiones fortis; et sic etiam possent dici aliquo modo partes
+              quasi integrales fortitudinis.</p>
+            <p xml:id="ta-l3d33q3-d1e506">Ad tertium dicendum, quod malum nocivum tres passiones natum est generare: scilicet
+              timorem, tristitiam, et iram. Unde tres virtutes faciunt sustinere hujusmodi nociva.
+              Fortitudo, ut homo non perturbetur per timorem; patientia, ut non perturbetur per
+              tristitiam immoderatam; et similiter perseverantia, quae facit ut propter tristitiam
+              homo a rationis operibus non discedat, sicut patientia non permittit propter
+              tristitiam discedere ab ab aequanimitate mentis. Unde secundum Gregorium: <quote xml:id="ta-l3d33q3-Qd1e508">vera
+                patientia est mala aliena</quote>, idest ab aliis illata, <quote xml:id="ta-l3d33q3-Qd1e511">aequanimiter
+                perpeti</quote>. Mansuetudo autem facit ut homo non perturbetur per iram; unde
+              abstinens, de quo loquitur philosophus in 4 Topic., non est idem quod patiens, sed se
+              habet ad fortem et mitem, similiter et ad patientem, sicut continens ad temperatum.
+              Unde non oportet, si mansuetudo reducitur ad temperantiam, quod et patientia: quia
+              passio tristitiae est ex victoria nociva sicut et timor; et ideo difficultas in
+              patientia et fortitudine est etiam in non vinci a nocivis. Unde patientia participat
+              modum fortitudinis; sed ira est ad victoriam contra nocivum; unde difficilius est in
+              refrenando: propter quod mansuetudo participat modum temperantiae.</p>
+            <p xml:id="ta-l3d33q3-d1e516">Ad quartum dicendum, quod perseverantia uno modo dicit continuationem virtutis, et
+              sic est actus omnium virtutum; alio modo dicit propositum persistendi, et sic est
+              specialis virtus: quia habet specialem rationem objecti, scilicet laboriosum opus,
+              prout natum est tristitiam inferre.</p>
+          </div>
+          <div xml:id="ta-l3d33q3-Dd1e520">
+            <head xml:id="ta-l3d33q3-Hd1e522">Quaestiuncula 2</head>
+            <p xml:id="ta-l3d33q3-d1e525">Ad secundam quaestionem de partibus quas Macrobius ponit, dicendum, quod sunt ejusdem
+              rationis cum partibus quas ponit Tullius, nisi quod duas harum dividit in duas
+              species, scilicet fidentiam, quam ponit Tullius, dividit in magnanimitatem, quae est
+              in sperando magna consequenda, ut magnos honores, et fiduciam, quae est in
+              consequendis honoribus mediocribus, ac hujusmodi; quam philosophus innominatam dicit.
+              Item perseverantiam dividit in firmitatem, quae facit permanentiam in opere, et
+              constantiam, quae facit permanentiam in proposito animi. Et addit etiam unam, scilicet
+              securitatem, quae timori opponitur; unde propinquius se habet ad veram fortitudinem;
+              sed tamen differt a fortitudine, quia reprimit timorem non solum circa maxima
+              terribilia quemadmodum fortitudo, sed etiam circa quaecumque. Tolerantia vero est idem
+              quod patientia: magnificentiam autem proprio nomine ponit.</p>
+            <p xml:id="ta-l3d33q3-d1e528">Ad primum ergo dicendum, quod magnanimitas, quamvis non conveniat in materia cum
+              fortitudine, convenit tamen in modo, ut dictum est.</p>
+            <p xml:id="ta-l3d33q3-d1e531">Ad secundum dicendum, quod timiditas opponitur securitati, non autem fiduciae, sed
+              magis desperatio.</p>
+            <p xml:id="ta-l3d33q3-d1e534">Ad tertium dicendum, quod constantia opponitur mutabilitati in facto aliquo.</p>
+          </div>
+          <div xml:id="ta-l3d33q3-Dd1e538">
+            <head xml:id="ta-l3d33q3-Hd1e540">Quaestiuncula 3</head>
+            <p xml:id="ta-l3d33q3-d1e543">Ad tertiam quaestionem de partibus quas philosophus ponit in 3 Ethic., sciendum, quod
+              sunt etiam partes potentiales, aliter tamen quam praedictae: praedictae enim partes a
+              fortitudine deficiunt quantum ad difficultatem materiae: sed illae quas philosophus
+              ponit, quantum ad rectitudinem motivi; et ideo non sunt virtutes, sed participant
+              aliquid de virtute fortitudinis. Motivum autem ad actum fortitudinis potest esse
+              triplex. Uno modo intentio boni vel honesti; et sic fortitudinis virtus est vel
+              alicujus temporalis boni vel honoris, vel alicujus hujusmodi; et sic deficit a ratione
+              virtutis, et est fortitudo quam nominat politicam. Alio modo ex hoc quod removetur
+              faciens difficultatem in actu fortitudinis, scilicet magnitudo periculi; et hoc quidem
+              removetur per ignorantiam, et sic est ultimus modus; et per spem vincendi, quae potest
+              ex duobus consurgere; vel ex arte sive exercitio; et sic est militaris fortitudo; vel
+              experientia victoriae, sicut illi qui alias talia pericula evaserunt, et sic est
+              penultimus modus. Tertio modo ex passione furoris, vel tristitiae illatae, vel etiam
+              timoris, vel desperationis; et sic est tertius modus.</p>
+            <p xml:id="ta-l3d33q3-d1e546">Ad primum ergo dicendum, quod fortitudo politica dicitur ex motivo, quia scilicet
+              aliquod bonum quod a civitatibus praestari fortibus solet, ad actum fortitudinis
+              movet. Sic autem non dicuntur politicae virtutes cardinales, sed inquantum in vita
+              civili perficiunt.</p>
+            <p xml:id="ta-l3d33q3-d1e549">Ad secundum dicendum, quod militaris fortitudo dicitur, quia eam consueverunt habere
+              milites, qui habent exercitium et artem bellandi; unde aequivocatur in militari et
+              politica.</p>
+            <p xml:id="ta-l3d33q3-d1e552">Ad tertium dicendum, quod non est ignorantia de periculo omnino, sed de quantitate
+              periculi; et ideo non tollit totaliter rationem fortitudinis, sed diminuit aliquid de
+              laude ejus.</p>
+          </div>
+          <div xml:id="ta-l3d33q3-Dd1e556">
+            <head xml:id="ta-l3d33q3-Hd1e558">Quaestiuncula 4</head>
+            <p xml:id="ta-l3d33q3-d1e561">Ad quartam quaestionem de partibus quas alius philosophus Graecus ponit, sciendum,
+              quod sunt fere eaedem cum illis quas ponit Macrobius: magnanimitatem enim et
+              magnificentiam et perseverantiam proprio nomine ponit, et eas sic definit:
+                <quote xml:id="ta-l3d33q3-Qd1e563">magnanimitas est habitus plus faciens communiter accidente pravis et
+                studiosis</quote>. Magnanimus enim non est contentus vitare prava et facere bona
+              secundum quod communiter sufficit, nisi excellentius faciat hoc; et ideo dicitur in 4
+              Ethic., quod operatur magnum in omnibus virtutibus. <quote xml:id="ta-l3d33q3-Qd1e566">Magnificentia vero est
+                habitus superferens habentes ipsum, et elatione adimplens</quote>, inquantum
+              scilicet effert propositum ejus ad aliqua sumptuosa et magna facienda.
+                <quote xml:id="ta-l3d33q3-Qd1e569">Perseverantia vero est scientia vel habitus eorum quibus immanendum</quote>,
+              idest bonorum, <quote xml:id="ta-l3d33q3-Qd1e572">et non immanendum</quote>, idest malorum, <quote xml:id="ta-l3d33q3-Qd1e575">vel
+                neutrorum</quote>, idest indifferentium. <quote xml:id="ta-l3d33q3-Qd1e579">Eupsychia autem, quae</quote>
+              secundum ipsum <quote xml:id="ta-l3d33q3-Qd1e582">est robur animae ad perficiendum opera ipsius</quote>, videtur
+              idem esse quod constantia, et praecipue in spiritualibus, quae sunt opera animae.
+                <quote xml:id="ta-l3d33q3-Qd1e585">Lenia autem, quae</quote> secundum philosophum <quote xml:id="ta-l3d33q3-Qd1e588">est habitus promptos
+                tribuens ad tolerare et sustinere quae ratio dicit</quote>, videtur idem quod
+              patientia. <quote xml:id="ta-l3d33q3-Qd1e591">Virilitas</quote> autem videtur idem quod fiducia, quam diximus
+              differre a magnanimitate in hoc quod est communium bonorum, vel hujusmodi, cum
+              magnanimitas sit magnorum, et quae sunt ultra necessitatem virtutis.
+                <quote xml:id="ta-l3d33q3-Qd1e594">Virilitas</quote> autem secundum ipsum <quote xml:id="ta-l3d33q3-Qd1e598">est habitus per se sufficiens
+                in his quae sunt secundum virtutem, et de necessitate virtutis</quote>; et sic
+              differt virilitas a magnanimitate. Item ponit <quote xml:id="ta-l3d33q3-Qd1e601">andragathiam, quae est virtus
+                adinventiva communicabilium operum communiter</quote>, scilicet juxta
+              magnificentiam, quae tendit ad magna in communitatibus facienda; et in hoc differt a
+              Macrobio, qui hanc definitionem non ponit propter hoc quod videtur esse idem
+              liberalitati, nisi quod intantum differat quod liberalitas respicit bonum singulare,
+              sed andragathia bonum commune. Unde magis accedit ad magnificentiam: quia ea quae
+              indigent magnis sumptibus, maxime sunt ea quae ad communitatem pertinent. Sed dictus
+              philosophus omittit securitatem, quam Macrobius ponit: quia securitas videtur
+              intrinseca fortitudini, ut dictum est.</p>
+            <p xml:id="ta-l3d33q3-d1e605">Ad primum ergo dicendum, quod, sicut dictum est supra de perseverantia, quod potest
+              esse specialis virtus, inquantum respicit specialem rationem objecti, quamvis forte
+              illa ratio possit inveniri in actibus diversarum aut omnium virtutum, sicut esse de
+              magno quod respicit magnanimitas; ita etiam est dicendum de constantia et eupsychia,
+              quod idem est.</p>
+            <p xml:id="ta-l3d33q3-d1e608">Ad secundum dicendum, quod promptitudo illa intelligitur, ut homo propter
+              difficultatem terribilium non turbetur, quod ad patientiam pertinet; unde sicut
+              patientia specialis virtus est, ita et lenia, quae idem est.</p>
+            <p xml:id="ta-l3d33q3-d1e611">Ad tertium dicendum, quod quamvis communicet cum justitia quantum ad materiam,
+              convenit tamen cum fortitudine quantum ad modum, sicut et magnificentia.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l3d33q3-Dd1e616" type="articulus">
+          <head xml:id="ta-l3d33q3-Hd1e618">Articulus 4</head>
+
+          <head xml:id="ta-l3d33q3-Hd1e621" type="questionTitle">Utrum religio, pietas, gratia, vindicatio, observantia, veritas
+            sint partes justitiae, sicut dicit Tullius</head>
+          <div xml:id="ta-l3d33q3-Dd1e624">
+            <head xml:id="ta-l3d33q3-Hd1e626">Quaestiuncula 1</head>
+            <p xml:id="ta-l3d33q3-d1e629">Ad quartum sic proceditur. Videtur quod partes justitiae male assignentur a Tullio.
+              Assignat enim justitiae sex species, quae sunt religio, pietas, gratia, vindicatio,
+              observantia, veritas; et videtur quod male. Quia philosophus dicit in 8 Ethic., quod
+              servi ad dominum non potest esse justitia. Sed Deus maxime dominus est. Ergo cum
+              religio sit hominis ad Deum, videtur quod non sit pars justitiae.</p>
+            <p xml:id="ta-l3d33q3-d1e632">Praeterea, sicut latria debetur Deo, ita etiam dulia debetur homini. Ergo sicut
+              religio, quae est idem quod latria, ponitur pars justitiae, ita debet poni et
+              dulia.</p>
+            <p xml:id="ta-l3d33q3-d1e635">Praeterea, supra, distinct. 11, dictum est, quod pietas est idem quod latria; latria
+              autem idem quod religio. Ergo pietas non debet dividi contra religionem.</p>
+            <p xml:id="ta-l3d33q3-d1e638">Praeterea, vindicatio videtur pertinere ad vitium irae, quae est appetitus vindictae.
+              Ergo non debet poni pars virtutis.</p>
+          </div>
+          <div xml:id="ta-l3d33q3-Dd1e642">
+            <head xml:id="ta-l3d33q3-Hd1e644">Quaestiuncula 2</head>
+            <p xml:id="ta-l3d33q3-d1e647">Ulterius. A Macrobio, ponuntur hae partes: innocentia, amicitia, concordia, religio,
+              pietas, humanitas, affectus; et videtur quod male. Quia innocentia omni peccato
+              opponitur. Sed omni peccato non opponitur nisi virtus communis. Ergo et innocentia vel
+              est virtus communis, vel sequens omnem virtutem; ergo non debet poni pars
+              justitiae.</p>
+            <p xml:id="ta-l3d33q3-d1e650">Praeterea, illud quod consequitur ad omnes virtutes, non debet poni alicujus virtutis
+              pars. Sed amicitia est hujusmodi: quia verae amicitiae fundamentum est honestum. Ergo
+              non debet poni pars justitiae.</p>
+            <p xml:id="ta-l3d33q3-d1e653">Praeterea, philosophus, in 9 Ethic., ponit circa amicitiam tria, scilicet
+              beneficentiam, benevolentiam, et concordiam; a quibus omnibus dicit amicitiam
+              differre. Ergo sicut posuit concordiam, ita debuit ponere alia duo.</p>
+            <p xml:id="ta-l3d33q3-d1e656">Praeterea, affectus in omnibus moralibus requiritur. Ergo non debet poni pars
+              alicujus virtutis.</p>
+          </div>
+          <div xml:id="ta-l3d33q3-Dd1e660">
+            <head xml:id="ta-l3d33q3-Hd1e662">Quaestiuncula 3</head>
+            <p xml:id="ta-l3d33q3-d1e665">Ulterius. Quidam ponunt quinque partes, quae sunt obedientia respectu superioris,
+              disciplina respectu inferioris, aequitas respectu parium, fides et veritas respectu
+              omnium: et videtur quod male. Quia justitia generalis, ut dicitur in 5 Ethic.,
+              attendit praecepta legis. Sed obedire est attendere praeceptum. Ergo est idem quod
+              justitia generalis: ergo non est pars justitiae quae est specialis virtus, sed magis e
+              converso.</p>
+            <p xml:id="ta-l3d33q3-d1e668">Praeterea rigor ad justitiam pertinet, sicut aequitas; ergo sicut ponunt aequitatem,
+              ita ponere debent rigorem.</p>
+            <p xml:id="ta-l3d33q3-d1e671">Praeterea, fides est virtus theologica. Ergo non debet poni pars justitiae, quae est
+              virtus cardinalis.</p>
+            <p xml:id="ta-l3d33q3-d1e674">Praeterea, veritas ad intellectum pertinet: justitia autem magis ad voluntatem: quia,
+              ut dicit Anselmus, est rectitudo voluntatis propter se servata. Ergo videtur quod
+              veritas non sit pars justitiae.</p>
+          </div>
+          <div xml:id="ta-l3d33q3-Dd1e679">
+            <head xml:id="ta-l3d33q3-Hd1e681">Quaestiuncula 4</head>
+            <p xml:id="ta-l3d33q3-d1e684">Ulterius. Quidam dividunt justitiam in liberalitatem et severitatem: quam dividunt in
+              benignitatem et beneficentiam: benignitatem vero in septem partes, scilicet
+              religionem, pietatem, innocentiam, amicitiam, reverentiam, concordiam, misericordiam.
+              Et videtur quod non bene. Quia, ut dicit philosophus 5 Ethicor., virtuosus est
+              diminutivus poenarum. Sed severitas dicit hujusmodi oppositum. Ergo non est pars
+              virtutis.</p>
+            <p xml:id="ta-l3d33q3-d1e687">Praeterea, liberalitas dat alicui quod est proprium dantis. Sed justitia dat alteri
+              quod suum est et ei debitum. Ergo liberalitas non est pars justitiae.</p>
+            <p xml:id="ta-l3d33q3-d1e690">Praeterea, misericordia est passio, ut dicit philosophus in 2 Eth. Sed nulla passio
+              est virtus, nec pars virtutis. Ergo misericordia non est virtus, nec pars ejus.</p>
+          </div>
+          <div xml:id="ta-l3d33q3-Dd1e694">
+            <head xml:id="ta-l3d33q3-Hd1e696">Quaestiuncula 5</head>
+            <p xml:id="ta-l3d33q3-d1e699">Ulterius. Philosophus in 5 Ethic., dividit justitiam in legalem et specialem, quae
+              est aequalitas quaedam in bonis et malis exterioribus: quam dividit in distributivam
+              et commutativam. Dividit etiam justum in politicum, paternum, et uxorium; politicum
+              autem in legalem et naturalem. Ponit etiam circa justitiam, epiceiam et justitiam
+              metaphoricam. Et videtur quod male. Species enim non debet dividi contra genus. Sed
+              justitia particularis est species justitiae legalis. Ergo non debet dividi contra
+              eam.</p>
+            <p xml:id="ta-l3d33q3-d1e702">Praeterea, justitia dirigimur in his quae ad alterum sunt. Sed omnis operatio unius
+              ad alterum commutatio quaedam est. Ergo justitia commutativa non debet poni pars
+              justitiae specialis, sed idem ei.</p>
+            <p xml:id="ta-l3d33q3-d1e705">Praeterea, justum politicum videtur ad justitiam legalem pertinere. Ergo non debet
+              poni pars justitiae specialis.</p>
+            <p xml:id="ta-l3d33q3-d1e708">Praeterea, paternum et dominativum et uxorium non videntur differre nisi secundum
+              materiam. Ergo non debet distingui justum per praedicta.</p>
+            <p xml:id="ta-l3d33q3-d1e712">Praeterea, epieicia, ut ipse dicit, est aliquid melius justitia. Ergo magis debet
+              justitia poni pars ejus quam e converso.</p>
+          </div>
+          <div xml:id="ta-l3d33q3-Dd1e716">
+            <head xml:id="ta-l3d33q3-Hd1e718">Quaestiuncula 6</head>
+            <p xml:id="ta-l3d33q3-d1e721">Ulterius. Quidam philosophus Graecus dicit, quod familiares justitiae sunt
+              liberalitas, benignitas, vindicativa, eugnomosine, eusebia, Eucharistia, sanctitas,
+              bona commutatio, legis positiva: et videtur quod male. Ipse enim et dicit, quod
+              eugnomosine est voluntaria justificatio. Sed hoc necessarium est in omni justitia, ut
+              volens quis operetur, ut dicitur in 5 Ethic. Ergo non est pars justitiae, sed idem
+              sibi.</p>
+            <p xml:id="ta-l3d33q3-d1e724">Praeterea, ad Eucharistiam, secundum ipsum, pertinet quibus sit facienda gratia, et a
+              quibus accipienda. Sed hoc videtur ad liberalitatem pertinere, cujus est gratis
+              tribuere. Ergo non debet dividi contra liberalitatem.</p>
+            <p xml:id="ta-l3d33q3-d1e727">Praeterea, secundum ipsum, sanctitas est scientia faciens fideles et servantes quae
+              ad Deum sunt justa. Sed hoc ad eusebiam pertinet, sive ad religionem. Ergo non debet
+              dividi contra eusebiam.</p>
+            <p xml:id="ta-l3d33q3-d1e730">Praeterea, philosophus ponit in 6 Ethicor., legis positivam speciem politicae, quam
+              ponit idem prudentiae. Ergo legis positiva magis pertinet ad prudentiam quam ad
+              justitiam.</p>
+          </div>
+          <div xml:id="ta-l3d33q3-Dd1e734">
+            <head xml:id="ta-l3d33q3-Hd1e736">Quaestiuncula 1</head>
+            <p xml:id="ta-l3d33q3-d1e739">Respondeo dicendum ad primam quaestionem, quod justitia in hoc differt a temperantia
+              et fortitudine, quod illae moderant passiones intrinsecas, sed justitia moderat
+              extrinsecas operationes: unde philosophus dicit, circa operationes justitiam esse. In
+              adulterio enim, secundum quod est contra justitiam, attenditur usus inordinatus,
+              scilicet rei alienae; secundum autem quod opponitur temperantiae, attenditur
+              concupiscentia non refrenata sub debito rationis. Moderatio autem actionum exteriorum
+              ex duobus regulatur. Primo per comparationem operationis ad ipsum operantem; et sic
+              ejusdem rationis est et regulatio exteriorum operationum et interiorum passionum, quae
+              ad exteriores inclinant operationes. Alio modo per comparationem ad alium; et in hoc
+              est jam alius modus regulandi: et ideo exigitur alia virtus; et hoc proprie ad
+              justitiam pertinet; unde ab eodem actu, scilicet percussione alicujus, retrahit
+              mansuetudo, scilicet secundum quod procedit ex passione interiori, et justitia in
+              ordine ad alium. In omni autem moderationem; oportet quod illud quod moderatur,
+              mensurae sive regulae alicui adaequetur. Unde sicut moderatio passionum est adaequatio
+              ipsarum ad ratione: ita moderatio exteriorum actuum, secundum quod sunt ad alterum,
+              est quod adaequentur illi ex comparatione ad quem moderantur. Et haec quidem
+              adaequatio est quando ei redditur quod et quantum ei debetur; et haec adaequatio
+              proprius modus justitiae est. Unde ubicumque invenitur ista adaequatio complete, est
+              justitia quae est virtus specialis; et omnes virtutes in quibus salvatur, sunt partes
+              subjectivae justitiae. Ubi autem ista adaequatio non secundum totum salvatur, sed
+              secundum aliquid, reducitur ad justitiam ut pars potentialis, aliquid de modo ejus
+              participans. Ista autem adaequatio tria complectitur, ut ex dictis patet, scilicet ut
+              sit ordinatum ad alterum; ut sit ei debitum, alias superexcederet actio eum ad quem
+              fit; et ut tantum reddatur quantum debetur; alias deficeret in minus. Sunt autem
+              quaedam virtutes quibus redditur alteri quod debetur ex necessitate legis, non tamen
+              tantum, quia impossibile est; sicut in honore qui est ad Deum, quod facit religio; et
+              qui ad parentes et ad patriam, quod facit pietas. Unde istae virtutes deficiunt quidem
+              a justitia, et sunt partes ejus potentiales, et propinquissime se habent ad ipsam.
+              Quaedam vero sunt quibus redditur alteri quod debetur non ex necessitate legis, sed
+              quadam honestate, sicut philosophus dicit in 8 Ethic.: sicut gratia quae est
+              retributio beneficiorum, secundum Tullium, misericordia, et hujusmodi: et hae virtutes
+              aliquantulum magis distant a vera justitia. Quaedam autem virtutes sunt quibus hoc
+              circa quod principaliter est virtus, ordinatur ad alterum, non tamen secundum rationem
+              debiti, sicut liberalitas; et hae adhuc magis distant a vera justitia. Quaedam vero
+              hoc circa quod est virtus, non principaliter, sed secundario, ordinant ad alterum;
+              sicut quando fortitudo actum exteriorem, circa quem secundario est, ordinat ad alterum
+              ut ad bonum gratiae, et sic induit quodammodo formam justitiae; et sic omnis virtus
+              potest reduci ad justitiam; unde justitia legalis est idem quod omnis virtus in 5
+              Ethic. Quantum ad passiones autem, circa quas principaliter sunt illae virtutes, nihil
+              possunt habere de modo justitiae, eo quod per passiones immediate homo non ordinatur
+              nisi ad seipsum; tamen per quamdam similitudinem est ibi quaedam forma justitiae,
+              secundum quod diversae vires computantur ut diversae personae; unde sic est justitia
+              metaphorica, de qua philosophus loquitur in 5 Ethic. Ex dictis igitur potest patere de
+              facili, qualiter omnes partes a philosophis assignatae, sunt partes justitiae: quia
+              inter partes quas Tullius ponit vindicatio et observantia sunt partes subjectivae
+              verae justitiae: quia vindicatio reddit malum debitum, observantia autem bonum ad quod
+              se obligavit. Vindicatio enim, secundum eum, est <quote xml:id="ta-l3d33q3-Qd1e741">virtus, qua vis aut injuria,
+                et omne quod obfuturum est, defendendo et ulciscendo propulsatur</quote>. Religio
+              autem quae est ad Deum, et pietas quae est ad parentes et conjunctos sanguine vel
+              patria, sunt partes potentiales, sed propinquae: quia reddunt quod debent, et ex
+              obligatione legis, sed non quantum; quia impossibile est. Has autem sic definit:
+                <quote xml:id="ta-l3d33q3-Qd1e744">religio est quae superiori cuidam naturae, quam divinam vocant, curam
+                caeremoniamque affert</quote>; et dicitur a religando secundum Isidorum, vel
+              secundum Augustinum, a reeligendo Deum quem amiseramus. Pietas vero est <quote xml:id="ta-l3d33q3-Qd1e747">per
+                quam sanguine conjunctis patriaeque benevolis officium et diligens tribuitur
+                cultus</quote>. Gratia autem et veritas reddunt quod debent ex quadam honestate, qua
+              fit ut homo gratiam beneficio impendat (quamvis non possit ad id in judicio cogi), et
+              quod talem se in dictis et factis exhibeat qualis est, quod ad veritatem pertinet: de
+              qua philosophus etiam determinat in 4 Ethic. Est enim gratia <quote xml:id="ta-l3d33q3-Qd1e750">in qua amicitiarum
+                et obsequiorum alterius memoria, et remunerandi voluntas continentur</quote>.</p>
+            <p xml:id="ta-l3d33q3-d1e754">Ad primum ergo dicendum, quod objectio illa probat quod religio non sit pars
+              subjectiva justitiae; non autem quod non sit pars potentialis propinqua.</p>
+            <p xml:id="ta-l3d33q3-d1e757">Ad secundum dicendum, quod sicut pietas quae principaliter debetur parentibus, se
+              extendit ad omnes sanguine conjunctos, inquantum ex eisdem parentibus descenderunt, et
+              ulterius ad compatriotas, inquantum communicant in natali solo; ita religio, quae Deo
+              debetur, se extendit quodammodo ad eos qui Dei imagine sunt insigniti; unde religio et
+              dulia sunt in proximo genere; et ideo sub una comprehenditur a Tullio altera.</p>
+            <p xml:id="ta-l3d33q3-d1e760">Ad tertium dicendum, quod pietas alio modo sumitur hic quam ibi.</p>
+            <p xml:id="ta-l3d33q3-d1e764">Ad quartum dicendum, quod vindicare ex poenae desiderio, vitiosum est; sed ex sola
+              justitia, et secundum ordinem juris, justitiae est.</p>
+          </div>
+          <div xml:id="ta-l3d33q3-Dd1e768">
+            <head xml:id="ta-l3d33q3-Hd1e770">Quaestiuncula 2</head>
+            <p xml:id="ta-l3d33q3-d1e773">Ad secundam quaestionem de partibus quas ponit Macrobius, sciendum, quod una est pars
+              subjectiva justitiae proprie dictae, scilicet innocentia, ut nullus alteri quod suum
+              est auferat; et condividitur contra illam partem quae unicuique reddit quod debet.
+              Aliae vero sunt partes potentiales, quarum duae sunt respectu superioris, scilicet
+              religio et pietas, ut reddant debitum, sed non tantum. Aliae vero quatuor reddunt
+              debitum ex honestate; et hoc vel aequali, et sic est amicitia, de qua philosophus in 4
+              Ethic., qua nostris operibus congruenter ad alios utimur; et concordia, qua operibus
+              aliorum auxilia praestamus: vel respectu inferiorum, quibus quantum ad affectum
+              interiorem impendimus ex debito honestatis humanitatem, et quantum ad exterius
+              affectum subventionis.</p>
+            <p xml:id="ta-l3d33q3-d1e776">Ad primum ergo dicendum, quod innocentia hic sumitur stricte secundum quod privat
+              nocumentum alteri illatum.</p>
+            <p xml:id="ta-l3d33q3-d1e779">Ad secundum dicendum, quod amicitia hic sumitur non sicut in 8 Ethic., quae consistit
+              principaliter in affectu, sed ut in 4, cap. 13, quae consistit principaliter in
+              affabilitate exteriori, quae habetur etiam ad extraneos.</p>
+            <p xml:id="ta-l3d33q3-d1e782">Ad tertium dicendum, quod beneficentia includitur in humanitate, benevolentia autem
+              in affectu.</p>
+            <p xml:id="ta-l3d33q3-d1e786">Ad quartum dicendum, quod affectus hic sumitur stricte pro affectu subventionis et
+              compassionis ad alterum.</p>
+          </div>
+          <div xml:id="ta-l3d33q3-Dd1e790">
+            <head xml:id="ta-l3d33q3-Hd1e792">Quaestiuncula 3</head>
+            <p xml:id="ta-l3d33q3-d1e795">Ad tertiam quaestionem de partibus aliis sciendum est quod videntur esse subjectivae
+              justitiae proprie dictae: quia ex obligatione legis tenetur homo ut superiori obediat,
+              ut inferiori suae curae commisso disciplinam exhibeat, et ad aequales etiam, et ad
+              omnes servet aequalitatem in rebus, fidem in factis, quae est idem quod observantia,
+              et veritatem in dictis, si tamen veritas sumatur ea quae est in confessionibus
+              judicii; alias si sumeretur sicut supra, esset pars potentialis justitiae.</p>
+            <p xml:id="ta-l3d33q3-d1e798">Ad primum ergo dicendum, quod obedientia, secundum quod attendit principaliter
+              rationem praecepti, est specialis virtus; unde etiam obedit in illis quae ad alias
+              virtutes non pertinent; sed secundum quod ex consequente respicit praeceptum et bonum
+              virtutis principaliter in eo quod facit, sic est consequens ad omnes virtutes.</p>
+            <p xml:id="ta-l3d33q3-d1e801">Ad secundum dicendum, quod hic sumitur aequitas secundum aequalitatem simpliciter,
+              quae est in rebus commutabilibus; unde includit severitatem sive rigorem, inquantum
+              servat formam legis in his ad quae legis intentio se extendit, et aequitatem, quae,
+              dimissa forma legis intentionem ipsam sequitur.</p>
+            <p xml:id="ta-l3d33q3-d1e804">Ad tertium dicendum, quod fides hic sumitur pro fidelitate, non secundum quod est
+              virtus theologica.</p>
+            <p xml:id="ta-l3d33q3-d1e808">Ad quartum dicendum, quod veritas hic sumitur secundum quod est in signo exteriori,
+              vel verbo, vel quocumque alio.</p>
+          </div>
+          <div xml:id="ta-l3d33q3-Dd1e813">
+            <head xml:id="ta-l3d33q3-Hd1e815">Quaestiuncula 4</head>
+            <p xml:id="ta-l3d33q3-d1e818">Ad quartam quaestionem de aliis partibus a quibusdam aliis assignatis, sciendum est,
+              quod in idem incidunt cum partibus prius tactis: quia severitas, secundum quod hic
+              accipitur, idem est quod vindicatio; et dividitur contra omnes alias partes justitiae,
+              quia ipsa sola malum reddit: liberalitas autem valde large sumitur pro qualibet boni
+              exhibitione, vel debiti vel non debiti, vel in affectu vel in effectu; unde dividitur
+              in beneficentiam et benevolentiam, et hic etiam largissime accipiuntur hujusmodi. Unde
+              dividitur beneficentia in septem partes quae omnes comprehensae sunt in superioribus
+              partibus: quia misericordia comprehenditur in affectu, reverentia vero, quae videtur
+              idem quod dulia, comprehenditur sub religione, ut prius dictum est, et etiam sub
+              pietate.</p>
+            <p xml:id="ta-l3d33q3-d1e821">Ad primum ergo dicendum, quod virtuosus diminuit poenam quam debet servata intentione
+              legis, non tamen contra legem.</p>
+            <p xml:id="ta-l3d33q3-d1e824">Ad secundum dicendum, quod liberalitas large hic accipitur, ut dictum est.</p>
+            <p xml:id="ta-l3d33q3-d1e827">Ad tertium dicendum, quod aliquae passiones, quamvis proprie loquendo non sint
+              virtutes, tamen inquantum sunt laudabiles, habent aliquid de ratione virtutis; sicut
+              misericordia et verecundia; et praecipue secundum quod est ibi electio.</p>
+          </div>
+          <div xml:id="ta-l3d33q3-Dd1e831">
+            <head xml:id="ta-l3d33q3-Hd1e833">Quaestiuncula 5</head>
+            <p xml:id="ta-l3d33q3-d1e836">Ad quintam quaestionem de aliis partibus quas philosophus ponit in 5 Ethic. dicendum,
+              quod divisio philosophi complectitur omnia ad quae vera justitia habet se extendere;
+              et ideo ponit justitiam metaphoricam, in qua salvatur similitudo tantum justitiae, et
+              legalem, quae ordinat ad alterum etiam circa id quod non principaliter est virtus, si
+              illud sit ordinatum a lege: et in idem reducitur epiceia quae differt a justitia
+              legali in hoc quod servat intentionem legis in his ad quae forma legis se non
+              extendit; et similiter dominativum, et paternum justum, in quibus redditur debitum,
+              sed non tantum; et iterum distributiva, et commutativa, quae sunt partes subjectivae
+              justitiae specialis. Legale autem et principale justum non dividunt justitiam; sed
+              illud ex quo est obligatio debiti et justitiae: quia vel est jus naturale, vel
+              positivum.</p>
+            <p xml:id="ta-l3d33q3-d1e839">Ad primum ergo dicendum, quod species potest dividi contra genus divisione quae est
+              nominis aequivoci in suo significato.</p>
+            <p xml:id="ta-l3d33q3-d1e842">Ad secundum dicendum, quod commutatio proprie est, quando ex mutuis operibus sit
+              aliquid alicui debitum; sicut ex hoc quod unus laboravit in vinea alterius, alter
+              constituitur sibi debitor in tanto, quantum valet labor ejus; et in his dirigit
+              commutativa justitia. Est enim aequalitas in ea, commutationis: quia quantum unus
+              dedit alteri, debet tantum ab eo recipere: et propter hoc etiam commutativa dicitur.
+              Sed in distributiva non attenditur aequalitas recipientis ad eum qui dat, sed ad alium
+              qui etiam recipit; unde non est ibi aequalitas commutationis, sed distributionis; et
+              propter hoc dicitur distributiva, non commutativa.</p>
+            <p xml:id="ta-l3d33q3-d1e845">Ad tertium dicendum, quod politicum tribus modis dicitur. Uno modo secundum quod
+              respicit civilem vitam; et sic omnes virtutes morales quandoque dicuntur politicae.
+              Alio modo secundum quod in vita civili ex civili ordinatione dirigitur quis; et hoc
+              modo dicitur etiam justitia particularis politica, inquantum dirigit in
+              commutationibus secundum civilia statuta: et tunc dividitur politicum justum contra
+              dominativum et uxorium et hujusmodi: quia lex se extendit ad dirigendum in his, cum
+              servus sit res domini, et filius patris, et uxor viri. Unde directio in his magis est
+              secundum oeconomicam prudentiam, quam secundum civilia statuta. Tertio modo dicitur
+              politicum a vita civili et civilibus statutis, et ulterius ex intentione communis
+              boni; et sic politicum pertinet ad justitiam legalem.</p>
+            <p xml:id="ta-l3d33q3-d1e849">Ad quartum dicendum, quod in his tribus est diversa ratio regendi, secundum quod ille
+              ad quem est justitia, minus vel magis est in potestate alterius; et ideo uxorium
+              justum magis convenit cum justo politico quam paternum, et paternum quam dominativum:
+              quia magis appropinquat ad aequalitatem uxor viri quam filius patris, et quam servus
+              domini. Unde non est differentia tantum secundum materiam, sed etiam aliquo modo
+              formalis.</p>
+            <p xml:id="ta-l3d33q3-d1e852">Ad quintum dicendum, quod epieicia adjungitur legali justitiae, et circa eadem est,
+              quamvis non ex eodem dirigit: quia legalis dirigit in scripto legis, sed epieicia ex
+              intentione legislatoris; et quamvis sit excellentior quam justitia legalis, non tamen
+              potest dici cardinalis: tum quia est in supplementum legalis justitiae, et etiam
+              quodammodo praesupponit illam; tum quia est idem omni virtuti aliqualiter, sicut et
+              legalis justitia.</p>
+          </div>
+          <div xml:id="ta-l3d33q3-Dd1e856">
+            <head xml:id="ta-l3d33q3-Hd1e858">Quaestiuncula 6</head>
+            <p xml:id="ta-l3d33q3-d1e861">Ad sextam quaestionem de aliis partibus sciendum est, quod assignatio illius
+              philosophi non differt a praedictis assignationibus nisi in duobus. Primo, quia
+              dividit religionem in eusebiam, quae ordinat ad Deum in cultu qui exhibetur in
+              protestatione servitutis, sicut sacrificia, et hujusmodi; unde dicit quod est scientia
+              Dei famulatus; et sanctitatem, quae ordinat ad Deum in omnibus aliis operibus vitae;
+              unde dicit, quod sanctitas est scientia faciens fideles et servantes quae ad Deum
+              justa sunt. Secundo, quia assignat partes subjectivas justitiae alio modo: quia
+              justitia et est in judice sicut in regulante, et est in aliis sicut in regulatis. Ad
+              judicem autem duo pertinent: unum est quod aequalitates in aliis faciat, et ad hoc est
+              legis positiva; aliud est ut inaequalitatem facientes puniat, et ad hoc est
+              vindicativa. Ex parte autem aliorum similiter duo requiruntur ad justitiam. Unum est
+              quod aequalitatem in commutando servent, quia aequalitatem justitiae distributivae
+              servare non est subditorum qui recipiunt, sed superioris qui distribuit; et ad hoc est
+              bona commutatio. Aliud est quod si quando aequalitatem praetereunt, ad eam voluntarie
+              revertantur; et ad hoc est eugnomosyne, id est, voluntaria justificatio. Aliae autem
+              partes supra positae sunt: liberalitas quidem et benignitas etiam per nomina;
+              Eucharistia autem idem est quod gratia, quae etiam supra posita est: est enim secundum
+              ipsum Eucharistia <quote xml:id="ta-l3d33q3-Qd1e863">scientia ejus quod est quibus et quando impendendum gratiam,
+                et qualiter et a quibus sumendum</quote>. Ponitur autem in definitione dictarum
+              virtutum scientia, secundum quod omnes virtutes morales participant aliquid rationis
+              et prudentiae; unde Socrates omnes virtutes dicebat esse scientias, ut dicitur 6
+              Ethic.</p>
+            <p xml:id="ta-l3d33q3-d1e867">Ad primum ergo dicendum, quod voluntaria justificatio accipienda est hic non
+              quaelibet, sed in determinato modo, ut dictum est.</p>
+            <p xml:id="ta-l3d33q3-d1e870">Ad secundum dicendum, quod impendere gratiam accipitur hic pro rependere ratione
+              beneficii accepti; et sic patet quod non est idem quod liberalitas.</p>
+            <p xml:id="ta-l3d33q3-d1e873">Ad tertium dicendum, quod jam patet distinctio sanctitatis et eusebiae ex his quae
+              dicta sunt; unde sanctitas eodem modo comparatur ad omnes virtutes, sicut et justitia
+              legalis: quia sicut justitia legalis operatur actus omnium virtutum propter bonum
+              commune, ita sanctitas propter Deum.</p>
+            <p xml:id="ta-l3d33q3-d1e877">Ad quartum dicendum, quod politica aequivocatur et ad cognitionem prudentiae et ad
+              executionem justitiae; et similiter legis positiva quae est pars politicae, ut ipse
+              ibidem dicit.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l3d33q3-Dd1e882">
+          <head xml:id="ta-l3d33q3-Hd1e884">Expositio textus</head>
+          <p xml:id="ta-l3d33q3-d1e887"><quote xml:id="ta-l3d33q3-Qd1e888">In quo habuerunt usus eosdem</quote>. Virtutes enim quae consistunt circa
+            passiones illatas, habuerunt eumdem usum in Christo quem in nobis propter passibilitatem
+            corporis. Habuerunt etiam usum quem habent in patria propter perfectionem animae. Sed de
+            virtutibus quae sunt circa passiones innatas secus est: quia istae passiones in Christo
+            non fuerunt, ut necessarium esset eas per virtutem cohibere; unde etiam tentari potuit
+            ab hoste; sed non a carne. <quote xml:id="ta-l3d33q3-Qd1e891">Sed alios usus habebunt</quote>. Ergo sunt aliae
+            virtutes: quia habitus distinguuntur per actus. Et dicendum, quod sicut motus ad
+            terminum et quies in termino pertinent ad eamdem virtutem naturalem, ita quies in fine
+            non requirit alium habitum quam motus tendens in finem ipsum. Et hoc modo
+            diversificantur actus virtutum in via et in patria.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

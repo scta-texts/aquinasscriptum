@@ -1,0 +1,657 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 2, Quaestio 1</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Librum IV, Distinctio 2, Quaestio 1</title>
+          <date when="2016-03-18">March 18, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-18">March 18, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness>1856 editum</witness>
+          <witness xml:id="G" n="ghent567">Ghent, Belgium, Ghent University Library, 567</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="0.0.0-dev">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+
+
+
+
+      <div xml:id="starts-on"> 
+        <cb ed="#G" n="27b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ta-l4d2q1">
+        <head xml:id="ta-l4d2q1-Hd1e97">Librum IV, Distinctio 2, Quaestio 1</head>
+        <div xml:id="ta-l4d2q1-Dd1e100">
+          <head xml:id="ta-l4d2q1-Hd1e102">Prooemium</head>
+          <p xml:id="ta-l4d2q1-d1e105">Postquam determinavit Magister de sacramentis in communi, hic descendit ad sacramenta
+            novae legis, de quibus principaliter intendit; et dividitur in partes duas: in prima
+            determinat de quibusdam quae praeexiguntur ad sacramenta novae legis; in secunda
+            prosequitur de eis, 3 dist., ibi: <quote xml:id="ta-l4d2q1-Qd1e107">post hoc videndum est quid sit
+              Baptismus</quote>. Prima dividitur in duas: in prima determinat quaedam quae
+            praeexiguntur ad sacramenta novae legis ordine doctrinae; in secunda determinat de
+            Baptismo Joannis, quod praeexigebatur ad ea ut dispositio, sive praeparatio, ibi:
+              <quote xml:id="ta-l4d2q1-Qd1e110">nunc autem de Baptismi sacramento videamus</quote>. Circa primum duo facit:
+            primo ponit distinctionem sacramentorum novae legis et quantum ad numerum et quantum ad
+            effectum; secundo ponit eorum institutionem, ibi: <quote xml:id="ta-l4d2q1-Qd1e113">si vero quaeratur</quote> et
+            cetera. Ubi primo ponit communem sacramentorum novae legis institutionem; secundo
+            excipit matrimonium quantum ad aliquid, ibi: <quote xml:id="ta-l4d2q1-Qd1e116">fuit tamen conjugium ante peccatum
+              institutum. Nunc autem de Baptismi sacramento videamus</quote>. Hic determinat de
+            Baptismo Joannis; et circa hoc duo facit: primo determinat de ipso Baptismo secundum se;
+            secundo de eo quantum ad suscipientes, ibi: <quote xml:id="ta-l4d2q1-Qd1e119">hic considerandum est</quote> et
+            cetera. Circa primum duo facit: primo ostendit differentiam Baptismi Joannis ad
+            Baptismum Christi; secundo ostendit quasdam conditiones Baptismi Joannis; et primo
+            utilitatem, ibi: <quote xml:id="ta-l4d2q1-Qd1e123">ad quid ergo utilis erat Baptismus Joannis?</quote> Secundo
+            nomen, ibi: <quote xml:id="ta-l4d2q1-Qd1e126">sed quaeritur quare dictus est Baptismus Joannis</quote>; tertio
+            genus, ibi: <quote xml:id="ta-l4d2q1-Qd1e129">si vero quaeritur an sacramentum fuerit, satis potest concedi</quote>
+            et cetera. Hic est duplex quaestio. Primo de sacramentis novae legis in generali.
+            Secundo de Baptismo Joannis. Circa primum quaeruntur quatuor: 1 de distinctione
+            sacramentorum quantum ad effectum; 2 de distinctione eorum quantum ad numerum; 3 de
+            ordine ipsorum; 4 de institutione eorum.</p>
+        </div>
+        <div xml:id="ta-l4d2q1-Dd1e134" type="articulus">
+          <head xml:id="ta-l4d2q1-Hd1e136">Articulus 1</head>
+          <head xml:id="ta-l4d2q1-Hd1e139" type="questionTitle">Utrum omnia sacramenta contra aliquem animae defectum sint
+            instituta</head>
+          <div xml:id="ta-l4d2q1-Dd1e142">
+            <head xml:id="ta-l4d2q1-Hd1e144">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d2q1-d1e147">Ad primum sic proceditur. Videtur quod non omnia sacramenta sint instituta in
+              remedium contra aliquem animae defectum. Sacramentum enim a sanctitate dicitur. Sed
+              sanctitas non semper importat remedium contra defectum, sed etiam confirmationem in
+              bono. Ergo non omne sacramentum est ad remedium institutum.</p>
+            <p xml:id="ta-l4d2q1-d1e150">Praeterea, omne remedium contra aliquem defectum ad purgationem pertinet. Sed
+              Dionysius, distinguit sacramenta quae pertinent ad perfectionem, scilicet
+              confirmationem et Eucharistiam, ab illis quae pertinent ad purgationem, sicut est
+              Baptismus. Ergo non omne sacramentum est ad remedium.</p>
+            <p xml:id="ta-l4d2q1-d1e153">Praeterea, hoc videtur ex definitione quam Magister ponit in littera. Quibusdam enim
+              attribuit remedium conferre et gratiam, sicut Baptismo; quibusdam gratiam tantum,
+              sicut confirmationi et ordini; matrimonio autem remedii collationem tantum. Ergo non
+              omne sacramentum est ad remedium institutum.</p>
+            <p xml:id="ta-l4d2q1-d1e156">Sed contra est quod Hugo de sancto Victore dicit, quod sacramenta sunt vasa
+              medicinalia. Sed omnis medicina est in remedium alicujus morbi. Ergo et omne
+              sacramentum est in remedium alicujus defectus spiritualis.</p>
+            <p xml:id="ta-l4d2q1-d1e160">Praeterea, sacramenta, ut dictum est, dist. 1, quaest. 1, art. 4, quaestiunc. 1,
+              habent efficaciam a passione Christi. Sed passio Christi directe ordinatur ad
+              tollendos defectus nostros. Ergo et sacramenta in remedium ordinata sunt.</p>
+          </div>
+          <div xml:id="ta-l4d2q1-Dd1e164">
+            <head xml:id="ta-l4d2q1-Hd1e166">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d2q1-d1e169">Ulterius. Videtur quod aliquod sacramentum sit tantum in remedium, scilicet
+              matrimonium. Solus enim consensus mutuus matrimonium facit. Sed consensus non potest
+              esse causa gratiae, quia gratia non est ex actibus nostris. Ergo in matrimonio gratia
+              non confertur; et sic est in remedium tantum.</p>
+            <p xml:id="ta-l4d2q1-d1e172">Praeterea, secundum Hugonem, sacramenta ex sanctificatione invisibilem gratiam
+              continent. Sed sanctificatio quae fit per ministros Ecclesiae, non est de essentia
+              matrimonii quantum ad sacramenti necessitatem, sed solum est de solemnitate ipsius.
+              Ergo non confertur ibi gratia; et sic idem quod prius.</p>
+            <p xml:id="ta-l4d2q1-d1e175">Praeterea, hoc Magister expresse in littera dicit.</p>
+            <p xml:id="ta-l4d2q1-d1e178">Sed contra, definitio generis debet omnibus speciebus convenire. Sed in definitione
+              sacramenti novae legis ponitur: <quote xml:id="ta-l4d2q1-Qd1e180">ut causa gratiae existat</quote>. Ergo convenit
+              matrimonio; et sic non est tantum in remedium.</p>
+          </div>
+          <div xml:id="ta-l4d2q1-Dd1e185">
+            <head xml:id="ta-l4d2q1-Hd1e187">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d2q1-d1e190">Ulterius. Videtur quod sacramenta non sint in remedium contra poenam, sed solum
+              contra culpam. Sacramenta enim efficaciam habent ex hoc quod gratiam continent. Sed
+              gratia non opponitur poenae, sed culpae. Ergo sacramenta non ordinantur in remedium
+              contra poenam.</p>
+            <p xml:id="ta-l4d2q1-d1e193">Praeterea, sapientis medici est per causam curare effectum. Sed causa poenae est
+              culpa. Ergo cum Christus sit sapientissimus medicus, non instituit aliqua sacramenta
+              ad curandum poenam, nisi ea quae curant et culpam.</p>
+            <p xml:id="ta-l4d2q1-d1e196">Sed contra, extrema unctio contra infirmitatem videtur ordinari, ut patet Jac. ult.
+              Sed infirmitas poena est. Cum ergo extrema unctio sit sacramentum, aliquod sacramentum
+              ordinabitur contra poenam, et non tantum contra culpam.</p>
+          </div>
+          <div xml:id="ta-l4d2q1-Dd1e201">
+            <head xml:id="ta-l4d2q1-Hd1e203">Quaestiuncula 4</head>
+            <p xml:id="ta-l4d2q1-d1e206">Ulterius. Videtur quod aliquod sacramentum ordinetur contra culpam venialem. Quaedam
+              enim sacramenta sunt nociva, nisi deposito mortali accipiantur, sicut patet de
+              Eucharistia et de ordine. Sed dantur in remedium alicujus culpae. Ergo dantur contra
+              venialem.</p>
+            <p xml:id="ta-l4d2q1-d1e209">Praeterea, medicina spiritualis magis debet apponi contra culpam quam contra poenam.
+              Sed peccatum veniale culpa aliqua est. Cum ergo aliqua sacramenta ordinentur contra
+              poenam, multo fortius videtur quod aliquod possit ordinari contra culpam venialem.</p>
+            <p xml:id="ta-l4d2q1-d1e212">Sed contra, poenitentia ordinatur contra mortale et veniale peccatum; quod patet per
+              Magistrum qui infra, dist. 6, determinat de poenitentia venialium, et Augustinum in
+              Lib. de poenitentia. Sed poenitentia sufficit contra mortale nec aliud sacramentum
+              contra mortale ordinatur. Ergo multo magis sufficit contra veniale; nec oportet
+              aliquod sacramentum speciale contra veniale ordinari.</p>
+          </div>
+          <div xml:id="ta-l4d2q1-Dd1e216">
+            <head xml:id="ta-l4d2q1-Hd1e218">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d2q1-d1e221">Respondeo dicendum, ad primam quaestionem, quod quandocumque ad perfectionem alicujus
+              rei oportet aliquid apponere ultra id quod requirit ordo illius naturae secundum se
+              consideratae hoc accidit ad subveniendum alicui defectui illius rei; sicut quando ad
+              sustentationem corporis non sufficit cibum ministrare, nisi addantur aliqua digestiva,
+              signum est defectus in virtute digerente. Ex ordine autem humanae naturae nihil aliud
+              requiritur ad ejus perfectionem spiritualem, nisi Deus influens, et gratia, et
+              virtutes influxae. Unde cum aliquae res corporales adhibentur ad hominis
+              sanctificationem ex quibus secundum ordinem naturae sanctificatio hominis non
+              dependet, signum est quod hoc sit ad subveniendum alicui defectui ipsius; et ideo cum
+              hoc inveniatur in omnibus sacramentis, omnia sacramenta in remedium alicujus
+              spiritualis defectus instituta sunt.</p>
+            <p xml:id="ta-l4d2q1-d1e224">Ad primum ergo dicendum, quod ex hoc ipso quod ad sanctitatem homo perducitur per ea
+              quae naturae secundum se consideratae ordo non requirit, signum est quod alicui
+              defectui remedium adhibetur. Unde quamvis sacramenta ex ratione sanctificationis non
+              habeant quod sint in remedium, habent tamen hoc ex officio, sive ex modo
+              sanctificandi.</p>
+            <p xml:id="ta-l4d2q1-d1e227">Ad secundum dicendum, quod defectus spiritualis dupliciter contingit, sicut et
+              corporalis. Uno modo ex positione contrarii, sicut quando corpus est aegrum, et quando
+              in anima est peccatum. Alio modo ex subtractione ejus quod ad perfectionem necessarium
+              erat vel corporis vel animae; sicut quando corpus est debile ad exercenda corporalia
+              opera, et similiter quando spiritus ad exequenda spiritualia. Remedia ergo quae dantur
+              contra primum defectum, aliquid realiter tollunt; et ideo purgationis rationem habent.
+              Remedia autem quae sunt contra defectum secundum, non tollunt aliquid secundum rem,
+              sed solum aliquid adjiciunt ad perfectionem; et ideo talia remedia non dicuntur
+              purgare, sed perficere. Et haec eadem sunt quae Magister dicit nos gratia et virtute
+              fulcire inquantum perfectiva sunt; nihilominus tamen in remedium alicujus defectus
+              sunt.</p>
+            <p xml:id="ta-l4d2q1-d1e230">Unde patet solutio ad tertium.</p>
+          </div>
+          <div xml:id="ta-l4d2q1-Dd1e234">
+            <head xml:id="ta-l4d2q1-Hd1e236">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d2q1-d1e239">Ad secundam quaestionem dicendum, quod circa hoc sunt duae opiniones. Una est quod in
+              matrimonio gratia aliqua non confertur; sed tantummodo sit in remedium contra
+              concupiscentiam. Hoc autem non videtur convenienter dictum: quia aut intelligitur esse
+              in remedium concupiscentiae, quasi concupiscentiam reprimens, quod sine gratia esse
+              non potest: aut quasi concupiscentiae in parte satisfaciens, quod quidem facit ex ipsa
+              natura actus, non intellecta etiam ratione sacramenti; et praeterea concupiscentia non
+              reprimitur per hoc quod ei satisfit, sed magis augetur, ut philosophus dicit in 3
+              Ethicor.: aut inquantum excusat concupiscentiae actum; quod sine matrimonio deformis
+              esset; et hoc quidem facit per bona matrimonii quae ei conveniunt etiam inquantum est
+              in officium, et ratione suae sanctificationis, cum qua communicat cum sacramentis
+              veteris legis; et ita per hoc non haberet aliquid prae illis, ut cum sacramentis novae
+              legis computari debeat. Et propter hoc alii dicunt, quod matrimonium consideratur in
+              triplici statu. Primo ante peccatum et tunc erat tantum in officium. Secundo sub lege,
+              ubi ex ipsa sanctificatione sua excusabilem reddebat matrimonii actum, qui absque hoc
+              turpis fuisset. Tertio sub statu gratiae, ubi ulterius gratiam confert ad
+              concupiscentiam reprimendam, ut scilicet unusquisque possideat vas suum in honorem, et
+              non in contumeliam, sicut et gentes quae ignorant Deum, 1 Thessal. 4, et Tob. 6,
+              dicitur, quod in illis qui in timore Dei uxores accipiunt et amore filiorum ad cultum
+              Dei magis quam amore libidinis, Daemon potestatem non habet.</p>
+            <p xml:id="ta-l4d2q1-d1e242">Ad primum ergo dicendum, quod sicut res corporales quae sunt in aliis sacramentis non
+              habent ut propria virtute gratiam conferre possint, sed ex institutione divina, ita
+              etiam est de illis quae matrimonium causant, quae ex ipsa institutione divina habent
+              quod ad gratiam instrumentaliter disponant, nisi sit defectus ex parte nostra.</p>
+            <p xml:id="ta-l4d2q1-d1e245">Ad secundum dicendum, quod quaedam sacramenta sunt ad quorum efficaciam praeexigitur
+              sanctificatio materiae, ut patet in confirmatione vel extrema unctione; quaedam vero
+              non praeexigunt praedictam sanctificationem, sicut patet in Baptismo. Unde benedictio
+              materiae quae fit a ministro, non est de necessitate, sed de solemnitate sacramenti;
+              et similiter est etiam de matrimonio.</p>
+            <p xml:id="ta-l4d2q1-d1e248">Ad tertium dicendum, quod unumquodque denominatur ab eo ad quod est. Gratia autem
+              quae in matrimonio confertur, secundum quod est sacramentum Ecclesiae in fide Christi
+              celebratum, ordinatur directe ad reprimendum concupiscentiam, quae concurrit ad actum
+              matrimonii; et ideo Magister dicit, quod matrimonium est tantum in remedium; sed hoc
+              est per gratiam quae in eo confertur.</p>
+          </div>
+          <div xml:id="ta-l4d2q1-Dd1e252">
+            <head xml:id="ta-l4d2q1-Hd1e254">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d2q1-d1e257">Ad tertiam quaestionem dicendum, quod duplex est poena peccati. Quaedam quae pro
+              peccato infligitur, sicut poena Inferni, et flagella quibus a Deo temporaliter
+              punimur; quaedam ex ipso peccato consequens immediate, et per consequens ad peccatum
+              ordinans, sicut est debilitatio naturae ad resistendum peccato, et hujusmodi. Contra
+              primam ergo poenam non datur sacramentum in remedium directe, sed ex consequenti, ut
+              scilicet curata causa, scilicet peccato, cesset effectus, scilicet poena; sed contra
+              secundam poenam datur directe aliquod sacramentum, illa scilicet quae in remedium sunt
+              contra defectum contingentem ex subtractione necessarii, non ex positione
+              contrarii.</p>
+            <p xml:id="ta-l4d2q1-d1e260">Ad primum ergo dicendum, quod poenae contra quas dictum est sacramentum ordinari,
+              etiam ad gratiam contrarietatem habent: quia ex subtractione contingunt, et in
+              contrarium gratiae ordinant.</p>
+            <p xml:id="ta-l4d2q1-d1e263">Ad secundum dicendum, quod sicut est in medicina corporali, quod curato morbo adhuc
+              remanent aliquae reliquiae morbi ex morbo causatae, contra quas oportet specialia
+              medicamenta dari, ita etiam est in medicina spirituali; et propter hoc contra
+              praedictas poenas oportet esse aliqua sacramenta.</p>
+          </div>
+          <div xml:id="ta-l4d2q1-Dd1e267">
+            <head xml:id="ta-l4d2q1-Hd1e269">Quaestiuncula 4</head>
+            <p xml:id="ta-l4d2q1-d1e272">Ad quartam quaestionem dicendum, quod circa hoc est duplex opinio. Quidam enim
+              dicunt, aliqua sacramenta in remedium venialis dari, sicut Eucharistiam, et extremam
+              unctionem. Sed hoc non videtur convenienter dictum: quia poenitentia purgativa est
+              universaliter omnis peccati actualis, mortalis et venialis; unde ad hoc non oportebat
+              aliquod sacramentum institui. Et praeterea etiam non existentibus venialibus, adhuc
+              necessitas illorum sacramentorum esset ad consummandum in bonum, secundum doctrinam
+              Dionysii. Et ideo aliter dicendum, quod contra veniale non ordinatur aliquod
+              sacramentum ad curationem ipsius principaliter institutum, quamvis ex consequenti
+              multa sacramenta, contra venialia valeant. Veniale enim et culpa est, et dispositio ad
+              culpam, imperfectam tamen rationem habens culpae, ita quod gratiam non excludit. Et
+              ideo inquantum culpa est, potest tolli per omnia sacramenta quae contra culpam
+              tollendam ordinantur; inquantum vero est dispositio ad culpam, ex ablata mortali culpa
+              remanens, potest tolli etiam per sacramenta illa quae contra poenam ex culpa relictam
+              et ad culpam inclinantem ordinantur.</p>
+            <p xml:id="ta-l4d2q1-d1e275">Ad primum ergo dicendum, quod illa sacramenta quae gratiam in suscipiente
+              praeexigunt, non ordinantur directe contra culpam: quia non sunt ad tollendum
+              contrarium, sed ad supplendum defectum.</p>
+            <p xml:id="ta-l4d2q1-d1e278">Ad secundum dicendum, quod sacramentum quod tollit mortalem culpam, sufficit etiam ad
+              tollendum venialem; et ideo contra veniale non oportet aliquod sacramentum dari, sicut
+              contra reliquias culpae, ad quarum ablationem poenitentia non ex toto sufficit sine
+              aliis sacramentis.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d2q1-Dd1e283" type="articulus">
+          <head xml:id="ta-l4d2q1-Hd1e285">Articulus 2</head>
+
+          <head xml:id="ta-l4d2q1-Hd1e288" type="questionTitle">Utrum sacramenta debeant esse septem</head>
+
+          <p xml:id="ta-l4d2q1-d1e291">Ad secundum sic proceditur. Videtur quod non debeant esse septem sacramenta. Sicut enim
+            supra dictum est, omnia sacramenta efficaciam habent a passione Christi. Sed unum est
+            sacramentum quod directe est repraesentativum passionis Christi, et ipsum totum Christum
+            continet, scilicet Eucharistia. Ergo illud sacramentum sufficeret.</p>
+          <p xml:id="ta-l4d2q1-d1e294">Praeterea, quod potest fieri per unum, non debet fieri per plura. Sed per Baptismum
+            tolluntur omnia peccata. Ergo non oportebat quod aliquod aliud sacramentum contra culpam
+            ordinaretur.</p>
+          <p xml:id="ta-l4d2q1-d1e297">Praeterea, sacramenta in remedium contra defectum ordinantur. Sed duplex est defectus,
+            scilicet culpae, quae est quasi contrarium, et poenae, quae ex defectu gratiae accidit,
+            ut dictum est. Ergo duo sacramenta sufficerent.</p>
+          <p xml:id="ta-l4d2q1-d1e301">Praeterea, in lege nova, ubi manifestior est veritas, minimum debet esse de figuris.
+            Sed in lege naturae, secundum Hugonem, erant tantum tria sacramenta, scilicet
+            oblationes, decimae et sacrificia. Ergo non debent esse plura sacramenta in lege nova
+            quam tria.</p>
+          <p xml:id="ta-l4d2q1-d1e304">Praeterea, sacramenta legalia nostrorum sacramentorum figurae fuerunt. Sed ipsi non
+            habuerunt aliqua sacramenta respondentia confirmationi et extremae unctioni. Ergo nec
+            nos hujusmodi sacramenta habere debemus.</p>
+          <p xml:id="ta-l4d2q1-d1e307">Praeterea, Dionysius in Eccl. Hierar., ubi de sacramentis tractat, matrimonium et
+            poenitentiam omittit. Ergo videtur quod non sint nisi quinque sacramenta.</p>
+          <p xml:id="ta-l4d2q1-d1e310">Sed contra, videtur quod sint plura. Omne enim illud quod in remedium peccati datur,
+            videtur esse sacramentum. Sed aqua benedicta est hujusmodi, quia per eam venialia
+            tolluntur. Ergo est sacramentum.</p>
+          <p xml:id="ta-l4d2q1-d1e313">Praeterea, sicut circa concupiscentiam quae est in venereis, contingit esse peccatum
+            intemperantiae; ita circa concupiscentiam quae est in cibis et potibus. Sed contra
+            primam concupiscentiam habemus unum sacramentum. Ergo et contra secundam habere
+            debemus.</p>
+          <p xml:id="ta-l4d2q1-d1e316">Praeterea, Dionysius, inter sacramenta nominat monasticam consummationem, sive
+            consecrationem. Sed non computatur inter septem sacramenta hic enumerata. Ergo sunt
+            plura quam septem.</p>
+          <p xml:id="ta-l4d2q1-d1e320">Praeterea, oblationes et decimae in lege naturae erant sacramenta, secundum Hugonem.
+            Cum ergo modo sint oblationes et decimae, videtur quod sint sacramenta; et sic idem quod
+            prius.</p>
+          <p xml:id="ta-l4d2q1-d1e323">Praeterea, sacramenta ex sanctificatione invisibilem gratiam continent, secundum
+            Hugonem. Sed multae sunt sanctificationes per ministros Ecclesiae factae quae hic non
+            numerantur, sicut consecratio templi et altaris et sacrarum vestium, et hujusmodi. Ergo
+            sunt plura sacramenta.</p>
+          <p xml:id="ta-l4d2q1-d1e326">Respondeo dicendum, quod sacramenta ex hoc quod sunt sacramenta, habent quod sint in
+            remedium contra defectum aliquem; ex hoc autem quod sacramenta Ecclesiae, habent per
+            ministros Ecclesiae dispensari, et in membra Ecclesiae transfundi. Et ideo dupliciter
+            potest accipi numerus sacramentorum proprie. Primo ex defectibus contra quos sacramenta
+            ordinantur. Ordinantur autem sacramenta, ut ex dictis patet, ad tollendum contrarium, et
+            ad supplendum defectum. Contrarium autem sanctitati est culpa: quae quidem dupliciter
+            tollitur. Uno modo, impediendo ne fiat; et hoc modo in remedium culpae matrimonium
+            ordinatur. Alio modo subtrahendo jam existentem; et sic contra originalem culpam
+            ordinatur Baptismus, contra actualem poenitentia. Secundum remedium praebent supplendo
+            quod deficit, et ea quae perfectionis sunt effectiva. Est autem duplex perfectio. Una
+            formae ad actum; et hanc quidem perfectionem facit ordo quantum ad executionem bonorum,
+            quia reddit hominem idoneum ad dispensationem sacramentorum; sed quantum ad perpessionem
+            difficilium facit dictam perfectionem confirmatio, quae hominem fortem reddit, ut nomen
+            Christi propter pressuras mundi confiteri non refugiat. Alia autem perfectio est in
+            ordine ad finem, ad quem per actus pervenitur; et hanc quidem perfectionem quantum ad
+            finem intra facit extrema unctio, quae est quaedam delibutio praeparans in gloriam
+            resurrectionis; quantum vero ad finem extra facit Eucharistia, quae membra capiti
+            conjungit. Et quia hic est ultimus terminus nostrae sanctificationis, ideo dicit
+            Dionysius, quod omnis alia sanctificatio in Eucharistiam terminatur: quia et ordinati et
+            baptizati Eucharistiam sumunt. Si autem considerantur sacramenta ut sunt Ecclesiae
+            sacramenta, scilicet per ministros Ecclesiae dispensanda, sic potest secundum doctrinam
+            Dionysii, hoc modo numerus eorum accipi. In qualibet enim hierarchia oportet esse
+            actionem hierarchicam, et exercentes eam, et recipientes. Recipientes autem per ipsas
+            actiones superiorum in suis gradibus perficiuntur; et ideo ex parte eorum non debet esse
+            aliquod speciale sacramentum, per quod receptivi sacramentorum fiant. Actio autem
+            hierarchica est triplex scilicet purgare, illuminare, perficere. Sed quia nullum
+            sacramentum novae legis purgat sine gratiae infusione, quae illuminatio dicitur; ideo
+            Dionysius in sacramentis conjungit purgationem illuminationi. Potest autem esse in
+            sacramentis purgatio vel a culpa; et sic habet purgativam et illuminativam vim quantum
+            ad originale Baptismus, quantum ad actuale poenitentia; vel a reliquiis culpae, et sic
+            extrema unctio purgare habet; vel a causa culpae, quae est concupiscentia, et sic
+            matrimonium, quod eam reprimit et ordinat, vim purgativam habet. Perfectio autem est
+            duplex scilicet perfectio formae, et ad hanc est confirmatio, quae hominem in seipso
+            consistere facit, ut a contrariis non facile solvatur; et perfectio finis, et ad hanc
+            est Eucharistia, quae nos fini conjungit. Ex parte autem exercentium actiones
+            hierarchicas accipitur unum sacramentum, scilicet ordo, per quem ministri Ecclesiae
+            ponuntur in statu exercendi hierarchicas actiones. Potest et aliter accipi numerus
+            sacramentorum secundum conditionem eorum quibus per sacramenta subvenitur. Sunt enim
+            sacramenta in remedium data. Aut igitur in remedium unius personae, aut totius
+            Ecclesiae. Si primo modo, aut quantum ad ingressum, et sic est Baptismus; aut quantum ad
+            egressum, et sic est extrema unctio; aut quantum ad progressum, et hoc est dupliciter.
+            Uno modo quantum ad executionem virtutis, vel ut a malis non superemur, et quantum ad
+            hoc est confirmatio, vel ut bonis adhaereamus, et quantum ad hoc est Eucharistia. Alio
+            modo quantum ad reparationem virtutis, si ipsam in pugna spirituali aliquo modo laedi
+            contingit, et sic est poenitentia. Si in remedium totius Ecclesiae, aut in regimen et
+            multiplicationem ipsius spiritualem, et sic est ordo, quia principatus bonum
+            multitudinis est secundum philosophum in 5 Ethic., aut quantum ad multiplicationem
+            materialem fidelium, et sic est matrimonium. Quidam autem accipiunt numerum
+            sacramentorum secundum adaptationem ad virtutes, ut fidei respondeat Baptismus, quod
+            sacramentum fidei dicitur; spei extrema unctio, per quam homo praeparatur quodammodo ad
+            futuram gloriam; caritati Eucharistia; prudentiae ordo; justitiae poenitentia;
+            temperantiae matrimonium; fortitudini confirmatio. Quidam vero adaptant diversis
+            generibus culparum et poenarum; ut Baptismus sit contra culpam originalem, poenitentia
+            contra actualem mortalem, extrema unctio contra venialem, ordo contra ignorantiam,
+            matrimonium contra concupiscentiam, confirmatio contra infirmitatem, Eucharistia contra
+            malitiam, quia est sacramentum caritatis, quae per se opponitur malitiae. Haec enim
+            quatuor dicit Beda ex peccato consecuta.</p>
+          <p xml:id="ta-l4d2q1-d1e329">Ad primum ergo dicendum, quod quamvis Eucharistia sit memoriale ipsius dominicae
+            passionis, ipsum Christum continens, non tamen quantum ad omnes effectus ejus. Vel
+            dicendum, quod propter praedictam rationem Eucharistia ordinatur ad ultimum effectum
+            passionis Christi, quasi completissime ab ea efficaciam habens; et ideo, quantum est de
+            se, valet contra omnes spirituales defectus; unde et cum singulis sacramentis exhibetur,
+            quasi consummans effectum uniuscujusque; sed tamen praeexigit alia sacramenta, ut
+            idoneus quis reddatur ad tanti perceptionem mysterii, sicut etiam in naturalibus ultima
+            forma non datur nisi praecedentibus omnibus dispositionibus.</p>
+          <p xml:id="ta-l4d2q1-d1e332">Ad secundum dicendum, quod Baptismus est sacramentum intrantium, quia facit hominem
+            primo participem redemptionis Christi consepeliens eum in similitudinem mortis Christi;
+            et ideo non potest iterari, sicut nec passio Christi. Et quia peccata actualia
+            iterantur, ideo contra culpam actualem oportuit aliquod remedium adhiberi, scilicet
+            poenitentiam, quamvis etiam Baptismus ipsum deleat.</p>
+          <p xml:id="ta-l4d2q1-d1e335">Ad tertium dicendum, quod defectus illi sunt generales; et non habent eamdem rationem
+            in omnibus suis partibus; et ideo oportuit contra diversas partes eorum diversa remedia
+            adhiberi.</p>
+          <p xml:id="ta-l4d2q1-d1e339">Ad quartum dicendum, quod in lege naturae multa signa gratiae praecesserunt, sicut
+            diluvium, occisio Abel, et hujusmodi, quae tamen non debent dici sacramenta; sed illa
+            tantum quae ad aliquod remedium exhibebantur. Ea enim significabant rem sacram, ut actu
+            sacrantem, quod est de ratione sacramenti, ut supra dictum est; et ideo in lege naturae
+            Hugo, tantum ponit tria sacramenta, scilicet sacrificia, oblationes, et decimas; quia
+            per haec, ut dicit Gregorius, remedium ante circumcisionem contra originale erat. Et
+            quamvis tunc esset tempus figurarum magis quam modo, non oportebat esse signa
+            determinata ad determinatos effectus gratiae, sicut modo sunt; et ideo in quadam
+            generalitate sacramenta illa, nostra sacramenta, et ipsorum causam, scilicet passionem
+            Christi, significabant; sicut quod per sacrificia significabatur passio, per oblationes
+            dispositio patientis ad passionem, quia ipse se voluntarie obtulit ad passionem: Isai.
+            53; per decimas autem comparatio patientis ad illos pro quibus patiebatur, qui
+            imperfecti erant, ab ipso omnem perfectionem expectantes, sicut novem per decem
+            complentur. Horum autem duo referuntur ad Eucharistiam: scilicet sacrificium quantum ad
+            significatum, et oblatio quantum ad materiam et usum, sed decima praefigurabat
+            Baptismum, inquantum aliquid auferebatur. Matrimonium autem et poenitentia et ordo erant
+            illo tempore, sed tamen non computantur inter sacramenta illius temporis, quia non
+            fiebant cum aliqua consecratione. Quilibet enim primogenitus, secundum Hieronymum
+            sacerdos erat: nec erat aliquis modus determinatus ipsorum, nisi secundum instinctum
+            naturae, prout cuique ratio fide innata dictabat faciendum.</p>
+          <p xml:id="ta-l4d2q1-d1e342">Ad quintum dicendum, quod tempore legis scriptae jam plura cum aliqua consecratione
+            celebrabantur, quae nostris sacramentis quasi figurae respondent: quia per
+            circumcisionem nostrum Baptisma figuratur; per oblationes et sacrificia Eucharistia; per
+            diversos ritus expiationum poenitentia; per consecrationes Aaron et filiorum ejus noster
+            ordo; et per matrimonium jam ad aliquas certas personas determinatum et sub lege
+            constitutum, nostrum matrimonium. Sed extremae unctionis non debuit praecedere figura:
+            quia extrema unctio est directivum et praeparatorium in gloriam, quam tunc statim post
+            mortem consequi non poterant, sicut modo possunt. Similiter nec confirmatio, in qua
+            complementum spiritus sancti datur: tempus autem illud non erat tempus plenitudinis,
+            sicut tempus istud.</p>
+          <p xml:id="ta-l4d2q1-d1e345">Ad sextum dicendum, quod Dionysius non intendit ibi determinare de sacramentis, sed de
+            actionibus hierarchicis, quae consistunt in consecratione per ministros Ecclesiae facta.
+            Et quia matrimonium et poenitentia possunt habere suum effectum sine tali consecratione,
+            ideo de eis non determinavit.</p>
+          <p xml:id="ta-l4d2q1-d1e348">Ad septimum dicendum, quod aqua benedicta non ordinatur directe ad remedium
+            praestandum, sed ad removendum prohibens; unde datur contra Daemonum nequitias et
+            venialia, et omne quod effectum sacramentorum impedire posset: propter hoc non est
+            sacramentum, quia removens prohibens est agens per accidens; sed sacramentale, quasi
+            dispositio quaedam ad sacramenta.</p>
+          <p xml:id="ta-l4d2q1-d1e351">Ad octavum dicendum, quod concupiscentia quae est in actu generativae, habet specialem
+            foeditatem ab aliis concupiscentiis: quia praeter hoc quod est infectiva personae, quod
+            habet commune cum aliis, et idem remedium habens, scilicet poenitentiam, est etiam
+            infectio naturae; et ideo debet habere speciale remedium, secundum quod ad purgationem
+            naturae ordinatur.</p>
+          <p xml:id="ta-l4d2q1-d1e354">Ad nonum dicendum, quod ad quamlibet eminentiam status datur aliqua sanctificatio, cum
+            sit ibi necessarium speciale auxilium gratiae, sicut in consecratione regum et
+            monachorum et monialium; et ideo sunt actiones hierarchicae; et propter hoc Dionysius de
+            eis determinat; non tamen habent rationem sacramenti; sed solum illa eminentia per quam
+            homo efficitur sacrorum dispensator.</p>
+          <p xml:id="ta-l4d2q1-d1e358">Ad decimum dicendum, quod oblationes et decimae erant tunc inquantum erant figurales;
+            sed quantum ad hoc nunc non manent; sed solum secundum quod sunt morales ad usum
+            ministrorum Ecclesiae et pauperum deputatae; et ideo nunc non sunt sacramenta.</p>
+          <p xml:id="ta-l4d2q1-d1e361">Ad undecimum dicendum, quod omnes illae sanctificationes ordinantur ad sacramentum
+            Eucharistiae; et ideo non sunt sacramenta, sed sacramentalia quaedam.</p>
+        </div>
+        <div xml:id="ta-l4d2q1-Dd1e365" type="articulus">
+          <head xml:id="ta-l4d2q1-Hd1e367">Articulus 3</head>
+
+          <head xml:id="ta-l4d2q1-Hd1e370" type="questionTitle">Utrum sacramenta convenienter a Magistro ordinentur</head>
+
+          <p xml:id="ta-l4d2q1-d1e373">Ad tertium sic proceditur. Videtur quod sacramenta inconvenienter a Magistro hic
+            ordinentur. Prius enim est quod animale est quam quod spirituale; 1 Corinth. 15. Sed
+            matrimonium ad vitam animalem pertinet, omnia autem alia sacramenta ad vitam
+            spiritualem. Ergo matrimonium est omnibus prius.</p>
+          <p xml:id="ta-l4d2q1-d1e376">Praeterea, agens naturaliter prior est sua actione; unde et in jure prius determinatur
+            de officiis quam de actionibus. Sed per sacramentum ordinis constituuntur dispensatores
+            aliorum sacramentorum. Ergo ordo inter alia primo debet poni.</p>
+          <p xml:id="ta-l4d2q1-d1e379">Praeterea, bonum commune est divinius quam bonum personae, ut dicitur in 1 Ethic. Sed
+            matrimonium et ordo ordinantur in remedium commune, alia autem in remedium unius
+            personae, ut dictum est. Ergo illa duo sacramenta ante alia poni debent.</p>
+          <p xml:id="ta-l4d2q1-d1e383">Praeterea, Eucharistia perficit nos conjungendo fini, ut dictum est. Sed finis est
+            ultimum in adeptione. Ergo Eucharistia post omnia debet poni.</p>
+          <p xml:id="ta-l4d2q1-d1e386">Praeterea, purgatio praecedit illuminationem et perfectionem. Sed secundum Dionysium,
+            Eucharistia pertinet ad perfectionem, similiter et confirmatio. Ergo poenitentia, quae
+            maxime ad purgationem pertinet, videtur quod antea debet poni.</p>
+          <p xml:id="ta-l4d2q1-d1e389">Praeterea, Dionysius ponit Eucharistiam ante confirmationem. Cum ergo Magister
+            contrarium faciat, videtur quod inconvenienter ordinet.</p>
+          <p xml:id="ta-l4d2q1-d1e392">Respondeo dicendum, quod prius et posterius multipliciter dicitur; sed in his quae ad
+            actiones pertinent, prius quo ad nos est illud quod est prius in via generationis; et
+            ideo secundum hanc viam Magister sacramenta quae sanctificationes quaedam sunt, ordinat.
+            Prius enim in via generationis est bonum privatum quam commune, quod consurgit ex bonis
+            singulorum, sicut homo est prior domo, et domus civitate; et ideo sacramenta quae in
+            remedium unius personae ordinantur, prius ponuntur, inter quae primo ponitur illud quod
+            pertinet ad intrantes, scilicet Baptismus; ultimo illud quod pertinet ad exeuntes,
+            scilicet extrema unctio; in medio illa quae pertinent ad progredientes, quae hoc modo
+            ordinantur. Quia enim perfici bono essentialius est virtuti, et commune singulis
+            progredientibus ad virtutem; sed resurgere a peccato accidit huic progressui ex parte
+            subjecti quod cecidit (unde non est omnibus commune), et quantum ad perfectionem ad
+            bonum perfectio in forma praecedit in via generationis perfectionem in consecutione ad
+            finem; ideo inter sacramenta quae ad progressum in bonum pertinent, primo ponitur
+            confirmatio; quae est ad perfectionem similem perfectioni formae; secundo Eucharistia,
+            quae est ad perfectionem in fine; tertio poenitentia quae est ad reparationem virtutis
+            amissae. Inter sacramenta autem quae ad remedium totius Ecclesiae deputantur, primo
+            ponitur ordo: quia matrimonium, inquantum matrimonium, per ordinem dispensatur, secundum
+            quod est sacramentum.</p>
+          <p xml:id="ta-l4d2q1-d1e395">Ad primum ergo dicendum, quod matrimonium secundum quod pertinet ad vitam animalem, non
+            est sacramentum, sed naturae officium; sed secundum quod habet aliquid spiritualis
+            quantum ad signum et effectum, sic sacramentum est; et quia minimum habet de
+            spiritualitate, ideo ultimo inter sacramenta ponitur.</p>
+          <p xml:id="ta-l4d2q1-d1e398">Ad secundum dicendum, quod in sacramentorum actionibus ordo non constituit principalem
+            agentem, sed ministrum, et instrumentum quoddam divinae operationis; in judiciis autem
+            judex secundum formam scientiae et justitiae operatur non solum sicut instrumentum; et
+            ideo in jure praemittuntur ea quae ad officia pertinent, sed in sacramentis non
+            oportet.</p>
+          <p xml:id="ta-l4d2q1-d1e402">Ad tertium dicendum, quod quamvis bonum commune sit divinius, tamen bonum singulare est
+            prius in via generationis; et ideo etiam philosophus monasticam politicae praemisit, ut
+            patet in 10 Ethic.</p>
+          <p xml:id="ta-l4d2q1-d1e405">Ad quartum dicendum, quod conjunctio ad finem est duplex. Una secundum plenam
+            participationem ipsius; et ista conjunctio non efficitur per aliquod sacramentum; sed
+            sacramenta ad eam disponunt, et inter omnia vicinius extrema unctio; et ideo ultimo
+            ponitur inter ea quae ad remedium unius personae ordinantur. Alio modo secundum
+            imperfectam, qualis est fruitio viae; et ad hanc ordinatur Eucharistia; et ideo non
+            oportet quod ponatur ultima simpliciter, sed ultima in progressu ad bonum.</p>
+          <p xml:id="ta-l4d2q1-d1e408">Ad quintum dicendum, quod poenitentia non dicit purgationem absolute respectu
+            cujuslibet impuritatis spiritualis, hoc enim ad Baptismum pertinet; sed purgationem in
+            casu, scilicet quando aliquis a statu virtutis cecidit, ut iterum ad bonum redeat; et
+            haec est secunda tabula post naufragium, secundum Hieronymum; et ideo poenitentia
+            ponitur post illa sacramenta quae ad consummationem in bonum ordinantur.</p>
+          <p xml:id="ta-l4d2q1-d1e411">Ad sextum dicendum, quod Dionysius consideravit in eis ordinem magis quantum ad
+            dispensationem eorum quam quantum ad effectum: quia Eucharistia statim baptizatis datur,
+            si sint adulti, non autem confirmatio; ideo post Baptismum immediate Eucharistiam
+            posuit.</p>
+        </div>
+        <div xml:id="ta-l4d2q1-Dd1e416" type="articulus">
+          <head xml:id="ta-l4d2q1-Hd1e418">Articulus 4</head>
+
+          <head xml:id="ta-l4d2q1-Hd1e421" type="questionTitle">Utrum in nova lege aliqua nova sacramenta de novo institui
+            debuerint</head>
+          <div xml:id="ta-l4d2q1-Dd1e424">
+            <head xml:id="ta-l4d2q1-Hd1e426">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d2q1-d1e429">Ad quartum sic proceditur. Videtur quod non debuerint in nova lege aliqua sacramenta
+              de novo institui. Natura enim operatur breviori via qua potest; et hoc ad ordinationem
+              naturae pertinet. Sed gratia est magis ordinata quam natura. Cum ergo brevior via
+              esset quod sacramenta jam in veteri lege existentia perficerentur quam aliqua de novo
+              instituerentur, videtur quod aliqua de novo institui non debuerint.</p>
+            <p xml:id="ta-l4d2q1-d1e432">Praeterea, sicut sacramenta sunt necessaria ad salutem, ita et praecepta. Sed
+              Christus non alia praecepta moralia instituit, sed praeexistentia consiliis perfecit.
+              Ergo nec nova sacramenta instituere debuit.</p>
+            <p xml:id="ta-l4d2q1-d1e435">Sed contra, sacramenta sunt medicinae spirituales, ut prius dictum est. Sed non
+              competit eadem medicina parvulo et adulto. Cum ergo status legis comparetur puerili
+              aetati, status autem temporis gratiae aetati perfectae, ut patet Gal. 4, videtur quod
+              alia sacramenta fuerunt etiam tempore gratiae instituenda.</p>
+          </div>
+          <div xml:id="ta-l4d2q1-Dd1e439">
+            <head xml:id="ta-l4d2q1-Hd1e441">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d2q1-d1e444">Ulterius. Videtur quod haec eadem debuerit a principio mundi post peccatum
+              instituere. Quia ad crudelem medicum pertinet ut efficacem medicinam non statim
+              infirmo proponat, sed eum diu periclitari sinat. Sed a Deo omnis crudelitas relegata
+              est. Ergo sacramenta novae legis, quae sunt efficacissimae medicinae, debuerunt statim
+              post peccatum humano generi exhiberi.</p>
+            <p xml:id="ta-l4d2q1-d1e447">Praeterea, sacramenta novae legis totam efficaciam habent ex passione Christi. Sed
+              passio Christi operabatur etiam a principio mundi post peccatum ad reparationem,
+              secundum quod erat credita, ut in 3 Lib., dist. 19, quaest. 1, art. 1, quaestiunc. 2
+              ad 2, dictum est. Ergo et tunc sacramenta institui debuerunt.</p>
+            <p xml:id="ta-l4d2q1-d1e450">Sed contra, gratia perficit naturam. Sed natura procedit ex imperfectioribus ad
+              perfectiora, sicut patet in omni motu et generatione; et similiter etiam ars. Ergo et
+              similiter gratia debuit prius imperfecte et postea copiose per efficaciam sacramenti
+              dari.</p>
+          </div>
+          <div xml:id="ta-l4d2q1-Dd1e454">
+            <head xml:id="ta-l4d2q1-Hd1e456">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d2q1-d1e459">Ulterius. Videtur quod statim Christo nato sacramenta institui debuerunt. Sunt enim
+              sacramenta novae legis gratiam continentia. Sed tempus gratiae ex tunc incepit. Ergo
+              tunc institui debuerunt.</p>
+            <p xml:id="ta-l4d2q1-d1e462">Praeterea, sacramenta adjuvant ad implendum praecepta. Sed praecepta moralia omnia
+              simul data fuerunt in ipso initio legis. Ergo et sacramenta gratiae in ipso initio
+              gratiae omnia simul dari debuerunt.</p>
+            <p xml:id="ta-l4d2q1-d1e465">Sed contra est, quia quae a Deo sunt, ordinata sunt, Rom. 13, 1. Sed iste est debitus
+              ordo, ut causa effectum praecedat, et ut illud quod prius est, primo tradatur. Ergo
+              cum passio Christi sit causa efficaciam sacramentis praebens, et unum sacramentum sit
+              alio prius, ut dictum est, videtur quod non debuerunt institui statim Christo
+              nato.</p>
+          </div>
+          <div xml:id="ta-l4d2q1-Dd1e470">
+            <head xml:id="ta-l4d2q1-Hd1e472">Quaestiuncula 4</head>
+            <p xml:id="ta-l4d2q1-d1e475">Ulterius. Videtur quod sacramenta novae legis non sunt omnia a Christo instituta.
+              Quia de confirmatione et extrema unctione non legitur aliquid dixisse. Sed extrema
+              unctio et confirmatio sunt sacramenta novae legis. Ergo non omnia sacramenta novae
+              legis sunt instituta a Christo.</p>
+            <p xml:id="ta-l4d2q1-d1e478">Praeterea, non minoris auctoritatis est mysterium sacerdotii novae legis quam legis
+              naturae. Sed qui sacramenta dispensabant in lege naturae, scilicet sacerdotes, pro suo
+              libito sacramentis visibilibus suam fidem profitebantur. Ergo multo fortius hoc debet
+              esse in lege nova, quae etiam est majoris libertatis.</p>
+            <p xml:id="ta-l4d2q1-d1e481">Sed contra, sacramenta novae legis efficiunt quod significant. Sed ex institutione
+              significant secundum Hugonem. Ergo ex institutione efficaciam habent. Sed efficacia
+              sacramentorum non est nisi a Deo, qui solus peccata remittit. Ergo non potuit esse a
+              puro homine sacramentorum institutio.</p>
+          </div>
+          <div xml:id="ta-l4d2q1-Dd1e485">
+            <head xml:id="ta-l4d2q1-Hd1e487">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d2q1-d1e490">Respondeo dicendum ad primam quaestionem, quod sacramenta sunt signa remedii ad quod
+              ordinantur. Sunt autem signa repraesentantia effectus spirituales ex similitudine
+              sensibilium rerum, quarum in sacramento est usus. Et ideo cum in nova lege oportuerit
+              esse sacramenta majoris efficaciae propter perfectionem testamenti, debuerunt etiam
+              esse alia signa quae expressius figurarent gratiam; et ideo oportuit alia sacramenta
+              institui.</p>
+            <p xml:id="ta-l4d2q1-d1e493">Ad primum ergo dicendum, quod quamvis natura brevissime operetur, tamen nihil omittit
+              de contingentibus quibus aliquid optime fieri possit et similiter gratia; et ideo in
+              sacramentis instituendis non solum attenditur qualiter aliquid breviter fiat, sed
+              qualiter congruenter.</p>
+            <p xml:id="ta-l4d2q1-d1e496">Ad secundum dicendum, quod praecepta moralia consequuntur naturam humanam, cum sint
+              de dictamine rationis naturalis; et ideo permanent eadem in qualibet lege, et in
+              quolibet statu hominis; et propter hoc non est simile de praeceptis et sacramentis,
+              quae ex sola institutione efficaciam habent.</p>
+          </div>
+          <div xml:id="ta-l4d2q1-Dd1e500">
+            <head xml:id="ta-l4d2q1-Hd1e502">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d2q1-d1e505">Ad secundam quaestionem dicendum, quod sacramenta novae legis, quia gratiam
+              continent, non sunt vacua, sed plena; et ideo non competebat ea institui nisi tempore
+              plenitudinis, quod est tempus incarnationis. Quare autem Christus suum adventum
+              distulerit, et non statim post peccatum carnem assumpserit, in 3 Lib., dist. 1,
+              quaest. 1, art. 4, dictum est.</p>
+            <p xml:id="ta-l4d2q1-d1e508">Ad primum ergo dicendum, quod aliter est in morbo spirituali et corporali. Non enim
+              potest aliquis a morbo spirituali congrue curari, nisi prius morbum cognoscat, et
+              medicinam desideret, si sit cognitionis capax; et ideo oportuit ut homo sibi
+              relinqueretur, et sic primo tempore legis naturae infirmum se cognosceret per
+              ignorantiam, ad idolatriam declinando; et deinde tempore legis scriptae quae auxilium
+              contra ignorantiam praebebat, recognosceret se infirmum per concupiscentiam, ad
+              peccata declinando, et sic salutem ab alio expectaret; qui et viam salutis docuit
+              contra ignorantiam et sacramenta gratiae dedit contra infirmitatem concupiscentiae, ut
+              dicitur Joan. 1, 17: <quote xml:id="ta-l4d2q1-Qd1e510">gratia et veritas per Jesum Christum facta est</quote>. In
+              morbo autem corporali hoc non requiritur, quia corpus non est cognitionis capax.</p>
+            <p xml:id="ta-l4d2q1-d1e514">Ad secundum dicendum, quod quamvis etiam ex tunc passio Christi efficaciam haberet,
+              non tamen tantam efficaciam in humana natura, pro qua nondum satisfactum erat,
+              habebat, sicut post satisfactionem habuit, et post Christi incarnationem, quae totam
+              naturam humanam dignificavit, ut fieret magis ad gratiam recipiendam idonea.</p>
+          </div>
+          <div xml:id="ta-l4d2q1-Dd1e518">
+            <head xml:id="ta-l4d2q1-Hd1e520">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d2q1-d1e523">Ad tertiam quaestionem dicendum, quod sacramenta novae legis dupliciter instituta
+              sunt. Primo ad documentum et exercitium quoddam; et sic potuerant ante passionem
+              Christi institui. Secundo quantum ad necessitatem et obligationem, et sic eorum
+              institutio non fuit ante passionem, quia adhuc legalia non fuerant mortua; unde a
+              tempore praedicationis Christi usque ad passionem, sacramenta novae legis simul
+              currebant cum legalibus, et utraque ad salutem operabantur. Sic ergo quantum ad
+              secundum modum institutionis omnia simul in passione Christi instituta sunt; sed
+              quantum ad primum, oportuit ut primo instituerentur illa quae sunt majoris
+              necessitatis; unde statim in principio praedicationis suae poenitentiam praedicavit,
+              ut legitur Matth. 4, et Baptismum docuit ut legitur Joan. 3. Alia autem sacramenta
+              processu temporis instituit et docuit.</p>
+            <p xml:id="ta-l4d2q1-d1e526">Ad primum ergo dicendum, quod tempus gratiae dicitur quantum ad initium, et quantum
+              ad complementum. Complementum autem ejus non fuit ante passionem, et resurrectionem
+              Christi; unde Joan. 7, 39, dicitur: <quote xml:id="ta-l4d2q1-Qd1e528">nondum erat spiritus datus, quia nondum
+                erat Jesus glorificatus</quote>. Principium autem potest attendi dupliciter. Primo
+              quantum ad praesentiam gratiae in mundo; et sic fuit in ipsa incarnatione. Secundo
+              quantum ad ejus diffusionem in mundo, et sic fuit in praedicatione sive Baptismo
+              Christi; et ante non oportebat institui sacramenta.</p>
+            <p xml:id="ta-l4d2q1-d1e532">Ad secundum dicendum, quod praecepta moralia homini natura dictat; et ideo statim
+              potuerunt homini simul proponi: non autem est ita de sacramentis.</p>
+          </div>
+          <div xml:id="ta-l4d2q1-Dd1e536">
+            <head xml:id="ta-l4d2q1-Hd1e538">Quaestiuncula 4</head>
+            <p xml:id="ta-l4d2q1-d1e541">Ad quartam quaestionem dicendum quod circa hoc est duplex opinio. Quidam enim dicunt,
+              non omnia sacramenta a Christo immediate instituta fuisse; sed quaedam ipse per se
+              instituit, quaedam vero apostolis instituenda commisit; scilicet confirmationem, in
+              qua spiritus sanctus datur ad robur, cujus institutio esse non debuit ante plenam
+              spiritus sancti missionem; et extremam unctionem, quae cum ad gloriam resurrectionis
+              sit immediatum et proximum praeparatorium, ante resurrectionem institui non debuit.
+              Sed quia institutio sacramentorum videtur ad potestatem plenitudinis in sacramentis
+              pertinere quam sibi Christus reservavit in sacramentis, cum ex institutione sacramenta
+              habeant quod significent; ideo aliis probabilius videtur, quod sicut hominis puri non
+              est sacramenta mutare, vel a sacramentis absolvere, ita nec nova sacramenta
+              instituere; et ideo omnia sacramenta novae legis ab ipso Christo institutionem
+              habent.</p>
+            <p xml:id="ta-l4d2q1-d1e544">Secundum hoc ergo dicendum ad primum, quod ipse sacramentum confirmationis instituit,
+              quando pueris sibi praesentatis manus imposuit; similiter extremam unctionem, quando
+              apostolos ad praedicandum mittens, oleo inungere infirmos disposuit, ut sic
+              curarentur.</p>
+            <p xml:id="ta-l4d2q1-d1e547">Ad secundum dicendum, quod sacramenta illa legis naturae non habebant aliquam
+              efficaciam ex opere operato, sed solum ex fide; et ideo determinatio eorum ab homine
+              puro habente fidem fieri poterat. Non autem ita est de sacramentis novae legis, quae
+              ex opere operato gratiam conferunt.</p>
+          </div>
+        </div>
+
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 24, Quaestio 2</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Librum IV, Distinctio 24, Quaestio 2</title>
+          <date when="2016-03-19">March 19, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-19">March 19, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness>1856 editum</witness>
+          <witness xml:id="G" n="ghent567">Ghent, Belgium, Ghent University Library, 567</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="0.0.0-dev">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+
+
+
+
+      <div xml:id="starts-on">
+        <cb ed="#G" n="417b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ta-l4d24q2">
+        <head xml:id="ta-l4d24q2-Hd1e97">Librum IV, Distinctio 24, Quaestio 2</head>
+
+        <div xml:id="ta-l4d24q2-Dd1e100">
+          <head xml:id="ta-l4d24q2-Hd1e102">Prooemium</head>
+          <p xml:id="ta-l4d24q2-d1e105">Deinde quaeritur de distinctione ordinum; et circa hoc quaeruntur tria: 1 de
+            distinctione eorum; 2 de actibus singulorum; 3 quando imprimatur character in singulis
+            ordinibus.</p>
+
+        </div>
+        <div xml:id="ta-l4d24q2-Dd1e109" type="articulus">
+          <head xml:id="ta-l4d24q2-Hd1e111">Articulus 1</head>
+
+          <head xml:id="ta-l4d24q2-Hd1e114" type="questionTitle">Utrum debeant plures ordines distingui</head>
+
+          <div xml:id="ta-l4d24q2-Dd1e117">
+            <head xml:id="ta-l4d24q2-Hd1e119">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d24q2-d1e122">Ad primum sic proceditur. Videtur quod non debeant plures ordines distingui. Quanto
+              enim aliqua virtus est major, tanto minus est multiplicata. Sed hoc sacramentum est
+              dignius aliis sacramentis, inquantum constituit suscipientes in aliquo gradu super
+              alios. Cum ergo alia sacramenta non distinguantur in plura quae recipiant
+              praedicationem totius, nec hoc sacramentum debet distingui in plures ordines.</p>
+            <p xml:id="ta-l4d24q2-d1e125">Praeterea, si dividitur; aut est divisio totius in partes integrales, aut in partes
+              subjectivas. Non in partes integrales: quia sic non reciperent praedicationem totius.
+              Ergo est divisio in partes subjectivas. Sed partes subjectivae recipiunt in plurali
+              praedicationem generis remoti sicut generis proximi; sicut homo et asinus sunt plura
+              animalia, et plura corpora animata. Ergo et sacerdotium et diaconatus sicut sunt
+              plures ordines; ita et plura sacramenta, cum sacramentum sit quasi genus ad
+              ordines.</p>
+            <p xml:id="ta-l4d24q2-d1e128">Praeterea, secundum philosophum in 8 Ethic., regimen quo unus tantum principatur, est
+              nobilius regimen communitatis quam aristocratia qua diversi in diversis officiis
+              constituuntur. Sed regimen Ecclesiae debet esse nobilissimum. Ergo non deberet esse in
+              Ecclesia distinctio ordinum ad diversos actus; sed tota potestas deberet apud unum
+              residere; et sic deberet esse tantum unus ordo.</p>
+            <p xml:id="ta-l4d24q2-d1e131">Sed contra, Ecclesia est corpus Christi mysticum, simile corpori naturali, secundum
+              apostolum. Sed in corpore naturali sunt diversa membrorum officia. Ergo et in Ecclesia
+              debent esse diversi ordines.</p>
+            <p xml:id="ta-l4d24q2-d1e135">Praeterea, ministerium novi testamenti est dignius quam ministerium veteris, ut patet
+              2 Corinth. 3. Sed in veteri testamento non solum sacerdotes, sed etiam ministri eorum
+              Levitae sanctificabantur. Ergo et in novo testamento debent consecrari per ordinis
+              sacramentum non solum sacerdotes, sed etiam ministri eorum; et ita oportet quod sint
+              plures ordines.</p>
+
+          </div>
+          <div xml:id="ta-l4d24q2-Dd1e139">
+            <head xml:id="ta-l4d24q2-Hd1e141">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d24q2-d1e144">Ulterius. Videtur quod non sint septem ordines. Ordines enim Ecclesiae ordinantur ad
+              actus hierarchicos. Sed tres sunt tantum actus hierarchici; scilicet purgare,
+              illuminare, et perficere, secundum quos Dionysius distinguit tres ordines in 5 cap.
+              Eccl. Hierar. Ergo non sunt septem.</p>
+            <p xml:id="ta-l4d24q2-d1e147">Praeterea, omnia sacramenta habent efficaciam et auctoritatem ex institutione
+              Christi, vel saltem apostolorum ejus. Sed in doctrina Christi et apostolorum non fit
+              mentio nisi de presbyteris et diaconis. Ergo videtur quod non sunt alii ordines.</p>
+            <p xml:id="ta-l4d24q2-d1e150">Praeterea, per sacramentum ordinis constituitur aliquis dispensator aliorum
+              sacramentorum. Sed alia sacramenta sunt sex. Ergo debent esse tantum sex ordines.</p>
+            <p xml:id="ta-l4d24q2-d1e153">Sed contra, videtur quod debeant esse plures. Quia quanto aliqua virtus est altior,
+              tanto est minus multiplicabilis. Sed potestas hierarchica est altiori modo in Angelis
+              quam sit in nobis, ut Dionysius dicit. Ergo cum in hierarchia angelica sint novem
+              ordines, totidem deberent esse in Ecclesia, vel plures.</p>
+            <p xml:id="ta-l4d24q2-d1e157">Praeterea, prophetia Psalmorum est nobilior inter alias prophetias. Sed ad
+              pronuntiandum in Ecclesia alias prophetias est unus ordo, scilicet lectorum. Ergo et
+              ad pronuntiandum Psalmos deberet esse alius ordo; et praecipue cum in decretis
+              Psalmista secundus ab ostiario inter ordines ponatur.</p>
+
+          </div>
+          <div xml:id="ta-l4d24q2-Dd1e161">
+            <head xml:id="ta-l4d24q2-Hd1e163">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d24q2-d1e166">Ulterius. Videtur quod ordines non debeant distingui per sacros et non sacros. Omnes
+              enim ordines sacramenta quaedam sunt. Sed omnia sacramenta sunt sacra. Ergo omnes
+              ordines sunt sacri.</p>
+            <p xml:id="ta-l4d24q2-d1e169">Praeterea, secundum ordines Ecclesiae non deputatur aliquis nisi ad divina officia.
+              Sed omnia talia sunt sacramenta. Ergo omnes ordines sunt sacri.</p>
+            <p xml:id="ta-l4d24q2-d1e172">Sed contra est quod ordines sacri impediunt matrimonium contrahendum, et dirimunt
+              contractum. Sed quatuor inferiores ordines non impediunt contrahendum, nec dirimunt
+              contractum. Ergo non sunt sacri ordines.</p>
+          </div>
+          <div xml:id="ta-l4d24q2-Dd1e177">
+            <head xml:id="ta-l4d24q2-Hd1e179">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d24q2-d1e182">Respondeo dicendum ad primam quaestionem, quod ordinum multitudo inducta est in
+              Ecclesia propter tria. Primo propter sapientiam Dei commendandam, quae in distinctione
+              ordinata rerum maxime relucet tam in naturalibus quam in spiritualibus; quod
+              significatur in hoc quod regina Saba videns ordinem ministrantium Salomoni non habebat
+              ultra spiritum, deficiens in admiratione sapientiae ipsius. Secundo ad subveniendum
+              humanae infirmitati: quia per unum non poterant omnia quae ad divina mysteria
+              pertinebant expleri sine magno gravamine; et ideo distinguuntur ordines diversi ad
+              diversa officia. Et hoc patet per hoc quod dominus, Numer. 11, dedit Moysi septuaginta
+              senes populi in adjutorium. Tertio ut via proficiendi hominibus amplior detur dum
+              plures in diversis officiis distribuunt, ut omnes sint Dei cooperatores, quo nihil est
+              divinius, ut Dionysius dicit.</p>
+            <p xml:id="ta-l4d24q2-d1e185">Ad primum ergo dicendum, quod illa sacramenta dantur ad effectus aliquos
+              percipiendos; sed hoc sacramentum datur principaliter ad actus aliquos agendos; et
+              ideo secundum diversitatem actuum oportet quod ordinis sacramentum distinguatur, sicut
+              potentiae distinguuntur per actus.</p>
+            <p xml:id="ta-l4d24q2-d1e188">Ad secundum dicendum, quod distinctio ordinum non est totius integralis in partes,
+              neque totius universalis, sed totius potestativi; cujus haec est natura quod totum
+              secundum completam rationem est in uno, in aliis autem est aliqua participatio ipsius;
+              et ita est hic: tota enim plenitudo hujus sacramenti est in uno ordine, scilicet
+              sacerdotio; sed in aliis est quaedam participatio ordinis; et hoc significatum est in
+              hoc quod dominus dicit Num. 11, 17, Moysi: <quote xml:id="ta-l4d24q2-Qd1e190">auferam de spiritu tuo, et tradam
+                eis, ut sustentent onus populi</quote>. Et ideo omnes ordines sunt unum
+              sacramentum.</p>
+            <p xml:id="ta-l4d24q2-d1e194">Ad tertium dicendum, quod in regno quamvis tota potestatis plenitudo resideat penes
+              regem, non tamen excludunt ministrorum potestates quae sunt participationes quaedam
+              regiae potestatis; et similiter est in ordine. In aristocratia autem apud nullum
+              residet plenitudo potestatis, sed apud omnes.</p>
+
+          </div>
+          <div xml:id="ta-l4d24q2-Dd1e198">
+            <head xml:id="ta-l4d24q2-Hd1e200">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d24q2-d1e203">Ad secundam quaestionem dicendum, quod quidam sumunt sufficientiam ordinum per
+              quamdam adaptationem ad gratias gratis datas de quibus habetur 1 Corinth. 12. Dicunt
+              enim quod sermo sapientiae competit episcopo, quia ipse aliorum ordinator est, quod ad
+              sapientiam pertinet; sermo scientiae sacerdoti, quia debet habere clavem scientiae;
+              fides diacono, qui praedicat Evangelium; opera virtutum subdiacono, qui se ad opera
+              perfectionis extendit per votum continentiae; interpretatio sermonum acolytho, quod
+              significatur in lumine quod defert; gratiae sanitatum exorcistae; genera linguarum
+              Psalmistae; prophetia lectori: discretio spirituum ostiario, qui quosdam repellit, et
+              quosdam admittit. Sed hoc nihil est; quia gratiae gratis datae non dantur eidem, sicut
+              ordines dantur eidem; dicitur enim 1 Corinth. 12, 4: <quote xml:id="ta-l4d24q2-Qd1e205">divisiones gratiarum
+                sunt</quote>. Et iterum ponuntur quaedam quae ordines non dicuntur, scilicet
+              episcopatus et psalmistatus. Et ideo alii assignant secundum quamdam assimilationem ad
+              caelestem hierarchiam, in qua ordines distinguuntur secundum purgationem,
+              illuminationem, perfectionem. Dicunt enim, quod ostiarius purgat exterius segregando
+              bonos a malis etiam corporaliter; interius vero acolythus, quia per lumen quod portat,
+              significat se interiores tenebras pellere; sed utroque modo exorcista, quia Diabolum
+              quem expellit, utroque modo perturbat. Sed illuminatio quae fit per doctrinam, quantum
+              ad doctrinam propheticam fit per lectores, quantum ad evangelicam fit per diaconos,
+              quantum ad apostolicam fit per subdiaconos. Sed perfectio communis, utpote quae est
+              poenitentiae, Baptismi, et hujusmodi, fit per sacerdotem; excellens vero per
+              episcopum, ut consecratio sacerdotum et virginum; sed excellentissima per summum
+              pontificem, in quo est plenitudo auctoritatis. Sed hoc nihil est: tum quia ordines
+              caelestis hierarchiae non distinguuntur per praedictas actiones hierarchicas, cum
+              quaelibet cuilibet ordinum conveniat: tum quia, secundum Dionysium, solis episcopis
+              convenit perficere, illuminare autem sacerdotibus, purgare autem ministris omnibus. Et
+              ideo alii appropriant ordines septem donis, ut sacerdotio respondeat donum sapientiae,
+              quae nos pane vitae et intellectus cibat, sicut sacerdos nos pane caelesti reficit;
+              sed timor ostiario, quia nos separat a malis; et sic intermedii ordines respondent
+              mediis donis. Sed hoc iterum nihil est: quia in quolibet ordine septiformis gratia
+              datur. Et ideo aliter dicendum est, quod ordinis sacramentum ad sacramentum
+              Eucharistiae ordinatur quod est sacramentum sacramentorum, ut dicit Dionysius. Sicut
+              enim templum et altare et vasa et vestes, ita et ministeria quae ad Eucharistiam
+              ordinantur, consecratione indigent; et haec consecratio est ordinis sacramentum; et
+              ideo distinctio ordinum est accipienda secundum relationem ad Eucharistiam; quia
+              potestas ordinis aut est ad consecrationem Eucharistiae ipsius, aut ad aliquod
+              ministerium ordinandum ad hoc. Si primo modo, sic est ordo sacerdotum; et ideo cum
+              ordinantur, accipiunt calicem cum vino, et patenam cum pane, potestatem accipiendo
+              consecrandi corpus et sanguinem Christi. Cooperatio autem ministrorum est vel in
+              ordine ad ipsum sacramentum, vel in ordine ad suscipientes. Si primo, sic tripliciter.
+              Primo enim est ministerium quo minister cooperatur sacerdoti in ipso sacramento
+              quantum ad dispensationem, licet non quantum ad consecrationem, quam solus sacerdos
+              facit; et hoc pertinet ad diaconum; unde in littera dicitur, quod ad diaconum pertinet
+              ministrare sacerdotibus in omnibus quae aguntur in sacramentis Christi, unde ipsi
+              sanguinem dispensant. Secundo est ministerium ordinatum ad materiam sacramenti
+              ordinandam in sacris vasis ipsius sacramenti: et hoc pertinet ad subdiaconum; unde in
+              littera dicitur quod vasa corporis et sanguinis domini portant, et oblationes in
+              altari ponunt; et ideo accipiunt calicem de manu episcopi, sed vacuum, cum ordinantur.
+              Tertio est ministerium ordinatum ad praesentandum materiam sacramenti; et hoc competit
+              acolytho: ipse enim, ut in littera dicitur, urceolum cum vino et aqua praeparat; unde
+              accipiunt urceolum vacuum. Sed ministerium ad praeparationem recipientium ordinatum
+              non potest esse nisi super immundos; quia qui mundi sunt, jam sunt ad sacramenta
+              recipienda idonei. Triplex autem est genus immundorum, ut Dionysius dicit. Quidam enim
+              sunt omnino infideles, credere non volentes; et hi totaliter etiam a visione divinorum
+              et a coetu fidelium arcendi sunt; et hoc pertinet ad ostiarios. Quidam vero sunt
+              volentes credere, sed nondum sunt instructi, scilicet catechumeni; et ad horum
+              instructionem ordinatur ordo lectorum; et ideo prima rudimenta ad doctrinam fidei,
+              scilicet vetus testamentum, eis legendum committitur. Quidam vero sunt fideles et
+              instructi, sed impedimentum habentes ex Daemonis potestate, scilicet energumeni; et ad
+              hoc habet ministerium ordo exorcistarum. Et sic patet ratio et numerus et gradus
+              ordinum.</p>
+            <p xml:id="ta-l4d24q2-d1e209">Ad primum ergo dicendum, quod Dionysius loquitur de ordinibus non secundum quod sunt
+              sacramenta, sed secundum quod ad hierarchicas actiones ordinantur; et ideo secundum
+              actiones illas tres ordines distinguit: quorum primus habet omnes tres, scilicet
+              episcopus; secundus habet duas, scilicet sacerdos; sed tertius habet unam (scilicet
+              purgare) scilicet diaconus, qui minister dicitur; et sub hoc omnes inferiores ordines
+              comprehenduntur. Sed ordines habent quod sint sacramenta ex relatione ad maximum
+              sacramentorum; et ideo secundum hoc numerus ordinum accipi debet.</p>
+            <p xml:id="ta-l4d24q2-d1e212">Ad secundum dicendum, quod in primitiva Ecclesia propter paucitatem ministrorum omnia
+              inferiora ministeria diaconis committebantur, ut patet per Dionysium, ubi dicit:
+                <quote xml:id="ta-l4d24q2-Qd1e214">ministrorum alii stant ad portas templi clausas; alii aliud quid proprii
+                ordinis operantur; alii cum sacerdotibus proponunt super altare sacrum panem, et
+                benedictionis calicem</quote>. Nihilominus erant omnes praedictae potestates, sed
+              implicite in una diaconi potestate. Sed postea ampliatus est cultus divinus; et
+              Ecclesia quod implicite habebat in uno ordine, explicite tradidit in diversis; et
+              secundum hoc dicit Magister in littera, quod Ecclesia alios ordines sibi
+              instituit.</p>
+            <p xml:id="ta-l4d24q2-d1e218">Ad tertium dicendum, quod ordines ordinantur principaliter ad sacramentum
+              Eucharistiae, ad alia autem per consequens; quia etiam alia sacramenta ab eo quod in
+              hoc sacramento continetur, derivantur; unde non oportet quod distinguantur ordines
+              secundum sacramenta.</p>
+            <p xml:id="ta-l4d24q2-d1e222">Ad quartum dicendum, quod Angeli differunt specie; et propter hoc in eis potest esse
+              diversus modus accipiendi divina; et ideo etiam diversae hierarchiae in eis
+              distinguuntur: sed in hominibus est tantum una hierarchia, propter unum modum
+              accipiendi divina qui consequitur humanam speciem, scilicet per similitudines rerum
+              sensibilium; et ideo distinctio ordinum in Angelis non potest esse per comparationem
+              ad aliquod sacramentum, sicut est apud nos: sed solum per comparationem ad
+              hierarchicas actiones quas in inferiores exercet quilibet ordo in eis: et secundum hoc
+              nostri ordines eis respondent, quia in nostra hierarchia sunt tres ordines, secundum
+              hierarchicas actiones distincti, sicut in qualibet hierarchia una Angelorum.</p>
+            <p xml:id="ta-l4d24q2-d1e225">Ad quintum dicendum, quod psalmistatus non est ordo, sed officium ordini annexum.
+              Quia enim Psalmi cum cantu pronuntiantur, ideo dicitur Psalmista et cantor. Cantor
+              autem non est nomen ordinis specialis; tum quia cantare pertinet ad totum chorum; tum
+              quia non habet aliquam specialem relationem ad Eucharistiae sacramentum; tum quia
+              officium quoddam est quod inter ordines largo modo acceptos computatur quandoque.</p>
+
+          </div>
+          <div xml:id="ta-l4d24q2-Dd1e229">
+            <head xml:id="ta-l4d24q2-Hd1e231">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d24q2-d1e234">Ad tertiam quaestionem dicendum, quod ordo dicitur sacer dupliciter. Uno modo
+              secundum se; et sic quilibet ordo est sacer, cum sit sacramentum quoddam; alio modo
+              ratione materiae circa quam habet aliquem actum; et sic ordo sacer dicitur qui habet
+              aliquem actum circa rem aliquam consecratam; et sic sunt tantum tres ordines sacri,
+              scilicet sacerdos, et diaconus, qui habet actum circa corpus Christi et sanguinem
+              consecratum, et subdiaconus, qui habet actum circa vasa consecrata; et ideo etiam eis
+              continentia indicitur, ut sancti et mundi sint qui sancta tractant.</p>
+            <p xml:id="ta-l4d24q2-d1e237">Et per hoc patet solutio ad objecta.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d24q2-Dd1e242" type="articulus">
+          <head xml:id="ta-l4d24q2-Hd1e244">Articulus 2</head>
+
+          <head xml:id="ta-l4d24q2-Hd1e247" type="questionTitle">Utrum actus ordinum convenienter in littera assignentur</head>
+
+          <p xml:id="ta-l4d24q2-d1e250">Ad secundum sic proceditur. Videtur quod actus ordinum inconvenienter in littera
+            assignentur. Quia per ablutionem aliquis praeparatur ad corpus Christi sumendum. Sed
+            praeparatio sumentium sacramentum pertinet ad inferiores ordines. Ergo inconvenienter
+            ablutio a peccatis ponitur inter actus sacerdotis.</p>
+          <p xml:id="ta-l4d24q2-d1e253">Praeterea, homo per Baptismum est Deo figuratus, characterem configurantem suscipiens.
+            Sed orare et offerre oblationes sunt actus immediate ad Deum ordinati. Ergo quilibet
+            baptizatus potest hos actus facere, et non soli sacerdotes.</p>
+          <p xml:id="ta-l4d24q2-d1e256">Praeterea, diversorum ordinum diversi sunt actus. Sed oblationes in altari ponere et
+            epistolam legere ad subdiaconum pertinet; crucem etiam ferunt subdiaconi coram Papa.
+            Ergo hi non debent poni actus diaconi.</p>
+          <p xml:id="ta-l4d24q2-d1e260">Praeterea, eadem veritas continetur in novo et veteri testamento. Sed legere vetus
+            testamentum est lectorum. Ergo et eadem ratione legere novum, et non diaconorum.</p>
+          <p xml:id="ta-l4d24q2-d1e263">Praeterea, apostoli nihil aliud praedicaverunt quam Evangelium Christi, ut patet Rom.
+            1. Sed doctrina apostolorum committitur subdiaconis annuntianda. Ergo et doctrina
+            Evangelii.</p>
+          <p xml:id="ta-l4d24q2-d1e266">Praeterea, quod est superioris ordinis, secundum Dionysium, de Caelest. Hierar. cap. 5
+            Part. 3, non debet inferiori convenire. Sed ministrare cum urceolo est actus
+            subdiaconorum. Ergo non debet acolythis attribui.</p>
+          <p xml:id="ta-l4d24q2-d1e269">Praeterea, actus spirituales debent corporalibus praeeminere. Sed acolythus non habet
+            nisi actum corporalem. Ergo exorcista non habet actum spiritualem pellendi Daemones, cum
+            sit inferior.</p>
+          <p xml:id="ta-l4d24q2-d1e272">Praeterea, quae magis conveniunt, juxta se ponenda sunt. Sed legere vetus testamentum
+            maxime debet convenire cum lectione novi testamenti, quae competit superioribus
+            ministris. Ergo legere vetus testamentum non debet poni actus lectoris, sed magis
+            acolythi; et praecipue cum lumen corporale quod acolythi deferunt, significet lumen
+            spirituale doctrinae.</p>
+          <p xml:id="ta-l4d24q2-d1e275">Praeterea, in quolibet actu ordinis spiritualis debet esse aliqua vis spiritualis, quam
+            habeant ordinati prae aliis. Sed in apertione et clausione ostiorum non habent aliam
+            potestatem spiritualem ostiarii quam alii homines. Ergo hoc non debet poni actus
+            ipsorum.</p>
+          <p xml:id="ta-l4d24q2-d1e279">Respondeo dicendum, quod cum consecratio quae fit in ordinis sacramento, ordinetur ad
+            sacramentum Eucharistiae, ut dictum est; ille est principalis actus uniuscujusque
+            ordinis secundum quem magis proxime ordinatur ad Eucharistiae sacramentum; et secundum
+            hoc etiam unus ordo est eminentior alio secundum quod unus actus magis de proximo ad
+            praedictum sacramentum ordinatur. Sed quia ad sacramentum Eucharistiae quasi dignissimum
+            multa ordinantur; ideo non est inconveniens ut praeter principalem actum, etiam multos
+            actus unus ordo haberet, et tanto plures, quanto est eminentior: quia virtus quanto est
+            superior, tanto ad plura se extendit.</p>
+          <p xml:id="ta-l4d24q2-d1e282">Ad primum ergo dicendum, quod duplex est praeparatio suscipientium sacramentum. Quaedam
+            est remota; et haec per ministros perficitur: quaedam proxima, qua statim efficiuntur
+            idonei ad sacramentorum susceptionem; et hoc pertinet ad sacerdotes: quia etiam in
+            naturalibus ab eodem agente fit materia in ultima dispositione ad formam et recipit
+            formam. Et quia in proxima dispositione ad Eucharistiam fit aliquis per hoc quod a
+            peccatis purgatur; ideo omnium sacramentorum quae sunt instituta principaliter ad
+            purgationem peccatorum, est minister proprius sacerdos, scilicet Baptismi, poenitentiae,
+            et extremae unctionis.</p>
+          <p xml:id="ta-l4d24q2-d1e285">Ad secundum dicendum, quod actus aliqui immediate ad Deum ordinantur dupliciter. Uno
+            modo ex parte unius personae tantum, sicut facere singulares orationes, et vovere, et
+            hujusmodi; et talis actus competit cuilibet baptizato. Alio modo ex parte totius
+            Ecclesiae; et sic solus sacerdos habet actus immediate ad Deum ordinatos, quia ipse
+            solus potest gerere actus totius Ecclesiae qui consecrat Eucharistiam, quae est
+            sacramentum universalis Ecclesiae.</p>
+          <p xml:id="ta-l4d24q2-d1e288">Ad tertium dicendum, quod oblationes a populo oblatae per sacerdotem offeruntur; et
+            ideo duplex ministerium circa oblationes est necessarium: unum ex parte populi; et hoc
+            est subdiaconi, qui accipit oblationes a populo, et in altari ponit, vel offert diacono;
+            aliud ex parte sacerdotis, et hoc est diaconi, qui oblationes ministrat ipsi sacerdoti;
+            et in hoc est actus principalis utriusque ordinis; et propter hoc ordo diaconi est
+            superior. Legere autem epistolam non est actus diaconi, nisi secundum quod actus
+            inferiorum ordinum superioribus attribuuntur: similiter etiam crucem ferre; et hoc
+            secundum consuetudinem aliquarum Ecclesiarum, quia in actibus secundariis non est
+            inconveniens diversas consuetudines esse.</p>
+          <p xml:id="ta-l4d24q2-d1e291">Ad quartum dicendum, quod doctrina est remota praeparatio ad suscipiendum sacramentum;
+            et ideo pronuntiatio doctrinae ministris committitur. Sed doctrina veteris testamenti
+            est adhuc magis remota quam doctrina novi, quia non instruit de hoc sacramento nisi in
+            figuris; et ideo novum testamentum superioribus ministris pronuntiandum committitur,
+            vetus autem inferioribus. Doctrina etiam novi testamenti perfectior est quam dominus per
+            seipsum tradidit, quam ipsius manifestatio per apostolos; et ideo Evangelium diacono,
+            epistola subdiacono committuntur.</p>
+          <p xml:id="ta-l4d24q2-d1e294">Et secundum hoc patet solutio ad quintum.</p>
+          <p xml:id="ta-l4d24q2-d1e298">Ad sextum dicendum, quod acolythi habent actum super urceolum tantum, non super ea quae
+            in urceolo continentur; sed subdiaconus habet actum super contentis in urceolo, quia
+            aqua utitur et vino ad ponendum in calice, et aquam iterum manibus sacerdotis praebet et
+            diaconi; sicut et subdiaconus habet actum solum super calicem, non super contenta; sed
+            sacerdos super contenta; et ideo sicut subdiaconus in sui ordinatione accipit calicem
+            vacuum, sacerdos plenum; ita acolythus urceolum vacuum, sed subdiaconus plenum. Et sic
+            est quaedam connexio in ordinibus.</p>
+          <p xml:id="ta-l4d24q2-d1e301">Ad septimum dicendum, quod corporales actus acolythi magis de proximo ordinantur ad
+            actum sacrorum ordinum, quam actus exorcistarum, quamvis sit aliquo modo spiritualis:
+            quia habent acolythi ministerium super vasa in quibus materia sacramenti continetur
+            quantum ad vinum, quod vase continente indiget propter sui humiditatem; et ideo inter
+            minores ordines ordo acolythorum est superior.</p>
+          <p xml:id="ta-l4d24q2-d1e304">Ad octavum dicendum, quod actus acolythorum se habet propinquius ad principales actus
+            superiorum ministrorum quam actus aliorum minorum ordinum, ut per se patet; et similiter
+            etiam quantum ad actus secundarios, quibus populum per doctrinam disponunt: quia
+            acolythus doctrinam novi testamenti visibiliter figurat lumen portans, sed lector
+            recitando figuras alias; et ideo acolythus est superior. Similiter etiam exorcista: quia
+            sicut se habet actus lectorum ad actum secundarium diaconi et subdiaconi; ita se habet
+            actus exorcistae ad secundarium actum sacerdotis, scilicet ligare et solvere, per quem
+            totaliter homo a servitute Diaboli liberatur. Et in hoc patet ordinatissimus ordinis
+            progressus; quia sacerdoti quantum ad actum ejus principalem, scilicet consecrare corpus
+            Christi, cooperantur tantum tres superiores ordines; sed quantum ad actum ejus
+            secundarium, qui est absolvere et ligare, cooperantur superiores et inferiores.</p>
+          <p xml:id="ta-l4d24q2-d1e307">Ad nonum dicendum, quod quidam dicunt quod in susceptione ordinis, ostiario datur
+            quaedam vis divina, ut arcere possit alios ab introitu templi, sicut et in Christo fuit
+            quando ejecit vendentes de templo. Sed hoc magis pertinet ad gratiam gratis datam quam
+            ad gratiam sacramenti. Et ideo dicendum, quod suscipit potestatem ut ex officio hoc
+            agere possit: quamvis etiam et hoc ab aliis fieri possit, sed non ex officio; et ita est
+            in omnibus actibus minorum ordinum, quod possunt per alios licite fieri, quamvis illi
+            non habeant ad hoc officium, sicut etiam in domo non consecrata potest dici Missa,
+            quamvis consecratio Ecclesiae ad hoc ordinetur ut in ea Missa dicatur.</p>
+
+        </div>
+        <div xml:id="ta-l4d24q2-Dd1e311" type="articulus">
+          <head xml:id="ta-l4d24q2-Hd1e313">Articulus 3</head>
+
+          <head xml:id="ta-l4d24q2-Hd1e316" type="questionTitle">Utrum sacerdotii character imprimatur in ipsa calicis
+            porrectione</head>
+
+          <p xml:id="ta-l4d24q2-d1e319">Ad tertium sic proceditur. Videtur quod sacerdotii character non imprimatur in ipsa
+            calicis porrectione. Quia consecratio sacerdotis fit quadam unctione, sicut et
+            confirmatio. Sed in confirmatione in ipsa unctione imprimitur character. Ergo et in
+            sacerdotio, et non in calicis porrectione.</p>
+          <p xml:id="ta-l4d24q2-d1e322">Praeterea, dominus dedit discipulis sacerdotalem potestatem quando dixit:
+              <quote xml:id="ta-l4d24q2-Qd1e324">accipite spiritum sanctum: quorum remiseritis peccata, remittuntur eis</quote>,
+            Joan. 20, 22. Sed spiritus datur per manus impositionem. Ergo in ipsa manus impositione
+            imprimitur character ordinis.</p>
+          <p xml:id="ta-l4d24q2-d1e328">Praeterea, sicut consecratur minister, ita et vestes ministrorum. Sed vestes sola
+            benedictio consecrat. Ergo in ipsa benedictione episcopi consecratio sacerdotis
+            perficitur.</p>
+          <p xml:id="ta-l4d24q2-d1e332">Praeterea, sicut sacerdoti datur calix, ita et vestis sacerdotalis. Si ergo in datione
+            calicis imprimitur character; eadem ratione et in datione casulae; et sic haberet duos
+            characteres, quod falsum est.</p>
+          <p xml:id="ta-l4d24q2-d1e335">Praeterea, ordo diaconi conformior est ordini sacerdotis quam subdiaconi ordo. Sed si
+            character imprimeretur sacerdoti in ipsa calicis porrectione, subdiaconus esset
+            conformior sacerdoti quam diaconus: quia subdiaconus characterem recipit in ipsa calicis
+            porrectione, non autem diaconus. Ergo character sacerdotalis non imprimitur in ipsa
+            calicis porrectione.</p>
+          <p xml:id="ta-l4d24q2-d1e338">Praeterea, acolythorum ordo magis appropinquat ad actum sacerdotis per hoc quod habet
+            actum super urceolum quam per hoc quod habet actum super candelabrum. Sed magis
+            imprimitur character in acolythatu quando accipiunt candelabrum, quam quando accipiunt
+            urceolum; quia nomen acolythi cerei portationem significat. Ergo nec in sacerdotio
+            imprimitur character quando calicem accipit.</p>
+          <p xml:id="ta-l4d24q2-d1e341">Sed contra, principalis actus sacerdotis est consecrare corpus Christi. Sed ad hoc
+            datur sibi potestas in acceptione calicis. Ergo tunc imprimitur character.</p>
+          <p xml:id="ta-l4d24q2-d1e344">Respondeo dicendum, quod, sicut dictum est, ejusdem est formam aliquam inducere, et
+            materiam de proximo praeparare ad formam. Unde episcopus in collatione ordinum duo
+            facit: praeparat enim ordinandos ad ordinis susceptionem, et ordinis potestatem tradit.
+            Praeparat quidem et instruendo eos de proprio officio, et aliquid circa eos operando, ut
+            idonei sint potestatem accipiendi: quae quidem praeparatio in tribus consistit, scilicet
+            benedictione, manus impositione, et unctione. Per benedictionem, divinis obsequiis
+            mancipatur; et ideo benedictio omnibus datur. Sed per manus impositionem datur plenitudo
+            gratiae, per quam ad magna officia sint idonei: et ita solis diaconibus et sacerdotibus
+            fit manus impositio: quia eis competit dispensatio sacramentorum, quamvis uni ut
+            principali, et alteri sicut ministro. Sed unctione ad aliquod sacramentum tractandum
+            consecrantur; et ideo unctio solis sacerdotibus fit, qui propriis manibus corpus Christi
+            tangunt, sicut etiam calix inungitur qui continet sanguinem, et patena quae continet
+            corpus. Sed potestatis collatio fit per hoc quod datur eis aliquid quod ad proprium
+            actum pertinet; et quia principalis actus sacerdotis est consecrare corpus et sanguinem
+            Christi, ideo in ipsa datione calicis sub forma verborum determinata character
+            sacerdotalis imprimitur.</p>
+          <p xml:id="ta-l4d24q2-d1e347">Ad primum ergo dicendum, quod in confirmatione non datur officium operandi super
+            aliquam materiam exteriorem: et ideo ibi character non imprimitur in aliqua exhibitione
+            alicujus rei, sed in sola manus impositione, et unctione; sed in ordine sacerdotali
+            aliter est; et ideo non est simile.</p>
+          <p xml:id="ta-l4d24q2-d1e351">Ad secundum dicendum, quod dominus discipulis dedit sacerdotalem potestatem quantum ad
+            principalem actum ante passionem in coena, quando dixit Matth. 26, 26: <quote xml:id="ta-l4d24q2-Qd1e353" ana="#mt26_26">accipite,
+              et manducate</quote>; unde subjunxit Lucae 22, 19: <quote xml:id="ta-l4d24q2-Qd1e356">hoc facite in meam
+              commemorationem</quote>. Sed post resurrectionem dedit eis sacerdotalem potestatem
+            quantum ad actum secundarium, qui est ligare et absolvere.</p>
+          <p xml:id="ta-l4d24q2-d1e360">Ad tertium dicendum, quod in vestibus non requiritur alia consecratio, nisi quod divino
+            cultui mancipentur; et ideo sufficit eis pro consecratione benedictio; sed aliter est de
+            ordinatis, ut ex dictis patet.</p>
+          <p xml:id="ta-l4d24q2-d1e363">Ad quartum dicendum, quod vestis sacerdotalis non significat potestatem sacerdoti
+            datam, sed idoneitatem quae in eo requiritur ad actum potestatis exequendum; et ideo nec
+            sacerdoti nec alicui alii imprimitur character in alicujus vestis datione.</p>
+          <p xml:id="ta-l4d24q2-d1e366">Ad quintum dicendum, quod potestas diaconi est media inter potestatem subdiaconi et
+            sacerdotis. Sacerdos enim directe habet potestatem super corpus Christi; subdiaconus
+            autem super vasa tantum; sed diaconus super corpus in vase contentum: unde ejus non est
+            tangere corpus Christi, sed portare corpus Christi in patena, et dispensare sanguinem
+            cum calice; et ideo ejus potestas ad actum principalem non potuit exprimi nec per
+            dationem vasis tantum, nec per dationem materiae; sed exprimitur potestas ejus ad actum
+            secundarium in hoc quod datur sibi liber Evangeliorum; et in hac potestate intelligitur
+            alia; et ideo in ipsa libri datione imprimitur character.</p>
+          <p xml:id="ta-l4d24q2-d1e369">Ad sextum dicendum, quod principalior actus acolythi est quo ministrat in urceolo quam
+            quo ministrat in candelabro, quamvis denominetur ab actu secundario, propter hoc quod
+            est magis notus, et magis proprius ei; et ideo in datione urceoli imprimitur character
+            virtute verborum ab episcopo pronuntiatorum.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

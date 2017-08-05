@@ -1,0 +1,635 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum III, Distinctio 27, Quaestio 2</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.09-dev-master">
+          <title>Librum III, Distinctio 27, Quaestio 2</title>
+          <date when="2016-03-13">March 13, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-13">March 13, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness>1856 editum</witness>
+          <witness xml:id="H" n="harv245" xml:base="http://iiif.lib.harvard.edu/manifests/drs:51994085/canvas/">Cambridge, Mass.,
+            Harvard University, Houghton Library, MS Lat 245</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="2015.09">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+
+
+
+
+      <div xml:id="starts-on">
+        <cb ed="#H" n="103rb"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ta-l3d27q2">
+        <head xml:id="ta-l3d27q2-Hd1e97">Librum III, Distinctio 27, Quaestio 2</head>
+        <head xml:id="ta-l3d27q2-Hd1e100" type="questionTitle">De caritate</head>
+        
+        <div xml:id="ta-l3d27q2-Dd1e103">
+          <head xml:id="ta-l3d27q2-Hd1e105">Prooemium</head>
+          <p xml:id="ta-l3d27q2-d1e108">Deinde quaeritur de caritate; et circa hoc quaeruntur quatuor: 1 quid sit caritas; 2
+            utrum sit virtus; 3 in quo sit sicut in subjecto; 4 de comparatione ejus ad alias
+            virtutes.</p>
+        </div>
+        <div xml:id="ta-l3d27q2-Dd1e112" type="articulus">
+          <head xml:id="ta-l3d27q2-Hd1e114">Articulus 1</head>
+
+          <head xml:id="ta-l3d27q2-Hd1e117" type="questionTitle">Utrum caritas sit idem quod concupiscentia, vel quid sit
+            caritas</head>
+
+          <p xml:id="ta-l3d27q2-d1e120">Ad primum sic proceditur. Videtur quod caritas sit idem quod concupiscentia. Augustinus
+            enim dicit, quod caritas est virtus qua Deum videre perfruique eo desideramus. Hoc autem
+            concupiscentiae est. Ergo caritas est concupiscentia.</p>
+          <p xml:id="ta-l3d27q2-d1e123">Item, videtur quod sit idem quod amor. Quia, sicut dicit Dionysius, dilectio est idem
+            quod amor. Sed in littera dicitur, quod <quote xml:id="ta-l3d27q2-Qd1e125">amor est dilectio qua diligitur Deus
+              propter se, et proximus propter Deum</quote>. Ergo caritas est idem quod amor.</p>
+          <p xml:id="ta-l3d27q2-d1e129">Item, videtur quod sit idem quod benevolentia. Benevolentia enim est qua alicui aliquod
+            bonum optamus. Sed hoc facit caritas, quia optat sibi et aliis vitam aeternam, secundum
+            quod dicitur habens caritatem diligere proximum sicut seipsum. Ergo caritas est idem
+            quod benevolentia.</p>
+          <p xml:id="ta-l3d27q2-d1e133">Praeterea, videtur quod sit idem quod concordia. Quia caritas unitatem Ecclesiae facit,
+            quae in hoc consistit ut idem dicamus omnes, et non sint in nobis schismata, ut dicitur
+            1 Corinth., 1. Hoc autem ad concordiam pertinet. Ergo caritas est idem quod
+            concordia.</p>
+          <p xml:id="ta-l3d27q2-d1e136">Praeterea, videtur quod sit idem quod beneficentia. Quia modus caritatis est ut
+            diligamus non lingua tantum, sed opere et veritate; 1 Joan. 3. Sed diligere per
+            effectum, ad beneficentiam pertinet. Ergo caritas videtur esse idem quod
+            beneficentia.</p>
+          <p xml:id="ta-l3d27q2-d1e139">Praeterea, videtur quod sit idem quod pax. Caritas enim est vinculum faciens spirituum
+            unitatem. Hoc autem paci attribuitur; Ephes. 4, 3: <quote xml:id="ta-l3d27q2-Qd1e141">soliciti servare unitatem
+              spiritus in vinculo pacis</quote>. Ergo caritas est idem quod pax.</p>
+          <p xml:id="ta-l3d27q2-d1e145">Praeterea, videtur quod sit idem quod amicitia. Quia, ut dicit philosophus in 9 Ethic.,
+            amicitia superabundantiae amoris similatur. Sed caritas habet superabundantissimum
+            amorem; unde et caritas dicitur, eo quod sub inaestimabili pretio, quasi carissimam rem,
+            ponat amatum. Ergo caritas est idem quod amicitia.</p>
+          <p xml:id="ta-l3d27q2-d1e148">Sed contra, amicitia, ut dicit philosophus, est redamantium. Sed caritas est etiam ad
+            inimicos. Ergo non est idem quod amicitia.</p>
+          <p xml:id="ta-l3d27q2-d1e151">Praeterea, amicitia est non latens. Sed caritas maxime latet. Ergo non est
+            amicitia.</p>
+          <p xml:id="ta-l3d27q2-d1e155">Praeterea, amicitia est eorum qui convivunt ad invicem, et communicant in eisdem
+            operibus. Sed caritas est ad Deum et ad Angelos, quorum conversatio non est cum
+            hominibus. Ergo caritas non est amicitia.</p>
+          <p xml:id="ta-l3d27q2-d1e158">Praeterea, amicitia quaerit maxime colloqui, et videre amicum, ut dicit philosophus.
+            Sed hoc non quaerit caritas, ut dicit Hieronymus in prologo Bibliae. Ergo non est idem
+            quod amicitia.</p>
+          <p xml:id="ta-l3d27q2-d1e161">Praeterea, amicitia non est nisi ad paucos, et virtuosos. Sed caritas est ad omnes,
+            etiam malos. Ergo caritas non est idem quod amicitia.</p>
+          <p xml:id="ta-l3d27q2-d1e164">Respondeo dicendum, quod amor est quaedam quietatio, ut supra dictum est, quaest.
+            praec., art. 1; unde sicut appetitus invenitur in parte sensitiva et intellectiva, ita
+            et amor. Ea autem quae ad sensitivum appetitum pertinent, ad intellectivum
+            transferuntur, sicut nomina passionum. Quod autem appetitus intellectivi est proprium,
+            sensitivo appetitui non convenit, ut nomen voluntatis. Et ideo amor in utroque appetitu
+            invenitur. Et secundum quod invenitur in appetitu sensitivo, proprie dicitur amor, eo
+            quod passionem importat; secundum autem quod invenitur in intellectiva parte, dicitur
+            dilectio, quae electionem includit, quae ad appetitum intellectivum pertinet.
+            Nihilominus nomen amoris etiam ad superiorem partem transfertur; nomen autem dilectionis
+            ad inferiorem nunquam. Omnia autem alia nomina quae ad amorem pertinere videntur, vel
+            includuntur ab istis, vel includunt ea, quasi addentia aliquid supra dilectionem et
+            amorem. Quia enim amor unit quodammodo amantem amato, ideo amans se habet ad amatum
+            quasi ad seipsum, vel ad id quod est de perfectione sui. Ad seipsum autem et ad ea quae
+            sui sunt, hoc modo se habet ut primo velit sibi praesens esse quidquid de perfectione
+            sua est; et ideo amor includit concupiscentiam amati, qua desideratur ejus praesentia.
+            Secundo homo alia in seipsum retorquet per affectum, et sibi appetit quaecumque sibi
+            expediunt; et secundum quod hoc ad amatum efficitur, amor benevolentiam includit,
+            secundum quam aliquis amato bona desiderat. Tertio homo ea quae sibi appetit, operando
+            sibi acquirit; et secundum quod hoc ad alium exercetur, beneficentia in amore
+            includitur. Quarto homo ea quae sibi bona videntur, implere consentit: et secundum quod
+            hoc ad amicum fit, amor concordiam includit, secundum quam aliquis consentit in his quae
+            amico videntur: non quidem in speculativis: quia concordia in his, secundum philosophum,
+            9 Ethic., ad amicitiam non pertinet, et discordia in eisdem esse potest sine amicitiae
+            praejudicio, eo quod in his concordare vel discordare, voluntati non subjacet, cum
+            intellectus ratione cogatur. Amor tamen super quatuor praedicta aliquid addit, scilicet
+            quietationem appetitus in re amata, sine qua quodlibet praedictorum quatuor esse potest.
+            Sunt etiam quaedam quae super dilectionem vel amorem aliquid addunt. Amatio enim addit
+            super amorem intensionem quamdam amoris, quasi fervorem quemdam. Amicitia vero addit
+            duo: quorum unum est societas quaedam amantis et amati in amore, ut scilicet mutuo se
+            diligere sciant; aliud est ut ex electione operentur, non tantum ex passione. Unde dicit
+            philosophus, quod amicitia similatur habitui, amatio autem passioni. Sic ergo patet quod
+            amicitia est perfectissimum inter ea quae ad amorem pertinent, omnia praedicta
+            includens; unde in genere hujusmodi ponenda est caritas, quae est quaedam amicitia
+            hominis ad Deum, per quam homo Deum diligit, et Deus hominem; et sic efficitur quaedam
+            associatio hominis ad Deum, ut 1 Joan., 1, 7: <quote xml:id="ta-l3d27q2-Qd1e166">si in luce ambulamus, sicut et ipse
+              in luce est, societatem habemus ad invicem</quote>.</p>
+          <p xml:id="ta-l3d27q2-d1e170">Ad primum ergo dicendum, quod quaelibet amicitia concupiscentiam seu desiderium
+            includit, et aliquid super eam addit, ut dictum est.</p>
+          <p xml:id="ta-l3d27q2-d1e173">Ad secundum dicendum, quod caritas addit aliquid supra dilectionem et amorem.</p>
+          <p xml:id="ta-l3d27q2-d1e177">Et similiter dicendum ad tertium de benevolentia, et ad quartum de concordia, et ad
+            quintum de beneficentia.</p>
+          <p xml:id="ta-l3d27q2-d1e180">Ad sextum dicendum, quod pax ad concordiam reducitur: nisi quod magis pax dicitur
+            quantum ad remotionem discordiae, concordia autem quantum ad ipsam unionem.</p>
+          <p xml:id="ta-l3d27q2-d1e183">Ad septimum dicendum, quod caritas est amicitia, sed aliquid addit supra ipsam,
+            scilicet determinationem amici: quia est amicitia ad Deum, quae omnibus pretiosior est
+            et carior.</p>
+          <p xml:id="ta-l3d27q2-d1e186">Ad octavum dicendum, quod amicus non tantum diligit amicum ad quem amicitiam habet, sed
+            omnia quae ad ipsum pertinent, quamvis ab illis non ametur, sicut filios ejus, fratres
+            et hujusmodi. Similiter et caritas diligere facit principaliter Deum, qui amantes se
+            amat, et in amando praevenit et homines, inquantum illius sunt. Unde quod dicitur, quod
+            amicitia est redamantium, intelligitur quantum ad eos inter quos principaliter est
+            amicitia.</p>
+          <p xml:id="ta-l3d27q2-d1e189">Ad nonum dicendum, quod inquantum homines per caritatem deiformes efficiuntur, sic sunt
+            supra homines, et eorum conversatio in caelis est; et sic cum Deo et Angelis ejus
+            conveniunt, inquantum ad similia se extendunt, secundum quod dominus docet:
+              <quote xml:id="ta-l3d27q2-Qd1e191">estote perfecti, sicut et pater vester perfectus est</quote>.</p>
+          <p xml:id="ta-l3d27q2-d1e195">Ad decimum dicendum, quod amicitia dicitur esse non latens, non quod per certitudinem
+            amor amici cognoscatur, sed quia per signa probabilia amor mutuus hinc inde colligitur;
+            et talis manifestatio potest esse de caritate inquantum per aliqua signa potest aliquis
+            probabiliter aestimare se habere caritatem.</p>
+          <p xml:id="ta-l3d27q2-d1e199">Ad undecimum dicendum, quod amicitia vera desiderat videre amicum, et colloquiis mutuis
+            gaudere facit, ad quem principaliter est amicitia; non autem ita quod delectatio quae
+            est ex mutua visione et perfruitione, finis amicitiae ponatur, sicut est in amicitia
+            delectabilis; et hoc intendit removere Hieronymus, scilicet quod non est amicitia
+            caritatis principaliter ad homines, sed est Christi glutino copulata, et quod delectatio
+            principaliter de amicis non est quaerenda.</p>
+          <p xml:id="ta-l3d27q2-d1e202">Ad duodecimum dicendum, quod objectio illa procedit quantum ad illum ad quem attenditur
+            principaliter amicitia, et non de illis qui diliguntur inquantum ad amicum principaliter
+            pertinent, quia sic multorum est.</p>
+        </div>
+        <div xml:id="ta-l3d27q2-Dd1e206" type="articulus">
+          <head xml:id="ta-l3d27q2-Hd1e208">Articulus 2</head>
+
+          <head xml:id="ta-l3d27q2-Hd1e211" type="questionTitle">Utrum caritas sit virtus</head>
+
+          <p xml:id="ta-l3d27q2-d1e214">Ad secundum sic proceditur. Videtur quod caritas non sit virtus. Caritas enim, ut
+            dictum est, est quaedam amicitia hominis ad Deum. Sed amicitia a philosophis non ponitur
+            virtus, sed habet virtutem pro fundamento; quia est propter bonum honestum, quod est
+            virtus. Ergo caritas non est virtus.</p>
+          <p xml:id="ta-l3d27q2-d1e217">Praeterea, praecepta legis sunt de actibus virtutum. Sed finis praecepti est caritas, 1
+            Timoth. 1. Ergo caritas est finis virtutum. Sed finis virtutum non est virtus, sed
+            felicitas. Ergo caritas non est virtus.</p>
+          <p xml:id="ta-l3d27q2-d1e220">Praeterea, virtus est ultimum potentiae, ut dicitur in Lib. 1 de Cael. et Mun. Sed
+            delectatio est magis ultimum quam amor: quia ipsa est ex ipsa conjunctione rei amatae,
+            quam amor quaerit. Ergo delectatio magis debet esse virtus quam amor. Cum ergo
+            delectatio non ponatur virtus, neque caritas virtus dici debet.</p>
+          <p xml:id="ta-l3d27q2-d1e224">Praeterea, ad illud ad quod natura sufficit, non oportet quod elevetur per virtutem.
+            Sed diligere Deum super omnia, quod est actus caritatis, potest homo per naturalia,
+            inquantum naturali ratione potest cognoscere ipsum esse summum bonum. Ergo non oportet
+            superaddi aliquam virtutem caritati.</p>
+          <p xml:id="ta-l3d27q2-d1e227">Praeterea, ad hoc quod tendamus in finem, sufficit ipsum cognoscere et desiderare. Sed
+            caritas plus facit; quia facit ipsum amare, et amicitiam ad ipsum habere. Ergo non fuit
+            necessarium quod caritas esset virtus theologica, sed subjecisset desiderium.</p>
+          <p xml:id="ta-l3d27q2-d1e230">Praeterea, virtus est circa difficile, ut dicitur 2 Ethic. Sed amare non est difficile,
+            immo amor omnia difficilia levigat. Ergo caritas non est virtus.</p>
+          <p xml:id="ta-l3d27q2-d1e233">Sed contra, praecepta legis sunt de actibus virtutum. Sed caritas est quae implet omnia
+            praecepta legis: quia <quote xml:id="ta-l3d27q2-Qd1e235" ana="#rom13_10">plenitudo legis est dilectio</quote>: Rom. 13, 10. Ergo
+            caritas est virtus.</p>
+          <p xml:id="ta-l3d27q2-d1e239">Praeterea, esse spirituale est a virtute. Sed non est sine caritate; unde apostolus
+            dicit 1 Corinth. 13, 2: <quote xml:id="ta-l3d27q2-Qd1e241">si habuero omnem fidem (...) caritatem autem non habeam,
+              nihil sum</quote>. Ergo caritas est maxima virtutum.</p>
+          <p xml:id="ta-l3d27q2-d1e245">Praeterea, nihil expellit peccatum nisi virtus. Hoc autem maxime facit caritas, quae
+            operit universa delicta, ut dicitur Prov. 10; ergo caritas est virtus.</p>
+          <p xml:id="ta-l3d27q2-d1e249">Respondeo dicendum, quod finis humanae vitae est felicitas: unde secundum diversas
+            vitas etiam distinguuntur diversae felicitates. Qui enim sunt extra vitam civilem, ad
+            felicitatem civilem non possunt pervenire, quae attingit summum illius vitae. Similiter
+            ad hoc quod ad felicitatem contemplativam quis perveniat, oportet quod illius vitae
+            particeps fiat; unde felicitas ad quam homo per naturalia sua potest devenire, est
+            secundum vitam humanam; et de hac philosophi locuti sunt; unde 1 Ethic. dicitur:
+              <quote xml:id="ta-l3d27q2-Qd1e251">beatos autem ut homines</quote>. Sed quia nobis promittitur quaedam felicitas
+            in qua erimus Angelis aequales, ut patet Matth. 22, quae non solum vires hominis, sed
+            etiam Angelorum, excedit, qui per gratiam ad hanc perducuntur sicut nos; soli autem Deo
+            est naturalis; ideo oportet ad hoc quod ad felicitatem illam divinam homo perveniat quod
+            divinae vitae particeps fiat. Illud autem quod ad alterum convivere facit, maxime
+            amicitia est; quia, ut dicit philosophus 9 Ethic., unusquisque cum suo amico conversatur
+            in illis quae maxime diligit, et quae suam vitam reputat, quasi amico convivere volens;
+            unde quidam simul venantur, quidam simul potant, quidam philosophantur, et sic de aliis.
+            Et ideo oportuit haberi quamdam amicitiam ad Deum, qua sibi conviveremus; et haec est
+            caritas, ut dictum est. Haec autem communicatio divinae vitae facultatem naturae
+            excedit, sicut et felicitas ad quam ordinatur; et ideo oportet quod per aliquod bonum
+            superadditum natura in hoc perficiatur; et haec est ratio virtutis. Unde oportet dicere
+            caritatem virtutem theologicam, quae diffunditur in cordibus nostris per spiritum
+            sanctum qui datus est nobis: Rom. 5.</p>
+          <p xml:id="ta-l3d27q2-d1e255">Ad primum ergo dicendum, quod amicitia de qua philosophus tractat, causatur vel ex
+            inclinatione naturae quantum ad amicitiam delectabilis et utilis; vel ex inclinatione
+            habitus virtuosi praesupposita inclinatione naturae quantum ad amicitiam honesti,
+            inquantum omne quod facit similitudinem cum aliquo, inclinat ad amorem illius; et ideo
+            non ponitur aliqua virtus, sed quiddam consequens ad virtutes. Sed amicitia quam habemus
+            ad Deum, non potest habere aliquod hujusmodi fundamentum, cum naturae metas excedat; et
+            ideo oportet quod per speciale donum in dictam amicitiam elevemur; et hoc donum dicimus
+            virtutem.</p>
+          <p xml:id="ta-l3d27q2-d1e258">Ad secundum dicendum, quod caritas non dicitur esse finis praecepti, quasi ultimus
+            finis virtutum, sed sicut id quo omnes aliae virtutes in finem ultimum ordinantur. Et
+            excludit ibi apostolus tria a caritate, quae verae amicitiae repugnant: quorum primum
+            est fictio, sicut est in simulantibus amicitiam, cum non sint amici: quod removet per
+            hoc quod dicit: <quote xml:id="ta-l3d27q2-Qd1e260">fides non ficta</quote>; fidem pro fidelitate accipiens. Secundum
+            est malum fundamentum, sicut eorum qui communicant in peccato, et ex hoc fiunt amici; et
+            ad hoc removendum dicit: <quote xml:id="ta-l3d27q2-Qd1e263">conscientia bona</quote>. Tertium obliquata intentio,
+            sicut cum quis diligit amicum propter lucrum; et hoc excludit per hoc quod dicit:
+              <quote xml:id="ta-l3d27q2-Qd1e266">de corde puro</quote>.</p>
+          <p xml:id="ta-l3d27q2-d1e270">Ad tertium dicendum, quod actus virtutum cum sint laudabiles, oportet quod habeant
+            principium in nobis. Delectatio autem cum sit ex conjunctione rei convenientis, in
+            quamdam receptionem sonat, et ita in passionem, cujus principium est ab agente; et ideo
+            magis se tenet ex parte praemii: sed dilectio dicit extensionem appetitus in rem amatam,
+            et hoc operationem importat: et ita caritas ponitur virtus: sed fruitio, quae
+            delectationem importat, ponitur dos.</p>
+          <p xml:id="ta-l3d27q2-d1e273">Ad quartum dicendum, quod caritas, ut ex praedictis, art. praeced., patet, amicitiam et
+            amorem et desiderium includit. Desiderium autem naturale non potest esse nisi rei quae
+            naturaliter haberi potest; unde desiderium naturale summi boni inest nobis secundum
+            naturam, inquantum summum bonum participabile est a nobis per effectus naturales.
+            Similiter amor ex similitudine causatur; unde naturaliter diligitur summum bonum super
+            omnia, inquantum habemus similitudinem ad ipsum per bona naturalia. Sed quia natura non
+            potest pervenire ad operationes ejus, quae sunt vita sua, et beatitudo, scilicet visio
+            divinae essentiae; ideo etiam ad amicitiam non pertingit, quae facit amicos convivere,
+            et in omnibus communicare; et ideo oportet superaddi caritatem, per quam amicitiam ad
+            Deum habeamus, et ipsum amemus, et desideremus assimilari ei per participationem
+            spiritualium donorum, ut participabilem per gloriam ab amicis suis.</p>
+          <p xml:id="ta-l3d27q2-d1e276">Ad quintum dicendum, quod non sufficit desiderium, sed oportet esse communicationem in
+            vita, ut dictum est, art. 1.</p>
+          <p xml:id="ta-l3d27q2-d1e280">Ad sextum dicendum, quod difficultas quae est in operibus virtutum, non semper est
+            laboris, vel alicujus contristantis; sed proprie ea quorum est virtus dicuntur habere
+            difficultatem, inquantum supra vires elevantur eorum qui virtutem non habent.</p>
+        </div>
+        <div xml:id="ta-l3d27q2-Dd1e285" type="articulus">
+          <head xml:id="ta-l3d27q2-Hd1e287">Articulus 3</head>
+
+          <head xml:id="ta-l3d27q2-Hd1e290" type="questionTitle">Utrum subjectum caritatis sit ratio</head>
+
+          <p xml:id="ta-l3d27q2-d1e293">Ad tertium sic proceditur. Videtur quod subjectum caritatis sit ratio. Omnis enim
+            virtutis, ut in 1 Ethic. dicitur, subjectum est rationale per participationem, vel
+            rationale per essentiam. Sed caritas est virtus, ut dictum est. Cum ergo subjectum ejus
+            non sit rationale per participationem, quia sic esset virtus moralis, videtur quod
+            subjectum ejus sit rationale per essentiam.</p>
+          <p xml:id="ta-l3d27q2-d1e296">Praeterea, ea quae mutuo se expellunt, oportet esse in eodem. Sed caritas et peccatum
+            mortale mutuo se expellunt. Cum ergo omne peccatum mortale, sit vel in ratione superiori
+            vel inferiori, ut in 2 Lib., dist. 30, dictum est; videtur quod etiam caritas sit in
+            ratione.</p>
+          <p xml:id="ta-l3d27q2-d1e299">Praeterea, sicut caritas est principalis in gratuitis virtutibus, ita prudentia in
+            moralibus. Sed prudentiae subjectum est ratio. Ergo et caritatis.</p>
+          <p xml:id="ta-l3d27q2-d1e303">Praeterea, cum caritas sit virtus theologica, non potest esse in parte sensitiva, cujus
+            objectum Deus esse non potest. Ergo oportet quod sit in parte intellectiva. Sed non est
+            in libero arbitrio: quia objectum ejus est contingens operabile a nobis; caritas autem
+            est ultimi finis, supra quem non cadit contingentia, neque nostra operatio, neque
+            electio. Similiter non potest esse in voluntate: quia voluntas non habet determinatum
+            actum, sed imperat omnes actus animae; unde si caritas esset in voluntate, eadem ratione
+            quaelibet alia virtus. Ergo restat quod sit in ratione.</p>
+          <p xml:id="ta-l3d27q2-d1e306">Praeterea, philosophi de virtutibus tractantes nullam virtutem in voluntate posuerunt,
+            ponentes intellectuales in rationali per essentiam, morales vero in rationali per
+            participationem, cujusmodi est irascibilis et concupiscibilis, ut patet ex 1 Ethic. Cum
+            ergo caritas sit virtus, videtur quod non sit in voluntate.</p>
+          <p xml:id="ta-l3d27q2-d1e309">Sed contra, objectum rationis est verum; caritatis autem non, sed magis bonum. Ergo
+            caritas est in voluntate, non in ratione.</p>
+          <p xml:id="ta-l3d27q2-d1e312">Praeterea, amor ad appetitum pertinet. Sed ratio pertinet ad cognitionem. Ergo caritas
+            non est in ratione.</p>
+          <p xml:id="ta-l3d27q2-d1e315">Respondeo dicendum, quod ad sciendum in qua potentia est aliqua virtus, oportet
+            considerare cui potentiae actus ejus competat. Actus autem principalis caritatis est
+            diligere Deum: qui quidem rationis est quasi dirigentis, sed appetitus quasi exequentis.
+            Unde oportet quod ad appetitum reducatur. Non potest autem hunc actum exequi appetitus
+            sensitivus, quia ejus objectum Deus esse non potest. Ergo oportet quod ad appetitum
+            intellectivae partis pertineat, non inquantum est electivus eorum quae sunt ad finem,
+            sed inquantum se habet ad ipsum ultimum finem; et hoc est voluntatis; unde proprium
+            subjectum caritatis est voluntas. Quidam autem dicunt, caritatem in concupiscibili esse;
+            quod esse non potest: quia concupiscibilis pars appetitus sensitivae est partis. Et si
+            dicatur concupiscibilis humana, hoc non habet nisi per participationem rationis; nisi
+            forte ipsam voluntatem aequivoce irascibilem et concupiscibilem vocare vellent.</p>
+          <p xml:id="ta-l3d27q2-d1e318">Ad primum ergo dicendum, quod pars rationalis per essentiam non dicitur solum ipsa
+            ratio, sed etiam appetitus rationi annexus, scilicet voluntas; unde philosophus dicit in
+            3 de anima, quod voluntas in ratione est. Et ideo caritas non est virtus moralis, quia
+            non est circa passiones, quae sunt in appetitu sensitivo, qui est rationalis per
+            participationem: neque est virtus intellectualis; non enim est in ratione per essentiam
+            quantum ad vires apprehensivas; sed est virtus theologica.</p>
+          <p xml:id="ta-l3d27q2-d1e322">Ad secundum dicendum, quod peccatum mortale non semper dicitur esse in ratione sicut in
+            subjecto, cum quandoque sit in irascibili, quandoque in concupiscibili; sed est semper
+            in ratione sicut in dirigente, et in voluntate, seu libero arbitrio, sicut imperante et
+            dirigente actum ejus: et sic etiam caritas habet rationem quasi dirigentem in suo actu,
+            vel magis intellectum.</p>
+          <p xml:id="ta-l3d27q2-d1e325">Ad tertium dicendum, quod prudentia principalis est in virtutibus moralibus, inquantum
+            est directiva omnium; et ideo ad rationem pertinet: sed caritas est principalis per
+            modum imperantis et conjungentis fini et informantis; quod pertinet ad voluntatem.</p>
+          <p xml:id="ta-l3d27q2-d1e328">Ad quartum dicendum, quod nec appetitus sensitivus, nec liberum arbitrium, proprie
+            loquendo, est subjectum caritatis; sed voluntas, quae quamvis habeat se quodammodo ut
+            causa ad omnes actus humanos, non tamen eodem modo se habet ad omnes. Quosdam enim actus
+            ipsa elicit, inquantum est quaedam specialis potentia, sicut velle; quosdam vero
+            imperat, ut est universalis motor virium animae. Unde virtutes perficientes ad actus
+            quod voluntas tantum imperat, non sunt in voluntate sicut in subjecto, sed in illis
+            potentiis quae illos actus eliciunt; sed virtutes perficientes ad actus quos voluntas
+            elicit, sunt in voluntate quasi in subjecto: et sic non est eadem ratio de omnibus.
+            Diligere autem est actus a voluntate elicitus, cum importet quietationem voluntatis, et
+            transformationem quamdam in rem amatam; et ideo caritas, quae ad hunc actum perficit,
+            est in voluntate sicut in subjecto.</p>
+          <p xml:id="ta-l3d27q2-d1e331">Ad quintum dicendum, quod virtutes, ut supra dictum est, dist. 23, quaest. 1, art. 1,
+            sunt nobis necessariae ad hoc quod potentiae naturales determinentur ad bonum; unde in
+            illis in quibus potentiae naturales sunt ex sui natura ad bonum determinatae, non
+            requiruntur aliae virtutes. Voluntas autem habet bonum, quod est finis, pro objecto;
+            unde quantum in se est, naturaliter est determinata ad bonum; quod est finis humanae
+            naturae proportionatus: et ideo in voluntate respectu finis ultimi, philosophi nullam
+            virtutem posuerunt. Tamen oportet ponere aliquam virtutem acquisitam in voluntate
+            secundum quod est eorum quae sunt ad finem, scilicet justitiam, ut infra dicetur, dist.
+            33, quaest. 2, art. 4, quaestiunc. 2, quae est circa bona quae in usum vitae veniunt, et
+            tamen inter morales computatur: quia voluntas quamvis secundum suam essentiam sit in
+            rationali per essentiam, tamen quantum ad similitudinem actus convenit cum irascibili et
+            concupiscibili, quae dicuntur rationales per participationem: et ipsa etiam voluntas
+            aliqualiter rationem participat, inquantum a ratione apprehensiva dirigitur. At secundum
+            doctrinam fidei ponitur finis ultimus naturalem inclinationem excedens; et ideo secundum
+            theologos oportet ponere virtutem aliquam in voluntate ad elevandum in praedictum finem:
+            et hanc dicimus caritatem.</p>
+        </div>
+        <div xml:id="ta-l3d27q2-Dd1e335" type="articulus">
+          <head xml:id="ta-l3d27q2-Hd1e337">Articulus 4</head>
+
+          <head xml:id="ta-l3d27q2-Hd1e340" type="questionTitle">Utrum caritas sit una virtus vel plures</head>
+          <div xml:id="ta-l3d27q2-Dd1e343">
+            <head xml:id="ta-l3d27q2-Hd1e345">Quaestiuncula 1</head>
+            <p xml:id="ta-l3d27q2-d1e348">Ad quartum sic proceditur. Videtur quod caritas non sit una virtus. Habitus enim
+              distinguuntur per actus, et actus per objecta. Sed caritas habet duo objecta maxime
+              distantia, scilicet Deum et proximum. Ergo non est una virtus.</p>
+            <p xml:id="ta-l3d27q2-d1e351">Praeterea, virtutes theologicae a moralibus distinguuntur: quia virtutes morales
+              dirigunt in his quae sunt ad finem, theologicae autem sunt de ipso fine. Sed caritas
+              est et de fine, inquantum per eam diligitur Deus; et de his quae sunt ad finem,
+              inquantum per eam diligitur proximus. Ergo caritas continet duas virtutes, quarum una
+              est moralis et alia theologica.</p>
+            <p xml:id="ta-l3d27q2-d1e354">Praeterea, virtutes ad actus aliquos ordinantur: quia virtus est optimorum operativa,
+              ut dicitur in 2 Eth., et modum aliquem in suis actibus ponunt: quia virtus est in hoc
+              quod non solum bona, sed bene fiant; et iterum actus virtutum per praecepta legis
+              imperantur. Sed caritas habet duos actus et duos modos et duo praecepta. Ergo non est
+              una virtus.</p>
+            <p xml:id="ta-l3d27q2-d1e357">Sed contra, motor in quolibet genere est unus tantum. Sed caritas movet omnes alias
+              virtutes ad suum finem per actus proprios. Ergo caritas est una virtus.</p>
+            <p xml:id="ta-l3d27q2-d1e361">Praeterea, objectum caritatis est Deus, cum sit virtus theologica. Sed Deus est summe
+              unus. Ergo caritas est una tantum virtus.</p>
+          </div>
+          <div xml:id="ta-l3d27q2-Dd1e365">
+            <head xml:id="ta-l3d27q2-Hd1e367">Quaestiuncula 2</head>
+            <p xml:id="ta-l3d27q2-d1e370">Ulterius. Videtur quod non sit distincta ab aliis virtutibus. Quidquid enim cadit in
+              distinctione virtutis, non distinguitur a virtutibus. Sed caritas est hujusmodi; unde
+              Hieronymus dicit: <quote xml:id="ta-l3d27q2-Qd1e372">ut breviter omnem virtutis definitionem complectar, virtus
+                est caritas qua diligitur Deus et proximus</quote>: et Augustinus dicit, quod virtus
+              est ordo amoris. Ergo caritas non distinguitur ab aliis virtutibus.</p>
+            <p xml:id="ta-l3d27q2-d1e376">Praeterea, virtutes distinguuntur per actus. Sed actus omnium aliarum virtutum
+              caritati attribuuntur, ut patet 1 Cor. 13. Ergo caritas non est virtus distincta ab
+              aliis virtutibus.</p>
+            <p xml:id="ta-l3d27q2-d1e379">Praeterea, quaelibet virtus specialis habet speciale objectum. Sed caritas non habet
+              speciale objectum, sed omnibus commune, scilicet bonum. Ergo caritas non est specialis
+              virtus.</p>
+            <p xml:id="ta-l3d27q2-d1e382">Praeterea, praecepta legis sunt de actibus virtutum. Sed praeceptum quod ad caritatem
+              pertinet, non distinguitur ab aliis praeceptis; sed omnia alia praecepta complectitur.
+              Ergo et caritas non distinguitur ab aliis virtutibus.</p>
+            <p xml:id="ta-l3d27q2-d1e386">Sed contra, omne quod dividitur contra alia, est distinctum ab illis. Sed caritas
+              distinguitur contra alias virtutes theologicas, ut patet 1 Corinth. 13, et per
+              Gregorium, qui dicit, quod caritas signatur per unam de filiabus Job. Ergo est virtus
+              specialis.</p>
+            <p xml:id="ta-l3d27q2-d1e389">Praeterea, philosophus probat justitiam esse specialem virtutem per hoc quod habet
+              aliquod vitium speciale sibi tantum oppositum. Sed caritas habet aliquod vitium
+              speciale sibi tantum oppositum, scilicet odium. Ergo caritas est virtus specialis.</p>
+          </div>
+          <div xml:id="ta-l3d27q2-Dd1e393">
+            <head xml:id="ta-l3d27q2-Hd1e395">Quaestiuncula 3</head>
+            <p xml:id="ta-l3d27q2-d1e398">Ulterius. Videtur quod caritas non sit forma aliarum virtutum. Omnis enim forma vel
+              est exemplaris vel intrinseca. Sed caritas non est forma exemplaris virtutum, quia
+              tunc in eamdem speciem traherentur aliae virtutes: nec iterum est forma intrinseca:
+              quia daret esse et speciem aliis virtutibus; et sic omnes virtutes essent eaedem
+              specie, et essent in eodem subjecto ubi est caritas, nec ab ipsa distinguerentur. Ergo
+              caritas nullo modo est forma virtutum.</p>
+            <p xml:id="ta-l3d27q2-d1e401">Praeterea, caritas differt a gratia. Sed gratia dicitur esse forma omnium virtutum,
+              quia facit actum meritorium. Ergo caritas non est forma.</p>
+            <p xml:id="ta-l3d27q2-d1e404">Praeterea, sicut se habet potentia ad potentiam, ita habitus ad habitum. Sed ratio
+              imponit modum omnibus aliis viribus. Ergo et habitus existens in ratione omnibus aliis
+              habitibus; et ita fides est magis forma virtutum quam caritas; vel etiam prudentia,
+              quae etiam ponitur a philosophis quasi forma omnium aliarum virtutum.</p>
+            <p xml:id="ta-l3d27q2-d1e407">Praeterea, forma efficiens et finis non incidunt in idem numero, ut dicitur in 2
+              Phys. Sed caritas est finis praecepti, et ita virtutum: est etiam motor, inquantum
+              imperat actus earum. Ergo ipsa non est forma.</p>
+            <p xml:id="ta-l3d27q2-d1e411">Praeterea, habitus indicantur per actus. Sed unaquaeque virtus ponit suum modum vel
+              formam in actu suo, secundum quem justus juste facit, et fortis fortiter. Ergo
+              virtutes non formantur per caritatem, sed per seipsas formatae sunt.</p>
+            <p xml:id="ta-l3d27q2-d1e414">Sed contra, Ambrosius dicit, quod caritas omnes alias virtutes informat et est mater
+              earum.</p>
+            <p xml:id="ta-l3d27q2-d1e417">Praeterea, illud quod est principale, etiam in corporalibus, est formale respectu
+              aliorum; sicut ignis est quodammodo forma aeris, aer aquae, et aqua terrae, ut dicitur
+              4 Physic. Sed caritas est principalis inter alias virtutes. Ergo ipsa est forma
+              aliarum virtutum.</p>
+          </div>
+          <div xml:id="ta-l3d27q2-Dd1e422">
+            <head xml:id="ta-l3d27q2-Hd1e424">Quaestiuncula 4</head>
+            <p xml:id="ta-l3d27q2-d1e427">Ulterius. Videtur quod caritas possit esse informis. Sicut enim fides est in eo qui
+              non operatur bene, ita et dilectio qua Deus diligitur: quia etiam peccatores et
+              infideles Deum diligunt. Sed fides quae est sine operibus, est informis. Ergo
+              similiter caritas.</p>
+            <p xml:id="ta-l3d27q2-d1e430">Praeterea, nullus scit se habere gratiam. Potest autem aliquis scire se habere
+              dilectionem. Ergo dilectio Dei potest esse sine gratia; et ita potest esse
+              informis.</p>
+            <p xml:id="ta-l3d27q2-d1e433">Praeterea, ex fide oriuntur timor et amor. Sed timor potest esse informis, ut patet
+              de timore servili. Ergo et amor.</p>
+            <p xml:id="ta-l3d27q2-d1e436">Sed contra, spiritus sanctus non potest esse sine gratia. Sed caritas Dei diffunditur
+              in cordibus nostris per spiritum sanctum; Rom. 5. Ergo caritas non potest esse
+              informis.</p>
+            <p xml:id="ta-l3d27q2-d1e440">Praeterea, forma non potest esse informis. Sed caritas est forma omnium aliarum
+              virtutum. Ergo ipsa non potest esse informis.</p>
+          </div>
+          <div xml:id="ta-l3d27q2-Dd1e444">
+            <head xml:id="ta-l3d27q2-Hd1e446">Quaestiuncula 1</head>
+            <p xml:id="ta-l3d27q2-d1e449">Respondeo dicendum ad primam quaestionem, quod virtus specificatur ex objecto suo
+              secundum illam rationem qua principaliter in ipsum tendit; unde cum caritas diligat
+              Deum principaliter, et omnia alia non diligat nisi inquantum sunt Dei, constat quod ex
+              unitate divinae bonitatis, quam caritas primo respicit, unitatem recipit, et est una
+              virtus.</p>
+            <p xml:id="ta-l3d27q2-d1e452">Ad primum ergo dicendum, quod proximus non est objectum principale ipsius caritatis,
+              ut dictum est.</p>
+            <p xml:id="ta-l3d27q2-d1e455">Ad secundum dicendum, quod virtutes etiam theologicae dirigunt in his quae sunt ad
+              finem, non quidem secundum proprias rationes rerum quae sunt ad finem, sed secundum
+              rationem finis; sicut fides facit etiam quaedam credere de creaturis propter veritatem
+              primam, a qua accipit: similiter et caritas facit diligere homines inquantum sunt
+              participabiles divinae bonitatis, quae est finis ultimus.</p>
+            <p xml:id="ta-l3d27q2-d1e458">Ad tertium dicendum, quod materialis diversitas objectorum sufficit ad
+              diversificandum actum secundum numerum; sed secundum speciem actus non diversificantur
+              nisi ex diversitate formali objecti. Formalis autem objecti diversitas est secundum
+              illam rationem quam principaliter attendit vel habitus vel potentia; et ideo diligere
+              Deum et proximum sunt quidem diversi actus, sed ad eumdem habitum pertinent; sicut
+              etiam videre album et nigrum, et propinquum et distans, sunt diversae visiones
+              secundum numerum, et diversos modos habent, et tamen ad unam visivam potentiam
+              pertinent: et sic etiam de actibus caritatis dantur diversa praecepta secundum
+              diversos modos quos habent.</p>
+          </div>
+          <div xml:id="ta-l3d27q2-Dd1e462">
+            <head xml:id="ta-l3d27q2-Hd1e464">Quaestiuncula 2</head>
+            <p xml:id="ta-l3d27q2-d1e467">Ad secundam quaestionem dicendum, quod, ut dictum est, habitus specificantur ex
+              objectis suis secundum rationem quam principaliter attendunt. Ratio autem objecti
+              sumitur secundum proportionem rei circa quam est operatio habitus vel potentiae, ad
+              actum animae, in qua sunt habitus vel potentiae. Quia autem per operationem animae
+              dividuntur quandoque quae secundum rem conjuncta, et summe unum sunt; ideo contingit
+              quod ubi res est eadem, sunt diversae rationes objecti, sicut eadem res objectum est
+              liberalitatis, ut est donabilis, et justitiae, ut habet debiti rationem. Et similiter
+              ubi res est communis, est ratio objecti particularis et propria: sicut philosophia
+              prima est specialis scientia, quamvis consideret ens secundum quod est omnibus
+              commune: quia specialem rationem entis considerat secundum quod non dependet a materia
+              et a motu: et similiter est in proposito. Objectum enim caritatis proprium et
+              principale est bonitas divina. In omnibus autem aliis virtutibus est aliquod bonum
+              divinum; sed tamen hoc quod est commune secundum rem, habet specialem rationem: et
+              ideo caritas est specialis virtus ab omnibus aliis distincta.</p>
+            <p xml:id="ta-l3d27q2-d1e470">Ad primum ergo dicendum, quod sicut est in scientiis, quod una scientia specialis ab
+              aliis distincta, scilicet prima philosophia, omnibus aliis scientiis perfectionem
+              impartitur, inquantum objectum suum est commune secundum rem objectis omnium aliarum
+              scientiarum; ita etiam est in virtutibus, ubi illud quod ad aliquam virtutem pertinet,
+              potest poni in definitione virtutis communis; sicut patet de prudentia, quae perficit
+              rationem virtutis in omnibus virtutibus moralibus: et ideo ratio recta, quae ad
+              prudentiam pertinet, ponitur in definitione virtutis, ut patet 2 Ethic.: <quote xml:id="ta-l3d27q2-Qd1e472">virtus
+                est habitus electivus in mediocritate consistens determinata ratione, prout sapiens
+                determinabit</quote>. Nec ex hoc habetur quod prudentia non sit specialis virtus,
+              sed quod est generalis regula omnium virtutum; et ita etiam caritas, quae perficit
+              omnes alias virtutes, ponitur in definitione virtutis; nec ex hoc habetur quod sit
+              generalis virtus, sed generalis perfectio virtutum. Tamen hoc quod dicit Augustinus,
+              quod est virtus ordo amoris, potest dupliciter accipi: vel pro ipso amore caritatis,
+              et tunc praedicta responsio tenet; vel pro amore in communi, et sic amor sumitur pro
+              amore naturali, qui inest cuilibet potentiae respectu sui objecti, quem virtus
+              determinat: quia est ordinatio affectionum animae. Quidam autem non attendentes
+              differentiam naturalis amoris vel appetitus, ad amorem et appetitum animalem, intantum
+              erraverunt, quod posuerunt concupiscibilem non esse specialem vim, sed diffusam in
+              omnibus aliis viribus; et similiter caritatem indistinctam ab aliis virtutibus.</p>
+            <p xml:id="ta-l3d27q2-d1e476">Ad secundum dicendum, quod actus aliarum virtutum non attribuuntur caritati quasi
+              ipsa eos eliciat, sed quia ipsa eos imperat. Habet autem specialem actum quem elicit,
+              diligere Deum.</p>
+            <p xml:id="ta-l3d27q2-d1e479">Ad tertium dicendum, quod non quodlibet bonum est objectum caritatis, sed bonum
+              divinum; et hoc etiam quamvis sit in omnibus bonis aliqualiter, tamen habet specialem
+              rationem, ut dictum est.</p>
+            <p xml:id="ta-l3d27q2-d1e483">Ad quartum dicendum, quod praeceptum ad caritatem pertinens, non comprehendit omnia
+              alia praecepta sicut universale ad illa, sed per quamdam reductionem, quia omnia
+              praecepta ad illud ordinantur, sicut etiam actus omnium aliarum virtutum ad actum
+              caritatis, inquantum omnes imperat. Unde ex hoc non ostenditur quod caritas sit
+              generalis virtus, sed quod est generalis motor omnium virtutum.</p>
+          </div>
+          <div xml:id="ta-l3d27q2-Dd1e487">
+            <head xml:id="ta-l3d27q2-Hd1e489">Quaestiuncula 3</head>
+            <p xml:id="ta-l3d27q2-d1e492">Ad tertiam quaestionem dicendum, quod caritas ad omnes alias virtutes comparatur et
+              ut motor et ut finis et ut forma. Quod autem motor sit omnium aliarum virtutum, ex hoc
+              patet, quia ipsum bonum, quod est objectum caritatis sub ratione finis, est finis
+              virtutum. In omnibus autem potentiis vel artibus ordinatis ita accidit, quod ars vel
+              potentia quae est circa finem, ordinat aliarum actus ad finem proprium; sicut
+              militaris, quae est propter victoriam, ad quam omne officium bellicum ordinatur,
+              ordinat equestrem et navalem et omnia hujusmodi in suum finem; et ideo dicitur caritas
+              mater aliarum virtutum, inquantum earum actus producit ex conceptione finis, inquantum
+              ipse finis habet se per modum seminis, cum sit principium in operabilibus, ut dicit
+              philosophus: et secundum hoc dicitur imperare actus inferiorum virtutum, secundum quod
+              facit eas operari propter finem suum; et secundum hoc movet alias artes inferiores ad
+              finem suum; unde caritas etiam omnes alias virtutes ad suum finem movet, et secundum
+              hoc dicitur actus earum imperare. Hoc enim interest inter elicere actum et imperare,
+              quod habitus vel potentia elicit illum actum quem producit circa objectum nullo
+              mediante: sed imperat actum qui producitur mediante potentia vel habitu inferiori
+              circa objectum illius potentiae. Sic ergo caritas est motor aliarum virtutum:
+              similiter etiam finis: quia hoc commune est in omnibus virtutibus, quod actus ipsarum
+              sunt proximi fines earum cum actus sit perfectio prima; et minus completum ordinatur
+              ad magis completum sicut ad finem. Finis autem inferioris potentiae vel habitus
+              ordinatur ad finem superioris, sicut finis militaris ad finem civilis; unde actus
+              omnium aliarum virtutum ordinantur ad actum caritatis sicut ad finem; et propter hoc
+              dicitur caritas praecepti finis. Similiter etiam patet quod est forma perficiens
+              unamquamque virtutem in ratione virtutis. Inferior enim potentia non habet
+              perfectionem virtutis nisi secundum quod participat perfectionem potentiae superioris;
+              sicut habitus qui est in irascibili, non habet rationem virtutis, ut dicitur in 4
+              Ethic., nisi inquantum intellectum et discretionem recipit a ratione, quam perficit
+              prudentia; et secundum hoc prudentia ponit modum et formam in omnibus aliis virtutibus
+              moralibus. Omnes autem aliae virtutes quae sunt meritoriae vitae aeternae, secundum
+              quod nunc loquimur de virtutibus, sunt in potentiis voluntati subjectis: quia nullus
+              actus alicujus potentiae potest esse meritorius nisi inquantum habet aliquid de
+              voluntario: quod contingit ex hoc quod voluntas imperat et movet actus aliarum
+              potentiarum. Unde non potest esse quod aliquis habitus existens in aliqua potentia
+              animae habeat rationem virtutis loquendo de virtutibus meritoriis, de quibus hic
+              loquimur, nisi secundum hoc quod in illa potentia participatur aliquid de perfectione
+              voluntatis quam caritas perficit; et ideo caritas est forma virtutum aliarum omnium,
+              sicut prudentia moralium. Et hic est unus modus quo caritas est forma aliarum
+              virtutum. Alii autem duo modi possunt accipi ex hoc quod ipsa est motor et finis,
+              inquantum movens ponit motum suum in instrumento, et ea quae sunt ad finem, diriguntur
+              ex ratione finis; et ita modus caritatis participatur in aliis virtutibus, inquantum
+              moventur a caritate, et inquantum ordinantur in ipsam sicut in finem.</p>
+            <p xml:id="ta-l3d27q2-d1e495">Ad primum ergo dicendum, quod caritas est forma exemplaris virtutum; sed forma
+              exemplaris est duplex. Una ad cujus repraesentationem aliquid fit: et ad hanc non
+              exigitur nisi similitudo tantum: sicut dicimus res veras esse formas exemplares
+              picturarum. Alio modo dicitur forma exemplaris ad cujus similitudinem aliquid fit, et
+              per cujus participationem esse habet; sicut divina bonitas est forma exemplaris omnis
+              bonitatis, et divina sapientia omnis sapientiae; et talis forma exemplaris non oportet
+              quod sit unius speciei cum causatis: quia participantia non semper participant per
+              modum participati; et hoc modo prudentia est forma aliarum virtutum moralium,
+              inquantum sigillatio quedam prudentiae in inferioribus viribus dat habitibus qui ibi
+              sunt, rationem virtutis. Et similiter est de caritate respectu omnium aliarum
+              virtutum.</p>
+            <p xml:id="ta-l3d27q2-d1e498">Ad secundum dicendum, quod inferiores vires non perficiuntur perfectione virtutis,
+              nisi per participationem perfectionis a superioribus. Cum autem superiora sint
+              formalia respectu inferiorum, quasi perfectiora; quod participatur a superioribus in
+              inferioribus, formale est. Unde ad perfectionem virtutis in aliqua potentia tot formae
+              exiguntur, quot superiora sunt respectu illius potentiae; sicut ratio superior est
+              quam concupiscibilis, quasi ordinans ipsam; et ideo prudentia, quae est perfectio
+              rationis, est forma temperantiae, quae est virtus concupiscibilis. Similiter voluntas
+              est superior ratione, secundum quod actus rationis consideratur ut voluntarius et
+              meritorius; et ideo caritas est forma prudentiae et temperantiae. Similiter essentia
+              animae superior est voluntate, inquantum ab essentia et voluntas et omnes vires animae
+              fluunt. Et ideo gratia, quae est perfectio essentiae animae, constituens ipsam in esse
+              spirituali, est forma et caritatis et prudentiae et temperantiae; nec caritas esset
+              virtus si esset sine gratia, sicut nec prudentia si esset sine caritate, loquendo de
+              virtutibus infusis ordinatis ad merendum: neque temperantia sine caritate et
+              prudentia. Quidam autem dicunt, quod caritas et gratia sunt idem per essentiam. Sed de
+              hoc dictum est in 2 Lib., dist. 26, art. 4, corp.</p>
+            <p xml:id="ta-l3d27q2-d1e501">Ad tertium dicendum, quod ratio imponit modum omnibus viribus quae sunt sub ipsa, et
+              similiter voluntas omnibus viribus inferioribus ea. Sed ideo non posuerunt philosophi
+              virtutem nisi a prudentia formari, quia in voluntate, prout est finis ultimi, et in
+              essentia animae non posuerunt aliquam perfectionem superadditam naturae; naturalis
+              autem perfectio constat quod in omnibus virtutibus participatur.</p>
+            <p xml:id="ta-l3d27q2-d1e505">Ad quartum dicendum, quod forma exemplaris incidit in idem numero cum agente et fine;
+              sicut patet in Deo; non autem forma intrinseca.</p>
+            <p xml:id="ta-l3d27q2-d1e508">Ad quintum dicendum, quod inferiora participant perfectiones superiorum secundum
+              modum suum: et ideo participationes determinantur in participantibus ex capacitate et
+              natura participantium. Et ideo unaquaeque virtus quae est in inferiori potentia, habet
+              quidem formam, qua est virtus, ex participatione perfectionis superioris potentiae;
+              sed forma qua est haec virtus, habet ex natura propriae potentiae per determinationem
+              ad proprium objectum; et hanc formam et modum ponit unaquaeque virtus circa suum
+              actum; et iterum illam formam vel modum quem habet ex superiori; sic temperantia in
+              actu suo ponit modum proprium et prudentiae et caritatis et gratiae.</p>
+          </div>
+          <div xml:id="ta-l3d27q2-Dd1e512">
+            <head xml:id="ta-l3d27q2-Hd1e514">Quaestiuncula 4</head>
+            <p xml:id="ta-l3d27q2-d1e517">Ad quartum quaestionem dicendum, quod caritas nunquam potest esse informis: et in hoc
+              omnes concordant. Hoc autem contingit secundum quosdam, ex hoc quod caritas nihil est
+              aliud quam spiritus sanctus. Sed hoc in 1 Lib., dist. 17, qu. 1, art. 1 et 2,
+              destructum est. Secundum alios vero caritas est idem quod gratia; quod in Lib. 2,
+              dist. 26, art. 4, reprobatum est. Et ideo oportet alias rationes assignare. Potest
+              autem hujusmodi ratio ex jam dictis haberi duplex. Prima ratio accipitur ex effectu
+              caritatis: quia cum caritas sit amicitia quaedam, quae requirit convictum inter
+              amatos, non potest esse caritas, nisi sit participatio divinae vitae, quae est per
+              gratiam; ideo caritas sine gratia esse non potest. Secunda ratio potest assignari ex
+              hoc quod ipsa motor est omnium virtutum et forma; unde omne peccatum caritatem tollit,
+              inquantum opponitur actui alicujus virtutis. Et quia gratia non potest tolli nisi per
+              peccatum, ideo caritas tollitur ablata gratia.</p>
+            <p xml:id="ta-l3d27q2-d1e520">Ad primum ergo dicendum, quod fidei non opponitur omne peccatum, sed omnis
+              infidelitas; et ideo sicut per hoc quod homo errat in uno articulo, tollitur habitus
+              fidei, ut supra dictum est, dist. 23, quaest. 3, art. 3, quaestiunc. 1, ita per hoc
+              quod fit quodcumque peccatum, quod caritati opponitur, tollitur totaliter habitus
+              caritatis; unde in caritate nihil manet informe, sicut in aliis virtutibus.</p>
+            <p xml:id="ta-l3d27q2-d1e523">Ad secundum dicendum, quod de dilectione quam aliquis scit se habere, nescit utrum
+              sit dilectio caritatis; unde sicut homo nescit habere gratiam, ita nescit se habere
+              caritatem.</p>
+            <p xml:id="ta-l3d27q2-d1e526">Ad tertium dicendum, quod timor non requirit participationem divinae vitae, sicut
+              amor caritatis; et ideo non est simile de timore et amore.</p>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

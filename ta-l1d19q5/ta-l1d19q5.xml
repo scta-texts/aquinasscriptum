@@ -1,0 +1,2059 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 19, Quaestio 5</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.09-dev-master">
+          <title>Librum I, Distinctio 19, Quaestio 5</title>
+          <date when="2016-03-14">March 14, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-14">March 14, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p>1856 editum</p>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="2015.09">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <div xml:id="starts-on"> </div>
+    </front>
+    <body>
+      <div xml:id="ta-l1d19q5">
+        <head xml:id="ta-l1d19q5-Hd1e3490">Librum I, Distinctio 19, Quaestio 5</head>
+        <div xml:id="ta-l1d19q5-Dd1e3493">
+          <head xml:id="ta-l1d19q5-Hd1e3495">Prooemium</head>
+          <p xml:id="ta-l1d19q5-d1e3498">Circa secundam probationem quaeritur de veritate, et quaeruntur tria: 1 quid sit
+            veritas; 2 utrum omnia sint vera una veritate, quae est veritas increata, sive prima; 3
+            de conditionibus veritatis, scilicet aeternitate et incommutabilitate ejus.</p>
+        </div>
+        <div xml:id="ta-l1d19q5-Dd1e3502" type="articulus">
+          <head xml:id="ta-l1d19q5-Hd1e3504">Articulus 1</head>
+
+          <head xml:id="ta-l1d19q5-Hd1e3507" type="questionTitle">Utrum veritas sit essentia rei</head>
+
+          <p xml:id="ta-l1d19q5-d1e3510">Ad primum sic proceditur. Videtur quod veritas sit idem quod essentia. Dicit enim
+            Augustinus, quod verum est id quod est, et ab aliis dicitur quod verum est indivisio
+            esse et ejus quod est. Ergo unumquodque dicitur verum, secundum quod habet esse. Esse
+            autem est actus essentiae. Ergo cum unumquodque veritate formaliter sit verum, videtur
+            quod omnino idem sit veritas et essentia.</p>
+          <p xml:id="ta-l1d19q5-d1e3513">Praeterea, quaecumque differunt re vel ratione unum potest intelligi sine altero, unde
+            etiam secundum Boetium, potest intelligi Deus, non intellecta ejus bonitate. Sed
+            essentia rei non potest intelligi sine veritate. Ergo essentia rei et veritas non
+            differunt neque re neque ratione.</p>
+          <p xml:id="ta-l1d19q5-d1e3516">Item, quidquid differt secundum rationem ab ente, se habet ex additione ad illud. Sed
+            quod habet se ex additione ad aliquid, contrahit et determinat illud, sicut se habet
+            homo ad animal. Cum igitur verum non contrahat ens (quia verum et ens convertuntur),
+            videtur quod veritas neque re neque ratione ab essentia differat.</p>
+          <p xml:id="ta-l1d19q5-d1e3520">Praeterea, Anselmus dicit, quod veritas est rectitudo sola mente perceptibilis. Constat
+            autem quod loquitur metaphorice de rectitudine, quia rectitudo proprie dicta est passio
+            continui. Sed bonitas et justitia secundum propriam rationem habent quod sint rectitudo
+            sola mente perceptibilis. Ergo videtur quod veritas re et ratione sit idem quod bonitas
+            et justitia.</p>
+          <p xml:id="ta-l1d19q5-d1e3523">Contra, contingit aliquid verum dicere et de ente et de non ente. Sed non entia non
+            habent essentiam. Cum ergo omne verum veritate sit verum, videtur quod veritas non sit
+            idem quod essentia.</p>
+          <p xml:id="ta-l1d19q5-d1e3526">Praeterea, veritas est sola mente perceptibilis, ut patet per Anselmum. Sed illud quod
+            est sola mente perceptibile non est in sensibilibus sed tantum in intelligibilibus;
+            essentia autem est utriusque. Ergo essentia et veritas non sunt idem.</p>
+          <p xml:id="ta-l1d19q5-d1e3529">Item, veritas et falsitas sunt tantum in complexis; quia singulum incomplexorum neque
+            verum neque falsum est. Sed essentia est rerum incomplexarum. Ergo non est idem quod
+            veritas.</p>
+          <p xml:id="ta-l1d19q5-d1e3532">Item, veritati opponitur falsitas. Sed falsitatem contingit invenire in entibus, sicut
+            dicimus aurum falsum: sed de ente non dicitur non ens. Ergo falsum non est idem quod non
+            ens; ergo nec veritas est idem quod essentia; quia si contrarium de contrario non
+            praedicatur ut idem, nec oppositum de opposito.</p>
+          <p xml:id="ta-l1d19q5-d1e3535">Respondeo dicendum, quod eorum quae significantur nominibus, invenitur triplex
+            diversitas. Quaedam enim sunt quae secundum esse totum completum sunt extra animam; et
+            hujusmodi sunt entia completa, sicut homo et lapis. Quaedam autem sunt quae nihil habent
+            extra animam, sicut somnia et imaginatio Chimerae. Quaedam autem sunt quae habent
+            fundamentum in re extra animam, sed complementum rationis eorum quantum ad id quod est
+            formale, est per operationem animae, ut patet in universali. Humanitas enim est aliquid
+            in re, non tamen ibi habet rationem universalis, cum non sit extra animam aliqua
+            humanitas multis communis; sed secundum quod accipitur in intellectu, adjungitur ei per
+            operationem intellectus intentio, secundum quam dicitur species: et similiter est de
+            tempore, quod habet fundamentum in motu, scilicet prius et posterius ipsius motus; sed
+            quantum ad id quod est formale in tempore, scilicet numeratio, completur per operationem
+            intellectus numerantis. Similiter dico de veritate, quod habet fundamentum in re, sed
+            ratio ejus completur per actionem intellectus, quando scilicet apprehenditur eo modo quo
+            est. Unde dicit philosophus, quod verum et falsum sunt in anima; sed bonum et malum in
+            rebus. Cum autem in re sit quidditas ejus et suum esse, veritas fundatur in esse rei
+            magis quam in quidditate, sicut et nomen entis ab esse imponitur; et in ipsa operatione
+            intellectus accipientis esse rei sicut est per quamdam similationem ad ipsum, completur
+            relatio adaequationis, in qua consistit ratio veritatis. Unde dico, quod ipsum esse rei
+            est causa veritatis, secundum quod est in cognitione intellectus. Sed tamen ratio
+            veritatis per prius invenitur in intellectu quam in re: sicut etiam calidum et frigidum
+            et aliae causae sanitatis sunt causa sanitatis quae est in animali, et tamen animal per
+            prius dicitur sanum et signa sanitatis et causa sanitatis dicuntur sana secundum
+            analogiam ad sanum quod de animali dicitur. Unde dico, quod verum per prius dicitur de
+            veritate intellectus, et de enuntiatione dicitur inquantum est signum illius veritatis;
+            de re autem dicitur, inquantum est causa. Unde res dicitur vera quae nata est de se
+            facere veram apprehensionem quantum ad ea quae apparent exterius in ipsa; et similiter
+            dicitur falsa res quae nata est facere, quantum ad id quod apparet exterius de ipsa,
+            falsam apprehensionem, sicut aurichalcum dicitur aurum falsum. Et inde est etiam quod
+            homo dicitur falsus, qui dictis vel factis ostendit de se aliud quam sit; et per
+            oppositum intelligitur veritas quae est virtus in dictis et factis consistens, ut dicit
+            philosophus. Utraque autem veritas, scilicet intellectus et rei, reducitur sicut in
+            primum principium, in ipsum Deum; quia suum esse est causa omnis esse, et suum
+            intelligere est causa omnis cognitionis. Et ideo ipse est prima veritas, sicut et primum
+            ens: unumquodque enim ita se habet ad veritatem sicut ad esse, ut patet ex dictis. Et
+            inde est quod prima causa essendi est prima causa veritatis et maxime vera, scilicet
+            Deus, ut probat philosophus. Veritas autem enuntiationis reducitur in prima principia
+            per se nota sicut in primas causas; et praecipue in hoc principium, quod affirmatio et
+            negatio non sunt simul vera, ut dicit Avicenna. Sic ergo patet quomodo diversae
+            definitiones de veritate dantur. Quaedam enim veritatis definitio datur secundum hoc
+            quod veritas completur in manifestatione intellectus; sicut dicit Augustinus:
+              <quote xml:id="ta-l1d19q5-Qd1e3537">veritas est qua ostenditur id quod est</quote>; et Hilarius: <quote xml:id="ta-l1d19q5-Qd1e3540">verum est
+              declarativum aut manifestativum esse</quote>. Quaedam autem datur de veritate secundum
+            quod habet fundamentum in re, sicut illa Augustini: <quote xml:id="ta-l1d19q5-Qd1e3543">verum est id quod
+            est</quote>; et alia magistralis: <quote xml:id="ta-l1d19q5-Qd1e3546">verum est indivisio esse et ejus quod
+              est</quote>; et alia Avicennae: <quote xml:id="ta-l1d19q5-Qd1e3549">veritas cujusque rei, est proprietas sui esse
+              quod stabilitum ei est</quote>. Quaedam autem datur secundum commensurationem ejus
+            quod est in intellectu ad id quod est in re, sicut dicitur: veritas est adaequatio rei
+            ad intellectum; et Augustinus: <quote xml:id="ta-l1d19q5-Qd1e3553">verum est quod ita se habet ut cognitori videtur
+              si velit et possit cognoscere</quote>. Quaedam autem datur de veritate secundum quod
+            appropriatur filio, cui etiam appropriatur cognitio, scilicet ab Augustino:
+              <quote xml:id="ta-l1d19q5-Qd1e3556">veritas est summa similitudo principii quae sine ulla dissimilitudine
+              est</quote>. Quaedam autem datur de veritate, comprehendens omnes veritatis
+            acceptiones, scilicet: veritas est rectitudo sola mente perceptibilis. In rectitudine
+            tangitur commensuratio; et in hoc quod dicitur sola mente perceptibilis, tangitur id
+            quod complet rationem veritatis. Patet etiam ex dictis, quod veritas addit supra
+            essentiam secundum rationem, scilicet ordinem ad cognitionem vel demonstrationem
+            alicujus.</p>
+          <p xml:id="ta-l1d19q5-d1e3561">Ad primum igitur dicendum, quod esse dicitur dupliciter: uno modo secundum quod ens
+            significat essentiam rerum prout dividitur per decem genera; alio modo secundum quod
+            esse significat compositionem quam anima facit; et istud ens philosophus appellat verum.
+            Et similiter Augustinus, cum dicit quod verum est id quod est; quasi dicat: verum est
+            quando dicitur de eo quod est; et similiter intelligitur quod dicitur: verum est
+            indivisio esse et ejus quod est. Et si in negativis sit veritas quae non consistit in
+            compositione, sed in divisione, tamen veritas negative fundatur supra veritatem
+            affirmative, cujus signum est quod nulla negativa probatur nisi per aliquam
+            affirmationem. Vel potest dici, quod definitiones istae dantur de vero non secundum
+            completam sui rationem, sed secundum illud quod fundatur in re.</p>
+          <p xml:id="ta-l1d19q5-d1e3564">Ad secundum dicendum, quod sicut bonitas dicit rationem per quam essentia ordinatur ad
+            appetitum, ita veritas dicit rationem per quam essentia ordinatur ad intellectum. Unde
+            sicut nullum esse appetitur amota ratione boni, ita nullum esse intelligitur amota
+            ratione veri. Nihilominus tamen alia est ratio veri et alia ratio entis. Dupliciter enim
+            dicitur aliquid non posse intelligi sine altero. Aut ita quod unum non possit intelligi
+            si non ponatur alterum esse; et sic dicitur quod esse non potest intelligi sine vero,
+            sicut etiam non potest intelligi sine hoc quod est esse intelligibile. Sive ita quod
+            quandocumque intelligitur unum, intelligatur alterum; sicut quicumque intelligit hominem
+            intelligit animal. Et hoc modo esse potest intelligi sine vero, sed non e converso: quia
+            verum non est in ratione entis, sed ens in ratione veri; sicut potest aliquis
+            intelligere ens, et tamen non intelligit aliquid de ratione intelligibilitatis; sed
+            nunquam potest intelligi intelligibile, secundum hanc rationem, nisi intelligatur ens.
+            Unde etiam patet quod ens est prima conceptio intellectus.</p>
+          <p xml:id="ta-l1d19q5-d1e3567">Ad tertium dicendum, quod verum addit supra ens, sicut et bonum et unum. Nullum tamen
+            eorum addit aliquam differentiam contrahentem ens, sed rationem quae consequitur omne
+            ens; sicut unum addit rationem indivisionis, et bonum rationem finis, et verum rationem
+            ordinis ad cognitionem; et ideo haec quatuor convertuntur, ens, bonum, unum et
+            verum.</p>
+          <p xml:id="ta-l1d19q5-d1e3570">Ad quartum dicendum, quod rectitudo dicitur de bonitate, justitia et veritate,
+            metaphorice, secundum diversas rationes. Invenitur enim in recto quaedam aequalis
+            proportio principii, medii et finis; unde secundum hoc quod aliquis in distribuendo vel
+            communicando, mensuram aequalitatis justitiae servat, vel mensuram praecepti legis,
+            dicitur rectitudo justitiae; secundum autem quod aliquid non egreditur commensurationem
+            finis, dicitur rectitudo bonitatis; secundum autem quod non egreditur ordinem
+            commensurationis rei et intellectus, dicitur rectitudo veritatis.</p>
+          <p xml:id="ta-l1d19q5-d1e3573">Ad quintum dicendum, quod, secundum Avicennam, de eo quod nullo modo est, non potest
+            aliquid enuntiari: ad minus enim oportet quod illud de quo aliquid enuntiatur, sit
+            apprehensum; et ita habet aliquod esse ad minus in intellectu apprehendente; et ita
+            constat quod semper veritati respondet aliquod esse; nec oportet quod semper respondeat
+            sibi esse in re extra animam, cum ratio veritatis compleatur in ratione animae.</p>
+          <p xml:id="ta-l1d19q5-d1e3576">Ad sextum dicendum, quod quamvis esse sit in rebus sensibilibus, tamen rationem
+            essendi, vel intentionem entis, sensus non apprehendit, sicut nec aliquam formam
+            substantialem, nisi per accidens, sed tantum accidentia sensibilia. Ita etiam quamvis
+            veritas sit in rebus sensibilibus, prout dicitur esse veritas in rebus, tamen intentio
+            veritatis solo intellectu percipitur. Vel dicendum, quod quamvis res sensibiles sensu
+            comprehendantur, tamen earum adaequatio ad intellectum sola mente capitur, et pro tanto
+            dicitur, quod veritas est sola mente perceptibilis.</p>
+          <p xml:id="ta-l1d19q5-d1e3580">Ad septimum dicendum, quod cum sit duplex operatio intellectus: una quarum dicitur a
+            quibusdam imaginatio intellectus, quam philosophus nominat intelligentiam
+            indivisibilium, quae consistit in apprehensione quidditatis simplicis, quae alio etiam
+            nomine formatio dicitur; alia est quam dicunt fidem, quae consistit in compositione vel
+            divisione propositionis: prima operatio respicit quidditatem rei; secunda respicit esse
+            ipsius. Et quia ratio veritatis fundatur in esse, et non in quidditate, ut dictum est,
+            in corp., ideo veritas et falsitas proprie invenitur in secunda operatione, et in signo
+            ejus, quod est enuntiatio, et non in prima, vel signo ejus quod est definitio, nisi
+            secundum quid; sicut etiam quidditatis esse est quoddam esse rationis, et secundum istud
+            esse dicitur veritas in prima operatione intellectus: per quem etiam modum dicitur
+            definitio vera. Sed huic veritati non adjungitur falsitas per se, quia intellectus habet
+            verum judicium de proprio objecto, in quod naturaliter tendit, quod est quidditas rei,
+            sicut et visus de colore; sed per accidens admiscetur falsitas, scilicet ratione
+            affirmationis vel negationis annexae, quod contingit dupliciter: vel ex comparatione
+            definitionis ad definitum, et tunc dicitur definitio falsa respectu alicujus et non
+            simpliciter, sicut definitio circuli est falsa de triangulo; vel in respectu partium
+            definitionis ad invicem, in quibus implicatur impossibilis affirmatio; sicut definitio
+            vacui, quod est locus in quo nullum corpus est; et haec definitio dicitur falsa
+            simpliciter, ut in 5 Metaphys. dicitur. Sed hoc non contingit nisi in quidditatibus
+            compositorum: quia in quidditatibus rerum simplicium non deficit intellectus nisi ex hoc
+            quod omnino nihil intelligit, ut in 9 Metaph. dicitur. Secundae autem operationi
+            admiscetur falsitas etiam per se: non quidem quantum ad primas affirmationes quas
+            naturaliter intellectus cognoscit, ut sunt dignitates, sed quantum ad consequentes: quia
+            rationem inducendo contingit errare per applicationem unius ad aliud. Patet igitur ex
+            dictis, in corp. art., quod verum proprie loquendo, quod invenitur tantum in complexis,
+            non impedit conversionem veri et entis: quia quaelibet res incomplexa habet esse suum,
+            quod non accipitur ab intellectu nisi per modum complexionis; et ideo ipsa ratione quam
+            addit verum supra ens, scilicet ordinem ad intellectum, sequitur ista differentia, quod
+            verum sit complexorum, et ens dicatur de re extra animam incomplexa.</p>
+          <p xml:id="ta-l1d19q5-d1e3583">Ad ultimum dicendum, quod, sicut dictum est, in corp. art., ens est prima conceptio
+            intellectus; unde enti non potest aliquid opponi per modum contrarietatis vel
+            privationis, sed solum per modum negationis: quia sicut ipsum non fundatur in aliquo,
+            ita nec oppositum suum: opposita enim sunt circa idem. Sed unum, verum et bonum,
+            secundum proprias intentiones, fundantur supra intentionem entis, et ideo possunt habere
+            oppositionem contrarietatis vel privationis fundatae super ens, sicut et ipsa super ens
+            fundantur. Unde patet quod non eodem modo se habet verum et falsum et malum et bonum
+            sicut ens et non ens, nisi accipiatur non ens particulariter pro remotione alicujus cui
+            substernitur aliquod ens. Unde sicut quaelibet privatio entis particularis fundatur in
+            bono, sic et falsum fundatur in aliquo vero sicut in aliquo esse. Unde sicut illud in
+            quo est falsitas vel malitia, est aliquod ens, sed non est ens completum; ita etiam
+            illud quod est malum vel falsum, est aliquod bonum vel verum incompletum.</p>
+        </div>
+        <div xml:id="ta-l1d19q5-Dd1e3587" type="articulus">
+          <head xml:id="ta-l1d19q5-Hd1e3589">Articulus 2</head>
+
+          <head xml:id="ta-l1d19q5-Hd1e3592" type="questionTitle">Utrum omnia sint vera veritate increata</head>
+
+          <p xml:id="ta-l1d19q5-d1e3595">Ad secundum sic proceditur. Videtur quod omnia sint vera una veritate quae est veritas
+            increata. Sicut enim dictum est in solutione praecedentis articuli, verum dicitur
+            analogice de illis in quibus est veritas, sicut sanitas de omnibus sanis. Sed una est
+            sanitas numero a qua denominatur animal sanum, sicut subjectum ejus, et medicina sana
+            sicut causa ejus, et urina sana sicut signum ejus. Ergo videtur quod una sit veritas qua
+            omnia dicuntur vera.</p>
+          <p xml:id="ta-l1d19q5-d1e3598">Praeterea, omnis rectitudo attenditur per aliquam mensuram. Sed veritas est rectitudo
+            quaedam. Cum igitur videamus, omnibus temporalibus respondere unum tempus quasi
+            mensuram, videtur etiam quod omnibus veris respondeat una veritas, secundum quam
+            dicantur vera.</p>
+          <p xml:id="ta-l1d19q5-d1e3601">Praeterea, sicut se habet bonitas ad bona, ita se habet veritas ad vera. Sed omnia sunt
+            bona una bonitate. Unde Augustinus: <quote xml:id="ta-l1d19q5-Qd1e3603">bonus est homo, bona est facies, bonum est
+              hoc et illud. Tolle hoc et illud, et videbis bonum omnis boni</quote>. Unde videtur
+            quod sit una bonitas numero in omnibus participata, secundum quam dicuntur bona. Ergo
+            videtur quod similiter omnia dicantur vera una veritate, quae est veritas increata.</p>
+          <p xml:id="ta-l1d19q5-d1e3608">Si dicas quod omnia dicuntur vera veritate increata exemplariter; contra. Uniuscujusque
+            formae exemplar est in Deo, quod est creatrix essentia. Si igitur hoc sufficeret ut
+            omnia dicerentur vera veritate increata, quia exemplantur ab ipsa, videtur quod
+            similiter omnia possent dici colorata, quia exemplantur colore, qui est in Deo
+            exemplariter: quod est inconveniens.</p>
+          <p xml:id="ta-l1d19q5-d1e3611">Contra, mala fieri est verum. Sed nullum malum est a Deo. Ergo videtur quod non omnia
+            vera sint vera veritate increata.</p>
+          <p xml:id="ta-l1d19q5-d1e3614">Respondeo dicendum, quod, sicut dictum est, art. antec., ratio veritatis in duobus
+            consistit: in esse rei, et in apprehensione virtutis cognoscitivae proportionata ad esse
+            rei. Utrumque autem horum quamvis, ut dictum est, distin. 8, quaest. 1, art. 1,
+            reducatur in Deum sicut in causam efficientem et exemplarem; nihilominus tamen quaelibet
+            res participat suum esse creatum, quo formaliter est, et unusquisque intellectus
+            participat lumen per quod recte de re judicat, quod quidem est exemplatum a lumine
+            increato. Habet etiam intellectus suam operationem in se, ex qua completur ratio
+            veritatis. Unde dico, quod sicut est unum esse divinum quo omnia sunt, sicut a principio
+            effectivo exemplari, nihilominus tamen in rebus diversis est diversum esse, quo
+            formaliter res est; ita etiam est una veritas, scilicet divina, qua omnia vera sunt,
+            sicut principio effectivo exemplari; nihilominus sunt plures veritates in rebus creatis,
+            quibus dicuntur verae formaliter.</p>
+          <p xml:id="ta-l1d19q5-d1e3617">Ad primum igitur dicendum, quod aliquid dicitur secundum analogiam tripliciter: vel
+            secundum intentionem tantum, et non secundum esse; et hoc est quando una intentio
+            refertur ad plura per prius et posterius, quae tamen non habet esse nisi in uno; sicut
+            intentio sanitatis refertur ad animal, urinam et dietam diversimode, secundum prius et
+            posterius; non tamen secundum diversum esse, quia esse sanitatis non est nisi in
+            animali. Vel secundum esse et non secundum intentionem; et hoc contingit quando plura
+            parificantur in intentione alicujus communis, sed illud commune non habet esse unius
+            rationis in omnibus, sicut omnia corpora parificantur in intentione corporeitatis. Unde
+            logicus, qui considerat intentiones tantum, dicit, hoc nomen corpus de omnibus
+            corporibus univoce praedicari: sed esse hujus naturae non est ejusdem rationis in
+            corporibus corruptibilibus et incorruptibilibus. Unde quantum ad metaphysicum et
+            naturalem, qui considerant res secundum suum esse, nec hoc nomen corpus, nec aliquid
+            aliud dicitur univoce de corruptibilibus et incorruptibilibus, ut patet 10 Metaphys., ex
+            philosopho et Commentatore. Vel secundum intentionem et secundum esse; et hoc est quando
+            neque parificatur in intentione communi, neque in esse; sicut ens dicitur de substantia
+            et accidente; et de talibus oportet quod natura communis habeat aliquod esse in
+            unoquoque eorum de quibus dicitur, sed differens secundum rationem majoris vel minoris
+            perfectionis. Et similiter dico, quod veritas et bonitas et omnia hujusmodi dicuntur
+            analogice de Deo et creaturis. Unde oportet quod secundum suum esse omnia haec in Deo
+            sint, et in creaturis secundum rationem majoris perfectionis et minoris; ex quo
+            sequitur, cum non possint esse secundum unum esse utrobique, quod sint diversae
+            veritates.</p>
+          <p xml:id="ta-l1d19q5-d1e3620">Ad secundum dicendum, quod cum veritas sit quaedam rectitudo et commensuratio, oportet
+            quod in ratione veritatis intelligatur mensura, et sicut dictum est, in corp. art.,
+            oportet esse commensurationem rei ad intellectum, ut compleatur ratio veritatis. Res
+            autem diversimode se habent ad diversos intellectus: quia intellectus divinus est causa
+            rei; unde oportet quod res mensuretur per intellectum divinum, cum unumquodque
+            mensuretur per suum primum principium; et ideo dicit Anselmus, quod res dicitur esse
+            vera quando implet hoc ad quod est ordinata in intellectu divino. Sed res se habent ad
+            intellectum nostrum sicut causa, inquantum scilicet intellectus accipit a rebus; et inde
+            est quod scientia nostra non mensurat res, sed mensuratur ab eis, ut dicitur 10
+            Metaphysic. Non enim ita ideo est in re, quia sic videtur nobis: sed magis quia ita est
+            in re, verum est quod videtur nobis. Sic ergo intellectus divinus est ut mensura prima,
+            non mensurata; res autem est mensura secunda, mensurata; intellectus autem noster est
+            mensuratus et non mensurans. Dico igitur, quod prima mensura veritatis est una tantum;
+            sed mensurae secundae, scilicet ipsae res, sunt plures; unde sunt plures veritates. Et
+            si non esset nisi una mensura veritatis, adhuc non sequeretur quod esset tantum una
+            veritas: quia veritas non est mensura, sed commensuratio vel adaequatio; et respectu
+            unius mensurae possunt esse diversae commensurationes in diversis. Unde non est simile
+            de tempore, quia tempus est ipsa mensura.</p>
+          <p xml:id="ta-l1d19q5-d1e3623">Ad tertium dicendum, quod similiter dico de bonitate, quod est una bonitas, qua sicut
+            principio effectivo exemplari omnia sunt bona. Sed tamen bonitas qua unumquodque
+            formaliter est bonum, diversa est in diversis. Sed quia bonitas universalis non
+            invenitur in aliqua creatura, sed particulata, et secundum aliquid; ideo dicit
+            Augustinus, quod si removeamus omnes rationes particulationis ab ipsa bonitate,
+            remanebit in intellectu bonitas integra et plena, quae est bonitas divina, quae videtur
+            in bonitate creata sicut exemplar in exemplato.</p>
+          <p xml:id="ta-l1d19q5-d1e3627">Ad quartum dicendum, quod exemplar rerum est in Deo dupliciter. Vel quantum ad id quod
+            est in intellectu suo, et sic secundum ideas est exemplar intellectus divinus omnium
+            quae ab ipso sunt, sicut intellectus artificis per formam artis omnium artificiatorum.
+            Vel quantum ad id quod est in natura sua, sicut ratione suae bonitatis qua est bonus,
+            est exemplar omnis bonitatis; et similiter est de veritate. Unde patet quod non eodem
+            modo Deus est exemplar coloris et veritatis, et ideo objectio non procedit.</p>
+          <p xml:id="ta-l1d19q5-d1e3630">Ad ultimum dicendum, quod quamvis malum non sit bonum, nec sit a Deo, nihilominus
+            intelligere malum bonum est, et a Deo est; et ideo veritas quae consistit in
+            commensuratione intellectus ad privationem existentem extra animam, bona est, et a Deo;
+            et ideo dicit Ambrosius, quod omne verum, a quocumque dicatur, a spiritu sancto est.</p>
+        </div>
+        <div xml:id="ta-l1d19q5-Dd1e3634" type="articulus">
+          <head xml:id="ta-l1d19q5-Hd1e3636">Articulus 3</head>
+
+          <head xml:id="ta-l1d19q5-Hd1e3639" type="questionTitle">Utrum sint plures veritates aeternae</head>
+
+          <p xml:id="ta-l1d19q5-d1e3642">Ad tertium sic proceditur. Videtur quod sint plures veritates aeternae. Sicut enim
+            patet ex dictis, diversarum propositionum diversae sunt veritates. Sed: pater est Deus,
+            filius est Deus, sunt duae propositiones. Ergo et sunt duae veritates. Sed utrumque
+            istorum ab aeterno est verum. Ergo plures veritates sunt aeternae.</p>
+          <p xml:id="ta-l1d19q5-d1e3645">Praeterea, omnia quaecumque fuerunt, sunt et erunt, Deus ab aeterno praescivit, quae
+            constat quod plura sunt. Sed Deus non praescivit nisi verum. Ergo plura vera sunt ab
+            aeterno.</p>
+          <p xml:id="ta-l1d19q5-d1e3648">Item, Augustinus, probat animam esse immortalem per hoc quod est subjectum veritatis,
+            quae est aeterna. Sed constat quod veritas quae est in intellectu nostro sicut in
+            subjecto, non est veritas divina per essentiam. Ergo videtur quod plures veritates sint
+            aeternae. Quod autem veritas sit aeterna, sic probatur. Omne illud ad cujus remotionem
+            sequitur positio ejus, est aeternum. Sed si negatur veritas esse, ponitur esse. Ergo
+            veritas est aeterna. Probatio mediae. Si veritas non est, veritatem esse est falsum. Sed
+            si affirmatio est falsa, negatio est vera. Ergo veritatem non esse erit verum. Sed non
+            est verum nisi aliqua veritate. Ergo aliqua veritas est.</p>
+          <p xml:id="ta-l1d19q5-d1e3652">Praeterea, illud quod non potest intelligi non esse, est aeternum: quia quidquid potest
+            non esse, potest intelligi non esse. Sed veritas non potest intelligi non esse, quia
+            quidquid intelligitur, intelligitur per judicium veritatis. Ergo videtur quod veritas
+            quae est in intellectu, sit aeterna et immutabilis.</p>
+          <p xml:id="ta-l1d19q5-d1e3655">Praeterea, idem videtur de veritate enunciationis. Si enim veritas enuntiationis
+            mutetur vel destruatur, hoc erit vel per destructionem signi vel per destructionem rei.
+            Sed neutro modo destruitur vel mutatur. Ergo veritas enuntiationis est immutabilis et
+            aeterna. Probatio mediae. Non existente signo, rectum est rem signari. Sed veritas est
+            rectitudo, et veritas signi est rectitudo significationis. Ergo si non sit enuntiatio,
+            vel quodcumque signum veritatis, adhuc remanebit veritas signi. Similiter probatur, quod
+            non mutetur ex mutatione rei; quia ut dictum est, art. 1 istius quaest., ad secundum,
+            unumquodque habet veritatem quando implet id ad quod est ordinatum in mente divina. Sed
+            cessante cursu Socratis, adhuc ista enuntiatio, Socrates currit, facit id ad quod
+            ordinata est in mente divina, quia significat Socratem currere. Ergo videtur quod
+            destructa vel mutata re, non mutatur neque destruitur veritas signi.</p>
+          <p xml:id="ta-l1d19q5-d1e3658">Praeterea, idem videtur de veritate quae est in re: quia, ut dicit Augustinus, pereunte
+            vero, non perit veritas. Sed veritas rei non posset destrui vel mutari nisi per
+            mutationem rei. Ergo videtur quod nullo modo pereat.</p>
+          <p xml:id="ta-l1d19q5-d1e3661">Item, <quote xml:id="ta-l1d19q5-Qd1e3663">omne totum est majus sua parte</quote>, est quaedam veritas, quae nullo
+            modo videtur mutabilis, et similiter multa hujusmodi. Ergo videtur quod sint plures
+            veritates aeternae immutabiles.</p>
+          <p xml:id="ta-l1d19q5-d1e3667">Contra, Augustinus dicit, quod vera aeternitas et sola immutabilitas in Deo est. Sed
+            veritas Dei est una tantum, sicut et essentia. Ergo videtur quod sit una tantum veritas
+            aeterna et immutabilis.</p>
+          <p xml:id="ta-l1d19q5-d1e3670">Respondeo dicendum, quod est una tantum veritas aeterna, scilicet veritas divina. Cum
+            enim ratio veritatis in actione compleatur intellectus, et fundamentum habeat ipsum esse
+            rei; judicium de veritate sequitur judicium de esse rei et de intellectu. Unde sicut
+            esse unum tantum est aeternum, scilicet divinum, ita una tantum veritas. Similiter de
+            mutabilitate veritatis idem dicendum est quod de mutabilitate essendi; ut enim supra
+            dictum est, art. antec., simpliciter immutabile non est nisi esse divinum; unde
+            simpliciter immutabilis veritas non est nisi una, scilicet divina. Esse autem aliarum
+            rerum quarumdam dicitur mutabile mutatione variabilitatis, sicut est in contingentibus;
+            et horum etiam veritas mutabilis est et contingens. Quorumdam vero esse est mutabile
+            solum secundum vertibilitatem in nihil, si sibi relinqueretur; et horum veritas
+            similiter mutabilis est per vertibilitatem in nihil, si sibi relinqueretur. Unde patet
+            quod nulla veritas est necessaria in creaturis. Similiter etiam si loquaris de veritate
+            secundum quod ratio ejus completur in ratione intellectus, patet quod nullus intellectus
+            est aeternus et invariabilis ex natura sua, nisi intellectus divinus. Ex quo etiam patet
+            quod sola veritas una quae in Deo est, et quae Deus est, est aeterna et immutabilis.</p>
+          <p xml:id="ta-l1d19q5-d1e3674">Ad primum ergo dicendum, quod sicut trium personarum una est essentia, qua quaelibet
+            habet esse, quamvis sint plures proprietates quibus distinguuntur (quae tamen omnes non
+            differunt secundum rem ab essentia), ita etiam est una veritas trium personarum ex parte
+            ipsius rei, de qua fit enuntiatio. Sed quod sint enuntiationes plures verae, est per
+            intellectum nostrum. Unde veritas quae est in istis enuntiationibus, qua formaliter
+            verae sunt, vel quae est in intellectu nostro, non est aeterna, sicut nec propositiones,
+            nec intellectus noster aeternus.</p>
+          <p xml:id="ta-l1d19q5-d1e3677">Ad secundum dicendum, quod rationes ideales rerum, quae sunt in Deo ab aeterno, non
+            sunt aliud secundum rem ab ipso intellectu et essentia divina. Unde sicut veritas
+            essentiae est una secundum rem, ita etiam veritas omnium illarum rationum; et non
+            multiplicatur, nisi secundum respectum ad diversas res. Unde ex hoc non probatur quod
+            sint plures veritates ab aeterno, sed solum hoc quod sit una veritas plurium secundum
+            rationem.</p>
+          <p xml:id="ta-l1d19q5-d1e3680">Ad tertium dicendum, quod si anima non esset, nec aliquis intellectus creatus, veritas,
+            secundum quod consistit in operatione animae, non esset. Posset tamen remanere, secundum
+            quod fundamentum habet in re. Remaneret etiam intentio veritatis intellecta in Deo. Unde
+            cum anima non sit aeterna, nec aliquis intellectus creatus, antequam haec essent, nulla
+            veritas creata erat. Et si objicitur: veritas non est; ergo veritatem esse est falsum,
+            quantum ad illud tempus in quo non erat veritas creata: dico quod non sequitur: quia
+            quando non est veritas, nec etiam falsitas est. Hoc autem quod non sit veritas vel
+            falsitas, non est ex defectu veritatis vel falsitatis quantum ad intentiones ipsarum,
+            sed ex defectu eorum in quibus veritas habet esse. Sicut enim dicimus de universalibus,
+            quae sunt incorruptibilia et aeterna, quia non corrumpuntur nisi per accidens, scilicet
+            quantum ad esse quod habent in alio, quod potest non esse; ita etiam est de veritate et
+            falsitate, quod consideratae secundum intentiones suas, non accidit eis corruptio per
+            se, sed solum secundum esse quod habent in alio: et ex hoc procedit probatio Augustini;
+            quia omnis virtus quae apprehendit rationem intentionis alicujus, oportet quod sit
+            virtus non obligata ad corpus, nec dependens a corpore, eo quod virtutes apprehensivae
+            quae sunt impressae in organis corporalibus, ut patet in sensibus, non apprehendunt
+            intentionem rationis, ut rationem hominis vel coloris, sed tantum apprehendunt
+            hujusmodi, secundum quod sunt particulata. Virtus autem quae non dependet a corpore, est
+            incorruptibilis; et ita probatur quod anima intellectiva est immortalis ex eo quod
+            apprehendit veritatem. Virtutes enim sensitivae quamvis sint verae in suis
+            apprehensionibus, non tamen apprehendunt rationem suae veritatis, sicut facit
+            intellectus.</p>
+          <p xml:id="ta-l1d19q5-d1e3683">Ad quartum dicendum, quod aliquid non posse intelligi non esse, contingit dupliciter:
+            vel ex parte ipsius intellecti, vel ex parte intelligentis. Ex parte intellecti, sicut
+            illud quod de ratione sua habet esse, sicut est Deus, cujus esse est sua quidditas per
+            quam intelligitur. Ex parte intelligentis, sicut non potest intelligi res sine actu
+            intelligendi; unde si actus intelligendi non esset, nihil posset intelligi; unde non
+            potest intelligi actus intelligendi non esse. Utroque modo veritas non potest intelligi
+            non esse; quia verum habet in ratione sua esse, secundum quod fundatur in re, et habet
+            in ratione sua actum intellectus, secundum quod completur in anima. Tamen ex hoc non
+            sequitur quod sit aeterna, nisi sub hac conditione, si ab aeterno fuisset intelligere:
+            quamvis enim non possit intelligi de veritate non esse, ita scilicet quod apprehendatur
+            intentio veritatis et non apprehendatur esse, tamen possibile est nec istum intellectum
+            esse, nec illud esse in quo veritas fundatur, sicut aliquando fuit; sed illa veritas
+            sola est aeterna quae fundatur in esse aeterno et intellectu aeterno.</p>
+          <p xml:id="ta-l1d19q5-d1e3686">Ad quintum dicendum, quod utroque modo veritas enuntiationis potest mutari; si enim
+            nulla enuntiatio esset, veritas enuntiationis non esset. Et ad id quod objicitur, quod
+            adhuc rectum esset rem significari, dicimus, quod verum est; sed tamen illa rectitudo
+            nihil est aliud quam signabilitas rei; et hoc non ponit veritatem signi in actu, sed
+            tantum in potentia. Similiter etiam quando mutatur res, mutatur veritas enuntiationis.
+            Unde, secundum philosophum, eadem propositio quandoque potest esse vera et quandoque
+            falsa. Et ad id, quod ulterius objicitur quod implet illud ad quod ordinatum est in
+            mente divina dicendum, quod enuntiatio potest dupliciter considerari: vel ut res
+            quaedam, et sic est in ipsa veritas rei, sicut in qualibet re, quando implet illud ad
+            quod ordinata est in mente divina; et talis veritas manet in ipsa etiam mutata re; vel
+            ut signum talis rei, et sic veritas ejus est per adaequationem ad rem illam. Mutata
+            autem re, tollitur adaequatio signi ad signatum, sine aliqua mutatione ipsius signi;
+            quod manifestum est in relationibus posse contingere; unde veritas enuntiationis non
+            manet.</p>
+          <p xml:id="ta-l1d19q5-d1e3689">Ad sextum dicendum, quod pereunte re vera, perit veritas quantum ad illud esse quod
+            habet in re illa. Sed tamen potest remanere intentio veritatis secundum esse quod habet
+            in alia re, vel secundum esse quod habet in anima. Quae omnia si auferantur, non
+            remanebit veritas nisi in Deo. Nec ille defectus accidit veritati per se, sed per
+            accidens, ut dictum est, in Resp. ad 3; quia, secundum philosophum, destructis primis
+            substantiis, impossibile est aliquod ceterorum remanere; quamvis universalia sint per se
+            incorruptibilia.</p>
+          <p xml:id="ta-l1d19q5-d1e3693">Ad septimum dicendum similiter, quod veritas propositorum necessariorum potest deficere
+            per accidens quantum ad esse quod habet in anima vel in rebus si res illae deficerent:
+            tunc enim non remanerent istae veritates nisi in Deo, in quo sunt una et eadem
+            veritas.</p>
+        </div>
+        <div xml:id="ta-l1d19q5-Dd1e3698">
+          <head xml:id="ta-l1d19q5-Hd1e3700">Expositio textus</head>
+          <p xml:id="ta-l1d19q5-d1e3703"><quote xml:id="ta-l1d19q5-Qd1e3704">Si ergo in una persona patris illa invenis quae plura videntur, et partes non
+              invenis, quia una virtus simplex est; quanto magis pater et filius et spiritus
+              sanctus, et propter individuam deitatem unus Deus est, et propter uniuscujusque
+              proprietatem tres personae sunt?</quote> Videtur quod ipse arguat a majori affirmando.
+            Magis enim videtur quod in una persona simplicitas inveniatur quam in duabus simul
+            acceptis. Respondeo dicendum, quod est locus a minori; quia agit in una persona patris,
+            et accipit ea quae sunt diversa secundum rationem, ut sapientiam, virtutem et hujusmodi,
+            sed in duabus personis patris et filii accipit hoc quod est unum secundum rationem,
+            scilicet naturam divinam quae secundum numerum etiam multiplicari non potest.
+              <quote xml:id="ta-l1d19q5-Qd1e3707">Sicut tres statuae dicuntur unum aurum</quote>. Videtur hoc esse falsum, quia
+            materia non praedicatur de composito, cum sit pars. Et dicendum, quod hoc est verum in
+            naturalibus, quorum materia non est tota substantia eorum, sicut in artificialibus quae
+            ordinantur in genere substantiae per suam materiam, ut Commentator dicit; formae enim
+            artificiales accidentia sunt. <quote xml:id="ta-l1d19q5-Qd1e3710">Substantia significat communem et circumplectivam
+              speciem homoideon, idest similium specie hypostaseon, idest personarum</quote>; idest
+            substantia quae communis in divinis dicitur, se habet ad modum speciei, quae colligit
+            plura individua. Sic enim in essentia tres personae uniuntur, non ita quod in divina
+            essentia sit species, ut Magister exponit. <quote xml:id="ta-l1d19q5-Qd1e3713">Dicuntur enim aliqua differre numero
+              quae ita differunt ut hoc non sit aliud</quote>. Ratio hujus distinctionis haec est:
+            quia diversitas secundum numerum in his quae simpliciter numerantur, est ex divisione
+            essentiae; unde unum individuum non est alterum, nec aliquid quod est in uno, idem
+            numero est in alio: sed numerus in divinis personis consequitur distinctionem
+            relationum, quae quidem distinguunt supposita, sed non dividunt essentiam; et ideo pater
+            non est filius, sed tamen quod est in patre, est etiam in filio. <quote xml:id="ta-l1d19q5-Qd1e3716">Praeterea cum
+              Deus dicatur trinus, non tamen debet dici triplex</quote>. Hujus ratio est, quia
+            triplicitas est quaedam proportio contenta sub multiplicitate, quae est inaequalitatis
+            species; et ideo ubi est triplicitas, oportet inaequalitatem esse.</p>
+        </div>
+
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,763 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 18, Quaestio 2</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Librum IV, Distinctio 18, Quaestio 2</title>
+          <date when="2016-03-19">March 19, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-19">March 19, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness>1856 editum</witness>
+          <witness xml:id="G" n="ghent567">Ghent, Belgium, Ghent University Library, 567</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="0.0.0-dev">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+
+
+
+
+      <div xml:id="starts-on">
+        <cb ed="#G" n="339a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ta-l4d18q2">
+        <head xml:id="ta-l4d18q2-Hd1e97">Librum IV, Distinctio 18, Quaestio 2</head>
+        <div xml:id="ta-l4d18q2-Dd1e100">
+          <head xml:id="ta-l4d18q2-Hd1e102">Prooemium</head>
+          <p xml:id="ta-l4d18q2-d1e105">Deinde quaeritur de excommunicatione; et circa hoc quaeruntur quinque: 1 de ipsa
+            excommunicatione; 2 quis possit excommunicare; 3 de modo excommunicationis; 4 de
+            communicatione cum excommunicatis; 5 de absolutione ab excommunicatione.</p>
+
+        </div>
+        <div xml:id="ta-l4d18q2-Dd1e109" type="articulus">
+          <head xml:id="ta-l4d18q2-Hd1e111">Articulus 1</head>
+
+          <head xml:id="ta-l4d18q2-Hd1e114" type="questionTitle">Utrum competens sit definitio excommunicationis a quibusdam
+            posita</head>
+
+          <div xml:id="ta-l4d18q2-Dd1e117">
+            <head xml:id="ta-l4d18q2-Hd1e119">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d18q2-d1e122">Ad primum sic proceditur. Videtur quod incompetens sit haec definitio
+              excommunicationis a quibusdam posita: <quote xml:id="ta-l4d18q2-Qd1e124">excommunicatio est separatio a communione
+                Ecclesiae quo ad fructum, et suffragia generalia</quote>. Suffragia enim Ecclesiae
+              valent eis pro quibus fiunt. Sed Ecclesia orat pro eis qui extra Ecclesiam sunt, sicut
+              pro haereticis et Paganis. Ergo etiam pro excommunicatis, qui extra Ecclesiam sunt; et
+              sic eis suffragia Ecclesiae valent.</p>
+            <p xml:id="ta-l4d18q2-d1e128">Praeterea, nullus amittit suffragia Ecclesiae nisi per culpam. Sed excommunicatio non
+              est culpa, sed poena. Ergo per excommunicationem non separatur aliquis a suffragiis
+              Ecclesiae communibus.</p>
+            <p xml:id="ta-l4d18q2-d1e131">Praeterea, fructus Ecclesiae non videtur aliud esse quam suffragia; non enim potest
+              intelligi de fructu bonorum temporalium, quia haec excommunicatis non auferuntur. Ergo
+              inconvenienter utrumque ponitur.</p>
+            <p xml:id="ta-l4d18q2-d1e134">Praeterea, excommunicatio minor, quaedam excommunicatio est. Sed per eam homo non
+              perdit suffragia Ecclesiae. Ergo definitio non est communis.</p>
+
+          </div>
+          <div xml:id="ta-l4d18q2-Dd1e138">
+            <head xml:id="ta-l4d18q2-Hd1e140">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d18q2-d1e143">Ulterius. Videtur quod Ecclesia nullum debeat excommunicare. Quia excommunicatio
+              maledictio quaedam est. Sed Rom. 12, prohibemur maledicere. Ergo Ecclesia
+              excommunicare non debet.</p>
+            <p xml:id="ta-l4d18q2-d1e146">Praeterea, Ecclesia militans debet imitari triumphantem. Sed, ut in epistola Judae
+              legitur, <quote xml:id="ta-l4d18q2-Qd1e148">Michael cum altercaretur de corpore Moysi cum Diabolo, non est ausus
+                judicium blasphemiae inferre, sed ait: imperet tibi Deus</quote>. Ergo nec Ecclesia
+              militans debet alicui judicium maledictionis vel excommunicationis inferre.</p>
+            <p xml:id="ta-l4d18q2-d1e152">Praeterea, nullus est in manum hostis tradendus, nisi omnino desperatus. Sed per
+              excommunicationem traditur aliquis in manum Satanae, ut patet 2 Corinth. 5. Cum ergo
+              de nemine sit desperandum in vita ista, Ecclesia nullum debet excommunicare.</p>
+            <p xml:id="ta-l4d18q2-d1e155">Sed contra est quod apostolus 1 Corinth., 5, mandat quemdam excommunicari.</p>
+            <p xml:id="ta-l4d18q2-d1e159">Praeterea, Matth. 18, 17, dicitur de illo qui Ecclesiam audire contemnit: <quote xml:id="ta-l4d18q2-Qd1e161" ana="#mt18_17">sit
+                tibi sicut ethnicus et publicanus</quote>. Sed ethnici sunt extra Ecclesiam. Ergo et
+              illi qui Ecclesiam audire contemnunt, per excommunicationem extra Ecclesiam sunt
+              ponendi.</p>
+
+          </div>
+          <div xml:id="ta-l4d18q2-Dd1e166">
+            <head xml:id="ta-l4d18q2-Hd1e168">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d18q2-d1e171">Ulterius. Videtur quod nullus pro aliquo temporali damno debeat excommunicari. Quia
+              poena non debet excedere culpam. Sed poena excommunicationis est privatio alicujus
+              boni spiritualis, quod omnibus bonis temporalibus praeeminet. Ergo pro temporalibus
+              nullus est excommunicandus.</p>
+            <p xml:id="ta-l4d18q2-d1e174">Praeterea, nulli malum pro malo reddere debemus, secundum apostoli praeceptum. Sed
+              hoc esset malum pro malo reddere, si pro tali damno quis excommunicaretur. Ergo nullo
+              modo hoc debet fieri.</p>
+            <p xml:id="ta-l4d18q2-d1e177">Sed contra est quod Petrus Ananiam et Saphiram pro defraudatione pretii agri
+              sententia mortis damnavit. Ergo et Ecclesiae licet pro temporalibus damnis
+              excommunicare.</p>
+
+          </div>
+          <div xml:id="ta-l4d18q2-Dd1e182">
+            <head xml:id="ta-l4d18q2-Hd1e184">Quaestiuncula 4</head>
+            <p xml:id="ta-l4d18q2-d1e187">Ulterius. Videtur quod excommunicatio injuste lata nullo modo effectum habeat. Quia
+              per excommunicationem protectio et gratia Dei subtrahitur, quae non injuste subtrahi
+              potest. Ergo excommunicatio injuste lata non habet effectum.</p>
+            <p xml:id="ta-l4d18q2-d1e190">Praeterea, Hieronymus dicit, quod hoc est de supercilio Pharisaeorum aestimare esse
+              ligatum vel solutum qui ligatur vel solvitur injuste. Sed eorum supercilium erat
+              superbum et erroneum. Ergo excommunicatio injusta nullum habet effectum.</p>
+            <p xml:id="ta-l4d18q2-d1e193">Sed contra, secundum Gregorium, praecepta pastoris, sive justa sive injusta, timenda
+              sunt. Non autem essent timenda, nisi aliquid nocerent etiam injusta. Ergo et
+              cetera.</p>
+          </div>
+          <div xml:id="ta-l4d18q2-Dd1e197">
+            <head xml:id="ta-l4d18q2-Hd1e199">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d18q2-d1e202">Respondeo dicendum ad primam quaestionem, quod ille qui per Baptismum in Ecclesia
+              ponitur, ad duo ascribitur; scilicet ad coetum fidelium, et ad sacramentorum
+              participationem; et hoc secundum praesupponit primum, quia in sacramentis
+              participandis etiam fideles communicant; et ideo aliquis potest extra Ecclesiam fieri
+              per excommunicationem, dupliciter. Uno modo ita quod separetur tantum a participatione
+              sacramentorum; et haec erit excommunicatio minor. Alio modo ita quod excludatur ab
+              utroque; et sic erit excommunicatio major; quae hic definitur. Non autem potest esse
+              tertium; scilicet quod excludatur a communione fidelium, et non a participatione
+              sacramentorum, ratione jam dicta, quia scilicet fideles in sacramentis communicant.
+              Sed communicatio fidelium est duplex. Quaedam in spiritualibus; sicut sunt mutuae
+              orationes, et conventus ad sacra percipienda; quaedam in corporalibus actibus
+              legitimis; qui quidem legitimi actus et licita communio his versibus continentur:
+                <quote xml:id="ta-l4d18q2-Qd1e204">si pro delictis, anathema quis efficiatur; os, orare, vale, communio, mensa
+                negatur. Os</quote>, scilicet ne detur osculum; <quote xml:id="ta-l4d18q2-Qd1e207">orare</quote>, ne cum
+              excommunicatis oremus; <quote xml:id="ta-l4d18q2-Qd1e210">vale</quote>, ne salutentur; <quote xml:id="ta-l4d18q2-Qd1e213">communio</quote>, ne
+              scilicet in sacramentis cum ipsis aliquis communicet; <quote xml:id="ta-l4d18q2-Qd1e216">mensa negatur</quote>, ne
+              aliquis cum eis comedat. Praemissa ergo definitio importat separationem a sacramentis
+              in hoc quod dicit, <quote xml:id="ta-l4d18q2-Qd1e220">quantum ad fructum</quote>; et a communione fidelium,
+              quantum ad spiritualia, in hoc quod dicit: <quote xml:id="ta-l4d18q2-Qd1e223">et suffragia Ecclesiae
+                communia</quote>. Alia autem definitio invenitur quae datur secundum separationem ab
+              utrisque actibus, quae talis est: <quote xml:id="ta-l4d18q2-Qd1e226">excommunicatio est a qualibet licita
+                communione ac legitimo actu separatio</quote>.</p>
+            <p xml:id="ta-l4d18q2-d1e230">Ad primum ergo dicendum, quod pro infidelibus oratur; sed ipsi fructum orationis non
+              percipiunt, nisi ad fidem convertantur. Similiter et pro excommunicatis orari potest,
+              quamvis non inter orationes quae pro membris Ecclesiae fiunt; et tamen fructum non
+              participant, quamdiu in excommunicatione manent: sed oratur ut detur eis spiritus
+              poenitentiae, ut ab excommunicatione solvantur.</p>
+            <p xml:id="ta-l4d18q2-d1e233">Ad secundum dicendum, quod suffragia alicujus valent alicui secundum quod ei
+              continuantur. Potest autem actio unius alteri continuari dupliciter. Uno modo ex vi
+              caritatis, quae omnes fideles connectit, ut sint unum in Deo, sicut dicitur Psalm.
+              118, 63: <quote xml:id="ta-l4d18q2-Qd1e235">particeps ego sum omnium timentium te</quote>; et hanc continuationem
+              excommunicatio non intercipit: quia juste excommunicari quis non potest nisi pro culpa
+              mortali, per quam jam a caritate divisus est, etiamsi non excommunicetur. Injusta
+              autem excommunicatio caritatem alicui auferre non potest, cum sit de maximis bonis,
+              quae non possunt alicui invito auferri. Alio modo per intentionem suffragia facientis,
+              quae in aliquem fertur pro quo fiunt; et hanc continuationem excommunicatio
+              intercipit: quia Ecclesia per excommunicationis sententiam separat excommunicatos ab
+              universitate fidelium, pro quibus suffragia facit. Unde suffragia Ecclesiae ei non
+              prosunt quae pro tota Ecclesia fiunt; nec ex persona Ecclesiae oratio pro eis inter
+              membra Ecclesiae fieri potest; quamvis aliqua persona privata possit ad ejus
+              conversionem aliquod suffragium per intentionem dirigere.</p>
+            <p xml:id="ta-l4d18q2-d1e239">Ad tertium dicendum, quod fructus spiritualis Ecclesiae non solum est ex suffragiis,
+              sed etiam ex perceptione sacramentorum et ex convictu fidelium.</p>
+            <p xml:id="ta-l4d18q2-d1e243">Ad quartum dicendum, quod minor excommunicatio non habet perfectam rationem
+              excommunicationis, sed aliquid ipsius participat; et ideo non oportet quod ei
+              totaliter excommunicationis definitio conveniat, sed solum quo ad aliquid.</p>
+
+          </div>
+          <div xml:id="ta-l4d18q2-Dd1e247">
+            <head xml:id="ta-l4d18q2-Hd1e249">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d18q2-d1e252">Ad secundam quaestionem dicendum, quod judicium Ecclesiae conforme debet esse judicio
+              Dei. Deus autem multipliciter peccatores punit, ut eos ad bonum trahat. Uno modo
+              flagellis castigando; alio modo hominem sibi relinquendo, ut auxiliis subtractis,
+              quibus a malo praepediebatur, suam infirmitatem cognoscat, et humilis ad Deum redeat,
+              a quo superbus abscessit; et quantum ad utrumque Ecclesia in excommunicationis
+              sententia divinum judicium imitatur: inquantum enim eum a communione fidelium separat
+              ut erubescat, imitatur divinum judicium quo per flagella castigat; inquantum autem a
+              suffragiis et aliis spiritualibus separat, imitatur divinum judicium quo hominem sibi
+              relinquit, ut per humilitatem seipsum cognoscens ad Deum redeat.</p>
+            <p xml:id="ta-l4d18q2-d1e255">Ad primum ergo dicendum, quod maledictio potest esse dupliciter. Uno modo ita quod in
+              malo quod irrogat vel dicit, per intentionem sistat; et sic maledictio omnibus modis
+              prohibita est. Alio modo ita quod malum quod quidem maledicendo imprecatur, ad bonum
+              illius ordinet qui maledicitur; et sic maledictio quandoque est licita et salutifera:
+              sicut et medicus aliquod nocumentum infert infirmo, ut sectionem, per quam ab
+              infirmitate liberetur.</p>
+            <p xml:id="ta-l4d18q2-d1e258">Ad secundum dicendum, quod Diabolus incorrigibilis est; et ideo non est susceptibilis
+              alicujus boni per excommunicationis poenam.</p>
+            <p xml:id="ta-l4d18q2-d1e261">Ad tertium dicendum, quod ex hoc ipso quod aliquis suffragiis Ecclesiae privatur,
+              triplex incommodum incurrit per oppositum ad tria quae quis ex suffragiis Ecclesiae
+              consequitur. Valent enim ad augmentum gratiae eis qui habent, vel ad merendum eis qui
+              non habent; et quantum ad hoc Magister in littera dicit, quod gratia Dei per
+              excommunicationem subtrahitur. Valent etiam ad custodiam virtutis; et quantum ad hoc
+              dicit, quod protectio subtrahitur; non quod omnino a Dei providentia excludatur, sed
+              quod ab illa protectione qua filios Ecclesiae speciali modo custodit. Valent ad
+              defendendum ab hoste; et quantum ad hoc dicit, quod Diabolo major potestas saeviendi
+              in ipsum datur et spiritualiter et corporaliter. Unde in primitiva Ecclesia quando
+              oportebat per signa ad fidem homines invitare, sicut spiritus sancti donum visibili
+              signo manifestabatur, ita et excommunicatio corporali vexatione a Diabolo
+              innotescebat. Nec est inconveniens, si ille qui non est desperatus, hosti datur: quia
+              non datur ei quasi damnandus, sed quasi corrigendus; cum in potestate Ecclesiae sit ex
+              ejus manu ipsum eripere cum voluerit.</p>
+
+          </div>
+          <div xml:id="ta-l4d18q2-Dd1e265">
+            <head xml:id="ta-l4d18q2-Hd1e267">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d18q2-d1e270">Ad tertiam quaestionem dicendum, quod per excommunicationem judex ecclesiasticus
+              excommunicatos excludit a regno quodammodo. Unde cum non debeat excludere nisi
+              indignos, ut ex definitione clavis patuit; nec aliquis reddatur indignus nisi per
+              peccatum mortale amiserit caritatem, quae est via ducens ad regnum; ideo nullus
+              excommunicari debet nisi pro peccato mortali. Et quia in damnificando aliquem
+              corporaliter, vel in rebus temporalibus, aliquis mortaliter peccat, et contra
+              caritatem facit; ideo pro damno temporali illato Ecclesia aliquem excommunicare
+              potest. Sed quia excommunicatio est gravissima poenarum; poenae autem medicinae sunt,
+              secundum philosophum in 2 Ethic.; sapientis autem medici est a levioribus medicinis
+              incipere, et minus periculosis; ideo excommunicatio infligi non debet etiam pro
+              peccato mortali, nisi contumax fuerit; vel non veniendo ad judicium, vel ante
+              terminationem judicii sine licentia recedendo, vel determinationi non parendo: tunc
+              enim postquam monitus fuerit, si obedire contempserit; contumax reputatur, et
+              excommunicari debet a judice jam non habente quid contra ipsum faciat amplius.</p>
+            <p xml:id="ta-l4d18q2-d1e273">Ad primum ergo dicendum, quod culpae quantitas non mensuratur ex nocumento quod quis
+              facit, sed ex voluntate qua facit, contra caritatem agens; et ideo, quamvis poena
+              excommunicationis excedat nocumentum, non tamen excedit quantitatem culpae.</p>
+            <p xml:id="ta-l4d18q2-d1e276">Ad secundum dicendum, quod cum aliquis per poenam aliquam corrigitur, non redditur ei
+              malum, sed bonum: quia poenae medicinae sunt, ut dictum est.</p>
+
+          </div>
+          <div xml:id="ta-l4d18q2-Dd1e280">
+            <head xml:id="ta-l4d18q2-Hd1e282">Quaestiuncula 4</head>
+            <p xml:id="ta-l4d18q2-d1e285">Ad quartam quaestionem dicendum, quod excommunicatio potest dici injusta dupliciter.
+              Uno modo ex parte excommunicantis; sicut cum ex odio vel ira excommunicat; et tunc
+              excommunicatio nihilominus habet effectum suum, quamvis ille qui excommunicat peccet:
+              quia iste juste patitur quamvis ille injuste faciat. Alio modo ex parte ipsius
+              excommunicationis: vel quia causa excommunicationis est indebita, vel quia infertur
+              sententia, juris ordine praetermisso; et tunc, si sit talis error ex parte sententiae
+              qui sententiam nullam faciat esse, non habet effectum, quia non est excommunicatio; si
+              autem sententiam non annullet, habet effectum suum, et debet excommunicatus humiliter
+              obedire, et erit ad meritum, vel absolutionem petere ab excommunicante, vel ad
+              superiorem judicem recurrere. Si autem contemneret, eo ipso mortaliter peccaret.
+              Contingit autem quandoque quod est debita causa ex parte excommunicationis, quae non
+              est debita ex parte excommunicati; sicut cum aliquis pro falso crimine in judicio
+              probato excommunicatur; et tunc si humiliter sustinet, humilitatis merito recompensat
+              excommunicationis damnum.</p>
+            <p xml:id="ta-l4d18q2-d1e288">Ad primum ergo dicendum, quod quamvis homo gratiam Dei injuste amittere non possit,
+              potest tamen injuste amittere illa quae ex parte nostra sunt, quae ad gratiam Dei
+              disponunt; sicut patet, si subtrahatur alicui doctrinae verbum quod ei debetur; et hoc
+              modo excommunicatio gratiam Dei subtrahere dicitur, ut ex praedictis patet.</p>
+            <p xml:id="ta-l4d18q2-d1e291">Ad secundum dicendum, quod Hieronymus loquitur quantum ad culpas, et non quantum ad
+              poenas, quae possunt etiam injuste infligi a rectoribus Ecclesiarum.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d18q2-Dd1e296" type="articulus">
+          <head xml:id="ta-l4d18q2-Hd1e298">Articulus 2</head>
+
+          <head xml:id="ta-l4d18q2-Hd1e301" type="questionTitle">Utrum quilibet sacerdos possit excommunicare</head>
+
+          <div xml:id="ta-l4d18q2-Dd1e304">
+            <head xml:id="ta-l4d18q2-Hd1e306">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d18q2-d1e309">Ad secundum sic proceditur. Videtur, quod quilibet sacerdos possit excommunicare.
+              Excommunicatio enim est actus clavium. Sed quilibet sacerdos habet claves. Ergo
+              quilibet potest excommunicare.</p>
+            <p xml:id="ta-l4d18q2-d1e312">Praeterea, majus est absolvere et ligare in foro poenitentiae quam in foro judicii.
+              Sed quilibet sacerdos potest sibi subditos in foro poenitentiali absolvere et ligare.
+              Ergo etiam potest sibi subditos quilibet sacerdos excommunicare.</p>
+            <p xml:id="ta-l4d18q2-d1e315">Sed contra, ea in quibus imminet periculum, sunt majoribus reservanda. Sed poena
+              excommunicationis est valde periculosa, nisi cum moderamine fiat. Ergo non debet
+              cuilibet committi sacerdoti.</p>
+
+          </div>
+          <div xml:id="ta-l4d18q2-Dd1e319">
+            <head xml:id="ta-l4d18q2-Hd1e321">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d18q2-d1e324">Ulterius. Videtur quod non sacerdotes excommunicare non possint. Quia excommunicatio
+              est actus clavium, ut in littera dicitur. Sed non sacerdotes non habent claves. Ergo
+              non possunt excommunicare.</p>
+            <p xml:id="ta-l4d18q2-d1e327">Praeterea, plus requiritur ad excommunicationem quam ad absolutionem in foro
+              poenitentiae. Sed non sacerdos in foro poenitentiae absolvere non potest. Ergo nec
+              excommunicationem inferre.</p>
+            <p xml:id="ta-l4d18q2-d1e330">Sed contra est quod archidiaconi, legati et clerici excommunicant, qui quandoque non
+              sunt sacerdotes. Ergo non solum sacerdotes excommunicare possunt.</p>
+
+          </div>
+          <div xml:id="ta-l4d18q2-Dd1e334">
+            <head xml:id="ta-l4d18q2-Hd1e336">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d18q2-d1e339">Ulterius. Videtur quod excommunicatus vel suspensus excommunicare possit. Ille enim
+              qui est excommunicatus vel suspensus, neque ordinem neque jurisdictionem amittit; quia
+              neque reordinatur cum absolvitur, neque cura ei iterum committitur. Sed excommunicatio
+              non requirit nisi ordinem vel jurisdictionem. Ergo etiam excommunicatus et suspensus
+              excommunicare possunt.</p>
+            <p xml:id="ta-l4d18q2-d1e342">Praeterea, majus est conficere corpus Christi quam excommunicare. Sed excommunicati
+              conficere possunt, ut supra, dist. 13, dictum est. Ergo possunt excommunicare.</p>
+            <p xml:id="ta-l4d18q2-d1e345">Sed contra, ligatus corporaliter non potest alium ligare. Sed vinculum spirituale est
+              fortius quam corporale. Ergo excommunicatus non potest excommunicare, cum
+              excommunicatio sit vinculum spirituale.</p>
+          </div>
+          <div xml:id="ta-l4d18q2-Dd1e350">
+            <head xml:id="ta-l4d18q2-Hd1e352">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d18q2-d1e355">Respondeo dicendum ad primam quaestionem, quod in foro conscientiae causa agitur
+              inter hominem et Deum; in foro autem exterioris judicii causa agitur hominis ad
+              hominem; et ideo absolutio vel ligatio quae unum hominem obligat quo ad Deum tantum,
+              pertinet ad forum poenitentiae; sed illa quae hominem obligat in comparatione ad alios
+              homines, ad forum publicum exterioris judicii pertinet. Et quia per excommunicationem
+              homo a communione fidelium separatur; ideo excommunicatio ad forum exterius pertinet,
+              et illi soli possunt excommunicare qui habent jurisdictionem in foro judiciali; et
+              propter hoc soli episcopi propria auctoritate, et majores praelati, secundum
+              communiorem opinionem, possunt excommunicare; sed presbyteri parochiales non, nisi ex
+              commissione eis facta, vel in certis casibus, sicut in furto et rapina, et hujusmodi,
+              in quibus est eis a jure concessum quod excommunicare possint. Alii autem dixerunt,
+              quod etiam sacerdotes parochiales possunt excommunicare. Sed praedicta opinio est
+              rationabilior.</p>
+            <p xml:id="ta-l4d18q2-d1e358">Ad primum ergo dicendum, quod excommunicatio non est actus clavis directe, sed magis
+              respectu exterioris judicii; sed sententia excommunicationis, quamvis in exteriori
+              judicio promulgetur, quia tamen aliquo modo pertinet ad aditum regni, secundum quod
+              Ecclesia militans est via ad triumphantem; ideo etiam talis jurisdictio, per quam homo
+              excommunicare potest, clavis potest dici; et secundum hoc a quibusdam distinguitur,
+              quod est clavis ordinis, quam omnes sacerdotes habent; et clavis jurisdictionis in
+              foro judiciali, quam habent soli judices exterioris fori; utramque tamen Deus Petro
+              contulit, Matth. 16; et ab ipso in alios descendit qui utramque habent.</p>
+            <p xml:id="ta-l4d18q2-d1e361">Ad secundum dicendum, quod sacerdotes parochiales habent quidem jurisdictionem in
+              subditos suos quantum ad forum conscientiae, sed non quantum ad forum judiciale; quia
+              non possunt coram eis conveniri in causis contentiosis; et ideo excommunicare non
+              possunt, sed absolvere possunt in foro poenitentiali; et quamvis forum poenitentiale
+              sit dignius, tamen in foro judiciali major solemnitas requiritur; quia in eo oportet
+              quod non solum Deo, sed etiam homini satisfiat.</p>
+
+          </div>
+          <div xml:id="ta-l4d18q2-Dd1e365">
+            <head xml:id="ta-l4d18q2-Hd1e367">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d18q2-d1e370">Ad secundam quaestionem dicendum, quod sacramenta, in quibus gratia confertur,
+              dispensare ad solos sacerdotes pertinet; et ideo ipsi soli possunt absolvere et ligare
+              in foro poenitentiali; sed excommunicatio non directe respicit gratiam, sed ex
+              consequenti, inquantum homo suffragiis Ecclesiae privatur, quae ad gratiam disponunt,
+              vel in gratia conservant; et ideo etiam non sacerdotes, dummodo jurisdictionem habeant
+              in foro contentioso, possunt excommunicare.</p>
+            <p xml:id="ta-l4d18q2-d1e373">Ad primum ergo dicendum, quod quamvis non habeant clavem ordinis, habent tamen clavem
+              jurisdictionis.</p>
+            <p xml:id="ta-l4d18q2-d1e376">Ad secundum dicendum, quod ista duo se habent sicut excedentia et excessa; et ideo
+              alicui competit unum cui non competit aliud.</p>
+
+          </div>
+          <div xml:id="ta-l4d18q2-Dd1e380">
+            <head xml:id="ta-l4d18q2-Hd1e382">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d18q2-d1e385">Ad tertiam quaestionem dicendum, quod usus jurisdictionis est in comparatione ad
+              alium hominem; et ideo, cum omnis excommunicatus a communione fidelium separetur,
+              quilibet excommunicatus usu jurisdictionis privatur. Et quia excommunicatio est
+              jurisdictionis privatio, ideo excommunicatus excommunicare non potest; et eadem ratio
+              est de suspenso a jurisdictione. Si enim sit suspensus ab ordine tantum, tunc non
+              potest ea quae sunt ordinis, sed potest ea quae sunt jurisdictionis; et e converso, si
+              sit suspensus a jurisdictione, et non ab ordine; si autem ab utroque, tunc neutrum
+              potest.</p>
+            <p xml:id="ta-l4d18q2-d1e388">Ad primum ergo dicendum, quod quamvis non amittat jurisdictionem, amittit tamen
+              jurisdictionis usum.</p>
+            <p xml:id="ta-l4d18q2-d1e391">Ad secundum dicendum, quod conficere sequitur potestatem characteris qui indelebilis
+              est; et ideo homo, ex quo characterem ordinis habet, semper potest conficere, licet
+              non semper ei liceat. Secus autem est de excommunicatione quae jurisdictionem
+              sequitur, quae auferri potest et ligari.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d18q2-Dd1e396" type="articulus">
+          <head xml:id="ta-l4d18q2-Hd1e398">Articulus 3</head>
+
+          <head xml:id="ta-l4d18q2-Hd1e401" type="questionTitle">Utrum aliquis possit seipsum, vel aequalem, vel superiorem,
+            excommunicare</head>
+
+          <div xml:id="ta-l4d18q2-Dd1e404">
+            <head xml:id="ta-l4d18q2-Hd1e406">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d18q2-d1e409">Ad tertium sic proceditur. Videtur quod aliquis possit seipsum, vel aequalem vel
+              superiorem, excommunicare. Quia Angelus Dei major erat Paulo. Matth. 11, 2: <quote xml:id="ta-l4d18q2-Qd1e411" ana="#mt11_2">qui
+                minor est in regno caelorum, major est illo</quote>, quo nemo inter natos mulierum
+              major. Sed Paulus excommunicavit Angelum de caelo, ut patet Gal. 1. Ergo homo potest
+              superiorem excommunicare.</p>
+            <p xml:id="ta-l4d18q2-d1e415">Praeterea, sacerdos aliquando excommunicat in generali pro furto, vel pro aliquo
+              hujusmodi. Sed potest contingere quod ipsemet fecit, vel superior, vel aequalis. Ergo
+              aliquis potest se, vel aequalem vel superiorem, excommunicare.</p>
+            <p xml:id="ta-l4d18q2-d1e418">Praeterea, aliquis potest superiorem absolvere in foro poenitentiali, vel aequalem,
+              sicut cum episcopi suis subditis confitentur, et cum unus sacerdos alteri venialia
+              confitetur. Ergo videtur quod etiam excommunicare aliquis superiorem vel aequalem
+              possit.</p>
+            <p xml:id="ta-l4d18q2-d1e421">Sed contra, excommunicatio est actus jurisdictionis. Sed aliquis non habet in se
+              jurisdictionem, quia in eadem causa non potest quis esse reus et judex; nec iterum in
+              superiorem aut aequalem. Ergo non potest aliquis superiorem vel aequalem, aut se,
+              excommunicare.</p>
+
+          </div>
+          <div xml:id="ta-l4d18q2-Dd1e425">
+            <head xml:id="ta-l4d18q2-Hd1e427">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d18q2-d1e430">Ulterius. Videtur quod in aliquam universitatem sententia excommunicationis ferri
+              possit. Contingit enim quod aliqua universitas sibi in malitia colligatur. Sed pro
+              malitia in qua aliquis contumax extiterit, debet excommunicatio ferri. Ergo potest in
+              aliquam universitatem ferri excommunicatio.</p>
+            <p xml:id="ta-l4d18q2-d1e433">Praeterea, illud quod est gravissimum in excommunicatione, est separatio a
+              sacramentis Ecclesiae. Sed aliquando tota civitas interdicitur a divinis. Ergo
+              excommunicari aliqua universitas potest.</p>
+            <p xml:id="ta-l4d18q2-d1e436">Sed contra est Glossa Augustini Matth. 13, quae dicit, quod princeps et multitudo non
+              est excommunicanda.</p>
+
+          </div>
+          <div xml:id="ta-l4d18q2-Dd1e440">
+            <head xml:id="ta-l4d18q2-Hd1e442">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d18q2-d1e445">Ulterius. Videtur quod ille qui semel est excommunicatus, ulterius excommunicari non
+              possit. 1 Corinth. 5, 12 dicit apostolus: <quote xml:id="ta-l4d18q2-Qd1e447">quid mihi est, de his qui foris sunt
+                judicare?</quote> Sed excommunicati jam sunt extra Ecclesiam. Ergo super eos
+              Ecclesia judicium non habet, ut possit eos iterum excommunicare.</p>
+            <p xml:id="ta-l4d18q2-d1e451">Praeterea, excommunicatio est separatio quaedam a divinis, et a communione fidelium.
+              Sed postquam est aliquis privatus aliquo, non potest iterum illo privari. Ergo unus
+              excommunicatus non debet iterum excommunicari.</p>
+            <p xml:id="ta-l4d18q2-d1e454">Sed contra, excommunicatio quaedam poena est, et medicinale remedium. Sed poenae et
+              medicinae iterantur, cum causa exigit. Ergo et excommunicatio iterari potest.</p>
+          </div>
+          <div xml:id="ta-l4d18q2-Dd1e459">
+            <head xml:id="ta-l4d18q2-Hd1e461">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d18q2-d1e464">Respondeo dicendum ad primam quaestionem, quod cum per jurisdictionem aliquis
+              constituatur in gradu superioritatis respectu ejus in quem habet jurisdictionem, quia
+              est judex ejus; ideo nullus habet in seipsum, vel superiorem vel aequalem
+              jurisdictionem, et per consequens nullus potest seipsum excommunicare, vel superiorem
+              vel aequalem.</p>
+            <p xml:id="ta-l4d18q2-d1e467">Ad primum ergo dicendum, quod apostolus loquitur sub hypothesi, idest si poneretur
+              Angelus peccare; sic enim non esset apostolo superior, sed inferior. Nec est
+              inconveniens quod in conditionalibus quarum antecedentia impossibilia sunt, et
+              consequentia impossibilia sint.</p>
+            <p xml:id="ta-l4d18q2-d1e470">Ad secundum dicendum, quod in tali casu nullus excommunicatur; quia par in parem
+              nullum habet imperium.</p>
+            <p xml:id="ta-l4d18q2-d1e473">Ad tertium dicendum, quod absolutio et ligatio in foro confessionis est quo ad Deum
+              tantum, apud quem aliquis alio inferior redditur pro peccato. Sed excommunicatio est
+              in judicio exteriori, in quo aliquis non amittit superioritatem ex hoc ipso quod
+              peccat. Unde non est similis ratio de utroque foro. Et tamen in foro confessionis
+              aliquis non potest seipsum absolvere, nec superiorem nec aequalem, de mortali, nisi ex
+              commissione sibi facta; de venialibus autem potest, quia venialia ex quibuslibet
+              sacramentis gratiam conferentibus remittuntur; unde remissio venialium sequitur
+              potestatem ordinis.</p>
+
+          </div>
+          <div xml:id="ta-l4d18q2-Dd1e477">
+            <head xml:id="ta-l4d18q2-Hd1e479">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d18q2-d1e482">Ad secundam quaestionem dicendum, quod excommunicari non debet aliquis nisi pro
+              peccato mortali; peccatum autem in actu consistit; actus autem non est communitatis
+              sed singularium personarum ut frequenter; et ideo singuli de communitate excommunicari
+              possunt, non autem ipsa communitas; et si etiam quandoque actus sit totius alicujus
+              multitudinis, ut quando multi navim trahunt, quam nullus trahere posset; non tamen est
+              probabile quod aliqua communitas ita tota ad malum consentiat quin aliqui sint
+              dissentientes. Et quia non est Dei, qui judicat omnem terram, ut condemnet justum cum
+              impio, ut dicitur Gen. 18; ideo Ecclesia, quae judicium Dei imitari debet, satis
+              provide statuit ut tota communitas non excommunicetur, ne collectis zizaniis simul
+              eradicetur et triticum.</p>
+            <p xml:id="ta-l4d18q2-d1e485">Ad primum ergo patet solutio ex dictis.</p>
+            <p xml:id="ta-l4d18q2-d1e488">Ad secundum dicendum, quod suspensio non tanta poena est quanta excommunicatio, quia
+              suspensi non fraudantur Ecclesiae suffragiis sicut excommunicati; unde etiam aliquis
+              sine peccato proprio suspenditur, sicut et totum regnum supponitur interdicto pro
+              peccatis regis; et ideo non est simile de excommunicatione et suspensione.</p>
+
+          </div>
+          <div xml:id="ta-l4d18q2-Dd1e492">
+            <head xml:id="ta-l4d18q2-Hd1e494">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d18q2-d1e497">Ad tertiam quaestionem dicendum, quod ille qui excommunicatus est una
+              excommunicatione, potest iterum excommunicari per ejusdem excommunicationis
+              iterationem ad majorem sui confusionem, ut vel sic a peccato resiliat, vel propter
+              alias causas; et tunc tot sunt principales excommunicationes, quot causae pro quibus
+              aliquis excommunicatur.</p>
+            <p xml:id="ta-l4d18q2-d1e500">Ad primum ergo dicendum, quod apostolus loquitur de Paganis et aliis infidelibus, qui
+              non habent characterem, per quem annumerati sint in populo Dei. Sed quia character
+              baptismalis, quo quis populo Dei annumeratur, est indelebilis, ideo semper remanet
+              aliquo modo de Ecclesia baptizatus; et sic semper Ecclesia de ipso judicare
+              potest.</p>
+            <p xml:id="ta-l4d18q2-d1e503">Ad secundum dicendum, quod privatio, quamvis non recipiat magis et minus secundum se,
+              recipit tamen magis et minus secundum causam suam; et secundum hoc excommunicatio
+              potest iterari; et magis est elongatus a suffragiis Ecclesiae qui pluries est
+              excommunicatus quam qui semel tantum.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d18q2-Dd1e509" type="articulus">
+          <head xml:id="ta-l4d18q2-Hd1e511">Articulus 4</head>
+
+          <head xml:id="ta-l4d18q2-Hd1e514" type="questionTitle">Utrum liceat excommunicato communicare in pure
+            corporalibus</head>
+
+          <div xml:id="ta-l4d18q2-Dd1e517">
+            <head xml:id="ta-l4d18q2-Hd1e519">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d18q2-d1e522">Ad quartum sic proceditur. Videtur, quod liceat excommunicato communicare in pure
+              corporalibus. Excommunicatio enim est actus clavium. Sed potestas clavium se extendit
+              ad spiritualia tantum. Ergo per excommunicationem non prohibetur quin unus alii in
+              corporalibus communicare possit.</p>
+            <p xml:id="ta-l4d18q2-d1e525">Praeterea, quod est institutum pro caritate, contra caritatem non militat. Sed
+              praecepto caritatis tenemur inimicis subvenire; quod sine aliqua communicatione fieri
+              non potest. Ergo licet alicui excommunicato in corporalibus communicare.</p>
+            <p xml:id="ta-l4d18q2-d1e528">Sed contra est quod dicitur 1 Corinth., 5, 11: <quote xml:id="ta-l4d18q2-Qd1e530">cum ejusmodi nec cibum
+                sumere</quote>.</p>
+
+          </div>
+          <div xml:id="ta-l4d18q2-Dd1e535">
+            <head xml:id="ta-l4d18q2-Hd1e537">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d18q2-d1e540">Ulterius. Videtur quod participans excommunicato non sit excommunicatus. Plus est
+              enim separatus ab Ecclesia gentilis quam excommunicatus. Sed ille qui participat
+              gentili, aut Judaeo, non est excommunicatus. Ergo nec ille qui participat Christiano
+              excommunicato.</p>
+            <p xml:id="ta-l4d18q2-d1e543">Praeterea, si ille qui participat alicui excommunicato, est excommunicatus; eadem
+              ratione qui participat participanti, erit excommunicatus; et sic in infinitum
+              procedet: quod videtur absurdum. Ergo non est excommunicatus qui excommunicato
+              participat.</p>
+            <p xml:id="ta-l4d18q2-d1e546">Sed contra est quod excommunicatus positus est extra communionem. Ergo qui ei
+              communicat, a communione Ecclesiae recedit; et sic videtur quod sit
+              excommunicatus.</p>
+
+          </div>
+          <div xml:id="ta-l4d18q2-Dd1e550">
+            <head xml:id="ta-l4d18q2-Hd1e552">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d18q2-d1e555">Ulterius. Videtur quod participare cum excommunicato in casibus non concessis, semper
+              sit peccatum mortale. Quia decretalis quaedam respondet, quod propter timorem mortis
+              non debet aliquis excommunicato communicare: quia aliquis debet prius subire mortem
+              quam mortaliter peccet. Sed haec ratio nulla esset nisi participare excommunicato
+              esset peccatum mortale. Ergo et cetera.</p>
+            <p xml:id="ta-l4d18q2-d1e558">Praeterea, facere contra praeceptum Ecclesiae, est peccatum mortale. Sed Ecclesia
+              praecepit quod excommunicato nullus communicet. Ergo participare cum excommunicato est
+              peccatum mortale.</p>
+            <p xml:id="ta-l4d18q2-d1e561">Praeterea, nullus arcetur a perceptione Eucharistiae pro peccato veniali. Sed ille
+              qui participat excommunicato in casibus non concessis, arcetur a perceptione
+              Eucharistiae: quia incurrit minorem excommunicationem. Ergo participans excommunicato
+              in casibus non concessis peccat mortaliter.</p>
+            <p xml:id="ta-l4d18q2-d1e564">Praeterea, nullus debet excommunicari majori excommunicatione, nisi pro peccato
+              mortali. Sed aliquis potest secundum jura excommunicari majori excommunicatione
+              propter hoc quod excommunicato participat. Ergo participare excommunicato est peccatum
+              mortale.</p>
+            <p xml:id="ta-l4d18q2-d1e568">Sed contra, a peccato mortali nullus potest absolvere nisi habeat super eum
+              jurisdictionem. Sed potest absolvere a participatione excommunicationis quilibet
+              sacerdos. Ergo non est peccatum mortale.</p>
+            <p xml:id="ta-l4d18q2-d1e571">Praeterea, pro mensura peccati debet esse poenitentiae modus. Sed pro participatione
+              excommunicationis, secundum communem consuetudinem non ponitur poena debita peccato
+              mortali, sed magis debita veniali. Ergo est peccatum veniale.</p>
+          </div>
+          <div xml:id="ta-l4d18q2-Dd1e576">
+            <head xml:id="ta-l4d18q2-Hd1e578">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d18q2-d1e581">Respondeo dicendum ad primam quaestionem, quod, sicut praedictum est, duplex est
+              excommunicatio. Una est minor, quae separat tantum a participatione sacramentorum, sed
+              non a communione fidelium; et ideo tali excommunicato licet communicare, sed non licet
+              ei sacramenta conferre. Alia est major excommunicatio; et haec separat hominem a
+              sacramentis Ecclesiae, et a communione fidelium; et ideo excommunicato tali
+              excommunicatione communicare non licet. Sed quia Ecclesia excommunicationem ad
+              medelam, et non ad interitum, inducit; excipiuntur ab hac generalitate quaedam in
+              quibus communicare licet; scilicet in his quae pertinent ad salutem: quia de talibus
+              homo licite cum excommunicato loqui potest; et etiam alia verba interserere, ut
+              facilius salutis verba ex familiaritate recipiantur. Excipiuntur etiam quaedam
+              personae, ad quas specialiter pertinet provisio excommunicati, scilicet uxor, servus,
+              filius, rusticus, et serviens. Sed hoc intelligendum est de filiis non emancipatis;
+              alias tenerentur vitare patrem; de aliis autem intelligitur quod licet excommunicato
+              communicare, si ante excommunicationem se ei subdiderunt; non autem si post. Quidam
+              autem intelligunt e converso; scilicet quod superiores possunt licite communicare
+              inferioribus. Alii vero contra dicunt. Sed ad minus in his eis communicare debent in
+              quibus eis sunt obligati: quia sicut inferiores obligantur ad obsequium superiorum,
+              ita superiores ad providentiam inferiorum. Sunt etiam quidam casus excepti; sicut
+              quando ignoratur excommunicatio; et quando aliqui sunt peregrini et viatores in terra
+              excommunicatorum; qui licite possunt ab eis emere, vel etiam accipere eleemosynam; et
+              similiter si aliquis videat excommunicatum in necessitate: quia tunc ex praecepto
+              caritatis tenetur ei providere. Et haec hoc versu continentur: <quote xml:id="ta-l4d18q2-Qd1e583">utile, lex,
+                humile, res ignorata, necesse</quote>; ut utile referatur ad verba salutis, lex ad
+              matrimonium, humile ad subjectionem; cetera patent.</p>
+            <p xml:id="ta-l4d18q2-d1e587">Ad primum ergo dicendum, quod corporalia ad spiritualia ordinantur; et ideo potestas
+              quae se extendit ad spiritualia, etiam ad corporalia potest se extendere; sicut ars
+              quae est de fine, imperat de his quae sunt ad finem.</p>
+            <p xml:id="ta-l4d18q2-d1e590">Ad secundum dicendum, quod in illo casu in quo aliquis ex praecepto caritatis
+              communicare tenetur, non prohibetur communio, ut ex dictis patet.</p>
+
+          </div>
+          <div xml:id="ta-l4d18q2-Dd1e594">
+            <head xml:id="ta-l4d18q2-Hd1e596">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d18q2-d1e599">Ad secundam quaestionem dicendum, quod excommunicatio potest inferri in aliquem
+              dupliciter. Aut ita quod ipse sit excommunicatus cum omnibus ei participantibus; et
+              tunc non est dubium quod quicumque participat ei, est excommunicatus majori
+              excommunicatione. Aut est excommunicatus simpliciter; et tunc aut participat aliquis
+              ei in crimine, praebendo ei consilium et auxilium et favorem, et sic iterum est
+              excommunicatus majori excommunicatione: aut participat in aliis, sicut in verbo vel
+              osculo vel mensa; et sic est excommunicatus minori excommunicatione.</p>
+            <p xml:id="ta-l4d18q2-d1e602">Ad primum ergo dicendum, quod Ecclesia non ita intendit corrigere infideles sicut
+              fideles, quorum cura sibi incumbit; et ideo non arcet a communione infidelium sicut a
+              communione fidelium illorum quos excommunicat, super quos habet aliquam
+              potestatem.</p>
+            <p xml:id="ta-l4d18q2-d1e605">Ad secundum dicendum, quod excommunicato minori excommunicatione licet communicare;
+              et sic excommunicatio non transit in tertiam personam.</p>
+
+          </div>
+          <div xml:id="ta-l4d18q2-Dd1e609">
+            <head xml:id="ta-l4d18q2-Hd1e611">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d18q2-d1e614">Ad tertiam quaestionem dicendum, quod quidam dicunt quod quandocumque aliquis
+              participat excommunicato, vel verbo, vel quocumque dictorum modorum secundum quos ei
+              communicare non licet; peccat mortaliter, nisi in casibus exceptis a jure. Sed quia
+              hoc videtur valde grave, quod homo pro uno verbo levi quo excommunicatum alloquitur,
+              mortaliter peccet; et multis excommunicantes laqueum damnationis iniicerent, quod in
+              eos retorqueretur; ideo aliis probabilius videtur quod non semper peccat mortaliter,
+              sed solum quando in crimine sibi participat, vel in divinis, vel in contemptum
+              Ecclesiae.</p>
+            <p xml:id="ta-l4d18q2-d1e617">Ad primum ergo dicendum, quod decretalis illa loquitur de participatione in divinis.
+              Vel dicendum, quod similis ratio est de peccato mortali et de veniali quantum ad hoc:
+              quia sicut peccatum mortale non potest bene fieri, ita nec veniale; et sicut homo
+              debet prius sustinere mortem quam peccet mortaliter; ita etiam quam quod peccet
+              venialiter illo modo debiti quo debet veniale vitare.</p>
+            <p xml:id="ta-l4d18q2-d1e620">Ad secundum dicendum, quod praeceptum Ecclesiae directe respicit spiritualia, et ex
+              consequenti legitimos actus; et ideo, qui communicat ei in divinis, facit contra
+              praeceptum, et peccat mortaliter: qui autem participat ei in aliis, facit praeter
+              praeceptum, et peccat venialiter.</p>
+            <p xml:id="ta-l4d18q2-d1e623">Ad tertium dicendum, quod etiam aliquis sine culpa quandoque ab Eucharistia arcetur,
+              sicut patet in suspensis vel interdictis: quia tales poenae quandoque alicui pro culpa
+              alterius, qui in eis punitur, inferuntur.</p>
+            <p xml:id="ta-l4d18q2-d1e627">Ad quartum dicendum, quod quamvis participare excommunicato sit peccatum veniale,
+              tamen participare ei pertinaciter est peccatum mortale; et per hoc potest aliquis
+              excommunicari secundum jura.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d18q2-Dd1e632" type="articulus">
+          <head xml:id="ta-l4d18q2-Hd1e634">Articulus 5</head>
+
+          <head xml:id="ta-l4d18q2-Hd1e637" type="questionTitle">Utrum quilibet sacerdos possit subditum suum ab
+            excommunicatione absolvere</head>
+
+          <div xml:id="ta-l4d18q2-Dd1e640">
+            <head xml:id="ta-l4d18q2-Hd1e642">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d18q2-d1e645">Ad quintum sic proceditur. Videtur quod quilibet sacerdos possit subditum suum ab
+              excommunicatione absolvere. Majus enim est vinculum peccati quam excommunicationis.
+              Sed quilibet sacerdos potest subditum suum a peccato absolvere. Ergo multo fortius ab
+              excommunicatione.</p>
+            <p xml:id="ta-l4d18q2-d1e648">Praeterea, remota causa removetur effectus. Sed excommunicationis causa est peccatum
+              mortale. Ergo cum possit quilibet sacerdos a peccato illo mortali absolvere, poterit
+              ab excommunicatione similiter.</p>
+            <p xml:id="ta-l4d18q2-d1e651">Sed contra, ejusdem potestatis est excommunicare, et excommunicatum absolvere. Sed
+              sacerdotes inferiores non possunt suos subditos excommunicare. Ergo nec absolvere.</p>
+
+          </div>
+          <div xml:id="ta-l4d18q2-Dd1e655">
+            <head xml:id="ta-l4d18q2-Hd1e657">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d18q2-d1e660">Ulterius. Videtur quod nullus possit absolvi invitus. Spiritualia enim non
+              conferuntur invito alicui. Sed absolutio ab excommunicatione est beneficium
+              spirituale. Ergo non potest praestari invito.</p>
+            <p xml:id="ta-l4d18q2-d1e663">Praeterea, excommunicationis causa est contumacia. Sed quando aliquis non vult
+              absolvi, excommunicationem contemnens, tunc est maxime contumax. Ergo non potest
+              absolvi.</p>
+            <p xml:id="ta-l4d18q2-d1e666">Sed contra, excommunicatio contra voluntatem alicui potest inferri. Sed quae contra
+              voluntatem eveniunt, etiam contra voluntatem amoveri possunt, sicut patet de bonis
+              fortunae. Ergo excommunicatio potest tolli ab aliquo invito.</p>
+
+          </div>
+          <div xml:id="ta-l4d18q2-Dd1e670">
+            <head xml:id="ta-l4d18q2-Hd1e672">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d18q2-d1e675">Ulterius. Videtur quod aliquis non possit absolvi ab una excommunicatione, nisi
+              absolvatur ab omnibus. Effectus enim debet proportionari suae causae. Sed causa
+              excommunicationis est peccatum. Cum ergo aliquis non possit absolvi ab uno peccato
+              nisi ab omnibus absolvatur, nec in excommunicatione hoc esse poterit.</p>
+            <p xml:id="ta-l4d18q2-d1e678">Praeterea excommunicationis absolutio in Ecclesia fit. Sed ille qui una
+              excommunicatione est irretitus, est extra Ecclesiam. Ergo quamdiu una manet, ab alia
+              absolvi non potest.</p>
+            <p xml:id="ta-l4d18q2-d1e681">Sed contra, excommunicatio quaedam poena est. Sed ab una poena aliquis liberatur alia
+              remanente. Ergo ab una excommunicatione, alia remanente, quis absolvi potest.</p>
+          </div>
+          <div xml:id="ta-l4d18q2-Dd1e686">
+            <head xml:id="ta-l4d18q2-Hd1e688">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d18q2-d1e691">Respondeo dicendum ad primam quaestionem, quod a minori excommunicatione quilibet
+              potest absolvere qui potest absolvere a peccato participationis. Si autem est major:
+              aut est lata a judice; et sic ille qui tulit, vel ejus superior, potest absolvere: vel
+              lata a jure; et tunc episcopus, vel etiam sacerdos, potest absolvere, exceptis sex
+              casibus, quos sibi juris conditor, scilicet Papa, reservavit. Primus est, cum aliquis
+              injicit manus in clericum vel religiosum. Secundus est de illo qui incendit Ecclesiam,
+              et est denuntiatus. Tertius est de illo qui frangit Ecclesiam, et denuntiatus est.
+              Quartus est de illo qui in divinis scienter communicat excommunicatis nominaliter a
+              Papa. Quintus de illo qui falsat litteras apostolicae sedis. Sextus de illo qui
+              excommunicatis in crimine communicat; non enim debet absolvi nisi ab eo qui
+              excommunicavit, etiamsi non sit ejus subditus, nisi propter difficultatem accedendi ad
+              ipsum absolveretur ab episcopo, vel a proprio sacerdote, praestita juratoria cautione,
+              quod pareret mandato illius judicis qui sententiam tulit. A primo autem casu octo
+              excipiuntur. Primus est in articulo mortis, in quo a qualibet excommunicatione potest
+              quis a quolibet sacerdote absolvi. Secundus, si sit ostiarius alicujus potentis, et
+              non ex odio vel proposito percussit. Tertius, si percutiens sit mulier. Quartus, si
+              sit servus, et dominus laederetur de ejus absentia, qui non est in culpa. Quintus, si
+              regularis regularem, nisi sit enormis excessus. Sextus, si sit pauper. Septimus, si
+              sit impubes, vel senex, vel valetudinarius. Octavus, si habeat inimicitias capitales.
+              Sunt autem alii casus septem, in quibus percutiens clericum excommunicationem non
+              incurrit. Primus, si causa disciplinae, ut magister vel praefectus, percusserit.
+              Secundus, si jocosa levitate. Tertius, si invenerit eum turpiter agentem cum uxore vel
+              matre vel sorore vel filia. Quartus, si statim vim repellat. Quintus, si ignoret eum
+              esse clericum. Sextus, si inveniat eum in apostasia post trinam admonitionem.
+              Septimus, si transfert se clericus ad actum penitus contrarium, ut fiat miles, vel ad
+              bigamiam transeat.</p>
+            <p xml:id="ta-l4d18q2-d1e694">Ad primum ergo dicendum, quod quamvis vinculum peccati sit majus simpliciter quam
+              excommunicationis; tamen quo ad aliquid vinculum excommunicationis est majus,
+              inquantum non solum obligat quo ad Deum, sed etiam in facie Ecclesiae; et ideo in
+              absolvendo ab excommunicatione requiritur jurisdictio in exteriori foro, non autem in
+              absolutione a peccato; nec exigitur cautio juramenti, sicut exigitur in absolutione ab
+              excommunicatione. Per juramentum enim controversiae quae sunt inter homines,
+              terminantur, secundum apostolum.</p>
+            <p xml:id="ta-l4d18q2-d1e697">Ad secundum dicendum, quod cum excommunicatus non sit particeps sacramentorum
+              Ecclesiae; sacerdos non potest absolvere excommunicatum a culpa, nisi sit prius
+              absolutus ab excommunicatione.</p>
+
+          </div>
+          <div xml:id="ta-l4d18q2-Dd1e701">
+            <head xml:id="ta-l4d18q2-Hd1e703">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d18q2-d1e706">Ad secundam quaestionem dicendum, quod malum culpae et poenae differunt in hoc, quod
+              culpae principium in nobis est; quia omne peccatum voluntarium est; poenae autem
+              principium quandoque est extra nos. Non autem requiritur ad poenam quod sit
+              voluntaria; immo magis de ratione poenae est contra voluntatem esse; et ideo, sicut
+              peccata non committuntur nisi voluntate, ita non remittuntur alicui invito; sed
+              excommunicatio sicut in aliquem invitum ferri potest, ita et invitus ab ea absolvi
+              poterit.</p>
+            <p xml:id="ta-l4d18q2-d1e709">Ad primum ergo dicendum, quod propositio habet veritatem de illis bonis spiritualibus
+              quae in voluntate nostra consistunt; sicut sunt virtutes, quia non possunt a
+              nolentibus perdi; scientia enim, quamvis sit spirituale bonum, tamen etiam potest a
+              nolente per infirmitatem amitti; et ideo ratio non est ad propositum.</p>
+            <p xml:id="ta-l4d18q2-d1e712">Ad secundum dicendum, quod etiam manente contumacia potest aliquis discrete
+              excommunicationem juste latam remittere, si videat saluti illius expedire in cujus
+              medicinam excommunicatio lata est.</p>
+
+          </div>
+          <div xml:id="ta-l4d18q2-Dd1e716">
+            <head xml:id="ta-l4d18q2-Hd1e718">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d18q2-d1e721">Ad tertiam quaestionem dicendum, quod excommunicationes non habent connexionem in
+              aliquo; et ideo possibile est quod aliquis ab una absolvatur, et in altera remaneat.
+              Sed circa hoc sciendum est, quod aliquis quandoque est excommunicatus pluribus
+              excommunicationibus ab uno judice; et tunc, quando absolvitur ab una, intelligitur ab
+              omnibus absolvi, nisi contrarium exprimatur; vel nisi in casu quo quis absolutionem
+              impetrat de una tantum causa excommunicationis, cum pro pluribus excommunicatus sit.
+              Quandoque autem est excommunicatus a diversis judicibus; et tunc absolutus ab una
+              excommunicatione, non propter hoc est absolutus ab altera, nisi omnes alii ad
+              petitionem ejus excommunicationem suam confirmaverint, vel nisi omnes uni demandent
+              absolutionem.</p>
+            <p xml:id="ta-l4d18q2-d1e724">Ad primum ergo dicendum, quod omnia peccata habent connexionem in aversione
+              voluntatis a Deo, cum quo non potest esse peccatorum remissio; et ideo unum peccatum
+              sine altero remitti non potest. Sed excommunicationes non habent aliquam talem
+              connexionem; nec iterum absolutio ab excommunicatione impeditur propter voluntatis
+              contrarietatem, ut dictum est; et ideo ratio non sequitur.</p>
+            <p xml:id="ta-l4d18q2-d1e727">Ad secundum dicendum, quod sicut pluribus de causis erat aliquis extra Ecclesiam, ita
+              possibile est quod ista separatio removeatur quantum ad unam causam, et remaneat
+              quantum ad alteram.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d18q2-Dd1e732">
+          <head xml:id="ta-l4d18q2-Hd1e734">Expositio textus</head>
+          <p xml:id="ta-l4d18q2-d1e737"><quote xml:id="ta-l4d18q2-Qd1e738">Haeresis utrumque non habet</quote>; quia etsi habeant ordinem, amittunt tamen
+            jurisdictionem ab Ecclesia praecisi. <quote xml:id="ta-l4d18q2-Qd1e741">Verbum Dei peccata dimittit</quote>,
+            scilicet auctoritate; sed sacerdos, inquantum sacramentum praebet ministerio; inquantum
+            autem poenam imponit, sic idem ipse judex dicitur. <quote xml:id="ta-l4d18q2-Qd1e744">Nullius potestatis jura
+              exercet</quote>, ut scilicet actio ejus ad interiores maculas mundandas pertingat.
+              <quote xml:id="ta-l4d18q2-Qd1e747">Ecclesiae caritas peccata dimittit</quote>. Videtur non esse ad propositum;
+            quia hic non agitur de dimissione per modum meriti, sed de dimissione per modum
+            sacramenti. Et dicendum, quod meritum Ecclesiae est sub dispensatione clavium; et ideo
+            tam ex merito Christi, quam aliorum qui sunt de Ecclesia, Ecclesiae claves efficaciam
+            habent. <quote xml:id="ta-l4d18q2-Qd1e750">Peccatum dicitur tenebra, quia intellectus obtunditur</quote>. Contra,
+            multi peccatores inveniuntur qui habent optimum intellectum ad capiendum. Et dicendum,
+            quod loquitur de obtusione intellectus practici, secundum quod omnis malus est ignorans;
+            et non de obtusione intellectus speculativi.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

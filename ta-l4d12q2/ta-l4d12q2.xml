@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 12, Quaestio 2</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Librum IV, Distinctio 12, Quaestio 2</title>
+          <date when="2016-03-19">March 19, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-19">March 19, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness>1856 editum</witness>
+          <witness xml:id="G" n="ghent567">Ghent, Belgium, Ghent University Library, 567</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="0.0.0-dev">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+      <div xml:id="starts-on">
+        <cb ed="#G" n="187a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ta-l4d12q2">
+        <head xml:id="ta-l4d12q2-Hd1e97">Librum IV, Distinctio 12, Quaestio 2</head>
+        <div xml:id="ta-l4d12q2-Dd1e100">
+        <head xml:id="ta-l4d12q2-Hd1e102">Prooemium</head>
+        <p xml:id="ta-l4d12q2-d1e105">Deinde quaeritur de effectu hujus sacramenti; et circa hoc quaeruntur duo: 1 de effectu ejus quantum ad consecutionem boni; 2 de effectu ejus quantum ad remotionem mali.</p>
+        </div>
+        <div xml:id="ta-l4d12q2-Dd1e109" type="articulus">
+        <head xml:id="ta-l4d12q2-Hd1e111">Articulus 1</head>
+        
+        <head xml:id="ta-l4d12q2-Hd1e114" type="questionTitle">Utrum per hoc sacramentum augeantur virtutes</head>
+        <div xml:id="ta-l4d12q2-Dd1e117">
+        <head xml:id="ta-l4d12q2-Hd1e119">Quaestiuncula 1</head>
+        <p xml:id="ta-l4d12q2-d1e122">Ad primum sic proceditur. Videtur quod per hoc sacramentum non augeantur virtutes. Quia diversarum causarum diversi sunt effectus. Sed augmentum virtutis est effectus Baptismi, et etiam confirmationis, ut supra dictum est. Ergo non est effectus Eucharistiae.</p>
+        <p xml:id="ta-l4d12q2-d1e125">Praeterea, per augmentum caritatis ad perfectionem caritatis venitur. Si ergo per hoc sacramentum caritas et aliae virtutes augerentur, toties posset sumi quod homo in hac vita ad perfectam caritatem veniret, et ad summum gradum ipsius; quod non est nisi in patria, ut Augustinus dicit.</p>
+        <p xml:id="ta-l4d12q2-d1e128">Praeterea, omnes virtutes simul augentur. Si ergo augmentum virtutum esset effectus hujus sacramenti, non magis deberet poni effectus augmentum caritatis quam aliarum virtutum.</p>
+        <p xml:id="ta-l4d12q2-d1e131">Sed contra, nihil spiritualiter perficitur nisi per augmentum virtutum. Sed secundum Dionysium, Eucharistia habet virtutem perfectivam. Ergo effectus ejus est virtutis augmentum.</p>
+        <p xml:id="ta-l4d12q2-d1e135">Praeterea, effectus hujus sacramenti est plenitudo gratiae, ut patet in oratione canonis: <quote xml:id="ta-l4d12q2-Qd1e137">quotquot ex hac altaris participatione sumpserimus, omni benedictione caelesti et gratia repleamur</quote>. Sed ad plenitudinem gratiae per augmentum virtutis pervenitur. Ergo idem quod prius.</p>
+        </div>
+          <div xml:id="ta-l4d12q2-Dd1e142">
+        <head xml:id="ta-l4d12q2-Hd1e144">Quaestiuncula 2</head>
+        <p xml:id="ta-l4d12q2-d1e147">Ulterius. Videtur quod hoc sacramentum prosit etiam beatis ad augmentum gloriae. In collecta enim beati Leonis Papae, ut Innocentius dicit, ita dicitur: <quote xml:id="ta-l4d12q2-Qd1e149">annue nobis domine, ut animae famuli tui Leonis haec prosit oblatio</quote>. Sed constat beatum Leonem in gloria esse. Ergo prodest beatis ad gloriae augmentum.</p>
+        <p xml:id="ta-l4d12q2-d1e153">Praeterea, hoc sacramentum offertur etiam pro parvulis decedentibus in innocentia baptismali. Sed constat quod tales ad gloriam transeunt. Ergo prodest etiam hoc sacramentum ad augmentum gloriae.</p>
+        <p xml:id="ta-l4d12q2-d1e156">Sed contra, sacramenta Ecclesiae non prosunt alicui qui non sit in statu proficiendi. Sed sancti in patria existentes non sunt in statu proficiendi, cum sint in termino profectus. Ergo eis Eucharistia non prodest.</p>
+          </div>
+          <div xml:id="ta-l4d12q2-Dd1e160">
+        <head xml:id="ta-l4d12q2-Hd1e162">Quaestiuncula 3</head>
+        <p xml:id="ta-l4d12q2-d1e165">Ulterius. Videtur quod effectus hujus sacramenti non possit impediri nisi per peccatum mortale. Quia, sicut Ambrosius in littera dicit, spiritualiter manducat qui innocentiam ad altare portat. Sed quicumque sine peccato mortali accedit, portat innocentiam ad altare; quia venialia peccata innocentiam non tollunt. Cum ergo spiritualiter manducans effectum sacramenti percipiat, videtur quod effectus sacramenti non possit impediri nisi per peccatum mortale.</p>
+        <p xml:id="ta-l4d12q2-d1e168">Praeterea, Baptismus non est nobilius sacramentum quam istud. Sed nihil impedit effectum Baptismi nisi peccatum mortale. Ergo nec effectum hujus sacramenti.</p>
+        <p xml:id="ta-l4d12q2-d1e171">Praeterea, peccatum veniale non facit fictum. Sed sola fictio impedit sacramentorum effectum. Ergo solum peccatum mortale impedit sacramenti effectum.</p>
+        <p xml:id="ta-l4d12q2-d1e174">Sed contra, nullus percipit effectum hujus sacramenti nisi qui accedit sicut accedendum est. Sed aliquis debet accedere ad hoc sacramentum cum diligenti conscientiae suae examinatione, ut patet 1 Corinth. 11. Cum ergo sine peccato mortali possit hoc praetermitti, videtur quod sine peccato mortali possit effectus hujus sacramenti impediri.</p>
+        <p xml:id="ta-l4d12q2-d1e178">Praeterea, ad hoc quod aliquis adultus gratiam recipiat, oportet quod se ad gratiam habendam praeparaverit. Sed hanc praeparationem contingit sine peccato mortali impediri. Ergo sine peccato mortali contingit impediri effectum hujus sacramenti.</p>
+          </div>
+          <div xml:id="ta-l4d12q2-Dd1e183">
+        <head xml:id="ta-l4d12q2-Hd1e185">Quaestiuncula 1</head>
+        <p xml:id="ta-l4d12q2-d1e188">Respondeo dicendum ad primam quaestionem, quod proprius effectus cujuslibet sacramenti debet assumi ex similitudine ad materiam illius sacramenti; sicut expurgatio veteris vitae est effectus Baptismi per ablutionem aquae significata. Et ideo cum materiale in hoc sacramento sit cibus, oportet quod effectus proprius hujus sacramenti accipiatur secundum similitudinem ad effectum cibi. Cibus autem corporalis primo in cibatum convertitur, et ex tali conversione, deperdita restaurat, et quantitatem auget; sed spiritualis cibus non convertitur in manducantem, sed eum ad se convertit. Unde proprius effectus hujus sacramenti est conversio hominis in Christum, ut dicat cum apostolo, Galat. 2, 20: <quote xml:id="ta-l4d12q2-Qd1e190">vivo ego, jam non ego; vivit vero in me Christus</quote>; et ad hoc sequuntur duo effectus: augmentum spiritualis quantitatis in augmento virtutum, et restauratio deperditorum in remissione venialium vel reparatione cujuscumque defectus praecedentis.</p>
+        <p xml:id="ta-l4d12q2-d1e194">Ad primum ergo dicendum, quod augmentum dicitur dupliciter. Uno modo communiter, prout invenitur in viventibus et non viventibus, secundum quod quaelibet additio augmentum facit; et hoc modo virtutes augentur per omnia sacramenta quae gratiam inveniunt in subjecto, ex eo quod ipsa de se nata sunt gratiam causare. Alio modo augmentum dicitur proprie, prout est in viventibus ex conjunctione nutrimenti; et talis modus augmenti virtutum est proprius huic sacramento.</p>
+        <p xml:id="ta-l4d12q2-d1e197">Ad secundum dicendum, quod duplex est perfectio caritatis; scilicet viae, et patriae; et quamvis non possit hoc sacramentum existentes in via perducere ad perfectionem patriae propter diversum statum, potest tamen perducere ad perfectionem viae. Per augmentum enim caritatis ad perfectionem patriae in via pervenire non possumus.</p>
+        <p xml:id="ta-l4d12q2-d1e200">Ad tertium dicendum, quod caritatis proprium est transformare amantem in amatum, quia ipsa est quae extasim facit, ut Dionysius dicit. Et quia augmentum virtutum in hoc sacramento fit per conversionem manducantis in spiritualem cibum, ideo magis attribuitur huic sacramento caritatis augmentum quam aliarum virtutum.</p>
+          </div>
+          <div xml:id="ta-l4d12q2-Dd1e204">
+        <head xml:id="ta-l4d12q2-Hd1e206">Quaestiuncula 2</head>
+        <p xml:id="ta-l4d12q2-d1e209">Ad secundam quaestionem dicendum, quod gloria comprehendit sanctorum praemium; quod quidem est duplex; scilicet essentiale gaudium quod de divinitate habent; et accidentale, idest gaudium quod habent de quocumque bono creato. Quantum autem ad praemium essentiale, secundum probabiliorem opinionem, eorum gloria augeri non potest; sed quantum ad praemium accidentale usque ad diem judicii augeri potest; alioquin tunc non augeretur gaudium de gloria corporis; unde de omnibus benefactis eis gloria accrescit; quia <quote xml:id="ta-l4d12q2-Qd1e211">gaudium est Angelis Dei super uno peccatore poenitentiam agente</quote>; Luc. 15, 10; et ita etiam de omnibus quae in Dei honorem fiunt, gaudent, et maxime de his in quibus de eorum gloria Deo gratias agimus. Unde simpliciter loquendo, hoc est quantum ad essentiam gloriae, hoc sacramentum non auget in beatis gloriam; sed secundum quid, scilicet quantum ad accidentale praemium, auget.</p>
+        <p xml:id="ta-l4d12q2-d1e215">Ad primum ergo dicendum, quod sicut Innocentius solvit, ubicumque talis loquendi modus invenitur, ita debet intelligi, ut ad hoc prosit ut a fidelibus magis ac magis glorificetur in terris.</p>
+        <p xml:id="ta-l4d12q2-d1e218">Ad secundum dicendum, quod pro pueris baptizatis Missarum solemnia celebrantur, non quia eis juventur quantum ad remissionem alicujus culpae, vel quantum ad augmentum gloriae, sed propter alias rationes: tum propter solatium vivorum; tum ad ostendendum parvulos ad unitatem corporis mystici pertinere, dum idem modus exequiarum servatur in ipsis et in aliis; tum ad commendandum redemptionis mysterium, quod in hoc sacramento commemoratur, per quod parvuli sine proprio merito salutem consequuntur aeternam.</p>
+          </div>
+          <div xml:id="ta-l4d12q2-Dd1e222">
+        <head xml:id="ta-l4d12q2-Hd1e224">Quaestiuncula 3</head>
+        <p xml:id="ta-l4d12q2-d1e227">Ad tertiam quaestionem dicendum, quod omnis perfectio acquirenda impeditur per remotionem propriae dispositionis. Sicut autem dispositiones materiales se habent ad perfectionem formae, ita actus se habent ad perfectionem finis; unde cum hoc sacramentum perficiat conjungendo fini, ut supra dictum est; ad hoc quod effectum suum plene habeat in sumente, oportet quod adsit actualis devotio. Et quia interdum absque mortali peccato actualis devotio impediri potest, cum distractiones variae ipsam impediant, et peccata venialia virtutum actum tollant; absque peccato mortali potest effectus hujus sacramenti impediri, ita quod aliquis augmentum gratiae non consequatur; nec tamen reatum peccati mortalis incurret, sed forte reatum venialis peccati, ex hoc quod imparatus accedit.</p>
+        <p xml:id="ta-l4d12q2-d1e230">Ad primum ergo dicendum, quod innocentiam portans spiritualiter manducat habitu, sed non semper actu; et ad hoc quod effectum sacramenti percipiat, oportet quod actu spiritualiter manducet.</p>
+        <p xml:id="ta-l4d12q2-d1e233">Ad secundum dicendum, quod in Baptismo datur primum esse spirituale; et ideo effectus ejus non impeditur nisi per propositum peccati mortalis committendi, quod directe vitae spirituali opponitur. Sed in hoc sacramento fit conjunctio ad finem, quae debet esse per debitam operationem; et ideo defectus talis operationis impedit effectum hujus sacramenti.</p>
+        <p xml:id="ta-l4d12q2-d1e236">Ad tertium dicendum, quod quamvis peccatum veniale non faciat fictum simpliciter, facit tamen fictum quo ad aliquid. Nec tamen dicendum quod omne peccatum veniale impediat effectum hujus sacramenti, sed solum illud quod tollit actualem devotionem quae exigitur in hoc sacramento.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d12q2-Dd1e241" type="articulus">
+        <head xml:id="ta-l4d12q2-Hd1e243">Articulus 2</head>
+        
+        <head xml:id="ta-l4d12q2-Hd1e246" type="questionTitle">Utrum virtute hujus sacramenti venialia peccata dimittantur</head>
+        <div xml:id="ta-l4d12q2-Dd1e249">
+        <head xml:id="ta-l4d12q2-Hd1e251">Quaestiuncula 1</head>
+        <p xml:id="ta-l4d12q2-d1e254">Ad secundum sic proceditur. Videtur quod virtute hujus sacramenti venialia peccata non dimittantur. Qua enim ratione dimittitur unum, et aliud. Sed omnia non dimittuntur; quia sic aliquis esset frequenter absque omni veniali peccato; quod est contra illud quod dicitur 1 Joan. 1, 8: <quote xml:id="ta-l4d12q2-Qd1e256">si dixerimus quod peccatum non habemus, nosipsos seducimus</quote>. Ergo non delet aliquod peccatum veniale.</p>
+        <p xml:id="ta-l4d12q2-d1e260">Praeterea, peccatum non deletur nisi per id quod habet oppositionem ad ipsum. Sed veniale peccatum non habet oppositionem ad gratiam, quam hoc sacramentum confert. Ergo virtute hujus sacramenti venialia non dimittuntur.</p>
+        <p xml:id="ta-l4d12q2-d1e263">Praeterea, Baptismus, quia dimittit omnia peccata mortalia et venialia, non requirit luctum exteriorem. Si ergo in hoc sacramento venialia peccata dimittantur, non requiritur quod post sumptionem hujus sacramenti aliquis faceret poenitentiam de peccatis venialibus; quod falsum est.</p>
+        <p xml:id="ta-l4d12q2-d1e266">Sed contra, Innocentius dicit, quod hoc sacramentum venialia delet, et cavet mortalia.</p>
+        <p xml:id="ta-l4d12q2-d1e270">Praeterea, ut ex verbis Ambrosii in littera positis accipi potest, hoc sacramentum datur in remedium quotidianae infirmitatis. Sed quotidiana peccata dicuntur venialia. Ergo hoc sacramentum tollit venialia.</p>
+        </div>
+          <div xml:id="ta-l4d12q2-Dd1e274">
+        <head xml:id="ta-l4d12q2-Hd1e276">Quaestiuncula 2</head>
+        <p xml:id="ta-l4d12q2-d1e279">Ulterius. Videtur quod etiam virtute hujus sacramenti dimittantur mortalia. Dicitur enim in collecta illa: <quote xml:id="ta-l4d12q2-Qd1e281">purificent nos, quaesumus domine, sacramenta quae sumpsimus</quote>; et mox: <quote xml:id="ta-l4d12q2-Qd1e284">praesta ut hoc tuum sacramentum sit ablutio scelerum</quote>. Sed scelera dicuntur mortalia peccata. Ergo delet peccata mortalia.</p>
+        <p xml:id="ta-l4d12q2-d1e288">Praeterea, hoc sacramentum expressius passionem Christi repraesentat quam Baptismus. Sed Baptismus virtute passionis in eo operantis delet peccata mortalia. Ergo et hoc sacramentum.</p>
+        <p xml:id="ta-l4d12q2-d1e291">Praeterea, minima gratia sufficit ad delendum omnia mortalia. Sed hoc sacramentum gratiam confert. Ergo mortalia delet.</p>
+        <p xml:id="ta-l4d12q2-d1e294">Praeterea, hoc sacramentum magis operatur in sumente quam in alio; alias frustra quis assumeret. Sed offertur sacrificium Ecclesiae pro aliquibus impiis ut convertantur, et non frustra. Ergo et in ipso qui sumit, mortalia peccata delet.</p>
+        <p xml:id="ta-l4d12q2-d1e298">Sed contra, Augustinus ad renatum: <quote xml:id="ta-l4d12q2-Qd1e300">quis offerat corpus Christi nisi pro his qui sunt membra Christi?</quote> Sed illi qui sunt membra Christi, non habent peccatum mortale. Ergo virtute hujus sacramenti non delentur mortalia.</p>
+        <p xml:id="ta-l4d12q2-d1e304">Praeterea, hoc sacramentum non habet aliquem effectum in indigne accedentibus. Sed quicumque accedit cum mortali, indigne accedit. Ergo non percipit effectum hujus sacramenti; et ita non delet mortalia.</p>
+          </div>
+          <div xml:id="ta-l4d12q2-Dd1e308">
+        <head xml:id="ta-l4d12q2-Hd1e310">Quaestiuncula 3</head>
+        <p xml:id="ta-l4d12q2-d1e313">Ulterius. Videtur quod remittat poenam peccati mortalis. Deus enim pronior est ad miserendum quam ad puniendum, ut dicit Glossa in principio Hier. Sed indigne accedens incurrit reatum poenae mortalis peccati. Ergo digne accedens ab eo absolvitur.</p>
+        <p xml:id="ta-l4d12q2-d1e316">Praeterea, hoc sacramentum non minus valet vivis quam mortuis. Sed mortuis valet ad remissionem poenae, quia ad hoc pro eis offertur. Ergo multo magis vivis.</p>
+        <p xml:id="ta-l4d12q2-d1e319">Praeterea, veritas est majoris efficaciae quam figura. Sed sacrificia veteris testamenti in satisfactionem pro peccatis mortalibus offerebantur. Ergo multo fortius et hoc, cujus sunt illa figura; et sic remittit mortalium poenam.</p>
+        <p xml:id="ta-l4d12q2-d1e322">Sed contra: quicumque non est debitor poenae, statim moriens evolat. Si ergo hoc sacramento poena mortalis peccati dimitteretur, quilibet munitus hoc sacramento ex hac vita discedens evolaret; quod falsum est.</p>
+        <p xml:id="ta-l4d12q2-d1e326">Praeterea, satisfactio non exigitur nisi ad dimissionem poenae. Si ergo hoc sacramento dimitteretur poena, omnis alia satisfactio tolleretur; quod est inconveniens.</p>
+          </div>
+          <div xml:id="ta-l4d12q2-Dd1e331">
+        <head xml:id="ta-l4d12q2-Hd1e333">Quaestiuncula 1</head>
+        <p xml:id="ta-l4d12q2-d1e336">Respondeo dicendum ad primam quaestionem, quod virtute hujus sacramenti fit quaedam transformatio hominis ad Christum per amorem, ut dictum est, et hoc est proprius ejus effectus. Et quia ex fervore caritatis peccata venialia dimittuntur, propter hoc quod dicto fervori contrariantur, ideo ex consequenti, virtute hujus sacramenti, venialia delentur.</p>
+        <p xml:id="ta-l4d12q2-d1e339">Ad primum ergo dicendum, quod tantus potest esse devotionis fervor, quod omnia venialia peccata deleat. Neque est inconveniens quod aliqua hora homo sit absque omni peccato veniali; quamvis hoc diu durare non possit propter difficultatem vitandi peccata venialia. Nec tamen oportet quod semper omnia peccata venialia deleat, sed secundum mensuram devotionis: quia non est proximus effectus ejus deletio venialium, sed ex consequenti, ut ex dictis patet.</p>
+        <p xml:id="ta-l4d12q2-d1e342">Ad secundum dicendum, quod in hoc sacramento non solum confertur gratia habitualis, sed excitatur fervor actualis devotionis; et ideo gratiae hujus sacramenti non solum mortalia, sed etiam venialia opponuntur.</p>
+        <p xml:id="ta-l4d12q2-d1e345">Ad tertium dicendum, quod Baptismus habet pro principali effectu delere peccatum; et ideo quando non impeditur, delet omnia; sed non est ita in hoc sacramento; et ideo ratio non sequitur.</p>
+          </div>
+          <div xml:id="ta-l4d12q2-Dd1e349">
+        <head xml:id="ta-l4d12q2-Hd1e351">Quaestiuncula 2</head>
+        <p xml:id="ta-l4d12q2-d1e354">Ad secundam quaestionem dicendum, quod effectus sacramenti, ut dictum est, respondet his quae exterius in sacramento geruntur. Exterius autem usus hujus sacramenti est per manducationem, quae non debetur nisi rei viventi; et ideo effectus hujus sacramenti praesupponit vitam in sumente. Et quia peccatum mortale vitam spiritualem tollit, ideo hoc sacramentum non est ad abluenda peccata mortalia in sumentibus, sed illos solum defectus qui cum vita esse possunt.</p>
+        <p xml:id="ta-l4d12q2-d1e357">Ad primum ergo dicendum, quod sicut Innocentius dicit, hujusmodi locutiones sunt impropriae. Dicitur enim hoc sacramentum scelera vel crimina abluere vel tollere, inquantum ea impedit, contra ipsa robur ministrando. Vel dicendum, quod in aliquo potest esse peccatum mortale, qui ejus conscientiam non habet; et talis si devote accedit, veniam consequitur, ut supra, dist. 9, quaest. 1, art. 3, quaestiunc. 2, dictum est.</p>
+        <p xml:id="ta-l4d12q2-d1e360">Ad secundum dicendum, quod Baptismus non solum exprimit passionem Christi, sed etiam facit baptizatum Christo commori. Et quia corruptio unius est generatio alterius, generatio autem est motus in vitam, et non praesupponit vitam, sed privationem ejus; ideo per Baptismum possunt peccata mortalia dimitti virtute passionis, non autem per Eucharistiam, per cujus sumptionem homo non significatur commori Christo, sed fructu mortis Christi refici, quod vitam praesupponit.</p>
+        <p xml:id="ta-l4d12q2-d1e363">Ad tertium dicendum, quod gratia quam Eucharistia confert, quantum est de se, habet virtutem mortalia delendi. Sed ratione ordinis quem habet ad vitam quam praesupponit, mortalia invenire non potest, et ideo nec ea delere. Si autem inveniat in subjecto, non in conscientia, nihilominus ea delet.</p>
+        <p xml:id="ta-l4d12q2-d1e367">Ad quartum dicendum, quod Eucharistia non solum est sacramentum, sed etiam est sacrificium. Inquantum autem est sacramentum, habet effectum in omni vivente, in quo requirit vitam praeexistere. Sed inquantum est sacrificium, habet effectum etiam in aliis, pro quibus offertur, in quibus non praeexigit vitam spiritualem in actu, sed in potentia tantum; et ideo, si eos dispositos inveniat, eis gratiam obtinet virtute illius veri sacrificii a quo omnis gratia in nos influxit; et per consequens peccata mortalia in eis delet, non sicut causa proxima, sed inquantum gratiam contritionis eis impetrat. Et quod in contrarium dicitur, quod non offertur nisi pro membris Christi, intelligendum est pro membris Christi offerri, quando offertur pro aliquibus ut sint membra.</p>
+          </div>
+          <div xml:id="ta-l4d12q2-Dd1e371">
+        <head xml:id="ta-l4d12q2-Hd1e373">Quaestiuncula 3</head>
+        <p xml:id="ta-l4d12q2-d1e376">Ad tertiam quaestionem dicendum, quod Eucharistia, inquantum est sacramentum, ut dictum est, pro principali effectu habet unionem hominis ad Christum; et ideo per modum sacramenti non aufert nisi ea quae in habente vitam huic unioni opposita invenit. Poena autem peccato mortali debita, quod jam deletum est, non est hujusmodi: ideo inquantum est sacramentum, non habet effectum poenae mortalis dimissionem; sed inquantum est sacrificium, accipit rationem satisfactionis; et secundum hoc in parte vel in toto poenam tollit, sicut et aliae satisfactiones secundum mensuram poenae debitae pro peccato et devotionis qua sacramentum offertur. Nec tamen semper virtute hujus sacramenti tota poena tollitur.</p>
+        <p xml:id="ta-l4d12q2-d1e379">Ad primum ergo dicendum, quod indigne accedens cum conscientia mortalis peccati, mortaliter peccat; et ideo reatum poenae debitae mortali peccato incurrit. Digne autem accedens meretur vitam aeternam, ad quam meritum ordinatur, sicut mortale peccatum ad poenam. Non autem ordinatur meritum directe principaliter ad remissionem poenae; et ideo ratio non procedit.</p>
+        <p xml:id="ta-l4d12q2-d1e382">Ad secundum dicendum, quod non totaliter semper aufertur poena per hoc sacrificium illis qui sunt in Purgatorio, nec auferebatur in veteri lege per antiqua sacrificia.</p>
+        <p xml:id="ta-l4d12q2-d1e385">Unde patet solutio ad tertium.</p>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

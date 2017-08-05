@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 50, Quaestio 1</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Librum IV, Distinctio 50, Quaestio 1</title>
+          <date when="2016-03-19">March 19, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-19">March 19, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness>1856 editum</witness>
+          <witness xml:id="G" n="ghent567">Ghent, Belgium, Ghent University Library, 567</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="0.0.0-dev">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+
+
+
+
+      <div xml:id="starts-on">
+        <cb ed="#G" n="765b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ta-l4d50q1">
+        <head xml:id="ta-l4d50q1-Hd1e97">Librum IV, Distinctio 50, Quaestio 1</head>
+
+        <div xml:id="ta-l4d50q1-Dd1e100">
+          <head xml:id="ta-l4d50q1-Hd1e102">Prooemium</head>
+          <p xml:id="ta-l4d50q1-d1e105">Postquam determinavit Magister de gloria sanctorum post judicium generale, hic
+            determinat de poenis impiorum; et dividitur in partes duas: in prima propositum
+            prosequitur; in secunda ponit totius opere epilogum, ibi: <quote xml:id="ta-l4d50q1-Qd1e107">haec de pedibus sedentis
+              super solium excelsum (...) commemorasse sufficiat</quote>. Prima autem pars dividitur in
+            duas partes: in prima determinat de poenis damnatorum quantum ad effectum; in secunda
+            determinat de poenis eorum quantum ad cognitionem, sive intellectum, ibi: <quote xml:id="ta-l4d50q1-Qd1e110">hic quaeri
+              solet, quare illae tenebrae, quibus involventur mali in Gehenna, dicuntur tenebrae
+              exteriores</quote>. Et haec pars dividitur in partes tres: in prima ostendit quomodo
+            excluduntur a cognitione Dei per hoc quod sunt in tenebris exterioribus; in secunda
+            ostendit qualiter se habeat eorum cognitio ad ea quae in hoc mundo aguntur, ibi:
+              <quote xml:id="ta-l4d50q1-Qd1e113">praeterea quaeri solet, si reproborum animae quae nunc in Inferno cruciantur,
+              notitiam habeant eorum quae circa suos in hac vita geruntur</quote>; in tertia qualiter se
+            habeat ad cognoscenda ea quae erga sanctos aguntur, ibi: <quote xml:id="ta-l4d50q1-Qd1e116">quaeri etiam solet, utrum
+              vicissim se videant illi qui sunt in Inferno, et illi qui sunt in gloria</quote>. Secunda
+            pars dividitur in duas: in prima inquirit, utrum mortui cognoscant ea quae hic aguntur;
+            in secunda movet dubitationem quamdam ex dictis, ibi: <quote xml:id="ta-l4d50q1-Qd1e119">si quis autem quaerat quomodo
+              intelligatur quod de Lazaro et divite legitur, audiat Augustini responsum</quote>. Tertia
+            vero pars dividitur in duas: in prima ostendit quomodo boni et mali invicem se videant;
+            in secunda inquirit, quid accidat sanctis ex visione damnatorum, ibi: <quote xml:id="ta-l4d50q1-Qd1e123">sed cum sancti
+              malos in tormentis videant, nonne aliqua compassione erga eos moventur?</quote> Et haec
+            pars dividitur in duas: in prima inquirit, utrum sancti videntes damnatorum miseriam eis
+            compatiantur; in secunda, utrum ex hoc quod poenam damnatorum vident, eorum gloria
+            minuatur, ibi: <quote xml:id="ta-l4d50q1-Qd1e126">postremo quaeritur, an poena reproborum visa decoloret gloriam
+              beatorum</quote>. Hic quaeruntur duo. Primo de cognitione naturali animae separatae.
+            Secundo de poena damnatorum. Circa primum quaeruntur quatuor: 1 utrum anima possit
+            aliquid intelligere a corpore separata; 2 utrum possit intelligere per species quas a
+            sensibus accepit, dum corpori esset juncta; 3 utrum anima separata singularia cognoscat;
+            4 utrum localis distantia ejus cognitionem impediat. Utrum autem sensibus utatur,
+            quaesitum est supra, dist. 44.</p>
+        </div>
+        <div xml:id="ta-l4d50q1-Dd1e131" type="articulus">
+          <head xml:id="ta-l4d50q1-Hd1e133">Articulus 1</head>
+
+          <head xml:id="ta-l4d50q1-Hd1e136" type="questionTitle">Utrum anima aliquid intelligere possit a corpore
+            separata</head>
+
+          <p xml:id="ta-l4d50q1-d1e139">Ad primum sic proceditur. Videtur quod anima nihil intelligere possit a corpore
+            separata. Quia, ut dicit philosophus in 1 de anima, intelligere et considerare
+            consumitur quodam interius corrupto. Sed per mortem illud quod est interius ex parte
+            corporis, corrumpitur. Ergo post mortem non potest anima intelligere aliquid et
+            considerare.</p>
+          <p xml:id="ta-l4d50q1-d1e142">Praeterea, nulla actio communis corpori et animae potest remanere in anima, corpore
+            corrupto. Sed intelligere est quaedam actio corpori et animae communis, sicut et texere
+            et aedificare, ut patet in 1 de anima. Ergo, corpore corrupto, anima non potest
+            intelligere.</p>
+          <p xml:id="ta-l4d50q1-d1e145">Praeterea, anima nihil potest intelligere sine intellectu possibili. Sed intellectus
+            iste est corruptibilis, ut dicitur in 3 de Anim.: non autem corrumpitur nisi corpore
+            corrupto. Ergo anima a corpore separata nihil potest intelligere.</p>
+          <p xml:id="ta-l4d50q1-d1e149">Praeterea, ut dicitur in 3 de anima, sicut se habent colores ad visum, ita se habent
+            phantasmata ad animam intellectivam. Sed destructis coloribus visus nihil posset videre.
+            Ergo destructis phantasmatibus anima nihil poterit intelligere. Phantasmata autem non
+            remanent in anima separata, cum sint in imaginatione, quae habet organum corporale. Ergo
+            anima separata nihil potest intelligere.</p>
+          <p xml:id="ta-l4d50q1-d1e152">Praeterea, perfectius esse habet anima in corpore quam a corpore separata; sicut pars
+            in toto perfectior est quam per se existens. Sed anima intellectiva, cum est in corpore,
+            non potest intelligere sine phantasmatibus, ut patet in 1 et 3 de anima. Ergo nec
+            separata a corpore sine eis intelligere poterit; et sic idem quod prius.</p>
+          <p xml:id="ta-l4d50q1-d1e155">Praeterea, intellectus humanus est factus sicut tabula in qua nihil est scriptum, ut
+            dicitur in 3 de anima. Ergo anima in sui creatione non habet aliquas formas concreatas.
+            Si ergo intelligit aliquid, oportet quod intelligat per formas a sensibus acceptas; cum
+            omnis cognitio fiat per aliquam formam quae sit similitudo rei cognitae. Sed animae
+            puerorum defunctorum in uteris maternis non habent aliquas formas a sensibus acceptas.
+            Ergo saltem animae puerorum non possunt intelligere aliquid, cum non habeant aliquas
+            intelligibiles formas.</p>
+          <p xml:id="ta-l4d50q1-d1e158">Praeterea, anima ad hoc dicitur esse corpori conjuncta, ut scientiis et virtutibus
+            perficiatur. Ergo antequam in corpore fuerit scientia perfecta, non potest intelligere
+            aliquid; alias frustra corpori conjungeretur. Sed animae parvulorum praedictorum non
+            fuerunt aliqua scientia in corporibus perfectae. Ergo idem quod prius.</p>
+          <p xml:id="ta-l4d50q1-d1e161">Sed contra, philosophus dicit in 2 caeli et mundi, quod omnis res est propter suam
+            operationem: unde re remanente remanet ejus operatio; et hoc est quod Damascenus dicit,
+            quod nulla substantia est otiosa. Si ergo anima post corpus remanet, sicut fides ponit;
+            oportet quod aliqua ejus operatio remaneat; quia, ut dicitur in 1 de anima, si nulla
+            operatio animae est ei propria sine corpore, non contingit eam separari. Sed intelligere
+            est maxime propria ejus operatio. Ergo anima separata aliquid intelligere potest.</p>
+          <p xml:id="ta-l4d50q1-d1e164">Praeterea, sicut dicit Avicenna in sua Metaph., immunitas a materia est causa quare
+            aliqua substantia sit intellectiva. Sed anima separata a corpore immunior est a materia
+            quam corpori conjuncta; quia tunc non est actus alicujus materiae, sicut modo est. Cum
+            ergo anima modo intelligat, multo magis intelliget cum erit a corpore separata.</p>
+          <p xml:id="ta-l4d50q1-d1e168">Praeterea, Avicenna dicit in 6 de naturalibus, quod anima non indiget imaginatione et
+            aliis virtutibus sensibilibus nisi in principio tantum; et non postea, nisi parum. Cum
+            ergo proficit et roboratur, sola per se operatur actiones suas absolute; et sic anima
+            indiget sensibus sicut homo indiget jumento et ejus apparatu, ut perveniat eo quo
+            proponit; quo cum accesserit, non ejus ulterius indigebit. Ergo anima non semper indiget
+            corpore ad intelligendum; et sic separata intelligere poterit.</p>
+          <p xml:id="ta-l4d50q1-d1e171">Respondeo dicendum, quod ponentibus intellectum a potentiis sensitivis differre,
+            necesse est ponere intellectus substantiam incorruptibilem esse, eo quod necesse est eum
+            immaterialem ponere, nec a materia secundum esse dependentem. Omnem autem hujusmodi
+            substantiam oportet incorruptibilem esse; quia materia, inquantum potest esse subjectum
+            privationis et formae, est corruptionis causa in rebus materialibus. Unde dicit
+            philosophus in 1 de anima, quod intellectus videtur esse substantia quaedam, et non
+            corrumpi. Quidam vero hunc intellectum corruptibilem dixerunt non esse partem animae
+            humanae, sed esse aliquam substantiam omnino a corpore separatam: animam vero humanam
+            non dici intellectivam nisi secundum quamdam participationem intellectualitatis ex
+            refulgentia intellectus separati super ipsam; unde destructo corpore anima humana nec
+            remanebat, nec aliquid intelligere poterat. Sed hoc videtur esse contra intentionem
+            philosophi; dicit enim in 2 de anima, de intellectu loquens, quod intellectus videtur
+            esse alterum genus animae: et hoc solum contingit separari sicut perpetuum a
+            corruptibili. 12 etiam Metaph., dicit, quod anima est talis dispositionis, ut scilicet
+            possit separari non tota, sed intellectus. Ex quo patet quod intellectum, qui est pars
+            animae, ponit a corpore separari; et ideo oportet animam intellectivam, quae est anima
+            humana, post corpus remanere, sicut fides ponit: et per consequens necesse est quod
+            intelligat, cum intelligere sit ejus propria operatio. Sed quomodo intelligat,
+            diversimode a quibusdam ponitur. Quidam enim dicunt, quod anima separata, a rebus
+            cognitionem accipit, sicut et nunc facit. Sed haec opinio videtur omnino irrationabilis:
+            anima enim humana a corpore separata non poterit uti sensitivis potentiis, ut supra,
+            dist. 44, qu. 3, art. 3, qu. 2, dictum est, cum harum potentiarum actus per organa
+            corporea necesse sit exerceri; unde non erit nisi in usu potentiarum intellectivae
+            partis. Intellectus autem non est natus accipere cognitionem a rebus sensibilibus
+            immediate, sed mediantibus potentiis sensitivis; cum oporteat esse quamdam convenientiam
+            inter recipiens et receptum. Species autem in sensibus existentes habent convenientiam
+            et cum intellectu, inquantum sunt sine materia, et cum rebus materialibus, inquantum
+            sunt cum conditionibus materiae; unde convenienter sensus a rebus materialibus accipit,
+            et intellectus a sensibus: non autem intellectus immediate a rebus materialibus; et ideo
+            non potest poni quod anima separata cognitionem a rebus materialibus accipiat. Nec
+            sufficit ponere in ea cognitionem solum quae fuit a sensibus accepta in corpore, propter
+            animas puerorum decedentium in maternis uteris, quae a sensibus cognitionem non
+            acceperunt. Et ideo alii dicunt, quod sicut Angelus habet apud se formas innatas
+            causarum ordinis universi, ita et anima a sui creatione; sed dum est in corpore, a
+            corpore opprimitur, ut illis formis uti non possit ad intelligendum; sed utitur formis
+            quas a sensu accipit, vel etiam ipsis formis innatis, secundum quosdam qui posuerunt
+            quod addiscere non est aliud quam reminisci; sed postquam a corpore fuerit separata,
+            utetur illis formis innatis. Sed illud contradicit sententiae philosophi, qui dicit
+            intellectum humanum esse sicut tabulam in qua nihil est scriptum: contradicit etiam
+            experientiae, qua experimur nos nihil posse intelligere, nisi ex praeacceptis a sensu ad
+            intelligendum manuducamur. Nec esset probabile quod, cum anima naturaliter corpori
+            uniatur, totaliter impediretur per conjunctionem ad corpus, ut formis innatis uti
+            posset. Sed hoc consonum videretur opinioni illorum qui posuerunt animam ante corpus
+            creatam, et postea corpori accidentaliter conjunctam: non enim ea quae uni et eidem
+            naturaliter insunt, ita se habent, quod unum eorum totaliter impediat alterum; alias in
+            natura aliquid esset otiosum. Et ideo aliter dicendum est, quod anima in sui creatione
+            nullas habet formas concreatas: nec ad hoc quod post separationem a corpore intelligat,
+            requiruntur aliquae formae a rebus acceptae vel tunc vel prius; sed intelliget, de
+            naturali cognitione loquendo, per influentiam a substantiis superioribus, Deo, scilicet,
+            vel Angelis; et loquor de naturali influentia; et hoc sic patet. Intellectus enim noster
+            est medius inter substantias intelligibiles et res corporales; unde anima intellectiva
+            dicitur esse creata in orizonte aeternitatis, in libro de causis; et hoc ideo quia ipsa
+            per intellectum attingit ad substantias intelligibiles; inquantum vero est actus
+            corporis, contingit res corporales. Omne autem medium quanto magis appropinquat uni
+            extremorum, tanto magis recedit ab alio; et quanto magis recedit ab uno, tanto magis
+            alteri appropinquat. Unde cum anima nostra in statu viae maxime ad corpus accedat,
+            utpote actus ejus existens; non habet respectum ad res intelligibiles nisi aliquo modo
+            contingendo corpus; et propter hoc anima in statu hujus viae non recipit influentiam a
+            superioribus substantiis, nisi ut cognoscat sub speciebus a sensibus acceptis; unde
+            Dionysius dicit, quod non est possibile nobis in hac vita aliter superlucere divinum
+            radium, nisi cum varietate sensibilium formarum: et ideo etiam in hac vita quanto anima
+            magis a corpore abstrahitur: tanto magis a substantiis spiritualibus influxum
+            cognitionis recipit; et inde est quod quaedam occulta cognoscunt in dormiendo, et in
+            excessu mentis, quando anima a corporis sensibus abstrahitur; unde cum actu erit a
+            corpore separata, erit paratissima ad recipiendum influentiam a substantiis
+            superioribus, scilicet Deo vel Angelis; et sic per hujusmodi influentiam cognitionem
+            habebit majorem, vel minorem secundum modum naturalis capacitatis ipsius animae: et sic
+            etiam Commentator, qui ponit intellectum possibilem esse substantiam separatam, quamvis
+            in hoc erret; tamen quantum ad hoc recte dicit quod ex hoc quod ponitur substantia
+            separata, habet respectum ad alias substantias spirituales superiores ut eas intelligat;
+            sed secundum illum respectum quo comparatur ad nostrum corpus recipiendo species a
+            phantasmatibus, non conjungitur substantiis altioribus.</p>
+          <p xml:id="ta-l4d50q1-d1e174">Ad primum ergo dicendum, quod philosophus loquitur de actu intellectus quo nunc in via
+            intelligimus, abstrahendo a phantasmatibus: hic enim actus esse desinit, phantasmatibus
+            destructis, in separatione animae a corpore.</p>
+          <p xml:id="ta-l4d50q1-d1e177">Ad secundum dicendum, quod intelligere, secundum quod exit ab intellectu, non est actio
+            communis animae et corpori (non enim intellectus intelligit mediante aliquo organo
+            corporali), sed est communis animae et corpori ex parte objecti, inquantum intelligimus
+            abstrahendo a phantasmatibus, quae sunt in organo corporali; et hunc modum intelligendi
+            anima separata non habet.</p>
+          <p xml:id="ta-l4d50q1-d1e180">Ad tertium dicendum, quod passivus intellectus, de quo philosophus loquitur, non est
+            intellectus possibilis, sed ratio particularis, quae dicitur vis cogitativa, habens
+            determinatum organum in corpore, scilicet mediam cellulam capitis, ut Commentator ibidem
+            dicit; et sine hoc anima nihil modo intelligit; intelliget autem in futuro, quando a
+            phantasmatibus abstrahere non indigebit.</p>
+          <p xml:id="ta-l4d50q1-d1e183">Ad quartum dicendum, quod comparatio illa intelligitur de anima intellectiva ex parte
+            illa qua corpori conjungitur, et non prout est intellectiva simpliciter: quia
+            intellectus, inquantum hujusmodi, non respicit phantasmata, sicut patet de intellectu
+            angelico.</p>
+          <p xml:id="ta-l4d50q1-d1e187">Ad quintum dicendum, quod anima habet esse perfectius in corpore quam separata,
+            inquantum est forma, non autem inquantum est intellectus; nisi forte conjungatur tali
+            corpori quod est omnino animae subditum, in nullo intellectum distrahens, sicut erit
+            corpus gloriosum: <quote xml:id="ta-l4d50q1-Qd1e189">corpus enim quod corrumpitur, aggravat animam, et deprimit terrena
+              habitatio sensum multa cogitantem</quote>: sapientiae 9, 15.</p>
+          <p xml:id="ta-l4d50q1-d1e193">Ad sextum dicendum, quod animae puerorum quamvis non habeant formas innatas vel
+            acquisitas, habebunt tamen aliquas formas intelligibiles ex influentia divini luminis,
+            cooperante ministerio Angelorum.</p>
+          <p xml:id="ta-l4d50q1-d1e196">Ad septimum dicendum, quod anima ex hoc quod in corpore scientis perfecta fuit, etiam
+            separata magis intelliget, ut infra dicetur: non tamen sequitur quod, si non fuerit in
+            scientia perfecta, nullo modo intelligat.</p>
+        </div>
+        <div xml:id="ta-l4d50q1-Dd1e200" type="articulus">
+          <head xml:id="ta-l4d50q1-Hd1e202">Articulus 2</head>
+
+          <head xml:id="ta-l4d50q1-Hd1e205" type="questionTitle">Utrum anima per species quas nunc a corpore abstrahit, separata
+            postmodum per eas aliquid intelligat</head>
+
+          <p xml:id="ta-l4d50q1-d1e208">Ad secundum sic proceditur. Videtur quod anima per species quas nunc a corpore
+            abstrahit, separata postmodum per eas nihil intelligat. Hujusmodi enim species ejusdem
+            rationis erunt in anima separata cujus modo sunt. Sed nunc per eas non potest anima
+            intelligere sine phantasmatibus: quod patet ex hoc quod laeso organo phantasiae anima
+            impeditur in consideratione eorum quae prius a sensu accepit. Ergo nec anima separata
+            per illas species intelligere poterit, cum in ea nulla phantasmata sint.</p>
+          <p xml:id="ta-l4d50q1-d1e211">Praeterea, ex similibus actibus similes habitus relinquuntur. Sed habitus scientiae
+            nunc acquirimus ex actu intelligendi, quo anima a phantasmatibus abstrahit. Ergo habitus
+            scientiae acquisitae non inclinat nisi in similes actus. Cum ergo talis actus
+            intelligendi non possit esse in anima separata, scilicet accipiendo a phantasmatibus;
+            videtur quod per scientiam hic acquisitam, vel per species hic a sensibus acceptas,
+            anima separata nihil intelligat.</p>
+          <p xml:id="ta-l4d50q1-d1e214">Praeterea, in operibus naturae nihil est superfluum; nec natura facit per duo quod per
+            unum facere potest. Sed anima separata poterit intelligere per influentiam a substantiis
+            superioribus, ut supra dictum est. Ergo non intelliget per aliquas species a sensibus
+            acceptas.</p>
+          <p xml:id="ta-l4d50q1-d1e218">Praeterea, impossibile est duas formas ejusdem speciei esse in eodem subjecto. Sed
+            anima separata recipiet aliquas formas intelligibiles ex influentia substantiae
+            superioris, per quas poterit res intelligere. Ergo in ipsa non possunt remanere
+            intelligibiles formae earumdem rerum a sensibus acceptae.</p>
+          <p xml:id="ta-l4d50q1-d1e221">Praeterea, ex hoc intellectus noster actu intelligit quod forma intelligibilis in eo
+            existit. Ergo postquam destitit actu intelligere, forma intelligibilis in eo non
+            remanet; et sic videtur quod non remaneant in anima separata aliquae formae
+            intelligibiles a sensibus acceptae, per quas intelligere possit.</p>
+          <p xml:id="ta-l4d50q1-d1e224">Praeterea, considerare illud cujus scientiam aliquis prius accepit, videtur ad memoriam
+            vel reminiscentiam pertinere. Sed destructo corpore, anima non reminiscitur, ut dicit
+            philosophus in 1 et 3 de anima. Anima ergo separata non intelligit per species in hac
+            vita a sensibus acceptas.</p>
+          <p xml:id="ta-l4d50q1-d1e227">Sed contra est quod philosophus dicit, quod anima est locus specierum; et loquitur de
+            parte intellectiva. Sed locus conservat locatum. Ergo species a sensibus acceptae in
+            intellectiva conservantur; et sic videtur quod per eas possit intelligere anima separata
+            a corpore, sicut et nunc potest.</p>
+          <p xml:id="ta-l4d50q1-d1e230">Praeterea, finis remanet remotis etiam his quae sunt ad finem. Sed sensus ordinatur ad
+            cognitionem animae intellectivae sicut ad finem, inquantum ex sensibus cognitionem
+            accipit. Ergo cognitio quam anima accipit a sensibus, remanet in ea etiam destructis
+            sensibus corporis; quod erit cum anima fuerit a corpore separata.</p>
+          <p xml:id="ta-l4d50q1-d1e233">Praeterea, quod recipitur in aliquo, recipitur in eo per modum recipientis. Sed anima
+            est incorruptibilis et perpetua. Ergo quod in ea recipitur, recipitur ut perpetuo
+            conservabile in ipsa; ergo species intelligibiles quas a sensibus accipit, remanent in
+            ea post separationem a corpore. Frustra autem remanerent, nisi per eas intelligeret
+            formas prius a sensibus acceptas.</p>
+          <p xml:id="ta-l4d50q1-d1e237">Respondeo dicendum, quod circa hoc duplex est opinio. Una occasionatur ex opinione
+            Avicennae, qui dicit, quod intellectus noster possibilis non servat aliquas formas
+            postquam actu intelligere desinit; quia formae intelligibiles non possunt esse in
+            intellectu possibili nisi ut in vi apprehendente. Non enim utitur organo corporali, ut
+            ex parte ejus possit aliquid esse in intellectu non ut in apprehendente actu; per quem
+            modum aliquid est in potentiis sensitivae partis, quae potentiae thesauri dicuntur,
+            sicut memoria et imaginatio; sed intellectus possibilis cum convertit se ad
+            intelligentiam agentem, quam ponit separatam, accipit species intelligibiles ex
+            influentia ejus, cujus est formas a phantasmatibus abstrahere, et ponere eas in
+            intellectu possibili; et cum desinit se convertere ad intellectum agentem, formae illae
+            desinunt esse in eo; sicut forma visibilis desinit esse in oculo, cum oculus desinit se
+            convertere ad rem visam. Oportet autem ut si iterum velit intellectus possibilis
+            considerare quod prius consideravit, de novo se convertat ad intellectum agentem, et de
+            novo species intelligibiles recipiat; et secundum hoc quidam eum sequentes dicunt, quod
+            in anima nostra nullae species intelligibiles reservantur, quibus possit post mortem uti
+            ad intelligendum; et sic etiam dicunt, quod scientia hic acquisita nullo modo manet
+            neque quantum ad actum neque quantum ad habitum. Sed haec opinio non videtur esse
+            conveniens. Primo, quia contrariatur manifeste sententiae philosophi, qui ponit animam
+            esse locum specierum; unde oportet quod species in illa conserventur. Secundo, quia ex
+            quo species in intellectum possibilem imprimuntur, non est probabile eas aboleri, nisi
+            aliqua causa corrumpens eas fuerit; cum multo nobilius recipiantur formae intelligibiles
+            in intellectu possibili quam formae sensibiles in materia prima. Tertio, quia Augustinus
+            ponit partem mentis esse memoriam; et sic in ea species intelligibiles reservantur.
+            Quarto, quia dato quod nullae species intelligibiles remanerent in anima separata, non
+            propter hoc tolleretur quin habitus scientiae remaneret, etiam secundum praedictam
+            opinionem Avicennae. Vult enim quod quamvis species intelligibiles non remaneant in
+            intellectu possibili cum actu non intelligit, remanet tamen in eo quaedam habilitatio,
+            ut facilius se convertat ad recipiendum species intelligibiles ab intellectu agente,
+            ratione cujus non oportet quod semper aliquis ita laboret ad aliquid intelligendum,
+            sicut cum de novo didicit vel invenit; et habilitas haec nihil aliud est quam habitus
+            scientiae. Unde etiam in anima separata hujusmodi habitus remanebit, ut scilicet
+            paratior sit ad recipiendum cognitionem ex influentia superioris substantiae anima quae
+            habitu scientiae in hoc mundo fuit perfecta, quam alia quae hujusmodi habitu caruit. Et
+            ideo ponendum secundum alios videtur, quod species intelligibiles remanent in anima
+            postquam actu intelligere desierit, et etiam major habilitas ad recipiendum ab
+            intellectu agente; et quod utrumque eorum remanebit in anima separata, et utroque uti
+            poterit in intelligendo; alio tamen modo eis utitur cum est corpori conjuncta. Cum enim
+            est conjuncta corpori, ejus intellectus non potest aliquid considerare nec per species
+            acquisitas, nec per aliquem influxum superioris substantiae, nisi convertendo se ad
+            phantasmata; quia, propter perfectam conjunctionem ejus ad corpus, potentia intellectiva
+            ejus nihil cognoscit nisi per ea quae per corpus recipiuntur, unde habet phantasmata
+            quasi objecta ad quae respicit; sed cum erit a corpore separata, intelliget per alium
+            modum, ut supra dictum est, scilicet non aspiciendo ad phantasmata.</p>
+          <p xml:id="ta-l4d50q1-d1e240">Ad primum ergo dicendum, quod quamvis species intelligibiles, per se loquendo, sint
+            ejusdem rationis dum sunt in anima conjuncta corpori, et cum sunt in anima separata;
+            tamen per accidens sunt rationis diversae, inquantum anima in qua sunt, diversimode se
+            habet in conjunctione ad materiam, vel separatione ab ea; et ideo per species illas
+            anima conjuncta non intelligit nisi convertendo se ad phantasmata; sed cum fuerit
+            separata, intelliget per eas etiam sine tali conversione.</p>
+          <p xml:id="ta-l4d50q1-d1e243">Ad secundum dicendum, quod actus non specificantur a termino a quo, sed magis a termino
+            ad quem; unde idem specie motus est dealbatio, sive per eam aliquis fiat de nigro albus,
+            sive de rubeo albus. Unde et intelligere non diversificatur specie per hoc quod
+            intelligitur abstrahendo a phantasmatibus vel non abstrahendo, dummodo sit unius modi
+            quod intelligitur et quo intelligitur; et propterea habitus scientiae qui acquiritur ex
+            actibus intellectus accipientis a phantasmate, inclinat in actum intelligendi quo
+            phantasmata non respicit. Et praeterea intelligere nostrum secundum statum istum est
+            secundum phantasmata illustrata lumine intellectus agentis; unde est unius rationis cum
+            cognitione animae separatae, quae est per influentiam luminis a superiori substantia,
+            quantum ad ipsam illustrationem, quamvis non quantum ad phantasmata.</p>
+          <p xml:id="ta-l4d50q1-d1e246">Ad tertium dicendum, quod ex ipsis speciebus intelligibilibus praeexistentibus in
+            intellectu possibili efficitur intellectus possibilis paratior ad perfectius recipiendum
+            cognitionem ex influentia superioris substantiae; unde non sequitur quod frustra
+            hujusmodi species in anima separata remaneant ad intelligendum per eas.</p>
+          <p xml:id="ta-l4d50q1-d1e249">Ad quartum dicendum, quod formae intelligibiles acceptae non sunt omnino unius rationis
+            cum illis formis qua immediate ex influentia divina proveniunt; quia ex diversis
+            imprimentibus diversae impressiones relinquuntur; sic etiam et habitus virtutis
+            acquisitae non est ejusdem rationis cum habitu virtutis infusae. Unde nihil prohibet
+            utrasque formas in anima separata remanere; et formas illas tunc acceptas ex influxu
+            superioris substantiae esse formales et completivas respectu formarum acquisitarum a
+            sensibus.</p>
+          <p xml:id="ta-l4d50q1-d1e252">Ad quintum dicendum, quod in intellectu nostro remanent formae intelligibiles, etiam
+            postquam actu intelligere desinit; nec in hoc opinionem Avicennae sequimur. Remanent
+            autem hujusmodi formae intelligibiles in intellectu possibili, cum actu non intelligit,
+            non sicut in actu completo, sed in actu medio inter potentiam puram et actum perfectum,
+            sicut etiam forma quae est in fieri, hoc modo se habet.</p>
+          <p xml:id="ta-l4d50q1-d1e256">Ad sextum dicendum, quod philosophus loquitur de memoria et reminiscentia, quae est
+            pars animae sensitivae, cujus actus corrupto corpore non potest remanere; et hac
+            indigemus ad intelligendum ad praesens ea quae prius intelleximus; propter hoc oportet
+            nos ad phantasmata converti, quae quandoque oportet de thesauro memoriae adduci: sed
+            memoria prout ab Augustino ponitur in mente, remanebit in anima post mortem.</p>
+        </div>
+        <div xml:id="ta-l4d50q1-Dd1e260" type="articulus">
+          <head xml:id="ta-l4d50q1-Hd1e262">Articulus 3</head>
+
+          <head xml:id="ta-l4d50q1-Hd1e265" type="questionTitle">Utrum anima separata singularia cognoscat</head>
+
+          <p xml:id="ta-l4d50q1-d1e268">Ad tertium sic proceditur. Videtur quod anima separata singularia non cognoscat. Anima
+            enim separata non utetur potentiis sensitivis. Sed singularia non cognoscuntur ab anima
+            nisi per potentias sensitivas; singulare est enim aliquid, dum sentitur, ut Boetius
+            dicit. Ergo anima separata singularia non cognoscet.</p>
+          <p xml:id="ta-l4d50q1-d1e271">Praeterea, intellectus animae separatae magis erit a materia remotus quam intellectus
+            animae conjunctae corpori. Sed anima conjuncta corpori non potest intellectu cognoscere
+            singularia propter intellectus immaterialitatem. Ergo nec cum est a corpore
+            separata.</p>
+          <p xml:id="ta-l4d50q1-d1e274">Praeterea, differentia hic ponitur praecipue inter sensum et intellectum, eo quod
+            sensus cognoscit hic et nunc, intellectus autem abstrahit ab utroque. Si ergo
+            intellectus animae separatae possit singularia cognoscere, in nullo ejus cognitio a
+            sensu differret; quod est inconveniens.</p>
+          <p xml:id="ta-l4d50q1-d1e278">Praeterea, sicut in statu viae per sensum particularia cognoscimus, ita per intellectum
+            universalia. Sed sensus nunquam potest devenire ad hoc quod universalia cognoscat. Ergo
+            nec intellectus ad hoc quod cognoscat singularia.</p>
+          <p xml:id="ta-l4d50q1-d1e281">Praeterea, eadem est natura animae separatae, et corpori conjunctae. Sed per naturam
+            intellectivae animae, formae quae in intellectu recipiuntur dum corpori est conjuncta,
+            non ducunt in cognitionem singularium; sunt enim in ea per modum ipsius. Ergo eodem modo
+            erunt in ipsa postquam fuerit a carne separata; et sic non ducent in singularium
+            cognitionem.</p>
+          <p xml:id="ta-l4d50q1-d1e284">Sed contra, Luc. 16, 28, dicitur quod dives in Inferno existens secundum animam tantum,
+            dixit: <quote xml:id="ta-l4d50q1-Qd1e286">habeo enim quinque fratres</quote>; etc.: ex quo patet quod singularia cognoscunt
+            animae separatae.</p>
+          <p xml:id="ta-l4d50q1-d1e290">Praeterea, intellectus animae corpori conjunctae singularia cognoscit; quod patet ex
+            hoc quod propositionem format, cujus praedicatum est universale, et subjectum singulare;
+            et syllogismum componit, cujus minor est singularis. Ergo etiam a corpore separata anima
+            per intellectum singularia cognoscet.</p>
+          <p xml:id="ta-l4d50q1-d1e293">Praeterea, nullus potest disponere de his quae ignorat. Sed anima in corpore existens
+            per intellectum disponit de his quae circa singularia sunt agenda. Ergo etiam in corpore
+            existens singularia cognoscit per intellectum. Cum ergo intellectus in anima separata
+            integer maneat, videtur quod anima separata singularia cognoscat.</p>
+          <p xml:id="ta-l4d50q1-d1e296">Respondeo dicendum, quod cum omnis cognitio sit per formas, quibus cognoscens rebus
+            cognitis assimilatur; duplex erit cognoscendi modus: unus per formas a rebus acceptas;
+            alius per formas quae sunt causae rerum, vel a causis rerum acceptae. Ad hoc enim quod
+            aliqua duo sint similia, oportet unum esse causam alterius, vel ambo sub eadem causa
+            procedere; cum unitas effectus causae indicet unitatem. In illa ergo cognitione quae fit
+            per formas a rebus acceptas, ipsae res per suam actionem sunt cognitionis causa. Cum
+            ergo omnis actio sit per formam, forma autem quantum est de se sit universalis; per
+            talem modum non potest deveniri in cognitionem rerum singularium: quia per hunc modum
+            non cognoscitur materia, quae est individuationis principium, nisi in universali,
+            inquantum scilicet habet habitudinem ad formam universalem; sicut qui cognoscit simum,
+            cognoscit nasum inquantum est subjectum simi; nisi quando formae individualiter
+            recipiuntur in cognoscente ut sunt in rebus extra animam, sicut accidit in potentiis
+            cognoscitivis per organum corporale. Sed in illa cognitione quae est per formas quae
+            sunt rerum causae, vel earum impressiones, pervenitur usque ad singularia, quamvis
+            hujusmodi formae sint omnino immateriales, eo quod causa rei prima est quae rebus esse
+            influit: esse autem communiter materiam et formam respicit. Unde hujusmodi formae ducunt
+            directe in cognitionem utriusque, scilicet materiae et formae; et propter hoc per talem
+            cognitionem cognoscuntur res et in universali et in singulari. Anima ergo, cum est
+            corpori conjuncta, non cognoscit nisi per formas a rebus acceptas; et ideo per potentiam
+            illam cognoscitivam in qua formae a rebus omnino immaterialiter recipiuntur, directe
+            singularia non cognoscit, sed solummodo per potentias organis affixas; sed indirecte, et
+            per quamdam reflexionem, etiam per intellectum, qui organo non utitur, cognoscit
+            singularia; prout scilicet ex objecto proprio redit ad cognoscendum suum actum, ex quo
+            actu redit in speciem, quae est intelligendi principium; et ex ea procedit ad
+            considerandum phantasma, a quo species hujusmodi est abstracta; et sic per phantasma
+            singulare cognoscit. Anima vero separata utitur utraque cognitione: quia et cognoscit
+            per species acceptas a sensibus, et per species receptas a superioribus substantiis,
+            quae species sunt causarum impressiones, idest rationum idealium in Deo existentium; et
+            ideo secundum illum modum quo cognoscit per species a sensibus acceptas, singularia
+            directe non cognoscit: sed per illum modum quo cognoscit ex influentia superioris
+            substantiae, cognoscere potest singularia eadem ratione qua et Angeli, de quorum
+            cognitione dictum est 2 Lib., dist. 3, quaest. 2, per totam.</p>
+          <p xml:id="ta-l4d50q1-d1e300">Ad primum ergo dicendum, quod anima in statu viae non cognoscit singularia directe,
+            nisi per potentias sensitivas, quia non cognoscit nisi per formas a rebus acceptas; quae
+            cum ad intellectum pervenerint, in quo omnino immaterialiter recipiuntur, non possunt
+            esse principium cognoscendi singulare: sed cum fuerit a corpore separata, habebit alium
+            modum cognoscendi, quo singularia cognoscere poterit, ut dictum est in corp. art.</p>
+          <p xml:id="ta-l4d50q1-d1e303">Ad secundum dicendum, quod ex hoc ipso quod anima separata est quodammodo immaterialior
+            quam corpori conjuncta, est propinquior substantiis superioribus, quae sunt omnino
+            immateriales; et magis parata ad recipiendum earum influxum, et per consequens ad
+            intelligendum eo modo quo ipsae intelligunt.</p>
+          <p xml:id="ta-l4d50q1-d1e306">Ad tertium dicendum, quod intellectus qui singulare cognoscit, alio modo cognoscit quam
+            sensus. Sensus enim singulare cognoscit per formam quodammodo materialem; unde per illam
+            formam non potest se extendere ejus cognitio ultra singulare: sed intellectus singulare
+            cognoscit per formam immaterialem, quae potest esse principium cognoscendi universale et
+            singulare; et sic adhuc remanet differentia inter sensum et intellectum.</p>
+          <p xml:id="ta-l4d50q1-d1e309">Ad quartum dicendum, quod virtus sensitiva est infra virtutem intellectivam; unde magis
+            potest intellectus se extendere ad id quod est sensus, quam sensus ad id quod est
+            intellectus.</p>
+          <p xml:id="ta-l4d50q1-d1e312">Ad quintum dicendum, quod eodem modo recipitur forma in intellectu animae separatae et
+            in intellectu animae conjunctae, scilicet immaterialiter; sed tamen forma quae est in
+            anima separata, erit alterius rationis et virtutis; prout scilicet erit effluens a
+            substantiis superioribus, sicut dictum est, in corp. art.</p>
+          <p xml:id="ta-l4d50q1-d1e315">Primum objectum in contrarium est concedendum. Sed ad alia duo oportet respondere: quia
+            concludunt quod intellectus animae conjunctae corpori singularia cognoscat.</p>
+          <p xml:id="ta-l4d50q1-d1e319">Ad secundum dicendum, quod intellectus noster in statu viae utitur singularibus
+            componendo propositiones, et formando syllogismos, inquantum reflectitur ad potentias
+            sensitivae partis, ut dictum est, et quodammodo continuatur cum eis, secundum quod earum
+            motus et operationes ad intellectum terminantur, prout intellectus ab eis accipit.</p>
+          <p xml:id="ta-l4d50q1-d1e322">Ad tertium dicendum, quod intellectus practicus ad hoc quod de singularibus disponat,
+            ut dicitur in 3 de anima, indiget ratione particulari, qua mediante, opinio quae est
+            universalis (quae est in intellectu) ad particulare opus applicetur: ut sic quidem fiat
+            syllogismus, cujus major est universalis, quae est opinio intellectus practici; minor
+            vero singularis, quae est aestimatio rationis particularis, quae alio nomine dicitur
+            cogitativa: conclusio vero consistit in electione operis.</p>
+        </div>
+        <div xml:id="ta-l4d50q1-Dd1e327" type="articulus">
+          <head xml:id="ta-l4d50q1-Hd1e329">Articulus 4</head>
+
+          <head xml:id="ta-l4d50q1-Hd1e332" type="questionTitle">Utrum localis distantia impediat cognitionem animae
+            separatae</head>
+
+          <p xml:id="ta-l4d50q1-d1e335">Ad quartum sic proceditur. Videtur quod localis distantia impediat cognitionem animae
+            separatae. Anima enim hic existens ea quae hic aguntur cognoscit. Sed existens in
+            receptaculo sibi debito, ea quae hic aguntur non cognoscit; unde dicit Augustinus in
+            libro de cura pro mortuis agenda: <quote xml:id="ta-l4d50q1-Qd1e337">ibi sunt defunctorum animae ubi ea quae hic
+              aguntur, scire non possunt</quote>. Ergo localis distantia cognitionem animae separatae
+            impedit.</p>
+          <p xml:id="ta-l4d50q1-d1e341">Praeterea, naturalis cognitio animae separatae non est potior quam naturalis cognitio
+            Daemonis. Sed Daemones naturali cognitione non cognoscunt absentia; unde Augustinus in
+            libro de divinatione Daemonum, dicit, quod <quote xml:id="ta-l4d50q1-Qd1e343">ea quae etiam alibi fiunt, celeritate
+              motus sui cito ad nos deferunt, ut quasi ea praedicere videantur quae nos postea
+              nuntiantibus hominibus sumus scituri</quote>. Ad hoc autem nihil faceret celeritas motus,
+            si hic nobiscum existentes absentia cognoscere possent. Ergo anima separata non
+            cognoscit absentia; et sic ejus cognitio per localem distantiam impeditur.</p>
+          <p xml:id="ta-l4d50q1-d1e347">Praeterea, omnis cognoscens rem sub hic et nunc, aliter cognoscit sub hic et nunc quae
+            sunt hic et quae sunt alibi. Sed anima separata cognoscit sub hic et nunc, quia
+            cognoscit singularia, ut dictum est. Ergo aliter cognoscit propinqua et remota; et sic
+            idem est quod prius.</p>
+          <p xml:id="ta-l4d50q1-d1e351">Praeterea, sicut est aliquid distans secundum tempus, ita est distans aliquid secundum
+            locum. Sed anima separata non potest cognoscere distantia secundum tempus, ut puta
+            futura: hoc enim solius Dei est, ut patet per id quod habetur Isa. 41, 23: <quote xml:id="ta-l4d50q1-Qd1e353">annuntiate
+              nobis quae ventura sunt, et dicemus quia dii estis</quote>. Ergo nec distantia secundum
+            locum potest cognoscere.</p>
+          <p xml:id="ta-l4d50q1-d1e357">Praeterea, operatio non excedit substantiam operantis; unde Damascenus dicit, quod
+            Angeli ibi sunt ubi operantur. Sed anima separata est in aliquo loco, cum ei locus
+            corporalis pro receptaculo assignetur. Ergo operatio animae separatae non potest se
+            extendere ultra locum illum; et sic ea quae sunt distantia secundum locum, cognoscere
+            non potest.</p>
+          <p xml:id="ta-l4d50q1-d1e360">Sed contra, sancti a damnatis distant maxime, etiam secundum locum. Sed damnati vident
+            beatos, ut patet Luc. 16, de divite, qui in tormentis positus Abraham et Lazarum vidit.
+            Ergo localis distantia cognitionem animae separatae non impedit.</p>
+          <p xml:id="ta-l4d50q1-d1e363">Praeterea, nulla operatio impeditur per loci distantiam, nisi sit situalis: quia
+            propinquum et distans secundum locum, ad situm pertinere videntur. Sed anima separata
+            non habet aliam cognitionem nisi intellectivam, cum potentiis sensitivis non utatur;
+            intellectiva autem cognitio nullo modo est situalis, cum non fiat per corporea
+            instrumenta. Ergo ad cognitionem animae separatae nihil loci propinquitas facit vel
+            distantia.</p>
+          <p xml:id="ta-l4d50q1-d1e366">Praeterea, lux intelligibilis est potentior quam lux aliqua sensibilis. Sed lux
+            sensibilis solis non impeditur a sua operatione per aliquam localem distantiam, quia
+            totum mundum illuminat. Ergo nec lux intelligibilis animae separatae impeditur a sua
+            cognitione per distantiam aliquam corporalem.</p>
+          <p xml:id="ta-l4d50q1-d1e369">Respondeo dicendum, quod, sicut dictum est, quidam ponunt, quod anima separata
+            cognoscat accipiendo a rebus: quod si verum esset, localis distantia proculdubio
+            cognitionem animae separatae impediret, eo quod rerum sensibilium actiones non
+            aequaliter se extendunt ad propinquum et distans, cum per propinqua in distantia
+            moveantur; et sic in remotis virtus primi agentis paulatim deficit; et inde est quod non
+            possumus sentire ea quae sunt procul a nobis. Sed si ponamus quod anima separata
+            cognoscat per formas aliquas vel concreatas vel influxas a superioribus substantiis, non
+            potest esse quod ejus cognitio per rei distantiam impediatur. Non enim per hujusmodi
+            formas cognoscet in quantum res aliquid agant in animam, vel anima in res, ut sic medium
+            corporale, per quod actio fiat, cognitionem impedire possit; sed cognitio praedicta
+            perficitur ex hoc solo quod formae in anima existentes repraesentant res quae sunt extra
+            animam; quas aequaliter repraesentant, sive sint propinquae, sive sint distantes; sicut
+            imago Herculis aequaliter repraesentat Herculem, ubicumque sit Hercules: unde etiam
+            potentiae cognoscitivae quae cognoscunt res per formas a rebus acceptas, dummodo non
+            cognoscant solummodo dum accipiunt, aequaliter cognoscunt res distantes et propinquas;
+            sicut intellectus noster in statu viae aequaliter cognoscit solem et lunam; et
+            imaginatio aequaliter imaginatur hominem propinquum et distantem. Sed quia cognitio
+            sensus perficitur in hoc ipso quod sensus a sensibili movetur; inde est quod sensitiva
+            cognitio per localem distantiam impeditur. Si ergo cognitio animae separatae non fit per
+            acceptionem formarum a rebus sensibilibus, ut supra positum est, nullo modo esse poterit
+            ut ejus cognitionem localis distantia impediat.</p>
+          <p xml:id="ta-l4d50q1-d1e373">Ad primum ergo dicendum, quod quamvis aliquae animae defunctorum in suis receptaculis
+            existentes ea quae hic aguntur ignorent, non tamen hoc contingit propter localem
+            distantiam, sed propter aliquam aliam causam, utpote quia afficiuntur vehementer ad ea
+            quae in illis receptaculis patiuntur; vel etiam quia influentia superioris substantiae
+            quamvis eas perficiat ad aliqua cognoscenda, non tamen ad omnia, sed ad illa tantum quae
+            ei secundum modum suum competunt.</p>
+          <p xml:id="ta-l4d50q1-d1e376">Ad secundum dicendum, quod Augustinus frequenter utitur illa positione qua ponuntur
+            Daemones habere corpora sibi unita, sicut etiam in libello inducto apparet; quod si
+            esset, tunc oporteret ponere eos corpus sensibile habere, et per sensus cognitionem a
+            rebus accipere, et sic eorum cognitionem locali distantia impediri; unde non est simile
+            de anima separata quae hoc modo non cognoscit.</p>
+          <p xml:id="ta-l4d50q1-d1e379">Ad tertium dicendum, quod ratio illa recte procederet, si anima separata cognosceret ea
+            quae sunt hic et nunc, accipiendo a rebus quae sunt hic et nunc, sicut in sensu accidit.
+            Sed hoc dictum est esse falsum; unde ratio non sequitur.</p>
+          <p xml:id="ta-l4d50q1-d1e382">Ad quartum dicendum, quod ea quae distant secundum tempus, scilicet futura, deficiunt
+            ab esse: eo quod esse rei mensuratur tempore. Unde cum res secundum hoc sint
+            cognoscibiles quod habent esse, quia cognitiones sunt existentium, ut dicit Dionysius 1
+            cap. de Div. Nom., futura ex seipsis sunt incognoscibilia. Sed distantia secundum locum
+            non deficiunt ab esse; locus enim non mensurat esse rei, sed res existentes. Unde per
+            hoc quod sunt distantes res, in seipsis nihil minus sunt cognoscibiles; possunt tamen
+            esse minus cognoscibiles quo ad aliquos, qui in patiendo a rebus res ipsas cognoscunt;
+            quod non est de anima separata.</p>
+          <p xml:id="ta-l4d50q1-d1e385">Ad quintum dicendum, quod operatio, prout est accidens quoddam habens esse in subjecto,
+            non extenditur ultra suum subjectum; sed prout comparatur ad objectum, sic ultra suum
+            subjectum extenditur, sicut nunc per animam existentem in corpore cognoscimus ea quae in
+            caelo sunt; et sic etiam nihil prohibet animam separatam distantia secundum locum
+            cognoscere.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

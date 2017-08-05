@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 27, Quaestio 3</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Librum IV, Distinctio 27, Quaestio 3</title>
+          <date when="2016-03-19">March 19, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-19">March 19, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness>1856 editum</witness>
+          <witness xml:id="G" n="ghent567">Ghent, Belgium, Ghent University Library, 567</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="0.0.0-dev">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+
+
+
+
+      <div xml:id="starts-on">
+        <cb ed="#G" n="454b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ta-l4d27q3">
+        <head xml:id="ta-l4d27q3-Hd1e97">Librum IV, Distinctio 27, Quaestio 3</head>
+        <div xml:id="ta-l4d27q3-Dd1e100">
+          <head xml:id="ta-l4d27q3-Hd1e102">Prooemium</head>
+          <p xml:id="ta-l4d27q3-d1e105">Deinde quaeritur de bigamia; et circa hoc quaeruntur tria: 1 utrum bigamiae sit
+            irregularitas adjuncta; 2 utrum solvatur per Baptismum; 3 utrum possit dispensari in
+            tali irregularitate.</p>
+
+        </div>
+        <div xml:id="ta-l4d27q3-Dd1e109" type="articulus">
+          <head xml:id="ta-l4d27q3-Hd1e111">Articulus 1</head>
+
+          <head xml:id="ta-l4d27q3-Hd1e114" type="questionTitle">Utrum illi bigamiae quae est ex hoc quod aliquis duas uxores
+            successive habuit, sit irregularitas annexa</head>
+
+          <div xml:id="ta-l4d27q3-Dd1e117">
+            <head xml:id="ta-l4d27q3-Hd1e119">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d27q3-d1e122">Ad primum sic proceditur. Videtur quod illi bigamiae quae est ex hoc quod aliquis
+              duas uxores successive habuit, non sit irregularitas annexa. Quia multitudo et unitas
+              consequuntur ens. Ergo ens et non ens non faciunt multitudinem aliquam. Sed ille qui
+              habet successive duas uxores, quando una est in esse, alia non est in esse. Ergo ex
+              hoc non efficitur vir non unius uxoris, qui secundum apostolum ab episcopatu
+              prohibetur.</p>
+            <p xml:id="ta-l4d27q3-d1e125">Praeterea, majus signum incontinentiae apparet in eo qui plures fornicarie cognoscit
+              quam qui plures uxores successive habet. Sed ex primo non efficitur aliquis
+              irregularis. Ergo nec ex secundo.</p>
+            <p xml:id="ta-l4d27q3-d1e128">Praeterea, si bigamia irregularitatem causat; aut hoc est ratione sacramenti, aut
+              ratione carnalis copulae. Sed non ratione primi; quia sic si aliquis cum una
+              contraxisset per verba de praesenti, et ea mortua ante carnalem copulam subsecutam
+              duceret aliam, videretur irregularis; quod est contra Decr. Innocentii III; nec iterum
+              ratione secundi; quia secundum hoc etiam qui plures fornicario concubitu cognosceret,
+              irregularis esset, quod falsum est. Ergo nullo modo bigamia irregularitatem
+              causat.</p>
+
+          </div>
+          <div xml:id="ta-l4d27q3-Dd1e132">
+            <head xml:id="ta-l4d27q3-Hd1e134">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d27q3-d1e137">Ulterius. Videtur quod irregularitas non sit annexa bigamiae quae contingit ex hoc
+              quod homo habet duas uxores simul, vel successive unam de jure, et aliam de facto.
+              Quia ubi nullum est sacramentum, non potest esse defectus sacramenti. Sed quando
+              aliquis contrahit cum aliqua de facto et non de jure, non est ibi aliquod sacramentum:
+              quia talis conjunctio non significat conjunctionem Christi ad Ecclesiam. Ergo cum
+              irregularitas non consequatur bigamiam nisi propter defectum sacramenti, videtur quod
+              talem bigamiam irregularitas non consequatur.</p>
+            <p xml:id="ta-l4d27q3-d1e140">Praeterea, aliquis accedens ad illam cum qua contrahit de facto et non de jure,
+              committit fornicationem, si non habeat aliam uxorem legitimam; vel adulterium, si
+              habeat aliam. Sed dividere carnem suam in plures per fornicationem vel adulterium non
+              causat irregularitatem. Ergo nec praedictus bigamiae modus.</p>
+            <p xml:id="ta-l4d27q3-d1e143">Praeterea, contingit quod aliquis antequam cognoscat carnaliter illam cum qua de jure
+              contraxit, cum alia contrahat de facto, non de jure, et eam carnaliter cognoscat sive
+              prima mortua, sive prima vivente. Talis contraxit cum pluribus vel de jure, vel de
+              facto; et tamen non est irregularis, quia carnem suam non divisit in plures. Ergo ex
+              praedicto modo bigamiae non contrahitur irregularitas.</p>
+
+          </div>
+          <div xml:id="ta-l4d27q3-Dd1e147">
+            <head xml:id="ta-l4d27q3-Hd1e149">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d27q3-d1e152">Ulterius. Videtur quod non contrahatur irregularitas ex hoc quod aliquis non virginem
+              ducit uxorem. Quia plus impeditur aliquis defectu proprio quam alieno. Sed si ipse
+              contrahens non sit virgo, non fit irregularis. Ergo multo minus si uxor ejus non sit
+              virgo.</p>
+            <p xml:id="ta-l4d27q3-d1e155">Praeterea, potest esse quod aliquis defloravit aliquam, et postea ducat eam in
+              uxorem. Talis non videtur fieri irregularis; quia non dividit carnem suam in plures,
+              nec etiam uxor ejus; et tamen ducit corruptam in uxorem. Ergo talis modus bigamiae
+              irregularitatem non causat.</p>
+            <p xml:id="ta-l4d27q3-d1e158">Praeterea, nullus potest contrahere irregularitatem nisi voluntarius. Sed aliquis
+              quandoque ducit uxorem non virginem involuntarius, ut quando credit eam virginem esse,
+              et postea invenit eam fuisse corruptam, cognoscens eam. Ergo talis modus non semper
+              facit irregularitatem.</p>
+            <p xml:id="ta-l4d27q3-d1e161">Praeterea, corruptio sequens matrimonium est vituperabilior quam praecedens. Sed si
+              uxor, postquam consummatum est matrimonium, ab alio cognoscatur, non efficitur vir
+              irregularis; alias puniretur pro peccato uxoris: potest etiam esse quod postquam hoc
+              sciat, reddat ei debitum poscenti antequam de adulterio accusata condemnetur. Ergo
+              videtur quod ille modus bigamiae non causet irregularitatem.</p>
+            <p xml:id="ta-l4d27q3-d1e165">Sed contra est quod Gregorius dicit: <quote xml:id="ta-l4d27q3-Qd1e167">praecipimus ne unquam illicitas
+                ordinationes facias, ne bigamus, aut qui virginem non est sortitus uxorem, aut
+                ignoranter habens, vel qualibet parte corporis vitiatum, vel poenitentiae, vel
+                curiae cujuslibet conditioni obnoxium, ad sacros ordines permittas
+              accedere</quote>.</p>
+          </div>
+          <div xml:id="ta-l4d27q3-Dd1e173">
+            <head xml:id="ta-l4d27q3-Hd1e175">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d27q3-d1e178">Respondeo dicendum ad primam quaestionem, quod aliquis per sacramentum ordinis
+              minister sacramentorum constituitur; et ille qui aliis sacramenta ministrare debet,
+              nullum defectum in sacramentis pati debet. Defectus autem in sacramento est, quando
+              sacramenti significatio integra non invenitur. Sacramentum autem matrimonii significat
+              conjunctionem Christi ad Ecclesiam, quae est unius ad unam; et ideo requiritur ad
+              perfectam significationem sacramenti ut vir sit tantum unius vir, et uxor tantum unius
+              uxor; et ideo bigamia, quae hoc tollit, irregularitatem inducit. Et sunt quatuor modi
+              bigamiae. Primus est, cum quis habet plures uxores de jure successive. Secundus, cum
+              simul habet plures, unam de jure, aliam de facto. Tertius, cum plures habet
+              successive, unam de jure, aliam de facto. Quartus, quando viduam ducit in uxorem. Et
+              omnibus his est irregularitas adjuncta. Alia autem causa consequens assignatur: quia
+              in illis qui accipiunt sacramentum ordinis, maxima spiritualitas debet apparere: tum
+              quia spiritualia ministrant, scilicet sacramenta: tum quia spiritualia docent, et in
+              spiritualibus occupari debent. Unde cum concupiscentia maxime spiritualitati repugnet,
+              per quam totus homo caro efficitur; non debet aliquod signum concupiscentiae
+              permanentis in eis apparere, quod quidem in bigamis apparet, qui una uxore contenti
+              esse nolunt. Tamen prima ratio est melior.</p>
+            <p xml:id="ta-l4d27q3-d1e181">Ad primum ergo dicendum, quod multitudo plurium uxorum simul existentium est
+              multitudo simpliciter; et ideo talis multitudo totaliter significationi sacramenti
+              repugnat; et propter hoc tollitur sacramentum; sed multitudo uxorum successive est
+              multitudo secundum quid; et ideo non tollit significationem sacramenti totaliter, nec
+              sacramentum evacuat quantum ad sui essentiam, sed quantum ad sui perfectionem, quae
+              requiritur in illis qui sunt sacramentorum dispensatores.</p>
+            <p xml:id="ta-l4d27q3-d1e184">Ad secundum dicendum, quod quamvis sit in fornicariis majoris concupiscentiae signum,
+              non tamen concupiscentiae ita adhaerentis: quia per fornicationem unus alteri non in
+              perpetuum obligatur; et ideo ibi non est defectus sacramenti.</p>
+            <p xml:id="ta-l4d27q3-d1e187">Ad tertium dicendum, quod sicut dictum est, bigamia causat irregularitatem, inquantum
+              tollit perfectam significationem matrimonii, quae quidem consistit in conjunctione
+              animorum, quae fit per consensum, et in conjunctione corporum; et ideo ratione
+              utriusque oportet simul esse bigamiam quae irregularitatem faciat; unde per Decret.
+              Innocentii abrogatur id quod Magister in littera dicit, scilicet quod solus consensus
+              per verba de praesenti sufficit ad irregularitatem inducendam.</p>
+
+          </div>
+          <div xml:id="ta-l4d27q3-Dd1e191">
+            <head xml:id="ta-l4d27q3-Hd1e193">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d27q3-d1e196">Ad secundam quaestionem dicendum, quod in secundis duobus modis bigamiae contrahitur
+              irregularitas: quia quamvis in altero non sit sacramentum, est tamen quaedam
+              sacramenti similitudo; unde isti duo modi sunt secundarii, et primus est principalis
+              in irregularitate causanda.</p>
+            <p xml:id="ta-l4d27q3-d1e199">Ad primum ergo dicendum, quod quamvis ibi non sit sacramentum, est tamen ibi aliqua
+              similitudo sacramenti, quae non est in fornicario vel in adulterino concubitu; et ideo
+              non est simile.</p>
+            <p xml:id="ta-l4d27q3-d1e202">Et per hoc patet solutio ad secundum.</p>
+            <p xml:id="ta-l4d27q3-d1e205">Ad tertium dicendum, quod in tali casu non reputatur bigamus, quia primum matrimonium
+              non habuit perfectam suam significationem. Tamen si per judicium Ecclesiae compellatur
+              ad primam redire, et eam cognoscere, statim efficitur irregularis: quia
+              irregularitatem non facit peccatum, sed imperfectio significationis.</p>
+
+          </div>
+          <div xml:id="ta-l4d27q3-Dd1e209">
+            <head xml:id="ta-l4d27q3-Hd1e211">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d27q3-d1e214">Ad tertiam quaestionem dicendum, quod in conjunctione Christi et Ecclesiae unitas ex
+              utraque parte invenitur; et ideo, sive divisio carnis inveniatur ex parte viri, sive
+              ex parte uxoris, est defectus sacramenti, sed tamen diversimode: quia ex parte viri
+              requiritur quod aliam non duxerit in uxorem, non quod sit virgo; sed ex parte uxoris
+              requiritur etiam quod sit virgo; cujus ratio a decretistis assignatur, quia episcopus
+              significat Ecclesiam militantem, cujus curam gerit, in qua sunt multae corruptiones;
+              sed sponsa significat Christum, qui virgo fuit; et ideo ex parte sponsae requiritur
+              virginitas, sed non ex parte sponsi, ad hoc quod aliquis episcopus fieri possit. Sed
+              haec ratio est expresse contra apostolum, Ephes. 5, 2, 5: <quote xml:id="ta-l4d27q3-Qd1e216">viri diligite uxores
+                vestras, sicut Christus Ecclesiam</quote>; ex quo apparet quod uxor significat
+              Ecclesiam, et sponsus Christum; et iterum, quia vir est caput mulieris, sicut Christus
+              Ecclesiae. Et ideo alii dicunt, quod per sponsum significatur Christus, per sponsam
+              significatur Ecclesia triumphans, in qua non est aliqua macula. Christus autem primo
+              habuit synagogam quasi concubinam; et sic non tollitur aliquid de perfectione
+              significationis sacramenti, si sponsus prius habuit concubinam. Sed hoc est valde
+              absurdum: quia sicut est una fides antiquorum et modernorum, ita una Ecclesia; unde
+              illi qui tempore synagogae Deo serviebant, ad unitatem Ecclesiae, in qua Deo servimus,
+              pertinebant. Et praeterea hoc est expresse contra id quod habetur Hierem. 3, Ezech.
+              16, Oseae 2, 2, ubi expresse fit mentio de desponsatione synagogae; unde non fuit
+              sicut concubina, sed sicut uxor. Et praeterea, secundum hoc fornicatio esset
+              sacramentum illius conjunctionis, quod est absurdum; et ideo gentilitas priusquam a
+              Christo desponsaretur in fidem Ecclesiae, corrupta fuit a Diabolo per idolatriam. Et
+              ideo aliter dicendum, quod defectus in ipso sacramento causat irregularitatem;
+              corruptio autem carnis extra matrimonium contingens, quae praecessit matrimonium,
+              nullum defectum facit in sacramento ex parte illius in quo est corruptio, sed facit
+              defectum ex parte alterius: quia actus contrahentis matrimonium non cadit supra
+              seipsum, sed supra alterum; et ideo ex termino specificatur, quod etiam est respectu
+              illius actus quasi materia sacramenti. Unde si mulier esset ordinis susceptiva; sicut
+              vir efficitur irregularis ex hoc quod ducit in uxorem corruptam, non autem ex hoc quod
+              corruptus contrahit, ita fieret mulier irregularis si contraheret cum corrupto; non
+              autem si contraheret corrupta, nisi in alio matrimonio prius fuisset corrupta.</p>
+            <p xml:id="ta-l4d27q3-d1e220">Et per hoc patet solutio ad primum.</p>
+            <p xml:id="ta-l4d27q3-d1e223">Ad secundum dicendum, quod in tali casu sunt diversae opiniones: tamen probabilius
+              est quod non sit irregularis, quia carnem suam non divisit in plures.</p>
+            <p xml:id="ta-l4d27q3-d1e226">Ad tertium dicendum, quod irregularitas non est poena inflicta, sed defectus quidam
+              sacramenti; et ideo non oportet quod semper sit voluntaria bigamia ad hoc quod
+              irregularitatem causet; et ideo ille qui uxorem ducit corruptam, quam virginem credit,
+              irregularis est eam cognoscens.</p>
+            <p xml:id="ta-l4d27q3-d1e230">Ad quartum dicendum, quod si mulier fornicetur post contractum matrimonium, non
+              efficitur ex hoc vir irregularis, nisi post corruptionem adulterinam eam iterato
+              cognoscat: quia alias corruptio uxoris nullo modo cadit sub actu matrimoniali viri.
+              Sed si etiam per jus ei debitum compellatur reddere, vel ex conscientia propria, illa
+              petente debitum ante condemnationem adulterii, irregularis efficitur; quamvis de hoc
+              sint opiniones. Sed hoc quod dictum est, est probabilius: quia hic non quaeritur quid
+              sit peccatum, sed significatio tantum.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d27q3-Dd1e235" type="articulus">
+          <head xml:id="ta-l4d27q3-Hd1e237">Articulus 2</head>
+
+          <head xml:id="ta-l4d27q3-Hd1e240" type="questionTitle">Utrum bigamia per Baptismum solvatur</head>
+
+          <p xml:id="ta-l4d27q3-d1e243">Ad secundum sic proceditur. Videtur quod bigamia per Baptismum solvatur. Dicit enim
+            Hieronymus super Epist. ad Titum, quod si quis ante Baptismum plures uxores habuit, vel
+            unam ante, et aliam post, non est bigamus. Ergo bigamia per Baptismum solvitur.</p>
+          <p xml:id="ta-l4d27q3-d1e246">Praeterea, qui facit quod majus est, facit quod minus est. Sed Baptismus tollit omne
+            peccatum, quod est gravius quam irregularitas. Ergo tollit bigamiae irregularitatem.</p>
+          <p xml:id="ta-l4d27q3-d1e249">Praeterea, Baptismus tollit omnem poenam ex actu provenientem. Sed irregularitas
+            bigamiae est hujusmodi. Ergo et cetera.</p>
+          <p xml:id="ta-l4d27q3-d1e253">Praeterea, bigamus est irregularis, inquantum deficit a repraesentatione Christi. Sed
+            per Baptismum plene Christo conformatur. Ergo solvitur illa irregularitas.</p>
+          <p xml:id="ta-l4d27q3-d1e256">Praeterea, sacramenta novae legis sunt magis efficacia quam sacramenta veteris legis.
+            Sed sacramenta veteris legis solvebant irregularitates, ut 1 Lib. dictum est a Magistro.
+            Ergo et Baptismus, qui est efficacissimum sacramentum in nova lege, solvit
+            irregularitatem ex bigamia contractam.</p>
+          <p xml:id="ta-l4d27q3-d1e259">Sed contra est quod Augustinus dicit: <quote xml:id="ta-l4d27q3-Qd1e261">acutius intelligunt qui nec eum qui
+              catechumenus aut Paganus habuit alteram, ordinandum censuerunt: quia de sacramento
+              agitur, non de peccato</quote>.</p>
+          <p xml:id="ta-l4d27q3-d1e265">Praeterea, sicut idem dicit, femina si catechumena vel Pagana vitiata est, non potest
+            inter Dei virgines post Baptismum velari. Ergo eadem ratione nec bigamus ante Baptismum
+            ordinari.</p>
+          <p xml:id="ta-l4d27q3-d1e268">Respondeo dicendum, quod Baptismus solvit culpas, et non solvit conjugia; unde cum ex
+            ipso conjugio sequatur irregularitas, per Baptismum tolli non potest, ut dicit
+            Augustinus.</p>
+          <p xml:id="ta-l4d27q3-d1e271">Ad primum ergo dicendum, quod in casu isto non tenetur opinio Hieronymi; nisi forte
+            velimus eum exponere, quod loquitur quantum ad superiorem dispensationem.</p>
+          <p xml:id="ta-l4d27q3-d1e275">Ad secundum dicendum, quod non oportet ut quod facit majus, faciat minus, nisi sit ad
+            id ordinatum; et hoc deficit in proposito, quia Baptismus ad irregularitatem tollendam
+            non ordinatur.</p>
+          <p xml:id="ta-l4d27q3-d1e278">Ad tertium dicendum, quod hoc intelligendum est de poenis quae consequuntur ex actuali
+            peccato quasi inflictae, non infligendae; non enim aliquis virginitatem per Baptismum
+            recuperat, et similiter nec carnis indivisionem.</p>
+          <p xml:id="ta-l4d27q3-d1e281">Ad quartum dicendum, quod Baptismus conformat Christo quantum ad virtutem mentis, sed
+            non quantum ad statum carnis, quae consideratur in virginitate, vel divisione
+            carnis.</p>
+          <p xml:id="ta-l4d27q3-d1e284">Ad quintum dicendum, quod illae irregularitates ex levibus causis, non perpetuis, erant
+            contractae, et ideo etiam per illa sacramenta auferri poterant; et iterum erant ad hoc
+            ordinata; non autem Baptismus ad hoc ordinatur.</p>
+
+        </div>
+        <div xml:id="ta-l4d27q3-Dd1e288" type="articulus">
+          <head xml:id="ta-l4d27q3-Hd1e290">Articulus 3</head>
+
+          <head xml:id="ta-l4d27q3-Hd1e293" type="questionTitle">Utrum cum bigamo liceat dispensare</head>
+
+          <p xml:id="ta-l4d27q3-d1e296">Ad tertium sic proceditur. Videtur quod cum bigamo non liceat dispensare. Quia Extra.
+            de bigamis dicitur: <quote xml:id="ta-l4d27q3-Qd1e298">cum clericis, qui, inquantum in ipsis fuit, secundas mulieres
+              sibi conjunxerunt matrimonialiter, tamquam cum bigamis, non licet
+            dispensare</quote>.</p>
+          <p xml:id="ta-l4d27q3-d1e302">Praeterea, contra jus divinum non licet dispensare. Sed omnia quae in canone dicuntur,
+            ad jus divinum pertinent. Cum ergo apostolus in Scriptura canonica dicat: <quote xml:id="ta-l4d27q3-Qd1e304">oportet
+              episcopum non nisi unius uxoris virum esse</quote>; videtur quod non possit in hoc
+            dispensari.</p>
+          <p xml:id="ta-l4d27q3-d1e308">Praeterea, nullus potest dispensare in his quae sunt de necessitate sacramenti. Sed non
+            esse irregularem, est de necessitate sacramenti ordinis, cum significatio, quae est
+            sacramento essentialis, desit. Ergo non potest in hoc dispensari.</p>
+          <p xml:id="ta-l4d27q3-d1e312">Praeterea, quod rationabiliter factum est, non potest rationabiliter mutari. Si ergo
+            potest rationabiliter dispensari cum bigamo, irrationabiliter est ei adjuncta
+            irregularitas; quod est inconveniens.</p>
+          <p xml:id="ta-l4d27q3-d1e315">Sed in contrarium est quod Lucius Papa dispensavit cum Panormitano episcopo, qui erat
+            bigamus.</p>
+          <p xml:id="ta-l4d27q3-d1e318">Praeterea, Martinus Papa dicit: <quote xml:id="ta-l4d27q3-Qd1e320">lector si viduam uxorem accipiat, in lectoratu
+              permaneat; aut si necessitas fuerit, subdiaconus fiat; nihil autem supra: similiter si
+              bigamus fuerit</quote>. Ergo ad minus usque ad subdiaconatum cum eo dispensari
+            potest.</p>
+          <p xml:id="ta-l4d27q3-d1e324">Respondeo dicendum, quod bigamiae non est adjuncta irregularitas de jure naturali, sed
+            de jure positivo; nec iterum est de essentialibus ordinis quod aliquis non sit bigamus;
+            quod patet ex hoc quod si aliquis bigamus ad ordines accedat, characterem recipit; et
+            ideo Papa potest dispensare in tali irregularitate totaliter, sed episcopus quantum ad
+            minores ordines. Et quidam dicunt, quod etiam quantum ad majores in illis qui volunt Deo
+            in religione servire, propter vitandum religiosorum discursum.</p>
+          <p xml:id="ta-l4d27q3-d1e327">Ad primum ergo dicendum, quod per illam decretalem ostenditur eadem esse difficultas
+            dispensandi in illis qui de facto cum pluribus contraxerunt, ac si de jure
+            contraxissent; non quod subtrahatur simpliciter potestas Papae in talibus.</p>
+          <p xml:id="ta-l4d27q3-d1e330">Ad secundum dicendum, quod hoc verum est quantum ad ea quae sunt de jure naturali, et
+            quantum ad ea quae sunt de necessitate sacramentorum et fidei; sed in aliis quae sunt de
+            institutione apostolorum, cum Ecclesia habeat nunc eamdem potestatem statuendi et
+            destruendi quam tunc habuit, potest per eum qui primatum in Ecclesia tenet,
+            dispensari.</p>
+          <p xml:id="ta-l4d27q3-d1e334">Ad tertium dicendum, quod non quaelibet significatio est de essentia sacramenti, sed
+            tantum illa quae pertinet ad officium sacramenti; et talis non tollitur per
+            irregularitatem.</p>
+          <p xml:id="ta-l4d27q3-d1e337">Ad quartum dicendum, quod in particularibus non potest inveniri ratio quae omnibus
+            competat aequaliter, propter eorum diversitatem; et ideo quod universaliter statutum est
+            rationabiliter consideratis istis quae in pluribus accidunt, potest etiam per
+            dispensationem rationabiliter removeri in aliquo casu determinato.</p>
+        </div>
+        <div xml:id="ta-l4d27q3-Dd1e342">
+          <head xml:id="ta-l4d27q3-Hd1e344">Expositio textus</head>
+          <p xml:id="ta-l4d27q3-d1e347"><quote xml:id="ta-l4d27q3-Qd1e348">Si autem verbis exprimant quod tamen corde non volunt, si non sit coactio ibi
+              vel dolus; obligatio illa verborum (...) matrimonium facit</quote>. Et loquitur hic
+            Magister quantum ad forum exterius Ecclesiae, in quo secundum ea quae apparent,
+            judicatur; et accipitur dolus non latens in corde, sed aliquo modo per signa exteriora
+            expressus, ut cum se alio nomine vocat. Sed quantum ad forum conscientiae non est verum
+            quod Magister hic dicit. <quote xml:id="ta-l4d27q3-Qd1e351">Eremi solitudinem elegit</quote> et cetera. Eremitae
+            etiam quamvis obedientiam non promittant, tamen votum continentiae habent annexum, et ex
+            more secundum determinatum tempus eorum votum solemnizatur. <quote xml:id="ta-l4d27q3-Qd1e354">Etiam si jam
+              tonsuratus est</quote>. Non tamen tenetur tonsuram et habitum religionis deferre: quia
+            vel non fuit vera professio ejus, si contradicente uxore votum emisit; vel si ea non
+            contradicente, et tamen in saeculo remanente, votum professionis emisit; quamvis fuerit
+            verum votum, suspenditur tamen ad tempus vivente uxore inquantum fuit in praejudicium
+            ejus. Unde post mortem uxoris tenetur ad religionem redire, nec potest aliam ducere.
+            Interim tamen non tenetur habitum deferre, vel tonsuram, tum propter vituperium uxoris,
+            tum propter scandalum vitandum. <quote xml:id="ta-l4d27q3-Qd1e357">Cui copulatus in conjugio ulterius ad sacros
+              ordines non accederet</quote>. Magister et Pelagius loquuntur secundum rigorem juris;
+            unde hodie secundum jura nova non tenetur; quia non est aliquod obstaculum ex parte
+            sacramenti, ut prius dictum est.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

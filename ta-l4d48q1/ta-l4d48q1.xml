@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 48, Quaestio 1</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Librum IV, Distinctio 48, Quaestio 1</title>
+          <date when="2016-03-19">March 19, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-19">March 19, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness>1856 editum</witness>
+          <witness xml:id="G" n="ghent567">Ghent, Belgium, Ghent University Library, 567</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="0.0.0-dev">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+
+
+
+
+      <div xml:id="starts-on">
+        <cb ed="#G" n="686a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ta-l4d48q1">
+        <head xml:id="ta-l4d48q1-Hd1e97">Librum IV, Distinctio 48, Quaestio 1</head>
+        <head xml:id="ta-l4d48q1-Hd1e100">Distinctio 48</head>
+        <div xml:id="ta-l4d48q1-Dd1e103">
+          <head xml:id="ta-l4d48q1-Hd1e105">Prooemium</head>
+          <p xml:id="ta-l4d48q1-d1e108">Postquam determinavit Magister de divino judicio quantum ad modum judicii et ad
+            ministros judicis, hic determinat ea quae pertinent ad personam judicis; et dividitur in
+            partes duas: in prima enim parte ostendit in qua forma Christus ad judicium veniens
+            apparebit; in secunda determinat de his quae judicium circumstant, ibi: <quote xml:id="ta-l4d48q1-Qd1e110">et putant
+              quidam, dominum descensurum in vallem Josaphat in judicio</quote>. Prima pars
+            dividitur in duas: in prima ostendit quod Christus judicabit in forma hominis; in
+            secunda inducit similitudinem, scilicet quod Christus secundum quod est homo, est causa
+            resurrectionis corporum, ibi: <quote xml:id="ta-l4d48q1-Qd1e113">et sicut dicitur Christus secundum formam servi
+              judicaturus propter causam praemissam; ita etiam dicitur suscitaturus corpora
+              mortuorum secundum humanitatem</quote>. Prima pars dividitur in duas: in prima
+            determinat quod Christus in forma hominis judicabit; in secunda quod in forma hominis
+            gloriosa, ibi: <quote xml:id="ta-l4d48q1-Qd1e116">sed cum in forma humana constet eum appariturum, quaeritur</quote>
+            et cetera. <quote xml:id="ta-l4d48q1-Qd1e119">Et putant quidam dominum descensurum in vallem Josaphat in
+              judicio</quote>. Hic determinat ea quae adventum judicis circumstant; et circa hoc duo
+            facit: primo determinat ea quae concomitantur judicis adventum; secundo ea quae
+            consequuntur, ibi: <quote xml:id="ta-l4d48q1-Qd1e122">cum autem factum fuerit caelum novum et terra nova, tunc erit
+              lux lunae sicut lux solis</quote>. Circa primum duo facit: primo enim determinat locum
+            adventus; secundo effectum judicis venientis, ibi: <quote xml:id="ta-l4d48q1-Qd1e126">veniente autem ad judicium
+              domino (...) sol et luna dicuntur obscurari</quote>. Hic est duplex quaestio. Prima
+            est de ipso judice. Secunda de mundi innovatione, quae judicium sequitur. Circa primum
+            quaeruntur quatuor: 1 utrum Christus in forma hominis sit judicaturus; 2 utrum in
+            judicio apparebit in figura gloriosa; 3 utrum possit apparere in natura divinitatis
+            aliquibus sine gaudio; 4 de his quae adventum judicis circumstant.</p>
+
+        </div>
+        <div xml:id="ta-l4d48q1-Dd1e131" type="articulus">
+          <head xml:id="ta-l4d48q1-Hd1e133">Articulus 1</head>
+
+          <head xml:id="ta-l4d48q1-Hd1e136" type="questionTitle">Utrum Christus in forma servi sit judicaturus</head>
+
+          <p xml:id="ta-l4d48q1-d1e139">Ad primum sic proceditur. Videtur quod Christus in forma servi non sit judicaturus.
+            Judicium enim auctoritatem requirit in judicante. Sed auctoritas super vivos et mortuos
+            est in Christo secundum quod est Deus: sic enim est dominus et creator omnium. Ergo in
+            forma divinitatis judicabit.</p>
+          <p xml:id="ta-l4d48q1-d1e142">Praeterea, in judice requiritur potestas invincibilis; unde Eccli. 7, 6: <quote xml:id="ta-l4d48q1-Qd1e144">noli
+              quaerere fieri judex, nisi valeas virtute irrumpere iniquitates</quote>. Sed virtus
+            invincibilis convenit Christo secundum quod est Deus. Ergo in forma divinitatis
+            judicabit.</p>
+          <p xml:id="ta-l4d48q1-d1e148">Praeterea, Joan. 5, 22, dicitur: <quote xml:id="ta-l4d48q1-Qd1e150">pater omne judicium dedit filio, ut omnes
+              honorificent filium sicut honorificant patrem</quote>. Sed honor aequalis non debetur
+            patri et filio secundum humanam naturam. Ergo non judicabit secundum formam humanam.</p>
+          <p xml:id="ta-l4d48q1-d1e155">Praeterea, Daniel. 7, 9, dicitur: <quote xml:id="ta-l4d48q1-Qd1e157">aspiciebam donec throni positi sunt, et
+              antiquus dierum sedit</quote>. Throni autem judiciariam potestatem designant;
+            antiquitas autem de Deo dicitur ratione aeternitatis; ut dicit Dionysius in Lib. de Div.
+            Nom. Ergo secundum hoc judicare convenit filio prout est aeternus; non ergo secundum
+            quod homo.</p>
+          <p xml:id="ta-l4d48q1-d1e161">Praeterea, Augustinus dicit, et habetur in littera, quod per verbum filii Dei fit
+            animarum resurrectio. Sed judicium illud finale magis pertinet ad animam quam ad carnem.
+            Ergo magis convenit judicare Christo secundum quod est Deus, quam inquantum est
+            homo.</p>
+          <p xml:id="ta-l4d48q1-d1e164">Sed contra, Joan. 5, 27, dicitur: <quote xml:id="ta-l4d48q1-Qd1e166">potestatem dedit ei judicium facere, quia
+              filius hominis est</quote>.</p>
+          <p xml:id="ta-l4d48q1-d1e170">Praeterea, Job 36, 17, dicitur: <quote xml:id="ta-l4d48q1-Qd1e172">causa tua quasi impii judicata est</quote>;
+            Glossa, <quote xml:id="ta-l4d48q1-Qd1e175">a Pilato</quote>: ideo <quote xml:id="ta-l4d48q1-Qd1e178">judicium causamque recipies</quote>;
+            Glossa, <quote xml:id="ta-l4d48q1-Qd1e181">ut juste judices</quote>. Sed Christus secundum humanam naturam judicatus
+            est a Pilato. Ergo secundum humanam naturam judicabit.</p>
+          <p xml:id="ta-l4d48q1-d1e185">Praeterea, ejus est judicare cujus est legem condere. Sed Christus in humana natura
+            apparens nobis legem Evangelii dedit. Ergo et secundum eamdem naturam judicabit.</p>
+          <p xml:id="ta-l4d48q1-d1e188">Respondeo dicendum, quod judicium aliquod dominium in judicando requirit; unde Rom. 14,
+            4: <quote xml:id="ta-l4d48q1-Qd1e190">tu quis es qui judicas alienum servum?</quote> Et ideo secundum hoc Christo
+            competit judicare quod dominium super homines habet, de quibus principaliter erit finale
+            judicium. Ipse autem est noster dominus non solum ratione creationis, quia
+              <quote xml:id="ta-l4d48q1-Qd1e193">dominus ipse est Deus, ipse fecit nos, et non ipsi nos</quote>, Psalm. 99, 3;
+            sed etiam ratione redemptionis, quod ei competit secundum humanam naturam; unde Rom. 14,
+            9: <quote xml:id="ta-l4d48q1-Qd1e196">in hoc Christus mortuus est et resurrexit, ut et vivorum et mortuorum
+              dominetur</quote>. Ad praemium autem vitae aeternae nobis creationis bona non
+            sufficerent, nisi redemptionis beneficium adderetur, propter impedimentum quod naturae
+            creatae supervenit ex peccato primi parentis. Unde cum judicium illud finale ad hoc
+            ordinetur ut aliqui admittantur ad regnum, conveniens est ut ipse Christus secundum
+            humanam naturam, cujus redemptionis beneficio ad regnum admittimur, illi judicio
+            praesideat; et hoc est quod dicitur Act. 10, 42, quod <quote xml:id="ta-l4d48q1-Qd1e199">constitutus est a Deo judex
+              vivorum et mortuorum</quote>. Et quia per redemptionem humani generis non solum
+            homines reparavit, sed etiam universaliter totam creaturam; secundum quod tota creatura
+            reparato homine melioratur, ut habetur Coloss. 1, 20: <quote xml:id="ta-l4d48q1-Qd1e202">pacificans per sanguinem
+              crucis ejus sive quae in terris sive quae in caelis sunt</quote>; ideo non solum super
+            homines, sed super universam creaturam Christus per suam passionem dominium promeruit,
+            et judiciariam potestatem. Matth. ult., 10: <quote xml:id="ta-l4d48q1-Qd1e206">data est mihi omnis potestas in caelo
+              et in terra</quote>.</p>
+          <p xml:id="ta-l4d48q1-d1e211">Ad primum ergo dicendum, quod in Christo secundum divinam naturam est auctoritas
+            dominii respectu universalis creaturae ex jure creationis; sed in ipso est auctoritas
+            dominii quam per passionem promeruit, et est quasi auctoritas secundaria et acquisita;
+            sed prima est naturalis et aeterna.</p>
+          <p xml:id="ta-l4d48q1-d1e214">Ad secundum dicendum, quod quamvis Christus secundum quod homo non habeat a se
+            invincibilem potestatem ex naturali virtute humanae speciei; tamen ex dono divinitatis
+            etiam in humana natura habet invincibilem potestatem, secundum quod omnia sunt subjecta
+            pedibus ejus, ut dicitur 1 Corinth. 12; et ideo judicabit quidem in humana natura, sed
+            ex virtute divinitatis.</p>
+          <p xml:id="ta-l4d48q1-d1e217">Ad tertium dicendum, quod Christus non suffecisset ad humani generis redemptionem, si
+            purus homo fuisset; et ideo ex hoc quod secundum humanam naturam genus humanum redimere
+            potuit, ac per hoc judiciariam potestatem consecutus est, manifeste ostenditur quod ipse
+            est Deus, et ita aequaliter honorandus cum patre, non inquantum homo, sed inquantum
+            Deus.</p>
+          <p xml:id="ta-l4d48q1-d1e220">Ad quartum dicendum, quod in illa visione Danielis manifeste exprimitur totus ordo
+            judiciariae potestatis; quae quidem sicut in prima origine est in ipso Deo; et
+            specialius in patre, qui est fons totius divinitatis; et ideo primo praemittitur quod
+              <quote xml:id="ta-l4d48q1-Qd1e222">antiquus dierum sedit</quote>. Sed a patre judiciaria potestas traducta est in
+            filium non solum ab aeterno secundum divinam naturam, sed etiam in tempore secundum
+            humanam, in qua meruit; et ideo subjungitur in visione praedicta: <quote xml:id="ta-l4d48q1-Qd1e225">ecce cum
+              nubibus caeli quasi filius hominis veniebat, et usque ad antiquum dierum pervenit; et
+              dedit ei potestatem et honorem et regnum</quote>.</p>
+          <p xml:id="ta-l4d48q1-d1e229">Ad quintum dicendum, quod Augustinus loquitur per appropriationem quamdam, ut videlicet
+            reducat effectus quos Christus in humana natura fecit, ad causas aliquo modo consimiles.
+            Et quia secundum animam sumus ad imaginem et similitudinem Dei, secundum carnem autem
+            sumus ejusdem speciei cum homine Christo; ideo ea quae in animabus nostris Christus
+            fecit, divinitati attribuit; quae vero in carne nostra facit, vel facturus est,
+            attribuit carni ejus: quamvis caro ejus inquantum est divinitatis organum, ut dicit
+            Damascenus habeat etiam effectum in animabus nostris, secundum illud quod dicitur Hebr.
+            9, 14, quod <quote xml:id="ta-l4d48q1-Qd1e231">sanguis ejus emundabit conscientias nostras; ab operibus
+              mortuis</quote>; et sic etiam verbum caro factum, est causa resurrectionis animarum.
+            Unde etiam secundum humanam naturam convenienter est judex non solum corporalium, sed
+            spiritualium bonorum.</p>
+
+        </div>
+        <div xml:id="ta-l4d48q1-Dd1e236" type="articulus">
+          <head xml:id="ta-l4d48q1-Hd1e238">Articulus 2</head>
+
+          <head xml:id="ta-l4d48q1-Hd1e241" type="questionTitle">Utrum Christus in judicio apparebit in forma humanitatis
+            gloriosa</head>
+
+          <p xml:id="ta-l4d48q1-d1e244">Ad secundum sic proceditur. Videtur quod Christus in judicio non apparebit in forma
+            humanitatis gloriosa. Joan. 19, 37: <quote xml:id="ta-l4d48q1-Qd1e246">videbunt in quem transfixerunt</quote>;
+            Glossa: <quote xml:id="ta-l4d48q1-Qd1e249">quia in ea carne venturus est in qua crucifixus est</quote>. Sed
+            crucifixus est in forma infirma. Ergo in forma infirmitatis apparebit, non in forma
+            gloriosa.</p>
+          <p xml:id="ta-l4d48q1-d1e253">Praeterea, Matth. 24, 30, dicitur, quod <quote xml:id="ta-l4d48q1-Qd1e255" ana="#mt24_30">apparebit signum filii hominis in
+              caelo</quote>, idest signum crucis; et Chrysostomus dicit, quod veniet in judicio
+            Christus, non solum vulnerum cicatrices, sed etiam ipsam mortem exprobratissimam
+            ostendens. Ergo videtur quod non apparebit in forma gloriosa.</p>
+          <p xml:id="ta-l4d48q1-d1e259">Praeterea, secundum hanc formam Deus in judicio apparebit quae ab omnibus conspici
+            possit. Sed Christus secundum formam humanitatis gloriosam non poterit videri ab
+            omnibus, bonis et malis; quia oculus non glorificatus non videtur esse proportionatus ad
+            videndum claritatem corporis gloriosi. Ergo non apparebit in forma gloriosa.</p>
+          <p xml:id="ta-l4d48q1-d1e263">Praeterea, illud quod promittitur justis in praemium, non conceditur injustis. Sed
+            videre gloriam humanitatis promittitur justis in praemium. Joan. 10, 9:
+              <quote xml:id="ta-l4d48q1-Qd1e265">ingredietur et egredietur, et pascua inveniet</quote>, idest refectionem et in
+            divinitate et in humanitate, ut Augustinus exponit; et Isa. 33, 17: <quote xml:id="ta-l4d48q1-Qd1e268">regem in
+              decore suo videbunt</quote>. Ergo in judicio non apparebit omnibus in forma
+            gloriosa.</p>
+          <p xml:id="ta-l4d48q1-d1e272">Praeterea, secundum illam formam Christus judicabit in qua judicatus est; unde super
+            illud Joan. 5: <quote xml:id="ta-l4d48q1-Qd1e274">sic et filius, quos vult, vivificat</quote>, dicit Glossa:
+              <quote xml:id="ta-l4d48q1-Qd1e277">in qua forma injuste judicatus est, juste judicabit, ut possit ab impiis
+              videri</quote>. Sed judicatus est in forma infirmitatis. Ergo et in eadem in judicio
+            apparebit.</p>
+          <p xml:id="ta-l4d48q1-d1e281">Sed contra est quod dicitur Luc. 21, 27: <quote xml:id="ta-l4d48q1-Qd1e283">tunc videbunt filium hominis venientem
+              in nube cum potestate magna et majestate</quote>. Majestas autem et potestas ad
+            gloriam pertinent. Ergo in forma gloriosa apparebit.</p>
+          <p xml:id="ta-l4d48q1-d1e287">Praeterea, ille qui judicat, debet eminere illis qui judicantur. Sed electi qui
+            judicabuntur a Christo, corpora gloriosa habebunt. Ergo multo fortius judex in forma
+            gloriosa apparebit.</p>
+          <p xml:id="ta-l4d48q1-d1e290">Praeterea, sicut judicari est infirmitatis, ita judicare est auctoritatis et gloriae.
+            Sed in primo adventu, in quo Christus venit ad hoc quod judicaretur, in forma
+            infirmitatis apparuit. Ergo in secundo adventu in quo veniet ad hoc ut judicet,
+            apparebit in forma gloriosa.</p>
+          <p xml:id="ta-l4d48q1-d1e293">Respondeo dicendum quod Christus dicitur Dei et hominum mediator, inquantum pro
+            hominibus satisfacit, et interpellat apud patrem, et ea quae sunt patris hominibus
+            communicat, secundum quod dicitur Joan. 17, 22: <quote xml:id="ta-l4d48q1-Qd1e295">claritatem quam dedisti mihi,
+              dedi eis</quote>. Secundum hoc autem utrumque convenit ei quod cum utroque communicat
+            extremorum. Inquantum enim cum hominibus communicat, vices hominum gerit apud patrem;
+            inquantum vero cum patre communicat, dona patris transmittit ad homines. Quia ergo in
+            primo adventu ad hoc venit ut pro nobis satisfaceret apud patrem, in forma nostrae
+            infirmitatis apparuit: quia vero in secundo adventu ad hoc veniet ut justitiam patris in
+            homines exequatur, gloriam demonstrare debebit, quae inest ei ex communione ad patrem:
+            et ideo in forma gloriosa apparebit.</p>
+          <p xml:id="ta-l4d48q1-d1e300">Ad primum ergo dicendum, quod in eadem carne apparebit, sed non similiter se
+            habente.</p>
+          <p xml:id="ta-l4d48q1-d1e303">Ad secundum dicendum, quod signum crucis apparebit in judicio non ad judicium tunc
+            existentis infirmitatis, sed praeteritae, ut per hoc justior eorum condemnatio appareat
+            qui tantam misericordiam neglexerunt, et eorum praecipue qui Christum injuste persecuti
+            sunt. Cicatrices autem quae in ejus corpore apparebunt, non pertinebunt ad aliquam
+            infirmitatem, sed erunt indicia maximae virtutis, qua Christus per passionis
+            infirmitatem de hostibus triumphavit. Exprobratissimam etiam mortem ostendet, non
+            sensibiliter oculis eam ingerens, ac si tunc eam pateretur; sed ex his quae apparebunt,
+            scilicet indiciis praeteritae passionis, homines in recognitionem praeteritae mortis
+            adducet.</p>
+          <p xml:id="ta-l4d48q1-d1e306">Ad tertium dicendum, quod corpus gloriosum habet in potestate sua ut se demonstret vel
+            non demonstret oculo non glorioso, ut patet ex iis quae supra, 44 dist., quaest. 2, art.
+            4, dicta sunt; et ideo in forma gloriosa Christus ab hominibus poterit videri.</p>
+          <p xml:id="ta-l4d48q1-d1e309">Ad quartum dicendum, quod sicut amici gloria est delectabilis; ita gloria et potestas
+            ejus qui odio habetur, maxime contristat; et ideo sicut visio gloriae humanitatis
+            Christi erit justis in praemium, ita inimicis Christi erit in supplicium; unde Isa. 26,
+            2: <quote xml:id="ta-l4d48q1-Qd1e311">videant et confundantur zelantes populi et ignis</quote>, scilicet invidiae,
+              <quote xml:id="ta-l4d48q1-Qd1e314">hostes tuos devoret</quote>.</p>
+          <p xml:id="ta-l4d48q1-d1e318">Ad quintum dicendum, quod forma ibi accipitur pro natura humana, in qua judicatus est,
+            et etiam judicabit; non autem pro qualitate naturae, quae non erit eadem in judicante,
+            scilicet infirma, quae in judicato fuit.</p>
+
+        </div>
+        <div xml:id="ta-l4d48q1-Dd1e323" type="articulus">
+          <head xml:id="ta-l4d48q1-Hd1e325">Articulus 3</head>
+
+          <head xml:id="ta-l4d48q1-Hd1e328" type="questionTitle">Utrum divinitas a malis sine gaudio videri possit</head>
+
+          <p xml:id="ta-l4d48q1-d1e331">Ad tertium sic proceditur. Videtur quod divinitas a malis sine gaudio possit videri.
+            Constat enim quod impii manifestissime cognoscent Christum esse Deum. Ergo divinitatem
+            ejus videbunt; et tamen de visione Christi non gaudebunt. Ergo divinitas sine gaudio
+            videri potest.</p>
+          <p xml:id="ta-l4d48q1-d1e334">Praeterea, voluntas impiorum perversa non magis adversatur humanitati Christi quam ejus
+            divinitati. Sed hoc quod videbunt gloriam humanitatis, cedet eis in poenam, ut dictum
+            est. Ergo multo fortius, si divinitatem viderent, magis tristarentur quam gauderent.</p>
+          <p xml:id="ta-l4d48q1-d1e337">Praeterea, quae sunt in affectu, non de necessitate sequuntur ad ea quae sunt in
+            intellectu; unde Augustinus dicit: <quote xml:id="ta-l4d48q1-Qd1e339">praecedit intellectus, et sequitur tardus aut
+              nullus affectus</quote>. Sed visio ad intellectum pertinet, gaudium autem ad affectum.
+            Ergo poterit esse divinitatis visio sine gaudio.</p>
+          <p xml:id="ta-l4d48q1-d1e344">Praeterea, omne quod recipitur in aliquo, recipitur per modum recipientis, et non per
+            modum recepti. Sed omne quod videtur, quodammodo in vidente recipitur. Ergo quamvis
+            divinitas in se sit delectabilissima, tamen visa ab illis qui sunt tristitia absorpti,
+            non delectabit, sed magis contristabit.</p>
+          <p xml:id="ta-l4d48q1-d1e347">Praeterea, sicut se habet sensus ad sensibile, ita se habet intellectus ad
+            intelligibile. Sed ita est in sensibus, quod palato non sano poena est panis, qui sano
+            est suavis, ut dicit Augustinus; et similiter accidit in aliis sensibus. Ergo cum
+            damnati habeant intellectum indispositum, videtur quod visio lucis increatae magis
+            afferet eis poenam quam gaudium.</p>
+          <p xml:id="ta-l4d48q1-d1e350">Sed contra est quod dicitur Joan. 17, 3: <quote xml:id="ta-l4d48q1-Qd1e352">haec est vita aeterna, ut cognoscant te
+              verum Deum</quote>; ex quo patet quod essentia beatitudinis in Dei visione consistit.
+            Sed de ratione beatitudinis est gaudium. Ergo divinitas sine gaudio videri non
+            potest.</p>
+          <p xml:id="ta-l4d48q1-d1e356">Praeterea, essentia ipsa divinitatis est essentia veritatis. Sed unicuique est
+            delectabile videre verum; unde et homines natura scire desiderant, ut dicitur in
+            principio Metaph. Ergo divinitas sine gaudio videri non potest.</p>
+          <p xml:id="ta-l4d48q1-d1e359">Praeterea, si aliqua visio non semper est delectabilis, convenit eam quandoque esse
+            tristabilem. Sed visio intellectiva nunquam est contristabilis: quia delectationi quae
+            est in intelligendo, non opponitur aliqua tristitia, ut dicit philosophus. Cum ergo
+            divinitas non possit videri nisi per intellectum, videtur quod divinitas sine gaudio
+            videri non possit.</p>
+          <p xml:id="ta-l4d48q1-d1e362">Respondeo dicendum, quod in quolibet appetibili vel delectabili duo possunt
+            considerari; scilicet id quod appetitur vel est delectabile, et id quod est ratio
+            appetibilitatis vel delectabilitatis in ipso. Sicut autem, secundum Boetium in Lib. de
+            Hebdomad., <quote xml:id="ta-l4d48q1-Qd1e364">id quod est, habere aliquid praeter quam quod ipsum est, potest; ipsum
+              vero esse nihil aliud praeter se habet admixtum</quote>; ita id quod est appetibile
+            vel delectabile, potest habere aliquid admixtum, unde non sit delectabile vel
+            appetibile; sed id quod est ratio delectabilitatis, nihil habet admixtum vel habere
+            potest, propter quod non delectabilis sit vel appetibilis. Res igitur quae sunt
+            delectabiles per participationem bonitatis, quae est ratio appetibilitatis et
+            delectabilitatis, possunt apprehensae non delectare; sed id quod per essentiam suam est
+            bonitas, impossibile est quod ejus essentia apprehensa non delectet. Unde cum Deus
+            essentialiter sit ipsa bonitas, non potest divinitas sine gaudio videri.</p>
+          <p xml:id="ta-l4d48q1-d1e369">Ad primum ergo dicendum, quod impii manifeste cognoscent Christum esse Deum, non per
+            hoc quod divinitatem ejus videant, sed per manifestissima divinitatis indicia.</p>
+          <p xml:id="ta-l4d48q1-d1e372">Ad secundum dicendum, quod divinitatem, secundum quod est in se, nullus potest odio
+            habere, sicut nec aliquis potest odio habere ipsam bonitatem; sed quantum ad aliquos
+            divinitatis effectus dicitur ab aliquibus odio haberi, inquantum scilicet aliquid agit
+            vel praecipit quod est contrarium voluntati; et ideo visio divinitatis nulli potest esse
+            non delectabilis.</p>
+          <p xml:id="ta-l4d48q1-d1e375">Ad tertium dicendum, quod verbum Augustini est intelligendum quando id quod
+            apprehenditur per intellectum praecedentem, est bonum per participationem, et non per
+            essentiam, sicut sunt omnes creaturae; unde potest in eis esse aliquid quare affectus
+            non moveatur. Similiter etiam in via Deus cognoscitur per effectus, et intellectus non
+            attingit ad ipsam essentiam bonitatis ejus; unde non oportet quod affectus intellectum
+            sequatur, sicut sequeretur, si essentiam ejus videret, quae est ipsa bonitas.</p>
+          <p xml:id="ta-l4d48q1-d1e378">Ad quartum dicendum, quod tristitia non nominat dispositionem, sed magis passionem;
+            omnis autem passio a contraria causa fortiori superveniente tollitur, et non eam tollit;
+            et ideo tristitia damnatorum tolleretur, si Deum per essentiam viderent.</p>
+          <p xml:id="ta-l4d48q1-d1e381">Ad quintum dicendum, quod per indispositionem organi tollitur proportio naturalis
+            ipsius organi ad objectum quod natum est delectare; et propter hoc delectatio impeditur;
+            sed indispositio quae est in damnatis, non tollit naturalem proportionem qua sunt
+            ordinati ad divinam bonitatem, cum imago semper in eis maneat; et ideo non est
+            simile.</p>
+
+        </div>
+        <div xml:id="ta-l4d48q1-Dd1e385" type="articulus">
+          <head xml:id="ta-l4d48q1-Hd1e387">Articulus 4</head>
+
+          <head xml:id="ta-l4d48q1-Hd1e390" type="questionTitle">Utrum adventum domini ad judicium praecedent aliqua
+            signa</head>
+
+          <div xml:id="ta-l4d48q1-Dd1e393">
+            <head xml:id="ta-l4d48q1-Hd1e395">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d48q1-d1e398">Ad quartum sic proceditur. Videtur quod adventum domini ad judicium non praecedent
+              aliqua signa. Quia 1 Thess. 5, 3: <quote xml:id="ta-l4d48q1-Qd1e400">cum dixerint, pax et securitas, repentinus
+                eis superveniet interitus</quote>. Sed non esset pax et securitas, si homines per
+              signa praecedentia terrerentur. Ergo signa non praecedent illum adventum.</p>
+            <p xml:id="ta-l4d48q1-d1e404">Praeterea, signa ad manifestationem ordinantur. Sed adventus ejus debet esse
+              occultus; unde 1 Thess. 5, 2: <quote xml:id="ta-l4d48q1-Qd1e406">dies domini sicut fur in nocte ita
+              veniet</quote>. Ergo signa non debent ipsum praecedere.</p>
+            <p xml:id="ta-l4d48q1-d1e410">Praeterea, tempus primi adventus fuit praecognitum a prophetis: quod non est de
+              secundo adventu, ut supra dictum est. Sed primum adventum Christi non praecesserunt
+              aliqua hujusmodi signa. Ergo nec secundum praecedent.</p>
+            <p xml:id="ta-l4d48q1-d1e413">Sed contra est quod dicitur Lucae 21, 25: <quote xml:id="ta-l4d48q1-Qd1e415">erunt signa in sole et luna et
+                stellis</quote>.</p>
+            <p xml:id="ta-l4d48q1-d1e420">Praeterea, Hieronymus ponit quindecim signa praecedentia judicium, dicens, quod primo
+              die maria omnia exaltabuntur quindecim cubitis super montes. Secundo omnia aequora
+              prosternentur in profundum, ita ut vix videri poterunt. Tertio redigentur in antiquum
+              statum. Quarto belluae omnes, et aliae quae moventur in aquis, congregabuntur, et
+              levabuntur super pelagus more contentionis invicem mugientes. Quinto omnia volatilia
+              caeli congregabuntur in campis, invicem plorantes, non gustantes neque bibentes. Sexto
+              flumina ignea surgent ab occasu solis contra faciem firmamenti usque ad ortum
+              corruentia. Septimo omnia sidera errantia et fixa spargent ex se igneas comas, sicut
+              cometae. Octavo erit magnus terraemotus, et omnia animalia prosternentur. Nono omnes
+              lapides tam magni quam parvi dividentur in quatuor partes, unaquaque aliam collidente.
+              Decimo omnes plantae sanguineum fluent rorem. Undecimo omnes montes et colles et
+              aedificia in pulverem redigentur. Duodecimo omnia animalia venient ad campos de silvis
+              et montibus rugientia et nihil gustantia. Tertiodecimo omnia sepulcra ab ortu solis
+              usque ad occasum patebunt cadaveribus ad resurgendum. Quartodecimo omnes homines de
+              habitaculis suis recedent non intelligentes neque loquentes, sed discurrentes.
+              Quintodecimo omnes morientur et resurgent cum mortuis longe ante defunctis.</p>
+
+          </div>
+          <div xml:id="ta-l4d48q1-Dd1e424">
+            <head xml:id="ta-l4d48q1-Hd1e426">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d48q1-d1e429">Ulterius. Videtur quod circa judicium, secundum rei veritatem sol et luna
+              obscurentur. Quia, ut dicit Rabanus super Matth., nihil prohibet intelligere tunc
+              temporis veraciter solem et lunam cum sideribus ceteris suo lumine privari, quomodo de
+              sole constat factum tempore dominicae passionis.</p>
+            <p xml:id="ta-l4d48q1-d1e432">Praeterea, lux corporum caelestium ad generationem inferiorum corporum ordinatur:
+              quia per eam influunt in haec inferiora, et non solum per motum, ut dicit Averroes in
+              Lib. de substantia orbis. Sed tunc generatio cessabit. Ergo nec lux in corporibus
+              caelestibus remanebit.</p>
+            <p xml:id="ta-l4d48q1-d1e435">Praeterea, inferiora corpora purgabuntur, ut quibusdam videtur, a qualitatibus quibus
+              agunt. Corpus autem caeleste non solum agit per motum, sed per lumen, ut dictum est.
+              Ergo sicut motus caeli cessabit, ita et lumen corporum caelestium.</p>
+            <p xml:id="ta-l4d48q1-d1e438">Sed contra est quod, secundum astrologos, sol et luna simul eclipsim pati non
+              possunt. Sed illa obscuratio solis et lunae simul esse dicitur, scilicet domino ad
+              judicium veniente. Ergo non est obscuratio secundum rei veritatem per modum eclipsis
+              naturalis.</p>
+            <p xml:id="ta-l4d48q1-d1e442">Praeterea, non congruit idem esse causam defectus alicujus rei, et augmentatio. Sed
+              veniente domino lux luminarium promittitur augenda; unde Isa. 30, 26: <quote xml:id="ta-l4d48q1-Qd1e444">erit lux
+                lunae sicut lux solis, et lux solis septempliciter</quote>. Ergo non est conveniens
+              quod veniente domino lux illorum corporum cesset.</p>
+
+          </div>
+          <div xml:id="ta-l4d48q1-Dd1e449">
+            <head xml:id="ta-l4d48q1-Hd1e451">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d48q1-d1e454">Ulterius. Videtur quod virtutes caelorum domino veniente non moveantur. Virtutes enim
+              caelorum dici non possunt nisi Angeli beati. Sed immutabilitas est de ratione
+              beatitudinis. Ergo moveri non poterunt.</p>
+            <p xml:id="ta-l4d48q1-d1e457">Praeterea, admirationis causa est ignorantia, ut patet in principio Metaph. Sed sicut
+              ab Angelis longe abest timor, ita et ignorantia; quia, ut dicit Gregorius, <quote xml:id="ta-l4d48q1-Qd1e459">quid
+                est quod non videant qui videntem omnia vident?</quote> Ergo non poterunt per
+              admirationem moveri, ut in littera dicitur.</p>
+            <p xml:id="ta-l4d48q1-d1e463">Praeterea, omnes Angeli astabunt divino judicio; unde Apocal. 7, 2: <quote xml:id="ta-l4d48q1-Qd1e465">et omnes
+                Angeli stabant in circuitu throni</quote>. Sed virtutes nominant unum specialem
+              ordinem in Angelis. Ergo non potius de eis dici debuit quod moveantur quam de aliis
+              Angelis.</p>
+            <p xml:id="ta-l4d48q1-d1e469">Sed contra est quod dicitur Job 26, 2: <quote xml:id="ta-l4d48q1-Qd1e471">columnae caeli pavent adventum
+                ejus</quote>. Sed columnae caeli non possunt intelligi nisi per virtutes caelorum.
+              Ergo virtutes commovebuntur.</p>
+            <p xml:id="ta-l4d48q1-d1e476">Praeterea, Matth. 24, 29, dicitur: <quote xml:id="ta-l4d48q1-Qd1e478" ana="#mt25_29">stellae cadent de caelo, et virtutes
+                caelorum movebuntur</quote>.</p>
+
+          </div>
+          <div xml:id="ta-l4d48q1-Dd1e484">
+            <head xml:id="ta-l4d48q1-Hd1e486">Quaestiuncula 4</head>
+            <p xml:id="ta-l4d48q1-d1e489">Ulterius. Videtur quod judicium non fiet in valle Josaphat, aut in loco circumstante.
+              Quia ad minus oportet omnes judicandos in terra stare, aut eos tantum levari in
+              nubibus quorum erit judicare. Sed tota terra promissionis capere non posset
+              multitudinem judicandorum. Ergo non potest esse quod circa vallem sit judicium.</p>
+            <p xml:id="ta-l4d48q1-d1e492">Praeterea, sicut supra dictum est, Christo in humanitate datum est judicium, ut juste
+              judicet, qui injuste judicatus est. Sed ipse injuste judicatus est in praetorio
+              Pilati, et sententiam injusti judicii in Golgotha suscepit. Ergo loca illa magis
+              determinari debent ad judicium.</p>
+            <p xml:id="ta-l4d48q1-d1e495">Praeterea, nubes fiunt ex resolutione vaporum. Sed tunc nulla erit evaporatio vel
+              resolutio. Ergo non poterit esse quod justi in nubibus obviam Christo in aera
+              rapiantur; et sic oportebit et bonos et malos esse in terra; et ita locus multo
+              amplior requireretur quam sit ista vallis.</p>
+            <p xml:id="ta-l4d48q1-d1e498">Sed contra est quod dicitur Joelis 3, 2: <quote xml:id="ta-l4d48q1-Qd1e500">congregabo omnes gentes, et deducam
+                eas in vallem Josaphat, et disceptabo ibi cum eis</quote>.</p>
+            <p xml:id="ta-l4d48q1-d1e505">Praeterea, actuum 1, 2, dicitur: <quote xml:id="ta-l4d48q1-Qd1e507">quemadmodum vidistis eum ascendentem in
+                caelum, ita veniet</quote>. Sed ipse ascendit de monte oliveti, qui praeeminet valli
+              Josaphat. Ergo et circa loca illa ad judicandum veniet.</p>
+          </div>
+          <div xml:id="ta-l4d48q1-Dd1e512">
+            <head xml:id="ta-l4d48q1-Hd1e514">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d48q1-d1e517">Respondeo dicendum ad primam quaestionem, quod, sicut supra dictum est, Christus ad
+              judicandum veniens, in forma gloriosa apparebit propter auctoritatem quae judici
+              debetur. Ad dignitatem autem judiciariae potestatis pertinet habere aliqua indicia
+              quae ad reverentiam et subjectionem inducant; et ideo adventum Christi ad judicium
+              venientis multa signa praecedent, ut corda hominum in subjectionem venturi judicis
+              adducantur, et ad judicium praeparentur hujusmodi signis commoniti. Quae autem sint
+              ista signa, de facili non potest sciri. Signa enim quae in Evangeliis leguntur, ut
+              Augustinus dicit, ad Hesychium de fine mundi, non solum pertinent ad adventum Christi
+              ad judicium, sed etiam ad tempus destructionis Hierusalem, et ad adventum Christi, quo
+              Christus continue Ecclesiam suam visitat; ita quod forte, si diligenter advertantur,
+              nullum eorum invenitur ad futurum adventum pertinere, ut ipse dicit; quia illa signa
+              quae in Evangeliis tanguntur, sicut pugnae et terrores et hujusmodi, a principio
+              humani generis fuerunt; nisi forte dicatur, quod tunc temporis magis invalescent; sed
+              secundum quam mensuram circumstantiae vicinum adventum denuntient, incertum est. Signa
+              vero quae Hieronymus ponit, non asserit, sed in annalibus Judaeorum se ea reperisse
+              scripta dicit: quae etiam valde parum verisimilitudinis habent.</p>
+            <p xml:id="ta-l4d48q1-d1e520">Ad primum ergo dicendum, quod secundum Augustinum in Lib. ad Hesychium praedicto,
+              circa finem mundi erit universalis persecutio malorum contra bonos; unde simul aliqui
+              timebunt, scilicet boni; et aliqui securi erunt, scilicet mali. Quod autem dixerunt:
+                <quote xml:id="ta-l4d48q1-Qd1e522">pax et securitas</quote>, ad malos referendum est, qui signa futuri judicii
+              parvipendent; ad bonos vero pertinet quod dicitur Luc. 21, 26: <quote xml:id="ta-l4d48q1-Qd1e525">arescentibus
+                hominibus prae timore</quote> et cetera. Vel potest dici, quod omnia illa signa quae
+              circa judicium erunt, infra tempus judicii computantur, ut sic dies judicii omnia illa
+              contineat. Unde quamvis ex signis apparentibus circa diem judicii homines terreantur,
+              ante tamen quam signa illa apparere incipiant, in pace et securitate se impii esse
+              credent, post mortem Antichristi non statim videntes mundum consummari, ut
+              existimabant.</p>
+            <p xml:id="ta-l4d48q1-d1e529">Ad secundum dicendum, quod dies domini dicitur sicut fur venire, quia ignoratur
+              determinatum tempus, quod per signa illa cognosci non poterit; quamvis etiam sub die
+              judicii comprehendi possint omnia illa manifestissima signa quae immediate praecedent
+              judicium, ut dictum est.</p>
+            <p xml:id="ta-l4d48q1-d1e532">Ad tertium dicendum, quod in primo adventu Christus venit occultus, quamvis
+              determinatum tempus esset prius praecognitum a prophetis; et ideo non oportebat
+              hujusmodi signa in primo adventu apparere, sicut apparebunt in secundo adventu, in quo
+              manifestus veniet, quamvis determinatum tempus sit occultum.</p>
+
+          </div>
+          <div xml:id="ta-l4d48q1-Dd1e536">
+            <head xml:id="ta-l4d48q1-Hd1e538">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d48q1-d1e541">Ad secundam quaestionem dicendum, quod si loquamur de sole et luna quantum ad ipsum
+              momentum adventus Christi, sic non est credibile quod obscurentur sui luminis
+              privatione; quia totus mundus innovabitur Christo veniente, et sanctis surgentibus, ut
+              dictum est. Si autem loquamur de eis secundum tempus propinquum ante judicium, sic
+              esse poterit quod sol et luna et alia caeli luminaria, sui luminis privatione
+              obscurabuntur vel diversis temporibus, vel simul, divina virtute faciente ad hominum
+              terrorem.</p>
+            <p xml:id="ta-l4d48q1-d1e544">Ad primum ergo dicendum, quod Rabanus loquitur quantum ad tempus judicii
+              praecedens.</p>
+            <p xml:id="ta-l4d48q1-d1e547">Ad secundum dicendum, quod lux est in corporibus caelestibus non solum ad causandum
+              generationem in istis inferioribus, sed etiam ad eorum perfectionem et decorem; unde
+              non oportet quod cessante generatione, lux corporum caelestium cesset, sed magis
+              augeatur.</p>
+            <p xml:id="ta-l4d48q1-d1e550">Ad tertium dicendum, quod non videtur esse probabile, ut dictum est, quod qualitates
+              elementares removeantur ab elementis, quamvis quidam hoc posuerint. Si tamen
+              removerentur, non est simile de eis et de luce, eo quod qualitates elementares habent
+              ad invicem contrarietatem, unde agunt corrumpendo; lux autem non est principium
+              actionis per viam contrarietatis, sed per viam principii regulantis contraria, et ad
+              concordiam reducentis. Nec est etiam simile de motu corporum caelestium: motus enim
+              est actus imperfecti; unde et tolli debet, quando tolletur imperfectio; quod de luce
+              non potest dici.</p>
+
+          </div>
+          <div xml:id="ta-l4d48q1-Dd1e554">
+            <head xml:id="ta-l4d48q1-Hd1e556">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d48q1-d1e559">Ad tertiam quaestionem dicendum, quod virtutes in Angelis dupliciter dicuntur, ut
+              patet per Dionysium. Quandoque enim nomen virtutum uni ordini appropriatur, qui
+              secundum ipsum est medius mediae hierarchiae; secundum vero Gregorium est supremus
+              infimae hierarchiae. Alio modo accipitur communiter pro omnibus caelestibus
+              spiritibus; et utroque modo potest accipi in proposito. In littera enim exponitur
+              prout accipitur secundo modo, scilicet pro omnibus Angelis; et tunc dicuntur moveri
+              propter admirationem novitatis quae in mundo erit, sicut in littera dicitur. Potest
+              etiam exponi prout virtutes est proprium nomen ordinis; et tunc ordo ille dicitur
+              moveri prae aliis ratione effectus: quia illi ordini secundum Gregorium attribuitur
+              miracula facere, quae maxime circa illud tempus fient; vel quia ordo ille, cum sit de
+              media hierarchia, secundum Dionysium, non habet potentiam limitatam, unde oportet quod
+              ejus ministerium sit circa causas universales; unde proprium officium virtutum esse
+              videtur corpora caelestia movere, quae sunt causa eorum quae in natura inferiori
+              aguntur; et hoc etiam ipsum nomen sonat, quia virtutes caelorum dicuntur. Tunc ergo
+              movebuntur, quia ab effectu cessabunt, ulterius corpora caelestia non moventes; sicut
+              nec Angeli qui sunt ad custodiam hominum deputati, ulterius custodiae officio
+              vacabunt.</p>
+            <p xml:id="ta-l4d48q1-d1e562">Ad primum ergo dicendum, quod mutatio illa non variat aliquid quod ad eorum statum
+              pertineat, sed refertur vel ad effectus eorum, qui immutari possunt sine eorum
+              mutatione, vel ad novam rerum considerationem, quam prius secundum species concreatas
+              videre non potuerant. Hanc autem vicissitudinem cogitationum ab eis beatitudo non
+              tollit; unde dicit Augustinus, quod Deus movet creaturam spiritualem per tempora.</p>
+            <p xml:id="ta-l4d48q1-d1e565">Ad secundum dicendum, quod admiratio solet esse de his quae nostram cognitionem
+              excedunt vel facultatem; et secundum hoc virtutes caelorum admirabuntur divinam
+              virtutem alia facientem, inquantum ab ejus imitatione et comprehensione deficiunt; per
+              quem modum dixit Agnes, quod ejus <quote xml:id="ta-l4d48q1-Qd1e567">pulchritudinem et sol et luna
+                mirantur</quote>; et sic non ponitur in Angelo ignorantia, sed tollitur Dei
+              comprehensio.</p>
+            <p xml:id="ta-l4d48q1-d1e571">Ad tertium patet responsio ex dictis.</p>
+
+          </div>
+          <div xml:id="ta-l4d48q1-Dd1e575">
+            <head xml:id="ta-l4d48q1-Hd1e577">Quaestiuncula 4</head>
+            <p xml:id="ta-l4d48q1-d1e580">Ad quartam quaestionem dicendum, quod qualiter illud judicium sit futurum, et quomodo
+              homines ad judicium conveniant, non potest multum per certitudinem sciri; tamen
+              probabiliter potest colligi ex Scripturis, quod circa locum montis oliveti descendet,
+              sicut et inde ascendit; ut idem esse ostendatur qui ascendit et qui descendit.</p>
+            <p xml:id="ta-l4d48q1-d1e583">Ad primum ergo dicendum, quod magna multitudo in parvo spatio comprehendi potest.
+              Sufficit autem ponere quantumcumque spatium circa locum illum ad capiendum
+              multitudinem judicandorum, dummodo ab illo spatio Christum videre possint, qui in aere
+              eminens, et maxima claritate refulgens, a longinquo inspici poterit.</p>
+            <p xml:id="ta-l4d48q1-d1e586">Ad secundum dicendum, quod quamvis Christus per hoc quod injuste judicatus est,
+              judiciariam potestatem meruerit, non tamen judicabit in forma infirmitatis, in qua
+              injuste judicatus est, sed in forma gloriosa, in qua ad patrem ascendit; unde locus
+              ascensionis magis competit judicio quam locus ubi condemnatus est.</p>
+            <p xml:id="ta-l4d48q1-d1e589">Ad tertium dicendum, quod nubes hic appellantur, ut quidam dicunt, quaedam densitates
+              lucis resplendentis a corporibus sanctorum, et non aliquae evaporationes ex terra et
+              aqua. Vel potest dici, quod nubes illae generabuntur divina virtute ad ostendendum
+              conformitatem in adventu ad judicium et ascensionem; ut qui ascendit in nube ad
+              judicium veniat. Nubes etiam propter refrigerium misericordiam indicant
+              judicantis.</p>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

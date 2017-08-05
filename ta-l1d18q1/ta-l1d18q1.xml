@@ -1,0 +1,2003 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 18, Quaestio 1</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.09-dev-master">
+          <title>Librum I, Distinctio 18, Quaestio 1</title>
+          <date when="2016-03-14">March 14, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-14">March 14, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p>1856 editum</p>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="2015.09">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <div xml:id="starts-on"> </div>
+    </front>
+    <body>
+      <div xml:id="ta-l1d18q1">
+        <head xml:id="ta-l1d18q1-Hd1e3490">Librum I, Distinctio 18, Quaestio 1</head>
+
+        <div xml:id="ta-l1d18q1-Dd1e3493">
+          <head xml:id="ta-l1d18q1-Hd1e3495">Prooemium</head>
+          <p xml:id="ta-l1d18q1-d1e3498">Postquam determinavit de temporali processione spiritus sancti, hic determinat nomen
+            quod sibi competit secundum rationem qua temporaliter procedit, scilicet donum.
+            Dividitur ergo in duas partes: in prima determinat de dono, secundum quod dicitur de
+            spiritu sancto per comparationem ad alia dona; in secunda determinat de hoc nomine donum
+            de spiritu sancto dicto, per comparationem ad hoc nomen datum, quod etiam de ipso
+            dicitur, ibi: <quote xml:id="ta-l1d18q1-Qd1e3500">praeterea diligenter considerandum est, cum spiritus sanctus
+              dicatur donum et datum, utrum eadem ratione utrumque nomen ei conveniat</quote>. Et
+            haec dividitur in duas: in prima inquirit, utrum eadem ratione spiritus sanctus dicatur
+            donum et datum, et objicitur ad utramque partem; in secunda determinat quaestionem, ibi:
+              <quote xml:id="ta-l1d18q1-Qd1e3503">ad quod dicimus quod spiritus sanctus et donum dicitur et datum</quote>. Et
+            haec dividitur in duas: in prima ostendit differentiam doni ad datum, secundum quod de
+            spiritu sancto dicuntur, quantum ad id quod in ipso dono est; in secunda, quantum ad id
+            cujus est donum, ibi: <quote xml:id="ta-l1d18q1-Qd1e3506">et secundum hoc quod sempiterne donum est, refertur ad
+              patrem et filium</quote>. In dono autem duo considerantur: scilicet relatio, vel
+            proprietas, secundum quam dicitur donum; et processio, ex qua secundum rationem
+            intelligendi consequitur talis ratio. Primo ergo assignat differentiam ex parte
+            relationis; secundo ex parte processionis, ibi: <quote xml:id="ta-l1d18q1-Qd1e3509">et notandum, quod sicut filius
+              nascendo accepit non tantum ut filius sit, sed omnino ut sit (...) ita et spiritus
+              sanctus a patre et filio procedendo accepit non tantum ut spiritus sanctus sit, vel
+              donum, sed etiam ut omnino sit</quote>. Prima in duas: primo ostendit quod donum
+            dicitur spiritus sanctus in eadem relatione vel notione, qua dicitur spiritus sanctus;
+            secundo movet quaestionem, et determinat eam, ibi: <quote xml:id="ta-l1d18q1-Qd1e3512">sed quaeritur, cui donabilis.
+              Et notandum</quote> et cetera. Hic assignat differentiam ex parte processionis, et
+            dividitur in tres: in prima ostendit differentiam: quia spiritus sanctus processione qua
+            donum est, habet essentiam divinam, non autem inquantum datum est; in secunda movet
+            quaestionem, et solvit eam, ibi: <quote xml:id="ta-l1d18q1-Qd1e3516">hic oritur quaestio</quote>; in tertia inducit
+            quamdam conclusionem, ibi: <quote xml:id="ta-l1d18q1-Qd1e3519">ex praedictis patet quod spiritus sanctus sempiterne
+              donum est et temporaliter datum</quote>, scilicet quod nomen doni convenit spiritui
+            sancto per processionem aeternam, et nomen dati secundum processionem temporalem.
+              <quote xml:id="ta-l1d18q1-Qd1e3522">Et secundum hoc quod sempiterne donum est refertur ad patrem et filium</quote>.
+            Hic ostendit differentiam quantum ad id cujus est donum, et dividitur in duas partes: in
+            prima assignat differentiam; in secunda movet duas quaestiones; primam ibi: <quote xml:id="ta-l1d18q1-Qd1e3525">hic
+              quaeritur, utrum filius, cum sit nobis datus, dicatur, vel possit dici noster</quote>;
+            quam solvit: secundam ibi: <quote xml:id="ta-l1d18q1-Qd1e3528">post haec quaeritur, utrum spiritus sanctus ad seipsum
+              referatur</quote>; cujus solutionem differt. Circa hanc partem quinque quaeruntur: 1
+            utrum donum sit essentiale, vel personale; 2 utrum sit proprium spiritus sancti; 3 utrum
+            per hoc donum omnia dona dentur; 4 utrum spiritus sanctus processione qua donum dicitur,
+            etiam Deus dicatur; 5 utrum possit dici donum nostrum.</p>
+        </div>
+        <div xml:id="ta-l1d18q1-Dd1e3533" type="articulus">
+          <head xml:id="ta-l1d18q1-Hd1e3535">Articulus 1</head>
+
+          <head xml:id="ta-l1d18q1-Hd1e3538" type="questionTitle">Utrum donum sit nomen essentiale</head>
+
+          <p xml:id="ta-l1d18q1-d1e3541">Ad primum sic proceditur. Videtur quod donum sit nomen essentiale. Omne enim nomen
+            connotans effectum in creatura, significat divinam essentiam, ut communiter dicitur. Sed
+            hoc nomen donum connotat effectum in creatura: dicitur enim spiritus sanctus donum,
+            inquantum est donabilis creaturae in aliquo effectu. Ergo est essentiale.</p>
+          <p xml:id="ta-l1d18q1-d1e3544">Praeterea, nullum nomen personale convenit essentiae; quia essentia nec genita est nec
+            gignens. Sed essentia divina dicitur donata esse filio a patre, ut dicitur Philippens.
+            2, 9: <quote xml:id="ta-l1d18q1-Qd1e3546">donavit illi nomen quod est super omne nomen</quote>: quod etiam accipitur
+            ex verbis Hilarii supra positis, 16 distinct., ult. cap. Ergo donum est nomen
+            essentiale.</p>
+          <p xml:id="ta-l1d18q1-d1e3550">Item, spiritui sancto convenit esse donum, inquantum procedit ut amor. Sed amor in
+            divinis etiam essentialiter dicitur, ut habetur ex verbis Augustini supra, distin. 10
+            positis. Ergo videtur quod et donum.</p>
+          <p xml:id="ta-l1d18q1-d1e3554">Praeterea, quidquid habetur ab aliquo, hoc dicitur esse datum vel donatum. Sed, non
+            intellecta distinctione personarum adhuc possemus habere Deum ad fructum, et non habemus
+            hoc a nobis. Ergo esset datum nobis. Quidquid autem intelligitur in divinis, exclusa per
+            intellectum distinctione personarum, est essentiale. Ergo donum est essentiale.</p>
+          <p xml:id="ta-l1d18q1-d1e3557">Contra, quidquid convenit alicui personae secundum rationem originis, non est
+            essentiale sed notionale. Donum autem dicitur spiritus sanctus, inquantum ab aeterno
+            procedit, ut dicitur in littera. Ergo non est essentiale, sed personale.</p>
+          <p xml:id="ta-l1d18q1-d1e3560">Respondeo dicendum, quod, sicut supra dictum est, dist. 15, quaest. 3, art. 1, dare vel
+            donare dicitur dupliciter. Uno modo illud quod habetur per modum dominii, ut possessio.
+            Alio modo illud quod habetur quasi intrinsecum sibi, sicut aliquis habet seipsum vel
+            materiam suam vel qualitatem. Quamvis autem in divinis personis non sit dominium unius
+            respectu alterius, tamen est ibi auctoritas principii. Dicendum igitur, quod datio
+            potest importare auctoritatem respectu dati; et sic donum vel datum est notionale.
+            Potest etiam non importare auctoritatem, sed tantum hoc quod id quod datur, libere
+            habeatur; et hoc modo ipsa essentia dicitur dari vel donari. Et secundum hoc, donum vel
+            datum non est personale, sed essentiale; tamen semper importat distinctionem dantis ad
+            eum cui datur, quamvis non ad id quod datur.</p>
+          <p xml:id="ta-l1d18q1-d1e3563">Ad primum igitur dicendum, quod nomen potest connotare effectum in creatura dupliciter:
+            vel secundum rationem principii tantum; et quia eadem est operatio totius Trinitatis,
+            oportet quod tale nomen commune sit toti Trinitati et ad essentiam pertinens; vel ita
+            quod cum ratione principii, respectu creaturae, etiam aliquid aliud importet: et tunc,
+            quamvis secundum respectum ad creaturam det intelligere essentiam ex consequenti, sicut
+            causa intelligitur in effectu; tamen secundum aliud quod significat potest ad personam
+            pertinere; sicut assumere carnem importat et operationem, quae communis est tribus
+            personis, et terminum operationis in quem terminata est assumptio, quod proprium est
+            personae filii; et ideo sibi soli convenit. Similiter dico, quod donum, praeter
+            respectum quem importat ad illud cui donabile est, importat respectum ad illum a quo
+            est, sicut a principio respectu ejus auctoritatem habente; et ex hac parte est
+            notionale.</p>
+          <p xml:id="ta-l1d18q1-d1e3566">Ad secundum dicendum, quod si dare importet auctoritatem respectu dati in dante, sic
+            essentia non dicitur dari, sed alio modo, ut dictum est, in corp. art.</p>
+          <p xml:id="ta-l1d18q1-d1e3569">Et per hoc patet responsio ad tertium; quia amor essentialis, quamvis sit habens
+            rationem primi doni, in quo alia dona dantur, tamen respectu ejus non potest denotari
+            auctoritas; et ideo ratione praedicta, amor non potest dici donari secundum quod
+            auctoritas importatur in donante respectu dati.</p>
+          <p xml:id="ta-l1d18q1-d1e3573">Et similiter etiam dicendum ad quartum; quia donum, in cujus ratione importatur
+            auctoritas, non remanet, non intellecta distinctione personarum.</p>
+        </div>
+        <div xml:id="ta-l1d18q1-Dd1e3577" type="articulus">
+          <head xml:id="ta-l1d18q1-Hd1e3579">Articulus 2</head>
+
+          <head xml:id="ta-l1d18q1-Hd1e3582" type="questionTitle">Utrum donum sit proprium spiritus sancti</head>
+
+          <p xml:id="ta-l1d18q1-d1e3585">Ad secundum sic proceditur. Videtur quod donum non sit proprium spiritus sancti.
+            Temporalis enim processio vel missio spiritus sancti dicitur ejus donatio. Sed filius
+            mittitur sicut spiritus sanctus, et habet aptitudinem ad missionem a processione aeterna
+            sicut spiritus sanctus, ut patet ex dictis, dist. 15, quaest. 4, art. 2. Ergo filius
+            potest dici donum sicut spiritus sanctus.</p>
+          <p xml:id="ta-l1d18q1-d1e3588">Praeterea, cum personae distinguantur per processiones aeternas, nomen proprium
+            personae potest designari in actu processionis; sicut filius designatur in generatione,
+            inquantum est filius. Sed nomen doni non designatur in processione aeterna: quia
+            secundum eam pater non dicitur donare donum, sicut dicitur generare filium. Ergo videtur
+            quod non sit proprium spiritus sancti.</p>
+          <p xml:id="ta-l1d18q1-d1e3591">Item, propria personarum dicunt tantum relationem, quia in absolutis divinae personae
+            non distinguuntur. Sed donum non dicit tantum relationem, immo aliquid aliud quod datur.
+            Ergo videtur quod non sit nomen proprium spiritus sancti.</p>
+          <p xml:id="ta-l1d18q1-d1e3595">Praeterea, spiritus sanctus non habet nisi unam notionem, quae est ejus processio. Sed
+            alio modo innotescit spiritus sanctus inquantum est donum, et inquantum est procedens.
+            Ergo videtur quod notio qua donum dicitur, non sit propria spiritus sancti, et ita nec
+            nomen doni.</p>
+          <p xml:id="ta-l1d18q1-d1e3598">In contrarium est quod dicit Augustinus, Lib. de Trinit., quia sicut in Trinitate solus
+            filius dicitur verbum, ita solus spiritus sanctus dicitur donum. Sed quod convenit soli
+            alicui personae, est proprium sibi. Ergo nomen doni proprium est spiritus sancti.</p>
+          <p xml:id="ta-l1d18q1-d1e3601">Respondeo dicendum, quod donum et datum differunt, ut in littera dicitur: et horum
+            differentia potest attendi quantum ad tria; scilicet quantum ad consignificationem.
+            Datum enim consignificat tempus, cum sit participium; donum autem non, cum sit nomen.
+            Inde est quod donum competit magis divinis, quae sine tempore sunt, quam datum: unde
+            donum potest esse aeternum, sed non datum. Item quantum ad significationem, quia donare
+            addit supra dare. Donum enim, ut dicit philosophus, est datio irreddibilis, non quae
+            recompensari non valeat, sed illa quae recompensationem non quaerit. Unde donum importat
+            liberalitatem in dante. Item quantum ad modum significandi: quia donum importat
+            aptitudinem ad dandum; datum autem importat dationem in actu. Aptitudo autem ad dandum
+            potest attendi dupliciter; vel ex parte ipsius dati, quasi passiva, sicut calefactibile
+            ad calefactionem aptitudinem importat: vel ex parte dantis quasi activa; et talis
+            aptitudo est secundum rationem qua aliquid datur liberaliter. Ratio autem omnis
+            liberalis collationis est amor: quod enim propter cupiditatem datur, vel propter
+            timorem, non liberali datione datur; sed talis datio magis dicitur quaestus vel
+            redemptio. Quia igitur spiritus sanctus est amor, ex ratione suae processionis habet in
+            se et quod detur, et quod sit ratio dandi: unde est donum per se, et primo; alia autem
+            quae dantur non sunt dona nisi secundum quod participant aliquid amoris, ut ex amore
+            data. Si igitur colligantur tres dictae rationes doni, adjuncta auctoritate dantis ad
+            donum, patet quod in Trinitate donum spiritui sancto convenit secundum suam processionem
+            aeternam, inquantum procedit ut amor, qui est ratio liberalis collationis. Unde sicut
+            amor est sibi proprium, ita donum.</p>
+          <p xml:id="ta-l1d18q1-d1e3604">Ad primum igitur dicendum, quod donum non importat missionem in actu, sed rationem
+            liberalis collationis vel dationis; quae quamvis sit idem re quod missio in divinis
+            personis, tamen differunt ratione. Unde quamvis filius detur vel mittatur, tamen ratio
+            liberalis dationis est amor, qui est spiritus sanctus: et ista ratio non pertinet ad
+            filium: unde non proprie potest dici donum, etsi dicatur datus.</p>
+          <p xml:id="ta-l1d18q1-d1e3607">Ad secundum dicendum, quod, sicut dictum est, distin. 13, quaest. unica, art. 3,
+            processio filii nominatur etiam quantum ad proprium suum modum, scilicet nomine suae
+            generationis; et ideo ex propria sua processione potest trahi sua proprietas, scilicet
+            filius. Sed processio spiritus sancti non habet nomen quantum ad modum suae processionis
+            proprium. Unde ex actu personali quo significatur procedere, non potest trahi ad
+            proprium pertinens ad modum processionis, secundum quod dicitur amor vel donum.</p>
+          <p xml:id="ta-l1d18q1-d1e3610">Ad tertium dicendum, quod hoc nomen donum vel datum, praeter relationem ex qua dicitur
+            donum vel datum, dat intelligere rem quamdam quae datur; quamvis forte non sicut partem
+            significationis nominis, quia subjectum non includitur in significatione nominis
+            significantis accidens concretive, ut dicit Commentator, quamvis Avicenna, contrarium
+            senserit. Sed ad rationem dati vel doni, nihil refert utrum illa res data sit in hoc
+            genere vel in illo: et secundum quod coarctatur donum conditionibus praedictis, oportet
+            quod res illa data relationem significet: quia donum, ut ratio dandi, est amor; nec amor
+            potest dari ut respectu cujus habeatur auctoritas nisi personalis quae ad aliquid
+            est.</p>
+          <p xml:id="ta-l1d18q1-d1e3614">Ad quartum dicendum, quod sicut est in essentialibus, quod una essentia communis est
+            bonitas et sapientia et omnia alia attributa, secundum diversas rationes; ita etiam in
+            personalibus: quia una proprietas vel notio secundum rem differt secundum diversas
+            rationes significandi in nomine; sicut proprietas verbi alio modo significatur dum
+            dicitur filius, et dum dicitur verbum. Ita etiam proprietas spiritus sancti potest
+            secundum diversas rationes diversis nominibus significari; et potest esse quod secundum
+            rationem intelligendi una illarum rationum consequatur ad aliam, sicut etiam est in
+            essentialibus attributis, quod voluntas praesupponit intellectum. Unde ratio doni
+            consequitur rationem amoris simili modo.</p>
+        </div>
+        <div xml:id="ta-l1d18q1-Dd1e3618" type="articulus">
+          <head xml:id="ta-l1d18q1-Hd1e3620">Articulus 3</head>
+
+          <head xml:id="ta-l1d18q1-Hd1e3623" type="questionTitle">Utrum per donum, quod spiritus sanctus est, dentur omnia
+            dona</head>
+
+          <p xml:id="ta-l1d18q1-d1e3626">Ad tertium sic proceditur. Videtur quod per donum, quod est spiritus sanctus, non
+            dentur omnia dona. Sicut enim dicit philosophus, alterationis non est alteratio: alias
+            in infinitum abiretur. Si ergo donum datur per donum, ibitur in infinitum; et hoc non
+            est ponere. Ergo videtur quod dona non dentur per aliud donum.</p>
+          <p xml:id="ta-l1d18q1-d1e3629">Praeterea, ut supra habitum est ex verbis Hilarii, ipsa essentia divina est data a
+            patre filio. Si igitur omne datum datur per spiritum sanctum, tunc essentia datur filio
+            per spiritum sanctum; et hoc est inconveniens, quia spiritus sanctus esset principium
+            filii. Ergo videtur quod per hoc donum non dentur omnia dona.</p>
+          <p xml:id="ta-l1d18q1-d1e3632">Item, filius est etiam datus nobis, Isaiae 9. Sed spiritus sanctus non habet aliquam
+            rationem principii respectu filii. Ergo videtur quod non omne datum detur per hoc
+            donum.</p>
+          <p xml:id="ta-l1d18q1-d1e3636">Praeterea, nihil datur per donum aliquod, nisi illud donum detur. Sed multa dantur
+            nobis a Deo, in quibus non datur spiritus sanctus, sicut data naturalia, et gratiae
+            gratis datae. Ergo videtur quod non omnia dona dentur per hoc donum.</p>
+          <p xml:id="ta-l1d18q1-d1e3639">Contra est quod in littera dicitur. Praeterea, illud quod est primum in quolibet
+            genere, est causa omnium quae sunt in genere illo ut habetur ex verbis philosophi. Sed
+            spiritus sanctus habet rationem primi doni, inquantum ipse est amor patris et filii.
+            Ergo videtur quod per hoc donum omnia dentur.</p>
+          <p xml:id="ta-l1d18q1-d1e3642">Respondeo dicendum, quod aliquid dicitur dari multipliciter: quandoque ex ipsa
+            proprietate naturae, secundum quod dicimus quod ignis dat calorem suum et sol
+            splendorem, et hujus dationis non est principium voluntas: quandoque ex voluntate, ut
+            principio dationis; et hoc contingit dupliciter; quandoque enim per dationem intenditur
+            aliqua utilitas ipsius dantis, vel quantum ad remotionem mali, sicut quando aliquid
+            datur ex timore, et talis datio dicitur redemptio; vel quantum ad acquisitionem alicujus
+            boni, et talis datio est proprie quaestus, vel venditio; quandoque autem non intenditur
+            utilitas aliqua in ipso dante, et haec datio dicitur liberalis, et proprie dicitur
+            donatio. Constat autem quod illa datio in qua intenditur utilitas dantis nunquam
+            competit Deo; unde ipsa singulariter dicitur liberalis, quia in omnibus aliis dantibus
+            intenditur aliqua utilitas in dante vel boni temporalis vel spiritualis. Unde nulla
+            datio est pure liberalis, ut dicit Avicenna, nisi Dei et operatio ipsius. Ratio autem
+            liberalis dationis est amor qui, secundum Dionysium, movet superiora ad provisionem
+            minus habentium. Et quia spiritus sanctus est amor, ideo ipse est ratio omnium eorum
+            datorum quorum principium est divina voluntas, sicut sunt omnia data creaturis.</p>
+          <p xml:id="ta-l1d18q1-d1e3645">Ad primum igitur dicendum, quod philosophus intendit dicere, quod alteratio non
+            terminatur ad alterationem, per se loquendo; non tamen intendit dicere, quod una
+            alteratio non possit esse causa alterius: et non ibitur in infinitum, quia erit devenire
+            ad primum donum quod datur per seipsum, et non per aliud donum spiritus sancti.</p>
+          <p xml:id="ta-l1d18q1-d1e3648">Ad secundum dicendum, quod datio illa qua pater dat essentiam filio est datio ex
+            proprietate naturae; unde ad illam dationem comparatur natura ut principium et non
+            voluntas, ut supra dictum est, dist. 15, quaest. 3, art. 1, et ideo talis datio non est
+            per spiritum sanctum.</p>
+          <p xml:id="ta-l1d18q1-d1e3651">Ad tertium dicendum, quod quamvis spiritus sanctus non sit principium filii, est tamen
+            principium effectus secundum quem filius dicitur dari vel mitti: et ideo etiam ipse
+            filius est datus per donum quod est spiritus sanctus, scilicet per amorem: unde dicitur
+            Joan. 3, 16: <quote xml:id="ta-l1d18q1-Qd1e3653">sic Deus dilexit mundum ut filium suum unigenitum daret</quote>.</p>
+          <p xml:id="ta-l1d18q1-d1e3658">Ad quartum dicendum, quod quamvis omnia dona et naturalia et gratuita, dentur nobis a
+            Deo per amorem, qui est primum donum, non tamen in omnibus donis datur ipse amor, sed
+            tantum in dono quod est similitudo illius amoris, scilicet in dono caritatis. Cum enim
+            dicitur, quod alia dona dantur per donum amoris, qui est spiritus sanctus, praepositio
+            per non notat causam ex parte recipientis, ut sit sensus: per hoc quod recipit donum
+            amoris, recipit alia dona: sed notat habitudinem causae ex parte dantis, qui per hoc
+            quod amat creaturam suam, omnia data dat.</p>
+        </div>
+        <div xml:id="ta-l1d18q1-Dd1e3663" type="articulus">
+          <head xml:id="ta-l1d18q1-Hd1e3665">Articulus 4</head>
+
+          <head xml:id="ta-l1d18q1-Hd1e3668" type="questionTitle">Utrum eadem processione spiritus sanctus habeat quod sit donum
+            et Deus</head>
+
+          <p xml:id="ta-l1d18q1-d1e3671">Ad quartum sic proceditur. Videtur quod non eadem processione spiritus sanctus habeat
+            quod sit Deus et quod sit donum. Non enim est eadem ratio communis et proprii. Sed donum
+            est proprium spiritui sancto. Deus autem est commune. Ergo non est idem donum et
+            Deus.</p>
+          <p xml:id="ta-l1d18q1-d1e3674">Praeterea, quidquid habet spiritus sanctus per processionem, secundum rationem
+            intelligendi consequitur ipsam processionem. Sed deitas non est consequens processionem:
+            quia non procedit neque per se neque per accidens, sicut etiam non generatur. Ergo
+            videtur quod spiritus sanctus non habet per processionem quod sit Deus.</p>
+          <p xml:id="ta-l1d18q1-d1e3677">Contra, spiritus sanctus non est Deus, nisi inquantum habet deitatem. Sed per
+            processionem recipit totam deitatem a patre. Ergo processione est Deus.</p>
+          <p xml:id="ta-l1d18q1-d1e3681">Respondeo dicendum, quod sicut in filio est significare proprietatem ejus per modum
+            relationis, ut cum dicitur filiatio, et per modum exitus vel emanationis, ut cum dicitur
+            generatio passive, vel nativitas; ita esset etiam in spiritu sancto, si nomina essent
+            posita; sed propter defectum nominum utimur eodem nomine ad significandum emanationem
+            ipsius, et proprietatem vel relationem, scilicet nomine processionis. Dico igitur, quod
+            processio potest dicere emanationem spiritus sancti, vel relationem sive proprietatem
+            ejus. Si relationem vel proprietatem, sic spiritus sanctus proprietate sua, formaliter
+            loquendo, est spiritus sanctus et donum et amor, non autem Deus, sicut nec filius
+            filiatione est Deus formaliter loquendo, sed filiatione est filius, et deitate Deus, et
+            sapientia sapiens. Si dicat emanationem, tunc potest dici, quod spiritus sanctus sua
+            processione est Deus et donum, sicut etiam filius sua nativitate est filius et Deus; sed
+            diversimode: quia deitas se habet ad generationem solum ut accepta per generationem; sed
+            filiatio, secundum rationem intelligendi, est consequens generationem. Et simili ratione
+            consequitur quod filius nascendo accipiat divinitatem; et non solum ita quod gerundium
+            importet concomitantiam, ut dicitur de aliquo: currendo est homo: sed importat ordinem
+            ad acceptum, ut sit sensus: filius nascendo accepit deitatem; idest, per nativitatem
+            accepit divinitatem. Et similiter est de processione spiritus sancti. Haec autem plenius
+            dicta sunt supra, dist. 10, quaest. unic. art. 1.</p>
+          <p xml:id="ta-l1d18q1-d1e3684">Ad primum igitur dicendum, quod non eodem modo formaliter secundum rationem spiritus
+            sanctus est Deus et donum; sed per eamdem emanationem habet utrumque: quia sicut filius
+            nihil habet nisi quod nascendo accepit, ita et spiritus sanctus nihil habet nisi quod
+            procedendo accepit.</p>
+          <p xml:id="ta-l1d18q1-d1e3687">Ad secundum dicendum, quod essentia divina non accepit novum esse in spiritu sancto per
+            processionem, cum unum et idem sit esse trium personarum; et ideo non procedit neque per
+            se neque per accidens; neque etiam processionem consequitur; sed hoc quod spiritus
+            sanctus habeat deitatem, convenit ei ex sua processione.</p>
+        </div>
+        <div xml:id="ta-l1d18q1-Dd1e3691" type="articulus">
+          <head xml:id="ta-l1d18q1-Hd1e3693">Articulus 5</head>
+
+          <head xml:id="ta-l1d18q1-Hd1e3696" type="questionTitle">Utrum spiritus sanctus possit dici donum nostrum</head>
+
+          <p xml:id="ta-l1d18q1-d1e3699">Ad quintum sic proceditur. Videtur quod spiritus sanctus possit dici donum nostrum.
+            Donum enim dicitur secundum respectum ad creaturam. Sed eis quae important respectum ad
+            creaturam, potest addi meum vel nostrum, ut creator noster. Ergo videtur quod spiritus
+            sanctus possit dici donum nostrum.</p>
+          <p xml:id="ta-l1d18q1-d1e3702">Item, sanctus nihil adimit de ratione hujus quod dicitur spiritus. Sed dicitur spiritus
+            noster, ut spiritus Eliae. Ergo videtur quod potest dici spiritus sanctus noster.</p>
+          <p xml:id="ta-l1d18q1-d1e3705">Item, sicut filius importat relationem aeternam, a qua imponitur, ita et pater. Sed
+            dicitur pater noster. Ergo etiam potest dici filius noster.</p>
+          <p xml:id="ta-l1d18q1-d1e3709">Praeterea, quidquid datur nobis, est nostrum. Sed filius datus est nobis. Ergo est
+            filius noster.</p>
+          <p xml:id="ta-l1d18q1-d1e3712">Praeterea, in Deo idem est deitas et Deus et sapientia et bonitas et omnia hujusmodi.
+            Sed dicitur Deus noster; ergo etiam potest dici Deus sapientia nostra vel essentia
+            nostra.</p>
+          <p xml:id="ta-l1d18q1-d1e3715">Sed e converso videtur quod non potest dici Deus noster. In pronomine enim nostrum vel
+            meum, importatur aliqua habitudo vel relatio creatoris ad creaturam. Sed Deus est nomen
+            absolutum et nomen naturae, ut dicit Ambrosius. Ergo videtur quod non potest dici Deus
+            noster.</p>
+          <p xml:id="ta-l1d18q1-d1e3718">Respondeo dicendum, quod Deus non potest habere aliquam relationem ad nos, nisi per
+            modum principii. Cum autem causae sint quatuor, ipse non est causa materialis nostra;
+            sed se habet ad nos in ratione efficientis et finis et formae exemplaris, non autem in
+            ratione formae inhaerentis. Considerandum est igitur in nominibus divinis, quod omnia
+            illa nomina quae important rationem principii per modum efficientis vel finis recipiunt
+            additionem dictorum pronominum, sicut dicimus: creator noster et bonum nostrum. Ea autem
+            quae dicuntur per modum formae inhaerentis, non recipiunt dictorum pronominum
+            additionem; et talia sunt nomina omnia divina, quae in abstracto significantur, quae
+            omnia significantur per modum formae, ut essentia, bonitas et hujusmodi. Unde in talibus
+            non potest fieri additio. Non enim possum dicere, quod Deus sit essentia nostra vel
+            substantia vel aliquid hujusmodi. Tamen in istis nominibus considerandus est quidam
+            ordo. Quia quaedam horum abstractorum important rationem principii efficientis et
+            exemplaris, ut sapientia et bonitas et hujusmodi, quando fit additio dictorum
+            pronominum, ut cum dicimus, Deus est sapientia nostra causaliter, per modum quo dicitur
+            spes nostra: quia per ejus sapientiam efficitur in nobis sapientia exemplata a sua
+            sapientia, per quam sapientes sumus formaliter. Quaedam autem non important rationem
+            principii, nisi forte exemplaris, et talibus non consuevit fieri dicta additio. Non enim
+            consuetum est dici, quod Deus sit essentia nostra, vel substantia nostra. Tamen etiam
+            quandoque istis nominibus fit talis additio propter habitudinem principii exemplaris:
+            sicut Dionysius dicit quod esse omnium est superesse deitatis; licet hujusmodi
+            locutiones magis sint exponendae quam extendendae.</p>
+          <p xml:id="ta-l1d18q1-d1e3721">Ad primum ergo dicendum, quod donum importat quamdam relationem in actu, scilicet ad
+            dantem, et quamdam solum in aptitudine, quantum est in ratione sui nominis, scilicet ad
+            eum cui datur; et ideo potest semper dici donum dantis; sed non est ejus cui datur, nisi
+            quando sibi est datum in actu; et propter hoc dicimus datum nostrum et non donum
+            nostrum.</p>
+          <p xml:id="ta-l1d18q1-d1e3724">Ad secundum dicendum, quod spiritus sanctus est quaedam circumlocutio inventa ad
+            exprimendum personam spiritus sancti: ipse autem, inquantum est persona subsistens, non
+            importat relationem principii, sed magis ejus qui est a principio; et ideo non potest
+            dici spiritus sanctus noster; sed spiritus importat rationem principii, inquantum a
+            spiritu est inspiratio, propter quod potest dici spiritus noster.</p>
+          <p xml:id="ta-l1d18q1-d1e3728">Ad tertium dicendum, quod pater importat rationem principii, filius autem non, sed
+            magis ejus quod est a principio; et ideo non potest dici filius noster, sicut dicitur
+            pater noster; quamvis etiam non dicatur pater noster, prout imponitur nomen a
+            paternitate aeterna: sic enim est pater solius filii naturalis.</p>
+          <p xml:id="ta-l1d18q1-d1e3731">Ad quartum dicendum, quod quamvis filius datus sit nobis, non tamen datus est nobis in
+            filium, sed in doctorem vel salvatorem; et ideo potest dici salvator noster, sed non
+            filius noster. Et si objiciatur: est filius et est noster; ergo est filius noster, patet
+            quod est fallacia accidentis.</p>
+          <p xml:id="ta-l1d18q1-d1e3734">Ad quintum dicendum, quod sapientia in abstracto significat id quo aliquis est
+            formaliter sapiens; et propter hoc ratione praedicta non potest proprie dici quod sit
+            sapientia, nisi per modum qui dictus est, in corp. art.</p>
+          <p xml:id="ta-l1d18q1-d1e3737">Ad ultimum dicendum, quod Deus, quamvis significet essentiam divinam quantum ad id cui
+            imponitur, tamen quantum ad id a quo imponitur nomen, significat operationem, ut supra
+            dictum est ex verbis Damasceni. Et ideo potest dici Deus noster. Tamen diversimode
+            potest dici Deus omnium et justorum; Deus enim dicitur omnium propter relationem
+            principii, inquantum scilicet est creator omnium; dicitur autem Deus justorum
+            specialiter, secundum rationem finis quem contingunt; et ideo dicitur etiam ab eis
+            haberi. Alia enim licet ordinentur in ipsum sicut in finem, non tamen consequuntur
+            ipsum, nisi justi qui conjunguntur sibi per gratiam et gloriam: et ideo etiam omnium
+            communiter dicitur vel finis vel aliquid hujusmodi; sed absolute dicitur de justis quia
+            Deus est eorum, quia habent ipsum sicut suam hereditatem, et per quemdam modum
+            possessionis.</p>
+        </div>
+        <div xml:id="ta-l1d18q1-Dd1e3741">
+          <head xml:id="ta-l1d18q1-Hd1e3743">Expositio textus</head>
+          <p xml:id="ta-l1d18q1-d1e3746"><quote xml:id="ta-l1d18q1-Qd1e3747">Sed ipsa relatio non apparet in hoc nomine</quote>. Videtur hoc esse falsum:
+            quia sicut dicitur donum dationis, ita spiritus spirationis. Sed dicendum, quod in
+            nomine spiritus non importatur relatio nisi per accidens ex modo significandi, prout
+            significatur ut terminus actionis alicujus; sed in nomine doni importatur relatio etiam
+            quantum ad significationem; quia hoc ipsum donare, unde nomen doni sumitur, magis
+            pertinet ad genus relationis quam actionis: quia dare nihil est aliud quam suum alterius
+            facere. Nomen etiam spiritus imponitur ad significandum substantiam ratione alicujus
+            proprietatis, scilicet subtilitatis, ut supra dictum est, dist. 10, qu. unic., art. 4,
+            unde et aerem spiritum dicimus et animam: sed nomen doni non imponitur ad significandum
+            substantiam, sed ad significandum aliquid circa substantiam, quod consequitur dationem:
+            unde non reducitur ad praedicamentum substantiae. <quote xml:id="ta-l1d18q1-Qd1e3750">Non enim, ut ait Hilarius, per
+              defectionem, aut protensionem, aut derivationem ex Deo Deus est</quote>. Hic Hilarius
+            a divinis personis excludit tres modos emanationis qui sunt in diversitate substantiae.
+            Unus est quando aliquid generatur ex re corrupta, ut vermis in carne putrefacta, vel aer
+            ex aqua; et hoc notat cum dicit: <quote xml:id="ta-l1d18q1-Qd1e3753">per defectionem</quote>. Secundus quando
+            producitur ex re manente conjuncta sibi, sicut ramus ex arbore; et hoc tangit cum dicit,
+              <quote xml:id="ta-l1d18q1-Qd1e3756">protensionem</quote>. Tertius est, quando producitur aliquid ex re manente, sed
+            separata ab ea, ut rivus ex fonte, vel ex silice; et hoc tangit cum dicit:
+              <quote xml:id="ta-l1d18q1-Qd1e3759">derivationem</quote> vel <quote xml:id="ta-l1d18q1-Qd1e3762">decisionem</quote>; et sic etiam homo est ex
+            homine: quorum nullus divinis personis convenit. <quote xml:id="ta-l1d18q1-Qd1e3766">Sed ex virtute naturae</quote>,
+            non tamquam generante, sed tamquam principio generationis per modum formae:
+              <quote xml:id="ta-l1d18q1-Qd1e3769">subsistit filius nativitate</quote>; idest, nascitur subsistens: <quote xml:id="ta-l1d18q1-Qd1e3772">in
+              naturam eamdem</quote>, non solum specie, sicut in aliis generationibus univocis, sed
+            numero. <quote xml:id="ta-l1d18q1-Qd1e3775">Nativitas</quote>, inquit, <quote xml:id="ta-l1d18q1-Qd1e3778">Dei non potest non eam de qua profecta
+              est, tenere naturam</quote>. Haec exposita est superius, 5 distinctione in Exposit.
+            litterae. <quote xml:id="ta-l1d18q1-Qd1e3781">Non ille spiritus noster quo sumus</quote>. Sciendum, quod in spiritu
+            sancto sumus, non quidem formaliter, sed effective: sed spiritu creato, quae est anima
+            sumus formaliter; spiritu sancto autem sumus sancti effective et formaliter, secundum
+            quod per caritatem, quae est exemplatum amoris, qui est spiritus sanctus, formaliter
+            sanctificamur; et per hoc nobis spiritus sanctus conjungitur. <quote xml:id="ta-l1d18q1-Qd1e3785">Tollam de spiritu
+              tuo</quote>, Numer. 11, 17. Hoc enim non dicitur quia Moysi gratia minorata esset
+            quantum ad statum habitus, sed quantum ad usum solicitudinis, aliis in sui auxilium
+            substitutis. <quote xml:id="ta-l1d18q1-Qd1e3788">De spiritu etiam suo</quote> dicitur illis collatum, non quia
+            persona spiritus sancti divisibilis sit, vel quod habitus gratiae de subjecto in
+            subjectum transferri possit, et dividi; sed quia acceperunt minorem gratiam quam Moyses
+            habuerat, et ad similes actus, et quasi ex gratia Moysi propagatam, inquantum eis
+            gratiam talem orando impetravit. <quote xml:id="ta-l1d18q1-Qd1e3791">Post haec quaeritur, utrum spiritus sanctus ad
+              seipsum referatur</quote>. Istam quaestionem solvet Magister in 30 distinct.</p>
+        </div>
+
+      </div>
+    </body>
+  </text>
+</TEI>

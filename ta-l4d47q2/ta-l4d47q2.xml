@@ -1,0 +1,688 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 47, Quaestio 2</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Librum IV, Distinctio 47, Quaestio 2</title>
+          <date when="2016-03-19">March 19, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-19">March 19, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness>1856 editum</witness>
+          <witness xml:id="G" n="ghent567">Ghent, Belgium, Ghent University Library, 567</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="0.0.0-dev">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+
+
+
+
+      <div xml:id="starts-on">
+        <cb ed="#G" n="678a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ta-l4d47q2">
+        <head xml:id="ta-l4d47q2-Hd1e97">Librum IV, Distinctio 47, Quaestio 2</head>
+        <div xml:id="ta-l4d47q2-Dd1e100">
+          <head xml:id="ta-l4d47q2-Hd1e102">Prooemium</head>
+          <p xml:id="ta-l4d47q2-d1e105">Deinde quaeritur de igne qui praecedet faciem judicis; et circa hoc quaeruntur tria: 1
+            de purgatione mundi per ignem futura; 2 de effectu ignis purgantis; 3 de ordine illius
+            ignis ad alia quae circa judicium agentur.</p>
+
+        </div>
+        <div xml:id="ta-l4d47q2-Dd1e109" type="articulus">
+          <head xml:id="ta-l4d47q2-Hd1e111">Articulus 1</head>
+
+          <head xml:id="ta-l4d47q2-Hd1e114" type="questionTitle">Utrum aliqua mundi purgatio sit futura</head>
+
+          <div xml:id="ta-l4d47q2-Dd1e117">
+            <head xml:id="ta-l4d47q2-Hd1e119">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d47q2-d1e122">Ad primum sic proceditur. Videtur quod nulla mundi purgatio sit futura. Non enim
+              purgatione indiget nisi quod est immundum. Sed creaturae Dei non sunt immundae; unde
+              dicitur actuum 10, 15: <quote xml:id="ta-l4d47q2-Qd1e124">quod Deus creavit, tu ne commune dixeris</quote>, idest
+              immundum. Ergo creaturae mundi non purgabuntur.</p>
+            <p xml:id="ta-l4d47q2-d1e128">Praeterea, purgatio secundum divinam justitiam ordinatur ad auferendam immunditiam
+              culpae, sicut patet de purgatione post mortem. Sed in elementis hujus mundi nulla
+              potest esse culpae infectio. Ergo videtur quod purgatione non indigeant.</p>
+            <p xml:id="ta-l4d47q2-d1e131">Praeterea, unumquodque tunc dicitur purgari quando separatur quod est extraneum ab
+              ipso, inducens in eo ignobilitatem; separatio enim ejus quod nobilitatem inducit, non
+              dicitur purgatio, sed magis diminutio. Sed hoc ad perfectionem et nobilitatem
+              elementorum pertinet quod aliquid extraneae naturae est eis admixtum, quia forma
+              corporis mixti est nobilior quam forma simplicis. Ergo videtur quod elementa hujus
+              mundi nullo modo purgari possint.</p>
+            <p xml:id="ta-l4d47q2-d1e134">Sed contra, omnis innovatio fit per aliquam purgationem. Sed elementa innovabuntur;
+              unde Apocal. 21, 1: <quote xml:id="ta-l4d47q2-Qd1e136">vidi caelum novum et terram novam, primum enim caelum et
+                prima terra abiit</quote>. Ergo elementa purgabuntur.</p>
+            <p xml:id="ta-l4d47q2-d1e141">Praeterea, 1 Corinth. 7, super illud: <quote xml:id="ta-l4d47q2-Qd1e143">praeterit figura hujus mundi</quote>,
+              dicit Glossa: <quote xml:id="ta-l4d47q2-Qd1e146">pulchritudo hujus mundi mundanorum ignium conflagratione
+                peribit</quote>; et sic idem quod prius.</p>
+
+          </div>
+          <div xml:id="ta-l4d47q2-Dd1e151">
+            <head xml:id="ta-l4d47q2-Hd1e153">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d47q2-d1e156">Ulterius. Videtur quod haec purgatio non sit futura per ignem. Ignis enim, cum sit
+              pars mundi, purgatione indiget, sicut et aliae partes. Sed non debet idem esse purgans
+              et purgatum. Ergo videtur quod ignis non purgabit.</p>
+            <p xml:id="ta-l4d47q2-d1e159">Praeterea, sicut ignis habet virtutem purgativam, ita et aqua. Cum ergo non omnia
+              sint purgabilia per ignem, sed quaedam necesse sit aqua purgari, sicut etiam vetus lex
+              distinguit; videtur quod ignis non purget, ad minus universaliter.</p>
+            <p xml:id="ta-l4d47q2-d1e162">Praeterea, purgatio ad hoc videtur pertinere ut partes mundi ab invicem segregatae
+              puriores reddantur. Sed segregatio partium mundi ab invicem in mundi initio sola
+              divina virtute facta est, quia ex hoc opus distinctionis determinatur; unde et
+              Anaxagoras segregationem posuit actum intellectus moventis omnia. Ergo videtur quod in
+              fine mundi purgatio fiat immediate a Deo, et non per ignem.</p>
+            <p xml:id="ta-l4d47q2-d1e165">Sed contra est quod in Psal. 49, 3, dicitur: <quote xml:id="ta-l4d47q2-Qd1e167">ignis in conspectu ejus
+                exardescet, et in circuitu tempestas valida</quote>; et postea sequitur de judicio:
+                <quote xml:id="ta-l4d47q2-Qd1e170">advocavit caelum desursum, et terram discernere populum suum</quote>. Ergo
+              videtur quod ultima purgatio mundi sit futura per ignem.</p>
+            <p xml:id="ta-l4d47q2-d1e175">Praeterea, 2 Petr., ult., 12, dicitur: <quote xml:id="ta-l4d47q2-Qd1e177">caeli ardentes solventur, et elementa
+                ignis ardore tabescent</quote>. Ergo purgatio illa per ignem fiet.</p>
+
+          </div>
+          <div xml:id="ta-l4d47q2-Dd1e182">
+            <head xml:id="ta-l4d47q2-Hd1e184">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d47q2-d1e187">Ulterius. Videtur quod ignis ille non sit ejusdem speciei cum igne elementari. Nihil
+              enim seipsum consumit. Sed ille ignis quatuor elementa absumet, ut dicit Glossa, 2
+              Pet., ult. Ergo ignis ille non erit ejusdem speciei cum igne elementari.</p>
+            <p xml:id="ta-l4d47q2-d1e190">Praeterea, sicut virtus manifestatur per operationem, ita natura per virtutem. Sed
+              ignis ille habebit aliam virtutem ab igne qui est elementum; quia scilicet purgabit
+              universum, quod ignis iste facere non potest. Ergo non erit ejusdem speciei cum
+              isto.</p>
+            <p xml:id="ta-l4d47q2-d1e193">Praeterea, ea quae sunt ejusdem speciei in corporibus naturalibus, habent eumdem
+              motum. Sed ignis ille habebit alium motum quam ignis elementum, quia circumquaque
+              movebitur, ut totum purgare possit. Ergo ignis ille non erit ejusdem speciei cum
+              isto.</p>
+            <p xml:id="ta-l4d47q2-d1e196">Sed contra est quod Augustinus dicit, 20 de Civ. Dei, et habetur in Glossa 1 Corinth.
+              4, 7, quod <quote xml:id="ta-l4d47q2-Qd1e198">figura hujus mundi mundanorum ignium conflagratione peribit</quote>.
+              Ergo ignis ille erit de natura ignis qui nunc est in hoc mundo.</p>
+            <p xml:id="ta-l4d47q2-d1e203">Praeterea, sicut futura purgatio erit per ignem, ita praecedens fuit per aquam: et
+              utraque ad invicem comparatur, 2 Petri, 3. Sed in prima purgatione aqua fuit ejusdem
+              speciei cum aqua elementari. Ergo et similiter in secunda purgatione ignis erit
+              ejusdem speciei cum igne elementari.</p>
+          </div>
+          <div xml:id="ta-l4d47q2-Dd1e208">
+            <head xml:id="ta-l4d47q2-Hd1e210">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d47q2-d1e213">Respondeo dicendum ad primam quaestionem, quod quia mundus, aliquo modo propter
+              hominem factus est, oportet quod quando homo secundum corpus glorificabitur, etiam
+              alia corpora mundi ad statum meliorem mutentur; ut sit et locus convenientior, et
+              aspectus delectabilior. Ad hoc autem quod gloriam corporis homo consequatur, oportet
+              prius removeri ea quae gloriae opponuntur; quae sunt duo, scilicet corruptio, et
+              infectio culpae; quia, ut dicitur 1 Corinth. 15, 50, <quote xml:id="ta-l4d47q2-Qd1e215">corruptio incorruptelam
+                non possidebit</quote>; et a civitate gloriae omnes immundi foris erunt, Apoc. ult.;
+              et similiter etiam oportet elementa mundi purgari a contrariis dispositionibus,
+              antequam in novitatem gloriae adducantur, proportionaliter ei quod de homine dictum
+              est. Quamvis autem res corporalis subjectum infectionis culpae proprie esse non
+              possit; tamen ex culpa quaedam incongruitas in rebus corporalibus corruptis
+              relinquitur ad hoc ut spiritualibus dicentur; et inde videmus quod loca in quibus sunt
+              aliqua crimina commissa, non reputantur idonea ad aliqua sacra in eis exercenda, nisi
+              purgatione quadam praemissa. Et secundum hoc ex peccatis hominum quamdam inidoneitatem
+              ad gloriae susceptionem pars mundi recipit quae in usum nostrum cedit; unde quantum ad
+              hoc mundatione indiget. Similiter etiam circa medium locum propter elementorum
+              contactum multae sunt corruptiones et generationes et alterationes elementorum, quae
+              puritati eorum derogant; et ideo ab his oportet elementa purgari ad hoc quod decenter
+              suscipiant novitatem gloriae.</p>
+            <p xml:id="ta-l4d47q2-d1e219">Ad primum ergo dicendum, quod cum dicitur: omnis creatura Dei est munda, hoc
+              intelligendum est, quia non habet in substantia sua alicujus malitiae permixtionem,
+              sicut ponebant Manichaei, dicentes bonum et malum esse duas substantias alicubi
+              divisas, et alicubi commixtas; non autem removetur quin aliqua creatura habeat
+              commixtionem naturae extraneae; quae etiam natura in se bona est, sed perfectioni
+              hujusmodi creaturae repugnat. Similiter non removetur ex hoc quin malum alicui
+              creaturae accidat, quamvis non sit permixtum ei quasi pars ipsius substantiae.</p>
+            <p xml:id="ta-l4d47q2-d1e222">Ad secundum dicendum, quod quamvis corporalia elementa subjectum culpae esse non
+              possint, tamen ex culpa in eis commissa aliquam ineptitudinem possunt consequi ad
+              perfectionem gloriae suscipiendam.</p>
+            <p xml:id="ta-l4d47q2-d1e225">Ad tertium dicendum, quod forma mixti et forma elementi possunt dupliciter
+              considerari: aut quantum ad perfectionem speciei; et sic corpus mixtum nobilius est:
+              aut quantum ad perpetuitatem durationis; et sic corpus simplex nobilius est, quia non
+              habet in seipso unde corrumpatur, nisi ejus corruptio fiat ab aliquo exteriori. Corpus
+              autem mixtum in seipso habet causam suae corruptionis, scilicet operationem
+              contrariorum; et ideo corpus simplex etsi sit corruptibile secundum partem, est tamen
+              incorruptibile secundum totum; quod de mixto dici non potest. Et quia incorruptio est
+              de perfectione gloriae, perfectio corporis simplicis magis convenit perfectioni
+              gloriae quam perfectio corporis mixti, nisi etiam corpus mixtum in se habeat aliquod
+              incorruptionis principium, sicut corpus humanum, cujus forma est incorruptibilis.
+              Nihilominus tamen quamvis aliquo modo corpus mixtum sit nobilius quam simplex,
+              nobilius tamen esse habet corpus simplex secundum se existens in mixto: quia in mixto
+              sunt corpora simplicia quodammodo in potentia, in seipsis autem existentia sunt in
+              ultima sui perfectione.</p>
+
+          </div>
+          <div xml:id="ta-l4d47q2-Dd1e229">
+            <head xml:id="ta-l4d47q2-Hd1e231">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d47q2-d1e234">Ad secundam quaestionem dicendum, quod illa mundi purgatio, ut dictum est, removebit
+              a mundo imperfectionem ex culpa relictam et impuritatem commixtionis, et erit
+              dispositio ad gloriae perfectionem; et ideo quantum ad haec tria convenientissime fiet
+              per ignem. Primo, quia ignis, cum sit nobilissimum elementorum, habet naturales
+              proprietates similiores proprietatibus gloriae, ut maxime patet de luce. Secundo, quia
+              ignis non ita recipit commixtionem extranei propter efficaciam virtutis activae, sicut
+              alia elementa. Tertio, quia sphaera ignis est remota a nostra habitatione, nec ita
+              communis est nobis usus ignis sicut terrae et aquae et aeris, unde non ita inficitur;
+              et praeter hoc habet maximam efficaciam ad purgandum et ad dividendum subtiliando.</p>
+            <p xml:id="ta-l4d47q2-d1e237">Ad primum ergo dicendum, quod ignis non venit in usum nostrum prout est in materia
+              propria (sic enim remotus est a nobis), sed solum prout est in materia aliena; et quo
+              ad hoc poterit per ignem in sua puritate existentem purgari ipse mundus quantum ad hoc
+              quod habet de extraneo adjunctum.</p>
+            <p xml:id="ta-l4d47q2-d1e240">Ad secundum dicendum, quod prima purgatio mundi, quae facta est per diluvium, non
+              respiciebat nisi infectionem peccati. Praecipue autem tunc regnabat peccatum
+              concupiscentiae; et ideo convenienter per contrarium purgatio fuit facta, scilicet per
+              aquam. Sed secunda purgatio respicit et infectionem culpae et commixtionis
+              impuritatem; et quantum ad utrumque convenit magis quod fiat per ignem quam per aquam.
+              Aqua enim non habet vim disgregandi, sed magis aggregandi; unde per aquam naturalis
+              impuritas elementorum tolli non posset, sicut per ignem. Similiter etiam circa finem
+              regnabit vitium tepiditatis, quasi mundo jam senescente: quia, ut dicitur Matth. 24,
+              12, <quote xml:id="ta-l4d47q2-Qd1e242">tunc refrigescet caritas multorum</quote>; unde tunc convenienter purgatio
+              per ignem fiet. Nec est aliquid quod per ignem purgari non possit quodammodo; sed
+              quaedam sunt quae sine sui corruptione per ignem non possunt purgari, sicut panni, et
+              vasa lignea, et hujusmodi; et talia lex praecepit purgari per aquam; quae tamen omnia
+              finaliter per ignem corrumpentur.</p>
+            <p xml:id="ta-l4d47q2-d1e246">Ad tertium dicendum, quod per opus distinctionis sunt rebus diversae formae collatae,
+              quibus ad invicem distinguuntur; et ideo fieri non potuit nisi per eum qui est auctor
+              naturae: sed per finalem purgationem deducentur res ad puritatem in qua conditae
+              fuerunt; et ideo in hoc poterit natura creata exhibere ministerium creatori; et
+              propter hoc ministerium creaturae committitur, quia hoc ad ejus nobilitatem cedit.</p>
+
+          </div>
+          <div xml:id="ta-l4d47q2-Dd1e250">
+            <head xml:id="ta-l4d47q2-Hd1e252">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d47q2-d1e255">Ad tertiam quaestionem dicendum, quod circa hoc inveniuntur tres opiniones. Quidam
+              enim dicunt, quod ignis elementum qui est in sphaera sua, descendet ad purgationem
+              mundi. Modum autem descensionis ponunt per multiplicationem: ignis enim undique
+              apposito combustibili augmentatur; et hoc praecipue tunc fiet quando ignis virtus
+              exaltabitur super omnia alia elementa. Sed contra hoc esse videtur quod ignis ille non
+              tantum descendet, sed etiam a sanctis ascendere perhibetur, ut patet 2 Pet. 3, ubi
+              videtur, quod tantum ascendet judicii ignis quantum aqua diluvii: ex quo videtur quod
+              ignis ille sit circa locum medium generationis. Et propter hoc alii dicunt, quod ignis
+              ille generabitur circa locum terrae ex congregatione radiorum caelestium corporum,
+              sicut videmus quod congregantur in speculo comburente: tunc autem loco speculorum
+              erunt nubes concavae, ad quas fiet radiorum reverberatio. Sed istud etiam non videtur
+              conveniens: quia cum effectus caelestium corporum sequantur determinatos situs et
+              aspectus eorum; si ex virtute corporum caelestium ignis ille generaretur, esset notum
+              tempus illius purgationis considerantibus motus astrorum: quod auctoritati Scripturae
+              repugnat. Et ideo alii dicunt, sequentes Augustinum, quod sicut mundanarum aquarum
+              inundatione factum est diluvium, ita mundanorum ignium conflagratione figura hujus
+              mundi peribit, ut dicitur 20 de Civ. Dei. Ista autem conflagratio nihil aliud est quam
+              congregatio omnium causarum superiorum et inferiorum, quae ex natura sua habent
+              virtutem igniendi: quae quidem congregatio non naturali cursu rerum, sed virtute
+              divina fiet; et ex omnibus istis causis sic congregatis generabitur ignis qui faciem
+              hujus mundi exuret. Si autem hae opiniones recte considerentur, inveniuntur
+              diversificari quantum ad causam generationis illius, et non quantum ad speciem ejus.
+              Ignis enim generatus a sole, vel ab inferiori calefaciente, est ejusdem speciei cum
+              igne qui est in sua sphaera, nisi inquantum admiscetur ei de materia aliena: quod
+              quidem tunc oportebit; quia ignis non potest aliquid purgare nisi secundum hoc quod
+              alterum efficitur materia ejus aliquo modo. Unde simpliciter concedendum est, quod
+              ignis ille erit ejusdem speciei cum isto.</p>
+            <p xml:id="ta-l4d47q2-d1e258">Ad primum ergo dicendum, quod ignis ille quamvis sit ejusdem speciei cum igne qui
+              apud nos est, non tamen est idem numero. Videmus autem quod duorum ignium ejusdem
+              speciei unus alterum destruit, major scilicet minorem, consumendo materiam ejus; et
+              similiter etiam ille ignis ignem qui apud nos est, consumere poterit.</p>
+            <p xml:id="ta-l4d47q2-d1e261">Ad secundum dicendum, quod sicut operatio quae procedit a virtute rei, est virtutis
+              indicium; ita et virtus est indicium essentiae vel naturae quae procedit a principiis
+              essentialibus rei. Operatio autem quae non procedit ex virtute rei operantis, non
+              indicat virtutem ipsius, sicut patet in instrumentis; actio enim instrumenti magis
+              manifestat virtutem agentis quam virtutem instrumenti: quia virtutem agentis
+              manifestat ut primum operationis principium; virtutem autem instrumenti non
+              manifestat, nisi quatenus est susceptivum influentiae principalis agentis, secundum
+              quod movetur ab eo. Similiter etiam virtus quae non procedit ex principiis
+              essentialibus rei, non manifestat naturam ejus, nisi quantum ad susceptibilitatem;
+              sicut virtus qua aqua calefacta potest calefacere, non manifestat naturam ejus nisi
+              quantum ad calefactibilitatem; et ideo nihil prohibet quin aqua habens hanc virtutem
+              sit ejusdem speciei cum aqua non habente virtutem istam. Similiter etiam non est
+              inconveniens quod ignis ille qui habebit vim purgandi faciem mundi, sit alterius
+              speciei ab igne qui apud nos est, cum vis calefactiva non oriatur in ipso ex
+              principiis essentialibus, sed ex divina operatione; sive dicatur quod illa virtus sit
+              aliqua qualitas absoluta, sicut calor in aqua calefacta; sive sit intentio quaedam,
+              sicut de instrumentali virtute in 1 dist. dictum est; et hoc probabilius est, quia
+              ignis ille non aget nisi ut instrumentum divinae virtutis.</p>
+            <p xml:id="ta-l4d47q2-d1e264">Ad tertium dicendum, quod ignis ex propria natura non fertur nisi sursum; sed
+              inquantum sequitur materiam quam requirit extra propriam sphaeram existens, sic
+              sequitur materiae combustibilis situm; et per modum istum non est inconveniens quod
+              vel in circuitu vel in deorsum moveatur, et praecipue secundum quod agit ut
+              instrumentum virtutis divinae.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d47q2-Dd1e269" type="articulus">
+          <head xml:id="ta-l4d47q2-Hd1e271">Articulus 2</head>
+
+          <head xml:id="ta-l4d47q2-Hd1e274" type="questionTitle">Utrum ille ignis purgabit etiam caelos superiores</head>
+
+          <div xml:id="ta-l4d47q2-Dd1e277">
+            <head xml:id="ta-l4d47q2-Hd1e279">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d47q2-d1e282">Ad secundum sic proceditur. Videtur quod ille ignis purgabit etiam caelos superiores.
+              Quia in Psal. 101, 20, dicitur: <quote xml:id="ta-l4d47q2-Qd1e284">opera manuum tuarum sunt caeli. Ipsi peribunt,
+                tu autem permanebis</quote>. Sed etiam superiores caeli sunt opera manuum Dei. Ergo
+              etiam ipsi in illa finali conflagratione peribunt.</p>
+            <p xml:id="ta-l4d47q2-d1e288">Praeterea, 2 Petri 3, 12, dicitur: <quote xml:id="ta-l4d47q2-Qd1e290">caeli ardentes solventur, et elementa ignis
+                ardore tabescent</quote>. Caeli autem qui ab elementis distinguuntur, sunt caeli
+              superiores, in quibus fixa sunt sidera. Ergo videtur quod etiam illi per ignem illum
+              purgabuntur.</p>
+            <p xml:id="ta-l4d47q2-d1e294">Praeterea, ignis ille est ad hoc ut removeat a corporibus indispositionem ad
+              perfectionem gloriae. Sed in caelo superiori invenitur indispositio et ex parte
+              culpae, quia Diabolus ibi peccavit; et ex parte naturalis defectus, quia Roman. 8,
+              super illud: <quote xml:id="ta-l4d47q2-Qd1e296">scimus quod omnis creatura ingemiscit et parturit usque
+                adhuc</quote>, dicit Glossa: <quote xml:id="ta-l4d47q2-Qd1e299">omnia elementa cum labore sua explent officia,
+                sicut sol et luna non sine labore statuta sibi implent spatia</quote>. Ergo etiam
+              caeli purgabuntur per ignem.</p>
+            <p xml:id="ta-l4d47q2-d1e303">Sed contra est: corpora caelestia peregrinae impressionis receptiva non sunt.</p>
+            <p xml:id="ta-l4d47q2-d1e307">Praeterea, super illud 2 Thess. 1: <quote xml:id="ta-l4d47q2-Qd1e309">in flamma ignis dantis vindictam</quote>,
+              dicit Glossa: <quote xml:id="ta-l4d47q2-Qd1e312">ignis erit in mundo qui praecedet eum, tantum spatium aeris
+                occupans quantum occupavit aqua in diluvio</quote>. Sed aqua diluvii non ascendit
+              usque ad superiores caelos, sed solum quindecim cubitis super altitudinem montium, ut
+              habetur Gen. 7. Ergo caeli superiores illo igne non purgabuntur.</p>
+
+          </div>
+          <div xml:id="ta-l4d47q2-Dd1e317">
+            <head xml:id="ta-l4d47q2-Hd1e319">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d47q2-d1e322">Ulterius. Videtur quod ignis ille alia elementa consumet. Quia, ut dicit Glossa
+              Bedae, 2 Petri ult., <quote xml:id="ta-l4d47q2-Qd1e324">elementa quatuor quibus mundus consistit, ille maximus
+                ignis absumet: nec cuncta intantum consumentur, ut non sint; sed duo ex toto
+                consumet, duo vero in meliorem restituet faciem</quote>. Ergo videtur quod ad minus
+              duo elementa per ignem illum destruenda sint totaliter.</p>
+            <p xml:id="ta-l4d47q2-d1e328">Praeterea, Apoc. 21, 1, dicitur: <quote xml:id="ta-l4d47q2-Qd1e330">primum caelum et prima terra abiit; et jam
+                mare non est</quote>. Sed per caelum aer intelligitur, ut Augustinus dicit: mare
+              autem est aquarum congregatio. Videtur ergo quod illa tria elementa totaliter
+              destruentur.</p>
+            <p xml:id="ta-l4d47q2-d1e334">Praeterea, ignis non purgat nisi secundum hoc quod alia efficiuntur materia ejus. Si
+              ergo ignis purgat alia elementa, oportet quod ejus materia efficiantur. Ergo oportet
+              quod in naturam ignis transeant; et sic a natura sua corrumpentur.</p>
+            <p xml:id="ta-l4d47q2-d1e337">Praeterea, forma ignis est nobilissima forma ad quam perduci possit elementaris
+              materia. Sed per illam purgationem omnia in statum nobilissimum mutabuntur. Ergo alia
+              elementa in ignem totaliter convertentur.</p>
+            <p xml:id="ta-l4d47q2-d1e341">Sed contra est quod dicitur 1 Corinth. 7 super illud: <quote xml:id="ta-l4d47q2-Qd1e343">praeterit figura hujus
+                mundi: pulchritudo, non substantia hujus mundi praeterit</quote>. Sed ipsa
+              substantia elementorum pertinet ad mundi perfectionem. Ergo elementa non consumentur
+              secundum suam substantiam.</p>
+            <p xml:id="ta-l4d47q2-d1e347">Praeterea, illa finalis purgatio, quae fiet per ignem, respondebit primae purgationi,
+              quae facta est per aquam. Sed illa non corrupit elementorum substantiam. Ergo nec illa
+              quae fiet per ignem, corrumpet.</p>
+
+          </div>
+          <div xml:id="ta-l4d47q2-Dd1e351">
+            <head xml:id="ta-l4d47q2-Hd1e353">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d47q2-d1e356">Ulterius. Videtur quod nec omnia elementa per illum ignem purgabuntur. Quia, ut jam
+              dictum est, ignis ille non ascendet nisi quantum ascendit aqua diluvii. Sed aqua
+              diluvii non pervenit usque ad sphaeram ignis. Ergo nec per ultimam purgationem
+              elementum ignis purgabitur.</p>
+            <p xml:id="ta-l4d47q2-d1e359">Praeterea, Apoc. 21, dicit Glossa, super illud: <quote xml:id="ta-l4d47q2-Qd1e361">vidi caelum novum</quote>
+              etc.: <quote xml:id="ta-l4d47q2-Qd1e364">immutatio aeris et terrae dubitabile non est quin per ignem fiat; sed de
+                aqua dubitatur, nam purgationem in seipsa habere creditur</quote>. Ergo ad minus non
+              est certum quod omnia elementa purgentur.</p>
+            <p xml:id="ta-l4d47q2-d1e368">Praeterea, locus qui est perpetuae infectionis nunquam purgatur. Sed in Inferno erit
+              perpetua infectio. Cum ergo Infernus intra elementa collocetur, videtur quod non
+              totaliter elementa purgentur.</p>
+            <p xml:id="ta-l4d47q2-d1e371">Praeterea, Paradisus terrestris in terra continetur. Sed ille non purgabitur per
+              ignem: quia nec etiam aquae diluvii illuc ascenderunt, ut Beda dicit, et habetur in 2
+              Sent., dist. 27. Ergo videtur quod non totaliter omnia elementa purgentur.</p>
+            <p xml:id="ta-l4d47q2-d1e375">Sed contra est Glossa supra inducta quae habetur 2 Petri ult. quod quatuor elementa
+              ignis ille absumet.</p>
+          </div>
+          <div xml:id="ta-l4d47q2-Dd1e380">
+            <head xml:id="ta-l4d47q2-Hd1e382">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d47q2-d1e385">Respondeo dicendum ad primam quaestionem, quod purgatio mundi ad hoc est ut
+              removeatur a corporibus dispositio contraria perfectioni gloriae, ut supra dictum est:
+              quae quidem perfectio est ultima rerum consummatio; et haec quidem indispositio in
+              omnibus corporibus invenitur, sed diversimode in diversis. In quibusdam enim invenitur
+              indispositio secundum aliquid inhaerens substantiae ipsorum, sicut in istis corporibus
+              inferioribus, quae per mutuam mixtionem decidunt a propria puritate. In quibusdam vero
+              corporibus invenitur indispositio non per aliud substantiae eorum inhaerens, sicut in
+              corporibus caelestibus, in quibus nihil invenitur repugnans ultimae perfectioni
+              universi, nisi motus, qui est via ad perfectionem: nec motus quilibet, sed localis
+              tantum, qui non variat aliquid quod intrinsecum sit rei, ut substantiam aut
+              quantitatem, aut qualitatem, sed solum locum qui est extra rem. Et ideo a substantia
+              caeli superioris non oportet quod aliquid removeatur; sed oportet quod motus ejus
+              quietetur. Quietatio autem motus localis non fit per actionem alicujus contrarii
+              agentis, sed per hoc quod motor desistit a movendo; et ideo corpora caelestia nec per
+              ignem nec per alicujus creaturae actionem purgantur, sed ipsa eorum quietatio, sola
+              voluntate divina accidens, eis loco purgationis erit.</p>
+            <p xml:id="ta-l4d47q2-d1e388">Ad primum ergo dicendum, quod, sicut dicit Augustinus 20 de Civ. Dei, verba illa
+              Psalmi intelligenda sunt de caelis aereis, qui purgabuntur per ignem ultimae
+              conflagrationis. Vel dicendum, quod si etiam de superioribus caelis intelligantur,
+              tunc dicuntur perire quantum ad motum quo nunc continue moventur.</p>
+            <p xml:id="ta-l4d47q2-d1e391">Ad secundum dicendum, quod Petrus se exponit de quibus caelis intelligat. Praemiserat
+              enim ante verba inducta, quod caeli prius et terra per aquam perierant, qui nunc sunt
+              eodem verbo repositi, igni reservati in diem judicii. Illi ergo caeli per ignem
+              purgabuntur qui prius aqua diluvii sunt purgati, scilicet caeli aerei.</p>
+            <p xml:id="ta-l4d47q2-d1e394">Ad tertium dicendum, quod ille labor et illa servitus creaturae qui corporibus
+              caelestibus ab Ambrosio attribuitur, nihil est aliud quam vicissitudo motus, ratione
+              cujus tempori subjiciuntur, et defectus ultimae consummationis, quae finaliter in eis
+              erit. Ex culpa etiam Daemonum caelum Empyreum infectionem non contraxit, quia peccando
+              statim de caelo expulsi sunt.</p>
+
+          </div>
+          <div xml:id="ta-l4d47q2-Dd1e398">
+            <head xml:id="ta-l4d47q2-Hd1e400">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d47q2-d1e403">Ad secundam quaestionem dicendum, quod circa hanc quaestionem multiplex est opinio.
+              Quidam enim dicunt, quod omnia elementa manebunt quantum ad materiam: omnia autem
+              mutabuntur quantum ad imperfectionem; sed duo eorum retinebunt propriam formam
+              substantialem, scilicet aer et terra; in duobus vero, scilicet igne et aqua, non
+              remanebit forma substantialis eorum, sed mutabuntur ad formam caeli: et sic tria
+              elementa, scilicet ignis, aer et aqua, caelum dicentur, quamvis aer retineat eamdem
+              formam substantialem quam nunc habet, quia nunc etiam caelum dicitur. Unde et Apoc.
+              21, 1, non fit mentio nisi de caelo et terra: <quote xml:id="ta-l4d47q2-Qd1e405">vidi</quote>, inquit,
+                <quote xml:id="ta-l4d47q2-Qd1e408">caelum novum et terram novam</quote>. Sed haec opinio est omnino absurda:
+              repugnat enim et philosophiae, secundum quam poni non potest quod corpora inferiora
+              sint in potentia ad formam caeli, cum nec materiam habeant communem, nec
+              contrarietatem ad invicem; et etiam theologiae, quia secundum hanc positionem non
+              salvabitur perfectio universi cum integritate suarum partium, duobus elementis
+              sublatis. Unde per hoc quod dicit caelum, intelligitur quintum corpus; omnia vero
+              elementa intelliguntur per terram, sicut in Psalmo 148, 7, dicitur: <quote xml:id="ta-l4d47q2-Qd1e411">laudate
+                dominum de terra</quote>; et sequitur: <quote xml:id="ta-l4d47q2-Qd1e414">ignis, grando, nix, glacies</quote> et
+              cetera. Et ideo alii dicunt, quod omnia elementa manebunt secundum substantiam, sed
+              qualitates activae et passivae ab eis removebuntur; sicut etiam ponunt quod in corpore
+              mixto elementa salvabuntur secundum formas suas substantiales sine hoc quod proprias
+              qualitates habeant, cum sint ad medium reductae, et medium neutrum extremorum est. Et
+              huic etiam videtur consonare quod Augustinus dicit, 20 de Civit. Dei: <quote xml:id="ta-l4d47q2-Qd1e417">illa
+                conflagratione mundana elementorum corruptibilium qualitates quae corporibus nostris
+                congruebant, ardendo penitus interibunt, atque ipsa substantia eas qualitates
+                habebit quae corporibus immortalibus mirabili mutatione conveniant</quote>. Sed
+              istud non videtur probabile, cum qualitates propriae elementorum sint effectus
+              formarum substantialium, quod formis substantialibus manentibus qualitates praedictae
+              possint mutari, nisi per actionem violentam ad tempus: sicut in aqua calefacta videmus
+              quod ex vi suae speciei frigiditatem recuperat, quam per actionem ignis amisit,
+              dummodo species aquae maneat. Et praeterea etiam ipsae qualitates elementares sunt de
+              perfectione secunda elementorum, sicut propriae passiones eorum. Nec est probabile
+              quod in illa finali consummatione aliquid naturalis perfectionis ab elementis
+              tollatur. Et ideo videtur dicendum, quod manebunt elementa quantum ad substantiam et
+              qualitates eorum proprias; sed purgabuntur, ut supra dictum est, ab infectione quam ex
+              peccatis hominum contraxerunt, et ab impuritate quae per actionem et passionem mutuam
+              in eis accidit: quia jam cessante motu primi mobilis, in inferioribus elementis mutua
+              actio et passio esse non poterit; et hoc Augustinus appellat <quote xml:id="ta-l4d47q2-Qd1e421">qualitates
+                corruptibilium elementorum</quote>, scilicet innaturales eorum dispositiones,
+              secundum quas corruptioni appropinquant.</p>
+            <p xml:id="ta-l4d47q2-d1e425">Ad primum ergo dicendum, quod ignis ille dicitur quatuor elementa absumere, inquantum
+              ea aliquo modo purgabit. Quod autem sequitur: <quote xml:id="ta-l4d47q2-Qd1e427">duo ex toto consumet</quote>, non
+              est intelligendum quod duo elementa secundum substantiam destruantur; sed quia duo
+              magis removebuntur a proprietate quam nunc habent: quae quidem duo a quibusdam
+              dicuntur esse ignis et aqua, quae maxime excedunt in qualitatibus activis, scilicet
+              calore et frigore, quae sunt maxime corruptionis principia in aliis corporibus. Et
+              quia tunc non erit actio ignis et aquae, quae sunt maxime activae; maxime immutari
+              videbuntur a virtute quam nunc habent. Alii dicunt haec duo esse aerem et aquam,
+              propter varios motus istorum duorum elementorum, quos consequuntur ex motu corporum
+              caelestium: et quia isti motus non erunt (sicut fluxus et refluxus maris, et
+              commotiones ventorum, et hujusmodi); ideo illa elementa maxime mutabuntur a
+              proprietate quam nunc habent.</p>
+            <p xml:id="ta-l4d47q2-d1e431">Ad secundum dicendum, quod, sicut dicit Augustinus, 20 de Civit. Dei, cum dicitur:
+                <quote xml:id="ta-l4d47q2-Qd1e433">et mare jam non est</quote>, per mare potest intelligi praesens saeculum, de
+              quo supra parum ante dixerat: <quote xml:id="ta-l4d47q2-Qd1e436">mare dedit mortuos suos</quote>. Si tamen mare ad
+              litteram referamus, tunc est dicendum, quod in mari duo intelliguntur; scilicet
+              substantia aquarum, et earum dispositio quantum ad salsedinem et fluctuum commotiones;
+              et quantum ad hoc secundum, mare non remanebit; manebit autem quantum ad primum.</p>
+            <p xml:id="ta-l4d47q2-d1e440">Ad tertium dicendum, quod ignis ille non aget nisi ut instrumentum providentiae et
+              virtutis divinae; unde non aget in alia elementa usque ad eorum consumptionem, sed
+              solum usque ad purgationem. Nec oportet quod illud quod efficitur materia ignis,
+              totaliter a specie propria corrumpatur; sicut patet in ferro ignito, quod a loco
+              ignitionis remotum, ex virtute speciei remanentis, ad proprium statum et pristinum
+              redit; et ita etiam erit de elementis per ignem purgatis.</p>
+            <p xml:id="ta-l4d47q2-d1e444">Ad quartum dicendum, quod in partibus elementorum non oportet considerari solum quid
+              congruat alicui parti secundum se acceptae, sed etiam quid congruat secundum ordinem
+              ad totum. Dico ergo, quod aqua quamvis esset nobilior si haberet formam ignis,
+              similiter terra et aer; universum tamen esset imperfectius, si tota elementorum
+              materia formam ignis assumeret.</p>
+
+          </div>
+          <div xml:id="ta-l4d47q2-Dd1e448">
+            <head xml:id="ta-l4d47q2-Hd1e450">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d47q2-d1e453">Ad tertiam quaestionem dicendum, quod quidam dicunt quod ignis ille ascendet usque ad
+              summitatem spatii continentis quatuor elementa, ut sic elementa totaliter purgentur et
+              ab infectione peccati, quo etiam superiores partes elementorum sunt infectae, ut patet
+              per fumum idolatriae superiora inficientis; et etiam a corruptione, quia elementa
+              secundum omnes partes sui corruptibilia sunt. Sed ista opinio repugnat auctoritati
+              sacrae Scripturae; quia 2 Petri, 3, dicitur, quod illi caeli repositi sunt igni qui
+              fuerunt per aquam purgati; et Augustinus dicit, 20 de Civ. Dei, quod ille mundus qui
+              diluvio periit, igni reservatur. Constat autem quod aqua diluvii non ascendit usque ad
+              summitatem spatii elementorum, sed solum usque ad quindecim cubitos super altitudines
+              montium; et praeterea notum est quod vapores elevati a terra, vel fumi quicumque non
+              possunt transire per totam sphaeram ignis, ut perveniant ad summitatem ejus; et ita
+              infectio peccati non pervenit usque ad spatium praedictum. A corruptibilitate etiam
+              elementa non possunt purgari per subtractionem alicujus quod per ignem possit consumi;
+              sed per ignem poterunt consumi impuritates elementorum quae ex eorum permixtione
+              proveniunt. Hujusmodi autem impuritates praecipue sunt circa terram usque ad medium
+              aeris interstitium; unde usque ad illud spatium ignis ultimae conflagrationis elementa
+              purgabit; tantum enim etiam aquae diluvii ascenderunt; quod probabiliter aestimari
+              potest ex montium altitudine quos determinata mensura transcenderat.</p>
+            <p xml:id="ta-l4d47q2-d1e456">Primum ergo concedimus.</p>
+            <p xml:id="ta-l4d47q2-d1e459">Ad secundum dicendum, quod ratio dubitationis in Glossa exprimitur, quia scilicet
+              aqua in se virtutem purgationis habere creditur. Non tamen habet vim purgationis
+              talis, qualis futuro statui competit, ut ex dictis patet.</p>
+            <p xml:id="ta-l4d47q2-d1e462">Ad tertium dicendum, quod illa purgatio praecipue ad hoc erit, ut quidquid est
+              imperfectionis, a sanctorum habitatione removeatur; et ideo illa purgatione totum quod
+              est foedum, ad locum damnatorum congregabitur; unde Infernus non purgabitur, sed ad
+              ipsum adducentur totius mundi purgamenta.</p>
+            <p xml:id="ta-l4d47q2-d1e466">Ad quartum dicendum, quod quamvis peccatum primi hominis in terrestri Paradiso sit
+              commissum, non tamen locus ille est locus peccantium, sicut nec caelum Empyreum; ex
+              utroque enim loco homo et Diabolus statim propter peccatum sunt ejecti; unde locus
+              ille purgatione non indiget.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d47q2-Dd1e471" type="articulus">
+          <head xml:id="ta-l4d47q2-Hd1e473">Articulus 3</head>
+
+          <head xml:id="ta-l4d47q2-Hd1e476" type="questionTitle">Utrum ignis ultimae conflagrationis judicium sequi
+            debeat</head>
+
+          <div xml:id="ta-l4d47q2-Dd1e479">
+            <head xml:id="ta-l4d47q2-Hd1e481">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d47q2-d1e484">Ad tertium sic proceditur. Videtur quod ignis ultimae conflagrationis judicium debet
+              sequi. Augustinus, 20 de Civ. Dei, hunc ordinem ponit eorum quae in judicio sunt
+              futura, dicens: <quote xml:id="ta-l4d47q2-Qd1e486">in illo judicio, vel circa illud judicium, has res didicimus
+                esse venturas; Eliam Thesbitem, fidem Judaeorum, Antichristum persecuturum, Christum
+                judicaturum, mortuorum resurrectionem, bonorum malorumque divisionem, mundi
+                conflagrationem, ejusdemque renovationem</quote>. Ergo conflagratio judicium
+              sequitur.</p>
+            <p xml:id="ta-l4d47q2-d1e490">Praeterea, Augustinus dicit in eodem Lib.: <quote xml:id="ta-l4d47q2-Qd1e492">judicatis impiis, et in ignem
+                aeternum Missis, figura hujus mundi mundanorum ignium conflagratione
+              peribit</quote>. Ergo idem quod prius.</p>
+            <p xml:id="ta-l4d47q2-d1e496">Praeterea, dominus ad judicandum veniens aliquos vivos reperiet, ut patet ex hoc quod
+              habetur 1 Thessal. 4, 14; ubi ex persona eorum apostolus dicit: <quote xml:id="ta-l4d47q2-Qd1e498">deinde nos qui
+                vivimus, qui residui sumus in adventum domini, non praeveniemus eos qui
+                dormierunt</quote>. Sed hoc non esset, si conflagratio mundi praecederet; quia per
+              ignem dissolverentur. Ergo ignis ille judicium sequitur.</p>
+            <p xml:id="ta-l4d47q2-d1e502">Praeterea, dominus dicitur judicaturus orbem per ignem; et ideo conflagratio finalis
+              videtur esse executio divini judicii. Sed executio sequitur judicium. Ergo ille ignis
+              judicium sequitur.</p>
+            <p xml:id="ta-l4d47q2-d1e506">Sed contra est quod dicitur in Psalm. 96, 3: <quote xml:id="ta-l4d47q2-Qd1e508">ignis ante ipsum
+                praecedet</quote>.</p>
+            <p xml:id="ta-l4d47q2-d1e512">Praeterea, resurrectio praecedet judicium; alias non videret omnis oculus Christum
+              judicantem. Sed mundi conflagratio resurrectionem praecedet; sancti enim qui
+              resurgent, corpora spiritualia et impassibilia habebunt; et ita non poterunt per ignem
+              purgari; cum tamen in littera dicatur ex verbis Augustini quod per ignem illum
+              purgabitur, si quid in aliquibus sit purgandum. Ergo ignis ille judicium
+              praecedet.</p>
+
+          </div>
+          <div xml:id="ta-l4d47q2-Dd1e516">
+            <head xml:id="ta-l4d47q2-Hd1e518">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d47q2-d1e521">Ulterius. Videtur quod ignis ille non habebit talem effectum in hominibus, qualis in
+              littera designatur. Illud enim consumi dicitur quod reducitur ad nihilum. Sed corpora
+              impiorum non solventur in nihilum, sed in aeternum conservabuntur, ut aeternam poenam
+              sustineant. Ergo ignis ille non erit malis consumptio, ut in littera dicitur.</p>
+            <p xml:id="ta-l4d47q2-d1e524">Si dicatur, quod consumet malorum corpora, inquantum ea resolvet in cinerem; contra.
+              Sicut corpora malorum, ita et bonorum in cinerem resolventur; hoc enim est Christi
+              privilegium, ut caro ejus corruptionem non videat. Ergo etiam et bonis tunc repertis
+              erit consumptio.</p>
+            <p xml:id="ta-l4d47q2-d1e527">Praeterea, infectio peccati magis abundat in elementis, secundum quod veniunt ad
+              compositionem humani corporis, in quo est corruptio fomitis, etiam quantum ad bonos,
+              quam in elementis extra corpus humanum existentibus. Sed elementa extra corpus humanum
+              existentia purgabuntur propter peccati infectionem. Ergo multo fortius oportet per
+              ignem purgari elementa in corporibus humanis existentia, sive bonorum, sive malorum;
+              et ita oportet utrorumque corpora resolvi.</p>
+            <p xml:id="ta-l4d47q2-d1e530">Praeterea, quamdiu status viae durat, elementa similiter agunt in bonos et in malos.
+              Sed adhuc durabit status hujusmodi viae in illa conflagratione; quia post statum hujus
+              viae non erit mors naturalis, quae tamen per illam conflagrationem causabitur. Ergo
+              ignis ille aequaliter aget in bonos et in malos; et ita videtur quod non sit aliqua
+              discretio inter eos quantum ad effectum illius ignis suscipiendum, sicut in littera
+              ponitur.</p>
+            <p xml:id="ta-l4d47q2-d1e534">Praeterea, illa conflagratio quasi in momento perficietur. Sed multi invenientur
+              vivi, in quibus erunt multa purgabilia. Ergo illa conflagratio non sufficiet ad eorum
+              purgationem.</p>
+
+          </div>
+          <div xml:id="ta-l4d47q2-Dd1e538">
+            <head xml:id="ta-l4d47q2-Hd1e540">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d47q2-d1e543">Ulterius. Videtur quod ignis ille non involvet reprobos. Quia Malach. 3, super illud:
+                <quote xml:id="ta-l4d47q2-Qd1e545">purgabit filios levi</quote>, dicit Glossa: <quote xml:id="ta-l4d47q2-Qd1e548">duos ignes legimus
+                futuros: unum qui purgabit electos, et praecedet judicium; alterum qui reprobos
+                cruciabit</quote>. Sed hic est ignis Inferni, qui malos involvet: primus autem est
+              ignis finalis conflagrationis. Ergo ignis finalis conflagrationis non erit ille qui
+              malos involvet.</p>
+            <p xml:id="ta-l4d47q2-d1e552">Praeterea, ignis ille Deo obsequitur in purgatione mundi. Ergo deberet remunerari
+              aliis elementis remuneratis, et praecipue cum ignis sit nobilissimum elementorum. Non
+              ergo videtur quod in Infernum debeat dejici in damnatorum poenam.</p>
+            <p xml:id="ta-l4d47q2-d1e555">Praeterea, ignis qui malos involvet, erit ignis Inferni. Sed ignis ab initio mundi
+              praeparatus est damnatis; unde Matth. 5, 41: <quote xml:id="ta-l4d47q2-Qd1e557" ana="#mt5_41">ite maledicti in ignem aeternum,
+                qui praeparatus est Diabolo</quote> etc., et Isai. 30, 33: <quote xml:id="ta-l4d47q2-Qd1e560" ana="#is30_33">parata est ab heri
+                Tophet, a rege praeparata</quote> etc.; Glossa: <quote xml:id="ta-l4d47q2-Qd1e563">ab heri, idest ab initio;
+                Tophet, idest vallis Gehennae</quote>. Sed ignis ille finalis conflagrationis non
+              fuit ab initio praeparatus, sed ex concursu mundanorum ignium generabitur. Ergo ille
+              ignis est alius ab igne Inferni, qui reprobos involvet.</p>
+            <p xml:id="ta-l4d47q2-d1e567">In contrarium est quod in Psal. 96, 3, de igne illo dicitur, quod <quote xml:id="ta-l4d47q2-Qd1e569">inflammabit
+                in circuitu inimicos ejus</quote>.</p>
+            <p xml:id="ta-l4d47q2-d1e574">Praeterea, Dan. 7, 10, dicitur: <quote xml:id="ta-l4d47q2-Qd1e576" ana="#dan7_10">igneus fluvius rapidusque egrediebatur a facie
+                ejus</quote>; Glossa: <quote xml:id="ta-l4d47q2-Qd1e579">ut peccatores traheret in Gehennam</quote>. Loquitur
+              autem auctoritas illa de igne illo de quo nunc est mentio, ut patet per quamdam
+              Glossam, quae ibi dicit: <quote xml:id="ta-l4d47q2-Qd1e582">ut bonos purget et malos puniat</quote>. Ergo ignis
+              finalis conflagrationis in Infernum cum reprobis demergetur.</p>
+          </div>
+          <div xml:id="ta-l4d47q2-Dd1e588">
+            <head xml:id="ta-l4d47q2-Hd1e590">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d47q2-d1e593">Respondeo dicendum ad primam quaestionem, quod illa conflagratio secundum rei
+              veritatem quantum ad sui initium judicium praecedet: quod ex hinc manifeste colligitur
+              quod mortuorum resurrectio judicium praecedet; quod patet ex hoc quod dicitur 1
+              Thessal. 4, quod illi etiam qui dormierunt, rapientur in nubibus in aera obviam
+              Christo ad judicium venienti. Simul autem erit resurrectio communis, et corporum
+              sanctorum glorificatio: sancti enim resurgentes corpora gloriosa resument, ut patet
+              per illud quod dicitur 1 Corinth. 15, 43: <quote xml:id="ta-l4d47q2-Qd1e595" ana="#Icor15_43">seminatur in ignobilitate, surget in
+                gloria</quote>. Simul autem cum corpora sanctorum glorificabuntur; et tota creatura
+              suo modo renovabitur, ut patet per id quod dicitur Rom. 8, 21, quod <quote xml:id="ta-l4d47q2-Qd1e598" ana="#rom8_21">ipsa
+                creatura liberabitur a servitute corruptionis in libertatem gloriae filiorum
+                Dei</quote>. Cum ergo conflagratio mundi sit dispositio ad renovationem praedictam,
+              ut ex dictis patet; manifeste potest colligi quod illa conflagratio quo ad purgationem
+              mundi judicium praecedet; sed quo ad aliquem actum, qui scilicet est involvere malos,
+              judicium sequetur.</p>
+            <p xml:id="ta-l4d47q2-d1e602">Ad primum ergo dicendum, quod Augustinus non loquitur determinando, sed opinando:
+              quod patet ex hoc quod sequitur: <quote xml:id="ta-l4d47q2-Qd1e604">quae omnia quidem ventura esse credendum est;
+                sed quibus modis et quo ordine veniant, magis tunc docebit rerum experientia quam
+                nunc ad perfectum hominis intelligentia valeat consequi. Existimo tamen eo quo a me
+                commemorata sunt ordine esse ventura</quote>. Ergo patet quod hoc dixit
+              opinando.</p>
+            <p xml:id="ta-l4d47q2-d1e608">Et similiter dicendum ad secundum.</p>
+            <p xml:id="ta-l4d47q2-d1e611">Ad tertium dicendum, quod sicut supra, 13 dist., dictum est, omnes homines morientur
+              et resurgent; sed tamen illi vivi dicuntur reperiri qui usque ad tempus
+              conflagrationis in corpore vivent.</p>
+            <p xml:id="ta-l4d47q2-d1e615">Ad quartum dicendum, quod ignis ille non exequitur sententiam judicis nisi quo ad
+              involutionem malorum; et quantum ad hoc sequitur judicium.</p>
+
+          </div>
+          <div xml:id="ta-l4d47q2-Dd1e619">
+            <head xml:id="ta-l4d47q2-Hd1e621">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d47q2-d1e624">Ad secundam quaestionem dicendum, quod ignis ille finalis conflagrationis quantum ad
+              hoc quod judicium praecedet, aget ut instrumentum divinae justitiae; et iterum per
+              virtutem naturalem ignis. Quantum ergo pertinet ad virtutem naturalem ipsius,
+              similiter aget in bonos et malos, qui vivi reperientur, utrorumque corpora in cinerem
+              resolvendo; inquantum vero aget ut instrumentum divinae justitiae, diversimode aget in
+              diversos quantum ad sensum poenae. Mali enim per actionem ignis cruciabuntur, boni
+              vero in quibus nihil purgandum invenitur, omnino nullum dolorem ex igne sentient,
+              sicut nec pueri senserunt in camino, Dan. 3; quamvis eorum corpora non serventur
+              integra, sicut puerorum servata fuerunt; et hoc divina virtute fieri poterit, ut sine
+              doloris cruciatu resolutionem corporum patiantur. Boni vero in quibus aliquid
+              purgandum reperietur, sentient cruciatum doloris ex illo igne plus vel minus pro
+              meritorum diversitate. Sed quantum ad actum quem post judicium ille ignis habebit, in
+              damnatos tantum aget: quia omnes boni habebunt corpora impassibilia.</p>
+            <p xml:id="ta-l4d47q2-d1e627">Ad primum ergo dicendum, quod consumptio ibi accipitur non pro annihilatione, sed pro
+              resolutione in cineres.</p>
+            <p xml:id="ta-l4d47q2-d1e630">Ad secundum dicendum, quod bonorum corpora quamvis in cinerem resolvantur per ignem,
+              non tamen ex hoc dolorem sentient, sicut nec pueri in fornace existentes, ut dictum
+              est; et quantum ad hoc est dissimile de bonis et malis.</p>
+            <p xml:id="ta-l4d47q2-d1e633">Ad tertium dicendum, quod elementa in corporibus humanis existentia purgabuntur per
+              ignem etiam in corporibus electorum; sed hoc per divinam virtutem fiet sine cruciatu
+              doloris.</p>
+            <p xml:id="ta-l4d47q2-d1e637">Ad quartum dicendum, quod ignis ille non aget tantum secundum naturalem elementi
+              virtutem, sed etiam ut divinae justitiae instrumentum.</p>
+            <p xml:id="ta-l4d47q2-d1e640">Ad quintum dicendum, quod tres causae sunt quare subito illi qui vivi reperientur,
+              purgari poterunt. Una est, quia pauca purganda in eis inveniuntur, cum terroribus et
+              persecutionibus praecedentibus fuerint purgati. Secunda est, quia vivi et voluntarii
+              sustinebunt poenam; poena autem in hac vita voluntarie suscepta multo plus purgat quam
+              poena post mortem inflicta, sicut patet in martyribus; quod si quid purgandum in eis
+              invenitur, passionis falce tollitur, ut Augustinus dicit, cum tamen poena martyrum
+              brevis fuerit in comparatione ad poenam quae in Purgatorio sustinetur. Tertia est,
+              quia calor ille recuperabit in intensione quantum amittet in temporis
+              abbreviatione.</p>
+
+          </div>
+          <div xml:id="ta-l4d47q2-Dd1e644">
+            <head xml:id="ta-l4d47q2-Hd1e646">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d47q2-d1e649">Ad tertiam quaestionem dicendum, quod tota purgatio mundi et innovatio ad purgationem
+              et innovationem hominis ordinabitur; et ideo oportet ut mundi purgatio et innovatio
+              purgationi et innovationi humani generis respondeat. Humani autem generis purgatio
+              quaedam erit, quando mali segregabantur a bonis; unde dicitur Luc. 3, 17: <quote xml:id="ta-l4d47q2-Qd1e651">cujus
+                ventilabrum est in manus sua, et purgabit aream suam, et congregabit triticum
+                suum</quote>, idest electos, <quote xml:id="ta-l4d47q2-Qd1e654">in horreum suum; paleas autem</quote>, idest
+              reprobos, <quote xml:id="ta-l4d47q2-Qd1e657">comburet igne inextinguibili</quote>. Unde ita erit de purgatione
+              mundi, quod quidquid erit turpe et foedum, in Infernum cum reprobis retrudetur;
+              quidquid autem erit pulchrum et nobile, in superioribus reservabitur ad gloriam
+              electorum; et ita etiam erit de illo igne conflagrationis, sicut dicit Basilius super
+              illud Psal. 28: <quote xml:id="ta-l4d47q2-Qd1e660">vox domini intercidentis flammam ignis</quote>: quia quo ad
+              calidum ustivum, et quantum ad id quod in igne grossum reperietur, descendet ad
+              Inferos ad poenam damnatorum; quod vero est ibi subtile et lucidum, remanebit superius
+              ad gloriam electorum.</p>
+            <p xml:id="ta-l4d47q2-d1e664">Ad primum ergo dicendum, quod ignis qui purgabit electos ante judicium, erit idem cum
+              igne conflagrationis mundi; quamvis quidam contrarium dicant. Convenit enim ut, cum
+              homo sit pars mundi, eodem igne purgetur homo et mundus. Dicuntur autem duo ignes qui
+              purgabit bonos et qui cruciabit malos, et quantum ad officium, et aliquo modo quantum
+              ad substantiam: quia non tota substantia ignis purgantis in Infernum retrudetur, uti
+              dictum est.</p>
+            <p xml:id="ta-l4d47q2-d1e667">Ad secundum dicendum, quod in hoc ignis ille remunerabitur, quia illud quod est
+              grossum in eo, separabitur ab ipso, et retrudetur in Infernum.</p>
+            <p xml:id="ta-l4d47q2-d1e670">Ad tertium dicendum, quod sicut gloria electorum post judicium erit major quam ante,
+              ita et poena reproborum; et ideo sicut claritas superiori creaturae addetur ad
+              augmentandum gloriam electorum; ita et quidquid est turpe in creaturis, retrudetur in
+              Infernum ad augmentandum miseriam damnatorum; et ita igni ab initio praeparato in
+              Inferno non est inconveniens si alter ignis addatur.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d47q2-Dd1e676">
+          <head xml:id="ta-l4d47q2-Hd1e678">Expositio textus</head>
+          <p xml:id="ta-l4d47q2-d1e681"><quote xml:id="ta-l4d47q2-Qd1e682">Illi saltem verba judicis audient</quote> et cetera. Verba haec accipienda sunt
+            non vocalia, sed mentalia, ut supra dictum est. <quote xml:id="ta-l4d47q2-Qd1e685">Et peribit caelum et terra non
+              secundum substantiam, sed secundum speciem</quote>. Species hic dicitur
+            corruptibilitas elementorum, et alia quae ad ignobilitatem eorum spectant.
+              <quote xml:id="ta-l4d47q2-Qd1e688">Ministerio Angelorum virtute Dei cooperante mittentur mali in caminum
+              ignis</quote>. Hoc intelligendum est de bonis Angelis quantum ad praeceptum, sed de
+            malis Angelis quantum ad executionem.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

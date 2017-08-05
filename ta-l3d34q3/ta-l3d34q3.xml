@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum III, Distinctio 34, Quaestio 3</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.09-dev-master">
+          <title>Librum III, Distinctio 34, Quaestio 3</title>
+          <date when="2016-03-13">March 13, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-13">March 13, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness>1856 editum</witness>
+          <witness xml:id="H" n="harv245" xml:base="http://iiif.lib.harvard.edu/manifests/drs:51994085/canvas/">Cambridge, Mass.,
+            Harvard University, Houghton Library, MS Lat 245</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="2015.09">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+
+
+
+
+      <div xml:id="starts-on">
+        <cb ed="#H" n="135ra"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ta-l3d33q4">
+        <head xml:id="ta-l3d33q4-Hd1e97">Librum III, Distinctio 34, Quaestio 3</head>
+        <div xml:id="ta-l3d33q4-Dd1e100">
+          <head xml:id="ta-l3d33q4-Hd1e102">Prooemium</head>
+          <p xml:id="ta-l3d33q4-d1e105">Deinde quaeritur de aliis duobus donis subsequentibus: et 1 quaeritur de fortitudine; 2
+            de pietate.</p>
+        </div>
+        <div xml:id="ta-l3d33q4-Dd1e109" type="articulus">
+          <head xml:id="ta-l3d33q4-Hd1e111">Articulus 1</head>
+
+          <head xml:id="ta-l3d33q4-Hd1e114" type="questionTitle">Utrum fortitudo quae est donum, differat a fortitudine quae est
+            virtus</head>
+          <div xml:id="ta-l3d33q4-Dd1e117">
+            <head xml:id="ta-l3d33q4-Hd1e119">Quaestiuncula 1</head>
+            <p xml:id="ta-l3d33q4-d1e122">Ad primum sic proceditur. Videtur quod fortitudo quae est donum, non differat a
+              fortitudine quae est virtus. Quia secundum Dionysium in Cael. Hierar., spiritualium
+              proprietates ex nominibus nos oportet accipere. Sed habitus virtutis et doni
+              communicant in nomine fortitudinis. Ergo communicant in proprietate; et ita videntur
+              esse idem secundum rem.</p>
+            <p xml:id="ta-l3d33q4-d1e125">Praeterea, Gregorius dicit in 1 Moralium, quod fortitudo est quae dat confidentiam
+              trepidanti; et loquitur de dono fortitudinis. Sed hoc idem pertinet ad fortitudinem
+              quae est virtus, quia est circa timores imperturbatus virtuosus fortis, ut dicitur in
+              3 Ethic. Ergo sunt idem.</p>
+            <p xml:id="ta-l3d33q4-d1e128">Praeterea, donum, ut dictum est, differt a virtute, inquantum excedit ipsam. Sed
+              fortitudinis virtus, cum sit circa difficillimum, quod est mors, non potest excedi ab
+              aliquo. Ergo donum fortitudinis non differt a fortitudine virtute.</p>
+            <p xml:id="ta-l3d33q4-d1e131">Sed contra, diversorum generum et non subalternatim positorum, diversae sunt species
+              et differentiae, secundum philosophum in antepraedicamentis. Sed donum et virtus sunt
+              hujusmodi genera. Ergo fortitudo quae est in genere doni differt a fortitudine quae
+              est in genere virtutis.</p>
+            <p xml:id="ta-l3d33q4-d1e135">Praeterea, in Lib. de spiritu et anima dicitur, quod fortitudinis est non tantum
+              terrenas cupiditates reprimere, sed penitus oblivisci. Sed cupiditates non sunt
+              materia fortitudinis quae est virtus. Ergo oportet quod intelligatur de dono
+              fortitudinis; et ita videtur quod non sit una fortitudo quae est donum, et quae est
+              virtus.</p>
+          </div>
+          <div xml:id="ta-l3d33q4-Dd1e139">
+            <head xml:id="ta-l3d33q4-Hd1e141">Quaestiuncula 2</head>
+            <p xml:id="ta-l3d33q4-d1e144">Ulterius. Quaeritur, quis sit actus ejus in via. Et videtur quod non habeat unum
+              actum. Quia, sicut communiter dicitur, fortitudo exequitur in illis ad quae non omnes
+              tenentur, in quibus etiam consilium dirigit, sicut sunt opera supererogationis. Sed
+              haec non possunt reduci ad unum actum secundum speciem, cum hujusmodi opera fere
+              secundum omnes virtutes inveniantur. Ergo fortitudo non habet unum actum secundum
+              speciem.</p>
+            <p xml:id="ta-l3d33q4-d1e147">Praeterea, Gregorius dicit, quod spiritus fortitudinis est miraculis et doctrina
+              fulgere. Sed haec duo sunt diversa genera et ad invicem, et ad alios actus, qui dono
+              fortitudinis assignantur. Ergo idem quod prius.</p>
+            <p xml:id="ta-l3d33q4-d1e150">Praeterea, Augustinus dicit in Lib. de doctrina Christiana, ubi loquitur de donis,
+              quod fortitudinis est ab omnium transeuntium mortifera jucunditate seipsum
+              sequestrare. Gregorius autem dicit, quod fortitudo circa adversa fiduciam dat
+              trepidanti. Sed haec duo non reducuntur ad unum genus, cum unum videatur pertinere ad
+              materiam temperantiae, aliud autem ad materiam fortitudinis, vel patientiae. Ergo
+              videtur quod non habeant unum actum.</p>
+            <p xml:id="ta-l3d33q4-d1e153">Sed contra, habitus distinguuntur per actus. Sed fortitudo donum est unus habitus.
+              Ergo habet unum actum.</p>
+            <p xml:id="ta-l3d33q4-d1e157">Praeterea, donum est simplicius quam virtus, cum sit sublimius. Sed fortitudo virtus
+              habet unum actum principalem, scilicet sustinere pericula propter bonum. Ergo multo
+              fortius donum fortitudinis habet unum actum.</p>
+          </div>
+          <div xml:id="ta-l3d33q4-Dd1e161">
+            <head xml:id="ta-l3d33q4-Hd1e163">Quaestiuncula 3</head>
+            <p xml:id="ta-l3d33q4-d1e166">Ulterius. Quaeritur de actu fortitudinis in patria. Et videtur quod ibi nullum actum
+              habeat. Quia in quarta beatitudine ponitur ad statum gloriae pertinens saturari. Sed
+              hoc non significat aliquem actum. Cum ergo quarta beatitudo dono fortitudinis
+              adaptetur, videtur quod non habeat aliquem actum in patria.</p>
+            <p xml:id="ta-l3d33q4-d1e169">Praeterea, proprium fortitudinis videtur esse difficilia sustinere. Sed in patria
+              omnis difficultas tolletur: alias non esset ibi summa delectatio. Ergo non erit ibi
+              actus fortitudinis.</p>
+            <p xml:id="ta-l3d33q4-d1e172">Praeterea, fortitudinis actus ad vitam activam pertinet. Sed vita activa, ut sancti
+              dicunt, non remanebit in patria, sed contemplativa tantum. Ergo non erit ibi actus
+              fortitudinis.</p>
+            <p xml:id="ta-l3d33q4-d1e175">Sed contra, habitus nihil aliud videtur esse quam habilitatio ad actum; unde
+              Commentator dicit in 3 de anima, quod habitus est quo quis agit quando vult. Sed
+              habitus fortitudinis manebit in patria, ut Magister supra per auctoritates probavit.
+              Ergo et actus fortitudinis ibi erit.</p>
+            <p xml:id="ta-l3d33q4-d1e179">Praeterea, habitus sine actu est similis somno, secundum philosophum in 1 Ethic. Sed
+              felix et beatus, ut ibi dicitur, non est similis dormienti, sed vigilanti, cum sit in
+              ultima sua perfectione. Ergo, cum sit ibi habitus fortitudinis, erit actus.</p>
+          </div>
+          <div xml:id="ta-l3d33q4-Dd1e184">
+            <head xml:id="ta-l3d33q4-Hd1e186">Quaestiuncula 1</head>
+            <p xml:id="ta-l3d33q4-d1e189">Respondeo dicendum ad primam quaestionem, quod dona a virtutibus, ut dictum est,
+              differunt, inquantum dona altiori modo operantur; et secundum hoc oportet accipere
+              differentiam doni fortitudinis a fortitudinis virtute. Modus autem unicuique ex
+              propria mensura praefigitur, ut dictum est prius. Unde sciendum est, quod fortitudinis
+              virtus mensuram sui actus habet humanas vires; unde ea quae supergrediuntur vires
+              hominis, neque aggreditur, neque sustinet. Unde philosophus in 3 Ethic. dicit, quod
+              fortis est instupefactibilis ut homo, in his scilicet terribilibus quae sunt secundum
+              hominem. Sed donum fortitudinis habet pro mensura sui actus divinam potentiam, de
+              cujus auxilio confidit, sicut dicitur in Psal. 17, 30: <quote xml:id="ta-l3d33q4-Qd1e191">in Deo meo transgrediar
+                murum</quote>, idest omne quod posset humanae infirmitati obviare.</p>
+            <p xml:id="ta-l3d33q4-d1e195">Ad primum igitur dicendum, quod fortitudo donum et virtus conveniunt in aliqua
+              proprietate, quia utrumque est ad aliquid difficile sustinendum; sed non oportet quod
+              sint omnino idem in re.</p>
+            <p xml:id="ta-l3d33q4-d1e198">Ad secundum dicendum, quod trepidatio ex duobus potest consurgere. Uno modo tantum ex
+              difficultate adversantium; et hanc trepidationem reprimit fortitudinis virtus. Alio
+              modo ex difficultate adversantis simul et infirmitate hominis ad resistendum, vel
+              etiam impotentia; et hanc trepidationem reprimit donum fortitudinis ex fiducia divini
+              auxilii.</p>
+            <p xml:id="ta-l3d33q4-d1e201">Ad tertium dicendum, quod virtus fortitudinis est circa difficillima secundum genus,
+              non tamen secundum comparationem ad operantem, quia non excedunt vires ejus: sed
+              fortitudinis donum etiam est circa illa quae excedunt humanam facultatem; nec tamen
+              stulte, quia non excedunt facultatem divinae potentiae cui donum illud innititur.</p>
+          </div>
+          <div xml:id="ta-l3d33q4-Dd1e205">
+            <head xml:id="ta-l3d33q4-Hd1e207">Quaestiuncula 2</head>
+            <p xml:id="ta-l3d33q4-d1e210">Ad secundam quaestionem dicendum, quod quanto aliqua potentia altior est, tanto ad
+              plura se extendit. Et quia humana facultas est infirma respectu divinae facultatis,
+              ideo ad diversas difficultates sunt ordinatae diversae humanae facultates, et
+              quandoque separantur ab invicem; aliquis enim habet facultatem ut facile superare
+              possit difficultates quae sunt in delectationibus, qui tamen non facile superare
+              potest difficultates quae sunt in passionibus illatis; et sic de aliis. Sed divina
+              facultas est una et eadem respectu omnium praedictarum difficultatum. Et ideo, quia
+              fortitudinis virtus facultati humanae innititur, non est respectu omnium
+              difficultatum, sed respectu aliquarum, quae sunt maximae in genere humanarum; unde
+              excellenter fortitudinis nomen habet: ad alias autem difficultates sunt ordinatae
+              aliae virtutes, quae sunt facultates quaedam. Sed fortitudinis donum utitur divina
+              voluntate quasi sua, secundum quod in Psal. 17, 1, dicitur: <quote xml:id="ta-l3d33q4-Qd1e212">diligam te domine
+                virtus mea</quote>; et ideo unum donum fortitudinis se extendit ad omnes
+              difficultates quae in humanis rebus possunt accidere etiam supra facultatem humanam,
+              sicut apostolus dicebat Philipp. ult., 13: <quote xml:id="ta-l3d33q4-Qd1e215">omnia possum in eo qui me
+                confortat</quote>. Et ideo oportet actum doni fortitudinis accipere circa omnia
+              difficilia proportionabiliter actui fortitudinis circa quaedam difficilia. Cum autem
+              fortitudo virtus sit circa timores et audacias, habet duos actus: unum qui est
+              aggredi, inquantum moderatur audacias; alium qui est sustinere, inquantum moderatur
+              timores. Sed hic actus est principalior, inquantum difficilius est sustinere
+              difficultates praesentes quam tendere in absentes. Et similiter actus doni
+              fortitudinis principalis est sustinere omnes difficultates sive in passionibus sive in
+              operationibus; et ad hunc ordinatur alius actus qui est difficilia et ardua aggredi
+              spe divini auxilii. Hi autem duo actus non differunt secundum speciem, quia unus ad
+              alium ordinatur, et eadem est ratio dirigendi in ipsis; et ideo donum fortitudinis
+              habet unum actum secundum speciem.</p>
+            <p xml:id="ta-l3d33q4-d1e219">Ad primum igitur dicendum, quod quia supererogationis opera maxime videntur habere
+              difficultatem humanas vires excedentem, ideo praecipue circa illa dicitur esse donum
+              fortitudinis: nihilominus est et circa alias difficultates, circa quas est etiam
+              virtus communiter, sed non eodem modo, ut dictum est.</p>
+            <p xml:id="ta-l3d33q4-d1e222">Ad secundum dicendum, quod ad virtutem fortitudinis pertinet aliquid dupliciter. Uno
+              modo sicut principale objectum vel actus, sicut mortis pericula quae propter bonum
+              sustinentur. Alio modo sicut instrumenta, vel auxilia, quibus indiget fortis ad suum
+              actum, ut arma et societates bellantium. Ita etiam donum respicit ipsas difficultates
+              quae sunt in passionibus et in operationibus humanis principaliter, sed miracula et
+              doctrinam quasi auxilia ad suum actum; sicut patet in apostolis, qui miraculis et
+              doctrina totum mundum sub fide captivum duxerunt in obsequium Christi; et secundum hoc
+              dicit Gregorius, quod ad donum fortitudinis pertinet miraculis et doctrina
+              fulgere.</p>
+            <p xml:id="ta-l3d33q4-d1e225">Ad tertium dicendum, quod illa quamvis pertineant ad diversas virtutes, possunt tamen
+              pertinere ad unum donum, ut dictum est; et sic sunt idem objectum specie, secundum
+              quod specificantur inde unde specificatur donum.</p>
+          </div>
+          <div xml:id="ta-l3d33q4-Dd1e229">
+            <head xml:id="ta-l3d33q4-Hd1e231">Quaestiuncula 3</head>
+            <p xml:id="ta-l3d33q4-d1e234">Ad tertiam quaestionem dicendum, quod quicumque operatur secundum aliquam mensuram,
+              oportet quod habeat aliquem actum secundum quem respicit ad mensuram illam, et aliquem
+              secundum quem respicit ad mensuratum. Unde cum fortitudo mensuret actum suum circa
+              difficultates ex divina potestate, habet aliquem actum in comparatione ad
+              difficultates quas sustinet vel aggreditur, et aliquem in comparatione ad divinam
+              potestatem, cui innititur; et primus actus non erit in patria, ubi difficultas nulla
+              erit; sed secundus erit ibi, quia perfectissime divinae potentiae innitetur.</p>
+            <p xml:id="ta-l3d33q4-d1e237">Ad primum ergo dicendum, quod etiam in corporalibus quamvis saturitas non nominet
+              aliquem actum, tamen aliquid praesupponit, scilicet sumptionem cibi; ita et saturitas
+              quae ibi ponitur, quae est repletio omnium ex quorum defectu difficultas contingebat,
+              praesupponit quemdam spiritualem esum, secundum quem homo ab ipsa divina potentia bona
+              praedicta sumit, ei innixus.</p>
+            <p xml:id="ta-l3d33q4-d1e240">Ad secundum dicendum, quod quamvis vita activa non maneat quantum ad sui essentiam,
+              manet tamen quantum ad sui mensuram in finem: quia in his quae activae vitae sunt, ex
+              ipsa divina veritate regulamur.</p>
+            <p xml:id="ta-l3d33q4-d1e243">Ad tertium patet solutio ex praedictis.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l3d33q4-Dd1e248" type="articulus">
+          <head xml:id="ta-l3d33q4-Hd1e250">Articulus 2</head>
+
+          <head xml:id="ta-l3d33q4-Hd1e253" type="questionTitle">Utrum pietas sit donum</head>
+          <div xml:id="ta-l3d33q4-Dd1e256">
+            <head xml:id="ta-l3d33q4-Hd1e258">Quaestiuncula 1</head>
+            <p xml:id="ta-l3d33q4-d1e261">Ad secundum sic proceditur. Videtur quod pietas non sit donum. Donum enim immediatius
+              ordinat ad Deum quam virtus. Sed pietas quae est virtus, immediate in Deum ordinat:
+              quia secundum Augustinum in 10 de Civit. Dei, proprie pietas Dei cultus solet
+              intelligi, quam Graeci theosebiam vocant. Ergo pietas non est donum, cum non conjungat
+              Deo immediatius quam pietatis virtus.</p>
+            <p xml:id="ta-l3d33q4-d1e264">Praeterea, pietas secundum Gregorium in 1 Moralium, est quae docet opera
+              misericordiae frequentare. Haec autem pietas videtur esse idem cum misericordia, quae
+              est virtus. Ergo cum Gregorius ibi loquatur de pietate quae ponitur donum, videtur
+              quod pietas quae ponitur donum, sit virtus. Nulla autem virtus est donum. Ergo pietas
+              nullo modo potest esse donum.</p>
+            <p xml:id="ta-l3d33q4-d1e267">Praeterea, pietas, secundum Tullium, est benevolentia in parentes; et ponit eam
+              partem justitiae. Sed justitia est virtus. Ergo et pietas: ergo non est donum.</p>
+            <p xml:id="ta-l3d33q4-d1e270">Sed contra est quod dicitur Isai. 11: ibi enim inter dona computatur.</p>
+            <p xml:id="ta-l3d33q4-d1e274">Praeterea, pietas videtur esse excellentissimum in tota Christiana vita: quia ad
+              omnia valet, ut dicitur 1 Tim. Et hoc etiam dicit ibi Glossa Ambrosii. Ergo pietas
+              maxime debet poni donum.</p>
+          </div>
+          <div xml:id="ta-l3d33q4-Dd1e278">
+            <head xml:id="ta-l3d33q4-Hd1e280">Quaestiuncula 2</head>
+            <p xml:id="ta-l3d33q4-d1e283">Ulterius. Quaeritur de actu pietatis quam habet in via. Et videtur quod non habeat
+              unum actum secundum speciem. Augustinus enim in Lib. de Doct. Christiana dicit, quod
+              pietatis est honorare sanctos, non contradicere Scripturae, sive intellectae, sive non
+              intellectae: et loquitur ibi de dono pietatis: quod patet ex his quae dicit in quodam
+              sermone de Trinitate, ubi eumdem actum attribuit pietati, ad quem secundo loco inter
+              dona ascenditur. Gregorius autem assignat ei pro actu misericordiae operibus
+              insistere. Ergo cum ista duo non reducantur in idem genus, videtur quod actus pietatis
+              non sit in idem secundum speciem.</p>
+            <p xml:id="ta-l3d33q4-d1e286">Praeterea, pietas, ut communiter dicitur, in eisdem exequitur in quibus scientia
+              dirigit. Sed scientia dirigit in omnibus actibus humanis, quia docet conversari sine
+              offensione in medio pravae et perversae nationis. Ergo et pietas est circa omnes
+              humanos actus; et ita non habet solum unum actum in specie.</p>
+            <p xml:id="ta-l3d33q4-d1e289">Praeterea, secunda beatitudo qua dicitur <quote xml:id="ta-l3d33q4-Qd1e291">beati mites</quote>, ad pietatem
+              reducitur. Sed mititas, sive mansuetudo, est circa passiones irae, ut philosophus
+              dicit in 4 Ethic. Ergo et circa eadem est pietas. Sed ipsa est etiam in
+              communicationibus quae sunt ad alterum, ut patet per auctoritatem Gregorii inductam.
+              Cum ergo haec duo non reducantur ad idem genus, videtur quod pietas non habeat unum
+              actum secundum speciem.</p>
+            <p xml:id="ta-l3d33q4-d1e295">Sed contra, est unus habitus. Ergo habet unum actum principalem.</p>
+          </div>
+          <div xml:id="ta-l3d33q4-Dd1e299">
+            <head xml:id="ta-l3d33q4-Hd1e301">Quaestiuncula 3</head>
+            <p xml:id="ta-l3d33q4-d1e304">Ulterius. Quaeritur de actu ejus in patria. Et videtur quod non habeat ibi aliquem
+              actum. Quia pietas in communicationibus consistit quae ad alterum sunt. Sed hujusmodi
+              communicationes non erunt in patria, quia omnes sufficientiam ibi a Deo accipient:
+              propter insufficientiam enim uniuscujusque in se introductae sunt communicationes, ut
+              patet per philosophum in 5 Ethic. Ergo non erit ibi pietatis actus.</p>
+            <p xml:id="ta-l3d33q4-d1e307">Praeterea, ad pietatem pertinet misericordiae opera frequentare, ut dictum est per
+              auctoritatem Gregorii. Sed ibi non erunt opera misericordiae, ubi nulla erit miseria.
+              Ergo actus pietatis non erit in patria.</p>
+            <p xml:id="ta-l3d33q4-d1e310">Praeterea, in secunda beatitudine, quae pertinet ad pietatem, ponitur quantum ad
+              statum patriae, possessio terrae. Sed hoc non videtur aliquem actum importare. Ergo
+              pietas in patria nullum actum habebit.</p>
+            <p xml:id="ta-l3d33q4-d1e313">Sed contra, justitiae virtus magis videtur in patria permanere quam fortitudo, ut
+              prius dictum est. Cum ergo donum fortitudinis, quod respondet virtuti fortitudinis,
+              habeat aliquem actum in patria: multo fortius pietas, quae respondet justitiae, ut
+              videtur.</p>
+            <p xml:id="ta-l3d33q4-d1e317">Praeterea, in patria nihil erit otiosum et frustra. Sed habitus frustra esset, si non
+              in actum exiret, quia operatio est finis habitus. Cum ergo habitus doni pietatis in
+              patria maneat, et actus ejus ibidem manebit.</p>
+          </div>
+          <div xml:id="ta-l3d33q4-Dd1e322">
+            <head xml:id="ta-l3d33q4-Hd1e324">Quaestiuncula 1</head>
+            <p xml:id="ta-l3d33q4-d1e327">Respondeo dicendum ad primam quaestionem, quod tota moralis materia in tres partes
+              dividitur: scilicet in delectabilia, quae carnalis affectus prosequitur; in
+              difficilia, quae refugit; et in communicabilia, quae ad alterum sunt, quae potius in
+              actione quam passione consistunt. In singulis ergo eorum dirigit et donum et virtus,
+              sed differenter. Virtus enim dirigit in his accipiens regulam aliquid humanum, sed
+              donum accipiens pro regula aliquid divinum. In delectationibus ergo virtute dirigimur
+              quasi dignitate humanae naturae, cujus deturpationem per temporales delectationes
+              refugimus; sed dono dirigimur quasi regula ipsa dignitate divina, a qua separari per
+              inquinationem hujusmodi bonorum refugimus; quod ad timorem pertinet. Similiter patet
+              ex dictis, art. 1, quaestiunc. 1, quod differenter dirigit donum fortitudinis a
+              virtutibus, quae ad difficultates sustinendas vel aggrediendas ordinantur. Et
+              similiter contingit in communicationibus quae ad alterum sunt: quia in his dirigunt
+              virtutes, accipientes pro mensura aliquid humanum, puta observantes decentiam, vel
+              debitum ejus qui communicationes facit; sed donum accipit in his regulam ipsum Deum,
+              ut sicut dictum est, quod in fortitudine homo aggreditur difficilia utens divina
+              potentia per confidentiam quasi sua; ita communicat se ad alterum utens Deo quasi
+              seipso, ut scilicet ea quae ipsum decent in hujusmodi communicationibus, quasi Deo
+              unitus exequatur. Unde dominus, Matth. 5, ad beneficentiam caelestis patris hortatur,
+              qui solem suum facit oriri super bonos et malos. Et quia communicatio quae ad divina
+              est, nomen pietatis habet; ideo et donum quod in communicationibus divinam mensuram
+              habet, pietas nominatur.</p>
+            <p xml:id="ta-l3d33q4-d1e330">Ad primum igitur dicendum, quod donum immediatius ordinat ad Deum quantum ad modum
+              operandi, sive mensuram operis, quam virtus; non autem quantum ad objectum vel finem.
+              Quamvis ergo pietas virtus, quae latria dicitur, ipsi Deo exhibeatur; in hoc tamen
+              accipit aliquid humanum pro mensura, scilicet beneficium a Deo acceptum, ratione cujus
+              est debitor ei: sed pietas quae est donum, accipit in hoc aliquid divinum pro mensura,
+              ut scilicet Deo honorem impendat, non quia sit ei debitus, sed quia Deus honore dignus
+              est, per quem modum etiam ipse Deus sibi honori est.</p>
+            <p xml:id="ta-l3d33q4-d1e333">Ad secundum dicendum, quod pietas donum in hoc differt a misericordia, quia
+              misericordia studet ad relevandas miserias proximorum ex hoc quod sunt conjuncti vel
+              sanguine, vel familiaritate, vel saltem naturae similitudine, in omnibus aliquid
+              humanum pro mensura accipiens, sicut aliae virtutes; sed pietas donum movetur ad
+              relevandas eorum miserias ex aliquo divino; scilicet inquantum sunt filii Dei, vel
+              divina similitudine insigniti; unde et magis proprie nomen pietatis habet, quae
+              divinum quid sonat: quamvis et ipsa misericordia, secundum Augustinum 10 de Civit.
+              Dei, more vulgi pietas dicatur: quod ideo accidit, quia eam sibi Deus quasi
+              sacrificium placere testatur. Unde et philosophus dicit in 4 Ethic., quod dona habent
+              aliquid simile Deo sacratis.</p>
+            <p xml:id="ta-l3d33q4-d1e336">Ad tertium dicendum, quod etiam in parentibus est aliquid divinum respectu filiorum,
+              inquantum ipsi filiis causa sunt essendi; et ideo virtus beneficentiae ad ipsos,
+              pietas vocatur: accipit tamen mensuram aliquid humanum, ut dictum est, in quo differt
+              a dono.</p>
+          </div>
+          <div xml:id="ta-l3d33q4-Dd1e340">
+            <head xml:id="ta-l3d33q4-Hd1e342">Quaestiuncula 2</head>
+            <p xml:id="ta-l3d33q4-d1e345">Ad secundam quaestionem dicendum, quod pietas donum uno et eodem modo dirigit in
+              communicationibus omnibus quae ad alterum sunt, aliam tamen mensuram accipiens quam
+              virtutes: quae mensura, quia simplex est et una, ideo pietas unus habitus est
+              specialis: et ex comparatione ad hanc mensuram omnis ejus actus specificatur.</p>
+            <p xml:id="ta-l3d33q4-d1e348">Ad primum igitur dicendum, quod donum pietatis operatur et in materia latriae et in
+              materia misericordiae, quamvis alio modo ab eis; et ideo non est inconveniens, si illa
+              duo ad pietatem pertinent: exhibere enim reverentiam sacrae Scripturae et aliis
+              divinis, ad latriam pertinere videtur.</p>
+            <p xml:id="ta-l3d33q4-d1e351">Ad secundum dicendum, quod scientia dirigit in omnibus humanis, in quibus exequuntur
+              et timor et pietas et fortitudo; sed per quamdam adaptationem scientia et pietas
+              combinantur: quia in his quae ad alterum sunt, homo operans quasi judicium quoddam
+              exercet: judicium autem et imperium de agendis ad scientiam pertinet, sicut ad
+              prudentiam: et similiter per quamdam adaptationem fortitudini consilium combinatur:
+              quia in rebus difficilibus, in quibus habet fortitudo executionem, praecipue consilia
+              inquirimus, quamvis consilium in omnibus humanis dirigat.</p>
+            <p xml:id="ta-l3d33q4-d1e354">Ad tertium dicendum, quod ira et perturbat hominem in seipso, et commovet eum ad
+              alium, inquantum est appetitus vindictae; et per consequens mansuetudo hominem et in
+              seipso perficit et ad alterum; et ex hac parte mititas ad pietatem reducitur.</p>
+          </div>
+          <div xml:id="ta-l3d33q4-Dd1e358">
+            <head xml:id="ta-l3d33q4-Hd1e360">Quaestiuncula 3</head>
+            <p xml:id="ta-l3d33q4-d1e363">Ad tertiam quaestionem dicendum, quod de actu pietatis plus potest in patria remanere
+              quam de actu fortitudinis: potest enim non tantum remanere actus qui est per
+              comparationem ad mensuram quam pietas donum attendit, scilicet adhaerere ipsi Deo; sed
+              etiam actus qui est per comparationem ad eos quibus beneficia praestare paratus erat
+              secundum affectum, ut scilicet benevolentiam ad eos servet, et de eorum bonis
+              congaudeat, et de suis etiam largiatur secundum modum istius vitae, secundum quem
+              superiores aliquid influunt inferioribus, secundum doctrinam Dionysii.</p>
+            <p xml:id="ta-l3d33q4-d1e366">Ad primum ergo dicendum, quod non erit communicatio ad supplendam indigentiam, sed ad
+              augendam laetitiam.</p>
+            <p xml:id="ta-l3d33q4-d1e369">Ad secundum dicendum, quod loquitur de pietate secundum actum quem habet in via.</p>
+            <p xml:id="ta-l3d33q4-d1e372">Ad tertium dicendum, quod possessio terrae praesupponit haustum sufficientiae a Deo,
+              per quem possint in alios influere vel secundum affectum vel secundum effectum.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l3d33q4-Dd1e377">
+          <head xml:id="ta-l3d33q4-Hd1e379">Expositio textus</head>
+          <p xml:id="ta-l3d33q4-d1e382"><quote xml:id="ta-l3d33q4-Qd1e383">Hic timor malus est</quote>. Non enim quandocumque timetur periculum carnis,
+            dicitur timor humanus; neque quando timetur amissio boni temporalis, dicitur timor
+            mundanus; sed tantum quando talis timor est inordinatus; et ideo semper sonat in malum.
+              <quote xml:id="ta-l3d33q4-Qd1e386">Cum supra Beda duos dixerit esse timores</quote>. Beda distinxit timores
+            secundum quod retrahunt a malo culpae, et distinxit secundum retrahentia, quae sunt duo,
+            poena futura, et separatio a Deo. Sed Magister distinxit timores secundum inclinationes
+            ad malum et secundum retractionem, non solum quantum ad motiva, sed etiam quantum ad
+            status. <quote xml:id="ta-l3d33q4-Qd1e389">Sed eo quod mala times, corrigis te</quote>. Contra. Augustinus dicit,
+            quod in timore servili manet voluntas peccandi. Ergo non corrigit se. Et dicendum, quod
+            manet voluntas non absoluta, sed conditionata, quae velleitas dicitur, ut scilicet
+            peccaret, si impune liceret. <quote xml:id="ta-l3d33q4-Qd1e392">Sciendum tamen, quod uterque timor, scilicet
+              servilis et initialis, in Scripturae diversis locis dicitur initium
+            sapientiae</quote>. Videtur hoc esse falsum: quia sapientia est perfectius donum quam
+            timor, et ita timor non est principium ejus. Et dicendum, quod non est principium sicut
+            creans essentiam ejus, sed sicut dispositio ad ipsam, a quo incipit motus in sapientiam
+            perveniens.</p>
+        </div>
+
+      </div>
+    </body>
+  </text>
+</TEI>

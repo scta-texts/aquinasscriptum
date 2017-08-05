@@ -1,0 +1,594 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 45, Quaestio 1</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Librum IV, Distinctio 45, Quaestio 1</title>
+          <date when="2016-03-19">March 19, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-19">March 19, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness>1856 editum</witness>
+          <witness xml:id="G" n="ghent567">Ghent, Belgium, Ghent University Library, 567</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="0.0.0-dev">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+
+
+
+
+      <div xml:id="starts-on">
+        <cb ed="#G" n="631b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ta-l4d45q1">
+        <head xml:id="ta-l4d45q1-Hd1e97">Librum IV, Distinctio 45, Quaestio 1</head>
+        <div xml:id="ta-l4d45q1-Dd1e100">
+          <head xml:id="ta-l4d45q1-Hd1e102">Prooemium</head>
+          <p xml:id="ta-l4d45q1-d1e105">Postquam determinavit Magister de his quae ad resurrectionem pertinent, hic incipit
+            determinare de his quae pertinent ad remunerationem vel punitionem resurgentium; et
+            dividitur in partes duas: in prima enim determinatur de remuneratione et punitione quae
+            praecedit judicium generale; in secunda de illa quae judicium generale sequitur, dist.
+            47, ibi: <quote xml:id="ta-l4d45q1-Qd1e107">solet etiam quaeri, qualiter dabitur judicii sententia</quote>. Prima
+            autem dividitur in duas: in prima determinat de remuneratione vel punitione animarum
+            ante diem judicii, et resurrectionem; in secunda ostendit qualiter secundum justitiam et
+            misericordiam Dei praedicta dispensentur, distinct. 46, ibi: <quote xml:id="ta-l4d45q1-Qd1e110">sed quaeritur hic de
+              valde malis</quote> et cetera. Prima dividitur in duas: primo ostendit quomodo animae
+            post mortem diversa receptacula habebunt pro diversitate meritorum; in secunda
+            determinat qualiter animae post mortem certis receptaculis distributae juvari possunt
+            orationibus aliorum, ibi: <quote xml:id="ta-l4d45q1-Qd1e113">neque negandum est, ut ait Augustinus, defunctorum
+              animas pietate suorum viventium relevari</quote>. Et haec pars dividitur in partes
+            duas: in prima ostendit qualiter mortui juvantur suffragiis vivorum; in secunda
+            inquirit, quomodo vivi juvantur precibus mortuorum sanctorum, ibi: <quote xml:id="ta-l4d45q1-Qd1e116">sed forte
+              quaeris: numquid preces supplicantium sancti audiunt?</quote> Prima autem dividitur in
+            duas: in prima determinat de illis mortuis pro quibus suffragia fiunt, quando eis
+            prosunt; in secunda inquirit, utrum prosint eis pro quibus non fiunt, ibi: <quote xml:id="ta-l4d45q1-Qd1e119">solet
+              moveri quaestio de duobus</quote> et cetera. Prima dividitur in duas: in prima dicit
+            quae sunt illa quae facta a vivis, prosunt mortuis; in secunda quae sunt illa quae non
+            prosunt, ibi: <quote xml:id="ta-l4d45q1-Qd1e123">de pompis vero exequiarum idem Augustinus ita dicit. Solet moveri
+              quaestio de duobus</quote> et cetera. Circa hoc duo facit: primo inquirit de illis pro
+            quibus suffragia non fiunt statu praesentis Ecclesiae durante; secundo de illis pro
+            quibus fiunt praesenti Ecclesia deficiente, ibi: <quote xml:id="ta-l4d45q1-Qd1e126">sed iterum quaeritur de aliquo
+              mediocriter bono. Sed forte quaeris: numquid preces supplicantium sancti
+              audiunt?</quote> Hic ostendit quomodo suffragia mortuorum sanctorum vivis prosunt; et
+            circa hoc tria facit: primo enim proponit quod intendit; secundo confirmat propositum
+            per similitudinem Angelorum, ibi: <quote xml:id="ta-l4d45q1-Qd1e129">sicut enim Angelis, ita et sanctis qui Deo
+              assistunt, petitiones nostrae innotescunt in verbo Dei</quote>; tertio concludit
+            intentum, ibi: <quote xml:id="ta-l4d45q1-Qd1e132">si autem Angeli a Deo per verbum ejus discunt petitiones nostras
+              (...) cur non credamus et animas sanctorum Dei faciem contemplantium, in ejus veritate
+              intelligere preces hominum?</quote> Hic tria quaeruntur. Primo de receptaculis
+            animarum post mortem. Secundo de suffragiis mortuorum. Tertio de orationibus sanctorum.
+            Circa primum quaeruntur tria: 1 utrum animabus post mortem aliqua receptacula
+            assignentur; 2 de differentia receptaculorum; 3 de numero eorumdem.</p>
+
+        </div>
+        <div xml:id="ta-l4d45q1-Dd1e137" type="articulus">
+          <head xml:id="ta-l4d45q1-Hd1e139">Articulus 1</head>
+
+          <head xml:id="ta-l4d45q1-Hd1e142" type="questionTitle">Utrum animabus post mortem receptacula assignentur</head>
+
+          <div xml:id="ta-l4d45q1-Dd1e145">
+            <head xml:id="ta-l4d45q1-Hd1e147">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d45q1-d1e150">Ad primum sic proceditur. Videtur quod animabus post mortem receptacula non
+              assignentur. Sicut enim dicit Boetius in libro de Hebdom., <quote xml:id="ta-l4d45q1-Qd1e152">communis animi
+                conceptio est apud sapientes, incorporalia in loco non esse</quote>; cui concordat
+              quod Augustinus dicit in 12 super Genes. ad litteram: <quote xml:id="ta-l4d45q1-Qd1e155">cito quidem responderim,
+                ad corporalia loca animam non ferri, nisi cum aliquo corpore</quote>. Sed anima
+              separata a corpore non habet aliquod corpus, sicut ibidem Augustinus dicit. Ergo
+              ridiculum est animabus separatis aliqua receptacula assignare.</p>
+            <p xml:id="ta-l4d45q1-d1e159">Praeterea, omne quod habet locum determinatum, magis convenit cum illo loco quam cum
+              alio. Sed animae separatae, sicut et quaelibet spirituales substantiae, indifferenter
+              se habent ad omnia loca: non enim potest dici quod cum aliquibus corporibus
+              conveniant, et cum aliis differant; cum ab omnibus conditionibus corporalibus sint
+              penitus remotae. Ergo eis determinata receptacula non sunt assignanda.</p>
+            <p xml:id="ta-l4d45q1-d1e162">Praeterea, animabus separatis non assignatur aliquid post mortem nisi quod cedat in
+              poenam vel praemium. Sed corporalis locus non potest eis esse in poenam vel in
+              praemium, cum a corporibus nihil recipiant. Ergo non sunt eis assignanda certa
+              receptacula.</p>
+            <p xml:id="ta-l4d45q1-d1e165">Sed contra, caelum Empyreum locus corporalis est; et tamen ipsum factum mox sanctis
+              Angelis est repletum, ut Strabus dicit. Cum ergo Angeli sint incorporei, sicut et
+              animae separatae; videtur etiam quod separatis animabus sint certa receptacula
+              assignanda. Ergo et cetera.</p>
+            <p xml:id="ta-l4d45q1-d1e169">Praeterea, hoc patet per hoc quod Gregorius in 4 Dialog. narrat, animas post mortem
+              ad diversa loca corporalia esse deductas; ut patet de Paschasio, quem germanus
+              Capuanus episcopus in balneis invenit, et de anima Theodorici regis, quam dicit ad
+              Gehennam fuisse perductam. Ergo animae post mortem habent certa receptacula.</p>
+
+          </div>
+          <div xml:id="ta-l4d45q1-Dd1e173">
+            <head xml:id="ta-l4d45q1-Hd1e175">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d45q1-d1e178">Ulterius. Videtur quod statim post mortem nullae animae deducantur ad caelos, vel ad
+              Infernum. Quia super illud Psalm. 36, 10, <quote xml:id="ta-l4d45q1-Qd1e180">adhuc pusillum, et non erit
+                peccator</quote>, dicit Glossa, quod sancti liberantur in fine vitae: post hanc
+              tamen vitam non ibi erunt ubi erunt sancti, quibus dicetur: <quote xml:id="ta-l4d45q1-Qd1e183">venite benedicti
+                patris mei</quote>. Sed illi sancti erunt in caelo. Ergo sancti post hanc vitam non
+              statim ascendunt ad caelum.</p>
+            <p xml:id="ta-l4d45q1-d1e187">Praeterea, Augustinus dicit in Enchir., quod tempus quod inter hominis mortem et
+              ultimam resurrectionem interpositum est, animas abditis receptaculis continet, sicut
+              unaquaeque digna est requie vel aerumna. Sed haec abdita receptacula non possunt
+              intelligi caelum et Infernus; quia in illis etiam post resurrectionem ultimam animae
+              cum corporibus erunt; unde pro nihilo distingueret tempus ante resurrectionem et post
+              resurrectionem. Ergo non erunt nec in Inferno nec in Paradiso usque ad diem
+              judicii.</p>
+            <p xml:id="ta-l4d45q1-d1e190">Praeterea, major est gloria animae quam gloria corporum. Sed simul omnibus redditur
+              gloria corporum, ut sit major laetitia singulorum ex communi gaudio, ut patet Hebr.
+              11, super illud: <quote xml:id="ta-l4d45q1-Qd1e192">Deo pro nobis aliquid melius providente</quote> etc.; ubi
+              dicit Glossa: <quote xml:id="ta-l4d45q1-Qd1e195">ut in communi gaudio omnium majus fieret gaudium
+                singulorum</quote>. Ergo multo fortius et gloria animarum debet differri usque ad
+              finem, ut simul omnibus reddatur.</p>
+            <p xml:id="ta-l4d45q1-d1e199">Praeterea, poena et praemium quae per sententiam judicii redduntur, judicium
+              praecedere non debent. Sed ignis Inferni et gaudia Paradisi dabuntur hominibus per
+              sententiam Christi judicantis in ultimo judicio, ut patet Matth. 25. Ergo ante diem
+              judicii nullus ascendit ad caelum, vel descendit ad Inferos.</p>
+            <p xml:id="ta-l4d45q1-d1e203">Sed contra est quod dicitur 2 Corinth. 5, 1: si terrena nostra habitatio dissolvatur,
+              domum habemus non manufactam conservatam in caelis. Ergo dissoluta carne homo habet
+              mansionem quae in caelis fuerit ei conservata.</p>
+            <p xml:id="ta-l4d45q1-d1e206">Praeterea, Philip. 1, 23, dicit apostolus: <quote xml:id="ta-l4d45q1-Qd1e208">cupio dissolvi, et esse cum
+                Christo</quote>: ex quo sic arguit Gregorius in 4 Dialog.: <quote xml:id="ta-l4d45q1-Qd1e211">qui ergo Christum
+                in caelo esse non dubitat, nec Pauli animam esse in caelo negat</quote>. Sed non est
+              negandum Christum esse in caelo, cum sit articulus fidei. Ergo nec dubitandum est
+              animas sanctorum ad caelos ferri. Quod etiam aliquae ad Infernum descendant post
+              mortem statim, patet Luc. 16: <quote xml:id="ta-l4d45q1-Qd1e214">mortuus est dives, et sepultus est in
+                Inferno</quote>.</p>
+
+          </div>
+          <div xml:id="ta-l4d45q1-Dd1e219">
+            <head xml:id="ta-l4d45q1-Hd1e221">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d45q1-d1e224">Ulterius. Videtur quod animae in Paradiso vel in Inferno existentes egredi non
+              valeant. Augustinus enim dicit in Lib. de cura pro mortuis gerenda: <quote xml:id="ta-l4d45q1-Qd1e226">si rebus
+                viventium interessent animae mortuorum, ut de aliis taceam, meipsum pia mater nulla
+                nocte desereret, quae terra marique secuta est ut mecum viveret</quote>; et ex hoc
+              concludit quod animae defunctorum rebus viventium non intersint. Sed interesse
+              possent, si de suis receptaculis exirent. Ergo de suis receptaculis non exeunt.</p>
+            <p xml:id="ta-l4d45q1-d1e230">Praeterea, in Psalm. 26, 4, dicitur: <quote xml:id="ta-l4d45q1-Qd1e232">ut habitem in domo domini omnibus diebus
+                vitae meae</quote>; et Job 7, 9: <quote xml:id="ta-l4d45q1-Qd1e235">qui descendit ad Inferos, non
+                ascendet</quote>. Ergo tam boni quam mali a suis receptaculis non exeunt.</p>
+            <p xml:id="ta-l4d45q1-d1e239">Praeterea, receptacula, ut est dictum, animabus post mortem dantur in praemium vel in
+              poenam. Sed post mortem neque praemia sanctorum minuuntur, neque poenae damnatorum.
+              Ergo non exeunt de suis receptaculis.</p>
+            <p xml:id="ta-l4d45q1-d1e242">Sed contra est quod dicit Hieronymus contra Vigilantium sic eum alloquens: <quote xml:id="ta-l4d45q1-Qd1e244">ais
+                enim vel in sinu Abrahae, vel in loco refrigerii, vel subter aram Dei animas
+                apostolorum et martyrum consedisse, nec posse suis tumulis, cum voluerint, adesse
+                praesentes; et ita tu Deo leges ponis, tu apostolis vincula injicies, ut usque ad
+                diem judicii teneantur custodia, nec sint cum domino suo, de quibus scriptum
+                est</quote> Apoc. cap. 14, 4: <quote xml:id="ta-l4d45q1-Qd1e247">sequuntur agnum quocumque ierit</quote>. Sed
+              agnus ubique est. Ergo et hi qui cum agno sunt, ubique esse credendi sunt. Ridiculum
+              ergo est dicere, quod animae mortuorum a suis receptaculis non recedant.</p>
+            <p xml:id="ta-l4d45q1-d1e252">Praeterea, Hieronymus ibidem arguit sic: <quote xml:id="ta-l4d45q1-Qd1e254">cum Diabolus et Daemones toto
+                vagentur orbe, et celeritate nimia ubique praesentes sint; martyres post effusionem
+                sanguinis ara operientur inclusi, et inde exire non poterunt?</quote> Ex quo potest
+              concludi non solum de bonis, sed etiam de malis, quod sua receptacula interdum exeant,
+              cum non habeant majorem damnationem quam Daemones, qui ubique discurrunt.</p>
+            <p xml:id="ta-l4d45q1-d1e258">Praeterea, idem probari potest per Gregorium in 4 Dialog., ubi narrat de multis
+              mortuis quod viventibus apparuerunt.</p>
+          </div>
+          <div xml:id="ta-l4d45q1-Dd1e263">
+            <head xml:id="ta-l4d45q1-Hd1e265">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d45q1-d1e268">Respondeo dicendum ad primam quaestionem, quod quamvis substantiae spirituales
+              secundum esse suum a corpore non dependeant, corporalia tamen a Deo mediantibus
+              spiritualibus gubernantur, ut dicit Augustinus in 3 de Trinit., et Gregorius in 4
+              Dialog.; et ideo est quaedam convenientia substantiarum spiritualium ad corporales
+              substantias per congruentiam quamdam, ut scilicet dignioribus substantiis digniora
+              corpora adaptentur; unde etiam philosophi secundum ordinem mobilium posuerunt ordinem
+              substantiarum separatarum. Quamvis autem animabus post mortem non assignentur aliqua
+              corpora, quorum sint formae vel determinati motores; determinantur tamen eis quaedam
+              corporalia loca per congruentiam quamdam secundum gradus dignitatis eorum, in quibus
+              sunt quasi in loco, eo modo quo incorporalia in loco esse possunt, secundum quod magis
+              accedent ad primam substantiam (cui locus superior per congruentiam deputatur)
+              scilicet Deum, cujus sedem caelum Scriptura esse denuntiat; et ideo animas quae sunt
+              in participatione perfecta divinitatis, in caelo esse ponimus; animas vero quae a
+              participatione hujusmodi impediuntur, loco contrario dicimus deputari.</p>
+            <p xml:id="ta-l4d45q1-d1e271">Ad primum ergo dicendum, quod incorporalia non sunt in loco modo aliquo noto nobis et
+              consueto, secundum quod dicimus corpora proprie in loco esse; sunt tamen in loco modo
+              substantiis spiritualibus convenienti, qui nobis plene manifestus esse non potest.</p>
+            <p xml:id="ta-l4d45q1-d1e274">Ad secundum dicendum, quod duplex est convenientia vel similitudo. Una quae est per
+              participationem ejusdem qualitatis, sicut calida ad invicem conveniunt; et talis
+              convenientia incorporalium ad loca corporalia esse non potest. Alia per quamdam
+              proportionalitatem, secundum quam in Scripturis metaphorae corporalium ad spiritualia
+              transferuntur; ut quod dicitur Deus esse sol, quia est principium vitae spiritualis,
+              sicut sol vitae corporalis; et secundum hanc convenientiam quaedam animae quibusdam
+              locis magis conveniunt, sicut animae spiritualiter illuminatae cum corporibus
+              luminosis; animae vero obtenebratae per culpam cum locis tenebrosis.</p>
+            <p xml:id="ta-l4d45q1-d1e277">Ad tertium dicendum, quod anima separata directe nihil recipit a locis corporalibus
+              per modum quo corpora recipiunt, quae conservantur a suis locis; sed ipsae animae ex
+              hoc quod cognoscunt se talibus locis deputari, sibi gaudium ingerunt vel moerorem; et
+              sic locus cedit eis in poenam vel in praemium.</p>
+
+          </div>
+          <div xml:id="ta-l4d45q1-Dd1e281">
+            <head xml:id="ta-l4d45q1-Hd1e283">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d45q1-d1e286">Ad secundam quaestionem dicendum, quod sicut in corporibus est gravitas vel levitas,
+              qua feruntur in locum suum, qui est finis motus ipsorum; ita etiam est in animabus
+              meritum vel demeritum, quibus perveniunt animae ad praemium vel poenam, quae sunt
+              fines actionum ipsarum; unde sicut corpus per gravitatem vel levitatem statim fertur
+              in locum suum, nisi prohibeatur; ita statim animae, soluto vinculo carnis, per quod in
+              statu viae detinebantur, praemium consequuntur vel poenam, nisi aliquid impediat;
+              sicut interdum impedit consecutionem praemii veniale peccatum, quod prius purgari
+              oportet, ex quo sequitur quod praemium differatur. Et quia locus deputatur animabus
+              secundum congruentiam praemii vel poenae; statim ut anima a corpore absolvitur, vel in
+              Infernum demergitur, vel ad caelum evolat, nisi impediatur aliquo reatu quo oportuit
+              evolationem differri, ut prius anima purgetur. Et huic veritati auctoritates
+              Scripturae canonicae manifeste attestantur, et documenta sanctorum patrum; unde
+              contrarium pro haeresi est habendum, ut patet 4 Dial., et in Lib. de Eccl.
+              dogmatibus.</p>
+            <p xml:id="ta-l4d45q1-d1e289">Ad primum ergo dicendum, quod Glossa seipsam exponit; quod enim dicit: <quote xml:id="ta-l4d45q1-Qd1e291">nondum
+                erunt ubi erunt sancti</quote> etc. statim exponit subdens; <quote xml:id="ta-l4d45q1-Qd1e294">idest, non
+                habebunt geminam stolam quam habebunt sancti in resurrectione</quote>.</p>
+            <p xml:id="ta-l4d45q1-d1e298">Ad secundum dicendum, quod inter illa abdita receptacula, de quibus Augustinus
+              loquitur, etiam sunt computandi Infernus et Paradisus, in quibus animae aliquae ante
+              resurrectionem continentur. Sed ideo distinguitur tempus ante resurrectionem et post,
+              quia ante resurrectionem sunt ibi sine corpore, post autem erunt cum corpore; et quia
+              in aliquibus receptaculis nunc sunt animae in quibus post resurrectionem non
+              erunt.</p>
+            <p xml:id="ta-l4d45q1-d1e301">Ad tertium dicendum, quod homines secundum corpora habent quamdam continuitatem ad
+              invicem, quia secundum ea est verum quod dicitur Act. 17, quod <quote xml:id="ta-l4d45q1-Qd1e303">Deus ex uno
+                fecit omne hominum genus</quote>. Sed animas singillatim finxit; unde non est tanta
+              congruentia ut omnes homines simul glorificentur in anima, sicut quod simul
+              glorificentur in corpore. Et praeterea gloria corporis non est ita essentialis sicut
+              gloria animae; unde majus detrimentum esset sanctis si gloria animae differretur, quam
+              de hoc quod gloria corporis differtur; nec posset hoc detrimentum gloriae recompensari
+              per ampliationem gaudii singulorum de gaudio communi.</p>
+            <p xml:id="ta-l4d45q1-d1e308">Ad quartum dicendum, quod eamdem objectionem Gregorius 4 Dial. proponit, et solvit.
+                <quote xml:id="ta-l4d45q1-Qd1e310">Si</quote>, inquit, <quote xml:id="ta-l4d45q1-Qd1e313">nunc in caelo sunt animae sanctorum, quid est quod
+                in die judicii pro justitiae suae retributione recipiunt?</quote> Et respondet:
+                <quote xml:id="ta-l4d45q1-Qd1e316">hoc eis nimirum crescit in judicio, quod nunc animae sola sui gloria
+                retributione laetantur; postmodum vero etiam corporum beatitudine perfruentur, ut in
+                ipsa quoque gaudeant, in qua dolores pro domino cruciatusque pertulerunt</quote>. Et
+              eodem modo dicendum est de damnatis.</p>
+
+          </div>
+          <div xml:id="ta-l4d45q1-Dd1e321">
+            <head xml:id="ta-l4d45q1-Hd1e323">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d45q1-d1e326">Ad tertiam quaestionem dicendum, quod aliquem exire de Inferno vel Paradiso potest
+              intelligi dupliciter. Uno modo ut simpliciter inde exeat, ut jam ejus locus non sit
+              Paradisus vel Infernus; et sic nullus Inferno vel Paradiso finaliter deputatus inde
+              exire potest, ut in sequenti dist., qu. 2, art. 3, dicetur. Alio modo potest
+              intelligi, ut exeat inde ad tempus; et in hoc distinguendum est quid eis conveniat
+              secundum legem naturae, et quid eis conveniat secundum ordinem divinae justitiae;
+              quia, ut Augustinus dicit in Lib. de cura pro mortuis agenda, <quote xml:id="ta-l4d45q1-Qd1e328">alii sunt
+                humanarum limites rerum, alia sunt divinarum signa virtutum; alia sunt quae
+                naturaliter, alia quae mirabiliter fiunt</quote>. Secundum ergo naturalem cursum,
+              animae separatae, receptaculis propriis deputatae, a conversatione viventium penitus
+              segregantur. Non enim secundum cursum naturae homines in mortali carne viventes
+              substantiis separatis immediate conjunguntur, cum omnis eorum cognitio a sensu
+              oriatur; nec propter aliud a suis receptaculis eas exire conveniret, nisi ut rebus
+              viventium interessent. Sed secundum dispositionem divinae providentiae aliquando
+              animae separatae a suis receptaculis egressae conspectibus hominum praesentantur,
+              sicut Augustinus in praedicto libro narrat de Felice martyre, qui civibus Nolanis
+              visibiliter apparuit, cum a barbaris oppugnarentur. Et hoc etiam credi potest quod
+              aliquando de damnatis contingat, quod ad eruditionem hominum et terrorem permittuntur
+              viventibus apparere, aut etiam ad suffragia expetenda quantum ad illos qui in
+              Purgatorio detinentur, ut per multa quae in 4 Dialog. narrantur, patet. Sed hoc
+              interest inter sanctos et damnatos, quod sancti, cum voluerint, apparere possunt
+              viventibus, non autem damnati. Sicut enim viventes sancti in carne per donum gratiae
+              gratis datae accipiunt ut sanitates et signa perficiant, quae non nisi divina virtute
+              mirabiliter fiunt (quae quidam signa ab aliis hoc dono carentibus perfici non
+              possunt); ita etiam non est inconveniens ut ex virtute gloriae aliqua potestas
+              animabus sanctorum detur, per quam possint mirabiliter apparere viventibus, cum
+              volunt; quod alii non possunt, nisi interdum permissi.</p>
+            <p xml:id="ta-l4d45q1-d1e332">Ad primum ergo dicendum, quod Augustinus, ut per sequentia patet, loquitur secundum
+              communem cursum naturae; nec tamen sequitur quod etiam si mortui possunt aut volunt
+              viventibus apparere, toties appareant quoties apparent in carne viventes; quia
+              separati a carne vel omnino conformantur divinae voluntati, ita quod non liceat eis
+              nisi quod secundum divinam dispositionem congruere intuentur; vel ita sunt poenis
+              oppressi, ut de sua miseria magis doleant, quam curent aliis apparere.</p>
+            <p xml:id="ta-l4d45q1-d1e335">Ad secundum dicendum, quod auctoritates illae loquuntur quantum ad hoc quod nullus de
+              Paradiso vel Inferno egreditur simpliciter, et non quod non egrediatur ad tempus.</p>
+            <p xml:id="ta-l4d45q1-d1e338">Ad tertium dicendum, quod, sicut ex dictis patet, dist. praec., art. ult., qu. 3, in
+              corp., secundum hoc locus animae cedit in poenam vel praemium, quod anima afficiatur
+              ex hoc quod tali loco deputatur vel gaudendo vel dolendo. Hoc autem gaudium sive hic
+              dolor de hoc quod talibus locis deputatur, manet in anima etiam quando extra loca
+              praedicta fuerit; sicut pontifici cum datur pro honore ut in cathedra sedeat in
+              Ecclesia, non minuitur gloria quando a cathedra recedit; quia etiam si actu ibi non
+              sedeat, locus tamen ille sibi deputatus est.</p>
+            <p xml:id="ta-l4d45q1-d1e342">Ad ea etiam quae contra objiciuntur responderi oportet; ad quorum primum dicitur,
+              quod Hieronymus loquitur de apostolis et martyribus secundum hoc quod eis accrescit ex
+              potestate gloriae, et non secundum quod eis congruit ex debito naturae. Quod autem
+              dicit eos ubique esse, non est intelligendum quod simul sint in pluribus locis aut
+              ubique, sed quia esse possunt ubi volunt.</p>
+            <p xml:id="ta-l4d45q1-d1e345">Ad secundum dicendum, quod non est simile de Daemonibus et Angelis et animabus
+              sanctorum et damnatorum. Angeli enim boni et mali hoc officium sortiuntur ut hominibus
+              praesint vel ad custodiam vel ad exercitium; quod de animabus hominum dici non potest.
+              Sed tamen secundum potestatem gloriae animabus sanctorum hoc congruit quod possunt
+              esse ubi voluerint; et hoc est quod Hieronymus intendit.</p>
+            <p xml:id="ta-l4d45q1-d1e348">Ad tertium dicendum, quod quamvis aliquando animae sanctorum vel damnatorum
+              praesentialiter adsint ubi apparent; non tamen credendum est hoc semper accidere.
+              Aliquando enim hujusmodi apparitiones fiunt vel in dormiendo vel in vigilando
+              operatione bonorum vel malorum spirituum ad instructionem vel destructionem viventium;
+              sicut etiam vivi homines quandoque aliis apparent, et eis multa dicunt in somniis, cum
+              tamen constet eos non esse praesentes, sicut Augustinus per multa exempla probat in
+              libro de cura pro mortuis agenda.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d45q1-Dd1e353" type="articulus">
+          <head xml:id="ta-l4d45q1-Hd1e355">Articulus 2</head>
+
+          <head xml:id="ta-l4d45q1-Hd1e358" type="questionTitle">Utrum Limbus Inferni sit idem quod sinus Abrahae</head>
+
+          <div xml:id="ta-l4d45q1-Dd1e361">
+            <head xml:id="ta-l4d45q1-Hd1e363">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d45q1-d1e366">Ad secundum sic proceditur. Videtur quod Limbus Inferni non sit idem quod sinus
+              Abrahae. Sicut enim dicit Augustinus, 12 super Genes. ad litteram: <quote xml:id="ta-l4d45q1-Qd1e368">nondum
+                inveni Inferos alicubi in bono posuisse Scripturam</quote>. Sed sinus Abrahae in
+              bono accipitur, ut ibidem subjungit Augustinus sic dicens: <quote xml:id="ta-l4d45q1-Qd1e371">non in bono
+                accipiendum sinum Abrahae, et illam requiem quo ab Angelis pius pauper sublatus est,
+                nescio utrum quisquam possit audire</quote>. Ergo sinus Abrahae non est idem quod
+              Limbus Inferni.</p>
+            <p xml:id="ta-l4d45q1-d1e375">Praeterea, in Inferno existentes non vident Deum. Sed in sinu Abrahae videtur Deus,
+              ut patet per Augustinum, 9 Lib. Confess., qui loquens de Nebridio dicit:
+                <quote xml:id="ta-l4d45q1-Qd1e377">quidquid illic est quod sinus Abraham vocatur, ibi Nebridius meus
+                vivit</quote>; et infra: <quote xml:id="ta-l4d45q1-Qd1e380">jam non ponit aures ad os meum, sed spirituale os ad
+                fontem tuum, et bibit quantum potest sapientiam pro aviditate sua sine fine
+                felix</quote>. Ergo sinus Abrahae non est idem quod Limbus Inferni.</p>
+            <p xml:id="ta-l4d45q1-d1e384">Praeterea, Ecclesia non orat pro aliquo ut ad Infernum deducatur. Orat autem ut
+              Angeli animam defuncti in sinum Abrahae deferant. Ergo videtur quod sinus Abrahae non
+              sit idem quod Limbus.</p>
+            <p xml:id="ta-l4d45q1-d1e387">Sed contra, sinus Abrahae dicitur ubi mendicus Lazarus ductus est. Sed ductus est ad
+              Infernum, ut dicit Glossa Job 30, super illud: <quote xml:id="ta-l4d45q1-Qd1e389">ubi constituta domus Dei
+                viventis: Infernus domus erat omnium viventium ante adventum Christi</quote>. Ergo
+              sinus Abrahae idem est quod Limbus.</p>
+            <p xml:id="ta-l4d45q1-d1e394">Praeterea, Genes. 44, 29, dicit Jacob filiis suis: <quote xml:id="ta-l4d45q1-Qd1e396" ana="#gen44_29">deducetis canos meos cum
+                dolore ad Inferos</quote>. Ergo Jacob sciebat in morte sua se ad Inferos
+              transferendum; ergo et eadem ratione Abraham ad Inferos translatus fuit post mortem;
+              et ita sinus Abrahae videtur esse aliqua pars Inferni.</p>
+
+          </div>
+          <div xml:id="ta-l4d45q1-Dd1e401">
+            <head xml:id="ta-l4d45q1-Hd1e403">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d45q1-d1e406">Ulterius. Videtur quod Limbus Inferni sit idem quod Infernus damnatorum. Christus
+              enim dicitur Infernum momordisse, non absorbuisse, quia aliquos extraxit inde, non
+              autem omnes. Non autem diceretur momordisse Infernum, si illi quos liberavit, non
+              fuissent pars multitudinis in Inferno contentae. Ergo cum illi quos liberavit, in
+              Limbo Inferni continerentur, iidem continebantur in Limbo et Inferno; ergo Limbus est
+              idem quod Infernus, vel pars Inferni.</p>
+            <p xml:id="ta-l4d45q1-d1e409">Praeterea, Christus dicitur, in symbolo, descendisse ad Infernum. Sed non descendit
+              nisi ad Limbum patrum. Ergo Limbus patrum est idem quod Infernus.</p>
+            <p xml:id="ta-l4d45q1-d1e412">Praeterea, Job 27, dicitur: <quote xml:id="ta-l4d45q1-Qd1e414">in profundissimum Inferni descendent omnia
+                mea</quote>. Sed Job, cum esset vir sanctus et justus, ad Limbum descendit. Ergo
+              Limbus est idem quod profundissimum Inferni.</p>
+            <p xml:id="ta-l4d45q1-d1e418">Sed contra, in Inferno nulla est redemptio. Sed a Limbo sancti fuerunt redempti. Ergo
+              Limbus non est idem quod Infernus.</p>
+            <p xml:id="ta-l4d45q1-d1e422">Praeterea, Augustinus dicit, 12 super Genes. ad litteram: <quote xml:id="ta-l4d45q1-Qd1e424">quomodo illam
+                requiem quam Lazarus accepit, apud Inferos esse credamus, non video</quote>. Sed
+              anima Lazari ad Limbum descendit. Ergo Limbus non est idem quod Infernus.</p>
+
+          </div>
+          <div xml:id="ta-l4d45q1-Dd1e429">
+            <head xml:id="ta-l4d45q1-Hd1e431">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d45q1-d1e434">Ulterius. Videtur quod Limbus puerorum sit idem quod Limbus patrum. Poena enim debet
+              respondere culpae. Sed pro eadem culpa detinebantur in Limbo patres et pueri, scilicet
+              pro culpa originali. Ergo idem debet esse utrorumque locus poenae.</p>
+            <p xml:id="ta-l4d45q1-d1e437">Praeterea, Augustinus dicit in Enchir.: <quote xml:id="ta-l4d45q1-Qd1e439">mitissima est poena puerorum qui cum
+                solo originali decedunt</quote>. Sed nulla est mitior poena ea quam sancti patres
+              habebant. Ergo idem est locus poenae utrorumque.</p>
+            <p xml:id="ta-l4d45q1-d1e443">Sed contra, sicut actuali peccato debetur poena temporalis in Purgatorio, et aeterna
+              in Inferno; ita et originali peccato debebatur poena temporalis in Limbo patrum, et
+              aeterna in Limbo puerorum. Si ergo Infernus et Purgatorium non sunt idem, videtur quod
+              nec Limbus puerorum et Limbus patrum sint idem. Utrum autem Infernus et Purgatorii
+              locus sint idem, quaesitum est supra, dist. 21, qu. 1, art. 1, quaestiunc. 2, in
+              corp.</p>
+          </div>
+          <div xml:id="ta-l4d45q1-Dd1e448">
+            <head xml:id="ta-l4d45q1-Hd1e450">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d45q1-d1e453">Respondeo dicendum ad primam quaestionem, quod animae hominum post mortem ad quietem
+              pervenire non possunt nisi merito fidei: quia <quote xml:id="ta-l4d45q1-Qd1e455" ana="#hebr11_6">accedentem ad Deum oportet
+                credere</quote>: Hebr. 11, 6. Primum autem exemplum credendi hominibus in Abraham
+              datur, qui primus se a coetu infidelium segregavit, et speciale signum fidei accepit;
+              et ideo requies illa quae hominibus post mortem datur, sinus Abrahae dicitur, ut patet
+              per Augustinum, 11 super Genes. ad litteram. Sed animae sanctorum post mortem non omni
+              tempore eamdem quietem habuerunt: quia post Christi adventum habent plenam quietem,
+              divina visione perfruentes; sed ante Christi adventum habebant quidem quietem per
+              immunitatem poenae, sed non habebant quietem desiderii per consecutionem finis. Et
+              ideo status sanctorum ante Christi adventum potest considerari et secundum id quod
+              habebat de requie, et sic dicitur sinus Abrahae; potest etiam considerari quantum ad
+              id quod eis de requie deerat; et sic dicitur Limbus Inferni. Limbus ergo Inferni et
+              sinus Abrahae fuerunt ante Christi adventum unum per accidens, et non per se; et ideo
+              nihil prohibet post Christi adventum esse sinum Abrahae omnino diversum a Limbo: quia
+              ea quae sunt unum per accidens, separari contingit.</p>
+            <p xml:id="ta-l4d45q1-d1e459">Ad primum ergo dicendum, quod quantum ad id quod habebat de bono status sanctorum
+              patrum, sinus Abrahae dicebatur; sed quantum ad id quod habebat de defectu, dicebatur
+              Infernus; et sic nec sinus Abrahae in malum accipitur, nec Infernus in bonum; quamvis
+              quodammodo sint unum.</p>
+            <p xml:id="ta-l4d45q1-d1e462">Ad secundum dicendum, quod sicut requies sanctorum patrum ante Christi adventum
+              dicebatur sinus Abrahae, ita et post Christi adventum, sed diversimode: quia enim ante
+              Christi adventum sanctorum requies habebat defectum requiei adjunctum, dicebatur idem
+              Infernus et sinus Abrahae, unde ibi non videbatur Deus; sed quia post Christi adventum
+              sanctorum requies est completa, cum Deum videant, talis requies dicitur sinus Abrahae,
+              et nullo modo Infernus; et ad hunc sinum Abrahae Ecclesia orat fideles perduci.</p>
+            <p xml:id="ta-l4d45q1-d1e465">Unde patet responsio ad tertium; et sic est intelligenda quaedam Glossa quae habetur
+              Lucae 16, super illud: <quote xml:id="ta-l4d45q1-Qd1e467">factum est ut moreretur mendicus</quote> etc., quae sic
+              dicit: <quote xml:id="ta-l4d45q1-Qd1e470">sinus Abrahae est requies beatorum pauperum, quorum est regnum
+                caelorum</quote>.</p>
+
+          </div>
+          <div xml:id="ta-l4d45q1-Dd1e475">
+            <head xml:id="ta-l4d45q1-Hd1e477">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d45q1-d1e480">Ad secundam quaestionem dicendum, quod receptacula animarum post mortem dupliciter
+              distingui possunt; aut secundum situm, aut secundum locorum qualitatem, prout scilicet
+              in aliquibus locis poenas vel praemia recipiunt animae. Si ergo consideretur Limbus
+              patrum et Infernus secundum locorum qualitatem praedictam, sic non est dubium quod
+              distinguuntur: tum quia in Inferno est poena sensibilis, quae in Limbo patrum non
+              erat: tum etiam quia in Inferno est poena aeterna; sed in Limbo patrum detinebantur
+              sancti temporaliter tantum. Sed si considerentur quantum ad situm loci; sic probabile
+              est quod idem locus, vel quasi continuus, sit Infernus et Limbus; ita tamen quod
+              quaedam superior pars Inferni Limbus patrum dicatur. Existentes enim in Inferno,
+              secundum diversitatem culpae diversam sortiuntur et poenam; et ideo secundum quod
+              gravioribus peccatis etiam irretiuntur damnati, secundum hoc obscuriorem et
+              profundiorem locum obtinent in Inferno; unde sancti patres, in quibus minimum erat de
+              ratione culpae, supremum et minus tenebrosum locum habuerunt omnibus puniendis.</p>
+            <p xml:id="ta-l4d45q1-d1e483">Ad primum ergo dicendum, quod secundum hoc quod Infernus et Limbus sunt idem quantum
+              ad situm, dicitur Christus Infernum momordisse, et in Infernum descendisse, quando
+              patres a Limbo eripuit suo descensu.</p>
+            <p xml:id="ta-l4d45q1-d1e486">Et per hoc patet solutio ad secundum.</p>
+            <p xml:id="ta-l4d45q1-d1e489">Ad tertium dicendum, quod Job non descendit ad Infernum damnatorum, sed in Limbum
+              patrum; qui quidem dicitur profundissimus locus, non quidem respectu locorum
+              poenalium, sed in comparatione ad alia loca, quia sub eodem includitur omnis locus
+              poenarum. Vel dicendum, sicut Augustinus solvit, 12 super Genes. ad litteram, de Jacob
+              sic dicens: <quote xml:id="ta-l4d45q1-Qd1e491">illud quod Jacob dicit ad filios suos: deducetis senectutem meam
+                cum tristitia ad Inferos: videtur hoc magis timuisse, ne nimia tristitia sic
+                perturbaretur, ne ad requiem beatorum iret, sed ad Inferos peccatorum</quote>. Et
+              similiter potest exponi verbum Job eadem ratione, ut sit verbum magis timentis quam
+              asserentis.</p>
+
+          </div>
+          <div xml:id="ta-l4d45q1-Dd1e496">
+            <head xml:id="ta-l4d45q1-Hd1e498">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d45q1-d1e501">Ad tertiam quaestionem dicendum, quod Limbus patrum et Limbus puerorum absque dubio
+              differunt secundum qualitatem praemii vel poenae: pueris enim non adest spes beatae
+              vitae quae patribus in Limbo aderat, in quibus etiam lumen fidei et gratiae
+              refulgebat. Sed quantum ad situm, probabiliter creditur utrorumque idem locus fuisse;
+              nisi quod requies beatorum adhuc erat in superiori loco quam Limbus puerorum, sicut de
+              Limbo et Inferno dictum est.</p>
+            <p xml:id="ta-l4d45q1-d1e504">Ad primum ergo dicendum, quod ad culpam originalem non eodem modo se habebant patres
+              et pueri. In patribus enim originalis culpa expiata erat, secundum quod erat infectiva
+              personae: remanebat tamen impedimentum ex parte naturae, pro qua nondum fuerat
+              plenarie satisfactum. Sed in pueris est impedimentum et ex parte personae et ex parte
+              naturae; et ideo pueris et patribus diversa receptacula assignantur.</p>
+            <p xml:id="ta-l4d45q1-d1e507">Ad secundum dicendum, quod Augustinus loquitur de poenis quae debentur alicui ratione
+              personae suae, inter quos mitissimam poenam habent qui solo originali peccato
+              gravantur: sed adhuc est mitior poena eorum quos non impedit a perceptione gloriae
+              defectus personae, sed solus defectus naturae, ut ipsa dilatio gloriae quaedam poena
+              dicatur.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d45q1-Dd1e512" type="articulus">
+          <head xml:id="ta-l4d45q1-Hd1e514">Articulus 3</head>
+
+          <head xml:id="ta-l4d45q1-Hd1e517" type="questionTitle">Utrum debeant tot receptacula distingui</head>
+
+          <p xml:id="ta-l4d45q1-d1e520">Ad tertium sic proceditur. Videtur quod non debeant tot receptacula distingui. Sicut
+            enim receptacula debentur animabus post mortem pro peccato, ita et pro merito. Sed
+            ratione meriti non debetur nisi unum tantum receptaculum, scilicet Paradisus. Ergo nec
+            ratione peccatorum debetur nisi unum receptaculum.</p>
+          <p xml:id="ta-l4d45q1-d1e523">Praeterea, receptacula assignantur animabus post mortem ratione meritorum vel
+            demeritorum. Sed non est locus in quo merentur vel demerentur. Ergo unum tantum
+            receptaculum debet eis assignari post mortem.</p>
+          <p xml:id="ta-l4d45q1-d1e526">Praeterea, loca poenalia debent respondere ipsis culpis. Sed non sunt nisi tria genera
+            culparum; scilicet originalis, venialis, et mortalis. Ergo non debent esse nisi tria
+            receptacula poenalia.</p>
+          <p xml:id="ta-l4d45q1-d1e530">Sed contra, videtur quod debeant esse multo plura quam assignentur. Aer enim iste
+            caliginosus est Daemonum carcer, ut patet 2 Petr. 3; nec tamen computatur inter quinque
+            receptacula, quae a quibusdam assignantur. Ergo sunt plura receptacula quam quinque.</p>
+          <p xml:id="ta-l4d45q1-d1e533">Praeterea, alius est Paradisus terrestris, et alius Paradisus caelestis. Sed quidam
+            post statum hujus vitae ad Paradisum terrestrem sunt translati, sicut de Enoch et Elia
+            dicitur. Cum ergo Paradisus terrestris inter quinque receptacula non computetur, videtur
+            quod sint plura quam quinque.</p>
+          <p xml:id="ta-l4d45q1-d1e536">Praeterea, cuilibet statui peccantium debet aliquis locus poenalis respondere. Sed si
+            ponatur aliquis in originali peccato decedere cum solo veniali peccato, nullum
+            receptaculorum assignatorum ei competet; constat enim quod in Paradiso non esset, cum
+            gratia careret; sed eadem ratione nec in Limbo patrum; similiter nec in Limbo puerorum,
+            cum in Limbo puerorum non sit poena sensibilis, quae tali debetur ratione venialis
+            peccati; similiter nec in Purgatorio, quia ibi non est nisi poena temporalis, huic autem
+            debetur poena perpetua; similiter nec in Inferno damnatorum, quia mortali peccato caret.
+            Ergo oportet ponere sextum receptaculum.</p>
+          <p xml:id="ta-l4d45q1-d1e539">Praeterea, diversae sunt quantitates praemiorum et poenarum secundum differentias
+            culparum et meritorum. Sed infiniti sunt gradus culparum et meritorum. Ergo infinita
+            debent distingui receptacula, in quibus puniantur vel praemientur post mortem.</p>
+          <p xml:id="ta-l4d45q1-d1e542">Praeterea, animae quandoque puniuntur in locis in quibus peccaverunt, ut per Gregorium
+            patet in 4 Dialog. Sed peccaverunt in loco in quo nos habitamus. Ergo hic locus debet
+            computari inter receptacula; et praecipue cum aliqui in hoc mundo pro peccatis suis
+            puniantur, ut supra, dist. 15, dixit Magister.</p>
+          <p xml:id="ta-l4d45q1-d1e545">Praeterea, sicut aliqui in gratia decedentes habent aliqua pro quibus sunt digni poena;
+            ita aliqui in peccato mortali decedentes habent aliqua bona, pro quibus essent digni
+            praemio. Sed decedentibus in gratia cum peccatis venialibus assignatur aliquod
+            receptaculum, in quo puniuntur antequam praemia consequantur, scilicet Purgatorium. Ergo
+            et eadem ratione e contrario debet esse de illis qui in mortali peccato decedunt cum
+            bonis operibus aliquibus.</p>
+          <p xml:id="ta-l4d45q1-d1e549">Praeterea, sicut patres retardabantur a plena gloria animae ante Christi adventum, ita
+            et nunc a gloria corporis. Ergo sicut distinguitur receptaculum sanctorum ante Christi
+            adventum ab eo in quo nunc recipiuntur, ita debet receptaculum nunc distingui ab eo in
+            quo recipientur post resurrectionem.</p>
+          <p xml:id="ta-l4d45q1-d1e552">Respondeo dicendum, quod receptacula animarum distinguuntur secundum diversos status
+            earum. Anima autem conjuncta mortali corpori habet statum merendi; sed exuta corpore est
+            in statu recipiendi pro meritis bonum vel malum. Ergo post mortem vel est in statu
+            recipientis finale praemium, vel est in statu quo impeditur ab illo. Si autem est in
+            statu recipientis finalem retributionem, hoc est dupliciter: vel quantum ad bonum, et
+            sic est Paradisus; vel quantum ad malum; et sic ratione actualis culpae est Infernus,
+            ratione autem originalis est Limbus puerorum. Si autem est in statu quo impeditur a
+            finali retributione consequenda; vel hoc est propter defectum personae; et sic est
+            Purgatorium, in quo detinentur animae, ne statim praemium consequantur propter peccata
+            quae commiserunt; vel propter defectum naturae, et sic est Limbus patrum, in quo
+            detinebantur patres a consecutione gloriae propter reatum humanae naturae, qui nondum
+            poterat expiari.</p>
+          <p xml:id="ta-l4d45q1-d1e555">Ad primum ergo dicendum, quod bonum contingit uno modo, sed malum multifarie, sicut
+            patet per Dionysium 4 cap. de Div. Nom. et per philosophum in 2 Ethic.; et propter hoc
+            non est inconveniens si locus retributionis est unus, loca vero poenarum sunt plura.</p>
+          <p xml:id="ta-l4d45q1-d1e558">Ad secundum dicendum, quod status merendi vel demerendi est unus status, cum ejusdem
+            sit posse mereri et demereri; et ideo convenienter debetur omnibus unus locus. Sed eorum
+            qui recipiunt pro meritis, sunt status diversi; et ideo non est simile.</p>
+          <p xml:id="ta-l4d45q1-d1e561">Ad tertium dicendum, quod pro culpa originali potest aliquis puniri dupliciter, ut ex
+            dictis patet, vel ratione personae, vel ratione naturae tantum; et ideo illi culpae
+            respondet duplex Limbus.</p>
+          <p xml:id="ta-l4d45q1-d1e564">Ad quartum dicendum, quod aer iste caliginosus non assignatur Daemonibus quasi locus in
+            quo recipiant retributionem pro meritis, sed quasi competens officio eorum, inquantum
+            deputantur nobis ad exercitium; et ideo inter receptacula de quibus nunc agitur, non
+            computatur; primo enim deputatur eis ignis Inferni, ut patet Matth. 25.</p>
+          <p xml:id="ta-l4d45q1-d1e568">Ad quintum dicendum, quod Paradisus terrestris pertinet magis ad statum viatoris quam
+            ad statum recipientis pro meritis; et ideo inter receptacula de quibus nunc agitur, non
+            computatur.</p>
+          <p xml:id="ta-l4d45q1-d1e571">Ad sextum dicendum, quod illa positio est impossibilis, ut in dist. 2 dictum est; si
+            tamen esset possibilis, talis in Inferno puniretur in aeternum. Quod enim veniale
+            peccatum in Purgatorio temporaliter puniatur, accidit ei inquantum gratiam habet
+            adjunctam; unde si adjungatur mortali, quia est sine gratia, poena aeterna punietur in
+            Inferno. Et quia iste qui cum originali peccato decedit, habet veniale sine gratia, non
+            est inconveniens, si ponitur aeternaliter puniri.</p>
+          <p xml:id="ta-l4d45q1-d1e574">Ad septimum dicendum, quod diversitas graduum in poenis vel praemiis non diversificat
+            statum, secundum cujus diversitatem receptacula distinguuntur; et ideo ratio non
+            sequitur.</p>
+          <p xml:id="ta-l4d45q1-d1e577">Ad octavum dicendum, quod hoc quod animae separatae aliquando in loco nostrae
+            habitationis puniuntur, non propter hoc est quod locus iste sit proprius locus poenarum;
+            sed hoc fit ad nostram instructionem, ut earum poenas videntes retrahamur a culpis. Quod
+            autem animae existentes in carne hic puniuntur pro peccatis, non pertinet ad propositum:
+            quia talis poena non trahit hominem extra statum merentis vel demerentis. Nunc autem
+            agimus de receptaculis quae debentur animae post statum meriti vel demeriti.</p>
+          <p xml:id="ta-l4d45q1-d1e580">Ad nonum dicendum, quod malum non potest esse pure absque omni commixtione boni, sicut
+            bonum summum est absque omni commixtione mali; et ideo illi qui ad beatitudinem, quae
+            summum bonum est, transferendi sunt, debent esse ab omni malo purgati; et propter hoc
+            oportet esse locum in quo tales purgentur, si hinc non omnino purgati exeant. Sed illi
+            qui in Infernum detrudentur, non erunt immunes ab omni bono; et ideo non est simile:
+            quia in Inferno existentes praemium bonorum suorum recipere possunt inquantum bona
+            praeterita eis valent ad mitigationem poenae.</p>
+          <p xml:id="ta-l4d45q1-d1e583">Ad decimum dicendum, quod in gloria animae consistit praemium essentiale; sed gloria
+            corporis, cum redundet ex anima, tota consistit in anima quasi originaliter; et ideo
+            carentia gloriae animae diversificat statum, non autem carentia gloriae corporis; et
+            propter hoc etiam idem locus, scilicet caelum Empyreum, debetur animabus sanctis exutis
+            a corpore, et conjunctis corporibus gloriosis; non autem idem locus debetur animabus
+            patrum ante perceptionem gloriae animae, et post perceptionem ipsius.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

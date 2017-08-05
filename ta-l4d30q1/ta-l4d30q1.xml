@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 30, Quaestio 1</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Librum IV, Distinctio 30, Quaestio 1</title>
+          <date when="2016-03-19">March 19, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-19">March 19, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness>1856 editum</witness>
+          <witness xml:id="G" n="ghent567">Ghent, Belgium, Ghent University Library, 567</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="0.0.0-dev">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+
+
+
+
+      <div xml:id="starts-on">
+        <cb ed="#G" n="465a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ta-l4d30q1">
+        <head xml:id="ta-l4d30q1-Hd1e97">Librum IV, Distinctio 30, Quaestio 1</head>
+        <div xml:id="ta-l4d30q1-Dd1e100">
+          <head xml:id="ta-l4d30q1-Hd1e102">Prooemium</head>
+          <p xml:id="ta-l4d30q1-d1e105">Postquam ostendit Magister quod consensus matrimonii impeditur per coactionem, hic
+            ostendit quod impeditur per errorem; et dividitur haec distinctio in partes tres: in
+            prima determinat de impedimento erroris; in secunda de consensu qui fuit in matrimonio
+            b. virginis, ibi: <quote xml:id="ta-l4d30q1-Qd1e107">praemissis aliquid addendum est</quote>; in tertia de causa
+            finali matrimonii, ibi: <quote xml:id="ta-l4d30q1-Qd1e110">exposito quae sit efficiens causa matrimonii, consequens
+              est ostendere ob quam causam soleat vel debeat contrahi matrimonium</quote>. Circa
+            primum tria facit. Primo ostendit quis error matrimonium impediat: secundo objicit in
+            contrarium, ibi: <quote xml:id="ta-l4d30q1-Qd1e113">sed objicitur de Jacob</quote> etc.; tertio solvit, ibi:
+              <quote xml:id="ta-l4d30q1-Qd1e116">sed quod ibi factum est, in mysterio gestum non improbe traditur. Praemissis
+              aliquid addendum est</quote>. Hic determinat de consensu quod fuit in matrimonio b.
+            virginis; et circa hoc duo facit: primo ostendit cujusmodi consensus ille fuit; secundo
+            ostendit quod matrimonium illud fuit perfectum, ibi: <quote xml:id="ta-l4d30q1-Qd1e119">inter quos, ut ait
+              Augustinus, perfectum fuit conjugium. Exposito quae sit efficiens causa
+              matrimonii</quote> et cetera. Hic determinat de causa finali matrimonii; et primo de
+            causis matrimonii in generali; secundo de causis matrimonii b. virginis, ibi:
+              <quote xml:id="ta-l4d30q1-Qd1e123">habuit autem conjugium Mariae et Joseph alias causas speciales</quote>. Circa
+            primum duo facit: primo ponit causas finales matrimonii, et principales et secundarias;
+            secundo excludit errorem, ibi: <quote xml:id="ta-l4d30q1-Qd1e126">nec est assentiendum illis qui dicunt, non esse
+              conjugium quod propter has causas minus honestas contrahitur</quote>. Ubi duo facit:
+            primo ostendit quod malus finis non facit quod non sit matrimonium; secundo ostendit
+            quod non facit quod non sit matrimonium bonum, ibi: <quote xml:id="ta-l4d30q1-Qd1e129">et licet fine non bono
+              contrahatur conjugium, quando species contrahentis movet animum, conjugium tamen bonum
+              est</quote>. Hic est duplex quaestio. Prima de matrimonio in communi. Secunda de
+            matrimonio beatae virginis. Circa primum quaeruntur tria: 1 utrum error de sui natura
+            matrimonium impediat; 2 quis error; 3 de causa finali matrimonii.</p>
+
+        </div>
+        <div xml:id="ta-l4d30q1-Dd1e134" type="articulus">
+          <head xml:id="ta-l4d30q1-Hd1e136">Articulus 1</head>
+
+          <head xml:id="ta-l4d30q1-Hd1e139" type="questionTitle">Utrum error debeat poni matrimonii impedimentum per se</head>
+
+          <p xml:id="ta-l4d30q1-d1e142">Ad primum sic proceditur. Videtur quod error non debeat poni matrimonii impedimentum
+            per se. Consensus enim, qui est causa efficiens matrimonii, impeditur sicut et
+            voluntarium. Sed voluntarium, secundum philosophum in 3 Ethic., cap. 7, ponitur impediri
+            per ignorantiam, quae non est idem quod error: quia ignorantia nullam cognitionem ponit;
+            sed error ponit; eo quod approbare falsa pro veris sit error, secundum Augustinum. Ergo
+            non debuit hic poni impedimentum matrimonii error, sed magis ignorantia.</p>
+          <p xml:id="ta-l4d30q1-d1e145">Praeterea, illud potest impedire matrimonium de sui natura, quod habet contrarietatem
+            ad bona matrimonii. Sed error non est hujusmodi. Ergo error, de sui natura, non impedit
+            matrimonium.</p>
+          <p xml:id="ta-l4d30q1-d1e148">Praeterea, sicut consensus requiritur ad matrimonium, ita intentio requiritur ad
+            Baptismum. Sed si aliquis baptizat Joannem, et credit baptizare Petrum, nihilominus
+            Joannes vere baptizatus est. Ergo error non excludit matrimonium.</p>
+          <p xml:id="ta-l4d30q1-d1e152">Praeterea, inter Liam et Jacob fuit verum matrimonium. Sed ibi fuit error. Ergo error
+            non excludit matrimonium.</p>
+          <p xml:id="ta-l4d30q1-d1e155">Sed contra est quod in Digestis dicitur: <quote xml:id="ta-l4d30q1-Qd1e157">quid tam contrarium est consensui, quam
+              error?</quote> Sed consensus requiritur ad matrimonium. Ergo error matrimonium
+            impedit.</p>
+          <p xml:id="ta-l4d30q1-d1e161">Praeterea, consensus aliquid voluntarium nominat. Sed error impedit voluntarium: quia
+            voluntarium, secundum philosophum, et Gregorium Nyssenum, et Damascenum, est cujus
+            principium est in aliquo sciente singularia, in quibus est actus; quod erranti non
+            competit. Ergo error matrimonium impedit.</p>
+          <p xml:id="ta-l4d30q1-d1e164">Respondeo dicendum, quod quidquid impedit causam, de sui natura impedit et effectum
+            similiter. Consensus autem est causa matrimonii, ut dictum est; et ideo quod evacuat
+            consensum, evacuat matrimonium. Consensus autem voluntatis est actus, qui praesupponit
+            actum intellectus. Deficiente autem primo, necessarium est defectum contingere in
+            secundo; et ideo, quando error cognitionem impedit, sequitur etiam in ipso consensu
+            defectus, et per consequens in matrimonio; et sic error de jure naturali habet quod
+            evacuet matrimonium.</p>
+          <p xml:id="ta-l4d30q1-d1e167">Ad primum ergo dicendum, quod ignorantia differt, simpliciter loquendo, ab errore: quia
+            ignorantia de sui ratione non importat aliquem cognitionis actum: sed error ponit
+            judicium rationis perversum de aliquo. Tamen quantum ad hoc quod est impedire
+            voluntarium, non differt utrum dicatur ignorantia vel error: quia nulla ignorantia
+            potest impedire voluntarium nisi quae habet errorem adjunctum, eo quod actus voluntatis
+            praesupponit aestimationem sive judicium de aliquo in quod fertur. Unde si est ibi
+            ignorantia, oportet esse errorem; et ideo etiam ponitur error quasi causa proxima.</p>
+          <p xml:id="ta-l4d30q1-d1e170">Ad secundum dicendum, quod quamvis non contrarietur secundum se matrimonio,
+            contrariatur tamen ei quantum ad causam suam.</p>
+          <p xml:id="ta-l4d30q1-d1e174">Ad tertium dicendum, quod character baptismalis non causatur ex intentione baptizantis
+            directe, sed ex elemento materiali exterius adhibito. Intentio autem operatur solum ut
+            dirigens elementum materiale ad effectum proprium. Sed vinculum conjugale ex ipso
+            consensu causatur directe; et ideo non est simile.</p>
+          <p xml:id="ta-l4d30q1-d1e177">Ad quartum dicendum, quod, sicut Magister in littera dicit, matrimonium quod fuit inter
+            Liam et Jacob non fuit perfectum ex ipso concubitu qui ex errore contingit, sed ex
+            consensu qui postmodum accessit. Tamen uterque de peccato excusatur, ut in littera
+            patet.</p>
+
+        </div>
+        <div xml:id="ta-l4d30q1-Dd1e181" type="articulus">
+          <head xml:id="ta-l4d30q1-Hd1e183">Articulus 2</head>
+
+          <head xml:id="ta-l4d30q1-Hd1e186" type="questionTitle">Utrum omnis error matrimonium impediat</head>
+
+          <p xml:id="ta-l4d30q1-d1e189">Ad secundum sic proceditur. Videtur quod omnis error matrimonium impediat, et non solum
+            error conditionis aut personae, ut in littera dicitur. Quia quod alicui convenit
+            secundum se, convenit ei secundum totum suum ambitum. Sed error de sui natura habet quod
+            matrimonium impediat, ut dictum est. Ergo omnis error matrimonium impedit.</p>
+          <p xml:id="ta-l4d30q1-d1e192">Praeterea, si error, inquantum hujusmodi, matrimonium impedit, magis error magis debet
+            impedire. Sed magis est error fidei, qui est in haereticis non credentibus hoc
+            sacramentum, quam error personae. Ergo magis debet impedire quam error personae.</p>
+          <p xml:id="ta-l4d30q1-d1e195">Praeterea, error non evacuat matrimonium nisi inquantum tollit voluntarium. Sed
+            ignorantia cujuslibet circumstantiae voluntarium tollit, ut patet in 3 Ethicor. Ergo non
+            solum error conditionis seu personae matrimonium impedit.</p>
+          <p xml:id="ta-l4d30q1-d1e199">Praeterea, sicut conditio servitutis est aliquid annexum accidens personae, ita
+            qualitas corporis aut animi. Sed error conditionis impedit matrimonium. Ergo eadem
+            ratione error qualitatis aut fortunae.</p>
+          <p xml:id="ta-l4d30q1-d1e202">Praeterea, sicut ad conditionem personae pertinet servitus et libertas, ita nobilitas
+            vel ignobilitas, aut dignitas status, et privatio ejus. Sed error conditionis libertatis
+            vel servitutis impedit matrimonium. Ergo et error aliorum dictorum.</p>
+          <p xml:id="ta-l4d30q1-d1e205">Praeterea, sicut conditio servitutis impedit, ita etiam disparitas cultus, et
+            impotentia coeundi, ut infra dicetur. Ergo sicut error conditionis ponitur impedimentum
+            matrimonii, ita error circa alia hujusmodi deberet impedimentum matrimonii poni.</p>
+          <p xml:id="ta-l4d30q1-d1e208">Sed contra, videtur quod nec error personae matrimonium impediat. Quia sicut emptio est
+            quidam contractus, ita et matrimonium. Sed in emptione et venditione si detur aurum
+            aequivalens pro alio auro, non impeditur venditio. Ergo nec matrimonium impeditur, si
+            pro una muliere alia accipiatur.</p>
+          <p xml:id="ta-l4d30q1-d1e211">Praeterea, potest contingere quod per multos annos isto errore detineantur, et filios
+            et filias generent simul. Sed grave esset dicere, quod tunc essent dividendi. Ergo error
+            primus non frustravit matrimonium.</p>
+          <p xml:id="ta-l4d30q1-d1e214">Praeterea, potest contingere quod frater viri in quem se credidit consentire mulier,
+            offeratur ei, et cum eo commisceatur carnaliter. Videtur ergo quod non possit redire ad
+            illum in quem consentire se credidit, sed debeat stare cum fratre ejus; et sic error
+            personae non impedit matrimonium.</p>
+          <p xml:id="ta-l4d30q1-d1e218">Respondeo dicendum, quod sicut error ex hoc quod involuntarium causat, habet excusare
+            peccatum, ita quod matrimonium impediat ex eodem. Error autem non excusat a peccato,
+            nisi sit illius circumstantiae cujus appositio vel remotio facit differentiam liciti et
+            illiciti in actu. Si enim aliquis percutiat patrem baculo ferreo, quem credit ligneum
+            esse, non excusatur a toto, quamvis forte a tanto; sed si credat quis percutere filium
+            causa disciplinae, et percutiat patrem, excusatur a toto, diligentia debita adhibita.
+            Unde oportet quod error qui matrimonium impedit, sit alicujus eorum quae sunt de
+            essentia matrimonii. Duo autem includit matrimonium ipsum; scilicet personas quae
+            conjunguntur, et mutuam potestatem in invicem, in qua matrimonium consistit. Primum
+            autem tollitur per errorem personae; secundum per errorem conditionis, quia servus non
+            potest potestatem sui corporis alteri tradere sine consensu domini sui; et propter hoc
+            hi duo errores matrimonium impediunt, et non alii.</p>
+          <p xml:id="ta-l4d30q1-d1e221">Ad primum ergo dicendum, quod error non habet ex natura generis quod impediat
+            matrimonium, sed ex natura differentiae adjunctae; prout scilicet est error alicujus
+            eorum quae sunt de essentia matrimonii.</p>
+          <p xml:id="ta-l4d30q1-d1e224">Ad secundum dicendum, quod error infidelis de matrimonio est circa ea quae sunt
+            matrimonium consequentia, sicut an sit sacramentum, vel an sit licitum; et ideo error
+            talis matrimonium non impedit, sicut nec error circa Baptismum impedit acceptionem
+            characteris, dummodo intendat facere vel recipere quod Ecclesia dat, quamvis credat
+            nihil esse.</p>
+          <p xml:id="ta-l4d30q1-d1e227">Ad tertium dicendum, quod non quaelibet ignorantia circumstantiae causat involuntarium
+            quod excusat peccatum, ut dictum est; et propter hoc ratio non sequitur.</p>
+          <p xml:id="ta-l4d30q1-d1e230">Ad quartum dicendum, quod diversitas fortunae non variat aliquid eorum quae sunt de
+            essentia matrimonii, nec diversitas qualitatis, sicut facit conditio servitutis; et ideo
+            ratio non sequitur.</p>
+          <p xml:id="ta-l4d30q1-d1e233">Ad quintum dicendum, quod error nobilitatis, inquantum hujusmodi, non evacuat
+            matrimonium eadem ratione qua nec error qualitatis. Sed si error nobilitatis vel
+            dignitatis redundat in errorem personae, tunc impedit matrimonium; unde si consensus
+            mulieris feratur in istam personam directe, error de nobilitate ipsius non impedit
+            matrimonium. Si autem directe intendit consentire in filium regis, quicumque sit ille,
+            tunc si alius praesentetur ei quam filius regis, est error personae, et impedietur
+            matrimonium.</p>
+          <p xml:id="ta-l4d30q1-d1e237">Ad sextum dicendum, quod error etiam illorum impedimentorum matrimonii quantum ad ea
+            quae faciunt personas illegitimas, impedit matrimonium. Sed ideo de errore illorum non
+            facit mentionem, quia illa impediunt matrimonium sive cum errore sive sine errore sint;
+            ut si aliqua contrahat cum subdiacono, sive sciat, sive non sciat, non est matrimonium.
+            Sed conditio servitutis non impedit, si servitus sciatur; et ideo non est simile.</p>
+          <p xml:id="ta-l4d30q1-d1e240">Ad septimum dicendum, quod pecunia in contractibus accipitur quasi mensura aliarum
+            rerum, ut patet in 5 Ethic., et non quasi propter se quaesita; et ideo si non detur illa
+            pecunia quae creditur sed alia aequivalens, nihil obest contractui; sed si in re
+            quaesita propter se esset error, impediretur contractus, sicut si alicui venderetur
+            asinus pro equo; et similiter est in proposito.</p>
+          <p xml:id="ta-l4d30q1-d1e243">Ad octavum dicendum, quod quantumcumque fuerit cum ea, nisi de novo consentire velit,
+            non est matrimonium.</p>
+          <p xml:id="ta-l4d30q1-d1e246">Ad nonum dicendum, quod si ante non consenserat in fratrem ejus, potest eum quem per
+            errorem accepit, retinere; nec potest ad fratrem ejus redire, praecipue si sit cognita
+            carnaliter ab eo quem accepit. Si autem consenserat in primum per verba de praesenti,
+            non potest secundum habere primo vivente; sed potest vel saeculum relinquere, vel ad
+            primum redire: et ignorantia facti excusat peccatum, sicut et excusaretur post
+            consummatum matrimonium, si a consanguineo viri fraudulenter cognosceretur: quia fraus
+            alterius non debet sibi praejudicare.</p>
+
+        </div>
+        <div xml:id="ta-l4d30q1-Dd1e250" type="articulus">
+          <head xml:id="ta-l4d30q1-Hd1e252">Articulus 3</head>
+
+          <head xml:id="ta-l4d30q1-Hd1e255" type="questionTitle">Utrum matrimonium possit esse ex consensu alicujus in aliquam
+            propter causam inhonestam</head>
+
+          <p xml:id="ta-l4d30q1-d1e258">Ad tertium sic proceditur. Videtur quod matrimonium non possit esse ex consensu
+            alicujus in aliquam propter causam inhonestam. Unius enim una est ratio. Sed matrimonium
+            est unum sacramentum. Ergo non potest fieri ex alterius finis intentione quam illius ad
+            quem a Deo institutum est, scilicet ad procreationem prolis.</p>
+          <p xml:id="ta-l4d30q1-d1e261">Praeterea, conjunctio matrimonii est a Deo, ut patet Matth. 19, 6: <quote xml:id="ta-l4d30q1-Qd1e263" ana="#mt19_6">quos Deus
+              conjunxit, homo non separet</quote>. Sed conjunctio quae fit propter turpes causas,
+            non est a Deo. Ergo non est matrimonium.</p>
+          <p xml:id="ta-l4d30q1-d1e267">Praeterea, in aliis sacramentis si non servetur intentio Ecclesiae, non est verum
+            sacramentum. Sed intentio Ecclesiae in sacramento matrimonii non est ad aliquam turpem
+            causam. Ergo si ex aliqua turpi causa matrimonium contrahatur, non erit verum
+            matrimonium.</p>
+          <p xml:id="ta-l4d30q1-d1e271">Praeterea, secundum Boetium, cujus finis bonus, ipsum quoque bonum. Ergo non est
+            matrimonium, si propter malum finem fiat.</p>
+          <p xml:id="ta-l4d30q1-d1e274">Praeterea, matrimonium significat conjunctionem Christi et Ecclesiae. Sed ibi non cadit
+            aliqua turpitudo. Ergo nec matrimonium potest contrahi propter aliquam turpem
+            causam.</p>
+          <p xml:id="ta-l4d30q1-d1e277">Sed contra est, quia qui baptizat alium intentione lucrandi, vere baptizat. Ergo et qui
+            contrahit cum aliqua, intentione lucri, verum est matrimonium.</p>
+          <p xml:id="ta-l4d30q1-d1e280">Praeterea, hoc idem probatur per exempla et auctoritates quae ponuntur in littera.</p>
+          <p xml:id="ta-l4d30q1-d1e283">Respondeo dicendum, quod causa finalis matrimonii potest accipi dupliciter; scilicet
+            per se, et per accidens. Per se quidem causa matrimonii est ad quam matrimonium est de
+            se ordinatum; et haec semper bona est; scilicet procreatio prolis, et fornicationis
+            vitatio. Sed per accidens causa finalis ipsius est hoc quod contrahentes intendunt ex
+            matrimonio. Et quia hoc quod ex matrimonio intenditur, consequitur ad matrimonium; et
+            priora non variantur ex posterioribus, sed e converso; ideo ex illa causa non recipit
+            matrimonium bonitatem vel malitiam, sed ipsi contrahentes, quorum est finis per se. Et
+            quia causae per accidens sunt infinitae; ideo infinitae tales causae possunt esse
+            matrimonii, quarum sunt quaedam honestae, et quaedam inhonestae.</p>
+          <p xml:id="ta-l4d30q1-d1e286">Ad primum ergo dicendum, quod verum est de causa per se et principali; sed quod habet
+            unum finem per se et principalem, potest habere plures fines secundarios per se, et
+            infinitos per accidens.</p>
+          <p xml:id="ta-l4d30q1-d1e290">Ad secundum dicendum, quod conjunctio potest accipi pro ipsa relatione quae est
+            matrimonium; et talis semper est a Deo, et bona est a quacumque fiat causa: vel pro actu
+            eorum qui conjunguntur; et sic est quandoque mala, et non est a Deo, simpliciter
+            loquendo. Nec est inconveniens quod aliquis effectus sit a Deo cujus causa mala est;
+            sicut proles quae ex adulterio suscipitur. Non enim est ex causa illa inquantum est
+            mala, sed inquantum aliquid habet de bono, secundum quod est a Deo, quamvis non
+            simpliciter sit a Deo.</p>
+          <p xml:id="ta-l4d30q1-d1e293">Ad tertium dicendum, quod intentio Ecclesiae quae intendit tradere sacramentum, est de
+            necessitate cujuslibet sacramenti, ita quod ea non observata nihil in sacramentis
+            agitur; sed intentio Ecclesiae quae intendit utilitatem ex sacramento provenientem, est
+            de bene esse sacramenti et non de necessitate ejus: unde si non observetur, nihilominus
+            est verum sacramentum; sed praetermittens hanc intentionem peccat; sicut si in Baptismo
+            non intendatur sanitas mentis quam Ecclesia intendit. Similiter ille qui intendit
+            matrimonium contrahere, quamvis matrimonium non ordinet ad illum finem quem Ecclesia
+            intendit, nihilominus verum matrimonium contrahit.</p>
+          <p xml:id="ta-l4d30q1-d1e296">Ad quartum dicendum, quod illud malum intentum non est finis matrimonii, sed
+            contrahentium.</p>
+          <p xml:id="ta-l4d30q1-d1e299">Ad quintum dicendum, quod ipsa unio est signum conjunctionis Christi et Ecclesiae, et
+            non operatio unitorum: ideo ratio non sequitur.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

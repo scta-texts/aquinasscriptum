@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum III, Distinctio 40, Quaestio 1</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.09-dev-master">
+          <title>Librum III, Distinctio 40, Quaestio 1</title>
+          <date when="2016-03-13">March 13, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-13">March 13, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness>1856 editum</witness>
+          <witness xml:id="H" n="harv245" xml:base="http://iiif.lib.harvard.edu/manifests/drs:51994085/canvas/">Cambridge, Mass.,
+            Harvard University, Houghton Library, MS Lat 245</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="2015.09">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+
+
+
+
+      <div xml:id="starts-on">
+        <cb ed="#H" n="149rb"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ta-l3d40q1">
+        <head xml:id="ta-l3d40q1-Hd1e97">Librum III, Distinctio 40, Quaestio 1</head>
+        <div xml:id="ta-l3d40q1-Dd1e100">
+          <head xml:id="ta-l3d40q1-Hd1e102">Prooemium</head>
+          <p xml:id="ta-l3d40q1-d1e105">Postquam determinavit <name ref="#Lombard">Magister</name> de praeceptis Decalogi quae
+            respiciunt opus exterius et locutionem, hic ponit duo ultima praecepta quae respiciunt
+            concupiscentiam cordis; et circa hoc tria facit: primo enumerat ipsa praecepta; secundo
+            movet quaestiones circa ea, ibi: <quote xml:id="ta-l3d40q1-Qd1e110">sed videtur praeceptum de non concupiscendis
+              rebus proximi unum cum eo esse quo dicitur: non furaberis</quote>; tertio recapitulat
+            quod dixerat, et continuat se ad sequentia, ibi: <quote xml:id="ta-l3d40q1-Qd1e113">audistis decem chordas
+              Psalterii</quote>. Circa secundam partem movet duas quaestiones: prima est de
+            differentia horum praeceptorum ad alia praecepta Decalogi; secunda est de differentia
+            totius veteris legis ad novam, quae ex solutione primae quaestionis ortum habet; et hoc
+            ponit ibi: <quote xml:id="ta-l3d40q1-Qd1e116">sed cum hic prohibeatur concupiscentia alienae uxoris, et alienae rei;
+              quare dicitur lex comprimere manum, et non animum?</quote> Et circa hoc tria facit:
+            primo movet quaestionem, et eam solvit; secundo movet quaestionem de effectu litterae
+            veteris legis, ibi: <quote xml:id="ta-l3d40q1-Qd1e119">si vero quaeritur quam vocat apostolus litteram occidentem,
+              ea certe est Decalogus</quote>; tertio breviter colligit differentiam inter litteram
+            Evangelii et litteram legis, ibi: <quote xml:id="ta-l3d40q1-Qd1e123">distat autem Evangelii littera a legis littera,
+              quia diversa sunt promissa</quote>. Hic quaeruntur quatuor: 1 de assignatione istorum
+            praeceptorum; 2 utrum verum sit quod lex Moysi tantum manum cohibuerit; 3 utrum eadem
+            lex justificaret vel occideret; 4 utrum aeterna promitteret vel terrena.</p>
+        </div>
+        <div xml:id="ta-l3d40q1-Dd1e128" type="articulus">
+          <head xml:id="ta-l3d40q1-Hd1e130">Articulus 1</head>
+
+          <head xml:id="ta-l3d40q1-Hd1e133" type="questionTitle">Utrum duo praecepta de concupiscentia convenienter
+            assignentur</head>
+
+          <p xml:id="ta-l3d40q1-d1e136">Ad primum sic proceditur. Videtur quod haec duo praecepta inconvenienter assignentur.
+            Praecepta enim negativa ordinantur ad prohibitionem peccatorum. Sed unum est peccatum
+            cordis et operis, sicut in 2 Lib., qu. 1, art. 1, dist. 42, dictum est. Ergo non debuit
+            alio praecepto prohiberi concupiscentia moechandi vel furandi, quam ipsa moechia, vel
+            furtum.</p>
+          <p xml:id="ta-l3d40q1-d1e139">Praeterea, sicut in furto et moechia contingit peccare corde et opere; ita et in
+            homicidio, et aliis peccatis. Sed alia praecepta non variantur per concupiscentiam et
+            opus, neque affirmativa neque negativa. Ergo neque praeceptum de furto et de moechia
+            debuit hoc modo variari.</p>
+          <p xml:id="ta-l3d40q1-d1e142">Praeterea, nihil debet lege prohiberi quod licite fieri potest. Sed licite potest fieri
+            quod aliquis domum proximi sui possideat, ut si emat eam. Ergo licite potest eam
+            concupiscere. Ergo talis concupiscentia non debuit lege prohiberi.</p>
+          <p xml:id="ta-l3d40q1-d1e146">Praeterea, sicut contingit peccare in concupiscentia rerum proximi, ita etiam in
+            concupiscentia curiositatis, quam Augustinus dicit esse concupiscentiam oculorum, et
+            similiter in concupiscentia dignitatum, et hujusmodi, circa quas etiam concupiscentias
+            sunt diversae virtutes et vitia. Sed praecepta dantur ad inducendum homines ad virtutem,
+            et a vitiorum prohibitione. Ergo de omnibus istis concupiscentiis debuerunt diversa
+            praecepta dari.</p>
+          <p xml:id="ta-l3d40q1-d1e149">Praeterea, omne quod est contrarium praecepto, est peccatum mortale. Sed primi motus
+            qui ex corrupta concupiscentia procedunt, non sunt peccata mortalia. Ergo non debuit
+            dari praeceptum de non concupiscendo.</p>
+          <p xml:id="ta-l3d40q1-d1e152">Respondeo dicendum, quod intentio legis est ut homines ad virtutem inducantur. Ad
+            virtutem autem non sufficit ut actus virtutis qualitercumque fiat, sed oportet ut homo
+            sciens et volens, et propter debitum finem, perseveranter et delectabiliter operetur.
+            Similiter etiam non sufficit quod actus contrarius qualitercumque praetermittatur, nisi
+            etiam voluntas illud faciendi derelinquatur, et passiones inclinantes ad actum illicitum
+            ordinentur. Et ideo in praeceptis Decalogi non debuit solum prohiberi actus illicitus,
+            sed etiam concupiscentia illicitarum rerum.</p>
+          <p xml:id="ta-l3d40q1-d1e155">Ad primum ergo dicendum, quod peccatum cordis et operis, sicut ibidem dictum est,
+            quando conjunguntur, sunt unum peccatum. Sed quia quandoque in corde peccatur non
+            perveniendo ad actum, tunc peccatum cordis a peccato exterioris operis distinguitur; et
+            ideo etiam diverso praecepto prohibetur.</p>
+          <p xml:id="ta-l3d40q1-d1e158">Ad secundum dicendum, quod praecepta affirmativa praecipiunt aliquem actum bonum: bonum
+            autem consurgit ex diversis coadunatis ad perfectionem suam, quod est ex una et tota
+            causa, ut dicit Dionysius; et ideo hoc ipso quod aliquis bonus actus praecipitur, omnes
+            conditiones implicantur quae ad bonitatem requiruntur. Et ideo praecepta affirmativa non
+            fuerunt distincta circa idem genus per praeceptum operis et cordis. Peccatum autem quod
+            praecepto negativo prohibetur, contingit omnifariam ex singularibus defectibus, ut
+            Dionysius dicit; et ideo ad diversa quae possunt peccatum inducere, possunt diversa
+            praecepta ordinari. Ideo tamen potius peccatum furti et moechiae hoc modo variatur per
+            diversa praecepta, quam homicidium vel alia peccata, quia bonum, inquantum in se est,
+            movet concupiscentiam; objectum autem furti et moechiae, est aliquod bonum temporale;
+            unde etiam per se concupiscentia horum sine progressu ad actum, habet quamdam
+            delectationem; quod non contingit in homicidio, cujus objectum est nocumentum illatum
+            proximo, quod de se horrorem potius quam delectationem facit.</p>
+          <p xml:id="ta-l3d40q1-d1e161">Ad tertium dicendum, quod non potest licite possideri domus proximi nisi dominio
+            translato in alterum, et tunc desinit esse proximi; et ideo non simpliciter prohibetur
+            concupiscentia domus, sed concupiscentia domus proximi, cum ipsum concupiscentiae nomen,
+            quia intensionem desiderii dicit, in quamdam superfluitatem sonare videatur, et ita in
+            malum.</p>
+          <p xml:id="ta-l3d40q1-d1e165">Ad quartum dicendum, quod concupiscentia curiositatis, quae fit per oculos, reducitur
+            ad concupiscentiam delectationis carnis, ad quam etiam reducuntur delectationes aliorum
+            sensuum sicut ad principalius. Concupiscentia autem honoris, dignitatis, vel hujusmodi,
+            reducitur ad concupiscentiam temporalium bonorum quorum dignitas numismate mensuratur.
+            Et sic patet quod omnis concupiscentia aliquo modo istis duobus mandatis prohibetur,
+            secundum regulam superius de intellectu praeceptorum datam.</p>
+          <p xml:id="ta-l3d40q1-d1e168">Ad quintum dicendum, quod lex non datur nisi rationem habenti; unde illa concupiscentia
+            tantum directe praecepto legis prohibetur quae ad rationis consensum pertingit, quae
+            peccatum mortale est. Concupiscentia autem quae est in primis motibus non est contra
+            legem, sed praeter legem; et ideo peccatum veniale est.</p>
+        </div>
+        <div xml:id="ta-l3d40q1-Dd1e172" type="articulus">
+          <head xml:id="ta-l3d40q1-Hd1e174">Articulus 2</head>
+
+          <head xml:id="ta-l3d40q1-Hd1e177" type="questionTitle">Utrum lex Mosaica cohibeat tantum manum, an etiam animum</head>
+
+          <p xml:id="ta-l3d40q1-d1e180">Ad secundum sic proceditur. Videtur quod lex Mosaica non solum manum, sed etiam animum
+            cohibere debeat. Ejusdem enim est animum ordinare ad virtutem, et cohibere a peccato.
+            Sed lex Mosaica ordinat animum ad virtutem, ut patet Deut. 6, 5: <quote xml:id="ta-l3d40q1-Qd1e182">diliges dominum
+              Deum tuum ex toto corde tuo</quote>. Ergo et ipsa etiam cohibet animum a peccato.</p>
+          <p xml:id="ta-l3d40q1-d1e186">Praeterea, concupiscentia in anima est. Sed lex vetus cohibet a concupiscentia, ut
+            patet in his duobus praeceptis. Ergo cohibet animum a peccato.</p>
+          <p xml:id="ta-l3d40q1-d1e189">Si dicatur, quod non cohibeat ab omni concupiscentia; contra. Sub his duobus
+            praeceptis, ut dictum est, omnis concupiscentia prohibetur. Sed haec duo praecepta in
+            veteri lege edita sunt. Ergo totaliter animum a peccato cohibebat.</p>
+          <p xml:id="ta-l3d40q1-d1e193">Si dicas, quod hoc intelligitur quo ad caeremonialia; contra. Caeremonialia enim legis
+            non praecipiebant ab aliquo peccato abstinere, sed potius quid in figuram esset
+            faciendum. Ergo non magis manum quam animum cohibebant.</p>
+          <p xml:id="ta-l3d40q1-d1e196">Praeterea, lex Moysi perfectior erat quam lex civilis. Sed lex civilis non tantum
+            cohibet manum, sed etiam animum; alias ad virtutem non induceret, quae principaliter in
+            animo consistit. Ergo lex Mosaica non tantum cohibet manum, sed animum.</p>
+          <p xml:id="ta-l3d40q1-d1e199">Sed contra, lex nova est perfectior quam lex vetus. Sed nihil potest esse perfectius
+            quam cohibitio animi et manus. Ergo in lege veteri non cohibebatur utrumque.</p>
+          <p xml:id="ta-l3d40q1-d1e202">Praeterea, Matth. 5, dominus supra praecepta legis, quae ad factum exterius pertinent,
+            sicut de homicidio, facit additionem de interiori actu peccati, sicut de ira: quod non
+            esset, si lex vetus animum cohiberet. Ergo lex vetus animum non cohibebat.</p>
+          <p xml:id="ta-l3d40q1-d1e205">Praeterea, nihil cohibet animum nisi gratia. Sed vetus lex gratiam non conferebat. Ergo
+            animum non cohibebat.</p>
+          <p xml:id="ta-l3d40q1-d1e208">Respondeo dicendum, quod coactio legis, secundum philosophum in fine Ethic., ad hoc
+            necessaria est, ut illi qui persuasionibus ad bonum non inclinantur, per poenas
+            cogantur: unde cohibitio legis se extendit quantum poena inflicta per legem. Sicut autem
+            lex vetus infirmis animis non nisi terrena promittebat, ita etiam pro peccatis
+            temporalem poenam infligebat, oculum pro oculo, dentem pro dente. Poenae autem
+            temporales pro peccatis animi infligi non possunt nisi quatenus in actum exteriorem
+            prorumpunt; alias enim ab homine de eis judicari non potest; et ideo lex vetus manum et
+            non animum cohibere dicebatur. Lex autem nova aeterna promittit et comminatur in
+            praemium et poenam; aeterna autem poena ab illo judice infligitur qui est cordis
+            scrutator; et ideo non solum manum, sed etiam animum cohibet: quod patet in hoc
+            praecepto: <quote xml:id="ta-l3d40q1-Qd1e210">non occides</quote>, pro cujus transgressione lex vetus hominem
+            occidebat: sed pro ira interiori lex nova poenam aeternam comminatur: <quote xml:id="ta-l3d40q1-Qd1e213" ana="#mt5_22">qui enim
+              irascitur fratri suo, reus erit Concilio</quote>; Matth. 5, 22.</p>
+          <p xml:id="ta-l3d40q1-d1e218">Ad primum ergo dicendum, quod lex praeceptis affirmativis et negativis animum ordinabat
+            ad virtutem, et a vitio retrahebat: non tamen contra transgressores hujusmodi
+            praeceptorum poenam aliquam ordinare poterat, secundum quam cohibere vel cogere dicitur;
+            et ideo non sequitur quod animum cohiberet.</p>
+          <p xml:id="ta-l3d40q1-d1e221">Et per hoc patet solutio ad secundum.</p>
+          <p xml:id="ta-l3d40q1-d1e224">Ad tertium dicendum, quod omnem concupiscentiam quantum ad genus suum lex prohibebat;
+            non tamen ab omni cohibebat per poenas, sed solum ab ea quae prorumpebat in actum.</p>
+          <p xml:id="ta-l3d40q1-d1e227">Ad quartum dicendum, quod caeremonialia praecepta indicebant sacrificia pro certis
+            peccatis, non autem ita pro peccatis cordis sicut pro peccatis operis; et ita
+            caeremonialia magis manum quam animum cohibebant.</p>
+          <p xml:id="ta-l3d40q1-d1e230">Ad quintum dicendum, quod lex civilis quamvis intendat per cohibitionem poenarum ad
+            virtutes inducere, non tamen cogit per poenas animum, sed solum manum.</p>
+        </div>
+        <div xml:id="ta-l3d40q1-Dd1e234" type="articulus">
+          <head xml:id="ta-l3d40q1-Hd1e236">Articulus 3</head>
+
+          <head xml:id="ta-l3d40q1-Hd1e239" type="questionTitle">Utrum lex vetus justificabat</head>
+
+          <p xml:id="ta-l3d40q1-d1e242">Ad tertium sic proceditur. Videtur quod lex vetus justificabat et non occidebat. Matth.
+            19, 17: <quote xml:id="ta-l3d40q1-Qd1e244">si vis ad vitam ingredi, serva mandata</quote>; et loquitur de mandatis
+            Decalogi, sicut ibidem patet. Sed nullus ad vitam ingreditur nisi justificatus. Ergo lex
+            vetus justificabat.</p>
+          <p xml:id="ta-l3d40q1-d1e248">Praeterea, lex est justitiae quaedam doctrina: quia est ars aequi et boni. Ergo non
+            potest justificare nisi docendo justitiam. Sed lex vetus justitiam docebat: nam,
+              <quote xml:id="ta-l3d40q1-Qd1e250">concupiscentiam nesciebam esse peccatum, nisi lex diceret, non
+              concupisces</quote>; Roman. 7, 7. Ergo lex vetus justificabat.</p>
+          <p xml:id="ta-l3d40q1-d1e254">Praeterea, omne quod removet dispositiones et causas mortis, non occidit, sed
+            justificat. Lex vetus hoc faciebat, peccatum prohibendo. Ergo et cetera.</p>
+          <p xml:id="ta-l3d40q1-d1e258">Praeterea, in naturis ita contingit, quod unumquodque ut fit frequenter, ita natum est
+            fieri, ut dicitur in 2 Phys. Si ergo lex vetus occidebat ut frequenter, tunc ad hoc nata
+            erat. Sed omne quod naturam habet ordinatam ad occisionem, est malum. Ergo lex vetus
+            fuisset mala; quod falsum est.</p>
+          <p xml:id="ta-l3d40q1-d1e261">Praeterea, mors non sequebatur ex veteri lege, nisi per occasionem. Sed etiam ex lege
+            nova sequitur mors per occasionem; 2 Cor. 2, 16: <quote xml:id="ta-l3d40q1-Qd1e263">aliis sumus odor mortis in
+              mortem</quote>. Sed propter hoc lex nova non dicitur occidens. Ergo nec lex vetus
+            occidens, sed justificans, debet dici.</p>
+          <p xml:id="ta-l3d40q1-d1e267">Sed contra, 2 Corinth. 3, 6: <quote xml:id="ta-l3d40q1-Qd1e269">littera occidit, spiritus autem vivificat</quote>;
+            et loquitur de littera veteris legis. Ergo lex vetus non justificabat.</p>
+          <p xml:id="ta-l3d40q1-d1e273">Praeterea, Rom. 10, 5, <quote xml:id="ta-l3d40q1-Qd1e275" ana="#rom10_5">justitiam quae ex lege est, qui fecerit homo, vivit in
+              ea</quote>. Glossa: <quote xml:id="ta-l3d40q1-Qd1e278">qui operibus legis justificatur, temporalem habet mercedem,
+              non apud Deum</quote>. Sed vera justitia est quae habet mercedem apud Deum. Ergo lex
+            vetus non justificabat.</p>
+          <p xml:id="ta-l3d40q1-d1e282">Praeterea, qui justificatur ex operibus, non justificatur gratis. Sed justificatio
+            legis non potest esse nisi per opera. Cum ergo vera justificatio sit gratis, ut patet
+            Rom. 3, videtur quod lex non justificaret.</p>
+          <p xml:id="ta-l3d40q1-d1e285">Respondeo dicendum, quod lex quodammodo justificabat, et quodammodo occidebat. Ad cujus
+            intellectum sciendum est, quod justificare dupliciter hic potest accipi. Uno modo
+            justitiam facere; alio modo justitiam docere. Justitia autem est duplex: quaedam
+            acquisita; quaedam infusa. Justitia acquisita ex operibus causatur; et per hunc modum
+            lex civilis homines justos facit, inquantum per exercitium operum, habitum justitiae in
+            observatoribus causat; et per hunc modum etiam lex Mosaica justificare poterat,
+            justitiam acquisitam causando. Sed de hac justitia nihil ad praesens. Justitia autem
+            infusa a solo Deo effective est; unde lex per opera eam inducere non potest: sed per
+            legem novam talis inducitur justitia, quia per sacramenta ejus gratia confertur, quae
+            justificat formaliter. Sacramenta vero veteris legis gratiam non conferebant, ut in 4
+            Lib. dicetur; et ideo lex vetus nullo modo justificabat quasi justitiam causans, sed
+            quasi justitiam docens: quia in observatione mandatorum ejus, forma justitiae consistit.
+            Occidere autem legis littera dicitur et quantum ad moralia, et quantum ad caeremonialia;
+            sed differenter. Quia quantum ad caeremonialia, per se loquendo; tempore enim gratiae
+            revelatae coeperunt esse mortifera. Sed quantum ad moralia non, nisi accidentaliter,
+            inquantum ex ipsa lege peccatum prohibente, et auxilium gratiae contra ipsum non
+            ferente, infirmus periculum mortis sumebat tripliciter. Primo, quia ex hoc ipso quod
+            peccati commemorationem faciebat ei in quo concupiscentia peccati extincta non erat,
+            magis in ipsum exardescebat, sicut cum aqua ostenditur sitienti. Secundo, quia ex hoc
+            ipso quod prohibebatur, ponebatur quasi in quodam alto et difficili ad habendum; et ideo
+            mens humana peccato subjecta, vehementius in illud tendebat, sicut scriptum est Prov. 9,
+            17: <quote xml:id="ta-l3d40q1-Qd1e287">aquae furtivae dulciores sunt</quote>. Tertio, quia lex prohibens, peccati
+            specialem reatum addebat, inquantum non solum naturalem legem transgrediebatur, sed
+            etiam legis scriptae praevaricator erat.</p>
+          <p xml:id="ta-l3d40q1-d1e292">Ad primum ergo dicendum, quod observatio mandatorum legis necessaria est ad vitam
+            aeternam consequendam, quia sine ea ad vitam aeternam intrare non potest qui tempus
+            habet operandi; non tamen observatio mandatorum legis ad vitam consequendam sufficiebat,
+            nisi modus caritatis adjungeretur; quam lex nullo modo causare poterat; et ideo non
+            perfecte justificabat.</p>
+          <p xml:id="ta-l3d40q1-d1e295">Ad secundum dicendum, quod docere justitiam, non est justitiam facere perfecte, sed
+            solum dispositive. Invenitur autem aliqua lex, scilicet lex nova, quae justitiam facit
+            effective per sacramenta, quae gratiam conferunt.</p>
+          <p xml:id="ta-l3d40q1-d1e298">Ad tertium dicendum, quod per hoc probatur quod lex non occidebat per se loquendo, sed
+            dispositive justificabat.</p>
+          <p xml:id="ta-l3d40q1-d1e301">Ad quartum dicendum, quod ratio sequeretur, si causa mortis esset ex lege; non autem
+            erat ex ea, immo potius ad contrarium ordinata erat; sed causa mortis erat ex peccato
+            eorum quibus lex dabatur; sicut causa mortis non est ex sole, si febricitantes ad solem
+            stantes moriuntur.</p>
+          <p xml:id="ta-l3d40q1-d1e304">Ad quintum dicendum, quod in lege nova non est aliquis defectus quin justificare
+            possit, sicut erat in veteri lege; et ideo magis poterat accipi occasio mortis ex veteri
+            lege quam nova. Ex nova enim lege non sequitur occasio mortis nisi contemnentibus ipsam,
+            quia volentibus observare, auxilium praebet: sed lex vetus etiam volentibus observare,
+            et deficientibus propter infirmitatem, occasio mortis erat.</p>
+        </div>
+        <div xml:id="ta-l3d40q1-Dd1e309" type="articulus">
+          <head xml:id="ta-l3d40q1-Hd1e311">Articulus 4</head>
+
+          <head xml:id="ta-l3d40q1-Hd1e314" type="questionTitle">Utrum lex vetus promittebat tantum temporalia, vel etiam
+            aeterna</head>
+          <div xml:id="ta-l3d40q1-Dd1e317">
+            <head xml:id="ta-l3d40q1-Hd1e319">Quaestiuncula 1</head>
+            <p xml:id="ta-l3d40q1-d1e322">Ad quartum sic proceditur. Videtur quod lex vetus non solum temporalia, sed aeterna
+              promittebat. Illud enim in lege promittitur quod merces legis ponitur. Sed Deus
+              seipsum mercedem Abrahae promisit, qui est bonum aeternum, ut patet Genes. 15. Ergo
+              non solum temporalia, sed aeterna promittebat.</p>
+            <p xml:id="ta-l3d40q1-d1e325">Praeterea, quod promittitur in lege, est praemium virtutis. Sed praemium virtutis
+              debet esse melius virtute. Cum igitur virtus sit melior omni mercede temporali,
+              videtur quod lex terrena promittere non debuerit.</p>
+            <p xml:id="ta-l3d40q1-d1e328">Praeterea, illud quod est contra rationem virtutis, in lege fieri non debet. Sed
+              virtuti contrarium est, et ejus corruptivum, ut actus ejus propter bonum terrenum
+              fiat. Ergo promissio terrenorum in lege fieri non debuit.</p>
+            <p xml:id="ta-l3d40q1-d1e331">Sed contra, illis solis potest homo ad bene faciendum invitari, quae in pretio habet.
+              Sed carnalis populus, cui lex vetus data fuit, sola bona temporalia in pretio habebat.
+              Ergo eorum sibi promissio fieri debuit.</p>
+            <p xml:id="ta-l3d40q1-d1e335">Praeterea, 1 Corinth. 15, 46: <quote xml:id="ta-l3d40q1-Qd1e337">non prius quod spirituale, sed quod
+                animale</quote>. Sed lex vetus primo danda erat. Ergo non spiritualis promissio, sed
+              temporalis in ea fieri debuit.</p>
+          </div>
+          <div xml:id="ta-l3d40q1-Dd1e342">
+            <head xml:id="ta-l3d40q1-Hd1e344">Quaestiuncula 2</head>
+            <p xml:id="ta-l3d40q1-d1e347">Ulterius. Videtur quod lex vetus non differat a nova per radicem timoris et amoris.
+              Differentia enim legis non attenditur ex diversitate observantium legem, sed potius e
+              converso; cum lex sit regula et mensura observantium ipsam. Sed facere aliquid ex
+              timore vel amore contingit ex diversa dispositione observantium legem. Ergo penes hoc
+              duae leges non distinguuntur.</p>
+            <p xml:id="ta-l3d40q1-d1e350">Praeterea, nullus fructuose legem custodit, nisi qui ex amore eam observat. Sed in
+              statu veteris legis multi fuerunt qui eam fructuose observabant, vitam aeternam ex hoc
+              promerentes. Ergo lex vetus et nova non distinguuntur per timorem et amorem.</p>
+            <p xml:id="ta-l3d40q1-d1e353">Praeterea, timor servilis, qui contra amorem dividitur, respicit poenam. Sed majoris
+              poenae comminatio fit in nova lege quam in veteri, ut patet Hebr. 10, 29:
+                <quote xml:id="ta-l3d40q1-Qd1e355">quanto</quote>, inquit, <quote xml:id="ta-l3d40q1-Qd1e358">putatis deteriora mereri supplicia qui filium
+                Dei conculcaverit?</quote> Ergo lex nova magis in timore consistit quam vetus.</p>
+            <p xml:id="ta-l3d40q1-d1e362">In contrarium est quod Augustinus dicit, quod brevis differentia legis et Evangelii
+              est timor et amor.</p>
+            <p xml:id="ta-l3d40q1-d1e366">Praeterea, Rom. 8, 15: <quote xml:id="ta-l3d40q1-Qd1e368" ana="#rom8_15">non accepistis spiritum servitutis iterum in
+                timore</quote>; dicit Glossa: <quote xml:id="ta-l3d40q1-Qd1e371">praecepta in veteri lege timore
+                servabantur</quote>.</p>
+          </div>
+          <div xml:id="ta-l3d40q1-Dd1e376">
+            <head xml:id="ta-l3d40q1-Hd1e378">Quaestiuncula 3</head>
+            <p xml:id="ta-l3d40q1-d1e381">Ulterius. Videtur quod lex vetus non sit magis onerosa quam nova. Quod enim se habet
+              ex additione ad aliud, plura continet. Sed nova addit supra veterem, Matth. 5. Ergo
+              plura continet; et ita videtur difficilior.</p>
+            <p xml:id="ta-l3d40q1-d1e384">Praeterea, quanto est perfectior status virtutis, tanto majorem difficultatem habet:
+              quia ars et virtus circa difficile et bonum sunt, ut dicitur in 1 Ethic. Sed status
+              novae legis est perfectior quam status veteris. Ergo lex nova est difficilior.</p>
+            <p xml:id="ta-l3d40q1-d1e387">Praeterea, infirmis et parvulis levia onera sunt imponenda. Sed illi qui erant in
+              veteri lege, parvulis comparantur; qui autem sunt in nova, viris perfectis, ut patet
+              Gal. 4. Ergo lex nova est gravior quam vetus.</p>
+            <p xml:id="ta-l3d40q1-d1e390">Sed contra est quod dicitur Matth. 11, 30: <quote xml:id="ta-l3d40q1-Qd1e392" ana="#mt11_30">jugum meum suave est, et onus
+                leve</quote>.</p>
+            <p xml:id="ta-l3d40q1-d1e397">Praeterea, Act. 15, 10, dicit Petrus de veteri lege: <quote xml:id="ta-l3d40q1-Qd1e399" ana="#act15_10">hoc est onus quod nec nos
+                nec patres nostri potuerunt portare</quote>. Ergo et cetera.</p>
+          </div>
+          <div xml:id="ta-l3d40q1-Dd1e405">
+            <head xml:id="ta-l3d40q1-Hd1e407">Quaestiuncula 1</head>
+            <p xml:id="ta-l3d40q1-d1e410">Respondeo dicendum ad primam quaestionem, quod secundum Dionysium in 5 cap.
+              Ecclesiast. Hierarch., lex nova media est inter Ecclesiam caelestem et statum veteris
+              legis; et ideo aeterna bona, quae in caelesti Ecclesia palam et copiose exhibentur, in
+              nova lege manifeste promittuntur; in veteri autem lege non promittebantur, nisi sub
+              quibusdam figuris. Unde Hebr. 10, 1, dicitur: <quote xml:id="ta-l3d40q1-Qd1e412" ana="#hebr10_1">umbram habens lex futurorum
+                bonorum</quote>. Et hoc propter tres causas praecipue. Primo ut ex his quae
+              cognoscebant, assuefierent etiam a Deo majora sperare. Secundo ut non solum cognitio,
+              sed affectus, a temporalibus ad aeterna manuduceretur. Tertio, quia bona aeterna
+              nondum statim eis poterant exhiberi, nondum soluto pretio; unde dilatio promissorum
+              inefficacem faceret apud infirmos promissionem.</p>
+            <p xml:id="ta-l3d40q1-d1e416">Ad primum ergo dicendum, quod ubicumque promittuntur aeterna in veteri lege, hoc est
+              sub quadam figura et similitudine temporalium; et secundum hoc etiam Deus se mercedem
+              Abrahae constituit ad litteram, quasi remuneratorem in multiplicatione seminis et in
+              terrae promissae collatione. Vel dicendum, quod hoc intelligitur de promissione
+              communiter omnibus facta in veteri lege, non autem de illa quae fiebat specialiter ad
+              aliquos perfectos viros, qui ad legem novam pertinebant.</p>
+            <p xml:id="ta-l3d40q1-d1e419">Ad secundum dicendum, quod promissiones temporales non ponuntur in lege quasi praemia
+              virtutum, sed quasi incitamenta quaedam ad virtutem.</p>
+            <p xml:id="ta-l3d40q1-d1e422">Ad tertium dicendum, quod sicut facere aliquid timore poenae est contra rationem
+              perfectae virtutis, tamen ducit ad virtutem; ita etiam facere aliquid propter
+              retributionem temporalem; et ideo sicut in lege fit comminatio poenae, ita etiam
+              potest fieri promissio temporalis mercedis.</p>
+          </div>
+          <div xml:id="ta-l3d40q1-Dd1e426">
+
+            <head xml:id="ta-l3d40q1-Hd1e428">Quaestiuncula 2</head>
+            <p xml:id="ta-l3d40q1-d1e431">Ad secundam quaestionem dicendum, quod ex ipso modo legislationis apparet quod lex
+              vetus est lex timoris, lex autem nova lex amoris. Lex enim nova ex ostensione divinae
+              caritatis initium sumpsit: quia in effusione sanguinis Jesu Christi, qui fuit
+              perfectissimae caritatis signum, novum testamentum consummatum est. Lex autem vetus in
+              ostensione divinae potestatis, quae timorem incutit, initium sumpsit; unde et in ipsa
+              legislatione propter fulgura, voces, et tonitrua terror audientes invasit, ut
+              dicerent: <quote xml:id="ta-l3d40q1-Qd1e433">non loquatur nobis dominus, ne forte moriamur</quote>, Exod. 20, 19;
+              et ideo vetus lex homines praecipue inducebat per comminationem poenarum; nova vero
+              lex per beneficia exhibita, et speranda; et hoc satis competebat statui humani
+              generis, ut prius quasi rudis populus per timorem poenae cogeretur, postmodum vero per
+              amorem in bono perficeretur; sicut enim timor est via ad amorem, ita lex vetus ad
+              novam.</p>
+            <p xml:id="ta-l3d40q1-d1e437">Ad primum ergo dicendum, quod ista differentia non tantum sumitur ex parte
+              observantium legem, sed ex modo editionis legis, ut dictum est.</p>
+            <p xml:id="ta-l3d40q1-d1e440">Ad secundum dicendum, quod illi qui in veteri lege ex amore legem observabant,
+              perfecti erant; unde ad legem novam pertinebant, in qua est status perfectionis.</p>
+            <p xml:id="ta-l3d40q1-d1e443">Ad tertium dicendum, quod quamvis lex nova majora supplicia comminetur, tamen
+              comminatio suppliciorum non est principalis inductio in legem novam, sicut erat in
+              lege veteri; sed magis promissio praemiorum, et commemoratio beneficiorum quae ad
+              amorem incitant; et ideo lex nova non timorem, sed amorem, principalem radicem
+              habet.</p>
+          </div>
+          <div xml:id="ta-l3d40q1-Dd1e447">
+            <head xml:id="ta-l3d40q1-Hd1e449">Quaestiuncula 3</head>
+            <p xml:id="ta-l3d40q1-d1e452">Ad tertiam quaestionem dicendum, quod difficile et onerosum mensuratur secundum
+              virtutem sustinentis: aliquid enim onerosum est debili quod forti est leve. Et ideo de
+              onere legis et Evangelii possumus loqui dupliciter: aut quantum ad gravitatem
+              praeceptorum secundum se, aut per comparationem ad virtutem observantium. Si primo
+              modo; sic quantum ad numerum praecepta veteris legis erant magis onerosa: quia lex
+              vetus arctabat ad caeremonialia multa, et judicialia: lex autem nova ad moralia
+              tantum, quae etiam lex naturae imperat, et in uno verbo abbreviato dilectionis Dei et
+              proximi concluduntur. Sed quantum ad explicationem istorum praeceptorum, sic praecepta
+              novae legis quodammodo sunt difficiliora: quia magis explicatur virtus praeceptorum
+              moralium in nova lege quam veteri; et superaddit lex nova consilia, quamvis ad ea non
+              cogat; et quaedam etiam prohibet quae lex vetus permittebat, infirmitati deferens,
+              sicut libellum repudii, et hujusmodi. Si autem secundo modo, sic absolute lex vetus
+              onerosior erat: tum quia auxilium gratiae non conferebat ad mandata implenda, sicut
+              nova facit; tum quia vetus lex per modum timoris cogebat ad hoc, ad quod nova lex ex
+              amore inducit, qui omnia levia facit.</p>
+            <p xml:id="ta-l3d40q1-d1e455">Ad primum ergo dicendum, quod additio novae legis ad veterem vel est quantum ad
+              consilia ad quae nova lex non obligat, vel etiam quantum ad explicationem eorum quae
+              in veteri lege implicite habebantur; unde ex hoc non potest concludi quod lex nova sit
+              gravior.</p>
+            <p xml:id="ta-l3d40q1-d1e458">Ad secundum dicendum, quod virtuosus ea quae ad virtutem pertinent, delectabiliter
+              exequitur, ut dicitur in 1 Ethic.; et ideo virtus perfecta levius quantumcumque
+              difficilia exequetur, quam carens virtute facilia: cui hoc ipsum triste est, quod a
+              delectationibus illicitis abstineat.</p>
+            <p xml:id="ta-l3d40q1-d1e461">Ad tertium dicendum, quod sicut qui tortuosa ligna dirigunt, ad partem contrariam
+              magis deflectunt, ut sic ad rectitudinem etiam, ut dicitur in 2 Ethic. veniant; ita
+              tendentibus ad virtutem faciendum est, ut qui a rectitudine virtutis distorti fuerunt,
+              magis a contrariis vitiis abstrahantur. Et propter hoc etiam poenitentibus graviora
+              onera imponuntur quam innocentibus. Et ita etiam carnali populo et cervicoso majora
+              onera imponenda fuerunt ad ejus duritiam edomandam, cum tamen modum ejus non
+              excederent, sicut etiam infirmis diaeta arctior, et pueris disciplina strictior
+              imponitur.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l3d40q1-Dd1e466">
+          <head xml:id="ta-l3d40q1-Hd1e468">Expositio textus</head>
+          <p xml:id="ta-l3d40q1-d1e471"><quote xml:id="ta-l3d40q1-Qd1e472">Non ancillam</quote> et cetera. Sciendum, quod ancilla dupliciter concupisci
+            potest. Uno modo ad concubitum, et sic pertinet ad sextum praeceptum; alio modo ad
+            dominium, et sic pertinet ad septimum. <quote xml:id="ta-l3d40q1-Qd1e475">Audistis decem chordas Psalterii</quote>.
+            Per decem chordas Psalterii decem praecepta legis intelliguntur. Sicut enim David
+            egregius psaltes sono citharae et Psalterii spiritum malum a Saul expellebat, ut dicitur
+            1 Reg. 16, et ursum et leonem interfecit, ut dicitur in eodem, 17, ita Christus qui per
+            David significatur, corda nostra quasi Psalterium his decem praeceptis percutiens,
+            omnium mortalium peccatorum feras in nobis occidit, et virtutes perficit, quibus ad
+            vitam pervenitur aeternam, in qua cum Christo vivamus per omnia saecula saeculorum.
+            Amen.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

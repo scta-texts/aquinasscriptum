@@ -1,0 +1,578 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum III, Distinctio 25, Quaestio 2</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.09-dev-master">
+          <title>Librum III, Distinctio 25, Quaestio 2</title>
+          <date when="2016-03-13">March 13, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-13">March 13, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness>1856 editum</witness>
+          <witness xml:id="H" n="harv245" xml:base="http://iiif.lib.harvard.edu/manifests/drs:51994085/canvas/">Cambridge, Mass.,
+            Harvard University, Houghton Library, MS Lat 245</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="2015.09">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+
+
+
+
+      <div xml:id="starts-on">
+        <cb ed="#H" n="93va"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ta-l3d25q2">
+        <head xml:id="ta-l3d25q2-Hd1e97">Librum III, Distinctio 25, Quaestio 2</head>
+        <head xml:id="ta-l3d25q2-Hd1e100" type="questionTitle">De explicatione fidei</head>
+        <div xml:id="ta-l3d25q2-Dd1e103">
+          <head xml:id="ta-l3d25q2-Hd1e105">Prooemium</head>
+          <p xml:id="ta-l3d25q2-d1e108">Deinde quaeritur de explicatione fidei; et circa hoc quaeruntur duo: 1 de necessitate
+            explicationis; 2 quantum ad quae oportet esse fidem explicitam.</p>
+        </div>
+        <div xml:id="ta-l3d25q2-Dd1e112" type="articulus">
+          <head xml:id="ta-l3d25q2-Hd1e114">Articulus 1</head>
+          <head xml:id="ta-l3d25q2-Hd1e117" type="questionTitle">Utrum explicatio fidei sit de necessitate salutis</head>
+          <div xml:id="ta-l3d25q2-Dd1e120">
+            <head xml:id="ta-l3d25q2-Hd1e122">Quaestiuncula 1</head>
+            <p xml:id="ta-l3d25q2-d1e125">Ad primum sic proceditur. Videtur quod fidem esse explicitam non sit de necessitate
+              salutis. Ad salutem enim sufficit gratia et liberum arbitrium. Sed ad explicationem
+              fidei non sufficit habitus gratuitus fidei infusus, nec etiam liberum arbitrium gratia
+              informatum; sed oportet quod veniat doctrina fidei determinans, quia fides ex auditu
+              est, Rom. 10. Ergo explicatio fidei non est de necessitate salutis.</p>
+            <p xml:id="ta-l3d25q2-d1e128">Praeterea, nullus damnatur ex hoc quod vitare non potest. Sed aliquis natus in
+              silvis, vel inter infideles, non potest distincte de fidei articulis cognitionem
+              habere: quia doctor fidei non adest, nec unquam de fide audivit mentionem. Ergo iste
+              non damnatur; et tamen non habet fidem explicitam: ergo videtur quod explicatio fidei
+              non sit de necessitate salutis.</p>
+            <p xml:id="ta-l3d25q2-d1e131">Praeterea, explicita cognitio de articulis fidei non potest esse nisi in eo qui habet
+              usum liberi arbitrii. Sed multi salvantur qui usum liberi arbitrii non habent, sicut
+              pueri baptizati et moriones. Ergo explicatio fidei non est de necessitate salutis.</p>
+            <p xml:id="ta-l3d25q2-d1e134">Praeterea, simplicibus non sunt proponenda subtilia, sicut patet per apostolum 1
+              Corinth. 3. Sed nihil est subtilius his quae supra rationem sunt, qualia sunt ea quae
+              ad fidem pertinent. Ergo simplicibus non est explicanda fides, et tamen ipsi
+              salvantur; ergo explicatio fidei non est de necessitate salutis.</p>
+            <p xml:id="ta-l3d25q2-d1e138">Sed contra, Heb. 11, <quote xml:id="ta-l3d25q2-Qd1e140">accedentem ad Deum oportet credere quia est, et quia
+                diligentibus se remunerator est</quote>. Sed accedere ad Deum est de necessitate
+              salutis. Ergo et habere fidem explicitam quantum ad aliqua.</p>
+            <p xml:id="ta-l3d25q2-d1e144">Praeterea, nullus sine spe salvatur. Sed ad spem oportet adesse explicitam
+              cognitionem rerum quae sperantur: quia fides est substantia sperandarum rerum, Hebr.
+              11. Ergo habere fidem explicite de aliquibus est de necessitate salutis.</p>
+          </div>
+          <div xml:id="ta-l3d25q2-Dd1e148">
+            <head xml:id="ta-l3d25q2-Hd1e150">Quaestiuncula 2</head>
+            <p xml:id="ta-l3d25q2-d1e153">Ulterius. Videtur quod quilibet teneatur habere fidem explicitam de omnibus quae ad
+              fidem pertinent. Omnes enim articuli fidei aequaliter ad fidem pertinent. Si ergo de
+              aliquibus oportet habere cognitionem explicitam, pari ratione de omnibus.</p>
+            <p xml:id="ta-l3d25q2-d1e156">Praeterea, secundum id quod in universali scitur, non distinguitur unus homo ab alio:
+              quia cognitio universalium principiorum omnibus hominibus est innata. Sed habere fidem
+              implicite de aliquo articulo, est habere fidem in universali de illo articulo. Ergo
+              per hoc quod habet fidem tantum implicitam de aliquo articulo, non differt quantum ad
+              illum articulum a non credente: ergo oportet habere fidem explicitam de omnibus
+              articulis.</p>
+            <p xml:id="ta-l3d25q2-d1e159">Praeterea, sicut per praecepta legis vitantur peccata mortalia, ita per articulos
+              vitantur errores haeresum. Sed aliquis ita tenetur servare praecepta legis ut omnia
+              peccata vitet. Ergo et ita tenetur cognoscere articulos fidei ut omnes errores et
+              haereses vitet. Sed hoc non potest facere nisi qui habet fidem explicitam de omnibus
+              articulis: quia qui scit aliquid implicite et in universali, potest errare in
+              particulari. Ergo habere fidem explicitam de omnibus articulis, est de necessitate
+              salutis.</p>
+            <p xml:id="ta-l3d25q2-d1e162">Sed contra, explicita cognitio de articulis fidei non habetur nisi per studium. Sed
+              studere non est de necessitate salutis. Ergo explicita cognitio de omnibus articulis
+              fidei non est de necessitate salutis.</p>
+            <p xml:id="ta-l3d25q2-d1e166">Praeterea, secundum hoc pauci essent qui haberent fidem, cum vix inveniatur aliquis
+              qui possit explicare articulos quantum ad omnia quae in articulis implicite
+              continentur.</p>
+          </div>
+          <div xml:id="ta-l3d25q2-Dd1e170">
+            <head xml:id="ta-l3d25q2-Hd1e172">Quaestiuncula 3</head>
+            <p xml:id="ta-l3d25q2-d1e175">Ulterius. Videtur quod majores non magis teneantur quam minores. Quia homines
+              simplices examinantur de difficilibus articulis, et damnantur haeretici, si male
+              respondeant. Hoc autem non esset, nisi illos scire tenerentur. Ergo minores non minus
+              tenentur scire quam majores.</p>
+            <p xml:id="ta-l3d25q2-d1e178">Praeterea, nullus tenetur ad plura quam alius, nisi inquantum ad illa se obligavit.
+              Sed majores non obligaverunt se ad articulos sciendos explicite, ut videtur. Ergo non
+              magis tenentur quam minores.</p>
+            <p xml:id="ta-l3d25q2-d1e181">Praeterea, videntur majores illi qui magis sciunt. Si ergo ad plura credenda
+              obligarentur, videtur quod ex sua scientia incommodum reportarent.</p>
+            <p xml:id="ta-l3d25q2-d1e184">Sed contra, majores debent docere fidem minoribus. Sed qui docet, debet plenius
+              scire. Ergo tenentur magis explicite scire quam minores.</p>
+            <p xml:id="ta-l3d25q2-d1e188">Praeterea, ei cui plus est commissum, plus exigetur ab eo. Sed majoribus plus
+              commissum est quam minoribus. Ergo plus ab eis exigetur de fidei cognitione.</p>
+          </div>
+          <div xml:id="ta-l3d25q2-Dd1e193">
+            <head xml:id="ta-l3d25q2-Hd1e195">Quaestiuncula 4</head>
+            <p xml:id="ta-l3d25q2-d1e198">Ulterius. Videtur quod minores non habeant fidem implicitam in fide majorum. Sicut
+              enim est fides implicita et explicita, ita et scientia. Sed scientiam habet quis
+              implicitam, non in aliquo sciente, sed in universali rei scibilis. Ergo nec fidem
+              habet unus implicitam in fide alterius.</p>
+            <p xml:id="ta-l3d25q2-d1e201">Praeterea, illud in quo implicatur cognitio alicujus habentis cognitionem implicitam,
+              est regula suae cognitionis. Sed regula nostrae fidei non est cognitio humana, quae
+              potest decipi, sed cognitio divina, quae falli non potest. Ergo videtur quod homo non
+              debeat habere fidem implicitam in fide alterius hominis, sed in cognitione Dei.</p>
+            <p xml:id="ta-l3d25q2-d1e204">Praeterea, nullus peccat si se conformet suae regulae. Sed majores sunt praelati vel
+              etiam doctores. Si ergo simplices debent habere implicitam fidem in fide majorum, non
+              peccaret aliquis simplex dicens aliquid contra fidem, si ab aliquo magistro vel
+              praelato praedicaretur: quod falsum videtur.</p>
+            <p xml:id="ta-l3d25q2-d1e207">Praeterea, illud in quo implicatur cognitio alicujus, oportet esse notum; sicut qui
+              habet scientiam alicujus particularis implicitam in universalibus principiis, oportet
+              quod illa principia cognoscat. Ergo homo non debet habere implicitam fidem in
+              cognitione alterius hominis.</p>
+            <p xml:id="ta-l3d25q2-d1e211">Sed contra, omnis addiscens habet fidem implicitam in cognitione docentis; quia,
+              secundum philosophum, oportet credere addiscentem. Sed majores positi sunt ad docendum
+              fidem minoribus. Ergo minores debent habere fidem implicitam in cognitione
+              majorum.</p>
+            <p xml:id="ta-l3d25q2-d1e214">Praeterea, hoc patet per auctoritatem inductam in littera.</p>
+          </div>
+          <div xml:id="ta-l3d25q2-Dd1e218">
+            <head xml:id="ta-l3d25q2-Hd1e220">Quaestiuncula 1</head>
+            <p xml:id="ta-l3d25q2-d1e223">Respondeo dicendum ad primam quaestionem, quod ad salutem aliquis dupliciter
+              pervenit. Quidam enim non perveniunt merito proprio, sed merito alieno, sicut pueri et
+              stulti baptizati, quibus suffragatur meritum Christi, cujus facti sunt participes in
+              perceptione sacramenti: quia meritum proprium habere non possunt, cum non habeant usum
+              liberi arbitrii, quod exigitur ad meritum. Quicumque autem usum liberi arbitrii
+              habent, tenentur ad merita Christi et meritum proprium addere. Meritum autem consistit
+              in actu virtutum; unde ad salutem ipsorum oportet quod sit et actus et habitus
+              virtutum. Actus autem omnium virtutum dependet ab actu fidei, quae intentionem
+              dirigit: unde in omni qui habet liberum arbitrium exigitur ad salutem ejus quod habeat
+              actum fidei, et non solum habitum. Fides autem non potest exire in actum, nisi aliquid
+              determinate et explicite cognoscendo quod ad fidem pertineat; et ideo omni ei qui
+              habet usum liberi arbitrii, habere fidem explicitam quantum ad aliquid, est de
+              necessitate salutis.</p>
+            <p xml:id="ta-l3d25q2-d1e226">Ad primum ergo dicendum, quod in his quae sunt necessaria ad salutem, nunquam Deus
+              homini quaerenti suam salutem deest vel defuit, nisi ex culpa sua remaneat; unde
+              explicatio eorum quae sunt de necessitate salutis vel divinitus homini provideretur
+              per praedicatorem fidei, sicut patet de Cornelio, Act. 10; vel per revelationem: qua
+              supposita, in potestate liberi arbitrii est ut in actum fidei exeat.</p>
+            <p xml:id="ta-l3d25q2-d1e229">Ad secundum dicendum, quod si talis faceret quod in se est de quaerendo salutem, Deus
+              illi aliquo dictorum modorum provideret de salute sua.</p>
+            <p xml:id="ta-l3d25q2-d1e232">Ad tertium patet solutio per ea quae dicta sunt.</p>
+            <p xml:id="ta-l3d25q2-d1e236">Ad quartum dicendum, quod ea quae sunt supra rationem ad fidem pertinentia, non
+              proponuntur hominibus simplicibus ita quod res ipsa discutiatur, sed in verborum
+              aenigmate, quibus assentiant; et ideo dicitur esse fides verborum, ut supra, distinct.
+              praecedenti, dictum est.</p>
+          </div>
+          <div xml:id="ta-l3d25q2-Dd1e240">
+            <head xml:id="ta-l3d25q2-Hd1e242">Quaestiuncula 2</head>
+            <p xml:id="ta-l3d25q2-d1e245">Ad secundam quaestionem dicendum, quod actus fidei ad hoc est necessarius ad salutem,
+              quia intentionem dirigit in omnibus actibus aliarum virtutum; et ideo tantum oportet
+              habere unicuique de fide explicita, quantum sufficit ad dirigendum ipsum in finem
+              ultimum. Unde non est de necessitate salutis ut homo omnes articulos fidei explicite
+              cognoscat: quia sine aliquorum explicatione potest homo habere rectam intentionem in
+              finem.</p>
+            <p xml:id="ta-l3d25q2-d1e248">Et per hoc patet responsio ad primum: quia non est eadem ratio de omnibus
+              articulis.</p>
+            <p xml:id="ta-l3d25q2-d1e251">Ad secundum dicendum, quod principia universalia, in quibus implicatur cognitio
+              particularium conclusionum, sunt homini nota per lumen naturale; et ideo quantum ad
+              implicitam cognitionem scientiae non distinguitur unus homo ab altero. Sed lumen
+              fidei, secundum quod habetur cognitio implicita, est lumen infusum, quod uni
+              infunditur, et alii non; et ideo non est similis ratio.</p>
+            <p xml:id="ta-l3d25q2-d1e254">Ad tertium dicendum, quod ad praecepta negativa tenemur semper et ad semper; et per
+              hoc vitantur sufficienter peccata transgressionis. Sed ad praecepta affirmativa
+              tenetur homo semper, sed non ad semper, sed loco et tempore determinato. Praecepta
+              autem affirmativa sunt de actibus virtutum. Ergo ad actum virtutis semper exercendum
+              homo non tenetur, nec quantum ad omnes modos quibus potest ille exerceri; sed sufficit
+              quod homo tempore debito operetur; et ideo etiam non oportet quod homo habeat
+              explicitam cognitionem de omnibus articulis fidei, sed de aliquibus qui sunt
+              necessarii secundum tempus illud; et per hoc sufficienter vitantur omnes errores et
+              dubitationes: quia sicut habitus temperantiae inclinat ad resistendum luxuriae, ita
+              habitus fidei inclinat ad resistendum omnibus quae sunt contra fidem. Unde in tempore
+              quando emergit necessitas explicite cognoscendi vel propter doctrinam contrariam quae
+              imminet, vel propter motum dubium qui insurgit, tunc homo fidelis ex inclinatione
+              fidei non consentit his quae sunt contra fidem, sed differt assensum, quousque plenius
+              instruatur.</p>
+          </div>
+          <div xml:id="ta-l3d25q2-Dd1e258">
+            <head xml:id="ta-l3d25q2-Hd1e260">Quaestiuncula 3</head>
+            <p xml:id="ta-l3d25q2-d1e263">Ad tertiam quaestionem dicendum, quod explicare articulos fidei contingit dupliciter.
+              Uno modo quantum ad ipsorum articulorum substantiam, secundum quod ipsos articulos
+              distincte scit. Alio modo quantum ad ea quae in articulis continentur implicite: quod
+              quidem contingit dum homo scit ea quae articulis consequuntur, et vim veritatis
+              ipsorum articulorum, per quam possunt defendi ab omni impugnatione. Ad primam quidem
+              explicationem totaliter tenentur omnes qui habent officium docendi fidem sive ex gradu
+              dignitatis, sicut sacerdotes; sive ex revelatione, sicut prophetae; sive ex
+              ministerio, sicut doctores et praedicatores: non autem alii, quibus non incumbit
+              officium docendi fidem: quia cum ipsi non habeant nisi seipsos regulare, sufficit eis
+              illos articulos cognoscere per quos possint propriam intentionem dirigere in finem
+              ultimum. Ad secundam autem explicationem articulorum non tenetur aliquis totaliter ut
+              sciat omnia explicare quae in articulis de salute continentur: quia hoc non potest
+              esse nisi in patria, ubi ipsa articulorum veritas plene videbitur: sed unusquisque,
+              cui incumbit officium instruendi alios de fide, qui dicuntur majores, tenetur tantum
+              scire de ista explicatione, quantum pertinet ad suum officium. Sed ad hanc
+              explicationem minores, quibus officium docendi non incumbit, non tenentur.</p>
+            <p xml:id="ta-l3d25q2-d1e266">Ad primum ergo dicendum, quod non condemnantur simplices pro haereticis, quia
+              nesciunt articulos: sed quia pertinaciter defendunt ea quae sunt contraria articulis;
+              quod non facerent, nisi per haeresim fidem corruptam haberent.</p>
+            <p xml:id="ta-l3d25q2-d1e269">Ad secundum dicendum, quod hoc ipso quod aliquis docendi officium assumit, obligatur
+              ad sciendum ea quae docere debet.</p>
+            <p xml:id="ta-l3d25q2-d1e272">Ad tertium dicendum, quod majores non dicuntur qui magis sciunt, sed quibus incumbit
+              officium docendi fidem; qui quandoque peccatis exigentibus minus sciunt, quibus
+              dicitur Oseae 4, 6: <quote xml:id="ta-l3d25q2-Qd1e274">quia scientiam repulisti, repellam te et ego, ne sacerdotio
+                fungaris mihi</quote>. Nec tamen ex scientia quae ab eis exigitur, aliquod
+              incommodum reportant, quia habere scientiam eis est honorificum.</p>
+          </div>
+          <div xml:id="ta-l3d25q2-Dd1e279">
+            <head xml:id="ta-l3d25q2-Hd1e281">Quaestiuncula 4</head>
+            <p xml:id="ta-l3d25q2-d1e284">Ad quartam quaestionem dicendum, quod illi quibus incumbit officium docendi fidem,
+              sunt medii inter Deum et homines; unde respectu Dei sunt homines, et respectu hominum
+              sunt dii, inquantum divinae cognitionis participes sunt per scientiam Scripturarum,
+              vel per revelationem, ut dicitur Joan. 10, 35: <quote xml:id="ta-l3d25q2-Qd1e286">illos dixit deos ad quos sermo
+                Dei factus est</quote>. Et ideo oportet quod minores, qui ab eis de fide doceri
+              debent, habeant fidem implicitam in fide illorum, non inquantum homines sunt, sed
+              inquantum sunt participatione dii.</p>
+            <p xml:id="ta-l3d25q2-d1e290">Ad primum ergo dicendum, quod determinata cognitio principiorum demonstrationis ex
+              sensu acquiritur; unde ad eorum determinationem doctrina non indigemus: et in his
+              principiis homo habet a principio implicitam scientiam omnium quae sequuntur; habet
+              nihilominus scientiam implicitam in cognitione alterius scientis, inquantum oportet
+              eum per doctrinam scientiam accipere: quia oportet addiscentem credere. Et ideo non
+              est simile de scientia et fide: quia non sunt nobis innata aliqua principia naturalia
+              ad quae possint reduci articuli fidei; sed tota determinatio fidei est in nobis per
+              doctrinam; et ideo oportet in cognitione hominis habere fidem implicitam.</p>
+            <p xml:id="ta-l3d25q2-d1e293">Ad secundum dicendum, quod sicut in moventibus invenitur primum movens, quod est
+              movens non motum; et secundum movens, quod est movens et motum, post quod est id quod
+              est motum tantum; ita etiam est in regulantibus, quod est aliquid quod est regulans et
+              nullo modo regulatum; et haec est ratio primae regulae, et tale est Deus: est et
+              regulans regulatum, et talis regula humanae fidei est homo divinus: sicut etiam
+              philosophus dicit in 3 Ethic., quod virtuosus est mensura omnium humanorum actuum;
+              regulatum autem tantum sunt ipsi minores.</p>
+            <p xml:id="ta-l3d25q2-d1e296">Ad tertium dicendum, quod sicut homo debet obedire inferiori potestati in his tantum
+              in quibus non repugnat potestas superior; ita etiam debet homo se primae regulae in
+              omnibus commensurare secundum suum modum; secundae autem regulae debet se homo
+              commensurare in his in quibus non discordat a prima regula: quia in his in quibus
+              discordat, jam non est regula; et propter hoc praelato contra fidem praedicanti non
+              est assentiendum, quia in hoc discordat a prima regula. Nec per ignorantiam subditus
+              excusatur a toto: quia habitus fidei facit inclinationem ad contrarium, cum necessario
+              doceat de omnibus quae pertinent ad salutem, 1 Joan. 1. Unde si homo non sit facilis
+              nimis ad credendum omni spiritui, quando aliquid insolitum praedicatur, non assentiet,
+              sed aliunde requiret, vel Deo se committet in ejus secreta supra suum modum non se
+              ingerendo.</p>
+            <p xml:id="ta-l3d25q2-d1e300">Ad quartum dicendum, quod ad hoc datum est hominibus facere miracula, ut ostendatur
+              quod Deus per illos loquitur. Nec oportet quod in tali homine revelationem habente
+              aliquis suam fidem implicet, quousque talis homo ad ejus notitiam deveniat vel
+              divinitus, vel per famam humanam.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l3d25q2-Dd1e305" type="articulus">
+          <head xml:id="ta-l3d25q2-Hd1e307">Articulus 2</head>
+          <head xml:id="ta-l3d25q2-Hd1e310" type="questionTitle">Utrum per successionem temporum fides profecerit</head>
+          <div xml:id="ta-l3d25q2-Dd1e313">
+
+            <head xml:id="ta-l3d25q2-Hd1e315">Quaestiuncula 1</head>
+            <p xml:id="ta-l3d25q2-d1e318">Ad secundum sic proceditur. Videtur quod per successionem temporum fides non
+              profecerit quantum ad ea quae explicite sunt credenda. Fides enim, ut dicitur in
+              littera, caritati proportionatur. Sed caritas est eadem et aequalis per omnia tempora.
+              Ergo et fides.</p>
+            <p xml:id="ta-l3d25q2-d1e321">Praeterea, quod in scientiis crevit humana cognitio, hoc est propter imperfectionem
+              eorum qui primitus artes adinvenerunt imperfecte, ut dicitur in 2 Elench. Sed fidei
+              doctrina non habet principium ab inventione humana, sed ab inspiratione Dei, in quo
+              non cadit aliqua imperfectio. Ergo non debuit per incrementa temporum proficere.</p>
+            <p xml:id="ta-l3d25q2-d1e324">Praeterea, fides quantum ad substantiam semper eadem manet. Si ergo cognitio fidei
+              secundum diversa tempora proficit, oportet quod in primo tempore habeatur, saltem
+              implicite tantum, quod in sequenti etiam explicite cognoscitur. Sed minorum est habere
+              fidem in cognitione majorum. Ergo quandocumque fides fuit implicita alicujus articuli
+              in aliquo homine, fuit ejusdem articuli fides explicita in aliquo alio homine. Hoc
+              autem secundum omne tempus convenit, quod aliqui articuli a quibusdam implicite, et ab
+              aliquibus explicite cognoscantur. Ergo fides non crevit per successionem temporum.</p>
+            <p xml:id="ta-l3d25q2-d1e327">Praeterea, articulus est indivisibilis veritas. Sed quod est indivisibile, non potest
+              ulterius distingui. Ergo cum semper fuerit fides contenta sub aliquibus articulis,
+              videtur quod non potuerit magis distingui, ut articuli explicite cognoscerentur.</p>
+            <p xml:id="ta-l3d25q2-d1e331">Praeterea, per hoc videtur quod etiam modo eadem ratione possent articuli
+              multiplicari per successionem temporum; quod falsum esse videtur.</p>
+            <p xml:id="ta-l3d25q2-d1e334">Sed contra, Exod. 6, 2, dominus dixit ad Moysem: <quote xml:id="ta-l3d25q2-Qd1e336">ego sum Deus Abraham, Deus
+                Isaac, et Deus Jacob; et nomen meum Adonai non manifestavi eis</quote>. Ergo Moysi
+              fuit aliquid revelatum de Deo quod patribus revelatum non fuerat. Similiter etiam
+              David dicit, Psalm. 118, 10: <quote xml:id="ta-l3d25q2-Qd1e339">super senes intellexi</quote>; et Petrus suo
+              tempore completum asserit, Act. 11, 17, quod dicitur Joelis 2: <quote xml:id="ta-l3d25q2-Qd1e342">effundam de
+                spiritu meo</quote>.</p>
+            <p xml:id="ta-l3d25q2-d1e346">Praeterea, Gregorius dicit, quod per successiones temporum crevit divinae cognitionis
+              augmentum.</p>
+          </div>
+          <div xml:id="ta-l3d25q2-Dd1e350">
+            <head xml:id="ta-l3d25q2-Hd1e352">Quaestiuncula 2</head>
+            <p xml:id="ta-l3d25q2-d1e355">Ulterius. Videtur quod non oportuit semper habere fidem explicitam de redemptore. Non
+              enim cognoverunt homines de eo per fidem quod Angeli ignoraverunt: quia cognitio fidei
+              per revelationem quae est a Deo, est mediantibus Angelis, ut dicit Dionysius, 4 cap.
+              Cael. Hier. Sed Angeli mysterium redemptionis non cognoverunt; unde apostolus dicit
+              Ephes. 3, quod erat absconditum in Deo. Ergo nec homines de eo fidem explicitam
+              habuerunt.</p>
+            <p xml:id="ta-l3d25q2-d1e358">Praeterea, Adam suum casum non praescivit. Sed si non peccasset, humana redemptio non
+              fuisset. Ergo homo non semper explicite cognovit mysterium redemptionis humanae.</p>
+            <p xml:id="ta-l3d25q2-d1e361">Praeterea, sicut dicit Dionysius, multi etiam de gentilibus ante Christi adventum
+              salvati sunt. Sed illi non habebant fidem explicitam de redemptione, quia eis
+              revelatio non fuerat facta; Psalm. 147, 20: <quote xml:id="ta-l3d25q2-Qd1e363">non fecit taliter omni
+                nationi</quote>. Nec iterum in fide Judaeorum suam fidem implicitam habebant. Ergo
+              fides redemptoris non fuit necessaria ad salutem secundum omne tempus.</p>
+            <p xml:id="ta-l3d25q2-d1e367">Praeterea, adventus redemptoris non est de dictamine legis naturalis. Sed qui erant
+              in lege naturali, salvabantur implentes ea quae erant de dictamine legis naturalis,
+              sicut tempore legis scriptae est de his quae dictat lex scripta. Ergo non fuit semper
+              necessarium habere fidem explicitam de redemptore.</p>
+            <p xml:id="ta-l3d25q2-d1e371">Sed contra, Christus est caput totius Ecclesiae. Nullus autem salvatus est extra
+              Ecclesiam. Ergo nullus salvatus est qui non est membrum Christi vel non fuit. Sed
+              nullus fuit membrum Christi qui in Christum non credidit. Ergo nullus salvatus est
+              unquam sine fide Christi.</p>
+            <p xml:id="ta-l3d25q2-d1e374">Praeterea, sicut creator est principium essendi in natura condita, ita etiam
+              redemptor est principium reparationis naturae lapsae. Sed nullus potest salvari sine
+              reparatione, sicut nec esse sine esse naturali. Cum ergo fides de creatore semper
+              fuerit necessaria ad salutem, pari ratione et fides redemptoris semper fuit necessaria
+              ad salutem post casum hominis.</p>
+          </div>
+          <div xml:id="ta-l3d25q2-Dd1e378">
+            <head xml:id="ta-l3d25q2-Hd1e380">Quaestiuncula 3</head>
+            <p xml:id="ta-l3d25q2-d1e383">Ulterius. Videtur quod non oportuit istos articulos de redemptore credere quos
+              Magister tangit in littera. Quia Joannes Baptista inter majores fuit, qui tenebantur
+              habere fidem explicitam secundum illud tempus. Sed ipse dubitavit de morte Christi, ut
+              dicit Magister in littera. Ergo non videtur quod de morte Christi habuerint fidem
+              explicitam antiqui patres.</p>
+            <p xml:id="ta-l3d25q2-d1e386">Praeterea, conceptio nativitatem praecedit. Sed non dicitur quod necessarium fuerit
+              eos habere explicitam fidem de conceptione. Ergo nec fuit necessarium quod haberent
+              explicitam fidem de nativitate.</p>
+            <p xml:id="ta-l3d25q2-d1e389">Praeterea, sicut resurrectio Christi est causa nostrae resurrectionis, ita ascensio
+              causa nostrae ascensionis. Sed salus nostra consistit in resurrectione corporum, et in
+              ascensione ad locum gloriae. Ergo necessarium fuit credere ascensionem, sicut et
+              resurrectionem.</p>
+            <p xml:id="ta-l3d25q2-d1e392">Praeterea, per descensum ad Inferos nos ab Inferis retraxit. Hoc autem est
+              necessarium ad salutem. Ergo et credere Christum ad Inferos descendisse.</p>
+            <p xml:id="ta-l3d25q2-d1e396">Praeterea, salus hominum esse poterat sine hoc quod Christus ad judicium veniret:
+              quia per hoc nihil nobis Christus meretur. Ergo videtur quod non fuerit necessarium
+              credere Christum venturum ad judicium.</p>
+          </div>
+          <div xml:id="ta-l3d25q2-Dd1e401">
+            <head xml:id="ta-l3d25q2-Hd1e403">Quaestiuncula 4</head>
+            <p xml:id="ta-l3d25q2-d1e406">Ulterius. Videtur quod non fuerit necessarium habere cognitionem Trinitatis
+              explicitam. Quia Hebr. 11, 6, dicitur, quod de Deo <quote xml:id="ta-l3d25q2-Qd1e408" ana="#hebr11_6">oportet credere quia est, et
+                inquirentibus se remunerator sit</quote>. Ergo videtur quod non oportuit cognoscere
+              distinctionem personarum.</p>
+            <p xml:id="ta-l3d25q2-d1e412">Praeterea, cognitio fidei est necessaria inquantum nos in finem dirigit. Sed Deus est
+              finis noster, inquantum est summum bonum, quod ad essentiam pertinet. Ergo videtur
+              quod sufficiebat de Deo credere essentialia.</p>
+            <p xml:id="ta-l3d25q2-d1e415">Praeterea, sacra Scriptura est regula fidei. Sed in Scriptura veteris testamenti non
+              fuit mentio expressa facta de Trinitate. Ergo non erat necessaria ad credendum.</p>
+            <p xml:id="ta-l3d25q2-d1e418">Sed contra, magis est salutifera cognitio de Christo inquantum est Deus quam
+              inquantum est homo. Sed necessarium fuit habere cognitionem de humanitate ipsius. Ergo
+              multo fortius de deitate. Sed secundum quod est in sua deitate, est filius patris.
+              Ergo necessarium fuit habere cognitionem de patre et filio.</p>
+            <p xml:id="ta-l3d25q2-d1e422">Praeterea, missio divinarum personarum semper fuit de necessitate salutis. Sed
+              Augustinus dicit, quod mitti est cognosci quod ab alio sit. Ergo semper fuit
+              necessarium cognoscere in Deo quod sit ibi aliquis ab alio; et ita cognoscere
+              Trinitatem per fidem.</p>
+          </div>
+          <div xml:id="ta-l3d25q2-Dd1e426">
+            <head xml:id="ta-l3d25q2-Hd1e428">Quaestiuncula 1</head>
+            <p xml:id="ta-l3d25q2-d1e431">Respondeo dicendum ad primam quaestionem, quod fides cognitio quaedam est. Quantitas
+              autem cognitionis dupliciter attenditur: scilicet secundum objecta, et secundum
+              efficaciam actus circa objectum. Quia autem habitus specificatur ex objecto, ideo
+              prima quantitas est habitui essentialis; et secundum hanc attenditur magnitudo fidei,
+              quae est secundum articulorum quantitatem; et ideo secundum hanc quantitatem fides non
+              crescit nec deficit, cum semper eadem maneat. Efficacia autem in agendo, est ex
+              conditione agentis; et ideo quantum ad alias tres magnitudines potest fides proficere,
+              ipsa manente eadem secundum diversas hominum conditiones. In actu autem fidei tria
+              inveniuntur, secundum quae potest quantitas efficaciae fidei attendi; duo secundum
+              naturam propriam: scilicet cogitare, et secundum hoc dicitur fides magna, cognitione;
+              et assentire, et secundum hoc dicitur fides magna, constantia, quia assensus
+              certitudinem et determinationem importat, ut supra, dist. 23, art. 2 in corp. et ad 1,
+              dictum est: tertium autem est in actu fidei secundum quod informatur caritate; et
+              secundum hoc dicitur fides magna, devotione. Sed quia certitudo fidei est ex voluntate
+              determinante intellectum ad unum, et similiter formatio ex caritate, quae est in
+              voluntate; voluntas autem est domina sui actus etiam secundum quodcumque tempus; ideo
+              per se loquendo magnitudinis fidei quae est secundum constantiam et devotionem,
+              attenditur profectus secundum promptitudinem voluntatis quae est ex gratia, non ex
+              successione temporum nisi per accidens, inquantum in aliquo tempore sit plenior
+              influentia gratiae quam in alio quantum ad communem statum, quamvis non quantum ad
+              omnes personas. Sed cogitare ad intellectum pertinet, cujus virtutes experimento
+              indigent et tempore, ut dicitur 2 Ethic.; et ideo quantitas fidei quae est secundum
+              cognitionem articulorum, per se loquendo, crescit secundum diversitatem temporis.</p>
+            <p xml:id="ta-l3d25q2-d1e434">Ad primum ergo dicendum, quod caritas in voluntate est. Ea autem quae ad voluntatem
+              pertinent, non indigent experimento et tempore, sicut ea quae sunt in intellectu, in
+              quo est fides, nisi quatenus oportet quod per exercitium acquiratur habitus, quod de
+              caritate non est. Et ideo profectus caritatis, proprie loquendo, non attenditur
+              secundum diversa tempora, nisi per accidens, inquantum tempore redemptionis plenior
+              infunditur gratia quantum ad communem statum, non autem quantum ad omnes singulares
+              personas.</p>
+            <p xml:id="ta-l3d25q2-d1e437">Ad secundum dicendum, quod hoc quod scientiae profecerunt per successionem temporum
+              non tantum est ex imperfectione inventorum, sed etiam ex impotentia addiscentium, qui
+              a principio totum capere non possunt; et ita in his quae fidei sunt accidit quod
+              oportuit paulatim humanum intellectum assuefieri ad ea quae fidei sunt; propter quod
+              dominus discipulis dixit Joan. 16, 12: <quote xml:id="ta-l3d25q2-Qd1e439">multa habeo vobis dicere; sed non
+                potestis portare modo</quote>.</p>
+            <p xml:id="ta-l3d25q2-d1e443">Ad tertium dicendum, quod illi qui immediate a Deo fidei cognitionem receperunt,
+              quantum ad ea quae eis non explicabantur, non habebant fidem implicitam in fide
+              alterius hominis, sed in cognitione ipsius Dei, cui reponebant id quod de secretis
+              divinae sapientiae eis fuerat revelatum.</p>
+            <p xml:id="ta-l3d25q2-d1e447">Ad quartum dicendum, quod articulus dicitur indivisibilis veritas quantum ad id quod
+              actu explicatur in articulo; sed est divisibilis quantum ad ea quae potentia
+              continentur in articulo, secundum quod qui dicit unum, quodammodo dicit multa: et haec
+              sunt ea quae praecedunt ad articulum, et consequuntur ad ipsum: et quantum ad hoc
+              potest explicari et dividi articulus fidei.</p>
+            <p xml:id="ta-l3d25q2-d1e450">Ad quintum dicendum, quod aliquid quod in articulo continetur, explicari potest
+              dupliciter. Uno modo secundum quod unus articulus continetur quandoque in alio, vel
+              duo in uno communi; sicut resurrectio mortuorum continetur quodammodo in resurrectione
+              Christi; et passio et incarnatio in hoc communi quod est mysterium redemptionis: et
+              sic fides implicita explicatur in articulis fidei determinatis; et haec explicatio
+              completa est per Christum: unde ejus doctrinae quantum ad essentialia fidei nec addere
+              nec diminuere licet, ut dicitur Apocal. ult. Sed ante Christi adventum non erat
+              completa; unde etiam quantum ad majores crescebat secundum diversa tempora. Alio modo
+              id quod in articulo continetur, non est articulus, sed aliquid concomitans articulum;
+              et quantum ad hoc potest fides quotidie explicari, et per studium sanctorum magis et
+              magis explicata fuit.</p>
+          </div>
+          <div xml:id="ta-l3d25q2-Dd1e454">
+            <head xml:id="ta-l3d25q2-Hd1e456">Quaestiuncula 2</head>
+            <p xml:id="ta-l3d25q2-d1e459">Ad secundam quaestionem dicendum, quod ad fidem redemptoris tripliciter se habet
+              humanum genus secundum diversa tempora. In primo enim statu ante peccatum non
+              oportebat ab aliquo homine haberi fidem explicitam de redemptore, quia nondum servitus
+              erat inducta; sed sufficiebat habere fidem implicitam in cognitione Dei, ut scilicet
+              homo crederet quod Deus ei provideret in eis quae essent necessaria ad salutem. In
+              secundo autem statu post peccatum ante adventum Christi quidam habebant fidem
+              explicitam de redemptore, quibus revelatio facta erat, qui majores dicebantur: quidam
+              autem, ut minores, fidem implicitam habebant in fide majorum; unde eis sacramentum
+              redemptionis sub signis sacrificiorum proponebatur. In tertio autem statu post
+              adventum Christi, quia jam mysterium redemptionis impletum est corporaliter et
+              visibiliter, et praedicatum, omnes tenentur ad explicite credendum: et si aliquis
+              instructorem non haberet, Deus illi revelaret, nisi ex culpa sua removeret.</p>
+            <p xml:id="ta-l3d25q2-d1e462">Ad primum ergo dicendum, quod Angeli primitus mysterium incarnationis sunt edocti
+              quam homines, ut dicit Dionysius, 4 cap. Caelest. Hierar., quantum ad ipsam
+              substantiam ejus quod credendum est, quamvis non quantum ad omnes circumstantias
+              articulorum, quas postea rebus evenientibus cognoverunt. Et de hoc plenius dictum est
+              in 2 Lib., dist. 11.</p>
+            <p xml:id="ta-l3d25q2-d1e465">Ad secundum dicendum, quod auctoritates inductae in littera loquuntur post peccatum,
+              sive ante legem, sive post.</p>
+            <p xml:id="ta-l3d25q2-d1e468">Ad tertium dicendum, quod quamvis aliis gentibus non esset data lex divinitus
+              communiter omnibus sicut Judaeis, ex quibus nasciturus erat Christus, et sic oportebat
+              in eis potius fidem vigere; tamen multis etiam gentilibus revelationes per Angelos
+              factae sunt etiam de Christo, sicut patet de Sybilla, quae de Christo expresse
+              prophetavit. In historiis Romanis etiam legitur, quod temporibus Constantini
+              imperatoris inventum fuit in Graecia quoddam corpus in sepulcro quodam habens laminam
+              auream supra pectus, in qua scriptum erat: <quote xml:id="ta-l3d25q2-Qd1e470">Christus nascetur ex virgine et
+                credo in eum. O sol, sub Irenes et Constantini temporibus iterum me videbis</quote>.
+              Illi etiam quibus specialis revelatio facta non fuerat, salvari poterant, etiam si
+              nihil de lege Moysi audissent, neque aliquid de ea scirent, quia lex illa non erat
+              omnibus data, sed tantum Judaeis; unde alii non peccabant si legis observantias non
+              servarent. Secus autem est de lege Christi, quae omnibus pronuntiata est. Salvabantur
+              tamen fide implicita redemptoris, implicando fidem suam in cognitione Dei, vel eorum
+              qui a Deo docti erant, indeterminate, quicumque illi essent; sicut majores Judaeorum
+              quantum ad ea quae eis nondum fuerant revelata, dum contrarium pertinaciter non
+              tenerent contra praedicantem fidem.</p>
+            <p xml:id="ta-l3d25q2-d1e475">Ad quartum dicendum, quod quamvis ad cognitionem redemptoris non sufficeret natura
+              per se, sufficiebat tamen cum lege scripta tempore legis; ante legem vero adjuta per
+              gratiam.</p>
+          </div>
+          <div xml:id="ta-l3d25q2-Dd1e479">
+            <head xml:id="ta-l3d25q2-Hd1e481">Quaestiuncula 3</head>
+            <p xml:id="ta-l3d25q2-d1e484">Ad tertiam quaestionem dicendum, quod fides explicita ad hoc necessaria est quod in
+              finem ultimum intentionem dirigat. Et quia per peccatum homo ab illo fine abductus
+              fuerat, et non poterat reduci nisi per mediatorem Dei et hominum dominum Jesum
+              Christum; ideo post peccatum oportuit haberi cognitionem explicitam de redemptore, et
+              praecipue quantum ad ea quibus nos in finem reduxit victo hoste a quo captivi
+              detinebamur. Ad hoc autem quod nos in finem reduceret, quatuor requirebantur. Primum
+              est quod propugnator noster institueretur; quod factum est in nativitate. Secundum est
+              quod propugnaret; quod factum est in passione. Tertium est quod vinceret; quod factum
+              est in resurrectione, quando aeternitatis aditum devicta morte reseravit. Quarto quod
+              victoriae suae omnes suos participes faceret; et hoc erit in judicio, quando bonis
+              bona et malis mala reddet. Et ideo ista praecipue requirebantur ut de redemptore
+              explicite scirentur. Tamen possibile est quod secundum diversa tempora horum
+              distinctio et explicatio ante Christi adventum creverit, ut quanto adventui salvatoris
+              viciniores existerent, tanto sacramenta salutis plenius perceperint, ut dicit
+              Gregorius. Et secundum hoc utraque opinio in littera potest habere veritatem: prima
+              quantum ad propinquos, secunda quantum ad remotos.</p>
+            <p xml:id="ta-l3d25q2-d1e487">Ad primum ergo dicendum, quod Joannes Baptista hos articulos plenissime scivit; unde
+              de his non dubitavit. Potuit autem dubitare sine praejudicio salutis de alio articulo
+              passionis implicito tunc temporis, scilicet de descensu ad Inferos, non pertinaciter;
+              quod patet, quia doceri quaerebat. Vel dicendum, ut alii dicunt, quod ipse non
+              dubitavit, sed quasi dubitasse visus est inquantum quaesivit non propter se, sed
+              propter suos discipulos instruendos. Vel fuit dubitatio non ignorantiae, sed
+              admirationis et pietatis.</p>
+            <p xml:id="ta-l3d25q2-d1e490">Ad secundum dicendum, quod articulus conceptionis implicite continebatur in articulo
+              nativitatis in quantum est via ad nativitatem; articulus autem de descensu ad Inferos,
+              in articulo de passione; articulus autem de ascensione, in articulo de resurrectione,
+              quia ibi terminatur victoria resurgentis.</p>
+            <p xml:id="ta-l3d25q2-d1e493">Unde patet responsio ad tertium et quartum.</p>
+            <p xml:id="ta-l3d25q2-d1e497">Ad quintum dicendum, quod in judicio Christus nihil nobis merebitur; sed id quod
+              prius meruit, reddet.</p>
+          </div>
+          <div xml:id="ta-l3d25q2-Dd1e501">
+            <head xml:id="ta-l3d25q2-Hd1e503">Quaestiuncula 4</head>
+            <p xml:id="ta-l3d25q2-d1e506">Ad quartam quaestionem dicendum, quod per missiones divinarum personarum in nos, homo
+              in finem ultimum ducitur non solum post peccatum, sed etiam ante peccatum; et ideo
+              explicita cognitio de Trinitate fuit necessaria non solum post peccatum, sed etiam
+              ante peccatum. Non tamen eodem modo ante adventum Christi et post: quia ante adventum
+              soli majores de hoc fidem explicitam habuerunt: post incarnationem vero omnes fidem
+              explicitam de tribus personis habere tenentur, sicut et de mysterio incarnationis,
+              quod cognosci non potest, nisi cognoscatur personarum distinctio: et quia sacramenta
+              salutis cum invocatione Trinitatis conferuntur.</p>
+            <p xml:id="ta-l3d25q2-d1e509">Ad primum ergo dicendum, quod apostolus posuit illa quae oportuit credi explicite a
+              quolibet homine in quocumque statu: hoc autem non fuit cognitio Trinitatis.</p>
+            <p xml:id="ta-l3d25q2-d1e512">Ad secundum dicendum, quod ad dirigendum in finem non solum oportet cognoscere finem,
+              sed etiam ea sine quibus in finem iri non potest; et ideo oportuit habere cognitionem
+              explicitam de fide Trinitatis, quia sine earum missione in finem beatitudinis veniri
+              non potest.</p>
+            <p xml:id="ta-l3d25q2-d1e515">Ad tertium dicendum, quod quia non erat necessarium ut explicite omnes cognoscerent,
+              ideo non fuit positum mysterium Trinitatis manifeste in veteri testamento, sed velate
+              ut sapientes capere possent.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l3d25q2-Dd1e521">
+          <head xml:id="ta-l3d25q2-Hd1e523">Expositio textus</head>
+          <p xml:id="ta-l3d25q2-d1e526"><quote xml:id="ta-l3d25q2-Qd1e527">Sicut in Ecclesia aliqui sunt minus capaces</quote>. Contra. Modo non sufficit
+            ad salutem ut etiam explicite mysterium incarnationis credatur. Dicendum, quod est
+            similitudo non quantum ad omnia, sed quantum ad quaedam de articulis: quia nesciunt eos
+            distinguere, quamvis explicite cognoscant illud quod in articulis continetur. Tenentur
+            autem explicite articulos scire de quibus Ecclesia solemnizat, et facit continuam
+            mentionem, sicut de Trinitate. <quote xml:id="ta-l3d25q2-Qd1e530">Credunt hoc quod ignorant</quote>. Hoc est contra
+            illud quod superius dictum est, quod fides non est de ignotis. Dicendum, quod sicut
+            implicite creditur, ita et implicite cognoscitur. Dicitur autem ignorari quod nescitur
+            explicite. <quote xml:id="ta-l3d25q2-Qd1e533">Solet etiam quaeri de fide Cornelii</quote>. Sciendum, quod Cornelius
+            habebat fidem explicitam de mysterio incarnationis, quamvis suffecisset ei ad salutem,
+            etiamsi de hoc fidem implicitam habuisset: sed non habebat fidem distinctam de tempore
+            incarnationis; et ideo, quia hoc jam incipiebat esse necessarium ad salutem, missus fuit
+            Petrus ad eum instruendum. <quote xml:id="ta-l3d25q2-Qd1e536">Illud etiam non est praetermittendum, quod fides,
+              spes, caritas, et operatio secundum aliquid aequalia sunt in praesenti</quote>. De hac
+            aequalitate habituum, et operatione dicitur infra, distinct. 36. Hic tamen sciendum est
+            quod operationem hic videtur nominare virtutes regulantes in opere exteriori, sicut sunt
+            virtutes cardinales, quae etiam habent actus interiores, secundum quas oportet istam
+            aequalitatem attendi. Vel si loquitur de operibus exterioribus, attendenda est
+            aequalitas quantum ad formationem operis magis quam secundum quantitatem actus: quia
+            interdum aliquis ex majori caritate facit opera ex suo genere minora quam alius majora.
+              <quote xml:id="ta-l3d25q2-Qd1e539">Non ideo post fidem et spem ponitur, quod ex eis oriatur</quote>. Contra,
+            Matth. 1, 2: <quote xml:id="ta-l3d25q2-Qd1e542" ana="#mt1_2">Abraham genuit Isaac, Isaac Jacob</quote>; idest, fides spem, spes
+            caritatem. Dicendum, quod intelligitur quantum ad actus non quantum ad habitus.
+              <quote xml:id="ta-l3d25q2-Qd1e546">Non quod fides et spes causa vel tempore praecedant</quote>. Contra. Aliquis
+            habet fidem qui non habet caritatem, sicut qui ficte accedit ad Baptismum fidem tantum
+            habens. Dicendum, quod loquitur de fide et spe secundum quod est virtus.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 16, Quaestio 2</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Librum IV, Distinctio 16, Quaestio 2</title>
+          <date when="2016-03-19">March 19, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-19">March 19, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness>1856 editum</witness>
+          <witness xml:id="G" n="ghent567">Ghent, Belgium, Ghent University Library, 567</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="0.0.0-dev">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+
+
+
+
+      <div xml:id="starts-on">
+        <cb ed="#G" n="281a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ta-l4d16q2">
+        <head xml:id="ta-l4d16q2-Hd1e97">Librum IV, Distinctio 16, Quaestio 2</head>
+        <div xml:id="ta-l4d16q2-Dd1e100">
+          <head xml:id="ta-l4d16q2-Hd1e102">Prooemium</head>
+          <p xml:id="ta-l4d16q2-d1e105">Deinde quaeritur de remissione venialium; et circa hoc quaeruntur duo: 1 de modo
+            remissionis; 2 de causa remissionis.</p>
+
+        </div>
+        <div xml:id="ta-l4d16q2-Dd1e109" type="articulus">
+          <head xml:id="ta-l4d16q2-Hd1e111">Articulus 1</head>
+
+          <head xml:id="ta-l4d16q2-Hd1e114" type="questionTitle">Utrum peccatum veniale possit dimitti voluntate manente ad
+            illud</head>
+
+          <div xml:id="ta-l4d16q2-Dd1e117">
+            <head xml:id="ta-l4d16q2-Hd1e119">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d16q2-d1e122">Ad primum sic proceditur. Videtur quod peccatum veniale possit dimitti voluntate
+              manente ad illud. Voluntas enim peccati venialis gratiam non excludit. Sed nullum
+              peccatum veniale est quod gratia remitti non possit, cum remittatur per virtutem
+              gratiae mortale, quod multo difficilius est. Ergo veniale dimitti potest adhuc manente
+              voluntate ad illud.</p>
+            <p xml:id="ta-l4d16q2-d1e125">Praeterea, sicut peccatum mortale caritati opponitur, ita veniale fervori caritatis.
+              Sed illud quod secum compatitur caritas, non impedit dimissionem peccati mortalis.
+              Ergo cum voluntatem permanentem in peccato veniali compatiatur fervor caritatis,
+              videtur quod veniale remitti possit in eo qui adhuc habet voluntatem adhaerentem
+              veniali.</p>
+            <p xml:id="ta-l4d16q2-d1e128">Praeterea, sicut dictum est, ad hoc quod voluntas removeatur ab eo in quo semel fuit
+              fixa, requiritur actualis displicentia. Sed aliquando veniale peccatum dimittitur ei
+              qui non habet displicentiam de veniali peccato, sicut patet in martyribus, qui statim
+              evolant, quamvis forte de peccatis venialibus non cogitent, nec actualem displicentiam
+              habeant. Ergo videtur quod peccatum veniale dimitti possit adhuc manenti in illo.</p>
+            <p xml:id="ta-l4d16q2-d1e131">Sed contra, manente causa non potest tolli effectus. Sed adhaerentia voluntatis
+              inordinata ad aliquid erit causa venialis peccati. Ergo manente voluntate fixa in
+              illo, non potest remitti ipsum peccatum.</p>
+            <p xml:id="ta-l4d16q2-d1e135">Praeterea, affectus ad opus habet rationem peccati, sicut et ipsum opus peccati. Sed
+              ipsum opus venialis peccati, dum manet, non permittit peccatum veniale dimitti. Ergo
+              nec affectus ad ipsum manens.</p>
+
+          </div>
+          <div xml:id="ta-l4d16q2-Dd1e139">
+            <head xml:id="ta-l4d16q2-Hd1e141">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d16q2-d1e144">Ulterius. Videtur quod unum peccatum veniale non possit dimitti sine alio. Quia,
+              sicut in praecedenti dist. dictum est, dominus nullum sanavit quem non omnino
+              liberaret. Sed non potest alicui veniale peccatum dimitti, nisi domino ipsum sanante.
+              Ergo si absolvitur ab uno veniali, absolvitur ab omnibus.</p>
+            <p xml:id="ta-l4d16q2-d1e147">Praeterea, peccatum veniale est majoris adhaerentiae quam mortale; unde remisso
+              mortali adhuc manet veniale. Sed unum mortale non potest remitti nisi omnia alia
+              dimittantur. Ergo nec unum veniale nisi aliis remissis.</p>
+            <p xml:id="ta-l4d16q2-d1e150">Praeterea, ei qui displicet Deo, peccatum non remittitur. Sed veniale displicet Deo.
+              Ergo quamdiu manet unum, aliud non remittitur.</p>
+            <p xml:id="ta-l4d16q2-d1e153">Sed contra, majoris gratiae est remissio mortalis peccati quam venialis. Sed unum
+              peccatum veniale manens fixum in corde, non impedit remissionem mortalis peccati. Ergo
+              multo minus impedit remissionem alterius venialis.</p>
+
+          </div>
+          <div xml:id="ta-l4d16q2-Dd1e157">
+            <head xml:id="ta-l4d16q2-Hd1e159">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d16q2-d1e162">Ulterius. Videtur quod veniale peccatum possit remitti sine mortali. Joan. 8, super
+              illud: <quote xml:id="ta-l4d16q2-Qd1e164">qui sine peccato est vestrum</quote> etc., dicit Augustinus, quod omnes
+              illi erant in peccato mortali: venialia enim eis dimittebantur per caeremonias. Ergo
+              veniale potest dimitti non dimisso mortali.</p>
+            <p xml:id="ta-l4d16q2-d1e168">Praeterea, mortale et veniale contrarie dividuntur. Sed mortale potest dimitti sine
+              veniali. Ergo veniale potest dimitti sine mortali.</p>
+            <p xml:id="ta-l4d16q2-d1e171">Praeterea, peccato quod sufficienter punitum est, non debetur alia poena: quia non
+              vindicat bis Deus in idipsum. Sed peccatum veniale potest aliquis, in mortali
+              existens, sufficienter in seipso punire, cum debeatur ei poena finita. Ergo non
+              reservabitur ulterius ad poenam. Sed nunquam aliquis absolvitur a reatu poenae, nisi
+              prius absolvatur a culpa; alias culpa inordinata remaneret sine poena. Ergo manente
+              peccato mortali, potest veniale remitti.</p>
+            <p xml:id="ta-l4d16q2-d1e174">Sed contra, Gregorius dicit, quod veniale peccatum obscurat mentem, sed mortale
+              obtenebrat. Sed obscuritas non removetur nisi per lucem; lux autem spiritualis est
+              gratia, quae etiam mortale delet. Ergo non potest dimitti veniale sine dimissione
+              mortalis.</p>
+          </div>
+          <div xml:id="ta-l4d16q2-Dd1e179">
+            <head xml:id="ta-l4d16q2-Hd1e181">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d16q2-d1e184">Respondeo dicendum ad primam quaestionem, quod peccatum quodlibet debet remitti
+              quantum ad duo: scilicet quantum ad culpam, et quantum ad reatum: et non potest esse
+              secunda remissio sine prima; quia quamdiu manet culpa, manet debitum poenae. Culpa
+              autem in deordinatione voluntatis consistit; unde non potest culpa tolli nisi
+              reordinetur voluntas; quod esse non potest quamdiu in ipsa deordinatione manet, alias
+              essent duo opposita simul vera; et ideo nullo modo veniale dimitti potest, quamdiu
+              voluntas ad illud manet.</p>
+            <p xml:id="ta-l4d16q2-d1e187">Ad primum ergo dicendum, quod non est ex defectu gratiae quin illud veniale in quo
+              adhuc voluntas manet, remitti non possit; sed ex defectu ejus cui remittendum est, in
+              quo impedimentum remissionis invenitur.</p>
+            <p xml:id="ta-l4d16q2-d1e190">Ad secundum dicendum, quod quodlibet peccatum mortale opponitur cuilibet
+              quantumcumque parvae caritati; non autem quodlibet veniale opponitur cuicumque fervori
+              caritatis. Dicitur enim fervor caritatis per similitudinem, secundum quod ad exteriora
+              quodammodo ebulliendo refunditur. Ex illa autem parte qua veniale committitur,
+              caritatis fervor non apparet, sed aliquid praeter caritatem. Unde quamvis sit fervor
+              caritatis quantum ad aliqua, potest tamen esse tepiditas quantum ad alia; et sic non
+              quilibet fervor opponitur cuilibet veniali; unde non est similis comparatio peccati
+              mortalis ad caritatem, et venialis ad fervorem caritatis.</p>
+            <p xml:id="ta-l4d16q2-d1e193">Ad tertium dicendum, quod voluntas quae fuit fixa in aliquo, non removetur inde nisi
+              per actualem dissensum, si illud memoriae occurrat, alias sufficit habitualis; sicut
+              etiam de mortalibus contingit quod oblita remittuntur.</p>
+
+          </div>
+          <div xml:id="ta-l4d16q2-Dd1e197">
+            <head xml:id="ta-l4d16q2-Hd1e199">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d16q2-d1e202">Ad secundam quaestionem dicendum, quod ea quae non habent connexionem ad invicem,
+              unum potest auferri sine altero; sed quae habent aliquo modo connexionem, unum non
+              potest sine alio auferri. Peccata autem mortalia, quamvis non habeant connexionem ex
+              parte conversionis, habent tamen connexionem ex parte aversionis, quia ab uno
+              incommutabili bono avertunt: et ideo unum sine alio remitti non potest, cum remissio
+              culpae magis respiciat per oppositum aversionem quam conversionem; quia culpa
+              remittitur secundum restitutionem ad illud a quo culpa separavit. Venialia autem non
+              habent connexionem neque quantum ad conversionem neque quantum ad aversionem, quia in
+              eis nulla est aversio a fine, etsi sit aliquis defectus in actu eorum quae expediunt
+              ad finem; et ideo potest unum veniale sine alio dimitti.</p>
+            <p xml:id="ta-l4d16q2-d1e205">Ad primum ergo dicendum, quod remissio venialis non comparatur, proprie loquendo,
+              sanationi: quia infirmitas, quae per sanationem curatur, destitutionem virtutis
+              importat; non autem est aliqua destitutio vel debilitatio virtutis spiritualis in
+              culpa veniali, sed solum dispositio ad virtutis destitutionem; et ideo ratio illa non
+              est ad propositum.</p>
+            <p xml:id="ta-l4d16q2-d1e208">Ad secundum dicendum, quod peccatum veniale non dicitur esse majoris adhaerentiae
+              quam mortale quasi ex parte sua firmius in anima maneat; sed ex parte nostra, quia
+              peccata venialia non ita facile devitamus sicut mortalia, ad quae dimittenda ex
+              necessitate obligamur.</p>
+            <p xml:id="ta-l4d16q2-d1e211">Ad tertium dicendum, quod peccatum mortale ita Deo displicet, quod etiam facit ipsum
+              peccantem Deo displicentem, inquantum pulchritudinem gratiae, quam Deus in ipso amat,
+              aufert. Sed peccatum veniale quamvis Deo displiceat, quia inordinatum est, non tamen
+              facit peccantem Deo displicentem: quia non aufertur claritas gratiae, sed quodammodo
+              obnubilatur, inquantum ejus processus ad exteriora impeditur; et ideo Gregorius dicit,
+              quod peccatum veniale obscurat, sed mortale obtenebrat: et propter hoc, unum peccatum
+              veniale non impedit quin aliud remitti possit, quamvis mortale unum impediat
+              dimissionem alterius.</p>
+
+          </div>
+          <div xml:id="ta-l4d16q2-Dd1e215">
+            <head xml:id="ta-l4d16q2-Hd1e217">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d16q2-d1e220">Ad tertiam quaestionem dicendum, quod remoto priori removetur posterius, nec
+              posterius restituitur nisi priori restituto: fervor autem caritatis, cui veniale
+              opponitur, est posterior ipsa caritate; unde quamdiu caritas non restituitur, nec
+              fervor caritatis reparari potest; in qua reparatione consistit venialis peccati
+              dimissio, sicut etiam in reparatione caritatis dimissio mortalis; et ideo non potest
+              veniale dimitti ei cui mortale non dimittitur. Potest etiam ex parte remittentis ratio
+              assignari: quia a Deo, qui solus peccata dimittit, peccatum mortale separat; et ideo
+              effectum ejus in remissione peccati venialis habens peccatum mortale non percipit;
+              sicut assignata est ratio ex parte ejus quo fit remissio, scilicet caritatis, quae
+              universa delicta operit, Prov. 10, quam peccatum mortale tollit.</p>
+            <p xml:id="ta-l4d16q2-d1e223">Ad primum ergo dicendum, quod Augustinus nominat ibi venialia irregularitates quas
+              secundum legem contrahebant.</p>
+            <p xml:id="ta-l4d16q2-d1e226">Ad secundum dicendum, quod veniale non avertit a Deo, neque caritatem tollit, sicut
+              mortale; et ideo non impedit dimissionem mortalis, sicut e contrario.</p>
+            <p xml:id="ta-l4d16q2-d1e229">Ad tertium dicendum, quod poena, etiam omnis, offensam non tollit, nisi ab eo in quem
+              peccatum commissum est, acceptetur; nec acceptari potest quamdiu inimicitia ad ipsum
+              manet; et ideo manente inimicitia hominis ad Deum per peccatum mortale, poena
+              quantacumque veniale non purgat; unde Isaiae 38, dominus dicit, non esse accepta
+              jejunia eorum qui ad lites et contentionem jejunabant.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d16q2-Dd1e234" type="articulus">
+          <head xml:id="ta-l4d16q2-Hd1e236">Articulus 2</head>
+
+          <head xml:id="ta-l4d16q2-Hd1e239" type="questionTitle">Utrum peccatum veniale possit dimitti sine infusione novae
+            gratiae</head>
+
+          <div xml:id="ta-l4d16q2-Dd1e242">
+            <head xml:id="ta-l4d16q2-Hd1e244">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d16q2-d1e247">Ad secundum sic proceditur. Videtur quod peccatum veniale non possit dimitti sine
+              gratiae novae infusione. Peccatum enim veniale transiens actu, in anima manet reatu.
+              Sed reatus fundatur super macula. Cum ergo macula non possit ab anima abstergi nisi
+              per gratiam, sicut nec tenebra nisi per lucem, videtur quod veniale dimitti non possit
+              sine gratiae infusione.</p>
+            <p xml:id="ta-l4d16q2-d1e250">Praeterea, veniale peccatum consistit in hoc quod minus amatur Deus quam debet. Sed
+              minoratio ista non potest tolli nisi caritate augmentata, secundum cujus augmentum
+              nova missio spiritus sancti attenditur, ut in 1 Lib., dist. 15, quaest. 5, art. 1,
+              quaestiunc. 2, in corp., dictum est, et per consequens nova gratia. Ergo peccatum
+              veniale sine gratiae infusione remitti non potest.</p>
+            <p xml:id="ta-l4d16q2-d1e253">Sed contra, novae gratiae additio gratiam praeexistentem auget, si eam inveniat. Sed
+              cum peccatum veniale gratiam non auferat; si sine gratiae infusione dimitti non
+              posset, oporteret quod quandocumque dimittitur veniale, gratiae gratia adderetur. Ergo
+              semper homo post veniale rediret in majorem gratiam; quod falsum est: quia tunc
+              frequens iteratio venialium non disponeret ad mortale.</p>
+
+          </div>
+          <div xml:id="ta-l4d16q2-Dd1e257">
+            <head xml:id="ta-l4d16q2-Hd1e259">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d16q2-d1e262">Ulterius. Videtur quod gratia sine contritione possit peccatum veniale remittere.
+              Quia, sicut dicit Gregorius, quod est aqua ad caminum, hoc est veniale ad fervorem
+              caritatis. Sed fervor caritatis potest esse sine contritione: potest enim aliquis in
+              Deum ferventer converti, et tamen de peccato non dolere, quod est conteri. Ergo
+              peccatum veniale potest dimitti sine contritione.</p>
+            <p xml:id="ta-l4d16q2-d1e265">Praeterea, contritio non solum importat dolorem de praeterito peccato, sed etiam
+              propositum non peccandi de cetero. Sed alicui dimittitur veniale peccatum, qui non
+              habet tale propositum: quia scit se sine peccato veniali praesentem vitam agere non
+              posse. Ergo sine contritione peccatum veniale dimitti potest.</p>
+            <p xml:id="ta-l4d16q2-d1e268">Praeterea, aliquis in peccato veniali existens, potest dormiens mori, et taliter quod
+              statim evolet; puta si propter fidem prius confessam constanter occidatur. Sed dum
+              dormit, conteri non potest. Ergo cum ei peccatum veniale dimittatur, videtur quod
+              possit sine contritione peccatum veniale dimitti.</p>
+            <p xml:id="ta-l4d16q2-d1e271">Sed contra, si gratia sine aliquo adjuncto peccatum veniale remittere posset, gratia
+              secum veniale non compateretur. Sed compatitur secum veniale. Ergo oportet aliquem
+              motum contritionis advenire ad peccati venialis dimissionem.</p>
+
+          </div>
+          <div xml:id="ta-l4d16q2-Dd1e275">
+            <head xml:id="ta-l4d16q2-Hd1e277">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d16q2-d1e280">Ulterius. Videtur quod de peccato veniali teneatur homo etiam confiteri. Jacob. 5,
+              16: <quote xml:id="ta-l4d16q2-Qd1e282">confitemini alterutrum peccata vestra</quote>; in quo praeceptum
+              confessionis datur, ut in littera dicitur. Sed secundum Glossam loquitur de
+              confessione venialium et mortalium; quia dicit quod majora solis sacerdotibus, sed
+              leviora sociis confiteri possumus. Ergo tenemur confiteri venialia.</p>
+            <p xml:id="ta-l4d16q2-d1e286">Praeterea, de venialibus tenetur homo satisfacere: quia satisfacere est actus
+              justitiae: ad justitiae autem actum tenemur. Sed satisfactio debet esse secundum
+              arbitrium sacerdotis, qui vicem Dei obtinet; quod esse non potest nisi confessione
+              praecedente. Ergo de venialibus homo confiteri tenetur.</p>
+            <p xml:id="ta-l4d16q2-d1e289">Praeterea, praeceptum Ecclesiae est ut homo semel in anno saltem confiteatur. Sed
+              aliquis est qui non habet nisi venialia. Ergo tenetur illa confiteri.</p>
+            <p xml:id="ta-l4d16q2-d1e292">Sed contra, nullus tenetur ad impossibile. Sed confiteri omnia venialia est
+              impossibile, cum cognitionem nostram effugiant. Ergo non tenemur illa confiteri.</p>
+
+          </div>
+          <div xml:id="ta-l4d16q2-Dd1e297">
+            <head xml:id="ta-l4d16q2-Hd1e299">Quaestiuncula 4</head>
+            <p xml:id="ta-l4d16q2-d1e302">Ulterius. Videtur quod per benedictionem episcopalem, aquam benedictam, et hujusmodi,
+              peccatum veniale remitti non possit. Quia ex eisdem causis aliquid fit et corrumpitur,
+              ut dicitur in 2 Ethic. Sed peccatum veniale causatur ex actu nostro. Ergo oportet quod
+              aliquid in nobis sit per quod dimittatur; et ita, cum ista sint extra, per ea peccatum
+              veniale dimitti non potest.</p>
+            <p xml:id="ta-l4d16q2-d1e305">Praeterea, peccatum veniale, ut dictum est, non dimittitur sine contritione. Sed ipsa
+              contritio per se sufficit ad dimissionem. Ergo praedicta nihil operantur ad
+              dimissionem.</p>
+            <p xml:id="ta-l4d16q2-d1e308">Praeterea, praedicta omnia aequalem habent habitudinem ad omnia peccata venialia. Si
+              ergo per ea aliquod veniale dimittitur, omnia dimittuntur; et sic frequentissime homo
+              esset sine veniali; quod non videtur verum.</p>
+            <p xml:id="ta-l4d16q2-d1e311">Sed contra est quod communiter dicitur, quod multa sunt remedia contra venialia
+              peccata; scilicet tunsio pectoris, aspersio aquae benedictae, unctio extrema, et omnis
+              sacramentalis unctio; benedictio episcopi, panis benedictus, generalis confessio,
+              compassio alieni delicti, dimissio, Eucharistia, oratio dominica, et alia quaecumque
+              levis poenitentia.</p>
+          </div>
+          <div xml:id="ta-l4d16q2-Dd1e315">
+            <head xml:id="ta-l4d16q2-Hd1e317">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d16q2-d1e320">Respondeo dicendum ad primam quaestionem, quod homo in peccato mortali a Deo
+              avertitur, sibi alium finem constituens: et ideo lumen gratiae amittit, sicut et lumen
+              solis qui visum a sole avertit; et propter hoc non potest peccatum mortale remitti
+              nisi per gratiae infusionem. Sed homo per peccatum veniale non adhaeret commutabili
+              bono quasi fini; et ideo non avertitur a fine, quod est incommutabile bonum; unde per
+              veniale homo gratiam non amittit; et ideo non oportet quod ad hoc quod remittatur
+              veniale, gratia aliqua infundatur de novo; sed sufficit quod gratia quae jam habetur,
+              in actum prodeat: quia ipsum veniale non tollebat habitum, sed solummodo impediebat
+              virtutis actum.</p>
+            <p xml:id="ta-l4d16q2-d1e323">Ad primum ergo dicendum, quod macula potest esse dupliciter. Uno modo per privationem
+              pulchritudinis: et sic in veniali non manet aliqua macula, quia gratiam non tollit,
+              quae est animae decor. Alio modo per hoc quod pulchritudo quae est gratiae, impeditur
+              ne exterius appareat, sicut per pulverem pulchritudo faciei foedatur; et talis macula
+              est in veniali, quia impeditur decor gratiae ne in actibus exterius ostendatur: unde
+              non oportet quod talis macula per infusionem gratiae tollatur, sed per actum qui
+              gratiae impedimentum tollat.</p>
+            <p xml:id="ta-l4d16q2-d1e326">Ad secundum dicendum, quod veniale peccatum non consistit in hoc quod homo minus amet
+              Deum in habitu: quia veniale non diminuit caritatem; alias eam quandoque totaliter
+              tolleret: sed in hoc quod amor Dei non ostenditur in omnibus actibus hominis, aliqua
+              deordinatione in eis existente.</p>
+
+          </div>
+          <div xml:id="ta-l4d16q2-Dd1e330">
+            <head xml:id="ta-l4d16q2-Hd1e332">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d16q2-d1e335">Ad secundam quaestionem dicendum, quod peccatum veniale non dimittitur, ut dictum
+              est, quamdiu voluntas manet in illo. Ipsam autem recedere voluntatem ab eo quod quis
+              prius volebat, est displicere ei quod voluit. Talis autem displicentia dolor
+              contritionis dicitur, quando est gratia informata; et ideo peccatum veniale sine
+              contritione non dimittitur. Sed sciendum, quod contritio potest accipi tripliciter:
+              vel actu, vel habitu, vel medio modo. Habitu quidem contritio existens non sufficit ad
+              peccati venialis dimissionem: quia tunc quicumque haberet poenitentiae virtutis
+              habitum, cujus actus est quaelibet contritio, consecutus esset peccati venialis
+              dimissionem; et sic peccatum veniale cum gratia esse non posset. Nec iterum requiritur
+              quod semper sit actualis contritio; quia sequeretur quod peccatum quod quis in memoria
+              vel in cognitione non habet, remitti non posset. Et ideo dicendum, quod requiritur
+              contritio medio modo, quia scilicet etsi actu peccatum non displiceat explicite,
+              displicet tamen implicite: quia ex virtute actus quem agit, sequeretur displicentia
+              explicita peccati venialis, si cogitatio ad illud ferretur.</p>
+            <p xml:id="ta-l4d16q2-d1e338">Ad primum ergo dicendum, quod quamvis fervor caritatis possit esse dum homo in Deum
+              fertur motu caritatis, sine hoc quod actu de peccato veniali cogitet explicite; tamen
+              in illo motu implicite continetur displicentia venialis peccati, vel unius, vel
+              omnium; quia si ferventer in Deum fertur, displicet ei omne quod a Deo retardat; unde
+              potest esse tam fervens motus caritatis in Deum quod omnia peccata venialia consumat
+              etiam sine actuali cognitione ipsorum.</p>
+            <p xml:id="ta-l4d16q2-d1e341">Ad secundum dicendum, quod peccata mortalia sunt in potestate nostra, ut vitentur non
+              solum singula, sed etiam omnia; venialia autem, etsi singula vitari possint, non tamen
+              omnia; quod ex infirmitate naturae contingit: et ideo in contritione de venialibus non
+              exigitur propositum non peccandi venialiter, sicut in contritione de mortali
+              exigebatur; sed quod displiceat ei et peccatum praeteritum, et infirmitas qua ad
+              peccatum veniale inclinatur, quamvis ab eo omnino immunis esse non possit.</p>
+            <p xml:id="ta-l4d16q2-d1e344">Ad tertium dicendum, quod passio pro Christo suscepta vim Baptismi obtinet, ut supra
+              dictum est, dist. 4, quaest. 3, art. 3, quaestiunc. 3; et ideo purgat ab omni veniali
+              et mortali, nisi actualiter voluntatem renitentem invenerit: et propter hoc illud
+              peccatum veniale quod forte etiam post confessionem frequenter incurrit, non tardat
+              ipsum quin evolet, et praecipue cum ipsa poena martyrii habeat vim purgandi. De aliis
+              autem qui moriuntur dormientes, dicendum, quod dimittitur eis illud veniale etiam
+              quantum ad culpam post mortem.</p>
+
+          </div>
+          <div xml:id="ta-l4d16q2-Dd1e348">
+            <head xml:id="ta-l4d16q2-Hd1e350">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d16q2-d1e353">Ad tertiam quaestionem dicendum, quod confessio ad hoc necessaria est ut poenitens
+              satisfactionem accipiat secundum modum delicti. Peccato autem veniali non debetur
+              poena satisfactoria taxata, quia poena illa esset proportionata poenae peccati
+              mortalis, a qua peccatum veniale in infinitum distat; unde per solam contritionem
+              interiorem peccatum veniale remitti potest. Et quod aliqua satisfactio exterius
+              injungitur, hoc est magis ad devotionem excitandum vel contritionem, quam ad
+              satisfaciendum; et ideo ad confessionem venialium non tenemur neque necessitate
+              absoluta: quia sic nec de eis poenitere, nec ea vitare tenemur: nec etiam necessitate
+              quae est ex suppositione finis, scilicet remissionis eorum: quia etiam sine
+              confessione vel actu, vel proposito existente possunt venialia remitti; tamen
+              perfectionis est ea confiteri.</p>
+            <p xml:id="ta-l4d16q2-d1e356">Ad primum ergo dicendum, quod verbum illud Jacobi quantum ad peccata mortalia est
+              praeceptum; sed quantum ad venialia est consilium.</p>
+            <p xml:id="ta-l4d16q2-d1e359">Ad secundum dicendum, quod ratio illa procedit ex falsa suppositione, ut ex dictis
+              patet.</p>
+            <p xml:id="ta-l4d16q2-d1e362">Ad tertium dicendum, quod in casu illo, propter praeceptum Ecclesiae, dicunt aliqui
+              quod tenetur homo venialia confiteri. Alii vero dicunt, quod sufficit quod se
+              repraesentet sacerdoti, et se immunem a peccato mortali ostendat, ut ad communionem
+              admitti possit. Praeceptum enim Ecclesiae est ad obligandum illos qui habent aliqua
+              quae confiteri debeant: cadit enim sub praecepto magis taxatio temporis quam ipse
+              confessionis actus; unde si alicui per gratiam collatum esset ut a peccato veniali
+              immunis esset, sicut beatae virgini est collatum, non teneretur ad illud
+              praeceptum.</p>
+
+          </div>
+          <div xml:id="ta-l4d16q2-Dd1e366">
+            <head xml:id="ta-l4d16q2-Hd1e368">Quaestiuncula 4</head>
+            <p xml:id="ta-l4d16q2-d1e371">Ad quartam quaestionem dicendum, quod, sicut dictum est, veniale peccatum dimittitur
+              per fervorem caritatis, qui explicite vel implicite contritionem contineat; et ideo
+              illa quae nata sunt de se excitare fervorem caritatis, peccata venialia dimittere
+              dicuntur: hujusmodi autem sunt quae gratiam conferunt, sicut omnia sacramenta, et
+              quibus impedimenta fervoris et gratiae auferuntur, sicut aqua benedicta, quae virtutem
+              inimici reprimit, et episcopalis benedictio, vel etiam exercitium humilitatis ex parte
+              nostra; sicut tunsio pectoris, et oratio dominicalis, et hujusmodi.</p>
+            <p xml:id="ta-l4d16q2-d1e374">Ad primum ergo dicendum, quod actus noster requiritur ad dimissionem venialis; sed
+              ista dicuntur peccatum veniale remittere, inquantum in actum, nostrum fervorem
+              excitant.</p>
+            <p xml:id="ta-l4d16q2-d1e377">Ad secundum dicendum, quod ista sine contritione non delent peccatum veniale; sed
+              dicuntur delere, inquantum contritionem causant.</p>
+            <p xml:id="ta-l4d16q2-d1e380">Ad tertium dicendum, quod secundum quantitatem fervoris est quantitas remissionis; et
+              ideo secundum quod per ista major vel minor concitatur, qui de pluribus vel
+              paucioribus, implicite ad minus, contritionem contineat, secundum hoc plura vel
+              pauciora venialia dimittuntur, et non omnia semper.</p>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

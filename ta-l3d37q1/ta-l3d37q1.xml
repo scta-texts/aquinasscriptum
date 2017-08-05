@@ -1,0 +1,801 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum III, Distinctio 37, Quaestio 1</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.09-dev-master">
+          <title>Librum III, Distinctio 37, Quaestio 1</title>
+          <date when="2016-03-13">March 13, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-13">March 13, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness>1856 editum</witness>
+          <witness xml:id="H" n="harv245" xml:base="http://iiif.lib.harvard.edu/manifests/drs:51994085/canvas/">Cambridge, Mass.,
+            Harvard University, Houghton Library, MS Lat 245</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="2015.09">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+
+
+
+
+      <div xml:id="starts-on">
+        <cb ed="#H" n="142va"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ta-l3d37q1">
+        <head xml:id="ta-l3d37q1-Hd1e97">Librum III, Distinctio 37, Quaestio 1</head>
+        <div xml:id="ta-l3d37q1-Dd1e100">
+          <head xml:id="ta-l3d37q1-Hd1e102">Prooemium</head>
+          <p xml:id="ta-l3d37q1-d1e105">Postquam determinavit Magister de virtutibus et donis, quae nos ad bene operandum
+            inclinant, in parte ista determinat de praeceptis legis, quibus ad opera virtutum et
+            donorum dirigimur. Dividitur autem in duas partes: in prima determinat de octo primis
+            mandatis, quae aliquo modo opus respiciunt; in secunda determinat de duobus mandatis
+            ultimis, quae respiciunt tantum concupiscentiam cordis, 40 dist., ibi: <quote xml:id="ta-l3d37q1-Qd1e107">sextum
+              praeceptum est: non desiderabis uxorem proximi tui</quote>. Prima in duas: in prima
+            determinat de primis octo mandatis; in secunda determinat de quibusdam quae uno illorum
+            mandatorum intelliguntur prohiberi; quae specialem difficultatem habent, 38 dist., ibi:
+              <quote xml:id="ta-l3d37q1-Qd1e110">sciendum tamen, tria esse genera mandatorum</quote>. Prima in duas: in prima
+            determinat de praeceptis primae tabulae; in secunda de praeceptis secundae tabulae, ibi:
+              <quote xml:id="ta-l3d37q1-Qd1e113">in secunda vero tabula septem erant mandata</quote>. Prima in tres secundum
+            tria mandata de quibus determinat; secunda incipit ibi: <quote xml:id="ta-l3d37q1-Qd1e116">secundum praeceptum est:
+              non assumes nomen Dei tui in vanum</quote>; tertia, ibi: <quote xml:id="ta-l3d37q1-Qd1e119">memento ut diem
+              sabbati sanctifices</quote>. Circa primum tria facit: primo distinguit praecepta;
+            secundo exponit primum ipsorum, ibi: <quote xml:id="ta-l3d37q1-Qd1e123">primum in prima tabula est: non habebis deos
+              alienos</quote> etc.; tertio solvit quaestionem ex praedictis ortam, ibi: <quote xml:id="ta-l3d37q1-Qd1e126">sed
+              quaeritur quomodo hic dicatur forma idoli non esse facta per verbum. In secunda vero
+              tabula septem erant mandata</quote>. Hic determinat de praeceptis secundae tabulae; et
+            dividitur in quinque partes secundum quinque mandata, quae satis patent in littera:
+            quarum quarta pars dividitur in duas: in prima exponit quartum mandatum; in secunda
+            movet quaestionem, ibi: <quote xml:id="ta-l3d37q1-Qd1e129">si vero quaeritur de filiis Israel (...) utrum furtum
+              commiserint; dicimus eos non fecisse furtum</quote>; secunda incipit ibi: <quote xml:id="ta-l3d37q1-Qd1e132">hic
+              opponitur quod etiam boni in illo opere peccaverunt</quote>. Et similiter quinta pars
+            dividitur in expositionem praecepti, et quaestionem, quae incipit ibi: <quote xml:id="ta-l3d37q1-Qd1e135">solet
+              autem quaeri utrum prohibitum sit omne mendacium</quote>. Hic quaeruntur sex: 1 de
+            necessitate legis scriptae; 2 de distinctione, ordine et assignatione mandatorum; 3
+            utrum omnia mandata legis ad haec decem referantur; 4 utrum dispensationem in aliquo
+            casu recipiant; 5 de observatione sabbati; 6 de usura.</p>
+        </div>
+        <div xml:id="ta-l3d37q1-Dd1e140" type="articulus">
+          <head xml:id="ta-l3d37q1-Hd1e142">Articulus 1</head>
+          <head xml:id="ta-l3d37q1-Hd1e145" type="questionTitle">Utrum fuerit necessarium tradi legem scriptam</head>
+
+          <p xml:id="ta-l3d37q1-d1e148">Ad primum sic proceditur. Videtur quod non fuit necessarium legem scriptam tradi,
+            maxime de his decem praeceptis. Ea enim quae sunt naturaliter scripta in intellectu
+            speculativo, nulla scientia in Scripturam colligit, sed utitur eis quantum indiget
+            unaquaeque. Sed haec decem praecepta sunt naturaliter scripta in intellectu practico
+            uniuscujusque. Ergo non fuit necesse ea in Scripturam redigere.</p>
+          <p xml:id="ta-l3d37q1-d1e151">Praeterea, Scriptura videtur esse inventa ad succurrendum labilitati memoriae. Sed alia
+            praecepta legis quae non sunt ita scripta in corde hominis, sicut judicialia et
+            caeremonialia, facilius poterant tradi oblivioni. Ergo ea magis debuerunt in tabulis
+            lapideis scribi.</p>
+          <p xml:id="ta-l3d37q1-d1e154">Praeterea, ea quae scripto traduntur, ad plebem per sapientes perveniunt. Sed haec
+            decem mandata ipsa plebs immediate audivit a Deo, ut patet Exod. 20. Ergo non debuerunt
+            in scriptum redigi.</p>
+          <p xml:id="ta-l3d37q1-d1e158">Praeterea, legislator qui intendit sibi subjectos bonos facere, non debet aliquid pro
+            lege ferre ex quo vitia augeantur, eo praevidente. Sed ex hoc quod ista mandata
+            obligatoria populo sunt tradita, praevaricatio crevit; 1 Corinth. 15, 56: <quote xml:id="ta-l3d37q1-Qd1e160">virtus
+              peccati lex</quote>; Glossa: <quote xml:id="ta-l3d37q1-Qd1e163">lex prohibendo auget peccati cupiditatem</quote>.
+            Ergo non debuerunt hujusmodi praecepta legis a Deo dari, qui omnia praevidet.</p>
+          <p xml:id="ta-l3d37q1-d1e167">Praeterea, servitia coacta sunt minus Deo accepta. Sed per legem fit coactio quaedam,
+            inquantum obligat. Ergo videtur quod hujusmodi obligatoriam legem edere non debuit.</p>
+          <p xml:id="ta-l3d37q1-d1e170">Sed contra, non minor cura est Deo de rebus humanis quam de rebus naturalibus, quas
+            propter hominem fecit. Sed rebus naturalibus certas leges posuit. Ergo etiam rebus
+            humanis aliquas leges ponere debuit.</p>
+          <p xml:id="ta-l3d37q1-d1e173">Praeterea, in quolibet regimine oportet quod voluntas rectoris innotescat. Sed Dei
+            voluntas nobis per legis praecepta innotescit, inquantum est signum divinae voluntatis.
+            Ergo oportuit quod ab ipso qui orbem regit, praecepta mundo ederentur.</p>
+          <p xml:id="ta-l3d37q1-d1e176">Praeterea, dicit philosophus, quod rex per imperium suum movet eos qui in regno suo
+            sunt. Sed Deus omnia movet. Ergo oportuit quod ad homines ejus imperium deveniret, quo
+            in Deum moverentur.</p>
+          <p xml:id="ta-l3d37q1-d1e179">Respondeo dicendum, quod necessarium fuit ea quae naturalis ratio dictat, quae dicuntur
+            ad legem naturae pertinere, populo in praeceptum dari, et in scriptum redigi, propter
+            quatuor rationes. Primo, quia per contrariam consuetudinem, qua multi in peccato
+            praecipitabantur, jam apud multos ratio naturalis, in qua scripta erant, obtenebrata
+            erat. Secundo, quia etsi in aliquibus vigebat ratio, tamen amor boni in eis deficiebat;
+            unde per quamdam coactionem legis obligatoriae ad bonum inducendi erant. Tertio ut ad
+            opera virtutis non solum natura inclinaret, sed etiam reverentia divini imperii. Quarto
+            ut magis memoria tenerentur, et frequentius in cogitatione versarentur.</p>
+          <p xml:id="ta-l3d37q1-d1e183">Ad primum igitur dicendum, quod passiones animae non corrumpunt existimationem
+            speculativam, sicut corrumpunt existimationem practicam; et ideo magis oportuit
+            praecepta legis naturae in scriptis redigi, quam principia speculativa.</p>
+          <p xml:id="ta-l3d37q1-d1e186">Ad secundum dicendum, quod praecepta judicialia et caeremonialia erant mutabilia
+            secundum diversos status et conditiones hominum; sed praecepta ista legis naturae
+            immobiliter permansura erant, in cujus signum in tabulis lapideis Deus ea scribi
+            voluit.</p>
+          <p xml:id="ta-l3d37q1-d1e189">Ad tertium dicendum, quod ista praecepta omnibus indita erant in naturali cognitione;
+            et ideo in hujus signum Deus toti populo per se ea edidit; sed propter multos qui
+            secundum passiones vivunt, in quibus judicium rationis obtenebratur, voluit ut per
+            sapientiores, in quibus judicium rationis viget, in aliis cognitio horum praeceptorum
+            conservaretur; et ideo scribi ea voluit.</p>
+          <p xml:id="ta-l3d37q1-d1e192">Ad quartum dicendum, quod lex, quantum erat in se, nullo modo nec occasio nec causa
+            erat augendae cupiditatis, sed propter corruptionem fomitis hoc contingebat, occasione
+            accepta ex lege ab ipsis peccantibus, non data ipsis a lege.</p>
+          <p xml:id="ta-l3d37q1-d1e195">Ad quintum dicendum, quod boni qui habent voluntatem bene faciendi non operantur quasi
+            coacti a lege, sed ipsi sibi sunt lex; unde non propter eos lex est posita, sed propter
+            transgressores, ut dicitur Gal. 3, in quibus melius est ut coacti a malo desistant quam
+            ut mala libere exequantur.</p>
+        </div>
+        <div xml:id="ta-l3d37q1-Dd1e199" type="articulus">
+          <head xml:id="ta-l3d37q1-Hd1e201">Articulus 2</head>
+
+          <head xml:id="ta-l3d37q1-Hd1e204" type="questionTitle">Utrum praecepta Decalogi convenienter assignentur</head>
+          <div xml:id="ta-l3d37q1-Dd1e207">
+            <head xml:id="ta-l3d37q1-Hd1e209">Quaestiuncula 1</head>
+            <p xml:id="ta-l3d37q1-d1e212">Ad secundum sic proceditur. Videtur quod praecepta Decalogi non convenienter
+              assignentur. Praecepta enim legis ad merendum ordinantur. Sed meritum in aliquo actu
+              consistit. Cum ergo in praeceptis negativis non ponatur aliquis actus, sed solum
+              negetur, videtur quod praecepta Decalogi non debuerunt per negationem assignari.</p>
+            <p xml:id="ta-l3d37q1-d1e215">Praeterea, illud ex quo datur aliud intelligi, debet aliquo modo continere illud. Sed
+              prohibitio majoris mali non continet prohibitionem minoris mali, nec praeceptum magis
+              debiti continet praeceptum minus debiti. Cum ergo per prohibitionem moechiae detur
+              intelligi omnis illicitus usus membrorum, ut in littera dicitur, cum moechia sit
+              gravius quam simplex fornicatio, videtur quod non fuerit rectus modus assignandi
+              praeceptum, per prohibitionem moechiae alia minora prohibere. Et similiter potest
+              objici de honoratione parentum quod est magis debitum quam beneficia quae aliis
+              hominibus sunt exhibenda, quae ad hoc praeceptum reducuntur.</p>
+            <p xml:id="ta-l3d37q1-d1e218">Praeterea, omnia praecepta legis debent aequaliter in memoria contineri. Ergo cum in
+              tertio praecepto fiat mentio de memoria, videtur quod eadem ratione debuerit in aliis
+              praeceptis poni.</p>
+            <p xml:id="ta-l3d37q1-d1e221">Praeterea, praecepta Decalogi ad legem naturalem pertinent. Sed legis naturalis
+              dictamen per rationem naturalem est. Ergo non oportet in alio praecepto legis aliam
+              rationem assignari, nisi quod naturalis ratio dictat.</p>
+            <p xml:id="ta-l3d37q1-d1e225">Praeterea, omnibus praeceptis observatis praemium debetur. Sed in quarto praecepto
+              praemium ponitur, ut scilicet longaevus sit super terram. Ergo eadem ratione in aliis
+              praeceptis poni deberet.</p>
+          </div>
+          <div xml:id="ta-l3d37q1-Dd1e229">
+            <head xml:id="ta-l3d37q1-Hd1e231">Quaestiuncula 2</head>
+            <p xml:id="ta-l3d37q1-d1e234">Ulterius. Videtur quod non debeant esse decem legis praecepta. Sicut enim dicitur in
+              Glossa, Matth. 6, <quote xml:id="ta-l3d37q1-Qd1e236">in precibus est ut impetrentur dona; in donis ut impleantur
+                mandata; in mandatis ut beatitudines consequamur</quote>. Sed preces, et etiam dona,
+              similiter et beatitudines quodammodo sunt septem. Ergo et mandata legis debebant esse
+              tantum septem.</p>
+            <p xml:id="ta-l3d37q1-d1e240">Praeterea, Rom. 13, 8: <quote xml:id="ta-l3d37q1-Qd1e242" ana="#rom13_8">dilectio proximi legem implevit</quote>. Sed intentio
+              legislatoris in omnibus praeceptis est ut lex impleatur. Ergo sufficiens fuit unum
+              praeceptum tantum, scilicet de dilectione proximi, ponere.</p>
+            <p xml:id="ta-l3d37q1-d1e246">Praeterea, Rom. 7, dicit Glossa: <quote xml:id="ta-l3d37q1-Qd1e248">bona est lex, quae dum concupiscentiam
+                prohibet, malum prohibet</quote>. Sed praecepta ordinantur contra peccata, ut patet
+              per Augustinum in Lib. de decem Chord. Ergo suffecisset unum praeceptum ponere, in quo
+              concupiscentia prohiberetur.</p>
+            <p xml:id="ta-l3d37q1-d1e252">Sed contra, videtur quod debeant esse plus quam decem. Ubicumque enim contingit esse
+              peccatum in opere, contingit esse peccatum et in interiori concupiscentia: quia
+              consensus in peccatum, peccatum est. Sed furtum et moechia prohibentur diversis
+              praeceptis quantum ad actum et quantum ad concupiscentiam. Ergo eadem ratione et alia
+              peccata debuerunt duplicibus praeceptis prohiberi.</p>
+            <p xml:id="ta-l3d37q1-d1e256">Praeterea, ut in 2 Lib., distinct. 42, dicit Magister, tribus modis aliquis peccat:
+              scilicet in Deum, in proximum, in seipsum. Cum ergo quaedam praecepta ordinentur
+              contra peccatum in Deum, quaedam vero contra peccatum in proximum; videtur etiam quod
+              quaedam debuerunt ordinari contra peccatum in seipsum.</p>
+            <p xml:id="ta-l3d37q1-d1e259">Praeterea, secundum philosophum in 2 Ethic., intentio legislatoris est ad virtutem
+              cives inducere; unde et de singulis virtutibus aliquid lex praecipit, sicut patet in 5
+              Ethic. Sed multo plures virtutes sunt quam decem. Ergo debent esse plura
+              praecepta.</p>
+          </div>
+          <div xml:id="ta-l3d37q1-Dd1e263">
+            <head xml:id="ta-l3d37q1-Hd1e265">Quaestiuncula 3</head>
+            <p xml:id="ta-l3d37q1-d1e268">Ulterius. Videtur quod praecepta male ordinentur. Quia, sicut Gregorius dicit, ex
+              visibilibus in amorem invisibilium rapimur. Sed praecepta secundae tabulae ordinant ad
+              dilectionem proximi, quem videmus; praecepta vero primae tabulae ad dilectionem Dei,
+              qui invisibilis est. Ergo praecepta secundae tabulae prius poni debuerunt.</p>
+            <p xml:id="ta-l3d37q1-d1e271">Praeterea, prius est aliquid in corde quam sit in executione operis. Sed praeceptum
+              tertium primae tabulae videtur ad cor pertinere, praeceptum vero secundum ad opus
+              interius, primum autem ad opus exterius, quia ad actus latriae pertinet. Ergo
+              inconvenienter ordinantur.</p>
+            <p xml:id="ta-l3d37q1-d1e274">Praeterea, secundum Boetium, prius extirpanda sunt vitia quam inserantur virtutes.
+              Sed praecepta negativa ordinantur ad extirpationem vitiorum, affirmativa autem ad
+              habendas virtutes. Ergo in secunda tabula praeceptum affirmativum non debuit esse
+              primum, sed ultimum.</p>
+          </div>
+          <div xml:id="ta-l3d37q1-Dd1e279">
+            <head xml:id="ta-l3d37q1-Hd1e281">Quaestiuncula 1</head>
+            <p xml:id="ta-l3d37q1-d1e284">Respondeo dicendum ad primam quaestionem, quod cum intentio legislatoris sit ad
+              virtutes homines inducere, quibus legem tradit, oportet quod illo modo in assignandis
+              praeceptis legis utatur, qui competat viae ad virtutem; quae quidem est ut ex his quae
+              magis in promptu sunt, in difficiliora tendatur; sicut etiam in disciplinis ex magis
+              notis in minus nota proceditur. Et ideo legislator in istis decem praeceptis, quae
+              sunt quasi prima legis initia, illa prohibuit vel praecepit, quae primo occurrunt
+              facienda vel dimittenda eunti ad virtutem; et ex his alia intelligi voluit, quae in
+              eis quasi in suis principiis includuntur; et propter hoc plura negativa posuit quam
+              affirmativa, quia magis in promptu est et facile ut mala dimittantur, quam ut bona
+              perficiantur. In malis etiam illa prohibuit quae statim in primo aspectu detestanda
+              videntur, et similiter in bonis illa praecepit quae cuilibet esse debita manifestum
+              est.</p>
+            <p xml:id="ta-l3d37q1-d1e287">Ad primum ergo dicendum, quod quamvis in praeceptis negativis privetur actus exterior
+              potius quam ponatur; includitur tamen actus rationis eligentis repressionem
+              cupiditatis vel concupiscentiae, quae ad actus prohibitos inclinabat; et in hoc
+              meritum consistit.</p>
+            <p xml:id="ta-l3d37q1-d1e290">Ad secundum dicendum, quod quamvis prohibitio minoris mali in magis malo non
+              includatur via syllogistica, ut argui possit, si magis malum dimittendum est, quod et
+              minus malum; includitur tamen eo modo quo ea quae ex seminibus naturae progrediuntur,
+              in rationibus seminalibus continentur. Sicut enim natura ex parvis seminibus in
+              maximas arbores proficit, ita etiam et lex ex his quae in principio et in promptu
+              sunt, in alia procedit, quae sunt quandoque difficiliora et perfectiora; et ideo
+              legislator per prohibitionem moechiae prohibuit fornicationem simplicem, et per falsum
+              testimonium prohibuit omne mendacium, et per furtum prohibuit omnem turpem quaestum,
+              et sic de aliis.</p>
+            <p xml:id="ta-l3d37q1-d1e293">Ad tertium dicendum, quod tertium praeceptum primae tabulae non erat simpliciter
+              inditum rationi: quia determinatio diei qua vacandum est divinis obsequiis, est
+              caeremonialis, non moralis, quamvis substantia praecepti moralis sit; unde magis natum
+              erat a mente excidere quam ea quae totaliter naturalis ratio dictat; et ideo potius in
+              hoc praecepto induxit memoriam et rationem praecepti assignavit quam in aliis
+              praeceptis.</p>
+            <p xml:id="ta-l3d37q1-d1e297">Et ex hoc patet solutio ad quartum.</p>
+            <p xml:id="ta-l3d37q1-d1e300">Ad quintum dicendum, quod quartum praeceptum maxime videtur habere de debito et de
+              naturali inclinatione et privato amore; et ideo minus videbatur esse meritorium quam
+              alia; et ideo propter hoc oportuit ut ei adderetur praemium. Vel dicendum, quod
+              quartum praeceptum est primum secundae tabulae, unde ipsi praemium additur; sicut et
+              in primo praecepto primae tabulae praemium innuitur ex hoc quod Dei misericordia
+              commemoratur; ut ex his duobus mandatis ostendantur omnia sequentia praemiabilia
+              esse.</p>
+          </div>
+          <div xml:id="ta-l3d37q1-Dd1e304">
+            <head xml:id="ta-l3d37q1-Hd1e306">Quaestiuncula 2</head>
+            <p xml:id="ta-l3d37q1-d1e309">Ad secundam quaestionem dicendum, quod lex civilis suis praeceptis dirigit hominem in
+              communicationibus quae sunt ad alterum secundum vitam politicam; quae quidem non
+              potest esse nisi hominis ad hominem. Derisibiles enim videntur laudes politicae vitae
+              in deos transferentes, ut dicitur in 10 Ethic. Sed lex divina dirigit nos suis
+              praeceptis in spirituali vita, secundum quam, societatem habemus non solum ad hominem,
+              sed ad Deum, 1 Joan. 1; et ideo oportuit praecepta legis divinae hoc modo distingui
+              quod quaedam dirigerent hominem in his quae ad Deum spectant, quae dicuntur praecepta
+              primae tabulae; quaedam vero in his quae spectant ad proximum, quae dicuntur praecepta
+              secundae tabulae. Ordinatur autem homo ad Deum tripliciter. Uno modo per meditationem
+              cordis, ut dicitur in Psalm. 45, 11: <quote xml:id="ta-l3d37q1-Qd1e311">vacate, et videte quia ego sum
+                Deus</quote>, et ad hoc dirigit tertium praeceptum, scilicet sanctificatio sabbati,
+              quo aliquod tempus deputatur ad vacandum divinis, cessando ab omnibus quae hoc otium
+              perturbare possent. Alio modo per reverentiam oris, quod fit dum laudatur, et nomen
+              ejus cum reverentia enuntiatur. Et quia primo occurrit in reverentiam divini nominis
+              jurare quam laudes debitas Deo reddere, ideo in secundo praecepto ponitur: <quote xml:id="ta-l3d37q1-Qd1e314">non
+                assumes nomen Dei tui in vanum</quote>. Tertio, ut in opere servitium debitum
+              exhibeatur, quod latria dicitur, ad cujus actum primum praeceptum ordinatur similiter
+              per prohibitionem contrarii: <quote xml:id="ta-l3d37q1-Qd1e317">non habebis deos alienos</quote>. Ad proximum
+              autem homo dupliciter ordinatur. Uno modo ut ei beneficium impendatur, quod maxime
+              parentibus faciendum est; unde in primo praecepto secundae tabulae honoratio parentum
+              praecipitur, in quo intelligitur esse beneficium proximo exhibendum. Alio modo ut
+              proximo nocumentum non inferatur; quod quidem contingit tripliciter. Primo quantum ad
+              cor; et sic sunt duo praecepta ultima: <quote xml:id="ta-l3d37q1-Qd1e320">non desiderabis uxorem proximi
+                tui</quote>; et <quote xml:id="ta-l3d37q1-Qd1e323">non concupisces domum proximi tui</quote>. Secundo potest
+              inferri nocumentum proximo ore; et hoc prohibetur quinto praecepto: <quote xml:id="ta-l3d37q1-Qd1e327">non
+                loqueris contra proximum tuum falsum testimonium</quote>; in quo secundum regulam
+              prius datam detractio et objurgatio et omnia hujusmodi prohibentur. Tertio infertur
+              proximo nocumentum opere: quod quidem contingit dupliciter. Uno modo inquantum
+              subtrahuntur ea quae sunt necessaria vitae; et sic est quartum praeceptum: <quote xml:id="ta-l3d37q1-Qd1e330">non
+                furtum facies</quote>. Alio modo inquantum ipsi vitae impedimentum paratur; quod
+              dupliciter contingit. Uno modo circa vitam qua ipse in seipso idem numero vivit; et
+              contra hoc est secundum praeceptum: <quote xml:id="ta-l3d37q1-Qd1e333">non occides</quote>; in quo etiam omne
+              nocumentum in personam prohibetur. Alio modo circa vitam qua aliquis vivit in prole
+              idem specie; et contra hoc nocumentum est tertium praeceptum: <quote xml:id="ta-l3d37q1-Qd1e336">non
+                moechaberis</quote>, quia adulterium contra certitudinem prolis est.</p>
+            <p xml:id="ta-l3d37q1-d1e340">Ad primum ergo dicendum, quod virtutes, dona, beatitudines, petitiones, et praecepta
+              legis, sicut dictum est supra, correspondent sibi in generali: quia quaelibet istorum
+              se extendunt ad totam humanam vitam. Non tamen oportet quod particulariter singula
+              singulis respondeant, nisi per adaptationem aliquam, eo quod non est eadem ratio
+              distinguendi in omnibus praedictis.</p>
+            <p xml:id="ta-l3d37q1-d1e343">Ad secundum dicendum, quod dilectio proximi est sicut prima radix observandi
+              praecepta, prout in dilectione proximi etiam dilectio Dei includitur: est enim finis
+              praecepti, ut dicitur 1 Tim. 1; unde tenet locum primi principii in disciplinis. Unde
+              sicut ibi post primum principium, ad quod omnia reducuntur, ut dicitur in 4 Metaph.
+              (scilicet quod affirmatio et negatio non verificatur de eodem), ponuntur alia
+              principia magis propinqua particularibus conditionibus; ita etiam in lege praeter
+              dilectionem proximi oportuit poni aliqua specialia praecepta quae dirigerent in
+              particularibus actibus.</p>
+            <p xml:id="ta-l3d37q1-d1e346">Et similiter dicendum ad tertium de concupiscentia, quae est sicut radix omnium
+              malorum.</p>
+            <p xml:id="ta-l3d37q1-d1e350">Ad quartum dicendum, quod nocumentum quod alicui in persona infertur, naturalem
+              horrorem habet, nec terminatur ad aliquod reale bonum facientis, sed solum ad bonum
+              aestimatum, quod est vindicta. Sed nocumentum quod infertur in subtractione rerum, vel
+              in abusu uxoris, natum est habere quamdam delectationem, inquantum terminatur ad
+              aliquod bonum reale, ad minus sensibile, ipsius operantis. Et ideo ista duo nocumenta
+              distinguuntur praeceptis pertinentibus ad cor et ad actum; non autem praeceptum quod
+              est de nocumento personae proximi, talem distinctionem recipit.</p>
+            <p xml:id="ta-l3d37q1-d1e353">Ad quintum dicendum, quod secundum philosophum in 5 Ethic., legislator intendit
+              commune bonum per lationem legis; et ideo actus particulares unius hominis non
+              praecipit nisi secundum quod ad alium ordinatur. Et propter hoc etiam quantum ad modum
+              tradendi ista praecepta, hoc modo fuerunt assignanda, ut per ea ordinaretur homo
+              tantum ad alterum quamvis in ordinatione ad alterum includatur etiam ordinatio ad
+              seipsum, sicut in dilectione proximi includitur dilectio sui.</p>
+            <p xml:id="ta-l3d37q1-d1e356">Ad sextum dicendum, quod non oportuit in praeceptis Decalogi omnium virtutum actus
+              praecipi, quia hoc ad perfectionem vitae virtuosae pertinet; sed oportuit tantum in
+              illis hominem dirigi per praecepta Decalogi quae primo facienda occurrunt tendentibus
+              in virtutem, ut dictum est.</p>
+          </div>
+          <div xml:id="ta-l3d37q1-Dd1e360">
+            <head xml:id="ta-l3d37q1-Hd1e362">Quaestiuncula 3</head>
+            <p xml:id="ta-l3d37q1-d1e365">Ad tertiam quaestionem dicendum, quod praecepta Decalogi ordinantur secundum quod
+              primo et principaliter facienda vel vitanda occurrunt. Et quia in spirituali vita, ad
+              cujus directionem Decalogus datur, ratio agendi Deus est quasi finis; ideo praecepta
+              quae ad Deum ordinant, primo ponuntur, inter quae talis ordo consideratur ut prius
+              illud praeceptum ponatur cujus contrarium a Deo magis elongat: quia gradatim Deo
+              approximamus a remotioribus discedentes. Et ideo praeceptum quo prohibetur contrarius
+              cultus, per quem homo quasi totaliter a Deo recedit, prius ponitur quam praeceptum quo
+              prohibetur irreverentia in vane assumendo divinum nomen; et ultimo ponitur praeceptum
+              de quiete cordis in Deum, in quo homo Deo maxime appropinquat. In praeceptis autem
+              secundae tabulae etiam similis ordo observatur, ut scilicet prius ponatur illud
+              praeceptum quod primo in bona conversatione occurrit. Et quia prius est ordinatio
+              hominis ad domesticos quam ad extraneos, ideo praeceptum de honoratione parentum
+              praemittitur aliis quae ad omnes communiter pertinent, in quibus etiam praemittuntur
+              prohibitiones illorum quae principaliter occurrunt cavenda. Tendentibus autem ad
+              virtutem prius occurrit vitandum nocumentum operis quam oris, et oris quam cordis; et
+              inter nocumenta operis gravius nocumentum prius vitandum occurrit; et ideo prohibitio
+              homicidii praecedit prohibitionem moechiae, quae praecedit prohibitionem furti: et hae
+              tres prohibitiones praecedunt prohibitionem falsi testimonii; et ultimo ponitur
+              prohibitio concupiscentiae, in quo jam perfectio virtutis consistit.</p>
+            <p xml:id="ta-l3d37q1-d1e368">Et per hoc patet solutio ad objecta.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l3d37q1-Dd1e373" type="articulus">
+          <head xml:id="ta-l3d37q1-Hd1e375">Articulus 3</head>
+
+          <head xml:id="ta-l3d37q1-Hd1e378" type="questionTitle">Utrum omnia legis praecepta ad haec decem ordinentur</head>
+
+          <p xml:id="ta-l3d37q1-d1e381">Ad tertium sic proceditur. Videtur quod non omnia legis praecepta ad haec decem
+            reducantur. Cum enim haec praecepta jus naturale contineant, non poterunt ad ea reduci
+            nisi quae ex jure naturali proficiscuntur. Sed quaedam prohibentur in lege quae non
+            videntur modo aliquo ex lege naturali proficisci, quae nihil differunt utrum sic vel sic
+            fiant, antequam lege posita sint, ut quod sacrificetur hircus vel taurus, sicut etiam
+            philosophus, in 5 Ethicor., dicit. Ergo non omnia praecepta legis ad haec decem
+            reducuntur.</p>
+          <p xml:id="ta-l3d37q1-d1e384">Praeterea, ea quae sunt diversorum generum, invicem non reducuntur in principia
+            naturalia, sed in principium quod est voluntas, ut in 7 Metaph. dicitur. Sed haec
+            praecepta naturalia sunt, cum sint de lege naturali. Ergo praecepta caeremonialia, quae
+            sunt alterius generis, ad ipsa non reducuntur.</p>
+          <p xml:id="ta-l3d37q1-d1e387">Praeterea, manente causa, manet effectus. Sed quaedam praecepta legis mutata sunt illis
+            praeceptis manentibus. Ergo non reducuntur ad ista sicut ad causam.</p>
+          <p xml:id="ta-l3d37q1-d1e391">Praeterea, omnia ista praecepta naturalis ratio dictat. Sed non omnium quae in lege
+            posita sunt, quaerenda est ratio, ut Ff. de Leg. et Se. Ergo non omnia praecepta legis
+            ad haec reducuntur.</p>
+          <p xml:id="ta-l3d37q1-d1e394">Praeterea, ubi est eadem causa, et idem effectus. Haec autem praecepta eadem sunt apud
+            omnes. Cum ergo multa praecepta legis divinae et legis civilis apud diversos diversa
+            sint, videtur quod non omnia praecepta legalia ad haec reducantur.</p>
+          <p xml:id="ta-l3d37q1-d1e397">Sed contra, omnia praecepta legis ad dilectionem Dei et proximi aliqualiter reducuntur,
+            ut in praecedenti distinct. 36 dixit Magister. Sed dilectio Dei et proximi sufficienter
+            continetur in istis praeceptis. Ergo omnia alia praecepta legis ad haec reducuntur.</p>
+          <p xml:id="ta-l3d37q1-d1e400">Praeterea, sicut celsus dixit, jus est ars aequi et boni. Sed quidquid continetur in
+            aliqua arte, reducitur ad prima principia illius artis, sicut in scientiis
+            demonstrativis ad dignitates. Cum ergo praecepta legis naturalis sint in agibilibus,
+            sicut principia naturaliter cognita in demonstrativis, videtur quod omnia praecepta
+            legalia ad haec praecepta legis naturaliter reducantur.</p>
+          <p xml:id="ta-l3d37q1-d1e403">Praeterea, nullum praeceptum legis justum est, nisi rationabiliter positum sit. Sed
+            omnis recta ratiocinatio oportet quod a naturali cognitione deducatur: quia principium
+            rationis intellectus principiorum est. Ergo oportet quod omnia legis praecepta, si justa
+            sunt, a praeceptis legis naturae deducantur; et sic omnia alia in haec praecepta
+            reducuntur.</p>
+          <p xml:id="ta-l3d37q1-d1e406">Respondeo dicendum, quod in rebus naturalibus invenitur triplex cursus rerum. Quaedam
+            enim sunt semper, quae nunquam deficiunt, ex natura hoc habentia ut sint, et impediri
+            non possint: quaedam vero sunt frequenter, quae in paucioribus impediuntur: quaedam vero
+            sunt raro, vel in minori parte. Ea autem quae sunt semper, sunt causa et origo eorum
+            quae sunt frequenter et raro; unde etiam in ea quae sunt semper, reducuntur, ut in 6
+            Metaph. probatur; sicut motus caelestes, qui semper sunt, sunt causa et regula motus
+            pluviarum et imbrium, qui ut frequenter currunt eodem modo; et utrique sunt regula et
+            causa causalium motuum, ut inventionis thesauri, vel alicujus hujusmodi, secundum quod
+            homo vel ex pluvia vel ex aliquo hujusmodi, quod ad motum caeli reducitur, habet
+            occasionem fodiendi in agrum, ubi thesaurum invenit. Ita etiam est de legibus, quibus
+            humani motus diriguntur. Quaedam enim sunt leges quae ipsi rationi sunt inditae, quae
+            sunt prima mensura et regula omnium humanorum actuum; et haec nullo modo deficiunt,
+            sicut nec regimen rationis deficere potest, ut aliquando esse non debeat; et hae leges
+            jus naturale dicuntur. Quaedam vero leges sunt quae secundum id quod sunt, habent
+            rationem ut observari debeant, quamvis aliquibus concurrentibus earum observatio
+            impediatur; sicut quod depositum reddatur deponenti, impeditur quando gladius furioso
+            deponenti reddendus esset; et hae leges similantur his quae frequenter in natura
+            accidunt; et ideo directe et immediate ad jus naturale reducuntur. Et ideo Tullius, in 1
+            rhetoricae, nominat hujusmodi jus a naturali jure profectum. Quaedam vero leges sunt
+            quae secundum se consideratae nullam rationem habere videntur suae observationis; sed
+            rationem hujusmodi nanciscuntur ex aliquibus concurrentibus quae faciunt decentiam
+            observandi; et hujusmodi similantur his quae raro accidunt in natura. Unde sicut illa
+            non reducuntur in causas naturales nisi observato concursu omnium, quibus aliquis rarus
+            eventus accidebat; ita etiam hujusmodi legalia, quae dicuntur positiva jura, reducuntur
+            ad legem naturae non secundum se absolute, sed consideratis omnibus circumstantiis
+            particularibus, quae faciebant decentiam suae observationis. Unde patet quod omnia
+            praecepta legis divinae vel civilis, ad haec praecepta reducuntur aliquo modo.</p>
+          <p xml:id="ta-l3d37q1-d1e410">Ad primum ergo dicendum, quod illa lege posita, de quibus philosophus loquitur,
+            secundum se considerata differentiam non habent utrum sic vel sic fieri debeant, sed
+            hujusmodi differentiam sortiuntur ex diversis concurrentibus, ut dictum est.</p>
+          <p xml:id="ta-l3d37q1-d1e413">Ad secundum dicendum, quod artificialia non reducuntur in naturalia ita quod natura sit
+            eorum primum et principale principium, sed inquantum ars utitur naturalibus organis ad
+            complementum artificii. Similiter etiam praecepta caeremonialia vel juris positivi non
+            reducuntur ad naturalia quasi ex ipsa natura vim obligandi habeant; sed hoc habent ex
+            voluntate instituentis, quae in institutione naturali ratione utitur, si recte
+            instituit.</p>
+          <p xml:id="ta-l3d37q1-d1e416">Ad tertium dicendum, quod illa praecepta legis quae mutata sunt, observantiae suae
+            rationem habebant non ex ipsa substantia facti, sed ex aliquibus circumstantibus causis,
+            sicut quod oportebat nostrae redemptionis mysterium aliquibus signis praefigurare, vel
+            aliquid hujusmodi; unde cessantibus his causis, non manet reductio istorum praeceptorum
+            ad praecepta naturalia.</p>
+          <p xml:id="ta-l3d37q1-d1e419">Ad quartum dicendum, quod hoc intelligendum est quantum ad substantiam facti, quod lege
+            praecipitur, quod aliquando non habet rationem quare sic vel aliter fiat, ut dictum
+            est.</p>
+          <p xml:id="ta-l3d37q1-d1e422">Ad quintum dicendum, quod praecepta legis quae apud diversos diversa sunt, dependent a
+            praeceptis naturalibus quae sunt eadem apud omnes, mediantibus aliquibus circumstantiis,
+            ut dictum est, et horum varietas varietatem in jure positivo causat.</p>
+        </div>
+        <div xml:id="ta-l3d37q1-Dd1e427" type="articulus">
+          <head xml:id="ta-l3d37q1-Hd1e429">Articulus 4</head>
+
+          <head xml:id="ta-l3d37q1-Hd1e432" type="questionTitle">Utrum praecepta Decalogi sint dispensabilia</head>
+
+          <p xml:id="ta-l3d37q1-d1e435">Ad quartum sic proceditur. Videtur quod praecepta Decalogi sint dispensabilia. Quia
+            secundum philosophum in humanis actibus propter eorum varietatem non potest una communis
+            regula inveniri, quam non oporteat in aliquibus casibus deficere ad similitudinem
+            Lesbiae aedificationis. Sed praecepta legis sunt mensura humanorum actuum. Cum igitur
+            omne praeceptum quod in aliquo casu intermittendum est dispensabile sit, videtur quod
+            omnia praecepta legis dispensabilia sint.</p>
+          <p xml:id="ta-l3d37q1-d1e438">Praeterea, philosophus dicit, quod justum naturale non est idem apud omnes, sicut nec
+            alia quae naturam hominis consequuntur, eadem in omnibus inveniuntur, ut quod dextera
+            sit fortior sinistra, cum contingat aliquos ambidextros esse. Sed omnia praecepta quae
+            non ab omnibus sunt observanda, sunt dispensabilia. Ergo praecepta Decalogi, quae sunt
+            de jure naturali, sunt dispensabilia.</p>
+          <p xml:id="ta-l3d37q1-d1e441">Praeterea, praeceptum divinum non potest esse injustum. Sed Deus aliquando praecepit
+            fieri aliquod contrarium praeceptis Decalogi, sicut patet Exod. 12, de spoliatione
+            Aegyptiorum; et Osee 1, de accessu ad fornicariam. Ergo aliquando justum est fieri
+            contra praecepta Decalogi. Ergo praecepta Decalogi sunt dispensabilia.</p>
+          <p xml:id="ta-l3d37q1-d1e445">Praeterea, inter Decalogi praecepta continetur homicidii prohibitio. Sed aliquibus
+            casibus contingentibus judex praecipit hominem occidi, et juste. Ergo et similiter alia
+            praecepta aliquibus casibus emergentibus possunt non observanda esse.</p>
+          <p xml:id="ta-l3d37q1-d1e448">Praeterea, sicut prius dictum est, in corp. praec. art., omnia praecepta legis aliquo
+            modo ad praecepta Decalogi reducuntur. Sed praelatis Ecclesiae licet in aliquibus legis
+            praeceptis dispensare. Ergo et similiter in praeceptis Decalogi.</p>
+          <p xml:id="ta-l3d37q1-d1e451">Sed contra, secundum Bernardum in Lib. de praecepto et regula, nulli licet dispensare
+            in praecepto quod a suo superiore est impositum. Sed praecepta Decalogi sunt imposita a
+            Deo, qui est superior omnibus. Ergo nulli licet in praeceptis hujusmodi dispensare.</p>
+          <p xml:id="ta-l3d37q1-d1e454">Praeterea, in quolibet genere est una prima mensura, quam oportet esse certissimam et
+            infallibilem, ut patet in 10 Metaph., et 5 Metaph. Sed prima mensura omnium humanorum
+            actuum est lex Decalogi. Ergo in nullo casu ab ea discedere licet, et ita
+            indispensabilis est.</p>
+          <p xml:id="ta-l3d37q1-d1e457">Praeterea, illud quod est per se verum, semper et ubique est verum. Ergo illud quod est
+            per se justum, semper et ubique observandum est. Sed praecepta Decalogi sunt hujusmodi.
+            Ergo et cetera.</p>
+          <p xml:id="ta-l3d37q1-d1e460">Respondeo dicendum, quod in qualibet legislatione oportet duo considerare; scilicet
+            substantiam legis quae ponitur, et id ad quod legislator respicit. Et sicut lex lata est
+            mensura subditorum in suis actibus, ita hoc ad quod respicit legislator, quod est legis
+            intentio et finis, est mensura legis positivae. Sicut ergo actus subditorum sunt
+            distorti si a lege positiva discordant; ita lex rectitudinem non habet si ab intentione
+            legislatoris deficeret; quae est rectitudinem constituere et conservare. Si ergo sint
+            aliqua praecepta quae continent ipsam intentionem legislatoris, impossibile est quod in
+            aliquo casu salva justitia possit aliquis ab eis deflectere; sicut si esset hoc
+            praeceptum, nulli faciendam esse injuriam; et ideo cum omnia praecepta Decalogi sint
+            hujusmodi, impossibile est quod dispensationem recipiant. Praecepta autem quae
+            legislator edidit, ad mensuram praedictorum metienda sunt. Unde quamdiu illa praecepta
+            posita non possunt praeteriri sine praejudicio primae mensurae ad quam instituta sunt,
+            nulli licet in eis dispensare. Si quando vero possunt salva intentione legis praeteriri,
+            tunc est licitum dispensare in illis praeceptis ei qui auctoritatem habet. Si vero in
+            aliquibus casibus lex posita ab intentione legislatoris discedat, quia non potuit
+            legislator ad omnes casus intendere, legem statuens, sed ad ea quae pluries accidunt;
+            tunc etiam licitum est legem positam praeterire, et intentionem legislatoris sequi,
+            sicut patet in eo qui non reddit depositum impugnanti fidem vel patriam; et ad hoc
+            perficit quaedam virtus quae vocatur a philosopho, in 5 Ethic., epiceia, per quam homo,
+            praetermissa lege, legislatoris intentionem sequitur.</p>
+          <p xml:id="ta-l3d37q1-d1e464">Ad primum ergo dicendum, quod philosophus loquitur de praeceptis legis positivae, et
+            non de illis quae intentionem legislatoris includunt.</p>
+          <p xml:id="ta-l3d37q1-d1e467">Ad secundum dicendum, quod justum naturale est duplex, ut supra dictum est, in corp.
+            praec. art. Quoddam quod semper et ubique est justum, sicut hoc in quo consistit forma
+            justitiae et virtutis in generali, sicut medium tenere, rectitudinem servare, et alia
+            hujusmodi. Quoddam vero est ex hoc profectum, secundum Tullium; et hoc in pluribus ita
+            contingit, sed potest in paucioribus deficere, ut dictum est: quod contingit ex hoc quod
+            justum hujusmodi est applicatio quaedam universali et primae mensurae ad materiam
+            difformem et mutabilem; et de hujusmodi justo loquitur philosophus.</p>
+          <p xml:id="ta-l3d37q1-d1e470">Ad tertium dicendum, quod circa praecepta Decalogi, secundum quod ad Decalogum
+            pertinent, nunquam Deus contrarium fieri praecepit. Prohibitio enim furti ad Decalogum
+            pertinet inquantum res furata aliena est ab accipiente. Retenta ergo hac conditione, si
+            res illa fiat ipsius accipientis, jam non erit contra Decalogum. Hoc autem non solum
+            Deus, qui est omnium dominus, facere poterat, sed etiam quandoque homines auctoritatem
+            habentes, rem quae unius fuerat alteri conferunt, ex aliqua causa. Potest tamen Deus in
+            aliquibus factis conditiones contrarias Decalogo auferre, qui et naturam mutare potest,
+            quod homo facere non potest; sicut ab ea quae non est matrimonio juncta, potest auferre
+            hanc conditionem non suam, sine hoc quod uxor plenaria fiat, ut sic accedere ad eam non
+            sit contra Decalogum.</p>
+          <p xml:id="ta-l3d37q1-d1e473">Ad quartum dicendum, quod non prohibetur in Decalogo occisio simpliciter, sed occisio
+            ejus qui mortem pati non debuit.</p>
+          <p xml:id="ta-l3d37q1-d1e476">Ad quintum dicendum, quod non est eadem ratio de praeceptis Decalogi, et de aliis
+            praeceptis legis, ut ex praedictis patet.</p>
+        </div>
+        <div xml:id="ta-l3d37q1-Dd1e480" type="articulus">
+          <head xml:id="ta-l3d37q1-Hd1e482">Articulus 5</head>
+
+          <head xml:id="ta-l3d37q1-Hd1e485" type="questionTitle">Utrum fuerit conveniens observationem sabbati praecipere</head>
+          <div xml:id="ta-l3d37q1-Dd1e488">
+            <head xml:id="ta-l3d37q1-Hd1e490">Quaestiuncula 1</head>
+            <p xml:id="ta-l3d37q1-d1e493">Ad quintum sic proceditur. Videtur quod inconveniens fuerit sabbati observationem
+              praecipere. Sabbatum enim est septima pars temporis totius vitae hominis. Sed valde
+              irrationabile videtur quod homo septimam partem vitae suae in otio amittat, sicut
+              Seneca dicit deridens caeremonias Judaeorum, sicut Augustinus narrat in Lib. de Civ.
+              Dei. Ergo irrationabile fuit sabbati observantiam praecipere.</p>
+            <p xml:id="ta-l3d37q1-d1e496">Praeterea, quanto exercitatio alicujus rei magis discontinuatur, tanto homo in illa
+              re minus proficit. Sed sabbati observantia instituta fuit ad vacandum divinis. Multo
+              autem continuatius esset exercitium divinorum, si ei cujuslibet diei una hora saltem
+              deputaretur. Ergo videtur quod ad majorem profectum hoc fuisset quam diem septimam
+              observare.</p>
+            <p xml:id="ta-l3d37q1-d1e499">Praeterea, ab operibus virtutis nullo tempore vacandum est. Sed opera servilia sunt
+              materia virtutis. Ergo non debuit praecipi ut die sabbati a servilibus operibus
+              abstineretur.</p>
+            <p xml:id="ta-l3d37q1-d1e502">Sed contra, ad legislatorem pertinet omnes humanos actus moderare. Sed cum
+              impossibile sit semper agere, ut philosophus in Lib. de Somn. et Vigil. dicit; ad
+              moderationem humanorum actuum pertinet ut aliquod tempus quieti deputetur. Ergo
+              conveniens fuit ut legislator hoc institueret.</p>
+            <p xml:id="ta-l3d37q1-d1e506">Praeterea, hominibus spirituali vita viventibus maxima cura adhibenda est ut Dei
+              omnipotentiam et providentiam cognoscant. Sed lex Moysi data est ad instruendam vitam
+              spiritualem. Ergo praecipue hoc lege illa debuit praecipi, quod ad Dei omnipotentiam
+              et providentiam credendam homines assuefaceret. Hoc autem est observatio sabbati, quae
+              in memoriam reducit, ut Rabbi Moyses dicit, principium mundi, cujus factura septima
+              die consummata est: qua supposita, cunctis etiam simplicibus evidens est Deum
+              omnipotentem esse, et ex providentia, non ex necessitate agere. Ergo conveniens fuit
+              ut observatio sabbati lege statueretur.</p>
+          </div>
+          <div xml:id="ta-l3d37q1-Dd1e510">
+            <head xml:id="ta-l3d37q1-Hd1e512">Quaestiuncula 2</head>
+            <p xml:id="ta-l3d37q1-d1e515">Ulterius. Videtur quod praeceptum de sabbato observando fuerit morale simpliciter. Ea
+              enim quae in unam divisionem veniunt, unius rationis esse videntur. Sed praeceptum de
+              sabbato observando condividitur aliis praeceptis Decalogi; quae sunt praecepta moralia
+              legis naturae. Ergo praeceptum de sabbato est morale.</p>
+            <p xml:id="ta-l3d37q1-d1e518">Praeterea, super illud Luc. 13, <quote xml:id="ta-l3d37q1-Qd1e520">sex dies sunt in quibus operari licet</quote>,
+              dicit Glossa: <quote xml:id="ta-l3d37q1-Qd1e523">lex in sabbato non hominem curare, sed servilia opera facere,
+                idest peccatis gravari, prohibet</quote>. Sed vacare a peccato est morale
+              praeceptum. Ergo et praeceptum de sabbato observando.</p>
+            <p xml:id="ta-l3d37q1-d1e527">Praeterea, illud quod habet rationem moralem, videtur esse morale praeceptum. Sed
+              observatio sabbati est hujusmodi, quod patet ex causa quam assignat Damascenus Lib. 4:
+                <quote xml:id="ta-l3d37q1-Qd1e529">vacationis</quote>, inquit, <quote xml:id="ta-l3d37q1-Qd1e532">gratia quae est ad Deum, et ut particulam
+                vitae Deo tribuant et requiescant servus et subjugale, sabbati observantia
+                excogitata est</quote>. Ergo praeceptum de sabbato observando est morale.</p>
+            <p xml:id="ta-l3d37q1-d1e536">Sed contra, praecepta quae sunt data in signum, non sunt moralia, sed caeremonialia.
+              Sed praeceptum de sabbato est hujusmodi, ut patet Exod. 31, 13: <quote xml:id="ta-l3d37q1-Qd1e538">videte ut
+                sabbatum meum custodiatis, quia signum est inter me et vos</quote>. Ergo praeceptum
+              de sabbato est caeremoniale.</p>
+            <p xml:id="ta-l3d37q1-d1e543">Praeterea, Levit. 26 dicit Glossa: <quote xml:id="ta-l3d37q1-Qd1e545">mandatum sabbati quamvis in decem mandatis
+                numeratum sit, non tamen ex eis est</quote>. Videtur ergo quod sit caeremoniale, et
+              non morale.</p>
+          </div>
+          <div xml:id="ta-l3d37q1-Dd1e550">
+            <head xml:id="ta-l3d37q1-Hd1e552">Quaestiuncula 3</head>
+            <p xml:id="ta-l3d37q1-d1e555">Ulterius. Videtur quod non debuerit cessare tempore gratiae. Thurificatio enim, ut
+              dicunt sancti et magistri, non cessavit: quia significat illud quod semper faciendum
+              est, scilicet devotionem orationis. Sed observatio sabbati significat requiem in Deo,
+              ut Augustinus dicit, super Exod. cap. 31, quae quidem semper facienda est. Ergo non
+              debuit tempore gratiae cessare.</p>
+            <p xml:id="ta-l3d37q1-d1e558">Praeterea, observatio sabbati ad maximam perfectionem ordinabat, scilicet ad vacandum
+              divinae contemplationi. Sed status gratiae est perfectior statu legis. Ergo etiam
+              magis debet observari in hoc statu quam in illo.</p>
+            <p xml:id="ta-l3d37q1-d1e561">Si dicas, quod observatur, sed mutata die, scilicet dominica; contra. Magis est in
+              reverentia habendum quod ad divinitatem pertinet quam quod ad humanitatem. Sed ratio
+              observandi sabbatum fuit mysterium divinae quietis. Ergo non fuit observatio sabbati
+              commutanda in observationem dominicae propter mysterium resurrectionis, quod Christo
+              secundum humanam naturam competit.</p>
+            <p xml:id="ta-l3d37q1-d1e564">Praeterea, tempore gratiae tenemur perfectius Deo vacare quam tempore legis. Sed
+              tempore legis a multis abstinebatur quae nunc in die dominico licite fiunt: non enim
+              erat licitum cibos coquere, nec itinerare. Ergo observatio sabbati non est mutata in
+              dominicam: ergo adhuc debet observatio sabbati remanere.</p>
+            <p xml:id="ta-l3d37q1-d1e568">Sed contra, Exod. 31, 15: <quote xml:id="ta-l3d37q1-Qd1e570">septima dies erit sabbatum</quote>, idest
+                <quote xml:id="ta-l3d37q1-Qd1e573">requies</quote>: Glossa: <quote xml:id="ta-l3d37q1-Qd1e576">alia praecepta servanda in novo testamento ad
+                litteram non dubitamus; illud autem de sabbato, velatum et in mysterio praeceptum
+                fuit, ut hodie a nobis non servetur, sed solum signatum intueamur</quote>.</p>
+            <p xml:id="ta-l3d37q1-d1e580">Praeterea, Damascenus dicit quod sabbati observatio excogitata fuit parvulis, et sub
+              elementis mundi servientibus. Sed a tali servitio liberati sumus per adventum Christi.
+              Ergo et sabbati observatio cessavit.</p>
+          </div>
+          <div xml:id="ta-l3d37q1-Dd1e585">
+            <head xml:id="ta-l3d37q1-Hd1e587">Quaestiuncula 1</head>
+            <p xml:id="ta-l3d37q1-d1e590">Respondeo dicendum ad primam quaestionem, quod sicut praeceptum de sacrificiis habuit
+              aliquam causam moralem non simpliciter, sed secundum congruentiam illorum quibus lex
+              dabatur, qui ad idolatriam proni erant, ut Deo offerrent quod alias idolis
+              obtulissent; et aliam causam mysticam, scilicet ad significandum sacrificium passionis
+              Christi: ita et praeceptum de observatione sabbati habuit aliquam causam moralem ex
+              conditione eorum quibus lex dabatur, qui propter avaritiam eis inditam intantum se et
+              sibi subditos operibus servilibus occupassent quod omnino mens eorum a divinis
+              subtraheretur: et hanc causam tangit Damascenus. Similiter etiam quia ad errores
+              gentium proni erant, indicta est eis observatio sabbati, ut creationem mundi semper
+              prae oculis haberent, et sic Deum recognoscerent et timerent: quam causam tangit Rabbi
+              Moyses. Habuit nihilominus et causam mysticam triplicem. Unam allegoricam, ad
+              significandum quietem Christi in sepulcro. Aliam moralem, ad significandum requiem
+              humanae mentis a peccatis, et ab omnibus aliis rebus, in quibus requiem non invenit,
+              nisi in Deo, in quo solo est quies. Tertiam anagogicam, ad significandum aeternam
+              requiem qua sancti in gloria quiescent. Et ideo conveniens fuit institutio sabbati pro
+              tempore illo.</p>
+            <p xml:id="ta-l3d37q1-d1e593">Ad primum ergo dicendum, quod sabbati tempus non amittitur, si hoc in sabbato fiat ad
+              quod deputatum est, scilicet divinorum contemplatio. Sed quia Judaei omissis divinis
+              in sabbatis magis inutilibus rebus vacabant, ideo eos Seneca derisit, ut dicitur
+              Thren. 1, 7: <quote xml:id="ta-l3d37q1-Qd1e595">viderunt eam hostes, et deriserunt sabbata ejus</quote>.</p>
+            <p xml:id="ta-l3d37q1-d1e599">Ad secundum dicendum, quod labor non solum impedit contemplationis actus dum
+              exercetur, sed etiam postquam transiit, dum remanent ex labore membra fessa, et mens
+              distracta. Unde convenientius fuit ut unus dies integer divinis deputaretur quam in
+              singulis diebus aliquae horae.</p>
+            <p xml:id="ta-l3d37q1-d1e602">Ad tertium dicendum, quod quandoque actus unius virtutis intermittendus est propter
+              actum excellentioris virtutis; sicut opera aliarum virtutum aliquando propter opus
+              justitiae intermittuntur, ut dicit Tullius in 1 de Offic. Virtutes autem omnes
+              contemplativae sunt digniores virtutibus activis, quarum materia esse possunt servilia
+              opera. Unde non est inconveniens quod opus servile intermittatur ad tempus, ut
+              contemplationi vacetur.</p>
+          </div>
+          <div xml:id="ta-l3d37q1-Dd1e606">
+            <head xml:id="ta-l3d37q1-Hd1e608">Quaestiuncula 2</head>
+            <p xml:id="ta-l3d37q1-d1e611">Ad secundam quaestionem dicendum, quod praeceptum de sabbato observando, quantum ad
+              aliquid morale est, et quantum ad aliquid caeremoniale, et quantum ad aliquid potest
+              etiam dici judiciale. Secundum enim illud ejus quod naturalis ratio dictat, praeceptum
+              morale est, ut scilicet aliquo tempore homo contemplationi vacet. Sed taxatio temporis
+              in qua vacandum sit, non est de dictamine naturalis legis, et ideo est morale
+              praeceptum. Sed secundum quod habet pro causa significationem, sic est caeremoniale.
+              Secundum autem quod habet pro causa conditionem illius populi, cui subveniendum erat
+              per hoc praeceptum, judiciale est.</p>
+            <p xml:id="ta-l3d37q1-d1e614">Ad primum ergo dicendum, quod connumeratur aliis praeceptis Decalogi quantum ad id
+              quod habet de ratione moralis praecepti.</p>
+            <p xml:id="ta-l3d37q1-d1e617">Ad secundum dicendum, quod opera servilia mystice intelliguntur peccata; sed ad
+              litteram opera servilia dicuntur ad quorum exercitium servos deputatos habemus, in
+              quibus debent artes mechanicae dirigere, quae contra liberales dividuntur.</p>
+            <p xml:id="ta-l3d37q1-d1e620">Ad tertium dicendum, quod causae illae non sunt morales nisi considerata conditione
+              illius populi cui lex dabatur. Unde ex hoc magis potest concludi quod sit judiciale
+              praeceptum quam morale.</p>
+          </div>
+          <div xml:id="ta-l3d37q1-Dd1e624">
+            <head xml:id="ta-l3d37q1-Hd1e626">Quaestiuncula 3</head>
+            <p xml:id="ta-l3d37q1-d1e629">Ad tertiam quaestionem dicendum, quod sabbati observatio quantum ad illud quod de
+              lege naturali habebat, prout morale praeceptum est, tempore gratiae non cessavit, immo
+              perfectius implendum est, sicut et alia moralia praecepta; et ideo apostolus, 1
+              Corinth. 7, dat consilium de virginibus, ut extra solicitudinem existentes, semper
+              quae Dei sunt, cogitent. Sed taxatio diei vel temporis, quae ad legem moralem non
+              pertinebat, veniente statu gratiae cessavit, sicut et alia legalia.</p>
+            <p xml:id="ta-l3d37q1-d1e632">Ad primum ergo dicendum, quod observatio sabbati, inquantum caeremonialis est, signat
+              principaliter requiem Christi in sepulcro, et per consequens quietem quam habemus per
+              ipsum, consepulti cum eo per Baptismum in mortem; Rom. 6. Unde veniente veritate,
+              figura cessavit. Et non est simile de thurificatione, quae principaliter non est
+              signum futuri, sed ejus quod semper esse debet.</p>
+            <p xml:id="ta-l3d37q1-d1e635">Ad secundum dicendum, quod quia perfectius in nova lege debemus Deo vacare, ideo non
+              fuit taxandum tempus illis quibus injungitur, ut sine intermissione orent.</p>
+            <p xml:id="ta-l3d37q1-d1e638">Ad tertium dicendum, quod observatio dominicae non obligat ex praecepto Decalogi nisi
+              quantum ad hoc quod est de dictamine legis naturae: taxatio enim illius diei est ex
+              institutione Ecclesiae volentis resurrectionem Christi, cui nostram vitam conformare
+              debemus, in jugi memoria esse. Quamvis autem resurrectio Christi ei secundum
+              humanitatem conveniat, tamen opus divinitatis est, quae eum a mortuis suscitavit. Unde
+              non in minori reverentia est habenda quam requies artificis, et consummatio conditoris
+              facta in die sabbati; immo amplius, secundum quod opus conditionis opere reparationis
+              perficitur.</p>
+            <p xml:id="ta-l3d37q1-d1e642">Ad quartum dicendum, quod in die dominica tenemur vacare ex constitutione Ecclesiae
+              ab operibus quae nos impedire possent a cultu divino, qui indicitur in tali die
+              exercendus, nisi ex causa per eum qui habet auctoritatem, in aliquo dispensetur. Neque
+              oportet quod ab omnibus in die dominica cessemus a quibus in die sabbati cessabant:
+              quia antiquorum cessatio ab omnibus operibus servilibus in significationem erat, non
+              autem nostra cessatio.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l3d37q1-Dd1e647" type="articulus">
+          <head xml:id="ta-l3d37q1-Hd1e649">Articulus 6</head>
+
+          <head xml:id="ta-l3d37q1-Hd1e652" type="questionTitle">Utrum usuras accipere sit peccatum</head>
+
+          <p xml:id="ta-l3d37q1-d1e655">Ad sextum sic proceditur. Videtur quod usuras accipere non sit peccatum. Nihil enim est
+            peccatum nisi quod est contra praeceptum aliquod morale: caeremonialia autem, et
+            judicialia legis Mosaicae nos non obligant. Sed praeceptum de non accipiendo usuram, non
+            est morale: quia praecepta moralia obligant respectu omnium, et ad omnes; sed Deut. 23,
+            Judaeis conceditur quod fenerentur non proximis, sed extraneis. Ergo usuras accipere non
+            est peccatum.</p>
+          <p xml:id="ta-l3d37q1-d1e658">Praeterea, constat quod ille qui alicui pecuniam mutuat, aliquod commodum ei facit. Sed
+            secundum philosophum in 5 Ethic., <quote xml:id="ta-l3d37q1-Qd1e660">in retributione commanet civitas</quote>, ut
+            scilicet quantum quis fecit, tantum ei fiat. Ergo non est peccatum, sed licitum et
+            justum, ut pro commodo quod mutuando fecit, aliquod lucrum reportet.</p>
+          <p xml:id="ta-l3d37q1-d1e664">Si dicas, quod tenebatur ei gratis mutuare; unde in hoc peccat quod vendit alicui quod
+            ei debebat: contra. Secundum hoc ergo non peccabit lucrum de mutuo quaerens, nisi quando
+            mutuare tenetur. Sed non semper tenetur mutuare. Ergo aliquando licet ei usuras
+            accipere.</p>
+          <p xml:id="ta-l3d37q1-d1e668">Praeterea, non minus possum accipere ab eo cui beneficus extiti, quam ab eo cui nullum
+            beneficium contuli. Sed si aliquis cui non mutuassem, aliquid mihi daret de suo, etiam
+            si sperassem accipere, licite detinere possem. Ergo et ab eo cui beneficus extiti,
+            mutuum concedendo, licet mihi aliquid expectare, recipere, et detinere.</p>
+          <p xml:id="ta-l3d37q1-d1e671">Praeterea, plus efficitur mihi debitor ille in quem transtuli dominium rei meae, quam
+            ille cui solum usum rei meae concessi. Sed in rebus in quibus non transfertur dominium,
+            si concedantur ad aliquem usum, licet inde aliquid accipere, sicut patet in locationibus
+            domorum, equorum, et hujusmodi. Ergo multo amplius licet mihi accipere ab eo in quem per
+            mutuum pecuniae meae dominium transtuli.</p>
+          <p xml:id="ta-l3d37q1-d1e674">Praeterea, quicumque communicat alicui in peccato mortali, peccat mortaliter. Sed ille
+            qui dat usuras accipiens mutuum, communicat ei qui accipit usuras dans mutuum. Si ergo
+            accipiens usuras semper peccat, videtur quod et dans; quod falsum est.</p>
+          <p xml:id="ta-l3d37q1-d1e677">Sed contra, Luc. 6: <quote xml:id="ta-l3d37q1-Qd1e679">date mutuum, nihil inde sperantes</quote>. Sed contra hoc
+            veniunt feneratores. Ergo peccant.</p>
+          <p xml:id="ta-l3d37q1-d1e683">Praeterea, ea quae veniunt in eamdem divisionem, sunt unius rationis. Sed dare pecuniam
+            ad usuram connumeratur aliis quae sunt peccata mortalia, ut patet in Psalm. 14:
+              <quote xml:id="ta-l3d37q1-Qd1e685">domine, quis habitabit in tabernaculo tuo?</quote> Ergo est peccatum
+            mortale.</p>
+          <p xml:id="ta-l3d37q1-d1e689">Praeterea, ubicumque est turpe lucrum, est peccatum. Sed philosophus ponit in 4 Ethic.
+            feneratores inter turpes lucratores. Ergo et cetera.</p>
+          <p xml:id="ta-l3d37q1-d1e693">Respondeo dicendum, quod ab omnibus dicitur communiter quod dare ad usuram peccatum
+            mortale est. Sed diversi diversas rationes assignant. Quidam enim dicunt, quod ideo
+            pecuniam pro certo lucro concedere non licet, sicut donum vel equum, vel alia hujusmodi,
+            quia pecunia non deterioratur ex usu, sed aliis rebus aliquid deperit ex usu. Sed ista
+            ratio non est generalis: quia in aliquibus rebus, pro quarum concessione aliquid accipi
+            potest licite, nihil ex usu deperit, sicut in concessione domus ad usum ad unum diem; et
+            praeterea pretium quod accipitur, non commensuratur damno quod accidit ex usu rei; non
+            enim tantum deperit in mutuo quantum datur. Et ideo alii assignant aliam rationem, quia
+            videlicet quando pecunia mutuatur, transfertur dominium, quod non fit in domo et in
+            aliis rebus. Justum autem videtur ut pro usu rei quae mea remanet, scilicet domus,
+            aliquid accipere possim; sed pro usu pecuniae, quae fit alterius ex hoc ipso quod
+            mutuatur, aliquid accipere, nihil aliud est quam accipere aliquid ab aliquo pro usu rei
+            propriae; et ideo videtur quod est quaedam exactio, et peccatum. Et haec ratio satis
+            probabilis videtur; et ideo simile accidit in omnibus rebus in quibus transfertur
+            dominium per mutuum, sicut granum, vinum, et hujusmodi, pro quorum usu nihil accipere
+            licet ultra valorem ejus quod mutuatum est. Potest tamen et alia ratio assignari; quia
+            omnes aliae res ex seipsis habent aliquam utilitatem, pecunia autem non, sed est mensura
+            utilitatis aliarum rerum, ut patet per philosophum in 5 Ethic. Et ideo pecuniae usus non
+            habet mensuram utilitatis ex ipsa pecunia, sed ex rebus quae per pecuniam mensurantur
+            secundum differentiam ejus qui pecuniam ad res transmutat. Unde accipere majorem
+            pecuniam pro minori, nihil aliud esse videtur quam diversificare mensuram in accipiendo,
+            et dando; quod manifeste iniquitatem continet.</p>
+          <p xml:id="ta-l3d37q1-d1e696">Ad primum ergo dicendum, quod lex Deuteronomii loquitur de Judaeis respectu aliarum
+            nationum quae terram promissionis Judaeis divinitus concessam detinebant; et ideo
+            permissum fuit eis, usuris, et quibuscumque exactionibus extorquere ab injuste
+            possidentibus quod eis juste debebatur, sicut etiam dicitur de spoliatione Aegyptiorum,
+            qui Judaeis mercedem laboris quo eis servierant, subtraxerunt. Vel dicendum, quod sicut
+            libellus repudii permissus est eis ad duritiam cordis eorum, ne uxores interficerent, ad
+            quod proni erant; ita etiam permissum fuit eis fenerare extraneis, ne fratribus suis
+            fenerarent, ad quod eos innata avaritia incitabat.</p>
+          <p xml:id="ta-l3d37q1-d1e699">Ad secundum dicendum, quod beneficium mutui non est amplius quam pecunia mutuata; unde
+            si plus exigitur, exigitur plus quam debitum est; et ideo est injusta exactio.</p>
+          <p xml:id="ta-l3d37q1-d1e702">Ad tertium dicendum, quod quamvis homo non teneatur semper mutuum concedere, tenetur
+            tamen ad hoc ut quandocumque mutuum exigit, non plus exigat quam dederat.</p>
+          <p xml:id="ta-l3d37q1-d1e705">Ad quartum dicendum, quod ab eo cui beneficium contuli, licet mihi tantum sperare et
+            accipere quantum feci, et non plus. Quidquid autem de utilitate contingit ei cui mutuum
+            dedi, ultra mensuram mutui ex pecunia mutuata, hoc est ex industria ejus qui sagaciter
+            pecunia usus est: industriam autem ejus sibi vendere non debeo, sicut nec pro stultitia
+            ejus minus habere debeo.</p>
+          <p xml:id="ta-l3d37q1-d1e708">Ad quintum dicendum, quod hoc ipso quod dominium pecuniae transfertur, est ratio quare
+            pro usu ejus nihil accipere debeam vel sperare quasi mihi debitum.</p>
+          <p xml:id="ta-l3d37q1-d1e712">Ad sextum dicendum, quod ille qui usuras dat et mutuum accipit in necessitate, non
+            peccat, nec usurario communicat inquantum hujusmodi: quia non voluntarius usuram dat,
+            sed quasi coactus necessitate.</p>
+        </div>
+        <div xml:id="ta-l3d37q1-Dd1e716">
+          <head xml:id="ta-l3d37q1-Hd1e718">Expositio textus</head>
+          <p xml:id="ta-l3d37q1-d1e721"><quote xml:id="ta-l3d37q1-Qd1e722">Haec Origenes dicit esse duo mandata</quote>. Sicut Origenes primum mandatum
+            dividit in duo, ita duo ultima mandata, quae sunt de prohibitione concupiscentiae,
+            conjungit in unum; et sic praecepta denarium non transcendunt. <quote xml:id="ta-l3d37q1-Qd1e725">Idolum nihil est
+              in mundo</quote>. Hoc autem multipliciter intelligi potest. Uno modo inquantum idolum
+            est similitudo; et sic exponit Origenes, ut dicatur idolum nihil esse, quia nulla res
+            est in mundo cujus sit similitudo. Alio modo potest intelligi de idolo secundum quod est
+            res quaedam; et hoc dupliciter. Uno modo quantum ad formam quae aestimatur esse in
+            idolo, et non est in eo, scilicet forma deitatis. Alio modo quantum ad effectum, quia
+            scilicet ad peccatum inducit, quod nihil est. <quote xml:id="ta-l3d37q1-Qd1e728">Non assumes nomen Dei tui in
+              vanum</quote>. Assumere est ad aliquid sumere. Sumitur autem nomen Dei ad alicujus
+            veritatis confirmationem per modum juramenti. Si ergo sumatur ad confirmandum aliquod
+            falsum, quod in se nullo modo confirmabile est, tunc in vanum assumitur, et pro nihilo
+            juratur: quia vanum est quod est ad finem aliquem quem non inducit, ut dicitur in 2
+            Physic. <quote xml:id="ta-l3d37q1-Qd1e731">Nomine igitur moechiae, omnis illicitus concubitus, illorumque membrorum
+              non legitimus usus prohibitus debet intelligi</quote>. Cum peccatum contra naturam sit
+            gravius quam moechia, videtur quod illud potius prohiberi debuerit, quasi primo tramite
+            relinquendum. Et dicendum, quod quia legislator hominibus legem dabat, ideo in primis
+            legis mandatis non debebat nisi peccata humana prohibere; peccatum autem contra naturam
+            non est humanum, sed bestiale, secundum philosophum in 7 Ethic. <quote xml:id="ta-l3d37q1-Qd1e734">Ut si in hieme
+              credimus decem modios, in messe quindecim recipiamus</quote>. Hoc est intelligendum,
+            si plus valeant in messe quindecim modii secundum commune forum quam in hieme decem;
+            alias si fiat commensuratio dati et accepti ad valorem pecuniae, non erit usura, sed
+            aequalis commutatio.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

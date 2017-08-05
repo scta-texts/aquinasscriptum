@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 11, Quaestio 3</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Librum IV, Distinctio 11, Quaestio 3</title>
+          <date when="2016-03-19">March 19, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-19">March 19, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness>1856 editum</witness>
+          <witness xml:id="G" n="ghent567">Ghent, Belgium, Ghent University Library, 567</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="0.0.0-dev">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+
+
+
+
+      <div xml:id="starts-on">
+        <cb ed="#G" n="173b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ta-l4d11q3">
+        <head xml:id="ta-l4d11q3-Hd1e97">Librum IV, Distinctio 11, Quaestio 3</head>
+
+        <div xml:id="ta-l4d11q3-Dd1e100">
+          <head xml:id="ta-l4d11q3-Hd1e102">Prooemium</head>
+          <p xml:id="ta-l4d11q3-d1e105">Deinde quaeritur quomodo Christus hoc sacramento usus sit in ipsa prima sui
+            institutione; et circa hoc quaeruntur quatuor: 1 utrum ipse corpus suum manducaverit; 2
+            utrum Judae dederit; 3 utrum dederit corpus suum passibile, vel impassibile; 4 utrum si
+            in pixide reservatum fuisset corpus Christi, ibi moreretur; sub qua autem forma
+            consecravit, supra, dist. 8, dictum est.</p>
+        </div>
+        <div xml:id="ta-l4d11q3-Dd1e109" type="articulus">
+          <head xml:id="ta-l4d11q3-Hd1e111">Articulus 1</head>
+
+          <head xml:id="ta-l4d11q3-Hd1e114" type="questionTitle">Utrum Christus manducaverit</head>
+
+          <p xml:id="ta-l4d11q3-d1e117">Ad primum sic proceditur. Videtur quod ipse Christus non manducaverit. Quia de his quae
+            dominus fecit, non sunt alia asserenda, nisi quae nobis in Evangelio narrantur. Sed in
+            Evangelio continetur quod Christus accepit panem in manibus, et dedit discipulis suis
+            manducandum. Ergo non debemus asserere quod ipse manducaverit.</p>
+          <p xml:id="ta-l4d11q3-d1e120">Praeterea, omne quod manducatur, in cibum assumitur. Sed assumens non est assumptum, ut
+            in 3 Lib., dist. 5, dictum est. Ergo Christus corpus suum manducare non potuit.</p>
+          <p xml:id="ta-l4d11q3-d1e123">Praeterea, hoc sacramentum ordinatur ad spiritualem refectionem. Sed ipse spirituali
+            refectione non indigebat. Ergo hoc sacramentum non sumpsit, quia in vanum
+            accepisset.</p>
+          <p xml:id="ta-l4d11q3-d1e127">Praeterea, ut supra, dist. 9, dictum est, duplex est modus manducandi; scilicet
+            spiritualis, et sacramentalis. Sed Christo non competebat sacramentaliter manducare, cum
+            esset verus comprehensor, et sine velamine figurarum ad rem sacramenti pertingeret; nec
+            iterum spiritualiter, quia in ipso gratia non augebatur. Ergo ipse non manducavit.</p>
+          <p xml:id="ta-l4d11q3-d1e130">Sed contra, Hieronymus dicit et habetur de Consec., dist. 2: <quote xml:id="ta-l4d11q3-Qd1e132">dominus Jesus ipse
+              cum apostolis conviva et convivium; ipse comedens, et qui comeditur</quote>. Ergo ipse
+            corpus suum manducavit.</p>
+          <p xml:id="ta-l4d11q3-d1e136">Praeterea, sicut Christus instituit Baptismum, ita et hoc sacramentum. Sed ipse
+            baptizatus fuit. Ergo similiter debuit hoc sacramentum assumere.</p>
+          <p xml:id="ta-l4d11q3-d1e139">Respondeo dicendum, quod circa hoc est duplex opinio. Quidam enim dicunt, quod Christus
+            corpus suum in coena non manducavit, sed tantum manibus accepit; et nituntur solvere
+            auctoritates sanctorum qui contrarium dicunt, quod ipse manducavit et bibit in coena
+            ante consecrationem, sed non corpus suum. Sed expresse habetur Luc. 22, in Glossa super
+            illud: <quote xml:id="ta-l4d11q3-Qd1e141">desiderio desideravi</quote> etc., quod Christus comedit et bibit in
+            coena, cum corporis et sanguinis sui sacramentum discipulis tradidit; unde quia
+              <quote xml:id="ta-l4d11q3-Qd1e144">pueri communicaverunt carni et sanguini, et ipse participavit eisdem</quote>;
+            et propter hoc communius tenetur quod manducaverit, secundum quod sancti expresse dicere
+            videntur; unde et ab antiquis versus est factus: <quote xml:id="ta-l4d11q3-Qd1e147">rex sedet in caena, turba
+              cinctus duodena: se tenet in manibus, se cibat ipse cibus</quote>. Non autem
+            manducavit ut aliquem effectum consequeretur a sacramento, sed ut aliis manducandi
+            exemplum daret.</p>
+          <p xml:id="ta-l4d11q3-d1e151">Ad primum ergo dicendum, quod in acceptione panis potest utrumque intelligi, scilicet
+            et acceptio in manibus et manducatio.</p>
+          <p xml:id="ta-l4d11q3-d1e154">Ad secundum dicendum, quod Christus sub specie propria quodammodo distat a seipso sub
+            specie sacramenti; unde nunc in specie propria est in caelo, sed sub specie sacramenti
+            est in altari; et secundum hunc modum non est inconveniens quod seipsum assumat.</p>
+          <p xml:id="ta-l4d11q3-d1e158">Ad tertium dicendum, quod illa manducatio non efficiebat in ipso spiritualem
+            refectionem, sed significabat: nullus enim adeo perfecte in ipso reficitur, sicut
+            ipsemet.</p>
+          <p xml:id="ta-l4d11q3-d1e161">Ad quartum dicendum, quod Christus manducavit, ut dicitur, et sacramentaliter et
+            spiritualiter. Sacramentaliter quidem, quia verum corpus suum sub sacramento sumpsit.
+            Poterat enim in sacramento rem sacramenti inspicere non ex sacramento, ut etiam Deus
+            videt in effectibus causas, sed non ex effectibus. Spiritualiter autem, inquantum in re
+            sacramenti spiritualiter delectaretur. Non tamen haec spiritualis refectio ex sacramento
+            causabatur, nec augmentabatur; unde nec spiritualis manducatio erat in eo sicut in
+            aliis, nec sacramentalis. Et ideo quidam dixerunt, quod neque sacramentaliter neque
+            spiritualiter manducavit. Quidam quod sacramentaliter, sed non spiritualiter.</p>
+        </div>
+        <div xml:id="ta-l4d11q3-Dd1e165" type="articulus">
+          <head xml:id="ta-l4d11q3-Hd1e167">Articulus 2</head>
+
+          <head xml:id="ta-l4d11q3-Hd1e170" type="questionTitle">Utrum Christus corpus suum Judae dederit</head>
+          <div xml:id="ta-l4d11q3-Dd1e173">
+            <head xml:id="ta-l4d11q3-Hd1e175">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d11q3-d1e178">Ad secundum sic proceditur. Videtur quod Christus corpus suum Judae non dederit. Ipse
+              enim implevit quod mandavit. Sed mandaverat sanctum non esse canibus dandum, Matth. 7.
+              Ergo ipse non dedit Judae corpus suum sanctissimum.</p>
+            <p xml:id="ta-l4d11q3-d1e181">Praeterea, secundum Augustinum, Deus non est causa alicui quod deterior fiat. Sed si
+              Judas corpus Christi sumpsisset, ex hoc factus fuisset deterior, quia sumendo
+              peccasset. Ergo Christus corpus suum ei manducandum non dedit.</p>
+            <p xml:id="ta-l4d11q3-d1e184">Praeterea, sicut supra, dist. 9 quaest. 1, art. 1, quaestiunc. 1, dictum est, ideo
+              sacerdos debet peccatori dare, quia non est dominus, sed dispensator, et reddit quod
+              suum est exigenti. Sed Christus erat dominus sacramenti, nec Judas ibi jus habere
+              poterat, nisi quod Christus sibi daret. Ergo non debuit Judae corpus tradere.</p>
+            <p xml:id="ta-l4d11q3-d1e187">Praeterea, dominus dixit, quod discipuli bibentes bibituri essent secum illud novum
+              in regno patris sui, et quod erat eis in remissionem peccatorum. Sed neutrum Judae
+              competit. Ergo ipse non sumpsit; et haec est ratio Hilarii.</p>
+            <p xml:id="ta-l4d11q3-d1e191">Sed contra est quod Dionysius dicit: <quote xml:id="ta-l4d11q3-Qd1e193">symbolorum conditor partitur sanctissima
+                non unimode ei sacra concoenanti</quote>, scilicet Judae. Sanctissima autem dicit
+              corpus et sanguinem suum, ut ibidem patet. Ergo Judae dedit corpus suum.</p>
+            <p xml:id="ta-l4d11q3-d1e197">Praeterea, sine exceptione dicitur Matth. 26, 26: <quote xml:id="ta-l4d11q3-Qd1e199" ana="#mt26_26">accipite omnes, et
+                comedite</quote>. Ergo etiam Judae dedit.</p>
+          </div>
+          <div xml:id="ta-l4d11q3-Dd1e204">
+            <head xml:id="ta-l4d11q3-Hd1e206">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d11q3-d1e209">Ulterius. Videtur quod sub bucella corpus suum ei dedit. Dicit enim Augustinus de
+              Consec.: <quote xml:id="ta-l4d11q3-Qd1e211">non mala erat bucella quae data est Judae a domino. Salutem medicus
+                dedit; sed ille, quia indignus erat, accepit ad perniciem</quote>. Non autem fuisset
+              indignus, si bucella illa tantum panis fuisset. Ergo illa bucella erat corpus
+              Christi.</p>
+            <p xml:id="ta-l4d11q3-d1e215">Praeterea, Diabolum intrare in hominem est effectus peccati. Sed Joan. 13, dicitur,
+              quod post bucellam introivit in eum Satanas. Ergo accipiendo bucellam, peccavit: ergo
+              bucella erat corpus Christi.</p>
+            <p xml:id="ta-l4d11q3-d1e218">Sed contra est quod habetur in Glossa Joan. 14, super illud: <quote xml:id="ta-l4d11q3-Qd1e220">cui intinctum
+                panem porrexero</quote> et cetera.</p>
+          </div>
+          <div xml:id="ta-l4d11q3-Dd1e225">
+            <head xml:id="ta-l4d11q3-Hd1e227">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d11q3-d1e230">Respondeo dicendum ad primam quaestionem, quod secundum Augustinum, Christus corpus
+              suum in coena cum aliis discipulis Judae dedit, ut nobis exemplum daret quod
+              peccatoribus occultis non essent sacramenta deneganda, et ut omnem occasionem ei
+              auferret male faciendi, quam assumere potuisset, si in aliquo ab aliis discipulis ante
+              apertam malitiam fuisset discretus. Hilarius tamen contrarium dicere videtur. Sed
+              primum communius tenetur.</p>
+            <p xml:id="ta-l4d11q3-d1e233">Ad primum ergo dicendum, quod quamvis Judas in rei veritate canis esset, tamen non in
+              manifesto; et ideo noluit eum detegere coram aliis discipulis, ne desperationem
+              incurreret, et sic liberius peccaret.</p>
+            <p xml:id="ta-l4d11q3-d1e236">Ad secundum dicendum, quod Christus non dedit causam nec occasionem Judae peccandi,
+              sed peccatum evitandi ex mansuetudinis suae ostensione ad ipsum; sed ipse ex vitali
+              medicina sumpsit periculum mortis.</p>
+            <p xml:id="ta-l4d11q3-d1e239">Ad tertium dicendum, quod illa non est sola causa, sed etiam ne peccatorem occultum
+              prodat.</p>
+            <p xml:id="ta-l4d11q3-d1e243">Ad quartum dicendum, quod Judas bibit cum aliis sacramentaliter, sed non
+              spiritualiter; unde nec remissionem peccatorum consecutus est, nec in regno patris
+              secum bibit: quia potus ille tantum spiritualiter bibentibus debetur.</p>
+          </div>
+          <div xml:id="ta-l4d11q3-Dd1e248">
+            <head xml:id="ta-l4d11q3-Hd1e250">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d11q3-d1e253">Ad secundam quaestionem dicendum, quod Christus primo Judae dedit corpus suum cum
+              aliis discipulis; sed postea bucella intincta in ostensionem proditionis ejus ei
+              porrecta, purus panis fuit, sicut patet ex Glossa inducta.</p>
+            <p xml:id="ta-l4d11q3-d1e256">Ad primum ergo dicendum, quod Augustinus loquitur non de bucella intincta, sed de eo
+              quod prius cum aliis discipulis acceperat. Vel dicendum, quod dicitur ad perniciem
+              assumpsisse, quia quod Christus ad salutem suam fecerat porrigendo bucellam, ut videns
+              se deprehensum, ab iniquo proposito desisteret, ille ex hoc magis exasperatus
+              fuit.</p>
+            <p xml:id="ta-l4d11q3-d1e259">Ad secundum dicendum, quod in comestione bucellae intinctae, peccatum Judae
+              augmentatum fuit vel ex hoc quod exasperatus est magis, vel propter praesumptionem qua
+              cum magistro in catinum manum mittebat, ut audacia bonam conscientiam mentiretur, ut
+              dicitur Matth. 26, super illud: <quote xml:id="ta-l4d11q3-Qd1e261">qui intingit manum mecum</quote> etc., et
+              ratione hujus augmenti dicitur Diabolus post bucellam in eum intrasse; jam praemissum
+              erat enim in Evangelio, quod Diabolus immiserat in cor Judae Simonis Scarioth, ut
+              traderet eum.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d11q3-Dd1e267" type="articulus">
+          <head xml:id="ta-l4d11q3-Hd1e269">Articulus 3</head>
+
+          <head xml:id="ta-l4d11q3-Hd1e272" type="questionTitle">Utrum Christus in coena discipulis suis corpus impassibile
+            dedit</head>
+
+          <p xml:id="ta-l4d11q3-d1e275">Ad tertium sic proceditur. Videtur quod Christus in coena discipulis suis corpus
+            impassibile dedit. Quia super illud Matth. 17: <quote xml:id="ta-l4d11q3-Qd1e277">transfiguratus est ante
+              eos</quote>, dicit Glossa: <quote xml:id="ta-l4d11q3-Qd1e280">illud corpus quod habuit per naturam, dedit
+              discipulis in coena, non mortale et corruptibile</quote>.</p>
+          <p xml:id="ta-l4d11q3-d1e284">Praeterea, Lev. 2, super illud: <quote xml:id="ta-l4d11q3-Qd1e286">si oblatio tua fuerit de sartagine</quote> etc.,
+            dicit Glossa: <quote xml:id="ta-l4d11q3-Qd1e289">crux super omnia fortis carnem Christi, quae ante passionem non
+              videbatur esui apta, post aptam fecit</quote>. Sed Christus in coena dedit carnem suam
+            ut aptam ad manducandum. Ergo dedit eam talem qualis fuit post passionem. Sed post
+            passionem suam fuit impassibilis. Ergo dedit corpus suum impassibile.</p>
+          <p xml:id="ta-l4d11q3-d1e293">Praeterea, passibile trahitur ad naturam agentis. Sed Christus in coena dedit corpus
+            suum in cibum, non qui in alios mutaretur, sed qui alios in se mutaret. Ergo non dedit
+            corpus suum passibile.</p>
+          <p xml:id="ta-l4d11q3-d1e297">Praeterea, omne corpus passibile ex contactu patitur. Sed corpus Christi a discipulis
+            manducatum non laedebatur. Ergo non erat passibile.</p>
+          <p xml:id="ta-l4d11q3-d1e300">Sed contra, Innocentius dicit: <quote xml:id="ta-l4d11q3-Qd1e302">tale corpus tunc dedit quale habuit</quote>,
+            scilicet passibile.</p>
+          <p xml:id="ta-l4d11q3-d1e306">Praeterea, constat quod Christus discipulis verum corpus suum tradidit. Corpus autem
+            suum verum erat passibile. Si ergo corpus datum erat impassibile, idem erat passibile et
+            impassibile; quod non est possibile.</p>
+          <p xml:id="ta-l4d11q3-d1e309">Respondeo dicendum, quod circa hoc duplex fuit opinio. Hugo enim de s. Victore dicere
+            voluit, quod Christus adhuc existens in carne mortali quandoque unam dotem, quandoque
+            aliam legitur accepisse; sicut claritatem in transfiguratione, subtilitatem in
+            nativitate, agilitatem quando super mare ambulavit; et similiter impassibilitatem quando
+            corpus suum in coena dedit. Non quidem nec tunc simpliciter erat impassibile; sed erat
+            impassibile secundum quod in sacramento dabatur, quia masticatione non laedebatur; sicut
+            etiam in se erat visibile; sed secundum quod in sacramento dabatur, erat invisibile. Sed
+            istud non potest stare; quia substantia corporis Christi eadem est in sacramento et in
+            specie propria; sed comparatio ejus ad exteriora non est eadem; quia in specie propria
+            comparatur ad exteriora secundum situm propriarum dimensionum; sed in sacramento
+            secundum situm dimensionum panis; unde illae proprietates quae insunt absolute corpori
+            Christi, oportet quod eodem modo insint sibi secundum quod est in sacramento, et
+            secundum quod est in specie propria; sed illae quae conveniunt ei ex comparatione ad
+            aliud corpus extra, non eodem modo, sicut patet de visione. Sed passibilitas est
+            proprietas absolute ipsius corporis; unde cum in propria specie esset passibile, et in
+            sacramento passibile erat, ut alii dicunt, quamvis ibi non pateretur.</p>
+          <p xml:id="ta-l4d11q3-d1e312">Ad primum ergo dicendum, quod dicitur corpus Christi in sacramento non mortale, non
+            passibile, quia per sacramentalem sumptionem non patiebatur neque moriebatur.</p>
+          <p xml:id="ta-l4d11q3-d1e315">Ad secundum dicendum, quod caro Christi non est apta esui nisi prout est sub
+            sacramento; et quia sacramentum hoc est repraesentativum passionis Christi, ideo dicitur
+            quod crux fecit eam esui aptam.</p>
+          <p xml:id="ta-l4d11q3-d1e319">Ad tertium dicendum, quod non ratione passibilitatis, sed virtute divinitatis unitae,
+            habebat corpus Christi quod alios in se converteret.</p>
+          <p xml:id="ta-l4d11q3-d1e322">Ad quartum dicendum, quod masticatio importat respectum corporis Christi ad aliud
+            extra; et ideo quantum ad hoc non comparatur ad manducantem secundum dimensiones
+            proprias, sed secundum dimensiones panis; et inde est quod nunc non laeditur per
+            masticationem, nisi ratione impassibilitatis, quae in ipso corpore nunc est.</p>
+        </div>
+        <div xml:id="ta-l4d11q3-Dd1e327" type="articulus">
+          <head xml:id="ta-l4d11q3-Hd1e329">Articulus 4</head>
+
+          <head xml:id="ta-l4d11q3-Hd1e332" type="questionTitle">Utrum corpus Christi, si fuisset in pixide servatum, non ibi
+            moreretur</head>
+          <div xml:id="ta-l4d11q3-Dd1e335">
+            <head xml:id="ta-l4d11q3-Hd1e337">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d11q3-d1e340">Ad quartum sic proceditur. Videtur quod corpus Christi, si fuisset in pixide
+              servatum, non ibi moreretur. Corpus enim Christi non est mortuum nisi crucifixione.
+              Sed ibi non crucifigebatur. Ergo et ibi non moriebatur.</p>
+            <p xml:id="ta-l4d11q3-d1e343">Praeterea, actio Judaeorum erat causa mortis Christi, et sanguinis effusio. Sed ibi
+              non effudisset sanguinem, nec actio Judaeorum ibi fuisset. Ergo non fuisset ibi
+              mortuum.</p>
+            <p xml:id="ta-l4d11q3-d1e346">Sed contra, unum et idem corpus fuisset tunc in pixide et in cruce. Sed in cruce
+              moriebatur. Ergo et in pixide.</p>
+          </div>
+          <div xml:id="ta-l4d11q3-Dd1e350">
+            <head xml:id="ta-l4d11q3-Hd1e352">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d11q3-d1e355">Ulterius. Videtur quod si post mortem Christi aliquis apostolorum confecisset hoc
+              sacramentum, fuisset ibi anima Christi; fuisset enim aliter imperfectum sacramentum.
+              Sed de perfectione sacramenti est non solum corpus, sed etiam anima; quia totus
+              Christus in sacramento continetur. Ergo ibi fuisset anima.</p>
+            <p xml:id="ta-l4d11q3-d1e358">Praeterea, verba formae non fuissent tunc minoris virtutis quam modo. Sed modo ex vi
+              formae conficitur corpus cum anima. Ergo et cetera.</p>
+            <p xml:id="ta-l4d11q3-d1e361">Sed contra, corpus Christi non est perfectius sub specie sacramenti quam sub specie
+              propria. Sed tunc corpus Christi erat exanime. Ergo et sub sacramento.</p>
+          </div>
+          <div xml:id="ta-l4d11q3-Dd1e365">
+            <head xml:id="ta-l4d11q3-Hd1e367">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d11q3-d1e370">Ulterius. Videtur quod Deus facere potuerit quod tunc anima esset corpori Christi in
+              sacramento existenti unita. Anima enim Christi majorem convenientiam habebat ad corpus
+              proprium quam ad Infernum. Sed anima separata a corpore Christi jacente in sepulcro
+              fuit in Inferno. Ergo similiter potuisset esse in loco illo ubi corpus Christi sub
+              sacramento conservabatur.</p>
+            <p xml:id="ta-l4d11q3-d1e373">Praeterea, corpus Christi, quia est divinitati adjunctum, potest esse in sacramento,
+              et in specie propria. Ergo et anima, cum sit divinitati unita, poterat esse simul in
+              Inferno, et in corpore Christi sub sacramento.</p>
+            <p xml:id="ta-l4d11q3-d1e376">Sed contra, ex hoc sequeretur quod contradictoria essent simul vera, si corpus
+              Christi esset simul animatum et inanimatum. Sed hoc Deus facere non potest, ut
+              Augustinus dicit contra Faustum. Ergo nec primum.</p>
+          </div>
+          <div xml:id="ta-l4d11q3-Dd1e381">
+            <head xml:id="ta-l4d11q3-Hd1e383">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d11q3-d1e386">Respondeo dicendum ad primam quaestionem, quod omnia verba quae significant passionem
+              ab extrinseco illatam, non possunt attribui corpori Christi prout est sub sacramento;
+              cujus ratio ex dictis apparet; unde non potest dici, quod in pixide crucifigeretur vel
+              verberaretur, vel aliquid hujusmodi. Nec ex hoc sequitur quod duo contradictoria sint
+              simul vera; quia non secundum idem comparatur ad extra corpus Christi hic et ibi.
+              Omnia autem verba quae significant passionem innatam, conveniunt ei, ut dolet,
+              patitur, et cetera hujusmodi; et similiter potest dici, quod in altari moritur; unde
+              versus: <quote xml:id="ta-l4d11q3-Qd1e388">pixide servato poteris copulare dolorem innatum; sed non illatus
+                convenit illi</quote>.</p>
+            <p xml:id="ta-l4d11q3-d1e392">Ad primum ergo dicendum, quod passiones extrinsecae pertingunt ad substantiam
+              corporis Christi mediantibus dimensionibus propriis; et ideo propter impressiones
+              extrinsecas quae ad species panis pertinent, nulla passio intrinseca corpori Christi
+              attribuitur; sed propter impressiones extrinsecas ad dimensiones proprias pertinentes
+              attribuuntur passiones corpori Christi, et extrinsecae sub specie propria tantum, et
+              intrinsecae etiam sub specie aliena; et ideo propter crucifixionem in Calvariae loco
+              factam, corpus Christi verum servatum moriebatur sub specie propria, et sub
+              sacramento.</p>
+            <p xml:id="ta-l4d11q3-d1e395">Et per hoc patet solutio ad secundum; quia actio Judaeorum extrinseca erat; fluxus
+              etiam sanguinis ad motum localem pertinet, et sic importat ordinem ad aliquid
+              extra.</p>
+          </div>
+          <div xml:id="ta-l4d11q3-Dd1e399">
+            <head xml:id="ta-l4d11q3-Hd1e401">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d11q3-d1e404">Ad secundam quaestionem dicendum, quod cum animatio sit proprietas intrinseca,
+              constat quod sicut corpus Christi in specie propria erat exanime, ita sub sacramento.
+              Unde si corpus Christi fuisset ab ullo discipulorum consecratum, non fuisset ibi
+              anima. Quidam autem dicunt, quod forma fuit suspensa in illo triduo; et quod si primo
+              consecratum, fuisset reservatum, desineret ibi esse Christo mortuo. Sed haec frivola
+              sunt; quia nec ratione nec auctoritate confirmantur.</p>
+            <p xml:id="ta-l4d11q3-d1e407">Ad primum ergo dicendum, quod, sicut supra dictum est, dist. 10, anima non est ibi ex
+              vi sacramenti, sed propter concomitantiam ad corpus; et ideo corpore sine anima
+              existente, nihil deperit perfectioni sacramenti, si anima ibi non contineatur.</p>
+            <p xml:id="ta-l4d11q3-d1e410">Ad secundum dicendum, quod hoc non est propter defectum virtutis verborum, sed
+              propter diversam dispositionem corporis Christi.</p>
+          </div>
+          <div xml:id="ta-l4d11q3-Dd1e414">
+            <head xml:id="ta-l4d11q3-Hd1e416">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d11q3-d1e419">Ad tertiam quaestionem dicendum, quod Deus bene poterat facere quod anima Christi a
+              corpore separata jacente in sepulcro, esset in loco ubi erat corpus sub sacramento,
+              quia hoc importat respectum ad extra; sed non quod esset ei unita sub sacramento sicut
+              forma, quia hoc pertinet ad dispositionem interiorem; unde inevitabiliter sequeretur
+              duo contradictoria esse simul.</p>
+            <p xml:id="ta-l4d11q3-d1e422">Ad primum ergo dicendum, quod ratio illa non concludit, nisi quod esset ibi sicut in
+              loco; et hoc Deus bene potuit facere.</p>
+            <p xml:id="ta-l4d11q3-d1e425">Et similiter etiam dicendum ad secundum. Tamen non est haec causa quare corpus
+              Christi potest esse aliquo modo in diversis locis, quia est divinitati unitum; sed
+              ratione conversionis alterius corporis in ipsum factae, quae non fit in animam.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d11q3-Dd1e430">
+          <head xml:id="ta-l4d11q3-Hd1e432">Expositio textus</head>
+          <p xml:id="ta-l4d11q3-d1e435"><quote xml:id="ta-l4d11q3-Qd1e436">De materia de qua in conceptione non fuit factum</quote>. Patet quod ex
+            aequivocatione hujus praepositionis de procedunt: quia cum dicitur: de pane fit corpus
+            Christi, ly de non denotat habitudinem causae materialis, sed solum ordinem mutationis
+            terminorum. <quote xml:id="ta-l4d11q3-Qd1e439">Investigari salubriter non potest</quote>, scilicet ut aliquis
+            comprehendere nitatur: quia praesumptuosum est et periculosum, dum aliquis non vult plus
+            credere quam ratione videri potest; sed investigare pro defensione fidei, utile est.
+              <quote xml:id="ta-l4d11q3-Qd1e442">Quis fidelium habere dubium possit in ipsa immolationis hora ad sacerdotis
+              vocem caelos aperiri?</quote> et cetera. Dicuntur caeli aperiri in ipsa immolationis
+            hora propter efficaciam divinae virtutis, quae operatur in sacramento; summa imis
+            sociari, quia ex speciebus et corpore Christi fit unum sacramentum; et iterum membra
+            capiti uniuntur; et iterum in caelum rapitur corpus Christi, inquantum fidelium devotio
+            non sistit in specie sacramenti, sed fertur usque ad Christum, secundum quod est in
+            caelo sub specie propria, per desiderium. <quote xml:id="ta-l4d11q3-Qd1e445">Vinum operatur sanguinem, in quo est
+              sedes animae</quote>. Hoc potest intelligi tripliciter. Uno modo ut sedes animae
+            dicatur conservatio vitae, quae est per sanguinem. Alio modo quia sanguis est potentia
+            totum, quia per actum virtutis nutritivae in membra convertitur. Tertio modo quia per
+            sanguinem in corde generatum vitalis operatio in omnia membra diffunditur, ut
+            philosophus in Lib. de animalibus dicit. <quote xml:id="ta-l4d11q3-Qd1e448">Caro pro corpore vestro
+            offertur</quote>, hoc intelligendum est per quamdam adaptationem de salute corporis,
+            quae erit per gloriam resurrectionis, ad quam hoc sacramentum operatur. <quote xml:id="ta-l4d11q3-Qd1e451">Nec debet
+              iterari sacramentum</quote>, quantum ad id quod est principale in hoc sacramento,
+            scilicet consecratio materiae, quamvis iteretur quantum ad usum. <quote xml:id="ta-l4d11q3-Qd1e455">Ut mixtio illa
+              non possit separari</quote>. Sed contra. Alchimistae dicunt, quod per immissionem
+            junci decorticati potest separari. Et dicendum, quod a vino aufertur substantia aquae
+            quae ibi est, propter similitudinem junci, quod etiam porosum est; non tamen illa aqua
+            quae fuit apposita, separatur, quia jam facta est vinum. <quote xml:id="ta-l4d11q3-Qd1e458">Nobis vero non potest
+              ignosci</quote>, idest, peccatum nostrum non haberet in se causam veniae, cum non ex
+            ignorantia procederet. <quote xml:id="ta-l4d11q3-Qd1e461">Aqua vero nullatenus sine vino potest offerri in
+              sacrificium</quote>. Si autem per errorem contingat ut aqua loco vini ponatur, si ante
+            consecrationem vini percipiat, debet aquam effundere, et vinum imponere. Si autem post,
+            debet incipere consecrationem vini, alio vino super infuso, contritione de negligentia
+            praehabita; vel etiam a capite canonem inchoare super alia hostia, hostia prius
+            consecrata posita seorsum, ut Innocentius dicit.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

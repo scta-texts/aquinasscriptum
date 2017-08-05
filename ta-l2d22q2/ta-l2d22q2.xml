@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum II, Distinctio 22, Quaestio 2</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.09-dev-master">
+          <title>Librum II, Distinctio 22, Quaestio 2</title>
+          <date when="2016-03-17">March 17, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-17">March 17, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p>1856 editum</p>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="2015.09">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+
+
+
+
+      <div xml:id="starts-on"> </div>
+    </front>
+    <body>
+      <div xml:id="ta-l2d22q2">
+        <head xml:id="ta-l2d22q2-Hd1e89">Librum II, Distinctio 22, Quaestio 2</head>
+        <div xml:id="ta-l2d22q2-Dd1e92">
+          <head xml:id="ta-l2d22q2-Hd1e94">Prooemium</head>
+          <p xml:id="ta-l2d22q2-d1e97">Deinde quaeritur de ignorantia de qua fit mentio in littera; et quaeruntur duo: 1 an
+            ignorantia peccatum sit; 2 an peccatum excuset.</p>
+        </div>
+        <div xml:id="ta-l2d22q2-Dd1e101" type="articulus">
+          <head xml:id="ta-l2d22q2-Hd1e103">Articulus 1</head>
+
+          <head xml:id="ta-l2d22q2-Hd1e106" type="questionTitle">Utrum ignorantia sit peccatum</head>
+
+          <p xml:id="ta-l2d22q2-d1e109">Ad primum sic proceditur. Videtur quod ignorantia peccatum non sit. Omne enim peccatum,
+            ut Augustinus dicit, est in voluntate. Ignorantia autem est intellectu. Ergo non est
+            peccatum.</p>
+          <p xml:id="ta-l2d22q2-d1e112">Praeterea, omne peccatum est originale vel actuale. Sed ignorantia non est originale
+            peccatum, sed magis concupiscentia, ut infra dicetur: nec etiam est actuale, quia non
+            est dictum vel factum vel concupitum contra legem Dei. Ergo ignorantia non est
+            peccatum.</p>
+          <p xml:id="ta-l2d22q2-d1e115">Praeterea, omne peccatum consistit in defectu alicujus actus, et non in defectu
+            alicujus habitus: alias aliquis dormiendo peccaret. Ignorantia autem magis opponitur
+            habitui quam actui. Ergo idem quod prius.</p>
+          <p xml:id="ta-l2d22q2-d1e119">Praeterea, ignorans in ignorantia sua continue manet. Si ergo ipsum ignorare peccatum
+            esset, videtur quod continue peccaret; non enim apparet ratio quare magis nunc sit
+            peccatum quam prius. Sed hoc videtur grave dicere. Ergo videtur quod ignorantia non sit
+            peccatum.</p>
+          <p xml:id="ta-l2d22q2-d1e122">Praeterea, Augustinus, ubi supra, dicit, quod omne peccatum est voluntarium. Ignorantia
+            autem non est voluntarium, cum ab hominibus naturaliter scientia desideretur, secundum
+            philosophum. Ergo non est peccatum.</p>
+          <p xml:id="ta-l2d22q2-d1e125">Sed contra est quod 1 Corinth. 14, 38, dicitur: <quote xml:id="ta-l2d22q2-Qd1e127">qui ignorat,
+            ignorabitur</quote>; et loquitur de ignorantia reprobationis. Sed nulli debetur
+            reprobatio nisi pro peccato mortali. Ergo ignorantia est peccatum mortale.</p>
+          <p xml:id="ta-l2d22q2-d1e131">Praeterea, Isaiae 5, 13, dicitur: <quote xml:id="ta-l2d22q2-Qd1e133">propterea captivus ductus est populus meus,
+              quia non habuit scientiam</quote>. Sed poena non debetur nisi culpae. Ergo carere
+            scientia, est culpa.</p>
+          <p xml:id="ta-l2d22q2-d1e137">Respondeo, quod quidam dixerunt, nullam ignorantiam, quantum in se est, culpam esse,
+            sed ratione alicujus annexi, vel praecedentis vel sequentis: praecedentis, ut causae,
+            scilicet negligentiae addiscendi; sequentis, ut effectus, scilicet alicujus inordinati
+            actus, qui ignorantiam sequitur. Sed quia de ratione culpae non est plus, nisi quod sit
+            privatio alicujus quod debitum est haberi, in potestate ejus qui privatur, existens;
+            ideo etiam ipsam ignorantiam secundum se possumus culpam dicere; si tamen ignorantia
+            privative et non negative accipiatur: et dico ignorantiam privative acceptam quae est
+            ejus quidem quod quis natus est addiscere, quidquid sit illud: non enim idem est quod
+            omnes scire tenentur, cum ad plura scienda quidam magis aliis teneantur; unde aliqua
+            ignorantia est peccatum uni quae non est peccatum alteri: unicuique enim peccatum est
+            ignorantia eorum quae ad bonos mores et fidei veritatem pertinent; sed alicui in officio
+            constituto est etiam peccatum ignorantia eorum quae ad suum officium pertinent. Nec est
+            mirum, si hoc ipsum quod est scientia carere, peccatum est ei qui potest et tenetur
+            habere; cum etiam carere aliquo corporali ad officium pertinente peccatum sit, ut
+            tonsura, vel veste ad officium accommodata; et quod ista in se peccata sint, poena
+            ostendit quae pro eis juste infligitur.</p>
+          <p xml:id="ta-l2d22q2-d1e140">Ad primum ergo dicendum, quod esse in voluntate contingit dupliciter: vel sicut in
+            subjecto; et hoc modo non omne peccatum in voluntate est; aliquod enim est in
+            concupiscibili vel irascibili, et sic de aliis viribus; vel sicut in causa, ut scilicet
+            ipsa voluntas sit domina ejus quod in ea esse dicitur, quasi in ejus potestate existens;
+            et hoc modo omne peccatum in voluntate est, etiam ignorantia: ipsa enim voluntas imperat
+            aliis viribus et intellectui; unde actus aliarum virium sunt in potestate voluntatis, et
+            defectus earum, scilicet solum illi qui rationi obediunt.</p>
+          <p xml:id="ta-l2d22q2-d1e144">Ad secundum dicendum, quod ignorantia non est originale peccatum (non enim ignorantia
+            imputatur puero in peccatum, antequam ad tempus deputatum venerit), sed est peccatum
+            actuale eo modo quo omissio peccatum actuale dicitur; et eodem modo convenit peccati
+            actualis descriptio ignorantiae sicut omissioni; quod qualiter sit, infra dicetur.</p>
+          <p xml:id="ta-l2d22q2-d1e147">Ad tertium dicendum, quod quamvis scientia, cui opponitur ignorantia, non sit actus qui
+            est operatio, sed habitus; tamen per operationem aliquam quae est in potestate
+            voluntatis acquiritur; et ideo hoc ipsum quod est scientiam habere, voluntati subjectum
+            est; et per consequens hoc quod est scientia carere; et inde est quod culpae rationem
+            habet.</p>
+          <p xml:id="ta-l2d22q2-d1e150">Ad quartum dicendum, quod peccatum omissionis non habet rationem culpae nisi ex hoc
+            quod opponitur praecepto affirmativo legis naturalis vel scriptae. Praeceptum autem
+            affirmativum obligat semper, sed non ad semper; et ideo omnis omissio pro illo tempore
+            est peccatum in actu in quo quis per praeceptum obligatur; et quoties illud tempus
+            revertitur, toties peccatum multiplicatur.</p>
+          <p xml:id="ta-l2d22q2-d1e153">Ad quintum dicendum, quod quamvis omnis homo naturaliter scientiam desideret et
+            scientiam velit, non tamen omnes volunt id per quod ad scientiam pervenitur; et sic
+            quodammodo ignorantia voluntarium efficitur, non per se, sed per accidens, sicut et
+            quodlibet malum.</p>
+        </div>
+        <div xml:id="ta-l2d22q2-Dd1e157" type="articulus">
+          <head xml:id="ta-l2d22q2-Hd1e159">Articulus 2</head>
+
+          <head xml:id="ta-l2d22q2-Hd1e162" type="questionTitle">Utrum ignorantia excuset peccatum</head>
+
+          <p xml:id="ta-l2d22q2-d1e165">Ad secundum sic proceditur. Videtur quod ignorantia peccatum non excuset. Primo per hoc
+            quod dicit Glossa Ambrosii Rom. 2: <quote xml:id="ta-l2d22q2-Qd1e167">gravissime peccat, si ignorat</quote>. Sed
+            quod aggravat peccatum, non excusat. Ergo ignorantia non excusat peccatum.</p>
+          <p xml:id="ta-l2d22q2-d1e171">Praeterea, qui per ebrietatem hominem occidit, constat quod per ignorantiam peccat. Sed
+            secundum philosophum in 3 Ethic., talis meretur duplices mulctationes. Ergo ignorantia
+            non excusat, sed aggravat.</p>
+          <p xml:id="ta-l2d22q2-d1e174">Praeterea, peccatum additum peccato non excusat, sed aggravat. Sed ignorantia peccatum
+            est, ut dictum est supra. Peccatum ergo non excusat.</p>
+          <p xml:id="ta-l2d22q2-d1e178">Praeterea, illud quod consequitur omne peccatum, non potest excusare vel alleviare
+            peccatum; quia sic de quolibet excusaret. Sed ignorantia sequitur omne peccatum; quia
+            omnis malus est ignorans, secundum philosophum in 3 Ethic., ut supra. Ergo idem quod
+            prius.</p>
+          <p xml:id="ta-l2d22q2-d1e181">Praeterea, ut Beda dicit, quatuor sunt poenalitates quae nos ex peccato primi hominis
+            consequuntur, scilicet ignorantia, infirmitas, concupiscentia, et malitia. Sed malitia
+            non excusat, sed aggravat peccatum, nec etiam concupiscentia. Ergo videtur quod nec
+            ignorantia nec infirmitas.</p>
+          <p xml:id="ta-l2d22q2-d1e184">Sed contra est quod apostolus dicit, 1 Timoth. 1, 13: <quote xml:id="ta-l2d22q2-Qd1e186">misericordiam consecutus
+              sum, quia ignorans feci</quote>. Sed nihil provocat ad misericordiam nisi peccatum
+            excuset vel alleviet. Ergo ignorantia excusat vel alleviat peccatum.</p>
+          <p xml:id="ta-l2d22q2-d1e190">Praeterea, omne peccatum est voluntarium, secundum Augustinum. Ergo quod tollit vel
+            diminuit rationem voluntarii, excusat vel alleviat peccatum. Sed ignorantia est
+            hujusmodi, quia involuntarium per ignorantiam causatur, ut philosophus in 3 Ethic.,
+            dicit. Ergo ignorantia vel excusat vel alleviat peccatum.</p>
+          <p xml:id="ta-l2d22q2-d1e193">Respondeo dicendum, quod ignorantia quaedam ex toto excusat peccatum; quaedam vero
+            alleviat in parte; quaedam vero nec in toto excusat, nec in parte alleviat. Et ad
+            hujusmodi evidentiam sciendum est, quod ignorantiae divisio tripliciter potest sumi.
+            Primo ex parte ipsius scientis; quia quaedam est in potestate scientis, et haec dicitur
+            ignorantia vincibilis, vel affectata; quaedam autem non est in potestate ejus, et haec
+            dicitur invincibilis. Sed hoc quod ignorantia sit in potestate ejus qui ignorat,
+            contingit dupliciter: quia vel est in potestate ejus secundum se, sicut qui ignorat
+            aliquod praeceptum quod statim scire posset; vel est in potestate ejus quantum ad suam
+            causam, licet non in se; ut patet in ignorantia ebrii; quia ebrietas quae est causa
+            ignorantiae, in potestate ejus fuit; non autem ignorantia consequens, cum usus rationis
+            impediatur. Secundo sumitur divisio ignorantiae ex parte scibilis. Est enim quaedam
+            ignorantia ejus quod quis scire tenetur, et haec dicitur secundum philosophum ignorantia
+            universalis, et secundum jurisperitos ignorantia juris; et haec variatur in diversis, ut
+            supra dictum est: quia quaedam tenetur scire unus quae non tenetur scire alius. Quaedam
+            vero ignorantia est ejus quod quis scire non tenetur, et haec est scientia particularium
+            circumstantiarum in actu, quam philosophus vocat ignorantiam particularis, juristae vero
+            ignorantiam facti. Tertia divisio sumitur ex ordine ad actum. Quaedam enim ignorantia
+            est quae est causa actus, quia si non ignoraret, non faceret; et tunc dicitur per
+            ignorantiam peccare; et hujus signum est poenitentia de actu. Quaedam vero est
+            ignorantia quae non est causa actus, sed per accidens se habet ad actum; et secundum
+            hanc, ut philosophus in 3 Ethic. dicit, non dicitur aliquis per ignorantiam facere, sed
+            ignorans; unde in actu talis non poenitet: ut si aliquis credens accedere ad unam
+            mulierem, accedat ad aliam, ad quam tamen accederet, si eam non ignorasset. Quaedam vero
+            ignorantia est quae quodammodo affectum peccati consequitur, ut quando ex concupiscentia
+            peccati, quam voluntas non reprimit, absorbetur judicium rationis de particulari
+            operabili, secundum quod dicitur in 6 Ethic., quod delectatio corrumpit existimationem
+            prudentiae: et haec est ignorantia electionis, secundum quam omnis malus dicitur
+            ignorans. His ergo visis, sciendum est, quod ignorantia non excusat nec minuit peccatum
+            nisi secundum quod causat involuntarium: non enim potest esse voluntarium quod est
+            ignoratum. Ignorantia autem quae non est causa actus, non causat involuntarium, ut
+            philosophus dicit in 3 Ethic.; unde illa nullo modo excusat nec diminuit peccatum; sed
+            solum illa quae est causa actus. Haec autem potest excusare peccatum vel in toto vel in
+            parte. Si enim sit talis ignorantia cui nullo modo admisceatur ratio culpae, ex eo quod
+            ignorantia est, sic excusat in toto, sicut ignorantia invincibilis et ignorantia
+            particularis, adhibita tamen debita diligentia. Ignorantia vero quae rationem culpae
+            habet, excusat quidem quantum ad aliquid, scilicet inquantum ignorantia est; quia sic
+            habet quod involuntarium causet; non autem excusat inquantum culpa est, quia sic
+            rationem voluntarii retinet: et ideo ignorantia universalis excusat peccatum sequens non
+            ex toto, sed a tanto. Similiter etiam ignorantia vincibilis, sit sive secundum se
+            vincibilis, sive secundum causam suam, dum tamen rei illicitae operam non dederit quando
+            ignorantiam incurrit: si enim operam rei licitae dedisset moderate, ignorantia sequens
+            culpam non haberet: et ita potest sequens peccatum ex toto excusare, ut patet in his qui
+            exercitio spiritualium operationum in amentiam vertuntur.</p>
+          <p xml:id="ta-l2d22q2-d1e196">Ad primum ergo dicendum, quod ignorans dicitur gravissime peccare, non propter
+            quantitatem peccati, sed propter periculum: quia dum morbum non cognoscit, medicinam non
+            quaerit. Vel dicendum, quod Ambrosius loquitur de gravitate peccati quod est ignorantia
+            ipsa beneficiorum Dei, quod est gravissimum inter species ingratitudinis, cum scilicet
+            homo beneficium non recognoscit.</p>
+          <p xml:id="ta-l2d22q2-d1e200">Ad secundum dicendum, quod ebrius homicida duobus peccatis peccat, scilicet ebrietate,
+            et homicidio: propter quod dicitur, duplices mulctationes mereri. Nihil tamen prohibet
+            quin quantitas sequentis peccati per ignorantiam ex praecedenti consequentem minuatur.
+            Unde in processu argumenti est figura dictionis, quia mutatur discretum in
+            continuum.</p>
+          <p xml:id="ta-l2d22q2-d1e203">Ad tertium dicendum, quod ignorantia omnis quae est peccatum, est in intellectu sicut
+            in subjecto, et in voluntate sicut in causa, ut supra dictum est; unde secundum hoc quod
+            est in intellectu, prout scilicet privat directam scientiam in actu, minuit quantitatem
+            sequentis peccati, nec ex eo habet quod peccatum sit; sed prout est in voluntate, sicut
+            in causa, habet quod peccatum sit: et sic non habet quod excuset, sed quod ad peccatum
+            addat: et potest esse quandoque quod plus ponderat ipsum peccatum ignorantiae quam illud
+            quod per ignorantiam de sequenti peccato minuitur.</p>
+          <p xml:id="ta-l2d22q2-d1e206">Ad quartum dicendum, quod ignorantia quae consequitur omne peccatum, non est causa
+            peccati, ut dictum est, et ideo non excusat nec diminuit peccatum.</p>
+          <p xml:id="ta-l2d22q2-d1e209">Ad quintum dicendum, quod ignorantia et infirmitas habent quod excusent peccatum vel in
+            toto vel in parte, ex hoc quod causant involuntarium; malitia vero et concupiscentia
+            magis voluntarium augent, et ideo non excusant, sed aggravant peccatum; et hoc dico si
+            concupiscentia sumatur pro actu voluntatis: si vero sumatur pro passione concupiscibilis
+            trahente voluntatem quodammodo renitentem, sic concupiscentia excusat: quia quanto
+            aliquis majori tentationi succumbit, minus peccat; sed hoc ad infirmitatem
+            reducitur.</p>
+        </div>
+        <div xml:id="ta-l2d22q2-Dd1e213">
+          <head xml:id="ta-l2d22q2-Hd1e215">Expositio textus</head>
+          <p xml:id="ta-l2d22q2-d1e218"><quote xml:id="ta-l2d22q2-Qd1e219">Quae per tentationem fuerat convincenda vel perimenda</quote>, scilicet
+            spirituali morte vel etiam corporali, vel a se, vel a viro, vel a Deo, si de muliere
+            intelligatur, ut Magister exponit. <quote xml:id="ta-l2d22q2-Qd1e222">In eo tamen fuisse seductum credi potest, quod
+              commissum veniale crederet</quote>. Hoc intelligitur, ut supra dictum est, de veniali
+            ex causa et non ex genere. Putavit enim quod quia fecit ut uxori morem gereret, quod
+            peccatum suum excusationis causam haberet et veniam de facili acciperet, et hujusmodi
+            seductionis causa videtur fuisse elatio mentis, quae ad suggestionem mulieris surrepsit,
+            ex qua voluit lignum vetitum experiri. Cum enim experimentum non sit nisi de dubiis,
+            patet quod ex elatione in quamdam dubitationem adductus est ejus rei, puta experimenti
+            ligni vetiti, in quo etiam mulier seducta fuit. <quote xml:id="ta-l2d22q2-Qd1e225">Tribus modis, ut ait Isidorus,
+              peccatum geritur</quote>. Videtur quod insufficienter enumeret: quia quoddam peccatum
+            est etiam ex concupiscentia, de qua mentionem non facit. Et dicendum, quod peccatum ex
+            concupiscentia proveniens ad peccatum ex infirmitate reducitur: non enim tunc solum est
+            ex infirmitate peccatum quando aliquis aliquo exteriori impulsu peccat, sed etiam quando
+            per tentationem carnis in peccatum labitur. <quote xml:id="ta-l2d22q2-Qd1e228">Quae etiam ipsa peccatum est</quote>.
+            Hoc verum est si sit eorum quae quis scire tenetur: alias non: quia etiam habere
+            voluntatem non sciendi geometriam, peccatum non est ei qui illam non profitetur per
+            officium magisterii.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

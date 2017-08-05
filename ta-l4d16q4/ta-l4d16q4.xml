@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 16, Quaestio 4</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Librum IV, Distinctio 16, Quaestio 4</title>
+          <date when="2016-03-19">March 19, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-19">March 19, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness>1856 editum</witness>
+          <witness xml:id="G" n="ghent567">Ghent, Belgium, Ghent University Library, 567</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="0.0.0-dev">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+
+
+
+
+      <div xml:id="starts-on">
+        <cb ed="#G" n="291a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ta-l4d16q4">
+        <head xml:id="ta-l4d16q4-Hd1e97">Librum IV, Distinctio 16, Quaestio 4</head>
+        <div xml:id="ta-l4d16q4-Dd1e100">
+          <head xml:id="ta-l4d16q4-Hd1e102">Prooemium</head>
+          <p xml:id="ta-l4d16q4-d1e105">Deinde quaeritur de impedimentis verae poenitentiae; et circa hoc quaeruntur duo: 1 de
+            hypocrisi, quae impedit interius; 2 de exterioribus impedimentis.</p>
+
+        </div>
+        <div xml:id="ta-l4d16q4-Dd1e109" type="articulus">
+          <head xml:id="ta-l4d16q4-Hd1e111">Articulus 1</head>
+
+          <head xml:id="ta-l4d16q4-Hd1e114" type="questionTitle">Utrum hypocrisis sit peccatum</head>
+
+          <div xml:id="ta-l4d16q4-Dd1e117">
+            <head xml:id="ta-l4d16q4-Hd1e119">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d16q4-d1e122">Ad primum sic proceditur. Videtur quod hypocrisis non sit peccatum. Quia peccatum non
+              dicitur secunda tabula post naufragium. Sed secundum Hieronymum, secunda tabula post
+              naufragium est peccatum abscondere, quod ad hypocrisim pertinet. Ergo non est
+              peccatum.</p>
+            <p xml:id="ta-l4d16q4-d1e125">Praeterea, vitare scandalum proximorum et famam propriam custodire quilibet debet.
+              Sed haec fiunt per hypocrisim. Ergo non est peccatum.</p>
+            <p xml:id="ta-l4d16q4-d1e128">Sed contra, Matth. 6, super illud: <quote xml:id="ta-l4d16q4-Qd1e130">nolite fieri sicut hypocritae
+                tristes</quote>, dicit Glossa: <quote xml:id="ta-l4d16q4-Qd1e133">hypocrita est qui simulat quod non est,
+                repraesentator alterius personae</quote>. Sed simulare quod non est, semper est
+              peccatum, sicut et mendacium. Ergo hypocrisis semper est peccatum.</p>
+
+          </div>
+          <div xml:id="ta-l4d16q4-Dd1e138">
+            <head xml:id="ta-l4d16q4-Hd1e140">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d16q4-d1e143">Ulterius. Videtur quod non sit speciale peccatum. Quia peccatum simulationis
+              dividitur contra peccatum apertae malitiae. Sed aperta malitia non est speciale
+              peccatum. Ergo nec hypocrisis.</p>
+            <p xml:id="ta-l4d16q4-d1e146">Praeterea, omne peccatum speciale in aliquibus actibus consistit specialiter. Sed
+              hypocrisis in omnibus actibus virtutum consistit, et praecipue in oratione, jejunio,
+              et eleemosyna, ut patet in Evangelio Matth. Ergo hypocrisis non est speciale
+              peccatum.</p>
+            <p xml:id="ta-l4d16q4-d1e149">Sed contra, peccatum simulationis virtuti opponitur quae dicitur veritas. Sed veritas
+              est specialis virtus, ut patet in 4 Ethic. Ergo et simulatio, sive hypocrisis, est
+              speciale peccatum.</p>
+
+          </div>
+          <div xml:id="ta-l4d16q4-Dd1e153">
+            <head xml:id="ta-l4d16q4-Hd1e155">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d16q4-d1e158">Ulterius. Videtur quod semper sit mortale peccatum. Quia peccatum veniale non impedit
+              veniam de peccatis mortalibus. Sed hypocrisis impedit, ut in littera patet. Ergo est
+              mortale peccatum.</p>
+            <p xml:id="ta-l4d16q4-d1e161">Praeterea, Hieronymus dicit, quod in comparatione duorum malorum levius est aperte
+              peccare quam sanctitatem simulare. Sed aperte peccare est peccatum mortale. Ergo et
+              sanctitatem simulare semper.</p>
+            <p xml:id="ta-l4d16q4-d1e164">Praeterea, philosophus dicit, quod illi qui amicitiam simulant, magis sunt accusandi
+              quam illi qui numisma violant, quanto contra melius fraudem committunt. Sed qui
+              numisma violant, semper mortaliter peccant. Ergo et hypocritae.</p>
+            <p xml:id="ta-l4d16q4-d1e167">Praeterea, omne quod excluditur a visione Dei est peccatum mortale. Sed hypocrisis
+              est hujusmodi, ut patet Job 13, 16: <quote xml:id="ta-l4d16q4-Qd1e169">in conspectu ejus non veniet omnis
+                hypocrita</quote>. Ergo semper est mortale peccatum.</p>
+            <p xml:id="ta-l4d16q4-d1e174">Sed contra, veritatis virtus corrumpitur tam per mendacium oris, quam per
+              simulationem operis. Sed mendacium non est semper mortale. Ergo nec simulatio.</p>
+
+          </div>
+          <div xml:id="ta-l4d16q4-Dd1e179">
+            <head xml:id="ta-l4d16q4-Hd1e181">Quaestiuncula 4</head>
+            <p xml:id="ta-l4d16q4-d1e184">Ulterius. Videtur quod hypocrisis non debeat poni impedimentum poenitentiae prae
+              aliis vitiis. Quia quanto aliquod peccatum est gravius, tanto magis poenitentiam
+              impedit. Sed alia interiora peccata quaedam sunt majora quam hypocrisis. Ergo illa
+              magis debent poni impedimentum poenitentiae.</p>
+            <p xml:id="ta-l4d16q4-d1e187">Praeterea, hypocrisis, secundum Gregorium, est filia inanis gloriae. Sed causa magis
+              operatur ad aliquid quam effectus. Ergo magis debet poni inanis gloria impedimentum
+              poenitentiae quam hypocrisis.</p>
+            <p xml:id="ta-l4d16q4-d1e190">Sed contrarium in littera apparet.</p>
+          </div>
+          <div xml:id="ta-l4d16q4-Dd1e194">
+            <head xml:id="ta-l4d16q4-Hd1e196">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d16q4-d1e199">Respondeo dicendum ad primam quaestionem, quod hypocrita proprie dicitur qui personam
+              alterius repraesentat, quasi submissus, vel suppositus loco alterius; unde in theatris
+              illi qui personam aliorum gerebant repraesentantes, dicebantur hypocritae; et sic
+              accipit hypocritas philosophus in 3 Ethic.: et ideo ille qui cum non sit virtuosus,
+              personam virtuosi ostentat, hypocrita dicitur: hypocritis enim Graece, Latine dicitur
+              simulator. Et quia ostentare de se melius quam sit, est vitium jactantiae, sive
+              verbis, sive factis fiat, ut dicitur in 4 Ethic.; ideo hypocrisis semper est
+              peccatum.</p>
+            <p xml:id="ta-l4d16q4-d1e202">Ad primum ergo dicendum, quod aliud est peccatum occultum non propalare, quod
+              discretionis est, et secunda tabula dicitur eo modo quo supra, dist. 14, qu. 1, art.
+              2, qu. 3, dictum est; et aliud virtutem ostentare, cum aliquis peccato subjacet, quod
+              hypocrisis est.</p>
+            <p xml:id="ta-l4d16q4-d1e205">Ad secundum dicendum, quod peccatum occultare sufficit ad vitandum scandalum; sed
+              peccatum sub specie virtutis palliare hypocrisis est, et malum semper; et per hoc quis
+              famam non conservat, sed furatur.</p>
+
+          </div>
+          <div xml:id="ta-l4d16q4-Dd1e209">
+            <head xml:id="ta-l4d16q4-Hd1e211">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d16q4-d1e214">Ad secundam quaestionem dicendum, quod privationes specificantur per habitus
+              oppositos; et ideo illud peccatum est generale quod aufert aliquam conditionem quae
+              requiritur in qualibet virtute, sicut inobedientia, prout est generale peccatum.
+              Hypocrisis autem aufert conformitatem signi ostendentis conditionem personae ad rem
+              significatam; quae quidem conformitas ad unam virtutem specialiter pertinet, scilicet
+              veritatem; et ideo est speciale peccatum.</p>
+            <p xml:id="ta-l4d16q4-d1e217">Ad primum ergo dicendum, quod apertum, non importat aliquam specialem rationem
+              peccati; et ideo aperta malitia non nominat peccatum speciale, sicut simulatio, quae
+              specialem rationem peccati importat.</p>
+            <p xml:id="ta-l4d16q4-d1e220">Ad secundum dicendum, quod non est inconveniens quod aliquod speciale peccatum vel
+              specialis virtus utatur actibus aliarum virtutum vel vitiorum materialiter, sicut
+              magnanimitas utitur omnibus aliis actibus virtutum, ut in eis magna operetur, ut
+              dicitur in 4 Ethic.: et similiter cum hypocrisis sit quaedam species jactantiae, quia
+              non jactat quodlibet, sed sanctitatem, utitur omnibus actibus quae sanctitatem
+              ostendere possunt, et praecipue illis in quibus magis sanctitas ostenditur, sicut est
+              oratio jejunium, et eleemosyna.</p>
+
+          </div>
+          <div xml:id="ta-l4d16q4-Dd1e224">
+            <head xml:id="ta-l4d16q4-Hd1e226">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d16q4-d1e229">Ad tertiam quaestionem dicendum, quod hypocrisis habet eamdem rationem peccati, sicut
+              et mendacium: mendacium autem non semper est peccatum mortale, sed quando est
+              perniciosum; et similiter hypocrisis non semper est peccatum mortale, sed quando est
+              perniciosa, cedens in nocumentum alterius personae, dum propter creditam sanctitatem
+              alium defraudat re quam habet, vel habere debet; aut in nocumentum fidei et Ecclesiae,
+              dum propter sanctitatem creditam de ipso, ei contra fidem et Ecclesiam creditur.</p>
+            <p xml:id="ta-l4d16q4-d1e232">Ad primum ergo dicendum, quod peccatum veniale quod poenitentiam non impedit, non
+              impedit remissionem peccati mortalis, quae per poenitentiam fit; sed per aliquod
+              peccatum veniale potest impediri poenitentiae opus ne sit poenitentiae; quia peccatum
+              veniale impedit actum virtutis, quamvis non tollat habitum; et sic impedire potest
+              veniam peccati.</p>
+            <p xml:id="ta-l4d16q4-d1e235">Ad secundum dicendum, quod verbum Hieronymi intelligendum est secundum quid, et non
+              simpliciter: quia quantum ad unam circumstantiam unum peccatum potest esse gravius
+              illo quod est gravius simpliciter. Vel dicendum, quod etiam aperte peccare non semper
+              est mortale, sed quandoque veniale.</p>
+            <p xml:id="ta-l4d16q4-d1e238">Ad tertium dicendum, quod philosophus loquitur, quando simulatio amicitiae in
+              nocumentum personae redundat.</p>
+            <p xml:id="ta-l4d16q4-d1e242">Ad quartum dicendum, quod loquitur de hypocrita qui totum bonum quod agit, ad
+              ostentationem ordinat. Vel dicendum, quod loquitur quantum ad hoc quod opera bona ex
+              hypocrisi facta ad conspectum Dei non perducunt.</p>
+
+          </div>
+          <div xml:id="ta-l4d16q4-Dd1e246">
+            <head xml:id="ta-l4d16q4-Hd1e248">Quaestiuncula 4</head>
+            <p xml:id="ta-l4d16q4-d1e251">Ad quartam quaestionem dicendum, quod opera poenitentiae, exteriora praecipue, nata
+              sunt sanctitatem ostendere; et ideo eis utitur hypocrisis intentionem poenitentiae
+              rectae excludens; et propter hoc directius impedit poenitentiae effectum quam alia
+              vitia etiam graviora.</p>
+            <p xml:id="ta-l4d16q4-d1e254">Et per hoc patet solutio ad primum.</p>
+            <p xml:id="ta-l4d16q4-d1e257">Ad secundum dicendum, quod inanis gloria surgit quandoque ex operibus etiam recta
+              intentione factis; sed hypocrisis semper intentionem factorum pervertit, et ideo magis
+              impedit poenitentiae fructum.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d16q4-Dd1e262" type="articulus">
+          <head xml:id="ta-l4d16q4-Hd1e264">Articulus 2</head>
+
+          <head xml:id="ta-l4d16q4-Hd1e267" type="questionTitle">Utrum ludi poenitentiam exterius impediant</head>
+
+          <div xml:id="ta-l4d16q4-Dd1e270">
+            <head xml:id="ta-l4d16q4-Hd1e272">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d16q4-d1e275">Ad secundum sic proceditur. Videtur quod ludi poenitentiam exterius impediant. Illud
+              enim in quo potest consistere virtus, poenitentiam non impedit. Sed in ludis consistit
+              virtus eutrapeliae, ut in 4 Ethic. patet. Ergo ludus poenitentiam non impedit.</p>
+            <p xml:id="ta-l4d16q4-d1e278">Praeterea, oportet operibus laboriosis requiem interponere, eo quod impossibile est
+              semper agere. Sed ludus est requies quaedam. Ergo oportet inter opera poenitentiae
+              aliquando ludere; ergo ludus poenitentiam non impedit.</p>
+            <p xml:id="ta-l4d16q4-d1e281">Sed contra, Eccle. 3, tempus ridendi aliud describitur a tempore flendi. Sed tempus
+              poenitentiae est tempus flendi: quia poenitentia est commissa flere. Ergo non est
+              tempus ludendi.</p>
+
+          </div>
+          <div xml:id="ta-l4d16q4-Dd1e285">
+            <head xml:id="ta-l4d16q4-Hd1e287">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d16q4-d1e290">Ulterius. Videtur quod spectacula non impediant poenitentiam. Spectacula enim ad
+              utilitatem hominum sunt instituta. Sed poenitentia non resecat utilia, sed superflua.
+              Ergo poenitentia per spectacula non impeditur.</p>
+            <p xml:id="ta-l4d16q4-d1e293">Praeterea, in spectando aliud non potest esse nisi peccatum curiositatis. Sed aliae
+              curiositates, ut scientiarum, non ponuntur impedimenta poenitentiae. Ergo nec
+              spectaculum impedimentum poenitentiae dici debet.</p>
+            <p xml:id="ta-l4d16q4-d1e296">Praeterea, alia sunt multo graviora peccata quam spectacula et ludi. Ergo illa multo
+              magis debent poni impedimenta poenitentiae quam ista.</p>
+            <p xml:id="ta-l4d16q4-d1e299">Sed contra, illud ex quo homo peccator constituitur, non competit poenitenti. Sed
+              inspectores talium adulteros et inverecundos ipsa spectacula constituunt, ut
+              Chrysostomus dicit. Ergo non competunt poenitenti.</p>
+
+          </div>
+          <div xml:id="ta-l4d16q4-Dd1e303">
+            <head xml:id="ta-l4d16q4-Hd1e305">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d16q4-d1e308">Ulterius. Videtur quod exercitium militiae vel negotiationis poenitentiam non
+              impediat. Quia illa sine quibus non potest respublica conservari, non sunt vitia, sed
+              magis ad virtutem ordinata. Sed non potest conservari sine militia, per quam hostes
+              comprimuntur, et sine negotiatione, per quam necessaria populo procurantur. Ergo talia
+              officia sine peccato possunt exerceri; ergo non impediunt poenitentiam.</p>
+            <p xml:id="ta-l4d16q4-d1e311">Praeterea, Joannes poenitentiam docebat, ut patet Matth. 3. Sed ipse non prohibebat
+              homines a militia, neque publicanos ab officio suo, ut patet Lucae 3. Ergo videtur
+              quod talia officia non impediant.</p>
+            <p xml:id="ta-l4d16q4-d1e314">Sed contra est quod Gregorius in littera dicit.</p>
+          </div>
+          <div xml:id="ta-l4d16q4-Dd1e319">
+            <head xml:id="ta-l4d16q4-Hd1e321">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d16q4-d1e324">Respondeo dicendum ad primam quaestionem, quod ludorum est triplex differentia.
+              Quidam enim ludi sunt qui ex se ipsis turpitudinem habent; et tales ludi ab omnibus
+              vitandi sunt, et praecipue a poenitentibus, qui per fletum peccata corrigere debent,
+              sicut ludi qui in theatris agebantur ad luxuriam provocantes. Alii ludi sunt qui ex
+              gaudio devotionis procedunt, sicut David dixit: <quote xml:id="ta-l4d16q4-Qd1e326">ludam, et vilior fiam coram
+                domino</quote>: 2 regum 6, 21 et 23; et tales ludi non sunt vitandi, sed laudandi et
+              aemulandi. Quidam autem ludi sunt nullam turpitudinem habentes, quos philosophus
+              liberales vocat; et hi sunt materia virtutis, scilicet eutrapeliae; et ideo servatis
+              debitis circumstantiis, possunt laudabiliter fieri ad quietem propriam, et aliis
+              delectabiliter convivendum. Sed contingit in eis esse peccatum, eo quod debitae
+              circumstantiae non servantur; unde in talibus ludis aliquid decet unum quod non decet
+              alium; et in his etiam ludis poenitens se debet habere aliter quam alii, inquantum
+              poenitentia fletum requirit. Tamen eis moderate uti potest, secundum quod ad
+              recreationem animi pertinent, aut ad societatem eorum cum quibus homo convivit; unde
+              Seneca dicit: <quote xml:id="ta-l4d16q4-Qd1e329">sic te gere sapienter, ut nullus te habeat tamquam asperum, nec
+                contemnat quasi vilem</quote>.</p>
+            <p xml:id="ta-l4d16q4-d1e333">Et per hoc patet solutio ad objecta.</p>
+
+          </div>
+          <div xml:id="ta-l4d16q4-Dd1e337">
+            <head xml:id="ta-l4d16q4-Hd1e339">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d16q4-d1e342">Ad secundam quaestionem dicendum, quod hujusmodi spectacula si sunt rerum turpium, ad
+              peccatum provocantium, studiosa eorum inspectio peccatum est, et quandoque etiam
+              mortale, tanta potest libido adhiberi; unde a tali inspectione omnes se arcere debent,
+              et praecipue poenitentes. Quaedam vero spectacula sunt de rebus utilibus et ad vitam
+              necessariis, sicut sunt venationes, et cetera hujusmodi; et talia spectacula
+              distrahunt animum; unde quamvis possit sine peccato eis intendi, servata discretione
+              debita quantum ad conditiones personae, et aliarum circumstantiarum; tamen poenitenti
+              sunt vitanda propter hoc quod debet cor ad Deum collectum habere, nisi quantum
+              necessitas exposcit.</p>
+            <p xml:id="ta-l4d16q4-d1e345">Ad primum ergo dicendum, quod poenitentia etiam quaedam utilia resecat, inquantum
+              poenam infert pro culpa praeterita: unde in littera dicitur, quod aliquid sufficit ei
+              qui non peccavit, quod non sufficit ei qui de peccatis poenitentiam agit.</p>
+            <p xml:id="ta-l4d16q4-d1e348">Ad secundum dicendum, quod per hujusmodi spectacula sensibilia magis animus ad
+              vanitates distrahitur quam per intelligibilia: et ideo ista magis sunt cavenda;
+              quamvis peccatum curiositatis in omnibus cavendum sit.</p>
+            <p xml:id="ta-l4d16q4-d1e351">Ad tertium dicendum, quod ista peccata specialiter ex inepta laetitia procedere
+              videntur; et quia poenitentia tristitiam habet adjunctam, ideo specialem oppositionem
+              ad poenitentiam ista peccata habent.</p>
+
+          </div>
+          <div xml:id="ta-l4d16q4-Dd1e355">
+            <head xml:id="ta-l4d16q4-Hd1e357">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d16q4-d1e360">Ad tertiam quaestionem dicendum, quod officium militiae et negotiationis, et
+              publicanorum, qui vectigalia publica exigunt, ex propinquo habent peccatum annexum,
+              quamvis sine peccato quandoque exerceri possunt. Et quia poenitens debet occasionem
+              peccati vitare satisfaciendo, etiam talia officia laudabile est si evitet; non est
+              tamen de necessitate poenitentiae: quia poenitens non potest omnes peccati occasiones
+              vitare, dum in mundo isto vivit; et ideo sufficit, si peccatum in istis officiis
+              vitet; ut quod miles secundum consilium Joannis, neminem concutiat, et stipendiis
+              justis contentus sit, et non utatur officio militari ad ostentationem, sed ad
+              utilitatem Ecclesiae et reipublicae, et ad exercitium virium; et quod negotiator non
+              habeat conditionem in se, quae ipsum ab officio hoc prohibeat; sicut clericis et
+              monachis non licet negotiari, quamvis liceat propria vendere; et quod tempore debito
+              mercationes faciant, non diebus festivis, et tempore quod caristiam inducere possit,
+              tale officium exerceatur; et modus debitus, ut sine fraude fiat, et secundum licitum
+              contractum. In publicanis autem, ut de auctoritate principis, et causa communis
+              utilitatis, scilicet ad defensionem terrae, et non immoderata recipiantur telonea.
+              Quod autem Gregorius dicit in littera, intelligendum est non quia non possit sine
+              peccato fieri, sed quia frequenter ad peccatum implicat.</p>
+            <p xml:id="ta-l4d16q4-d1e363">Et per hoc patet solutio ad objecta.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d16q4-Dd1e368">
+          <head xml:id="ta-l4d16q4-Hd1e370">Expositio textus</head>
+          <p xml:id="ta-l4d16q4-d1e373"><quote xml:id="ta-l4d16q4-Qd1e374">Cogit peccatorem omnia libenter ferre</quote>. Intelligendum est de illis quae
+            sunt necessaria ad peccati remissionem; et sic est accommodata distributio. <quote xml:id="ta-l4d16q4-Qd1e377">Sunt
+              enim tres differentiae peccati</quote> et cetera. Contra. Omittit peccatum oris.
+            Praeterea, Gregorius, addit super illud Job 3: <quote xml:id="ta-l4d16q4-Qd1e380">quare non in vulva mortuus
+              sum?</quote> Quartum, scilicet fomentum adulationis. Et dicendum quod haec distinctio
+            peccatorum differt a prima: quia prima est secundum diversitatem instrumentorum, haec
+            autem secundum progressum peccati, quod primo de intus, secundo ad extra procedit,
+            tertio confirmatur per consuetudinem; et adaptatur partibus poenitentiae: quia contritio
+            in corde latet, confessio ad exteriora poenitentiam manifestat, sed satisfactio boni
+            operis consuetudinem adjungit. Non tamen hoc ita est intelligendum, quasi singulae
+            poenitentiae partes singulis conditionibus peccati respondeant, sed per adaptationem,
+            sicut et de aliis dictum est. Ad primum ergo dicendum, quod verbum habet eumdem gradum
+            quantum ad manifestationem cum ipso facto; et ideo in facto includitur. Ad secundum
+            dicendum, quod illud quod Gregorius addit, non est in ipso peccante, sed in alio; et
+            ideo Augustinus illud omittit. <quote xml:id="ta-l4d16q4-Qd1e383">Satisfactio praecipitur a Joanne</quote> etc., non
+            quod Joannes fuerit auctor praecepti, sed denuntiator; Christus autem sacramenti
+            institutor, et partium ejus. <quote xml:id="ta-l4d16q4-Qd1e386">Ponat se omnino in judicio</quote>. Ergo videtur
+            quod si sacerdos injungat alicui quod intret religionem, teneatur facere; et praecipue
+            quia quidam canones videntur istam poenitentiam taxare; et similiter quod quantumcumque
+            magnam poenitentiam pro parvo peccato injungat, poenitens facere teneatur. Et dicendum,
+            quod intelligendum est de his quae sacerdos, inquantum habet clavem scientiae et
+            auctoritatis per divinum judicium, et non secundum humanum errorem, injungit. Introitus
+            autem in religionem cum sit voluntatis, non potest alicui injungi; et si aliqui canones
+            injungere inveniantur, magis est consilium quam praeceptum: qualibet enim poenitentia
+            taxata, levissima religio est major satisfactio, inquantum homo abdicat propriam
+            voluntatem, qua nihil est homini carius. <quote xml:id="ta-l4d16q4-Qd1e389">Caveat ne ductus verecundia dividat apud
+              se confessionem</quote>. De hoc inquiretur, cum de confessione quaestio erit.
+              <quote xml:id="ta-l4d16q4-Qd1e393">Caveat etiam ne prius ad dominicum corpus accedat quam confortetur bona
+              conscientia</quote>. Bona conscientia confortatur, quando certis signis conjicere
+            potest peccatum sibi dimissum; et hoc quando facit quod in se est; et ideo qui habet
+            copiam sacerdotis, et necessitate non urgetur ad communicandum, sicut urgentur
+            sacerdotes parochiales, non debet accedere ante confessionem; sed etiam post
+            contritionem et confessionem gravium peccatorum, consilium videtur esse Augustini, quod
+            non statim accedat propter reverentiam sacramenti, et ut magis seipsum probet.
+              <quote xml:id="ta-l4d16q4-Qd1e396">Quae non secundum auctoritatem sanctorum imponuntur</quote>. Non tamen oportet
+            quod semper ad litteram serventur poenitentiae in canone injunctae; sed consideratis
+            conditionibus peccati et peccatoris poenitentiae sunt moderandae. <quote xml:id="ta-l4d16q4-Qd1e399">Quae fit pro
+              illis peccatis quae legis Decalogus continet</quote>, sicut directe contra Decalogi
+            praecepta existentia, ut mortalia; non autem sicut praeter praecepta, sicut sunt peccata
+            venialia. <quote xml:id="ta-l4d16q4-Qd1e402">Sic veraciter dicitur: sicut et nos dimittimus debitoribus
+              nostris</quote>. Videtur quod ille qui non habet peccatum aliquod, peccet in dicendo:
+              <quote xml:id="ta-l4d16q4-Qd1e405">pater noster</quote>: quia confitetur debita se habere quae non habet.
+            Praeterea, videtur idem de illo qui debita non dimittit, quod peccet dicendo,
+              <quote xml:id="ta-l4d16q4-Qd1e408">pater noster</quote>. Et dicendum ad primum, quod hoc non est alicui certum
+            quod omnino a peccato, saltem veniali, vel quantum ad aliquem reatum, immunis sit. Si
+            tamen per revelationem sciat, non peccat dicens in persona Ecclesiae. Et similiter
+            dicendum de secundo, quod in persona Ecclesiae dicit se debita dimittere; unde non
+            peccat hoc dicendo; sed remissionem non consequitur, nisi dimittat.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

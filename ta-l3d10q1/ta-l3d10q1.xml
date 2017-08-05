@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum III, Distinctio 10, Quaestio 1</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.09-dev-master">
+          <title>Librum III, Distinctio 10, Quaestio 1</title>
+          <date when="2016-03-11">March 11, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-11">March 11, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness>1856 editum</witness>
+          <witness xml:id="H" n="harv245" xml:base="http://iiif.lib.harvard.edu/manifests/drs:51994085/canvas/">Cambridge, Mass., Harvard University, Houghton Library, MS Lat 245</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="2015.09">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+      <div xml:id="starts-on">
+        <cb ed="#H" n="39va" select="dd"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ta-l3d10q1">
+        <head xml:id="ta-l3d10q1-Hd1e97">Librum III, Distinctio 10, Quaestio 1</head>
+        <div xml:id="ta-l3d10q1-Dd1e100">
+          <head xml:id="ta-l3d10q1-Hd1e102">Prooemium</head>
+          <p xml:id="ta-l3d10q1-d1e105">Postquam determinavit <name ref="#Lombard">Magister</name>, quid conveniat vel non conveniat uni naturae ex hoc quod est alteri sociata in persona Christi, hic determinat quid conveniat ipsi personae Christi ratione humanae naturae. Quid enim sibi conveniat ratione divinae naturae, dictum est in 1 Lib. Dividitur autem haec pars in duas: primo quaerit, utrum conveniant Christo ratione humanae naturae ea quae ad dignitatem humanae naturae pertinere videntur; in secunda de illis quaerit quae pertinent ad defectum, dist. 11, ibi: <quote xml:id="ta-l3d10q1-Qd1e110">solet etiam quaeri, utrum debeat simpliciter dici atque concedi Christum esse factum, vel creatum, vel creaturam</quote>. Prima in duas: primo inquirit de illis quae pertinent ad dignitatem naturalem humanae naturae, sicut est personalitas; secundo de his quae pertinent ad dignitatem gratiae, ibi: <quote xml:id="ta-l3d10q1-Qd1e113">si vero quaeritur, an Christus sit adoptivus filius secundum quod homo, an alio modo, respondemus Christum non esse adoptivum filium aliquo modo</quote>. Circa primum duo facit: primo movet quaestionem; secundo objicit ad utramque partem, et solvit, ibi: <quote xml:id="ta-l3d10q1-Qd1e116">quod enim persona sit, his edisserunt rationibus</quote>. Et haec pars dividitur in duas, secundum duas vias in quibus ad propositam quaestionem argumentatur; secunda incipit ibi: <quote xml:id="ta-l3d10q1-Qd1e119">sed adhuc aliter nituntur probare, Christum secundum hominem esse personam</quote>. Circa primum duo facit: primo ponit objectionem; secundo solvit, ibi: <quote xml:id="ta-l3d10q1-Qd1e123">propter haec inconvenientia</quote>. Circa primum duo facit: primo objicit ad partem affirmativam; secundo ad partem negativam, ibi: <quote xml:id="ta-l3d10q1-Qd1e126">sed contra. Si secundum quod homo, persona est; vel tertia in Trinitate persona, vel alia. Propter haec inconvenientia et alia quidam dicunt, Christum secundum hominem non esse personam</quote>. Hic solvit; et circa hoc duo facit: primo respondet ad quaestionem; secundo ad objectum, ibi: <quote xml:id="ta-l3d10q1-Qd1e129">illud tamen non sequitur quod in argumento superiori inductum est. Sed adhuc aliter nituntur probare Christum secundum hominem esse personam</quote>. Hic ponit aliam objectionem: et primo objicit; secundo solvit, ibi: <quote xml:id="ta-l3d10q1-Qd1e132">ad quod dici potest. Si vero quaeritur, an Christus sit adoptivus filius secundum quod homo, an alio modo; respondemus, Christum non esse adoptivum filium aliquo modo</quote>. Hic inquirit de illis quae pertinent ad dignitatem gratiae; et primo de filiatione secundum adoptionem; secundo de praedestinatione, ibi: <quote xml:id="ta-l3d10q1-Qd1e135">deinde si quaeritur</quote>. Circa primum duo facit: primo ostendit quod Christus non sit filius adoptivus; secundo objicit in contrarium, ibi: <quote xml:id="ta-l3d10q1-Qd1e138">sed adhuc opponitur</quote>. Et circa hoc tria facit: primo ponit objectionem; secundo solvit, ibi: <quote xml:id="ta-l3d10q1-Qd1e142">ad hoc dici potest</quote>; tertio solutionis confirmationem quantum ad duo: primo quantum ad hoc quod Christus est naturalis filius virginis, ibi: <quote xml:id="ta-l3d10q1-Qd1e145">quod vero naturaliter sit hominis filius, <name ref="#Augustine">Augustinus</name> ostendit</quote>; secundo quantum ad hoc quod non sit filius per adoptionem, ibi: <quote xml:id="ta-l3d10q1-Qd1e151">quod autem non sit filius adoptivus, et tamen gratia sit filius, ex subditis probatur testimoniis</quote>. Hic est triplex quaestio. Prima quid conveniat Christo, secundum quod homo. Secunda de adoptione. Tertia de praedestinatione. Circa primum quaeruntur duo: 1 utrum Christus, secundum quod homo, sit Deus; 2 utrum Christus, secundum quod homo, sit persona.</p>
+        </div>
+        <div xml:id="ta-l3d10q1-Dd1e156" type="articulus">
+          <head xml:id="ta-l3d10q1-Hd1e158">Articulus 1</head>
+          <head xml:id="ta-l3d10q1-Hd1e161" type="questionTitle">Utrum Christus secundum quod homo, sit Deus</head>
+          <div xml:id="ta-l3d10q1-Dd1e164">
+          <head xml:id="ta-l3d10q1-Hd1e166">Quaestiuncula 1</head>
+            <p xml:id="ta-l3d10q1-d1e169">Ad primum sic proceditur. Videtur quod Christus, secundum quod homo, sit Deus. <ref xml:id="ta-l3d10q1-Rd1e171"><title ref="#phil">Philip.</title> 2, 9:</ref> <quote xml:id="ta-l3d10q1-Qd1e176" ana="#phil2_9">dedit illi nomen quod est super omne nomen</quote>. Glossa: <quote xml:id="ta-l3d10q1-Qd1e179">inquantum homo, assumpsit nomen Dei non usurpative, sed vere</quote>. Sed nomen quod habet vere, vere dicitur de eo. Ergo vere dicitur quod Christus, secundum quod homo, est Deus.</p>
+            <p xml:id="ta-l3d10q1-d1e183">Praeterea, Christus est Deus per gratiam unionis. Sed gratia unionis non convenit ei nisi secundum quod est homo. Ergo est Deus secundum quod homo.</p>
+            <p xml:id="ta-l3d10q1-d1e186">Praeterea, Christus, secundum quod homo, dimittit peccata, ut patet <ref xml:id="ta-l3d10q1-Rd1e188"><title ref="#mt">Matth.</title> 9, 6:</ref> <quote xml:id="ta-l3d10q1-Qd1e193" ana="#mt9_6">ut autem sciatis quia filius hominis habet potestatem in terra dimittendi peccata</quote>. Sed hoc est tantum Dei, ut dicitur <ref xml:id="ta-l3d10q1-Rd1e196"><title ref="#is">Isaiae</title> 43, 25:</ref> <quote xml:id="ta-l3d10q1-Qd1e201" ana="#is43_25">ego sum qui deleo iniquitates tuas propter me</quote>. Ergo secundum quod homo, est Deus.</p>
+            <p xml:id="ta-l3d10q1-d1e205">Sed contra, Christus, secundum quod Deus, fuit ab aeterno. Si igitur secundum quod homo, est Deus; secundum quod homo, fuit ab aeterno: quod falsum est.</p>
+            <p xml:id="ta-l3d10q1-d1e209">Praeterea, Deus et homo significant naturas disparatas. Sed in talibus non potest unum eorum secundum alterum alicui convenire. Ergo Christus non est Deus secundum quod homo.</p>
+          </div>
+          <div xml:id="ta-l3d10q1-Dd1e213">
+            <head xml:id="ta-l3d10q1-Hd1e215">Quaestiuncula 2</head>
+            <p xml:id="ta-l3d10q1-d1e218">Ulterius. Videtur quod non sit Deus, secundum quod iste homo. Omne enim quod praedicatur de altero secundum quod aliquid, oportet quod sit definitio, vel pars definitionis, aut per se accidens illius secundum quod praedicatur: sicut cum dicitur: Petrus, secundum quod homo, est animal rationale mortale, vel, secundum quod homo, est risibile. Sed Deus nullo dictorum modorum se habet ad istum hominem. Ergo haec est falsa: Christus, secundum quod iste homo, est Deus.</p>
+            <p xml:id="ta-l3d10q1-d1e221">Praeterea, Christus, secundum quod Deus, caret matre. Si ergo Christus, secundum quod iste homo, est Deus; secundum quod iste homo, caret matre: quod falsum est.</p>
+            <p xml:id="ta-l3d10q1-d1e224">Praeterea, remoto eo secundum quod aliquid alicui convenit, ulterius non convenit ei. Sed remoto a Christo quod sit hic homo, adhuc convenit sibi esse Deum: quia ab aeterno fuit Deus: non autem ab aeterno fuit hic homo. Ergo Christus, secundum quod hic homo, non est Deus.</p>
+            <p xml:id="ta-l3d10q1-d1e227">Sed contra, sicut supra, <ref xml:id="ta-l3d10q1-Rd1e229">dist. 7, qu. 1, art. 1,</ref> dictum est, ista propositio: iste homo est Deus, non est praedicatio accidentalis, sed essentialis. Sed praedicatum essentiale potest praedicari de subjecto quocumque cum reduplicatione, sicut Socrates in quantum est homo, est animal: quia animal per se de homine praedicatur. Ergo haec est vera: Christus, secundum quod est hic homo, est Deus.</p>
+            <p xml:id="ta-l3d10q1-d1e234">Praeterea, hic homo demonstrat suppositum aeternum. Sed haec est vera: Christus, secundum quod est suppositum aeternum, est Deus. Ergo et haec est vera: Christus secundum quod hic homo, est Deus.</p>
+          </div>
+          <div xml:id="ta-l3d10q1-Dd1e238">
+          <head xml:id="ta-l3d10q1-Hd1e240">Quaestiuncula 3</head>
+            <p xml:id="ta-l3d10q1-d1e243">Ulterius. Videtur quod Christus non sit praedestinatus secundum quod homo. Quod enim convenit Petro secundum quod homo, oportet quod cuilibet homini conveniat. Sed esse praedestinatum non convenit cuilibet homini. Ergo nec convenit Christo secundum quod homo.</p>
+            <p xml:id="ta-l3d10q1-d1e246">Praeterea, effectus praedestinationis conformiter respondet praedestinationi: alias esset praedestinatio falsa. Sed cum Christus sit praedestinatus esse filius Dei, effectus hujus praedestinationis est esse filius Dei. Si ergo Christus, secundum quod homo, non est filius Dei, nec secundum quod homo, est praedestinatus.</p>
+            <p xml:id="ta-l3d10q1-d1e249">Sed contra, Christus est praedestinatus, ut dicit <name ref="#Paul">apostolus</name> <ref xml:id="ta-l3d10q1-Rd1e254">Rom. 1.</ref> Sed non secundum quod Deus, ut patet ex dictis in 7 dist. Ergo secundum quod homo.</p>
+          </div>
+          <div xml:id="ta-l3d10q1-Dd1e260">
+            <head xml:id="ta-l3d10q1-Hd1e262">Quaestiuncula 1</head>
+            <p xml:id="ta-l3d10q1-d1e265">Respondeo dicendum, quod id quod in aliqua propositione reduplicatur cum hoc quod dico, secundum quod, est illud per quod praedicatum convenit subjecto; unde oportet quod aliquo modo sit idem cum subjecto, et aliquo modo idem cum praedicato; sicut medius terminus in syllogismo affirmativo ad praedicatum quidem habet comparationem sicut ad id quod per se consequitur ipsum (nihil enim convenit alicui secundum quod est animal, nisi illud animali per se conveniat secundum quemcumque modum dicendi per se); ad subjectum autem comparatur sicut ad id quod aliquo modo includitur in subjecto. Includitur autem in subjecto ipsa substantia subjecti, et antecedentia, sicut causae, et consequentia, sicut accidentia. Substantia autem subjecti est et ipsum subjectum et natura ejus. Et ratione omnium istorum potest aliquid attribui Christo, et cuilibet homini. Si enim aliquid attribuitur homini ratione principiorum praecedentium; sic dicimus quantum ad causam materialem, quod homo, secundum quod est compositum ex contrariis, est corruptibilis; quantum ad causam formalem dicimus, quod homo, secundum quod habet animam rationalem, est ad imaginem Dei; quantum vero ad causam efficientem dicimus quod Petrus, secundum quod natus de tali patre, est heres ejus. Quantum autem ad causam finalem dicimus, quod homo, secundum quod est ad beatitudinem ordinatus, oportet quod sit immortalis quantum ad animam. Si autem attribuatur alicui homini aliquid ratione accidentium, sic dicimus, quod homo, secundum quod est coloratus, est visibilis; si autem attribuatur sibi aliquid ratione suppositi, sic dicimus, quod Socrates, secundum quod Socrates, est individuum: si autem ratione naturae, sic dicimus, quod homo, secundum quod homo, est animal. Secundum hoc ergo dicendum ad primam quaestionem, quod cum dicitur: Christus, secundum quod homo, est Deus, ly homo potest replicari ratione naturae; et sic est falsa, quia naturae humanae non per se convenit, inquantum talis natura, ut divinae uniatur: si autem replicatur ratione suppositi (cum suppositum humanae naturae in Christo sit suppositum aeternum, cui per se convenit esse Deum), erit vera. Quia tamen hoc nomen homo non importat aliquod suppositum determinatum humanae naturae, nisi per demonstrationem adjunctam, et solum cuidam determinato supposito humanae naturae convenit per se esse Deum; ideo nisi aliquid aliud addatur, vel intelligatur, simpliciter non est concedendum, quod Christus, secundum quod homo, est Deus.</p>
+            <p xml:id="ta-l3d10q1-d1e268">Ad primum ergo dicendum, quod assumptio, ut supra, <ref xml:id="ta-l3d10q1-Rd1e270">dist. 5,</ref> dictum est, significatur per modum motus. Cui autem convenit per se moveri ad aliquid, non convenit esse illud; sicut nigro convenit per se moveri ad albedinem, non tamen convenit ei per se esse album. Similiter assumere nomen Dei, potest convenire Christo secundum quod homo; et tamen esse Deum non convenit ei secundum quod homo.</p>
+            <p xml:id="ta-l3d10q1-d1e274">Ad secundum dicendum, quod hoc nomen Christus significat personam in duabus naturis; unde non convenit ei per gratiam quod sit Deus, sed ab aeterno; sed quod sit simul Deus et homo, hoc est per gratiam unionis. Vel dicendum, quod quamvis gratia unionis faciat hominem Deum, non tamen ad idem refertur gratia unionis et esse Deum: quia esse Deum convenit huic homini ratione personae, gratia autem fit ei ratione naturae; unde secundum quod homo, habet gratiam unionis, si fiat reduplicatio ratione humanae naturae; non autem secundum quod homo, est Deus, sed secundum quod talis persona.</p>
+            <p xml:id="ta-l3d10q1-d1e277">Ad tertium dicendum, quod dimittere peccata est dupliciter: vel per auctoritatem; et sic, cum sit solius Dei, non est Christi inquantum est homo, si fiat reduplicatio ratione naturae: vel per ministerium; et sic convenit Christo etiam ratione humanae naturae.</p>
+          </div>
+          <div xml:id="ta-l3d10q1-Dd1e281">
+            <head xml:id="ta-l3d10q1-Hd1e283">Quaestiuncula 2</head>
+            <p xml:id="ta-l3d10q1-d1e286">Ad secundam quaestionem dicendum, quod ad hoc quod aliqua praedicatio sit per se, non oportet quod praedicatum per se conveniat subjecto secundum omne quod in nomine subjecti implicatur; sed sufficit si secundum aliquid eorum per se sibi conveniat; sicut ratiocinari per se convenit homini, non inquantum habet corpus, sed inquantum animam habet; unde haec est per se: homo ratiocinatur. Cum autem dicitur: iste homo, demonstrato Christo, includitur ex vi demonstrationis suppositum determinatum humanae naturae, quod est suppositum aeternum, secundum secundam opinionem; cui supposito per se convenit esse Deum; unde haec est per se secundum secundam opinionem: iste homo est Deus. Et quia ad veritatem hujusmodi locutionum non exigitur nisi quod praedicatum per se conveniat ei quod replicatur; ideo haec est vera: Christus secundum quod iste homo, est Deus.</p>
+            <p xml:id="ta-l3d10q1-d1e289">Ad primum ergo dicendum, quod sicut aliquid est de definitione speciei quod non est de definitione generis; ita aliquid esset de definitione individui, si definiretur, quod non est de definitione speciei, sicut pars materiae, ut dicit <name ref="#Aristotle">philosophus</name>. Unde licet Deus non sit pars definitionis hominis, esset tamen pars definitionis hujus hominis Christi, si definiri posset ratione personae verbi. Unde patet quod est per se.</p>
+            <p xml:id="ta-l3d10q1-d1e295">Ad secundum dicendum, quod cum dicitur, iste homo, demonstratur suppositum duarum naturarum; quarum utraque caderet in definitione ejus, si definiri posset; et ideo ea quae sunt utriusque naturae, per se ei conveniunt; et ideo Christus, secundum quod iste homo, est Deus; et secundum quod iste homo, est homo: et similis ratio est de illis quae consequuntur ad alteram naturam; unde secundum quod iste homo, est habens matrem, et carens matre: nec unum excludit aliud, cum non sint opposita, quia non conveniunt secundum idem.</p>
+            <p xml:id="ta-l3d10q1-d1e298">Ad tertium dicendum, quod remoto a Christo toto hoc quod importatur cum dicitur, iste homo, non conveniet ei esse Deum: quia includitur ibi natura divina et humana, ut dictum est. Sed remota altera, scilicet humana natura, sequitur quod filius Dei non possit dici iste homo. Ratione tamen illius, scilicet humanae naturae, non verificatur praedicta locutio; et est simile sicut si dicatur: <name ref="#Peter">Petrus</name>, inquantum homo, sentit: quia remoto rationali per intellectum, non erit homo, et remanebit sentiens, ut dicitur in libro de causis.</p>
+          </div>
+          <div xml:id="ta-l3d10q1-Dd1e305">
+          <head xml:id="ta-l3d10q1-Hd1e307">Quaestiuncula 3</head>
+            <p xml:id="ta-l3d10q1-d1e310">Ad tertiam quaestionem dicendum, quod quia praedestinatio importat antecessionem, ideo per consequens includit factionem: quia omne quod est, postquam non fuit, dicitur factum: unde dicitur aliquis praedestinatus, inquantum praevisus est fieri beatus. Omnia autem quae actionem important et motum, conveniunt per se ei quod accedit ad terminum; cui tamen per se non convenit esse in termino; sicut moveri ad albedinem, per se convenit non albo, cui non convenit esse album. Praedestinatio autem quae de Christo dicitur, est respectu gratiae unionis, secundum quam factum est ut homo esset Deus; cujus factionis terminus est esse Deum. Accedens autem ad terminum est quod assumitur ad unionem, scilicet humana natura; et ideo ratione humanae naturae convenit Christo esse praedestinatum, non autem esse Deum; unde haec est vera: Christus secundum quod homo, est praedestinatus, haec autem est falsa: Christus secundum quod homo, est Deus.</p>
+            <p xml:id="ta-l3d10q1-d1e313">Ad primum ergo dicendum, quod ratio illa procedit de illis quae conveniunt alicui ratione humanae naturae secundum rationem speciei. Sed praedestinari convenit Christo ratione humanae naturae particulatae in ipso. Unde objectio non est ad propositum.</p>
+            <p xml:id="ta-l3d10q1-d1e316">Ad secundum dicendum, quod effectus praedestinationis respondet praedestinationi conformiter quantum ad id de quo est praedestinatio, non autem quantum ad conditiones praedestinationis: quia praedestinatio est aeterna, effectus autem est temporalis; et sic est in proposito: quia Christus non est praedestinatus ut sit, secundum quod homo, filius Dei; sed ipsa praedestinatio convenit ei secundum quod homo. Unde patet quod hujusmodi locutiones sunt duplices, ex hoc quod implicatio potest ferri ad hoc quod est praedestinatum, vel ad hoc quod est esse filium Dei, de quo est praedestinatio.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l3d10q1-Dd1e321" type="articulus">
+          <head xml:id="ta-l3d10q1-Hd1e323" type="articulus">Articulus 2</head>
+          <head xml:id="ta-l3d10q1-Hd1e326" type="questionTitle">Utrum Christus, secundum quod homo, sit persona</head>
+          <div xml:id="ta-l3d10q1-Dd1e329">
+            <head xml:id="ta-l3d10q1-Hd1e331">Quaestiuncula 1</head>
+            <p xml:id="ta-l3d10q1-d1e334">Ad secundum sic proceditur. Videtur, quod Christus, secundum quod homo, sit persona. Persona enim, ut dicit <name ref="#Boethius">Boetius</name> est rationalis naturae individua substantia. Sed Christus, secundum quod homo, est hujusmodi. Ergo secundum quod homo est persona.</p>
+            <p xml:id="ta-l3d10q1-d1e340">Praeterea, quod convenit alicui secundum quod homo, convenit omni homini secundum quod est homo. Sed Petrus, secundum quod est homo, est persona. Ergo et Christus.</p>
+            <p xml:id="ta-l3d10q1-d1e343">Praeterea, dicimus, quod Christus, secundum quod homo, aliquid operatus est, sicut quod comedit: et similiter secundum quod Deus; sicut quod mortuum suscitavit. Nec sequitur propter hoc quod Christus sit duo. Ergo videtur similiter quod si dicamus, Christum, secundum quod hominem, esse personam, et similiter secundum quod Deum, non sequitur ipsum esse duo; et ita nullum aliud inconveniens.</p>
+            <p xml:id="ta-l3d10q1-d1e346">Sed contra, quidquid convenit Christo secundum quod homo, hoc est assumptum. Sed persona non est assumpta, ut ex 5 dist., qu. 2, art. 1, patet. Ergo Christus non est persona secundum quod homo.</p>
+            <p xml:id="ta-l3d10q1-d1e350">Praeterea, impossibile est quod idem numero conveniat alicui secundum duas diversas naturas. Sed in Christo est tantum una persona. Ergo cum secundum naturam divinam conveniat ei esse personam, secundum naturam humanam non conveniet ei; et sic non erit persona inquantum est homo.</p>
+          </div>
+          <div xml:id="ta-l3d10q1-Dd1e354">
+            <head xml:id="ta-l3d10q1-Hd1e356">Quaestiuncula 2</head>
+            <p xml:id="ta-l3d10q1-d1e359">Ulterius. Videtur quod sit, secundum quod homo, individuum. Christus enim, secundum quod homo, est aliquid. Sed non est aliquid universale. Ergo est aliquid particulare: ergo secundum quod homo, est individuum.</p>
+            <p xml:id="ta-l3d10q1-d1e362">Praeterea, in individuo nihil est nisi natura speciei, et accidentia individuantia ipsam. Sed Christus, secundum quod homo, habet naturam humanam, et accidentia individuantia ipsam. Ergo secundum quod homo, est individuum.</p>
+            <p xml:id="ta-l3d10q1-d1e365">Praeterea, quidquid convenit naturae humanae, convenit Christo inquantum est homo, sicut esse passibile et mortale. Sed humana natura in Christo est quoddam individuum. Ergo Christus, inquantum homo, est individuum.</p>
+            <p xml:id="ta-l3d10q1-d1e368">Sed contra, individuum in genere rationalis naturae nihil aliud est quam persona. Sed Christus, secundum quod homo, non est persona. Ergo nec individuum.</p>
+          </div>
+          <div xml:id="ta-l3d10q1-Dd1e372">
+            <head xml:id="ta-l3d10q1-Hd1e374">Quaestiuncula 3</head>
+            <p xml:id="ta-l3d10q1-d1e377">Ulterius. Videtur quod Christus, secundum quod homo, sit suppositum, vel res naturae. Suppositum enim vel res naturae dicitur aliquis ex hoc quod habet naturam humanam. Sed Christus, secundum quod homo, habet humanam naturam. Ergo, secundum quod homo, est suppositum, vel res naturae.</p>
+            <p xml:id="ta-l3d10q1-d1e380">Praeterea, humana natura ita vere est in Christo, sicut accidentia humanae naturae. Sed Christus, secundum quod homo, est subjectum accidentium humanae naturae. Ergo et secundum quod homo, est suppositum, vel res naturae.</p>
+            <p xml:id="ta-l3d10q1-d1e383">Praeterea, Christus, secundum quod homo, est res quaedam. Sed non est res nullius naturae. Ergo est, secundum quod homo, res naturae.</p>
+            <p xml:id="ta-l3d10q1-d1e386">Sed contra, suppositum humanae naturae est idem quod hypostasis vel persona. Sed Christus, secundum quod homo, non est hypostasis vel persona. Ergo nec suppositum, vel res naturae.</p>
+            <p xml:id="ta-l3d10q1-d1e390">Praeterea, in Christo est tantum unum suppositum. Sed Christus, secundum quod Deus, est suppositum. Ergo non secundum quod homo, est suppositum.</p>
+          </div>
+          <div xml:id="ta-l3d10q1-Dd1e395">
+            <head xml:id="ta-l3d10q1-Hd1e397">Quaestiuncula 1</head>
+            <p xml:id="ta-l3d10q1-d1e400">Respondeo dicendum ad primam quaestionem, quod in Christo non est nisi una persona, quae est ab aeterno; nullum autem aeternum convenit Christo secundum quod homo, proprie loquendo, ut patet ex praedictis, <ref xml:id="ta-l3d10q1-Rd1e402">dist. 5, quaest. 1, art. 1;</ref> unde haec non est vera: Christus, secundum quod homo, est persona; nisi replicetur suppositum hominis, ut dicatur: Christus, secundum quod iste homo, est persona; hoc enim verum est.</p>
+            <p xml:id="ta-l3d10q1-d1e406">Ad primum ergo dicendum, quod Christus, secundum quod homo, est substantia rationalis naturae; sed secundum quod iste homo, est individua substantia rationalis naturae; unde secundum quod iste homo, est persona; sicut secundum quod iste homo, est Deus.</p>
+            <p xml:id="ta-l3d10q1-d1e409">Ad secundum dicendum, quod etiam nec Petrus, inquantum homo, est persona, sed secundum quod iste homo: quia haec non est per se: homo est persona; sed haec: iste homo est persona.</p>
+            <p xml:id="ta-l3d10q1-d1e412">Ad tertium dicendum, quod ex hoc quod Christus operatus est secundum quod homo et secundum quod Deus, sequitur quod in Christo sint duae operationes; ita etiam si Christus esset persona secundum quod homo et secundum quod Deus, sequeretur quod in ipso essent duae personae.</p>
+          </div>
+          <div xml:id="ta-l3d10q1-Dd1e416">
+            <head xml:id="ta-l3d10q1-Hd1e418">Quaestiuncula 2</head>
+            <p xml:id="ta-l3d10q1-d1e421">Ad secundam quaestionem dicendum, quod, sicut supra, <ref xml:id="ta-l3d10q1-Rd1e423">dist. 6, quaest. 1, art. 1,</ref> dictum est, individuum invenitur in substantiis et accidentibus. Secundum autem quod in substantiis est, habet de ratione sui quod sit subsistens: non autem secundum quod in accidentibus invenitur: et utroque modo invenitur in Christo; tamen altero tantum modo praedicatur. Humana enim natura in Christo est quoddam individuum; sed Christus non est illud individuum, sed est individuum subsistens: et hoc modo accipiendo individuum, secundum quod de Christo praedicatur, est in Christo unum tantum individuum sicut et una persona. Unde sicut Christus non est persona secundum quod homo, ita nec individuum.</p>
+            <p xml:id="ta-l3d10q1-d1e427">Ad primum ergo dicendum, quod Christus, secundum quod homo, est aliquid; non tamen sequitur: ergo secundum quod homo, est aliquid universale vel particulare: quia homini accidit esse universale vel particulare: unde haec est per accidens: homo est aliquid particulare; haec autem per se: iste homo est aliquid particulare. Unde Christus non est aliquid particulare secundum quod homo, sed secundum quod iste homo.</p>
+            <p xml:id="ta-l3d10q1-d1e430">Ad secundum dicendum, quod de ratione individui, secundum quod de Christo praedicatur, est quod sit per se subsistens; et hoc non convenit Christo secundum quod homo, sed secundum quod hic homo: unde non oportet quod sit individuum secundum quod homo.</p>
+            <p xml:id="ta-l3d10q1-d1e433">Ad tertium dicendum, quod ea quae conveniunt humanae naturae, non oportet quod eodem modo quo de natura praedicantur, de Christo praedicentur: quia ipsa natura de eo non praedicatur in recto et in abstracto; sed oblique vel concretive; unde non sequitur, si humana natura est individuum, quod Christus, secundum quod homo, sit individuum; sed quod habeat individuam naturam.</p>
+          </div>
+          <div xml:id="ta-l3d10q1-Dd1e437">   
+            <head xml:id="ta-l3d10q1-Hd1e439">Quaestiuncula 3</head>
+            <p xml:id="ta-l3d10q1-d1e442">Ad tertiam quaestionem dicendum, quod in propositionibus per se aliter est ex parte subjecti, et ex parte praedicati: quia ex parte subjecti sufficit quod secundum unum tantum eorum quae in subjecto continentur, praedicatum per se subjecto conveniat; ex parte autem praedicati oportet quod quidquid est in praedicato, per se conveniat subjecto; unde haec non est per se: homo est animal album; haec autem est per se: albus homo est animal. Secundum hoc dico, quod in hoc quod dico, suppositum, vel res naturae, duo importantur; scilicet respectus ad naturam communem; et aliud subsistens, cui inest respectus ille: quorum unum inest Christo secundum quod homo, scilicet respectus ad naturam communem; non autem alterum, ut patet ex praedictis, et ideo haec est falsa: Christus secundum quod homo, est suppositum, vel res naturae; tamen magis accedit ad veritatem quam aliqua praedictarum, inquantum ista nomina imponuntur per respectum ad naturam communem: unde si suppositum sumatur adjective, est vera: Christus enim, secundum quod homo, supponitur humanae naturae, vel est aliquod suppositum humanae naturae; et hoc etiam valet ad ea quae dicta sunt de persona et individuo.</p>
+            <p xml:id="ta-l3d10q1-d1e445">Et per hoc etiam patet solutio ad primum.</p>
+            <p xml:id="ta-l3d10q1-d1e448">Ad secundum dicendum, quod quia accidentia non pertinent ad esse rei sicut natura communis, ideo in nomine subjecti non includitur nisi respectus ad accidens; non autem ratio per se existentis, ut significatum ejus, sed sicut praesuppositum; et ideo non est similis ratio de subjecto et supposito.</p>
+            <p xml:id="ta-l3d10q1-d1e451">Ad tertium dicendum, quod Christus, secundum quod homo, est quaedam res, et etiam secundum quod homo, est alicujus naturae; non tamen sequitur quod sit res naturae secundum quod homo; quia plus est in significatione compositi quam in significationibus componentium: quod et in istis accidit; sicut non omnis arma gerens est armiger.</p>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

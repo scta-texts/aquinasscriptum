@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum III, Distinctio 15, Quaestio 1</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.09-dev-master">
+          <title>Librum III, Distinctio 15, Quaestio 1</title>
+          <date when="2016-03-12">March 12, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-12">March 12, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness>1856 editum</witness>
+          <witness xml:id="H" n="harv245" xml:base="http://iiif.lib.harvard.edu/manifests/drs:51994085/canvas/">Cambridge, Mass.,
+            Harvard University, Houghton Library, MS Lat 245</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="2015.09">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+
+
+
+
+      <div xml:id="starts-on">
+        <cb ed="#H" n="55rb"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ta-l3d15q1">
+        <head xml:id="ta-l3d15q1-Hd1e97">Librum III, Distinctio 15, Quaestio 1</head>
+        <div xml:id="ta-l3d15q1-Dd1e100">
+
+
+          <head xml:id="ta-l3d15q1-Hd1e102">Prooemium</head>
+          <p xml:id="ta-l3d15q1-d1e105">Postquam <name ref="#Lombard">Magister</name> determinavit de his quae Christus cum
+            natura humana assumpsit ad dignitatem pertinentia, hic determinat de his assumptis quae
+            pertinent ad defectum; et dividitur in duas partes: primo determinat de defectibus quos
+            Christus cum humana natura assumpsit; secundo determinat modum quo hujusmodi defectus in
+            Christo fuerunt, dist. 16, ibi: <quote xml:id="ta-l3d15q1-Qd1e110">hic oritur quaestio ex praedictis ducens
+              originem</quote>. Prima in duas: primo determinat veritatem, secundo excludit errorem,
+            ibi: <quote xml:id="ta-l3d15q1-Qd1e113">sed quia nonnulli de sensu in passione humanitatis Christi male sensisse
+              inveniuntur (...) indubitabile faciamus quod supra diximus</quote>. Prima in duas:
+            primo ostendit quos defectus cum humana natura assumpsit Christus; secundo ostendit quae
+            fuit causa assumptionis, ibi: <quote xml:id="ta-l3d15q1-Qd1e116">hos autem defectus non conditionis suae
+              necessitate, sed miserationis voluntate suscepit</quote>. Prima iterum in duas partes:
+            primo ostendit quod Christus in natura nostra accepit defectus poenales, et non culpae;
+            secundo ostendit quos de poenalibus defectibus non assumpsit, ibi: <quote xml:id="ta-l3d15q1-Qd1e119">tradit
+              auctoritas quod dominus noster in se suscepit omnia infirmitatis nostrae praeter
+              peccatum</quote>. Circa quod duo facit: primo ostendit quos defectus poenales non
+            suscepit ex parte animae; secundo quos defectus corporales non suscepit, ibi:
+              <quote xml:id="ta-l3d15q1-Qd1e123">sunt enim plura aegritudinum genera, et corporis vitia, a quibus omnino immunis
+              extitit</quote>. Circa primum duo facit: primo ostendit quod Christus non suscepit
+            ignorantiam, aut difficultatem ad bonum faciendum; secundo ostendit quod haec non sunt
+            culpa, sed poena, ibi: <quote xml:id="ta-l3d15q1-Qd1e126">sed forte dicet aliquis illa esse peccatum. Sed quia
+              nonnulli de sensu in passione humanitatis Christi male sensisse inveniuntur (...)
+              indubitabile faciamus quod supra diximus</quote>. Hic excludit errorem, et duo facit:
+            primo objicit contra errantes; secundo solvit illa quae pro se illi inducebant, ibi:
+              <quote xml:id="ta-l3d15q1-Qd1e129">quaedam tamen reperiuntur in sanctorum tractatibus quae praemissis adversari
+              videntur</quote>. Et haec dividitur in duas: primo solvit objectiones de passionibus,
+            quas dixerant esse animae tantum, sicut tristitia, et hujusmodi; secundo solvit de illis
+            quae sunt animae per corpus, sicut est dolor sensibilis, ibi: <quote xml:id="ta-l3d15q1-Qd1e132">verumtamen magis
+              movent ac difficiliorem afferunt quaestionem verba Hilarii</quote>. Circa primum tria
+            facit: primo ponit objectionem; secundo solvit, ibi: <quote xml:id="ta-l3d15q1-Qd1e135">ne autem in sacris litteris
+              aliqua adversa diversitas esse putetur, harum auctoritatum verba in hunc modum
+              accipienda dicimus</quote>; tertio solutionem confirmat, ibi: <quote xml:id="ta-l3d15q1-Qd1e138">unde Augustinus
+              ex his causis volens assumi dictorum intelligentiam, dicit. Verumtamen magis movent ac
+              difficiliorem afferunt quaestionem verba Hilarii</quote>. Haec pars etiam dividitur in
+            duas: primo ponit objectionem; secundo solvit, ibi: <quote xml:id="ta-l3d15q1-Qd1e142">sed si excussa sensus et
+              impietatis hebetudine, praemissis diligenter intendas (...) dictorum rationem, atque
+              virtutem percipere utcumque poteris</quote>. Hic est duplex quaestio. Primo de his
+            defectibus in generali. Secundo specialiter de passionibus animae. Circa primum
+            quaeruntur tria: 1 utrum Christus debuerit assumere naturam humanam cum hujusmodi
+            infirmitatibus; 2 utrum omnes nostros defectus suscipere debuerit; 3 utrum hos defectus
+            quos assumpsit, contraxerit.</p>
+        </div>
+        <div xml:id="ta-l3d15q1-Dd1e147" type="articulus">
+          <head xml:id="ta-l3d15q1-Hd1e149">Articulus 1</head>
+          <head xml:id="ta-l3d15q1-Hd1e152" type="questionTitle">Utrum Christus naturam humanam cum defectibus et infirmitatibus
+            accipere debuit</head>
+          <p xml:id="ta-l3d15q1-d1e155">Ad primum sic proceditur. Videtur quod Christus humanam naturam cum infirmitatibus
+            hujusmodi defectuum suscipere non debuit. Christus enim per suam incarnationem votis
+            antiquorum patrum satisfecit. Isaiae 61, 9, dicitur ad exprimendum desiderium sanctorum
+            patrum: <quote xml:id="ta-l3d15q1-Qd1e157">consurge consurge: induere fortitudinem brachium domini</quote>. Ergo non
+            debuit venire indutus infirmitate carnis.</p>
+          <p xml:id="ta-l3d15q1-d1e161">Praeterea, hujusmodi defectus poenae sunt. Sed poena non est justa nisi ubi culpa est.
+            Cum igitur absque omni culpa fuerit, videtur quod poenales defectus suscipere non
+            debuit.</p>
+          <p xml:id="ta-l3d15q1-d1e164">Praeterea, contraria contrariis curantur. Sed Christus venerat curare nostras
+            infirmitates. Ergo debuit contraria assumere, scilicet robur et fortitudinem.</p>
+          <p xml:id="ta-l3d15q1-d1e168">Praeterea, ipse venerat ad vincendum Diabolum. Sed vincere est opus fortitudinis. Ergo
+            non debuit assumere infirmitatem.</p>
+          <p xml:id="ta-l3d15q1-d1e171">Praeterea, sicut culpa derogat justitiae, ita infirmitas derogat virtuti. Sed Christus
+            non debuit assumere defectus culpae, ne derogaretur divinae justitiae. Ergo similiter
+            nec debuit suscipere infirmitates poenales, ne derogaretur divinae virtuti.</p>
+          <p xml:id="ta-l3d15q1-d1e174">Praeterea, ipse venerat ad hoc quod homines in divinam cognitionem adduceret. Sed per
+            infirmitates magis a sui cognitione abducebat, ut dicitur Isai. 53, 2: <quote xml:id="ta-l3d15q1-Qd1e176">vidimus
+              eum (...) despectum</quote>; et sequitur: <quote xml:id="ta-l3d15q1-Qd1e179">unde nec reputavimus eum</quote>.
+            Ergo non debuit hujusmodi infirmitates assumere.</p>
+          <p xml:id="ta-l3d15q1-d1e183">Sed contra, Hebr. 2, 18: <quote xml:id="ta-l3d15q1-Qd1e185">in eo in quo passus est, et tentatus, potens est et his
+              qui tentantur, auxiliari</quote>. Sed Christus ad auxiliandum hominibus venerat. Ergo
+            debuit eorum defectus suscipere.</p>
+          <p xml:id="ta-l3d15q1-d1e189">Praeterea, Christus venerat ad redimendum genus humanum. Sed opus redemptionis congrue
+            compleri non poterat nisi per passionem, ut infra dicetur. Ergo debuit defectus
+            assumere, secundum quos passibilis fuit.</p>
+          <p xml:id="ta-l3d15q1-d1e192">Praeterea, Christus ad hoc venerat ut esset mediator inter nos et Deum. Ergo debuit
+            communicare cum utroque. Cum Deo communicavit in justitia. Ergo nobiscum debuit
+            communicare in poena.</p>
+          <p xml:id="ta-l3d15q1-d1e196">Respondeo dicendum, quod Christus ad hoc venit, ut humanum genus in Deum reduceret, a
+            quo per peccatum abductum erat. Et ideo sicut mediator, ea quae Dei sunt, in nos
+            transfundit, scilicet gratiam et justitiam; et ea quae nostra sunt, quodammodo in Deum:
+            non autem nostra quae a nobis tantum sunt, non a Deo, scilicet peccata, quia per haec ad
+            Deum non ordinamur, sed magis deordinamur ab eo; sed ea quae a Deo in nobis sunt, quae
+            omnia in se ordinata sunt, et ad ipsum nos ordinantia. Et ideo ea quae fecit in nobis
+            Deus, transtulit in Deum, non quidem in naturam divinam, sed in personam ea assumendo.
+            Fecit autem Deus in nobis naturam, et perfectiones naturae, et defectus poenales, et
+            etiam quosdam naturales, sicut indigentiam cibi, quam etiam homo in statu innocentiae
+            habuisset: et ideo hos defectus simul cum natura in sua persona suscepit: haec enim in
+            sua persona suscipere, est ipsa Deo repraesentare ad placandum ipsum nobis.</p>
+          <p xml:id="ta-l3d15q1-d1e199">Ad primum ergo dicendum, quod desiderium sanctorum patrum fuit ut veniret in
+            fortitudine spirituali, scilicet gratiae et scientiae et virtutis, quae per hos defectus
+            quos Christus assumpsit non impeditur.</p>
+          <p xml:id="ta-l3d15q1-d1e202">Ad secundum dicendum, quod quamvis culpa non praecesserit in ipso, tamen praecessit in
+            natura humana, quam Deo reconciliare venerat; et ideo inquantum consideratur ut gerens
+            vicem totius naturae in satisfaciendo pro ipsa, quidquid in natura humana ad defectum
+            pertinens, rationem justae poenae habet, etiam in ipso habuit.</p>
+          <p xml:id="ta-l3d15q1-d1e205">Ad tertium dicendum, quod infirmitas curatur optime per curationem suae causae, et per
+            consequens per contraria causae. Causa autem horum defectuum in nobis est culpa; et ideo
+            per contraria culpae hos defectus curare debuit, scilicet per gratiam et virtutes.</p>
+          <p xml:id="ta-l3d15q1-d1e208">Ad quartum dicendum, quod venerat vincere fortem per justitiam, satisfaciendo; et ideo
+            oportuit quod haberet defectus, secundum quod satisfaceret. Et praeterea per
+            fortitudinem oppositam istis defectibus non vincitur Diabolus, sed per fortitudinem
+            virtutis et gratiae.</p>
+          <p xml:id="ta-l3d15q1-d1e211">Ad quintum dicendum, quod culpa non solum repugnat Deo, quia in ipsum non cadit, sed
+            etiam quia ab ipso separat: quia est perversitas voluntatis, secundum quam anima nata
+            est Deo conjungi: sed infirmitas quamvis in Deum non cadat, tamen a Deo non separat; et
+            ideo non est similis ratio.</p>
+          <p xml:id="ta-l3d15q1-d1e215">Ad sextum dicendum, quod Christus non venerat manifestare se secundum humanam naturam,
+            sed secundum divinam; unde dixit: <quote xml:id="ta-l3d15q1-Qd1e217">ergo non quaero gloriam meam, sed ejus qui me
+              misit</quote>. Gloriam autem Dei magis clarificavit per assumptam infirmitatem,
+            inquantum inventum est quod id quod est infirmius Dei, est potentius hominibus; 1
+            Corinth. 1.</p>
+        </div>
+        <div xml:id="ta-l3d15q1-Dd1e222" type="articulus">
+          <head xml:id="ta-l3d15q1-Hd1e224">Articulus 2</head>
+          <head xml:id="ta-l3d15q1-Hd1e227" type="questionTitle">Utrum omnes defectus praeter peccatum accipere debuit</head>
+
+          <p xml:id="ta-l3d15q1-d1e230">Ad secundum sic proceditur. Videtur, quod Christus debuit omnes defectus praeter
+            peccatum assumere. Heb. 2, 17, dicitur, quod <quote xml:id="ta-l3d15q1-Qd1e232">debuit per omnia fratribus
+              assimilari ut misericors fieret</quote>. Sed misericordia respicit omnem miseriam.
+            Ergo debuit omnes nostros defectus assumere.</p>
+          <p xml:id="ta-l3d15q1-d1e236">Praeterea, sicut dicit Damascenus, quod est inassumptibile, est incurabile. Sed ipse
+            venerat omnes nostros defectus curare, ergo debuit omnes suscipere.</p>
+          <p xml:id="ta-l3d15q1-d1e239">Praeterea, in susceptione nostrorum defectuum manifestatur Christi humilitas. Sed ipse
+            humiliatus est quantumcumque humiliari potuit; ut dicit Bernardus. Ergo ipse debuit
+            omnes nostros defectus suscipere.</p>
+          <p xml:id="ta-l3d15q1-d1e243">Praeterea, omnes defectus aequaliter dedecent Dei majestatem. Si ergo aliquos suscepit,
+            eadem ratione omnes suscipere debuit.</p>
+          <p xml:id="ta-l3d15q1-d1e246">Praeterea, ipse curavit naturam nostram per gratiam et infirmitatem quam accepit. Sed
+            ipse accepit omnem gratiam. Ergo omnem defectum suscipere debuit.</p>
+          <p xml:id="ta-l3d15q1-d1e249">Sed contra, Christus, qui totam humanam naturam curare venerat, debuit integram habere.
+            Sed quidam defectus sunt qui integritati naturae repugnant, sicut caecitas, et defectus
+            membrorum. Ergo non omnes defectus debuit habere.</p>
+          <p xml:id="ta-l3d15q1-d1e252">Praeterea, Christus debuit esse perfectus in gratia. Sed quidam defectus sunt qui
+            perfectioni gratiae repugnant, sicut ignorantia, et difficultas ad bonum. Ergo non omnes
+            defectus habere debuit.</p>
+          <p xml:id="ta-l3d15q1-d1e255">Praeterea, contraria nata non sunt fieri in eodem. Sed quaedam infirmitates sunt sibi
+            contrariae ex contrariis causis causatae. Ergo non potuit omnes nostras infirmitates
+            habere.</p>
+          <p xml:id="ta-l3d15q1-d1e258">Respondeo, dicendum, quod, sicut dicit Damascenus, Christus habuit in se omnes
+            naturales et indetractibiles passiones. Dicuntur autem passiones naturales quaecumque
+            universaliter humanam naturam consequuntur, sive ex conditione naturae, sicut indigentia
+            cibi et potus, sive quae pro peccato primi parentis in totam naturam devenerunt ex
+            principiis naturae sibi relictae causat, sicut fames, sitis, labor, dolori, et
+            hujusmodi. Indetractibiles autem passiones sunt quae defectum gratiae non important,
+            sicut importat pronitas ad malum, et difficultas ad bonum, et hujusmodi, quae ex
+            carentia gratiae vel perfectionis contingunt. Ex hoc enim laus Christi minueretur, si
+            perfectus in virtutibus non fuisset, secundum quas est laus, et vituperium sive
+            detrectatio secundum earum opposita. Unde duo genera defectuum non assumpsit, illa
+            scilicet quae non universaliter humanam naturam consequuntur, sicut lepra, caecitas,
+            febris, et hujusmodi: contingunt enim ex particularibus corruptionibus in singulis
+            personis; et hos defectus assumere non debuit, quia ad curandum naturae morbum venit.
+            Item illa non assumpsit quae ad imperfectionem gratiae pertinent, sicut ignorantiam,
+            difficultatem ad bonum, et hujusmodi: quia ipse venerat ad hoc ut de plenitudine suae
+            gratiae omnes acciperemus.</p>
+          <p xml:id="ta-l3d15q1-d1e262">Ad primum ergo dicendum, quod debuit fratribus assimilari quantum ad illa in quae omnes
+            fratres conveniunt, quae ad defectum gratiae non pertinent: non enim fuit fratribus
+            similis nisi in natura speciei; et ideo quantum ad actus et defectus qui consequuntur
+            totam speciem, debuit fratribus assimilari.</p>
+          <p xml:id="ta-l3d15q1-d1e265">Ad secundum dicendum, quod sicut Deus curavit omnes in hoc quod assumpsit naturam, in
+            qua omnes conveniunt; ita curavit omnes defectus in hoc quod assumpsit illos defectus in
+            quibus omnes conveniunt, ex quibus quasi causis primordialibus alii oriuntur: ex
+            passibilitate enim naturae quam assumpsit, sequitur febris, et omnia hujusmodi.</p>
+          <p xml:id="ta-l3d15q1-d1e268">Ad tertium dicendum, quod humiliari debuit inquantum potuit decenter. Non autem fuit
+            decens ut qui venerat alios in gratiam adducere, defectum vel imperfectionem gratiae
+            pateretur; neque qui naturam in aliis integrare venerat, ipse in his in quibus alii
+            integri sunt, defectum pateretur.</p>
+          <p xml:id="ta-l3d15q1-d1e271">Ad quartum dicendum, quod quamvis omnes defectus aequaliter sint indecentes divinae
+            majestati quantum ad suam naturam, non tamen quantum ad naturam assumptam, ut patet ex
+            dictis.</p>
+          <p xml:id="ta-l3d15q1-d1e274">Ad quintum dicendum, quod aliqui defectus sunt qui plenitudini gratiae repugnant; et
+            ideo ex hoc quod habuit omnem gratiam, magis debet concludi quod non habuit omnes
+            defectus quam quod habuit. Vel dicendum, quod quia alios reintegrare venerat, debuit in
+            perfectionibus potentior esse, non in defectibus, quia plus indiguisset ipse reformari
+            quam reformare; et ideo habuit omnem gratiam, non tamen, omnem defectum.</p>
+        </div>
+        <div xml:id="ta-l3d15q1-Dd1e278" type="articulus">
+          <head xml:id="ta-l3d15q1-Hd1e280">Articulus 3</head>
+          <head xml:id="ta-l3d15q1-Hd1e283" type="questionTitle">Utrum hujusmodi defectus susceperit, vel contraxerit</head>
+          <p xml:id="ta-l3d15q1-d1e286">Ad tertium sic proceditur. Videtur quod hujusmodi defectus contraxerit. Illud enim
+            proprie contrahitur quod cum alio trahitur. Sed ipse hos defectus cum natura traxit.
+            Ergo eos contraxit.</p>
+          <p xml:id="ta-l3d15q1-d1e289">Praeterea, id quod ex ratione originis habetur, proprie contrahitur. Sed ex ratione
+            suae originis Christus habuit hos defectus: quia ex ratione suae originis matri similis
+            est natus, quae his defectibus subjacuit. Ergo ipse istos defectus contraxit.</p>
+          <p xml:id="ta-l3d15q1-d1e292">Praeterea, illud cum natura contrahitur quod ex principiis naturae causatur. Sed
+            hujusmodi defectus, ut fames, sitis, et hujusmodi, ex principiis naturae causantur: quia
+            ex actibus contrariorum in invicem, ex quibus homo naturaliter constat. Ergo hos
+            defectus contraxit.</p>
+          <p xml:id="ta-l3d15q1-d1e296">Praeterea, verbum contrahendi, secundum quod hic loquimur, videtur traductionem
+            importare. Sed Christus habuit hujusmodi defectus per traductionem corporis ex corpore,
+            non ex conditione animae. Ergo Christus hos defectus contraxit.</p>
+          <p xml:id="ta-l3d15q1-d1e299">Praeterea, sicut culpa originalis contrahitur a patre, ita istae poenalitates
+            contrahuntur ex matre, sicut dictum est in 2 Lib. Sed Christus ex matre passibilis natus
+            est, quamvis non ex patre peccatore. Ergo hujusmodi poenalitates contraxit.</p>
+          <p xml:id="ta-l3d15q1-d1e302">Sed contra, quod voluntarie assumitur, non contrahitur. Sed Christus voluntarie
+            assumpsit hos defectus, sicut et ipsam naturam. Ergo non contraxit eos.</p>
+          <p xml:id="ta-l3d15q1-d1e305">Praeterea, nos dicimur contrahere hos defectus quia nobis debentur propter culpam
+            originalem. Sed in Christo culpa originalis non fuit. Ergo Christus hos defectus non
+            contraxit.</p>
+          <p xml:id="ta-l3d15q1-d1e308">Respondeo dicendum, quod illud proprie contrahitur quod ex necessitate alio tracto
+            trahitur; et quia ex hoc ipso quod humanam naturam trahimus ex parentibus per vitiatam
+            originem, sequitur de necessitate quod hos defectus habeamus; ideo dicimur hos defectus
+            contrahere. Christus autem potuit humanam naturam sine his defectibus assumere, sicut
+            cum defectibus assumpsit; et ideo non fuerunt in eo ex hoc ipso quod humanam naturam a
+            parentibus traxit; sed sicut voluntarie assumpsit naturam humanam, ita et hos defectus:
+            et propter hoc dicitur assumpsisse hos defectus, non contraxisse.</p>
+          <p xml:id="ta-l3d15q1-d1e311">Ad primum ergo dicendum, quod haec conjunctio con non solum notat simultatem temporis
+            in hoc quod dicitur aliquid contrahi, sed ordinem necessariae consecutionis unius ad
+            alterum.</p>
+          <p xml:id="ta-l3d15q1-d1e315">Ad secundum dicendum, quod generatum, inquantum hujusmodi, assimilatur ei quod generat
+            ipsum active, quia agens similat sibi patiens; quod autem aliquando natus assimilatur
+            matri, ex qua generatur materialiter, est ex defectu virtutis activae, quae non potest
+            materiam contrahere ad sui similitudinem; unde vincunt motus materiae, et assimilatur
+            filius matri. Neutro istorum modorum fuit necessarium quod Christus matri assimilaretur:
+            tum quia mater non fuit agens in generatione, sed solum materiam ministravit: tum quia
+            non fuit aliquis defectus ex parte virtutis agentis, scilicet spiritus sancti; et ideo
+            quod assimilatus est matri in his defectibus, hoc fuit ex sola ejus voluntate.</p>
+          <p xml:id="ta-l3d15q1-d1e318">Ad tertium dicendum, quod ex principiis naturae sibi relictae, idest privatae illo dono
+            gratiae quod naturae primo conditae datum fuerat, ut in 2 Lib. dictum est, hujusmodi
+            defectus causantur. Sed Christus poterat naturam humanam accipere cum illa perfectione
+            quam gratis in sua conditione natura humana acceperat; et ideo non de necessitate
+            contraxit, sed voluntarie assumpsit.</p>
+          <p xml:id="ta-l3d15q1-d1e321">Ad quartum dicendum, quod verbum contrahendi non solum importat traductionem, sed
+            necessarium ordinem ad aliud tractum, ut dictum est.</p>
+          <p xml:id="ta-l3d15q1-d1e324">Ad quintum dicendum, quod illud habet veritatem in illis qui secundum legem naturae
+            nascuntur; Christus autem non sic ex virgine natus est, sed supra naturam; et ideo ratio
+            non sequitur.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

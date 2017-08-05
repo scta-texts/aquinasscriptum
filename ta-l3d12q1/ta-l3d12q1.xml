@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum III, Distinctio 12, Quaestio 1</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.09-dev-master">
+          <title>Librum III, Distinctio 12, Quaestio 1</title>
+          <date when="2016-03-11">March 11, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-11">March 11, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness>1856 editum</witness>
+          <witness xml:id="H" n="harv245" xml:base="http://iiif.lib.harvard.edu/manifests/drs:51994085/canvas/">Cambridge, Mass., Harvard University, Houghton Library, MS Lat 245</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="2015.09">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+      <div xml:id="starts-on">
+        <cb ed="#H" n="44vb" select="dd"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ta-l3d12q1">
+        <head xml:id="ta-l3d12q1-Hd1e97">Librum III, Distinctio 12, Quaestio 1</head>
+        <div xml:id="ta-l3d12q1-Dd1e100">
+          <head xml:id="ta-l3d12q1-Hd1e102">Prooemium</head>
+          <p xml:id="ta-l3d12q1-d1e105">Postquam ostendit Magister quod nomen creaturae non praedicatur de Christo simpliciter, sed cum determinatione, hic inquirit de defectibus qui consequuntur naturam humanam, secundum quod creatura est; et dividitur in duas partes: primo inquirit de defectu qui communiter consequitur omnem creaturam, scilicet incipere esse; secundo de defectibus qui consequuntur specialiter humanam naturam, ibi: <quote xml:id="ta-l3d12q1-Qd1e107">solet etiam quaeri, utrum alium hominem, vel aliunde hominem quam de genere illius Adae, Deus assumere potuerit</quote>. Circa primum tria facit: primo movet quaestionem; secundo objicit ad utramque partem, ibi: <quote xml:id="ta-l3d12q1-Qd1e110">de hoc Augustinus inquit ita</quote>; tertio determinat eam, ibi: <quote xml:id="ta-l3d12q1-Qd1e113">his autem auctoritatibus in nullo reluctantes, dicimus, hominem illum, inquantum homo est, esse coepisse. Solet etiam quaeri, utrum alium hominem (...) Deus assumere potuerit</quote>. Hic prosequitur de defectibus qui pertinent ad humanam naturam tantum; et dividitur in duas partes: primo inquirit de defectu culpae; secundo de defectu naturae, qui est sexus femineus, ibi: <quote xml:id="ta-l3d12q1-Qd1e116">solet etiam quaeri, quamvis curiose, a nonnullis, si Deus humanam naturam potuit assumere secundum muliebrem sexum</quote>. Circa primum duo facit: primo quaerit de defectu culpae quantum ad originem, scilicet utrum aliunde quam de peccatoribus carnem assumere potuisset; secundo de defectu culpae quantum ad actum, utrum scilicet peccare potuisset, ibi: <quote xml:id="ta-l3d12q1-Qd1e119">ideo non immerito quaeritur utrum homo ille potuerit peccare</quote>. Et circa hoc tria facit: primo movet quaestionem; secundo determinat, ibi: <quote xml:id="ta-l3d12q1-Qd1e123">hic distinctione opus est</quote>; tertio objicit contra determinationem, ibi: <quote xml:id="ta-l3d12q1-Qd1e126">quidam tamen probare conantur eam, etiam unitam verbo, posse peccare</quote>: et primo objicit per rationem; secundo per auctoritatem, ibi: <quote xml:id="ta-l3d12q1-Qd1e129">inducunt quoque auctoritatem ad probandum idem</quote>, et utrumque solvit, ut patet in littera. <quote xml:id="ta-l3d12q1-Qd1e132">Solet etiam quaeri, quamvis curiose, a nonnullis, si Deus humanam naturam potuit assumere secundum muliebrem sexum</quote>. Hic inquirit de defectu naturae, qui est sexus femineus: et primo movet quaestionem; secundo solvit, ibi: <quote xml:id="ta-l3d12q1-Qd1e135">quidam arbitrantur eum potuisse assumere hominem in femineo sexu</quote>. Hic quaeruntur tria. Primo de inceptione. Secundo de potentia peccandi. Tertio de congruitate assumptionis respectu sexus feminei. De congruitate tamen assumptionis respectu generis Adae, dist. 2, qu. 1, art. 2, dictum est. Circa primum quaeruntur duo: 1 utrum iste homo, demonstrato Christo, incepit esse; 2 utrum incepit esse Deus.</p>
+        </div>
+        <div xml:id="ta-l3d12q1-Dd1e140" type="articulus">
+          <head xml:id="ta-l3d12q1-Hd1e142">Articulus 1</head>
+          <head xml:id="ta-l3d12q1-Hd1e145" type="questionTitle">Utrum haec sit vera: iste homo incepit esse</head>
+          <p xml:id="ta-l3d12q1-d1e148">Ad primum sic proceditur. Videtur, quod haec sit vera: iste homo incepit esse. Omne enim quod non semper fuit, et est, incepit esse. Sed sicut dicit <name ref="#Augustine">Augustinus</name> in littera, mediator Dei et hominum, homo Christus, non fuit prius quam mundus esset. Ergo incepit esse.</p>
+          <p xml:id="ta-l3d12q1-d1e154">Praeterea, iste demonstrat suppositum utriusque naturae, divinae scilicet et humanae. Sed ratione divinae naturae potest dici: iste homo semper fuit. Ergo cum incipere conveniat humanae naturae, sicut etiam esse ab aeterno divinae, ratione humanae naturae potest dici: iste homo incepit esse.</p>
+          <p xml:id="ta-l3d12q1-d1e157">Praeterea, antequam mundus fieret, erat verum dicere: nullus homo est. Ergo haec erat falsa: aliquis homo est, vel iste homo est. Nunc autem est vera. Ergo iste homo coepit esse.</p>
+          <p xml:id="ta-l3d12q1-d1e161">Praeterea, quod incepit esse in aliqua specie, incepit esse simpliciter. Sed iste homo incepit esse in specie humana. Ergo incepit esse simpliciter.</p>
+          <p xml:id="ta-l3d12q1-d1e164">Praeterea, nasci temporaliter, est mutari de non esse in esse. Sed iste homo est natus in tempore. Ergo est mutatus de non esse in esse. Sed omne tale incepit esse. Ergo iste homo incepit esse.</p>
+          <p xml:id="ta-l3d12q1-d1e167">Praeterea, iste homo supponit personam compositam. Sed persona composita non fuit ab aeterno: quia quando non est compositio, non potest esse aliquod compositum. Ergo iste homo non fuit semper; ergo incepit esse.</p>
+          <p xml:id="ta-l3d12q1-d1e170">Sed contra, nullum aeternum incepit esse. Sed iste homo supponit suppositum aeternum. Ergo non incepit esse.</p>
+          <p xml:id="ta-l3d12q1-d1e173">Praeterea, omne quod incepit esse, est creatura. Sed iste homo non est creatura, ut dictum est supra, dist. 11, art. 3. Ergo iste homo non incepit esse.</p>
+          <p xml:id="ta-l3d12q1-d1e176">Praeterea, <ref xml:id="ta-l3d12q1-Rd1e178"><title ref="#io">Joan.</title> 8, 58</ref>, dicit ille homo de quo loquimur: <quote xml:id="ta-l3d12q1-Qd1e183" ana="#io8_58">antequam <name ref="#Abraham">Abraham</name> fieret, ego sum</quote>; et simili ratione potuisset vere dicere: antequam mundus fieret, ego sum. Sed nullum tale incepit esse. Ergo iste homo non incepit esse.</p>
+          <p xml:id="ta-l3d12q1-d1e191">Respondeo dicendum, quod quidam distinguunt istam: <quote xml:id="ta-l3d12q1-Qd1e193">iste homo incepit esse</quote>, ex hoc quod pronomen iste potest demonstrare personam verbi, vel singulare hominis: et primo modo est falsa, secundo modo vera. Sed cum dicitur: iste homo, hoc pronomen iste non potest demonstrare nisi id quod supponitur per hoc nomen homo. Suppositum autem per hoc nomen homo non est aliud quam persona verbi secundum secundam opinionem; unde secundum eam non potest stare: quia quamvis ponat in Christo esse aliquid singulare praeter personam verbi, scilicet humanam naturam; tamen illud singulare non supponitur per hoc nomen homo, nec praedicatur de Christo, sicut 6 dist., qu. 1, art. 1, dictum est; et ideo patet quod ista distinctio est secundum primam opinionem bona. Et ideo hac omissa, quidam dicunt, quod hoc verbum incipit potest notare inceptionem respectu suppositi simpliciter; et sic est falsa, quia suppositum illud est aeternum: vel respectu suppositi ratione formae significatae; et sic est vera; et ponunt exemplum de hac: <quote xml:id="ta-l3d12q1-Qd1e196">scutum album incipit esse hodie</quote>, supposito quod scutum ab heri factum hodie dealbetur. Sed hoc dictum non videtur habere efficaciam propter duo: primo, quia etsi humana natura habeat aliquid simile accidenti in Christo, tamen hoc nomen homo non est adjectivum, sed substantivum, etiamsi natura humana esset pure accidentaliter adveniens; et in talibus plus facit modus significandi quam proprietas rei significatae: secundo, quia dato quod esset adjectivum, oportet quod praedicatum conveniret ei quod copulatur vel supponitur per nomen positum in subjecto, vel ratione alicujus quod in eo est. Illa autem praedicata quae nata sunt ipsi supposito convenire, non praedicantur simpliciter de eo ratione alicujus quod in ipso est, neque secundum partem, neque secundum accidens aut naturam, nisi ei secundum se conveniat: quia tunc sequeretur quod affirmatio et negatio verificentur de eodem, si ratione alicujus existentis in ipso verificaretur quod ratione sui de eo vere negatur: et hoc patet in proposito. Ei enim quod supponitur cum dicitur: isti homini, convenit esse semper; unde de eo non potest verificari negatio, ut dicatur, non fuit semper, simpliciter loquendo; et per consequens nec aliquid quod negationem dictam implicet, sicut verbum incipiendi. Unde dicendum est quod haec est simpliciter falsa: iste homo incepit esse; et est secundum quid vera, scilicet cum determinatione humanae naturae; sicut et haec: iste homo est creatura, est falsa, nisi ei determinatio addatur; et tunc etiam est tropica, ut supra dixit Magister. Unde hic non intendit eam distinguere tamquam multiplicem, sed dicere quomodo potest esse vera et falsa.</p>
+          <p xml:id="ta-l3d12q1-d1e200">Ad primum ergo dicendum, quod secundum regulam a Magistro praecedenti distinctione datam intelligenda est illa auctoritas cum determinatione, quamvis causa brevitatis non apponatur.</p>
+          <p xml:id="ta-l3d12q1-d1e203">Ad secundum dicendum, quod quamvis illud suppositum sit utriusque naturae suppositum, tamen quantum ad aliqua se habet aliter ad naturam divinam quam ad humanam: quia est idem re cum divina et constitutum in esse per ipsam secundum modum intelligendi; unde quandocumque fuit natura divina, fuit ipsum suppositum. Non autem ita se habet ad naturam humanam; et ideo non oportet quod incipiente humana natura, ipsum incipiat.</p>
+          <p xml:id="ta-l3d12q1-d1e206">Ad tertium dicendum, quod ab aeterno verum fuisset dicere: nullus homo est: quia suppositum aeternum nondum erat suppositum humanae naturae; unde non poterat sumi sub dicta distributione, sicut nunc potest propter unionem. Unde quamvis ab aeterno non erat verum dicere: aliquis homo est aeternus; modo tamen est verum dicere: aliquis, vel iste homo est ab aeterno.</p>
+          <p xml:id="ta-l3d12q1-d1e209">Ad quartum dicendum, quod nasci temporaliter ex matre non est natum convenire supposito nisi ratione corporis, ut supra dictum est, et ideo ratione ejus verificatur simpliciter de supposito. Sed incipere esse non potest verificari de eo ratione corporis simpliciter, sed cum determinatione; et ideo haec est vera simpliciter: iste homo est natus temporaliter; non tamen ista: iste homo incepit esse, sed est vera secundum quid.</p>
+          <p xml:id="ta-l3d12q1-d1e212">Ad quintum dicendum, quod in aliis suppositis quae sunt supposita tantum unius naturae, sequitur quod si incipiunt esse in aliqua specie, incipiunt esse simpliciter; sed non est ita in proposito; unde quantum ad hoc similitudinem habet humana natura in Christo cum accidente; et ideo sicut non sequitur: iste homo incepit esse albus, ergo incepit esse; ita nec sequitur: iste incepit esse homo, ergo incepit esse.</p>
+          <p xml:id="ta-l3d12q1-d1e216">Ad sextum dicendum, quod quia compositio non semper fuit, ideo haec est falsa: persona semper fuit composita; sed tamen haec est vera: persona composita semper fuit: quia ad veritatem propositionis sufficit, quod praedicatum conveniat subjecto; nec oportet quod conveniat ei ratione formae significatae vel appositae, nisi sit praedicatio per se; et ideo, quia personae convenit semper fuisse, quamvis non ratione compositionis; haec est simpliciter vera: persona composita semper fuit. Sed ad veritatem propositionis exigitur quod totum quod est in praedicato, conveniat subjecto; et ideo compositio quam significat hoc nomen compositum non convenit ab aeterno personae; et ideo haec est falsa: persona ista semper fuit composita.</p>
+          <p xml:id="ta-l3d12q1-d1e219">Ad septimum dicendum, quod idem judicium est de ista: homo incepit esse Deus, et homo factus est Deus; et eaedem rationes utrobique fieri possunt; et ideo requiratur supra, dist. 7, quaest. 2, art. 2, ubi inquisitum est, utrum homo factus sit Deus.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

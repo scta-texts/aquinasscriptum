@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 25, Quaestio 1</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Librum IV, Distinctio 25, Quaestio 1</title>
+          <date when="2016-03-19">March 19, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-19">March 19, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness>1856 editum</witness>
+          <witness xml:id="G" n="ghent567">Ghent, Belgium, Ghent University Library, 567</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="0.0.0-dev">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+
+
+
+
+      <div xml:id="starts-on">
+        <cb ed="#G" n="427a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ta-l4d25q1">
+        <head xml:id="ta-l4d25q1-Hd1e97">Librum IV, Distinctio 25, Quaestio 1</head>
+        <div xml:id="ta-l4d25q1-Dd1e100">
+
+          <head xml:id="ta-l4d25q1-Hd1e102">Prooemium</head>
+          <p xml:id="ta-l4d25q1-d1e105">Postquam determinavit Magister de sacramento ordinis, hic determinat de conferentibus
+            et suscipientibus hoc sacramentum; et dividitur in partes duas: in prima determinat de
+            conferentibus; in secunda de suscipientibus, ibi: <quote xml:id="ta-l4d25q1-Qd1e107">sacri canones sanxerunt ut
+              subdiaconus non ordinetur ante quatuordecim annos</quote> et cetera. Prima in duas: in
+            prima inquirit de haeretici, utrum possint ordinare; secundo specialiter de simoniacis,
+            ibi: <quote xml:id="ta-l4d25q1-Qd1e110">de simoniacis vero non est ambigendum quin sint haeretici</quote>. Prima in
+            tres; in prima ponit auctoritatem ad ostendendum quod haeretici non possunt hoc
+            sacramentum conferre; in secunda ponit auctoritates ad contrarium, ibi: <quote xml:id="ta-l4d25q1-Qd1e113">contra
+              autem alii sentire videntur</quote>; in tertia solvit, ibi: <quote xml:id="ta-l4d25q1-Qd1e116">haec autem quidam
+              ita determinant</quote>. Et ponit quatuor solutiones diversorum, ut in littera patet.
+              <quote xml:id="ta-l4d25q1-Qd1e119">De simoniacis autem non est ambigendum quin sint haeretici</quote>. Hic
+            inquirit de simoniacis; et circa hoc duo facit: primo ostendit qui sunt simoniaci;
+            secundo utrum possint ordinare, ibi: <quote xml:id="ta-l4d25q1-Qd1e123">differt tamen inter eos qui ordinantur a
+              simoniacis scienter, et eos qui ignoranter</quote>. Hic est triplex quaestio. Prima de
+            ordinantibus. Secunda de ordinatis. Tertia de simoniacis. Circa primum quaeruntur: 1
+            utrum solus episcopus possit conferre ordinis sacramentum; 2 utrum haereticus, vel
+            quicumque ab Ecclesia praecisus.</p>
+
+        </div>
+        <div xml:id="ta-l4d25q1-Dd1e128" type="articulus">
+          <head xml:id="ta-l4d25q1-Hd1e130">Articulus 1</head>
+
+          <head xml:id="ta-l4d25q1-Hd1e133" type="questionTitle">Utrum tantum episcopus ordinis sacramentum conferat</head>
+
+          <p xml:id="ta-l4d25q1-d1e136">Ad primum sic proceditur. Videtur quod non tantum episcopus ordinis sacramentum
+            conferat. Quia manus impositio aliquid ad consecrationem facit. Sed sacerdotibus qui
+            ordinantur, non solus episcopus manus imponit, sed sacerdotes astantes. Ergo non solus
+            episcopus confert ordinis sacramentum.</p>
+          <p xml:id="ta-l4d25q1-d1e139">Praeterea, tunc unicuique datur potestas ordinis, quando ei exhibetur quod ad actum sui
+            ordinis pertinet. Sed subdiacono datur urceolus cum aqua, manili et manutergio ab
+            archidiacono; similiter acolythis candelabrum cum cereo, et urceolus vacuus. Ergo non
+            solus episcopus confert ordinis sacramentum.</p>
+          <p xml:id="ta-l4d25q1-d1e142">Praeterea, illa quae sunt ordinis, non possunt alicui committi qui non habet ordines.
+            Sed conferre ordines minores committitur aliquibus qui non sunt episcopi, sicut
+            presbyteris cardinalibus. Ergo conferre ordines non est episcopalis ordinis.</p>
+          <p xml:id="ta-l4d25q1-d1e146">Praeterea, cuicumque committitur principale, et accessorium. Sed ordinis sacramentum
+            ordinatur ad Eucharistiam sicut accessorium ad principale. Cum ergo sacerdos consecret
+            Eucharistiam, ipse etiam poterit ordines conferre.</p>
+          <p xml:id="ta-l4d25q1-d1e149">Praeterea, plus distat sacerdos a diacono quam episcopus ab episcopo. Sed episcopus
+            potest consecrare episcopum. Ergo et sacerdos potest promovere diaconum.</p>
+          <p xml:id="ta-l4d25q1-d1e152">Sed contra, nobiliori modo applicantur ad divinum cultum ministri per ordines quam vasa
+            sacra. Sed consecratio vasorum pertinet ad solum episcopum. Ergo multo fortius
+            consecratio ministrorum.</p>
+          <p xml:id="ta-l4d25q1-d1e155">Praeterea, sacramentum ordinis est excellentius quam confirmationis. Sed solus
+            episcopus confirmat. Ergo multo magis solus confert ordinis sacramentum.</p>
+          <p xml:id="ta-l4d25q1-d1e158">Praeterea, virgines per benedictionem non constituuntur in aliquo gradu spiritualis
+            potestatis, sicut ordinati constituuntur. Sed virgines benedicere est solius episcopi.
+            Ergo multo magis solus ipse potest alios ordinare.</p>
+          <p xml:id="ta-l4d25q1-d1e161">Respondeo dicendum, quod potestas episcopalis se habet ad potestatem ordinum inferiorum
+            sicut politica, quae conjectat bonum commune, ad inferiores artes et virtutes, quae
+            conjectant aliquod bonum speciale, ut ex dictis patet. Politica autem, ut dicitur in 1
+            Ethic., ponit legem inferioribus artibus, scilicet quis quam debeat exercere, et quantum
+            et qualiter; et ideo ad episcopum pertinet in omnibus divinis ministeriis alias
+            collocare. Unde ipse solus confirmat, quia confirmati in quodam officio confitendi fidem
+            constituuntur; ideo etiam solus ipse virgines benedicit, quae figuram gerunt Ecclesiae
+            Christo desponsatae, cujus cura ipsi principaliter committitur: ipse etiam in
+            ministeriis ordinum ordinando consecrat, et vasa quibus uti debent, eis determinat sua
+            consecratione; sicut etiam officia saecularia in civitatibus distribuuntur ab eo qui
+            habet excellentiorem potestatem, sicut a rege.</p>
+          <p xml:id="ta-l4d25q1-d1e165">Ad primum ergo dicendum, quod in impositione manuum non datur character sacerdotalis
+            ordinis, ut ex dictis patet, sed gratia, secundum quam ad exequendum ordinem sint
+            idonei; et quia indigent amplissima gratia, ideo sacerdotes cum episcopo manus imponunt
+            eis qui in sacerdotes promoventur; sed diaconis solus episcopus.</p>
+          <p xml:id="ta-l4d25q1-d1e168">Ad secundum dicendum, quod archidiaconus est quasi princeps ministerii; ideo omnia quae
+            ad ministerium pertinent ipse tradit, sicut cereum quo acolythus diacono servit ante
+            Evangelium ipsum portando, et urceum quo servit subdiacono; et similiter dat subdiacono
+            ea quibus superioribus ordinibus servit; et tamen in illis non consistit principaliter
+            actus subdiaconi, sed in hoc quod operatur circa materiam sacramenti; et ideo
+            characterem accipit in hoc quod datur ei calix ab episcopo. Sed acolythus accipit
+            characterem ex verbis episcopi in hoc quod accipit praedicta ab archidiacono; et magis
+            in acceptione urceoli quam candelabri. Unde non sequitur quod archidiaconus ordinem
+            conferat.</p>
+          <p xml:id="ta-l4d25q1-d1e171">Ad tertium dicendum, quod Papa, qui habet plenitudinem potestatis pontificalis, potest
+            committere non episcopo ea quae ad episcopalem dignitatem pertinent, dummodo illa non
+            habeant immediatam relationem ad verum corpus Christi; et ideo ex ejus commissione
+            aliquis sacerdos simpliciter potest conferre minores ordines et confirmare, ut supra,
+            dist. 7, quaest. 1, quaestiunc. 3, dictum est, non autem aliquis non sacerdos; nec
+            iterum sacerdos majores ordines qui habent immediatam relationem ad corpus Christi,
+            supra quod consecrandum Papa non habet majorem potestatem quam simplex sacerdos.</p>
+          <p xml:id="ta-l4d25q1-d1e174">Ad quartum dicendum, quod quamvis sacramentum Eucharistiae sit maximum sacramentum in
+            se; tamen non collocat in aliquo officio, sicut ordinis sacramentum; et ideo non est
+            similis ratio.</p>
+          <p xml:id="ta-l4d25q1-d1e177">Ad quintum dicendum, quod ad communicandum alteri quod quis habet, non exigitur solum
+            propinquitas, sed completio potestatis. Sed quia sacerdos non habet completam potestatem
+            in hierarchicis officiis, sicut episcopus; ideo non sequitur quod possit diaconos
+            facere, quamvis ille ordo sit sibi propinquus.</p>
+
+        </div>
+        <div xml:id="ta-l4d25q1-Dd1e181" type="articulus">
+          <head xml:id="ta-l4d25q1-Hd1e183">Articulus 2</head>
+
+          <head xml:id="ta-l4d25q1-Hd1e186" type="questionTitle">Utrum haeretici et ab Ecclesia praecisi possint ordines
+            conferre</head>
+
+          <p xml:id="ta-l4d25q1-d1e189">Ad secundum sic proceditur. Videtur quod haeretici et ab Ecclesia praecisi non possint
+            ordines conferre. Plus enim est aliquem promovere ad ordines quam aliquem absolvere vel
+            ligare. Sed haereticus non potest absolvere vel ligare. Ergo nec ordines conferre.</p>
+          <p xml:id="ta-l4d25q1-d1e192">Praeterea, sacerdos ab Ecclesia separatus potest conficere: quia in eo character
+            indelebiliter manet, per quem hoc potest. Sed episcopus non accipit aliquem characterem
+            in sui promotione. Ergo non est necesse quod episcopalis potestas in eo remaneat post
+            separationem ejus ab Ecclesia.</p>
+          <p xml:id="ta-l4d25q1-d1e195">Praeterea, in nulla communitate ille qui a communitate repellitur, potest communitatis
+            officia disponere. Sed ordines sunt quaedam officia Ecclesiae. Ergo ille qui extra
+            Ecclesiam ponitur, non potest ordines conferre.</p>
+          <p xml:id="ta-l4d25q1-d1e199">Praeterea, sacramenta habent efficaciam ex passione Christi. Sed haereticus non
+            continuatur passioni Christi neque per propriam fidem, cum sit infidelis, neque per
+            fidem Ecclesiae, cum sit ab Ecclesia separatus. Ergo non potest sacramentum ordinis
+            conferre.</p>
+          <p xml:id="ta-l4d25q1-d1e202">Praeterea, in ordinis collatione exigitur benedictio. Sed haereticus non potest
+            benedicere; quinimo benedictio sua in maledictionem vertitur, ut patet per auctoritates
+            in littera inductas. Ergo non potest ordines conferre.</p>
+          <p xml:id="ta-l4d25q1-d1e205">Sed contra est, quia aliquis episcopus in haeresim lapsus, quando reconciliatur, non
+            iterum consecratur. Ergo non amisit potestatem quam habebat ordines conferendi.</p>
+          <p xml:id="ta-l4d25q1-d1e208">Praeterea, major potestas est potestas conferendi ordines quam potestas ordinum. Sed
+            ordinum potestas non amittitur propter haeresim, vel aliquid hujusmodi. Ergo nec
+            potestas ordines conferendi.</p>
+          <p xml:id="ta-l4d25q1-d1e211">Praeterea, sicut baptizans exhibet tantum ministerium exterius, ita et conferens
+            ordines, Deo interius operante. Sed nulla ratione aliquis ab Ecclesia praecisus amittit
+            baptizandi potestatem. Ergo nec ordines conferendi.</p>
+          <p xml:id="ta-l4d25q1-d1e214">Respondeo dicendum, quod circa hoc ponuntur in littera quatuor opiniones. Quidam enim
+            dicunt, quod haeretici quamdiu ab Ecclesia tolerantur, habent potestatem ordines
+            conferendi; non autem postquam ab Ecclesia fuerint praecisi; et similiter nec degradati,
+            et alii hujusmodi; et haec est prima opinio. Sed hoc non potest stare: quia omnis
+            potestas quae datur cum aliqua consecratione, nullo casu contingente tolli potest, sicut
+            nec ipsa consecratio annullari: quia etiam altare vel chrisma semel consecrata, perpetuo
+            sacrata manent. Unde, cum episcopalis potestas cum quadam consecratione detur, oportet
+            quod perpetuo maneat, quantumcumque aliquis peccet, vel ab Ecclesia praecidatur. Et ideo
+            alii dixerunt, quod praecisi ab Ecclesia qui in Ecclesia potestatem episcopalem
+            habuerunt, retinent potestatem alios ordinandi et promovendi; sed promoti ab eis hoc non
+            habent; et haec est quarta opinio. Sed hoc etiam esse non potest: quia si illi qui
+            fuerunt in Ecclesia promoti, retinent potestatem quam acceperunt, patet quod exequendo
+            suam potestatem, veram consecrationem faciunt, et ideo vere tribuunt omnem potestatem
+            quae consecratione datur; et sic ordinati ab eis vel promoti habent eamdem potestatem
+            quam et ipsi. Et ideo alii dixerunt, quod etiam praecisi ab Ecclesia possunt ordines et
+            alia sacramenta conferre, dummodo formam debitam et intentionem servent, et quantum ad
+            primum effectum, qui est collatio sacramenti, et quantum ad ultimum, qui est collatio
+            gratiae; et haec est secunda opinio. Sed hoc etiam non potest stare: quia ex hoc ipso
+            quod aliquis haeretico praeciso ab Ecclesia in sacramentis communicat, peccat; et ita
+            fictus accedit, et gratiam consequi non potest, nisi forte in Baptismo in articulo
+            necessitatis. Et ideo alii dicunt, quod vera sacramenta conferunt, sed cum eis gratiam
+            non dant, non propter inefficaciam sacramentorum, sed propter peccata recipientium ab
+            eis sacramenta contra prohibitionem Ecclesiae; et haec est tertia opinio, quae vera
+            est.</p>
+          <p xml:id="ta-l4d25q1-d1e218">Ad primum ergo dicendum, quod effectus absolutionis non est alius quam remissio
+            peccatorum, quae per gratiam fit; et ideo haereticus non potest absolvere, sicut nec
+            gratiam in sacramentis conferre; et iterum, quia ad absolutionem requiritur jurisdictio,
+            quam non habet ab Ecclesia praecisus.</p>
+          <p xml:id="ta-l4d25q1-d1e221">Ad secundum dicendum, quod in promotione episcopi datur sibi potestas quae perpetuo
+            manet in eo; quamvis dici non possit character, quia per eam non ordinatur homo directe
+            ad Deum, sed ad corpus Christi mysticum; et tamen indelebiliter manet sicut character,
+            quia per consecrationem datur.</p>
+          <p xml:id="ta-l4d25q1-d1e224">Ad tertium dicendum, quod illi qui ab haereticis promoventur, quamvis accipiant
+            ordinem, non tamen recipiunt executionem, ut licite possint in suis ordinibus ministrare
+            ratione illa quam objectio tangit.</p>
+          <p xml:id="ta-l4d25q1-d1e227">Ad quartum dicendum, quod per fidem Ecclesiae continuantur passioni Christi: quia
+            quamvis in ea non sint secundum se, sunt tamen in ea quantum ad formam Ecclesiae, quam
+            servant.</p>
+          <p xml:id="ta-l4d25q1-d1e230">Ad quintum dicendum, quod hoc est referendum ad ultimum effectum sacramentorum, ut
+            tertia opinio dicit.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

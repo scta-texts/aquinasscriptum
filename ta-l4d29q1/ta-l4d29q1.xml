@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 29, Quaestio 1</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Librum IV, Distinctio 29, Quaestio 1</title>
+          <date when="2016-03-19">March 19, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-19">March 19, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness>1856 editum</witness>
+          <witness xml:id="G" n="ghent567">Ghent, Belgium, Ghent University Library, 567</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="0.0.0-dev">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+
+
+
+
+      <div xml:id="starts-on">
+        <cb ed="#G" n="461a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ta-l4d29q1">
+        <head xml:id="ta-l4d29q1-Hd1e97">Librum IV, Distinctio 29, Quaestio 1</head>
+        <div xml:id="ta-l4d29q1-Dd1e100">
+          <head xml:id="ta-l4d29q1-Hd1e102">Prooemium</head>
+          <p xml:id="ta-l4d29q1-d1e105">Postquam ostendit Magister quod consensus sit causa matrimonii, hic ostendit quibus
+            impediatur consensus, ne matrimonium efficere possit; et dividitur in partes duas: in
+            prima determinat de impedimento coactionis; in secunda de impedimento erroris, 30 dist.,
+            ibi: <quote xml:id="ta-l4d29q1-Qd1e107">nec solum coactio impedit vel excludit consensum, sed etiam error</quote>.
+            Prima in tres: in prima ostendit quod coactus consensus non facit matrimonium; in
+            secunda ostendit quod si post coactionem liber consensus adveniat, matrimonium verum
+            erit, ibi: <quote xml:id="ta-l4d29q1-Qd1e110">verumtamen qui inviti et coacte conjuncti sunt, si postea ab aliquo
+              temporis spatio sine contradictione et querimonia cohabitaverint, facultate discedendi
+              vel reclamandi habita, consentire videntur</quote>; in tertia, qualiter intelligendus
+            sit aliquis consentire, ibi: <quote xml:id="ta-l4d29q1-Qd1e113">consentire autem probatur</quote>. Hic quaeruntur
+            quatuor: 1 utrum aliquis consensus possit esse coactus; 2 utrum aliqua coactio cadat in
+            constantem virum; 3 utrum consensus coactus faciat matrimonium; 4 utrum aliquis possit
+            cogi a patre ad contrahendum matrimonium.</p>
+
+        </div>
+        <div xml:id="ta-l4d29q1-Dd1e118" type="articulus">
+          <head xml:id="ta-l4d29q1-Hd1e120">Articulus 1</head>
+
+          <head xml:id="ta-l4d29q1-Hd1e123" type="questionTitle">Utrum aliquis consensus possit esse coactus</head>
+
+          <p xml:id="ta-l4d29q1-d1e126">Ad primum sic proceditur. Videtur quod nullus consensus possit esse coactus. Coactio
+            enim in liberum arbitrium cadere non potest secundum aliquem statum ejus, ut in 2 Lib.,
+            dist. 25, quaest. 1, art. 1, dictum est. Sed consensus est actus liberi arbitrii. Ergo
+            non potest esse coactus.</p>
+          <p xml:id="ta-l4d29q1-d1e129">Praeterea, violentum, quod est idem quod coactum, secundum philosophum, est cujus
+            principium est extra, nil conferente vim passo. Sed consensus omnis principium est
+            intra. Ergo nullus consensus potest esse coactus.</p>
+          <p xml:id="ta-l4d29q1-d1e132">Praeterea, omne peccatum in consensu perficitur. Sed illud quo perficitur peccatum,
+            cogi non potest; quia secundum Augustinum, nullus peccat in eo quod vitare non potest.
+            Cum ergo vis a juristis definiatur esse majoris rei impetus, qui repelli non potest;
+            videtur quod consensus esse non possit coactus vel violentus.</p>
+          <p xml:id="ta-l4d29q1-d1e136">Praeterea, dominium libertati opponitur. Sed coactio ad dominium pertinet, ut patet in
+            quadam definitione Tullii: dicit enim, quod vis est impetus dominantis retinens rem
+            infra terminos alienos. Ergo vis in liberum arbitrium non cadit; et ita nec in
+            consensum, qui est actus ejus.</p>
+          <p xml:id="ta-l4d29q1-d1e139">Sed contra, illud quod esse non potest, non potest aliquid impedire. Sed coactio
+            consensus impedit matrimonium, ut in littera dicitur. Ergo consensus potest cogi.</p>
+          <p xml:id="ta-l4d29q1-d1e142">Praeterea, in matrimonio est quidam contractus. Sed in contractibus potest esse
+            voluntas coacta; unde legislator in integrum restitutionem adjudicat, ratum non habens
+            quod vi, sive metus causa, factum est. Ergo etiam in matrimonio potest esse consensus
+            coactus.</p>
+          <p xml:id="ta-l4d29q1-d1e145">Respondeo dicendum, quod duplex est coactio vel violentia. Una quae facit necessitatem
+            absolutam; et tale violentum dicitur a philosopho violentum simpliciter; ut cum quis
+            alium corporaliter impellit ad motum. Alia quae facit conditionatam necessitatem; et
+            hanc vocat philosophus violentum mixtum; sicut cum quis projicit merces in mare, ne
+            periclitetur; et in isto violento, quamvis hoc quod fit, non sit per se voluntarium,
+            tamen consideratis circumstantiis hic et nunc voluntarium est. Et quia actus in
+            particularibus sunt, ideo simpliciter voluntarium est, sed secundum quid involuntarium;
+            unde haec violentia vel coactio potest esse in consensu, qui est actus voluntatis; non
+            autem prima. Et quia haec coactio fit ex hoc quod timetur aliquod periculum imminens;
+            ideo ista vis idem est quod metus, qui voluntatem cogit quodammodo; sed prima vis cadit
+            etiam in corporalibus actibus. Et quia legislator non considerat solum interiores actus,
+            sed magis exteriores, ideo per vim intelligit coactionem simpliciter; propter quod vim
+            contra metum dividit. Sed nunc agitur de consensu interiori, in quem non cadit coactio
+            seu vis, quae a metu distinguitur; et ideo, quantum ad propositum pertinet, idem est
+            coactio quod metus. Est autem metus, secundum jurisperitos, <quote xml:id="ta-l4d29q1-Qd1e147">instantis vel futuri
+              periculi causa, mentis trepidatio</quote>.</p>
+          <p xml:id="ta-l4d29q1-d1e151">Et per hoc patet solutio ad objecta: nam primae rationes procedunt de coactione prima,
+            secundae de secunda.</p>
+
+        </div>
+        <div xml:id="ta-l4d29q1-Dd1e155" type="articulus">
+          <head xml:id="ta-l4d29q1-Hd1e157">Articulus 2</head>
+
+          <head xml:id="ta-l4d29q1-Hd1e160" type="questionTitle">Utrum coactio metus cadat in constantem virum</head>
+
+          <p xml:id="ta-l4d29q1-d1e163">Ad secundum sic proceditur. Videtur quod coactio metus non cadat in constantem virum.
+            Quia de ratione constantis est quod non trepidet in periculis. Cum ergo metus sit
+            trepidatio mentis ratione periculi imminentis, videtur quod non cogatur metu.</p>
+          <p xml:id="ta-l4d29q1-d1e166">Praeterea, omnium terribilium finis est mors, secundum philosophum in 3 Ethic., quasi
+            perfectissimum inter terribilia. Sed constantes non coguntur morte: quia fortis etiam
+            pericula mortis sustinet. Ergo nullus metus cadit in constantem virum.</p>
+          <p xml:id="ta-l4d29q1-d1e169">Praeterea, inter alia pericula praecipue timetur a bonis periculum famae. Sed timor
+            infamiae non reputatur timor cadens in constantem virum; quia, ut dicit lex,
+              <quote xml:id="ta-l4d29q1-Qd1e171">timor infamiae non continetur illo edicto quod metus causa factum est</quote>.
+            Ergo nec aliquis alius metus cadit in constantem virum.</p>
+          <p xml:id="ta-l4d29q1-d1e176">Praeterea, metus in eo qui metu cogitur, peccatum relinquit: quia facit eum promittere
+            quod non vult solvere; et sic facit eum mentiri. Sed non est constantis aliquod etiam
+            peccatum minimum pro aliquo timore facere. Ergo nullus metus cadit in constantem
+            virum.</p>
+          <p xml:id="ta-l4d29q1-d1e179">Sed contra, Abraham et Isaac constantes fuerunt. Sed in eis cecidit metus: quia ratione
+            metus dixerunt uxores suas esse sibi sorores. Ergo metus potest cadere in constantem
+            virum.</p>
+          <p xml:id="ta-l4d29q1-d1e182">Praeterea, ubicumque est violentum mixtum, est aliquis metus cogens. Sed aliquis,
+            quantumcumque constans, potest pati tale violentum: quia si sit in mari, merces projicit
+            tempore naufragii. Ergo metus potest cadere in constantem virum.</p>
+          <p xml:id="ta-l4d29q1-d1e185">Respondeo dicendum, quod cadere metum in aliquem, est aliquem metu cogi. Cogitur autem
+            aliquis metu, quando aliquid facit quod alias non vellet, ad evitandum aliquid quod
+            timet. In hoc autem constans ab inconstanti distinguitur quantum ad duo. Primo quantum
+            ad qualitatem periculi quod timetur; quia constans sequitur rationem rectam, per quam
+            scit quid prosit dimittendum vel faciendum. Semper autem minus malum vel majus bonum
+            eligendum est; et ideo constans ad minus malum sustinendum cogitur metu majoris mali;
+            non autem cogitur ad majus malum ut vitet minus malum. Sed inconstans cogitur ad majus
+            malum propter metum minoris mali; sicut ad peccatum propter metum corporalis poenae. Sed
+            pertinax e contrario non potest cogi etiam ad minus malum sustinendum vel faciendum, ut
+            evitet majus malum; unde constans est medius inter inconstantem et pertinacem. Secundo
+            differunt quo ad aestimationem periculi imminentis: quia constans non nisi ex forti
+            aestimatione et probabili cogitur; sed inconstans ex levi. Proverb. 18, 1: <quote xml:id="ta-l4d29q1-Qd1e187">fugit
+              impius nemine persequente</quote>.</p>
+          <p xml:id="ta-l4d29q1-d1e191">Ad primum ergo dicendum, quod constans, sicut de forti philosophus dicit, intrepidus
+            est, non quod omnino non timeat, sed quia non timet quae non oportet, vel ubi vel quando
+            non oportet.</p>
+          <p xml:id="ta-l4d29q1-d1e194">Ad secundum dicendum, quod peccata sunt maxima malorum; et ideo ad hoc nullo modo
+            potest homo constans cogi; immo magis debet homo mori quam talia sustinere, ut etiam
+            philosophus, in 3 Ethic., dicit. Sed quaedam damna corporalia sunt minora quibusdam
+            aliis, quae sunt inter praecipua quae ad personam pertinent; sicut mors, verbera,
+            dehonestatio per stuprum, et servitus; et ideo ex istis constans cogitur ad alia damna
+            corporalia sustinenda; et haec continentur hoc versu: <quote xml:id="ta-l4d29q1-Qd1e196">stupri, sive status,
+              verberis, atque necis</quote>. Nec differt, utrum haec pertineant ad personam
+            propriam, vel uxoris, vel filiorum, aut aliorum hujusmodi.</p>
+          <p xml:id="ta-l4d29q1-d1e201">Ad tertium dicendum, quod infamia quamvis sit magnum damnum, tamen ei de facili occurri
+            potest; et ideo non reputatur cadens in constantem virum metus infamiae secundum
+            jura.</p>
+          <p xml:id="ta-l4d29q1-d1e204">Ad quartum dicendum, quod constans non cogitur ad mentiendum, quia tunc vult dare; sed
+            tamen postea vult petere restitutionem, vel saltem judici denuntiare, si se promisit non
+            petiturum restitutionem. Non potest autem promittere se non denuntiaturum, cum hoc sit
+            contra bonum justitiae, ad quod cogi non potest, ut scilicet contra justitiam
+            faciat.</p>
+
+        </div>
+        <div xml:id="ta-l4d29q1-Dd1e208" type="articulus">
+          <head xml:id="ta-l4d29q1-Hd1e210">Articulus 3</head>
+
+          <head xml:id="ta-l4d29q1-Hd1e213" type="questionTitle">Utrum consensus coactus tollat matrimonium</head>
+
+          <div xml:id="ta-l4d29q1-Dd1e216">
+            <head xml:id="ta-l4d29q1-Hd1e218">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d29q1-d1e221">Ad tertium sic proceditur. Videtur quod consensus coactus non tollat matrimonium.
+              Quia sicut ad matrimonium requiritur consensus, ita ad Baptismum requiritur intentio.
+              Sed coactus timore ad accipiendum Baptismum recipit sacramentum. Ergo et coactus ad
+              consentiendum aliquo timore matrimonio obligatur.</p>
+            <p xml:id="ta-l4d29q1-d1e224">Praeterea, violentum mixtum, secundum philosophum, plus habet de voluntario quam de
+              involuntario. Sed non potest aliter consensus coactus esse nisi per violentum mixtum.
+              Ergo non omnino excluditur voluntarium; et ita adhuc est matrimonium.</p>
+            <p xml:id="ta-l4d29q1-d1e227">Praeterea, ei qui consentit in matrimonium coactus, consulendum videtur quod in
+              matrimonio illo stet: quia speciem mali habet promittere et non solvere, a quo
+              apostolus vult nos abstinere. Hoc autem non esset, si consensus coactus omnino
+              matrimonium tolleret. Ergo et cetera.</p>
+            <p xml:id="ta-l4d29q1-d1e230">Sed contra est quod decretalis dicit: <quote xml:id="ta-l4d29q1-Qd1e232">cum consensus locum non habeat ubi metus
+                vel coactio intercedit, necesse est ut ubi communis consensus requiritur, coactionis
+                materia repellatur</quote>. Sed in matrimonio requiritur communis consensus. Ergo et
+              cetera.</p>
+            <p xml:id="ta-l4d29q1-d1e237">Praeterea, matrimonium significat conjunctionem Christi ad Ecclesiam, quae fit
+              secundum libertatem amoris. Ergo non potest fieri per coactum consensum.</p>
+
+          </div>
+          <div xml:id="ta-l4d29q1-Dd1e241">
+            <head xml:id="ta-l4d29q1-Hd1e243">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d29q1-d1e246">Ulterius. Videtur quod consensus coactus saltem ex parte cogentis faciat matrimonium.
+              Quia matrimonium est signum spiritualis conjunctionis. Sed spiritualis conjunctio,
+              quae est per caritatem, potest esse ad eum qui non habet caritatem. Ergo et
+              matrimonium ad eum qui non vult.</p>
+            <p xml:id="ta-l4d29q1-d1e249">Praeterea, si illa quae fuit coacta, postmodum consentiat, erit verum matrimonium.
+              Sed iste qui coegit primo, ex consensu illius non ligatur. Ergo ex primo consensu
+              ligabatur matrimonio.</p>
+            <p xml:id="ta-l4d29q1-d1e252">Sed contra, matrimonium est relatio aequiparantiae. Sed talis relatio est aequaliter
+              in utroque. Ergo si sit impedimentum ex parte unius, non erit matrimonium ex parte
+              alterius.</p>
+
+          </div>
+          <div xml:id="ta-l4d29q1-Dd1e256">
+            <head xml:id="ta-l4d29q1-Hd1e258">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d29q1-d1e261">Ulterius. Videtur quod nec per consensum conditionatum fiat matrimonium. Quia quod
+              sub conditione ponitur, non simpliciter enuntiatur. Sed in matrimonio oportet esse
+              verba simpliciter exprimentia consensum. Ergo conditio alicujus consensus non facit
+              matrimonium.</p>
+            <p xml:id="ta-l4d29q1-d1e264">Praeterea, matrimonium debet esse certum. Sed ubi dicitur aliquid sub conditione,
+              ponitur illud sub dubio. Ergo talis consensus non facit matrimonium.</p>
+            <p xml:id="ta-l4d29q1-d1e267">Sed contra, in aliis contractibus fit obligatio sub conditione, et stat stante
+              conditione. Ergo cum matrimonium sit contractus quidam, videtur quod possit fieri per
+              conditionatum consensum.</p>
+          </div>
+          <div xml:id="ta-l4d29q1-Dd1e272">
+            <head xml:id="ta-l4d29q1-Hd1e274">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d29q1-d1e277">Respondeo dicendum ad primam quaestionem, quod vinculum matrimonii perpetuum est;
+              unde illud quod perpetuitati repugnat, tollit matrimonium. Metus autem qui cadit in
+              constantem virum, perpetuitatem contractus tollit, quia potest peti restitutio in
+              integrum: quia talis coactio metus qui cadit in constantem virum, tollit matrimonium,
+              et non alia. Constans autem vir judicatur virtuosus, qui est mensura in omnibus
+              operibus humanis, ut philosophus dicit in 3 Ethicor., cap. 9 vel 10. Quidam autem
+              dicunt, quod si adsit consensus, quamvis coactus, interius est matrimonium quantum ad
+              Deum, sed non quantum ad statum Ecclesiae, quae praesumit ibi non fuisse consensum
+              interiorem propter metum. Sed hoc nihil est: quia Ecclesia non debet praesumere de
+              aliquo peccatum quosque probetur. Peccavit autem, si dixit se consentire, et non
+              consensit. Unde Ecclesia praesumit eum consensisse, sed judicat illum consensum
+              extortum non esse sufficientem ad faciendum matrimonium.</p>
+            <p xml:id="ta-l4d29q1-d1e280">Ad primum ergo dicendum, quod intentio non est causa efficiens sacramenti in
+              Baptismo, sed solum eliciens actionem agentis; sed consensus est causa efficiens in
+              matrimonio; et ideo non est simile.</p>
+            <p xml:id="ta-l4d29q1-d1e283">Ad secundum dicendum, quod ad matrimonium non sufficit quodcumque voluntarium, sed
+              voluntarium complete: quia debet esse perpetuum; et ideo per violentum mixtum
+              impeditur.</p>
+            <p xml:id="ta-l4d29q1-d1e286">Ad tertium dicendum, quod non semper debet induci ad hoc quod in matrimonio ille
+              stet, sed solum quando timetur periculum de dissolutione: alias autem non peccat: quia
+              non solvere promissa quae nolens facit, non est species mali.</p>
+
+          </div>
+          <div xml:id="ta-l4d29q1-Dd1e290">
+            <head xml:id="ta-l4d29q1-Hd1e292">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d29q1-d1e295">Ad secundam quaestionem dicendum, quod cum matrimonium sit quaedam relatio, et non
+              possit innasci relatio in uno extremorum sine hoc quod fiat in alio; ideo quidquid
+              impedit matrimonium in uno, impedit ipsum in altero; quia non potest esse quod aliquis
+              sit vir non uxoris, vel quod aliqua sit uxor non habens virum, sicut mater non habens
+              filium; et ideo communiter dicitur, quod matrimonium non claudicat.</p>
+            <p xml:id="ta-l4d29q1-d1e298">Ad primum ergo dicendum, quod quamvis actus amantis possit transire in non amantem,
+              tamen unio inter eos non potest esse nisi sit mutua amatio; et ideo dicit philosophus
+              in 8 Ethicor., quod ad amicitiam, quae in quadam unione consistit, requiritur
+              redamatio.</p>
+            <p xml:id="ta-l4d29q1-d1e301">Ad secundum dicendum, quod ex consensu libero illius qui prius coactus est, non fit
+              matrimonium, nisi inquantum consensus praecedens in altero adhuc manet in suo vigore;
+              unde si dissentiret, non fieret matrimonium.</p>
+
+          </div>
+          <div xml:id="ta-l4d29q1-Dd1e305">
+            <head xml:id="ta-l4d29q1-Hd1e307">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d29q1-d1e310">Ad tertiam quaestionem dicendum, quod conditio apposita, aut est de praesenti, aut de
+              futuro. Si de praesenti, et non est contraria matrimonio, sive sit honesta sive
+              inhonesta, stat matrimonium stante conditione, et ea non stante non stat; sed si sit
+              contraria bonis matrimonii, non efficit matrimonium, sicut etiam supra de sponsalibus
+              dictum est. Si autem sit conditio de futuro: aut est necessaria, sicut solem oriri
+              cras; et tunc est matrimonium, quia talia futura jam sunt praesentia in suis causis:
+              aut est contingens, sicut datio pecuniae, vel acceptatio parentum; et tunc idem est
+              judicium de tali consensu sicut de consensu qui fit per verba de futuro; unde non
+              facit matrimonium.</p>
+            <p xml:id="ta-l4d29q1-d1e313">Et per hoc patet solutio ad objecta.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d29q1-Dd1e319" type="articulus">
+          <head xml:id="ta-l4d29q1-Hd1e321">Articulus 4</head>
+
+          <head xml:id="ta-l4d29q1-Hd1e324" type="questionTitle">Utrum aliquis praecepto patris possit compelli ad
+            matrimonium</head>
+
+          <p xml:id="ta-l4d29q1-d1e327">Ad quartum sic proceditur. Videtur quod aliquis praecepto patris possit compelli ad
+            matrimonium contrahendum. Coloss. 3, 20: <quote xml:id="ta-l4d29q1-Qd1e329">filii obedite parentibus vestris per
+              omnia</quote>. Ergo etiam in hoc eis obedire tenentur.</p>
+          <p xml:id="ta-l4d29q1-d1e333">Praeterea, Genes. 28, Isaac praecepit Jacob quod non acciperet uxorem de filiabus
+            Chanaan. Non autem praecepisset, nisi de jure praecipere potuisset. Ergo filius in hoc
+            tenetur obedire patri.</p>
+          <p xml:id="ta-l4d29q1-d1e336">Praeterea, nullus debet promittere, praecipue per juramentum, pro illo quem non potest
+            cogere ad servandum. Sed parentes promittunt futura matrimonia pro filiis, et etiam
+            juramento firmant. Ergo possunt praecepto cogere filios ad implendum.</p>
+          <p xml:id="ta-l4d29q1-d1e340">Praeterea, pater spiritualis, scilicet Papa, potest compellere praecepto ad matrimonium
+            spirituale, scilicet ad episcopatum accipiendum. Ergo et pater carnalis ad carnale
+            matrimonium.</p>
+          <p xml:id="ta-l4d29q1-d1e343">Sed contra, patre imperante matrimonium, filius potest sine peccato religionem intrare.
+            Ergo non tenetur ei in hoc obedire.</p>
+          <p xml:id="ta-l4d29q1-d1e346">Praeterea, si teneretur obedire, sponsalia per parentes contracta absque consensu
+            filiorum essent stabilia. Sed hoc est contra jura. Ergo et cetera.</p>
+          <p xml:id="ta-l4d29q1-d1e349">Respondeo dicendum, quod cum matrimonium sit quaedam quasi servitus perpetua, pater non
+            potest cogere filium ad matrimonium per praeceptum, cum sit liberae conditionis, sed
+            potest eum inducere ex rationabili causa; et tunc sicut se habet filius ad causam illam,
+            ita se habet ad praeceptum patris; ut si illa causa cogat de necessitate vel de
+            honestate, et praeceptum similiter cogat, alias non.</p>
+          <p xml:id="ta-l4d29q1-d1e352">Ad primum ergo dicendum, quod verbum apostoli non intelligitur in illis in quibus sicut
+            pater est liber, ita et filius; et hujusmodi est matrimonium, per quod etiam filius fit
+            pater.</p>
+          <p xml:id="ta-l4d29q1-d1e355">Ad secundum dicendum, quod Jacob alias tenebatur ad faciendum hoc quod mandavit Isaac,
+            tum propter malitiam illarum mulierum, tum quia semen Chanaan de terra quae semini
+            patriarcharum promittebatur, erat disperdendum; et ideo Isaac praecipere poterat.</p>
+          <p xml:id="ta-l4d29q1-d1e359">Ad tertium dicendum, quod non jurant nisi illa conditione subintellecta: si illis
+            placuerit: et ipsi obligantur ad eos bona fide inducendum.</p>
+          <p xml:id="ta-l4d29q1-d1e362">Ad quartum dicendum, quod quidam dicunt, quod Papa non potest praecipere alicui quod
+            accipiat episcopatum: quia consensus debet esse liber. Sed hoc posito, periret
+            ecclesiasticus ordo. Nisi enim aliquis posset cogi ad suscipiendum regimen Ecclesiae,
+            Ecclesia conservari non posset; cum quandoque illi qui sunt idonei, hoc nolint suscipere
+            nisi coacti. Et ideo dicendum, quod non est simile hinc inde: quia non est aliqua
+            corporalis servitus in matrimonio spirituali sicut in corporali: est enim spirituale
+            matrimonium, sicut quoddam officium dispensandae reipublicae, 1 Corinth. 4, 1:
+              <quote xml:id="ta-l4d29q1-Qd1e364">sic nos existimet homo, ut ministros Christi.</quote></p>
+        </div>
+        <div xml:id="ta-l4d29q1-Dd1e368">
+          <head xml:id="ta-l4d29q1-Hd1e370">Expositio textus</head>
+          <p xml:id="ta-l4d29q1-d1e373"><quote xml:id="ta-l4d29q1-Qd1e374">Legati principis Jordani retulerunt</quote>. Videtur quod non possit fieri
+            matrimonium per internuntios: quia si ante adventum nuntii alter poeniteat, non erit
+            matrimonium. Et dicendum, quod potest aliquis alterum procuratorem constituere ad
+            consentiendum: tamen si ante poeniteat quam ille consentiat, non est matrimonium nec in
+            rei veritate, nec secundum judicium Ecclesiae, si aliquibus signis appareat poenituisse.
+            Sed ex quo consensus per internuntios factus est, matrimonium tenet ac si ipse fecisset.
+              <quote xml:id="ta-l4d29q1-Qd1e377">Consentire autem probatur qui evidenter non contradicit</quote>. Hoc
+            intelligitur quantum ad forum Ecclesiae: quia quantum ad forum conscientiae, si interius
+            dissentiat quamvis exterius non reclamet, non est matrimonium.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum II, Distinctio 29, Quaestio 1</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Librum II, Distinctio 29, Quaestio 1</title>
+          <date when="2016-03-17">March 17, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-17">March 17, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p>1856 editum</p>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="0.0.0-dev">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+
+
+
+
+      <div xml:id="starts-on"> </div>
+    </front>
+    <body>
+      <div xml:id="ta-l2d29q1">
+        <head xml:id="ta-l2d29q1-Hd1e89">Librum II, Distinctio 29, Quaestio 1</head>
+
+        <div xml:id="ta-l2d29q1-Dd1e92">
+          <head xml:id="ta-l2d29q1-Hd1e94">Prooemium</head>
+          <p xml:id="ta-l2d29q1-d1e97">Postquam determinavit de gratia absolute, hic determinat de ea per comparationem ad
+            statum primi hominis in primo statu; et dividitur in partes duas: in prima inquirit, an
+            homo in primo statu gratiam habuerit; in secunda determinat quam poenam pro peccato
+            incurrerit, ibi: <quote xml:id="ta-l2d29q1-Qd1e99">in illius quoque peccati poenam ejectus est de Paradiso</quote>.
+            Circa primum duo facit: primo inquirit, an homo in primo statu gratia eguerit; secundo
+            an virtutes gratuitas habuerit, ibi: <quote xml:id="ta-l2d29q1-Qd1e102">praeterea quaeri solet utrum homo ante
+              lapsum virtutes habuerit. In illius quoque peccati poenam ejectus est de
+              Paradiso</quote>. Hic determinat poenam quam homo incurrit pro peccato, quo gratiam et
+            virtutem amisit; et dividitur in duo: primo determinat poenam; secundo ostendit
+            veritatem cujusdam quaestionis ex praedictis occasionatae, ibi: <quote xml:id="ta-l2d29q1-Qd1e105">potest etiam
+              quaeri, utrum de ligno vitae ante peccatum comederit homo</quote>. Circa primum duo
+            facit: primo ostendit quod Adam pro peccato et locum deliciarum et cibum saluberrimum
+            amisit; secundo quomodo impeditus est ab ejus recuperatione, ibi: <quote xml:id="ta-l2d29q1-Qd1e108">ne vero posset
+              ad illud accedere, collocavit Deus ante Paradisum Cherubin</quote>. Circa primum duo
+            facit: primo ostendit poenam ex verbis Scripturae; secundo movet quamdam dubitationem ex
+            verbis illis; quam primo movet, ibi: <quote xml:id="ta-l2d29q1-Qd1e111">his verbis insinuari videtur quod nunquam
+              moreretur, si postea de illo ligno sumpsisset</quote>; secundo solvit, ibi: <quote xml:id="ta-l2d29q1-Qd1e115">sed
+              quia per peccatum jam mortuum corpus habebat, illa verba ex tali intellectu accipi
+              possunt. Potest autem quaeri, utrum de ligno vitae ante peccatum comederit
+              homo</quote>. Hic movet quamdam dubitationem ex praedictis occasionatam, scilicet an
+            homo ante peccatum de ligno vitae comederit; et primo determinat quod sic; secundo movet
+            iterum dubitationem contra haec ortam, et determinat eam, ibi: <quote xml:id="ta-l2d29q1-Qd1e118">quare ergo
+              perpetua soliditate, et beata immortalitate vestiti non sunt?</quote> Hic quinque
+            quaeruntur: 1 an homo in statu innocentiae gratia indiguerit; 2 an gratiam habuit; 3 si
+            habuit, utrum gratia humani generis, si in innocentia perstitisset, fuisset major quam
+            sit; 4 utrum actus humani fuissent efficaciores ad merendum; 5 de poena quae in littera
+            ponitur, hominem propter primam transgressionem consecuta.</p>
+        </div>
+        <div xml:id="ta-l2d29q1-Dd1e123" type="articulus">
+          <head xml:id="ta-l2d29q1-Hd1e125">Articulus 1</head>
+
+          <head xml:id="ta-l2d29q1-Hd1e128" type="questionTitle">Utrum natura in statu innocentiae eguerit gratia</head>
+
+          <p xml:id="ta-l2d29q1-d1e131">Ad primum sic proceditur. Videtur quod homo in statu innocentiae gratia non eguerit. Ad
+            hoc enim gratia datur hominibus, ut Deo sint accepti. Sed cum humana natura integra
+            erat, sine aliqua corruptione peccati, homo ex bonitate naturali Deo acceptus erat; omne
+            enim bonum, et praecipue malo impermixtum, Deo acceptum est. Ergo gratia superaddita non
+            indigebat.</p>
+          <p xml:id="ta-l2d29q1-d1e134">Praeterea, gratia dividitur in operantem et cooperantem. Sed non indigebat in statu
+            illo gratia operante, quia impius non erat; cum tamen effectus gratiae operantis sit de
+            impio facere pium; nec iterum cooperante, quia nullam difficultatem ad bonum agendum
+            patiebatur; gratia vero cooperans ad hoc datur ut homo bonum facile facere possit. Ergo
+            nulla gratia indigebat.</p>
+          <p xml:id="ta-l2d29q1-d1e137">Praeterea, ut dicitur Deuter. 32, 4, <quote xml:id="ta-l2d29q1-Qd1e139">Dei perfecta sunt opera</quote>. Non autem
+            esset in divinis operibus perfectio, si aliquis gradus nobilitatis possibilis esset in
+            creaturis qui institutus a Deo non esset. Ergo omnis gradus bonitatis possibilis in
+            creaturis in rerum natura invenitur. Sed poterat Deus talem naturam condere quae per
+            propria naturalia vitam aeternam mereretur; alias non esset omnipotens. Cum igitur nulla
+            alia creatura hoc magis habere videatur quam homo vel Angelus, videtur quod hoc eis
+            conveniat; et ita si natura humana pura esset, sicut in primo statu erat, homo gratia
+            non indigeret ad vitam aeternam promerendam.</p>
+          <p xml:id="ta-l2d29q1-d1e144">Praeterea, poena nunquam praecedit culpam, cum sit effectus ejus. Sed carentia visionis
+            divinae est poena originalis culpae. Ergo si in natura humana non fuisset culpa, nec
+            etiam ibi fuisset carentia divinae visionis. Sed poterat homo in statu innocentiae omni
+            culpa carere absque gratia. Ergo et gratia non indigebat ad hoc ut ad Dei visionem
+            perveniret.</p>
+          <p xml:id="ta-l2d29q1-d1e147">Praeterea, ad hoc gratia datur homini, ut per eam Deo configuretur et assimiletur. Sed
+            ex conditione naturae suae homo ad imaginem et similitudinem Dei factus est. Ergo si
+            natura in eo integra maneret, alia gratia non indigeret.</p>
+          <p xml:id="ta-l2d29q1-d1e150">Sed contra, Rom. 6, 23, dicitur: <quote xml:id="ta-l2d29q1-Qd1e152" ana="#rom6_23">gratia autem Dei vita aeterna</quote>. Sed
+            necesse erat homini ut ad vitam aeternam perveniret. Ergo indigebat gratia, per quam ad
+            eam pervenitur.</p>
+          <p xml:id="ta-l2d29q1-d1e156">Praeterea, peccatum naturam humanam non mutavit; sed eadem manet ante et post. Sed
+            meritum vitae aeternae excedit virtutem naturae post peccatum. Ergo etiam excedebat
+            vires ejus ante peccatum; ergo indigebat gratia, per quam vitam aeternam mereretur.</p>
+          <p xml:id="ta-l2d29q1-d1e159">Respondeo dicendum, quod duplex est necessitas. Una absoluta, quae est ex prioribus
+            causis, ut ex materiali et formali, ex quibus componuntur res; ut quod omne compositum
+            ex contrariis necesse est corrumpi, et hujusmodi. Alia vero est conditionata ex
+            suppositione finis; ut si serra debeat facere serrae opus, scilicet sectionem, necesse
+            est eam dentes ferreos habere. Haec autem necessitas est duplex: quaedam scilicet sine
+            qua non potest haberi finis intentus, sicut sine cibo non potest haberi conservatio
+            vitae; quaedam vero sine qua non potest aliquis ad finem de facili pertingere, sicut
+            dicitur equus necessarius homini ad peragendum iter: et nomen utilitatis commune est
+            utrique modorum necessitatis ultimo positorum; sed nomen indigentiae magis se habet ad
+            primum modum eorum: illo enim proprie dicimur indigere sine quo finem consequi non
+            possumus. Secundum hoc dico, quod homo ante peccatum gratia indigebat, quia sine gratia
+            finem vitae aeternae nullo modo consequi potuisset: ad finem enim non pervenitur nisi
+            per opera proportionata fini: vita autem aeterna est finis omnino naturae humanae
+            facultatem excedens; unde etiam intellectum et desiderium superat: 1 Corinth. 2:
+              <quote xml:id="ta-l2d29q1-Qd1e161">oculus non vidit, et auris non audivit, et in cor hominis non ascendit quae
+              praeparavit Deus iis qui diligunt illum</quote>. Ideo oportet quod opera per quae ad
+            vitam aeternam pervenitur, vires naturae humanae excedant; unde in ea homo non potest
+            sine aliquo dono naturalibus addito: et ideo quantumcumque natura humana sit integra,
+            nihilominus homo gratia indiget ad vitam aeternam consequendam.</p>
+          <p xml:id="ta-l2d29q1-d1e165">Ad primum ergo dicendum, quod unumquodque bonum Deus acceptat secundum mensuram suae
+            bonitatis; sed illud simpliciter a Deo acceptari dicitur cui ab ipso praeparatur illa
+            gloria qua ipse gloriosus est, scilicet visio ejus per essentiam.</p>
+          <p xml:id="ta-l2d29q1-d1e169">Ad secundum dicendum, quod homo ante peccatum etiam operante gratia egebat. Gratiae
+            enim operanti aliquid per se convenit, et aliquid per accidens: per se enim sibi
+            convenit ut hominem justum formaliter faciat, et Deo gratum; sed hoc accidit sibi ut
+            justum ex injusto faciat ex parte subjecti, in quo injustitia invenitur; hoc etiam per
+            se est sibi conveniens ut ex non justo justum faciat, vel ex non grato gratum, sicut
+            albedinis est ex non albo facere album; sed hoc albedini accidit ut ex nigro album
+            faciat. Similiter etiam gratiae cooperantis non est ut solam facilitatem faciat in
+            operando hoc enim haeresis Pelagiana ponebat sed ut efficaciam et virtutem quamdam novam
+            operibus hominum praebeat, scilicet merendi vitam aeternam.</p>
+          <p xml:id="ta-l2d29q1-d1e172">Ad tertium dicendum, quod non potest esse aliqua creatura quae ex propriis naturalibus
+            vitam aeternam promereri possit, sicut non potest esse aliqua creatura quae naturae
+            divinae aequetur: nec hoc omnipotentiae Dei derogat. Et hoc patet ex his quae supra
+            dicta sunt.</p>
+          <p xml:id="ta-l2d29q1-d1e175">Ad quartum dicendum, quod carentia divinae visionis potest intelligi dupliciter. Vel
+            negative; et sic non est poena, sed defectus naturam creatam consequens; nulla enim
+            natura creata ex se sufficiens est ad Dei visionem: et sic fuisset carentia divinae
+            visionis in homine ante peccatum, si gratiam non habuisset. Alio modo potest sumi
+            privative, ut intelligatur aliqua obnoxietas ad carendum Dei visione; et sic est poena
+            peccati, et in primo statu non fuisset.</p>
+          <p xml:id="ta-l2d29q1-d1e178">Ad quintum dicendum, quod similitudo Dei quae convenit homini secundum sua naturalia
+            est alia ab illa qua homo assimilatur Deo per gratiam. Nec est inconveniens ut homo in
+            pluribus Deo assimiletur, eo quod secundum quemlibet gradum bonitatis superadditum nova
+            similitudo in creaturis ad Deum consurgit.</p>
+        </div>
+        <div xml:id="ta-l2d29q1-Dd1e182">
+          <head xml:id="ta-l2d29q1-Hd1e184">Articulus 2</head>
+
+          <head xml:id="ta-l2d29q1-Hd1e187" type="questionTitle">Utrum homo ante peccatum habuerit gratiam</head>
+
+          <p xml:id="ta-l2d29q1-d1e190">Ad secundum sic proceditur. Videtur quod homo ante peccatum gratiam non habuerit.
+            Quicumque enim habet gratiam, potest proficere ad meritum vitae, eo quod per gratiam
+            meretur quis augmentum gratiae, et ejus consummationem. Sed, ut supra Magister dixit, 24
+            dist., homo in primo statu non habuit unde ad meritum vitae proficere posset. Ergo
+            gratiam non habuit.</p>
+          <p xml:id="ta-l2d29q1-d1e193">Praeterea, major est potestas gratiae quam naturae. Sed quanto peccans est majoris
+            potestatis, tanto gravius est peccatum ejus. Si ergo homo a statu gratiae cecidisset,
+            cum Angelus ante lapsum gratiam non habuerit, ut multi dicunt, videtur quod peccatum
+            hominis gravius quam peccatum Daemonis fuisset, quod supra negatum est.</p>
+          <p xml:id="ta-l2d29q1-d1e196">Praeterea, gratia magis convenit cum gloria quam cum natura. Sed gratia tempore in
+            homine gloriam praecedit. Ergo multo fortius natura gratiam; et sic in primo statu
+            gratiam non habuit.</p>
+          <p xml:id="ta-l2d29q1-d1e200">Praeterea, gratia, quantum in se est, hominem in Deum promovet. Cum igitur in homine
+            ante statum peccati nihil esset trahens ipsum inferius, videtur quod si gratiam
+            habuisset, nunquam peccavisset. Peccavit autem: igitur gratiam non habuit.</p>
+          <p xml:id="ta-l2d29q1-d1e203">Praeterea, ea quae homo per primum peccatum amisit, sibi restituta non sunt, sicut
+            impassibilitas, et hujusmodi. Si ergo gratiam in statu innocentiae habuisset, eam per
+            peccatum amissam per poenitentiam non recuperasset. Hoc autem falsum est, quia sic totum
+            humanum genus periret. Ergo gratiam in primo statu non habuit.</p>
+          <p xml:id="ta-l2d29q1-d1e206">Sed contra, nullus spoliatur illis quae non habet. Sed homo per peccatum fuit
+            vulneratus in naturalibus, et spoliatus gratuitis, ut dicitur in Glossa Luc. 10. Ergo
+            gratiam habuit.</p>
+          <p xml:id="ta-l2d29q1-d1e209">Praeterea, caritas nunquam est informis. In littera autem probatur quod Adam in primo
+            statu caritatem habuit. Ergo et gratiam, sine qua non est caritas.</p>
+          <p xml:id="ta-l2d29q1-d1e212">Respondeo dicendum, quod circa hoc est triplex opinio. Quidam enim dicunt, quod homo in
+            primo statu gratiam non habuit, nec virtutes gratuitas. Omnes autem auctoritates
+            sanctorum quas Magister in littera inducit ad probandum homini virtutes infuisse,
+            exponunt de virtutibus naturalibus, quae in ipso propter integritatem humanae naturae
+            excellentissime erant. Sed hoc non videtur auctoritatibus convenire, in quibus ponitur
+            quod Adam caritatem habuit, quae sine gratia non habetur; et plura alia dicuntur, quae
+            non nisi extorte ad virtutes naturales referri possunt. Alii vero distinguunt statum
+            innocentiae in duos status: dicunt enim, quod homo in principio creationis suae sine
+            gratia creatus est in naturalibus tantum; postmodum vero ante peccatum gratiam
+            consecutus est; et secundum hanc distinctionem varia dicta sanctorum et doctorum
+            concordare nituntur. Sed istud non videtur convenire dictis sanctorum et doctorum, qui
+            de statu innocentiae quasi de uno statu non distincto loquuntur; et ideo haec positio
+            non magnae auctoritatis est. Ideo alii dicunt, quod homo in principio creationis suae in
+            gratia creatus est; et haec quidem positio satis congruere videtur opinioni Augustini,
+            qui ponit res simul tempore perfectas fuisse et creatas, in materia et in forma. Prima
+            vero opinio magis congruere videtur opinioni aliorum sanctorum, qui dicunt per
+            successionem temporis res creatas perfectas fuisse. Quae tamen harum opinionum verior
+            sit, multum efficaci ratione probari non potest, sicut nec aliquid eorum quae ex
+            voluntate Dei sola dependent. Hoc tamen probabilius est, ut cum homo creatus fuerit in
+            naturalibus integris, quae otiosa esse non poterant, quod in primo instanti creationis
+            ad Deum conversus, gratiam consecutus sit; et ideo hanc opinionem sustinendo dicendum
+            est.</p>
+          <p xml:id="ta-l2d29q1-d1e215">Ad primum, quod sicut secundum Augustinum distinctio primorum dierum attenditur
+            secundum ordinem naturae, et non secundum successionem temporis; ita etiam secundum
+            ordinem naturae status in naturalibus puris ad statum ejus in gratia comparatur; et non
+            secundum ordinem temporis: et sic intelligendum est, quod homo in statu naturalium,
+            intellectum non habuit unde proficere posset: quia dum gratiam habet, non habet hoc ex
+            naturalibus sed ex gratuitis. Vel dicendum, quod hoc intelligendum est, quod homo non
+            potuit proficere per se, etiam habita gratia, ut beatitudinem consequeretur; et hoc
+            supra Magister dixit proficere ad meritum vitae.</p>
+          <p xml:id="ta-l2d29q1-d1e219">Ad secundum dicendum, quod secundum tertiam opinionem tam homines quam Angeli in
+            gratuitis creati sunt; et ideo contra eam non est hujusmodi objectio, sed contra
+            secundam: quam sustinentes dicimus, quod potentia naturalis hoc modo se habet ad
+            gratiam, quod ipsa subministrat substantiam actus, et gratia praebet efficaciam merendi,
+            informando actum: et sicut majoris perfectionis est forma actus quam ipsa substantia
+            ejus; ita e contrario major defectus est deficere in ipsa substantia actus quam deficere
+            in forma ipsius. Quamvis autem ponatur homo gratiam habuisse, et in hoc Angelo
+            superiorem fuisse; tamen debilior fuit in potentia naturali; et ideo defectus potentiae
+            naturalis magis excusat peccatum hominis quam defectus gratiae peccatum Angeli; unde
+            simpliciter peccatum hominis minus quam peccatum Angeli invenitur.</p>
+          <p xml:id="ta-l2d29q1-d1e222">Ad tertium dicendum, quod per gratiam aliquis meretur gloriam, et ideo convenienter
+            gratia tempore gloriam praecedit. Sed per naturam non meretur gratiam; unde nihil
+            impedit ut simul cum natura gratia infundatur.</p>
+          <p xml:id="ta-l2d29q1-d1e225">Ad quartum dicendum, quod in illis quae agunt per necessitatem naturae, oportet quod
+            agens de necessitate agat secundum exigentiam formae quae in ipso est, ut per calidum
+            calefaciat. Hoc autem in voluntariis non tenet: unde etiamsi homo gratiam habuerit,
+            nihilominus potest in contrarium actum transire.</p>
+          <p xml:id="ta-l2d29q1-d1e228">Ad quintum dicendum, quod actus personales non attingunt naturam, sed personam; et ideo
+            Adam per poenitentiam quam de peccato egit, potuit recuperare illa bona quae sibi ad
+            actus personales data erant, sicut gratiam et virtutes; non autem illa quae toti naturae
+            collata erant, ut immortalitas corporis, et obedientia inferiorum virium ad rationem, et
+            hujusmodi.</p>
+        </div>
+        <div xml:id="ta-l2d29q1-Dd1e232" type="articulus">
+          <head xml:id="ta-l2d29q1-Hd1e234">Articulus 3</head>
+
+          <head xml:id="ta-l2d29q1-Hd1e237" type="questionTitle">Utrum homo in statu primo habuisset tantum de gratia quantum
+            habuit post peccatum</head>
+
+          <p xml:id="ta-l2d29q1-d1e240">Ad tertium sic proceditur. Videtur quod in primo statu homo non tantum de gratia
+            habuisset quantum post peccatum. Ut enim philosophus dicit, ridiculum est temperantiam
+            et fortitudinem in diis ponere, cum in eis passiones innatae et illatae non sint, circa
+            quas fortitudo et temperantia medium communicant. Sed in primo statu Adam hujusmodi
+            passionibus caruisset. Ergo et per consequens his virtutibus, quas tamen homo post
+            peccatum habuit gratuitas. Non ergo tot gratias homo ante peccatum habuisset, sicut post
+            habuit.</p>
+          <p xml:id="ta-l2d29q1-d1e243">Praeterea, perseverantia quaedam virtus est, quam multi post peccati statum habent.
+            Haec autem Adae defuit, ut ejus casus ostendit. Non igitur tot virtutes habuit quot
+            homines in peccato nati habent; et sic idem quod prius.</p>
+          <p xml:id="ta-l2d29q1-d1e246">Praeterea, plus indigenti Deus plus tribuit: quia misericordia miseriam intuetur, ut
+            dicit Bernardus. Sed homo plus indiget gratiae auxilio post peccatum quam ante, cum
+            magis in naturalibus infirmetur. Ergo plus de gratia post peccatum homini confertur quam
+            ante contulisset.</p>
+          <p xml:id="ta-l2d29q1-d1e250">Praeterea, Deus cum sit summe bonus, ut Augustinus dicit, mala esse non permitteret,
+            nisi esset adeo potens ut ex malis bonum eliceret. Sed non ostenderetur perfecte divina
+            bonitas, nisi bonum quod ex malo Deus elicit, excederet illud bonum quod per malum
+            privatur. Ergo bonum hominis, quod ex peccato ejus Deus elicit, excedit illud bonum quod
+            ante peccatum erat, et est postmodum per peccatum privatum; et sic major est gratia post
+            peccatum quam ante.</p>
+          <p xml:id="ta-l2d29q1-d1e253">Praeterea, tota plenitudo gratiae humani generis ex virtute incarnationis et passionis
+            Christi procedit; unde dicitur Joan. 1, 16: <quote xml:id="ta-l2d29q1-Qd1e255">de plenitudine ejus omnes
+              accepimus</quote>. Sed si Adam non peccasset, Christus non fuisset incarnatus, ut
+            quidam dicunt; vel saltem non fuisset passus, ut omnes dicunt. Ergo non tanta plenitudo
+            gratiae fuisset in humano genere ante peccatum, sicut post.</p>
+          <p xml:id="ta-l2d29q1-d1e259">Sed contra, Matth. 25, 15: <quote xml:id="ta-l2d29q1-Qd1e261" ana="#mt25_15">dedit (...) unicuique secundum propriam
+              virtutem</quote>; et exponitur in Glossa de collatione gratiarum. Virtus autem hominum
+            naturalis, major erat ante peccatum quam post. Ergo et plus de gratia consecuti fuissent
+            ante peccatum quam post.</p>
+          <p xml:id="ta-l2d29q1-d1e265">Praeterea, nullus ex peccato reportat commodum. Sed si homo post peccatum majorem
+            gratiam haberet quam ante, commodum ex malo reportaret. Ergo et cetera.</p>
+          <p xml:id="ta-l2d29q1-d1e268">Respondeo dicendum, quod donorum gratuitorum quaedam ordinantur absolute in
+            perfectionem ejus cui conferuntur, quaedam autem ad utilitatem aliorum, ut dicitur 1
+            Corinth. 12, 7: <quote xml:id="ta-l2d29q1-Qd1e270">unicuique datur manifestatio spiritus ad utilitatem</quote>.
+            Utilitas autem quaedam est, ut defectibus proximorum subveniatur, sicut per operationem
+            signorum infidelitati succurritur: quia signa data non sunt fidelibus sed infidelibus, 1
+            Corinth. 14: et similiter est etiam de generibus linguarum, et de aliis hujusmodi donis.
+            Et quia hujusmodi defectus in primo statu non fuissent; ideo etiam nec talia dona homini
+            collata forent, quae contra hos defectus ordinantur. Dona vero absolute in perfectionem
+            recipientis ordinata sunt ea quibus homo in actibus propriis perficitur et secundum
+            animam et secundum corpus, sicut est gratia gratum faciens, virtutes, donum scientiae et
+            sapientiae, et hujusmodi, et impassibilitas corporis; et in his homo in primo statu,
+            simpliciter loquendo, magis abundasset quam in secundo statu post peccatum. Sed iste
+            excessus potest considerari dupliciter; vel intensive, vel extensive. Extensive quidem:
+            quia plura de hujusmodi homo in primo statu quam in secundo habuisset: habuit enim
+            impassibilitatem corporis, et perfectam obedientiam inferiorum virium ad rationem, et
+            hujusmodi, quae in hominibus post peccatum non inveniuntur. Sed verum est quod etiam
+            quaedam dona post peccatum sunt quae imperfectionem annexam habent, quae aut in primo
+            statu non fuissent omnino; aut si fuissent, secundum alium modum et alios actus
+            fuissent; ut tamen hoc intelligatur de imperfectione, non quae naturam consequitur, sed
+            quae ex peccato consecuta est. Fides enim imperfectionem habet consequentem naturam,
+            cujus est divina quasi in speculo intueri; et hoc etiam homini in primo statu
+            congruisset, licet vidisset clarius divina, ut supra dictum est. Et ideo fides in primo
+            statu fuisset etiam secundum ejusdem generis actum, quamvis perfectior quam modo sit.
+            Continentia vero, quae importat imperfectionem in repugnantia passionum ex peccato
+            causata, secundum quod philosophus continentiam accipit in 7 Ethic., in primo statu non
+            fuisset; et similiter poenitentia, si specialis virtus ponatur, ad minus secundum eosdem
+            actus quos nunc habet; et similis ratio est de aliis similibus. Si autem excessus
+            intensive consideretur, et praecipue quantum ad dona gratum facientia, sic considerando
+            statum ad statum, universaliter homo ante peccatum ampliori gratia praeditus fuisset
+            quam post. Sed tantum non est inconveniens quod aliquis post statum peccati multo
+            majorem gratiam habeat quam aliqui habuissent etiam in primo statu, eo quod gratiae non
+            tantum dantur secundum mensuram naturalis virtutis, seu capacitatis, sed secundum
+            conatum, quem contingit esse majorem in eo qui minoris virtutis est, sicut etiam dicitur
+            de comparatione hominum novi et veteris testamenti.</p>
+          <p xml:id="ta-l2d29q1-d1e274">Ad primum ergo dicendum, quod quamvis Angeli quos philosophus deos vocat, sicut et
+            Dionysius, hujusmodi virtutes cardinales non habeant secundum eosdem actus quibus in
+            nobis sunt, habent tamen eas secundum quosdam eminentiores actus, et praecipue secundum
+            quod constituuntur eorum actus circa finem: et hoc modo in homine etiam ante statum
+            peccati fortitudo et temperantia esse potuisset. Tamen sciendum est, quod alia ratio est
+            de homine ante peccatum, et de Angelo et de homine glorificato. Homo enim in primo statu
+            quamvis hujusmodi passionibus actu non subjaceret, tamen naturam habebat quae, quantum
+            in se est, his passionibus subjicibilis erat; et possibile erat eis subjici, si
+            peccaret, nondum homine confirmato. Sed homo glorificatus, etsi naturam habeat cui,
+            secundum se consideratae, natae sunt hujusmodi passiones inesse, tamen per habitum
+            gloriae omnino aditus his passionibus tollitur. Angelus vero nec naturam nec
+            passibilitatem respectu harum passionum habet. Unde patet quod hujusmodi virtutes,
+            quantum ad actus qui sunt viae, nunc in nobis magis remotae sunt ab Angelis quam ab
+            hominibus glorificatis; et ab hominibus glorificatis magis quam ab eis in primo statu
+            existentibus.</p>
+          <p xml:id="ta-l2d29q1-d1e278">Ad secundum dicendum, quod perseverantia dupliciter dicitur. Uno enim modo est
+            specialis virtus, cujus actus est habere propositum semper in bono permanendi; et talem
+            virtutem Adam habuit et multi qui post corruerunt. Alio modo est quaedam circumstantia
+            consequens virtutes alias; et sic non ponit specialem virtutem, sed continuationem
+            quamdam virtutis usque ad mortem; et sic Adam in primo statu perseverantiam non
+            habuit.</p>
+          <p xml:id="ta-l2d29q1-d1e281">Ad tertium dicendum, quod plus indigenti Deus plus tribuit, dummodo sit magis ad
+            recipiendum dispositus; alias non est verum. Tamen sciendum est, quod cum indigentia
+            dicatur respectu finis, ut dictum est, non est dicendum, quod homo post peccatum magis
+            eguerit gratia quam ante. Illud enim ad quod per se gratia est ordinata, scilicet
+            gloria, supra vires hominis est, sive ante peccatum sive post peccatum. Unde quantum ad
+            hoc non magis indiget post quam ante; sed quantum ad hoc ad quod per accidens gratia
+            ordinatur, quod est remotio mali, magis homo post peccatum indiget, et per respectum ad
+            gloriam attenditur mensura gratiae: quia per gratiam majorem, majorem quis gloriam
+            meretur; non autem per respectum ad remotionem peccati vel infirmitatis: quia minima
+            gratia sufficit ad delendum omnia peccata. Unde non majori gratia indiget homo post
+            peccatum quam ante; sed verum est quod ad plura gratia indiget, quae tamen plura,
+            quantalibet gratia facere potest.</p>
+          <p xml:id="ta-l2d29q1-d1e284">Ad quartum dicendum, quod Deus ex malo semper majus bonum elicit; non tamen illi de
+            necessitate in quo malum esse permittit, sed in comparatione ad universum, cujus
+            pulcritudo consistit ex hoc quod mala esse sinuntur. Bonum autem universi praeponderat
+            bono particularis rei, sicut bonum gentis est divinius quam bonum hominis, ut in 1
+            Ethic. philosophus dicit.</p>
+          <p xml:id="ta-l2d29q1-d1e287">Ad quintum dicendum, quod Christus ad hoc fuit passus ut hominis naturam repararet.
+            Unde per passionem Christi non apparet quod majorem gratiam homo consecutus sit post
+            peccatum quam ante fuisset sine ea, loquendo de gratia in ordine ad praemium essentiale:
+            quia aliquod praemium accidentale homo per passionem Christi consequitur quod ante
+            peccatum non habuisset, scilicet gaudium de victoria Christi.</p>
+        </div>
+        <div xml:id="ta-l2d29q1-Dd1e292" type="articulus">
+          <head xml:id="ta-l2d29q1-Hd1e294">Articulus 4</head>
+
+          <head xml:id="ta-l2d29q1-Hd1e297" type="questionTitle">Utrum opera hominis sint magis efficacia ad merendum gratiam
+            post peccatum quam ante peccatum</head>
+
+          <p xml:id="ta-l2d29q1-d1e300">Ad quartum sic proceditur. Videtur quod post peccatum opera hominis fuissent magis
+            efficacia ad merendum quam ante peccatum. In primo enim statu homo sicut nec ad malum
+            impellens aliquid habebat, ita nec a bono retrahens. Sed Sup., 24 dist., Magister dixit,
+            quod primus homo resistendo tentationi non meruisset; quia nihil erat quod ad malum
+            impelleret. Ergo similiter faciendo bonum, vel nihil vel minus meruisset: quia nihil
+            erat quod a bono impediret.</p>
+          <p xml:id="ta-l2d29q1-d1e303">Praeterea, dicit apostolus, 2 Timoth. 2, 5: <quote xml:id="ta-l2d29q1-Qd1e305">non coronabitur nisi qui legitime
+              certaverit</quote>. Sed homo in primo statu non ita impugnabatur sicut post peccatum.
+            Ergo nec ita coronam efficaciter merebatur.</p>
+          <p xml:id="ta-l2d29q1-d1e309">Praeterea, ut philosophus dicit in 2 Ethic., virtus est circa difficilia. Sed
+            difficilius est homini post peccatum bonum operari quam ante. Cum ergo ex virtute
+            procedat efficacia meriti, videtur quod ante peccatum actus hominis fuerint minus
+            efficaces ad merendum quam post.</p>
+          <p xml:id="ta-l2d29q1-d1e313">Praeterea, homo in primo statu fuit quasi medius inter statum Angelorum et statum
+            nostrum, ut ex his quae 23 dist. dicta sunt patet. Sed operationes Angeli non sunt ita
+            efficaces ad merendum sicut operationes hominis; quod patet ex hoc quod inferior Angelus
+            mereri gradum superioris non potest; sed homo potest mereri ut ascendat ad supremum
+            ordinem Angelorum, ut ex dictis Gregorii patet, in Homil. de centum ovibus. Ergo et homo
+            in primo statu habuit opera minus efficacia ad merendum quam post peccatum.</p>
+          <p xml:id="ta-l2d29q1-d1e316">Praeterea, ut in 1 Lib., distinct. 2, Magister dixit, homo factus est ad reparationem
+            ruinae angelicae. Sed de quolibet ordine Angelorum aliqui ceciderunt, ut supra, 6
+            distinct., dictum est. Ergo oportet quod qualitercumque vadat humana natura, sive in
+            statu innocentiae, sive in statu peccati, ad singulos ordines Angelorum aliqui homines
+            transferantur. Cum ergo hoc non fiat nisi ex virtute meriti, videtur quod saltem non
+            majoris efficaciae ad merendum fuerint opera hominis in statu innocentiae, quam post
+            peccatum.</p>
+          <p xml:id="ta-l2d29q1-d1e319">Sed contra, quanto aliquid est magis purum in genere aliquo, tanto magis habet virtutem
+            illius generis, sicut ignis purus quam ignis commixtus. Sed merita nostra sunt admixta
+            alicui demerito: quod patet ex hoc quod dicitur Isa. 64, 6: <quote xml:id="ta-l2d29q1-Qd1e321">quasi pannus
+              menstruatae omnes justitiae nostrae</quote>. Cum igitur in primo statu absque omni
+            permixtione demeriti fuissent, videtur quod tunc fuissent efficaciora ad merendum.</p>
+          <p xml:id="ta-l2d29q1-d1e325">Praeterea, quanto voluntas promptior est ad operandum, tanto homo magis meretur; 2
+            Corinth. 8, 12: <quote xml:id="ta-l2d29q1-Qd1e327">si voluntas prompta est, secundum id quod habet, accepta est, non
+              secundum id quod non habet</quote>. Sed in primo statu voluntas promptior erat ad bene
+            agendum, quia minus impediebatur. Ergo opera hominis magis erant efficacia ad
+            merendum.</p>
+          <p xml:id="ta-l2d29q1-d1e331">Respondeo dicendum, quod cum meritum non consistat in habitu, sed in actu, nec in actu
+            quolibet, sed in eo qui per habitum gratiae informatur, actus autem omnis meritorius ex
+            voluntate procedat; oportet quod meritum aliquid habeat a gratia, et aliquid a
+            voluntate, et aliquid etiam ab objecto actus, unde species actus trahitur: et ideo ex
+            his tribus efficacia merendi mensurari potest ex gratia, voluntate, et objecto. Quanto
+            enim majori caritate et gratia actus informatur, tanto magis est meritorius: similiter
+            etiam quanto magis est voluntarium, plus habet de ratione meriti et laudabilis:
+            similiter etiam quanto magis objectum est arduum, tanto magis est actus meritorius, cum
+            semper intelligatur comparatio de uno ceteris paribus. Quod autem aliquod arduum
+            augmentet rationem meriti, non habet ex difficultate laboris, sed ex bonitate; quia
+            quanto aliquid melius est, tanto supra vires hominis operantis est magis elevatum. Quia
+            igitur homo in primo statu, ut dictum est, majorem gratiam communiter habuisset quam
+            post peccatum, et promptior fuisset voluntas ad operandum, quae resistentiam non
+            habebat; sequitur quod opera hominis in primo statu simpliciter magis erant efficacia ad
+            merendum quam post, dummodo circa idem objectum operatio consideretur utrobique; quamvis
+            majori difficultate circa illud operetur homo post peccatum quam ante. Non enim arduum
+            opus auget rationem meriti nisi ratione bonitatis, et non ratione difficultatis, nisi
+            per accidens, inquantum videlicet in id quod difficile est, majori attentione aliquis
+            consurgit, et cum majori conatu voluntatis.</p>
+          <p xml:id="ta-l2d29q1-d1e334">Ad primum ergo dicendum, quod non consentire tentationi in primo statu, si homo in
+            naturalibus tantum consideretur, ut Magister hic loquitur, non fuisset homini
+            meritorium. Sed hoc contingit ex hoc quod gratiam non habebat sicut ex causa per se, et
+            non ex hoc quod nihil ad malum impellebat nisi per accidens, inquantum videlicet ex hoc
+            quod homo non habebat impellens ad malum, magis poterat conservari a casu in peccatum
+            sine gratia quam post. Vel dicendum, quod non consentire tentationi, dicitur dupliciter:
+            vel ita quod importetur negatio tantum; et ita cum non relinquatur aliquis actus, non
+            remanebit ratio meriti: et hoc potuisset contingere in primo statu propter hoc quod homo
+            non cogebatur tentationem exteriorem discutere, cum interiori tentatione non urgeretur;
+            vel ita quod importet actum voluntatis tentationi repugnantem; et sic resistere peccato
+            semper est meritorium in eo qui gratiam habet.</p>
+          <p xml:id="ta-l2d29q1-d1e338">Ad secundum dicendum, quod quamvis homo in primo statu non habuerit certamen interius,
+            habuit tamen certamen exterius; unde et victoriam habere potuit, qua coronam mereretur.
+            Nec tamen est de necessitate meriti certamen contra aliquem impugnantem, quia sic in
+            Angelis meritum non inveniretur; sed de necessitate meriti est certamen quo quis
+            contendit apprehendere aliquid quod supra se est, secundum quod aliquis quasi viribus
+            suis luctatur; nec oportet ut ubi est majus certamen, ibi sit majus meritum; sed ubi est
+            magis legitimum. Contingit autem in minori impugnatione magis legitimum certamen
+            esse.</p>
+          <p xml:id="ta-l2d29q1-d1e341">Ad tertium dicendum, quod aliquid potest dici difficile dupliciter: vel ex arduitate
+            operis; et sic virtus intelligitur circa difficile esse, quod scilicet in se difficile
+            est, et arduum: vel ex imperfectione operantis; et sic virtus circa difficile non est,
+            sed talem difficultatem virtus tollit; quanto enim aliquis virtuosior est, tanto
+            facilius opera virtutis exercet. Nec tamen dicendum est, quod quanto virtuosior sit,
+            minus mereatur. Et per hunc modum est difficultas major in operibus hominis post
+            peccatum ex imperfectione operantis.</p>
+          <p xml:id="ta-l2d29q1-d1e344">Ad quartum dicendum, quod hoc quod opera alicujus Angeli sint minus meritoria quam
+            alicujus hominis, non contingit ex imperfectione Angelorum, sed ex conditione gratiae;
+            quae quamvis in Angelis sit major secundum statum, quia propinquior fini, cum sit minor
+            via Angelo data quam homini, ut supra dictum est; tamen gratia hominis potest esse major
+            in virtute merendi. Angelis enim data est gratia ad determinatum gradum, secundum
+            determinatum ordinem, promerendum; et ideo ulterius praemium per gratiam illam mereri
+            non possunt. Homo autem cum ex conditione naturae ad nullum ordinem determinetur, sed
+            indifferenter ad omnes se habeat, accipit gratiam etiam indifferenter ordinatam ad
+            promerendum gradum cujuslibet ordinis secundum genus suum: et ideo non oportet quod
+            ratione ista homo in primo statu minus mereri potuisset quam post peccatum.</p>
+          <p xml:id="ta-l2d29q1-d1e347">Ad quintum dicendum, quod quamvis homo nunc ad eumdem terminum perveniat ad quem
+            pervenisset ante peccatum, non oportet tamen ut aequalem efficaciam in merendo habeant
+            actus ejus: quia quod tunc ex paucis actibus mereri potuit, nunc oportet quod ex multis
+            actibus mereatur; ita quod per exercitium actuum in quamdam perfectionem crescat,
+            secundum quam sibi competat meritum tanti praemii, quantum prius habuisset.</p>
+        </div>
+        <div xml:id="ta-l2d29q1-Dd1e351" type="articulus">
+          <head xml:id="ta-l2d29q1-Hd1e353">Articulus 5</head>
+
+          <head xml:id="ta-l2d29q1-Hd1e356" type="questionTitle">Utrum expulsio de Paradiso, et privatio justitiae originalis,
+            sit conveniens poena primae transgressionis</head>
+
+          <p xml:id="ta-l2d29q1-d1e359">Ad quintum sic proceditur. Videtur quod poena hominis inconvenienter in littera
+            determinetur pro peccato primae transgressionis. Illud enim quod propter hominem factum
+            est, in aliquo homini servire debet. Sed Paradisus terrestris propter hominem factus
+            est, sicut aliae creaturae. Cum igitur homini inde ejecto in nullo serviat, videtur quod
+            inde expelli non debuerit.</p>
+          <p xml:id="ta-l2d29q1-d1e362">Praeterea, propter peccatum hominis, tota natura deteriorata est, quae propter hominem
+            facta est, ut dicit Glossa Rom. 8. Multo ergo magis locus ille in quo peccatum commissum
+            est, scilicet Paradisus terrestris, infici debuit. Sed homini infecto debetur locus
+            infectus. Ergo post peccatum de Paradiso terrestri expelli non debuit.</p>
+          <p xml:id="ta-l2d29q1-d1e365">Praeterea, ut supra Magister dixit, dist. 17, Paradisus terrestris de se locus
+            inaccessibilis est. Ergo frustra apponuntur custodiae, ne homo ad illum accedere possit,
+            ad quem etiam sine illis pervenire non valeret.</p>
+          <p xml:id="ta-l2d29q1-d1e369">Praeterea, homo post peccatum statim necessitati mortis addictus fuit. Sed ex quo
+            necessitatem moriendi habuit, non poterat non mori. Ergo frustra dominus dixit, Gen. 3,
+            22: <quote xml:id="ta-l2d29q1-Qd1e371">videte ne forte sumat de ligno vitae, et comedat, et vivat in
+              aeternum</quote>.</p>
+          <p xml:id="ta-l2d29q1-d1e375">Praeterea, lignum vitae non habuisset majorem effectum in homine post peccatum quam
+            ante. Sed homo ante peccatum de ligno vitae edidit, ut in littera dicitur, nec tamen in
+            aeternum vixit. Ergo etiam licet post peccatum de eo comedisset, non in aeternum
+            vixisset.</p>
+          <p xml:id="ta-l2d29q1-d1e378">Si dicatur, quod lignum vitae hunc effectum non habebat, nisi frequenter sumptum;
+            contra. Causa multiplicata, non variat effectum secundum speciem. Si ergo semel sumptum
+            immortalitatis causa non erat, videtur quod nec etiam si frequenter sumeretur.</p>
+          <p xml:id="ta-l2d29q1-d1e381">Sed contra, id quod innocentiae debebatur, non debuit remanere, innocentia amissa. Sed
+            locus ille et cibus innocentiae debebatur. Ergo post peccatum homo utroque privari
+            debuit.</p>
+          <p xml:id="ta-l2d29q1-d1e384">Praeterea, magis erat proprius locus Angeli caelum Empyreum in quo creatus est, quam
+            hominis Paradisus terrestris, in quo positus est homo extra ipsum creatus. Sed Angelus
+            post peccatum de caelo Empyreo dejectus est. Ergo et homo post peccatum de Paradiso
+            terrestri expelli debuit.</p>
+          <p xml:id="ta-l2d29q1-d1e387">Respondeo dicendum, quod ad felicitatem seu ad beatitudinem aliquid pertinet quod est
+            de substantia ejus, sicut visio Dei, gaudium, et hujusmodi; aliquid autem correspondet
+            sibi per modum congruentiae, sicut beatitudini sanctorum respondet locus
+            excellentissimus, qui est caelum Empyreum. Ita etiam ad statum innocentiae, in qua
+            quodammodo homo beatus erat, ut dicit Augustinus, quaedam pertinebant quasi
+            essentialiter, sicut immortalitas, et obedientia virium inferiorum ad rationem, et
+            hujusmodi; sed quaedam alia pertinebant per modum cujusdam congruentiae. Immortali enim
+            vitae et ab omni inquietudine segregatae debebatur locus temperatissimus et deliciis
+            plenus, qualis est Paradisus terrestris. Unde sicut post peccatum dejectus est a statu
+            illo innocentiae in quem elevatus erat supra conditionem naturae suae absolute
+            consideratae; ita etiam et locum amisit qui illi excellentiae debebatur; et in locum ubi
+            formatus fuerat, dejectus est.</p>
+          <p xml:id="ta-l2d29q1-d1e391">Ad primum ergo dicendum, quod Paradisus terrestris quamvis non serviat homini quasi in
+            usum ejus veniens, servit tamen sibi ad instructionem ejus proficiens; sicut homo ex hoc
+            ipso quod in Scriptura cognoscit se tali loco per peccatum privatum, ad peccatum
+            vitandum incitatur, et ad miseriam suam cognoscendam.</p>
+          <p xml:id="ta-l2d29q1-d1e394">Ad secundum dicendum, quod sicut peccati infectio non venit ad creaturas alias nisi per
+            creaturam rationalem peccantem; ita etiam illa infectio sive corruptio non in
+            irrationalis creaturae poenam ordinatur; unde non oportet quod locus ille per peccatum
+            inficiatur in quo homo et Angelus peccavit, scilicet Paradisus terrestris, et caelum
+            Empyreum, sed illa loca quae peccantibus deputata sunt post peccatum.</p>
+          <p xml:id="ta-l2d29q1-d1e397">Ad tertium dicendum, quod illa impedimenta ratione quorum inaccessibilis dicitur
+            Paradisus terrestris, forte hic gladius flammeus vocantur: quia praecipue locus ille
+            inaccessibilis videtur propter intemperatum calorem in locis intermediis; et ideo non
+            sequitur quod hujusmodi impedimenta superflua sint.</p>
+          <p xml:id="ta-l2d29q1-d1e400">Ad quartum dicendum, quod quamvis homo post peccatum lignum vitae sumpsisset, mortem
+            evadere non potuisset; potuisset tamen mortem differre; ita ut vita ejus auxilio ligni
+            vitae prolongaretur, sicut de Enoch et Elia creditur, et hoc homini non expediebat, ut
+            tamdiu in hac misera vita permaneret. Et verba illa domini sunt magis accipienda per
+            modum compassionis quam insultationis. Vel potest dici sicut dicit Magister in
+            littera.</p>
+          <p xml:id="ta-l2d29q1-d1e403">Ad quintum dicendum, quod etsi homo ante peccatum de ligno vitae sumpsisset, non tamen
+            immortalitatem consecutus fuisset, quam lignum vitae conferre non potuit, nisi
+            frequenter sumptum.</p>
+          <p xml:id="ta-l2d29q1-d1e406">Et ideo ad sextum dicendum, quod lignum vitae non erat causa per se immortalitatis, ut
+            ex praedictis patet, sed potius erat ut dispositio quaedam. Dispositio autem non
+            perducit ad effectum nisi multiplicata, sicut patet in qualitatibus activis et passivis,
+            quae sunt dispositiones ad formam elementi: non enim inducitur forma elementi nisi
+            quando perducitur materia ad intensionem qualitatum illarum.</p>
+        </div>
+        <div xml:id="ta-l2d29q1-Dd1e410">
+          <head xml:id="ta-l2d29q1-Hd1e412">Expositio textus</head>
+          <p xml:id="ta-l2d29q1-d1e415"><quote xml:id="ta-l2d29q1-Qd1e416">Operatur liberando et praeparando</quote>; ut liberatio referatur ad expulsionem
+            peccati, et praeparatio ad informationem animae. <quote xml:id="ta-l2d29q1-Qd1e419">Non tamen justitiae habendae,
+              vel retinendae</quote>; contra. Supra dictum est, quod quamvis homo non haberet unde
+            proficere posset, habuit tamen unde posset stare. Ergo liberum arbitrium sufficiebat ad
+            justitiam retinendam. Et dicendum, quod ab eadem causa est esse rei et conservatio ejus;
+            unde sicut esse justitiae gratuitae non est nisi a Deo; ita etiam et conservatio ejus.
+            Sed verum est quod homo habens gratiam non indiget alia gratia ad ejus conservationem,
+            et propter hoc dicitur, quod homo potest per se stare. <quote xml:id="ta-l2d29q1-Qd1e422">Quibus respondentes,
+              dicimus, eum quidem non tunc habuisse has virtutes quando peccavit; sed ante, et tunc
+              amisisse</quote>. Videtur hoc falsum: quia si quando peccavit, non habuit, non prius
+            amisit quam peccaret, quod videtur falsum. Sed dicendum, quod ante intentionem peccati
+            habuit virtutes: sed simul ista duo fuerunt, commissio peccati et amissio virtutis,
+            sicut unum est instans in quo expellitur nigredo et inducitur albedo. <quote xml:id="ta-l2d29q1-Qd1e425">Homo ante
+              peccatum beatissimus auram carpebat aetheream</quote>. Non est intelligendum de
+            patriae beatitudine, sed secundum quod beatitudo includit talem perfectionem qualis illi
+            statui congruebat: et capiebat auram aetheream, inquantum fixus in divinorum
+            contemplatione manebat. <quote xml:id="ta-l2d29q1-Qd1e428">Atque usi fuisse concessis</quote>. Ex hoc non
+            sufficienter probatur, quod homo in statu illo de ligno vitae comedebat. Praeceptum enim
+            affirmativum non obligat ad semper; unde etsi praeceptum sibi fuerit quod lignis omnibus
+            concessis uteretur, potuit tamen esum alicujus eorum differre usque ad terminum sibi a
+            Deo praefinitum; et ideo a quibusdam non conceditur quod Magister hic determinat. Sed
+            quid verius sit determinari non potest; cum Scriptura non determinet, nec ratione
+            probari possit.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

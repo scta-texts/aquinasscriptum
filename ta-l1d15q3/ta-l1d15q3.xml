@@ -1,0 +1,1790 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 15, Quaestio 3</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.09-dev-master">
+          <title>Librum I, Distinctio 15, Quaestio 3</title>
+          <date when="2016-03-14">March 14, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-14">March 14, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p>1856 editum</p>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="2015.09">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <div xml:id="starts-on"> </div>
+    </front>
+    <body>
+      <div xml:id="ta-l1d15q3">
+        <head xml:id="ta-l1d15q3-Hd1e3490">Librum I, Distinctio 15, Quaestio 3</head>
+        <div xml:id="ta-l1d15q3-Dd1e3493">
+          <head xml:id="ta-l1d15q3-Hd1e3495">Prooemium</head>
+          <p xml:id="ta-l1d15q3-d1e3498">Deinde quaeritur de missione per comparationem ad mittentem, et circa hoc duo
+            quaeruntur: 1 utrum alicui personae conveniat quod mittat se, vel procedat a se, vel
+            det; 2 utrum filius mittatur a spiritu sancto.</p>
+        </div>
+        <div xml:id="ta-l1d15q3-Dd1e3502" type="articulus">
+          <head xml:id="ta-l1d15q3-Hd1e3504">Articulus 1</head>
+
+          <head xml:id="ta-l1d15q3-Hd1e3507" type="questionTitle">Utrum aliqua persona mittat se vel det</head>
+
+          <p xml:id="ta-l1d15q3-d1e3510">Ad primum sic proceditur. Videtur quod nulla persona det se, vel mittat se. Dans enim
+            semper videtur habere auctoritatem respectu dati. Sed nulla persona habet auctoritatem
+            respectu sui ipsius. Ergo videtur quod nulla persona det se.</p>
+          <p xml:id="ta-l1d15q3-d1e3513">Item supra, dist. 14, dixit Magister, quod homines non possunt dare spiritum sanctum,
+            quia ab eis non procedit. Sed nulla persona procedit a seipsa; alias esset principium
+            sui ipsius. Ergo nulla persona seipsam dare potest.</p>
+          <p xml:id="ta-l1d15q3-d1e3516">Item, sicut dictum est, in hac dist., qu. 1, art. 2, missio ponit exitum ipsius missi a
+            mittente. Sed nulli personae convenit mittere se.</p>
+          <p xml:id="ta-l1d15q3-d1e3520">Item, sicut dictum est, processio principaliter importat respectum personae ad
+            principium a quo distinguitur. Sed nulla persona divina distinguitur a seipsa. Ergo nec
+            a se procedit.</p>
+          <p xml:id="ta-l1d15q3-d1e3523">Praeterea, haec praepositio a importat habitudinem principii. Sed nulla res est
+            principium sui ipsius. Ergo etsi conceditur quod aliqua persona mittit se, non debet
+            concedi quod mittatur a se.</p>
+          <p xml:id="ta-l1d15q3-d1e3526">Contra, Augustinus: <quote xml:id="ta-l1d15q3-Qd1e3528">sicut generari est filium esse a patre, ita filium cognosci
+              esse a patre, est filium mitti</quote>. Sed ista cognitio potest causari a filio. Ergo
+            et missio filii potest esse a filio.</p>
+          <p xml:id="ta-l1d15q3-d1e3532">Item, hoc videtur ex his quae in littera dicuntur.</p>
+          <p xml:id="ta-l1d15q3-d1e3535">Respondeo dicendum, quod secundum differentiam donationis, missionis et processionis
+            superius assignatam in hac dist., quaest. 1, art. 1, diversimode oportet in hac
+            quaestione loqui. Si enim accipiamus donationem sive dationem, de ratione dationis non
+            videtur plus esse nisi quod datum libere a dante habeatur. Hoc autem potest esse
+            dupliciter: aut sicut aliquis libere seipsum habet, vel aliquid quod in ipso est; aut
+            sicut libere aliquis habet suam possessionem, vel id respectu cujus dominium habet,
+            secundum quod habere multis modis dicitur. Unde de ratione donationis non est quod
+            ponatur aliqua auctoritas respectu ipsius dati (potest enim aliquis et seipsum ex amore
+            dare alicui in amicum), nisi specificetur datio secundum specialem modum habendi, qui
+            est secundum dominium. Talis autem donatio nulla est respectu divinorum. Et ideo donatio
+            non exigit aliquam rationem principii respectu ipsius dati. Unde dari, potest convenire
+            et essentiae divinae, prout dicimus quod pater dat essentiam suam filio; et potest
+            convenire patri, ut dicatur pater seipsum dare; et similiter filio, et spiritui sancto.
+            Nec notabitur aliqua distinctio dantis ad datum, nisi forte secundum rationem, sicut
+            intelligentis ad intellectum. Et sic concedimus simpliciter quod persona dat se, et
+            datur a se. Sed circa missionem est major difficultas, quam attestatur opinionum
+            diversitas. Quidam enim dicunt, quod omnes tales sunt falsae: <quote xml:id="ta-l1d15q3-Qd1e3537">spiritus sanctus
+              mittit se</quote> vel <quote xml:id="ta-l1d15q3-Qd1e3540">filius mittit se</quote>. Et dicunt, rationes Magistri
+            non valere; quia cum missio includat in se notionem, non oportet quod in potentia vel
+            operatione missionis tres personae conveniant, sicut nec in generatione vel potentia
+            generandi. Et dicunt etiam non esse simile de missione in carnem, secundum quam filius
+            seipsum mittere dicitur; quia in illa missione natura creata assumitur in unitatem
+            divinae personae; quod non contingit in aliis missionibus. Et si in auctoritate aliqua
+            invenitur quod spiritus sanctus mittat se, glossandum est: idest, a spiritu sancto est
+            effectus, in quo ab alio cognoscitur esse. Sed quia sancti communiter talibus
+            locutionibus utuntur et praecipue Augustinus et Magister hoc concedunt; ideo alii
+            dixerunt, quod missio aliquando proprie sumitur, aliquando improprie. Quando missio
+            sumitur proprie, importat distinctionem missi ab eo a quo fit missio; et ideo hoc modo
+            non potest dici quod spiritus sanctus mittat se. Communiter autem sumitur et improprie
+            missio pro influentia vel datione; et sic dicunt spiritum sanctum mittere se quia dat se
+            vel quia inspirat se. Et haec opinio est Praepositini et Altisiodorensis. Et quia haec
+            opinio parum videtur recedere a prima; ideo dixerunt alii, quod proprie dicitur spiritus
+            sanctus se mittere. Et huic consentiendum videtur, si virtus nominis attendatur. Missio
+            enim, ut dictum est, in hac dist., qu. 1, art. 1, importat duo; scilicet missum esse ab
+            alio, ratione auctoritatis quam importat; et iterum effectum, secundum quem novo modo in
+            aliqua creatura spiritus sanctus dicitur. Unde sensus est: spiritus sanctus mittitur;
+            idest, est ab aliquo, et fit novo modo in aliquo, nulla tamen mutatione facta circa
+            ipsum, ut prius dictum est. Notandum est autem, quod diversimode verificatur locutio,
+            quando aliquod conjunctum praedicatur de aliquo secundum esse, et quando secundum fieri.
+            Quando enim praedicatur secundum esse, oportet quod utrumque illorum esse dicatur; ut si
+            dicam, Socrates est homo albus, oportet eum esse hominem, et album esse; nisi alterum
+            diminuat rationem alterius, ut cum dicitur, homo mortuus. Sed quando praedicatur
+            conjunctum secundum fieri, sufficit quod alterum in fieri praedicetur; ut si dicam,
+            Socrates est nunc factus homo albus, sufficit ad veritatem hujus locutionis, quod sit
+            nunc factus albus, quamvis non sit factus homo. Item notandum est, quod quando aliquod
+            compositum praedicatur de aliquo secundum fieri, diversimode se habet in faciente et in
+            facto. Quia ex parte facti, oportet quod utrumque praedicetur secundum esse, etsi non
+            utrumque secundum fieri, ut si dicam, iste est factus homo albus, oportet eum esse
+            hominem et esse album, nisi alterum sit diminuens; non autem oportet quod fiat homo, sed
+            sufficit quod fiat album. Ex parte autem facientis (quia faciens non refertur ad factum,
+            nisi secundum id quod fit in ipso) sufficit quod faciens dicatur facere alterum tantum;
+            ut si dicam, pictor facit parietem album, non oportet quod faciat eum esse parietem et
+            esse album; sed sufficit si facit esse eum album tantum. Dico igitur, quod missio, quia
+            ponit missum esse in aliquo eo modo quo prius non erat et sic fieri in illo secundum
+            illum modum, importat quamdam factionem; non dico realem factionem, sed rationis tantum,
+            quae terminatur ad relationem rationis, et non rei, sicut dicitur Deus factus refugium.
+            Sensus ergo est: spiritus sanctus est missus; idest, factus est ens ab alio existens in
+            creatura per gratiam. Unde oportet ad hoc ut dicatur missus, quod et sit ab alio, et
+            fiat in aliquo secundum novam habitudinem. Propter quod pater non potest dici mitti,
+            quia non est ab aliquo. Si autem accipiamus ex parte mittentis, tunc mittere spiritum
+            sanctum nihil aliud est quam facere spiritum sanctum existentem ab alio, esse in aliquo
+            secundum novam habitudinem; et ideo cuicumque personae convenit facere alterum istorum,
+            scilicet quod sit in aliquo secundum novam habitudinem, dicetur mittere spiritum
+            sanctum, quamvis non sit principium spiritus sancti, secundum quod est ab aliquo. Et
+            quia tota Trinitas facit spiritum sanctum esse in aliquo secundum novam habitudinem,
+            propter donum collatum totius Trinitatis; ideo tota Trinitas dicitur mittere spiritum
+            sanctum; et ipse seipsum mittit et ipse a se mittitur sub eodem sensu. Ulterius, si
+            loquamur de processione, habebit minus de proprietate, et minus proprie dicetur,
+            spiritum sanctum procedere a se, quam mitti a se. Sed tamen, quia processio temporalis,
+            ut dictum est, loc. cit., ponit novam habitudinem ad creaturam in quam procedit, et
+            omnis novitas pertinet ad aliquam factionem; ideo etiam secundum processionem temporalem
+            spiritus sanctus ens ab alio est et existens novo modo in aliquo. Et sic sub eodem sensu
+            conceditur quod spiritus sanctus procedat a se temporaliter.</p>
+          <p xml:id="ta-l1d15q3-d1e3544">Ad primum ergo dicendum, quod non est de ratione dationis quod ponatur aliqua
+            auctoritas respectu dati, nisi quando datur aliquid quod habetur per modum dominii; et
+            talis datio non est in divinis, ut dictum est, in corp. art.</p>
+          <p xml:id="ta-l1d15q3-d1e3548">Ad secundum dicendum, quod neutrum horum homines efficiunt quae in missione
+            importantur; quia nec gratiam conferunt, nec ab eis spiritus sanctus procedit; et ideo
+            nullo modo potest homo mittere spiritum sanctum.</p>
+          <p xml:id="ta-l1d15q3-d1e3551">Ad tertium dicendum, quod missio non ponit tantum exitum; sed cum hoc aliquid aliud,
+            scilicet esse in creatura secundum novam habitudinem. Et quamvis secundum alterum,
+            scilicet exitum, non referatur ad se sicut ad principium; tamen secundum utrumque
+            conjunctum refertur ad se sicut ad principium; ipse enim facit, se existentem ab alio,
+            secundum novam habitudinem esse in aliquo ratione perfectionis quam illi confert.</p>
+          <p xml:id="ta-l1d15q3-d1e3554">Ad quartum dicendum, quod quamvis processio importet tantum respectum ad personam a qua
+            habet esse, tamen processio temporalis, ut dictum est, importat respectum ad creaturam
+            in quam procedit; et hujus ratione temporaliter dicitur procedere a se, sicut et mitti a
+            se.</p>
+          <p xml:id="ta-l1d15q3-d1e3557">Ad quintum dicendum, quod ipse spiritus sanctus quamvis non sit principium sui ipsius
+            simpliciter, tamen ipse facit, se existentem ab alio, esse in aliquo secundum novam
+            habitudinem; et secundum hoc, totum conjunctum refertur in se sicut in principium,
+            ratione alterius tantum, ut patet ex praedictis in hoc art.</p>
+        </div>
+        <div xml:id="ta-l1d15q3-Dd1e3561" type="articulus">
+          <head xml:id="ta-l1d15q3-Hd1e3563">Articulus 2</head>
+
+          <head xml:id="ta-l1d15q3-Hd1e3566" type="questionTitle">Utrum spiritus sanctus mittat vel det filium</head>
+
+          <p xml:id="ta-l1d15q3-d1e3569">Ad secundum sic proceditur. Videtur quod spiritus sanctus non det vel mittat filium.
+            Augustinus enim dicit, quod exire filium a patre et venire in mundum hoc est filium
+            mitti a patre. Sed filius non exit a spiritu sancto. Ergo non mittitur ab ipso.</p>
+          <p xml:id="ta-l1d15q3-d1e3572">Item, sicut filius se habet ad patrem, ita spiritus sanctus ad filium. Sed filius nullo
+            modo mittit patrem. Ergo nec spiritus sanctus filium.</p>
+          <p xml:id="ta-l1d15q3-d1e3575">Contra, Isa. 48, 16: <quote xml:id="ta-l1d15q3-Qd1e3577">et tunc misit me dominus, et spiritus ejus</quote>; et
+            exponit Glossa de filio. Ergo mittitur a patre et spiritu sancto.</p>
+          <p xml:id="ta-l1d15q3-d1e3582">Item, Ambrosius de spiritu sancto: <quote xml:id="ta-l1d15q3-Qd1e3584">datus filius est a patre</quote>, ut Isaias
+            dicit, 9, 6, <quote xml:id="ta-l1d15q3-Qd1e3587">filius datus est nobis. Datus est (audeo dicere) et a spiritu
+              sancto, quia a spiritu sancto missus est</quote>. Ergo et cetera.</p>
+          <p xml:id="ta-l1d15q3-d1e3591">Respondeo dicendum, quod quidam distinguunt triplicem missionem filii: unam qua missus
+            est in carnem; aliam qua mittitur in mentem; tertiam qua mittitur ad praedicandum; et
+            secundum hanc ultimam missionem dicunt filium missum a spiritu sancto, non autem
+            secundum duas primas, sed solum a patre. Cujus ratio est, secundum eos, quia missio ad
+            praedicandum potest convenire Christo ratione humanae naturae, cujus assumptio
+            praesupponitur; sed duae primae missiones referuntur ad ipsam personam filii, quia
+            missio in carnem convenit ipsi personae secundum se, et non ratione humanae naturae,
+            cujus assumptio consequitur missionem secundum intellectum, sicut effectus causam, et
+            sicut terminus motum. Et similiter in mentem non mittitur ratione humanae naturae. Et
+            quia spiritus sanctus non habet auctoritatem respectu personae filii sed tantum respectu
+            naturae assumptae, ideo concedunt tertiam missionem filii esse a spiritu sancto et non
+            duas primas. Sed quia, ut dictum est, in hac distin., quaest. 1, art. 2, non requiritur
+            de necessitate quod in mittente sit auctoritas respectu missi, sed tantum efficientia
+            respectu ejus secundum quod missus dicitur mitti; ideo concedimus quod spiritus sanctus
+            et tota Trinitas misit filium, secundum quamlibet missionem; et praecipue cum Augustinus
+            expresse dicat eum missum a spiritu sancto loquens de missione in carne:
+              <quote xml:id="ta-l1d15q3-Qd1e3593">mitti</quote>, inquiens, <quote xml:id="ta-l1d15q3-Qd1e3596">a patre sine spiritu sancto non potuit: quia
+              pater intelligitur eum misisse, cum fecit eum ex femina; quod utique non fecit sine
+              spiritu sancto</quote>.</p>
+          <p xml:id="ta-l1d15q3-d1e3600">Ad primum ergo dicendum, quod quando pater dicitur mittere filium, in mittente
+            intelligitur auctoritas respectu missi, non inquantum est mittens, sed inquantum est
+            pater; et ideo filium mitti a patre est ipsum exire a patre. Non autem ostenditur
+            auctoritas in mittente cum seipsum filius mittere dicitur, vel cum spiritus sanctus eum
+            mittit; et ideo filium mitti a se vel a spiritu sancto, non est ipsum exire a se vel a
+            spiritu sancto.</p>
+          <p xml:id="ta-l1d15q3-d1e3603">Ad secundum dicendum, quod filius non potest mittere patrem; quia pater non potest
+            mitti, cum non sit ab alio. Si ab alio esset, et mitti posset et filius eum
+            mitteret.</p>
+        </div>
+        <div xml:id="ta-l1d15q3-Dd1e3607">
+          <head xml:id="ta-l1d15q3-Hd1e3609">Expositio textus</head>
+          <p xml:id="ta-l1d15q3-d1e3612"><quote xml:id="ta-l1d15q3-Qd1e3613">Si enim spiritus sanctus seipsum dare non potest, et eum pater dare potest et
+              filius; potest utique pater dare aliquid et filius quod non potest spiritus
+              sanctus</quote>. Hic ponit Magister duas rationes ad ostendendum quod spiritus sanctus
+            dat se: quarum prima sumitur ex parte potentiae; secunda ex parte operationis, quorum
+            utrumque commune est tribus personis. Sed videtur quod non valeant; quia nos dicimus,
+            quod pater potest generare filium et generat. Filius autem non potest, nec generat; nec
+            tamen aliqua divisio potestatis aut operationis sequitur; et similiter videtur in
+            proposito. Sed dicendum, quod si dare et procedere temporaliter esset tantum secundum
+            relationem aeternae originis, rationes non valerent, sicut nec de generatione. Sed quia
+            hoc includit etiam efficientiam respectu quorumdam effectuum in creatura, qui communiter
+            sunt a tota Trinitate; ideo rationes necessario concludunt.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

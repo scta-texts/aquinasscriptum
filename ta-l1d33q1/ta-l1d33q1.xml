@@ -1,0 +1,577 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 33, Quaestio 1</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.09-dev-master">
+          <title>Librum I, Distinctio 33, Quaestio 1</title>
+          <date when="2016-03-15">March 15, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-15">March 15, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p>1856 editum</p>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="2015.09">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+
+
+
+
+      <div xml:id="starts-on"> </div>
+    </front>
+    <body>
+      <div xml:id="ta-l1d33q1">
+        <head xml:id="ta-l1d33q1-Hd1e89">Librum I, Distinctio 33, Quaestio 1</head>
+        <div xml:id="ta-l1d33q1-Dd1e92">
+          <head xml:id="ta-l1d33q1-Hd1e94">Prooemium</head>
+          <p xml:id="ta-l1d33q1-d1e97">Postquam determinavit Magister de essentia et personis et proprietatibus, hic
+            determinat operationes eorum ad invicem, et dividitur in partes duas: in prima ostendit
+            qualiter proprietates comparentur ad essentiam et personam; in secunda qualiter personae
+            ad essentiam comparentur, 34 dist. ibi: <quote xml:id="ta-l1d33q1-Qd1e99">praedictis autem adjiciendum est</quote>.
+            Prima in duas: in prima ostendit veritatem; in secunda excludit errorem, ibi: <quote xml:id="ta-l1d33q1-Qd1e102">hoc
+              autem aliqui negant</quote>. Prima in duas: in prima movet quaestionem: in secunda
+            determinat eam, ibi: <quote xml:id="ta-l1d33q1-Qd1e105">quod enim in personis sint proprietates, nemo inficiari
+              audet</quote>. Et circa hoc tria facit: primo ostendit proprietates esse in personis,
+            quod tamen in quaestione positum non fuit; secundo ostendit proprietates esse personas,
+            ibi: <quote xml:id="ta-l1d33q1-Qd1e108">superius quoque multis sanctorum testimoniis astruximus, personas per
+              proprietates distingui</quote>; tertio ostendit proprietates esse divinam essentiam,
+            ibi: <quote xml:id="ta-l1d33q1-Qd1e111">cumque de simplicitate deitatis supra dissereremus (...) evidenter
+              monstravimus Deum hoc esse omnino quod in se habet</quote>. Utrumque ostendit
+            dupliciter: ratione et auctoritate. Et utraque ratio sumitur ex divina simplicitate,
+            quae non compatitur nec ut quod est in Deo, sit aliud ab ipso; et sic proprietas quae
+            est in persona, non est aliud ab ea; nec quod habens sit aliud ab habito; et sic probat,
+            quod essentia, vel Deus, non est aliud a proprietate quam habet. <quote xml:id="ta-l1d33q1-Qd1e115">Hoc autem aliqui
+              negant</quote>. Hic excludit errorem, et circa hoc duo facit: primo ponit falsam
+            positionem; secundo ponit rationes positionis, et solvit eas, ibi: <quote xml:id="ta-l1d33q1-Qd1e118">si enim,
+              inquiunt, proprietates sunt personae, non eis personae determinantur</quote>. Et circa
+            hoc duo facit: primo inducit probationes quae sunt acceptae per rationem; secundo
+            inducit probationes acceptas ex auctoritatibus, ibi: <quote xml:id="ta-l1d33q1-Qd1e121">verumtamen nondum desistunt
+              (...) sed opinionem suam etiam sanctorum auctoritatibus munire conantur</quote>. Circa
+            primum tria facit: primo inducit rationem, qua proprietates existentes in personis
+            probatur non esse personas; secundo inducit aliam rationem, qua probatur quod proprietas
+            non est essentia, ibi: <quote xml:id="ta-l1d33q1-Qd1e124">sed iterum addunt</quote>; tertio ponit rationem, qua
+            probatur proprietatem non esse in essentia, ibi: <quote xml:id="ta-l1d33q1-Qd1e127">ceterum haereticorum improbitas
+              (...) nondum quiescit</quote>; et haec dividitur in tres: in prima ponit probationem
+            illorum; secundo ponit rationem, ibi: <quote xml:id="ta-l1d33q1-Qd1e130">quorum audaciae resistentes, atque
+              ignorantiae providentes, audebimus aliquid super hoc loqui</quote>; tertio inducit
+            quaestionem contra responsionem, et excludit eam, ibi: <quote xml:id="ta-l1d33q1-Qd1e134">sed forte quaeres, cum hae
+              proprietates non possint esse in personis quin eas determinent, quomodo in divina
+              essentia esse possint ita ut non eam determinent</quote>. Hic quaeruntur quinque: 1
+            utrum proprietates sint divina essentia; 2 utrum sint ipsae personae; 3 utrum sint in
+            personis et in essentia; 4 utrum de proprietatibus possint praedicari adjectiva
+            essentialia et personalia; 5 utrum de notionibus sine peccato contrariae opiniones esse
+            possint.</p>
+        </div>
+        <div xml:id="ta-l1d33q1-Dd1e139" type="articulus">
+          <head xml:id="ta-l1d33q1-Hd1e141">Articulus 1</head>
+
+          <head xml:id="ta-l1d33q1-Hd1e144" type="questionTitle">Utrum relationes divinae sint essentia divina</head>
+
+          <p xml:id="ta-l1d33q1-d1e147">Ad primum igitur sic proceditur. Videtur quod relationes ipsae non sint essentia
+            divina. Aut enim quae relative in Deo dicuntur, sunt relativa secundum esse aut tantum
+            secundum dici. Sed non tantum secundum dici; quia sic incideret haeresis Sabellii, ut
+            supra, dist. 31, in Expos. text., in notula Hilarii habitum est. Ergo sunt relativa
+            secundum esse. Sed talium relationum, secundum philosophum, esse, est ad aliud se
+            habere. Ergo cum essentiae divinae esse non sit ad aliud se habere, sed sit esse
+            absolutum, videtur quod non sit idem cum relatione quae secundum esse ad aliud est.</p>
+          <p xml:id="ta-l1d33q1-d1e150">Praeterea, quaecumque sunt idem secundum rem, in quocumque est unum, et alterum, nec
+            potest instantia fieri. Sed non in quocumque est essentia divina, est paternitas; quia
+            essentia divina est in filio, in quo paternitas non est. Ergo essentia divina non est
+            idem quod paternitas; et eadem ratione nec idem quod alia proprietas.</p>
+          <p xml:id="ta-l1d33q1-d1e153">Si dicas, quod est idem re, sed differt ratione; contra. Aut ista ratio est aliquid in
+            re, aut nihil. Si nihil, cum non sit distinctio nisi secundum relationes, tunc
+            distinctio personarum non erit secundum rem, sed secundum rationem tantum, vel
+            intellectum. Si autem sit aliquid in re, constat quod quidquid est realiter in Deo, Deus
+            vel essentia divina habet illud. Sed in Deo, est idem habens et quod habetur, ut in
+            littera dicitur. Ergo essentia divina est ratio paternitatis, sicut et ipsa res quae est
+            paternitas. Ergo non solum sunt idem re, sed etiam ratione, si re idem ponantur.</p>
+          <p xml:id="ta-l1d33q1-d1e157">Item, si sunt idem re, sed differunt ratione solum; ergo proprietas vel relatio non
+            addit supra essentiam nisi rationem quamdam. Sed similiter relationes quae dicuntur ex
+            tempore, ponunt circa essentiam divinam aliquas habitudines secundum rationem. Ergo
+            videtur quod non magis sunt in Deo istae relationes quibus distinguuntur personae, quam
+            istae quae dicuntur de Deo ex tempore. Sed istae sunt tantum assistentes, et non
+            inhaerentes; alias non possent advenire sine aliqua mutatione ipsius Dei. Ergo videtur
+            quod istae relationes quae distinguunt personas, sint etiam assistentes, et non essentia
+            divina.</p>
+          <p xml:id="ta-l1d33q1-d1e160">Item, sicut est alia ratio paternitatis et essentiae; ita est alia ratio essentiae et
+            bonitatis divinae. Si ergo propter hoc dicit Augustinus, quod Deus alio est pater, alio
+            Deus; eadem ratione deberet dicere, quod alio est Deus, alio bonus. Hoc autem non dicit,
+            immo contrarium asserit. Ergo videtur quod cum dicit, quod alio est pater, alio est
+            Deus, non intendat distinguere secundum rationem tantum, sed etiam secundum rem; et ita
+            videtur quod paternitas qua pater est non sit essentia divina qua Deus est.</p>
+          <p xml:id="ta-l1d33q1-d1e163">Contra, nihil est adorandum adoratione latriae nisi Deus. Sed proprietates personarum
+            sunt adorandae, ut cantatur in praefatione: <quote xml:id="ta-l1d33q1-Qd1e165">ut in personis proprietas, et in
+              essentia unitas, et in majestate adoretur aequalitas</quote>. Ergo videtur quod etiam
+            ipsae proprietates sunt aliquid in re, aut nihil. Si nihil, cum personae non
+            distinguantur nisi proprietatibus, tunc personae non distinguuntur ad invicem secundum
+            rem, quod est haeresis Sabellii. Si autem sunt aliquid in re, illud aliquid quod sunt,
+            aut est divina essentia, aut aliquid aliud. Si aliquid aliud, illud est in persona in
+            qua est proprietas. Sed in persona etiam est essentia. Ergo in persona est aliud et
+            aliud. Ergo est composita. Sed nullum compositum est Deus, ut supra probatum est, dist.
+            8, quaest. 4, art. 1. Ergo persona divina non est Deus, et ita pater non est Deus, nec
+            filius est Deus: quod excedit etiam errorem Arii. Ergo oportet quod proprietates sint
+            essentia divina.</p>
+          <p xml:id="ta-l1d33q1-d1e169">Respondeo dicendum, quod simpliciter confitendum est proprietates esse divinam
+            essentiam. Error enim iste qui in littera tangitur, dicitur Porretani fuisse, quem
+            postmodum in Rhemensi Concilio retractavit. Cum enim, ut supra dictum est, distinct. 8,
+            qu. 4, art. 3, in relatione sint duo, scilicet relationis respectus, quo ad alterum
+            refertur, in quo consistit relationis ratio; et iterum ipsum esse relationis, quod habet
+            secundum quod in aliqua re fundatur, vel quantitate, vel essentia, vel aliquo hujusmodi;
+            consideraverat relationes divinas secundum respectum in quo relationis ratio consistit,
+            ex quo non habet quod aliquam rem inhaerentem importet. Unde etiam inveniuntur aliquae
+            relationes nihil realiter in re ponentes, ut supra dictum est; propter hoc dixit eas
+            assistentes, vel exterius affixas. Illae enim proprie relationes dicuntur exterius
+            affixae et assistentes, quae cum proprie non habeant fundamentum in re, tantummodo ex
+            habitudine alterius ad rem de qua dicuntur, adveniunt; sicut dextrum in columna, quod
+            dicitur de ipsa per hoc quod homo eam ad sinistram habet; et hujusmodi etiam sunt
+            relationes quibus Deus ad creaturas refertur. Sed relationes distinguentes personas non
+            possunt esse hujusmodi, cum fundentur super aliquid quod vere in re est, scilicet in
+            communicatione naturae; et ideo sunt reales relationes habentes esse fundatum in natura
+            rei. Sed haec est natura divinae simplicitatis, ut in ipsa non nisi unum esse possit
+            esse, nec in ea differat esse et quod est et quo est. Istud ergo esse paternitatis non
+            potest esse aliud esse quam esse essentiae; et cum esse essentiae sit ipsa essentia, et
+            esse paternitatis sit ipsa paternitas; relinquitur de necessitate quod ipsa paternitas
+            secundum rem est ipsa essentia; unde non facit compositionem cum ea. Sed quia manet ibi
+            verus respectus pertinens ad naturam, relationes quae non pertinent ad rationem
+            essentiae, ex illo respectu ratio potest distinguere, quamvis essentia non distinguatur,
+            de cujus intellectu non est iste respectus oppositionem habens et per consequens
+            distinctionem causans. Et ita dicendum, quod proprietates et essentia sunt idem re, sed
+            differunt ratione. In aliis autem realibus relationibus in creaturis existentibus est
+            aliud esse relationis, et substantiae quae refertur; et ideo dicuntur inesse; et
+            secundum quod insunt, compositionem faciunt accidentis ad subjectum; quod non convenit
+            in divinis relationibus, ut dictum est, dist. 26, quaest. 2, art. 1.</p>
+          <p xml:id="ta-l1d33q1-d1e172">Ad primum igitur dicendum, quod relationes istae non sunt tantum secundum dici ad
+            aliquid, sed etiam secundum esse. Sed sciendum, quod esse dicitur dupliciter. Uno modo
+            dicitur esse ipsa quidditas vel natura rei, sicut dicitur quod definitio est oratio
+            significans quid est esse; definitio enim quidditatem rei significat. Alio modo dicitur
+            esse ipse actus essentiae; sicut vivere, quod est esse viventibus, est animae actus; non
+            actus secundus, qui est operatio, sed actus primus. Tertio modo dicitur esse quod
+            significat veritatem compositionis in propositionibus, secundum quod est dicitur copula:
+            et secundum hoc est in intellectu componente et dividente quantum ad sui complementum;
+            sed fundatur in esse rei, quod est actus essentiae, sicut supra de veritate dictum est,
+            dist. 19, quaest. 5, art. 1. Dico igitur, quod cum dicitur: <quote xml:id="ta-l1d33q1-Qd1e174">ad aliquid sunt,
+              quorum esse est ad aliud se habere</quote>, intelligitur de esse quod est quidditas
+            rei, quae definitione significatur; quia ipsa natura relationis per quam constituitur in
+            tali genere, est ad aliud referri: et non intelligitur de esse quod est actus essentiae;
+            hoc enim esse habet relatio ex his quae causant ipsam in subjecto secundum quod esse non
+            refertur ad aliud sed ad subjectum, sicut et quodlibet accidens. Et sic dico, quod non
+            oportet quod esse essentiae divinae sit ad aliud se habere; quia illud esse in quo
+            paternitas et essentia uniuntur, significatur ut esse quod est actus essentiae; non
+            autem uniuntur in esse quod significat definitio rei; quia alia est ratio paternitatis,
+            qua ad aliud refertur, et alia ratio essentiae.</p>
+          <p xml:id="ta-l1d33q1-d1e178">Ad secundum dicendum, quod si aliqua duo sint idem, secundum id quod idem sunt, in
+            quocumque est unum, et alterum. Paternitas autem et essentia divina sunt idem secundum
+            esse; et ideo sicut in filio est esse essentiae, ita et in filio est esse paternitatis,
+            quia in divinis non est nisi unum esse. Sed paternitas habet aliquid in quo non unitur
+            cum essentia, scilicet rationem paternitatis, quae est alia a ratione essentiae; unde
+            secundum illam rationem respectus potest esse in patre et non in filio, scilicet
+            distinguere patrem a filio; unde in processu incidit fallacia accidentis. Neque oportet
+            in his aliquid simile inquiri; quia in nulla re creata invenitur aliquid simile divinae
+            simplicitati, ut habens sit id quo habetur; omnia enim similia quae possent induci vel
+            de punctis vel de differentiis existentibus in genere, plus habent de dissimilitudine
+            quam de similitudine; et ideo magis abducunt a veritate quam in verum intellectum
+            inducant. Sicut enim dicit Boetius, in his quae sine materia sunt, oportet non ad
+            imaginationem deduci: quia hoc plurimum officit in divinis.</p>
+          <p xml:id="ta-l1d33q1-d1e182">Ad tertium dicendum, quod illa responsio bona est. Sciendum est autem, quod ratio
+            sumitur dupliciter: quandoque enim ratio dicitur id quod est in ratiocinante, scilicet
+            ipse actus rationis, vel potentia quae est ratio; quandoque autem ratio est nomen
+            intentionis, sive secundum quod significat definitionem rei, prout ratio est definitio,
+            sive prout ratio dicitur argumentatio. Dico igitur, quod cum dicitur quod est alia ratio
+            paternitatis et essentiae in divinis, non accipitur ratio secundum quod est in
+            ratiocinante tantum, sed secundum quod est nomen intentionis, et significat definitionem
+            rei: quamvis enim in divinis non possit esse definitio, nec genus nec differentia nec
+            compositio; tamen si intelligatur ibi aliquid definiri, alia erit definitio
+            paternitatis, et alia definitio essentiae. In omnibus autem intentionibus hoc communiter
+            verum est, quod intentiones ipsae non sunt in rebus sed in anima tantum, sed habent
+            aliquid in re respondens, scilicet naturam, cui intellectus hujusmodi intentiones
+            attribuit; sicut intentio generis non est in asino, sed natura animalis, cui per
+            intellectum haec intentio attribuitur: et ita etiam ipsa ratio quam dicimus aliam et
+            aliam in divinis, non est in re; sed est in re aliquid respondens ei in quo fundatur,
+            scilicet veritas illius rei cui talis intentio attribuitur: est enim in Deo; unde
+            possunt rationes diversae ibi convenire: et ideo non sequitur quod Deus sit rationes
+            illae, sed quod sit tantum habens eas: hoc enim quod dicitur, quod in Deo est idem
+            habens et quod habetur, intelligitur de illis quae habentur per modum rerum, non autem
+            de illis quae habentur per modum intentionum; sicut non possumus dicere quod Deus sit
+            nomen, quamvis nomen habeat; sed quod Deus est bonitas, quia bonitatem habet; similiter
+            etiam paternitas, quia paternitatem habet; sed non sequitur quod sit relatio, quamvis
+            relationem habeat.</p>
+          <p xml:id="ta-l1d33q1-d1e185">Ad quartum dicendum, quod illae rationes relationum quae dicuntur de Deo ex tempore,
+            non habent aliquod esse in re divina in qua fundentur, sicut habent istae relationes
+            personarum, et ideo non est simile de utrisque.</p>
+          <p xml:id="ta-l1d33q1-d1e188">Ad quintum dicendum, quod scientia non dividitur contra substantiam nisi ex genere suo,
+            prout est qualitas; unde dicitur, quod haec est immediata: nulla qualitas est
+            substantia; sed haec est mediata: nulla scientia est substantia; et sic est in omnibus
+            aliis generibus. Sed, sicut supra, dist. 8, quaest. 4, art. 3, dictum est, nulla ratio
+            communis alicujus praedicamenti manet in divinis nisi relationis; et ideo id quod
+            dicitur ad aliquid in divinis, habet aliam rationem a ratione substantiae, et alium
+            modum praedicandi condivisum contra substantiam; sed scientia et bonitas et hujusmodi,
+            quae sunt in aliis generibus et dicuntur de Deo, non habent rationem communis generis
+            per quam dividuntur contra substantiam; immo loco illius rationis communis qualitatis
+            vel quantitatis, venit ibi ratio substantiae; unde dicitur alia ratio esse scientiae, et
+            alia substantiae in divinis, non quia quasi sit condivisa contra rationem substantiae;
+            sed sicut ratio speciei est alia a ratione generis, inquantum addit rationem
+            differentiae supra rationem generis; unde ita in divinis est alia ratio scientiae et
+            substantiae, sicut in creaturis est alia ratio scientiae et qualitatis, quod non est
+            simpliciter aliud; et ideo sicut in creaturis dicitur, quod eodem est qualis et sciens;
+            ita in divinis dicitur quod eodem est substantia et sciens; non tamen quod eodem sit
+            substantia et pater; cum relatio quae per se substantiae condividitur, secundum rationem
+            generis et modum significandi in divinis salvetur.</p>
+        </div>
+        <div xml:id="ta-l1d33q1-Dd1e192" type="articululs">
+          <head xml:id="ta-l1d33q1-Hd1e194">Articulus 2</head>
+
+          <head xml:id="ta-l1d33q1-Hd1e197" type="questionTitle">Utrum proprietates sint personae</head>
+
+          <p xml:id="ta-l1d33q1-d1e200">Ad secundum sic proceditur. Videtur quod proprietates non sint personae. Quaecumque
+            enim sunt idem re, multiplicato uno, multiplicatur reliquum. Si igitur proprietates sunt
+            personae, ergo quot sunt proprietates, tot sunt personae. Sed proprietates sunt quinque,
+            ut supra dist. 23, quaest. 1, art. 3, dictum est. Ergo et personae; quod falsum est.</p>
+          <p xml:id="ta-l1d33q1-d1e203">Praeterea, Deus dicitur trinus propter Trinitatem personarum. Si igitur proprietates
+            vel notiones sunt personae, videtur etiam quod quinus dici debeat propter quinarium
+            notionum; et eadem ratione pater trinus, et filius binus.</p>
+          <p xml:id="ta-l1d33q1-d1e206">Item, secundum Augustinum, omne quod ad aliquid refertur, est aliquid, excepto hoc quod
+            ad alterum dicitur; sicut denarius est aliquid, excepto hoc quod pretium dicitur. Sed
+            pater refertur ad alium, quia ad filium. Ergo praeter relationem est ibi aliquid
+            invenire quod relationi substat. Hoc autem est hypostasis, vel persona. Ergo videtur
+            quod proprietates non sunt personae.</p>
+          <p xml:id="ta-l1d33q1-d1e210">Praeterea, nihil videtur esse distinctivum sui ipsius. Sed proprietates distinguunt
+            personas, ut dicit Damascenus. Ergo proprietates non sunt personae.</p>
+          <p xml:id="ta-l1d33q1-d1e213">Item, omne concretum addit aliquid super abstractum, sicut album super albedinem. Sed
+            personae divinae significant concretive, ut pater et filius; proprietates autem
+            significant in abstracto. Ergo proprietates non sunt personae.</p>
+          <p xml:id="ta-l1d33q1-d1e216">Contra, sicut dicit Hilarius, nec quidquam est filius nisi filius. Sed filius
+            significat relationem. Ergo videtur quod totum hoc quod est filius, sit relatio
+            filiationis; et sic essentia ejus et hypostasis erit relatio.</p>
+          <p xml:id="ta-l1d33q1-d1e219">Praeterea, omnis forma est principium ejus cujus est forma quantum ad aliquod sui esse.
+            Si igitur paternitas qua formaliter pater est pater, sit aliud ab ipso patre, erit
+            aliquid principium patris et prius eo, quod est inconveniens. Ergo paternitas non est
+            aliud a patre, et eadem ratione nec aliqua proprietas aliud a persona.</p>
+          <p xml:id="ta-l1d33q1-d1e222">Respondeo dicendum, quod circa hoc sunt tres opiniones. Porretani enim dixerunt, quod
+            proprietates sunt in personis ut assistentes, et non sunt ipsae personae. Sed hoc non
+            potest esse; quia aut proprietas aliquid est in re; et sic si non est persona in qua
+            est, oportet ibi esse compositionem; aut nihil est in re; et sic non erit distinctio
+            personarum secundum rem. Et ideo alii dicunt, sicut dixit Praepositinus, quod
+            proprietates sunt ipsae personae secundum rem, nec distinguuntur a personis etiam
+            secundum rationem, nec aliquo modo. Unde dixit, in divinis tantum esse essentiam et
+            personas; et proprietates negavit. Sed cum dicitur paternitas, sumitur abstractum pro
+            concreto; sicut dicimus: rogo benignitatem tuam, idest te benignum; et sic etiam
+            proprietates adorari dicuntur. Et dicebat quod personae cum sint simplicissimae, se
+            ipsis distinguuntur. Sed hoc etiam non potest stare, propter duo: primo, quia invenimus
+            in una persona plures proprietates et relationes, secundum quod ad aliam et ad aliam
+            personam refertur; secundo, quia aliquid attribuitur proprietati quod non attribuitur
+            personae, sicut distinguere, personae autem distingui; et ideo oportet quod differant
+            secundum modum significandi proprietates a persona. Nec modus significandi diversus
+            veritatem haberet, sed vanitatem, nisi esset alia ratio proprietatis et personae, cui
+            respondet aliquid in re, ut dictum est hac dist., quaest. 1, art. 1. Et ideo dicimus,
+            quod proprietates et personae sunt idem re, sed differunt ratione, sicut et de
+            proprietatibus et de essentia dictum est. Sed in hoc differt, quod ratio proprietatis et
+            essentiae differt sicut ratio diversorum generum, ut dictum est; sed ratio proprietatis
+            et personae differt sicut ratio abstracti et concreti in eodem genere acceptorum. In
+            concreto autem est duo considerare in rebus creatis; scilicet compositionem, et
+            perfectionem; quia quod significatur concretive, significatur ut per se existens, ut
+            homo vel album. Similiter de ratione abstracti duo sunt, scilicet simplicitas, et
+            imperfectio; quia quod significatur in abstracto, significatur per modum formae, cujus
+            non est operari vel subsistere in se, sed in alio. Unde patet quod sicut etiam est in
+            aliis quae de Deo dicuntur, neutra ratio secundum totum divinis competit; ex quo
+            probatur, Lib. de causis, propos. 6, quod nihil proprie de Deo dicitur; quia nec
+            abstractum propter imperfectionem, nec concretum propter compositionem. Sed quantum ad
+            aliquid utrumque vere dicitur; quia et concretum propter perfectionem, et abstractum
+            propter simplicitatem.</p>
+          <p xml:id="ta-l1d33q1-d1e225">Ad primum igitur dicendum, quod proprietates sunt idem re cum personis quantum ad esse;
+            sed secundum esse personae non distinguuntur; unde non sequitur quod secundum
+            multitudinem proprietatum sit multitudo personarum; quia distinctio personarum non est
+            nisi secundum oppositionem relativam; unde secundum quod potest variari oppositio
+            relativa in proprietatibus, sequitur distinctio in personis; et hoc, si diligenter
+            consideretur, non potest venire ad majorem numerum quam ternarium; et ideo relationes
+            oppositae sunt personae, et sunt duae personae, sicut duae relationes; sed relationes
+            quae sunt in eadem persona non oppositae, sunt quidem duae relationes vel proprietates,
+            sed non duae personae, immo una persona.</p>
+          <p xml:id="ta-l1d33q1-d1e229">Ad secundum dicendum, quod relationes signantur per modum formarum vel qualitatum in
+            divinis. Numerus autem proprietatum vel formarum non ponit simpliciter numerum in rebus
+            ipsis; sed numerus suppositorum; sicut Socrates non dicitur trinus propter hoc quod tres
+            proprietates habeat; et ita etiam pater non dicitur trinus propter tres notiones; sed
+            Deus dicitur trinus propter tres personas vel tria supposita.</p>
+          <p xml:id="ta-l1d33q1-d1e232">Ad tertium dicendum, quod dictum Augustini, ubi Sup., veritatem habet in divinis et in
+            creaturis, sed diversimode; quia illud quod in creaturis ad aliquid dicitur, substat
+            relationi, sicut subjectum accidenti; et ideo est aliud et aliud: sed illud quod in
+            divinis ad aliquid dicitur, est ipsa relatio; quia in Deo non est aliud secundum rem,
+            sed secundum rationem essentiae, et habens essentiam quod est persona, et ipsa
+            proprietas distinguens personam.</p>
+          <p xml:id="ta-l1d33q1-d1e235">Ad quartum dicendum, quod proprietas significatur per modum formae, et formae est
+            distinguere; ideo proprietates personas distinguunt; et hoc est quantum ad modum
+            significandi, qui fundatur in vera ratione proprietatis. Ideo ex hoc non potest concludi
+            aliqua diversitas secundum rem.</p>
+          <p xml:id="ta-l1d33q1-d1e238">Ad quintum dicendum, quod in divinis abstractum et concretum non differunt secundum
+            rem, sed secundum rationem, ut dictum est, in corp. art. Unde ita differt proprietas a
+            persona sicut deitas a Deo, quod est secundum rationem tantum.</p>
+        </div>
+        <div xml:id="ta-l1d33q1-Dd1e242" type="articulus">
+          <head xml:id="ta-l1d33q1-Hd1e244">Articulus 3</head>
+
+          <head xml:id="ta-l1d33q1-Hd1e247" type="questionTitle">Utrum proprietates sint in personis et in essentia</head>
+
+          <p xml:id="ta-l1d33q1-d1e250">Ad tertium sic proceditur. Videtur quod proprietates non sint in essentia, nec in
+            personis. Quaecumque enim sunt idem secundum rem, unum eorum non potest esse in altero;
+            quia propositiones sunt transitivae; unde secundum philosophum, nihil est in seipso,
+            nisi per accidens. Sed proprietates sunt idem re cum essentia et personis. Ergo non sunt
+            in essentia vel in personis.</p>
+          <p xml:id="ta-l1d33q1-d1e253">Praeterea, omne illud in quo est relatio, refertur; et omne quod refertur, in divinis
+            relatione distinguitur. Cum igitur essentia non distinguatur, videtur quod in essentia
+            non sit relatio.</p>
+          <p xml:id="ta-l1d33q1-d1e256">Item, cum relationes sint consequentes motum vel mutationem aliquam, in quo non potest
+            esse motus vel mutatio, nec relatio esse poterit. Sed in divinis nullus potest esse
+            motus vel mutatio. Ergo nec relationes, sive in essentia, seu in divinis personis.</p>
+          <p xml:id="ta-l1d33q1-d1e260">Praeterea, omne quod est in aliquo, secundum aliquem modum in illo est. Sed nullus
+            modorum quo aliquid in aliquo a philosopho inesse dicitur potest convenire ad hoc quod
+            proprietates in personis sint. Ergo videtur quod nec proprietates sint in essentia, nec
+            in personis.</p>
+          <p xml:id="ta-l1d33q1-d1e263">Contra, in praefatione, ut supra, <quote xml:id="ta-l1d33q1-Qd1e265">in personis adoretur proprietas</quote>.</p>
+          <p xml:id="ta-l1d33q1-d1e269">Praeterea, quod denominatur ab aliqua forma, oportet quod habeat illam in se. Sed
+            personae denominantur a proprietatibus; dicitur enim a paternitate pater. Ergo videtur
+            quod proprietates sint in personis.</p>
+          <p xml:id="ta-l1d33q1-d1e272">Respondeo dicendum, quod proprietates sunt in essentia et in personis; sed diversimode:
+            quia in essentia sunt per identitatem rei, et non sicut in supposito; sed in personis
+            sunt sicut in supposito; sed diversimode, secundum quod aliquid dicitur suppositum
+            alicujus dupliciter: vel naturae per quam constituitur, sicut humanitas est in Socrate,
+            et hoc modo proprietates personales sunt in personis; vel sicut illud quod advenit post
+            esse constitutum, sicut albedo est in Socrate; et ita secundum intellectum proprietates
+            non personales, ut innascibilitas et communis spiratio, sunt in personis; non tamen ita
+            quod suppositum sit aliquid aliud ab eo quod inest secundum rem, sed secundum rationem
+            tantum concreti et abstracti, ut dictum est, art. praeced.</p>
+          <p xml:id="ta-l1d33q1-d1e275">Et per hoc patet responsio ad primum; quia ex hoc quod ratione distinguuntur, et re
+            idem sunt proprietates cum essentia et personis, unum in altero dicitur esse.</p>
+          <p xml:id="ta-l1d33q1-d1e278">Ad secundum dicendum, quod in quocumque est relatio sicut in supposito, illud refertur;
+            sicut in quocumque est albedo sicut in supposito, illud est album. In natura autem
+            divina, vel essentia divina, non est proprietas relativa sicut in supposito, immo per
+            omnimodam rei identitatem; unde relatio non potest praedicari concretive de essentia, ut
+            dicatur, essentia refertur: sed praedicatione designante identitatem, ut dicatur,
+            essentia est relatio; et ideo non oportet quod essentia distinguatur: sicut etiam in
+            creaturis paternitas est in Socrate sicut in supposito; unde Socrates pater dicitur; non
+            autem humanitas ejus pater dicitur, etiam qua posset dici paternitas esse, non quidem
+            secundum identitatem rei, sicut est in divinis, sed secundum convenientiam in uno
+            supposito, quod est Socrates, in quo est humanitas et paternitas.</p>
+          <p xml:id="ta-l1d33q1-d1e282">Ad tertium dicendum, quod hoc quod relatio consequitur motum, accidit relationi
+            inquantum non est aeterna; unde si aliquae relationes aeternae sunt, non consequuntur
+            motum aliquem; sicut si ponatur mundus aeternus, erit designare in caelo aliquod corpus
+            aequale alteri, vel duplum vel secundum aliam proportionem; et tamen istae relationes
+            non consequuntur motum aliquem vel mutationem, quia in caelo non est motus ad
+            quantitatem: et similiter, cum relationes quibus personae distinguuntur, sint ab
+            aeterno, non oportet quod motum aliquem consequantur; sed loco motus aliquo modo
+            consequuntur communicationem et acceptionem naturae divinae.</p>
+          <p xml:id="ta-l1d33q1-d1e285">Ad quartum dicendum, quod secundum Hilarium, comparatio terrenorum ad divina nulla est;
+            unde nullus illorum modorum quem philosophus enumerat, sufficit ad explicandum quomodo
+            in divinis aliquid in aliquo esse dicatur; et praecipue modus ille quo proprietates in
+            essentia esse dicuntur; quia non invenitur in creaturis aliqua diversorum generum in
+            identitatem rei convenire, sicut relatio et substantia in divinis conveniunt, ratione
+            cujus unum in altero esse dicitur, scilicet paternitas in essentia, sicut in
+            praeexistente secundum intellectum. Sed modus ille quo proprietates non personales sunt
+            in personis, habet aliquid simile illi modo quo forma est in materia, scilicet forma
+            accidentalis in subjecto; et modus ille quo proprietates personales sunt in personis,
+            habet aliquid simile cum illo modo quo differentiae sunt in specie, vel natura communis
+            in inferiori; quamvis in his omnibus major dissimilitudo quam similitudo inveniatur.</p>
+        </div>
+        <div xml:id="ta-l1d33q1-Dd1e290" type="articulus">
+          <head xml:id="ta-l1d33q1-Hd1e292">Articulus 4</head>
+
+          <head xml:id="ta-l1d33q1-Hd1e295" type="questionTitle">Utrum essentialia adjectiva praedicentur de
+            proprietatibus</head>
+
+          <p xml:id="ta-l1d33q1-d1e298">Ad quartum sic proceditur. Videtur quod essentialia adjectiva de proprietatibus
+            praedicentur. Quaecumque enim sunt idem secundum rem, quidquid de uno dicitur, et de
+            altero videtur dici; alias affirmatio et negatio de eodem verificaretur; quia de quo non
+            dicitur affirmatio, dicitur negatio. Sed proprietates sunt ipse Deus, ut probatum est,
+            art. 2. Ergo essentialia adjectiva, quae de divina essentia praedicantur, etiam de
+            proprietatibus praedicari debent.</p>
+          <p xml:id="ta-l1d33q1-d1e301">Praeterea, de similibus idem est judicium. Sed quaedam adjectiva essentialia de
+            proprietatibus praedicantur, ut immensus, increatus et cetera. Ergo videtur quod etiam
+            omnia alia.</p>
+          <p xml:id="ta-l1d33q1-d1e304">Item, videtur quod etiam adjectiva notionalia seu personalia, de proprietatibus
+            praedicentur; quia major est convenientia personalium adjectivorum cum proprietatibus
+            quam essentialium. Sed quaedam essentialia praedicantur de proprietatibus, ut dictum
+            est, dist. 22, quaest. 2, art. 1. Ergo multo magis omnia personalia, ut dicatur:
+            paternitas est generans vel innascibilis: et sic de aliis.</p>
+          <p xml:id="ta-l1d33q1-d1e308">Praeterea, secundum Boetium, nulla propositio verior illa est in qua idem de se
+            praedicatur. Sed omnes dicunt quod in patre idem est paternitas et generare. Ergo potest
+            vere dici, quod paternitas generet.</p>
+          <p xml:id="ta-l1d33q1-d1e311">Contra, sicut proprietas est idem re cum personis, ita etiam et essentia; quamvis
+            utrumque ratione differat. Sed ratione hujus identitatis non sequitur quod notionalia
+            adjectiva praedicentur de essentia, propter diversum modum significandi, qui causat
+            diversitatem suppositionis: non enim dicitur quod essentia sit genita. Ergo videtur quod
+            eadem ratione non debeat dici quod filiatio sit genita.</p>
+          <p xml:id="ta-l1d33q1-d1e314">Respondeo dicendum, quod, sicut dictum est, art. 2, proprietas, persona, et essentia
+            secundum rem non differunt, sed secundum rationem tantum, et diversum modum
+            significandi: unde distinguendum est in adjectivis. Quia omnia illa quae praedicant
+            conditionem rei absolute, praedicantur communiter de proprietate, persona, et essentia,
+            et hujusmodi; praecipue si sunt adjectiva negativa, ut increatus et hujusmodi.
+            Quaecumque vero exprimunt modum significandi in quo ista tria distinguuntur, non
+            praedicantur de eis communiter. Tamen in his etiam est diversitas. Quaedam enim sunt
+            quae important illum modum significandi in principali significato; sicut hoc nomen
+            commune importat significando modum essentiae, et similiter hoc nomen distinctum modum
+            personae, et hoc nomen distinguens modum proprietatis; et ideo si istorum praedicatio
+            permutetur, ut dicatur essentia distincta, vel proprietas communis, vel aliquid
+            hujusmodi; erit falsa propositio, et non solum impropria. Quaedam autem important illum
+            modum non significando ipsum, sed dant eum intelligere ex suo modo significandi; sicut
+            illa quae significant per modum actus, quia actus sunt suppositorum. Unde talia non
+            proprie possunt attribui nisi personis, quae sunt supposita divinae naturae, non autem
+            proprietati vel essentiae, quae significantur per modum formae. Unde non proprie dicitur
+            quod paternitas generat, neque quod paternitas creat; et similiter etiam illa quae
+            significant concretive, dant intelligere modum personarum. Unde et haec non est propria:
+            paternitas est sapiens, vel hujusmodi; et similiter nec haec: paternitas est pater, si
+            ly pater adjective sumatur; vel: paternitas est innascibilis.</p>
+          <p xml:id="ta-l1d33q1-d1e317">Ad primum igitur dicendum, quod quamvis sint idem secundum rem, tamen secundum rationem
+            differunt; et ideo potest aliquid de uno dici quod de altero proprie non dicitur.</p>
+          <p xml:id="ta-l1d33q1-d1e320">Ad secundum dicendum, quod illa adjectiva negativa non dant intelligere aliquem modum
+            determinatum, qui pertineat proprie ad essentiam vel personam; sed dicunt conditiones,
+            quae possunt consequi quidem utrumque quantum ad modum significandi.</p>
+          <p xml:id="ta-l1d33q1-d1e323">Ad tertium dicendum, quod adjectiva personalia non magis conveniunt cum proprietatibus
+            quam essentialia, quantum ad modum significandi per nomen, quamvis magis conveniant
+            quantum ad rationem generis; quia adjectiva personalia et proprietates significant ad
+            aliquid, et ideo eadem ratione non possunt de proprietatibus praedicari qua nec
+            essentialia. Tamen de ipsa essentia divina magis proprie praedicantur essentialia
+            adjectiva, quam personalia de proprietatibus; quia proprietas significatur ut ratio
+            quaedam personae; unde quantum ad modum significandi magis elongatur a perfectione
+            suppositi quam essentia, quae dicit totum esse suppositi, licet alio modo significatum.
+            Sed tamen personalia adjectiva de essentia omnino praedicari non possunt, propter
+            distinctionem quam significant, quae est opposita modo essentiae.</p>
+          <p xml:id="ta-l1d33q1-d1e327">Ad quartum dicendum, quod generare significat idem cum paternitate in re, sed differt
+            in modo significandi; quia generare significat ut egrediens a supposito; et quia
+            paternitas non significatur ut suppositum, non potest generare de ea praedicari.</p>
+        </div>
+        <div xml:id="ta-l1d33q1-Dd1e331" type="articulus">
+          <head xml:id="ta-l1d33q1-Hd1e333">Articulus 5</head>
+
+          <head xml:id="ta-l1d33q1-Hd1e336" type="questionTitle">Utrum contrariae opiniones de notionibus possint esse sine
+            peccato</head>
+
+          <p xml:id="ta-l1d33q1-d1e339">Ad quintum sic proceditur. Videtur quod contrariae opiniones de notionibus non possint
+            esse sine peccato. Sicut enim dicit Augustinus, nec periculosius alicubi erratur quam in
+            materia Trinitatis. Sed contrariae opiniones de notionibus non possunt esse sine errore
+            alicujus. Ergo cum iste error sit circa materiam Trinitatis, videtur quod sit
+            periculosissimus.</p>
+          <p xml:id="ta-l1d33q1-d1e342">Praeterea, duorum contradictoriorum oportet alterum esse falsum. Sed quidam dicunt non
+            esse proprietates, et quidam esse infinitas, et quidam quinque, et quidam essentiam, et
+            quidam non; quae contradictorie opponuntur. Ergo videtur quod ex altera parte
+            interveniat mendacium. Sed secundum Augustinum, omnium mendaciorum gravissimum est quod
+            est circa divina. Ergo videtur quod ista contrarietas sine peccato non possit esse.</p>
+          <p xml:id="ta-l1d33q1-d1e345">Si dicas, quod excusantur propter hoc quod de notionibus nihil in sacra Scriptura
+            habetur, et ita licuit unicuique opinari quod voluit; contra. Aut enim sacra Scriptura
+            dicitur canon Bibliae, aut dicta sanctorum patrum. Si canon Bibliae, sicut nec de
+            notionibus, ita etiam nec de personis ibi fit mentio. Ergo per eamdem rationem liceret
+            negare personas, vel diversificari circa numerum personarum: quod tamen haereticum
+            judicaretur. Si dicta sanctorum patrum, contra expresse inveniuntur facere mentionem de
+            proprietatibus, sicut patet in multis auctoritatibus dictis. Ergo videtur quod omnino
+            excusari non possint.</p>
+          <p xml:id="ta-l1d33q1-d1e349">Contra, omne peccatum vel est fidei, vel morum. Sed circa istam contrarietatem non
+            incidit peccatum morum, quia hoc peccatum est circa actiones; nec etiam peccatum fidei,
+            quia nullus articulus fidei negatur. Ergo videtur quod sit sine peccato.</p>
+          <p xml:id="ta-l1d33q1-d1e352">Respondeo dicendum, quod contrarie opinari de aliquo, potest esse dupliciter: vel quod
+            pertineat ad religionem fidei, vel quod non pertineat. Et si quidem sit de non
+            pertinentibus ad fidem, quibus positis vel remotis nihil inconveniens fidei sequatur,
+            nullum peccatum est, nisi forte per accidens, scilicet praesumptionis in eo qui nimis
+            asserit quod dubium est, vel mendacii, vel inanis gloriae, vel multorum aliorum: quia
+            causae per accidens sunt infinitae, secundum philosophum. Si autem est contradictio de
+            his quae ad fidem pertinent, hoc potest esse dupliciter. Vel quia est de illis quae
+            expresse in articulis fidei continentur, quos scire omnes tenentur; et circa talia
+            contradictio non est sine peccato in altero, vel erroris simplicis, vel haeresis si
+            pertinacia adjungatur. Vel est de illis ad quae consequitur aliquid inconveniens et
+            contrarium fidei, licet in fide expressum non sit nec determinatum; et tunc ante
+            pertractationem per quam scitur quod aliquid inconveniens fidei sequitur, potest
+            utrumque sine peccato opinari, et maxime si pertinacia non adjungatur. Sed pertractata
+            veritate et viso quid sequitur, idem judicium est de his et de illis quae determinata
+            sunt in fide, quia ad unum sequitur alterum: sicut si aliquis simplex et Scripturas
+            ignorans, crederet Jacob patrem Isaac fuisse (ad quod sequitur Scripturam esse falsam,
+            quod est expresse contra fidem) antequam sequi ostenderetur sibi, posset ejus opinio
+            sine peccato esse; sed ostenso quod sequitur Scripturam esse falsam, si adhuc in
+            opinione pertinaciter persisteret, haereticus judicandus esset. Ita est etiam de
+            notionibus de quibus nihil est expresse in fide determinatum. Tamen ex errore circa
+            notiones sequitur error circa personas et circa fidem; sicut si ponantur relationes esse
+            assistentes tantum, sequitur vel compositio in Deo, vel distinctio non secundum rem, sed
+            secundum rationem: quod est Sabellianae impietatis; et ideo Porretanus, qui primo hoc
+            posuerat, post, viso quod hinc sequitur, retractavit. Similiter etiam qui proprietates
+            negant, non omnino ponunt eas non esse; immo implicite ponunt eas in personis et eas
+            esse personas. Sed si omnino negarentur esse, haereticum esset; et similiter
+            pertinaciter defendere quod relationes sunt tantum assistentes, haereticum esset: et
+            ideo haeretici in littera appellantur.</p>
+          <p xml:id="ta-l1d33q1-d1e355">Et per hoc patet responsio ad ea quae objecta sunt.</p>
+        </div>
+        <div xml:id="ta-l1d33q1-Dd1e359">
+          <head xml:id="ta-l1d33q1-Hd1e361">Expositio textus</head>
+          <p xml:id="ta-l1d33q1-d1e364"><quote xml:id="ta-l1d33q1-Qd1e365">Superius quoque multis sanctorum testimoniis astruximus personas per
+              proprietates distingui</quote>. Hic proprietates probat esse personas: et est ratio
+            talis. Proprietates distinguunt personas. Sed personae ab aeterno sunt distinctae. Ergo
+            proprietates sunt ab aeterno. Sed nihil est aeternum nisi in Deo. Ergo proprietates sunt
+            in personis. Quidquid autem est in personis est ipsae personae; alias compositio esset
+            in persona. Ergo et cetera. <quote xml:id="ta-l1d33q1-Qd1e368">Cumque de simplicitate deitatis supra dissereremus
+              (...) evidenter monstravimus Deum hoc esse omnino quod in se habet</quote>. Hic probat
+            proprietates esse essentiam divinam; et est ratio talis. In Deo idem est quod habet, et
+            quod habetur. Sed Deus habet proprietates, quae in Deo sunt, ut probatum est, art. 2,
+            hujus dist. Ergo proprietates ipsae sunt Deus, vel divina essentia. <quote xml:id="ta-l1d33q1-Qd1e371">Si enim,
+              inquiunt, proprietates sunt personae, non eis personae determinantur</quote>. Haec est
+            prima eorum ratio, qua ostendunt proprietates non esse personas, quae talis est.
+            Distinguens non est distinctum. Sed proprietates distinguunt personas. Ergo et cetera.
+            Et ad hoc respondet per interemptionem majoris, quia personae seipsis distinguuntur.
+              <quote xml:id="ta-l1d33q1-Qd1e374">Sed iterum addunt</quote>. Hic ponit secundam rationem eorum per quam probant
+            proprietatem non esse essentiam, et est talis. Impossibile est idem esse quod unit et
+            distinguit. Sed in essentia uniuntur personae, in proprietatibus distinguuntur. Ergo et
+            cetera. Hanc non solvit; sed ad solutionem se excusat propter difficultatem materiae.
+            Quomodo tamen respondendum sit, in primo articulo dictum est. <quote xml:id="ta-l1d33q1-Qd1e377">Ceterum
+              haereticorum improbitas (...) nondum quiescit</quote>. Hic ponit tertiam rationem, per
+            quam probant proprietates non esse in essentia, et est talis. In quocumque est
+            paternitas, illud est pater et est generans: et in quocumque est filiatio, illud est
+            filius, et est genitum. Si ergo in essentia est paternitas et filiatio, tunc essentia
+            erit pater vel generans, et filius vel genitus. Sed essentia una et eadem res est. Ergo
+            eadem erit res generans et genita, vel pater et filius, quod est haeresis Sabellii, ut
+            idem sibi ipsi pater sit. Ad quod respondendum, quod sunt in essentia non determinantes
+            ipsam; et ideo adjectiva quae concretive proprietates praedicant, de essentia non
+            praedicantur. <quote xml:id="ta-l1d33q1-Qd1e380">Sed forte quaeres</quote>. Hic ponit quartam rationem, quae est
+            contra ultimam responsionem, et est talis. Ubi est eadem causa, et idem effectus. Sed
+            proprietates determinant personas, quia sunt in personis. Ergo et determinabunt
+            essentiam, si sunt in essentia. Et ad hoc non respondet, sed excusat se propter
+            difficultatem materiae. Qualiter tamen respondendum est, in tertio articulo dictum est.
+              <quote xml:id="ta-l1d33q1-Qd1e384">Verumtamen nondum desistunt (...) sed opinionem suam etiam sanctorum
+              auctoritatibus munire conantur</quote>. Hic inducit auctoritates pro se, in quibus
+            Augustinus videtur dicere, quod non eo Deus est quo pater; et ita, cum paternitate sit
+            pater, et essentia Deus, paternitas non erit essentia. Et ad omnia hujusmodi respondetur
+            hoc modo: quia cum dicitur: non eo est pater quo Deus, haec est duplex: quia negatio
+            potest includere ordinem quasi causae formalis, qui importatur in hoc quod dicitur: eo;
+            et sic est vera, et non facit pro illis. Est enim sensus: non eo quod pater est Deus
+            est; idest, paternitate qua denominatur Deus. Vel potest includi ab ordine, ita quod
+            ordo remaneat affirmatus; et sic est falsa, et in hoc sensu facit pro eis. Est enim
+            sensus: non enim eo quo pater est, Deus est; idest, illud quo pater est, non est illud
+            quo Deus dicitur: et hoc falsum est: quia paternitas qua denominatur pater est deitas
+            qua denominatur Deus; quamvis a paternitate non dicatur Deus, et hoc propter rationem
+            diversam utriusque.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

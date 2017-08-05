@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 25, Quaestio 2</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Librum IV, Distinctio 25, Quaestio 2</title>
+          <date when="2016-03-19">March 19, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-19">March 19, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness>1856 editum</witness>
+          <witness xml:id="G" n="ghent567">Ghent, Belgium, Ghent University Library, 567</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="0.0.0-dev">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+
+
+
+
+      <div xml:id="starts-on">
+        <cb ed="#G" n="429b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ta-l4d25q2">
+        <head xml:id="ta-l4d25q2-Hd1e97">Librum IV, Distinctio 25, Quaestio 2</head>
+        <div xml:id="ta-l4d25q2-Dd1e100">
+          <head xml:id="ta-l4d25q2-Hd1e102">Prooemium</head>
+          <p xml:id="ta-l4d25q2-d1e105">Deinde quaeritur de ordinatis; et circa hoc quaeruntur duo: 1 utrum aliquis impediatur
+            propter defectum naturae; 2 utrum impediatur propter conditionem fortunae
+            exterioris.</p>
+
+        </div>
+        <div xml:id="ta-l4d25q2-Dd1e109" type="articulus">
+          <head xml:id="ta-l4d25q2-Hd1e111">Articulus 1</head>
+
+          <head xml:id="ta-l4d25q2-Hd1e114" type="questionTitle">Utrum sexus femineus impediat ordinis susceptionem</head>
+
+          <div xml:id="ta-l4d25q2-Dd1e117">
+            <head xml:id="ta-l4d25q2-Hd1e119">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d25q2-d1e122">Ad primum sic proceditur. Videtur quod sexus femineus non impediat ordinis
+              susceptionem. Quia officium prophetiae est majus quam sacerdotis officium: quia
+              propheta est medius inter Deum et sacerdotem, sicut sacerdos inter Deum et populum.
+              Sed prophetiae officium aliquando mulieribus est concessum, ut patet 4 Reg. Ergo et
+              sacerdotii officium eis competere potest.</p>
+            <p xml:id="ta-l4d25q2-d1e125">Praeterea, sicut ordo ad quamdam perfectionem pertinet, ita et praelationis officium,
+              et martyrium, et religionis status. Sed praelatio committitur mulieribus in novo
+              testamento, ut patet de abbatissis, et in veteri, ut patet de Debora quae judicavit
+              Israel, judicum 4: competit etiam eis martyrium, et religionis status. Ergo et ordo
+              Ecclesiae.</p>
+            <p xml:id="ta-l4d25q2-d1e128">Praeterea, ordinum potestas in anima fundatur. Sed sexus non est in anima. Ergo
+              diversitas sexuum non facit distinctionem in receptione ordinum.</p>
+            <p xml:id="ta-l4d25q2-d1e131">Sed contra est quod dicitur 1 Tim. 2, 12: <quote xml:id="ta-l4d25q2-Qd1e133">mulierem docere in Ecclesia non
+                permitto, nec dominari in virum</quote>.</p>
+            <p xml:id="ta-l4d25q2-d1e138">Praeterea, in ordinandis praeexigitur corona, quamvis non de necessitate sacramenti.
+              Sed corona et tonsura non competit mulieribus, ut patet 1 Corinth. 11. Ergo nec
+              ordinum susceptio.</p>
+
+          </div>
+          <div xml:id="ta-l4d25q2-Dd1e142">
+            <head xml:id="ta-l4d25q2-Hd1e144">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d25q2-d1e147">Ulterius. Videtur quod pueri, et qui carent usu rationis, non possint ordines
+              suscipere. Quia, ut in littera dicitur, sacri canones in suscipientibus ordines certum
+              aetatis tempus determinaverunt. Sed hoc non esset, si pueri recipere possent ordinis
+              sacramentum. Ergo et cetera.</p>
+            <p xml:id="ta-l4d25q2-d1e150">Praeterea, sacramentum ordinis est dignius quam matrimonium. Sed pueri, et alii
+              carentes usu rationis, non possunt contrahere matrimonium. Ergo nec ordines
+              suscipere.</p>
+            <p xml:id="ta-l4d25q2-d1e153">Praeterea, cujus est potentia, ejus est actus, secundum philosophum in Lib. de somno
+              et vigilia. Sed actus ordinis requirit usum rationis. Ergo et ordinis potestas.</p>
+            <p xml:id="ta-l4d25q2-d1e156">Sed contra, ille qui ante annos discretionis est promotus ad ordines, sine iteratione
+              ipsorum quandoque in eis conceditur ministrare, ut patet extra de clerico ordinato per
+              saltum. Hoc autem non esset, si ordinem non suscepisset. Ergo puer potest ordinem
+              suscipere.</p>
+            <p xml:id="ta-l4d25q2-d1e160">Praeterea, alia sacramenta in quibus character imprimitur, possunt pueri suscipere,
+              ut Baptismum et confirmationem. Ergo pari ratione ordinem.</p>
+          </div>
+          <div xml:id="ta-l4d25q2-Dd1e164">
+            <head xml:id="ta-l4d25q2-Hd1e166">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d25q2-d1e169">Respondeo dicendum ad primam quaestionem, quod quaedam requiruntur in recipiente
+              sacramentum quasi de necessitate sacramenti, quae si desint, non potest aliquis
+              suscipere neque sacramentum neque rem sacramenti; quaedam vero requiruntur non de
+              necessitate sacramenti, sed de necessitate praecepti propter congruitatem ad
+              sacramentum; et sine talibus aliquis suscipit sacramentum, sed non rem sacramenti.
+              Dicendum ergo, quod sexus virilis requiritur ad susceptionem ordinis non solum secundo
+              modo, sed etiam primo. Unde etsi mulieri exhibeantur omnia quae in ordinibus fiunt,
+              ordinem non suscipit: quia cum sacramentum sit signum, in his quae in sacramento
+              aguntur, requiritur non solum res, sed significatio rei; sicut dictum est, quod in
+              extrema unctione exigitur quod sit infirmus, ut significetur curatione indigens. Cum
+              ergo in sexu femineo non possit significari aliqua eminentia gradus, quia mulier
+              statum subjectionis habet; ideo non potest ordinis sacramentum suscipere. Quidam autem
+              dixerunt, quod sexus virilis est de necessitate praecepti, sed non de necessitate
+              sacramenti: quia etiam in decretis fit mentio de diaconissa et presbytera. Sed
+              diaconissa dicitur quae in aliquo actu diaconi participat, sicut quae legit homiliam
+              in Ecclesia; presbytera autem dicitur vidua, quia presbyter idem est quod senior.</p>
+            <p xml:id="ta-l4d25q2-d1e172">Ad primum ergo dicendum, quod prophetia non est sacramentum, sed donum Dei; unde non
+              exigitur ibi significatio, sed solum res. Et quia secundum rem, in his quae sunt
+              animae, mulier non differt a viro, cum quandoque mulier inveniatur melior quantum ad
+              animam multis viris; ideo donum prophetiae et alia hujusmodi potest accipere, sed non
+              ordinis sacramentum.</p>
+            <p xml:id="ta-l4d25q2-d1e175">Et per hoc patet solutio ad secundum et tertium. De abbatissis tamen dicitur, quod
+              non habent praelationem ordinariam, sed quasi ex commissione propter periculum
+              cohabitationis virorum ad mulieres. Debora autem praefuit in temporalibus, non in
+              sacerdotalibus, sicut et nunc mulieres possunt temporaliter dominari.</p>
+
+          </div>
+          <div xml:id="ta-l4d25q2-Dd1e180">
+            <head xml:id="ta-l4d25q2-Hd1e182">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d25q2-d1e185">Ad secundam quaestionem dicendum, quod per pueritiam, et alios defectus quibus
+              tollitur usus rationis, praestatur impedimentum actui; et ideo omnia illa sacramenta
+              quae actum requirunt suscipientis, talibus non competunt, sicut poenitentia,
+              matrimonium, et hujusmodi. Sed quia potestates infusae sunt priores actibus, sicut et
+              naturales, quamvis acquisitae sint posteriores; remoto autem posteriori non tollitur
+              prius; ideo omnia sacramenta in quibus non requiritur actus suscipientis de
+              necessitate sacramenti, sed potestas aliqua spiritualis divinitus datur, possunt pueri
+              suscipere et alii qui usu rationis carent; hac tamen distinctione habita, quod in
+              minoribus ordinibus requiritur discretionis tempus de honestate propter dignitatem
+              sacramenti, sed non de necessitate praecepti, neque de necessitate sacramenti. Unde
+              aliqui, si necessitas adsit, et spes profectus, ad minores ordines possunt ante annos
+              discretionis promoveri sine peccato, et suscipient ordinem: quia quamvis tunc non sint
+              idonei ad officia quae eis committuntur, tamen per assuetudinem idonei reddentur. Sed
+              ad majores ordines requiritur usus rationis et de honestate, et de necessitate
+              praecepti propter votum continentiae quod habent annexum; et quia etiam eis sacramenta
+              tractanda committuntur. Sed ad episcopatum, ubi in corpus mysticum accipitur potestas,
+              requiritur actus suscipientis curam pastoralem; et ideo est etiam de necessitate
+              consecrationis episcopalis quod usum rationis habeat. Quidam autem dicunt, quod ad
+              omnes ordines requiritur usus rationis de necessitate sacramenti; sed eorum dictum
+              ratione vel auctoritate non confirmatur.</p>
+            <p xml:id="ta-l4d25q2-d1e188">Ad primum ergo dicendum, quod non omne quod est de necessitate praecepti, est de
+              necessitate sacramenti, ut dictum est.</p>
+            <p xml:id="ta-l4d25q2-d1e191">Ad secundum dicendum, quod matrimonium causat consensus, qui sine usu rationis esse
+              non potest; sed in receptione ordinis non requiritur aliquis actus ex parte
+              recipientis: quod patet ex hoc quod nullus actus ex parte eorum exprimitur in eorum
+              consecratione; et ideo non est simile.</p>
+            <p xml:id="ta-l4d25q2-d1e194">Ad tertium dicendum, quod ejusdem est actus et potentia; sed tamen aliquando potentia
+              praecedit, sicut liberum arbitrium usum suum; et sic est in proposito.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d25q2-Dd1e199" type="articulus">
+          <head xml:id="ta-l4d25q2-Hd1e201">Articulus 2</head>
+
+          <head xml:id="ta-l4d25q2-Hd1e204" type="questionTitle">Utrum servitus impediat aliquem a susceptione ordinis</head>
+
+          <div xml:id="ta-l4d25q2-Dd1e207">
+            <head xml:id="ta-l4d25q2-Hd1e209">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d25q2-d1e212">Ad secundum sic proceditur. Videtur quod servitus non impediat aliquem a susceptione
+              ordinis. Subjectio enim corporalis non repugnat praelationi spirituali. Sed in servo
+              est subjectio corporalis. Ergo non impeditur quin debeat suscipere praelationem
+              spiritualem, quae in ordine datur.</p>
+            <p xml:id="ta-l4d25q2-d1e215">Praeterea, illud quod est occasio humilitatis non debet impedire susceptionem
+              alicujus sacramenti. Sed servitus est hujusmodi; unde apostolus consulit quod si
+              aliquis possit, utatur servitute, 1 Corinth. 7. Ergo non debet impedire a promotione
+              ordinis.</p>
+            <p xml:id="ta-l4d25q2-d1e218">Praeterea, magis est turpe clericum in servum vendi quam servum in clericum
+              promoveri. Sed licite clericus in servum vendi potest: quia episcopus Nolanus,
+              scilicet beatus Paulinus, seipsum in servum vendidit, ut in dialogis legitur. Ergo
+              multo fortius potest servus in clericum promoveri.</p>
+            <p xml:id="ta-l4d25q2-d1e221">Sed contra, videtur quod impediat quantum ad necessitatem sacramenti. Quia mulier non
+              potest suscipere sacramentum ratione subjectionis. Sed major subjectio est in servo;
+              quia mulier non datur viro in ancillam, propter quod non est de pedibus sumpta. Ergo
+              et servus sacramentum non suscipit.</p>
+            <p xml:id="ta-l4d25q2-d1e225">Praeterea, aliquis, ex quo suscipit ordinem, tenetur in ordine ministrare. Sed non
+              potest simul ministrare domino suo carnali, et in spirituali ministerio. Ergo videtur
+              quod non possit ordinem suscipere, quia dominus debet conservari indemnis.</p>
+
+          </div>
+          <div xml:id="ta-l4d25q2-Dd1e229">
+            <head xml:id="ta-l4d25q2-Hd1e231">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d25q2-d1e234">Ulterius. Videtur quod propter homicidium aliquis non debeat prohiberi a sacris
+              ordinibus. Quia ordines nostri sumpserunt initium a Levitarum officiis, ut in
+              praecedenti dist. dictum est. Sed Levitae consecraverunt manus suas in sanguinis
+              effusione fratrum suorum, ut patet Exod. 32. Ergo et in novo testamento non debent
+              aliqui a susceptione ordinum prohiberi propter sanguinis effusionem.</p>
+            <p xml:id="ta-l4d25q2-d1e237">Praeterea, propter actum virtutis nullus debet impediri ab aliquo sacramento. Sed
+              aliquando sanguis effunditur per justitiam, sicut a judice; et peccaret habens
+              officium, si non effunderet. Ergo non impeditur propter hoc a sacramenti
+              susceptione.</p>
+            <p xml:id="ta-l4d25q2-d1e240">Praeterea, poena non debetur nisi culpae. Sed aliquis sine culpa quandoque homicidium
+              committit, sicut se defendendo, vel etiam casualiter. Ergo non debet incurrere
+              irregularitatis poenam.</p>
+            <p xml:id="ta-l4d25q2-d1e243">Sed contra hoc sunt plura canonum statuta, et Ecclesiae consuetudo.</p>
+
+          </div>
+          <div xml:id="ta-l4d25q2-Dd1e247">
+            <head xml:id="ta-l4d25q2-Hd1e249">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d25q2-d1e252">Ulterius. Videtur quod illegitime nati non debeant impediri a susceptione ordinum.
+              Quia filius non debet portare iniquitatem patris. Portaret autem, si propter hoc
+              impediretur ab ordinibus suscipiendis. Ergo et cetera.</p>
+            <p xml:id="ta-l4d25q2-d1e255">Praeterea, magis impeditur aliquis propter defectum proprium quam alienum. Sed a
+              susceptione ordinum propter illicitum concubitum suum non semper aliquis impeditur.
+              Ergo nec propter illicitum concubitum patris sui.</p>
+            <p xml:id="ta-l4d25q2-d1e258">Sed contra est quod dicitur Deuter. 23: <quote xml:id="ta-l4d25q2-Qd1e260">mamzer non ingredietur, hoc est de
+                scorto natus, Ecclesiam Dei usque ad decimam generationem</quote>. Ergo multo minus
+              debent promoveri ad ordines.</p>
+
+          </div>
+          <div xml:id="ta-l4d25q2-Dd1e266">
+            <head xml:id="ta-l4d25q2-Hd1e268">Quaestiuncula 4</head>
+            <p xml:id="ta-l4d25q2-d1e271">Ulterius. Videtur quod propter defectum membrorum non debeat aliquis impediri. Quia
+              afflictio non debet addi afflicto. Ergo non debet privari ordinis gradu propter poenam
+              corporalis defectus.</p>
+            <p xml:id="ta-l4d25q2-d1e274">Praeterea, plus exigitur ad actum ordinis integritas discretionis quam integritas
+              corporis. Sed aliqui possunt promoveri ante annos discretionis. Ergo et cum corporis
+              defectu.</p>
+            <p xml:id="ta-l4d25q2-d1e277">Sed contra est quod tales prohibebantur a ministerio veteris legis. Ergo multo
+              fortius debent in nova lege prohiberi.</p>
+            <p xml:id="ta-l4d25q2-d1e280">De bigamia dicetur in tractatu de matrimonio dist. 27.</p>
+          </div>
+          <div xml:id="ta-l4d25q2-Dd1e284">
+            <head xml:id="ta-l4d25q2-Hd1e286">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d25q2-d1e289">Respondeo dicendum ad primam quaestionem, quod in susceptione ordinis mancipatur homo
+              divinis officiis. Et quia nullus potest alteri dare quod suum non est; ideo servus qui
+              non habet potestatem sui, non potest ad ordines promoveri: si tamen promovetur,
+              ordinem suscipit, quia libertas non est de necessitate sacramenti, licet sit de
+              necessitate praecepti; cum non impediat potestatem, sed actum tantum. Et similis ratio
+              est de omnibus qui sunt aliis obligati; ut ratiociniis detenti, et hujusmodi
+              personae.</p>
+            <p xml:id="ta-l4d25q2-d1e292">Ad primum ergo dicendum, quod in susceptione spiritualis potestatis est aliqua
+              obligatio ad aliqua etiam corporaliter agenda; et ideo per corporalem subjectionem
+              impeditur.</p>
+            <p xml:id="ta-l4d25q2-d1e295">Ad secundum dicendum, quod ex multis aliis quae non praestant impedimentum executioni
+              ordinum, potest aliquis occasionem humilitatis accipere; et ideo ratio non
+              sequitur.</p>
+            <p xml:id="ta-l4d25q2-d1e298">Ad tertium dicendum, quod beatus Paulinus ex abundantia caritatis spiritu Dei actus
+              hoc fecit, quod rei eventus probat, quia per ejus servitutem multi de grege suo sunt a
+              servitute liberati; et ideo non est ad consequentiam trahendum: quia <quote xml:id="ta-l4d25q2-Qd1e300">ubi
+                spiritus domini, ibi libertas</quote>, 2 Corinth. 3, 17.</p>
+            <p xml:id="ta-l4d25q2-d1e305">Ad quartum dicendum, quod signa sacramentalia ex naturali similitudine repraesentant;
+              mulier autem ex natura habet subjectionem, et non servus; et ideo non est simile.</p>
+            <p xml:id="ta-l4d25q2-d1e308">Ad quintum dicendum, quod si est promotus sciente domino suo, et non reclamante, ex
+              hoc ipso efficitur ingenuus. Si autem eo nesciente; tunc episcopus, et ille qui
+              praesentavit, tenentur domino in duplum quam sit pretium servi, si sciverunt ipsum
+              esse servum: alias si servus habeat peculium, debet seipsum redimere; alioquin
+              redigetur in servitutem domini sui, non obstante quod ordinem suum exequi non
+              potest.</p>
+
+          </div>
+          <div xml:id="ta-l4d25q2-Dd1e312">
+            <head xml:id="ta-l4d25q2-Hd1e314">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d25q2-d1e317">Ad secundam quaestionem dicendum, quod omnes ordines referuntur ad sacramentum
+              Eucharistiae, quod est sacramentum pacis nobis per sanguinem Christi effusum factae.
+              Et quia homicidium maxime contrariatur paci, et homicidae magis conformantur
+              occidentibus Christum quam ipsi Christo occiso, cui omnes ministri praedicti
+              sacramenti debent conformari; ideo de necessitate praecepti est quod non sit homicida
+              qui ad ordines promovetur, quamvis non sit de necessitate sacramenti.</p>
+            <p xml:id="ta-l4d25q2-d1e320">Ad primum ergo dicendum, quod vetus lex inferebat poenam sanguinis, non autem lex
+              nova; et non est simile de ministris veteris et novae legis, quae est jugum suave et
+              onus leve.</p>
+            <p xml:id="ta-l4d25q2-d1e323">Ad secundum dicendum, quod irregularitas non incurritur propter peccatum tantum, sed
+              principaliter propter ineptitudinem personae ad sacramentum Eucharistiae ministrandum:
+              et ideo judex, et omnes qui in causa sanguinis ei participant, sunt irregulares
+              propter hoc quod effusio sanguinis non decet ministros dicti sacramenti.</p>
+            <p xml:id="ta-l4d25q2-d1e326">Ad tertium dicendum, quod nullus facit nisi illud cujus causa est quod est
+              voluntarium in homine; et ideo ille qui ignoranter hominem occidit homicidio casuali,
+              non dicitur homicida, nec irregularitatem incurrit: nisi dederit operam rei illicitae,
+              vel nisi omiserit debitam diligentiam, quia jam quodammodo efficitur voluntarium. Nec
+              hoc est propter hoc quod culpa careat, quia etiam sine culpa incurritur irregularitas;
+              et ideo etiam ille qui se defendendo in aliquo casu non peccat homicidium committendo,
+              nihilominus irregularis est.</p>
+
+          </div>
+          <div xml:id="ta-l4d25q2-Dd1e330">
+            <head xml:id="ta-l4d25q2-Hd1e332">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d25q2-d1e335">Ad tertiam quaestionem dicendum, quod ordinati, in quadam dignitate prae aliis
+              constituuntur; ideo ex quadam honestate requiritur in eis claritas quaedam, non de
+              necessitate sacramenti, sed de necessitate praecepti: ut scilicet sint bonae famae,
+              bonis moribus ornati, non publice poenitentes. Et quia obscuratur hominis claritas ex
+              vitiosa origine, ideo etiam de illegitimo thoro nati a susceptione ordinum
+              repelluntur, nisi cum eis dispensetur; et tanto est difficilior dispensatio, quanto
+              eorum origo est turpior.</p>
+            <p xml:id="ta-l4d25q2-d1e338">Ad primum ergo dicendum, quod irregularitas non est poena iniquitati debita; et ideo
+              patet quod illegitime nati non portant iniquitatem patris ex hoc quod irregulares
+              sunt.</p>
+            <p xml:id="ta-l4d25q2-d1e341">Ad secundum dicendum, quod ea quae per actum committuntur, possunt per poenitentiam
+              et actum contrarium aboleri; non autem ea quae ex natura sunt; et ideo non est simile
+              de vitioso actu et vitiosa origine.</p>
+
+          </div>
+          <div xml:id="ta-l4d25q2-Dd1e345">
+            <head xml:id="ta-l4d25q2-Hd1e347">Quaestiuncula 4</head>
+            <p xml:id="ta-l4d25q2-d1e350">Ad quartam quaestionem dicendum, quod, sicut ex dictis patet, aliquis efficitur
+              ineptus ad susceptionem ordinis vel propter impedimentum actus, vel propter
+              impedimentum claritatis personae; et ideo patientes defectum in membris impediuntur a
+              susceptione ordinis, si sit talis defectus qui maculam notabilem inferat, per quem
+              obscuretur personae claritas, ut abscissio nasi; vel periculum in executione facere
+              possit; alias non impediuntur. Haec autem integritas exigitur de necessitate
+              praecepti, sed non de necessitate sacramenti.</p>
+            <p xml:id="ta-l4d25q2-d1e353">Et per hoc patet solutio ad objecta.</p>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

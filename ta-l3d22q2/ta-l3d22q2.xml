@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum III, Distinctio 22, Quaestio 2</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.09-dev-master">
+          <title>Librum III, Distinctio 22, Quaestio 2</title>
+          <date when="2016-03-12">March 12, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-12">March 12, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness>1856 editum</witness>
+          <witness xml:id="H" n="harv245" xml:base="http://iiif.lib.harvard.edu/manifests/drs:51994085/canvas/">Cambridge, Mass.,
+            Harvard University, Houghton Library, MS Lat 245</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="2015.09">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+
+
+
+
+      <div xml:id="starts-on">
+        <cb ed="#H" n="78rb"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ta-l3d22q2">
+        <head xml:id="ta-l3d22q2-Hd1e97">Librum III, Distinctio 22, Quaestio 2</head>
+        <div xml:id="ta-l3d22q2-Dd1e100">
+          <head xml:id="ta-l3d22q2-Hd1e102">Prooemium</head>
+          <p xml:id="ta-l3d22q2-d1e105">Deinde quaeritur de descensu Christi ad Inferos; et circa hoc quaeruntur duo: 1 de
+            descensu Christi ad Inferos; 2 de effectu quem ibi fecit.</p>
+        </div>
+        <div xml:id="ta-l3d22q2-Dd1e109" type="articulus">
+          <head xml:id="ta-l3d22q2-Hd1e111">Articulus 1</head>
+          <head xml:id="ta-l3d22q2-Hd1e114" type="questionTitle">Utrum Christus ad Inferos descenderit</head>
+          <div xml:id="ta-l3d22q2-Dd1e117">
+            <head xml:id="ta-l3d22q2-Hd1e119">Quaestiuncula 1</head>
+            <p xml:id="ta-l3d22q2-d1e122">Ad primum sic proceditur. Videtur quod Christus ad Infernum non debuit descendere.
+              Sicut enim dicit Augustinus ad Dardanum, nomen Inferni in Scriptura semper in malo
+              accipitur. Sed id quod semper in malo accipitur, Christo non competit. Ergo nec
+              descendere ad Infernum.</p>
+            <p xml:id="ta-l3d22q2-d1e125">Praeterea, Christus non descendit in mundum, nisi ut mundum liberaret. Sed per
+              passionem non solum liberavit eos qui in mundo erant, sed etiam eos qui in Inferno
+              detinebantur, soluto pretio pro peccato, pro quo detinebantur. Ergo videtur quod ad
+              Infernum descendere non debuit.</p>
+            <p xml:id="ta-l3d22q2-d1e128">Praeterea, descendere ad Infernum importat poenam damnationis pro peccato. Sed in
+              Christo nullum peccatum fuit. Ergo nec aliqua damnatio sibi competit. Ergo ad Infernum
+              descendere non debuit.</p>
+            <p xml:id="ta-l3d22q2-d1e131">Sed contra est quod dicitur in symbolo: <quote xml:id="ta-l3d22q2-Qd1e133">descendit ad Inferos</quote>.</p>
+            <p xml:id="ta-l3d22q2-d1e138">Praeterea, <ref xml:id="ta-l3d22q2-Rd1e140"><title ref="#act">Act.</title> 2, 24:</ref>
+              <quote xml:id="ta-l3d22q2-Qd1e145" ana="#act2_24">quem Deus suscitavit solutis doloribus Inferni</quote>. Ergo
+              videtur quod in Inferno fuerit.</p>
+          </div>
+          <div xml:id="ta-l3d22q2-Dd1e150">
+            <head xml:id="ta-l3d22q2-Hd1e152">Quaestiuncula 2</head>
+            <p xml:id="ta-l3d22q2-d1e155">Ulterius. Videtur quod descenderit usque ad Infernum damnatorum. Ipse enim sua morte
+              humanum genus non solum liberavit a peccato originali, sed etiam ab actuali. Sed
+              Infernus damnatorum est locus poenalis respondens peccato actuali, sicut Limbus patrum
+              locus debitus pro peccato originali. Ergo videtur quod etiam in illum Infernum
+              descendere debuerit, sicut in Limbum descendit.</p>
+            <p xml:id="ta-l3d22q2-d1e158">Praeterea, Christi ascensio respondet suo descensui, quia <quote xml:id="ta-l3d22q2-Qd1e160">qui ascendit ipse
+                est et qui descendit</quote>, Eph. 4. Sed ipse ascendit super omnes caelos. Ergo
+              debuit etiam usque ad inferiorem Infernum descendere.</p>
+            <p xml:id="ta-l3d22q2-d1e164">Praeterea, Eccli. 24, 45, dicitur: <quote xml:id="ta-l3d22q2-Qd1e166">penetrabo omnes inferiores partes terrae et
+                inspiciam omnes dormientes</quote>. Sed inferiores partes terrae sunt Infernus
+              damnatorum, in quo aliqui de dormientibus, idest mortuis, sunt. Ergo videtur quod ipse
+              in illum Infernum descenderit.</p>
+            <p xml:id="ta-l3d22q2-d1e170">Sed contra, Luc. 16, 26, dicitur: <quote xml:id="ta-l3d22q2-Qd1e172">inter nos et vos chaos magnum firmatum est,
+                ut illi qui volunt illuc ex nobis transire, non possint</quote>. Sed illud chaos
+              magis erat firmatum inter Christum, qui jam erat comprehensor, et damnatos, quam inter
+              sanctos qui erant in Limbo expectantes beatitudinem, et illos qui erant in Inferno.
+              Ergo Christus ad illos non descendit.</p>
+            <p xml:id="ta-l3d22q2-d1e177">Praeterea, sicut caelum Empyreum est locus aeternae gloriae, ita Infernus est locus
+              aeternae miseriae. Sed nullus damnatus potest esse in caelo Empyreo. Ergo nulli beato
+              competit esse in Inferno; et sic nec Christo.</p>
+          </div>
+          <div xml:id="ta-l3d22q2-Dd1e181">
+            <head xml:id="ta-l3d22q2-Hd1e183">Quaestiuncula 3</head>
+            <p xml:id="ta-l3d22q2-d1e186">Ulterius. Videtur quod in Limbo ullam moram non traxerit. Ad hoc enim descendit in
+              Infernum, ut sanctos, qui ibi detinebantur, liberaret. Sed statim illuc descendens
+              sanctos liberavit. Ergo videtur quod moram illic trahere non debuit.</p>
+            <p xml:id="ta-l3d22q2-d1e189">Praeterea, sicut per peccatum aliquis a caelo excluditur, ita per emundationem a
+              peccato aliquis ab Inferno liberatur. Sed Diabolus, statim ut peccavit, de caelo
+              cecidit. Ergo videtur quod sancti statim ut mundati fuerunt a peccato, de Inferno
+              educti sint, et ita etiam Christus statim exivit.</p>
+            <p xml:id="ta-l3d22q2-d1e192">Praeterea, anima Christi non potuit esse simul in diversis locis. Sed Christus in die
+              mortis suae fuit in Paradiso: quia pendens in cruce latroni dixit: <quote xml:id="ta-l3d22q2-Qd1e194">hodie mecum
+                eris in Paradiso</quote>. Ergo videtur quod illa eadem die de Inferno exierit.</p>
+            <p xml:id="ta-l3d22q2-d1e198">Sed contra, Act. 2, 24: <quote xml:id="ta-l3d22q2-Qd1e200">quem Deus suscitavit solutis doloribus
+              Inferni</quote>. Ergo videtur quod in Inferno fuerit usque ad horam resurrectionis
+              suae.</p>
+            <p xml:id="ta-l3d22q2-d1e205">Praeterea, locus animae separatae est Infernus vel caelum. Sed anima Christi ante
+              diem ascensionis, in caelum non ascendit, et ita ante resurrectionem in caelo non
+              fuit. Ergo mansit in Inferno usque ad diem resurrectionis.</p>
+          </div>
+          <div xml:id="ta-l3d22q2-Dd1e210">
+            <head xml:id="ta-l3d22q2-Hd1e212">Quaestiuncula 1</head>
+            <p xml:id="ta-l3d22q2-d1e215">Respondeo dicendum ad primam quaestionem, quod Christus, ut nos ab omnibus defectibus
+              liberaret, in se nostros defectus qui universaliter omnium erant, et in defectum
+              gratiae non vergebant, accipere voluit. Hoc autem erat omnibus hominibus commune ante
+              passionem Christi quod pro debito originalis peccati ad Infernum descendebant. Sed in
+              nomine Inferni duo importantur, scilicet locus, et poena vel damni, vel sensus,
+              scilicet afflictiva. Poena autem damni, scilicet carentia divinae visionis, vergebat
+              in defectum gratiae, quia scilicet non poterat in eis esse gratia consummata, scilicet
+              gloria. Similiter etiam poena sensus post hanc vitam non est satisfactoria, quia illi
+              non sunt in statu merendi; sed est vel purgativa vel damnativa. Purgatio autem debetur
+              alicui impuritati et damnatio debetur peccato mortali; unde etiam poena sensus post
+              hanc vitam in defectum gratiae vergit. Et ideo Christo fuit competens in Infernum
+              descendere, secundum quod Infernus importat locum, non autem secundum quod importat
+              poenam.</p>
+            <p xml:id="ta-l3d22q2-d1e218">Ad primum ergo dicendum, quod nomen Inferni secundum quod importat locum, non sonat
+              in malum tantum, et sic potest competere Christo: secundum autem quod importat poenam
+              damni vel sensus, sic Christo competere non potest, quia sic sonat etiam in malum
+              culpae. Vel dicendum, quod descendere ad Infernum, quasi sub potestate infernalium
+              deduci, in malum sonat; sed descendere in Infernum ad expoliandum ipsum per modum
+              domini, sonat in maximam dignitatem; et sic Christo competit.</p>
+            <p xml:id="ta-l3d22q2-d1e221">Ad secundum dicendum, quod per passionem ejus solutum erat pretium, unde amotum erat
+              impedimentum quo sancti prohibebantur a visione Dei, et ideo statim Deum viderunt; sed
+              tamen oportuit quod in Infernum localiter descenderet quantum ad liberationem eorum a
+              loco poenali, et iterum ut in se omnes defectus acciperet.</p>
+            <p xml:id="ta-l3d22q2-d1e224">Ad tertium dicendum, quod secundum quod nomen Inferni importat poenam sensus vel
+              damni, sic Christus non dicitur in Infernum descendisse; sed secundum quod tantum
+              locum nominat.</p>
+          </div>
+          <div xml:id="ta-l3d22q2-Dd1e228">
+            <head xml:id="ta-l3d22q2-Hd1e230">Quaestiuncula 2</head>
+            <p xml:id="ta-l3d22q2-d1e233">Ad secundam quaestionem dicendum, quod quadruplex est Infernus. Unus est Infernus
+              damnatorum, in quo sunt tenebrae et quantum ad carentiam divinae visionis, et quantum
+              ad carentiam gratiae, et est ibi poena sensibilis; et hic Infernus est locus
+              damnatorum. Alius est Infernus supra istum, in quo sunt tenebrae et propter carentiam
+              divinae visionis, et propter carentiam gratiae, sed non est ibi poena sensibilis; et
+              dicitur Limbus puerorum. Alius supra hunc est, in quo sunt tenebrae quantum ad
+              carentiam divinae visionis, sed non quantum ad carentiam gratiae, sed est ibi poena
+              sensus; et dicitur Purgatorium. Alius magis supra est, in quo est tenebra quantum ad
+              carentiam divinae visionis, sed non quantum ad carentiam gratiae, neque est ibi poena
+              sensibilis; et hic est Infernus sanctorum patrum; et in hunc tantum Christus descendit
+              quantum ad locum, sed non quantum ad tenebrarum experientiam.</p>
+            <p xml:id="ta-l3d22q2-d1e236">Ad primum ergo dicendum, quod Christus liberavit sua passione a peccato mortali eos
+              qui in via sunt, ut vel non committant, vel a commisso absolvantur, si velint; non
+              autem eos qui jam cum mortali peccato decesserunt, quibus debetur ille Infernus
+              damnatorum.</p>
+            <p xml:id="ta-l3d22q2-d1e239">Ad secundum dicendum, quod ascensio congruit Christo ratione sui: et ideo quia ipse
+              est altissimus, super omnes caelos ascendere debuit: sed descendere non competit sibi
+              nisi pro nobis; ideo tantum descendit quantum expediebat nostrae liberationi, et non
+              sub omnibus simpliciter.</p>
+            <p xml:id="ta-l3d22q2-d1e242">Ad tertium dicendum, quod inferiores partes terrae dicuntur etiam illa loca in quibus
+              sancti patres erant; et qui ibi continebantur, dormientes dicebantur, propter spem
+              gloriosae resurrectionis; non autem illi qui damnati erant in Inferno.</p>
+          </div>
+          <div xml:id="ta-l3d22q2-Dd1e246">
+            <head xml:id="ta-l3d22q2-Hd1e248">Quaestiuncula 3</head>
+            <p xml:id="ta-l3d22q2-d1e251">Ad tertiam quaestionem dicendum; quod cum anima et corpus sint proportionabilia,
+              tantum debuit anima stare in Inferno quantum corpus in sepulcro, ut per utrumque
+              fratribus suis similaretur, et ut in resurrectione novam vitam inchoaret et quantum ad
+              animarum liberationem, et quantum ad corporum resurrectionem, in suo corpore
+              inchoatam.</p>
+            <p xml:id="ta-l3d22q2-d1e254">Ad primum ergo dicendum, quod liberare Christus nos voluit, defectus nostros in se
+              portando; et ideo quamdiu mortuus fuit, voluit secundum animam in Inferno esse, sicut
+              secundum corpus in sepulcro.</p>
+            <p xml:id="ta-l3d22q2-d1e257">Ad secundum dicendum, quod dispensative factum est ut Christus tamdiu mortuus esset,
+              ut veritas mortis ostenderetur; et tamdiu debuit anima ejus esse in Inferno, et corpus
+              in sepulcro, quamdiu mortuus fuit, sicut et de aliis ante ejus resurrectionem
+              fuit.</p>
+            <p xml:id="ta-l3d22q2-d1e260">Ad tertium dicendum, quod Paradisus est triplex. Unus Paradisus terrestris, in quo
+              Adam positus est; alius corporalis caelestis, scilicet caelum Empyreum; alius
+              spiritualis, scilicet gloria de visione Dei; et de isto Paradiso intelligitur quod
+              dominus latroni dixit: quia statim peracta passione et ipse latro et omnes qui in
+              Limbo patrum erant Deum per essentiam viderunt.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l3d22q2-Dd1e265" type="articulus">
+          <head xml:id="ta-l3d22q2-Hd1e267">Articulus 2</head>
+          <head xml:id="ta-l3d22q2-Hd1e270" type="questionTitle">Utrum Christus Limbum patrum illuminaverit</head>
+          <div xml:id="ta-l3d22q2-Dd1e273">
+            <head xml:id="ta-l3d22q2-Hd1e275">Quaestiuncula 1</head>
+            <p xml:id="ta-l3d22q2-d1e278">Ad secundum sic proceditur. Videtur quod Christus Limbum patrum non illuminaverit. De
+              ratione enim Inferni videtur esse tenebra, sicut de ratione Paradisi lux. Ergo Inferno
+              non competit illuminari.</p>
+            <p xml:id="ta-l3d22q2-d1e281">Praeterea, si locus aliquis illuminatur, omnes qui sunt in loco illo lumen
+              percipiunt. Sed aliqui erant in Inferno qui non debebant percipere lumen Christi,
+              sicut Daemones. Igitur videtur quod illum locum non illuminaverit.</p>
+            <p xml:id="ta-l3d22q2-d1e284">Praeterea, in Psalm. 106, 14, dicitur: <quote xml:id="ta-l3d22q2-Qd1e286">eduxit eos de tenebris et umbra
+                mortis</quote>. Sed si Christus locum illum illuminasset, tenebrae ibi non fuissent.
+              Ergo Christus locum illum non illuminavit.</p>
+            <p xml:id="ta-l3d22q2-d1e290">Sed contra, Damascenus dicit: <quote xml:id="ta-l3d22q2-Qd1e292">descendit ad Infernum anima deificata, ut
+                quemadmodum his qui in terra sunt, ortus est sol justitiae, ita et his qui in
+                Inferno et tenebris et umbra mortis sedent, superlucescat</quote>.</p>
+            <p xml:id="ta-l3d22q2-d1e297">Praeterea, Ambrosius dicit: <quote xml:id="ta-l3d22q2-Qd1e299">in Inferno lumen vitae fundebat
+              aeternae</quote>.</p>
+          </div>
+          <div xml:id="ta-l3d22q2-Dd1e304">
+            <head xml:id="ta-l3d22q2-Hd1e306">Quaestiuncula 2</head>
+            <p xml:id="ta-l3d22q2-d1e309">Ulterius. Videtur quod Christus animas extraxerit etiam de Inferno damnatorum. Ipse
+              enim dixit: <quote xml:id="ta-l3d22q2-Qd1e311">eruisti animam meam ex Inferno inferiori</quote>, et Job 17, 16:
+                <quote xml:id="ta-l3d22q2-Qd1e314">in profundissimum Infernum descendent ossa mea</quote>. Sed profundissimum
+              Inferni in quod descendit Job, et de quo fuit eductus, constat quod fuit Infernus
+              inferior: et Infernus inferior est Infernus damnatorum. Ergo animas eduxit de Inferno
+              damnatorum.</p>
+            <p xml:id="ta-l3d22q2-d1e318">Praeterea, Zachar. 9, 11: <quote xml:id="ta-l3d22q2-Qd1e320">tu quoque in sanguine testamenti tui emisisti
+                vinctos tuos de lacu in quo non est aqua</quote>; dicit Glossa: <quote xml:id="ta-l3d22q2-Qd1e323">eos qui
+                tenebantur vincti in carceribus, ubi nulla misericordia eos refrigerabat, quam dives
+                ille petebat, tu liberasti</quote>. Sed tales erant damnati in Inferno. Ergo ipsi
+              fuerunt liberati.</p>
+            <p xml:id="ta-l3d22q2-d1e327">Praeterea, Sapient. 7, 30, dicitur: <quote xml:id="ta-l3d22q2-Qd1e329">sapientia vincit malitiam</quote>. Sed hoc
+              non esset, si non omnes qui per malitiam in Infernum descenderant, per sapientiam,
+              quae Christus est, liberati sunt. Ergo omnes sunt liberati, etiam de Inferno
+              damnatorum.</p>
+            <p xml:id="ta-l3d22q2-d1e333">Praeterea, Isai. 24, 22: <quote xml:id="ta-l3d22q2-Qd1e335">congregabuntur congregatione unius fascis in lacum,
+                et claudentur in carcere, et post multos dies visitabuntur</quote>; et loquitur ibi
+              de damnatis, quod patet per hoc quod ipse praemisit de militia caeli. Ergo videtur
+              quod etiam damnati per Christum visitati et liberati sunt.</p>
+            <p xml:id="ta-l3d22q2-d1e340">Sed contra, Isai. ult., 24: <quote xml:id="ta-l3d22q2-Qd1e342">ignis eorum non extinguetur</quote>.</p>
+            <p xml:id="ta-l3d22q2-d1e346">Praeterea, in Inferno nulla est redemptio. Ergo inde aliqui liberati non sunt.</p>
+          </div>
+          <div xml:id="ta-l3d22q2-Dd1e350">
+            <head xml:id="ta-l3d22q2-Hd1e352">Quaestiuncula 3</head>
+            <p xml:id="ta-l3d22q2-d1e355">Ulterius. Videtur quod liberaverit illos qui erant in Limbo puerorum. Quia ipsi non
+              detinebantur nisi pro peccato originali sicut patres sancti. Sed illi sunt educti.
+              Ergo et pueri.</p>
+            <p xml:id="ta-l3d22q2-d1e358">Praeterea, in eis non est peccatum nisi per alium. Ergo per alium liberari
+              debuerunt.</p>
+            <p xml:id="ta-l3d22q2-d1e361">Praeterea, impotentia maximam meretur indulgentiam. Sed pueri non potuerunt peccatum
+              originale vitare. Ergo ipsi maxime debuerunt consequi liberationem.</p>
+            <p xml:id="ta-l3d22q2-d1e364">Sed contra, nullus liberatur per Christum nisi membrum Christi. Sed pueri nunquam
+              fuerunt membrum Christi neque per sacramentum fidei, neque per fidem. Ergo per
+              Christum non sunt liberati.</p>
+            <p xml:id="ta-l3d22q2-d1e368">Praeterea, post hanc vitam non datur gratia alicui, nisi habenti. Sed pueri non
+              habuerunt gratiam cum decesserunt. Ergo non potest eis dari post vitam; et ita non
+              possunt educi ad gloriam.</p>
+          </div>
+          <div xml:id="ta-l3d22q2-Dd1e373">
+            <head xml:id="ta-l3d22q2-Hd1e375">Quaestiuncula 4</head>
+            <p xml:id="ta-l3d22q2-d1e378">Ulterius. Videtur quod liberaverit illos qui erant in Purgatorio. Quia majus erat
+              impedimentum peccati originalis quam peccati venialis. Sed ab impedimento peccati
+              originalis liberavit trahens de Limbo. Ergo multo fortius ab impedimento peccati
+              venialis; et ita videtur quod a Purgatorio animas eduxerit.</p>
+            <p xml:id="ta-l3d22q2-d1e381">Praeterea, passio Christi non minorem habet efficaciam quam sacramentum passionis.
+              Sed per sacramentum passionis Christi, scilicet per Baptismum, aliquis liberatur ab
+              omni poena quae debetur in Purgatorio. Ergo videtur quod multo amplius per passionem
+              Christi illi qui ibi erant, liberati sunt.</p>
+            <p xml:id="ta-l3d22q2-d1e384">Praeterea, Christus quod curavit in hac vita, totaliter curavit. Sed illos qui erant
+              in Purgatorio, curavit Christus a reatu originalis. Ergo similiter curavit a reatu
+              peccati venialis; et ita videtur quod a Purgatorio eos liberavit.</p>
+            <p xml:id="ta-l3d22q2-d1e387">Sed contra, passio Christi aequalem habet virtutem nunc quam tunc habuit. Sed nunc
+              virtute passionis non liberantur omnes qui sunt in Purgatorio. Ergo nec tunc.</p>
+            <p xml:id="ta-l3d22q2-d1e391">Praeterea, peccati quod quis per se commisit, per se debet purgationem pati. Sed
+              poenam Purgatorii sustinet homo pro peccatis quae ex seipso commisit. Ergo per poenam
+              quam ipse sustinet, purgari debet, et non per poenam tantum Christi.</p>
+          </div>
+          <div xml:id="ta-l3d22q2-Dd1e395">
+            <head xml:id="ta-l3d22q2-Hd1e397">Quaestiuncula 1</head>
+            <p xml:id="ta-l3d22q2-d1e400">Respondeo dicendum, ad primam quaestionem, quod cum tenebrae exteriores Inferni
+              tenebris interioribus respondeant; ex quo Christus a patribus qui erant in Limbo,
+              omnes tenebras interiores expulerat per demonstrationem suae deitatis, congruum etiam
+              fuit per praesentiam suae humanitatis quantum ad animam etiam tenebras exteriores ab
+              eis excludere, locum illuminando.</p>
+            <p xml:id="ta-l3d22q2-d1e403">Ad primum ergo dicendum, quod jam ille Infernus evacuandus erat, quia post tempus
+              illud nullus ad illum Limbum descendit: et ideo decens fuit ut aliquid in eo fieret
+              quod est contra rationem Inferni.</p>
+            <p xml:id="ta-l3d22q2-d1e406">Ad secundum dicendum, quod sicut poena, quae est ignis Inferni, inquantum agit ut
+              instrumentum divinae justitiae, non affligit nisi illos qui habent reatum poenae,
+              etiam si aliquis alius ibi esset; ita lux illa ut instrumentum divinae misericordiae
+              agens, illos tantum illuminabat exterius qui interius illuminati erant.</p>
+            <p xml:id="ta-l3d22q2-d1e409">Ad tertium dicendum, quod eduxit eos de tenebris dum eos illuminavit: et educens eos
+              de loco illo dicitur de tenebris eduxisse, quas locus ille de sui natura prius
+              habuerat.</p>
+          </div>
+          <div xml:id="ta-l3d22q2-Dd1e413">
+            <head xml:id="ta-l3d22q2-Hd1e415">Quaestiuncula 2</head>
+            <p xml:id="ta-l3d22q2-d1e418">Ad secundam quaestionem dicendum, quod poena non potest tolli manente culpa: illi
+              autem qui sunt damnati in Inferno, sunt obstinati in malitia, sicut Daemones; et ideo
+              de poena illi liberari non potuerunt: et hoc non fuit ex insufficientia liberantis,
+              sed ex indispositione ipsorum.</p>
+            <p xml:id="ta-l3d22q2-d1e421">Ad primum ergo dicendum, quod Limbus patrum dicitur Infernus inferior, non
+              simpliciter, sed respectu hujus habitationis, de quo anima David, vel etiam Christi
+              educta fuit. Similiter etiam ille locus potest dici profundissimum Inferni
+              comparative, ut profundum sit respectu caeli aer caliginosus, in quo sunt Daemones,
+              profundius locus habitationis nostrae, profundissimum autem Limbus patrum, de quo Job
+              liberatus fuit.</p>
+            <p xml:id="ta-l3d22q2-d1e424">Ad secundum dicendum, quod Glossa illa est impropria: loquitur enim de Inferno
+              communiter, secundum quod comprehendit omnes praedictas distinctiones Inferni; unde
+              Inferno aliquid attribuit ratione unius partis, aliquid ratione alterius. Quod autem
+              dicitur: <quote xml:id="ta-l3d22q2-Qd1e426">nulla eos misericordia refrigerabat</quote>, intelligitur quantum ad
+              eos qui erant in alia parte Inferni: vel dicitur de misericordia omnino absolvente,
+              quam etiam dives magis desiderabat, quamvis aliam peteret.</p>
+            <p xml:id="ta-l3d22q2-d1e430">Ad tertium dicendum, quod quantum in se est, sapientia omnem malitiam vincit; sed
+              quod in aliquibus non vincitur, est ex eorum indispositione.</p>
+            <p xml:id="ta-l3d22q2-d1e434">Ad quartum dicendum, quod loquitur de visitatione quae erit in generali
+              resurrectione, quando educentur de Inferno, iterum in perpetuum includendi.</p>
+          </div>
+          <div xml:id="ta-l3d22q2-Dd1e438">
+            <head xml:id="ta-l3d22q2-Hd1e440">Quaestiuncula 3</head>
+            <p xml:id="ta-l3d22q2-d1e443">Ad tertiam quaestionem dicendum, quod redemptio Christi non habuit locum nisi in
+              illis qui fuerunt membra Christi: unde cum pueri qui erant in Limbo, nunquam fuerint
+              membra Christi neque per propriam fidem, neque per fidei sacramentum (quod nunc est
+              Baptismus, tunc autem erat circumcisio, vel sacrificium), constat quod ipsi liberati
+              non fuerunt.</p>
+            <p xml:id="ta-l3d22q2-d1e446">Ad primum ergo dicendum, quod in patribus erat gratia, quae non erat in pueris, per
+              quam patres erant membra Christi; et ideo effectum redemptionis perceperunt, quod non
+              fuit de pueris.</p>
+            <p xml:id="ta-l3d22q2-d1e449">Ad secundum dicendum, quod puerorum peccatum, quamvis esset per alium expiabile,
+              quantum ad genus peccati, non tamen habebant in se fidem et caritatem, per quam
+              conjungerentur illi per quem potuissent liberari quantum ad genus peccati.</p>
+            <p xml:id="ta-l3d22q2-d1e452">Ad tertium dicendum, quod quamvis quantum ad genus peccati esset eorum peccatum
+              propitiabile, tamen ex dispositione eorum, propitiationis participes esse non
+              potuerunt; sicut etiam patet de veniali in illis qui mortaliter peccaverunt.</p>
+          </div>
+          <div xml:id="ta-l3d22q2-Dd1e456">
+            <head xml:id="ta-l3d22q2-Hd1e458">Quaestiuncula 4</head>
+            <p xml:id="ta-l3d22q2-d1e461">Ad quartam quaestionem dicendum, quod quamvis hoc non inveniatur determinatum a
+              sanctis, potest tamen dici, quod illi qui erant in Purgatorio, non fuerunt liberati:
+              quia cum poena Purgatorii debeatur peccato actuali; oportet quod expietur per proprium
+              actum, vel passionem illius qui peccavit, vel alterius specialis personae agentis pro
+              ipso. In Purgatorio autem non potest culpa expiari per aliquem actum meritorium, quia
+              non sunt in statu merendi: unde oportet quod expietur eorum culpa per poenam, quam
+              ipsi sustineant, nisi per suffragia eorum qui sunt in statu merendi, liberentur.
+              Passio autem Christi immediate removet impedimentum ex peccato originali proveniens,
+              quod ex altero contractum est; sed ad removendum poenam debitam actuali peccato, quod
+              quisque ex seipso commisit, pertingit ejus efficacia mediante aliquo sacramento circa
+              personam exhibito, aut aliquo actu ipsius personae, vel alterius ad ipsam relato; et
+              ideo non decebat ut per solam Christi passionem a Purgatorio liberarentur. Nisi
+              dicatur, quod in vita sua hoc meruerunt ut per passionem Christi liberarentur. Vel hoc
+              ex speciali gratia fuit quod illi qui in Purgatorio inventi fuerunt, absoluti sint per
+              passionem Christi; quamvis nunc illi qui sunt in Purgatorio, non consequantur effectum
+              plenae liberationis ex sola passione Christi.</p>
+            <p xml:id="ta-l3d22q2-d1e464">Ad primum ergo dicendum, quod quamvis impedimentum peccati originalis sit gravius,
+              tamen est solubile per alium totaliter, quod non est de impedimento venialis peccati
+              ratione praedicta.</p>
+            <p xml:id="ta-l3d22q2-d1e467">Ad secundum dicendum, quod poena nunquam dimittitur virtute passionis Christi, nisi
+              inquantum aliquis passioni conformatur: quod potest esse tripliciter. Uno modo
+              sacramentaliter, sicut fit in Baptismo; alio modo per meritum dilectionis, et fidei ex
+              passione surgentis; tertio modo per poenae similitudinem. Primi autem duo modi non
+              possunt esse in Purgatorio, quia non sunt in statu recipiendi sacramentum, neque in
+              statu merendi: unde oportet, si passio a veniali eos liberet, quod conformentur
+              Christo passo per poenae passionem.</p>
+            <p xml:id="ta-l3d22q2-d1e470">Ad tertium dicendum, quod quidquid erat in eis curabile per alium, totum curavit; sed
+              poena purgans non erat eis per alium totaliter remissibilis, ut dictum est.</p>
+            <p xml:id="ta-l3d22q2-d1e474">Ad ea quae objiciuntur in oppositum, patet solutio ex dictis.</p>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

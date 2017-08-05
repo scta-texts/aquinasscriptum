@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum III, Distinctio 13, Quaestio 3</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.09-dev-master">
+          <title>Librum III, Distinctio 13, Quaestio 3</title>
+          <date when="2016-03-12">March 12, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-12">March 12, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness>1856 editum</witness>
+          <witness xml:id="H" n="harv245" xml:base="http://iiif.lib.harvard.edu/manifests/drs:51994085/canvas/">Cambridge, Mass., Harvard University, Houghton Library, MS Lat 245</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="2015.09">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+      <div xml:id="starts-on">
+        <cb ed="#H" n="49va"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ta-l3d13q3">
+        <head xml:id="ta-l3d13q3-Hd1e97">Librum III, Distinctio 13, Quaestio 3</head>
+        <div xml:id="ta-l3d13q3-Dd1e100">
+          <head xml:id="ta-l3d13q3-Hd1e102">Prooemium</head>
+          <p xml:id="ta-l3d13q3-d1e105">Deinde quaeritur de gratia unionis: et circa hoc quaeruntur duo: 1 utrum gratia unionis sit aliqua gratia creata; 2 de comparatione istius gratiae ad alias Christi gratias.</p>
+        </div>
+        <div xml:id="ta-l3d13q3-Dd1e109" type="articulus">
+          <head xml:id="ta-l3d13q3-Hd1e111">Articulus 1</head>
+          <head xml:id="ta-l3d13q3-Hd1e114" type="questionTitle">Utrum gratia unionis sit creata</head>
+          <p xml:id="ta-l3d13q3-d1e117">Ad primum sic proceditur. Videtur quod gratia unionis non sit creata. Gratia enim creata, est gratia habitualis. Sed habitus ordinatur ad operationem. Cum ergo unio in persona non sit secundum operationem, sed secundum esse, videtur quod gratia unionis non sit gratia creata.</p>
+          <p xml:id="ta-l3d13q3-d1e120">Praeterea, quilibet nostrum Deo unitur per gratiam creatam. Si igitur gratia unionis in Christo fuisset creata gratia, tunc non alio modo esset Deo unitus quam nos; et sic sequeretur error Nestorii.</p>
+          <p xml:id="ta-l3d13q3-d1e123">Praeterea, unio est humanitatis ad divinitatem secundum corpus et animam. Sed corpus non est susceptivum creatae gratiae. Ergo gratia unionis non est aliqua gratia creata.</p>
+          <p xml:id="ta-l3d13q3-d1e127">Praeterea, in his quae fiunt per miraculum, non requiritur aliqua dispositio ex parte facti, sed totum est ex parte infinitae virtutis agentis: ita Deus potuit de lapide sicut de aqua vinum facere. Sed unio humanitatis ad divinitatem est maxime miraculosa. Ergo non requiritur aliqua gratia creata quae disponat ad hanc unionem.</p>
+          <p xml:id="ta-l3d13q3-d1e130">Praeterea, inter personam et naturam non cadit aliquid accidens medium, sicut nec inter materiam et formam: quia secundum formam substantialem et materiam est esse substantiale, quo non est prius aliquid esse accidentale. Sed unio humanae naturae est ad Deum sicut naturae ad personam. Ergo non cadit aliquid medium. Sed gratia creata est accidens. Ergo gratia unionis non est gratia creata.</p>
+          <p xml:id="ta-l3d13q3-d1e133">Sed contra, Augustinus dicit, quod quidquid convenit filio Dei per naturam, convenit filio hominis per gratiam. Sed esse Deum convenit filio Dei per naturam. Ergo non convenit filio hominis per gratiam: et haec est gratia unionis, quae non semper fuit: ergo est gratia creata.</p>
+          <p xml:id="ta-l3d13q3-d1e136">Praeterea, major est unio in persona quam per fruitionem. Sed humana natura non potest exaltari ad unionem fruitionis nisi per gratiam habitualem. Ergo multo minus ad unionem in persona.</p>
+          <p xml:id="ta-l3d13q3-d1e139">Praeterea, cum sit in qualibet creatura per essentiam, praesentiam et potentiam, et in animabus sanctis per gratiam; aut in anima Christi est alio modo, aut non. Si non, ergo non est magis assumpta a divina persona quam anima Petri. Si autem alio modo; sed Deus quantum in se est, habet se eodem modo ad omnia, sed res diversimode se habent ad ipsum, ut dicitur in libro de causis; et secundum hoc quod diversa diversimode se habent ad ipsum, secundum hoc diversis diversimode ipse comparatur: ergo oportet quod in anima Christi sit aliqua alia dispositio per quam Deus est in eo per unionem: ergo oportet ponere aliquam aliam gratiam creatam.</p>
+          <p xml:id="ta-l3d13q3-d1e142">Praeterea, cum spiritus sanctus datur hominibus, aliquis novus effectus in creatura intelligitur. Ergo et similiter secundum quod persona filii carni unitur, oportet aliquem effectum de novo intelligi; et ita videtur quod gratia unionis sit quid creatum.</p>
+          <p xml:id="ta-l3d13q3-d1e146">Respondeo dicendum, quod, sicut Magister dixit supra, 2 Lib., dist. 26, gratia dicitur dupliciter. Uno modo gratia gratis dans, quod est ipsa gratuita Dei voluntas aliquid sine meritis dans. Alio modo dicitur gratia donum aliquod gratis datum. Secundum ergo primum modum, gratia unionis dicitur ipsa divina voluntas, sine aliquibus meritis naturam humanam filio Dei uniens in persona; et sic gratia unionis est gratia increata. Si autem dicatur gratia donum aliquod gratis datum, sic gratia unionis potest intelligi dupliciter. Uno modo potest dici ipsa unio, quae est quid creatum, ut supra, dist. 5, artic. 1, dictum est. Alio modo potest intelligi gratia unionis, aliqua qualitas ad unionem disponens. Sed aliquid potest disponere ad aliquam perfectionem tripliciter. Uno modo ita quod cadat medium inter subjectum et perfectionem illam, quasi stramentum perfectionis illius, sicut diaphaneitas disponit ad lucem; et hoc modo non potest aliquid naturam disponere ad unionem, quia natura unitur personae immediate quantum ad esse. Alio modo disponit aliquid ad formam, sicut praeparando materiam ad receptionem formae, ita quod praeexistat in materia ante formam ordine fiendi, non ordine essendi: sicut calor disponit ad formam ignis, non quia medium cadit inter formam et materiam, sed materia appropriatur ad formam ignis per adventum caloris; et sic etiam non potest aliquid disponere naturam ad unionem in persona: quia natura humana, secundum id quod est talis natura, assumptibilis est a divina persona. Tertio modo aliquid disponit aliud ad perfectionem aliquam, sicut quod facit ad bonitatem et decentiam perfectionis illius, sicut decor personae facit ad dignitatem regiam, secundum quod dictum est: <quote xml:id="ta-l3d13q3-Qd1e148">species Priami digna est imperio</quote>; et hoc modo gratia unionis potest dici omne illud quod decet naturam humanam Deo unitam sic ex parte corporis, sicut ex parte animae; et sic etiam gratia unionis est quid creatum. Tamen sancti loquentes de gratia unionis, videntur intelligere secundum primum modum, prout gratia dicitur divina voluntas gratis et sine meritis dans: et sic secundum diversas vias, ad argumenta utriusque partis oportet respondere.</p>
+          <p xml:id="ta-l3d13q3-d1e152">Ad primum ergo dicendum, quod gratia creata disponit ad operationem sicut operationis principium; sed ad unionem non quasi principium unionis, sed sicut faciens ad congruentiam unionis.</p>
+          <p xml:id="ta-l3d13q3-d1e155">Ad secundum dicendum, quod unio nostri ad Deum est per gratiam habitualem creatam sicut per causam, et sicut per id in quo est unio: quia in ipsa similitudine gratiae anima Deo conformatur et unitur. Sed si gratia unionis dicatur aliquid creatum, ipsa non est id in quo est unio, cum unio sit in persona, et non solum in aliqua similitudine: neque etiam facit unitatem, sed consequitur unitatem in persona, secundum quod ipsa unio gratia unionis dicitur; vel est id quod naturam unitam decet, si gratia habitualis, gratia unionis dicatur; et ideo non est simile de Christo et de nobis.</p>
+          <p xml:id="ta-l3d13q3-d1e158">Ad tertium dicendum, quod gratia illa habitualis etiam quodammodo redundat in corpus, secundum quod est stramentum animae, ut supra dictum est, qu. 2, art. 2, quaestiunc. 3; unde sicut in corpore perfecto anima rationali manet post mortem ordo ad resurrectionem, et ulterius ad gloriam, si anima quae fuit ejus perfectio, gratiam habuit; ita etiam corpus Christi, inquantum est tali anima perfectum, habet quemdam ordinem ad unionem.</p>
+          <p xml:id="ta-l3d13q3-d1e161">Ad quartum dicendum, quod ratio illa procedit de dispositione secundum medium modum.</p>
+          <p xml:id="ta-l3d13q3-d1e164">Ad quintum dicendum, quod illa ratio procedit secundum primum modum dispositionis, ut per se patet.</p>
+          <p xml:id="ta-l3d13q3-d1e168">Ad sextum dicendum, quod cum dicitur, quod esse Deum convenit filio hominis per gratiam unionis, vel gratia unionis, intelligitur ipsa unio gratis facta, quae non semper fuit, et creata est: vel intelligitur ipsa gratuita Dei voluntas, quae quidem in se semper fuit, sed effectus ejus non semper fuit.</p>
+          <p xml:id="ta-l3d13q3-d1e171">Ad septimum dicendum, quod unio quae est per fruitionem, est unio per operationem; et quia ad operationem perfectam non potest natura humana nisi mediante aliquo habitu; ideo oportet ibi esse aliquam habitualem gratiam, quae sit principium illius unionis; sed unio in persona, est unio ad esse: inter humanam autem naturam, et esse quod habet in persona, non potest cadere medium, quod sit principium illius esse; et ideo non potest ibi esse alia gratia quae sit principium illius unionis, vel sicut disponens, nisi per modum dictum in corp. art.</p>
+          <p xml:id="ta-l3d13q3-d1e174">Ad octavum dicendum, quod hoc quod Deus est in anima Christi, vel in natura assumpta alio modo quam in aliis creaturis, non est per aliquam dispositionem advenientem, sed per ipsum esse personae divinae, quod communicatur naturae humanae.</p>
+          <p xml:id="ta-l3d13q3-d1e177">Ad nonum dicendum, quod spiritus sanctus dicitur dari de novo, non secundum mutationem suam, sed secundum mutationem creaturae, quae est in perceptione doni ipsius; et ita etiam filius Dei dicitur uniri naturae humanae, non per mutationem filii Dei, sed per mutationem humanae naturae, sive exaltationem ipsius non ad aliquod donum creatum, sed ad ipsum esse increatum divinae personae.</p>
+        </div>
+        <div xml:id="ta-l3d13q3-Dd1e181" type="articulus">
+          <head xml:id="ta-l3d13q3-Hd1e183">Articulus 2</head>
+          <head xml:id="ta-l3d13q3-Hd1e186" type="questionTitle">Utrum gratia unionis sit idem quod gratia capitis</head>
+          <div xml:id="ta-l3d13q3-Dd1e189">
+            <head xml:id="ta-l3d13q3-Hd1e191">Quaestiuncula 1</head>
+            <p xml:id="ta-l3d13q3-d1e194">Ad secundum sic proceditur. Videtur quod gratia unionis sit idem quod gratia capitis. Christus enim dicitur caput Ecclesiae, secundum quod de ejus plenitudine omnes accepimus. Sed plenitudo ejus est secundum quod ipse est unigenitus a patre, ut dicitur Joan. 1. Cum igitur unigenitus sit a patre per gratiam unionis, videtur quod gratia unionis sit idem quod gratia capitis.</p>
+            <p xml:id="ta-l3d13q3-d1e197">Praeterea, medium communicat cum extremis. Sed Christus, secundum quod caput est Ecclesiae, medium est inter Deum et homines: quia caput viri Christus, caput Christi Deus. Ergo est caput, secundum quod communicat cum utroque. Sed hoc habet per gratiam unionis, per quam est Deus et homo. Ergo gratia unionis est gratia capitis.</p>
+            <p xml:id="ta-l3d13q3-d1e200">Praeterea, Christus est caput Ecclesiae, secundum quod homines excedit. Sed excedit humanam naturam per gratiam unionis. Ergo est caput per gratiam unionis.</p>
+            <p xml:id="ta-l3d13q3-d1e203">Sed contra, gratia capitis convenit Christo in comparatione ad alios: sed gratia unionis in seipso tantum. Ergo una non est alia.</p>
+            <p xml:id="ta-l3d13q3-d1e207">Praeterea, gratia capitis operata est a constitutione mundi, ex quo homines membra ejus esse coeperunt, non autem gratia unionis. Ergo una non est alia.</p>
+          </div>
+          <div xml:id="ta-l3d13q3-Dd1e211">
+            <head xml:id="ta-l3d13q3-Hd1e213">&gt;Quaestiuncula 2</head>
+            <p xml:id="ta-l3d13q3-d1e216">Ulterius. Videtur quod sit eadem gratia capitis, et gratia singularis ipsius. Quia eadem scientia est qua quis est sciens, et alios docens; et secundum philosophum, eadem per essentiam est virtus qua quis in se perfectus est, et justitia legalis qua perficitur in ordine ad bonum commune. Ergo similiter eodem habitu Christus fuit in seipso perfectus, et in alios perfectionem influens.</p>
+            <p xml:id="ta-l3d13q3-d1e219">Praeterea, gratia est vita animae. Sed unius subjecti est una vita. Ergo et gratia una: et sic idem quod prius.</p>
+            <p xml:id="ta-l3d13q3-d1e222">Praeterea, sicut caput comparatur ad alia membra, ita alia membra ad caput. Sed non distinguitur in membris Christi gratia per quam perficiuntur in se, a gratia secundum quam sunt membra. Ergo nec in Christo debet distingui gratia per quam est caput, a gratia singulari ipsius secundum quam perficitur in se.</p>
+            <p xml:id="ta-l3d13q3-d1e225">Sed contra, sicut per Adam intravit peccatum in mundum; ita per Christum gratia et justitia; Rom. 5. Sed in Adam distinguitur aliud peccatum actuale, quod est singulare ipsius, aliud originale quod transfudit in posteros. Ergo in Christo debet alia et alia gratia distingui.</p>
+            <p xml:id="ta-l3d13q3-d1e229">Praeterea, ad diversos actus diversi habitus ordinantur. Sed alius actus est bene operari, et alius influere. Ergo et alius habitus gratiae; et sic idem quod prius.</p>
+          </div>
+          <div xml:id="ta-l3d13q3-Dd1e233">
+            <head xml:id="ta-l3d13q3-Hd1e235">Quaestiuncula 3</head>
+            <p xml:id="ta-l3d13q3-d1e238">Ulterius. Videtur quod gratia singularis personae praecedat gratiam unionis. Quia gratia singularis personae facit ad congruitatem unionis. Sed anima, quae facit ad congruitatem unionis corporis, prius intelligitur uniri corpori quam ipsa unita ad invicem intelligantur uniri divinae personae. Ergo similiter prius etiam secundum intellectum est gratia singularis in natura humana quam gratia unionis.</p>
+            <p xml:id="ta-l3d13q3-d1e241">Item, videtur quod sit prius gratia capitis. Quia prius consideratur aliquid in se perfectum quam alteri perfectionem largiens. Sed gratia singularis est qua in se perfectus est; gratia autem capitis secundum quam perfectionem alteri largitur. Ergo gratia singularis est prior quam gratia capitis.</p>
+            <p xml:id="ta-l3d13q3-d1e244">Item, videtur quod gratia unionis sit prior quam gratia capitis. Quia ex hoc est caput quod justificat. Sed per fidem incarnationis justificat, ut supra dictum est. Ergo incarnatio praecedit gratiam capitis.</p>
+            <p xml:id="ta-l3d13q3-d1e247">Sed contra, gratia capitis operata est ante incarnationem; non autem gratia unionis, nec gratia singularis personae. Ergo gratia capitis est prior illis duabus.</p>
+            <p xml:id="ta-l3d13q3-d1e251">Item, videtur quod gratia unionis sit prior quam gratia singularis. Quia ex hoc quod fuit unigenitus a patre, fuit plenus gratia et veritate. Sed unigenitus a patre fuit per gratiam unionis. Ergo gratiam singularis personae habuit per gratiam unionis; et sic illa est prior.</p>
+          </div>
+          <div xml:id="ta-l3d13q3-Dd1e256">
+            <head xml:id="ta-l3d13q3-Hd1e258">Quaestiuncula 1</head>
+            <p xml:id="ta-l3d13q3-d1e261">Respondeo dicendum ad primam quaestionem, quod si gratia unionis dicatur gratia habitualis quodammodo disponens ad unionem, sic eadem est per essentiam gratia unionis, capitis, et singularis illius hominis, solum ratione differens: quia inquantum perficiebat animam Christi ad actus meritorios, dicitur gratia illius singularis hominis; inquantum vero tanta erat hujus gratiae copia ut in alios redundare posset, dicitur gratia capitis; inquantum vero gratiam tam plenam decebat inesse assumptae naturae, potest quodammodo dici gratia unionis. Si vero gratia dicatur voluntas Dei gratuita, sic iterum constat quod est una. Aliis autem modis accipiendo gratiam unionis, constat quod per essentiam differt, nisi quatenus intelligitur caput, ut Deus.</p>
+            <p xml:id="ta-l3d13q3-d1e264">Ad primum ergo dicendum, quod quamvis ex hoc quod est unigenitus, habeat plenitudinem capitis, non tamen ipsa unio est illa plenitudo.</p>
+            <p xml:id="ta-l3d13q3-d1e267">Ad secundum dicendum, quod secundum aliam rationem Deus dicitur caput Christi, et Christus viri, ut supra dictum est, qu. 2, art. 1, ad 4; et praeterea ipse, secundum quod est homo, est medium, et sapit naturam extremorum, inquantum est Deo similior aliis hominibus per majorem gratiam quam habet.</p>
+            <p xml:id="ta-l3d13q3-d1e270">Ad tertium dicendum, quod non solum excedit alios homines secundum quod Deus, sed secundum quod pleniorem gratiam creatam omnibus aliis habet.</p>
+          </div>
+          <div xml:id="ta-l3d13q3-Dd1e274">
+            <head xml:id="ta-l3d13q3-Hd1e276">Quaestiuncula 2</head>
+            <p xml:id="ta-l3d13q3-d1e279">Ad secundam quaestionem patet solutio ex dictis.</p>
+            <p xml:id="ta-l3d13q3-d1e282">Et similiter ad duo prima argumenta, quae procedunt de unitate secundum essentiam.</p>
+            <p xml:id="ta-l3d13q3-d1e285">Ad tertium dicendum, quod quamvis gratia membri habeat diversas operationes, non tamen ex hoc quod est membrum, requiritur aliqua abundantior plenitudo; et ideo non distinguitur gratia membri a gratia singulari.</p>
+            <p xml:id="ta-l3d13q3-d1e288">Ad quartum dicendum, quod peccatum actuale Adae fuit causa originalis in ipso et in aliis: et iterum duo illa peccata non sunt respectu ejusdem; sed unum est per se naturae, alterum est per se personae, ut in 2 Lib., dist. 31, qu. 1, art. 1, dictum est. Non sic autem est in proposito: quia neutra gratia est causa alterius, et utraque respicit personam Christi mediante humana natura; et ideo non oportet quod differant per essentiam.</p>
+            <p xml:id="ta-l3d13q3-d1e292">Ad quintum dicendum, quod secundum illos actus cuilibet meruit, et etiam in alios influxit: quia merendo pro aliis satisfecit, et aliis gratiam meruit, secundum quod caput nostrum dicitur.</p>
+          </div>
+          <div xml:id="ta-l3d13q3-Dd1e296">
+            <head xml:id="ta-l3d13q3-Hd1e298">Quaestiuncula 3</head>
+            <p xml:id="ta-l3d13q3-d1e301">Ad tertiam quaestionem dicendum, quod istae tres gratiae Christo attribuuntur secundum diversas ipsius considerationes. Potest enim considerari in se, vel in comparatione ad alios. Si in se consideratur, sic vel inquantum Deus, et sic attribuitur ei gratia unionis; vel inquantum homo, et sic attribuitur ei gratia singularis. Si autem in comparatione ad alios, sic attribuitur ei gratia capitis. Et quia prius consideratur aliquis in se quam in comparatione ad alios, ideo gratia secundum quam est caput, sequitur alias duas gratias. Et quia omnis gratia et perfectio humanitatis ex hoc sibi debetur, quia Deo unitus est homo ille in persona; ideo gratia unionis praecedit, secundum ordinem naturae et intellectus, gratiam singularem; quamvis simul in eodem tempore sint istae tres gratiae.</p>
+            <p xml:id="ta-l3d13q3-d1e304">Ad primum ergo dicendum, quod anima complet rationem humanae naturae; et ideo praeintelligitur unio animae ad carnem, unioni humanae naturae ad deitatem: quia prius est considerare aliquid in se quam alteri unitum: sed gratia nihil facit ad rationem humanae naturae, quia inquantum hujusmodi assumptibilis est; et ideo non est simile.</p>
+            <p xml:id="ta-l3d13q3-d1e307">Secundum et tertium patet.</p>
+            <p xml:id="ta-l3d13q3-d1e310">Ad quartum dicendum, quod etiam in antiquis patribus non operabatur gratia capitis, nisi secundum quod praesupponebatur in fide ipsorum gratia unionis, quia per fidem incarnationis justificabantur.</p>
+            <p xml:id="ta-l3d13q3-d1e314">Quintum patet.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l3d13q3-Dd1e319">
+          <head xml:id="ta-l3d13q3-Hd1e321">Expositio textus</head>
+          <p xml:id="ta-l3d13q3-d1e324"><quote xml:id="ta-l3d13q3-Qd1e325">In sanctis vero quasi solus tactus est</quote>. Hoc videtur esse falsum: quia Origenes super Levit. distinguit quinque sensus spirituales, dicens, quod visus spiritualis est, ut videamus Deum; auditus autem, ut audiamus qui loquitur; odoratus, per quem odoramus bonum odorem Christi; gustus, ut gustemus ejus dulcedinem; tactus, ut palpemus cum Joanne verbum vitae. Haec autem omnia sunt in omnibus sanctis. Ergo non solum habent tactum. Dicendum, quod sensus spirituales possunt distingui per similitudinem ad actus sensuum corporalium; et sic sunt in omnibus sanctis, ut dicit Origenes: vel per similitudinem ad quasdam proprietates sensuum, secundum quod tactus est necessarius, alii autem non: et sic, quia in aliis sanctis sunt omnia quae sunt de necessitate salutis, in Christo autem omnia simpliciter quae pertinent ad perfectionem gratiae; ideo in Christo dicuntur omnes sensus esse, in aliis autem solus tactus. <quote xml:id="ta-l3d13q3-Qd1e328">Quibus datus est spiritus ad mensuram</quote>. Contra: Jac. 1, 5: <quote xml:id="ta-l3d13q3-Qd1e331">qui dat omnibus affluenter</quote>, dicit Glossa: <quote xml:id="ta-l3d13q3-Qd1e334">omnia dat non in mensura: quia dona ejus non sunt ad mensuram</quote>. Et dicendum, quod cum mensura dari, potest accipi vel ex largitate dantis; et sic nulli dat cum mensura, quia omnibus dat ex largitate infinita: vel ex capacitate recipientis; et sic dat cuilibet cum mensura, quia nulli dat ultra quam capax sit, vel secundum rationem dati: et sic Christo non dat cum mensura: quia gratia ejus, quantum ad rationem gratiae, non est limitata; sed aliis dat cum mensura, ut patet ex dictis. <quote xml:id="ta-l3d13q3-Qd1e337">Non secundum essentiam, sed secundum similitudinem</quote>. Contra. Ergo pari ratione Petrus potest dici caput: quia quilibet sanctus est alii similis in gratia. Dicendum, quod sumitur ibi similitudo active, inquantum scilicet Christus sibi alios assimilat in gratia, ut dictum est, quod alii non convenit. <quote xml:id="ta-l3d13q3-Qd1e340">Ut quantum ad visum hominum et sui sensus ostensionem Christus profecisse dicatur</quote>. Videtur quod haec non fuit intentio Ambrosii: quia per hoc nihil probaret: nam sic etiam Dei sapientia proficit, secundum quod se magis ostendit. Dicendum, quod quamvis Dei sapientia magis se quam prius ostendit in aliquibus effectibus: tamen ipsa semper creditur esse aequalis: quod non fuit de sapientia Christi, qui videbatur quandoque sapientior quam prius fuisset. Et ideo dicit duo: <quote xml:id="ta-l3d13q3-Qd1e344">ad visum hominum, et sensus ostensionem</quote>. Tamen utrum aliquo alio modo profecerit in sapientia, in sequenti distinctione dicetur.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

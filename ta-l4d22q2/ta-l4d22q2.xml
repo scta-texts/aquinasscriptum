@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 22, Quaestio 2</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Librum IV, Distinctio 22, Quaestio 2</title>
+          <date when="2016-03-19">March 19, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-19">March 19, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness>1856 editum</witness>
+          <witness xml:id="G" n="ghent567">Ghent, Belgium, Ghent University Library, 567</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="0.0.0-dev">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+
+
+
+
+      <div xml:id="starts-on">
+        <cb ed="#G" n="391b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ta-l4d22q2">
+        <head xml:id="ta-l4d22q2-Hd1e97">Librum IV, Distinctio 22, Quaestio 2</head>
+        <div xml:id="ta-l4d22q2-Dd1e100">
+          <head xml:id="ta-l4d22q2-Hd1e102">Prooemium</head>
+          <p xml:id="ta-l4d22q2-d1e105">Deinde quaeritur de eo quod est res et sacramentum in poenitentia; et circa hoc
+            quaeruntur tria: 1 quid sit ibi res, et quid sacramentum; 2 de unitate hujus sacramenti;
+            3 de institutione ipsius.</p>
+
+        </div>
+        <div xml:id="ta-l4d22q2-Dd1e109" type="articulus">
+          <head xml:id="ta-l4d22q2-Hd1e111">Articulus 1</head>
+
+          <head xml:id="ta-l4d22q2-Hd1e114" type="questionTitle">Utrum exterior poenitentiae sit sacramentale signum</head>
+
+          <div xml:id="ta-l4d22q2-Dd1e117">
+            <head xml:id="ta-l4d22q2-Hd1e119">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d22q2-d1e122">Ad primum sic proceditur. Videtur quod exterior poenitentia non sit sacramentale
+              signum. Signum enim sacramentale, secundum Hugonem, est materiale elementum. Sed
+              poenitentia exterior non est elementum, sed actus. Ergo non est sacramentale
+              signum.</p>
+            <p xml:id="ta-l4d22q2-d1e125">Praeterea, signa sacramentalia novae legis aliquo modo sunt causa gratiae. Si ergo
+              exterior poenitentia est signum sacramentale, erit ergo causa, et sic gratia erit ex
+              actibus nostris; quod est haeresis Pelagiana.</p>
+            <p xml:id="ta-l4d22q2-d1e128">Praeterea, omne sacramentale signum est verbo vitae sanctificatum. Sed exteriori
+              poenitentiae non adhibetur aliqua forma verborum ad sanctificationem ejus. Ergo non
+              est sacramentale signum.</p>
+            <p xml:id="ta-l4d22q2-d1e131">Sed contra, in quolibet sacramento oportet esse aliquod signum. Sed signum est
+              aliquid sensibus apparens. Cum ergo in poenitentiae sacramento nihil appareat extra
+              nisi exterior poenitentia, videtur quod ipsa sit sacramentale signum.</p>
+
+          </div>
+          <div xml:id="ta-l4d22q2-Dd1e135">
+            <head xml:id="ta-l4d22q2-Hd1e137">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d22q2-d1e140">Ulterius. Videtur quod interior poenitentia non sit res hujus sacramenti. Quia res
+              sacramenti nunquam est causa sacramentalis signi, sed e converso quandoque. Sed
+              poenitentia interior est causa exterioris. Ergo non est res ejus.</p>
+            <p xml:id="ta-l4d22q2-d1e143">Praeterea, exterior poenitentia significat interiorem naturaliter. Sed res sacramenti
+              signatur per sacramentum ex institutione, ut ex definitione Hugonis, loc. cit., patet.
+              Ergo poenitentia interior non est res exterioris.</p>
+            <p xml:id="ta-l4d22q2-d1e146">Praeterea, poenitentia interior videtur esse idem quod contritio. Sed contritio non
+              est res hujus sacramenti, cum sit pars hujus sacramenti. Ergo interior poenitentia non
+              est res hujus sacramenti.</p>
+            <p xml:id="ta-l4d22q2-d1e149">Sed contra, Baptismus interior est res exterioris. Ergo eadem ratione et poenitentia
+              interior exterioris.</p>
+            <p xml:id="ta-l4d22q2-d1e153">Praeterea, illud quod immediate causat effectum sacramenti, est res exterioris
+              sacramenti, sicut patet de charactere. Sed poenitentia interior est quae immediate
+              causat remissionem peccatorum, quae est ultima res hujus sacramenti. Ergo et
+              cetera.</p>
+
+          </div>
+          <div xml:id="ta-l4d22q2-Dd1e157">
+            <head xml:id="ta-l4d22q2-Hd1e159">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d22q2-d1e162">Ulterius. Videtur quod remissio peccatorum non sit res hujus sacramenti. Quia ad idem
+              se extendit efficacia sacramenti, et ministerium dispensatoris ipsius. Sed ministerium
+              sacerdotis non se extendit ad remissionem culpae, ut supra, dist. 18, Magister dixit.
+              Ergo remissio culpae non est res hujus sacramenti.</p>
+            <p xml:id="ta-l4d22q2-d1e165">Praeterea, in quolibet sacramento signa exteriora habent aliquam similitudinem cum re
+              sacramenti. Sed confessio, satisfactio et contritio non videntur habere aliquam
+              similitudinem cum remissione peccatorum. Ergo non est res in hoc sacramento.</p>
+            <p xml:id="ta-l4d22q2-d1e168">Praeterea, in Baptismo res sacramenti non semper praecedit sacramentum, etsi
+              aliquando praecedat. Sed remissio peccatorum semper praecedit sacramentum
+              poenitentiae, ad minus quantum ad aliquas sui partes; quia satisfactio non potest esse
+              nisi existentis in gratia, cum jam peccata remissa sunt; a mortuo etiam perit
+              confessio, ut dicitur Eccli. 17. Ergo remissio peccatorum non est res ultima istius
+              sacramenti.</p>
+            <p xml:id="ta-l4d22q2-d1e171">Sed contra, poenitentia dicitur secunda tabula post naufragium, sicut Baptismus
+              prima. Sed Baptismi res ultima est remissio peccatorum. Ergo et poenitentiae.</p>
+            <p xml:id="ta-l4d22q2-d1e175">Praeterea, curatio morbi illius est res in sacramento ad quod curandum institutum
+              est. Sed poenitentia est instituta ad curandum morbum actualis peccati. Ergo remissio
+              ejus est res hujus sacramenti.</p>
+          </div>
+          <div xml:id="ta-l4d22q2-Dd1e180">
+            <head xml:id="ta-l4d22q2-Hd1e182">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d22q2-d1e185">Respondeo dicendum ad primam quaestionem, quod in quolibet sacramento fit quaedam
+              promotio vel motus suscipientis ad aliquam sanctitatem. In motibus autem corporalibus
+              quandoque illud quod movetur non cooperatur ad motum nisi recipiendo impressionem
+              agentis tantum, sicut contingit in generatione, qua aliquid acquirit primam
+              perfectionem sui esse, quae est etiam primum principium activum in ipso; et similiter
+              etiam quando acquirit aliam perfectionem superadditam quae limites suae formae
+              excedit; sicut cum paries depingitur, vel cum aer illuminatur. Quandoque autem
+              perfectio prius suscepta est perficiens principium illius motus; et tunc operatur
+              motum illum, sicut patet in motu naturali locali, et in sanatione quae fit virtute
+              naturae tantum. Quandoque autem perfectio habita non sufficit ad operandum effectum,
+              sed cooperatur agenti exteriori, sicut patet cum ars naturam adjuvat. Et secundum hos
+              tres modos etiam est motus ad sanctitatem. Unde in Baptismo, qui est spiritualis vitae
+              regeneratio, tota sanctificatio ex exteriori est; nec suscipiens sacramentum se habet
+              active ad illam sanctificationem, sed ut recipiens tantum; unde signum sacramentale
+              ibi est materia exterius apposita, non autem aliquis actus ex parte baptizati. Et
+              similiter est in confirmatione, Eucharistia, et extrema unctione, et ordine, quae
+              ordinantur ad aliquam sanctitatem superadditam primae sanctitati in Baptismo
+              susceptae; unde etiam conservata gratia baptismali illa locum haberent. Sed in
+              promotione ad sanctitatem per viam merendi sufficit principium quod intus habetur,
+              scilicet gratia; et ideo sine aliquo exteriori adjuncto ad hanc promotionem habens
+              gratiam per actus suos pertingit, quia in eo spiritualis vita est integra. Sed in eo
+              qui post Baptismum mortaliter peccat, spiritualis vitae firmitas tollitur, quia gratia
+              et caritas tolluntur; sed tamen adhuc spiritualis vita manet in radice sui, scilicet
+              in fidei sacramento; sicut in eo qui infirmatur perniciose, adhuc manet radix vitae in
+              corde; et ideo ad reparationem pristinae integritatis in Baptismo susceptae homo
+              cooperari potest per id quod adhuc retinet. Nec tamen sufficit, nisi exterius
+              adjuvetur; propterea quod vita spiritualis non est integra; et ideo in sacramento
+              poenitentiae, quod ad praedictam reparationem ordinatur, sacramentale signum non est
+              aliqua materia exterius apposita, sed exteriores actus quibus homo ad salutem suam
+              cooperatur; et complementum reparationis ab extrinseco significatur per absolutionem
+              sacerdotis, sicut materia in aliis sacramentis per ministri sanctificationem
+              efficaciam sacramentalem recipit; et ideo exterior poenitentia est sacramentale signum
+              in sacramento poenitentiae.</p>
+            <p xml:id="ta-l4d22q2-d1e188">Ad primum ergo dicendum, quod elementum large sumitur pro quolibet sensibili:
+              exterior autem poenitentia consistit in actibus qui sentiri possunt.</p>
+            <p xml:id="ta-l4d22q2-d1e191">Ad secundum dicendum, quod materia quae est in aliis sacramentis signum sacramentale,
+              inquantum ab exteriori datur, repraesentat exterius agens in sanctificatione; et ideo
+              aliquo modo competit ut gratiam causet, sicut in 1 distinct. dictum est. Sed
+              poenitentia exterior, quae est signum sacramentale in hoc sacramento, repraesentat
+              cooperationem recipientis, et non influentiam quae est ex parte agentis extrinseci; et
+              ideo non competit ei quod gratiam aliquo modo causet.</p>
+            <p xml:id="ta-l4d22q2-d1e194">Ad tertium dicendum, quod sacramentalibus signis in aliis sacramentis adhibetur forma
+              verborum ad eorum sanctificationem, quia gratiam continent et causant; sed exterior
+              poenitentia est signum gratiam causans; et ideo non oportet quod sanctificetur per
+              aliquam formam verborum; sed verba quae a sacerdote absolvente proferuntur, immediate
+              feruntur ad eum qui se subjicit sacramento; unde ipse sanctificatur virtute
+              absolutionis, et gratiam suscipit: non autem sanctificatur ejus confessio, ut ex ea
+              gratiam accipiat, sicut erat in Baptismo de sanctificatione aquae.</p>
+
+          </div>
+          <div xml:id="ta-l4d22q2-Dd1e198">
+            <head xml:id="ta-l4d22q2-Hd1e200">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d22q2-d1e203">Ad secundam quaestionem dicendum, quod res sacramenti cujuslibet suo sacramento,
+              cujus dicitur res, proportionatur. Exterior autem poenitentia, quae est sacramentum
+              tantum in poenitentia, est sacramentum ut signum tantum ex parte actus poenitentis,
+              sed ut signum et causa simul, si conjungatur actus poenitentis cum actu ministri; et
+              ideo interior poenitentia est res exterioris poenitentiae, sed ut significata tantum
+              per actus poenitentis; ut significata autem et causata per actus eosdem, adjuncta
+              absolutione ministri, per quam aliquo modo homo ad gratiam disponitur; sicut etiam in
+              sacramento Eucharistiae corpus Christi verum est res significata tantum per species
+              panis et vini, sed causata per verba ministri; et illa duo simul conjuncta sunt signum
+              et causa.</p>
+            <p xml:id="ta-l4d22q2-d1e206">Ad primum ergo dicendum, quod poenitentia interior potest considerari dupliciter. Uno
+              modo prout est quidam actus virtutis; et sic interior poenitentia est omnino causa
+              exterioris; sicut etiam in aliis virtutibus actus interiores sunt causae exteriorum.
+              Alio modo prout est actus operans ad sanationem peccati; et sic pertinet ad
+              poenitentiae sacramentum; et ita interior poenitentia non est causa exterioris, sed
+              effectus vel signatum ipsius: non enim habet efficaciam operandi contra morbum
+              peccati, nisi ex suppositione propositi exterioris poenitentiae et absolutionis
+              desiderio; quamvis poenitentia interior contra morbum peccati operans praecedat
+              tempore exteriorem poenitentiam, sicut justificatio a peccato interdum praecedit
+              sacramentum Baptismi propter ipsius propositum.</p>
+            <p xml:id="ta-l4d22q2-d1e209">Ad secundum dicendum, quod quamvis poenitentia interior, ut est actus quidam
+              virtutis, naturaliter significetur per exteriorem, tamen inquantum est sanativus
+              morbi, sic ex institutione habet per haec signa causari et significari.</p>
+            <p xml:id="ta-l4d22q2-d1e212">Ad tertium dicendum, quod tres partes poenitentiae sunt et in poenitentia exteriori,
+              et in interiori: quia confessio et satisfactio, quae videntur tantum ad exteriorem
+              poenitentiam pertinere, inveniuntur in interiori poenitentia quantum ad propositum et
+              praemeditationem eorum; et etiam contritio, quae videtur tantum interioris
+              poenitentiae esse, invenitur in poenitentia exteriori secundum quaedam signa, quibus
+              sensibiliter manifestatur, vel aliis, vel saltem ipsi poenitenti, qui dolorem
+              sensibilem percipit in seipso.</p>
+
+          </div>
+          <div xml:id="ta-l4d22q2-Dd1e216">
+            <head xml:id="ta-l4d22q2-Hd1e218">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d22q2-d1e221">Ad tertiam quaestionem dicendum, quod res sacramenti alicujus ultima est non tantum
+              quam efficit actualiter dispensatum, sed etiam quam efficit in proposito existens,
+              sicut patet de Baptismo in adultis; et ideo cum poenitentia in proposito existens
+              sacramentum, efficiat remissionem peccatorum non solum quo ad poenam, sed etiam quo ad
+              culpam; remissio peccatorum utroque modo est res ipsius poenitentiae sacramenti: quae
+              aliquando tempore praecedit sacramentum exterius, aliquando autem in ipso sacramento
+              efficitur: quia quando aliquis accedit ad confessionem attritus, non plene contritus,
+              si obicem non ponat, in ipsa confessione et absolutione, sibi gratia et remissio
+              peccatorum datur. Unde dicit Glossa super illud Psal. 95: <quote xml:id="ta-l4d22q2-Qd1e223">confessio et
+                pulchritudo in conspectu ejus: si amas pulchritudinem, confitere, ut sis
+                pulcher</quote>, idest rectus.</p>
+            <p xml:id="ta-l4d22q2-d1e227">Ad primum ergo dicendum, quod etiam potestas clavium aliquo modo se extendit ad
+              remissionem culpae, secundum quod est in proposito, ut supra, dist. 17, quaest. 3,
+              art. 5, quaestiunc. 1, in corp., dictum est.</p>
+            <p xml:id="ta-l4d22q2-d1e230">Ad secundum dicendum, quod remissio peccatorum habet aliquam similitudinem cum his
+              quae in poenitentia aguntur: quia gratiae infusio, quae remissionem peccati causat,
+              significatur per absolutionem sacerdotis; praeparatio ad gratiam quantum ad motum
+              liberi arbitrii in peccatum, per contritionem; quantum vero ad motum liberi arbitrii
+              in Deum, per confessionem, per quam Deo se committit sanandum; sed curatio reliquiarum
+              peccati per satisfactionem et significatur et efficitur.</p>
+            <p xml:id="ta-l4d22q2-d1e233">Ad tertium dicendum, quod aliquando remissio peccatorum in ipsa confessione et
+              absolutione fit, ut dictum est, et tunc non praecedit res sacramentum.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d22q2-Dd1e238" type="articulus">
+          <head xml:id="ta-l4d22q2-Hd1e240">Articulus 2</head>
+
+          <head xml:id="ta-l4d22q2-Hd1e243" type="questionTitle">Utrum poenitentia sit unum sacramentum</head>
+
+          <div xml:id="ta-l4d22q2-Dd1e246">
+            <head xml:id="ta-l4d22q2-Hd1e248">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d22q2-d1e251">Ad secundum sic proceditur. Videtur quod poenitentia non sit unum sacramentum.
+              Sacramentum enim est in genere signi. Sed sunt plura signa in poenitentia, scilicet
+              confessio et satisfactio. Ergo plura sacramenta.</p>
+            <p xml:id="ta-l4d22q2-d1e254">Praeterea, diversorum agentium diversi sunt actus. Sed ad confessionem concurrit
+              actus poenitentis, qui conteritur et confitetur et satisfacit, et actus sacerdotis qui
+              absolvit. Cum ergo poenitentia in actu consistat, videtur quod non sit unum, sed
+              multa.</p>
+            <p xml:id="ta-l4d22q2-d1e257">Praeterea, genus non praedicatur in singulari de suis pluribus speciebus, sed in
+              plurali. Sed supra, dist. 15, sunt assignatae tres species poenitentiae, scilicet
+              poenitentia ante Baptismum, et poenitentia post Baptismum de venialibus, et
+              poenitentia de mortalibus. Ergo praedictae species poenitentiae sunt plura, et non
+              unum sacramentum.</p>
+            <p xml:id="ta-l4d22q2-d1e260">Sed contra, sacramenta sunt tantum septem. Sed si poenitentia esset plura sacramenta,
+              essent plura sacramenta quam septem. Ergo est unum tantum sacramentum.</p>
+            <p xml:id="ta-l4d22q2-d1e264">Praeterea, ex unitate effectus colligitur unitas causae. Sed poenitentia ordinatur ad
+              unum effectum, scilicet remissionem peccati actualis. Ergo est unum tantum
+              sacramentum.</p>
+
+          </div>
+          <div xml:id="ta-l4d22q2-Dd1e268">
+            <head xml:id="ta-l4d22q2-Hd1e270">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d22q2-d1e273">Ulterius. Videtur quod hoc sacramentum magis consistat in his quae geruntur a
+              sacerdote quam in his quae geruntur a poenitente. Quia sacramentum dicitur a sacrando,
+              ut supra dictum est. Sed consecrare sacerdotis est, qui ex hoc sacerdos dicitur quod
+              sacra dat. Ergo hoc sacramentum magis consistit in absolutione sacerdotis quam in actu
+              poenitentis.</p>
+            <p xml:id="ta-l4d22q2-d1e276">Praeterea, quicumque accedit ad sacramentum, dicitur sacramentum suscipere. Sed
+              poenitens non dicitur suscipere confessionem, sed absolutionem. Ergo magis consistit
+              sacramentum in absolutione quam in confessione.</p>
+            <p xml:id="ta-l4d22q2-d1e279">Sed contra, totum est congregatio partium. Sed partes poenitentiae sunt acceptae ex
+              parte poenitentis, scilicet contritio, confessio et satisfactio. Ergo sacramentum
+              poenitentiae magis consistit in actu poenitentis quam in sacerdotis absolutione.</p>
+
+          </div>
+          <div xml:id="ta-l4d22q2-Dd1e283">
+            <head xml:id="ta-l4d22q2-Hd1e285">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d22q2-d1e288">Ulterius. Videtur quod verba sacerdotis absolventis debeant esse per modum
+              deprecationis. Quia Leo Papa dicit quod indulgentia Dei nisi supplicationibus
+              sacerdotum nequit obtineri; et loquitur de absolutione per sacerdotes facta. Ergo
+              absolutio debet fieri per modum deprecationis.</p>
+            <p xml:id="ta-l4d22q2-d1e291">Praeterea, solus Deus remittit peccata. Sed poenitentia est ad remissionem peccatorum
+              ordinata. Ergo absolutio, ex qua poenitentia efficaciam habet, debet fieri per modum
+              orationis ad Deum.</p>
+            <p xml:id="ta-l4d22q2-d1e294">Sed contra est quod poenitentia habet certum effectum, sicut et alia sacramenta. Sed
+              propter certitudinem effectus in aliis sacramentis utimur verbis indicativis. Ergo
+              similiter debet esse in poenitentia.</p>
+          </div>
+          <div xml:id="ta-l4d22q2-Dd1e299">
+            <head xml:id="ta-l4d22q2-Hd1e301">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d22q2-d1e304">Respondeo dicendum ad primam quaestionem, quod quando aliquis effectus procedit ex
+              multis causis simul aggregatis, tunc nulla earum est causa per se, sed omnes sunt una
+              causa, sicut patet de trahentibus navem. Unde cum effectus poenitentiae non sequatur
+              nisi aliquo modo existentibus omnibus quae ad poenitentiam requiruntur, omnia illa
+              habent rationem unius causae respectu illius effectus. Et quia sacramenta efficiunt
+              significando, ideo omnia etiam habent rationem unius signi, dum unumquodque incomplete
+              significat illum effectum; et propter hoc omnia sunt unum sacramentum.</p>
+            <p xml:id="ta-l4d22q2-d1e307">Ad primum ergo dicendum, quod non repraesentatur sufficienter effectus poenitentiae
+              per quodlibet illorum plurium, sed per omnia simul; et ideo omnia sunt unum
+              signum.</p>
+            <p xml:id="ta-l4d22q2-d1e310">Ad secundum dicendum, quod actus poenitentis, ut dictum est, sunt materia hujus
+              sacramenti, sicut materiale elementum in aliis; unde sicut ex materia et forma in
+              aliis sacramentis efficitur unum sacramentum; ita hic ex actu poenitentis, et
+              absolutione sacerdotis.</p>
+            <p xml:id="ta-l4d22q2-d1e313">Ad tertium dicendum, quod poenitentia ante Baptismum non est sacramentum. De
+              mortalibus autem et venialibus poenitentia post Baptismum est sacramentum, non duo,
+              sed unum: quia principaliter ordinatur hoc sacramentum ad mortale, et per consequens
+              ad veniale.</p>
+
+          </div>
+          <div xml:id="ta-l4d22q2-Dd1e317">
+            <head xml:id="ta-l4d22q2-Hd1e319">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d22q2-d1e322">Ad secundam quaestionem dicendum, quod in sacramentis in quibus est materia et forma,
+              significatio est ex parte materiae principaliter, sed efficacia ex parte formae; et
+              ideo cum actus poenitentis in hoc sacramento sint sicut materia, et absolutio
+              sacerdotis sicut forma; principaliter hoc sacramentum quantum ad rationem significandi
+              consistit in actu poenitentis; sed quantum ad efficaciam, in absolutione
+              sacerdotis.</p>
+            <p xml:id="ta-l4d22q2-d1e325">Et per hoc patet solutio ad primum.</p>
+            <p xml:id="ta-l4d22q2-d1e328">Ad secundum dicendum, quod illud quod est materia in aliis sacramentis, est elementum
+              exterius exhibitum; hic autem quod est loco materiae et signi, est actus ex interiori
+              procedens; et ideo non est simile quantum ad susceptionem in hoc sacramento et in
+              aliis.</p>
+            <p xml:id="ta-l4d22q2-d1e331">Ad tertium dicendum, quod in Baptismo multiplicatio non fit ex parte formae, sed ex
+              parte materialis in Baptismo, scilicet immersionis; et ita etiam partes poenitentiae
+              assignantur ex parte poenitentis magis quam ex parte absolventis; et sicut prolatio
+              formae non dividitur contra tres immersiones, ita absolutio sacerdotis non ponitur
+              pars contra tres alias partes poenitentiae.</p>
+
+          </div>
+          <div xml:id="ta-l4d22q2-Dd1e335">
+            <head xml:id="ta-l4d22q2-Hd1e337">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d22q2-d1e340">Ad tertiam quaestionem dicendum, quod quaedam sacramenta sunt, in quibus ex
+              administratione sacramenti semper consequitur aliquis effectus in suscipiente, nec
+              impeditur propter indispositionem voluntatis suscipientis, sicut est in omnibus
+              sacramentis quae imprimunt characterem; et ideo in illis verba propter certitudinem
+              exprimunt praesentialiter effectum sacramenti, vel per modum indicativum, sicut in
+              Baptismo et confirmatione, vel per modum imperativum, sicut in ordine. In poenitentia
+              autem impeditur omnis effectus absolutionis per indispositionem voluntatis: et tamen
+              ipsa absolutio, quantum est de se, sufficienter et certitudinaliter inducit effectum
+              suum, nisi sit aliquod impedimentum; et ideo absolutio per modum indicativum fit, sed
+              praemittitur deprecatio, scilicet misereatur, ut effectus absolutionis non impediatur.
+              Tamen non est de esse sacramenti, sed de bene esse ipsius.</p>
+            <p xml:id="ta-l4d22q2-d1e343">Et per hoc patet solutio ad objecta.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d22q2-Dd1e348" type="articulus">
+          <head xml:id="ta-l4d22q2-Hd1e350">Articulus 3</head>
+
+          <head xml:id="ta-l4d22q2-Hd1e353" type="questionTitle">Utrum sacramentum poenitentiae habeat institutionem</head>
+
+          <div xml:id="ta-l4d22q2-Dd1e356">
+            <head xml:id="ta-l4d22q2-Hd1e358">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d22q2-d1e361">Ad tertium sic proceditur. Videtur quod sacramentum poenitentiae non habeat
+              institutionem. Quia illud quod est de jure naturali, non indiget institutione. Sed de
+              dictamine juris naturalis est quod homo poeniteat de malefactis. Ergo non debet habere
+              institutionem.</p>
+            <p xml:id="ta-l4d22q2-d1e364">Praeterea, poenitentia eadem est quae est sacramentum et virtus. Sed poenitentiae
+              virtus non habet institutionem, sicut nec aliae virtutes. Ergo nec poenitentiae
+              sacramentum.</p>
+            <p xml:id="ta-l4d22q2-d1e367">Sed contra est quod institutio ponitur in definitione sacramenti ab Hugone data, ut
+              supra, 1 dist., patuit.</p>
+
+          </div>
+          <div xml:id="ta-l4d22q2-Dd1e371">
+            <head xml:id="ta-l4d22q2-Hd1e373">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d22q2-d1e376">Ulterius. Videtur quod ante Christum fuerit hoc sacramentum institutum. Poena enim
+              gehennalis praeparata est peccatoribus ante peccatum, ut patet per hoc quod dicitur
+              Isa. 30, 33: <quote xml:id="ta-l4d22q2-Qd1e378">praeparata est ab heri Topheth</quote>: idest, ab initio
+              praeparata est poena praedicta impiis. Sed Deus est pronior ad miserendum quam ad
+              puniendum. Ergo etiam ante peccatum praeparatum est remedium contra peccatum, quod est
+              poenitentia; et sic ante Christum poenitentia est instituta.</p>
+            <p xml:id="ta-l4d22q2-d1e382">Praeterea, dominus sacramentum Eucharistiae instituit conficiendo. Ergo poenitentiae
+              sacramentum similiter instituit poenam imponendo. Sed statim post peccatum in lege
+              naturae poenam peccato imposuit, ut patet Genes. 3. Ergo in lege naturae ante Christi
+              adventum sacramentum poenitentiae fuit institutum.</p>
+            <p xml:id="ta-l4d22q2-d1e385">Praeterea, partes poenitentiae sacramenti sunt contritio et confessio et satisfactio.
+              Sed ante Christum tempore legis Moysi praecipitur contritio, Joel 2, 13:
+                <quote xml:id="ta-l4d22q2-Qd1e387">scindite corda vestra</quote>, et confessio, Proverb. 28, 13: <quote xml:id="ta-l4d22q2-Qd1e390">qui
+                abscondit scelera sua, non dirigetur; qui confessus fuerit, et reliquerit ea,
+                misericordiam consequetur</quote>; et satisfactio Lev. 4 et 5, ubi praecipitur quid
+              pro quolibet peccato offerendum sit. Ergo poenitentiae sacramentum institutum fuit
+              ante Christi adventum.</p>
+            <p xml:id="ta-l4d22q2-d1e394">Sed contra, poenitentia est sacramentum perfectionis: quia per eam consequimur
+              remissionem peccatorum. Sed ante Christi adventum non erant aliqua sacramenta
+              perfectionis: quia <quote xml:id="ta-l4d22q2-Qd1e396" ana="#hebr7_19">neminem ad perfectum adduxit lex</quote>; Hebr. 7, 19. Ergo
+              poenitentiae sacramentum non fuit ante adventum Christi institutum.</p>
+            <p xml:id="ta-l4d22q2-d1e401">Praeterea, sacramentum poenitentiae efficaciam habet ex clavibus Ecclesiae. Sed
+              claves non fuerunt ante adventum Christi. Ergo nec poenitentiae sacramentum.</p>
+
+          </div>
+          <div xml:id="ta-l4d22q2-Dd1e405">
+            <head xml:id="ta-l4d22q2-Hd1e407">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d22q2-d1e410">Ulterius. Videtur quod non sit institutum in nova lege post Christi adventum. Quia
+              lex nova est lex remissionis et gratiae. Sed poenitentia est sacramentum punitionis:
+              quia est vindicta quaedam, ut Augustinus dicit. Ergo non debuit nova lege
+              institui.</p>
+            <p xml:id="ta-l4d22q2-d1e413">Praeterea, institutio sacramentorum cum pertineat ad potestatem excellentiae, soli
+              Christo competit. Sed Christus non legitur instituisse hoc sacramentum: non enim
+              potest dici quod instituerit ubi dicit Matth. 3, 2: <quote xml:id="ta-l4d22q2-Qd1e415" ana="#mt3_2">poenitentiam agite</quote>;
+              quia eadem ratione Joannes instituisset, qui prius hoc praedicavit; et etiam nondum
+              erant claves Ecclesiae, quae efficaciam sacramento isti praebent: nec iterum potest
+              dici quod instituerit quando misit leprosos ad sacerdotes: quia dispensatio hujus
+              sacramenti non pertinet ad sacerdotes legales, ad quos leprosi missi fuerunt. Ergo hoc
+              sacramentum non est in nova lege institutum.</p>
+            <p xml:id="ta-l4d22q2-d1e419">Praeterea, sacramento Eucharistiae, quod Christus instituit, ipse etiam est usus. Sed
+              nunquam legitur usus hoc sacramento, quia Joan. 8, peccatum adulterae remisit sine hoc
+              sacramento, quia poenam satisfactoriam non injunxit. Ergo ipse non instituit.</p>
+            <p xml:id="ta-l4d22q2-d1e422">Sed contra, poenitentia est sacramentum novae legis. Sed sacramenta alicujus legis in
+              illa lege habent institutionem. Ergo in nova lege est institutum.</p>
+          </div>
+          <div xml:id="ta-l4d22q2-Dd1e427">
+            <head xml:id="ta-l4d22q2-Hd1e429">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d22q2-d1e432">Respondeo dicendum ad primam quaestionem, quod sacramentum poenitentiae consistit in
+              determinato modo agendi poenitentiam: qui quidem modus non est similiter apud omnes,
+              nec in omni tempore; et ideo obligatio ad illum modum est ex aliqua institutione: et
+              propter hoc, sacramentum poenitentiae institutionem habet.</p>
+            <p xml:id="ta-l4d22q2-d1e435">Ad primum ergo dicendum, quod lex naturalis dictat homini quod sit poenitendum; sed
+              modus talis poenitentiam agendi qui observatur in sacramento poenitentiae, non est ex
+              legis naturalis dictamine, sed ex institutione.</p>
+            <p xml:id="ta-l4d22q2-d1e438">Ad secundum dicendum, quod poenitentia est virtus quantum ad hoc quod est de
+              dictamine legis naturalis: et ideo non habet institutionem inquantum est virtus, sed
+              quantum ad modum determinatum ex quo habet quod sit sacramentum; et utrumque in una
+              poenitentia invenitur; et ideo eadem poenitentia est sacramentum et virtus, et quantum
+              ad aliquid de jure naturali, et quantum ad aliquid ex institutione.</p>
+
+          </div>
+          <div xml:id="ta-l4d22q2-Dd1e442">
+            <head xml:id="ta-l4d22q2-Hd1e444">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d22q2-d1e447">Ad secundam quaestionem dicendum, quod quando variatur aliquid quod est de essentia
+              rei, non est eadem res numero; unde cum determinatus modus qui in Ecclesia a
+              poenitentibus observatur, sit de essentia hujus sacramenti; hoc sacramentum non fuit
+              antequam iste modus poenitendi esset. Et quia iste modus non fuit ante Christi
+              adventum, ideo nec sacramentum poenitentiae antea fuisse debet dici; quamvis esset
+              aliquid simile etiam ante Christi adventum, et aliquis modus poenitentiam agendi. Et
+              in lege quidem Moysi erat determinatus modus; sed alius quam modo sit; tempore autem
+              legis naturae non erat aliquis modus determinatus; sed quilibet, secundum quod sibi
+              veniebat in cor, modum poenitendi sibi determinabat: quia sacramenta omnia illius
+              temporis voto celebrabantur, secundum Hugonem; et sic poenitentia est sacramentum et
+              veteris legis, et novae legis, et legis naturae; et inquantum est sacramentum novae
+              legis, non fuit ante Christi adventum institutum; inquantum fuit legis naturae, non
+              fuit determinate institutum, sed admonitus fuit homo ut sibi determinaret aliquem
+              poenitendi modum: quae quidem admonitio esse non debuit ante culpam, post quam magis
+              medicinae necessitas cognoscitur; et sic poenitentia, etsi non inquantum est
+              sacramentum novae legis, tamen aliquo modo fuit instituta ante Christi adventum; sed
+              nullo modo ante peccatum.</p>
+            <p xml:id="ta-l4d22q2-d1e450">Ad primum ergo dicendum, quod sacramentum etiam poenitentiae praeparatum erat in Dei
+              praevisione ante peccatum, sed non institutione; sicut et poena Inferni non erat
+              ordinata ad hominis poenam ante peccatum, sed in Dei praevisione; sed ad poenam
+              Daemonis, qui jam peccaverat, erat etiam actu ordinata.</p>
+            <p xml:id="ta-l4d22q2-d1e453">Ad secundum dicendum, quod illa impositio poenae non fuit poenitentiae sacramenti,
+              sed magis actus vindicativae justitiae, cum ad poenitentiam admonuit, ubi dixit:
+                <quote xml:id="ta-l4d22q2-Qd1e455">Adam ubi es?</quote> Ubi secundum Glossam inducitur ad recognitionem
+              peccati.</p>
+            <p xml:id="ta-l4d22q2-d1e459">Ad tertium dicendum, quod in lege Moysi erat aliqua confessio: quia in generali
+              profitebatur peccatum suum oblationem in lege faciens pro peccato statutam, non autem
+              in speciali, sicut est in nova lege: nec iterum fiebat sacerdoti habenti claves, quae
+              confessio est sacramentalis: nec satisfactio erat secundum arbitrium talis sacerdotis:
+              nec contritio cum proposito talis confessionis et satisfactionis; et ideo aliqua
+              poenitentia erat tunc, sed non quae nunc est sacramentum.</p>
+
+          </div>
+          <div xml:id="ta-l4d22q2-Dd1e463">
+            <head xml:id="ta-l4d22q2-Hd1e465">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d22q2-d1e468">Ad tertiam quaestionem dicendum, quod poenitentia in diversis locis est a Deo
+              instituta quantum ad diversa. Quantum enim ad utilitatem est instituta Matth. 3, 2,
+              ubi dicit: <quote xml:id="ta-l4d22q2-Qd1e470">poenitentiam agite</quote>: unde sequitur: <quote xml:id="ta-l4d22q2-Qd1e473">appropinquabit
+                enim regnum caelorum</quote>; sed quantum ad necessitatem, ubi dixit Luc. 13, 5:
+                <quote xml:id="ta-l4d22q2-Qd1e476">nisi poenitentiam egeritis, omnes simul peribitis</quote>; sed quantum ad
+              potestatem clavium Matth. 16, 19, ubi dixit Petro: <quote xml:id="ta-l4d22q2-Qd1e479" ana="#mt16_19">quodcumque ligaveris super
+                terram, erit ligatum et in caelis; et quodcumque solveris super terram, erit solutum
+                et in caelis</quote>; et Joan. 20, 23, ubi dixit omnibus: <quote xml:id="ta-l4d22q2-Qd1e482">quorum remiseritis
+                peccata, remittuntur eis</quote>; sed postea Jacobus expressit aliquid de
+              poenitentiae modo, Jacobi 5, 16, ubi dixit: <quote xml:id="ta-l4d22q2-Qd1e486">confitemini alterutrum peccata
+                vestra</quote>.</p>
+            <p xml:id="ta-l4d22q2-d1e490">Ad primum ergo dicendum, quod poena quae assumitur in poenitentia, est quasi nihil
+              respectu poenae quae dimittitur; et ideo poenitentia est magis remissionis sacramentum
+              quam punitionis.</p>
+            <p xml:id="ta-l4d22q2-d1e493">Ad secundum dicendum, quod dominus prius instituit Matth. 3, poenitentiae
+              sacramentum, ut dictum est, cum dixit: <quote xml:id="ta-l4d22q2-Qd1e495">poenitentiam agite</quote>. Non est enim
+              idem poenitere et poenitentiam agere: quia agere poenitentiam est exterius
+              poenitentiam interiorem demonstrare. Nec Joannes instituit, quamvis similiter
+              praedicasset: quia Joannes praedicavit ut praeco regis; Christus ut rex, et legifer
+              noster, cujus erat sermo potestatem habens, ut dicitur Matth. 7. Sed ubi ad sacerdotes
+              remisit, non instituit, sed praefiguravit sacramentum poenitentiae.</p>
+            <p xml:id="ta-l4d22q2-d1e499">Ad tertium dicendum, quod Christus nullo sacramento usus est, nisi sibi assumendo, ut
+              exemplum aliis daret; unde etiam ipse non baptizabat, sed discipuli ejus, ut dicitur
+              Joan. 3; et ideo quia poenitentiae usus quantum ad ipsum non competebat ei qui
+              peccatum non fecit, ideo nec quantum ad alios eo usus est; sed sicut sacramentorum
+              dominus effectum sacramenti sine sacramentalibus praebebat.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d22q2-Dd1e505">
+          <head xml:id="ta-l4d22q2-Hd1e507">Expositio textus</head>
+          <p xml:id="ta-l4d22q2-d1e510"><quote xml:id="ta-l4d22q2-Qd1e511">Revocabit sententiam</quote> etc.: hoc intelligendum est quantum ad ultimum
+            misericordiae effectum, qui est vita aeterna. <quote xml:id="ta-l4d22q2-Qd1e514">Sed originalia</quote>, pluraliter
+            dicit propter hoc quod ad diversa peccata actualia inclinat, ut in 2 Lib., dist. 35,
+            dictum est. <quote xml:id="ta-l4d22q2-Qd1e517">Sed ut satisfecit digne et sufficienter</quote>: verum est, si
+            intelligatur de sufficientia respectu consecutionis gloriae; alias falsum est: et
+            procedit hic secundum errorem qui in 14 dist., quaest. 1, art. 4, quaestiunc. 1,
+            improbatus est, ut scilicet non cadat aliquis, si vera sit. <quote xml:id="ta-l4d22q2-Qd1e520">Et ita reus
+              constituitur</quote>: ly <quote xml:id="ta-l4d22q2-Qd1e523">ita</quote> non dicit aequalitatem, sed
+            similitudinem.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

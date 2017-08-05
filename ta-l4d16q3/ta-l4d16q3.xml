@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 16, Quaestio 13</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Librum IV, Distinctio 16, Quaestio 13</title>
+          <date when="2016-03-19">March 19, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-19">March 19, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness>1856 editum</witness>
+          <witness xml:id="G" n="ghent567">Ghent, Belgium, Ghent University Library, 567</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="0.0.0-dev">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+
+
+
+
+      <div xml:id="starts-on">
+        <cb ed="#G" n="285b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ta-l4d16q3">
+        <head xml:id="ta-l4d16q3-Hd1e97">Librum IV, Distinctio 16, Quaestio 13</head>
+        <div xml:id="ta-l4d16q3-Dd1e100">
+          <head xml:id="ta-l4d16q3-Hd1e102">Prooemium</head>
+          <p xml:id="ta-l4d16q3-d1e105">Deinde quaeritur de circumstantiis peccati: et circa hoc quaeruntur duo: 1 de ipsis
+            circumstantiis secundum se; 2 qualiter se habeant ad peccatum.</p>
+
+        </div>
+        <div xml:id="ta-l4d16q3-Dd1e109" type="articulus">
+          <head xml:id="ta-l4d16q3-Hd1e111">Articulus 1</head>
+
+          <head xml:id="ta-l4d16q3-Hd1e114" type="questionTitle">Utrum circumstantia sit proprietas moralis actus sive ejus
+            conditio</head>
+
+          <div xml:id="ta-l4d16q3-Dd1e117">
+            <head xml:id="ta-l4d16q3-Hd1e119">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d16q3-d1e122">Ad primum sic proceditur. Videtur quod circumstantia non sit proprietas moralis
+              actus, sive ejus conditio. Dicit enim Boetius in 4 Topicor., quod circumstantiae sunt
+              quae convenientes substantiam rhetoricae quaestionis efficiunt. Sed quaestio rhetorica
+              non pertinet ad genus morale, sed magis ad genus philosophiae rationalis. Ergo
+              circumstantia non est conditio moralis actus.</p>
+            <p xml:id="ta-l4d16q3-d1e125">Praeterea, illud quod est circa aliquid, non est in eo. Sed conditio actus moralis in
+              ipso est. Ergo non potest talis conditio circumstantia dici.</p>
+            <p xml:id="ta-l4d16q3-d1e128">Praeterea, ipsi actus morales sunt circumstantiae quaedam, a quibus confirmatur
+              oratio rhetoris: est enim circumstantia, secundum Tullium, per quam recipit
+              argumentatio fidem et auctoritatem, et firmamentum adjungit oratio. Sed circumstantiae
+              non est circumstantia, sicut nec accidentis accidens; alias in infinitum iretur. Ergo
+              circumstantia non est conditio vel proprietas moralis actus.</p>
+            <p xml:id="ta-l4d16q3-d1e131">Sed contra, ignorantia circumstantiae excusat moralem actum a peccato. Sed hoc non
+              esset, nisi essent moralis actus conditiones. Ergo sunt conditiones vel proprietates
+              moralis actus.</p>
+            <p xml:id="ta-l4d16q3-d1e135">Praeterea, medium virtutis ad morale genus pertinet. Sed medium in virtutibus
+              moralibus accipitur secundum circumstantiarum debitam limitationem, ut quando oportet,
+              et ubi, et quomodo, sicut philosophus 3 Ethic. docet. Ergo sunt conditiones
+              morales.</p>
+
+          </div>
+          <div xml:id="ta-l4d16q3-Dd1e139">
+            <head xml:id="ta-l4d16q3-Hd1e141">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d16q3-d1e144">Ulterius. Videtur quod inconvenienter enumerentur circumstantiae in hoc versu:
+                <quote xml:id="ta-l4d16q3-Qd1e146">quis, quid, ubi, quibus auxiliis, cur, quomodo, quando</quote>. Illud enim
+              quod est causa rei, non potest esse circumstantia ejus, cum causa sit prior,
+              circumstantia posterior quasi proprietas. Sed persona agens quae notatur cum dicitur
+              quis, est causa moralis actus. Ergo non debet poni circumstantia.</p>
+            <p xml:id="ta-l4d16q3-d1e150">Praeterea, non potest idem esse circumstantia sui ipsius. Sed quid importat
+              substantiam actus moralis, cujus circumstantiae quaeruntur. Ergo non debet inter
+              circumstantias computari.</p>
+            <p xml:id="ta-l4d16q3-d1e153">Praeterea, non est idem circumstantia rei et quod dat rei speciem, quia illud est rei
+              intraneum. Sed moralia recipiunt speciem a fine; unde Ambrosius: <quote xml:id="ta-l4d16q3-Qd1e155">intentio operi
+                tuo nomen imponit</quote>. Ergo cur, quod finem importat, non debet dici
+              circumstantia.</p>
+            <p xml:id="ta-l4d16q3-d1e159">Praeterea, illud quod continet alia, non debet aliis connumerari. Sed in modo
+              comprehenduntur omnes aliae circumstantiae. Ergo non debet poni quomodo inter alias
+              circumstantias.</p>
+            <p xml:id="ta-l4d16q3-d1e163">Sed contra, videtur quod sint plures circumstantiae. Philosophus enim in 3 Ethic.,
+              ponit <quote xml:id="ta-l4d16q3-Qd1e165">circa quid</quote>, et <quote xml:id="ta-l4d16q3-Qd1e168">quo instrumento</quote>. Haec autem hoc
+              versu non continentur. Ergo videtur quod insufficienter enumeratae sint.</p>
+            <p xml:id="ta-l4d16q3-d1e172">Praeterea, circumstantiae propter hoc vocantur, quia secundum eas variatur medium
+              virtutis. Sed secundum quantum et quoties, variatur medium virtutis. Ergo sunt
+              circumstantiae. Cum ergo non contineantur praedicto versu, videtur quod insufficienter
+              enumerentur.</p>
+
+          </div>
+          <div xml:id="ta-l4d16q3-Dd1e176">
+            <head xml:id="ta-l4d16q3-Hd1e178">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d16q3-d1e181">Ulterius. Videtur quod circumstantiae quae in littera ab Augustino dicuntur,
+              inconvenienter ponantur. Circumstantia enim, ut dictum est, est conditio moralis
+              actus. Sed quod diu aliquis in peccato perseveret, magis respicit peccantis statum
+              quam actum. Ergo non debet circumstantia dici.</p>
+            <p xml:id="ta-l4d16q3-d1e184">Praeterea, impugnatio vel tentatio praecedens quandoque non est in potestate nostra,
+              quando scilicet tentatio est ab hoste. Sed circumstantiae, cum sint conditiones
+              moralis actus, sunt in potestate nostra, ut videtur. Ergo non debet inter
+              circumstantias poni, quanta tentatione aliquis ceciderit.</p>
+            <p xml:id="ta-l4d16q3-d1e187">Praeterea, poena consequens peccatum non est circumstantia peccati. Sed amissio
+              virtutum est poena damni ex peccato consequentis. Ergo non debet poni inter
+              circumstantias.</p>
+            <p xml:id="ta-l4d16q3-d1e190">Praeterea, unum peccatum non est circumstantia alterius. Sed ingratitudo est per se
+              peccatum. Ergo non debet poni ut circumstantia peccati.</p>
+            <p xml:id="ta-l4d16q3-d1e194">Praeterea, illae circumstantiae nec a philosopho ponuntur in 3 Ethic., nec a Tullio
+              in Rhet., nec a Boetio in 4 Topic. Ergo videtur quod inconvenienter ponantur ab
+              Augustino.</p>
+          </div>
+          <div xml:id="ta-l4d16q3-Dd1e199">
+            <head xml:id="ta-l4d16q3-Hd1e201">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d16q3-d1e204">Respondeo dicendum ad primam quaestionem, quod actus nostri dicuntur morales secundum
+              quod a ratione ordinantur in finem voluntatis; ex hoc enim habent rationem boni vel
+              mali. Omne autem quod ordinatur ad finem, oportet esse proportionatum fini; et ideo
+              ratio quae actum nostrum in finem ordinat, attendit proportionem actus ad ea quae ad
+              actum concurrere possunt; et ista commensuratio circumstantia dicitur. Et quia in
+              qualibet proportione oportet esse ad minus duos terminos (nihil enim sibi ipsi
+              proportionatur, sed alteri); ideo circumstantia moralis actus dupliciter accipi
+              consuevit: quia potest dici circumstantia, vel illud quod est ad actum concurrens ad
+              quem proportionatur, sicut locus aut tempus; vel ipsa conceptio quae ex illis
+              relinquitur, ut quando vel ubi. Sic ergo ultimo modo accipiendo circumstantiam, erit
+              conditio vel proprietas actus; sed primo modo accipiendo, quaedam circumstantia est
+              proprietas actus, ut modus agendi, et quaedam extra, ut locus et tempus.</p>
+            <p xml:id="ta-l4d16q3-d1e207">Ad primum ergo dicendum, quod quaestio rhetoris secundum quodlibet genus causae
+              attendit bonum et malum: quia in judiciali praemium vel poena expectatur, quae actui
+              bono vel malo debentur; in demonstrativo autem laus personae vel vituperium quaeritur,
+              quae bonis actibus vel malis debentur; in deliberativo autem quaeritur quid sit utile
+              ad agendum; in quo et rationem boni et mali attendere oportet; et ideo ex eisdem ex
+              quibus actus morales boni et mali redduntur, rhetores argumenta sumunt ad
+              persuadendum.</p>
+            <p xml:id="ta-l4d16q3-d1e210">Ad secundum dicendum, quod circa aliquid dicitur stare omne illud quod non est de
+              essentia rei, sive insit, sicut albedo corpori, sive non insit, sicut locus locato; et
+              ideo conditiones vel proprietates circumstantiae actus dici possunt, et praecipue
+              ratione habitudinis ad exterius.</p>
+            <p xml:id="ta-l4d16q3-d1e213">Ad tertium dicendum, quod accidentis non est accidens, quasi ipsum sit per seipsum
+              accidentis subjectum; sed accidentis potest esse accidens inquantum unum accidens
+              adhaeret substantiae mediante alio, sicut color corpori mediante superficie; et sic
+              etiam ipsius actus circumstantia, vel proprietas aliqua, quamvis ipse sit conditio
+              personae agentis.</p>
+
+          </div>
+          <div xml:id="ta-l4d16q3-Dd1e217">
+            <head xml:id="ta-l4d16q3-Hd1e219">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d16q3-d1e222">Ad secundam quaestionem dicendum, quod versus ille distinguit circumstantias secundum
+              assignationem Tullii et Boetii, secundum quod a rhetore considerantur, qui ex eis
+              argumenta sumit ad excusandum vel accusandum. Sumitur enim argumentum rhetoricum vel
+              ex eo quod est attributum personae; et sic est quis: vel ex eo quod est attributum
+              negotio de quo agitur; et hoc vel continetur cum ipso negotio, et sic est quid quantum
+              ad substantiam facti exterius, cur quantum ad intentionem facientis interius: vel in
+              ipsa prosecutione negotii continetur; et sic sunt quatuor; scilicet quomodo quantum ad
+              qualitatem actus, ubi et quando quantum ad mensuram, quibus auxiliis quantum ad
+              instrumenta. Secundum autem quod ad moralem pertinent, potest aliter earum numerus
+              accipi. Proportio enim actus ad finem potest accipi vel secundum id quod est in ipso
+              actu, vel secundum id quod extra. Si primo modo: aut quantum ad speciem actus, et sic
+              est quid; aut quantum ad modum ipsius; et sic est quomodo. Si autem per comparationem
+              ad extra; vel per comparationem ad causam, vel per comparationem ad mensuram. Si primo
+              modo: vel ad causam finalem, et sic est cur; vel ad causam efficientem vel
+              instrumentalem, et sic est quibus auxiliis; vel principalem, et sic est quis. Si autem
+              per comparationem ad mensuram; aut ad locum, et sic est ubi; aut ad tempus, et sic est
+              quando.</p>
+            <p xml:id="ta-l4d16q3-d1e225">Ad primum ergo dicendum, quod circumstantia illa quae sumitur ex parte agentis, magis
+              respicit conditiones personae quantum ad proprietates ipsius, quam illam substantiam
+              personae. Ex hujusmodi enim conditionibus variatur substantia actus, quia aliquid
+              competit uni quod non competit alii. Praeterea, quamvis persona agens sit prior, tamen
+              conditio quae relinquitur in actu ex agente, circumstat ipsum actum.</p>
+            <p xml:id="ta-l4d16q3-d1e228">Ad secundum dicendum, quod aliqui actus ex suo genere sunt mali vel boni, et ideo ex
+              ipso genere actus potest sumi circumstantia actus moralis. Hoc autem ex quo actus
+              reperitur in tali genere, quamvis sit de substantia ejus inquantum est ex genere
+              moris, tamen est extra substantiam ipsius secundum quod consideratur ipsa substantia
+              actus absolute; unde aliqui actus sunt idem in specie naturae qui differunt in specie
+              moris; sicut fornicatio et actus matrimonialis.</p>
+            <p xml:id="ta-l4d16q3-d1e231">Ad tertium dicendum, quod est duplex finis, scilicet ultimus et propinquus. Ultimus
+              quidem non potest poni circumstantia, quia omnes circumstantiae sumuntur in
+              proportione ad ipsum. Propinquus etiam est duplex. Quidam qui est finis operis,
+              secundum quod philosophus dicit in 2 Eth., quod quaedam conjuncta sunt malo fini; et
+              iste finis dat speciem actui; unde vel non est circumstantia, si consideretur tantum
+              genus moris; vel referendo ad ipsam substantiam actus, includitur in hac circumstantia
+              quid. Alius vero est finis agentis, qui quandoque ex malo actu bonum intendit, vel e
+              converso; et hic finis dicitur haec circumstantia cur. Ab hoc autem actus non recipit
+              speciem propriam, sed quasi communem, secundum quod actus imperati induunt speciem
+              virtutis vel vitii imperantis supra speciem quam habent ex habitu eliciente.</p>
+            <p xml:id="ta-l4d16q3-d1e235">Ad quartum dicendum, quod modus rei est in ipsa re consequens substantiam ejus. Et
+              quia quaedam circumstantiae sumuntur ab eo quod est extra rem, quaedam vero ab ipsa
+              specie actus (quae duo ad modum non pertinent); ideo in modo non includitur omnis alia
+              circumstantia, si modus proprie accipiatur.</p>
+            <p xml:id="ta-l4d16q3-d1e238">Ad quintum dicendum, quod philosophus in 3 Eth., assignat etiam septem
+              circumstantias; sed differt a praedicta assignatione sua assignatio in duobus. Primo,
+              quia philosophus ponit duas circumstantias, quid, et circa quid, quae in praedicta
+              assignatione Tullii in una includuntur; eo quod objectum quod dicitur circa quid, dat
+              rationem actui quod dicitur quid; sed philosophus distinguit eas, quia praeter
+              universalem rationem objecti, quae dat speciem actui, possunt in objecto considerari
+              speciales conditiones, quae diversificant actum in bonitate et malitia in illis
+              actibus qui ex se malitiam non implicant, in quibus etiam malitiae quantitatem
+              diversificant. Secundo, quia philosophus pro una circumstantia ponit quando et ubi,
+              propter hoc quod utrumque sumitur a mensura extrinseca; sed in praedicta assignatione
+              distinguuntur propter diversam rationem mensurae. Quod autem philosophus dicit:
+                <quote xml:id="ta-l4d16q3-Qd1e240">quo instrumento</quote>, idem est ei quod Tullius dicit, <quote xml:id="ta-l4d16q3-Qd1e243">quibus
+                auxiliis</quote>: quia omnia auxilia sunt quasi instrumenta actionis, quibus agens
+              utitur ad suum finem.</p>
+            <p xml:id="ta-l4d16q3-d1e247">Ad sextum dicendum, quod cum modus mensuram importet, omnia quae ad mensuram
+              pertinent vel per modum quantitatis continuae vel discretae, importantur in quomodo.
+              Vel dicendum, quod quantitas actus ex tribus pensari potest. Primo ex ipsa intensione
+              actus, et sic idem est quod quomodo; secundo ex quantitate objecti, et sic includitur
+              in quid; tertio ex tempore; et sic includitur in quando: quoties autem semper
+              reducitur ad modum.</p>
+
+          </div>
+          <div xml:id="ta-l4d16q3-Dd1e251">
+            <head xml:id="ta-l4d16q3-Hd1e253">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d16q3-d1e256">Ad tertiam quaestionem dicendum, quod Augustinus numerat hic circumstantias secundum
+              quod a poenitente considerandae sunt, qui de peccatis dolere debet; et ideo numerat
+              illas quae praecipue ad dolorem de peccato inducere possunt. Hae autem sunt duae;
+              scilicet privatio boni, et quantum ad hoc dicit quod debet dolere, quia se virtute
+              privavit; et positio mali, quod quidem aggravatur vel per accidens inquantum tollitur
+              excusationis occasio; et sic debet dolere, si nulla tentatione vel modica praeventus
+              peccavit: vel per se ex aliqua circumstantia addente deformitatem ad actum, et sic
+              quantum ad personam agentis considerare docet statum peccantis, et beneficium prius a
+              Deo susceptum; quantum ad omnes docet considerare quo tempore et quando peccavit;
+              docet etiam considerare circa quid, in hoc quod dicit: <quote xml:id="ta-l4d16q3-Qd1e258">secundum modum
+                meretricis</quote>; item quomodo, in hoc quod dicit, <quote xml:id="ta-l4d16q3-Qd1e261">et modum sui
+                operis</quote>; et locum, in hoc quod dicit: <quote xml:id="ta-l4d16q3-Qd1e264">si in loco sacrato</quote>.</p>
+            <p xml:id="ta-l4d16q3-d1e268">Ad primum ergo dicendum, quod hoc quod aliquis diu in peccato permansit, respicit
+              conditionem actus, vel transgressionis, si frequenter peccatum iteravit vel
+              continuavit; vel omissionis, si poenitere distulit de peccato etiam semel
+              commisso.</p>
+            <p xml:id="ta-l4d16q3-d1e271">Ad secundum dicendum, quod quamvis tentatio non sit in potestate nostra; tamen
+              resistere vel non resistere est in potestate nostra; et ideo secundum hoc ex
+              tentatione praecedenti circumstantia peccati sumi potest.</p>
+            <p xml:id="ta-l4d16q3-d1e274">Ad tertium dicendum, quod amissio virtutum, quamvis consequatur peccatum secundum
+              naturae ordinem, tamen concomitatur secundum tempus; et ideo circumstantia potest
+              poni. Et praeterea, etiam quaedam circumstantiae, secundum Tullium, sumuntur ab eo
+              quod sequitur substantiam facti, secundum quod ex comparatione ad ipsam actus in
+              bonitate vel malitia variatur.</p>
+            <p xml:id="ta-l4d16q3-d1e278">Ad quartum dicendum, quod ingratitudo uno modo speciale est peccatum; alio modo
+              circumstantia peccati; et qualiter hoc sit, dicetur infra, dist. 22, qu. 1, art. 2,
+              quaestiunc. 1.</p>
+            <p xml:id="ta-l4d16q3-d1e281">Ad quintum dicendum, quod omnes istae circumstantiae possunt reduci ad septem
+              superius enumeratas: quia ingratitudo reducitur ad conditionem personae, ut ex dictis
+              patet; tentatio autem praecedens reducitur ad cur, quia tentatio praecipue consistit
+              in appetitu alicujus propter quod homo ad peccatum incitatur: privatio autem virtutum
+              reducitur ad quid; quia ipsum peccatum secundum speciem suam habet quod virtutem
+              tollat. De aliis autem facile est videre.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d16q3-Dd1e286" type="articulus">
+          <head xml:id="ta-l4d16q3-Hd1e288">Articulus 2</head>
+
+          <head xml:id="ta-l4d16q3-Hd1e291" type="questionTitle">Utrum circumstantiae peccatum aggravent</head>
+
+          <div xml:id="ta-l4d16q3-Dd1e294">
+            <head xml:id="ta-l4d16q3-Hd1e296">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d16q3-d1e299">Ad secundum sic proceditur. Videtur quod circumstantiae peccatum non aggravent. Nihil
+              enim augetur nisi ex suo simili; unde intensio qualitatis quantitatem non auget
+              corporalem, sed additio alterius corporis. Sed circumstantiae non sunt peccata, sed
+              sunt quaedam peccati accidentia. Ergo peccatum non aggravant.</p>
+            <p xml:id="ta-l4d16q3-d1e302">Praeterea, tota ratio mali in peccato est ex parte aversionis, non autem ex parte
+              conversionis. Sed omnes circumstantiae sequuntur peccatum ex parte conversionis. Ergo
+              non aggravant malitiam peccati.</p>
+            <p xml:id="ta-l4d16q3-d1e305">Praeterea, privationes non intenduntur neque remittuntur. Sed malum privatio quaedam
+              est boni, ut Augustinus dicit Lib. 3 Confess., cap. 7, et in Enchirid. Ergo malitia
+              peccati per circumstantias intendi non potest.</p>
+            <p xml:id="ta-l4d16q3-d1e308">Sed contra, ex quibus causatur unumquodque, ex eisdem augeri potest. Sed ex
+              circumstantiis inordinatis fit peccatum, inquantum per defectum circumstantiae modus
+              virtutis corrumpitur. Ergo circumstantiae aggravant peccatum.</p>
+            <p xml:id="ta-l4d16q3-d1e312">Praeterea, rhetores ex circumstantiis trahunt argumenta ad accusandum vel excusandum,
+              laudandum vel vituperandum, ut dictum est. Sed accusatio vel excusatio, laus et
+              vituperium fiunt de bono vel malo, aut minus bono aut minus malo. Ergo circumstantiae
+              augent actus bonitatem et malitiam.</p>
+
+          </div>
+          <div xml:id="ta-l4d16q3-Dd1e316">
+            <head xml:id="ta-l4d16q3-Hd1e318">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d16q3-d1e321">Ulterius. Videtur, quod inter omnes circumstantias magis aggravent locus et tempus.
+              Quia, sicut dicit philosophus in 3 Ethic., <quote xml:id="ta-l4d16q3-Qd1e323">principalia sunt in quibus est
+                actus</quote>, de hujusmodi circumstantiis loquens. Sed in quo signat ipsum tempus
+              et locum. Cum ergo principales circumstantiae magis aggravent, videtur quod tempus et
+              locus maxime aggravant.</p>
+            <p xml:id="ta-l4d16q3-d1e327">Praeterea, videtur, quod quis. Quia ex voluntate principaliter oritur peccatum. Sed
+              voluntas se tenet ex parte agentis. Ergo conditio personae magis aggravat.</p>
+            <p xml:id="ta-l4d16q3-d1e330">Praeterea, videtur quod ingratitudo in Deum. Quia peccatum accipit rationem mali ex
+              aversione. Sed ingratitudo directe pertinet ad aversionem. Ergo ex hoc magis gravitas
+              peccati consideratur.</p>
+            <p xml:id="ta-l4d16q3-d1e333">Praeterea, videtur quod tentatio praecedens. Quia per illas circumstantias maxime
+              aggravatur peccatum, per quas redditur venia dignum vel indignum. Sed peccatum quod ex
+              infirmitate agitur veniale dicitur, quasi venia dignum, quod est cum aliquis gravi
+              tentatione praevenitur: peccatum autem quod ex malitia agitur, dicitur irremissibile,
+              quia non habet in se aliquid venia dignum; quod contingit cum aliquis ex electione
+              tentationem praeveniens, malum operatur. Ergo haec circumstantia maxime aggravat.</p>
+
+          </div>
+          <div xml:id="ta-l4d16q3-Dd1e337">
+            <head xml:id="ta-l4d16q3-Hd1e339">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d16q3-d1e342">Ulterius. Videtur quod circumstantia non possit trahere in aliam speciem vel in aliud
+              genus peccati. Quia accidentia non variant speciem. Sed circumstantiae sunt accidentia
+              actus, ut dictum est. Ergo ex eis species peccati non variantur.</p>
+            <p xml:id="ta-l4d16q3-d1e345">Praeterea, actus habet speciem ex objecto. Sed diversae circumstantiae non mutant
+              objectum actus. Ergo non trahunt in aliud genus peccati.</p>
+            <p xml:id="ta-l4d16q3-d1e348">Praeterea, sicut circumstantiae concurrunt ad actum peccati, ita ad actum virtutis.
+              Sed non variatur actus virtutis secundum speciem. Ergo nec actus peccati.</p>
+            <p xml:id="ta-l4d16q3-d1e351">Sed contra, illud quod est causa alicujus, potest variare illud secundum speciem.
+              Quia ex diversis causis diversi sequuntur effectus. Sed circumstantiae deficientes
+              sunt causa peccatorum; unde secundum Dionysium, malum contingit ex particularibus
+              defectibus. Ergo diversitas circumstantiarum potest speciem variare.</p>
+            <p xml:id="ta-l4d16q3-d1e355">Praeterea, <quote xml:id="ta-l4d16q3-Qd1e357">praepropere, laute, nimis, ardenter, studiose</quote>, sunt
+              diversae species gulae. Sed sumuntur secundum diversas circumstantias, ut per se
+              patet. Ergo circumstantiae variant speciem peccati.</p>
+
+          </div>
+          <div xml:id="ta-l4d16q3-Dd1e363">
+            <head xml:id="ta-l4d16q3-Hd1e365">Quaestiuncula 4</head>
+            <p xml:id="ta-l4d16q3-d1e368">Ulterius. Videtur quod circumstantia aggravet in infinitum. Quia una circumstantia
+              corrumpit virtutem. Sed virtus non corrumpitur nisi per peccatum mortale, quod habet
+              quantitatem infinitam. Ergo circumstantia aggravat in infinitum.</p>
+            <p xml:id="ta-l4d16q3-d1e371">Praeterea, secundum Augustinum nullum est adeo veniale, quin fiat mortale dum placet.
+              Sed placentia est quaedam circumstantia, et reducitur ad quomodo. Ergo circumstantia
+              facit de veniali mortale; et sic aggravat in infinitum.</p>
+            <p xml:id="ta-l4d16q3-d1e374">Praeterea, plus distat actus virtutis ab actu peccati mortalis, quam actus venialis
+              peccati a mortali. Sed una circumstantia mutata facit de actu virtutis actum peccati
+              mortalis, sicut cognoscere suam ut non suam. Ergo multo magis facit de veniali
+              mortale; et sic idem quod prius.</p>
+            <p xml:id="ta-l4d16q3-d1e377">Sed contra, quantitas accidentalis non excedit quantitatem substantialem. Sed
+              quantitas ex circumstantia peccati proveniens est ei accidentalis. Cum ergo quantitas
+              venialis peccati sit finita, quantitas ex circumstantia non erit infinita; et ita non
+              aggravat in infinitum.</p>
+            <p xml:id="ta-l4d16q3-d1e381">Praeterea, ea quae in infinitum differunt, non conveniunt in genere. Sed eorum quae
+              non conveniunt in genere, unum non potest in aliud transmutari, sicut linea in
+              colorem. Ergo non potest per circumstantiam actus peccati trahi ad infinitam
+              quantitatem.</p>
+
+          </div>
+          <div xml:id="ta-l4d16q3-Dd1e385">
+            <head xml:id="ta-l4d16q3-Hd1e387">Quaestiuncula 5</head>
+            <p xml:id="ta-l4d16q3-d1e390">Ulterius. Videtur quod omnis circumstantia sit confitenda. Genes. 19, praecipitur
+              Loth de Sodomis exeunti, ne moraretur in omni loco circa regionem. Sed poenitens de
+              Sodomis, idest de peccato, per confessionem exit. Ergo non solum peccatum, sed omnes
+              circumstantias peccati confiteri debet.</p>
+            <p xml:id="ta-l4d16q3-d1e393">Praeterea, poenitens debet peccatum suum sacerdoti confiteri, ut ab eo modum
+              satisfactionis accipiat. Sed pro graviori peccato major injungitur satisfactio. Ergo
+              debet sacerdoti circumstantias notificare, quibus qualitas peccati consideratur.</p>
+            <p xml:id="ta-l4d16q3-d1e396">Praeterea, confessio debet contritioni respondere. Sed homo debet de singulis
+              circumstantiis conteri, ut in littera Augustinus dicit. Ergo videtur quod omnes debeat
+              confiteri.</p>
+            <p xml:id="ta-l4d16q3-d1e399">Sed contra, secundum philosophum in 3 Ethic., delectabile carnis quanto magis in
+              particulari consideratur, tanto magis appetitum movet. Sed homo debet fugere appetitum
+              talis delectabilis per consilium apostoli 1 Corinth. 6. Ergo videtur quod peccatorum
+              carnalium ad minus non debeat aliquis omnes singulares circumstantias confiteri.</p>
+            <p xml:id="ta-l4d16q3-d1e403">Praeterea, ex circumstantiis recitatis aliquando alicujus personae peccatum
+              innotescit. Sed homo in confessione debet se accusare, non alterum infamare. Ergo
+              videtur quod non debeamus circumstantias confiteri.</p>
+          </div>
+          <div xml:id="ta-l4d16q3-Dd1e407">
+            <head xml:id="ta-l4d16q3-Hd1e409">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d16q3-d1e412">Respondeo dicendum ad primam quaestionem, sicut dicit Augustinus in 6 de Trin. In his
+              quae non mole magna sunt, idem est esse majus quod est esse melius in bonis, sicut et
+              similiter in malis idem est esse majus quod est esse pejus. Malitia autem in actu
+              peccati ex hoc est quod deficit a debita proportione ad finem, ad quem proportionatus
+              redditur per debitam commensurationem circumstantiarum, ut dictum est; et ideo
+              defectus debitae circumstantiae malitiam in actu causat. Et quia per unam
+              circumstantiam deficientem vel oppositam magis elongatur terminus a debita proportione
+              ad finem; ideo circumstantia facit actum magis malum vel minus; et secundum hoc
+              dicitur aggravare peccatum.</p>
+            <p xml:id="ta-l4d16q3-d1e415">Ad primum ergo dicendum, quod ratio illa procedit in illis in quibus est augmentum
+              per additionem; in illis enim in quibus est augmentum per intensionem non oportet
+              additionem similis in specie fieri, sicut non oportet quod albedo albedini addatur ad
+              hoc quod fiat magis album, ut dicitur in 4 Phys.: et similiter non oportet quod
+              peccatum peccato addatur ad hoc quod fiat magis peccatum.</p>
+            <p xml:id="ta-l4d16q3-d1e418">Ad secundum dicendum, quod ex inordinata conversione ad commutabile bonum redditur
+              actus improportionatus ad conversionem ad finem; et ideo fundamentum aversionis est
+              conversio in peccato; et propter hoc circumstantiae quae ex parte conversionis se
+              tenent, possunt peccati malitiam augere.</p>
+            <p xml:id="ta-l4d16q3-d1e421">Ad tertium dicendum, quod quamvis privationes non intendantur ex seipsis, tamen
+              intendi ex causis suis quandoque dicuntur, sicut caecitas per elongationem ab actu
+              videndi; et similiter ex inordinata conversione malitia in actu intenditur.</p>
+
+          </div>
+          <div xml:id="ta-l4d16q3-Dd1e425">
+            <head xml:id="ta-l4d16q3-Hd1e427">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d16q3-d1e430">Ad secundam quaestionem dicendum, quod bonum dicitur secundum ordinem ad finem, ut in
+              3 Metaph. dicitur. Cum ergo malum sit privatio boni, dupliciter potest contingere
+              malum; vel secundum ipsam relationem in finem, vel secundum aptitudinem relationis in
+              finem; et ideo peccatum dupliciter contingit: vel ex eo quod actus non est
+              proportionatus fini, sicut in his quae ex se mala sunt; vel quia inordinate refertur
+              in finem, sicut patet in his quae mala intentione fiunt, etiamsi ex se bonum sit quod
+              fit. Et quia propter quod unumquodque, et illud magis; ideo quantitas malitiae peccati
+              magis consideratur secundum relationem inordinatam in finem, quam etiam secundum
+              improportionem ad finem. Ad ordinem autem ad finem pertinet cujus gratia; et ideo
+              super omnes alias consideranda est in judicando de gravitate peccati. Ad hoc autem
+              quod actus sit improportionatus fini, pertinet haec circumstantia quid, per quam
+              importatur ratio mali in actu; et ideo omnia quae possunt peccato speciem tribuere, in
+              hac circumstantia inducuntur; et haec sunt in quibus consistit actus moralis quantum
+              ad bonitatem vel malitiam; et ideo haec est secunda circumstantia in aggravando; et
+              propter hoc philosophus dicit in 3 Ethic., quod <quote xml:id="ta-l4d16q3-Qd1e432">principalissima in actu sunt in
+                quibus consistit actus, et cujus gratia</quote>. Aliae autem circumstantiae magis et
+              minus aggravant, secundum quod his magis vel minus propinquae sunt; et ideo tempus et
+              locus minus aggravare nata sunt, quia sunt omnino extrinseca. Sed inter ea conditio
+              personae magis: quia agens directius respondet fini; et post hoc modus qui respondet
+              actui, et post hoc instrumentum quod pertinet ad modum agendi. Et hoc quidem ut in
+              pluribus accipiendum est ita esse; tamen nihil prohibet in aliquo aliter se habere:
+              quia sermones qui sunt in moribus, nihil determinatum habent, ut dicitur in 2
+              Ethic.</p>
+            <p xml:id="ta-l4d16q3-d1e436">Ad primum ergo dicendum, quod philosophus non intendit principalissima esse illa in
+              quibus est actus sicut in mensurantibus ipsum, sed sicut in complentibus rationem
+              ipsius.</p>
+            <p xml:id="ta-l4d16q3-d1e439">Ad secundum dicendum, quod voluntas quamvis sit agentis sicut subjecti, tamen est
+              finis sicut objecti; et ideo trahit rationem magis a fine quam a conditione agentis,
+              et ad finem magis reducitur: quia potentiae et habitus distinguuntur penes
+              objecta.</p>
+            <p xml:id="ta-l4d16q3-d1e442">Ad tertium dicendum, quod ingratitudo secundum quod est circumstantia, non ponit
+              actualem contemptum, sed quasi interpretatum; et ideo non oportet quod magis aggravet
+              quam perversa intentio, quae actualem aversionem a fine debito causat.</p>
+            <p xml:id="ta-l4d16q3-d1e446">Ad quartum dicendum, quod venia dignum dicitur peccatum quod est veniale ex causa,
+              secundum quod privat voluntarium, vel diminuit vel per ignorantiam vel per
+              impotentiam; et ideo tota illa diversitas ad cujus gratia reducitur: quia voluntarium
+              intentionem finis respicit.</p>
+
+          </div>
+          <div xml:id="ta-l4d16q3-Dd1e450">
+            <head xml:id="ta-l4d16q3-Hd1e452">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d16q3-d1e455">Ad tertiam quaestionem dicendum, quod aliquando circumstantiam trahere in aliam
+              speciem peccati manifestum est; sed quomodo possit esse, est dubium. Quidam enim
+              dicunt, quod hoc accidit inquantum illae circumstantiae accipiuntur ut fines
+              voluntatis, quia a fine actus moralis accipit speciem. Sed hoc non videtur
+              sufficienter dictum: quia aliquando variatur species peccati sine hoc quod intentio
+              feratur ad circumstantiam illam; sicut fur ita libenter acciperet vas aureum non
+              sacratum sicut sacratum; et tamen in aliam speciem peccatum mutatur, scilicet de furto
+              simplici in sacrilegium; et praeterea secundum hoc sola illa circumstantia quae
+              dicitur cujus gratia, speciem peccati mutare posset; quod falsum est. Et ideo aliter
+              dicendum, quod omnis circumstantia potest speciem peccati mutare, sed non semper
+              mutat. Cum enim privationes et negationes differant specie secundum differentiam
+              habituum et positionum oppositarum, et malum sit privatio boni; oportet quod ubi
+              diversum bonum ad virtutem necessarium aufertur, ibi sit diversa species peccati. Una
+              autem sola circumstantia peccati rectitudinem virtutis aufert: unde si aliae
+              circumstantiae nullam aliam obliquitatem peccato tribuant, nisi ex suppositione
+              praecedentis, non mutabunt speciem peccati, sed forte aggravabunt quantitatem peccati
+              illius. Quandoque etiam neque quantitatem peccati aggravabunt: quia etiam ex
+              suppositione praecedentis nullam inordinationem addunt. Quandoque etiam peccatum
+              diminuit, si aliqua circumstantia rationem peccati subtrahat; sicut accipere rem
+              alienam habet rationem peccati ex circumstantia quid, inquantum res aliena est. Quod
+              autem manu dextera vel sinistra accipiat, aut de mane aut de sero, nihil ad rationem
+              mali pertinet; et ideo istae circumstantiae non excusant nec aggravant, nec speciem
+              mutant. Quod autem accipiat multum vel parum, ex se deformitatem aliquando non
+              importat, nisi ex suppositione primi: quia multum de alieno recipere est ab
+              aequalitate magis discedere; unde talis circumstantia aggravat, sed peccatum non
+              mutat. Quod autem rem alienam consecratam accipiat, aliam deformitatem importat: quia
+              quaecumque irreverentia circa res sacras adhibita, specialem rationem peccati habet;
+              et ideo talis circumstantia dicitur speciem mutare. Si autem coactus accipiat, talis
+              circumstantia peccatum excusat in parte: quia causa peccati, scilicet voluntarium,
+              minuitur.</p>
+            <p xml:id="ta-l4d16q3-d1e458">Ad primum ergo dicendum, quod quaecumque circumstantia aliquam speciem peccati in
+              actu causat, ad speciem actus, inquantum est moralis, pertinet; unde non habet jam
+              rationem circumstantiae peccati, quamvis circumstet substantiam actus, ut prius dictum
+              est.</p>
+            <p xml:id="ta-l4d16q3-d1e461">Ad secundum dicendum, quod omnis actus secundum suam substantiam habet speciem ab
+              objecto; sed secundum rationem malitiae habet speciem a defectu; et ideo secundum
+              diversa quae deficere possunt, diversae species causantur malitiae; et secundum hoc
+              distinguuntur species peccati, non solum ex objecto. In actibus autem virtutum secus
+              est: quia non constituitur ex qualibet singulari circumstantia, sicut actus peccati ex
+              quolibet singulari defectu rationem peccati habet.</p>
+            <p xml:id="ta-l4d16q3-d1e464">Et per hoc patet solutio ad tertium.</p>
+
+          </div>
+          <div xml:id="ta-l4d16q3-Dd1e468">
+            <head xml:id="ta-l4d16q3-Hd1e470">Quaestiuncula 4</head>
+            <p xml:id="ta-l4d16q3-d1e473">Ad quartam quaestionem dicendum, quod circumstantia, ut ex dictis patet, quandoque
+              aggravat peccatum et speciem mutat; quandoque autem aggravat, sed speciem non mutat.
+              Quando autem speciem non mutat, sed aggravat; adhuc manet in ratione circumstantiae,
+              et non potest in infinitum quantitatem peccati augere, ut ex veniali mortale fiat:
+              quia, ut dictum est, circumstantia taliter aggravans ex suppositione praecedentis
+              deformitatis habet rationem majoris deformitatis ex ejus virtute; unde si etiam illa
+              sit infinita, non potest infinitam deformitatem addere. Si autem speciem mutet, tunc
+              potest in infinitum aggravare; sed non semper hoc facit: quia quando ex deformitate
+              speciali, quam circumstantia addit, habet directe oppositionem ad caritatem, quod
+              ostenditur ex hoc quod est directe contra praeceptum legis, cujus finis est caritas;
+              tunc in infinitum gravitatem addit, scilicet peccati mortalis. Quando autem illa
+              deformitas non directe habet oppositionem ad legem, ut sit contra eam, sed praeter
+              eam, tunc non aggravat in infinitum, sive sit peccatum veniale cui additur, sive
+              mortale; sicut ad actum gulae qui est praepropere, addit haec circumstantia laute,
+              specialem deformitatem, quae etiam ex se peccatum faceret; sed non est directe contra
+              legem; et ideo non aggravat in infinitum. Et quia circumstantia quae speciem mutat,
+              non est jam ut circumstantia computanda, ut dictum est, ideo dicitur a magistris, quod
+              circumstantia non aggravat in infinitum.</p>
+            <p xml:id="ta-l4d16q3-d1e476">Ad primum ergo dicendum, quod quamvis virtus secundum habitum non corrumpatur nisi
+              per peccatum mortale; tamen actus ejus corrumpitur et impeditur etiam per peccatum
+              veniale.</p>
+            <p xml:id="ta-l4d16q3-d1e479">Ad secundum dicendum, quod placentia nunquam de veniali facit mortale, nisi intantum
+              crescat quod adhaereatur ei ut fini, et per consequens supra Deum diligatur; et ita in
+              contemptum Dei talis placentia adducitur, quae habet de se specialem rationem peccati,
+              et propter hoc est circumstantia trahens in aliam speciem.</p>
+            <p xml:id="ta-l4d16q3-d1e482">Ad tertium dicendum, quod ratio illa procedit de circumstantia quae trahit in aliam
+              speciem, quae jam rationem circumstantiae respectu actus moralis, inquantum hujusmodi,
+              amittit.</p>
+            <p xml:id="ta-l4d16q3-d1e486">Et quia aliae rationes videntur concludere quod nullo modo circumstantia aggravet in
+              infinitum: ideo dicendum ad quartum, quod quantitas ex circumstantia proveniens, quae
+              in novam speciem traxit, non est quantitas accidentalis, sed essentialis.</p>
+            <p xml:id="ta-l4d16q3-d1e489">Ad quintum dicendum, quod peccatum veniale et mortale differunt in infinitum ex parte
+              aversionis, sed non ex parte conversionis, quia utrobique est placentia finita:
+              peccata autem speciem sortiuntur ex parte conversionis, quia ex parte aversionis non
+              differunt.</p>
+
+          </div>
+          <div xml:id="ta-l4d16q3-Dd1e494">
+            <head xml:id="ta-l4d16q3-Hd1e496">Quaestiuncula 5</head>
+            <p xml:id="ta-l4d16q3-d1e499">Ad quintam quaestionem dicendum, quod omnes circumstantias confiteri est impossibile;
+              quasdam autem confiteri est necessitatis: sed in hoc est differentia opinionis. Quidam
+              enim dicunt, quod omnes circumstantiae quae aliquam notabilem quantitatem peccato
+              addunt, confiteri necessitatis est, si memoriae occurrunt. Alii vero dicunt, quod non
+              sint de necessitate confitendae nisi circumstantiae quae ad aliud genus peccati
+              trahunt; et hoc probabilius est; sed addendum est, quae ad aliam speciem mortalis
+              trahunt: cujus ratio est, quod venialia non sunt de necessitate confessionis, sed
+              solum mortalia, quae quantitatem infinitam quodammodo habent; et quia circumstantiae
+              aggravantes quae aliam speciem peccato non tribuunt, vel quae tribuunt quidem, sed non
+              mortalis peccati, non sunt de necessitate confessionis. Tamen eadem confiteri
+              perfectionis est, sicut et de venialibus dictum est.</p>
+            <p xml:id="ta-l4d16q3-d1e502">Ad primum ergo dicendum, quod quamvis de Sodomis, idest de peccato mortali, non
+              possit homo exire, nisi per confessionem ad minus in proposito existentem; tamen de
+              illis quae circa sunt, idest de venialibus, et circumstantiis quae venialibus
+              aequivalent, potest homo sine confessione exire.</p>
+            <p xml:id="ta-l4d16q3-d1e505">Ad secundum dicendum, quod determinata quantitas peccati non potest sacerdoti
+              innotescere, quia nec ipse peccator scit: unde sufficit quod cognoscat quantitatem
+              quae ex specie peccati consurgit.</p>
+            <p xml:id="ta-l4d16q3-d1e508">Ad tertium dicendum, quod nec in contritione oportet quod de singulis circumstantiis
+              doleat poenitens, quantum est de necessitate salutis; sed oportet quod de singulis
+              peccatis ad minus in prima contritione doleat, et de circumstantiis quae peccati
+              speciem mutant. Hoc autem quod Augustinus dicit, pertinet ad perfectionem
+              contritionis.</p>
+            <p xml:id="ta-l4d16q3-d1e512">Sed quia aliae rationes videntur concludere quod circumstantiae nullo modo sint
+              confitendae; ideo dicendum ad quartum, quod circumstantiae particulares peccati
+              carnalis, quae in aliam speciem peccati mortalis trahunt, semper sunt confitendae:
+              quia gratia quae in sacramento poenitentiae datur, restaurat, si qua inclinatio ad
+              peccatum ex talium cogitatione proveniat vel in confitente vel in sacerdote. Unde
+              dicit Gregorius in pastorali: <quote xml:id="ta-l4d16q3-Qd1e514">fit plerumque ut dum rectoris animus aliena
+                tentamenta cognoscit, auditis tentationibus etiam ipse pulsetur. Sed haec nequaquam
+                pastori timenda sunt: quia tanto facilius a sua eripitur, quanto misericordius ex
+                aliena tentatione fatigatur</quote>. Si tamen sacerdotem lascivum et ad hujusmodi
+              peccata pronum viderit, debet accipere licentiam confitendi alteri sacerdoti: et si
+              non dederit, ad superiorem recurrere. Si autem circumstantiae non aggravant in
+              infinitum, novam speciem peccati mortalis conferendo, quandoque laudabiliter
+              reticentur adhibita debita discretione secundum considerationem turpitudinis
+              circumstantiae, et pronitatem inclinationis ad peccatum ex ejus confessione in ipso
+              confitente vel in sacerdote.</p>
+            <p xml:id="ta-l4d16q3-d1e518">Ad quintum dicendum, quod homo in confessione debet famam alterius custodire quantum
+              potest, sed suam conscientiam magis purgare debet: et ideo si circumstantia quae ducit
+              in cognitionem personae, sit de necessitate confessionis, secundum regulam datam, tunc
+              debet confiteri occultando personam quantum potest. Si autem non sit de necessitate
+              confessionis, debet dimittere, ne peccatum alterius prodat.</p>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

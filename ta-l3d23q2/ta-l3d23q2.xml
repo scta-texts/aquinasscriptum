@@ -1,0 +1,728 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum III, Distinctio 23, Quaestio 2</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.09-dev-master">
+          <title>Librum III, Distinctio 23, Quaestio 2</title>
+          <date when="2016-03-13">March 13, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-13">March 13, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness>1856 editum</witness>
+          <witness xml:id="H" n="harv245" xml:base="http://iiif.lib.harvard.edu/manifests/drs:51994085/canvas/">Cambridge, Mass.,
+            Harvard University, Houghton Library, MS Lat 245</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="2015.09">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+
+
+
+
+      <div xml:id="starts-on">
+        <cb ed="#H" n="84rb"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ta-l3d23q2">
+        <head xml:id="ta-l3d23q2-Hd1e97">Librum III, Distinctio 23, Quaestio 2</head>
+        <head xml:id="ta-l3d23q2-Hd1e100" type="questionTitle">De fide</head>
+        <div xml:id="ta-l3d23q2-Dd1e103">
+          <head xml:id="ta-l3d23q2-Hd1e105">Prooemium</head>
+          <p xml:id="ta-l3d23q2-d1e108">Deinde quaeritur specialiter de fide; et circa hoc quaeruntur quinque: 1 quid sit
+            fides, 2 de ejus actu; 3 de subjecto; 4 utrum sit virtus; 5 de ordine ejus ad alias
+            virtutes.</p>
+        </div>
+        <div xml:id="ta-l3d23q2-Dd1e112" type="articulus">
+          <head xml:id="ta-l3d23q2-Hd1e114">Articulus 1</head>
+          <head xml:id="ta-l3d23q2-Hd1e117" type="questionTitle">Utrum definitio apostoli quam ponit de fide, sit conveniens
+            secundum omnem partem</head>
+
+          <p xml:id="ta-l3d23q2-d1e120">Ad primum sic proceditur. Apostolus <ref xml:id="ta-l3d23q2-Rd1e122"><title ref="#hebr">Hebr.</title> 11, 1,</ref>
+            dicit, quod <quote xml:id="ta-l3d23q2-Qd1e127" ana="#hebr11_1">fides est substantia sperandarum rerum, argumentum
+              non apparentium</quote>; et videtur quod inconvenienter definiat fidem. Nullus enim
+            habitus est substantia. Fides est habitus. Ergo non est substantia.</p>
+          <p xml:id="ta-l3d23q2-d1e131">Praeterea, definitio debet dari ex prioribus, et ex his quae per se sunt. Sed objectum
+            per se fidei non est res speranda, sed res credenda, et spes est posterior fide. Ergo
+            debuit dicere, rerum credendarum, non, sperandarum.</p>
+          <p xml:id="ta-l3d23q2-d1e134">Praeterea, sicut ad fidem sequitur spes, ita et caritas: quia caritas est magis
+            propinqua fini quam spes. Ergo debuit dicere, quod est substantia diligendarum rerum
+            magis quam sperandarum.</p>
+          <p xml:id="ta-l3d23q2-d1e138">Praeterea, fides est de his quae sunt supra rationem. Sed argumentum est actus
+            rationis. Ergo fides non est argumentum.</p>
+          <p xml:id="ta-l3d23q2-d1e141">Praeterea, idem non debet poni in diversis generibus. Sed argumentum est aliud genus
+            quam substantia. Ergo male definit per utrumque.</p>
+          <p xml:id="ta-l3d23q2-d1e144">Praeterea, ea quae sunt vera et non apparentia, sunt dubia. Sed non apparentia possunt
+            esse vera ignota. Ergo cum fides sit cognitio quaedam, videtur quod magis debuit dicere,
+            dubiorum, quam, non apparentium.</p>
+          <p xml:id="ta-l3d23q2-d1e147">Praeterea, cognitio praecedit affectionem. Sed hoc quod dicit, <quote xml:id="ta-l3d23q2-Qd1e149">argumentum non
+              apparentium</quote>, pertinet ad cognitionem; quod autem dicit, <quote xml:id="ta-l3d23q2-Qd1e152">substantia
+              rerum sperandarum</quote>, pertinet ad affectionem. Ergo male ordinavit partes
+            definitionis.</p>
+          <p xml:id="ta-l3d23q2-d1e156">Praeterea, unius rei est una definitio sicut unum esse. Sed de fide dantur multae aliae
+            definitiones. Ergo haec non videtur esse sufficiens.</p>
+          <p xml:id="ta-l3d23q2-d1e159">Respondeo dicendum, quod dicta assignatio apostoli est recta et propria definitio fidei
+            quantum ad ea quae exiguntur ad definitionem, quamvis non quantum ad modum definitionis,
+            quam auctores, et etiam philosophi, neglexerunt, sicut etiam et formam syllogismi
+            praetermittunt ponentes ea ex quibus syllogismus formari potest. Habitus autem quilibet
+            per actum cognoscitur, et actus ex objecto specificatur, et ex fine bonitatem habet; et
+            ideo apostolus definit fidem per duo, scilicet per comparationem ad objectum, quod est
+            res non apparens, scilicet secundum naturalem cognitionem; et per comparationem ad
+            finem, in hoc quod dicit: <quote xml:id="ta-l3d23q2-Qd1e161">substantia rerum sperandarum</quote>. Quamvis enim idem
+            sit objectum et finis fidei, non tamen secundum eamdem rationem: est enim Deus objectum
+            ejus, inquantum est prima veritas supra posse naturale intellectus nostri elevata; et
+            sic dicitur non apparens; est vero finis ejus, secundum quod est quodammodo bonum sua
+            altitudine facultatem humanam excedens, sed sua liberalitate seipsum communicabilem
+            praebens; et hoc dicitur res speranda.</p>
+          <p xml:id="ta-l3d23q2-d1e166">Ad primum ergo dicendum, quod fides dicitur substantia, non quia sit in genere
+            substantiae, sed quia quamdam proprietatem habet substantiae: sicut enim substantia est
+            fundamentum et basis omnium aliorum entium, ita fides est fundamentum totius spiritualis
+            aedificii. Et per hunc modum dicitur etiam quod lux est hypostasis coloris, quia in
+            natura lucis omnes colores fundantur.</p>
+          <p xml:id="ta-l3d23q2-d1e169">Ad secundum dicendum, quod in hoc quod dicit, <quote xml:id="ta-l3d23q2-Qd1e171">rerum sperandarum</quote>, non
+            intendit ponere objectum fidei, sed finem. Finis autem fidei ultimus quamvis sit ipsa
+            veritas, cujus visio pro fide redditur, non tamen verum dicit rationem finis. Sed cum
+            spes designet quemdam motum tendentis in finem, res speranda importat terminum illius
+            motus, et ita importat rationem finis. Finis autem quantum ad intentionem prius est in
+            omnibus habitibus qui ad voluntatem pertinent, quamvis sit posterius in adeptione.</p>
+          <p xml:id="ta-l3d23q2-d1e175">Ad tertium dicendum, quod amor est communiter et rei jam adeptae et rei adipiscendae;
+            spes autem est tantum rei adipiscendae: quia illud <quote xml:id="ta-l3d23q2-Qd1e177">quod videt quis, quid
+              sperat?</quote> Roman. 8, 24. Unde cum fides sit de non visis, res speranda importat
+            relationem ad finem proprium, secundum statum in quo est fides, non autem res diligenda;
+            et ideo magis dicit, <quote xml:id="ta-l3d23q2-Qd1e180">rerum sperandarum</quote> quam, diligendarum: quia definitio
+            ex propriis debet dari.</p>
+          <p xml:id="ta-l3d23q2-d1e184">Ad quartum dicendum, quod argumentum proprie dicitur processus rationis de notis ad
+            ignota manifestanda, secundum quod dicit Boetius, quod est ratio rei dubiae faciens
+            fidem. Et quia tota vis argumenti consistit in medio termino, ex quo ad ignotorum
+            probationem proceditur; ideo dicitur ipsum medium argumentum, sive sit signum, sive
+            causa, sive effectus. Et quia in medio termino, vel in principio ex quo argumentando
+            proceditur, continetur virtute totus processus argumentationis; ideo tractum est nomen
+            argumenti ad hoc quod quaelibet brevis praelibatio futurae narrationis dicatur
+            argumentum, sicut in epistolis Pauli singulis praemittuntur argumenta. Et quia
+            principium vel medium dicitur argumentum inquantum habet virtutem manifestandi
+            conclusionem, et haec virtus inest ei ex lumine intellectus agentis, cujus est
+            instrumentum, quia omnia quae arguuntur, a lumine manifestantur, ut dicitur Ephes. 5;
+            ideo ipsum lumen quo manifestantur principia, sicut principiis manifestantur
+            conclusiones, potest dici argumentum ipsorum principiorum. Et his tribus ultimis modis
+            potest dici fides argumentum. Primo inquantum ipsa fides est manifestativa alterius,
+            sive inquantum unus articulus manifestat alium, sicut resurrectio Christi resurrectionem
+            futuram; sive inquantum ex ipsis articulis quaedam alia in theologia syllogizantur; sive
+            inquantum fides unius hominis confirmat fidem alterius. Secundo potest dici argumentum,
+            inquantum est praelibatio futurae visionis, in qua veritas plenarie cognoscitur. Tertio
+            inquantum lumen infusum, quod est habitus fidei, manifestat articulos, sicut lumen
+            intellectus agentis manifestat principia naturaliter nota. Sed esse argumentum secundum
+            primum modum accidit fidei; et ideo in definitione fidei ponitur argumentum secundum
+            alterum duorum modorum ultimorum.</p>
+          <p xml:id="ta-l3d23q2-d1e187">Ad quintum dicendum, quod argumentum et substantia non ponuntur in definitione fidei
+            sicut genera, sed quasi actus, sicut consuetum est quod habitus definiuntur per actus,
+            quia ex eis cognoscuntur; et illorum actuum unus importat comparationem fidei ab
+            objectum, alius comparationem ejus ad finem ultimum, ut dictum est.</p>
+          <p xml:id="ta-l3d23q2-d1e190">Ad sextum dicendum, quod dubietas tollit firmitatem adhaesionis, quod non tollit hoc
+            quod dicitur non apparens; sed tollit tantum visionem rei creditae; et ideo non potuit
+            dici, dubiorum, quia fides habet firmam adhaesionem; sed dicitur, non apparentium, quia
+            non habet plenam visionem.</p>
+          <p xml:id="ta-l3d23q2-d1e194">Ad septimum dicendum, quod cognitio fidei ex voluntate procedit: quia nullus credit
+            nisi volens; et ideo non est mirum, si in definitione fidei ea quae ad affectionem
+            pertinent, his quae pertinent ad cognitionem, praeponuntur.</p>
+          <p xml:id="ta-l3d23q2-d1e197">Ad octavum dicendum, quod si definitio de re aliqua daretur quae complete
+            comprehenderet omnia principia rei, non esset unius rei nisi una definitio. Sed quia in
+            quibusdam definitionibus ponuntur quaedam principia sine aliis, ideo contingit variari
+            definitiones de una et eadem re. Definitio autem fidei data ab apostolo comprehendit
+            omnia principia fidei, ex quibus habitus consueverunt definiri, scilicet finem,
+            objectum, et actum; ex quibus etiam intelligitur genus et subjectum: quia ex actu
+            cognoscitur quae potentia sit subjectum fidei; et iterum ex actu cognoscitur habitus,
+            quod est genus fidei remotum; et ex fine cognoscitur virtus, quod est genus proximum. Et
+            hoc etiam ponit Damascenus dicens, quod <quote xml:id="ta-l3d23q2-Qd1e199">fides est rerum quae sperantur,
+              hypostasis, rerum quae non videntur, redargutio</quote>; et addit quoddam accidens
+            fidei, scilicet certitudinem, subdens: <quote xml:id="ta-l3d23q2-Qd1e202">injudicabilis species, et certa, et quae
+              comprehendi non potest, eorum quae a Deo nobis annuntiata sunt, et petitionum
+              nostrarum fruitionis</quote>, idest adimpletionis. Facit enim fides certitudinem et de
+            credendis, secundum quod est argumentum, et de adipiscendis, secundum quod est
+            substantia rerum sperandarum. Dionysius autem in libro de Divin. Nom., definit fidem
+            dicens: <quote xml:id="ta-l3d23q2-Qd1e205">fides est manens credentium collocatio, quae justos collocat in
+              virtute</quote>, et hoc est idem quod apostolus dicit: <quote xml:id="ta-l3d23q2-Qd1e208">substantia rerum
+              sperandarum</quote>. <name ref="#Augustine">Augustinus</name> autem dicit, quod fides est <quote xml:id="ta-l3d23q2-Qd1e215">virtus qua
+              creduntur quae non videntur</quote>; et hoc est idem quod dicit apostolus:
+              <quote xml:id="ta-l3d23q2-Qd1e218">argumentum non apparentium</quote>; et in idem redit quod Damascenus dicit,
+            quod fides est <quote xml:id="ta-l3d23q2-Qd1e221">non inquisitivus consensus</quote>: quia per hoc quod dicit,
+              <quote xml:id="ta-l3d23q2-Qd1e224">non inquisitivus</quote>, ostendit quod ea quae fidei sunt, non sunt pervia
+            rationi inquirenti. Hugo autem de sancto Victore definit fidem per aliquod ejus
+            accidens, scilicet certitudinem, dicens, quod fides est <quote xml:id="ta-l3d23q2-Qd1e227">certitudo quaedam animi
+              de absentibus supra opinionem et infra scientiam constituta</quote>. Et hoc etiam
+            accidens fidei potest haberi ex definitione apostoli ex hoc quod fides est
+              <quote xml:id="ta-l3d23q2-Qd1e230">argumentum non apparentium</quote>: argumentum enim importat certitudinem; unde
+            ponit scientiam supra opinionem: non apparentium vero importat absentiam cognoscibilis,
+            per quod ponitur fides sub scientia. Unde patet quod definitio apostoli includit omnes
+            alias definitiones de fide datas.</p>
+        </div>
+        <div xml:id="ta-l3d23q2-Dd1e235" type="articulus">
+          <head xml:id="ta-l3d23q2-Hd1e237">Articulus 2</head>
+
+          <head xml:id="ta-l3d23q2-Hd1e240" type="questionTitle">Utrum credere sit cum assensu cogitare</head>
+          <div xml:id="ta-l3d23q2-Dd1e243">
+            <head xml:id="ta-l3d23q2-Hd1e245">Quaestiuncula 1</head>
+            <p xml:id="ta-l3d23q2-d1e248">Ad secundum sic proceditur. Videtur quod credere non sit cum assensione cogitare, ut
+              dicit Augustinus. Assentire enim voluntatis esse videtur, sicut consentire. Sed
+              credere ad cognitionem pertinet. Ergo credere non est assentire.</p>
+            <p xml:id="ta-l3d23q2-d1e251">Praeterea, cogitare inquisitionem importat; quia cogitare est simul coagitare. Sed
+              fides, ut dicit Damascenus, est non inquisitivus consensus. Ergo credere, quod est
+              actus fidei, magis est assentire sine cogitatione, quam cum cogitatione.</p>
+            <p xml:id="ta-l3d23q2-d1e254">Praeterea, cogitare est actus cogitativae potentiae, quae ponitur a philosophis in
+              parte sensitiva, cum habeat organum determinatum. Sed ea quae sunt fidei, solus
+              intellectus percipit. Ergo credere non habet cogitationem adjunctam.</p>
+            <p xml:id="ta-l3d23q2-d1e257">Praeterea, si credere est cum assensione cogitare, est scire, et hujusmodi. Ergo
+              scire est idem quod credere; quod falsum est.</p>
+          </div>
+          <div xml:id="ta-l3d23q2-Dd1e261">
+            <head xml:id="ta-l3d23q2-Hd1e263">Quaestiuncula 2</head>
+            <p xml:id="ta-l3d23q2-d1e266">Ulterius. Videtur quod inconvenienter multiplicetur credere, secundum quod est actus
+              fidei. Unius enim habitus unus est actus, ex quo habitus per actus discernuntur. Sed
+              fides est unus habitus. Ergo tantum unus actus debet assignari.</p>
+            <p xml:id="ta-l3d23q2-d1e269">Praeterea, de eo quod demonstratur, non est fides, sed scientia: quia quod
+              demonstratur, non est non apparens. Sed Deum esse, demonstrative probatur etiam a
+              philosophis. Ergo actus fidei non est credere Deum esse.</p>
+            <p xml:id="ta-l3d23q2-d1e272">Praeterea, in actu fidei discernitur fidelis ab infideli. Sed nullus est ita
+              infidelis quin credat quod Deus non loquitur nisi verum. Ergo credere vera esse quae
+              Deus loquitur, non est actus fidei; sed magis credere vera esse quae nuntius Dei
+              loquitur: et sic credere homini magis est actus fidei quam credere Deo.</p>
+            <p xml:id="ta-l3d23q2-d1e275">Praeterea, fides et caritas sunt virtutes distinctae. Sed amare Deum est actus
+              caritatis. Ergo credendo amare non est actus fidei.</p>
+            <p xml:id="ta-l3d23q2-d1e279">Praeterea, per hoc quod homo Deum amat, in eum tendit et adhaeret ei, et membris ejus
+              incorporatur. Ergo videtur quod superflue ponatur ista verborum inculcatio.</p>
+          </div>
+          <div xml:id="ta-l3d23q2-Dd1e283">
+            <head xml:id="ta-l3d23q2-Hd1e285">Quaestiuncula 3</head>
+            <p xml:id="ta-l3d23q2-d1e288">Ulterius. Videtur quod actus fidei habeat minorem certitudinem quam actus scientiae.
+              Quia, ut dicit Hugo de sancto Victore, fides est certitudo de absentibus, infra
+              scientiam, et supra opinionem. Ergo sicut fides est certior quam opinio, ita est minus
+              certa quam scientia.</p>
+            <p xml:id="ta-l3d23q2-d1e291">Praeterea, certius est quod est dubitationi impermixtius, sicut albius est quod est
+              nigro impermixtius. Sed ea quae sunt scita, nullo modo possunt habere dubitationem; ea
+              autem quae sunt credita, possunt habere aliquem motum dubitationis salva fide. Ergo
+              fides non habet tantam certitudinem sicut scientia.</p>
+            <p xml:id="ta-l3d23q2-d1e294">Praeterea, omnis certitudo nostrae cognitionis procedit ex visione sensus, vel ex
+              visione intellectus. Sed fides est de his quae non videntur a sensu neque intellectu.
+              Ergo fides non habet aliquam certitudinem, ut videtur.</p>
+            <p xml:id="ta-l3d23q2-d1e297">Sed contra, Augustinus dicit, quod nihil est certius homini sua fide.</p>
+            <p xml:id="ta-l3d23q2-d1e301">Praeterea, quanto ratio quae facit fidem, firmior est, tanto fides est certior. Sed
+              scientiam facit ratio humana, quae in infinitum deficit a ratione divina, quae fidem
+              facit. Ergo fides est multo certior quam scientia.</p>
+          </div>
+          <div xml:id="ta-l3d23q2-Dd1e306">
+            <head xml:id="ta-l3d23q2-Hd1e308">Quaestiuncula 1</head>
+            <p xml:id="ta-l3d23q2-d1e311">Respondeo dicendum ad primam quaestionem, quod, sicut dicit philosophus in 3 de
+              anima, duplex est operatio intellectus. Una quae comprehendit quidditates simplices
+              rerum; et haec operatio vocatur a philosophis formatio vel simplex intelligentia; et
+              huic intellectui respondet vox incomplexa significans hunc intellectum: unde sicut in
+              voce incomplexa non invenitur veritas et falsitas, ita nec in hac operatione
+              intellectus: et ideo sicut vox incomplexa propter hoc quod non est in ea veritas et
+              falsitas, non conceditur nec negatur; ita secundum hanc operationem intellectus non
+              assentit vel dissentit: et propter hoc in hac operatione non potest inveniri fides,
+              cujus est assentire; sed in alia operatione, qua intellectus componit et dividit, in
+              qua jam invenitur verum et falsum, sicut in enuntiatione: et propter hoc intellectus
+              in hac sua operatione assentit vel dissentit, sicut et enuntiatio conceditur aut
+              negatur: et ideo in hac operatione invenitur fides, quae habet assensum. Cum autem ab
+              assentiendo sententia dicatur, quae, ut dicit Isaac, est determinata acceptio alterius
+              partis contradictionis; oportet quod qui assentit, intellectum ad alteram partem
+              contradictionis determinet. Quod quidem contingit tripliciter, secundum triplicem
+              nostri intellectus considerationem. Potest enim intellectus noster considerari uno
+              modo secundum se; et sic determinatur ex praesentia intelligibilis, sicut materia
+              determinatur ex praesentia formae: et hoc quidem contingit in his quae statim lumine
+              intellectus agentis intelligibilia fiunt, sicut sunt prima principia, quorum est
+              intellectus: et similiter determinatur judicium sensitivae partis ex hoc quod
+              sensibile subjacet sensibus, quorum principalior et certior est visus; et ideo
+              praedicta cognitio intellectus vocatur visio. Alio modo potest considerari intellectus
+              noster secundum ordinem ad rationem, quae ad intellectum terminatur, dum resolvendo
+              conclusiones in principia per se nota, earum certitudinem efficit: et hoc est assensus
+              scientiae. Tertio modo consideratur intellectus in ordine ad voluntatem; quae quidem
+              omnes vires animae ad actus suos movet: et haec quidem voluntas determinat intellectum
+              ad aliquid quod neque per seipsum videtur, neque ad ea quae per se videntur, resolvi
+              posse determinat, ex hoc quod dignum reputat illi esse adhaerendum propter aliquam
+              rationem, qua bonum videtur ei illi rei adhaerere; quamvis illa ratio ad intellectum
+              terminandum non sufficiat propter imbecillitatem intellectus, qui non videt per se hoc
+              cui assentiendum ratio judicat; neque ipsum ad principia per se nota resolvere valet:
+              et hoc assentire proprie vocatur credere. Unde et fides captivare dicitur intellectum,
+              inquantum non secundum proprium motum ad aliquid determinatur, sed secundum imperium
+              voluntatis: et sic in credente ratio per se intellectum non terminat, sed mediante
+              voluntate. Quando vero ratio quae movet ad alteram partem, neque sufficit ad
+              intellectum terminandum, quia non resolvit conclusiones in principia per se nota;
+              neque sufficit ad voluntatem terminandum, ut bonum videatur illi parti adhaerere: tunc
+              homo opinatur illud cui adhaeret, et non terminatur intellectus ad unum, quia semper
+              remanet motus ad contrarium: accipit enim unam partem cum formidine alterius; et ideo
+              opinans non assentit. Quando vero homo non habet rationem ad alteram partem magis quam
+              ad alteram; vel quia ad neutram habet, quod nescientis est; vel quia ad utramque
+              habet, sed aequalem, quod dubitantis est: tunc nullo modo assentit, cum nullo modo
+              determinetur ejus judicium, sed aequaliter se habeat ad diversas. Patet ergo ex
+              praedictis, quod cum assensione cogitare separat credentem ab omnibus aliis. Cum enim
+              cogitatio discursum rationis importet, intelligens assensum sine cogitatione habet:
+              quia intellectus principiorum est, quae quisque statim probat audita, secundum Boetium
+              in Lib. de hebdomadibus. Sciens autem et assensum et cogitationem habet; sed non
+              cogitationem cum assensu, sed cogitationem ante assensum: quia ratio ad intellectum
+              resolvendo perducit, ut dictum est; credens autem habet assensum simul et
+              cogitationem; quia intellectus ad principia per se nota non perducitur: unde, quantum
+              est in se, adhuc habet motum ad diversa, sed ab extrinseco determinatur ad unum,
+              scilicet ex voluntate. Opinans autem habet cogitationem sine assensu perfecto; sed
+              habet aliquid assensus, inquantum adhaeret uni magis quam alii. Dubitans autem nihil
+              habet de assensu, sed habet cogitationem. Nesciens autem neque assensum neque
+              cogitationem habet.</p>
+            <p xml:id="ta-l3d23q2-d1e314">Ad primum ergo dicendum, quod quia sensus non habet se ad multa, sed determinate unum
+              accipit, quia non confert; ideo determinatio potentiae, etiam superioris, a sensu
+              denominatur, sed differenter: quia determinatio cogitationis ad aliquid, dicitur
+              assensus, quia aliquid non praecedit; determinatio autem voluntatis ad unum, dicitur
+              consensus, quia cogitationem praesupponit, cum qua simul sentit, dum in illud tendit
+              quod ratio bonum esse judicat. Et ideo consentire dicitur voluntatis, sed assentire
+              intellectus.</p>
+            <p xml:id="ta-l3d23q2-d1e317">Ad secundum dicendum, quod per hoc quod dicit Damascenus, quod fides est non
+              inquisitivus assensus, excluditur inquisitio rationis intellectum terminantis, non
+              inquisitio voluntatem inclinans: et ex hoc ipso quod intellectus terminatus non est,
+              remanet motus intellectui, inquantum naturaliter tendit in sui determinationem. Unde
+              fides consistit media inter duas cogitationes: quarum una voluntatem inclinat ad
+              credendum, et haec praecedit fidem; illa vero tendit ad intellectum eorum quae jam
+              credit: et haec est simul cum assensu fidei; unde dicitur <ref xml:id="ta-l3d23q2-Rd1e319"><title ref="#is">Isaiae</title> 7, 9:</ref> <quote xml:id="ta-l3d23q2-Qd1e324" ana="#is7_9">si non
+                credideritis, non intelligetis</quote>.</p>
+            <p xml:id="ta-l3d23q2-d1e328">Ad tertium dicendum, quod illa potentia quae a philosophis dicitur cogitativa, est in
+              confinio sensitivae et intellectivae partis, ubi pars sensitiva intellectivam
+              attingit. Habet enim aliquid a parte sensitiva, scilicet quod consideret formas
+              particulares; et habet aliquid ab intellectiva, scilicet quod conferat; unde et in
+              solis hominibus est. Et quia pars sensitiva notior est quam intellectiva, ideo sicut
+              determinatio intellectivae partis a sensu denominatur, ut dictum est, ita collatio
+              omnis intellectus a cogitatione nominatur.</p>
+            <p xml:id="ta-l3d23q2-d1e332">Ad quartum dicendum, quod jam patet ex dictis quod illa assignatio soli credenti
+              convenit.</p>
+          </div>
+          <div xml:id="ta-l3d23q2-Dd1e336">
+            <head xml:id="ta-l3d23q2-Hd1e338">Quaestiuncula 2</head>
+            <p xml:id="ta-l3d23q2-d1e341">Ad secundam quaestionem dicendum, quod sicut ex praedictis patet, actus credentis ex
+              tribus dependet, scilicet ex intellectu, qui terminatur ad unum; ex voluntate, quae
+              determinat intellectum per suum imperium; et ex ratione, quae inclinat voluntatem: et
+              secundum hoc tres actus assignantur fidei. Ex hoc enim quod intellectus terminatur ad
+              unum, actus fidei est credere Deum, quia objectum fidei est Deus secundum quod in se
+              consideratur, vel aliquid circa ipsum, vel ab ipso. Ex hoc vero quod intellectus
+              determinatur a voluntate, secundum hoc actus fidei est credere in Deum, idest amando
+              in eum tendere: est enim voluntatis amare. Secundum autem quod ratio voluntatem
+              inclinat ad actus fidei, est credere Deo: ratio enim qua voluntas inclinatur ad
+              assentiendum his quae non videt, est quia Deus ea dicit: sicut homo in his quae non
+              videt, credit testimonio alicujus boni viri qui videt ea quae ipse non videt.</p>
+            <p xml:id="ta-l3d23q2-d1e344">Ad primum ergo dicendum, quod per omnia praedicta non nominatur nisi unus completus
+              actus fidei; sed ex diversis quae in fide inveniuntur diversimode nominatur: illo enim
+              actu quo credit in Deum, credit Deo, et credit Deum.</p>
+            <p xml:id="ta-l3d23q2-d1e347">Ad secundum dicendum, quod quamvis Deum esse, simpliciter possit demonstrari; tamen
+              Deum esse trinum et unum, et alia hujusmodi, quae fides in Deo credit, non possunt
+              demonstrari; secundum quae est actus fidei credere Deum.</p>
+            <p xml:id="ta-l3d23q2-d1e350">Ad tertium dicendum, quod fidelis credit homini non inquantum homo, sed inquantum
+              Deus in eo loquitur, quod ex certis experimentis colligere potest: infidelis autem non
+              credit Deo in homine loquenti.</p>
+            <p xml:id="ta-l3d23q2-d1e354">Ad quartum dicendum, quod amare simpliciter est actus caritatis: sed amando credere
+              est actus fidei per caritatem motae ad actum suum.</p>
+            <p xml:id="ta-l3d23q2-d1e357">Ad quintum dicendum, quod illa quatuor pertinent ad fidem secundum ordinem ad
+              voluntatem, ut dictum est; voluntas autem est finis; et ideo ista quatuor
+              distinguuntur secundum ea quae exiguntur ad consecutionem finis. Praeexigitur enim
+              primo affectio ad finem; et ad hoc pertinet credendo amare. Ex amore autem et
+              desiderio finis aliquis in finem incipit moveri; et ad hoc pertinet credendo in eum
+              ire. Motus autem ad finem perducit ad hoc quod aliquis fini conjungatur; et ad hoc
+              pertinet credendo ei adhaerere. Ex conjunctione autem ad finem aliquis in
+              participationem perfectionum finis perducitur; et ad hoc pertinet credendo membris
+              ejus incorporari.</p>
+          </div>
+          <div xml:id="ta-l3d23q2-Dd1e361">
+            <head xml:id="ta-l3d23q2-Hd1e363">Quaestiuncula 3</head>
+            <p xml:id="ta-l3d23q2-d1e366">Ad tertiam quaestionem dicendum, quod certitudo nihil aliud est quam determinatio
+              intellectus ad unum. Tanto autem major est certitudo, quanto est fortius quod
+              determinationem causat. Determinatur autem intellectus ad unum tripliciter, ut dictum
+              est. In intellectu enim principiorum causatur determinatio ex hoc quod aliquid per
+              lumen intellectus sufficienter inspici per ipsum potest. In scientia vero conclusionum
+              causatur determinatio ex hoc quod conclusio secundum actum rationis in principia per
+              se visa resolvitur: in fide vero ex hoc quod voluntas intellectui imperat. Sed quia
+              voluntas hoc modo non determinat intellectum ut faciat inspici quae creduntur, sicut
+              inspiciuntur principia per se nota, vel quae in ipsa resolvuntur; sed hoc modo ut
+              intellectus firmiter adhaereat; ideo certitudo quae est in scientia et intellectu, est
+              ex ipsa evidentia eorum quae certa esse dicuntur; certitudo autem fidei est ex firma
+              adhaesione ad id quod creditur. In his ergo quae per fidem credimus, ratio voluntatem
+              inclinans, ut dictum est, est ipsa veritas prima, sive Deus, cui creditur, quae habet
+              majorem firmitatem quam lumen intellectus humani, in quo conspiciuntur principia, vel
+              ratio humana, secundum quam conclusiones in principia resolvuntur; et ideo fides habet
+              majorem certitudinem quantum ad firmitatem adhaesionis, quam sit certitudo scientiae
+              vel intellectus: quamvis in scientia et intellectu sit major evidentia eorum quibus
+              assentitur.</p>
+            <p xml:id="ta-l3d23q2-d1e369">Ad primum ergo dicendum, quod certitudo fidei dicitur media inter certitudinem
+              scientiae et opinionis non intensive per modum quantitatis continuae, sed extensive
+              per modum numeri. Certitudo enim scientiae consistit in duobus, scilicet in evidentia,
+              et firmitate adhaesionis. Certitudo autem fidei consistit in uno tantum, scilicet in
+              firmitate adhaesionis. Certitudo vero opinionis in neutro. Quamvis certitudo fidei, de
+              qua loquimur, quantum ad illud unum sit vehementior quam certitudo scientiae quantum
+              ad illa duo. Vel dicendum, quod loquitur de fide quae est opinio firmata rationibus,
+              non autem de fide infusa.</p>
+            <p xml:id="ta-l3d23q2-d1e372">Ad secundum dicendum, quod credenti accidit aliquis motus dubitationis ex hoc quod
+              intellectus ejus non est secundum se terminatus in sui intelligibilis visione, sicut
+              est in scientia et intellectu, sed solum ex imperio voluntatis; et ideo sciens quantum
+              ad id non recedit a dubietate magis quam credens; sed credens secundum firmitatem
+              adhaesionis magis recedit quam sciens secundum illa duo.</p>
+            <p xml:id="ta-l3d23q2-d1e375">Ad tertium dicendum, quod ratio illa ex insufficienti procedit, ut dictum est.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l3d23q2-Dd1e381">
+          <head xml:id="ta-l3d23q2-Hd1e383">Articulus 3</head>
+
+          <head xml:id="ta-l3d23q2-Hd1e386">Utrum fides sit in voluntate sicut in subjecto</head>
+          <div xml:id="ta-l3d23q2-Dd1e389">
+            <head xml:id="ta-l3d23q2-Hd1e391">Quaestiuncula 1</head>
+            <p xml:id="ta-l3d23q2-d1e394">Ad tertium sic proceditur. Videtur quod fides sit in voluntate sicut in subjecto.
+              Quia, secundum Hugonem de Sanct. Vict., fides habet in cogitatione materiam, sed in
+              affectu substantiam. Sed illud est subjectum accidentis ubi est sua essentia quae
+              substantia dicitur. Ergo fides est in affectu sicut in subjecto.</p>
+            <p xml:id="ta-l3d23q2-d1e397">Praeterea, sicut certitudo scientiae est ex intellectu, ita certitudo fidei est ex
+              voluntate: quia credere non potest homo, nisi velit, ut dicit Augustinus. Sed
+              subjectum scientiae est intellectus. Ergo eadem ratione subjectum fidei est
+              voluntas.</p>
+            <p xml:id="ta-l3d23q2-d1e400">Praeterea, meritum in voluntate consistit. Sed actus fidei est meritorius. Ergo est
+              actus voluntatis.</p>
+            <p xml:id="ta-l3d23q2-d1e403">Praeterea, opposita sunt circa idem. Sed infidelitas est in voluntate, quia secundum
+              quod est in intellectu, habet ignorantiam, quae non est peccatum, sed excusat. Ergo
+              fides est in voluntate.</p>
+            <p xml:id="ta-l3d23q2-d1e407">Sed contra, objectum habitus concordat objecto potentiae, quae est ejus subjectum.
+              Sed objectum fidei est verum, quod est objectum intellectus; non autem bonum quod est
+              objectum voluntatis. Ergo subjectum fidei non est voluntas sed intellectus.</p>
+            <p xml:id="ta-l3d23q2-d1e410">Praeterea, ad eamdem vim pertinet fides et id quod fidei succedit in gloria. Sed id
+              quod fidei succedit, scilicet visio, pertinet ad intellectum. Ergo et fides.</p>
+          </div>
+          <div xml:id="ta-l3d23q2-Dd1e414">
+            <head xml:id="ta-l3d23q2-Hd1e416">Quaestiuncula 2</head>
+            <p xml:id="ta-l3d23q2-d1e419">Ulterius. Videtur quod pertineat ad intellectum practicum. Sicut enim dicit
+              philosophus in 3 de anima, intellectus speculativus nihil dicit de fugiendo vel
+              amabili. Sed per fidem instruimur quid vitare debeamus. Ergo fides est in intellectu
+              practico.</p>
+            <p xml:id="ta-l3d23q2-d1e422">Praeterea, intellectus speculativus proportionaliter respondet imaginationi, sicut
+              intellectus practicus aestimationi, quae est in parte sensitiva. Sed imaginatio non
+              facit confidentiam et terrorem, ut dicitur in 2 de anima, immo per eam nos habemus ad
+              terribilia ac si essemus in pictura considerantes. Ergo nec intellectus speculativus.
+              Sed fides est principium spei et facit tremorem: quia Daemones credunt et
+              contremiscunt, ut dicitur Jacob. 1. Ergo fides non est in intellectu speculativo.</p>
+            <p xml:id="ta-l3d23q2-d1e425">Praeterea, intellectus speculativus non permiscetur voluntati, sed practicus. Fides
+              autem consistit in intellectu et voluntate, ut dictum est. Ergo subjectum ejus non est
+              intellectus speculativus sed practicus.</p>
+            <p xml:id="ta-l3d23q2-d1e428">Sed contra, intellectus practicus est contingentium operabilium a nobis. Sed fides
+              est aeternorum. Ergo fides non est in intellectu practico.</p>
+            <p xml:id="ta-l3d23q2-d1e432">Praeterea, cognitio practica est causa cognitorum. Sed fides non est causa rerum quae
+              creduntur. Ergo non est in intellectu practico.</p>
+          </div>
+          <div xml:id="ta-l3d23q2-Dd1e436">
+            <head xml:id="ta-l3d23q2-Hd1e438">Quaestiuncula 3</head>
+            <p xml:id="ta-l3d23q2-d1e441">Ulterius. Videtur quod sit virtus intellectualis. Virtus enim intellectualis est quae
+              habet pro subjecto intellectum. Sed fidei subjectum est intellectus. Ergo est virtus
+              intellectualis.</p>
+            <p xml:id="ta-l3d23q2-d1e444">Praeterea, articuli fidei, quorum est fides, sunt sicut principia in aliis scientiis,
+              ex quibus procedit theologia. Sed intellectus principiorum est virtus intellectualis,
+              ut patet per philosophum in 6 Ethic. Ergo et fides articulorum est virtus
+              intellectualis.</p>
+            <p xml:id="ta-l3d23q2-d1e447">Praeterea, virtus intellectualis, ut dicit philosophus in 6 Ethic., est per quam non
+              dicitur nisi verum. Sed fidei falsum subesse non potest. Ergo fides est virtus
+              intellectualis.</p>
+            <p xml:id="ta-l3d23q2-d1e450">Sed contra est quod philosophus dicit in 6 Ethic., quod suspicio non est virtus
+              intellectualis, sicut nec opinio; et eadem ratione nec fides, quae est ex eorum
+              genere.</p>
+            <p xml:id="ta-l3d23q2-d1e454">Praeterea, virtus est ultimum in re de potentia, ut dicitur in 1 de caelo et Mun. Sed
+              fides non ponit intellectum in ultimum sui, quia per ipsam intellectus non terminatur
+              in aliqua visione. Ergo fides non est virtus intellectualis.</p>
+          </div>
+          <div xml:id="ta-l3d23q2-Dd1e459">
+            <head xml:id="ta-l3d23q2-Hd1e461">Quaestiuncula 1</head>
+            <p xml:id="ta-l3d23q2-d1e464">Respondeo dicendum ad primam quaestionem, quod voluntas importat actum intellectus
+              sicut et actum irascibilis et concupiscibilis. Ad hoc autem quod actus irascibilis et
+              concupiscibilis sit perfectus, oportet quod non solum sit aliquis habitus in voluntate
+              vel ratione imperante, sed etiam quod sit aliquis habitus in irascibili et
+              concupiscibili exequente, ut faciliter actum exequatur; unde et oportet aliquem
+              habitum esse in intellectu ad hoc quod voluntati faciliter obediat in his quae sunt
+              supra rationem; et hoc est habitus fidei; et ideo subjectum fidei est intellectus.</p>
+            <p xml:id="ta-l3d23q2-d1e467">Ad primum ergo dicendum, quod substantia non sumitur ibi pro essentia, sed pro forma.
+              Fidei autem forma quodammodo est caritas, ut infra patebit, quae in voluntate est.</p>
+            <p xml:id="ta-l3d23q2-d1e470">Ad secundum dicendum, quod scientia et intellectus habent certitudinem per id quod ad
+              cognitionem pertinet, scilicet evidentiam ejus cui assentitur; fides autem habet
+              certitudinem ab eo quod est extra genus cognitionis, in genere affectionis existens;
+              et ideo scientia et intellectus est sicut in subjecto in eo a quo habet certitudinem,
+              non autem fides.</p>
+            <p xml:id="ta-l3d23q2-d1e473">Ad tertium dicendum, quod meritum consistit in voluntate sicut in causa, inquantum
+              ipsa semper importat actum meritorium; non autem semper in ipsa est sicut in subjecto:
+              quia actus meritorius quandoque elicitur ab aliis potentiis.</p>
+            <p xml:id="ta-l3d23q2-d1e477">Ad quartum dicendum, quod infidelitas est etiam in intellectu sicut in subjecto; in
+              voluntate autem sicut in imperante infidelitatis actum ut est, actus infidelitatis
+              demeritorius.</p>
+          </div>
+          <div xml:id="ta-l3d23q2-Dd1e481">
+            <head xml:id="ta-l3d23q2-Hd1e483">Quaestiuncula 2</head>
+            <p xml:id="ta-l3d23q2-d1e486">Ad secundam quaestionem dicendum, quod intellectus speculativus et practicus in hoc
+              differunt quod intellectus speculativus considerat verum absolute, practicus autem
+              considerat verum in ordine ad opus. Contingit autem quandoque quod verum ipsum quod in
+              se considerabatur, non potest considerari ut regula operis, sicut accidit in
+              mathematicis, et in his quae a motu separata sunt; unde hujusmodi veri consideratio
+              est tantum in intellectu speculativo. Quandoque autem verum quod in re consideratur,
+              potest ut regula operis considerari: et tunc intellectus speculativus fit practicus
+              per extensionem ad opus. Hoc autem contingit dupliciter. Quia aliquando illud verum
+              quod utroque modo potest considerari, non habet magnam utilitatem, nisi inquantum
+              ordinatur ad opus: quia cum sit contingens, non habet fixam veritatem: sicut est
+              consideratio de operibus virtutum; et tunc talis consideratio, quamvis possit esse et
+              speculativi et practici intellectus, tamen principaliter est practici intellectus.
+              Aliquando vero illius veri consideratio habet in se dignitatem quamdam, etiam si
+              nunquam ad opus ordinetur, sicut accidit in consideratione divinorum, quorum cognitio
+              dirigit in opere; et tamen visio Dei est ultimus finis operis; et tunc illa
+              consideratio principaliter est in intellectu speculativo, et secundario in practico.
+              Cum ergo fidei objectum proprium sit veritas prima, quae, inquantum est finis operis,
+              regulat in opere: fides principaliter erit in intellectu speculativo, et secundario in
+              practico: quia intellectus speculativus et practicus non sunt diversae potentiae, sed
+              differunt fine, ut dicitur in 2 Metaphys., et 3 de anima, inquantum practicus
+              ordinatur ad opus, speculativus autem ad veritatis inspectionem tantum.</p>
+            <p xml:id="ta-l3d23q2-d1e489">Ad primum ergo dicendum, quod fides inclinat ad operandum et fugiendum, inquantum
+              illud verum quod in se considerari potest, accipitur ut regula operis.</p>
+            <p xml:id="ta-l3d23q2-d1e492">Ad secundum dicendum, quod inquantum verum quod fides considerat, accipitur ut
+              conveniens vel contrarium, secundum hoc fides inducit vel tremorem vel spem vel
+              aliquid hujusmodi.</p>
+            <p xml:id="ta-l3d23q2-d1e495">Ad tertium dicendum, quod conjunctio intellectus ad voluntatem non facit intellectum
+              practicum, sed ordinatio ejus ad opus: quia voluntas communis est et speculativo et
+              practico: voluntas enim est finis; sed finis invenitur in speculativo et practico
+              intellectu.</p>
+          </div>
+          <div xml:id="ta-l3d23q2-Dd1e499">
+            <head xml:id="ta-l3d23q2-Hd1e501">Quaestiuncula 3</head>
+            <p xml:id="ta-l3d23q2-d1e504">Ad tertiam quaestionem dicendum, quod cum virtus ponat potentiam in ultimo quantum ad
+              actum, non sufficit ad rationem virtutis quod potentia per actum ponatur in ultimo
+              quantum ad objectum, sed oportet quod ponatur in ultimo quantum ad modum agendi, ut
+              scilicet actus sit bonus non solum ex eo quod bonum est quod fit, sed eo quod bene
+              fit, sicut patet in virtutibus moralibus. Bonum autem intellectus est verum, quod est
+              finis et perfectio ejus. Unde non sufficit ad rationem virtutis intellectualis quod
+              per eam cognoscatur verum; sed oportet quod actus quo verum consideratur, sit
+              perfectus etiam ex modo, ut bene quis intelligat. Bene autem operari intellectum, non
+              contingit ex hoc quod ex bona voluntate ejus operatio procedit, ut dictum est; sed
+              efficacia intellectus ad objectum proprium conspiciendum vel in se vel per
+              resolutionem ad id quod in se conspicitur. Fides autem per actum suum ponit
+              intellectum in ultimo quantum ad objectum, inquantum facit assentire primae veritati;
+              non autem quantum ad modum proprium ipsius intellectus: quia intellectus noster non
+              est per fidem tantae efficaciae, ut id quod credit, inspicere per se possit, vel ad ea
+              quae inspicit reducere; et ideo fides non est virtus intellectualis.</p>
+            <p xml:id="ta-l3d23q2-d1e507">Ad primum ergo dicendum, quod non omnis habitus qui habet pro subjecto intellectum
+              potest dici virtus intellectualis, nisi perficiat intellectum et quantum ad objectum
+              et quantum ad modum actus.</p>
+            <p xml:id="ta-l3d23q2-d1e510">Ad secundum dicendum, quod ad principia aliarum scientiarum videnda sufficit lumen
+              intellectus agentis; et ideo habitus illorum principiorum est virtus; sed ad visionem
+              articulorum neque lumen intellectus agentis sufficit, neque lumen fidei; et ideo non
+              est virtus intellectualis.</p>
+            <p xml:id="ta-l3d23q2-d1e513">Ad tertium dicendum, quod hoc quod fides non errat, sed semper verum dicit, non est
+              ex perfecto modo intelligendi, sed magis ex alio quod est extra intellectum, scilicet
+              ex infallibili ratione, quae dirigit voluntatem.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l3d23q2-Dd1e518" type="articulus">
+          <head xml:id="ta-l3d23q2-Hd1e520">Articulus 4</head>
+
+          <head xml:id="ta-l3d23q2-Hd1e523" type="articulus">Utrum fides sit virtus, et utrum sit habitus</head>
+          <div xml:id="ta-l3d23q2-Dd1e526">
+            <head xml:id="ta-l3d23q2-Hd1e528">Quaestiuncula 1</head>
+            <p xml:id="ta-l3d23q2-d1e531">Ad quartum sic proceditur. Videtur quod fides nullo modo sit virtus. Nulla enim
+              virtus praeter intellectualem habet verum pro objecto, nec est habitus cognitivus, sed
+              operativus. Sed fides est habitus cognitivus, et habet verum pro objecto. Ergo cum non
+              sit virtus intellectualis, videtur quod nullo modo possit dici virtus.</p>
+            <p xml:id="ta-l3d23q2-d1e534">Praeterea, credere videtur univoce dici, secundum quod dicimur aliis credere. Sed
+              fides aliorum non est virtus. Ergo nec fides articulorum.</p>
+            <p xml:id="ta-l3d23q2-d1e537">Praeterea, omne quod est contra rationem, est vituperabile: quia malum hominis est
+              contra rationem esse, ut dicit Dionysius. Sed fides cum faciat abnegare rationem,
+              videtur contra rationem esse. Ergo credere est vituperabile; ergo fides non est
+              virtus.</p>
+            <p xml:id="ta-l3d23q2-d1e540">Praeterea, sicut per fidem cognoscimus ea quae sunt supra rationem, ita et per
+              prophetiam. Sed prophetia non dicitur virtus. Ergo nec fides.</p>
+            <p xml:id="ta-l3d23q2-d1e544">Praeterea, in Deo dicuntur esse virtutes exemplares. Sed fides non habet exemplar in
+              Deo. Ergo fides non est virtus.</p>
+            <p xml:id="ta-l3d23q2-d1e547">Sed contra, nihil justificat nisi virtus. Sed fides justificat; <ref xml:id="ta-l3d23q2-Rd1e549"><title ref="#rom">Rom.</title> 5, 1:</ref>
+                <quote xml:id="ta-l3d23q2-Qd1e554" ana="#rom5_1">justificati ergo ex fide</quote>. Ergo fides est virtus.</p>
+            <p xml:id="ta-l3d23q2-d1e558">Praeterea, vita spiritualis est per virtutem. Est autem vita spiritualis per fidem,
+              ut dicitur Rom. 1 et 2. Ergo fides est virtus.</p>
+            <p xml:id="ta-l3d23q2-d1e561">Praeterea, per virtutes efficimur filii Dei. Hoc autem fit per fidem; <ref xml:id="ta-l3d23q2-Rd1e563"><title ref="#io">Joan.</title> 1, 12:</ref>
+                <quote xml:id="ta-l3d23q2-Qd1e568" ana="#io1_12">dedit eis potestatem filios Dei fieri, his qui credunt in nomine
+              ejus</quote>. Ergo fides est virtus.</p>
+          </div>
+          <div xml:id="ta-l3d23q2-Dd1e573">
+            <head xml:id="ta-l3d23q2-Hd1e575">Quaestiuncula 2</head>
+            <p xml:id="ta-l3d23q2-d1e578">Ulterius. Videtur quod fides non sit una virtus. Quidam enim articuli fidei sunt de
+              aeternis, ut qui pertinent ad Trinitatem personarum; quidam vero de temporalibus,
+              sicut qui pertinent ad incarnationem Christi. Sed scientia et sapientia sunt diversa
+              dona per hoc quod sunt de temporalibus et aeternis. Ergo fides non est una virtus.</p>
+            <p xml:id="ta-l3d23q2-d1e581">Praeterea, spes et timor differunt per hoc quod spes est de bonis futuris, timor vero
+              de malis. Sed fides est de utrisque, quia est de suppliciis et praemiis. Ergo fides
+              non est una virtus.</p>
+            <p xml:id="ta-l3d23q2-d1e584">Praeterea, ad fidem pertinent multa quae sunt moralis philosophiae, sicut
+              fornicationem esse mortale peccatum; et quae sunt naturalis, sicut mundum non esse
+              aeternum; et quae sunt philosophiae primae, sicut Deum habere curam de actibus
+              humanis. Ergo videtur quod fides non sit unus habitus.</p>
+            <p xml:id="ta-l3d23q2-d1e587">Sed contra, <ref xml:id="ta-l3d23q2-Rd1e589"><title ana="#eph">Ephes.</title> 4, 5:</ref>
+              <quote xml:id="ta-l3d23q2-Qd1e594" ana="#eph4_5">una fides</quote>.</p>
+            <p xml:id="ta-l3d23q2-d1e599">Praeterea, sicut prudentia dirigit intentionem in politicis, ita fides in gratuitis,
+              ut dicit Augustinus. Sed prudentia est una, quamvis in diversis intentionem dirigat.
+              Ergo et fides.</p>
+          </div>
+          <div xml:id="ta-l3d23q2-Dd1e603">
+            <head xml:id="ta-l3d23q2-Hd1e605">Quaestiuncula 1</head>
+            <p xml:id="ta-l3d23q2-d1e608">Respondeo dicendum ad primam quaestionem, quod, sicut supra dictum est, cum virtutis
+              sit reddere opus bonum, operatio potest dici bona vel formaliter, inquantum procedit
+              ex potentia quae movetur in bonum secundum rationem boni, vel materialiter, secundum
+              quod est congruus et connaturalis potentiae. Et utroque modo actus fidei est bonus;
+              quia et congruit intellectui inquantum est verorum; et iterum procedit a voluntate
+              imperante, quae movetur in bonum quasi in objectum. Ex parte autem intellectus,
+              quamvis habeat bonitatem ratione objecti, non tamen habet perfectionem, quia deficit
+              modus, ut dictum est, eo quod non habeat conspicuam veritatem, cui adhaeret. Sed ex
+              parte voluntatis potest habere perfectionem; inquantum voluntas perfecta in appetitu
+              boni firmitatem et certitudinem facit in fide: et ideo Bernardus dicit, quod fides est
+                <quote xml:id="ta-l3d23q2-Qd1e610">voluntaria quaedam et certa praelibatio nondum propalatae veritatis</quote>.
+              Unde patet quod fides est virtus, non quidem intellectualis, sed eo modo quo
+              communiter loquimur de virtute, quae producit actum bonum ex bonitate voluntatis
+              procedentem. Nec tamen est virtus moralis: quia non est ordinativa appetitus
+              sensibilis, ut consistat circa delectationes et tristitias et operationes, sicut circa
+              materiam et objectum: sed est virtus theologica; quod quidem genus philosophi non
+              cognoverunt.</p>
+            <p xml:id="ta-l3d23q2-d1e614">Ad primum ergo dicendum, quod prima propositio habet veritatem de virtutibus quas
+              philosophi cognoverunt, qui praeter intellectuales, nullas virtutes nisi morales
+              posuerunt.</p>
+            <p xml:id="ta-l3d23q2-d1e617">Ad secundum dicendum, quod ratio inclinans voluntatem ad credendum articulos, est
+              ipsa veritas prima, quae est infallibilis; sed ratio quae inclinat voluntatem ad
+              credendum alia, est vel aliquod signum fallibile, vel dictum alicujus scientis, qui et
+              falli et fallere potest: unde voluntas non dat infallibilem veritatem intellectui
+              credenti alia credibilia, sicut dat infallibilem veritatem credendi articulos fidei:
+              et propter hoc haec fides est virtus et non alia.</p>
+            <p xml:id="ta-l3d23q2-d1e620">Ad tertium dicendum, quod fides non est contra rationem, sed supra rationem: et ideo
+              non dicitur abnegare rationem quasi rationem veram destruens, sed quasi eam captivans
+              in obsequium Christi, ut dicit apostolus 2 Corinth. 10.</p>
+            <p xml:id="ta-l3d23q2-d1e624">Ad quartum dicendum, quod prophetia nullo modo potest esse virtus: neque
+              intellectualis, cum non perficiatur per eam operatio intellectus secundum modum
+              intellectui connaturalem: quia ea quae per prophetiam revelantur, non possunt resolvi
+              ad principia naturaliter cognita: neque est virtus theologica, quia non habet Deum pro
+              objecto, sed res temporales: neque iterum actus intellectus per prophetam a voluntate
+              imperatur.</p>
+            <p xml:id="ta-l3d23q2-d1e627">Ad quintum dicendum, quod fides habet exemplar in Deo quantum ad id quod perfectionis
+              in ipsa est, scilicet cognitionem et certitudinem, sed non quantum ad id quod est
+              imperfectionis: ex hoc enim non habet rationem virtutis.</p>
+          </div>
+          <div xml:id="ta-l3d23q2-Dd1e632">
+            <head xml:id="ta-l3d23q2-Hd1e634">Quaestiuncula 2</head>
+            <p xml:id="ta-l3d23q2-d1e637">Ad secundam quaestionem dicendum, quod habitus multitudinem et unitatem habet ex
+              objecto. Objectum autem fidei est veritas prima, quae est simplex et invariabilis. Et
+              ideo in fide invenitur duplex unitas: ex hoc enim quod unum et simplex est cui fides
+              innititur, habitus fidei in habente non dividitur in plures habitus: ex hoc autem quod
+              veritas est, habet potentiam uniendi diversos habentes fidem in similitudinem unius
+              fidei, quae attenditur secundum idem creditum: quia, sicut dicit Dionysius, veritas
+              habet vim colligendi et uniendi, e contrario error et ignorantia divisiva sunt.</p>
+            <p xml:id="ta-l3d23q2-d1e640">Ad primum ergo dicendum, quod fides non est de aliquo temporali sicut de objecto; sed
+              inquantum pertinet ad veritatem aeternam, quae est objectum fidei, sic cadit sub fide;
+              sicut fides credit passionem, inquantum Deus passus est.</p>
+            <p xml:id="ta-l3d23q2-d1e643">Ad secundum dicendum, quod spes et timor ad affectum pertinent, cujus proprium
+              objectum est bonum et malum, inquantum hujusmodi: et ideo diversificantur secundum
+              differentiam boni et mali. Sed bonum et malum non differunt in ratione veri. Et ideo
+              fides, cujus objectum est verum, non distinguitur ex hoc quod aliquo modo est de bonis
+              et malis.</p>
+            <p xml:id="ta-l3d23q2-d1e646">Ad tertium dicendum, quod fides considerat omnia illa diversa sub una ratione,
+              scilicet secundum quod innituntur veritati primae: et ideo fides non diversificatur
+              penes ea, quamvis sint diversae scientiae de eis, quae ea considerant rationibus
+              propriis, quae diversae sunt.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l3d23q2-Dd1e651" type="articulus">
+          <head xml:id="ta-l3d23q2-Hd1e653">Articulus 5</head>
+          <head xml:id="ta-l3d23q2-Hd1e656" type="questionTitle">Utrum fides sit prior aliis virtutibus</head>
+
+          <p xml:id="ta-l3d23q2-d1e659">Ad quintum sic proceditur. Videtur quod fides non sit prior aliis virtutibus. Omnes
+            enim virtutes simul infunduntur. Sed eorum quae sunt simul, unum non est post alterum.
+            Ergo fides non est prior aliis virtutibus.</p>
+          <p xml:id="ta-l3d23q2-d1e662">Praeterea, fundamentum est prima pars aedificii. Sed super illud Luc. 11: <quote xml:id="ta-l3d23q2-Qd1e664">dico
+              vobis amicis meis, ne terreamini</quote>, dicit Glossa: <quote xml:id="ta-l3d23q2-Qd1e667">fortitudo est
+              fundamentum fidei</quote>; et Bernardus dicit, quod in humilitate fundantur aliae
+            virtutes. Et similiter timor videtur esse fundamentum: quia dicitur, <ref xml:id="ta-l3d23q2-Rd1e670"><title ref="#ps">Psalm.</title> 110, 2:</ref>
+              <quote xml:id="ta-l3d23q2-Qd1e675" ana="#ps110_2">initium sapientiae timor domini</quote>. Ergo videtur quod fides non sit
+            prima.</p>
+          <p xml:id="ta-l3d23q2-d1e679">Praeterea, virtutes theologicae, ut prius dictum est, ad hoc sunt ut fiat quaedam
+            hominis ordinatio ad finem. Sed spes et caritas propinquiores sunt fini quam fides, quia
+            habent finem pro objecto sub ratione finis. Ergo fide priores sunt.</p>
+          <p xml:id="ta-l3d23q2-d1e683">Praeterea, super Psalm. 36, <quote xml:id="ta-l3d23q2-Qd1e685">noli aemulari</quote> etc., dicit Glossa, quod spes
+            introducit ad fidem. Ergo spes est prior fide.</p>
+          <p xml:id="ta-l3d23q2-d1e689">Praeterea, secundum ordinem potentiarum est ordo habituum. Sed fides est in intellectu,
+            secundum quod est motus a voluntate, ut patet ex praedictis. Cum ergo caritas sit in
+            voluntate, videtur quod caritas sit prior fide; et sic fides non est prima.</p>
+          <p xml:id="ta-l3d23q2-d1e692">Praeterea, fides est principaliter in intellectu speculativo. Sed speculativa vita
+            sequitur activam: quia nullus pervenit ad contemplativae otium, nisi prius depuretur
+            mens per exercitium activae. Ergo virtutes morales, quae pertinent ad vitam activam,
+            sunt priores fide.</p>
+          <p xml:id="ta-l3d23q2-d1e695">Sed contra, cognitio praecedit affectionem: quia nihil diligitur nisi cognitum, ut
+            dicit Augustinus. Sed fides est in cognitione, ceterae autem virtutes in affectione
+            consistunt. Ergo fides aliis prior est.</p>
+          <p xml:id="ta-l3d23q2-d1e698">Praeterea, in omnibus virtutibus requiritur recta intentio. Sed fides intentionem
+            dirigit, ut dicit Augustinus. Ergo fides est ante alias virtutes.</p>
+          <p xml:id="ta-l3d23q2-d1e701">Praeterea, per omnes virtutes homo accedit ad Deum. Sed accedentem ad Deum oportet
+            credere, ut dicitur Heb. 11. Ergo fides est ante alias virtutes.</p>
+          <p xml:id="ta-l3d23q2-d1e705">Respondeo dicendum, quod aliquid potest dici prius altero et tempore et natura. Tempore
+            quidem omnes virtutes sunt simul, quia simul divinitus infunduntur; sed secundum naturam
+            ordo virtutum pensandus est ex actibus, sicut et ordo potentiarum, quae simul in anima
+            concreantur. Actus autem fidei consistit in cognitione veri, quam praesupponit affectio
+            boni, quae exigitur in omnibus aliis virtutibus; et ideo fides, quantum ad id quod fidei
+            est, prior est omnibus aliis virtutibus secundum naturam.</p>
+          <p xml:id="ta-l3d23q2-d1e708">Ad primum ergo dicendum, quod objectio illa procedit de ordine temporis.</p>
+          <p xml:id="ta-l3d23q2-d1e711">Ad secundum dicendum, quod fundamentum dicitur in spiritualibus metaphorice ad
+            similitudinem fundamenti materialis. Potest autem ista similitudo attendi quantum ad
+            duo: scilicet quantum ad ordinem, quia fundamentum praecedit alias partes; et etiam
+            quantum ad virtutem fundamenti, quia fundamentum totum aedificium sustentat: quorum
+            utrumque per similitudinem in fide invenitur: quia ipsa omnibus aliis naturaliter prior
+            est, et aliae in ipsa firmantur: quia sine ipsa, impossibile est placere Deo, Hebr. 11.
+            Fortitudo autem dicitur fundamentum quantum ad alterum, inquantum scilicet spirituale
+            aedificium contra adversa firmum reddit; humilitas contra prospera, quae sunt occasio
+            culpae; sed timor contra ipsam culpam, quia <quote xml:id="ta-l3d23q2-Qd1e713">timor domini expellit
+              peccatum</quote>, Eccli., 1, 27; unde timor praecedit alia quae ad affectionem
+            pertinent, cum caritatem introducat, ut dicit Augustinus.</p>
+          <p xml:id="ta-l3d23q2-d1e717">Ad tertium dicendum, quod spes et caritas sunt propinquiores fini quantum ad
+            consecutionem, quia caritas quodammodo attingit finem; unde ex hoc non habent quod sint
+            secundum naturam prius fide; sed consequuntur eam, quia eis finem ostendit.</p>
+          <p xml:id="ta-l3d23q2-d1e720">Ad quartum dicendum, quod sicut finis est prior in intentione, et posterior in esse;
+            ita quanto aliquid est propinquius fini, est prius in proposito, quamvis sit posterius
+            in esse vel tempore vel natura; et ideo spes, secundum quod magis propinquat ad
+            consecutionem finis quam fides, praecedit fidem in proposito, sed non in esse: et
+            secundum hoc dicitur spes introducere ad fidem, non quae jam sit, sed quae proponitur
+            futura: sicut cum alicui proponuntur aeterna bona, primo vult ea, secundo vult eis
+            inhaerere per amorem, et tertio vult sperare ea, et quarto vult credere ea, ut credens
+            possit jam sperare et amare et habere: unde in essendo fides prior est.</p>
+          <p xml:id="ta-l3d23q2-d1e723">Ad quintum dicendum, quod quamvis fides praesupponat voluntatem, non tamen praesupponit
+            voluntatem jam amantem, sed amare intendentem, inquantum est fides: quia non potest
+            affectus in aliquo firmari per amorem in quo intellectus non est firmatus per assensum;
+            sicut etiam non potest tendere in aliquod per desiderium quod prius intellectus non
+            apprehendit. Unde iste est naturalis ordo actuum, quod prius apprehenditur Deus, quod
+            pertinet ad cogitationem praecedentem fidem, deinde aliquis vult ad eum pervenire,
+            deinde amare vult, et sic deinceps, ut dictum est prius.</p>
+          <p xml:id="ta-l3d23q2-d1e727">Ad sextum dicendum, quod fides non pertinet tantum ad vitam contemplativam; immo est
+            principium et activae et contemplativae, inquantum ostendit finem utriusque.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

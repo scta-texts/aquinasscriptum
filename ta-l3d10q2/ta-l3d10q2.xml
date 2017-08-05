@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum III, Distinctio 10, Quaestio 2</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.09-dev-master">
+          <title>Librum III, Distinctio 10, Quaestio 2</title>
+          <date when="2016-03-11">March 11, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-11">March 11, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness>1856 editum</witness>
+          <witness xml:id="H" n="harv245" xml:base="http://iiif.lib.harvard.edu/manifests/drs:51994085/canvas/">Cambridge, Mass., Harvard University, Houghton Library, MS Lat 245</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="2015.09">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+      <div xml:id="starts-on">
+        <cb ed="#H" n="40vb"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ta-l3d10q2">
+        <head xml:id="ta-l3d10q2-Hd1e97">Librum III, Distinctio 10, Quaestio 2</head>
+        <div xml:id="ta-l3d10q2-Dd1e100">
+          <head xml:id="ta-l3d10q2-Hd1e102">Prooemium</head>
+          <p xml:id="ta-l3d10q2-d1e105">Deinde quaeritur de filiatione per adoptionem: et circa hoc quaeruntur duo: 1 quaeritur de ea ex parte adoptantis; 2 ex parte adoptati.</p>
+        </div>
+        <div xml:id="ta-l3d10q2-Dd1e109" type="articulus">
+          <head xml:id="ta-l3d10q2-Hd1e111">Articulus 1</head>
+          <head xml:id="ta-l3d10q2-Hd1e114" type="questionTitle">Utrum Deo conveniat aliquem in filium adoptare</head>
+          <div xml:id="ta-l3d10q2-Dd1e117">
+            <head xml:id="ta-l3d10q2-Hd1e119">Quaestiuncula 1</head>
+              <p xml:id="ta-l3d10q2-d1e122">Ad primum sic proceditur. Videtur quod Deo non competat aliquem in filium adoptare. Adoptio enim est alicujus extraneae personae in filium vel nepotem, vel deinceps, legitima assumptio. Sed Deo non est aliqua persona extranea, quia omnes ipse condidit. Ergo ei non competit adoptare.</p>
+              <p xml:id="ta-l3d10q2-d1e125">Praeterea, apud nos adoptans non est principium essendi adoptato. Sed Deus est omnibus principium essendi. Ergo non competit ei aliquem adoptare.</p>
+              <p xml:id="ta-l3d10q2-d1e128">Praeterea, ille qui filios naturales habet, non adoptat aliquem, nisi ut condividat hereditatem cum filiis naturalibus. Sed hereditas Dei patris indivisibilis est, quia est ipsemet. Ergo cum ipse habeat naturalem filium, non competit ei aliquem adoptare.</p>
+              <p xml:id="ta-l3d10q2-d1e131">Sed contra, adoptio contingit ex benignitate adoptantis ad adoptatum. Sed Deus maxime benignus et amator est hominum. Ergo ipsi maxime competit adoptare.</p>
+              <p xml:id="ta-l3d10q2-d1e135">Praeterea, quicumque facit aliquos filios per gratiam, adoptat. Sed hoc Deo competit; Joan. 1, 12: <quote xml:id="ta-l3d10q2-Qd1e137">dedit eis potestatem filios Dei fieri</quote>. Ergo ipse adoptat.</p>
+          </div>
+          <div xml:id="ta-l3d10q2-Dd1e142">
+            <head xml:id="ta-l3d10q2-Hd1e144">Quaestiuncula 2</head>
+            <p xml:id="ta-l3d10q2-d1e147">Ulterius. Videtur quod adoptare sit tantum Dei patris. Quia secundum leges, illius est adoptare cujus est filios generare. Sed solius patris in Trinitate est filium generare naturalem. Ergo ejus solius est filios adoptare.</p>
+            <p xml:id="ta-l3d10q2-d1e150">Praeterea, per adoptionem efficimur fratres Christi; Rom. 8, 29: <quote xml:id="ta-l3d10q2-Qd1e152" ana="#rom8_29">ut sit ipse primogenitus in multis fratribus</quote>. Sed Christus non est filius nisi Dei patris, ut supra, dist. 3, quaest. 1, art. 2, dictum est. Ergo et nos per adoptionem solius patris filii sumus.</p>
+            <p xml:id="ta-l3d10q2-d1e156">Praeterea, sicut supra, dist. 1, quaest. 2, art. 2, dictum est, ideo solus filius incarnatus est, ne nomen filii transiret ad alterum. Sed non est magis inconveniens nomen filii transire ad aliam personam quam nomen patris. Ergo non debet dici adoptare nisi Deus pater, ne nomen patris ad aliam personam transeat.</p>
+            <p xml:id="ta-l3d10q2-d1e159">Sed contra, omne nomen effectum significans in creatura, dictum de Deo, est commune toti Trinitati. Sed adoptare importat effectum in creatura. Ergo toti Trinitati competit.</p>
+            <p xml:id="ta-l3d10q2-d1e163">Praeterea, secundum hoc quod adoptamur in filios Dei, Deus pater noster dicitur. Sed tota Trinitas dicitur pater noster, sicut in 1 Lib., dist. 18, dictum est. Ergo totius Trinitatis est adoptare.</p>
+          </div>
+          <div xml:id="ta-l3d10q2-Dd1e167">
+            <head xml:id="ta-l3d10q2-Hd1e169">Quaestiuncula 3</head>
+            <p xml:id="ta-l3d10q2-d1e172">Ulterius. Videtur quod per filium tantum fiat adoptio; per hoc quod dicitur ad Galat. 4, 4: <quote xml:id="ta-l3d10q2-Qd1e174">misit Deus filium suum factum ex muliere (...) ut adoptionem filiorum reciperemus</quote>.</p>
+            <p xml:id="ta-l3d10q2-d1e178">Praeterea, secundum philosophum, 5 Metaph., illud quod est primum in quolibet genere, est causa eorum quae sunt post. Sed filiatio primo invenitur in filio. Ergo per ipsum omnes efficimur filii, sicut per bonitatem filii Dei omnes efficimur boni; et sic ex patre caelesti omnis paternitas in caelis et in terra nominatur: ad Ephes. 3.</p>
+            <p xml:id="ta-l3d10q2-d1e181">Sed videtur quod fiat per spiritum sanctum: per hoc quod dicitur Roman. 8, 15: <quote xml:id="ta-l3d10q2-Qd1e183" ana="#rom8_15">accepistis spiritum adoptionis filiorum, in quo clamamus, abba, pater</quote>.</p>
+            <p xml:id="ta-l3d10q2-d1e187">Praeterea, per caritatem efficimur filii Dei: 1 Joan. 3, 1: <quote xml:id="ta-l3d10q2-Qd1e189">videte qualem caritatem dedit nobis pater, ut filii Dei nominemur et simus</quote>. Sed caritas est spiritus sanctus. Ergo per ipsum adoptamur.</p>
+          </div>
+          <div xml:id="ta-l3d10q2-Dd1e195">
+            <head xml:id="ta-l3d10q2-Hd1e197">Quaestiuncula 1</head>
+            <p xml:id="ta-l3d10q2-d1e200">Respondeo dicendum, ad primam quaestionem, quod adoptatio transfertur ad divina ex similitudine humanorum. Homo enim dicitur aliquem in filium adoptare, secundum quod ex gratia dat jus percipiendae hereditatis suae, cui per naturam non competit. Hereditas autem hominis dicitur illa qua homo dives est; id autem quo Deus dives est, est perfruitio sui ipsius, quia ex hoc beatus est, et ita haec est hereditas ejus; unde inquantum hominibus, qui ex naturalibus ad illam fruitionem pervenire non possunt, dat gratiam per quam homo illam beatitudinem meretur, ut sic ei competat jus in hereditate illa, secundum hoc dicitur aliquem in filium adoptare.</p>
+            <p xml:id="ta-l3d10q2-d1e203">Ad primum ergo dicendum, quod quamvis nulla persona sit sibi extranea quantum ad esse quod ab eo participat, est tamen sibi extranea aliqua persona quantum ad jus percipiendae hereditatis.</p>
+            <p xml:id="ta-l3d10q2-d1e206">Ad secundum dicendum, quod ex hoc ipso quod aliquis homo ex alio nascitur, habet jus in hereditate paterna; unde non est extraneus, ut adoptari possit. Sed non ex hoc quod aliquis habet esse a Deo, competit sibi jus in hereditate caelesti; et ideo potest qui habet esse a Deo per creationem, ab eo per gratiam in filium adoptari.</p>
+            <p xml:id="ta-l3d10q2-d1e209">Ad tertium dicendum, quod accidit adoptioni quae est apud nos, ut per eam dividatur hereditas, inquantum a multis simul tota haberi non potest. Sed hereditas caelestis tota simul habetur a patre adoptante, et ab omnibus filiis adoptatis; unde non est ibi divisio nec successio.</p>
+          </div>
+          <div xml:id="ta-l3d10q2-Dd1e213">
+            <head xml:id="ta-l3d10q2-Hd1e215">Quaestiuncula 2</head>
+            <p xml:id="ta-l3d10q2-d1e218">Ad secundam quaestionem dicendum, quod adoptare convenit toti Trinitati: quia una est operatio totius Trinitatis, sicut et una essentia; sed tamen potest appropriari patri, inquantum habet similitudinem cum proprio ejus.</p>
+            <p xml:id="ta-l3d10q2-d1e221">Ad primum ergo dicendum, quod quamvis sit solius patris generare filium qui sit Deus, tamen totius Trinitatis est producere filios per creationem; et ideo est etiam totius Trinitatis per gratiam filios adoptare.</p>
+            <p xml:id="ta-l3d10q2-d1e224">Ad secundum dicendum, quod ex adoptione quae est per gratiam, efficimur fratres Christi, inquantum per hoc efficimur filii Dei patris; non autem inquantum efficimur filii Christi, vel spiritus sancti.</p>
+            <p xml:id="ta-l3d10q2-d1e227">Ad tertium dicendum, quod filiatio est relatio ejus quod est a principio; paternitas autem est relatio principii. Tota autem Trinitas est principium creaturae. Unde magis potest trahi nomen paternitatis ad alias personas respectu creaturae, quam filiationis nomen.</p>
+          </div>
+          <div xml:id="ta-l3d10q2-Dd1e231">
+            <head xml:id="ta-l3d10q2-Hd1e233">Quaestiuncula 3</head>
+            <p xml:id="ta-l3d10q2-d1e236">Ad tertiam quaestionem dicendum, quod haec praepositio per potest denotare duplicem causam: scilicet agentem mediam; et sic sumus adoptati a Deo patre per filium, ut appropriate loquamur: quia per eum Deus pater multos filios in gloriam adduxit, ut dicitur ad Hebr. 2, secundum quod eum misit in mundum salvatorem. Potest etiam notare formalem causam; et hoc dupliciter; vel inhaerentem, vel exemplarem. Si inhaerentem, sic adoptati sumus per spiritum sanctum, cui appropriatur caritas, secundum quam formaliter meremur. Ideo dicitur Ephes. 1, 13: <quote xml:id="ta-l3d10q2-Qd1e238">signati estis spiritu promissionis sancto, qui est pignus hereditatis nostrae</quote>. Si vero designat causam exemplarem formalem, sic sumus adoptati per filium; unde Rom. 8, 29: <quote xml:id="ta-l3d10q2-Qd1e241" ana="#rom8_29">quos praescivit conformes fieri imaginis filii sui, ut sit ipse primogenitus in multis fratribus</quote>.</p>
+            <p xml:id="ta-l3d10q2-d1e245">Et per hoc patet responsio ad objecta.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l3d10q2-Dd1e250">
+          <head xml:id="ta-l3d10q2-Hd1e252">Articulus 2</head>
+          <head xml:id="ta-l3d10q2-Hd1e255" type="questionTitle">Utrum omnibus creaturis conveniat adoptari, et an homines ex ipsa creatione adoptet</head>
+          <div xml:id="ta-l3d10q2-Dd1e258">
+            <head xml:id="ta-l3d10q2-Hd1e260">Quaestiuncula 1</head>
+            <p xml:id="ta-l3d10q2-d1e263">Ad secundum sic proceditur. Videtur, quod omnibus creaturis conveniat adoptari. Deus enim dicitur pater noster, quia creavit nos, sicut dicitur Deut. 32, 6: <quote xml:id="ta-l3d10q2-Qd1e265">numquid non ipse est pater tuus?</quote> Sed non est pater creaturarum per naturam, quia sic solius Christi pater est. Ergo est pater per adoptionem; ergo omnibus creaturis convenit adoptari.</p>
+            <p xml:id="ta-l3d10q2-d1e269">Praeterea, ex hoc quod Deus aliquid creat, assumit illud in communicationem suorum bonorum ex mera sua bonitate. Sed nihil aliud videtur esse adoptio. Ergo cuilibet creaturae convenit adoptari.</p>
+            <p xml:id="ta-l3d10q2-d1e272">Praeterea, ex ipsa creatione Deus imprimit rationali creaturae imaginem suam, secundum quam dicitur filius Dei. Sed non adoptat nos nisi inquantum nos filios suos facit. Ergo ex ipsa creatione ad minus homines adoptat.</p>
+            <p xml:id="ta-l3d10q2-d1e275">Sed contra, sicut ex dictis patet, adoptio filiorum fit per spiritum sanctum. Sed non datur spiritus sanctus ratione creationis. Ergo nec adoptio est ratione creationis tantum.</p>
+          </div>
+          <div xml:id="ta-l3d10q2-Dd1e279">
+            <head xml:id="ta-l3d10q2-Hd1e281">Quaestiuncula 2</head>
+            <p xml:id="ta-l3d10q2-d1e284">Ulterius. Videtur quod nec Angelis conveniat adoptari. Quia illi convenit adoptari qui non est in domo patrisfamilias, et in ipsam inducitur. Sed Angeli semper fuerunt in domo Dei, quia in caelo Empyreo creati sunt. Ergo eis non convenit adoptari.</p>
+            <p xml:id="ta-l3d10q2-d1e287">Praeterea, sicut in littera dicitur, nos ideo filii Dei adoptivi dicimur, quia cum nati fuerimus filii irae, per gratiam facti sumus filii Dei. Sed Angeli nunquam fuerunt filii irae. Ergo nunquam fuerunt non filii, ad minus secundum illos qui dicunt, quod Angeli fuerunt creati in gratia. Ergo Angelis non convenit adoptari.</p>
+            <p xml:id="ta-l3d10q2-d1e290">Praeterea, Galat. 4, 4, dicitur: <quote xml:id="ta-l3d10q2-Qd1e292">misit Deus filium suum (...) ut adoptionem filiorum reciperemus</quote>. Sed ad Angelos non fuit missus filius Dei: quia non est factus Angelus sicut est factus homo, secundum quem modum ad homines missus dicitur. Ergo Angelis non convenit adoptare.</p>
+            <p xml:id="ta-l3d10q2-d1e296">Sed contra, per spiritum sanctum, qui hominibus datur, dicuntur homines adoptari, ut patet ex dictis. Sed spiritus sanctus habitat in Angelis, sicut etiam in hominibus. Ergo Angeli, sicut et homines, dicuntur adoptari.</p>
+            <p xml:id="ta-l3d10q2-d1e300">Praeterea, Angeli dicuntur fratres et consortes nostri. Sed hoc non est nisi secundum quod ab eodem patre et ad eamdem hereditatem nobiscum sunt adoptati. Ergo eis convenit adoptari.</p>
+          </div>
+          <div xml:id="ta-l3d10q2-Dd1e304">
+            <head xml:id="ta-l3d10q2-Hd1e306">Quaestiuncula 3</head>
+            <p xml:id="ta-l3d10q2-d1e309">Ulterius. Videtur etiam quod Christus sit filius adoptivus. Quia Hilarius, dicit: <quote xml:id="ta-l3d10q2-Qd1e311">potestatis dignitas non amittitur dum carnis humilitas adoptatur</quote>; et loquitur de humanitate Christi. Ergo Christus, secundum quod homo, est filius adoptivus.</p>
+            <p xml:id="ta-l3d10q2-d1e315">Praeterea, non videtur sequi aliquod inconveniens, si dicamus Christum filium adoptivum: neque enim sequitur quod fuerit filius irae, neque aliquando fuerit non filius: quia Angeli nunquam filii irae fuerunt, et tamen dicuntur filii adoptivi. Ergo nihil prohibet Christum dicere filium adoptivum.</p>
+            <p xml:id="ta-l3d10q2-d1e318">Praeterea, major est dignitas filii adoptivi quam servi. Sed Christus, secundum quod homo, dicitur servus, ut patet Philip. 2. Ergo multo fortius potest dici filius adoptivus.</p>
+            <p xml:id="ta-l3d10q2-d1e321">Praeterea, per inhabitationem spiritus sancti homo efficitur filius adoptivus. Sed super Christum requievit spiritus sanctus, ut dicitur Isai. 11. Ergo ipse debet dici filius adoptivus.</p>
+            <p xml:id="ta-l3d10q2-d1e325">Praeterea, <name ref="#Augustine">Augustinus</name>, dicit: <quote xml:id="ta-l3d10q2-Qd1e330">ea gratia fit ab initio fidei suae homo quicumque Christianus qua gratia ille homo ab initio suo factus est Christus</quote>. Sed quicumque homo fit ab initio Christianus fit per gratiam adoptionis. Ergo et ille homo factus est Christus per gratiam adoptionis, et ita est filius adoptivus.</p>
+            <p xml:id="ta-l3d10q2-d1e334">Sed contra, super illo <ref xml:id="ta-l3d10q2-Rd1e336"><title ref="#rom">Rom.</title> 1:</ref> <quote xml:id="ta-l3d10q2-Qd1e341" ana="#rom1_4">qui praedestinatus est filius Dei in virtute</quote>, dicit <name ref="#Ambrose">Ambrosius</name>: <quote xml:id="ta-l3d10q2-Qd1e347">volvi et revolvi Scripturas: Christum nunquam filium adoptivum inveni</quote>. Ergo non est dicendus filius adoptivus.</p>
+            <p xml:id="ta-l3d10q2-d1e351">Praeterea, adoptare totius Trinitatis est. Si ergo Christus esset filius adoptivus, esset filius Trinitatis, quod esse non potest, ut supra, dist. 4, dictum est.</p>
+          </div>
+          <div xml:id="ta-l3d10q2-Dd1e356">
+            <head xml:id="ta-l3d10q2-Hd1e358">Quaestiuncula 1</head>
+            <p xml:id="ta-l3d10q2-d1e361">Respondeo dicendum, ad primam quaestionem, quod sicut supra, dist. 8, dictum est, de ratione filiationis est ut filius producatur in similitudinem speciei ipsius generantis. Homo autem inquantum per creationem producitur in participationem intellectus, producitur quasi in similitudinem speciei ipsius Dei: quia ultimum eorum secundum quae natura creata participat similitudinem naturae increatae, est intellectualitas; et ideo sola rationalis creatura dicitur ad imaginem, ut in 2 Lib., dist. 16, dictum est, unde sola rationalis creatura per creationem filiationis nomen adipiscitur. Sed adoptio, ut dictum est, requirit ut adoptato jus acquiratur in hereditatem adoptantis. Hereditas autem ipsius Dei est ipsa sua beatitudo, cujus non est capax nisi rationalis creatura: nec ipsi acquiritur ex ipsa creatione; sed ex dono spiritus sancti, ut dictum est. Et ideo patet quod creatio irrationalibus creaturis nec adoptionem nec filiationem dat; creaturae autem rationali dat quidem filiationem, sed non adoptionem.</p>
+            <p xml:id="ta-l3d10q2-d1e364">Ad primum ergo dicendum, quod filiatio per adoptionem addit supra filiationem per creationem sicut perfectum supra diminutum, et sicut gratia super naturam; unde per creationem homo non efficitur filius naturalis neque adoptivus, sed tantum dicitur filius creatione; creaturae autem irrationales nullo modo.</p>
+            <p xml:id="ta-l3d10q2-d1e367">Ad secundum dicendum, quod communicatio quorumcumque bonorum non sufficit ad adoptionem; sed communicatio hereditatis; unde nec aliqua creatura dicitur adoptari ex hoc quod sibi aliqua bona communicantur a Deo, nisi communicetur ei hereditas quae est divina beatitudo.</p>
+            <p xml:id="ta-l3d10q2-d1e370">Ad tertium dicendum sicut ad primum.</p>
+          </div>
+          <div xml:id="ta-l3d10q2-Dd1e374">
+            <head xml:id="ta-l3d10q2-Hd1e376">Quaestiuncula 2</head>
+            <p xml:id="ta-l3d10q2-d1e379">Ad secundam quaestionem dicendum, quod beata fruitio sicut excedit naturam humanam, ita et naturam angelicam; unde sicut hoc homini datur ex gratia, et non ex debito suae naturae; ita Angelo; et propter hoc sicut competit homini adoptari; ita et Angelo.</p>
+            <p xml:id="ta-l3d10q2-d1e382">Ad primum ergo dicendum, quod domus Dei, inquantum filii adoptivi inducuntur, non dicitur caelum Empyreum, sed ipsa beatitudo divina, secundum quam Deus in semetipso quiescit, et facit alios in se quiescere; et in hac domo non semper fuerunt, quia non fuerunt creati beati.</p>
+            <p xml:id="ta-l3d10q2-d1e385">Ad secundum dicendum, quod accidit adoptioni quod adoptatus fuerit filius irae, vel quod fuerit prius tempore non filius; unde ponitur in littera magis ad evidentiam adoptionis quam ad necessitatem. Sed hoc est de necessitate adoptionis ut prius natura sit non filius quam filius, ut filiatio sibi ex natura sua non competat, sed ex gratia quacumque collata; et hoc bene invenitur in Angelo.</p>
+            <p xml:id="ta-l3d10q2-d1e388">Ad tertium dicendum, quod quamvis missio filii in carnem non fuerit facta ad Angelos; fuit tamen facta ad eos missio quae est in mentem, ut in 1 Lib., dist. 3, dictum est.</p>
+          </div>
+          <div xml:id="ta-l3d10q2-Dd1e392">
+            <head xml:id="ta-l3d10q2-Hd1e394">Quaestiuncula 3</head>
+            <p xml:id="ta-l3d10q2-d1e397">Ad tertiam quaestionem dicendum, quod Christus nullo modo dicendus est filius adoptionis: quia ei competit ex sua natura, secundum quam aeternaliter a patre nascitur, habere jus in hereditate paterna: quia omnia quae habet pater, sua sunt, ut dicitur Joan. 16: unde hoc jus non acquiritur ei per gratiam advenientem, ut possit dici filius adoptivus.</p>
+            <p xml:id="ta-l3d10q2-d1e400">Ad primum ergo dicendum, quod humanitas adoptatur non in ipso capite, sed in membris ejus; et sic intelligendum est verbum Hilarii. Vel dicendum, quod etsi adoptio aliquo modo possit dici de natura creata, quae per gratiam trahitur in participationem divinae bonitatis in unitate divinae personae; non tamen oportet quod supposito conveniat, cui naturaliter convenit esse beatum.</p>
+            <p xml:id="ta-l3d10q2-d1e403">Ad secundum dicendum, quod sequitur inconveniens, quod Christus, ad minus natura vel intellectu, esset prius non filius quam filius, sicut est de Angelis: quod nullo modo stare potest quantum ad secundam opinionem, quae ponit, quod nullum suppositum praeintelligitur unioni; nec filiatio convenire potest nisi supposito perfecto.</p>
+            <p xml:id="ta-l3d10q2-d1e406">Ad tertium dicendum, quod Christus cum dicitur servus, importat subjectionem tantum; unde Christus, secundum quod homo, dicitur servus, sicut minor patre: non autem importat acquisitionem per gratiam ejus quod ei convenit per naturam, sicut filius adoptivus; et ideo nomen servitutis aliquo modo conceditur in Christo, non autem nomen adoptionis.</p>
+            <p xml:id="ta-l3d10q2-d1e410">Ad quartum dicendum, quod aliis hominibus per spiritum sanctum inhabitantem acquiritur jus in hereditate caelesti de novo, quod eis non competit per naturam, sicut filio Dei competit; unde per spiritum sanctum inhabitantem non dicitur adoptari.</p>
+            <p xml:id="ta-l3d10q2-d1e413">Ad quintum dicendum, quod est similitudo quantum ad rationem gratiae, quia utraque est sine meritis praecedentibus, non autem quantum ad effectum: quia illa est gratia unionis, secundum quam efficitur naturalis filius; sed gratia qua homo fit Christianus non facit filium naturalem, sed facit tantum adoptivum.</p>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

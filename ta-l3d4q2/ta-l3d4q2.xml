@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum III, Distinctio 4, Quaestio 2</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.09-dev-master">
+          <title>Librum III, Distinctio 4, Quaestio 2</title>
+          <date when="2016-02-23">February 23, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-02-23">February 23, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness>1856 editum</witness>
+          <witness xml:id="H" n="harv245" xml:base="http://iiif.lib.harvard.edu/manifests/drs:51994085/canvas/">Cambridge, Mass., Harvard University, Houghton Library, MS Lat 245</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="2015.09">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+
+
+
+
+      <div xml:id="starts-on">
+        <cb ed="#H" n="22rb" select="canvas-51994150.json"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ta-l3d4q2">
+        <head xml:id="ta-l3d4q2-Hd1e97">Librum III, Distinctio 4, Quaestio 2</head>
+        <div xml:id="ta-l3d4q2-Dd1e100">
+          <head xml:id="ta-l3d4q2-Hd1e102">Prooemium</head>
+          <p xml:id="ta-l3d4q2-d1e105">Deinde quaeritur de conceptione Christi in comparatione ad matrem concipientem; et circa hoc quaeruntur duo: 1 utrum beata virgo possit dici mater hominis Jesu Christi; 2 utrum debeat dici mater Dei.</p>
+        </div>
+        <div xml:id="ta-l3d4q2-Dd1e109" type="articulus">
+          <head xml:id="ta-l3d4q2-Hd1e111">Articulus 1</head>
+          <head xml:id="ta-l3d4q2-Hd1e114" type="questionTitle">Utrum beata virgo possit dici mater hominis Christi Jesu</head>
+          <p xml:id="ta-l3d4q2-d1e117">Ad primum sic proceditur. Videtur quod beata virgo non possit dici mater illius hominis. In conceptione enim Christi beata virgo ministravit tantum materiam, quia totam actionem fecit spiritus sanctus. Sed propter materiam non potest aliquid dici mater, sicut arbor non est mater scamni. Ergo beata virgo non potest dici mater illius hominis.</p>
+          <p xml:id="ta-l3d4q2-d1e120">Praeterea, matris est decidere semen ad conceptum. Sed materia conceptionis Christi separata est a reliqua carne virginis operatione spiritus sancti. Ergo non potest dici mater.</p>
+          <p xml:id="ta-l3d4q2-d1e123">Praeterea, sicut caro Christi operatione spiritus sancti formata est de materia sumpta a beata virgine; ita Eva formata est operatione divina de materia sumpta ab Adam. Sed Adam non potest dici pater Evae, nec mater. Ergo nec beata virgo potest dici mater Christi.</p>
+          <p xml:id="ta-l3d4q2-d1e127">Praeterea, multo plus contulit ad conceptionem Christi spiritus sanctus quam beata virgo: quia agens est praestantior in actione quam materia. Ergo si spiritus sanctus non potest dici pater Christi, nec beata virgo potest dici mater ejus.</p>
+          <p xml:id="ta-l3d4q2-d1e130">Praeterea, filiatio, ut dictum est, respicit hypostasim. Sed hypostasis in Christo est una tantum, quae est 
+            <cb ed="#H" n="22va" select="canvas-51994151.json"/>
+            aeterna, secundum quam Christus non est a beata virgine. Ergo nullo modo potest dici filius beatae virginis.</p>
+          <p xml:id="ta-l3d4q2-d1e135">Praeterea, in Christo est tantum unum esse ex parte hypostasis, quam consequitur filiatio. Sed illud esse non habuit Christus a matre. Ergo non potest dici filius ejus.</p>
+          <p xml:id="ta-l3d4q2-d1e138">Contra est auctoritas Evangelii, Matth. 1, 18: <quote xml:id="ta-l3d4q2-Qd1e140" ana="#mt1_18">cum esset desponsata mater Jesu Maria Joseph</quote> etc.; et in pluribus aliis locis.</p>
+          <p xml:id="ta-l3d4q2-d1e144">Praeterea, sicut supra dictum est, dist. 3, beata virgo in generatione Christi contulit quidquid alia mulier conferre debet ad generationem filii sui. Si ergo aliae mulieres vere dicuntur matres, et beata virgo vere potest dici mater Christi.</p>
+          <p xml:id="ta-l3d4q2-d1e147">Respondeo dicendum, quod beata virgo vere potest dici mater Christi, cum quidquid sit de necessitate generationis ex parte matris inveniatur in beata virgine; maxime secundum opinionem Aristotelis, qui vult quod formatio et organizatio corporum non fiat per virtutem activam mulieris, sed solum per virtutem activam viri; et quod semen mulieris non est de necessitate conceptionis, quia quandoque contingit impraegnari mulierem sine emissione seminis, per hoc quod sanguinem menstruum ministrat, qui est materia conceptus. Et hoc consonat ei quod dicit Damascenus, quod ex purissimis sanguinibus virginis formatum est corpus Christi non seminaliter, sed virtute divina. Sed huic verae maternitati derogatur per duos errores. Quorum unus ponit Christum non veram carnem sed phantasticam assumpsisse, et beatam virginem non mulierem sed Angelum fuisse; unde nec vera mater esset. Alius vero ponit Christum non carnem naturae nostrae assumpsisse, sed caelestem secum portasse; et secundum hoc beata virgo non vere mater ejus esset, quia quamvis in ea natus esset, non tamen de ea. Hi autem errores veram humanitatem Christi negant; unde a fide Catholica sunt alieni.</p>
+          <p xml:id="ta-l3d4q2-d1e151">Ad primum ergo dicendum, quod non solum materiam praestitit beata virgo ad conceptionem Christi, sed materiam convenientem ad producendum aliquid simile in specie, et locum convenientem, et nutrimentum conveniens conceptioni fetus: et hoc sufficit ad rationem matris.</p>
+          <p xml:id="ta-l3d4q2-d1e154">Ad secundum dicendum, quod secundum philosophum, semen mulieris non est de necessitate generationis, sed sanguis quem femina ministrat ad conceptionem: qui quidem in aliis mulieribus separatur per virtutem mulieris motam a viro; sed in beata virgine per virtutem spiritus sancti. Nec hoc diminuit rationem matris, quia ista actio est praeambula ad conceptionem.</p>
+          <p xml:id="ta-l3d4q2-d1e157">Ad tertium dicendum, quod pater est principium activum in generatione; et ideo ad esse patrem non sufficit quod materiam ministret, sicut sufficit ad esse matrem.</p>
+          <p xml:id="ta-l3d4q2-d1e160">Ad quartum dicendum, quod licet spiritus sanctus plus fecerit active in conceptione Christi quam beata virgo, non tamen potest dici pater: quia non inveniuntur in eo conditiones quae requiruntur ad conditionem patris, sicut quod ex sua substantia et similem sibi in specie filium producat, et alia hujusmodi.</p>
+          <p xml:id="ta-l3d4q2-d1e163">Ad quintum dicendum, quod filiatio respicit hypostasim consequentem ad generationem. Quamvis ergo hypostasis filii Dei secundum generationem ejus aeternam non sit a virgine, tamen secundum generationem ejus temporalem, ex ea est.</p>
+          <p xml:id="ta-l3d4q2-d1e166">Ad sextum dicendum, quod esse geniti est ab agente; mater autem non est agens in generatione, sed pater; unde non oportet quod esse filii sit a matre, sed a patre; et ideo philosophus dicit, quod in generatione mater dat corpus, et pater formam a qua est esse.</p>
+        </div>
+        <div xml:id="ta-l3d4q2-Dd1e170" type="articulus">
+          <head xml:id="ta-l3d4q2-Hd1e172">Articulus 2</head>
+          <head xml:id="ta-l3d4q2-Hd1e175" type="questionTitle">Utrum debeat dici mater Dei</head>
+          <p xml:id="ta-l3d4q2-d1e178">Ad secundum sic proceditur. Videtur, quod beata virgo non debeat dici mater Dei. Non enim est mater nisi secundum quod ab ea accepit esse. Sed non accepit ab ea divinitatem, sed humanitatem. Ergo non debet dici mater Dei, sed mater hominis.</p>
+          <p xml:id="ta-l3d4q2-d1e181">Praeterea, in Deo non differt Deus et deitas. Sed non potest dici mater dei<cb ed="#H" n="22vb" select="canvas-51994151.json"/>tatis. Ergo nec potest dici mater Dei.</p>
+          <p xml:id="ta-l3d4q2-d1e186">Praeterea, Deus est commune tribus personis. Sed beata virgo non est mater patris neque spiritus sancti. Ergo non debet dici mater Dei.</p>
+          <p xml:id="ta-l3d4q2-d1e190">Praeterea, sicut naturam produxit assumptam virgo generando, ita etiam produxit eam Deus creando. Sed ratione naturae assumptae non dicimus Trinitatem creatricem Dei. Ergo nec debemus dicere virginem matrem Dei.</p>
+          <p xml:id="ta-l3d4q2-d1e193">Praeterea, magis debet concedi id quod est verum per se quam id quod est verum per accidens. Sed in hoc nomine Christus importatur humana natura, quam generando virgo per se produxit, quae in hoc nomine Deus non importatur. Ergo magis debet dici mater Christi quam mater Dei.</p>
+          <p xml:id="ta-l3d4q2-d1e196">Sed contra, Damascenus, dicit: <quote xml:id="ta-l3d4q2-Qd1e198">theotocon, idest Dei genitricem, vere et principaliter virginem praedicamus</quote>.</p>
+          <p xml:id="ta-l3d4q2-d1e202">Praeterea, secundum <name ref="#Augustine">Augustinum</name>, talis fuit illa unio quae Deum faceret hominem, et hominem Deum. Sed virgo genuit hominem. Ergo et genuit Deum; ergo est mater Dei.</p>
+          <p xml:id="ta-l3d4q2-d1e208">Praeterea, propter unionem naturarum in persona una, vere dicimus Deum passum, quamvis hoc fuerit secundum humanam naturam: et sic potest dici Deus vere ex virgine natus. Ergo etiam mater Dei dici potest.</p>
+          <p xml:id="ta-l3d4q2-d1e211">Respondeo dicendum, quod humanitas Christi et maternitas virginis adeo sibi connexa sunt, ut qui circa unum erraverit, oporteat etiam circa aliud errare. Unde quia Nestorius circa humanitatem errabat, aliam esse asserens in Christo humanitatis et divinitatis personam, oportebat quod diceret virginem non matrem Dei, sed hominis: quia secundum eum, Deus et homo non est unus Christus. Quidam vero moderni errantes dicunt, non posse virginem dici matrem Dei, ne mater patris et spiritus sancti intelligatur; concedunt tamen eam esse matrem filii Dei. Sed hi trepidant timore ubi non est timor: quia quamvis hoc nomen Deus commune sit tribus personis, potest tamen reddere locutionem veram pro una persona, secundum quod dicitur, Deus generat; sicut cum dicitur, homo currit, solo Petro currente. Unde simpliciter concedendum est virginem esse matrem Dei, sicut confitemur Jesum esse verum Deum.</p>
+          <p xml:id="ta-l3d4q2-d1e215">Ad primum ergo dicendum, quod quia una persona est quae subsistit in humanitate et divinitate; ideo naturae communicant sibi sua idiomata, idest proprietates, ut dicit Damascenus. Unde sicut dicuntur Judaei crucifixisse dominum gloriae, quamvis non secundum quod est dominus gloriae; ita debet dici, virgo est mater Dei, quamvis eum secundum divinitatem non genuerit.</p>
+          <p xml:id="ta-l3d4q2-d1e218">Ad secundum dicendum, quod quamvis deitas et Deus non differant re, differunt tamen secundum modum significandi: quia deitas signat divinam naturam in abstracto; unde non potest supponere pro persona; Deus autem quia signat naturam divinam per modum concreti, idest habentem divinitatem, potest reddere locutionem veram pro supposito; et ideo, quia beata virgo est mater filii Dei, potest dici mater Dei, non autem divinitatis.</p>
+          <p xml:id="ta-l3d4q2-d1e221">Ad tertium dicendum, quod quamvis Deus sit commune tribus, potest tamen reddere locutionem veram pro uno eorum, ut dictum est; sicut cum dicitur, Deus generat, reddit locutionem veram pro patre.</p>
+          <p xml:id="ta-l3d4q2-d1e224">Ad quartum dicendum, quod Christum non dicimus creaturam simpliciter, ut infra patebit; dicimus tamen simpliciter eum natum; et ideo nativitas potest transferri ad Deum, et non creatio. Et praeterea nasci non est contra rationem deitatis sicut creari.</p>
+          <p xml:id="ta-l3d4q2-d1e227">Ad quintum dicendum, quod beata virgo est vere mater Christi, non tamen dicimus eam christotocon, idest Christi genitricem: quia hoc nomen inventum est a Nestorio ad abolendum nomen theotocon: cum haereticis autem nec nomina debemus habere communia, ut dicit Hieronymus super Oseae 3.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

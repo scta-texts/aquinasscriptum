@@ -1,0 +1,1249 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 9, Quaestio 1</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Librum IV, Distinctio 9, Quaestio 1</title>
+          <date when="2016-03-18">March 18, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-18">March 18, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness>1856 editum</witness>
+          <witness xml:id="G" n="ghent567">Ghent, Belgium, Ghent University Library, 567</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="0.0.0-dev">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+
+
+
+
+      <div xml:id="starts-on">
+        <cb ed="#G" n="130a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ta-l4d9q1">
+        <head xml:id="ta-l4d9q1-Hd1e97">Librum IV, Distinctio 9, Quaestio 1</head>
+
+
+        <div xml:id="ta-l4d9q1-Dd1e100">
+          <head xml:id="ta-l4d9q1-Hd1e102">Prooemium</head>
+          <p xml:id="ta-l4d9q1-d1e105">Postquam determinavit Magister de sacramento Eucharistiae secundum se, hic determinat
+            de usu ipsius; et dividitur in partes tres: in prima distinguit duos modos manducandi
+            corpus Christi; in secunda excludit ex determinatis quemdam errorem, ibi: <quote xml:id="ta-l4d9q1-Qd1e107">haec
+              verba et alia hujusmodi (...) quidam obtuso corde legentes, erroris caligine involuti
+              sunt</quote>; in tertia manifestat quaedam dubia ex praedeterminatis, ibi:
+              <quote xml:id="ta-l4d9q1-Qd1e110">secundum hos duos modos sumendi intelligentia quorumdam verborum ambigue
+              dictorum distinguenda est</quote>. Secunda dividitur in duas: in prima ponit errorem;
+            in secunda excludit ipsum, ibi: <quote xml:id="ta-l4d9q1-Qd1e113">sed indubitanter tenendum est, a bonis sumi non
+              modo sacramentaliter, sed et spiritualiter</quote>. Hic quaeruntur quinque: 1 de
+            manducatione corporis Christi; 2 qui possint manducare; 3 utrum peccatoribus liceat
+            corpus Christi manducare; 4 utrum corporaliter pollutis; 5 utrum cuilibet sit dandum ad
+            manducandum.</p>
+        </div>
+        <div xml:id="ta-l4d9q1-Dd1e118" type="articulus">
+          <head xml:id="ta-l4d9q1-Hd1e120">Articulus 1</head>
+
+          <head xml:id="ta-l4d9q1-Hd1e123" type="questionTitle">Utrum corpus Christi debeat sumi per modum manducationis</head>
+          <div xml:id="ta-l4d9q1-Dd1e126">
+            <head xml:id="ta-l4d9q1-Hd1e128">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d9q1-d1e131">Ad primum sic proceditur. Videtur quod corpus Christi non debeat sumi per modum
+              manducationis. Quia quod manducatur, per os intrat. Omne autem quod per os intrat, in
+              ventrem vadit, et per secessum emittitur, ut dicitur Matth. 15; quod dignitati
+              corporis Christi non competit. Ergo non debet per modum manducationis sumi.</p>
+            <p xml:id="ta-l4d9q1-d1e134">Praeterea, quod manducatur, ad manducantem trahitur. Sed, sicut dicit Dionysius, nos
+              non trahimus Deum ad nos, sed magis nos in Deum. Ergo non debemus nos Deo conjungi per
+              modum manducationis.</p>
+            <p xml:id="ta-l4d9q1-d1e137">Praeterea, hoc sacramentum ordinatur ad refectionem mentis. Sed refectio mentis, quae
+              erit in patria, erit per visionem. Ergo corpus Christi deberet dari videndum, non
+              manducandum.</p>
+            <p xml:id="ta-l4d9q1-d1e140">Sed contra, est quod dicitur Joan. 6, 56: <quote xml:id="ta-l4d9q1-Qd1e142">caro mea vere est cibus</quote>. Sed
+              usus cibi non est ut videatur, sed ut manducetur. Ergo non debet videri tantum corpus
+              Christi, sed manducari.</p>
+            <p xml:id="ta-l4d9q1-d1e147">Praeterea, oportet membra capiti realiter conjungi, ad hoc quod vivificentur. Sed per
+              visum non conjungitur nobis aliquid realiter, sed secundum similitudinem tantum. Ergo
+              non per visum, sed per manducationem corpus Christi sumi debet.</p>
+          </div>
+          <div xml:id="ta-l4d9q1-Dd1e151">
+            <head xml:id="ta-l4d9q1-Hd1e153">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d9q1-d1e156">Ulterius. Videtur quod manducatio corporis Christi sit de necessitate salutis. Sicut
+              enim dicitur de Baptismo, Joan. 3, 5: <quote xml:id="ta-l4d9q1-Qd1e158">nisi quis renatus fuerit ex aqua et
+                spiritu sancto, non potest intrare in regnum caelorum</quote>; ita dictum est Joan.
+              6, 54: <quote xml:id="ta-l4d9q1-Qd1e161">nisi manducaveritis carnem filii hominis, et biberitis ejus sanguinem,
+                non habebitis vitam in vobis</quote>. Sed propter verba praedicta dicitur Baptismus
+              sacramentum necessitatis. Ergo eadem ratione manducatio corporis Christi est de
+              necessitate salutis.</p>
+            <p xml:id="ta-l4d9q1-d1e165">Praeterea, Innocentius III dicit, quod manducandus est agnus, ut a vastante Angelo
+              protegamur. Sed protegi a vastante Angelo est de necessitate salutis. Ergo et
+              praedicta manducatio.</p>
+            <p xml:id="ta-l4d9q1-d1e168">Praeterea, per istam manducationem Christo incorporamur. Sed hoc est de necessitate
+              salutis, sicut et a peccato mundari. Ergo praedicta manducatio est de necessitate
+              salutis, sicut et poenitentia et Baptismus, quibus a peccatis mundamur.</p>
+            <p xml:id="ta-l4d9q1-d1e171">Sed contra, pueri baptizati salutem consequuntur, cum gratia in Baptismo detur. Sed
+              eis non datur corpus Christi manducandum. Ergo manducatio praedicta non est de
+              necessitate salutis.</p>
+            <p xml:id="ta-l4d9q1-d1e175">Praeterea Baptismi ministerium propter hoc quod est de necessitate salutis, omnibus
+              est concessum in casu necessitatis. Sed hoc sacramentum per solos sacerdotes perfici
+              potest. Ergo non est sacramentum necessitatis.</p>
+          </div>
+          <div xml:id="ta-l4d9q1-Dd1e179">
+            <head xml:id="ta-l4d9q1-Hd1e181">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d9q1-d1e184">Ulterius. Videtur quod male distinguantur duo modi manducationis in littera. Corpus
+              enim Christi est cibus spiritualis. Sed cibi corporalis manducatio semper est
+              corporalis. Ergo et hujus cibi manducatio semper est spiritualis; et ita non sunt duo
+              modi manducationis.</p>
+            <p xml:id="ta-l4d9q1-d1e187">Praeterea, in aliis sacramentis non attenditur aliqua distinctio nisi ex parte
+              recipientis tantum, sicut quod quidam accedunt ficti, quidam non. Sed haec distinctio
+              videtur esse ex parte ipsius sacramenti. Ergo inconvenienter ponitur.</p>
+            <p xml:id="ta-l4d9q1-d1e190">Praeterea, ubi unum propter alterum, ibi unum tantum. Sed manducatio sacramentalis
+              est propter spiritualem. Ergo una non debet contra aliam distingui.</p>
+            <p xml:id="ta-l4d9q1-d1e193">Sed contra, videtur quod sint plures modi. Quia usus hujus sacramenti dicitur
+              manducatio. Sed in hoc sacramento sunt tria; scilicet id quod est sacramentum tantum,
+              id quod est res et sacramentum, et id quod est res tantum. Ergo debent esse tres modi
+              manducationis.</p>
+            <p xml:id="ta-l4d9q1-d1e197">Praeterea, in Baptismo etiam fit trimembris divisio suscipientium: quidam enim
+              suscipiunt rem et sacramentum; quidam sacramentum et non rem; quidam rem, et non
+              sacramentum. Sed susceptio hujus sacramenti dicitur manducatio. Ergo hic etiam debet
+              distingui triplex modus manducandi.</p>
+          </div>
+          <div xml:id="ta-l4d9q1-Dd1e202">
+            <head xml:id="ta-l4d9q1-Hd1e204">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d9q1-d1e207">Respondeo dicendum ad primam quaestionem, quod, sicut dictum est, ad perfectionem
+              sacramentorum novae legis exigitur quod sit sacramentum aliquod in quo Christus nobis
+              realiter conjungatur et uniatur, non solum per participationem virtutis ejus, sicut
+              est in aliis sacramentis; et quia sacramentum est sensibile signum, ideo oportet quod
+              alicui sensui usus sacramenti approprietur. In sensibilibus autem est triplex
+              differentia. Quaedam enim sentientibus neque conjunguntur neque uniuntur, sicut ea
+              quae sentiuntur per medium extrinsecum, ut in visu praecipue accidit et auditu et
+              olfactu, sed solum similitudines sensibilium ad sensum referuntur. Quaedam autem
+              sensibilia conjunguntur quidem, sed non uniuntur realiter, sed secundum assimilationem
+              qualitatis tantum, sicut accidit in tactu: quia qualitates tangibilium immutant
+              tactum; nec tamen ex tangente et tacto fit unum nisi secundum quid. Quaedam autem et
+              conjunguntur et uniuntur, sicut accidit in cibis et potibus. Et ideo sumptio hujus
+              sacramenti congrue per modum manducationis fit. Alia vero sacramenta novae legis,
+              quibus per virtutem eis inditam Christo assimilamur, fiunt in tangendo tantum, ut
+              Baptismus. Figurae autem veteris testamenti quae solam similitudinem Christi venturi
+              habebant, significabant per modum visionis. Competit etiam manducatio passioni Christi
+              in hoc sacramento repraesentatae, per quam corpus Christi vulneratum fuit; convenit
+              etiam effectui, qui est robur animae.</p>
+            <p xml:id="ta-l4d9q1-d1e210">Ad primum ergo dicendum, quod ratio illa procedit de cibo qui ordinatur ad
+              refectionem corporis quem oportet digeri, et sic impuro separato in membra converti;
+              sed cibus iste ordinatur ad refectionem mentis: et propter hoc ratio non sequitur.</p>
+            <p xml:id="ta-l4d9q1-d1e213">Ad secundum dicendum, quod de ratione manducationis est quod aliquid per os introrsum
+              sumatur; sed esse in aliter in spiritualibus, et aliter in corporalibus sumitur: quia
+              in corporalibus quod est in, continetur sicut locatum in loco; in spiritualibus autem
+              quod est in continet sicut anima corpus. Et ideo convenienter cibus corporis trahitur
+              ad corpus, ut contentum ad continens: cibus autem mentis trahit ad se mentem, ut
+              continens contentum: propter quod Augustinus dicit sibi dictum: <quote xml:id="ta-l4d9q1-Qd1e215">non tu me
+                mutabis in te, sicut cibum carnis tuae; sed tu mutaberis in me</quote>.</p>
+            <p xml:id="ta-l4d9q1-d1e219">Ad tertium dicendum, quod res visa beatificans per essentiam suam videnti conjungetur
+              in patria; quod quidem non accidit in visione corporali. Et quia oportebat hanc
+              conjunctionem significari per aliquod sensibile signum, oportuit illud sensibile ad
+              hoc assumi quod realiter conjungatur et uniatur. In patria autem signis
+              sacramentalibus opus non erit; nihilominus propter similitudinem ad ea quae nunc
+              geruntur, frequenter illa beata visio nobis per figuram manducationis in Scriptura
+              exprimitur.</p>
+          </div>
+          <div xml:id="ta-l4d9q1-Dd1e223">
+            <head xml:id="ta-l4d9q1-Hd1e225">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d9q1-d1e228">Ad secundam quaestionem dicendum, quod gratia est sufficiens causa gloriae; unde omne
+              illud sine quo potest haberi gratia, non est de necessitate salutis. Hoc autem
+              sacramentum gratiam praesupponit, quia praesupponit Baptismum, in quo gratia datur:
+              nec debet peccato praeveniri, quod gratiam privet; et ideo quantum est de se, non est
+              de necessitate salutis. Sed de ordinatione Ecclesiae homines obligantur secundum
+              Ecclesiae statutum corpus Christi semel in anno sumere.</p>
+            <p xml:id="ta-l4d9q1-d1e231">Ad primum ergo dicendum, quod dominus loquitur de manducatione spirituali sine qua
+              non potest esse salus.</p>
+            <p xml:id="ta-l4d9q1-d1e234">Ad secundum dicendum, quod Innocentius loquitur quantum ad instructionem Ecclesiae,
+              vel etiam quantum ad manducationem spiritualem.</p>
+            <p xml:id="ta-l4d9q1-d1e237">Ad tertium dicendum, quod incorporatio spiritualis ad Christum potest esse sine
+              manducatione sacramentali; et ideo non oportet quod sit sacramenti susceptio de
+              necessitate salutis.</p>
+          </div>
+          <div xml:id="ta-l4d9q1-Dd1e241">
+            <head xml:id="ta-l4d9q1-Hd1e243">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d9q1-d1e246">Ad tertiam quaestionem dicendum, quod divisio formalis alicujus sumitur penes id quod
+              competit ei per se, et non per accidens. Usus autem alicujus rei per se et non per
+              accidens, est quando utitur quis re aliqua ad hoc ad quod instituta est. Unde cum
+              manducatio dicat usum hujus sacramenti, quod quidem ad hoc institutum est ut quis re
+              sacramenti potiatur; distinguetur manducatio secundum duas res hujus sacramenti: ut
+              manducatio sacramentalis respondeat ei quod est res et sacramentum; manducatio vero
+              spiritualis ei quod est res tantum.</p>
+            <p xml:id="ta-l4d9q1-d1e249">Ad primum ergo dicendum, quod manducatio cibi corporalis non praesupponit aliam
+              manducationem quae sit ejus causa sicut manducatio spiritualis praesupponit
+              sacramentalem quasi causam. Unde in his qui sacramentaliter manducant, potest ex
+              defectu manducantium impediri effectus sacramenti, qui est spiritualis manducatio; et
+              ideo possunt haec manducationes ab invicem separari, et propter hoc oportet eas
+              distinguere.</p>
+            <p xml:id="ta-l4d9q1-d1e252">Ad secundum dicendum, quod perfectio aliorum sacramentorum in ipso usu consistit; et
+              ideo eorum distinctio non potest nisi ex parte recipientium sumi: sed perfectio hujus
+              sacramenti in ipsa materiae consecratione consistit; et ideo potest esse hic
+              distinctio ex parte ipsius sacramenti.</p>
+            <p xml:id="ta-l4d9q1-d1e255">Ad tertium dicendum, quod verbum illud intelligitur in his quae hoc modo ad se
+              invicem ordinantur quod ab invicem separari non possunt; sicut quando talis effectus
+              nunquam potest esse sine tali causa, nec e converso; et tunc etiam non excluditur
+              diversitas rerum inter causam et causatum, sed ponitur necessitas ordinis.</p>
+            <p xml:id="ta-l4d9q1-d1e259">Ad quartum dicendum, quod id quod est hic res et sacramentum, nunquam separatur ab eo
+              quod est sacramentum tantum; et si separaretur usus ejus quod est sacramentum tantum,
+              esset accidentalis usus; et ideo penes hoc non debet sumi aliquis modus manducationis
+              specialis.</p>
+            <p xml:id="ta-l4d9q1-d1e262">Ad quintum dicendum, quod hic etiam posset fieri talis distinctio. In quibusdam enim
+              conjunguntur duae manducationes, et hi suscipiunt rem et sacramentum; et in quibusdam
+              separantur, et hi suscipiunt vel rem tantum, vel sacramentum tantum. Sed quia haec
+              divisio magis se tenet ex parte suscipientium quam ex parte sacramenti; ideo non est
+              propria huic sacramento sicut Baptismo.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d9q1-Dd1e267" type="articulus">
+          <head xml:id="ta-l4d9q1-Hd1e269">Articulus 2</head>
+
+          <head xml:id="ta-l4d9q1-Hd1e272" type="questionTitle">Utrum peccator manducet corpus Christi sacramentaliter</head>
+          <div xml:id="ta-l4d9q1-Dd1e275">
+            <head xml:id="ta-l4d9q1-Hd1e277">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d9q1-d1e280">Ad secundum sic proceditur. Videtur quod peccator non manducet corpus Christi
+              sacramentaliter. Quia, ut dicitur Sap. 1, 4, <quote xml:id="ta-l4d9q1-Qd1e282">in malevolam animam non introibit
+                sapientia, nec habitabit in corpore subdito peccatis</quote>. Sed Christus, qui est
+              res contenta in hoc sacramento, est Dei sapientia, ut habetur 1 Corinth. 1. Ergo a
+              peccatore sumi non potest.</p>
+            <p xml:id="ta-l4d9q1-d1e286">Praeterea, cibus iste non vadit in ventrem, sed in mentem. Non autem vadit in mentem
+              peccatoris. Ergo nullo modo corpus Christi sumit.</p>
+            <p xml:id="ta-l4d9q1-d1e289">Praeterea, nihil indecens debet fieri a sapiente. Sed hoc est valde indecens quod
+              corpus tam pretiosum in immundo corpore ponatur. Ergo cum corpus peccatoris sit
+              immundum, non recipiet verum corpus Christi.</p>
+            <p xml:id="ta-l4d9q1-d1e292">Sed contra, majus videtur consecrare corpus Christi quam sumere. Sed peccator potest
+              consecrare. Ergo et sumere.</p>
+            <p xml:id="ta-l4d9q1-d1e296">Praeterea, Christi corpus non est magis nobile sub sacramento quam in specie propria.
+              Sed in specie propria permisit se a peccatoribus tractari. Ergo et sub specie
+              sacramenti a peccatoribus manducari potest.</p>
+          </div>
+          <div xml:id="ta-l4d9q1-Dd1e300">
+            <head xml:id="ta-l4d9q1-Hd1e302">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d9q1-d1e305">Ulterius. Videtur quod infideles sacramentaliter comedant. Quia, sicut dicit Hugo de
+              s. Victore, quamdiu sensus corporalis afficitur, praesentia carnis non tollitur. Sed
+              sensus corporalis infidelis afficitur. Ergo praesentiam corporalem carnis Christi non
+              amittit.</p>
+            <p xml:id="ta-l4d9q1-d1e308">Praeterea, infidelis potest recipere characterem, qui est res et sacramentum, in
+              Baptismo. Sed fides operatur in Baptismo sicut in Eucharistia. Ergo et corpus Christi
+              sacramentaliter potest manducare.</p>
+            <p xml:id="ta-l4d9q1-d1e311">Praeterea, plus est conficere corpus Christi quam sumere. Sed haereticus habens
+              ordinem potest conficere, ut infra dicetur. Ergo et potest sacramentaliter
+              manducare.</p>
+            <p xml:id="ta-l4d9q1-d1e314">Sed contra, in forma hujus sacramenti ponitur <quote xml:id="ta-l4d9q1-Qd1e316">mysterium fidei</quote>. Ergo hi
+              qui fide carent, sacramentaliter manducare non possunt.</p>
+            <p xml:id="ta-l4d9q1-d1e321">Praeterea, de ratione sacramenti est quod significet et efficiat. Sed in eo qui non
+              habet fidem non efficit aliquid, nec aliquid, ei signat. Ergo sacramentaliter non
+              manducat.</p>
+          </div>
+          <div xml:id="ta-l4d9q1-Dd1e325">
+            <head xml:id="ta-l4d9q1-Hd1e327">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d9q1-d1e330">Ulterius. Videtur quod creatura irrationalis non sumat aliqualiter corpus Christi.
+              Primo per hoc quod Magister infra dicit, quod hoc quod a brutis sumitur, non est
+              corpus Christi.</p>
+            <p xml:id="ta-l4d9q1-d1e333">Praeterea, hoc sacramentum est majoris perfectionis quam Baptismus. Sed quantumcumque
+              animal brutum aqua abluatur, non dicitur Baptismi sacramentum percipere aliquo modo.
+              Ergo neque sacramentum corporis Christi poterit aliquo modo percipere.</p>
+            <p xml:id="ta-l4d9q1-d1e336">Praeterea, constat quod non percipit spiritualiter, quia non credit; neque
+              sacramentaliter, quia sacramenta creaturae rationali sunt tradita. Si ergo aliquo modo
+              sumat, erit tertius modus manducandi praeter duos in littera assignatos.</p>
+            <p xml:id="ta-l4d9q1-d1e339">Sed contra, Deus magis abominatur peccatorem quam creaturam irrationalem, in qua non
+              est nisi quod Deus in ea fecit, qui solum culpam non fecit. Sed, sicut in littera
+              determinatur, corpus Christi verum a peccatoribus sumitur. Ergo et a brutis.</p>
+            <p xml:id="ta-l4d9q1-d1e343">Praeterea, si corpus Christi per negligentiam vel quocumque modo in aliquem locum
+              immundum projiciatur, non dicitur quod desinat esse sub speciebus corpus Christi. Ergo
+              non oportet dici, quod sub speciebus a brutis comestis desinat esse corpus Christi.
+              Sed species possunt a brutis manducari. Ergo et corpus Christi.</p>
+          </div>
+          <div xml:id="ta-l4d9q1-Dd1e348">
+            <head xml:id="ta-l4d9q1-Hd1e350">Quaestiuncula 4</head>
+            <p xml:id="ta-l4d9q1-d1e353">Ulterius. Videtur quod qui non manducat sacramentaliter, non manducet spiritualiter.
+              Sacramentalis enim manducatio est propter spiritualem. Si ergo spiritualis sine
+              corporali haberi possit, frustra aliquis sacramentali uteretur.</p>
+            <p xml:id="ta-l4d9q1-d1e356">Praeterea, spiritualis manducatio est per fidem et caritatem, per quae aliquis
+              Christo incorporatur. Sed antiqui patres fidem et caritatem habuerunt. Ergo si
+              spiritualis manducatio esse posset sine sacramentali, ipsi spiritualiter manducassent;
+              quod non potest esse, quia usus sacramenti non potest esse ante ejus
+              institutionem.</p>
+            <p xml:id="ta-l4d9q1-d1e359">Sed contra, aliquis potest percipere rem Baptismi sine sacramento, ut supra, dist. 4,
+              dictum est. Sed Baptismi sacramentum est majoris necessitatis quam hoc. Ergo potest
+              etiam spiritualiter manducare quis sine sacramenti manducatione.</p>
+          </div>
+          <div xml:id="ta-l4d9q1-Dd1e363">
+            <head xml:id="ta-l4d9q1-Hd1e365">Quaestiuncula 5</head>
+            <p xml:id="ta-l4d9q1-d1e368">Ulterius. Videtur quod etiam Angelus corpus Christi possit manducare spiritualiter:
+              quia super illud, Psalm. 72, <quote xml:id="ta-l4d9q1-Qd1e370">panem Angelorum manducavit homo</quote>, dicit
+              Glossa: <quote xml:id="ta-l4d9q1-Qd1e373">idest corpus Christi, qui est vere cibus Angelorum</quote>.</p>
+            <p xml:id="ta-l4d9q1-d1e377">Praeterea, quicumque potest manducare sacramentaliter, potest etiam manducare
+              spiritualiter. Sed Angelus in carne assumpta potest manducare sacramentaliter. Ergo
+              etiam sine corpore assumpto potest manducare spiritualiter.</p>
+            <p xml:id="ta-l4d9q1-d1e380">Sed contra, manducare est usus sacramenti. Sed sacramenta non sunt data Angelis ad
+              usum, sed hominibus. Ergo Angeli non possunt spiritualiter manducare.</p>
+          </div>
+          <div xml:id="ta-l4d9q1-Dd1e384">
+            <head xml:id="ta-l4d9q1-Hd1e386">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d9q1-d1e389">Respondeo dicendum ad primam quaestionem, quod quidam dixerunt corpus Christi
+              secundum rei veritatem a peccatoribus non sumi: quia quam cito labiis peccatoris
+              tangebatur, desinebat sub speciebus esse corpus Christi: intantum dignitati sacramenti
+              deferentes quod derogabant veritati. Si enim vere corpus Christi sub speciebus erat
+              per conversionem panis et vini in substantiam corporis Christi, speciebus
+              remanentibus, non poterit esse quod desinat ibi esse corpus Christi, nisi per aliquam
+              contrariam mutationem ejus quod prius convertebatur in corpus Christi. Et quia de illo
+              non remanent nisi species solae, quae ad utramque substantiam communiter se habent,
+              sicut subjectum in naturalibus mutationibus duabus formis; ideo quamdiu species non
+              mutantur, nullo modo desinit ibi esse corpus Christi; sicut nec in mutationibus
+              formalibus forma introducta desinit esse in subjecto, donec subjectum ad formam aliam
+              transmutetur. Speciebus autem in aliquid transmutari non competit nisi secundum quod
+              habent aliquam proprietatem substantiae in hoc quod sunt sine subjecto; unde nihil
+              potest eas transmutare ad aliam substantiam, nisi quod transmutaret substantiam panis
+              et vini, si ibi esset; quod solus tactus labiorum, vel divisio quae est per dentes,
+              vel trajectio in ventrem non faceret, sed sola digestio, quae est a calore naturali
+              convertente cibum. Unde patet quod veritati sacramenti derogat qui dicit, quod ad
+              solum tactum labiorum desinit esse corpus Christi a peccatore sumptum. Et ideo hac
+              opinione tamquam haeretica de medio sublata, ejus contrarium ab omnibus tenetur.</p>
+            <p xml:id="ta-l4d9q1-d1e392">Ad primum ergo dicendum, quod auctoritas illa loquitur de spirituali inhabitatione,
+              et non de sacramentali vel corporali: quia Christus etiam peccatoribus corpus suum
+              tractandum exhibuit.</p>
+            <p xml:id="ta-l4d9q1-d1e395">Ad secundum dicendum, quod cum dicitur, cibus iste non transit in ventrem, sed in
+              mentem, haec praepositio in non denotat terminum motus localis, sed finem sumptionis:
+              vadit enim quasi localiter quocumque species vadunt; sed non sumitur propter ventris
+              repletionem, sicut corporales cibi, sed propter mentis refectionem, in qua ejus
+              effectus recipitur, non in ipsa materia corporis, quia mentem inhabitare per essentiam
+              sola divinitas potest.</p>
+            <p xml:id="ta-l4d9q1-d1e398">Ad tertium dicendum, quod ex hoc quod corpus Christi sumitur a peccatoribus, nullo
+              modo corpus Christi aliquam immunditiam contrahit: quia labia peccatoris non tangunt
+              nisi species, sub quibus secundum veritatem est corpus Christi; et praeterea in hoc
+              dat exemplum mansuetudinis et humilitatis.</p>
+          </div>
+          <div xml:id="ta-l4d9q1-Dd1e402">
+            <head xml:id="ta-l4d9q1-Hd1e404">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d9q1-d1e407">Ad secundam quaestionem dicendum, quod manducatio est actus transiens a manducante in
+              manducatum. Unde sacramentaliter manducare potest intelligi dupliciter. Uno modo ut
+              adverbium determinet manducationem ex parte manducati; et sic quicumque sumit species,
+              sacramentaliter manducat; idest, sumit hoc quod est sacramentum in Eucharistia, idest
+              verum corpus Christi. Alio modo ut determinet manducationem ex parte manducantis; et
+              sic solus ille sacramentaliter manducat qui utitur illo cibo visibili ut sacramento.
+              Infidelis autem circa id quod est significatum in hoc sacramento, errans, non utitur
+              speciebus illis ut sacramento, sive non credit in Christum secundum quod sub hoc
+              sacramento continetur; unde talis non sacramentaliter manducat. Et quia actio est
+              magis propinqua agenti quam patienti, ideo sensus secundus est magis proprius; et ideo
+              secundum hunc sensum dicendum, quod infidelis non credens rem hujus sacramenti, non
+              manducat sacramentaliter.</p>
+            <p xml:id="ta-l4d9q1-d1e410">Ad primum ergo dicendum, quod illa objectio procedit secundum primum sensum.</p>
+            <p xml:id="ta-l4d9q1-d1e413">Ad secundum dicendum, quod percipiens Baptismum se habet tantum ut patiens. Unde ad
+              hoc quod aliquis recipiat sacramentaliter Baptismum, non exigitur nisi quod subjiciat
+              se actioni Ecclesiae, ut scilicet intendat recipere quidquid illa facit, quamvis
+              quandoque credat illa nihil facere; sed percipiens Eucharistiam non solum se habet ut
+              recipiens, seu patiens, sed etiam ut agens, inquantum manducat; ideo ad hoc ut
+              sacramentaliter manducet, oportet quod ipsemet utatur sacramento ut sacramento.</p>
+            <p xml:id="ta-l4d9q1-d1e416">Ad tertium dicendum, quod consecrare Eucharistiam non est uti sacramento, sed
+              quodammodo efficere ipsum; sed manducare est uti sacramento; actio autem utentis
+              recipit modum ab eo quo quis utitur, sed actio efficientis non recipit modum ab eo quo
+              quis efficit, sed a virtute activa: unde aliquis dicitur conficere sacramentum, et non
+              conficere sacramentaliter; dicitur autem manducare et sacramentum, et sacramentaliter.
+              Et ideo non est mirum, si aliquid requiritur ad hoc quod aliquis manducet
+              sacramentaliter quod non requiritur ad hoc quod efficiat sacramentum.</p>
+          </div>
+          <div xml:id="ta-l4d9q1-Dd1e420">
+            <head xml:id="ta-l4d9q1-Hd1e422">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d9q1-d1e425">Ad tertiam quaestionem dicendum, quod circa hoc est duplex opinio. Quidam enim
+              dicunt, quod corpus Christi non manducatur a brutis ita quod in ventrem trajiciatur,
+              eo quod corpus Christi non est sub speciebus illis nisi prout est ordinabile ad usum
+              humanum. Ex quo autem in ventrem muris descendunt species, non possunt ordinari ad
+              usum humanum; et ideo desinit esse corpus Christi. Sed haec ratio non valet propter
+              duo. Primo, quia supponit falsum. Cum enim non statim species in ventrem trajectae
+              esse desinant, vel in aliud convertantur, possunt adhuc de ventre animalis extrahi, et
+              in usum venire. Secundo, quia quamvis aliquid ordinetur ad usum aliquem, non tamen
+              oportet quod esse desinat, quando quis eo uti non potest. Et ideo secundum alios
+              dicendum, quod verum corpus Christi manet adhuc sub speciebus a brutis ore acceptis,
+              et in ventrem trajectis.</p>
+            <p xml:id="ta-l4d9q1-d1e428">Ad primum ergo dicendum, quod nulla ordinatio bruti est ad corpus Christi, secundum
+              quam possit Christo incorporari; et ideo non sumunt corpus Christi nisi per accidens,
+              inquantum sumunt illud sub quo est corpus Christi; et sic Magister intellexit quod non
+              sumitur corpus Christi a brutis; vel loquitur secundum aliam opinionem.</p>
+            <p xml:id="ta-l4d9q1-d1e431">Ad secundum dicendum, quod illud quod est sacramentum in Baptismo, est aliquis
+              effectus inductus in recipiente, cujus creatura irrationalis capax esse non potest; et
+              ideo sacramentum Baptismi creatura irrationalis neque per se neque per accidens
+              recipit: sed sacramentum Eucharistiae consistit in ipsa materiae consecratione; et
+              ideo potest creatura irrationalis ipsum accipere non per se, sed per accidens.</p>
+            <p xml:id="ta-l4d9q1-d1e434">Ad tertium dicendum, quod creatura irrationalis nullo modo spiritualiter manducat,
+              neque sacramentaliter: quia neque utitur manducato ut sacramento, neque manducat
+              sacramentum secundum rationem sacramenti, sicut dicitur sacramentaliter manducare
+              infidelis qui intendit recipere hoc quod recipit Ecclesia, quamvis hoc credat nihil
+              esse. Et similiter etiam ille qui manducaret hostiam consecratam, nesciens eam
+              consecratam esse, non manducaret sacramentaliter aliquo modo, quia non manducaret
+              sacramentum nisi per accidens: nisi quod plus accederet ad sacramentalem
+              manducationem, inquantum est aptus natus sacramentum ut sacramentum manducare, quod
+              bruto non competit. Nec tamen oportet quod sit alius modus manducationis tertius a
+              duobus praedictis; quia hoc quod est per accidens, in divisionem non cadit.</p>
+          </div>
+          <div xml:id="ta-l4d9q1-Dd1e438">
+            <head xml:id="ta-l4d9q1-Hd1e440">Quaestiuncula 4</head>
+            <p xml:id="ta-l4d9q1-d1e443">Ad quartam quaestionem dicendum, quod Christus est spiritualis electorum cibus, non
+              quidem in alios conversus, sed ad se convertens eos quos reficit; unde spiritualiter
+              Christum manducare est Christo incorporari, quod per fidem et caritatem contingit. Et
+              quia Christus in seipso est spiritualis cibus, ideo in sacramentali cibo significatur
+              et continetur. Prius ergo naturaliter est Christum esse cibum spiritualem quam esse
+              cibum spiritualem sub sacramento contentum: quia prius est aliquid naturaliter
+              proprietatem aliquam habens, quam similitudinem proprietatis illius ei significatio
+              aliqua adhibeat. Unde non quicumque manducat Christum spiritualiter, manducat hoc
+              sacramentum spiritualiter; utroque tamen modo convenit spiritualiter manducare non
+              manducantem sacramentaliter. Manducat enim spiritualiter Christum qui fidem et
+              caritatem ad ipsum habet sine ordine ad hoc sacramentum; non tamen manducat talis
+              spiritualiter hoc sacramentum, sed solum ille qui habet fidem et caritatem ad Christum
+              cum devotione et proposito sumendi hoc sacramentum, etiam si sacramentaliter non
+              manducet.</p>
+            <p xml:id="ta-l4d9q1-d1e446">Ad primum ergo dicendum, quod sicut baptizatus Baptismo flaminis emundationem
+              consecutus est propter propositum Baptismi sacramentalis, et accipiens sacramentum
+              ampliorem gratiam consequitur, ita etiam qui spiritualiter manducavit, in proposito et
+              devotione habuit manducationem sacramentalem, ad quam accedens ex ipsa vi sacramenti
+              majorem gratiam consequitur; unde non sequitur quod sacramentalis manducatio
+              superfluat.</p>
+            <p xml:id="ta-l4d9q1-d1e449">Ad secundum dicendum, quod antiqui patres non manducaverunt spiritualiter hoc
+              sacramentum quia nondum erat institutum, nec consecratio praecesserat; manducaverunt
+              tamen spiritualiter Christum; et secundum hoc dicitur 1 Corinth. 10, quod omnes eamdem
+              escam manducaverunt spiritualem.</p>
+          </div>
+          <div xml:id="ta-l4d9q1-Dd1e454">
+            <head xml:id="ta-l4d9q1-Hd1e456">Quaestiuncula 5</head>
+            <p xml:id="ta-l4d9q1-d1e459">Ad quintam quaestionem dicendum, quod manducare hoc sacramentum spiritualiter non
+              competit Angelis: quia eis Christus sub sacramento non proponitur, sed in nuda
+              veritate. Christum tamen quodammodo spiritualiter manducant, et quodammodo non. Cum
+              enim spiritualiter manducare sit Christo incorporari, secundum hoc aliquis Christum
+              manducare potest secundum quod ejus membrum effici potest et Christus esse caput ejus.
+              Est autem Christus caput Angelorum quodammodo, quia secundum rationem influentiae, et
+              secundum conformitatem naturae in genere; et quodammodo non, quia non secundum
+              conformitatem in specie, ut in 3 Lib., dist. 13, qu. 1, art. 2, quaestiunc. 1, in
+              corp., dictum est; et ideo uno modo spiritualiter manducant Christum, et alio modo
+              non.</p>
+            <p xml:id="ta-l4d9q1-d1e462">Ad primum ergo dicendum, quod Christus dicitur esca Angelorum secundum divinitatem,
+              inquantum Angelos reficit; et secundum humanitatem, secundum quod in ipsum desiderant
+              Angeli prospicere, 1 Petr. 1; non tamen secundum conformitatem naturae in specie.</p>
+            <p xml:id="ta-l4d9q1-d1e465">Ad secundum dicendum, quod si Angelus assumpto corpore species masticaret, non tamen
+              manducaret sacramentaliter: quia non manducaret sacramentum secundum rationem
+              sacramenti, cum non habeat fidem, sed manifestam visionem; neque habet conformitatem
+              naturae; et ideo non manducaret sacramentum nisi per accidens.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d9q1-Dd1e470" type="articulus">
+          <head xml:id="ta-l4d9q1-Hd1e472">Articulus 3</head>
+
+          <head xml:id="ta-l4d9q1-Hd1e475" type="questionTitle">Utrum peccet quis cum conscientia peccati mortalis corpus
+            Christi manducans</head>
+          <div xml:id="ta-l4d9q1-Dd1e478">
+            <head xml:id="ta-l4d9q1-Hd1e480">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d9q1-d1e483">Ad tertium sic proceditur. Videtur quod non peccet quis cum conscientia peccati
+              mortalis corpus Christi manducans. Quia secundum Augustinum, maximis bonis nullus male
+              utitur. Sed corpus Christi de maximis bonis est. Ergo nullus potest ipso utendo
+              peccare.</p>
+            <p xml:id="ta-l4d9q1-d1e486">Praeterea, infirmi non minus egent medicina quam medico. Sed Christus in propria
+              specie veniens ut medicus, non refugit peccatorum consortium: quia, sicut ipse dicit,
+              Luc. 5, 31, <quote xml:id="ta-l4d9q1-Qd1e488">non egent qui sani sunt medico, sed qui male habent</quote>. Ergo
+              cum Christus sub sacramento proponatur ut medicina, non debet peccatoribus
+              subtrahi.</p>
+            <p xml:id="ta-l4d9q1-d1e492">Praeterea, nullus peccat faciendo id quod tenetur. Sed iste peccator tenetur ex
+              praecepto Ecclesiae semel in anno corpus Christi sumere. Ergo quamvis sit in proposito
+              peccandi, non peccat corpus Christi sumendo.</p>
+            <p xml:id="ta-l4d9q1-d1e495">Sed contra, 1 Corinth. 11, 29: <quote xml:id="ta-l4d9q1-Qd1e497">qui manducat indigne, judicium sibi
+                manducat</quote>. Sed qui cum conscientia peccati mortalis manducat, indigne
+              manducat. Ergo et cetera.</p>
+            <p xml:id="ta-l4d9q1-d1e502">Praeterea, Deus magis horret sordes spirituales, quae sunt peccata, quam sordes
+              corporales. Sed peccaret qui corpus Christi in lutum projiceret. Ergo peccat qui
+              Christum in corpus suum peccato infectum intromittit.</p>
+          </div>
+          <div xml:id="ta-l4d9q1-Dd1e506">
+            <head xml:id="ta-l4d9q1-Hd1e508">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d9q1-d1e511">Ulterius. Videtur quod etiam ille qui non habet conscientiam peccati mortalis, in
+              peccato mortali existens peccet corpus Christi sumendo. Peccatum enim facit hominem
+              indigne accedere ad corpus Christi. Sed ignorantia peccati cui homo subjacet, non
+              tollit peccatum, immo gravissime peccat qui ignorat, secundum Ambrosium. Ergo cum
+              indigne accedens peccet mortaliter, videtur quod habens peccatum cujus non est
+              conscius, accedens peccet.</p>
+            <p xml:id="ta-l4d9q1-d1e514">Praeterea, in meliori statu est justus habens conscientiam peccati mortalis, cui non
+              subjacet, quam peccator subjacens peccato cujus non est conscius: quia hoc videtur
+              esse praesumptionis, primum autem humilitatis: quia secundum Gregorium, bonarum
+              mentium est ibi culpam agnoscere ubi culpa non est. Sed justus carens peccato peccat,
+              si cum conscientia peccati mortalis accedat. Ergo multo fortius peccator, qui peccati
+              sui sibi non est conscius.</p>
+            <p xml:id="ta-l4d9q1-d1e517">Praeterea, ubicumque requiritur examinatio, ibi est necessaria rei veritas, et non
+              opinio tantum. Sed ad hoc quod aliquis digne accedat ad corpus Christi, requiritur
+              diligens examinatio sui ipsius, ut patet 1 Corinth. 11, 28: <quote xml:id="ta-l4d9q1-Qd1e519">probet seipsum
+                homo, et sic de pane illo edat</quote>. Ergo necessarium est quod sit puritas a
+              peccato secundum veritatem, et non solum secundum aestimationem.</p>
+            <p xml:id="ta-l4d9q1-d1e523">Sed contra, Eccl. 9, 1, dicitur: <quote xml:id="ta-l4d9q1-Qd1e525">nemo scit utrum odio vel amore dignus
+                sit</quote>. Si ergo habens peccatum cujus non est conscius, peccaret corpus Christi
+              sumendo; quicumque sumit, exponeret se periculo peccati mortalis; et ita nullus sumere
+              deberet.</p>
+            <p xml:id="ta-l4d9q1-d1e530">Praeterea, ignorantia facti excusat. Sed ignorantia peccati est hujusmodi. Ergo
+              excusat.</p>
+          </div>
+          <div xml:id="ta-l4d9q1-Dd1e534">
+            <head xml:id="ta-l4d9q1-Hd1e536">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d9q1-d1e539">Ulterius. Videtur quod manducans indigne corpus Christi, magis peccet quam quodcumque
+              aliud peccatum committens. Super illud Marc. 14: <quote xml:id="ta-l4d9q1-Qd1e541">vae homini illi</quote> etc.,
+              dicit Glossa: <quote xml:id="ta-l4d9q1-Qd1e544">vae homini illi qui ad mensam domini accedit indigne: iste enim
+                in exemplum Judae filium hominis tradit</quote>; et in 1 Corinth. 11 dicitur, quod
+              est reus sanguinis domini. Sed Judas et illi qui sanguinem domini fuderunt, gravissime
+              peccaverunt. Ergo et hoc peccatum est ceteris gravius.</p>
+            <p xml:id="ta-l4d9q1-d1e548">Praeterea, plus peccaret qui corpus Christi in lutum projiceret quam qui aliquod
+              aliud peccatum committeret, puta fornicationem, vel aliud hujusmodi. Sed Deus plus
+              horret sordes peccati quam sordes luti. Ergo peccator sumens corpus Christi gravius
+              peccat quam quodlibet aliud peccatum committens.</p>
+            <p xml:id="ta-l4d9q1-d1e551">Sed contra, quod est per se malum, est majus malum quam quod est per accidens malum.
+              Sed alia peccata sunt per se mala, ut fornicatio; sed manducare corpus Christi est per
+              se bonum, et per accidens malum. Ergo est minus malum.</p>
+          </div>
+          <div xml:id="ta-l4d9q1-Dd1e556">
+            <head xml:id="ta-l4d9q1-Hd1e558">Quaestiuncula 4</head>
+            <p xml:id="ta-l4d9q1-d1e561">Ulterius. Videtur quod minus peccat haereticus manducans corpus Christi quam fidelis
+              peccator. Quia pejus est contemnere Christum quam contemnere sacramentum Christi. Sed
+              fidelis peccator manducans contemnit Christum, quem sub sacramento vere esse credit;
+              infidelis autem contemnit sacramentum in hoc quod sub eo Christum esse non credit.
+              Ergo infidelis minus peccat.</p>
+            <p xml:id="ta-l4d9q1-d1e564">Praeterea, quanto aliquod peccatum est magis dissonum a ratione, tanto est gravius.
+              Sed peccatum fidelis indigne sumentis est contra rationem naturalem manifeste: non
+              autem illius qui non credit sub hoc sacramento Christum secundum veritatem esse: quia
+              hoc supra rationem est, et supra sensum. Ergo infidelis minus peccat.</p>
+            <p xml:id="ta-l4d9q1-d1e567">Sed contra, quanto aliquis magis elongatur a Christo realiter, tanto magis debet
+              elongari sacramentaliter. Sed infidelis magis elongatur realiter: quia prima unio ad
+              Christum est per fidem, qua ille caret. Ergo magis peccat accedendo ad Christum
+              sacramentaliter.</p>
+          </div>
+          <div xml:id="ta-l4d9q1-Dd1e571">
+            <head xml:id="ta-l4d9q1-Hd1e573">Quaestiuncula 5</head>
+            <p xml:id="ta-l4d9q1-d1e576">Ulterius. Videtur quod subjacens peccato carnis, magis peccat accedens ad hoc
+              sacramentum quam subjacens peccato spirituali. Quia peccatum manducantium corpus
+              Christi in peccato carnis existentium comparatur peccato Judae; unde Hieronymus:
+                <quote xml:id="ta-l4d9q1-Qd1e578">quid tibi cum feminis qui ad altare cum Deo fabularis? (...) Dic sacerdos,
+                dic clerice, qualiter eisdem labiis filium Dei oscularis, quibus osculatus es filiam
+                meretricis? O Juda, osculo filium hominis tradis</quote>. Sed peccatum Judae fuit
+              gravissimum. Ergo talis gravius peccat.</p>
+            <p xml:id="ta-l4d9q1-d1e582">Praeterea, in peccato carnis est immunditia mentis et corporis. Ergo magis facit
+              contumeliam sacramento qui cum peccato carnis corpus Christi manducat, quam qui
+              manducat cum peccato spirituali, ubi est immunditia mentis tantum.</p>
+            <p xml:id="ta-l4d9q1-d1e585">Sed contra, Gregorius dicit, quod peccata spiritualia sunt majoris culpae; cujus
+              ratio est quia peccata carnis magis ex infirmitate accidunt. Sed ex hoc est aliquis
+              indignus corporis et sanguinis domini quod culpae subjacet. Ergo minus peccat accedens
+              cum peccato carnis quam cum peccato spirituali.</p>
+          </div>
+          <div xml:id="ta-l4d9q1-Dd1e589">
+            <head xml:id="ta-l4d9q1-Hd1e591">Quaestiuncula 6</head>
+            <p xml:id="ta-l4d9q1-d1e594">Ulterius. Videtur quod peccator peccat videndo corpus Christi. Quia corpus Christi
+              est dignius quam arca testamenti. Sed Bethsamitae videntes arcam domini, quia
+              peccatores erant, percussi sunt, ut dicitur 1 Reg. 6. Ergo multo fortius peccator
+              videns corpus Christi peccat.</p>
+            <p xml:id="ta-l4d9q1-d1e597">Praeterea, publicanus laudatur, Luc. 18, de hoc quod oculos non levabat ad caelum.
+              Sed corpus Christi est dignius caelo. Ergo debent peccatores ab aspectu corporis
+              Christi abstinere.</p>
+            <p xml:id="ta-l4d9q1-d1e600">Sed contra est consuetudo Ecclesiae, secundum quam elevatur corpus Christi ab omnibus
+              aspiciendum sine aliqua discretione videntium. Ergo non peccat peccator videns.</p>
+          </div>
+          <div xml:id="ta-l4d9q1-Dd1e604">
+            <head xml:id="ta-l4d9q1-Hd1e606">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d9q1-d1e609">Respondeo dicendum ad primam quaestionem, quod quilibet cum conscientia peccati
+              mortalis manducans corpus Christi, peccat mortaliter, quia abutitur sacramento: et
+              quanto sacramentum est dignius, tanto abusus est periculosior. Ratio autem hujus ex
+              tribus potest sumi. Primo ex eo quod est sacramentum tantum, ex quo apparet, quod hoc
+              sacramentum in modum cibi proponitur; cibus autem non competit nisi viventi: unde si
+              carens vita spirituali per peccatum mortale accipiat hoc sacramentum, abutitur ipso.
+              Secundo ex eo quod est ibi res et sacramentum, quod est ipse Christus, qui est sanctus
+              sanctorum; unde receptaculum ejus debet esse sanctum; et ideo si aliquis cum contrario
+              sanctitatis corpus Christi sumat, sacramento abutitur. Tertio ex eo quod est res
+              tantum, quod est corpus Christi mysticum; quia ex hoc ipso quod aliquis ad hoc
+              sacramentum accedit, significat se ad unitatem corporis mystici tendere; unde si
+              peccatum in conscientia teneat, per quod a corpore mystico separatur, fictionis culpam
+              incurrit, et ita abutitur sacramento.</p>
+            <p xml:id="ta-l4d9q1-d1e612">Ad primum ergo dicendum, quod verbum Augustini intelligendum est de eo quo utitur
+              quis sicut eliciente actum usus: sic enim virtutibus, quas maxima bona dicit, nullus
+              male utitur. Sed non est intelligendum de eo quo quis utitur quasi objecto usus: sic
+              enim etiam virtutibus aliquis male utitur, qui de virtutibus gloriatur et superbit; et
+              ita etiam aliquis potest corpore Christi male uti sicut objecto.</p>
+            <p xml:id="ta-l4d9q1-d1e615">Ad secundum dicendum, quod duplex est medicina. Una est removens morbum; et talis
+              infirmis debetur; et huic comparatur Baptismus et poenitentia. Alia est promovens in
+              perfectam sanitatem; et talis non debetur infirmis, sed jam sanis; et huic comparatur
+              haec medicina. Utraque autem medicina per medicum datur. Unde non sequitur, si medicus
+              non fugit infirmi consortium, quod quaelibet ejus medicina infirmis dari debeat.</p>
+            <p xml:id="ta-l4d9q1-d1e618">Ad tertium dicendum, quod habens conscientiam mortalis quod dimittere non proponit,
+              peccat accedens ad sumendum corpus Christi, quia indigne accedit. Peccat etiam non
+              accedendo tempore ab Ecclesia constituto, quia inobediens est. Non tamen est
+              perplexus, quia potest se ab hoc dubio eripere, peccati propositum dimittendo.
+              Nihilominus tamen manente tali proposito minus peccat non sumendo quam sumendo; quia
+              illud quod est malum secundum se, est majus malum quam illud quod est malum quia
+              prohibitum; unde potius se debet dimittere excommunicari, quam cum proposito peccati
+              corpus Christi sumat.</p>
+          </div>
+          <div xml:id="ta-l4d9q1-Dd1e622">
+            <head xml:id="ta-l4d9q1-Hd1e624">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d9q1-d1e627">Ad secundam quaestionem dicendum, quod ignorantia circumstantiae a peccato excusat,
+              adhibita diligentia, praecipue quando est talis circumstantia, cujus certitudo plene
+              haberi non potest. Quod autem homo sit omnino a peccato immunis, per certitudinem
+              sciri non potest; 1 Corinth., 4, 4: <quote xml:id="ta-l4d9q1-Qd1e629">nihil mihi conscius sum, sed non in hoc
+                justificatus sum</quote>. Potest tamen de hoc haberi aliqua conjectura, praecipue
+              per quatuor signa, sicut Bernardus dicit. Primo, cum quis devote verba Dei audit: quia
+                <quote xml:id="ta-l4d9q1-Qd1e632">qui est ex Deo, verba Dei audit</quote>; Joan. 8, 47. Secundo, cum quis se
+              promptum ad bene operandum invenit: quia probatio dilectionis exhibitio est operis, ut
+              dicit Gregorius. Tertio, cum quis a peccatis abstinendi in futurum propositum habet.
+              Quarto, cum de praeteritis dolet: quia in his vera poenitentia, secundum Gregorium,
+              consistit. Unde si aliquis per hujusmodi signa facta diligenti discussione suae
+              conscientiae, quamvis forte non sufficienti, ad corpus Christi devote accedat, aliquo
+              peccato mortali in ipso manente, quod ejus cognitionem praeterfugiat, non peccat, immo
+              magis ex vi sacramenti peccati remissionem consequitur. Unde Augustinus dicit in
+              quodam sermone, quod quando corpus Christi manducatur, vivificat mortuos.</p>
+            <p xml:id="ta-l4d9q1-d1e636">Ad primum ergo dicendum, quod duplex est ignorantia peccati. Una qua ignoratur an
+              aliquid peccatum sit; et haec quidem ignorantia si sit in sola cognitione consistens,
+              quandoque excusat peccatum, sicut cum ignoratur circumstantia quae peccatum facit,
+              sicut cum quis commiscetur alienae quam credit suam; et hic non habet locum auctoritas
+              Ambrosii. Quandoque autem non excusat, sicut cum est ignorantia universalis juris;
+              immo ipsa ignorantia grave peccatum est; et videtur in his quae per se mala sunt, ad
+              infidelitatem pertinere; in his autem quae sunt mala quia prohibita, ad negligentiam;
+              et hic habet aliquo modo locum verbum Ambrosii propter ignorantiae periculum; quia
+              medicina non quaeritur cum morbus ignoratur; et etiam propter infidelitatem, quae est
+              gravissimum peccatum. Si autem sit talis ignorantia in cognitione simul et affectione
+              consistens, sicut ignorantia electionis, quando quis in illicitum improhibite fertur
+              ac si esset licitum, sicut dicit philosophus de his qui ex habitu alicujus vitii
+              operantur, ut intemperati, tunc gravissime peccat qui ignorat, quia haec ignorantia
+              provenit ex contemptu. Alia ignorantia peccati est, qua id quod scitur esse peccatum,
+              jam non creditur esse, sed sibi dimissum esse; et talis ignorantia non excusat nec
+              aggravat illud peccatum, cujus ignorantia dicitur; sed potest excusare respectu
+              sequentis peccati, respectu cujus peccatum praecedens, quod ignoratum est, se habet ut
+              circumstantia, quae peccatum in actu sequenti induceret, si sciretur; et ita est in
+              proposito. Unde quamvis sit indignus ratione praecedentis peccati, non tamen indigne
+              accedit, quia ignorantia excusat a peccato illum accessum, ut dictum est.</p>
+            <p xml:id="ta-l4d9q1-d1e639">Ad secundum dicendum, quod sicut ignorantia circumstantiae quae excusat peccatum,
+              excusat a peccato, ita error circumstantiae talis causat peccatum, ut patet in eo qui
+              accedit ad suam, quam credit non esse suam. Et similiter est in proposito: quia justus
+              credens se peccatorem, errat in hac circumstantia. Unde si tali opinione manente
+              corpus Christi manducaret; constat quod eligeret se peccatorem corpus Christi
+              manducare; et ita electio esset prava, et peccaret. Sed electio non est prava in eo
+              qui peccatum habet quod nescit; et ideo quamvis justus sit simpliciter melius
+              dispositus, tamen est pejus dispositus quantum ad hoc.</p>
+            <p xml:id="ta-l4d9q1-d1e642">Ad tertium dicendum, quod examinatio requiritur, ne ignorantia ex negligentia
+              procedat; quia talis ignorantia non excusaret.</p>
+          </div>
+          <div xml:id="ta-l4d9q1-Dd1e646">
+            <head xml:id="ta-l4d9q1-Hd1e648">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d9q1-d1e651">Ad tertiam quaestionem dicendum, quod sicut meritum praecipue consistit penes
+              caritatem, item demeritum praecipue consistit penes contemptum Dei; unde secundum quod
+              aliquis Deum per actum peccati magis contemnit, secundum hoc majorem reatum incurrit;
+              et ideo illa peccata quae in actuali contemptu consistunt, sunt graviora illis in
+              quibus non est contemptus nisi ex consequenti, et quasi interpretatus; sicut accidit
+              in fruitione creaturae, per quam aliquis delectationi intendit, ex cujus intentione a
+              praeceptis Dei discedit, et sic per consequens percipientem contemnit. Peccatum autem
+              blasphemiae in contemptu principaliter consistit; et similiter peccatum accedentis
+              indigne ad corpus Christi, irreverentia quaedam et contemptus essentialiter est.
+              Sciendum autem, quod contemptus ex duplici parte mensurari potest. Uno modo ex parte
+              contemnentis; et sic non potest fieri comparatio unius generis peccati ad aliud genus,
+              sed unius particularis peccati ad aliud: quia contingit in uno veniali peccato ex
+              genere esse majorem contemptum actualem quam in uno gravissimo peccato mortali ex
+              genere. Alio modo ex parte ejus quod contemnitur; et sic est talis ordo peccatorum,
+              quod illud in quo ipse Deus in seipso etiam contemnitur, est peccatum gravissimum,
+              sicut peccatum infidelitatis et blasphemiae; et post hoc illud peccatum in quo
+              contemnitur Deus in sacramento, et inter alia praecipue in isto, in quo essentialiter
+              Christus Deus et homo continetur (non tamen contemptus iste est circa Christum, ut est
+              Deus et homo, sed prout est in sacramento); et post, peccatum illud in quo contemnitur
+              Deus in membris suis; et post, peccatum in quo contemnitur Deus in praeceptis suis,
+              quod commune est omni peccato mortali; et secundum hoc patet quod peccatum de quo nunc
+              agitur, neque est omnium gravissimum, neque est omnium minimum; sed est medium inter
+              peccata quae committuntur in Deum, et alia peccata quae committuntur in proximum, vel
+              in seipsum; unde ad utraque argumenta oportet respondere.</p>
+            <p xml:id="ta-l4d9q1-d1e654">Ad primum ergo dicendum, quod peccatum indigne corpus Christi manducantium comparatur
+              peccato Christum occidentium, inquantum utrumque peccatum in ipsum Christum
+              committitur; sed tamen peccatum Christum occidentium majus est: quia illud peccatum
+              commissum est in ipsam Christi personam; hoc autem peccatum committitur in ipsum,
+              secundum quod est sub sacramento.</p>
+            <p xml:id="ta-l4d9q1-d1e657">Ad secundum dicendum, quod ille qui corpus Christi in lutum projiceret, magis
+              peccaret quam manducans peccator: quia magis abutitur sacramento, secundum quod
+              longius a debito usu sacramenti recedit, quod ab homine justo sumendum est.</p>
+            <p xml:id="ta-l4d9q1-d1e660">Ad tertium dicendum, quod quamvis corpus Christi manducare non sit malum nisi per
+              accidens, tamen manducare corpus Christi indigne est malum per se. Nullum enim
+              peccatum dicitur malum per se nisi propter corruptionem alicujus circumstantiae.</p>
+          </div>
+          <div xml:id="ta-l4d9q1-Dd1e665">
+            <head xml:id="ta-l4d9q1-Hd1e667">Quaestiuncula 4</head>
+            <p xml:id="ta-l4d9q1-d1e670">Ad quartam quaestionem dicendum, quod in indigne manducante est duo peccata
+              considerare; scilicet peccatum quo indignus redditur ad manducandum, et peccatum quo
+              indigne manducat. Quia ergo peccatum infidelitatis est gravius ceteris aliis peccatis,
+              ideo infidelis manducans indignior est ad manducandum. Sed quia non credit illud quod
+              sumitur esse tantae dignitatis quantae est, ideo non tantum peccat in abusu: quia
+              ignorantia infidelitatis quamvis non excuset sequens peccatum a toto, excusat tamen a
+              tanto, ut patet de peccato occidentium Christum: quia, <quote xml:id="ta-l4d9q1-Qd1e672">si cognovissent, nunquam
+                dominum gloriae crucifixissent</quote>, 1 Corinth. 2, 8; et per hanc ignorantiam
+              eorum peccatum alleviatum est, ut dicit Anselmus; et similiter Paulus de seipso dicit,
+              1 Timoth. 1, 14: <quote xml:id="ta-l4d9q1-Qd1e675">misericordiam consecutus sum, quia ignorans feci in
+                incredulitate mea</quote>. Et ideo infidelis indignior manducat, sed peccator
+              fidelis magis indigne.</p>
+            <p xml:id="ta-l4d9q1-d1e679">Ad primum ergo dicendum, quod infidelis quantum ad peccatum infidelitatis contemnit
+              Christum in sua persona, quia ejus doctrinae repugnat; quantum autem ad manducationem
+              contemnit quidem non expresse sed interpretative, inquantum illa ignorantia qua
+              Christum sub sacramento esse non credit, non est invincibilis; unde quia potest facere
+              ut credat, perinde reputatur ac si credat, in genere peccati; quamvis actualis et
+              expressus contemptus aggravet quantitatem istius peccati; et sic quantum ad ipsam
+              manducationem magis fidelis peccator peccat.</p>
+            <p xml:id="ta-l4d9q1-d1e682">Ad secundum dicendum, quod quamvis ea quae sunt fidei, et praecipue circa hoc
+              sacramentum, non sint ita rationi humanae consona secundum se considerata, tamen ut
+              dicta a Deo, et prodigiis approbata, sunt maxime rationi consona. Nihil enim est adeo
+              rationi consonum, sicut quod Deo sit credendum in omnibus quae dicit et contestatur.
+              Doctrina autem fidei cum accepisset principium enarrandi a domino, contestante Deo
+              signis et prodigiis, et variis spiritus sancti distributionibus, per eos qui
+              audierunt, in nos confirmata est, Hebr. 2, 3; et ideo peccatum infidelitatis est
+              gravius quam peccatum indigne manducantis.</p>
+            <p xml:id="ta-l4d9q1-d1e685">Tertium autem argumentum concludit, quod infidelis indignior sit; et hoc concedendum
+              est.</p>
+          </div>
+          <div xml:id="ta-l4d9q1-Dd1e689">
+            <head xml:id="ta-l4d9q1-Hd1e691">Quaestiuncula 5</head>
+            <p xml:id="ta-l4d9q1-d1e694">Ad quintam quaestionem dicendum, quod ad hoc quod aliquis digne corpus Christi
+              manducet, duo requiruntur: scilicet ut sit in statu gratiae, per quam capiti Christo
+              unitur; et quod in actu mens ejus feratur ad divina; unde et sacerdos monet populum
+              sursum corda ad Deum habere. Peccatum autem quanto est gravius, tanto magis a gratia
+              elongat; unde cum peccata spiritualia secundum genus sint graviora carnalibus, ut per
+              Gregorium patet, quamvis aliquod carnale aliquo spirituali sit gravius loquendo in
+              genere; per peccatum spirituale aliquis efficitur magis indignus manducationis
+              corporis Christi quam per peccatum carnale quantum ad primum quod requirebatur ad
+              digne manducandum. Sed quia per peccatum carnale, per luxuriam praecipue, mens humana
+              deprimitur ut ad superna ferri non possit, quia etiam in actu matrimoniali spiritus
+              sanctus corda prophetarum non tangit, ut Hieronymus dicit, et secundum philosophum in
+              7 Eth., impossibile est hominem aliquid intelligere in ipsa delectatione venereorum;
+              per peccatum carnale homo magis indignus redditur quantum ad secundum quod exigebatur
+              ad digne manducandum. Sed quia multo gravius est habitum gratiae tollere quam actum
+              virtutis impedire, cum illud pertineat ad peccatum mortale semper, hoc autem interdum
+              ad veniale; major indignitas relinquitur, ex defectu primi quam ex defectu secundi; et
+              ideo, simpliciter loquendo, plus peccat qui peccato majori irretitus accedit, nisi per
+              ignorantiam excusetur. Certius autem cognosci potest peccatum mortale in peccatis
+              carnis, praecipue luxuria, quam in peccatis spiritualibus; et ideo quantum ad hoc per
+              accidens peccat plus accedens cum carnali peccato; quamvis simpliciter et per se
+              loquendo peccet plus accedens cum spirituali, si spirituale carnali sit gravius.</p>
+            <p xml:id="ta-l4d9q1-d1e697">Ad primum ergo dicendum, quod hoc idem quod de peccato luxuriae dicit Hieronymus, de
+              quolibet peccato mortali dici potest: quia qui manducat indigne, reus est corporis et
+              sanguinis domini aliquo modo, ut dictum est.</p>
+            <p xml:id="ta-l4d9q1-d1e700">Ad secundum dicendum, quod illa immunditia corporis procedit ex immunditia mentis:
+              quia non inquinatur corpus nisi de consensu mentis: ut dicit Lucia. Unde magis
+              pensatur indignitas ex mente quam ex carne.</p>
+          </div>
+          <div xml:id="ta-l4d9q1-Dd1e704">
+            <head xml:id="ta-l4d9q1-Hd1e706">Quaestiuncula 6</head>
+            <p xml:id="ta-l4d9q1-d1e709">Ad sextam quaestionem dicendum, quod ea quae in sacramentis geruntur exterius, debent
+              respondere his quae interius geruntur; unde secundum quod homo ad Christum accedit
+              interius mente, ita ad ejus sacramentum debet accedere corpore. Quidam autem non
+              accedunt neque fide neque caritate; unde tales arcendi sunt ab inspectione sacramenti
+              et assumptione. Quidam autem accedunt fide sine caritate; et tales possunt videre, sed
+              non sumere: quia per caritatem aliquis Christo incorporatur; sed per fidem accedens,
+              adhuc longius stat.</p>
+            <p xml:id="ta-l4d9q1-d1e712">Ad primum ergo dicendum, quod hoc non erat propter dignitatem arcae, quod prohibita
+              erat videri, sed propter figuram: <quote xml:id="ta-l4d9q1-Qd1e714">omnia enim in figura contingebant
+                illis</quote>, 1 Corinth. 10, 11: quia non licet nisi majoribus et perfectis secreta
+              fidei, quae per arcam significantur, curiose scrutari: quia <quote xml:id="ta-l4d9q1-Qd1e717">qui perscrutator
+                est majestatis, opprimetur a gloria</quote>; Prov. 25, 27.</p>
+            <p xml:id="ta-l4d9q1-d1e721">Ad secundum dicendum, quod humilitas alicujus commendatur in hoc etiam quod a licitis
+              abstinet; et ideo non sequitur, si aliquis peccator abstinens ab hoc ad tempus
+              laudatur, quod propter hoc non abstinens peccet.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d9q1-Dd1e727" type="articulus">
+          <head xml:id="ta-l4d9q1-Hd1e729">Articulus 4</head>
+
+          <head xml:id="ta-l4d9q1-Hd1e732" type="questionTitle">Utrum nocturna pollutio quae in somnis accidit sit
+            peccatum</head>
+          <div xml:id="ta-l4d9q1-Dd1e735">
+            <head xml:id="ta-l4d9q1-Hd1e737">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d9q1-d1e740">Ad quartum sic proceditur. Videtur quod nocturna pollutio quae in somnis accidit, sit
+              peccatum. Meritum enim et demeritum, cum sint contraria, nata sunt fieri circa idem.
+              Sed homo in somnis mereri potest, sicut patet de Salomone, qui dormiens a domino
+              sapientiae donum impetravit: 2 Paralip. 1. Ergo et potest aliquis demereri: ergo si in
+              somnis in aliquod peccatum consentiat, peccatum est, quod in nocturna pollutione
+              frequenter accidit.</p>
+            <p xml:id="ta-l4d9q1-d1e743">Praeterea, quicumque non habet mentem ligatam, non excusatur a peccato, si aliquod
+              turpe committere consentiat. Sed mens dormientis non videtur esse ligata, cum non sit
+              actus corporis ex cujus passione somnus accidit; immo videtur quod debeat esse magis
+              libera, quia immobilitatis exterioribus sensibus, interiores, a quibus immediate mens
+              accipit, confortantur; et quaedam quandoque de futuris mente dormiens percipit quae
+              vigilans percipere non potest. Ergo non excusatur a peccato, si in aliquod turpe
+              consentiat; et sic idem quod prius.</p>
+            <p xml:id="ta-l4d9q1-d1e746">Praeterea, quicumque potest deliberare et ratiocinari, videtur usum liberi arbitrii
+              habere, quod inquirendo eligit. Sed dormiens, ut experimento scitur, interdum
+              argumentatur, et argumenta solvit. Ergo habet usum liberi arbitrii et sic idem quod
+              prius.</p>
+            <p xml:id="ta-l4d9q1-d1e749">Praeterea, quicumque potest consentire et dissentire alicui turpi, reus esse videtur,
+              si consentiat: quia talis videtur esse dominus sui actus. Sed dormiens aliquando
+              dissentit turpitudini praesentatae, aliquando autem consentit. Ergo quando consentit,
+              videtur esse reus peccati.</p>
+            <p xml:id="ta-l4d9q1-d1e753">Praeterea, actiones et motus ex terminis judicantur. Sed nocturna pollutio frequenter
+              vigilia finitur quamvis in somno inchoetur. Ergo est judicanda ac si in vigilia
+              fieret; et ita est peccatum.</p>
+            <p xml:id="ta-l4d9q1-d1e756">Sed contra, est quod Augustinus dicit, 12 super Genes. ad litteram: <quote xml:id="ta-l4d9q1-Qd1e758">ipsa
+                phantasia quae fit in cogitatione sermocinantis, cum expressa fuerit in visione
+                somniantis, ut inter illam et veram conjunctionem corporum non discernatur, continue
+                movetur caro, et sequitur quod eum motum sequi solet; cum hoc tam sine peccato fiat,
+                quam sine peccato a vigilantibus dicitur, quod ut diceretur sine dubio cogitatum
+                est</quote>.</p>
+            <p xml:id="ta-l4d9q1-d1e762">Praeterea, philosophus dicit in 1 Ethic., quod secundum dimidium vitae, scilicet
+              somnum, non differt felix a misero neque vitiosus a studioso. Sed secundum peccatum
+              differunt. Ergo peccatum non potest in somnis accidere.</p>
+          </div>
+          <div xml:id="ta-l4d9q1-Dd1e766">
+            <head xml:id="ta-l4d9q1-Hd1e768">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d9q1-d1e771">Ulterius. Videtur quod non impediat a sumptione corporis Christi. Veniale enim
+              peccatum magis displicet Deo quam quaelibet immunditia corporalis quae fit sine
+              peccato. Sed nocturna pollutio non est peccatum, ut ex auctoritate Augustini inducta
+              patet. Ergo cum veniale peccatum non impediret a sumptione corporis Christi, multo
+              minus nocturna pollutio impedit.</p>
+            <p xml:id="ta-l4d9q1-d1e774">Praeterea, non est dubium quin peccatum mortale plus impedit quam nocturna pollutio.
+              Sed aliquis post peccatum mortale confessum, potest corpus Christi manducare. Ergo
+              multo fortius qui pollutionem nocturnam confessus est, potest eadem die manducare
+              corpus Christi.</p>
+            <p xml:id="ta-l4d9q1-d1e777">Praeterea, homo debet impedire peccatum alterius mortale, quantumcumque potest. Sed
+              si aliquis in peccato mortali existens celebret Missam, constat quod peccat
+              mortaliter. Ergo si aliquis non habens conscientiam peccati mortalis possit hoc
+              impedire celebrando loco ejus, videtur quod debeat celebrare, etiam si sit nocturna
+              pollutione pollutus.</p>
+            <p xml:id="ta-l4d9q1-d1e780">Praeterea, turpis cogitatio aliquando sine peccato accidit, ut ex verbis Augustini
+              inductis patet: crapulatio autem sine peccato accidere non potest. Sed secundum
+              Gregorium, pollutio quae ex crapula accidit, a communione non impedit, si necessitas
+              incumbat. Ergo nec illa quae ex turpi cogitatione praecedente in vigilia procedit, nec
+              illa quae ex infirmitate naturae, ut Gregorius dicit. Ergo nulla pollutio impedit.</p>
+            <p xml:id="ta-l4d9q1-d1e784">Sed contra est quod dicitur Levit. 15, 16: <quote xml:id="ta-l4d9q1-Qd1e786">vir a quo egreditur semen coitus
+                (...) immundus erit usque ad vesperam</quote>. Sed immundis non licet sancta
+              tangere. Ergo multo minus corpus Christi manducare.</p>
+            <p xml:id="ta-l4d9q1-d1e790">Praeterea, Isidorus dicit, et habetur in Decr. dist. 6: <quote xml:id="ta-l4d9q1-Qd1e792">qui nocturna
+                pollutione polluitur, quamvis extra memoriam turpium cogitationum se sentiat
+                inquinatum, tamen hic ut tentaretur suae culpae tribuat, et suam immunditiam statim
+                fletibus tergat</quote>. Sed ille qui purgatione indiget, debet a perceptione hujus
+              sacramenti abstinere. Ergo pollutus nocturna pollutione impeditur a perceptione
+              corporis Christi.</p>
+          </div>
+          <div xml:id="ta-l4d9q1-Dd1e797">
+            <head xml:id="ta-l4d9q1-Hd1e799">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d9q1-d1e802">Ulterius. Videtur quod propter immunditiam pure corporalem aliquis a perceptione
+              hujus sacramenti impediatur. Deut. 23, 12: <quote xml:id="ta-l4d9q1-Qd1e804">habebis locum extra castra</quote>,
+              dicit Glossa: <quote xml:id="ta-l4d9q1-Qd1e807">corporalem munditiam diligit Deus</quote>. Ergo corporalem
+              immunditiam odit; et ita propter corporalem immunditiam debet homo ab hoc sacramento
+              abstinere.</p>
+            <p xml:id="ta-l4d9q1-d1e811">Praeterea, major est dignitas hujus sacramenti quam omnium sacramentorum veteris
+              testamenti. Sed in veteri lege et mulieres post partum, et patientes fluxum menstrui,
+              et seminiflui immundi reputabantur respectu sacramentorum veteris testamenti. Ergo
+              multo fortius debent abstinere a perceptione hujus sacramenti.</p>
+            <p xml:id="ta-l4d9q1-d1e814">Praeterea, sacerdoti leproso interdicitur facultas celebrandi, ut patet Extra. de
+              clerico aegro vel debili: <quote xml:id="ta-l4d9q1-Qd1e816">tua nos</quote>. Ergo eadem ratione propter lepram
+              debet laicus a perceptione hujus sacramenti abstinere.</p>
+            <p xml:id="ta-l4d9q1-d1e820">Sed contra, poena non debetur poenae, sed culpae: alioquin consurgeret duplex
+              tribulatio, quod est contra id quod dicitur Nahum 1. Sed omnes praedictae immunditiae
+              corporales poenae quaedam sunt. Ergo propter eas non debet aliquis a sacramento
+              altaris impediri, quod est maxima poena.</p>
+            <p xml:id="ta-l4d9q1-d1e824">Praeterea, naturalibus non meremur neque demeremur. Sed omnes praedictae immunditiae
+              ex causis naturalibus accidunt. Ergo propter eas non meretur aliquis a participatione
+              hujus sacramenti impediri.</p>
+          </div>
+          <div xml:id="ta-l4d9q1-Dd1e829">
+            <head xml:id="ta-l4d9q1-Hd1e831">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d9q1-d1e834">Respondeo dicendum ad primam quaestionem, quod omne peccatum, secundum Augustinum,
+              est in voluntate: motus autem voluntatis praesupponit judicium rationis, eo quod est
+              apparentis boni vel vere vel false; unde ubi non potest esse judicium rationis, non
+              potest esse voluntatis motus. In somnis autem judicium rationis impeditur. Judicium
+              enim perfectum haberi non potest de aliqua cognitione, nisi per resolutionem ad
+              principium unde cognitio ortum habet; sicut patet quod cognitio conclusionum ortum
+              habet a principiis; unde judicium rectum de conclusione haberi non potest nisi
+              resolvendo ad principia indemonstrabilia. Cum ergo omnis cognitio intellectus nostri a
+              sensu oriatur, non potest esse judicium rectum nisi reducatur ad sensum. Et ideo
+              philosophus dicit in 6 Ethic., quod sicut principia indemonstrabilia, quorum est
+              intellectus, sunt extrema, scilicet resolutionis, ita et singularia, quorum est
+              sensus. In somno autem sensus ligati sunt; et ideo nullum judicium animae est liberum,
+              neque rationis neque sensus communis; et ideo neque motus appetitivae partis est
+              liber; et propter hoc non potest aliquis peccare in somno, neque mereri. Sed tamen
+              potest in somno accidere signum peccati vel meriti, inquantum somnia habent causas
+              imaginationis vigilantium; unde dicit philosophus in 1 Ethic., quod inquantum paulatim
+              pertranseunt quidam motus, scilicet a vigilantibus ad dormientes, meliora sunt
+              phantasmata studiosorum quam quorumlibet; et Augustinus, 12 super Genes., quod propter
+              affectionem animae bonam etiam in somnis quaedam ejus merita clarent.</p>
+            <p xml:id="ta-l4d9q1-d1e837">Ad primum ergo dicendum, quod secundum quod Augustinus ibidem dicit, Salomonis
+              petitio in somnis facta placuisse Deo et remunerationem invenisse dicitur pro bono
+              desiderio prius habito, quod in somnis per signum sanctae petitionis claruit; non quod
+              tunc in somno meruerit.</p>
+            <p xml:id="ta-l4d9q1-d1e840">Ad secundum dicendum, quod mens humana habet duos respectus: unum ad superiora,
+              quibus illustratur: alium ad corpus a quo recipit, et quod regit. Ex parte illa qua
+              anima a supernis accipit, per somnum non ligatur, immo magis libera redditur quanto
+              fit a corporalibus curis magis absoluta; et ideo etiam ex influentia superni luminis
+              aliqua de futuris percipere potest dormiens quae vigilans scire non posset. Ex parte
+              autem illa qua a corpore recipit, oportet quod ligetur quantum ad ultimum judicium et
+              completum, ligatis sensibus a quibus ejus cognitio initium sumit; quamvis etiam
+              imaginatio ejus non ligetur, quae immediate ei species rerum subministrat.</p>
+            <p xml:id="ta-l4d9q1-d1e843">Ad tertium dicendum, quod liberi arbitrii est eligere, secundum quod patet ex
+              Augustini definitione in 2 Lib., dist. 24, quaest. 1, art. 1, posita: electio autem
+              est quasi conclusio consilii, ut dicitur in 3 Ethic.; unde ad judicium pertinet, vel
+              judicium praesupponit; et ideo quamvis aliquem usum alicujus rationis homo dormiens
+              habere possit, secundum quod sensus minus ligantur, tamen usum liberi arbitrii in
+              eligendo habere non potest.</p>
+            <p xml:id="ta-l4d9q1-d1e847">Ad quartum dicendum, quod secundum quod sensus magis vel minus ligatur a passione
+              somni, hoc etiam judicium rationis magis vel minus impeditur. Unde quandoque homo
+              dormiens considerat, haec quae apparent somnia esse. Sed quia in dormiendo nunquam
+              sunt sensus soluti ex toto, ideo etiam rationis judicium non est ex toto liberum; unde
+              semper cum aliqua falsitate judicium rationis est, etiam si quantum ad aliquid sit
+              verum; et inde contingit quod aliquis in somno aliquando consentit turpitudini,
+              aliquando non. Quia tamen judicium rationis non est omnino liberum, et per consequens
+              nec liberi arbitrii usus; ideo nec talis consensus vel dissensus potest esse
+              meritorius vel demeritorius in se.</p>
+            <p xml:id="ta-l4d9q1-d1e850">Ad quintum dicendum, quod corporales motus non pertinent ad meritum vel demeritum,
+              nisi secundum quod a voluntate quasi a principio causantur; et ideo nocturna pollutio
+              magis judicatur quantum ad rationem meriti vel demeriti, secundum principium quod est
+              in dormiendo, quam secundum terminum qui est in vigilando: quia ex quo in dormiendo
+              excitatus est motus carnis, non subjacet voluntati vigilantis ulterius motus ille, nec
+              reputatur evigilasse, quousque perfectum usum liberi arbitrii recuperavit. Potest
+              tamen contingere quod in ipsa evigilatione peccatum oriatur, si quidem pollutio
+              propter delectationem placeat: quod quidem erit veniale peccatum, si sit ex
+              surreptione talis placentia; mortale autem, si sit cum deliberante consensu, et
+              praecipue cum appetitu futuri. Ista autem placentia non facit praeteritam pollutionem
+              peccatum, quia ipsius causa non est, sed ipsa in se peccatum est. Si autem placeat ut
+              naturae exoneratio, vel alleviatio, peccatum non creditur.</p>
+          </div>
+          <div xml:id="ta-l4d9q1-Dd1e854">
+            <head xml:id="ta-l4d9q1-Hd1e856">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d9q1-d1e859">Ad secundam quaestionem dicendum, quod ad hoc quod homo digne ad sacramentum
+              Eucharistiae accedat, tria requiruntur. Primo munditia conscientiae; quae non nisi per
+              peccatum tollitur. Secundo erectio mentis ad Deum per actualem devotionem; et haec per
+              mentis hebetudinem vel occupationem aut evagationem interdum sine peccato amittitur.
+              Tertio munditia corporalis; unde et celebrantes, vel tractaturi aliquod sacramentum,
+              propter reverentiam manus lavant. Unde primo et principaliter peccatum impedit;
+              secundo indevotio sive hebetudo mentis; tertio corporalis immunditia; et haec tria
+              quandoque concurrunt in aliqua pollutione nocturna, quandoque duo ex his, quandoque
+              unum tantum; et secundum hoc homo magis vel minus impeditur; et ideo distinguendae
+              sunt pollutionum differentiae. Distinguitur autem dupliciter pollutio nocturna. Primo
+              quantum ad causam. Eorum enim quae in somnis apparent, triplex est causa. Una
+              extrinseca spiritualis, sicut in his quae per spirituales substantias nobis
+              revelantur. Alia intrinseca spiritualis, quando phantasmata quae apparent
+              dormientibus, sunt reliquiae praecedentium cogitationum. Tertia est corporalis
+              intrinseca, sicut quando phlegma dulce ad linguam decurrit, somniat homo comedere
+              dulcia; unde medici ex somnis, corporis dispositionem conjiciunt. Pollutio ergo
+              quandoque ex illusione accidit, quando phantasmata per causam extrinsecam spiritualem,
+              scilicet Daemones, commoventur; quandoque ex reliquiis praeteritarum cogitationum,
+              quod est causa spiritualis intrinseca; quandoque ex causa intrinseca naturali: quae
+              quidem causa vel fuit voluntati subjecta, et est quando ex superfluitate cibi aut
+              potus praecedente pollutio accidit; vel non fuit voluntati subjecta, sicut sive
+              accidat ex debilitate naturae impotentis retinere semen, sive ex ejus virtute
+              superflua expellentis, sive quocumque alio modo, quod in idem redit. Secundo
+              distinguitur pollutio quantum ad modum: quia quandoque accidit sine imaginatione,
+              quandoque cum imaginatione; et hoc dupliciter: quia quandoque in ipsa somni
+              imaginatione homo turpitudini consentit, quandoque dissentit, et tamen pollutio
+              accidit. Quando ergo sine imaginatione pollutio accidit, signum est quod pollutio ex
+              causa sit corporali intrinseca. Sed quando cum imagine, potest sic vel sic esse. In
+              omnibus igitur praedictis pollutionibus corporalis immunditia est communis; sed
+              quaedam mentis hebetatio non est nisi in illis pollutionibus quae cum imaginatione
+              accidunt: quia in illis quae sine imaginatione accidunt, anima nihil participare
+              videtur. Nulla autem dictarum est peccatum, ut ex dictis patet, sed potest esse
+              effectus peccati significans praecedens peccatum veniale vel mortale. Peccatum autem
+              mortale ex necessitate praecepti a perceptione Eucharistiae impedit, quia mortaliter
+              peccat qui cum conscientia peccati mortalis accedit. Hebetudo autem mentis et
+              immunditia corporalis est quaedam indecentia honestatis: quia indevotio quaedam
+              videtur sic accedere, nisi necessitas urgeat. Et ideo considerandum est, utrum in
+              causa pollutionis possit inveniri peccatum praecedens: quia cogitatio turpium
+              quandoque est sine peccato, sicut cum in cogitatione tantum manet, ut cum quis
+              disputans de talibus, oportet quod loquens cogitet; aliquando etiam cum peccato
+              veniali, quando ad affectionem cogitatio pertingens in sola delectatione finitur;
+              quandoque etiam cum mortali, quando consensus adjungitur. Et quia cogitationi tali de
+              propinquo est delectatio, et delectationi consensus, inde etiam in dubium potest
+              verti, utrum sequens pollutio ex peccato acciderit, vel non, et aut veniali, aut
+              mortali; satis tamen probabiliter potest conjici non praecessisse consensum, quando in
+              ipsa somni imaginatione anima dissentit; non tamen oportet quod, si consentiat,
+              consensus in vigilando praecesserit: quia hoc potest accidere propter ligamen judicii
+              rationis, quod quandoque magis quandoque minus est liberum in somno. Unde in tali
+              pollutione si ad causam recurrens dubitet de consensu, omnino abstinere debet. Si
+              autem expresse inveniat consensum non praecessisse, et necessitas urgeat, aut aliqua
+              causa potior reformet actum, potest accedere, aut etiam celebrare non obstante
+              corporis immunditia, aut hebetatione mentis: alias si necessitas non incumbat, videtur
+              non exhibere debitam reverentiam sacramento. Non tamen si celebrat, mortaliter peccat,
+              sed venialiter, sicut cum quis quandoque mentis evagationem patitur. Quando autem ex
+              illusione accidit, si illusionis causa in nobis praecessit, puta cum quis indevotus ad
+              dormiendum accesserit; idem est judicium ac de pollutione quae ex cogitatione
+              praecedenti causatur. Si autem in nobis causa non praecesserit, immo magis causa
+              contraria, et hoc frequenter accidat, et praecipue in diebus quibus quis communicare
+              debet; signum est quod Diabolus homini fructum Eucharistiae percipiendae auferre
+              conatur. Unde in tali casu consultum fuit cuidam monacho, ut in collationibus patrum
+              legitur, quod, communicaret; et sic Diabolus videns se non posse consequi intentum, ab
+              illusione cessavit. Si autem ex cibo praecedenti aut potu acciderit, idem est judicium
+              ac de pollutione quae ex turpi cogitatione processit; nisi intantum quod non ita de
+              facili accidit peccare mortaliter in sumptione cibi sicut in cogitatione turpi. Et
+              quia aliquando haec pollutio sine imaginatione accidit, illa vero nunquam; illa autem
+              quae ex naturae dispositione accidit, non est signum alicujus peccati, sed potest
+              hebetationem mentis inducere, si cum imaginatione contingat, immunditiam autem
+              corporalem habet; ideo si necessitas immineat, vel devotio exposcat, talis non
+              impeditur, et praecipue quando non cum imaginatione accidit. Tamen si propter
+              reverentiam abstineat, laudandus est, quando infirmitas non est perpetua. Et quia non
+              ita de facili potest percipi ex qua causa contingat, ideo tutius est abstinere, nisi
+              necessitas incumbat. Debet autem abstinere, ut dicunt, usque ad vigintiquatuor horas:
+              quia in tali spatio natura deordinata per corporalem immunditiam et mentis
+              hebetationem, reordinatur.</p>
+            <p xml:id="ta-l4d9q1-d1e862">Ad primum ergo dicendum, quod quamvis peccatum quodlibet veniale magis ad impuritatem
+              pertineat mentis secundum se quam pollutio nocturna, et secundum hoc magis Deo
+              displiceat; tamen peccatum veniale non ita hebetat animam et corpus inquinat, nec ita
+              de facili est signum peccati mortalis, sicut pollutio; et ideo ratio non sequitur.</p>
+            <p xml:id="ta-l4d9q1-d1e865">Ad secundum dicendum, quod non esset consulendum alicui quod statim post peccatum
+              mortale etiam contritus et confessus, ad Eucharistiam accederet; sed deberet, nisi
+              magna necessitas urgeret, per aliquod tempus propter reverentiam abstinere; et
+              praeterea confessio purgat maculam mentis, non autem immunditiam corporalem et
+              hebetudinem, quae contingit in mente ex depressione ipsius ad carnem.</p>
+            <p xml:id="ta-l4d9q1-d1e868">Ad tertium dicendum, quod quidam dicunt quod homo debet peccare venialiter, ut alium
+              a peccato mortali impediat. Sed hoc dictum contradictionem implicat: quia ex hoc ipso
+              quod dicitur peccatum, ponitur indebitum fieri. Unde si aliquid fit quod nullo modo
+              possit non esse peccatum, non debet fieri, nec etiam bonum est fieri, nec licitum, ut
+              alius a peccato mortali liberetur; quamvis ad hoc ex quadam pietate animi etiam multi
+              boni inclinentur. Sed potest hoc contingere ut aliquid quod alias est peccatum
+              veniale, ex tali causa factum desineret esse peccatum; sicut dicere aliquod verbum
+              jocosum quod non esset otiosum si diceretur causa piae utilitatis; unde si talis
+              pollutio sit, quae in casu necessitatis non impediat, deberet pollutus in casu
+              proposito celebrare; alias non.</p>
+            <p xml:id="ta-l4d9q1-d1e872">Ad quartum dicendum, quod turpis cogitatio dicitur non solum quae de turpibus est
+              (quia de eis non potest esse honesta cogitatio); sed quae turpitudinem habet propter
+              delectationem vel consensum adjunctum; et haec quidem turpitudo magis horrenda est
+              quam illa quae in cibo accidit: tum quia magis vitari potest, cum difficillimum sit in
+              cibo modum tenere: tum quia est magis propinqua ad mortale peccatum.</p>
+          </div>
+          <div xml:id="ta-l4d9q1-Dd1e876">
+            <head xml:id="ta-l4d9q1-Hd1e878">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d9q1-d1e881">Ad tertiam quaestionem dicendum, quod cum iste cibus non sit corporis sed mentis
+              cibus, magis in ejus sumptione consideranda est dispositio mentis quam corporis; et
+              ideo distinguendum est in immunditia corporali tantum: quia aut est perpetua, sicut
+              lepra, aut diuturna; vel est temporalis et cito purgabilis. Si quidem sit perpetua vel
+              diuturna, tunc nullo modo propter hoc quis abstinere debet, ne propter immunditiam
+              corporis perdatur fructus mentis, sicut accidit in leprosis patientibus fluxum
+              sanguinis vel seminis. Si autem sit temporalis et facile expurgabilis, tunc si aliquis
+              in mente sit bene dispositus, sumere non prohibetur; quamvis etiam possit ad tempus
+              laudabiliter abstinere propter reverentiam tanti sacramenti.</p>
+            <p xml:id="ta-l4d9q1-d1e884">Ad primum ergo dicendum, quod Deus diligit corporalem munditiam, et immunditiam odit,
+              secundum quod pertinet ad reverentiam vel irreverentiam sacramenti; et ideo si ex
+              devotione mentis, non propter irreverentiam, aliquis cum immunditia corporali accedat,
+              Deus acceptat.</p>
+            <p xml:id="ta-l4d9q1-d1e887">Ad secundum dicendum, quod prohibitio immundorum in lege a sanctis magis erat propter
+              significationem quam propter ipsas res; et ideo non oportet quod similiter fiat in
+              novo testamento, ubi veniente veritate figurae cessaverunt.</p>
+            <p xml:id="ta-l4d9q1-d1e890">Ad tertium dicendum, quod interdicitur sacerdoti leproso ne celebret publice coram
+              populo propter horrorem; tamen secrete bene potest ex devotione celebrare, nisi sit
+              adeo corruptus quod ministerium sine periculo explere non possit. Leprosus tamen ad
+              sacerdotium promoveri non debet.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d9q1-Dd1e895" type="articulus">
+          <head xml:id="ta-l4d9q1-Hd1e897">Articulus 5</head>
+
+          <head xml:id="ta-l4d9q1-Hd1e900" type="questionTitle">Utrum sacerdos debeat dare corpus Christi petenti si sciat
+            ipsum esse peccatorem</head>
+          <div xml:id="ta-l4d9q1-Dd1e903">
+            <head xml:id="ta-l4d9q1-Hd1e905">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d9q1-d1e908">Ad quintum sic proceditur. Videtur quod sacerdos dare non debeat corpus Christi
+              petenti, si sciat ipsum esse peccatorem. Medicus enim non debet dare infirmo medicinam
+              quam scit ei esse mortiferam. Sed sacerdos scit peccatori corpus Christi esse
+              mortiferam causam. Ergo non debet ei dare.</p>
+            <p xml:id="ta-l4d9q1-d1e911">Praeterea, contra veritatem vitae non est faciendum aliquid propter vitandum
+              scandalum. Sed dare corpus Christi peccatori est contra veritatem vitae, cum sit
+              contra praeceptum domini, Matth. 7, 6: <quote xml:id="ta-l4d9q1-Qd1e913" ana="#mt7_6">nolite sanctum dare canibus</quote>.
+              Ergo quantumcumque possit sequi scandalum, nullo modo est ei dandum: sicut nec pro
+              aliquo scandalo vitando deberet dari cani, aut in lutum projici.</p>
+            <p xml:id="ta-l4d9q1-d1e917">Praeterea, de duobus malis minus malum eligendum est. Sed peccatori minus est malum
+              si infametur, quam si corpus Christi manducet indigne. Ergo magis sacerdos debet ei
+              negare in publico, etiamsi crimen ipsius in notitiam venire debeat, quam ei dare.</p>
+            <p xml:id="ta-l4d9q1-d1e920">Praeterea, si dat ei hostiam non consecratam, nullum scandalum erit. Ergo videtur
+              quod hoc debet magis facere.</p>
+            <p xml:id="ta-l4d9q1-d1e924">Sed contra, omnis Christi actio nostra est instructio. Sed Christus dedit corpus suum
+              in coena Judae, ut habetur Joan. 13, et Dionysius dicit, quamvis sciret eum
+              peccatorem. Ergo et sacerdos peccatori petenti denegare non debet.</p>
+            <p xml:id="ta-l4d9q1-d1e927">Praeterea, Augustinus dicit: <quote xml:id="ta-l4d9q1-Qd1e929">non prohibeat dispensator pingues terrae</quote>,
+              idest peccatores, <quote xml:id="ta-l4d9q1-Qd1e932">mensam domini manducare</quote>.</p>
+          </div>
+          <div xml:id="ta-l4d9q1-Dd1e937">
+            <head xml:id="ta-l4d9q1-Hd1e939">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d9q1-d1e942">Ulterius. Videtur quod suspectis de crimine etiam dari debeat. Suspicio enim
+              dubitationem importat. Sed dubia in meliorem partem interpretanda sunt. Ergo videtur
+              quod debeat ei dari ac si esset justus.</p>
+            <p xml:id="ta-l4d9q1-d1e945">Praeterea, experimentum non sumitur de aliquo crimine, nisi de quo suspicio
+              praecessit. Sed corpus Christi dandum est aliquando alicui ad experimentum de peccato
+              sumendum sub his verbis: <quote xml:id="ta-l4d9q1-Qd1e947">corpus domini sit tibi ad probationem hodie</quote>;
+              ut dicitur in Decret. Caus. 2, qu. 4, cap. saepe contingit. Ergo dari debet
+              suspectis.</p>
+            <p xml:id="ta-l4d9q1-d1e951">Sed contra, si suspectis de crimine daretur corpus Christi, esset scandalum populo
+              videnti et scienti. Sed scandalum vitandum est. Ergo non oportet eis dari corpus
+              Christi.</p>
+          </div>
+          <div xml:id="ta-l4d9q1-Dd1e955">
+            <head xml:id="ta-l4d9q1-Hd1e957">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d9q1-d1e960">Ulterius. Videtur quod amentibus corpus Christi dari non debeat. Quia ad hoc quod
+              aliquis corpus Christi sumat, requiritur diligens examinatio, ut patet 1 Corinth. 11,
+              28: <quote xml:id="ta-l4d9q1-Qd1e962">probet autem seipsum homo, et sic de pane illo edat et de calice
+                bibat</quote>. Sed hoc non potest in amente procedere. Ergo non potest ei dari
+              Eucharistia.</p>
+            <p xml:id="ta-l4d9q1-d1e966">Praeterea, inter amentes etiam energumeni computantur, secundum Dionysium in Eccl.
+              Hierarch.: energumeni etiam ab inspectione divinorum arcentur; unde statim post
+              Evangelium in primitiva Ecclesia per vocem diaconi cum catechumenis excludebantur.
+              Ergo non debet eis dari Eucharistia.</p>
+            <p xml:id="ta-l4d9q1-d1e969">Sed contra Cassianus dicit: <quote xml:id="ta-l4d9q1-Qd1e971">eis qui ab incommodis vexantur spiritibus,
+                communionem sacrosanctam a senioribus nostris nunquam meminimus interdictum</quote>.
+              Ergo cum tales sint amentes, amentibus debet dari.</p>
+            <p xml:id="ta-l4d9q1-d1e975">Praeterea, in <title ref="#Decretals">Decret.</title> Caus. 26, qu. 1, cap.: qui
+              recedunt, dicitur: <quote xml:id="ta-l4d9q1-Qd1e980">amentibus etiam quaecumque pietatis sunt, conferenda
+                sunt</quote>; et loquitur de reconciliatione et sacra communione.</p>
+          </div>
+          <div xml:id="ta-l4d9q1-Dd1e986">
+            <head xml:id="ta-l4d9q1-Hd1e988">Quaestiuncula 4</head>
+            <p xml:id="ta-l4d9q1-d1e991">Ulterius. Videtur quod etiam pueris dandum sit corpus Christi. Quia per Baptismum
+              aliquis ascribitur ad corporis Christi sumptionem; unde et baptizato conferendum est,
+              ut Dionysius dicit. Sed pueri baptizati sunt. Ergo et eis corpus Christi debet
+              dari.</p>
+            <p xml:id="ta-l4d9q1-d1e994">Praeterea, vita spiritualis sicut est per Baptismum, ita est per Eucharistiam: quia
+              dicitur Joan. 6, 58: <quote xml:id="ta-l4d9q1-Qd1e996">qui manducat me, vivit propter me</quote>. Sed pueris
+              datur Baptismus ut habeant spiritualem vitam. Ergo et similiter debet dari eis
+              Eucharistia.</p>
+            <p xml:id="ta-l4d9q1-d1e1000">Sed contra est quod iste cibus est grandium, ut patet per Augustinum. Sed pueri
+              nondum sunt grandes in fide. Ergo non debet eis dari.</p>
+          </div>
+          <div xml:id="ta-l4d9q1-Dd1e1004">
+            <head xml:id="ta-l4d9q1-Hd1e1006">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d9q1-d1e1009">Respondeo dicendum ad primam quaestionem, quod si sacerdos sciat peccatum alicujus
+              qui Eucharistiam petit, per confessionem vel alio quolibet modo, distinguendum est:
+              quia aut peccatum est occultum, aut manifestum. Si est occultum, aut exigit in
+              occulto, aut in manifesto. Si in occulto, debet ei denegare, et monere ne in publico
+              petat. Si autem in manifesto petit, debet ei dare. Primo, quia pro peccato occulto
+              poenam inferens publicam, revelator est confessionis, aut proditor criminis. Secundo,
+              quia quilibet Christianus habet jus in perceptione Eucharistiae, nisi illud per
+              peccatum mortale amittat. Unde cum in facie Ecclesiae non constet istum amisisse jus
+              suum, non oportet ei in facie Ecclesiae denegari: alias daretur facultas malis
+              sacerdotibus pro suo libito punire maxima poena quos vellent. Tertio propter
+              incertitudinem status sumentis: quia <quote xml:id="ta-l4d9q1-Qd1e1011">spiritus ubi vult, spirat</quote>, Joan.
+              3, 8, unde subito potuit esse compunctus, et divinitus a peccato purgatus, et divina
+              inspiratione ad sacramentum accedere. Quarto, quia esset scandalum, si denegaretur. Si
+              vero peccatum est manifestum, debet ei denegari sive in occulto sive in manifesto
+              petat.</p>
+            <p xml:id="ta-l4d9q1-d1e1015">Ad primum ergo dicendum, quod potius deberet eligere medicus medicinam esse
+              mortiferam infirmo quam sibi, si alterutrum oporteret. Et similiter sacerdos potius
+              deberet eligere quod peccator assumat ad perditionem suam, quam ipse deneget in
+              perditionem propriam, scandalizando et peccatum occultum revelando. Et praeterea non
+              est certum utrum sit ei mortifera, quia subito homo spiritu Dei mutatur. Et iterum in
+              ipsa petitione peccavit mortaliter in mortale peccatum consentiens.</p>
+            <p xml:id="ta-l4d9q1-d1e1018">Ad secundum dicendum, quod non dimittitur tantum propter scandalum, sed propter alias
+              causas quae faciunt ne esset contra veritatem vitae, si negaret. Dominus ergo non
+              prohibuit simpliciter dare, sed voluntatem dandi, dicens: <quote xml:id="ta-l4d9q1-Qd1e1020">nolite sanctum dare
+                canibus</quote>. Sacerdos autem in casu proposito non dat propria sponte, sed magis
+              coactus. Nec est similis ratio de animalibus brutis, et de projectione in lutum: quia
+              causae praedictae non sunt ibi.</p>
+            <p xml:id="ta-l4d9q1-d1e1024">Ad tertium dicendum, quod secundum Innocentium tertium, cum nemo debeat unum mortale
+              committere ut proximus aliud non committat, eligendum est potius sacerdoti non prodere
+              peccatorem, quam ut ille non peccet; sed peccator debet potius eligere ut abstinendo
+              reddatur suspectus quam communicando manducet indignus.</p>
+            <p xml:id="ta-l4d9q1-d1e1028">Ad quartum dicendum, quod nullo modo debet dari hostia non consecrata pro consecrata:
+              tum quia in sacramento veritatis non debet esse aliqua fictio: tum quia cum manducans
+              adoret quod manducat, ut dicit Augustinus, daret sacerdos ei occasionem idolatrandi.
+              Unde decretalis dicit in casu consimili, quod falsa sunt abjicienda remedia quae sunt
+              veris periculis graviora.</p>
+            <p xml:id="ta-l4d9q1-d1e1031">Rationes quae sunt ad oppositum, procedunt solum quando peccator occultus publice
+              petit.</p>
+          </div>
+          <div xml:id="ta-l4d9q1-Dd1e1035">
+            <head xml:id="ta-l4d9q1-Hd1e1037">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d9q1-d1e1040">Ad secundam quaestionem dicendum, quod triplex est suspicio. Quaedam violenta, ad
+              cujus contrarium non admittitur probatio; sicut si inveniatur solus cum sola nudus in
+              lecto, loco secreto, et tempore apto ad commixtionem. Alia est probabilis, sicut si
+              inveniatur solus cum sola colloquens in locis suspectis, et frequenter. Tertia est
+              praesumptuosa, quae ex levi conjectura ortum habet. Haec autem ultima deponenda est;
+              in secunda non debet denegari, quia poena non infligitur ubi culpa ignoratur; sed de
+              prima est idem judicium quod de peccato. Unde si sit suspicio procedens ex fama
+              publica, non debet ei dari neque in occulto neque in manifesto; si autem sit
+              singularis ipsius sacerdotis, sic debet dari in publico, sed non in occulto.</p>
+            <p xml:id="ta-l4d9q1-d1e1043">Ad primum ergo dicendum, quod quamvis non habeatur in prima suspicione certitudo
+              sensibilis, vel per demonstrationem, tamen habetur talis certitudo quae sufficit ad
+              probationem juris. Non enim in omnibus est similiter certitudo requirenda, ut dicitur
+              1 Ethic.</p>
+            <p xml:id="ta-l4d9q1-d1e1046">Ad secundum dicendum, quod decretum illud abrogatum est: quia facere tales
+              probationes est tentare Deum. Vel dicendum, quod intentio illius decreti non est ut
+              talis purgatio fiat, sed ut propter timorem talis purgationis a futuris abstineat.</p>
+          </div>
+          <div xml:id="ta-l4d9q1-Dd1e1050">
+            <head xml:id="ta-l4d9q1-Hd1e1052">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d9q1-d1e1055">Ad tertiam quaestionem dicendum, quod de amentibus distinguendum est. Quidam enim
+              dicuntur large amentes, quia debilem mentem habent, sicut dicitur invisibile quod male
+              videtur; et tamen sunt aliquo modo docibiles eorum quae ad fidem et devotionem
+              sacramenti pertinent: et talibus non oportet corpus Christi denegari. Quidam vero sunt
+              omnino carentes judicio rationis; et isti vel fuerunt tales a nativitate, et tunc eis
+              non debet dari, quia non possunt ad devotionem induci quae requiritur ad hoc
+              sacramentum (quamvis quidam contrarium dicant): vel inciderunt in amentiam post fidem
+              et devotionem sacramenti, et tunc debet eis dari, nisi timeatur periculum vel de
+              vomitu vel de exspuitione, aut aliquo hujusmodi. Et hoc patet per hoc quod habetur in
+              decretis, 26, qu. 6: <quote xml:id="ta-l4d9q1-Qd1e1057">si is qui infirmitate poenitentiam petit et dum sacerdos
+                invitatus ad eum venit, vertatur in phrenesim, accepto testimonio ab astantibus qui
+                petitionem audierunt, et reconcilietur, et Eucharistia ejus ori
+              infundatur</quote>.</p>
+            <p xml:id="ta-l4d9q1-d1e1061">Ad primum ergo dicendum, quod in isto casu praecedens devotio computatur ei ad dignam
+              manducationem.</p>
+            <p xml:id="ta-l4d9q1-d1e1064">Ad secundum dicendum, quod daemoniacis non est deneganda communio, nisi forte certum
+              sit quod pro aliquo crimine a Diabolo torqueantur; et de talibus loquitur Dionysius.
+              Vel dicendum, et melius, quod ipse vocat energumenos illos in quibus adhuc viget
+              virtus Daemonis propter peccatum originale nondum extirpatum, eo quod nondum Baptismi
+              gratiam consecuti sunt, quibus adhibetur exorcismus post catechismum ante Baptismum;
+              unde ipse ponit eos secundo loco post catechumenos.</p>
+          </div>
+          <div xml:id="ta-l4d9q1-Dd1e1068">
+            <head xml:id="ta-l4d9q1-Hd1e1070">Quaestiuncula 4</head>
+            <p xml:id="ta-l4d9q1-d1e1073">Ad quartam quaestionem dicendum, quod pueris carentibus usu rationis, qui non possunt
+              distinguere inter cibum spiritualem et corporalem, non debet Eucharistia dari; quamvis
+              quidam Graeci contrarium teneant, irrationabiliter autem: quia ad Eucharistiae
+              sumptionem exigitur actualis devotio, quam tales pueri habere non possunt. Pueris
+              autem jam incipientibus habere discretionem, etiam ante perfectam aetatem, puta cum
+              sint decem vel undecim annorum, aut circa hoc, potest dari, si in eis signa
+              discretionis appareant et devotionis.</p>
+            <p xml:id="ta-l4d9q1-d1e1076">Ad primum ergo dicendum, quod pueri baptizati acquirunt jus percipiendi corpus
+              Christi, non tamen statim, sed tempore competenti; sicut et jus percipiendae
+              hereditatis habent, quamvis eam statim non possideant. Dionysius autem assignat ritum
+              Baptismi quoad adultos, ut patet inspicienti verba ejus.</p>
+            <p xml:id="ta-l4d9q1-d1e1079">Ad secundum dicendum, quod per Baptismum datur primus actus vitae spiritualis, unde
+              est de necessitate salutis; et ideo pueris Baptismus dandus est: sed per Eucharistiam
+              datur complementum spiritualis vitae; et ideo illis qui perfectionis secundae, quae
+              est per actualem devotionem, possunt esse capaces, debet dari, prout habetur de
+              Consecr., distinct. 4, cap. in Ecclesia, ubi dicitur: <quote xml:id="ta-l4d9q1-Qd1e1081">non cogitetis vitam
+                habere posse qui sunt expertes corporis et sanguinis domini</quote>; et loquitur de
+              pueris. Intelligendum est autem quantum ad rem sacramenti, quae est unitas Ecclesiae,
+              extra quam non est salus nec vita, et non quantum ad sacramentalem manducationem.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d9q1-Dd1e1087">
+          <head xml:id="ta-l4d9q1-Hd1e1089">Expositio textus</head>
+          <p xml:id="ta-l4d9q1-d1e1092"><quote xml:id="ta-l4d9q1-Qd1e1093">Crede, et manducasti</quote>. Intelligendum est de manducatione spirituali, et
+            fide formata. Ideo autem potius fidem commemorat, quia ipsa est quae maxime in
+            sacramentis operatur. <quote xml:id="ta-l4d9q1-Qd1e1096">Nos corpus Christi sumus</quote>. Ergo spiritualiter
+            manducamus nosipsos. Et dicendum, quod nos non sumus corpus ipsius nisi ratione unionis,
+            quam manducando spiritualiter acquirimus. <quote xml:id="ta-l4d9q1-Qd1e1099">Ecce factum est malum</quote>.
+            Contrarium dicit supra eodem capite: <quote xml:id="ta-l4d9q1-Qd1e1102">indigne quis sumens corpus Christi, non
+              efficit ut malum sit quod accipit</quote>. Et dicendum, quod non sit malum in se, sed
+            sit malum, idest nocivum, ei. <quote xml:id="ta-l4d9q1-Qd1e1105">Ita spiritualiter sumamus</quote>. Contra: quia in
+            patria nullus usus sacramenti erit; ergo nec spiritualis sumptio. Et dicendum, quod
+            dicitur sumptio consecutio rei sacramenti, quam sacramentum statim non efficit, sed
+            tantum significat, scilicet fruitio divinitatis, quam etiam significat sacramentalis
+            manducatio.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

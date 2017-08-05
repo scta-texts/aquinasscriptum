@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 33, Quaestio 3</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Librum IV, Distinctio 33, Quaestio 3</title>
+          <date when="2016-03-19">March 19, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-19">March 19, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness>1856 editum</witness>
+          <witness xml:id="G" n="ghent567">Ghent, Belgium, Ghent University Library, 567</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="0.0.0-dev">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+
+
+
+
+      <div xml:id="starts-on">
+        <cb ed="#G" n="491a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ta-l4d33q3">
+        <head xml:id="ta-l4d33q3-Hd1e97">Librum IV, Distinctio 33, Quaestio 3</head>
+        <div xml:id="ta-l4d33q3-Dd1e100">
+          <head xml:id="ta-l4d33q3-Hd1e102">Prooemium</head>
+          <p xml:id="ta-l4d33q3-d1e105">Deinde quaeritur de virginitate; et circa hoc quaeruntur tria: 1 quid sit virginitas; 2
+            utrum sit virtus; 3 de comparatione ejus ad alias virtutes.</p>
+
+        </div>
+        <div xml:id="ta-l4d33q3-Dd1e109" type="articulus">
+          <head xml:id="ta-l4d33q3-Hd1e111">Articulus 1</head>
+
+          <head xml:id="ta-l4d33q3-Hd1e114" type="questionTitle">Utrum virginitas sit perpetua meditatio incorruptionis in carne
+            corruptibili</head>
+
+          <p xml:id="ta-l4d33q3-d1e117">Ad primum sic proceditur. Videtur quod virginitas non sit <quote xml:id="ta-l4d33q3-Qd1e119">in carne corruptibili
+              incorruptionis perpetua meditatio</quote>, ut Augustinus dicit in Lib. de nuptiis et
+            concupiscentia. Quia post resurrectionem sanctae virgines suam virginitatem non
+            amittent. Sed tunc non erunt in carne corruptibili. Ergo corruptibilitas carnis non
+            debet poni in definitione virginitatis.</p>
+          <p xml:id="ta-l4d33q3-d1e123">Praeterea, virginitas ponitur pars continentiae, quae ad temperantiam reducitur. Sed
+            meditatio non est actus temperantiae, sed magis intellectualium virtutum. Ergo non debet
+            poni tamquam genus virginitatis.</p>
+          <p xml:id="ta-l4d33q3-d1e126">Praeterea, virginitas non est firmius bonum quam caritas aut aliae virtutes, immo magis
+            fragile. Sed perpetuitas non est de ratione caritatis: alias caritatem semel habitam non
+            contingeret amittere; quod in 3 Lib., dist. 31, quaest. 1, art. 1, improbatum est. Ergo
+            nec perpetuitas in definitione virginitatis poni debet.</p>
+          <p xml:id="ta-l4d33q3-d1e130">Praeterea, incorruptionis perpetua meditatio tollitur per corruptionem mentis, de qua
+            dicitur Matth. 5, 28: <quote xml:id="ta-l4d33q3-Qd1e132" ana="mt5_28">qui viderit mulierem ad concupiscendam eam, jam moechatus
+              est eam in corde suo</quote>. Sed per hoc non tollitur virginitas: quia talis
+            corruptio reparari potest, non autem virginitas, ut in littera dicitur. Ergo virginitas
+            non est perpetua incorruptionis meditatio.</p>
+          <p xml:id="ta-l4d33q3-d1e136">Praeterea, perpetua incorruptionis meditatio sine concubitu perditur non solum mente,
+            sed etiam carne, sicut patet in peccatis contra naturam. Sed sine concubitu virginitas
+            non perditur: quia, ut Augustinus dicit in libro de virginitate, <quote xml:id="ta-l4d33q3-Qd1e138">virginitas est
+              per piam continentiam ab omni concubitu immunitas</quote>. Ergo idem quod prius.</p>
+          <p xml:id="ta-l4d33q3-d1e142">Praeterea, Ambrosius dicit in Libr. de virginitate, quod virginitas est expers
+            contagionis integritas. Sed contaminatur corpus per pollutionem nocturnam. Ergo
+            virginitas secundum hoc amittitur; non autem perpetua incorruptionis meditatio perditur:
+            ergo et cetera.</p>
+          <p xml:id="ta-l4d33q3-d1e145">Praeterea, virginitas potest per violentiam auferri: alias ille qui contraheret cum
+            illa quae per violentiam ab alio defloratur, non efficeretur irregularis. Non autem
+            perpetua incorruptionis meditatio. Ergo idem quod prius.</p>
+          <p xml:id="ta-l4d33q3-d1e148">Respondeo dicendum, quod virginitas, ut ex dictis Ambrosii patet, integritas quaedam
+            est; unde per privationem corruptionis dicitur, quae in actu generationis accidit; ubi
+            triplex corruptio est. Una corporalis tantum, in hoc quod claustra pudoris franguntur.
+            Alia spiritualis et corporalis simul, ex hoc quod per decisionem et motum seminis, in
+            sensu delectatio generatur. Tertia est spiritualis tantum, ex hoc quod ratio huic
+            delectationi se subjicit, in qua integritatem perdit quantum ad actum: quia impossibile
+            est aliquid intelligere in ipsa, ut philosophus dicit in libro 7 Ethicor.; unde ipsa
+            rationis absorptio corruptio dicitur. Haec autem tertia corruptio non est rationis
+            actus, sed quaedam passio, per accidens ei conveniens ex passione inferioris partis,
+            sicut per somnum vel phrenesim et alias passiones corporales contingit rationis actum
+            impediri per accidens. Cum ergo virtus et vitium in actu rationis consentientis et
+            dissentientis perficiatur; in omnibus praedictis corruptionibus non invenitur sufficiens
+            ratio vitii aut virtutis; sed oportet addere rationis consensum vel dissensum. Et quia
+            virginitas in genere moris est pertinens ad virtutem; ideo dicit Lucia, quod non
+            inquinatur corpus nisi de consensu mentis, inquinatione scilicet quae virginitatis
+            puritati opponitur. Prima ergo corruptio, quae est corporalis tantum, non est materia
+            virtutis vel vitii, nisi per accidens mediante aliqua animae passione; unde si per
+            aliquam incisionem claustra pudoris rumpantur, non majus detrimentum virginitati inerit
+            quam si pes aut manus gladio incideretur. Sed secunda et tertia corruptio sunt materia
+            virginitatis et oppositi ejus, sicut et aliae passiones animae sunt materia virtutum
+            moralium et oppositorum vitiorum. Sed in actu rationis eligentis vel repudiantis
+            corruptiones praedictas finaliter perficitur inquinatio quam virginitas privat, et per
+            consequens ipsa virginitas; et ideo Augustinus in definitione praedicta posuit hoc quod
+            ex parte rationis se habet; scilicet meditationem, quasi virginitatis genus, ponens
+            actum pro habitu, sicut frequenter fieri solet; incorruptionem autem posuit quasi
+            objectum sive materiam; sed addit subjectum determinatum per hoc quod dicit: <quote xml:id="ta-l4d33q3-Qd1e150">in
+              carne corruptibili</quote>; quia privatio et habitus nata sunt fieri circa idem.</p>
+          <p xml:id="ta-l4d33q3-d1e154">Ad primum ergo dicendum, quod quamvis post resurrectionem sancti carnis corruptionem
+            non habeant; habent tamen naturam carnis, quae corruptibilis fuit; et ideo in eis esse
+            poterit virginitas sicut in subjecto; non autem in Angelis, in quibus corruptio quam
+            virginitas privat, nata esse non fuit; et praecipue hoc ad rationem virginitatis
+            sufficit, quae non solum respicit quod praesens est, sed quod praeteritum est. Non enim
+            est virgo ex hoc solum quod non corrumpitur, sed ex hoc etiam quod nunquam corrupta
+            fuit.</p>
+          <p xml:id="ta-l4d33q3-d1e158">Ad secundum dicendum, quod quamvis actus moralis virtutis in voluntate perficiatur,
+            tamen ratio formam virtutis in ea ponit, ut dicitur in 6 Ethic.; et ideo quidam
+            Socratici omnes virtutes scientias dicebant; et hoc modo loquendi utitur hic Augustinus
+            meditationem pro electione ponens.</p>
+          <p xml:id="ta-l4d33q3-d1e161">Ad tertium dicendum, quod in actu virtutis non solum requiritur discretio ex parte
+            rationis, sed etiam firmitas quaedam ex habitu inclinante ad actum per modum naturae. Et
+            sicut causae naturales, quantum est de se, ordinatae sunt immobiliter ad effectus
+            proprios; ratione cujus dicere possumus, lapis perpetuo descendit deorsum, quamvis hoc
+            quandoque impediri possit: ita et habitus virtutis, quantum est de se, immobiliter
+            ordinatur ad actum proprium, quamvis quandoque habens actum virtutis contrarium agat; et
+            ratione perpetuae immobilitatis consuevit poni perpetuum in definitionibus virtutum;
+            sicut in Princ. Digestorum dicitur, quod justitia est constans et perpetua voluntas; et
+            sic etiam Augustinus ponit perpetuum in definitione virginitatis, quamvis virginitatem
+            quandoque habentes, eam amittant; ut sic in praedicta definitione discretio electionis,
+            quae est actus virginitatis, secundum quod ad genus pertinet moris, ex meditatione
+            intelligatur; sed immobilitas ex perpetuitate.</p>
+          <p xml:id="ta-l4d33q3-d1e164">Ad quartum dicendum, quod corruptio mentis, ut ex dictis accipi potest, est duplex. Una
+            quae est quasi passio mentis, quando mens subditur delectationi quae in coitu solet
+            accidere; et quia haec delectatio completur in seminis distillatione, ideo talis
+            corruptio mentis non potest accidere sine aliqua corruptione carnis, quae dicta est
+            fieri per seminis decisionem. Alia autem est corruptio mentis, quae est actus ejus,
+            scilicet consensus, aut electio praedictae corruptionis. Sed quia vires inferiores
+            sequuntur motum superiorum; ideo quandoque contingit quod ex actu mentis cogitantis de
+            corruptione carnis, et intendentis delectationem ipsius experiri, calor excitatur in
+            corpore, et semen distillat, et causatur delectatio, qua mens suffocatur sicut in coitu;
+            et tunc absque dubio virginitas est amissa. Si autem corruptio sistat in actu mentis
+            consentientis, amittitur quidem virginitas secundum illud formale quod habet in mente,
+            non autem ratione ejus quod est materiale in ipsa; unde talis non potest dici virgo nisi
+            materialiter. Et ideo haec virginitatis amissio potest recuperari; non autem illa
+            virginitatis amissio in qua etiam illud quod est materiale subtrahitur; quia virginitas
+            ex parte sui actus respicit tantum praesens aut futurum, sicut est in qualibet virtute;
+            electio enim aut praesens aut futurum respicit, non autem praeteritum; sed ex parte
+            materiae non solum praesens, sed praeteritum respicit. Dicitur enim virgo quae elegit
+            incorruptionem, quae est materialis in virginitate, quam nunquam amisit, et habere et
+            conservare intendit. Non autem exigitur quod nunquam contrariam electionem habuerit, sed
+            quod nunquam contrariam corruptionem. Ex hoc autem virginitas amissa recuperari non
+            potest, quia illud quod in praeteritum transit, recuperari non potest.</p>
+          <p xml:id="ta-l4d33q3-d1e167">Ad quintum dicendum, quod illae quae sine concubitu se corrumpunt, non est dubium quod
+            virginitatem amittunt, etiam quantum ad id quod est materiale in ipsa; quia etsi
+            concubitus non adsit, adest tamen delectatio, quae in concubitu corruptionem
+            virginitatis facit. Si autem luxuria contra naturam tempus perfectae aetatis praeveniat,
+            cum non adsit seminis decisio, et per consequens nec delectatio completa mentem
+            suffocans, non amittitur virginitas quantum ad id quod est materiale in ipsa.</p>
+          <p xml:id="ta-l4d33q3-d1e170">Ad sextum dicendum, quod passiones partis sensitivae non possunt esse materia virtutis
+            nisi secundum quod sunt ordinabiles a ratione in eis medium ponente, prout
+            concupiscibilis et irascibilis obediunt rationi; et ideo delectatio quae in somnis
+            accidit cum seminis decisione, non est materia virtutis; et propter hoc nec talis
+            corruptio incorruptionem tollit, quae est virginitatis materia; et ideo ratione talis
+            pollutionis virginitas non perditur. Et similis ratio est de mulieribus quae dormientes
+            et inebriatae aut amentes a viris cognoscuntur, nisi forte hac intentione dormitum
+            irent, ut a viro cognoscerentur.</p>
+          <p xml:id="ta-l4d33q3-d1e173">Ad septimum dicendum, quod illud cujus principium totaliter est extra, non est
+            ordinabile a ratione; et ideo eadem ratione nec illae quae per violentiam corrumpuntur
+            sive ab homine, sive a Daemone incubo, virginitatem amittunt, si quantum possunt
+            renitantur, ut conservent corpus a corruptione immune, vel saltem mentem contrariam
+            consensui. Quia tamen in significationibus sacramentorum magis attenditur quod exterius
+            geritur quam quod interius fit; irregularitas quae ex defectu significationis in
+            sacramento causatur, nihilominus induceretur in illum qui virginem defloratam violenter
+            duceret in uxorem; et praecipue cum propter delectationem nimiam ratio in actu illo
+            suffocetur, difficillimum est tali delectationi dissentire in statu illo; et ideo
+            praesumptio videtur esse quod consenserit.</p>
+
+        </div>
+        <div xml:id="ta-l4d33q3-Dd1e177" type="articulus">
+          <head xml:id="ta-l4d33q3-Hd1e179">Articulus 2</head>
+
+          <head xml:id="ta-l4d33q3-Hd1e182" type="questionTitle">Utrum virginitas sit virtus</head>
+
+          <p xml:id="ta-l4d33q3-d1e185">Ad secundum sic proceditur. Videtur quod virginitas non sit virtus. Omnis enim virtus
+            consistit in medio. Sed virginitas non consistit in medio, sed maxime in extremo; quia
+            consistit in abstinendo ab omni delectabili, circa quod est castitas. Ergo non est
+            virtus.</p>
+          <p xml:id="ta-l4d33q3-d1e188">Praeterea, virtutum usus, cum sint de jure naturali, omni tempore licuerunt. Sed in
+            statu naturae conditae non licuisset virginitatem servare, quia esset contra praeceptum,
+            ut habetur Gen. 1, 28: <quote xml:id="ta-l4d33q3-Qd1e190">crescite et multiplicamini</quote>; similiter nec tempore
+            legis Moysi, quando qui non relinquebat semen super terram, maledictioni legis
+            subjacebat. Ergo virginitas non est virtus.</p>
+          <p xml:id="ta-l4d33q3-d1e194">Praeterea, nulla virtus est quae amitti possit sine peccato, et quae per poenitentiam
+            non recuperetur. Sed virginitas amittitur sine peccato in actu matrimoniali, nec per
+            poenitentiam potest recuperari. Ergo non est virtus.</p>
+          <p xml:id="ta-l4d33q3-d1e198">Praeterea, omnis virtus est habitus acquisitus vel infusus. Sed virginitas est in illis
+            qui non habent aliquem habitum acquisitum vel infusum, sicut in pueris non baptizatis.
+            Ergo non est virtus.</p>
+          <p xml:id="ta-l4d33q3-d1e201">Praeterea, omnis virtus ordinatur ad actum aliquem. Non autem virginitas; sed magis
+            importat privationem actus. Ergo non est virtus.</p>
+          <p xml:id="ta-l4d33q3-d1e204">Praeterea, qui habet unam virtutem, habet omnes. Sed qui caret virginitate, quandoque
+            habet alias virtutes. Ergo virginitas non est virtus.</p>
+          <p xml:id="ta-l4d33q3-d1e207">Praeterea, virtute nullus male utitur. Sed virginitate aliquis male utitur, ut patet de
+            virginibus fatuis, Matth. 25. Ergo non est virtus.</p>
+          <p xml:id="ta-l4d33q3-d1e210">Praeterea, continentia virginalis dividitur contra matrimonialem et vidualem. Sed
+            matrimonium non ponitur virtus, neque viduitas. Ergo neque virginitas est virtus.</p>
+          <p xml:id="ta-l4d33q3-d1e213">Sed contra est quod dicitur 1 Corinth. 7, 7: <quote xml:id="ta-l4d33q3-Qd1e215">unusquisque proprium donum habet ex
+              Deo</quote>; et loquitur de virginitate. Dona autem Dei spiritualia virtutes sunt.
+            Ergo virginitas est virtus.</p>
+          <p xml:id="ta-l4d33q3-d1e220">Praeterea, Ambrosius dicit in Lib. de virginitate: <quote xml:id="ta-l4d33q3-Qd1e222">invitat virginitatis amor ut
+              de virginitate aliquid dicamus, ne velut transitu quodam praeterita videatur quae
+              principalis est virtus</quote>.</p>
+          <p xml:id="ta-l4d33q3-d1e226">Praeterea, nihil meretur praemium nisi virtus. Sed virginitati debetur praemium,
+            scilicet fructus centesimus, ut sancti dicunt, et aureola. Ergo est virtus.</p>
+          <p xml:id="ta-l4d33q3-d1e229">Respondeo dicendum, quod sicut dationes et sumptus sunt materia liberalitatis, ita
+            delectationes in venereis sunt materia castitatis et continentiae. In genere autem
+            dationum magnitudo sumptuum exigit specialem virtutem, quae magnificentia vocatur,
+            propter sui difficultatem. Et quia temperantia vel castitas in cohibendis
+            delectationibus magnam habet difficultatem, ideo illud quod est praecipuum in ista
+            materia, maximam habens difficultatem, scilicet ab omni corruptione carnalis
+            delectationis immunitas, specialem virtutem exigit, quae virginitas dicitur; unde si
+            virginitas pro sui completa ratione, ut dictum est, accipiatur, sic virginitas est
+            specialis virtus; sic enim nihil aliud importat quam electionem conservandi
+            incorruptionem; et haec electio, si sit perfecta, ex aliquo habitu virtutis procedere
+            debet. Tamen virginitas super hoc ponit statum virtutis, in quo habitus in actum exire
+            possit. Non autem potest exire in actum electionis incorruptionem servandi, nisi sit
+            incorrupta; quia electio impossibilium non est; impossibile autem est incorruptionem
+            amissam recuperare. Sed materiam magnificentiae amissam possibile est recuperare; et
+            quantum ad hoc est dissimile de magnificentia et virginitate. Alii autem dicunt, quod
+            virginitas non nominat virtutem, sed statum perfectum virtutis; et hac ratione sancti
+            quandoque eam virtutem nominant; et secundum hanc opinionem facile est respondere ad
+            objecta. Sustinendo tamen primam opinionem, respondendum est ad objecta.</p>
+          <p xml:id="ta-l4d33q3-d1e232">Ad primum ergo dicendum, quod apud theologos, ut quidam dicunt, virtus non semper est
+            in medio. Sed hoc dicentes ignorant quid sit medium virtutis. Cum enim medium virtutis
+            accipiatur secundum rationem rectam; si aliquid non sit in medio, non est secundum
+            rationem rectam; et sic non potest esse laudabile neque virtuosum. Et ideo dicendum est,
+            quod virginitas est in medio rationis rectae; quod quidem medium non accipitur semper
+            secundum quantitatem ejus circa quod est virtus, quae quantitas est inter superfluum et
+            diminutum, cum sint aliquae virtutes quae perveniant ad maximam quantitatem in propria
+            materia, sicut nullus majoribus se dignificat quam magnanimus, nec aliquis majores
+            sumptus facit quam magnificus, ut patet in 4 Ethic.; sed accipitur secundum proportionem
+            omnium circumstantiarum vestientium actum; et sic ille qui maxima dona dat, in medio
+            consistit in eo quod mediocritas servatur in dando cui debet et quod debet et propter
+            quod debet; et superfluum est in eo quod datur ubi non debet vel propter quod non debet,
+            etiam si majora dentur. Similiter etiam virginitas, quamvis sit in ultimo extremi
+            quantum ad id circa quod est, quia ab omni corrumpente delectatione abstinet; tamen est
+            in medio, inquantum alias debitas circumstantias mediocriter servat; et superfluum
+            esset, si aliquis servare vellet virginitatem quando non deberet, sicut tempore legis
+            Moysi, vel propter quod non deberet, sicut virgines Vestales; similiter secundum alias
+            circumstantias.</p>
+          <p xml:id="ta-l4d33q3-d1e235">Ad secundum dicendum, quod, sicut dictum est, medium virtutis accipitur secundum
+            proportionem circumstantiarum ad rationem rectam; et quia tempus est una de
+            circumstantiis, non est inconveniens aliquid non esse licitum uno tempore, quod est
+            licitum vel virtuosum si alio tempore fiat; et ideo, si in tempore quo Deus ad
+            multiplicationem generis humani vel cultus divini homines operi conjugali insistere
+            volebat, aliquis proprio motu incorruptionem servasset, fuisset in extremo diminutionis;
+            quia abstinuisset a delectabili omni quando non debuisset; sed postea, facta
+            multiplicatione humani generis vel colentium Deum sufficienti, non peccasset
+            virginitatem servans etiam in lege Moysi, vel in statu naturae integrae, si homo non
+            peccasset; nec fecisset contra praeceptum, quia multiplicatio poterat fieri per alios,
+            sed super praeceptum.</p>
+          <p xml:id="ta-l4d33q3-d1e238">Ad tertium dicendum, quod status ille virtutis quo virtus in actum suum exire possit,
+            potest amitti sine peccato et cum peccato indifferenter; tamen recuperatur per
+            poenitentiam; sicut aliquis ditissimus magnificus potest dare omnia sua pauperibus; et
+            sic sine peccato suo ei eveniret quod in actum exteriorem virtutis exire non poterit. Si
+            autem in turpes usus facultates suas consumat, hoc erit cum peccato; nec tamen per
+            poenitentiam statum primum recuperabit. Et ideo virginitas, quae statum illum dicit
+            virtutis in quo virtus possit exire in actum; et per peccatum amittitur in fornicatione,
+            et sine peccato in actu matrimoniali; nec unquam per poenitentiam recuperatur.</p>
+          <p xml:id="ta-l4d33q3-d1e242">Ad quartum dicendum, quod illud quod est materia virginitatis, potest esse in illis qui
+            nullum habitum virtutis habent, sicut in pueris ante Baptismum, in quibus est primus
+            virginitatis gradus quem natura dedit; et sicut in illis qui ad tempus incorruptionem
+            praedictam servare volunt, tamen cum proposito nubendi suo tempore, qui habent secundum
+            virginitatis gradum, nec tamen dicuntur virgines nisi materialiter. Sed completa ratio
+            virginitatis, prout est virtus, non est nisi in illis qui habent electionem conservandi
+            integritatem hactenus custoditam usque in finem, sive sine voto, vel cum voto; et haec
+            electio perfecta esse non potest sine habitu informante ipsam. Si autem sit informis,
+            erit actus virtutis sicut virtutem praecedens, sicut et de aliis actibus virtutum
+            contingit.</p>
+          <p xml:id="ta-l4d33q3-d1e245">Ad quintum dicendum, quod temperantia, sicut in 3 Lib. dist. 33, qu. 3, art. 2
+            quaestiunc. 1 dictum est, principaliter consistit in cohibendo delectationes; unde de
+            principali intentione sua habet quemdam actum interiorem, scilicet electionem refrenandi
+            concupiscentias; sed exteriorem non habet quantum ad id quod est principale in ipsa,
+            nisi per accidens et ex consequenti, in hoc scilicet quod aliquos actus exteriores
+            adhibet ad cohibendum a delectationibus, quos magis imperat quam eliciat; sicut
+            recedendo ab aspectibus concupiscibilium; uti enim delectationibus secundum mensuram
+            rationis, est de secundaria intentione temperantiae. Et quia virginitas est
+            principalissimum in temperantia; ideo non habet actum exteriorem nisi ex consequenti;
+            sed omnino usum exteriorem concupiscentiae cohibet.</p>
+          <p xml:id="ta-l4d33q3-d1e248">Ad sextum dicendum, quod ille qui habet unam virtutem, habet aliquo modo omnes; non
+            tamen quantum ad omne id quod est in virtute; sicut qui habet liberalitatem, quandoque
+            non habet magnificentiam quantum ad statum illum quo possit exire in actum exteriorem;
+            et similiter qui habet temperantiam, non habet statum quem virginitas dicit propter
+            imperfectionem; quamvis habeat id quod facit rationem virtutis in virginitate; sicut e
+            contrario propter perfectionem Christus habet caritatem, non tamen fidem, propter statum
+            imperfectionis quem fides importat; etsi habeat quidquid est perfectionis et
+            virtuositatis in fide.</p>
+          <p xml:id="ta-l4d33q3-d1e251">Ad septimum dicendum, quod materia virginitatis, quam fatuae virgines habere possunt,
+            aliquis male utitur; non autem virginitate accepta secundum suam completam rationem.</p>
+          <p xml:id="ta-l4d33q3-d1e254">Ad octavum dicendum, quod viduitas et matrimonium non important aliquem alterum gradum
+            circa materiam temperantiae sicut virginitas; unde non est similis ratio.</p>
+
+        </div>
+        <div xml:id="ta-l4d33q3-Dd1e258" type="articulus">
+          <head xml:id="ta-l4d33q3-Hd1e260">Articulus 3</head>
+
+          <head xml:id="ta-l4d33q3-Hd1e263" type="questionTitle">Utrum virginitas major sit omnibus virtutibus</head>
+
+          <p xml:id="ta-l4d33q3-d1e266">Ad tertium sic proceditur. Videtur quod virginitas major sit omnibus virtutibus. Decor
+            enim est de ratione virtutis. Sed virginitatis decor est maximus. Ergo ipsa est maxima
+            virtutum. Probatio mediae. Ambrosius in Lib. de virginitate, dicit:
+              <quote xml:id="ta-l4d33q3-Qd1e268">pulchritudinem quis potest majorem aestimare decore ejus</quote>, scilicet
+            virginis, <quote xml:id="ta-l4d33q3-Qd1e271">quae amatur a rege, probatur a judice, dedicatur domino, consecratur
+              Deo, semper sponsa, semper innupta, ut nec amor finem habeat, nec damnum pudor? Haec
+              autem perfecte vera pulchritudo est cui nihil deest, quae sola meretur audire a
+              domino: tota formosa es</quote> et cetera.</p>
+          <p xml:id="ta-l4d33q3-d1e275">Praeterea, Cyprianus dicit: <quote xml:id="ta-l4d33q3-Qd1e277">nunc nobis ad virgines sermo est; quarum quo
+              sublimior gloria est, major cura. Flos est ille ecclesiastici germinis, decus atque
+              ornamentum gratiae spiritualis, illustrior portio gregis Christi</quote>. Ergo idem
+            quod prius.</p>
+          <p xml:id="ta-l4d33q3-d1e281">Praeterea, majus praemium majori virtuti debetur. Sed virginitati debetur maximum
+            praemium, scilicet fructus centesimus, et aureola. Ergo et cetera.</p>
+          <p xml:id="ta-l4d33q3-d1e285">Praeterea, maxima dignitas virtutum est quod per eas Deo conjungimur. Sed
+            propinquissime Deo conjungit virginitas; quia incorruptio facit esse proximum Deo, ut
+            dicitur Sapient. 5; et in Apoc. dicitur, quod virgines sequuntur agnum quocumque ierit.
+            Ergo est maxima virtutum.</p>
+          <p xml:id="ta-l4d33q3-d1e288">Sed contra est quod in littera dicitur, quod caelibatus Joannis non praefertur conjugio
+            Abrahae.</p>
+          <p xml:id="ta-l4d33q3-d1e291">Praeterea, Bernardus dicit super Evangelium <quote xml:id="ta-l4d33q3-Qd1e293">missus est</quote>, quod plus
+            placuit (Deo scilicet) humilitas Mariae, quam ipsius virginitas. Ergo virginitas non est
+            maxima virtutum.</p>
+          <p xml:id="ta-l4d33q3-d1e297">Respondeo dicendum, quod una virtus, et quantum ad actum et quantum ad habitum, potest
+            dici excellentior alia dupliciter; scilicet per se, et per accidens. Per se quidem
+            mensuratur actus virtutum ex ratione objecti sui, ex quo speciem habent; sed per
+            accidens ex parte subjecti: sicut actus etiam in parvis rebus dicitur melior, si fiat ex
+            magis prompta voluntate, vel tempore magis opportuno, et aliis infinitis modis; quia
+            causae per accidens infinitae sunt; et propter hoc relinquuntur ab arte. Unde hac
+            comparatione omissa, sciendum est, quod cum bonum spirituale sit nobilius et melius quam
+            bonum corporis; virtutes illae quae habent pro objecto bonum spirituale, sunt
+            simpliciter meliores quam illae quae habent aliquod corporale aut corporali adjunctum;
+            et ideo virtutes intellectuales et theologicae sunt digniores quam virtutes morales,
+            quae sunt circa actus et passiones aliquo modo corporales; et inter virtutes morales
+            illa per se loquendo est melior quae magis appropinquat ad praedictas; quae quidem
+            appropinquatio potest attendi dupliciter. Uno modo quantum ad convenientiam subjecti; et
+            sic justitia, quae est in voluntate, est propinquissima et dignissima; et post hoc
+            fortitudo, quae est in irascibili, quae est quasi quoddam confinium rationis et
+            sensualitatis, ut in 3 Lib., dist. 26, qu. 1, art. 1, in corp., dictum est; et ultimo
+            temperantia, quae est in concupiscibili. Alio modo potest attendi propinquitas virtutis
+            moralis ad intellectualem prout disponit ad ipsam; et sic inter omnes morales
+            propinquissima est temperantia, quia per delectationes, quae sunt ejus materia, maxime
+            nata est ratio enervari; et inter partes temperantiae praecipue castitas, quia in
+            delectationibus circa quas est, ratio totaliter obruitur. Unde Commentator dicit in 7
+            Physic., quod castitas maxime valet ad scientias speculativas; et in genere castitatis
+            praecipue virginitas. Sic ergo dicendum est, quod virginitas non est dignior omnibus
+            aliis virtutibus; sed est dignior aliquo modo omnibus virtutibus moralibus, et
+            simpliciter et per se loquendo, omnibus speciebus temperantiae.</p>
+          <p xml:id="ta-l4d33q3-d1e300">Ad primum ergo dicendum, quod delectationes circa quas est temperantia, sunt
+            turpissimae, ut in 7 Ethic. patet, eo quod sunt in communibus nobis et brutis; unde
+            temperantia, quae has cohibet, praecipue vindicat sibi pulchritudinem communem omnibus
+            virtutibus, sicut fortitudo vindicat sibi difficultatem, justitia rectitudinem; et
+            propter hoc virginitas, quae est summus temperantiae gradus, summum decorem sibi
+            vindicat; non tamen sequitur quod sit dignissima virtus.</p>
+          <p xml:id="ta-l4d33q3-d1e303">Ad secundum dicendum, quod omnia verba praedicta Cypriani, quae excellentiam ostendunt
+            virginitatis, pertinent ad pulchritudinem; unde eodem modo dicendum est sicut ad primum.
+            Vel dicendum, quod virgines habent cum virginitate alias virtutes: alii autem non habent
+            virginitatem cum aliis virtutibus; et ideo non est eadem ratio comparandi virginitatem
+            cum aliis virtutibus, et virgines aliis omnibus.</p>
+          <p xml:id="ta-l4d33q3-d1e307">Ad tertium dicendum, quod aureola est praemium accidentale, et fructus similiter.
+            Praemium autem essentiale est dignius accidentali; ideo simpliciter loquendo, illae
+            virtutes sunt potiores quibus majus praemium essentiale debetur: praemium autem
+            accidentale non tam respicit virtutis radicem quam statum virtutis. Et praeterea aureola
+            non solum virginibus debetur, sed et martyribus et doctoribus; fructus autem soli
+            continentiae debetur, in qua summum locum tenet virginitas; et quia per continentiam
+            reprimuntur illae delectationes quae maxime gustum spiritualis dulcedinis impediunt,
+            quem fructus suo nomine importat.</p>
+          <p xml:id="ta-l4d33q3-d1e310">Ad quartum dicendum, quod incorruptio facit esse proximum Deo, in quem corruptio non
+            cadit, per quamdam similitudinem imitationis: et quia Deo magis possumus esse similes
+            mente quam carne; ideo incorruptio mentis, quae omni peccato opponitur, et per omnem
+            virtutem est, facit Deo esse proximum. Sed virginitas habet utramque incorruptionem; et
+            ideo quantum ad plura facit Deo similem, scilicet in corpore et anima, ratione cujus
+            dicitur quod sequitur agnum quocumque ierit; et Ambrosius dicit quod nihil ei deest. Nec
+            tamen sequitur quod magis facit virginitas Deo proximum quam omnes virtutes, sed
+            secundum plura.</p>
+          <p xml:id="ta-l4d33q3-d1e313">Ad quintum dicendum, quod in littera matrimonium Abrahae aequiparatur caelibatui
+            Joannis quantum ad meritum personarum: quia tantum merebatur Abraham in conjugio sicut
+            Joannes in virginitate; quia ex aequali promptitudine serviebat Deo secundum statum sui
+            temporis; et haec comparatio est per accidentalia virtutum.</p>
+          <p xml:id="ta-l4d33q3-d1e316">Ad sextum dicendum, quod humilitas videtur virtutibus propinquissima esse, quia per eam
+            homo se ex reverentia Deo subjicit, et per consequens aliis propter Deum; et ideo,
+            simpliciter loquendo, virginitatem humilitas excedit.</p>
+        </div>
+        <div xml:id="ta-l4d33q3-Dd1e321">
+          <head xml:id="ta-l4d33q3-Hd1e323">Expositio textus</head>
+          <p xml:id="ta-l4d33q3-d1e326"><quote xml:id="ta-l4d33q3-Qd1e327">Maledicta erat sterilis, quae non relinquebat semen super terram</quote>. Haec
+            maledictio non est culpae, sed poenae; non tamen quantum ad defectum naturae quem habet
+            virginitas in prolis defectu; sed quantum ad infamiam, quia opprobrio habebatur.
+              <quote xml:id="ta-l4d33q3-Qd1e330">Immoderatus usus conjugii nostri temporis, turpitudinem fere imitetur
+              fornicationis illius temporis</quote>. Hoc dicitur quantum ad intentionem eorum qui
+            nunc ut plurimum contrahunt matrimonium propter infirmitatem libidinis, qua ratione
+            antiquitus fornicabantur; et ideo addit <quote xml:id="ta-l4d33q3-Qd1e333">fere</quote>, quia fornicatio omnis erat
+            peccatum mortale; non autem omnis immoderatus usus conjugum. <quote xml:id="ta-l4d33q3-Qd1e336">Facilius continere
+              possent</quote>, quam nos scilicet possumus, propter magnitudinem virtutis quae in eis
+            erat; vel quam ipsi possent matrimonio conjungi, considerata vi honestatis, quae justos
+            trahit; ut difficile sit eis peccare, vel in aliquo a perfecto statu virtutis declinare.
+              <quote xml:id="ta-l4d33q3-Qd1e339">Publici muneris gratia privatam culpam praetexit</quote>. Sciendum, quod
+            quamvis Loth credatur immunis a peccato mortali fuisse; filiae tamen ejus non omnino
+            excusantur a peccato mortali, sed ex pietate intentionis minus peccaverunt. Fuit enim
+            levis aestimatio super quam se fundaverunt. Et praeterea si eis pro certo constitisset
+            totum genus humanum periisse, debuissent divinum consilium et patris expetere in tam
+            horribili facto, quod erat contra primam institutionem matrimonii, ubi pater et mater
+            prohibentur Genes. 2: <quote xml:id="ta-l4d33q3-Qd1e342">propter hoc relinquet homo patrem et matrem suam. Quae
+              tamen modificata, et refrenante temperantia in usum naturalem redacta, libido esse non
+              potest</quote>. Haec modificatio non attenditur quantum ad delectationis quantitatem
+            in actu, sed quantum ad debitam limitationem circumstantiarum. <quote xml:id="ta-l4d33q3-Qd1e346">Continentiam
+              Joannes in opere (...) habebat</quote>. Continentia accipitur hic cessatio a carnali
+            opere omnino. <quote xml:id="ta-l4d33q3-Qd1e349">Eas enim nunc uxores appellat Scriptura, nunc concubinas</quote>.
+            Quidam dicunt, quod non erant vere uxores; sed quia uxorio affectu et intentione prolis
+            eis conjungebantur, quandoque uxores dicuntur. Alii dicunt, quod vere uxores erant; sed
+            dicuntur concubinae, quia ancillae manebant, et filii non earum, sed dominarum suarum
+            nomine nascebantur; et hoc verius videtur. <quote xml:id="ta-l4d33q3-Qd1e352">Plures habere, non plurimas</quote>.
+            Plurimae dicuntur quibus non potest opere carnali ad praegnandum satisfieri sine mentis
+            enervatione: frequentia enim talis actus omnino mentem enervat. <quote xml:id="ta-l4d33q3-Qd1e355">Non potest caro
+              corrumpi nisi mens ante fuerit corrupta</quote>. Hoc intelligitur de corruptione ad
+            genus moris pertinente, quam virginitas excludit. <quote xml:id="ta-l4d33q3-Qd1e358">Satius est mori fame quam
+              idolothytis vesci</quote>. Contra, 1 Timoth. 4, 4: <quote xml:id="ta-l4d33q3-Qd1e361">nihil rejiciendum quod cum
+              gratiarum actione percipitur</quote>. Et dicendum quod debet intelligi antequam
+            comederetur in venerationem idoli, vel cum quadam exteriori professione idolatriae,
+            sicut si a persecutore in signum fidei Christianae fractae exigeretur.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

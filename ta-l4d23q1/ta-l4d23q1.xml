@@ -1,0 +1,690 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 23, Quaestio 1</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Librum IV, Distinctio 23, Quaestio 1</title>
+          <date when="2016-03-19">March 19, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-19">March 19, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness>1856 editum</witness>
+          <witness xml:id="G" n="ghent567">Ghent, Belgium, Ghent University Library, 567</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="0.0.0-dev">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+
+
+
+
+      <div xml:id="starts-on">
+        <cb ed="#G" n="396b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ta-l4d23q1">
+        <head xml:id="ta-l4d23q1-Hd1e97">Librum IV, Distinctio 23, Quaestio 1</head>
+        <div xml:id="ta-l4d23q1-Dd1e100">
+
+          <head xml:id="ta-l4d23q1-Hd1e102">Prooemium</head>
+          <p xml:id="ta-l4d23q1-d1e105">Postquam determinavit Magister de Baptismo, qui est sacramentum intrantium, et de
+            confirmatione, Eucharistia, poenitentia, quae sunt sacramenta progredientium, hic quinto
+            loco determinat de extrema unctione, quae est sacramentum exeuntium; et dividitur in
+            partes duas: in prima determinat de ipso sacramento; in secunda de usu ipsius, ibi:
+              <quote xml:id="ta-l4d23q1-Qd1e107">quaerunt aliqui, si hoc sacramentum iterari possit</quote>. Prima in duas: in
+            prima distinguit hoc sacramentum ab aliis unctionibus; in secunda determinat omnia quae
+            ad hoc sacramentum pertinent, ibi: <quote xml:id="ta-l4d23q1-Qd1e110">hoc sacramentum unctionis infirmorum ab
+              apostolis institutum legitur</quote>. Et circa hoc tria facit: primo determinat
+            institutionem; secundo effectum, ibi: <quote xml:id="ta-l4d23q1-Qd1e113">in quo ostenditur duplici ex causa
+              sacramentum hoc institutum</quote>; tertio conformitatem istius sacramenti ad alia,
+            ibi: <quote xml:id="ta-l4d23q1-Qd1e116">et sicut in aliis sacramentis, ita et in isto aliud est sacramentum, aliud
+              res sacramenti. Quaerunt aliqui, si hoc sacramentum iterari possit</quote>. Hic
+            determinat de usu istius sacramenti; et dividitur in duo secundum duas opiniones quae
+            tangit de iteratione istius sacramenti, et aliorum per consequens; secunda ostenditur
+            ibi: <quote xml:id="ta-l4d23q1-Qd1e119">quidam autem de omni sacramento intelligi volunt quod non sit
+              iterandum</quote>. Hic est duplex quaestio. Prima de ipso sacramento extremae
+            unctionis; secunda de administratione et usu ipsius. Circa primum quaeruntur quatuor: 1
+            de ipsa extrema unctione; 2 de effectu ejus; 3 de materia ipsius; 4 de forma.</p>
+
+        </div>
+        <div xml:id="ta-l4d23q1-Dd1e124" type="articulus">
+          <head xml:id="ta-l4d23q1-Hd1e126">Articulus 1</head>
+
+          <head xml:id="ta-l4d23q1-Hd1e129" type="questionTitle">Utrum extrema unctio sit sacramentum</head>
+
+          <div xml:id="ta-l4d23q1-Dd1e132">
+            <head xml:id="ta-l4d23q1-Hd1e134">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d23q1-d1e137">Ad primum sic proceditur. Videtur, quod extrema unctio non sit sacramentum. Quia
+              sicut oleum assumitur ad infirmos, ita ad catechumenos. Sed unctio quae fit oleo ad
+              catechumenos, non est sacramentum. Ergo nec extrema unctio quae fit oleo ad
+              infirmos.</p>
+            <p xml:id="ta-l4d23q1-d1e140">Praeterea, sacramenta veteris legis fuerant signa sacramentorum novae legis. Sed
+              extrema unctio non habuit aliquam figuram in veteri lege. Ergo non est sacramentum
+              novae legis.</p>
+            <p xml:id="ta-l4d23q1-d1e143">Praeterea, secundum Dionysium, omne sacramentum est vel ad purgandum vel ad
+              illuminandum vel ad perficiendum. Sed extrema unctio non ponitur neque ad purgandum
+              neque ad illuminandum, quia hoc soli Baptismo attribuitur: neque ad perficiendum, quia
+              hoc, secundum ipsum, pertinet ad chrisma et Eucharistiam. Ergo extrema unctio non est
+              sacramentum.</p>
+            <p xml:id="ta-l4d23q1-d1e146">Sed contra, sacramenta Ecclesiae sufficienter subveniunt defectibus hominum secundum
+              quemlibet statum. Sed exeuntibus non subvenit aliud quam extrema unctio. Ergo ipsa est
+              sacramentum.</p>
+            <p xml:id="ta-l4d23q1-d1e150">Praeterea, sacramenta, ut supra dictum est, dist. 1, nihil aliud sunt quam quaedam
+              spirituales medicinae. Sed extrema unctio est quaedam spiritualis medicina: quia valet
+              ad remissionem peccatorum, ut habetur Jac. 5. Ergo est sacramentum.</p>
+
+          </div>
+          <div xml:id="ta-l4d23q1-Dd1e154">
+            <head xml:id="ta-l4d23q1-Hd1e156">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d23q1-d1e159">Ulterius. Videtur quod extrema unctio non sit unum sacramentum. Quia unitas rei est
+              ex sua materia et ex sua forma, cum ex eodem res esse habeat et unitatem. Sed forma
+              hujus sacramenti frequenter iteratur etiam eadem vice; et materia pluries in uncto
+              adhibetur secundum diversas partes. Ergo non est unum sacramentum.</p>
+            <p xml:id="ta-l4d23q1-d1e162">Praeterea, ipsa unctio est sacramentum: ridiculum enim est dicere, quod oleum sit
+              sacramentum. Sed sunt plures unctiones. Ergo sunt plura sacramenta.</p>
+            <p xml:id="ta-l4d23q1-d1e165">Praeterea, unus sacramentum ab uno ministro perfici debet. Sed in aliquo casu extrema
+              unctio non potest perfici uno ministro, sicut si post primam unctionem factam sacerdos
+              moriatur tunc enim alius sacerdos debet ulterius procedere. Ergo extrema unctio non
+              est sacramentum unum.</p>
+            <p xml:id="ta-l4d23q1-d1e168">Sed contra est, quia sicut immersio se habet ad Baptismum, ita se habet unctio ad hoc
+              sacramentum. Sed plures immersiones sunt unum sacramentum Baptismi. Ergo et plures
+              unctiones sunt unum sacramentum.</p>
+            <p xml:id="ta-l4d23q1-d1e172">Praeterea, si non esset unum sacramentum, tunc facta prima unctione non oporteret ad
+              perfectionem sacramenti quod fieret secunda: quia quodlibet sacramentum per se habet
+              esse perfectum. Sed hoc falsum est. Ergo est unum sacramentum.</p>
+
+          </div>
+          <div xml:id="ta-l4d23q1-Dd1e176">
+            <head xml:id="ta-l4d23q1-Hd1e178">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d23q1-d1e181">Ulterius. Videtur quod hoc sacramentum non fuit institutum a Christo. Quia de
+              institutione sacramentorum quae Christus instituit, fit mentio in Evangelio, sicut de
+              Eucharistia et Baptismo. Sed nulla fit mentio de extrema unctione. Ergo non est a
+              Christo instituta.</p>
+            <p xml:id="ta-l4d23q1-d1e184">Praeterea, Magister expresse dicit in littera, quod est institutum ab apostolis. Ergo
+              ipse Christus per se non instituit.</p>
+            <p xml:id="ta-l4d23q1-d1e187">Praeterea, sacramentum Eucharistiae, quod Christus instituit, etiam ipse per se
+              exhibuit. Sed hoc sacramentum ipse nulli exhibuit. Ergo per se non instituit.</p>
+            <p xml:id="ta-l4d23q1-d1e190">Sed contra: sacramenta novae legis sunt digniora quam sacramenta veteris legis. Sed
+              omnia sacramenta veteris legis sunt ab ipso Deo instituta. Ergo multo fortius omnia
+              sacramenta novae legis habent institutionem ab ipso Christo.</p>
+            <p xml:id="ta-l4d23q1-d1e194">Praeterea, ejusdem est statuere et statuta removere. Sed Ecclesia, quae in
+              successoribus apostolorum habet eamdem auctoritatem quam apostoli habuerunt, non
+              posset auferre sacramentum extremae unctionis. Ergo apostoli non instituerunt, sed
+              ipse Christus.</p>
+          </div>
+          <div xml:id="ta-l4d23q1-Dd1e199">
+            <head xml:id="ta-l4d23q1-Hd1e201">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d23q1-d1e204">Respondeo dicendum ad primam quaestionem, quod in his quae Ecclesia visibiliter
+              operatur, quaedam sunt sacramenta, ut Baptismus; quaedam sacramentalia, ut exorcismus,
+              ut supra, dist. 6, dictum est: quorum haec est differentia, quia sacramentum dicitur
+              illa actio Ecclesiae quae attingit ad effectum principaliter intentum in
+              administratione sacramentorum; sed sacramentale dicitur illa actio quae quamvis non
+              pertingat ad illum effectum, tamen ordinatur aliquo modo ad illam actionem
+              principalem. Effectus autem intentus in administratione sacramentorum est curatio
+              morbi peccati. Isaiae 27, 9: <quote xml:id="ta-l4d23q1-Qd1e206">hic est omnis fructus, ut auferatur
+                peccatum</quote>. Et ideo cum ad hunc effectum pertingat extrema unctio, ut ex
+              verbis Jacobi patet, nec ordinetur ad aliud sacramentum quasi ei annexum; constat quod
+              extrema unctio non est sacramentale, sed sacramentum.</p>
+            <p xml:id="ta-l4d23q1-d1e210">Ad primum ergo dicendum, quod oleum quo catechumeni unguntur, sua unctione non
+              perducit ad peccati remissionem, quia hoc ad Baptismum pertinet, sed aliquo modo ad
+              Baptismum disponit, ut supra, dist. 6, dictum est: et ideo non est sacramentum illa
+              unctio, sicut unctio extrema.</p>
+            <p xml:id="ta-l4d23q1-d1e213">Ad secundum dicendum, quod hoc sacramentum immediate hominem ad gloriam disponit, cum
+              exeuntibus a corpore detur: et quia in veteri lege non erat adhuc tempus perveniendi
+              ad gloriam, quia neminem ad gloriam adduxit lex; ideo illud sacramentum ibi
+              praefigurari non debuit per aliquod sacramentum sibi respondens, sicut per figuram
+              ejusdem generis; quamvis per figuras remotas aliquo modo figuratum sit in omnibus
+              curationibus quae leguntur in veteri testamento.</p>
+            <p xml:id="ta-l4d23q1-d1e216">Ad tertium dicendum, quod Dionysius non facit aliquam mentionem de extrema unctione,
+              sicut nec de poenitentia nec de matrimonio: quia ipse non intendit determinare de
+              sacramentis nisi quatenus per ea innotescere potest ecclesiasticae hierarchiae
+              ordinata dispositio quantum ad ministros et actiones ministrorum, et recipientes.
+              Tamen cum per extremam unctionem aliquis consequatur gratiam et remissionem
+              peccatorum; non est dubium quod habet vim illuminativam et purgativam, sicut
+              Baptismus, quamvis non ita plenam.</p>
+
+          </div>
+          <div xml:id="ta-l4d23q1-Dd1e220">
+            <head xml:id="ta-l4d23q1-Hd1e222">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d23q1-d1e225">Ad secundam quaestionem dicendum, quod unum numero, per se loquendo, dicitur
+              tripliciter. Uno modo sicut indivisibile, quod nec actu nec potentia est plura, ut
+              punctus et unitas. Alio modo sicut continuum, quod quidem est unum actu, sed plura
+              potentia, ut linea. Sed tertio modo sicut perfectum aliquod quod ex pluribus partibus
+              constituitur, ut domus; quod est multa quodammodo etiam actu, sed illa multa
+              conveniunt in aliquo uno: et hoc modo quodlibet sacramentum dicitur unum, inquantum
+              multa quae sunt in uno sacramento, adunantur ad unum significandum vel causandum: quia
+              sacramentum signando causat. Et ideo quando una actio sufficit ad perfectam
+              significationem, unitas sacramenti consistit in illa actione tantum, sicut patet in
+              confirmatione: quando autem significatio sacramenti potest esse et in una et in multis
+              actionibus, tunc sacramentum perfici potest et una actione et pluribus, sicut
+              Baptismus in una immersione et tribus: quia ablutio quae significatur in Baptismo,
+              potest esse per unam immersionem vel per multas. Quando autem perfecta significatio
+              non potest esse nisi per plures actiones, tunc plures actiones sunt de perfectione
+              sacramenti, sicut patet de Eucharistia: quia refectio corporalis, quae significat
+              spiritualem, non potest esse nisi per cibum et potum; et similiter est in hoc
+              sacramento: quia curatio interiorum vulnerum non potest perfecte significari nisi per
+              appositionem medicinae ad diversas vulnerum radices: et ideo plures actiones sunt de
+              perfectione hujus sacramenti.</p>
+            <p xml:id="ta-l4d23q1-d1e228">Ad primum ergo dicendum, quod unitas totius perfecta non tollitur propter
+              diversitatem materiae aut formae, quae est in partibus totius; sicut constat quod non
+              eadem materia est carnis et ossis, ex quibus constituitur unus homo, nec eadem forma;
+              et similiter etiam in sacramento Eucharistiae: et in hoc sacramento pluralitas
+              materiae et formae unitatem sacramenti non tollit.</p>
+            <p xml:id="ta-l4d23q1-d1e231">Ad secundum dicendum, quod quamvis illae actiones sint plures simpliciter, tamen
+              uniuntur in una perfecta actione, quae est unctio omnium exteriorum sensuum, quibus
+              hauritur morbus interior.</p>
+            <p xml:id="ta-l4d23q1-d1e234">Ad tertium dicendum, quod quamvis in Eucharistia, si post consecrationem panis
+              moriatur sacerdos, alius sacerdos possit ad consecrationem vini incipere ubi ille
+              dimisit, vel etiam incipere a capite supra aliam materiam; tamen in extrema unctione
+              non potest a capite incipere, sed debet semper procedere: quia unctio in eadem parte
+              facta tantum valet ac si consecraretur bis eadem hostia: quod nullo modo faciendum
+              est. Nec tamen ministrorum pluralitas tollit unitatem sacramenti, quia
+              instrumentaliter tantum operantur; mutatio autem martellorum non tollit unitatem
+              operationis fabri.</p>
+
+          </div>
+          <div xml:id="ta-l4d23q1-Dd1e238">
+            <head xml:id="ta-l4d23q1-Hd1e240">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d23q1-d1e243">Ad tertiam quaestionem dicendum, quod circa hoc est duplex opinio. Quidam enim
+              dicunt, quod sacramentum istud et confirmationis, Christus non instituit per se, sed
+              apostolis instituendum dimisit: quia haec duo propter plenitudinem gratiae quae in eis
+              confertur, non potuerunt ante spiritus sancti missionem plenissimam institui; unde
+              sunt ita sacramenta novae legis, quod in veteri lege figuram non habuerunt. Sed haec
+              ratio non multum cogit: quia sicut Christus ante passionem promisit plenam spiritus
+              sancti missionem, ita potuit instituere haec sacramenta. Et ideo alii dicunt, quod
+              omnia sacramenta Christus instituit per seipsum; sed quaedam per seipsum promulgavit,
+              quae sunt majoris difficultatis ad credendum; quaedam autem apostolis promulganda
+              reservavit, sicut extremam unctionem et confirmationem. Et haec opinio pro tanto
+              videtur probabilior, quia sacramenta ad fundamentum legis pertinent, et ideo ad
+              legislatorem pertinet eorum institutio; et iterum quia ex institutione efficaciam
+              habent, quae eis non nisi divinitus est.</p>
+            <p xml:id="ta-l4d23q1-d1e246">Ad primum ergo dicendum, quod multa dominus fecit et dixit quae in Evangeliis non
+              continentur. Illa enim praecipue curaverunt Evangelistae tradere quae ad salutis
+              necessitatem et ad ordinem ecclesiasticae dispositionis pertinent; et ideo potius
+              institutionem Baptismi et poenitentiae et Eucharistiae et ordinis a Christo factam
+              narraverunt, quam extremae unctionis vel confirmationis; quae neque sunt de
+              necessitate salutis, neque ad dispositionem sive distinctionem Ecclesiae pertinent.
+              Tamen etiam de olei unctione fit mentio in Evangelio, Marc. 6, ubi dicitur quod
+              apostoli oleo ungebant infirmos.</p>
+            <p xml:id="ta-l4d23q1-d1e249">Ad secundum dicendum, quod Magister dicit ab apostolis institutum, quia per doctrinam
+              apostolorum nobis promulgata est ejus institutio.</p>
+            <p xml:id="ta-l4d23q1-d1e252">Ad tertium dicendum, quod Christus, sicut in praecedenti dist., qu. 2, art. 3,
+              quaestiunc. 3, dictum est, non exhibuit aliquod sacramentum, nisi quod ipse accepit in
+              exemplum. Accipere autem poenitentiam et extremam unctionem sibi non competebat, quia
+              sine peccato erat; et ideo ipse non exhibuit.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d23q1-Dd1e257" type="articulus">
+          <head xml:id="ta-l4d23q1-Hd1e259">Articulus 2</head>
+
+          <head xml:id="ta-l4d23q1-Hd1e262" type="questionTitle">Utrum extrema unctio valeat ad remissionem peccatorum</head>
+
+          <div xml:id="ta-l4d23q1-Dd1e265">
+            <head xml:id="ta-l4d23q1-Hd1e267">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d23q1-d1e270">Ad secundum sic proceditur. Videtur quod extrema unctio non valeat ad remissionem
+              peccatorum. Ad hoc enim quod per unum potest effici, aliud non exigitur. Sed in eo qui
+              extremam unctionem accipit, requiritur ad peccatorum remissionem poenitentia. Ergo per
+              extremam unctionem non dimittuntur peccata.</p>
+            <p xml:id="ta-l4d23q1-d1e273">Praeterea, in peccato non sunt nisi tria; macula, reatus poenae, et reliquiae
+              peccati. Sed per extremam unctionem non remittitur peccatum quo ad maculam sine
+              contritione, quae etiam sine unctione remittit; nec iterum quo ad poenam: quia adhuc
+              si convalescat, tenetur perficere satisfactionem injunctam; nec quo ad reliquias
+              culpae, quia adhuc remanent dispositiones ex actibus praecedentibus relictae, ut patet
+              post convalescentiam. Ergo nullo modo per extremam unctionem fit peccatorum
+              remissio.</p>
+            <p xml:id="ta-l4d23q1-d1e276">Praeterea, remissio peccatorum non fit successive, sed in instanti. Sed extrema
+              unctio non fit tota simul, quia plures unctiones requiruntur. Ergo ejus effectus non
+              est remissio peccatorum.</p>
+            <p xml:id="ta-l4d23q1-d1e279">Sed contra est quod dicitur Jac. 5, 15: <quote xml:id="ta-l4d23q1-Qd1e281">si in peccatis est, dimittentur
+                ei</quote>.</p>
+            <p xml:id="ta-l4d23q1-d1e286">Praeterea, omne sacramentum novae legis gratiam confert. Sed per gratiam fit remissio
+              peccatorum. Ergo extrema unctio, cum sit sacramentum novae legis, operatur ad
+              remissionem peccati.</p>
+
+          </div>
+          <div xml:id="ta-l4d23q1-Dd1e290">
+            <head xml:id="ta-l4d23q1-Hd1e292">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d23q1-d1e295">Ulterius. Videtur quod sanitas corporalis non sit effectus hujus sacramenti. Omne
+              enim sacramentum est medicina spiritualis. Sed spiritualis medicina ad spiritualem
+              sanitatem ordinatur, sicut corporalis ad corporalem. Ergo sanitas corporalis non est
+              effectus hujus sacramenti.</p>
+            <p xml:id="ta-l4d23q1-d1e298">Praeterea, sacramentum semper habet effectum suum in eo qui non fictus accedit. Sed
+              quandoque non sanatur corporaliter suscipiens hoc sacramentum, quantumcumque devotus
+              accipiat. Ergo sanitas corporalis non est effectus ejus.</p>
+            <p xml:id="ta-l4d23q1-d1e301">Praeterea, efficacia hujus sacramenti Jacob. 5 nobis ostenditur. Sed ibi non
+              attribuitur sanationis effectus unctioni, sed orationi; dicit enim: <quote xml:id="ta-l4d23q1-Qd1e303">oratio
+                fidei sanabit infirmum</quote>. Ergo corporalis sanatio non est effectus hujus
+              sacramenti.</p>
+            <p xml:id="ta-l4d23q1-d1e307">Sed contra, operatio Ecclesiae habet majorem efficaciam post Christi passionem quam
+              ante. Sed ante oleo inuncti per apostolos sanabantur, ut patet Marc. 6. Ergo et nunc
+              habet effectum in corporali sanatione.</p>
+            <p xml:id="ta-l4d23q1-d1e311">Praeterea, sacramenta significando efficiunt. Sed Baptismus per ablutionem
+              corporalem, quam exterius facit, significat et efficit spiritualem. Ergo et extrema
+              unctio per sanationem corporalem, quam exterius efficit, significat et causat
+              spiritualem.</p>
+
+          </div>
+          <div xml:id="ta-l4d23q1-Dd1e315">
+            <head xml:id="ta-l4d23q1-Hd1e317">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d23q1-d1e320">Ulterius. Videtur quod hoc sacramentum characterem imprimat. Character enim est
+              signum distinctivum. Sed sicut baptizatus distinguitur a non baptizato, ita unctus a
+              non uncto. Ergo sicut Baptismus imprimit characterem, ita extrema unctio.</p>
+            <p xml:id="ta-l4d23q1-d1e323">Praeterea, in ordinis et confirmationis sacramentis est unctio, sicut et in hoc
+              sacramento. Sed in illis imprimitur character. Ergo et in isto.</p>
+            <p xml:id="ta-l4d23q1-d1e326">Praeterea, in omni sacramento est aliquid quod est res tantum; aliquid quod est
+              sacramentum tantum; aliquid quod est res et sacramentum. Sed non potest aliquid
+              assignari in hoc sacramento quod sit res et sacramentum nisi character. Ergo in hoc
+              sacramento imprimitur character.</p>
+            <p xml:id="ta-l4d23q1-d1e329">Sed contra, nullum sacramentum imprimens characterem iteratur. Hoc autem iteratur, ut
+              dicetur. Ergo non imprimit characterem.</p>
+            <p xml:id="ta-l4d23q1-d1e333">Praeterea, distinctio quae fit secundum characterem sacramentalem, est distinctio
+              eorum qui sunt in praesenti Ecclesia. Sed extrema unctio confertur ei qui de praesenti
+              Ecclesia exit. Ergo non decet quod in eo character conferatur.</p>
+          </div>
+          <div xml:id="ta-l4d23q1-Dd1e338">
+            <head xml:id="ta-l4d23q1-Hd1e340">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d23q1-d1e343">Respondeo dicendum ad primam quaestionem, quod quodlibet sacramentum est institutum
+              principaliter ad unum effectum; quamvis etiam alios ex consequenti inducere possit,
+              quia sacramentum efficit quod figurat; ideo ex ipsa significatione sacramenti debet
+              accipi ejus principalis effectus. Adhibetur autem hoc sacramentum secundum modum
+              cujusdam medicationis, sicut Baptismus per modum ablutionis. Medicina autem est ad
+              pellendum infirmitatem; unde principaliter hoc sacramentum est institutum ad sanandum
+              infirmitatem peccati: ut sicut Baptismus est quaedam spiritualis regeneratio, et
+              poenitentia quaedam spiritualis suscitatio; ita et extrema unctio sit quaedam
+              spiritualis sanatio vel medicatio. Sicut autem corporalis medicatio praesupponit
+              corporalem vitam in medicato, ita spiritualis spiritualem; et ita hoc sacramentum non
+              datur contra defectus quibus spiritualis vita tollitur, scilicet peccatum originale et
+              mortale; sed contra illos defectus quibus homo spiritualiter infirmatur ut non habeat
+              perfectum vigorem ad actus vitae gratiae vel gloriae; et hic defectus nihil est aliud
+              quam quaedam debilitas et ineptitudo quae in nobis relinquitur ex peccato actuali vel
+              originali; et contra hanc debilitatem homo roboratur per hoc sacramentum. Sed quia hoc
+              robur gratia facit, quae secum non compatitur peccatum, ideo ex consequenti si invenit
+              peccatum aliquod vel mortale vel veniale quo ad culpam, tollit ipsum, dummodo non
+              ponatur obex ex parte recipientis, sicut etiam de Eucharistia et confirmatione supra
+              dictum est; et ideo etiam Jacobus de remissione peccati conditionaliter loquitur
+              dicens: <quote xml:id="ta-l4d23q1-Qd1e345">si in peccatis sit, dimittentur ei</quote> quo ad culpam: non enim
+              semper delet peccatum, quia non semper invenit: sed semper remittit quo ad debilitatem
+              praedictam, quam quidam reliquias peccati dicunt. Quidam vero dicunt, quod
+              principaliter est institutum propter veniale; quod quidem non potest, dum haec vita
+              agitur, perfecte curari: et ideo sacramentum exeuntium specialiter contra veniale
+              ordinatur. Sed hoc non videtur verum: quia poenitentia sufficienter etiam in hac vita
+              delet venialia quo ad culpam. Quod autem non possunt evitari post peractam
+              poenitentiam non aufert praecedenti poenitentiae suum effectum; et iterum hoc pertinet
+              ad debilitatem praedictam. Unde dicendum, quod principalis effectus hujus sacramenti
+              est remissio peccatorum quo ad reliquias peccati; ex consequenti autem quantum ad
+              culpam, si eam inveniat.</p>
+            <p xml:id="ta-l4d23q1-d1e349">Ad primum ergo dicendum, quod quamvis effectus principalis alicujus sacramenti possit
+              haberi sine actuali perceptione illius sacramenti, vel sine sacramento, vel per aliud
+              sacramentum ex consequenti; nunquam tamen potest haberi sine proposito illius
+              sacramenti: et ideo, quia poenitentia est principaliter instituta contra actualem
+              culpam, quodcumque aliud sacramentum actualem culpam deleat ex consequenti, non
+              excludit necessitatem poenitentiae.</p>
+            <p xml:id="ta-l4d23q1-d1e352">Ad secundum dicendum, quod extrema unctio aliquo modo quantum ad illa tria remittit
+              peccatum. Quamvis enim culpa quo ad maculam sine contritione non dimittatur, tamen hoc
+              sacramentum per gratiam quam infundit, facit quod ille motus liberi arbitrii in
+              peccatum sit contritio, sicut etiam in Eucharistia et confirmatione potest accidere.
+              Similiter etiam et reatum poenae temporalis dimittit, sed ex consequenti, inquantum
+              debilitatem tollit, quia eamdem poenam levius portat fortis quam debilis; unde non
+              oportet quod propter hoc minuatur satisfactionis mensura. Reliquiae autem peccati non
+              dicuntur hic dispositiones ex actibus relictae, quae sunt quidam habitus inchoati, sed
+              quaedam spiritualis debilitas in ipsa mente existens: qua sublata, etiam eisdem
+              habitibus vel dispositionibus manentibus, non ita potest inclinari mens ad
+              peccata.</p>
+            <p xml:id="ta-l4d23q1-d1e355">Ad tertium dicendum, quod quando sunt multae actiones ordinatae ad unum effectum,
+              ultima est formalis respectu omnium praecedentium, et agit in virtute earum; et ideo
+              in ultima unctione gratia infunditur, quae effectum sacramento praebet.</p>
+
+          </div>
+          <div xml:id="ta-l4d23q1-Dd1e359">
+            <head xml:id="ta-l4d23q1-Hd1e361">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d23q1-d1e364">Ad secundam quaestionem dicendum, quod sicut Baptismus per ablutionem corporalem
+              facit spiritualem emundationem a maculis spiritualibus; ita hoc sacramentum per
+              medicationem sacramentalem exteriorem facit sanationem interiorem. Et sicut ablutio
+              Baptismi habet effectum corporalis ablutionis, quia etiam corporalem mundationem
+              facit; ita etiam extrema unctio habet effectum corporalis medicationis, scilicet
+              corporalem sanationem. Sed haec est differentia: quia corporalis ablutio ex ipsa
+              naturali proprietate elementi facit corporalem mundationem; et ideo semper eam facit;
+              sed extrema unctio non facit corporalem sanationem ex proprietate naturali materiae,
+              sed ex virtute divina, quae operatur rationabiliter. Et quia ratio operans nunquam
+              inducit secundarium effectum nisi secundum quod expedit ad principalem; ideo ex hoc
+              sacramento non sequitur corporalis sanatio semper, sed quando expedit ad spiritualem
+              sanationem; et tunc semper eam inducit, dummodo non sit impedimentum ex parte
+              recipientis.</p>
+            <p xml:id="ta-l4d23q1-d1e367">Ad primum ergo dicendum, quod objectio illa probat quod corporalis sanitas non sit
+              effectus principalis hujus sacramenti; et hoc verum est.</p>
+            <p xml:id="ta-l4d23q1-d1e370">Ad secundum patet solutio ex dictis.</p>
+            <p xml:id="ta-l4d23q1-d1e373">Ad tertium dicendum, quod oratio illa est forma istius sacramenti, ut dicetur, et
+              ideo hoc sacramentum ex sua forma habet efficaciam, quantum est de se, ad sanitatem
+              corporalem.</p>
+
+          </div>
+          <div xml:id="ta-l4d23q1-Dd1e377">
+            <head xml:id="ta-l4d23q1-Hd1e379">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d23q1-d1e382">Ad tertiam quaestionem dicendum, quod, sicut supra, dist. 4, qu. 1, art. 4,
+              quaestiunc. 1 et 2, dictum est, character non imprimitur nisi in illis sacramentis
+              quibus homo ad aliquod sacrum deputatur. Hoc autem sacramentum est solum remedium, et
+              non deputatur per ipsum homo ad aliquod sacrum agendum vel suscipiendum; et ideo non
+              imprimitur in eo character.</p>
+            <p xml:id="ta-l4d23q1-d1e385">Ad primum ergo dicendum, quod character facit distinctionem statuum quantum ad ea
+              quae in Ecclesia agenda sunt; et talem distinctionem homo non habet ab aliis per hoc
+              quod ipse est inunctus.</p>
+            <p xml:id="ta-l4d23q1-d1e388">Ad secundum dicendum, quod unctio quae fit in ordine et confirmatione, est unctio
+              consecrationis, qua homo deputatur ad aliquod sacramentum: sed haec unctio est unctio
+              medicationis; et ideo non est simile.</p>
+            <p xml:id="ta-l4d23q1-d1e391">Ad tertium dicendum, quod in hoc sacramento res et sacramentum non est character, sed
+              quaedam interior devotio quae est spiritualis unctio.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d23q1-Dd1e396" type="articulus">
+          <head xml:id="ta-l4d23q1-Hd1e398">Articulus 3</head>
+
+          <head xml:id="ta-l4d23q1-Hd1e401" type="questionTitle">Utrum oleum olivae sit conveniens materia hujus
+            sacramenti</head>
+
+          <div xml:id="ta-l4d23q1-Dd1e404">
+            <head xml:id="ta-l4d23q1-Hd1e406">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d23q1-d1e409">Ad tertium sic proceditur. Videtur quod oleum olivae non sit conveniens materia hujus
+              sacramenti. Quia hoc sacramentum immediate ad incorruptionem ordinat. Sed incorruptio
+              signatur per balsamum, quod in chrismate ponitur. Ergo chrisma esset convenientior
+              hujus sacramenti materia.</p>
+            <p xml:id="ta-l4d23q1-d1e412">Praeterea, hoc sacramentum est spiritualis medicatio. Sed spiritualis medicatio per
+              vini appositionem significatur, sicut patet Luc. 10, in parabola de sauciato. Ergo
+              vinum esset convenientior hujus sacramenti materia.</p>
+            <p xml:id="ta-l4d23q1-d1e415">Praeterea, ubi est majus periculum, ibi debet communius remedium adhiberi. Sed oleum
+              olivae non est commune remedium, quia non invenitur in qualibet terra. Ergo cum hoc
+              sacramentum detur exeuntibus, qui sunt in maximo periculo, videtur quod oleum olivae
+              non sit materia conveniens.</p>
+            <p xml:id="ta-l4d23q1-d1e418">Sed contra est quod Jac. 5, oleum materia hujus sacramenti determinatur. Sed oleum
+              proprie non dicitur nisi oleum olivae. Ergo est materia hujus sacramenti.</p>
+            <p xml:id="ta-l4d23q1-d1e422">Praeterea, spiritualis sanatio per olei inunctionem significatur, ut patet Isa. 1,
+              ubi dicitur: <quote xml:id="ta-l4d23q1-Qd1e424">plaga tumens non est (...) curata medicamine neque fota
+                oleo</quote>. Ergo conveniens materia hujus sacramenti est oleum.</p>
+
+          </div>
+          <div xml:id="ta-l4d23q1-Dd1e429">
+            <head xml:id="ta-l4d23q1-Hd1e431">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d23q1-d1e434">Ulterius. Videtur quod non oporteat esse oleum consecratum. Quia hoc sacramentum
+              habet unam sanctificationem in usu per formam verborum. Ergo superfluit alia
+              sanctificatio, si ad materiam ipsius fiat.</p>
+            <p xml:id="ta-l4d23q1-d1e437">Praeterea, sacramenta habent efficaciam et significationem in ipsa materia. Sed
+              significatio effectus hujus sacramenti competit oleo ex naturali proprietate;
+              efficacia autem ex institutione divina. Ergo non est necessaria aliqua sanctificatio
+              materiae.</p>
+            <p xml:id="ta-l4d23q1-d1e440">Praeterea, Baptismus est perfectius sacramentum quam extrema unctio. Sed in Baptismo
+              non praeexigitur materiae sanctificatio, quantum est de necessitate sacramenti. Ergo
+              nec in extrema unctione.</p>
+            <p xml:id="ta-l4d23q1-d1e443">Sed contra est, quia in omnibus aliis unctionibus est materia consecrata prius. Ergo,
+              cum hoc sacramentum sit quaedam unctio, requirit materiam consecratam.</p>
+
+          </div>
+          <div xml:id="ta-l4d23q1-Dd1e447">
+            <head xml:id="ta-l4d23q1-Hd1e449">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d23q1-d1e452">Ulterius. Videtur quod non oporteat materiam hujus sacramenti esse consecratam per
+              episcopum. Quia dignior est consecratio materiae in sacramento Eucharistiae quam in
+              hoc sacramento. Sed in Eucharistia materiam sacerdos potest consecrare. Ergo et in hoc
+              sacramento.</p>
+            <p xml:id="ta-l4d23q1-d1e455">Praeterea, in operationibus corporalibus ars dignior nunquam praeparat materiam
+              inferiori: quia dignior est quae utitur quam quae materiam praeparat, ut dicitur in 2
+              Physic. Sed episcopus est supra sacerdotem. Ergo non praeparat materiam in illo
+              sacramento quo sacerdos utitur. Sed sacerdos dispensat hoc sacramentum, ut dicetur.
+              Ergo consecratio materiae non pertinet ad episcopum.</p>
+            <p xml:id="ta-l4d23q1-d1e458">Sed contra est, quia etiam in aliis unctionibus materia per episcopum consecratur.
+              Ergo debet ita esse in ista.</p>
+          </div>
+          <div xml:id="ta-l4d23q1-Dd1e463">
+            <head xml:id="ta-l4d23q1-Hd1e465">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d23q1-d1e468">Respondeo dicendum ad primam quaestionem, quod spiritualis curatio quae in fine
+              adhibetur, debet esse perfecta, quia post eam alia non relinquitur; et lenis, ut spes,
+              quae exeuntibus maxime est necessaria, non frangatur, sed foveatur. Oleum autem
+              lenitivum est, et penetrativum usque ad intima, et etiam diffusivum; et ideo quantum
+              ad utrumque praedictorum est conveniens materia hujus sacramenti; et quia oleum
+              principaliter nominatur olivae liquor, cum alii liquores ex similitudine ad ipsum olei
+              nomen accipiant; ideo oleum olivae etiam debet esse quod assumitur in materiam hujus
+              sacramenti.</p>
+            <p xml:id="ta-l4d23q1-d1e471">Ad primum ergo dicendum, quod incorruptio gloriae est res non contenta in hoc
+              sacramento; nec oportet quod tali rei significatio materiae respondeat; unde non
+              oportet quod balsamum ponatur in materia hujus sacramenti, quia balsamum propter
+              odorem pertinet ad bonitatem famae, qua de cetero non indigent propter se exeuntes,
+              sed indigent tantum nitore conscientiae, qui per oleum significatur.</p>
+            <p xml:id="ta-l4d23q1-d1e474">Ad secundum dicendum, quod vinum sanat mordicando, oleum leniendo: et ideo curatio
+              per vinum magis pertinet ad poenitentiam, quam ad hoc sacramentum.</p>
+            <p xml:id="ta-l4d23q1-d1e477">Ad tertium dicendum, quod oleum olivae quamvis non ubique crescat, tamen de facili
+              potest ad quemlibet locum transferri; et praeterea hoc sacramentum non est tantae
+              necessitatis, quod exeuntes sine hoc sacramento non possint salutem consequi.</p>
+
+          </div>
+          <div xml:id="ta-l4d23q1-Dd1e481">
+            <head xml:id="ta-l4d23q1-Hd1e483">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d23q1-d1e486">Ad secundam quaestionem dicendum, quod quidam dicunt, quod oleum simplex est materia
+              hujus sacramenti; et in ipsa sanctificatione olei, quae fit per episcopum, perficitur
+              sacramentum. Sed hoc patet esse falsum ex his quae de Eucharistia dicta sunt, ubi
+              ostensum est quod solum illud sacramentum consistit in consecratione materiae. Et ideo
+              dicendum, quod hoc sacramentum consistit in ipsa unctione, sicut Baptismus in
+              ablutione; et materia hujus sacramenti est oleum sanctificatum. Potest autem triplex
+              ratio assignari, quare exigitur materiae sanctificatio in hoc sacramento, et in
+              quibusdam aliis. Prima est, quia omnis efficacia sacramentorum a Christo descendit; et
+              ideo sacramenta illa quibus ipse est usus, habent efficaciam ex usu, sicut tactu suae
+              carnis vim regenerativam contulit aquis. Sed hoc sacramento non est usus, nec aliqua
+              corporali unctione; et ideo in omnibus unctionibus requiritur sanctificatio materiae.
+              Secunda causa est propter plenitudinem gratiae, quae confertur non solum ut culpam
+              tollat, sed etiam reliquias et infirmitatem corporis. Tertia est ex hoc quod effectus
+              ejus corporalis, scilicet sanatio corporalis, non causatur ex materiae naturali
+              proprietate; et ideo oportet quod haec efficacia sibi per sanctificationem detur.</p>
+            <p xml:id="ta-l4d23q1-d1e489">Ad primum ergo dicendum, quod prima sanctificatio est materiae secundum se; sed
+              secunda magis pertinet ad usum ipsius, secundum quod est actu conferens effectum suum;
+              et ideo neutra superfluit: quia etiam instrumenta efficaciam accipiunt ab artifice et
+              dum fiunt, et dum ad actum applicantur.</p>
+            <p xml:id="ta-l4d23q1-d1e492">Ad secundum dicendum, quod illa efficacia quae est ex institutione sacramenti,
+              applicatur huic materiae per sanctificationem.</p>
+            <p xml:id="ta-l4d23q1-d1e495">Ad tertium patet solutio ex dictis.</p>
+
+          </div>
+          <div xml:id="ta-l4d23q1-Dd1e499">
+            <head xml:id="ta-l4d23q1-Hd1e501">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d23q1-d1e504">Ad tertiam quaestionem dicendum, quod minister sacramenti non propria virtute
+              effectum sacramenti inducit ut principale agens, sed per efficaciam sacramenti quod
+              dispensat: quae quidem efficacia primo est a Christo, et ab ipso in alios descendit
+              ordinate; scilicet in populum mediantibus ministris qui sacramenta dispensant, et in
+              ministros inferiores mediantibus superioribus qui materiam sanctificant; et ideo in
+              omnibus sacramentis quae indigent materia sanctificata, prima sanctificatio materiae
+              fit per episcopum, et usus quandoque per sacerdotem, ut ostendatur sacerdotalis
+              potestas ab episcopali derivata, secundum illud Psalm. 132, 2: <quote xml:id="ta-l4d23q1-Qd1e506">sicut unguentum
+                in capite</quote>, quod prius descendit in barbam, deinde usque ad oram
+              vestimenti.</p>
+            <p xml:id="ta-l4d23q1-d1e510">Ad primum ergo dicendum, quod sacramentum Eucharistiae consistit in ipsa materiae
+              sanctificatione, non autem in usu; et ideo, proprie loquendo, illud quod est materia
+              sacramenti non est quid consecratum; unde non praeexigitur aliqua sanctificatio circa
+              materiam per episcopum facta; sed exigitur sanctificatio altaris, et hujusmodi, et
+              etiam ipsius sacerdotis, quae non nisi per episcopum fieri potest. Unde in illo etiam
+              sacramento ostenditur potestas sacerdotalis ab episcopo derivata, ut Dionysius dicit;
+              ideo autem illam consecrationem materiae potest facere sacerdos quae est in se
+              sacramentum, et non illam quae ut sacramentale quoddam ordinatur ad sacramentum quod
+              consistit in usu fidelium, quia quantum ad corpus Christi verum nullus ordo est supra
+              sacerdotium; sed quantum ad corpus Christi mysticum episcopalis ordo est supra
+              sacerdotalem, ut in sequenti dist. dicetur.</p>
+            <p xml:id="ta-l4d23q1-d1e513">Ad secundum dicendum, quod materia sacramenti non est talis materia ut in qua fiat
+              aliquid per eum qui ea utitur, sicut est in artibus mechanicis; sed ut cujus virtute
+              aliquid fiat; et sic participat aliquid de ratione causae agentis, inquantum est
+              instrumentum quoddam divinae operationis, ut supra dist. 1, qu. 1, art. 4, quaestiunc.
+              1, dictum est: et ideo oportet quod a superiori arte vel potestate talis virtus
+              materiae acquiratur: quia in causis agentibus quanto aliquod agens est prius, tanto
+              perfectius: in causis autem pure materialibus, quanto materia est prior, tanto
+              imperfectior.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d23q1-Dd1e519" type="articulus">
+          <head xml:id="ta-l4d23q1-Hd1e521">Articulus 4</head>
+
+          <head xml:id="ta-l4d23q1-Hd1e524" type="questionTitle">Utrum hoc sacramentum habeat aliquam formam</head>
+
+          <div xml:id="ta-l4d23q1-Dd1e527">
+            <head xml:id="ta-l4d23q1-Hd1e529">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d23q1-d1e532">Ad quartum sic proceditur. Videtur quod hoc sacramentum non habeat aliquam formam.
+              Cum enim efficacia sacramentorum sit ab institutione, et item a forma; oportet quod
+              forma tradatur ab ipso qui sacramentum instituit. Sed forma hujus sacramenti non
+              invenitur tradita neque a Christo neque ab apostolis. Ergo sacramentum non habet
+              aliquam formam.</p>
+            <p xml:id="ta-l4d23q1-d1e535">Praeterea, quae sunt de necessitate sacramenti, observantur eodem modo apud omnes.
+              Sed nihil est magis de necessitate sacramenti habentis formam quam ipsa forma. Ergo
+              cum non sit aliqua forma communiter observata ab omnibus in hoc sacramento, quia
+              diversis verbis utuntur; videtur quod hoc sacramentum non habeat aliquam formam.</p>
+            <p xml:id="ta-l4d23q1-d1e538">Praeterea, in Baptismo non requiritur forma nisi ad sanctificationem materiae, quia
+              est aqua verbo vitae diluendis criminibus sanctificata, ut supra dictum est. Sed hoc
+              sacramentum habet materiam prius sanctificatam. Ergo non indiget aliqua forma
+              verborum.</p>
+            <p xml:id="ta-l4d23q1-d1e541">Sed contra est quod Magister supra dixit, dist. 1, quod omne sacramentum novae legis
+              consistit in rebus et in verbis. Verba autem sunt forma sacramenti. Ergo cum hoc sit
+              sacramentum novae legis, videtur quod habeat formam.</p>
+            <p xml:id="ta-l4d23q1-d1e545">Praeterea, ad hoc est ritus universalis Ecclesiae, quae quibusdam verbis utitur in
+              collatione hujus sacramenti.</p>
+
+          </div>
+          <div xml:id="ta-l4d23q1-Dd1e549">
+            <head xml:id="ta-l4d23q1-Hd1e551">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d23q1-d1e554">Ulterius. Videtur quod forma hujus sacramenti debeat proferri per orationem
+              indicativam, et non per deprecativam. Quia omnia sacramenta novae legis habent certum
+              effectum. Sed certitudo effectus non exprimitur in formis sacramentorum nisi per
+              orationem indicativam, ut cum dicitur: <quote xml:id="ta-l4d23q1-Qd1e556">hoc est corpus meum</quote>; vel,
+                <quote xml:id="ta-l4d23q1-Qd1e559">ego baptizo te</quote>. Ergo debet esse forma hujus sacramenti oratio
+              indicativa.</p>
+            <p xml:id="ta-l4d23q1-d1e563">Praeterea, in formis sacramentorum oportet exprimi intentio ministri, quae requiritur
+              ad sacramentum. Sed intentio conferendi sacramentum non exprimitur nisi per orationem
+              indicativam. Ergo et cetera.</p>
+            <p xml:id="ta-l4d23q1-d1e566">Praeterea, in quibusdam Ecclesiis dicuntur hujusmodi verba in collatione hujus
+              sacramenti: <quote xml:id="ta-l4d23q1-Qd1e568">ungo hos oculos oleo sanctificato in nomine patris</quote> etc., et
+              hoc est conforme aliis formis sacramentorum. Ergo videtur quod in hoc consistat forma
+              hujus sacramenti.</p>
+            <p xml:id="ta-l4d23q1-d1e572">Sed contra, illud quod est forma sacramenti, ab omnibus oportet quod servetur. Sed
+              verba praedicta non dicuntur secundum consuetudinem omnium Ecclesiarum, sed tantum
+              verba deprecativa, scilicet: <quote xml:id="ta-l4d23q1-Qd1e574">per istam unctionem et suam piissimam
+                misericordiam indulgeat tibi dominus quidquid deliquisti per visum</quote> et
+              cetera. Ergo forma hujus sacramenti est oratio deprecativa.</p>
+            <p xml:id="ta-l4d23q1-d1e579">Praeterea, hoc videtur ex verbis Jacobi, qui attribuit efficaciam hujus sacramenti
+              orationi. <quote xml:id="ta-l4d23q1-Qd1e581">Oratio</quote>, inquit, <quote xml:id="ta-l4d23q1-Qd1e584">fidei sanabit infirmum</quote>. Ergo
+              cum efficacia sacramenti sit ex forma, videtur quod forma hujus sacramenti sit
+              praedicta oratio.</p>
+
+          </div>
+          <div xml:id="ta-l4d23q1-Dd1e589">
+            <head xml:id="ta-l4d23q1-Hd1e591">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d23q1-d1e594">Ulterius. Videtur quod praedicta oratio non sit competens forma hujus sacramenti.
+              Quia in formis aliorum sacramentorum fit mentio de materia (sicut patet in
+              confirmatione), quae non fit in verbis praedictis. Ergo non est conveniens forma.</p>
+            <p xml:id="ta-l4d23q1-d1e597">Praeterea, sicut effectus hujus sacramenti provenit in nos per misericordiam divinam,
+              ita et aliorum sacramentorum. Sed in forma aliorum sacramentorum non fit mentio de
+              misericordia divina, sed magis de Trinitate et de passione. Ergo similiter debet hic
+              esse.</p>
+            <p xml:id="ta-l4d23q1-d1e600">Praeterea, duplex effectus hujus sacramenti in littera ponitur. Sed in verbis
+              praedictis non fit mentio nisi de uno, scilicet remissione peccatorum; non autem de
+              corporali sanatione, ad quam Jacobus ordinat orationem fidei, dicens: <quote xml:id="ta-l4d23q1-Qd1e602">oratio
+                fidei sanabit infirmum</quote>. Ergo forma praedicta est incompetens.</p>
+          </div>
+          <div xml:id="ta-l4d23q1-Dd1e608">
+            <head xml:id="ta-l4d23q1-Hd1e610">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d23q1-d1e613">Respondeo dicendum ad primam quaestionem, quod quidam dixerunt quod nulla forma est
+              de necessitate hujus sacramenti. Sed hoc videtur derogare effectui hujus sacramenti:
+              quia omne sacramentum efficit signando: signatio autem materiae non determinatur ad
+              effectum determinatum, cum ad multa se possit habere, nisi per formam verborum; et
+              ideo in omnibus sacramentis novae legis, quae efficiunt quod figurant, oportet esse et
+              res et verba, ut supra, distinct. 1, Magister dixit. Et praeterea Jacobus totam vim
+              hujus sacramenti videtur constituere in oratione, quae est forma hujus sacramenti, ut
+              dicetur; et ideo praedicta opinio praesumptuosa videtur et erronea. Et propter hoc
+              dicendum, sicut communiter dicitur, quod habet formam determinatam, sicut et alia
+              sacramenta.</p>
+            <p xml:id="ta-l4d23q1-d1e616">Ad primum ergo dicendum, quod sacra Scriptura omnibus communiter proponitur; et ideo
+              forma Baptismi, quia ab omnibus dari potest, debet in sacra Scriptura exprimi; et
+              similiter forma Eucharistiae, quae exprimit fidem illius sacramenti, quae est de
+              necessitate salutis. Sed formae aliorum sacramentorum non inveniuntur in Scriptura
+              traditae: sed Ecclesia ex traditione apostolorum habet, qui a domino acceperunt, ut
+              dicit apostolus, 1 Corinth. 11, 23: <quote xml:id="ta-l4d23q1-Qd1e618">ego enim accepi a domino quod et tradidi
+                vobis</quote>.</p>
+            <p xml:id="ta-l4d23q1-d1e622">Ad secundum dicendum, quod illa verba quae sunt de essentia formae, scilicet oratio
+              deprecativa, ab omnibus dicuntur; sed alia quae sunt de bene esse, non observantur ab
+              omnibus.</p>
+            <p xml:id="ta-l4d23q1-d1e625">Ad tertium dicendum, quod materia Baptismi habet quamdam sanctificationem per se ex
+              ipso tactu carnis salvatoris; sed ex forma verborum accipit sanctificationem actu
+              sanctificantem; et similiter post sanctificationem materiae hujus sacramenti secundum
+              se, requiritur sanctificatio in usu, per quam actu sanctificet.</p>
+
+          </div>
+          <div xml:id="ta-l4d23q1-Dd1e629">
+            <head xml:id="ta-l4d23q1-Hd1e631">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d23q1-d1e634">Ad secundam quaestionem dicendum, quod forma hujus sacramenti est oratio deprecativa,
+              ut patet per verba Jacobi, et ex usu Romanae Ecclesiae, quae solum verbis deprecativis
+              utitur in collatione hujus sacramenti; cujus ratio multiplex assignatur. Primo, quia
+              suscipiens sacramentum hoc, est viribus propriis destitutus, unde indiget orationibus
+              sublevari. Secundo, quia datur exeuntibus, qui jam desinunt de foro Ecclesiae esse, et
+              in solius Dei manu requiescunt; unde et ei per orationem committuntur. Tertio, quia
+              hoc sacramentum non habet aliquem effectum qui semper ex operatione ministri
+              consequatur, omnibus quae sunt de essentia sacramenti, rite peractis, sicut character
+              in Baptismo et confirmatione, et transubstantiatio in Eucharistia, et remissio peccati
+              in poenitentia existente contritione, quae est de essentia sacramenti poenitentiae,
+              non autem de essentia hujus sacramenti; et ideo in hoc sacramento non potest esse
+              forma indicativi modi sicut in praedictis sacramentis.</p>
+            <p xml:id="ta-l4d23q1-d1e637">Ad primum ergo dicendum, quod hoc sacramentum, sicut et praedicta, quantum est de se,
+              habet certitudinem; sed potest impediri ex fictione recipientis (etiam si se
+              sacramento subjiciat per intentionem) quod nullum effectum consequatur; et propter hoc
+              non est simile de hoc, et de aliis sacramentis, in quibus semper aliquis effectus
+              consequitur.</p>
+            <p xml:id="ta-l4d23q1-d1e640">Ad secundum dicendum, quod per ipsum actum qui ponitur in forma, scilicet: <quote xml:id="ta-l4d23q1-Qd1e642">per
+                istam sanctam unctionem</quote>, satis exprimitur intentio.</p>
+            <p xml:id="ta-l4d23q1-d1e646">Ad tertium dicendum, quod verba illa indicativi modi, quae secundum morem quorumdam
+              praemittuntur orationi, non sunt forma hujus sacramenti; sed sunt quaedam dispositio
+              ad formam, inquantum intentio ministri determinatur ad actum illum per illa verba.</p>
+
+          </div>
+          <div xml:id="ta-l4d23q1-Dd1e650">
+            <head xml:id="ta-l4d23q1-Hd1e652">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d23q1-d1e655">Ad tertiam quaestionem dicendum, quod praedicta oratio est competens forma hujus
+              sacramenti: quia tangit sacramentum in hoc quod dicitur: <quote xml:id="ta-l4d23q1-Qd1e657">per istam
+                unctionem</quote>; et illud quod operatur in sacramento, scilicet divinam
+              misericordiam; et effectum, scilicet remissionem peccatorum.</p>
+            <p xml:id="ta-l4d23q1-d1e661">Ad primum ergo dicendum, quod materia hujus sacramenti potest intelligi per actum
+              unctionis: non autem materia confirmationis per actum in forma expressum; et ideo non
+              est simile.</p>
+            <p xml:id="ta-l4d23q1-d1e664">Ad secundum dicendum, quod misericordia respicit miseriam, quia hoc sacramentum datur
+              in statu miseriae, scilicet infirmitatis; ideo potius hic quam in aliis fit de
+              misericordia mentio.</p>
+            <p xml:id="ta-l4d23q1-d1e667">Ad tertium dicendum, quod in forma debet exprimi effectus principalis, et qui semper
+              inducitur ex sacramento, nisi sit defectus ex parte recipientis. Non autem talis
+              effectus est corporalis sanitas, ut ex dictis patet, quamvis quandoque sequatur:
+              ratione cujus Jacobus hunc effectum attribuit orationi, quae est forma hujus
+              sacramenti.</p>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum III, Distinctio 13, Quaestio 2</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.09-dev-master">
+          <title>Librum III, Distinctio 13, Quaestio 2</title>
+          <date when="2016-03-11">March 11, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-11">March 11, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness>1856 editum</witness>
+          <witness xml:id="H" n="harv245" xml:base="http://iiif.lib.harvard.edu/manifests/drs:51994085/canvas/">Cambridge, Mass., Harvard University, Houghton Library, MS Lat 245</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="2015.09">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+      <div xml:id="starts-on">
+        <cb ed="#H" n="48rb"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ta-l3d13q2">
+        <head xml:id="ta-l3d13q2-Hd1e97">Librum III, Distinctio 13, Quaestio 2</head>
+        <div xml:id="ta-l3d13q2-Dd1e100">
+          <head xml:id="ta-l3d13q2-Hd1e102">Prooemium</head>
+          <p xml:id="ta-l3d13q2-d1e105">Deinde quaeritur de gratia capitis; et circa hoc quaeruntur duo: 1 utrum Christus, secundum quod homo, habeat talem gratiam quod sit caput; 2 quorum sit caput.</p>
+        </div>
+        <div xml:id="ta-l3d13q2-Dd1e109" type="articulus">
+         <head xml:id="ta-l3d13q2-Hd1e111">Articulus 1</head>
+          <head xml:id="ta-l3d13q2-Hd1e114" type="questionTitle">Utrum Christus sit caput Ecclesiae, secundum quod homo</head>
+          <p xml:id="ta-l3d13q2-d1e117">Ad primum sic proceditur. Videtur, quod Christus non sit caput Ecclesiae secundum quod homo. A capite enim spiritus animalis ad membra diffunditur. Sed spiritus sanctus non diffunditur in Ecclesiam a Christo secundum quod homo, sed inquantum Deus: quia, ut dicit <name ref="#Augustine">Augustinus</name>, ipse accepit spiritum sanctum ut homo, et effudit ut Deus. Ergo ipse non est caput ut homo, sed ut Deus.</p>
+          <p xml:id="ta-l3d13q2-d1e123">Praeterea, sensus et motus traducuntur a capite in membra. Sed gratia, quae motum vitae facit in corpore Ecclesiae, non est per traductionem ab uno in alium. Ergo Christus, secundum quod homo, non est caput Ecclesiae.</p>
+          <p xml:id="ta-l3d13q2-d1e126">Praeterea, gratia a solo Deo creatur in nobis; quia, secundum <name ref="#Augustine">Augustinum</name>, natura mentis humanae immediate a Deo formatur. Sed vita Ecclesiae est per gratiam. Cum igitur de ratione capitis sit ut membra quantum ad aliquem actum vivificet, videtur quod Christus, secundum quod homo, non possit dici caput Ecclesiae.</p>
+          <p xml:id="ta-l3d13q2-d1e133">Praeterea, capitis non est aliud caput. Sed caput Christi est Deus; <ref xml:id="ta-l3d13q2-Rd1e135"><title ana="#Icor">1 Cor.</title> 11.</ref> Ergo Christus non est caput.</p>
+          <p xml:id="ta-l3d13q2-d1e141">Praeterea, caput recipit influentiam ab alio membro, scilicet a corde. Sed Christus non recipit influentiam ab alio membro Ecclesiae. Ergo Christus non debet dici caput.</p>
+          <p xml:id="ta-l3d13q2-d1e144">Praeterea, caput potest dici membrum totius corporis et commembrum aliis membris. Sed Christus, ut videtur, non potest dici membrum Ecclesiae: quia sic virtus ejus partialitatem haberet respectu totius Ecclesiae, et Ecclesia esset perfectior Christo. Ergo Christus non debet dici caput.</p>
+          <p xml:id="ta-l3d13q2-d1e147">Ad oppositum est <ref xml:id="ta-l3d13q2-Rd1e149"><title ref="#eph">Eph.</title> 1:</ref> <quote xml:id="ta-l3d13q2-Qd1e154">ipsum dedit caput super omnem Ecclesiam, quae est corpus ejus</quote>. Ergo cum Ecclesia sit corpus ejus secundum humanam naturam, prout sibi conformis est, videtur quod ipse secundum humanam naturam sit caput.</p>
+          <p xml:id="ta-l3d13q2-d1e158">Praeterea, rex dicitur esse caput regni, et pontifex Ecclesiae sibi commissae. Sed Christus, secundum quod homo, est rex et pontifex totius humani generis. Ergo ipse, secundum quod homo, est caput.</p>
+          <p xml:id="ta-l3d13q2-d1e161">Praeterea, illud quod est dignissimum in quolibet genere, dicitur caput, sicut leo est caput animalium. Sed Christus, etiam secundum humanam naturam, praecellit omnes homines. Ergo etiam secundum quod homo, est caput totius Ecclesiae.</p>
+          <p xml:id="ta-l3d13q2-d1e165">Respondeo dicendum, quod Christus dicitur caput Ecclesiae per similitudinem capitis naturalis. Inveniuntur enim in capite naturali tres conditiones respectu aliorum membrorum singulariter. Prima est quod excellit ea dignitate in tribus, scilicet in altitudine situs, in nobilitate propriae virtutis (quia scilicet nobiliores vires, scilicet imaginatio et memoria, et hujusmodi, habent locum in capite): et etiam in perfectione, quia in capite congregantur omnes sensus, cum in aliis membris sit solus tactus. Secunda est quod a capite sunt omnes vires animales in aliis membris; et sic dicitur esse principium aliorum membrorum, dans aliis sensum et motum. Tertia est quod dirigit omnia membra in suis actibus, propter imaginationem et sensus, qui in eo abundant formaliter. Habet autem quartam proprietatem communem cum aliis membris, quod est conformis cum eis in natura. Ratione ergo primae proprietatis, scilicet perfectionis, omne quod est perfectissimum in quacumque natura, dicitur caput, sicut leo in animalibus. Ratione autem secundae, omne principium dicitur caput, sicut fons caput fluminum; et sicut dicitur caput libri, vel caput viae. Ratione autem proprietatis tertiae, omnis rector dicitur caput, sicut rex, dux, vel pontifex. Quantum igitur ad has tres proprietates capitis, potest Christus dici caput et secundum humanam naturam, et secundum divinam: quia secundum divinam naturam in eo est plenitudo omnis deitatis, ut dicit apostolus Coloss. 1; unde est super omnes Deus benedictus in saecula, Rom. 9: et similiter ab ipso, inquantum Deus, est nobis omnis spiritualis gratia. Item inquantum Deus, dirigit nos in seipsum. Sed etiam haec conveniunt ei secundum humanam naturam, quae in Christo dignissima est ratione altitudinis, quia est usque ad unionem in divina persona exaltata: ratione propriae operationis, quia dignissimum actum habuit in Ecclesia, scilicet redimere ipsam, et aedificare eam in sanguine suo: et etiam ratione perfectionis, quia omnis gratia in eo est, sicut omnes sensus in capite. Similiter etiam dicitur caput ratione secundae proprietatis, quia per ipsum, sensum fidei et motum caritatis accepimus, quia <quote xml:id="ta-l3d13q2-Qd1e167">gratia et veritas per Jesum Christum facta est</quote>; Joan. 1, 17: et similiter direxit nos doctrina et exemplo: quia <quote xml:id="ta-l3d13q2-Qd1e170">coepit Jesus facere et docere</quote>, Act. 1, 1. Sed quarta conditio Christo convenit secundum humanam naturam tantum; et haec complet in ipso rationem capitis: quia Christus secundum humanam naturam habet perfectionem aliis homogeneam, et est principium quasi univocum, et est regula conformis, et unius generis. Unde communiter loquendo, Christus secundum quod Deus, potest dici caput Ecclesiae simul cum patre et spiritu sancto; sed proprie loquendo est caput secundum humanam naturam. Et dicitur gratia capitis, secundum quam praedictae proprietates ei conveniunt praecipue secundum quod influit aliis membris.</p>
+          <p xml:id="ta-l3d13q2-d1e174">Ad primum ergo dicendum, quod dare spiritum sanctum contingit dupliciter: scilicet auctoritate et ministerio. Auctoritate quidem tantum Dei est; sed ministerio dicuntur etiam homines dare, inquantum scilicet per ministerium eorum datur a Deo, sicut dicit Paulus Galat. 3, 5: <quote xml:id="ta-l3d13q2-Qd1e176">qui tradidit vobis spiritum</quote>, ut supra in 1 Lib., dist. 15, Magister dixit: et hoc modo Christus, secundum quod homo, spiritum sanctum ministerio dare potuit, ut dicitur Rom. 15, 8: <quote xml:id="ta-l3d13q2-Qd1e179" ana="#rom15_8">dico enim Christum Jesum ministrum fuisse circumcisionis</quote>.</p>
+          <p xml:id="ta-l3d13q2-d1e183">Ad secundum dicendum, quod in hoc quod de Christi plenitudine omnes accepimus, est aliquid simile traductioni, quamvis non sit proprie traductio. Est igitur similitudo quantum ad ipsum spiritum sanctum increatum, qui idem numero est in capite et in membris, et aliquo modo a capite ad membra descendit, non divisus, sed unus. Est autem dissimilitudo quantum ad ipsum donum, secundum quod spiritus sanctus in nobis inhabitat, quia istud non traducitur de subjecto in subjectum.</p>
+          <p xml:id="ta-l3d13q2-d1e186">Ad tertium dicendum, quod in aliqua actione potest aliquid esse medium dupliciter; scilicet quantum ad perfectionem, et quantum ad dispositionem tantum: sicut natura est medium in operatione qua Deus producit animam sensibilem, quia ipsa perfectio ultima fit mediante natura; sed in operatione qua producit animam rationalem, natura non est medium, nisi quantum ad dispositionem. Similiter dico, quod Deus immediate format mentem nostram quantum ad ipsam perfectionem gratiae; et tamen potest ibi cadere medium disponens; et sic gratia fluit a Deo mediante homine Christo: ipse enim disposuit totum humanum genus ad susceptionem gratiae; et hoc tripliciter. Uno modo secundum operationem nostram in ipsum: quia secundum quod credimus ipsum Deum et hominem, justificamur; <ref xml:id="ta-l3d13q2-Rd1e188"><title ana="#rom">Rom.</title> 3, 25:</ref> <quote xml:id="ta-l3d13q2-Qd1e193" ana="#rom3_25">quem posuit Deus propitiatorem per fidem in sanguine ipsius</quote>. Alio modo per operationem ipsius in nos, inquantum scilicet obstaculum removet, pro peccatis totius humani generis satisfaciendo; et etiam inquantum nobis suis operibus gratiam et gloriam meruit; et inquantum pro nobis interpellat apud Deum. Tertio modo ex ipsa ejus affinitate ad nos; quia ex hoc ipso quod humanam naturam assumpsit, humana natura est magis Deo accepta.</p>
+          <p xml:id="ta-l3d13q2-d1e197">Ad quartum dicendum, quod caput Christi dicitur Deus, non secundum completam rationem capitis (est enim caput ipsius secundum quod est principium ejus, principium autem ejus est secundum divinitatem et secundum humanitatem); sed inquantum est principium ejus secundum humanitatem; et sic deficit quarta conditio capitis, quae est conformitas in natura: inquantum autem est principium ejus secundum divinitatem, sic deficit prima conditio, quia sic non habet majorem dignitatem.</p>
+          <p xml:id="ta-l3d13q2-d1e200">Ad quintum dicendum, quod cor est principium virium vitalium in toto corpore, et est primum principium omnium membrorum quantum ad esse ut dicit <name ref="#Aristotle">philosophus</name>: sed caput est principium virium animalium quae pertinent ad sensum et ad motum. Et quia cum dicimus Christum principium esse membrorum Ecclesiae, non intendimus quantum ad esse naturale, secundum quod sunt homines, sed quantum ad fidem et caritatem, per quam Ecclesiae membra uniuntur; ideo accommodatius dicitur caput quam cor.</p>
+          <p xml:id="ta-l3d13q2-d1e207">Ad sextum dicendum, quod in nomine capitis importatur principium et origo alicujus rei; in nomine autem membri importatur partialitas, quae repugnat rationi primae originis: quia in prima origine sunt omnia virtute quae inveniuntur in originatis; et ideo non potest dici membrum, quia non recipit ab aliquo alio influentiam. Quia in corpore naturali caput non solum influit aliis membris, sed etiam ab aliis recipit, ut nutrimentum, et alia obsequia; ideo et caput dicitur, et commembrum: sed Christus, secundum quod homo, non recipit aliquid ab aliis membris Ecclesiae, sed a solo Deo; unde non potest dici commembrum, secundum quod caput Ecclesiae dicitur ipse secundum humanitatem. Potest autem dici membrum secundum humanitatem, secundum quod ipse est caput Ecclesiae secundum divinitatem: et sic dicit apostolus, <ref xml:id="ta-l3d13q2-Rd1e209"><title ref="#Icor">1 Corinth.</title> 12, 26:</ref> <quote xml:id="ta-l3d13q2-Qd1e214" ana="#Icor12_26">vos estis corpus ejus et membrum de membro</quote>.</p>
+        </div>
+        <div xml:id="ta-l3d13q2-Dd1e219" type="articulus">
+          <head xml:id="ta-l3d13q2-Hd1e221">Articulus 2</head>
+          <head xml:id="ta-l3d13q2-Hd1e224" type="questionTitle">Utrum Christus, secundum quod homo, sit caput Angelorum</head>
+          <div xml:id="ta-l3d13q2-Dd1e227">
+            <head xml:id="ta-l3d13q2-Hd1e229">Quaestiuncula 1</head>
+            <p xml:id="ta-l3d13q2-d1e232">Ad secundum sic proceditur. Videtur quod Christus, secundum quod homo, non sit caput Angelorum. De ratione enim capitis est conformitas ad membra, ut dictum est. Sed Christus non est conformis Angelis in natura: quia nusquam Angelos apprehendit, ut dicitur Heb. 2. Ergo non est caput Angelorum.</p>
+            <p xml:id="ta-l3d13q2-d1e235">Praeterea, Christus dicitur Hebr. 2, caput hominum, secundum quod ab ipso aliquam influentiam recipiunt. Sed Angeli, cum sint beati, non indigent ut eis aliquid influatur. Ergo Christus, secundum quod homo, non est caput Angelorum.</p>
+            <p xml:id="ta-l3d13q2-d1e238">Praeterea, sicut dicitur in Lib. de motu cordis, intelligentiae sunt receptivae earum illuminationum quae sunt a Deo, prima receptione; animae autem secunda. Sed quod recipit prima receptione, non recipit ab eo quod recipit secunda receptione. Ergo Angeli, qui intelligentiae dicuntur, non recipiunt ab aliqua anima; et ita nec a Christo secundum quod homo. Ergo Christus, secundum quod homo, non est caput Angelorum.</p>
+            <p xml:id="ta-l3d13q2-d1e241">Sed contra, <ref xml:id="ta-l3d13q2-Rd1e243"><title ref="#col">Coloss.</title> 2, 10:</ref> <quote xml:id="ta-l3d13q2-Qd1e248" ana="#col2_10">qui est caput omnis principatus et potestatis</quote>; et loquitur de Christo secundum quod homo; et ita Christus, secundum quod homo, est caput Angelorum.</p>
+            <p xml:id="ta-l3d13q2-d1e253">Praeterea, Dionysius dicit, quod Seraphim a Christo Jesu quaerunt, et discunt, et illuminantur. Ergo influit Angelis; et ita videtur esse caput eorum.</p>
+            <p xml:id="ta-l3d13q2-d1e256">Praeterea, Ecclesia una est constituta ex Angelis et hominibus. Sed unius corporis non sunt duo capita. Ergo Christus etiam est caput Angelorum.</p>
+          </div>
+          <div xml:id="ta-l3d13q2-Dd1e260">
+            <head xml:id="ta-l3d13q2-Hd1e262">Quaestiuncula 2</head>
+            <p xml:id="ta-l3d13q2-d1e265">Ulterius. Videtur quod non sit caput omnium hominum. Caput enim unum refertur ad unum corpus. Sed omnes homines non conveniunt in aliquo uno secundum numerum, quia et ipsi differunt; et fides et spes et caritas, qua connectuntur ad invicem, numero diversae sunt in diversis. Ergo non est caput omnium hominum.</p>
+            <p xml:id="ta-l3d13q2-d1e268">Praeterea, corpus Christi verum est figura corporis Christi mystici. Sed in corpore vero non est aliquod membrum impurum. Ergo cum multi homines sint corrupti per peccata, videtur quod eorum caput non sit Christus.</p>
+            <p xml:id="ta-l3d13q2-d1e271">Praeterea, corpus Christi verum totum fuit glorificatum. Sed sunt multi etiam existentes in gratia, qui nunquam erunt in gloria, quia non persistent. Ergo Christus non est caput omnium.</p>
+            <p xml:id="ta-l3d13q2-d1e274">Praeterea, caput, cum sit principium membrorum, non sequitur alia membra. Sed multi sancti praecesserunt Christi incarnationem. Ergo Christus, secundum quod homo, non est caput omnium hominum.</p>
+            <p xml:id="ta-l3d13q2-d1e278">Sed contra, Christus satisfecit pro tota humana natura. Sed omnes homines communicant in natura humana. Ergo Christus omnibus influit; et ita videtur quod ipse sit caput omnium.</p>
+            <p xml:id="ta-l3d13q2-d1e281">Praeterea, per Christum omnes resurgemus. Sed hoc non esset, nisi esset caput omnium. Ergo ipse est omnium caput, secundum quod homo.</p>
+          </div>
+          <div xml:id="ta-l3d13q2-Dd1e285">
+            <head xml:id="ta-l3d13q2-Hd1e287">Quaestiuncula 3</head>
+            <p xml:id="ta-l3d13q2-d1e290">Ulterius. Videtur quod sit caput tantum animarum. Quia capitis ad membrum oportet esse continuationem. Sed corpora aliorum hominum non continuantur ad corpus Christi. Ergo et ipse non est caput hominum quantum ad corpus, sed quantum ad animas tantum.</p>
+            <p xml:id="ta-l3d13q2-d1e293">Praeterea, ipse influit sensum spiritualem, secundum quod est caput. Sed hujusmodi sensus, non sunt susceptiva corpora. Ergo Christus, secundum quod homo, non est caput hominum quantum ad corpus, sed quantum ad animas tantum.</p>
+            <p xml:id="ta-l3d13q2-d1e296">Praeterea, secundum corpus non differimus a brutis, sed solum secundum animam rationalem. Sed Christus non dicitur caput irrationalium, secundum quod homo. Ergo ipse non est caput nostrum quantum ad corpora.</p>
+            <p xml:id="ta-l3d13q2-d1e299">Sed contra, <ref xml:id="ta-l3d13q2-Rd1e301"><title ref="#phil">Philip.</title> 3, 21:</ref> <quote xml:id="ta-l3d13q2-Qd1e306" ana="#phil3_21">reformabit corpus humilitatis nostrae, configuratum corpori claritatis suae</quote>; et sic influit nobis quantum ad corpus. Ergo ipse non est tantum caput animarum.</p>
+            <p xml:id="ta-l3d13q2-d1e311">Praeterea, ipse est caput nostrum secundum quod est conformis nobis in natura. Sed humana natura non consistit solum in anima, sed in anima et corpore simul. Ergo Christus est caput nostrum secundum corpora, et non secundum animas tantum.</p>
+          </div>
+          <div xml:id="ta-l3d13q2-Dd1e316">
+            <head xml:id="ta-l3d13q2-Hd1e318">Quaestiuncula 1</head>
+            <p xml:id="ta-l3d13q2-d1e321">Respondeo dicendum ad primam quaestionem, quod Christus, secundum quod homo, est caput Angelorum; non tamen ita proprie, nec eodem modo sicut hominum, propter duas conditiones. Primo quantum ad conformitatem naturae: quia cum hominibus convenit etiam secundum speciem in natura: cum Angelis autem non secundum speciem, sed secundum genus intellectualis naturae. Secundo quantum ad influentiam: quia non influit Angelis removendo prohibens, aut merendo gratiam, aut orando pro eis, quia jam beati sunt; sed in his quae ad actus hierarchicos pertinent, secundum quod unus Angelus illuminat alium, purgat, et perficit, ut in 2 Lib., dist. 6, dictum est; hoc enim multo eminentius a Christo recipiunt.</p>
+            <p xml:id="ta-l3d13q2-d1e324">Ad primum ergo dicendum, quod quamvis non sit eis conformis in natura speciei, est tamen eis conformis in natura generis, ut dictum est.</p>
+            <p xml:id="ta-l3d13q2-d1e327">Ad secundum dicendum, quod beatitudo Angelorum non excludit quin unus ab alio recipiat, vel etiam a Christo; sed excludit indigentiam recipiendi: quia praesto est eis omne id quo indigent, ne alicujus rei penuriam patiantur.</p>
+            <p xml:id="ta-l3d13q2-d1e330">Ad tertium dicendum, quod hoc intelligitur quantum ad receptionem naturalium; et tamen anima Christi, inquantum Deo unita fuit, etiam quantum ad naturalia, lumen ab Angelis non recipit, sed immediate a Deo.</p>
+          </div>
+          <div xml:id="ta-l3d13q2-Dd1e334">
+            <head xml:id="ta-l3d13q2-Hd1e336">Quaestiuncula 2</head>
+            <p xml:id="ta-l3d13q2-d1e339">Ad secundam quaestionem dicendum, quod in corpore naturali invenitur quadruplex unio membrorum ad invicem. Prima est secundum conformitatem naturae, quia omnia membra constant ex eisdem similibus partibus, et sunt unius rationis, sicut manus et pes ex carne et osse; et sic dicuntur membra unum genere vel specie. Secunda est per colligationem eorum ad invicem per nervos et juncturas, et sic dicuntur unum continuatione. Tertia est, secundum quod diffunditur vitalis spiritus et vires animae per totum corpus. Quarta est, secundum quod omnia membra perficiuntur per animam, quae est una numero in omnibus membris. Et hae quatuor uniones inveniuntur in corpore mystico. Prima est, inquantum omnia membra ejus sunt unius naturae vel specie vel genere. Secunda est, inquantum colligata sunt ad invicem per fidem, quia sic continuantur in uno credito. Tertia est, secundum quod vivificantur per gratiam et caritatem. Quarta est, secundum quod in eis est spiritus sanctus, qui est ultima perfectio et principalis totius corporis mystici, quasi anima in corpore naturali. Prima autem dictarum unionum non est unio simpliciter: quia illud in quo est unio haec, non est unum numero, sicut est in tribus sequentibus: quia per fidem et caritatem in uno credito et amato secundum numerum uniuntur: similiter spiritus sanctus unus numero omnes replet. Homines igitur infideles non pertinent ad unionem corporis Ecclesiae, secundum quod est unum simpliciter; et ideo respectu horum Christus caput non est nisi in potentia, secundum scilicet quod sunt unibiles corpori. Homines autem fideles peccatores pertinent quidem aliquo modo ad unitatem Ecclesiae inquantum continuantur ei per fidem, quae est unitas materialis; non tamen possunt dici membra proprie, nisi sicut membrum mortuum, scilicet aequivoce. Et quia unitas corporis ex membris consistit, ideo quidam dicunt, quod non pertinent ad unitatem corporis Ecclesiae, quamvis pertineant ad unitatem Ecclesiae; et sicut operationes quae sunt ad alterum, possunt aliquo modo fieri per membra arida, ut percutere, vel aliquid hujusmodi, non tamen operationes quae sunt animae in membris; ita nec mali recipiunt spiritualis vitae operationes a spiritu sancto; sed tamen spiritus sanctus per eos operatur spiritualem vitam in aliis, secundum quod aliis sacramenta ministrant, vel alios docent. Sed homines fideles in gratia existentes uniuntur secundum tertiam unionem, quae est formalis respectu hujus secundae; et iterum secundum quartam, quae est completiva totius. Et ideo horum proprie dicitur Christus caput.</p>
+            <p xml:id="ta-l3d13q2-d1e342">Ad primum ergo dicendum, quod sicut in corpore naturali vires diffusae per omnia membra, differunt numero secundum essentiam, sed conveniunt in radice una secundum numerum, et praeter hoc habent formam unam ultimam numero; ita etiam omnia membra corporis mystici habent pro ultimo complemento spiritum sanctum, qui est unus numero in omnibus: et ipsa caritas diffusa in eis per spiritum sanctum, quamvis differat in diversis secundum essentiam, convenit tamen in una radice secundum numerum. Radix autem operationis proprie est ipsum objectum, ex quo speciem trahit: et ideo, inquantum est idem numero amatum et creditum ab omnibus, secundum hoc unitur omnium fides et caritas in una radice secundum numerum, non solum prima, quae est spiritus sanctus, sed etiam proxima, quae est proprium objectum.</p>
+            <p xml:id="ta-l3d13q2-d1e345">Ad secundum dicendum, quod per corpus Christi verum significantur ea quae sunt membra corporis mystici; non autem ea quae sunt membra aequivoce, idest secundum similitudinem tantum et situm.</p>
+            <p xml:id="ta-l3d13q2-d1e348">Ad tertium dicendum, quod membrum non judicatur secundum id quod de eo fieri potest, sed secundum id quod est; unde manus, antequam abscindatur, membrum est, quamvis sit futura abscindi: et similiter qui est in gratia, membrum est, quamvis postea abscindatur.</p>
+            <p xml:id="ta-l3d13q2-d1e352">Ad quartum dicendum, quod quamvis Christus nondum fuisset incarnatus tempore patrum veteris testamenti secundum rem, erat tamen jam incarnatio ipsa in Dei ordinatione, et in fide ipsorum, secundum quam fidem justificabantur: quia tempora mutata sunt, et non fides, ut dicit <name ref="#Augustine">Augustinus</name>. Sed tamen non fuit tanta influentia ante incarnationem, quanta est modo: quia tunc non erat remotum obstaculum, nec sacramenta gratiae exhibita erant, sicut modo sunt.</p>
+            <p xml:id="ta-l3d13q2-d1e358">Ad quintum dicendum, quod Christus satisfecit pro tota humana natura sufficienter, non tamen efficienter: quia non omnes illius satisfactionis participes fiunt; quod ex eorum importunitate est, non ex ipsius insufficientia satisfactionis.</p>
+            <p xml:id="ta-l3d13q2-d1e361">Ad sextum dicendum, quod resurrectio ad vitam naturalem erit omnibus communis, non autem ad vitam gloriae: quia mali in vita naturali tantum conformitatem habuerunt cum membris Ecclesiae, non autem in vita gratiae. Unde ex hoc non sequitur quod sint membra, proprie loquendo.</p>
+          </div>
+          <div xml:id="ta-l3d13q2-Dd1e365">
+            <head xml:id="ta-l3d13q2-Hd1e367">Quaestiuncula 3</head>
+            <p xml:id="ta-l3d13q2-d1e370">Ad tertiam quaestionem dicendum, quod Christus est caput hominum quantum ad animas et quantum ad corpora; sed principaliter animarum et secundario corporum: tum ratione conformitatis ad membra, quae per assumptionem humanae naturae est; quia corpus assumpsit anima mediante: tum etiam ratione spiritualis influentiae, quae pervenit ad corpus mediante anima, inquantum corpus est instrumentum animae secundum gratiam operantis: et ex hoc relinquitur ordo in corpore ad gloriosam resurrectionem.</p>
+            <p xml:id="ta-l3d13q2-d1e373">Ad primum ergo dicendum, quod corpora nostra aliquo modo habent continuationem cum corpore Christi, non quidem secundum quantitatem, aut secundum perfectionem naturalem, sed inquantum spiritus sanctus habitat in nobis, qui plenissime fuit in Christo, 1 Corinth. 6, 15: <quote xml:id="ta-l3d13q2-Qd1e375">nescitis quoniam membra vestra templum sunt spiritus sancti</quote>.</p>
+            <p xml:id="ta-l3d13q2-d1e379">Ad secundum dicendum, quod quamvis corpus non recipiat influentiam spiritualem immediate, recipit tamen mediante anima, ut dictum est.</p>
+            <p xml:id="ta-l3d13q2-d1e382">Ad tertium dicendum, quod etiam secundum corpora a brutis differimus, inquantum corpora nostra sunt perfecta anima rationali, non autem corpora brutorum.</p>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

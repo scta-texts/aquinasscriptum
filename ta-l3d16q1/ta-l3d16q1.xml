@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum III, Distinctio 16, Quaestio 1</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.09-dev-master">
+          <title>Librum III, Distinctio 16, Quaestio 1</title>
+          <date when="2016-03-12">March 12, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-12">March 12, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness>1856 editum</witness>
+          <witness xml:id="H" n="harv245" xml:base="http://iiif.lib.harvard.edu/manifests/drs:51994085/canvas/">Cambridge, Mass.,
+            Harvard University, Houghton Library, MS Lat 245</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="2015.09">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+
+
+
+
+      <div xml:id="starts-on">
+        <cb ed="#H" n="59vb"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ta-l3d16q1">
+        <head xml:id="ta-l3d16q1-Hd1e97">Librum III, Distinctio 16, Quaestio 1</head>
+        <div xml:id="ta-l3d16q1-Dd1e100">
+          <head xml:id="ta-l3d16q1-Hd1e102">Prooemium</head>
+          <p xml:id="ta-l3d16q1-d1e105">Postquam determinavit <name ref="#Lombard">Magister</name> de defectibus quos Christus
+            cum natura assumpsit, hic inquirit per quem modum illi defectus fuerunt in Christo,
+            utrum scilicet in Christo fuerit necessitas patiendi vel moriendi; et dividitur in duas
+            partes: primo determinat quaestionem, ostendens quod Christus necessitatem moriendi
+            assumpsit. Et quia necessitas moriendi ad secundum statum pertinet, ideo gratia hujus,
+            secundo ostendit quod Christus de singulis statibus aliquid accepit, ibi: <quote xml:id="ta-l3d16q1-Qd1e110">et est
+              hic notandum</quote>. Circa primum tria facit: primo ponit dubitationem; secundo
+            solvit, ibi: <quote xml:id="ta-l3d16q1-Qd1e113">ad quod dici potest</quote>; tertio solutionem confirmat, ibi:
+              <quote xml:id="ta-l3d16q1-Qd1e116">unde super epistolam ad Hebraeos auctoritas dicit</quote> et cetera. Hic oritur
+            duplex quaestio: primo de necessitate moriendi, quam Christus ex secundo statu
+            assumpsit. Secundo de his quae Christus habuit de ultimo statu. De immunitate enim
+            peccati, et de plenitudine gratiae, quae ad alios status pertinet, supra dictum est.
+            Circa primum quaeruntur tria: 1 utrum necessitas moriendi sit tantum ex peccato, vel
+            etiam ex natura; 2 utrum in Christo fuerit necessitas moriendi; 3 utrum illa necessitas
+            fuerit sub voluntate humana.</p>
+        </div>
+        <div xml:id="ta-l3d16q1-Dd1e121" type="articulus">
+          <head xml:id="ta-l3d16q1-Hd1e123">Articulus 1</head>
+          <head xml:id="ta-l3d16q1-Hd1e126" type="questionTitle">Utrum necessitas moriendi tantum sit homini ex peccato</head>
+          <p xml:id="ta-l3d16q1-d1e129">Ad primum sic proceditur. Videtur quod necessitas moriendi sit tantum homini ex
+            peccato. <ref xml:id="ta-l3d16q1-Rd1e131"><title ref="#rom">Rom.</title> 8, 10:</ref>
+            <quote xml:id="ta-l3d16q1-Qd1e136" ana="#rom8_10">corpus quidem mortuum est propter peccatum</quote>, id est
+            necessitati mortis addictum. Ergo.</p>
+          <p xml:id="ta-l3d16q1-d1e140">Praeterea, in humana natura est mors consecuta culpam; <ref xml:id="ta-l3d16q1-Rd1e142"><title ana="#rom">Rom.</title> 5, 12:</ref> 
+            <quote xml:id="ta-l3d16q1-Qd1e147" ana="#rom5_12">per peccatum
+              mors</quote>. Sed necessitas peccati inducta est homini per peccatum tantum. Ergo et
+            necessitas moriendi.</p>
+          <p xml:id="ta-l3d16q1-d1e151">Praeterea, materia debet esse secundum naturam proportionata formae. Sed forma corporis
+            humani, anima scilicet rationalis, est incorruptibilis. Ergo et ipsum corpus humanum:
+            ergo necessitas moriendi non est ex natura, sed ex peccato.</p>
+          <p xml:id="ta-l3d16q1-d1e155">Praeterea, corpus humanum maxime ad aequalitatem commixtionis pervenit, sicut
+            philosophi tradunt. Sed ubi est aequalitas commixtionis, unum contrarium, cum non
+            praedominetur alteri, non potest agere ad corruptionem mixti. Ergo corpus hominis per
+            naturam est incorruptibile; et sic idem quod prius.</p>
+          <p xml:id="ta-l3d16q1-d1e158">Praeterea, poena non est inducta nisi propter peccatum. Sed mors et necessitas moriendi
+            quaedam poena est: quia omne terribile poenale est, finis autem terribilium mors, ut
+            dicitur in 3 Ethic. Ergo sunt tantum ex peccato.</p>
+          <p xml:id="ta-l3d16q1-d1e161">Sed contra, omne compositum ex contrariis est secundum naturam necessitatem habens ad
+            corruptionem. Sed corpus humanum est hujusmodi. Ergo ex natura habet necessitatem
+            moriendi.</p>
+          <p xml:id="ta-l3d16q1-d1e164">Praeterea, sicut probatur in 1 Cael. et Mun., generabile naturaliter est corruptibile,
+            et corruptionis necessitatem habens. Sed corpus humanum est generatum per naturam. Ergo
+            naturaliter est necessitatem corruptionis habens.</p>
+          <p xml:id="ta-l3d16q1-d1e167">Praeterea, elementa quae sunt in corpore humano, sunt ejusdem speciei cum aliis
+            elementorum partibus. Sed elementa in commixtionem aliorum corporum venientia, sunt de
+            necessitate corruptibilia secundum naturam. Ergo et elementa quae sunt in corpore
+            humano. Sed corruptis componentibus corrumpitur compositum. Ergo corpus hominis secundum
+            naturam habet necessitatem moriendi.</p>
+          <p xml:id="ta-l3d16q1-d1e170">Respondeo dicendum, quod necessitas moriendi partim homini est ex natura, partim ex
+            peccato. Ex natura quidem, quia corpus hominis compositum est ex contrariis, quae nata
+            sunt agere et pati ad invicem, ex quo accidit dissolutio compositi. Sed tamen in statu
+            innocentiae donum quoddam a Deo gratis datum animae inerat, ut ipsa praeter modum
+            aliarum formarum, secundum modum suum vitam indeficientem corpori largiretur, sicut ipsa
+            incorruptibilis est, et non secundum modum corporis corruptibilem, quamdiu ipsa manebat
+            Deo subdita, et corpus ei omnino subdebatur, nec aliqua dispositio in corpore accidere
+            poterat quae vivificationem animae impediret. Sed propter peccatum istud donum ablatum
+            est; et ideo relicta est humana natura, ut dicit <name ref="#Dionysius">Dionysius</name> in Eccl. Hier., in statu qui
+            debetur ei ex natura suorum principiorum, secundum quod dictum est ei, Gen. 3, 19:
+              <quote xml:id="ta-l3d16q1-Qd1e175">terra es, et in terram ibis</quote>. Et ideo post peccatum, necessitas moriendi
+            inest homini ex peccato, sicut ex removente prohibens, quod erat gratia innocentiae; ex
+            natura autem materiae, sicut ex eo quod per se necessitatem mortis inducit.</p>
+          <p xml:id="ta-l3d16q1-d1e180">Ad primum ergo dicendum, quod hoc dicitur, inquantum per peccatum prohibens mortem
+            remotum est.</p>
+          <p xml:id="ta-l3d16q1-d1e183">Ad secundum dicendum, quod peccatum non inest homini ex aliquo principiorum naturalium,
+            immo est contra naturam rationis; unde non est simile de peccato et morte, quae ex
+            principio materiali consequitur.</p>
+          <p xml:id="ta-l3d16q1-d1e186">Ad tertium dicendum, quod materia debet esse proportionata formae, non ut habeat
+            conditiones formae, sed ut sit disposita ad recipiendum formam secundum modum suum: unde
+            non oportet si anima hominis est immortalis, quod etiam corpus secundum naturam sit
+            immortale.</p>
+          <p xml:id="ta-l3d16q1-d1e189">Ad quartum dicendum, quod impossibile est quod complexio perveniat ad tantam
+            aequalitatem, quin alterum contrariorum praedominetur: quia alias non fieret mixtio,
+            nisi unum in alterum ageret dominans ad medium reducendo, altero resistente; et
+            praecipue hoc oportet in corpore humano quod calor dominetur propter operationes animae,
+            quae indigent calore sicut instrumento, ut dicitur in 2 de anima.</p>
+          <p xml:id="ta-l3d16q1-d1e192">Ad quintum dicendum, quod mors, vel necessitas moriendi, dicitur esse poena per
+            comparationem ad statum innocentiae, in quo inerat ei posse non mori. Si tamen in
+            principio conditionis naturae humanae, dictum donum gratiae humanae naturae non fuisset
+            collatum, necessitas quidem moriendi fuisset, sed tamquam naturalis defectus, non poena,
+            ut supra probavit Magister ex verbis Augustini in praecedenti distinctione. Et ideo,
+            quia philosophi illud donum non cognoverunt, dixit Seneca, quod mors est hominis natura,
+            non poena.</p>
+        </div>
+        <div xml:id="ta-l3d16q1-Dd1e196" type="articulus">
+          <head xml:id="ta-l3d16q1-Hd1e198">Articulus 2</head>
+          <head xml:id="ta-l3d16q1-Hd1e201" type="questionTitle">Utrum in Christo fuit necessitas moriendi</head>
+
+          <p xml:id="ta-l3d16q1-d1e204">Ad secundum sic proceditur. Videtur quod in Christo non fuerit necessitas moriendi.
+            Necessitas enim coactionem importat. Sed quod est in potestate alicujus constitutum non
+            est coactum. Cum igitur Christus de seipso dicat, <ref xml:id="ta-l3d16q1-Rd1e206"><title ref="#io">Joan.</title> 10, 18:</ref> 
+            <quote xml:id="ta-l3d16q1-Qd1e211" ana="#io10_18">potestatem habeo
+              ponendi animam meam</quote>; non fuit in eo, ut videtur, necessitas moriendi.</p>
+          <p xml:id="ta-l3d16q1-d1e215">Praeterea, Christus mortuus est quia voluit, ut dicitur Isai. 43. Sed non fuit in eo
+            necessitas volendi. Ergo nec necessitas moriendi.</p>
+          <p xml:id="ta-l3d16q1-d1e218">Praeterea, necessitas moriendi venit ex peccato. Rom. 8: <quote xml:id="ta-l3d16q1-Qd1e220">corpus quidem mortuum
+              est propter peccatum</quote>; Glossa: <quote xml:id="ta-l3d16q1-Qd1e223">idest, necessitati mortis
+              addictum</quote>. Sed in Christo non fuit peccatum. Ergo nec necessitas moriendi.</p>
+          <p xml:id="ta-l3d16q1-d1e228">Praeterea, supra dixit Magister, in praecedenti distinctione, quod Hilarius a Christo
+            necessitatem dolendi removit. Sed dolorem passionis secuta est mors. Ergo nec in eo fuit
+            necessitas moriendi.</p>
+          <p xml:id="ta-l3d16q1-d1e231">Praeterea, potentius non de necessitate ab aliquo minus potente patitur. Sed Christus
+            fuit potentior quolibet alio passionem vel mortem inducente. Ergo ipse non habuit
+            necessitatem moriendi, vel patiendi.</p>
+          <p xml:id="ta-l3d16q1-d1e234">Sed contra, <ref xml:id="ta-l3d16q1-Rd1e236"><title>Rom.</title> 8, 3:</ref>
+            <quote xml:id="ta-l3d16q1-Qd1e241" ana="#rom8_3">Deus misit filium suum in similitudinem carnis peccati</quote>. Sed
+            conditio carnis peccati est quod habeat necessitatem moriendi, quae tamen peccatum non
+            est. Ergo fuit in carne Christi.</p>
+          <p xml:id="ta-l3d16q1-d1e245">Praeterea, <ref xml:id="ta-l3d16q1-Rd1e247"><title ref="#hebr">Hebr.</title> 2,</ref> dicitur, quod ipse in
+            passione assimilatus est fratribus, idest aliis hominibus. Sed mater, de qua Christus
+            carnem sumpsit, et alii homines habent necessitatem moriendi et patiendi. Ergo etiam in
+            Christo talis necessitas fuit.</p>
+          <p xml:id="ta-l3d16q1-d1e253">Praeterea, necessitas moriendi vel patiendi est defectus totam humanam naturam
+            consequens, nec est culpa diminutionem gratiae importans, quia est tantum ex parte
+            corporis. Sed omnes tales defectus assumpsit, ut supra, dictum est. Ergo assumpsit
+            necessitatem moriendi.</p>
+          <p xml:id="ta-l3d16q1-d1e256">Respondeo dicendum, quod secundum philosophum, necessarium idem est quod impossibile
+            non esse; unde necessitas excludit potentiam ad oppositum. Haec autem potentia ad
+            oppositum excluditur triplici ratione. Primo ex hoc quod talis potentia repugnat naturae
+            illius rei, sicut potentia deficiendi repugnat naturae divinae; et ideo dicimus Deum
+            necessario aeternum: et haec est necessitas absoluta. Secundo excluditur ex aliquo
+            impediente; et sic est necessitas coactionis. Tertio quia hoc cujus dicitur esse
+            potentia, repugnat fini intento, sicut non curari repugnat ei quod est sanari: unde
+            dicimus, quod non potest non curari, si debeat sanari: et haec est necessitas ex
+            conditione finis. Necessitas autem patiendi vel moriendi, dupliciter potest attribui
+            Christo. Quia potest removere potentiam non moriendi a natura humana; et sic vere ei
+            attribuitur: quia natura humana, quantum ad statum suae passibilitatis, in quo statu
+            Christus eam assumpsit, non habet potentiam non moriendi; unde in Christo quantum ad
+            humanam naturam fuit necessitas moriendi. Item potest removere potentiam non moriendi a
+            Christo ratione personae; et sic ei falso attribuitur, quia virtus divinitatis Christi
+            repellere poterat omne inducens mortem vel passionem. Erat tamen in Christo necessitas
+            patiendi, etiam ratione personae, ex conditione finis, scilicet si humanum genus
+            redimendo liberare vellet; et ideo quidam dicunt Christum habuisse necessitatem
+            patiendi, attendentes naturam humanam; quidam vero dicunt non habuisse talem
+            necessitatem, nisi ex conditione finis, attendentes personam divinam. Sed quia mors
+            inest Christo ratione humanae naturae, ideo sicut simpliciter concedimus quod Christus
+            mortuus est, ita similiter concedere possumus simpliciter quod necessitatem moriendi
+            habuit, non solum ex causa finali, sed etiam necessitatem absolutam, ut moreretur, etiam
+            si non occideretur, ut quidam dicunt. Unde Augustinus: <quote xml:id="ta-l3d16q1-Qd1e258">si non occisus fuisset,
+              naturali morte dissolutus fuisset</quote>; et idem opus redemptionis fuisset, quod per
+            passionem fecit: et cum hoc necessitatem coactionis habuit quantum ad mortem violentam
+            quam sustinuit.</p>
+          <p xml:id="ta-l3d16q1-d1e263">Ad primum ergo dicendum, quod, sicut infra, 21 dist.; dicit <name ref="#Lombard">Magister</name>, hoc Christus
+            dixit de potestate in se manentis divinitatis.</p>
+          <p xml:id="ta-l3d16q1-d1e269">Ad secundum dicendum, quod cum dicitur: Christus mortuus est, quia voluit, ly quia
+            potest dicere causam: et hoc vel respectu mortis absolute, et sic referendum est ad
+            voluntatem divinitatis; vel respectu mortis violenter illatae, et sic potest referri ad
+            voluntatem humanam, per quam voluntarie se obtulit persecutoribus. Potest etiam dicere
+            concomitantiam; et sic refertur etiam ad voluntatem humanam, per quam mortem acceptavit:
+            et hoc excludit necessitatem moriendi, quia hoc idem accidit in Petro, et in aliis
+            sanctis.</p>
+          <p xml:id="ta-l3d16q1-d1e272">Ad tertium dicendum, quod necessitas moriendi non solum venit in humanam naturam ex
+            peccato, sed etiam alias potuisset esse in humana natura, ut supra dictum est: et ideo
+            Christus potuit hunc defectum assumere sine peccato, et alios hujusmodi.</p>
+          <p xml:id="ta-l3d16q1-d1e275">Ad quartum dicendum, quod <name ref="#Lombard">Magister</name> voluit supra excludere a
+            Christo necessitatem patiendi ratione personae.</p>
+          <p xml:id="ta-l3d16q1-d1e281">Ad quintum dicendum, quod corpore Christi fuit secundum quid potentior clavus et
+            lancea: inquantum scilicet clavus fuit durus, quod pertinet ad potentiam naturalem; et
+            caro Christi mollis, quod pertinet ad naturalem impotentiam, secundum philosophum in
+            praedicamentis.</p>
+        </div>
+        <div xml:id="ta-l3d16q1-Dd1e285" type="articulus">
+          <head xml:id="ta-l3d16q1-Hd1e287">Articulus 3</head>
+          <head xml:id="ta-l3d16q1-Hd1e290" type="questionTitle">Utrum necessitas moriendi vel patiendi subsit in Christo
+            voluntati humanae</head>
+
+          <p xml:id="ta-l3d16q1-d1e293">Ad tertium sic proceditur. Videtur quod necessitas patiendi vel moriendi subfuerit in
+            Christo voluntati humanae. Nihil enim sequitur ad voluntatem praecedentem, nisi quod
+            voluntati subest. Sed <name ref="#JohnDamascenus">Damascenus</name> dicit in 3 Lib. de fide, quod naturalia in Christo
+            sequebantur ad voluntatem. Ergo si necessitas moriendi fuit in Christo aliquo modo
+            naturalis, suberat voluntati Christi.</p>
+          <p xml:id="ta-l3d16q1-d1e299">Praeterea, sicut inferiores vires sunt sub ratione, ita corpus est sub anima. Sed
+            inferiores vires in Christo obediebant et omnino subjiciebantur voluntati rationis. Ergo
+            et corpus quantum ad omnia quae in ipso accidere poterant, subdebatur voluntati
+            animae.</p>
+          <p xml:id="ta-l3d16q1-d1e302">Praeterea, Avicenna dicit, quod animae alicujus spiritualis viri magis obedit materia
+            quam contrariis agentibus in natura. Sed anima Christi maxime fuit spiritualis. Ergo cum
+            mors in corpore ejus acciderit ex aliquo agente contrario, videtur quod voluntas ejus
+            humana poterat repellere mortem in illis passionibus inductam.</p>
+          <p xml:id="ta-l3d16q1-d1e306">Praeterea, ex voluntate sua humana per gratiam sanitatis, quam abundantissime habuit,
+            aliis sanitatem conferebat, sicut <ref xml:id="ta-l3d16q1-Rd1e308"><title ana="#mt">Matth.</title> 8, 3,</ref> dicit leproso:  
+            <quote xml:id="ta-l3d16q1-Qd1e313" ana="#mt8_3">volo;
+              mundare</quote>. Sed non minus poterat in corpus proprium quam in alienum. Ergo et
+            poterat secundum humanam suam voluntatem praeservare corpus a laesione et morte.</p>
+          <p xml:id="ta-l3d16q1-d1e317">Praeterea, major virtus fuit in anima Christi quam in qualibet alia creatura. Sed
+            aliqua virtus creaturae potest praeservare corpus a morte, sicut lignum vitae. Ergo
+            multo fortius poterat hoc anima Christi.</p>
+          <p xml:id="ta-l3d16q1-d1e320">Praeterea, <name ref="#Moses">Moyses</name> ex vi contemplationis divinae jejunavit
+            quadraginta diebus, quibus, ut videtur, conservabatur corpus a consumptione ex virtute
+            animae. Sed in Christo fuit anima multo potentior quam in Moyse: quia amplioris gloriae
+            prae Moyse habitus est, ut dicitur Heb. 3. Ergo ejus anima poterat conservare corpus
+            immune ab omni corruptione.</p>
+          <p xml:id="ta-l3d16q1-d1e326">Sed contra, corpus humanum non praeservatur omnino a morte, nisi per gratiam
+            innocentiae, sicut in primo statu, vel per gloriam, sicut in ultimo statu. Sed utrumque
+            istorum dare solius Dei est. Ergo anima Christi corpus suum non poterat a corruptione
+            praeservare; et ita necessitas moriendi sibi non subdebatur.</p>
+          <p xml:id="ta-l3d16q1-d1e329">Praeterea, secundum naturam corruptibile non potest fieri incorruptibile. Sed anima
+            Christi non poterat in ea quae sunt supra naturam. Ergo cum corpus suum esset
+            corruptibile, non poterat eam a corruptione praeservare.</p>
+          <p xml:id="ta-l3d16q1-d1e332">Praeterea, facere miracula est signum omnipotentiae. Sed anima Christi non habuit
+            omnipotentiam. Ergo non potuit propria virtute aliquod miraculum facere. Sed quod corpus
+            corruptibile non corrumpatur, est maximum miraculum. Ergo hoc non subjacebat voluntati
+            animae Christi.</p>
+          <p xml:id="ta-l3d16q1-d1e336">Respondeo dicendum, quod ejus solius est immutare legem et cursum naturae impositum,
+            qui naturam instituit et ordinavit; quod solus Deus fecit: et ideo neque aliqua virtus
+            corporalis, nec spiritualis, aut animae aut Angeli, nec etiam animae Christi, potuit ad
+            immutationem legis naturae impositae divinitus, nisi per modum orationis aut
+            intercessionis; et ideo hoc fuit signum deitatis Christi, quod imperando signa
+            perficiebat, et non orando, sicut alii sancti. Et ideo cum secundum legem et cursum
+            naturae mors Christi corpus consequeretur, ut dictum est, et ut dicit Magister in
+            littera; dicendum, quod necessitas moriendi in Christo non subdebatur voluntati ejus
+            humanae, sed solum divinae, ut una opinio dicit.</p>
+          <p xml:id="ta-l3d16q1-d1e339">Ad primum ergo dicendum, quod verbum Damasceni est intelligendum de voluntate divina,
+            quae fuit illius personae.</p>
+          <p xml:id="ta-l3d16q1-d1e342">Ad secundum dicendum, quod sensibiles vires natae sunt obedire rationi; et quanto ratio
+            magis fuerit virtute perfecta, tanto magis sibi obediet. Et quia Christus perfectissimam
+            virtutem habuit; ideo hujusmodi vires omnino sibi subdebantur quantum ad rationem. Sed
+            vires naturales vel animae vegetabilis, vel etiam corporis, non sunt natae obedire
+            rationi; et ideo non est similis ratio.</p>
+          <p xml:id="ta-l3d16q1-d1e345">Ad tertium dicendum, quod <name ref="#Avicenna">Avicenna</name> ponit, quod mundus
+            factus est a Deo mediantibus Angelis; unde ponit quod spiritui angelico materia obedit
+            ad nutum, et per consequens animae inquantum Angelis assimilatur. Haec autem repugnant
+            fidei, et dictis aliorum philosophorum, qui dicunt, quod Angeli non possunt in haec
+            inferiora effectum aliquem nisi mediante motu caeli: quod etiam repugnat fidei quantum
+            ad aliqua quae possunt Angeli facere utendo virtutibus rerum naturalium in movendo
+            inferiora, ut patet ex 2 Lib. dist. 8, qu. 2, art. 5. Unde in hoc non est standum
+            auctoritati Avicennae.</p>
+          <p xml:id="ta-l3d16q1-d1e351">Ad quartum dicendum, quod Christus etiam miracula sanitatis non poterat facere virtute
+            humanitatis, sed divinitatis sibi conjunctae.</p>
+          <p xml:id="ta-l3d16q1-d1e354">Ad quintum dicendum, quod lignum vitae non poterat immortalitatem conferre
+            principaliter; sed removebat quoddam ex quo sequitur corruptio, scilicet extraneitatem a
+            cibo assumpto, ut in 2 Lib., dist. 19, dictum est.</p>
+          <p xml:id="ta-l3d16q1-d1e358">Ad sextum dicendum, quod quamvis <name ref="#Moses">Moyses</name> non affligeretur ex jejunio quadraginta dierum,
+            quia vires sensibiles suspensae erant propter contemplationem Dei; tamen calor naturalis
+            agebat, et fiebat deperditio, quamvis non tanta; quia quando vires intellectivae
+            vehementer contemplantur, etiam vires naturales in suis actibus impediuntur. Vel si
+            nulla fiebat consumptio, hoc non fuit nisi virtute divina per miraculum.</p>
+
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

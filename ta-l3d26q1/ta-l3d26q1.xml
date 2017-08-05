@@ -1,0 +1,577 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum III, Distinctio 26, Quaestio 1</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.09-dev-master">
+          <title>Librum III, Distinctio 26, Quaestio 1</title>
+          <date when="2016-03-13">March 13, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-13">March 13, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness>1856 editum</witness>
+          <witness xml:id="H" n="harv245" xml:base="http://iiif.lib.harvard.edu/manifests/drs:51994085/canvas/">Cambridge, Mass.,
+            Harvard University, Houghton Library, MS Lat 245</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="2015.09">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+
+
+
+
+      <div xml:id="starts-on">
+        <cb ed="#H" n="95vb" select="dd"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ta-l3d26q1">
+        <head xml:id="ta-l3d26q1-Hd1e97">Librum III, Distinctio 26, Quaestio 1</head>
+        <div xml:id="ta-l3d26q1-Dd1e100">
+          <head xml:id="ta-l3d26q1-Hd1e102">Prooemium</head>
+          <p xml:id="ta-l3d26q1-d1e105">Postquam <name ref="#Lombard">Magister</name> determinavit de fide, hic secundo
+            determinat de spe; et dividitur in duas partes: in prima determinat de spe; in secunda
+            ostendit in quibus spes invenitur, ibi: <quote xml:id="ta-l3d26q1-Qd1e110">post hoc superest investigare, utrum
+              fides et spes in Christo fuerint</quote>. Circa primum duo facit: primo determinat de
+            spe secundum se; secundo de spe per comparationem ad fidem, ibi: <quote xml:id="ta-l3d26q1-Qd1e113">et sicut fides,
+              ita et spes est de invisibilibus</quote>. Et circa hoc duo facit; primo ostendit
+            convenientiam inter fidem et spem; secundo differentiam, ibi: <quote xml:id="ta-l3d26q1-Qd1e116">distinguitur tamen
+              fides a spe. Post hoc superest investigare, utrum fides et spes in Christo
+              fuerint</quote>. Hic ostendit, quorum sit habere fidem; et circa hoc duo facit: primo
+            inquirit, utrum in Christo fuerit fides vel spes: secundo utrum in antiquis patribus in
+            Limbo existentibus, ibi: <quote xml:id="ta-l3d26q1-Qd1e119">de antiquis vero patribus (...) non incongrue dici
+              potest, quod fidem et spem virtutem habuerint</quote>. Hic quaeruntur duo. Primo de
+            spe secundum quod est passio. Secundo de ipsa secundum quod est virtus. Circa primum
+            quaeruntur quinque: 1 utrum spes sit passio; 2 in quo sit; 3 de differentia ejus ad
+            alias passiones; 4 utrum sit una de quatuor passionibus principalibus; 5 utrum possit
+            esse in parte intellectiva.</p>
+        </div>
+        <div xml:id="ta-l3d26q1-Dd1e124" type="articulus">
+          <head xml:id="ta-l3d26q1-Hd1e126">Articulus 1</head>
+          <head xml:id="ta-l3d26q1-Hd1e129" type="questionTitle">Utrum spes sit passio</head>
+
+          <p xml:id="ta-l3d26q1-d1e132">Ad primum sic proceditur. Videtur quod spes non sit passio. Spes enim est expectatio.
+            Sed expectatio dicit immobilitatem. Cum ergo omnis passio in motu consistat, videtur
+            quod spes non sit passio.</p>
+          <p xml:id="ta-l3d26q1-d1e135">Praeterea, opposita sunt in eodem genere. Sed philosophus, 7 Physicor., dividit spem
+            contra memoriam, dividens actiones utriusque ad invicem. Cum ergo memoria non sit
+            passio, nec spes passio erit.</p>
+          <p xml:id="ta-l3d26q1-d1e138">Praeterea, expectare a spectando dicitur. Spectare autem est videre. Cum ergo videre
+            non sit passio animalis, secundum quod proprie loquimur de passionibus animae; videtur
+            quod spes, quae est expectatio, non sit passio.</p>
+          <p xml:id="ta-l3d26q1-d1e142">Praeterea, passio animae in parte sensitiva est, ut dicit philosophus in 7 Physic. Sed
+            spes, cum sit de futuro bono, non potest esse in parte sensitiva: quia sensus est
+            praesentium tantum. Ergo spes non est passio.</p>
+          <p xml:id="ta-l3d26q1-d1e145">Praeterea, nihil patitur nisi ex praesentia agentis. Sed spes non est de praesentibus,
+            sed de futuris. Ergo non est passio.</p>
+          <p xml:id="ta-l3d26q1-d1e148">Sed contra, spes contra timorem dividitur. Sed timor est passio. Ergo et spes.</p>
+          <p xml:id="ta-l3d26q1-d1e151">Praeterea, spes ad appetitivam potentiam pertinet: quia habet bonum pro objecto. Sed
+            motus appetitivae partis dicitur passio animae: quia ad eum sequitur delectatio et
+            tristitia, quod proprium est passionum, ut dicitur in 2 Ethic. Ergo ut prius.</p>
+          <p xml:id="ta-l3d26q1-d1e154">Praeterea, praesens et praeteritum non diversificant genus. Sed gaudium, quod est de
+            praesenti bono, est in genere passionis. Ergo et spes, quae est de bono futuro.</p>
+          <p xml:id="ta-l3d26q1-d1e157">Respondeo dicendum, quod, sicut prius, dist. 15, dictum est, quamvis omnis operatio
+            potentiarum animae, quae per sua objecta in actum reducuntur, sicut intellectus
+            possibilis, sensus, et appetitus, possint dici passiones, tamen proprie loquendo passio
+            est in operationibus appetitus sensitivae partis, secundum quod Damascenus dicit in 2
+            libro, quod passio est motus appetitivae virtutis sensibilis, qui est ex imaginatione
+            boni vel mali. Spes autem dicit extensionem appetitus in illud quod appetibile est.
+            Invenitur autem non solum in hominibus, sed etiam in aliis animalibus: quod patet, quia
+            inveniuntur animalia operari propter aliquod bonum futurum aestimatum possibile, sicut
+            aves faciunt nidum propter filiorum educationem: nec propter finem aliquid facerent nisi
+            in finem illum quasi eis possibilem tenderent: quia naturalis appetitus non est
+            impossibilium. Similiter etiam patet quod unum animal aggreditur aliud non nisi ex spe
+            victoriae. Patet ergo quod spes sit in appetitu sensitivae partis, quae nobis et brutis
+            communis est; et ita sequitur quod sit passio.</p>
+          <p xml:id="ta-l3d26q1-d1e161">Ad primum ergo dicendum, quod appetitivae partis duplex est motus: scilicet prosecutio
+            et fuga. Objectum autem spei, quod est bonum difficile et arduum, ratione suae bonitatis
+            natum est movere ad prosecutionem: sed ratione suae difficultatis natum est movere ad
+            fugam. Hic tamen motus retardatur per spem: et ideo spes importat motum primum, in quo
+            salvatur ratio passionis, tamen cum quiete privante secundum motum, qui est fuga.</p>
+          <p xml:id="ta-l3d26q1-d1e164">Ad secundum dicendum, quod dividitur spes contra memoriam non quantum ad essentiam
+            suam, sed quantum ad affectum, qui est communis memoriae et spei, scilicet delectatio;
+            unde non sequitur quod in genere conveniant.</p>
+          <p xml:id="ta-l3d26q1-d1e167">Ad tertium dicendum, quod frequenter nomina imponuntur rebus occultis, ex suis signis,
+            sicut essentiales differentiae ex accidentibus nominantur. Signum autem alicujus
+            quiescentis cum extensione appetitus in aliquid desideratum solet esse quod frequenter
+            visum dirigit in illud, ut videat si ex aliqua parte ad ipsum accedat; et ideo
+            dispositio praedicta quietis cum motu dicitur expectatio.</p>
+          <p xml:id="ta-l3d26q1-d1e170">Ad quartum dicendum, quod sicut animalia cognoscunt rationem convenientis et nocivi non
+            per inquisitionem rationis, ut homo, sed per instinctum naturae, qui dicitur aestimatio;
+            ita etiam cognoscunt aliquid quod futurum est, sine hoc quod cognoscant rationem futuri,
+            non conferendo praesens ad futurum, sed ex instinctu naturali, secundum quod aguntur ad
+            aliquid agendum vel ex impulsu naturae interioris vel exterioris; sicut quando agunt
+            aliquid ad praecavendum de futuris quae dependent ex motu caeli, quasi ex eo impulsa:
+            unde ex eorum operibus homines possunt aliquid scire de hujusmodi futuris, sicut nautae
+            praesciunt tempestatem futuram ex motu delphinorum ad superficiem aquae descendentium;
+            et formicae veniente pluvia reponunt granum in cavernis.</p>
+          <p xml:id="ta-l3d26q1-d1e173">Ad quintum dicendum, quod id quod est futurum secundum rem, potest esse praesens in
+            imaginatione. Et quia bonum est natum movere appetitum secundum quod est imaginatum vel
+            intellectum, ut dicitur in 3 de anima, ideo ex tali praesentia potest sequi passio in
+            appetitu.</p>
+        </div>
+        <div xml:id="ta-l3d26q1-Dd1e177" type="articulus">
+          <head xml:id="ta-l3d26q1-Hd1e179">Articulus 2</head>
+          <head xml:id="ta-l3d26q1-Hd1e182" type="questionTitle">Utrum spes sit in alia vi quam in concupiscibili</head>
+
+          <p xml:id="ta-l3d26q1-d1e185">Ad secundum sic proceditur. Videtur quod spes non sit in alia vi quam in
+            concupiscibili. Arduum enim vel difficile non addit aliquam rationem appetibilis supra
+            bonum: quia difficile magis habet rationem fugibilis quam appetibilis. Arduum autem non
+            differt a bono non arduo nisi secundum magis et minus. Sed vis concupiscibilis est boni
+            quod desideratur. Cum ergo objectum spei sit bonum arduum vel difficile, videtur quod
+            spes sit in concupiscibili.</p>
+          <p xml:id="ta-l3d26q1-d1e188">Praeterea, sicut voluntas est boni appetibilis in parte intellectiva, ita
+            concupiscibilis in parte sensitiva. Sed in parte intellectiva omne quod ad appetitum
+            pertinet, est voluntas. Ergo et in parte sensitiva omne quod ad appetitum pertinet, est
+            vis concupiscibilis; et ita, cum spes ad appetitum pertineat, ut dictum est, videtur
+            quod sit in concupiscibili.</p>
+          <p xml:id="ta-l3d26q1-d1e191">Praeterea, gaudium et delectatio in concupiscibili sunt. Sed spes facit gaudium;
+                <ref xml:id="ta-l3d26q1-Rd1e193"><title ref="#rom">Rom.</title> 12, 12:</ref>
+            <quote xml:id="ta-l3d26q1-Qd1e198" ana="#rom12_12">spe gaudentes</quote>; et delectationem, ut dicit philosophus in
+            7 Physic. Ergo spes est in concupiscibili.</p>
+          <p xml:id="ta-l3d26q1-d1e203">Praeterea, praesens et futurum non diversificant appetitivam potentiam, cum accidant
+            appetibili inquantum hujusmodi. Sed gaudium et spes non differunt nisi secundum id quod
+            gaudium est de bono praesenti, spes autem de bono futuro. Ergo cum gaudium sit in
+            concupiscibili, et spes in eodem erit.</p>
+          <p xml:id="ta-l3d26q1-d1e206">Praeterea, ejusdem est moveri ad terminum, et in termino quiescere. Sed spes importat
+            motum in aliquem terminum, in quem cum aliquis devenerit, gaudet. Cum ergo gaudere sit
+            concupiscibilis, et sperare erit concupiscibilis.</p>
+          <p xml:id="ta-l3d26q1-d1e209">Sed contra, concupiscibilis, per se loquendo, non ordinatur ad arduum, sed magis
+            irascibilis. Cum ergo objectum spei sit arduum, oportet quod spes non sit in
+            concupiscibili, sed in irascibili.</p>
+          <p xml:id="ta-l3d26q1-d1e212">Praeterea, idem est subjectum contrariorum. Sed spei opponitur timor. Cum ergo timor
+            sit in irascibili, non in concupiscibili, sicut et audacia, quae iterum timori
+            opponitur; videtur quod spes etiam sit in irascibili.</p>
+          <p xml:id="ta-l3d26q1-d1e215">Praeterea, ira sine spe esse non potest, ut dicit Avicenna in 6 de naturalibus; unde ex
+            offensa illa de cujus vindicta non est spes (sicut cum quis a rege offenditur) non est
+            ira, sed odium magis, vel timor. Ergo cum ira non sit in concupiscibili, nec spes.</p>
+          <p xml:id="ta-l3d26q1-d1e218">Respondeo dicendum, quod potentiae passivae variantur, secundum quod sunt natae moveri
+            a diversis activis, per se loquendo. Proprium autem motivum appetitivae virtutis est
+            bonum apprehensum; unde oportet quod secundum diversas virtutes apprehendentes sint
+            etiam diversi appetitus: scilicet appetitus rationis, qui est de bono apprehenso
+            secundum rationem vel intellectum, unde est de bono apprehenso simpliciter et in
+            universali: et appetitus sensitivus, qui est de bono apprehenso secundum vires
+            sensitivas, unde est de bono particulari, et ut nunc. Sed quia potentia passiva non
+            extendit se ad plura quam virtus sui activi, secundum quod dicit Commentator in 9
+            Metaphysic., quod nulla potentia passiva est in natura, cui non respondeat sua potentia
+            activa naturalis; ideo appetitus sensitivus ad illa tantum bona se extendit ad quae se
+            extendit apprehensio sensitiva. Quia autem, ut dicit Dionysius, 7 capit. de Divin.
+            Nomin., divina sapientia conjungit fines primorum principiis secundorum, quia omnis
+            natura inferior in sui supremo attingit ad infimum naturae superioris, secundum quod
+            participat aliquid de natura superioris, quamvis deficienter; ideo tam in apprehensione
+            quam in appetitu sensitivo invenitur aliquid in quo sensitivum rationem attingit. Quod
+            enim animal imaginetur formas apprehensas per sensum, hoc est de natura sensitivae
+            apprehensionis secundum se: sed quod apprehendat illas intentiones quae non cadunt sub
+            sensu, sicut amicitiam, odium, et hujusmodi, hoc est sensitivae partis secundum quod
+            attingit rationem. Unde pars illa in hominibus, in quibus est perfectior propter
+            conjunctionem ad animam rationalem, dicitur ratio particularis, quia confert de
+            intentionibus particularibus; in aliis autem animalibus, quia non confert, sed ex
+            instinctu naturali habet hujusmodi intentiones apprehendere, non dicitur ratio, sed
+            aestimatio. Similiter etiam ex parte appetitus, quod animal appetat ea quae sunt
+            convenientia sensui, delectationem facientia, secundum naturam sensitivam est, et
+            pertinet ad vim concupiscibilem; sed quod tendat in aliquod bonum quod non facit
+            delectationem in sensu, sed magis natum est facere tristitiam ratione suae
+            difficultatis, sicut quod animal appetat pugnam cum alio animali, vel aggredi aliam
+            quamcumque difficultatem, hoc est in appetitu sensitivo secundum quod natura sensitiva
+            attingit intellectivam; et hoc pertinet ad irascibilem. Et ideo sicut aestimatio est
+            alia vis quam imaginatio, ita irascibilis est alia vis quam concupiscibilis. Objectum
+            enim concupiscibilis est bonum quod natum est facere delectationem in sensu: irascibilis
+            autem bonum quod difficultatem habet. Et quia quod est difficile, non est appetibile
+            inquantum hujusmodi, sed vel in ordine ad aliud delectabile, vel ratione bonitatis quae
+            difficultati admiscetur; conferre autem unum ad aliud, et discernere intentionem
+            difficultatis et bonitatis in uno et eodem, est rationis: ideo proprie istud bonum
+            appetere est rationalis appetitus: sed convenit sensitivae, secundum quod attingit per
+            quamdam imperfectam participationem ad rationalem, non quidem conferendo vel
+            discernendo, sed naturali instinctu movendo se in illud, sicut dictum est de
+            aestimatione. Et per hoc patet etiam quod irascibilis est altior quam concupiscibilis,
+            et propinquior rationi; et ideo incontinens propter concupiscentiam, qui nulla lege
+            utitur, magis est turpis quam iracundus, qui utitur legibus, sed perversis, ut dicitur
+            in 7 Ethic. Unde etiam vitia quae sunt in concupiscibili, sunt majoris infamiae quam ea
+            quae sunt in irascibili. Ex his ergo jam planum est videre quae passio sit in
+            irascibili, et quae in concupiscibili. Omnis enim passio de cujus intellectu est
+            appetitus in bonum vel conveniens simpliciter, est in concupiscibili, sicut amor et
+            delectatio et hujusmodi, et eorum opposita. Omnis autem passio de cujus intellectu est
+            appetitus in bonum cum circumstantia difficultatis, est in irascibili: et hujusmodi sunt
+            omnia illa quae important bonum vel malum cum determinatione alicujus quantitatis, sicut
+            ira, quae non ex qualibet laesione consurgit, sed ex ea quam potest aliquis vindicare,
+            et tamen non habet in promptu vindictam. Timor etiam non est de quolibet malo, sed de
+            malo cui non potest resisti, vel difficulter resistitur. Spes autem importat motum
+            appetitus in aliquod bonum commensuratum appetenti: non enim est de bono tanto ad quod
+            nullo modo possit perveniri, nec iterum de tam parvo quod pro nihilo habeatur; sed de eo
+            quod est possibile haberi, et tamen est difficile ad habendum, propter quod dicitur
+            arduum. Unde patet quod spes, secundum quod est passio, est in irascibili.</p>
+          <p xml:id="ta-l3d26q1-d1e222">Ad primum ergo dicendum, quod difficile vel arduum addit quamdam specialem rationem
+            bonitatis, scilicet pretiositatem quamdam, ex hoc ipso quod non de facili habetur, sicut
+            dicitur omne rarum, carum.</p>
+          <p xml:id="ta-l3d26q1-d1e225">Ad secundum dicendum, quod natura rationalis ex seipsa conferre habet et discernere;
+            unde bonum quod est ex seipso appetibile, vel quod indiget collatione et discretione ad
+            hoc quod appetatur, secundum naturam rationalis apprehensionis appetitum rationalem
+            movet; et ideo ex hoc non diversificatur appetitus rationalis, sed dicitur voluntas
+            universaliter. Non sic autem est de appetitu sensitivo, ut patet ex dictis.</p>
+          <p xml:id="ta-l3d26q1-d1e228">Ad tertium dicendum, quod in quantum spes est de difficili et arduo non delectat, sed
+            magis affligit, cum ex hoc ipso sit distans; sed inquantum est de bono possibili
+            acquiri, sic facit delectationem: quia sicut quod est in potentia, jam habet
+            inchoationem sui esse; ita quod apprehenditur ut possibile adipisci, apprehenditur ut
+            jam quodammodo praesens: et ideo spes delectationem facit; et haec delectatio non est in
+            concupiscibili, sed in irascibili. Quaelibet enim potentia appetit sibi conveniens, et
+            de eo delectatur, ut infra, dicetur. Bonum autem arduum ex hoc ipso quod est possibile
+            adipisci est conveniens irascibili; unde in ipsum tendit.</p>
+          <p xml:id="ta-l3d26q1-d1e231">Ad quartum dicendum, quod objectum irascibilis est bonum difficile: quod autem habetur,
+            jam non est difficile, sed tantum dum non habetur; et ideo non omnes passiones
+            irascibilis sunt futuri, sicut timor et spes.</p>
+          <p xml:id="ta-l3d26q1-d1e234">Ad quintum dicendum, quod objectum irascibilis est bonum difficile, quod quandoque
+            habet bonitatem ex ordine ad aliud. Unde in actu vel motu irascibilis est duplex
+            terminus. Primus est proximus, secundum quod terminatur in objectum proprium, ut quando
+            consequitur victoriam. Et quia proprium objectum irascibilis habet difficultatem, ideo
+            non est delectabile alicui simpliciter, sed est delectabile ei secundum hanc vim, cujus
+            actus est perfectus per hoc quod pertingit ad objectum proprium, quod jam consecutum
+            est; sicut quando aliquis delectatur de hoc quod vincit, quamvis simpliciter sensibilem
+            dolorem de vulneribus sustineat, et de fatigatione tristitiam habeat; et ideo haec
+            delectatio non est concupiscibilis, sed est proprie irascibilis, sicut delectatio quae
+            est propria in actu videndi est propria ipsius visus. Secundus terminus est ultimus
+            finis, in quem objectum proprium ordinatum est. Hoc autem est aliquid quod secundum
+            seipsum est conveniens et delectabile, sicut quod animal postquam vincit aliud animal,
+            utitur ad libitum propria voluntate; et haec delectatio pertinet ad concupiscibilem.
+            Irascibilis enim ad conservationem concupiscibilis ordinatur, ut scilicet propter
+            difficultatem intervenientem delectatio conveniens non praetermittatur. Et ideo dicit
+            Damascenus, quod ira est audax concupiscentiae vindex; et propter hoc etiam dicit
+            philosophus in 6 de animalibus, quod animalia pugnant ad invicem propter cibum et
+            propter coitum: quia circa has delectationes praecipue est concupiscibilis.</p>
+        </div>
+        <div xml:id="ta-l3d26q1-Dd1e238" type="articulus">
+          <head xml:id="ta-l3d26q1-Hd1e240">Articulus 3</head>
+          <head xml:id="ta-l3d26q1-Hd1e243" type="questionTitle">Utrum spes differat ab aliis passionibus, scilicet timore et
+            cetera</head>
+
+          <p xml:id="ta-l3d26q1-d1e246">Ad tertium sic proceditur. Videtur quod spes non differat ab aliis passionibus. Spes
+            enim importat expectationem. Sed omnis motus appetitus videtur esse expectatio, quae
+            nihil aliud dicit quam protensionem in aliquod bonum. Ergo spes non distinguitur ab
+            aliis passionibus quae ad appetitum pertinent.</p>
+          <p xml:id="ta-l3d26q1-d1e249">Praeterea, expectatum bonum est objectum spei, quae est expectatio. Sed expectatum
+            bonum concupiscentiam constituit, ut dicit Damascenus 2 Lib. Ergo concupiscentia est
+            idem quod spes.</p>
+          <p xml:id="ta-l3d26q1-d1e252">Praeterea, idem motus est a termino et in terminum. Sed timor dicit motum appetitus a
+            malo, spes autem dicit motum ejusdem in bonum. Ergo idem est timor et spes.</p>
+          <p xml:id="ta-l3d26q1-d1e256">Praeterea, sicut se habet album et nigrum ad visum; ita se habet bonum et malum ad
+            appetitum. Sed album et nigrum non diversificant neque potentiam visivam neque passiones
+            ejus. Ergo nec bonum et malum diversificant passiones appetitus; et ita timor et spes
+            non sunt diversae passiones, quamvis sint de bono et malo.</p>
+          <p xml:id="ta-l3d26q1-d1e259">Praeterea, spes, ut dictum est, art. praec. in corp., dicit protensionem appetitus in
+            aliquod arduum. Sed hoc idem invenitur in audacia, confidentia, sive fiducia, et ira.
+            Ergo omnia ista sunt idem quod spes.</p>
+          <p xml:id="ta-l3d26q1-d1e262">Sed contra, quorum definitiones sunt diversae, et ipsa differunt. Sed definitio spei
+            non convenit aliis passionibus. Ergo et spes ab aliis passionibus distinguitur.</p>
+          <p xml:id="ta-l3d26q1-d1e265">Praeterea, quaecumque sunt idem, unum non potest esse sine altero. Sed spes potest esse
+            sine aliis. Ergo spes ab aliis differt.</p>
+          <p xml:id="ta-l3d26q1-d1e268">Praeterea, motus differunt penes terminos. Sed non est idem terminus seu objectum spei,
+            et aliarum passionum: quia speratum bonum est objectum spei; non autem, per se loquendo,
+            aliarum passionum. Ergo spes differt ab aliis passionibus.</p>
+          <p xml:id="ta-l3d26q1-d1e271">Respondeo dicendum, quod passiones animae, de quibus loquimur, primo distinguuntur ex
+            hoc quod quaedam important bonum et malum absolute; et hae pertinent ad concupiscibilem:
+            quaedam vero important aliquam mensuram boni vel mali, ut ex praedictis patet; et hae
+            pertinent ad irascibilem. Passionum ergo in concupiscibili existentium quaedam important
+            habitudinem concupiscibilis ad suum objectum; quaedam vero motum ipsius respectu
+            objecti; quaedam vero impressionem relictam in ipsa ex praesentia objecti. Cum autem
+            objectum appetitus sit bonum vel malum, quodlibet istorum per haec duo dividitur. Amor
+            enim importat habitudinem concupiscibilis ad bonum; odium vero ad malum: quia amor
+            amatum ponit connaturale, et quasi unum amanti; cujus contrarium facit odium. Et quia
+            haec habitudo perficitur ex praesentia objecti, ideo amor secundum perfectam sui
+            rationem est habiti, ut dicit Augustinus. Motus autem concupiscibilis in bonum, dicitur
+            desiderium: in malum autem est innominatus, sed dicatur fuga. Impressio vero relicta in
+            concupiscibili ex praesentia boni, dicitur delectatio vel gaudium; sed praesentia mali
+            dicitur tristitia vel dolor. Qualiter autem tristitia et dolor differant, supra,
+            distinct. 15, dictum est. Eodem etiam modo differunt delectatio sensibilis et gaudium.
+            Laetitia autem dicit effectum gaudii in dilatatione cordis; unde dicitur laetitia quasi
+            latitia: exultatio autem effectum ipsius in signis exterioribus, inquantum gaudium
+            interius ad exteriora prorumpens, quodammodo exilit. Quia autem irascibilis propter
+            concupiscibilem est animalibus data, ut non deficiat in suo actu; ideo passiones
+            irascibilis ex passionibus concupiscibilis originem habent. Adjuvat autem
+            concupiscibilem irascibilis et in bono et malo. In bono quidem, ut delectabile
+            concupiscibili conveniens non obstante difficultate prosequatur: in malo autem, ut
+            nocivum difficile repellat. Passio ergo irascibilis vel oritur ex passione
+            concupiscibilis, quam facit apprehensio appetibilis, vel quam facit praesentia ipsius.
+            Si primo modo, vel respectu boni, et hoc vel possibilis consequi, in quod tendendum est,
+            et sic est spes; vel non possibilis, quod dimittendum est, et sic est desperatio: aut
+            respectu mali, et hoc vel possibilis repelli, cui resistendum est, et sic est audacia;
+            vel non possibilis repelli, quod fugiendum est, et sic est timor. Si autem ex
+            praescientia appetibilis, hoc non potest esse respectu boni: quia ex quo concupiscibilis
+            suo delectabili fruitur, non indiget irascibili, quia non habet difficultatem in illo;
+            sed est respectu mali quod repellendum est et difficultatem habens; et sic causatur ira,
+            si est possibile repelli: alias passio in concupiscibili sistit. Et ideo ira non habet
+            passionem contrariam, neque secundum contrarietatem boni vel mali, sicut gaudium et
+            tristitia, quae contrarietas est propria passionum concupiscibilis, neque secundum
+            contrarietatem possibilis et non possibilis, sicut spes et desperatio, quae contrarietas
+            est propria passionum irascibilis. Sciendum tamen, quod ira causatur non solum ex re
+            inconvenienti praesente, sicut cum quis irascitur de vulneratione, sed etiam ex
+            inconvenienti aliquando praesente, sicut cum quis irascitur ex injuriis illatis; et
+            etiam ex apprehensione habiti inconvenientis; et ideo ira causatur ex dolore quantum ad
+            primum, et ex tristitia, ut dicit Damascenus, quantum ad secundum. Sic ergo passiones
+            animae per essentiales differentias dividuntur. Inveniuntur etiam diversificari nomina
+            passionum per differentias accidentales: quae quidem accidunt vel ipsi passioni, ut
+            intentio ejus; vel ex objecto. Si primo modo, sic concupiscentia dicit intensionem
+            desiderii: zelus intensionem amoris, non patiens consortium in amato: abominatio
+            intensionem odii: exultatio intensionem gaudii, ut in signo exteriori prorumpat
+            generaliter; et similiter hilaritas quantum ad signum quod ostenditur in facie; et
+            jucunditas quantum ad signa quae ostenduntur etiam in actibus; accidia autem intensionem
+            tristitiae, intantum ut immobilitet hominem, actionem retardans; unde dicitur a
+            Damasceno, quod est tristitia aggravans, idest immobilitans, vel achos, inquantum
+            prohibet locutionem: quia, ut dicit Damascenus, est vocem auferens: praesumptio autem
+            intensionem spei: audacia autem excessum confidentiae in aggrediendo terribilia; furor
+            autem intensionem irae. Cum autem objectum proprium et per se istarum passionum sit
+            bonum vel malum apparens: ea quae accidentaliter se habent ad haec faciunt accidentalem
+            differentiam in passionibus ex parte objecti: sicut tristitia quae est de malo quod est
+            apparens malum tristanti; hoc autem accidit esse bonum vel malum alteri. Si ergo
+            tristitia sit de malo quod est malum alteri, et per hoc apprehenditur malum ipsi
+            tristanti, sic est misericordia. Si autem sit bonum alteri, et per hoc apprehenditur ut
+            malum proprium, sic est invidia, quae est tristitia de prosperitate bonorum, vel
+            Nemesis, quae est tristitia de prosperitate malorum, ut dicitur 2 Ethic. Similiter etiam
+            timor distinguitur: quia malo difficili superanti facultatem timentis accidit aliquid
+            dupliciter: vel ex parte ipsius mali, vel ex parte timentis. Primo modo accidit sibi
+            turpitudo; et hoc vel in se, et sic est verecundia quae est de turpi actu; vel in
+            opinione, et sic est erubescentia, quae est timor de convicio, ut dicit Damascenus: vel
+            verecundia de turpitudine culpae, erubescentia de turpitudine poenae. Ex parte autem
+            timentis sumuntur accidentales differentiae timoris hoc modo: quia terribile vel excedit
+            facultatem timentis in agendo, et sic est segnities, vel ignavia, quae est timor futurae
+            operationis, ut dicit Damascenus; vel in cognoscendo, et hoc tripliciter: vel propter
+            cognoscibilis altitudinem, et sic est admiratio quae est timor ex magna imaginatione;
+            vel propter ejus inconsuetudinem, et sic est stupor, qui est timor ex inassueta
+            imaginatione; vel propter incertitudinem, et sic est agonia, quae est timor infortunii;
+            et hoc idem dicitur trepidatio vel dubitatio. Sic ergo patet quomodo spes ab aliis
+            passionibus differat, et quomodo etiam omnes aliae passiones ab invicem
+            distinguantur.</p>
+          <p xml:id="ta-l3d26q1-d1e275">Ad primum ergo dicendum, quod, sicut supra dictum est, art. 1 hujus quaest. ad 1 et 3,
+            expectare importat protensionem appetitus in aliquid cum quiete privante fugam vel
+            recessum. Haec autem quies contingit ex difficultate ejus in quod motus appetitus
+            tendit, sed non in promptu est ut habeatur: quod enim in promptu est, sine mora
+            acquiritur. Et quia bonum cum difficultate, proprie est objectum irascibilis, ideo
+            expectare proprie ad irascibilem pertinet tendentem in aliquod bonum. Habet autem se ad
+            spem sicut commune ad proprium, inquantum spes addit certitudinem circa
+            expectationem.</p>
+          <p xml:id="ta-l3d26q1-d1e278">Ad secundum dicendum, quod Damascenus loquitur large: accipit enim expectatum bonum pro
+            bono quod nondum habetur, quod quidem commune est concupiscentiae et spei.</p>
+          <p xml:id="ta-l3d26q1-d1e281">Ad tertium dicendum, quod motus a termino et in terminum quandoque sunt contrarii,
+            quandoque idem, quandoque disparati. Si enim termini a quo et ad quem sunt contrarii,
+            sic motus est contrarius, sicut a nigredine in albedinem. Si autem sit idem terminus a
+            quo et in quem, sic motus sunt idem, sicut motus ab albedine et in albedinem. Si autem
+            sint diversi, non contrarii, sic motus sunt diversi disparati, sicut motus ab albedine
+            et ad calorem. His modis ultimis spes et timor se habent: quia contrarietas quae
+            attenditur in irascibili, est secundum facile et difficile, sive possibile et
+            impossibile; non autem circa bonum et malum, quia circa hoc est concupiscibilis. Unde si
+            consideretur propria ratio obiecti irascibilis, sic timor contrariatur spei: quia timor
+            est a difficili, ad quod est spes. Si autem consideretur ratio difficilis, sic sunt
+            disparata: quia timor a difficili est in genere malorum; spes autem a difficili in
+            genere bonorum.</p>
+          <p xml:id="ta-l3d26q1-d1e284">Ad quartum dicendum, quod passiones cognitivarum virtutum sunt a rebus secundum esse
+            spirituale. Et quia secundum hoc esse non habent contraria contrarietatem, ideo non
+            causantur contrariae passiones ex contrariis in potentiis cognitivis. Sed passiones
+            appetitivae sunt ex rebus secundum suum esse naturale: quia appetitus est de bono et
+            malo, quae sunt in rebus, ut dicit philosophus in 6 Metaph.; et ideo cum secundum esse
+            naturale contrarietatem habeant, contrarias passiones causant.</p>
+          <p xml:id="ta-l3d26q1-d1e287">Ad quintum dicendum, quod cum arduum sive difficile sit proprium objectum irascibilis,
+            differentiae facientes oppositiones in passionibus irascibilis sunt difficile facultatem
+            superans, vel non superans; et utrumque est vel bonum vel malum. Fiducia ergo, seu
+            confidentia, importat motum irascibilis, in id quod aestimatur ut facultatem non
+            excedens, quod quidem specialiter circa bona importat spes, circa mala autem audacia,
+            nisi quod audacia excessum importat quandoque, unde in malum quandoque accipitur. Motus
+            autem appetitus in id quod aestimatur ut superans facultatem sive in bonum sive in
+            malum, est diffidentia. In bonum autem specialiter est desperatio, in malum autem timor.
+            Ira autem est passio composita ex audacia vel dolore, et spe, ut ex dictis patere
+            potest.</p>
+        </div>
+        <div xml:id="ta-l3d26q1-Dd1e292" type="articulus">
+          <head xml:id="ta-l3d26q1-Hd1e294">Articulus 4</head>
+
+          <head xml:id="ta-l3d26q1-Hd1e297" type="questionTitle">Utrum spes sit principalis passio, vel amor, vel desiderium,
+            vel audacia, vel poenitentia</head>
+
+          <p xml:id="ta-l3d26q1-d1e300">Ad quartum sic proceditur. Videtur quod spes non sit principalis passio. Amor enim
+            vehementius affectionem immutat quam spes; unde hominem extra se facit, ut dicit
+            Dionysius, 4 cap. de Div. Nom. Sed amor non ponitur una de principalibus passionibus.
+            Ergo neque spes.</p>
+          <p xml:id="ta-l3d26q1-d1e303">Praeterea, concupiscere est de futuro bono, sicut et spes. Sed concupiscentia, vel
+            desiderium, non ponitur passio principalis. Ergo nec spes.</p>
+          <p xml:id="ta-l3d26q1-d1e306">Praeterea, denominatio semper fit a principaliori. Sed irascibilis denominatur ab ira.
+            Ergo est principalior spe, quae est in irascibili.</p>
+          <p xml:id="ta-l3d26q1-d1e310">Praeterea, objectum irascibilis est difficile et arduum. Sed audacia tendit in arduum
+            magis quam spes, vel non minus. Ergo audacia est magis principalis quam spes.</p>
+          <p xml:id="ta-l3d26q1-d1e313">Praeterea, sicut spes est de futuro, ita poenitentia est de praeterito. Sed praeteritum
+            est certius quam futurum. Cum ergo poenitentia non ponatur principalis passio, nec spes
+            principalis passio debet poni.</p>
+          <p xml:id="ta-l3d26q1-d1e316">Sed contra est quod Boetius in Lib. de Consolat., dicit: <quote xml:id="ta-l3d26q1-Qd1e318">gaudia pelle, pelle
+              timorem; spemque fugato, nec dolor adsit</quote>: et ita spes connumeratur aliis
+            principalibus passionibus.</p>
+          <p xml:id="ta-l3d26q1-d1e322">Praeterea, spes opponitur quodammodo timori. Sed timor est principalis. Ergo et
+            spes.</p>
+          <p xml:id="ta-l3d26q1-d1e325">Praeterea, passio quae est in concupiscibili de bono, est principalis, sicut gaudium.
+            Ergo eadem ratione passio quae est de bono in irascibili, est principalis. Haec autem
+            est spes. Ergo spes est principalis passio.</p>
+          <p xml:id="ta-l3d26q1-d1e328">Respondeo dicendum, quod principalitas passionis in duobus consistit: quorum unum est
+            ex parte objecti, ut scilicet passio sequatur secundum rationem et aptitudinem objecti,
+            scilicet ut bonum prosequatur et malum fugiat; secundum est ex parte ipsius passionis,
+            ut scilicet motus ille perfectus sit quantum possibile est secundum genus illud. Et ideo
+            in concupiscibili sunt duae principales passiones tantum, scilicet, gaudium et
+            tristitia: quia motus concupiscibilis terminatur in ipsa re conjuncta, quae facit
+            gaudium et tristitiam; et iterum bonum de sua ratione natum est facere gaudium,
+            inquantum est conveniens; et tristitiam, inquantum nocivum est. In irascibili etiam sunt
+            tantum duae, scilicet timor et spes; quia in his perficitur motus irascibilis quantum
+            est possibile in genere illo, unde non important motum perfectum simpliciter; sed
+            inquantum possibile est in genere irascibilis: quia motus irascibilis, inquantum
+            hujusmodi, non perficitur ad praesens, ut prius dictum est, art. praec., sicut
+            concupiscibilis; sed perficitur in certitudine inclinationis respectu sui objecti. Unde
+            timor et spes habent quamdam certam inclinationem ad objectum suum: timor ad non posse
+            fugere malum, spes ad posse consequi bonum; unde confidentia non dicitur principalis
+            passio, quae habeat certitudinem, nec importat. Similiter etiam timor consequitur ex
+            malo inquantum est malum, quia de natura sui habet ut fugiatur; spes autem ex ratione
+            boni inquantum est bonum, quia de natura sui habet ut expectetur. Et ideo consuevit
+            numerus principalium passionum hoc modo accipi. Quia aut sunt de praesenti, in quo
+            perficitur motus concupiscibilis; aut de futuro in quo consistit motus irascibilis,
+            inquantum est de difficili. Si primo modo, aut de bono, et sic est gaudium; aut de malo,
+            et sic est tristitia. Si secundo modo, aut de bono, et sic est spes; aut de malo, et sic
+            est timor.</p>
+          <p xml:id="ta-l3d26q1-d1e332">Ad primum ergo dicendum, quod amor non dicit terminum in motu concupiscibilis, cum non
+            sequatur ex conjunctione rei, sicut delectatio vel gaudium.</p>
+          <p xml:id="ta-l3d26q1-d1e335">Ad secundum dicendum, quod motus concupiscibilis potest ulterius terminari quantum ad
+            futurum; et ideo concupiscentia et desiderium non sunt passiones principales: motus
+            autem irascibilis non; et ideo in futuro terminatur; et propter hoc spes et timor sunt
+            principales passiones.</p>
+          <p xml:id="ta-l3d26q1-d1e338">Ad tertium dicendum, quod potentia in qua est spes, denominatur ab ira, quia est
+            ultimum in passionibus ejus: denominatio autem consuevit fieri ab his quae sunt ultima
+            in re. Non tamen est principalis, quia habet motum in nocivum, non quidem fugiendum,
+            quod est de ratione mali et nocivi, sed aggrediendum.</p>
+          <p xml:id="ta-l3d26q1-d1e341">Ad quartum similiter dicendum est de audacia, quod timor qui fugam importat,
+            consequitur ex ratione mali, quod de se est fugibile, non autem aggressibile, quod
+            audacia facit; et ideo non est principalis passio.</p>
+          <p xml:id="ta-l3d26q1-d1e344">Ad quintum dicendum, quod poenitentia continetur sub tristitia. Unde sciendum est, quod
+            omnes praedictae passiones ad has principales passiones reducuntur vel sicut species ad
+            genus, sicut admiratio ad timorem; vel sicut imperfectum ad perfectum, sicut
+            concupiscentia ad gaudium; vel sicut effectus ad causam, et participans ad participatum,
+            sicut audacia et ira ad spem: quia spes tendit in bonum arduum, quod de se est tale ut
+            in illud debeat tendi; audacia autem et ira tendunt in arduum nocivum repellendum; quod
+            quidem non est tale ut in ipsum tendi debeat, sed magis ut fugiatur; tendunt tamen in
+            ipsum inquantum participat aliquid de ratione boni, quod est victoria ipsius; et ideo
+            etiam spes participatur quodammodo in audacia et ira, sicut quod est per se, in eo quod
+            est per accidens.</p>
+        </div>
+        <div xml:id="ta-l3d26q1-Dd1e348" type="articulus">
+          <head xml:id="ta-l3d26q1-Hd1e350">Articulus 5</head>
+
+          <head xml:id="ta-l3d26q1-Hd1e353" type="questionTitle">Utrum spes possit esse in parte intellectiva</head>
+
+          <p xml:id="ta-l3d26q1-d1e356">Ad quintum sic proceditur. Videtur quod spes non possit esse in parte intellectiva.
+            Quia passiones sunt tantum in parte sensitiva, ut dicit philosophus 7 Physic. Sed spes
+            est passio. Ergo est in parte sensitiva.</p>
+          <p xml:id="ta-l3d26q1-d1e359">Praeterea, ea quae sunt in parte intellectiva, sunt ipsius animae secundum se sine hoc
+            quod communicat corpori. Spes vero non est ipsius animae secundum se, sed cum
+            conjunctione corporis, eadem ratione qua gaudium et amor, ut dicitur in 1 de anima. Ergo
+            spes non est in parte intellectiva.</p>
+          <p xml:id="ta-l3d26q1-d1e362">Praeterea, subjectum spei est irascibilis. Sed irascibilis non est in parte
+            intellectiva, sed in sensitiva, quae animus dicitur in 3 de anima. Cum ergo passio non
+            excedat subjectum suum, nec spes erit in rationali.</p>
+          <p xml:id="ta-l3d26q1-d1e366">Praeterea, sicut dicit philosophus in Lib. de Memor., memoria non est in parte
+            intellectiva: quia concernit determinatam temporis differentiam, scilicet praeteritum.
+            Sed sicut memoria concernit praeteritum, ita spes concernit futurum. Ergo spes non
+            potest esse in parte intellectiva.</p>
+          <p xml:id="ta-l3d26q1-d1e369">Praeterea, in parte intellectiva non sunt contrariae passiones: quia delectationi quae
+            est secundum intellectum, nihil est contrarium, ut dicit philosophus 1 Topic. Cum ergo
+            spes sit passio contrarietatem habens ad timorem et desperationem, videtur quod non
+            possit esse in parte intellectiva.</p>
+          <p xml:id="ta-l3d26q1-d1e372">Sed contra, quidquid invenitur communiter in Deo et in nobis de operibus animae, ad
+            partem intellectivam pertinet, quae solum est immaterialis, et in hoc Deo similis. Sed
+            delectatio convenit non solum nobis, sed etiam Deo, ut dicitur in 7 Ethic., quia ipse
+            simplici operatione gaudet. Ergo delectatio est in nobis etiam in parte intellectiva; et
+            ita eadem ratione spes, quae est de delectatione futura.</p>
+          <p xml:id="ta-l3d26q1-d1e375">Praeterea, quidquid permanet in nobis post separationem animae a corpore, hoc ad partem
+            intellectivam pertinet, quae sola est separabilis, secundum philosophum. Sed spes est
+            hujusmodi: quia erat in illis patribus qui in Limbo erant, ut dicitur in littera. Ergo
+            spes est in parte intellectiva.</p>
+          <p xml:id="ta-l3d26q1-d1e378">Praeterea, ad quamcumque potentiam pertinet objectum passionis, et passio. Sed objectum
+            spei est arduum bonum, quod etiam ad intellectivam partem pertinere potest. Ergo spes
+            potest esse in parte intellectiva.</p>
+          <p xml:id="ta-l3d26q1-d1e381">Respondeo dicendum, quod operationes sensitivae sunt nobis magis notae quam operationes
+            partis intellectivae: quia cognitio nostra incipit a sensu, et terminatur ad
+            intellectum. Et quia ex notioribus minus nota cognoscuntur, nomina autem ad
+            innotescendum rebus imponuntur; ideo nomina operationum sensitivae partis transferuntur
+            ad operationes intellectivae partis, et ulterius ex humanis in divina. Et hoc patet in
+            apprehensivis operationibus: quia illud quod certitudinaliter quasi praesens tenemus per
+            intellectum, dicimur sentire, vel videre; et imaginari dicimur, cum quidditatem rei
+            intellectu concipimus; et sic de aliis: quamvis ista diversimode intelligantur, cum
+            dicuntur de apprehensione sensitiva quae apprehendit materialiter et in particulari; et
+            de intellectiva, quae apprehendit immaterialiter et in universali. Et ideo etiam
+            imponitur nomen intellectivae operationi, per quod discernitur a sensitiva, sicut
+            intelligere et scire, et hujusmodi. Similiter nomina operationum appetitivae sensibilis
+            partis transferuntur in operationes appetitivae intellectivae partis: tamen in sensitiva
+            parte sunt per modum materialis passionis, in parte autem intellectiva per modum
+            simplicis actus non materialiter; et ideo etiam aliqua nomina imponuntur appetitui
+            intellectivo, quae ipsum distinguunt ab aliis, sicut velle, eligere, et hujusmodi. Sic
+            ergo spes in parte sensitiva nominat quamdam passionem materialem, sed in parte
+            intellectiva simplicem operationem voluntatis immaterialiter tendentis in aliquod
+            arduum.</p>
+          <p xml:id="ta-l3d26q1-d1e385">Ad primum ergo dicendum, quod spes, secundum quod est in appetitu rationali, scilicet
+            voluntate, non est passio proprie loquendo, ut patet ex his quae dicta sunt 15 dist.,
+            quaest. 2, art. 1, in corp.</p>
+          <p xml:id="ta-l3d26q1-d1e388">Ad secundum dicendum, quod philosophus loquitur ibi de istis secundum quod sunt
+            passiones sensitivae partis, et ita indigent corpore materialiter: vel secundum quod
+            sunt in parte intellectiva, quae indiget corpore, inquantum accipit a sensibus, vel a
+            sensitivis potentiis, quantum ad statum viae.</p>
+          <p xml:id="ta-l3d26q1-d1e391">Ad tertium dicendum, quod quidam distinguunt irascibilem humanam et brutalem, similiter
+            et concupiscibilem; et dicunt, quod brutalis est in parte sensitiva, humana autem in
+            parte intellectiva. Sed hoc non est verum: quia appetitus rationalis non dividitur per
+            irascibilem et concupiscibilem, ut prius dictum est art. 2: unde irascibilis dicitur
+            humana non per essentiam, sed per participationem, sicut dicit philosophus in 1 Ethic.,
+            et etiam Damascenus in 2 Lib. Unde quod objicitur quod spes in irascibili est; verum est
+            de spe secundum quod est passio.</p>
+          <p xml:id="ta-l3d26q1-d1e394">Ad quartum dicendum, quod intellectiva apprehensio est secundum motum a rebus in
+            animam; et quia in anima intellectiva recipitur aliquid abstractum ab omnibus
+            conditionibus materialibus individuantibus, ideo nulla apprehensio intellectiva
+            concernit aliquod tempus determinate, quamvis possit esse de quolibet tempore: unde
+            componendo et dividendo implicat tempus, ut dicitur in 3 de anima: et ideo etiam memoria
+            cum sit pars imaginis quae est in parte intellectiva, est omnium temporum, ut dictum est
+            in 1 Lib., dist. 3. Operatio autem appetitus est secundum motum ab anima in res; et ideo
+            quia res per se cadunt sub hic et nunc, ideo et operatio intellectivi appetitus potest
+            aliquod tempus concernere.</p>
+          <p xml:id="ta-l3d26q1-d1e397">Ad quintum dicendum, quod delectatio, ut prius dictum est, ex duobus consurgit. Uno
+            modo ex ipso actu qui est conveniens potentiae; et hoc modo delectationi intellectus non
+            est aliquid contrarium. Cum enim intelligibile omnino immaterialiter in intellectu
+            recipiatur, non potest aliquam laesionem intellectui inferre, sicut sensibile excellens,
+            quod corrumpit sensum. Et ideo omnis actus intellectus est conveniens intellectui, et
+            delectabilis, quidquid sit illud quod intelligitur; et sic delectationi intellectus non
+            est aliquid contrarium. Alio modo consurgit delectatio ex conjunctione rei convenientis,
+            circa quam est operatio. Et quia id quod apprehenditur, potest esse conveniens
+            intelligenti, vel inconveniens, inquantum est res quaedam, licet inquantum intellectum,
+            semper sit conveniens; ideo ex parte ista delectationi quae est in parte intellectiva,
+            potest esse tristitia contraria, non quae sit passio, ut dictum est.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

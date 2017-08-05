@@ -1,0 +1,565 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 27, Quaestio 1</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Librum IV, Distinctio 27, Quaestio 1</title>
+          <date when="2016-03-19">March 19, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-19">March 19, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness>1856 editum</witness>
+          <witness xml:id="G" n="ghent567">Ghent, Belgium, Ghent University Library, 567</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="0.0.0-dev">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+
+
+
+
+      <div xml:id="starts-on">
+        <cb ed="#G" n="446b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ta-l4d27q1">
+        <head xml:id="ta-l4d27q1-Hd1e97">Librum IV, Distinctio 27, Quaestio 1</head>
+
+
+        <div xml:id="ta-l4d27q1-Dd1e100">
+          <head xml:id="ta-l4d27q1-Hd1e102">Prooemium</head>
+          <p xml:id="ta-l4d27q1-d1e105">Postquam determinavit Magister de institutione matrimonii et significatione ipsius, hic
+            incipit determinare de causis ejus; et dividitur in partes duas: in prima de causis
+            constituentibus matrimonium; in secunda de causis honestantibus ipsum, distinct. 31,
+            ibi: <quote xml:id="ta-l4d27q1-Qd1e107">post haec de bonis conjugii, quae sint, et qualiter coitum excusent,
+              dicendum est</quote>. Prima in duas: in prima determinat de causa efficiente
+            matrimonium; in secunda de causa finali ipsius, circa finem 30 distinct., ibi:
+              <quote xml:id="ta-l4d27q1-Qd1e110">exposito quae sit causa efficiens matrimonii, consequens est ostendere ob quam
+              causam soleat vel debeat contrahi matrimonium</quote>. Prima in duas: in prima
+            determinat de causa efficiente matrimonium; in secunda ponit impedimentum illius causae,
+            29 distinct., ibi: <quote xml:id="ta-l4d27q1-Qd1e113">oportet autem consensum conjugalem liberum esse a
+              coactione</quote>. Prima in duas: in prima ostendit quod consensus facit matrimonium;
+            in secunda ostendit qualem oporteat esse illum consensum, dist. 28, ibi: <quote xml:id="ta-l4d27q1-Qd1e116">hic
+              quaeri debet, utrum consensus de futuro, addito etiam juramento, conjugium
+              efficiat</quote>. Prima in duas: in prima, praemisso de quo est intentio, definit
+            matrimonium, ut causa effectui proportionata sumatur; in secunda ostendit quae sit causa
+            matrimonii, ibi: <quote xml:id="ta-l4d27q1-Qd1e119">efficiens autem causa matrimonii est consensus</quote>. Et haec
+            dividitur in tres: in prima proponit quod intendit; in secunda probat propositum, ibi:
+              <quote xml:id="ta-l4d27q1-Qd1e123">quod autem consensus matrimonium faciat, subditis probatur testimoniis</quote>;
+            in tertia excludit errorem, ibi: <quote xml:id="ta-l4d27q1-Qd1e126">quidam tamen asserunt, verum conjugium non
+              contrahi ante traditionem, et carnalem copulam</quote>. Et dividitur in partes duas:
+            in prima prosequitur partes erroris eorum; in secunda excludit eum, ibi: <quote xml:id="ta-l4d27q1-Qd1e129">his
+              autem ita respondemus</quote>. Circa primum tria facit: primo ponit opinionem illorum
+            falsam; secundo ponit probationem ejus, ibi: <quote xml:id="ta-l4d27q1-Qd1e132">quod vero inter sponsam et conjugem
+              plurimum intersit, ex eo astruunt</quote> etc.; tertio ponit responsionem eorum ad
+            probationem pro veritate inductam, ibi: <quote xml:id="ta-l4d27q1-Qd1e135">praemissas autem auctoritates (...) ita
+              intelligi volunt. His itaque respondemus</quote>. Hic respondet ad probationem illorum
+            positam; et circa hoc tria facit: primo ponit distinctionem quamdam, qua praedictae
+            auctoritates solvuntur; secundo probat illam distinctionem per diversas sanctorum
+            auctoritates, ibi: <quote xml:id="ta-l4d27q1-Qd1e138">aliquando enim sponsas vocant quae talem habuerunt
+              desponsationem, ubi fuit pactio conjugalis de praesenti</quote>; tertio probat eam per
+            rationes, ibi: <quote xml:id="ta-l4d27q1-Qd1e142">et sciendum est, quod illa sponsa quae tantum in futuro est pacta,
+              mortuo sponso non remanet vidua</quote>. Hic est triplex quaestio. Prima de
+            matrimonio. Secunda de sponsalibus. Tertia de bigamia. Circa primum quaeruntur tria: 1
+            quid sit matrimonium; 2 utrum consensus sit causa matrimonii; 3 utrum matrimonium possit
+            solvi per religionis ingressum.</p>
+
+        </div>
+        <div xml:id="ta-l4d27q1-Dd1e147" type="articulus">
+          <head xml:id="ta-l4d27q1-Hd1e149">Articulus 1</head>
+
+          <head xml:id="ta-l4d27q1-Hd1e152" type="questionTitle">Utrum matrimonium sit in genere conjunctionis</head>
+
+          <div xml:id="ta-l4d27q1-Dd1e155">
+            <head xml:id="ta-l4d27q1-Hd1e157">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d27q1-d1e160">Ad primum sic proceditur. Videtur quod matrimonium non sit in genere conjunctionis.
+              Quia vinculum quo aliqua ligantur, differt a conjunctione ipsa sicut causa ab effectu.
+              Sed matrimonium est vinculum quoddam quo matrimonio juncti ligantur. Ergo non est in
+              genere conjunctionis.</p>
+            <p xml:id="ta-l4d27q1-d1e163">Praeterea, omne sacramentum est sensibile signum. Sed nulla relatio est accidens
+              sensibile. Ergo matrimonium, cum sit sacramentum, non erit in genere relationis; et
+              ita nec in genere conjunctionis.</p>
+            <p xml:id="ta-l4d27q1-d1e166">Praeterea, conjunctio est relatio aequiparantiae, sicut aequalitas. Sed non est una
+              numero aequalitatis relatio in utroque extremorum, ut Avicenna dicit. Ergo nec una
+              conjunctio; et sic, si matrimonium est in genere conjunctionis, non erit unum tantum
+              matrimonium inter duos conjuges.</p>
+            <p xml:id="ta-l4d27q1-d1e169">Sed contra, relatio est secundum quam aliqua ad invicem referuntur. Sed secundum
+              matrimonium aliqua ad invicem referuntur: dicitur enim maritus vir uxoris, et uxor
+              mariti uxor. Ergo matrimonium est in genere relationis, nec est aliud quam
+              conjunctio.</p>
+            <p xml:id="ta-l4d27q1-d1e173">Praeterea, unio duorum ad aliquod unum non fit nisi secundum conjunctionem. Hoc autem
+              fit per matrimonium, ut patet Genes. 2, 24: <quote xml:id="ta-l4d27q1-Qd1e175" ana="#gen2_24">erunt duo in carne una</quote>.
+              Ergo matrimonium est in genere conjunctionis.</p>
+
+          </div>
+          <div xml:id="ta-l4d27q1-Dd1e180">
+            <head xml:id="ta-l4d27q1-Hd1e182">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d27q1-d1e185">Ulterius. Videtur quod matrimonium incongrue nominetur. Quia denominatio debet fieri
+              a digniori. Sed pater dignior est matre. Ergo magis debet denominari a patre quam a
+              matre conjunctio utriusque.</p>
+            <p xml:id="ta-l4d27q1-d1e188">Praeterea, res debet denominari ab eo quod est de essentia sua; quia ratio quam
+              significat nomen, est definitio, ut dicitur in 4 Metaph. Sed nuptiae non sunt de
+              essentia matrimonii. Ergo non debet matrimonium nuptiae appellari.</p>
+            <p xml:id="ta-l4d27q1-d1e191">Praeterea, species non potest proprio nomine nominari ab eo quod est generis. Sed
+              conjunctio est genus ad matrimonium. Ergo non proprie potest conjugium nominari.</p>
+            <p xml:id="ta-l4d27q1-d1e194">Sed in contrarium est communis usus loquentium.</p>
+
+          </div>
+          <div xml:id="ta-l4d27q1-Dd1e198">
+            <head xml:id="ta-l4d27q1-Hd1e200">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d27q1-d1e203">Ulterius. Videtur quod inconvenienter definiatur in littera. Quia in mariti
+              definitione oportet quod matrimonium ponatur: quia maritus est qui est mulieri
+              matrimonio junctus. Sed ipse ponit matrimonialem conjunctionem in definitione
+              matrimonii. Ergo videtur quod sit circulatio in definitionibus istis.</p>
+            <p xml:id="ta-l4d27q1-d1e206">Praeterea, per matrimonium sicut vir efficitur maritus mulieris, ita mulier uxor
+              viri. Ergo non magis deberet dici conjunctio maritalis quam uxoria.</p>
+            <p xml:id="ta-l4d27q1-d1e209">Praeterea, consuetudo ad genus moris pertinet. Sed frequenter matrimonio juncti sunt
+              valde moribus diversi. Ergo non debet poni in definitione matrimonii:
+                <quote xml:id="ta-l4d27q1-Qd1e211">individuam vitae consuetudinem retinens</quote>.</p>
+            <p xml:id="ta-l4d27q1-d1e215">Praeterea, inveniuntur aliae definitiones de matrimonio datae. Quia secundum Hugonem,
+              matrimonium est <quote xml:id="ta-l4d27q1-Qd1e217">duarum idonearum personarum legitimus de conjunctione
+                consensus</quote>. Secundum quosdam autem matrimonium est <quote xml:id="ta-l4d27q1-Qd1e220">consortium communis
+                vitae, et communicatio divini et humani juris</quote>. Et quaeritur qualiter hae
+              definitiones differant.</p>
+          </div>
+          <div xml:id="ta-l4d27q1-Dd1e226">
+            <head xml:id="ta-l4d27q1-Hd1e228">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d27q1-d1e231">Respondeo dicendum ad primam quaestionem, quod conjunctio adunationem quamdam
+              importat; unde ubicumque est adunatio aliquorum, ibi est aliqua conjunctio. Ea autem
+              quae ordinantur ad aliquod unum, dicuntur in ordine ad aliud adunari; sicut multi
+              homines adunantur ad unam militiam vel negotiationem exequendam, ex qua dicuntur
+              commilitones ad invicem, vel socii negotiationis; et ideo, cum per matrimonium
+              ordinentur aliqui ad unam generationem et educationem prolis, et iterum ad unam vitam
+              domesticam; constat quod in matrimonio est aliqua conjunctio, secundum quam dicitur
+              maritus et uxor; et talis conjunctio ex hoc quod ordinatur ad aliquod unum, est
+              matrimonium; conjunctio autem corporum vel animorum ad matrimonium consequitur.</p>
+            <p xml:id="ta-l4d27q1-d1e234">Ad primum ergo dicendum, quod matrimonium est vinculum quo ligantur formaliter, non
+              effective; et ideo non oportet quod sit aliud a conjunctione.</p>
+            <p xml:id="ta-l4d27q1-d1e237">Ad secundum dicendum, quod quamvis ipsa relatio non sit sensibile accidens, tamen
+              causae ejus possunt esse sensibiles: nec in sacramento requiritur quod sit sensibile
+              id quod est res et sacramentum (hoc enim modo se habet in hoc sacramento praedicta
+              conjunctio), sed verba exprimentia consensum, quae sunt sacramentum tantum, et causa
+              praedictae conjunctionis, sunt sensibilia.</p>
+            <p xml:id="ta-l4d27q1-d1e240">Ad tertium dicendum, quod relatio fundatur in aliquo sicut in causa, ut similitudo in
+              qualitate; et in aliquo sicut in subjecto, ut in ipsis similibus; et ex utraque parte
+              potest attendi unitas et diversitas ipsius. Quia ergo in similitudine non est eadem
+              qualitas numero, sed specie in utroque simili; et iterum subjecta similitudinis sunt
+              duo numero; et similiter est de aequalitate; ideo et aequalitas et similitudo omnibus
+              modis est alia numero in utroque similium et aequalium. Sed relatio quae est
+              matrimonium, ex una parte habet unitatem in utroque extremorum, scilicet ex parte
+              causae, quia ad eamdem numero generationem ordinatur; sed ex parte subjecti habet
+              diversitatem secundum numerum; et ideo haec relatio est una et multiplex: et secundum
+              quod est multiplex ex parte subjecti, significatur his nominibus uxor et maritus;
+              secundum autem quod est una, significatur hoc nomine matrimonium.</p>
+
+          </div>
+          <div xml:id="ta-l4d27q1-Dd1e244">
+            <head xml:id="ta-l4d27q1-Hd1e246">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d27q1-d1e249">Ad secundam quaestionem dicendum, quod in matrimonio est tria considerare. Primo
+              essentiam ipsius, quae est conjunctio; et secundum hoc nominatur conjugium. Secundo
+              causam ejus, quae est desponsatio; et secundum hoc vocantur nuptiae a nubere, quia in
+              ipsa solemnitate desponsationis qua matrimonium perficitur, capita nubentium velantur.
+              Tertio effectum, qui est proles; et sic dicitur matrimonium, ut Augustinus dicit
+              contra Faustum, ob hoc quod mulier non debet ad aliud nubere, nisi ut sit mater.
+              Potest etiam dici matrimonium, quasi matris munium, idest officium: quia feminis
+              maxime incumbit officium educandae prolis. Vel dicitur matrimonium, quasi matrem
+              muniens: quia jam habet quod defendatur et muniatur, scilicet virum. Vel dicitur
+              matrimonium, quasi matrem monens, ne virum relinquat, alteri adhaerens. Vel dicitur
+              matrimonium, quasi materia unius, quia in eo fit conjunctio ad unam prolem
+              materialiter inducendam, ut dicatur matrimonium a monos et materia. Vel dicitur
+              matrimonium, ut Isidorus dicit, a matre et nato; quia per matrimonium efficitur aliqua
+              mater nati.</p>
+            <p xml:id="ta-l4d27q1-d1e252">Ad primum ergo dicendum, quod quamvis pater sit dignior quam mater, tamen circa
+              prolem magis officiosa est mater quam pater. Vel ideo quia mulier ad hoc principaliter
+              facta est ut sit homini in adjutorium prolis; non autem vir propter hoc factus est;
+              unde magis pertinet ad rationem matrimonii mater quam pater.</p>
+            <p xml:id="ta-l4d27q1-d1e255">Ad secundum dicendum, quod aliquando essentialia cognoscuntur per accidentalia; et
+              ideo etiam per accidentalia aliqua nominari possunt, cum nomen detur causa rei
+              innotescendae.</p>
+            <p xml:id="ta-l4d27q1-d1e258">Ad tertium dicendum, quod aliquando species nominatur ab eo quod est generis, propter
+              imperfectionem speciei, quando scilicet habet complete generis rationem; nec tamen
+              aliquid addit quod ad dignitatem pertineat; sicut proprium accidentale retinet nomen
+              proprii communis. Aliquando autem propter perfectionem, quando in una specie complete
+              invenitur ratio generis, et non in alia; sicut animal denominatur ab anima, quae
+              competit animato corpori, quod est genus animalis; sed animatio non invenitur perfecte
+              in animatis quae non sunt animalia; et similiter est in proposito: quia conjunctio
+              viri ad mulierem per matrimonium est maxima, cum sit et animarum et corporum; et ideo
+              conjugium nominatur.</p>
+
+          </div>
+          <div xml:id="ta-l4d27q1-Dd1e262">
+            <head xml:id="ta-l4d27q1-Hd1e264">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d27q1-d1e267">Ad tertiam quaestionem dicendum, quod, sicut supra dictum est, in matrimonio tria
+              possunt considerari; scilicet causa ipsius, et essentia ejus, et effectus; et secundum
+              hoc tres definitiones inveniuntur de matrimonio datae. Nam definitio Hugonis tangit
+              causam, scilicet consensum, et per se non est. Definitio autem in littera posita
+              tangit essentiam matrimonii, scilicet conjunctionem, et addit determinatum subjectum
+              in hoc quod dicit: <quote xml:id="ta-l4d27q1-Qd1e269">inter legitimas personas</quote>. Ponit etiam differentiam
+              contrahentem ad speciem in hoc quod dicit, <quote xml:id="ta-l4d27q1-Qd1e272">maritalis</quote>: quia cum
+              matrimonium sit conjunctio in ordine ad aliquod unum, talis conjunctio in speciem
+              trahitur per illud ad quod ordinatur; et hoc est quod ad maritum pertinet. Ponit etiam
+              virtutem hujus conjunctionis, quia indissolubilis est, in hoc quod dicit:
+                <quote xml:id="ta-l4d27q1-Qd1e275">individuam vitae consuetudinem retinens</quote>. Sed alia definitio tangit
+              effectum ad quem ordinatur matrimonium; scilicet vitam communem in rebus domesticis.
+              Et quia omnis communicatio aliqua lege ordinatur; ideo ponitur ordinativum istius
+              communionis, scilicet jus divinum et humanum: aliae enim communicationes, ut
+              negotiatorum et commilitantium, solo jure humano institutae sunt.</p>
+            <p xml:id="ta-l4d27q1-d1e279">Ad primum ergo dicendum, quod priora aliquando, ex quibus debet dari definitio, non
+              sunt nominata; et ideo in definitione aliquorum ponuntur aliqua posteriora
+              simpliciter, quae sunt priora quo ad nos, sicut in definitione qualitatis ponitur
+              quale a philosopho, cum dicit: <quote xml:id="ta-l4d27q1-Qd1e281">qualitas est secundum quam quales
+                dicimur</quote>; et ita etiam hic in definitione matrimonii ponitur conjunctio
+              maritalis; ut sit sensus, quod matrimonium est conjunctio ad ea quae mariti officium
+              requirit, quae non poterant uno nominari nomine.</p>
+            <p xml:id="ta-l4d27q1-d1e285">Ad secundum dicendum, quod per hanc differentiam tangitur finis conjunctionis, ut
+              dictum est; et quia, ut dicit apostolus, 1 Corinth. 7, vir non est propter mulierem,
+              sed mulier propter virum; ideo haec differentia potius debet sumi a viro quam a
+              muliere.</p>
+            <p xml:id="ta-l4d27q1-d1e288">Ad tertium dicendum, quod sicut vita civilis non importat actum singularem hujus vel
+              illius, sed ea quae ad communicationem civilem pertinent; ita vita conjugalis nihil
+              est aliud quam conversatio ad communicationem talem pertinens; et ideo quantum ad hanc
+              vitam semper consuetudo est individua, quamvis sit diversa quantum ad actus singulares
+              utriusque.</p>
+            <p xml:id="ta-l4d27q1-d1e292">Ad quartum patet solutio ex dictis.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d27q1-Dd1e297" type="articulus">
+          <head xml:id="ta-l4d27q1-Hd1e299">Articulus 2</head>
+
+          <head xml:id="ta-l4d27q1-Hd1e302" type="questionTitle">Utrum consensus sit causa efficiens matrimonii</head>
+
+          <div xml:id="ta-l4d27q1-Dd1e305">
+            <head xml:id="ta-l4d27q1-Hd1e307">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d27q1-d1e310">Ad secundum sic proceditur. Videtur quod consensus non sit causa efficiens
+              matrimonii. Sacramenta enim non sunt a voluntate humana, sed ab institutione divina.
+              Sed consensus ad voluntatem pertinet. Ergo non est causa matrimonii, sicut nec aliorum
+              sacramentorum.</p>
+            <p xml:id="ta-l4d27q1-d1e313">Praeterea, idem non est causa sui ipsius. Sed matrimonium nihil aliud videtur esse
+              quam consensus: quia consensus ipse significat conjunctionem Christi ad Ecclesiam.
+              Ergo consensus non est causa matrimonii.</p>
+            <p xml:id="ta-l4d27q1-d1e316">Praeterea, unius debet esse una causa. Sed matrimonium inter duos est unum, ut dictum
+              est: consensus autem duorum sunt diversi, quia diversorum sunt, et etiam in diversa:
+              ab una enim parte est consensus in virum, ex alia in uxorem. Ergo mutuus consensus non
+              est causa matrimonii.</p>
+            <p xml:id="ta-l4d27q1-d1e319">Sed contra est quod Chrysostomus dicit: <quote xml:id="ta-l4d27q1-Qd1e321">matrimonium non facit coitus, sed
+                voluntas</quote>.</p>
+            <p xml:id="ta-l4d27q1-d1e326">Praeterea, unus non accipit potestatem in eo quod est libere alterius, nisi per ejus
+              consensum. Sed per matrimonium accipit uterque conjugum potestatem in corpus alterius,
+              ut patet 1 Corinth. 7, cum prius uterque sui corporis liberam potestatem haberet. Ergo
+              consensus facit matrimonium.</p>
+
+          </div>
+          <div xml:id="ta-l4d27q1-Dd1e330">
+            <head xml:id="ta-l4d27q1-Hd1e332">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d27q1-d1e335">Ulterius. Videtur quod non oporteat consensum per verba exprimi. Quia sicut per
+              matrimonium redigitur homo in potestatem alterius, ita per votum. Sed votum obligat
+              quo ad Deum, etiam si non exprimatur verbis. Ergo et consensus facit matrimonii
+              obligationem etiam sine expressione verborum.</p>
+            <p xml:id="ta-l4d27q1-d1e338">Praeterea, matrimonium potest esse inter aliquos qui suum consensum sibi mutuo verbis
+              exprimere non possunt: quia vel sunt muti, vel diversarum linguarum. Ergo expressio
+              consensus per verba non requiritur ad matrimonium.</p>
+            <p xml:id="ta-l4d27q1-d1e341">Praeterea, si omittatur illud quod est de necessitate sacramenti quacumque ex causa,
+              non est sacramentum. Sed in aliquo casu est matrimonium sine expressione verborum:
+              sicut quando puella tacet prae verecundia, parentibus eam viro tradentibus. Ergo
+              expressio verborum non est de necessitate matrimonii.</p>
+            <p xml:id="ta-l4d27q1-d1e344">Sed contra, matrimonium est sacramentum quoddam. Sed in omni sacramento requiritur
+              aliquod sensibile signum. Ergo et in matrimonio; et ita oportet ibi saltem esse verba
+              exprimentia consensum sensibiliter.</p>
+            <p xml:id="ta-l4d27q1-d1e348">Praeterea, in matrimonio fit contractus inter virum et mulierem. Sed in quolibet
+              contractu oportet esse expressionem verborum, quibus se mutuo homines obligent. Ergo
+              in matrimonio oportet esse consensum per verba expressum.</p>
+
+          </div>
+          <div xml:id="ta-l4d27q1-Dd1e352">
+            <head xml:id="ta-l4d27q1-Hd1e354">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d27q1-d1e357">Ulterius. Videtur quod consensus expressus per verba de futuro, matrimonium faciat.
+              Quia sicut se habet praesens ad praesens, ita futurum ad futurum. Sed consensus per
+              verba de praesenti expressus facit matrimonium in praesenti. Ergo consensus expressus
+              per verba de futuro facit matrimonium in futuro.</p>
+            <p xml:id="ta-l4d27q1-d1e360">Praeterea, sicut in matrimonio fit quaedam obligatio per verba exprimentia consensum,
+              ita et in aliis civilibus contractibus. Sed in aliis contractibus non differt utrum
+              per verba de praesenti vel de futuro obligatio fiat. Ergo nec in matrimonio
+              differt.</p>
+            <p xml:id="ta-l4d27q1-d1e363">Praeterea, per votum religionis homo contrahit matrimonium spirituale cum Deo. Sed
+              votum religionis fit per verba de futuro, et obligat. Ergo similiter potest fieri
+              matrimonium per verba de futuro.</p>
+            <p xml:id="ta-l4d27q1-d1e366">Sed contra est, quia ille qui consentit in aliquam per verba de futuro, et postea cum
+              alia per verba de praesenti, debet, secundum jura, habere secundam pro uxore. Sed hoc
+              non esset, si consensus per verba de futuro faceret matrimonium: quia ex quo verum est
+              matrimonium cum una, ea vivente non potest contrahi cum alia. Ergo consensus per verba
+              de futuro non facit matrimonium.</p>
+            <p xml:id="ta-l4d27q1-d1e370">Praeterea, qui promittit se aliquid tractaturum, nondum facit illud. Sed qui
+              consentit per verba de futuro, promittit se cum aliqua tractaturum matrimonium. Ergo
+              non contrahit adhuc cum illa.</p>
+
+          </div>
+          <div xml:id="ta-l4d27q1-Dd1e375">
+            <head xml:id="ta-l4d27q1-Hd1e377">Quaestiuncula 4</head>
+            <p xml:id="ta-l4d27q1-d1e380">Ulterius. Videtur quod consensus expressio per verba, etiam si desit interior
+              consensus, facit matrimonium. Quia fraus et dolus nemini debet patrocinari, secundum
+              jura. Sed ille qui verbis consensum exprimit quem corde non habet, dolum committit.
+              Ergo non debet sibi patrocinari, ut ab obligatione matrimonii liber reddatur.</p>
+            <p xml:id="ta-l4d27q1-d1e383">Praeterea, assensus mentalis alterius non potest esse alicui notus, nisi quatenus per
+              verba exprimitur. Si ergo expressio verborum non sufficit, sed consensus interior
+              requiritur in utroque conjugum; tunc neuter poterit scire de altero an sit ei verus
+              conjux; et ita erit fornicator quandocumque matrimonio utetur.</p>
+            <p xml:id="ta-l4d27q1-d1e386">Praeterea, si aliquis probatur per verba de praesenti in aliquam consensisse, cogitur
+              per excommunicationis sententiam ut eam habeat in uxorem, quamvis dicat consensum
+              mentalem defuisse; etiamsi postea cum alia contraxerit consensu mentali verbis
+              expresso. Sed hoc non esset, si requireretur consensus mentalis ad matrimonium. Ergo
+              non requiritur.</p>
+            <p xml:id="ta-l4d27q1-d1e389">Sed contra est quod Innocentius III dicit in Decr.: <quote xml:id="ta-l4d27q1-Qd1e391">sine consensu nequeunt
+                cetera foedus perficere conjugale</quote>.</p>
+            <p xml:id="ta-l4d27q1-d1e396">Praeterea, intentio requiritur in omnibus sacramentis. Sed ille qui corde non
+              consentit, non habet intentionem matrimonium contrahendi. Ergo non fit
+              matrimonium.</p>
+          </div>
+          <div xml:id="ta-l4d27q1-Dd1e400">
+            <head xml:id="ta-l4d27q1-Hd1e402">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d27q1-d1e405">Respondeo dicendum ad primam quaestionem, quod in omnibus sacramentis est aliqua
+              spiritualis operatio mediante materiali operatione quae eam significat; sicut per
+              ablutionem corporalem in Baptismo fit ablutio interior spiritualis; unde, cum in
+              matrimonio sit quaedam spiritualis conjunctio, inquantum matrimonium est sacramentum,
+              et aliqua materialis, secundum quod est in officium naturae et civilis vitae; oportet
+              quod mediante materiali fiat spiritualis virtute divina; unde, cum conjunctiones
+              materialium contractuum fiant per mutuum consensum, oportet quod hoc modo etiam fiat
+              matrimonialis conjunctio.</p>
+            <p xml:id="ta-l4d27q1-d1e408">Ad primum ergo dicendum, quod sacramentorum prima causa est divina virtus, quae in
+              eis operatur salutem; sed causae secundae instrumentales sunt materiales operationes
+              ex divina institutione efficaciam habentes; et sic consensus in matrimonio est
+              causa.</p>
+            <p xml:id="ta-l4d27q1-d1e411">Ad secundum dicendum, quod matrimonium non est ipse consensus, sed quaedam unio
+              ordinatorum ad invicem, ut dictum est, quam consensus facit; nec consensus, proprie
+              loquendo, conjunctionem Christi ad Ecclesiam significat, sed voluntatem ejus, qua
+              factum est ut Ecclesiae conjungeretur.</p>
+            <p xml:id="ta-l4d27q1-d1e414">Ad tertium dicendum, quod sicut matrimonium est unum ex parte ejus in quod fit
+              conjunctio, quamvis sit multiplex ex parte conjunctorum; ita etiam consensus est unus
+              ex parte ejus in quod consentitur, scilicet praedictae conjunctionis, quamvis sit
+              multiplex ex parte consentientium: nec est directe consensus in virum, sed in
+              conjunctionem ad virum ex parte uxoris; et similiter ex parte viri consensus in
+              conjunctionem ad uxorem.</p>
+
+          </div>
+          <div xml:id="ta-l4d27q1-Dd1e418">
+            <head xml:id="ta-l4d27q1-Hd1e420">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d27q1-d1e423">Ad secundam quaestionem dicendum, quod, sicut ex dictis patet, conjunctio
+              matrimonialis fit ad modum obligationis in contractibus materialibus. Et quia
+              materiales contractus non possunt fieri nisi sibi invicem voluntatem suam verbis
+              promant qui contrahunt; ideo etiam oportet quod consensus matrimonium faciens verbis
+              exprimatur, ut expressio verborum se habeat ad matrimonium sicut ablutio exterior ad
+              Baptismum.</p>
+            <p xml:id="ta-l4d27q1-d1e426">Ad primum ergo dicendum, quod in voto non est aliqua sacramentalis obligatio, sed
+              spiritualis tantum; et ideo non oportet quod fiat ad modum materialium contractuum ad
+              hoc quod obliget, sicut est de matrimonio.</p>
+            <p xml:id="ta-l4d27q1-d1e429">Ad secundum dicendum, quod quamvis non possint vota sua mutuo verbis tales exprimere,
+              possunt tamen exprimere nutibus; et tales nutus pro verbis computantur.</p>
+            <p xml:id="ta-l4d27q1-d1e432">Ad tertium dicendum, quod, sicut dicit Hugo de sancto Vict., eos qui conjunguntur,
+              sic oportet consentire ut invicem se spontanee recipiant; quod judicatur fieri, si in
+              desponsatione non contradicant; unde verba parentum computantur in casu illo ac si
+              essent puellae: sunt enim sufficiens signum quod sunt ejus, ex quo non
+              contradicit.</p>
+
+          </div>
+          <div xml:id="ta-l4d27q1-Dd1e436">
+            <head xml:id="ta-l4d27q1-Hd1e438">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d27q1-d1e441">Ad tertiam quaestionem dicendum, quod causae sacramentales significando efficiunt,
+              unde efficiunt quod significant: et quia cum aliquis consensum suum per verba de
+              futuro exprimit, non significat se facere matrimonium, sed promittit se facturum; ideo
+              talis expressio consensus non facit matrimonium, sed dispositionem ejus, quae
+              sponsalia nominantur.</p>
+            <p xml:id="ta-l4d27q1-d1e444">Ad primum ergo dicendum, quod consensus exprimitur per verba de praesenti, et verba
+              sunt praesentia, et in praesens consentitur pro eodem tempore; sed quando consensus
+              fit per verba de futuro, verba sunt praesentia, sed consentitur in futurum; et ideo
+              non pro eodem tempore; et propter hoc non est simile.</p>
+            <p xml:id="ta-l4d27q1-d1e447">Ad secundum dicendum, quod etiam in aliis contractibus, qui verbis futuris utitur,
+              non transfert potestatem rei suae in alterum; ut si dicat, dabo tibi; sed solum quando
+              verbis praesentibus utitur.</p>
+            <p xml:id="ta-l4d27q1-d1e450">Ad tertium dicendum, quod in voto professionis actus spiritualis matrimonii per verba
+              de futuro exprimitur, scilicet obedientia, vel observantia regulae, et non ipsum
+              matrimonium spirituale. Si autem matrimonium spirituale in futuro voveatur, non est
+              votum spirituale: quia nondum ex hoc aliquis est monachus; sed se futurum monachum
+              pollicetur.</p>
+
+          </div>
+          <div xml:id="ta-l4d27q1-Dd1e454">
+            <head xml:id="ta-l4d27q1-Hd1e456">Quaestiuncula 4</head>
+            <p xml:id="ta-l4d27q1-d1e459">Ad quartam quaestionem dicendum, quod sicut se habet ablutio exterior ad Baptismum,
+              ita se habet expressio verborum ad hoc sacramentum, ut dictum est. Unde sicut si
+              aliquis ablutionem exteriorem reciperet non intendens accipere sacramentum, sed ludum
+              et dolum facere, non esset baptizatus; ita expressio verborum sine interiori consensu
+              matrimonium non facit.</p>
+            <p xml:id="ta-l4d27q1-d1e462">Ad primum ergo dicendum, quod ibi sunt duo; scilicet defectus consensus, qui sibi
+              patrocinatur in foro conscientiae, ut non astringatur vinculo matrimonii, quamvis non
+              in foro Ecclesiae, in quo judicatur secundum allegata; et dolus verborum; et hic non
+              patrocinatur nec in foro poenitentiae, nec in foro Ecclesiae, quia in utroque pro hoc
+              punitur.</p>
+            <p xml:id="ta-l4d27q1-d1e465">Ad secundum dicendum, quod si desit consensus mentalis ex parte unius, ex neutra
+              parte est matrimonium: quia matrimonium consistit in mutua conjunctione, ut dictum
+              est. Tamen probabiliter potest credi dolus non esse, nisi signa evidentia doli
+              appareant: quia de quolibet est praesumendum bonum, nisi probetur contrarium; unde
+              ille ex cujus parte dolus non est, a peccato excusatur per ignorantiam.</p>
+            <p xml:id="ta-l4d27q1-d1e468">Ad tertium dicendum, quod in tali casu Ecclesia compellit eum ad standum cum prima
+              uxore, quia judicat secundum ea quae foris apparent; nec decipitur in justitia,
+              quamvis decipiatur in facto. Sed ille debet potius excommunicationem sustinere quam ad
+              primam uxorem accedat; vel debet in alias regiones remotas fugere.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d27q1-Dd1e473" type="articulus">
+          <head xml:id="ta-l4d27q1-Hd1e475">Articulus 3</head>
+
+          <head xml:id="ta-l4d27q1-Hd1e478" type="questionTitle">Utrum alter conjugum, etiam post carnalem copulam, possit
+            altero invito ad religionem transire</head>
+
+          <div xml:id="ta-l4d27q1-Dd1e481">
+            <head xml:id="ta-l4d27q1-Hd1e483">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d27q1-d1e486">Ad tertium sic proceditur. Videtur quod alter conjugum, etiam post carnalem copulam,
+              possit, altero invito, ad religionem transire. Quia lex divina magis debet
+              spiritualibus favere quam lex humana. Sed lex humana hoc permisit. Ergo multo fortius
+              lex divina permittere debuit.</p>
+            <p xml:id="ta-l4d27q1-d1e489">Praeterea, minus bonum non impedit majus bonum. Sed matrimonii status est minus bonum
+              quam status religionis, ut patet 1 Corinth., 7. Ergo per matrimonium non debet homo
+              impediri quin possit ad religionem transire.</p>
+            <p xml:id="ta-l4d27q1-d1e492">Praeterea, in qualibet religione fit quoddam spirituale matrimonium. Sed licet de
+              leviori religione ad arctiorem transire. Ergo et licet de matrimonio leviori, scilicet
+              carnali, ad arctius, scilicet matrimonium religionis, transire, etiam invita
+              uxore.</p>
+            <p xml:id="ta-l4d27q1-d1e495">Sed contra est quod dicitur 1 Corinth., 7, ut nec etiam ad tempus vacent orationi
+              conjuges sine mutuo consensu a matrimonio abstinentes.</p>
+            <p xml:id="ta-l4d27q1-d1e499">Praeterea, nullus potest facere licite quod est in praejudicium alterius, sine ejus
+              voluntate. Sed votum religionis emissum ab uno conjugum est in praejudicium alterius:
+              quia unus habet potestatem corporis alterius. Ergo unus sine consensu alterius non
+              potest votum religionis emittere.</p>
+
+          </div>
+          <div xml:id="ta-l4d27q1-Dd1e503">
+            <head xml:id="ta-l4d27q1-Hd1e505">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d27q1-d1e508">Ulterius. Videtur quod nec etiam ante carnalem copulam. Indivisibilitas enim
+              matrimonii pertinet ad matrimonii sacramentum, inquantum, scilicet, significat
+              perpetuam conjunctionem Christi ad Ecclesiam. Sed ante carnalem copulam post consensum
+              per verba de praesenti expressum, est verum matrimonii sacramentum. Ergo non potest
+              fieri divisio per hoc quod alter ad religionem intrat.</p>
+            <p xml:id="ta-l4d27q1-d1e511">Praeterea, in ipso consensu per verba de praesenti expresso unus conjugum in alterum
+              potestatem sui corporis transfert. Ergo statim potest exigere debitum, et alter
+              tenetur reddere; et ita nec potest unus invito altero ad religionem transire.</p>
+            <p xml:id="ta-l4d27q1-d1e514">Praeterea, Matth. 19, 6: <quote xml:id="ta-l4d27q1-Qd1e516" ana="#mt19_6">quod Deus conjunxit, homo non separet</quote>. Sed
+              conjunctio quae est ante carnalem copulam, divinitus facta est. Ergo non potest
+              separari humana voluntate.</p>
+            <p xml:id="ta-l4d27q1-d1e520">Sed contra est quod, secundum Hieronymum, dominus Joannem vocavit de nuptiis.</p>
+
+          </div>
+          <div xml:id="ta-l4d27q1-Dd1e524">
+            <head xml:id="ta-l4d27q1-Hd1e526">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d27q1-d1e529">Ulterius. Videtur quod mulier non possit nubere alteri, viro ante carnalem copulam
+              religionem ingresso. Quia illud quod cum matrimonio stare potest, non solvit
+              matrimoniale vinculum. Sed adhuc manet matrimoniale vinculum inter eos qui pari voto
+              religionem intrant. Ergo ex hoc quod unus intrat religionem, alter non absolvitur a
+              vinculo matrimoniali. Sed quamdiu manet vinculum matrimoniale ad unum, non potest
+              nubere alteri. Ergo et cetera.</p>
+            <p xml:id="ta-l4d27q1-d1e532">Praeterea, vir post ingressum religionis potest ante professionem redire ad saeculum.
+              Si ergo mulier posset alteri nubere, viro intrante religionem, et ipse posset aliam
+              ducere rediens ad saeculum; quod est absurdum.</p>
+            <p xml:id="ta-l4d27q1-d1e535">Praeterea, per decretalem novam, professio ante annum emissa pro nulla reputatur.
+              Ergo si post talem professionem ad uxorem redeat, tenetur eum recipere: ergo neque per
+              introitum viri in religionem, neque per votum datur mulieri potestas nubendi alteri:
+              alias una mulier haberet duos viros.</p>
+            <p xml:id="ta-l4d27q1-d1e538">Sed contra, nullus potest alterum obligare ad ea quae sunt perfectionis. Sed
+              continentia est de his quae ad perfectionem pertinent. Ergo mulier non arctatur ad
+              continentiam ex hoc quod vir ad religionem ingreditur, et sic potest nubere.</p>
+          </div>
+          <div xml:id="ta-l4d27q1-Dd1e543">
+            <head xml:id="ta-l4d27q1-Hd1e545">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d27q1-d1e548">Respondeo dicendum ad primam quaestionem, quod nullus potest facere oblationem Deo de
+              alieno; unde cum per matrimonium consummatum jam sit corpus viri factum uxoris, non
+              potest absque consensu ipsius Deo ipsum offerre per continentiae votum.</p>
+            <p xml:id="ta-l4d27q1-d1e551">Ad primum ergo dicendum, quod lex humana considerabat matrimonium solum inquantum est
+              in officium; sed lex divina secundum quod est sacramentum, ex quo habet omnimodam
+              indivisibilitatem; et ideo non est simile.</p>
+            <p xml:id="ta-l4d27q1-d1e554">Ad secundum dicendum, quod non est inconveniens majus bonum impediri per minus bonum
+              quod habet contrarietatem ad ipsum, sicut etiam bonum per malum impeditur.</p>
+            <p xml:id="ta-l4d27q1-d1e557">Ad tertium dicendum, quod in qualibet religione contrahitur matrimonium ad unam
+              personam, scilicet Christum, cui quantum ad plura obligatur aliquis in una religione
+              quam in alia; sed matrimonium materiale et religionis non fiunt ad unam personam; et
+              ideo non est simile.</p>
+
+          </div>
+          <div xml:id="ta-l4d27q1-Dd1e561">
+            <head xml:id="ta-l4d27q1-Hd1e563">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d27q1-d1e566">Ad secundam quaestionem dicendum, quod ante carnalem copulam est inter conjuges
+              tantum spirituale vinculum, sed post est inter eos etiam vinculum carnale; et ideo
+              sicut post carnalem copulam matrimonium solvitur per mortem carnalem, ita per
+              ingressum religionis ante carnalem copulam solvitur: quia religio est mors quaedam
+              spiritualis, qua aliquis saeculo moriens vivit Deo.</p>
+            <p xml:id="ta-l4d27q1-d1e569">Ad primum ergo dicendum, quod matrimonium ante carnalem copulam significat illam
+              conjunctionem quae est Christi ad animam per gratiam; quae quidem solvitur per
+              dispositionem spiritualem contrariam, scilicet peccatum; sed per carnalem copulam
+              significat conjunctionem ad Ecclesiam quantum ad assumptionem humanae naturae in
+              unitatem personae, quae omnino est indivisibilis.</p>
+            <p xml:id="ta-l4d27q1-d1e572">Ad secundum dicendum, quod ante carnalem copulam non est omnino translatum corpus
+              unius sub potestate alterius, sed sub conditione si interea alter conjugum ad frugem
+              melioris vitae non convolet: sed per carnalem copulam completur dicta translatio, quia
+              tunc intrat uterque in corporalem possessionem sibi traditae potestatis; unde etiam
+              ante carnalem copulam non statim tenetur reddere debitum post matrimonium contractum
+              per verba de praesenti; sed datur ei tempus duorum mensium, propter tria. Primo, ut
+              interim possit deliberare de transeundo ad religionem. Secundo, ut praeparentur quae
+              sunt necessaria ad solemnitatem nuptiarum. Tertio, ne vilem habeat maritus datam quam
+              non suspiravit dilatam.</p>
+            <p xml:id="ta-l4d27q1-d1e575">Ad tertium dicendum, quod conjunctio matrimonialis ante carnalem copulam est quid
+              imperfectum quantum ad esse primum, ut supra dictum est, sed non consummata quantum ad
+              actum secundum qui est operatio; et similatur possessioni corporali; et ideo nec
+              omnimodam indivisibilitatem habet.</p>
+
+          </div>
+          <div xml:id="ta-l4d27q1-Dd1e579">
+            <head xml:id="ta-l4d27q1-Hd1e581">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d27q1-d1e584">Ad tertiam quaestionem dicendum, quod sicut corporalis mors viri hoc modo vinculum
+              matrimoniale solvit ut mulier nubat cui vult secundum apostoli sententiam, ita etiam
+              post mortem spiritualem viri per religionis ingressum poterit cui voluerit nubere.</p>
+            <p xml:id="ta-l4d27q1-d1e587">Ad primum ergo dicendum, quod quando uterque pari voto continentiam vovet, tunc
+              neuter conjugali vinculo abrenuntiat; et ideo adhuc manet; sed quando unus tantum
+              vovet, tunc quantum est in se, abrenuntiat vinculo conjugali; et ideo alter absolvitur
+              a vinculo illo.</p>
+            <p xml:id="ta-l4d27q1-d1e590">Ad secundum dicendum, quod non intelligitur mortuus saeculo per religionis ingressum,
+              quousque professionem emiserit; et ideo usque ad tempus illud tenetur eum uxor sua
+              expectare.</p>
+            <p xml:id="ta-l4d27q1-d1e593">Ad tertium dicendum, quod de professione sic emissa ante tempus determinatum a jure,
+              est idem judicium quod de voto simplici; unde sicut post votum simplex viri mulier ei
+              reddere debitum non tenetur, tamen ipsa non haberet potestatem alteri nubere; ita et
+              hic.</p>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

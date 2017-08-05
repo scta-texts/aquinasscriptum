@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 5, Quaestio 1</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Librum IV, Distinctio 5, Quaestio 1</title>
+          <date when="2016-03-18">March 18, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-18">March 18, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness>1856 editum</witness>
+          <witness xml:id="G" n="ghent567">Ghent, Belgium, Ghent University Library, 567</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="0.0.0-dev">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+
+
+
+
+      <div xml:id="starts-on"> 
+        <cb ed="#G" n="69b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ta-l4d5q1">
+        <head xml:id="ta-l4d5q1-Hd1e97">Librum IV, Distinctio 5, Quaestio 1</head>
+        <div xml:id="ta-l4d5q1-Dd1e100">
+          <head xml:id="ta-l4d5q1-Hd1e102">Prooemium</head>
+          <p xml:id="ta-l4d5q1-d1e105">Postquam determinavit Magister de Baptismo per comparationem ad recipientes, hic
+            determinat de ipso per comparationem ad dantes; et dividitur in duas partes: in prima
+            ostendit a quibus dari possit Baptismus; in secunda a quibus et qualiter dari debeat, 6
+            dist.: <quote xml:id="ta-l4d5q1-Qd1e107">nunc quibus liceat baptizare, addamus</quote>. Prima in tres: in prima
+            ostendit a quibus dari possit Baptismus, quia a bonis et a malis; in secunda assignat
+            hujus rationem, ibi: <quote xml:id="ta-l4d5q1-Qd1e110">quia ministerium tantum habent, non potestatem
+              Baptismi</quote>; in tertia removet quamdam dubitationem, ibi: <quote xml:id="ta-l4d5q1-Qd1e113">hic quaeritur
+              quae sit potestas Baptismi quam Christus sibi retinuit</quote>. Hic est duplex
+            quaestio. Prima de potestate baptizandi. Secunda de ipsis baptizantibus. Circa primum
+            quaeruntur tria: 1 quam potestatem Christus, secundum quod homo, in baptizando habuit; 2
+            quam ministris contulerit; 3 quam conferre potuerit, sed non contulit.</p>
+        </div>
+        <div xml:id="ta-l4d5q1-Dd1e118" type="articulus">
+          <head xml:id="ta-l4d5q1-Hd1e120">Articulus 1</head>
+
+          <head xml:id="ta-l4d5q1-Hd1e123" type="questionTitle">Utrum Christus, secundum quod homo, habuit potestatem
+            dimittendi peccata</head>
+
+          <p xml:id="ta-l4d5q1-d1e126">Ad primum sic proceditur. Videtur quod Christus, secundum quod homo, habuit potestatem
+            dimittendi peccata. Matth. 9, 6, dicitur: <quote xml:id="ta-l4d5q1-Qd1e128" ana="#mt9_6">ut autem sciatis quia filius hominis
+              habet potestatem in terra dimittendi peccata, dixit paralytico: surge, et
+              ambula</quote>. Sed non oportebat signum ostendere ad probandum quod Deus haberet
+            potestatem dimittendi peccatum: quia hoc Judaei confitebantur. Ergo etiam secundum quod
+            homo habuit hanc potestatem.</p>
+          <p xml:id="ta-l4d5q1-d1e132">Praeterea, Christus, secundum quod homo, est redemptor, ut in 3, dist. 19, qu. 1, art.
+            4, quaestiunc. 1, dictum est. Sed non potest aliquis liberari a servitute peccati nisi
+            sibi peccatum dimissum sit. Ergo Christus, secundum quod homo, habuit potestatem
+            dimittendi peccata.</p>
+          <p xml:id="ta-l4d5q1-d1e135">Praeterea, super illud Joan. 5: <quote xml:id="ta-l4d5q1-Qd1e137">sicut pater suscitat mortuos</quote> etc., dicit
+            Augustinus: <quote xml:id="ta-l4d5q1-Qd1e140">judicat, et suscitat corpora, non pater, sed filius, secundum
+              humanitatis dispensationem, qua minor est patre</quote>. Sed suscitatio corporum
+            attestatur suscitationi animarum, quae fit per dimissionem peccati. Ergo Christus,
+            secundum quod homo, potuit peccatum dimittere.</p>
+          <p xml:id="ta-l4d5q1-d1e145">Praeterea, majus est imperium ejus quam invocatio nominis ejus. Sed ad invocationem
+            nominis Christi dabatur Baptismus et remissio peccatorum in primitiva Ecclesia. Ergo et
+            ipse Christus suo imperio poterat peccata dimittere.</p>
+          <p xml:id="ta-l4d5q1-d1e148">Praeterea, Christus amplioris gloriae prae Moyse habitus est, quia non sicut servus vel
+            minister, sicut Moyses, est in domo Dei, sed sicut dominus et heres, ut dicitur Hebr. 3.
+            Sed si non haberet potestatem dimittendi peccatum, secundum quod homo, non esset sicut
+            dominus, sed solum sicut minister, sicut et alii. Ergo habet potestatem dimittendi
+            peccata.</p>
+          <p xml:id="ta-l4d5q1-d1e151">Sed contra, illud quod est solius Dei, non convenit Christo inquantum est homo. Sed
+            dimittere peccatum est hujusmodi; ut patet Isai. 43: <quote xml:id="ta-l4d5q1-Qd1e153">ego sum qui deleo
+              iniquitates tuas propter me</quote>. Ergo non convenit Christo.</p>
+          <p xml:id="ta-l4d5q1-d1e157">Praeterea, nulli dimittitur peccatum, nisi per spiritum sanctum. Sed Christus, secundum
+            quod homo, non poterat dare spiritum sanctum, ut 
+            <cit>
+              <ref target="http://scta.info/resource/ta-l1d15q5-Dd1e3559">dist. 15, 1 Lib., quaest. 5, art. 1,
+            quaestiunc. 4</ref>
+              <bibl><ref target="http://scta.info/resource/ta-l1d15q5-Dd1e3559">Vide Supra, I, d. 15, q. 5, a. 1, qc. 4</ref></bibl>
+            </cit>, 
+            dictum est. Ergo non potest remittere peccata secundum quod homo.</p>
+          <p xml:id="ta-l4d5q1-d1e160">Praeterea, Augustinus dicit, quod Christus secundum quod est filius Dei, est vita quae
+            vivificat animas. Sed quod convenit sibi inquantum est filius Dei, non competit ei
+            secundum quod est homo. Ergo vivificare animas remittendo peccata, non competit ei
+            secundum quod homo.</p>
+          <p xml:id="ta-l4d5q1-d1e163">Respondeo dicendum, quod triplex est potestas absolvendi a peccato in Baptismo. Una
+            potestas auctoritatis; et haec solius Dei est, quia propria virtute peccata dimittit,
+            quasi principalis causa remissionis peccati; unde tali potestate Christus, secundum quod
+            homo, peccata remittere non poterat. Alia potestas est ministerii, quae eis competit qui
+            sacramenta dispensant, in quibus divina virtus secretius operatur salutem. Tertia est
+            media inter has duas, quae dicitur potestas excellentiae; et hanc Christus prae aliis
+            habuit. Attenditur autem haec excellentia quantum ad tria. Primo quantum ad hoc quod ex
+            merito passionis ejus Baptismus efficaciam habet, non autem ex merito alicujus alterius
+            baptizantis; unde non est melior Baptismus a meliore baptizante datus. Secundo quantum
+            ad hoc quod Christus sine sacramento sacramentorum effectum conferre poterat quasi
+            dominus et institutor sacramentorum; quod de aliis non est verum. Tertio quantum ad hoc
+            quod ad invocationem nominis ejus dabatur remissio peccatorum in Baptismo in primitiva
+            Ecclesia. Sed quia secundae rationes videntur procedere de prima potestate, ideo
+            concedendae sunt illae, et respondendum est ad primas.</p>
+          <p xml:id="ta-l4d5q1-d1e167">Ad primum ergo dicendum, quod filius hominis habebat potestatem auctoritatis dimittendi
+            peccata, non secundum quod homo, sed secundum quod Deus; et ideo per miraculum ostensum
+            hic probatur quod ille homo esset Deus, cui natura obediebat quasi proprio creatori.</p>
+          <p xml:id="ta-l4d5q1-d1e170">Ad secundum dicendum, quod redemptor dicitur dupliciter. Uno modo propter usum
+            potestatis auctoritativae in absolvendo a peccato, et sic Christus secundum quod Deus,
+            redemptor est. Alio modo propter effectum humilitatis; et sic competit ei secundum quod
+            homo, inquantum per humilitatem passionis nobis remissionem meruit peccatorum; et hoc
+            pertinet ad potestatem excellentiae, ut dictum est.</p>
+          <p xml:id="ta-l4d5q1-d1e173">Ad tertium dicendum, quod potestas quam Christus secundum quod homo habuit suscitandi
+            corpora, non est potestas tantum ministerii, sicut et Petrus mortuos suscitavit; neque
+            est iterum potestas auctoritatis, quia hoc solius Dei est: sed est potestas cujusdam
+            excellentiae, quae ei competit ex unione ad Deum, ut scilicet imperio, non prece,
+            mortuos suscitaret: et similiter habuit potestatem excellentiae in remittendo
+            peccata.</p>
+          <p xml:id="ta-l4d5q1-d1e176">Ad quartum dicendum, quod hoc quod ad invocationem nominis ejus conferebatur remissio
+            peccatorum in Baptismo, pertinet ad potestatem excellentiae.</p>
+          <p xml:id="ta-l4d5q1-d1e179">Ad quintum dicendum, quod non habuit tantum ministerii potestatem, sed altiorem, ut
+            dictum est.</p>
+        </div>
+        <div xml:id="ta-l4d5q1-Dd1e183" type="articulus">
+          <head xml:id="ta-l4d5q1-Hd1e185">Articulus 2</head>
+
+          <head xml:id="ta-l4d5q1-Hd1e188" type="questionTitle">Utrum Christus ministris contulerit potestatem cooperandi ad
+            interiorem emundationem</head>
+
+          <p xml:id="ta-l4d5q1-d1e191">Ad secundum sic proceditur. Videtur quod ministris contulerit potestatem cooperandi ad
+            interiorem emundationem. Ministris enim data est aliqua spiritualis potestas. Sed ad
+            emundationem corporalem non requiritur aliqua spiritualis potestas, sed sufficit
+            corporalis. Ergo ministri cooperantur ad emundationem interiorem.</p>
+          <p xml:id="ta-l4d5q1-d1e194">Praeterea, sicut sanctificatio quaedam adhibetur rebus sacramentalibus, ita etiam
+            ministris sacramentorum. Sed res sacramentales ex sanctificatione invisibilem gratiam
+            continent et conferunt, secundum Hugonem de sancto Victore. Ergo ministri sanctificati,
+            in sua sanctificatione ad interiorem emundationem, quae est per gratiam, operantur.</p>
+          <p xml:id="ta-l4d5q1-d1e197">Praeterea, inter creaturas dignior est creatura rationalis quam aliqua forma
+            accidentalis. Sed gratia operatur interius ad peccati remissionem. Ergo et homo multo
+            fortius habet potestatem interius cooperandi.</p>
+          <p xml:id="ta-l4d5q1-d1e201">Praeterea, omnis actio alicujus formae attribuitur habenti formam illam, quia calor
+            agit secundum calidum. Sed remissio culpae est actio gratiae. Ergo habenti gratiam
+            competit cooperari ad remissionem culpae.</p>
+          <p xml:id="ta-l4d5q1-d1e204">Praeterea, secundum Dionysium, ad ministros Ecclesiae pertinet purgare, illuminare,
+            perficere. Sed purgatio in Ecclesia fit a sordibus mentis. Ergo ministri Ecclesiae
+            cooperantur ad interiorem emundationem.</p>
+          <p xml:id="ta-l4d5q1-d1e207">Sed contra, emundatio interior a peccatis fit per spiritum sanctum. Sed ministri
+            Ecclesiae non dant spiritum sanctum. Ergo nec cooperantur ad interiorem
+            emundationem.</p>
+          <p xml:id="ta-l4d5q1-d1e210">Praeterea, majus est justificare impium quam creare caelum et terram. Sed in creatione
+            caeli et terrae nihil Deo cooperatur. Ergo nec in justificatione impii.</p>
+          <p xml:id="ta-l4d5q1-d1e213">Praeterea, hominis operatio etiam in actibus hierarchicis est sub operatione Angeli, ut
+            dicit Dionysius. Sed Angeli non possunt imprimere in affectum, ut in 2 Lib., dist. 8,
+            qu. 1, art. 5, dictum est. Ergo cum affectum oporteat a peccatis mundari, videtur quod
+            nec cooperentur ad emundationem interiorem.</p>
+          <p xml:id="ta-l4d5q1-d1e216">Respondeo dicendum, quod cooperari alicui agenti dicitur quatuor modis. Uno modo sicut
+            adjuvans ei cui auxilium praebet, cooperatur. Alio modo sicut consilium praebens. Tertio
+            modo sicut quo mediante agens primum suum effectum inducit, sicut cooperantur
+            instrumenta principali agenti. Quarto modo sicut disponens materiam ad effectum agentis
+            principalis suscipiendum. Primis ergo duobus modis in nulla actione aliquid Deo
+            cooperatur propter perfectam ejus potentiam, quae auxilio non indiget, et propter
+            perfectam sapientiam, quae non indiget consilio, Isai. 40, 13: <quote xml:id="ta-l4d5q1-Qd1e218">quis adjuvit
+              spiritum domini, aut quis consiliarius ejus fuit?</quote> Sed tertio modo cooperatur
+            aliqua creatura Deo in aliqua actione, non tamen in omnibus. Cum enim Deus sit primum
+            agens omnium naturalium actionum, quidquid natura agit, hoc efficit quasi instrumentale
+            agens cooperans primo agenti, quod est Deus. Sed quaedam sunt quae sibi Deus retinuit,
+            immediate ea operans; et in his creatura Deo non cooperatur hoc tertio modo, sed quarto
+            modo potest ei cooperari; sicut patet in creatione animae rationalis, quam immediate
+            Deus producit, sed tamen natura disponit materiam ad animae rationalis receptionem. Et
+            quia recreatio animae rationalis creationi ipsius respondet, ideo in emundatione ipsius
+            immediate operatur; nec aliquis ei quantum ad hoc cooperatur tertio modo, sed quarto; et
+            hoc dupliciter: vel ex opere operante, sive docendo, sive merendo; et sic homines ei
+            cooperantur in peccatorum remissione, de quibus dicitur 1 Corinth. 3, 9: <quote xml:id="ta-l4d5q1-Qd1e221">Dei
+              adjutores sumus</quote>, vel ex opere operato, sicut qui conferunt sacramenta, quae ad
+            gratiam disponunt, per quam fit remissio peccatorum; et haec est cooperatio ministerii,
+            quae ministris Ecclesiae competit, de quibus dicitur 1 Corinth. 4, 1: <quote xml:id="ta-l4d5q1-Qd1e224">sic nos
+              existimet homo ut ministros Christi</quote>.</p>
+          <p xml:id="ta-l4d5q1-d1e229">Ad primum ergo dicendum, quod potestas spiritualis quae ministris Ecclesiae conceditur,
+            ad aliquid interius se extendit, sicut virtus sacramentalis sed non ad collationem
+            gratiae, per quam est remissio peccatorum, nisi dispensando, sicut et de sacramentis
+            dictum est.</p>
+          <p xml:id="ta-l4d5q1-d1e232">Unde patet solutio ad secundum.</p>
+          <p xml:id="ta-l4d5q1-d1e235">Ad tertium dicendum, quod gratia non remittit culpam effective, sed formaliter, sicut
+            albedo aufert nigredinem; et ideo non sequitur quod creaturae rationali competat, quae
+            non est forma.</p>
+          <p xml:id="ta-l4d5q1-d1e238">Ad quartum dicendum, quod est duplex operatio formae alicujus: scilicet prima, quae
+            pertinet ad informationem subjecti sicut scientia et secunda, quae dicitur usus vel
+            actio, sicut considerare. Primam ergo operationem non participat habens formam, sed
+            solum secundam. Remittere autem culpam competit gratiae quantum ad operationem primam;
+            sicut albedo eadem ratione qua facit album, aufert et nigredinem a subjecto in quo est;
+            et ideo non oportet quod habens gratiam, hoc per gratiam participet.</p>
+          <p xml:id="ta-l4d5q1-d1e241">Ad quintum dicendum, quod purgatio, de qua Dionysius loquitur, est a tenebris
+            ignorantiae, sicut ipsemet dicit; unde magis pertinet ad intellectum quam ad
+            affectum.</p>
+        </div>
+        <div xml:id="ta-l4d5q1-Dd1e245" type="articulus">
+          <head xml:id="ta-l4d5q1-Hd1e247">Articulus 3</head>
+
+          <head xml:id="ta-l4d5q1-Hd1e250" type="questionTitle">Utrum ministris conferri potuerit a Deo potestas
+            cooperationis</head>
+          <div xml:id="ta-l4d5q1-Dd1e253">
+            <head xml:id="ta-l4d5q1-Hd1e255">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d5q1-d1e258">Ad tertium sic proceditur. Videtur quod ministris conferri potuit a Deo potestas
+              cooperationis. Nam super illud Joan. 1: <quote xml:id="ta-l4d5q1-Qd1e260">hic est qui baptizat</quote>, dicit
+              Augustinus, quod Joannes dicit, quod potestatem mundandi a peccatis Christus dare
+              potuit, sed non dedit: dedit autem potestatem ministerii. Ergo videtur quod potuerit
+              dare, potestatem cooperationis.</p>
+            <p xml:id="ta-l4d5q1-d1e264">Praeterea, major est potestas auctoritatis quam cooperationis. Sed super illud 1
+              Corinth. 1: <quote xml:id="ta-l4d5q1-Qd1e266">divisus est Christus?</quote> Dicit Glossa, quod potuit eis dare
+              potestatem baptizandi quibus contulit ministerium. Ergo multo fortius potuit dare
+              cooperationem interius emundandi.</p>
+            <p xml:id="ta-l4d5q1-d1e270">Praeterea, plus est expellere Daemonem quam seminatum per ipsum, scilicet peccatum.
+              Sed Deus dedit hominibus potestatem Daemones expellendi, ut patet Luc. 10. Ergo multo
+              fortius potuit dare potestatem expellendi peccatum.</p>
+            <p xml:id="ta-l4d5q1-d1e273">Sed contra, omne agens oportet quod sit simul cum patiente, ut probatur in 7 Phys.
+              Sed non potest conferri alicui creaturae quod illabatur in animam rationalem. Ergo non
+              potest conferri quod cooperetur ad interiorem emundationem.</p>
+            <p xml:id="ta-l4d5q1-d1e277">Praeterea, gratia est quaedam inchoatio gloriae. Sed non potest alicui creaturae
+              communicari quod ab ipsa sit gloria, sicut neque quod sit summum bonum. Ergo potestas
+              cooperationis ad gratiam habendam, per quam fit peccatorum remissio, homini conferri
+              non potuit.</p>
+          </div>
+          <div xml:id="ta-l4d5q1-Dd1e281">
+            <head xml:id="ta-l4d5q1-Hd1e283">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d5q1-d1e286">Ulterius. Videtur quod nec potestas excellentiae. Quia Matth. 25, dicitur, quod dedit
+              unicuique secundum propriam virtutem. Sed non dedit potestatem excellentiae nisi soli
+              Christo. Ergo non potuit aliis conferri.</p>
+            <p xml:id="ta-l4d5q1-d1e289">Praeterea, potestas excellentiae competit Christo, secundum quod meritum ejus
+              operatur ad remissionem omnium peccatorum, ut dictum est. Sed hoc non competit Christo
+              nisi secundum quod ejus meritum habet quamdam infinitatem, ut in 3 Lib. dictum est,
+              dist. 18, quaest. 2, art. 6, quaestiunc. 1, et dist. 19, quaest. 1, art. 1,
+              quaestiunc. 1. Cum ergo habere efficaciam infinitam in merendo non possit alicui
+              creaturae purae conferri, videtur quod nec potestas excellentiae.</p>
+            <p xml:id="ta-l4d5q1-d1e292">Praeterea, potestas excellentiae competit Christo secundum quod est caput Ecclesiae
+              de cujus plenitudine omnes accipimus. Sed hoc competit ei quia est unigenitus a patre,
+              ut dicitur Joan. 1. Ergo nulli purae creaturae communicari potuit.</p>
+            <p xml:id="ta-l4d5q1-d1e295">Sed contra, quidquid competit Christo secundum quod homo, potest et alii homini
+              communicari. Sed potestas excellentiae, ut dictum est, competit Christo secundum quod
+              homo est. Ergo potest aliis hominibus communicari.</p>
+            <p xml:id="ta-l4d5q1-d1e299">Praeterea, ad potestatem excellentiae pertinet quod ad invocationem nominis Christi
+              remissio peccatorum in ipso detur. Sed potuit etiam hoc Deus conferre Petro vel Paulo,
+              ut ad invocationem nominis ejus Baptisma conferretur, ut dicit Glossa 1 Corinth., 1.
+              Ergo potestas excellentiae potuit aliis conferri.</p>
+          </div>
+          <div xml:id="ta-l4d5q1-Dd1e303">
+            <head xml:id="ta-l4d5q1-Hd1e305">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d5q1-d1e308">Ulterius. Videtur quod potentia creandi potuerit creaturae communicari. Plus enim
+              Deus potest facere quam homo possit intelligere; quia <quote xml:id="ta-l4d5q1-Qd1e310">non est impossibile apud
+                Deum omne verbum</quote>, ut dicitur Luc. 1, 37. Sed quidam philosophi posuerunt in
+              aliquibus creaturis potentiam creandi, sicut Avicenna, qui dicit, quod intelligentia
+              prima producit secundam, et sic deinceps. Ergo Deus posset hoc creaturae
+              communicare.</p>
+            <p xml:id="ta-l4d5q1-d1e314">Praeterea, nihil potentiae divinae absolute acceptae subtrahendum est quod in se
+              contradictionem non implicat vel defectum. Sed quod aliqua creatura habeat potentiam
+              creandi hoc nullam contradictionem implicat, ut videtur; neque in aliquem defectum
+              sonat, immo magis in perfectionem divinam: quia perfectum est quod potest alterum
+              facere quale ipsum est, ut dicitur in 4 Meteor.; et sic non ponit imperfectionem in
+              Deo, quod ipse creator alios creatores constituat. Ergo hoc potentiae ejus
+              subtrahendum non est.</p>
+            <p xml:id="ta-l4d5q1-d1e317">Praeterea, forma est nobilior quam materia. Sed aliquibus creaturis collatum est ut
+              possint producere formas. Ergo et potuit creaturae conferri ut possit producere
+              materiam; et hoc est creare: ergo potentia creandi creaturae communicari potuit.</p>
+            <p xml:id="ta-l4d5q1-d1e320">Praeterea, quanto est major resistentia tanto est major difficultas in actione. Sed
+              contrarium magis resistit actioni quam non ens, quod non potest agere. Si ergo
+              creaturae collatum est ut possit aliquid ex contrario facere, multo fortius potuit ei
+              conferri ut possit aliquid ex non ente facere, quod est creare.</p>
+            <p xml:id="ta-l4d5q1-d1e324">Sed contra, creaturae non potest conferri quod habeat potentiam infinitam, cum sit
+              essentiae finitae. Sed creatio est opus potentiae infinitae, quod patet per distantiam
+              infinitam quae est inter ens et non ens. Ergo potentia creandi creaturae communicari
+              non potuit.</p>
+            <p xml:id="ta-l4d5q1-d1e327">Praeterea, creatori debetur latria. Sed hoc non potest creaturae communicari ut ei
+              latria debeatur, sicut nec quod sit Deus. Ergo creaturae non potest communicari
+              potentia creandi.</p>
+            <p xml:id="ta-l4d5q1-d1e330">Praeterea, nihil agit nisi secundum quod est actu. Sed creaturae non potest
+              communicari quod sit actus purus. Ergo non potest sibi communicari quod agat se tota;
+              ergo neque quod agat totum quod est in re, quod est creare.</p>
+          </div>
+          <div xml:id="ta-l4d5q1-Dd1e335">
+            <head xml:id="ta-l4d5q1-Hd1e337">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d5q1-d1e340">Respondeo dicendum ad primam quaestionem, quod dupliciter dicitur aliquid non posse
+              communicari alicui creaturae: aut quia nulli creaturae communicari potest aut quia
+              alicui potest communicari sed non isti. Quidquid enim communicatum alicui traheret
+              ipsum extra terminos suae speciei, non potest sibi communicari sicut equo non potest
+              communicari quod habeat rationem, quamvis hoc communicatum sit homini. Quod autem
+              communicatum alicui trahit ipsum extra terminos creaturae non potest alicui creaturae
+              communicari. Potestas ergo auctoritatis communicata alicui traheret ipsum extra
+              terminos creaturae: quia non potest esse quod creatura sit agens principale respectu
+              nobilissimi effectus, quo ultimo fini conjungimur, cujusmodi est gratia per quam fit
+              remissio peccatorum. Et ideo omnes dicunt, quod potestas auctoritatis nulli creaturae
+              communicari potuit. Sed de potentia cooperationis est duplex opinio. Magister enim in
+              littera videtur dicere, quod potentia cooperationis ad emundationem interiorem possit
+              alicui creaturae conferri, quamvis non sit collata: quod non potest intelligi de
+              cooperatione quae fit per modum dispositionis quia haec collata est ministris
+              Ecclesiae, ut dictum est. Alii autem dicunt contrarium, quod conferri non potuit.
+              Utraque autem opinio aliquo modo sustineri potest. Cooperatur enim aliquid Deo
+              instrumentaliter duobus modis. Uno modo ita quod per virtutem aliquam habentem esse
+              absolutum et completum in natura operetur ad effectum aliquem producendum non solum
+              secundarium, sed principalem, sicut ignis cooperatur Deo in generatione ignis
+              alterius; et hoc modo accipiendo cooperationem, non poterat conferri homini ut Deo
+              cooperetur in interiori mundatione quae fit per gratiam: quia gratia elevat hominem ad
+              vitam quandam quae est supra conditionem omnis naturae creatae; est enim esse gratiae
+              supra esse naturale et hominis et Angeli, quae sunt supremae creaturae; et ideo agens
+              quod propria virtute sibi animam assimilat per gratiam, oportet quod sit supra omnem
+              virtutem creatam, et sic talis cooperatio excedet terminos creaturae. Alio modo
+              aliquid cooperatur Deo non per virtutem quae habeat esse perfectum in natura, neque ad
+              ultimum principalem effectum directe pertingendo, sicut de sacramentis in 1 dist., qu.
+              1, art. 4, dictum est, et hoc modo cooperari Deo in interiori emundatione, ut quidam
+              dicunt, disponendo, potuit homini conferri sine sacramentis, sicut sacramenta
+              praebendo facit; et hoc modo cooperari pertinet ad potestatem excellentiae in Christo,
+              ut dictum est.</p>
+            <p xml:id="ta-l4d5q1-d1e343">Ad primum ergo dicendum, quod hoc intelligitur de potestate excellentiae quam
+              Christus habuit etiam secundum quod homo; quae includit potestatem cooperationis
+              secundo modo dictae; non autem de potestate cooperationis primo modo dictae.</p>
+            <p xml:id="ta-l4d5q1-d1e346">Ad secundum dicendum, quod auctoritas ibi accipitur non respectu emundationis, sed
+              respectu institutionis sacramentorum eis efficaciam praebendo per meritum baptizantis,
+              quod ad potestatem excellentiae pertinet; et hoc potuit eis conferri. Vel dicendum,
+              quod non loquitur de auctoritate prima sed de subauctoritate: quod patet ex eo quod
+              sequitur in Glossa: <quote xml:id="ta-l4d5q1-Qd1e348">ita scilicet quod ipse principalis auctor
+              existeret</quote>.</p>
+            <p xml:id="ta-l4d5q1-d1e352">Ad tertium dicendum, quod hominibus datur potestas expellendi Daemones quantum ad
+              effectum nocumenti corporalis, quem in vexatis faciunt, non autem quantum ad effectum
+              spiritualis nocumenti, quod est peccatum expellere, et a servitute Daemonis liberare.
+              Joan. 8, 36: <quote xml:id="ta-l4d5q1-Qd1e354">si filius vos liberaverit, vere liberi eritis</quote>.</p>
+          </div>
+          <div xml:id="ta-l4d5q1-Dd1e359">
+            <head xml:id="ta-l4d5q1-Hd1e361">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d5q1-d1e364">Ad secundam quaestionem dicendum, quod potestatem excellentiae Deus homini puro
+              conferre potuit, sed tamen non fuit decens, ne spes in homine poneretur, et ut
+              Ecclesiae unum caput esse ostenderet, a quo omnia membra spiritualem sensum et motum
+              reciperent.</p>
+            <p xml:id="ta-l4d5q1-d1e367">Ad primum ergo dicendum, quod hoc intelligitur de illis quae sunt necessaria ad
+              perfectionem hominis vel quantum ad esse naturae vel quantum ad esse gratiae. Non enim
+              oportet quod Deus homini dederit omnem gratiam gratis datam quam dare potest: quia
+              divisiones gratiarum sunt, et dat unicuique sicut vult; 1 Corinth., 12.</p>
+            <p xml:id="ta-l4d5q1-d1e370">Ad secundum dicendum, quod ad hoc quod homo purus cooperaretur Deo in interiori
+              emundatione modo praedicto non oportet quod haberet efficaciam infinitam in merendo,
+              quamvis Christus quodammodo habuerit infinitatem in merendo: quia non cooperaretur
+              respectu omnium, nec ita plene sicut Christus.</p>
+            <p xml:id="ta-l4d5q1-d1e373">Ad tertium dicendum, quod gratia capitis in Christo distinguitur a gratia unionis:
+              quamvis ex ipsa unione per quamdam condecentiam plenitudo omnis gratiae, et capitis et
+              singularis personae in illa anima fuerit. Nec tamen sequitur, si alicui quantum ad
+              aliquid potestas excellentiae conferretur, puta quod in nomine ejus Baptismus daretur
+              vel quod meritum ejus aliquo modo operaretur ad effectum Baptismi in illo baptizato,
+              quod esset simpliciter caput.</p>
+          </div>
+          <div xml:id="ta-l4d5q1-Dd1e377">
+            <head xml:id="ta-l4d5q1-Hd1e379">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d5q1-d1e382">Ad tertiam quaestionem dicendum, quod communis opinio habet, quod creatio non potest
+              alicui creaturae communicari: quia est opus infinitae potentiae, propter distantiam
+              infinitam quae est inter simpliciter ens et simpliciter non ens, inter quae est
+              mutatio creationis; potentia autem infinita non potest esse in essentia finita. Unde
+              ex hoc ipso quod ponitur potentia infinita alicui communicari, ponitur consequenter
+              quod illud habeat essentiam infinitam, et per hoc habeat esse non receptum, sed purum
+              et simplex; et sic ponitur extra terminos creaturae; et ideo nulli creaturae secundum
+              communem opinionem communicari potest talis potentia.</p>
+            <p xml:id="ta-l4d5q1-d1e385">Ad primum ergo dicendum, quod illi philosophi qui hoc posuerunt, non intellexerunt
+              plene rationem creationis, et quomodo requirit potentiam infinitam agentem; et ideo
+              non intellexerunt incompossibilitatem suae positionis.</p>
+            <p xml:id="ta-l4d5q1-d1e388">Ad secundum dicendum, quod hoc etiam implicat contradictionem, inquantum ponitur
+              creaturam habere essentiam infinitam; et per consequens non esse creaturam; et sonat
+              in defectum divinae majestatis, cui ponitur aliquid in essentiae infinitate posse
+              aequari. Non enim oportet ut quod est perfectionis apud nos, scilicet posse aliquid
+              facere aequale sibi sit perfectionis apud Deum ut scilicet possit facere aliquid
+              aequale sibi.</p>
+            <p xml:id="ta-l4d5q1-d1e391">Ad tertium dicendum, quod nullum agens creatum facit formam, quia formae non fiunt ut
+              probatur in 7 Metaph., sed educuntur de potentia materiae. Sed materia non potest
+              educi de potentia alterius; et ideo non est simile de forma et materia.</p>
+            <p xml:id="ta-l4d5q1-d1e395">Ad quartum dicendum, quod contrarium ex quo fit generatio, non impedit actionem
+              agentis nisi dupliciter. Uno modo, debilitando virtutem agentis, quod etiam non est
+              universaliter verum, sed in his tantum in quibus est mutua actio et passio, unde hoc
+              accidit. Alio modo, per se loquendo, elongando potentiam passivam patientis per
+              indispositionem a receptione effectus agentis; et hoc est in omnibus. Constat autem
+              quod nulla indispositio potest potentiam passivam tantum elongare ab effectu agentis
+              percipiendo, quantum subtractio ipsius potentiae totaliter; et ideo multo majoris
+              virtutis est facere aliquid ex nihilo quam ex contrario, simpliciter loquendo; quamvis
+              secundum quid hoc habeat aliquam difficultatem quae non est in illo. Quia tamen
+              Magister in littera dicit, quod potest creaturae communicari ministerium creationis et
+              non auctoritatis: si quis vellet eum in hoc sustinere, posset dicere, quod tunc
+              proprie aliquid creatur quando fit ex nullo praeexistente. Unde patet quod creatio de
+              sui ratione excludit praesuppositionem alicujus praeexistentis. Hoc autem contingit
+              dupliciter. Uno modo ita quod excludat omne praeexistens et ex parte agentis et ex
+              parte facti, ut scilicet creatio dicatur quando nec agit virtute alicujus prioris
+              agentis nec factum sit ex aliqua praeexistente materia: et haec est potentia
+              auctoritatis in creando, et est infinita; et ideo nulli creaturae communicari potest.
+              Alio modo ita quod excludat praeexistens ex parte facti, sed non ex parte agentis, ut
+              scilicet dicatur creatio, sed minus proprie, quando aliquid agens virtute alicujus
+              prioris agentis ex non praesupposita materia aliquem effectum producit, et sic erit
+              creationis ministerium; et ita aliqui philosophi posuerunt aliquas creaturas creare;
+              et sic Magister dicit quod potuit communicari potentia creandi, non est autem alicui
+              communicata.</p>
+            <p xml:id="ta-l4d5q1-d1e398">Secundum hoc ergo ad quintum dicendum esset secundum Magistrum, quod distantia inter
+              ens et non ens requirit absolute infinitatem potentiae in eo qui facit aliquid ex
+              simpliciter non ente. Quod enim in motibus virtus moventis proportionetur distantiae
+              quae est inter terminos, ideo contingit, quia ab illa distantia motus accipit
+              quantitatem. Quanta enim est via, tantus est motus, ut dicitur in 4 Physic. Motus
+              autem est proprius effectus virtutis moventis, inquantum hujusmodi, ei proportionatus.
+              Sed in creatione non sic est: quia non ens purum non est per se terminus creationis,
+              sed per accidens se habet ad ipsam: dicitur enim aliquid fieri ex non ente, idest post
+              non ens. Unde creatio non habet quantitatem ex distantia non entis ad ens, sed ab ente
+              quod creatur; et ideo non oportet quod potentia creantis proportionetur distantiae
+              quae est inter ens et non ens, sed solum ei quod creatur, quod non est infinitum; et
+              ideo non requiritur potentia infinita simpliciter, sed infinita secundum quid,
+              scilicet non commensurata alicui materiae determinatae, sicut sunt omnia agentia
+              naturalia et materialia: ignis enim non habet effectum nisi in aliqua materia
+              determinata, quia virtus ejus materialis est. Et ideo etiam philosophi non posuerunt
+              creationem secundo modo, nisi in substantiis incorporeis et immaterialibus. Vel
+              dicendum, quod non est distantia infinita inter ens et non ens ex parte ipsius entis,
+              nisi ens sit infinitum: quia tantum distat aliquid ab uno oppositorum, quantum
+              participat de altero; unde non distat in infinitum a non esse nisi quod esse infinitum
+              habet, scilicet Deus, cui quanto reliqua entia sunt proximiora, tanto magis a non esse
+              distant, sicut Augustinus dicit in Lib. 12 Confession., quod Angelus factus est prope
+              Deum, materia prope nihil. Sed verum est quod dicta distantia est quodammodo infinita
+              ex parte non entis simpliciter, eo quod neque determinatam distantiam ab aliquo ente
+              signato transcendit, quia nihil potest magis distare ab ente quam non ens. Contingit
+              enim aliquam distantiam esse infinitam ex una parte et finitam ex altera, sicut
+              quandocumque fit comparatio finiti ad infinitum. Nisi enim esset aliquo modo talis
+              distantia finita, non distaret minus una creatura a Deo quam altera; et nisi esset
+              aliquo modo infinita, posset intelligi aliquid magis distans a creatura quacumque quam
+              Deus. Creatio autem non respicit hanc distantiam ex parte non entis, sed magis ex
+              parte entis, quod est creationis terminus.</p>
+            <p xml:id="ta-l4d5q1-d1e401">Ad sextum dicendum, quod latria debetur creatori inquantum ipse est primum agens,
+              cujus virtute omnia alia agunt, et ipse non agit virtute alterius; et hoc non potest
+              alicui creaturae communicari.</p>
+            <p xml:id="ta-l4d5q1-d1e404">Ad septimum dicendum, quod quamvis nulla creatura sit in qua non sit aliquid de
+              potentia, ad minus secundum quod ejus natura se habet ad esse quod recipit a Deo sicut
+              potentia ad actum; tamen aliqua creatura est in qua nihil de potentia remanet quae non
+              sit completa per actum, sicut est Angelus; et ideo talis creatura se tota potest
+              agere, quamvis primum principium suae actionis sit aliquid aliud ab ipsa, scilicet
+              Deus, qui est primum agens.</p>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

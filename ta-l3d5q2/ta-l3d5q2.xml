@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum III, Distinctio 5, Quaestio 2</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.09-dev-master">
+          <title>Librum III, Distinctio 5, Quaestio 2</title>
+          <date when="2016-02-24">February 24, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-02-24">February 24, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness>1856 editum</witness>
+          <witness xml:id="H" n="harv245" xml:base="http://iiif.lib.harvard.edu/manifests/drs:51994085/canvas/">Cambridge, Mass., Harvard University, Houghton Library, MS Lat 245</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="2015.09">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+
+
+
+
+      <div xml:id="starts-on">
+        <cb ed="#H" n="25va"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ta-l3d5q2">
+        <head xml:id="ta-l3d5q2-Hd1e97">Librum III, Distinctio 5, Quaestio 2</head>
+        <div xml:id="ta-l3d5q2-Dd1e100">
+          <head xml:id="ta-l3d5q2-Hd1e102">Prooemium</head>
+          <p xml:id="ta-l3d5q2-d1e105">Deinde quaeritur de assumente; et circa hoc quaeruntur tria: 1 utrum assumere conveniat divinae personae; 2 utrum naturae; 3 utrum naturae, remota persona.</p>
+        </div>
+        <div xml:id="ta-l3d5q2-Dd1e109" type="articulus">
+          <head xml:id="ta-l3d5q2-Hd1e111">Articulus 1</head>
+          <head xml:id="ta-l3d5q2-Hd1e114" type="questionTitle">Utrum assumere conveniat divinae personae</head>
+          <p xml:id="ta-l3d5q2-d1e117">Ad primum sic proceditur. Videtur, quod personae non conveniat assumere. Sicut enim dictum est, persona significat aliquid completum et totum. Sed ultima completione completo non potest fieri additio. Ergo persona non potest ad se aliquid assumere.</p>
+          <p xml:id="ta-l3d5q2-d1e120">Praeterea, quod assumitur per participationem alicujus, aliquo modo communicat illud. Sed de ratione personae est omnimoda incommunicabilitas. Ergo non potest persona assumere ad se aliquid in participationem sui.</p>
+          <p xml:id="ta-l3d5q2-d1e123">Praeterea, persona, inquantum supponitur naturae, habet aliquam similitudinem materiae, sicut natura habet similitudinem formae. Sed magis elongatur a perfectione materia quam forma, quae est pars rei. Si ergo natura divina propter sui perfectionem non potest esse forma alicujus rei, multo minus persona divina poterit esse persona alicujus alterius naturae. Ergo non potest persona naturam assumere.</p>
+          <p xml:id="ta-l3d5q2-d1e127">Praeterea, plus repugnat simplicitati diversitas naturae et personae, quam diversitas subjecti et accidentis: quia in substantiis simplicibus creatis non differt secundum Avicennam persona a natura secundum rem, quamvis in eis differat accidens a substantia. Sed persona divina verbi non potest distingui propter suam simplicitatem proprietate quae non sit quod ipsa, nec potest esse subjectum alicujus accidentis. Ergo multo minus potest esse suppositum extraneae naturae.</p>
+          <p xml:id="ta-l3d5q2-d1e130">Sed contra, Joan. 1, 14: <quote xml:id="ta-l3d5q2-Qd1e132">verbum caro factum est</quote>; idest homo factus est. Sed non nisi per assumptionem. Cum ergo verbum sit nomen personale, oportet dicere quod persona assumat.</p>
+          <p xml:id="ta-l3d5q2-d1e136">Praeterea, assumptio terminatur ad unionem. Unio autem in persona est, ut probatum est in solutione articuli praecedentis. Ergo persona assumens est; cum assumptio, ut dictum est, dicat terminum in quo fit unio.</p>
+          <p xml:id="ta-l3d5q2-d1e139">Respondeo dicendum, quod, sicut dictum est, persona requirit completionem. In conjunctione autem aliquorum aliquando ita est quod utrumque incompletum est, sicut patet in unione materiae et formae, quorum utrumque non habet esse completum, et in mixtione, quando utrumque mixtorum partim corrumpitur; unde in talibus haec completio quam requirit persona, neutri debetur, sed composito. Aliquando autem unum praeexistit in se completum, et aliud additur et completur per completionem ejus, sicut cibus qui adjungitur homini jam completo; unde completio personalis non debetur cibo, sed homini; et hoc proprie dicitur assumi quod sic in personalitatem alterius trahitur. Cum igitur divina natura et humana quae conjunguntur, non se habeant aequaliter ad perfectionem, sed divina natura completionem habeat personalem in quo differt a forma, et in ea incorrupta permaneat, in quo differt ab his quae miscentur; oportet, si debeat fieri conjunctio, quod humana natura trahatur ad divinam personam virtute divina: alias essent duae personae, et nulla conjunctio. Et ita concedendum est, quod persona assumit.</p>
+          <p xml:id="ta-l3d5q2-d1e142">Ad primum ergo dicendum, quod persona non recipit additionem distinguentium ipsam, et complentium in esse personae, secundum quae completa esse dicitur; sed aliorum quae personalitatem non causant, non est inconveniens ut additionem recipiat: sicut Socrates recipit additionem scientiae, nutrimenti, et hujusmodi; et tamen haec non individuant ipsum. Ita etiam natura humana quae additur divinae personae, non causat personalitatem in ipsa, sed ad personalitatem ejus praeexistentem trahitur.</p>
+          <p xml:id="ta-l3d5q2-d1e145">Ad secundum dicendum, quod triplex incommunicabilitas est de ratione personae: scilicet partis, secundum quod est completum; et universalis, secundum quod est subsistens; et assumptibilis secundum quod id quod assumitur transit in personalitatem alterius et non habet personalitatem propriam. Non est autem contra rationem personae communicabilitas assumentis.</p>
+          <p xml:id="ta-l3d5q2-d1e149">Ad tertium dicendum, quod persona divina non supponitur humanae naturae quasi sub ea posita, sicut materia sub forma; sed quasi subsistens in ea, inquantum habet eam sibi unitam; unde non habet similitudinem materiae.</p>
+          <p xml:id="ta-l3d5q2-d1e152">Ad quartum dicendum, quod subjectum subjicitur accidenti, quod divinae personae convenire non potest, cum non habeat aliquid potentialitatis; sed non dicitur supponi humanae naturae, quasi ei subjiciatur, ut dictum est.</p>
+        </div>
+        <div xml:id="ta-l3d5q2-Dd1e156" type="articulus">
+          <head xml:id="ta-l3d5q2-Hd1e158">Articulus 2</head>
+          <head xml:id="ta-l3d5q2-Hd1e161" type="questionTitle">Utrum assumere conveniat naturae</head>
+          <p xml:id="ta-l3d5q2-d1e164">Ad secundum sic proceditur. Videtur, quod naturae non conveniat assumere. Quod enim convenit naturae divinae, commune est tribus personis. Sed assumere non convenit patri et spiritui sancto. Ergo nec divinae naturae.</p>
+          <p xml:id="ta-l3d5q2-d1e167">Praeterea, actus personales non dicuntur de natura, sicut generare, ut dictum est, 5 dist. 1 libri. Sed assumere proprie convenit personae. Ergo natura non assumit.</p>
+          <p xml:id="ta-l3d5q2-d1e170">Praeterea, verbum, secundum hoc quod carnem assumpsit, dicitur caro factum. Sed natura divina non dicitur caro facta. Ergo natura divina non assumpsit.</p>
+          <p xml:id="ta-l3d5q2-d1e174">Praeterea, ratione assumptionis fit communicatio idiomatum, ut dicit Damascenus. Sed ea quae sunt naturae humanae, non dicuntur de divina: non enim dicitur passa vel mortua. Ergo ejus non est assumere.</p>
+          <p xml:id="ta-l3d5q2-d1e177">Praeterea, assumere est ad se sumere. Sed divina natura non traxit naturam humanam ad se, quia non est unio facta in natura divina. Ergo divina natura non potest dici assumere.</p>
+          <p xml:id="ta-l3d5q2-d1e180">Sed contra sunt auctoritates quae jacent in littera.</p>
+          <p xml:id="ta-l3d5q2-d1e183">Praeterea, in Christo quidquid est unitum, potest dici assumens vel assumptum. Sed divina natura est unita humanae. Ergo, cum non sit assumpta, debet dici assumens.</p>
+          <p xml:id="ta-l3d5q2-d1e186">Respondeo dicendum, quod assumere dicitur tripliciter. Uno modo communiter pro sumere, et sic tota Trinitas assumpsit humanam naturam filio. Secundo dicitur proprie quasi ad se: sumere ut sibi quocumque modo uniatur; et hoc modo natura divina in persona filii assumpsit humanam naturam. Tertio dicitur propriissime, quasi ad se, et in se sumere; et sic convenit tantum personae, in qua facta est unio.</p>
+          <p xml:id="ta-l3d5q2-d1e189">Ad primum ergo dicendum, quod hoc verum est de his quae conveniunt naturae secundum se, et non ratione personae hujus vel illius, sicut assumere.</p>
+          <p xml:id="ta-l3d5q2-d1e193">Ad secundum dicendum, quod assumere tertio modo dictum, est proprium personae, et sic non convenit naturae.</p>
+          <p xml:id="ta-l3d5q2-d1e196">Ad tertium dicendum, quod natura divina assumit humanam, et unitur ei: non tamen in nomine naturae importatur suppositum, sicut in hoc nomine Deus vel verbum; et ideo dicitur Deus vel verbum, caro, idest homo, factum, non per transmutationem naturae, sed per unionem in supposito; non autem potest dici de natura divina.</p>
+          <p xml:id="ta-l3d5q2-d1e199">Ad quartum dicendum, quod communicatio idiomatum fit ratione unionis in supposito: et quia suppositum non importatur nomine naturae, sicut hoc nomine Deus vel filius; ideo non potest dici natura passa, sicut Deus passus: dicitur tamen natura incarnata: quia per hoc non importatur aliqua proprietas humanae naturae, sed sola unio ad ipsam.</p>
+          <p xml:id="ta-l3d5q2-d1e202">Ad quintum dicendum, quod natura divina sumit humanam ad se, idest ut sibi uniatur; non tamen ut in se unio fiat.</p>
+        </div>
+        <div xml:id="ta-l3d5q2-Dd1e206">
+          <head xml:id="ta-l3d5q2-Hd1e208">Articulus 3</head>
+          <head xml:id="ta-l3d5q2-Hd1e211" type="questionTitle">Utrum conveniat naturae, remotis personis</head>
+          <p xml:id="ta-l3d5q2-d1e214">Ad tertium sic proceditur. Videtur, quod natura, circumscriptis personis, assumere non possit. Natura enim sine suppositis est in nuda contemplatione tantum. Sed quod est tantum in contemplatione, non habet esse; et quod non est, non agit. Ergo natura sine personis assumere non posset.</p>
+          <p xml:id="ta-l3d5q2-d1e217">Praeterea, secundum philosophum, actiones sunt individuorum sive suppositorum. Sed assumere est actio quaedam. Cum igitur supposita divinae naturae sint ipsae personae, videtur quod natura sine personis assumere non possit.</p>
+          <p xml:id="ta-l3d5q2-d1e220">Praeterea, filius ex hoc quod assumit dicitur mitti. Sed si non essent personae distinctae, non remaneret ratio missionis: quia mittitur qui ab alio est, secundum Augustinum. Ergo sine personis distinctis non posset esse assumptio.</p>
+          <p xml:id="ta-l3d5q2-d1e224">Praeterea, assumptio oportet quod terminetur ad aliquam unionem. Sed circumscriptis personis non remaneret in quo fieret unio: quia in natura non potest fieri. Ergo natura non potest sine personis assumere.</p>
+          <p xml:id="ta-l3d5q2-d1e227">Sed contra, Angelus, Luc. 1, probavit incarnationem per Dei omnipotentiam: quia non est impossibile apud Deum omne verbum. Sed circumscriptis personis, adhuc in essentia remaneret omnipotentia. Ergo adhuc in essentia poterat fieri assumptio.</p>
+          <p xml:id="ta-l3d5q2-d1e230">Praeterea, Damascenus dicit, quod propter philanthropiam, idest amorem hominum, filius Dei naturam accepit. Sed circumscriptis personis adhuc conveniret Deo suam creaturam diligere. Ergo adhuc poterit esse assumptio.</p>
+          <p xml:id="ta-l3d5q2-d1e233">Respondeo dicendum, quod circumscriptio personae a natura divina potest dupliciter intelligi. Uno modo quod circumscribatur omnis ratio personalitatis; et sic ipsa natura neque erit subsistens in se, neque erit in aliquo subsistente; et sic non habebit esse in re, sed in intellectu; et sic non conveniet ei neque assumere, neque aliquid agere. Alio modo potest intelligi quod circumscribantur personae distinctae quas fides ponit. Eis autem circumscriptis adhuc remaneret divina natura subsistens, sicut Deum intelligunt qui non habent fidem Trinitatis, sine hoc quod intelligant ibi patrem vel filium vel spiritum sanctum; unde adhuc remanebit ibi personalitas aliqua; et secundum hoc quaestio procedit de circumscriptione personarum distinctarum, quas fides supponit; et hoc modo dicendum, quod circumscriptis personis, adhuc divinae naturae conveniet assumere.</p>
+          <p xml:id="ta-l3d5q2-d1e236">Ad primum ergo, secundum et quartum patet solutio: quia procedunt secundum primum intellectum.</p>
+          <p xml:id="ta-l3d5q2-d1e239">Ad tertium dicendum, quod missio non est de necessitate incarnationis simpliciter, sed de necessitate incarnationis filii; unde supra, distinct. 1, Magister dicit, quod pater potuit incarnari, qui tamen non potest mitti.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

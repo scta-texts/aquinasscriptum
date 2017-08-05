@@ -1,0 +1,607 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 25, Quaestio 3</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Librum IV, Distinctio 25, Quaestio 3</title>
+          <date when="2016-03-19">March 19, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-19">March 19, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness>1856 editum</witness>
+          <witness xml:id="G" n="ghent567">Ghent, Belgium, Ghent University Library, 567</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="0.0.0-dev">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+
+
+
+
+      <div xml:id="starts-on">
+        <cb ed="#G" n="433b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ta-l4d25q3">
+        <head xml:id="ta-l4d25q3-Hd1e97">Librum IV, Distinctio 25, Quaestio 3</head>
+        <div xml:id="ta-l4d25q3-Dd1e100">
+          <head xml:id="ta-l4d25q3-Hd1e102">Prooemium</head>
+          <p xml:id="ta-l4d25q3-d1e105">Deinde quaeritur de simonia; et circa hoc quaeruntur tria: 1 quid sit; 2 in quibus
+            fiat; 3 qualiter.</p>
+
+        </div>
+        <div xml:id="ta-l4d25q3-Dd1e109" type="articulus">
+          <head xml:id="ta-l4d25q3-Hd1e111">Articulus 1</head>
+
+          <head xml:id="ta-l4d25q3-Hd1e114" type="questionTitle">Utrum definitio data de simonia sit competens</head>
+
+          <div xml:id="ta-l4d25q3-Dd1e117">
+            <head xml:id="ta-l4d25q3-Hd1e119">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d25q3-d1e122">Ad primum sic proceditur. Videtur quod definitio de simonia data sit incompetens,
+              scilicet: <quote xml:id="ta-l4d25q3-Qd1e124">simonia est studiosa voluntas emendi vel vendendi aliquid spirituale,
+                vel spirituali annexum</quote>. Quia ex simonia aliquis efficitur irregularis. Sed
+              pro sola voluntate nullus efficitur irregularis. Ergo simonia non consistit in sola
+              voluntate.</p>
+            <p xml:id="ta-l4d25q3-d1e128">Praeterea, illa sola peccata fiunt per studium quae ex certa malitia committuntur.
+              Sed simonia non semper committitur ex certa malitia, sed quandoque ex infirmitate vel
+              ignorantia. Ergo in definitione ejus <quote xml:id="ta-l4d25q3-Qd1e130">studiosum</quote> poni non debet.</p>
+            <p xml:id="ta-l4d25q3-d1e134">Praeterea, omne peccatum in electione principaliter consistit. Sed voluntas eligens
+              non est de impossibili, ut dicitur in 3 Ethic., cap. 4 vel 5. Cum ergo emere
+              spirituale sit impossibile, quia donum Dei pecunia non possidetur, ut dicitur Act. 8;
+              in definitione peccati simoniae, voluntas emendi spirituale poni non debet.</p>
+            <p xml:id="ta-l4d25q3-d1e137">Praeterea, simonia a Simone mago dicitur. Sed ille noluit vendere spiritualia, sed
+              emere. Ergo non debet poni venditio in definitione simoniae.</p>
+            <p xml:id="ta-l4d25q3-d1e141">Praeterea, omnibus temporalibus propter spiritualia uti debemus. Si ergo in emptione
+              annexorum spiritualibus simonia consistit, omnis emptio vel venditio simonia erit,
+              quod falsum est.</p>
+
+          </div>
+          <div xml:id="ta-l4d25q3-Dd1e145">
+            <head xml:id="ta-l4d25q3-Hd1e147">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d25q3-d1e150">Ulterius. Videtur quod simonia sit haeresis. Quia Gregorius in registro dicit:
+                <quote xml:id="ta-l4d25q3-Qd1e152">altare, decimas et spiritum sanctum emere vel vendere, simoniacam haeresim
+                esse nullus fidelium ignorat</quote>.</p>
+            <p xml:id="ta-l4d25q3-d1e156">Praeterea, nullum peccatum est gravius infidelitate. Sed simonia est gravior: quia in
+              decretis dicitur, causa 1, quaest. 2, quod <quote xml:id="ta-l4d25q3-Qd1e158">impia haeresis Macedonii, et eorum
+                qui circa ipsum sunt, est tolerabilior quam simonia</quote>. Ergo simonia est
+              haeresis.</p>
+            <p xml:id="ta-l4d25q3-d1e162">Sed contra, omnis haeresis est contra aliquem articulum fidei, de quo non recta
+              opinio habetur. Sed aliquis simoniacus potest habere rectam opinionem de omnibus
+              articulis fidei. Ergo non est haeresis.</p>
+
+          </div>
+          <div xml:id="ta-l4d25q3-Dd1e166">
+            <head xml:id="ta-l4d25q3-Hd1e168">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d25q3-d1e171">Ulterius. Videtur quod simoniacus non perdat executionem ordinis. Quia contingit in
+              ordinatione alicujus committi simoniam eo ignorante. Sed homicidium casuale propter
+              hoc quod est per ignorantiam commissum non facit irregularitatem. Ergo et similiter
+              ille qui simoniace ordinatur.</p>
+            <p xml:id="ta-l4d25q3-d1e174">Praeterea, ab eo qui non habet executionem ordinis, nullus debet accipere
+              sacramentum. Sed ab eo quem scio simoniacum, debeo ordines accipere si mihi
+              praecipiatur, ne inobediens sim. Ergo non amittit ordinis executionem.</p>
+            <p xml:id="ta-l4d25q3-d1e177">Sed contra, videtur quod simoniacus nec ordinem recipiat. Quia defectus intentionis
+              evacuat sacramentum. Sed ille qui pretio aliquid intendit acquirere in susceptione
+              ordinis, non intendit suscipere quod Ecclesia tradit, quia illud non cadit sub pretio.
+              Ergo non suscipit ordinem.</p>
+          </div>
+          <div xml:id="ta-l4d25q3-Dd1e182">
+            <head xml:id="ta-l4d25q3-Hd1e184">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d25q3-d1e187">Respondeo dicendum ad primam quaestionem, quod materia moralium virtutum dividitur in
+              passiones et actiones, ut in 3 Lib., dist. 33, dictum est. Sicut autem in passionibus
+              potest esse peccatum ex eo quod est circa quod non oportet, vel quantum, vel quomodo,
+              et sic de aliis circumstantiis; ita et in actionibus; unde in emptione et venditione,
+              quae sunt quaedam actiones, potest esse peccatum vel in quid vel in quantum. Si in
+              quantum, sic est injustitia; sicut cum quis emit aut vendit non justo pretio: si autem
+              in quid, ut cum vendit aut emit quod non cadit sub pretio, sic est peccatum simoniaci.
+              Et quia omne peccatum in actu voluntatis consistit, ideo in definitione simoniae haec
+              tria praedicta ponuntur; et primo actus voluntatis in hoc quod dicit: <quote xml:id="ta-l4d25q3-Qd1e189">studiosa
+                voluntas</quote>; secundo materia proxima hujus peccati, scilicet emptio et
+              venditio, ibi: <quote xml:id="ta-l4d25q3-Qd1e192">emendi vel vendendi</quote>; tertio materia remota, scilicet
+              objectum actionis praedictae, ibi: <quote xml:id="ta-l4d25q3-Qd1e195">spirituale, aut spirituali
+              annexum</quote>.</p>
+            <p xml:id="ta-l4d25q3-d1e199">Ad primum ergo dicendum, quod homines judicant ea quae foris parent, sed Deus
+              intuetur cor, ut dicitur 1 Reg. 16, et ideo in simonia, et in omnibus aliis peccatis,
+              ex sola voluntate efficitur aliquis peccator secundum reatum poenae, quae ad judicium
+              Dei pertinet, sed non quantum ad reatum poenae quae pertinet ad judicium Ecclesiae;
+              unde homicida voluntate incurrit reatum poenae aeternae, sed non irregularitatem, vel
+              excommunicationem, vel aliquid hujusmodi; et similiter dicendum est de simoniaco.</p>
+            <p xml:id="ta-l4d25q3-d1e202">Ad secundum dicendum, quod unumquodque debet definiri secundum completum esse suum.
+              Complementum autem peccati et virtutis consistit in electione: et ideo electio ponitur
+              et in definitione virtutis, et in definitione peccati; et hanc electionem importat
+              studiosa voluntas.</p>
+            <p xml:id="ta-l4d25q3-d1e205">Ad tertium dicendum, quod aliquid dicitur spirituale dupliciter. Uno modo per
+              essentiam, sicut gratia et virtutes; et ista non possunt aliquo modo vendi; nec super
+              hoc voluntas deliberata emptionis cadere potest. Alio modo dicitur aliquid spirituale
+              per causam, sicut sacramenta quae sunt causa gratiae; et ista, inquantum sunt
+              corporalia quaedam, habent speciem quod vendi possunt, quamvis non ex hoc quod sunt
+              spiritualia; et sic in eis committitur simonia.</p>
+            <p xml:id="ta-l4d25q3-d1e209">Ad quartum dicendum, quod Simon magus spiritualia emere voluit, ut postea venderet;
+              et ideo in ejus emptione etiam venditio continebatur implicite; et propter hoc
+              secundum communem usum loquendi uterque vocatur simoniacus, emens et vendens; sed
+              tamen, si distincte loqui volumus, ementes dicuntur simoniaci, vendentes Giezitae:
+              quia Giezi spiritualia vendere voluit, ut patet 4 Reg. 4.</p>
+            <p xml:id="ta-l4d25q3-d1e212">Ad quintum dicendum, quod spiritualia in praedicta definitione accipiuntur, ut dictum
+              est, quae sunt spiritualis gratiae causa, sicut sacramenta: sed spiritualibus annexa,
+              quae ad usum horum sunt deputata, sicut calices, et bona ecclesiastica, quae sunt
+              deputata ad usum ministrorum: non autem dicuntur spiritualibus annexa quibus potest
+              esse usus in spiritualibus, si non sint ad hoc specialiter deputata.</p>
+
+          </div>
+          <div xml:id="ta-l4d25q3-Dd1e216">
+            <head xml:id="ta-l4d25q3-Hd1e218">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d25q3-d1e221">Ad secundam quaestionem dicendum, quod aliquid attribuitur alteri dupliciter. Uno
+              modo simpliciter, alio modo propter similitudinem actus: sicut dicit philosophus, quod
+              incontinentes quandoque dicuntur intemperati, quia faciunt quae intemperati sunt, sed
+              non eodem modo: sicut etiam dicit quod Milesii stulti non sunt, sed operantur qualia
+              stulti; et secundum hoc dicendum, quod simoniaci non sunt proprie et per se loquendo
+              haeretici, cum non habeant aliquam falsam opinionem; sed dicuntur haeretici propter
+              similitudinem actus, quia ita operantur ac si aestimarent donum spiritus sancti
+              pecunia possideri: quae aestimatio esset haeretica. Unde Gregorius in Regist. dicit:
+                <quote xml:id="ta-l4d25q3-Qd1e223">cum omnis avaritia sit idolorum servitus; quisquis hanc in ecclesiasticis
+                dignitatibus dandis non praecavet, infidelitatis perditioni subjicitur, etiam si
+                fidem quam negligit, tenere videatur</quote>.</p>
+            <p xml:id="ta-l4d25q3-d1e227">Et per hoc patet solutio ad primum.</p>
+            <p xml:id="ta-l4d25q3-d1e230">Ad secundum dicendum, quod ratione falsae aestimationis quam simoniacus in actu
+              demonstrat, dicitur simonia esse gravior quam Macedonii haeresis, qui posuit spiritum
+              sanctum esse patris et filii servum. Simoniaci autem ostendunt in suo actu se
+              aestimare quod sit servus hominis, si ab homine potest emi et vendi. Vel dicendum,
+              quod dicitur gravius peccatum propter pronitatem ad ipsum ex cupiditate humana, et
+              propter nocumentum majus, quia totum ordinem Ecclesiae pervertit.</p>
+
+          </div>
+          <div xml:id="ta-l4d25q3-Dd1e234">
+            <head xml:id="ta-l4d25q3-Hd1e236">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d25q3-d1e239">Ad tertiam quaestionem dicendum, quod efficacia sacramentorum non est ex humano
+              merito: et ideo propter hominis peccatum non impeditur sacramentum; unde peccatum
+              simoniae nec sacramentum suscipiendum impedit, nec susceptum tollit. Potest tamen
+              impedire ultimam rem sacramenti, si sit peccatum ex parte recipientis. Sed tamen per
+              simoniam aliquis ab executione ordinis aut officii suspenditur. Sed in hoc
+              distinguendum est. Quia si dicatur simoniacus ex hoc quod recipit ordinem per
+              simoniam, non recipit executionem, et est ipso jure suspensus et quo ad se, et quo ad
+              alios: et punitur ulterius per depositionem, quando constiterit de crimine judici. Si
+              autem dicatur simoniacus, quia contulit ordinem simoniace, vel quia dedit vel recepit
+              simoniace beneficium, vel quia mediator fuit simoniae; si sit occultum, suspensus est
+              ipso jure quo ad se: si autem manifestum est, suspensus est quo ad se, et quo ad
+              alios. Et iterum ille qui recepit beneficium per simoniam, tenetur ad restitutionem
+              omnium fructuum perceptorum, et beneficio renuntiare.</p>
+            <p xml:id="ta-l4d25q3-d1e242">Ad primum ergo dicendum, quod propter homicidium non fit aliquis defectus in ipsa
+              ordinatione, sed in ordinato tantum; et ideo sufficit quod ordinatus sit immunis ab
+              homicidio: sed per simoniam fit defectus in ipsa ordinatione; et ideo etiam si ipse
+              sit immunis, tamen est suspensus, quando ad notitiam ejus devenerit.</p>
+            <p xml:id="ta-l4d25q3-d1e245">Ad secundum dicendum, quod quando est manifestum crimen simoniae, tunc amittit
+              executionem, et suspensus est quo ad se et quo ad alios: sed quando est occultum, tunc
+              est suspensus quo ad se tantum; et ideo si sit manifestum, secundum quod in jure
+              aliquid dicitur manifestum; tunc nullo modo aliquis debet obedire, nec ab eo ordinem
+              suscipere. Si autem non sit manifestum; si non potest subterfugere, debet obedire,
+              etiam si ipse sciat eum esse simoniacum qui ordines celebrat.</p>
+            <p xml:id="ta-l4d25q3-d1e248">Ad tertium dicendum, quod ipse non intendit emere illud quod est per se spirituale,
+              ut characterem; sed operationem ministri, quae est corporalis, et causa sacramentalis
+              rei spiritualis.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d25q3-Dd1e253" type="articulus">
+          <head xml:id="ta-l4d25q3-Hd1e255">Articulus 2</head>
+
+          <head xml:id="ta-l4d25q3-Hd1e258" type="questionTitle">Utrum sacramenta possint emi et vendi sine simonia</head>
+
+          <div xml:id="ta-l4d25q3-Dd1e261">
+            <head xml:id="ta-l4d25q3-Hd1e263">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d25q3-d1e266">Ad secundum sic proceditur. Videtur quod sacramenta possint emi et vendi sine
+              simonia. Quia finis omnium sacramentorum est regnum caelorum, et remissio peccatorum.
+              Sed regnum caelorum emitur, ut Gregorius dicit: <quote xml:id="ta-l4d25q3-Qd1e268">regnum caelorum tantum valet,
+                quantum habes</quote>; et Dan. 4, 24, dicitur: <quote xml:id="ta-l4d25q3-Qd1e271">peccata tua eleemosynis
+                redime</quote>. Ergo multo fortius sacramenta emi possunt absque vitio simoniae.</p>
+            <p xml:id="ta-l4d25q3-d1e275">Praeterea, matrimonium sacramentum quoddam est. Sed matrimonium aliquando contrahitur
+              interveniente pactione de aliqua pecunia solvenda sine peccato. Ergo sacramenta licite
+              possunt emi.</p>
+            <p xml:id="ta-l4d25q3-d1e278">Praeterea, Baptismus est sacramentum primum. Sed in aliquo casu, scilicet quando
+              sacerdos sine pretio puerum baptizare nollet, aliquis posset emere Baptismum sine
+              peccato simoniae, ne puer in aeternum periret absque Baptismo decedens. Ergo
+              sacramenta possunt emi sine peccato.</p>
+            <p xml:id="ta-l4d25q3-d1e281">Praeterea, in Missa conficitur Eucharistia, quae est sacramentum sacramentorum. Sed
+              licet cantare Missam pro aliquo pretio, quia nemo debet suis stipendiis militare, ut
+              dicitur 1 Corinth. 9. Ergo et cetera.</p>
+            <p xml:id="ta-l4d25q3-d1e285">Praeterea, Extra. de Praebend. dicitur, quod quidam canonici sacerdoti cuidam unam
+              praebendam in Ecclesia dederunt, ut Missam de beata virgine quotidie celebraret; et
+              Papa quotidie confirmat illam petitionem. Ergo idem quod prius.</p>
+            <p xml:id="ta-l4d25q3-d1e288">Praeterea, absolutio quoddam sacramentale est. Sed quidam accipiunt pecuniam, ut ab
+              excommunicatione absolvant. Ergo et cetera.</p>
+            <p xml:id="ta-l4d25q3-d1e291">Praeterea, episcopalis potestas, quamvis non sit ordo, tamen quoddam sacramentale
+              est. Sed licet in aliquo casu dare pecuniam, ut ad episcopatum perveniat, sicut cum
+              quis malitiose impedit, ut ab impedimento cesset. Ergo sacramentalia licite vendi
+              possunt.</p>
+
+          </div>
+          <div xml:id="ta-l4d25q3-Dd1e295">
+            <head xml:id="ta-l4d25q3-Hd1e297">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d25q3-d1e300">Ulterius. Videtur quod etiam in emptione vel venditione aliorum spiritualium non
+              committatur simonia. Quia totum ecclesiasticum officium quoddam spirituale est. Sed
+              quidam recipiunt certos reditus ad anniversarium celebrandum. Ergo spiritualia possunt
+              sine simonia emi et vendi.</p>
+            <p xml:id="ta-l4d25q3-d1e303">Praeterea, oratio est maxime spirituale. Sed aliquis potest dare pecuniam bonis
+              viris, ut orent pro eo, secundum illud quod dicitur in Luc. 16, 9: <quote xml:id="ta-l4d25q3-Qd1e305">facite vobis
+                amicos de mammona iniquitatis</quote>. Ergo et cetera.</p>
+            <p xml:id="ta-l4d25q3-d1e309">Praeterea, 1 Reg. 9, dicitur de Saul, et 3 Reg. 13, de uxore Hieroboam, quod
+              attulerunt pretium sanctis prophetis. Sed prophetia est spirituale donum spiritus
+              sancti. Ergo idem quod prius.</p>
+            <p xml:id="ta-l4d25q3-d1e312">Praeterea, praedicatio est res spiritualis. Sed Paulus praedicabat pro temporalibus,
+              ut fierent collectae pauperibus, ut patet 1 Corinth. ult. Ergo et cetera.</p>
+            <p xml:id="ta-l4d25q3-d1e316">Praeterea, praedicatori licet accipere stipendia pro sua praedicatione, ut patet 2
+              Corinth. 9. Sed apostolus stipendia nominat ibi temporalia quae praedicatoribus
+              debentur. Ergo licet temporalia pro spiritualibus accipere.</p>
+            <p xml:id="ta-l4d25q3-d1e319">Praeterea, correctio est quid spirituale, et visitatio. Sed praelati pro
+              visitationibus accipiunt temporalia, quidam etiam pro pecunia occultant peccatum quod
+              manifestare tenentur. Ergo et cetera.</p>
+            <p xml:id="ta-l4d25q3-d1e322">Praeterea, religionis status quoddam bonum spirituale est. Sed in quibusdam
+              monasteriis, praecipue monialium, exigitur aliquid ab eis quae ibi recipi debent. Ergo
+              licet spiritualia dare pro temporalibus.</p>
+            <p xml:id="ta-l4d25q3-d1e325">Praeterea, scientia est quoddam spirituale bonum. Sed licet magistris artium accipere
+              aliquid pro doctrina sua. Ergo et cetera.</p>
+            <p xml:id="ta-l4d25q3-d1e328">Praeterea, judicium spirituale bonum est, similiter patrocinium in causis, et
+              testimonium ferendum. Sed pro omnibus his potest accipi pecunia vel munus aliquod.
+              Ergo et cetera.</p>
+
+          </div>
+          <div xml:id="ta-l4d25q3-Dd1e332">
+            <head xml:id="ta-l4d25q3-Hd1e334">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d25q3-d1e337">Ulterius. Videtur quod etiam non committatur simonia in venditione eorum et emptione
+              quae sunt spiritualibus annexa. Nihil enim est magis spiritualibus annexum quam vasa
+              sacra. Sed illa in necessitate vendi possunt licite. Ergo et cetera.</p>
+            <p xml:id="ta-l4d25q3-d1e340">Praeterea, jus sepulturae spiritualibus annexum est. Sed Abraham emit ab Emor
+              speluncam duplicem in sepulturam. Ergo sine simonia emi potest quod est spiritualibus
+              annexum.</p>
+            <p xml:id="ta-l4d25q3-d1e343">Praeterea, juspatronatus est quoddam spirituali annexum. Sed potest sine simonia
+              vendi, quia transit cum universitate, ut decretalis dicit, et in feudum concedi
+              potest. Ergo annexum spiritualibus potest licite vendi.</p>
+            <p xml:id="ta-l4d25q3-d1e346">Praeterea, decimae sunt annexae spiritualibus. Sed licet emere eas: quia possunt in
+              feudum laicis concedi, et ab eis redimi. Ergo possunt vendi et emi annexa
+              spiritualibus.</p>
+            <p xml:id="ta-l4d25q3-d1e350">Praeterea, jus primogeniturae spiritualibus annexum videtur; unde primogeniti ante
+              legem sacerdotis officio fungebantur. Sed Jacob emit jus primogeniturae ab Esau Gen.
+              25. Ergo idem quod prius.</p>
+          </div>
+          <div xml:id="ta-l4d25q3-Dd1e355">
+            <head xml:id="ta-l4d25q3-Hd1e357">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d25q3-d1e360">Respondeo dicendum ad primam quaestionem, quod cum sacramenta contineant et causent
+              gratiam, non possunt licite vendi aut emi propter tria. Primo, quia dispensator
+              sacramenti non est dominus, sed minister; emptio autem debet fieri a domino rei.
+              Secundo, quia pretium emptionis ponitur quasi mensura adaequans illud quod emitur,
+              unde a mensurando numisma dicitur, secundum philosophum in 5 Ethic.: gratia autem non
+              potest commensurari alicui corporali bono; unde injuriam gratiae facit qui sacramenta
+              gratiae vendit aut emit. Tertio, quia gratia ex hoc nomen accepit quod gratis datur;
+              unde contra rationem gratiae facit qui sacramenta gratiae quasi venalia tractat.</p>
+            <p xml:id="ta-l4d25q3-d1e363">Ad primum ergo dicendum, quod locutiones illae sunt metaphoricae, et per
+              similitudinem de emptione loquentes, ipsum meritum emptionem vocantes: quod quidem
+              emptio non est, quia Deo ex nostro merito nihil accrescit, nec meritum nostrum est
+              aequivalens praemio.</p>
+            <p xml:id="ta-l4d25q3-d1e366">Ad secundum dicendum, quod matrimonium non solum est sacramentum, sed etiam naturae
+              officium; et ideo ex illa parte qua est sacramentum, in dispensatione ministrorum
+              Ecclesiae consistens, non cadit sub emptione; unde secundum canones committit simoniam
+              qui pro benedictione nubentium pecuniam exigit; sed ex illa parte qua est in officium
+              naturae, nihil prohibet pro matrimonio pretium accipere, vel conditionem de re
+              temporali accipienda interponere, sicut nec in aliis officiis civilibus et
+              corporalibus.</p>
+            <p xml:id="ta-l4d25q3-d1e369">Ad tertium dicendum, quod in casu illo debet aliquis emere aquam a sacerdote, et
+              ipsemet puerum baptizare, quia in casu necessitatis licet baptizare etiam mulieri; nec
+              debet aliquo modo pro ipso Baptismo sacerdoti pecuniam dare; et similiter est de
+              adulto, nisi quando potest differri quousque ad superiorem recurratur, ut ab eo
+              Baptismus suscipiatur, cui ex officio competit dare.</p>
+            <p xml:id="ta-l4d25q3-d1e373">Ad quartum dicendum, quod facere pactionem de Missa celebranda est simoniacum semper.
+              Si tamen non habet alios sumptus, et non tenetur ex officio Missam cantare, potest
+              accipere denarios, sicut conducti sacerdotes faciunt, non quasi pretium Missae, sed
+              quasi sustentamentum vitae.</p>
+            <p xml:id="ta-l4d25q3-d1e376">Ad quintum dicendum, quod ibi non fuit aliqua pactio, sed illi praebendae annexum
+              fuit illud officium cantandi Missam talem.</p>
+            <p xml:id="ta-l4d25q3-d1e379">Ad sextum dicendum, quod pro absolutione non debet exigi pecunia; sed tamen ei qui
+              absolvitur, potest imponi pecuniaria poena; unde licet aliquid exigere quasi peccati
+              poenam: in quo tamen cavendum est ne talis exactio magis cupiditati quam correctioni
+              adscribatur.</p>
+            <p xml:id="ta-l4d25q3-d1e382">Ad septimum dicendum, quod ibi est distinguendum: quia si non est sibi acquisitum jus
+              per electionem, nullo modo potest pecuniam dare adversario ut desistat; si autem est
+              ei acquisitum jus, potest aliquid dare, non ut pretium praelationis, sed ut
+              redemptionem vexationis propriae.</p>
+
+          </div>
+          <div xml:id="ta-l4d25q3-Dd1e386">
+            <head xml:id="ta-l4d25q3-Hd1e388">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d25q3-d1e391">Ad secundam quaestionem dicendum, quod actus aliquis potest spiritualis dici vel
+              quantum ad suum principium quod competit alicui ex aliquo spirituali dono vel officio;
+              vel quantum ad sui finem, ut quando per actum ad aliquid spirituale pervenitur. In
+              actibus ergo qui primo modo spirituales sunt, quia spirituale est ex parte agentis,
+              nullo modo sine simonia potest aliquid locare actus suos; sed potest aliquid accipere
+              in sustentationem vitae; in secundis autem actibus, quia spiritualitas non est ex
+              parte agentis, potest etiam emere vel vendere operas suas; sed non vendere hoc
+              spirituale quod ex ejus actu acquiritur.</p>
+            <p xml:id="ta-l4d25q3-d1e394">Ad primum ergo dicendum, quod anniversarium celebrare est spiritualis actus primo
+              modo; et ideo nullo modo licet pacisci pro eo celebrando; si tamen cum devotione
+              aliquid detur Ecclesiae, Ecclesia tenetur celebrare pro illis pro quibus rogatur.</p>
+            <p xml:id="ta-l4d25q3-d1e397">Ad secundum dicendum, quod oratio est spiritualis primo et secundo modo, quia ex
+              spirituali devotione efficaciam habet, et aliquid spirituale debet in ea fieri; unde
+              nullo modo debet sub pretio poni; nec illi qui dant pecuniam pauperibus, ut pro eis
+              orent, orationem emunt, sed animos pauperum alliciunt ad orandum pro se, et eos sibi
+              faciunt debitores.</p>
+            <p xml:id="ta-l4d25q3-d1e400">Ad tertium dicendum, quod, sicut dicit Hieronymus super Michaeam, talia munera
+              exhibebantur prophetis magis in sustentationem eorum, ut spiritualibus vacarent
+              libere, quam ad emendum munera prophetiae: quia actus prophetiae spirituales sunt
+              primo modo.</p>
+            <p xml:id="ta-l4d25q3-d1e404">Ad quartum dicendum, quod praedicare pro pecunia potest intelligi dupliciter. Uno
+              modo ut pecunia sit pretium praedicationis; et sic nullo modo licet; alio modo ut
+              pecuniae datio sit res quaedam praedicata; et ita potest aliquis praedicare pro
+              pecunia, sicut pro aliis operibus meritoriis, inquantum meretur dans, et sublevatur
+              defectus recipientis; et sic apostolus pro collectis faciendis praedicavit: non tamen
+              in pecuniae collatione ponendus est praedicationis finis.</p>
+            <p xml:id="ta-l4d25q3-d1e407">Ad quintum dicendum, quod stipendia debentur praedicantibus ad sustentationem victus,
+              ne cogantur relinquere verbum Dei, et circa procuranda sibi necessaria occupari; non
+              autem debentur eis quasi pretium praedicationis.</p>
+            <p xml:id="ta-l4d25q3-d1e410">Ad sextum dicendum, quod correctio, sive visitatio, est spiritualis actus primo modo,
+              quia alicui ex spirituali officio competit; unde simoniam committit qui pecuniam
+              accipit, ut peccatum quod tenetur revelare aut punire, non revelet nec puniat: nec
+              etiam pro visitatione facienda accipienda est procuratio quasi pretium visitationis,
+              sed quasi debita ex ordinatione Ecclesiae ad sustentationem; et similiter est de
+              procuratione moderata quam accipere possunt episcopi in consecratione Ecclesiarum
+              secundum Ecclesiae determinationem.</p>
+            <p xml:id="ta-l4d25q3-d1e413">Ad septimum dicendum, quod cum possessiones alicujus loci religiosi non sufficiunt ad
+              sustentandum plures, tunc potest exigi ab eo qui in loco illo vult Deo servire, non
+              quasi pretium religionis, sed ut habeat monasterium unde ei possit providere; et ideo
+              non committitur simonia. Si autem sine gravamine Ecclesiae potest recipi, simoniacum
+              est aliquid pro receptione exigere.</p>
+            <p xml:id="ta-l4d25q3-d1e416">Ad octavum dicendum, quod docere artes liberales est actus spiritualis secundo modo;
+              et ideo licet magistris artium vendere labores suos, sed non scientiam sive veritatem,
+              quae spiritualis est; unde dicitur Prov. 23, 23: <quote xml:id="ta-l4d25q3-Qd1e418">noli vendere scientiam, et
+                doctrinam et gloriam</quote>.</p>
+            <p xml:id="ta-l4d25q3-d1e422">Ad nonum dicendum, quod judex ex officio suo tenetur judicium reddere: similiter
+              etiam quilibet tenetur ex hoc quod est judicio subditus, ad verum testimonium
+              reddendum. Sed advocatus non tenetur patrocinium suum causae praestare, nec
+              jurisperitus dare consilium; et ideo, sicut dicit Augustinus ad Macedonium, non debet
+              judex vendere verum judicium, aut testis, verum testimonium, quia advocatus vendit
+              justum patrocinium, et jurisperitus verum consilium. Non enim advocatus vendens justum
+              patrocinium, justitiam vendit, quae est spiritualis, sed actum suum; et similiter
+              dicendum est de consilio jurisperiti. Sed judex vendendo verum judicium, simoniam
+              committit, si sit spiritualis judex: alias non committit simoniam, sed graviter
+              peccat; et similiter dicendum est de teste.</p>
+
+          </div>
+          <div xml:id="ta-l4d25q3-Dd1e426">
+            <head xml:id="ta-l4d25q3-Hd1e428">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d25q3-d1e431">Ad tertiam quaestionem dicendum, quod sicut ex dictis patet, spirituale quod sub
+              pretio poni non debet, est duplex; scilicet ipsa res sacra, ut sacramenta; et actus
+              competens alicui ex officio sacro; et secundum hoc etiam est duplex spirituali
+              annexum: quoddam annexum est ipsis sacramentis, sicut vasa sacra, et hujusmodi;
+              quaedam sunt annexa officiis sacris, sicut decimae, et juspatronatus, secundum quod
+              juspatronatus est potestas praesentandi clericum ad beneficium ecclesiasticum; et in
+              utroque committitur simonia quantum ad id quod de spiritualitate habet.</p>
+            <p xml:id="ta-l4d25q3-d1e434">Ad primum ergo dicendum, quod vasa sacra nullo modo ratione consecrationis vendenda
+              sunt, ut scilicet pro consecratione eorum aliquid plus exigatur; tamen in necessitate
+              Ecclesiae possunt vendi ex parte ejus quod in eis est non spirituale, scilicet materia
+              auri; et tunc si venduntur ecclesiasticae personae, possunt integra vendi; si autem
+              venduntur aliis non ad usum Ecclesiae, debent prius frangi praemissa oratione, ne
+              sancta ab aliis tractentur quam a ministris Ecclesiae.</p>
+            <p xml:id="ta-l4d25q3-d1e437">Ad secundum dicendum, quod venditio sepulturae potest intelligi dupliciter. Uno modo
+              quod vendatur terra sacra in sepulturam; et de hoc est similis ratio ac de venditione
+              sacrorum vasorum, quia coemeterium consecratum potest vendi ratione terrae in
+              necessitate Ecclesiae, sicut et calix ratione materiae; non autem potest vendi ratione
+              consecrationis, ut scilicet aliquis pro pecunia ibi sepeliatur. Abraham autem non
+              peccavit emens speluncam duplicem: quia spelunca illa non erat consecrata in
+              sepulturam: vel si erat consecrata, transivit possessio ejus in jurisdictionem cum
+              universitate agri. Emor autem reprehenditur, quia decidit a bona intentione quam prius
+              habuit, volens gratis dare, cum postea eam carissime vendiderit: vel, ut quidam
+              dicunt, Abraham non peccavit redimens jus quod habebat sepeliendi mortuum: quod
+              quamvis ei Emor non denegaret, tamen sciebat Abraham quod ille moleste acciperet, nisi
+              pretium daretur. Sed primum melius videtur. Alio modo dicitur vendi sepultura, si pro
+              officio quod a sacerdotibus in sepultura funeris dicitur, aliquid exigatur; et hoc non
+              licet, ut ex dictis patet. Tamen si consuetudo est quod aliquid detur, potest per
+              superiorem correctio adhiberi in illos qui denegant dare quod consuetudo exposcit.</p>
+            <p xml:id="ta-l4d25q3-d1e440">Ad tertium dicendum, quod juspatronatus per se vendi non potest, nec in feudum dari.
+              Si autem villa vendatur, et in feudum detur, cui annexum est juspatronatus, transit
+              cum universitate ad illum cui villa datur, vel qui eam emit, non quasi juspatronatus
+              sub venditione cadat.</p>
+            <p xml:id="ta-l4d25q3-d1e444">Ad quartum dicendum, quod jus percipiendi decimas sequitur spirituale officium, quia
+              debetur ministris Ecclesiae: nec laici possunt habere hujusmodi jus, quamvis aliquando
+              ad tempus fructus decimarum laicis concessus sit propter aliquam Ecclesiae
+              necessitatem; et tunc hoc modo quo laicis dari potest, ab eis potest redimi ex
+              auctoritate episcopi. Tamen una Ecclesia non potest ab alia emere jus percipiendi
+              decimas.</p>
+            <p xml:id="ta-l4d25q3-d1e447">Ad quintum dicendum, quod jus primogeniturae debebatur Jacob ex divina institutione;
+              et ideo non peccavit emens, sed redemit vexationem suam. Sed Esau vendens
+              peccavit.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d25q3-Dd1e452" type="articulus">
+          <head xml:id="ta-l4d25q3-Hd1e454">Articulus 3</head>
+
+          <head xml:id="ta-l4d25q3-Hd1e457" type="questionTitle">Utrum simonia committatur illis tribus modis quos Urbanus Papa
+            determinat</head>
+
+          <p xml:id="ta-l4d25q3-d1e460">Ad tertium sic proceditur. Videtur quod simonia non committatur illis tribus modis quos
+            Urbanus Papa determinat, dicens: <quote xml:id="ta-l4d25q3-Qd1e462">quisquis res ecclesiasticas non ad quod
+              institutae sunt, sed ad propria lucra, munere linguae vel indebiti obsequii vel
+              pecuniae, largitur vel adipiscitur, simoniacus est</quote>. Quia, ut supra dictum est,
+            judex spiritualis, si vendit judicium, facit simoniam. Sed licet judici spirituali
+            aliquod munus accipere pecuniae, vel alicujus hujusmodi, ut dicitur Extra. de simonia,
+            cap. etsi quaestiones. Ergo simonia non semper committitur per munus a manu.</p>
+          <p xml:id="ta-l4d25q3-d1e466">Praeterea, Papa potest etiam munus a manu suscipere pro aliquo spirituali. Sed, ut
+            quidam dicunt, Papa non potest committere simoniam, maxime cum aliqua persona
+            ecclesiastica; quia res Ecclesiae sunt suae. Ergo non semper committitur simonia per
+            munus a manu.</p>
+          <p xml:id="ta-l4d25q3-d1e469">Praeterea, Gregorius dicit: <quote xml:id="ta-l4d25q3-Qd1e471">ecclesiasticis utilitatibus deservientes dignum est
+              ecclesiastica remuneratione gaudere</quote>. Ergo si datur aliqua praebenda alicui pro
+            obsequio impenso, non est simonia.</p>
+          <p xml:id="ta-l4d25q3-d1e476">Praeterea, unusquisque licite potest petere quod sibi debetur de jure. Sed ordinato,
+            qui non habet beneficium competens, tenetur de jure ordinator ejus providere. Ergo non
+            peccat, si petat beneficium; et hoc vocatur munus linguae, scilicet rogatio.</p>
+          <p xml:id="ta-l4d25q3-d1e479">Praeterea, si fiant preces pro digno, non committitur simonia ex hoc. Sed preces sunt
+            munera linguae, sive fiant pro digno, sive pro indigno. Ergo munus a lingua non semper
+            facit simoniam.</p>
+          <p xml:id="ta-l4d25q3-d1e482">Praeterea, hypocritae faciunt bona spiritualia propter laudes hominum, et tamen non
+            dicuntur simoniaci. Ergo munus a lingua non facit simoniam.</p>
+          <p xml:id="ta-l4d25q3-d1e485">Praeterea, sicut amor pecuniae est cupiditatis, ita amor consanguineorum est
+            carnalitatis. Sed si intuitu pecuniae detur alicui praebenda, est simonia. Ergo
+            similiter si detur intuitu consanguinitatis; et tamen ibi non est aliquis praedictorum
+            modorum; ergo sunt insufficientes.</p>
+          <p xml:id="ta-l4d25q3-d1e488">Praeterea, in commutationibus etiam dignitatum vel ecclesiasticorum beneficiorum
+            committitur simonia. Sed ibi non est aliquod munus. Ergo et cetera.</p>
+          <p xml:id="ta-l4d25q3-d1e491">Praeterea, aliqui praelati recipiunt fructus Ecclesiarum vacantium, et postea
+            conferunt, retenta sibi parte proventuum; in quo non videtur aliquod munus esse; et
+            tamen est ibi simonia. Ergo et cetera.</p>
+          <p xml:id="ta-l4d25q3-d1e495">Respondeo dicendum, quod simonia, ut dictum est, consistit in emptione et venditione
+            spiritualium, vel eorum quae sunt eis annexa. Emptio autem vel venditio consistit non
+            solum in datione et acceptione pecuniae, sed omnium eorum quorum potest pretium
+            numismate mensurari: in his enim est liberalitas, secundum philosophum. Constat autem
+            quod in eisdem est liberalis datio, et venditio, quae est contraria. Omnis autem
+            temporalis commodi pretium potest numismate mensurari; et ideo quicumque pro aliquo
+            temporali commodo dat aliquod spirituale, vel annexum, simoniam committit. Bonum autem
+            temporale quod potest aliquis ab alio expectare, vel est ex parte animae, sicut amicitia
+            aut favor aliquis; et quantum ad hoc est munus a lingua: vel ex parte corporis, sicut
+            aliquis actus corporaliter exercitus, vel obsequium aliquod exhibitum; et quantum ad hoc
+            est munus ab obsequio; vel est aliquid exteriorum bonorum; et sic est munus a manu, quod
+            consistit in exterioribus bonis. Quantum ad primum committitur simonia per munus a
+            lingua, quia lingua opinionem exprimit, et gratiam conceptam; quantum ad secundum per
+            munus ab obsequio; quantum ad tertium per munus a manu.</p>
+          <p xml:id="ta-l4d25q3-d1e498">Ad primum ergo dicendum, quod Ecclesiae judicium est quantum ad exteriora: et quia non
+            est probabile quod animus judicis spiritualis flectatur ad aliquid faciendum pro parvo
+            munere, ideo in parvis muneribus judici datis non judicat simoniam committi. Sed apud
+            Deum, qui cor videt, simonia est et in parvis et in magnis muneribus, si animus judicis
+            ex eis flectatur.</p>
+          <p xml:id="ta-l4d25q3-d1e501">Ad secundum dicendum, quod opinio illa erronea est. Si enim Papa pro aliquo spirituali
+            munus acciperet, simoniam committeret sicut et alius homo: quia sub Petro, cui Papa
+            succedit, simoniae vitium damnationem inchoavit in novo testamento: et quamvis res
+            Ecclesiae sint aliquo modo Papae, non sunt tamen ejus omnibus modis habendi, sicut illud
+            quod ad manum habet. Non est autem dubium quod simoniam committeret, si quis aliquod
+            spirituale debitori suo daret, ut quod suum est recuperaret; et ita etiam in proposito
+            Papa a simonia non excusaretur, si (quod absit) spiritualia pro temporalibus rebus
+            Ecclesiarum daret.</p>
+          <p xml:id="ta-l4d25q3-d1e504">Ad tertium dicendum, quod obsequium aut est honestum, aut inhonestum. Si quidem sit
+            honestum obsequium, ex ipso obsequio quandoque redditur homo dignus beneficio
+            ecclesiastico, sicut et aliis bonis operibus; et tunc si pactio non intervenit, potest
+            absque simonia beneficium ecclesiasticum dari ei qui obsecutus est, ut non habeatur
+            oculus ad obsequium principaliter, sed ad dignitatem personae; et sic loquitur
+            Gregorius. Si autem sit inhonestum, tunc est omnino simonia.</p>
+          <p xml:id="ta-l4d25q3-d1e507">Ad quartum dicendum, quod munus linguae duplex est: vel quod in ipso actu linguae
+            consistit, sicut laus; vel quod ex lingua initium sumit, sicut cum quis ex hoc quod
+            precibus alicujus satisfacit, favorem expectat. Qui enim dat aliquod spirituale pro
+            favore vel laude acquirenda, non est dubium quin simoniam committeret. Quando ergo
+            preces fiunt pro indigno, satis apparet quod nihil aliud movet nisi favor, aut etiam
+            periculum evitandum: quia etiam carere malo quoddam bonum est, ut dicit philosophus. Et
+            ideo quando fiunt preces pro indigno, vel aliquo potente qui periculum comminatur, quae
+            dicuntur preces armatae; manifeste simonia committitur, si propter hoc beneficium
+            ecclesiasticum detur. Si autem pro digno fiant quantum ad judicium hominum; probabile
+            est quod dans magis moveatur intuitu dignitatis personae quam favore precum; et ideo non
+            reputatur simonia. Si tamen principaliter moveatur favore precum, vel timore rogantis;
+            quantum ad divinum judicium simoniam committit et rogatus et rogans, si hoc intendat,
+            sive aliquis pro se roget, sive pro alio. Potest enim aliquis pro se petere si dignus
+            sit, beneficium ecclesiasticum non habens curam animarum, si indiget; sed non si habeat
+            curam animarum, quia praesumptuosum est. Nec tamen est simonia nisi pro tanto quod ex
+            ipsa praesumptione indignus reddatur; et tunc preces suae ex hoc ipso quod rogat, pro
+            indigno fiunt.</p>
+          <p xml:id="ta-l4d25q3-d1e510">Et per hoc patet solutio ad quintum.</p>
+          <p xml:id="ta-l4d25q3-d1e514">Ad sextum dicendum, quod emptio et venditio in quibus simonia consistit, sunt
+            voluntariae communicationes, quia ex consensu utriusque fiunt. Sed hypocrita per ea quae
+            facit, favorem humanum sibi usurpat per modum furti, quod est involuntaria communicatio;
+            et ideo, proprie loquendo, simoniam non committit.</p>
+          <p xml:id="ta-l4d25q3-d1e517">Ad septimum dicendum, quod ille qui dat ratione consanguinitatis praebendam alicui
+            principaliter: aut intendit temporale bonum illius cui datur, et non alterius; et sic
+            peccat graviter, sed simoniam non committit, quia non vendit, cum nihil accipiat: aut
+            intendit aliquod bonum in seipsum redundans, sic quod magnificetur per hoc, et
+            nobilitetur domus sua; vel quod ipse in consanguineis sit fortior; et sic ipse aliquid
+            accipere sperat pro quo spiritualia dat, et simoniam committit: et reducitur ad id munus
+            in quo continetur commodum quod ex tali datione sperat.</p>
+          <p xml:id="ta-l4d25q3-d1e520">Ad octavum dicendum, quod in tali permutatione est simonia, si pro aliquo terreno
+            commodo utriusque, vel alterius, talis commutatio fiat; si autem pro aliquo spirituali,
+            utpote quia hic in illo loco melius possit Deo servire, non est simonia; unde tunc
+            potest fieri commutatio ex auctoritate episcopi dioecesani.</p>
+          <p xml:id="ta-l4d25q3-d1e523">Ad nonum dicendum, quod in hoc distinguendum est: quia si ante donationem praebendae
+            proventus percipiat pro aliqua justa causa, et non intervenit aliqua conventio cum eo
+            cui dare disponit, non est simonia: si autem pactio intervenit, ut ante receptionem, vel
+            post accipiat, simoniacum est.</p>
+        </div>
+        <div xml:id="ta-l4d25q3-Dd1e528">
+          <head xml:id="ta-l4d25q3-Hd1e530">Expositio textus</head>
+          <p xml:id="ta-l4d25q3-d1e533"><quote xml:id="ta-l4d25q3-Qd1e534">Neque ex his aliquem in clericatus honorem vel exiguum surrogare</quote>: non
+            quia ordinem non receperit, sed quia male promotus est; quod contingit dupliciter. Uno
+            modo ex parte ordinantis, sive cum est haereticus, sive simoniacus, vel quocumque alio
+            modo ab Ecclesia separatus, et sic est in proposito: sive cum ordinatur a non suo
+            episcopo sine licentia et auctoritate proprii episcopi; et tunc debet deponi, nisi
+            episcopus ponat spem in ratihabitione alterius episcopi, sicut de beato Epiphanio in
+            epistola sua legitur: sive ordinetur ab episcopo qui abrenuntiavit officio et loco. Si
+            enim officium sibi retinuerit, loco abrenuntians, potest conferre minores ordines, et de
+            licentia episcopi etiam majores. Alio modo est male promotus, quia non promovetur sicut
+            debet: quod contingit dupliciter. Primo, quia furtive accipit ordinem, ut cum accipit
+            duos ordines sacros una die, vel unumquemque sine licentia episcopi; et poena talium est
+            depositio; et tunc si fuit super hoc lata excommunicatio, solus Papa potest cum eo
+            dispensare: si autem non fuit, potest etiam episcopus dispensare, praecipue in minoribus
+            ordinibus, vel si claustrum intraverit. Secundo, quia praetermittit aliquem ordinem; et
+            tunc, si ex malitia facit, debet deponi, quamvis characterem recipiat; si vero
+            ignoranter, debet sibi imponi poena ab episcopo, et interim careat executione ordinis,
+            quousque ordinem praetermissum recipiat. <quote xml:id="ta-l4d25q3-Qd1e537">Quisquis horum alterum vendit sine quo
+              alterum non habetur, neutrum vendere derelinquit</quote>. Hoc est intelligendum de
+            illis quorum unum quod venditur, ordinatur ad alterum, quod sub pretio cadere non
+            potest: sic beneficia ecclesiastica sunt ordinata ad ministrorum Ecclesiae
+            sustentationem; et sic non potest ministrari de jure patronatus, quod per se non
+            venditur, quamvis transeat cum venditione villae; quia dominium villae non est ordinatum
+            ad jus patronatus. <quote xml:id="ta-l4d25q3-Qd1e540">Simoniacae autem haeresis tripartita est distinctio</quote>.
+            Simoniacus proprie dicitur qui est reus hujus peccati, vel dando vel accipiendo aliquod
+            sacrum pro pretio. Contingit autem quandoque in ipsa datione simoniam intervenire per
+            mediatores altero, vel utroque ignorante; et tunc fit simoniace ordinatio, quamvis non
+            sit simoniacus qui ordinat vel ordinatur. Quandoque etiam potest esse simoniacus ex alia
+            causa, et nullum vitium ex ipsa datione spiritualium intervenire; et tunc non simoniace
+            ordinatur aliquis, quamvis sit simoniacus vel ordinans vel ordinatus; et secundum hoc
+            distinguuntur modi in littera positi. <quote xml:id="ta-l4d25q3-Qd1e543">Sacri canones sanxerunt</quote> et cetera.
+            Hic nota, quod tria tempora sunt observanda in ordinibus. Primo tempus aetatis
+            ordinandi: circa quod sciendum est quod secundum antiqua jura a septimo anno usque ad
+            duodecimum potest accipere omnes minores ordines: a duodecimo usque ad vigesimum primum
+            potest recipere acolythatum et subdiaconatum, ita quod in vigesimoprimo subdiaconatum
+            recipiat; in vigesimo sexto potest recipere diaconatum, in trigesimo presbyteratum; et
+            postmodum potest fieri episcopus. Sed nunc abbreviatum est tempus: quia subdiaconatum
+            potest recipere quando pervenerit ad annos discretionis, ut possit cognoscere votum
+            continentiae, et presbyter fieri in vigesimo quinto anno; et diaconatum circa
+            vigesimumprimum annum (et praecipue in religiosis): episcopus autem in trigesimo anno.
+            Secundo debet considerari tempus determinatum anni, in quo fiunt ordines: circa quod
+            sciendum est, quod majores ordines in sex temporibus anni possunt celebrari, scilicet;
+            in quatuor sabbatis quatuor temporum, et in sabbato ante dominicam de passione, et in
+            vigilia resurrectionis. Papa tamen in die dominico et festis praecipuis confert
+            subdiaconatum; et in his etiam diebus quibus episcopus potest conferre minores ordines.
+            Episcopi autem in die dominico consecrandi sunt. Tertium tempus est distantia inter
+            ordines suscipiendos: circa quod sciendum est, quod aliquis potest accipere omnes
+            minores ordines una die; non tamen unum de minoribus cum subdiaconatu, nec duos de
+            majoribus simul. Potest tamen in dominica consecrari in episcopum qui praecedenti die
+            factus est sacerdos. De illis autem qui gradatim ad clericatum accedunt, sciendum est,
+            quod possunt in octo annis recipere omnes ordines; ita quod in primis duobus recipiant
+            minores, in aliis quinque tres majores. Monachus tamen posset omnes recipere per annum,
+            et etiam alii dispensative propter necessitatem Ecclesiae.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

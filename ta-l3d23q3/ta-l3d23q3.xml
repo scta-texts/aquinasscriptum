@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum III, Distinctio 23, Quaestio 3</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.09-dev-master">
+          <title>Librum III, Distinctio 23, Quaestio 3</title>
+          <date when="2016-03-13">March 13, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-13">March 13, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness>1856 editum</witness>
+          <witness xml:id="H" n="harv245" xml:base="http://iiif.lib.harvard.edu/manifests/drs:51994085/canvas/">Cambridge, Mass.,
+            Harvard University, Houghton Library, MS Lat 245</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="2015.09">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+
+
+
+
+      <div xml:id="starts-on">
+        <cb ed="#H" n="87va" select="dd"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ta-l3d23q3">
+        <head xml:id="ta-l3d23q3-Hd1e97">Librum III, Distinctio 23, Quaestio 3</head>
+        <head xml:id="ta-l3d23q3-Hd1e100" type="questionTitle">De formatione fidei</head>
+        <div xml:id="ta-l3d23q3-Dd1e103">
+          <head xml:id="ta-l3d23q3-Hd1e105">Prooemium</head>
+          <p xml:id="ta-l3d23q3-d1e108">Deinde quaeritur de formatione fidei; et circa hoc quaeruntur quatuor: 1 utrum fides
+            per caritatem formetur; 2 utrum fides informis sit donum Dei; 3 utrum sit in Daemonibus;
+            4 utrum remaneat caritate adveniente.</p>
+        </div>
+        <div xml:id="ta-l3d23q3-Dd1e112" type="articulus">
+          <head xml:id="ta-l3d23q3-Hd1e114">Articulus 1</head>
+          <head xml:id="ta-l3d23q3-Hd1e117" type="questionTitle">Utrum fides formetur per caritatem</head>
+          <div xml:id="ta-l3d23q3-Dd1e120">
+            <head xml:id="ta-l3d23q3-Hd1e122">Quaestiuncula 1</head>
+            <p xml:id="ta-l3d23q3-d1e125">Ad primum sic proceditur. Videtur quod fides non formetur per caritatem. Formae enim
+              est praecedere, cum sit principium rei. Sed caritas est posterior fide, ut dictum est.
+              Ergo fides non formatur per caritatem.</p>
+            <p xml:id="ta-l3d23q3-d1e128">Praeterea, omnis res habet speciem a propria forma. Sed fides secundum suam speciem
+              differt a caritate. Ergo caritas non est forma fidei.</p>
+            <p xml:id="ta-l3d23q3-d1e131">Praeterea, unius rei non sunt diversae formae. Sed fides formatur per gratiam. Ergo
+              non formatur per caritatem.</p>
+            <p xml:id="ta-l3d23q3-d1e134">Sed contra, fides sine caritate non potest elicere actum meritorium, quem caritate
+              veniente elicit. Ergo caritas dat fidei aliquam vim; et ita videtur eam aliquo modo
+              formare.</p>
+            <p xml:id="ta-l3d23q3-d1e138">Praeterea, forma rei est decor ejus. Sed fides fit decora, ut Deus eam acceptet, per
+              caritatem. Ergo caritas format fidem.</p>
+          </div>
+          <div xml:id="ta-l3d23q3-Dd1e142">
+            <head xml:id="ta-l3d23q3-Hd1e144">Quaestiuncula 2</head>
+            <p xml:id="ta-l3d23q3-d1e147">Ulterius. Videtur quod fides informis sit virtus. Quia dicit Augustinus in Lib. de
+              vera Innoc., quod ceterae virtutes praeter caritatem possunt inesse bonis et malis.
+              Ergo fides, secundum quod est virtus, potest esse in malis. Sed fides quae est in
+              malis, est informis. Ergo fides informis est virtus.</p>
+            <p xml:id="ta-l3d23q3-d1e150">Praeterea, virtus est circa difficilia, et ex hoc habet laudem, ut dicit philosophus.
+              Sed difficillimum est credere articulos fidei; unde <name ref="#Augustine">Augustinus</name> dicit et habetur in
+              sequenti distinctione, quod laus fidei est credere quae non videt. Ergo videtur quod
+              fides informis, quae omnes articulos credit, sit virtus.</p>
+            <p xml:id="ta-l3d23q3-d1e156">Praeterea, nihil opponitur vitio, nisi sit virtus, aut vitium. Sed infidelitatis
+              vitio opponitur fides informis. Cum ergo fides informis non sit vitium, videtur quod
+              sit virtus.</p>
+            <p xml:id="ta-l3d23q3-d1e159">Sed contra, fides informis est mortua, ut dicitur Jacob. 1. Sed nihil mortuum habet
+              rationem virtutis. Ergo fides informis non est virtus.</p>
+            <p xml:id="ta-l3d23q3-d1e163">Praeterea, virtute nullus male utitur, ut dicit Augustinus. Sed fide informi aliquis
+              male utitur. Ergo fides informis non est virtus.</p>
+          </div>
+          <div xml:id="ta-l3d23q3-Dd1e167">
+            <head xml:id="ta-l3d23q3-Hd1e169">Quaestiuncula 3</head>
+            <p xml:id="ta-l3d23q3-d1e172">Ulterius. Videtur quod fides formata et informis differant specie. Quia, ut dicit
+              philosophus 5 Metaph., quaecumque differunt genere, differunt et specie. Sed fides
+              formata et informis differunt genere: quia fides formata est virtus, non autem fides
+              informis. Ergo fides formata et informis differunt specie.</p>
+            <p xml:id="ta-l3d23q3-d1e175">Praeterea, species rei est de forma sua. Sed fidei forma est caritas. Ergo fides
+              informis non est illius speciei cujus est fides formata.</p>
+            <p xml:id="ta-l3d23q3-d1e178">Praeterea, ejusdem formae secundum speciem est idem actus secundum speciem. Sed fidei
+              formatae actus est credere in Deum, non autem fidei informis. Ergo fides formata et
+              informis differunt specie.</p>
+            <p xml:id="ta-l3d23q3-d1e181">Sed contra, habitus diversificantur ex actibus et objectis. Sed fides informis et
+              formata non differunt quantum ad objectum proprium fidei, quod est veritas una. Ergo
+              fides formata et informis non differunt specie.</p>
+            <p xml:id="ta-l3d23q3-d1e185">Praeterea, illud quod est extra essentiam rei, non variat speciem, sicut lumen
+              adveniens aeri in corpore lucenti. Sed caritas est habitus separatus a fide per
+              essentiam. Ergo fides formata caritate non differt specie a fide informi.</p>
+          </div>
+          <div xml:id="ta-l3d23q3-Dd1e190">
+            <head xml:id="ta-l3d23q3-Hd1e192">Quaestiuncula 1</head>
+            <p xml:id="ta-l3d23q3-d1e195">Respondeo dicendum ad primam quaestionem, quod in agentibus ordinatis fines agentium
+              secundorum ordinantur ad finem agentis primi sicut totum universum ordinatur ad primum
+              bonum, quod est Deus, ut dicit philosophus, sicut exercitus ad bonum ducis; et ideo
+              actio primi agentis est et prior et posterior. Prior in movendo: quia actiones omnium
+              secundorum agentium fundantur super actionem primi agentis, quae cum sit una,
+              communiter omnes firmans, specificatur ejus effectus in hoc et in illo secundum
+              exigentiam illius; sicut uno praecepto ducis praecipientis bellum unus accipit
+              gladium, alius parat equum, et sic de aliis. Est autem posterior in utendo aliorum
+              actibus ad finem proprium; et sic omnes actiones aliorum agentium modificantur per
+              actionem primi agentis. Cum ergo in viribus animae voluntas habeat locum primi
+              motoris, actus ejus est prior quodammodo actibus aliarum virium, inquantum imperat eos
+              secundum intentionem finis ultimi, et utitur eis in consecutione ejusdem. Et ideo
+              vires motae a voluntate, duo ab ea recipiunt. Primo formam aliquam ipsius secundum
+              quod omne movens et agens imprimit suam similitudinem in motis et patientibus ab eo.
+              Haec autem forma vel est secundum formam ipsius voluntatis, secundum quod omnes vires
+              motae a voluntate libertatem ab ea participant; vel est secundum habitum perficientem
+              voluntatem, qui est caritas; et sic omnes habitus qui sunt in viribus motis a
+              voluntate perfecta, participant formam caritatis. Haec tamen forma quam a voluntate
+              vires motae participant, est omnibus communis; unde praeter eam habitus, qui sunt
+              perfectiones earum, habent speciales formas, secundum quod congruit potentiae quam
+              perficiunt, per comparationem ad actus et objecta. Secundo recipiunt a voluntate
+              consummationem in fine; et sic caritas dicitur finis aliarum virtutum, inquantum per
+              eam fini ultimo conjunguntur. Quia ergo fides, ut dictum est, est in intellectu
+              secundum quod movetur a voluntate; ideo per caritatem, quae est perfectio voluntatis,
+              formatur forma communis sibi et aliis virtutibus; tamen praeter eam habet formam
+              specialem ex ratione proprii objecti, et potentiae in qua est: et similiter
+              consummationem per caritatem recipit.</p>
+            <p xml:id="ta-l3d23q3-d1e198">Ad primum ergo dicendum, quod fides simpliciter caritatem praecedit: quia velle, quod
+              ad fidem exigitur, sine caritate esse potest: sed fides formata caritatem
+              sequitur.</p>
+            <p xml:id="ta-l3d23q3-d1e201">Ad secundum dicendum, quod omnes virtutes conveniunt in fine; unde earum actus non
+              differunt secundum modum illum quem recipiunt ex ordine ad finem, quem modum dat eis
+              caritas, sed secundum modum quem habent ex natura potentiae et objecto proprio; et
+              ideo secundum hanc etiam formam distinguitur a caritate fides; et secundum hanc non
+              formatur ab ea.</p>
+            <p xml:id="ta-l3d23q3-d1e204">Ad tertium dicendum, quod fides formatur a gratia mediante caritate: quia inquantum
+              actus fidei est ex caritate, secundum hoc est Deo acceptus.</p>
+          </div>
+          <div xml:id="ta-l3d23q3-Dd1e208">
+            <head xml:id="ta-l3d23q3-Hd1e210">Quaestiuncula 2</head>
+            <p xml:id="ta-l3d23q3-d1e213">Ad secundam quaestionem dicendum, quod virtutis est facere actum perfectum. Actus
+              autem potentiae motae ab alia potentia non potest esse perfectus nisi et superior
+              potentia sit perfecta per habitum, ut non deficiat in dirigendo vel movendo, et
+              inferior, ut non deficiat in exequendo; sicut patet in actu concupiscibilis, qui ad
+              hoc quod sit perfectus, requiritur quod concupiscibilis sit perfecta per habitum
+              temperantiae et ratio per habitum prudentiae: quod si desit prudentia in ratione,
+              quantumcumque sit dispositio in concupiscibili ad actum temperantiae, virtutis
+              rationem non habebit, ut dicit philosophus. Quia ergo credere est actus intellectus,
+              secundum quod est motus a voluntate; ad hoc quod iste actus perfectus sit, oportet
+              quod intellectus perfectus sit per lumen fidei, et voluntas sit perfecta per habitum
+              caritatis; et ideo informis fides non habet actum perfectum, et ideo non potest esse
+              virtus.</p>
+            <p xml:id="ta-l3d23q3-d1e216">Ad primum ergo dicendum, quod Augustinus large accipit nomen virtutis pro quacumque
+              dispositione inclinante ad actum quo bonum agitur.</p>
+            <p xml:id="ta-l3d23q3-d1e219">Ad secundum dicendum, quod ad hoc quod sit virtus non solum oportet quod homo faciat
+              ea quae sunt virtutis, ut quod faciat justa vel fortia, sed quod faciat eo modo quo
+              virtuosus facit; quamvis etiam aliquo modo ex hoc quod facit ea quae virtutis sunt,
+              laudari possit. Hic autem modus, ut ex dictis patet, deficit in actu fidei informis;
+              et ideo non est virtus.</p>
+            <p xml:id="ta-l3d23q3-d1e222">Ad tertium dicendum, quod etiam dispositio ad virtutem opponitur vitio; unde non
+              oportet quod fides informis quae infidelitati opponitur, sit virtus.</p>
+          </div>
+          <div xml:id="ta-l3d23q3-Dd1e226">
+            <head xml:id="ta-l3d23q3-Hd1e228">Quaestiuncula 3</head>
+            <p xml:id="ta-l3d23q3-d1e231">Ad tertiam quaestionem dicendum, quod differentia habituum pensanda est ex actibus.
+              Contingit autem aliquos actus dupliciter considerari: vel secundum speciem naturae,
+              vel secundum speciem moris: et quandoque conveniunt secundum speciem quantum ad unum
+              dictorum, et differunt secundum aliud; sicut occidere nocentem et innocentem non
+              differunt secundum speciem naturae, sed secundum speciem moris: quia unum est actus
+              vitii, scilicet homicidii, alterum actus virtutis, sive justitiae: sed occidere
+              latronem et liberare innocentem, sunt actus diversi secundum speciem naturae, et
+              conveniunt secundum speciem moris, quia sunt actus justitiae. Si ergo actus fidei
+              formatae et informis considerentur secundum speciem naturae, sic sunt idem specie,
+              quia speciem naturalem habet actus ex objecto proprio. Si autem considerentur secundum
+              esse moris, tunc differunt secundum completum et incompletum in eadem specie; sicut
+              actus quo facit justa non ut justus, et quo facit justa ut justus. Et similiter fides
+              formata et informis in specie naturae sunt penitus idem; sed in specie moris
+              differunt, non quasi in diversis speciebus existentes, sed sicut perfectum et
+              imperfectum in eadem specie, sicut dispositio et habitus virtutis.</p>
+            <p xml:id="ta-l3d23q3-d1e234">Ad primum ergo dicendum, quod virtus est genus fidei secundum esse moris; a quo tamen
+              non penitus fides informis est aliena, sed est sicut imperfectum in illo genere.</p>
+            <p xml:id="ta-l3d23q3-d1e237">Ad secundum dicendum, quod a forma quam habet virtus ex ratione potentiae et objecti
+              proprii, habet speciem naturae; sed speciem moris habet a forma quam habet a potentia
+              movente et dirigente: et ideo non sequitur quod differant specie, nisi sicut dictum
+              est.</p>
+            <p xml:id="ta-l3d23q3-d1e240">Ad tertium dicendum, quod, sicut supra dictum est, per illa tria unus numero actus
+              designatur quantum ad diversa: unde aliquid est in actu fidei formatae quod non est in
+              actu fidei informis; non tamen est penitus alius.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l3d23q3-Dd1e245" type="articulus">
+          <head xml:id="ta-l3d23q3-Hd1e247">Articulus 2</head>
+          <head xml:id="ta-l3d23q3-Hd1e250" type="questionTitle">Utrum fides informis sit donum Dei, vel habitus
+            acquisitus</head>
+          <p xml:id="ta-l3d23q3-d1e253">Ad secundum sic proceditur. Videtur quod fides informis non sit donum Dei, sed habitus
+            acquisitus. <name ref="#Augustine">Augustinus</name> enim dicit, quod per scientiam fides acquiritur, nutritur, et
+            defenditur. Sed nullus habitus acquisitus per scientiam aliquam est donum Dei, quasi
+            habitus infusus. Ergo fides informis non est habitus infusus.</p>
+          <p xml:id="ta-l3d23q3-d1e259">Praeterea, Rom. 11 dicitur, quod fides ex auditu est; et <ref xml:id="ta-l3d23q3-Rd1e261"><title ref="#io">Joan.</title> 20, 29,</ref> dicitur <name>Thomae</name>:
+              <quote xml:id="ta-l3d23q3-Qd1e269" ana="#io20_29">quia vidisti me, credidisti</quote>; et <ref xml:id="ta-l3d23q3-Rd1e272"><title ref="#io">Joan.</title> 4, 16:</ref> <quote xml:id="ta-l3d23q3-Qd1e277" ana="#io4_16">voca virum
+              tuum</quote>; Glossa, intellectum ad credendum; et Augustinus dicit, quod nullus
+            credit nisi volens. Ex quibus omnibus habetur quod fides est ex aliquo quod in nobis
+            est. Sed omne tale est habitus acquisitus. Ergo fides est habitus acquisitus.</p>
+          <p xml:id="ta-l3d23q3-d1e281">Praeterea, philosophi crediderunt Deum omnipotentem. Sed non habuerunt habitum
+            infusum.</p>
+          <p xml:id="ta-l3d23q3-d1e285">Praeterea, habitus per seipsum est sufficiens ad movendum potentiam in actum. Sed in
+            actum fidei homo fidelis non potest, nisi instruatur. Ergo fides est habitus
+            acquisitus.</p>
+          <p xml:id="ta-l3d23q3-d1e288">Praeterea, <quote xml:id="ta-l3d23q3-Qd1e290" ana="#deut33_4">Dei perfecta sunt opera</quote>; <ref xml:id="ta-l3d23q3-Rd1e293"><title ref="#deut">Deuteron.</title> 33, 4.</ref> Sed fides informis
+            est quid imperfectum. Ergo non est a Deo.</p>
+          <p xml:id="ta-l3d23q3-d1e299">Praeterea, actio peccati non dicitur esse a Deo, propter deformitatem quam habet
+            annexam, quae a Deo non est. Sed ex hoc ipso quod fides informis est, habet quamdam
+            deformitatem. Ergo fides informis non est a Deo.</p>
+          <p xml:id="ta-l3d23q3-d1e302">Sed contra, <ref xml:id="ta-l3d23q3-Rd1e304"><title ref="#Icor">1 Corinth.</title> 13, 2:</ref> <quote xml:id="ta-l3d23q3-Qd1e309" ana="#Icor13_2">si habuero omnem fidem</quote>, dicit Glossa, quod
+            fides quae est sine caritate, donum Dei est: quia etiam in malis sunt multa dona Dei.
+            Ergo informis fides est a Deo infusa.</p>
+          <p xml:id="ta-l3d23q3-d1e313">Praeterea, nullus potest in his quae sunt supra naturam, nisi per aliquid divinitus
+            datum. Sed aliquis habens fidem informem assentit his quae sunt supra naturam. Ergo
+            oportet quod hoc fiat per aliquid divinitus infusum.</p>
+          <p xml:id="ta-l3d23q3-d1e316">Praeterea, altiora sunt ea de quibus est fides, quam ea de quibus est prophetia. Sed
+            prophetia non potest esse sine lumine infuso, sicut in bonis, similiter in malis. Ergo
+            multo minus fides.</p>
+          <p xml:id="ta-l3d23q3-d1e320">Respondeo dicendum, quod sicut supra dictum est, habitus ad hoc sunt necessarii, ut
+            potentiae quae per naturam non sunt determinatae ad actum perfectum, determinentur per
+            habitum. Contingit autem quandoque quod inferior potentia non est determinata ad actum
+            illum perfectum, sed superior potentia determinatur ad ipsum; sicut concupiscibilis non
+            est determinata ad tenendum medium in delectatione ex propria natura, sed ratio
+            determinatur per naturam suam ad illud; et ideo habitus temperantiae acquiritur in
+            concupiscibili ex vi superioris potentiae. Nulla autem potentia secundum suam naturam
+            determinatur ad illa quae sunt supra naturam rationis nostrae, quorum est fides; et ideo
+            ad hunc actum indigemus habitu, qui non est acquisitus: qui quidem in duobus nos
+            adjuvat: in hoc scilicet quod intellectum facit facilem ad credendum credenda, contra
+            duritiem, et discretum ad refutandum non credenda, contra errorem.</p>
+          <p xml:id="ta-l3d23q3-d1e323">Ad primum ergo dicendum, quod habitus infusus similis est habitui innato: quia sicut
+            naturalis habitus datur in creatione, ita infusus in reparatione. Naturalis autem
+            habitus, sicut intellectus principiorum, indiget ut cognitio determinetur per sensum,
+            quo acquisitus non indiget: quia dum acquiritur, per actum determinationem recipit. Et
+            similiter oportet quod fidei habitus determinationem recipiat ex parte nostra: et
+            quantum ad istam determinationem dicitur fides acquiri per scientiam theologiae, quae
+            articulos distinguit; sicut habitus principiorum dicitur acquiri per sensum quantum ad
+            distinctionem principiorum, non quantum ad lumen quo principia cognoscuntur.</p>
+          <p xml:id="ta-l3d23q3-d1e326">Ad secundum dicendum, quod in fide quatuor considerantur; scilicet ipsum quod credendum
+            est, ratio voluntatem determinans ad credendum, voluntas intellectui imperans,
+            intellectus exequens: et secundum hoc fides quantum ad ejus determinationem, et quantum
+            ad ejus actum qui in nobis est, quamvis habitus sit infusus, dicitur esse ex quatuor
+            quae in nobis sunt. Quia quantum ad ipsum credendum dicitur esse ex auditu: quia
+            determinatio credendorum fit in nobis per locutionem interiorem qua Deus nobis loquitur,
+            vel vocem exteriorem. Quantum vero ad rationem, quae inducit voluntatem ad credendum,
+            dicitur esse ex visione alicujus quod ostendit Deum esse qui loquitur in eo qui fidem
+            annuntiat. Quantum vero ad imperium voluntatis dicitur fides esse ex voluntate. Quantum
+            autem ad executionem intellectus, dicitur esse actus fidei ex intellectu.</p>
+          <p xml:id="ta-l3d23q3-d1e329">Ad tertium dicendum, quod philosophi, proprie loquendo, non crediderunt Deum
+            omnipotentem, sed sciverunt: quia demonstrative illud probaverunt. Sed si aliqui illud
+            sine demonstratione crediderunt, non crediderunt illud quasi Deo dicenti hoc, sed alicui
+            signo ex quo illud conjecturati sunt.</p>
+          <p xml:id="ta-l3d23q3-d1e332">Ad quartum dicendum, quod non potest habitus infusus fidei in actum exire, nisi fides
+            determinetur vel a Deo per revelationem, vel ab homine per doctrinam: et simile est de
+            habitu principiorum.</p>
+          <p xml:id="ta-l3d23q3-d1e335">Ad quintum dicendum, quod perfectio divinorum operum est ex ipso; sed quod sit in eis
+            aliqua imperfectio, hoc accidit ex parte recipientis.</p>
+          <p xml:id="ta-l3d23q3-d1e339">Ad sextum dicendum, quod in actu peccati non solum est defectus debitae circumstantiae,
+            sed est ibi positio indebitae; et ideo non tantum est imperfectus, sed est etiam malus;
+            et ideo peccatum non dicitur a Deo esse. Sed in actu fidei informis est defectus
+            alicujus quod debet esse; non autem est ibi positio alicujus quod esse non debeat; et
+            ideo actus ille est imperfectus, non autem malus; et propter hoc a Deo est actus, non
+            autem defectus.</p>
+        </div>
+        <div xml:id="ta-l3d23q3-Dd1e344">
+          <head xml:id="ta-l3d23q3-Hd1e346">Articulus 3</head>
+          <head xml:id="ta-l3d23q3-Hd1e349" type="questionTitle">Utrum fides informis sit in Daemonibus</head>
+          <div xml:id="ta-l3d23q3-Dd1e352">
+            <head xml:id="ta-l3d23q3-Hd1e354">Quaestiuncula 1</head>
+            <p xml:id="ta-l3d23q3-d1e357">Ad tertium sic proceditur. Videtur quod fides informis non sit in Daemonibus. Visio
+              enim fidei est in speculo et in aenigmate, ut dicitur 1 Corinth. 13. Sed aenigmatica
+              et specularis cognitio est in nobis ex hoc quod per sensum naturaliter cognitionem
+              accipimus; quod non est in Daemonibus. Ergo in eis non potest esse fides informis.</p>
+            <p xml:id="ta-l3d23q3-d1e360">Praeterea, fides informis est donum gratuitum, ut dictum est. Sed post peccatum,
+              Angelo non est infusum aliquod donum gratuitum; ante autem in eis fides non erat, sed
+              visio. Ergo non habent fidem informem.</p>
+            <p xml:id="ta-l3d23q3-d1e363">Praeterea, actus fidei ex voluntate est. Sed nullus actus Daemonum ex voluntate
+              deliberata procedens, bonus est, ut in 2 Lib., dist. 7, dictum est. Ergo cum actus
+              fidei informis sit bonus, videtur quod non habeant fidem informem.</p>
+            <p xml:id="ta-l3d23q3-d1e366">Sed contra <ref xml:id="ta-l3d23q3-Rd1e368"><title ref="#iac">Jacob.</title> 11, 19:</ref> <quote xml:id="ta-l3d23q3-Qd1e373" ana="#iac11_19">Daemones credunt, et contremiscunt</quote>.</p>
+            <p xml:id="ta-l3d23q3-d1e378">Praeterea, Rom. 1, super illud: <quote xml:id="ta-l3d23q3-Qd1e380">ex fide in fidem</quote>, dicit Glossa:
+                <quote xml:id="ta-l3d23q3-Qd1e383">fides informis Daemonum est</quote>.</p>
+          </div>
+          <div xml:id="ta-l3d23q3-Dd1e388">
+            <head xml:id="ta-l3d23q3-Hd1e390">Quaestiuncula 2</head>
+            <p xml:id="ta-l3d23q3-d1e393">Ulterius. Videtur quod in haereticis maneat fides informis. Ipsi enim credunt Deum
+              trinum et unum, et Deum factum hominem. Sed haec sunt supra naturam. Cum ergo ea quae
+              sunt supra naturam, non possint credi sine habitu fidei infuso, videtur quod in eis
+              maneat fides infusa.</p>
+            <p xml:id="ta-l3d23q3-d1e396">Praeterea, in scientiis ita est quod qui obliviscitur unum scibilium quae pertinent
+              ad unam scientiam, adhuc manet habitus quantum ad alia scibilia. Sed fides est habitus
+              articulorum. Ergo si aliquis haereticus discredit unum articulum, adhuc manet fides in
+              eo quantum ad alium articulum.</p>
+            <p xml:id="ta-l3d23q3-d1e399">Praeterea, fides informis est principium timoris servilis, qui est in Daemonibus vel
+              haereticis. Ergo fides informis est in eis.</p>
+            <p xml:id="ta-l3d23q3-d1e402">Sed contra, omnis habitus infusus expellitur per actum contrarium, sicut patet
+              inducendo in aliis. Sed haereticus habet actum oppositum fidei. Ergo habitus fidei in
+              eo non manet.</p>
+            <p xml:id="ta-l3d23q3-d1e406">Praeterea, esset simul fidelis et infidelis quod est impossibile.</p>
+          </div>
+          <div xml:id="ta-l3d23q3-Dd1e410">
+            <head xml:id="ta-l3d23q3-Hd1e412">Quaestiuncula 1</head>
+            <p xml:id="ta-l3d23q3-d1e415">Respondeo dicendum ad primam quaestionem, quod de ratione fidei est quod credens
+              assentiat aliquibus quae non videt nec secundum se, nec resolvere ea potest ad ea quae
+              videt, sed inclinatur ad credendum ex aliqua ratione quae sufficit ad determinandum
+              assensum in id quod creditur, quamvis non sufficiat ad inducendum ad visionem ejus
+              quod creditur. Ratio autem haec inducens ad credendum potest sumi vel ex aliquo
+              creato, sicut quando per aliquod signum inducimur ad aliquod credendum vel de Deo vel
+              de aliis rebus; vel sumitur ab ipsa veritate increata, sicut credimus aliqua quae
+              nobis divinitus dicta sunt per ministros. Et primo modo dicta fides cogit intellectum
+              ad credendum per hoc quod non apparet aliquid contrarium; sed secundo modo intellectus
+              non cogitur, sed ex voluntate inclinatur. Et primo modo est fides in Daemonibus,
+              inquantum ex ipsa naturali cognitione simul, et ex miraculis quae vident supra naturam
+              esse multo subtilius quam nos, coguntur ad credendum ea quae naturalem ipsorum
+              cognitionem excedunt, non autem secundo modo.</p>
+            <p xml:id="ta-l3d23q3-d1e418">Ad primum ergo dicendum, quod quamvis in intellectu Daemonis non sit obscuritas quae
+              est in nobis ex sensu, est tamen obscuritas alia per hoc quod non possunt per
+              cognitionem supernaturalem ad visionem veritatis pertingere, quam credere per aliqua
+              signa compelluntur.</p>
+            <p xml:id="ta-l3d23q3-d1e421">Ad secundum dicendum, quod fides quae est in eis non est habitus infusus, sed ex
+              naturali cognitione procedit.</p>
+            <p xml:id="ta-l3d23q3-d1e424">Ad tertium dicendum, quod in eis intellectus cogitur ad assentiendum; unde non omnino
+              ex libera voluntate procedit.</p>
+          </div>
+          <div xml:id="ta-l3d23q3-Dd1e429">
+            <head xml:id="ta-l3d23q3-Hd1e431">Quaestiuncula 2</head>
+            <p xml:id="ta-l3d23q3-d1e434">Ad secundam quaestionem dicendum, quod sicut supra dictum est, fidei habitus infusus
+              in duobus nos adjuvat, scilicet ut credamus quae credenda sunt, et ut eis quae non
+              sunt credenda, nullo modo assentiamus. Primum autem homo potest ex ipsa aestimatione
+              sine habitu infuso; sed secundum, scilicet ut discrete in haec et non in illa
+              inclinetur, est ex habitu infuso tantum; quae quidem discretio est secundum quam non
+              credimus omni spiritui: quae quia in haeretico non est, constat quod habitus fidei in
+              ipso non manet. Et si aliqua credenda credat, hoc est ex ratione humana: si enim
+              habitu fidei ad haec credenda inclinaretur, contraria fidei refutaret, sicut omnis
+              habitus renititur eis quae contra illum habitum sunt.</p>
+            <p xml:id="ta-l3d23q3-d1e437">Ad primum ergo dicendum, quod quamvis credant aliquid quod est supra naturam, non
+              tamen credunt illud per habitum infusum quo dirigantur, sed per aestimationem
+              humanam.</p>
+            <p xml:id="ta-l3d23q3-d1e440">Ad secundum dicendum, quod habitus scientiae inclinat ad scibilia per modum rationis;
+              et ideo potest habens habitum scientiae aliqua ignorare quae ad illum habitum
+              pertinent. Sed habitus fidei cum non rationi innitatur, inclinat per modum naturae,
+              sicut et habitus moralium virtutum, et sicut habitus principiorum; et ideo quamdiu
+              manet, nihil contra fidem credit.</p>
+            <p xml:id="ta-l3d23q3-d1e443">Ad tertium dicendum, quod ex illa aestimatione humana etiam in eis timor servilis
+              causatur sicut in Daemonibus.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l3d23q3-Dd1e448" type="articulus">
+          <head xml:id="ta-l3d23q3-Hd1e450">Articulus 4</head>
+          <head xml:id="ta-l3d23q3-Hd1e453" type="questionTitle">Utrum fides informis evacuetur adveniente caritate</head>
+          <div xml:id="ta-l3d23q3-Dd1e456">
+            <head xml:id="ta-l3d23q3-Hd1e458">Quaestiuncula 1</head>
+            <p xml:id="ta-l3d23q3-d1e461">Ad quartum sic proceditur. Videtur quod fides informis evacuetur caritate adveniente.
+              1 Corinth. 13, 10: <quote xml:id="ta-l3d23q3-Qd1e463">cum venerit quod perfectum est, evacuabitur quod ex parte
+                est</quote>, sicut veniente visione evacuabitur fides. Sed fides informis est
+              imperfecta respectu fidei formatae. Ergo fides informis tollitur adveniente
+              formata.</p>
+            <p xml:id="ta-l3d23q3-d1e467">Praeterea, fides informis est principium timoris servilis. Sed adveniente caritate
+              tollitur timor servilis. Ergo et fides informis.</p>
+            <p xml:id="ta-l3d23q3-d1e470">Praeterea, gratia adveniens non habet minorem efficaciam in fideli quam in infideli.
+              Sed in infideli totum fidei habitum causat. Ergo et in fideli qui habet fidem
+              formatam. Sed fides formata et informis sunt unius speciei, ut patet ex dictis. Ergo
+              cum duae formae unius speciei non possint simul esse in eodem subjecto, oportet quod
+              adveniente caritate et gratia, fides informis tollatur.</p>
+            <p xml:id="ta-l3d23q3-d1e473">Sed contra, dona infusa sunt permanentiora quam acquisita. Sed gratia adveniens non
+              tollit habitus acquisitos. Ergo multo minus tollit habitum infusum fidei.</p>
+            <p xml:id="ta-l3d23q3-d1e477">Praeterea, nihil corrumpitur nisi a suo contrario. Sed fides informis non
+              contrariatur gratiae: quia habitus boni non sunt contrarii ad invicem, sed solum mali,
+              seu bonus malo. Ergo fides informis non tollitur secundum habitum adveniente
+              caritate.</p>
+          </div>
+          <div xml:id="ta-l3d23q3-Dd1e481">
+            <head xml:id="ta-l3d23q3-Hd1e483">Quaestiuncula 2</head>
+            <p xml:id="ta-l3d23q3-d1e486">Ulterius. Videtur quod etiamsi maneat quantum ad habitum, non maneat quantum ad
+              actum. Per actum enim fidei informis etsi aliquid fiat quod est bonum, non tamen
+              aliquid bene. Sed per actum fidei formatae aliquid bene fit. Ergo fides informis non
+              manet quantum ad actum suum adveniente caritate.</p>
+            <p xml:id="ta-l3d23q3-d1e489">Praeterea, lumen minus non illuminat praesente majore lumine. Sed fides informis est
+              minus lumen quam caritas. Ergo praesente caritate actus fidei informis non manet.</p>
+            <p xml:id="ta-l3d23q3-d1e492">Praeterea, unusquisque virtuosus operatur quanto melius potest, sicut et natura. Sed
+              actus fidei formatae quem virtuosus habens caritatem exercet, melior est actu fidei
+              informis. Ergo in eo actus fidei informis vacat; sicut ille qui potest aliquid per
+              syllogismum demonstrativum cognoscere, non curat per syllogismum dialecticum illud
+              considerare.</p>
+            <p xml:id="ta-l3d23q3-d1e495">Sed contra, in moralibus multo minus est aliquid frustra quam in naturalibus, et
+              praecipue quantum ad habitus infusos. Sed habitus sine actu frustra est, cum actus sit
+              finis ejus, sicut et potentiae. Ergo non est habitus fidei sine actu.</p>
+            <p xml:id="ta-l3d23q3-d1e499">Praeterea, actus fidei informis est credere Deo vel Deum. Sed haec manet adveniente
+              caritate. Ergo actus fidei informis non evacuatur.</p>
+          </div>
+          <div xml:id="ta-l3d23q3-Dd1e503">
+            <head xml:id="ta-l3d23q3-Hd1e505">Quaestiuncula 3</head>
+            <p xml:id="ta-l3d23q3-d1e508">Ulterius. Videtur quod fides informis non possit fieri fides formata. Fides enim
+              informis mortua est, ut dicitur Jac. 2. Sed opus mortuum non vivificatur. Ergo nec
+              fides informis vivificatur per formam caritatis.</p>
+            <p xml:id="ta-l3d23q3-d1e511">Praeterea, fides est accidens. Sed accidentia, ut dicit Boetius, variari non possunt.
+              Ergo videtur quod illa eadem fides quae fuit informis, non possit fieri formata.</p>
+            <p xml:id="ta-l3d23q3-d1e514">Praeterea, ex duobus accidentibus non fit unum. Sed gratia adveniens est unum
+              accidens. Ergo ipsa non format fidem informem prius, sed novum habitum fidei formatae
+              causat.</p>
+            <p xml:id="ta-l3d23q3-d1e517">Sed contra, natura semper operatur via brevissima. Ergo similiter et gratia. Sed haec
+              via est magis brevis, ut habitus prius informis formetur, quam novus habitus
+              infundatur. Ergo illa fides quae prius erat informis, informatur.</p>
+            <p xml:id="ta-l3d23q3-d1e521">Praeterea, habitus infusus plus convenit cum gratia quam potentia naturalis. Sed
+              potentia naturalis imperfecta et informis per gratiam advenientem formatur. Ergo multo
+              fortius habitus fidei informis.</p>
+          </div>
+          <div xml:id="ta-l3d23q3-Dd1e526">
+            <head xml:id="ta-l3d23q3-Hd1e528">Quaestiuncula 1</head>
+            <p xml:id="ta-l3d23q3-d1e531">Respondeo ad primam quaestionem dicendum, quod remoto eo quod non pertinet ad speciem
+              rei, non oportet quod substantia rei tollatur; sicut si ab aere tollatur tenebra,
+              adhuc manet aer. Informitas autem fidei non pertinet ad speciem fidei: quia species
+              fidei est per modum quem habet ex natura potentiae, in qua est sicut in subjecto per
+              relationem ad suum objectum. Dicitur autem formata et informis per relationem ad
+              aliquid extrinsecum, scilicet ad voluntatem, ut dictum est; sicut aer formatur lumine
+              per oppositionem corporis luminosi; et ideo patet quod informitas non pertinet ad
+              speciem fidei. Cum ergo caritas adveniens non tollat nisi informitatem a fide, constat
+              quod substantia habitus fidei adhuc manet.</p>
+            <p xml:id="ta-l3d23q3-d1e534">Ad primum ergo dicendum, quod imperfectio quam habet fides respectu visionis, est
+              secundum genus cognitionis; et ideo pertinet ad speciem fidei; et propter hoc visio
+              adveniens fidem evacuat; non autem ita est in proposito, ut dictum est.</p>
+            <p xml:id="ta-l3d23q3-d1e537">Ad secundum dicendum, quod etiam timor servilis non tollitur quantum ad habitum, sed
+              quantum ad servilitatem.</p>
+            <p xml:id="ta-l3d23q3-d1e540">Ad tertium dicendum, quod gratia in habente fidem non causat alium habitum fidei: et
+              hoc non est per inefficaciam gratiae, sed accidit ex parte subjecti, quod non potest
+              recipere id quod jam habet.</p>
+          </div>
+          <div xml:id="ta-l3d23q3-Dd1e544">
+            <head xml:id="ta-l3d23q3-Hd1e546">Quaestiuncula 2</head>
+            <p xml:id="ta-l3d23q3-d1e549">Ad secundam quaestionem dicendum, quod sicut manet habitus fidei informis sine
+              informitate, ita et actus sine informitate: quia habitus est quo quis agit, cum tempus
+              affuerit, ut dicit <name ref="#Augustine">Augustinus</name>.</p>
+            <p xml:id="ta-l3d23q3-d1e555">Ad primum ergo dicendum, quod hoc quod aliquis per fidem informem faciat bonum,
+              pertinet ad substantiam habitus; et ideo hoc manet: sed quod faciat non bene, hoc
+              pertinet ad informitatem, et ideo non manet.</p>
+            <p xml:id="ta-l3d23q3-d1e558">Ad secundum dicendum, quod lumen fidei informis et caritatis non sunt unius rationis:
+              et ideo unum non offuscat aliud, sed perficit illud, cum unum sit materiale respectu
+              alterius.</p>
+            <p xml:id="ta-l3d23q3-d1e561">Ad tertium dicendum, quod actus fidei informis deficit ab actu fidei formatae ratione
+              informitatis, et secundum hoc non manet.</p>
+          </div>
+          <div xml:id="ta-l3d23q3-Dd1e565">
+            <head xml:id="ta-l3d23q3-Hd1e567">Quaestiuncula 3</head>
+            <p xml:id="ta-l3d23q3-d1e570">Ad tertiam quaestionem dicendum, quod, sicut dicit philosophus in 6 Ethic., in homine
+              ante completum esse virtutis moralis, existit quaedam naturalis inclinatio ad virtutem
+              illam, quae dicitur virtus naturalis; et haec eadem virtutis rationem sumit, secundum
+              quod a superiori potentia, scilicet ratione, perfectionem accipit; et similiter fides
+              informis praeexistit in intellectu ante completum esse virtutis; sed rationem virtutis
+              accipit ex perfectione superioris potentiae, scilicet voluntatis: unde una et eadem
+              fides quae prius erat informis, postea fit formata. Nec est alia fides quae advenit:
+              quia fides formata et informis non differunt specie, ut ex dictis patet. Duae autem
+              formae unius speciei simul esse non possunt: quia formae diversificantur secundum
+              numerum ex diversitate materiae vel subjecti.</p>
+            <p xml:id="ta-l3d23q3-d1e573">Ad primum ergo dicendum, quod opus mortuum transit, et non potest idem numero iterum
+              sumi, et ideo vivificari non potest; sed habitus informis manet, et ideo formari
+              potest.</p>
+            <p xml:id="ta-l3d23q3-d1e576">Ad secundum dicendum, quod accidens non variatur quasi subjectum variationis, sed
+              quia secundum ipsum, subjectum diversimode se habet, quod subjectum variationis est,
+              sicut patet in intensione et remissione caloris.</p>
+            <p xml:id="ta-l3d23q3-d1e579">Ad tertium dicendum, quod ex gratia et fide non fit unum accidens; sed modus
+              caritatis participatur ad perfectionem fidei, sicut modus prudentiae participatur ad
+              perfectionem virtutis moralis: et ideo caritas adveniens dicitur formare fidem
+              praeexistentem.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l3d23q3-Dd1e584">
+          <head xml:id="ta-l3d23q3-Hd1e586">Expositio textus</head>
+          <p xml:id="ta-l3d23q3-d1e589"><quote xml:id="ta-l3d23q3-Qd1e590">Accipitur autem fides tribus modis</quote>. Fides proprie dicitur ex hoc quod
+            aliquis assentit eis quae non videt. Hoc autem contingit dupliciter. Uno modo secundum
+            quod homo inducitur per rationem humanam: et sic dicitur fides opinio vehemens. Et adhuc
+            magis extenso nomine omnis certitudo quae fit per rationem humanam, etiamsi ad visionem
+            inducat, dicitur fides, secundum quod argumentum dicitur ratio rei dubiae faciens fidem.
+            Dicitur autem et veracitas hominis fides, inquantum est causa quod credat quis etiam de
+            his quae non videt; et sic dicit Tullius, quod fides est fundamentum justitiae, fidem
+            pro fidelitate accipiens. Et ulterius ipsa conscientia secundum quam aliquis hanc
+            veracitatem tenet, dicitur fides. <ref xml:id="ta-l3d23q3-Rd1e593"><title ref="#rom">Rom.</title> 14, 23:</ref> <quote xml:id="ta-l3d23q3-Qd1e598" ana="#rom14_23">omne quod non est ex fide</quote>,
+            Glossa: <quote xml:id="ta-l3d23q3-Qd1e601">idest ex conscientia</quote>. Alio modo secundum quod homo inducitur per
+            rationem divinam: et sic dicitur fides ipse habitus quo creditur, sive sit formatus sive
+            informis, et actus, et objectum, et sacramentum, inquantum est causa et signum hujus
+            fidei, et quaelibet certitudo quae habetur de divinis, extenso nomine dicitur fides
+            etiamsi videantur. <quote xml:id="ta-l3d23q3-Qd1e604">Non sicut corpora</quote>. Sciendum, quod hic Augustinus
+            experimentalem cognitionem quam quis habet de fide sua separat a quatuor generibus
+            visionum: scilicet a visione exteriori, per hoc quod dicit: <quote xml:id="ta-l3d23q3-Qd1e607">sicut
+            corpora</quote>; et a visione imaginationis quae ex ipsa relinquitur, in hoc quod dicit:
+              <quote xml:id="ta-l3d23q3-Qd1e611">et per ipsorum imaginationem</quote>; et a visione imaginativae, quae ex
+            diversis imaginibus rerum visarum format aliquam rem nunquam visam, in hoc quod dicit:
+              <quote xml:id="ta-l3d23q3-Qd1e614">non sicut ea quae non videmus</quote>; et a visione intellectuali eorum quae
+            sunt extra nos, per hoc quod dixit: <quote xml:id="ta-l3d23q3-Qd1e617">nec sicut hominem. Quid est fides nisi
+              credere quod non vides?</quote> Hic definit habitum fidei per actum proprium.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

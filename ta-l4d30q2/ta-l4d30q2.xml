@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 30, Quaestio 2</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Librum IV, Distinctio 30, Quaestio 2</title>
+          <date when="2016-03-19">March 19, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-19">March 19, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness>1856 editum</witness>
+          <witness xml:id="G" n="ghent567">Ghent, Belgium, Ghent University Library, 567</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="0.0.0-dev">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+
+
+
+
+      <div xml:id="starts-on">
+        <cb ed="#G" n="468a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ta-l4d30q2">
+        <head xml:id="ta-l4d30q2-Hd1e97">Librum IV, Distinctio 30, Quaestio 2</head>
+        <div xml:id="ta-l4d30q2-Dd1e100">
+          <head xml:id="ta-l4d30q2-Hd1e102">Prooemium</head>
+          <p xml:id="ta-l4d30q2-d1e105">Deinde quaeritur de matrimonio beatae virginis, et circa hoc quaeruntur tria: 1 de voto
+            et matrimonio beatae virginis; 2 utrum fuerit illud matrimonium perfectum; 3 utrum
+            fuerit aliquando consummatum, ut Elvidius dixit.</p>
+
+        </div>
+        <div xml:id="ta-l4d30q2-Dd1e109" type="articulus">
+          <head xml:id="ta-l4d30q2-Hd1e111">Articulus 1</head>
+
+          <head xml:id="ta-l4d30q2-Hd1e114" type="questionTitle">Utrum beata virgo debuerit virginitatem vovere</head>
+
+          <div xml:id="ta-l4d30q2-Dd1e117">
+            <head xml:id="ta-l4d30q2-Hd1e119">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d30q2-d1e122">Ad primum sic proceditur. Videtur quod beata virgo non debuerit virginitatem vovere.
+              Quia in lege maledictio debebatur illis qui semen non relinquebant super terram, ut
+              patet Deuter. 7. Sed adhuc durabat status legis. Ergo non debuit virginitatem
+              vovere.</p>
+            <p xml:id="ta-l4d30q2-d1e125">Praeterea, votum virginitatis pertinet ad perfectionem consiliorum. Sed talis
+              perfectio debuit a Christo inchoari, qui venit legem consiliis adimplere. Ergo ante
+              Christi adventum non debuit virginitatem vovere.</p>
+            <p xml:id="ta-l4d30q2-d1e128">Sed contra, in matre Christi debebat omnis esse perfectio. Sed votum virginitatis est
+              de maximis perfectionibus. Ergo non debuit ei deesse.</p>
+
+          </div>
+          <div xml:id="ta-l4d30q2-Dd1e132">
+            <head xml:id="ta-l4d30q2-Hd1e134">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d30q2-d1e137">Ulterius. Videtur quod non debuit esse matrimonio juncta. Quia voventibus
+              virginitatem non solum nubere, sed velle nubere est damnabile, ut Hieronymus dicit.
+              Sed nihil damnabile debuit esse in beata virgine. Ergo postquam virginitatem vovit,
+              nubere non debuit.</p>
+            <p xml:id="ta-l4d30q2-d1e140">Praeterea, vovens virginitatem periculo se exponeret, si se in potestatem viri
+              traderet. Sed hoc est peccatum. Ergo beata virgo non debuit sui potestatem alteri
+              tradere nubendo; ergo nec nubere.</p>
+            <p xml:id="ta-l4d30q2-d1e143">Praeterea, quicumque consentit in matrimonium, consentit aliquo modo in carnalem
+              copulam, ad minus implicite. Sed consensus in carnalem copulam aliquid diminuit de
+              puritate virginitatis, ad minus inquantum ad virginitatem mentis. Cum ergo matri Dei
+              deberetur talis puritas qua major sub Deo nequit intelligi, ut Anselmus dicit, videtur
+              quod non debuit nubere.</p>
+            <p xml:id="ta-l4d30q2-d1e146">Sed contra est quod dicitur Matth. 1, 18: <quote xml:id="ta-l4d30q2-Qd1e148" ana="#mt1_18">cum esset desponsata mater Jesu
+                Maria Joseph</quote>; in textu, et Glossa.</p>
+            <p xml:id="ta-l4d30q2-d1e153">Praeterea, Christus sua nativitate debuit ita virginitatem commendare, quod nuptiis
+              non derogaret. Non autem melius potuit utrumque approbare quam ut de virgine nupta
+              nasceretur. Ergo et cetera.</p>
+
+          </div>
+          <div xml:id="ta-l4d30q2-Dd1e157">
+            <head xml:id="ta-l4d30q2-Hd1e159">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d30q2-d1e162">Ulterius. Videtur quod causae matrimonii ejus assignatae in littera non sint
+              convenientes. Quia Diabolus, cum habeat lucida naturalia, plura potest cognoscere
+              naturali cognitione quam homo. Sed homo etiam sensu potest cognoscere de aliqua an sit
+              virgo. Ergo multo fortius Diabolus hoc scire poterat.</p>
+            <p xml:id="ta-l4d30q2-d1e165">Praeterea, Diabolus bene scit quod illa est virgo quae nunquam conjuncta est viro.
+              Sed Diabolus scire poterat quod Joseph nunquam carnaliter ei conjunctus fuerat. Ergo
+              per hoc quod erat nupta, non occultabatur ei virginitas matris Dei.</p>
+            <p xml:id="ta-l4d30q2-d1e168">Praeterea, mysterium divinitatis Christi non minus miraculis quam virginitate matris
+              demonstratum est. Sed illa miracula Diabolus vidit. Ergo non oportuit quod mysterium
+              incarnationis ejus ei per nuptias matris celaretur.</p>
+            <p xml:id="ta-l4d30q2-d1e171">Item, si non esset nupta, non poterat lapidari propter suspicionem fornicationis,
+              quasi adultera. Ergo videtur quod non propter hoc oportebat eam nubere.</p>
+            <p xml:id="ta-l4d30q2-d1e175">Praeterea, ex hoc quod nupta fuisset, Judaei magis aedificati fuissent ad fidem, qui
+              scriptum invenerunt: <quote xml:id="ta-l4d30q2-Qd1e177">ecce virgo concipiet</quote>; et ita virginitas matris non
+              debuit vir per nuptias occultari.</p>
+            <p xml:id="ta-l4d30q2-d1e181">Item, Christus venit ut labores nostros sustineret, et per hoc auferret. Ergo non
+              oportuit quod haberet mater ejus virum ad ejus obsequia.</p>
+          </div>
+          <div xml:id="ta-l4d30q2-Dd1e186">
+            <head xml:id="ta-l4d30q2-Hd1e188">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d30q2-d1e191">Respondeo dicendum, quod in beata virgine debuit apparere omne illud quod
+              perfectionis fuit. Virginitas autem, quamvis in se optima, tamen pro tempore illo ei
+              matrimonium praeferebatur propter expectationem benedicti seminis per viam
+              generationis venturi; et ideo beata virgo vovit virginitatem tamquam optimum et sibi
+              acceptissimum; non tamen simpliciter, sed sub conditione honestissima, haec scilicet,
+              nisi Deus aliter ordinaret: nec istam conditionem apposuit ut dubitaret an vellet
+              virgo permanere, sed an deberet; et hoc est quod Augustinus in littera dicit, quod
+              proposuit se perseveraturam virginem, nisi Deus aliter ordinaret.</p>
+            <p xml:id="ta-l4d30q2-d1e194">Ad primum ergo dicendum, quod beata virgo fuit confinium veteris et novae legis,
+              sicut aurora diei et noctis; et ideo votum ejus sapuit novam legem, inquantum
+              virginitatem vovit; et veterem, inquantum conditionem apposuit.</p>
+            <p xml:id="ta-l4d30q2-d1e197">Ad secundum dicendum, quod perfectio consiliorum quantum ad consummationem incipere
+              debuit a Christo; sed quantum ad aliquam inchoationem convenienter a matre ejus
+              incepit.</p>
+
+          </div>
+          <div xml:id="ta-l4d30q2-Dd1e201">
+            <head xml:id="ta-l4d30q2-Hd1e203">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d30q2-d1e206">Ad secundam quaestionem dicendum, quod conveniens fuit matrem Christi matrimonio esse
+              junctam tum propter causas in littera assignatas, tum etiam propter alias causas:
+              quarum prima est, ut significaret Ecclesiam, quae est virgo et sponsa. Secunda, ut per
+              Joseph genealogia Mariae texeretur: non enim erat consuetudo apud Hebraeos ex parte
+              mulierum genealogiam computare. Tertia, ut virginibus excusatio tolleretur, si de
+              fornicatione infamantur. Quarta, ut nuptias Christus sua nativitate approbaret.
+              Quinta, ut major perfectio virginitatis in beata virgine ostenderetur, dum in ipso
+              matrimonio virgo permansit.</p>
+            <p xml:id="ta-l4d30q2-d1e209">Ad primum ergo dicendum, quod post votum virginitatis absolute factum non potest
+              aliquis in matrimonium consentire sine peccato: quia si sit votum solemne, non fit
+              verum matrimonium; si autem sit votum simplex, verum matrimonium est quod sequitur;
+              tamen peccant contrahentes. Votum autem beatae virginis non fuit solemne, sed simplex
+              in corde expressum; nec absolutum, sed sub conditione, ut in littera patet; et ideo
+              potuit sine peccato ex speciali spiritus sancti consilio, cujus dispositio
+              conditionaliter in suo voto cadebat, in matrimonium consentire.</p>
+            <p xml:id="ta-l4d30q2-d1e212">Ad secundum dicendum, quod beata virgo antequam contraheret cum Joseph, fuit
+              certificata divinitus quod Joseph in simili proposito erat; et ideo non se commisit
+              periculo nubens. Nec tamen propter hoc aliquid veritati deperiit, quia illud
+              propositum non fuit conditionaliter in consensu appositum: talis enim conditio cum sit
+              contra matrimonii bonum, scilicet prolem procreandam, matrimonium tolleret.</p>
+            <p xml:id="ta-l4d30q2-d1e215">Ad tertium dicendum, quod copula carnalis cecidit implicite sub consensu beatae
+              virginis, sicut actus implicite continetur in potentia, ut ex supra dictis, dist. 28,
+              qu. 1, art. 4, patet. Potentia autem ad carnalem copulam non contrariatur virginitati,
+              nec diminuit aliquid de puritate ipsius nisi ratione actus; qui quidem nunquam fuit in
+              proposito beatae virginis, sed erat jam certificata quod actus nunquam sequi
+              deberet.</p>
+
+          </div>
+          <div xml:id="ta-l4d30q2-Dd1e219">
+            <head xml:id="ta-l4d30q2-Hd1e221">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d30q2-d1e224">Ad tertiam quaestionem dicendum, quod rationes quae in littera ponuntur, convenientes
+              sunt: quarum una accipitur ex parte conceptus, scilicet ut partus Diabolo celaretur;
+              secunda ex parte matris, ut scilicet non lapidaretur; tertia ex parte Joseph, scilicet
+              ut obsequeretur et matri et puero, et testimonium praeberet virginitatis.</p>
+            <p xml:id="ta-l4d30q2-d1e227">Ad primum ergo dicendum, quod Diabolus cognitione naturali bene potuisset perpendere
+              virginitatem matris Dei cum toto hoc quod nupta erat, nisi prohibitus fuisset a
+              diligenti examinatione eorum quae circa ipsam erant, divina virtute.</p>
+            <p xml:id="ta-l4d30q2-d1e230">Et similiter dicendum ad secundum.</p>
+            <p xml:id="ta-l4d30q2-d1e233">Ad tertium dicendum, quod per alia etiam miracula non aperte poterat cognoscere ipsum
+              esse filium Dei: quia simul videbat in eo signa infirmitatis et virtutis; unde si
+              aliquando aliquid de divinitate ejus confitebatur, magis ex praesumptione quam ex
+              certitudine procedebat. Sed hoc propter praecedens vaticinium fuisset certissimum
+              signum filii Dei viventis.</p>
+            <p xml:id="ta-l4d30q2-d1e237">Ad quartum dicendum, quod intelligitur de lapidatione infamiae: vel quia erat de
+              stirpe sacerdotali ex parte matris; quod patet ex hoc quod Elisabeth, quae erat de
+              filiabus Aaron, dicitur ejus cognata. Luc. 1. Filia autem sacerdotis, etiam non nupta,
+              deprehensa in stupro exurebatur, ut patet Lev. 21: sed ex parte patris erat de stirpe
+              David. Bene enim poterant per matrimonium conjugi filiae Aaron illis de tribu regia,
+              vel etiam quibuslibet alterius tribus, eo quod non acceperant hereditatem divisam ab
+              aliis tribubus; et sic ex hoc non potuit confusio sortium provenire, quae erat causa
+              prohibitionis matrimonii contrahendi inter illos qui erant de diversis tribubus.</p>
+            <p xml:id="ta-l4d30q2-d1e240">Ad quintum dicendum, quod dominus maluit permittere Judaeos dubitare de deitate sua
+              quam de castitate matris, sciens lubricam esse virginitatis famam, ut Ambrosius
+              dicit.</p>
+            <p xml:id="ta-l4d30q2-d1e243">Ad sextum dicendum, quod Christus non debuit necessitatis solatium refutare: quia hoc
+              perversitatis magis est quam humilitatis.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d30q2-Dd1e248" type="articulus">
+          <head xml:id="ta-l4d30q2-Hd1e250">Articulus 2</head>
+
+          <head xml:id="ta-l4d30q2-Hd1e253" type="questionTitle">Utrum matrimonium praedictum fuerit perfectum</head>
+
+          <p xml:id="ta-l4d30q2-d1e256">Ad secundum sic proceditur. Videtur quod matrimonium praedictum non fuerit perfectum.
+            Perfectum enim matrimonium ex absoluto consensu procedit. Sed beata virgo non absolute
+            in matrimonium consensisse videtur, sicut nec absolute vovisse; cum in utroque se
+            dispositioni divinae commiserit, ut in littera dicitur. Ergo non fuit perfectum
+            matrimonium.</p>
+          <p xml:id="ta-l4d30q2-d1e259">Praeterea, significatio est de essentia matrimonii, inquantum est sacramentum. Sed
+            matrimonium illud non fuit perfectum in consignificatione, ut in littera dicitur. Ergo
+            non fuit perfectum sacramentum.</p>
+          <p xml:id="ta-l4d30q2-d1e262">Praeterea, ubi deest ultima consummatio, non est vera perfectio. Sed matrimonium beatae
+            virginis nunquam fuit consummatum. Ergo non fuit vere perfectum.</p>
+          <p xml:id="ta-l4d30q2-d1e266">Praeterea, perfectum dicitur esse matrimonium ex eo quod habet bonum prolis. Sed illud
+            matrimonium non habuit bonum prolis, quia proles quae fuit in illo matrimonio educata,
+            non fuit effectus illius matrimonii, sicut nec filius adoptivus dicitur bonum
+            matrimonii. Ergo non fuit perfectum matrimonium.</p>
+          <p xml:id="ta-l4d30q2-d1e269">Praeterea, post perfectum matrimonium non licet alicui sponsam dimittere. Sed Joseph,
+            quamvis esset justus, volebat eam occulte dimittere, ut dicitur Matth. 1. Ergo nondum
+            erat perfectum matrimonium.</p>
+          <p xml:id="ta-l4d30q2-d1e272">Sed contra, <quote xml:id="ta-l4d30q2-Qd1e274">Dei perfecta sunt opera</quote>; Deut. 32, 4. Sed illud matrimonium
+            fuit divinitus inspiratum. Ergo fuit perfectum.</p>
+          <p xml:id="ta-l4d30q2-d1e278">Praeterea, per matrimonium non dicuntur aliqui conjuges, nisi sit perfectum. Sed Maria
+            dicitur conjux Joseph. Matth. 1. Ergo fuit inter eos perfectum matrimonium.</p>
+          <p xml:id="ta-l4d30q2-d1e281">Respondeo dicendum, quod duplex est perfectio matrimonii. Una quantum ad esse ipsius,
+            quae fit per consensum verbis de praesenti expressum; et tali perfectione matrimonium
+            illud perfectum fuit. Alia est perfectio quantum ad operationem; et sic non fuit
+            perfectum, quia actus proprius matrimonii est carnalis copula.</p>
+          <p xml:id="ta-l4d30q2-d1e284">Ad primum ergo dicendum, quod beata virgo absolute in matrimonium consensit, ut
+            certificata divinitus; sed in matrimonium sic consentiens virginitatem suam Deo
+            commisisse in littera dicitur.</p>
+          <p xml:id="ta-l4d30q2-d1e288">Ad secundum dicendum, quod significatio non quaelibet est de essentia sacramenti, sed
+            illa qua significatur effectus sacramenti; et ideo ratio non sequitur.</p>
+          <p xml:id="ta-l4d30q2-d1e291">Ad tertium dicendum, quod ratio illa procedit de secunda perfectione quae consummatio
+            dicitur matrimonii.</p>
+          <p xml:id="ta-l4d30q2-d1e294">Ad quartum dicendum, quod proles non dicitur bonum matrimonii solum inquantum per
+            matrimonium generatur, sed inquantum in matrimonio suscipitur et educatur; et sic bonum
+            illius matrimonii fuit proles illa et non primo modo. Nec tamen de adulterio natus, nec
+            filius adoptivus qui in matrimonio educatur, est bonum matrimonii: quia matrimonium non
+            ordinatur ad educationem illorum, sicut hoc matrimonium fuit ad hoc ordinatum
+            specialiter quod proles illa susciperetur in eo, et educaretur.</p>
+          <p xml:id="ta-l4d30q2-d1e297">Ad quintum dicendum, quod Joseph noluit eam dimittere quasi aliam ducturus, vel propter
+            aliquam suspicionem, sed quia timebat tantae sanctitati cohabitare propter reverentiam;
+            unde dictum est ei: <quote xml:id="ta-l4d30q2-Qd1e299" ana="#mt1_20">noli timere</quote>; Matth. 1, 20.</p>
+
+        </div>
+        <div xml:id="ta-l4d30q2-Dd1e304" type="articulus">
+          <head xml:id="ta-l4d30q2-Hd1e306">Articulus 3</head>
+
+          <head xml:id="ta-l4d30q2-Hd1e309" type="questionTitle">Utrum matrimonium illud fuerit aliquando consummatum</head>
+
+          <p xml:id="ta-l4d30q2-d1e312">Ad tertium sic proceditur. Videtur quod matrimonium illud fuerit aliquando consummatum.
+            Dicitur enim Matth. 1, 18: <quote xml:id="ta-l4d30q2-Qd1e314" ana="#mt1_18">antequam convenirent, inventa est in utero habens de
+              spiritu sancto</quote>. Et item 25: <quote xml:id="ta-l4d30q2-Qd1e317">non cognoscebat eam donec peperit filium
+              suum primogenitum</quote>. Ergo videtur quod post cognoverit eam.</p>
+          <p xml:id="ta-l4d30q2-d1e321">Praeterea, primum dicitur respectu secundi. Sed Christus in auctoritate inducta dicitur
+            primogenitus filius virginis. Ergo post primum habuit alium; et sic matrimonium illud,
+            saltem post Christi nativitatem, consummatum fuit.</p>
+          <p xml:id="ta-l4d30q2-d1e324">Praeterea, non defuerunt verba Evangelistis ad exprimendum suam intentionem. Sed
+            nunquam expresserunt, quod Joseph amplius eam non cognosceret. Ergo post Christi
+            generationem matrimonium fuit consummatum.</p>
+          <p xml:id="ta-l4d30q2-d1e328">Praeterea, Joseph dicitur pater Christi in pluribus Evangelii locis, et dicitur etiam
+            habere fratres; quod non esset, si matrimonium illud nunquam fuisset consummatum. Ergo
+            et cetera.</p>
+          <p xml:id="ta-l4d30q2-d1e331">Praeterea, duo corpora non possunt simul esse in eodem loco. Ergo Christus non potuit
+            exire de ventre matris integritate virginitatis manente; et sic non fuit inconveniens
+            quod matrimonium illud consummaretur.</p>
+          <p xml:id="ta-l4d30q2-d1e334">Praeterea, Abraham et alii patres qui conjugiis usi sunt, maximae dignitatis fuerunt.
+            Ergo nihil deperisset matri Christi, si matrimonium consummasset.</p>
+          <p xml:id="ta-l4d30q2-d1e337">Praeterea, Helvidius objicit: si turpe est Christo matrem cognosci post partum, quanto
+            magis per genitalia virginis esse natum.</p>
+          <p xml:id="ta-l4d30q2-d1e340">Sed contra, virginitas corruptioni praeponitur. Sed mater Christi debuit esse in
+            excellentissimo statu. Ergo debuit esse virgo: et sic non debuit illud matrimonium
+            consummari.</p>
+          <p xml:id="ta-l4d30q2-d1e343">Praeterea, non est probabile quod Joseph auderet uterum quem templum Dei noverat,
+            attingere, ut Hieronymus dicit.</p>
+          <p xml:id="ta-l4d30q2-d1e347">Respondeo dicendum, quod mater Christi ante partum et in partu et post partum in
+            aeternum virgo permansit. Sed ejus virginitati ante partum Judaei et Ebionitae derogant,
+            dicentes, Christum ex Joseph semine esse natum. Ejus autem virginitati in partu
+            philosophi derogabant, dicentes, non posse duo corpora esse in eodem loco. Sed
+            virginitati ejus post partum Helvidius quidam idiota et sacerdos ausus est derogare,
+            quod loquacitatem facundiam aestimans, accepta materia disputandi, a blasphemiis matris
+            Dei incepit, dicens eam post partum a Joseph cognitam; et contra quem Hieronymus librum
+            conscripsit.</p>
+          <p xml:id="ta-l4d30q2-d1e350">Ad primum ergo dicendum, quod antequam non semper denotat ordinem ad illud quod futurum
+            est secundum rei veritatem, sed quandoque ad illud quod futurum speratur secundum
+            communem cursum, secundum quod dicitur: iste, antequam haberet viginti annos, mortuus
+            est; et sic est in proposito. Et similiter ly donec, quandoque significat hoc quod
+            praecessit, terminari veniente eo quod expectatur, ut cum dicitur: sede hic, donec
+            veniam; quandoque autem non sic, ut cum dicitur 1 Corinth. 15, 25: <quote xml:id="ta-l4d30q2-Qd1e352">oportet illum
+              regnare, donec ponat omnes inimicos sub pedibus ejus</quote>: non quod tempus regni
+            ejus finiatur ad subjectionem inimicorum; sed subjectio inimicorum in tempore regni
+            includitur.</p>
+          <p xml:id="ta-l4d30q2-d1e356">Ad secundum dicendum, quod primogenitus dicitur ante quem nullus, quamvis post ipsum
+            non sit alius: alias unigeniti jus primogeniturae non haberent, nec debuissent Deo
+            offerri in lege: quod falsum est.</p>
+          <p xml:id="ta-l4d30q2-d1e359">Ad tertium dicendum, quod Evangelistae ex eo quod minus est credibile, dimiserunt
+            intelligendum hoc quod magis credibile est. Minus autem credibile est quod virgo
+            concipiat (quod Evangelistae dixerunt), quam quod post partum virgo conservetur; et ideo
+            non curaverunt hoc dicere.</p>
+          <p xml:id="ta-l4d30q2-d1e362">Ad quartum dicendum, quod Joseph dicitur pater Christi putativus, ut patet Luc. 3. Et
+            iterum Christus fuit filius ejus adoptivus, ut quidam dicunt. Alii autem dicti sunt
+            fratres ejus ratione cognationis, quia erant de eadem familia: quia nec Maria alium
+            filium habuit, nec Joseph, qui etiam virgo fuit, ut dicitur.</p>
+          <p xml:id="ta-l4d30q2-d1e365">Ad quintum dicendum, quod verum est per naturam; sed per miraculum potest fieri quod
+            duo corpora sint in eodem loco, ut infra, dist. 44, dicetur. Partus autem ille et
+            conceptus totus miraculosus fuit. Quidam tamen dicunt, quod Christus tunc dotem
+            subtilitatis assumpsit. Sed primum est melius.</p>
+          <p xml:id="ta-l4d30q2-d1e369">Ad sextum dicendum, quod quamvis status conjugii consummati sit bonus, tamen status
+            virginitatis est multo altior; et hic matri Dei debebatur.</p>
+          <p xml:id="ta-l4d30q2-d1e372">Ad septimum dicendum, secundum Hieronymum, quod quanto sunt humiliora quae pro me
+            passus est, tanto ei plus debeo; dummodo per haec perfectioni virtutis nihil
+            subtrahatur. Sed virginitatis privatio derogaret perfectioni matris ex parte virtutis
+            animae.</p>
+        </div>
+        <div xml:id="ta-l4d30q2-Dd1e377">
+          <head xml:id="ta-l4d30q2-Hd1e379">Expositio textus</head>
+          <p xml:id="ta-l4d30q2-d1e382"><quote xml:id="ta-l4d30q2-Qd1e383">Si enim Diabolus transfigurans se in Angelum lucis credatur bonus, non est error
+              periculosus</quote>. Hoc intelligendum est, quando non proceditur ad adorationem, vel
+            quando proceditur sub conditione, si est Christus; alias esset periculum idolatriae.
+              <quote xml:id="ta-l4d30q2-Qd1e386">Si quis haereticus nomine Augustini vel Ambrosii alicui Catholico se offerret,
+              eumque ad suae fidei imitationem vocaret, si ille assentiret, in cujus fidei
+              sententiam diceretur consensisse?</quote> Hoc est verum quando non procederet ad
+            expressionem alicujus erroris; alias esset ibi periculum infidelitatis, si ei
+            consentiret. <quote xml:id="ta-l4d30q2-Qd1e389">Consensit in carnalem copulam</quote>: non explicite, sed implicite,
+            ut dictum est. <quote xml:id="ta-l4d30q2-Qd1e392">Jacob Rachel decoram facie et venusto aspectu amavit</quote>.
+            Sciendum, quod decor faciei non fuit causa principalis, sed secundaria; et hoc bene
+            potest esse sine peccato, vel quandoque etiam sine veniali peccato. Si autem esset
+            principalis causa libido pulchritudinis, non excusaretur a peccato mortali, si esset
+            effrenata libido.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

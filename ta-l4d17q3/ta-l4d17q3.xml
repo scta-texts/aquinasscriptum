@@ -1,0 +1,1271 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 17, Quaestio 3</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Librum IV, Distinctio 17, Quaestio 3</title>
+          <date when="2016-03-19">March 19, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-19">March 19, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness>1856 editum</witness>
+          <witness xml:id="G" n="ghent567">Ghent, Belgium, Ghent University Library, 567</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="0.0.0-dev">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+
+
+
+
+      <div xml:id="starts-on">
+        <cb ed="#G" n="317a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ta-l4d17q3">
+        <head xml:id="ta-l4d17q3-Hd1e97">Librum IV, Distinctio 17, Quaestio 3</head>
+        <div xml:id="ta-l4d17q3-Dd1e100">
+          <head xml:id="ta-l4d17q3-Hd1e102">Prooemium</head>
+          <p xml:id="ta-l4d17q3-d1e105">Deinde quaeritur de confessione; et circa hoc quaeruntur quinque: 1 de necessitate
+            confessionis; 2 quid sit confessio; 3 cui sit facienda; 4 qualis esse debeat; 5 de
+            effectu confessionis.</p>
+
+        </div>
+        <div xml:id="ta-l4d17q3-Dd1e109" type="articulus">
+          <head xml:id="ta-l4d17q3-Hd1e111">Articulus 1</head>
+
+          <head xml:id="ta-l4d17q3-Hd1e114" type="questionTitle">Utrum confessio sit necessaria ad salutem</head>
+
+          <div xml:id="ta-l4d17q3-Dd1e117">
+            <head xml:id="ta-l4d17q3-Hd1e119">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d17q3-d1e122">Ad primum sic proceditur. Videtur quod confessio non sit necessaria ad salutem.
+              Sacramentum enim poenitentiae contra remissionem culpae ordinatum est. Sed culpa per
+              gratiae infusionem sufficienter remittitur. Ergo ad poenitentiam de peccato agendam
+              non est necessaria confessio.</p>
+            <p xml:id="ta-l4d17q3-d1e125">Praeterea, aliquibus est peccatum remissum sine hoc quod confessi legantur, sicut
+              patet de Petro, et de Magdalena, et etiam de Paulo. Sed non est minoris efficaciae
+              gratia remittens peccatum nunc quam tunc fuit. Ergo nec nunc de necessitate salutis
+              est quod homo confiteatur.</p>
+            <p xml:id="ta-l4d17q3-d1e128">Praeterea, peccatum quod ex alio contractum est, ex alio debet habere medicinam. Ergo
+              peccatum actuale, quod ex proprio motu quilibet commisit, debet ex seipso tantum
+              habere medicinam. Sed contra tale peccatum ordinatur poenitentia. Ergo confessio non
+              est de necessitate poenitentiae.</p>
+            <p xml:id="ta-l4d17q3-d1e131">Praeterea, confessio ad hoc desideratur in judicio, ut secundum quantitatem culpae
+              poena infligatur. Sed homo potest sibi ipsi poenam infligere majorem quam etiam ab
+              alio sibi infligatur. Ergo videtur quod non sit confessio de necessitate salutis.</p>
+            <p xml:id="ta-l4d17q3-d1e135">Sed contra, Boetius in Lib. de Consolat.: <quote xml:id="ta-l4d17q3-Qd1e137">si medicinam expectas, oportet quod
+                morbum detegas</quote>. Sed de necessitate salutis est quod homo de peccatis
+              medicinam accipiat. Ergo et de necessitate salutis est quod morbum per confessionem
+              detegat.</p>
+            <p xml:id="ta-l4d17q3-d1e141">Praeterea, in judicio saeculari non est idem judex et reus. Sed judicium spirituale
+              est ordinarius. Ergo peccator, qui est reus, non habet esse sui ipsius judex, sed ab
+              alio judicari; et ita oportet quod ei confiteatur.</p>
+
+          </div>
+          <div xml:id="ta-l4d17q3-Dd1e145">
+            <head xml:id="ta-l4d17q3-Hd1e147">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d17q3-d1e150">Ulterius. Videtur quod sit de jure naturali. Adam enim et Cain non tenebantur nisi ad
+              praecepta legis naturae. Sed reprehenduntur de hoc quod peccatum suum non sunt
+              confessi. Ergo confessio peccati est de lege naturali.</p>
+            <p xml:id="ta-l4d17q3-d1e153">Praeterea, praecepta illa quae manent in lege veteri et nova, sunt de jure naturali.
+              Sed confessio fuit in lege veteri; unde dicitur Isai. 43, 26: <quote xml:id="ta-l4d17q3-Qd1e155">narra, si quid
+                habes, ut justificeris</quote>. Ergo est de lege naturali.</p>
+            <p xml:id="ta-l4d17q3-d1e159">Praeterea, Job non erat subjectus nisi legi naturali. Sed ipse peccata confitebatur,
+              ut patet per hoc quod ipse de se dicit: <quote xml:id="ta-l4d17q3-Qd1e161">si abscondi ut homo peccatum
+                meum</quote>. Ergo est de lege naturali.</p>
+            <p xml:id="ta-l4d17q3-d1e165">Sed contra, Isidorus dicit, quod jus naturale est idem apud omnes. Sed confessio non
+              est eodem modo apud omnes. Ergo non est de jure naturali.</p>
+            <p xml:id="ta-l4d17q3-d1e169">Praeterea, confessio fit ei qui habet claves. Sed claves Ecclesiae non sunt de
+              naturalis juris institutione. Ergo nec confessio.</p>
+
+          </div>
+          <div xml:id="ta-l4d17q3-Dd1e173">
+            <head xml:id="ta-l4d17q3-Hd1e175">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d17q3-d1e178">Ulterius. Videtur quod non omnes ad confessionem teneantur. Quia, sicut dicit
+              Hieronymus, poenitentia est secunda tabula post naufragium. Sed aliqui post Baptismum
+              naufragium non sunt passi. Ergo eis non competit poenitentia; et sic nec confessio,
+              quae est poenitentiae pars.</p>
+            <p xml:id="ta-l4d17q3-d1e181">Praeterea, confessio facienda est judici in quolibet foro. Sed aliqui sunt qui non
+              habent hominem judicem supra se. Ergo non tenentur ad confessionem.</p>
+            <p xml:id="ta-l4d17q3-d1e184">Praeterea, aliquis est qui non habet peccata, nisi venialia. Sed de illis non tenetur
+              homo confiteri. Ergo non quilibet tenetur ad confessionem.</p>
+            <p xml:id="ta-l4d17q3-d1e187">Sed contra est, quia confessio contra satisfactionem et contritionem dividitur. Sed
+              omnes tenentur ad contritionem et satisfactionem. Ergo et omnes tenentur ad
+              confessionem.</p>
+            <p xml:id="ta-l4d17q3-d1e191">Praeterea, hoc patet ex decretali de poenitentiis et remissionibus, ubi dicitur quod
+              omnis utriusque sexus, cum ad annos discretionis venerit, debet peccata confiteri.</p>
+
+          </div>
+          <div xml:id="ta-l4d17q3-Dd1e196">
+            <head xml:id="ta-l4d17q3-Hd1e198">Quaestiuncula 4</head>
+            <p xml:id="ta-l4d17q3-d1e201">Ulterius. Videtur quod statim teneatur confiteri. Dicit enim Hugo de sancto Victore:
+                <quote xml:id="ta-l4d17q3-Qd1e203">si necessitas non est quae praetendatur, contemptus non excusatur</quote>.
+              Sed quilibet tenetur vitare contemptum. Ergo quilibet tenetur statim confiteri cum
+              potest.</p>
+            <p xml:id="ta-l4d17q3-d1e207">Praeterea, quilibet tenetur plus facere ad evadendum a morbo spirituali quam ad
+              evadendum a morbo corporali. Sed aliquis infirmus corporaliter non sine detrimento
+              salutis medicum requirere tardat. Ergo videtur quod non possit esse sine detrimento
+              salutis quod aliquis sacerdoti, cujus copiam habet, de peccato confiteatur.</p>
+            <p xml:id="ta-l4d17q3-d1e210">Praeterea, illud quod sine termino debetur, statim debetur. Sed sine termino debet
+              homo confessionem Deo. Ergo tenetur ad statim.</p>
+            <p xml:id="ta-l4d17q3-d1e213">Sed contra, in decretali simul datur tempus determinatum de confessione et de
+              Eucharistiae perceptione. Sed aliquis non peccat si non percipiat Eucharistiam ante
+              tempus a jure determinatum. Ergo non peccat, si non ante tempus illud confiteatur.</p>
+            <p xml:id="ta-l4d17q3-d1e217">Praeterea, quicumque omittit illud ad quod ex praecepto tenetur, peccat mortaliter.
+              Si ergo aliquis non statim confitetur quando habet copiam sacerdotis, si ad
+              confitendum statim tenetur, peccaret mortaliter; et eadem ratione in alio tempore, et
+              sic deinceps; et ita multa mortalia peccata homo incurreret pro una poenitentiae
+              dilatione, quod videtur inconveniens.</p>
+
+          </div>
+          <div xml:id="ta-l4d17q3-Dd1e221">
+            <head xml:id="ta-l4d17q3-Hd1e223">Quaestiuncula 5</head>
+            <p xml:id="ta-l4d17q3-d1e226">Ulterius. Videtur quod possit cum aliquo dispensari ne confiteatur homini. Praecepta
+              enim quae sunt de jure positivo, subjacent dispensationi praelatorum Ecclesiae. Sed
+              confessio est hujusmodi, ut ex dictis patet. Ergo potest dispensari cum aliquo ut non
+              confiteatur.</p>
+            <p xml:id="ta-l4d17q3-d1e229">Praeterea, illud quod ab homine institutum est, potest etiam ab homine dispensationem
+              recipere. Sed confessio non legitur a Deo instituta, sed ab homine. Jacob. 5, 16:
+                <quote xml:id="ta-l4d17q3-Qd1e231">confitemini alterutrum peccata vestra</quote>. Habet autem Papa potestatem
+              dispensandi in his quae per apostolos instituta sunt, sicut patet de bigamis. Ergo
+              etiam potest cum aliquo dispensare, ne confiteatur.</p>
+            <p xml:id="ta-l4d17q3-d1e235">Sed contra, poenitentia, cujus pars est confessio, est sacramentum necessitatis,
+              sicut et Baptismus. Cum ergo in Baptismo nullus dispensare possit, nec in confessione
+              aliquis dispensare poterit.</p>
+          </div>
+          <div xml:id="ta-l4d17q3-Dd1e239">
+            <head xml:id="ta-l4d17q3-Hd1e241">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d17q3-d1e244">Respondeo dicendum ad primam quaestionem, quod passio Christi, sine cujus virtute nec
+              actuale nec originale peccatum dimittitur, in nobis operatur per sacramentorum
+              susceptionem, quae ex ipsa efficaciam habent: ideo ad culpae remissionem et actualis
+              et originalis requiritur sacramentum Ecclesiae, vel actu susceptum, vel saltem voto,
+              quando articulus necessitatis, non contemptus, sacramentum excludit; et per consequens
+              illa sacramenta quae ordinantur contra culpam cum qua salus esse non potest, sunt de
+              necessitate salutis; et ideo sicut Baptismus, quo deletur originale, est de
+              necessitate salutis; ita et poenitentiae sacramentum. Sicut autem aliquis per hoc quod
+              Baptismum petit, se ministris Ecclesiae subjicit, ad quos pertinet dispensatio
+              sacramenti; ita etiam per hoc quod fatetur peccatum suum, se ministro Ecclesiae
+              subjicit, ut per sacramentum poenitentiae ab eo dispensatum remissionem consequatur;
+              qui congruum remedium adhibere non potest, nisi peccatum cognoscat, quod fit per
+              confessionem peccantis; et ideo confessio est de necessitate salutis ejus qui in
+              peccatum actuale mortale cecidit.</p>
+            <p xml:id="ta-l4d17q3-d1e247">Ad primum ergo dicendum, quod gratiae infusio sufficit ad culpae remissionem: sed
+              post culpam remissam adhuc est peccator debitor poenae temporalis. Sed ad gratiae
+              infusionem consequendam ordinata sunt gratiae sacramenta, ante quorum susceptionem vel
+              actu vel proposito aliquis gratiam non consequitur, sicut in Baptismo patet; et
+              similiter est de confessione; et ulterius per confessionem, erubescentiam, et vim
+              clavium, quibus se confitens subjicit, et satisfactionem injunctam quam sacerdos
+              moderatur secundum qualitatem criminum sibi per confessionem innotescentium, poena
+              temporalis expiatur. Sed tamen ex hoc quod operatur confessio ad poenae remissionem,
+              non habet quod sit de necessitate salutis: quia poena ista est temporalis, ad quam
+              post culpae remissionem aliquis ligatus remanet; unde sine hoc quod in praesenti vita
+              expiatur, esset via salutis; sed habet quod sit de necessitate salutis ex hoc quod ad
+              remissionem culpae modo praedicto operatur.</p>
+            <p xml:id="ta-l4d17q3-d1e250">Ad secundum dicendum, quod etsi non legatur illorum confessio, potuit tamen fieri.
+              Multa enim sunt facta quae non sunt scripta; et praeterea Christus habet potestatem
+              excellentiae in sacramentis; unde sine his quae ad sacramentum pertinent, potest rem
+              sacramenti conferre.</p>
+            <p xml:id="ta-l4d17q3-d1e253">Ad tertium dicendum, quod peccatum quod ex altero contractum est, scilicet originale,
+              potest omnino ab extrinseco remedium habere, ut in parvulis patet; sed peccatum
+              actuale, quod ex seipso quisque commisit, non potest expiari nisi aliquid cooperetur
+              ille qui peccavit. Sed tamen non sufficit ad peccatum expiandum ex seipso, sicut
+              sufficienter peccatum commisit: eo quod peccatum ex parte conversionis est finitum, ex
+              qua parte peccator in ipsum inducitur; sed ex parte aversionis habet infinitatem, ex
+              qua parte oportet quod peccati remissio incipiat: quia quod est ultimum in
+              generatione, est primum in resolutione, ut dicitur in 3 Ethic.; et ideo oportet quod
+              etiam peccatum actuale ex alio medicinam habeat.</p>
+            <p xml:id="ta-l4d17q3-d1e257">Ad quartum dicendum, quod satisfactio non sufficeret ad expiandum poenam peccati ex
+              quantitate poenae quae in satisfactione imponitur: sed sufficit inquantum est pars
+              sacramenti, virtutem sacramentalem habens; et ideo oportet quod per dispensatores
+              sacramentorum imponatur; et ideo necessaria est confessio.</p>
+
+          </div>
+          <div xml:id="ta-l4d17q3-Dd1e261">
+            <head xml:id="ta-l4d17q3-Hd1e263">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d17q3-d1e266">Ad secundam quaestionem dicendum, quod sicut in 1 dist., quaest. 1, art. 2,
+              quaestiunc. 3, in corp., dictum est, sacramenta sunt quaedam fidei protestationes;
+              unde oportet ea fidei esse proportionata. Fides autem est supra cognitionem rationis
+              naturalis; unde etiam sacramenta sunt supra rationis naturalis dictamina. Et quia jus
+              naturale est quod non opinio genuit, sed innata quaedam vis inseruit, ut Tullius
+              dicit; ideo sacramenta non sunt de jure naturali, sed de jure divino, quod est
+              supranaturale; et quandoque etiam naturale dicitur, secundum quod cuilibet rei illud
+              est naturale quod ei a suo creatore imponitur: tamen proprie naturalia dicuntur quae
+              ex principiis naturae causantur; supra naturam autem quae ipse Deus sibi reservat sine
+              naturae ministerio operanda, sive in operationibus miraculorum, sive in revelationibus
+              mysteriorum, sive in institutionibus sacramentorum; et sic confessio quae
+              sacramentalem necessitatem habet, non est de jure naturali, sed divino.</p>
+            <p xml:id="ta-l4d17q3-d1e269">Ad primum ergo dicendum, quod Adam vituperatur de hoc quod peccatum suum coram Deo
+              non recognovit. Confessio enim quae fit Deo per recognitionem peccati, est de jure
+              naturali. Nunc autem loquimur de confessione quae fit homini. Vel dicendum, quod
+              confiteri peccatum in casu est de jure naturali, scilicet cum quis in judicio
+              constitutus a judice interrogatur: tunc enim non debet mentiri peccatum excusando vel
+              negando; de quo Adam et Cain vituperantur; sed confessio quae fit homini sponte ad
+              remissionem peccatorum consequendam a Deo non est de jure naturali.</p>
+            <p xml:id="ta-l4d17q3-d1e272">Ad secundum dicendum, quod praecepta legis naturae manent eodem modo in lege Moysi et
+              in lege nova. Sed confessio quamvis aliqualiter esset in lege Moysi, non tamen eodem
+              modo sicut in lege nova, nec sicut in lege naturae. In lege enim naturae sufficiebat
+              interior recognitio peccati apud Deum; sed in lege Moysi oportebat aliquo signo
+              exteriori peccatum protestari, sicut per oblationem hostiae pro peccato, ex quo etiam
+              homini innotescere poterat eum peccasse: non autem oportebat quod speciale peccatum a
+              se commissum manifestaret, aut peccati circumstantias, sicut in nova lege oportet.</p>
+            <p xml:id="ta-l4d17q3-d1e275">Ad tertium dicendum, quod Job loquitur de illa absconsione peccati quam facit in
+              judicio deprehensus peccatum negando aut excusando, ut ex Glossa ibidem haberi
+              potest.</p>
+
+          </div>
+          <div xml:id="ta-l4d17q3-Dd1e279">
+            <head xml:id="ta-l4d17q3-Hd1e281">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d17q3-d1e284">Ad tertiam quaestionem dicendum, quod ad confessionem dupliciter obligamur. Uno modo
+              ex jure divino, ex hoc ipso quod est medicina; et secundum hoc non omnes tenentur ad
+              confessionem, sed illi tantum qui peccatum mortale incurrunt post Baptismum. Alio
+              modo, ex praecepto juris positivi; et sic tenentur omnes ex institutione Ecclesiae
+              edita in Concilio generali sub Innocentio III: tum ut quilibet se peccatorem
+              recognosceret, quia omnes peccaverunt, et egent gratia Dei: tum ut cum majori
+              reverentia ad Eucharistiam accedat: tum ut Ecclesiarum rectoribus sui subditi
+              innotescant, ne lupus inter gregem lateat.</p>
+            <p xml:id="ta-l4d17q3-d1e287">Ad primum ergo dicendum, quod quamvis homo in hac vita post Baptismum naufragium
+              evadere possit, quod est per peccatum mortale; non tamen potest evadere venialia,
+              quibus ad naufragium disponitur, contra quae etiam poenitentia ordinatur; et ideo
+              manet poenitentiae locus etiam in illis qui non mortaliter peccant, et per consequens
+              confessionis.</p>
+            <p xml:id="ta-l4d17q3-d1e290">Ad secundum dicendum, quod nullus est qui non habeat judicem Christum, cui per suum
+              vicarium confiteri debet; qui quamvis eo inferior sit inquantum ipse praelatus est,
+              tamen eo est superior, inquantum peccator est ipse, et ille Christi minister.</p>
+            <p xml:id="ta-l4d17q3-d1e293">Ad tertium dicendum, quod ex vi sacramenti non tenetur aliquis venialia confiteri,
+              sed ex institutione Ecclesiae, quando non habet alia quae confiteatur. Vel potest
+              dici, secundum quosdam, quod ex decretali praedicta non obligantur nisi illi qui
+              habent peccata mortalia; quod patet ex hoc quod dicit, quod debet omnia peccata
+              confiteri; quod de venialibus intelligi non potest, quia nullus omnia confiteri
+              potest; et secundum hoc etiam ille qui non habet mortalia, non tenetur ad confessionem
+              venialium, sed sufficit ad praeceptum Ecclesiae implendum ut se sacerdoti
+              repraesentet, et se ostendat absque conscientia mortalis esse; et hoc ei pro
+              confessione reputatur.</p>
+
+          </div>
+          <div xml:id="ta-l4d17q3-Dd1e297">
+            <head xml:id="ta-l4d17q3-Hd1e299">Quaestiuncula 4</head>
+            <p xml:id="ta-l4d17q3-d1e302">Ad quartam quaestionem dicendum, quod cum propositum confitendi sit annexum
+              contritioni, tunc tenetur aliquis ad hoc propositum, quando ad contritionem tenetur;
+              scilicet quando peccata memoriae occurrunt, cum praecipue in periculo mortis existit,
+              aut in aliquo articulo, in quo sine peccati remissione peccatum oporteat eum
+              incurrere; sicut cum teneatur ad celebrandum, si desit copia sacerdotis, saltem
+              conteri tenetur, et habere propositum confitendi. Sed ad confessionem actualiter
+              faciendam obligatur aliquis dupliciter. Uno modo per accidens, scilicet quando ad
+              aliquid tenetur quod non potest sine peccato facere nisi confessus: tunc enim
+              confiteri tenetur, sicut si debeat Eucharistiam percipere, ad quam nullus post
+              peccatum mortale, nisi confessus, accedere debet, copia sacerdotis oblata, et
+              necessitate non urgente; et inde venit obligatio qua Ecclesia omnes obligat ad semel
+              in anno confitendum: quia instituit ut semel in anno, scilicet in Paschate, omnes
+              sacram communionem accipiant; et ideo ante tempus illud confiteri tenentur. Alio modo
+              obligatur aliquis ad confessionem per se; et sic videtur eadem ratio esse de
+              confessione et de Baptismo differendo: quia utrumque est sacramentum necessitatis. Ad
+              Baptismum autem percipiendum non tenetur aliquis statim postquam habet propositum
+              Baptismi, ita quod peccet mortaliter, nisi statim baptizetur: nec est aliquod tempus
+              determinatum, ultra quod si Baptismum differat, peccatum mortale incurrat. Sed potest
+              contingere quod in dilatione Baptismi erit peccatum mortale vel non erit; et hoc
+              pensandum est ex causa dilationis: quia, sicut dicit philosophus in 8 Phys., voluntas
+              non retardat facere opus volitum, nisi propter aliquam causam rationalem. Unde si
+              causa dilationis Baptismi peccatum mortale annexum habeat, utpote si propter
+              contemptum, vel aliquid hujusmodi, Baptismum differat, dilatio erit peccatum mortale;
+              alias non. Et ideo idem videtur esse de confessione, quae non est majoris necessitatis
+              quam Baptismus. Et quia ea quae sunt de necessitate salutis, tenetur homo in hac vita
+              implere; ideo si periculum mortis immineat, etiam per se loquendo, obligatur aliquis
+              ad confessionem faciendam tunc, vel Baptismum suscipiendum; et propter hoc etiam
+              Jacobus simul praeceptum edidit de confessione facienda, et extrema unctione
+              suscipienda; et ideo videtur probabilis eorum opinio qui dicunt, quod non tenetur homo
+              ad statim confitendum, quamvis periculosum sit differre. Alii autem dicunt, quod
+              tenetur contritus ad statim confitendum debita opportunitate oblata secundum rectam
+              rationem. Nec obstat quod decretalis terminum praefigat, ut semel in anno confiteatur:
+              quia Ecclesia non indulget dilationem, sed prohibet negligentiam in majori dilatione.
+              Unde per decretalem illam non excusatur a culpa dilationis quantum ad forum
+              conscientiae, sed excusatur a poena quantum ad forum Ecclesiae, ut non privetur debita
+              sepultura, si morte praeventus fuerit ante tempus illud. Sed hoc videtur nimis durum:
+              quia praecepta affirmativa non obligant ad statim, sed ad tempus determinatum, non
+              quidem ex hoc quod tunc commode impleri possunt (quia sic si non daret aliquis
+              eleemosynam de superfluo quandocumque pauper offerretur, peccaret mortaliter, quod
+              falsum est): sed ex hoc quod tempus necessitatem urgentem adducit: et ideo non oportet
+              quod si statim oblata opportunitate non confiteatur, etiamsi major opportunitas non
+              expectetur, aliquis peccet mortaliter; sed quando ex articulo temporis necessitas
+              confessionis inducitur. Nec hoc est ex indulgentia Ecclesiae, quod non teneatur ad
+              statim, sed ex natura praecepti affirmativi; unde ante Ecclesiae statutum etiam minus
+              debebatur. Quidam vero dicunt, quod saeculares non tenentur ante quadragesimale tempus
+              confiteri, quod est eis poenitentiae tempus; sed religiosi tenentur ad statim, quia
+              totum tempus est eis poenitentiae tempus. Sed hoc nihil est: quia religiosi non
+              tenentur ad alia quam alii homines, nisi ad quae se ex voto obligaverunt.</p>
+            <p xml:id="ta-l4d17q3-d1e305">Ad primum ergo dicendum, quod Hugo loquitur de illis qui sine sacramento
+              decedunt.</p>
+            <p xml:id="ta-l4d17q3-d1e308">Ad secundum dicendum, quod non est de necessitate salutis corporalis quod statim
+              medicum quaerat, nisi quando necessitas curationis incumbit; et similiter est de morbo
+              spirituali.</p>
+            <p xml:id="ta-l4d17q3-d1e311">Ad tertium dicendum, quod retentio rei alienae invito domino contrariatur praecepto
+              negativo, quod obligat semper et ad semper; et ideo tenetur statim ad reddendum. Secus
+              autem est de impletione praecepti affirmativi, quod obligat semper, sed non ad semper;
+              unde non tenetur aliquis ad statim implendum.</p>
+
+          </div>
+          <div xml:id="ta-l4d17q3-Dd1e316">
+            <head xml:id="ta-l4d17q3-Hd1e318">Quaestiuncula 5</head>
+            <p xml:id="ta-l4d17q3-d1e321">Ad quintam quaestionem dicendum, quod ministri Ecclesiae instituuntur in Ecclesia
+              divinitus fundata; et ideo institutio Ecclesiae praesupponitur ad operationem
+              ministrorum, sicut opus creationis praesupponitur ad opus naturae. Et quia Ecclesia
+              fundatur in fide et sacramentis; ideo ad ministros Ecclesiae nec novos articulos fidei
+              edere, aut editos removere, aut nova sacramenta instituere, aut instituta removere,
+              pertinet; sed hoc est potestatis excellentiae, quae soli debetur Christo, qui est
+              Ecclesiae fundamentum. Et ideo, sicut Papa non potest dispensare ut aliquis sine
+              Baptismo salvetur; ita nec quod salvetur sine confessione, secundum quod obligat ex
+              ipsa vi sacramenti; sed potest dispensare in confessione secundum quod obligat de
+              praecepto Ecclesiae, ut possit aliquis diutius confessionem differre quam ab Ecclesia
+              institutum sit.</p>
+            <p xml:id="ta-l4d17q3-d1e324">Ad primum ergo dicendum, quod praecepta juris divini non minus obligant quam
+              praecepta juris naturalis; unde sicut non potest dispensari in jure naturali, ita nec
+              in jure positivo divino.</p>
+            <p xml:id="ta-l4d17q3-d1e327">Ad secundum dicendum, quod praeceptum de confessione non est ab homine puro
+              institutum, quamvis sit a Jacobo promulgatum; sed a Deo institutionem habuit, quamvis
+              expressa institutio ipsius non legatur: tamen quaedam praefiguratio ipsius invenitur
+              et in hoc quod Joanni confitebantur peccata, qui Baptismo ipsius ad gratiam Christi
+              praeparabantur; et in hoc etiam quod dominus sacerdotibus leprosos transmisit: qui
+              quamvis non essent novi testamenti sacerdotes, tamen in eis novi testamenti
+              sacerdotium significabatur.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d17q3-Dd1e332" type="articulus">
+          <head xml:id="ta-l4d17q3-Hd1e334">Articulus 2</head>
+
+          <head xml:id="ta-l4d17q3-Hd1e337" type="questionTitle">Utrum Augustinus convenienter confessionem definiat</head>
+
+          <div xml:id="ta-l4d17q3-Dd1e340">
+            <head xml:id="ta-l4d17q3-Hd1e342">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d17q3-d1e345">Ad secundum sic proceditur. Videtur quod Augustinus inconvenienter confessionem
+              definiat, dicens: <quote xml:id="ta-l4d17q3-Qd1e347">confessio est per quam morbus latens spe veniae
+                aperitur</quote>. Morbus enim contra quam confessio ordinatur peccatum est. Sed
+              peccatum aliquando est apertum. Ergo non debuit dicere morbum latentem esse, cujus
+              confessio est medicina.</p>
+            <p xml:id="ta-l4d17q3-d1e351">Praeterea, principium poenitentiae est timor, ut in 14 dist., quaest. 1, art. 2
+              dictum est. Sed confessio est pars poenitentiae. Ergo non debuit pro causa
+              confessionis ponere spem, sed magis timorem.</p>
+            <p xml:id="ta-l4d17q3-d1e354">Praeterea, illud quod sub sigillo ponitur, non aperitur; sed clauditur magis. Sed
+              peccatum quod quis confitetur, sub sigillo confessionis ponitur. Ergo non aperitur in
+              confessione peccatum, sed magis clauditur.</p>
+            <p xml:id="ta-l4d17q3-d1e357">Praeterea, inveniuntur quaedam aliae definitiones ab ista differentes. Gregorius enim
+              dicit, quod confessio <quote xml:id="ta-l4d17q3-Qd1e359">est peccatorum detestatio, et ruptio vulneris</quote>.
+              Quidam vero dicunt, quod confessio <quote xml:id="ta-l4d17q3-Qd1e362">est legitima coram sacerdote peccatorum
+                declaratio</quote>. Quidam autem sic: <quote xml:id="ta-l4d17q3-Qd1e365">confessio est sacramentalis
+                delinquentis accusatio ex erubescentia, et per claves Ecclesiae satisfactoria,
+                obligans ad peragendam poenitentiam injunctam</quote>. Ergo videtur quod
+              praeassignata causa non omnia contineat quae in his continentur, et ita quod
+              insufficiens sit.</p>
+
+          </div>
+          <div xml:id="ta-l4d17q3-Dd1e370">
+            <head xml:id="ta-l4d17q3-Hd1e372">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d17q3-d1e375">Ulterius. Videtur quod confessio non sit actus virtutis. Omnis enim actus virtutis
+              est de jure naturali: quia ad virtutes apti sumus a natura, ut philosophus dicit in 2
+              Ethicorum. Sed confessio non est de jure naturali. Ergo non est actus virtutis.</p>
+            <p xml:id="ta-l4d17q3-d1e378">Praeterea, actus virtutis magis potest convenire innocenti quam ei qui peccavit. Sed
+              confessio peccati de qua loquimur, non potest innocenti convenire. Ergo non est actus
+              virtutis.</p>
+            <p xml:id="ta-l4d17q3-d1e381">Praeterea, gratia quae est in sacramentis, aliquo modo differt a gratia quae est in
+              virtutibus et donis, ut in prima distinctione dictum est. Sed confessio est sacramenti
+              pars. Ergo non est actus virtutis.</p>
+            <p xml:id="ta-l4d17q3-d1e384">Sed contra, non meremur nisi actibus virtutum. Sed confessio est meritoria, quia
+              aperit caelum, ut in littera Magister dicit. Ergo videtur quod sit actus virtutis.</p>
+
+          </div>
+          <div xml:id="ta-l4d17q3-Dd1e388">
+            <head xml:id="ta-l4d17q3-Hd1e390">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d17q3-d1e393">Ulterius. Videtur quod confessio non sit actus poenitentiae virtutis. Quia actus
+              illius virtutis est quae est causa ejus. Sed causa confessionis est spes veniae, ut ex
+              definitione inducta apparet. Ergo videtur quod sit actus spei, et non
+              poenitentiae.</p>
+            <p xml:id="ta-l4d17q3-d1e396">Praeterea, verecundia est pars temperantiae, ut in 3 Lib., dist. 33, dictum est. Sed
+              confessio ex erubescentia operatur, ut ex praeassignata definitione apparet. Ergo est
+              actus temperantiae, non poenitentiae.</p>
+            <p xml:id="ta-l4d17q3-d1e399">Praeterea, actus poenitentiae innititur divinae misericordiae. Sed confessio magis
+              innititur sapientiae propter veritatem, quae in ipsa esse debet. Ergo non est actus
+              poenitentiae.</p>
+            <p xml:id="ta-l4d17q3-d1e402">Praeterea, ad poenitentiam movet articulus de judicio propter timorem, qui
+              poenitentiae origo est. Sed ad confessionem movet articulus de vita aeterna, quia est
+              propter spem veniae. Ergo non est actus poenitentiae.</p>
+            <p xml:id="ta-l4d17q3-d1e406">Praeterea, ad virtutem veritatis pertinet ut ostendat se quis talem qualis est. Sed
+              hoc facit confitens. Ergo est actus virtutis quae dicitur veritas, et non
+              poenitentiae.</p>
+            <p xml:id="ta-l4d17q3-d1e409">Sed contra, poenitentia ordinatur ad destructionem peccati. Sed ad hoc idem confessio
+              ordinatur. Ergo est actus poenitentiae.</p>
+          </div>
+          <div xml:id="ta-l4d17q3-Dd1e414">
+            <head xml:id="ta-l4d17q3-Hd1e416">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d17q3-d1e419">Respondeo dicendum ad primam quaestionem, quod in actu confessionis plura
+              consideranda occurrunt. Primo ipsa substantia actus, sive genus ejus, quod est
+              manifestatio quaedam. Secundo de quo fit, scilicet peccatum. Tertio cui fiat, scilicet
+              sacerdos. Quarto causa cujus, scilicet spes veniae. Quinto effectus ejus, scilicet
+              absolutio a parte poenae, et obligatio ad aliam partem exsolvendam. In prima ergo
+              definitione Augustini tangitur et substantia actus in apertione, et de quo fit
+              confessio cum dicitur <quote xml:id="ta-l4d17q3-Qd1e421">morbus latens</quote>, et causa in spe veniae; et in
+              aliis definitionibus tanguntur aliqua de illis quinque assignatis, ut cuilibet
+              inspicienti patet.</p>
+            <p xml:id="ta-l4d17q3-d1e425">Ad primum ergo dicendum, quod quamvis sacerdos aliquando sciat ejus peccatum ut homo,
+              non tamen scit ut Christi vicarius; sicut etiam judex aliquando scit aliquid ut homo,
+              quod nescit ut judex; et quantum ad hoc per confessionem aperitur. Vel dicendum, quod
+              quamvis actus peccati exterior in aperto sit, actus interior, qui tamen principalior
+              est, in occulto est; et ideo oportet quod per confessionem aperiatur.</p>
+            <p xml:id="ta-l4d17q3-d1e428">Ad secundum dicendum, quod confessio praesupponit caritatem, qua jam vivus aliquis
+              efficitur, ut in littera dicitur; contritio autem est in qua datur caritas; timor
+              autem servilis, qui est sine spe, est praevius ad caritatem. Sed habens caritatem
+              magis movetur ex spe quam ex timore; et ideo causa confessionis potius ponitur spes
+              quam timor.</p>
+            <p xml:id="ta-l4d17q3-d1e431">Ad tertium dicendum, quod peccatum in confessione aperitur sacerdoti, et clauditur
+              aliis confessionis sigillo.</p>
+            <p xml:id="ta-l4d17q3-d1e435">Ad quartum dicendum, quod non oportet in qualibet definitione omnia tangere quae ad
+              rem definitam concurrunt; et ideo inveniuntur quaedam definitiones, sive
+              assignationes, datae penes unam causam, quaedam penes aliam.</p>
+
+          </div>
+          <div xml:id="ta-l4d17q3-Dd1e439">
+            <head xml:id="ta-l4d17q3-Hd1e441">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d17q3-d1e444">Ad secundam quaestionem dicendum, quod ad hoc quod aliquis dicatur actus virtutis, ut
+              prius dictum est, sufficit quod in sui ratione aliquam conditionem implicet quae ad
+              virtutem pertineat. Quamvis autem non omnia quae ad virtutem requiruntur, importet
+              confessio; tamen importat ex suo nomine manifestationem alicujus quod in conscientia
+              tenet aliquis; sic enim simul in unum os et cor conveniunt. Si enim quis aliquid
+              proferat ore quod corde non teneat, non confessio, sed fictio dicitur. Haec autem
+              conditio ad virtutem pertinet, ut aliquis ore confiteatur quod corde tenet; et ideo
+              confessio est bonum ex genere, et est actus virtutis; sed tamen potest male fieri,
+              nisi aliis debitis circumstantiis vestiatur.</p>
+            <p xml:id="ta-l4d17q3-d1e447">Ad primum ergo dicendum, quod ad confessionem veri debito modo faciendam ubi oportet
+              et cui oportet, in generali inclinat ratio naturalis; et secundum hoc confessio est de
+              jure naturali. Sed determinatio circumstantiarum, quando et quomodo et quid confiteri
+              oporteat, et cui, hoc est ex institutione juris divini in confessione, de qua
+              loquimur. Et sic patet quod jus naturale inclinat ad confessionem mediante jure
+              divino, quo circumstantiae determinantur, sicut pene est in omnibus quae sunt de jure
+              positivo.</p>
+            <p xml:id="ta-l4d17q3-d1e450">Ad secundum dicendum, quod illius virtutis cujus objectum est peccatum commissum,
+              quamvis habitum possit innocens habere, tamen actum non habet innocentia permanente,
+              ut supra de poenitentia dictum est; et ideo etiam confessio peccatorum, de qua nunc
+              loquimur, non competit innocenti, quamvis sit actus virtutis.</p>
+            <p xml:id="ta-l4d17q3-d1e453">Ad tertium dicendum, quod quamvis gratia sacramentorum et gratia virtutum sit alia et
+              alia; non tamen sunt contrariae, sed disparatae; et ideo non est inconveniens ut idem
+              sit actus virtutis secundum quod ex libero arbitrio gratia informato procedit, et sit
+              sacramentum vel pars sacramenti secundum quod est medicina in remedium peccati
+              ordinata.</p>
+
+          </div>
+          <div xml:id="ta-l4d17q3-Dd1e457">
+            <head xml:id="ta-l4d17q3-Hd1e459">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d17q3-d1e462">Ad tertiam quaestionem dicendum, quod in virtutibus hoc considerandum est, quod
+              quando supra objectum virtutis additur specialis ratio boni et difficilis, requiritur
+              specialis virtus; sicut magni sumptus ad magnificentiam pertinent, quamvis communiter
+              sumptus mediocres et donationes pertineant ad liberalitatem, ut patet in 2 et 4
+              Ethic.; et similiter est in confessione veri, quae quamvis ad veritatis virtutem
+              pertineat absolute, tamen secundum quod aliqua ratio boni additur, ad aliam virtutem
+              pertinere incipit; et ideo dicit philosophus in 4 Ethic., quod confessio quae fit in
+              judiciis, non pertinet ad veritatis virtutem, sed magis ad justitiam. Et similiter
+              confessio beneficiorum Dei in laudem divinam non pertinet ad virtutem veritatis, sed
+              ad virtutem latriae; et ita etiam confessio peccatorum ad remissionem eorum
+              consequendam non pertinet elicitive ad virtutem veritatis, ut quidam dicunt, sed ad
+              virtutem poenitentiae; imperative autem ad multas virtutes pertinere potest, secundum
+              quod in finem multarum virtutum trahi potest confessionis actus.</p>
+            <p xml:id="ta-l4d17q3-d1e465">Ad primum ergo dicendum, quod spes est causa confessionis non sicut eliciens, sed
+              sicut imperans.</p>
+            <p xml:id="ta-l4d17q3-d1e468">Ad secundum dicendum, quod erubescentia in illa definitione non ponitur quasi causa
+              confessionis, cum magis nata sit impedire confessionis actum, sed quasi concausa ad
+              liberandum a poena, inquantum ipsa erubescentia poena quaedam est; et sic etiam claves
+              Ecclesiae concausae confessionis ad hoc sunt.</p>
+            <p xml:id="ta-l4d17q3-d1e471">Ad tertium dicendum, quod secundum quamdam adaptationem partes poenitentiae tribus
+              attributis personarum adaptari possunt; ut contritio misericordiae vel bonitati
+              respondeat propter dolorem de malo; confessio sapientiae propter veritatis
+              manifestationem; satisfactio potentiae propter satisfaciendi laborem: et quia
+              contritio est prima poenitentiae pars efficaciam aliis partibus praebens, ideo eodem
+              modo judicatur de tota poenitentia sicut de contritione.</p>
+            <p xml:id="ta-l4d17q3-d1e475">Ad quartum dicendum, quod quia confessio magis ex spe procedit quam ex timore, ut
+              dictum est, ideo magis innititur articulo de vita aeterna, quem respicit spes, quam
+              articulo de judicio, quem respicit timor; quamvis poenitentia ratione contritionis e
+              converso se habeat.</p>
+            <p xml:id="ta-l4d17q3-d1e478">Ad quintum patet solutio ex dictis.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d17q3-Dd1e483" type="articulus">
+          <head xml:id="ta-l4d17q3-Hd1e485">Articulus 3</head>
+
+          <head xml:id="ta-l4d17q3-Hd1e488" type="questionTitle">Utrum sit necessarium sacerdoti confiteri</head>
+
+          <div xml:id="ta-l4d17q3-Dd1e491">
+            <head xml:id="ta-l4d17q3-Hd1e493">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d17q3-d1e496">Ad tertium sic proceditur. Videtur quod non sit necessarium sacerdoti confiteri. Ad
+              confessionem enim non obligamur nisi ex divina institutione. Sed divina institutio
+              nobis proponitur Jacob. 5: <quote xml:id="ta-l4d17q3-Qd1e498">confitemini alterutrum peccata vestra</quote>; ubi
+              non fit mentio de sacerdote. Ergo non oportet confiteri sacerdoti.</p>
+            <p xml:id="ta-l4d17q3-d1e502">Praeterea, poenitentia est sacramentum necessitatis, sicut et Baptismus. Sed in
+              Baptismo propter sacramenti necessitatem est minister quilibet homo. Ergo et in
+              poenitentia; ergo sufficit cuilibet confiteri.</p>
+            <p xml:id="ta-l4d17q3-d1e505">Praeterea, confessio ad hoc est necessaria, ut taxetur poenitenti satisfactionis
+              modus. Sed aliquando aliquis non sacerdos discretius posset poenitenti dare
+              satisfactionis modum quam multi sacerdotes. Ergo non est necessarium quod confessio
+              fiat sacerdoti.</p>
+            <p xml:id="ta-l4d17q3-d1e508">Praeterea, confessio ad hoc est ordinata in Ecclesia, ut rectores pecorum suorum
+              vultum cognoscant. Sed quandoque rector, sive praelatus, non est sacerdos. Ergo
+              confessio non semper facienda est sacerdoti.</p>
+            <p xml:id="ta-l4d17q3-d1e512">Sed contra, absolutio poenitentis, propter quam fit confessio, non pertinet nisi ad
+              sacerdotes, quibus claves Ecclesiae commissae sunt. Ergo confessio debet fieri
+              sacerdoti.</p>
+            <p xml:id="ta-l4d17q3-d1e515">Praeterea, confessio praefiguratur in Lazari mortui vivificatione. Sed dominus solis
+              discipulis praecepit ut Lazarum solverent, ut patet Joan. 11. Ergo sacerdotibus
+              facienda est confessio.</p>
+
+          </div>
+          <div xml:id="ta-l4d17q3-Dd1e519">
+            <head xml:id="ta-l4d17q3-Hd1e521">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d17q3-d1e524">Ulterius. Videtur quod in nullo casu liceat aliis quam sacerdotibus confiteri. Quia
+                <quote xml:id="ta-l4d17q3-Qd1e526">confessio sacramentalis accusatio est</quote>, ut ex supra posita definitione
+              habetur. Sed dispensatio sacramenti ad illum tantum pertinet qui est sacramenti
+              minister. Cum ergo minister sacramenti poenitentiae sit sacerdos, videtur quod nulli
+              alii sit confessio facienda.</p>
+            <p xml:id="ta-l4d17q3-d1e530">Praeterea, confessio in quolibet judicio ad sententiam ordinatur. Sed sententia in
+              foro contentioso non a suo judice lata, nulla est; et ideo nec facienda est confessio
+              nisi judici. Sed judex in foro conscientiae non est nisi sacerdos, qui habet
+              potestatem ligandi et solvendi. Ergo non est alii confessio facienda.</p>
+            <p xml:id="ta-l4d17q3-d1e533">Praeterea, in Baptismo, quia quilibet baptizare potest, si baptizat laicus sine
+              necessitate, non debet a sacerdote Baptismus iterari. Sed si aliquis confitetur laico
+              in casu necessitatis, iterum debet sacerdoti confiteri, si articulum necessitatis
+              evadat. Ergo confessio sacerdotis non potest fieri laico in casu necessitatis.</p>
+            <p xml:id="ta-l4d17q3-d1e536">Sed contra est quod in littera determinatur.</p>
+
+          </div>
+          <div xml:id="ta-l4d17q3-Dd1e540">
+            <head xml:id="ta-l4d17q3-Hd1e542">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d17q3-d1e545">Ulterius. Videtur quod extra casum necessitatis non posset aliquis non sacerdos
+              confessionem venialium audire. Quia sacramentum aliquod committitur dispensandum laico
+              ratione necessitatis. Sed confessio venialium non est de necessitate salutis, ut supra
+              dictum est. Ergo non committitur laico.</p>
+            <p xml:id="ta-l4d17q3-d1e548">Praeterea, contra venialia ordinatur extrema unctio, sicut et poenitentia. Sed illa
+              non potest dari a laico, ut patet Jac. ult. Ergo nec confessio venialium potest ei
+              fieri.</p>
+            <p xml:id="ta-l4d17q3-d1e551">Sed contra est quod dicit Beda in littera.</p>
+
+          </div>
+          <div xml:id="ta-l4d17q3-Dd1e556">
+            <head xml:id="ta-l4d17q3-Hd1e558">Quaestiuncula 4</head>
+            <p xml:id="ta-l4d17q3-d1e561">Ulterius. Videtur quod non sit necessarium quod homo confiteatur proprio sacerdoti.
+              Gregorius enim dicit: <quote xml:id="ta-l4d17q3-Qd1e563">apostolico moderamine et pietatis officio a nobis
+                constitutum est quod sacerdotibus monachis apostolorum figuram tenentibus, liceat
+                praedicare, baptizare, communionem dare, pro peccatoribus orare, poenitentiam
+                imponere, atque peccata solvere</quote>. Sed monachi non sunt proprii sacerdotes
+              aliquorum, cum non habeant curam animarum. Ergo cum confessio fiat propter
+              absolutionem, sufficit quod fiat cuicumque sacerdoti.</p>
+            <p xml:id="ta-l4d17q3-d1e567">Praeterea, sicut sacerdos est hujus sacramenti minister, ita et Eucharistiae. Sed
+              quilibet sacerdos potest conficere. Ergo quilibet sacerdos potest sacramentum
+              poenitentiae ministrare. Ergo non oportet quod fiat proprio sacerdoti.</p>
+            <p xml:id="ta-l4d17q3-d1e570">Praeterea, illud ad quod determinate tenemur, non est in nostra electione
+              constitutum. Sed sacerdos cui confiteri debemus, est in nostra electione constitutus,
+              ut patet per Augustinum in littera; dicit enim: <quote xml:id="ta-l4d17q3-Qd1e572">qui vult confiteri peccatum, ut
+                inveniat gratiam, quaerat sacerdotem qui sciat ligare et solvere</quote>. Ergo
+              videtur quod non sit necessarium quod sacerdoti proprio aliquis confiteatur.</p>
+            <p xml:id="ta-l4d17q3-d1e576">Praeterea, quidam sunt, sicut praelati, qui non videntur habere proprium sacerdotem,
+              cum non habeant superiorem. Sed isti tenentur ad confessionem. Ergo non semper tenetur
+              homo confiteri proprio sacerdoti.</p>
+            <p xml:id="ta-l4d17q3-d1e580">Praeterea, illud quod est institutum pro caritate, contra caritatem non militat, ut
+              Bernardus dicit. Sed confessio, quae pro caritate instituta est, contra caritatem
+              militaret, si homo ad confitendum uni sacerdoti esset obligatus; ut puta, si peccator
+              sciat sacerdotem suum haereticum, vel solicitatorem ad malum, aut fragilem, qui ad
+              peccatum quod quis ei confitetur, sit pronus; vel si revelator esse confessionis
+              probabiliter existimatur; vel si peccatum contra ipsum commissum sit, de quo quis
+              confiteri debet. Ergo videtur quod non semper oporteat confiteri proprio
+              sacerdoti.</p>
+            <p xml:id="ta-l4d17q3-d1e583">Praeterea, in eo quod est necessarium ad salutem, non sunt homines arctandi, ne
+              impediantur a via salutis. Sed magna arctatio videtur, si oporteat uni homini
+              confiteri de necessitate: et per hoc multi possunt a confessione retrahi vel timore
+              vel verecundia, vel aliquo hujusmodi. Ergo cum confessio sit de necessitate salutis,
+              non debent homines ad hoc arctari, ut videtur, quod proprio sacerdoti
+              confiteantur.</p>
+            <p xml:id="ta-l4d17q3-d1e586">Sed contra est decretalis Innocentii qui instituit quod omnes utriusque sexus semel
+              in anno proprio sacerdoti confiteantur.</p>
+            <p xml:id="ta-l4d17q3-d1e589">Praeterea, sicut se habet episcopus ad dioecesim suam, ita sacerdos ad suam
+              parochiam. Sed non licet uni episcopo in dioecesi alterius episcopale officium
+              exercere, secundum statuta canonum. Ergo nec licet uni sacerdoti parochianum alterius
+              audire.</p>
+
+          </div>
+          <div xml:id="ta-l4d17q3-Dd1e593">
+            <head xml:id="ta-l4d17q3-Hd1e595">Quaestiuncula 5</head>
+            <p xml:id="ta-l4d17q3-d1e598">Ulterius. Videtur quod non possit aliquis alteri quam proprio sacerdoti confiteri,
+              etiam ex privilegio, vel mandato superioris. Quia non potest aliquod privilegium
+              indulgeri in praejudicium alterius. Sed hoc est in praejudicium alterius sacerdotis,
+              si alius confessionem subditi audiat. Ergo non potest per privilegium vel licentiam
+              seu mandatum superioris obtineri.</p>
+            <p xml:id="ta-l4d17q3-d1e601">Praeterea, illud per quod impeditur divinum mandatum, non potest per mandatum, vel
+              privilegium, alicujus hominis concedi. Sed mandatum divinum est ad rectores
+              Ecclesiarum ut diligenter vultum pecoris sui agnoscant, Proverb. 23: quod impeditur,
+              si alius quam ipse confessionem ejus audiat. Ergo hoc non potest per alicujus hominis
+              privilegium vel mandatum ordinari.</p>
+            <p xml:id="ta-l4d17q3-d1e604">Praeterea, ille qui audit confessionem alicujus, est proprius judex ejus: alias non
+              posset eum ligare et solvere. Sed unius hominis non possunt esse plures proprii
+              judices, vel proprii sacerdotes; quia tunc teneretur pluribus obedire; quod esset
+              impossibile, si contraria praeciperent vel incompossibilia. Ergo non potest alicui
+              aliquis confiteri nisi proprio sacerdoti, etiam ex superioris licentia.</p>
+            <p xml:id="ta-l4d17q3-d1e607">Praeterea, injuriam facit sacramento qui sacramentum iterat super eamdem materiam:
+              vel ad minus inutiliter facit. Sed qui confessus est alii sacerdoti, tenetur iterum
+              confiteri proprio sacerdoti, si petat: quia non est absolutus ab obedientia qua ei
+              tenetur ad hoc. Ergo non potest licite fieri quod alii quam proprio sacerdoti
+              confiteatur.</p>
+            <p xml:id="ta-l4d17q3-d1e611">Sed contra, ea quae sunt ordinis, possunt habenti similem ordinem committi ab eo qui
+              illa facere potest. Sed superior, ut episcopus, potest audire confessionem illius qui
+              est de parochia alicujus presbyteri: quia etiam aliquando aliqua sibi reservat, cum
+              sit principalis rector. Ergo et potest committere alicui sacerdoti alteri quod ipse
+              audiat.</p>
+            <p xml:id="ta-l4d17q3-d1e614">Praeterea, quidquid potest inferior, potest superior. Sed ipse sacerdos potest dare
+              licentiam suo parochiano quod alteri confiteatur. Ergo multo fortius hoc ejus superior
+              potest.</p>
+            <p xml:id="ta-l4d17q3-d1e617">Praeterea, potestatem quam habet sacerdos in populo, habet episcopus. Sed ex illa
+              potestate potest confessionem audire. Ergo et eadem ratione alius, cui episcopus
+              potestatem concedit.</p>
+          </div>
+          <div xml:id="ta-l4d17q3-Dd1e621">
+            <head xml:id="ta-l4d17q3-Hd1e623">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d17q3-d1e626">Respondeo dicendum ad primam quaestionem, quod gratia quae in sacramentis datur, a
+              capite in membra descendit; et ideo ille solus est minister sacramentorum, in quibus
+              gratia datur, qui habet ministerium super corpus Christi verum; quod solius sacerdotis
+              est, qui consecrare Eucharistiam potest; et ideo, cum in sacramento poenitentiae
+              gratia conferatur, solus sacerdos est minister hujus sacramenti, et ideo ei soli
+              facienda est sacramentalis confessio, quae ministro Ecclesiae debet fieri.</p>
+            <p xml:id="ta-l4d17q3-d1e629">Ad primum ergo dicendum, quod Jacobus loquitur ex praesuppositione divinae
+              institutionis; et quia divinitus institutio praecesserat de confessione sacerdotibus
+              facienda per hoc quod eis potestatem remittendi peccata in apostolis dedit, ut patet
+              Joan. 20; ideo intelligendum est quod Jacobus sacerdotibus confessionem esse faciendam
+              monuit.</p>
+            <p xml:id="ta-l4d17q3-d1e632">Ad secundum dicendum, quod Baptismus est magis sacramentum necessitatis quam
+              poenitentiae sacramentum, quo ad confessionem, et absolutionem: quia quandoque
+              Baptismus praetermitti non posset sine periculo salutis aeternae, ut patet in pueris,
+              qui nondum habent usum rationis. Sed non est ita de confessione et absolutione, quae
+              tantum ad adultos pertinet, in quibus contritio cum proposito confitendi et desiderio
+              absolutionis sufficit ad liberandum a morte aeterna; et ideo non est simile de
+              Baptismo et confessione.</p>
+            <p xml:id="ta-l4d17q3-d1e635">Ad tertium dicendum, quod, sicut dictum est dist. 15, quaest. 1, art. 2, in
+              satisfactione non solum est attendenda quantitas poenae, sed etiam virtus ejus
+              secundum quod est pars sacramenti; et sic requirit sacramentorum dispensatorem,
+              quamvis etiam ab alio quam a sacerdote quantitas poenae taxari possit.</p>
+            <p xml:id="ta-l4d17q3-d1e639">Ad quartum dicendum, quod cognoscere vultum pecoris ad duo necessarium est. Primo ad
+              hoc quod coordinentur gregi Christi; et sic cognoscere vultum pecoris pertinet ad
+              curam et sollicitudinem pastoralem, quae incumbit quandoque illis qui non sunt
+              sacerdotes. Secundo ad hoc quod provideatur ei conveniens medicamentum salutis; et sic
+              cognoscere vultum pecoris pertinet ad eum cujus est medicamentum salutis, scilicet
+              sacramentum Eucharistiae et alia praebere, scilicet ad sacerdotem; et ad talem
+              cognitionem pecoris confessio ordinatur.</p>
+
+          </div>
+          <div xml:id="ta-l4d17q3-Dd1e643">
+            <head xml:id="ta-l4d17q3-Hd1e645">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d17q3-d1e648">Ad secundam quaestionem dicendum, quod sicut Baptismus est sacramentum necessitatis,
+              ita et poenitentia. Baptismus autem, qui est sacramentum necessitatis, habet duplicem
+              ministrum: unum cui ex officio baptizare incumbit, scilicet sacerdotem; alium cui
+              ratione necessitatis dispensatio Baptismi committitur. Et ita etiam minister
+              poenitentiae, cui confessio est facienda ex officio, est sacerdos; sed in necessitate
+              etiam laicus vicem sacerdotis supplet, ut ei confessio fieri possit.</p>
+            <p xml:id="ta-l4d17q3-d1e651">Ad primum ergo dicendum, quod in sacramento poenitentiae non solum est aliquid ex
+              parte ministri, scilicet absolutio et satisfactionis injunctio, sed etiam aliquid ex
+              parte ipsius qui suscipit sacramentum, quod est etiam de essentia sacramenti, sicut
+              contritio et confessio. Satisfactio autem jam incipit esse a ministro inquantum eam
+              injungit, et a poenitente inquantum eam implet; et ad plenitudinem sacramenti utrumque
+              debet concurrere quando possibile est; sed quando necessitas imminet, debet facere
+              poenitens quod ex parte sua est, scilicet conteri, et confiteri cui potest: qui
+              quamvis sacramentum perficere non possit, ut faciat id quod est ex parte sacerdotis,
+              absolutionem scilicet, tamen defectum sacerdotis summus sacerdos supplet. Nihilominus
+              confessio laico ex desiderio sacerdotis facta, sacramentalis est quodammodo, quamvis
+              non sit sacramentum perfectum, quia deest ei id quod est ex parte sacerdotis.</p>
+            <p xml:id="ta-l4d17q3-d1e654">Ad secundum dicendum, quod quamvis laicus non sit judex ejus qui ei confitetur
+              absolute, tamen ratione necessitatis accipit judicium super eum, scilicet secundum
+              quod confitens ex desiderio sacerdotis se ei subdit.</p>
+            <p xml:id="ta-l4d17q3-d1e657">Ad tertium dicendum, quod per sacramenta homo non solum Deo, sed etiam Ecclesiae
+              oportet quod reconcilietur. Ecclesiae autem reconciliari non potest nisi sanctificatio
+              Ecclesiae ad eum perveniat. In Baptismo autem sanctificatio Ecclesiae ad hominem
+              pervenit per ipsum elementum exterius adhibitum, quod verbo vitae sanctificatur
+              secundum formam Ecclesiae a quocumque; et ideo ex quo semel baptizatus est a
+              quocumque, non oportet quod iterum baptizetur. Sed in poenitentia Ecclesiae
+              sanctificatio non pervenit ad hominem nisi per ministrum: quia non est ibi aliquod
+              elementum corporale exterius adhibitum, quod ex sanctificatione invisibilem gratiam
+              conferat; et ideo quamvis ille qui laico confessus est in articulo necessitatis,
+              consecutus sit veniam a Deo, eo quod propositum confitendi secundum mandatum Dei, quod
+              concepit, sicut potuit, implevit; non tamen adhuc Ecclesiae reconciliatus est, ut ad
+              sacramenta Ecclesiae admitti debeat, nisi prius a sacerdote absolvatur; sicut ille qui
+              Baptismo flaminis baptizatus est, ad Eucharistiam non admittitur; et ideo oportet quod
+              iterum confiteatur sacerdoti, cum copiam habere potuerit; et praecipue quia, ut dictum
+              est, sacramentum poenitentiae perfectum non fuit; unde oportet quod perficiatur, ut ex
+              ipsa perceptione sacramenti pleniorem effectum consequatur, et ut mandatum de
+              poenitentiae sacramento recipiendo impleat.</p>
+
+          </div>
+          <div xml:id="ta-l4d17q3-Dd1e661">
+            <head xml:id="ta-l4d17q3-Hd1e663">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d17q3-d1e666">Ad tertiam quaestionem dicendum, quod per peccatum veniale homo nec a Deo nec a
+              sacramentis Ecclesiae separatur; et ideo non indiget novae gratiae collatione ad ejus
+              dimissionem, nec indiget reconciliatione ad Ecclesiam; et propter hoc non oportet quod
+              venialia aliquis sacerdoti confiteatur: quia ipsa confessio laico facta, sacramentale
+              quoddam est, quamvis non sit sacramentum perfectum, et ex caritate procedens; et
+              talibus natum est veniale remitti, sicut per tunsionem pectoris, et per aquam
+              benedictam.</p>
+            <p xml:id="ta-l4d17q3-d1e669">Et per hoc patet solutio ad primum; quia venialia non indigent sacramenti perceptione
+              ad dimissionem sui, sed sufficit ibi aliquod sacramentale, ut aqua benedicta, vel
+              aliquid hujusmodi.</p>
+            <p xml:id="ta-l4d17q3-d1e672">Ad secundum dicendum, quod extrema unctio non datur directe contra veniale, nec
+              aliquod sacramentum, ut supra, dist. 2, qu. 1, art. 1, quaestiunc. 4, dictum est.</p>
+
+          </div>
+          <div xml:id="ta-l4d17q3-Dd1e676">
+            <head xml:id="ta-l4d17q3-Hd1e678">Quaestiuncula 4</head>
+            <p xml:id="ta-l4d17q3-d1e681">Ad quartam quaestionem dicendum, quod alia sacramenta non consistunt in hoc quod ad
+              sacramentum accedens aliquid agat, sed solum ut recipiat, sicut patet in Baptismo, et
+              hujusmodi; sed actus recipientis requiritur ad percipiendum utilitatem sacramenti in
+              eo qui est suae voluntatis arbiter constitutus, quasi removens prohibens, scilicet
+              fictionem. Sed in poenitentia actus accedentis ad sacramentum est de substantia
+              sacramenti, eo quod contritio, confessio, satisfactio sunt poenitentiae partes, quae
+              sunt actus poenitentis. Actus autem nostri, cum in nobis principium habeant, non
+              possunt nobis ab alio dispensari nisi per imperium; unde oportet quod ille qui
+              dispensator hujus sacramenti constituitur, sit talis qui possit imperare aliquid
+              agendum. Imperium autem non competit alicui in alium, nisi qui habet super eum
+              jurisdictionem; et ideo de necessitate hujus sacramenti est non solum ut minister
+              habeat ordinem, sicut in aliis sacramentis, sed etiam quod habeat jurisdictionem; et
+              ideo sicut ille qui non est sacerdos, non potest hoc sacramentum conferre, ita nec
+              ille qui non habet jurisdictionem; et propter hoc oportet sicut sacerdoti, ita proprio
+              sacerdoti confessionem fieri. Cum enim sacerdos non absolvat nisi ligando ad aliquid
+              faciendum, ille solus potest absolvere qui potest per imperium ad aliquid faciendum
+              ligare.</p>
+            <p xml:id="ta-l4d17q3-d1e684">Ad primum ergo dicendum, quod Gregorius loquitur de illis monachis qui jurisdictionem
+              habent, utpote quibus alicujus parochiae cura est commissa; de quibus aliqui dicebant,
+              quod hoc ipso quod monachi erant, non poterant absolvere, et poenitentias injungere;
+              quod falsum est.</p>
+            <p xml:id="ta-l4d17q3-d1e687">Ad secundum dicendum, quod sacramentum Eucharistiae non requirit imperium in aliquem
+              hominem; secus autem est in hoc sacramento, ut dictum est, et ideo ratio non sequitur;
+              et tamen non licet Eucharistiam ab alio quam a proprio sacerdote accipere, quamvis sit
+              verum sacramentum quod ab eo percipitur.</p>
+            <p xml:id="ta-l4d17q3-d1e690">Ad tertium dicendum, quod electio discreti sacerdotis non est nobis commissa, ut
+              nostro arbitrio facienda, sed de licentia superioris; si forte proprius sacerdos esset
+              minus idoneus ad apponendum peccato salutare remedium.</p>
+            <p xml:id="ta-l4d17q3-d1e694">Ad quartum dicendum, quod quia praelatis incumbit sacramenta dispensare, quae non
+              nisi mundi tractare debent, ideo concessum est eis a jure quod possunt sibi eligere
+              proprios confessores, qui quantum ad hoc sunt eis superiores; sicut etiam unus medicus
+              ab alio curatur, non inquantum est medicus, sed inquantum est infirmus.</p>
+            <p xml:id="ta-l4d17q3-d1e697">Ad quintum dicendum, quod in casibus illis in quibus probabiliter timet poenitens
+              periculum sibi vel sacerdoti ex confessione ei facta, debet recurrere ad superiorem,
+              vel ab eodem petere licentiam alteri confitendi. Quod si licentiam habere non possit,
+              idem est judicium quod de illo qui non habet copiam sacerdotis; unde magis debet
+              eligere laico confiteri. Nec in hoc transgreditur aliquis praeceptum Ecclesiae; quia
+              praecepta juris positivi non se extendunt ultra intentionem praecipientis, quae est
+              finis praecepti. Haec autem est caritas secundum apostolum. Nec iterum fit aliqua
+              injuria sacerdoti; quia privilegium meretur amittere qui concessa sibi abutitur
+              potestate.</p>
+            <p xml:id="ta-l4d17q3-d1e700">Ad sextum dicendum, quod in hoc quod oportet proprio sacerdoti confiteri, non
+              arctatur via salutis, sed sufficiens ad salutem via statuitur. Peccaret autem
+              sacerdos, si non esset facilis ad praebendam licentiam confitendi alteri; quia multi
+              sunt adeo infirmi quod potius sine confessione morerentur quam tali sacerdoti
+              confiterentur; unde illi qui sunt nimis soliciti ut conscientias subditorum per
+              confessionem sciant, multis laqueum damnationis injiciunt, et per consequens sibi
+              ipsis.</p>
+
+          </div>
+          <div xml:id="ta-l4d17q3-Dd1e705">
+            <head xml:id="ta-l4d17q3-Hd1e707">Quaestiuncula 5</head>
+            <p xml:id="ta-l4d17q3-d1e710">Ad quintam quaestionem dicendum, quod sacerdos aliquis potest dupliciter impediri ne
+              alicujus confessionem audiat. Uno modo propter defectum jurisdictionis: alio modo
+              propter impedimentum executionis ordinis, sicut excommunicati, et degradati, et
+              hujusmodi. Quicumque autem habet jurisdictionem, potest ea quae sunt jurisdictionis
+              committere; et ideo si aliquis impediatur quod alterius confessionem audire non possit
+              per jurisdictionis defectum, potest sibi per quemcumque jurisdictionem habentem
+              immediatam in illos committi quod confessionem audiat et absolvat, sive per ipsum
+              sacerdotem, sive per episcopum, sive per Papam. Si autem propter executionis ordinis
+              impedimentum audire non possit, potest sibi concedi quod confessionem audiat per eum
+              qui impedimentum amovere potest.</p>
+            <p xml:id="ta-l4d17q3-d1e713">Ad primum ergo dicendum, quod praejudicium non fit alicui nisi subtrahatur quod est
+              in favorem ipsius indultum. Jurisdictionis autem potestas non est commissa alicui
+              homini in favorem suum, sed in utilitatem plebis, et ad honorem Dei; et ideo si
+              superioribus praelatis expedire videatur ad salutem plebis et ad honorem Dei
+              promovendum, quod aliis quae sunt jurisdictionis committant, in nullo fit praejudicium
+              inferioribus praelatis, nisi illis qui quaerunt quae sua sunt, non quae Jesu Christi,
+              et qui gregi praesunt, non ut eas pascant, sed ut ab eis pascantur.</p>
+            <p xml:id="ta-l4d17q3-d1e716">Ad secundum dicendum, quod rector Ecclesiae debet vultum pecoris sui agnoscere
+              dupliciter. Uno modo per solicitam exterioris conversationis considerationem, qua
+              invigilare debet super gregem sibi commissum; et in hac cognitione non oportet quod
+              credat subdito; sed certitudinem facti, inquantum potest, inquirat. Alio modo per
+              confessionis manifestationem; et quantum ad hanc cognitionem non potest majorem
+              certitudinem accipere quam ut subdito credat, quia hoc est ad subveniendum
+              conscientiae ipsius; unde in foro confessionis creditur homini et pro se et contra se,
+              non autem in foro exterioris judicii; et ideo ad hanc cognitionem sufficit quod credat
+              subdito dicenti, se alteri absolvere valenti confessum fuisse; et sic patet quod talis
+              cognitio pecoris per privilegium alicui indultum de confessione audienda non
+              impeditur.</p>
+            <p xml:id="ta-l4d17q3-d1e719">Ad tertium dicendum, quod inconveniens esset, si duo aequaliter super eamdem plebem
+              constituerentur; sed quod duo, quorum unus alio principalior est, super eamdem plebem
+              constituantur, non est inconveniens; et secundum hoc super eamdem plebem immediate
+              sunt et sacerdos parochialis et episcopus et Papa; et quilibet eorum potest ea quae
+              sunt jurisdictionis ad ipsum pertinentia, alteri committere. Sed si superior
+              committat, qui et principalior est, dupliciter potest committere. Aut ita quod eum
+              vice sui constituat, sicut Papa et episcopus suos poenitentiarios constituunt; et tunc
+              talis est principalior quam inferior praelatus, sicut poenitentiarius Papae quam
+              episcopus, et poenitentiarius episcopi quam sacerdos parochialis; et magis tenetur ei
+              confitens obedire. Alio modo ut eum coadjutorem illius sacerdotis constituat; et quia
+              coadjutor ordinatur ad eum cui coadjutor datur, ideo adjutor est minus principalis; et
+              ideo poenitens non tantum obedire tenetur ei quantum proprio sacerdoti.</p>
+            <p xml:id="ta-l4d17q3-d1e723">Ad quartum dicendum, quod nullus tenetur confiteri peccata quae non habet; et ideo si
+              aliquis poenitentiario episcopi, vel alteri ab episcopo commissionem habenti,
+              confessus fuerit, cum sint sibi dimissa peccata et quo ad Deum et quo ad Ecclesiam,
+              non tenetur ea confiteri proprio sacerdoti, quantumcumque petat. Sed propter statutum
+              Ecclesiae de confessione facienda proprio sacerdoti semel in anno, eodem modo se debet
+              habere sicut ille qui habet solum venialia; talis enim debet solum venialia confiteri,
+              ut quidam dicunt; vel etiam profiteri se a peccato mortali immunem; et sacerdos in
+              foro conscientiae ei credere tenetur. Si tamen iterum confiteri teneretur, non frustra
+              primo confessus fuisset; quia quanto pluribus sacerdotibus confitetur quis, tanto plus
+              de poena ei remittetur, tum ex erubescentia confessionis, quae in poenam
+              satisfactoriam computatur, tum ex vi clavium. Unde toties posset aliquis confiteri
+              quod ab omni poena liberaretur; nec reiteratio injuriam facit sacramento, nisi illi in
+              quo sanctificatio adhibetur vel per caracteris impressionem, vel per materiae
+              consecrationem; quorum neutrum est in poenitentia; unde bonum est quod ille qui
+              auctoritate episcopi confessionem audit, inducat confitentem quod confiteatur proprio
+              sacerdoti. Quod si noluerit, nihilominus eum absolvere debet.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d17q3-Dd1e729" type="articulus">
+          <head xml:id="ta-l4d17q3-Hd1e731">Articulus 4</head>
+
+          <head xml:id="ta-l4d17q3-Hd1e734" type="questionTitle">Utrum confessio esse possit informis</head>
+
+          <div xml:id="ta-l4d17q3-Dd1e737">
+            <head xml:id="ta-l4d17q3-Hd1e739">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d17q3-d1e742">Ad quartum sic proceditur. Videtur quod confessio esse non possit informis. Eccli.
+              enim 17, 26, dicitur: <quote xml:id="ta-l4d17q3-Qd1e744">a mortuo, velut qui non est, perit confessio</quote>. Sed
+              ille qui non habet caritatem, est mortuus; quia ipsa est animae vita. Ergo absque
+              caritate non potest esse confessio.</p>
+            <p xml:id="ta-l4d17q3-d1e748">Praeterea, confessio dividitur contra contritionem et satisfactionem. Sed contritio
+              et satisfactio nunquam possunt extra caritatem fieri. Ergo nec confessio.</p>
+            <p xml:id="ta-l4d17q3-d1e751">Praeterea, in confessione oportet quod os cordi concordet; quia hoc ipsum nomen
+              confessionis requirit. Sed ille qui adhuc manet in affectu peccati quod confitetur,
+              non habet cor ori conforme; quia corde peccatum tenet quod ore damnat. Ergo talis non
+              confitetur.</p>
+            <p xml:id="ta-l4d17q3-d1e754">Sed contra, quilibet tenetur ad confessionem mortalium. Sed si aliquis semel
+              confessus est etiam in mortali existens, non tenetur ulterius ad confitendum eadem
+              peccata; quia cum nullus sciat se caritatem habere, nullus sciret se confessum fuisse.
+              Ergo non est de necessitate confessionis quod sit caritate formata.</p>
+
+          </div>
+          <div xml:id="ta-l4d17q3-Dd1e758">
+            <head xml:id="ta-l4d17q3-Hd1e760">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d17q3-d1e763">Ulterius. Videtur quod non oporteat confessionem esse integram, ut scilicet omnia
+              peccata uni sacerdoti confiteatur aliquis. Quia erubescentia facit ad diminutionem
+              poenae. Sed quanto pluribus sacerdotibus quis confitetur; tanto majorem erubescentiam
+              patitur. Ergo fructuosior erit confessio, si pluribus sacerdotibus dividat.</p>
+            <p xml:id="ta-l4d17q3-d1e766">Praeterea, confessio ad hoc necessaria est in poenitentia, ut poena secundum
+              arbitrium sacerdotis, peccato taxetur. Sed sufficiens poena potest imponi a
+              sacerdotibus de diversis peccatis. Ergo non oportet uni sacerdoti omnia peccata
+              confiteri.</p>
+            <p xml:id="ta-l4d17q3-d1e769">Praeterea, potest contingere quod post confessionem factam et satisfactionem
+              perfectam recordetur quis alicujus peccati mortalis, quod dum confitebatur, in memoria
+              non habebat; et tunc copiam proprii sacerdotis, cui primo confessus fuerit, habere non
+              poterit. Ergo poterit illud solum peccatum alteri confiteri; et sic diversa peccata
+              diversis sacerdotibus confitebitur.</p>
+            <p xml:id="ta-l4d17q3-d1e772">Praeterea, sacerdoti non debet fieri confessio de peccatis nisi propter absolutionem.
+              Sed quandoque sacerdos qui confessionem audit, potest de quibusdam peccatis absolvere,
+              non de omnibus. Ergo ad minus in tali casu non oportet quod confessio sit integra.</p>
+            <p xml:id="ta-l4d17q3-d1e776">Sed contra, hypocrisis est impedimentum poenitentiae, ut in praecedenti dist. dictum
+              est. Sed dividere confessionem, ad hypocrisim pertinet, ut Augustinus dicit. Ergo
+              confessio debet esset integra.</p>
+            <p xml:id="ta-l4d17q3-d1e779">Praeterea, confessio est poenitentiae pars. Sed poenitentia debet esse integra, ut in
+              20 dist. Magister ostendit. Ergo et confessio.</p>
+
+          </div>
+          <div xml:id="ta-l4d17q3-Dd1e783">
+            <head xml:id="ta-l4d17q3-Hd1e785">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d17q3-d1e788">Ulterius. Videtur quod possit per alium quis confiteri, vel per scriptum. Quia
+              confessio ad hoc necessaria est, ut per eam conscientia poenitentis sacerdoti
+              pandatur. Sed homo potest etiam per alium, vel per scriptum, suam conscientiam
+              sacerdoti manifestare. Ergo non sufficit per scriptum, vel per alium, confiteri.</p>
+            <p xml:id="ta-l4d17q3-d1e791">Praeterea, quidam non intelliguntur a propriis sacerdotibus propter linguae
+              diversitatem; et tales non possunt nisi per alios confiteri. Ergo non est de
+              necessitate sacramenti quod per seipsum quis confiteatur; et ita videtur quod si per
+              alium quis confessus fuerit qualitercumque, quod sufficiat ei ad salutem.</p>
+            <p xml:id="ta-l4d17q3-d1e794">Praeterea, de necessitate sacramenti est quod homo proprio sacerdoti confiteatur, ut
+              ex dictis patet. Sed aliquando proprius sacerdos est absens, cui non potest poenitens
+              propria voce loqui; posset autem per scriptum, suam conscientiam ei manifestare. Ergo
+              videtur quod per scriptum ei suam conscientiam transmittere debeat.</p>
+            <p xml:id="ta-l4d17q3-d1e797">Sed contra, homo tenetur ad confessionem peccatorum, sicut ad confessionem fidei. Sed
+              confessio fidei est ore facienda, ut patet Rom. 10. Ergo et confessio peccatorum.</p>
+            <p xml:id="ta-l4d17q3-d1e801">Praeterea, qui per seipsum peccavit, per seipsum debet poenitere. Sed confessio est
+              poenitentiae pars. Ergo poenitens debet confiteri propria voce.</p>
+
+          </div>
+          <div xml:id="ta-l4d17q3-Dd1e806">
+            <head xml:id="ta-l4d17q3-Hd1e808">Quaestiuncula 4</head>
+            <p xml:id="ta-l4d17q3-d1e811">Ulterius. Videtur quod illae conditiones sexdecim quae a magistris assignantur, his
+              versibus contentae, non requirantur ad confessionem: <quote xml:id="ta-l4d17q3-Qd1e813">sit simplex, humilis
+                confessio, pura, fidelis, atque frequens, nuda, discreta, libens, verecunda,
+                integra, secreta, lacrymabilis, accelerata, fortis et accusans, et sit parere
+                parata</quote>. Fides enim et simplicitas et fortitudo sunt per se virtutes. Ergo
+              non debent poni conditiones confessionis.</p>
+            <p xml:id="ta-l4d17q3-d1e817">Praeterea, purum est quod non habet permixtionem: similiter simplex compositionem et
+              mixtionem aufert. Ergo superflue utrumque ponitur.</p>
+            <p xml:id="ta-l4d17q3-d1e820">Praeterea, peccatum semel commissum nullus tenetur confiteri nisi semel. Ergo si homo
+              peccatum non iterat, non oportet quod sit poenitentia frequens.</p>
+            <p xml:id="ta-l4d17q3-d1e823">Praeterea, confessio ordinatur ad satisfactionem. Sed satisfactio quandoque est
+              publica. Ergo et confessio non semper debet esse secreta.</p>
+            <p xml:id="ta-l4d17q3-d1e827">Praeterea, illud quod non est in potestate nostra, non requiritur a nobis. Sed
+              lacrymas emittere non est in potestate nostra. Ergo non requiritur a confitente.</p>
+          </div>
+          <div xml:id="ta-l4d17q3-Dd1e831">
+            <head xml:id="ta-l4d17q3-Hd1e833">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d17q3-d1e836">Respondeo dicendum ad primam quaestionem, quod confessio est actus virtutis, et pars
+              sacramenti. Secundum autem quod est actus virtutis, est actus meritorius proprie; et
+              sic confessio non valet sine caritate, quae est principium merendi. Sed secundum quod
+              est pars sacramenti, sic ordinat confitentem ad sacerdotem, qui habet claves
+              Ecclesiae, qui per confessionem conscientiam confitentis cognoscit; et secundum hoc
+              confessio etiam potest esse in eo qui non est contritus, quia potest peccata sua
+              sacerdoti innotescere, et clavibus Ecclesiae se subjicere. Et quamvis tunc non
+              percipiat absolutionis fructum, tamen recedente fictione percipere incipiet, sicut
+              etiam est in aliis sacramentis; unde non tenetur iterare confessionem qui fictus
+              accedit, sed tenetur postmodum fictionem suam confiteri.</p>
+            <p xml:id="ta-l4d17q3-d1e839">Ad primum ergo dicendum, quod auctoritas illa intelligenda est quantum ad fructum
+              confessionis percipiendum, quem nullus extra caritatem existens percipit.</p>
+            <p xml:id="ta-l4d17q3-d1e842">Ad secundum dicendum, quod contritio et satisfactio fiunt Deo; sed confessio fit
+              homini; et ideo de ratione contritionis et satisfactionis est quod homo sit Deo per
+              caritatem unitus, non autem de ratione confessionis.</p>
+            <p xml:id="ta-l4d17q3-d1e845">Ad tertium dicendum, quod ille qui peccata quae habet, narrat, vere loquitur, et sic
+              cor concordat verbis quantum ad substantiam confessionis, quamvis cor discordet a
+              confessionis fine.</p>
+
+          </div>
+          <div xml:id="ta-l4d17q3-Dd1e849">
+            <head xml:id="ta-l4d17q3-Hd1e851">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d17q3-d1e854">Ad secundam quaestionem dicendum, quod in medicina corporali oportet quod medicus non
+              solum unum morbum, contra quem medicinam dare debet, cognoscat; sed etiam
+              universaliter totam habitudinem ipsius infirmi, eo quod unus morbus ex adjunctione
+              alterius aggravatur; et medicina quae uni morbo competeret, alteri nocumentum
+              praestaret; et similiter est in peccatis: quia unum aggravatur ex adjunctione
+              alterius; et illud quod uni peccato esset conveniens medicina, alteri incentivum
+              praestaret, cum quandoque aliquis contrariis peccatis infectus sit, ut Gregorius in
+              pastorali docet; et ideo de necessitate confessionis est quod homo omnia peccata
+              confiteatur quae in memoria habet: quod si non facit, non est confessio, sed
+              confessionis simulatio.</p>
+            <p xml:id="ta-l4d17q3-d1e857">Ad primum ergo dicendum, quod etsi erubescentia sit multiplicior quando dividit
+              diversa peccata diversis, tamen omnes simul non sunt ita magnae sicut illa una qua
+              quis omnia peccata sua simul confitetur: quia unum peccatum per se consideratum non
+              ita demonstrat malam dispositionem peccantis, sicut quando cum pluribus aliis
+              consideratur: quia in unum peccatum aliquis quandoque ex ignorantia vel infirmitate
+              labitur; sed multitudo peccatorum demonstrat malitiam peccantis, vel magnam
+              corruptionem ejusdem.</p>
+            <p xml:id="ta-l4d17q3-d1e860">Ad secundum dicendum, quod poena a diversis sacerdotibus imposita non esset
+              sufficiens: quia quilibet consideraret tantum unum peccatum per se, et non gravitatem
+              ipsius quam habet ex adjunctione alterius; et quandoque poena quae contra unum
+              peccatum daretur, esset promotiva alterius peccati. Praeterea sacerdos confessionem
+              audiens vicem Dei gerit; et ideo debet ei hoc modo fieri confessio sicut fit Deo in
+              contritione; unde sicut non esset contritio, nisi quis de omnibus contereretur; ita
+              non esset confessio, nisi quis de omnibus quae memoriae occurrunt, confiteatur.</p>
+            <p xml:id="ta-l4d17q3-d1e863">Ad tertium dicendum, quod quidam dicunt, quod quando aliquis recordatur eorum quae
+              prius oblitus fuit, debet iterum etiam ea quae confessus fuerat, confiteri; et
+              praecipue si non potest eumdem habere, cui ante confessus fuerat, qui omnia cognoscit,
+              ut totius culpae quantitas uni sacerdoti innotescat. Sed hoc non videtur necessarium:
+              quia peccatum habet quantitatem et ex seipso, et ex adjunctione alterius. Peccatorum
+              autem de quibus confessus est, manifestavit quantitatem quam ex seipsis habent. Ad hoc
+              autem quod sacerdos utramque quantitatem hujus peccati cujus fuerat oblitus,
+              cognoscat, sufficit quod hoc peccatum confitens dicat explicite, et alia in generali,
+              dicendo, quod cum alia multa confiteretur, hujusmodi oblitus fuit.</p>
+            <p xml:id="ta-l4d17q3-d1e867">Ad quartum dicendum, quod etiamsi sacerdos non possit de omnibus absolvere, tenetur
+              sibi omnia confiteri, ut quantitatem totius culpae cognoscat, et de illis de quibus
+              non potest absolvere, ad superiorem remittat.</p>
+
+          </div>
+          <div xml:id="ta-l4d17q3-Dd1e871">
+            <head xml:id="ta-l4d17q3-Hd1e873">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d17q3-d1e876">Ad tertiam quaestionem dicendum, quod confessio non solum est actus virtutis, sed
+              etiam pars sacramenti. Quamvis autem ad eam secundum quod est actus virtutis,
+              sufficeret qualitercumque fieret, etsi non esset tanta difficultas in uno modo sicut
+              in alio; tamen secundum quod est pars sacramenti, habet determinatum actum, sicut et
+              alia sacramenta habent determinatam materiam. Et sicut in Baptismo ad significandam
+              interiorem ablutionem assumitur illud elementum cujus est maximus usus in abluendo;
+              ita in actu sacramentali ad manifestandum ordinate assumitur ille actus quo maxime
+              consuevimus manifestare, scilicet per proprium verbum: alii enim modi sunt inducti in
+              supplementum istius.</p>
+            <p xml:id="ta-l4d17q3-d1e879">Ad primum ergo dicendum, quod sicut in Baptismo non sufficit qualitercumque abluere,
+              sed per elementum determinatum; ita nec in poenitentia sufficit qualitercumque peccata
+              manifestare, sed oportet quod per actum determinatum manifestentur.</p>
+            <p xml:id="ta-l4d17q3-d1e882">Ad secundum dicendum, quod in eo qui usum linguae non habet, sicut mutus, vel qui est
+              alterius linguae, sufficit quod per scriptum aut nutum aut interpretem confiteatur:
+              quia non exigitur ab homine plus quam possit: quamvis homo non debeat Baptismum
+              accipere nisi in aqua, quia aqua est omnino ab exteriori, et nobis ab alio exhibetur.
+              Sed actus confessionis est a nobis; et ideo, quando non possumus uno modo, debemus
+              secundum quod possumus confiteri.</p>
+            <p xml:id="ta-l4d17q3-d1e885">Ad tertium dicendum, quod in absentia proprii sacerdotis potest etiam laico fieri
+              confessio; et ideo non oportet quod per scriptum fiat: quia plus pertinet ad
+              necessitatem confessionis actus quam ille cui fit confessio.</p>
+
+          </div>
+          <div xml:id="ta-l4d17q3-Dd1e889">
+            <head xml:id="ta-l4d17q3-Hd1e891">Quaestiuncula 4</head>
+            <p xml:id="ta-l4d17q3-d1e894">Ad quartam quaestionem dicendum, quod dictarum conditionum quaedam sunt de
+              necessitate confessionis, quaedam de bene esse ipsius. Ea autem quae sunt de
+              necessitate confessionis; vel competunt ei secundum quod est actus virtutis, vel
+              secundum quod est pars sacramenti. Si primo modo; aut ratione virtutis in genere, aut
+              ratione specialis virtutis, cujus est actus. Ex ipsa autem ratione actus virtutis in
+              genere sunt quatuor conditiones, ut in 2 Ethic. dicitur. Prima est ut aliquis sit
+              sciens; et quantum ad hoc confessio dicitur esse discreta, secundum quod in actu omnis
+              virtutis prudentia requiritur; est autem haec discretio ut majora cum majori pondere
+              confiteatur. Secunda conditio est ut sit eligens, quia actus virtutum debent esse
+              voluntarii; et quantum ad hoc dicit <quote xml:id="ta-l4d17q3-Qd1e896">libens</quote>. Tertia conditio est ut
+              propter debitum finem operetur; et quantum ad hoc dicit, quod debet esse poenitentia
+              pura, ut scilicet recta sit intentio. Quarta est ut immobiliter operetur; et quantum
+              ad hoc dicit quod debet esse fortis, ut scilicet propter verecundiam non dimittat. Est
+              autem confessio actus poenitentiae virtutis; quae quidem primo initium sumit in
+              horrore turpitudinis peccati; et quantum ad hoc confessio debet esse verecunda, ut
+              scilicet non se jactet de peccatis propter aliquam saeculi vanitatem admixtam. Secundo
+              progreditur ad dolorem de peccato commisso; et quantum ad hoc debet esse lacrymabilis.
+              Tertio in abjectione sui terminatur; et quantum ad hoc debet esse humilis, ut se
+              miserum confiteatur et infirmum. Sed ex propria ratione hujus actus qui est confessio,
+              habet quod sit manifestativa: quae quidem manifestatio per quatuor impediri potest.
+              Primo per falsitatem; et quantum ad hoc dicit <quote xml:id="ta-l4d17q3-Qd1e899">fidelis</quote>, idest vera.
+              Secundo per obscuritatem; et contra hoc dicit <quote xml:id="ta-l4d17q3-Qd1e902">nuda</quote>, ut non involvatur
+              obscuritate verborum. Tertio per multiplicationem verborum; et contra hoc dicit, quod
+              sit simplex, ut non recitet in confessione nisi quod ad quantitatem peccati pertinet.
+              Quarto ut non subtrahatur aliquid de his quae manifestanda sunt; et contra hoc dicit
+                <quote xml:id="ta-l4d17q3-Qd1e905">integra</quote>. Secundum autem quod confessio est pars sacramenti, sic
+              concernit judicium sacerdotis, qui est minister sacramenti; unde oportet quod sit
+              accusans ex parte confitentis; parere parata per comparationem ad sacerdotem; secreta
+              quantum ad conditionem fori, in quo de occultis conscientiae agitur. Sed de bene esse
+              confessionis est quod sit frequens, et quod sit accelerata.</p>
+            <p xml:id="ta-l4d17q3-d1e909">Ad primum ergo dicendum, quod non est inconveniens quod conditio unius virtutis in
+              actu alterius inveniatur, qui ab ipsa imperatur; vel quia medium quod est unius
+              virtutis principaliter, etiam aliae virtutes per participationem habent.</p>
+            <p xml:id="ta-l4d17q3-d1e912">Ad secundum dicendum, quod haec conditio, pura, intentionis excludit perversitatem, a
+              qua homo mundatur; sed simplex, alieni admixtionem.</p>
+            <p xml:id="ta-l4d17q3-d1e915">Ad tertium dicendum, quod hoc non est de necessitate confessionis, sed ad bene
+              esse.</p>
+            <p xml:id="ta-l4d17q3-d1e919">Ad quartum dicendum, quod propter scandalum aliorum, qui possunt ex peccatis auditis
+              ad malum inclinari, non debet confessio fieri in publico, sed in occulto. Ex poena
+              autem satisfactoria non scandalizatur ita aliquis; quia quandoque pro parvo vel nullo
+              peccato similia opera satisfactoria fiunt.</p>
+            <p xml:id="ta-l4d17q3-d1e922">Ad quintum dicendum, quod intelligendum est de lacrymis mentis.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d17q3-Dd1e927" type="articulus">
+          <head xml:id="ta-l4d17q3-Hd1e929">Articulus 5</head>
+
+          <head xml:id="ta-l4d17q3-Hd1e932" type="questionTitle">Utrum confessio liberet a morte peccati</head>
+
+          <div xml:id="ta-l4d17q3-Dd1e935">
+            <head xml:id="ta-l4d17q3-Hd1e937">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d17q3-d1e940">Ad quintum sic proceditur. Videtur quod confessio non liberet a morte peccati.
+              Confessio enim contritionem sequitur. Sed contritio sufficienter delet culpam. Ergo
+              confessio non liberat a morte peccati.</p>
+            <p xml:id="ta-l4d17q3-d1e943">Praeterea, sicut mortale est culpa, ita etiam veniale. Sed per confessionem fit
+              veniale quod prius erat mortale, ut in littera dicitur. Ergo per confessionem non
+              remittitur culpa, sed culpa in culpam mutatur.</p>
+            <p xml:id="ta-l4d17q3-d1e946">Sed contra, confessio est pars sacramenti poenitentiae. Sed poenitentia a culpa
+              liberat. Ergo et confessio.</p>
+
+          </div>
+          <div xml:id="ta-l4d17q3-Dd1e950">
+            <head xml:id="ta-l4d17q3-Hd1e952">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d17q3-d1e955">Ulterius. Videtur quod confessio non liberet aliquo modo a poena. Quia peccato non
+              debetur nisi poena aeterna, vel temporalis. Sed poena aeterna per contritionem
+              dimittitur, poena autem temporalis per satisfactionem. Ergo per confessionem nihil
+              dimittitur de poena.</p>
+            <p xml:id="ta-l4d17q3-d1e958">Praeterea, voluntas pro facto reputatur, ut in littera dicitur. Sed ille qui
+              confessus est, habuit propositum confitendi. Ergo tantum valuit sibi sicut si fuisset
+              confessus; et ita per confessionem quam postea facit, nihil de poena dimittitur.</p>
+            <p xml:id="ta-l4d17q3-d1e961">Sed contra, confessio poenam habet. Sed per alia opera poenalia expiatur pena peccato
+              debita. Ergo et per confessionem.</p>
+
+          </div>
+          <div xml:id="ta-l4d17q3-Dd1e965">
+            <head xml:id="ta-l4d17q3-Hd1e967">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d17q3-d1e970">Ulterius. Videtur quod non aperiat Paradisum. Quia diversorum diversi sunt effectus.
+              Sed apertio Paradisi est effectus Baptismi. Ergo non est effectus confessionis.</p>
+            <p xml:id="ta-l4d17q3-d1e973">Praeterea, in id quod clausum est, ante apertionem intrari non potest. Sed ante
+              confessionem moriens Paradisum intrare potest. Ergo confessio non aperit
+              Paradisum.</p>
+            <p xml:id="ta-l4d17q3-d1e976">Sed contra, confessio facit hominem subjici clavibus Ecclesiae. Sed per eas aperitur
+              Paradisus. Ergo et per confessionem.</p>
+
+          </div>
+          <div xml:id="ta-l4d17q3-Dd1e981">
+            <head xml:id="ta-l4d17q3-Hd1e983">Quaestiuncula 4</head>
+            <p xml:id="ta-l4d17q3-d1e986">Ulterius. Videtur quod confessionis effectus poni non debeat quod tribuat spem
+              salutis; quia spes ex omnibus meritoriis actibus provenit; et sic non videtur esse
+              proprius effectus confessionis.</p>
+            <p xml:id="ta-l4d17q3-d1e989">Praeterea, per tribulationem ad spem pervenimus, ut patet Rom. 5. Sed tribulationem
+              homo praecipue in satisfactione sustinet. Ergo tribuere spem salutis magis est
+              satisfactionis quam confessionis.</p>
+            <p xml:id="ta-l4d17q3-d1e992">Sed contra, per confessionem homo fit humilior et mitior, sicut in littera Magister
+              dicit. Sed per hoc homo accipit spem salutis. Ergo confessionis effectus est tribuere
+              spem salutis.</p>
+          </div>
+          <div xml:id="ta-l4d17q3-Dd1e996">
+            <head xml:id="ta-l4d17q3-Hd1e998">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d17q3-d1e1001">Respondeo dicendum ad primam quaestionem, quod poenitentia inquantum est sacramentum,
+              praecipue in confessione perficitur; quia per eam homo ministris Ecclesiae se subdit,
+              qui sunt sacramentorum dispensatores. Contritio enim votum confessionis annexum habet;
+              et satisfactio pro judicio sacerdotis cui fit confessio, taxatur. Et quia in
+              sacramento poenitentiae gratia infunditur, per quam fit remissio peccatorum, sicut in
+              Baptismo; ideo eodem modo confessio ex vi absolutionis conjunctae remittit culpam
+              sicut Baptismus. Liberat enim Baptismus a morte peccati non solum secundum quod actu
+              recipitur, sed etiam secundum quod in voto habetur, sicut patet in illis qui jam
+              sanctificati ad Baptismum accedunt; et si aliquis impedimentum non praestaret, ex ipsa
+              collatione Baptismi gratiam consequeretur remittentem peccata, si prius sibi remissa
+              non fuissent. Et similiter dicendum est de confessione, adjuncta absolutione; quod,
+              secundum quod in voto poenitentis praecessit, a culpa liberavit; postmodum autem in
+              actu confessionis et absolutionis gratia augetur: et etiam remissio peccatorum
+              daretur, si praecedens dolor de peccatis non sufficiens ad contritionem fuisset, et
+              ipse tunc obicem gratiae non praeberet. Et ideo sicut de Baptismo dicitur quod liberat
+              a morte, ita et de confessione dici potest.</p>
+            <p xml:id="ta-l4d17q3-d1e1004">Ad primum ergo dicendum, quod contritio habet votum confessionis adjunctum; et ideo
+              eo modo liberat a culpa poenitentes sicut desiderium Baptismi baptizandos.</p>
+            <p xml:id="ta-l4d17q3-d1e1007">Ad secundum dicendum, quod veniale non sumitur pro culpa, sed pro poena de facili
+              expiabili; unde non sequitur quod culpa in culpam convertat, sed penitus annihilat.
+              Dicitur enim veniale tripliciter. Uno modo ex genere, sicut verbum otiosum. Alio modo
+              ex causa, idest veniae causam in se habens, sicut peccatum ex infirmitate. Alio modo
+              ex eventu, sicut hic accipitur; quia per confessionem hoc evenit quod de culpa
+              praeterita homo veniam consequatur.</p>
+
+          </div>
+          <div xml:id="ta-l4d17q3-Dd1e1011">
+            <head xml:id="ta-l4d17q3-Hd1e1013">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d17q3-d1e1016">Ad secundam quaestionem dicendum, quod confessio simul cum absolutione habet vim
+              liberandi a poena dupliciter. Uno modo ex ipsa vi absolutionis; et sic quidem liberat
+              in voto existens a poena aeterna, sicut et a culpa; quae quidem poena est poena
+              condemnans, et ex toto exterminans, a qua homo liberatus, manet adhuc obligatus ad
+              poenam temporalem, secundum quod poena est medicina purgans, et promovens; et haec
+              poena restat in Purgatorio patienda etiam his qui a poena Inferni liberati sunt; quae
+              quidem poena est improportionata viribus poenitentis in hoc mundo viventis; sed per
+              vim clavium intantum diminuitur quod proportionata viribus poenitentis remanet; ita
+              quod satisfaciendo se in hac vita purgare potest. Alio modo diminuit poenam ex ipsa
+              natura actus confitentis, qui habet poenam erubescentiae annexam; et ideo quanto
+              aliquis pluries de eisdem peccatis confitetur, tanto magis poena diminuitur.</p>
+            <p xml:id="ta-l4d17q3-d1e1019">Et per hoc patet solutio ad primum.</p>
+            <p xml:id="ta-l4d17q3-d1e1022">Ad secundum dicendum, quod voluntas pro facto non reputatur in his quae sunt ab alio,
+              sicut est de Baptismo; non enim valet voluntas suscipiendi Baptismum sicut ipsius
+              susceptio; sed reputatur voluntas pro facto in his quae sunt omnino ab homine; et
+              iterum quantum ad praemium essentiale, non autem quantum ad poenae remotionem, et
+              hujusmodi, respectu quorum attenditur meritum accidentaliter et secundario; et ideo
+              confessus et absolutus minus in Purgatorio punietur quam contritus tantum.</p>
+
+          </div>
+          <div xml:id="ta-l4d17q3-Dd1e1026">
+            <head xml:id="ta-l4d17q3-Hd1e1028">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d17q3-d1e1031">Ad tertiam quaestionem dicendum, quod a Paradisi introitu prohibetur aliquis per
+              culpam, et reatum poenae; et quia haec impedimenta confessio amovet, ut ex dictis
+              patet, ideo dicitur Paradisum aperire.</p>
+            <p xml:id="ta-l4d17q3-d1e1034">Ad primum ergo dicendum, quod quamvis Baptismus et poenitentia sint diversa
+              sacramenta, tamen agunt in vi unius passionis Christi, per quam Paradisi aditus est
+              apertus.</p>
+            <p xml:id="ta-l4d17q3-d1e1037">Ad secundum dicendum, quod ante votum confessionis Paradisus clausus erat peccanti
+              mortaliter; quamvis postea per contritionem votum confessionis importantem, apertus
+              sit, etiam ante confessionem actualiter factam: non tamen obstaculum reatus est
+              totaliter remotum ante confessionem et satisfactionem.</p>
+
+          </div>
+          <div xml:id="ta-l4d17q3-Dd1e1041">
+            <head xml:id="ta-l4d17q3-Hd1e1043">Quaestiuncula 4</head>
+            <p xml:id="ta-l4d17q3-d1e1046">Ad quartam quaestionem dicendum, quod spes remissionis peccatorum non est nobis nisi
+              per Christum; et quia homo per confessionem se subjicit clavibus Ecclesiae ex passione
+              Christi virtutem habentibus, ideo dicitur quod confessio spem salutis tribuit.</p>
+            <p xml:id="ta-l4d17q3-d1e1049">Ad primum ergo dicendum, quod ex actibus non potest esse spes salutis principaliter,
+              sed ex gratia redemptoris; et quia confessio gratiae redemptoris innititur, ideo spem
+              salutis tribuit non solum ut actus meritorius, sed ut sacramenti pars.</p>
+            <p xml:id="ta-l4d17q3-d1e1052">Ad secundum dicendum, quod tribulatio spem salutis tribuit per experimentum propriae
+              virtutis et purgationem a poena; sed confessio etiam modo praedicto.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d17q3-Dd1e1057">
+          <head xml:id="ta-l4d17q3-Hd1e1059">Expositio textus</head>
+          <p xml:id="ta-l4d17q3-d1e1062"><quote xml:id="ta-l4d17q3-Qd1e1063">Dicunt enim quidam, sine confessione oris et satisfactione operis neminem a
+              peccato mundari</quote>. Tertia opinio est quam Magister non tangit, quod dimittatur
+            culpa per contritionem sub conditione, scilicet si confiteatur. Sed haec opinio minus
+            habet de ratione quam aliae: quia status salutis non dependet ex futuro: quia, sicut
+            dicitur Eccle. 11, 3: <quote xml:id="ta-l4d17q3-Qd1e1066">lignum ubi ceciderit, ibi erit</quote>. Unde nihil est
+            dictu quod homo ad statum salutis per dimissionem peccati reducatur sub conditione
+            confessionis simpliciter. <quote xml:id="ta-l4d17q3-Qd1e1069">Votum pro operatione judicatur</quote>. Hoc
+            intelligendum est tam in bonis quam in malis, quando est votum plenum, ita quod nihil ab
+            executione retardat nisi impotentia. Si autem operatio adjuncta addat aliquid ad
+            voluntatem, sicut in illis operibus quae habent in ipso actu delectationem voluntatem
+            provocantem, tunc operatio addit etiam quantum ad meritum vel demeritum substantiale;
+            alias non, sed superaddit operatio quantum ad aliquid adjunctum, quod est utilitas
+            consequens actum in bonis ut effectus ejus, vel nocumentum in malis. <quote xml:id="ta-l4d17q3-Qd1e1072">Non dicitur:
+              si ore confessus fuerit; sed, conversus ingemuerit</quote>. Ergo videtur quod non
+            requiratur oris confessio. Et dicendum, quod ipse gemitus habet votum vocalis
+            confessionis adjunctum. <quote xml:id="ta-l4d17q3-Qd1e1075">Nemo potest confiteri</quote>, scilicet confessione
+            efficaci ad salutem. <quote xml:id="ta-l4d17q3-Qd1e1078">Quae ut est vita corporis, ita ejus vita Deus est</quote>.
+            Non oportet quod sit similitudo quantum ad omnia, sed solum quantum ad hoc quod sicut
+            anima corpori sensum et motum praebet per hoc quod est in corpore, ita Deus animae
+            spiritualiter quam inhabitat per gratiam. <quote xml:id="ta-l4d17q3-Qd1e1082">Non potest quisquam gratiam Dei
+              accipere, nisi purgatus ab omni peccato per poenitentiae confessionem et per
+              Baptismum</quote>. Haec tria purgantia sic distinguuntur: quia Baptismus purgat a
+            culpa originali et actuali; sed poenitentia quantum ad contritionem a culpa actuali
+            tantum; confessio autem actu exercita directe a poena. <quote xml:id="ta-l4d17q3-Qd1e1085">Nemo dicat
+            occulte</quote>, ita scilicet quod sacerdoti non manifestet. <quote xml:id="ta-l4d17q3-Qd1e1088">Si erubui in
+              conspectu populi peccata mea confiteri</quote>; Job 31, 33. Ergo videtur quod liceat
+            publice confiteri. Et dicendum, quod nostra littera, quae verior est, habet: <quote xml:id="ta-l4d17q3-Qd1e1091">si
+              abscondi ut homo peccatum meum</quote>; in quo negatur absconsio contra mandatum Dei
+            facta. Sustinendo autem litteram quae hic ponitur; dicendum, quod non licet publice
+            confiteri, nisi forte sit peccatum manifestum: quia talis humilitas proximo
+            praejudicaret, qui ex peccato manifestato posset scandalizari. Sed satisfactio in
+            manifesto facta quodammodo peccatum in conspectu populi confitetur. <quote xml:id="ta-l4d17q3-Qd1e1094">Nullus
+              debitae gravioris poenae accipit veniam, nisi qualemcumque (...) solverit
+              poenam</quote>. Haec auctoritas et sequens ostendunt quod sine satisfactione peccatum
+            non dimittitur; quod etiam haec opinio dicebat. <quote xml:id="ta-l4d17q3-Qd1e1097">Quibusdam visum est sufficere, si
+              soli Deo fiat confessio</quote>. Hoc quod ponitur hic pro opinione, haeresis est, non
+            quod explicite sit contra aliquem articulum, vel praecedens vel sequens ad ipsum; sed
+            implicite aliquid contrarium fidei continet: quia sequitur quod claves Ecclesiae non
+            sint necessariae ad salutem; et in talibus antequam determinetur per Ecclesiam quod ex
+            eis sequatur aliquid contrarium fidei, non judicatur haeresis esse; et sic Magister et
+            Gratianus hoc pro opinione ponunt. Sed nunc post determinationem Ecclesiae sub
+            Innocentio III factam, haeresis reputanda est. <quote xml:id="ta-l4d17q3-Qd1e1101">Revela viam tuam ante
+              dominum</quote>. Hic non loquitur de revelatione sacramentali, sed de revelatione quae
+            fit in supplicatione orationis. <quote xml:id="ta-l4d17q3-Qd1e1104">Non dico ut confitearis ea conservo tuo, ut tibi
+              exprobret. Dicito Deo, qui curat ea</quote>. Qui enim confitetur sacerdoti etc. non
+            confitetur ei ut conservo, sed ut Deo. <quote xml:id="ta-l4d17q3-Qd1e1107">In se voluntariae excommunicationis ferunt
+              sententiam</quote>: non quod aliquis seipsum excommunicare possit, sed excommunicatio
+            hic large ponitur pro voluntaria cohibitione, qua aliquis se subtrahit a sacris ex
+            humilitate. <quote xml:id="ta-l4d17q3-Qd1e1110">Justitia enim sola damnat</quote>. Haec loquitur Augustinus ex
+            hypothesi, idest si Deus tantum justitia uteretur contra nos sine misericordia: quia ad
+            gratiam ipsius post peccatum sine misericordia redire non possemus. <quote xml:id="ta-l4d17q3-Qd1e1113">Quanto
+              pluribus confitetur</quote>: non dividens peccata, sed integre omnibus. Consequitur
+            autem majorem veniam saltem propter erubescentiam et sacerdotis intercessionem; vel
+            etiam ex vi clavium, ut quidam dicunt. Sed de hoc in propinqua dist. dicetur. <quote xml:id="ta-l4d17q3-Qd1e1116">Qui
+              sciat ligare et solvere</quote>. Haec scientia, etsi non sit major, tamen tanta debet
+            esse ut sciat distinguere inter peccatum et non peccatum, et peccatum mortale et
+            veniale; et si in aliquo esset dubitatio, posset ad discretiores recurrere. Ponuntur
+            autem multae conditiones aliae, quae ad confessorem requiruntur, ut confitentes
+            alliciat, quae his versibus continentur: <quote xml:id="ta-l4d17q3-Qd1e1120">confessor dulcis, affabilis, atque
+              suavis. Prudens, discretus, mitis, plus, atque benignus. Non petat sacerdotes per
+              aliquam culpam ab Ecclesiae unitate divisos</quote>: quia tales executionem ordinis
+            non habent, et jurisdictione carent; et loquitur de divisione per haeresim, aut schisma,
+            aut excommunicationem.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

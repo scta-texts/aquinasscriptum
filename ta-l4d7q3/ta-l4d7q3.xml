@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 7, Quaestio 3</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Librum IV, Distinctio 7, Quaestio 3</title>
+          <date when="2016-03-18">March 18, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-18">March 18, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness>1856 editum</witness>
+          <witness xml:id="G" n="ghent567">Ghent, Belgium, Ghent University Library, 567</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="0.0.0-dev">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+
+
+
+
+      <div xml:id="starts-on">
+        <cb ed="#G" n="101b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ta-l4d7q3">
+        <head xml:id="ta-l4d7q3-Hd1e97">Librum IV, Distinctio 7, Quaestio 3</head>
+        <div xml:id="ta-l4d7q3-Dd1e100">
+          <head xml:id="ta-l4d7q3-Hd1e102">Prooemium</head>
+          <p xml:id="ta-l4d7q3-d1e105">Deinde quaeritur de celebratione hujus sacramenti; et circa hoc quaeruntur tria: 1 quis
+            possit conferre hoc sacramentum; 2 quis debeat recipere; 3 de ritu et modo
+            recipiendi.</p>
+        </div>
+        <div xml:id="ta-l4d7q3-Dd1e109" type="articulus">
+          <head xml:id="ta-l4d7q3-Hd1e111">Articulus 1</head>
+
+          <head xml:id="ta-l4d7q3-Hd1e114" type="questionTitle">Utrum quilibet non ordinatus possit alium confirmare</head>
+          <div xml:id="ta-l4d7q3-Dd1e117">
+            <head xml:id="ta-l4d7q3-Hd1e119">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d7q3-d1e122">Ad primum sic proceditur. Videtur quod quilibet non ordinatus possit alium
+              confirmare. Efficacia enim sacramentorum est a virtute verborum. Sed quilibet, etiam
+              non ordinatus, potest verba proferre quae sunt forma hujus sacramenti. Ergo non
+              ordinatus potest confirmare.</p>
+            <p xml:id="ta-l4d7q3-d1e125">Praeterea, unumquodque potest agere secundum formam quam habet: quia unumquodque agit
+              secundum quod est actu. Sed aliquis non ordinatus habet characterem confirmationis.
+              Ergo potest confirmare.</p>
+            <p xml:id="ta-l4d7q3-d1e128">Praeterea, quanto aliquod sacramentum est majoris necessitatis, tanto indiget majori
+              discretione et attentione in ministrando. Sed Baptismus est sacramentum necessitatis.
+              Ergo cum illud quod requirit majorem discretionem debeat majoribus committi, videtur
+              quod ex quo non ordinatus potest baptizare, etiam possit confirmare.</p>
+            <p xml:id="ta-l4d7q3-d1e131">Sed contra est quod Hugo de s. Victore dicit, quod administratio Ecclesiae consistit
+              in ordinibus ministrorum, et sacramentis. Ergo sicut sine sacramento non potest quis
+              confirmari, ita nec sine ordine confirmantis.</p>
+            <p xml:id="ta-l4d7q3-d1e135">Praeterea, unctio confirmationis est dignior quam extremae unctionis. Sed illa non
+              potest fieri nisi ab ordinatis, ut patet Jacob. ult. Ergo nec ista.</p>
+          </div>
+          <div xml:id="ta-l4d7q3-Dd1e139">
+            <head xml:id="ta-l4d7q3-Hd1e141">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d7q3-d1e144">Ulterius. Videtur quod sacerdos simplex, etiam si non sit episcopus, possit
+              confirmare. Baptismus enim quantum ad aliquid est majoris efficaciae quam confirmatio.
+              Sed sacerdos ex suo officio potest baptizare. Ergo et confirmare.</p>
+            <p xml:id="ta-l4d7q3-d1e147">Praeterea, sicut confirmationis sacramentum ad perfectionem pertinet, ita et
+              Eucharistiae, secundum Dionysium. Sed sacerdos est proprius minister sacramenti
+              Eucharistiae. Ergo ipse potest confirmare.</p>
+            <p xml:id="ta-l4d7q3-d1e150">Praeterea, in sacramentis ex parte conferentis requiritur ordo et intentio. Sed
+              episcopus non habet aliquem ordinem vel characterem quem non habeat simplex sacerdos.
+              Ergo sicut episcopus, ita et sacerdos potest confirmare, si intentionem confirmandi
+              habeat.</p>
+            <p xml:id="ta-l4d7q3-d1e153">Sed contra, soli episcopi in loco apostolorum succedunt. Sed soli apostoli in
+              primitiva Ecclesia manus imponebant, quod erat confirmare. Ergo soli episcopi nunc
+              possunt confirmare.</p>
+            <p xml:id="ta-l4d7q3-d1e157">Praeterea, in ordine ecclesiasticae hierarchiae, secundum Dionysium, soli episcopi
+              sunt perfectores. Sed, secundum eumdem, sicut aliquis per exorcismum purgatur, et per
+              Baptismum illuminatur, ita per confirmationem chrismatis perficitur. Ergo soli
+              episcopi possunt confirmare.</p>
+          </div>
+          <div xml:id="ta-l4d7q3-Dd1e161">
+            <head xml:id="ta-l4d7q3-Hd1e163">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d7q3-d1e166">Ulterius. Videtur quod sacerdos simplex ex commissione Papae non possit confirmare.
+              Sicut enim se habet hoc quod est sacerdotis ad sacerdotem, ita quod est episcopi ad
+              episcopum. Sed nullus non sacerdos potest propter Papae commissionem Eucharistiam
+              conficere, quod est sacerdotum. Ergo similiter ex commissione Papae nullus potest non
+              episcopus confirmare, quod est episcopi.</p>
+            <p xml:id="ta-l4d7q3-d1e169">Praeterea, sicut conferre sacerdotalem ordinem est episcopi, ita et confirmare. Sed
+              nullus non episcopus ex mandato Papae posset aliquem in sacerdotem promovere. Ergo
+              nullus ex Papae mandato, qui non sit episcopus, potest praebere confirmationis
+              sacramentum.</p>
+            <p xml:id="ta-l4d7q3-d1e172">Praeterea, quicumque potest ex mandato vel ex commissione alicujus baptizare, si sine
+              commissione baptizat eum qui non est sibi subditus, extra casum necessitatis,
+              baptizatus est, quamvis peccet. Sed si sacerdos sine commissione alicujus confirmet,
+              non est confirmatum. Ergo non potest ex commissione Papae confirmare.</p>
+            <p xml:id="ta-l4d7q3-d1e175">Sed contra est quod in littera dicitur, quod Gregorius in casu permisit quod
+              simplices sacerdotes possent confirmare.</p>
+            <p xml:id="ta-l4d7q3-d1e179">Praeterea, majus est ordinem conferre quam confirmare. Sed ex mandato Papae aliqui
+              non episcopi conferunt quosdam ordines; sicut sunt presbyteri cardinales, qui
+              conferunt minores ordines. Ergo multo fortius ex mandato Papae potest aliquis simplex
+              sacerdos confirmare.</p>
+          </div>
+          <div xml:id="ta-l4d7q3-Dd1e184">
+            <head xml:id="ta-l4d7q3-Hd1e186">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d7q3-d1e189">Respondeo dicendum ad primam quaestionem, quod proprii dispensatores sacramentorum
+              sunt ministri Ecclesiae per sacramentum ordinis consecrati, ut sint medii inter Deum
+              et plebem, divina populo tradentes; et ideo solis eis competit ex officio sacramenta
+              ministrare, nec per alium conferri possunt, excepto Baptismo propter necessitatem.
+              Unde cum confirmatio non sit sacramentum necessitatis, non poterit nisi ab ordinatis
+              conferri.</p>
+            <p xml:id="ta-l4d7q3-d1e192">Ad primum ergo dicendum, quod efficacia sacramenti non tantum est ex verbis prolatis,
+              sed etiam ex materia debita, et persona conveniente; et ideo, si sit defectus in
+              persona ministri, verba prolata ab alio non possunt efficaciam sacramento
+              praebere.</p>
+            <p xml:id="ta-l4d7q3-d1e195">Ad secundum dicendum, quod perfectio personalis hujus vel illius nihil facit ad
+              collationem sacramentorum: quod patet ex hoc quod sacramenta conferuntur a bonis
+              ministris et malis; sed exigitur perfectio hujus inquantum est minister Ecclesiae,
+              sicut in naturalibus ad hoc quod forma se in alteram materiam transfundat per sui
+              similitudinem, requiritur qualitas activa. Et quia per confirmationis sacramentum non
+              efficitur aliquis minister Ecclesiae, quamvis quamdam naturalem perfectionem
+              consequatur, ideo non oportet quod quilibet confirmatus confirmare possit.</p>
+            <p xml:id="ta-l4d7q3-d1e198">Ad tertium dicendum, quod omnia sacramenta indigent aequaliter intentione; sed illa
+              quae omnibus sunt conferenda, non indigent discretione, qua unus repellatur, et alius
+              admittatur: quia a sacramentis necessitatis nullus debet excludi; et ideo cuilibet
+              etiam sacerdoti committitur illa sacramenta conferre, non autem illa quibus aliquis ad
+              statum perfectionis promovetur.</p>
+          </div>
+          <div xml:id="ta-l4d7q3-Dd1e202">
+            <head xml:id="ta-l4d7q3-Hd1e204">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d7q3-d1e207">Ad secundam quaestionem dicendum, quod in omnibus artibus et potentiis ordinatis, vel
+              habitibus, ita est quod ultima perfectio reservatur inducenda per supremam artem in
+              genere illo; sicut artes quae operantur circa materiam navis, reservant inductionem
+              formae arti superiori, quae navim compaginat; et illa reservat ulterius finem,
+              scilicet usum navis, arti superiori, scilicet gubernatoriae. Unde cum episcopi in
+              ecclesiastica hierarchia teneant supremum locum, illud quod est ultimum in actionibus
+              hierarchicis, eis reservandum fuit. Et quia perficere aliquem hoc modo quod sit supra
+              communem statum aliorum, est supremum in actionibus hierarchicis, ideo sacramentum
+              confirmationis et ordinis, quibus hoc efficitur, solis episcopis dispensanda
+              reservantur.</p>
+            <p xml:id="ta-l4d7q3-d1e210">Ad primum ergo dicendum, quod Baptismus, cum sit sacramentum necessitatis, communiter
+              omnibus competit; et ideo per ipsum non ponitur aliquis supra communem statum, sicut
+              fit per confirmationem, ut prius etiam dictum est.</p>
+            <p xml:id="ta-l4d7q3-d1e213">Ad secundum dicendum, quod Eucharistia, sicut confirmatio et ordo, est sacramentum
+              perficiens; sed in hoc differt ab aliis, quia in ordine et confirmatione illud quod
+              est ibi res et sacramentum, est aliquid in suscipiente acquisitum; et ideo
+              suscipientem haec sacramenta promovent ad perfectionem quamdam ultra communem statum
+              fidelium; sed Eucharistia habet illud quod est res et sacramentum, in se, non in
+              suscipiente; et ideo per sumptionem Eucharistiae non acquirit aliquis perfectionem
+              ultra communem statum, cum non imprimatur character; sed perficit unumquemque in suo
+              statu; et ideo etiam secundum Dionysium cuilibet sacramento Eucharistiae perceptio
+              adjungitur; et ideo non est simile de Eucharistia et de aliis.</p>
+            <p xml:id="ta-l4d7q3-d1e216">Ad tertium dicendum, quod quamvis episcopus non habeat aliquem ordinem supra
+              sacerdotem, secundum quod ordines distinguuntur per actus relatos ad corpus domini,
+              verumtamen habet aliquem ordinem supra sacerdotem, secundum quod ordines distinguuntur
+              per actus supra corpus mysticum. Unde Dionysius in Eccles. Hierarch., ponit
+              episcopatum ordinem; unde et cum quadam consecratione dignitas episcopalis confertur;
+              et ideo in promotione membrorum corporis mystici aliquid potest competere episcopo
+              quod non competit simplici sacerdoti.</p>
+          </div>
+          <div xml:id="ta-l4d7q3-Dd1e220">
+            <head xml:id="ta-l4d7q3-Hd1e222">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d7q3-d1e225">Ad tertiam quaestionem dicendum, quod circa hoc est multiplex opinio. Quidam enim
+              dicunt, quod presbyter simplex non possit ex mandato Papae confirmare; et quod dicitur
+              de Gregorio ad Januarium scribente, exponunt quod illi presbyteri ex mandato Papae non
+              conferebant sacramentum confirmationis, sed aliquod sacramentale simile illi
+              sacramento, sicut alicui porrigitur panis benedictus loco Eucharistiae. Sed non
+              videtur conveniens, ut talem simulationem in dispensatione sacramentorum induxisset
+              Gregorius, vel sustinuisset: quia dispensatio sacramentorum pertinet ad veritatem
+              doctrinae, quae non est propter scandalum dimittenda. Et ideo alii dicunt, quod
+              auctoritas Papae tanta est quod ejus mandato quilibet potest conferre quod habet, ut
+              confirmatus confirmare, sacerdos sacerdotium conferre, diaconus diaconatum; non autem
+              mandato ipsius potest aliquis conferre quod non habet, ut diaconus ordinem
+              sacerdotalem. Sed haec opinio videtur nimis ampla; et ideo media via secundum alios
+              tenenda est. Et ideo sciendum est, quod cum episcopatus non addat aliquid supra
+              sacerdotium per relationem ad corpus domini verum, sed solum per relationem ad corpus
+              mysticum, Papa per hoc quod est episcoporum summus, non dicitur habere plenitudinem
+              potestatis per relationem ad corpus domini verum, sed per relationem ad corpus
+              mysticum. Et quia gratia sacramentalis descendit in corpus mysticum a capite, ideo
+              omnis operatio in corpus mysticum sacramentalis, per quam gratia datur, dependet ab
+              operatione sacramentali super corpus domini verum; et ideo solus sacerdos potest
+              absolvere in foro poenitentiali, et baptizare ex officio. Et ideo dicendum, quod
+              promovere ad illas perfectiones quae non respiciunt corpus domini verum, sed solum
+              corpus mysticum, potest a Papa, qui habet plenitudinem pontificalis potestatis,
+              committi sacerdoti, qui habet actum summum super corpus domini verum; non autem
+              diacono, vel alicui inferiori, qui non habet perficere corpus domini verum, sicut nec
+              absolvere in foro poenitentiali. Non autem potest simplici sacerdoti committere
+              promovere ad perfectionem quae respicit aliquo modo corpus domini verum; et ideo
+              simplex sacerdos ex mandato Papae non potest conferre ordinem sacerdotii: quia ordines
+              sacri habent actum supra corpus domini verum, vel supra materiam ejus. Potest autem
+              concedere simplici sacerdoti quod conferat minores ordines, quia isti nullum actum
+              habent supra corpus domini verum, vel materiam ejus, nec etiam supra corpus mysticum
+              habent actum per quem gratia conferatur; sed habent ex officio quosdam actus
+              secundarios et praeparatorios; et similiter potest concedere alicui sacerdoti quod
+              confirmet: quia confirmatio perficit eum in actu corporis mystici, non autem habet
+              aliquam relationem ad corpus domini verum.</p>
+            <p xml:id="ta-l4d7q3-d1e228">Et per hoc de facili patet solutio ad objecta.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d7q3-Dd1e233" type="articulus">
+          <head xml:id="ta-l4d7q3-Hd1e235">Articulus 2</head>
+
+          <head xml:id="ta-l4d7q3-Hd1e238" type="questionTitle">Utrum Christus debuerit sacramentum confirmationis
+            accipere</head>
+          <div xml:id="ta-l4d7q3-Dd1e241">
+            <head xml:id="ta-l4d7q3-Hd1e243">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d7q3-d1e246">Ad secundum sic proceditur. Videtur quod Christus debuerit sacramentum confirmationis
+              accipere. Sacramentum enim confirmationis confert majorem plenitudinem gratiae quam
+              Baptismus. Sed Christus baptizari voluit, ut tactu mundissimae suae carnis efficaciam
+              Baptismo praeberet. Ergo similiter debuit confirmationem accipere.</p>
+            <p xml:id="ta-l4d7q3-d1e249">Praeterea, confirmatio ad hoc datur ut homo in confessione veritatis usque ad mortem
+              firmiter stet. Sed Christus dedit omnibus exemplum pro veritate moriendi. Ergo hoc
+              sacramentum maxime debuit accipere.</p>
+            <p xml:id="ta-l4d7q3-d1e252">Sed contra, confirmatur quod infirmum est. Sed infirmitas spiritualis in Christo non
+              fuit. Ergo nec confirmari debuit.</p>
+          </div>
+          <div xml:id="ta-l4d7q3-Dd1e256">
+            <head xml:id="ta-l4d7q3-Hd1e258">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d7q3-d1e261">Ulterius. Videtur quod hoc sacramentum pueris non sit conferendum. Quia hoc
+              sacramentum supra communem statum promovet, sicut et sacramentum ordinis. Sed illud
+              sacramentum non confertur pueris. Ergo nec istud.</p>
+            <p xml:id="ta-l4d7q3-d1e264">Praeterea, hoc sacramentum datur ad confitendum fidem, et ad pugnandum pro ipsa. Sed
+              hoc non competit pueris. Ergo non debent hoc sacramentum suscipere.</p>
+            <p xml:id="ta-l4d7q3-d1e267">Sed contra, gratia baptismalis est immediata dispositio ad gratiam confirmationis.
+              Sed Baptismus confertur pueris. Ergo confirmatio debet pueris dari.</p>
+          </div>
+          <div xml:id="ta-l4d7q3-Dd1e271">
+            <head xml:id="ta-l4d7q3-Hd1e273">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d7q3-d1e276">Ulterius. Videtur quod non debeat dari omnibus adultis. Illud enim quod omnibus
+              datur, non excedit communem statum, ut dictum est. Sed confirmatio ponit supra
+              communem statum, ut supra dictum est. Ergo non debet omnibus dari.</p>
+            <p xml:id="ta-l4d7q3-d1e279">Praeterea, hoc sacramentum est ad robur in pugna spirituali. Sed pugnare non est
+              mulierum propter imbecillitatem sexus. Ergo nec hoc sacramentum eis competit.</p>
+            <p xml:id="ta-l4d7q3-d1e282">Praeterea, confirmatio est sacramentum confessionis. Sed muti non possunt confiteri.
+              Ergo non debet eis dari hoc sacramentum.</p>
+            <p xml:id="ta-l4d7q3-d1e285">Praeterea, morientes a pugna hujus vitae subtrahuntur. Sed ad robur in pugna hujus
+              vitae datur confirmatio. Ergo non debet morientibus dari.</p>
+            <p xml:id="ta-l4d7q3-d1e289">Sed contra est quod dicit Hugo de s. Victore, quod omnino periculosum esset, si ab
+              hac vita sine confirmatione migrare contingeret. Ergo omnibus dandum est hoc
+              sacramentum.</p>
+            <p xml:id="ta-l4d7q3-d1e292">Praeterea, ad robur in hoc sacramento datur septiformis gratia spiritus sancti. Sed
+              haec omnibus est necessaria. Ergo et sacramentum confirmationis omnibus dari
+              competit.</p>
+          </div>
+          <div xml:id="ta-l4d7q3-Dd1e297">
+            <head xml:id="ta-l4d7q3-Hd1e299">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d7q3-d1e302">Respondeo dicendum ad primam quaestionem, quod suscipere Baptismum est in praecepto,
+              cum sit sacramentum necessitatis; et ideo dominus voluit baptizari, quamvis in
+              Baptismo nihil susciperet, sed magis contulerit ut forma obediendi mandatis omnibus
+              praeberetur per ipsum; et propter hoc dixit ad Baptismum veniens: <quote xml:id="ta-l4d7q3-Qd1e304" ana="#mt3_15">sic decet nos
+                implere omnem justitiam</quote>; Matth. 3, 15. Justitia enim consistit in obedientia
+              legis, ut philosophus dicit in 5 Ethic. Sed sacramentum confirmationis non est
+              necessitatis, sed utilitatis alicujus consequendae causa accipitur; et ideo cum
+              dominus non acceperit aliquid a sacramentis, non debuit sacramentum confirmationis
+              accipere, sicut nec sacramentum ordinis: quia potestas excellentiae in sacramentis, et
+              plenitudo spiritus sancti in ipso a sui conceptione fuit, et sic non oportebat nisi
+              quod in ipso erat innotescere; quod factum est per adventum columbae super ipsum.</p>
+            <p xml:id="ta-l4d7q3-d1e308">Et per hoc patet solutio ad objecta.</p>
+          </div>
+          <div xml:id="ta-l4d7q3-Dd1e312">
+            <head xml:id="ta-l4d7q3-Hd1e314">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d7q3-d1e317">Ad secundam quaestionem dicendum, quod perfectio quae confertur in ordine et
+              confirmatione, in hoc differunt, quod perfectio ordinis est ad aliquid dispensandum,
+              perfectio autem confirmationis est ad standum fortiter in seipso. Ad hoc autem quod
+              dispensatio alicujus rei detur alicui, requiritur idoneitas aliqua praeexistens in eo
+              qui dispensationem recipit propter periculum quod potest imminere ex prava
+              dispensatione; et ideo perfectio ordinis non confertur pueris. Sed perfectio qua quis
+              in seipso perficitur, non praeexigit aliam perfectionem, sed ipsa perfectione quis
+              idoneus redditur; nec ex hoc aliquod periculum imminere potest; et ideo confirmatio
+              potest puero tradi, et convenienter traditur: quia infantilis aetas non patitur
+              fictionem, qua effectus sacramenti in traditione impediatur; et ideo quamvis tunc non
+              competat ei confiteri vel pugnare, certum tamen est quod effectum sacramenti plene
+              recipit, per quem erit idoneus ad pugnam et confessionem ad perfectam aetatem veniens,
+              nisi gratiam acceptam per peccatum amittat.</p>
+            <p xml:id="ta-l4d7q3-d1e320">Et per hoc patet solutio ad objecta.</p>
+          </div>
+          <div xml:id="ta-l4d7q3-Dd1e324">
+            <head xml:id="ta-l4d7q3-Hd1e326">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d7q3-d1e329">Ad tertiam quaestionem dicendum, quod sicut dictum est, perfectio in confirmatione
+              collata non praeexigit aliam perfectionem, sed per eam quis in seipso perficitur, ut
+              sit idoneus ad pugnam spiritualem. Et quia cuilibet est conveniens et bonum, ut in
+              pugna spirituali fortitudinem habeat; ideo ab hoc sacramento nullus excludi debet qui
+              sit baptizatus.</p>
+            <p xml:id="ta-l4d7q3-d1e332">Ad primum ergo dicendum, quod non ponit supra communem statum quantum ad
+              dispensationem alicujus sacramenti, sed quantum ad confessionem sacramentorum; et haec
+              perfectio vel excellentia omnibus membris Ecclesiae competit per hoc sacramentum
+              confirmationis collata.</p>
+            <p xml:id="ta-l4d7q3-d1e335">Ad secundum dicendum, quod etiam quaedam mulieres in pugna spirituali gloriosum
+              reportaverunt ab hoste triumphum, sicut patet de beata Agnete, et beata Caecilia et
+              aliis; unde ab hoc sacramento mulieres non sunt excludendae.</p>
+            <p xml:id="ta-l4d7q3-d1e338">Ad tertium dicendum, quod quamvis muti non possint confiteri ore, possunt confiteri
+              nutibus, et possunt habere voluntatem et propositum confitendi; et ideo eis non debet
+              denegari hoc sacramentum.</p>
+            <p xml:id="ta-l4d7q3-d1e342">Ad quartum dicendum, quod quamvis morientes abstrahantur a pugna, tamen vadunt ad
+              locum praemii, in quo secundum mensuram gratiae datur mensura gloriae; et ideo
+              indigent plenitudine gratiae, quae in pugna perficit, propter finem pugnae
+              consequendum.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d7q3-Dd1e347" type="articulus">
+          <head xml:id="ta-l4d7q3-Hd1e349">Articulus 3</head>
+
+          <head xml:id="ta-l4d7q3-Hd1e352" type="questionTitle">Utrum exigatur quod aliquis teneat aliquem ad
+            confirmationem</head>
+          <div xml:id="ta-l4d7q3-Dd1e355">
+            <head xml:id="ta-l4d7q3-Hd1e357">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d7q3-d1e360">Ad tertium sic proceditur. Videtur quod non exigatur quod aliquis teneat aliquem ad
+              confirmationem. Ille enim qui habet immediatam relationem ad principem, sicut liberi,
+              non oportet quod mediantibus aliquibus coram principe compareat, sicut servi comparent
+              mediantibus dominis et filiifamilias mediantibus patribus. Sed confirmandus jam habet
+              immediatam relationem ad principem Ecclesiae, cum sit membrum Ecclesiae per Baptismum.
+              Ergo quamvis baptizatus per alium debeat praesentari, tamen confirmandus nullo modo
+              debet per alium ad confirmationem teneri, praecipue si sit adultus.</p>
+            <p xml:id="ta-l4d7q3-d1e363">Praeterea, fortitudo minus competit mulieribus quam viris. Prov. ultim. 10:
+                <quote xml:id="ta-l4d7q3-Qd1e365">mulierem fortem quis inveniet?</quote> Sed confirmatio est sacramentum
+              fortitudinis, quia in eo datur spiritus sanctus ad robur. Ergo ad minus mulier non
+              debet tenere virum ad confirmationem.</p>
+            <p xml:id="ta-l4d7q3-d1e369">Sed contra, videtur etiam quod non confirmatus possit tenere ad confirmationem. Quia
+              majus est sacramentum conferre quam ad sacramentum suscipiendum aliquem tenere. Sed
+              non confirmatus potest sacramentum Baptismi conferre. Ergo multo fortius potest ad
+              confirmationem tenere.</p>
+          </div>
+          <div xml:id="ta-l4d7q3-Dd1e373">
+            <head xml:id="ta-l4d7q3-Hd1e375">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d7q3-d1e378">Ulterius. Videtur quod non debeat fieri linitio chrismatis tantum in fronte. Quia
+              vertex est nobilior pars corporis quam frons, quia ibi est organum cogitativae, hic
+              autem organum phantasiae. Sed sacerdos, qui est inferior quam episcopus, ungit
+              baptizatos chrismate in vertice. Ergo episcopus non debet ungere chrismate
+              confirmandos in fronte.</p>
+            <p xml:id="ta-l4d7q3-d1e381">Praeterea, confirmatio est sacramentum confessionis. Sed confessio fit ore. Ergo
+              unctio confirmationis magis deberet in ore fieri.</p>
+            <p xml:id="ta-l4d7q3-d1e384">Praeterea, frons est locus nudus et patens. Sed hic de facili sordes contrahit. Cum
+              ergo chrisma sit servandum ab omni inquinamento, videtur quod non congrue fiat unctio
+              in fronte.</p>
+            <p xml:id="ta-l4d7q3-d1e387">Sed contra, in confirmatione datur spiritus sanctus ad robur. Sed robur in fronte
+              significatur, ut patet Ezech. 3, 8: <quote xml:id="ta-l4d7q3-Qd1e389">ecce dedi (...) frontem tuam duriorem
+                frontibus eorum</quote>. Ergo in fronte debet fieri unctio confirmationis.</p>
+            <p xml:id="ta-l4d7q3-d1e394">Praeterea, Apocal. 7, 3, Angelus dicit: <quote xml:id="ta-l4d7q3-Qd1e396">quoadusque signemus servos Dei vivi in
+                frontibus eorum</quote>. Sed episcopi dicuntur Angeli, ut patet Apoc. 3. Ergo eorum
+              est in fronte signare.</p>
+          </div>
+          <div xml:id="ta-l4d7q3-Dd1e401">
+            <head xml:id="ta-l4d7q3-Hd1e403">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d7q3-d1e406">Ulterius. Videtur quod confirmatio possit iterari. Sicut enim confirmatio datur ad
+              robur fidei, ita Eucharistia ad robur caritatis. Sed Eucharistia iteratur. Ergo et
+              confirmatio.</p>
+            <p xml:id="ta-l4d7q3-d1e409">Praeterea, si morbus iteratur, et medicina iterari debet. Sed morbus contra quem
+              datur hoc sacramentum, potest iterari, scilicet spiritualis infirmitas. Ergo et
+              sacramentum debet iterari.</p>
+            <p xml:id="ta-l4d7q3-d1e412">Sed contra, sicut in Baptismo imprimitur character, ita et in confirmatione. Sed
+              Baptismus non iteratur. Ergo nec confirmatio.</p>
+          </div>
+          <div xml:id="ta-l4d7q3-Dd1e417">
+            <head xml:id="ta-l4d7q3-Hd1e419">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d7q3-d1e422">Respondeo dicendum ad primam quaestionem, quod in sacramento confirmationis datur
+              spiritus sanctus ad robur. Unde propter hoc aliquis ad confirmationem accedit, quia se
+              habere robur standi non praesumit; et ideo institutum fuit ut ab altero teneatur, ad
+              significandum quod per se stare non posset.</p>
+            <p xml:id="ta-l4d7q3-d1e425">Ad primum ergo dicendum, quod ille qui est mediator in hoc sacramento, non habet
+              officium repraesentandi quasi extraneum, sicut est in Baptismo, neque suscipiendi
+              quasi instruendum: sed solum tenendi quasi infirmum.</p>
+            <p xml:id="ta-l4d7q3-d1e428">Ad secundum dicendum, quod fortitudo spiritualis est per Christum, in quo non est
+              masculus et femina, ut dicitur ad Galat. 3; et ita non differt utrum vir mulierem, vel
+              mulier virum teneat; quamvis quidam contrarium dicant, scilicet quod mulier virum
+              tenere non potest.</p>
+          </div>
+          <div xml:id="ta-l4d7q3-Dd1e432">
+            <head xml:id="ta-l4d7q3-Hd1e434">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d7q3-d1e437">Ad secundam quaestionem dicendum, quod homo potest impediri a libera et aperta
+              confessione nominis Christi propter duo; scilicet propter timorem mortis, et propter
+              confusionem, quae est timor ignominiae. Utriusque autem signum praecipue in facie
+              manifestatur: quia pallescunt timentes, et rubent verecundati, ut dicitur in 4 Ethic.,
+              et praecipue in fronte quae est pars magis aperta, et imaginationi, ex qua procedunt
+              passiones praedictae, vicina; et ideo cum confirmatio detur ad liberam confessionem
+              nominis Christi, convenienter unguntur confirmati in fronte.</p>
+            <p xml:id="ta-l4d7q3-d1e440">Ad primum ergo dicendum, quod unctio quae datur in vertice a sacerdote, significat
+              dignitatem regalem et sacerdotalem in baptizato, quia incipit esse de numero illorum
+              quibus dicitur: <quote xml:id="ta-l4d7q3-Qd1e442">vos estis gens sancta, regale sacerdotium</quote>, 1 Petr. 2,
+              9; et ideo in vertice fit ad signandum eminentiam dignitatis collatae. Sed unctio
+              confirmationis datur ad fortiter defendendam dignitatem acceptam, quod amplius est; et
+              ideo in loco publico dari debet.</p>
+            <p xml:id="ta-l4d7q3-d1e446">Ad secundum dicendum, quod non datur hoc sacramentum ad confessionem simpliciter, sed
+              ad libertatem confessionis; et ideo debet dari ubi apparent illae passiones quae
+              liberam confessionem impedire possunt.</p>
+            <p xml:id="ta-l4d7q3-d1e449">Ad tertium dicendum, quod ex hoc non est periculum: quia ligatur frons confirmati
+              quousque desiccetur locus; et postmodum etiam secundum Hugonem, debet esse sub quadam
+              disciplina custodiendi chrisma, ne scilicet caput lavet usque ad septem dies propter
+              septem dona spiritus sancti, sicut etiam Ecclesia septem diebus adventum spiritus
+              sancti in discipulos celebrat.</p>
+          </div>
+          <div xml:id="ta-l4d7q3-Dd1e453">
+            <head xml:id="ta-l4d7q3-Hd1e455">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d7q3-d1e458">Ad tertiam quaestionem dicendum, quod sacramentum quod habet effectum semper
+              permanentem, non potest iterari sine injuria sacramenti: et quia in confirmatione
+              imprimitur character, qui est indelebilis, ideo non debet iterari.</p>
+            <p xml:id="ta-l4d7q3-d1e461">Ad primum ergo dicendum, quod Eucharistia non imprimit characterem; nec illud quod
+              est res et sacramentum, est aliqua forma recepta in recipiente sacramentum, sicut est
+              in confirmatione; et ideo non est similis ratio.</p>
+            <p xml:id="ta-l4d7q3-d1e464">Ad secundum dicendum, quod confirmatio datur contra infirmitatem, prout est contracta
+              per originale peccatum; et sic non redit, quamvis infirmitas actualis peccati
+              redeat.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d7q3-Dd1e470">
+          <head xml:id="ta-l4d7q3-Hd1e472">Expositio textus</head>
+          <p xml:id="ta-l4d7q3-d1e475"><quote xml:id="ta-l4d7q3-Qd1e476">Donatio spiritus sancti ad robur</quote>. Contra. Panis cor hominis confirmat;
+            Psalm. 103. Ergo magis pertinet ad Eucharistiam quam ad confirmationem. Et dicendum,
+            quod per Eucharistiam roboratur caritas, per hoc autem sacramentum fides: in his enim
+            duabus virtutibus tota virtus spiritualis aedificii consistit. Vel dicendum quod caritas
+            perficit et roborat ad standum in seipso per modum cibi, sed confirmatio ad pugnam quam
+            quis ab aliis patitur in confessione nominis Christi contra adversarios audaciam
+            praebens. <quote xml:id="ta-l4d7q3-Qd1e479">Hoc sacramentum tantum a jejunis accipi et jejunis tradi debet</quote>.
+            Propter eminentiam spiritus sancti, qui cum sua plenitudine in hoc sacramento dat
+            robur.</p>
+        </div>
+
+      </div>
+    </body>
+  </text>
+</TEI>

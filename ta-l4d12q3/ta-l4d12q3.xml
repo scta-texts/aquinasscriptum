@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 12, Quaestio 3</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Librum IV, Distinctio 12, Quaestio 3</title>
+          <date when="2016-03-19">March 19, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-19">March 19, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness>1856 editum</witness>
+          <witness xml:id="G" n="ghent567">Ghent, Belgium, Ghent University Library, 567</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="0.0.0-dev">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+
+
+
+
+      <div xml:id="starts-on">
+        <cb ed="#G" n="190b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ta-l4d12q3">
+        <head xml:id="ta-l4d12q3-Hd1e97">Librum IV, Distinctio 12, Quaestio 3</head>
+        <div xml:id="ta-l4d12q3-Dd1e100">
+          <head xml:id="ta-l4d12q3-Hd1e102">Prooemium</head>
+          <p xml:id="ta-l4d12q3-d1e105">Deinde quaeritur de frequentatione hujus sacramenti; et circa hoc quaeruntur duo: 1 de
+            frequentatione; 2 de cessatione.</p>
+        </div>
+        <div xml:id="ta-l4d12q3-Dd1e109" type="articulus">
+          <head xml:id="ta-l4d12q3-Hd1e111">Articulus 1</head>
+
+          <head xml:id="ta-l4d12q3-Hd1e114" type="questionTitle">Utrum debeat homo frequentare hoc sacramentum, vel semel tantum
+            in vita sua sumere</head>
+          <div xml:id="ta-l4d12q3-Dd1e117">
+            <head xml:id="ta-l4d12q3-Hd1e119">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d12q3-d1e122">Ad primum sic proceditur. Videtur quod non debeat homo frequentare hoc sacramentum,
+              sed semel tantum in vita sua sumere. Injuriam enim facit sacramento qui sacramentum
+              iterat. Sed rei digniori minus facienda est injuria. Cum ergo hoc sacramentum sit
+              dignius aliis quibusdam quae non iterantur, videtur quod non nisi semel accipi
+              debeat.</p>
+            <p xml:id="ta-l4d12q3-d1e125">Praeterea, apostolus probat, Hebr. 10, ex unitate hostiae vel passionis Christi,
+              unitatem Baptismi. Sed hoc sacramentum magis convenit cum passione Christi, inquantum
+              est hostia, quam Baptismus. Ergo cum Baptismus semel tantum percipiatur, et hoc
+              sacramentum semel tantum debet percipi.</p>
+            <p xml:id="ta-l4d12q3-d1e128">Sed contra, cum frequentatione mysterii crescit nostrae salutis effectus, ut in
+              collecta dicitur. Sed ad hoc debemus niti ut effectus salutis in nobis crescat. Ergo
+              debemus frequenter sumere.</p>
+          </div>
+          <div xml:id="ta-l4d12q3-Dd1e132">
+            <head xml:id="ta-l4d12q3-Hd1e134">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d12q3-d1e137">Ulterius. Videtur quod qualibet die. Ambrosius enim dicit: <quote xml:id="ta-l4d12q3-Qd1e139">iste panis
+                quotidianus est; accipe quotidie quod quotidie tibi prosit</quote>.</p>
+            <p xml:id="ta-l4d12q3-d1e143">Praeterea, isto sacramento excitatur fervor caritatis, qua homo Christo unitur. Sed
+              hoc expedit ut quotidie fiat. Ergo quotidie communicandum est.</p>
+            <p xml:id="ta-l4d12q3-d1e146">Sed contra est quod Augustinus dicit in Lib. de Eccl. Dogmat.: <quote xml:id="ta-l4d12q3-Qd1e148">quotidie
+                Eucharistiam sumere nec laudo nec vitupero</quote>. Ergo non est quotidie
+              communicandum.</p>
+          </div>
+          <div xml:id="ta-l4d12q3-Dd1e153">
+            <head xml:id="ta-l4d12q3-Hd1e155">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d12q3-d1e158">Ulterius. Videtur quod sit semel in anno communicandum tantum. Quia agnus paschalis
+              signum fuit hujus sacramenti. Sed sumebatur tantum semel in anno. Ergo et hoc
+              sacramentum debet semel in anno tantum percipi.</p>
+            <p xml:id="ta-l4d12q3-d1e161">Praeterea, hoc sacramentum est memoriale dominicae passionis. Sed passionem domini
+              commemorat Ecclesia semel in anno. Ergo tunc tantum debet esse tempus
+              communicandi.</p>
+            <p xml:id="ta-l4d12q3-d1e164">Sed contra est quod dicit Fabianus Papa: <quote xml:id="ta-l4d12q3-Qd1e166">et si non pluries, ter saltem in anno
+                communicent homines, scilicet in Pascha, Pentecoste, et natali domini</quote>.</p>
+          </div>
+          <div xml:id="ta-l4d12q3-Dd1e172">
+            <head xml:id="ta-l4d12q3-Hd1e174">Quaestiuncula 4</head>
+            <p xml:id="ta-l4d12q3-d1e177">Ulterius. Videtur quod homo possit una die pluries communicare. Quia majus est
+              celebrare quam communicare. Sed sacerdos potest una die celebrare pluries, si necesse
+              sit. Ergo et alius fidelis potest pluries communicare.</p>
+            <p xml:id="ta-l4d12q3-d1e180">Praeterea, quotiescumque aegritudo corporalis iteratur, extrema unctio potest
+              iterari. Sed Eucharistia ordinatur contra aegritudinem peccatorum venialium, quae uno
+              die pluries iterantur. Ergo una die potest homo pluries communicare.</p>
+            <p xml:id="ta-l4d12q3-d1e183">Sed contra est quod dicitur de Consecr., dist. 1: <quote xml:id="ta-l4d12q3-Qd1e185">sufficit sacerdoti semel in
+                die Missam celebrare; quia Christus semel passus est, et totum mundum
+                redemit</quote>. Ergo etiam semel tantum in die debet quis communicare.</p>
+          </div>
+          <div xml:id="ta-l4d12q3-Dd1e190">
+            <head xml:id="ta-l4d12q3-Hd1e192">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d12q3-d1e195">Respondeo dicendum ad primam quaestionem, quod ea quae in hoc sacramento geruntur,
+              habent similitudinem cum his quae accidunt in corporali nutrimento. Quia enim fit
+              quasi continua deperditio naturalis humiditatis per actionem caloris naturalis et
+              exercitium laboris, ideo oportet frequenter corporalem cibum assumere ad
+              restaurationem deperditi, ne perditio continua mortem inducat. Similiter etiam ex
+              concupiscentia innata et occupatione circa exteriora fit deperditio devotionis et
+              fervoris, secundum quae homo in Deum colligitur; unde oportet quod pluries deperdita
+              restaurentur, ne homo totaliter alienetur a Deo.</p>
+            <p xml:id="ta-l4d12q3-d1e198">Ad primum ergo dicendum, quod perfectio hujus sacramenti, ut dictum est, dist. 8, qu.
+              1, art. 1, quaestiunc. 1, consistit in consecratione materiae, non in usu ipsius; et
+              ideo consecratio non repetitur super eamdem materiam propter reverentiam sacramenti,
+              sed usus potest repeti.</p>
+            <p xml:id="ta-l4d12q3-d1e201">Ad secundum dicendum, quod Baptismus repraesentat illam hostiam, secundum quod facit
+              in nobis spiritualem vitam; et quia generatio uniuscujusque non est nisi semel, ideo
+              Baptismus non repetitur. Sed Eucharistia repraesentat illam hostiam secundum quod
+              reficit; et ideo oportet quod frequenter sumatur.</p>
+          </div>
+          <div xml:id="ta-l4d12q3-Dd1e205">
+            <head xml:id="ta-l4d12q3-Hd1e207">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d12q3-d1e210">Ad secundam quaestionem dicendum, quod in hoc sacramento duo requiruntur ex parte
+              recipientis; scilicet desiderium conjunctionis ad Christum, quod facit amor; et
+              reverentia sacramenti, quae ad donum timoris pertinet. Primum autem incitat ad
+              frequentationem hujus sacramenti quotidianam, sed secundum retrahit. Unde si aliquis
+              experimentaliter cognosceret ex quotidiana sumptione fervorem amoris augeri, et
+              reverentiam non minui, talis deberet quotidie communicare; si autem sentiret per
+              quotidianam frequentationem reverentiam minui, et fervorem non multum augeri, talis
+              deberet interdum abstinere, ut cum majori reverentia et devotione postmodum accederet.
+              Unde quantum ad hoc unusquisque relinquendus est judicio suo; et hoc est quod
+              Augustinus dicit: <quote xml:id="ta-l4d12q3-Qd1e212">si dixerit quispiam, non quotidie accipiendam esse
+                Eucharistiam, alius affirmet quotidie sumendam; faciat unusquisque quod secundum
+                fidem suam pie credit esse faciendum</quote>; et probat per exemplum Zachaei et
+              centurionis; quorum unus recipit dominum gaudens, Luc. 19, alius dicit Matth. 8, 8:
+                <quote xml:id="ta-l4d12q3-Qd1e215" ana="#mt8_8">non sum dignus ut intres sub tectum meum</quote>; et uterque misericordiam
+              consecutus est.</p>
+            <p xml:id="ta-l4d12q3-d1e219">Et per hoc patet solutio ad objecta.</p>
+          </div>
+          <div xml:id="ta-l4d12q3-Dd1e223">
+            <head xml:id="ta-l4d12q3-Hd1e225">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d12q3-d1e228">Ad tertiam quaestionem dicendum, quod secundum diversos status fidei diversus mos de
+              hoc inolevit. Nam in primitiva Ecclesia, quando vigebat devotio major ex propinquitate
+              passionis Christi, et erat major impugnatio ab infidelibus, quia haec mensa adversus
+              tribulationes Ecclesiae praeparatur, quotidie communicandum fidelibus indicebatur;
+              unde Callistus Papa dicit: <quote xml:id="ta-l4d12q3-Qd1e230">peracta consecratione omnes communicent, qui nolunt
+                ecclesiasticis carere liminibus. Sic enim apostoli statuerunt</quote>. Postmodum
+              indictum fuit ut saltem ter in anno communicarent, ut dictum est, propter solemnitatem
+              illorum dierum. Sed postmodum arctatum est, ut saltem semel in anno, scilicet in
+              Pascha, communicent; et ad hoc etiam multi idonei non inveniuntur. Et quamvis statutum
+              Ecclesiae non liceat praeterire, tamen licet pluries communicare. Unde Augustinus
+              laudat omnibus diebus dominicis communicandum esse; et ita pluries in anno potest
+              communicare quis.</p>
+            <p xml:id="ta-l4d12q3-d1e234">Ad primum ergo dicendum, quod agnus paschalis fuit figura hujus sacramenti ratione
+              passionis Christi, quae semel tantum facta est; et ideo semel tantum in anno
+              sumebatur: sed manna, quod fuit figura hujus sacramenti, inquantum hoc sacramentum est
+              cibus fidelium, quolibet die sumebatur.</p>
+            <p xml:id="ta-l4d12q3-d1e237">Ad secundum dicendum, quod Ecclesia tempore passionis recolit ipsam passionem
+              secundum se, et ideo semel in anno tantum recolit, sed in hoc sacramento recolitur
+              passio secundum quod per ipsam reficimur; et quia tali refectione pluries indigemus,
+              ideo pluries hoc modo recolitur dominica passio.</p>
+          </div>
+          <div xml:id="ta-l4d12q3-Dd1e241">
+            <head xml:id="ta-l4d12q3-Hd1e243">Quaestiuncula 4</head>
+            <p xml:id="ta-l4d12q3-d1e246">Ad quartam quaestionem dicendum, quod homo non debet pluries in una die communicare,
+              ut saltem quantum ad unam diem repraesentetur unitas dominicae passionis, et ut
+              quantum ad aliquid reverentia sacramento exhibeatur semel sumendo.</p>
+            <p xml:id="ta-l4d12q3-d1e249">Ad primum ergo dicendum, quod sacerdos est quasi persona publica, et ideo oportet
+              quod non solum pro se, sed etiam pro aliis celebret; et ideo necessitate cogente
+              potest pluries celebrare in die. Sed non est eadem ratio de illis qui non sumunt nisi
+              ratione sui.</p>
+            <p xml:id="ta-l4d12q3-d1e252">Ad secundum dicendum, quod sunt alia remedia quibus peccatum veniale expiari potest;
+              unde non oportet ut ad ea expianda homo pluries in die communicet.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d12q3-Dd1e257" type="articulus">
+          <head xml:id="ta-l4d12q3-Hd1e259">Articulus 2</head>
+
+          <head xml:id="ta-l4d12q3-Hd1e262" type="questionTitle">Utrum liceat omnino a communione cessare</head>
+          <div xml:id="ta-l4d12q3-Dd1e265">
+            <head xml:id="ta-l4d12q3-Hd1e267">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d12q3-d1e270">Ad secundum sic proceditur. Videtur quod liceat omnino a communione cessare. Quia
+              nullus tenetur nisi ad ea quae sunt necessitatis. Sed hoc sacramentum, ut supra, dist.
+              9, qu. 1, art. 1, quaest. 2, dictum est, non est necessitatis. Ergo aliquis potest
+              omnino a sacramenti sumptione cessare.</p>
+            <p xml:id="ta-l4d12q3-d1e273">Praeterea, quod fit ad reverentiam Dei, non est peccatum. Sed aliquis potest ex
+              reverentia sacramenti omnino cessare. Ergo si omnino cesset, non est peccatum.</p>
+            <p xml:id="ta-l4d12q3-d1e276">Praeterea, Augustinus dicit, quod de sumptione hujus sacramenti debet quilibet facere
+              quod pie credit faciendum esse. Ergo non peccat, si omnino cesset, et putat hoc esse
+              faciendum.</p>
+            <p xml:id="ta-l4d12q3-d1e279">Sed contra est quod Innocentius dicit: <quote xml:id="ta-l4d12q3-Qd1e281">cavendum est ne si nimium hujus
+                sacramenti sumptio differatur, mortis periculum incurratur</quote>. Ergo si omnino
+              cessatur, est mortiferum.</p>
+            <p xml:id="ta-l4d12q3-d1e286">Praeterea, statutum est Ecclesiae, ut saltem semel in anno fideles communicent. Ergo
+              qui omnino cessat, peccat.</p>
+          </div>
+          <div xml:id="ta-l4d12q3-Dd1e290">
+            <head xml:id="ta-l4d12q3-Hd1e292">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d12q3-d1e295">Ulterius. Videtur quod ille qui consecrat, possit a communione cessare. Quia ubi est
+              major necessitas, ibi secundum ordinem debitum caritatis est magis subveniendum. Sed
+              potest contingere quod postquam sacerdos consecraverit, aliquis infirmetur ad mortem,
+              et instanter petat corpus Christi in ultima necessitate constitutus. Ergo cum sit hoc
+              sacramentum caritatis, debet sacerdos ipse a communione desistere, et infirmo
+              dare.</p>
+            <p xml:id="ta-l4d12q3-d1e298">Praeterea, gravius est peccatum peccato superaddere quam unum simplex peccatum
+              committere. Sed habens conscientiam peccati mortalis peccat consecrando, peccat etiam
+              communicando. Ergo ex quo consecravit, debet saltem a sumptione cessare.</p>
+            <p xml:id="ta-l4d12q3-d1e301">Praeterea, communicatio corporis domini et sanguinis aequaliter debetur omnibus
+              membris Christi. Sed aliis datur corpus Christi sine sanguine. Ergo sacerdos saltem a
+              sumptione sanguinis abstinere potest.</p>
+            <p xml:id="ta-l4d12q3-d1e304">Sed contra est quod dicitur de Consecr., dist. 2, cap. relatum, ubi reprobatur eorum
+              error qui volebant consecrare corpus Christi, et non sumere.</p>
+            <p xml:id="ta-l4d12q3-d1e308">Praeterea, hoc idem videtur ex verbis domini, quibus dixit hoc sacramentum
+              instituens: <quote xml:id="ta-l4d12q3-Qd1e310" ana="#mt26_26">accipite, et comedite</quote>; Matth. 26, 26.</p>
+          </div>
+          <div xml:id="ta-l4d12q3-Dd1e315">
+            <head xml:id="ta-l4d12q3-Hd1e317">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d12q3-d1e320">Ulterius. Videtur quod laudabilius sit abstinere ab hoc sacramento quam accedere.
+              Quia ad Deum maxime per humilitatem appropinquamus. Sed quod homo ex reverentia
+              sacramenti a communione desistit, humilitatis est. Ergo hoc videtur magis meritorium
+              et fructuosum, quam etiam sumere.</p>
+            <p xml:id="ta-l4d12q3-d1e323">Praeterea, caritatis verae est magis Dei gloriam quam commodum proprium quaerere. Sed
+              iste qui abstinet, videtur propter gloriam Dei facere quam reveretur; qui autem sumit,
+              propter proprium commodum facere, quia fructum sacrum quaerit. Ergo illud est
+              perfectioris caritatis, et ita magis meritorium.</p>
+            <p xml:id="ta-l4d12q3-d1e326">Sed contra, in aliis sacramentis ei cui licet sacramentum accipere, melius est
+              accipere quam desistere. Sed hoc sacramentum dignius est aliis. Ergo multo melius est
+              homini parato accipere quam ex reverentia desistere.</p>
+          </div>
+          <div xml:id="ta-l4d12q3-Dd1e331">
+            <head xml:id="ta-l4d12q3-Hd1e333">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d12q3-d1e336">Respondeo dicendum ad primam quaestionem, quod nulli licet omnino a communione
+              cessare: quia Ecclesia statuit tempus in quo fideles communicare debeant; unde qui
+              omnino desistunt, efficiuntur rei transgressionis praecepti. Institutio autem
+              Ecclesiae fuit necessaria: quia enim in quotidiana pugna sumus, vita spiritualis in
+              nobis evanesceret, nisi aliquando cibum vitae sumeremus.</p>
+            <p xml:id="ta-l4d12q3-d1e339">Ad primum ergo dicendum, quod hoc sacramentum de sui institutione prima, quamvis non
+              sit de necessitate salutis, tamen ex institutione Ecclesiae necessarium efficitur; et
+              sine hoc etiam necessarium esset non simpliciter, ut sine quo non esset salus, sed ex
+              suppositione finis; si scilicet homo in vita spirituali firmus persistere vellet.</p>
+            <p xml:id="ta-l4d12q3-d1e342">Ad secundum dicendum, quod reverentia debita Deo in hoc exhibetur quod homo non se
+              nimis divinis ingerat supra suum modum; sed quod homo omnino se subtrahat, hoc est
+              contemptus, et pusillanimitatis.</p>
+            <p xml:id="ta-l4d12q3-d1e345">Ad tertium dicendum, quod verbum Augustini referendum est ad hoc quod quotidie
+              sumatur, vel non; non autem ad hoc quod omnino quis desistat.</p>
+          </div>
+          <div xml:id="ta-l4d12q3-Dd1e349">
+            <head xml:id="ta-l4d12q3-Hd1e351">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d12q3-d1e354">Ad secundam quaestionem dicendum, quod semper ille qui consecrat, debet sumere corpus
+              et sanguinem Christi, nisi impediatur vel per violentiam, vel per mortem, vel per
+              infirmitatem, vel aliquid hujusmodi: cujus ratio potest sumi ex parte ipsius
+              sacramenti, quod in ipsa sumptione complementum suae significationis accipit: quia, ut
+              dicit Augustinus, dum sanguis in ore fidelium de calice funditur, sanguinis effusio de
+              latere Christi designatur: et etiam complementum suae efficaciae, quia ultimum
+              effectum proprium habet in hoc quod sumitur. Ut ergo sacramentum sit perfectum,
+              oportet illum qui sacramentum celebravit, communicare. Potest etiam sumi ratio ex
+              parte ipsius consecrantis: quia cum ipse sit aliis dispensator divinorum, debet primo
+              in participatione divinorum fieri, ut Dionysius dicit in 3 cap. Eccles. Hierar.</p>
+            <p xml:id="ta-l4d12q3-d1e357">Ad primum ergo dicendum, quod in tali casu non oportet quod sacerdos communionem
+              intermittat; sed potest dare infirmo petenti partem hostiae consecratae.</p>
+            <p xml:id="ta-l4d12q3-d1e360">Ad secundum dicendum, quod magis peccaret non sumendo, quia sacrilegium committeret
+              pervertens ritum sacramentorum. Nec tamen est perplexus; quia potest ad Deum converti,
+              et conteri: et tunc sine periculo in tali articulo sumet.</p>
+            <p xml:id="ta-l4d12q3-d1e363">Ad tertium dicendum, quod perfectio sacramenti hujus in utroque consistit, ut ex
+              supra dictis patet; et ideo sacerdos celebrans qui alterum tantum sumeret, imperfecte
+              sacramentum perageret; unde reus sacrilegii secundum canones judicatur, de Consec.,
+              dist. 2, cap. <quote xml:id="ta-l4d12q3-Qd1e365">comperimus</quote>. Secus est autem de aliis qui non perficiunt
+              sacramentum: quia eis subtrahitur sanguis propter effusionis periculum; unde et
+              sacerdos in parasceve, quando non consecrat, corpus sine sanguine sumit.</p>
+          </div>
+          <div xml:id="ta-l4d12q3-Dd1e370">
+            <head xml:id="ta-l4d12q3-Hd1e372">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d12q3-d1e375">Ad tertiam quaestionem dicendum, quod in his quae sunt ex genere suo bona, peccatum
+              non accidit, nisi ex aliquo accidente, dum inordinate explentur; et ideo ea perficere
+              per se bonum est; sed abstinere ab eis non est bonum nisi ratione accidentis alicujus.
+              Unde cum Eucharistiam accipere sit bonum ex genere, assumere eam est bonum per se,
+              abstinere est bonum per accidens, inquantum scilicet timetur ne inordinate sumatur. Et
+              quia quod est per se, praejudicat ei quod est per accidens; ideo simpliciter loquendo,
+              melius est Eucharistiam sumere quam ab ea abstinere; sed in casu aliquo nihil prohibet
+              esse melius abstinere, quando aliquis probabiliter praesumit ex sumptione reverentiam
+              minui. Si autem haec duo ad invicem comparemus, adhuc invenitur praevalere sumptio
+              sacramenti abstinentiae a sacramento, tum ratione effectus sacramenti, tum ratione
+              praeparationis, quantulacumque sit; tum etiam ratione virtutis elicientis actum: quia
+              sumere videtur esse caritatis, in qua radix meriti consistit; abstinere autem timoris:
+              amor autem timori praevalet.</p>
+            <p xml:id="ta-l4d12q3-d1e378">Ad primum ergo dicendum, quod caritas est quae Deo directe nos conjungit; sed
+              humilitas ad hanc unionem disponit, inquantum hominem Deo subdit; unde meritum magis
+              consistit in caritate quam in humilitate.</p>
+            <p xml:id="ta-l4d12q3-d1e381">Ad secundum dicendum, quod in hoc maxime est gloria Dei et bonitas, quod se creaturis
+              pro captu earum communicat; unde magis videtur ad Dei gloriam pertinere quod aliquis
+              ad communionem accedat quam quod abstineat.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d12q3-Dd1e386">
+          <head xml:id="ta-l4d12q3-Hd1e388">Expositio textus</head>
+          <p xml:id="ta-l4d12q3-d1e391"><quote xml:id="ta-l4d12q3-Qd1e392">Sicut et Christus se ostendit</quote> et cetera. Contra, veritatem non decet
+            aliqua fictio. Ergo non debuit eis aliud ostendere quam quod in ipso erat. Et ideo
+            dicendum, quod Christus eis speciem suam naturalem ostendit, et sensus exterior per eam
+            movebatur; sed propter dubitationem resurrectionis, sensus interioris judicium
+            impediebatur; unde eum talem inspiciebant exterius, ut Gregorius dicit qualis erat apud
+            eos interius; et ita non erat aliqua deceptio ex parte Christi, sicut non est aliqua
+            deceptio in sacra Scriptura ex hoc quod finguntur figurae Angelis et ipsi Deo; non enim
+            ad hoc fit ut in eis intellectus remaneat, sed ut ex his in significata eorum surgat; et
+            ita etiam per speciem illam in qua eis apparuit, voluit eis dominus interiorem eorum
+            dispositionem significare. <quote xml:id="ta-l4d12q3-Qd1e395">Qui confessus est coram Nicolao Papa</quote> et
+            cetera. Videtur ex hoc quod haec opinio omnino sit tenenda, quia in principio
+            confessionis hujus dicitur: <quote xml:id="ta-l4d12q3-Qd1e398">consentio Romanae Ecclesiae, et apostolicae
+              sedi</quote>. Ergo nulli licet aliter tenere. Et dicendum, quod quia Berengarius
+            negaverat verum corpus Christi in altari esse, coactus fuit hanc confessionem facere;
+            unde non intendit dicere, quod ipsum corpus Christi frangatur, sed quod sub speciebus,
+            in quibus est fractio, verum corpus Christi sit; et in hoc se dicit consentire
+            apostolicae sedi, a contrario errore reversus. <quote xml:id="ta-l4d12q3-Qd1e401">Manet integer in corde
+            tuo</quote>. Et intelligendum est quantum ad effectum; non quod corpus ejus menti
+            illabatur, quia hoc solius Dei est. <quote xml:id="ta-l4d12q3-Qd1e404">Non est pars corporis</quote> et cetera. De
+            hoc dictum est supra, dist. 10, qu. unic., art. 3, quaestiunc. 3. <quote xml:id="ta-l4d12q3-Qd1e407">Indignus est
+              qui aliter celebrat</quote>. Aliter celebrare dicitur qui non servat materiam vel
+            formam aut ritum debitum ab Ecclesia institutum; et debet talis, si ex contemptu faciat,
+            gradus sui periculo subjacere. <quote xml:id="ta-l4d12q3-Qd1e411">Etsi Christus quotidie immoletur, vel semel tantum
+              immolatus sit</quote>. Sciendum est, quod omnia illa verba quae important
+            comparationem Judaeorum ad Christum et poenam Christi, non dicuntur quotidie fieri. Non
+            enim dicimus quod Christus quotidie crucifigatur et occidatur; quia actus Judaeorum et
+            poena Christi transit. Illa autem quae important comparationem Christi ad Deum patrem,
+            dicuntur quotidie fieri, sicut offerre, sacrificare, et hujusmodi, eo quod hostia illa
+            perpetua est; et hoc modo est semel oblata per Christum, quod quotidie etiam per membra
+            ipsius offerri possit. <quote xml:id="ta-l4d12q3-Qd1e414">In sacramento recordatio illius fit quod factum est
+              semel</quote>. Sacerdos enim non solum verbis, sed etiam factis, Christi passionem
+            repraesentat. Unde et in principio canonis tres cruces facit super illud: <quote xml:id="ta-l4d12q3-Qd1e417">haec
+              dona, haec munera, haec sancta sacrificia illibata</quote>, ad significandum trinam
+            traditionem Christi, scilicet a Deo, Juda, et Judaeis. Secundo autem super illud:
+              <quote xml:id="ta-l4d12q3-Qd1e420">benedictam, adscriptam, ratam</quote> etc. facit tres communiter super
+            utrumque, ad ostendendum quod tribus Christus est venditus, scilicet sacerdotibus,
+            Scribis, et Pharisaeis. Duas autem facit divisim super corpus et sanguinem, ad
+            ostendendum venditorem et venditum. Tertio facit duas super illud: <quote xml:id="ta-l4d12q3-Qd1e423">benedixit et
+              fregit</quote>: unam super corpus, aliam super sanguinem, ad ostendendum quod hoc
+            sacramentum valet ad salutem corporis et animae. Et quia dominus hoc sacramentum in
+            mortis suae memoriam exercendum mandavit, ideo statim post consecrationem brachiorum
+            extensione crucis effigiem repraesentat. Unde etiam, ut Innocentius dicit, verba
+            consecrationis, quae in fine ponenda essent quasi complementum totius, in medio ponuntur
+            ad historiae ordinem observandum; quia verba canonis ad Eucharistiam consecrandam
+            principaliter pertinent, sed signa ad historiam recolendam. Quarto facit quinque cruces
+            super illud: <quote xml:id="ta-l4d12q3-Qd1e426">hostiam puram</quote> etc. ad repraesentandum quinque plagas. Quinto
+            facit duas super illud: <quote xml:id="ta-l4d12q3-Qd1e430">sacrosanctum filii tui corpus</quote> etc. ad signandum
+            vincula et flagella Christi. Et additur tertia, qua sacerdos seipsum signat super illud:
+              <quote xml:id="ta-l4d12q3-Qd1e433">omni benedictione</quote>; quia Christi vulnera, nostra sunt medicamenta. Vel
+            per has tres cruces significatur triplex oratio, qua Christus orasse legitur Matth. 26,
+            passione imminente. Sexto facit tres super illud: <quote xml:id="ta-l4d12q3-Qd1e436">sanctificas, vivificas,
+              benedicis</quote> etc. ad repraesentandum, quod Judaei ter dixerunt:
+              <quote xml:id="ta-l4d12q3-Qd1e439">crucifige</quote>, verbo crucifigentes Christum, quod fuit tertia hora. Septimo
+            iterum facit tres super illud: <quote xml:id="ta-l4d12q3-Qd1e442">per ipsum, et in ipso, et cum ipso</quote>, ad
+            repraesentandum secundam crucifixionem, qua a militibus hora sexta post trium horarum
+            spatium crucifixus est; vel ad repraesentandum tres ejus cruciatus, scilicet passionis,
+            propassionis, compassionis. Deinde facit duas extra calicem super illud: <quote xml:id="ta-l4d12q3-Qd1e445">est tibi
+              Deo patri omnipotenti in unitate spiritus sancti omnis honor et gloria</quote>, ad
+            repraesentandum separationem animae a corpore, quae facta est hora nona; vel propter
+            sanguinem et aquam, quae de latere Christi profluxerunt. Inclinationes etiam factae a
+            sacerdote, signant Christi obedientiam ad patrem, ex qua mortem sustinuit. Tacita etiam
+            locutio exprimit consilium Judaeorum mortem Christi machinantium, vel discipulorum, qui
+            palam Christum confiteri non audebant. Quid autem fractio significet, dictum est. Quia
+            autem commixtio corporis et sanguinis unionem animae et corporis significat; ideo illa
+            crucis signatio quae fit super illa verba: <quote xml:id="ta-l4d12q3-Qd1e449">pax domini sit semper
+            vobiscum</quote>, magis pertinet ad resurrectionem, quae virtute Trinitatis et tertia
+            die facta est. Quod autem quinquies se sacerdos ad populum convertit, significat quod
+            dominus die resurrectionis quinquies se manifestavit: primo Mariae Magdalenae, Joan.
+            ult. secundo Petro, Luc. ult. tertio mulieribus, Matth. ult. quarto discipulis in Emaus,
+            Lucae ultim. quinto discipulis in unum, Joan. ult. Salutat autem populum septies ad
+            septiformem gratiam spiritus sancti ostendendam sine quibus mortalis vita duci non
+            potest; quia etsi possumus vitare singula, non tamen omnia.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 7, Quaestio 2</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Librum IV, Distinctio 7, Quaestio 2</title>
+          <date when="2016-03-18">March 18, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-18">March 18, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness>1856 editum</witness>
+          <witness xml:id="G" n="ghent567">Ghent, Belgium, Ghent University Library, 567</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="0.0.0-dev">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+
+
+
+
+      <div xml:id="starts-on">
+        <cb ed="#G" n="97b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ta-l4d7q2">
+        <head xml:id="ta-l4d7q2-Hd1e97">Librum IV, Distinctio 7, Quaestio 2</head>
+        <div xml:id="ta-l4d7q2-Dd1e100">
+          <head xml:id="ta-l4d7q2-Hd1e102">Prooemium</head>
+          <p xml:id="ta-l4d7q2-d1e105">Deinde quaeritur de effectu confirmationis; et circa hoc quaeruntur duo: 1 de effectu
+            qui est res et sacramentum, scilicet character; 2 de effectu qui est res tantum,
+            scilicet gratia.</p>
+        </div>
+        <div xml:id="ta-l4d7q2-Dd1e109" type="articulus">
+          <head xml:id="ta-l4d7q2-Hd1e111">Articulus 1</head>
+
+          <head xml:id="ta-l4d7q2-Hd1e114" type="questionTitle">Utrum in sacramento confirmationis character imprimatur</head>
+          <div xml:id="ta-l4d7q2-Dd1e117">
+            <head xml:id="ta-l4d7q2-Hd1e119">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d7q2-d1e122">Ad primum sic proceditur. Videtur quod in confirmatione character non imprimatur.
+              Character enim, ut supra, dist. 4, quaest. 1 art. 1 in corp., dictum est, est signum
+              distinctivum. Sed pugna spiritualis omnibus indicitur. Cum ergo confirmationis
+              sacramentum detur ad roborandum in pugna spirituali, videtur quod in ipsa non fiat
+              aliqua distinctio alicujus ab altero per impressionem characteris.</p>
+            <p xml:id="ta-l4d7q2-d1e125">Praeterea, in veteri lege erat necessaria pugna spiritualis, sicut et in nova. Sed in
+              lege veteri non erat aliquod sacramentum characterem imprimens, ut supra dictum est.
+              Ergo nec confirmatio characterem imprimit.</p>
+            <p xml:id="ta-l4d7q2-d1e128">Praeterea, supra dictum est, quod character est spiritualis potestas. Sed spiritualis
+              potestas, scilicet percipiendi sacramenta alia, sufficienter traditur in Baptismo;
+              potestas autem activa, scilicet dispensandi sacramenta, ad ordinem pertinet. Cum ergo
+              confirmatus non constituatur in gradu alicujus ordinis vel dignitatis, videtur quod in
+              confirmatione character non imprimatur.</p>
+            <p xml:id="ta-l4d7q2-d1e131">Sed contra, character est signum conformans nos Trinitati. Sed sicut oportet nos
+              conformari in sapientia et potentia, ita et in bonitate. Cum ergo in Baptismo
+              imprimatur character fidei, conformans nos divinae sapientiae, et in ordine character
+              potestatis, conformans nos divinae potentiae; videtur quod in confirmatione imprimatur
+              character plenitudinis spiritus sancti, conformans nos divinae bonitati.</p>
+            <p xml:id="ta-l4d7q2-d1e135">Praeterea, per characterem quasi ascribimur ad familiam Jesu Christi. Sed Christus
+              sicut est pater noster et sacerdos, ita est et rex noster. Cum ergo per characterem
+              baptismalem ascribamur ei quasi patri filii regenerati per Baptismum, et per
+              characterem ordinis quasi ministri sacerdoti summo, videtur quod simili ratione in
+              confirmatione debeat imprimi character, quo conformemur ei quasi minister regi.</p>
+          </div>
+          <div xml:id="ta-l4d7q2-Dd1e139">
+            <head xml:id="ta-l4d7q2-Hd1e141">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d7q2-d1e144">Ulterius. Videtur quod idem sit character confirmationis per essentiam, et Baptismi.
+              Quia ad eamdem formam seu speciem non potest esse nisi una assimilatio. Sed in
+              Trinitate, ut Hilarius dicit, est species indifferens. Ergo cum character sit signum
+              assimilans Trinitati, videtur quod character confirmationis non possit esse alius a
+              charactere Baptismi.</p>
+            <p xml:id="ta-l4d7q2-d1e147">Praeterea, in corporibus ita est quod duo characteres non possunt esse in eadem
+              parte. Sed characteris subjectum est una pars animae, ut supra dictum est. Ergo post
+              primum characterem non potest alius character superaddi.</p>
+            <p xml:id="ta-l4d7q2-d1e150">Praeterea, ad ea quae se necessario consequuntur, aliquis eodem charactere
+              ascribitur; sicut idem character est in sacerdote ad confitendum et ad absolvendum.
+              Sed confessio fidei, cujus sacramentum est confirmatio, consequitur de necessitate ad
+              fidem, cujus sacramentum est Baptismus; quia <quote xml:id="ta-l4d7q2-Qd1e152" ana="#rom10_10">corde creditur ad justitiam, ore
+                confessio fit ad salutem</quote>; Rom. 10, 10. Ergo idem character est in Baptismo
+              et in confirmatione.</p>
+            <p xml:id="ta-l4d7q2-d1e156">Sed contra, character est proprius effectus sacramenti et immediatus. Sed diversarum
+              causarum proprii effectus sunt diversi. Cum ergo Baptismus et confirmatio sint diversa
+              sacramenta, et characteres impressi erunt diversi.</p>
+            <p xml:id="ta-l4d7q2-d1e160">Praeterea, ideo Baptismus iterari non potest, quia character est indelebilis. Si ergo
+              idem esset character Baptismi et confirmationis, post Baptismum confirmatio non
+              adderetur.</p>
+          </div>
+          <div xml:id="ta-l4d7q2-Dd1e164">
+            <head xml:id="ta-l4d7q2-Hd1e166">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d7q2-d1e169">Ulterius. Videtur quod character confirmationis non praesupponat characterem
+              baptismalem. Character enim confirmationis ad hoc datur quod homo fortiter Christum
+              confiteatur. Sed aliqui ante Baptismum fortiter Christum confessi sunt, ad martyrii
+              palmam pervenientes. Ergo ante Baptismum potest aliquis accipere characterem
+              confirmationis.</p>
+            <p xml:id="ta-l4d7q2-d1e172">Praeterea, character confirmationis est sacramentum et res. Sed homo etiam non
+              baptizatus potest percipere id quod est sacramentum et res in Eucharistia, scilicet
+              corpus domini verum; quamvis rem sacramenti non consequatur, inordinate accipiens;
+              nisi forte credat se baptizatum. Ergo et similiter characterem confirmationis consequi
+              potest non baptizatus.</p>
+            <p xml:id="ta-l4d7q2-d1e175">Praeterea, sicut Baptismus naturaliter praecedit confirmationem, ita unus ordo
+              naturaliter praecedit alium. Si autem aliquis accipit ordinis consequentis characterem
+              qui non accepit characterem praecedentis, tamen non reordinatur, sed quod defuerat
+              suppletur. Ergo et characterem confirmationis potest homo accipere sine charactere
+              baptismali.</p>
+            <p xml:id="ta-l4d7q2-d1e178">Sed contra est quod Dionysius dicit, quod nihil divinitus traditorum operari potest
+              qui non est regeneratus per Baptismum. Sed character confirmationis est hujusmodi;
+              ergo non potest aliquis characterem confirmationis percipere qui non est
+              baptizatus.</p>
+            <p xml:id="ta-l4d7q2-d1e182">Praeterea, Baptismus dicitur esse principium spiritualis vitae, secundum Dionysium,
+              et Damascenum. Sed remoto principio aufertur quod est post principium. Ergo qui non
+              est baptizatus, non potest characterem confirmationis accipere.</p>
+          </div>
+          <div xml:id="ta-l4d7q2-Dd1e187">
+            <head xml:id="ta-l4d7q2-Hd1e189">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d7q2-d1e192">Respondeo dicendum ad primam quaestionem, quod character est distinctivum signum, quo
+              quis ab aliis distinguitur ad aliquid spirituale deputatus. Sed ad spirituale potest
+              aliquis tripliciter deputari. Uno modo ut aliquis in se spiritualia participet; et ad
+              hoc quis deputatur in Baptismo, quia jam baptizatus potest esse particeps omnis
+              spiritualis receptionis; unde character baptismalis, ut supra dictum est, est quasi
+              quaedam spiritualis potentia passiva. Alio modo ut spiritualia quis in notitiam ducat
+              per eorum fortem confessionem; et ad hoc quis deputatur in confirmatione; unde etiam
+              tempore persecutionis eligebantur aliqui qui deberent in loco persecutionis remanere
+              ad publice nomen Christi confitendum, aliis occulte credentibus, sicut patet in
+              legenda beati Sebastiani. Tertio modo ut etiam spiritualia credentibus tradat; et ad
+              hoc deputatur aliquis per sacramentum ordinis. Et ideo sicut in Baptismo confertur
+              character et in ordine, ita et in confirmatione.</p>
+            <p xml:id="ta-l4d7q2-d1e195">Ad primum ergo dicendum, quod pugna spiritualis qua quis pugnat contra impedientes
+              salutem sui ipsius, omnibus indicitur; sed ad hoc non datur sacramentum
+              confirmationis, sed ad persistendum fortiter in pugna qua quis nomen Christi impugnat,
+              et ut invictus confessor Christi permaneat; et huic pugnae non omnes exponuntur, sed
+              solum confirmati.</p>
+            <p xml:id="ta-l4d7q2-d1e198">Ad secundum dicendum, quod in veteri lege non erat tempus <quote xml:id="ta-l4d7q2-Qd1e200">per stultitiam
+                praedicationis</quote> propagandi cultum Dei, sed magis per generationem carnalem;
+              et ideo tunc talis pugna de confessione fidei non multum erat necessaria. Nihilominus
+              tamen erat distinctio hujus characteris in veteri lege figurata, sicuti et aliorum. In
+              distinctione enim filiorum Israel ab Aegyptiis, significabatur character baptismalis;
+              in distinctione timidorum a fortibus in bellis, character confirmationis; in
+              distinctione Levitarum a fratribus suis, character ordinis.</p>
+            <p xml:id="ta-l4d7q2-d1e204">Ad tertium dicendum, quod potestas characteris hujus est potestas activa, non ad
+              conferendum spiritualia, quod est ordinis, sed magis ad confitendum publice; et ideo
+              confirmatus non constituitur in gradu alicujus ordinis, quia nullus ei subjicitur in
+              receptione divinorum ab ipso.</p>
+          </div>
+          <div xml:id="ta-l4d7q2-Dd1e208">
+            <head xml:id="ta-l4d7q2-Hd1e210">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d7q2-d1e213">Ad secundam quaestionem dicendum, quod quaelibet potentia de sui ratione importat
+              ordinem ad aliquid; et ideo oportet potentiam proportionatam esse actui ad quem est:
+              quia proprius actus non fit nisi in propria materia, secundum philosophum in 2 de
+              anima; et ideo oportet quod potentiae distinguantur per distinctionem actuum ad quos
+              ordinantur, sive sint potentiae activae, sive passivae; et quia character, ut supra
+              dictum est, dist. 4, quaest. 1, art. 1, in corp., est potentia spiritualis, ideo cum
+              character baptismalis non ad idem ordinetur cum charactere confirmationis, ut ex
+              dictis patet, planum est quod non est idem uterque character.</p>
+            <p xml:id="ta-l4d7q2-d1e216">Ad primum ergo dicendum, quod ad unam speciem seu formam, quam aliquid perfecte
+              repraesentat, non potest esse nisi una assimilatio; et ideo patris non est nisi una
+              perfecta imago, scilicet filius. Sed si non sit perfecta repraesentatio, tunc possunt
+              esse diversae assimilationes ad unum simplex; et ideo diversae creaturae diversimode
+              secundum suum modum divinam similitudinem habent; et propter hoc non est inconveniens,
+              si sint diversi characteres in anima, Trinitati secundum diversa conformantes.</p>
+            <p xml:id="ta-l4d7q2-d1e219">Ad secundum dicendum, quod character corporalis attenditur secundum figuram, quae
+              consistit in terminatione figurati. Et quia impossibile est esse diversas
+              terminationes unius rei, ideo impossibile est ut idem corpus secundum eamdem partem
+              diversimode figuretur aut characterizetur. Sed character spiritualis attenditur
+              secundum aliquam spiritualem proprietatem. Non est autem inconveniens diversas
+              proprietates non oppositas eisdem inesse secundum eamdem partem; et ideo in eadem
+              parte animae plures characteres esse possunt.</p>
+            <p xml:id="ta-l4d7q2-d1e222">Ad tertium dicendum, quod quamvis cujuslibet baptizati et credentis sit confiteri,
+              quando confessio ab eo expectatur; non tamen est cujuslibet se libere exponere, sed
+              tantum confirmati. Et hoc etiam patet in apostolis, in quibus hoc sacramentum initium
+              sumpsit: quia ante adventum spiritus sancti confirmantis eos erant clausae fores
+              coenaculi propter metum Judaeorum; postea repleti spiritu sancto coeperunt loqui cum
+              fiducia et publice verbum Dei, ut patet in actibus.</p>
+          </div>
+          <div xml:id="ta-l4d7q2-Dd1e226">
+            <head xml:id="ta-l4d7q2-Hd1e228">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d7q2-d1e231">Ad tertiam quaestionem dicendum, quod nihil potest participare actionem vel
+              proprietatem alicujus naturae nisi prius habeat subsistentiam in natura illa; unde cum
+              per Baptismum, qui est spiritualis regeneratio, homo acquirat subsistentiam in vita
+              spirituali Christianae religionis, non potest non baptizatus aliquid eorum quae ad
+              hanc spiritualem vitam pertinent, participare; et ideo non potest percipere
+              confirmationis characterem; et hanc rationem Dionysius assignat in 2 cap. Eccl.
+              Hier.</p>
+            <p xml:id="ta-l4d7q2-d1e234">Ad primum ergo dicendum, quod ad ea quae sunt necessitatis, homo admittitur, etiam si
+              hoc non competat ei ex officio; sicut patet quod etiam non habens ordinem in casu
+              necessitatis baptizare potest licite, quamvis hoc non competat sibi ex officio.
+              Similiter etiam quia confiteri nomen Christi, ubi confessio exquiritur, est
+              necessitatis, ideo etiam non baptizatis hoc competit, quamvis hoc non habeant ex
+              officio characteris in sacramento confirmationis suscepti.</p>
+            <p xml:id="ta-l4d7q2-d1e237">Ad secundum dicendum, quod in sacramento Eucharistiae illud quod est res et
+              sacramentum, est extra suscipientem; et ideo indispositio illius non impedit quin sit
+              illud quod est res et sacramentum, scilicet corpus Christi verum. Sed hoc quod est res
+              et sacramentum in confirmatione est aliqua forma in suscipiente recepta; et ideo
+              indispositio recipientis impedit impressionem characteris.</p>
+            <p xml:id="ta-l4d7q2-d1e240">Ad tertium dicendum, quod ordo potentiae passivae ad activam est ordo necessitatis:
+              quia qui non habet potentiam passivam ad aliquid recipiendum, nihil recipit nisi
+              miraculose: sed ordo potentiae inferioris activae ad superiorem est tantum ordo
+              congruitatis; et ideo carens baptismali charactere, qui est potentia passiva
+              recipiendi spiritualia, nihil potest recipere de aliis spiritualibus; carens autem
+              charactere inferioris ordinis, qui est potentia activa, potest recipere characterem
+              superioris ordinis.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d7q2-Dd1e245" type="articulus">
+          <head xml:id="ta-l4d7q2-Hd1e247">Articulus 2</head>
+
+          <head xml:id="ta-l4d7q2-Hd1e250" type="questionTitle">Utrum in confirmatione conferatur gratia gratum faciens</head>
+          <div xml:id="ta-l4d7q2-Dd1e253">
+            <head xml:id="ta-l4d7q2-Hd1e255">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d7q2-d1e258">Ad secundum sic proceditur. Videtur quod gratia gratum faciens, in confirmatione non
+              conferatur. Gratia enim gratum faciens ordinatur contra culpam, et non contra poenam.
+              Sed confirmatio ordinatur contra poenam, et non contra culpam; quia ille qui
+              confirmatur jam non est impius, per Baptismum justificatus. Ergo non recipit gratiam
+              gratum facientem.</p>
+            <p xml:id="ta-l4d7q2-d1e261">Praeterea, Baptismus non habet minus ordinem ad gratiam gratum facientem quam
+              confirmatio. Sed ille qui prius habuit gratiam, per Baptismum non accipit gratiam
+              gratum facientem. Ergo cum confirmatus jam habeat gratiam quam in Baptismo suscepit,
+              sicut patet in pueris, videtur quod in confirmatione gratia gratum faciens non
+              conferatur.</p>
+            <p xml:id="ta-l4d7q2-d1e264">Praeterea, ad id quod potest fieri in mortali peccato non requiritur gratia gratum
+              faciens. Sed aliqui in peccato mortali existentes possunt fortiter nomen Christi
+              confiteri. Ergo cum confirmatio sit sacramentum confessionis Christi, videtur quod non
+              detur ibi gratia gratum faciens.</p>
+            <p xml:id="ta-l4d7q2-d1e267">Sed contra, sacramentum novae legis efficit quod figurat. Sed per unctionem
+              chrismatis significatur unctio gratiae. Ergo in confirmatione gratia gratum faciens
+              confertur.</p>
+            <p xml:id="ta-l4d7q2-d1e271">Praeterea, in littera dicitur, quod ibi datur spiritus sanctus. Sed in primo libro,
+              dist. 16, qu. 1, art. 2, dictum est, quod missio spiritus sancti non est sine gratia
+              gratum faciente. Ergo in confirmatione datur gratia gratum faciens.</p>
+          </div>
+          <div xml:id="ta-l4d7q2-Dd1e275">
+            <head xml:id="ta-l4d7q2-Hd1e277">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d7q2-d1e280">Ulterius. Videtur, quod sit eadem cum gratia baptismali. Duo enim accidentia ejusdem
+              speciei non possunt esse in eodem simplici et indivisibili. Sed subjectum gratiae
+              gratum facientis est essentia animae, quae est una et simplex. Ergo in ea non possunt
+              esse diversae gratiae; et ideo cum gratia baptismalis sit ibi, gratia in confirmatione
+              data erit penitus idem.</p>
+            <p xml:id="ta-l4d7q2-d1e283">Praeterea, eadem est gratia quae est in virtutibus et donis. Sed per Baptismum
+              confertur gratia cum omnibus virtutibus, ut supra dictum est, dist. 1, qu. 1, art. 4,
+              quaestiunc. 5; in confirmatione autem datur gratia cum septiformi plenitudine spiritus
+              sancti, ut in littera dicitur, quod ad septem dona pertinet. Ergo eadem est gratia
+              quae datur in confirmatione et in Baptismo.</p>
+            <p xml:id="ta-l4d7q2-d1e286">Praeterea, major est distinctio virtutum quam gratiae. Sed ad eamdem virtutem
+              pertinet credere et confiteri, scilicet ad fidem. Ergo multo fortius pertinet ad
+              eamdem gratiam; ergo gratia baptismalis quae perficit ad credendum et gratia
+              confirmationis quae perficit ad confitendum, est eadem gratia.</p>
+            <p xml:id="ta-l4d7q2-d1e289">Sed contra, causae diversae inducunt diversos effectus. Sed aliud est sacramentum
+              exterius in Baptismo quam in confirmatione, et alius character interior, ut dictum
+              est, quae sunt causa gratiae. Ergo et alia est gratia utrobique.</p>
+            <p xml:id="ta-l4d7q2-d1e293">Praeterea, contra diversos morbos datur diversa medicina. Sed contra alium morbum
+              ordinatur confirmatio et Baptismus, ut supra, dist. 2, qu. 1, art. 1 in corp., dictum
+              est. Ergo alia est gratia quae in medicinam morbi in sacramento utroque datur.</p>
+          </div>
+          <div xml:id="ta-l4d7q2-Dd1e297">
+            <head xml:id="ta-l4d7q2-Hd1e299">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d7q2-d1e302">Ulterius. Videtur quod gratia confirmationis non perficiat gratiam baptismalem. Omnis
+              enim perfectio quae confirmationi ascribitur, ad dona vel virtutes pertinet; sicut
+              fortiter confiteri, et persistere, quod est fortitudinis virtutis vel doni. Sed in
+              Baptismo, ubi confertur gratia, conferuntur et virtutes et dona, quae in gratia
+              connexionem habent, ut dictum est supra, dist. 1, quaest. 1, art. 4, quaestiunc. 5.
+              Ergo gratia confirmationis non perficit gratiam baptismalem.</p>
+            <p xml:id="ta-l4d7q2-d1e305">Praeterea, ex eodem habitus operatur et perficitur, ut dicitur in 2 Ethic. Sed gratia
+              baptismalis per Baptismum acquiritur. Ergo non perficitur per confirmationem.</p>
+            <p xml:id="ta-l4d7q2-d1e308">Praeterea, in augmento fit idem ex eo quod auget et quod augetur. Sed gratia
+              baptismalis differt a gratia confirmationis. Ergo gratia confirmationis non perficit
+              gratiam baptismalem.</p>
+            <p xml:id="ta-l4d7q2-d1e311">Sed contra, secundum Dionysium, Baptismus est illuminatio, chrisma autem perfectio.
+              Sed perfectio consummat illuminationem sicut illuminatio purgationem. Ergo confirmatio
+              chrismatis consummat gratiam baptismalem.</p>
+            <p xml:id="ta-l4d7q2-d1e315">Praeterea, in omnibus perfectionibus ordinatis ad invicem ita est quod secunda
+              perficit primam. Sed confirmationis gratia superadditur ad gratiam baptismalem. Ergo
+              gratia confirmationis perficit gratiam baptismalem.</p>
+          </div>
+          <div xml:id="ta-l4d7q2-Dd1e320">
+            <head xml:id="ta-l4d7q2-Hd1e322">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d7q2-d1e325">Respondeo dicendum ad primam quaestionem, quod in quolibet sacramento est aliqua
+              sanctificatio. Sed quaedam est sanctificatio in sacramento quae est communis omnibus
+              sacramentis, scilicet emundatio a peccato vel a reliquiis peccati; et quaedam
+              sanctificatio quae est specialis quibusdam sacramentis imprimentibus characterem,
+              scilicet deputatio ad aliquid sacrum. Utraque autem sanctificatio gratiam gratum
+              facientem requirit: quia illud quod directe contrariatur peccato, est gratia;
+              contraria autem contrariis curantur. Unde idem remedium adhiberi non potest contra
+              peccatum et sequelas ejus, nisi per gratiam gratum facientem. Et ideo in omni
+              sacramento novae legis gratia gratum faciens confertur, ut dictum est supra, dist. 2,
+              qu. 1, art. 1, quaestiunc. 1 et 2. Similiter autem accessus ad sacra non est licitus
+              immundis, nec aliquis ab immunditia liberari potest nisi per gratiam, nec effici
+              idoneus ad sacra ministranda vel percipienda; et ideo oportet quod in sacramentis quae
+              characterem imprimunt, gratia gratum faciens imprimatur. Cum ergo confirmatio sit
+              sacramentum novae legis characterem imprimens, ex duplici parte necessarium est quod
+              gratiam gratum facientem conferat.</p>
+            <p xml:id="ta-l4d7q2-d1e328">Ad primum ergo dicendum, quod confirmatio ordinatur contra poenam quae est ex culpa
+              causata, et ad culpam inclinans; et ideo ex consequenti habet repugnantiam ad gratiam;
+              et propter hoc contra ipsam oportet quod gratia gratum faciens detur; et ideo si
+              invenit aliquam culpam quae fictum non faciat, delet illam, sicut patet de culpa
+              veniali; quamvis non principaliter contra culpam ordinetur.</p>
+            <p xml:id="ta-l4d7q2-d1e331">Ad secundum dicendum, quod Baptismus est sacramentum necessitatis; et ideo gratia
+              quae confertur in Baptismo, ordinatur in communem statum salutis, et non in aliquem
+              specialem effectum; et propter hoc per Baptismum ei qui habuit gratiam gratum
+              facientem, non additur alia gratia nova, sed illa quae prius inerat, augetur. Secus
+              autem est de confirmatione, quae non est sacramentum necessitatis; unde ejus gratia ad
+              aliquem specialem effectum ordinatur; et propter hoc gratia confirmationis potest addi
+              ad gratiam quae perficit in communi statu vitae.</p>
+            <p xml:id="ta-l4d7q2-d1e334">Ad tertium dicendum, quod quamvis aliquis possit constanter, etiam si sit in mortali
+              peccato, fidem Christi confiteri, non tamen est idonea illa confessio, quia <quote xml:id="ta-l4d7q2-Qd1e336">non
+                est speciosa laus in ore peccatoris</quote>, Eccli. 15, 9, nec iterum est meritoria
+              ad salutem. Sacramentum autem ordinatur non solum ad hoc quod aliquid fiat
+              qualitercumque, sed ad hoc quod aliquid idonee fiat, nisi sit defectus ex parte
+              recipientis sacramentum.</p>
+          </div>
+          <div xml:id="ta-l4d7q2-Dd1e341">
+            <head xml:id="ta-l4d7q2-Hd1e343">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d7q2-d1e346">Ad secundam quaestionem dicendum, quod, sicut supra dictum est, sacramentales gratiae
+              ad invicem distinctae sunt secundum distinctionem eorum ad quae ordinantur, sicut et
+              virtutes; quamvis earum distinctio non ita appareat sicut distinctio virtutum, quia
+              earum effectus non sunt ita manifesti sicut effectus virtutum. Ita etiam videmus in
+              virtutibus moralibus; quia ubi est specialis difficultas, requiritur specialis virtus;
+              unde alia est virtus quae dirigit in magnis sumptibus secundum magnificentiam, ab ea
+              quae in communibus donis et sumptibus perficit, scilicet liberalitate. Et quia gratia
+              baptismalis datur ad perficiendum in his quae pertinent ad communem statum vitae
+              Christianae, gratia autem confirmationis ad perficiendum in his quae sunt difficillima
+              in isto statu, scilicet confiteri nomen Christi contra persecutores; ideo speciali
+              gratia ad hoc indigetur; et propter hoc alia est gratia confirmationis a gratia
+              Baptismi, et contra alium defectum datur. Gratia enim Baptismi datur contra defectum
+              qui impedit omnem statum justitiae in vita Christiana, scilicet contra peccatum
+              originale et actuale; gratia autem confirmationis contra defectum oppositum robori
+              quod exigitur in confessoribus nominis Christi, scilicet contra infirmitatem.</p>
+            <p xml:id="ta-l4d7q2-d1e349">Ad primum ergo dicendum, quod gratia confirmationis et Baptismi non sunt ejusdem
+              speciei, ut dictum est, et ideo nihil prohibet quod in eodem indivisibili sint. Vel
+              dicendum, quod gratia baptismalis ex essentia animae derivatur in intellectum, quod
+              est ad recte et perfecte credendum; sed gratia confirmationis respicit magis
+              irascibilem, ad quam pertinet fortitudo et robur.</p>
+            <p xml:id="ta-l4d7q2-d1e352">Ad secundum dicendum, quod gratia sacramentalis, quae est principalis effectus
+              sacramenti, quamvis habeat connexionem cum gratia quae est in virtutibus et donis,
+              tamen est alia ab ea: quia gratia sacramentalis perficit removendo primo et
+              principaliter defectum ex peccato consequentem; sed gratia virtutum et donorum
+              perficit inclinando ad bonum virtutis et doni; sicut gratia confirmationis removendo
+              infirmitatis morbum; fortitudinis autem donum vel virtus inclinando ad bonum quod est
+              proprium virtuti vel dono. Et ideo quamvis in Baptismo dentur virtutes et dona, et
+              similiter in confirmatione, non oportet quod sit eadem gratia sacramentalis
+              utrobique.</p>
+            <p xml:id="ta-l4d7q2-d1e355">Ad tertium dicendum, quod confiteri ubi ex confessione imminet mortis periculum, non
+              est tantum fidei, sed indiget auxilio alterius virtutis, scilicet fortitudinis; et
+              similiter etiam indiget alia gratia sacramentali, quae removeat effectum oppositum
+              fortitudini.</p>
+          </div>
+          <div xml:id="ta-l4d7q2-Dd1e359">
+            <head xml:id="ta-l4d7q2-Hd1e361">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d7q2-d1e364">Ad tertiam quaestionem dicendum, quod, ut supra dictum est, dist. 1, quaest. 5, art.
+              4, quaestiunc. 5, sicut gratia gratum faciens, quae essentiam animae perficit, differt
+              a virtutibus et donis quae ab ipsa fluunt, ita etiam differt a gratia quae est
+              proprius effectus sacramentorum; tamen est ei connexa, sicut et connexionem habet ad
+              virtutes et dona; unde in sacramentis principaliter datur gratia sacramentalis, quae
+              differt in diversis sacramentis; et per consequens gratia virtutum et donorum, quae
+              est communis in omnibus sacramentis. Secundum hoc ergo gratia baptismalis potest dici
+              dupliciter. Uno modo illa quae est principalis et proprius effectus Baptismi, operans
+              contra morbum: alio modo gratia quae est effectus Baptismi ex consequenti, et per
+              quamdam connexionem: et similiter distinguendum est de gratia confirmationis.
+              Accipiendo ergo gratiam baptismalem et confirmationis primo modo, sic sunt diversae
+              gratiae; et ideo non perficit eam directe, quasi cedens in eamdem essentiam cum ipsa,
+              sed directe perficit ipsum baptizatum ad aliquid altius; et per consequens etiam ipsa
+              baptismalis gratia perfectius et nobilius esse habet, sicut et anima sensibilis est
+              perfectior adjuncta rationali, et virtus adjuncta dono, et liberalitas adjuncta
+              magnificentiae. Accipiendo autem gratiam baptismalem et confirmationis secundo modo,
+              sic directe auget eam, cedens in eamdem essentiam cum ipsa, sicut Baptismus directe
+              auget gratiam quam prius invenit.</p>
+            <p xml:id="ta-l4d7q2-d1e367">Et per hoc patet responsio ad utramque partem.</p>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

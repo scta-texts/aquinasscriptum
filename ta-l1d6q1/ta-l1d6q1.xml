@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 6, Quaestio 1</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.09-dev-master">
+          <title>Librum I, Distinctio 6, Quaestio 1</title>
+          <date when="2016-03-14">March 14, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-14">March 14, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p>1856 editum</p>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="2015.09">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+
+
+
+
+      <div xml:id="starts-on"> </div>
+    </front>
+    <body>
+      <div xml:id="ta-l1d6q1">
+        <head xml:id="ta-l1d6q1-Hd1e89">Librum I, Distinctio 6, Quaestio 1</head>
+        <div xml:id="ta-l1d6q1-Dd1e92">
+          <head xml:id="ta-l1d6q1-Hd1e94">Prooemium</head>
+          <p xml:id="ta-l1d6q1-d1e97">Hic <name ref="#Lombard">Magister</name> inquirit de generatione quantum ad principium:
+            et dividitur in duas partes. In prima inquirit quid sit principium generationis, utrum
+            necessitas vel voluntas vel natura; in secunda inquirit de communitate principii
+            generationis, utrum scilicet potentia generandi sit communis patri et filio, in sequenti
+            distinctione. Prima in tres: primo enim movet quaestionem, et determinat; secundo
+            removet dubitationem, ibi: <quote xml:id="ta-l1d6q1-Qd1e102">sed contra hoc opponitur sic</quote>; tertio exponit
+            determinationem, ibi: <quote xml:id="ta-l1d6q1-Qd1e105">praedicta tamen verba (...) ex tali sensu mihi videntur
+              accipienda</quote>. Circa primum tria facit: primo ponit quaestionem; secundo
+            determinat, ibi: <quote xml:id="ta-l1d6q1-Qd1e108">nec voluntate, nec necessitate</quote>; tertio ex determinatione
+            excludit errorem, ibi: <quote xml:id="ta-l1d6q1-Qd1e111">quocirca, ut ait Augustinus, ridenda est dialectica
+              Eunomii</quote>. Ubi primo ponit errorem; secundo excludit, ibi: <quote xml:id="ta-l1d6q1-Qd1e115">propter quod
+              mutabilis intelligitur natura: quod absit ut in Deo esse credamus</quote>. Ubi primo
+            improbat positionem errantis; secundo confirmat rationem, ibi: <quote xml:id="ta-l1d6q1-Qd1e118">acute sane quidam
+              respondit haeretico versutissime interroganti</quote>. Ad intelligentiam hujus partis
+            tria quaeruntur: 1 utrum pater genuit filium necessitate; 2 utrum voluntate; 3 utrum
+            natura.</p>
+        </div>
+        <div xml:id="ta-l1d6q1-Dd1e123" type="articulus">
+          <head xml:id="ta-l1d6q1-Hd1e125">Articulus 1</head>
+
+          <head xml:id="ta-l1d6q1-Hd1e128" type="questionTitle">Utrum pater genuit filium necessitate</head>
+
+          <p xml:id="ta-l1d6q1-d1e131">Ad primum sic proceditur. Videtur quod pater genuit filium necessitate. Necessarium
+            enim et possibile dividunt ens. Si igitur pater non genuit filium necessitate, genuit
+            ipsum contingenter vel possibiliter: quod est impossibile.</p>
+          <p xml:id="ta-l1d6q1-d1e134">Praeterea, omne aeternum est necessarium. Sed generatio filii a patre est aeterna. Ergo
+            necessaria.</p>
+          <p xml:id="ta-l1d6q1-d1e137">Praeterea, sicut Deus est per se bonus, ita est per se ens necessarium: omne enim quod
+            est per participationem, reducitur ad id quod est per se. Sed in per se bono nihil
+            potest esse nisi bonum. Ergo nec in per se necessario aliquid nisi necessarium. Cum
+            igitur generatio sit in Deo, ergo erit necessaria.</p>
+          <p xml:id="ta-l1d6q1-d1e141">Contra, omnis necessitas est ratione alicujus cogentis vel interius vel exterius. Sed
+            Deo non potest esse aliquid fortius. Ergo ibi non potest esse necessitas.</p>
+          <p xml:id="ta-l1d6q1-d1e144">Praeterea, Augustinus, dividit necessitatem in coactionem et prohibitionem. Sed neutrum
+            Deo convenit. Ergo et cetera.</p>
+          <p xml:id="ta-l1d6q1-d1e147">Respondeo dicendum, quod secundum philosophum, necessarium dicitur multipliciter. Est
+            enim necessarium absolute, et necessarium ex conditione; et hoc est duplex: scilicet ex
+            conditione finis vel ex conditione agentis. Necessarium ex conditione agentis, est
+            necessarium per violentiam: non enim eum qui violenter currit, necesse est currere, nisi
+            sub hac conditione, si aliquis eum cogit. Necessarium ex conditione finis est illud sine
+            quo non potest consequi aliquis finis, vel non ita faciliter. Finis autem est duplex:
+            vel ad esse, et hoc modo cibus vel nutrimentum dicuntur esse necessaria, quia sine eis
+            non potest esse homo; vel pertinens ad bene esse, et sic dicitur esse navis necessaria
+            eunti ultra mare; quia sine ea exercere non potest actionem suam. Necessarium autem
+            absolute dicitur quod est necessarium per id quod in essentia sua est; sive illud sit
+            sua essentia, sicut in simplicibus; sive, sicut in compositis, illud principium sit
+            materia, sicut dicimus, hominem mori est necessarium; sive forma, sicut dicimus, hominem
+            esse rationalem est necessarium. Hoc autem absolute necessarium est duplex. Quoddam enim
+            est quod habet necessitatem et esse ab alio, sicut in omnibus quae causam habent:
+            quoddam autem est cujus necessitas non dependet ab alio, sed ipsum est causa
+            necessitatis in omnibus necessariis, sicut Deus. Dicendum ergo, quod generatio in
+            divinis non est ex necessitate conditionata, sive conditionetur ex fine, sive ex agente.
+            Non ex agente; cum ipse Deus sit primum principium et ultimus finis. Sed est necessaria
+            necessitate absoluta, sicut est necessitas primae causae.</p>
+          <p xml:id="ta-l1d6q1-d1e150">Et per hoc patet solutio ad utramque partem: quia primae rationes procedunt de
+            necessitate absoluta, et aliae de necessitate coactionis quae repugnat necessitati
+            absolutae: et de ista procedebat haereticus, et secundum hoc negatur in littera.</p>
+        </div>
+        <div xml:id="ta-l1d6q1-Dd1e154" type="articulus">
+          <head xml:id="ta-l1d6q1-Hd1e156">Articulus 2</head>
+
+          <head xml:id="ta-l1d6q1-Hd1e159" type="questionTitle">Utrum pater genuit filium voluntate</head>
+
+          <p xml:id="ta-l1d6q1-d1e162">Ad secundum sic proceditur. Videtur quod pater genuit filium voluntate. Omne enim bonum
+            est volitum a Deo, sicut omne verum scitum. Sed generatio filii est optimum. Ergo est
+            volitum a Deo; et ita pater genuit filium voluntate.</p>
+          <p xml:id="ta-l1d6q1-d1e165">Praeterea, in generatione humana ita est quod principium inclinans ad generandum, est
+            voluntas. Sed generatio humana extrahitur a divina. Ergo et similiter erit in
+            generatione divina, et ita videtur quod pater genuit filium voluntate.</p>
+          <p xml:id="ta-l1d6q1-d1e168">Praeterea, Origenes dicit de patre loquens: <quote xml:id="ta-l1d6q1-Qd1e170">germen proferens voluntatis factus
+              est verbi pater</quote>. Sed illud quod est germen voluntatis, est natum voluntate
+            generantis. Ergo pater genuit filium voluntate.</p>
+          <p xml:id="ta-l1d6q1-d1e175">Contra, voluntas est principium productionis eorum quae per artem producuntur in rebus
+            humanis. Sed filius non producitur a patre sicut artificiatum, immo sicut ars; sed
+            creaturae sicut artificiata. Ergo videtur quod pater non genuit filium voluntate; sed
+            voluntate creaturas produxit.</p>
+          <p xml:id="ta-l1d6q1-d1e178">Praeterea, Hilarius: <quote xml:id="ta-l1d6q1-Qd1e180">si quis voluntate Dei filium tamquam factum dicat, anathema
+              sit</quote>. Ergo et cetera.</p>
+          <p xml:id="ta-l1d6q1-d1e184">Respondeo dicendum, quod voluntas potest comparari ad aliquid dupliciter: aut sicut
+            potentia ad objectum, aut sicut principium. Si comparetur ad aliquid sicut ad objectum,
+            tunc omne volitum a Deo, potest dici esse voluntate ejus; et sic potest dici, pater est
+            Deus voluntate sua; vult enim se esse Deum; et similiter potest concedi quod pater
+            genuit filium voluntate. Si autem comparetur voluntas ad aliquid sicut principium, hoc
+            potest esse dupliciter: quia aut illud ad quod comparatur sicut principium dicit
+            rationem principiandi; aut dicit ipsum principiatum. Si primo modo, sic comparatur
+            voluntas ad processionem spiritus sancti, qui procedit ut amor, in quo voluntas
+            principiata omnia, scilicet creaturas, amore producit; et secundum hunc modum etiam
+            intellectus in Deo se habet ad generationem filii, qui procedit ut verbum et ars. Si
+            secundo modo, tunc principiatum voluntatis procedit a voluntate secundum voluntatis
+            conditionem. Voluntas autem, quantum est in se, libera est: unde principiata voluntatis
+            sunt tantum ea quae possunt esse vel non esse. Et hoc modo constat, quod voluntas divina
+            comparatur ad creationem rerum, et non ad generationem filii. Et hinc est quod quidam
+            distinguunt voluntatem in tria, scilicet in voluntatem accedentem, quae scilicet de novo
+            accedit operi vel operanti, et talis non est in Deo secundum aliquem trium dictorum
+            modorum voluntatis, quia omnis operatio ejus est a voluntate aeterna. Item in voluntatem
+            concomitantem quae dicitur secundum comparationem ad objectum tantum; et sic est in Deo
+            respectu generationis filii. Item in voluntatem antecedentem; et sic dicit comparationem
+            principii ad principiatum; et sic est respectu creaturarum.</p>
+          <p xml:id="ta-l1d6q1-d1e187">Ad primum ergo dicendum, quod ratio illa procedit secundum comparationem voluntatis ad
+            objectum tantum.</p>
+          <p xml:id="ta-l1d6q1-d1e190">Ad secundum dicendum, quod generatio humana non est aeterna, et ideo potest habere
+            voluntatem antecedentem, quod non potest esse in divina.</p>
+          <p xml:id="ta-l1d6q1-d1e193">Ad tertium dicendum, quod Origenes vocat germen voluntatis id in quo quiescit patris
+            beneplacitum; et haec est filius, sicut ipse dixit Matth. 3, 17: <quote xml:id="ta-l1d6q1-Qd1e195" ana="#mt3_17">hic est filius
+              meus dilectus, in quo mihi complacui</quote>. Aliae autem rationes procedunt de
+            voluntate antecedente, sive secundum comparationem principii ad principiatum.</p>
+        </div>
+        <div xml:id="ta-l1d6q1-Dd1e200" type="articulus">
+          <head xml:id="ta-l1d6q1-Hd1e202">Articulus 3</head>
+
+          <head xml:id="ta-l1d6q1-Hd1e205" type="questionTitle">Utrum pater genuit filium naturaliter</head>
+
+          <p xml:id="ta-l1d6q1-d1e208">Ad tertium sic proceditur. Videtur quod pater non naturaliter genuit filium. Hilarius:
+              <quote xml:id="ta-l1d6q1-Qd1e210">non naturali necessitate ductus pater genuit filium</quote>. Ergo videtur quod
+            non sit naturalis generatio.</p>
+          <p xml:id="ta-l1d6q1-d1e214">Praeterea, in Deo idem est voluntas et natura. Sed pater non genuit filium voluntate.
+            Ergo nec genuit filium natura.</p>
+          <p xml:id="ta-l1d6q1-d1e217">Praeterea, sicut supra habitum est, dist. 3, quaest. 1, art. 3, philosophi per rationes
+            creaturarum potuerunt devenire in cognitionem divinae naturae. Sed cognita natura
+            cognoscitur operatio naturae. Ergo potuerunt devenire in cognitionem generationis
+            aeternae, si pater naturaliter genuit filium: cujus contrarium superius est ostensum,
+            dist. 3, quaest. 1, art. 4.</p>
+          <p xml:id="ta-l1d6q1-d1e221">Contra, Hilarius: <quote xml:id="ta-l1d6q1-Qd1e223">omnibus creaturis substantiam Dei voluntas attulit; sed filio
+              natura dedit</quote>. Ergo videtur quod pater genuit filium natura.</p>
+          <p xml:id="ta-l1d6q1-d1e227">Praeterea, Damascenus: <quote xml:id="ta-l1d6q1-Qd1e229">generatio est opus divinae naturae existens</quote>. Ergo
+            et cetera.</p>
+          <p xml:id="ta-l1d6q1-d1e233">Respondeo dicendum, quod essentia divina, ut dictum est, dist. 3, art. 4, est
+            principium omnium actuum divinorum; licet essentia sub ratione essentiae non dicat
+            principium actus qui est operatio, sed qui est esse. Sed cum in essentia sit considerare
+            diversa attributa, quae sunt realiter unum in ipsa, ratione tamen distincta; actus
+            refertur ad essentiam secundum hoc attributum vel illud, secundum quod exigit conditio
+            actus; sicut intelligere est ab essentia divina, inquantum ipsa est intellectus; et res
+            volitae, quae possunt esse vel non esse, producuntur ab essentia, inquantum ipsa est
+            voluntas. Et quia de ratione generationis est ut producatur genitum in similitudinem
+            generantis, et hujus productionis principium pertinet ad naturam, quae est ex similibus
+            similia procreans; ideo dicitur, quod pater natura genuit filium.</p>
+          <p xml:id="ta-l1d6q1-d1e236">Ad primum ergo dicendum, quod Hilarius naturalem necessitatem appellat, quando virtute
+            naturae aliquid agitur quod est contrarium voluntati, sicut fames et sitis in nobis;
+            unde voluntas patitur quasi quamdam violentiam a natura; et talis necessitas non est in
+            Deo.</p>
+          <p xml:id="ta-l1d6q1-d1e239">Ad secundum dicendum, quod quamvis natura et voluntas sint idem re, differunt tamen
+            ratione, ut dictum est. Et ideo essentia divina in ratione naturae est principium
+            alicujus, cujus principium non est ipsa eadem, prout habet rationem voluntatis.</p>
+          <p xml:id="ta-l1d6q1-d1e242">Ad tertium dicendum, quod naturam contingit cognoscere dupliciter. Vel perfecte
+            comprehendendo ipsam; et sic philosophi non cognoverunt naturam divinam: quia sic
+            cognovissent omnia opera divina, et quaecumque sunt in ipsa. Vel per effectus; et ita
+            philosophi cognoverunt. Quia vero creatura non perfecte repraesentat naturam divinam,
+            secundum quod est principium generationis aeternae et consubstantialis; ideo
+            generationem divinam, quae est ejus operatio, non cognoverunt philosophi.</p>
+        </div>
+        <div xml:id="ta-l1d6q1-Dd1e247">
+          <head xml:id="ta-l1d6q1-Hd1e249">Expositio textus</head>
+          <p xml:id="ta-l1d6q1-d1e252"><quote xml:id="ta-l1d6q1-Qd1e253">Voluntas sapientiam praeire non potest</quote>. Hoc dicit, quia sapientia filio
+            appropriatur. Sed contra. Voluntas est motor aliarum virium: intelligimus enim, quia
+            volumus. Ergo voluntas videtur praecedere cognitionem sapientiae. Dicendum, quod
+            voluntatem oportet quod praecedat aliqua cognitio. Est enim duplex actus voluntatis.
+            Unus imperfectus, scilicet appetere; et iste actus praecedit cognitionem perfectam eorum
+            quae acquiruntur in cognitione. Per appetitum enim sciendi aliquid movetur aliquis ad
+            considerationem alicujus, cujus cognitionem considerando accipit; sed tamen hunc actum
+            voluntatis praecedit cognitio indeterminata qua res scitur in universali, et per illam
+            cognitionem imperfectam tendit appetitus in perfectionem ipsius: si enim esset omnino
+            ignotum, non quaereretur. Est et alius actus voluntatis perfectus, quo voluntas quiescit
+            et placet sibi in re jam habita; et ita voluntas sciendi sequitur cognitionem perfectam.
+              <quote xml:id="ta-l1d6q1-Qd1e256">Utrum Deus filium volens aut nolens genuit</quote>. Videtur quod necessarium
+            sit alterum dare, cum fiat divisio per affirmationem et negationem. Dicendum, quod
+            nolens et volens non opponuntur contradictorie; sed volens et non volens. Differt enim
+            nolo et non volo; quia cum dicitur: non volo, negatur actus; et ideo opponitur sicut
+            negatio ad affirmationem: sed in hoc verbo nolo et in toto condeclinio ejus remanet
+            actus voluntatis affirmatus, et negatio fertur ad nolitum. Unde sensus est: nolo hoc; id
+            est, volo hoc non esse. Unde non oportet dici nolens vel volens, quia lapis nec volens
+            est nec nolens. Et similiter in proposito neutrum dandum est. Sed danda est ista, non
+            volens, si volens dicat voluntatem accedentem vel antecedentem. Si autem dicat
+            voluntatem concomitantem danda est ista, volens genuit.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

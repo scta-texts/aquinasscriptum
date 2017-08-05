@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum III, Distinctio 21, Quaestio 2</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.09-dev-master">
+          <title>Librum III, Distinctio 21, Quaestio 2</title>
+          <date when="2016-03-12">March 12, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-12">March 12, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness>1856 editum</witness>
+          <witness xml:id="H" n="harv245" xml:base="http://iiif.lib.harvard.edu/manifests/drs:51994085/canvas/">Cambridge, Mass.,
+            Harvard University, Houghton Library, MS Lat 245</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="2015.09">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+
+
+
+
+      <div xml:id="starts-on">
+        <cb ed="#H" n="75rb"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ta-l3d21q2">
+        <head xml:id="ta-l3d21q2-Hd1e97">Librum III, Distinctio 21, Quaestio 2</head>
+        <div xml:id="ta-l3d21q2-Dd1e100">
+          <head xml:id="ta-l3d21q2-Hd1e102">Prooemium</head>
+          <p xml:id="ta-l3d21q2-d1e105">Deinde quaeritur de resurrectione Christi; et circa hoc quaeruntur quatuor: 1 de
+            necessitate resurrectionis; 2 de tempore; 3 de argumentis resurrectionis in communi; 4
+            de eis in speciali.</p>
+        </div>
+        <div xml:id="ta-l3d21q2-Dd1e109" type="articulus">
+          <head xml:id="ta-l3d21q2-Hd1e111">Articulus 1</head>
+          <head xml:id="ta-l3d21q2-Hd1e114" type="questionTitle">Utrum necesse fuerit Christum resurgere</head>
+          <p xml:id="ta-l3d21q2-d1e117">Ad primum sic proceditur. Videtur quod non fuerit necessarium Christum resurgere. Quia,
+            sicut dicit Damascenus, resurrectio est ejus quod cecidit et dissolutum est, iterata
+            surrectio. Sed Christus non cecidit per peccatum, nec ejus corpus dissolutum est. Ergo
+            non debetur ei resurrectio.</p>
+          <p xml:id="ta-l3d21q2-d1e120">Praeterea, Augustinus dicit, quod per verbum Dei fit resurrectio animarum, per verbum
+            incarnatum fit resurrectio corporum. Sed verbum caro factum est in incarnatione. Ergo
+            non fuit necessaria resurrectio neque ad resurrectionem corporum, neque ad
+            resurrectionem animarum.</p>
+          <p xml:id="ta-l3d21q2-d1e123">Praeterea, post ultimam consummationem non est aliquid necessarium. Sed ultima
+            consummatio facta est in passione: quia tunc dixit: <quote xml:id="ta-l3d21q2-Qd1e125">consummatum est</quote>;
+            Joan. 19, 30. Ergo non oportuit quod postea resurgeret.</p>
+          <p xml:id="ta-l3d21q2-d1e130">Praeterea, ad hoc Christus humanam naturam assumpsit, ut ipsam restauraret. Sed plena
+            restauratio facta est in passione; quia et janua aperta est, et liberati sumus a
+            peccato, poena, et servitute Diaboli. Ergo non oportuit ut iterato corpus assumeret.</p>
+          <p xml:id="ta-l3d21q2-d1e133">Sed contra, <ref xml:id="ta-l3d21q2-Rd1e135"><title ref="#Icor">1 Corinth.</title> 15, 17:</ref>
+            <quote xml:id="ta-l3d21q2-Qd1e140" ana="#Icor15_17">si Christus non resurrexit, inanis est fides nostra</quote>. Sed
+            sine fide non justificamur. Ergo necessarium fuit Christum resurgere.</p>
+          <p xml:id="ta-l3d21q2-d1e144">Praeterea, Gregorius dicit quod vitam nostram resurgendo reparavit. Ergo necessarium
+            fuit quod Christus resurgeret.</p>
+          <p xml:id="ta-l3d21q2-d1e147">Respondeo dicendum, quod necessitas resurrectionis Christi ex tribus apparet. Primo ex
+            ipsa conditione naturae assumptae. Anima enim et corpus sunt partes humanae naturae:
+            omnis autem pars est imperfecta respectu totius, ut patet per philosophum in 3 Physic.,
+            unde nec corpori sine anima, nec animae sine corpore inest omnis perfectio quam nata
+            sunt habere. Et quia naturae assumptae debebatur omnis perfectio quam contingit in
+            natura reperire, ideo ei debebatur quod corpus animae semper esset conjunctum. Quod
+            autem ad tempus separata fuerunt, hoc fuit propter necessitatem nostrae redemptionis.
+            Secundo ex merito passionis ejus: quia ex humilitate passionis meruit gloriam
+            resurrectionis. Tertio ex parte nostra, ut scilicet in capite gloriosa resurrectio
+            inchoaretur, quae in membris futura erat. Et iterum ut illis qui sunt in patria, non
+            solum sit gloria de visione divinitatis, sed etiam de visione humanitatis glorificatae
+            in Christo quantum ad corpus et quantum ad animam.</p>
+          <p xml:id="ta-l3d21q2-d1e150">Ad primum igitur dicendum, quod illa definitio est resurrectionis secundum quod in
+            aliis hominibus invenitur; sed resurrectio Christi potest sic proprie definiri:
+            resurrectio est corporis facti incorruptibilis ad animam iterata unio. Vel potest dici,
+            quod quamvis Christus non ceciderit per peccatum, cecidit tamen a vita naturae per
+            mortem; et corpus quamvis non sit dissolutum per incinerationem, est tamen facta
+            dissolutio corporis et animae.</p>
+          <p xml:id="ta-l3d21q2-d1e153">Ad secundum dicendum, quod verbum caro factum, non est proxima dispositio ad
+            resurrectionem nostram, sed verbum caro factum, et a morte resurgens.</p>
+          <p xml:id="ta-l3d21q2-d1e157">Ad tertium dicendum, quod in morte Christi facta est consummatio omnium eorum quae
+            exigebantur ad satisfactionem; quae quidem per resurrectionem non est facta, sed magis
+            novae vitae inchoatio.</p>
+          <p xml:id="ta-l3d21q2-d1e160">Ad quartum dicendum, quod quamvis Christus naturam nostram ad hoc assumpsit ut eam
+            repararet; non tamen sequitur quod, reparata natura, debeat eam vel aliquam ejus partem
+            abjicere, sed magis perpetuo tenere, sicut perpetua est reintegratio facta in natura.
+            Vel dicendum, quod quamvis per passionem proprie loquendo sit facta reparatio quantum ad
+            amotionem mali, tamen per resurrectionem oportuit quod consummaretur quantum ad
+            perfectionem in bono.</p>
+        </div>
+        <div xml:id="ta-l3d21q2-Dd1e164" type="articulus">
+          <head xml:id="ta-l3d21q2-Hd1e166">Articulus 2</head>
+          <head xml:id="ta-l3d21q2-Hd1e169" type="questionTitle">Utrum Christus debuerit tertia die resurgere</head>
+          <p xml:id="ta-l3d21q2-d1e172">Ad secundum sic proceditur. Videtur quod Christus non debuit tertia die resurgere.
+            Caput enim est conforme membris in natura. Sed per resurrectionem natura reparatur
+            quantum ad passibilitatem et mortalitatem. Ergo Christus debuit simul cum aliis
+            resurgere, et non tertia die.</p>
+          <p xml:id="ta-l3d21q2-d1e175">Praeterea, ut dicit Glossa Hebr. 11, ad hoc est dilata resurrectio omnium in finem
+            mundi, ut simul resurgentibus sit majus gaudium. Sed de resurrectione nullius sancti est
+            tantum gaudium sicut de resurrectione Christi. Ergo etiam ipse debuit usque ad finem
+            mundi suam resurrectionem differre, et non tertia die resurgere.</p>
+          <p xml:id="ta-l3d21q2-d1e178">Praeterea, separatio animae a corpore in Christo non fuit facta nisi propter
+            redemptionem humanae naturae. Sed in instanti mortis, redemptio soluto pretio completa
+            est. Ergo debuit statim resurgere.</p>
+          <p xml:id="ta-l3d21q2-d1e182">Praeterea, plus conferendum fuit Christo quam alicui alteri homini. Sed quidam homines
+            qui vivi invenientur in fine mundi, statim post mortem resurgent. Ergo multo magis
+            Christus resurgere debuit statim, et non in tertium diem resurrectionem differre.</p>
+          <p xml:id="ta-l3d21q2-d1e185">Praeterea, <ref xml:id="ta-l3d21q2-Rd1e187"><title ref="#mt">Matth.</title> 12, 40,</ref> dominus dicit: <quote xml:id="ta-l3d21q2-Qd1e192" ana="#mt12_40">sicut fuit Jonas in ventre ceti (...) sic erit filius hominis in corde
+              terrae</quote>. Sed non fuit in corde terrae nisi quamdiu fuit mortuus. Ergo tribus
+            diebus et tribus noctibus mortuus fuit. Ergo non resurrexit tertia die, sed magis quarta
+            vel quinta.</p>
+          <p xml:id="ta-l3d21q2-d1e196">Praeterea, nox contra diem dividitur. Sed Gregorius videtur dicere in Homil. Paschae,
+            Christum de nocte resurrexisse, sicut Samson de nocte portas Gazae tulit. Ergo Christus
+            non resurrexit tertia die, immo magis secunda nocte.</p>
+          <p xml:id="ta-l3d21q2-d1e199">Sed contra, in symbolo dicitur: <quote xml:id="ta-l3d21q2-Qd1e201">resurrexit tertia die secundum
+              Scripturas</quote>.</p>
+          <p xml:id="ta-l3d21q2-d1e205">Praeterea, Rom. 6, dicit Glossa: <quote xml:id="ta-l3d21q2-Qd1e207">quievit in sepulcro una die et duabus noctibus:
+              quia nostram duplicem vetustatem sua simpla consumpsit</quote>. Ergo tertia die
+            resurrexit.</p>
+          <p xml:id="ta-l3d21q2-d1e211">Praeterea, conveniens erat ut veritas mortis nobis manifestaretur. Sed <quote xml:id="ta-l3d21q2-Qd1e213">in ore
+              duorum vel trium testium stat omne verbum</quote>; 2 Corinth., 13, 1. Ergo conveniens
+            fuit ut tertia die resurgeret.</p>
+          <p xml:id="ta-l3d21q2-d1e218">Respondeo dicendum, quod, sicut dictum est, Christus non sustinuit mortem quia debitor
+            mortis esset, sed ut mortem nostram sua morte destrueret. Ad hoc autem quod mors nostra
+            destrueretur, duo requirebantur: unum scilicet ut ipse non debitor mortis mortem quam
+            nos debebamus, pro nobis solveret; aliud est ut nos virtutem mortis ipsius
+            cognosceremus, et per fidem mortis virtus mortis in nobis effectum haberet. Unde non
+            oportuit quod morte detineretur nisi quantum congruebat ad ostendendam mortis veritatem:
+            quae sufficienter manifestata fuit et congruenter per hoc quod tertia die resurrexit:
+            tum quia sua morte duas nostras mortes destruxit, ut tangit Glossa inducta: tum quia
+            confirmatio, quae fit per testes, ternario testium approbatur: tum quia perfectio in
+            ternario consistit, ut dicitur in 1 de caelo et mundo. Alias etiam congruentias non
+            difficile est assignare.</p>
+          <p xml:id="ta-l3d21q2-d1e221">Ad primum ergo dicendum, quod alii homines debitores mortis erant, et mors in eis non
+            fuit ex necessitate finis, sed ex necessitate culpae; non autem sic est in Christo; et
+            ideo non oportuit quod Christi resurrectio usque in finem mundi differretur. Vel
+            dicendum, quod illud quod est ultimum in operatione, oportet esse primum in intentione;
+            unde oportet quod resurrectionem, quam in fine mundi consequemur, primo intendamus.
+            Intentio autem et dirigitur et excitatur et roboratur ex inspectione alicujus
+            exemplaris, in quo finis secundum rem praecedat; unde sicut intentio nostra qua
+            intendimus in gloriam animae, excitatur ex inspectione divinae gloriae, quae est
+            exemplar nostrae futurae beatitudinis; ita oportuit quod gloria resurrectionis in aliquo
+            exemplari nobis proponeretur, ad cujus conformitatem tenderemus; et hoc est resurrectio
+            Christi: unde dicitur Philip. 3, 21: <quote xml:id="ta-l3d21q2-Qd1e223">reformabit corpus humilitatis nostrae
+              configuratum corpori claritatis suae</quote>.</p>
+          <p xml:id="ta-l3d21q2-d1e227">Ad secundum dicendum, quod gaudium de resurrectione Christi movet ut exemplar ex quo
+            dirigimur in finem; non autem ita est de aliis sanctis; et ideo non est simile de
+            Christo et de illis.</p>
+          <p xml:id="ta-l3d21q2-d1e230">Ad tertium dicendum, quod non solum oportebat quod per mortem fieret redemptio; sed ad
+            hoc quod redemptionis ejus participes essemus, oportuit ut veritas mortis nobis
+            ostenderetur; et hoc non fuisset, si statim post mortem resurrexisset.</p>
+          <p xml:id="ta-l3d21q2-d1e233">Ad quartum dicendum, quod mortis aliorum hominum cognitio non est nobis necessaria ad
+            salutem, sicut fides de morte Christi; et ideo resurrectio non est similis de ipso et de
+            illis qui vivi invenientur in fine mundi.</p>
+          <p xml:id="ta-l3d21q2-d1e236">Ad quintum dicendum, quod dies, ut in 1 Lib., dist. 13, dictum est, diversis modis
+            accipitur. Aliquando enim pro die naturali, quae continet spatium viginti quatuor
+            horarum; unde includit diem et noctem; aliquando autem pro die artificiali: et sic
+            Christus fuit mortuus una die integra, scilicet die sabbati, et duabus integris
+            noctibus, scilicet praecedente diem sabbati, et sequenti, et adhuc plus per quamdam
+            partem sextae feriae; et sic loquitur Glossa Rom. 6. Si autem loquamur de die naturali,
+            sic accipiendo partem pro toto, fuit mortuus tribus diebus et tribus noctibus. Illa enim
+            pars diei passionis Christi a nona et deinceps computatur pro tota die naturali cujus
+            est pars: unde computatur pro una die artificiali, et pro una nocte. Similiter nox post
+            sabbatum computatur pro tota die naturali sequente; et sic computatur pro una die, et
+            una nocte artificiali: quibus si conjungatur una dies integra, scilicet dies sabbati, et
+            una nox integra, scilicet nox praecedens; invenitur quod Christus fuit mortuus tribus
+            diebus et tribus noctibus.</p>
+          <p xml:id="ta-l3d21q2-d1e240">Ad sextum dicendum, quod Christus creditur resurrexisse in crepusculo quando adhuc est
+            lux tenebris permixta; et ideo aliquando dicitur resurrexisse in die, et aliquando in
+            nocte.</p>
+        </div>
+        <div xml:id="ta-l3d21q2-Dd1e244" type="articulus">
+          <head xml:id="ta-l3d21q2-Hd1e246">Articulus 3</head>
+          <head xml:id="ta-l3d21q2-Hd1e249" type="questionTitle">Utrum Christus debuerit probare resurrectionem suam
+            argumentis</head>
+          <p xml:id="ta-l3d21q2-d1e252">Ad tertium sic proceditur. Videtur quod Christus resurrectionem suam argumentis probare
+            non debuit. Ambrosius enim dicit: <quote xml:id="ta-l3d21q2-Qd1e254">tolle argumenta ubi fides quaeritur</quote>.
+            Sed de resurrectione quaeritur fides. Ergo argumenta fieri ad resurrectionem non
+            debent.</p>
+          <p xml:id="ta-l3d21q2-d1e258">Praeterea, aut argumenta illa fuerunt sufficientia ad probandum resurrectionem, aut
+            non. Si non, hoc videtur in imperfectionem inducentis argumenta redundare. Si autem
+            fuerunt sufficientia, et argumentum sufficiens facit scientiam vel agnitionem, quae non
+            stat simul cum fide, quae est de non apparentibus; videtur quod evacuaverunt fidem, et
+            abstulerunt meritum ejus.</p>
+          <p xml:id="ta-l3d21q2-d1e261">Praeterea, sicut est fides de resurrectione, ita et de aliis articulis. Sed ad alios
+            articulos non induxit aliqua argumenta probantia. Ergo neque ad resurrectionem inducere
+            debuit.</p>
+          <p xml:id="ta-l3d21q2-d1e265">Praeterea, argumenta ex quibus contrarium videtur sequi, potius confundunt intellectum
+            quam elucidant. Sed in argumentis a Christo ostensis quasi contraria innuebantur: per
+            hoc enim quod comedit, ostendebat in se animalem vitam; per hoc autem quod januis
+            clausis intravit, ostendit spiritualem vitam. Ergo videtur quod argumenta incongruenter
+            adducta fuerint.</p>
+          <p xml:id="ta-l3d21q2-d1e268">Praeterea, sicut subtilitas est de gloria resurrectionis; ita et claritas. Sed Christus
+            gloriam resurrectionis solum per subtilitatem probavit quando intravit ad discipulos
+            januis clausis. Ergo videtur quod insufficienter ostenderit.</p>
+          <p xml:id="ta-l3d21q2-d1e271">Sed contra est quod dicitur Actor. 1, 3: <quote xml:id="ta-l3d21q2-Qd1e273">praebuit seipsum vivum post passionem
+              suam in multis argumentis</quote>.</p>
+          <p xml:id="ta-l3d21q2-d1e277">Praeterea, apostoli, debebant esse testes resurrectionis. Sed nullus potest esse testis
+            idoneus eorum de quibus certitudinem per visum et auditum non habet. Ergo videtur quod
+            ipse eis argumenta praebere debuit, quibus certificarentur de sua resurrectione.</p>
+          <p xml:id="ta-l3d21q2-d1e280">Praeterea, magis necessarium erat quod apostoli haberent fidem de resurrectione quam
+            alii homines: quia ipsi erant qui fidem praedicare debebant. Sed aliis hominibus facta
+            est fides de resurrectione Christi per argumenta miraculorum: Marc. ultim., 20:
+              <quote xml:id="ta-l3d21q2-Qd1e282">sermonem confirmante sequentibus signis</quote>. Ergo apostolis per argumenta
+            aliqua fides de resurrectione fieri debuit.</p>
+          <p xml:id="ta-l3d21q2-d1e286">Respondeo dicendum, quod, sicut dicit Dionysius, lumen divinum non recipitur in nobis
+            nisi secundum nostram proportionem; fides autem causatur in nobis ex influentia divini
+            luminis; et ideo oportet quod istud divinum lumen secundum nostram proportionem in nobis
+            recipiatur. Cognitio autem nostra naturaliter ex sensu oritur, et per principia rationis
+            procedit; unde licet illa quae fides tenet, sint supra rationem et sensum, inquantum
+            sunt fidei subjecta, ratione cujus exigitur ad eorum cognitionem quod infundatur altius
+            lumen, fidei scilicet; tamen ex parte nostra fuerunt aliqua adminicula fidei exhibenda.
+            Attenditur autem triplex gradus in credendo. Primus est ut aliquis rationem transcendens
+            his quae non videntur nec sensu nec ratione, assentire paratus sit; et sic
+            adminiculantur fidei miracula, quae ex eo quod humana ratione non comprehenduntur,
+            ostendunt aliquid supra rationem esse ei incomprehensibile. Secundus gradus est ut
+            homini ea quae credenda sunt, determinentur. Et quia fides non innititur nisi veritati
+            primae, inde est quod quantum ad hoc adminiculatur fidei auctoritas, per quam ostenditur
+            divinitus esse dictum. Tertius gradus est ut fidem quam habet, aliis testificetur; et
+            quantum ad hoc requiritur sensibilis cognitio eorum quae testificanda sunt; alias non
+            esset idoneum testimonium. Primum gradum ascendunt qui de novo ad fidem convertuntur; et
+            ideo signa infidelibus data sunt, 1 Corinth. 14. Secundum autem gradum ascendunt qui in
+            fide instruendi sunt; et ideo eis ex auctoritate fides confirmatur. Sed apostoli testes
+            fuerunt fidei; et ideo prius inducti sunt ad credendum per miracula, sicut dicitur Joan.
+            2, 11: <quote xml:id="ta-l3d21q2-Qd1e288">hoc fecit initium signorum Jesus in Cana Galileae</quote>; postea
+            instructi sunt per auctoritatem, ut patet in discipulis euntibus in Emaus, Luc. ult., et
+            deinde per visibiles apparitiones idonei testes effecti sunt; 1 Joan. 1, 3: <quote xml:id="ta-l3d21q2-Qd1e291">quod
+              vidimus et audivimus</quote>. Sed quia ad resurrectionem, cum sit quaedam mutatio,
+            exigitur quod idem sit quod de uno extremo ad aliud transivit, ideo dominus duo per
+            apparitiones probare voluit, idest identitatem resurgentis, et conditionem
+            resurrectionis. Conditionem autem resurrectionis probavit quantum ad tria: scilicet
+            quantum ad veritatem vitae per hoc quod cum eis comitatus est; similiter quantum ad
+            veritatem corporis per hoc quod eis se palpabilem praebuit: et quantum ad gloriam per
+            hoc quod januis clausis intravit. Identitatem etiam probavit et quantum ad naturam per
+            hoc quod comedit, et quantum ad personam per hoc quod se eis visibilem praebuit in eadem
+            effigie in qua prius eum soliti erant videre, et quantum ad accidentia per hoc quod eis
+            cicatrices ostendit.</p>
+          <p xml:id="ta-l3d21q2-d1e296">Ad primum ergo dicendum, quod intentio Ambrosii est dicere, quod fides non assentit
+            alicui vel dissentit propter argumenta, sed propter veritatem primam; non autem quin
+            possint induci adminiculantia fidei argumenta.</p>
+          <p xml:id="ta-l3d21q2-d1e299">Ad secundum dicendum, quod argumenta illa sufficienter probabant illud ad quod
+            probandum inducebantur, ut dictum est. Sed fides non est directe de illo quod probabatur
+            sicut de objecto, sed de divinitate, quae probari non potest homini in via: unde Thomas,
+            de quo dictum est, Joan. 20, 29, <quote xml:id="ta-l3d21q2-Qd1e301">quia vidisti, credidisti</quote>: vidit hominem,
+            et Deum confessus est; et propter hoc argumenta illa ex suppositione fidei procedebant,
+            quod scilicet homo ille, in quo naturae veritas, vel aliquid hujusmodi ostendebatur,
+            esset Deus; unde non tollebatur neque meritum neque ratio fidei.</p>
+          <p xml:id="ta-l3d21q2-d1e305">Ad tertium dicendum, quod articuli fidei quidam sunt de divinitate tantum; et isti non
+            possunt ad sensum probari, sed vel per miracula, vel per auctoritates; et sic probata
+            sunt. Quidam autem sunt de humanitate unita divinitati; et isti etiam ad sensum omnes
+            probati sunt. Sed quia passio et ascensio in seipsa visa est, resurrectio autem non;
+            ideo signa resurrectionis visibiliter ostendi oportuit, ex quibus conferendo ad
+            veritatem resurrectionis perveniretur: et propter hoc ista probatio dicta est
+            argumentativa, non autem probatio ascensionis vel passionis.</p>
+          <p xml:id="ta-l3d21q2-d1e308">Ad quartum dicendum, quod non erant in argumentis aliquae contrarietates: quia comestio
+            referebatur ad naturam, et introire januis clausis referebatur ad gloriam; et non erat
+            respectu ejusdem.</p>
+          <p xml:id="ta-l3d21q2-d1e311">Ad quintum dicendum, quod in aliis corporibus etiam secundum naturam invenitur claritas
+            et impassibilitas, sicut in corporibus caelestibus; sed subtilitas in nullo naturali
+            corpore invenitur. Agilitas autem ostendi visibiliter non potest: quia sensus
+            particularium est; agilitas autem est ut possit undecumque velit moveri; et praeterea
+            loca multum distantia videri non possunt; et iterum quia simile agilitati in radio solis
+            invenitur. Unde dicendum, quod discipulis euntibus in Emaus agilitatem demonstravit in
+            hoc quod ab oculis eorum statim evanuit; Luc. ult.</p>
+        </div>
+        <div xml:id="ta-l3d21q2-Dd1e316" type="articulus">
+          <head xml:id="ta-l3d21q2-Hd1e318">Articulus 4</head>
+          <head xml:id="ta-l3d21q2-Hd1e321" type="questionTitle">Utrum argumentum sumptum ex visibili apparitione fuerit
+            conveniens</head>
+          <div xml:id="ta-l3d21q2-Dd1e324">
+            <head xml:id="ta-l3d21q2-Hd1e326">Quaestiuncula 1</head>
+            <p xml:id="ta-l3d21q2-d1e329">Ad quartum sic proceditur. Videtur quod argumentum sumptum ex visibili apparitione
+              non fuit conveniens. Quia ad veritatem resurrectionis exigitur quod sit verum corpus
+              humanum quod resurgit. Sed Angeli, qui non habent vera corpora humana, apparuerunt
+              multis in veteri testamento. Ergo per apparitionem visibilem non ostenditur veritas
+              resurrectionis.</p>
+            <p xml:id="ta-l3d21q2-d1e332">Praeterea, omne corpus videtur secundum formam quam habet. Sed forma corporis Christi
+              est forma gloriosa. Si ergo apparuit eis, in forma gloriosa ipsum viderunt. Sed
+              claritas gloriosi corporis non est proportionata oculo non glorificato, cum sit major
+              claritate solis. Ergo Christus a discipulis videri non potuit.</p>
+            <p xml:id="ta-l3d21q2-d1e335">Praeterea, discipuli euntes in Emaus, viderunt eum in effigie peregrini. Aut ergo
+              illa effigies inerat ei secundum veritatem, aut erat tantum in oculis videntium. Si
+              erat in corpore Christi, cum in eo esset effigies propria, tunc duae effigies erant
+              simul in uno corpore, quod est impossibile. Si autem erat tantum in oculis videntium,
+              ergo erat praestigiosa apparitio. Sed ea quae praestigiose apparent, non demonstrant
+              veritatem rei. Ergo per hoc non poterat demonstrari veritas resurrectionis.</p>
+            <p xml:id="ta-l3d21q2-d1e338">Sed contra, inter omnes sensus majorem certitudinem facit visus, ut dicitur in 1
+              Metaph. Sed apostoli, qui erant testes resurrectionis, debebant habere certissimam
+              fidem de resurrectione. Ergo debuit eis fieri argumentum ex visu.</p>
+            <p xml:id="ta-l3d21q2-d1e342">Praeterea, hoc patet per id quod dicitur <ref xml:id="ta-l3d21q2-Rd1e344"><title ref="#Iio">1 Joan.</title>, 1,
+                3:</ref>
+              <quote xml:id="ta-l3d21q2-Qd1e349" ana="#Iio1_3">quod vidimus et audivimus annuntiamus vobis</quote>.</p>
+          </div>
+          <div xml:id="ta-l3d21q2-Dd1e354">
+            <head xml:id="ta-l3d21q2-Hd1e356">Quaestiuncula 2</head>
+            <p xml:id="ta-l3d21q2-d1e359">Ulterius. Videtur quod non debuit seipsis palpabilem exhibere. Palpabile enim
+              incorruptibili contrarium est, ut dicit Gregorius. Sed contraria non possunt esse in
+              eodem. Cum ergo corpus Christi esset incorruptibile, videtur quod non debuerit ipsum
+              palpabile exhibere.</p>
+            <p xml:id="ta-l3d21q2-d1e362">Praeterea, differentiae tangibiles sunt calidum et frigidum, et hujusmodi contraria.
+              Sed in glorificatis corporibus non erunt hujusmodi contrarietates, ut dicitur, nec
+              etiam in elementis post mundi innovationem. Ergo corpus Christi palpari non
+              potuit.</p>
+            <p xml:id="ta-l3d21q2-d1e365">Praeterea, hoc solum palpabile est quod est resistens tactui, et cui tactus resistit;
+              unde aer quamvis sit tangibilis, non tamen est palpabilis. Sed corpori Christi non
+              resistebat aliud corpus, quia januis clausis intravit. Ergo palpari non potuit.</p>
+            <p xml:id="ta-l3d21q2-d1e368">Praeterea, spiritus Angeli vel Daemonis posset assumere corpus solidum quod palpari
+              posset. Ergo per palpationem non sufficienter probatur veritas corporis.</p>
+            <p xml:id="ta-l3d21q2-d1e372">Praeterea, alii sensus sunt magis spirituales quam tactus. Ergo magis per eos debuit
+              veritatem resurrectionis probare quam per tactum.</p>
+            <p xml:id="ta-l3d21q2-d1e375">Sed contra, Luc. ult., 39: <quote xml:id="ta-l3d21q2-Qd1e377">palpate et videte; quia spiritus carnem et ossa non
+                habet, sicut me videtis habere</quote>.</p>
+            <p xml:id="ta-l3d21q2-d1e381">Praeterea, inter alios sensus homo certissimum habet tactum, ut dicitur in 2 de
+              anima. Cum igitur cognitio resurrectionis debuerit esse certissima in apostolis, per
+              tactum debuit eis ostendi.</p>
+          </div>
+          <div xml:id="ta-l3d21q2-Dd1e385">
+            <head xml:id="ta-l3d21q2-Hd1e387">Quaestiuncula 3</head>
+            <p xml:id="ta-l3d21q2-d1e390">Ulterius. Videtur quod non debuerit per cicatrices suam resurrectionem probare. Quia
+              per suam resurrectionem Christus nostram demonstravit. Sed a resurgentibus omnis
+              corruptio removebitur. Cum igitur cicatrix sit quaedam corruptio, videtur quod
+              Christus per cicatrices suam resurrectionem probare non debuit.</p>
+            <p xml:id="ta-l3d21q2-d1e393">Praeterea, status resurgentium est status immutabilis. Ergo Christus in seipso non
+              debuit demonstrare nisi quod semper in se futurum erat. Sed cicatrices non semper in
+              Christo debebant remanere: quia dicit Damascenus, quod tantum secundum dispensationem
+              in Christo fuerunt. Ergo cicatrices ostendere non debuit.</p>
+            <p xml:id="ta-l3d21q2-d1e396">Praeterea, Hieronymus dicit ad Marcellam, quod non meretur tangere Christum qui
+              resurrectionem ejus non credit; propter quod dictum est Magdalenae, <ref xml:id="ta-l3d21q2-Rd1e398"><title ref="#io">Joan.</title> 20, 17:</ref>
+              <quote xml:id="ta-l3d21q2-Qd1e403" ana="#io20_17">noli me tangere</quote>. Sed Thomas resurrectionem non credebat.
+              Ergo Christus cicatrices vulnerum ei palpabiles exhibere non debuit.</p>
+            <p xml:id="ta-l3d21q2-d1e407">Sed contra, Leo Papa: <quote xml:id="ta-l3d21q2-Qd1e409">quis dubitet a mortuis rediisse salvatorem, cujus
+                praesentiam agnovit oculus, attrectavit manus, digitus perscrutatus est?</quote>
+              Ergo cum omnem dubitationem suae resurrectionis auferre debuerit, videtur quod
+              cicatrices digito perscrutandas praebere debuit.</p>
+            <p xml:id="ta-l3d21q2-d1e414">Praeterea, decet victorem insignia suae victoriae et habere et ostendere. Sed, sicut
+              dicit Augustinus in Lib. de civitate Dei, cicatrices vulnerum Christi fuerunt
+              victoriae suae indicia. Ergo decuit ut eas haberet, et ostenderet.</p>
+          </div>
+          <div xml:id="ta-l3d21q2-Dd1e419">
+            <head xml:id="ta-l3d21q2-Hd1e421">Quaestiuncula 4</head>
+            <p xml:id="ta-l3d21q2-d1e424">Ulterius. Videtur quod non debuit per manducationem suam resurrectionem ostendere.
+              Comestio enim spectat ad vitam animalem. Sed per resurrectionem non transitur ad vitam
+              animalem, ut dicunt Saraceni et Judaei. Ergo Christus per comestionem resurrectionem
+              probare non debuit.</p>
+            <p xml:id="ta-l3d21q2-d1e427">Praeterea, cibus comestus convertitur in corpus comedentis. Sed in corpus Christi non
+              potuit aliquid converti: quia jam erat extra statum generationis et corruptionis. Ergo
+              videtur quod comedere non debuit.</p>
+            <p xml:id="ta-l3d21q2-d1e430">Praeterea, Angeli qui apparuerunt Abrahae, manducaverunt; nec tamen in eis fuit
+              veritas humanae naturae. Ergo per comestionem veram resurrectionem humanae naturae
+              probare non debuit.</p>
+            <p xml:id="ta-l3d21q2-d1e433">Sed contra, <ref xml:id="ta-l3d21q2-Rd1e435"><title ref="#act">Act.</title> 10, 40:</ref>
+              <quote xml:id="ta-l3d21q2-Qd1e440" ana="#act10_40">dedit eum notum fieri non omni populo, sed nobis, qui
+                manducavimus et bibimus cum eo, postquam resurrexit a mortuis</quote>; et per hoc
+              testificatus est Petrus resurrectionem. Ergo et hoc argumentum debuit exhibere suae
+              resurrectionis.</p>
+            <p xml:id="ta-l3d21q2-d1e445">Praeterea, veritas incarnationis probatur per id quod est infimum in partibus
+              hominis, scilicet per carnem; unde dictum est Joan. 1, 14: <quote xml:id="ta-l3d21q2-Qd1e447">verbum caro factum
+                est</quote>. Ergo etiam veritas naturae humanae debuit probari in Christo per id
+              quod est infimum in operibus animae. Hae autem sunt operationes vegetabilis animae;
+              quarum prima in animalibus est comestio. Ergo per hoc veritatem resurrectionis probare
+              debuit.</p>
+          </div>
+          <div xml:id="ta-l3d21q2-Dd1e452">
+            <head xml:id="ta-l3d21q2-Hd1e454">Quaestiuncula 1</head>
+            <p xml:id="ta-l3d21q2-d1e457">Respondeo dicendum ad primam quaestionem, quod ad veritatem resurrectionis exigitur
+              quod idem numero resurgat. Individuatio autem, secundum quam est aliquid unum numero,
+              ex diversis accidentibus manifestatur, quorum collectio in alio non invenitur: et quia
+              visus, ut dicit philosophus in principio Metaph., plures nobis rerum differentias
+              ostendit, ideo quod sit idem numero, nunquam melius quam per visum manifestatur; et
+              ideo visibilis apparitio fuit unum de argumentis resurrectionis.</p>
+            <p xml:id="ta-l3d21q2-d1e460">Ad primum ergo dicendum, quod apparitio visibilis non inducebatur ad probandum
+              veritatem carnis (quia hoc per alia argumenta probabatur), sed ad probandum
+              identitatem suppositi, supposita veritate corporis.</p>
+            <p xml:id="ta-l3d21q2-d1e463">Ad secundum dicendum, quod secundum opinionem Praepositini, quae probabilior videtur,
+              corpus glorificatum, est omnino in potestate animae quantum ad omnes actiones ejus;
+              visibile autem videtur secundum quod agit in visum; et ideo dicebat, quod in potestate
+              corporis gloriosi est quod videatur vel non videatur; et iterum quando videtur, quod
+              videatur sub forma gloriae, vel non. Cum enim sit in eo forma naturalis corporis, et
+              forma gloriae; potest secundum unam tantum immutare visum, vel secundum utramque; et
+              immutare visum secundum formam gloriae secundum proportionem visus; ut non
+              corrumpatur, sed delectetur, sicut ex visibili proportionato. Alii vero dicunt quod
+              non potest videri nisi per miraculum. Sed primum est probabilius.</p>
+            <p xml:id="ta-l3d21q2-d1e466">Ad tertium dicendum, quod discipulis Christus formam naturalem sui corporis ostendit,
+              qua est quodammodo corpus coloratum, et non formam claritatis gloriae. Quod autem ipsi
+              eum non cognoverunt, fuit ex interiori eorum dispositione, quia eum resurrexisse non
+              credebant; unde non ponebant se ad perquirendum judicia propria, quibus possent ipsum
+              cognoscere: sicut etiam accideret, si videremus aliquem quem mortuum crederemus,
+              quamvis notus fuisset nobis; et maxime si videremus illum in alio habitu. Unde quam
+              cito eis ostendit signum fractionis panis speciale sibi, cognoverunt eum propter
+              specialem modum frangendi: quia, ut dicitur, sua fractio erat similis incisioni
+              cultelli. Et hac infidelitate vel dubitatione tenebantur oculi eorum ne eum
+              cognoscerent; et ista detentio dicitur aorasia, de qua dicitur in Glossa, Gen. 19, non
+              quod esset aliquod impedimentum ex parte visus corporalis in discipulis sicut potuit
+              esse in Sodomitis. Vel potest dici quod quamvis visui repraesentaretur propria
+              species, in qua soliti erant eum videre; tamen virtute divina impediebantur vires
+              interiores, ne sequerentur judicium de persona illa quae esset; et sic ea quae
+              exterius agebantur, conformabantur his quae interius contingebant in ipsis, ut
+              praesentem haberent, et non cognoscerent: quia amabant, sed dubitabant, ut dicit
+              Gregorius.</p>
+          </div>
+          <div xml:id="ta-l3d21q2-Dd1e470">
+            <head xml:id="ta-l3d21q2-Hd1e472">Quaestiuncula 2</head>
+            <p xml:id="ta-l3d21q2-d1e475">Ad secundam quaestionem dicendum, quod propter vehementiam imaginationis contingit
+              aliquando quod illud quod imaginatio apprehendit, videtur esse praesens in visu, non
+              solum in dormiendo, sed etiam in vigilando. Similiter etiam contingit quod ex
+              oppositione aliquorum corporum videtur aliqua effigies, ac si esset hominum, vel
+              aliorum animalium. Iterum etiam apparitiones visibiles Daemonum et etiam Angelorum
+              consueverunt fieri per corpora aerea inspissata; unde statim cum volunt, dissolvuntur.
+              Et ideo dominus ad ostendendum veritatem resurrectionis, palpationem visui adjunxit,
+              ut excluderetur visio per immutationem visus ab imaginatione, et visio umbrarum, et
+              visio spirituum apparentium.</p>
+            <p xml:id="ta-l3d21q2-d1e478">Ad primum dicendum, quod omne corpus tangibile est per naturam corruptibile; unde
+              secundum philosophos caelum est visibile, sed non tangibile. Sed quod est per naturam
+              corruptibile, potest esse per gloriam incorruptibile. Unde quamvis corruptibile et
+              incorruptibile sint contraria simpliciter propter quod dicit Gregorius, quod ostendit
+              in se duo contraria; tamen corruptibile per naturam et incorruptibile per gratiam non
+              sunt contraria. Unde sicut corpus gloriosum habet in potestate sua quod possit videri
+              et non videri; ita habet in potestate quod possit palpari et non palpari, et utrumque
+              sine miraculo: sed palpatur per naturam corporis; non palpabile autem est, inquantum
+              corpus est instrumentum animae gloriosae.</p>
+            <p xml:id="ta-l3d21q2-d1e481">Ad secundum dicendum, quod palpatio non pertinet ad sensum tactus inquantum est
+              discretivus calidi et frigidi, et hujusmodi contrariorum; sed inquantum est
+              discretivus corporum solidorum quae habent potentiam naturalem resistendi dividenti;
+              et haec quidem soliditas est in corporibus gloriosis, etsi non sint qualitates illae
+              contrariae. Vel dicendum, quod qualitates illae sunt in corpore glorioso, et erunt in
+              elementis quantum ad substantiam, sed non quantum ad actionem, qua unum agat in
+              alterum: continebuntur enim per formam gloriae ne agant, sicut continentur per formam
+              naturalem ne dissolvant conjunctum.</p>
+            <p xml:id="ta-l3d21q2-d1e484">Ad tertium dicendum, quod quamvis glorioso corpori nullum corpus non gloriosum possit
+              resistere; tamen corpus gloriosum potest resistere cuilibet alteri corpori; et
+              secundum hoc potest palpari quando vult.</p>
+            <p xml:id="ta-l3d21q2-d1e488">Ad quartum dicendum, quod quamvis spiritus possit corpus solidum accipere; non tamen
+              potest assumere corpus solidum, in quo appareant omnes operationes vitae, sicut
+              perfecte in Christi corpore apparebant: quia opus artis non potest esse simile
+              operationi naturae. Unde quamvis statim non perciperetur deceptio, si Christus corpus
+              solidum assumpsisset, tamen ex longa mora, qualem contraxit Christus cum discipulis,
+              non potuisset latere: quia illa quae fiunt per artem Daemonis praeter viam naturae,
+              non sunt diuturna.</p>
+            <p xml:id="ta-l3d21q2-d1e491">Ad quintum dicendum, quod per tactum cognoscimus calidum et frigidum, durum et molle,
+              et hujusmodi qualitates, ex quibus naturaliter constituitur corpus; et ideo quamvis
+              tactus sit minus spiritualis inter alios sensus, tamen per eum veritas naturae
+              resurgentis certius probari potuit.</p>
+          </div>
+          <div xml:id="ta-l3d21q2-Dd1e495">
+            <head xml:id="ta-l3d21q2-Hd1e497">Quaestiuncula 3</head>
+            <p xml:id="ta-l3d21q2-d1e500">Ad tertiam quaestionem dicendum, quod cicatrices signa erant mortis Christi: unde
+              secundum hoc accidens ostendebatur quod ille idem qui mortuus fuerat resurrexit.</p>
+            <p xml:id="ta-l3d21q2-d1e503">Ad primum ergo dicendum, quod secundum Augustinum, 22 de Civ. Dei, hujusmodi
+              cicatrices vulnerum remanent in victoribus, et in Christo remanserunt ad decorem quasi
+              insignia victoriae suae, et non quod aliqua corruptio vel defectus ex istis
+              cicatricibus in eis sit. Unde etsi aliquibus sanctis sunt amputata aliqua membra, non
+              oportet quod sine illis resurgant, sed quod in loco incisionis aliquod vestigium ad
+              decorem gloriae remaneat.</p>
+            <p xml:id="ta-l3d21q2-d1e506">Ad secundum dicendum, quod cicatrices istae, ut probabilius videtur, semper in
+              corpore Christi remanebunt ad decorem. Quod autem dicuntur dispensative assumptae, hoc
+              est, non quia ad tempus assumptae sunt, sed quia non est de necessitate materiae quod
+              in Christo remaneant, sicut in nobis accidit, sed propter aliquem finem: in omnibus
+              quidem victoribus propter decorem, in Christo autem propter hoc et propter alia
+              quatuor. Primo ut veritatem resurrectionis astrueret; secundo ut eas patris ejus
+              aspectui praesentaret, pro nobis implorans; tertio ut nobis suae misericordiae et
+              caritatis monstraret indicia; quarto ut in judicio per eas impiis ostenderet quam
+              juste damnentur.</p>
+            <p xml:id="ta-l3d21q2-d1e509">Ad tertium dicendum, quod Thomas ad solum aspectum vulnerum credidit; unde dictum est
+              ei, Joan. 20, 29: <quote xml:id="ta-l3d21q2-Qd1e511">quia vidisti me, credidisti</quote>. Sed tamen tetigit eum,
+              ut a nobis omnem dubitationem excluderet: quia testis erat futurae resurrectionis;
+              unde Leo Papa dicit: <quote xml:id="ta-l3d21q2-Qd1e514">suffecerat ad fidem propriam quod viderat; sed nobis
+                operatus est, ut tangeret quod videbat</quote>. Gloriosa autem Magdalena non
+              eligebatur ut testis resurrectionis in populis: quia non decet mulierem docere in
+              Ecclesia, 1 Corinth. 14, et ideo non est permissa tangere.</p>
+          </div>
+          <div xml:id="ta-l3d21q2-Dd1e519">
+            <head xml:id="ta-l3d21q2-Hd1e521">Quaestiuncula 4</head>
+            <p xml:id="ta-l3d21q2-d1e524">Ad quartam quaestionem dicendum, quod per comestionem ostendit veram remansisse
+              naturam humanam ex illis vitae operibus quae infima sunt, ut prius dictum est.</p>
+            <p xml:id="ta-l3d21q2-d1e527">Ad primum igitur dicendum, quod magis difficile erat ad credendum veritas
+              resurrectionis quam gloria resurgentis resurrectione supposita; et ideo maxime facta
+              sunt argumenta ad probandum veritatem naturae humanae quae manet in statu gloriae
+              quantum ad omnes potentias et membra, ut sit natura integra, quamvis non remaneant
+              omnes usus potentiarum et membrorum, quia non inest necessitas. Et ideo ista comestio
+              non fuit necessitatis, sicut est in animali vita, sed magis fuit potestatis, idest
+              naturalis potentiae ostensiva.</p>
+            <p xml:id="ta-l3d21q2-d1e530">Ad secundum dicendum quod fuit ibi comestio quantum ad divisionem cibi, et quantum ad
+              trajectionem in ventrem, non autem quantum ad conversionem in humores. Cibus autem
+              ille, ut dicit Augustinus, in spiritualem naturam conversus est, idest in vaporem
+              resolutus, sicut aqua per radium solis.</p>
+            <p xml:id="ta-l3d21q2-d1e533">Ad tertium dicendum, quod in Angelis non est comestio ad ostendendum potentiam
+              naturalem nutritivam, quia eam non habent, sicut Christus eam habuit; et ideo non est
+              simile. Et quamvis unum istorum argumentorum ex se non sufficeret, tamen omnia simul
+              certitudinem faciebant; et ideo etiam argumenta multiplicata sunt.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l3d21q2-Dd1e538">
+          <head xml:id="ta-l3d21q2-Hd1e540">Expositio textus</head>
+          <p xml:id="ta-l3d21q2-d1e543"><quote xml:id="ta-l3d21q2-Qd1e544">Nemo tollit eam a me</quote>. Contra. Ergo Christus non fuit per violentiam
+            crucifigentium occisus. Dicendum, quod illi quantum in eis erat, violentiam intulerunt;
+            quamvis Christo violentia inferri non potuit ex parte personae, sed solum ex parte
+            corporis humani. Item, <quote xml:id="ta-l3d21q2-Qd1e547">homo in illo mutatus est, ut melior fieret quam
+              erat</quote>. Contra. Naturae manserunt utrinque in unitate. Dicendum, quod humana
+            natura in Christo per hoc quod est assumpta in unitatem divinae personae, non est mutata
+            a sua naturali conditione; sed accepit ampliorem perfectionem, secundum quam facta est
+            melior.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

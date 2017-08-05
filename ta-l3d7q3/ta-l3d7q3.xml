@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum III, Distinctio 7, Quaestio 3</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.09-dev-master">
+          <title>Librum III, Distinctio 7, Quaestio 3</title>
+          <date when="2016-03-01">March 01, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-01">March 01, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness>1856 editum</witness>
+          <witness xml:id="H" n="harv245" xml:base="http://iiif.lib.harvard.edu/manifests/drs:51994085/canvas/">Cambridge, Mass., Harvard University, Houghton Library, MS Lat 245</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="2015.09">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+      <div xml:id="starts-on">
+        
+        <cb ed="#H" n="33ra"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ta-l3d7q3">
+        <head xml:id="ta-l3d7q3-Hd1e97">Librum III, Distinctio 7, Quaestio 3</head>
+        <div xml:id="ta-l3d7q3-Dd1e100">
+          <head xml:id="ta-l3d7q3-Hd1e102">Prooemium</head>
+          <p xml:id="ta-l3d7q3-d1e105">Deinde quaeritur de locutionibus exprimentibus unionem cum hoc participio praedestinatus; et circa hoc quaeruntur duo: 1 utrum hic homo sit praedestinatus esse filius Dei; 2 utrum filius Dei sit praedestinatus.</p>
+        </div>
+        <div xml:id="ta-l3d7q3-Dd1e109">
+          <head xml:id="ta-l3d7q3-Hd1e111">Articulus 1</head>
+          <head xml:id="ta-l3d7q3-Hd1e114" type="questionTitle">Utrum homo Christus sit praedestinatus filius Dei</head>
+          <p xml:id="ta-l3d7q3-d1e117">Ad primum sic proceditur. Videtur quod homo Christus non sit praedestinatus esse filius Dei. Quia sicut illud quod semper fuit, non fit, ita id quod semper fuit, non praedestinatur, quia praedestinatio importat antecessionem. Sed homo Christus supponit suppositum aeternum, quod semper fuit filius Dei. Ergo sicut ratione ista non potest dici quod homo sit factus Deus; ita non potest dici quod sit praedestinatus filius Dei.</p>
+          <p xml:id="ta-l3d7q3-d1e120">Praeterea, homo non importat nisi humanam naturam et suppositum aeternum. Sed humana natura non est praedestinata esse filius, quia nunquam fuit nec est nec erit filius Dei: similiter haec est falsa: divina persona, quae est suppositum aeternum, est praedestinata esse filius Dei: quia naturaliter et ab aeterno hoc habet. Ergo et haec est falsa: hic homo est praedestinatus filius Dei.</p>
+          <p xml:id="ta-l3d7q3-d1e123">Praeterea, praedestinatio praecedit illud respectu cujus est. Sed aeternum non praeceditur ab aliquo. Ergo non potest esse praedestinatio respectu aeterni. Sed filius Dei est aeternus. Ergo homo non potest esse praedestinatus filius Dei.</p>
+          <p xml:id="ta-l3d7q3-d1e127">Praeterea, quidquid est praedestinatum, ab aeterno fuit praedestinatum. Si ergo iste homo est praedestinatus esse filius Dei, vel Christus, secundum quod homo; oportet quod ab aeterno homo fuerit praedestinatus. Ergo ab aeterno fuit homo: praedestinatus enim est participium praeteriti temporis; et hujusmodi participia vel verba restringunt nomen substantivum sibi adjunctum ad supponendum pro praeteritis.</p>
+          <p xml:id="ta-l3d7q3-d1e130">Praeterea, praedestinatio etiam secundum nomen importat directionem in finem. Sed non potest aliquod dirigi in finem nisi ad minus secundum intellectum sit ante finem illum. Cum igitur secundum secundam opinionem, etiam secundum intellectum, Christus non prius intelligatur homo quam filius Dei; videtur quod ille homo non possit dici praedestinatus esse filius Dei.</p>
+          <p xml:id="ta-l3d7q3-d1e133">Sed contra, Rom. 1, 4: <quote xml:id="ta-l3d7q3-Qd1e135" ana="#rom1_4">qui praedestinatus est filius Dei in virtute</quote>.</p>
+          <p xml:id="ta-l3d7q3-d1e139">Praeterea, Christus est filius Dei per gratiam unionis, et hoc est praevisum ab aeterno, et a Deo propositum. Ergo Christus est praedestinatus esse filius Dei.</p>
+          <p xml:id="ta-l3d7q3-d1e142">Respondeo dicendum, quod praedestinatio proprie accepta tria importat ex parte ejus qui dicitur praedestinari. Unum est quod hoc ad quod praedestinari dicitur, aliquando sibi conveniat; secundum autem est quod conveniat sibi per gratiam; tertium vero est quod sequatur praedestinationem: ex hoc enim dicitur praedestinatus quod est praevisus et praeordinatus habiturus aliquid per gratiam. Quantum ad primum ergo horum, manifeste in Christo praedestinatio supposito convenit: quia hic homo est filius Dei; sed hoc non invenitur in natura humana, quae nunquam fuit nec est nec erit filius Dei: unde non proprie potest dici esse praedestinatus filius Dei, sed ut assumatur a filio Dei: hoc enim sibi convenit. Secundum autem invenitur in Christo secundum secundam opinionem et tertiam, non ratione suppositi, quod naturaliter est filius Dei, sed ratione naturae assumptae, quae per gratiam unionis unitur filio Dei: ex qua unione contingit hanc esse veram, homo est filius Dei. Sed secundum primam opinionem, etiam ratione suppositi: quia hoc quod supponitur per hoc nomen homo, non habet per naturam quod sit filius Dei, sed per gratiam unionis, quia non est suppositum aeternum. Similiter etiam tertium quantum ad primam opinionem convenit homini ratione suppositi humanae naturae, quod quidem non fuit semper filius Dei; secundum autem secundam et tertiam opinionem non convenit homini ratione suppositi, sed ratione naturae: quia suppositum illud semper fuit filius Dei, sed non semper in humanitate existens fuit. Unde quantum ad duas ultimas conditiones magis propria est praedicta locutio secundum primam opinionem quam secundum alias, sed quantum ad primam conditionem est propria secundum alias, non autem secundum primam, secundum quam, ut praedictum est, quaest. 1, art. 1, non potest homo proprie praedicari de Deo, vel e converso.</p>
+          <p xml:id="ta-l3d7q3-d1e145">Ad primum ergo dicendum, quod diversa consideratio nihil variat eorum quae sunt in re, variat autem ea quae pertinent ad actum animae. Hoc autem participium factus imponitur ab actu qui est in re. Ergo cum supposito aeterno secundum se non conveniat quod sit factus Deus, neque conveniet ei secundum quod consideratur subsistens in humana natura. Praedestinatus autem est participium quod imponitur ab actu animae, scilicet praevidere, vel praeordinare: et ideo quamvis supposito aeterno non conveniat secundum se praedestinari esse filium Dei, convenit tamen sibi secundum quod est humanae naturae suppositum; sicut si homo fiat albus, haec est falsa, homo albus incipit esse homo; sed haec potest esse vera, homo albus incipit cogitari quod sit homo.</p>
+          <p xml:id="ta-l3d7q3-d1e149">Ad secundum dicendum, quod, sicut dictum est, praedestinatio non est naturae, neque personae secundum se, sed personae ratione naturae assumptae.</p>
+          <p xml:id="ta-l3d7q3-d1e152">Ad tertium dicendum, quod quamvis filius Dei sit aeternus, tamen unio ad filium Dei non est aeterna: et secundum hoc potest homo praedestinari esse filius Dei, sicut Petrus praedestinatur ut conjungatur Deo aeterno per gratiam vel gloriam.</p>
+          <p xml:id="ta-l3d7q3-d1e155">Ad quartum dicendum, quod duplici ratione hoc participium praedestinatus non cogit hominem stare pro praeterito. Primo, quia licet secundum vocem sit praeteriti temporis, tamen includit participium futuri temporis: praedestinatus enim idem est quod praescitus habiturus aliquid per gratiam. Secundo, quia pertinet ad actum animae, et ex hoc habet vim ampliandi ad quodlibet temporis; sicut cum dicitur, homo laudatur, potest intelligi de praesenti, praeterito, vel futuro: actus enim animae se extendit etiam ad ea quae non sunt.</p>
+          <p xml:id="ta-l3d7q3-d1e158">Ad quintum dicendum, quod licet homo non praeintelligatur ad filium Dei ratione suppositi, tamen praeintelligitur ratione naturae.</p>
+        </div>
+        <div xml:id="ta-l3d7q3-Dd1e162">
+          <head xml:id="ta-l3d7q3-Hd1e164">Articulus 2</head>
+          <head xml:id="ta-l3d7q3-Hd1e167" type="questionTitle">Utrum filius Dei sit praedestinatus esse homo</head>
+          <div xml:id="ta-l3d7q3-Dd1e170">
+            <head xml:id="ta-l3d7q3-Hd1e172">Quaestiuncula 1</head>
+            <p xml:id="ta-l3d7q3-d1e175">Ad secundum sic proceditur. Videtur, quod filius Dei non sit praedestinatus esse homo. Praedestinatio enim praecedit praedestinatum. Sed filium Dei nihil praecedit. Ergo ipse non est praedestinatus esse homo.</p>
+            <p xml:id="ta-l3d7q3-d1e178">Praeterea, homo non dicitur aequivoce de filio Dei et Petro. Sed Petrus non est praedestinatus esse homo. Ergo nec filius Dei.</p>
+            <p xml:id="ta-l3d7q3-d1e181">Praeterea, hoc dicitur alicui praedestinari quod convenit ei per gratiam. Sed non est gratia filio Dei quod sit homo. Ergo filius Dei non est praedestinatus esse homo.</p>
+            <p xml:id="ta-l3d7q3-d1e184">Sed contra, omne quod est praevisum et ordinatum ab aeterno est praedestinatum. Sed filius Dei ab aeterno praevisus est esse filius hominis. Ergo est praedestinatus esse filius hominis.</p>
+          </div>
+          <div xml:id="ta-l3d7q3-Dd1e188">
+            <head xml:id="ta-l3d7q3-Hd1e190">Quaestiuncula 2</head>
+            <p xml:id="ta-l3d7q3-d1e193">Ulterius. Videtur quod haec sit vera: filius Dei praedestinatus est esse filius Dei. Quaecumque enim praedicantur de filio hominis, praedicantur de filio Dei. Sed haec est vera: filius hominis praedestinatus est esse filius Dei, ut dictum est. Ergo et haec: filius Dei praedestinatus est esse filius Dei.</p>
+            <p xml:id="ta-l3d7q3-d1e196">Praeterea, filius Dei, inquantum est homo, praedestinatus est esse filius Dei. Sed alia quae praedicantur de filio Dei inquantum homo, praedicantur de ipso etiam sine reduplicatione; sicut filius Dei, inquantum homo, est mortuus; et tamen haec conceditur: filius Dei est mortuus. Ergo similiter haec debet concedi: filius Dei est praedestinatus esse filius Dei.</p>
+            <p xml:id="ta-l3d7q3-d1e199">Praeterea, ad veritatem locutionis non oportet quod praedicatum per se subjecto conveniat, nisi circa subjectum reduplicatio ponatur. Sed praedestinatum esse aliquo modo convenit filio Dei, quia inquantum homo. Ergo potest concedi simpliciter: filius Dei est praedestinatus esse filius Dei; quamvis non concedatur, quod filius Dei, inquantum filius Dei, est praedestinatus esse filius Dei.</p>
+            <p xml:id="ta-l3d7q3-d1e202">Sed contra, quod semper inest alicui, non praedestinatur ei. Sed esse filium Dei ab aeterno convenit filio Dei. Ergo non praedestinatur ei; ergo haec est falsa: filius Dei est praedestinatus esse filius Dei.</p>
+          </div>
+          <div xml:id="ta-l3d7q3-Dd1e206">
+            <head xml:id="ta-l3d7q3-Hd1e208">Quaestiuncula 3</head>
+            <p xml:id="ta-l3d7q3-d1e211">Ulterius. Videtur, quod haec sit vera: filius Dei praedestinatus est simpliciter. Sicut enim praedestinatus importat effectum temporalem; ita mittitur et datur. Sed conceditur quod filius Dei est missus et datus. Ergo etiam debet concedi quod filius Dei est praedestinatus.</p>
+            <p xml:id="ta-l3d7q3-d1e214">Praeterea, in aliis qui sunt praedestinati ad vitam aeternam, non oportet quod addatur ad quid praedestinati sunt; sed sufficit eos dicere esse praedestinatos. Sed filius Dei est praedestinatus esse homo. Ergo filius Dei debet dici esse praedestinatus simpliciter.</p>
+            <p xml:id="ta-l3d7q3-d1e217">Praeterea, in Christo non est nisi unum suppositum. Sed de illo supposito potest dici simpliciter, quod sit praedestinatum: dicitur enim, quod homo est praedestinatus. Ergo potest filius Dei esse praedestinatus.</p>
+            <p xml:id="ta-l3d7q3-d1e220">Sed contra, aeternum non praedestinatur. Sed filius Dei est aeternus. Ergo non est praedestinatus.</p>
+          </div>
+          <div xml:id="ta-l3d7q3-Dd1e225">
+            <head xml:id="ta-l3d7q3-Hd1e227">Quaestiuncula 1</head>
+            <p xml:id="ta-l3d7q3-d1e230">Respondeo, ad primam quaestionem dicendum, quod praedestinatio importat ordinem ad finem (quia praedestinare est mittere vel ordinare in aliquid); unde quando simpliciter ponitur, intelligitur praeordinatio ad finem ultimum, qui est in conjunctione ad Deum per gratiam vel gloriam, vel unionem in persona: sed quando additur ei aliquid, tunc importat praeordinationem tantum in illud quod ei adjungitur; et per hunc modum conceditur quod filius Dei est praedestinatus esse homo, quia hoc ab aeterno praeordinatum est.</p>
+            <p xml:id="ta-l3d7q3-d1e233">Ad primum ergo dicendum, quod praedestinatio non importat antecessionem ad praedestinatum simpliciter, sed in comparatione ad illud quod sibi praedestinari dicitur. Quamvis autem filius Dei sit ab aeterno, non tamen ab aeterno fuit homo.</p>
+            <p xml:id="ta-l3d7q3-d1e236">Ad secundum dicendum, quod suppositum Petri non fuit antequam esset Petrus homo; et ideo non potest dici quod sit praedestinatus esse homo: sed suppositum filii Dei fuit antequam ipse esset homo; et ideo non est similis ratio. Et iterum Petrus nullo modo habet esse homo per gratiam; filius autem Dei habet esse homo per gratiam unionis, non quidem sibi factam, sed humanae naturae.</p>
+            <p xml:id="ta-l3d7q3-d1e239">Ad tertium dicendum, quod quamvis non sit gratia filio Dei quod sit homo, tamen hoc habet per gratiam unionis, per quam humana natura assumpta est in unitatem divinae naturae.</p>
+          </div>
+          <div xml:id="ta-l3d7q3-Dd1e243">
+            <head xml:id="ta-l3d7q3-Hd1e245">Quaestiuncula 2</head>
+            <p xml:id="ta-l3d7q3-d1e248">Ad secundam quaestionem dicendum, quod in sacra Scriptura dicitur aliquando aliquid fieri, quando innotescit. Hoc ergo quod est esse filium Dei, potest accipi vel secundum rei veritatem, vel secundum evidentiam, prout scilicet manifestatur. Si primo modo, tunc falsum est quod filius Dei sit praedestinatus esse filius Dei, cum non ponatur in locutione aliquid respectu cujus possit denotari antecessio, quam importat praedestinatio. Si autem accipiatur secundo modo, sic Glossa super illud Rom. 1: <quote xml:id="ta-l3d7q3-Qd1e250">qui praedestinatus est filius Dei in virtute</quote>, concedit quod filius Dei praedestinatus sit ut sit filius Dei, idest ut evidenter appareat; quod fuit in resurrectione factum; unde et ipse tunc dixit: <quote xml:id="ta-l3d7q3-Qd1e253">data est mihi omnis potestas in caelo et in terra</quote>; et secundum hunc sensum est eadem ratio de ista sicut de praecedenti, qua dicitur: filius Dei praedestinatus est esse homo: quia praedestinatio simpliciter importat praeordinationem. Quantum ergo ad primum sensum haec est falsa: filius Dei est praedestinatus esse filius Dei.</p>
+            <p xml:id="ta-l3d7q3-d1e257">Ad primum ergo dicendum, quod eorum quae dicuntur de homine, illa tantum dicuntur de filio Dei quae non habent repugnantiam intellectuum ad filium Dei. Sed praedestinatus habet repugnantiam: quia filius Dei aeternus est; praedestinatio autem importat antecessionem, quae non est respectu aeterni.</p>
+            <p xml:id="ta-l3d7q3-d1e260">Ad secundum dicendum, quod illa quae praedicantur de filio Dei inquantum est homo, non habent aliquam repugnantiam ad filium Dei; et ideo non est similis ratio.</p>
+            <p xml:id="ta-l3d7q3-d1e263">Et similiter dicendum est ad tertium.</p>
+          </div>
+          <div xml:id="ta-l3d7q3-Dd1e267">
+            <head xml:id="ta-l3d7q3-Hd1e269">Quaestiuncula 3</head>
+            <p xml:id="ta-l3d7q3-d1e272">Ad tertiam quaestionem dicendum, quod haec similiter est falsa: filius Dei est praedestinatus, cum non ponatur aliquid respectu cujus possit antecessio denotari; sed haec: filius Dei est praedestinatus inquantum est homo, est vera: quia potest importari antecessio respectu hominis quantum ad naturam.</p>
+            <p xml:id="ta-l3d7q3-d1e275">Ad primum ergo dicendum, quod missio non importat temporalitatem in eo qui mitti dicitur, sed magis in eo ad quem mitti dicitur, in quo per novum effectum inhabitat; et ideo mitti dicitur persona divina. Sed praedestinatus ponit posterioritatem respectu praedestinationis in eo qui praedestinatur; et ideo non est similis ratio.</p>
+            <p xml:id="ta-l3d7q3-d1e278">Ad secundum dicendum, quod in aliis praedestinatis potest antecessio importari respectu ipsorum qui praedestinati dicuntur; quod non est de filio Dei; et ideo non est similis ratio.</p>
+            <p xml:id="ta-l3d7q3-d1e281">Ad tertium dicendum, quod quamvis non sit nisi unum suppositum, tamen est duarum naturarum suppositum; et potest sibi aliquid convenire respectu unius naturae quod non convenit sibi absolute, sicut esse creaturam.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l3d7q3-Dd1e286">
+          <head xml:id="ta-l3d7q3-Hd1e288">Expositio textus</head>
+          <p xml:id="ta-l3d7q3-d1e291"><quote xml:id="ta-l3d7q3-Qd1e292">Factus est sine dubio id quod prius non erat</quote>. Haec locutio est impropria; quia non potest intelligi neque de natura, quia Deus non est factus humana natura; neque de persona, sive de supposito, quia illud suppositum semper fuit, secundum secundam opinionem; unde exponenda est: illud quod prius non erat, idest, habens naturam quam prius non habebat. <quote xml:id="ta-l3d7q3-Qd1e295">Quia Deus assumpsit hominem</quote>, idest humanam naturam, ut supra, dist. 5, glossavit; alias esset contra hanc opinionem quae dicit, hominem non esse assumptum, sed humanam naturam. <quote xml:id="ta-l3d7q3-Qd1e298">Variatur autem intelligentia, cum dicitur, Deus est homo, et homo est Deus</quote>. Ratio variationis est quia divina natura praedicatur de Christi persona, non autem humana. <quote xml:id="ta-l3d7q3-Qd1e301">Quod etiam dictum est utrumque est, Christus, et una persona, movere potest lectorem</quote>. Hoc positum est supra in illo capitulo: <quote xml:id="ta-l3d7q3-Qd1e304">sed his videntur adversari. Hic etiam cum dicitur, minor est patre Christus secundum quod homo, secundum habitum hoc intelligunt dictum</quote>. Ideo hoc exponit secundum hanc opinionem, quia haec opinio non potest hoc sustinere, cum supra dixerit Augustinus in 1 Lib., quod spiritus sanctus non est minor seipso propter columbam in qua visibiliter apparuit. <quote xml:id="ta-l3d7q3-Qd1e307">Hoc firmiter tenens quod Deus hominem assumpsit</quote>. Exponendum est ut supra, ut homo ponatur pro natura humana, sicut ipse docuit supra, dist. 5, exponere.</p>
+        </div>
+      </div>
+      
+  </body>
+</text>
+</TEI>

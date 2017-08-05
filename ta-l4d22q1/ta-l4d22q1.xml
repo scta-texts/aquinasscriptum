@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 22, Quaestio 1</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Librum IV, Distinctio 22, Quaestio 1</title>
+          <date when="2016-03-19">March 19, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-19">March 19, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness>1856 editum</witness>
+          <witness xml:id="G" n="ghent567">Ghent, Belgium, Ghent University Library, 567</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="0.0.0-dev">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+
+
+
+
+      <div xml:id="starts-on">
+        <cb ed="#G" n="385b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ta-l4d22q1">
+        <head xml:id="ta-l4d22q1-Hd1e97">Librum IV, Distinctio 22, Quaestio 1</head>
+        <head xml:id="ta-l4d22q1-Hd1e100">Distinctio 22</head>
+        <div xml:id="ta-l4d22q1-Dd1e103">
+          <head xml:id="ta-l4d22q1-Hd1e105">Prooemium</head>
+          <p xml:id="ta-l4d22q1-d1e108">Postquam determinavit Magister de tempore poenitentiae, quod concomitatur ipsam
+            poenitentiam, hic determinat quaedam quae pertinent ad effectum ipsius, qui est remissio
+            peccatorum; et dividitur in partes duas: in prima inquirit, utrum remissio peccatorum
+            sit irrevocabilis, an peccata dimissa quandoque redeant; in secunda, quia in quolibet
+            sacramento effectus est res ipsius, inquirit quid sit sacramentum et res in poenitentia,
+            ibi: <quote xml:id="ta-l4d22q1-Qd1e110">post praedicta restat investigare</quote> et cetera. Circa primum tria
+            facit: primo movet quaestionem; secundo ponit diversas opiniones circa solutionem ipsius
+            quaestionis, ibi: <quote xml:id="ta-l4d22q1-Qd1e113">cujus quaestionis solutio obscura est et perplexa</quote>.
+            Tertio opiniones prosequitur, ibi: <quote xml:id="ta-l4d22q1-Qd1e116">qui vero dicunt, peccata dimissa redire,
+              subditis se muniunt testimoniis</quote>. Et circa hoc duo facit: primo prosequitur
+            primam opinionem; secundo secundam, ibi: <quote xml:id="ta-l4d22q1-Qd1e119">sed quia absonum videtur ut peccata
+              dimissa iterum imputentur, placet quibusdam, neminem pro peccatis semel dimissis
+              iterum a Deo puniri</quote>. Circa primum tria facit: primo ponit auctoritates quibus
+            confirmatur prima opinio; secundo objicit in contrarium; ibi: <quote xml:id="ta-l4d22q1-Qd1e122">quibus
+              opponitur</quote> et cetera. Tertio ponitur eorum solutio, ibi: <quote xml:id="ta-l4d22q1-Qd1e126">sed ad hoc
+              potest dici</quote> et cetera. <quote xml:id="ta-l4d22q1-Qd1e129">Post praedicta restat investigare</quote> et
+            cetera. Hic inquirit, quid sit sacramentum et quid res in poenitentia; et circa hoc duo
+            facit: primo movet quaestionem; secundo solvit eam, ibi: <quote xml:id="ta-l4d22q1-Qd1e132">quidam enim dicunt
+              sacramentum hic esse quod exterius tantum geritur</quote>. Et dividitur in partes duas
+            secundum duas opiniones quas ponit; secunda incipit, ibi: <quote xml:id="ta-l4d22q1-Qd1e135">quidam autem dicunt,
+              exteriorem poenitentiam et interiorem esse sacramentum</quote>. Circa primum duo
+            facit: primo narrat opinionem; secundo narrat objectiones in contrarium, ibi:
+              <quote xml:id="ta-l4d22q1-Qd1e138">quod si est, non omne sacramentum evangelicum id efficit quod figurat</quote>.
+            Et dividitur in partes duas secundum duas objectiones quas ponit; secunda incipit, ibi:
+              <quote xml:id="ta-l4d22q1-Qd1e141">item si exterior poenitentia sacramentum est, et interior res sacramenti,
+              saepius praecedit res sacramentum quam sacramentum rem</quote>. Et utraque dividitur
+            in objectionem et solutionem, ut per se patet. Hic est duplex quaestio. Prima de reditu
+            peccatorum. Secunda de eo quod est sacramentum vel res in poenitentia. Circa primum
+            quaeruntur quatuor: 1 utrum peccata dimissa redeant; 2 de ingratitudine, per quam
+            peccata redire dicuntur; 3 quae peccata per ingratitudinem redire possunt; 4 utrum
+            recidivans teneatur confiteri peccata de quibus prius confessus fuerat.</p>
+
+        </div>
+        <div xml:id="ta-l4d22q1-Dd1e146" type="articulus">
+          <head xml:id="ta-l4d22q1-Hd1e148">Articulus 1</head>
+
+          <head xml:id="ta-l4d22q1-Hd1e151" type="questionTitle">Utrum peccata dimissa redeant in eo qui recidivat</head>
+
+          <p xml:id="ta-l4d22q1-d1e154">Ad primum sic proceditur. Videtur quod peccata dimissa redeunt in eo qui recidivat.
+            Dicit enim Leo Papa: <quote xml:id="ta-l4d22q1-Qd1e156">quae divina misericordia solidavit in ea revolvit prurigo;
+              quoniam iterata iniquitas misericordiam concessam exinanivit</quote>. Ergo videtur
+            quod per recidivum peccata dimissa redeant.</p>
+          <p xml:id="ta-l4d22q1-d1e160">Praeterea, remoto operculo apparet quod operiebatur. Sed <quote xml:id="ta-l4d22q1-Qd1e162">caritas operit
+              multitudinem peccatorum</quote>; 1 Petr., 4, 24. Ergo remota caritate per peccatum
+            sequens, redeunt peccata dimissa.</p>
+          <p xml:id="ta-l4d22q1-d1e166">Praeterea, Ezech. 18, 24, dicitur: <quote xml:id="ta-l4d22q1-Qd1e168">si averterit se justus a justitia sua (...)
+              omnes suae justitiae quas fecerat, non recordabuntur</quote>. Ergo in eodem statu est
+            ac si nullam justitiam fecisset. Sed si non fecisset justitiam poenitentiae, non essent
+            ei peccata dimissa. Ergo dimissio illa annullatur; et sic peccata dimissa redeunt.</p>
+          <p xml:id="ta-l4d22q1-d1e173">Praeterea, magis peccat qui offendit Deum quam qui offendit hominem. Sed si aliquis est
+            ab aliquo domino manumissus, per offensam in ipsum commissam iterum reducitur in
+            servitutem. Ergo multo fortius, si aliquis divina gratia a servitute peccati liberatus
+            Deum per recidivum peccati offendat, in pristinam servitutem revocatur; et sic peccata
+            dimissa redeunt.</p>
+          <p xml:id="ta-l4d22q1-d1e176">Praeterea, esto quod aliquis post veram contritionem de peccatis praeteritis cadat in
+            peccatum, et moriatur statim; constat quod in Infernum descendat. Ergo de peccatis quae
+            sibi dimissa fuerunt, ibi punitur, cum non sit sibi poena totaliter remissa. Ibi vero
+            punietur aeternaliter, quia in Inferno nulla est redemptio. Ergo similem reatum incurrit
+            ei quem habebat; et ita videtur quod in isto peccata dimissa redeunt; et similis ratio
+            est de illo qui confessus est, et non satisfecit plene.</p>
+          <p xml:id="ta-l4d22q1-d1e179">Praeterea, sicut per poenitentiam remittuntur peccata, ita per peccatum actuale
+            mortificantur merita praecedentia. Sed per poenitentiam, quae peccatum destruit, priora
+            merita reviviscunt. Ergo per peccatum quod poenitentiam destruit, qua remittebatur
+            peccatum, peccata dimissa reviviscunt.</p>
+          <p xml:id="ta-l4d22q1-d1e182">Sed contra Augustinus in Lib. de responsionibus prosperi: <quote xml:id="ta-l4d22q1-Qd1e184">qui recedit a Christo,
+              et alienatus a gratia finit hanc vitam, quid nisi in perditionem vadit? Sed non in id
+              quod dimissum est, redit, nec originali peccato damnabitur</quote>. Ergo peccata
+            dimissa non redeunt.</p>
+          <p xml:id="ta-l4d22q1-d1e188">Praeterea, eodem peccato et aequali unus non fit alio deterior. Sed contingit
+            innocentem et poenitentem eodem et aequali peccato mortali peccare. Ergo poenitens non
+            fit deterior per hoc peccatum quam innocens. Fieret autem, si peccata dimissa redeant.
+            Ergo non redeunt.</p>
+          <p xml:id="ta-l4d22q1-d1e191">Praeterea, contrarium non reducit suum contrarium. Sed contingit quandoque quod
+            peccatum quod aliquis post poenitentiam committit, est contrarium peccato quod per
+            poenitentiam deletum est, sicut avaritia prodigalitati. Ergo peccatum sequens non
+            reducit peccatum praecedens.</p>
+          <p xml:id="ta-l4d22q1-d1e195">Praeterea, nullus incurrit peccati maculam vel reatum, nisi ex commissione ipsius
+            peccati. Sed poenitens antequam faceret simplicem fornicationem, non habebat maculam vel
+            reatum homicidii, quod sibi jam dimissum erat. Ergo nec postea fornicando homicidium
+            committit; ergo non redit homicidium sibi dimissum quantum ad culpam, neque quantum ad
+            reatum.</p>
+          <p xml:id="ta-l4d22q1-d1e198">Respondeo dicendum, quod aliquo modo redire peccata oportet dicere; quia auctoritates
+            expresse hoc dicunt. Quidam simpliciter hoc concesserunt in omni qui patitur recidivum;
+            nec fuit intentio eorum dicere, quod actus ille peccati idem numero revocaretur, vel
+            eadem numero macula quae prius ablata fuerat per poenitentiam; quia quod omnino in
+            nihilum decidit, idem numero resumi non potest; sed ita quod sicut per peccata commissa
+            aliquis impediebatur ante peractam poenitentiam de eis ne gratiam a Deo reciperet; ita
+            eisdem impeditur postquam a statu poenitentiae decidit per peccatum mortale, quo
+            recidivat. Sic enim dicitur peccatum mortale quantum ad culpam manere, in quantum ex
+            actu qui jam praeteriit, impeditur aliquis a gratiae receptione, sicut a quodam
+            obstaculo posito inter Deum et animam; remitti autem quo ad culpam, quando ratione
+            actuum praeteritorum aliquis gratia non privatur. Sed haec opinio non potest stare; quia
+            ad causandum tenebras utrumque duorum per se sufficit, scilicet dispositio recipientis,
+            et interpositio obstaculi; unde si tenebrae debeant amoveri, oportet et indispositionem
+            tolli, et obstaculum amoveri; et ita poenitentia, quae tenebras peccati tollebat, non
+            solum removebat indispositionem quae erat in anima ad gratiam suscipiendam, sed etiam
+            removebat obstaculum praecedentis peccati, non quidem ita quod actus ille non
+            praecesserit, sed quod non haberet vim impediendi gratiam actus praecedens; quae quidem
+            vis praedicto actui restitui non potest, nisi iteretur; quod est impossibile. Et ideo
+            non potest dici, quod praedicto modo peccata quo ad maculam redeunt. Et ideo alii
+            dixerunt, quod non redit peccatum dimissum per quodlibet peccatum sequens, sed quatuor
+            tantum; scilicet per odium fraternum, per apostasiam a fide, per contemptum
+            confessionis, et per hoc quod aliquis dolet se poenituisse; unde fecerunt versus:
+              <quote xml:id="ta-l4d22q1-Qd1e200">fratres odit, apostata fit, spernitque fateri, poenituisse piget; pristina
+              culpa redit</quote>. Sed haec opinio minus habet de ratione quam prima; quia non magis
+            potest assignare causam quare per haec peccata redeant peccata dimissa quam per alia,
+            cum etiam alia contingat quandoque esse graviora; nisi quod ex auctoritatibus et
+            quibusdam rationibus frivolis inducebantur ad dicendum, quod per haec peccata redirent
+            peccata dimissa; et videbatur eis absurdum quod per omne peccatum sequens praecedentia
+            redirent. Nec sufficit quod dicunt, quod Deus dimittat peccata sub conditione vitandi
+            ista quatuor; quia causa sufficiens inducit effectum suum absolute, nihil expectans a
+            futuro; gratia autem et passio Christi, ex cujus virtute sacramenta efficaciam habent,
+            sufficientissime se habent ad omnem culpam delendam. Et praeterea nulla est ratio quare
+            magis sub ratione vitandi haec peccata, priora remittantur quam sub conditione vitandi
+            alia; cum omne peccatum contrarietur gratiae, per quam fit remissio peccatorum. Et ideo
+            dicendum est cum aliis, quod aliquid potest redire dupliciter: vel in se; et sic peccata
+            dimissa nullo modo redeunt quantum ad maculam, et per consequens nec quantum ad reatum:
+            vel in suo effectu; et hoc modo peccata dimissa redeunt, inquantum ex dimissis peccatis
+            aliquid in sequentibus relinquitur. Ex hoc enim quod homo Deum per peccatum offendit
+            post remissionem praecedentium peccatorum, quamdam deformitatem ingratitudinis actus
+            sequentis peccati acquirit; et ideo dicitur communiter, quod redeunt quantum ad
+            ingratitudinem.</p>
+          <p xml:id="ta-l4d22q1-d1e204">Ad primum ergo dicendum, quod misericordia Dei, per quam fiebat remissio peccatorum, ad
+            duo ordinatur. Ad unum in praesenti, scilicet remissionem praecedentium peccatorum; et
+            quantum ad hunc effectum non exinanitur peccatum sequens. Ad aliud in futuro, scilicet
+            ad vitam aeternam consequendam; quia gratia, per quam fiebat remissio peccatorum,
+            faciebat dignum vita aeterna; et quantum ad hunc effectum exinanitur per sequens
+            peccatum.</p>
+          <p xml:id="ta-l4d22q1-d1e207">Ad secundum dicendum, quod caritas dicitur operire peccata Deo, qui omnia videt; unde
+            oportet quod ea destruat, non quidem faciens ut actus non praecesserit, sed quod vim
+            impediendi gratiam non habeat. Sed coram oculis hominum aliquid potest operiri quod de
+            se manet; et de tali operimento objectio procedebat.</p>
+          <p xml:id="ta-l4d22q1-d1e210">Ad tertium dicendum, quod justitiae ejus non rememorabuntur quantum ad effectum qui ex
+            eis expectabatur in futuro, quia per eas ad vitam aeternam non perveniet; sed
+            rememorabuntur quantum ad hunc effectum qui est peccata praeterita abolere, quem in
+            praesenti faciebant.</p>
+          <p xml:id="ta-l4d22q1-d1e213">Ad quartum dicendum, quod quamvis aliquis manumissus reducatur in eamdem servitutem de
+            qua liberatus fuerat, non tamen ut sit ex eadem causa servus, ex qua primo fuerat, sed
+            ex alia, scilicet offensa post manumissionem commissa. Et similiter qui recidivat,
+            reducitur in servitutem peccati, non tamen ut sit servus peccati ex actibus peccatorum
+            ex quibus prius erat, sed ex actu istius peccati sequentis. Unde peccata dimissa non
+            redeunt, sed novum inducitur.</p>
+          <p xml:id="ta-l4d22q1-d1e217">Ad quintum dicendum, quod pro illa parte poenae quae sibi dimissa est in confessione
+            vel contritione, nunquam punietur, sed pro residua; in aeternum tamen, ut quidam dicunt:
+            quia ratione fori in quo punitur, aeterna poena debetur; sicut est in venialibus, quae
+            in Purgatorio puniuntur poena temporali, et in Inferno aeterna. Sed hoc non videtur
+            simile; quia veniale ideo in Inferno aeternaliter punitur, quia semper manet, cum non
+            sit ibi aliquid quod culpam delere possit; sed poena ex hoc ipso quod solvitur,
+            expiatur. Et ideo alii dicunt, quod poena cujus est aliquis debitor post culpam
+            remissam, in Inferno punietur temporaliter. Nec propter hoc sequitur quod sit in Inferno
+            redemptio; quia poena quae solvitur, non redimitur. Nec est inconveniens quod quantum ad
+            aliquid accidentale poena Inferni minuatur usque ad diem judicii, sicut etiam
+            augetur.</p>
+          <p xml:id="ta-l4d22q1-d1e220">Ad sextum dicendum, quod peccatum mortale non mortificabat merita praecedentia quin in
+            se essent viva, unde in gloriam electorum cedebant; sed mortificabantur solum quantum ad
+            illum cujus erant, qui impediebatur a consecutione effectus ipsorum; et ideo, remoto
+            impedimento, in sua efficacia remanent quo ad istum. Sed peccatum per poenitentiam non
+            solum mortificatur quo ad peccantem, sed etiam in se. Remissio enim peccatorum est
+            principaliter opus Dei; sed mortificatio meritorum praecedentium est opus hominis. Homo
+            autem sua actione non potest evacuare simpliciter opus Dei, quamvis possit impedire ne
+            sibi prosit; et ideo homo per peccatum sequens non potest remissionem praecedentium
+            peccatorum annullare; potest autem sua actione evacuare quod per ipsum factum est; et
+            ideo potest mortificationem praecedentium meritorum per merita sequentia penitus
+            annullare, praecipue gratia adjutus.</p>
+
+        </div>
+        <div xml:id="ta-l4d22q1-Dd1e224" type="articulus">
+          <head xml:id="ta-l4d22q1-Hd1e226">Articulus 2</head>
+
+          <head xml:id="ta-l4d22q1-Hd1e229" type="questionTitle">Utrum ingratitudo sit speciale peccatum</head>
+
+          <div xml:id="ta-l4d22q1-Dd1e232">
+            <head xml:id="ta-l4d22q1-Hd1e234">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d22q1-d1e237">Ad secundum sic proceditur. Videtur quod ingratitudo non sit speciale peccatum. Quod
+              enim invenitur in omni peccato, non est speciale peccatum. Sed ingratitudinem
+              incurrimus per quodlibet peccatum, quia Deum nobis maxime beneficum offendimus
+              quolibet peccato, quantum in nobis est. Ergo ingratitudo non est speciale
+              peccatum.</p>
+            <p xml:id="ta-l4d22q1-d1e240">Praeterea, omne peccatum speciale alicui virtuti speciali opponitur. Sed non est
+              assignare aliquam virtutem specialem cui ingratitudo opponatur, cum sit contra omnes,
+              quia omnes ex Dei gratia nobis conferuntur. Ergo ingratitudo non est speciale
+              peccatum.</p>
+            <p xml:id="ta-l4d22q1-d1e243">Sed contra, ubicumque est invenire specialem rationem deformitatis, est invenire
+              speciale peccatum. Sed hoc habet ingratitudo. Ergo est speciale peccatum.</p>
+
+          </div>
+          <div xml:id="ta-l4d22q1-Dd1e247">
+            <head xml:id="ta-l4d22q1-Hd1e249">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d22q1-d1e252">Ulterius. Videtur quod non minus sit ingratus innocens, si peccat, quam poenitens.
+              Ille enim per offensam fit magis ingratus qui ad majores gratiarum actiones tenetur.
+              Sed magis tenetur ad gratiarum actiones innocens quam poenitens, inquantum nobilius
+              donum a Deo habet. Ergo magis est ingratus, si peccat.</p>
+            <p xml:id="ta-l4d22q1-d1e255">Praeterea, sicut homo per gratiam Dei relevatur a casu, ita per gratiam tenetur ne
+              cadat. Sed ingratitudo, gratiae contemptum importat. Ergo ita est ingratus innocens
+              dum peccat contemnens gratiam sustentantem, sicut poenitens contemnens gratiam
+              relevantem.</p>
+            <p xml:id="ta-l4d22q1-d1e258">Sed contra, rectum judicium est ut ille plus diligat cui plus est dimissum, ut patet
+              Luc. 7. Sed plus dimissum est poenitenti quam innocenti. Ergo plus tenetur diligere;
+              ergo magis est ingratus, si peccat.</p>
+
+          </div>
+          <div xml:id="ta-l4d22q1-Dd1e262">
+            <head xml:id="ta-l4d22q1-Hd1e264">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d22q1-d1e267">Ulterius. Videtur quod ex ingratitudine recidivantis consurgat tantus reatus, quantus
+              fuit praecedentium peccatorum. Quia quantum est beneficium pristinum, tanta est
+              ingratitudo contemnentis. Sed quantum est peccatum commissum, tantum est beneficium
+              remissionis peccati. Ergo tanta est ingratitudo; et ita videtur quod consurgat
+              aequalis reatus peccatis dimissis secundum ingratitudinem peccati sequentis.</p>
+            <p xml:id="ta-l4d22q1-d1e270">Praeterea, non possunt aliqua commensurari nisi secundum quantitatem quam habent. Sed
+              reatus ex ingratitudine recidivantium mensurantur secundum quantitatem peccatorum
+              dimissorum; quia quanto plura et majora peccata sunt alicui dimissa, tanto magis
+              efficitur ingratus contemnendo. Ergo reatus totus praecedentium peccatorum redit per
+              ingratitudinem recidivantis.</p>
+            <p xml:id="ta-l4d22q1-d1e273">Sed contra, quantitas reatus est secundum quantitatem deformitatis in culpa. Sed
+              quandoque non est tanta deformitas in peccato recidivantis, quanta fuit in multis
+              aliis quae prius sibi dimissa fuerunt. Ergo non redit aequalis reatus.</p>
+          </div>
+          <div xml:id="ta-l4d22q1-Dd1e278">
+            <head xml:id="ta-l4d22q1-Hd1e280">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d22q1-d1e283">Respondeo dicendum ad primam quaestionem, quod ingratitudo gratiarum actionis
+              privativa est; quae quidem gratiarum actio dationem respicit. Est autem duplex datio.
+              Una quae respicit debitum, vel jam existens, sicut cum quis alicui reddit quod debet;
+              vel ut fiat, sicut cum quis emit vel dat aliquid, ut alterum sibi debitum fiat; et
+              haec datio ad justitiam pertinet. Alia autem est quae neutro modo respicit debitum; et
+              haec proprie donatio dicitur, et ad liberalitatem pertinet. Et quia ad hanc dationem
+              nihil inclinat nisi voluntas dandi, ideo gratuita dicitur; et tali dationi gratiarum
+              actio proprie debetur, ut quis gratiae factae retributionem faciat secundum suum
+              modum. Ex hujusmodi ergo gratiarum actionis defectu aliquis ingratus dicitur; et tanto
+              magis, quanto magis ab hoc discedit. Unde primus modus ingratitudinis est, cum quis
+              effectu pro beneficiis acceptis retribuere aliquid negligit; secundus, cum affectu
+              contemnit; tertius, cum etiam intellectu obliviscitur; quartus, et maximus, ut contra
+              benefacientem aliquid operetur indebite. Ingratitudo autem quantum ad tres primos
+              gradus semper est peccatum speciale; sed quantum ad quartum est deformitas annexa
+              peccato; quia ex hoc ipso quod ponitur aliquid indebite fieri, ponitur peccatum esse;
+              sed ex hoc quod dicitur fieri contra benefacientem, additur circumstantia aggravans,
+              quae est ingratitudo. Unde, cum omne peccatum contra Deum sit, ex quolibet peccato
+              homo ingratitudinem incurrit, quia ipse est nobis summe beneficus; et per hunc modum
+              quodlibet peccatum post beneficium remissionis peccatorum ingratitudinem habet
+              annexam; et ideo ingratitudo, secundum quam peccata redire dicuntur, non est speciale
+              peccatum, quamvis aliqua ingratitudo sit speciale peccatum.</p>
+            <p xml:id="ta-l4d22q1-d1e286">Ad primum ergo dicendum, quod de ratione generalis peccati est non solum quod
+              inveniatur cum omnibus peccatis, sed etiam quod nonnunquam inveniatur sine aliquo
+              aliorum peccatorum: quia nihil est in genere quod non sit in aliqua ejus specie; unde
+              quatenus invenitur ab aliis peccatis separatum, dicitur peccatum speciale, quamvis
+              quandoque etiam aliis adjungatur.</p>
+            <p xml:id="ta-l4d22q1-d1e289">Ad secundum dicendum, quod ingratitudo, ut dictum est, gratiarum actionem tollit,
+              quae est actus justitiae; quia ille qui prius dedit, debitorem sibi constituit illum
+              qui retribuit, quamvis hoc non intenderet; unde opponitur justitiae.</p>
+
+          </div>
+          <div xml:id="ta-l4d22q1-Dd1e293">
+            <head xml:id="ta-l4d22q1-Hd1e295">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d22q1-d1e298">Ad secundam quaestionem dicendum, quod loquendo de poenitente per se et innocente
+              quantum ad bonum remissionis peccatorum et innocentiae conservatae, donis aliis
+              praetermissis, sic quodammodo plus tenetur ad gratiarum actionem innocens quam
+              poenitens. Gratiarum enim actio respicit et quantitatem doni, et modum gratuitae
+              donationis, et ex utroque mensuram recipit: quia tam majori dono quam magis gratis
+              dato major gratiarum actio debetur. Considerando ergo quantitatem doni, sic innocens
+              magis tenetur, quia majus est quod accepit; sed considerando hoc quod est gratis dare,
+              magis tenetur poenitens; quia quanto aliquis est magis elongatus a debito recipiendi,
+              tanto datio fit sibi magis gratis ex parte sua, quamvis non ex parte dantis, qui
+              omnibus aequali liberalitate dat. Magis autem elongatur peccator a debito consequendi
+              remissionem peccatorum, quam innocens a debito conservationis; et ideo uterque aliquo
+              modo plus tenetur ad gratiarum actionem, et aliquo modo aequaliter.</p>
+            <p xml:id="ta-l4d22q1-d1e301">Et per hoc patet solutio ad objecta.</p>
+
+          </div>
+          <div xml:id="ta-l4d22q1-Dd1e305">
+            <head xml:id="ta-l4d22q1-Hd1e307">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d22q1-d1e310">Ad tertiam quaestionem dicendum, quod quidam dixerunt, quod per ingratitudinem
+              recidivantis redit tantus reatus quantus fuit omnium peccatorum praecedentium. Sed hoc
+              non potest esse; quia quantitas reatus sequitur quantitatem peccati; quantitas autem
+              peccati per quod quis recidivat, est multo minus quandoque ex genere suo quam peccata
+              quae prius erant dimissa. Et non potest esse quod ingratitudinis circumstantia det
+              sibi tantam quantitatem; quia haec ingratitudo consurgit ex hoc quod aliquid indebite
+              fit contra Dei praecepta; unde secundum mensuram indebiti est mensura ingratitudinis;
+              et sic quantitas peccati quam habet ex suo genere, dat quantitatem ingratitudini; unde
+              quantitas ingratitudinis non potest esse major quam sit quantitas peccati. Et ideo
+              aliter dicendum, quod non redit aequalis reatus secundum quantitatem absolutam, redit
+              autem aequalis secundum proportionalitatem: quia quanto fuerunt peccata dimissa
+              graviora, tanto fuit beneficium remissionis majus; et quanto beneficium fuit majus,
+              tanto ingratitudo major; et sic aliquo modo quantitas reatus praecedentium peccatorum
+              manet in ingratitudine recidivi, non autem secundum aequalitatem absolutam; sicut nec
+              beneficium est aequale peccato dimisso in quantitate, sed multo minus; nec ingratitudo
+              secundum quantitatem absolutam est tanta quantum beneficium.</p>
+            <p xml:id="ta-l4d22q1-d1e313">Et secundum hoc patet solutio ad objecta.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d22q1-Dd1e319" type="articulus">
+          <head xml:id="ta-l4d22q1-Hd1e321">Articulus 3</head>
+
+          <head xml:id="ta-l4d22q1-Hd1e324" type="questionTitle">Utrum per ingratitudinem redeant peccata venialia</head>
+
+          <div xml:id="ta-l4d22q1-Dd1e327">
+            <head xml:id="ta-l4d22q1-Hd1e329">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d22q1-d1e332">Ad tertium sic proceditur. Videtur quod per ingratitudinem non redeant peccata
+              venialia. Quia peccatum veniale sicut per ingratitudinem redit, ita et facit alia
+              redire per ingratitudinem. Sed peccatum veniale non facit alia redire per
+              ingratitudinem; alias tota die peccata dimissa redirent. Ergo nec ipsum per
+              ingratitudinem redit.</p>
+            <p xml:id="ta-l4d22q1-d1e335">Praeterea, ex hoc aliquod peccatum per ingratitudinem redit quod majorem
+              ingratitudinem facit. Sed peccatum veniale dimissum non facit majorem ingratitudinem;
+              quia non diminuit caritatem. Ergo nec redit per ingratitudinem.</p>
+            <p xml:id="ta-l4d22q1-d1e338">Sed contra, peccata venialia inter debita computantur in oratione dominica, quae
+              specialiter contra venialia valet. Sed in littera dicitur, quod universum debitum
+              exigitur ab eo qui recidivat. Ergo et venialia etiam redeunt.</p>
+
+          </div>
+          <div xml:id="ta-l4d22q1-Dd1e342">
+            <head xml:id="ta-l4d22q1-Hd1e344">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d22q1-d1e347">Ulterius. Videtur quod originale non redeat. Quia si morbus redit, et medicina redire
+              debet. Sed Baptismus, qui est singularis medicina contra originale, non reiteratur
+              aliquo modo. Ergo nec peccatum originale redit.</p>
+            <p xml:id="ta-l4d22q1-d1e350">Praeterea, omne peccatum quod per actum incurrimus, actuale est. Sed peccatum
+              originale non est actuale. Ergo peccatum originale per actum peccati sequentis non
+              redit.</p>
+            <p xml:id="ta-l4d22q1-d1e353">Sed contra est quod expresse in littera dicitur.</p>
+
+          </div>
+          <div xml:id="ta-l4d22q1-Dd1e357">
+            <head xml:id="ta-l4d22q1-Hd1e359">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d22q1-d1e362">Ulterius. Videtur quod per illa quatuor peccata non magis redeant peccata dimissa
+              quam per alia. Quia ex hoc aliquis ingratus est Deo quod contra Deum facit. Sed sicut
+              illa quatuor, ita et alia contra Deum sunt. Ergo omnibus per ingratitudinem peccata
+              dimissa redeunt.</p>
+            <p xml:id="ta-l4d22q1-d1e365">Praeterea, peccatum in spiritum sanctum est gravius quam aliquod praedictorum. Ergo
+              per ipsum magis deberet dici quod peccatum rediret.</p>
+            <p xml:id="ta-l4d22q1-d1e368">Sed contra est quod auctores maxime loquuntur de illis peccatis.</p>
+          </div>
+          <div xml:id="ta-l4d22q1-Dd1e373">
+            <head xml:id="ta-l4d22q1-Hd1e375">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d22q1-d1e378">Respondeo dicendum ad primam quaestionem, quod eo modo quo peccata mortalia per
+              ingratitudinem redeunt, et venialia similiter. Sicut enim beneficio Dei ascribenda est
+              remissio mortalium peccatorum, ita et venialium; et secundum hoc quod beneficium
+              remissionis contemnitur quodammodo in peccato sequenti, secundum hoc dimissa per
+              ingratitudinem redire dicuntur.</p>
+            <p xml:id="ta-l4d22q1-d1e381">Ad primum ergo dicendum, quod peccatum veniale, quamvis non tollat gratiam, tamen per
+              gratiam tollitur; peccatum autem mortale et gratiam tollit et per gratiam tollitur; et
+              ideo peccatum mortale et ingratitudinem causat, per quam alia peccata redeunt, et
+              ipsum per ingratitudinem redit; sed peccatum veniale redit quidem, sed alia redire non
+              facit, quia ingratitudinem non causat.</p>
+            <p xml:id="ta-l4d22q1-d1e384">Ad secundum dicendum, quod quamvis non diminuat gratiam, relinquit tamen majorem
+              ingratitudinem, inquantum beneficium gratiae tollitur.</p>
+
+          </div>
+          <div xml:id="ta-l4d22q1-Dd1e388">
+            <head xml:id="ta-l4d22q1-Hd1e390">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d22q1-d1e393">Ad secundam quaestionem dicendum, quod eodem modo originale etiam redit, quod
+              beneficio gratiae tollitur.</p>
+            <p xml:id="ta-l4d22q1-d1e396">Ad primum dicendum, quod ratio illa procederet, si originale per se rediret: nunc
+              autem non dicitur redire in se, sed in alio, in quo quodammodo quantitas ipsius manet,
+              ut dictum est.</p>
+            <p xml:id="ta-l4d22q1-d1e399">Et similiter dicendum ad secundum.</p>
+
+          </div>
+          <div xml:id="ta-l4d22q1-Dd1e403">
+            <head xml:id="ta-l4d22q1-Hd1e405">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d22q1-d1e408">Ad tertiam quaestionem dicendum, quod sicut per ista peccata redeunt peccata dimissa
+              ex ingratitudine, ita etiam per illa; tamen in istis est aliquid speciale prae aliis;
+              quia non solum sunt contra ipsum remittentem peccata, quod in omnibus aliis est
+              peccatis, sed etiam sunt contra remedium quo peccata dimittebantur. Remissio autem
+              peccatorum attribuitur primo fidei, secundo caritati, tertio poenitentiae; et ideo
+              apostasia a fide, quae opponitur primo; et odium fraternum, quod opponitur secundo; et
+              alia duo, quae opponuntur tertio, specialem habent rationem, ut faciant redire
+              peccata, non ratione gravitatis majoris, sed ratione praedicta.</p>
+            <p xml:id="ta-l4d22q1-d1e411">Et per hoc patet solutio ad objecta.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d22q1-Dd1e416" type="articulus">
+          <head xml:id="ta-l4d22q1-Hd1e418">Articulus 4</head>
+
+          <head xml:id="ta-l4d22q1-Hd1e421" type="questionTitle">Utrum recidivans teneatur peccata confiteri de quibus prius
+            confessus fuit</head>
+
+          <p xml:id="ta-l4d22q1-d1e424">Ad quartum sic proceditur. Videtur quod recidivans tenetur peccata confiteri de quibus
+            prius confessus fuit. Ingratitudo enim videtur esse peccatum gravissimum, cum per eam
+            alia peccata quodammodo redeant. Sed ingratitudinem aliquis non confitetur, nisi simul
+            confiteatur illa peccata ex quorum remissione factus est ingratus. Ergo oportet quod
+            recidivans priora peccata confiteatur.</p>
+          <p xml:id="ta-l4d22q1-d1e427">Item, per confessionem debet innotescere sacerdoti quantitas culpae. Sed quantitas
+            peccatorum prius dimissorum quodammodo manet in peccato quo aliquis recidivat, ut dictum
+            est. Ergo ille qui confitetur hujusmodi peccatum, debet etiam alia confiteri.</p>
+          <p xml:id="ta-l4d22q1-d1e430">Item, secundum Gregorium, unum peccatum disponit ad aliud, et sic unum est causa
+            alterius. Sed morbo non potest sufficienter remedium adhiberi nisi cognita causa morbi.
+            Cum ergo ad hoc fiat confessio, ut exposito morbo remedium adhibeatur, videtur quod
+            recidivans teneatur peccata praeterita confiteri, quae fuerunt causa recidivandi.</p>
+          <p xml:id="ta-l4d22q1-d1e434">Praeterea, contingit aliquando aliquem post confessionem ante peractam poenitentiam
+            recidivare. Constat autem quod postquam de recidivo poenitentiam egerit, tenetur
+            satisfacere de praeteritis peccatis. Ergo videtur quod saltem in hoc casu tenetur priora
+            peccata confiteri.</p>
+          <p xml:id="ta-l4d22q1-d1e437">Sed contra est quod dicitur Nahum 1, 9: <quote xml:id="ta-l4d22q1-Qd1e439">non judicabit Deus bis in
+              idipsum</quote>. Ergo quando aliquis in foro poenitentiali judicatus est de aliquo
+            peccato, non oportet quod iterum judicio se exponat, idem peccatum confitendo.</p>
+          <p xml:id="ta-l4d22q1-d1e443">Praeterea, in decretis de Poen., dist. 1, dicitur: <quote xml:id="ta-l4d22q1-Qd1e445">non necesse est ut quae semel
+              sacerdotibus confessi sumus, denuo confiteamur; sed lingua cordis, non carnis apud
+              verum judicem ea confiteri debemus</quote>. Ergo idem quod prius.</p>
+          <p xml:id="ta-l4d22q1-d1e449">Respondeo dicendum, quod circa illam opinionem quae ponit dimissa peccata redire sive
+            quantum ad culpam, sive quantum ad reatum, necesse est dicere, quod recidivans tenetur
+            ad priora peccata iterum confitenda, cum eis ita subjaceat post recidivum sicut prius.
+            Sed secundum aliam opinionem quae dicit, quod peccata dimissa non redeunt per recidivum
+            nisi quantum ad ingratitudinem, est duplex opinio. Quidam enim dicunt, quod si
+            recidivans confiteatur eidem sacerdoti cui ante fuerat confessus, habenti plenam
+            memoriam priorum peccatorum, non tenetur ei priora peccata repetere, nisi in generali,
+            ut se de ingratitudine accuset, dummodo ante recidivum de prioribus peccatis
+            satisfecerit. Si enim ante peractam poenitentiam recidivaret, teneretur iterum priora
+            peccata confiteri etiam in speciali, ut iterato satisfactionis modum pro eis accipiat.
+            Sed si alteri sacerdoti confiteatur, vel eidem jam priora peccata oblito, sive ante
+            recidivum satisfecerit, sive non; tenetur omnia peccata in speciali confiteri, tum ut
+            ingratitudinis quantitas innotescat sacerdoti ex consideratione peccatorum prius
+            dimissorum, tum ut ipse cognoscat vultum pecoris sui; quod fieri non posset, nisi ejus
+            mores praeteritos cognosceret, utrum scilicet innocenter aut injuste vixisset. Sed ista
+            opinio non videtur rationalis; ex quo enim priora peccata simpliciter sunt dimissa, nec
+            secundum se redeunt, non est necesse ut iterum in judicium adducantur; quas nec ea Deus
+            in judicio adduceret, si quis inconfessus moreretur post recidivum, sed damnaretur solum
+            pro peccato quo recidivavit. Et si etiam pro peccatis prioribus non satisfecisset, non
+            videtur necessarium quod ea post recidivum confiteatur in speciali; quia per recidivum
+            eorum reatus non est immutatus; unde eadem satisfactio nunc pro eis debetur quae et
+            prius. Unde poenitens tenetur post recidivum poenitentiam sibi prius injunctam peragere,
+            non autem aliam satisfactionem pro eis accipere. Similiter etiam non oportet ut denuo
+            confiteatur, ut cognoscatur ingratitudinis quantitas. Sicut enim quantitas peccati
+            augetur per ingratitudinem de peccatis dimissis, ita etiam augetur per ingratitudinem de
+            beneficiis acceptis; unde pari ratione teneretur confitens omnia beneficia Dei sibi
+            exhibita exponere sacerdoti; quod nullus dicit. Similiter etiam non oportet ut sacerdoti
+            aliquis confiteatur totum statum suum, ut sacerdos cognoscat vultum pecoris sui, sed
+            solum ea de quibus debet ab eo judicari; alias oporteret innocentem sacerdoti cui
+            venialia confitetur, exponere omnes pronitates suas ad peccandum, et totam conditionem
+            suam; quod nullus dicit. Unde aliorum opinio est, quod post recidivum non tenetur
+            aliquis priora peccata confiteri nec in generali nec in speciali; quia ingratitudo,
+            ratione cujus peccata redire dicuntur, est quaedam peccati circumstantia, nec trahit in
+            aliud genus peccati. Hujusmodi autem circumstantiae non sunt necessario confitendae, ut
+            supra, dist. 14, qu. 3, art. 2, qu. 5, dictum est. Sed ex hac opinione videtur relinqui,
+            quod non possit plenarie recidivantis morbo remedium adhiberi. Multa enim expediunt ad
+            spiritualem salutem recidivanti, quae non sunt necessaria innocenti, ut scilicet circa
+            eum major cautela adhibeatur. Et ideo videtur distinguendum esse, quod in confessione
+            est aliquid exponendum dupliciter. Uno modo directe; et sic illud exponi dicitur cujus
+            abolitio per confessionem quaeritur; et sic peccata dimissa recidivans nullo modo
+            confiteri tenetur nec in generali nec in speciali, cuicumque confiteatur. Alio modo
+            indirecte, sicut illud sine quo sciri non potest debitus satisfaciendi modus. Cum enim
+            contritio, secundum quod est de necessitate salutis, votum confessionis et
+            satisfactionis debitae includat, tenetur ille qui confitetur, sacerdoti exponere ea
+            quibus sacerdos possit scire quae satisfactio sit congrue injungenda; sicut confitens
+            confitetur sacerdoti interdum se esse infirmum, ut ei jejunium non imponat; et per hunc
+            modum tenetur recidivans notificare peccata dimissa quantum sufficit ad hoc quod sciatur
+            quae satisfactio est ei injungenda, ut si ipse frequenter lapsum carnis passus est ex
+            aliqua occasione, illa occasio praescindatur per satisfactionem, et sic de aliis
+            peccatis; et ad hoc videtur sufficere confessio dimissorum peccatorum in generali. Tamen
+            quandoque ad aliqua specialia oportet descendere, secundum quod confitens viderit
+            opportunum; non enim potest in his aliqua certa mensura praefigi.</p>
+          <p xml:id="ta-l4d22q1-d1e452">Ad primum ergo dicendum, quod ingratitudo secundum quod hic accipitur, non est
+            peccatum, sed circumstantia peccati, ut dictum est, nec est circumstantia addens novam
+            speciem, dum quilibet peccans ingratitudinem incurrat, saltem de beneficiis a Deo
+            acceptis.</p>
+          <p xml:id="ta-l4d22q1-d1e455">Ad secundum dicendum, quod quantitas culpae, quae est ex specie peccati, debet
+            innotescere sacerdoti per confessionem; non tamen oportet de quantitate quae est ex
+            circumstantiis quibuscumque, ut supra, loc. cit., dictum est.</p>
+          <p xml:id="ta-l4d22q1-d1e459">Ad tertium dicendum, quod auctoritas Gregorii non est ad propositum. Gregorius enim
+            loquitur de peccatis, quae per poenitentiam non delentur; illa enim suo pondere mox ad
+            aliud trahunt. Et praeterea non est necessarium omnes occasiones peccati confiteri, sed
+            solum illas sine quarum abscissione sufficiens remedium adhiberi non potest.</p>
+          <p xml:id="ta-l4d22q1-d1e462">Ad quartum dicendum, quod etiam in illo casu non tenetur peccata prius dimissa
+            confiteri; sed sufficit sibi explere prius injunctam satisfactionem, ut dictum est in
+            corp.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

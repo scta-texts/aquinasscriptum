@@ -1,0 +1,937 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 1, Quaestio 2</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Librum IV, Distinctio 1, Quaestio 2</title>
+          <date when="2016-03-18">March 18, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-18">March 18, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness>1856 editum</witness>
+          <witness xml:id="G" n="ghent567">Ghent, Belgium, Ghent University Library, 567</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="0.0.0-dev">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+
+
+
+
+      <div xml:id="starts-on"> 
+        <cb ed="#G" n="16b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ta-l4d1q2">
+        <head xml:id="ta-l4d1q2-Hd1e97">Librum IV, Distinctio 1, Quaestio 2</head>
+        <div xml:id="ta-l4d1q2-Dd1e100">
+          <head xml:id="ta-l4d1q2-Hd1e102">Prooemium</head>
+          <p xml:id="ta-l4d1q2-d1e105">Postquam determinavit Magister differentiam sacramentorum veteris et novae legis, hic
+            determinat de quodam sacramento veteris legis, scilicet circumcisione, quod cum
+            sacramentis novae legis aliquam convenientiam habet; et dividitur in partes duas: in
+            prima determinat de circumcisione; in secunda movet quamdam quaestionem circa
+            praedeterminata, ibi: <quote xml:id="ta-l4d1q2-Qd1e107">si vero quaeritur</quote>, et cetera. Prima in tres: in
+            prima determinat efficaciam circumcisionis; in secunda institutionem ipsius, ibi:
+              <quote xml:id="ta-l4d1q2-Qd1e110">hic dicendum est in quo instituta fuerit circumcisio</quote>; in tertia
+            determinat de mutatione ipsius per Baptismum, ibi: <quote xml:id="ta-l4d1q2-Qd1e113">ideo autem mutata est</quote>
+            et cetera. Circa primum duo facit: primo ostendit quam efficaciam circumcisio habeat;
+            secundo ostendit quod eamdem efficaciam contra originale habebant quaedam remedia ante
+            praeceptum de circumcisione datum, ibi: <quote xml:id="ta-l4d1q2-Qd1e116">quaeritur autem de viris qui fuerunt ante
+              circumcisionem</quote>. Hic quaeruntur sex: 1 de necessitate circumcisionis; 2 quibus
+            competeret; 3 de his quae ad circumcisionem requirebantur; 4 de efficacia
+            circumcisionis; 5 de mutatione ipsius; 6 de remedio quod circumcisionem praecessit.</p>
+        </div>
+        <div xml:id="ta-l4d1q2-Dd1e121" type="articulus">
+          <head xml:id="ta-l4d1q2-Hd1e123">Articulus 1</head>
+
+          <head xml:id="ta-l4d1q2-Hd1e126" type="questionTitle">Utrum necessarium fuerit circumcisionem dari</head>
+          <div xml:id="ta-l4d1q2-Dd1e129">
+            <head xml:id="ta-l4d1q2-Hd1e131">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d1q2-d1e134">Ad primum sic proceditur. Videtur quod non fuerit necessarium circumcisionem dari.
+              Sapientis est enim facere aliquid quanto brevius potest. Sed per fidem et sacramenta
+              legis naturae sufficienter originale purgabatur. Ergo, non oportebat in remedium
+              originalis circumcisionem dari.</p>
+            <p xml:id="ta-l4d1q2-d1e137">Praeterea, peccato originali, quia ex alio contractum est, non debetur poena
+              sensibilis, nec expiatio per satisfactionem. Sed circumcisio poenam sensibilem
+              habebat. Ergo non erat conveniens remedium contra originale.</p>
+            <p xml:id="ta-l4d1q2-d1e140">Sed contra, circumcisio est signaculum fidei, quae est in praeputio patris nostri
+              Abrahae, Rom. 4. Sed conveniens fuit illam fidem significari, cujus oportet nos omnes
+              imitatores existere. Ergo congruum fuit circumcisionem dari.</p>
+          </div>
+          <div xml:id="ta-l4d1q2-Dd1e144">
+            <head xml:id="ta-l4d1q2-Hd1e146">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d1q2-d1e149">Ulterius. Videtur quod non debuerit dari ante legem scriptam. Quia in lege naturae
+              non erat aliqua distinctio, cum lex communis omnibus esset. Sed circumcisio signum
+              distinctivum est: quia secundum Damascenum, est signum determinans Israel a gentibus.
+              Ergo non debebat dari ante legem scriptam.</p>
+            <p xml:id="ta-l4d1q2-d1e152">Praeterea, praecepta quae non sunt indita rationi naturali, debent ad populum per
+              ministrorum officium tradi. Sed circumcisio non erat de dictamine legis naturalis.
+              Ergo cum ante legem scriptam non esset ministrorum distinctio, videtur quod tunc dari
+              non debuerit.</p>
+            <p xml:id="ta-l4d1q2-d1e155">Sed contra, circumcisio, secundum apostolum, est signum fidei. Sed etiam ante legem
+              scriptam erat distinctio fidelium a non fidelibus. Ergo tunc oportebat eis dari.</p>
+          </div>
+          <div xml:id="ta-l4d1q2-Dd1e159">
+            <head xml:id="ta-l4d1q2-Hd1e161">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d1q2-d1e164">Ulterius. Videtur quod non debuerit differri usque ad tempus Abrahae. Quia etiam ante
+              ipsum erant fideles ab infidelibus distincti. Sed circumcisio est signum fidei. Ergo
+              ante tempus Abrahae dari debuit.</p>
+            <p xml:id="ta-l4d1q2-d1e167">Praeterea, circumcisio majorem habet efficaciam quam sacramenta legis naturae; alias
+              postea instituta non fuisset. Sed non minor erat necessitas efficacis remedii ante
+              Abraham quam post. Ergo etiam ante eum dari debuit.</p>
+            <p xml:id="ta-l4d1q2-d1e170">Sed contra, fides quae sacramentis efficaciam significandi dat, est fides mediatoris,
+              ut supra dictum est. Sed Abrahae primo dictae sunt repromissiones de mediatore ex
+              semine ejus nascendo. Ergo ei primo signum fidei distinctum dari debuit in
+              generationis membro.</p>
+          </div>
+          <div xml:id="ta-l4d1q2-Dd1e175">
+            <head xml:id="ta-l4d1q2-Hd1e177">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d1q2-d1e180">Respondeo dicendum ad primam quaestionem, quod circumcisio primo et principaliter
+              necessaria fuit ad expressiorem significationem, quam sacramenta praecedentia
+              fuissent. Oportuit enim quod secundum processum temporis, sicut explicatio fidei
+              crescebat, ita cresceret distinctio signorum sacramentalium. Habet autem circumcisio
+              expressam similitudinem ablationis originalis peccati quantum ad quatuor. Primo
+              quantum ad membrum generationis, per quam originale transfunditur. Secundo quantum ad
+              figuram circularem, in qua significatur circulus, qui est in processu originalis
+              infectionis, secundum quod persona corrumpit naturam, et natura personam. Tertio
+              quantum ad poenam, quae erat in circumcisione contra delectationem concupiscentiae, in
+              qua praecipue viget fomitis virtus. Quarto quantum ad sanguinis effusionem, in quo
+              significatur passio Christi, per quam pro originali satisfaciendum erat. Et quantum ad
+              hanc utilitatem definitur circumcisio, quod est signaculum curationis ab originali.
+              Sed ex consequenti fuit alia utilitas circumcisionis scilicet distinctio fidelis
+              populi ab infideli propter fidem ejus cui data fuit circumcisio; et quantum ad hoc
+              definit Damascenus, circumcisionem sic: <quote xml:id="ta-l4d1q2-Qd1e182">circumcisio est signum determinans
+                Israel a gentibus, cum quibus conversabatur</quote>. Habuit etiam mysticam
+              significationem; et moralem, quia erat signum castitatis servandae; et allegoricam,
+              inquantum significabat purgationem per Christum futuram; et quasi anagogicam,
+              inquantum significabat depositionem corruptibilitatis carnis et sanguinis in
+              resurrectione.</p>
+            <p xml:id="ta-l4d1q2-d1e186">Ad primum ergo dicendum, quod has utilitates habuit circumcisio prae sacramentis
+              legis naturae; et ideo post illa institui debuit.</p>
+            <p xml:id="ta-l4d1q2-d1e189">Ad secundum dicendum, quod poena illa non erat ad satisfactionem, sed tantum ad
+              significationem.</p>
+          </div>
+          <div xml:id="ta-l4d1q2-Dd1e193">
+            <head xml:id="ta-l4d1q2-Hd1e195">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d1q2-d1e198">Ad secundam quaestionem dicendum, quod lex scripta non debuit dari divinitus nisi
+              populo fideli; et ideo oportuit populum fidelem prius congregari, et ab aliis
+              distingui, quam lex divinitus ei daretur. Hoc autem non poterat fieri nisi per aliquod
+              signum in quo fideles ad invicem convenirent, et ab aliis distinguerentur, quod ad
+              circumcisionem pertinet; et ideo ante legislationem debuit circumcisio dari.</p>
+            <p xml:id="ta-l4d1q2-d1e201">Ad primum ergo dicendum, quod circumcisio erat quodammodo legis naturae, inquantum
+              tempore legis naturae data fuit, et quodammodo legis scriptae, inquantum ad ipsam
+              praeparabat. Dispositiones autem distinctionem habent penes ea ad quae disponunt.</p>
+            <p xml:id="ta-l4d1q2-d1e204">Ad secundum dicendum, quod peccatum originale a nobis non habemus, sed aliunde; et
+              ideo aliunde totaliter remedium habet, nobis non cooperantibus, scilicet a Deo. Et
+              propter hoc, sacramentum quod in remedium originalis erat, a Deo immediate praecipi
+              debuit, sicut circumcisio et Baptismus. Secus autem est de sacramentis legalibus, quae
+              erant instituta ad satisfaciendum pro actualibus.</p>
+          </div>
+          <div xml:id="ta-l4d1q2-Dd1e208">
+            <head xml:id="ta-l4d1q2-Hd1e210">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d1q2-d1e213">Ad tertiam quaestionem dicendum, quod ex corruptione peccati originalis humanum genus
+              circa tempora Abrahae usque ad profundissima peccatorum venerat, scilicet in
+              infidelitatem, et turpissimum vitium contra naturam; et ideo tunc temporis primo
+              conveniebat promissionem fieri manifestam de semine nascituro, in quo omnes gentes
+              benedicerentur, et a peccatis mundarentur. Tunc etiam oportebat in significationem
+              aliquod exemplum fidei hominibus proponi contra infidelitatem; tunc signa castitatis
+              dari contra corruptissimam concupiscentiam; et ideo Abrahae primo data est circumcisio
+              in signum paternitatis, ut ex quo nasciturus erat peccatorum destructor et in signum
+              fidei, et distinctionis ab infidelibus, et in signum castitatis et munditiae.</p>
+            <p xml:id="ta-l4d1q2-d1e216">Ad primum ergo dicendum, quod ante Abraham fere omnes fideles erant: circa tempora
+              enim ejus dicitur idolatria incepisse.</p>
+            <p xml:id="ta-l4d1q2-d1e219">Ad secundum dicendum, quod quia tunc temporis corruptio magis invaluerat, ideo etiam
+              tunc oportebat efficacius remedium dari.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d1q2-Dd1e224" type="articulus">
+          <head xml:id="ta-l4d1q2-Hd1e226">Articulus 2</head>
+
+          <head xml:id="ta-l4d1q2-Hd1e229" type="questionTitle">Utrum omnibus populis debuerit circumcisio dari</head>
+          <div xml:id="ta-l4d1q2-Dd1e232">
+            <head xml:id="ta-l4d1q2-Hd1e234">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d1q2-d1e237">Ad secundum sic proceditur. Videtur quod omnibus populis circumcisio dari debuerit.
+              Data est enim in remedium contra originale. Sed morbus iste communis omnibus erat.
+              Ergo et medicina debuit esse communis.</p>
+            <p xml:id="ta-l4d1q2-d1e240">Praeterea, circumcisio data est in signum fidei. Sed Abrahae fidem imitari omnes
+              tenebantur: ac fides semper fuit de necessitate salutis. Ergo omnibus circumcisio dari
+              debuit.</p>
+            <p xml:id="ta-l4d1q2-d1e243">Praeterea, Genes. 17, 10, dicitur: <quote xml:id="ta-l4d1q2-Qd1e245" ana="#gen17_10">hoc est pactum quod observabitis inter me
+                et vos, et semen tuum post te. Circumcidetur in vobis omne masculinum</quote>. Sed
+              de semine Abrahae multi populi processerunt praeter filios Israel, sicut Ismaelitae,
+              Idumaei et cetera. Ergo non solum filiis Israel circumcisio competebat.</p>
+            <p xml:id="ta-l4d1q2-d1e249">Sed contra, circumcisio erat signum fidei. Sed unus tantum populus erat in quo fides,
+              et cultus Dei remansit, ceteris per idolatriam depravatis. Ergo eis tantum circumcisio
+              competebat.</p>
+            <p xml:id="ta-l4d1q2-d1e253">Praeterea, circumcisio significabat medicinam futuram per Christum. Sed tantum ex uno
+              populo scilicet Israel, Christus nasciturus erat. Ergo tantum illi populo circumcisio
+              competebat.</p>
+          </div>
+          <div xml:id="ta-l4d1q2-Dd1e257">
+            <head xml:id="ta-l4d1q2-Hd1e259">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d1q2-d1e262">Ulterius. Videtur quod debuit hoc remedium etiam mulieribus communiter dari.
+              Circumcisio enim data erat in medicinam contra primam transgressionem. Sed prima
+              transgressio incepit a femina. Ergo et feminis remedium dari debuit.</p>
+            <p xml:id="ta-l4d1q2-d1e265">Praeterea, ubi eadem causa, et idem effectus. Sed eadem causa in viris est, ut
+              circumcisio eis daretur, et in mulieribus: quia et ipsae ad populum Dei pertinent, et
+              in eis corruptio originalis est. Ergo eis remedium dari debuit.</p>
+            <p xml:id="ta-l4d1q2-d1e268">Sed contra, Hugo de sancto Victore dicit, quod <quote xml:id="ta-l4d1q2-Qd1e270">solis masculis data est
+                circumcisio carnis, quia sacra Scriptura per masculinum sexum animam, per feminam
+                vero carnem significare consueverit, ut scilicet ostenderetur quod illa circumcisio
+                animabus sanctificationem contulit, non abstulit carni corruptionem</quote>.</p>
+          </div>
+          <div xml:id="ta-l4d1q2-Dd1e275">
+            <head xml:id="ta-l4d1q2-Hd1e277">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d1q2-d1e280">Ulterius. Videtur quod Christo circumcidi non competebat. Sabbati enim observatio
+              vicinior erat praeceptis moralibus, inter quae etiam computatur, quam circumcisio. Sed
+              Christus sabbatum litteraliter non observabat; unde dicebant de ipso, Joan. 9, 16:
+                <quote xml:id="ta-l4d1q2-Qd1e282">non est hic homo a Deo, qui sabbatum non custodit</quote>. Ergo nec
+              circumcisionem servare debuit.</p>
+            <p xml:id="ta-l4d1q2-d1e286">Praeterea, Hebr. 7, dicit Glossa, quod Christus in lumbis Abrahae decimatus non fuit,
+              quia decima figurabat medicinam originalis, quod in Christo non fuit. Sed similiter
+              circumcisio, ut dictum est, significat emundationem ab originali. Ergo Christo non
+              competebat.</p>
+            <p xml:id="ta-l4d1q2-d1e289">Sed contra, Gal. 4, 4: <quote xml:id="ta-l4d1q2-Qd1e291">misit Deus filium suum, natum de muliere, factum sub
+                lege</quote>. Sed illis qui sub lege erant, competit circumcisio. Ergo et
+              Christo.</p>
+          </div>
+          <div xml:id="ta-l4d1q2-Dd1e297">
+            <head xml:id="ta-l4d1q2-Hd1e299">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d1q2-d1e302">Respondeo dicendum ad primam quaestionem, quod sicut peccatum per Adam in omnes
+              transierat, ita oportebat per Christum in omnes sanctificationem a peccato transire;
+              unde ad praerogativam sanctitatis ejus insinuandam oportebat quidquid ad Christum
+              pertinebat, speciali sanctitate pollere. Et ideo in populo de quo Christus nasciturus
+              erat, oportebat specialiter cultum Dei esse, et ipsum apud eos significari. Et quia
+              circumcisio est signum distinguens populum Dei ab aliis, ideo oportebat populo Israel
+              specialiter circumcisionem datam esse non solum quantum ad illos qui de stirpe Jacob
+              erant, sed quantum ad omnes qui ad populum illum qualitercumque pertinebant.</p>
+            <p xml:id="ta-l4d1q2-d1e305">Ad primum ergo dicendum, quod circumcisio erat remedium contra originale cum
+              significatione sanctificationis nascituri seminis, propter quod erat in membro
+              generationis; et ideo hoc remedium illi tantum populo competebat ex quo Christus
+              nasciturus erat. Apud alios autem manebant adhuc eadem remedia quae fuerant ante
+              circumcisionem data, quia eis non oportebat specialia sanctitatis documenta et remedia
+              dare.</p>
+            <p xml:id="ta-l4d1q2-d1e308">Ad secundum dicendum, quod quamvis omnes tenerentur ad habendum fidem quam habuit
+              Abraham, non tamen omnes tenebantur imitari Abraham in fide: quia nec ad omnes notitia
+              Abrahae venerat, nec omnibus erat datus ut exemplum imitabile nisi mediante semine, in
+              quo omnes gentes benedictionem Abrahae consecuturae erant; et ideo circumcisio, quae
+              erat signum fidei Abrahae, non omnibus populis competebat.</p>
+            <p xml:id="ta-l4d1q2-d1e311">Ad tertium dicendum, quod quantum ad promissionem factam Abrahae, separatus est per
+              electionem Dei Isaac ab Ismaele, et Jacob ab Esau, ut patet Rom. 9, non autem aliqua
+              segregatio facta est in filiis Israel; et ideo omnes filii Israel pertinebant ad
+              populum Dei peculiarem; et propter hoc illis solis circumcisio competebat, quasi
+              nunquam a familia Abrahae separatis. Ismael autem et Esau tenebantur ad circumcisionem
+              quamdiu erant in familia parentum, non autem post recessum ab eis.</p>
+          </div>
+          <div xml:id="ta-l4d1q2-Dd1e315">
+            <head xml:id="ta-l4d1q2-Hd1e317">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d1q2-d1e320">Ad secundam quaestionem dicendum, quod peccatum originale, ut 2 Lib., dist. 31,
+              quaest. 1, art. 1, dictum est, quantum ad culpam et reatum descendit a patre in
+              filios; quantum ad poenalitates descendit a femina: quia pater est efficiens in
+              generatione, et mater materiam ministrat. Circumcisio autem data est contra originale
+              ad tollendum culpam, non autem ad tollendum carnis corruptionem; et ideo viris, et non
+              mulieribus data est: et haec est causa quae in objectione tacta est. Per hoc etiam
+              ostenditur sacramentum imperfectum, et sua imperfectio in expectationem perfectionis
+              ducit.</p>
+            <p xml:id="ta-l4d1q2-d1e323">Ad primum ergo dicendum, quod quamvis transgressio a femina inceperit, tamen
+              transfusionis originalis peccati causa non fuit femina, sed vir: quia si vir non
+              peccasset originale transfusum non fuisset; ideo dicit apostolus Rom. 5, 12, quod:
+                <quote xml:id="ta-l4d1q2-Qd1e325" ana="#rom5_12">per hominem peccatum intravit in mundum</quote>.</p>
+            <p xml:id="ta-l4d1q2-d1e329">Ad secundum dicendum, quod jam patet quod non est eadem causa et viris et mulieribus
+              quantum ad hoc quod circumcisio contra originale ordinatur; similiter etiam nec
+              quantum ad hoc quod est distinctivum et signum populi fidelis ab infideli: quia
+              principaliter populi distinctio est ex parte virorum, quia mulieres viris subjectae
+              sunt; et ideo etiam apud Hebraeos non computabantur genealogiae ex parte mulierum, sed
+              ex parte virorum.</p>
+          </div>
+          <div xml:id="ta-l4d1q2-Dd1e333">
+            <head xml:id="ta-l4d1q2-Hd1e335">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d1q2-d1e338">Ad tertiam quaestionem dicendum, quod Christo circumcisio competebat non propter
+              indigentiam, sed propter decentiam: cujus potest in Christo multiplex ratio assignari.
+              Prima est, ut ipse se ostenderet filium Abrahae, cui praeceptum circumcisionis erat
+              factum, et promissio nascituri seminis; et sic Dei promissionem impletam insinuaret.
+              Secunda, ut circumcisionem, sicut et alia legalia, suscipiens, ab onere legis nos
+              liberaret. Tertia, ut fratrem Judaeorum se ostenderet, ne haberent justam occasionem
+              ipsum repellendi.</p>
+            <p xml:id="ta-l4d1q2-d1e341">Ad primum ergo dicendum, quod Christus in pueritia in nullo ab aliis pueris
+              segregatus fuit quantum ad exteriorem conversationem; et ideo omnia quae ad pueros
+              pertinebant in veteri lege, in se implere voluit. Sed quando jam ad perfectam aetatem
+              pervenit, ostendere debuit se dominum legis esse, et legem usque ad ipsum impositam
+              fuisse; et ideo in quibusdam supra legem operatus est, sicut de observatione sabbati,
+              et in tactu leprosi.</p>
+            <p xml:id="ta-l4d1q2-d1e344">Ad secundum dicendum, quod decimatio erat actus tantum figuralis quantum ad illos qui
+              in lumbis Abrahae decimabantur; et ideo Christo non competebat, quia ab originali
+              immunis fuit: sed circumcisio etiam habet alias causas praeter significationem in
+              illis qui circumciduntur; et ideo non est similis ratio de utroque.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d1q2-Dd1e349" type="articulus">
+          <head xml:id="ta-l4d1q2-Hd1e351">Articulus 3</head>
+
+          <head xml:id="ta-l4d1q2-Hd1e354" type="questionTitle">Utrum dies octavus ad circumcisionem requireretur</head>
+          <div xml:id="ta-l4d1q2-Dd1e357">
+            <head xml:id="ta-l4d1q2-Hd1e359">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d1q2-d1e362">Ad tertium sic proceditur. Videtur quod octavus dies non requireretur ad
+              circumcisionem. Alia enim remedia contra originale data sive in lege naturae sive in
+              lege gratiae, tempus determinatum non habent. Ergo nec circumcisio habere debuit ad
+              idem data.</p>
+            <p xml:id="ta-l4d1q2-d1e365">Praeterea, poterat contingere quod dies octavus erat dies sabbati. Sed in die illo
+              praecepta erat quies ab exterioribus operibus. Ergo non erat de necessitate
+              circumcisionis quod octavo die fieret.</p>
+            <p xml:id="ta-l4d1q2-d1e368">Praeterea, illi qui vagati sunt in deserto, non fuerunt octavo die circumcisi, sed
+              postea tempore Josue in Galgala, Josue 5; et profuit illis circumcisio, nec illis
+              obfuit ad transgressionem, ut videtur, qui in deserto mortui sunt incircumcisi. Ergo
+              determinatio temporis non est de necessitate circumcisionis.</p>
+            <p xml:id="ta-l4d1q2-d1e371">Praeterea, sicut praetermittitur determinatum tempus, si praeveniatur, ita et si
+              tardetur. Sed proseliti circumcidebantur post octavum diem, et eis valebat. Ergo et
+              pueri poterant ante octavum diem circumcidi, et eis valere.</p>
+            <p xml:id="ta-l4d1q2-d1e375">Sed contra, circumcisio non habebat efficaciam nec obligationem nisi ex praecepto
+              divino. Sed circumcisio fuit in praecepto secundum determinatum tempus. Gen. 17, 12:
+                <quote xml:id="ta-l4d1q2-Qd1e377">infans octo dierum circumcidetur in vobis</quote>. Ergo et determinatum
+              tempus erat de necessitate circumcisionis.</p>
+            <p xml:id="ta-l4d1q2-d1e381">Praeterea, significatio est de necessitate sacramenti. Sed octava dies facit ad
+              significationem. Ergo est de necessitate ipsius.</p>
+          </div>
+          <div xml:id="ta-l4d1q2-Dd1e385">
+            <head xml:id="ta-l4d1q2-Hd1e387">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d1q2-d1e390">Ulterius. Videtur quod determinatio membri non fuerit de necessitate circumcisionis.
+              In sacramentis enim signum debet respondere signato. Sed purgatio originalis quae
+              significatur per circumcisionem, non est secundum aliquam partem determinatam, sed
+              secundum totum. Ergo nec circumcisio debet aliquam partem determinatam habere.</p>
+            <p xml:id="ta-l4d1q2-d1e393">Praeterea, sacramenta maximam honestatem in se habere debent. Sed membra generationis
+              videntur esse turpia et verecunda. Ergo non decuit ut in illo membro determinate
+              aliquod sacramentum daretur.</p>
+            <p xml:id="ta-l4d1q2-d1e396">Sed contra est quod dicitur Gen. 17, 2: <quote xml:id="ta-l4d1q2-Qd1e398">circumcidetis carnem praeputii
+                vestri</quote>.</p>
+          </div>
+          <div xml:id="ta-l4d1q2-Dd1e403">
+            <head xml:id="ta-l4d1q2-Hd1e405">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d1q2-d1e408">Ulterius. Videtur quod cultellus lapideus sit de necessitate circumcisionis.
+              Circumcisioni enim Baptismus successit. Sed determinatum instrumentum ablutionis,
+              scilicet aqua, est de necessitate Baptismi. Ergo et determinatum instrumentum
+              incisionis esse debuit de necessitate circumcisionis, et praecipue propter
+              significationem quae in littera ponitur; significatio enim est de ratione
+              sacramenti.</p>
+            <p xml:id="ta-l4d1q2-d1e411">Praeterea, Gregorius dicit super Ezech.: <quote xml:id="ta-l4d1q2-Qd1e413">in sanctorum vita cognoscimus quid in
+                Scriptura intelligere debeamus</quote>. Sed sancti et praecipue legislatores,
+              lapideo instrumento fecerunt circumcisionem, sicut legimus Josue 5 et Exod. 4 de
+              Moyse. Ergo lapideum instrumentum erat de necessitate praecepti.</p>
+            <p xml:id="ta-l4d1q2-d1e417">Sed contra, circumcisio non habebat vim nisi ex divina institutione. Sed in ejus
+              institutione quae tangitur, Gen. 17, nulla fit mentio de instrumento lapideo. Ergo non
+              fuit de necessitate circumcisionis.</p>
+          </div>
+          <div xml:id="ta-l4d1q2-Dd1e422">
+            <head xml:id="ta-l4d1q2-Hd1e424">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d1q2-d1e427">Respondeo dicendum ad primam quaestionem, quod circumcisio et erat in praecepto, et
+              erat sacramentum. Octava ergo dies erat de necessitate circumcisionis quantum ad
+              obligationem praecepti, ita quod reus transgressionis erat qui illud tempus non
+              observabat. Sed non erat de necessitate ejus quantum ad efficaciam sacramenti: quia
+              etiam in alio tempore circumcisio facta suum effectum sacramentalem habebat. Sicut
+              etiam accidit de ministrantibus nostra sacramenta, qui servant materiam et formam
+              debitam, et omittunt aliquid de ritu ad solemnitatem sacramenti ab Ecclesia instituto.
+              Determinationis autem hujus temporis causa est et mystica, quae tangitur in littera,
+              et litteralis quae tangitur a Rabbi Moyse: quia puer ante octavum diem est ita tener
+              quasi in ventre matris; et ideo sicut animalia non offerebantur propter praedictam
+              causam ante octavum diem, ita nec puer circumcidebatur.</p>
+            <p xml:id="ta-l4d1q2-d1e430">Ad primum ergo dicendum, quod remedium quod praecessit circumcisionem, computatur
+              simpliciter inter sacramenta legis naturae, quae non habebant tantam determinationem
+              secundum Hugonem de sancto Victore, quantam habent sacramenta legis scriptae, ad quam
+              quodammodo pertinet circumcisio. Remedium autem quod circumcisionem sequitur, scilicet
+              Baptismus, est magis generale et perfectius, nec debuit ita restringi. Et ideo non est
+              similis ratio de circumcisione et aliis.</p>
+            <p xml:id="ta-l4d1q2-d1e433">Ad secundum dicendum, quod dies sabbati non impediebat circumcisionem: non enim erat
+              opus pure corporale, sed sacramentale; sicut et sacrificia, quae in sabbato offerri
+              licebat; et ideo dicitur Joan. 7, 23: <quote xml:id="ta-l4d1q2-Qd1e435">circumcisionem accipit homo in sabbato,
+                et non solvitur lex Moysi</quote>.</p>
+            <p xml:id="ta-l4d1q2-d1e439">Ad tertium dicendum, quod illis qui in deserto vagabantur dispensatio praecepti facta
+              est propter necessitatem, quae tangitur Josue 5: quia scilicet nesciebant quando
+              castra movenda essent. Et iterum quia non erat necesse eos tunc aliquod signum
+              distinctionis habere, ut Damascenus dicit, quando seorsum ab aliis hominibus
+              habitabant; et tamen quantum ad aliquos qui ex negligentia vel contemptu
+              praetermittebant, dicit Augustinus, quod inobedientiam incurrebant. Non autem constat
+              quod aliqui de illis qui in deserto nati sunt, in deserto mortui sint; et videtur
+              probabile quod non: quia dicitur in Psal. 104, 37. <quote xml:id="ta-l4d1q2-Qd1e441">Non erat in tribubus eorum
+                infirmus</quote>. Unde illi qui de Aegypto egressi sunt, qui circumcisi erant,
+              mortui sunt. Et ita nullus est ibi mortuus incircumcisus. Si tamen aliqui incircumcisi
+              mortui sunt, idem dicendum est de eis, et de illis qui ante circumcisionis
+              institutionem moriebantur.</p>
+            <p xml:id="ta-l4d1q2-d1e446">Ad quartum dicendum, quod Magister videtur sentire in littera, quod licebat imminente
+              mortis articulo idem praevenire. Quidam vero dicunt, Hugonem de sancto Victore
+              sequentes, quod non erat necessitas idem praeveniendi: quia illis qui ante octavum
+              diem moriebantur, valebat ad salutem remedium quod ante circumcisionem fuerat, quod
+              adhuc efficaciam habebat; et hoc confirmant per Judaeos qui nunc sunt, qui nunquam
+              ante octavum diem circumciduntur, et per Glossam, Prover. 4, super illud:
+                <quote xml:id="ta-l4d1q2-Qd1e448">unigenitus eram coram matre mea</quote>; quae dicit, quod alius filius
+              Bersabee parvulus non computatur, quia ante octavum diem mortuus, nominatus non fuit,
+              et per consequens nec circumcisus. Similiter etiam confirmant per simile: quia nullum
+              animal offerebatur domino ante octavum diem. Secundum hanc ergo opinionem dicendum,
+              quod non est simile de praeveniendo et differendo: quia praeceptum nullo modo quis
+              transgredi debet, ut praeveniat; sed si transgressus fuerit differendo, debet, quantum
+              potest, illud implere in quocumque tempore.</p>
+          </div>
+          <div xml:id="ta-l4d1q2-Dd1e453">
+            <head xml:id="ta-l4d1q2-Hd1e455">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d1q2-d1e458">Ad secundam quaestionem dicendum, quod circumcisio erat in signum purgationis
+              originalis peccati, et in signum distinctionis populi, ex quo Christus propagandus
+              erat, et in signum castitatis servandae, ut dictum est; et quantum ad omnia haec
+              decuit ut in membro generationis fieret, quia per actum generationis et originale
+              contrahitur, et Christus ab illo populo descendit, et in illo actu castitas consistit;
+              et ideo membrum generationis erat de necessitate circumcisionis et quantum ad
+              efficaciam sacramenti, et quantum ad obligationem praecepti.</p>
+            <p xml:id="ta-l4d1q2-d1e461">Ad primum ergo dicendum, quod quamvis originale peccatum quantum ad essentiam non
+              determinet aliquam partem corporis, neque quantum ad effectum; tamen quantum ad causam
+              determinat, ut dictum est.</p>
+            <p xml:id="ta-l4d1q2-d1e464">Ad secundum dicendum, quod membrum generationis, quod de se nobile erat, propter
+              concupiscentiam, quae praecipue in parte illa viget, ignobile redditum est; et ideo
+              oportebat quod in illo membro praecipue medicina apponeretur: quia <quote xml:id="ta-l4d1q2-Qd1e466">quae
+                inhonesta sunt nostra, abundantiorem honestatem habent</quote>, ut dicitur 1
+              Corinth. 12, 23.</p>
+          </div>
+          <div xml:id="ta-l4d1q2-Dd1e471">
+            <head xml:id="ta-l4d1q2-Hd1e473">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d1q2-d1e476">Ad tertiam quaestionem dicendum, quod sacramentum quod est signum et causa, efficit
+              quod figurat; et ideo illa significatio est de necessitate sacramenti quae ad effectum
+              sacramenti refertur, non autem illa quae refertur ad causam principalem effectus, sed
+              est de bene esse ipsius. Cultellus autem lapideus non est de necessitate incisionis,
+              per quam significat circumcisio suum effectum, scilicet purgationem originalis; sed
+              habet aliquam similitudinem ad causam principalem meritoriam remissionis originalis,
+              scilicet Christum; et ideo non erat de necessitate circumcisionis neque quantum ad
+              obligationem praecepti, neque quantum ad efficaciam sacramenti, quod fieret cultello
+              lapideo, quod ritus Judaeorum usque hodie ostendit: sed in principalibus
+              circumcisionibus, in quibus Christum significari oportebat, tale instrumentum
+              adhibitum est.</p>
+            <p xml:id="ta-l4d1q2-d1e479">Ad primum ergo dicendum, quod aqua de se habet maximam convenientiam ad ablutionem,
+              per quam Baptismus significat quod efficit, non autem lapis ad incisionem; et ideo non
+              est simile.</p>
+            <p xml:id="ta-l4d1q2-d1e482">Ad secundum dicendum, quod hoc intelligendum est de illis quae sancti observant quasi
+              ex lege obligati; sic autem non est in proposito; et ideo ratio non sequitur.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d1q2-Dd1e488" type="articulus">
+          <head xml:id="ta-l4d1q2-Hd1e490">Articulus 4</head>
+
+          <head xml:id="ta-l4d1q2-Hd1e493" type="questionTitle">Utrum circumcisio characterem imprimeret in anima</head>
+          <div xml:id="ta-l4d1q2-Dd1e496">
+            <head xml:id="ta-l4d1q2-Hd1e498">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d1q2-d1e501">Ad quartum sic proceditur. Videtur quod circumcisio characterem imprimebat in anima.
+              In sacramentis enim effectus figurae respondet. Sed circumcisio exterius erat signum
+              distinctivum, non solum purgativum. Ergo et interius characterem distinguentem
+              imprimebat.</p>
+            <p xml:id="ta-l4d1q2-d1e504">Praeterea, omne sacramentum quod non reiteratur in nova lege, characterem imprimit.
+              Sed circumcisio in veteri lege non reiterabatur. Ergo characterem imprimebat.</p>
+            <p xml:id="ta-l4d1q2-d1e507">Praeterea, aliquis adultus circumcisus poterat fictus accedere; et sic tunc effectum
+              circumcisionis non suscipiebat; postmodum autem deposita fictione circumcisio ei
+              valebat: alias enim non fuisset via salutis, cum iterari non posset. Ergo habebat
+              aliquem effectum manentem in anima, ratione cujus postea effectum ultimum
+              circumcisionis consequebatur; et hoc est character. Ergo imprimebat characterem.</p>
+            <p xml:id="ta-l4d1q2-d1e510">Sed contra, in sacramentis novae legis perfectissima tantum sunt illa quae
+              characterem imprimunt. Sed circumcisio erat longe inferior sacramentis novae legis.
+              Ergo characterem non imprimebat.</p>
+            <p xml:id="ta-l4d1q2-d1e514">Praeterea, character nos Trinitati configurat. Sed hoc indifferenter competit viris
+              et mulieribus. Cum ergo circumcisio mulieribus non competeret, videtur quod in ea
+              character non imprimeretur.</p>
+          </div>
+          <div xml:id="ta-l4d1q2-Dd1e518">
+            <head xml:id="ta-l4d1q2-Hd1e520">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d1q2-d1e523">Ulterius. Videtur quod circumcisio a peccato non purgaret. Rom. 3, 20: <quote xml:id="ta-l4d1q2-Qd1e525" ana="#rom3_20">ex
+                operibus legis non justificatur omnis caro coram illo</quote>. Sed alia opera legis,
+              ut sacrificia, non videntur minus honesta fuisse quam circumcisio. Ergo nec
+              circumcisio a peccato justificabat.</p>
+            <p xml:id="ta-l4d1q2-d1e529">Praeterea, si ab aliquo peccato purgabat, praecipue videtur quod ab originali. Sed ab
+              originali non purgabat, quod patet per hoc quod Joannes circumcisus octava die, ut
+              dicitur Luc. 1, dixit ad Jesum Matth. 3, 14: <quote xml:id="ta-l4d1q2-Qd1e531" ana="#mt3_14">ergo a te debeo baptizari</quote>;
+              Glossa: <quote xml:id="ta-l4d1q2-Qd1e534">a peccato originali mundari</quote>. Ergo nullo modo a peccato
+              mundabat.</p>
+            <p xml:id="ta-l4d1q2-d1e538">Praeterea, nihil impedit vitae aeternae introitum nisi peccatum. Sed circumcisio
+              januam vitae aeternae non aperiebat, ut in littera dicitur. Ergo neque peccata
+              purgabat.</p>
+            <p xml:id="ta-l4d1q2-d1e541">Praeterea, quidquid tollit unum peccatum, tollit omnia: quia impium est a Deo
+              dimidiam sperare veniam. Sed nunquam invenitur a sanctis dictum, quod circumcisio
+              tolleret peccatum actuale. Ergo nec originale tollebat.</p>
+            <p xml:id="ta-l4d1q2-d1e545">Sed in contrarium sunt auctoritates in littera positae.</p>
+          </div>
+          <div xml:id="ta-l4d1q2-Dd1e549">
+            <head xml:id="ta-l4d1q2-Hd1e551">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d1q2-d1e554">Ulterius. Videtur quod circumcisio gratiam non conferret. Sacramentum enim non
+              efficit nisi quod figurat. Sed circumcisio non significat gratiae collationem, sed
+              solum culpae ablationem. Ergo gratiam non confert.</p>
+            <p xml:id="ta-l4d1q2-d1e557">Praeterea, Baptismus non amplius facit, nisi quod aufert culpam, et confert gratiam.
+              Si ergo hoc ipsum circumcisio faciebat, Baptismus in nullo circumcisionem excedit.</p>
+            <p xml:id="ta-l4d1q2-d1e560">Praeterea, propter hoc lex vetus dicebatur occidere, quia gratiam contra
+              concupiscentiam non conferebat. Hoc autem non esset, si circumcisio, quae erat
+              quodammodo legis sacramentum, gratiam conferret. Ergo gratiam non conferebat.</p>
+            <p xml:id="ta-l4d1q2-d1e563">Sed contra, in littera dicitur, quod idem remedium praebebat circumcisio quod
+              Baptismus, excepto quod januam regni caelestis non aperiebat. Sed Baptismus gratiam
+              confert, non solum culpam aufert. Ergo et circumcisio idem facit.</p>
+            <p xml:id="ta-l4d1q2-d1e567">Praeterea, tenebra non expellitur nisi per praesentiam lucis. Sed gratia opponitur
+              culpae, sicut lux tenebrae. Cum ergo circumcisio expelleret culpam, videtur quod
+              gratiam conferret.</p>
+          </div>
+          <div xml:id="ta-l4d1q2-Dd1e572">
+            <head xml:id="ta-l4d1q2-Hd1e574">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d1q2-d1e577">Respondeo, ad primam quaestionem dicendum, quod character spiritualis est quoddam
+              signum distinctivum per hoc quod hominem in aliquo statu perfectionis constituit,
+              sicut in Baptismo, confirmatione, et ordine, ut magis infra patebit. Circumcisio autem
+              principaliter erat signum ad purgandum constitutum; et ideo in ipsa non ponebatur homo
+              in aliquo alio statu, et sic non competebat quod in ipsa character spiritualis
+              conferretur.</p>
+            <p xml:id="ta-l4d1q2-d1e580">Ad primum ergo dicendum, quod circumcisio principaliter significat per se ablationem,
+              sed distinctionem ex consequenti et per accidens, inquantum aliqui circumcidebantur,
+              et aliqui non; et ideo oportebat quod responderet ei effectus quantum ad principalem
+              significationem, non autem quantum ad secundariam.</p>
+            <p xml:id="ta-l4d1q2-d1e583">Ad secundum dicendum, quod circumcisio non iterabatur: quia causa ejus, scilicet
+              originale peccatum, iterari non poterat; et non propter hoc quod character spiritualis
+              in ipsa imprimeretur.</p>
+            <p xml:id="ta-l4d1q2-d1e586">Ad tertium dicendum, quod sicut in Baptismo manet character spiritualis, ratione
+              cujus fictus deposita fictione effectum Baptismi recipit; ita manebat character
+              exterior in circumcisione, quae hoc idem faciebat.</p>
+          </div>
+          <div xml:id="ta-l4d1q2-Dd1e590">
+            <head xml:id="ta-l4d1q2-Hd1e592">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d1q2-d1e595">Ad secundam quaestionem dicendum, quod peccatum quod ex alio contrahitur, conveniens
+              est ut per alium tollatur; et ideo in quolibet statu post peccatum fuit aliquod
+              remedium per quod originale peccatum ex virtute passionis Christi tolleretur. Et
+              iterum quia non poterat puer natus, antequam haberet usum liberi arbitrii, se ad
+              gratiam praeparare, ne omnino sine remedio relinqueretur, oportuit aliquod remedium
+              dari quod ex ipso opere operato peccatum aboleret; et tale remedium fuit circumcisio;
+              et ideo ab omnibus conceditur, quod peccatum auferebat, sicut significabat ablationem;
+              et in hoc cum sacramentis novae legis quodammodo conveniebat, quia efficiebat hoc quod
+              figurabat. Operabatur autem circumcisio peccati dimissionem a posteriori. In peccato
+              enim originali tria sunt, scilicet culpa, reatus carentiae visionis divinae, et fomes.
+              Prima duo totaliter tolluntur; sed tertium per sacramentum diminuitur; et ideo
+              circumcisio, quae erat particularis abscissio, directe significabat et causabat
+              diminutionem fomitis, et per consequens auferebat reatum visionis aeternae, et per
+              consequens culpam. In Baptismo autem e contrario est: quia prius destruit culpam,
+              cujus ablationem significat ablutio exterior et etiam causat, et per consequens
+              destruit alia.</p>
+            <p xml:id="ta-l4d1q2-d1e598">Ad primum ergo dicendum, quod sacrificia erant instituta ad satisfaciendum pro
+              peccatis actualibus, quae homo ex se perpetravit; et ideo non oportebat quod peccata
+              tollerentur per sacrificia, sicut peccatum originale per circumcisionem.</p>
+            <p xml:id="ta-l4d1q2-d1e601">Ad secundum dicendum, quod circumcisio quamvis a peccato originali liberaret, non
+              tamen per eam aliquis perfecte fructum liberationis consequi poterat, quia januam non
+              aperiebat; et secundum hoc Joannes circumcisus, a peccato originali mundari indigebat,
+              scilicet per Baptismum.</p>
+            <p xml:id="ta-l4d1q2-d1e604">Ad tertium dicendum, quod per circumcisionem auferebatur impedimentum quod erat ex
+              parte personae, ablato peccato originali, prout erat infectio hujus personae; adhuc
+              tamen manebat impedimentum ex parte naturae, nondum soluto pretio; et ideo per
+              accidens erat quod januam regni caelestis non aperiebat: quia si etiam Baptismus,
+              eamdem quantum in se est gratiam conferens quam modo confert, eo tempore fuisset,
+              januam non aperuisset; et si modo circumcisio locum haberet, januam aperiret.</p>
+            <p xml:id="ta-l4d1q2-d1e608">Ad quartum dicendum, quod circumcisio directe contra originale ordinata fuit, sed ex
+              consequenti etiam actuale tollebat ubi inveniebat. Sed tamen sancti de hoc non
+              loquuntur, quia ad hoc non erat circumcisio principaliter instituta.</p>
+          </div>
+          <div xml:id="ta-l4d1q2-Dd1e612">
+            <head xml:id="ta-l4d1q2-Hd1e614">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d1q2-d1e617">Ad tertiam quaestionem dicendum, quod circa hoc est multiplex opinio. Quidam enim
+              dixerunt, quod circumcisio, quantum est de se, culpam tollebat, sed gratiam non
+              conferebat, innitentes cuidam Glossae quae habetur Rom. 4, quae dicit: <quote xml:id="ta-l4d1q2-Qd1e619">in
+                circumcisione peccata remittebantur, sed non gratia per eam praestabatur</quote>.
+              Dicebant enim, quod cum originale nihil aliud sit quam concupiscentia intensa cum
+              carentia debitae justitiae, circumcisio sine hoc quod gratia conferretur, poterat
+              auferre debitum, non auferendo reatum, ut patet per hoc quod si homo illam justitiam
+              non habebat, non ei imputaretur ad poenam. Sed hoc non potest esse: quia manente
+              inordinatione culpae, nullo modo potest non imputari a Deo ad poenam, cum culpae
+              inordinatio per poenam ordinetur. Et ideo oportet, si imputatio ad poenam tollitur,
+              quod inordinatio tollatur; quod sine gratia fieri non potest. Et ideo alii dicunt,
+              quod circumcisio ex sua virtute culpam tollebat, et gratia circumciso conferebatur,
+              non ex vi circumcisionis, sed ex divina liberalitate ablato gratiae impedimento. Sed
+              hoc non potest esse: quia quamvis ex parte recipientis prius sit expulsio contrarii
+              quam introductio formae, tamen ex parte causae agentis est prius introductio formae:
+              quia non expellitur contrarium nisi introducendo formam; et ideo nisi circumcisio
+              aliquo modo gratiam conferret, nullo modo culpam tolleret. Et ideo alii dicunt, quod
+              circumcisio conferebat gratiam quantum ad effectus privativos, qui scilicet sunt
+              auferre culpam, sed non quantum ad effectus positivos. Sed hoc nihil est: quia
+              effectus ultimus gratiae positivus, est facere dignum vita aeterna; quod fiebat per
+              circumcisionem, sicut et modo fit per Baptismum. Et ideo alii dicunt probabilius ut
+              videtur, quod dabat gratiam quantum ad effectus privativos culpae et reatus, et
+              quantum ad quosdam effectus positivos, sicut ordinare animam et facere dignum vita
+              aeterna; non tamen quantum ad omnes quos habet gratia baptismalis; quia illa sufficit
+              ad totaliter concupiscentiam reprimendam, et meritorie agendum, ad quod gratia in
+              circumcisione data sufficere non valebat; et secundum hoc intelligitur Glossa
+              inducta.</p>
+            <p xml:id="ta-l4d1q2-d1e623">Ad primum ergo dicendum, quod sicut in sacramento altaris est aliquid ex vi
+              sacramenti, aliquid autem ex naturali concomitantia, ut infra dicetur, dist. 10,
+              quaest. 1, art. 2, quaestiunc. 1, ita circumcisio principaliter ordinata erat ad
+              ablationem culpae, sed ex consequenti ad collationem gratiae.</p>
+            <p xml:id="ta-l4d1q2-d1e626">Ad secundum dicendum, quod in Baptismo amplior gratia datur, ut dictum est.</p>
+            <p xml:id="ta-l4d1q2-d1e629">Ad tertium dicendum, quod gratia circumcisionis non sufficienter reprimebat
+              concupiscentiam, sicut facit gratia novi testamenti; et ideo ratio non sequitur.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d1q2-Dd1e634" type="articulus">
+          <head xml:id="ta-l4d1q2-Hd1e636">Articulus 5</head>
+
+          <head xml:id="ta-l4d1q2-Hd1e639" type="questionTitle">Utrum circumcisio cessare debuerit</head>
+          <div xml:id="ta-l4d1q2-Dd1e642">
+            <head xml:id="ta-l4d1q2-Hd1e644">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d1q2-d1e647">Ad quintum sic proceditur. Videtur quod circumcisio cessare non debuerit. Gen. 17,
+              dicitur, quod circumcisio datur in foedus aeternum. Sed aeternum est quod nullo fine
+              clauditur. Ergo circumcisio cessare non debuit.</p>
+            <p xml:id="ta-l4d1q2-d1e650">Praeterea, illud quod cum lege non incipit, cum lege cessare non debet. Sed
+              circumcisio ante legem incepit: non enim est ex lege, sed ex patribus, ut dicitur
+              Joan. 7. Ergo cum lege cessare non debuit.</p>
+            <p xml:id="ta-l4d1q2-d1e653">Praeterea, figuralia quae significant id quod semper faciendum est, non debet
+              cessare, sicut de thurificatione, quae significat devotionem, patet. Sed
+                <quote xml:id="ta-l4d1q2-Qd1e655">circumcisio cordis, cujus laus ex Deo est</quote>, ut dicitur Rom. 2, semper
+              facienda est; et hanc significat exterior circumcisio. Ergo cessare non debuit.</p>
+            <p xml:id="ta-l4d1q2-d1e659">Sed contra, Gal. 5, 2: <quote xml:id="ta-l4d1q2-Qd1e661">si circumcidimini, Christus vobis nihil
+                proderit</quote>.</p>
+            <p xml:id="ta-l4d1q2-d1e666">Praeterea, veniente perfecto frustra imperfectum remaneret ad idem ordinatum. Sed
+              Baptismus perfectius facit hoc ad quod circumcisio ordinata erat, quam circumcisio
+              faceret. Ergo veniente Baptismo circumcisio cessare debuit.</p>
+          </div>
+          <div xml:id="ta-l4d1q2-Dd1e670">
+            <head xml:id="ta-l4d1q2-Hd1e672">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d1q2-d1e675">Ulterius. Videtur quod nec alia legalia cessare debuerint. Christus enim, ut dicitur
+              Matth. 5, non venit legem solvere, sed implere. Sed lex consistebat non tantum in
+              moralibus, sed etiam in sacramentis legalibus. Ergo non venit ea solvere.</p>
+            <p xml:id="ta-l4d1q2-d1e678">Praeterea, apud Deum non est transmutatio. Sed signum mutationis voluntatis est ut
+              praeceptum quod prius datum est, postea revocetur. Cum ergo Deus haec sacramenta
+              praeceperit, videtur quod cessare non debuerant.</p>
+            <p xml:id="ta-l4d1q2-d1e681">Praeterea, praeceptum non potest revocari nisi per aequalem, vel superiorem. Sed Deus
+              nunquam revocasse legitur praeceptum de sacramentis legalibus in nova lege. Ergo adhuc
+              durant.</p>
+            <p xml:id="ta-l4d1q2-d1e684">Sed contra est quod dicitur Heb. 10, 1: <quote xml:id="ta-l4d1q2-Qd1e686">umbram habet lex futurorum
+                bonorum</quote>. Sed veniente veritate cessat figura. Ergo veniente Christo legalia
+              cessare debuerunt.</p>
+            <p xml:id="ta-l4d1q2-d1e691">Praeterea, Hebr. 7, 12: <quote xml:id="ta-l4d1q2-Qd1e693" ana="#hebr7_12">translato sacerdotio necesse est ut et legis
+                translatio fiat</quote>. Sed in Christo translatum fuit sacerdotium, ut ibidem
+              apostolus probat. Ergo et legalia cessare debuerunt.</p>
+          </div>
+          <div xml:id="ta-l4d1q2-Dd1e698">
+            <head xml:id="ta-l4d1q2-Hd1e700">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d1q2-d1e703">Ulterius. Videtur quod tempore gratiae poterant sine peccato observari. Omnis enim
+              Christi actio nostra est instructio. Sed Christus tempore gratiae ea observavit, sicut
+              in multis patet. Ergo licitum est tempore gratiae ea servare.</p>
+            <p xml:id="ta-l4d1q2-d1e706">Praeterea, tempore apostolorum etiam observabantur, sicut patet Act. 16, de Paulo,
+              qui circumcidit Timotheum, et de eodem Act. 21, qui purificatus per legem, templum
+              intravit, et hostias obtulit: quod non fecisset ad vitandum scandalum, si peccatum
+              fuisset; quia veritas vitae non est dimittenda propter scandalum. Ergo sine peccato
+              tempore gratiae observari poterant.</p>
+            <p xml:id="ta-l4d1q2-d1e709">Praeterea, omnis actus qui non est de se malus, potest sine peccato fieri, et
+              meritorie, si recta intentione fiat. Sed sacrificare et circumcidi non sunt de se
+              mala, alias nunquam licita fuissent. Ergo si bona intentione fiant, erunt meritoria
+              etiam modo, nedum ut sint peccata.</p>
+            <p xml:id="ta-l4d1q2-d1e712">Sed contra est quod dicitur Gal. 5, 2: <quote xml:id="ta-l4d1q2-Qd1e714">si circumcidimini, Christus nihil vobis
+                proderit</quote>. Sed omne quod impedit profectum qui provenit ex Christi
+              redemptione, est peccatum. Ergo circumcisio tempore gratiae non poterat fieri sine
+              peccato, et pari ratione nec alia sacramenta.</p>
+            <p xml:id="ta-l4d1q2-d1e719">Praeterea, Gal. 4, super illud: <quote xml:id="ta-l4d1q2-Qd1e721">quomodo convertimini rursus ad egena et
+                infirma elementa?</quote> Dicit Glossa: <quote xml:id="ta-l4d1q2-Qd1e724">ideo dicit, denuo, ut ostendat quod
+                non distat modo lex post Christum ab antiqua idolatria</quote>. Sed idolatria
+              nunquam poterat observari sine peccato. Ergo nec legalia post Christum.</p>
+          </div>
+          <div xml:id="ta-l4d1q2-Dd1e730">
+            <head xml:id="ta-l4d1q2-Hd1e732">Quaestiuncula 4</head>
+            <p xml:id="ta-l4d1q2-d1e735">Ulterius. Videtur quod usque modo teneamur aliqua legalia observare. Tenemur enim ad
+              observanda praecepta novi testamenti, et statuta Ecclesiae. Sed praeceptum apostolorum
+              in novo testamento fuit de quibusdam legalibus observandis. Act. 15, 28: <quote xml:id="ta-l4d1q2-Qd1e737">visum
+                est spiritui sancto et nobis nihil ultra imponere vobis oneris quam ut abstineatis
+                vos ab immolatis simulacrorum, et sanguine, et suffocato, et fornicatione</quote>.
+              Ergo adhuc tenemur ad haec legalia servanda.</p>
+            <p xml:id="ta-l4d1q2-d1e741">Sed si dicatur, quod fuit permissio apostolorum pro tempore illo; contra. Glossa
+              ibidem dicit, haec esse necessaria. Sed necessaria sunt sine quibus non est salus, et
+              de quibus non est permissio, sed praeceptum. Ergo adhuc observare tenemur.</p>
+            <p xml:id="ta-l4d1q2-d1e744">Si dicatur, quod per Paulum revocatum est, ut cum dicitur 1 Timoth. 4, 4:
+                <quote xml:id="ta-l4d1q2-Qd1e746">nihil rejiciendum quod cum gratiarum actione percipitur</quote>; contra.
+              Inferior non potest praeceptum superioris revocare. Sed Paulus fuit inferior quam
+              totum apostolorum Concilium in Hierusalem congregatum. Ergo non potuit revocare.</p>
+            <p xml:id="ta-l4d1q2-d1e750">Sed contra, Petrus ibidem dicit, Act. 15, quod per gratiam Christi salvamur in lege
+              nova sine onere legis, sicut et patres nostri; unde hoc jugum non est fidelibus
+              imponendum. Sed onus praedictum est observatio caeremonialium. Ergo ad ea servanda non
+              tenemur.</p>
+          </div>
+          <div xml:id="ta-l4d1q2-Dd1e754">
+            <head xml:id="ta-l4d1q2-Hd1e756">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d1q2-d1e759">Respondeo dicendum ad primam quaestionem, quod cum venit quod perfectum est, evacuari
+              debet quod ex parte est, si ad idem ordinetur: quia gratia non facit per duo quod per
+              unum potest facere, sicut nec natura. Circumcisio autem imperfecta erat respectu
+              Baptismi tripliciter. Primo quantum ad significationem: quia non ita significabat
+              expresse emundationem totius hominis ab immunditia totius culpae originalis, sicut
+              ablutio baptismalis. Secundo quantum ad efficaciam: quia non tam abundans gratia ad
+              operandum et reprimendum fomitem in circumcisione dabatur sicut in Baptismo. Tertio
+              quantum ad utilitatem: quia non erat ejus utilitas ita communis sicut Baptismi, cum
+              haberet determinatum populum, determinatum sexum, et determinatum tempus, quod in
+              Baptismo non accidit; et ideo adveniente tempore plenitudinis debuit cessare, Baptismo
+              substituto.</p>
+            <p xml:id="ta-l4d1q2-d1e762">Ad primum ergo dicendum, quod aeternum hic accipitur pro saeculo; quod habet quidem
+              finem, sed non est determinatus nobis. Vel etiam dicendum, quod circumcisio corporalis
+              potuit esse in foedus aeternum quantum ad suum significatum, et quantum ad id quod ei
+              succedit; sicut etiam fides potest dici semper manere ratione visionis, quae ei
+              succedit in patria.</p>
+            <p xml:id="ta-l4d1q2-d1e765">Ad secundum dicendum, quod quamvis cum lege non inceperit circumcisio, tamen propter
+              legem incepit quasi legis praeparatorium; et ideo cessante lege cessare debuit.</p>
+            <p xml:id="ta-l4d1q2-d1e768">Ad tertium dicendum, quod principalis significatio ad quam circumcisio instituta est,
+              est ablatio originalis culpae, quia sacramentalis significatio refertur ad effectum.
+              Hoc autem non semper faciendum erat per circumcisionem; et ideo non oportebat quod
+              circumcisio semper remaneret. Alia autem significatio est ex consequenti, et secundum
+              illam non oportet accipi judicium de duratione circumcisionis. Thurificationis autem
+              significatio nunquam fuit ad significandum aliquid ut effectum ejus; et ideo non est
+              similis ratio.</p>
+          </div>
+          <div xml:id="ta-l4d1q2-Dd1e772">
+            <head xml:id="ta-l4d1q2-Hd1e774">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d1q2-d1e777">Ad secundam quaestionem dicendum, quod triplex erat praecipua ratio cessationis
+              legalium. Una est, quia lex instituta fuit ad significandum gratiam novi testamenti,
+              quae per Christum facta est; et ideo veniente Christo cessare debuerunt, sicut
+              veniente corpore cessat umbra; et hanc causam tangit apostolus Hebr. 10, 1:
+                <quote xml:id="ta-l4d1q2-Qd1e779" ana="#hebr10_1">umbram habens lex futurorum bonorum</quote>. Alia ratio est ex imperfectione:
+              quia in legalibus gratia non conferebatur quantam oportebat in novo testamento dari.
+              Sicut enim virtus naturalis rei naturali proportionatur, ita virtus sacramentalis
+              sacramento; unde oportuit alia sacramenta institui, in quibus amplior gratia
+              conferretur; et hanc causam tangit apostolus Heb. 7, 18: <quote xml:id="ta-l4d1q2-Qd1e782">reprobatio quidem fit
+                prioris mandati propter infirmitatem et inutilitatem</quote>. Tertia accipitur ex
+              parte eorum quibus lex data est, qui erant parvuli; et ideo erant paulatim a pristina
+              consuetudine idolatriae abstrahendi, ut sic eis concederetur eadem Deo offerre quae
+              prius idolis obtulerunt, vel offerri viderant, sicut Rabbi Moyses dicit. Sed postmodum
+              quando ad perfectam aetatem humanum genus pervenit, debuit ab his observantiis liber
+              esse. Et hanc causam tangit apostolus Gal. 3 et 4, et Petrus Act. 15, ostendens illa
+              legalia in onus populo rudi imposita esse.</p>
+            <p xml:id="ta-l4d1q2-d1e786">Ad primum ergo dicendum, quod Christus in hoc legem implevit quod moralibus
+              praeceptis consilia apposuit, et praecepta magis elucidavit: sed figuris
+              caeremonialium veritatem apposuit, et ea in seipso suscepit.</p>
+            <p xml:id="ta-l4d1q2-d1e789">Ad secundum dicendum, quod non ex mutabilitate praecipientis, sed ex prudenti
+              dispensatione contingit quod diversa praecepta diversis temporibus accommoda proponit,
+              sicut est in proposito.</p>
+            <p xml:id="ta-l4d1q2-d1e792">Ad tertium dicendum, quod dominus ipso facto revocavit, adimplens in se quod in
+              figura praeceperat observandum; et ideo in sua passione dixit: <quote xml:id="ta-l4d1q2-Qd1e794">consummatum
+                est</quote>. Joan. 19, 30.</p>
+          </div>
+          <div xml:id="ta-l4d1q2-Dd1e799">
+            <head xml:id="ta-l4d1q2-Hd1e801">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d1q2-d1e804">Ad tertiam quaestionem dicendum, quod haec quaestio videtur habere difficultatem ex
+              quibusdam contrarietatibus quae super hoc inveniuntur tam in canone, quam in dictis
+              sanctorum. Quandoque enim inveniuntur observata legalia tempore gratiae, quandoque
+              autem prohibita; et de hoc etiam Petrus a Paulo redargutus videtur Gal. 2. Et ideo
+              super hoc Hieronymus et Augustinus diversa sensisse videntur. Volebat enim Hieronymus
+              quod legalia statim post passionem Christi quantum ad hos ad quos gratia novi
+              testamenti manifeste divulgata erat, fuerunt mortifera; sed apostolos quadam pia
+              dispensatione his usos fuisse ad vitandum scandalum Judaeorum; et ideo Petrus
+              judaizans non peccavit, dispensatorie id faciens, secundum quod etiam dicitur 1
+              Corinth. 9, 22: <quote xml:id="ta-l4d1q2-Qd1e806">omnibus omnia factus sum</quote>; et similiter Paulus
+              dispensatorie eum redarguit, ne gentiles exemplo Petri, quorum ipse apostolus erat,
+              veteris legis sacramenta quasi necessaria quaererent: quia et ipse invenitur eadem pia
+              simulatione servasse; et sic uterque excusatur, et Petrus a culpa, et Paulus a procaci
+              reprehensione. Sed quia non videtur conveniens quod apostoli aliquid contra veritatem
+              doctrinae fecissent ad vitandum scandalum Judaeorum, nec iterum videtur conveniens
+              quod Paulus in epistola ad Galatas aliquid simulate diceret, ubi dicit Petrum
+              reprehensibilem fuisse; ideo Augustinus aliter dicit, et melius, quod ante Christi
+              passionem legalia fuerunt observanda ex necessitate divinae jussionis, et habuerunt
+              adhuc effectum; sed post Christi passionem ante divulgationem Evangelii observari
+              poterant a Judaeis ad fidem conversis, non spem in ipsis ponentibus, quasi alicujus
+              virtutis essent, aut quasi sine eis gratia Christi non sufficeret ad salutem, sed ne
+              omnino videretur lex vetus reprobanda, si statim quasi idolatria fugeretur; et ideo
+              hoc modo erat mater synagoga deducenda ad tumulum cum honore. Sed post divulgationem
+              Evangelii non solum non sunt salutifera, sed mortifera. Medio ergo tempore Petrus et
+              Paulus et alii apostoli legalia observabant non simulatorie, sed vere. Petrus tamen
+              incaute se habuit in observatione legalium, nimis condescendens Judaeis illis qui
+              legalia observanda esse dicebant, ita ut aliqui ejus exemplo inducerentur ad ea
+              observanda quasi necessaria; et ideo vere reprehensibilis erat, et aliquam levem
+              incurrit culpam; et Paulus vere et non dispensative ipsum reprehendit.</p>
+            <p xml:id="ta-l4d1q2-d1e810">Et per hoc patet solutio ad primum et secundum: quia ante Christi passionem, quando
+              Christus ea servavit, non erant mortua nec mortifera, sed salutifera; tempore vero
+              apostolorum ante divulgationem Evangelii erant quidem mortua, quasi nullius existentia
+              utilitatis, sed non mortifera.</p>
+            <p xml:id="ta-l4d1q2-d1e813">Ad tertium dicendum, quod una circumstantia mutata facit actum bonum in genere, vel
+              malum; et ideo legalia, quae absque consideratione alicujus temporis sunt
+              indifferentia, suo tempore facta fuerunt bona, tempore autem non suo observata, sunt
+              facta mala; et ideo bona intentione fieri non possunt bene.</p>
+          </div>
+          <div xml:id="ta-l4d1q2-Dd1e817">
+            <head xml:id="ta-l4d1q2-Hd1e819">Quaestiuncula 4</head>
+            <p xml:id="ta-l4d1q2-d1e822">Ad quartam quaestionem dicendum, quod circa hoc tres sunt opiniones. Una opinio
+              dixit, quod ad litteram intelligendum est illud praeceptum quod legitur in actibus, et
+              ejus obligatio usque nunc manet. Sed hoc manifeste contrariatur dictis Pauli, qui
+              dixit nihil esse commune, idest immundum, per Christum, nisi ei qui aestimat aliquid
+              esse commune, Rom. 14; et iterum est contra rationem: quia cum hoc praeceptum non sit
+              morale, quia naturalis ratio illud non dictat, oportet quod sit caeremoniale; et ideo
+              ejus obligatio non manet magis quam aliorum. Et ideo alii dixerunt, quod non est
+              intelligendum ad litteram de sanguine animalis, et suffocato animali, sed de effusione
+              sanguinis quae fit per homicidium, et de suffocatione pauperum. Sed hoc non potest
+              stare: quia Hieronymus Ezech. 18, post illam expositionem mysticam, expositionem ponit
+              litteralem, quam dicit apostolos etiam intendisse. Et ideo alii dicunt, quod epistola
+              apostolorum non erat praeceptoria quantum ad hoc quod abstinerent se ab immolatitiis,
+              et sanguine, et suffocato; sed erat quaedam provisio ad conservandam pacem, et
+              communem vitam gentilium et Judaeorum fidelium; et ideo fornicationem prohibuerunt
+              quasi per se malum, quod apud gentiles non reputabatur pro peccato. Immolatitium autem
+              prohibuerunt quasi illud quod posset suspicionem idolatriae adhuc retentae generare de
+              gentilibus in cordibus Judaeorum; sanguinem autem suffocatum sicut quod Judaei
+              abominabantur propter dissuetudinem: sicut etiam usque hodie si aliquis socialiter
+              vult alii convivere, oportet quod abstineat ab his quae alter abominatur.</p>
+            <p xml:id="ta-l4d1q2-d1e825">Et per hoc patet responsio ad primum.</p>
+            <p xml:id="ta-l4d1q2-d1e828">Ad secundum dicendum, quod dicuntur esse necessaria quantum ad sensum mysticum
+              praetactum, vel quantum ad observandum communitatem vitae inter Judaeos et
+              gentiles.</p>
+            <p xml:id="ta-l4d1q2-d1e831">Ad tertium dicendum, quod Paulus non revocavit, sed exposuit apostolorum intentionem,
+              sicut qui praesens fuerat quando sententia data erat. Unde dicitur 1 Corinth. 8, 1:
+                <quote xml:id="ta-l4d1q2-Qd1e833">de his autem quae idolis immolantur, non omnes habemus scientiam</quote>:
+              quia non omnes intelligebant qualiter essent prohibita.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d1q2-Dd1e839" type="articulus">
+          <head xml:id="ta-l4d1q2-Hd1e841">Articulus 6</head>
+
+          <head xml:id="ta-l4d1q2-Hd1e844" type="questionTitle">Utrum sola fides valeret parvulis ad remissionem originalis
+            peccati</head>
+          <div xml:id="ta-l4d1q2-Dd1e847">
+            <head xml:id="ta-l4d1q2-Hd1e849">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d1q2-d1e852">Ad sextum sic proceditur. Videtur quod ante circumcisionem non valebat ad remissionem
+              originalis peccati pro parvulis sola fides. Efficacior enim est caritas quam fides.
+              Sed caritas aliena nunquam sufficit ad meritum. Ergo nec fides ad justificationem.</p>
+            <p xml:id="ta-l4d1q2-d1e855">Praeterea, si fides aliena valebat, ergo eadem ratione etiam infidelitas nocebat; et
+              ita ex peccato actuali parentum puer puniretur; quod est inconveniens.</p>
+            <p xml:id="ta-l4d1q2-d1e858">Praeterea, fides non magis juvat alium quam habentem. Sed illi qui habebant fidem,
+              non semper juvabantur a fide: quia poterat esse quod haberent fidem informem. Ergo nec
+              puero valebat fides parentum ad delendum originale peccatum.</p>
+            <p xml:id="ta-l4d1q2-d1e861">Sed contra est quod dicit Gregorius in littera.</p>
+            <p xml:id="ta-l4d1q2-d1e865">Praeterea, peccatum quod ex altero contrahitur, ex altero potest habere medicinam.
+              Sed peccatum originale parvuli ex altero contrahebatur. Ergo poterat ex fide aliena ab
+              ipso mundari.</p>
+          </div>
+          <div xml:id="ta-l4d1q2-Dd1e869">
+            <head xml:id="ta-l4d1q2-Hd1e871">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d1q2-d1e874">Ulterius. Videtur quod fides non suffecerit sine aliquo exteriori signo. Dicit enim
+              Augustinus contra Faustum, quod in nullum nomen religionis, sive verum, sive falsum,
+              poterant homines sine aliquo signo visibili adunari. Sed per illud quo originale
+              deletur, homines in religionem verae fidei adunantur: quia oportet hujusmodi remedium
+              esse intrantium. Ergo oportebat quod fieret aliquo visibili signo.</p>
+            <p xml:id="ta-l4d1q2-d1e877">Praeterea, actus mentis potest se extendere ad natos et non natos, sed conceptos,
+              aequaliter. Si ergo fides sine exteriori signo sufficiebat ad deletionem originalis,
+              videtur quod poterant etiam nondum nati ab originali peccato per fidem mundari.</p>
+            <p xml:id="ta-l4d1q2-d1e880">Praeterea, modo non valet fides ad salutem sine aliquo signo exteriori. Si ergo tunc
+              valuisset, videtur quod fuisset majoris efficaciae quam modo.</p>
+            <p xml:id="ta-l4d1q2-d1e883">Sed contra est, quia secundum hoc non esset differentia inter parvulos et adultos,
+              quam tamen Gregorius assignat.</p>
+            <p xml:id="ta-l4d1q2-d1e887">Praeterea, omnia sacramenta illius temporis habebant totam efficaciam suam ex fide.
+              Ergo tantum faciebat fides sine exteriori signo, quantum cum eo; et ita exteriora
+              signa non requirebantur, ut videtur.</p>
+          </div>
+          <div xml:id="ta-l4d1q2-Dd1e891">
+            <head xml:id="ta-l4d1q2-Hd1e893">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d1q2-d1e896">Ulterius. Videtur quod in adultis non requireretur sacrificium, vel aliud hujusmodi.
+              Non minus enim valet alicui fides propria quam alteri fides aliena. Sed pueris
+              sufficiebat fides aliena sine exteriori signo, ut probatum est. Ergo et adultis.</p>
+            <p xml:id="ta-l4d1q2-d1e899">Praeterea, Hugo de sancto Victore dicit, quod nullus obligabatur ad sacramenta illius
+              temporis, sed voto celebrabantur. Sed quod est hujusmodi, non est de necessitate
+              salutis. Ergo absque sacrificiis poterat emundari ab originali.</p>
+            <p xml:id="ta-l4d1q2-d1e902">Sed contra est quod Gregorius in littera dicit, quod pro parvulis sola fides, pro
+              adultis sacrificia et oblationes valebant.</p>
+          </div>
+          <div xml:id="ta-l4d1q2-Dd1e907">
+            <head xml:id="ta-l4d1q2-Hd1e909">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d1q2-d1e912">Respondeo dicendum, quod peccatum originale est peccatum naturae: natura autem
+              reparari non poterat nisi per Christum; et ideo nunquam poterat remitti peccatum
+              originale alicujus nisi facta relatione, et quadam continuatione illius qui curari
+              debebat, ad Christum, quod per fidem fiebat; et ideo fides mediatoris semper fuit
+              efficax ad curandum ab originali: in illis quidem qui usum liberi arbitrii habebant,
+              propria; in aliis vero aliena, ut nec eis omnino deesset divinum remedium.</p>
+            <p xml:id="ta-l4d1q2-d1e915">Ad primum ergo dicendum, quod fides in cognitione est, caritas autem in affectione.
+              Affectio autem est ejus quod est sibi bonum; sed cognitio est ejus quod est verum
+              simpliciter; et ideo fides poterat magis respicere mediatorem, prout erat causa
+              salutis alteri, quam caritas; et propter hoc magis justificatio quae fit in
+              sacramentis, attribuitur fidei quam caritati.</p>
+            <p xml:id="ta-l4d1q2-d1e918">Ad secundum dicendum, quod fides aliena non juvabat inquantum erat actus personae,
+              sed ex parte illa qua respiciebat objectum suum, scilicet Christum, quod erat medicina
+              totius naturae; in quo habebat quamdam similitudinem cum sacramentis nostris,
+              inquantum justificabat ex objecto, quasi ex opere operato, non autem ex opere
+              operante.</p>
+            <p xml:id="ta-l4d1q2-d1e921">Et per hoc patet solutio ad tertium: quia formatio et informitas fidei sunt
+              conditiones ejus ex parte operantis, non autem ex parte objecti; et ideo informitas
+              fidei in parente non impediebat effectum salutis in filio; impediebat autem in ipso,
+              quia informitas illa proveniebat ex aliquo quod erat contrarium saluti, scilicet ex
+              peccato mortali.</p>
+          </div>
+          <div xml:id="ta-l4d1q2-Dd1e925">
+            <head xml:id="ta-l4d1q2-Hd1e927">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d1q2-d1e930">Ad secundam quaestionem dicendum, quod circa hoc est duplex opinio. Quidam enim
+              dicunt, quod non sufficiebat fides sine protestatione fidei facta per aliquod exterius
+              signum; et erat differentia inter parvulos et adultos quantum ad hoc tantum quod
+              parvulis sufficiebat fides aliena cum exteriori signo ab aliis facto, sed adultis
+              fides propria cum signo ab eis facto. Sed quia hoc non videtur consonare cum verbis
+              Gregorii in littera positis, ideo alii probabilius dicunt, quod parvulis sufficiebat
+              sola fides sine omni exteriori signo; non autem habitus fidei solum, sed motus ejus
+              relatus ad salutem pueri in vi cujusdam professionis interioris fidei, quicumque esset
+              ille qui quoquo modo professionem fidei suae ad puerum suum referret; magis tamen
+              pertinebat hoc ad parentes, qui pueri curam habere debebant, et per quos originale
+              contraxerat.</p>
+            <p xml:id="ta-l4d1q2-d1e933">Ad primum ergo dicendum secundum hoc, quod illud per quod homines tempore legis
+              naturae in veram religionem congregabantur, non habebat virtutem nisi ex fide; et ideo
+              non erat necessitatis, sed pro voto celebrabatur, ut unus alii innotesceret.</p>
+            <p xml:id="ta-l4d1q2-d1e936">Ad secundum dicendum, quod puer adhuc in utero matris existens, quantum ad humanam
+              cognitionem pertinet, non habet esse distinctum a matre, et ideo per actum hominis
+              consequi non potest nec nunc ut mundetur ab originali per Baptismum, nec tunc ut
+              mundaretur per fidem parentum: sed divinitus mundari potest, sicut de sanctificatis in
+              utero apparet.</p>
+            <p xml:id="ta-l4d1q2-d1e939">Ad tertium dicendum, quod fidei efficacia non est diminuta, cum omnia sacramenta ex
+              fide efficaciam habeant; sed est ei aliquid adjunctum quod necesse est observari;
+              sicut non est minoris efficaciae lex moris in religioso quam in saeculari; quamvis
+              praecepta moralia sufficiant ad salutem in saeculari, sed in religioso requirantur
+              consilia, ad quae se ex voto obligavit.</p>
+          </div>
+          <div xml:id="ta-l4d1q2-Dd1e943">
+            <head xml:id="ta-l4d1q2-Hd1e945">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d1q2-d1e948">Ad tertiam quaestionem dicendum, quod illa sacramenta legis naturae non erant ex
+              praecepto divino obligantia, sed ex voto celebrabantur, secundum quod unicuique
+              dictabat sua mens, ut fidem suam aliis exteriori signo profiteretur ad honorem Dei,
+              secundum quod habitus caritatis inclinabat ad exteriores actus; et sic dicimus de
+              caritate, quod sufficit motus interior; quando autem tempus habet operandi,
+              requiruntur etiam exteriores actus. Ita etiam quantum ad adultos in lege naturae
+              sufficiebat sola fides, cum etiam modo sufficiat ei qui non ex contemptu sacramenta
+              dimittit; sed ipsa fides, quando tempus habebatur, instigabat ut se aliquibus signis
+              exterioribus demonstraret. Quando autem illa signa adhibebantur, non erat efficacia
+              remissionis culpae ex illis exterioribus, sed ex interiori fide; et sic intelligenda
+              sunt verba Gregorii.</p>
+            <p xml:id="ta-l4d1q2-d1e951">Et per hoc patet solutio ad objecta.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d1q2-Dd1e956">
+          <head xml:id="ta-l4d1q2-Hd1e958">Expositio textus</head>
+          <p xml:id="ta-l4d1q2-d1e961"><quote xml:id="ta-l4d1q2-Qd1e962">In sinu Abrahae</quote>, sinus Abrahae dicitur Limbus patrum, in quo distincti
+            erant sancti ab aliis; et quia Abraham primus ab infidelibus loco et ritu se separasse
+            legitur, ideo dicitur Abrahae sinus. <quote xml:id="ta-l4d1q2-Qd1e965">Lapideo cultro</quote>, intelligendum est
+            non semper, sed in quibusdam notabilibus circumcisionibus, sicut legitur Exod. 4, et
+            Josue 5. <quote xml:id="ta-l4d1q2-Qd1e968">In carne vero praeputii ideo jussa est fieri circumcisio, quia in
+              remedium instituta est originalis peccati</quote>. Caro praeputii dicitur pellicula
+            contegens carnem: quia in ipsa carne, ubi concupiscentia magis est, non poterat
+            abscissio fieri sine periculo. <quote xml:id="ta-l4d1q2-Qd1e971">Tamen sub lege, ingruente necessitate mortis, ante
+              octavum diem circumcidebant sine peccato filios</quote>. Magister hic loquitur
+            secundum opinionem suam; tamen alia opinio quae supra posita est, videtur esse magis
+            probabilis.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

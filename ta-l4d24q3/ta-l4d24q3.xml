@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 24, Quaestio 3</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Librum IV, Distinctio 24, Quaestio 3</title>
+          <date when="2016-03-19">March 19, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-19">March 19, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness>1856 editum</witness>
+          <witness xml:id="G" n="ghent567">Ghent, Belgium, Ghent University Library, 567</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="0.0.0-dev">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+
+
+
+
+      <div xml:id="starts-on">
+        <cb ed="#G" n="423b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ta-l4d24q3">
+        <head xml:id="ta-l4d24q3-Hd1e97">Librum IV, Distinctio 24, Quaestio 3</head>
+        <div xml:id="ta-l4d24q3-Dd1e100">
+          <head xml:id="ta-l4d24q3-Hd1e102">Prooemium</head>
+          <p xml:id="ta-l4d24q3-d1e105">Deinde quaeritur de quibusdam quae sunt ordinibus annexa; et circa hoc quaeruntur tria:
+            1 de corona; 2 de episcopatu; 3 de vestibus sacris.</p>
+
+        </div>
+        <div xml:id="ta-l4d24q3-Dd1e109" type="articulus">
+          <head xml:id="ta-l4d24q3-Hd1e111">Articulus 1</head>
+
+          <head xml:id="ta-l4d24q3-Hd1e114" type="questionTitle">Utrum ordinati debeant coronae tonsuram habere</head>
+
+          <div xml:id="ta-l4d24q3-Dd1e117">
+            <head xml:id="ta-l4d24q3-Hd1e119">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d24q3-d1e122">Ad primum sic proceditur. Videtur quod ordinati non debeant coronae tonsuram habere.
+              Quia dominus captivitatem comminatur et dispersionem his qui sic attenduntur, ut patet
+              Deuter. 32, 42: <quote xml:id="ta-l4d24q3-Qd1e124">de captivitate nudati inimicorum capitis</quote>; et Hierem.
+              49, 32: <quote xml:id="ta-l4d24q3-Qd1e127">dispergam in omnem ventum eos qui in comam attonsi sunt</quote>. Sed
+              ministris Christi non debetur captivitas, sed libertas. Ergo corona, tonsura et rasura
+              eis non competit.</p>
+            <p xml:id="ta-l4d24q3-d1e131">Praeterea, veritas debet respondere figurae. Sed figura coronae praecessit in veteri
+              lege in tonsura Nazaraeorum, sicut in littera dicitur. Cum ergo Nazaraei non essent
+              ordinati ad ministerium divinum, videtur quod ministris Ecclesiae non debeatur
+              tonsura, vel rasura coronae; et hoc etiam videtur per hoc quod conversi, qui non sunt
+              ministri Ecclesiae, tondentur in religionibus.</p>
+            <p xml:id="ta-l4d24q3-d1e134">Praeterea, per capillos superflua signantur, quia capilli ex superfluis generantur.
+              Sed ministri altaris omnes superfluitates a se debent abjicere. Ergo totaliter debent
+              caput tondere, et non in modum coronae.</p>
+            <p xml:id="ta-l4d24q3-d1e137">Sed contra: quia secundum Gregorium servire Deo, regnare est. Sed corona est signum
+              regni. Ergo illis qui ad divinum ministerium applicantur, corona competit.</p>
+            <p xml:id="ta-l4d24q3-d1e141">Praeterea, capilli in velamentum dati sunt, ut patet 1 Corinth. 11. Sed ministri
+              altaris debent habere mentem revelatam. Ergo competit eis rasura coronae.</p>
+
+          </div>
+          <div xml:id="ta-l4d24q3-Dd1e145">
+            <head xml:id="ta-l4d24q3-Hd1e147">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d24q3-d1e150">Ulterius. Videtur quod corona sit ordo. Quia in actibus Ecclesiae spiritualia
+              corporalibus respondent. Sed corona est quoddam corporale signum quod Ecclesia
+              adhibet. Ergo videtur quod signum interius respondeat ei; et ita etiam in coronatione
+              imprimetur character, et erit ordo.</p>
+            <p xml:id="ta-l4d24q3-d1e153">Praeterea, sicut ab episcopo solum datur confirmatio et alii ordines, ita et corona.
+              Sed in confirmatione et aliis ordinibus imprimitur character. Ergo et in corona, et
+              sic idem quod prius.</p>
+            <p xml:id="ta-l4d24q3-d1e156">Praeterea, ordo importat quemdam dignitatis gradum. Sed clericus hoc ipso quod
+              clericus est, in gradu supra populum constituitur. Ergo corona per quam efficitur
+              clericus, est aliquis ordo.</p>
+            <p xml:id="ta-l4d24q3-d1e159">Sed contra, nullus ordo datur nisi in Missae celebratione. Sed corona datur etiam
+              absque officio Missae. Ergo non est ordo.</p>
+            <p xml:id="ta-l4d24q3-d1e163">Praeterea, in collatione cujuslibet ordinis fit mentio de aliqua potestate data; non
+              autem in collatione coronae. Ergo non est ordo.</p>
+
+          </div>
+          <div xml:id="ta-l4d24q3-Dd1e167">
+            <head xml:id="ta-l4d24q3-Hd1e169">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d24q3-d1e172">Ulterius. Videtur quod per acceptionem coronae aliquis renuntiet temporalibus bonis.
+              Ipsi enim dicunt cum coronantur: <quote xml:id="ta-l4d24q3-Qd1e174">dominus pars hereditatis meae</quote>. Sed
+              sicut dicit Hieronymus, dominus cum istis temporalibus pars fieri dedignatur. Ergo
+              abrenuntiat temporalibus.</p>
+            <p xml:id="ta-l4d24q3-d1e178">Praeterea, justitia ministrorum novi testamenti debet abundare super ministros
+              veteris, ut patet Matth. 5. Sed ministri veteris testamenti, scilicet Levitae, non
+              acceperunt partem hereditatis cum fratribus suis. Ergo nec ministri novi testamenti
+              habere debent.</p>
+            <p xml:id="ta-l4d24q3-d1e181">Praeterea, Hugo dicit, quod postquam aliquis factus est clericus, deinceps debet de
+              stipendiis Ecclesiae sustentari. Sed hoc non esset, si patrimonium suum retineret.
+              Ergo videtur quod abrenuntiet in hoc quod clericus fit.</p>
+            <p xml:id="ta-l4d24q3-d1e184">Sed contra est quod Hieremias fuit de ordine sacerdotali, ut patet Hierem. 1. Sed
+              ipse habuit possessionem ex hereditatis jure, ut patet Hierem. 39. Ergo clerici
+              possunt habere patrimonialia bona.</p>
+            <p xml:id="ta-l4d24q3-d1e188">Praeterea, si hoc non possent, non videretur tunc differentia inter clericos
+              saeculares et religiosos.</p>
+          </div>
+          <div xml:id="ta-l4d24q3-Dd1e193">
+            <head xml:id="ta-l4d24q3-Hd1e195">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d24q3-d1e198">Respondeo dicendum ad primam quaestionem, quod eis qui ad divina ministeria
+              applicantur competit tonsura et rasura in modum coronae; et ratione figurae, quia
+              corona est signum regni; et perfectionis, cum sit circularis. Illi autem qui divinis
+              ministeriis applicantur, adipiscuntur regiam dignitatem, et perfecti in virtute esse
+              debent. Competit etiam eis ratione subtractionis capillorum, et ex parte superiori per
+              rasuram, ne mens eorum temporalibus occupationibus a contemplatione divinorum
+              retardetur; et ex parte inferiori per tonsuram, ne eorum sensus temporalibus
+              obvolvantur.</p>
+            <p xml:id="ta-l4d24q3-d1e201">Ad primum ergo dicendum, quod dominus comminatur illis qui hoc ad cultum Daemonum
+              faciebant.</p>
+            <p xml:id="ta-l4d24q3-d1e204">Ad secundum dicendum, quod ea quae fiebant in veteri testamento, imperfecte
+              repraesentant ea quae sunt in novo testamento; et ideo ea quae pertinent ad ministros
+              novi testamenti, non solum significantur per officia Levitarum, sed per omnes illos
+              qui aliquam perfectionem profitebantur. Nazaraei autem profitebantur perfectionem
+              quamdam in depositione comae, significantes temporalium contemptum; quamvis non in
+              modum coronae deponerent, sed omnino totum: quia nondum erat tempus regalis et
+              perfecti sacerdotii. Et similiter etiam conversi tonduntur propter renuntiationem
+              temporalium; sed non raduntur, quia non occupantur divinis ministeriis, in quibus
+              divina oporteat eos mente contemplari.</p>
+            <p xml:id="ta-l4d24q3-d1e207">Ad tertium dicendum, quod non solum debet significari temporalium abjectio, sed etiam
+              regalis dignitas in forma coronae; et ideo non debet totaliter coma tolli; et etiam ne
+              indecens videatur.</p>
+
+          </div>
+          <div xml:id="ta-l4d24q3-Dd1e211">
+            <head xml:id="ta-l4d24q3-Hd1e213">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d24q3-d1e216">Ad secundam quaestionem dicendum, quod ministri Ecclesiae a populo separantur ad
+              vacandum divino cultui. In cultu autem divino quaedam sunt quae per potentias
+              determinatas sunt exercenda; et ad haec datur spiritualis potestas ordinis: quaedam
+              autem sunt quae communiter a toto ministrorum collegio fiunt, sicut dicere divinas
+              laudes; et ad hoc non praeexigitur aliqua potestas ordinis, sed solum quaedam
+              deputatio ad tale officium; et hoc fit per coronam; et ideo non est ordo, sed
+              praeambulum ad ordinem.</p>
+            <p xml:id="ta-l4d24q3-d1e219">Ad primum ergo dicendum, quod corona habet interius aliquod spirituale quod ei
+              respondet, sicut signum signato; sed hoc non est aliqua spiritualis potestas; et ideo
+              in corona non imprimitur character, nec est ordo.</p>
+            <p xml:id="ta-l4d24q3-d1e222">Ad secundum dicendum, quod quamvis per coronam non imprimatur character, tamen
+              deputatur homo ad divinum cultum; et ideo talis deputatio debet fieri per summum
+              ministrorum, scilicet episcopum, qui etiam vestes benedicit, et vasa, et omnia quae ad
+              cultum divinum applicantur.</p>
+            <p xml:id="ta-l4d24q3-d1e225">Ad tertium dicendum, quod ex hoc quod aliquis est clericus, est in altiori statu quam
+              laicus; non tamen habet ampliorem potestatis gradum, quod ad ordinem requiritur.</p>
+
+          </div>
+          <div xml:id="ta-l4d24q3-Dd1e229">
+            <head xml:id="ta-l4d24q3-Hd1e231">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d24q3-d1e234">Ad tertiam quaestionem dicendum, quod clerici in hoc quod coronam accipiunt, non
+              renuntiant patrimonio, neque aliis rebus temporalibus: quia terrenorum possessio non
+              contrariatur divino cultui, ad quem clerici deputantur, sed nimia eorum solicitudo:
+              quia, ut dicit Gregorius, affectus in crimine est.</p>
+            <p xml:id="ta-l4d24q3-d1e237">Ad primum ergo dicendum, quod dominus dedignatur pars fieri, ut ex aequo cum aliis
+              diligatur; ita scilicet quod aliquis ponat finem suum in Deo et in rebus mundi; non
+              tamen dedignatur fieri pars eorum qui res mundi ita possident quod per eas a cultu
+              divino non retrahuntur.</p>
+            <p xml:id="ta-l4d24q3-d1e240">Ad secundum dicendum, quod Levitae in veteri testamento habebant jus in hereditate
+              paterna; sed ideo non acceperunt partem cum aliis tribubus, quod erant per omnes
+              tribus dispergendi; quod fieri non potuisset, si unam determinatam partem terrae
+              accepissent, sicut aliae tribus.</p>
+            <p xml:id="ta-l4d24q3-d1e243">Ad tertium dicendum, quod si sint indigentes clerici ad sacros ordines promoti,
+              episcopus qui eos promovit, debet eis providere, alias non tenetur; ipsi autem ex
+              ordine suscepto tenentur Ecclesiae ministrare. Verbum autem Hugonis intelligitur
+              quando non habent unde sustententur.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d24q3-Dd1e248" type="articulus">
+          <head xml:id="ta-l4d24q3-Hd1e250">Articulus 2</head>
+
+          <head xml:id="ta-l4d24q3-Hd1e253" type="questionTitle">Utrum supra sacerdotalem ordinem debeat esse aliqua potestas
+            episcopalis</head>
+
+          <div xml:id="ta-l4d24q3-Dd1e256">
+            <head xml:id="ta-l4d24q3-Hd1e258">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d24q3-d1e261">Ad secundum sic proceditur. Videtur quod supra sacerdotalem ordinem non debeat esse
+              aliqua potestas episcopalis. Quia, sicut in littera dicitur, ordo sacerdotalis ab
+              Aaron sumpsit exordium. Sed in veteri lege nullus erat supra Aaron. Ergo nec in nova
+              lege debet aliqua potestas esse supra sacerdotalem.</p>
+            <p xml:id="ta-l4d24q3-d1e264">Praeterea, potestates ordinantur secundum actus. Sed nullus actus sacer potest esse
+              major quam consecrare corpus Christi, ad quod est potestas sacerdotalis. Ergo supra
+              sacerdotalem potestatem non debet esse episcopalis.</p>
+            <p xml:id="ta-l4d24q3-d1e267">Praeterea, sacerdos in offerendo gerit figuram Christi in Ecclesia, qui se patri pro
+              nobis obtulit. Sed in Ecclesia nullus est major Christo, quia ipse est caput
+              Ecclesiae. Ergo nulla potestas debet esse supra sacerdotalem potestatem.</p>
+            <p xml:id="ta-l4d24q3-d1e270">Sed contra, potestas tanto est altior, quanto ad plura se extendit. Sed potestas
+              sacerdotalis, ut dicit Dionysius, extendit se ad purgandum et illuminandum tantum;
+              episcopalis autem ad hoc, et ad perficiendum. Ergo supra sacerdotalem potestatem debet
+              esse episcopalis.</p>
+            <p xml:id="ta-l4d24q3-d1e274">Praeterea, divina ministeria debent esse magis ordinata quam humana. Sed humanorum
+              officiorum ordo exigit ut in quolibet officio praeponatur unus qui sit princeps illius
+              officii, sicut praeponitur militibus dux. Ergo et sacerdotibus debet aliquis praeponi
+              qui sit sacerdotum princeps, et hic est episcopus. Ergo episcopalis potestas debet
+              esse supra sacerdotalem.</p>
+
+          </div>
+          <div xml:id="ta-l4d24q3-Dd1e278">
+            <head xml:id="ta-l4d24q3-Hd1e280">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d24q3-d1e283">Ulterius. Videtur quod episcopatus sit ordo. Primo per hoc quod Dionysius assignat
+              hos tres ordines ecclesiasticae hierarchiae, episcopum, sacerdotem, et ministrum. In
+              littera etiam dicitur, quod est ordo episcoporum quadripartitus.</p>
+            <p xml:id="ta-l4d24q3-d1e286">Praeterea, ordo nihil aliud est quam quidam potestatis gradus in spiritualibus
+              dispensandis. Sed episcopi possunt dispensare aliqua sacramenta quae non possunt
+              dispensare sacerdotes, sicut confirmationem et ordinem. Ergo episcopatus est ordo.</p>
+            <p xml:id="ta-l4d24q3-d1e289">Praeterea, in Ecclesia non est aliqua spiritualis potestas nisi ordinis vel
+              jurisdictionis. Sed ea quae pertinent ad potestatem episcopalem, non sunt
+              jurisdictionis; alias possent committi non episcopo, quod est falsum. Ergo sunt
+              potestatis ordinis: ergo episcopus habet aliquem ordinem quem non habet sacerdos
+              simplex; et sic episcopatus est ordo.</p>
+            <p xml:id="ta-l4d24q3-d1e292">Sed contra, quia unus ordo non dependet a praecedenti quantum ad necessitatem
+              sacramenti. Sed episcopalis potestas dependet a sacerdotali: quia nullus potest
+              recipere episcopalem, nisi prius habeat sacerdotalem. Ergo episcopatus non est
+              ordo.</p>
+            <p xml:id="ta-l4d24q3-d1e296">Praeterea, majores ordines non conferuntur nisi in sabbatis. Sed episcopalis potestas
+              traditur in dominicis. Ergo non est ordo.</p>
+
+          </div>
+          <div xml:id="ta-l4d24q3-Dd1e300">
+            <head xml:id="ta-l4d24q3-Hd1e302">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d24q3-d1e305">Ulterius. Videtur quod supra episcopos non possit aliquis esse superior in Ecclesia.
+              Quia omnes episcopi sunt apostolorum successores. Sed potestas quae est data uni
+              apostolorum, scilicet Petro, Matth. 16, est etiam data omnibus apostolis, Joan. 20.
+              Ergo omnes episcopi sunt pares, et unus non est supra alterum.</p>
+            <p xml:id="ta-l4d24q3-d1e308">Praeterea, ritus Ecclesiae magis debet esse conformis ritui Judaeorum quam ritui
+              gentilium. Sed distinctio episcopalis dignitatis, et ordinatio unius super alium, ut
+              in littera dicitur, est a gentilibus introducta; in veteri autem lege non erat. Ergo
+              nec in Ecclesia episcopus unus super alium esse debet.</p>
+            <p xml:id="ta-l4d24q3-d1e311">Praeterea, superior potestas non potest conferri per inferiorem, neque aequalis per
+              aequalem: quia <quote xml:id="ta-l4d24q3-Qd1e313" ana="#hebr7_7">sine ulla contradictione, quod minus est, a meliore
+                benedicitur</quote>: Hebr. 7, 7; unde etiam sacerdos non promovet episcopum, neque
+              sacerdotem, sed episcopus sacerdotem; et episcopus potest quemlibet episcopum
+              promovere, quia etiam Ostiensis episcopus consecrat Papam. Ergo episcopalis dignitas
+              in omnibus est aequalis; et sic unus episcopus non debet aliis subesse, ut in littera
+              dicitur.</p>
+            <p xml:id="ta-l4d24q3-d1e317">Sed contra est quod legitur in Concilio Constantinopolitano: <quote xml:id="ta-l4d24q3-Qd1e319">veneramur
+                secundum Scripturas et canonum definitiones sanctissimum antiquae Romae episcopum
+                primum esse et maximum episcoporum; et post ipsum, Constantinopolitanum
+                episcopum</quote>. Ergo unus episcopus est super alium.</p>
+            <p xml:id="ta-l4d24q3-d1e324">Praeterea, beatus Cyrillus episcopus Alexandrinus dicit: <quote xml:id="ta-l4d24q3-Qd1e326">ut membra maneamus in
+                capite nostro apostolico throno Romanorum pontificum, a quo nostrum est quaerere
+                quid credere et quid tenere debeamus, ipsum venerantes, ipsum rogantes prae omnibus:
+                quoniam ipsius solius est reprehendere, corrigere, statuere, disponere, solvere et
+                ligare, loco illius qui ipsum aedificavit, et nulli alii quod suum est plenum, sed
+                ipsi soli dedit: cui omnes jure divino caput inclinant, et primates mundi, tamquam
+                ipsi domino Jesu Christo obediunt</quote>. Ergo episcopi aliqui subsunt etiam jure
+              divino.</p>
+          </div>
+          <div xml:id="ta-l4d24q3-Dd1e332">
+            <head xml:id="ta-l4d24q3-Hd1e334">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d24q3-d1e337">Respondeo dicendum ad primam quaestionem, quod sacerdos habet duos actus: unum
+              principalem, scilicet consecrare verum corpus Christi; alium secundarium, scilicet
+              praeparare populum ad susceptionem hujus sacramenti, ut prius dictum est. Quantum
+              autem ad primum actum actus sacerdotis non dependet ab aliqua superiori potestate,
+              nisi divina; sed quantum ad secundum dependet ab aliqua superiori potestate, et
+              humana. Omnis enim potestas quae non potest exire in actum nisi praesuppositis
+              quibusdam ordinationibus, dependet ab illa potestate quae illas ordinationes facit.
+              Sacerdos autem non potest absolvere et ligare nisi praesupposita praelationis
+              jurisdictione, qua sibi subdantur illi quos absolvit; potest autem consecrare
+              quamlibet materiam a Christo determinatam; nec aliud requiritur quantum est de
+              necessitate sacramenti, quamvis ex quadam congruitate praesupponatur actus episcopalis
+              in consecratione altaris, et vestium ejus. Et ita patet quod oportet esse supra
+              sacerdotalem potestatem episcopalem quantum ad actum secundarium sacerdotis, non autem
+              quantum ad primum.</p>
+            <p xml:id="ta-l4d24q3-d1e340">Ad primum ergo dicendum, quod Aaron sacerdos fuit et pontifex, idest sacerdotum
+              princeps. Sumpsit ergo sacerdotalis potestas ab ipso exordium, inquantum fuit sacerdos
+              sacrificia offerens, quod etiam minoribus sacerdotibus licebat; sed non ab eo
+              inquantum fuit pontifex, per quam potestatem poterat aliqua facere, ut ingredi semel
+              in anno in sancta sanctorum, quod aliis non licebat.</p>
+            <p xml:id="ta-l4d24q3-d1e343">Ad secundum dicendum, quod quantum ad illum actum non est aliqua potestas superior,
+              sed quantum ad alium, ut dictum est.</p>
+            <p xml:id="ta-l4d24q3-d1e346">Ad tertium dicendum, quod sicut omnium rerum naturalium perfectiones praeexistunt
+              exemplariter in Deo, ita Christus fuit exemplar officiorum ecclesiasticorum. Unde
+              unusquisque minister Ecclesiae quantum ad aliquid gerit typum Christi, ut ex littera
+              patet; et tamen ille est superior qui secundum majorem perfectionem Christum
+              repraesentat. Sacerdos autem repraesentat Christum in hoc quod per se ipsum aliquod
+              ministerium implevit; sed episcopus in hoc quod alios ministros instituit, et
+              Ecclesiam fundavit. Unde ad episcopum pertinet mancipare aliquid divinis obsequiis,
+              quasi cultum divinum ad similitudinem Christi statuens; et propter hoc etiam episcopus
+              specialiter sponsus Ecclesiae dicitur, sicut Christus.</p>
+
+          </div>
+          <div xml:id="ta-l4d24q3-Dd1e350">
+            <head xml:id="ta-l4d24q3-Hd1e352">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d24q3-d1e355">Ad secundam quaestionem dicendum, quod ordo potest accipi dupliciter. Uno modo
+              secundum quod est sacramentum; et sic, ut prius dictum est, ordinatur omnis ordo ad
+              Eucharistiae sacramentum; unde, cum episcopus non habeat potestatem superiorem
+              sacerdote quantum ad hoc, non erit episcopatus ordo. Alio modo potest considerari ordo
+              secundum quod est officium quoddam respectu quarumdam actionum sacrarum; et sic, cum
+              episcopus habeat potestatem in actionibus hierarchicis respectu corporis mystici supra
+              sacerdotem, episcopatus erit ordo; et secundum hoc loquuntur auctoritates
+              inductae.</p>
+            <p xml:id="ta-l4d24q3-d1e358">Unde patet solutio ad primum.</p>
+            <p xml:id="ta-l4d24q3-d1e361">Ad secundum dicendum, quod ordo, secundum quod est sacramentum imprimens characterem,
+              ordinatur specialiter ad sacramentum Eucharistiae, in quo ipse Christus continetur,
+              quia per characterem ipsi Christo configuramur; et ideo licet detur aliqua potestas
+              spiritualis episcopo in sui promotione respectu aliquorum sacramentorum, non tamen
+              illa potestas habet rationem characteris; et propter hoc episcopatus non est ordo,
+              secundum quod ordo est quoddam sacramentum.</p>
+            <p xml:id="ta-l4d24q3-d1e364">Ad tertium dicendum, quod potestas episcopalis non est tantum jurisdictionis, sed
+              etiam ordinis, ut ex dictis patet, secundum quod ordo communiter accipitur.</p>
+
+          </div>
+          <div xml:id="ta-l4d24q3-Dd1e368">
+            <head xml:id="ta-l4d24q3-Hd1e370">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d24q3-d1e373">Ad tertiam quaestionem dicendum, quod ubicumque sunt multa regimina ordinata in unum,
+              oportet esse aliquod universale regimen supra particularia regimina: quia in omnibus
+              virtutibus et artibus, ut dicitur in 1 Ethic., est ordo secundum ordinem finium. Bonum
+              autem commune divinius est quam bonum speciale; et ideo super potestatem regitivam
+              quae conjectat bonum speciale, oportet esse potestatem regitivam universalem respectu
+              boni communis, alias non posset esse colligatio ad unum; et ideo cum tota Ecclesia sit
+              unum corpus, oportet, si ista unitas debet conservari, quod sit aliqua potestas
+              regitiva respectu totius Ecclesiae supra potestatem episcopalem, qua unaquaeque
+              specialis Ecclesia regitur; et haec est potestas Papae; et ideo qui hanc potestatem
+              negant, schismatici dicuntur, quasi divisores ecclesiasticae unitatis. Et inter
+              episcopum simplicem et Papam sunt alii gradus dignitatum correspondentes gradibus
+              unionis; secundum quos una congregatio vel communitas includit aliam; sicut communitas
+              unius provinciae includit communitatem civitatis; et communitas regni communitatem
+              unius provinciae; et communitas totius mundi communitatem unius regni.</p>
+            <p xml:id="ta-l4d24q3-d1e376">Ad primum ergo dicendum, quod quamvis omnibus apostolis data sit communiter potestas
+              ligandi et solvendi; tamen ut in hac potestate ordo aliquis significaretur, primo soli
+              Petro data est, ut ostendatur quod ab eo in alios debeat ista potestas descendere,
+              propter quod etiam ei dixit singulariter, Luc. 22, 32: <quote xml:id="ta-l4d24q3-Qd1e378">confirma fratres tuos;
+                et: pasce oves meas</quote>, idest loco mei, ubi Chrysostomus dicit:
+                <quote xml:id="ta-l4d24q3-Qd1e381">praepositus et caput esto fratrum, ut ipsi te in loco meo assumentes ubique
+                terrarum te in throno tuo sedentem praedicent, et confirment</quote>.</p>
+            <p xml:id="ta-l4d24q3-d1e385">Ad secundum dicendum, quod ritus Judaeorum non erat diffusus in diversis regnis et
+              provinciis, sed tantum in una gente; et ideo non oportebat quod sub eo qui habebat
+              potestatem principalem alii pontifices distinguerentur. Sed Ecclesiae ritus sicut et
+              gentilium, per diversas nationes diffunditur; et ideo oportet quod quantum ad hoc
+              magis gentilium ritui quam Judaeorum, status Ecclesiae conformetur.</p>
+            <p xml:id="ta-l4d24q3-d1e388">Ad tertium dicendum, quod potestas episcopi exceditur a potestate Papae quasi a
+              potestate ejusdem generis; et ideo omnem actum hierarchicum quem potest facere Papa in
+              ministratione sacramentorum, potest facere episcopus; non autem omnem actum quem
+              potest facere episcopus, potest facere sacerdos in sacramentorum collatione; et ideo
+              quantum ad ea quae sunt episcopalis ordinis, omnes episcopi sunt aequales; et propter
+              hoc quilibet alium potest consecrare.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d24q3-Dd1e393" type="articulus">
+          <head xml:id="ta-l4d24q3-Hd1e395">Articulus 3</head>
+
+          <head xml:id="ta-l4d24q3-Hd1e398" type="questionTitle">Utrum vestes ministrorum convenienter in Ecclesia institutae
+            sint</head>
+
+          <p xml:id="ta-l4d24q3-d1e401">Ad tertium sic proceditur. Videtur quod vestes ministrorum non convenienter in Ecclesia
+            institutae sint. Ministri enim novi testamenti magis tenentur ad castitatem quam
+            ministri veteris. Sed inter alias vestes ministrorum veteris testamenti erant feminalia
+            in signum castitatis. Ergo multo fortius nunc esse debent inter vestes ministrorum.</p>
+          <p xml:id="ta-l4d24q3-d1e404">Praeterea, sacerdotium novi testamenti est dignius quam veteris sacerdotium. Sed
+            veteres sacerdotes habebant mitras, quod est signum dignitatis. Ergo sacerdotes novae
+            legis eas debent habere.</p>
+          <p xml:id="ta-l4d24q3-d1e407">Praeterea, sacerdos est propinquior ordinibus ministrorum quam ordo episcopalis. Sed
+            episcopi utuntur vestibus ministrorum, scilicet Dalmatica, quae est vestis diaconi, et
+            tunica, quae est vestis subdiaconi. Ergo multo fortius simplices sacerdotes debent uti
+            eis.</p>
+          <p xml:id="ta-l4d24q3-d1e411">Praeterea, in veteri lege pontifex deferebat superhumerale, quod significabat onus
+            Evangelii, ut dicit Beda. Hoc autem maxime nostris pontificibus incumbit. Ergo debent
+            habere superhumerale.</p>
+          <p xml:id="ta-l4d24q3-d1e414">Praeterea, in rationali quo utebantur pontifices veteris legis, scribebatur:
+              <quote xml:id="ta-l4d24q3-Qd1e416">doctrina et veritas</quote>. Sed veritas maxime in nova lege declarata est.
+            Ergo pontificibus novae legis competit.</p>
+          <p xml:id="ta-l4d24q3-d1e420">Praeterea, lamina aurea, in qua scriptum erat nomen Dei, erat dignissimum ornamentum
+            veteris legis. Ergo illud maxime debuit transferri in novam legem.</p>
+          <p xml:id="ta-l4d24q3-d1e423">Praeterea, ea quae exterius geruntur in ministris Ecclesiae, sunt signa interioris
+            potestatis. Sed archiepiscopus non habet alterius generis potestatem quam episcopus, ut
+            dictum est. Ergo non debet habere pallium, quod non habent episcopi.</p>
+          <p xml:id="ta-l4d24q3-d1e426">Praeterea, potestatis plenitudo residet penes Romanum pontificem. Sed ipse non habet
+            baculum. Ergo nec alii episcopi debent habere.</p>
+          <p xml:id="ta-l4d24q3-d1e429">Respondeo dicendum, quod vestes ministrorum, ut supra dictum est, designant idoneitatem
+            quae in eis requiritur ad tractandum divina. Et quia quaedam sunt quae in omnibus
+            requiruntur, et quaedam quae in superioribus, quae non ita exiguntur in inferioribus;
+            ideo quaedam vestes sunt omnibus ministris communes, quaedam autem superiorum tantum; et
+            ideo omnibus ministris competit amictus, humeros tegens, quo significatur fortitudo ad
+            divina officia exequenda, quibus mancipantur. Et similiter alba, quae significat
+            puritatem vitae, et cingulum, quod significat repressionem carnis. Sed subdiaconus
+            ulterius habet manipulum in sinistra, quo significatur extersio minimarum macularum,
+            quia manipulus est quasi sudarium ad extergendum vultum: ipsi enim primo ad sacra
+            tractanda admittuntur: habent etiam tunicam strictam, per quam doctrina Christi
+            significatur, unde et in veteri lege in ipsa tintinnabula pendebant. Subdiaconi enim
+            primo admittuntur ad doctrinam novae legis annuntiandum. Sed diaconus habet amplius
+            stolam in sinistro humero in signum quod applicatur ad ministerium in ipsis sacramentis,
+            et Dalmaticam, quae est vestis larga, sic dicta; quia in Dalmatiae partibus primo usus
+            ejus fuit, ad significandum quod ipse primo dispensator sacramentorum ponitur: ipse enim
+            sanguinem dispensat; in dispensatione autem largitas requiritur. Sed sacerdoti stola in
+            utroque humero ponitur, ut ostendatur quod plena potestas dispensandi sacramenta ei
+            datur, non ut ministro alterius; et ideo stola descendit usque ad inferiora: habet etiam
+            et casulam, quae significat caritatem, quia sacramentum consecrat caritatis, scilicet
+            Eucharistiam. Sed episcopi addunt novem ornamenta supra sacerdotes, quae sunt caligae,
+            sandalia, succinctorium, tunica, Dalmatica, mitra, chirothecae, anulus, et baculus; quia
+            novem sunt quae supra sacerdotem possunt: scilicet clericos ordinare, virgines
+            benedicere, basilicas dedicare, clericos deponere, synodos celebrare, chrisma conficere,
+            confirmare, vestes et vasa consecrare. Vel per caligas significatur rectitudo gressuum:
+            per sandalia, quae pedes tegunt, contemptus terrenorum; per succinctorium, quo stola
+            ligatur cum alba, amor honestatis: per tunicam perseverantia, quia Joseph tunicam
+            talarem habuisse legitur quasi descendentem usque ad talos, per quos significatur
+            extremitas vitae: per Dalmaticam largitas in operibus misericordiae; per chirothecas
+            cautela in opere; per mitram scientia utriusque testamenti; unde et duo cornua habet:
+            per baculum cura pastoralis, qua debet colligere vagos, quod significat curvitas in
+            capite baculi, sustentare infirmos, quod significat ipse stipes baculi; sed pungere
+            lentos, quod significat stimulus in pede baculi, unde versus: <quote xml:id="ta-l4d24q3-Qd1e431">collige, sustenta,
+              stimula, vaga, morbida, lenta</quote>. Per anulum sacramenta fidei qua Ecclesia
+            desponsatur Christo: ipsi enim sunt Ecclesiae sponsi loco Christi. Sed ulterius
+            archiepiscopi habent pallium in signum privilegiatae potestatis; significat enim torquem
+            auream quam solebant legitime certantes accipere.</p>
+          <p xml:id="ta-l4d24q3-d1e436">Ad primum ergo dicendum, quod sacerdotibus veteris legis indicebatur continentia illo
+            tantum tempore quo ad suum ministerium accedebant; et ideo in signum castitatis tunc
+            servandae in sacrificiorum oblatione feminalibus utebantur: sed ministris novi
+            testamenti indicitur perpetua continentia; et ideo non est simile.</p>
+          <p xml:id="ta-l4d24q3-d1e439">Ad secundum dicendum, quod mitra illa non erat signum alicujus dignitatis, fuit enim
+            sicut quoddam galerum, ut Hieronymus dicit: sed cydaris, quae erat signum dignitatis,
+            solis pontificibus dabatur, sicut et nunc mitra.</p>
+          <p xml:id="ta-l4d24q3-d1e442">Ad tertium dicendum, quod potestas ministrorum est in episcopo sicut in origine; non
+            autem in sacerdote, quia ipse non confert illos ordines; et ideo magis episcopus quam
+            sacerdos vestibus ministrorum utitur.</p>
+          <p xml:id="ta-l4d24q3-d1e445">Ad quartum dicendum, quod loco superhumeralis utitur stola, quae ad idem significandum
+            est ad quod erat superhumerale.</p>
+          <p xml:id="ta-l4d24q3-d1e448">Ad quintum dicendum, quod pallium succedit loco rationalis.</p>
+          <p xml:id="ta-l4d24q3-d1e451">Ad sextum dicendum, quod pro illa lamina habet pontifex crucem, ut Innocentius dicit,
+            sicut pro feminalibus habet sandalia, pro linea albam, pro balteo cingulum, pro podere
+            tunicam, pro ephod amictum, pro rationali pallium, pro cydari mitram.</p>
+          <p xml:id="ta-l4d24q3-d1e455">Ad septimum dicendum, quod quamvis non habeat alterius generis potestatem, tamen eamdem
+            habet ampliorem; et ideo ad hanc perfectionem designandum sibi pallium datur, quo
+            undique circumdatur.</p>
+          <p xml:id="ta-l4d24q3-d1e458">Ad octavum dicendum, quod Romanus pontifex non utitur baculo, quia Petrus misit ipsum
+            ad suscitandum quemdam discipulum suum, qui postea factus est episcopus Trevirensis; et
+            ideo in dioecesi Trevirensi Papa baculum portat, et non in aliis: vel etiam in signum
+            quod non habet coarctatam potestatem, quod curvatio baculi significat.</p>
+        </div>
+        <div xml:id="ta-l4d24q3-Dd1e463">
+          <head xml:id="ta-l4d24q3-Hd1e465">Expositio textus</head>
+          <p xml:id="ta-l4d24q3-d1e468"><quote xml:id="ta-l4d24q3-Qd1e469">Nunc ad considerationem sacrae ordinationis accedamus</quote>. Videtur quod male
+            ordinetur: quia hoc sacramentum est ad dispensandum alia sacramenta, et ita ante alia
+            deberet ordinari. Et dicendum, quod Magister ordinat secundum hoc ad quod ordinantur: et
+            quia bonum commune ad quod ordinatur hoc sacramentum, praesupponit bonum personae, ad
+            quod ordinantur praecedentia; ideo de hoc non debuit prius determinare. <quote xml:id="ta-l4d24q3-Qd1e472">In
+              sacramento ergo septiformis spiritus septem gradus ecclesiastici</quote>. Adaptatio
+            quaedam est: quia in quolibet ordine omnia dona spiritus sancti dantur: quia Matthias
+            electus est sorte, de quo Dionysius dicit, 5 cap. Eccles. Hierar.: <quote xml:id="ta-l4d24q3-Qd1e475">de divina
+              sorte Matthiae data alii alia dixerunt, nec recte, ut existimo. Meum et ipse sensum
+              dicam. Videtur enim mihi Scriptura sortem nominasse divinum quoddam donum declarans
+              Matthiam quasi divina electione ostensum. Habiturus partem (...) cum his qui bene
+              verbum Dei ministraverunt</quote>. Ergo habet omnis lector aureolam. Et dicendum, quod
+            verum est, si impleat officium ut non solum legat, sed etiam interpretetur per
+            praedicationem, quod tamen non videtur suum officium; et ideo etiam non dicit
+            simpliciter quod habeat illorum meritum, sed cum illis, inquantum aliquid de actu eorum
+            participat. <quote xml:id="ta-l4d24q3-Qd1e478">Canones duos tantum sacros ordines appellari censent</quote>: propter
+            hoc quod hi duo tantum ordines habent actum super ipsum sacramentum; sed subdiaconus
+            super sacra vasa tantum.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

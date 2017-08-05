@@ -1,0 +1,881 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 15, Quaestio 3</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Librum IV, Distinctio 15, Quaestio 3</title>
+          <date when="2016-03-19">March 19, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-19">March 19, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness>1856 editum</witness>
+          <witness xml:id="G" n="ghent567">Ghent, Belgium, Ghent University Library, 567</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="0.0.0-dev">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+
+
+
+
+      <div xml:id="starts-on">
+        <cb ed="#G" n="250a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ta-l4d15q3">
+        <head xml:id="ta-l4d15q3-Hd1e97">Librum IV, Distinctio 15, Quaestio 3</head>
+        <div xml:id="ta-l4d15q3-Dd1e100">
+          <head xml:id="ta-l4d15q3-Hd1e102">Prooemium</head>
+          <p xml:id="ta-l4d15q3-d1e105">Deinde quaeritur de jejunio; et circa hoc quaeruntur quatuor: 1 quid sit jejunium; 2
+            quis teneatur ad jejunium; 3 de tempore jejunii; 4 de solventibus ipsum.</p>
+
+        </div>
+        <div xml:id="ta-l4d15q3-Dd1e109" type="articulus">
+          <head xml:id="ta-l4d15q3-Hd1e111">Articulus 1</head>
+
+          <head xml:id="ta-l4d15q3-Hd1e114" type="questionTitle">Utrum Isidorus convenienter jejunium definiat</head>
+
+          <div xml:id="ta-l4d15q3-Dd1e117">
+            <head xml:id="ta-l4d15q3-Hd1e119">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d15q3-d1e122">Ad primum sic proceditur. Videtur quod Isidorus inconvenienter definiat jejunium,
+              dicens: <quote xml:id="ta-l4d15q3-Qd1e124">jejunium est parsimonia victus, abstinentiaque ciborum</quote>.
+              Parsimonia enim a parsi praeterito hujus verbi parco venit. Est enim parcere, inter
+              alia quae habet significata, idem quod abstinere. Ergo idem videtur esse parsimonia
+              victus et abstinentia ciborum; et sic alterum superfluit.</p>
+            <p xml:id="ta-l4d15q3-d1e128">Praeterea, Matth. 17, super illud: <quote xml:id="ta-l4d15q3-Qd1e130">hoc genus Daemoniorum</quote> etc., dicit
+              Hieronymus: <quote xml:id="ta-l4d15q3-Qd1e133">jejunium est non solum ab escis, sed a cunctis illecebris
+                abstinere</quote>. Cum ergo Isidorus definiat jejunium tantum per abstinentiam ab
+              escis, videtur quod incompetens sit assignatio.</p>
+            <p xml:id="ta-l4d15q3-d1e137">Praeterea, ad observationem jejunii videtur non solum pertinere abstinere a cibis,
+              sed etiam lugere, et unguento non uti, ut patet Dan. 10, 2: <quote xml:id="ta-l4d15q3-Qd1e139">in diebus illis
+                lugebam ego Daniel trium hebdomadarum diebus</quote>. Sed de his non fit mentio in
+              praedicta assignatione. Ergo insufficiens est.</p>
+            <p xml:id="ta-l4d15q3-d1e143">Praeterea, multi servant parsimoniam in victu et abstinentiam in cibis, qui tamen
+              pluries in die manducant. Sed tales non dicuntur jejunantes. Ergo definitio praedicta
+              non convertitur cum jejunio.</p>
+            <p xml:id="ta-l4d15q3-d1e147">Praeterea, nullus est jejunus nisi jejunio, sicut nec albus nisi albedine. Sed
+              aliquis etiam immoderate cibis utens, est quandoque jejunus antequam comedat. Ergo
+              tali non competit definitio assignata jejunii; ergo est incompetens.</p>
+
+          </div>
+          <div xml:id="ta-l4d15q3-Dd1e151">
+            <head xml:id="ta-l4d15q3-Hd1e153">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d15q3-d1e156">Ulterius. Videtur quod jejunium non sit actus virtutis. Virtus enim sicut abundanti,
+              ita et diminuto corrumpitur. Sed jejunium importat diminutionem a cibo, in quo
+              conservari potest medium virtutis. Ergo jejunium non est virtutis actus.</p>
+            <p xml:id="ta-l4d15q3-d1e159">Praeterea, omnis virtutis actus est in aliquid operando. Sed jejunium dicit
+              cessationem ab actu. Ergo non est virtutis actus.</p>
+            <p xml:id="ta-l4d15q3-d1e162">Praeterea, jejunium consistit non solum in abstinendo a superfluis cibis, quia hoc
+              est de necessitate virtutis, sed etiam a necessariis. Sed qui subtrahit necessarium
+              cibum, dat sibi occasionem mortis; non autem, ut Hieronymus dicit, differt utrum magno
+              vel parvo tempore te interimas. Ergo cum nulli liceat seipsum occidere, videtur quod
+              nulli liceat jejunare; et sic jejunium non erit actus virtutis.</p>
+            <p xml:id="ta-l4d15q3-d1e165">Praeterea, sicut dicit Augustinus in 10 Confess., alimentum sic sumi debet ut famis
+              medicamentum. Sed magis infirmo minus est medicina subtrahenda. Cum ergo in primo
+              statu Adam peccasset si cibo abstinuisset donec praeoccuparetur fame, ut in 2 Lib.,
+              dist. 19, quaest. 1, art. 2 ad 3, dictum est, videtur quod etiam nunc jejunando peccat
+              homo, cum natura humana sit infirmior; et sic jejunium non erit virtutis actus.</p>
+            <p xml:id="ta-l4d15q3-d1e169">Sed contra est quod Hieronymus dicit: <quote xml:id="ta-l4d15q3-Qd1e171">jejunium non est perfecta virtus, sed
+                ceterarum virtutum fundamentum</quote>.</p>
+            <p xml:id="ta-l4d15q3-d1e175">Praeterea, Isidorus dicit, jejunium esse abstinentiam, ut ex definitione praemissa
+              apparet. Sed abstinentia est virtus. Ergo jejunium est actus virtutis.</p>
+
+          </div>
+          <div xml:id="ta-l4d15q3-Dd1e179">
+            <head xml:id="ta-l4d15q3-Hd1e181">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d15q3-d1e184">Ulterius. Videtur quod jejunium non sit actus temperantiae. Quia canon dicit de
+              Consecr., dist. 5: <quote xml:id="ta-l4d15q3-Qd1e186">jejunium quadragesimale est decima totius anni</quote>. Sed
+              dare decimam est actus justitiae. Ergo et jejunare; non igitur temperantiae.</p>
+            <p xml:id="ta-l4d15q3-d1e190">Praeterea, ad fortitudinem pertinet molestias perferre. Sed hoc accidit in jejunio.
+              Ergo jejunium est actus fortitudinis; non ergo temperantiae.</p>
+            <p xml:id="ta-l4d15q3-d1e193">Praeterea, prudentiae pars est cautela, ut in 3 Lib., dist. 33, qu. 3, art. 1,
+              quaestiunc. 3, dictum est. Sed jejunium ad cautelam peccatorum carnis inductum est.
+              Ergo est actus prudentiae.</p>
+            <p xml:id="ta-l4d15q3-d1e196">Sed contra, materia propria temperantiae sunt delectabilia tactus, ut dicitur in 3
+              Ethic. Sed circa hujusmodi est jejunium, quia est circa cibos. Ergo jejunium est actus
+              temperantiae.</p>
+            <p xml:id="ta-l4d15q3-d1e200">Praeterea, abstinentia est species temperantiae. Sed jejunium est abstinentia. Ergo
+              est temperantiae actus.</p>
+
+          </div>
+          <div xml:id="ta-l4d15q3-Dd1e205">
+            <head xml:id="ta-l4d15q3-Hd1e207">Quaestiuncula 4</head>
+            <p xml:id="ta-l4d15q3-d1e210">Ulterius. Videtur quod jejunium non cadat in praecepto. Nam super illud Psalm. 44:
+                <quote xml:id="ta-l4d15q3-Qd1e212">omnis gloria ejus filiae regis ab intus</quote>, dicit Glossa Augustini, quod
+              gloria Ecclesiae in interioribus virtutibus consistit, sicut fides, spes, caritas. Sed
+              omne praeceptum Ecclesiae ad gloriam Ecclesiae ordinatur. Ergo de jejunio exteriori
+              non potest esse praeceptum.</p>
+            <p xml:id="ta-l4d15q3-d1e216">Praeterea, ea quae sunt supererogationis, ad consilium pertinent, ad quod nullus
+              obligatur nisi ex voto. Sed jejunium est hujusmodi. Ergo non obligatur ad ipsum
+              aliquis ex praecepto.</p>
+            <p xml:id="ta-l4d15q3-d1e219">Praeterea, quicumque transgreditur praeceptum, peccat mortaliter. Si ergo jejunium
+              institutum ab Ecclesia cadit sub praecepto, tunc si aliquis unum diem tantum frangeret
+              Quadragesimae, mortaliter peccaret; quod videtur grave dicere.</p>
+            <p xml:id="ta-l4d15q3-d1e222">Sed contra, statutum Ecclesiae obligat per modum praecepti, sicut praeceptum Dei;
+              quia dominus discipulis suis dixit, Luc. 10, 16: <quote xml:id="ta-l4d15q3-Qd1e224">qui vos audit, me
+                audit</quote>. Sed ad illud jejunium obligamur ex statuto Ecclesiae. Ergo cadit sub
+              praecepto.</p>
+            <p xml:id="ta-l4d15q3-d1e229">Praeterea, majoris perfectionis est lex nova quam vetus, et magis a carnalibus
+              desideriis abstrahens. Sed in lege veteri erat jejunium in praecepto. Ergo multo
+              fortius in lege nova.</p>
+
+          </div>
+          <div xml:id="ta-l4d15q3-Dd1e233">
+            <head xml:id="ta-l4d15q3-Hd1e235">Quaestiuncula 5</head>
+            <p xml:id="ta-l4d15q3-d1e238">Ulterius. Videtur quod jejunium non sit satisfactorium. Quia satisfactio est
+              justitiae actus, ut prius dictum est. Sed jejunium est actus temperantiae. Ergo non
+              est satisfactorium.</p>
+            <p xml:id="ta-l4d15q3-d1e241">Praeterea, illud ad quod ex praecepto astringimur, non est satisfactorium, sed
+              satisfactionem praecedit, sicut de eleemosyna dictum est. Sed quoddam jejunium cadit
+              sub praecepto, ut dictum est. Ergo ad minus illud non est satisfactorium.</p>
+            <p xml:id="ta-l4d15q3-d1e244">Praeterea, satisfactio debet fieri ab eo qui peccavit. Sed anima est quae peccat;
+              jejunium autem non est animae, sed corporis. Ergo non est satisfactorium pro
+              peccato.</p>
+            <p xml:id="ta-l4d15q3-d1e247">Praeterea, sicut contingit peccare ex superfluitate cibi, ita ex subtractione. Sed
+              contra subtractionem cibi non datur, ut satisfactio, cibi abundantia. Ergo nec contra
+              abundantiam dari debet, ut satisfactorium, cibi subtractio per jejunium.</p>
+            <p xml:id="ta-l4d15q3-d1e251">Praeterea, 1 Timoth., 4, 8: <quote xml:id="ta-l4d15q3-Qd1e253">corporalis exercitatio ad modicum utilis
+                est</quote>. Sed jejunium est hujusmodi. Ergo non est satisfactorium pro
+              peccato.</p>
+            <p xml:id="ta-l4d15q3-d1e257">Sed contra, opera satisfactoria oportet esse poenalia. Sed jejunium habet magis
+              rationem poenae quam eleemosyna. Cum ergo eleemosyna sit satisfactoria, ut ex dictis
+              patet, et jejunium debet esse satisfactorium.</p>
+            <p xml:id="ta-l4d15q3-d1e260">Praeterea, satisfacere est peccatorum causas excidere. Sed jejunio aliquis abscindit
+              peccatorum causas; quia maxime jejunio reprimitur caro, quae ad peccata incitat. Ergo
+              et cetera.</p>
+          </div>
+          <div xml:id="ta-l4d15q3-Dd1e264">
+            <head xml:id="ta-l4d15q3-Hd1e266">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d15q3-d1e269">Respondeo dicendum ad primam quaestionem, quod jejunium dupliciter dicitur; scilicet
+              jejunium naturae, et jejunium Ecclesiae. A primo jejunio dicitur aliquis quolibet die
+              jejunus antequam cibum sumat; a secundo autem dicitur jejunans, quasi ordinatam ab
+              Ecclesia propter peccatorum satisfactionem abstinentiam servans. In satisfactionem
+              autem peccatorum non solum oportet quod ab illis homo abstineat quae lex virtutis
+              prohibet, sed etiam ab illis quibus salva virtute uti possemus; quia qui illicita
+              commisit, oportet etiam a licitis abstinere, ut Augustinus dicit. Unde jejunium ab
+              Ecclesia institutum supponit abstinentiam illam quae ad virtutem exigitur, et addit
+              abstinentiam quamdam ab illis quae medium virtutis non corrumpunt. Et ideo Isidorus
+              haec duo in praedicta definitione jejunii comprehendit; scilicet abstinentiam ab illis
+              quae virtutem corrumpunt, in hoc quod dicit, <quote xml:id="ta-l4d15q3-Qd1e271">parsimonia victus</quote>; et ab
+              illis quibus salva virtute alias uti liceret, in hoc quod dicit, <quote xml:id="ta-l4d15q3-Qd1e274">abstinentiaque
+                ciborum</quote>.</p>
+            <p xml:id="ta-l4d15q3-d1e278">Ad primum ergo patet ex dictis solutio.</p>
+            <p xml:id="ta-l4d15q3-d1e281">Ad secundum dicendum, quod definitio illa Hieronymi intelligitur de jejunio
+              spirituali, et non de jejunio corporali.</p>
+            <p xml:id="ta-l4d15q3-d1e284">Ad tertium dicendum, quod jejunium ex suo nomine directe importat abstinentiam in
+              cibis; unde illae observationes quae a jejunantibus patribus observatae leguntur, non
+              sunt de essentia jejunii, sed ad modum jejunandi pertinent; et propter hoc non oportet
+              quod in definitione jejunii mentio de eis fieret.</p>
+            <p xml:id="ta-l4d15q3-d1e288">Ad quartum dicendum, quod intelligenda est in praedicta definitione talis abstinentia
+              a cibis, alias licitis, qualem Ecclesia jejunantibus determinat; et sic objectio
+              cessat.</p>
+            <p xml:id="ta-l4d15q3-d1e291">Ad quintum dicendum, quod praedicta definitio non datur de jejunio quo aliquis
+              dicitur jejunus, sed de jejunio Ecclesiae, ut dictum est.</p>
+
+          </div>
+          <div xml:id="ta-l4d15q3-Dd1e295">
+            <head xml:id="ta-l4d15q3-Hd1e297">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d15q3-d1e300">Ad secundam quaestionem dicendum, quod, sicut supra dictum est, omnis actus qui in
+              sua ratione includit aliquid quod ad modum virtutis pertineat, actus virtutis dici
+              potest, quantum est de se; quamvis possit et bene et male fieri ob hoc quod forte non
+              includit in sui ratione omne illud quod ad virtutem exigitur. Quia autem virtus
+              infirmitati naturae subvenit, quae ad malum de facili inclinatur; ideo omnium virtutum
+              circa delectationes corporales existentium, ex quarum superabundantia praecipue
+              peccatum contingit propter connaturalitatem nostri ad eas, modus est in retrahendo ab
+              eis, sicut patet in temperantia, et in omnibus partibus ei assignatis. Quia ergo
+              nomine jejunii actus nobis quidam exprimitur quo quis a delectationibus tactus,
+              scilicet cibis, se abstrahit, constat quod in ratione sua modum virtutis importat; et
+              ideo actus virtutis dici debet.</p>
+            <p xml:id="ta-l4d15q3-d1e303">Ad primum ergo dicendum, quod medium virtutis non est medium secundum aequidistantiam
+              ab extremis, sed accipitur secundum rationem rectam; et ideo contingit id quod est
+              parum uni, esse satis alteri; sicut quod est parum sano in cibis, esse satis infirmo
+              qui per abstinentiam curari debet. Curatio autem spiritualis morbi affinior est
+              virtuti quam curatio morbi corporalis; unde et illud quod alias esset modicum, vel
+              minus debito, tamen volenti vulnus peccati curare, satis est; et sic jejunium medium
+              virtutis non corrumpit. Tamen sciendum, quod medium virtutis non consistit in
+              indivisibili, sed habet aliquam latitudinem in qua virtus salvatur, quamvis termini
+              illius latitudinis, quos praetergredi salva virtute non licet, non possunt sermone
+              determinari; et ideo qui dimittit aliquid quo licite posset uti, non oportet quod
+              statim a medio virtutis discedat.</p>
+            <p xml:id="ta-l4d15q3-d1e306">Ad secundum dicendum, quod jejunium a quo quis jejunus dicitur, non nominat aliquem
+              actum, sed privationem praecedentis cibi; et ideo secundum ipsum non dicitur aliquis
+              jejunare. Sed jejunium Ecclesiae nominat actum quemdam, secundum quem in cibis
+              sumendis se regulat aliquis secundum Ecclesiae statutum; et secundum hoc jejunium
+              dicitur aliquis jejunare; et ideo hoc jejunium potest esse actus virtutis.</p>
+            <p xml:id="ta-l4d15q3-d1e309">Ad tertium dicendum, quod necessarium dupliciter accipitur in cibis. Primo ad
+              conservationem vitae; et tale necessarium non licet subtrahere per jejunium, sicut nec
+              interimere seipsum. Sed hoc necessarium est valde modicum, quia modicis natura
+              contenta est. Alio modo dicitur necessarium ad conservandam valetudinem corporis: quae
+              quidem accipitur in duplici statu. Primo secundum sufficientiam habito respectu ad ea
+              quae incumbunt ex officio, vel ex societate eorum ad quos convivit, necessario agenda;
+              et tale etiam necessarium subtrahi non debet; hoc enim esset de rapina jejunii
+              offerre, si aliquis propter jejunium impediretur ab aliis operibus ad quae alias
+              obligatur. Unde Hieronymus dicit: <quote xml:id="ta-l4d15q3-Qd1e311">de rapina holocaustum offert qui vel ciborum
+                nimia egestate, vel manducandi vel somni penuria immoderate corpus affligit</quote>.
+              Si etiam sit tanta abstinentia quod homo ab operibus utilioribus impediatur, quamvis
+              ad ea de necessitate non teneatur, indiscretum est jejunium, etsi non sit illicitum.
+              Unde Hieronymus dicit ubi supra: <quote xml:id="ta-l4d15q3-Qd1e314">rationalis homo dignitatem amittit, qui
+                jejunium caritati, vel vigilias sensus integritati praefert</quote>. Secundo
+              accipitur valetudo corporis secundum optimam corporis dispositionem; et quia caro in
+              suo robore consistens, difficilius spiritui subditur, ideo necessarium ad valetudinem
+              sic acceptam etsi licite accipi possit, tamen laudabiliter subtrahi potest; et talis
+              subtractio non multum mortem accelerat, cum corpus humanum inveniatur frequentius ex
+              superfluitate quam ex defectu mortales aegritudines incurrere; unde etiam Galenus
+              dicit quod summa medicina est abstinentia. Inveniuntur etiam ad sensum, abstinentes ut
+              frequenter diutius vivere; et ideo praedicta subtractio non potest dici mortis
+              occasio, cum se habeat ad utrumque, scilicet ad prolongandum et breviandum vitam.
+              Subtractio autem ejus quod non est necessarium, nec hoc nec illo modo est de
+              necessitate virtutis temperantiae.</p>
+            <p xml:id="ta-l4d15q3-d1e319">Ad quartum dicendum, quod quamvis homo post statum peccati magis infirmetur quantum
+              ad passibilitatem corporis, ex qua fames causatur, cui per alimentum subvenitur; tamen
+              ex altera parte est gravior infirmitas et periculosior, cui jejunium subvenit;
+              scilicet concupiscentiae morbus, qui in statu innocentiae non erat; et ideo ad hunc
+              morbum extirpandum magis intendere oportet, sicut etiam medici periculosiori morbo
+              sollicitius subveniunt.</p>
+
+          </div>
+          <div xml:id="ta-l4d15q3-Dd1e323">
+            <head xml:id="ta-l4d15q3-Hd1e325">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d15q3-d1e328">Ad tertiam quaestionem dicendum, quod quamvis aliquis actus a pluribus virtutibus
+              possit procedere, sicut ab imperantibus ipsum vel dirigentibus ad eum, vel quocumque
+              modo ad ipsum juvantibus; tamen illius virtutis proprie actus dicitur quae elicit
+              ipsum, a qua scilicet procedit formaliter quasi in similitudinem speciei, sicut
+              calefactio a calore. Sed tam virtutes quam actus virtutum penes objecta distinguuntur;
+              et ideo actus ab illa virtute elicitur quae secum convenit in propria ratione objecti.
+              Et quia jejunium in objecto cum temperantia convenit quantum ad illam temperantiae
+              partem quae abstinentia dicitur; ideo ejus actus proprie jejunium est, quamvis ab
+              aliis virtutibus procedere per dictos modos etiam possit.</p>
+            <p xml:id="ta-l4d15q3-d1e331">Ad primum ergo dicendum, quod actus justitiae est reddere debitum. Non autem est
+              debitum facere decimam de tempore, sed de rebus possessis aliquo modo. Dicitur autem
+              jejunium decima totius anni per quamdam adaptationem; et ideo non oportet quod sit
+              actus justitiae.</p>
+            <p xml:id="ta-l4d15q3-d1e334">Ad secundum dicendum, quod fortitudinis est perferre molestias ab exteriori illatas:
+              hoc autem non est in jejunio.</p>
+            <p xml:id="ta-l4d15q3-d1e337">Ad tertium dicendum, quod in omnibus virtutibus moralibus actus dirigitur prudentia,
+              ut in 3 Lib., dist. 38, quaest. 2, art. 5, dictum est; et sic actus aliarum virtutum
+              sunt etiam prudentiae.</p>
+
+          </div>
+          <div xml:id="ta-l4d15q3-Dd1e341">
+            <head xml:id="ta-l4d15q3-Hd1e343">Quaestiuncula 4</head>
+            <p xml:id="ta-l4d15q3-d1e346">Ad quartam quaestionem dicendum, quod duplex est praeceptum, scilicet juris naturalis
+              et juris positivi. Praecepto juris naturalis prohibentur ea quae sunt secundum se
+              mala; sed praeceptis juris positivi prohibentur ea quae possunt esse occasiones
+              malorum; vel praecipiuntur aliqua ordinantia ad virtutem, quam legis positor inducere
+              intendit; et propter hoc, jus positivum, ut dicit Tullius, est a naturali derivatum;
+              unde ad legem positivam pertinet, ut dicit philosophus in 10 Ethic., ordinare
+              nutritiones juvenum et adinventiones virorum, idest opera et studia, ut arceantur a
+              malis, et perducantur ad bona. In jejunio ergo est aliquid quod ad praeceptum juris
+              naturalis pertinet, scilicet tantam abstinentiam carni adhibere ne spiritui rebellet.
+              Temperantia enim, ut dicit philosophus in 3 Ethic., mensuram accipit ex conservatione
+              salutis corporalis; unde multo magis ex conservatione salutis spiritualis. Medium
+              autem temperantiae non excedere, ad jus naturale pertinet; sed determinatio talis
+              abstinentiae secundum determinatum tempus et determinata cibaria, ad jus positivum
+              pertinet, quod moderatur hominum actus; et hoc modo jejunium sub praecepto Ecclesiae
+              cadit.</p>
+            <p xml:id="ta-l4d15q3-d1e349">Ad primum ergo dicendum, quod decor Ecclesiae principaliter in interioribus
+              consistit; sed etiam exteriores actus ad eumdem decorem pertinent, inquantum ab
+              interiori progrediuntur, et inquantum interiorem decorem conservant; et sic jejunium
+              ad decorem Ecclesiae ordinatur.</p>
+            <p xml:id="ta-l4d15q3-d1e352">Ad secundum dicendum, quod duplex est genus supererogationis. Quoddam quod totaliter
+              excedit necessitatem salutis; et hoc non potest cadere sub praecepto, sed sub
+              consilio; 1 Corinth. 7, 25: <quote xml:id="ta-l4d15q3-Qd1e354">de virginibus autem praeceptum domini non habeo,
+                consilium autem do</quote>. Aliud genus supererogationis est quod aliquo modo ad
+              necessitatem salutis pertinet, quamvis non secundum hunc vel illum modum, sicut de
+              jejunio ex dictis patet, et ideo determinatio modi in talibus potest cadere sub
+              praecepto Ecclesiae vel cujuscumque legislatoris.</p>
+            <p xml:id="ta-l4d15q3-d1e358">Ad tertium dicendum, quod praecepta juris positivi magis obligant ex intentione
+              legislatoris quam ex ipsis verbis; et ideo transgressor talis praecepti magis est
+              reputandus qui obviat intentioni legislatoris quam qui deviat in aliquo a legis
+              ordinatione. Intentioni autem legislatoris obviat qui ex contemptu vel sine aliqua
+              rationabili causa ordinationem non servat. Si autem in aliquo casu non servat in quo
+              probabiliter credi potest, si legislator adesset, eum obligare non velle, talis non
+              est reputandus praecepti transgressor. Et ideo non est necessarium quod quicumque
+              aliquem diem ab Ecclesia institutum jejunare omittit, mortaliter peccet: potest enim
+              hoc aliquando omnino sine peccato contingere, aliquando sine mortali cum veniali,
+              aliquando etiam cum mortali; et hoc secundum diversas occasiones quibus homo inducitur
+              ad jejunium frangendum.</p>
+
+          </div>
+          <div xml:id="ta-l4d15q3-Dd1e363">
+            <head xml:id="ta-l4d15q3-Hd1e365">Quaestiuncula 5</head>
+            <p xml:id="ta-l4d15q3-d1e368">Ad quintam quaestionem dicendum, quod jejunium actus satisfactorius est: quia et pro
+              libidine peccati praeteriti subtractionem delectationis recompensat, afflictionem
+              etiam addens; et futura peccata impedit, concupiscentiam debilitans.</p>
+            <p xml:id="ta-l4d15q3-d1e371">Ad primum ergo dicendum, quod jejunium quamvis elicitive sit actus temperantiae,
+              tamen a justitia imperari potest, et sic erit satisfactorium; sicut etiam adulterium
+              intemperantiam admixtam injustitiae habet.</p>
+            <p xml:id="ta-l4d15q3-d1e374">Ad secundum dicendum, quod praeceptum legis naturae non est nisi de eo quod est
+              necessarium ad salutem; et ideo quod sub tali praecepto cadit, non est satisfactorium,
+              sed ad satisfactionem exigitur; et sic est de eleemosyna, secundum quod cadit sub
+              praecepto. Sed praeceptum Ecclesiae potest ad idem ordinari ad quod ordinatur
+              satisfactio; et ideo jejunium quod sub praecepto Ecclesiae cadit, satisfactorium esse
+              potest.</p>
+            <p xml:id="ta-l4d15q3-d1e377">Ad tertium dicendum, quod neque corpus peccat neque anima, proprie loquendo, sed
+              homo; et ideo ipse qui peccat, punitur, sive sit poena corporalis, sive spiritualis.
+              Tamen etiam poena corporalis in animam redundat, quae ipsam sentit, sicut et per
+              corpus delectatione illicita fruebatur in peccato.</p>
+            <p xml:id="ta-l4d15q3-d1e381">Ad quartum dicendum, quod superabundantia cibi non habet poenam, et est inordinata;
+              et ideo non potest esse satisfactoria, sicut jejunium.</p>
+            <p xml:id="ta-l4d15q3-d1e384">Ad quintum dicendum, quod intelligitur ad modicum valere corporalis exercitatio in
+              comparatione ad pietatem: vel quia ad unum tantum valet, scilicet ad concupiscentiam
+              domandam.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d15q3-Dd1e389" type="articulus">
+          <head xml:id="ta-l4d15q3-Hd1e391">Articulus 2</head>
+
+          <head xml:id="ta-l4d15q3-Hd1e394" type="questionTitle">Utrum ad jejunium ab Ecclesia institutum omnes teneantur absque
+            dispensatione</head>
+
+          <div xml:id="ta-l4d15q3-Dd1e397">
+            <head xml:id="ta-l4d15q3-Hd1e399">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d15q3-d1e402">Ad secundum sic proceditur. Videtur quod ad jejunium ab Ecclesia institutum omnes
+              teneantur absque dispensatione. Praecepta enim Ecclesiae obligant sicut praecepta Dei;
+              unde apostolis dicitur Luc. 10, 16: <quote xml:id="ta-l4d15q3-Qd1e404">qui vos audit, me audit</quote>. Sed ad
+              praecepta Dei omnes tenentur absque dispensatione. Ergo et ad praecepta Ecclesiae.</p>
+            <p xml:id="ta-l4d15q3-d1e408">Praeterea, illud quod utiliter statutum est, non potest sine nocumento relaxari. Sed
+              non sine utilitate statutum est Ecclesiae jejunium. Ergo non potest per dispensationem
+              sine nocumento relaxari.</p>
+            <p xml:id="ta-l4d15q3-d1e411">Praeterea, secundum Bernardum in Lib. de dispensatione et praecepto, in praecepto
+              superioris non potest inferior dispensare. Sed quaelibet singularis persona est
+              inferior quam Ecclesia, quae jejunium sub praecepto statuit, nisi forte ille qui est
+              caput totius Ecclesiae, vel loco capitis, scilicet Papa. Ergo nullus alius potest in
+              jejunio dispensare nisi Papa.</p>
+            <p xml:id="ta-l4d15q3-d1e414">Sed contra, Innocentius III in quadam decretali, loquens de materia ista, dicit, quod
+              non subjacet legi necessitas. Ergo necessitate imminente potest aliquis sine peccato
+              jejunium ab Ecclesia institutum praetermittere per dispensationem.</p>
+            <p xml:id="ta-l4d15q3-d1e418">Praeterea, praecepta legis naturalis non possunt per aliquod statutum immutari. Sed
+              praeceptum legis naturalis est ut homo ad necessitatem cibum sumat. Ergo si necessitas
+              exposceret, posset jejunii abstinentiam non servare.</p>
+
+          </div>
+          <div xml:id="ta-l4d15q3-Dd1e422">
+            <head xml:id="ta-l4d15q3-Hd1e424">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d15q3-d1e427">Ulterius. Videtur quod justi non teneantur ad jejunium Ecclesiae, 2 Corinth. 3, 17:
+                <quote xml:id="ta-l4d15q3-Qd1e429">ubi spiritus domini, ibi libertas</quote>. Sed justi spiritu Dei sunt imbuti.
+              Ergo liberi sunt ab onere statutorum Ecclesiae; et sic non obligantur ad jejunium ab
+              Ecclesia institutum.</p>
+            <p xml:id="ta-l4d15q3-d1e433">Praeterea, Matth. 9, 15, dominus dicit: <quote xml:id="ta-l4d15q3-Qd1e435" ana="#mt9_15">non possunt filii, quamdiu cum eis est
+                sponsus, lugere</quote>. Jejunium autem ad luctum pertinet. Sed cum justis sponsus
+              Ecclesiae Christus spiritualiter est; Eph. 3, 17: <quote xml:id="ta-l4d15q3-Qd1e438" ana="#eph3_17">habitare Christum per fidem
+                in cordibus vestris</quote>. Ergo cum spiritualis praesentia corporali praeemineat,
+              videtur quod non teneantur ad jejunium.</p>
+            <p xml:id="ta-l4d15q3-d1e442">Praeterea, nullus tenetur satisfacere qui non peccavit. Sed jejunium est quaedam
+              satisfactionis pars. Ergo si sunt aliqui justi qui nunquam peccaverunt, videtur quod
+              tales ad jejunium non tenentur.</p>
+            <p xml:id="ta-l4d15q3-d1e445">Sed contra, apostolus perfecte justus fuit. Sed ipse corpus suum castigavit per
+              jejunia et alia corporalia exercitia, ut dicitur 1 Corinth. 9, 27: <quote xml:id="ta-l4d15q3-Qd1e447" ana="#Icor9_27">ne forte
+                reprobus efficiar</quote>. Ergo et alii justi debent jejunare.</p>
+            <p xml:id="ta-l4d15q3-d1e452">Praeterea, justitia hominis ordinem Ecclesiae non subvertit, sed perficit. Sed
+              quamdiu manet ordo, manet obedientia inferioris ad superiorem praecepta: quia hoc eis
+              est debitum. Ergo per justitiam homo non absolvitur quin teneatur jejunare, et alia
+              praecepta Ecclesiae Dei debeat servare.</p>
+
+          </div>
+          <div xml:id="ta-l4d15q3-Dd1e456">
+            <head xml:id="ta-l4d15q3-Hd1e458">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d15q3-d1e461">Ulterius. Videtur quod etiam pueri teneantur ad jejunium. Joel. 2, 15, dicitur:
+                <quote xml:id="ta-l4d15q3-Qd1e463">sanctificate jejunium</quote>; et postea sequitur: <quote xml:id="ta-l4d15q3-Qd1e466">congregate
+                parvulos, et sugentes ubera</quote>. Ergo parvuli ad jejunium tenentur.</p>
+            <p xml:id="ta-l4d15q3-d1e470">Praeterea, magis propinquus est praecepto puer quam bestia. Sed Jonae 2, 7, dicitur:
+                <quote xml:id="ta-l4d15q3-Qd1e472">homines et jumenta (...) non gustent quidquam, nec aquam bibant</quote>. Ergo
+              multo magis pueri ad jejunium tenentur.</p>
+            <p xml:id="ta-l4d15q3-d1e476">Praeterea, pueri plus possunt jejunare quam (ut videtur) provecti, quia habent plus
+              de humido. Sed qui plus habet, magis tenetur. Ergo pueri magis tenentur ad jejunium
+              quam provecti.</p>
+            <p xml:id="ta-l4d15q3-d1e479">Sed contra, praeceptum Ecclesiae necessitatem cibi subtrahere non debet. Sed pueri
+              indigent frequenti cibo: quia non possunt semel tantum sine laesione alimentum
+              accipere quod eis ad totam diem sufficiat, propter debilitatem naturae. Ergo ad
+              jejunium non tenentur.</p>
+            <p xml:id="ta-l4d15q3-d1e483">Praeterea, jejunium est ordinatum ad satisfaciendum, et concupiscentiam comprimendum.
+              Sed satisfactio pro peccatis praeteritis non competit pueris; quia innocenti vita
+              degunt, et a puritate pueri dicuntur; similiter nec est in eis concupiscentia
+              impugnans, etsi habitus eis insit, ut Augustinus dicit. Ergo non tenentur ad
+              jejunium.</p>
+
+          </div>
+          <div xml:id="ta-l4d15q3-Dd1e488">
+            <head xml:id="ta-l4d15q3-Hd1e490">Quaestiuncula 4</head>
+            <p xml:id="ta-l4d15q3-d1e493">Ulterius. Videtur quod provecti et sani non excusentur a jejunio propter
+              peregrinationem. Est enim dimittendum illud quod non est necessitatis, ut servetur id
+              quod est necessitatis. Sed peregrinatio non est necessitatis. Cum ergo jejunium ab
+              Ecclesia institutum sit necessitatis, quia cadit sub praecepto; videtur quod non
+              debeat propter peregrinationem aut iter, jejunium intermitti.</p>
+            <p xml:id="ta-l4d15q3-d1e496">Praeterea, videtur quod nec ratione paupertatis. Quia paupertas de se inducit ad
+              jejunandum. Ergo non est causa quare aliquis jejunare non debeat.</p>
+            <p xml:id="ta-l4d15q3-d1e499">Praeterea, videtur quod nec ratione operis alicujus servilis quis a jejunio
+              excusetur. Quia lucrum spirituale debet praeponderare lucro corporali. Sed hujusmodi
+              opera ad lucrum corporale ordinantur, jejunium autem ad spirituale. Ergo non est
+              jejunium propter hujusmodi opera intermittendum.</p>
+            <p xml:id="ta-l4d15q3-d1e502">Sed contra, afflictio non est addenda afflicto. Sed omnia praedicta habent de se
+              afflictionem. Ergo aliquo modo excusantur ab afflictione jejunii.</p>
+          </div>
+          <div xml:id="ta-l4d15q3-Dd1e506">
+            <head xml:id="ta-l4d15q3-Hd1e508">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d15q3-d1e511">Respondeo dicendum ad primam quaestionem, quod per praecepta juris positivi, ut
+              dictum est, removentur aliqua quae non sunt de se mala et semper; unde in aliquo casu
+              possunt esse bona et necessaria quae talibus prohibentur praeceptis; et ideo non fuit
+              intentio legislatoris ut semper observaretur praeceptum suum, nisi in illis casibus in
+              quibus bonum virtutis potest conservari. Et ideo dicendum ad primam quaestionem de
+              jure naturali et positivo, quod jus positivum a jure naturali procedere dicitur,
+              inquantum per jus positivum modus observandi jus naturale determinatur; quia intentio
+              cujuslibet legislatoris est inducere homines ad virtutes, ut dicitur in 2 Ethic., quae
+              pertinent ad jus naturale. Modus autem observandi ea quae sunt de lege naturali, non
+              potest esse uniformis in omnibus propter diversitates quae in singularibus contingunt,
+              sicut nec idem modus curationis potest adhiberi omnibus laborantibus eadem
+              aegritudine; et ideo legislator non potest aliquod praeceptum ponere quod non oporteat
+              in casu aliquo praetermitti. Tamen considerans quod frequentius accidit, legem ponit,
+              in illis casibus in quibus modus determinatus per legem non competit judicium
+              reservans aliquibus qui hoc habeant definire; et haec est dispensatio praelatis
+              commissa in jejunio ab Ecclesia instituto, et in aliis hujusmodi Ecclesiae
+              praeceptis.</p>
+            <p xml:id="ta-l4d15q3-d1e514">Ad primum ergo dicendum, quod praecepta Dei sunt de eo quod est de necessitate
+              salutis secundum se; et ideo in quolibet casu observare illa oportet; sed praecepta
+              Ecclesiae quamvis vim obligandi habeant ex actu praecipientium, non tamen semper
+              obligant propter materiam in qua proponuntur.</p>
+            <p xml:id="ta-l4d15q3-d1e517">Ad secundum dicendum, quod secundum utilitatem quae ut frequentius accidit, utiliter
+              hujusmodi praecepta instituta sunt; sed propter necessitatem in aliquo casu emergentem
+              etiam utiliter dimittuntur.</p>
+            <p xml:id="ta-l4d15q3-d1e520">Ad tertium dicendum, quod inferior potest dispensare in praecepto superioris quando
+              dispensatio sibi a superiori relinquitur.</p>
+
+          </div>
+          <div xml:id="ta-l4d15q3-Dd1e524">
+            <head xml:id="ta-l4d15q3-Hd1e526">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d15q3-d1e529">Ad secundam quaestionem dicendum, quod praeceptum a legislatore positum, tunc solum
+              ad observandum non obligat, quando observatio intentionem legislatoris evacuat vel
+              impedit, qua intendit homines inducere ad virtutem, vel bonum statum eorum quibus
+              legem proponit. Cum autem justitia profectum jejunii quem legislator intendit, non
+              impediat, sed augeat, quia efficitur magis meritorium ex hoc quod aliquis est justus,
+              non absolvitur a jejuniorum observatione.</p>
+            <p xml:id="ta-l4d15q3-d1e532">Ad primum ergo dicendum, quod libertas quam spiritus Dei inducit, est libertas
+              justitiae, quae opponitur servituti peccati, sed conjungitur servituti Dei; et ita ad
+              obedientiam mandatorum ejus, et eorum qui vicem Dei gerunt in terris obligatur.</p>
+            <p xml:id="ta-l4d15q3-d1e535">Ad secundum dicendum, quod duplex est jejunium; luctus, et exultationis; et dicitur
+              jejunium luctus, quod quidem cum amaritudine peccatorum vel praesentis miseriae
+              geritur; jejunium vero exultationis, cum ex spirituali jucunditate a carnalibus se
+              abstrahit; quia gustato spiritu, desipit omnis caro justis. Ergo semper habitu
+              spiritualiter sponsus praesens est, sed non est semper actu; immo quandoque est eis
+              praesens ut judex, cum sua peccata recogitant, vel quae fecerunt, vel in quae cadere
+              possunt, nisi carnem cohibeant; et tunc eis competit jejunium moeroris. Aliquando
+              autem est eis praesens actu, ut sponsus, quando ejus dulcedine perfruuntur: et tunc
+              competit eis exultationis jejunium, et non maeroris.</p>
+            <p xml:id="ta-l4d15q3-d1e538">Ad tertium dicendum, quod jejunium non tantum inducitur pro peccatis praeteritis, sed
+              etiam ad praeservandum a futuris; et ideo in his quae non peccaverunt, competit ut
+              medicina praeservans. Tamen praesens vita sine peccato omnino agi non potest, quamvis
+              a criminibus aliquis abstineat, ut Augustinus in Lib. de poenitentia dicit; et ideo
+              sicut omnibus in hac vita existentibus competit poenitentia, ita et jejunium.</p>
+
+          </div>
+          <div xml:id="ta-l4d15q3-Dd1e542">
+            <head xml:id="ta-l4d15q3-Hd1e544">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d15q3-d1e547">Ad tertiam quaestionem dicendum, quod pueri indigent multo cibo, eo quod cibus in eis
+              non solum exigitur ad actum nutritivae, sed etiam ad actum augmentativae virtutis,
+              quia de residuo nutrimenti fit augmentum. Et quia virtus naturae in eis nondum
+              convaluit, non possunt simul multum de cibo assumere, quia naturalis virtus illud
+              convertere non posset; et ideo indigent frequenti cibi sumptione; et propter hoc eis
+              non competit jejunium, dum sunt in augmento. Tempus enim augmenti, secundum
+              philosophum, est usque ad finem tertii septennii ut in pluribus, quia res naturales
+              non currunt semper eodem modo, sed ut frequenter; et ideo ante hoc tempus non
+              arctantur pueri ad omnia jejunia Ecclesiae servanda. Sed quia quanto ad terminum
+              praedictum appropinquant, tanto virtus naturae magis roboratur, et augmentum tardius
+              procedit, cum in primis quinque annis perveniat puer ad medietatem totius augmenti, ut
+              philosophus dicit; ideo secundum quod magis appropinquant ad praedictum terminum, sunt
+              eis jejunia magis commensuranda.</p>
+            <p xml:id="ta-l4d15q3-d1e550">Ad primum ergo dicendum, quod loquitur in casu quando magna tribulatione imminente
+              major afflictio ad placandum Deum superaddenda est.</p>
+            <p xml:id="ta-l4d15q3-d1e553">Et similiter dicendum ad secundum.</p>
+            <p xml:id="ta-l4d15q3-d1e556">Ad tertium dicendum, quod quamvis pueri plus habeant de humido quam provecti; quia
+              tamen illud est minus inspissatum, citius potest a calore consumi; et ideo
+              frequentiori refectione indigent.</p>
+
+          </div>
+          <div xml:id="ta-l4d15q3-Dd1e560">
+            <head xml:id="ta-l4d15q3-Hd1e562">Quaestiuncula 4</head>
+            <p xml:id="ta-l4d15q3-d1e565">Ad quartam quaestionem dicendum, quod sicut dictum est, intentio legislatoris est
+              conservare homines et inducere ad bonum statum virtutis; qui quidem consistit in
+              conservatione vitae, et valetudine sufficienti ad opera quae quis facere debet; nec
+              tamen suo praecepto exigit ab homine totum quod potest, cum non intendat ordinare
+              statum hominis quantum ad unum diem vel ad parvum tempus, sed ad totam vitam; a quo
+              deficeret, si semel homo totum quod posset, faceret; et ideo sive aegritudine
+              imminente, sive labore viae, sive quocumque alio, cum quo simul et jejunio praedictus
+              status conservari non potest, non tenetur ex praecepto jejunare; sed secundum
+              dispensationem superioris, ut supra dictum est, jejunium solvere potest.</p>
+            <p xml:id="ta-l4d15q3-d1e568">Ad primum ergo dicendum, quod si sit talis peregrinatio quae possit sine incommodo
+              differri, debet peregrinationem differre, si simul cum ea jejunare non potest. Si
+              autem peregrinatio commode differri non potest, vel quia tempus jejunii hominem in via
+              praeoccupat, vel quia dies festus alicui imminet, ad quem ex devotione homo pergere
+              cupit, vel quia mora in poenitentia periculum habet vel spirituale vel corporale,
+              potest cum dispensatione sui superioris omnia praedicta pensantis peregrinari, et
+              jejunium solvere. Hoc tamen intelligitur de his qui labore itineris adeo affliguntur,
+              quod simul cum jejunio itinerari non possunt. Nec obstat quod praeceptum debet
+              praeponi consilio; quia intentio praeceptum hujusmodi dantis non est alias pias et
+              magis necessarias causas excludere. Secus autem est de praeceptis legis naturae, quae
+              hoc prohibent quod secundum se et semper malum est.</p>
+            <p xml:id="ta-l4d15q3-d1e571">Ad secundum dicendum, quod paupertas non semper excusat a jejunio, sed in illo casu
+              quando simul habere non potest tantum hora comestionis quod ad victum totius diei
+              sufficiat, sicut frequenter egenis contingit, qui frustatim eleemosynas quaerunt; vel
+              etiam quando ex praecedenti inedia tantum debilitati sunt quod jejunium sufferre non
+              possunt.</p>
+            <p xml:id="ta-l4d15q3-d1e574">Ad tertium dicendum, quod de operariis distinguendum videtur: quia si jejunando
+              possunt competenter victum pro persona sua habere, et pro familia cujus cura eis
+              incumbit (sive quia alias divites sunt, sive quia de eo quod minori labore fit, qui
+              secum jejunium compatiatur, lucrari sufficientia possunt), a jejunio non excusantur.
+              Si autem alias non possunt tantum laborare quod victum sufficientem acquirant, nisi
+              jejunium frangendo; possunt secundum dispensationem sacerdotis sui jejunium solvere,
+              et laborare. Ex quo patet quod intentio majoris lucri non necessarii eos a peccato non
+              excusat, si jejunium frangant: nec iterum illi a peccato immunes sunt qui operarios
+              conducere nolunt nisi tali pacto ut jejunium solvant, nisi forte sit causa necessaria,
+              quae festinationem operis pro quo laboratur, exposcat.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d15q3-Dd1e579" type="articulus">
+          <head xml:id="ta-l4d15q3-Hd1e581">Articulus 3</head>
+
+          <head xml:id="ta-l4d15q3-Hd1e584" type="questionTitle">Utrum hujusmodi tempora debeant esse ad jejunium determinata,
+            sicut Ecclesia instituit</head>
+
+          <div xml:id="ta-l4d15q3-Dd1e587">
+            <head xml:id="ta-l4d15q3-Hd1e589">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d15q3-d1e592">Ad tertium sic proceditur. Videtur quod hujusmodi tempora non debeant esse ad
+              jejunium determinata, sicut Ecclesia instituit. Quia sicut jejunium est satisfactionis
+              pars, ita eleemosyna. Sed eleemosynarum tempus non est determinatum. Ergo nec
+              jejunii.</p>
+            <p xml:id="ta-l4d15q3-d1e595">Praeterea, sicut legislator novi testamenti, scilicet Christus, Quadragesimam
+              jejunavit; ita et legis veteris lator, scilicet Moyses. Sed populo veteris testamenti
+              non indicebatur quadragesimale jejunium. Ergo nec populo novi testamenti indici
+              debet.</p>
+            <p xml:id="ta-l4d15q3-d1e598">Praeterea, Christus statim post Baptismum legitur, Matth. 4, jejunium in deserto
+              inchoasse. Si ergo nos in actibus nostris Christo conformari debemus, statim post
+              Epiphaniam, quando Baptismus Christi celebratur, debemus quadragesimale jejunium
+              inchoare.</p>
+            <p xml:id="ta-l4d15q3-d1e601">Praeterea, in veteri testamento habebant jejunium quarti mensis, et quinti, et
+              septimi et decimi, quae non erant distincta per quatuor anni tempora. Ergo videtur
+              quod nec nos per quatuor anni tempora nostra jejunia distinguere debeamus.</p>
+            <p xml:id="ta-l4d15q3-d1e605">Praeterea, temporibus laetitiae jejunium non competit; unde et tempore paschali
+              intermittitur jejunium vigiliae apostolorum Philippi et Jacobi, et tempore
+              nativitatis, jejunium vigiliae beati Joannis Evangelistae. Sed infra octavas
+              Pentecostes adhuc durat gaudium paschalis festivitatis. Ergo tunc jejunium non erit
+              observandum.</p>
+            <p xml:id="ta-l4d15q3-d1e608">Praeterea, in sanctorum solemniis eorum gloriam recolimus, ad quam translati sunt.
+              Sed jejunium statui gloriae non competit: quia <quote xml:id="ta-l4d15q3-Qd1e610">non esurient neque sitient
+                amplius</quote>. Ergo in vigiliis solemnitatum jejunium non competit.</p>
+
+          </div>
+          <div xml:id="ta-l4d15q3-Dd1e615">
+            <head xml:id="ta-l4d15q3-Hd1e617">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d15q3-d1e620">Ulterius. Videtur quod in aliquo tempore jejunium sit interdictum, secundum quod
+              Gregorius in 2 dialogorum, cap. 1, narrat quemdam sacerdotem divinitus missum beato
+              Benedicto dixisse: <quote xml:id="ta-l4d15q3-Qd1e622">dies resurrectionis est: non licet tibi hodie
+                abstinere</quote>. Ergo videtur quod in solemnitatibus illicitum est jejunare.</p>
+            <p xml:id="ta-l4d15q3-d1e626">Praeterea, in Esdra dicitur: <quote xml:id="ta-l4d15q3-Qd1e628">sanctus dies domini est, nolite
+                contristari</quote>; et additur: <quote xml:id="ta-l4d15q3-Qd1e631">comedite pinguia</quote> et cetera. Ergo
+              videtur quod in diebus solemnibus non liceat jejunare.</p>
+            <p xml:id="ta-l4d15q3-d1e635">Sed contra est quod Honorius tertius in quadam decretali dicit, quod die natalis
+              sexta feria venienti non sunt prohibendi qui propter devotionem voluerint
+              jejunare.</p>
+
+          </div>
+          <div xml:id="ta-l4d15q3-Dd1e639">
+            <head xml:id="ta-l4d15q3-Hd1e641">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d15q3-d1e644">Ulterius. Videtur quod hora nona non debeat esse tempus determinatum ad manducandum
+              in diebus jejunii. Quia circumstantiae secundum conditionem personarum sunt
+              determinandae. Sed non sunt ejusdem conditionis quantum ad potentiam abstinendi omnes
+              quibus jejunium indicitur. Ergo non esset eis omnibus una hora determinanda.</p>
+            <p xml:id="ta-l4d15q3-d1e647">Praeterea, status novi testamenti est perfectior quam status veteris. Sed in veteri
+              testamento jejunabant usque ad vesperam. Ergo et usque ad vesperam homo debet
+              comestionem nunc differre in diebus jejunii.</p>
+            <p xml:id="ta-l4d15q3-d1e650">Sed contra est consuetudo.</p>
+          </div>
+          <div xml:id="ta-l4d15q3-Dd1e655">
+            <head xml:id="ta-l4d15q3-Hd1e657">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d15q3-d1e660">Respondeo dicendum ad primam quaestionem, quod ad legislatorem pertinent ea quae sunt
+              ad vitam humanam necessaria, lege ordinare qualiter congruentius fieri possunt; et
+              ideo cum aliquod tempus sit alio magis jejunio congruum, convenienter ab Ecclesia
+              determinatum tempus est ad jejunia institutum.</p>
+            <p xml:id="ta-l4d15q3-d1e663">Ad primum ergo dicendum, quod eleemosynae ordinantur ad subveniendum defectibus
+              aliorum; et ideo non potest eleemosynis tempus determinari, sicut nec defectibus
+              quibus subvenire oportet. Sed jejunium est institutum ad comprimendum concupiscentiam
+              carnis, et satisfaciendum pro peccatis praeteritis; et quia jejunium concupiscentiam
+              comprimit, etiam postquam factum est, secundum quod ejus effectus manet in jejunante,
+              ideo potest jejunio tempus praefigi.</p>
+            <p xml:id="ta-l4d15q3-d1e666">Ad secundum dicendum, quod Moyses fuit legislator non tamquam dominus legis, sed
+              tamquam famulus; Christus autem tamquam dominus; et ideo non inducebat lex vetus ad
+              conformitatem Moysi, sicut nova lex inducit ad conformitatem Christi: quia etiam
+              Angelorum intentio, quia non sunt domini, sed servi, non est ut alios in seipsos
+              reducant, sed in Deum, ut Dionysius dicit.</p>
+            <p xml:id="ta-l4d15q3-d1e669">Ad tertium dicendum, quod Christus non jejunavit quasi ipse jejunio indigeret, sed ut
+              ad gratiam ejus suscipiendam exemplo sui jejunii nos praepararet; et ideo post
+              Baptismum suum, in quo plenitudo gratiae ipsius declarata est testimonio patris et
+              spiritus sancti, et etiam Joannis, decebat ut exemplum jejunii sui nobis proponeret.
+              Nobis autem competit jejunium, ut praeparemur ad suscipiendam gratiam ipsius; unde,
+              quia sacramenta gratiae ejus praecipue proponuntur circa festum Paschae, ideo
+              immediate ante solemnitatem paschalem quadragesimale jejunium impletur; et etiam quia
+              tempus veris, quod tunc incipit, maxime est concupiscentiae aptum; et quia
+              significatur quod ad gloriam resurrectionis per tribulationes praesentis vitae
+              pervenimus, sicut et Christus per passionem.</p>
+            <p xml:id="ta-l4d15q3-d1e673">Ad quartum dicendum, quod secundum Hieronymum, Judaei habebant speciales causas quare
+              illa jejunia observabant. In Julio enim, qui est quartus mensis ab Aprili, quem ipsi
+              primum habent, jejunabant: quia illo mense septima die mensis Moyses descendens de
+              monte legis tabulas confregit propter peccatum vituli conflatilis, et eodem mense muri
+              Hierusalem a Nabuchodonosor destructi sunt. In quinto autem mense, idest in Augusto,
+              propter peccatum murmuris ex verbis exploratorum orti: illo etiam mense templum
+              incensum est a Nabuchodonosor, et postea etiam a Tito. In septimo autem mense propter
+              interfectionem Godoliae, sub quo reliquiae populi conservabantur, ut patet Hieremiae
+              41. In decimo autem mense in memoriam mortuorum quos dominus in deserto percusserat.
+              Nos autem praeter jejunium quadragesimale, in quo omnium dierum quasi decimam
+              solvimus, in singulis quadris anni, tres dies jejunii instituti sunt, qui quasi in
+              primitias computentur, et ad expiandum peccata singularum quartarum.</p>
+            <p xml:id="ta-l4d15q3-d1e676">Ad quintum dicendum, quod sicut dicit Leo Papa: <quote xml:id="ta-l4d15q3-Qd1e678">post sanctae laetitiae dies,
+                quos in honorem domini resurgentis et in caelum ascendentis exegimus, et post
+                acceptum spiritus sancti donum, salubriter et necessario consuetudo ordinata est
+                jejunii, ut si quis forte inter ipsa festivitatis gaudia negligens libertate et
+                licentia immoderata aliqua praesumpsit, hoc abstinentiae censura castiget</quote>.
+              Tamen etiam est jejunium exultationis, quod illis qui spiritum sanctum acceperunt,
+              competit: cum gaudio enim spirituali etiam afflictio corporalis se compatitur; unde
+              non fit genuflexio, et alleluja cantatur; quod in aliis jejuniis non observatur.</p>
+            <p xml:id="ta-l4d15q3-d1e682">Ad sextum dicendum, quod in solemnitatibus praecipuis vigilias jejunamus, ut
+              paratiores ad devotionem festi simus, et ut gaudium aeternum, quod per solemnitates
+              temporales significatur, ad tribulationes praesentis vitae, quas sancti passi sunt,
+              subsequi demonstretur.</p>
+
+          </div>
+          <div xml:id="ta-l4d15q3-Dd1e686">
+            <head xml:id="ta-l4d15q3-Hd1e688">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d15q3-d1e691">Ad secundam quaestionem dicendum, quod jejunium, quantum est de se, nullo tempore est
+              prohibitum. Unde, sicut dicit Isidorus, sancti patres in deserto tempore paschali
+              jejunabant, excepto die dominicae resurrectionis, in quo non videtur conveniens
+              jejunare, eo quod tota Ecclesia laetitiae festum agit. Unde non est conveniens quod
+              aliquis illo die operibus afflictionis intendat, quia turpis est omnis pars quae suo
+              toti non congruit, ut dicit Augustinus in Lib. 3 Confess. Sed per accidens potest esse
+              jejunium alicujus in die festo illicitum, si adeo pertinaciter jejunium teneret, quod
+              non crederet per devotionem festi utilitatem jejunii compensari posse.</p>
+            <p xml:id="ta-l4d15q3-d1e694">Ad primum ergo dicendum, quod dies resurrectionis, ut dictum est, totus est
+              laetitiae; unde et cantatur: <quote xml:id="ta-l4d15q3-Qd1e696">haec dies quam fecit dominus, exultemus et
+                laetemur in ea</quote>; et ideo in illa prae aliis non congruit tristitiae signa
+              ostendere: et quia in singulis dominicis memoria resurrectionis agitur, ideo in diebus
+              dominicis secundum communem consuetudinem Ecclesiae jejunia intermittuntur.</p>
+            <p xml:id="ta-l4d15q3-d1e700">Ad secundum dicendum, quod quia illi in magna tristitia demersi erant propter
+              tribulationes undique imminentes, ideo ab his quae tristitiam ingerere possunt,
+              abstrahebantur, ut in spe divini auxilii gauderent.</p>
+
+          </div>
+          <div xml:id="ta-l4d15q3-Dd1e704">
+            <head xml:id="ta-l4d15q3-Hd1e706">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d15q3-d1e709">Ad tertiam quaestionem dicendum, quod competens hora comedendi in diebus jejunii est
+              hora nona; et haec est ab Ecclesia instituta, et communiter observata: quia secundum
+              communem cursum comedendi est hora sexta; quia cibus non debet apponi quousque natura
+              circa cibum praecedentem occupata est. Occupatur autem in cibo assumpto dupliciter.
+              Primo digerendo ipsum; et quoniam digestio fit per calorem, ideo illud tempus
+              digestioni est congruum in quo calor naturalis ad interiora revocatur, scilicet
+              propter subtractionem radiorum solis, et propter somnum, in quo intenduntur virtutes
+              naturales. Secundo cibum jam decoctum deducendo per membra, quibus debet assimilari;
+              et ad hoc requiritur quod calor nutrimentum deducens usque ad extremas partes corporis
+              evocetur: calor autem solis calorem naturalem ad exteriora evocat; et ideo quando
+              completur solis ascensus (quod fit hora sexta, quia tunc est circa medium), tunc ejus
+              opus completum est; et ideo tunc est tempus communiter sumendi cibum. Et quia jejunium
+              Ecclesiae debet esse poenale et satisfactorium, ideo supra hoc aliquid additur; non
+              autem tantum quod penitus humor cibi assumpti exsiccetur, aut virtus naturalis
+              debilitetur; unde partito residuo tempore, hora nona occurrit, in qua cibus secundum
+              Ecclesiae statutum in diebus jejunii sumendus est.</p>
+            <p xml:id="ta-l4d15q3-d1e712">Ad primum ergo dicendum, quod legislator ponens legem communem, attendit ea quae in
+              pluribus accidunt: sed adaptationem ad singulos relinquit illis qui constituuntur
+              legis dispensatores.</p>
+            <p xml:id="ta-l4d15q3-d1e715">Ad secundum dicendum, quod nos nostro jejunio conformamur novo homini, qui per
+              passionem suam nos a vetustate et tenebris revocavit; et ideo illo tempore jejunium
+              primum solvimus, quando Christus passionem suam finivit, scilicet hora nona. Sed ante
+              hanc renovationem competebat vespertinum tempus jejunantium comestioni, ad
+              significandum quod per cibum veteris hominis in tenebras peccati et mortis dejecti
+              erant, a quibus non eruebantur, etiam post tribulationes praesentis vitae; quia in
+              morte ad Limbum descendebant, qui erat tenebrosus locus.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d15q3-Dd1e721" type="articulus">
+          <head xml:id="ta-l4d15q3-Hd1e723">Articulus 4</head>
+
+          <head xml:id="ta-l4d15q3-Hd1e726" type="questionTitle">Utrum per binam comestionem jejunium solvatur</head>
+
+          <div xml:id="ta-l4d15q3-Dd1e729">
+            <head xml:id="ta-l4d15q3-Hd1e731">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d15q3-d1e734">Ad quartum sic proceditur. Videtur quod per binam comestionem jejunium non solvatur.
+              Quia jejunium est determinatum ad subtractionem nutrimenti. Sed non solum nutrimur
+              cibo, sed etiam potu. Cum ergo potus assumptus praeter comestionem statutum ab
+              Ecclesia jejunium non solvat, videtur quod nec etiam cibi bina assumptio.</p>
+            <p xml:id="ta-l4d15q3-d1e737">Praeterea, aqua potata impedit sumptionem Eucharistiae, sicut et sumptio alterius
+              cibi: quia solvit jejunium naturae, quod requiritur in Eucharistiam sumentibus, sicut
+              et alii cibi. Si ergo aqua potata non solvit jejunium Ecclesiae, videtur quod nec
+              alius cibus assumptus.</p>
+            <p xml:id="ta-l4d15q3-d1e740">Praeterea, electuaria etiam cibi quidam sunt. Sed eorum assumptio jejunium non
+              solvit; quod patet ex communi consuetudine multorum, qui etiam diebus jejunii absque
+              conscientia fractionis jejunii electuaria in magna quantitate manducant. Ergo nec
+              ciborum aliorum iterata assumptio jejunium solvit.</p>
+            <p xml:id="ta-l4d15q3-d1e743">Praeterea, odor jejunium non solvit. Sed odore aliqui reficiuntur, sicut et cibo.
+              Ergo nec cibus.</p>
+            <p xml:id="ta-l4d15q3-d1e747">Sed contra est, quia in hoc distinguuntur jejunantes a non jejunantibus, quia semel
+              manducant. Si ergo bina comestio jejunium non solveret, non esset differentia inter
+              jejunantes et non jejunantes.</p>
+
+          </div>
+          <div xml:id="ta-l4d15q3-Dd1e751">
+            <head xml:id="ta-l4d15q3-Hd1e753">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d15q3-d1e756">Ulterius. Videtur quod esus carnium jejunium non solvat. Quia jejunium est institutum
+              ad comprimendum concupiscentiam. Sed vinum magis inflammat concupiscentiam quam
+              carnes. Cum ergo potus vini non solvat jejunium, nec esus carnium solvet.</p>
+            <p xml:id="ta-l4d15q3-d1e759">Praeterea, legumina inflativa sunt, et sic ad luxuriam provocant. Sed esus eorum non
+              solvit jejunium. Ergo nec esus carnium.</p>
+            <p xml:id="ta-l4d15q3-d1e762">Praeterea, pisces aliqui ita delectabiliter comeduntur sicut carnes aliorum
+              animalium. Sed nulla caro piscium comesta jejunium solvit. Ergo nec carnes avium aut
+              quadrupedum.</p>
+            <p xml:id="ta-l4d15q3-d1e765">Praeterea, sicut in diebus quadragesimalibus abstinetur a carnibus, ita ab ovis et
+              lacticiniis. Sed in diebus jejunii quidam lacticiniis et ovis utuntur. Ergo et
+              carnibus uti possunt sine hoc quod jejunium solvatur.</p>
+            <p xml:id="ta-l4d15q3-d1e769">Sed contra est generalis consuetudo Ecclesiae, quae jejunantibus usum carnium
+              interdicit.</p>
+
+          </div>
+          <div xml:id="ta-l4d15q3-Dd1e773">
+            <head xml:id="ta-l4d15q3-Hd1e775">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d15q3-d1e778">Ulterius. Videtur quod anticipatio temporis jejunium non solvat. Sicut enim non
+              servat tempus ab Ecclesia institutum qui tardat comestionem, ita nec ille qui
+              anticipat. Sed ille qui tardat, non solvit jejunium ab Ecclesia institutum. Ergo nec
+              ille qui anticipat.</p>
+            <p xml:id="ta-l4d15q3-d1e781">Praeterea, jejunium est actus abstinentiae. Sed abstinentia impeditur non solum per
+              anticipationem horae comestionis, sed etiam per alias conditiones, quae hoc versu
+              continentur: <quote xml:id="ta-l4d15q3-Qd1e783">praepropere, laute, nimis, ardenter, studiose</quote>. Ergo cum
+              nimis comedere quantum ad quantitatem non solvat jejunium, nec ardenter quantum ad
+              aviditatem comedendi, nec laute, quantum ad pretiosa quae in cibum quaeruntur, nec
+              studiose, quantum ad exquisitum modum cibaria praeparandi (alias mortaliter peccarent
+              qui in diebus jejuniorum hoc facerent, quasi transgressores praecepti Ecclesiae; quod
+              durum est dicere): videtur quod nec praepropere comedere, quod est tempus anticipare,
+              jejunium solvat.</p>
+            <p xml:id="ta-l4d15q3-d1e787">Sed contra est quod dicit Concilium Cabilonense: <quote xml:id="ta-l4d15q3-Qd1e789">in Quadragesima nullatenus
+                credendi sunt jejunare qui ante manducaverunt quam vespertinum celebretur
+                officium</quote>. Ergo anticipatio temporis solvit jejunium.</p>
+          </div>
+          <div xml:id="ta-l4d15q3-Dd1e795">
+            <head xml:id="ta-l4d15q3-Hd1e797">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d15q3-d1e800">Respondeo dicendum ad primam quaestionem, quod jejunium dupliciter solvitur. Uno modo
+              quantum ad meritum, ita quod homo vel non meretur, vel minus meretur; et de hac
+              solutione jejunii non intendimus ad praesens: quia conditiones quae meritum alicujus
+              actus augent vel minuunt, indeterminatae sunt, eo quod quandoque accidentaliter se
+              habent ad actum meritorium. Alio modo solvitur jejunium, secundum quod est ab Ecclesia
+              institutum; ex qua solutione homo efficitur transgressor statuti Ecclesiae de jejunio
+              servando, vel saltem non observator, nisi ex dispensatione vel causa legitima
+              dimittat; et de hac solutione jejunii nunc quaerimus. Ad hoc autem praecipue valet
+              considerare intentiones statuentis. Intendit autem Ecclesia certum modum statuere
+              manducandi, ut scilicet semel in die jejunans manducet; et ideo si aliquorum sumptio,
+              secundum quae manducatio solet compleri, iteretur, jejunium praedicto modo acceptum
+              solvitur. Si autem aliqua sumantur quae ad manducandum de se ordinata non sunt, sed ad
+              alium usum, qui usus communiter manducatio non vocatur; talis cibi vel potus sumptio
+              praeter manducationem unam ante vel post, non facit esse binam manducationem; et ideo
+              talis sumptio jejunium non solvit.</p>
+            <p xml:id="ta-l4d15q3-d1e803">Ad primum ergo dicendum, quod quamvis aliquis potus aliquo modo nutriat, tamen de se
+              non ordinatur ad nutriendum, sed magis ad dispositionem bonam eorum quae nutriunt, ut
+              scilicet per membra deducantur, et in stomacho non comburantur; unde sumptio potus
+              manducatio non dicitur: et ideo ille qui potat extra horam unicae comestionis, non
+              dicitur bis manducare; et propter hoc nec statutum Ecclesiae frangit, nisi fraudem
+              faciat: quia legem violat qui in fraudem legis aliquid facit.</p>
+            <p xml:id="ta-l4d15q3-d1e806">Ad secundum dicendum, quod aqua etsi solvat jejunium naturae, quia aliquo modo
+              nutrit; non tamen solvit jejunium Ecclesiae; quia Ecclesia non attendit in statuendo
+              id quod quocumque modo nutrire potest, sed id quod principaliter ad nutriendum
+              ordinatum est.</p>
+            <p xml:id="ta-l4d15q3-d1e809">Ad tertium dicendum, quod quidam dicunt, quod si electuaria comedantur ad
+              delectationem, solvunt jejunium; si autem causa medicinae sumantur, non solvitur
+              jejunium. Sed statutum positivae legis non attendit intentionem observantis, sed ipsum
+              actum; eo quod modus virtutis non cadit in praecepto, sed est finis praecepti; sed ex
+              intentione potest aliquis mereri vel demereri. Et ideo dicendum, quod electuaria etsi
+              aliquo modo nutriant, non tamen hic est principalis usus eorum; unde nec loco
+              manducationis sumi consueverunt; et ideo talis sumptio jejunium Ecclesiae non solvit,
+              quamvis homo possit totaliter vel in parte ex hoc meritum jejunii perdere; vel etiam
+              mortaliter peccare, si sit immoderata libido. Non tamen est transgressor praecepti
+              Ecclesiae nisi in fraudem sumeret, aut si eis quasi aliis cibis uteretur ad famem
+              extinguendam.</p>
+            <p xml:id="ta-l4d15q3-d1e813">Ad quartum dicendum, quod odor non nutrit, ut patet per philosophum in libro de sensu
+              et sensato, sed aliquo modo confortat; unde non solvit neque jejunium naturae neque
+              jejunium Ecclesiae.</p>
+
+          </div>
+          <div xml:id="ta-l4d15q3-Dd1e817">
+            <head xml:id="ta-l4d15q3-Hd1e819">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d15q3-d1e822">Ad secundam quaestionem dicendum, quod ille dicitur jejunium Ecclesiae solvere qui
+              modum abstinendi statutum ab Ecclesia non servat. Cum autem jejunium Ecclesia
+              instituerit ad satisfaciendum, et concupiscentiam reprimendum, sicut determinavit ad
+              abstinentiam jejunii quantum ad numerum, ut scilicet semel tantum jejunans comederet
+              ad afflictionem carnis propter satisfactionem; ita taxavit ut a carnibus abstineretur,
+              quia hoc genere cibi praecipue concupiscentia fovetur et roboratur; unde comestio
+              carnium jejunium solvit ab Ecclesia institutum.</p>
+            <p xml:id="ta-l4d15q3-d1e825">Ad primum ergo dicendum, quod vinum concupiscentiam incitat inflammando per modum
+              alterantis; et quia tales alterationes non diu manent, ideo potus vini non adeo
+              efficaciter operatur ad concupiscentiae fomentum, sicut esus carnium, quo praecipue
+              materia concupiscentiae ministratur, et calor naturalis confortatur radicitus magis;
+              et ex alia parte subtractio vini nimis debilitaret naturam propter digestionis
+              impedimentum.</p>
+            <p xml:id="ta-l4d15q3-d1e828">Et similiter dicendum ad secundum de inflatione leguminum, quod est accidentalis
+              causa concupiscentiam provocans, et cito transit.</p>
+            <p xml:id="ta-l4d15q3-d1e831">Ad tertium dicendum, quod pisces frigidiores sunt naturaliter quam carnes, nec
+              alimentum ita conveniens corpori praestant sicut aliae carnes; unde non fuit tanta
+              necessitas prohibendi pisces, sicut carnes.</p>
+            <p xml:id="ta-l4d15q3-d1e835">Ad quartum dicendum, quod quadragesimale jejunium arctius observatur quam alia
+              jejunia, quia eo Christi jejunium secundum modum nostrum imitamur; et ideo, quamvis
+              usus casei et ovorum in Quadragesima sit generaliter interdictus, tamen in aliis
+              jejuniis apud diversos in his est diversus abstinentiae modus.</p>
+
+          </div>
+          <div xml:id="ta-l4d15q3-Dd1e839">
+            <head xml:id="ta-l4d15q3-Hd1e841">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d15q3-d1e844">Ad tertiam quaestionem dicendum, quod, sicut dictum est, ille jejunium solvit qui
+              Ecclesiae determinationem non servat. Unde cum Ecclesia instituit certum tempus
+              comedendi jejunantibus; qui nimis notabiliter anticipat, jejunium solvit. Non enim
+              Ecclesia arctare intendit ad subtilem temporis inspectionem; nec oportet astrolabium
+              accipere ad horam comestionis cognoscendam. Unde sufficit si circa horam illam quam
+              Ecclesia instituit, jejunans sumat cibum, etiam si aliquantulum propter aliquam
+              necessitatem anticipet.</p>
+            <p xml:id="ta-l4d15q3-d1e847">Ad primum ergo dicendum, quod omittere praeceptum Ecclesiae non licet, sed
+              supererogare licet; et ideo cum tardatio horae ad poenalitatem jejunii faciat, licet
+              tardare per horam, sed non anticipare.</p>
+            <p xml:id="ta-l4d15q3-d1e850">Ad secundum dicendum, quod ea in quibus non potest accipi certa mensura, non cadunt
+              sub determinatione legislatoris. Et quia non potest accipi certa mensura in quantitate
+              cibi vel aliis conditionibus numeratis, sicut in tempore accipi potest; ideo
+              conditiones aliae quatuor non cadunt sub determinatione praecepti Ecclesiae; et ideo
+              quamvis per inordinationem circa illas circumstantias peccet, et meritum jejunii
+              amittat vel in toto vel in parte, non tamen Ecclesiae statutum transgreditur; et ideo
+              jejunium non solvit.</p>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

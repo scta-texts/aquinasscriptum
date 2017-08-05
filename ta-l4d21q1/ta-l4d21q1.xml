@@ -1,0 +1,642 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 21, Quaestio 1</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Librum IV, Distinctio 21, Quaestio 1</title>
+          <date when="2016-03-19">March 19, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-19">March 19, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness>1856 editum</witness>
+          <witness xml:id="G" n="ghent567">Ghent, Belgium, Ghent University Library, 567</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="0.0.0-dev">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+
+
+
+
+      <div xml:id="starts-on">
+        <cb ed="#G" n="373a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ta-l4d21q1">
+        <head xml:id="ta-l4d21q1-Hd1e97">Librum IV, Distinctio 21, Quaestio 1</head>
+        <div xml:id="ta-l4d21q1-Dd1e100">
+          <head xml:id="ta-l4d21q1-Hd1e102">Prooemium</head>
+          <p xml:id="ta-l4d21q1-d1e105">Postquam determinavit Magister de tempore poenitentiae, hic movet quasdam quaestiones
+            contra determinata, et eas solvit; et dividitur in partes duas: in prima movet
+            quaestionem circa tempus poenitentiae; in secunda circa confessionem quae a
+            poenitentibus requiritur, ibi: <quote xml:id="ta-l4d21q1-Qd1e107">post hoc considerandum est</quote> et cetera.
+            Prima in tres: in prima movet quaestionem circa determinata. Dixerat enim, quod tempus
+            poenitentiae usque ad finem vitae datur; et cum omnia per poenitentiam in hac vita
+            dimittantur peccata, inquirit, utrum post hanc vitam aliqua peccata dimitti possint;
+            secundo determinat veritatem secundum auctoritates sanctorum, ibi: <quote xml:id="ta-l4d21q1-Qd1e110">quod aliqua
+              post hanc vitam remittantur, Christus ostendit in Evangelio</quote>; in tertia
+            refellit quorumdam responsionem ad auctoritates, ibi: <quote xml:id="ta-l4d21q1-Qd1e113">sed forte dices, illud esse
+              accipiendum de poena peccati</quote>. Circa secundum duo facit: primo determinat
+            veritatem quaestionis motae; secundo ex veritate determinata quamdam dubitationem movet,
+            ibi: <quote xml:id="ta-l4d21q1-Qd1e116">hic objici potest</quote> et cetera. Circa primum duo facit: primo ostendit
+            quod post hanc vitam aliqua peccata dimittuntur in Purgatorio; secundo ostendit quod
+            quidam tardius a peccatis ibi purgantur, ibi: <quote xml:id="ta-l4d21q1-Qd1e119">in illo autem igne Purgatorio alii
+              tardius, alii citius purgantur. Post haec autem considerandum est</quote> et cetera.
+            Hic movet quaestiones circa determinata prius de confessione: et primo ex parte
+            confitentis; secundo ex parte confessoris, qui scilicet confessionem audit, ibi:
+              <quote xml:id="ta-l4d21q1-Qd1e123">caveat autem sacerdos ne peccata confitentium aliis prodat</quote>. Circa
+            primum duo quaerit: primo utrum quis debeat singula peccata confiteri quae non fecit,
+            ibi: <quote xml:id="ta-l4d21q1-Qd1e126">sicut autem poenitens celare non debet peccatum suum, quia superbia est; ita
+              nec humilitatis causa fateri se reum illius quod se non commisisse noscit. Caveat
+              autem sacerdos ne peccata poenitentium aliis prodat</quote>. Hic etiam duo determinat
+            ex parte confessoris: primo ut peccatum celet; secundo quod non quisque sacerdos
+            confessionem cujuslibet audiat, ibi: <quote xml:id="ta-l4d21q1-Qd1e129">quod vero dictum est, ut poenitens eligat
+              sacerdotem scientem ligare et solvere, videtur contrarium ei quod in canonibus
+              reperitur</quote>. Hic est triplex quaestio. Prima de Purgatorio. Secunda de
+            confessione generali. Tertia de sigillo confessionis quo peccata celantur. Circa primum
+            quaeruntur tria: 1 de ipso Purgatorio; 2 de ligno, feno, et stipula, quae in Purgatorio
+            purgantur; 3 de effectu Purgatorii.</p>
+
+        </div>
+        <div xml:id="ta-l4d21q1-Dd1e134" type="articulus">
+          <head xml:id="ta-l4d21q1-Hd1e136">Articulus 1</head>
+
+          <head xml:id="ta-l4d21q1-Hd1e139" type="questionTitle">Utrum Purgatorium sit post hanc vitam</head>
+
+          <div xml:id="ta-l4d21q1-Dd1e142">
+            <head xml:id="ta-l4d21q1-Hd1e144">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d21q1-d1e147">Ad primum sic proceditur. Videtur quod Purgatorium non sit post hanc vitam. Apoc. 14,
+              13, dicitur: <quote xml:id="ta-l4d21q1-Qd1e149">beati mortui qui in domino moriuntur. Amodo jam dicit spiritus ut
+                requiescant a laboribus suis</quote>. Ergo his qui in domino moriuntur, non manet
+              aliquis Purgatorius labor post hanc vitam; nec illis qui non in domino moriuntur, quia
+              illi purgari non possunt. Ergo Purgatorium post hanc vitam non est.</p>
+            <p xml:id="ta-l4d21q1-d1e153">Praeterea, sicut se habet caritas ad praemium aeternum, ita peccatum mortale ad
+              supplicium aeternum. Sed decedentes in peccato mortali statim ad supplicium aeternum
+              deportantur. Ergo decedentes in caritate statim ad praemium vadunt; et ita non manet
+              eis aliquod Purgatorium post hanc vitam.</p>
+            <p xml:id="ta-l4d21q1-d1e156">Praeterea, Deus, qui est summe misericors, pronior est ad praemiandum bona quam ad
+              puniendum mala. Sed sicut illi qui sunt in statu caritatis, faciunt aliqua mala quae
+              non sunt digna supplicio aeterno; ita qui sunt in peccato mortali, interdum faciunt
+              aliqua bona ex genere, quae non sunt digna praemio aeterno. Ergo cum illa bona non
+              praemientur in damnandis post hanc vitam; nec illa mala debent post hanc vitam puniri;
+              et sic idem quod prius.</p>
+            <p xml:id="ta-l4d21q1-d1e159">Sed contra, 2 Mach. 12, 46, dicitur: <quote xml:id="ta-l4d21q1-Qd1e161">sancta et salubris est cogitatio pro
+                defunctis exorare, ut a peccatis solvantur</quote>. Sed pro defunctis qui sunt in
+              Paradiso, non est orandum, quia illi nullo indigent; nec iterum pro illis qui sunt in
+              Inferno, quia illi a peccatis solvi non possunt. Ergo post hanc vitam sunt aliqui a
+              peccatis nondum absoluti, qui solvi possunt; et tales caritatem habent, sine qua non
+              fit peccatorum remissio; quia <quote xml:id="ta-l4d21q1-Qd1e164">universa delicta operit caritas</quote>: Prov.
+              10, 12. Unde ad mortem aeternam non devenient; quia <quote xml:id="ta-l4d21q1-Qd1e167">qui vivit et credit in me,
+                non morietur in aeternum</quote>; Joan. 11, 26: nec ad gloriam inducentur nisi
+              purgati; quia nihil immundum ad illam perveniet, ut patet Apoc. ult. Ergo aliqua
+              purgatio restat post hanc vitam.</p>
+            <p xml:id="ta-l4d21q1-d1e172">Praeterea, Gregorius Nyssenus dicit: <quote xml:id="ta-l4d21q1-Qd1e174">si aliquis Christo amico consentiens in
+                hac vita purgare peccata minus potuerit, post transitum hinc per Purgatorii ignis
+                conflationem expeditur</quote>. Ergo post hanc vitam restat aliqua purgatio.</p>
+
+          </div>
+          <div xml:id="ta-l4d21q1-Dd1e179">
+            <head xml:id="ta-l4d21q1-Hd1e181">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d21q1-d1e184">Ulterius. Videtur quod non sit idem locus quo animae purgantur, et quo damnati
+              puniuntur. Quia poena damnatorum est aeterna, ut dicitur Matth. 25, 46: <quote xml:id="ta-l4d21q1-Qd1e186" ana="#mt25_46">ibunt
+                hi in ignem aeternum</quote>. Sed Purgatorius ignis est temporalis, ut supra
+              Magister dixit. Ergo non simul puniuntur hi et illi eodem igne; et sic oportet loca
+              esse distincta.</p>
+            <p xml:id="ta-l4d21q1-d1e190">Praeterea, poena Inferni nominatur pluribus nominibus, ut in Psalm. 10, <quote xml:id="ta-l4d21q1-Qd1e192">ignis,
+                sulphur, et spiritus procellarum</quote> et cetera. Sed poena Purgatorii non nisi
+              uno nomine nominatur, scilicet ignis. Ergo non eodem igne et eodem loco puniuntur.</p>
+            <p xml:id="ta-l4d21q1-d1e196">Praeterea, Hugo de sancto Victore dicit: <quote xml:id="ta-l4d21q1-Qd1e198">probabile est quod in his locis
+                puniuntur in quibus commiserunt culpam</quote>. Gregorius etiam in Dial., narrat
+              quod germanus episcopus Capuanus Paschasium qui in balneis purgabatur, invenit. Ergo
+              in loco Inferni non purgantur, sed in hoc mundo.</p>
+            <p xml:id="ta-l4d21q1-d1e202">Sed contra est quod Gregorius dicit, quod sicut sub eodem igne aurum rutilat et palea
+              fumat; ita sub eodem igne peccator crematur, et electus purgatur. Ergo idem est ignis
+              Purgatorii et Inferni; et sic in eodem loco sunt.</p>
+            <p xml:id="ta-l4d21q1-d1e206">Praeterea, sancti patres ante adventum Christi fuerunt in loco digniori quam sit
+              locus in quo purgantur animae post mortem; quia non erat ibi aliqua poena sensibilis.
+              Sed locus ille erat conjunctus Inferno, vel idem quod Infernus; alias Christus ad
+              Limbum descendens non diceretur ad Inferos descendisse. Ergo et Purgatorium est in
+              eodem loco, vel juxta Infernum.</p>
+
+          </div>
+          <div xml:id="ta-l4d21q1-Dd1e210">
+            <head xml:id="ta-l4d21q1-Hd1e212">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d21q1-d1e215">Ulterius. Videtur quod poena Purgatorii non excedat omnem poenam temporalem hujus
+              vitae. Quanto enim aliquid est magis passivum, tanto magis affligitur, si sensum
+              laesionis habeat. Sed corpus est magis passivum quam anima separata; tum quia habet
+              contrarietatem ad ignem agentem; tum quia habet materiam quae est susceptiva
+              qualitatis agentis: quod de anima non potest dici. Ergo major est poena quam corpus
+              patitur in hoc mundo, quam poena qua anima purgatur post hanc vitam.</p>
+            <p xml:id="ta-l4d21q1-d1e218">Praeterea, poena Purgatorii directe ordinatur contra venialia. Sed venialibus, cum
+              sint levissima peccata, levissima poena debetur, si secundum mensuram delicti sit
+              plagarum modus. Ergo poena Purgatorii est levissima.</p>
+            <p xml:id="ta-l4d21q1-d1e221">Praeterea, reatus, cum sit effectus culpae, non intenditur nisi culpa intendatur. Sed
+              in illo cui jam culpa dimissa est, non potest culpa intendi. Ergo in eo cui culpa
+              mortalis dimissa est, pro quo non plene satisfecit, reatus non crescit in morte. Sed
+              in hac vita non erat ei reatus respectu gravissimae poenae. Ergo poena quam patietur
+              post hanc vitam non erit ei gravior omni poena istius vitae.</p>
+            <p xml:id="ta-l4d21q1-d1e224">Sed contra est quod Augustinus dicit in quodam sermone: <quote xml:id="ta-l4d21q1-Qd1e226">ille ignis Purgatorii
+                durior erit quam quidquid in hoc saeculo poenarum aut sentire aut videre aut
+                cogitare quis potest</quote>.</p>
+            <p xml:id="ta-l4d21q1-d1e231">Praeterea, quanto poena est universalior, tanto major. Sed anima separata tota
+              punitur, cum sit simplex; non autem ita est de corpore. Ergo illa poena quae est
+              animae separatae, est major omni poena quam corpus patitur.</p>
+
+          </div>
+          <div xml:id="ta-l4d21q1-Dd1e236">
+            <head xml:id="ta-l4d21q1-Hd1e238">Quaestiuncula 4</head>
+            <p xml:id="ta-l4d21q1-d1e241">Ulterius. Videtur quod illa poena sit voluntaria. Quia illi qui sunt in Purgatorio,
+              rectum cor habent. Sed haec est rectitudo cordis, ut quis voluntatem suam voluntati
+              divinae conformet, ut Ambrosius dicit. Ergo cum Deus velit eos puniri, ipsi illam
+              poenam voluntarie sustinent.</p>
+            <p xml:id="ta-l4d21q1-d1e244">Praeterea, omnis sapiens vult illud sine quo non potest pervenire ad finem intentum.
+              Sed illi qui sunt in Purgatorio, sciunt se non posse pervenire ad gloriam nisi prius
+              puniantur. Ergo volunt puniri.</p>
+            <p xml:id="ta-l4d21q1-d1e247">Sed contra, nullus petit liberari a poena quam voluntarie sustinet. Sed illi qui sunt
+              in Purgatorio, petunt liberari, sicut patet per multa quae in dialogo narrantur. Ergo
+              non sustinent illam poenam voluntarie.</p>
+
+          </div>
+          <div xml:id="ta-l4d21q1-Dd1e251">
+            <head xml:id="ta-l4d21q1-Hd1e253">Quaestiuncula 5</head>
+            <p xml:id="ta-l4d21q1-d1e256">Ulterius. Videtur quod animae in Purgatorio per Daemones puniantur. Quis, sicut
+              infra, dist. 47, in fine, dicit Magister, illos habebunt tortores in poenis quos
+              habuerunt incentores in culpa. Sed Daemones incitant ad culpam non solum mortalem, sed
+              etiam venialem, quando aliud non possunt. Ergo etiam in Purgatorio ipsi animas pro
+              peccatis venialibus torquebunt.</p>
+            <p xml:id="ta-l4d21q1-d1e259">Praeterea, purgatio a peccatis competit justis et in hac vita et post hanc vitam. Sed
+              in hac vita purgantur per poenas a Diabolo inflictas, sicut patet de Job. Ergo etiam
+              post hanc vitam punientur a Daemonibus purgandi.</p>
+            <p xml:id="ta-l4d21q1-d1e262">Sed contra, injustum est ut qui de aliquo triumphavit, ei subjiciatur post triumphum.
+              Sed illi qui sunt in Purgatorio, de Daemonibus triumphaverunt sine peccato mortali
+              decedentes. Ergo non subjicientur eis puniendi per eos.</p>
+          </div>
+          <div xml:id="ta-l4d21q1-Dd1e266">
+            <head xml:id="ta-l4d21q1-Hd1e268">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d21q1-d1e271">Respondeo dicendum ad primam quaestionem, quod ex illis quae supra determinata sunt,
+              satis potest constare, Purgatorium esse post hanc vitam. Si enim per contritionem
+              deleta culpa non tollitur ex toto reatus poenae, nec etiam semper venialia dimissis
+              mortalibus tolluntur; et justitia. Dei hoc exigit ut peccatum per poenam debitam
+              ordinetur; oportet quod ille qui post contritionem de peccato et absolutionem decedit
+              ante satisfactionem debitam, post hanc vitam puniatur; et ideo illi qui Purgatorium
+              negant, contra divinam justitiam loquuntur; et propter hoc erroneum est, et a fide
+              alienum. Unde Gregorius Nyssenus post praedicta verba subjungit: <quote xml:id="ta-l4d21q1-Qd1e273">hoc
+                praedicamus, dogma veritatis servantes, et ita credimus; hoc etiam universalis
+                Ecclesia tenet, pro defunctis exorans ut a peccatis solvantur</quote>; quod non
+              potest nisi de illis qui sunt in Purgatorio intelligi. Ecclesiae autem auctoritati
+              quicumque resistit, haeresim incurrit.</p>
+            <p xml:id="ta-l4d21q1-d1e277">Ad primum ergo dicendum, quod auctoritas illa loquitur de labore operationis ad
+              merendum et non merendum, et non de labore passionis ad purgandum.</p>
+            <p xml:id="ta-l4d21q1-d1e280">Ad secundum dicendum, quod malum non habet causam perfectam, sed ex singularibus
+              defectibus contingit; sed bonum ex una causa perfecta consurgit, ut Dionysius dicit;
+              et ideo quilibet defectus impedit a perfectione boni; sed non quodlibet bonum impedit
+              consummationem aliquam mali; quia nunquam est malum sine aliquo bono: et ideo peccatum
+              veniale impedit habentem caritatem ne ad perfectum bonum deveniat, scilicet vitam
+              aeternam, quamdiu purgatur; sed peccatum mortale non potest impediri per aliquod bonum
+              adjunctum, quo minus statim ad ultimum malorum perducat.</p>
+            <p xml:id="ta-l4d21q1-d1e283">Ad tertium dicendum, quod ille qui in peccatum mortale incidit, omnia bona ante acta
+              mortificat; et quae in peccato mortali existens facit, mortua sunt; quia ipse Deum
+              offendens, omnia bona meretur amittere, quae a Deo habet. Unde ei qui in peccato
+              mortali decedit, non manet aliquod praemium post hanc vitam, sicut manet aliquando
+              poena ei qui in caritate decedit, quae non semper delet omne malum quod invenit, sed
+              solum hoc quod est sibi contrarium.</p>
+
+          </div>
+          <div xml:id="ta-l4d21q1-Dd1e287">
+            <head xml:id="ta-l4d21q1-Hd1e289">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d21q1-d1e292">Ad secundam quaestionem dicendum, quod de loco Purgatorii non invenitur aliquid
+              expresse determinatum in Scriptura, nec rationes possunt ad hoc efficaces induci.
+              Tamen probabiliter, et secundum quod consonat magis sanctorum dictis, et revelationi
+              factae multis, locus Purgatorii est duplex. Unus secundum legem communem; et sic locus
+              Purgatorii est locus inferior Inferno conjunctus, ita quod idem ignis sit qui damnatos
+              cruciat in Inferno, et qui justos in Purgatorio purgat; quamvis damnati secundum quod
+              sunt inferiores merito, et loco inferiores ordinandi sint. Alius est locus Purgatorii
+              secundum dispensationem; et sic quandoque in diversis locis aliqui puniti leguntur,
+              vel ad vivorum instructionem, vel ad mortuorum subventionem, ut viventibus eorum poena
+              innotescens, per suffragia Ecclesiae mitigaretur. Quidam tamen dicunt, quod secundum
+              legem communem locus Purgatorii est ubi homo peccat; quod non videtur probabile, quia
+              simul potest homo puniri pro peccatis quae in diversis locis commisit. Quidam vero
+              dicunt quod puniuntur supra nos secundum legem communem; quia sunt medii inter nos et
+              Deum quantum ad statum. Sed hoc nihil est; quia non puniuntur pro eo quod supra nos
+              sunt, sed pro eo quod est infimum in eis, scilicet peccatum.</p>
+            <p xml:id="ta-l4d21q1-d1e295">Ad primum ergo dicendum, quod ignis Purgatorius est aeternus quantum ad substantiam,
+              sed temporalis quantum ad effectum purgationis.</p>
+            <p xml:id="ta-l4d21q1-d1e298">Ad secundum dicendum, quod poena Inferni est ad affligendum; et ideo nominatur
+              omnibus illis quae hic nos affligere consueverunt; sed poena Purgatorii est
+              principaliter ad purgandum reliquias peccati; et ideo sola poena ignis Purgatorio
+              attribuitur, quia ignis habet purgare et consumere.</p>
+            <p xml:id="ta-l4d21q1-d1e301">Ad tertium dicendum, quod ratio illa procedit secundum dispensationem, et non
+              secundum legem communem.</p>
+
+          </div>
+          <div xml:id="ta-l4d21q1-Dd1e305">
+            <head xml:id="ta-l4d21q1-Hd1e307">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d21q1-d1e310">Ad tertiam quaestionem dicendum, quod in Purgatorio erit duplex poena: una damni,
+              inquantum scilicet retardantur a divina visione; alia sensus, secundum quod ab igne
+              corporali punientur; et quantum ad utrumque poena Purgatorii minima excedit maximam
+              poenam hujus vitae. Quanto enim aliquid magis desideratur, tanto ejus absentia est
+              molestior. Et quia affectus quo desideratur summum bonum, post hanc vitam in animabus
+              sanctis est intensissimus, quia non retardatur affectus mole corporis, et etiam quia
+              terminus fruendi summo bono jam advenisset, nisi aliquid impediret; ideo de tardatione
+              maxime dolent. Similiter etiam cum dolor non sit laesio, sed laesionis sensus; tanto
+              aliquis magis dolet de aliquo laesivo, quanto magis est sensitivum; unde laesiones
+              quae fiunt in locis maxime sensibilibus, sunt maximum dolorem causantes. Et quia totus
+              sensus corporis est ab anima; ideo si in ipsam animam aliquod laesivum agat, de
+              necessitate oportet quod maxime affligatur. Quod autem anima ab igne corporali
+              patiatur, hoc ad praesens supponimus, quia de hoc infra, dist. 44, qu. 3, art. 3,
+              quaestiunc. 3, in corp., dicetur. Et ideo oportet quod poena Purgatorii quantum ad
+              poenam damni et sensus excedat omnem poenam istius vitae. Quidam autem assignant
+              rationem ex hoc quod anima tota punitur, non autem corpus. Sed hoc nihil est; quia sic
+              poena damnatorum esset minor post resurrectionem quam ante; quod falsum est.</p>
+            <p xml:id="ta-l4d21q1-d1e313">Ad primum ergo dicendum, quod quamvis anima sit minus passiva quam corpus, tamen est
+              magis cognoscitiva passionis; et ubi est major passionis sensus, ibi est major dolor,
+              etiam si sit minor passio.</p>
+            <p xml:id="ta-l4d21q1-d1e316">Ad secundum dicendum, quod acerbitas illius poenae non est tantum ex quantitate
+              peccati, quantum ex dispositione puniti; quia idem peccatum gravius punitur ibi quam
+              hic: sicut ille qui est melioris complexionis, magis punitur eisdem plagis impositis
+              quam alius; et tamen judex utrique easdem plagas pro eisdem culpis inferens, juste
+              facit.</p>
+            <p xml:id="ta-l4d21q1-d1e319">Et per hoc etiam patet solutio ad tertium.</p>
+
+          </div>
+          <div xml:id="ta-l4d21q1-Dd1e323">
+            <head xml:id="ta-l4d21q1-Hd1e325">Quaestiuncula 4</head>
+            <p xml:id="ta-l4d21q1-d1e328">Ad quartam quaestionem dicendum, quod aliquid dicitur voluntarium dupliciter. Uno
+              modo voluntate absoluta; et sic nulla poena est voluntaria, quia ex hoc est ratio
+              poenae, quod voluntati contrariatur. Alio modo dicitur aliquid voluntarium voluntate
+              conditionata, sicut ustio est voluntaria propter sanitatem consequendam; et sic aliqua
+              poena potest esse voluntaria dupliciter. Uno modo, quia per poenam aliud bonum
+              acquirimus; et sic ipsa voluntas assumit poenam aliquam, ut patet in satisfactione;
+              vel etiam quia ille libenter eam accipit, et non vellet eam non esse, sicut accidit in
+              martyrio. Alio modo, quia quamvis per poenam nullum bonum nobis accrescat, tamen sine
+              poena ad bonum pervenire non possumus, sicut patet de morte naturali; et tunc voluntas
+              non assumit poenam, et vellet ab ea liberari; sed eam supportat; et quantum ad hoc
+              voluntaria dicitur; et sic poena Purgatorii est voluntaria. Quidam autem dicunt, quod
+              non est aliquo modo voluntaria, quia sunt ita absorpti poenis, quod nesciunt se per
+              poenam purgari, sed putant se esse damnatos. Sed hoc est falsum; quia nisi scirent se
+              liberandos, suffragia non peterent, quod frequenter faciunt.</p>
+            <p xml:id="ta-l4d21q1-d1e331">Et per hoc patet solutio ad objecta.</p>
+
+          </div>
+          <div xml:id="ta-l4d21q1-Dd1e336">
+            <head xml:id="ta-l4d21q1-Hd1e338">Quaestiuncula 5</head>
+            <p xml:id="ta-l4d21q1-d1e341">Ad quintam quaestionem dicendum, quod sicut post diem judicii divina justitia
+              succendet ignem quo damnati in perpetuum punientur; ita etiam nunc sola justitia
+              divina electi post hanc vitam purgantur; non ministerio Daemonum, quorum victores
+              extiterunt; nec ministerio Angelorum, quia cives suos non tam vehementer affligerent.
+              Sed tamen possibile est quod eos ad loca poenarum deducant, et etiam ipsi Daemones,
+              qui de poenis hominum laetantur, eas concomitentur, et assistant purgandis, tum ut de
+              eorum poenis satientur, tum ut in eorum exitu a corpore aliquid suum ibi reperiant. In
+              hoc autem saeculo, quando adhuc locus pugnae est, puniuntur homines et a malis
+              Angelis, sicut ab hostibus, ut patet de Job; et a bonis, sicut patet de Jacob, cujus
+              nervus femoris Angelo percutiente emarcuit. Et hoc etiam expresse Dionysius dicit in 4
+              cap. de Div. Nom., quod boni Angeli interdum puniunt.</p>
+            <p xml:id="ta-l4d21q1-d1e344">Et per hoc patet solutio ad objecta.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d21q1-Dd1e349" type="articulus">
+          <head xml:id="ta-l4d21q1-Hd1e351">Articulus 2</head>
+
+          <head xml:id="ta-l4d21q1-Hd1e354" type="questionTitle">Utrum lignum, fenum, et stipula, quae superaedificantur, sint
+            peccata venialia</head>
+
+          <div xml:id="ta-l4d21q1-Dd1e357">
+            <head xml:id="ta-l4d21q1-Hd1e359">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d21q1-d1e362">Ad secundum sic proceditur. Videtur quod lignum, fenum, et stipula, quae
+              superaedificari dicuntur supra positum fundamentum, non sint peccata venialia. Quia
+              supra id quod est summum, nihil potest aedificari. Sed fundamentum spiritualis
+              aedificii, ut Glossa Augustini dicit, est in summo. Ergo non potest super ipsum
+              aedificari.</p>
+            <p xml:id="ta-l4d21q1-d1e365">Praeterea, aedificium per fundamentum sustentatur. Sed peccata venialia non
+              sustentantur per fundamentum spirituale, quod est fides per dilectionem operans. Ergo
+              lignum, fenum, et stipula, quae aedificantur, non sunt peccata venialia.</p>
+            <p xml:id="ta-l4d21q1-d1e368">Praeterea, Isa. 5, super illud: <quote xml:id="ta-l4d21q1-Qd1e370">vae qui conjungitis domum ad domum</quote>,
+              dicit Hieronymus: <quote xml:id="ta-l4d21q1-Qd1e373">haeretici dogmata dogmatibus conjungunt; et qui super
+                fundamentum aedificare debuerunt aurum, argentum, et lapides pretiosos, aedificant
+                lignum, fenum et stipulam</quote>. Sed haeretici dogmata falsa confingentes, non
+              peccant venialiter. Ergo lignum, fenum et stipula non sunt peccata venialia.</p>
+            <p xml:id="ta-l4d21q1-d1e377">Praeterea, secundum Ambrosium, apostolica doctrina est fundamentum; ille autem
+              superaedificat qui veniens post apostolos docet, sive malus sive bonus sit. Sed bene
+              docentes post apostolos aedificant aurum, argentum, et lapides pretiosos, in quibus
+              doctrina praeclara signatur; mali autem lignum, fenum, et stipulam, in quibus vana et
+              frivola doctrina est peccatum mortale. Ergo per lignum, fenum et stipulam, mortalia
+              peccata intelliguntur, et non venialia.</p>
+            <p xml:id="ta-l4d21q1-d1e381">Sed contra est quod dicitur in littera per verba Augustini.</p>
+
+          </div>
+          <div xml:id="ta-l4d21q1-Dd1e385">
+            <head xml:id="ta-l4d21q1-Hd1e387">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d21q1-d1e390">Ulterius. Videtur, quod iidem sint qui utraque superaedificant. Quia, secundum
+              Augustinum, per aurum signatur Dei contemplatio; per argentum dilectio proximorum; per
+              lapides pretiosos bona opera. Sed illi qui inordinatos affectus aliquos habent ad res
+              temporales, qui dicuntur lignum, fenum et stipulam aedificare, contemplantur aliquando
+              Deum, et diligunt proximum, et aliqua bona opera faciunt. Ergo iidem sunt qui
+              aedificant utraque.</p>
+            <p xml:id="ta-l4d21q1-d1e393">Praeterea, sicut in littera dicitur, illi aedificant aurum, argentum, et lapides
+              pretiosos, qui cogitant quae Dei sunt, quomodo placeant Deo. Sed tales etiam aliqua
+              venialia committunt, ut patet 1 Joan. 1, qui per lignum, fenum, et stipulam
+              intelliguntur. Ergo iidem sunt qui utraque superaedificant.</p>
+            <p xml:id="ta-l4d21q1-d1e396">Sed contra est quod Augustinus dicit, quod illi qui aedificant aurum, argentum, et
+              lapides pretiosos, sunt securi; sed illi qui aedificant lignum, fenum et stipulam, non
+              sunt securi. Ergo non sunt iidem qui utraque aedificant.</p>
+
+          </div>
+          <div xml:id="ta-l4d21q1-Dd1e400">
+            <head xml:id="ta-l4d21q1-Hd1e402">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d21q1-d1e405">Ulterius. Videtur quod venialia etiam mortali adjuncta sint lignum, fenum, et
+              stipula, ut non puniantur etiam aeternaliter in damnatis, sed temporaliter. Quia
+              secundum distantiam culparum debet esse distantia poenarum. Sed culpa mortalis in
+              infinitum excedit venialem. Ergo et poena poenam. Sed hoc non potest esse secundum
+              acerbitatem, quia acerbitas utriusque poenae est finita. Ergo oportet quod hoc sit
+              secundum durationem; quod non esset, si veniale aeternaliter puniretur.</p>
+            <p xml:id="ta-l4d21q1-d1e408">Praeterea, <quote xml:id="ta-l4d21q1-Qd1e410">non est personarum acceptio apud Deum</quote>, ut dicitur Rom. 2.
+              Sed videretur esse, si pro eadem culpa unum plus et alium minus puniret. Cum ergo pro
+              culpa veniali justus temporaliter puniatur, etiam damnatus non aeternaliter, sed
+              temporaliter punietur.</p>
+            <p xml:id="ta-l4d21q1-d1e414">Sed contra, Matth. 5, 26: <quote xml:id="ta-l4d21q1-Qd1e416" ana="#mt5_26">non exies inde, donec reddas novissimum
+                quadrantem</quote>, idest minuta peccata. Sed ille qui in peccato mortali decedit,
+              potest reddere. Ergo pro peccatis venialibus punietur aeternaliter.</p>
+          </div>
+          <div xml:id="ta-l4d21q1-Dd1e422">
+            <head xml:id="ta-l4d21q1-Hd1e424">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d21q1-d1e427">Respondeo dicendum ad primam quaestionem, quod venialia caritati adjuncta possunt per
+              aliquam poenam consumi; et ideo convenienter secundum metaphoram signantur illa quae
+              per ignem consumuntur; et quia quanto aliquod peccatum est gravius, tanto difficilius
+              purgatur; in peccatis autem venialibus invenitur alterum altero gravius; ideo
+              convenienter eorum diversitas signatur per diversitatem eorum quae facilius et tardius
+              consumuntur ab igne. Et quia perfectio cujuslibet quantitatis ternario comprehenditur,
+              propter principium, medium, et finem; ideo triplex differentia ponitur; quia quaedam
+              sunt gravissima in genere venialium, et difficillime purgabilia; et haec per lignum
+              signantur; quaedam minima, quae per stipulam; quaedam media, quae per fenum
+              signantur.</p>
+            <p xml:id="ta-l4d21q1-d1e430">Ad primum ergo dicendum, quod sicut fundamentum transumitur ad spiritualia ratione
+              prioritatis, et non ratione inferioritatis; ita superaedificari dicuntur non quae
+              superius, sed quae posterius fiunt.</p>
+            <p xml:id="ta-l4d21q1-d1e433">Ad secundum dicendum, quod venialia non dicuntur superaedificari quasi ex fundamento
+              stabilitatem habentia. Dicitur enim aliquid super fundamentum poni tripliciter. Uno
+              modo directo situ, quod supra fundamentum firmatur; et sic solum bona opera fidei
+              formatae, quae fundamentum dicitur, superaedificantur. Alio modo dicitur esse super,
+              quod est juxta, sicut patet in Psalm. 136: <quote xml:id="ta-l4d21q1-Qd1e435">super flumina Babylonis</quote>; et
+              sic venialia superaedificantur, quia fundamentum non destruunt, sed simul cum
+              fundamento sunt. Alio modo dicitur esse super, quod est post; sicut Ezech. ult. 3:
+                <quote xml:id="ta-l4d21q1-Qd1e438">super terminum Aser</quote>, idest post, ut Glossa dicit: et sic etiam
+              mortalia possunt superaedificari, quae fundamentum destruunt. Vel, secundum quosdam,
+              per lignum, fenum et stipulam non intelliguntur ipsa venialia, sed opera bona quibus
+              aliquis motus venialis peccati se immiscet; et haec superaedificantur quantum ad id
+              quod est boni in eis, et non quantum ad id quod habent de veniali. Sed hoc non videtur
+              esse secundum intentionem apostoli et Augustini; quia tunc non esset distinctio inter
+              lignum, fenum et stipulam, et aurum, argentum, et lapidem pretiosum.</p>
+            <p xml:id="ta-l4d21q1-d1e442">Ad tertium dicendum, quod in sacra Scriptura praeter principalem sensum quem auctor
+              intendit, possunt alii sensus non incongrue aptari. Et sic Hieronymus per adaptationem
+              quamdam loquitur, et non secundum intentionem apostoli.</p>
+            <p xml:id="ta-l4d21q1-d1e446">Ad quartum dicendum, quod aliqui etiam male docentes quandoque non mortaliter, sed
+              venialiter peccant, sicut quando aliqua inutilia docent, vel aliquis motus inanis
+              gloriae eis insurgit. Vel dicendum, quod loquitur secundum eumdem modum sicut
+              Hieronymus.</p>
+
+          </div>
+          <div xml:id="ta-l4d21q1-Dd1e450">
+            <head xml:id="ta-l4d21q1-Hd1e452">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d21q1-d1e455">Ad secundam quaestionem dicendum, quod aurum, argentum et lapis pretiosus; et lignum,
+              fenum et stipula, possunt dupliciter exponi. Uno modo ita quod quaelibet bona opera
+              dicantur aurum, argentum et lapis pretiosus; et quaelibet venialia dicantur lignum,
+              fenum et stipula; et sic non est dubium quod iidem aedificant utraque; sed quidam
+              dicuntur haec et quidam illa aedificare, secundum quod eis magis insistunt; sicut
+              etiam activi a contemplativis distinguuntur, quamvis et contemplativi aliquid agant,
+              et activi aliquid contemplentur aliquando. Alio modo ita quod per aurum, argentum et
+              lapidem pretiosum intelligantur solum opera perfectorum; et per lignum, fenum et
+              stipulam superaedificata intelligantur venialia eorum qui solicitudinem de rebus
+              temporalibus gerunt, non soli Deo vacantes; et tunc patet quod non sunt iidem qui
+              utraque aedificant; quia imperfecti, etsi bona opera faciunt, tamen obscurantur ex
+              solicitudinibus hujus mundi, ut claritatem auri, argenti et lapidis pretiosi non
+              habeant; et similiter perfecti, etiam si aliqua venialia habeant, tamen ex fervore
+              caritatis in eis consumuntur, et ex solicitudine continua quam de purgatione propria
+              habent; et ideo non dicuntur ea superaedificare, quia in eis habitualiter non manent;
+              et tales securi sunt, quia nihil est in eis purgabile.</p>
+            <p xml:id="ta-l4d21q1-d1e458">Et secundum hoc patet solutio ad objecta.</p>
+
+          </div>
+          <div xml:id="ta-l4d21q1-Dd1e462">
+            <head xml:id="ta-l4d21q1-Hd1e464">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d21q1-d1e467">Ad tertiam quaestionem dicendum, quod culpa non potest ordinari nisi per poenam; et
+              quia Deus nihil inordinatum relinquit, ideo nunquam culpam sine poena dimittit. In
+              illis autem qui damnantur, non potest aliqua culpa dimitti, nec aliquis reatus tolli,
+              cum careant caritate, per quam et culpa purgatur, et reatus tollitur; et ideo culpa
+              venialis in eis semper manebit, vel reatus ejus, si etiam ante peccatum mortale
+              veniale dimissum fuisset quantum ad culpam, manente reatu; et propter hoc aeternaliter
+              damnati de illis venialibus punientur.</p>
+            <p xml:id="ta-l4d21q1-d1e470">Ad primum ergo dicendum, quod peccatum mortale meretur poenam aeternam, inquantum
+              gratiam tollit, et a Deo aeterno separat; et secundum hoc in infinitum distat a
+              veniali. In illo ergo qui gratia caret, et a Deo in perpetuum separatus est, per
+              accidens veniali aeterna poena debetur ratione subjecti, quae per se debetur
+              mortali.</p>
+            <p xml:id="ta-l4d21q1-d1e473">Ad secundum dicendum, quod non est ibi aliqua personarum acceptio; quia in justo est
+              gratia, cujus virtute, culpa ejus purgatur vel reatus; qua carent damnati; et ideo
+              eorum culpa vel reatus per poenam expiari non potest: et sic patet quod venialia
+              mortalibus adjuncta in damnatis per accidens habent quod non sunt lignum, fenum, et
+              stipula.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d21q1-Dd1e478" type="articulus">
+          <head xml:id="ta-l4d21q1-Hd1e480">Articulus 3</head>
+
+          <head xml:id="ta-l4d21q1-Hd1e483" type="questionTitle">Utrum per poenam Purgatorii expietur peccatum veniale quo ad
+            culpam</head>
+
+          <div xml:id="ta-l4d21q1-Dd1e486">
+            <head xml:id="ta-l4d21q1-Hd1e488">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d21q1-d1e491">Ad tertium sic proceditur. Videtur quod per poenam Purgatorii non expietur peccatum
+              veniale quo ad culpam. Quia super illud 1 Joan. 5: <quote xml:id="ta-l4d21q1-Qd1e493">est peccatum ad
+                mortem</quote> etc. dicit Glossa interlinealis: <quote xml:id="ta-l4d21q1-Qd1e496">quod in hac vita non
+                corrigitur, frustra post mortem ejus venia postulatur</quote>. Ergo nullum peccatum
+              post hanc vitam quo ad culpam dimittitur.</p>
+            <p xml:id="ta-l4d21q1-d1e500">Praeterea, ejusdem est labi in peccatum et a peccato liberari. Sed anima post mortem
+              non potest peccare venialiter. Ergo nec a peccato veniali absolvi.</p>
+            <p xml:id="ta-l4d21q1-d1e503">Praeterea, Gregorius dicit, quod talis in judicio quisque futurus est, qualis de
+              corpore exivit; quia lignum ubi ceciderit, ibi erit; Eccl. 11. Si ergo aliquis in hac
+              vita exit cum veniali, in judicio cum veniali erit; et ita per Purgatorium non
+              expiatur a culpa veniali aliquis.</p>
+            <p xml:id="ta-l4d21q1-d1e506">Praeterea, supra dictum est, dist. 17, qu. 2, art. 2, quaestiunc. 3, quod culpa
+              actualis non deletur nisi per contritionem. Sed post hanc vitam non erit contritio,
+              quae est actus meritorius; quia tunc non erit meritum neque demeritum, cum secundum
+              Damascenum, hoc sit hominibus mors quod Angelis casus. Ergo post hanc vitam non
+              dimittitur in Purgatorio veniale quo ad culpam.</p>
+            <p xml:id="ta-l4d21q1-d1e510">Praeterea, veniale non est in nobis nisi ratione fomitis; unde in primo statu Adam
+              venialiter non peccasset, ut in 2 Lib., dist. 21, quaest. 2, art. 3, in corp., dictum
+              est. Sed post hanc vitam in Purgatorio non erit sensualitas fomite corrupto in anima
+              separata, quia fomes dicitur lex carnis, Rom. 7. Ergo non erit ibi venialis culpa; et
+              ita non potest expiari per Purgatorium ignem.</p>
+            <p xml:id="ta-l4d21q1-d1e513">Sed contra est quod Gregorius dicit in 4 Dial., et Augustinus de vera poenitentia,
+              quod quaedam culpae leves in futuro remittuntur. Nec potest intelligi quo ad poenam;
+              quia sic omnes culpae, quantumcumque graves, quantum ad reatum poenae per ignem
+              Purgatorium expiantur. Ergo venialia quantum ad culpam purgantur per ignem
+              Purgatorium.</p>
+            <p xml:id="ta-l4d21q1-d1e516">Praeterea, 1 Corinth. 3, per lignum, fenum, et stipulam, ut dictum est, venialia
+              intelliguntur. Sed lignum, fenum et stipula per Purgatorium consumuntur. Ergo ipsae
+              veniales culpae post hanc vitam remittuntur.</p>
+
+          </div>
+          <div xml:id="ta-l4d21q1-Dd1e520">
+            <head xml:id="ta-l4d21q1-Hd1e522">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d21q1-d1e525">Ulterius. Videtur quod ignis Purgatorius non liberet a reatu poenae. Omnis enim
+              purgatio respicit foeditatem. Sed poena non importat aliquam foeditatem. Ergo ignis
+              Purgatorius non liberat a poena.</p>
+            <p xml:id="ta-l4d21q1-d1e528">Praeterea, contrarium non purgatur nisi per suum contrarium. Sed poena contrariatur
+              poenae. Ergo per poenam Purgatorii non purgatur aliquis a reatu poenae.</p>
+            <p xml:id="ta-l4d21q1-d1e531">Praeterea, 1 Corinth. 3, super illud: <quote xml:id="ta-l4d21q1-Qd1e533">salvus erit, sic tamen</quote> etc.,
+              dicit Glossa vetus: <quote xml:id="ta-l4d21q1-Qd1e536">ignis iste est tentatio tribulationis, de qua scriptum est:
+                vasa figuli probat fornax</quote>; Eccli. 27, 6. Ergo homo expiatur ab omni poena
+              per poenas hujus mundi saltem per mortem, quae est maxima poenarum, et non per
+              Purgatorium ignem.</p>
+            <p xml:id="ta-l4d21q1-d1e540">Sed contra, poena Purgatorii est gravior quam poena quaelibet hujus mundi, ut supra
+              dictum est. Sed per poenam satisfactoriam, quam aliquis in hac vita sustinet, expiatur
+              a debito poenae. Ergo multo fortius per poenam Purgatorii.</p>
+
+          </div>
+          <div xml:id="ta-l4d21q1-Dd1e544">
+            <head xml:id="ta-l4d21q1-Hd1e546">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d21q1-d1e549">Ulterius. Videtur quod ab illa poena unus non liberetur alio citius. Quanto enim
+              gravior est culpa et major reatus, tanto acerbior poena imponitur in Purgatorio. Sed
+              quae est proportio poenae acerbioris ad culpam graviorem, eadem est proportio poenae
+              levioris ad culpam leviorem. Ergo ita cito liberatur unus a poena illa sicut
+              alius.</p>
+            <p xml:id="ta-l4d21q1-d1e552">Praeterea, inaequalibus meritis adduntur aequales retributiones, et in caelo et in
+              Inferno, quantum ad durationem. Ergo videtur esse similiter in Purgatorio.</p>
+            <p xml:id="ta-l4d21q1-d1e555">Sed contra est similitudo apostoli, qui differentias venialium per lignum, fenum et
+              stipulam significavit. Sed constat quod lignum diutius manet in igne quam fenum et
+              stipula. Ergo unum peccatum veniale diutius punitur in Purgatorio quam aliud.</p>
+          </div>
+          <div xml:id="ta-l4d21q1-Dd1e560">
+            <head xml:id="ta-l4d21q1-Hd1e562">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d21q1-d1e565">Respondeo dicendum ad primam quaestionem, quod quidam dixerunt, quod post hanc vitam
+              non dimittitur aliquod peccatum quo ad culpam; et si cum mortali culpa quis decedat,
+              damnatur, et remissionis capax non est; non autem potest esse quod cum veniali decedat
+              sine mortali, quia ipsa gratia finalis culpam purgat venialem. Veniale enim peccatum
+              contingit ex hoc quod aliquis Christum habens in fundamento, nimis aliquod temporale
+              diligit; qui quidem excessus ex concupiscentiae corruptione contingit; unde si gratia
+              omnino concupiscentiae corruptionem vincat, sicut in beata virgine fuit, non manet
+              aliquis locus veniali; et ita, cum in morte omnino diminuatur et annihiletur ista
+              concupiscentia, potentiae animae totaliter gratiae subjiciuntur, et veniale
+              expellitur. Sed haec opinio frivola est et in se, et in causa sua. In se quidem, quia
+              dictis sanctorum et Evangelii adversatur, cujus dicta non possunt exponi de remissione
+              venialium quantum ad poenam, ut Magister in littera dicit; quia sic tam levia quam
+              gravia in futuro dimittuntur. Gregorius autem, leves culpas tantum post hanc vitam
+              remitti perhibet. Nec sufficit quod dicunt, quod hic dicitur specialiter de levibus,
+              ne putetur nihil grave pro eis nos passuros; quia remissio poenae magis aufert
+              gravitatem poenarum quam ponat. Quantum ad causam autem frivola apparet; quia defectus
+              corporalis, qualis est in ultimo vitae, non aufert concupiscentiae corruptionem vel
+              diminuit, quantum ad radicem, sed quantum ad actum; sicut patet etiam de illis qui
+              graviter infirmantur. Nec iterum tranquillat potentias animae, ut eas gratiae
+              subjiciat; quia tranquillitas potentiarum et subjectio earum ad gratiam est, quando
+              inferiores vires obediunt superioribus, quae legi Dei condelectantur; quod in statu
+              illo esse non potest, cum actus utrarumque impediatur; nisi tranquillitas dicatur
+              privatio pugnae, sicut etiam in dormientibus accidit; nec tamen propter hoc somnus
+              dicitur concupiscentiam diminuere, aut vires animae tranquillare, aut eas gratiae
+              subdere. Et praeterea, dato quod concupiscentiam radicaliter diminueret defectus ille,
+              et vires animae subderet gratiae; adhuc hoc non sufficeret ad purgationem culpae
+              venialis jam commissae, quamvis sufficeret ad vitationem futurae; quia culpa actualis,
+              etiam venialis, non dimittitur sine actuali contritionis motu, ut supra, dist. 16, qu.
+              1, art. 2, quaestiunc. 3, dictum est, quantumcumque habitualiter intendatur. Contingit
+              autem quandoque quod aliquis dormiens moritur in gratia existens, qui cum veniali
+              aliquo obdormivit; et talis non potest actum contritionis habere de veniali ante
+              mortem. Nec potest dici, ut dicunt, quod, si non poenituit actu vel proposito in
+              generali vel speciali, sit versum in mortale, propter hoc quod veniale fit mortale dum
+              placet; quia non quaelibet placentia venialis facit peccatum mortale (alias omne
+              veniale esset mortale, quia quodlibet veniale placet, cum sit voluntarium); sed talis
+              placentia quae ad fruitionem spectat, in qua omnis humana perversitas consistit, dum
+              rebus utendis fruimur, ut Augustinus dicit; et sic placentia illa quae facit peccatum
+              mortale, est actualis placentia; quia omne peccatum mortale in actu consistit. Potest
+              autem contingere quod aliquis postquam veniale peccatum commisit, nihil actualiter
+              cogitet de peccato vel dimittendo vel tenendo; sed cogitet forte quod triangulus habet
+              tres angulos aequales duobus rectis; et in hac cogitatione obdormiat, et moriatur.
+              Unde patet quod haec opinio omnino irrationalis est. Et ideo cum aliis dicendum, quod
+              culpa venialis in eo qui cum gratia decedit, post hanc vitam dimittitur per ignem
+              Purgatorium; quia poena illa aliqualiter voluntaria, virtute gratiae habebit vim
+              expiandi culpam omnem quae simul cum gratia stare potest.</p>
+            <p xml:id="ta-l4d21q1-d1e568">Ad primum ergo dicendum, quod Glossa loquitur de peccato mortali. Vel dicendum, quod
+              quamvis in hac vita non corrigatur in se, corrigitur tamen in merito; quia hic homo
+              meruit, ut ibi illa poena sit meritoria sibi.</p>
+            <p xml:id="ta-l4d21q1-d1e571">Ad secundum dicendum, quod peccatum veniale contingit ex corruptione fomitis, qui in
+              anima separata in Purgatorio existente non erit; et ideo non poterit peccare
+              venialiter; sed remissio culpae venialis est ex gratia informante, quae in Purgatorio
+              erit in anima separata; et ideo non est simile.</p>
+            <p xml:id="ta-l4d21q1-d1e574">Ad tertium dicendum, quod venialia non variant statum hominis; quia neque tollunt
+              neque diminuunt caritatem, secundum quam mensuratur quantitas gratuitae bonitatis
+              animae; et ideo per hoc quod venialia dimittuntur, talis manet anima qualis prius.</p>
+            <p xml:id="ta-l4d21q1-d1e578">Ad quartum dicendum, quod post hanc vitam non potest esse meritum respectu praemii
+              essentialis; sed respectu alicujus accidentalis potest esse quamdiu manet homo in
+              statu viae aliquo modo; et ideo in Purgatorio potest esse actus meritorius quantum ad
+              remissionem culpae venialis.</p>
+            <p xml:id="ta-l4d21q1-d1e581">Ad quintum dicendum, quod quamvis veniale ex pronitate fomitis contingat, tamen culpa
+              in mente consequitur; et ideo etiam destructo fomite, culpa adhuc manere potest.</p>
+
+          </div>
+          <div xml:id="ta-l4d21q1-Dd1e585">
+            <head xml:id="ta-l4d21q1-Hd1e587">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d21q1-d1e590">Ad secundam quaestionem dicendum, quod quicumque est debitor alicujus, per hoc a
+              debito absolvitur quod debitum solvit; et quia reatus nihil est aliud quam debitum
+              poenae; per hoc quod aliquis poenam sustinet quam debebat, a reatu absolvitur; et
+              secundum hoc poena Purgatorii a reatu purgat.</p>
+            <p xml:id="ta-l4d21q1-d1e593">Ad primum ergo dicendum, quod reatus, quamvis non importet foeditatem quantum in se
+              est, tamen habet ordinem ad foeditatem ex causa sua.</p>
+            <p xml:id="ta-l4d21q1-d1e596">Ad secundum dicendum, quod poena quamvis non contrarietur poenae, tamen contrariatur
+              reatui ad poenam; quia ex hoc manet obligatio ad poenam quod poenam non sustinuit quam
+              debebat.</p>
+            <p xml:id="ta-l4d21q1-d1e599">Ad tertium dicendum, quod in eisdem verbis sacrae Scripturae latet multiplex
+              intellectus; unde et ille ignis potest intelligi tribulatio praesens, vel poena
+              sequens; et per utramque venialia purgari possunt. Sed quod mors naturalis ad hoc non
+              sufficiat, supra dictum est, dist. 20, art. 1, quaest. 3, ad 3.</p>
+
+          </div>
+          <div xml:id="ta-l4d21q1-Dd1e603">
+            <head xml:id="ta-l4d21q1-Hd1e605">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d21q1-d1e608">Ad tertiam quaestionem dicendum, quod quaedam venialia sunt majoris adhaerentiae quam
+              alia, secundum quod affectus magis ad ea inclinatur, et fortius in eis figitur: et
+              quia ea quae sunt majoris adhaerentiae, tardius purgantur, ideo quidam in Purgatorio
+              diutius quam alii torquentur, secundum quod affectus eorum ad venialia fuit magis
+              immersus.</p>
+            <p xml:id="ta-l4d21q1-d1e611">Ad primum ergo dicendum, quod acerbitas poenae proprie respondet quantitati culpae;
+              sed diuturnitas respondet radicationi culpae in subjecto; unde potest contingere quod
+              aliquis diutius moretur qui minus affligitur, et e converso.</p>
+            <p xml:id="ta-l4d21q1-d1e614">Ad secundum dicendum, quod peccatum mortale, cui debetur supplicium Inferni, et
+              caritas, cui debetur praemium Paradisi post hanc vitam, radicantur immobiliter in
+              subjecto; et ideo quantum ad omnes est eadem diuturnitas utrobique; secus autem est de
+              peccato veniali, quod in Purgatorio punitur, ut ex dictis patet.</p>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

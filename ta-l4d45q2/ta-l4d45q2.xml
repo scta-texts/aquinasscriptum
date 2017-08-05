@@ -1,0 +1,1045 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 45, Quaestio 2</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Librum IV, Distinctio 45, Quaestio 2</title>
+          <date when="2016-03-19">March 19, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-19">March 19, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness>1856 editum</witness>
+          <witness xml:id="G" n="ghent567">Ghent, Belgium, Ghent University Library, 567</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="0.0.0-dev">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+
+
+
+
+      <div xml:id="starts-on">
+        <cb ed="#G" n="639a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ta-l4d45q2">
+        <head xml:id="ta-l4d45q2-Hd1e97">Librum IV, Distinctio 45, Quaestio 2</head>
+        <div xml:id="ta-l4d45q2-Dd1e100">
+          <head xml:id="ta-l4d45q2-Hd1e102">Prooemium</head>
+          <p xml:id="ta-l4d45q2-d1e105">Deinde quaeritur de suffragiis mortuorum; et circa hoc quaeruntur quatuor: 1 utrum
+            suffragia quae per unum fiunt, alii prodesse possint; 2 quibus prosint; 3 quae suffragia
+            prosint; 4 quantum prosint.</p>
+
+        </div>
+        <div xml:id="ta-l4d45q2-Dd1e109" type="articulus">
+          <head xml:id="ta-l4d45q2-Hd1e111">Articulus 1</head>
+
+          <head xml:id="ta-l4d45q2-Hd1e114" type="questionTitle">Utrum suffragia per unum facta alii prodesse possint</head>
+
+          <div xml:id="ta-l4d45q2-Dd1e117">
+            <head xml:id="ta-l4d45q2-Hd1e119">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d45q2-d1e122">Ad primum sic proceditur. Videtur quod suffragia per unum facta alii prodesse non
+              possint. Gal. 6, 6: <quote xml:id="ta-l4d45q2-Qd1e124">quae enim seminaverit homo, haec et metet</quote>. Sed si
+              unus ex suffragiis alterius fructum consequeretur, meteret ab aliis seminata. Ergo ex
+              suffragiis aliorum nullus fructum consequitur.</p>
+            <p xml:id="ta-l4d45q2-d1e128">Praeterea, ad justitiam Dei pertinet ut unicuique retribuatur pro meritis; unde Psal.
+              61, 13: <quote xml:id="ta-l4d45q2-Qd1e130">tu reddes unicuique secundum opera sua</quote>. Sed justitiam Dei
+              deficere impossibile est. Ergo impossibile est quod unus ex operibus alterius
+              juvetur.</p>
+            <p xml:id="ta-l4d45q2-d1e134">Praeterea, secundum eamdem rationem est opus meritorium et laudabile, quia scilicet
+              inquantum est voluntarium. Sed ex opere unius non laudatur alter. Ergo nec opus unius
+              potest esse alteri meritorium et fructuosum.</p>
+            <p xml:id="ta-l4d45q2-d1e137">Praeterea, ad divinam justitiam pertinet similiter bona reddere pro bonis, et mala
+              pro malis. Sed nullus punitur pro malis alterius; immo, ut dicitur Ezech. 18, 20:
+                <quote xml:id="ta-l4d45q2-Qd1e139">anima quae peccaverit, ipsa morietur</quote>. Ergo nec unus juvatur per bona
+              alterius.</p>
+            <p xml:id="ta-l4d45q2-d1e144">Sed contra est quod dicitur in Psal. 118, 64: <quote xml:id="ta-l4d45q2-Qd1e146">particeps ego sum omnium
+                timentium te</quote> et cetera.</p>
+            <p xml:id="ta-l4d45q2-d1e150">Praeterea, omnes fideles per caritatem uniti, sunt unius corporis Ecclesiae membra.
+              Sed unum membrum juvatur per alterum. Ergo et unus homo potest ex meritis alterius
+              juvari.</p>
+
+          </div>
+          <div xml:id="ta-l4d45q2-Dd1e154">
+            <head xml:id="ta-l4d45q2-Hd1e156">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d45q2-d1e159">Ulterius. Videtur quod mortui non possunt juvari ex operibus vivorum. Primo per hoc
+              quod dicit apostolus 2 Corinth. 5: <quote xml:id="ta-l4d45q2-Qd1e161">omnes nos oportet manifestari ante tribunal
+                Christi, ut recipiat unusquisque propria corporis quae gessit</quote>. Ergo ex his
+              quae post mortem hominis geruntur, quando extra corpus erit, nihil ei accrescere
+              poterit ex aliquibus operibus.</p>
+            <p xml:id="ta-l4d45q2-d1e165">Praeterea, hoc idem videtur ex hoc quod habetur Apocal. 14, 13: <quote xml:id="ta-l4d45q2-Qd1e167">beati mortui
+                qui in domino moriuntur</quote>; et subdit: <quote xml:id="ta-l4d45q2-Qd1e170">opera enim illorum sequuntur
+                illos</quote>.</p>
+            <p xml:id="ta-l4d45q2-d1e174">Praeterea, proficere ex aliquo opere est solum in via existentis. Sed homines post
+              mortem jam non sunt viatores, quia de eis hoc intelligitur quod legitur Job:
+                <quote xml:id="ta-l4d45q2-Qd1e176">semitam meam circumsepsit, et transire non possum</quote>. Ergo mortui de
+              suffragiis alicujus juvari non possunt.</p>
+            <p xml:id="ta-l4d45q2-d1e180">Praeterea, nullus juvatur ex opere alterius, nisi sit aliqua vitae communicatio inter
+              eos. Sed nulla communicatio est mortuorum ad vivos, secundum philosophum in 1 Ethic.
+              Ergo suffragia vivorum mortuis non prosunt.</p>
+            <p xml:id="ta-l4d45q2-d1e184">Sed contra est quod habetur 2 Mach. 12, 46: <quote xml:id="ta-l4d45q2-Qd1e186">sancta et salubris est cogitatio
+                pro defunctis exorare, ut a peccatis solvantur</quote>. Sed hoc esset inutile nisi
+              eos juvaret. Ergo suffragia vivorum mortuis prosunt.</p>
+            <p xml:id="ta-l4d45q2-d1e190">Praeterea, Augustinus dicit in Lib. de cura pro mortuis gerenda: <quote xml:id="ta-l4d45q2-Qd1e192">non parva est
+                universae Ecclesiae, quae in hac consuetudine claret, auctoritas, ut in precibus
+                sacerdotis quae domino Deo ad ejus altare funduntur, locum suum etiam habeat
+                commendatio mortuorum</quote>. Quae quidem consuetudo ab ipsis apostolis inchoavit,
+              ut dicit Damascenus in quodam sermone de suffragiis mortuorum sic dicens:
+                <quote xml:id="ta-l4d45q2-Qd1e195">mysteriorum conscii discipuli salvatoris et sacri apostoli, in tremendis et
+                vivificis mysteriis memoriam fieri eorum qui fideliter dormierunt,
+              sanxerunt</quote>. Quod etiam patet per Dionysium in ult. cap. Cael. Hierar., ubi
+              ritum commemorat quo in primitiva Ecclesia pro mortuis orabatur; ubi etiam Dionysius
+              asserit suffragia vivorum mortuis prodesse. Ergo hoc indubitanter credendum est.</p>
+
+          </div>
+          <div xml:id="ta-l4d45q2-Dd1e200">
+            <head xml:id="ta-l4d45q2-Hd1e202">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d45q2-d1e205">Ulterius. Videtur quod suffragia per peccatores facta mortuis non prosint. Quia, ut
+              dicitur Joan. 9, 31: <quote xml:id="ta-l4d45q2-Qd1e207">peccatores Deus non exaudit</quote>. Sed si orationes
+              eorum prodessent illis pro quibus orant, a Deo exaudirentur. Ergo suffragia per eos
+              facta mortuis non prosunt.</p>
+            <p xml:id="ta-l4d45q2-d1e211">Praeterea, Gregorius in pastorali, dicit: <quote xml:id="ta-l4d45q2-Qd1e213">cum is qui displicet ad
+                intercedendum mittitur, irati animus ad deteriora provocatur</quote>. Sed quilibet
+              peccator Deo displicet. Ergo per peccatorum suffragia Deus ad misericordiam non
+              flectitur; et ita alia suffragia non prosunt.</p>
+            <p xml:id="ta-l4d45q2-d1e217">Praeterea, opus alicujus magis videtur esse fructuosum facienti quam alteri. Sed
+              peccator per opera sua nihil meretur sibi. Ergo multo minus potest alteri mereri.</p>
+            <p xml:id="ta-l4d45q2-d1e220">Praeterea, omne opus meritorium oportet esse vivificatum, idest caritate informatum.
+              Sed opera per peccatores facta, sunt mortua. Ergo non possunt per ea juvari mortui pro
+              quibus fiunt.</p>
+            <p xml:id="ta-l4d45q2-d1e224">Sed contra est quod nullus potest scire pro certo de altero, utrum sit in statu
+              culpae vel gratiae. Si ergo illa tantum suffragia prodessent quae fiunt per eos qui
+              sunt in gratia, non posset homo scire per quos suffragia conquireret suis defunctis;
+              et ita multi a suffragiis procurandis retraherentur.</p>
+            <p xml:id="ta-l4d45q2-d1e227">Praeterea, sicut Augustinus dicit in littera, secundum hoc juvatur aliquis mortuus ex
+              suffragiis, secundum quod dum viveret, meruit ut juvaretur post mortem. Ergo valor
+              suffragiorum mensuratur secundum conditiones ejus pro quo fiunt. Non ergo differt, ut
+              videtur, utrum per bonos vel per malos fiant.</p>
+
+          </div>
+          <div xml:id="ta-l4d45q2-Dd1e232">
+            <head xml:id="ta-l4d45q2-Hd1e234">Quaestiuncula 4</head>
+            <p xml:id="ta-l4d45q2-d1e237">Ulterius. Videtur quod suffragia quae a vivis pro mortuis fiunt, facientibus non
+              prosint. Quia si aliquis pro altero debitum solveret, secundum humanam justitiam, ipse
+              a debito proprio non absolveretur. Ergo per hoc quod aliquis suffragia faciens debitum
+              solvit pro illo pro quo facit, ex hoc a debito proprio non absolvitur.</p>
+            <p xml:id="ta-l4d45q2-d1e240">Praeterea, unusquisque debet quod facit, facere meliori modo quo potest. Sed melius
+              est juvare duos quam unum. Si ergo qui per suffragia debitum mortui solvit, a proprio
+              debito liberatur, videtur quod nunquam deberet aliquis pro seipso satisfacere, sed
+              semper pro alio.</p>
+            <p xml:id="ta-l4d45q2-d1e243">Praeterea, si satisfactio alicujus pro alio satisfacientis aequaliter prodesset sibi
+              ut ei pro quo satisfacit; eadem ratione aequaliter valebit et ratio, si pro eodem
+              satisfacit simul; similiter et quarto, et sic deinceps. Ergo unus posset una
+              satisfactione pro omnibus satisfacere; quod est absurdum.</p>
+            <p xml:id="ta-l4d45q2-d1e246">Sed contra est quod dicitur in Psalm. 34: <quote xml:id="ta-l4d45q2-Qd1e248">oratio mea in sinu meo
+                convertetur</quote>. Ergo eadem ratione et suffragia quae pro aliis fiunt,
+              facientibus prosunt.</p>
+            <p xml:id="ta-l4d45q2-d1e253">Praeterea, Damascenus dicit, in sermone de his qui in fide dormierunt:
+                <quote xml:id="ta-l4d45q2-Qd1e255">quemadmodum unguento vel alio oleo sancto circumlinire volens infirmum, primo
+                ille scilicet participat unctionem, deinde sic perungit laborantem; sic quicumque
+                pro proximi salute agonizat, primum sibi ipsi prodest, deinde proximo</quote>. Et
+              sic habetur propositum.</p>
+          </div>
+          <div xml:id="ta-l4d45q2-Dd1e260">
+            <head xml:id="ta-l4d45q2-Hd1e262">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d45q2-d1e265">Respondeo dicendum ad primam quaestionem, quod actus noster ad duo valere potest.
+              Primo ad aliquem statum acquirendum, sicut per opus meritorium homo acquirit statum
+              beatitudinis. Secundo ad aliquid consequens statum (puta ad aliquam beatitudinem)
+              accidentalem, vel dimissionem poenae. Ad utrumque autem horum actus noster dupliciter
+              valere potest; uno modo per viam meriti, alio modo per viam orationis. Et est
+              differentia inter istas duas vias, ut in 15 dist. dictum est, quia meritum innititur
+              justitiae; sed orans impetrat petitum ex sola liberalitate ejus qui oratur. Dicendum
+              ergo, quod opus unius nullo modo potest alteri valere ad statum consequendum per viam
+              meriti, ut scilicet ex his quae ego facio, aliquis mereatur vitam aeternam; quia sors
+              gloriae redditur secundum mensuram accipientis. Unusquisque autem ex suo actu
+              disponitur, et non ex alieno; et dico dispositionem dignitatis ad praemium. Sed per
+              viam orationis etiam quantum ad statum consequendum, opus unius alteri, dum est in
+              via, valere potest; sicut quod unus homo impetrat alteri primam gratiam. Cum enim
+              impetratio orationis sit secundum liberalitatem Dei qui oratur, ad omnia illa
+              impetratio orationis se potest extendere quae potestati divinae subsunt ordinate. Sed
+              quantum ad aliquid quod est consequens vel accessorium ad statum, opus unius potest
+              valere alteri non solum per viam orationis, sed etiam per viam meriti. Quod quidem
+              dupliciter contingit. Vel propter communicantiam in radice operis, quae est caritas in
+              operibus meritoriis; et ideo omnes qui invicem caritate connectuntur, aliquod
+              emolumentum ex mutuis operibus reportant, tamen secundum mensuram status
+              uniuscujusque, quia etiam in patria unusquisque de bonis gaudebit alterius; et inde
+              est quod articulus fidei ponitur sanctorum communio. Alio modo ex intentione
+              facientis, qui aliqua opera specialiter ad hoc facit ut talibus prosint; unde ista
+              opera quodammodo efficiuntur eorum pro quibus fiunt, quasi eis a faciente collata:
+              unde possunt eis valere vel ad impletionem satisfactionis, vel ad quidquid hujusmodi,
+              quod statum non mutat.</p>
+            <p xml:id="ta-l4d45q2-d1e268">Ad primum ergo dicendum, quod messio illa est perceptio vitae aeternae, sicut habetur
+              Joan. 4, 36: <quote xml:id="ta-l4d45q2-Qd1e270">et qui metit (...) fructum congregat in vitam aeternam</quote>.
+              Sors autem vitae aeternae non datur alicui nisi pro operibus propriis: quia etiam si
+              aliquis alteri impetret ut ad vitam aeternam perveniat, nunquam tamen hoc fit nisi
+              mediantibus operibus propriis, dum scilicet precibus alicujus gratia alicui datur, per
+              quam meretur vitam aeternam.</p>
+            <p xml:id="ta-l4d45q2-d1e274">Ad secundum dicendum, quod opus quod pro aliquo fit, efficitur ejus pro quo fit: et
+              similiter opus quod est ejus qui mecum est unum, est quodammodo et meum; unde non est
+              contra divinam justitiam, si unus fructum percipit de operibus factis ab eo qui est
+              unum secum caritate, vel ab operibus pro se factis. Hoc etiam secundum humanam
+              justitiam contingit, ut satisfactio unius pro alio accipiatur.</p>
+            <p xml:id="ta-l4d45q2-d1e277">Ad tertium dicendum, quod laus non datur alicui nisi secundum ordinem ejus ad actum:
+              unde laus est ad aliquid, ut dicitur in 1 Ethic. Et quia ex opere alterius nullus
+              efficitur vel ostenditur bene dispositus vel male ad aliquid; inde est quod nullus
+              laudatur ex operibus alterius nisi per accidens, secundum quod ipse est aliquo modo
+              illorum operum causa, auxilium vel consilium praebendo, vel inducendo, vel quocumque
+              alio modo. Sed opus est meritorium alicui non solum considerata eius dispositione, sed
+              etiam quantum ad aliquid consequens dispositionem vel statum ejus, ut ex dictis
+              patet.</p>
+            <p xml:id="ta-l4d45q2-d1e281">Ad quartum dicendum, quod auferre alicui quod sibi debetur, hoc directe justitiae
+              repugnat; sed dare aliquid alicui quod ei non debetur, hoc non est justitiae
+              contrarium, sed justitiae metas excedit; est enim liberalitatis. Non autem posset
+              aliquis laedi ex malis alterius nisi aliquid ei de suo subtraheretur: et ideo non ita
+              contingit quod aliquis puniatur pro peccatis alterius, sicut quod emolumentum
+              percipiat ex bonis alterius.</p>
+
+          </div>
+          <div xml:id="ta-l4d45q2-Dd1e285">
+            <head xml:id="ta-l4d45q2-Hd1e287">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d45q2-d1e290">Ad secundam quaestionem dicendum, quod caritas, quae est vinculum uniens membra
+              Ecclesiae, non solum ad vivos se extendit, sed etiam ad mortuos qui in caritate
+              decedunt; caritas enim vita corporis non finitur; 1 Corinth. 13, 8: <quote xml:id="ta-l4d45q2-Qd1e292">caritas
+                nunquam excidit</quote>. Similiter etiam mortui in memoria hominum viventium vivunt;
+              et ideo intentio viventium ad eos dirigi potest; et sic suffragia vivorum dupliciter
+              mortuis prosunt, sicut et vivis; et propter caritatis unionem, et propter intentionem
+              ad eos directam. Non tamen sic eis valere credenda sunt vivorum suffragia, ut status
+              eorum mutetur de miseria in felicitatem, vel e converso; sed valent ad diminutionem
+              poenae, vel aliquid hujusmodi, quod statum mortui non transmutat.</p>
+            <p xml:id="ta-l4d45q2-d1e296">Ad primum ergo dicendum, quod homo, dum in corpore vixit, meruit ut haec ei valerent
+              post mortem; et ideo si post hanc vitam eis juvatur, nihilominus hoc procedit ex his
+              quae in corpore gessit. Vel dicendum, secundum Joannem Damascenum in sermone
+              praedicto, quod hoc est intelligendum quantum ad retributionem quae fiet in finali
+              judicio, quae erit aeternae gloriae vel aeternae miseriae, in qua quilibet recipiet
+              solum secundum quod ipse in corpore gessit. Interim autem juvari possunt vivorum
+              suffragiis.</p>
+            <p xml:id="ta-l4d45q2-d1e299">Ad secundum dicendum, quod auctoritas illa expresse loquitur de sequela aeternae
+              retributionis: quod patet ex hoc quod praemittitur: <quote xml:id="ta-l4d45q2-Qd1e301">beati mortui qui in domino
+                moriuntur</quote>. Vel dicendum, quod opera pro eis facta, sunt et quodammodo eorum,
+              ut dictum est.</p>
+            <p xml:id="ta-l4d45q2-d1e305">Ad tertium dicendum, quod quamvis animae post mortem non sint simpliciter in statu
+              viae, tamen quantum ad aliquid adhuc sunt in via, inquantum scilicet eorum progressus
+              adhuc retardatur ab ultima retributione: ideo simpliciter eorum via est circumsepta,
+              ut non possint ulterius transmutari secundum statum felicitatis et miseriae; sed
+              quantum ad hoc non est circumsepta, quin quantum ad hoc quod detinentur ab ultima
+              retributione, possint ab aliis juvari; quia secundum hoc adhuc sunt in via.</p>
+            <p xml:id="ta-l4d45q2-d1e309">Ad quartum dicendum, quod quamvis communicatio civilium operum, de qua philosophus
+              loquitur, non possit esse mortuorum ad vivos, quia mortui extra vitam civilem sunt;
+              potest tamen esse eorum communicatio quantum ad opera spiritualis vitae, quae est per
+              caritatem ad Deum, cui mortuorum spiritus vivunt.</p>
+
+          </div>
+          <div xml:id="ta-l4d45q2-Dd1e313">
+            <head xml:id="ta-l4d45q2-Hd1e315">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d45q2-d1e318">Ad tertiam quaestionem dicendum, quod in suffragiis quae fiunt per malos, duo possunt
+              considerari. Primo ipsum opus operatum, sicut sacrificium altaris: et quia nostra
+              sacramenta ex seipsis efficaciam habent absque opere operantis, quam aequaliter
+              explent per quoscumque fiant; quantum ad hoc suffragia per malos facta defunctis
+              prosunt. Alio modo quantum ad opus operantis; et sic distinguendum est. Quia operatio
+              peccatoris suffragia facientis potest uno modo considerari, ut est ejus; et sic nullo
+              modo meritoria esse potest nec sibi nec alii: alio modo, inquantum est alterius: quod
+              dupliciter contingit. Uno modo inquantum peccator suffragia faciens gerit personam
+              totius Ecclesiae, sicut sacerdos cum dicit in Ecclesia exequias mortuorum: et quia
+              ille intelligitur facere cujus nomine vel vice fit, ut patet per Dionysium in 13 cap.
+              Cael. Hier., inde est quod suffragia talis sacerdotis, quamvis sit peccator, pro
+              defunctis prosunt. Alio modo quando agit ut instrumentum alterius. Opus enim ministri
+              est magis principalis agentis. Unde quamvis ille qui agit ut instrumentum alterius,
+              non sit in statu merendi, actio tamen ejus potest esse meritoria ratione principalis
+              agentis; sicut si servus in peccato existens quodcumque opus misericordiae facit ex
+              praecepto domini sui caritatem habentis. Unde si aliquis in caritate decedens
+              praecipiat sibi suffragia fieri, vel alius praecipiat caritatem habens, illa suffragia
+              valent defunctis, quamvis illi per quos fiant, in peccato existant. Magis tamen
+              valerent, si in caritate essent; quia tunc ex duabus partibus opera illa meritoria
+              essent.</p>
+            <p xml:id="ta-l4d45q2-d1e321">Ad primum ergo dicendum, quod oratio per peccatorem facta quandoque non est
+              peccatoris, sed alterius; et ideo secundum hoc digna est ut a Deo exaudiatur. Tamen
+              etiam quandoque Deus peccatores audit, scilicet quando peccatores petunt aliquid Deo
+              acceptum: non enim justis solis, sed etiam peccatoribus Deus bona sua providet, ut
+              patet Matth. 5: non autem ex eorum meritis, sed ex sua clementia: et ideo Joan. 9,
+              super illud, <quote xml:id="ta-l4d45q2-Qd1e323">peccatores Deus non audit</quote>, dicit Glossa, quod loquitur
+              inunctus, idest non adhuc plene videns.</p>
+            <p xml:id="ta-l4d45q2-d1e327">Ad secundum dicendum, quod quamvis ex parte ejus qui displicet, oratio peccatoris non
+              sit accepta; tamen ratione alterius, cujus vice vel imperio agitur, potest esse Deo
+              accepta.</p>
+            <p xml:id="ta-l4d45q2-d1e330">Ad tertium dicendum, quod hoc quod peccator faciens hujusmodi suffragia nullum
+              reportat commodum, contingit ex hoc quod non est capax talis profectus propter
+              propriam indispositionem; et tamen alii qui non est indispositus, aliquo modo valere
+              potest, ut dictum est.</p>
+            <p xml:id="ta-l4d45q2-d1e334">Ad quartum dicendum, quod quamvis opus peccatoris non sit vivum inquantum est ejus,
+              potest tamen esse vivum inquantum est alterius, ut dictum est.</p>
+            <p xml:id="ta-l4d45q2-d1e337">Sed quia rationes quae sunt in oppositum, videntur concludere quod non differat utrum
+              quis suffragia procuret per bonos vel per malos; ideo ad eas etiam est respondendum.
+              Ad quintum dicendum, quod quamvis aliquis pro certo scire non possit de altero an sit
+              in statu salutis, tamen potest probabiliter aestimare ex his quae exterius videt de
+              homine: ex fructu enim suo arbor cognoscitur, ut dicitur Matth. 7.</p>
+            <p xml:id="ta-l4d45q2-d1e340">Ad sextum dicendum, quod ad hoc quod suffragium alicui valeat, requiritur et ex parte
+              ejus pro quo fit, capacitas hujus valoris; et hanc homo acquisivit per opera propria
+              quae gessit in vita: et sic loquitur Augustinus. Requiritur nihilominus qualitas
+              operis, quae prodesse debet: et haec non pendet ex eo pro quo fit, sed magis ex eo qui
+              facit vel exequendo vel imperando.</p>
+
+          </div>
+          <div xml:id="ta-l4d45q2-Dd1e344">
+            <head xml:id="ta-l4d45q2-Hd1e346">Quaestiuncula 4</head>
+            <p xml:id="ta-l4d45q2-d1e349">Ad quartam quaestionem dicendum, quod opus suffragii quod pro altero fit, potest
+              considerari dupliciter. Uno modo ut est expiativum poenae per modum cujusdam
+              recompensationis, quae in satisfactione attenditur; et hoc modo opus suffragii, quod
+              reputatur quasi ejus pro quo fit, ita absolvit eum a debito poenae quod non absolvit
+              facientem a debito poenae propriae; quia in tali recompensatione consideratur
+              aequalitas justitiae; opus autem istud satisfactorium ita potest adaequari reatui uni
+              quod alteri non aequatur. Reatus enim duorum peccatorum majorem satisfactionem
+              requirunt quam reatus unius. Alio modo potest considerari inquantum est meritorium
+              vitae aeternae, quod habet inquantum procedit ex radice caritatis; et secundum hoc non
+              solum prodest ei pro quo fit, sed facienti magis.</p>
+            <p xml:id="ta-l4d45q2-d1e352">Et per hoc patet solutio ad objecta. Primae enim rationes procedebant de opere
+              suffragii secundum quod est satisfactorium; sed aliae secundum quod est
+              meritorium.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d45q2-Dd1e357" type="articulus">
+          <head xml:id="ta-l4d45q2-Hd1e359">Articulus 2</head>
+
+          <head xml:id="ta-l4d45q2-Hd1e362" type="questionTitle">Utrum suffragia prosint existentibus in Inferno</head>
+
+          <div xml:id="ta-l4d45q2-Dd1e365">
+            <head xml:id="ta-l4d45q2-Hd1e367">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d45q2-d1e370">Ad secundum sic proceditur. Videtur quod suffragia prosunt existentibus in Inferno,
+              per hoc quod habetur 2 Mach. 12, 40 quod <quote xml:id="ta-l4d45q2-Qd1e372">invenerunt sub tunicis interfectorum
+                de donariis idolorum, a quibus lex prohibet Judaeos</quote>; et tamen post subditur,
+              quod <quote xml:id="ta-l4d45q2-Qd1e375">Judas duodecim millia drachmas argenti misit Hierosolymam offerri pro
+                peccatis mortuorum</quote>. Constat autem illos mortaliter peccasse, contra legem
+              agentes, et ita in mortali peccato decessisse, et ita ad Infernum esse translatos.
+              Ergo in Inferno existentibus suffragia prosunt.</p>
+            <p xml:id="ta-l4d45q2-d1e379">Praeterea, in littera habetur ex verbis Augustini, quod quibus valent suffragia, vel
+              ad hoc prosunt ut sit plena remissio, vel ad hoc ut tolerabilior sit eorum damnatio.
+              Sed soli illi qui sunt in Inferno, damnati esse dicuntur. Ergo etiam existentibus in
+              Inferno suffragia prosunt.</p>
+            <p xml:id="ta-l4d45q2-d1e382">Praeterea, Dionysius in ult. cap. Cael. Hierar. dicit: <quote xml:id="ta-l4d45q2-Qd1e384">si hic justorum
+                orationes et secundum hanc vitam, quanto magis post mortem in his qui digni sunt,
+                sacris orationibus operantur tantummodo?</quote> Ex quo potest accipi, quod
+              suffragia magis prosunt mortuis quam etiam vivis. Sed vivis prosunt etiam in peccato
+              mortali existentibus; cum quotidie oret Ecclesia pro peccatoribus, ut convertantur ad
+              Deum. Ergo etiam mortuis in peccato mortali suffragia valent.</p>
+            <p xml:id="ta-l4d45q2-d1e388">Praeterea, in vitis patrum legitur, quod etiam Damascenus in sermone suo refert, quod
+              Macarius inventa in via Calvaria cujusdam defuncti, oratione praemissa quaesivit cujus
+              caput fuisset, et caput dedit responsum, quod fuerat sacerdotis gentilis, qui in
+              Inferno erat damnatus, et tamen confessus est oratione Macarii se et alios juvari.
+              Ergo suffragia Ecclesiae etiam existentibus in Inferno prosunt.</p>
+            <p xml:id="ta-l4d45q2-d1e392">Praeterea, Damascenus in eodem sermone narrat, quod Gregorius pro Trajano orationem
+              fundens audivit vocem sibi divinitus allatam: <quote xml:id="ta-l4d45q2-Qd1e394">vocem tuam audivi, et veniam
+                Trajano do</quote>; cujus rei, ut Damascenus dicit in dicto sermone, testis est
+              oriens omnis et occidens. Sed constat Trajanum in Inferno fuisse: quia multorum
+              martyrum necem amaram instituit, ut ibidem Damascenus dicit. Ergo suffragia etiam
+              valent existentibus in Inferno.</p>
+            <p xml:id="ta-l4d45q2-d1e398">Sed contra est quod dicit Dionysius, 7 cap. Cael. Hier.: <quote xml:id="ta-l4d45q2-Qd1e400">summus sacerdos pro
+                immundis non orat, quia in hoc averteretur a divino ordine</quote>; et Commentator,
+              ibidem, dicit, quod <quote xml:id="ta-l4d45q2-Qd1e403">peccatoribus non orat remissionem, quia non audiretur pro
+                illis</quote>. Ergo non valent existentibus in Inferno suffragia.</p>
+            <p xml:id="ta-l4d45q2-d1e407">Praeterea, Gregorius dicit in 34 Moral.: <quote xml:id="ta-l4d45q2-Qd1e409">eadem causa est cur non oretur
+                tunc</quote>, scilicet post diem judicii, <quote xml:id="ta-l4d45q2-Qd1e412">pro hominibus aeterno igne
+                damnatis, quae nunc causa est ut non oretur pro Diabolo, Angelisque ejus aeterno
+                supplicio damnatis: quae etiam nunc causa est ut non orent sancti pro hominibus
+                infidelibus impiisque defunctis: quia de eis utique, quos aeterno damnatos supplicio
+                jam noverunt, ante illum justi judicis conspectum orationis suae meritum cassari
+                refugiunt</quote>. Ergo suffragia damnatis in Inferno non valent.</p>
+            <p xml:id="ta-l4d45q2-d1e416">Praeterea, in littera habetur ex verbis Augustini: <quote xml:id="ta-l4d45q2-Qd1e418">qui sine fide operante per
+                dilectionem, ejusque sacramentis, a corpore exeunt, frustra illis a suis hujusmodi
+                officia impenduntur</quote>. Sed omnes damnati sunt hujusmodi. Ergo suffragia
+              damnatis in Inferno non prosunt.</p>
+
+          </div>
+          <div xml:id="ta-l4d45q2-Dd1e423">
+            <head xml:id="ta-l4d45q2-Hd1e425">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d45q2-d1e428">Ulterius. Videtur quod nec etiam existentibus in Purgatorio. Quia Purgatorium pars
+              quaedam Inferni est. Sed in Inferno nulla est redemptio; et Psal. 6, 6, dicit:
+                <quote xml:id="ta-l4d45q2-Qd1e430">in Inferno autem quis confitebitur tibi?</quote> Ergo suffragia his qui sunt
+              in Purgatorio, non valent.</p>
+            <p xml:id="ta-l4d45q2-d1e434">Praeterea, poena Purgatorii est finita. Si ergo per suffragia aliquid de poena
+              dimittitur, tantum poterunt multiplicari suffragia, quod tota tolletur, et ita
+              peccatum remanebit totaliter impunitum; quod repugnare videtur divinae justitiae.</p>
+            <p xml:id="ta-l4d45q2-d1e437">Praeterea, ad hoc animae in Purgatorio detinentur, ut ibi purgatae, purae ad regnum
+              perveniant. Sed non potest purgari anima nisi aliquid circa ipsam fiat. Ergo suffragia
+              facta per vivos poenam Purgatorii non diminuunt.</p>
+            <p xml:id="ta-l4d45q2-d1e440">Praeterea, si suffragia existentibus in Purgatorio valerent, maxime ea viderentur
+              valere quae sunt ad eorum imperium facta. Sed haec non semper valent; sicut si aliquis
+              decedens disponit tot suffragia pro se fieri, quae si facta essent, sufficerent ad
+              totam poenam abolendam. Posito ergo quod hujusmodi suffragia differantur quousque ille
+              poenam evasit, ista suffragia ei nihil proderunt: non enim potest dici quod ei prosint
+              antequam fiant; postquam autem sunt facta, eis non indiget, quia jam poenam evasit.
+              Ergo suffragia existentibus in Purgatorio non valent.</p>
+            <p xml:id="ta-l4d45q2-d1e444">Sed contra est quod dicitur in littera ex verbis Augustini, quod suffragia prosunt
+              his qui sunt mediocriter boni vel mali. Sed tales sunt qui in Purgatorio detinentur.
+              Ergo et cetera.</p>
+            <p xml:id="ta-l4d45q2-d1e447">Praeterea, Dionysius dicit in 7 cap. Cael. Hierar. quod divinus sacerdos pro mortuis
+              orans, pro illis orat qui sancte vixerunt, et tamen aliquas maculas habuerunt ex
+              infirmitate humana contractas. Sed tales in Purgatorio detinentur. Ergo et cetera.</p>
+
+          </div>
+          <div xml:id="ta-l4d45q2-Dd1e451">
+            <head xml:id="ta-l4d45q2-Hd1e453">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d45q2-d1e456">Ulterius. Videtur quod suffragia valent pueris in Limbo existentibus. Quia illi non
+              detinentur nisi pro peccato alieno. Ergo maxime decens est ut ipsi juventur suffragiis
+              alienis.</p>
+            <p xml:id="ta-l4d45q2-d1e459">Praeterea, in littera habetur ex verbis Augustini, quod suffragia Ecclesiae pro non
+              valde malis propitiationes sunt. Sed pueri non computantur inter valde malos, cum
+              mitissima sit eorum poena. Ergo suffragia Ecclesiae eos juvant.</p>
+            <p xml:id="ta-l4d45q2-d1e462">Sed contra est quod habetur in littera ab Augustino, quod suffragia non prosunt illis
+              qui sine fide operante per dilectionem hinc exierunt. Sed pueri hoc modo exierunt.
+              Ergo eis suffragia non prosunt.</p>
+
+          </div>
+          <div xml:id="ta-l4d45q2-Dd1e467">
+            <head xml:id="ta-l4d45q2-Hd1e469">Quaestiuncula 4</head>
+            <p xml:id="ta-l4d45q2-d1e472">Ulterius. Videtur quod aliquo modo prosunt sanctis existentibus in patria, per hoc
+              quod habetur in collecta Missae: <quote xml:id="ta-l4d45q2-Qd1e474">sicut sanctis tuis prosunt ad gloriam</quote>,
+              scilicet sacramenta, <quote xml:id="ta-l4d45q2-Qd1e477">ita nobis proficiant ad medelam</quote>. Sed inter alia
+              suffragia praecipuum est sacramentum altaris. Ergo suffragia prosunt sanctis qui sunt
+              in patria.</p>
+            <p xml:id="ta-l4d45q2-d1e481">Praeterea, sacramenta efficiunt quod figurant. Sed tertia pars hostiae, scilicet in
+              calicem missa, significat eos qui in patria vitam beatam ducunt, ut supra, dist. 12,
+              quaest. 1, art. 3, quaestiunc. 3, ad 4, dictum est. Ergo suffragia Ecclesiae prosunt
+              etiam existentibus in patria.</p>
+            <p xml:id="ta-l4d45q2-d1e484">Praeterea, sancti non solum gaudent de bonis propriis, sed etiam de bonis aliorum;
+              unde Luc. 15, 10, dicitur: <quote xml:id="ta-l4d45q2-Qd1e486">gaudium est Angelis Dei super uno peccatore
+                poenitentiam agente</quote>. Ergo ex bonis operibus viventium, sanctorum qui sunt in
+              patria gaudium crescit, et ita etiam eis nostra suffragia prosunt.</p>
+            <p xml:id="ta-l4d45q2-d1e490">Praeterea, Damascenus in sermone de dormientibus inducens verba Chrysostomi:
+                <quote xml:id="ta-l4d45q2-Qd1e492">si enim gentiles</quote>, inquit, <quote xml:id="ta-l4d45q2-Qd1e495">cum his qui abierunt, sua comburunt;
+                quanto magis te fidelem mittere convenit cum fideli ipsius propria, non ut favilla
+                fiant et haec velut illa, sed ut majorem hinc circumponas gloriam; et si quidem
+                peccator fuerit qui mortuus est, ut peccamina solvas; si autem justus, ut appositio
+                fiat mercedis et retributionis</quote>. Et sic idem quod prius.</p>
+            <p xml:id="ta-l4d45q2-d1e500">Sed contra est quod habetur in littera ex verbis Augustini: <quote xml:id="ta-l4d45q2-Qd1e502">injuria est in
+                Ecclesia orare pro martyre cujus nos debemus orationibus commendari</quote>.</p>
+            <p xml:id="ta-l4d45q2-d1e506">Praeterea, ejus est juvari cujus est indigere. Sed sancti in patria sunt absque omni
+              indigentia. Ergo per suffragia Ecclesiae non juvantur.</p>
+          </div>
+          <div xml:id="ta-l4d45q2-Dd1e510">
+            <head xml:id="ta-l4d45q2-Hd1e512">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d45q2-d1e515">Respondeo dicendum ad primam quaestionem, quod circa damnatos in Inferno fuit duplex
+              opinio. Quidam enim dixerunt in hoc distinguendum esse dupliciter. Uno modo quantum ad
+              tempus, dicentes, quod post diem judicii nullus in Inferno existens aliquo suffragio
+              juvabitur, sed ante diem judicii aliqui juvantur suffragiis Ecclesiae. Alio modo
+              distinguebant quantum ad personas in Inferno detentas, inter quas quosdam dicebant
+              esse valde malos; qui scilicet sine fide et sacramentis Ecclesiae decesserunt; et
+              talibus qui de Ecclesia non fuerunt, nec merito nec numero suffragia Ecclesiae
+              prodesse possunt. Alii vero sunt non valde mali, qui scilicet de Ecclesia fuerunt
+              numero, et fidem habentes, et sacramentis imbuti, et aliqua opera de genere bonorum
+              facientes; et talibus suffragia Ecclesiae prodesse debent. Sed occurrebat eis quaedam
+              dubitatio eos perturbans, quia scilicet videbatur ex hoc sequi, cum poena Inferni sit
+              finita secundum intensionem, quamvis duratione infinita existat, quod multiplicatis
+              suffragiis poena illa auferetur; quod est error Origenis; et ideo hoc inconveniens
+              multipliciter evadere voluerunt. Praepositinus enim dixit, quod tantum possunt
+              suffragia pro damnatis multiplicari, quod a poena tota redduntur immunes, non autem
+              simpliciter, ut Origenes posuit, sed ad tempus, scilicet usque ad diem judicii: tunc
+              enim animae iterato corporibus conjunctae in poenas Inferni sine spe veniae
+              retruduntur. Sed ista opinio videtur divinae repugnare providentiae, quae nihil in
+              rebus inordinatum relinquit. Culpa autem ordinari non potest nisi per poenam; unde non
+              potest esse ut poena tollatur, nisi prius culpa expietur; et ideo cum culpa continue
+              maneat in damnatis, eorum poena nullatenus interrumpetur. Et ideo Porretani alium
+              modum invenerunt, dicentes, quod hoc modo proceditur in diminutione poenarum per
+              suffragia, sicut proceditur in divisione linearum, quae cum sint finitae, tamen in
+              infinitum dividi possunt, et nunquam per divisionem consumuntur, dum fit subtractio
+              non secundum eamdem quantitatem, sed secundum eamdem proportionem; velut si primo
+              auferatur pars quarta totius, et secundo quarta illius quartae, et iterum quarta
+              illius quartae, et sic deinceps in infinitum. Et similiter dicunt, quod per primum
+              suffragium diminuitur aliquota pars poenae, et per secundum pars aliqua remanentis
+              secundum eamdem proportionem. Sed iste modus multipliciter defectivus invenitur.
+              Primo, quia infinita divisio, quae congruit continuae quantitati, non videtur posse ad
+              quantitatem spiritualem transferri. Secundo, quia non est aliqua ratio quare secundum
+              suffragium minus de poena diminuat quam primum, si sit aequalis valoris. Tertio, quia
+              poena diminui non potest nisi diminuatur et culpa, sicut nec auferri nisi ea ablata.
+              Quarto, quia in divisione lineae tandem pervenitur ad hoc quod non est sensibile:
+              corpus enim sensibile non est in infinitum divisibile. Et sic sequeretur quod post
+              multa suffragia poena remanens propter sui parvitatem non sentiretur, et ita non esset
+              poena. Et ideo alii invenerunt alium modum. Altisiodorensis enim dixit, quod suffragia
+              prosunt damnatis non quidem per diminutionem vel per interruptionem, sed per
+              confortationem patientis; sicut si homo portaret grave onus, et facies sua
+              perfunderetur aqua; sic enim confortaretur ad melius portandum, cum tamen onus suum in
+              nullo levius fieret. Sed hoc iterum esse non potest: quia aliquis plus vel minus
+              aeterno igne gravatur, ut Gregorius dicit, secundum meritum culpae; et inde est quod
+              eodem igne quidam plus quidam minus cruciantur, unde cum culpa damnati immutata
+              remaneat, non potest esse quod levius poenam ferat. Est nihilominus et praedicta
+              opinio praesumptuosa, utpote sanctorum dictis contraria; et vana, nulla auctoritate
+              fulta; et nihilominus irrationalis: tum quia damnati in Inferno sunt extra vinculum
+              caritatis, secundum quam opera vivorum continuantur defunctis: tum quia totaliter ad
+              viae terminum pervenerunt recipientes ultimam pro meritis retributionem, sicut et
+              sancti qui sunt in patria. Quod enim adhuc restat de poena vel gloria corporis, hoc
+              eis rationem viatoris non praebet, cum gloria essentialiter et radicaliter existat in
+              anima; et similiter miseria damnatorum; et ideo non potest poena eorum diminui, sicut
+              nec gloria sanctorum augeri, quantum ad praemium essentiale. Sed tamen modus qui a
+              quibusdam ponitur quod suffragia prosunt damnatis, posset aliquo modo sustineri; ut si
+              dicatur quod non prosunt neque quantum ad diminutionem poenae vel interruptionem, vel
+              quantum ad diminutionem sensus poenae; sed quia ex hujusmodi suffragiis eis aliqua
+              materia doloris subtrahitur, quae eis esse posset, si ita se abjectos conspicerent
+              quod pro eis nullam curam haberent vivi: quae materia doloris eis subtrahitur, dum
+              suffragia pro eis fiunt. Sed istud etiam non potest esse secundum legem communem:
+              quia, ut Augustinus dicit in Lib. de cura pro mortuis gerenda, (quod praecipue de
+              damnatis verum est), <quote xml:id="ta-l4d45q2-Qd1e517">ibi sunt spiritus defunctorum ubi non vident quaecumque
+                agunt aut eveniunt in ista vita hominibus</quote>; et ita non cognoscunt quando pro
+              eis suffragia fiunt, nisi supra communem legem hoc remedium divinitus detur aliquibus
+              damnatorum; quod est verbum omnino incertum. Unde tutius est simpliciter dicere, quod
+              suffragia non prosunt damnatis, nec pro eis Ecclesia orare intendit, sicut ex
+              auctoritatibus inductis apparet.</p>
+            <p xml:id="ta-l4d45q2-d1e521">Ad primum ergo dicendum, quod donaria idolorum non fuerunt inventa apud illos
+              mortuos, ut ex eis signum accipi posset quod in reverentiam idolorum ea deferrent; sed
+              ea acceperunt ut victores quae eis jure belli debebantur; et tamen per avaritiam
+              venialiter peccaverunt; unde non fuerunt in Inferno damnati; et sic suffragia eis
+              prodesse poterant. Vel dicendum secundum quosdam, quod in ipsa pugna videntes sibi
+              periculum imminere, de peccato poenituerunt, secundum illud Psal. 77, 34: <quote xml:id="ta-l4d45q2-Qd1e523">cum
+                occideret eos, quaerebant eum</quote>. Et hoc probabiliter potest aestimari; et ideo
+              oblatio pro eis fuit facta.</p>
+            <p xml:id="ta-l4d45q2-d1e527">Ad secundum dicendum, quod damnatio in verbis illis large accipitur pro quacumque
+              punitione, ut sic includat et poenam Purgatorii: quae quandoque totaliter per
+              suffragia expiatur; quandoque autem non, sed diminuitur.</p>
+            <p xml:id="ta-l4d45q2-d1e530">Ad tertium dicendum, quod quantum ad hoc magis acceptatur suffragium pro mortuo quam
+              pro vivo, quia magis indiget, cum non possit auxiliari sibi, sicut vivus potest; sed
+              quantum ad hoc vivus est melioris conditionis, quia potest transferri de statu culpae
+              mortalis in statum gratiae, quod de mortuis dici non potest; et ideo non est eadem
+              causa orandi pro mortuis et pro vivis.</p>
+            <p xml:id="ta-l4d45q2-d1e534">Ad quartum dicendum, quod illud adjutorium non erat in hoc quod poena eorum
+              diminueretur; sed in hoc solo, ut ibidem dicitur, quod eo orante concedebatur eis ut
+              mutuo se viderent; et in hoc aliquod gaudium non verum sed phantasticum habebant, dum
+              implebatur hoc quod desiderabant; sicut et Daemones gaudere dicuntur dum homines ad
+              peccata pertrahunt, quamvis per hoc eorum poena nullatenus minuatur, sicut nec
+              minuitur gaudium Angelorum per hoc quod malis nostris compati dicuntur.</p>
+            <p xml:id="ta-l4d45q2-d1e537">Ad quintum dicendum, quod de facto Trajani hoc modo potest probabiliter aestimari,
+              quod precibus beati Gregorii ad vitam fuerit revocatus, et ibi gratiam consecutus sit,
+              per quam remissionem peccatorum habuit, et per consequens immunitatem a poena; sicut
+              etiam apparet in omnibus illis qui fuerunt miraculose a mortuis suscitati, quorum
+              plures constat idolatras et damnatos fuisse. De omnibus enim similiter dici oportet,
+              quod non erant in Inferno finaliter deputati, sed secundum praesentem justitiam
+              propriorum meritorum; secundum autem superiores causas, quibus praevidebantur ad vitam
+              revocandi, erat de eis aliter disponendum. Vel dicendum, secundum quosdam, quod anima
+              Trajani non fuit simpliciter a reatu poenae aeternae absoluta; sed ejus poena fuit
+              suspensa ad tempus, scilicet usque ad diem judicii. Nec tamen oportet quod hoc fiat
+              communiter per suffragia; quia alia sunt quae lege communi accidunt, et alia quae
+              singulariter ex privilegio aliquibus conceduntur; sicut aliae sunt humanarum limites
+              rerum, alia divina signa virtutum, ut Augustinus dicit in Lib. de cura pro mortuis
+              gerenda.</p>
+
+          </div>
+          <div xml:id="ta-l4d45q2-Dd1e541">
+            <head xml:id="ta-l4d45q2-Hd1e543">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d45q2-d1e546">Ad secundam quaestionem dicendum, quod poena Purgatorii est in supplementum
+              satisfactionis quae non fuerat plene in corpore consummata; et ideo, quia, sicut ex
+              praedictis patet, et ex his quae supra, dist. 20, dicta sunt, opera unius possunt
+              valere alteri ad satisfactionem, sive vivis sive mortuis; non est dubium quin
+              suffragia per vivos facta, existentibus in Purgatorio prosint.</p>
+            <p xml:id="ta-l4d45q2-d1e549">Ad primum ergo dicendum, quod auctoritas illa loquitur de Inferno damnatorum, in quo
+              nulla est redemptio quantum ad illos qui sunt finaliter tali poenae deputati. Vel
+              dicendum, secundum Damascenum in sermone de dormientibus, quia hujusmodi auctoritates
+              exponendae sunt secundum causas inferiores, scilicet secundum exigentiam meritorum
+              eorum qui poenis deputantur; sed secundum divinam misericordiam, quae vincit humana
+              merita, ad preces justorum aliter quandoque disponitur quam sententia praedictarum
+              auctoritatum contineat. Deus autem mutat sententiam, sed non consilium, ut dicit
+              Gregorius; unde etiam Damascenus ponit ad hoc exempla de Ninivitis, Achab et Ezechia,
+              in quibus apparet quod sententia contra eos lata divinitus fuit per divinam
+              misericordiam commutata.</p>
+            <p xml:id="ta-l4d45q2-d1e552">Ad secundum dicendum, quod non est inconveniens, si multiplicatis suffragiis poena in
+              Purgatorio existentium annihiletur: non tamen sequitur quod peccata remaneant
+              impunita; quia poena unius pro altero suscepta alteri computatur.</p>
+            <p xml:id="ta-l4d45q2-d1e555">Ad tertium dicendum, quod purgatio animae per poenas Purgatorii non est aliud quam
+              expiatio reatus impedientis a perceptione gloriae: et quia per poenam quam unus
+              sustinet pro alio, potest reatus alterius expiari, ut dictum est, non est
+              inconveniens, si per unius satisfactionem alius purgetur.</p>
+            <p xml:id="ta-l4d45q2-d1e559">Ad quartum dicendum, quod suffragia ex duobus valent; scilicet ex opere operante, et
+              ex opere operato. Et dico opus operatum non solum Ecclesiae sacramentum, sed effectum
+              accidentem ex operatione; sicut ex collatione eleemosynarum consequitur pauperum
+              relevatio, et eorum oratio pro defuncto ad Deum. Similiter opus operans potest accipi
+              vel ex parte principalis agentis, vel ex parte exequentis. Dico ergo, quod quam cito
+              moriens disponit aliqua suffragia sibi fieri, praemium suffragiorum plene consequitur,
+              ante etiam quam fiant, quantum ad efficaciam suffragii, quae erat ex opere operante
+              principalis agentis; sed quantum ad efficaciam suffragiorum quae est ex opere operato,
+              vel ex opere operante exequentis, non consequitur fructum antequam suffragia fiant, et
+              si prius contingat ipsum a poena purgari, quantum ad hoc fraudabitur suffragiorum
+              fructu; quod redundabit in illos quorum culpa defraudatur. Non enim est inconveniens
+              quod aliquis defraudetur per culpam alterius in temporalibus; poena autem Purgatorii
+              temporalis est; quamvis quantum ad retributionem nullus defraudari possit nisi per
+              propriam culpam.</p>
+
+          </div>
+          <div xml:id="ta-l4d45q2-Dd1e563">
+            <head xml:id="ta-l4d45q2-Hd1e565">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d45q2-d1e568">Ad tertiam quaestionem dicendum, quod pueri non baptizati non detinentur in Limbo,
+              nisi quia deficiunt a statu gratiae; unde cum per opera vivorum, mortuorum status
+              mutari non possit, maxime quantum ad meritum essentialis praemii vel poenae; suffragia
+              vivorum pueris in Limbo existentibus prodesse non possunt.</p>
+            <p xml:id="ta-l4d45q2-d1e571">Ad primum ergo dicendum, quod quamvis peccatum originale sit hujusmodi quod pro eo
+              possit aliquis ab alio juvari, tamen animae puerorum in Limbo existentes sunt in tali
+              statu quod juvari non possunt: quia post hanc vitam non est tempus gratiam
+              acquirendi.</p>
+            <p xml:id="ta-l4d45q2-d1e574">Ad secundum dicendum, quod Augustinus loquitur de non valde malis, qui tamen
+              baptizati sunt; quod patet ex hoc quod praemittitur: <quote xml:id="ta-l4d45q2-Qd1e576">cum ergo sacrificia sive
+                altaris, sive quarumcumque eleemosynarum, pro baptizatis omnibus
+              offeruntur</quote>.</p>
+
+          </div>
+          <div xml:id="ta-l4d45q2-Dd1e581">
+            <head xml:id="ta-l4d45q2-Hd1e583">Quaestiuncula 4</head>
+            <p xml:id="ta-l4d45q2-d1e586">Ad quartam quaestionem dicendum, quod suffragium de sui ratione importat quamdam
+              auxiliationem, quae non competit ei qui defectum non patitur: nulli enim juvari
+              competit nisi in eo quo indigens est. Unde cum sancti qui sunt in patria, sint ab omni
+              indigentia immunes, inebriati ab ubertate domus Dei, eis juvari per suffragia non
+              competit.</p>
+            <p xml:id="ta-l4d45q2-d1e589">Ad primum ergo dicendum, quod hujusmodi locutiones non sunt sic intelligendae quasi
+              sancti in gloria proficiant quantum ad se, quod eorum festa recolimus; sed quia nobis
+              proficit, qui eorum gloriam solemnius celebramus; sicut ex hoc quod Deum cognoscimus
+              vel laudamus et sic quodammodo ejus gloria in nobis crescit; nihil Deo, sed nobis
+              accrescit.</p>
+            <p xml:id="ta-l4d45q2-d1e592">Ad secundum dicendum, quod quamvis sacramenta efficiant quod figurant, non tamen
+              illum effectum suum ponunt circa omne id quod figurant: alias cum figurent Christum,
+              in ipso Christo aliquid efficerent, quod est absurdum: sed efficiunt circa
+              suscipientem sacramentum ex virtute ejus quod per sacramentum significatur: et sic non
+              legitur quod sacrificia pro fidelibus defunctis oblata sanctis prosint; sed quia ex
+              meritis sanctorum qui recoluntur vel significantur in sacramento, prosunt aliis pro
+              quibus offeruntur.</p>
+            <p xml:id="ta-l4d45q2-d1e595">Ad tertium dicendum, quod quamvis sancti qui sunt in patria, de omnibus bonis nostris
+              gaudeant, non tamen sequitur quod multiplicatis nostris gaudiis eorum gaudium
+              augmentetur formaliter, sed materialiter tantum: quia omnis passio formaliter augetur
+              secundum rationem objecti sui. Ratio autem gaudendi in sanctis, de quibuscumque
+              gaudent, est ipse Deus, de quo non possunt magis et minus gaudere: quia sic essentiale
+              eorum praemium variaretur, quod consistit in hoc quod de Deo gaudent. Unde ex hoc quod
+              bona multiplicantur, de quibus gaudendi ratio eis Deus est, non sequitur quod
+              intensius gaudeant, sed quod de pluribus gaudeant; et ideo non sequitur quod operibus
+              nostris juventur.</p>
+            <p xml:id="ta-l4d45q2-d1e599">Ad quartum dicendum, quod non est intelligendum quod fiat oppositio mercedis vel
+              retributionis illi beato per suffragia ab aliquo facta, sed facienti. Vel dicendum,
+              quod ex suffragiis potest appositio mercedis fieri beato defuncto, inquantum sibi de
+              suffragiis faciendis adhuc vivens disposuit, quod ei meritorium fuit.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d45q2-Dd1e604" type="articulus">
+          <head xml:id="ta-l4d45q2-Hd1e606">Articulus 3</head>
+
+          <head xml:id="ta-l4d45q2-Hd1e609" type="questionTitle">Utrum non solum orationibus Ecclesiae et sacrificio altaris et
+            eleemosynis animae defunctorum juventur</head>
+
+          <div xml:id="ta-l4d45q2-Dd1e612">
+            <head xml:id="ta-l4d45q2-Hd1e614">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d45q2-d1e617">Ad tertium sic proceditur. Videtur quod non solum orationibus Ecclesiae et sacrificio
+              altaris et eleemosynis animae defunctorum juventur, vel quod eis juventur praecipue.
+              Poena enim debet per poenam recompensari. Sed jejunium magis est poenale quam
+              eleemosyna vel oratio. Ergo jejunium magis prodesset in suffragiis quam aliquod
+              praedictorum.</p>
+            <p xml:id="ta-l4d45q2-d1e620">Praeterea, Gregorius II tribus praedictis connumerat jejunium, ut habetur Caus. 13,
+              quaest. 11: <quote xml:id="ta-l4d45q2-Qd1e622">animae defunctorum quatuor solvuntur modis: aut oblationibus
+                sacerdotum, aut orationibus sanctorum, aut carorum eleemosynis, aut jejunio
+                cognatorum</quote>. Ergo insufficienter ab Augustino haec enumerantur tria
+              praedicta.</p>
+            <p xml:id="ta-l4d45q2-d1e626">Praeterea, Baptismus est potissimum sacramentorum, maxime quantum ad effectum. Ergo
+              Baptismus vel alia sacramenta deberent vel similiter vel magis prodesse defunctis,
+              sicut sacramentum altaris.</p>
+            <p xml:id="ta-l4d45q2-d1e629">Praeterea, hoc videtur ex hoc quod habetur 1 Corinth. 15, 29: <quote xml:id="ta-l4d45q2-Qd1e631">si omnino mortui
+                non resurgunt, ut quid baptizantur pro illis?</quote> Ergo Baptismus etiam valet ad
+              suffragia defunctorum.</p>
+            <p xml:id="ta-l4d45q2-d1e636">Praeterea, in diversis Missis est idem altaris sacrificium. Si ergo sacrificium
+              computatur inter suffragia, et non Missa; videtur quod tantumdem valeat quaecumque
+              Missa pro defuncto dicatur, sive de beata virgine, sive de spiritu sancto, vel
+              quaecumque alia; quod videtur esse contra Ecclesiae ordinationem, quae specialem
+              Missam pro defunctis instituit.</p>
+            <p xml:id="ta-l4d45q2-d1e639">Praeterea, Damascenus in sermone de dormientibus, docet, ceras et oleum et hujusmodi
+              pro defunctis offerri. Ergo non solum oblatio sacrificii altaris, sed etiam aliae
+              oblationes debent inter suffragia mortuorum computari.</p>
+
+          </div>
+          <div xml:id="ta-l4d45q2-Dd1e643">
+            <head xml:id="ta-l4d45q2-Hd1e645">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d45q2-d1e648">Ulterius. Videtur quod indulgentiae quas Ecclesia largitur, etiam mortuis prosint.
+              Primo per consuetudinem Ecclesiae quae facit praedicari crucem, ut aliquis habeat
+              indulgentiam pro se, et duobus vel tribus, et quandoque decem animabus tam vivorum
+              quam mortuorum; quod esset deceptio, nisi mortuis prodessent. Ergo indulgentiae
+              mortuis prosunt.</p>
+            <p xml:id="ta-l4d45q2-d1e651">Praeterea, meritum totius Ecclesiae est efficacius quam meritum unius personae. Sed
+              meritum personale suffragatur defunctis, ut patet in elargitione eleemosynarum. Ergo
+              multo fortius meritum Ecclesiae, cui indulgentiae innituntur.</p>
+            <p xml:id="ta-l4d45q2-d1e654">Praeterea, indulgentiae Ecclesiae prosunt illis qui sunt de foro Ecclesiae. Sed illi
+              qui sunt in Purgatorio, sunt de foro Ecclesiae; alias eis suffragia Ecclesiae non
+              prodessent. Ergo videtur quod indulgentiae defunctis prosint.</p>
+            <p xml:id="ta-l4d45q2-d1e657">Sed contra est, quia ad hoc quod indulgentiae alicui valeant, requiritur causa
+              conveniens, pro qua indulgentiae dantur. Sed talis causa non potest esse ex parte
+              defuncti, quia non potest aliquid facere quod sit in utilitatem Ecclesiae, pro qua
+              causa praecipue indulgentiae dantur. Ergo videtur quod indulgentiae defunctis non
+              prosint.</p>
+            <p xml:id="ta-l4d45q2-d1e661">Praeterea, indulgentiae determinantur secundum arbitrium indulgentias concedentis. Si
+              ergo indulgentiae defunctis prodesse possent, esset in potestate concedentis
+              indulgentiam ut defunctum omnino liberaret a poena; quod videtur absurdum.</p>
+
+          </div>
+          <div xml:id="ta-l4d45q2-Dd1e665">
+            <head xml:id="ta-l4d45q2-Hd1e667">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d45q2-d1e670">Ulterius. Videtur quod cultus exequiarum defuncto prosint. Damascenus enim in sermone
+              de dormientibus inducit verba Athanasii sic dicentis: <quote xml:id="ta-l4d45q2-Qd1e672">licet in aere qui in
+                pietate consummatus est, depositus fuerit, ne renue oleum et ceras dominum invocans
+                in sepulcro accendere; accepta enim ista sunt Deo, et multam ab eo recipientia
+                retributionem</quote>. Sed hujusmodi pertinent ad cultum exequiarum. Ergo cultus
+              exequiarum prodest defunctis.</p>
+            <p xml:id="ta-l4d45q2-d1e676">Praeterea, sicut dicit Augustinus 1 Lib. de Civ. Dei: <quote xml:id="ta-l4d45q2-Qd1e678">antiquorum justorum
+                funera officiosa pietate curata sunt, et exequiae celebratae, et sepulcra provisa;
+                ipsique cum viverent, de sepeliendis, vel etiam ferendis suis corporibus filiis
+                mandaverunt</quote>. Sed hoc non fecissent, nisi sepultura et hujusmodi aliquid
+              mortuis conferrent. Ergo hujusmodi aliquid prosunt defunctis.</p>
+            <p xml:id="ta-l4d45q2-d1e682">Praeterea, nullus facit eleemosynam circa aliquem, nisi ei proficiat. Sed sepelire
+              mortuos computatur inter opera eleemosynarum: unde, ut Augustinus dicit 1 de Civ. Dei:
+                <quote xml:id="ta-l4d45q2-Qd1e684">Tobias sepeliendo mortuos Deum promeruisse teste Angelo commendatur</quote>.
+              Ergo hujusmodi sepulturae cultus mortuis prodest.</p>
+            <p xml:id="ta-l4d45q2-d1e688">Praeterea, inconveniens est dicere quod frustretur devotio fidelium. Sed aliqui ex
+              devotione se in locis aliquibus religiosis sepeliri disponunt. Ergo sepulturae cultus
+              prodest defunctis.</p>
+            <p xml:id="ta-l4d45q2-d1e692">Praeterea, Deus pronior est ad miserandum quam ad puniendum. Sed aliquibus nocet
+              sepultura in locis sacris, si indigni sunt; unde dicit Gregorius: <quote xml:id="ta-l4d45q2-Qd1e694">quos peccata
+                gravia deprimunt, ad majorem damnationis cumulum potius quam ad solutionem eorum
+                corpora in Ecclesiis ponuntur</quote>. Ergo multo amplius dicendum est, quod
+              sepulturae cultus prosit bonis.</p>
+            <p xml:id="ta-l4d45q2-d1e698">Sed contra est quod Augustinus dicit in Lib. de cura pro mortuis gerenda:
+                <quote xml:id="ta-l4d45q2-Qd1e700">corpori humano quidquid impenditur, non est praesidium salutis aeternae, sed
+                humanitatis officium</quote>.</p>
+            <p xml:id="ta-l4d45q2-d1e704">Praeterea, Gregorius dicit ad Bonifacium archiepiscopum scribens: <quote xml:id="ta-l4d45q2-Qd1e706">curatio
+                funeris, conditio sepulturae, pompa exequiarum, magis sunt vivorum solatia quam
+                subsidia mortuorum</quote>.</p>
+            <p xml:id="ta-l4d45q2-d1e710">Praeterea, dominus dicit Matth. 10: <quote xml:id="ta-l4d45q2-Qd1e712">nolite timere eos qui occidunt corpus, et
+                post haec non habent amplius quid faciant</quote>. Sed post mortem sanctorum corpora
+              possunt a sepultura prohiberi, sicut in ecclesiastica historia legitur factum de
+              quibusdam martyribus Lugduni Galliae. Ergo non nocet defunctis, si eorum corpora
+              inhumata remaneant; ergo nec cultus sepulturae prodest.</p>
+          </div>
+          <div xml:id="ta-l4d45q2-Dd1e718">
+            <head xml:id="ta-l4d45q2-Hd1e720">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d45q2-d1e723">Respondeo dicendum ad primam quaestionem, quod suffragia vivorum prosunt defunctis
+              secundum quod uniuntur viventibus caritate, et secundum quod intentio viventium
+              refertur in mortuos; et ideo illa opera praecipue nata sunt mortuis suffragari quae
+              maxime ad communicationem caritatis pertinent, vel ad directionem intentionis in
+              alterum. Ad caritatem autem sacramentum Eucharistiae praecipue pertinet, cum sit
+              sacramentum ecclesiasticae unionis, continens illum in quo tota Ecclesia unitur, et
+              consolidatur, scilicet Christum; unde Eucharistia est quasi quaedam caritatis origo,
+              sive vinculum; sed inter caritatis effectus praecipuum est eleemosynarum opus; et ita
+              ista duo ex parte caritatis praecipue mortuis suffragantur, scilicet sacrificium
+              Ecclesiae, et eleemosynae. Sed ex parte intentionis directae in mortuos praecipue
+              valet oratio; quia oratio secundum suam rationem non solum dicit respectum ad orantem,
+              sicut et cetera opera, sed directius ad id pro quo oratur. Et ideo ista tria ponuntur
+              quasi praecipua mortuorum subsidia; quamvis quaecumque alia bona ex caritate fiant pro
+              defunctis, eis valere credenda sint.</p>
+            <p xml:id="ta-l4d45q2-d1e726">Ad primum ergo dicendum, quod in eo qui satisfacit pro altero, magis est
+              considerandum, ad hoc quod effectus satisfactionis ad alterum perveniat, id quo
+              satisfactio unius transit in alterum, quam etiam satisfactionis poena; quamvis ipsa
+              poena magis expiet reatum satisfacientis, inquantum est medicina quaedam; et ideo tria
+              praedicta magis valent defunctis quam jejunium.</p>
+            <p xml:id="ta-l4d45q2-d1e729">Ad secundum dicendum, quod etiam jejunium potest prodesse defunctis ratione caritatis
+              et intentionis in defunctos directae; sed tamen jejunium in sui ratione non continet
+              aliquid quod ad caritatem vel ad directionem intentionis pertineat; sed haec sunt ei
+              quasi extrinseca; et ideo Augustinus non posuit, sed Gregorius posuit jejunium inter
+              suffragia mortuorum.</p>
+            <p xml:id="ta-l4d45q2-d1e732">Ad tertium dicendum, quod Baptismus est quaedam spiritualis regeneratio; unde sicut
+              per generationem non acquiritur esse nisi generato, ita Baptismus non habet efficaciam
+              nisi in eo qui baptizatur, quantum est ex opere operato; quamvis ex opere operante vel
+              baptizantis vel baptizati possunt aliis prodesse, sicut et cetera opera meritoria. Sed
+              Eucharistia est signum ecclesiasticae unionis; et ideo ex ipso opere operato ejus
+              efficacia in alterum transire potest; quod non contingit de aliis sacramentis.</p>
+            <p xml:id="ta-l4d45q2-d1e736">Ad quartum dicendum, quod Glossa auctoritatem istam dupliciter exponit. Uno modo sic:
+                <quote xml:id="ta-l4d45q2-Qd1e738">si mortui non resurgunt, nec etiam Christus resurrexit, ut quid etiam
+                baptizantur pro illis? Idest, pro peccatis, cum ipsa non dimittantur, si Christus
+                non resurrexit</quote>: quia in Baptismo non solum passio Christi, sed etiam
+              resurrectio operatur, quae est nostrae spiritualis resurrectionis quodammodo causa.
+              Alio modo sic: <quote xml:id="ta-l4d45q2-Qd1e741">fuerunt quidam imperiti qui baptizabantur pro his qui de hac
+                vita sine Baptismo discesserant, putantes illis prodesse</quote>; et secundum hoc
+              apostolus non loquitur nisi secundum errorem aliquorum in verbis illis.</p>
+            <p xml:id="ta-l4d45q2-d1e745">Ad quintum dicendum, quod in officio Missae non solum est sacrificium, sed etiam sunt
+              ibi orationes; et ideo Missae suffragium continet duo horum quae hic Augustinus
+              numerat, scilicet orationem et sacrificium. Ex parte igitur sacrificii oblati Missa
+              aequaliter prodest defuncto, de quocumque dicatur; et hoc est praecipuum quod fit in
+              Missa. Sed ex parte orationum magis prodest illa in qua sunt orationes ad hoc
+              determinatae. Sed tamen iste defectus recompensari potest per majorem devotionem vel
+              ejus qui dicit Missam, vel ejus qui facit dici, vel iterum per intercessionem sancti
+              cujus suffragium in Missa imploratur.</p>
+            <p xml:id="ta-l4d45q2-d1e748">Ad sextum dicendum, quod hujusmodi oblatio candelarum vel olei possunt prodesse
+              defuncto, inquantum sunt eleemosynae quaedam: dantur enim ad cultum Ecclesiae, vel
+              etiam in usum fidelium.</p>
+
+          </div>
+          <div xml:id="ta-l4d45q2-Dd1e752">
+            <head xml:id="ta-l4d45q2-Hd1e754">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d45q2-d1e757">Ad secundam quaestionem dicendum, quod indulgentia dupliciter alicui prodesse potest:
+              uno modo principaliter; alio modo secundario. Principaliter quidem prodest ei qui
+              indulgentiam accipit, scilicet qui facit hoc pro quo indulgentia datur, ut qui visitat
+              limina alicujus sancti; unde cum mortui non possint aliquid facere eorum pro quibus
+              indulgentiae dantur, eis indulgentiae directe valere non possunt. Secundario autem et
+              indirecte prosunt ei pro quo aliquis facit illud quod est indulgentiae causa, quod,
+              sicut dist. 10, quaest. 1, art. 5, quaestiunc. 3, ad 2, dictum est, quandoque
+              contingere potest, quandoque autem non potest, secundum diversam indulgentiae formam.
+              Si enim sit talis indulgentiae forma: quicumque facit hoc vel illud, habebit tantum de
+              indulgentia: ille qui hoc facit, non potest fructum indulgentiae in alium transferre:
+              quia ejus non est applicare ad aliquid intentionem Ecclesiae, per quam communicantur
+              communia suffragia, ex quibus indulgentiae valent. Si autem indulgentia sub hac forma
+              fiat: quicumque fecerit hoc vel illud, ipse et pater ejus, vel quicumque ei adjunctus
+              in Purgatorio detentus tantum de indulgentia habebit: talis indulgentia non solum
+              vivo, sed etiam mortuo proderit. Non enim est aliqua ratio quare Ecclesia possit
+              transferre merita communia, quibus indulgentiae innituntur, in vivos; et non in
+              mortuos. Nec tamen sequitur quod praelatus Ecclesiae possit pro suo arbitrio animas a
+              Purgatorio liberare: quia ad hoc quod indulgentiae valeant, requiritur causa
+              conveniens indulgentias concedendi, ut supra, dist. 20, dictum est.</p>
+
+          </div>
+          <div xml:id="ta-l4d45q2-Dd1e761">
+            <head xml:id="ta-l4d45q2-Hd1e763">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d45q2-d1e766">Ad tertiam quaestionem dicendum, quod sepultura adinventa est et propter vivos et
+              propter mortuos. Propter vivos quidem, ne eorum oculi ex turpitudine cadaverum
+              offendantur, et corpora foetoribus inficiantur; et hoc quantum ad corpus: sed
+              spiritualiter etiam prodest vivis, inquantum per hoc astruitur resurrectionis fides.
+              Sed mortuis prosunt ad hoc quod inspicientes sepulcra memoriam retineant defunctorum,
+              ut pro defunctis orent; unde et monumentum a memoria nomen accepit. Dicitur enim
+              monumentum, quia monet mentem, ut dicit Augustinus in 1 de Civ. Dei, et in Lib. de
+              cura pro mortuis gerenda. Paganorum tamen error fuit, quod ad hoc sepultura mortuo
+              prosit, ut ejus anima quietem accipiat: non enim credebant prius animam quietem posse
+              accipere quam corpus sepulturae daretur; quod omnino ridiculum et absurdum est. Sed
+              quod ulterius sepultura in loco sacrato mortuo prodest, non quidem est ex ipso opere
+              operato, sed magis ex ipso opere operante, dum scilicet vel ipse defunctus, vel alius,
+              corpus ejus tumulari in loco sacro disponens, patrocinio alicujus sancti eum
+              committit, cujus precibus per hoc credendus est adjuvari, et etiam patrocinio eorum
+              qui loco sacro deserviunt, qui pro apud se tumulatis frequentius et specialius orant.
+              Sed illa quae ad ornatum sepulturae exhibentur, prosunt quidem vivis inquantum sunt
+              vivorum solatia; sed possunt et defunctis prodesse, non quidem per se, sed per
+              accidens; inquantum scilicet, per hujusmodi, homines excitantur ad compatiendum, et
+              per consequens ad orandum; vel inquantum ex sumptibus sepulturae vel pauperes fructum
+              capiunt, vel Ecclesia decoratur: sic enim Sap. 4, sepultura inter ceteras eleemosynas
+              computatur.</p>
+            <p xml:id="ta-l4d45q2-d1e769">Ad primum ergo dicendum, quod oleum et cera ad sepulcra defunctorum perlata, per
+              accidens defuncto prosunt: vel inquantum Ecclesiae offeruntur, sive pauperibus dantur,
+              vel inquantum hujusmodi in reverentiam Dei fiunt; unde verbis praemissis subjungitur:
+                <quote xml:id="ta-l4d45q2-Qd1e771">oleum enim et cera holocaustum sunt</quote>.</p>
+            <p xml:id="ta-l4d45q2-d1e775">Ad secundum dicendum, quod ideo sancti patres de suis corporibus tumulandis
+              curaverunt, ut ostenderent corpora mortuorum ad Dei providentiam pertinere; non quod
+              corporibus mortuis aliquis sensus insit, sed propter fidem resurrectionis astruendam,
+              ut patet per Augustinum in 1 de Civ. Dei; unde etiam voluerunt in terra promissionis
+              sepeliri, ubi credebant Christum nasciturum et moriturum; cujus resurrectio nostrae
+              resurrectionis est causa.</p>
+            <p xml:id="ta-l4d45q2-d1e778">Ad tertium dicendum, quod quia caro est pars naturae hominis, naturaliter homo ad
+              carnem suam afficitur, secundum illud Ephes. 5, 29: <quote xml:id="ta-l4d45q2-Qd1e780">nemo carnem suam unquam
+                odio habuit</quote>. Unde secundum istum naturalem affectum inest viventi quaedam
+              sollicitudo quid etiam post mortem de ejus corpore sit futurum; doleretque, si aliquid
+              indignum corpori suo evenire praesentiret; et ideo illi qui hominem diligunt, ex hoc
+              quod affectui ejus quem diligunt, conformantur, circa ejus carnem curam humanitatis
+              impendunt. Ut enim dicit Augustinus in 1 de Civ. Dei: <quote xml:id="ta-l4d45q2-Qd1e783">si paterna vestis, si
+                annulus, ac si quid hujusmodi tanto carius sunt posteris, quanto erga parentes major
+                affectus; nullo modo ipsa spernenda sunt corpora, quae utique multo familiarius
+                atque conjunctius quam quaelibet indumenta, gestamus</quote>. Unde et inquantum
+              affectui hominis satisfacit sepeliens ejus corpus, cum ipse in hoc sibi satisfacere
+              non potest, eleemosynam ei facere dicitur.</p>
+            <p xml:id="ta-l4d45q2-d1e788">Ad quartum dicendum, quod fidelium devotio, ut Augustinus dicit in Lib. de cura pro
+              mortuis gerenda, suis caris in locis sacris providens sepulturam, in hoc non
+              frustratur quod defunctum suum suffragio sanctorum committit, ut dictum est.</p>
+            <p xml:id="ta-l4d45q2-d1e791">Ad quintum dicendum, quod sepultura in loco sacro impio defuncto non nocet, nisi
+              quatenus hanc sepulturam sibi indignam propter humanam gloriam procuravit.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d45q2-Dd1e797" type="articulus">
+          <head xml:id="ta-l4d45q2-Hd1e799">Articulus 4</head>
+
+          <head xml:id="ta-l4d45q2-Hd1e802" type="questionTitle">Utrum suffragia quae fiunt pro uno defuncto magis proficiant ei
+            pro quo fiunt quam aliis</head>
+
+          <div xml:id="ta-l4d45q2-Dd1e805">
+            <head xml:id="ta-l4d45q2-Hd1e807">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d45q2-d1e810">Ad quartum sic proceditur. Videtur quod suffragia quae fiunt pro uno defuncto, non
+              magis proficiunt ei pro quo fiunt, quam aliis. Lumen enim spirituale est magis
+              communicabile quam lumen corporale. Sed lumen corporale, scilicet candelae, quamvis
+              accendatur pro uno, tamen aequaliter omnibus prodest qui simul commorantur, quamvis
+              pro eis candela non accendatur. Ergo cum suffragia sint quaedam spiritualia lumina,
+              quamvis pro uno specialiter fiant, non magis valerent ei quam aliis in Purgatorio
+              existentibus.</p>
+            <p xml:id="ta-l4d45q2-d1e813">Praeterea, sicut in littera dicitur, secundum hoc suffragia mortuis prosunt, quia cum
+              viverent hic, sibi ut postea possent prodesse, meruerunt. Sed aliqui magis meruerunt
+              ut suffragia sibi prodessent quam illi pro quibus fiunt. Ergo eis magis prosunt; alias
+              eorum meritum frustraretur.</p>
+            <p xml:id="ta-l4d45q2-d1e816">Praeterea, pro pauperibus non fiunt tot suffragia quot pro divitibus. Si ergo
+              suffragia facta pro aliquibus, eis solum, vel magis eis quam aliis valerent, pauperes
+              essent deterioris conditionis; quod est contra sententiam domini, Luc. 6, 20:
+                <quote xml:id="ta-l4d45q2-Qd1e818">beati pauperes, quoniam vestrum est regnum Dei</quote>.</p>
+            <p xml:id="ta-l4d45q2-d1e822">Sed contra, justitia humana exemplatur a divina justitia. Sed justitia humana, si
+              aliquis debitum pro aliquo solvit, eum solum absolvit. Ergo cum ille qui suffragia
+              facit, quodammodo solvat debitum ejus pro quo facit, ei soli proderit.</p>
+            <p xml:id="ta-l4d45q2-d1e826">Praeterea, sicut homo faciens suffragia quodammodo satisfacit mortuo, ita et interdum
+              aliquis pro vivo potest satisfacere, ut supra, dist. 20, quaest. 1, art. 2,
+              quaestiunc. 3, in corp., dictum est. Sed quando aliquis satisfacit pro vivo,
+              satisfactio illa non computatur nisi illi pro quo facta est. Ergo et suffragia
+              faciens, ei soli prodest pro quo facit.</p>
+
+          </div>
+          <div xml:id="ta-l4d45q2-Dd1e830">
+            <head xml:id="ta-l4d45q2-Hd1e832">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d45q2-d1e835">Ulterius. Videtur quod suffragia facta pro multis tantumdem valeant singulis ac si
+              pro unoquoque singulariter fierent. Videmus enim quod ex lectione quae uni legitur,
+              nihil ei deperit, si simul et alii legatur. Ergo et eadem ratione nihil deperit ei pro
+              quo fit suffragium, si ei aliquis connumeretur; et ita si pro pluribus fiat, tantum
+              valet singulis ac si pro unoquoque singulariter fieret.</p>
+            <p xml:id="ta-l4d45q2-d1e838">Praeterea, secundum communem usum Ecclesiae videmus, quod cum Missa pro aliquo
+              defuncto dicitur, simul etiam orationes illic adjunguntur pro aliis defunctis. Hoc
+              autem non fieret, si ex hoc defunctus pro quo Missa dicitur, aliquod detrimentum
+              reportaret. Ergo idem quod prius.</p>
+            <p xml:id="ta-l4d45q2-d1e841">Praeterea, suffragia, praecipue orationum, innituntur divinae virtuti. Sed apud Deum
+              sicut non differt juvare per multos vel per paucos, ita non differt juvare multos vel
+              paucos. Ergo quantum juvaretur unus ex una oratione, si pro eo tantum fieret; tantum
+              juvabuntur singuli multorum, si eadem oratio pro multis fiat.</p>
+            <p xml:id="ta-l4d45q2-d1e844">Sed contra, melius est plures juvare quam unum. Si ergo suffragium pro multis factum
+              tantum valeret singulis ac si pro uno tantum fieret; videtur quod Ecclesia non debuit
+              instituisse ut pro aliquo singulariter Missa vel oratio fieret; sed quod semper
+              diceretur pro omnibus fidelibus defunctis; quod patet esse falsum.</p>
+            <p xml:id="ta-l4d45q2-d1e848">Praeterea, suffragium habet finitam efficaciam. Ergo distributum in multos, minus
+              prodest singulis quam prodesset si fieret pro uno tantum.</p>
+
+          </div>
+          <div xml:id="ta-l4d45q2-Dd1e852">
+            <head xml:id="ta-l4d45q2-Hd1e854">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d45q2-d1e857">Ulterius. Videtur quod tantum valeant suffragia communia illis pro quibus specialia
+              non fiunt, quantum illis pro quibus fiunt, valent specialia et communia simul.
+              Unicuique enim secundum propria merita reddetur in futuro. Sed ille pro quo non fiunt
+              suffragia, meruit ut tantum juvaretur post mortem, quantum ille pro quo fiunt
+              specialia. Ergo tantum juvabitur per communia, quantum ille per specialia et
+              communia.</p>
+            <p xml:id="ta-l4d45q2-d1e860">Praeterea, inter Ecclesiae suffragia praecipuum est Eucharistia. Sed Eucharistia, cum
+              contineat totum Christum, habet quodammodo efficaciam infinitam. Ergo una oblatio
+              Eucharistiae quae communiter pro omnibus fit, valet ad plenam liberationem eorum qui
+              sunt in Purgatorio; et ita tantum juvant communia suffragia sola, quantum juvant
+              specialia et communia simul.</p>
+            <p xml:id="ta-l4d45q2-d1e863">Sed contra est quod duo bona uno sunt magis eligenda. Ergo suffragia communia et
+              specialia magis prosunt ei pro quo fiunt, quam communia tantum.</p>
+          </div>
+          <div xml:id="ta-l4d45q2-Dd1e868">
+            <head xml:id="ta-l4d45q2-Hd1e870">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d45q2-d1e873">Respondeo dicendum ad primam quaestionem, quod circa hoc fuit duplex opinio. Quidam
+              enim, ut Praepositinus, dixerunt, quod suffragia pro uno aliquo facta, non magis
+              prosunt ei pro quo fiunt, sed eis qui sunt magis digni; et ponebat exemplum de candela
+              quae accenditur pro aliquo divite; quae non minus aliis prodest qui cum eo sunt quam
+              ipsi diviti, et forte magis, si habeant oculos clariores; et etiam de lectione, quae
+              non magis prodest ei pro quo legitur quam aliis qui simul cum eo audiunt, sed forte
+              aliis magis qui sunt sensu capaciores. Et si eis objiceretur, quod secundum hoc
+              Ecclesiae ordinatio esset vana, quae specialiter pro aliquibus orationes instituit,
+              dicebant, quod hoc Ecclesia fecit ad excitandas devotiones fidelium, qui promptiores
+              sunt ad facienda specialia suffragia quam communia, et ferventius etiam pro suis
+              propinquis orant quam pro extraneis. Alii e contrario dixerunt, quod suffragia magis
+              valent pro quo fiunt. Utraque autem opinio secundum aliquid veritatem habet. Valor
+              enim suffragiorum potest pensari ex duobus. Valent enim uno modo ex virtute caritatis,
+              quae facit omnia bona communia; et secundum hoc verum est quod magis valent ei qui
+              magis caritate est plenus, quamvis pro eo specialiter non fiant; et sic valor
+              suffragiorum attenditur magis secundum quamdam interiorem consolationem, secundum quod
+              unus in caritate existens, de bonis alterius delectatur post mortem, quantum ad
+              diminutionem poenae: post mortem enim non est locus acquirendi gratiam vel
+              augmentandi, ad quod valent nobis in vita opera aliorum ex virtute caritatis. Alio
+              modo suffragia valent ex hoc quod per intentionem unius alteri applicantur; et sic
+              satisfactio unius alteri computatur; et hoc modo non est dubium quod magis valent ei
+              pro quo fiunt, immo sic ei soli valent. Satisfactio enim proprie ad poenae dimissionem
+              ordinatur; unde quantum ad dimissionem poenae praecipue valet suffragium ei pro quo
+              fit; et secundum hoc secunda opinio plus habet de veritate quam prima.</p>
+            <p xml:id="ta-l4d45q2-d1e876">Ad primum ergo dicendum, quod suffragia prosunt per modum luminis, inquantum a
+              mortuis acceptantur; et ex hoc quamdam consolationem recipiunt, et tanto majorem,
+              quanto majori caritate sunt praediti. Sed inquantum suffragia sunt quaedam satisfactio
+              per intentionem facientis translata in alterum, non sunt similia lumini, sed magis
+              solutioni alicujus debiti. Non autem est necesse ut si debitum pro uno solvitur, quod
+              ex hoc aliorum debitum solvatur.</p>
+            <p xml:id="ta-l4d45q2-d1e879">Ad secundum dicendum, quod istud meritum est conditionale, quo sibi meruerunt: hoc
+              enim modo sibi meruerunt ut sibi prodessent, si pro eis fierent; quod nihil aliud fuit
+              quam facere se habiles ad recipiendum. Unde patet quod non directe meruerunt illud
+              juvamen suffragiorum; sed per merita praecedentia se habilitaverunt, ut fructum
+              suffragiorum susciperent: et ideo non sequitur quod meritum eorum frustretur.</p>
+            <p xml:id="ta-l4d45q2-d1e882">Ad tertium dicendum, quod nihil prohibet divites quantum ad aliquid esse melioris
+              conditionis quam pauperes, sicut quantum ad expiationem poenae; sed hoc quasi nihil
+              est, comparatum possessioni regni caelorum, in qua pauperes melioris conditionis esse
+              ostenduntur per auctoritatem inductam.</p>
+
+          </div>
+          <div xml:id="ta-l4d45q2-Dd1e886">
+            <head xml:id="ta-l4d45q2-Hd1e888">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d45q2-d1e891">Ad secundam quaestionem dicendum, quod si valor suffragiorum consideretur secundum
+              quod valent ex virtute caritatis unientis membra Ecclesiae; suffragia pro multis facta
+              tantum singulis prosunt ac si pro uno tantum fierent: quia caritas non minuitur, si
+              dividatur effectus ejus in multos; immo magis augetur; et similiter etiam gaudium,
+              quando pluribus est commune, fit majus, ut dicit Augustinus 8 Confess.; et sic de uno
+              bono facto non minus laetantur multi in Purgatorio quam unus. Si autem consideretur
+              valor suffragiorum inquantum sunt satisfactiones quaedam per intentionem facientis
+              translatae in mortuos; tunc magis valet suffragium alicui quod pro eo singulariter
+              fit, quam quod pro eo communiter fit, et multis aliis. Sic enim effectus suffragii
+              dividitur ex divina justitia inter eos pro quibus suffragia fiunt. Unde patet quod
+              haec quaestio dependet ex prima; et ex hoc etiam patet quare institutum sit ut
+              suffragia specialia in Ecclesia fiant.</p>
+            <p xml:id="ta-l4d45q2-d1e894">Ad primum ergo dicendum, quod suffragia, ut sunt satisfactiones quaedam, non prosunt
+              per modum actionis, sicut doctrina prodest, quae, sicut et omnis alia actio, effectum
+              habet secundum dispositionem recipientis; sed valent per modum solutionis debiti, ut
+              dictum est; et ideo non est simile.</p>
+            <p xml:id="ta-l4d45q2-d1e897">Ad secundum dicendum, quod quia suffragia pro uno facta aliquo modo etiam aliis
+              prosunt, ut ex dictis patet; ideo cum pro uno Missa dicitur, non est inconveniens ut
+              pro aliis etiam orationes fiant. Non enim ad hoc dicuntur aliae orationes ut
+              satisfactio unius suffragii determinetur ad alios principaliter, sed ut illis oratio
+              pro eis specialiter fusa prosit.</p>
+            <p xml:id="ta-l4d45q2-d1e900">Ad tertium dicendum, quod oratio consideratur et ex parte orantis, et ex parte ejus
+              qui oratur, et ex utroque effectus ejus dependet; et ideo, quamvis divinae virtuti non
+              sit magis difficile absolvere multos quam unum, tamen hujusmodi orantis oratio non est
+              ita satisfactoria pro multis sicut pro uno.</p>
+
+          </div>
+          <div xml:id="ta-l4d45q2-Dd1e904">
+            <head xml:id="ta-l4d45q2-Hd1e906">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d45q2-d1e909">Ad tertiam quaestionem dicendum, quod hujusmodi etiam solutio dependet ex solutione
+              primae quaestionis. Si enim suffragia specialiter pro uno facta, indifferenter omnibus
+              valent, tunc omnia suffragia sunt communia; et ideo tantum juvabitur ille pro quo non
+              fiunt specialia, quantum ille pro quo fiunt, si sit aequaliter dignus. Si autem
+              suffragia pro aliquo facta non indifferenter omnibus prosint, sed eis maxime pro
+              quibus fiunt, tunc non est dubium quod suffragia communia et specialia simul plus
+              valent alicui quam communia tantum; et ideo Magister duas opiniones in littera tangit.
+              Unam quae dicit, quod aequaliter prosunt diviti communia et specialia, et pauperi
+              communia tantum: quamvis enim ex pluribus unus juvetur quam alter, non tamen plus
+              juvatur. Aliam autem tangit, cum dicit, quod ille pro quo fiunt suffragia, consequitur
+              faciliorem absolutionem, sed non pleniorem: quia uterque finaliter ab omni poena
+              liberabitur.</p>
+            <p xml:id="ta-l4d45q2-d1e912">Ad primum ergo dicendum, quod sicut ex dictis patet, juvamen suffragiorum non cadit
+              directe sub merito et simpliciter, sed quasi sub conditione; et ideo ratio non
+              sequitur.</p>
+            <p xml:id="ta-l4d45q2-d1e915">Ad secundum dicendum, quod quamvis virtus Christi, quae continetur sub sacramento
+              Eucharistiae, sit infinita, tamen determinatus est effectus ad quem illud sacramentum
+              ordinatur; unde non oportet quod per unum altaris sacrificium tota poena eorum qui
+              sunt in Purgatorio expietur, sicut etiam nec per unum sacrificium quod aliquis homo
+              offert, liberatur a tota satisfactione debita pro peccatis; unde et quandoque plures
+              Missae in satisfactionem unius peccati injunguntur. Credibile tamen est, quod per
+              divinam misericordiam si aliquid de specialibus suffragiis supersit his pro quibus
+              fiunt, ut scilicet eis non indigeant; aliis dispensetur, pro quibus non fiunt, si eis
+              indigeant; ut patet per Damascenum in sermone de dormientibus sic dicentem:
+                <quote xml:id="ta-l4d45q2-Qd1e917">Deus tamquam justus commetietur impotenti possibilitatem; tamquam sapiens
+                vero defectuum commutationem negotiabitur</quote>: quae quidem negotiatio attenditur
+              quod id quod deest uni, alter supplet.</p>
+          </div>
+        </div>
+
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 31, Quaestio 1</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Librum IV, Distinctio 31, Quaestio 1</title>
+          <date when="2016-03-19">March 19, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-19">March 19, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness>1856 editum</witness>
+          <witness xml:id="G" n="ghent567">Ghent, Belgium, Ghent University Library, 567</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="0.0.0-dev">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+
+
+
+
+      <div xml:id="starts-on">
+        <cb ed="#G" n="471a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ta-l4d31q1">
+        <head xml:id="ta-l4d31q1-Hd1e97">Librum IV, Distinctio 31, Quaestio 1</head>
+        <div xml:id="ta-l4d31q1-Dd1e100">
+
+          <head xml:id="ta-l4d31q1-Hd1e102">Prooemium</head>
+          <p xml:id="ta-l4d31q1-d1e105">Postquam determinavit Magister de causis quibus constituitur matrimonium ipsum, hic
+            determinat de causis honestatis ipsius; scilicet de bonis conjugii, quibus actus
+            matrimonii honestatur; et dividitur in partes duas: in prima determinat de bonis
+            matrimonii quantum ad matrimonium, secundum quod nunc agitur; in secunda ostendit
+            quomodo hujusmodi bona erant in matrimonio antiquorum patrum, 33 dist. ibi:
+              <quote xml:id="ta-l4d31q1-Qd1e107">quaeritur hic de antiquis patribus</quote> et cetera. Prima in duas: in prima
+            determinat de bonis conjugii, quibus matrimonii actus excusatur; in secunda determinat
+            de actu matrimonii, qui per bona praedicta excusatur, secundum quod insuper habet
+            rationem debiti; 32 dist., ibi: <quote xml:id="ta-l4d31q1-Qd1e110">sciendum est etiam, quia cum in omnibus aliis vir
+              praesit mulieri (...) in solvendo tamen carnis debito pares sunt</quote>. Prima in
+            duas: in prima determinat de bonis conjugii, quomodo in matrimonio inveniantur; in
+            secunda ostendit quando per ea actus conjugalis excusatur, ibi: <quote xml:id="ta-l4d31q1-Qd1e113">cum haec ergo
+              tria bona in aliquo conjugio simul concurrunt, ad excusationem coitus carnalis
+              valent</quote>. Prima in duas: in prima ostendit quae sint tria bona conjugii; in
+            secunda qualiter se habeant ad matrimonium, ibi: <quote xml:id="ta-l4d31q1-Qd1e116">et est sciendum, ab aliquibus
+              contrahi conjugium, ubi haec tria bona non comitantur</quote>. Et circa hoc duo facit:
+            primo ostendit quod unum praedictorum bonorum in quolibet matrimonio invenitur, scilicet
+            sacramentum; quamvis non alia duo, scilicet fides et proles, quae aliquando secundum
+            actum matrimonio desunt; secundo determinat de matrimonio, in quo etiam intentio illorum
+            duorum non salvatur, ibi: <quote xml:id="ta-l4d31q1-Qd1e119">solet quaeri, cum masculus et femina, nec ille maritus,
+              nec illa uxor alterius, sibimet non filiorum procreandorum, sed pro incontinentia
+              solius concubitus causa copulantur</quote> et cetera. Et circa hoc tria facit: primo
+            determinat de matrimonio in quo non intenditur bonum prolis; secundo de eo in quo non
+            solum non intenditur, sed etiam impeditur, ibi: <quote xml:id="ta-l4d31q1-Qd1e123">qui vero venena sterilitatis
+              procurant, non conjuges, sed fornicarii sunt</quote>; tertio determinat quamdam
+            quaestionem incidentem: <quote xml:id="ta-l4d31q1-Qd1e126">hic quaeri solet de his qui abortum procurant. Cum ergo
+              haec tria bona in aliquo conjugio simul concurrunt, ad excusationem coitus carnalis
+              valent</quote>. Hic ostendit quomodo per bona praedicta actus conjugalis excusatur; et
+            circa hoc duo facit; primo determinat veritatem; secundo ponit objectiones in
+            contrarium, ibi: <quote xml:id="ta-l4d31q1-Qd1e129">sed si concubitus qui sit causa prolis, culpa caret, quid
+              apostolus secundum indulgentiam permittit?</quote> Et circa hoc duo facit: primo
+            objicit contra excusationem matrimonialis actus, ostendens quod matrimonium excusatione
+            non indiget; secundo ostendens quod excusari non possit, quin culpa careat, ibi:
+              <quote xml:id="ta-l4d31q1-Qd1e132">sed forte aliquis dicet</quote> et cetera. Et circa hoc duo facit: primo
+            objicit per rationem; secundo per auctoritatem, ibi: <quote xml:id="ta-l4d31q1-Qd1e135">videtur tamen sentire aliter
+              beatus Gregorius</quote>; et quaelibet harum dividitur in objectionem et solutionem,
+            ut per se patet in littera. Hic est duplex quaestio. Prima de bonis matrimonii. Secunda
+            de excusatione actus matrimonialis per bona praedicta. Circa primum quaeruntur tria: 1
+            utrum debeant esse aliqua bona ad excusandum matrimonium; 2 quae et quot sint; 3
+            qualiter ad matrimonium se habeant.</p>
+
+        </div>
+        <div xml:id="ta-l4d31q1-Dd1e140" type="articulus">
+          <head xml:id="ta-l4d31q1-Hd1e142">Articulus 1</head>
+
+          <head xml:id="ta-l4d31q1-Hd1e145" type="questionTitle">Utrum matrimonium debeat habere aliqua bona quibus
+            excusetur</head>
+
+          <p xml:id="ta-l4d31q1-d1e148">Ad primum sic proceditur. Videtur quod matrimonium non debeat habere aliqua bona quibus
+            excusetur. Sicut enim conservatio individui, quae fit per ea quae ad nutritivam
+            pertinent, est de intentione naturae; ita conservatio speciei, quae fit per matrimonium;
+            et multo magis, quanto melius et divinius est bonum speciei quam bonum unius individui.
+            Sed ad actum nutritivae excusandum non indigetur aliquibus. Ergo nec etiam ad excusandum
+            matrimonium.</p>
+          <p xml:id="ta-l4d31q1-d1e151">Praeterea, secundum philosophum, in 8 Ethicor., amicitia quae est inter virum et
+            uxorem, est naturalis, et claudit in se honestum, utile et delectabile. Sed illud quod
+            de se est honestum, non indiget aliqua excusatione. Ergo nec bona excusantia debent
+            matrimonio attribui.</p>
+          <p xml:id="ta-l4d31q1-d1e154">Praeterea, matrimonium institutum est in remedium et in officium, ut supra, dist. 23,
+            quaest. 2, art. 1 et 2, dictum est. Sed secundum quod est in officium, non indiget
+            excusatione: quia sic etiam in Paradiso excusatione indiguisset, quod falsum est: ibi
+            enim fuissent nuptiae honorabiles, et torus immaculatus, ut Augustinus dicit. Similiter
+            nec secundum quod est in remedium; sicut nec alia sacramenta, quae in remedium peccati
+            instituta sunt. Ergo matrimonium hujusmodi excusantia habere non debet.</p>
+          <p xml:id="ta-l4d31q1-d1e158">Praeterea, ad omnia quae honeste fieri possunt, virtutes dirigunt. Si ergo matrimonium
+            aliquibus bonis potest honestari, non indiget aliis honestantibus quam animi virtutibus;
+            et sic non debent matrimonio aliqua bona assignari quibus honestetur, sicut nec aliis in
+            quibus virtutes dirigunt.</p>
+          <p xml:id="ta-l4d31q1-d1e161">Sed contra, ubicumque est indulgentia, ibi est necessaria aliqua excusationis ratio.
+            Sed matrimonium conceditur in statu infirmitatis secundum indulgentiam, ut patet 1
+            Corinth. 7. Ergo indiget per aliqua bona excusari.</p>
+          <p xml:id="ta-l4d31q1-d1e164">Praeterea, concubitus matrimonialis et fornicarius sunt ejusdem speciei quantum ad
+            speciem naturae. Sed concubitus fornicarius est de se turpis. Ergo ad hoc quod
+            matrimonialis non sit turpis, oportet ei aliquid addi quod ad honestatem ejus pertineat,
+            et in aliam speciem moris trahat.</p>
+          <p xml:id="ta-l4d31q1-d1e167">Respondeo dicendum, quod nullus sapiens debet jacturam aliquam sustinere nisi pro
+            aliqua recompensatione alicujus aequalis vel melioris boni; unde electio alicujus quod
+            aliquam jacturam habet annexam, indiget alicujus boni adjunctione, per cujus
+            recompensationem ordinetur, et honestetur. In conjunctione autem viri et mulieris
+            rationis jactura accidit: tum quia propter vehementiam delectationis absorbetur ratio,
+            ut non possit aliquid intelligere in ipsa, ut philosophus dicit: tum etiam propter
+            tribulationem carnis, quam oportet tales sustinere ex solicitudine temporalium, ut patet
+            1 Corinth., 7; et ideo electio talis conjunctionis non potest esse ordinata nisi per
+            recompensationem aliquorum ex quibus dicta conjunctio honestetur; et haec sunt bona quae
+            matrimonium excusant, et honestum reddunt.</p>
+          <p xml:id="ta-l4d31q1-d1e170">Ad primum ergo dicendum, quod in actu comestionis non est tam vehemens delectatio
+            rationem absorbens, sicut in praedicta delectatione: tum quia vis generativa, per quam
+            originale traducitur, est infecta et corrupta; nutritiva autem per quam non traducitur,
+            est corrupta et non infecta: tum quia defectum individui quilibet magis sentit in seipso
+            quam defectum speciei. Unde ad excitandum ad comestionem, secundum quam defectui
+            individui subvenitur, sufficit sensus ipsius defectus; sed ad excitandum ad actum quo
+            defectui speciei subvenitur, divina providentia delectationem apposuit in actu illo,
+            quae etiam alia bruta movet, in quibus non est infectio originalis peccati. Et ideo non
+            est simile.</p>
+          <p xml:id="ta-l4d31q1-d1e173">Ad secundum dicendum, quod ista bona quae matrimonium honestant, sunt de ratione
+            matrimonii; et ideo non indiget eis quasi exterioribus quibusdam ad honestandum, sed
+            quasi causantibus in ipso honestatem quae ei secundum se competit.</p>
+          <p xml:id="ta-l4d31q1-d1e177">Ad tertium dicendum, quod matrimonium ex hoc ipso quod est in officium vel remedium,
+            habet rationem utilis et honesti; sed utrumque horum ei competit ex hoc quod hujusmodi
+            bona habet, quibus fit et officiosum, et remedium ad concupiscentiam adhibens.</p>
+          <p xml:id="ta-l4d31q1-d1e180">Ad quartum dicendum, quod aliquis actus virtutis honestatur et virtute quasi principio
+            elicitivo, et circumstantiis quasi formalibus principiis ipsius. Hoc autem modo se
+            habent bona ad matrimonium sicut circumstantiae ad actum virtutis, ex quibus habet quod
+            virtutis actus esse possit.</p>
+
+        </div>
+        <div xml:id="ta-l4d31q1-Dd1e184" type="articulus">
+          <head xml:id="ta-l4d31q1-Hd1e186">Articulus 2</head>
+
+          <head xml:id="ta-l4d31q1-Hd1e189" type="questionTitle">Utrum sufficienter bona matrimonii assignentur in
+            littera</head>
+
+          <p xml:id="ta-l4d31q1-d1e192">Ad secundum sic proceditur. Videtur quod insufficienter bona matrimonii assignentur in
+            littera; scilicet fides, proles, et sacramentum. Quia matrimonium non solum fit in
+            hominibus ad prolem procreandam et nutriendam; sed ad consortium communis vitae propter
+            operum communicationem, ut dicitur in 8 Ethic. Ergo sicut ponitur proles bonum
+            matrimonii, ita deberet poni communicatio operum.</p>
+          <p xml:id="ta-l4d31q1-d1e195">Praeterea, conjunctio Christi ad Ecclesiam, quam matrimonium significat, perficitur per
+            caritatem. Ergo inter bona matrimonii magis deberet poni caritas quam fides.</p>
+          <p xml:id="ta-l4d31q1-d1e198">Praeterea, in matrimonio sicut exigitur quod neuter conjugum ad alterius torum accedat,
+            ita exigitur quod unus alteri debitum reddat. Sed primum pertinet ad fidem, ut in
+            littera dicitur. Ergo deberet etiam justitia propter redditionem debiti inter bona
+            matrimonii computari.</p>
+          <p xml:id="ta-l4d31q1-d1e202">Praeterea, sicut in matrimonio, inquantum significat conjunctionem Christi et
+            Ecclesiae, requiritur indivisibilitas; ita et unitas, ut sit una unius. Sed sacramentum
+            quod inter tria bona conjugii computatur, pertinet ad indivisionem. Ergo deberet esse
+            aliquid aliud quod pertineret ad unitatem.</p>
+          <p xml:id="ta-l4d31q1-d1e205">Sed contra, videtur quod superfluat. Quia unica virtus sufficit ad unicum actum
+            honestandum. Sed fides est quaedam virtus. Ergo non oportuit alia duo addere ad
+            honestandum matrimonium.</p>
+          <p xml:id="ta-l4d31q1-d1e208">Praeterea, non ex eodem aliquid accipit rationem utilis et honesti; cum utile et
+            honestum ex opposito bonum dividant. Sed ex prole matrimonium accipit rationem utilis.
+            Ergo proles non debet computari inter bona quibus matrimonium honestatur.</p>
+          <p xml:id="ta-l4d31q1-d1e211">Praeterea, nihil debet poni ut proprietas vel conditio sui ipsius. Sed haec bona
+            ponuntur ut quaedam conditiones matrimonii. Ergo cum matrimonium sit sacramentum, non
+            debet poni sacramentum inter bona matrimonii.</p>
+          <p xml:id="ta-l4d31q1-d1e214">Respondeo dicendum, quod matrimonium est in officium naturae, et est sacramentum
+            Ecclesiae. Inquantum ergo est in officium naturae, duobus ordinatur, sicut et quilibet
+            alius virtutis actus: quorum unum exigitur ex parte ipsius agentis, hoc est intentio
+            finis debiti, et sic ponitur bonum matrimonii proles: aliud exigitur ex parte ipsius
+            actus, qui est bonus in genere ex hoc quod cadit supra debitam materiam; et sic est
+            fides, per quam homo ad suam accedit, et non ad aliam. Sed ulterius habet aliquam
+            bonitatem inquantum est sacramentum; et hoc significatur ipso nomine sacramenti.</p>
+          <p xml:id="ta-l4d31q1-d1e217">Ad primum ergo dicendum, quod in prole non solum intelligitur procreatio prolis, sed
+            etiam educatio ipsius, ad quam sicut ad finem ordinatur tota communicatio operum quae
+            est inter virum et uxorem, inquantum sunt matrimonio juncti, quia patres naturaliter
+            thesaurizant filiis, ut patet 2 Corinth., 12, et sic in prole, quasi in principali fine,
+            alius quasi secundarius includitur.</p>
+          <p xml:id="ta-l4d31q1-d1e221">Ad secundum dicendum, quod fides non accipitur hic prout est virtus theologica, sed
+            prout est pars justitiae, secundum quod fides dicitur ex hoc quod fiunt dicta in
+            observatione promissorum: quia in matrimonio, cum sit quidam contractus, est quaedam
+            promissio, per quam talis vir tali mulieri determinatur.</p>
+          <p xml:id="ta-l4d31q1-d1e224">Ad tertium dicendum, quod sicut in promissione matrimonii continetur ut neuter ad
+            alterum torum accedat; ita etiam quod sibi invicem debitum reddant: et hoc etiam est
+            principalius, cum consequatur ex ipsa mutua potestate invicem data; et ideo utrumque ad
+            fidem pertinet; sed in littera ponitur illud quod est minus manifestum.</p>
+          <p xml:id="ta-l4d31q1-d1e227">Ad quartum dicendum, quod in sacramento non solum intelligenda est indivisio, sed omnia
+            illa quae consequuntur matrimonium ex hoc quod est signum conjunctionis Christi et
+            Ecclesiae. Vel dicendum, quod unitas quam objectio tangit, pertinet ad fidem, sicut
+            indivisio ad sacramentum.</p>
+          <p xml:id="ta-l4d31q1-d1e230">Ad quintum dicendum, quod fides non accipitur hic pro aliqua virtute, sed pro quadam
+            conditione virtutis, ex qua fides nominatur, quae ponitur pars justitiae.</p>
+          <p xml:id="ta-l4d31q1-d1e233">Ad sextum dicendum, quod sicut debitus usus boni utilis accipit rationem honesti, non
+            quidem ex utili, sed ex ratione quae rectum usum facit; ita etiam ordinatio ad aliquod
+            bonum utile potest facere bonitatem honestatis ex vi rationis debitam ordinationem
+            facientis; et hoc modo matrimonium ex hoc quod ordinatur ad prolem, utile est; et
+            nihilominus honestum, inquantum debite ordinatur.</p>
+          <p xml:id="ta-l4d31q1-d1e236">Ad septimum dicendum, quod, sicut Magister dicit in littera, sacramentum non dicitur
+            hic ipsum matrimonium, sed inseparabilitas ejus, quae est ejusdem rei signum cujus et
+            matrimonium. Vel dicendum, quod quamvis matrimonium sit sacramentum, tamen aliud est
+            matrimonio esse matrimonium, et aliud est ei esse sacramentum: quia non solum ad hoc est
+            institutum ut sit in signum rei sacrae, sed etiam ut sit in officium naturae; et ideo
+            ratio sacramenti est quaedam conditio adveniens matrimonio secundum se considerato, ex
+            quo etiam honestatem habet; et ideo sacramentalitas ejus, ut infra dicam, ponitur inter
+            bona honestantia matrimonium: et secundum hoc in tertio bono matrimonii, scilicet
+            sacramento, non solum intelligitur inseparabilitas, sed etiam omnia quae ad
+            significationem ipsius pertinent.</p>
+
+        </div>
+        <div xml:id="ta-l4d31q1-Dd1e240" type="articulus">
+          <head xml:id="ta-l4d31q1-Hd1e242">Articulus 3</head>
+
+          <head xml:id="ta-l4d31q1-Hd1e245" type="questionTitle">Utrum sacramentum sit principalius inter matrimonii bona</head>
+
+          <p xml:id="ta-l4d31q1-d1e248">Ad tertium sic proceditur. Videtur quod sacramentum non sit principalius inter
+            matrimonii bona. Quia finis est potissimum in unoquoque. Sed proles est matrimonii
+            finis. Ergo proles est principalius matrimonii bonum.</p>
+          <p xml:id="ta-l4d31q1-d1e251">Praeterea, principalius est in ratione speciei differentia, quae complet speciem, quam
+            genus; sicut forma quam materia in constitutione rei naturalis. Sed sacramentum competit
+            matrimonio ex ratione sui generis; proles autem et fides ex ratione differentiae,
+            inquantum est tale sacramentum. Ergo alia duo sunt magis principalia in matrimonio quam
+            sacramentum.</p>
+          <p xml:id="ta-l4d31q1-d1e254">Praeterea, sicut invenitur matrimonium sine prole et fide; ita invenitur sine
+            inseparabilitate; sicut patet quando alter conjugum ante matrimonium consummatum ad
+            religionem transit. Ergo nec ex hac ratione sacramentum est in matrimonio
+            principalius.</p>
+          <p xml:id="ta-l4d31q1-d1e258">Praeterea, effectus non potest esse principalior sua causa. Sed consensus, qui est
+            causa matrimonii, mutatur frequenter. Ergo et matrimonium dissolvi potest; et sic
+            inseparabilitas non semper concomitatur matrimonium.</p>
+          <p xml:id="ta-l4d31q1-d1e261">Praeterea, sacramenta quae habent effectum perpetuum, imprimunt characterem. Sed in
+            matrimonio non imprimitur character. Ergo non adest ei inseparabilitas perpetua; et ita
+            sicut est matrimonium sine prole, ita potest esse sine sacramento; et sic idem quod
+            prius.</p>
+          <p xml:id="ta-l4d31q1-d1e264">Sed contra, illud quod ponitur in definitione rei, est sibi maxime essentiale. Sed
+            indivisio quae pertinet ad sacramentum, ponitur in definitione supra de matrimonio data;
+            non autem proles, vel fides. Ergo sacramentum inter alia matrimonio est
+            essentialius.</p>
+          <p xml:id="ta-l4d31q1-d1e267">Praeterea, virtus divina, quae in sacramentis operatur, est efficacior quam virtus
+            humana. Sed proles et fides pertinent ad matrimonium, secundum quod est in officium
+            naturae humanae; sacramentum autem secundum quod est ex institutione divina. Ergo
+            sacramentum est principalius in matrimonio quam alia duo.</p>
+          <p xml:id="ta-l4d31q1-d1e270">Respondeo dicendum, quod aliquid dicitur in re aliqua principalius altero duobus modis:
+            aut quia est essentialius, aut quia dignius. Si quia dignius, sic omnibus modis
+            sacramentum est principalius inter tria conjugii bona: quia pertinet ad matrimonium
+            inquantum est sacramentum gratiae; alia vero duo pertinent ad ipsum inquantum est
+            quoddam naturae officium: perfectio autem gratiae est dignior perfectione naturae. Si
+            autem dicatur principalius quod est essentialius, sic distinguendum est: quia fides et
+            proles possunt dupliciter considerari. Uno modo in seipsis; et sic pertinent ad usum
+            matrimonii, per quem et proles producitur, et pactio conjugalis servatur; sed
+            indivisibilitas, quam sacramentum importat, pertinet ad ipsum matrimonium secundum se;
+            quia ex hoc ipso quod per pactionem conjugalem sui potestatem sibi invicem in perpetuum
+            conjuges tradunt, sequitur quod separari non possint; et inde est quod matrimonium
+            nunquam invenitur sine inseparabilitate; invenitur autem sine fide et prole, quia esse
+            rei non dependet ab usu suo; et secundum hoc sacramentum est essentialius matrimonio
+            quam fides et proles. Alio modo possunt considerari fides et proles secundum quod sunt
+            in suis principiis, ut pro prole accipiatur intentio prolis, et pro fide debitum
+            servandi fidem; sine quibus etiam matrimonium esse non potest, quia haec in matrimonio
+            ex ipsa pactione conjugali causantur; ita quod si aliquid contrarium hujusmodi
+            exprimeretur in consensu qui matrimonium facit, non esset verum matrimonium; et sic
+            accipiendo fidem et prolem, proles est essentialissimum in matrimonio, et secundo fides,
+            et tertio sacramentum; sicut etiam homini est essentialius esse naturae quam esse
+            gratiae, quamvis esse gratiae sit dignius.</p>
+          <p xml:id="ta-l4d31q1-d1e273">Ad primum ergo dicendum, quod finis secundum intentionem est primum in re, sed secundum
+            consecutionem est ultimum; et similiter se habet proles inter matrimonii bona; et ideo
+            quodammodo est principalius, et quodammodo non.</p>
+          <p xml:id="ta-l4d31q1-d1e277">Ad secundum dicendum, quod sacramentum, etiam prout ponitur tertium matrimonii bonum,
+            pertinet ad matrimonium ratione suae differentiae. Dicitur enim sacramentum ex
+            significatione hujus rei sacrae determinatae, quam matrimonium significat.</p>
+          <p xml:id="ta-l4d31q1-d1e280">Ad tertium dicendum, quod nuptiae, secundum Augustinum, sunt bonum mortalium; unde in
+            resurrectione non nubent neque nubentur, ut dicitur Matth. 22; et ideo vinculum
+            matrimonii non se extendit ultra vitam in qua contrahitur; et ideo dicitur inseparabile,
+            quia non potest in hac vita separari; sed per mortem separari potest, sive corporalem
+            post carnalem conjunctionem, sive spiritualem, post spiritualem tantum.</p>
+          <p xml:id="ta-l4d31q1-d1e283">Ad quartum dicendum, quod quamvis consensus qui facit matrimonium, non sit perpetuus
+            materialiter, idest quantum ad substantiam actus; quia ille actus cessat, et potest
+            contrarius succedere; tamen, formaliter loquendo, est perpetuus; quia est de
+            perpetuitate vinculi, alias non faceret matrimonium: non enim consensus ad tempus ad
+            aliquam matrimonium facit. Et dico formaliter, secundum quod actus accipit speciem ab
+            objecto; et secundum hoc matrimonium ex consensu inseparabilitatem accipit.</p>
+          <p xml:id="ta-l4d31q1-d1e286">Ad quintum dicendum, quod in sacramentis in quibus imprimitur character, traditur
+            potestas ad actus spirituales; sed in matrimonio ad actus corporales; unde matrimonium
+            ratione potestatis quam in se invicem conjuges accipiunt, convenit cum sacramentis in
+            quibus character imprimitur, et ex hoc habet inseparabilitatem, ut in littera dicitur,
+            sed differt ab eis, inquantum potestas illa est ad actus corporales; et propter hoc non
+            imprimit characterem spiritualem.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

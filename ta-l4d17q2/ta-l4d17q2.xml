@@ -1,0 +1,1060 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 17, Quaestio 2</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Librum IV, Distinctio 17, Quaestio 2</title>
+          <date when="2016-03-19">March 19, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-19">March 19, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness>1856 editum</witness>
+          <witness xml:id="G" n="ghent567">Ghent, Belgium, Ghent University Library, 567</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="0.0.0-dev">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+
+
+
+
+      <div xml:id="starts-on">
+        <cb ed="#G" n="306b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ta-l4d17q2">
+        <head xml:id="ta-l4d17q2-Hd1e97">Librum IV, Distinctio 17, Quaestio 2</head>
+        <div xml:id="ta-l4d17q2-Dd1e100">
+          <head xml:id="ta-l4d17q2-Hd1e102">Prooemium</head>
+          <p xml:id="ta-l4d17q2-d1e105">Deinde quaeritur de contritione; et circa hoc quaeruntur quinque: 1 quid sit; 2 de quo
+            esse debeat; 3 quanta esse debeat; 4 de duratione ipsius; 5 de effectu ejus.</p>
+
+        </div>
+        <div xml:id="ta-l4d17q2-Dd1e109" type="articulus">
+          <head xml:id="ta-l4d17q2-Hd1e111">Articulus 1</head>
+
+          <head xml:id="ta-l4d17q2-Hd1e114" type="questionTitle">Utrum contritio sit dolor pro peccatis assumptus cum proposito
+            confitendi et satisfaciendi</head>
+
+          <div xml:id="ta-l4d17q2-Dd1e117">
+            <head xml:id="ta-l4d17q2-Hd1e119">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d17q2-d1e122">Ad primum sic proceditur. Videtur quod contritio non sit <quote xml:id="ta-l4d17q2-Qd1e124">dolor pro peccatis
+                assumptus cum proposito confitendi et satisfaciendi</quote>, ut quidam definiunt.
+              Dolor enim in hoc a timore differt, quod dolor est de malo praesenti, timor de malo
+              futuro. Sed peccata de quibus homo conteritur, non sunt quando est contritio, ut ex
+              dictis patet. Ergo de eis non potest esse dolor.</p>
+            <p xml:id="ta-l4d17q2-d1e128">Praeterea, secundum Augustinum, in Lib. de Civ. Dei, dolor est de his quae nobis
+              nolentibus accidunt. Sed peccata non sunt hujusmodi. Ergo et cetera.</p>
+            <p xml:id="ta-l4d17q2-d1e131">Praeterea, si dolet de peccatis praeteritis; aut vult ea non esse, aut non fuisse. Si
+              vult ea non esse, et jam non sunt; ergo habet quod vult; ergo magis gaudium est quam
+              dolor. Si autem vult ea non fuisse, hoc autem est impossibile, quia quod factum est
+              non potest non fuisse; ergo voluntas sua stulta est; quod non est dicendum de
+              contrito; quia nullus qui secundum virtutem operatur, est stultus, ut dicitur in 4
+              Ethic.; ergo contritio nullo modo est dolor.</p>
+            <p xml:id="ta-l4d17q2-d1e134">Praeterea, sicut in contritione requiritur dolor, ita et pudor, et etiam gaudium.
+              Ergo non magis debet dici dolor quam gaudium, vel pudor.</p>
+            <p xml:id="ta-l4d17q2-d1e138">Praeterea, contritio omnia peccata sanat. Sed contraria contrariis sanantur. Ergo
+              contritio debet esse contraria omnibus peccatis. Sed quaedam peccata sunt dolores,
+              sicut invidia et accidia. Ergo contritio non est dolor.</p>
+            <p xml:id="ta-l4d17q2-d1e141">Praeterea, contritio nobis a Deo datur. Sed quod datur, non assumitur. Ergo contritio
+              non est dolor assumptus.</p>
+            <p xml:id="ta-l4d17q2-d1e144">Praeterea, quandoque contritio sequitur confessionem. Sed ille qui nunc est confessus
+              de peccato uno, non tenetur iterum confiteri, ut infra dicetur, dist. 22, qu. 1, art.
+              4. Ergo non oportet in contritione esse propositum confitendi.</p>
+            <p xml:id="ta-l4d17q2-d1e147">Praeterea, satisfactio et confessio sunt necessaria ad hoc quod poena remittatur,
+              quae in contritione remissa non fuit. Sed quandoque tota in contritione remittitur.
+              Ergo non est necessarium semper quod contritus habeat propositum confitendi et
+              satisfaciendi.</p>
+
+          </div>
+          <div xml:id="ta-l4d17q2-Dd1e151">
+            <head xml:id="ta-l4d17q2-Hd1e153">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d17q2-d1e156">Ulterius. Videtur quod contritio non sit actus virtutis. Passiones enim non sunt
+              actus virtutum; quia eis non laudamur neque vituperamur, sicut dicitur in 2 Ethic. Sed
+              dolor est passio. Cum ergo contritio sit dolor, videtur quod non sit actus
+              virtutis.</p>
+            <p xml:id="ta-l4d17q2-d1e159">Praeterea, omnis actus virtutis est ab eo qui habet virtutem. Sed contritio non
+              significatur ut procedens a contrito, sed magis ut in ipsum ab alio effectu procedit;
+              et similiter compunctio, secundum quod alio nomine dicitur. Ergo contritio non est
+              actus virtutis.</p>
+            <p xml:id="ta-l4d17q2-d1e162">Praeterea, sicut contritio dicitur a terendo, ita et attritio. Sed attritio non est
+              actus virtutis, ut ab omnibus dicitur. Ergo nec contritio.</p>
+            <p xml:id="ta-l4d17q2-d1e165">Praeterea, actus virtutum sunt secundum omne tempus eodem modo, eo quod sunt de lege
+              naturali: sed contritio non videtur quod semper sit eodem modo in veteri et nova lege;
+              quia nec confessio, nec satisfactio, contra quae dividitur. Ergo contritio non est
+              actus virtutis.</p>
+            <p xml:id="ta-l4d17q2-d1e169">Sed contra, nihil est meritorium nisi actus virtutis. Sed contritio est actus quidam
+              meritorius. Ergo est actus virtutis.</p>
+            <p xml:id="ta-l4d17q2-d1e172">Praeterea, sicut ad virtutem pertinet facere bonum, ita declinare a malo, eo quod
+              utrumque est justitiae generalis pars, quae est omnis virtus. Sed declinamus a malo
+              per contritionem. Ergo contritio est actus virtutis, sicut actus quibus aliquid boni
+              facimus.</p>
+
+          </div>
+          <div xml:id="ta-l4d17q2-Dd1e176">
+            <head xml:id="ta-l4d17q2-Hd1e178">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d17q2-d1e181">Ulterius. Videtur quod attritio possit fieri contritio. Differt enim contritio ab
+              attritione, sicut formatum ab informi. Sed fides informis fit formata. Ergo attritio
+              potest fieri contritio.</p>
+            <p xml:id="ta-l4d17q2-d1e184">Praeterea, materia recipit perfectionem remota privatione. Sed dolor se habet ad
+              gratiam, sicut materia ad formam; quia gratia informat dolorem. Ergo dolor qui prius
+              erat informis, culpa existente, quae est privatio gratiae; remota culpa recipiet
+              perfectionem informationis a gratia; et sic idem quod prius.</p>
+            <p xml:id="ta-l4d17q2-d1e187">Praeterea, illud quod totum esse suae speciei habet in instanti, manet idem in
+              diversis instantibus temporis, sicut esse hominem est idem in primo instanti
+              generationis, et in omnibus sequentibus. Sed motus liberi arbitrii est hujusmodi, ut
+              supra dictum est. Ergo potest manere idem in diversis instantibus temporis; ergo est
+              idem numero cum gratia et sine gratia; et sic videtur quod ille motus liberi arbitrii
+              qui prius erat informis, postea possit esse formatus; et sic attritio fiet
+              contritio.</p>
+            <p xml:id="ta-l4d17q2-d1e190">Sed contra, quorum principia sunt diversa omnino, eorum non potest fieri unum id quod
+              est alterum. Sed attritionis principium est timor servilis, contritionis autem timor
+              initialis. Ergo attritio non potest fieri contritio.</p>
+            <p xml:id="ta-l4d17q2-d1e194">Praeterea, naturalia non fiunt gratuita secundum communiorem opinionem. Sed naturale
+              dicitur quod est ante gratiam; et sic attritio inter naturalia computabitur. Ergo non
+              potest fieri contritio, cum sit gratuitum bonum.</p>
+          </div>
+          <div xml:id="ta-l4d17q2-Dd1e199">
+            <head xml:id="ta-l4d17q2-Hd1e201">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d17q2-d1e204">Respondeo dicendum ad primam quaestionem, quod initium omnis peccati est superbia,
+              per quam homo sensui suo inhaerens, a mandatis divinis recedit; et ideo oportet quod
+              illud quod destruit peccatum, hominem a sensu suo discedere faciat. Ille autem qui in
+              sensu suo perseverat, rigidus et durus per similitudinem vocatur; unde et frangi
+              aliquis dicitur, quando a sensu suo divellitur. Sed inter fractionem et comminutionem,
+              sive contritionem, in rebus materialibus, unde haec nomina ad spiritualia
+              transferuntur, hoc interest, ut dicitur in 4 Meteor., quod frangi dicuntur aliqua
+              quando in magnas partes dividuntur; sed comminui vel conteri, quando ad partes minimas
+              reducitur hoc quod in se solidum erat. Et quia ad dimissionem peccati requiritur quod
+              homo totaliter affectum peccati dimittat, per quem quamdam continuitatem et
+              soliditatem in sensu suo habebat; ideo actus ille quo peccatum remittitur, contritio
+              dicitur per similitudinem. In qua quidem contritione plura possunt considerari;
+              scilicet ipsa substantia actus, modus agendi, principium et effectus; et secundum hoc
+              de contritione inveniuntur diversae definitiones traditae. Quantum enim ad ipsam
+              substantiam actus datur praedicta definitio. Et quia actus contritionis est actus
+              virtutis, et est pars poenitentiae sacramenti; ideo manifestatur in praedicta
+              definitione inquantum est actus virtutis, per hoc quod ponitur genus ipsius, scilicet
+                <quote xml:id="ta-l4d17q2-Qd1e206">dolor</quote>, et objectum in hoc quod dicit, <quote xml:id="ta-l4d17q2-Qd1e209">pro peccatis</quote>; et
+              electio quae requiritur ad actum virtutis, in hoc quod dicit,
+              <quote xml:id="ta-l4d17q2-Qd1e212">assumptus</quote>; sed inquantum est pars sacramenti, per hoc quod tangitur
+              ordo ipsius ad alias partes, cum dicit, <quote xml:id="ta-l4d17q2-Qd1e215">cum proposito confitendi</quote> et
+              cetera. Alia etiam definitio invenitur, quae definit contritionem secundum quod est
+              actus virtutis tantum; sed additur ad praedictam definitionem differentia contrahens
+              ipsum ad specialem virtutem, scilicet poenitentiam: dicit enim, quod poenitentia est
+                <quote xml:id="ta-l4d17q2-Qd1e218">dolor voluntarius, semper pro peccato puniens quod dolet commisisse</quote>.
+              In hoc enim quod additur punitio, ad specialem virtutem contrahitur; et de virtute
+              hujus supra, dist. 14, qu. 1, art. 1, quaestiunc. 3, dictum est; quia ibi est posita
+              quasi similis definitio de poenitentia, cui praecipue competit ratione contritionis.
+              Alia autem definitio invenitur Isidori, quae talis est: <quote xml:id="ta-l4d17q2-Qd1e222">contritio est
+                compunctio et humilitas mentis cum lacrymis, veniens de recordatione peccati et
+                timore judicii</quote>; et haec quidem tangit rationem nominis in hoc quod dicit:
+                <quote xml:id="ta-l4d17q2-Qd1e225">humilitas mentis</quote>; quia sicut per superbiam aliquis in sensu suo
+              rigidus dicitur, ita per hoc quod a sensu suo contritus recedit, humiliatur. Tangit
+              etiam modum exteriorem in hoc quod dicit: <quote xml:id="ta-l4d17q2-Qd1e228">cum lacrymis</quote>; et principium
+              contritionis in hoc quod dicit: <quote xml:id="ta-l4d17q2-Qd1e231">veniens de recordatione peccati et timore
+                judicii</quote>. Alia sumitur ex verbis Augustini, quae tangit effectum
+              contritionis, scilicet: <quote xml:id="ta-l4d17q2-Qd1e234">contritio est dolor remittens peccatum</quote>. Alia
+              sumitur ex verbis Gregorii, quae talis est: <quote xml:id="ta-l4d17q2-Qd1e237">contritio est humilitas spiritus
+                annihilans peccatum, inter spem et timorem</quote>; et haec tangit rationem nominis
+              in hoc quod dicit, quod <quote xml:id="ta-l4d17q2-Qd1e241">contritio est humilitas spiritus</quote>; et effectus
+              ejus, in hoc quod dicit, <quote xml:id="ta-l4d17q2-Qd1e244">annihilans peccatum</quote>; et originem in hoc quod
+              dicit, <quote xml:id="ta-l4d17q2-Qd1e247">inter spem et timorem</quote>; nec solum ponit causam principalem, quae
+              est timor, sed etiam secundariam quae est spes, sine qua timor desperationem facere
+              posset.</p>
+            <p xml:id="ta-l4d17q2-d1e251">Ad primum ergo dicendum, quod dolor non est nisi de eo quod aliquo modo praesens est.
+              Peccatum autem praeteritum, etsi non sit praesens, est tamen praesens quantum ad
+              aliquem effectum ejus, vel dispositionem ad peccandum, vel reatum aut maculam, vel
+              etiam damnum temporis, quod aliquo modo non potest recuperari etiam poenitentia
+              peracta; vel etiam amissionem dignitatis innocentiae, ad quam nunquam redire potest,
+              per quam dicere potuisset: <quote xml:id="ta-l4d17q2-Qd1e253">non reprehendit me cor meum in omni vita
+              mea</quote>; Job 27, 6. Vel dicendum, quod peccatum praeteritum dolorem excitat,
+              inquantum praesentialiter in memoria manet; sicut etiam memorando praeterita tristia,
+              sic eis afficimur ac si praesentia essent. Potest etiam dici, quod sicut memoria quae
+              est in intellectiva parte, non est tantum praeteritorum, sed etiam praesentium, ut in
+              1 Lib., dist. 3, qu. 1, art. 4, dictum est, quamvis memoria quae est sensitivae
+              partis, sit tantum praeteritorum; ita dolor, qui est in appetitu intellectivae partis,
+              potest esse et praeteritorum et praesentium, quamvis dolor sensitivae partis tantum
+              sit praesentium, eo quod intellectus abstrahit a qualibet temporis differentia, sicut
+              et ab aliis conditionibus materialibus quas sensus concernit.</p>
+            <p xml:id="ta-l4d17q2-d1e257">Ad secundum dicendum, quod quamvis peccata, quando acciderunt, voluntaria fuerunt,
+              tamen quando de eis conterimur voluntaria non sunt; et ideo nobis nolentibus
+              acciderunt, non quidem secundum voluntatem quam habuimus cum ea volebamus, sed
+              secundum illam quam nunc habemus, qua vellemus ut nunquam fuissent.</p>
+            <p xml:id="ta-l4d17q2-d1e260">Ad tertium dicendum, quod quamvis voluntas completa non possit esse alicujus
+              sapientis de impossibili; tamen voluntas conditionata, quae et velleitas dicitur, esse
+              potest de impossibilibus; qua etiam sapiens vellet quod impossibile est, si possibile
+              foret: et ista voluntas sufficit ad dolorem causandum; et praecipue quando
+              impossibilitas obtinendi quod volumus, ex nobis provenit; et sic est in proposito.</p>
+            <p xml:id="ta-l4d17q2-d1e264">Ad quartum dicendum, quod quamvis sit in contritione gaudium et pudor, tamen gaudium
+              non respicit directe peccatum, sed magis gratiam recuperatam, vel etiam ipsum dolorem,
+              per quem gratia recuperatur. Similiter pudor respicit effectum peccati, qui est
+              ingloriatio, quia verecundia secundum philosophum est timor ingloriationis; sed dolor
+              directe ipsum peccatum respicit; et ideo contritio, quae ad deletionem peccati
+              ordinatur, magis dicitur dolor quam aliquid supra dictorum.</p>
+            <p xml:id="ta-l4d17q2-d1e267">Ad quintum dicendum, quod dolor non solum opponitur gaudio secundum genus, sed etiam
+              opponitur specialiter dolor de bono, dolori de malo, sicut gaudium de bono, gaudio de
+              malo; unde etiam aliquando aliquis dolet se prius doluisse; et secundum hoc contritio,
+              quamvis sit dolor, potest sanare peccata quae in dolore consistunt. Vel dicendum, quod
+              quamvis aliqua peccata in dolore consistant, tamen illius doloris causa est
+              delectatio, vel amor illicitus; et secundum hoc dolore, quasi contrario, sanari
+              possunt.</p>
+            <p xml:id="ta-l4d17q2-d1e270">Ad sextum dicendum, quod contritio est a Deo solo quantum ad formam qua informatur;
+              sed quantum ad substantiam actus est ex libero arbitrio, et a Deo, qui operatur in
+              omnibus operibus et naturae et voluntatis.</p>
+            <p xml:id="ta-l4d17q2-d1e273">Ad septimum dicendum, quod contritio naturaliter praecedit confessionem; sed quod
+              aliquando sequatur, est per accidens ex defectu poenitentis; et tamen tunc etiam debet
+              habere propositum confitendi, si aliquid memoriae occurrat quod confessus non sit.</p>
+            <p xml:id="ta-l4d17q2-d1e276">Ad octavum dicendum, quod quamvis tota poena possit per contritionem dimitti, tamen
+              adhuc necessaria est confessio et satisfactio: tum quia homo non potest esse certus de
+              sua contritione, quod fuerit ad totum tollendum sufficiens; tum quia confessio et
+              satisfactio sunt in praecepto; unde transgressor constitueretur, si non confiteretur
+              et satisfaceret.</p>
+
+          </div>
+          <div xml:id="ta-l4d17q2-Dd1e280">
+            <head xml:id="ta-l4d17q2-Hd1e282">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d17q2-d1e285">Ad secundam quaestionem dicendum, quod contritio secundum proprietatem sui nominis
+              non significat actum virtutis, sed magis quamdam corporalem passionem. Sed hic non
+              quaeritur sic de contritione, sed de eo ad quod significandum hoc nomen per
+              similitudinem adaptatur. Sicut enim inflatio propriae voluntatis ad malum faciendum
+              importat, quantum est de se, malum ex genere; ita illius voluntatis annihilatio et
+              comminutio quaedam de se importat bonum ex genere; quia hoc est detestari propriam
+              voluntatem, qua peccatum commissum est; et ideo contritio, quae hoc significat,
+              importat aliquam rectitudinem voluntatis; et propter hoc est actus virtutis illius
+              cujus est peccatum praeteritum detestari et destruere, scilicet poenitentiae, ut patet
+              ex his quae in 14 dist., qu. 1, art. 1, quaestiunc. 3, dicta sunt.</p>
+            <p xml:id="ta-l4d17q2-d1e288">Ad primum ergo dicendum, quod in contritione est duplex dolor de peccato. Unus in
+              parte sensitiva, qui passio est; et hic non est essentialiter contritio, prout est
+              actus virtutis, sed magis effectus ipsius. Sicut enim poenitentiae virtus exteriorem
+              poenam suo corpori infligit ad recompensandum offensam quae in Deum commissa est
+              officio membrorum; ita etiam et ipsi concupiscibili poenam infert doloris praedicti,
+              quia ipsa etiam ad peccatum cooperabatur. Sed tamen hic dolor potest pertinere ad
+              contritionem, inquantum est pars sacramenti; quia sacramenta non solum in interioribus
+              actibus, sed etiam in exterioribus, et in rebus sensibilibus, nata sunt esse. Alius
+              dolor est in voluntate, qui nihil aliud est quam displicentia alicujus mali, secundum
+              quod affectus voluntatis nominatur per nomina passionum, ut in 3 Lib., dist. 26, qu.
+              1, art. 5, in corp., dictum est; et sic contritio est dolor per essentiam, et est
+              actus virtutis poenitentiae.</p>
+            <p xml:id="ta-l4d17q2-d1e291">Ad secundum dicendum, quod contritio passive accepta, de ratione sui dicit passionem
+              alicui corpori inhaerentem; sed quod ab alio sit inflicta, hoc non dicit ex ratione
+              sui nominis, sed ex consequenti, scilicet ex natura patientis, quod non est natum in
+              seipsum agere; et ideo quando transfertur ad actum voluntatis, quae seipsam nata est
+              movere, salvatur ibi similitudo et actionis et passionis in ipsa voluntate. Inquantum
+              enim ille rigor quo propriam voluntatem quis secutus est, dissolvitur, sic ipsius
+              voluntatis quasi quaedam passio est contritio; inquantum autem non alio cogente, sed
+              sua sponte hoc accidit, seipsam conterere dicitur.</p>
+            <p xml:id="ta-l4d17q2-d1e294">Ad tertium dicendum, quod attritio non dicit accessum ad perfectam contritionem; unde
+              in corporalibus dicuntur attrita quae aliquo modo sunt comminuta, sed non perfecte;
+              sed contritio dicitur quando omnes partes tritae sunt simul per divisionem ad minima:
+              et ideo significat attritio in spiritualibus quamdam displicentiam de peccatis
+              commissis, sed non perfectam; contritio autem perfectam.</p>
+            <p xml:id="ta-l4d17q2-d1e298">Ad quartum dicendum, quod contritio, secundum quod in se consideratur, fuit semper
+              eodem modo in qualibet lege. Sicut enim futurum peccatum semper oportet vitare, ita
+              semper et de commisso dolere. Sed secundum quod importat ordinem ad alias poenitentiae
+              partes, non semper fuit eodem modo, eo quod aliae partes eodem modo non semper
+              fuerunt; unde non oportet quod semper eodem modo fuerit propositum confitendi et
+              satisfaciendi, quod in definitione contritionis ponitur.</p>
+
+          </div>
+          <div xml:id="ta-l4d17q2-Dd1e302">
+            <head xml:id="ta-l4d17q2-Hd1e304">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d17q2-d1e307">Ad tertiam quaestionem dicendum, quod super hoc est duplex opinio. Quidam enim
+              dicunt, quod attritio fit contritio, sicut fides informis fit formata. Sed hoc, ut
+              videtur, non potest esse; quia quamvis habitus fidei informis fiat formatus, nunquam
+              tamen actus fidei informis fit actus fidei formatae; quia actus ille informis transit,
+              et non manet veniente caritate. Attritio autem et contritio non dicunt habitum, sed
+              actum tantum; habitus enim virtutum infusarum, qui voluntatem respiciunt, non possunt
+              esse informes, cum caritatem consequantur, ut in 3 Lib., dist. 23, qu. 3, art. 1,
+              quaestiunc. 1, dictum est. Unde antequam gratia infundatur, non est habitus, a quo
+              actus contritionis postea elicitur; et sic nullo modo attritio potest fieri contritio;
+              et hoc alia opinio dicit.</p>
+            <p xml:id="ta-l4d17q2-d1e310">Ad primum ergo dicendum, quod non est simile de fide et contritione, ut dictum
+              est.</p>
+            <p xml:id="ta-l4d17q2-d1e313">Ad secundum dicendum, quod remota privatione a materia quae manet perfectione
+              adveniente, formatur materia illa; sed dolor ille qui erat informis, non manet
+              caritate adveniente; et ideo formari non potest. Vel dicendum, quod materiae essentia
+              non habet originem a forma, sicut actus habet originem ab habitu quo formatur; unde
+              non est inconveniens materiam informari aliqua forma de novo, qua prius non
+              informabatur; sed hoc de actu est impossibile, sicut impossibile est quod aliquid idem
+              numero oriatur a principio a quo prius non oriebatur; quia res semel tantum in esse
+              procedit.</p>
+            <p xml:id="ta-l4d17q2-d1e316">Ad tertium dicendum, quod quamvis motus intellectus et voluntatis habeat totam suam
+              speciem in uno instanti, sicut res permanens; tamen secundum accidens mensuratur
+              tempore, secundum quod causae suae variabiles sunt per tempus. Sic enim esse hominem,
+              quod est in instanti, tempore mensuratur; et quamdiu causae esse hominis manent
+              eaedem, et ipsum esse manet; sed mutatis causis, mutatur illud esse, priori destructo:
+              quia generatio unius est corruptio alterius. Et similiter ipsa dispositio voluntatis
+              quae talem actum causabat, mutatur et transit, et actus ille idem non manet, nec semel
+              transiens potest iterum resumi.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d17q2-Dd1e321" type="articulus">
+          <head xml:id="ta-l4d17q2-Hd1e323">Articulus 2</head>
+
+          <head xml:id="ta-l4d17q2-Hd1e326" type="questionTitle">Utrum homo debeat conteri de poenis, non solum de culpis</head>
+
+          <div xml:id="ta-l4d17q2-Dd1e329">
+            <head xml:id="ta-l4d17q2-Hd1e331">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d17q2-d1e334">Ad secundum sic proceditur. Videtur quod homo debeat conteri de poenis, non solum de
+              culpis. Augustinus enim in Lib. de poenitentia dicit: <quote xml:id="ta-l4d17q2-Qd1e336">nemo vitam aeternam
+                desiderat, nisi eum hujus vitae mortalis poeniteat</quote>. Sed mortalitas vitae
+              quaedam poena est. Ergo debet poenitens etiam de poenis conteri.</p>
+            <p xml:id="ta-l4d17q2-d1e340">Praeterea, supra habitum est ex verbis Augustini, quod poenitens debet dolere ex hoc
+              quod virtute se privavit. Sed privatio virtutis quaedam poena est. Ergo contritio est
+              dolor etiam de poenis.</p>
+            <p xml:id="ta-l4d17q2-d1e343">Sed contra, nullus tenet id de quo dolet. Sed poenitens, secundum suum nomen, poenam
+              tenet. Ergo non dolet de poena; et sic contritio, quae est dolor poenitentialis, non
+              est de poena.</p>
+
+          </div>
+          <div xml:id="ta-l4d17q2-Dd1e347">
+            <head xml:id="ta-l4d17q2-Hd1e349">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d17q2-d1e352">Ulterius. Videtur quod contritio esse debeat de originali. De peccato enim actuali
+              conteri debemus, non ratione actus inquantum est ens quoddam, sed ratione
+              deformitatis, quia actus secundum suam substantiam bonum quoddam est a Deo. Sed
+              peccatum originale habet deformitatem, sicut et actuale. Ergo etiam de eo conteri
+              debemus.</p>
+            <p xml:id="ta-l4d17q2-d1e355">Praeterea, per peccatum originale homo fuit a Deo aversus, quia poena ejus erat
+              carentia divinae visionis. Sed cuilibet debet displicere se fuisse a Deo aversum. Ergo
+              homo debet habere displicentiam peccati originalis, et sic debet de ipso conteri.</p>
+            <p xml:id="ta-l4d17q2-d1e358">Sed contra, medicina debet esse proportionata morbo. Sed peccatum originale sine
+              nostra voluntate contractum est. Ergo non requiritur quod per actum voluntatis, qui
+              est contritio, ab ipso purgemur.</p>
+
+          </div>
+          <div xml:id="ta-l4d17q2-Dd1e362">
+            <head xml:id="ta-l4d17q2-Hd1e364">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d17q2-d1e367">Ulterius. Videtur quod non de omni actuali peccato commisso a nobis debeamus conteri.
+              Quia contraria contrariis curantur. Sed quaedam peccata per tristitiam committuntur,
+              sicut acedia et invidia. Ergo medicina eorum non debet esse tristitia, quae est
+              contritio, sed gaudium.</p>
+            <p xml:id="ta-l4d17q2-d1e370">Praeterea, contritio est actus voluntatis, qui non potest esse de eo quod cognitioni
+              non subjacet. Sed quaedam peccata sunt quae in cognitione non habemus, sicut oblita.
+              Ergo de eis non potest esse contritio.</p>
+            <p xml:id="ta-l4d17q2-d1e373">Praeterea, per voluntariam contritionem delentur illa quae per voluntatem
+              committuntur. Sed ignorantia voluntarium tollit, ut patet per philosophum in 3 Ethic.
+              Ergo de eis quae per ignorantiam accidunt, non debet esse contritio.</p>
+            <p xml:id="ta-l4d17q2-d1e376">Praeterea, de illo peccato non debet esse contritio quod per contritionem non
+              tollitur. Sed quaedam peccata sunt quae non tolluntur per contritionem, scilicet
+              venialia, quae adhuc post contritionis gratiam manent. Ergo non de omnibus peccatis
+              praeteritis debet esse contritio.</p>
+            <p xml:id="ta-l4d17q2-d1e380">Sed contra, poenitentia est medicina contra omnia peccata actualia. Sed poenitentia
+              non est aliquorum quorum non sit contritio, quae est prima pars ejus. Ergo et de
+              omnibus peccatis debet esse contritio.</p>
+            <p xml:id="ta-l4d17q2-d1e383">Praeterea, nullum peccatum remittitur, nisi quis justificetur. Sed ad justificationem
+              requiritur contritio, ut prius dictum est. Ergo de quolibet peccato conteri
+              oportet.</p>
+
+          </div>
+          <div xml:id="ta-l4d17q2-Dd1e388">
+            <head xml:id="ta-l4d17q2-Hd1e390">Quaestiuncula 4</head>
+            <p xml:id="ta-l4d17q2-d1e393">Ulterius. Videtur quod etiam de peccatis futuris aliquis debeat conteri. Contritio
+              enim est actus liberi arbitrii. Sed liberum arbitrium magis se extendit ad futura quam
+              ad praeterita; quia electio, quae est actus liberi arbitrii, est de contingentibus
+              futuris, ut dicitur in 3 Ethic. Ergo contritio est magis de peccatis futuris quam de
+              praeteritis.</p>
+            <p xml:id="ta-l4d17q2-d1e396">Praeterea, peccatum aggravatur ex consequenti effectu. Unde Hieronymus dicit, quod
+              poena Arii nondum est determinata, quia adhuc est possibile aliquos per ejus haeresim
+              corruere, quibus corruentibus semper ejus poena augetur; et similiter est de illo qui
+              judicatur homicida, si letaliter percussit, etiam antequam percussus moriatur. Sed in
+              illo intermedio debet peccator conteri de peccato. Ergo non solum secundum quod habet
+              quantitatem ex praeterito actu, sed etiam secundum quod habet quantitatem ex futuro:
+              et sic contritio respicit futurum.</p>
+            <p xml:id="ta-l4d17q2-d1e399">Sed contra, contritio est pars poenitentiae. Sed poenitentia semper respicit
+              praeteritum. Ergo et contritio; et sic non est de peccato futuro.</p>
+
+          </div>
+          <div xml:id="ta-l4d17q2-Dd1e403">
+            <head xml:id="ta-l4d17q2-Hd1e405">Quaestiuncula 5</head>
+            <p xml:id="ta-l4d17q2-d1e408">Ulterius. Videtur quod homo debeat conteri de peccato alieno. Non enim petit aliquis
+              indulgentiam nisi de peccato de quo contritus est. Sed de peccatis alienis indulgentia
+              petitur in Psal. 18, 13: <quote xml:id="ta-l4d17q2-Qd1e410">ab alienis parce servo tuo</quote>. Ergo debet homo
+              conteri de peccatis alienis.</p>
+            <p xml:id="ta-l4d17q2-d1e414">Praeterea, homo ex caritate tenetur diligere proximum sicut seipsum. Sed propter
+              dilectionem sui et de malis suis dolet, et bona desiderat. Ergo cum teneamur proximo
+              desiderare bona gratiae sicut et nobis, videtur quod debeamus de culpa ejus dolere,
+              sicut et de nostris. Sed contritio nihil aliud est quam dolor de peccatis. Ergo homo
+              debet conteri de peccatis alienis.</p>
+            <p xml:id="ta-l4d17q2-d1e417">Sed contra, contritio actus poenitentiae virtutis est. Sed nullus poenitet nisi de
+              his quae ipse fecit. Ergo nullus conteritur de peccatis alienis.</p>
+
+          </div>
+          <div xml:id="ta-l4d17q2-Dd1e421">
+            <head xml:id="ta-l4d17q2-Hd1e423">Quaestiuncula 6</head>
+            <p xml:id="ta-l4d17q2-d1e426">Ulterius. Videtur quod non requiratur de singulis peccatis mortalibus contritio. Est
+              enim motus contritionis in justificatione in instanti. Sed in instanti non potest homo
+              recogitare singula peccata. Ergo non oportet quod sit contritio de singulis.</p>
+            <p xml:id="ta-l4d17q2-d1e429">Praeterea, contritio debet esse de peccatis secundum quod avertunt a Deo; quia
+              conversio ad creaturam sine aversione a Deo contritionem non requirit. Sed omnia
+              peccata mortalia conveniunt in aversione. Ergo contra omnia sufficit una
+              contritio.</p>
+            <p xml:id="ta-l4d17q2-d1e432">Praeterea, plus conveniunt peccata mortalia actualia ad invicem, quam actualia et
+              originale. Sed unus Baptismus delet omnia actualia, et originale. Ergo una contritio
+              generalis delet omnia peccata mortalia.</p>
+            <p xml:id="ta-l4d17q2-d1e435">Sed contra, diversorum morborum diversae sunt medicinae: quia non sanat oculum quod
+              sanat calcaneum, ut Hieronymus dicit. Sed contritio est medicina singularis contra
+              unum tantum mortale. Ergo non sufficit una communis de omnibus.</p>
+            <p xml:id="ta-l4d17q2-d1e439">Praeterea, contritio per confessionem explicatur. Sed oportet singula peccata
+              mortalia confiteri. Ergo et de singulis conteri.</p>
+          </div>
+          <div xml:id="ta-l4d17q2-Dd1e443">
+            <head xml:id="ta-l4d17q2-Hd1e445">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d17q2-d1e448">Respondeo dicendum ad primam quaestionem, quod contritio importat, ut dictum est,
+              alicujus et duri et integri comminutionem. Haec autem integritas et duritia invenitur
+              in malo culpae; quia voluntas, quae est ipsius causa, in eo qui male agit, in suis
+              terminis stat, nec praecepto legis cedit; et ideo hujus mali displicentia contritio
+              per similitudinem dicitur. Haec autem similitudo non potest adaptari ad malum poenae,
+              quia poena simpliciter diminutionem dicit; et ideo de malis poenae potest esse dolor,
+              sed non contritio.</p>
+            <p xml:id="ta-l4d17q2-d1e451">Ad primum ergo dicendum, quod poenitentia, secundum Augustinum, debet esse de hac
+              vita mortali, non ratione ipsius mortalitatis, nisi poenitentia large dicatur omnis
+              dolor; sed ratione peccatorum ad quae ex infirmitate hujus vitae deducimur.</p>
+            <p xml:id="ta-l4d17q2-d1e454">Ad secundum dicendum, quod ille dolor quo quis dolet de amissione virtutis per
+              peccatum, non est essentialiter ipsa contritio, sed est principium ejus; sicut cum
+              aliquis movetur ad dolendum de aliquo propter malum quod inde consecutum est.</p>
+
+          </div>
+          <div xml:id="ta-l4d17q2-Dd1e458">
+            <head xml:id="ta-l4d17q2-Hd1e460">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d17q2-d1e463">Ad secundam quaestionem dicendum, quod contritio, ut dictum est, est dolor
+              respiciens, et quodammodo comminuens voluntatis duritiem; et ideo de illis solis
+              peccatis esse potest quae ex duritia nostrae voluntatis in nos proveniunt. Et quia
+              peccatum originale non nostra voluntate inductum est, sed ex vitiatae naturae origine
+              contractum; ideo de ipso non potest esse contritio, proprie loquendo; sed displicentia
+              potest esse de eo, vel dolor.</p>
+            <p xml:id="ta-l4d17q2-d1e466">Ad primum ergo dicendum, quod contritio non est de peccato ratione substantiae actus
+              tantum, quia ex hoc non habet rationem mali: neque iterum ratione deformitatis tantum,
+              quia deformitas de se non dicit rationem culpae, sed quandoque importat poenam. Debet
+              autem de peccato esse contritio, inquantum importat utramque deformitatem ex actu
+              voluntatis provenientem; et hoc non est in peccato originali; et ideo de eo non est
+              contritio.</p>
+            <p xml:id="ta-l4d17q2-d1e469">Similiter dicendum ad secundum; quia aversio voluntatis est illa cui debetur
+              contritio.</p>
+
+          </div>
+          <div xml:id="ta-l4d17q2-Dd1e473">
+            <head xml:id="ta-l4d17q2-Hd1e475">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d17q2-d1e478">Ad tertiam quaestionem dicendum, quod omnis actualis culpa ex hoc contingit quod
+              voluntas nostra legi Dei non cedit, vel eam transgrediendo, vel omittendo, vel praeter
+              eam agendo. Et quia durum est quod habet potentiam ut non facile patiatur; ideo in
+              omni actuali peccato duritia quaedam est voluntatis; et propter hoc si debeat peccatum
+              curari, oportet quod per contritionem comminuentem remittatur.</p>
+            <p xml:id="ta-l4d17q2-d1e481">Ad primum ergo dicendum, quod, sicut ex dictis patet, contritio opponitur peccato ex
+              parte illa qua ex electione voluntatis procedit non sequentis imperium divinae legis;
+              non autem ex parte ejus quod est in peccato materiale; et hoc est super quod cadit
+              electio. Cadit autem voluntatis electio non solum super actus aliarum virium, quibus
+              voluntas ad suum finem utitur, sed etiam super actum proprium ipsius. Voluntas enim
+              vult se velle aliquid; et sic electio voluntatis cadit supra dolorem illum seu
+              tristitiam quae invenitur in peccato invidiae et hujusmodi, sive ille dolor sit in
+              sensu, sive in ipsa voluntate; et ideo illius peccatis dolor contritionis
+              opponitur.</p>
+            <p xml:id="ta-l4d17q2-d1e484">Ad secundum dicendum, quod oblivio de aliquo potest esse dupliciter: aut ita quod
+              totaliter a memoria exciderit; et tunc non potest aliquis inquirere illud; aut ita
+              quod partim a memoria exciderit, et partim maneat; sicut cum recolo me aliquid
+              audivisse in generali, sed nescio quid in speciali; et tunc requiro in memoriam ad
+              recognoscendum. Et secundum hoc etiam aliquod peccatum potest esse oblitum dupliciter:
+              aut ita quod in generali memoria maneat, sed non in speciali; et tunc debet homo
+              recogitare ad inveniendum peccatum, quia de quolibet mortali peccato homo tenetur
+              specialiter conteri. Si autem invenire non possit, sufficit de eo conteri secundum
+              quod in notitia tenetur; et debet homo non solum de peccato, sed de oblivione ejus
+              dolere, quae ex negligentia contingit. Si autem peccatum omnino a memoria excidit,
+              tunc ex impotentia faciendi excusatur a debito, et sufficit generalis contritio de
+              omni eo in quo Deum offendit. Sed quando impotentia tollitur, sicut cum ad memoriam
+              peccatum revocatur, tunc tenetur homo specialiter conteri; sicut etiam pauper qui non
+              potest solvere quod debet, excusatur; et tamen tenetur cum primo potuerit.</p>
+            <p xml:id="ta-l4d17q2-d1e487">Ad tertium dicendum, quod si ignorantia omnino tolleret voluntatem male agendi,
+              excusaret, et non esset peccatum; sed quandoque non totaliter tollit voluntatem, et
+              tunc a toto non excusat, sed a tanto; et ideo de peccato per ignorantiam commisso
+              debet homo conteri.</p>
+            <p xml:id="ta-l4d17q2-d1e491">Ad quartum dicendum, quod post contritionem de mortali potest remanere veniale, sed
+              non post contritionem de veniali; et ideo de venialibus etiam debet esse contritio, eo
+              modo quo et poenitentia, sicut supra, dist. praeced., dictum est.</p>
+
+          </div>
+          <div xml:id="ta-l4d17q2-Dd1e496">
+            <head xml:id="ta-l4d17q2-Hd1e498">Quaestiuncula 4</head>
+            <p xml:id="ta-l4d17q2-d1e501">Ad quartam quaestionem dicendum, quod in omnibus motoribus et mobilibus ordinatis ita
+              est quod motor inferior habet motum proprium, et praeter hoc sequitur in aliquo motum
+              superioris motoris; sicut patet in motu planetarum, qui praeter motus proprios
+              sequuntur motum primi orbis. Omnibus autem virtutibus moralibus motor est ipsa
+              prudentia, quae dicitur auriga virtutum; et ideo quaelibet virtus moralis cum motu
+              proprio habet aliquid de motu prudentiae; et ideo, cum poenitentia sit quaedam virtus
+              moralis, quia est pars justitiae, cum actu proprio consequitur prudentiae motum.
+              Proprius autem actus ejus est in objectum proprium, quod est peccatum commissum; et
+              ideo ejus actus principalis, scilicet contritio, secundum suam speciem respicit tantum
+              peccatum praeteritum; sed ex consequenti respicit futurum, secundum quod habet aliquid
+              de actu prudentiae adjunctum, et non tantum in illud futurum ratione propriae speciei
+              movetur; et propter hoc ille qui conteritur, dolet de peccato praeterito, et cavet
+              futurum: sed non dicitur esse contritio de peccato futuro, sed magis cautio, quae est
+              pars prudentiae contritioni adjuncta.</p>
+            <p xml:id="ta-l4d17q2-d1e504">Ad primum ergo dicendum, quod liberum arbitrium dicitur esse de contingentibus
+              futuris, secundum quod est de actibus, sed non secundum quod est de objectis actuum;
+              quia homo potest cogitare ex libero arbitrio de rebus praeteritis et necessariis; sed
+              tamen ipse actus cogitationis, secundum quod sub libero arbitrio cadit, contingens
+              futurum est; et sic etiam actus contritionis contingens futurum est, secundum quod sub
+              libero arbitrio cadit; sed objectum ejus potest esse praeteritum.</p>
+            <p xml:id="ta-l4d17q2-d1e507">Ad secundum dicendum, quod ille effectus consequens qui peccatum aggravat, jam in
+              actu praecessit velut in causa; et ideo, quando commissum est, totam suam quantitatem
+              habuit, et ex effectu consequenti non accrescit aliquid quo ad culpae rationem, etsi
+              accrescit quo ad poenam accidentalem, secundum quod plures habebit rationes dolendi in
+              Inferno de pluribus malis consecutis ex suo peccato; et sic loquitur Hieronymus; unde
+              non oportet quod contritio sit nisi de peccatis praeteritis.</p>
+
+          </div>
+          <div xml:id="ta-l4d17q2-Dd1e511">
+            <head xml:id="ta-l4d17q2-Hd1e513">Quaestiuncula 5</head>
+            <p xml:id="ta-l4d17q2-d1e516">Ad quintam quaestionem dicendum, quod illud idem conteritur quod prius durum et
+              integrum fuit; unde patet quod contritio pro peccato sit in eodem in quo peccati
+              duritia praecessit; et sic de alienis peccatis non est contritio.</p>
+            <p xml:id="ta-l4d17q2-d1e519">Ad primum ergo dicendum, quod ab alienis peccatis sibi parci propheta precatur,
+              inquantum ex consortio peccatorum aliquis per consensum aliquam immunditiam contrahit,
+              sicut scriptum est, Psalm. 17, 22: <quote xml:id="ta-l4d17q2-Qd1e521">cum perverso perverteris</quote>.</p>
+            <p xml:id="ta-l4d17q2-d1e525">Ad secundum dicendum, quod de peccatis aliorum dolere debemus; non tamen oportet quod
+              de eis conteramur, quia non omnis dolor de peccato praeterito est contritio, ut ex
+              dictis patet.</p>
+
+          </div>
+          <div xml:id="ta-l4d17q2-Dd1e529">
+            <head xml:id="ta-l4d17q2-Hd1e531">Quaestiuncula 6</head>
+            <p xml:id="ta-l4d17q2-d1e534">Ad sextam quaestionem dicendum, quod contritio potest dupliciter considerari;
+              scilicet quantum ad sui principium, et quantum ad terminum. Et dico principium
+              contritionis cogitationem qua quis cogitat de peccato et dolet, etsi non dolore
+              contritionis, saltem dolore attritionis; terminus autem contritionis est, quando dolor
+              ille jam gratia informatur. Quantum ergo ad principium contritionis, oportet quod sit
+              de singulis peccatis quae quis in memoria habet; sed quantum ad terminum sufficit quod
+              sit una communis de omnibus; tunc enim ille motus agit in vi omnium dispositionum
+              praecedentium.</p>
+            <p xml:id="ta-l4d17q2-d1e537">Et per hoc patet responsio ad primum.</p>
+            <p xml:id="ta-l4d17q2-d1e540">Ad secundum dicendum, quod quamvis omnia peccata mortalia conveniant in aversione,
+              tamen differunt in causa et modo aversionis, et quantitate elongationis a Deo; et hoc
+              est secundum diversitatem conversionis.</p>
+            <p xml:id="ta-l4d17q2-d1e543">Ad tertium dicendum, quod Baptismus agit in virtute meriti Christi, quod habuit
+              infinitam virtutem ad delendum omnia peccata; et propter hoc unus sufficit contra
+              omnia. Sed in contritione requiritur cum merito Christi actus noster; et ideo oportet
+              quod singulis peccatis respondeat singillatim, cum non habeat infinitam virtutem. Vel
+              dicendum, quod Baptismus est spiritualis generatio; sed poenitentia quantum ad
+              contritionem et alias sui partes est spiritualis quaedam sanatio per modum cujusdam
+              alterationis. Patet autem in generatione corporali alicujus quae est cum corruptione
+              alterius, quod una generatione removentur omnia accidentia contraria rei generatae,
+              quae erant accidentia rei corruptae; sed in alteratione removetur tantum unum accidens
+              contrarium accidenti, ad quod terminatur alteratio. Et similiter unus Baptismus simul
+              delet omnia peccata novam vitam inducendo; sed poenitentia non delet omnia peccata
+              nisi ad singula feratur; et ideo oportet de singulis conteri et confiteri.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d17q2-Dd1e548" type="articulus">
+          <head xml:id="ta-l4d17q2-Hd1e550">Articulus 3</head>
+
+          <head xml:id="ta-l4d17q2-Hd1e553" type="questionTitle">Utrum contritio sit major dolor qui esse possit in
+            natura</head>
+
+          <div xml:id="ta-l4d17q2-Dd1e556">
+            <head xml:id="ta-l4d17q2-Hd1e558">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d17q2-d1e561">Ad tertium sic proceditur. Videtur quod contritio non sit major dolor qui esse possit
+              in natura. Dolor enim est sensus laesionis. Sed aliquae laesiones magis sentiuntur
+              quam laesio peccati, sicut laesio vulneris. Ergo non est maximus dolor contritio.</p>
+            <p xml:id="ta-l4d17q2-d1e564">Praeterea, ex effectu sumimus judicium de causa. Sed effectus doloris sunt lacrymae.
+              Cum ergo aliquando contritus non emittat lacrymas corporales de peccatis, quas tamen
+              emittit de morte amici, vel de percussione, vel de aliquo hujusmodi; videtur quod
+              contritio non sit dolor maximus.</p>
+            <p xml:id="ta-l4d17q2-d1e567">Praeterea, quanto aliquid plus habet de permixtione contrarii, tanto est minus
+              intensum. Sed contritionis dolor habet multum de gaudio admixtum: quia contritus
+              gaudet de liberatione, spe veniae, et de multis hujusmodi. Ergo dolor suus est
+              minimus.</p>
+            <p xml:id="ta-l4d17q2-d1e570">Praeterea, dolor contritionis displicentia quaedam est. Sed multa sunt quae magis
+              displicent contrito quam peccata sua praeterita; non enim vellet poenam Inferni
+              sustinere potius quam peccare, nec iterum sustinuisse omnes poenas temporales, aut
+              etiam sustinere; alias pauci invenirentur contriti. Ergo dolor contritionis non est
+              maximus.</p>
+            <p xml:id="ta-l4d17q2-d1e574">Sed contra, secundum Augustinum, omnis dolor in amore fundatur. Sed amor caritatis,
+              in quo fundatur dolor contritionis, est maximus. Ergo dolor contritionis est
+              maximus.</p>
+            <p xml:id="ta-l4d17q2-d1e577">Praeterea, dolor est de malo. Ergo de magis malo debet esse magis dolor. Sed culpa
+              est magis malum quam poena. Ergo dolor de culpa, qui est contritio, excedit omnem
+              alium dolorem.</p>
+
+          </div>
+          <div xml:id="ta-l4d17q2-Dd1e581">
+            <head xml:id="ta-l4d17q2-Hd1e583">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d17q2-d1e586">Ulterius. Videtur quod non possit esse nimis magnus contritionis dolor. Nullus enim
+              dolor potest esse immoderatior quam ille qui proprium subjectum destruit. Sed dolor
+              contritionis, si est tantus quod mortem vel corruptionem corporis inducat, est
+              laudabilis. Dicit enim Anselmus: <quote xml:id="ta-l4d17q2-Qd1e588">utinam sic impinguentur viscera animae meae,
+                ut medullae corporis mei exsiccentur</quote>; et Augustinus de contritione cordis,
+              cap. 10, dicit se esse dignum oculos caecare plorando. Ergo dolor contritionis non
+              potest esse nimius.</p>
+            <p xml:id="ta-l4d17q2-d1e592">Praeterea, dolor contritionis ex caritatis amore procedit. Sed amor caritatis non
+              potest esse nimius. Ergo nec dolor contritionis.</p>
+            <p xml:id="ta-l4d17q2-d1e595">Sed contra, omnis virtus moralis corrumpitur per superabundantiam et defectum. Sed
+              contritio est actus virtutis moralis, scilicet poenitentiae, cum sit pars justitiae.
+              Ergo potest esse superfluus dolor de peccatis.</p>
+
+          </div>
+          <div xml:id="ta-l4d17q2-Dd1e599">
+            <head xml:id="ta-l4d17q2-Hd1e601">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d17q2-d1e604">Ulterius. Videtur quod non debeat esse major dolor de uno peccato quam de alio.
+              Hieronymus enim collaudat Paulam de hoc quod minima peccata plangebat sicut magna.
+              Ergo non magis est dolendum de uno quam de alio.</p>
+            <p xml:id="ta-l4d17q2-d1e607">Praeterea, motus contritionis est subitus. Sed non potest unus motus esse intensior
+              simul et remissior. Ergo contritio non debet esse major de uno peccato quam de
+              alio.</p>
+            <p xml:id="ta-l4d17q2-d1e610">Praeterea, de peccato praecipue est contritio, secundum quod a Deo avertit. Sed in
+              aversione omnia mortalia peccata conveniunt; quia omnia tollunt gratiam, qua anima Deo
+              conjungitur. Ergo de omnibus peccatis mortalibus aequalis debet esse contritio.</p>
+            <p xml:id="ta-l4d17q2-d1e613">Sed contra, Deut. 25, 2, dicitur: <quote xml:id="ta-l4d17q2-Qd1e615">secundum mensuram peccati erit et plagarum
+                modus</quote>. Sed contritioni de peccatis plagae commensurantur; quia contritio
+              habet propositum satisfaciendi annexum. Ergo contritio magis debet esse de uno peccato
+              quam de alio.</p>
+            <p xml:id="ta-l4d17q2-d1e620">Praeterea, de hoc debet homo conteri quod debuit vitare. Sed homo magis debet vitare
+              unum peccatum quam aliud, quia gravius est, si necessitas alterum faciendi incumberet.
+              Ergo et similiter de uno, scilicet graviori, magis quam de alio dolere.</p>
+          </div>
+          <div xml:id="ta-l4d17q2-Dd1e625">
+            <head xml:id="ta-l4d17q2-Hd1e627">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d17q2-d1e630">Respondeo dicendum ad primam quaestionem, quod, sicut supra dictum est, in
+              contritione est duplex dolor. Unus in ipsa voluntate, qui est essentialiter ipsa
+              contritio, quae nihil aliud est quam displicentia praeteriti peccati; et dolor talis
+              in contritione excedit alios dolores; quia quantum aliquid placet, tantum contrarium
+              ejus displicet: finis autem super omnia placet, cum omnia propter ipsum desiderentur;
+              et ideo peccatum quod a fine ultimo avertit, super omnia displicere debet. Alius dolor
+              est in parte sensitiva, qui causatur ex primo dolore, vel ex necessitate naturae,
+              secundum quod vires inferiores sequuntur motum superiorum; vel ex electione, secundum
+              quod homo poenitens in seipso voluntarie excitatur ut de peccatis doleat; et neutro
+              modo oportet quod sit maximus dolorum: quia vires inferiores vehementius moventur ab
+              objectis propriis, quam ex redundantia superiorum virium; et ideo quanto operatio
+              superiorum virium est propinquior objectis inferiorum, tanto magis sequuntur earum
+              motum; et ideo major dolor est in sensitiva parte ex laesione sensibili quam sit ille
+              qui in ipsa redundat ex ratione; et similiter major qui redundat ex ratione de
+              corporalibus deliberante quam qui redundat ex ratione considerante spiritualia. Unde
+              dolor in sensitiva parte ex displicentia rationis proveniens de peccato, non est major
+              aliis doloribus qui in ipsa sunt; et similiter nec dolor qui est voluntarie assumptus;
+              tum quia non obedit affectus inferior superiori ad nutum, ut passio tanta sequatur in
+              inferiori appetitu, qualem ordinat superior; tum etiam quia passiones a ratione
+              assumuntur in actibus virtutum secundum mensuram quamdam, quam quandoque dolor qui est
+              sine virtute, non servat, sed excedit.</p>
+            <p xml:id="ta-l4d17q2-d1e633">Ad primum ergo dicendum, quod sicut dolor sensibilis est de sensu laesionis, ita
+              dolor interior est de cognitione alicujus nocivi; et ideo quamvis laesio peccati
+              secundum sensum exteriorem non percipiatur, tamen percipitur esse maxima secundum
+              sensum interiorem rationis.</p>
+            <p xml:id="ta-l4d17q2-d1e636">Ad secundum dicendum, quod corporales immutationes immediate consequuntur ad
+              passiones sensitivae partis, et eis mediantibus ad affectiones appetitivae superioris;
+              et inde est quod ex dolore sensibili, vel etiam sensibili nocivo citius superfluunt
+              lacrymae corporales quam de dolore spirituali contritionis.</p>
+            <p xml:id="ta-l4d17q2-d1e639">Ad tertium dicendum, quod gaudium illud quod de dolore poenitens habet, non minuit
+              displicentiam, quia ei non contrariatur, sed auget secundum quod omnis operatio
+              augetur per propriam delectationem, ut dicitur in 10 Ethic.: sicut qui delectatur in
+              addiscendo aliquam scientiam, melius addiscit; et similiter qui gaudet de
+              displicentia, vehementius displicentiam habet. Sed bene potest esse quod illud gaudium
+              temperet dolorem ex ratione in partem sensitivam resultante.</p>
+            <p xml:id="ta-l4d17q2-d1e643">Ad quartum dicendum, quod quantitas displicentiae de aliqua re debet esse secundum
+              quantitatem malitiae ipsius. Malitia autem in culpa mortali mensuratur ex eo in quem
+              peccatur, inquantum est ei indigna; et ex eo qui peccat, inquantum est ei nociva. Et
+              quia homo debet plus Deum quam se diligere, ideo plus debet odire culpam inquantum est
+              offensa Dei, quam inquantum est nociva sibi. Est autem nociva sibi principaliter,
+              inquantum separat ipsum a Deo; et ex hac parte ipsa separatio a Deo, quae poena
+              quaedam est, magis debet displicere quam ipsa culpa, inquantum hoc nocumentum inducit
+              (quia quod propter alterum oditur, minus oditur); sed minus quam culpa inquantum est
+              offensa in Deum. Inter omnes autem poenas attenditur ordo malitiae secundum
+              quantitatem nocumenti; et ideo, cum hoc sit maximum nocumentum quo maximum bonum
+              privatur, erit inter poenas maxima, separatio a Deo. Est etiam alia quantitas mali
+              accidentalis, quam oportet in displicentia attendere secundum rationem praesentis et
+              praeteriti: quia quod praeteritum est, jam non est; unde habet minus de ratione et
+              malitiae et bonitatis; et inde est quod plus refugit homo sustinere aliquid mali in
+              praesenti vel in futuro, quam horreat de praeterito; unde nec aliqua passio animae
+              directe respondet praeterito; sicut dolor respondet praesenti malo, et timor futuro;
+              et propter hoc de duobus malis praeteritis illud magis abhorret animus cujus major
+              effectus in praesenti remanet, vel in futurum timetur, etiam si in praeterito minus
+              fuerit. Et quia effectus praecedentis culpae non ita percipitur quandoque sicut
+              effectus praeteritae poenae, tum quia culpa perfectius sanatur quam quaedam poena; tum
+              quia defectus corporalis magis est manifestus quam spiritualis; ideo homo etiam bene
+              dispositus quandoque magis percipit in se horrorem praecedentis poenae quam
+              praecedentis culpae; quamvis magis esset paratus pati eamdem poenam quam committere
+              eamdem culpam. Est etiam considerandum in comparatione culpae et poenae, quod quaedam
+              poenae inseparabiliter habent conjunctam Dei offensam, sicut separatio a Deo; quaedam
+              etiam addunt perpetuitatem, sicut poena Inferni. Poena ergo illa quae offensam annexam
+              habet, eodem modo vitanda est sicut et culpa; sed illa quae perpetuitatem addit, est
+              magis quam culpa simpliciter fugienda. Si tamen ab eis separetur ratio offensae, et
+              consideretur tantum ratio poenae, minus habet de malitia quam culpa, inquantum est
+              offensa Dei, et propter hoc minus deberet displicere. Sciendum est etiam, quod quamvis
+              talis debeat esse contriti dispositio, non tamen de his tentandus est; quia homo
+              affectus suos non de facili mensurare potest; et quandoque illud quod minus displicet,
+              videtur magis displicere; quia est propinquius sensibili nocumento, quod magis est
+              nobis notum.</p>
+
+          </div>
+          <div xml:id="ta-l4d17q2-Dd1e647">
+            <head xml:id="ta-l4d17q2-Hd1e649">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d17q2-d1e652">Ad secundam quaestionem dicendum, quod contritio ex parte doloris qui est in ratione,
+              scilicet displicentiae, quo peccatum displicet inquantum est offensa Dei, non potest
+              esse nimia, sicut nec amor caritatis, quo intenso talis displicentia intenditur,
+              potest esse nimius; sed quantum ad dolorem sensibilem potest esse nimia, sicut etiam
+              exterior corporis afflictio potest esse nimia, ut supra, dist. 15, in quaestione de
+              jejunio, ex verbis Hieronymi patuit. In his enim omnibus debet accipi pro mensura
+              conservatio subjecti et bonae habitudinis sufficientis ad ea quae agenda incumbunt; et
+              propter hoc dicitur Rom. 12, 1: <quote xml:id="ta-l4d17q2-Qd1e654" ana="rom12_1">rationabile obsequium vestrum</quote>.</p>
+            <p xml:id="ta-l4d17q2-d1e658">Ad primum ergo dicendum, quod Anselmus desiderabat ex pinguedine devotionis medullas
+              corporales exsiccari non quantum ad humorem naturalem, sed quantum ad desideria et
+              concupiscentias corporales. Augustinus autem quamvis dignus se cognosceret amissione
+              exteriorum oculorum propter peccatum, quia quilibet peccator non solum aeterna, sed
+              temporali morte dignus est; non tamen volebat sibi oculos caecare.</p>
+            <p xml:id="ta-l4d17q2-d1e661">Ad secundum dicendum, quod ratio illa procedit de dolore qui est in ratione; tertia
+              autem procedit de dolore sensitivae partis.</p>
+
+          </div>
+          <div xml:id="ta-l4d17q2-Dd1e665">
+            <head xml:id="ta-l4d17q2-Hd1e667">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d17q2-d1e670">Ad tertiam quaestionem dicendum, quod de contritione dupliciter possumus loqui. Uno
+              modo secundum quod singillatim singulis peccatis respondet: et sic quantum ad dolorem
+              superioris affectus requiritur quod de majori peccato quis doleat magis; quia ratio
+              doloris est major in uno quam in alio, scilicet offensa Dei; ex magis enim inordinato
+              actu Deus magis offenditur. Similiter etiam cum majori culpae major poena debeatur,
+              etiam dolor sensitivae partis, secundum quod pro peccato ex electione assumitur quasi
+              poena peccati, debet esse major de majori peccato: secundum autem quod ex impressione
+              superioris appetitus innascitur, in inferiori attenditur quantitas doloris secundum
+              dispositionem partis ad recipiendam impressionem a superiori, et non secundum
+              quantitatem peccati. Alio modo potest accipi contritio secundum quod est simul de
+              omnibus, sicut in actu justificationis; et haec quidem contritio vel ex singulorum
+              consideratione peccatorum procedit; et sic quamvis sit actus unus, tamen distinctio
+              peccatorum manet virtute in ipso; vel ad minus habet propositum de singulis cogitandi
+              annexum; et sic etiam habitualiter est magis de uno quam de alio.</p>
+            <p xml:id="ta-l4d17q2-d1e673">Ad primum ergo dicendum, quod Paula non laudatur de hoc quod de omnibus peccatis
+              doleret aequaliter; sed quia de parvis peccatis tantum dolebat ac si essent magna, per
+              comparationem ad alios qui de peccatis dolent; sed ipsa multo amplius de majoribus
+              doluisset.</p>
+            <p xml:id="ta-l4d17q2-d1e676">Ad secundum dicendum, quod in illo contritionis motu subitaneo, quamvis non
+              actualiter distinctio intentionis respondens diversis peccatis inveniri possit, tamen
+              invenitur ibi eo modo, ut dictum est, et etiam alio modo, secundum quod singula
+              peccata ordinem habent ad illud de quo in illa contritione generali contrito dolendum
+              occurrit, scilicet offensa Dei. Qui enim aliquod totum appetit vel diligit, etiam
+              diligit partes ejus, quamvis non actu: et hoc modo, secundum quod habent ordinem ad
+              totum, quasdam plus, quasdam minus; sicut qui aliquam communitatem diligit, virtute
+              singulos diligit plus et minus secundum eorum ordinem in bono communi; et similiter
+              qui dolet de hoc quod Deum offendat de diversis, implicite dolet diversimode secundum
+              quod plus vel minus per ea Deum offendit.</p>
+            <p xml:id="ta-l4d17q2-d1e679">Ad tertium dicendum, quod quamvis quodlibet peccatum mortale a Deo avertat, et
+              gratiam tollat; tamen quoddam plus elongat quam aliud, inquantum habet majorem
+              dissonantiam ex sua inordinatione ad ordinem divinae bonitatis quam aliud.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d17q2-Dd1e685" type="articulus">
+          <head xml:id="ta-l4d17q2-Hd1e687">Articulus 4</head>
+
+          <head xml:id="ta-l4d17q2-Hd1e690" type="questionTitle">Utrum tota haec vita sit contritionis tempus</head>
+
+          <div xml:id="ta-l4d17q2-Dd1e693">
+            <head xml:id="ta-l4d17q2-Hd1e695">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d17q2-d1e698">Ad quartum sic proceditur. Videtur quod non tota haec vita sit contritionis tempus.
+              Sicut enim de peccato commisso debet esse dolor, ita et pudor. Sed non per totam vitam
+              durat pudor de peccato, et, sicut dicit Ambrosius, <quote xml:id="ta-l4d17q2-Qd1e700">nihil habet quod erubescat
+                cui peccatum dimissum est</quote>. Ergo videtur quod nec contritio, quae est dolor
+              de peccato.</p>
+            <p xml:id="ta-l4d17q2-d1e704">Praeterea, 1 Joan. 4, 18, dicitur, quod <quote xml:id="ta-l4d17q2-Qd1e706">perfecta caritas foras mittit timorem,
+                quia timor poenam habet</quote>. Sed dolor etiam poenam habet. Ergo in statu
+              perfectae caritatis non potest dolor contritionis manere.</p>
+            <p xml:id="ta-l4d17q2-d1e710">Praeterea, de praeterito non potest esse dolor, qui proprie est de malo praesenti,
+              nisi secundum quod aliquid de praeterito in praesenti manet. Sed quandoque pervenitur
+              ad aliquem statum in hac vita in quo nihil de praeterito peccato manet, neque
+              dispositio, neque culpa, neque reatus aliquis. Ergo non oportet ulterius de illo
+              peccato dolere.</p>
+            <p xml:id="ta-l4d17q2-d1e713">Praeterea, Rom. 8, 28 dicitur, quod <quote xml:id="ta-l4d17q2-Qd1e715" ana="#rom8_28">diligentibus Deum omnia cooperantur in
+                bonum</quote>, etiam peccata, ut dicit Glossa ibidem. Ergo non oportet post
+              remissionem peccati quod de peccato doleat.</p>
+            <p xml:id="ta-l4d17q2-d1e720">Praeterea, contritio est pars poenitentiae contra satisfactionem divisa. Sed non
+              oportet semper satisfacere. Ergo nec oportet semper conteri de peccato.</p>
+            <p xml:id="ta-l4d17q2-d1e723">Sed contra, Augustinus dicit in Lib. de vera et falsa Poenit.: <quote xml:id="ta-l4d17q2-Qd1e725">ubi dolor
+                finitur, deficit poenitentia; ubi deficit poenitentia, nihil relinquitur de
+                venia</quote>. Ergo videtur, cum oporteat veniam concessam non perdere, quod
+              oporteat semper dolere de peccato.</p>
+            <p xml:id="ta-l4d17q2-d1e729">Praeterea, Eccli. 5, 5, dicitur: <quote xml:id="ta-l4d17q2-Qd1e731">de propitiatu peccatorum noli esse sine
+                metu</quote>. Ergo semper debet homo dolere ad peccatorum propitiationem
+              habendam.</p>
+
+          </div>
+          <div xml:id="ta-l4d17q2-Dd1e736">
+            <head xml:id="ta-l4d17q2-Hd1e738">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d17q2-d1e741">Ulterius. Videtur quod non expediat continue de peccato dolere. Expedit enim
+              quandoque gaudere, ut patet Philip. 4, super illud: <quote xml:id="ta-l4d17q2-Qd1e743">gaudete in domino
+                semper</quote>; ubi dicit Glossa, quod necessarium est gaudere. Sed non est
+              possibile simul gaudere et dolere. Ergo non expedit continue de peccato dolere.</p>
+            <p xml:id="ta-l4d17q2-d1e747">Praeterea, illud quod est de se malum et fugiendum, non est assumendum, nisi quatenus
+              est necessarium ut medicina ad aliquid, sicut patet de ustione et sectione vulneris.
+              Sed tristitia de se mala est; unde dicitur Eccli. 30, 24: <quote xml:id="ta-l4d17q2-Qd1e749">tristitiam longe
+                expelle a te</quote>; et subditur causa: <quote xml:id="ta-l4d17q2-Qd1e752">multos enim occidit tristitia, et
+                non est utilitas in illa</quote>. Hoc etiam philosophus dicit expresse in 7 et 10
+              Ethic. Ergo non debet amplius dolere de peccato, nisi quatenus sufficit ad peccatum
+              delendum. Sed statim post primam tristitiam contritionis peccatum deletum est. Ergo
+              non expedit ulterius dolere.</p>
+            <p xml:id="ta-l4d17q2-d1e756">Praeterea, Bernardus Serm. 11 dicit: <quote xml:id="ta-l4d17q2-Qd1e758">dolor pro peccatis necessarius est, etsi
+                non sit continuus; mel enim absynthio admiscendum est</quote>. Ergo videtur quod non
+              expedit continue dolere.</p>
+            <p xml:id="ta-l4d17q2-d1e762">Sed contra est quod Augustinus dicit: <quote xml:id="ta-l4d17q2-Qd1e764">semper doleat poenitens, et de dolore
+                gaudeat</quote>.</p>
+            <p xml:id="ta-l4d17q2-d1e769">Praeterea, actus in quibus consistit beatitudo, expedit semper continuare, quantum
+              possibile est. Sed hujusmodi est dolor de peccato, quod patet Matth. 5, 5:
+                <quote xml:id="ta-l4d17q2-Qd1e771" ana="#mt5_5">beati qui lugent</quote>. Ergo expedit dolorem continuare quantum est
+              possibile.</p>
+
+          </div>
+          <div xml:id="ta-l4d17q2-Dd1e776">
+            <head xml:id="ta-l4d17q2-Hd1e778">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d17q2-d1e781">Ulterius. Videtur quod etiam post hanc vitam animae de peccatis conterantur. Amor
+              enim caritatis displicentiam de peccato causat. Sed post hanc vitam manet in aliquibus
+              caritas et quantum ad actum, et quantum ad habitum; quia caritas nunquam excidit, ut
+              patet 1 Corinth., 13. Ergo manet displicentia de peccato commisso, quae essentialiter
+              est contritio.</p>
+            <p xml:id="ta-l4d17q2-d1e784">Praeterea, magis dolendum est de culpa quam de poena. Sed animae in Purgatorio dolent
+              de poena sensibili, et de dilatione gloriae. Ergo multo magis dolent de culpa ab eis
+              commissa.</p>
+            <p xml:id="ta-l4d17q2-d1e787">Praeterea, poena Purgatorii est satisfactoria de peccato. Sed satisfactio habet
+              efficaciam ex vi contritionis. Ergo contritio manet post hanc vitam.</p>
+            <p xml:id="ta-l4d17q2-d1e790">Sed contra, contritio est pars poenitentiae sacramenti. Sed sacramenta non manent
+              post hanc vitam. Ergo nec contritio.</p>
+            <p xml:id="ta-l4d17q2-d1e794">Praeterea, contritio potest esse tanta quod deleat et culpam et poenam. Si ergo
+              animae in Purgatorio conteri possent, posset vi contritionis eorum reatus poenae eis
+              dimitti, et omnino a poena sensibili liberari; quod falsum est.</p>
+          </div>
+          <div xml:id="ta-l4d17q2-Dd1e799">
+            <head xml:id="ta-l4d17q2-Hd1e801">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d17q2-d1e804">Respondeo dicendum ad primam quaestionem, quod in contritione, ut dictum est, est
+              duplex dolor. Unus rationis, qui est detestatio peccati a se commissi; alius
+              sensitivae partis, qui ex isto consequitur; et quantum ad utrumque, contritionis
+              tempus est totus praesentis vitae status. Quamdiu enim aliquis est in statu viae,
+              detestatur incommoda quibus a perventione ad terminum viae impeditur vel retardatur.
+              Unde, cum per peccatum praeteritum viae nostrae cursus in Deum retardetur, quia tempus
+              illud quod erat deputatum ad currendum, recuperari non potest, ut supra dictum est;
+              oportet quod semper in vitae hujus tempore status contritionis maneat quantum ad
+              peccati detestationem; similiter etiam quantum ad sensibilem dolorem, qui ut poena a
+              voluntate assumitur; quia enim homo peccando poenam aeternam meruit, et contra
+              aeternum Deum peccavit, debet, poena aeterna in temporalem mutata, saltem dolor in
+              aeterno hominis, idest in statu hujus vitae remanere; et propter hoc dicit Hugo de
+              sancto Victore, quod Deus absolvens hominem a culpa et poena aeterna, ligat eum
+              vinculo perpetuae detestationis peccati.</p>
+            <p xml:id="ta-l4d17q2-d1e807">Ad primum ergo dicendum, quod erubescentia respicit peccatum solum inquantum habet
+              turpitudinem; et ideo postquam peccatum quantum ad culpam remissum est, non manet
+              pudori locus; manet autem dolori, qui non solum de culpa est, inquantum habet
+              turpitudinem, sed etiam inquantum habet nocumentum annexum.</p>
+            <p xml:id="ta-l4d17q2-d1e810">Ad secundum dicendum, quod timor servilis quem caritas foras mittit, oppositionem
+              habet ad caritatem ratione suae servitutis, qua poenam respicit; sed dolor
+              contritionis ex caritate causatur, ut dictum est; et ideo non est simile.</p>
+            <p xml:id="ta-l4d17q2-d1e813">Ad tertium dicendum, quod quamvis per poenitentiam peccator redeat ad gratiam
+              pristinam et immunitatem a reatu poenae, nunquam tamen redit ad pristinam dignitatem
+              innocentiae; et ideo semper ex peccato praeterito aliquid in ipso manet.</p>
+            <p xml:id="ta-l4d17q2-d1e817">Ad quartum dicendum, quod sicut homo non debet facere mala ut veniant bona; ita non
+              debet gaudere de malis: quia ex eis proveniunt occasionaliter bona, divina providentia
+              agente; quia illorum bonorum peccata causa non fuerunt, sed magis impedimenta; sed
+              divina providentia ea causavit; et de ea debet homo gaudere, de peccatis autem
+              dolere.</p>
+            <p xml:id="ta-l4d17q2-d1e820">Ad quintum dicendum, quod satisfactio attenditur secundum poenam taxatam, quae pro
+              peccatis injungi debet; et ideo potest terminari, ut non oporteat ulterius
+              satisfacere; haec enim poena praecipue proportionatur culpae ex parte conversionis, ex
+              qua finitatem habet. Sed dolor contritionis respondet culpae ex parte aversionis, ex
+              qua habet quamdam infinitatem; et ita vera contritio debet semper permanere. Nec est
+              inconveniens, si remoto posteriori, maneat prius.</p>
+
+          </div>
+          <div xml:id="ta-l4d17q2-Dd1e824">
+            <head xml:id="ta-l4d17q2-Hd1e826">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d17q2-d1e829">Ad secundam quaestionem dicendum, quod haec est conditio in actibus virtutum inventa,
+              quod non potest in eis accipi superfluum et diminutum, ut in 2 Ethic. probatur. Unde,
+              cum contritio quantum ad id quod est displicentia quaedam in appetitu rationis, sit
+              actus poenitentiae virtutis, nunquam ibi potest esse superfluum, sicut nec quantum ad
+              intentionem, ita nec quantum ad durationem, nisi secundum quod actus unius virtutis
+              impedit actum alterius virtutis magis necessarium pro tempore illo. Unde quanto magis
+              homo continue in actu hujus displicentiae esse potest, tanto melius est, dummodo
+              actibus aliarum virtutum vacet suo tempore, secundum quod oportet. Sed passiones
+              possunt habere superfluum et diminutum et quantum ad intensionem et quantum ad
+              durationem; et ideo, sicut passio doloris quam voluntas assumit, debet esse moderate
+              intensa, ita debet moderate durare; ne, si nimis duret, homo in desperationem et
+              pusillanimitatem, hujusmodi vitio, labatur.</p>
+            <p xml:id="ta-l4d17q2-d1e832">Ad primum ergo dicendum, quod gaudium saeculi impeditur per dolorem contritionis, non
+              autem gaudium quod de Deo est, quia habet ipsum dolorem pro materia.</p>
+            <p xml:id="ta-l4d17q2-d1e835">Ad secundum dicendum, quod Ecclesiasticus loquitur de tristitia saeculi, et
+              philosophus loquitur de tristitia quae est passio, qua moderate utendum est, secundum
+              quod expedit, ad finem ad quem assumitur.</p>
+            <p xml:id="ta-l4d17q2-d1e838">Ad tertium dicendum, quod Bernardus loquitur de dolore qui est passio.</p>
+
+          </div>
+          <div xml:id="ta-l4d17q2-Dd1e842">
+            <head xml:id="ta-l4d17q2-Hd1e844">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d17q2-d1e847">Ad tertiam quaestionem dicendum, quod in contritione tria consideranda sunt. Primum
+              est contritionis genus, quod est dolor. Secundum est contritionis forma, quia est
+              actus virtutis gratia informatus. Tertium est contritionis efficacia, quia est
+              meritorius, et sacramentalis, et quodammodo satisfactorius. Animae ergo post hanc
+              vitam, quae in patria sunt, contritionem habere non possunt, quia carent dolore
+              propter gaudii plenitudinem. Illae vero quae sunt in Inferno, carent contritione; quia
+              si dolorem habeant, deficit tamen eis gratia dolorem informans. Sed illi qui in
+              Purgatorio sunt, habent dolorem de peccatis gratia informatum, sed non meritorium,
+              quia non sunt in statu merendi. In hac autem vita omnia tria praedicta inveniri
+              possunt.</p>
+            <p xml:id="ta-l4d17q2-d1e850">Ad primum ergo dicendum, quod caritas non causat istum dolorem nisi in illis qui
+              doloris capaces sunt; sed plenitudo gaudii a beatis omnem capacitatem doloris
+              excludit; et ideo, quamvis caritatem habeant, tamen contritione carent.</p>
+            <p xml:id="ta-l4d17q2-d1e853">Ad secundum dicendum, quod animae in Purgatorio dolent de peccatis, sed ille dolor
+              non est contritio, quia deest ei contritionis efficacia.</p>
+            <p xml:id="ta-l4d17q2-d1e856">Ad tertium dicendum, quod poena illa quam animae in Purgatorio sustinent, non potest
+              proprie dici satisfactio, quia satisfactio opus meritorium requirit; sed largo modo
+              dicitur satisfactio poenae debitae solutio.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d17q2-Dd1e861" type="articulus">
+          <head xml:id="ta-l4d17q2-Hd1e863">Articulus 5</head>
+
+          <head xml:id="ta-l4d17q2-Hd1e866" type="questionTitle">Utrum peccati remissio sit contritionis effectus</head>
+
+          <div xml:id="ta-l4d17q2-Dd1e869">
+            <head xml:id="ta-l4d17q2-Hd1e871">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d17q2-d1e874">Ad quintum sic proceditur. Videtur quod peccati remissio non sit contritionis
+              effectus. Solus enim Deus peccata remittit. Sed contritionis nos sumus aliqualiter
+              causa, quia actus noster est. Ergo contritio non est causa remissionis culpae.</p>
+            <p xml:id="ta-l4d17q2-d1e877">Praeterea, contritio est actus virtutis. Sed virtus sequitur culpae remissionem; quia
+              culpa et virtus non sunt simul in anima. Ergo contritio non est causa remissionis
+              culpae.</p>
+            <p xml:id="ta-l4d17q2-d1e880">Praeterea, nihil impedit a perceptione Eucharistiae nisi culpa. Sed contritus ante
+              confessionem non debet accedere ad Eucharistiam. Ergo nondum est consecutus
+              remissionem culpae.</p>
+            <p xml:id="ta-l4d17q2-d1e883">Sed contra est quod dicitur in Glossa super illud Psalm. 50: <quote xml:id="ta-l4d17q2-Qd1e885">sacrificium Deo
+                spiritus contribulatus: contritio cordis est sacrificium, in quo peccata
+                solvuntur</quote>.</p>
+            <p xml:id="ta-l4d17q2-d1e890">Praeterea, virtus et vitium eisdem causis corrumpuntur et generantur, ut dicitur in 2
+              Ethic. Sed per inordinatum amorem cordis peccatum committitur. Ergo per dolorem ex
+              amore caritatis ordinato causatum solvitur; et sic peccatum contritio delet.</p>
+
+          </div>
+          <div xml:id="ta-l4d17q2-Dd1e894">
+            <head xml:id="ta-l4d17q2-Hd1e896">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d17q2-d1e899">Ulterius. Videtur quod contritio non possit totaliter tollere reatum poenae. Quia
+              satisfactio et confessio ordinantur ad liberationem a reatu poenae. Sed nullus ita
+              perfecte conteritur, quin oporteat eum confiteri et satisfacere. Ergo contritio
+              nunquam est tanta quod deleat reatum totum.</p>
+            <p xml:id="ta-l4d17q2-d1e902">Praeterea, in poenitentia debet esse quaedam recompensatio poenae ad culpam. Sed
+              aliqua culpa per membra corporis exercetur. Ergo cum oporteat ad debitam poenae
+              recompensationem ut per quae peccat quis per haec torqueatur; videtur quod nunquam
+              possit poena talis peccati per contritionem exsolvi.</p>
+            <p xml:id="ta-l4d17q2-d1e905">Praeterea, dolor contritionis est finitus. Sed pro aliquo peccato, scilicet mortali,
+              debetur poena infinita. Ergo nunquam potest esse tanta contritio quod totam poenam
+              deleat.</p>
+            <p xml:id="ta-l4d17q2-d1e908">Sed contra est, quod Deus plus acceptat cordis affectum quam etiam exteriorem actum.
+              Sed per exteriores actus absolvitur homo a poena et a culpa. Ergo et similiter per
+              cordis affectum, qui est contritio.</p>
+            <p xml:id="ta-l4d17q2-d1e912">Praeterea, exemplum hujus de latrone habetur cui dictum est: <quote xml:id="ta-l4d17q2-Qd1e914">hodie mecum eris
+                in Paradiso</quote>; propter unicum poenitentiae actum. Utrum autem totus reatus per
+              contritionem semper tollatur, supra, dist. 14, qu. 2, art. 1, quaestiunc. 2, quaesitum
+              est, ubi de poenitentia hoc ipsum quaerebatur.</p>
+
+          </div>
+          <div xml:id="ta-l4d17q2-Dd1e919">
+            <head xml:id="ta-l4d17q2-Hd1e921">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d17q2-d1e924">Ulterius. Videtur quod contritio parva non sufficiat ad deletionem magnorum
+              peccatorum. Quia contritio est medicina peccati. Sed corporalis medicina quae sanat
+              morbum corporalem minorem, non sufficit ad sanandum majorem. Ergo minima contritio non
+              sufficit ad delendum maxima peccata.</p>
+            <p xml:id="ta-l4d17q2-d1e927">Praeterea, supra dictum est, quod oportet de majoribus peccatis magis conteri. Sed
+              contritio non delet peccatum, nisi sit secundum quod oportet. Ergo minima contritio
+              non delet omnia peccata.</p>
+            <p xml:id="ta-l4d17q2-d1e930">Sed contra, quaelibet gratia gratum faciens delet omnem culpam mortalem, quia simul
+              cum ea stare non potest. Sed quaelibet contritio est gratia gratum faciente informata.
+              Ergo quantumcumque sit parva, delet omnem culpam.</p>
+          </div>
+          <div xml:id="ta-l4d17q2-Dd1e935">
+            <head xml:id="ta-l4d17q2-Hd1e937">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d17q2-d1e940">Respondeo dicendum ad primam quaestionem, quod contritio potest dupliciter
+              considerari; vel inquantum est pars sacramenti, vel inquantum est actus virtutis; et
+              utroque modo est causa remissionis peccati, sed diversimode: quia inquantum est pars
+              sacramenti, primo operatur ad remissionem peccati instrumentaliter, sicut et de aliis
+              sacramentis, in 1 dist., quaest. 1, art. 4 quaestiunc. 1, patuit: inquantum autem est
+              actus virtutis, sic est quasi causa materialis remissionis peccati, eo quod dispositio
+              est quasi necessitas ad justificationem, ut supra dictum est. Dispositio autem
+              reducitur ad causam materialem, si accipiatur dispositio quae disponit materiam ad
+              recipiendum; secus autem est de dispositione agentis ad agendum, quia illa reducitur
+              ad genus causae efficientis.</p>
+            <p xml:id="ta-l4d17q2-d1e943">Ad primum ergo dicendum, quod solus Deus est causa efficiens principalis remissionis
+              peccati; sed causa dispositiva potest etiam esse ex nobis; et similiter causa
+              sacramentalis: quia formae sacramentorum sunt verba a nobis prolata, quae habent
+              virtutem instrumentalem gratiam inducendi, qua peccata remittuntur.</p>
+            <p xml:id="ta-l4d17q2-d1e946">Ad secundum dicendum, quod peccati remissio uno modo praecedit virtutem et gratiae
+              infusionem, et alio modo sequitur: et secundum hoc quod sequitur, actus a virtute
+              elicitus potest esse causa aliqua remissionis culpae.</p>
+            <p xml:id="ta-l4d17q2-d1e949">Ad tertium dicendum, quod dispensatio Eucharistiae pertinet ad ministros Ecclesiae;
+              et ideo ante remissionem peccati per ministros Ecclesiae non debet aliquis ad
+              Eucharistiam accedere, quamvis sit sibi culpa quo ad Deum remissa.</p>
+
+          </div>
+          <div xml:id="ta-l4d17q2-Dd1e953">
+            <head xml:id="ta-l4d17q2-Hd1e955">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d17q2-d1e958">Ad secundam quaestionem dicendum, quod intensio contritionis potest attendi
+              dupliciter. Uno modo ex parte caritatis, quae displicentiam causat; et sic contingit
+              tantum intendi caritatem in actu, quod contritio inde sequens merebitur non solum
+              culpae amotionem, sed etiam absolutionem ab omni poena. Alio modo ex parte doloris
+              sensibilis quem voluntas in contritione excitat; et quia illa poena etiam quaedam est,
+              tantum potest intendi, quod sufficiat ad deletionem poenae et culpae.</p>
+            <p xml:id="ta-l4d17q2-d1e961">Ad primum ergo dicendum, quod aliquis non potest esse certus quod contritio sua sit
+              sufficiens ad deletionem poenae et culpae; et ideo tenetur confiteri et satisfacere;
+              maxime cum contritio vera non fuerit, nisi propositum confitendi habuisset annexum;
+              quod debet ad effectum deduci etiam propter praeceptum quod est de confessione
+              datum.</p>
+            <p xml:id="ta-l4d17q2-d1e964">Ad secundum dicendum, quod sicut gaudium interius redundat etiam ad exteriores
+              corporis partes, ita etiam et dolor interior ad exteriora membra derivatur; unde
+              dicitur Prov. 17, 22: <quote xml:id="ta-l4d17q2-Qd1e966">spiritus tristis exsiccat ossa</quote>.</p>
+            <p xml:id="ta-l4d17q2-d1e970">Ad tertium dicendum, quod dolor contritionis, quamvis sit finitus quantum ad
+              intensionem, sicut etiam et poena peccato mortali debita finita est; habet tamen
+              infinitam virtutem ex caritate qua informatur; et secundum hoc potest valere ad
+              deletionem culpae et poenae.</p>
+
+          </div>
+          <div xml:id="ta-l4d17q2-Dd1e974">
+            <head xml:id="ta-l4d17q2-Hd1e976">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d17q2-d1e979">Ad tertiam quaestionem dicendum, quod contritio, ut saepe dictum est, habet duplicem
+              dolorem. Unum rationis, qui est displicentia peccati commissi; et hic potest esse adeo
+              parvus quod non sufficiet ad rationem contritionis, ut si minus displiceret ei
+              peccatum quam debeat displicere separatio a fine; sicut etiam amor potest esse ita
+              remissus, quod non sufficiat ad rationem caritatis. Alium dolorem habet in sensu; et
+              parvitas hujus non impedit rationem contritionis: quia non se habet essentialiter ad
+              contritionem, sed quasi ex accidenti ei adjungitur; et iterum non est in potestate
+              nostra. Sic ergo dicendum, quod quantumcumque parvus sit dolor, dummodo ad
+              contritionis rationem sufficiat, omnem culpam delet.</p>
+            <p xml:id="ta-l4d17q2-d1e982">Ad primum ergo dicendum, quod medicinae spirituales habent efficaciam infinitam ex
+              virtute infinita quae in eis operatur; et ideo illa medicina quae sufficit ad
+              curationem parvi peccati, sufficit etiam ad curationem magni; sicut patet de Baptismo,
+              quo et magna et parva peccata solvuntur; et similiter est de contritione, dummodo ad
+              rationem contritionis pertingat.</p>
+            <p xml:id="ta-l4d17q2-d1e985">Ad secundum dicendum, quod hoc sequitur ex necessitate, quod unus homo plus doleat de
+              peccato majori quam de minori, secundum quod magis repugnat amori qui dolorem causat.
+              Sed tamen si unus alius haberet tantum de dolore pro majori quantum ipse habet pro
+              minori, sufficeret ad remissionem culpae.</p>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

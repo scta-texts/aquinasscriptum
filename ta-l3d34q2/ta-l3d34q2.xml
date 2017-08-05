@@ -1,0 +1,579 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum III, Distinctio 34, Quaestio 2</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.09-dev-master">
+          <title>Librum III, Distinctio 34, Quaestio 2</title>
+          <date when="2016-03-13">March 13, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-13">March 13, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness>1856 editum</witness>
+          <witness xml:id="H" n="harv245" xml:base="http://iiif.lib.harvard.edu/manifests/drs:51994085/canvas/">Cambridge, Mass.,
+            Harvard University, Houghton Library, MS Lat 245</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="2015.09">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+
+
+
+
+      <div xml:id="starts-on">
+        <cb ed="#H" n="133rb"/> <!-- has the look of a new distinction, but isn't -->
+      </div>
+    </front>
+    <body>
+      <div xml:id="ta-l3d34q2">
+        <head xml:id="ta-l3d34q2-Hd1e99">Librum III, Distinctio 34, Quaestio 2</head>
+        <head xml:id="ta-l3d34q2-Hd1e102" type="questionTitle">De timore</head>
+        <div xml:id="ta-l3d34q2-Dd1e105">
+          <head xml:id="ta-l3d34q2-Hd1e107">Prooemium</head>
+          <p xml:id="ta-l3d34q2-d1e110">Postquam determinavit de donis in generali, hic determinat de dono timoris, qui propter
+            sui multiplicem acceptionem, specialem difficultatem habet. Dividitur autem haec pars in
+            duas: primo determinat de timore in generali; secundo autem de timore Christi
+            specialiter, ibi: <quote xml:id="ta-l3d34q2-Qd1e112">cum autem fuerit in Christo timor poenae, quaeritur, an iste
+              timor fuerit mundanus, vel servilis, vel initialis</quote>. Prima in duas: in prima
+            ponit distinctionem timoris; in secunda solvit quamdam contrarietatem, ibi: <quote xml:id="ta-l3d34q2-Qd1e115">et
+              attende quod quatuor hic distinguuntur timores. De his eisdem timoribus latius
+              disputat Augustinus</quote>. Hic ponit comparationem timorum ad invicem, et circa hoc
+            duo facit: primo comparat timores ad invicem; secundo ex dictis quamdam conclusionem
+            infert, ibi: <quote xml:id="ta-l3d34q2-Qd1e118">illud quoque diligenter est notandum</quote>. Circa primum duo
+            facit: primo comparat timorem filialem ad servilem; secundo initialem ad utrumque, ibi:
+              <quote xml:id="ta-l3d34q2-Qd1e121">in quibus etiam timorem initialem significavit</quote>. Circa primum autem tria
+            facit: primo ponit proprietatem timoris servilis; secundo ostendit differentias timoris
+            casti, vel filialis ad ipsum, ibi: <quote xml:id="ta-l3d34q2-Qd1e124">est autem alia sententia</quote>; tertio per
+            similitudinem differentiam manifestat, ibi: <quote xml:id="ta-l3d34q2-Qd1e128">non potest melius explanare quid
+              intersit inter hos duos timores, quam si ponas duas mulieres maritatas</quote> et
+            cetera. <quote xml:id="ta-l3d34q2-Qd1e131">In quibus etiam initialem timorem significavit</quote>. Hic comparat
+            timorem initialem ad alios duos, et circa hoc duo facit: primo ostendit distinctionem
+            ejus ab utroque dictorum; secundo ponit quamdam convenientiam ipsius ad timorem
+            servilem, ibi: <quote xml:id="ta-l3d34q2-Qd1e134">sciendum autem est, quod uterque timor (...) in Scripturae
+              diversis locis dicitur initium sapientiae</quote>. Hic est duplex quaestio. Prima de
+            timore, de quo agitur hic. Secunda autem de aliis donis exequentibus, scilicet pietate
+            et fortitudine. Circa primum quaeruntur tria: primo de timore in generali; 2 de timore
+            servili; 3 de timore filiali.</p>
+        </div>
+        <div xml:id="ta-l3d34q2-Dd1e139" type="articulus">
+          <head xml:id="ta-l3d34q2-Hd1e141">Articulus 1</head>
+
+          <head xml:id="ta-l3d34q2-Hd1e144" type="questionTitle">Utrum definitio Damasceni de timore sit bona</head>
+          <div xml:id="ta-l3d34q2-Dd1e147">
+            <head xml:id="ta-l3d34q2-Hd1e149">Quaestiuncula 1</head>
+            <p xml:id="ta-l3d34q2-d1e152">Ad primum sic proceditur. Videtur quod Damascenus inconvenienter timorem definiat,
+              dicens: <quote xml:id="ta-l3d34q2-Qd1e154">timor est desiderium secundum systolem movens</quote>. Desiderium enim
+              ad concupiscibilem pertinet; timor autem est in irascibili. Ergo timor non est
+              desiderium.</p>
+            <p xml:id="ta-l3d34q2-d1e158">Praeterea, desiderium est respectu boni. Sed objectum timoris est malum; unde
+              philosophus dicit in 3 Ethic., quod timor est expectatio mali. Ergo timor non est
+              desiderium.</p>
+            <p xml:id="ta-l3d34q2-d1e161">Praeterea, desiderium ad persecutionem pertinet. Sed timor est fuga mali, ut dicit
+              Glossa, Joan. 10. Ergo timor non est desiderium.</p>
+            <p xml:id="ta-l3d34q2-d1e164">Praeterea, secundum systolem movere, est movere secundum contractionem. Sed tractio
+              cum sit motus corporalis cordis, non est in omnibus in quibus est timor scilicet in
+              Angelis. Ergo male definit timorem.</p>
+          </div>
+          <div xml:id="ta-l3d34q2-Dd1e168">
+            <head xml:id="ta-l3d34q2-Hd1e170">Quaestiuncula 2</head>
+            <p xml:id="ta-l3d34q2-d1e173">Ulterius. Videtur quod Magister hic male distinguat timoris partes. Quia secundum
+              philosophum, si unum oppositorum dicitur multipliciter, et reliquum. Sed timor et spes
+              sunt opposita. Cum igitur spes non dicatur multipliciter, nec timor distingui
+              debet.</p>
+            <p xml:id="ta-l3d34q2-d1e176">Praeterea, passiones et actus et habitus diversificantur secundum objecta. Sed idem
+              est objectum timoris mundani, servilis, et initialis, scilicet poena. Ergo videtur
+              quod non debeant ad invicem distingui.</p>
+            <p xml:id="ta-l3d34q2-d1e179">Praeterea, perfectum et imperfectum circa amorem non diversificant caritatem. Sed
+              timor initialis et castus non differunt nisi secundum perfectum et imperfectum. Ergo
+              non debent distingui ad invicem.</p>
+            <p xml:id="ta-l3d34q2-d1e182">Sed contra, videtur quod debuerit plures partes timoris assignare. Timor enim ex
+              concupiscentiis causatur. Sed concupiscentia carnis contra concupiscentiam oculorum,
+              quae est concupiscentia mundi, dividitur 1 Joan. 22. Ergo mundanus timor, quo timemus
+              mundi bona perdere, debet distingui contra timorem carnis quo timemus carnis pericula
+              pati.</p>
+            <p xml:id="ta-l3d34q2-d1e186">Praeterea, Magister ponit in fine lectionis timorem quemdam naturalem, qui differt,
+              secundum ipsum, ab omnibus aliis. Ergo videtur quod insufficienter assignet tantum
+              quatuor timores.</p>
+            <p xml:id="ta-l3d34q2-d1e189">Praeterea, Damascenus 2 Lib., assignat plures differentias, scilicet segnitiem,
+              erubescentiam, verecundiam, admirationem, stuporem, agoniam. Ergo videtur quod haec
+              divisio quae hic ponitur, sit insufficiens.</p>
+          </div>
+          <div xml:id="ta-l3d34q2-Dd1e193">
+            <head xml:id="ta-l3d34q2-Hd1e195">Quaestiuncula 3</head>
+            <p xml:id="ta-l3d34q2-d1e198">Ulterius. Videtur quod timor non debeat inter dona computari. Timor enim ponitur una
+              de quatuor principalibus passionibus. Sed nulla aliarum ponitur donum, immo spes
+              ponitur virtus, gaudium ponitur fructus, dolor ponitur pars poenitentiae, scilicet
+              contritio. Ergo nec timor similiter debet poni donum.</p>
+            <p xml:id="ta-l3d34q2-d1e201">Praeterea, dona dantur nobis in adjutorium humanae infirmitatis. Sed ipse timor
+              infirmitatem importat. Ergo non debet dici donum.</p>
+            <p xml:id="ta-l3d34q2-d1e204">Praeterea, Augustinus dicit: <quote xml:id="ta-l3d34q2-Qd1e206">timor est amor fugiens quod ei
+              adversatur</quote>. Sed amor non est donum, immo virtus. Ergo nec timor donum debet
+              poni.</p>
+            <p xml:id="ta-l3d34q2-d1e210">Sed contra est quod dicitur Isai. 11, ubi timor inter alia dona sancti spiritus
+              nominatur.</p>
+            <p xml:id="ta-l3d34q2-d1e214">Praeterea, illud quod est principium salutis, non est a nobis, sed donum Dei est, ut
+              dicit Augustinus. Sed timor est principium salutis; Isai. 26, 17: <quote xml:id="ta-l3d34q2-Qd1e216">a timore tuo,
+                domine, concepimus spiritum salutis</quote>. Ergo timor est donum spiritus
+              sancti.</p>
+          </div>
+          <div xml:id="ta-l3d34q2-Dd1e222">
+            <head xml:id="ta-l3d34q2-Hd1e224">Quaestiuncula 1</head>
+            <p xml:id="ta-l3d34q2-d1e227">Respondeo dicendum, quod definitio data, secundum Damascenum, convenit omni timori.
+              Sed quia nomina passionum a passionibus sensitivae partis ad operationes superioris
+              partis transferuntur, ut supra dictum est, ideo videamus primo qualiter dicta
+              definitio competat timori qui est passio sensitivae partis. Quaelibet autem illarum
+              passionum pertinet ad appetitivam partem, sed inter eas est differentia, secundum
+              Avicennam in 6 de naturalibus, quia dispositiones cordis in quibusdam passionibus sunt
+              quasi activae, in quibusdam quasi passivae. Dispositio autem cordis activa est vel
+              secundum perfectionem cordis in seipso, sicut est amplitudo et dilatatio cordis, quae
+              est in gaudio; vel secundum etiam perfectionem cordis ad aliquid agendum vel patiendum
+              vel obtinendum, sicut est fortitudo cordis, quae requiritur in audacia et spe.
+              Dispositio autem passiva cordis per oppositum est, vel secundum defectum ipsius in
+              seipso, quae dicitur coangustatio, quae requiritur in tristitia; vel secundum defectum
+              ipsius per comparationem ad aliquid agendum, quae dicitur debilitas cordis, quae
+              requiritur in timore et desperatione. Contractio autem significat motum alicujus ab
+              alio, a quo retrahitur in seipsum, ubi quodammodo congregatur; et ideo importat
+              dispositionem cordis quae est debilitas, per quam aliquas ab alio deficit, in seipso
+              consistens. Sic igitur patet intellectus definitionis Damasceni: quia dixit
+                <quote xml:id="ta-l3d34q2-Qd1e229">desiderium</quote> ad significandum genus timoris, qui est actio, vel motus
+              appetitus. Quod autem dixit, <quote xml:id="ta-l3d34q2-Qd1e232">secundum systolem movens</quote>, differentiam
+              propriam assignavit, quae a causa materiali ejus sumitur. Et per hanc similitudinem
+              dicitur etiam timor in spiritualibus, dum motus voluntatis ab aliquo resilit, et in
+              seipso consistit.</p>
+            <p xml:id="ta-l3d34q2-d1e236">Ad primum igitur dicendum, quod desiderium ponitur ibi large pro appetitu, qui
+              communis est irascibili et concupiscibili.</p>
+            <p xml:id="ta-l3d34q2-d1e239">Et per hoc patet solutio ad secundum.</p>
+            <p xml:id="ta-l3d34q2-d1e242">Ad tertium dicendum, quod etiam in fuga est appetitus fugiendi, qui hic desiderium
+              dicitur.</p>
+            <p xml:id="ta-l3d34q2-d1e246">Ad quartum dicendum, quod in spiritualibus est contractio per similitudinem, ut
+              dictum est in corp. art.</p>
+          </div>
+          <div xml:id="ta-l3d34q2-Dd1e250">
+            <head xml:id="ta-l3d34q2-Hd1e252">Quaestiuncula 2</head>
+            <p xml:id="ta-l3d34q2-d1e255">Ad secundam quaestionem dicendum, quod timor hic distinguitur secundum ordinem
+              timentis ad Deum, cui per unum timorem magis appropinquat vel distat, quam per alium.
+              Cum enim timor in fuga mali consistat; malum autem est poenae et culpae; erit timor
+              quidam qui consistit in fuga mali culpae tantum, per quam homo a Deo separatur,
+              scilicet timor castus vel filialis; alius autem qui consistit in fuga mali poenae.
+              Poena autem est duplex. Una pro cujus vitatione peccatum quandoque committitur, sicut
+              sunt temporales poenae; et hanc poenam refugit timor mundanus vel humanus. Alia est
+              pro cujus vitatione nunquam fit peccatum, sed magis vitatur, sicut poena quae erit
+              post hanc vitam; et hanc poenam fugit timor servilis. Alius autem timor est qui fugit
+              utrumque malum, poenae scilicet et culpae, scilicet initialis, qui habet oculum ad
+              utrumque; et ideo est medius inter servilem et castum.</p>
+            <p xml:id="ta-l3d34q2-d1e258">Ad primum igitur dicendum, quod malum contingit multifariam; bonum autem uno modo,
+              secundum Dionysium, et philosophum; et ideo spes quae respicit bonum, non ita
+              dividitur sicut timor qui respicit malum.</p>
+            <p xml:id="ta-l3d34q2-d1e261">Ad secundum dicendum, quod non eadem poena est quam respicit timor mundanus et
+              servilis, ut ex dictis patet. Servilis vero et initialis eamdem poenam respiciunt; sed
+              servilis tamquam principale objectum, initialis autem non, sed magis malum culpae;
+              unde magis se tenet cum casto timore quam cum servili.</p>
+            <p xml:id="ta-l3d34q2-d1e264">Ad tertium dicendum, quod timor initialis distinguitur a casto, non secundum quod
+              imperfecte se habet ad id quod perfecte se habet castus timor; sed quia se habet etiam
+              ad aliud objectum, quamvis ex consequenti, ut dictum est.</p>
+            <p xml:id="ta-l3d34q2-d1e268">Ad quartum dicendum, quod timor mundanus secundum speciem naturae ab humano
+              distinguitur; sed in eodem gradu ponuntur secundum propinquitatem ad meritum et
+              demeritum, secundum quod hic timores distinguuntur.</p>
+            <p xml:id="ta-l3d34q2-d1e271">Ad quintum dicendum, quod natura salvatur etiam in merito et demerito; et ideo timor
+              naturalis non ponit aliquem gradum distantiae vel propinquitatis ad meritum vel
+              demeritum; et propter hoc de ipso non facit mentionem in divisione prima.</p>
+            <p xml:id="ta-l3d34q2-d1e274">Ad sextum dicendum, quod illae partes timoris assignantur secundum objecta. Sic autem
+              non intendit hic dividere timorem, sed sicut dictum est in corp.</p>
+          </div>
+          <div xml:id="ta-l3d34q2-Dd1e278">
+            <head xml:id="ta-l3d34q2-Hd1e280">Quaestiuncula 3</head>
+            <p xml:id="ta-l3d34q2-d1e283">Ad tertiam quaestionem dicendum, quod timor mundanus et humanus, cum sint inordinati,
+              non possunt esse donum spiritus sancti; sed sunt vel passiones vel electiones similes
+              passionibus, aut etiam habitus, secundum quod habitus nomine operationis vel passionis
+              nominantur. Similiter etiam timor servilis non pertingit ad perfectionem doni, sicut
+              nec fides informis ad perfectam rationem virtutis. In omni enim virtute hoc est
+              commune, secundum philosophum, quod virtuosus operatur boni gratia, vel propter turpis
+              vitationem. Timor autem servilis operatur bonum non propter fugam turpis, sed propter
+              fugam tristis; unde deficit a perfectione virtutis, et multo amplius a perfectione
+              doni, quod est virtute perfectius. Timor autem castus, et initialis secundum quod
+              participat timorem castum, habet rationem doni: cujus ratio est, quod altiori mensura
+              suos actus modificat quam fit mensura humana. Mensura enim humanorum operum est
+              rationis bonum; unde virtuosus abstinet a malis, fugiens et timens inconveniens
+              rationis, quod est turpe; et iste timor est annexus cuilibet virtuti. Sed timor qui
+              est donum, facit abstinere a malis propter fugam inconvenientis, quod est in
+              separatione a Deo; et ideo ipsum Deum habet pro mensura suae operationis. Et quia
+              modus a mensura causatur, ideo operatur supra humanum modum, et propter hoc est
+              donum.</p>
+            <p xml:id="ta-l3d34q2-d1e286">Ad primum igitur dicendum, quod timor secundum quod est passio, non est donum, sed
+              secundum quod est habitus quidam a Deo infusus. Similiter etiam neque spes secundum
+              quod est passio, est virtus, sed secundum quod est habitus quidam perficiens ad actum
+              similem passioni, quae est spes. Dolor autem qui est passio sensitivae partis, non est
+              pars poenitentiae, quamvis etiam talis possit esse poenitentiae adjuncta; sed dolor in
+              rationali parte consistens, qui est operatio magis quam passio. Gaudium etiam quod est
+              in parte sensitiva animae non est fructus; sed quod est in ratione, non potest dici
+              passio, proprie loquendo, quamvis aliquid habeat de similitudine passionis.</p>
+            <p xml:id="ta-l3d34q2-d1e289">Ad secundum dicendum, quod timor eorum quae sunt sub homine, ad infirmitatem hominis
+              pertinet; sed timor Dei, qui est supra hominem, non est infirmitatis, sed maximae
+              perfectionis in ipso: quia in hoc ipso inferius perfectissimum est quod suo superiori
+              maxime subditur.</p>
+            <p xml:id="ta-l3d34q2-d1e292">Ad tertium dicendum, quod timor Dei est amor, non essentialiter loquendo, sed per
+              causam: quia amor est causa timoris.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l3d34q2-Dd1e297" type="articulus">
+          <head xml:id="ta-l3d34q2-Hd1e299">Articulus 2</head>
+
+          <head xml:id="ta-l3d34q2-Hd1e302" type="questionTitle">Utrum timor servilis sit a spiritu sancto</head>
+          <div xml:id="ta-l3d34q2-Dd1e305">
+            <head xml:id="ta-l3d34q2-Hd1e307">Quaestiuncula 1</head>
+            <p xml:id="ta-l3d34q2-d1e310">Ad secundum sic proceditur. Videtur quod timor servilis non sit a spiritu sancto.
+              Quidquid enim est a spiritu sancto, potest esse simul cum ipso. Sed timor servilis non
+              habetur simul cum spiritu sancto, qui sine caritate non habetur, cum qua non est timor
+              servilis. Ergo timor servilis non est a spiritu sancto.</p>
+            <p xml:id="ta-l3d34q2-d1e313">Praeterea, sicut Deus propter seipsum amandus est, ita propter seipsum timendus est.
+              Sed amor mercenarius quo quis amat Deum propter bona temporalia, non est a spiritu
+              sancto, cum sit illicitus: quia plus amantur illa bona temporalia quam Deus. Ergo et
+              timor servilis, quo Deus propter poenas timetur, non est a spiritu sancto.</p>
+            <p xml:id="ta-l3d34q2-d1e316">Praeterea, illud quod nascitur ex radice peccati, non est a spiritu sancto. Sed timor
+              servilis ex timore nascitur, qui est radix peccati; unde super illud Job 3, 2:
+                <quote xml:id="ta-l3d34q2-Qd1e318">quare non in vulva mortuus sum?</quote> etc., dicit Gregorius: <quote xml:id="ta-l3d34q2-Qd1e321">cum ex
+                peccato praesens poena metuitur, et amissa Dei facies non amatur, timor ex tumore
+                est, non autem ex humilitate</quote>. Ergo videtur quod timor servilis non sit a
+              spiritu sancto.</p>
+            <p xml:id="ta-l3d34q2-d1e325">Sed contra, Rom. 8: <quote xml:id="ta-l3d34q2-Qd1e327">non accepistis spiritum servitutis</quote> etc., Glossa:
+                <quote xml:id="ta-l3d34q2-Qd1e330">unus spiritus est, qui facit duos timores, scilicet servilem, et
+                castum</quote>. Sed castus timor constat quod est a spiritu sancto. Ergo et
+              servilis.</p>
+            <p xml:id="ta-l3d34q2-d1e335">Praeterea, non est minus timere Deum quam credere. Sed fides, etiam informis, est a
+              spiritu sancto. Ergo et timor servilis est a spiritu sancto.</p>
+          </div>
+          <div xml:id="ta-l3d34q2-Dd1e339">
+            <head xml:id="ta-l3d34q2-Hd1e341">Quaestiuncula 2</head>
+            <p xml:id="ta-l3d34q2-d1e344">Ulterius. Videtur quod usus timoris servilis non sit bonus. Usus enim bonus est quo
+              fit bonum, et bene. Sed secundum Augustinum super illud Rom. 8, <quote xml:id="ta-l3d34q2-Qd1e346">non accepistis
+                spiritum servitutis</quote> etc., in timore servili etiam si aliquid fiat bonum, non
+              tamen bene. Ergo usus ejus est malus.</p>
+            <p xml:id="ta-l3d34q2-d1e350">Praeterea, omnis actus timoris ex aliquo amore procedit. Sed actus timoris servilis
+              non procedit ex amore caritatis. Ergo procedit ex amore libidinoso: ergo est
+              malus.</p>
+            <p xml:id="ta-l3d34q2-d1e353">Praeterea, una circumstantia indebita facit totum actum malum. Sed actus timoris
+              servilis videtur esse serviliter timere, quae est circumstantia turpis. Ergo usus
+              timoris servilis est malus.</p>
+            <p xml:id="ta-l3d34q2-d1e356">Sed contra, cujus usus malus est, ipsum etiam malum est: quia <quote xml:id="ta-l3d34q2-Qd1e358" ana="#mt7_7">non potest arbor
+                bona fructus malos facere</quote>; Matth. 7, 7. Sed timor servilis est bonum, cum
+              sit a Deo. Ergo usus ejus bonus est.</p>
+            <p xml:id="ta-l3d34q2-d1e363">Praeterea, usus timoris servilis est abstinere a peccato, et ad sapientiam
+              introducere. Hoc autem est bonum. Ergo usus servilis timoris est bonus.</p>
+          </div>
+          <div xml:id="ta-l3d34q2-Dd1e367">
+            <head xml:id="ta-l3d34q2-Hd1e369">Quaestiuncula 3</head>
+            <p xml:id="ta-l3d34q2-d1e372">Ulterius. Videtur quod timor servilis non tollatur adveniente caritate. Timor enim
+              servilis a fide informi consurgit. Sed fides informis manet secundum substantiam
+              habitus, et formatur caritate quae advenit. Ergo et timor non expellitur caritate
+              adveniente.</p>
+            <p xml:id="ta-l3d34q2-d1e375">Praeterea, per caritatem advenientem non tollitur nisi peccatum, et quod est ex
+              peccato introductum. Hoc autem non est timor servilis, cum sit a Deo. Ergo non
+              expellitur caritate adveniente.</p>
+            <p xml:id="ta-l3d34q2-d1e378">Praeterea, quod se habet ex additione ad aliud, includit illud, et non tollit. Sed
+              timor initialis se habet ex additione ad servilem: quia timet poenam sicut servilis,
+              et ulterius separationem. Ergo timore initiali adveniente, non expellitur timor
+              servilis. Ergo nec adveniente caritate, sine qua non est timor initialis.</p>
+            <p xml:id="ta-l3d34q2-d1e381">Sed contra est quod dicit Augustinus in littera, quod adveniente caritate pellitur
+              timor servilis.</p>
+            <p xml:id="ta-l3d34q2-d1e385">Praeterea, libertas non compatitur secum servitutem. Sed caritas adveniens libertatem
+              facit: quia <quote xml:id="ta-l3d34q2-Qd1e387">ubi spiritus domini</quote>, qui sine caritate non est, <quote xml:id="ta-l3d34q2-Qd1e390">ibi
+                libertas</quote>; 2 Corinth., 3, 17. Ergo timor servilis expellitur adveniente
+              caritate.</p>
+            <p xml:id="ta-l3d34q2-d1e394">Praeterea, nullus principaliter timens poenam, habet caritatem. Sed quicumque habet
+              timorem servilem, est hujusmodi. Ergo et cetera.</p>
+          </div>
+          <div xml:id="ta-l3d34q2-Dd1e399">
+            <head xml:id="ta-l3d34q2-Hd1e401">Quaestiuncula 1</head>
+            <p xml:id="ta-l3d34q2-d1e404">Respondeo dicendum ad primam quaestionem, quod secundum philosophum in 1 Metaph.,
+              liber est qui sui causa est; servus autem per contrarium intelligendus est qui
+              alterius causa est, et non sui. Sumus autem causa eorum quae ad nos pertinent per
+              voluntatem: unde illud dicitur aliquis facere libere quod spontanea voluntate facit;
+              illud autem serviliter ad quod faciendum sibi voluntas deest: facit autem illud
+              coactus ab alio violentia vel metu; et ideo cum tristitia, quia omne coactum est
+              contra voluntatem et triste, ut dicitur in 5 Metaph.: et secundum hoc dicitur aliquis
+              ex libertate spiritus aliquid facere, quia beneplacito suae voluntatis delectabiliter
+              facit; timore autem servili, quod facit coactus metu poenae, et per consequens cum
+              tristitia: mallet enim non facere, nisi poena timeretur. Patet igitur quod servilitas
+              ex illa parte consequitur timorem qua ad aliquid faciendum vel dimittendum inclinat.
+              Haec autem inclinatio non intrat essentiam timoris, sed est effectus ejus; essentiam
+              vero suam habet ex comparatione ad proprium objectum, quod est poena aeterna, quam
+              fides indicat. Unde servilitas est accidens timoris, et non intrat essentiam ejus: et
+              ideo essentia ejus bona est, quia refugere poenas aeternas non est nisi bonum. Unde
+              servilis timor secundum essentiam suam est a spiritu sancto non tamen donum spiritus
+              sancti, nisi communiter loquendo, ut dicimus, omne quod a spiritu sancto datur, donum
+              ejus esse. Sic autem non loquimur de donis. Sed illa servilitatis conditio quae
+              includit privationem voluntatis justitiae, non est a spiritu sancto.</p>
+            <p xml:id="ta-l3d34q2-d1e407">Ad primum igitur dicendum, quod quaedam sunt a spiritu sancto quae non sunt cum
+              spiritu sancto, sicut fides informis, et timor servilis: quod quidem non est nisi
+              propter defectum comitantem: quaedam vero sunt a spiritu sancto et cum ipso sunt,
+              sicut caritas; quaedam vero cum ipso, sed non ab ipso, sicut peccatum veniale; quaedam
+              vero nec ab ipso nec cum ipso, sicut mortale.</p>
+            <p xml:id="ta-l3d34q2-d1e410">Ad secundum dicendum, quod objectum amoris est bonum; sed objectum timoris, prout
+              nunc loquimur, est malum quod fugitur. In Deo autem est bonitatem invenire; et ideo
+              est propter seipsum et non propter aliud diligendus. Sed nullum malum in ipso est; est
+              autem ab ipso aliquod malum, scilicet malum poenae: et ideo propter poenam quam
+              infligit, Deum timere, non est malum secundum se. Quomodo autem timore reverentiae
+              bonum excellens timeatur, infra, art. 3, quaestiunc. 4, dicetur.</p>
+            <p xml:id="ta-l3d34q2-d1e413">Ad tertium dicendum, quod Gregorius loquitur de timore ratione servilitatis,
+              inquantum scilicet peccatum voluntatem retinet: quod patet ex hoc quod praemissis
+              verbis subjungit: <quote xml:id="ta-l3d34q2-Qd1e415">superbit quippe qui peccatum, si liceat non puniri, non
+                deserit</quote>. Vel dicendum, quod timor ille ex quo nascitur timor servilis
+              poenae, quantum ad actum suum non est timor inordinatus, qui est radix peccati; sed
+              est timor naturalis, quo quis omne nocivum naturaliter refugit.</p>
+          </div>
+          <div xml:id="ta-l3d34q2-Dd1e420">
+            <head xml:id="ta-l3d34q2-Hd1e422">Quaestiuncula 2</head>
+            <p xml:id="ta-l3d34q2-d1e425">Ad secundam quaestionem dicendum, quod quidquid est de substantia habitus, oportet
+              quod in actu ejus elucescat, eo quod quales sunt habitus, tales actus reddunt, ut
+              dicitur in 2 Ethic.: non autem oportet quod omne quod accidit alicui habitui, semper
+              in actu ejus manifestetur; sicut fidei informi accidit habere aliquid repugnans
+              caritati; non tamen oportet quod semper in actu ejus caritati repugnans aliquid
+              inveniatur. Cum igitur servilitas timoris habitui accidat ex imperfectione subjecti,
+              ut ex dictis patet, non oportet quod actus ejus semper conditiones servilitatis in se
+              habeat; sed poterit habere bonitatem proportionatam substantiae sui habitus, non
+              scilicet meritoriam, sicut nec habitus habet bonitatem gratuitam. Et quia habitus
+              perfectam rationem bonitatis non habet, ideo defectus alicujus debitae bonitatis in
+              actu, sive deordinatio aliqua, non repugnat substantiae habitus, sicut repugnat omnis
+              actus inordinatus habitui virtutis, qui habet bonitatem perfectam. Et propter hoc
+              virtutis usus semper est bonus, peccati autem semper est malus; sed timoris servilis
+              actus potest esse et bonus et malus.</p>
+            <p xml:id="ta-l3d34q2-d1e428">Ad primum ergo dicendum, quod Augustinus loquitur quando aliquid fit timore servili
+              ratione suae servilitatis.</p>
+            <p xml:id="ta-l3d34q2-d1e431">Ad secundum dicendum, quod actus timoris servilis quando bonus est, non est ex amore
+              gratuito, neque ex amore libidinoso, sed ex amore naturali, quo quis vult
+              consistentiam et bene esse sui subjecti; et ideo horret omnem poenam, sive quam
+              experientia docet, sicut in naturali timore, sive quam fides demonstrat, sicut in
+              servili.</p>
+            <p xml:id="ta-l3d34q2-d1e434">Ad tertium dicendum, quod non semper timere serviliter est actus timoris servilis, ut
+              ex dictis patet.</p>
+          </div>
+          <div xml:id="ta-l3d34q2-Dd1e438">
+            <head xml:id="ta-l3d34q2-Hd1e440">Quaestiuncula 3</head>
+            <p xml:id="ta-l3d34q2-d1e443">Ad tertiam quaestionem dicendum, quod timor servilis manet adveniente caritate
+              quantum ad substantiam, sed non quantum ad servilitatem. Constat enim quod homo
+              caritatem habens timet poenas aeternas, quod erat proprium objectum ejus quantum ad
+              substantiam habitus: quod enim haec plus quam alia timeat, non est de ratione habitus,
+              sed de ratione servilitatis.</p>
+            <p xml:id="ta-l3d34q2-d1e446">Et per hoc patet solutio ad utramque partem rationum.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l3d34q2-Dd1e452" type="articulus">
+          <head xml:id="ta-l3d34q2-Hd1e454">Articulus 3</head>
+
+          <head xml:id="ta-l3d34q2-Hd1e457" type="questionTitle">Utrum timor castus sit idem in substantia cum timore
+            servili</head>
+          <div xml:id="ta-l3d34q2-Dd1e460">
+            <head xml:id="ta-l3d34q2-Hd1e462">Quaestiuncula 1</head>
+            <p xml:id="ta-l3d34q2-d1e465">Ad tertium sic proceditur. Videtur quod timor castus sit idem in substantia cum
+              timore servili. Sicut enim se habet timor servilis ad fidem informem, ita timor castus
+              se habet ad fidem formatam. Ergo commutatim, sicut se habet fides informis ad fidem
+              formatam, ita se habet timor servilis ad castum. Sed fides formata est idem in
+              substantia cum fide informi. Ergo et timor castus cum servili.</p>
+            <p xml:id="ta-l3d34q2-d1e468">Praeterea, separatio a Deo, quam timet timor castus, includitur in poena aeterna,
+              quam timet timor servilis. Sed sicut se habent objecta, ita se habent habitus. Ergo
+              timor castus includitur in timore servili, et ita non differunt secundum
+              substantiam.</p>
+            <p xml:id="ta-l3d34q2-d1e471">Praeterea, ea quorum unum est ratio alterius, ad eumdem habitum pertinent, sicut
+              dilectio Dei et proximi. Sed separatio a Deo est ratio omnis poenae aeternae. Ergo ad
+              eumdem habitum pertinent; ergo timor castus et servilis non differunt secundum
+              substantiam habitus.</p>
+            <p xml:id="ta-l3d34q2-d1e474">Sed contra, plus distat a perfectione doni timor servilis quam virtus, quae est
+              timore servili perfectior, ut dictum est. Sed donum timoris differt secundum
+              substantiam habitus a virtute. Ergo multo fortius a timore servili.</p>
+            <p xml:id="ta-l3d34q2-d1e478">Praeterea, habitus diversificantur per actus et objecta. Sed inhonestum vel turpe,
+              quod timet timor castus, et triste, sive poenale, quod timet servilis timor, non
+              dicuntur malum una ratione, neque univoce. Ergo timor servilis et castus non sunt idem
+              habitus.</p>
+          </div>
+          <div xml:id="ta-l3d34q2-Dd1e482">
+            <head xml:id="ta-l3d34q2-Hd1e484">Quaestiuncula 2</head>
+            <p xml:id="ta-l3d34q2-d1e487">Ulterius. Videtur quod initialis differat secundum substantiam a casto. Initialis
+              enim includit servilem, quia timet poenam. Sed servilis secundum substantiam habitus
+              differt a casto. Ergo et initialis.</p>
+            <p xml:id="ta-l3d34q2-d1e490">Praeterea, idem non dividitur contra seipsum. Sed timor castus in littera dividitur
+              contra initialem. Ergo non est idem secundum substantiam cum ipso.</p>
+            <p xml:id="ta-l3d34q2-d1e493">Praeterea, sicut initialis est perfectior servili, ita castus est perfectior
+              initiali. Sed initialis non est idem cum servili: si enim sit idem, non erit idem cum
+              casto, qui differt secundum substantiam a servili, ut probatum est. Ergo et castus non
+              est idem cum initiali.</p>
+            <p xml:id="ta-l3d34q2-d1e496">Sed contra, perfectum et imperfectum non variat substantiam habitus. Sed timor castus
+              et initialis differunt secundum perfectum et imperfectum. Ergo non differunt secundum
+              substantiam habitus.</p>
+            <p xml:id="ta-l3d34q2-d1e500">Praeterea, habitus distinguuntur per actus et objecta. Sed idem est objectum quod
+              principaliter respicit timor initialis et castus, ut probatum est. Ergo sunt idem
+              secundum substantiam habitus.</p>
+          </div>
+          <div xml:id="ta-l3d34q2-Dd1e504">
+            <head xml:id="ta-l3d34q2-Hd1e506">Quaestiuncula 3</head>
+            <p xml:id="ta-l3d34q2-d1e509">Ulterius. Videtur quod timor castus diminuatur caritate crescente. Timor enim
+              initialis et castus, ut probatum est, sunt idem secundum substantiam. Sed timor
+              initialis decrescit caritate crescente, ut in littera dicitur. Ergo et timor
+              castus.</p>
+            <p xml:id="ta-l3d34q2-d1e512">Praeterea, omnis timor habet poenam, ut dicitur 1 Joan. 4. Sed caritas perfecta non
+              habet poenam. Ergo quanto crescit caritas, tanto quilibet timor decrescit.</p>
+            <p xml:id="ta-l3d34q2-d1e515">Praeterea, ubi est impossibilitas separationis, ibi non est timor separationis. Ergo
+              quanto aliquis difficilius separatur a Deo, tanto minuitur separationis timor. Sed
+              quanto caritas magis crescit, tanto aliquis difficilius a Deo separatur, quia
+              strictius ei colligatur. Ergo quanto magis crescit caritas, tanto magis decrescit
+              separationis timor, qui dicitur castus.</p>
+            <p xml:id="ta-l3d34q2-d1e518">Sed contra, timor castus est donum spiritus sancti. Sed omnes virtutes et dona simul
+              crescunt, sicut et simul infunduntur. Ergo crescente caritate, crescit timor
+              castus.</p>
+            <p xml:id="ta-l3d34q2-d1e522">Praeterea, amor est timoris causa. Sed crescente causa crescit effectus. Ergo
+              caritate crescente crescit timor.</p>
+          </div>
+          <div xml:id="ta-l3d34q2-Dd1e527">
+            <head xml:id="ta-l3d34q2-Hd1e529">Quaestiuncula 4</head>
+            <p xml:id="ta-l3d34q2-d1e532">Ulterius. Videtur quod timor evacuetur gloria adveniente. Ratio enim timoris est
+              possibilitas ad malum. Sed in illis qui sunt in gloria, non est possibilitas ad
+              aliquod malum, quod est timoris objectum. Ergo non erit ibi timor aliquis.</p>
+            <p xml:id="ta-l3d34q2-d1e535">Praeterea, spes videtur esse majoris perfectionis quam timor: quia spes perficitur
+              per fortitudinem cordis, timor autem per debilitatem, ut dictum est. Sed spes non
+              manet in patria. Ergo multo minus timor.</p>
+            <p xml:id="ta-l3d34q2-d1e538">Praeterea, omne quod est perfectionis, est in Deo. Sed timor non est in Deo. Ergo non
+              est perfectionis: ergo excluditur adveniente gloria.</p>
+            <p xml:id="ta-l3d34q2-d1e541">Sed contra Psalm. 18, 10: <quote xml:id="ta-l3d34q2-Qd1e543">timor domini sanctus permanet in saeculum
+                saeculi</quote>.</p>
+            <p xml:id="ta-l3d34q2-d1e548">Praeterea, timor debetur summae majestati. Malachiae, 1, 6: <quote xml:id="ta-l3d34q2-Qd1e550">si ego dominus,
+                ubi est timor meus?</quote> Sed in futuro exsolvemus Deo quidquid ei debemus. Ergo
+              timebimus ipsum.</p>
+          </div>
+          <div xml:id="ta-l3d34q2-Dd1e555">
+            <head xml:id="ta-l3d34q2-Hd1e557">Quaestiuncula 1</head>
+            <p xml:id="ta-l3d34q2-d1e560">Respondeo dicendum ad primam quaestionem, quod duplex est malum: quoddam quod
+              consistit in voluntate ejus cui inest, quod dicitur malum culpae; quoddam vero est
+              malum contra voluntatem ejus cui inest, quod dicitur malum poenae. Malum autem culpae
+              abhorret quis vel ex hoc quod declinat a rectitudine rationis, et sic est timor
+              inhonesti contrarii, inditus cuilibet virtuti; vel, ex hoc quod declinare facit ab
+              ipso Deo, et sic pertinet ad donum timoris. Horror autem declinationis a regula
+              aliqua, est propter amorem regulae. Unde timor qui est donum, causatur ex amore Dei;
+              et ideo dicitur timor amicabilis vel filialis, inquantum Deus dicitur pater noster;
+              vel etiam castus, inquantum Deus dicitur metaphorice sponsus animarum nostrarum. Timor
+              autem servilis, ut supra dictum est, inclinat ad aliquid faciendum contra voluntatem.
+              Unde oportet quod illud malum habeat quasi objectum proprium quod est contra
+              voluntatem, ex hoc rationem mali habens quod est malum poenae; et ita servilis et
+              castus non habent idem objectum, sed diversa; et propter hoc differunt secundum
+              substantiam habitus.</p>
+            <p xml:id="ta-l3d34q2-d1e563">Ad primum ergo dicendum, quod idem est fidei formatae et informis objectum; non autem
+              timoris servilis et casti. Proportio autem commutata non tenet in omnibus, sed in
+              numeris et magnitudinibus, ut dicitur in 1 posteriorum.</p>
+            <p xml:id="ta-l3d34q2-d1e566">Ad secundum dicendum, quod sicut amicus, quamvis delectationem habeat ex praesentia
+              amici, non tamen propter hoc quaerit amici praesentiam ut in ipso delectetur, sed
+              propter amicum ipsum, cui vult conjungi quantumcumque potest; ita et timor castus non
+              timet separationem inquantum est poena, sed inquantum est elongatio ab amato.</p>
+            <p xml:id="ta-l3d34q2-d1e569">Ad tertium dicendum, quod illud quod est ratio alterius sicut formaliter complens
+              objectum, non pertinet ad alium habitum vel potentiam, sicut lux et color: et hoc modo
+              Deus est ratio diligendi proximum per caritatem. Sed illud quod est ratio alterius
+              sicut causa, non oportet quod ad eumdem habitum pertineat, nec etiam ad eamdem
+              potentiam; sicut calor qui est ratio odoris, cognoscitur tactu, odor autem olfactu. Et
+              similiter separatio a Deo dicitur esse ratio poenae aeternae sicut causa; unde non
+              oportet quod ad eumdem habitum pertineat.</p>
+          </div>
+          <div xml:id="ta-l3d34q2-Dd1e573">
+            <head xml:id="ta-l3d34q2-Hd1e575">Quaestiuncula 2</head>
+            <p xml:id="ta-l3d34q2-d1e578">Ad secundam quaestionem dicendum, quod in quolibet dictorum est considerare duos
+              actus. Unum principalem, quem timor elicit, scilicet refugere hoc malum vel illud.
+              Alius est secundarius, quem timor imperat, scilicet facere aut dimittere hoc vel illud
+              propter fugam illius mali cujus est timor. Timor ergo initialis quantum ad primum
+              actum non differt a timore casto: quia timere poenas aeternas non est actus timoris
+              initialis, sed compatitur secum istum actum, sicut et timor castus: sed actus timoris
+              initialis est timere separationem, sicut et casti; quamvis non ita perfecte. Sed in
+              secundo actu differt castus timor et initialis: quia initialis non solum imperat actum
+              aliquem vel dimissionem propter separationem, sed etiam propter poenam: quod non
+              contingit in timore casto, qui ad solam separationem oculum habet. Actus autem
+              imperati per accidens comparantur ad habitus imperantes; et ideo timor initialis et
+              castus sunt idem in substantia habitus, differunt tamen accidentaliter, ut ex dictis
+              patet.</p>
+            <p xml:id="ta-l3d34q2-d1e581">Ad primum igitur dicendum, quod initialis non includit servilem secundum essentiam,
+              sed inquantum concurrunt ad unum actum imperandum.</p>
+            <p xml:id="ta-l3d34q2-d1e584">Ad secundum dicendum, quod dividuntur ex opposito ratione illius accidentis in quo
+              differunt, scilicet perfectionis et imperfectionis in actu elicito, et quantum ad
+              motivum in actu imperato, ut dictum est.</p>
+            <p xml:id="ta-l3d34q2-d1e587">Ad tertium dicendum, quod timor servilis differt in objecto, et per consequens in
+              principali actu, a timore initiali, non autem initialis a casto; unde non est similis
+              ratio.</p>
+          </div>
+          <div xml:id="ta-l3d34q2-Dd1e591">
+            <head xml:id="ta-l3d34q2-Hd1e593">Quaestiuncula 3</head>
+            <p xml:id="ta-l3d34q2-d1e596">Ad tertiam quaestionem dicendum, quod in istis timoribus est duplex actus, ut dictum
+              est. Si ergo loquamur de actu elicito, sic aliter dicendum est in timore servili, et
+              aliter in initiali et casto. Actus enim elicitus a timore initiali et casto est timere
+              separationem, ad quod duo requiruntur: unum ex parte subjecti, quod imperfectionis
+              est; scilicet possibilitas ad separationem, quia de impossibili non est timor; aliud
+              ex parte objecti, scilicet amor ejus a quo quis timet separari, quia ab eo quod quis
+              non amat, separari non curat; et hoc perfectionis est. Augmentum ergo caritatis facit
+              crescere actum timoris separationis quantum ad hoc quod perfectionis est, sed facit
+              decrescere quantum ad hoc quod imperfectionis est. Et quia habitus ad hoc sunt ut
+              imperfectionem a subjecto abjiciant, ideo crescente caritate crescit habitus timoris
+              casti et initialis. Actum autem quem elicit habitus timoris, qui prius erat servilis,
+              caritas similiter facit decrescere quantum ad possibilitatem poenae; quia quanto
+              caritas est major, tanto est major remotio a poena. Sed non facit ipsum crescere
+              quantum ad comparationem ad objectum: quia caritas non est amor directe illius boni
+              cui contrariatur illa poena. Nec iterum quantum ad hoc facit decrescere nisi secundum
+              comparationem, secundum quod caritate crescente semper exceditur magis et magis a
+              timoris casti actu. Si autem loquamur de actu imperato istis duobus timoribus, sic
+              nullo modo actum timoris casti diminuit: et perfecta caritas quantum ad hoc eum foras
+              mittit, ut nunquam jam oculus habeatur ad poenam in agendis vel dimittendis. Actum
+              vero timoris initialis diminuit quantum ad hoc quod habet oculum ad separationem.</p>
+            <p xml:id="ta-l3d34q2-d1e599">Ad primum igitur dicendum, quod initialis in littera non dicitur diminui quantum ad
+              hoc quod habet commune cum casto amore, sed quantum ad hoc quod habet commune cum
+              servili.</p>
+            <p xml:id="ta-l3d34q2-d1e602">Ad secundum dicendum, quod timor non habet poenam, nisi inquantum respicit aliquid
+              quod contrariatur voluntati, scilicet poenam: et hoc est servilis et initialis
+              timoris.</p>
+            <p xml:id="ta-l3d34q2-d1e605">Ad tertium et ad alia sequentia patet solutio per id quod dictum est in corp.</p>
+          </div>
+          <div xml:id="ta-l3d34q2-Dd1e609">
+            <head xml:id="ta-l3d34q2-Hd1e611">Quaestiuncula 4</head>
+            <p xml:id="ta-l3d34q2-d1e614">Ad quartam quaestionem dicendum, quod timor, proprie loquendo, habet malum pro
+              objecto: non autem quodlibet malum, sed malum in arduo constitutum: alias non esset in
+              irascibili. Malum autem quod facile vinci aut vitari potest, non timemus; sed odimus
+              tantum. Malum autem separationis a Deo est in arduissimo constitutum: unde quando
+              possibilitas ad hoc malum tolletur, remanebit adhuc operatio hominis ad Deum ut ad
+              arduum; et ideo tolletur timor quantum ad hunc actum qui est timere separationem, sed
+              manebit quantum ad actum qui est admirari vel revereri illud arduum, quod fit quando
+              ex consideratione tantae altitudinis homo in propriam resilit parvitatem.</p>
+            <p xml:id="ta-l3d34q2-d1e617">Et per hoc patet solutio ad primum.</p>
+            <p xml:id="ta-l3d34q2-d1e620">Ad secundum dicendum, quod spes ponit distantiam ad illud arduum, non autem timor; et
+              ideo spes non manet sicut timor.</p>
+            <p xml:id="ta-l3d34q2-d1e623">Ad tertium dicendum, quod subdi superiori est de perfectione creaturae, non autem de
+              perfectione creatoris. Non enim quod est perfectionis in uno, est perfectionis in
+              altero, et praecipue in Deo. Differt enim perfectio naturae conditae et glorificatae
+              et increatae, ut in 2, dist. 4, dixit Magister.</p>
+          </div>
+        </div>
+
+      </div>
+    </body>
+  </text>
+</TEI>

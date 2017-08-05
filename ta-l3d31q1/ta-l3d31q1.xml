@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum III, Distinctio 31, Quaestio 1</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.09-dev-master">
+          <title>Librum III, Distinctio 31, Quaestio 1</title>
+          <date when="2016-03-13">March 13, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-13">March 13, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness>1856 editum</witness>
+          <witness xml:id="H" n="harv245" xml:base="http://iiif.lib.harvard.edu/manifests/drs:51994085/canvas/">Cambridge, Mass.,
+            Harvard University, Houghton Library, MS Lat 245</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="2015.09">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+
+
+
+
+      <div xml:id="starts-on">
+        <cb ed="#H" n="114va"/> <!-- beginning of distinction is missing large initial as is customary -->
+      </div>
+    </front>
+    <body>
+      <div xml:id="ta-l3d31q1">
+        <head xml:id="ta-l3d31q1-Hd1e99">Librum III, Distinctio 31, Quaestio 1</head>
+        <div xml:id="ta-l3d31q1-Dd1e102">
+          <head xml:id="ta-l3d31q1-Hd1e104">Prooemium</head>
+          <p xml:id="ta-l3d31q1-d1e107">Postquam determinavit Magister de caritate, hic determinat de ejus duratione. Dividitur
+            autem in partes duas: in prima parte determinat de duratione caritatis quantum ad suam
+            essentiam; in secunda de duratione ejus quantum ad ordinem ejus, ostendens qualis in
+            Christo fuerit, et in beatis futurus sit, ibi: <quote xml:id="ta-l3d31q1-Qd1e109">nunc autem superest investigare si
+              Christus, secundum quod homo, ordinem diligendi praescriptum servaverit</quote>. Prima
+            in duas: in prima determinat de duratione caritatis; in secunda de duratione aliorum
+            habituum, ibi: <quote xml:id="ta-l3d31q1-Qd1e112">advertendum etiam est</quote> et cetera. Circa primum tria facit:
+            primo ponit opinionem falsam quorumdam, qui dixerunt caritatem non posse amitti, et
+            rationes opinionis illius; secundo objicit in contrarium, ibi: <quote xml:id="ta-l3d31q1-Qd1e115">quos ratio vincit,
+              et auctoritas</quote>; tertio solvit rationes in contrarium inductas, ibi: <quote xml:id="ta-l3d31q1-Qd1e118">quod
+              vero apostolus ait, caritas nunquam excidit, pro illis nullatenus facit</quote>. Hic
+            est duplex quaestio. Prima de evacuatione caritatis per peccatum. Secunda de evacuatione
+            ejus per gloriam. Circa primum quaeruntur quatuor: 1 utrum caritas semel habita possit
+            amitti; 2 utrum aliquis possit de libro vitae deleri; 3 utrum minima caritas possit
+            cuilibet tentationi resistere; 4 de quantitate caritatis in resurgente.</p>
+        </div>
+        <div xml:id="ta-l3d31q1-Dd1e123" type="articulus">
+          <head xml:id="ta-l3d31q1-Hd1e125">Articulus 1</head>
+
+          <head xml:id="ta-l3d31q1-Hd1e128" type="questionTitle">Utrum qui habet caritatem, possit eam amittere</head>
+
+          <p xml:id="ta-l3d31q1-d1e131">Ad primum sic proceditur. Videtur quod habens caritatem non possit eam amittere. Omnis
+            enim qui habet caritatem, est natus ex Deo, quia caritas facit filios Dei. Sed omnis qui
+            natus est ex Deo, non peccat, ut dicitur 1 Joan. 3. Ergo omnis qui habet caritatem non
+            peccat; et ita caritas semel habita non potest amitti.</p>
+          <p xml:id="ta-l3d31q1-d1e134">Praeterea, in quolibet habente caritatem est meritum vitae aeternae: quia caritas est
+            principium merendi, ut dictum est. Sed injuste agitur cum aliquo, si non reddatur ei
+            quod meruit, quia hoc est ei debitum. Ergo cuilibet habenti aliquando caritatem dabitur
+            vita aeterna. Sed nulli dabitur vita aeterna nisi finaliter habeat caritatem. Ergo
+            quicumque habet caritatem, finaliter habebit eam; et ita non potest ad minus finaliter
+            amitti, ut videtur.</p>
+          <p xml:id="ta-l3d31q1-d1e137">Praeterea, illud quod est fortissimum, non potest vinci a debilissimo. Sed caritas est
+            fortissima, quia <quote xml:id="ta-l3d31q1-Qd1e139">est fortis ut mors</quote>, ut dicitur Cant. ult.: peccatum
+            autem est debilissimum, quia malum est infirmum et pigrum, ut dicit Dionysius. Ergo
+            caritas non potest per peccatum expelli. Sed nullo alio modo potest amitti. Ergo caritas
+            semel habita amitti non potest.</p>
+          <p xml:id="ta-l3d31q1-d1e144">Praeterea, radix omnis mali est cupiditas: 1 Tim. 6. Sed caritas non compatitur secum
+            cupiditatem, ad minus perfecta, ut dicit Augustinus in Lib. 83 quaestionum. Ergo qui
+            habet caritatem, non potest incidere in aliquod malum; et ita non potest eam
+            amittere.</p>
+          <p xml:id="ta-l3d31q1-d1e147">Praeterea, si peccatum expellit caritatem, aut peccatum quod est, aut peccatum quod non
+            est. Sed non peccatum quod est, quia illud caritatem non superat; nec illud quod non
+            est, quia illud quod non est, non potest agere. Ergo peccatum nullo modo expellit
+            caritatem.</p>
+          <p xml:id="ta-l3d31q1-d1e150">Praeterea, illud quod est in minori parte, magis distat ab eo quod est in pluribus,
+            quam ab eo quod est ad utrumlibet. Sed ex eo quod est ad utrumlibet, non potest aliquid
+            procedere, ut dicit Commentator in 2 Physic. Ergo multo minus ab eo quod est in minori
+            parte. Sed caritas quamvis non faciat necessitatem ad bonum ut semper fiat, facit tamen
+            inclinationem ut pluries fiat. Ergo non potest ille qui habet caritatem, facere malum,
+            ad quod se habet sicut in minori parte; et ita non potest peccare, vel caritatem
+            amittere.</p>
+          <p xml:id="ta-l3d31q1-d1e153">Praeterea, amor caritatis est fortior quam amor naturalis. Sed amor naturalis non
+            amittitur per peccatum. Ergo nec amor caritatis.</p>
+          <p xml:id="ta-l3d31q1-d1e156">Praeterea caritas est major fide; et utrumque est donum Dei. Cum ergo fides non
+            tollatur per peccatum mortale, videtur quod nec caritas.</p>
+          <p xml:id="ta-l3d31q1-d1e159">Sed contra, Apoc. 2, 4: <quote xml:id="ta-l3d31q1-Qd1e161">habeo adversum te pauca, quia caritatem primam
+              reliquisti</quote>. Ergo caritas potest amitti.</p>
+          <p xml:id="ta-l3d31q1-d1e166">Praeterea, in eo qui cadere non potest, non est necessaria cautela. Sed stanti per
+            caritatem necessaria est cautela; 1 Corinth. 10, 12: <quote xml:id="ta-l3d31q1-Qd1e168">qui stat, videat ne
+              cadat</quote>. Ergo caritas potest amitti.</p>
+          <p xml:id="ta-l3d31q1-d1e172">Praeterea, David caritatem prius habuit; alias non sibi reddendam laetitiam salutarem
+            peteret; et tamen peccavit, et caritatem amisit, quam sibi restitui petit. Ergo caritas
+            semel habita potest amitti.</p>
+          <p xml:id="ta-l3d31q1-d1e175">Praeterea, quicumque non potest peccare, habet liberum arbitrium confirmatum. Sed non
+            omnis qui habet caritatem, habet liberum arbitrium confirmatum. Ergo aliquis habens
+            caritatem potest peccare, et ita caritatem amittere.</p>
+          <p xml:id="ta-l3d31q1-d1e178">Respondeo dicendum, quod opinio ponentium caritatem non posse amitti propter suam
+            firmitatem, est similis opinioni Socratis, qui posuit, quod habens scientiam non potest
+            peccare, propter nobilitatem et certitudinem scientiae, ut dicit philosophus in 8
+            Ethicor.: et ideo utriusque est similis et probatio et improbatio, et probationis
+            solutio. Utraque enim potissime per experientiam improbatur; probatur autem per
+            firmitatem scientiae et caritatis. Solvit autem philosophus praedictam probationem de
+            scientia per hoc quod scientia principaliter in universali consistit, operationes autem
+            circa singularia sunt. Et ideo concupiscentia, quae in particulare bonum tendit, nisi
+            reprimatur, deductionem scientiae universalis ad particulare impedit, considerationem
+            scientiae in particulari operabili absorbens, et rationem, ita ut quamvis incontinens in
+            fervore concupiscentiae constitutus universale recte consideret, et non tantum habitu
+            teneat (ut quod omnis fornicatio fugienda est), tamen quando ad hoc particulare
+            descenditur per concupiscentiam, habitu rationis rectae ligato, in actum rectae
+            considerationis circa particulare homo prodire non potest. Similiter etiam caritas
+            principaliter est circa bonum aeternum; unde facit universalem conceptionem haberi, quia
+            nihil contra Deum faciendum est; sed quando ad particulare descenditur, tentatio aliqua
+            inclinationem praedictam caritatis absorbet, ut dictum est de scientia. Sed quia caritas
+            vehementius diligit Deum quam aliqua concupiscentia diligat aliquod commutabile bonum;
+            si aliquis affectum quem habet ad Deum, ad opus particulare extenderet, ut ad regulam
+            operis, nunquam incideret in peccatum. Sed quia in potestate nostra est uti caritatis
+            actu, vel non uti, cum caritas voluntatem non cogat; ideo affectio commutabilis boni
+            praevalet, et inducit peccatum. Et propter hoc patet quod omne peccatum est ex errore,
+            et ex contemptu negligentiae. Unde Boetius dicit: <quote xml:id="ta-l3d31q1-Qd1e180">talia tibi contuleramus arma,
+              quae nisi prior abjecisses, invicta te firmitate tuerentur</quote>. Sic ergo homo in
+            peccatum lapsus caritatem amittit: quia per peccatum a Deo dividitur, cum sibi alium
+            finem constituat, cum non possint duo esse fines ultimi. Unde cum caritas habeat causam
+            conjunctam ad Deum, statim amittitur unico actu; et hoc invenitur in omnibus
+            accidentibus quae habent causam extra subjectum: quia nihil potest permanere separatum a
+            sua causa essentiali, sicut patet de lumine. Secus autem est de habitibus qui habent
+            causam in subjecto: quia illi totaliter non destruuntur per unum actum peccati.</p>
+          <p xml:id="ta-l3d31q1-d1e184">Ad primum ergo dicendum, quod hoc intelligendum est, si velit uti gratia; per quod
+            filius Dei est: per eam enim potest peccato resistere.</p>
+          <p xml:id="ta-l3d31q1-d1e187">Ad secundum dicendum, quod quidam dixerunt, quod caritas nunquam meretur, nisi finalis.
+            Sed hoc falsum est; quia caritas finalis non potest dici nisi quae est in ultimo termino
+            vitae; et tunc forte homo nihil meretur, sed dormit. Unde dicendum, quod quolibet actu
+            caritatis meretur vitam aeternam, et efficit eam sibi debitam. Sed quando peccat, jam
+            efficitur quodammodo alius, ut philosophus dicit 9 Ethic., quia transmutatur ab eo quod
+            erat sibi conveniens secundum naturam, in id quod est praeter naturam; et ideo non
+            oportet quod ei reddatur; sicut etiam id quod est debitum reddi sano, non redditur
+            furioso.</p>
+          <p xml:id="ta-l3d31q1-d1e191">Ad tertium dicendum, quod non est ex defectu caritatis quod a peccato vincatur, sed ex
+            defectu habentis caritatem, quia caritate non utitur, ut dictum est.</p>
+          <p xml:id="ta-l3d31q1-d1e194">Ad quartum dicendum, quod cupiditas quamvis non sit in actu in eo qui habet caritatem,
+            tamen est in radice, et potest caritatem impedire ne in actum prorumpat; et quando non
+            impeditur, tunc germinat, et caritatem expellit.</p>
+          <p xml:id="ta-l3d31q1-d1e197">Ad quintum dicendum, quod in eodem instanti in quo peccatum advenit, caritas
+            expellitur; et sicut illud est primum instans in quo peccatum esse incipit, ita illud
+            est primum in quo caritas non esse incipit, sicut patet in naturalibus de duabus formis
+            contrariis.</p>
+          <p xml:id="ta-l3d31q1-d1e200">Ad sextum dicendum, quod illud quod est ad utrumlibet, inquantum ex alia causa
+            intrinseca movetur, sic determinatur ad alterum, et sic potest ab eo effectus procedere.
+            Unde quando non est determinatum totaliter ab aliquo uno, potest etiam determinari ad
+            oppositum; et sic ab eo quod est in paucioribus respectu ipsius jam determinati per
+            primum, potest contrarium accidere ut in paucioribus propter aliud determinans quod est
+            contrarium illi determinanti ut in pluribus; et sic est in proposito: quia sicut
+            caritas, quantum est in se, ut in pluribus inclinat ad bonum, ita affectio sensibilis
+            inclinat ad delectabile sensui, et ab hoc sicut ex quodam habitu inclinatur voluntas ad
+            peccatum.</p>
+          <p xml:id="ta-l3d31q1-d1e203">Ad septimum dicendum, quod amor naturalis est secundum voluntatem totaliter
+            determinatam ad unum; non autem sic est de amore caritatis, nisi in illis qui jam
+            confirmati sunt.</p>
+          <p xml:id="ta-l3d31q1-d1e206">Ad octavum dicendum, quod per peccatum non totaliter separatur homo a Deo, quia sic
+            esse desineret; sed quantum ad ultimam et perfectam conjunctionem quam facit caritas. Et
+            ideo non oportet quod fides per peccatum tollatur, sicut caritas; sicut per
+            interpositionem nubis aer radios solis amittit, non tamen omnimodam claritatem, sicut
+            quae est ex reverberatione, qualis etiam apparet ubi non sunt radii solis.</p>
+        </div>
+        <div xml:id="ta-l3d31q1-Dd1e210" type="articulus">
+          <head xml:id="ta-l3d31q1-Hd1e212">Articulus 2</head>
+
+          <head xml:id="ta-l3d31q1-Hd1e215" type="questionTitle">Utrum liber vitae sit quid creatum</head>
+          <div xml:id="ta-l3d31q1-Dd1e218">
+            <head xml:id="ta-l3d31q1-Hd1e220">Quaestiuncula 1</head>
+            <p xml:id="ta-l3d31q1-d1e223">Ad secundum sic proceditur. Videtur quod liber vitae sit quid creatum. Eccli. 24, 32:
+                <quote xml:id="ta-l3d31q1-Qd1e225">haec omnia liber vitae</quote>, Glossa: <quote xml:id="ta-l3d31q1-Qd1e228">hoc liber est vetus et novum
+                testamentum</quote>. Hoc autem est quid creatum. Ergo et liber vitae.</p>
+            <p xml:id="ta-l3d31q1-d1e232">Praeterea, Apoc. 20, 12: <quote xml:id="ta-l3d31q1-Qd1e234">alius liber est apertus, qui est vitae</quote>;
+              Glossa: <quote xml:id="ta-l3d31q1-Qd1e237">Christus, qui tunc apparebit omnibus patens</quote>. Sed non apparebit
+              omnibus nisi secundum humanam naturam. Cum ergo humana natura in Christo creata sit,
+              videtur quod liber vitae sit quid creatum.</p>
+            <p xml:id="ta-l3d31q1-d1e241">Praeterea, liber, inquantum in eo Scriptura fit, est receptivus extraneae
+              impressionis. Sed res increata non suscipit peregrinam impressionem. Ergo non est quid
+              increatum, sed creatum.</p>
+            <p xml:id="ta-l3d31q1-d1e244">Item, videtur quod sit proprium filii. Quia Psal. 39, 9: <quote xml:id="ta-l3d31q1-Qd1e246">in capite libri
+                scriptum est de me</quote>: Glossa: <quote xml:id="ta-l3d31q1-Qd1e249">in patre, qui est caput nostrum</quote>.
+              Sed illud in divinitate cujus caput est pater, est filius. Ergo liber vitae est
+              filius.</p>
+            <p xml:id="ta-l3d31q1-d1e254">Item, videtur quod spiritus sanctus. Quia spiritui sancto attribuitur vivificatio et
+              in symbolo et Joan. 6, 64: <quote xml:id="ta-l3d31q1-Qd1e256">spiritus est qui vivificat</quote>. Ergo cum liber
+              vitae ordinetur ad vitam, conveniet spiritui sancto vel proprie, vel per
+              appropriationem.</p>
+            <p xml:id="ta-l3d31q1-d1e260">Sed contra, Augustinus, 20 de Civit. Dei: <quote xml:id="ta-l3d31q1-Qd1e262">liber vitae est praescientia Dei,
+                quae falli non potest</quote>. Sed praescientia est quid increatum essentiale et
+              appropriabile filio. Ergo et liber vitae.</p>
+          </div>
+          <div xml:id="ta-l3d31q1-Dd1e267">
+            <head xml:id="ta-l3d31q1-Hd1e269">Quaestiuncula 2</head>
+            <p xml:id="ta-l3d31q1-d1e272">Ulterius. Videtur quod liber vitae sit respectu Dei. Psal. 68: <quote xml:id="ta-l3d31q1-Qd1e274">deleantur de
+                libro viventium</quote>; Glossa: <quote xml:id="ta-l3d31q1-Qd1e277">liber viventium est Dei notitia</quote>. Sed
+              Deus de se habet maxime notitiam. Ergo liber vitae est respectu Dei.</p>
+            <p xml:id="ta-l3d31q1-d1e281">Praeterea, ipse est fons vitae cujuslibet. Si ergo est aliorum, quae habent vitam
+              participative, multo amplius est sui ipsius, qui habet vitam originaliter.</p>
+            <p xml:id="ta-l3d31q1-d1e284">Item, videtur quod sit omnium creaturarum. Quia praescientia est omnium. Sed liber
+              vitae est divina praescientia, ut supra dictum est. Ergo erit omnium.</p>
+            <p xml:id="ta-l3d31q1-d1e287">Praeterea, Joan. 1, 3: <quote xml:id="ta-l3d31q1-Qd1e289">quod factum est, in ipso vita erat</quote>. Sed omnis
+              creatura est facta. Ergo omnis creatura in libro vitae scribitur.</p>
+            <p xml:id="ta-l3d31q1-d1e294">Item, videtur quod sit etiam de malis. Luc. 10, super illud: <quote xml:id="ta-l3d31q1-Qd1e296">nomina vestra
+                scripta sunt in caelis</quote>, dicit Glossa: <quote xml:id="ta-l3d31q1-Qd1e299">sive caelestia sive terrestria
+                opera gesserit quis, per hoc quasi litteris annotatus, apud Dei memoriam
+                aeternaliter est affixus</quote>. Sed gerere terrestria opera est malorum. Ergo cum
+              nihil aliud sit liber vitae quam reservatio divinae memoriae, videtur quod liber vitae
+              sit etiam malorum.</p>
+            <p xml:id="ta-l3d31q1-d1e303">Item, liber vitae ordinatur ad vitam. Sed vita naturae est communis bonis et malis;
+              vita autem gratiae communis praescitis et praedestinatis. Ergo liber vitae est malorum
+              et bonorum, et praedestinatorum et praescitorum.</p>
+            <p xml:id="ta-l3d31q1-d1e306">Sed contra, illud dicitur esse scriptum in Deo quod habet exemplar in ipso. Sed mala
+              inquantum hujusmodi, non habent exemplar in ipso. Ergo non sunt ibi scripta.</p>
+          </div>
+          <div xml:id="ta-l3d31q1-Dd1e310">
+            <head xml:id="ta-l3d31q1-Hd1e312">Quaestiuncula 3</head>
+            <p xml:id="ta-l3d31q1-d1e315">Ulterius. Videtur quod nihil quod sit ibi scriptum, debeat dici inde deleri. Quia
+              liber vitae est divina praedestinatio, ut dicit Glossa Phil. 4. Sed a praedestinatione
+              non dicitur aliquis excidere. Ergo nec a libro vitae deleri.</p>
+            <p xml:id="ta-l3d31q1-d1e318">Praeterea, liber in quo potest aliquid describi et deleri, est mutabilis. Sed liber
+              vitae est immutabilis, quia est quid increatum. Ergo non potest aliquis inde
+              deleri.</p>
+            <p xml:id="ta-l3d31q1-d1e321">Praeterea, quod est secundum opinionem tantum, cum sit secundum quid, non debet
+              enuntiari simpliciter. Sed Glossa super illud Psalm. 68: <quote xml:id="ta-l3d31q1-Qd1e323">deleantur de libro
+                viventium</quote>, dicit, hoc accipiendum forte tantum secundum spem illorum qui se
+              esse scriptos putabant. Ergo videtur quod non debeat dici aliquem inde deleri.</p>
+            <p xml:id="ta-l3d31q1-d1e327">Sed contra, Exod. 32, 33: <quote xml:id="ta-l3d31q1-Qd1e329">qui peccaverit mihi, delebo eum de libro
+              meo</quote>. Sed multi peccant. Ergo multi delentur.</p>
+            <p xml:id="ta-l3d31q1-d1e334">Praeterea, nullus simul est scriptus in libro vitae et damnatus. Sed multi qui prius
+              fuerunt scripti in libro vitae, postea damnantur, sicut patet de discipulis Christi,
+              quibus dictum est Lucae 10, 20: <quote xml:id="ta-l3d31q1-Qd1e336">gaudete, quia nomina vestra scripta sunt in
+                libro vitae</quote>: ex quibus tamen multi abierunt retrorsum, ut dicitur Joan. 6.
+              Ergo aliqui qui prius fuerunt ibi scripti, delentur.</p>
+          </div>
+          <div xml:id="ta-l3d31q1-Dd1e342">
+            <head xml:id="ta-l3d31q1-Hd1e344">Quaestiuncula 1</head>
+            <p xml:id="ta-l3d31q1-d1e347">Respondeo dicendum ad primam quaestionem, quod liber vitae, de quo nunc loquimur,
+              metaphorice dicitur. Unde oportet quod ejus significatio accipiatur secundum
+              similitudinem libri materialis; de cujus ratione videtur esse quod contineat figuras
+              aliquas quasi similitudines aliquas illorum qui per librum illum cognoscuntur; unde et
+              liber vitae dicitur, quia continet similitudines quibus potest cognosci vita. Non est
+              autem sufficienter liber vitae, quasi perfectam cognitionem de vita faciens, nisi
+              contineat similitudines de vita cujuslibet in particulari; quia cognitio in universali
+              est imperfecta et in potentia. Sed habere hoc modo similitudines omnium habentium
+              vitam determinate, non est nisi divinae mentis, in qua sunt exemplaria rerum omnium
+              propria; et ideo liber vitae non est quid creatum, sed est divina notitia de vita non
+              solum in universali, sed in particulari quantum ad omnes in quibus invenitur vita. Et
+              quia notitia est essentiale et appropriatum filio, ideo liber vitae essentiale quiddam
+              est in divinis, et filio appropriatur.</p>
+            <p xml:id="ta-l3d31q1-d1e350">Ad primum ergo dicendum, quod vetus et novum testamentum dicitur liber vitae, quasi
+              faciens cognitionem de vita universali, et docens praecepta quibus pervenitur ad
+              vitam; non tamen facit notitiam de vita uniuscujusque; et ideo aliquo modo potest dici
+              liber vitae, sed non secundum completam rationem.</p>
+            <p xml:id="ta-l3d31q1-d1e353">Ad secundum dicendum, quod Christus secundum humanam naturam dicitur liber vitae,
+              quasi exemplar universale vitae, sed non quasi similitudo particulariter faciens
+              cognoscere vitam uniuscujusque.</p>
+            <p xml:id="ta-l3d31q1-d1e356">Ad tertium dicendum, quod similitudines vel figurae istius libri non sunt aliquid
+              additum essentiae ejus: quia rationes exemplares, ut in 1 libro dictum est, sunt ipsa
+              divina essentia; et ideo non oportet quod recipiat peregrinas impressiones.</p>
+            <p xml:id="ta-l3d31q1-d1e360">Ad quartum dicendum, quod pater dicitur caput libri, idest filii, secundum quod liber
+              appropriatur filio.</p>
+            <p xml:id="ta-l3d31q1-d1e363">Ad quintum dicendum, quod quamvis vita approprietur spiritui sancto, tamen notitia de
+              vita appropriatur filio.</p>
+          </div>
+          <div xml:id="ta-l3d31q1-Dd1e367">
+            <head xml:id="ta-l3d31q1-Hd1e369">Quaestiuncula 2</head>
+            <p xml:id="ta-l3d31q1-d1e372">Ad secundam quaestionem dicendum, quod liber vitae dicitur notitia Dei. Quia autem
+              liber proprie est illorum quorum notitiam facit per figuras et similitudines
+              existentes in libro; ideo illorum solum notitia dici potest liber quae cognoscit Deus
+              per similitudinem. Mala autem non cognoscit Deus per similitudines existentes malorum
+              in se, sed cognoscuntur per modum privationis. Similiter etiam Deus seipsum non
+              cognoscit per similitudinem sui ipsius, sed per hoc quod sibi secundum essentiam suam
+              praesens est. Unde neque notitia quam habet de seipso, neque notitia quam habet de
+              malis, potest dici liber vitae, nisi de malis poenae, inquantum sunt justa et bona,
+              secundum quod dicitur liber mortis. Vita autem inter bona computatur: unde oportet
+              quod liber vitae intelligatur respectu vitae quae in creaturis invenitur. Et quamvis
+              Deus habeat notitiam de vita naturae et gratiae et gloriae (unde respectu cujuslibet
+              dictarum vitarum posset dici Dei notitia liber vitae); tamen perfecta ratio vitae non
+              invenitur nisi in vita gloriae, quae permixtionem mortis non patitur; et ideo liber
+              vitae secundum propriam sui acceptionem est notitia Dei quam habet de vita gloriae
+              uniuscujusque. Sic ergo differt liber vitae a scientia Dei, quae est de temporalibus
+              et aeternis; et a praescientia, quae est de bonis et malis; et etiam a
+              praedestinatione, quia praedestinatio proprie de futuris est, et providentia
+              directionem in finem importat, cum sit propositum miserendi. Sed liber vitae simplicem
+              notitiam de vita importat, et non determinat aliquod tempus; unde scripti in libro
+              vitae dicuntur et qui vitam habent, et qui habituri sunt.</p>
+            <p xml:id="ta-l3d31q1-d1e375">Et per hoc patet solutio ad omnia objecta.</p>
+          </div>
+          <div xml:id="ta-l3d31q1-Dd1e379">
+            <head xml:id="ta-l3d31q1-Hd1e381">Quaestiuncula 3</head>
+            <p xml:id="ta-l3d31q1-d1e384">Ad tertiam quaestionem dicendum, quod liber vitae, ut dictum est, est notitia Dei de
+              vita gloriae alicujus hominis. Res autem aliqua dupliciter habet esse, scilicet in se
+              et in sua causa: in se quidem est simpliciter; in causa autem sua habet esse secundum
+              quid. Causa autem gloriae est gratia, sufficiens quantum in se est: unde qui habet
+              gratiam, habet jam vitam gloriae secundum quid. Cognitio ergo de vita gloriae alicujus
+              habetur a Deo dupliciter. Uno modo, inquantum Deus scit ipsam vitam gloriae in isto
+              esse, vel futuram esse simpliciter; et tunc talis dicitur esse scriptus in libro vitae
+              simpliciter, vel adscriptus, ut quidam dicunt, ad similitudinem illorum qui
+              adscribuntur ad militiam, vel ad aliquod officium. Alio modo, inquantum Deus scit
+              vitam gloriae inesse isti, vel futuram esse in eo in causa sua, quae est gratia; et
+              talis dicitur secundum quid scriptus in libro vitae, vel annotatus, ut quidam dicunt.
+              Quia ergo non potest esse ut scientia Dei fallatur, ideo quemcumque scit habiturum
+              vitam aeternam, habebit eam. Unde iste qui simpliciter scriptus est vel adscriptus in
+              libro vitae, non potest inde deleri. Sed quia gratia, quae est causa gloriae in eo qui
+              habet praesentem justitiam, quando ipse a justitia per peccatum decidit, desinit esse
+              gloriae causa in eo; ideo notitia Dei de gratia istius non est ut de causa gloriae:
+              unde jam ista cognitio gratiae istius quam Deus habet, non pertinet ad librum vitae
+              gloriae: et secundum hoc dicitur deleri de libro vitae, non aliqua mutatione in libro
+              facta, sed in ipso ex parte cujus accidit quod gratia non est jam causa gloriae; et
+              dicitur Deus aliquem de libro vitae delere, inquantum permittit eum a justitia
+              excidere per peccatum.</p>
+            <p xml:id="ta-l3d31q1-d1e387">Ad primum igitur dicendum, quod praedestinatio importat directionem in finem, quod
+              non importat liber vitae, ut dictum est, et ideo non potest dici praedestinatus ille
+              qui habet praesentem justitiam tantum; potest autem aliquo modo dici scriptus in libro
+              vitae, ut dictum est.</p>
+            <p xml:id="ta-l3d31q1-d1e390">Ad secundum patet solutio per id quod supra dictum est.</p>
+            <p xml:id="ta-l3d31q1-d1e393">Ad tertium dicendum, quod Glossa illa loquitur de Scriptura qua aliquis scriptus est
+              in libro vitae simpliciter.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l3d31q1-Dd1e398" type="articulus">
+          <head xml:id="ta-l3d31q1-Hd1e400">Articulus 3</head>
+
+          <head xml:id="ta-l3d31q1-Hd1e403" type="questionTitle">Utrum quaelibet caritas possit resistere cuilibet
+            tentationi</head>
+
+          <p xml:id="ta-l3d31q1-d1e406">Ad tertium sic proceditur. Videtur quod non quaelibet caritas possit resistere cuilibet
+            tentationi. Sicut enim caritas obsistit peccato, ita et ratio, ut supra dictum est. Sed
+            non quaelibet ratio potest tentationi resistere, sicut patet in incontinentibus, qui
+            habent rationem rectam, et vincuntur, ut dicit philosophus. Ergo non quaelibet caritas
+            potest tentationi cuilibet resistere.</p>
+          <p xml:id="ta-l3d31q1-d1e409">Praeterea, major est difficultas in resistendo malo quam in operando bonum simpliciter.
+            Sed caritas minima non potest in quodlibet bonum. Ergo nec potest cuilibet tentationi
+            resistere.</p>
+          <p xml:id="ta-l3d31q1-d1e412">Praeterea, in resistendo maximae tentationi est maximum meritum, cum sit ibi maxima
+            pugna quae coronam meretur. Sed minima caritas non potest in maximum praemium. Ergo nec
+            resistere maximae tentationi.</p>
+          <p xml:id="ta-l3d31q1-d1e416">Praeterea, caritas imperfecta non resistit venialibus. Sed major est impugnatio
+            mortalium quam venialium. Ergo non resistit maximae tentationi.</p>
+          <p xml:id="ta-l3d31q1-d1e419">Praeterea, 1 Corinth. 10, 13: <quote xml:id="ta-l3d31q1-Qd1e421">fidelis Deus, qui non patietur vos tentari supra
+              id quod potestis</quote>. Sed illi quibus scribebatur, habebant gratiam, sicut patet
+            in principio epistolae. Ergo aliqua tentatio est supra posse habentis gratiam vel
+            caritatem.</p>
+          <p xml:id="ta-l3d31q1-d1e425">Sed contra, non potest evitari omne peccatum, nisi omni tentationi resistatur. Sed
+            minima caritas potest vitare omne peccatum, cum etiam homo in puris naturalibus existens
+            hoc potuisset. Ergo caritas quaelibet potest omnem tentationem vincere.</p>
+          <p xml:id="ta-l3d31q1-d1e428">Praeterea, plus diligit caritas legem Dei quam cupiditas millia auri et argenti, ut
+            dicit Glossa super Psalm. 118. Sed major dilectio minori tentationi resistere potest.
+            Ergo quaelibet caritas resistere potest cuilibet tentationi.</p>
+          <p xml:id="ta-l3d31q1-d1e431">Praeterea, nullus peccat in eo quod non potest vitare, ut Augustinus dicit. Si ergo
+            habens caritatem non posset cuilibet tentationi resistere, videtur quod tentationi
+            consentiens non peccaret.</p>
+          <p xml:id="ta-l3d31q1-d1e434">Respondeo dicendum, quod resistere tentationi dupliciter dicitur. Uno modo ut quis a
+            tentatione non vincatur; alio modo ut quis tentationem vincat. Dicitur enim aliquis a
+            tentatione vinci, quando a proposito bono trahitur per tentationem in consensum peccati;
+            sicut est in incontinente qui habet rationem rectam, sed deducitur. Qui enim non habet
+            propositum bonum, ut intemperatus, sive luxuriosus, non vincitur, quia libenter id agit.
+            Vincit autem qui non solum a tentatione superveniente in actum peccati non deducitur,
+            sed etiam ex magnitudine virtutis, quasi nihil tentationem parvipendit. Qui vero
+            difficultatem a tentatione patitur, sed non deducitur; resistit quidem tentationi cum
+            non consentit, sed non vincit, proprie loquendo. Loquendo ergo primo modo de resistentia
+            peccati, sic quaelibet caritas potest resistere peccato propter liberum arbitrium
+            liberatum a servitute peccati, quamvis difficultatem patiatur propter tentationis
+            impulsum. Loquendo vero de tentatione secundo modo, sic caritas quae est parva in
+            principio tentationis, potest tentationibus resistere, quia in fine tentationis fit
+            magna, cum Deus pugnanti auxilium semper administret. Si tamen ponatur quod semper parva
+            maneret, non posset per modum dictum tentationi resistere.</p>
+          <p xml:id="ta-l3d31q1-d1e438">Ad primum ergo dicendum, quod non est simile de incontinente et habente caritatem: quia
+            habens caritatem habet jam habitum virtutis, quam non habet incontinens: et praeterea
+            incontinens etiam non vincitur quando non posset resistere, si vellet ratione recta quam
+            habet uti, ut supra dictum est.</p>
+          <p xml:id="ta-l3d31q1-d1e441">Ad secundum dicendum, quod quamvis sit major difficultas laboris, non tamen est major
+            difficultas quae attenditur secundum excessum operis ad potentiam; qua attenditur in
+            virtutibus, ut dictum est.</p>
+          <p xml:id="ta-l3d31q1-d1e444">Ad tertium potest dici, quod etiam minima caritas potest in magnum meritum respectu
+            praemii accidentalis, non autem respectu praemii substantialis, ut supra dictum est.</p>
+          <p xml:id="ta-l3d31q1-d1e447">Ad quartum dicendum, quod venialibus etiam resistere posset, si aliquis caritate contra
+            venialium tentationem uteretur, non ut vitaret omnia, sed quia potest singula
+            vitare.</p>
+          <p xml:id="ta-l3d31q1-d1e450">Ad quintum dicendum, quod apostolus loquitur quantum ad id quod homo potest sustinere
+            sine animi perturbatione; quod non potest nisi caritas perfecta, ut in magnis
+            tribulationibus aequanimitatem servet.</p>
+        </div>
+        <div xml:id="ta-l3d31q1-Dd1e455" type="articulus">
+          <head xml:id="ta-l3d31q1-Hd1e457">Articulus 4</head>
+
+          <head xml:id="ta-l3d31q1-Hd1e460" type="questionTitle">Utrum homo semper resurgat in minori caritate</head>
+          <div xml:id="ta-l3d31q1-Dd1e463">
+            <head xml:id="ta-l3d31q1-Hd1e465">Quaestiuncula 1</head>
+            <p xml:id="ta-l3d31q1-d1e468">Ad quartum sic proceditur. Videtur quod homo semper in minori caritate resurgat. Amos
+              5, 2: <quote xml:id="ta-l3d31q1-Qd1e470">virgo Israel cecidit</quote> etc.; Glossa: <quote xml:id="ta-l3d31q1-Qd1e473">non negat ut resurgat,
+                sed ut resurgere virgo possit: quia semel aberrans etsi reportetur humeris pastoris,
+                non habet tantam gloriam quantam qui nunquam aberravit</quote>. Sed gloria
+              commensuratur caritati. Ergo homo post peccatum non habet tantam caritatem resurgens,
+              quantam primo.</p>
+            <p xml:id="ta-l3d31q1-d1e477">Praeterea, Ezech. 44, 10: <quote xml:id="ta-l3d31q1-Qd1e479">Levitae qui recesserunt a me (...) nunquam
+                appropinquabunt mihi, ut sacerdotio fungantur</quote>. Sed aliquis quantum ad
+              spirituale sacerdotium appropinquat Deo per caritatem. Ergo non habet tantam caritatem
+              qui aliquando recessit a Deo per peccatum, quantam ante.</p>
+            <p xml:id="ta-l3d31q1-d1e483">Praeterea, caritas incipiens nunquam est tanta, quanta proficiens et perfecta. Sed
+              aliquis quando cecidit, habuit caritatem proficientem, vel perfectam; quando autem
+              resurgit, habet caritatem incipientem. Ergo non habet tantam caritatem quantam
+              prius.</p>
+            <p xml:id="ta-l3d31q1-d1e486">Praeterea, nunquam potest tantum disponere se ad recipiendum divini luminis
+              influentiam qui est sine caritate, quantum cum caritate. Sed secundum quod aliquis
+              disposuit se ad gratiam, Deus illi gratiam infundit. Ergo semper magis recipit de
+              influentia gratiae aliquis permanens in caritate, quam de novo caritatem accipiens; et
+              sic idem quod prius.</p>
+            <p xml:id="ta-l3d31q1-d1e490">Sed contra, in Malach. 3, 4: <quote xml:id="ta-l3d31q1-Qd1e492">placebit Deo sacrificium Juda et Hierusalem,
+                sicut dies saeculi et anni antiqui</quote>. Sed caritas facit omnia nostra Deo esse
+              accepta. Ergo aliquis post lapsum resurgens potest habere tantum de caritate, quantum
+              prius.</p>
+          </div>
+          <div xml:id="ta-l3d31q1-Dd1e497">
+            <head xml:id="ta-l3d31q1-Hd1e499">Quaestiuncula 2</head>
+            <p xml:id="ta-l3d31q1-d1e502">Ulterius. Videtur quod semper resurgat in majori. Gen. 1: <quote xml:id="ta-l3d31q1-Qd1e504">factum est vespere
+                et mane dies unus</quote>; Glossa: <quote xml:id="ta-l3d31q1-Qd1e507">vespertina lux a qua quis cecidit,
+                matutina in qua resurgit</quote>. Sed lux matutina est major quam vespertina. Ergo
+              et gratia vel caritas in qua quis resurgit, illa quam prius habebat.</p>
+            <p xml:id="ta-l3d31q1-d1e511">Praeterea, Rom. 5, 20: <quote xml:id="ta-l3d31q1-Qd1e513" ana="#rom5_20">ubi abundavit delictum, superabundavit et
+                gratia</quote>. Sed ubi superabundat gratia, est ibi major caritas. Ergo et
+              cetera.</p>
+            <p xml:id="ta-l3d31q1-d1e517">Praeterea, peccatum vincit primam caritatem. Vincitur autem a secunda. Ergo secunda
+              caritas est fortior et major quam prima.</p>
+            <p xml:id="ta-l3d31q1-d1e520">Sed contra, innocens non est minus aptus ad recipiendum gratiam quam peccator. Sed
+              primam gratiam accipit innocens, secundam accipit peccator. Ergo non oportet quod
+              secunda sit major quam prima.</p>
+          </div>
+          <div xml:id="ta-l3d31q1-Dd1e524">
+            <head xml:id="ta-l3d31q1-Hd1e526">Quaestiuncula 3</head>
+            <p xml:id="ta-l3d31q1-d1e529">Ulterius. Videtur quod ad minus semper sit aequalis. Roman. 8, 28:
+                <quote xml:id="ta-l3d31q1-Qd1e531" ana="#rom8_28">diligentibus Deum omnia cooperantur in bonum</quote>; Glossa: <quote xml:id="ta-l3d31q1-Qd1e534">etiam
+                casus in peccatum</quote>. Sed hoc non esset, si in majori caritate resurgeret. Ergo
+              nunquam in minori, sed semper in aequali resurgit.</p>
+            <p xml:id="ta-l3d31q1-d1e538">Praeterea, Ambrosius dicit quod poenitentia omnia ablata restituit. Sed hoc non esset
+              si non resurgeret ad minus in aequali caritate. Ergo semper resurgit aliquis in
+              aequali caritate.</p>
+            <p xml:id="ta-l3d31q1-d1e541">Praeterea, contritio debet proportionari praecedenti peccato. Sed peccatum
+              proportionatur quodammodo gratiae quam expellit. Ergo et gratia vel caritas per quam
+              homo conteritur, debet esse aequalis gratiae praecedenti.</p>
+            <p xml:id="ta-l3d31q1-d1e544">Praeterea, poenitentia vivificat merita per peccata mortificata. Ergo poenitens
+              tantam habebit gloriam quantum ante peccatum meruerat. Sed tantum meruerat quantum de
+              caritate habuerat. Gloria ergo quam poenitens habebit, proportionatur caritati quam
+              ante peccatum habuit. Proportionatur autem caritati in qua in morte invenitur post
+              poenitentiam: quia lignum ubi ceciderit, ibi erit: Eccles. penult. Ergo caritas in qua
+              resurgit poenitens, est aequalis caritati a qua cecidit.</p>
+            <p xml:id="ta-l3d31q1-d1e548">Sed contra, minima contritio sufficit ad deletionem omnium peccatorum. Sed secundum
+              quantitatem contritionis attenditur quantitas caritatis in qua quis resurgit. Ergo cum
+              potuerit, quando prius habuit gratiam, ex magna praeparatione gratiam accepisse,
+              videtur quod possibile sit quod recipiat minorem gratiam et caritatem quam prius
+              habuit.</p>
+          </div>
+          <div xml:id="ta-l3d31q1-Dd1e553">
+            <head xml:id="ta-l3d31q1-Hd1e555">Quaestiuncula 1</head>
+            <p xml:id="ta-l3d31q1-d1e558">Respondeo dicendum ad primam quaestionem, quod mensura caritati praefigitur a Deo
+              secundum suam voluntatem, et aliquo modo commensuratur ad conatum illius qui gratiam
+              recipit. Unde cum aliquis post peccatum possit multum et parum conari ad recipiendum
+              caritatem, et divinae liberalitati non ponatur terminus per peccatum, cum ipse quantum
+              in se est, sit paratus omnia peccata totaliter delere; oportet dicere sicut et
+              communiter dicitur, quod aliquis potest post peccatum in majori et in minori et
+              aequali caritate resurgere.</p>
+            <p xml:id="ta-l3d31q1-d1e561">Ad primum ergo dicendum, quod loquitur de gloria praemii accidentalis, quae non
+              commensuratur caritati, sed actui vel statui: quia post peccatum virgo aureolam non
+              habebit; et similiter nec peccator resurgens gaudium de innocentia continua.</p>
+            <p xml:id="ta-l3d31q1-d1e564">Ad secundum dicendum, quod ab officio dignitatis aliquis repellitur propter peccatum
+              commissum etiam si poenitentiam egerit, sicut propter homicidium repellitur a
+              sacerdotio; et hoc est propter hoc quod non reducitur ad statum tantae dignitatis,
+              quamvis reducatur ad aequalem caritatem.</p>
+            <p xml:id="ta-l3d31q1-d1e567">Ad tertium dicendum, quod loquendo de una et eadem caritate, verum est quod caritas
+              incipiens minor est quam proficiens vel perfecta; sed una incipiens potest esse major
+              quam alterius qui est in statu proficientium, sicut aliquod animal statim natum est
+              majus quam aliud etiam perfectum.</p>
+            <p xml:id="ta-l3d31q1-d1e571">Ad quartum dicendum, quod ceteris paribus semper ille qui habet caritatem, recipit
+              plus de influentia divini luminis; sed ille qui non habet caritatem, potest plus
+              conari, et magis recipiet.</p>
+          </div>
+          <div xml:id="ta-l3d31q1-Dd1e575">
+            <head xml:id="ta-l3d31q1-Hd1e577">Quaestiuncula 2</head>
+            <p xml:id="ta-l3d31q1-d1e580">Ad secundam quaestionem dicendum, quod non est necessarium quod semper in majori
+              caritate resurgat: quia etiam minor praeparatio, vel aequalis, sufficit ad hoc quod
+              gratia infundatur.</p>
+            <p xml:id="ta-l3d31q1-d1e583">Ad primum igitur dicendum, quod similitudo illa attenditur non quantum ad quantitatem
+              lucis, sed quantum ad ordinem lucis ad tenebras.</p>
+            <p xml:id="ta-l3d31q1-d1e586">Ad secundum dicendum, quod apostolus loquitur de gratia redemptionis, quae
+              superabundavit ad delictum primi hominis; et non loquitur universaliter.</p>
+            <p xml:id="ta-l3d31q1-d1e589">Ad tertium dicendum, quod peccatum non vincit caritatem propter ejus debilitatem; sed
+              quia ille qui peccat, non utitur auxilio caritatis; et ideo ratio non sequitur.</p>
+          </div>
+          <div xml:id="ta-l3d31q1-Dd1e593">
+            <head xml:id="ta-l3d31q1-Hd1e595">Quaestiuncula 3</head>
+            <p xml:id="ta-l3d31q1-d1e598">Ad tertiam quaestionem dicendum, quod etiam in minori caritate potest homo resurgere:
+              quia quantulumcumque de peccato doleat, et ad gratiam se praeparet, dummodo ad
+              terminum contritionis perveniat, qua plus displicet ei a Deo recessisse quam aliquod
+              temporale placuit, gratiam habebit, etiam si non tantum praeparet se quantum prius,
+              dum fuit innocens, praeparavit.</p>
+            <p xml:id="ta-l3d31q1-d1e601">Ad primum igitur dicendum, quod hoc intelligitur non semper quantum ad majorem
+              quantitatem caritatis, sed quantum ad majorem diligentiam vel humilitatem, in qua
+              poenitens resurgit, ad minus actuali. Minus autem malum est ut caritas diminuatur quam
+              ut totaliter amittatur; et minus malum computatur pro magis bono, ut dicitur 5 Ethic.
+              Et ideo in bonum diligentis Deum cedit peccatum, etiam si in minori caritate resurgat:
+              quia per humilitatem et cautelam ab omnimoda gratiae amissione curatur.</p>
+            <p xml:id="ta-l3d31q1-d1e604">Ad secundum dicendum, quod poenitentia omnia restituit; sed non oportet quod
+              aequalia.</p>
+            <p xml:id="ta-l3d31q1-d1e607">Ad tertium dicendum, quod quantitas peccati non proportionatur gratiae quam exclusit:
+              quia parvum peccatum potest maximam caritatem expellere, sicut e converso parva
+              caritas dicitur maxima peccata delere, quia pendet ex conatu hominis potius quam ex
+              quantitate habitus.</p>
+            <p xml:id="ta-l3d31q1-d1e611">Ad quartum dicendum, quod sicut ex praedictis patet, per priora merita merebatur sibi
+              tantam gloriam, quantam caritatem habebat. Sed ipse per peccatum factus est alter, et
+              non plenarie ad pristinum gradum restitutus: et ideo non plenarie recipiet affectum
+              priorum meritorum, nisi quantum ad praemium accidentale, quod mensuratur actibus magis
+              quam habitu caritatis.</p>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

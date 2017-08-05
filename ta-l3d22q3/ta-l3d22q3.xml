@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum III, Distinctio 22, Quaestio 3</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.09-dev-master">
+          <title>Librum III, Distinctio 22, Quaestio 3</title>
+          <date when="2016-03-12">March 12, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-12">March 12, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness>1856 editum</witness>
+          <witness xml:id="H" n="harv245" xml:base="http://iiif.lib.harvard.edu/manifests/drs:51994085/canvas/">Cambridge, Mass.,
+            Harvard University, Houghton Library, MS Lat 245</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="2015.09">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+
+
+
+
+      <div xml:id="starts-on">
+        <cb ed="#H" n="79va"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ta-l3d22q3">
+        <head xml:id="ta-l3d22q3-Hd1e97">Librum III, Distinctio 22, Quaestio 3</head>
+        <div xml:id="ta-l3d22q3-Dd1e100">
+          <head xml:id="ta-l3d22q3-Hd1e102">Prooemium</head>
+          <p xml:id="ta-l3d22q3-d1e105">Deinde quaeritur de ascensione Christi; et circa hoc quaeruntur tria: 1 utrum Christus
+            ascenderit; 2 de modo ascensionis; 3 de termino ipsius.</p>
+        </div>
+        <div xml:id="ta-l3d22q3-Dd1e109" type="articulus">
+          <head xml:id="ta-l3d22q3-Hd1e111">Articulus 1</head>
+          <head xml:id="ta-l3d22q3-Hd1e114" type="questionTitle">Utrum Christus debuerit ascendere</head>
+          <p xml:id="ta-l3d22q3-d1e117">Ad primum sic proceditur. Videtur quod Christus non ascenderit. Omnis enim motus, cum
+            sit exitus de potentia ad actum, est actus imperfecti, et est propter indigentiam. Sed
+            ascensio motus est. Cum igitur in Christo jam glorificato totaliter per resurrectionem
+            non fuerit aliqua imperfectio, vel indigentia, videtur quod ipse non ascenderit.</p>
+          <p xml:id="ta-l3d22q3-d1e120">Praeterea, in Christo non est nisi duplex natura, scilicet divina, et humana. Sed
+            secundum divinam naturam Christo non competit ascendere neque localiter, cum ipse,
+            secundum quod Deus, sit ubique; neque secundum divinitatem, cum divinitas proficere non
+            possit; neque iterum secundum humanam secundum locum; quia ipse de caelo non descendit,
+            dicitur autem Joan. 3, 13: <quote xml:id="ta-l3d22q3-Qd1e122">nemo ascendit in caelum, nisi qui descendit de
+              caelo</quote>; neque iterum secundum dignitatem, quia gloria sua post resurrectionem
+            gloriosam non crevit. Ergo videtur quod Christus nullo modo ascenderit.</p>
+          <p xml:id="ta-l3d22q3-d1e126">Praeterea, aliis sanctis competit ascendere ad caelum Empyreum: quia per locum illum
+            congruentem suae gloriae augetur suum gaudium. Sed gaudium animae Christi non potuit
+            aliquo modo crescere, sicut nec gratia, vel gloria. Ergo videtur quod ipse non
+            ascenderit.</p>
+          <p xml:id="ta-l3d22q3-d1e130">Praeterea, omne quod Christus in carne assumpta propter nos fecit, in nostram
+            utilitatem cedere debuit. Sed per ascensionem nihil nobis accrevit: quia ante per
+            passionem et descensum ad Inferos omne impedimentum remotum fuit, et janua per passionem
+            aperta est, et similiter per Baptismum, quando caeli aperti sunt. Ergo non fuit
+            necessarium quod Christus ascenderet.</p>
+          <p xml:id="ta-l3d22q3-d1e133">Praeterea, omnis actio Christi ad nostram salutem ordinatur. Sed magis esset ad salutem
+            nostram ejus praesentia corporalis quam ejus absentia. Ergo videtur quod a nobis per
+            ascensionem discedere non debuit.</p>
+          <p xml:id="ta-l3d22q3-d1e136">Sed contra est quod in symbolo dicitur: <quote xml:id="ta-l3d22q3-Qd1e138">ascendit ad caelos</quote>.</p>
+          <p xml:id="ta-l3d22q3-d1e142">Praeterea, corpori nobilissimo debetur locus nobilissimus. Sed caelum Empyreum est
+            locorum nobilissimus. Ergo corpus Christi, quod est nobilissimum, ad locum illum
+            ascendere debuit.</p>
+          <p xml:id="ta-l3d22q3-d1e145">Praeterea, in Christo praemonstrata est gloria resurrectionis, quae membris ejus
+            promittitur. Sed promittitur etiam membris Christi locus caelestis, unde Lucifer
+            cecidit. Ergo videtur quod ipse prius ascendere debuit <quote xml:id="ta-l3d22q3-Qd1e147">pandens iter ante
+              eos</quote>, ut dicitur Michaeae 2, 13.</p>
+          <p xml:id="ta-l3d22q3-d1e151">Respondeo dicendum, quod ascendere in caelum fuit congruum et ipsi Christo, et nobis.
+            Christo quidem, quoniam ei omne quod ad gloriam pertinet, debebatur; unde cum caelum
+            Empyreum sit locus congruus gloriae, et aliquod quasi praemium accidentale, Christo
+            etiam debebatur ut ad locum illum ascenderet. Nobis autem congruum fuit quantum ad tria.
+            Primo ut nos quasi in corporalem possessionem induceret caeli, quam nobis pretio sui
+            sanguinis emerat. Secundo ut spem nostram ad caelum erigeret: quia dum humanam
+            conditionem sideribus importavit, credentibus caelum posse patere monstravit, ut dicit
+            Augustinus. Tertio ut jam Christum non secundum carnem cognoscentes, spiritualiter
+            tantum ipsi conjungamur; et sic idonei efficiamur ad accipienda dona spiritus sancti,
+            secundum quod dictum est, Eph. 4, 8: <quote xml:id="ta-l3d22q3-Qd1e153">ascendit in altum, dedit dona
+              hominibus</quote>.</p>
+          <p xml:id="ta-l3d22q3-d1e158">Ad primum ergo dicendum, quod motus localis, ut dicit philosophus, non mutat aliquid de
+            eo quod est intra rem, sed solum est secundum id quod est extra; unde motus localis non
+            ponit exitum de potentia ad actum aliquem intraneum rei, sed ad actum extrinsecum; et
+            propter hoc non ponitur per motum localem aliqua imperfectio per hoc quod desit aliquid
+            eorum quae debent inesse; sed ponit imperfectionem secundum quid per hoc quod dum est in
+            loco isto non est in alio. Similiter dicendum est, quod ascensio Christi non fuit
+            propter aliquam indigentiam, qua indigeret ipse ex parte sua aliquid in seipso habere,
+            sed propter nostram indigentiam, et ut esset in loco sibi convenienti, in quo nondum
+            erat.</p>
+          <p xml:id="ta-l3d22q3-d1e161">Ad secundum dicendum, quod ascendere et descendere possunt dici proprie, et sic
+            significant motum localem; unde non conveniunt Christo secundum divinam naturam, sed
+            secundum humanam, secundum quam descendit ad Inferos et ascendit localiter ad caelos.
+            Dicitur etiam metaphorice descendisse secundum divinam naturam inquantum se exinanivit
+            formam servi accipiens, Philip. 2, et inquantum per novum effectum fuit in terris,
+            secundum quem ibi ante non fuerat: ascendisse autem quantum ad notitiam aliorum.
+            Similiter quantum ad humanam naturam ascendit, secundum quod exaltatus est ad gloriam
+            resurrectionis, et notitiam populorum; descendit autem secundum passionis ignominiam.
+            Quod autem dicitur, <quote xml:id="ta-l3d22q3-Qd1e163">nemo ascendit, nisi qui descendit</quote>, ad personam
+            referendum est, cui secundum naturam unam convenit descendere de caelo, scilicet
+            secundum divinam, inquantum sibi carnem in persona copulavit; et secundum aliam,
+            scilicet humanam, ascendere.</p>
+          <p xml:id="ta-l3d22q3-d1e167">Ad tertium dicendum, quod Christo in ascensione non accrevit aliquod gaudium neque
+            quantum ad intensionem, neque quantum ad numerum eorum de quibus gaudendum erat: quia
+            perfectum gaudium de omnibus ab instanti suae conceptionis habuit: sed accrevit sibi
+            novus modus gaudendi: quia de illo de quo prius gaudebat ut de futuro, tunc gaudebat ut
+            de praesenti.</p>
+          <p xml:id="ta-l3d22q3-d1e170">Ad quartum dicendum, quod per passionem Christi omnia impedimenta fuerunt a nobis amota
+            et omnia bona data quantum ad meritum, quia scilicet per passionem Christus nobis meruit
+            praedicta; sed oportuit ut per effectum in illa bona per eum induceremur, quasi in
+            corporalem possessionem eorum quae jam nobis emerat. Dona autem gloriae in tribus
+            consistunt. Primo in visione divina, quae est beatitudo animae; et hoc per effectum
+            contulit descendendo ad Inferos. Secundum est gloria corporis; et hoc inchoavit in sua
+            resurrectione. Tertium est locus congruus; et hoc praestitit in sua ascensione. In
+            Baptismo autem caeli aperti sunt in signum quod per Baptismum, quem tunc inchoabat, in
+            quo passio ejus operatur, plenarie caeli aditus pateret nobis.</p>
+          <p xml:id="ta-l3d22q3-d1e173">Ad quintum dicendum, quod corporalis praesentia Christi in duobus poterat esse nociva.
+            Primo quantum ad fidem: quia videntes eum in forma in qua erat minor patre, non ita de
+            facili crederent eum aequalem patri, ut dicit Glossa super Joannem. Secundo quantum ad
+            dilectionem: quia eum non solum spiritualiter, sed etiam carnaliter diligeremus
+            conversantes cum ipso corporaliter; et hoc est de imperfectione dilectionis.</p>
+        </div>
+        <div xml:id="ta-l3d22q3-Dd1e177" type="articulus">
+          <head xml:id="ta-l3d22q3-Hd1e179">Articulus 2</head>
+          <head xml:id="ta-l3d22q3-Hd1e182" type="questionTitle">Utrum motus ascensionis fuerit violentus</head>
+          <div xml:id="ta-l3d22q3-Dd1e185">
+            <head xml:id="ta-l3d22q3-Hd1e187">Quaestiuncula 1</head>
+            <p xml:id="ta-l3d22q3-d1e190">Ad secundum sic proceditur. Videtur quod motus ascensionis fuerit violentus. Act. 1:
+                <quote xml:id="ta-l3d22q3-Qd1e192">elevatis manibus ferebatur in caelum</quote>. Sed latio, ut dicitur 7
+              Physic., est species motus violenti. Ergo ascensio sua fuit violentus motus.</p>
+            <p xml:id="ta-l3d22q3-d1e196">Praeterea, in corpore suo, cum esset solidum, dominabatur terra. Sed omne tale
+              naturaliter movetur deorsum, et per violentiam sursum. Ergo illa ascensio erat
+              violenta.</p>
+            <p xml:id="ta-l3d22q3-d1e199">Praeterea, omnis motus naturalis causatur ex motu caeli. Sed caelum non habebat
+              aliquam causalitatem supra corpus Christi. Ergo motus ille non erat naturalis.</p>
+            <p xml:id="ta-l3d22q3-d1e202">Praeterea, omnis motus qui est in locum peregrinum mobili, est motus innaturalis. Sed
+              ascensio Christi fuit hujusmodi: quia dicit Gregorius, super illud: <quote xml:id="ta-l3d22q3-Qd1e204">homo quidam
+                peregre proficiscens: caro ad peregrinandum ducitur, dum per redemptorem in caelo
+                collocatur</quote>. Ergo illa ascensio fuit motus violentus.</p>
+            <p xml:id="ta-l3d22q3-d1e209">Sed contra, omnis motus violentus inducit lassitudinem. Sed ascensio Christi non fuit
+              talis. Ergo non fuit motus violentus.</p>
+            <p xml:id="ta-l3d22q3-d1e212">Praeterea, nullus motus violentus est propria virtute mobilis. Sed Christus propria
+              virtute ascendit, ut patet Isai. 63, 1: <quote xml:id="ta-l3d22q3-Qd1e214">gradiens in multitudine fortitudinis
+                suae</quote>. Ergo ascensio ejus non fuit motus violentus.</p>
+          </div>
+          <div xml:id="ta-l3d22q3-Dd1e219">
+            <head xml:id="ta-l3d22q3-Hd1e221">Quaestiuncula 2</head>
+            <p xml:id="ta-l3d22q3-d1e224">Ulterius. Videtur quod ascensionis motus fuerit subitus. Quia Augustinus dicit in
+              quaestionibus de resurrectione, quod tales sunt motus corporum glorificatorum, sicut
+              motus radii solis. Sed motus radii est in instanti. Ergo et motus corporis Christi
+              gloriosi.</p>
+            <p xml:id="ta-l3d22q3-d1e227">Praeterea, corpus Christi gloriosum, omnino erat subjectum voluntati spiritus. Sed
+              voluntas in instanti potest moveri de loco ad locum. Ergo et corpus Christi
+              glorificatum.</p>
+            <p xml:id="ta-l3d22q3-d1e230">Praeterea, potentia corporis Christi glorificati est improportionabilis potentiae
+              alicujus corporis mobilis non glorificati. Sed secundum proportionem virtutis moventis
+              est proportio temporis in quo fit motus: quia major virtus in minori tempore movet.
+              Ergo si aliqua virtus movet in tanto tempore, virtus corporis Christi glorificati
+              movebit in instanti ipsum corpus, quod instans tempori non proportionatur.</p>
+            <p xml:id="ta-l3d22q3-d1e233">Sed contra, corpus Christi, cum sit divisibile, habet partem post partem. Sed ubi est
+              una pars, ibi non est alia. Ergo oportet quod parti succedat pars: ergo motus ille non
+              est subito.</p>
+            <p xml:id="ta-l3d22q3-d1e237">Praeterea, motus subitaneus non potest percipi. Sed apostoli viderunt Christi
+              ascensionem. Ergo non fuit subita.</p>
+          </div>
+          <div xml:id="ta-l3d22q3-Dd1e241">
+            <head xml:id="ta-l3d22q3-Hd1e243">Quaestiuncula 3</head>
+            <p xml:id="ta-l3d22q3-d1e246">Ulterius. Videtur quod statim post resurrectionem ascendere debuerit. Quia ascensio
+              sua est exemplar aliorum sanctorum. Sed alii sancti post resurrectionem corporum
+              futuram ascendent. Ergo et Christus debuit.</p>
+            <p xml:id="ta-l3d22q3-d1e249">Praeterea, sicut debuit probari veritas resurrectionis, ita debuit probari veritas
+              mortis. Sed ipse ut probaret veritatem mortis, distulit resurrectionem usque in
+              tertium diem. Ergo similiter debuit ascendere tertia die post resurrectionem.</p>
+            <p xml:id="ta-l3d22q3-d1e252">Praeterea, non est aliquis locus animarum nisi Infernus vel caelum. Sed animae
+              sanctorum patrum qui erant in Limbo, Christo resurgente eductae sunt de Inferno. Ergo
+              statim ascenderunt in caelum. Sed nullus debuit in caelum ascendere ante Christum,
+              sicut nullus ante ipsum resurgere. Ergo et Christus statim post resurrectionem debuit
+              ascendere.</p>
+            <p xml:id="ta-l3d22q3-d1e255">Sed contra, <ref xml:id="ta-l3d22q3-Rd1e257"><title ref="#act">Act.</title> 1, 3:</ref>
+              <quote xml:id="ta-l3d22q3-Qd1e262" ana="#act1_3">praebuit seipsum vivum per dies quadraginta</quote>.</p>
+            <p xml:id="ta-l3d22q3-d1e267">Praeterea, consolationes divinae excedunt tribulationem humanam. Sed apostoli fuerunt
+              in angustia post mortem Christi per tres dies. Ergo multo amplius debuerunt esse in
+              gaudio propter ipsius resurrectionem.</p>
+          </div>
+          <div xml:id="ta-l3d22q3-Dd1e272">
+            <head xml:id="ta-l3d22q3-Hd1e274">Quaestiuncula 1</head>
+            <p xml:id="ta-l3d22q3-d1e277">Respondeo dicendum, quod motus naturalis dicitur cujus principium est natura. Natura
+              autem dicitur dupliciter: scilicet de forma quae est principium activum motus, et de
+              materia quae est principium passivum. Secundum hoc igitur dicitur aliquis motus
+              dupliciter naturalis. Uno modo quia in eo quod movetur est principium activum motus;
+              et sic corpora gravia et levia moventur naturaliter. Alio modo quia in eo quod
+              movetur, est dispositio naturalis, per quam aliquid est mobile ab aliquo movente; et
+              hoc contingit dupliciter. Quia vel inest ista aptitudo ad hoc quod moveatur ab illo
+              movente cum inclinatione ad contrarium motum, sicut est in corpore animalis; et tunc
+              motus ille dicitur violentus quantum ad naturam corporis, inquantum est corpus;
+              naturalis autem quantum ad naturam corporis, inquantum est animatum, ut dicit
+              philosophus. Aut non est aptitudo ad contrarium inclinans, sicut patet in motu
+              caelestium, quae moventur a substantia separata, et tamen dicuntur moveri naturaliter,
+              ut dicit Commentator in 1 caeli et Mund. Hoc modo motus ascensionis Christi fuit
+              naturalis: quia cum corpus glorificatum sit omnino subjectum animae, non potest esse
+              aliqua inclinatio ad contrarium ejus quod anima vult; unde removetur in eo inclinatio
+              gravitatis et levitatis repugnans voluntati, sicut inclinatio calidi et frigidi, quae
+              est ad mutuam corruptionem. Quidam autem dicunt, quod fuit etiam motus naturalis ex
+              hoc quod principium activum fuit in corporis natura, sicut in motu gravium et levium:
+              quia in corpore glorificato regnat natura caeli Empyrei, quae est de compositione
+              corporis humani: quod est impossibile. Quia si aliquid de caelo Empyreo esset pars
+              corporis nostri, oporteret quod esset commixtum elementis; alias esset distinctum ab
+              eis, et non esset pars, quia non esset unum, nisi aggregatione. Praeterea, si esset
+              pars, non inclinaret ad motum rectum sed ad nullum: quia de natura caeli Empyrei non
+              est quod moveatur nisi ad motum circularem qui est naturalis quintae essentiae.</p>
+            <p xml:id="ta-l3d22q3-d1e280">Ad primum ergo dicendum, quod ferebatur quidem ab Angelis in obsequium dignitatis,
+              non in adjutorium necessitatis; sicut reges etiam feruntur et episcopi: unde non
+              sequitur quod fuerit motus violentus.</p>
+            <p xml:id="ta-l3d22q3-d1e283">Ad secundum dicendum, quod motus ille non est naturalis corpori inquantum corpus, sed
+              inquantum instrumentum animae glorificatae, per quam tollebatur inclinatio qualitatum
+              contrariarum ad actiones et motus suos.</p>
+            <p xml:id="ta-l3d22q3-d1e286">Ad tertium dicendum, quod hoc intelligitur de corporibus quamdiu sunt in statu
+              generationis et corruptionis, et non de corporibus gloriosis.</p>
+            <p xml:id="ta-l3d22q3-d1e290">Ad quartum dicendum, quod ille locus est peregrinus carni inquantum est caro, non
+              autem inquantum est instrumentum animae gloriosae.</p>
+          </div>
+          <div xml:id="ta-l3d22q3-Dd1e294">
+            <head xml:id="ta-l3d22q3-Hd1e296">Quaestiuncula 2</head>
+            <p xml:id="ta-l3d22q3-d1e299">Ad secundam quaestionem dicendum, quod illa opinio est facilior ad sustinendum quae
+              ponit, quod corpus Christi in ascensione movebatur tempore perceptibili, sua quidem
+              voluntate; sed poterat moveri tempore imperceptibili, non autem in instanti: quia
+              oportebat quod corpus Christi in ascensione transiret per media, cum per suam
+              substantiam determinaretur ad locum, et impossibile est quod sit in diversis locis
+              simul; et ita oportebat quod in mediis locis esset in diversis instantibus, et sic
+              oportebat motum illum esse successivum.</p>
+            <p xml:id="ta-l3d22q3-d1e302">Ad primum ergo dicendum, quod similitudo attenditur quantum ad perceptibilitatem, et
+              non quantum ad genus motus: quia motus radii non est motus alterationis, ut dicitur in
+              Lib. de sensu et sensato; unde potest esse subitus: motus autem glorificatorum
+              corporum est motus localis; et ideo oportet quod sit successivus.</p>
+            <p xml:id="ta-l3d22q3-d1e305">Ad secundum dicendum, quod quamvis corpus sit subjectum spiritui, tamen esse non
+              potest ut corpus ad naturam spiritus convertatur.</p>
+            <p xml:id="ta-l3d22q3-d1e308">Ad tertium dicendum, quod ratio illa procedit de virtute movente ex necessitate
+              naturae, non autem de virtute movente per voluntatem, quae movet secundum exigentiam
+              mobilis.</p>
+          </div>
+          <div xml:id="ta-l3d22q3-Dd1e312">
+            <head xml:id="ta-l3d22q3-Hd1e314">Quaestiuncula 3</head>
+            <p xml:id="ta-l3d22q3-d1e317">Ad tertiam quaestionem dicendum, quod ea quae circa Christum acta sunt, dispensative
+              facta sunt propter aliquam utilitatem; et ideo ad ostendendum veritatem suae
+              resurrectionis oportuit quod non statim post resurrectionem ascenderet, sed diu cum
+              apostolis conversaretur, ut ex magna familiaritate omnis dubitatio tolleretur: quia si
+              tantum apparuisset semel, potuisset videri esse aliqua illusio; et ideo pluries in
+              illis quadraginta diebus illis apparuit. Fuit etiam dilata ascensio ad consolationem
+              apostolorum, qui de morte contristati fuerunt; et ideo dicit Glossa Act. 1, quod sicut
+              quadraginta horae fuerunt mortis Christi, ita quadraginta diebus cum eis conversatus
+              est post resurrectionem, quia consolatio divina excedit tristitiam humanam.</p>
+            <p xml:id="ta-l3d22q3-d1e320">Ad primum ergo dicendum, quod aliorum sanctorum non oportebit resurrectionem probare,
+              quia omnibus manifesta erit: et ideo non oportet quod differatur.</p>
+            <p xml:id="ta-l3d22q3-d1e323">Ad secundum dicendum, quod major poterat esse dubitatio de resurrectione quam de
+              morte; et ideo oportuit quod longiori tempore confirmaretur.</p>
+            <p xml:id="ta-l3d22q3-d1e326">Ad tertium dicendum, quod interim animae sanctorum erant cum Christo, ut de ejus
+              corporali praesentia gauderent; vel erant in Paradiso terrestri, quamvis locus ille
+              non sit proprie locus spirituum; sed erant ibi dispensative ad tempus.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l3d22q3-Dd1e331" type="articulus">
+          <head xml:id="ta-l3d22q3-Hd1e333">Articulus 3</head>
+          <head xml:id="ta-l3d22q3-Hd1e336" type="questionTitle">Utrum Christus ascenderit super omnes caelos</head>
+          <div xml:id="ta-l3d22q3-Dd1e339">
+            <head xml:id="ta-l3d22q3-Hd1e341">Quaestiuncula 1</head>
+            <p xml:id="ta-l3d22q3-d1e344">Ad tertium sic proceditur. Videtur quod Christus non ascenderit supra omnes caelos.
+              Corpus enim Christi necessario est in loco. Sed extra omnes caelos non est locus,
+              secundum philosophum, 1 caeli et mundi. Ergo supra omnes caelos ascendere non
+              potuit.</p>
+            <p xml:id="ta-l3d22q3-d1e347">Praeterea, duo corpora non possunt esse in eodem loco. Cum igitur non possit fieri
+              motus de extremo in extremum nisi per medium, videtur quod supra omnes caelos
+              ascendere non potuit nisi caelum divideretur, quod est impossibile.</p>
+            <p xml:id="ta-l3d22q3-d1e350">Praeterea, caelum Empyreum est locus spirituum. Sed diversorum diversa sunt loca.
+              Ergo nec corpus Christi nec aliud corpus caelum Empyreum ascendit, quod est caelum
+              ultimum.</p>
+            <p xml:id="ta-l3d22q3-d1e353">Sed contra, <ref xml:id="ta-l3d22q3-Rd1e355"><title ref="#hebr">Hebr.</title> 7, 26:</ref>
+              <quote xml:id="ta-l3d22q3-Qd1e360" ana="#hebr7_26">excelsior caelis factus</quote>. Praeterea, Ephes. 4, 8:
+                <quote xml:id="ta-l3d22q3-Qd1e363">ascendens in altum</quote>; Glossa: <quote xml:id="ta-l3d22q3-Qd1e366">loco et dignitate</quote>.</p>
+          </div>
+          <div xml:id="ta-l3d22q3-Dd1e371">
+            <head xml:id="ta-l3d22q3-Hd1e373">Quaestiuncula 2</head>
+            <p xml:id="ta-l3d22q3-d1e376">Ulterius. Videtur quod non ascenderit ad dexteram patris. Dextera enim vel sinistra
+              sunt differentiae situs vel positionis. Sed Deus, cum sit summe spiritualis, non habet
+              situm. Ergo non habet dexteram et sinistram.</p>
+            <p xml:id="ta-l3d22q3-d1e379">Praeterea, metaphorice filius ipse dicitur dextera patris, Psal.: <quote xml:id="ta-l3d22q3-Qd1e381">manus tua
+                confregit inimicum</quote>. Sed haec praepositio ad denotat distinctionem, quia
+              praepositiones transitivae sunt. Cum ergo filius a seipso non distinguatur, videtur
+              quod ei non conveniat ad dexteram patris sedere.</p>
+            <p xml:id="ta-l3d22q3-d1e385">Praeterea, Proverb. 3, 16, dicitur: <quote xml:id="ta-l3d22q3-Qd1e387">in dextera ejus longitudo dierum, et in
+                sinistra illius divitiae et gloria</quote>. Sed omnium bonorum patris Christus habet
+              plenitudinem. Ergo non magis debet dici sedere ad dexteram quam sinistram.</p>
+            <p xml:id="ta-l3d22q3-d1e391">Praeterea, ipse dicitur esse in sinu patris, Joan. 1. Ergo non est ad dexteram.</p>
+            <p xml:id="ta-l3d22q3-d1e395">Sed contra, <ref xml:id="ta-l3d22q3-Rd1e397"><title ref="#hebr">Heb.</title> 1, 7:</ref>
+              <quote xml:id="ta-l3d22q3-Qd1e402" ana="#hebr1_7">sedet ad dexteram majestatis in excelsis</quote>.</p>
+            <p xml:id="ta-l3d22q3-d1e406">Praeterea, in symbolo dicitur: <quote xml:id="ta-l3d22q3-Qd1e408">ascendit ad caelos, sedet ad dexteram Dei
+                patris omnipotentis</quote>.</p>
+          </div>
+          <div xml:id="ta-l3d22q3-Dd1e413">
+            <head xml:id="ta-l3d22q3-Hd1e415">Quaestiuncula 3</head>
+            <p xml:id="ta-l3d22q3-d1e418">Ulterius. Videtur quod non soli Christo conveniat ad dexteram patris sedere.
+                  <ref xml:id="ta-l3d22q3-Rd1e420"><title ana="#eph">Ad Eph.</title> 2, 6:</ref>
+              <quote xml:id="ta-l3d22q3-Qd1e425" ana="#eph2_6">consedere nos fecit in Christo in caelestibus</quote>. Si ergo
+              Christus sedet ad dexteram, et nos ad dexteram sedere faciet.</p>
+            <p xml:id="ta-l3d22q3-d1e429">Praeterea, <ref xml:id="ta-l3d22q3-Rd1e431"><title>Ephes.</title> 1, 20:</ref>
+              <quote xml:id="ta-l3d22q3-Qd1e436" ana="#eph1_20">constituens illum ad dexteram</quote>, Glossa: <quote xml:id="ta-l3d22q3-Qd1e439">idest
+                aeternam beatitudinem</quote>. Sed omnibus sanctis communicatur aeterna beatitudo.
+              Ergo omnibus sanctis convenit ad dexteram sedere, et non soli Christo.</p>
+            <p xml:id="ta-l3d22q3-d1e443">Praeterea, beatae virgini convenit esse in potioribus donis Dei, quae est super omnes
+              choros Angelorum exaltata; unde et in Psal. 44, 10, a dextris stare dicitur:
+                <quote xml:id="ta-l3d22q3-Qd1e445">astitit regina a dextris tuis</quote>. Ergo non soli Christo convenit sedere
+              ad dexteram.</p>
+            <p xml:id="ta-l3d22q3-d1e449">Praeterea, dextera patris est aequalitas patris. Sed spiritus sanctus est aequalis
+              patri, sicut filius. Ergo sibi convenit sedere ad dexteram.</p>
+            <p xml:id="ta-l3d22q3-d1e453">Sed contra, sedere ad dexteram convenit Christo secundum humanam naturam et divinam.
+              Sed in nullo alio invenitur natura divina et humana simul. Ergo nulli alii convenit
+              sicut Christo.</p>
+            <p xml:id="ta-l3d22q3-d1e456">Praeterea, aequalitas est in filio, ut dicit <name ref="#Augustine">Augustinus</name>
+              per appropriationem. Sed dextera importat aequalitatem. Ergo videtur quod sedere ad
+              dexteram soli filio conveniat.</p>
+          </div>
+          <div xml:id="ta-l3d22q3-Dd1e464">
+            <head xml:id="ta-l3d22q3-Hd1e466">Quaestiuncula 1</head>
+            <p xml:id="ta-l3d22q3-d1e469">Respondeo dicendum ad primam quaestionem, quod terminus ascensionis Christi est et
+              locus et dignitas, non quam tunc de novo acceperit, sed quae tunc innotuit. Secundum
+              autem quod terminus est locus, sic est exaltatus usque ad supremum locorum
+              corporalium; non quod non possit inde moveri, sed secundum congruentiam debetur sibi
+              altissimus locus etiam ubicumque sit; sed ad id quod sibi secundum congruentiam
+              debetur, tunc fuit actu exaltatus.</p>
+            <p xml:id="ta-l3d22q3-d1e472">Ad primum ergo dicendum, quod non dicitur ascendisse super caelos quia extra caelum
+              Empyreum sit, sed quia in altissimam partem caeli Empyrei ascendit.</p>
+            <p xml:id="ta-l3d22q3-d1e475">Ad secundum dicendum, quod quamvis de natura corporis non sit quod possit esse in
+              eodem loco cum alio corpore, tamen potest hoc Deus facere per miraculum; sicut etiam
+              fecit corpus Christi de clauso virginali utero exire, ut dicit Gregorius.</p>
+            <p xml:id="ta-l3d22q3-d1e478">Ad tertium dicendum, quod quamvis natura corporalis sit citra naturam spiritus, tamen
+              natura corporis Christi transcendit omnes spiritus, inquantum est divinitati unita,
+              quae est major et dignior unio quam ea quae est per fruitionem: et ideo altior locus
+              debetur corpori Christi quam etiam ipsis spiritibus creatis. Unde Glossa Hebr. 7,
+              super illud: <quote xml:id="ta-l3d22q3-Qd1e480">excelsior caelis factus est</quote>, dicit: <quote xml:id="ta-l3d22q3-Qd1e483">idest omni
+                rationali creatura</quote>.</p>
+          </div>
+          <div xml:id="ta-l3d22q3-Dd1e488">
+            <head xml:id="ta-l3d22q3-Hd1e490">Quaestiuncula 2</head>
+            <p xml:id="ta-l3d22q3-d1e493">Ad secundam quaestionem dicendum, quod dextera est nobilior pars corporis; unde qui
+              alteri ad dexteram sedet, nobilissimo modo ei conjungitur. Nobilissimus autem modus
+              secundum quem aliquis patri conjungitur, vel est nobilissimus simpliciter, et sic est
+              esse aequalem sibi, et hoc convenit filio secundum divinam naturam: vel est
+              nobilissimus quantum possibile est creaturae; et hoc est conjungi ei in unione
+              personae filii ejus; et sic sedere ad dexteram convenit Christo secundum humanam
+              naturam: significat enim sessio firmitatem illius conjunctionis.</p>
+            <p xml:id="ta-l3d22q3-d1e496">Ad primum ergo dicendum, quod non dicitur proprie dextera, sed metaphorice.</p>
+            <p xml:id="ta-l3d22q3-d1e499">Ad secundum dicendum, quod non est inconveniens quod filius dicatur dextera et sedere
+              ad dexteram secundum diversas similitudines: quia metaphorice utrumque dicitur.
+              Dextera enim dicitur secundum quod per ipsum pater operatur: sed sedere ad dexteram
+              dicitur ratione jam dicta.</p>
+            <p xml:id="ta-l3d22q3-d1e502">Ad tertium dicendum, quod quamvis sint Christi et majora et minora bona patris, tamen
+              ipse in majoribus est collocatus; et ideo dicitur ad dexteram sedere.</p>
+            <p xml:id="ta-l3d22q3-d1e506">Ad quartum dicendum, quod Christus inquantum exit a patre per generationem, dicitur
+              in sinu patris sedere, per quod significatur generativa potentia; sed inquantum est
+              aequalis patri, et ei conregnat, dicitur sedere ad dexteram ejus.</p>
+          </div>
+          <div xml:id="ta-l3d22q3-Dd1e510">
+            <head xml:id="ta-l3d22q3-Hd1e512">Quaestiuncula 3</head>
+            <p xml:id="ta-l3d22q3-d1e515">Ad tertiam quaestionem dicendum, quod nulli creaturae convenit esse aequalem patri,
+              neque conjungi filio ejus in unitate personae, secundum quod dicitur Christus ad
+              dexteram sedere; et ideo nulli creaturae convenit.</p>
+            <p xml:id="ta-l3d22q3-d1e518">Ad primum ergo dicendum, quod fecit nos consedere inquantum nos gloria stabilivit, et
+              judiciariam potestatem dedit; non autem sedere ad dexteram. Vel dicendum, quod nos
+              consedere fecit etiam ad dexteram, sed non in nobis, sed in Christo, inquantum ipse
+              est unius naturae nobiscum, quam, prout est in Christo, ad dexteram patris
+              collocavit.</p>
+            <p xml:id="ta-l3d22q3-d1e521">Ad secundum dicendum, quod non quaelibet beatitudo potest dici dextera simpliciter,
+              sed quae debetur illi naturae assumptae: vel si quaelibet beatitudo dicatur dextera,
+              hoc non erit secundum excellentissimum modum possibilem creaturae, sed possibilem
+              creaturae non unitae; et hoc est secundum quid.</p>
+            <p xml:id="ta-l3d22q3-d1e524">Ad tertium dicendum, quod quamvis beata virgo sit super Angelos exaltata, non est
+              tamen exaltata usque ad aequalitatem Dei, vel unionem in persona: et ideo non dicitur
+              sedere ad dexteram, sed astare dextris, inquantum honor filii aliquo modo
+              participative, non plenarie, redundat in ipsam, inquantum dicitur mater Dei, sed non
+              Deus.</p>
+            <p xml:id="ta-l3d22q3-d1e528">Ad quartum dicendum, quod spiritus sanctus potest dici sedere ad dexteram patris,
+              inquantum est aequalis patri secundum veritatem; sed non appropriatur ei aequalitas,
+              sed filio: et ideo nec sessio dexterae.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l3d22q3-Dd1e534">
+          <head xml:id="ta-l3d22q3-Hd1e536">Expositio textus</head>
+          <p xml:id="ta-l3d22q3-d1e539"><quote xml:id="ta-l3d22q3-Qd1e540">Fidei argumentum a philosophicis argumentis est liberum</quote>: quia per ea nec
+            probari nec improbari potest. <quote xml:id="ta-l3d22q3-Qd1e543">Et ipse forte ante mortem hoc etiam modo erat homo,
+              et post resurrectionem fuit</quote>. Hoc dicit propter tertiam opinionem, quae nondum
+            erat suo tempore damnata, quae dicebat, quod etiam ante mortem erat hoc modo homo.
+              <quote xml:id="ta-l3d22q3-Qd1e546">Quia una eademque unione</quote>, quantum ex parte ipsius assumentis, non
+            quantum ex parte assumptorum. <quote xml:id="ta-l3d22q3-Qd1e549">Ad quod dicimus</quote>. Hoc dicit, non quia
+            praemissae locutiones sint simpliciter concedendae, sed ut ostendat quam causam
+            veritatis habeant. <quote xml:id="ta-l3d22q3-Qd1e552">Nemo ascendit in caelum, nisi qui descendit de caelo</quote>.
+            Ergo alii homines in caelum non ascendunt. Dicendum, quod alii non propria virtute
+            scandunt, quod est ascendere. Vel loquitur de caelo sanctae Trinitatis, ad quod ascendit
+            ratione divinae naturae. Vel dicendum, quod loquitur secundum quod caput et membra sunt
+            una persona. <quote xml:id="ta-l3d22q3-Qd1e555">Haec de corrigia calceamenti dominici sufficiant, ne ossa regis
+              Idumaeae consumantur usque in cinerem</quote>. Calceamentum est humanitas tegens
+            pedem, scilicet verbum, quo quasi omnia portantur, Heb. 2. Corrigia ipsa est unio. Rex
+            Idumaeae, Christus, qui communicavit carni et sanguini; Hebr. 2. Idumaea enim sanguinea
+            interpretatur. Ossa ejus sunt fortiora et difficiliora ad intelligendum de mysteriis
+            humanitatis ejus, quae non sunt igne curiosi studii usque ad minima inquirenda, quod est
+            ossa in pulverem redigere; sed sunt silentio honoranda, quasi intellectum excedentia. Et
+            sumitur de Amos 2.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

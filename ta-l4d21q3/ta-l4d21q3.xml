@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 21, Quaestio 3</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Librum IV, Distinctio 21, Quaestio 3</title>
+          <date when="2016-03-19">March 19, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-19">March 19, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness>1856 editum</witness>
+          <witness xml:id="G" n="ghent567">Ghent, Belgium, Ghent University Library, 567</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="0.0.0-dev">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+
+
+
+
+      <div xml:id="starts-on">
+        <cb ed="#G" n="382a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ta-l4d21q3">
+        <head xml:id="ta-l4d21q3-Hd1e97">Librum IV, Distinctio 21, Quaestio 3</head>
+        <div xml:id="ta-l4d21q3-Dd1e100">
+          <head xml:id="ta-l4d21q3-Hd1e102">Prooemium</head>
+          <p xml:id="ta-l4d21q3-d1e105">Deinde quaeritur de sigillo confessionis; et circa hoc quaeruntur tria: 1 utrum in
+            quolibet casu teneatur homo celare ea quae sub sigillo confessionis habet; 2 utrum
+            possit alii revelare de licentia confitentis; 3 utrum teneatur ea celare, si etiam alias
+            ea novit.</p>
+
+        </div>
+        <div xml:id="ta-l4d21q3-Dd1e109" type="articulus">
+          <head xml:id="ta-l4d21q3-Hd1e111">Articulus 1</head>
+
+          <head xml:id="ta-l4d21q3-Hd1e114" type="questionTitle">Utrum in quolibet casu teneatur sacerdos celare peccata quae
+            sub sigillo confessionis novit</head>
+
+          <div xml:id="ta-l4d21q3-Dd1e117">
+            <head xml:id="ta-l4d21q3-Hd1e119">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d21q3-d1e122">Ad primum sic proceditur. Videtur quod non in quolibet casu teneatur celare sacerdos
+              peccata quae sub sigillo confessionis novit. Quia, sicut dicit Bernardus, <quote xml:id="ta-l4d21q3-Qd1e124">quod
+                est institutum pro caritate, contra caritatem non militat</quote>. Sed celatio
+              confessionis in aliquo casu contra caritatem militaret; sicut aliquis in confessione
+              scit aliquem haereticum, quem non potest inducere ad hoc quod desistat a corruptione
+              plebis; et similiter de illo qui scit per confessionem affinitatem esse inter aliquos
+              qui contrahere volunt. Ergo talis debet confessionem revelare.</p>
+            <p xml:id="ta-l4d21q3-d1e128">Praeterea, id ad quod quis obligatur ex praecepto Ecclesiae tantum, non est necesse
+              observari mandato Ecclesiae in contrarium facto. Sed celatio confessionis introducta
+              est ex statuto Ecclesiae tantum. Si ergo per Ecclesiam praecipiatur quod quicumque
+              scit aliquid de tali peccato, dicat; ille qui scit per confessionem, dicere debet.</p>
+            <p xml:id="ta-l4d21q3-d1e131">Praeterea, magis debet homo servare conscientiam suam quam famam alterius; quia
+              caritas ordinata est. Sed aliquando aliquis peccatum celans incurrit propriae
+              conscientiae damnum, sicut cum in testimonium adducitur pro peccato illo, et jurare
+              cogitur de veritate dicenda; vel cum aliquis abbas scit per confessionem alicujus
+              prioris sibi subjecti peccatum, cujus occasio inducit ipsum ad ruinam, si ei prioratum
+              dimittat; unde debet ei auferre propter debitum pastoralis curae; auferendo autem
+              videtur confessionem publicare.</p>
+            <p xml:id="ta-l4d21q3-d1e134">Praeterea, aliquis sacerdos per confessionem alicujus, quam audit, potest accipere
+              conscientiam quod sit praelatione indignum. Sed quilibet tenetur contradicere
+              promotioni indignorum, si sua intersit. Cum ergo contradicendo suspicionem inducere
+              videatur de peccato, et sic quodammodo confessionem revelare; videtur quod oporteat
+              quandoque confessionem revelare.</p>
+            <p xml:id="ta-l4d21q3-d1e138">Sed contra est quod dicit Decret. de Poenit. et Remis.: <quote xml:id="ta-l4d21q3-Qd1e140">caveat sacerdos ne
+                verbo vel signo vel alio quovis modo prodat aliquatenus peccatorem</quote>.</p>
+            <p xml:id="ta-l4d21q3-d1e144">Praeterea, sacerdos debet Deo, cujus est minister, conformari. Sed Deus peccata quae
+              per confessionem panduntur, non revelat, sed tegit. Ergo nec sacerdos revelare
+              debet.</p>
+
+          </div>
+          <div xml:id="ta-l4d21q3-Dd1e148">
+            <head xml:id="ta-l4d21q3-Hd1e150">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d21q3-d1e153">Ulterius. Videtur quod sigillum confessionis se extendat ad alia quam illa quae sunt
+              de confessione. Quia de confessione non sunt nisi peccata. Sed aliquando aliquis cum
+              peccatis multa alia narrat quae ad confessionem non pertinent. Ergo, cum ea sacerdoti
+              dicantur ut Deo, videtur quod ad illa etiam sigillum confessionis se extendat.</p>
+            <p xml:id="ta-l4d21q3-d1e156">Praeterea, aliquando aliquis dicit alicui aliquod secretum, et ille recipit sub
+              sigillo confessionis. Ergo sigillum confessionis se extendit ad illa quae non sunt de
+              confessione.</p>
+            <p xml:id="ta-l4d21q3-d1e159">Sed contra, sigillum confessionis est aliquid annexum sacramentali confessioni. Sed
+              ea quae sunt annexa alicui sacramento, non se extendunt ultra sacramentum illud. Ergo
+              sigillum confessionis non se extendit nisi ad ea de quibus est sacramentalis
+              confessio.</p>
+
+          </div>
+          <div xml:id="ta-l4d21q3-Dd1e163">
+            <head xml:id="ta-l4d21q3-Hd1e165">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d21q3-d1e168">Ulterius. Videtur quod non solum sacerdos sigillum confessionis habeat. Quia
+              aliquando aliquis confitetur sacerdoti per interpretem necessitate urgente. Sed
+              interpres etiam tenetur confessionem celare. Ergo etiam non sacerdos aliquid sub
+              sigillo confessionis habet.</p>
+            <p xml:id="ta-l4d21q3-d1e171">Praeterea, aliquando aliquis in casu necessitatis potest laico confiteri. Sed ille
+              tenetur peccata celare, cum sibi dicantur sicut Deo. Ergo non solum sacerdos sigillum
+              confessionis habet.</p>
+            <p xml:id="ta-l4d21q3-d1e174">Praeterea, aliquando aliquis se sacerdotem finget, ut conscientiam alicujus exploret
+              per hanc fraudem; et ille etiam, ut videtur, peccat, si confessionem revelet. Ergo non
+              solus sacerdos sigillum confessionis habet.</p>
+            <p xml:id="ta-l4d21q3-d1e177">Sed contra est quod solus sacerdos est minister hujus sacramenti. Sed sigillum
+              confessionis est annexum sacramento. Ergo solus sacerdos habet sigillum
+              confessionis.</p>
+            <p xml:id="ta-l4d21q3-d1e181">Praeterea, homo tenetur ea quae in confessione audit, celare; quia nescit ea ut homo,
+              sed ut Deus. Sed solus sacerdos est minister Dei. Ergo ipse solus tenetur
+              occultare.</p>
+          </div>
+          <div xml:id="ta-l4d21q3-Dd1e186">
+            <head xml:id="ta-l4d21q3-Hd1e188">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d21q3-d1e191">Respondeo dicendum ad primam quaestionem, quod in sacramentis ea quae exterius
+              geruntur, sunt figura rerum quae interius contingunt; et ideo confessio qua quis
+              sacerdoti se subjicit, signum est interioris qua quis Deo subjicitur. Deus autem
+              peccatum illius qui se sibi subjicit per poenitentiam, tegit; unde et hoc oportet in
+              sacramento poenitentiae significari; et ideo de necessitate sacramenti est quod quis
+              confessionem celet; et tamquam violator sacramenti peccat qui revelat; et praeter hoc
+              sunt aliae utilitates hujus celationis; quia per hoc homines ad confessionem magis
+              attrahuntur, et simplicius peccata confitentur.</p>
+            <p xml:id="ta-l4d21q3-d1e194">Ad primum ergo dicendum, quod quidam dicunt, quod sacerdos non tenetur servare sub
+              sigillo confessionis nisi peccata de quibus poenitens emendare promittit; alias potest
+              ea dicere ei qui potest prodesse, non obesse. Sed haec opinio videtur erronea, cum sit
+              contra veritatem sacramenti. Sicut enim Baptismus est sacramentum, quamvis quis fictus
+              accedit; nec est mutandum propter hoc aliquid de essentialibus sacramenti; ita
+              confessio non desinit esse sacramentalis, quamvis ille qui confitetur, emendationem
+              non proponat; et ideo nihilominus sub occulto tenendum est. Nec tamen sigillum
+              confessionis contra caritatem militat; quia caritas non requirit quod apponatur
+              remedium peccato quod homo nescit. Illud autem quod sub confessione scitur, est quasi
+              nescitum, cum non sciat ut homo, sed ut Deus. Tamen aliquod remedium adhibere debet in
+              praedictis casibus quantum potest sine confessionis revelatione, sicut monendo eos qui
+              confitentur, et aliis diligentiam apponendo ne corrumpantur per haeresim. Potest etiam
+              dicere praelato, quod diligentius invigilet super gregem suum; ita tamen quod non
+              dicat aliquid per quod verbo vel nutu confitentem prodat.</p>
+            <p xml:id="ta-l4d21q3-d1e197">Ad secundum dicendum, quod praeceptum de confessione servanda consequitur ipsum
+              sacramentum; et ideo sicut praeceptum de confessione sacramentali facienda est de jure
+              divino, et non potest aliqua dispensatione vel jussione humana homo ab eo absolvi; ita
+              nullus ad revelationem confessionis potest ab homine cogi vel licentiari. Unde si
+              praecipiatur sub poena excommunicationis latae sententiae, quod dicat si aliquid scit
+              de peccato, non debet dicere; quia debet aestimare quod intentio praecipientis sit, si
+              sciat ut homo. Si etiam exprimeret de confessione interrogans, non deberet dicere; nec
+              excommunicationem incurreret; quia non est subjectus superiori suo nisi ut homo; hoc
+              autem non scit ut homo, sed ut Deus.</p>
+            <p xml:id="ta-l4d21q3-d1e200">Ad tertium dicendum, quod homo non adducitur in testimonium nisi ut homo; et ideo
+              absque laesione conscientiae potest jurare se nescire quod scit tantum ut Deus.
+              Similiter autem absque laesione conscientiae potest praelatus impunitum dimittere
+              peccatum quod scit ut Deus, vel sine aliquo remedio; quia non tenetur adhibere
+              remedium nisi eo modo quo ad ipsum defertur; unde in his quae deferuntur ei in foro
+              poenitentiae, in eodem foro debet quantum potest adhibere remedium; ut abbas in casu
+              praedicto admoneat eum, ut prioratum resignet; vel si noluerit, potest ex aliqua alia
+              occasione absolvere a cura prioratus; ita tamen quod omnis suspicio vitetur de
+              confessionis revelatione.</p>
+            <p xml:id="ta-l4d21q3-d1e204">Ad quartum dicendum, quod ex multis aliis causis aliquis redditur indignus ad
+              praelationis officium quam ex peccato; sicut ex defectu scientiae vel aetatis vel
+              alicujus hujusmodi; et ideo qui contradicit, nec suspicionem de crimine facit, nec
+              confessionem revelat.</p>
+
+          </div>
+          <div xml:id="ta-l4d21q3-Dd1e208">
+            <head xml:id="ta-l4d21q3-Hd1e210">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d21q3-d1e213">Ad secundam quaestionem dicendum, quod sigillum confessionis non directe se extendit
+              nisi ad illa quae cadunt sub sacramentali confessione; sed indirecte id quod non cadit
+              sub sacramentali confessione, etiam ad confessionis sigillum pertinet, sicut illa per
+              quae posset peccator vel peccatum deprehendi. Nihilominus etiam illa summo studio sunt
+              celanda, tum propter scandalum, tum propter pronitatem quae ex consuetudine accidere
+              posset.</p>
+            <p xml:id="ta-l4d21q3-d1e216">Et per hoc patet responsio ad primum.</p>
+            <p xml:id="ta-l4d21q3-d1e219">Ad secundum dicendum, quod homo non de facili debet recipere aliquid hoc modo; si
+              tamen recipiat, ex promissione tenetur hoc modo celare ac si in confessione haberet,
+              quamvis sub sigillo confessionis non habeat.</p>
+
+          </div>
+          <div xml:id="ta-l4d21q3-Dd1e223">
+            <head xml:id="ta-l4d21q3-Hd1e225">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d21q3-d1e228">Ad tertiam quaestionem dicendum, quod sigillum confessionis competit sacerdoti
+              inquantum est minister hujus sacramenti, quod nihil est aliud quam debitum
+              confessionem celandi; sicut clavis est potestas absolvendi. Tamen sicut aliquis qui
+              non est sacerdos, in aliquo casu participat aliquid de actu clavis, dum confessionem
+              audit propter necessitatem; ita etiam participat de actu sigilli confessionis, et
+              tenetur celare; quamvis, proprie loquendo, sigillum confessionis non habeat.</p>
+            <p xml:id="ta-l4d21q3-d1e231">Et per hoc patet solutio ad objecta.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d21q3-Dd1e236" type="articulus">
+          <head xml:id="ta-l4d21q3-Hd1e238">Articulus 2</head>
+
+          <head xml:id="ta-l4d21q3-Hd1e241" type="questionTitle">Utrum de licentia poenitentis possit sacerdos peccatum quod sub
+            sigillo confessionis habet, alteri prodere</head>
+
+          <p xml:id="ta-l4d21q3-d1e244">Ad secundum sic proceditur. Videtur quod de licentia poenitentis non possit sacerdos
+            peccatum quod sub sigillo confessionis habet, alteri prodere. Quod enim non potest
+            superior, non potest inferior. Sed Papa non posset aliquem licentiare ut peccatum quod
+            scit in confessione, alteri diceret. Ergo nec ille qui confitetur, potest ipsum
+            licentiare.</p>
+          <p xml:id="ta-l4d21q3-d1e247">Praeterea, illud quod est institutum propter bonum commune, non potest ex arbitrio
+            unius mutari. Sed celatio confessionis est instituta propter bonum totius Ecclesiae, ut
+            homines confidentius ad confessionem accedant. Ergo ille qui confitetur, non potest
+            licentiare sacerdotem ad dicendum.</p>
+          <p xml:id="ta-l4d21q3-d1e250">Praeterea, si posset sacerdos licentiari, videretur dari pallium malitiae malis
+            sacerdotibus; quia possent praetendere sibi licentiam datam, et sic impune peccarent;
+            quod non est conveniens. Ergo videtur quod non possit a confitente licentiari.</p>
+          <p xml:id="ta-l4d21q3-d1e254">Praeterea, ille cui iste revelabit, non habebit hoc sub sigillo confessionis; et sic
+            poterit publicari peccatum quod jam deletum est; quod non est conveniens. Ergo non
+            potest licentiari.</p>
+          <p xml:id="ta-l4d21q3-d1e257">Sed contra, superior potest remittere peccatorem cum litteris ad inferiorem sacerdotem
+            de voluntate ipsius. Ergo de voluntate confitentis potest alteri peccatum revelare.</p>
+          <p xml:id="ta-l4d21q3-d1e260">Praeterea, qui potest aliquid facere per se, potest etiam per alterum facere. Sed
+            confitens potest per se peccatum suum, quod fecit, revelare. Ergo potest internuntium
+            sacerdotem facere.</p>
+          <p xml:id="ta-l4d21q3-d1e263">Respondeo dicendum, quod duo sunt propter quae sacerdos tenetur peccatum occultare.
+            Primo et principaliter, quia ipsa occultatio est de essentia sacramenti, inquantum scit
+            illud ut Deus, cujus vicem gerit ad confessionem. Alio modo propter scandalum vitandum.
+            Potest autem poenitens facere ut illud quod sacerdos sciebat ut Deus, sciat etiam ut
+            homo; quod facit dum eum licentiat ad dicendum; et ideo si dicat, non frangit sigillum
+            confessionis. Tamen debet cavere scandalum dicendo, ne fractor sigilli praedicti
+            reputetur.</p>
+          <p xml:id="ta-l4d21q3-d1e266">Ad primum ergo dicendum, quod Papa non potest licentiare eum ut dicat; quia non potest
+            facere ut sciat ut homo; quod potest qui confitetur.</p>
+          <p xml:id="ta-l4d21q3-d1e269">Ad secundum dicendum, quod non tollitur illud quod est propter bonum commune
+            institutum; quia sigillum confessionis non frangitur, quia dicitur quod alio modo
+            scitur.</p>
+          <p xml:id="ta-l4d21q3-d1e273">Ad tertium dicendum, quod ex hoc non datur aliqua impunitas malis sacerdotibus; quia
+            imminet eis probatio, si accusantur, quod de licentia confitentis revelaverunt.</p>
+          <p xml:id="ta-l4d21q3-d1e276">Ad quartum dicendum, quod ille ad quem notitia peccati devenit mediante sacerdote ex
+            voluntate confitentis, participat in aliquo actum sacerdotis; et ideo simile est de eo
+            et de interprete; nisi forte peccator velit quod ille absolute sciat et libere.</p>
+
+        </div>
+        <div xml:id="ta-l4d21q3-Dd1e280" type="articulus">
+          <head xml:id="ta-l4d21q3-Hd1e282">Articulus 3</head>
+
+          <head xml:id="ta-l4d21q3-Hd1e285" type="questionTitle">Utrum illud quod quis scit per confessionem et alio modo, nullo
+            modo possit revelare</head>
+
+          <p xml:id="ta-l4d21q3-d1e288">Ad tertium sic proceditur. Videtur quod illud quod quis scit per confessionem et alio
+            modo, nullo modo possit revelare. Non enim frangitur sigillum confessionis, nisi dum
+            peccatum quod in confessione habetur, revelatur. Si ergo iste revelat peccatum quod in
+            confessione audivit, qualitercumque aliter sciat, sigillum confessionis frangere
+            videtur.</p>
+          <p xml:id="ta-l4d21q3-d1e291">Praeterea, quicumque confessionem alicujus audit, ei obligatur ad hoc quod peccata
+            ipsius non revelet. Sed si aliquis alicui promitteret tenere privatum quod ei dicitur,
+            quantumcumque postea sciret, deberet privatum tenere. Ergo quod in confessione quis
+            audit, quantumcumque alias sciatur, debet privatum haberi.</p>
+          <p xml:id="ta-l4d21q3-d1e294">Praeterea, duorum quod est altero potentius trahit ad se reliquum. Sed scientia sua qua
+            scit peccatum ut Deus, est potentior, et dignior illa qua scit ut homo. Ergo trahit ad
+            se eam; et ita non poterit revelari, secundum quod scientia qua scit ut Deus,
+            exigit.</p>
+          <p xml:id="ta-l4d21q3-d1e298">Praeterea, secretum confessionis institutum est ad vitandum scandalum, et ut homines a
+            confessionibus non retraherentur. Sed si aliquis posset dicere illud quod in confessione
+            audivit, etiam si alias sciret, nihilominus scandalum sequeretur. Ergo nullo modo potest
+            dicere.</p>
+          <p xml:id="ta-l4d21q3-d1e301">Sed contra, nullus potest alium obligare ad quod non erat obligatus, nisi sit suus
+            praelatus, qui obliget eum praecepto. Sed ille qui sciebat alicujus peccatum per visum,
+            non erat obligatus ad celandum. Ergo ille qui ei confitetur, cum non sit praelatus suus,
+            non potest eum obligare ad celandum hoc quod sibi confitetur.</p>
+          <p xml:id="ta-l4d21q3-d1e304">Praeterea, secundum hoc posset impediri justitia Ecclesiae, si aliquis, ut evaderet
+            sententiam excommunicationis, quae in ipsum ferenda erat propter aliquod peccatum de quo
+            convictus est, confiteretur ei qui sententiam ferre debet. Sed justitiae executio est in
+            praecepto. Ergo non tenetur celare peccatum quod quis in confessione audit, si alias
+            scit.</p>
+          <p xml:id="ta-l4d21q3-d1e307">Respondeo dicendum, quod circa hoc est triplex opinio. Quidam enim dicunt, quod illud
+            quod aliquis audit in confessione, non potest aliquo modo dicere, si sciat alias, sive
+            ante sive post. Quidam vero dicunt, quod per confessionem praecluditur sibi via ne
+            possit aliquid dicere quod prius scivit; non autem quin possit dicere, si postea alio
+            modo sciat. Utraque autem opinio, dum nimium sigillo confessionis attribuit,
+            praejudicium veritati et justitiae servandae facit. Posset enim aliquis ad peccata esse
+            proclivior, si non timeret ab illo accusari cui confessus est, si coram ipso peccatum
+            iteraret. Similiter etiam multum justitiae perire poterit, si testimonium ferre non
+            posset aliquis de eo quod vidit, propter confessionem de hoc factam. Nec obstat quod
+            quidam dicunt, quod debet protestari, se non tenere privatum hoc; quia hoc non posset
+            protestari nisi postquam peccatum esset sibi dictum; et tunc quilibet sacerdos posset,
+            cum vellet, revelare peccatum protestationem faciendo, si hoc ipsum ad revelandum
+            liberum redderet. Et ideo alia opinio est, et verior, quia illud quod homo alias scit,
+            sive ante confessionem, sive post, non tenetur celare quantum ad id quod scit ut homo.
+            Potest enim dicere: scio illud, quia vidi; tenetur tamen celare illud, inquantum scit ut
+            Deus. Non potest enim dicere: ego audivi hoc in confessione. Tamen propter scandalum
+            vitandum debet abstinere ne de hoc loquatur, nisi necessitas immineat.</p>
+          <p xml:id="ta-l4d21q3-d1e310">Ad primum ergo dicendum, quod quando aliquis dicit se vidisse quod in confessione
+            audivit, non revelat quod in confessione audivit, nisi per accidens; sicut qui scit per
+            auditum et visum, non revelat quod videt, per se loquendo, si dicat se audisse; sed per
+            accidens, quia dicit auditum, cui accidit visum esse; et ideo talis sigillum
+            confessionis non frangit.</p>
+          <p xml:id="ta-l4d21q3-d1e313">Ad secundum dicendum, quod non obligatur audiens confessionem quod non revelet peccatum
+            simpliciter, sed prout est in confessione auditum; nullo enim casu dicere debet se
+            audivisse in confessione.</p>
+          <p xml:id="ta-l4d21q3-d1e317">Ad tertium dicendum, quod intelligendum est de duobus qui habent oppositionem. Sed
+            scientia qua scit aliquis peccatum ut Deus, et illa qua scit ut homo, non sunt opposita;
+            et ideo ratio non procedit.</p>
+          <p xml:id="ta-l4d21q3-d1e320">Ad quartum dicendum, quod non debet ita vitari peccatum ex una parte quod ex alia
+            justitia relinquatur; veritas enim non est propter scandalum dimittenda; et ideo quando
+            imminet periculum justitiae et veritatis, non debet dimitti revelatio ejus quod quis in
+            confessione audivit, si alias scit, propter scandalum; dum tamen scandalum, quantum in
+            se est, evitare nitatur.</p>
+        </div>
+        <div xml:id="ta-l4d21q3-Dd1e325">
+          <head xml:id="ta-l4d21q3-Hd1e327">Expositio textus</head>
+          <p xml:id="ta-l4d21q3-d1e330"><quote xml:id="ta-l4d21q3-Qd1e331">Non redarguo, quia forsitan verum est</quote>. Hoc non dicit Augustinus quasi
+            dubitans an Purgatorium sit; sed an de hoc igne apostolus intelligat. <quote xml:id="ta-l4d21q3-Qd1e334">Quod omnia
+              criminalia semel saltem oportet in confessione exprimi</quote>. Contra, contritio non
+            oportet quod sit singillatim de omnibus. Ergo nec confessio. Et dicendum, quod contritio
+            est in conspectu Dei, qui uno intuitu omnia videt; sed confessio fit homini, cui oportet
+            singillatim omnia exponi. Et praeterea oportet de omni peccato mortali quod memoriae
+            occurrit, singulariter dolere, ut praedictum est. <quote xml:id="ta-l4d21q3-Qd1e337">Nisi aliqua sint frequenter
+              iterata</quote>. Contra, iteratio non trahit ea extra genus venialium peccatorum. Et
+            dicendum, quod loquitur quantum ad dispositionem; quia frequens venialium iteratio
+            disponit ad illam placentiam venialium in qua consistit peccatum mortale; quia secundum
+            quod habitus ex consuetudine generatur et augetur, secundum hoc delectatio et pronitas
+            crescit. <quote xml:id="ta-l4d21q3-Qd1e340">Sed aliud est favore vel odio proprium sacerdotem contemnere, quod
+              canones prohibent; aliud caecum vitare, quod Urbanus facere monet</quote>. Contra,
+            ergo secundum hoc videtur quod aliquis possit cui vult confiteri, quando habet
+            sacerdotem ignorantem. Et dicendum, quod hoc intelligendum est, quando sacerdotis
+            ignorantia posset hominem inducere in errorem; tunc enim de licentia sacerdotis vel
+            superioris debet alium petere prudentiorem. Quinque tamen casus ponuntur in quibus licet
+            alii confiteri quam proprio sacerdoti sine ejus licentia. Primus est, si sit vagabundus;
+            secundus, si mutavit domicilium; tertius, si offendit in aliena parochia; quartus
+            propter malitiam sacerdotis, si revelat confessiones, vel incitat ad malum; quintus in
+            articulo necessitatis.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

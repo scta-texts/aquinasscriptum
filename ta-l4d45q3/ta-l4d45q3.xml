@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 45, Quaestio 3</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Librum IV, Distinctio 45, Quaestio 3</title>
+          <date when="2016-03-19">March 19, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-19">March 19, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness>1856 editum</witness>
+          <witness xml:id="G" n="ghent567">Ghent, Belgium, Ghent University Library, 567</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="0.0.0-dev">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+
+
+
+
+      <div xml:id="starts-on">
+        <cb ed="#G" n="650a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ta-l4d45q3">
+        <head xml:id="ta-l4d45q3-Hd1e97">Librum IV, Distinctio 45, Quaestio 3</head>
+        <div xml:id="ta-l4d45q3-Dd1e100">
+          <head xml:id="ta-l4d45q3-Hd1e102">Prooemium</head>
+          <p xml:id="ta-l4d45q3-d1e105">Deinde quaeritur de orationibus sanctorum, quibus pro nobis orant; et circa hoc
+            quaeruntur tria: 1 utrum sancti orationes nostras cognoscant; 2 utrum debeamus omnes
+            interpellare ad orandum pro nobis; 3 utrum orationes eorum pro nobis fusae semper
+            exaudiantur; 4 utrum autem possimus sanctos orare, et utrum sancti qui sunt in patria,
+            orent pro nobis, habitum est supra, dist. 15.</p>
+
+        </div>
+        <div xml:id="ta-l4d45q3-Dd1e109" type="articulus">
+          <head xml:id="ta-l4d45q3-Hd1e111">Articulus 1</head>
+
+          <head xml:id="ta-l4d45q3-Hd1e114" type="questionTitle">Utrum sancti orationes nostras cognoscant</head>
+
+          <p xml:id="ta-l4d45q3-d1e117">Ad primum sic proceditur. Videtur quod sancti orationes nostras non cognoscant. Isa.
+            43, 16: <quote xml:id="ta-l4d45q3-Qd1e119">pater noster es, et Abraham nescivit nos, et Israel ignoravit
+            nos</quote>. Glossa Augustini dicit, quia mortui et sancti nesciunt quid agant vivi,
+            etiam eorum filii; et sumitur ab Augustino in Lib. de cura pro mortuis gerenda, ubi hanc
+            auctoritatem inducit; et sunt haec verba Augustini, ibidem: <quote xml:id="ta-l4d45q3-Qd1e122">si tanti patriarchae
+              quid erga populum ab eis procreatum ageretur ignoraverunt, quomodo mortui vivorum
+              rebus atque actibus cognoscendis adjuvandisque miscentur?</quote> Ergo sancti
+            orationes nostras cognoscere non possunt.</p>
+          <p xml:id="ta-l4d45q3-d1e126">Praeterea, 4 Reg., 22, 20, dicitur ad Josiam regem: <quote xml:id="ta-l4d45q3-Qd1e128">idcirco</quote>, quia
+            scilicet flevisti coram me, <quote xml:id="ta-l4d45q3-Qd1e131">colligam te ad patres tuos (...) ut non videant oculi
+              tui mala omnia quae inducturus sum in locum istum</quote>. Sed in hoc nullo modo per
+            mortem Josiae subventum fuisset, si post mortem genti suae quid eveniret cognosceret.
+            Ergo sancti mortui actus nostros non cognoscunt, et ita non intelligunt orationes
+            nostras.</p>
+          <p xml:id="ta-l4d45q3-d1e135">Praeterea, quanto aliquis est in caritate perfectior, tanto magis proximo in periculis
+            subvenit. Sed sancti in carne viventes proximis, et maxime sibi conjunctis, in periculis
+            et consulunt et auxiliantur manifeste. Cum ergo post mortem sint multo majoris
+            caritatis; si facta nostra cognoscerent, multo amplius suis caris sibi conjunctis
+            consulerent et auxiliarentur in necessitatibus: quod facere non videntur. Ergo non
+            videtur quod actus nostros et orationes cognoscant.</p>
+          <p xml:id="ta-l4d45q3-d1e139">Praeterea, sicut sancti post mortem vident verbum, ita et Angeli, de quibus dicitur
+            Matth. 18, 10: <quote xml:id="ta-l4d45q3-Qd1e141" ana="#mt18_10">Angeli eorum semper vident faciem patris mei</quote>. Sed Angeli
+            verbum videntes non propter hoc omnia cognoscunt, cum a nescientia minores a
+            superioribus purgentur, ut patet per Dionysium in 6 cap. Eccl. Hierarch. Ergo nec
+            sancti, quamvis verbum videant, in eo nostras orationes cognoscunt, et alia quae circa
+            nos aguntur.</p>
+          <p xml:id="ta-l4d45q3-d1e145">Praeterea, solus Deus est inspector cordium. Sed oratio praecipue in corde consistit.
+            Ergo solius Dei est orationes cognoscere; non ergo sancti orationes nostras
+            cognoscunt.</p>
+          <p xml:id="ta-l4d45q3-d1e148">Sed contra, super illud Job 14, 21: <quote xml:id="ta-l4d45q3-Qd1e150">sive nobiles fuerint filii ejus, sive
+              ignobiles, non intelliget</quote>; dicit beatus Gregorius 12 Lib. Moral.: <quote xml:id="ta-l4d45q3-Qd1e153">hoc
+              de animabus sanctis sentiendum non est; quia quae intus omnipotentis Dei claritatem
+              vident, nullo modo credendum est quod sit foras aliquid quod ignorent</quote>. Ergo
+            ipsi orationes sibi factas cognoscunt.</p>
+          <p xml:id="ta-l4d45q3-d1e157">Praeterea, Gregorius in 2 Dialog.: <quote xml:id="ta-l4d45q3-Qd1e159">animae videnti creatorem angusta est omnis
+              creatura. Quantumlibet enim de luce creatoris aspexerit, breve fit eis omne quod
+              creatum est</quote>. Sed hoc maxime impedire videretur quod animae sanctorum
+            orationes, et alia quae circa nos aguntur, cognoscant, quia a nobis distant. Cum ergo
+            distantia illa non impediat, ut ex praedicta auctoritate patet, videtur quod animae
+            sanctorum cognoscant orationes nostras, et ea quae hic aguntur.</p>
+          <p xml:id="ta-l4d45q3-d1e163">Praeterea, si ea quae circa nos aguntur, non cognoscerent; nec pro nobis orarent, quia
+            defectus nostros ignorarent. Sed hic est error Vigilantii, ut Hieronymus dicit in
+            epistola contra eum. Ergo sancti ea quae circa nos aguntur, cognoscunt.</p>
+          <p xml:id="ta-l4d45q3-d1e166">Respondeo dicendum, quod divina essentia est sufficiens medium cognoscendi omnia; quod
+            patet ex hoc quod Deus videndo suam essentiam omnia intuetur. Non tamen sequitur quod
+            quicumque essentiam Dei videt, omnia cognoscat, sed solum qui essentiam comprehendit;
+            sicut nec principio aliquo cognito consequens est omnia cognosci quae ex principio
+            consequuntur, nisi tota virtus principii comprehendatur. Unde cum animae sanctorum
+            divinam essentiam non comprehendant, non est consequens ut omnia cognoscant quae per
+            essentiam divinam cognosci possunt; unde etiam de quibusdam inferiores Angeli a
+            superioribus edocentur, quamvis omnes essentiam divinam videant. Sed unusquisque beatus
+            tantum de aliis rebus necessarium est ut in essentia divina videat, quantum perfectio
+            beatitudinis requirit, ut homo habeat quidquid velit, nec aliquid inordinate velit,
+            sicut infra, dist. 49, qu. 2, art. 5, habetur. Hoc autem recta voluntate quilibet vult
+            ut ea quae ad ipsum pertinent cognoscat; unde cum nulla rectitudo sanctis desit, volunt
+            cognoscere ea quae ad ipsos pertinent; et ideo oportet quod illa in verbo cognoscant.
+            Hoc autem ad eorum gloriam pertinet quod auxilium indigentibus praebeant ad salutem; sic
+            enim Dei cooperatores efficiuntur, quo nihil est divinius, ut Dionysius dicit, 3 cap.
+            Eccles. Hierarch. Unde patet quod sancti cognitionem habeant eorum quae ad hoc
+            requiruntur; et sic manifestum est quod in verbo cognoscunt vota et orationes et
+            devotiones hominum qui ad eorum auxilium confugiunt.</p>
+          <p xml:id="ta-l4d45q3-d1e170">Ad primum ergo dicendum, quod verbum Augustini est intelligendum de cognitione naturali
+            animarum separatarum; quae quidem cognitio in sanctis viris non est obtenebrata, sicut
+            est in peccatoribus: non autem loquitur de cognitione in verbo, quam constat Abraham, eo
+            tempore quo haec dicta sunt per Isaiam, non habuisse, cum ante passionem Christi nullus
+            ad visionem Dei pervenerit.</p>
+          <p xml:id="ta-l4d45q3-d1e173">Ad secundum dicendum, quod sancti etsi post vitam cognoscant quae hic geruntur, non
+            tamen credendum est quod afficiantur doloribus, cognitis adversitatibus eorum quos hic
+            in saeculo dilexerunt; ita enim repleti sunt gaudio beatitudinis quod dolor in eis locum
+            non invenit; unde si cognoscant suorum infortunia post mortem, nihilominus eorum dolori
+            consulitur, si ante hujusmodi infortunia de hoc saeculo subtrahuntur. Sed forte animae
+            non glorificatae dolorem aliquem sentirent, si incommoda suorum carorum perciperent. Et
+            quia anima Josiae non statim glorificata fuit a corpore egressa, quantum ad hoc ex hac
+            ratione Augustinus concludere nititur quod animae mortuorum non habent cognitionem de
+            factis viventium.</p>
+          <p xml:id="ta-l4d45q3-d1e176">Ad tertium dicendum, quod animae sanctorum habent voluntatem plenarie conformem divinae
+            voluntati, etiam in volito; et ideo quamvis affectum caritatis ad proximum retineant,
+            non tamen eis aliter auxilium ferunt quam secundum quod per divinam justitiam vident
+            esse dispositum. Et tamen credendum est quod multum proximos juvent, pro eis apud Deum
+            intercedendo.</p>
+          <p xml:id="ta-l4d45q3-d1e179">Ad quartum dicendum, quod quamvis videntes verbum non sit necessarium omnia in verbo
+            videre; vident tamen ea quae ad perfectionem pertinent beatitudinis eorum, ut dictum
+            est.</p>
+          <p xml:id="ta-l4d45q3-d1e182">Ad quintum dicendum, quod cogitationes cordium solus Deus per seipsum novit; sed tamen
+            alii cognoscere possunt quatenus eis revelatur vel per visionem verbi, vel quocumque
+            alio modo.</p>
+
+        </div>
+        <div xml:id="ta-l4d45q3-Dd1e186" type="articulus">
+          <head xml:id="ta-l4d45q3-Hd1e188">Articulus 2</head>
+
+          <head xml:id="ta-l4d45q3-Hd1e191" type="questionTitle">Utrum debeamus sanctos orare ad interpellandum pro nobis</head>
+
+          <p xml:id="ta-l4d45q3-d1e194">Ad secundum sic proceditur. Videtur quod non debeamus sanctos orare ad interpellandum
+            pro nobis. Nullus enim amicos alicujus interpellat ad orandum pro se, nisi quatenus apud
+            eos credit facilius gratiam obtinere. Sed Deus est in infinitum magis misericors
+            quolibet sancto; et sic ejus voluntas facilius inclinatur ad nos exaudiendum quam
+            voluntas alicujus sancti. Ergo videtur superfluum esse constituere sanctos mediatores
+            inter nos et Deum, ut ipsi pro nobis intercedant.</p>
+          <p xml:id="ta-l4d45q3-d1e197">Praeterea, si eos ad orandum pro nobis interpellare debemus, hoc non est nisi quia
+            scimus eorum orationem esse Deo acceptam. Sed quanto aliquis est sanctior inter sanctos,
+            tanto ejus oratio est magis Deo accepta. Ergo semper deberemus superiores sanctos pro
+            nobis intercessores constituere ad Deum, et nunquam minores.</p>
+          <p xml:id="ta-l4d45q3-d1e200">Praeterea, Christus secundum etiam quod homo, dicitur sanctus sanctorum, et ei secundum
+            quod homo orare competit. Sed nunquam Christum ad orandum pro nobis interpellamus. Ergo
+            nec alios sanctos interpellare debemus.</p>
+          <p xml:id="ta-l4d45q3-d1e204">Praeterea, quicumque rogatus ab aliquo pro eo intercedit, preces ipsius ei repraesentat
+            apud quem pro eo intercedit. Sed superfluum est aliquid repraesentare ei cui sunt omnia
+            patentia. Ergo superfluum est quod sanctos pro nobis intercessores constituamus ad
+            Deum.</p>
+          <p xml:id="ta-l4d45q3-d1e207">Praeterea, illud est superfluum quod fit propter aliquid quod sine eo eodem modo fieret
+            vel non fieret. Sed similiter sancti orarent pro nobis vel non orarent, sive nos oremus
+            eos, sive non oremus; quia si sumus digni ut pro nobis orarent, etiam nobis eos non
+            orantibus, pro nobis orarent; si autem sumus indigni, etiam si petamus, pro nobis non
+            orant. Ergo interpellare eos ad orandum pro nobis videtur omnino superfluum.</p>
+          <p xml:id="ta-l4d45q3-d1e210">Sed contra est quod dicitur Job 5, 1: <quote xml:id="ta-l4d45q3-Qd1e212">voca ergo si est qui tibi respondeat, et
+              ad aliquem sanctorum convertere</quote>. Vocare autem nostrum, ut Gregorius ibidem
+            dicit, est humili Deum prece deposcere. Ergo cum volumus orare Deum, debemus ad sanctos
+            converti, ut orent pro nobis ad Deum.</p>
+          <p xml:id="ta-l4d45q3-d1e216">Praeterea, sancti qui sunt in patria, magis sunt accepti Deo quam in statu viae. Sed
+            sanctos qui sunt in via, constituere debemus interpellatores pro nobis ad Deum exemplo
+            apostoli, qui dicebat Rom. 15, 30: <quote xml:id="ta-l4d45q3-Qd1e218" ana="#rom15_30">obsecro vos fratres per dominum nostrum Jesum
+              Christum, et per caritatem spiritus sancti, ut adjuvetis me in orationibus vestris pro
+              me ad Deum</quote>. Ergo et nos multo fortius petere debemus a sanctis qui sunt in
+            patria, ut nos juvent orationibus ad Deum.</p>
+          <p xml:id="ta-l4d45q3-d1e222">Praeterea, ad hoc est communis consuetudo Ecclesiae, quae in litaniis sanctorum
+            orationem petit.</p>
+          <p xml:id="ta-l4d45q3-d1e225">Respondeo dicendum, quod iste ordo est divinitus institutus in rebus, secundum
+            Dionysium, ut per media ultima reducantur in Deum. Unde cum sancti qui sunt in patria,
+            sint Deo propinquissimi, hoc divinae legis ordo requirit, ut nos qui manentes in corpore
+            peregrinamur a domino, in eum per sanctos medios reducamur; quod quidem contingit, dum
+            per eos divina bonitas suum effectum diffundit. Et quia reditus noster in Deum
+            respondere debet processui bonitatum ipsius ad nos; sicut mediantibus sanctorum
+            suffragiis Dei beneficia in nos deveniunt, ita oportet nos in Deum reduci, ut iterato
+            beneficia ejus sumamus mediantibus sanctis; et inde est quod eos intercessores pro nobis
+            ad Deum constituimus, et quasi mediatores, dum ab eis petimus quod pro nobis orent.</p>
+          <p xml:id="ta-l4d45q3-d1e229">Ad primum ergo dicendum, quod sicut non est propter defectum divinae potentiae quod
+            mediantibus secundis causis agentibus operatur, sed est ad complementum ordinis
+            universi, et ut ejus bonitas multiplicius diffundatur in res, dum res ab ea non solum
+            suscipiunt bonitates proprias, sed insuper quod aliis causa bonitatis existant; ita
+            etiam non est propter defectum misericordiae ipsius quod oporteat ejus clementiam per
+            orationes sanctorum pulsare, sed est ad hoc ut ordo praedictus conservetur in rebus.</p>
+          <p xml:id="ta-l4d45q3-d1e232">Ad secundum dicendum, quod quamvis superiores sancti sint magis Deo accepti quam
+            inferiores, utile tamen est etiam minores sanctos interdum orare; et hoc propter quinque
+            rationes. Primo ex hoc quod aliquis quandoque habet majorem devotionem ad sanctum
+            minorem quam ad majorem; ex devotione autem maxime dependet orationis effectus. Secundo
+            propter fastidium tollendum, quia assiduitas unius rei fastidium parit; per hoc autem
+            quod diversos sanctos oramus, quasi in singulis novus fervor devotionis excitatur.
+            Tertio, quia quibusdam sanctis datum est in aliquibus specialibus causis praecipue
+            patrocinari, sicut sancto Antonio ad ignem infernalem. Quarto, ut honor debitus omnibus
+            exhibeatur. Quinto, quia plurium orationibus quandoque impetratur quod unius oratione
+            non impetraretur.</p>
+          <p xml:id="ta-l4d45q3-d1e235">Ad tertium dicendum, quod oratio est actus quidam: actus autem sunt particularium
+            suppositorum; et ideo si diceremus, Christe ora pro nobis, nisi aliquid adderetur,
+            videremur hoc ad personam Christi referre; et ita videretur esse consonum vel errori
+            Nestorii, qui distinxit in Christo personam filii hominis a persona filii Dei; vel
+            errori Arii, qui posuit personam filii minorem patre. Unde ad hos errores evitandos
+            Ecclesia non dicit, <quote xml:id="ta-l4d45q3-Qd1e237">Christe ora pro nobis</quote>, sed <quote xml:id="ta-l4d45q3-Qd1e240">Christe audi
+              nos</quote>, vel <quote xml:id="ta-l4d45q3-Qd1e243">miserere nobis</quote>.</p>
+          <p xml:id="ta-l4d45q3-d1e247">Ad quartum dicendum, quod sicut infra dicetur, non dicuntur sancti preces nostras Deo
+            repraesentare quasi ei incognita manifestent; sed quia eas exaudiri a Deo petunt, vel de
+            eis divinam consulunt veritatem, quid scilicet secundum ejus providentiam fieri
+            debeat.</p>
+          <p xml:id="ta-l4d45q3-d1e250">Ad quintum dicendum, quod ex hoc ipso aliquis efficitur dignus ut sanctus aliquis pro
+            eo oret, quod ad ipsum cum pura devotione in sua necessitate recurrit; et ita non est
+            superfluum quod sanctos oremus.</p>
+
+        </div>
+        <div xml:id="ta-l4d45q3-Dd1e254" type="articulus">
+          <head xml:id="ta-l4d45q3-Hd1e256">Articulus 3</head>
+
+          <head xml:id="ta-l4d45q3-Hd1e259" type="questionTitle">Utrum orationes sanctorum pro nobis ad Deum fusae, semper
+            exaudiantur</head>
+
+          <p xml:id="ta-l4d45q3-d1e262">Ad tertium sic proceditur. Videtur quod orationes sanctorum pro nobis ad Deum fusae,
+            non semper exaudiantur. Si enim exaudirentur, maxime exaudirentur sancti de his quae ad
+            eos pertinent. Sed de his non exaudiuntur; unde dicitur Apocalyps. 6, quod martyribus
+            petentibus vindictam his qui sunt super terram, dictum est ut requiescerent adhuc tempus
+            modicum, donec impleretur numerus fratrum suorum. Ergo multo minus exaudiuntur de his
+            quae ad alios pertinent.</p>
+          <p xml:id="ta-l4d45q3-d1e265">Praeterea, Hierem. 15, 1: <quote xml:id="ta-l4d45q3-Qd1e267">si steterint Moyses et Samuel coram me, non est anima
+              mea ad populum istum</quote>. Ergo sancti non semper exaudiuntur, cum pro nobis orant
+            ad Deum.</p>
+          <p xml:id="ta-l4d45q3-d1e271">Praeterea, sancti in patria aequales Dei Angelis esse commemorantur, ut patet Matth.
+            22. Sed Angeli non semper exaudiuntur in suis orationibus quas fundunt ad Deum; quod
+            patet ex hoc quod habetur Daniel. 10, 12, ubi dicitur: <quote xml:id="ta-l4d45q3-Qd1e273">ego veni propter sermones
+              tuos: princeps autem regni Persarum restitit mihi viginti et uno diebus</quote>. Non
+            autem venerat in adjutorium Danielis Angelus qui loquebatur, nisi a Deo liberationem
+            eorum petendo; et non est impetrata orationis ejus impletio. Ergo nec etiam alii sancti
+            orantes pro nobis apud Deum semper exaudiuntur.</p>
+          <p xml:id="ta-l4d45q3-d1e278">Praeterea, quicumque oratione impetrat aliquid, quodammodo meretur illud. Sed illi qui
+            sunt in patria, non sunt in statu merendi. Ergo non possunt suis orationibus nobis
+            aliquid impetrare apud Deum.</p>
+          <p xml:id="ta-l4d45q3-d1e281">Praeterea, sancti per omnia conformant voluntatem suam voluntati divinae. Ergo non
+            volunt nisi quod sciunt Deum velle. Sed nullus orat nisi quod vult. Ergo non orant pro
+            eo nisi quod sciunt Deum velle. Sed hoc quod Deus vult, fieret eis etiam non orantibus.
+            Ergo eorum orationes non sunt efficaces ad aliquid impetrandum.</p>
+          <p xml:id="ta-l4d45q3-d1e284">Praeterea, orationes totius caelestis curiae, si aliquid impetrare possunt,
+            efficaciores essent quam omnia praesentis Ecclesiae suffragia. Sed multiplicatis
+            suffragiis praesentis Ecclesiae factis pro aliquo in Purgatorio existente, totaliter
+            absolveret a poena. Cum ergo sancti qui sunt in patria, eadem ratione orent pro illis
+            qui sunt in Purgatorio, sicut et pro nobis aliquid impetrant; illos qui sunt in
+            Purgatorio totaliter orationes eorum a poena absolverent; quod falsum est, quia sic
+            suffragia Ecclesiae pro defunctis facta superflua essent.</p>
+          <p xml:id="ta-l4d45q3-d1e287">Sed contra est quod habetur 2 Machab. ult., 14: <quote xml:id="ta-l4d45q3-Qd1e289">hic est qui multum orat pro
+              populo et pro universa civitate, Hieremias propheta Dei</quote>. Et quod ejus oratio
+            sit exaudita, patet per hoc quod sequitur, quod extendit Hieremias dexteram, et dedit
+            Judae gladium dicens: <quote xml:id="ta-l4d45q3-Qd1e292">accipe sanctum gladium munus a Deo in quo dejicies
+              adversarios populi Dei</quote>.</p>
+          <p xml:id="ta-l4d45q3-d1e296">Praeterea, Hieronymus in epistola contra Vigilantium: <quote xml:id="ta-l4d45q3-Qd1e298">dicis in libello tuo, quod
+              dum vivimus, mutuo orare pro nobis possumus</quote>; et hoc postea improbat, dicens
+            sic: <quote xml:id="ta-l4d45q3-Qd1e301">si apostoli et martyres adhuc in corpore constituti possunt orare pro
+              ceteris quando pro se adhuc debent esse soliciti; quanto magis post coronas,
+              victorias, et triumphos</quote>.</p>
+          <p xml:id="ta-l4d45q3-d1e305">Praeterea, ad hoc est consuetudo Ecclesiae quae frequenter petit ut sanctorum
+            orationibus adjuvetur.</p>
+          <p xml:id="ta-l4d45q3-d1e309">Respondeo dicendum, quod sancti dupliciter dicuntur orare pro nobis. Uno modo oratione
+            expressa, dum votis suis aures divinae clementiae pro nobis pulsant; alio modo oratione
+            interpretativa, scilicet per eorum merita, quae in conspectu Dei existentia non solum
+            eis cedunt ad gloriam, sed sunt nobis etiam suffragia et orationes quaedam; sicut etiam
+            sanguis Christi pro nobis effusus dicitur veniam petere. Utroque autem modo sanctorum
+            orationes sunt, quantum est in ipsis, efficaces ad impetrandum quod petunt; sed ex parte
+            nostra potest esse defectus, quod non assequamur fructum orationum ipsorum, secundum
+            quod pro nobis orare dicuntur ex hoc quod merita ipsorum nobis proficiunt; sed secundum
+            quod orant pro nobis, votis suis nobis aliquid postulando, semper exaudiuntur, quia non
+            volunt nisi quod Deus vult, nec petunt nisi quod volunt fieri: quod autem Deus
+            simpliciter vult, impletur, nisi loquamur de voluntate antecedente, secundum quam vult
+            omnes homines salvos fieri, quae non semper impletur. Unde nec est mirum, si etiam quod
+            sancti volunt per hunc modum voluntatis, interdum non impletur.</p>
+          <p xml:id="ta-l4d45q3-d1e312">Ad primum ergo dicendum, quod illa oratio martyrum non est aliud quam eorum desiderium
+            de obtinenda stola corporis: et societate sanctorum qui salvandi sunt, et consensus quo
+            consentiunt divinae justitiae punienti malos; unde Apoc. 6, super illud: <quote xml:id="ta-l4d45q3-Qd1e314">usquequo
+              domine</quote> etc., dicit Glossa: <quote xml:id="ta-l4d45q3-Qd1e317">desiderant majus gaudium et consortium
+              sanctorum, et justitiae Dei consentiunt</quote>.</p>
+          <p xml:id="ta-l4d45q3-d1e321">Ad secundum dicendum, quod dominus loquitur ibi de Moyse et Samuele secundum statum quo
+            fuerunt in hac vita; ipsi enim leguntur pro populo orantes irae Dei restitisse, ut
+            Glossa interlinearis dicit; et tamen si illo tempore fuissent, non potuissent
+            orationibus Deum placare ad populum propter populi illius malitiam; et hic est
+            intellectus litterae.</p>
+          <p xml:id="ta-l4d45q3-d1e324">Ad tertium dicendum, quod pugna bonorum Angelorum non intelligitur ex hoc quod apud
+            Deum contrarias orationes funderent; sed quia contraria merita ex diversis partibus ad
+            divinum examen referebant, divinam sententiam expectantes; et hoc est quod Gregorius
+            dicit 17 Moral., exponens praedicta verba Danielis: <quote xml:id="ta-l4d45q3-Qd1e326">sublimes spiritus gentibus
+              principantes nequaquam pro injuste agentibus decertant, si eorum facta recte
+              judicantes examinant; cumque uniuscujusque gentis vel culpa vel justitia ad supernae
+              curiae solium ducitur, ejusdem gentis praepositus vel obtinuisse in certamine, vel non
+              obtinuisse perhibetur; quorum tamen omnium una victoria est super se opificis voluntas
+              summa; quam dum semper aspiciunt, quod obtinere non valent, nequaquam volunt</quote>;
+            unde nec petunt. Ex quo et patet quod orationes eorum semper audiuntur.</p>
+          <p xml:id="ta-l4d45q3-d1e330">Ad quartum dicendum, quod licet sancti non sint in statu merendi sibi postquam sunt in
+            patria, sunt tamen in statu merendi aliis, vel potius ex merito praecedenti alios
+            juvandi: hoc enim apud Deum viventes meruerunt, ut eorum orationes exaudirentur post
+            mortem. Vel dicendum, quod oratio ex alio meretur, et ex alio impetrat. Meritum enim
+            consistit in quadam adaequatione actus ad finem propter quem est, qui ei quasi merces
+            redditur; sed orationis impetratio innititur liberalitati ejus qui rogatur, quod tamen
+            ipse non meruit: et ita quamvis sancti non sint in statu merendi, tamen non sequitur,
+            quod non sint in statu impetrandi.</p>
+          <p xml:id="ta-l4d45q3-d1e333">Ad quintum dicendum, quod sicut ex auctoritate Gregorii inducta patet, sancti non
+            volunt, vel Angeli, nisi quod in divina voluntate conspiciunt; et ita etiam nihil aliud
+            petunt: nec tamen eorum oratio est infructuosa: quia, sicut dicit Augustinus in Lib. de
+            praedestinatione sanctorum, orationes sanctorum praedestinatis prosunt, quia forte
+            praeordinatum est ut orationibus intercedentium salventur; et ita etiam Deus vult ut
+            orationibus sanctorum impleatur illud quod sancti vident eum velle.</p>
+          <p xml:id="ta-l4d45q3-d1e337">Ad sextum dicendum, quod suffragia Ecclesiae sunt pro defunctis quasi quaedam
+            satisfactiones viventium vice mortuorum; et secundum hoc mortuos a poena absolvunt, quam
+            non solverunt. Sed sancti qui sunt in patria, non sunt in statu satisfaciendi; et ideo
+            non est simile de eorum orationibus, et de suffragiis Ecclesiae.</p>
+        </div>
+        <div xml:id="ta-l4d45q3-Dd1e342">
+          <head xml:id="ta-l4d45q3-Hd1e344">Expositio textus</head>
+          <p xml:id="ta-l4d45q3-d1e347"><quote xml:id="ta-l4d45q3-Qd1e348">Cum facta fuerit resurrectio, bonorum gaudium amplius erit</quote> et cetera.
+            Hoc intelligendum est materialiter, quia de pluribus gaudebunt; sed non formaliter, quia
+            non magis gaudebunt, ut dictum est. Sed de hoc magis infra dicetur, dist. 49. <quote xml:id="ta-l4d45q3-Qd1e351">Nam
+              qui sine fide operante per dilectionem, ejusque sacramentis, de corpore exierunt,
+              frustra illis a suis hujusmodi pietatis officia impenduntur</quote>. Secundum hoc
+            videtur quod suffragia Ecclesiae non prosunt catechumenis in fide Ecclesiae
+            decedentibus; cum tamen illi sint in statu salutis, ut patet ex dictis supra, dist. 4.
+            Et dicendum, quod licet non susceperint sacramenta Ecclesiae actu, susceperunt tamen
+            voto, quod pro facto computatur, cum deest facultas. <quote xml:id="ta-l4d45q3-Qd1e354">Mediocriter malis
+              suffragantur</quote> et cetera. Ista verba a diversis diversimode exponuntur. Illi
+            enim qui dicunt suffragia Ecclesiae prodesse existentibus in Inferno, dicunt alios esse
+            mediocriter bonos, et alios mediocriter malos. Dicunt enim valde malos esse eos qui sine
+            fide et sacramentis Ecclesiae decesserunt; et his dicunt nihil prodesse suffragia: sed
+            mediocriter malos eos qui cum fide et sacramentis Ecclesiae, in peccato tamen mortali,
+            decesserunt; quibus, secundum eos, valent suffragia ad poenae mitigationem, non autem ad
+            poenae solutionem. Sed valde bonos dicunt illos qui sine criminali decedentes, statim
+            evolant; qui suffragiis non indigent: mediocriter vero bonos qui cremabilia secum
+            ferunt, et in Purgatorio detinentur; et his dicunt prodesse suffragia ad plenam
+            absolutionem. Qui vero dicunt suffragia non prodesse his qui sunt in Inferno, dicunt
+            eosdem esse mediocriter malos et mediocriter bonos. Omnes enim qui sunt in Inferno valde
+            malos dicunt; qui vero in patria valde bonos; eos vero qui sunt in Purgatorio dicunt
+            mediocriter bonos, inquantum deficiunt a perfectione bonitatis; sed et mediocriter
+            malos, inquantum deficiunt a perfecta malitia, quae est peccatum mortale. His autem
+            suffragia quandoque prosunt ad mitigationem poenae, quandoque ad plenam absolutionem,
+            secundum differentiam quantitatis cremabilium et suffragiorum; et haec expositio est
+            convenientior. <quote xml:id="ta-l4d45q3-Qd1e357">Injuria est pro martyre in Ecclesia orare</quote>. Hoc videtur
+            contra illud quod supra dictum est, quod orationes pro valde bonis sunt gratiarum
+            actiones. Et dicendum, quod superior auctoritas loquitur, quando incertum est nobis,
+            quando sint valde boni, pro quibus oratur; hic autem Augustinus loquitur, quando certum
+            est qui sunt valde boni: sic enim qui pro eis orat, quodammodo eos indigentes ostendit,
+            et sic eis injuriam facit. <quote xml:id="ta-l4d45q3-Qd1e360">Aestimo eum quasi per ignem transeuntem</quote> et
+            cetera. Hic ponuntur duo auxilia: quorum unum adjuvabit illos qui in fine mundi
+            invenientur per modum satisfactionis, scilicet ignis quo facies mundi purgabitur:
+            poterit enim esse ut intensio poenae suppleat quidquid deest ad temporis brevitatem; et
+            praecipue cum sit probabile quod pauca cremabilia sint habituri, utpote purgati per
+            terrorem futuri judicii ex signis praecedentibus praeostensi. Aliud autem est ex vi
+            caritatis, scilicet merita et intercessiones sanctorum, quae eis suffragantur virtute
+            caritatis. <quote xml:id="ta-l4d45q3-Qd1e363">Sive consulendo quid faciat</quote> et cetera. Istud consilium nihil
+            est aliud quam conversio eorum ad Deum, ut ab eo illuminationem percipiant de
+            agendis.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

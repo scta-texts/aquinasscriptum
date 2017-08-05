@@ -1,0 +1,766 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 50, Quaestio 2</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Librum IV, Distinctio 50, Quaestio 2</title>
+          <date when="2016-03-19">March 19, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-19">March 19, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness>1856 editum</witness>
+          <witness xml:id="G" n="ghent567">Ghent, Belgium, Ghent University Library, 567</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="0.0.0-dev">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+
+
+
+
+      <div xml:id="starts-on">
+        <cb ed="#G" n="771a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ta-l4d50q2">
+        <head xml:id="ta-l4d50q2-Hd1e97">Librum IV, Distinctio 50, Quaestio 2</head>
+        <div xml:id="ta-l4d50q2-Dd1e100">
+          <head xml:id="ta-l4d50q2-Hd1e102">Prooemium</head>
+          <p xml:id="ta-l4d50q2-d1e105">Deinde quaeritur de poenis damnatorum; et circa hoc quaeruntur quatuor: 1 de poenis
+            eorum quantum ad affectum eorum; 2 quantum ad intellectum; 3 quantum ad corpus; 4 de
+            poenis eorum per comparationem ad beatorum intuitum.</p>
+        </div>
+        <div xml:id="ta-l4d50q2-Dd1e109" type="articulus">
+          <head xml:id="ta-l4d50q2-Hd1e111">Articulus 1</head>
+
+          <head xml:id="ta-l4d50q2-Hd1e114" type="questionTitle">Utrum omnis voluntas damnatorum sit mala</head>
+          <div xml:id="ta-l4d50q2-Dd1e117">
+            <head xml:id="ta-l4d50q2-Hd1e119">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d50q2-d1e122">Ad primum sic proceditur. Videtur quod non omnis voluntas damnatorum sit mala. Quia,
+              ut dicit Dionysius, 4 cap. de Divin. Nomin., Daemones bonum et optimum concupiscunt,
+              esse, vivere et intelligere. Cum ergo damnati homines non sint pejoris conditionis
+              quam Daemones, videtur quod et ipsi bonam voluntatem habere possint.</p>
+            <p xml:id="ta-l4d50q2-d1e125">Praeterea, malum, ut dicit Dionysius, est omnino involuntarium. Ergo si damnati
+              aliquid volunt, illud volunt inquantum bonum, vel apparens bonum. Sed voluntas quae
+              per se ordinatur ad bonum, est bona. Ergo damnati possunt habere voluntatem bonam.</p>
+            <p xml:id="ta-l4d50q2-d1e128">Praeterea, aliqui erunt damnati qui in hoc mundo existentes aliquos virtutum habitus
+              secum detulerunt, utpote gentiles, qui habent virtutes politicas. Sed ex habitibus
+              virtutum elicitur laudabilis voluntatis actus. Ergo in aliquibus damnatis poterit esse
+              laudabilis voluntas.</p>
+            <p xml:id="ta-l4d50q2-d1e131">Sed contra, obstinata voluntas nunquam potest flecti nisi in malum. Sed damnati
+              homines erunt obstinati, sicut et Daemones. Ergo voluntas eorum nunquam poterit esse
+              bona.</p>
+            <p xml:id="ta-l4d50q2-d1e135">Praeterea, sicut se habet voluntas beatorum ad bonum, ita se habet voluntas
+              damnatorum ad malum. Sed beati nunquam habent voluntatem malam. Ergo nec damnati
+              habent aliquam voluntatem bonam.</p>
+          </div>
+          <div xml:id="ta-l4d50q2-Dd1e139">
+            <head xml:id="ta-l4d50q2-Hd1e141">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d50q2-d1e144">Ulterius. Videtur quod damnati nunquam poeniteant de malis quae fecerunt. Quia dicit
+              Bernardus in Cantic., quod damnatus semper vult iniquitatem quam fecit. Ergo nunquam
+              de peccato commisso poenitet.</p>
+            <p xml:id="ta-l4d50q2-d1e147">Praeterea, velle se non peccasse, est bona voluntas. Sed damnati non habebunt bonam
+              voluntatem. Ergo damnati nunquam volent se non peccasse; et sic idem quod prius.</p>
+            <p xml:id="ta-l4d50q2-d1e150">Praeterea, secundum Damascenum, hoc est hominibus mors quod Angelis casus. Sed Angeli
+              voluntas post casum est invertibilis hoc modo, ut non possit recedere ab electione qua
+              prius peccavit. Ergo et damnati non possunt poenitere de peccatis a se commissis.</p>
+            <p xml:id="ta-l4d50q2-d1e153">Praeterea, major erit perversitas damnatorum in Inferno quam peccatorum in hoc mundo.
+              Sed peccatores aliqui in hoc mundo non poenitent de peccatis commissis, vel propter
+              excaecationem mentis, sicut haeretici; vel propter obstinationem, sicut <quote xml:id="ta-l4d50q2-Qd1e155">qui
+                laetantur cum male fecerint, et exultant in rebus pessimis</quote>, ut dicitur
+              Proverb. 2, 14. Ergo et damnati in Inferno de peccatis non poenitebunt.</p>
+            <p xml:id="ta-l4d50q2-d1e160">Sed contra, Sap. 5, 3, dicitur de damnatis: <quote xml:id="ta-l4d50q2-Qd1e162">intra se poenitentiam
+                agentes</quote>.</p>
+            <p xml:id="ta-l4d50q2-d1e166">Praeterea, philosophus dicit in 9 Ethic. quod poenitudine replentur pravi; mox enim
+              tristantur de hoc quod prius delectati sunt. Ergo damnati, cum sint maxime pravi,
+              magis poenitent.</p>
+          </div>
+          <div xml:id="ta-l4d50q2-Dd1e170">
+            <head xml:id="ta-l4d50q2-Hd1e172">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d50q2-d1e175">Ulterius. Videtur quod damnati recta ratione et deliberativa non possint velle se non
+              esse. Augustinus enim dicit in Lib. de Lib. Arbit.: <quote xml:id="ta-l4d50q2-Qd1e177">considera quantum bonum est
+                esse, quod et beati et miseri volunt. Majus enim est esse, et esse miserum, quam
+                omnino non esse</quote>.</p>
+            <p xml:id="ta-l4d50q2-d1e181">Praeterea, Augustinus ibidem sic arguit. Praelectio supponit electionem. Sed non esse
+              non est eligibile, cum non habeat apparentiam boni, cum nihil sit. Ergo non esse non
+              potest esse magis appetibile damnatis quam esse.</p>
+            <p xml:id="ta-l4d50q2-d1e184">Praeterea, magis malum est magis fugiendum. Sed non esse est maximum malum, cum
+              tollat totaliter bonum, eo quod nihil relinquit. Ergo non esse est magis fugiendum
+              quam miserum esse; et sic idem quod prius.</p>
+            <p xml:id="ta-l4d50q2-d1e187">Sed contra est quod dicitur Apocalyps. 9, 6: <quote xml:id="ta-l4d50q2-Qd1e189">in diebus illis desiderabunt
+                homines mori, et fugiet mors ab eis</quote>.</p>
+            <p xml:id="ta-l4d50q2-d1e194">Praeterea, damnatorum miseria omnem hujus mundi miseriam excedit. Sed ad vitandam
+              miseriam hujus mundi appetibile est aliquibus mori; unde dicitur Eccli. 41, 3:
+                <quote xml:id="ta-l4d50q2-Qd1e196">o mors, quam bonum est judicium tuum homini indigenti, et qui minoratur
+                viribus, deficit aetate, et cui de omnibus cura est, et incredibili, qui perdit
+                sapientiam</quote>. Ergo multo fortius est damnatis appetibile non esse secundum
+              rationem deliberatam.</p>
+          </div>
+          <div xml:id="ta-l4d50q2-Dd1e202">
+            <head xml:id="ta-l4d50q2-Hd1e204">Quaestiuncula 4</head>
+            <p xml:id="ta-l4d50q2-d1e207">Ulterius. Videtur quod damnati in Inferno non vellent esse aliquos damnatos qui non
+              sunt damnati. Quia Luc. 16, dicitur de divite, quod rogabat pro fratribus suis, ne
+              venirent in locum tormentorum. Ergo eadem ratione et damnati alii non vellent ad minus
+              carnales suos amicos in Inferno damnari.</p>
+            <p xml:id="ta-l4d50q2-d1e210">Praeterea, affectiones inordinatae a damnatis non auferuntur. Sed aliqui damnati
+              inordinate aliquos non damnatos dilexerunt. Ergo non vellent eorum malum, quod est
+              esse damnatos.</p>
+            <p xml:id="ta-l4d50q2-d1e213">Praeterea, damnati non desiderant augmentum suae poenae. Sed si plures damnarentur,
+              major esset damnatorum poena; sicut etiam multiplicatio bonorum amplificat eorum
+              gaudium. Ergo damnati non vellent salvatos damnari.</p>
+            <p xml:id="ta-l4d50q2-d1e216">Sed contra est quod Isai. 14, super illud, <quote xml:id="ta-l4d50q2-Qd1e218">surrexerant de soliis</quote>,
+              dicit Glossa: <quote xml:id="ta-l4d50q2-Qd1e221">solatium est malorum multos socios habere poenarum</quote>.</p>
+            <p xml:id="ta-l4d50q2-d1e226">Praeterea, in damnatis maxime regnat invidia. Ergo dolent de felicitate bonorum, et
+              eorum damnationem appetunt.</p>
+          </div>
+          <div xml:id="ta-l4d50q2-Dd1e230">
+            <head xml:id="ta-l4d50q2-Hd1e232">Quaestiuncula 5</head>
+            <p xml:id="ta-l4d50q2-d1e235">Ulterius. Videtur quod damnati non habeant odio Deum. Quia, ut dicit Dionysius, 4
+              capit. de divinis Nomin., omnibus diligibile est bonum et pulchrum, quod est omnis
+              boni et pulchritudinis causa. Hoc autem Deus est. Ergo a nullo potest odio haberi.</p>
+            <p xml:id="ta-l4d50q2-d1e238">Praeterea, nullus potest ipsam bonitatem odio habere, sicut nec ipsam malitiam velle;
+              malum enim est omnino involuntarium, ut dicit Dionysius, 4 cap. de Divin. Nom. Deus
+              autem est bonitas ipsa. Ergo nullus potest Deum odio habere.</p>
+            <p xml:id="ta-l4d50q2-d1e241">Sed contra est quod dicitur in Psalm. 73, 23: <quote xml:id="ta-l4d50q2-Qd1e243">superbia eorum qui te oderunt,
+                ascendit semper</quote>.</p>
+          </div>
+          <div xml:id="ta-l4d50q2-Dd1e248">
+            <head xml:id="ta-l4d50q2-Hd1e250">Quaestiuncula 6</head>
+            <p xml:id="ta-l4d50q2-d1e253">Ulterius. Videtur quod damnati demereantur. Damnati enim habent voluntatem malam, ut
+              dicitur in littera. Sed per malam voluntatem quam hic habuerunt, demeruerunt. Ergo si
+              ibi non demerentur, ex sua damnatione commodum reportant.</p>
+            <p xml:id="ta-l4d50q2-d1e256">Praeterea, damnati sunt ejusdem conditionis cum Daemonibus. Sed Daemones demerentur
+              post suum casum; unde serpenti, qui hominem ad peccandum induxit, est a Deo poena
+              inflicta, ut dicitur Genes. 3. Ergo et damnati demerentur.</p>
+            <p xml:id="ta-l4d50q2-d1e259">Praeterea, actus inordinatus ex libertate arbitrii procedens non excusatur quin sit
+              demeritorius, etiam si aliqua necessitas adsit, cujus aliquis sit sibi causa; ebrius
+              enim meretur duplices mulctationes, si ex ebrietate aliquod aliud peccatum committat,
+              ut dicitur in 3 Ethic. Sed ipsi damnati fuerunt sibi causa propriae obstinationis, per
+              quam quamdam necessitatem patiuntur peccandi. Ergo cum eorum actus inordinatus ex
+              libero arbitrio procedat, non excusatur a demerito.</p>
+            <p xml:id="ta-l4d50q2-d1e262">Sed contra, poena contra culpam dividitur. Sed perversa voluntas in damnatis ex
+              obstinatione procedit, quae est eorum poena. Ergo perversa voluntas in damnatis non
+              est culpa, ut per eam demereantur.</p>
+            <p xml:id="ta-l4d50q2-d1e266">Praeterea, post ultimum terminum non relinquitur aliquis motus sive profectus in
+              bonum sive in malum. Sed damnati, maxime post diem judicii, ad ultimum terminum suae
+              damnationis pervenient; quia tunc finem habebunt duae civitates, ut Augustinus dicit.
+              Ergo damnati post diem judicii perversa voluntate non demerebuntur; quia sic cresceret
+              eorum damnatio.</p>
+          </div>
+          <div xml:id="ta-l4d50q2-Dd1e270">
+            <head xml:id="ta-l4d50q2-Hd1e272">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d50q2-d1e275">Respondeo dicendum ad primam quaestionem, quod in damnatis potest duplex voluntas
+              considerari; scilicet voluntas deliberativa, et voluntas naturalis. Naturalis quidem
+              non est eis ex ipsis, sed ex auctore naturae, qui in natura hanc inclinationem posuit,
+              quae naturalis voluntas dicitur: unde cum natura in eis remaneat, secundum hoc bona
+              poterit in eis esse voluntas naturalis. Sed voluntas deliberativa est eis ex seipsis
+              secundum quod in potestate eorum est inclinari per affectum ad hoc vel illud; et talis
+              voluntas in eis est solum mala; et hoc ideo, quia sunt perfecte aversi a fine ultimo
+              rectae voluntatis; nec aliqua voluntas potest esse bona nisi per ordinem ad finem
+              praedictum; unde etiam si aliquod bonum velint, non tamen bene bonum volunt illud, ut
+              ex hoc voluntas eorum bona dici possit.</p>
+            <p xml:id="ta-l4d50q2-d1e278">Ad primum ergo dicendum, quod verbum Dionysii intelligitur de voluntate naturali quae
+              est inclinatio naturae in aliquod bonum; sed tamen ista naturalis inclinatio per eorum
+              malitiam corrumpitur, inquantum hoc bonum quod naturaliter desiderant, sub quibusdam
+              malis circumstantiis appetunt.</p>
+            <p xml:id="ta-l4d50q2-d1e281">Ad secundum dicendum, quod malum in quantum est malum non movet voluntatem, sed
+              inquantum est aestimatum bonum; sed hoc ex eorum malitia procedit, ut id quod est
+              malum, aestiment ut bonum; et ideo voluntas eorum est mala.</p>
+            <p xml:id="ta-l4d50q2-d1e284">Ad tertium dicendum, quod habitus virtutum politicarum non remanent in anima
+              separata, eo quod virtutes illae perficiunt solum in vita civili, quae non erunt post
+              hanc vitam; si tamen remanerent, nunquam in actum exirent, quasi ligatae ex
+              obstinatione mentis.</p>
+          </div>
+          <div xml:id="ta-l4d50q2-Dd1e288">
+            <head xml:id="ta-l4d50q2-Hd1e290">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d50q2-d1e293">Ad secundam quaestionem dicendum, quod poenitere de peccato est dupliciter. Uno modo
+              per se, et alio modo per accidens. Per se quidem de peccato poenitet qui peccatum in
+              eo quod est peccatum abominatur; per accidens vero qui illud odit ratione alicujus
+              adjuncti, utpote poenae, vel alicujus hujusmodi. Mali igitur non poenitebunt per se
+              loquendo, de peccatis, quia voluntas malitiae peccati in eis remanet; poenitebunt
+              autem per accidens, inquantum affligentur de poena quam pro peccato sustinent.</p>
+            <p xml:id="ta-l4d50q2-d1e296">Ad primum ergo dicendum, quod damnati iniquitatem volunt, sed poenam refugiunt; et
+              sic per accidens de iniquitate commissa poenitent.</p>
+            <p xml:id="ta-l4d50q2-d1e299">Ad secundum dicendum, quod velle se non peccasse propter turpitudinem iniquitatis,
+              est bona voluntas; sed hoc non erit in damnatis.</p>
+            <p xml:id="ta-l4d50q2-d1e302">Ad tertium dicendum, quod sine aliqua aversione voluntatis continget quod damnati de
+              peccatis poeniteant; quia non hoc refugient in peccatis quod prius appetiverunt, sed
+              aliquid aliud, scilicet poenam.</p>
+            <p xml:id="ta-l4d50q2-d1e306">Ad quartum dicendum, quod homines in hoc mundo, quantumcumque obstinati, per accidens
+              de peccatis suis poenitent, si pro eis puniantur; quia hoc dicit Augustinus in Lib. 83
+              qq.: <quote xml:id="ta-l4d50q2-Qd1e308">videmus etiam ferocissimas bestias dolore poenarum a maximis voluptatibus
+                abstinere</quote>.</p>
+          </div>
+          <div xml:id="ta-l4d50q2-Dd1e313">
+            <head xml:id="ta-l4d50q2-Hd1e315">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d50q2-d1e318">Ad tertiam quaestionem dicendum, quod non esse dupliciter potest considerari. Uno
+              modo secundum se: et sic nullo modo potest esse appetibile, cum non habeat aliquam
+              rationem boni, sed sit pura boni privatio. Alio modo potest considerari inquantum est
+              ablativum poenalis vel miserae vitae; et sic non esse accipit rationem boni. Carere
+              enim malo est quoddam bonum, ut dicit philosophus in 5 Ethic.; et per hunc modum
+              melius est damnatis non esse quam miseros esse. Unde Matth. 26, 24, dicitur:
+                <quote xml:id="ta-l4d50q2-Qd1e320" ana="#mt26_24">bonum erat ei, si natus non fuisset homo ille</quote>; et Hier. 20, super
+              illud, <quote xml:id="ta-l4d50q2-Qd1e323">maledicta dies in qua natus sum</quote> etc. dicit Glossa, Hieronymi,
+              ibi: <quote xml:id="ta-l4d50q2-Qd1e326">melius est non esse quam male esse</quote>. Et secundum hoc damnati
+              possunt praeligere non esse, secundum deliberativam rationem.</p>
+            <p xml:id="ta-l4d50q2-d1e330">Ad primum ergo dicendum, quod verbum Augustini est intelligendum, quod non esse per
+              se non est eligibile; sed per accidens eligibile est, inquantum scilicet est miseriae
+              terminativum. Quod enim dicitur, quod esse et vivere ab omnibus appetitur naturaliter,
+              non oportet hoc accipere quantum ad malam vitam et corruptam, et eam quae est in
+              tristitiis, ut dicit philosophus in 9 Ethic.</p>
+            <p xml:id="ta-l4d50q2-d1e333">Ad secundum dicendum, quod non esse non est eligibile per se, sed per accidens
+              tantum, ut dictum est.</p>
+            <p xml:id="ta-l4d50q2-d1e336">Ad tertium dicendum, quod non esse, licet maxime sit malum inquantum privat esse,
+              tamen est valde bonum inquantum privat miseriam, quae est maximum malorum; et sic non
+              esse eligitur.</p>
+          </div>
+          <div xml:id="ta-l4d50q2-Dd1e341">
+            <head xml:id="ta-l4d50q2-Hd1e343">Quaestiuncula 4</head>
+            <p xml:id="ta-l4d50q2-d1e346">Ad quartam quaestionem dicendum, quod sicut in beatis in patria erit perfectissima
+              caritas, ita in damnatis erit perfectissimum odium; unde sicut sancti gaudebunt de
+              omnibus bonis, ita etiam mali de omnibus bonis dolebunt; unde et felicitas sanctorum
+              considerata eos maxime affligit; unde dicitur Isai. 26, 11: <quote xml:id="ta-l4d50q2-Qd1e348">videant et
+                confundantur zelantes populi, et ignis hostes tuos devoret</quote>. Unde vellent
+              omnes bonos esse damnatos.</p>
+            <p xml:id="ta-l4d50q2-d1e352">Ad primum ergo dicendum, quod tanta erit invidia in damnatis, quod etiam propinquorum
+              gloriae invidebunt, cum ipsi sint in summa miseria; cum etiam in hac vita hoc accidat
+              crescente invidia. Sed tamen minus invident propinquis quam aliis; et major esset
+              eorum poena, si omnes propinqui damnarentur, et alii salvarentur, quam si aliqui de
+              suis propinquis salvarentur; et exinde fuit quod dives petiit fratres suos a
+              damnatione eripi; sciebat enim quod aliqui eriperentur; maluisset tamen fratres suos
+              cum omnibus aliis damnari.</p>
+            <p xml:id="ta-l4d50q2-d1e355">Ad secundum dicendum, quod dilectio quae non fundatur super honestum, facile
+              rescinditur, et praecipue in malis hominibus, ut philosophus dicit in 9 Ethic.: unde
+              damnati non conservabunt amicitiam ad eos quos inordinate dilexerunt; sed in hoc
+              voluntas eorum remanebit perversa, quod causam inordinatae dilectionis adhuc
+              diligent.</p>
+            <p xml:id="ta-l4d50q2-d1e358">Ad tertium dicendum, quod quamvis ex damnatorum multitudine poena singulorum
+              augeatur, tamen tantum superexcrescet odium et invidia, quod eligerent torqueri magis
+              cum multis quam minus soli.</p>
+          </div>
+          <div xml:id="ta-l4d50q2-Dd1e362">
+            <head xml:id="ta-l4d50q2-Hd1e364">Quaestiuncula 5</head>
+            <p xml:id="ta-l4d50q2-d1e367">Ad quintam quaestionem dicendum, quod affectus movetur ex bono vel malo apprehenso.
+              Deus autem apprehenditur dupliciter; in se, sicut a beatis, qui eum per essentiam
+              vident; et per effectus, sicut a nobis et damnatis. Ipse igitur in seipso, cum sit per
+              essentiam bonitas, non potest alicui voluntati displicere; unde quicumque eum per
+              essentiam videret, eum odio habere non posset. Sed effectuum ejus aliqui sunt
+              voluntati repugnantes, inquantum contrariantur alicui volito; et secundum hoc aliquis
+              non in seipso, sed ratione effectuum Deum odire potest; unde damnati Deum percipientes
+              in effectu justitiae, qui est poena, eum odio habent, sicut et poenas quas
+              sustinent.</p>
+            <p xml:id="ta-l4d50q2-d1e370">Ad primum ergo dicendum, quod verbum Dionysii est intelligendum de appetitu naturali,
+              qui tamen in damnatis pervertitur per illud quod additur ex deliberata voluntate, ut
+              dictum est.</p>
+            <p xml:id="ta-l4d50q2-d1e373">Ad secundum dicendum, quod ratio illa procederet, si damnati Deum in seipso
+              conspicerent, inquantum est per essentiam bonus.</p>
+          </div>
+          <div xml:id="ta-l4d50q2-Dd1e377">
+            <head xml:id="ta-l4d50q2-Hd1e379">Quaestiuncula 6</head>
+            <p xml:id="ta-l4d50q2-d1e382">Ad sextam quaestionem dicendum, quod de damnatis ante diem judicii et post
+              distinguendum est. Omnes enim communiter confitentur, quod post diem judicii non erit
+              aliquod meritum vel demeritum; et hoc ideo est, quia meritum vel demeritum ordinatur
+              ad aliquod bonum vel malum ulterius consequendum; post diem autem judicii erit ultima
+              consummatio bonorum et malorum, ita quod nihil erit addendum ulterius de bono vel
+              malo. Unde bona voluntas in beatis non erit meritum, sed praemium; et mala voluntas
+              non erit in damnatis demeritum, sed poena tantum. Operationes enim virtutis sunt
+              praecipue in felicitate, et eorum contrariae sunt praecipue in miseria; ut dicitur in
+              1 Ethic. Sed ante diem judicii quidam dicunt et beatos mereri, et damnatos demereri.
+              Sed hoc non potest esse respectu praemii essentialis vel poenae principalis, cum
+              quantum ad hoc utrique ad terminum pervenerint; potest tamen hoc esse respectu praemii
+              accidentalis vel poenae secundariae, quae possunt augeri usque ad diem judicii; et hoc
+              praecipue in Daemonibus vel Angelis bonis, quorum officio aliqui trahuntur ad salutem,
+              ex quo bonorum Angelorum gaudium crescit; vel ad damnationem, ex quo crescit poena
+              Daemonum.</p>
+            <p xml:id="ta-l4d50q2-d1e385">Ad primum igitur dicendum, quod hoc est summum incommodum ad summum malorum
+              pervenisse, ex quo contingit damnatis quod demereri non possunt; unde patet quod ex
+              peccato commodum non reportant.</p>
+            <p xml:id="ta-l4d50q2-d1e388">Ad secundum dicendum, quod ad damnatorum hominum officium non pertinet alios ad
+              damnationem pertrahere, sicut pertinet ad officium Daemonum, ratione cujus demerentur
+              quantum ad secundariam poenam.</p>
+            <p xml:id="ta-l4d50q2-d1e391">Ad tertium dicendum, quod non propter hoc excusantur a demerito quia necessitatem
+              peccandi habeant, sed quia ad summum malorum pervenerunt. Tamen necessitas peccandi
+              cujus causa sumus, excusat a culpa, inquantum est necessitas quaedam, quia omne
+              peccatum oportet esse voluntarium: sed quod non excuset, hoc est inquantum a voluntate
+              praecedente processit; et sic totum demeritum sequentis culpae videtur ad primam
+              culpam pertinere.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d50q2-Dd1e396" type="articulus">
+          <head xml:id="ta-l4d50q2-Hd1e398">Articulus 2</head>
+
+          <head xml:id="ta-l4d50q2-Hd1e401" type="questionTitle">Utrum damnati possint uti notitia quam in hoc mundo
+            habuerunt</head>
+
+          <div xml:id="ta-l4d50q2-Dd1e404">
+            <head xml:id="ta-l4d50q2-Hd1e406">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d50q2-d1e409">Ad secundum sic proceditur. Videtur quod damnati non possint uti notitia quam in hoc
+              mundo habuerunt. In consideratione enim scientiae est maxima delectatio. Sed in eis
+              nullam delectationem est ponere. Ergo non possunt uti scientia prius habita secundum
+              aliquam considerationem.</p>
+            <p xml:id="ta-l4d50q2-d1e412">Praeterea, damnati sunt in majoribus poenis quam sint aliquae poenae hujus mundi. Sed
+              in hoc mundo dum aliquis est in maximis tormentis constitutus, non potest considerare
+              aliquas intelligibiles conclusiones, abstractus a poenis quas patitur. Ergo multo
+              minus in Inferno.</p>
+            <p xml:id="ta-l4d50q2-d1e415">Praeterea, damnati sunt subjecti tempori. Sed longitudo temporis est causa
+              oblivionis, ut dicitur in 4 Physic. Ergo damnati obliviscentur eorum quae hic
+              sciverunt.</p>
+            <p xml:id="ta-l4d50q2-d1e418">Sed contra est quod dicitur Lucae 16, 25, diviti damnato: <quote xml:id="ta-l4d50q2-Qd1e420">recordare quia
+                recepisti bona in vita tua</quote>. Ergo considerabunt ea quae hic sciverunt.</p>
+            <p xml:id="ta-l4d50q2-d1e425">Praeterea, species intelligibiles in anima separata remanent, ut supra dictum est. Si
+              igitur eis non uti possent, frustra remanerent in eis.</p>
+          </div>
+          <div xml:id="ta-l4d50q2-Dd1e429">
+            <head xml:id="ta-l4d50q2-Hd1e431">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d50q2-d1e434">Ulterius. Videtur quod cogitabunt aliquando de Deo. Quia non potest haberi odio actu
+              nisi illud de quo cogitatur. Sed damnati Deum odio habebunt, ut in littera dicitur.
+              Ergo de Deo aliquando cogitabunt.</p>
+            <p xml:id="ta-l4d50q2-d1e437">Praeterea, damnati habebunt remorsum conscientiae. Sed conscientia patitur remorsum
+              de actis contra Deum. Ergo de Deo aliquando cogitabunt.</p>
+            <p xml:id="ta-l4d50q2-d1e440">Sed contra, perfectissima cogitatio hominis est quae cogitat de Deo. Sed damnati
+              erunt in statu imperfectissimo. Ergo de Deo non cogitabunt.</p>
+          </div>
+          <div xml:id="ta-l4d50q2-Dd1e444">
+            <head xml:id="ta-l4d50q2-Hd1e446">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d50q2-d1e449">Ulterius. Videtur quod damnati gloriam beatorum non videant. Magis enim ab eis distat
+              gloria beatorum quam ea quae in hoc mundo aguntur. Sed ipsi non vident quae circa nos
+              aguntur; unde dicit Gregorius 12 Moral. super illud Job 14: <quote xml:id="ta-l4d50q2-Qd1e451">sive fuerint
+                nobiles filii ejus</quote> etc.: <quote xml:id="ta-l4d50q2-Qd1e454">sicut hi qui adhuc vivi sunt, mortuorum
+                animae quo loco habeantur, ignorant; ita mortui qui carnaliter vixerunt, vitam in
+                carne positorum, qualiter post eos disponatur, ignorant</quote>. Ergo multo minus
+              possunt videre gloriam beatorum.</p>
+            <p xml:id="ta-l4d50q2-d1e458">Praeterea, illud quod conceditur sanctis in hac vita pro magno munere, nunquam
+              conceditur damnatis. Sed Paulo pro magno munere fuit concessum ut videret illam vitam
+              qua sancti aeternaliter cum Deo vivunt, ut dicitur Corinth. 12, in Glossa. Ergo
+              damnati sanctorum gloriam non videbunt.</p>
+            <p xml:id="ta-l4d50q2-d1e461">Sed contra est quod dicitur Lucae 16, quod dives in tormentis positus vidit Abraham
+              et Lazarum in sinu ejus.</p>
+          </div>
+          <div xml:id="ta-l4d50q2-Dd1e466">
+            <head xml:id="ta-l4d50q2-Hd1e468">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d50q2-d1e471">Respondeo dicendum ad primam quaestionem, quod sicut propter perfectam sanctorum
+              beatitudinem nihil erit in eis quod non sit gaudii materia, ita nihil erit in damnatis
+              quod non sit eis materia et causa tristitiae; nec aliquid quod ad tristitiam pertinere
+              possit, deerit, ut sit eorum miseria consummata. Consideratio ergo aliquorum notorum
+              quantum ad aliquid inducit gaudium, vel ex parte cognoscibilium, inquantum diliguntur,
+              vel ex parte ipsius cognitionis, inquantum est conveniens et perfecta. Potest etiam
+              tristitiae esse ratio et ex parte cognoscibilium quae nata sunt contristare, et ex
+              parte ipsius cognitionis, prout ejus imperfectio consideratur; utpote cum aliquis
+              considerat se deficere in cognitione alicujus rei, cujus perfectionem appeteret. Sic
+              ergo in damnatis erit actualis consideratio eorum quae prius sciverunt, ut materia
+              tristitiae, non autem ut delectationis causa. Considerabunt enim et mala quae
+              gesserunt, ex quibus damnati sunt, et bona dilecta quae amiserunt; et ex utroque
+              torquebuntur. Similiter etiam torquebuntur de hoc quod considerabunt notitiam quam de
+              rebus speculabilibus habuerunt, imperfectam esse, et amisisse summam perfectionem ejus
+              quam potuerant adipisci.</p>
+            <p xml:id="ta-l4d50q2-d1e474">Ad primum ergo dicendum, quod quamvis consideratio scientiae per se sit delectabilis,
+              tamen ex aliquo accidente potest esse tristitiae causa, ut dictum est, et sic erit in
+              damnatis.</p>
+            <p xml:id="ta-l4d50q2-d1e477">Ad secundum dicendum, quod in hoc mundo anima conjungitur corruptibili corpori; unde
+              per hoc quod corpus affligitur, consideratio animae impeditur: sed in futuro anima non
+              ita trahetur ex corpore; sed quantumcumque corpus affligatur, tamen anima semper
+              considerabit lucidissime illa quae ei possunt esse causa moeroris.</p>
+            <p xml:id="ta-l4d50q2-d1e480">Ad tertium dicendum, quod tempus est causa oblivionis per accidens, inquantum motus,
+              cujus est mensura, est causa transmutationis; sed post diem judicii non erit motus
+              caeli, unde nec oblivio esse poterit ex quantacumque diuturnitate; sed ante diem
+              judicii anima separata non mutatur a sua dispositione per motum.</p>
+          </div>
+          <div xml:id="ta-l4d50q2-Dd1e484">
+            <head xml:id="ta-l4d50q2-Hd1e486">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d50q2-d1e489">Ad secundam quaestionem dicendum, quod Deus potest considerari dupliciter. Uno modo
+              secundum se, et secundum illud quod est ei proprium, scilicet esse totius bonitatis
+              principium; et sic nullo modo a damnatis cogitabitur. Alio modo secundum aliquid quod
+              est ei quasi accidentale in effectibus suis, utpote punire, vel aliquid hujusmodi; et
+              secundum hoc consideratio de eo potest tristitiam inducere; et hoc modo damnati de eo
+              cogitabunt.</p>
+            <p xml:id="ta-l4d50q2-d1e492">Ad primum ergo dicendum, quod damnati, ut dictum est, non habent odio Deum nisi
+              ratione punitionis et prohibitionis ejus; quod malae voluntati eorum consonat; unde
+              non considerabunt eum nisi ut punitorem et prohibitorem.</p>
+            <p xml:id="ta-l4d50q2-d1e495">Et per hoc patet solutio ad secundum: quia conscientia non remordet de peccato nisi
+              inquantum est divino praecepto contraria.</p>
+          </div>
+          <div xml:id="ta-l4d50q2-Dd1e499">
+            <head xml:id="ta-l4d50q2-Hd1e501">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d50q2-d1e504">Ad tertiam quaestionem dicendum est, sicut in littera dicitur, quod damnati ante diem
+              judicii videbunt beatos in gloria, non hoc modo quod gloria eorum qualis sit
+              cognoscant; sed solum cognoscent eos esse in gloria quadam inaestimabili; et ex hoc
+              turbabuntur, tum propter invidiam, dolentes de felicitate bonorum, tum propter hoc
+              quod talem gloriam amiserunt; unde dicitur Sap. 5, 2, de impiis: <quote xml:id="ta-l4d50q2-Qd1e506">videntes
+                turbabuntur timore horribili</quote>. Sed post diem judicii omnino beatorum visione
+              privabuntur. Nec tamen ex hoc eorum poena minuetur, sed augebitur: quia memoriam
+              habebunt gloriae beatorum quam in judicio viderunt, vel ante judicium; et hoc erit eis
+              in tormentum: sed ulterius affligentur in hoc quod videbunt indignos se reputari etiam
+              videre gloriam quam sancti merentur habere.</p>
+            <p xml:id="ta-l4d50q2-d1e510">Ad primum ergo dicendum, quod ea quae in hac vita aguntur, non ita affligerent
+              damnatos in Inferno si viderentur, sicut sanctorum gloria inspecta; unde non ita
+              ostenduntur damnatis ea quae hic aguntur, sicut sanctorum; quamvis etiam eorum quae
+              hic aguntur ostendantur eis ea quae in eis tristitiam augere possunt.</p>
+            <p xml:id="ta-l4d50q2-d1e513">Ad secundum dicendum, quod Paulus inspexit vitam illam in qua sancti cum Deo vivunt,
+              eam experiendo, et in futurum perfectius sperando; quae ratio non est de damnatis; et
+              ideo non est simile.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d50q2-Dd1e518" type="articulus">
+          <head xml:id="ta-l4d50q2-Hd1e520">Articulus 3</head>
+
+          <head xml:id="ta-l4d50q2-Hd1e523" type="questionTitle">Utrum damnati in Inferno sola poena ignis affligantur</head>
+          <div xml:id="ta-l4d50q2-Dd1e526">
+            <head xml:id="ta-l4d50q2-Hd1e528">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d50q2-d1e531">Ad tertium sic proceditur. Videtur quod damnati in Inferno sola poena ignis
+              affligantur. Quia Matth. 25, 4, ut eorum damnatio exprimatur, fit mentio solum de
+              igne, cum dicitur: <quote xml:id="ta-l4d50q2-Qd1e533" ana="#mt25_4">ite, maledicti, in ignem aeternum</quote>.</p>
+            <p xml:id="ta-l4d50q2-d1e537">Praeterea, sicut poena Purgatorii debetur peccato veniali, ita poena Inferni debetur
+              mortali. Sed in Purgatorio non dicitur esse nisi poena ignis, ut patet per hoc quod
+              dicitur 1 Corinth. 3, 13: <quote xml:id="ta-l4d50q2-Qd1e539" ana="#Icor3_13">uniuscujusque opus quale sit, ignis probabit</quote>.
+              Ergo nec in Inferno erit nisi ignis poena.</p>
+            <p xml:id="ta-l4d50q2-d1e543">Praeterea, poenarum varietas refrigerium praestat, sicut calido cum transfertur ad
+              frigidum. Sed nullum refrigerium est ponere in damnatis. Ergo non erunt diversae
+              poenae, sed sola poena ignis.</p>
+            <p xml:id="ta-l4d50q2-d1e546">Sed contra est quod dicitur in Psalm. 10, 7: <quote xml:id="ta-l4d50q2-Qd1e548">ignis, sulphur, et spiritus
+                procellarum pars calicis eorum</quote>.</p>
+            <p xml:id="ta-l4d50q2-d1e553">Praeterea, Job 24, 19: <quote xml:id="ta-l4d50q2-Qd1e555">transibunt ab aquis nivium ad calorem
+              nimium</quote>.</p>
+          </div>
+          <div xml:id="ta-l4d50q2-Dd1e560">
+            <head xml:id="ta-l4d50q2-Hd1e562">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d50q2-d1e565">Ulterius. Videtur quod vermis quo affliguntur damnati, sit corporalis. Quia caro non
+              potest affligi per vermem spiritualem. Sed caro damnatorum affligetur per vermem.
+              Judith 16, 21: <quote xml:id="ta-l4d50q2-Qd1e567">dabit ignem et vermes in carnes eorum</quote>; et Eccli. 7, 19:
+                <quote xml:id="ta-l4d50q2-Qd1e570">vindicta carnis impii ignis et vermis</quote>. Ergo vermis ille erit
+              corporalis.</p>
+            <p xml:id="ta-l4d50q2-d1e574">Praeterea, Augustinus dicit 21 de Civ. Dei: <quote xml:id="ta-l4d50q2-Qd1e576">utrumque</quote>, idest ignis et
+              vermis, <quote xml:id="ta-l4d50q2-Qd1e579">poena erunt carnis</quote>; et sic idem quod prius.</p>
+            <p xml:id="ta-l4d50q2-d1e583">Sed contra est quod Augustinus dicit, 20 de civitate Dei: <quote xml:id="ta-l4d50q2-Qd1e585">in poenis malorum
+                inextinguibilis ignis et vivacissimus vermis ab aliis aliter atque aliter est
+                expositus. Alii utrumque ad corpus, alii utrumque ad animam retulerunt; alii proprie
+                ad corpus ignem, topice ad animam vermem; quod esse credibilius videtur</quote>.</p>
+          </div>
+          <div xml:id="ta-l4d50q2-Dd1e590">
+            <head xml:id="ta-l4d50q2-Hd1e592">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d50q2-d1e595">Ulterius. Videtur quod fletus qui est in damnatis, erit corporalis. Quia Luc. 13,
+              dicit quaedam Glossa, quod per fletum quem dominus reprobis comminatur, potest probari
+              vera corporum resurrectio; quod non esset, si fletus ille esset tantum spiritualis.
+              Ergo et cetera.</p>
+            <p xml:id="ta-l4d50q2-d1e598">Praeterea, tristitia quae est in poena, respondet delectationi quae fuit in culpa,
+              secundum illud Apocal. 18, 7: <quote xml:id="ta-l4d50q2-Qd1e600">quantum glorificavit se, et in deliciis fuit,
+                tantum date illi tormentum et luctum</quote>. Sed peccatores in culpa habuerunt
+              delectationem et interiorem et exteriorem. Ergo habebunt fletum etiam exteriorem.</p>
+            <p xml:id="ta-l4d50q2-d1e604">Sed contra, fletus corporalis fit per quamdam resolutionem lacrymarum. Sed a
+              corporibus damnatorum non potest fieri perpetua resolutio, cum nihil in eis per cibum
+              restauretur: omne enim finitum consumitur, si aliquid ab eo continue abstrahatur. Ergo
+              in damnatis non erit corporalis fletus.</p>
+          </div>
+          <div xml:id="ta-l4d50q2-Dd1e609">
+            <head xml:id="ta-l4d50q2-Hd1e611">Quaestiuncula 4</head>
+            <p xml:id="ta-l4d50q2-d1e614">Ulterius. Videtur quod damnati non sint in tenebris corporalibus. Quia, ut dicit
+              Gregorius in 9 Lib. Moral., super illud Job 10: <quote xml:id="ta-l4d50q2-Qd1e616">sed sempiternus horror
+                inhabitat, quamvis ignis illic ad consolationem non luceat, tamen ut magis torqueat
+                ad aliquid lucet: nam sequaces quos secum traxerunt de mundo reprobi, flamma
+                illustrante visuri sunt</quote>. Ergo non erunt ibi tenebrae corporales.</p>
+            <p xml:id="ta-l4d50q2-d1e620">Praeterea, damnati vident poenam suam: hoc enim est eis augmentum poenae. Sed nihil
+              videtur sine lumine. Ergo non sunt tenebrae corporales.</p>
+            <p xml:id="ta-l4d50q2-d1e623">Praeterea, damnati habebunt ibi potentiam visivam post corporum resumptionem. Sed
+              frustra esset in eis, nisi viderent aliquid. Ergo cum nihil videatur nisi in lumine,
+              videtur quod non sint omnino in tenebris.</p>
+            <p xml:id="ta-l4d50q2-d1e626">Sed contra est quod dicitur Matth. 22, 13: <quote xml:id="ta-l4d50q2-Qd1e628" ana="#mt22_13">ligatis pedibus et manibus
+                projicite eum in tenebras exteriores</quote>; super quo dicit Gregorius Lib. 9 Mor.:
+                <quote xml:id="ta-l4d50q2-Qd1e631">si ignis ille lucem haberet, in tenebras exteriores nequaquam mitti
+                diceretur</quote>.</p>
+            <p xml:id="ta-l4d50q2-d1e636">Praeterea, Basilius dicit super illud Psalm. 28: <quote xml:id="ta-l4d50q2-Qd1e638">vox domini intercidentis
+                flammam ignis</quote>, quod virtute Dei separabitur claritas ignis ab ejus virtute
+              adustiva: ita quod claritas cedet in gaudium sanctorum, et ustivum ignis in tormentum
+              damnatorum. Ergo damnati habebunt tenebras corporales. Quaedam vero alia quae ad
+              poenam damnatorum pertinent, determinata sunt supra, 44 dist.</p>
+          </div>
+          <div xml:id="ta-l4d50q2-Dd1e643">
+            <head xml:id="ta-l4d50q2-Hd1e645">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d50q2-d1e648">Respondeo dicendum ad primam quaestionem, quod secundum Basilium in ultima mundi
+              purgatione fiet quaedam separatio in elementis; ut quidquid est purgatum et nobile,
+              remaneat superius ad gloriam beatorum; quidquid vero est ignobile et faeculentum, in
+              Inferno projiciatur ad poenam damnatorum; ut sicut omnis creatura Dei est beatis
+              materia gaudii, ita damnatis ex omnibus creaturis tormentum accrescat, secundum illud
+              Sap. 5, 21: <quote xml:id="ta-l4d50q2-Qd1e650">pugnabit cum illo orbis terrarum contra insensatos</quote>. Hoc
+              etiam divinae justitiae competit, ut sicut ab uno recedentes per peccatum, in rebus
+              materialibus (quae sunt multa et vana) finem suum constituerunt; ita etiam
+              multipliciter affligantur, et ex multis.</p>
+            <p xml:id="ta-l4d50q2-d1e654">Ad primum ergo dicendum, quod quia ignis est maxime afflictivus propter hoc quod
+              abundat virtute activa; ideo nomine ignis omnis afflictio designatur ut sit
+              vehemens.</p>
+            <p xml:id="ta-l4d50q2-d1e657">Ad secundum dicendum, quod poena Purgatorii non est principaliter ad affligendum, sed
+              ad purgandum; unde per solum ignem fieri debet, qui habet maximam vim purgativam. Sed
+              damnatorum poena non ordinatur ad purgandum; unde non est simile.</p>
+            <p xml:id="ta-l4d50q2-d1e660">Ad tertium dicendum, quod damnati transibunt ex vehementissimo calore ad
+              vehementissimum frigus, sine hoc quod in eis sit aliquod refrigerium: quia passio ab
+              exterioribus non erit per transmutationem corporis a sua pristina naturali
+              dispositione, ut contraria passio ad aequalitatem vel temperiem reducendo refrigerium
+              causet, sicut accidit nunc; sed erit per actionem spiritualem, secundum quod
+              sensibilia agunt per sensum, prout sentiuntur imprimendo formas illas secundum esse
+              spirituale in organum, et non secundum esse materiale, ut supra, dist. 44, dictum
+              est.</p>
+          </div>
+          <div xml:id="ta-l4d50q2-Dd1e664">
+            <head xml:id="ta-l4d50q2-Hd1e666">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d50q2-d1e669">Ad secundam quaestionem dicendum, quod sicut supra dictum est, dist. 48, post diem
+              judicii in mundo innovato non remanebit aliquod animal vel aliquod corpus mixtum, nisi
+              corpus hominis tantum, eo quod non habeat aliquem ordinem ad corruptionem, nec post
+              illud tempus sit futura generatio et corruptio. Unde vermis qui in damnatis ponitur,
+              non debet intelligi esse materialis, sed spiritualis, qui est conscientiae remorsus:
+              qui dicitur vermis, inquantum oritur ex putredine peccati, et animam affligit, sicut
+              corporalis vermis ex putredine ortus affligit pungendo.</p>
+            <p xml:id="ta-l4d50q2-d1e672">Ad primum ergo dicendum, quod ipsae animae damnatorum dicuntur carnes eorum pro eo
+              quod carni subjectae fuerunt. Vel potest dici quod etiam per vermem spiritualem caro
+              affligetur, secundum quod passiones animae redundant in corpus; et hoc in futuro.</p>
+            <p xml:id="ta-l4d50q2-d1e675">Ad secundum dicendum, quod Augustinus loquitur sub quadam comparatione: non enim vult
+              simpliciter asserere quod ille vermis sit materialis; sed quod potius esset
+              asserendum, ignem et vermem materialiter intelligi, quam quod utrumque spiritualiter
+              tantum intelligatur; quia sic damnati nullam poenam corporalem sustinerent; ut patet
+              seriem verborum ejus ibidem inspicienti.</p>
+          </div>
+          <div xml:id="ta-l4d50q2-Dd1e679">
+            <head xml:id="ta-l4d50q2-Hd1e681">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d50q2-d1e684">Ad tertiam quaestionem dicendum, quod in fletu corporali duo inveniuntur: quorum unum
+              est lacrymarum resolutio; et quantum ad hoc fletus corporalis in damnatis esse non
+              potest: quia post diem judicii quiescente motu primi mobilis non erit aliqua generatio
+              et corruptio, vel corporalis alteratio; in lacrymarum autem resolutione oportet esse
+              illius humoris generationem qui per lacrymas distillat; unde quantum ad hoc corporalis
+              fletus in damnatis esse non poterit. Aliud quod invenitur in corporali fletu, est
+              quaedam commotio et perturbatio capitis et oculorum; et quantum ad hoc fletus in
+              damnatis esse poterit post resurrectionem. Corpora enim damnatorum non solum ex
+              exteriori affligentur, sed etiam ab interiori, secundum quod corpus immutatur ad
+              passionem animae in bonum vel malum; et quantum ad hoc fletus carnis resurrectionem
+              indicat, et respondet delectationi culpae quae fuit in anima et in corpore.</p>
+            <p xml:id="ta-l4d50q2-d1e687">Et per hoc patet responsio ad objecta.</p>
+          </div>
+          <div xml:id="ta-l4d50q2-Dd1e691">
+            <head xml:id="ta-l4d50q2-Hd1e693">Quaestiuncula 4</head>
+            <p xml:id="ta-l4d50q2-d1e696">Ad quartam quaestionem dicendum, quod dispositio Inferni talis erit quod maxime
+              miseriae damnatorum competet; unde secundum hoc sunt ibi lux et tenebra, prout maxime
+              spectant ad miseriam damnatorum. Ipsa autem visio secundum se est delectabilis; ut
+              enim dicitur in 1 Metaph., sensus oculorum est maxime diligibilis, eo quod per ipsum
+              plura cognoscimus. Sed per accidens contingit visionem esse afflictivam, inquantum
+              videmus aliqua nobis nociva, vel nostrae voluntati repugnantia. Ideo et in Inferno hoc
+              modo debet esse locus dispositus ad videndum secundum lucem et tenebras, quod nihil
+              ibi perspicue videatur, sed solummodo sub quadam umbrositate videantur illa quae
+              afflictionem cordi ingerere possunt. Unde simpliciter loquendo, locus est tenebrosus,
+              sed tamen ex divina dispositione est ibi aliquid luminis, quantum sufficit ad videndum
+              illa quae animam torquere possunt: et ad hoc satis facit naturalis situs loci: quia in
+              terrae medio, ubi Infernus ponitur, non potest esse ignis nisi faeculentus et
+              turbidus, et quasi fumosus. Quidam tamen tenebrarum harum causam assignant ex
+              commassatione et compressione corporum damnatorum, quae propter multitudinem ita
+              replebunt locum Inferni, quod nihil ibi de aere remanebit; et sic non erit ibi aliquid
+              de diaphano quod possit esse subjectum lucis et tenebrae, nisi oculi damnatorum, qui
+              erunt obtenebrati.</p>
+            <p xml:id="ta-l4d50q2-d1e699">Et per hoc patet responsio ad objecta.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d50q2-Dd1e705" type="articulus">
+          <head xml:id="ta-l4d50q2-Hd1e707">Articulus 4</head>
+
+          <head xml:id="ta-l4d50q2-Hd1e710" type="questionTitle">Utrum beati qui erunt in patria, videant poenas
+            damnatorum</head>
+          <div xml:id="ta-l4d50q2-Dd1e713">
+            <head xml:id="ta-l4d50q2-Hd1e715">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d50q2-d1e718">Ad quartum sic proceditur. Videtur quod beati qui erunt in patria, non videant poenas
+              damnatorum. Major enim est distantia damnatorum a beatis quam viatorum. Sed beati
+              semper viatorum facta non vident; unde Isai. 43, 16: <quote xml:id="ta-l4d50q2-Qd1e720">Abraham nescivit
+                vos</quote>, dicit Glossa: <quote xml:id="ta-l4d50q2-Qd1e723">nesciunt mortui, etiam sancti, quid faciunt vivi,
+                etiam eorum filii</quote>. Ergo multo minus vident poenam damnatorum.</p>
+            <p xml:id="ta-l4d50q2-d1e727">Praeterea, perfectio visionis dependet a perfectione visibilis; unde philosophus
+              dicit in 10 Ethicor., quod perfectissima sensus operatio est sensus optime dispositi
+              ad pulcherrimum sub sensu jacentium. Ergo e contrario turpitudo visibilis redundat in
+              imperfectionem visionis. Sed nulla imperfectio erit in beatis. Ergo non videbunt
+              miserias damnatorum, in quibus est summa turpitudo.</p>
+            <p xml:id="ta-l4d50q2-d1e730">Sed contra est quod dicitur Isa. ult., 24: <quote xml:id="ta-l4d50q2-Qd1e732">egredientur et videbunt cadavera
+                virorum qui praevaricati sunt in me</quote>. Glossa: <quote xml:id="ta-l4d50q2-Qd1e735">electi egredientur
+                intelligentia vel visione manifesta, ut ad laudem Dei magis accendantur</quote>.</p>
+          </div>
+          <div xml:id="ta-l4d50q2-Dd1e740">
+            <head xml:id="ta-l4d50q2-Hd1e742">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d50q2-d1e745">Ulterius. Videtur quod beati miseriis damnatorum compatiantur. Compassio enim ex
+              caritate procedit. Sed in beatis erit perfectissima caritas. Ergo maxime miseriis
+              damnatorum compatientur.</p>
+            <p xml:id="ta-l4d50q2-d1e748">Praeterea, beati nunquam erunt tantum elongati a passione quantum Deus est. Sed Deus
+              quodammodo miseriis compatitur nostris, unde et misericors dicitur; et similiter
+              Angeli. Ergo beati compatientur miseriis damnatorum.</p>
+            <p xml:id="ta-l4d50q2-d1e751">Sed contra, quicumque alii compatitur, fit ejus miseriae quodammodo particeps. Sed
+              beati non possunt esse participes alicujus miseriae. Ergo beati miseriis damnatorum
+              non compatiuntur.</p>
+          </div>
+          <div xml:id="ta-l4d50q2-Dd1e755">
+            <head xml:id="ta-l4d50q2-Hd1e757">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d50q2-d1e760">Ulterius. Videtur quod beati non laetentur de poenis impiorum. Laetari enim de malo
+              ad odium alterius pertinet. Sed in beatis nullum erit odium. Ergo non laetabuntur de
+              miseriis damnatorum.</p>
+            <p xml:id="ta-l4d50q2-d1e763">Praeterea, beati in patria erunt summe Deo conformes. Sed Deus non delectatur in
+              poenis nostris. Ergo nec beati delectabuntur de poenis damnatorum.</p>
+            <p xml:id="ta-l4d50q2-d1e766">Praeterea, illud quod est vituperabile in viatore, nullo modo cadit in
+              comprehensorem. Sed in homine viatore est maxime vituperabile quod reficiatur aliorum
+              poenis, et maxime commendabile ut de poenis doleat. Ergo beati nullo modo laetantur de
+              poenis damnatorum.</p>
+            <p xml:id="ta-l4d50q2-d1e769">Sed contra est quod in Psal. 57, 2, dicitur: <quote xml:id="ta-l4d50q2-Qd1e771">laetabitur justus, cum viderit
+                vindictam</quote>.</p>
+            <p xml:id="ta-l4d50q2-d1e776">Praeterea, Isai. ult. 24, dicitur: <quote xml:id="ta-l4d50q2-Qd1e778">erunt usque ad satietatem visionis omni
+                carni</quote>. Satietas autem refectionem mentis designat. Ergo beati gaudebunt de
+              poenis impiorum.</p>
+          </div>
+          <div xml:id="ta-l4d50q2-Dd1e784">
+            <head xml:id="ta-l4d50q2-Hd1e786">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d50q2-d1e789">Respondeo dicendum ad primam quaestionem, quod a beatis nihil subtrahi debet quod ad
+              perfectionem beatitudinis eorum pertineat. Unumquodque autem ex operatione contrarii
+              magis cognoscitur; quia contraria juxta se posita magis elucescunt; et ideo, ut
+              beatitudo sanctorum eis magis complaceat, et de ea uberiores gratias Deo agant, dantur
+              eis ut poenam impiorum perfecte intueantur.</p>
+            <p xml:id="ta-l4d50q2-d1e792">Ad primum ergo dicendum, quod Glossa illa loquitur de sanctis mortuis secundum
+              impossibilitatem naturae: non enim oportet ut naturali cognitione cognoscant omnia
+              quae erga vivos aguntur. Sed sancti qui sunt in patria, omnia clare cognoscunt quae
+              aguntur et apud viatores et apud damnatos; unde Gregorius dicit, 12 Lib. Moral., de
+              animabus sanctis: <quote xml:id="ta-l4d50q2-Qd1e794">sentiendum non est hoc</quote> (scilicet quod Job dicit:
+                <quote xml:id="ta-l4d50q2-Qd1e797">sive nobiles fuerint filii ejus, sive ignobiles, nesciunt</quote> etc.):
+                <quote xml:id="ta-l4d50q2-Qd1e800">quia qui intus habent Dei claritatem, nullo modo credendum est quod sit foris
+                aliquid quod ignorent</quote>.</p>
+            <p xml:id="ta-l4d50q2-d1e804">Ad secundum dicendum, quod quamvis pulchritudo visibilis ad perfectionem faciat
+              visionis, visibilis tamen turpitudo sine visionis imperfectione esse potest: species
+              enim rerum in anima, per quas contraria cognoscuntur, non sunt contrariae; unde etiam
+              Deus, qui perfectissimam cognitionem habet, omnia, pulchra et turpia, videt.</p>
+          </div>
+          <div xml:id="ta-l4d50q2-Dd1e808">
+            <head xml:id="ta-l4d50q2-Hd1e810">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d50q2-d1e813">Ad secundam quaestionem dicendum, quod misericordia vel compassio potest inveniri in
+              aliquo dupliciter: uno modo per modum passionis; alio modo per modum electionis. In
+              beatis autem non erit aliqua passio in parte inferiori, nisi consequens electionem
+              rationis; unde non erit in eis compassio vel misericordia, nisi secundum rationis
+              electionem. Hoc autem modo ex electione misericordia vel compassio nascitur, prout
+              scilicet aliquis vult malum alterius repelli; unde in illis quae non volumus secundum
+              judicium rationis repelli, compassionem talem non habemus. Peccatores autem, quamdiu
+              sunt in hoc mundo, in tali statu sunt quod sine praejudicio divinae justitiae possunt
+              in beatitudinem transferri a statu miseriae et peccati; et ideo beatorum compassio ad
+              eos locum habet et secundum electionem voluntatis, prout Deus, Angeli et beati eis
+              compati dicuntur, eorum salutem volendo; et secundum compassionem, sicut compatiuntur
+              eis homines boni in statu viae existentes. Sed in futuro non poterunt transferri a sua
+              miseria; unde ad eorum miserias non poterit esse compassio secundum electionem rectam;
+              et ideo beati qui erunt in gloria, nullam compassionem ad damnatos habebunt.</p>
+            <p xml:id="ta-l4d50q2-d1e816">Ad primum ergo dicendum, quod caritas tunc est principium compassionis, quando
+              possumus ex caritate velle remotionem malitiae alicujus; sed sancti ex caritate hoc
+              velle non possunt de damnatis, cum divinae justitiae repugnet; unde ratio non
+              sequitur.</p>
+            <p xml:id="ta-l4d50q2-d1e819">Ad secundum dicendum, quod Deus dicitur esse misericors, inquantum subvenit ipsis
+              quos secundum ordinem sapientiae et justitiae suae convenit a miseria liberari; non
+              quod damnatorum misereatur, nisi forte puniendo citra condignum.</p>
+          </div>
+          <div xml:id="ta-l4d50q2-Dd1e823">
+            <head xml:id="ta-l4d50q2-Hd1e825">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d50q2-d1e828">Ad tertiam quaestionem dicendum, quod aliquid potest esse materia gaudii dupliciter.
+              Uno modo per se, scilicet quando de aliquo gaudetur inquantum hujusmodi; et sic sancti
+              non laetabuntur de poenis impiorum. Alio modo per accidens, idest ratione alicujus
+              adjuncti; et hoc modo sancti de poenis impiorum gaudebunt considerando in eis ordinem
+              divinae justitiae, et suam liberationem, de qua gaudebunt; et sic divina justitia et
+              sua liberatio erunt per se causa gaudii bonorum, sed poenae damnatorum per
+              accidens.</p>
+            <p xml:id="ta-l4d50q2-d1e831">Ad primum ergo dicendum, quod laetari de malo alterius inquantum hujusmodi, pertinet
+              ad odium; non autem laetari de malo alterius ratione alicujus adjuncti. Sic autem
+              aliquis quandoque de malo proprio laetatur, sicut cum aliquis gaudet de propriis
+              afflictionibus, secundum quod prosunt ei ad meritum vitae. Jac. 1, 2: <quote xml:id="ta-l4d50q2-Qd1e833">omne
+                gaudium existimate, fratres mei, cum in tentationes varias incideritis</quote>.</p>
+            <p xml:id="ta-l4d50q2-d1e837">Ad secundum dicendum, quod quamvis non delectetur in poenis inquantum hujusmodi;
+              delectatur tamen in eis inquantum sunt per suam justitiam ordinatae.</p>
+            <p xml:id="ta-l4d50q2-d1e840">Ad tertium dicendum, quod in viatore non est laudabile quod delectetur de poenis
+              aliorum secundum se: est tamen laudabile, si delectetur de eis inquantum habent
+              aliquid annexum. Tamen alia ratio est de viatore et comprehensore; quia in viatore
+              passiones frequenter insurgunt sine judicio rationis; et tamen tales passiones sunt
+              interdum laudabiles, secundum quod bonam dispositionem mentis indicant; sicut patet de
+              verecundia et misericordia et poenitentia de malo; sed in comprehensoribus non potest
+              esse passio, nisi consequens judicium rationis.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d50q2-Dd1e845">
+          <head xml:id="ta-l4d50q2-Hd1e847">Expositio textus</head>
+          <p xml:id="ta-l4d50q2-d1e850"><quote xml:id="ta-l4d50q2-Qd1e851">Nec malis facultas peccandi esse poterit</quote>. Peccare hic accipitur, non
+            quantum ad deordinationem actus, sed quantum ad demeritum culpae. <quote xml:id="ta-l4d50q2-Qd1e854">Quid est enim
+              esse penitus extra Deum nisi in summa caecitate?</quote> Extra Deum dicuntur esse
+            reprobi, non quod ad eos providentia Dei non se extendat; sed quia in ipso non
+            delectantur, nec eum considerant nisi ad suam tristitiam, et iterum mens eorum est
+            totaliter a Deo aversa. <quote xml:id="ta-l4d50q2-Qd1e857">Ubi nullam lucem videbunt, cui confiteantur</quote>. Non
+            quod nullam veritatem cognoscant; sed quia cognitio veritatis non erit causa
+            confessionis, sed magis tribulationis et odii. <quote xml:id="ta-l4d50q2-Qd1e860">Sed melius est dubitare de
+              occultis</quote> et cetera. Non quod de hoc sit dubitandum an anima separata
+            corporalem linguam habeat; sed quia nobis certus esse non potest status animae
+            separatae. <quote xml:id="ta-l4d50q2-Qd1e863">Egredientur et videbunt cadavera impiorum</quote> et cetera.
+            Egredientur non loco, sed intelligentia, ut Glossa dicit Isa. ult. Per cadavera vero, ut
+            Augustinus dicit de Civ. Dei, <quote xml:id="ta-l4d50q2-Qd1e866">significatur evidens corporum poena; quamvis
+              cadaver nisi caro exanimis non soleat nuncupari. Illa vero animata erunt corpora;
+              alioquin nulla poterunt sentire tormenta. Nisi quia forte mortuorum erunt corpora,
+              idest eorum qui in secundam cadent mortem; ideo non absurde hic cadavera dici possunt;
+              unde est et illud ab eodem propheta dictum, quod jam supra posuit: terra vero impiorum
+              cadet</quote>; Isai. 26, 19, ubi nos habemus: <quote xml:id="ta-l4d50q2-Qd1e870">terram gigantum detrahes in
+              ruinam. Quis autem non videat a cadendo esse appellata cadavera? Haec de pedibus
+              sedentis (...) commemorasse sufficiat</quote>. Hic Magister in fine operis tangit
+            visionem quamdam Isaiae, ut dicitur Isai. 6, 1: vidit enim Deum <quote xml:id="ta-l4d50q2-Qd1e873">sedentem super
+              solium excelsum et elevatum; et plena erat domus majestate ejus; et ea quae sub ipso
+              erant, replebant templum, et Seraphim stabant subter illud, sex alae uni, et sex alae
+              alteri: duabus velabant faciem ejus, et duabus velabant pedes ejus, et duobus
+              volabant</quote>; quae quidem visio a Hieronymo allegorice exponitur, volente per
+            sedentem super solium excelsum, Christum significari; per solium autem excelsum et
+            elevatum significari Angelos, in quibus Deus sedet, ut dicitur in Psalm. 9, 1:
+              <quote xml:id="ta-l4d50q2-Qd1e876">qui sedet super Cherubim</quote>; per domum autem superiorem, Ecclesiam
+            triumphantem, quae Dei majestate impletur; per templum vero inferius, Ecclesiam
+            militantem, quae inferioribus donis perficitur, nec videt divinae essentiae majestatem.
+            Sed Dionysius per sedentem in solio dicit significari ipsum Deum; per solium autem
+            excelsum, ipsam eminentiam divinae naturae; per domum vero superiorem, creaturas
+            excellentiores Deo magis propinquas, quae ejus majestatem plenius repraesentant; per
+            templum vero inferius, inferiores creaturas, scilicet corporales, quae in inferiori
+            mundo divinam participant bonitatem. Hujusmodi autem sedentis super thronum facies ipsam
+            divinam essentiam designat, et ea quae in aeternitate fuerunt ante mundi constitutionem;
+            per pedes vero, ea quae post mundum erunt in gloria beatorum, et in poenis damnatorum;
+            per media vero, ea quae cursu temporis medio aguntur. Seraphim ergo faciem et pedes
+            sedentis super thronum velare dicuntur, quia mysteria aeternae deitatis et futurae
+            beatitudinis et miseriae nobis ad plenum non revelant; sed duabus alis volabant, quia de
+            his quae in medio tempore aguntur, nos, quantum opus est, Angelorum ministerio
+            instruimur, inter quos Seraphim primatum tenent. Volatus ergo eorum, processum
+            revelationis eorum in nos demonstrat, quem etiam rectum motum ipsorum Dionysius nominat
+            in 4 cap. de Div. Nom. Magister ergo in hoc libro exorsus a Deo, idest incipiens a facie
+            sedentis super thronum, idest ab ipsa Trinitate divinitatis, de qua in 1 Lib. egit,
+            procedens per media, quae dum durat mundus aguntur, ut sunt creaturae, et peccata, de
+            quibus egit in 2 Lib.; vel reparatio, et virtutes, de quibus egit in 3 et ecclesiastica
+            sacramenta, de quibus egit in prima parte 4, duce Christo, qui est via, pervenit usque
+            ad pedes, idest usque ad ea quae in fine mundi et etiam postmodum agentur, sicut est
+            resurrectio corporum, punitio damnatorum, et gloria beatorum, quae in Dei visione
+            consistit; ut sic a Deo incipiens ejus doctrina, etiam terminetur in Deo, qui est
+            principium a quo omnia, et finis ad quem omnia ordinantur; cui est honor et gloria in
+            saecula saeculorum. Amen.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

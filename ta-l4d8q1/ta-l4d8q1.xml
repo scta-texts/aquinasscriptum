@@ -1,0 +1,793 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 8, Quaestio 1</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Librum IV, Distinctio 8, Quaestio 1</title>
+          <date when="2016-03-18">March 18, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-18">March 18, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness>1856 editum</witness>
+          <witness xml:id="G" n="ghent567">Ghent, Belgium, Ghent University Library, 567</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="0.0.0-dev">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+
+
+
+
+      <div xml:id="starts-on">
+        <cb ed="#G" n="106a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ta-l4d8q1">
+        <head xml:id="ta-l4d8q1-Hd1e97">Librum IV, Distinctio 8, Quaestio 1</head>
+        <div xml:id="ta-l4d8q1-Dd1e100">
+          <head xml:id="ta-l4d8q1-Hd1e102">Prooemium</head>
+          <p xml:id="ta-l4d8q1-d1e105">Postquam Magister determinavit de Baptismo et confirmatione, hic tertio determinat de
+            Eucharistiae sacramento; et dividitur in partes duas: in prima determinat ea quae
+            pertinent ad ipsum sacramentum; in secunda determinat de dispensantibus sacramentum, 13
+            dist., ibi: <quote xml:id="ta-l4d8q1-Qd1e107">solet etiam quaeri, utrum pravi sacerdotes hoc sacramentum conficere
+              queant</quote>. Prima in duas: in prima determinat ea quae requiruntur ad hoc
+            sacramentum in generali; in secunda prosequitur de eis in speciali, dist. 10, ibi:
+              <quote xml:id="ta-l4d8q1-Qd1e110">sunt item alii praecedentium insaniam transcendentes</quote>. Prima iterum in
+            duas: in prima determinat ea quae requiruntur ad hoc sacramentum; in secunda determinat
+            usum sacramenti, 9 dist., ibi: <quote xml:id="ta-l4d8q1-Qd1e113">et sicut duae sunt res illius sacramenti, ita et
+              duo modi manducandi</quote>. Prima autem in tres: in prima determinat praecedentia
+            Eucharistiam quibus hoc sacramentum figuratur; in secunda determinat concomitantia,
+            quibus hoc sacramentum integratur, scilicet formam et institutionem, ibi: <quote xml:id="ta-l4d8q1-Qd1e116">hic
+              etiam ante alia consideranda occurrunt quatuor</quote>; in tertia determinat
+            consequentia, quae in hoc sacramento efficiuntur vel significantur, ibi: <quote xml:id="ta-l4d8q1-Qd1e119">nunc
+              quid ibi sacramentum sit et quid res, videamus</quote>. Secunda pars dividitur in
+            tres: in prima determinat institutionem; in secunda formam, ibi: <quote xml:id="ta-l4d8q1-Qd1e123">forma vero est
+              quam ipse ibidem edidit</quote>; in tertia movet quamdam quaestionem, et solvit, ibi:
+              <quote xml:id="ta-l4d8q1-Qd1e126">ubi consideratione dignum est quare illud sacramentum post coenam dedit
+              discipulis. Nunc quid ibi sit sacramentum et quid res, videamus</quote>. Hic
+            determinat de sacramento Eucharistiae per comparationem ad significatum vel causatum
+            ejus: et circa hoc duo facit. Primo ostendit quid sit ibi res, et quid sacramentum.
+            Secundo concludit eorum numerum et ordinem, ibi: <quote xml:id="ta-l4d8q1-Qd1e129">sunt igitur, hic tria
+              distinguenda</quote> et cetera. Hic est duplex quaestio. Prima de ipso Eucharistiae
+            sacramento. Secunda de forma ipsius. Circa primum quaeruntur quatuor: 1 utrum
+            Eucharistia sit sacramentum; 2 de significatione ejus; 3 de institutione; 4 de ordine
+            sumendi hunc cibum respectu aliorum ciborum.</p>
+        </div>
+        <div xml:id="ta-l4d8q1-Dd1e134" type="articulus">
+          <head xml:id="ta-l4d8q1-Hd1e136">Articulus 1</head>
+
+          <head xml:id="ta-l4d8q1-Hd1e139" type="questionTitle">Utrum Eucharistia sit sacramentum</head>
+          <div xml:id="ta-l4d8q1-Dd1e142">
+            <head xml:id="ta-l4d8q1-Hd1e144">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d8q1-d1e147">Ad primum sic proceditur. Videtur quod Eucharistia non sit sacramentum. Ad idem enim
+              non debent diversa ordinari. Sed confirmatio est ad perficiendum, secundum Dionysium.
+              Cum ergo secundum ipsum Eucharistia etiam sit perfectio, videtur quod superfluat hoc
+              sacramentum.</p>
+            <p xml:id="ta-l4d8q1-d1e150">Praeterea, in omni sacramento novae legis idem quod figuratur, efficitur per signum
+              figurans. Sed species panis et vini, quae figurant corpus Christi verum et mysticum,
+              non efficiunt illud. Ergo Eucharistia non est sacramentum novae legis.</p>
+            <p xml:id="ta-l4d8q1-d1e153">Praeterea, sacramentum est elementum materiale, secundum Hugonem exterius oculis
+              suppositum. Sed corpus Christi verum quod dicitur hic sacramentum et res similiter,
+              non est oculis videntium suppositum. Ergo non est sacramentum.</p>
+            <p xml:id="ta-l4d8q1-d1e156">Praeterea, omne sacramentum in ipsa sui susceptione consecratur et perficitur, sicut
+              patet de Baptismo, quod perficitur in ipsa ablutione. Sed Eucharistia consecratur ante
+              sumptionem. Ergo non est sacramentum.</p>
+            <p xml:id="ta-l4d8q1-d1e160">Praeterea, in omni alio sacramento illud quod est res et sacramentum, est aliquid
+              effectum in suscipiente, sicut character in Baptismo. Sed corpus Christi verum, quod
+              ponitur hic res et sacramentum, non est aliquid in recipiente effectum. Ergo non est
+              sacramentum ejusdem rationis cum aliis.</p>
+            <p xml:id="ta-l4d8q1-d1e163">Sed contra est quod in collecta dicitur: <quote xml:id="ta-l4d8q1-Qd1e165">praesta ut hoc tuum sacramentum non
+                sit nobis reatus ad poenam</quote>.</p>
+            <p xml:id="ta-l4d8q1-d1e169">Praeterea, omnis actio per ministros Ecclesiae dispensata, in qua ex ipso opere
+              operato gratia confertur, est sacramentum. Sed Eucharistia est hujusmodi. Ergo est
+              sacramentum.</p>
+          </div>
+          <div xml:id="ta-l4d8q1-Dd1e173">
+            <head xml:id="ta-l4d8q1-Hd1e175">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d8q1-d1e178">Ulterius. Videtur quod non sit unum sacramentum, sed multa. Primo per hoc quod in
+              collecta dicitur: <quote xml:id="ta-l4d8q1-Qd1e180">purificent nos, domine, haec sacramenta quae
+                sumpsimus</quote>.</p>
+            <p xml:id="ta-l4d8q1-d1e184">Praeterea, sacramentum est in genere signi. Sed ea quae sunt in genere signi, sicut
+              nomina, plurificantur ad pluralitatem signantium, quamvis sit idem signatum; sicut
+              Marcus et Tullius sunt duo nomina, quamvis sit eadem res significata. Ergo cum in
+              Eucharistia sint plura signantia, sicut species panis et vini, videtur quod sint plura
+              sacramenta.</p>
+            <p xml:id="ta-l4d8q1-d1e187">Praeterea, unitas rei est ex forma sua. Sed in Eucharistia sunt duae formae, una ad
+              consecrationem panis, alia ad consecrationem sanguinis. Ergo sunt duo sacramenta.</p>
+            <p xml:id="ta-l4d8q1-d1e190">Praeterea, ea quae nec in genere nec in specie conveniunt, sunt plura simpliciter.
+              Sed corpus Christi verum cum speciebus panis et vini sunt differentia et specie et
+              genere. Ergo sunt plura simpliciter. Cum ergo utrumque dicatur sacramentum in
+              Eucharistia, videtur quod non sit unum sacramentum.</p>
+            <p xml:id="ta-l4d8q1-d1e194">Praeterea, ex duobus perfectis non fit aliquid unum. Sed Christus perfecte est sub
+              utraque specie, scilicet panis et vini. Ergo ex his duobus non fit unum
+              sacramentum.</p>
+            <p xml:id="ta-l4d8q1-d1e197">Sed contra est, quia si essent duo, tunc sacramenta novae legis non essent tantum
+              septem.</p>
+            <p xml:id="ta-l4d8q1-d1e200">Praeterea, quaecumque ordinantur ad idem efficiendum et significandum, pertinent ad
+              unum sacramentum. Sed omnia quae in Eucharistia sunt, pertinent ad idem
+              repraesentandum, scilicet mortem domini, et idem efficiendum, scilicet gratiam, per
+              quam homo incorporatur corpori mystico. Ergo est unum tantum sacramentum.</p>
+          </div>
+          <div xml:id="ta-l4d8q1-Dd1e204">
+            <head xml:id="ta-l4d8q1-Hd1e206">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d8q1-d1e209">Ulterius. Videtur quod non convenientibus nominibus nominetur. Nomen enim proprium
+              alicui debet imponi ex eo quod sit sibi proprium. Sed bonitas gratiae est communis
+              omnibus sacramentis. Ergo ex hoc non debet imponi nomen proprium uni sacramento, ut
+              dicatur Eucharistia.</p>
+            <p xml:id="ta-l4d8q1-d1e212">Praeterea, sicut in littera dicitur, hoc sacramentum ideo viaticum appellatur, quia
+              in via nos reficiens, usque ad patriam deducit. Sed hoc est commune omnibus
+              sacramentis, quae non nisi viatoribus dantur ad perveniendum ad gloriam patriae, quae
+              est res non contenta, et significata in omnibus sacramentis. Ergo non convenienter
+              viaticum appellatur.</p>
+            <p xml:id="ta-l4d8q1-d1e215">Praeterea, causae per effectus denominari solent. Sed adducere ad communionem
+              fidelium est effectus Baptismi, secundum Dionysium, ut ex praedictis patet. Ergo
+              Baptismus magis debet dici communio vel synaxis, quam hoc sacramentum.</p>
+            <p xml:id="ta-l4d8q1-d1e218">Praeterea, in quolibet sacramento fit aliquid sacrum. Sed hoc importat sacrificii
+              nomen. Ergo sacrificium etiam non est nomen proprium hujus sacramenti.</p>
+            <p xml:id="ta-l4d8q1-d1e222">Praeterea, hostia videtur idem quod sacrificium. Sed Dionysius confirmationem nominat
+              chrismatis hostiam. Ergo neque hostia neque sacrificium est nomen proprium huic
+              sacramento.</p>
+          </div>
+          <div xml:id="ta-l4d8q1-Dd1e227">
+            <head xml:id="ta-l4d8q1-Hd1e229">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d8q1-d1e232">Respondeo dicendum ad primam quaestionem, quod Eucharistia sacramentum quoddam est,
+              alio tamen modo ab omnibus aliis sacramentis. Sacramentum enim secundum sui nominis
+              proprietatem sanctitatem active importat; unde secundum hoc aliquid habet sacramenti
+              rationem secundum quod habet rationem sanctificationis, qua sanctum aliquid fit.
+              Dicitur autem aliquid sanctum dupliciter. Uno modo simpliciter et per se, sicut quod
+              est subjectum sanctitatis, sicut dicitur homo sanctus. Alio modo secundario et
+              secundum quid, ex eo quod habet ordinem ad hanc sanctitatem, vel sicut habens virtutem
+              sanctificandi, sicut chrisma dicitur sanctum; vel quocumque alio modo ad aliquid
+              sanctum deputetur, sicut altare sanctum. Et ideo ea quibus aliquid fit sanctum primo
+              modo, dicuntur sacramenta simpliciter; illa autem quibus fit aliquid sanctum secundo
+              modo, non dicuntur sacramenta, sed sacramentalia magis. In aliis ergo sacramentis fit
+              aliquid sanctum primo modo, sicut homo suscipiens sacramentum; non autem elementum
+              corporale sanctificans hominem, quia hoc est sacrum secundo modo; et ideo hoc quod
+              pertinet ad sanctificationem materiae in omnibus sacramentis non est sacramentum, sed
+              sacramentale; sed hoc quod pertinet ad usum materiae qua homo sanctificatur, est
+              sacramentum. In hoc autem sacramento illud quod est sanctificans hominem, est sanctum
+              primo modo, quasi subjectum sanctitatis, quia est ipse Christus; et ideo ista
+              sanctificatio materiae est hoc sacramentum; sed sanctificatio hominis est effectus
+              sacramenti. Et ideo hoc sacramentum in se consideratum, est dignius omnibus
+              sacramentis, quia habet absolutam sanctitatem etiam praeter suscipientem; alia autem
+              non habent nisi in ordine ad aliud; et ideo hoc sacramentum est perfectio aliorum
+              sacramentorum; quia omne quod est per aliud, reducitur ad id quod est per se, sicut
+              patet de accidente et substantia.</p>
+            <p xml:id="ta-l4d8q1-d1e235">Ad primum ergo dicendum, quod perfectum unumquodque est, cum attingit propriam
+              virtutem, ut dicitur in 7 Phys. Virtus autem est ultimum in re, ut dicitur in 1 Cael.
+              et Mund.; et ideo perfectio rei consistit in hoc quod res ad sui ultimum perducatur.
+              Est autem dupliciter ultimum rei; unum quod est in re, et aliud quod est extra rem;
+              sicut in corporibus ultimum in corpore est superficies corporis contenti; ultimum
+              extra est locus, qui est superficies corporis continentis. Ultimum autem cujuslibet
+              rei in seipsa est ipsa rei operatio, propter quam res est: forma enim est finis
+              generationis, non ipsius generati, ut dicit Commentator in 2 Phys. Unde res quae habet
+              formam substantialem per quam est, esse non dicitur perfecta simpliciter, sed perfecta
+              in esse, vel perfecta perfectione prima; et talem perfectionem quantum ad esse
+              spirituale acquirit homo in Baptismo, in quo est regeneratio spiritualis; et ideo
+              Dionysius non ponit Baptismum habentem vim perfectivam simpliciter, sed magis
+              purgativam et illuminativam. Sed simpliciter perfectum dicitur quod habet operationem
+              convenientem suae formae. In hoc enim consistit virtus rei, secundum philosophum in 2
+              Ethic., per cujus consecutionem aliquid dicitur perfectum, ut dictum est. Hominis
+              autem operatio spiritualis est duplex. Una ipsius inquantum est persona privata; et
+              quantum ad hoc perficit confirmatio, quae facit hominem non impeditum aliquo mundano
+              timore in confessione fidei, et aliis quae ad Christianam religionem spectant. Alia,
+              inquantum est persona publica, quasi membrum principale, et influens aliis membris; et
+              quantum ad hoc perficit sacramentum ordinis. Ultimum autem cujuslibet rei extra
+              seipsam, est principium a quo res habet esse: quia per conjunctionem ad ipsum res
+              complentur et firmantur, et propter distantiam ab ipso deficiunt, sicut corruptibilia
+              propter longe distare a primo, ut dicitur in 2 de Generat.; et ideo primum agens habet
+              etiam rationem ultimi finis perficientis. Fons autem Christianae vitae est Christus;
+              et ideo hoc modo Eucharistia perficit, Christo conjungens; et ideo hoc sacramentum est
+              perfectio omnium perfectionum, ut Dionysius dicit; unde et omnes qui sacramenta alia
+              accipiunt, hoc sacramento in fine confirmantur, ut ipse dicit.</p>
+            <p xml:id="ta-l4d8q1-d1e238">Ad secundum dicendum, quod sicut ad species sensibiles aliorum sacramentorum se habet
+              virtus quae interius inest, quae sanctificationem acquirit, ex qua sacramentum
+              efficit, secundum Hugonem, ita in hoc sacramento se habet ipsum corpus Christi, quod
+              per consecrationem sub speciebus illis fit. Unde sicut in aliis sacramentis materiale
+              elementum non est causa virtutis quae in ipso est, neque alicujus spiritualis effectus
+              in homine, nisi mediante virtute, secundum quod ex elemento et virtute quasi unum
+              efficitur; ita in hoc sacramento species non sunt causa corporis Christi, neque
+              alicujus effectus in anima spiritualis, nisi mediante corpore Christi vero, secundum
+              quod ex speciebus et corpore Christi fit unum sacramentum. Utrum autem species illae
+              secundum se habeant aliquem effectum corporalem, sicut aqua corporaliter abluit in
+              Baptismo, etiam non mediante spirituali virtute, infra dicetur.</p>
+            <p xml:id="ta-l4d8q1-d1e241">Ad tertium dicendum, quod omne sacramentum est visibile; non tamen oportet quod
+              quidquid est in sacramento, sit visibile. Videtur enim species visibilis aquae in
+              Baptismo, sed non videtur virtus spiritualis, quae secretius operatur salutem; et
+              similiter hic videntur species, sed non videtur verum corpus Christi. Vel dicendum,
+              quod est visibile non in se, sed in speciebus quae ipsum tegunt; sicut et substantia
+              aliorum corporum videtur mediante colore.</p>
+            <p xml:id="ta-l4d8q1-d1e245">Ad quartum dicendum, quod sanctitas quae est in materiis aliorum sacramentorum, non
+              est forma sanctitatis absolute, sed secundum ordinem ad aliud, ut in 1 dist. dictum
+              est; et ideo non est simile de aliis sacramentis et de hoc, ut ex dictis patet.</p>
+            <p xml:id="ta-l4d8q1-d1e248">Ad quintum dicendum, quod ex hoc ipso quod alia sacramenta perficiuntur in acceptione
+              vel collatione, contingit quod illud quod est in eis sacramentum et res, est aliquid
+              acquisitum in suscipiente; in hoc autem sacramento aliter est, ut ex dictis patet.</p>
+          </div>
+          <div xml:id="ta-l4d8q1-Dd1e252">
+            <head xml:id="ta-l4d8q1-Hd1e254">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d8q1-d1e257">Ad secundam quaestionem dicendum, quod per se unum simpliciter, et quod est numero
+              unum, tribus modis dicitur. Uno modo sicut indivisibile est unum, ut punctum et
+              unitas, quod neque est multa actu neque potentia. Alio modo quod est unum ex
+              continuitate, quod tamen est multa potentia, sicut linea. Tertio modo quod est unum
+              perfectione, sicut dicitur calceamentum unum, quia habet omnes partes quae requiruntur
+              ad calceamentum; et haec unitas dicitur in omnibus illis ad quorum integritatem aliqua
+              exiguntur, sicut unus homo, una domus. Et quia ad esse sacramenti multa concurrunt,
+              sicut forma et materia, et hujusmodi; ideo ab hac unitate perfectionis dicitur
+              sacramentum unum esse. Illa enim sunt de integritate alicujus instrumenti quae
+              requiruntur ad operationem illam ad quam instrumentum deputatum est. Hoc autem
+              sacramentum deputatum est ex divina institutione ad cibationem spiritualem, quae per
+              cibationem corporalem significatur. Et quia cibatio corporalis duo requirit, scilicet
+              aliquid per modum cibi, et aliquid per modum potus; ideo ad integritatem hujus
+              sacramenti ex divina institutione est aliquid per modum cibi, scilicet corpus Christi;
+              et aliquid per modum potus, scilicet sanguis.</p>
+            <p xml:id="ta-l4d8q1-d1e260">Ad primum ergo dicendum, quod dicitur pluraliter sacramenta propter materialem
+              diversitatem signorum.</p>
+            <p xml:id="ta-l4d8q1-d1e263">Ad secundum dicendum, quod ratio illa procedit quando utrumque signum habet integram
+              significationem; sic autem non est hic: quia cibatio spiritualis non significatur
+              perfecte neque per panis tantum neque per vini tantum sumptionem, sed per utrumque
+              simul, sicut est in significatione nominum compositorum.</p>
+            <p xml:id="ta-l4d8q1-d1e266">Ad tertium dicendum, quod ratio illa procederet, si utraque forma responderet toti
+              sacramento; sed hoc falsum est: quia una forma respondet uni, et alia alii eorum quae
+              ad sacramentum exiguntur.</p>
+            <p xml:id="ta-l4d8q1-d1e270">Ad quartum dicendum, quod quamvis non sint unum in genere vel specie naturae, possunt
+              tamen esse unum per relationem ad unam operationem, ex qua unitate sumitur unitas
+              sacramenti.</p>
+            <p xml:id="ta-l4d8q1-d1e273">Ad quintum dicendum, quod quamvis Christus perfectus sit sub utraque specie, non
+              tamen quantum ad integrum usum sacramenti est sub utroque, sed quantum ad diversos
+              usus.</p>
+          </div>
+          <div xml:id="ta-l4d8q1-Dd1e277">
+            <head xml:id="ta-l4d8q1-Hd1e279">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d8q1-d1e282">Ad tertiam quaestionem dicendum, quod in quolibet sacramento est tria considerare;
+              scilicet originem, perfectionem, et finem ad quem est. Origo autem omnium
+              sacramentorum est passio Christi, de cujus latere in cruce pendentis sacramenta
+              profluxerunt, ut sancti dicunt; perfectio autem sacramenti est in hoc quod continet
+              gratiam; finis autem sacramenti est duplex; proximus, scilicet sanctificatio
+              recipientis, et ultimus, scilicet vita aeterna. Haec autem per quamdam excellentiam in
+              Eucharistia inveniuntur. Quia hoc sacramentum est specialiter in memoriam dominicae
+              passionis; unde Matthaei 26: <quote xml:id="ta-l4d8q1-Qd1e284">quotiescumque feceritis, in mei memoriam
+                facietis</quote>; et ideo quantum ad originem vocatur sacrificium vel hostia.
+              Similiter etiam gratiam non per modum intentionis continet sicut alia sacramenta, sed
+              plenitudinem gratiae in suo fonte; et ideo antonomastice Eucharistia dicitur.
+              Similiter etiam quia ipsa est consummatio omnium sanctificationum, ut Dionysius dicit,
+              id quod est omnium, scilicet congregari ad unum, huic sacramento attribuitur; et
+              dicitur communio vel synaxis, quod idem est, inquantum scilicet homo congregatur ad
+              unum et ad seipsum et ad alios, ei quod est maxime unum conjunctus. Similiter etiam
+              quantum ad ultimum finem consequendum maximam efficaciam habet, inquantum realiter
+              continet hoc quo janua caeli nobis aperta est, scilicet sanguinem Christi; et ideo
+              specialiter viaticum appellatur.</p>
+            <p xml:id="ta-l4d8q1-d1e288">Et per haec patet solutio ad objecta: quia ab eo quod est commune, aliquid
+              antonomastice denominari potest.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d8q1-Dd1e293">
+          <head xml:id="ta-l4d8q1-Hd1e295">Articulus 2</head>
+
+          <head xml:id="ta-l4d8q1-Hd1e298" type="questionTitle">Utrum huic sacramento figurae assignari debeant</head>
+          <div xml:id="ta-l4d8q1-Dd1e301">
+            <head xml:id="ta-l4d8q1-Hd1e303">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d8q1-d1e306">Ad secundum sic proceditur. Videtur quod huic sacramento figurae assignari non
+              debeant. Nihil enim disponitur per aliquid sui generis; albedinis enim non est albedo,
+              nec motus est motus. Sed sacramentum est signum. Ergo sacramento non debet aptari
+              aliqua figura, quia in infinitum iretur.</p>
+            <p xml:id="ta-l4d8q1-d1e309">Praeterea, sacramenta veteris legis dicuntur sacramentis novae legis respondere, in
+              quantum signant ipsa. Sacramentis autem novae legis quae sunt maximae perfectionis non
+              respondebant aliqua sacramenta in veteri lege, ut quidam dicunt. Cum ergo hoc
+              sacramentum sit maximae perfectionis, videtur quod non debeant ei aliquae figurae
+              assignari.</p>
+            <p xml:id="ta-l4d8q1-d1e312">Praeterea, sicut praefigurata Eucharistia est in agno paschali, ita et Baptismus in
+              transitu maris rubri, ut dicitur 1 Corinth., 10. Cum ergo Magister non assignaverit
+              aliquas figuras Baptismi, videtur quod nec Eucharistiae figuras assignare debeat.</p>
+            <p xml:id="ta-l4d8q1-d1e315">Sed contra, hoc sacramentum memoriale passionis Christi est specialiter. Sed
+              passionem Christi praecipue oportebat praefigurari, per quam nos redemit, ut fides
+              antiquorum ad redemptorem ferretur. Ergo praecipue oportebat hoc sacramentum
+              figurari.</p>
+            <p xml:id="ta-l4d8q1-d1e319">Praeterea, hoc sacramentum est dignissimum, et difficillimum ad credendum. Sed talia
+              maxime consueverunt praefigurari. Ergo et cetera.</p>
+          </div>
+          <div xml:id="ta-l4d8q1-Dd1e323">
+            <head xml:id="ta-l4d8q1-Hd1e325">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d8q1-d1e328">Ulterius. Videtur quod Magister inconvenienter assignet figuras hujus sacramenti. Hoc
+              enim sacramentum post Baptismum datur. Sed agnus paschalis praecessit transitum maris
+              rubri, in quo Baptismus est praefiguratus. Ergo non est congrua figura hujus
+              sacramenti.</p>
+            <p xml:id="ta-l4d8q1-d1e331">Praeterea, in hoc sacramento aliquid offertur Deo. Sed Melchisedech non legitur Deo
+              obtulisse, sed homini, scilicet Abrahae, cui obtulit panem et vinum, ut dicitur Gen.
+              14. Ergo illa oblatio non est conveniens figura hujus sacramenti.</p>
+            <p xml:id="ta-l4d8q1-d1e334">Praeterea, idem non est signum sui ipsius. Sed sanguis qui consecratur in altari, est
+              illemet quem Christus in cruce fudit pro nobis. Ergo ille non est signum vel figura
+              istius.</p>
+            <p xml:id="ta-l4d8q1-d1e337">Praeterea, manna habebat in se omnem saporis suavitatem, ut dicitur Sap. 16. Sed hoc
+              sacramentum non habet in se omnem saporem spiritualem: quia sic haberet effectus
+              omnium sacramentorum, et alia sacramenta superfluerent. Ergo manna non est figura
+              hujus sacramenti.</p>
+            <p xml:id="ta-l4d8q1-d1e341">Praeterea, nobilioris rei nobilior debet esse figura. Sed Eucharistia est nobilius
+              sacramentum quam Baptismus. Cum ergo Baptismus habuerit figuram quae praebebat
+              remedium ex ipso opere operato contra originale, scilicet circumcisionem; supradictae
+              autem figurae non fuerunt tales; videtur quod fuerunt incompetentes.</p>
+            <p xml:id="ta-l4d8q1-d1e344">Praeterea, in canone Missae fit mentio de sacrificio Abrahae et Abel; et similiter
+              omnia sacrificia legalia hujus veri sacrificii figura fuerunt. Ergo insufficienter
+              posuit Magister figuras hujus sacramenti.</p>
+          </div>
+          <div xml:id="ta-l4d8q1-Dd1e348">
+            <head xml:id="ta-l4d8q1-Hd1e350">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d8q1-d1e353">Ulterius. Videtur quod in lege Moysi expressius fuit figuratum hoc sacrificium quam
+              in lege naturae. Quia, secundum Hugonem, quanto magis appropinquavit passio
+              salvatoris, tanto signa fuerunt evidentiora. Sed ea quae fuerunt in lege Moysis,
+              fuerunt propinquiora. Ergo expressiora.</p>
+            <p xml:id="ta-l4d8q1-d1e356">Praeterea, in sacrificiis legis Moysi fiebat sanguinis effusio. Sed oblatio
+              Melchisedech fuit sanguinis sine effusione. Ergo legalia sacrificia expressius
+              figurabant sacramentum passionis Christi quam oblatio Melchisedech.</p>
+            <p xml:id="ta-l4d8q1-d1e359">Sed contra, Christus dicitur sacerdos secundum ordinem Melchisedech, non autem
+              secundum sacerdotium legis Moysi, quod est sacerdotium leviticum, ut patet Hebr. 7.
+              Ergo oblatio Melchisedech magis convenit cum sacrificio Christi quam sacrificium legis
+              Moysi.</p>
+          </div>
+          <div xml:id="ta-l4d8q1-Dd1e364">
+            <head xml:id="ta-l4d8q1-Hd1e366">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d8q1-d1e369">Respondeo dicendum ad primam quaestionem, quod sacramenta novae legis tripliciter se
+              habent ad veterem legem. Quaedam enim essentialiter fuerunt in veteri lege, quamvis
+              non ut sunt sacramenta novae legis, sed magis secundum quod sunt in officium vel actum
+              virtutis; sicut poenitentia, ordo, et matrimonium. Quaedam fuerunt secundum aliquid
+              eis respondens non essentialiter, sicut Baptismus et Eucharistia. Quaedam autem nihil
+              respondens habuerunt in veteri lege, sicut confirmatio et extrema unctio. Cujus ratio
+              est, quia prima tria sacramenta non solum sunt sacramenta; sed poenitentia est actus
+              virtutis; ordo autem pertinet ad officium dispensationis sacramentorum; matrimonium
+              autem ad officium naturae; et ideo in qualibet lege requiruntur. Baptismus autem et
+              Eucharistia sunt sacramenta tantum gratiam continentia; et ideo ante tempus gratiae
+              esse non debuerunt. Sed quia sunt sacramenta necessitatis, Baptismus quidem quantum ad
+              effectum, Eucharistia autem quantum ad fidem ejus quod repraesentatur per ipsam; ideo
+              oportuit quod in lege Moysi haberent aliquid respondens: sed confirmatio et extrema
+              unctio sunt sacramenta gratiam conferentia; et ideo in veteri lege esse non debuerunt.
+              Et quia non sunt sacramenta necessitatis, sed cujusdam superabundantis perfectionis;
+              ideo non oportebat quod haberent aliquid respondens, cum non esset tempus plenitudinis
+              gratiae; et ideo haec duo non fuerunt praefiguranda aliquibus expressis figuris,
+              similiter neque prima tria, sed tantum duo media, scilicet Eucharistia et
+              Baptismus.</p>
+            <p xml:id="ta-l4d8q1-d1e372">Ad primum ergo dicendum, quod oppositae relationes possunt inesse eisdem respectu
+              diversorum, eo quod esse relativi est ad aliquid se habere, non autem proprietates
+              absolutae; et ideo in relativis contingit aliquid disponi per aliquid sui generis per
+              accidens, et non per se; sicut filii est filius, non inquantum filius, sed inquantum
+              pater; et similiter signi potest esse signatum. In absolutis autem non contingit hoc;
+              unde qualitatis non est qualitas nec per se nec per accidens.</p>
+            <p xml:id="ta-l4d8q1-d1e375">Ad secundum dicendum, quod una perfectio dicitur alia minor dupliciter: aut
+              simpliciter, aut secundum statum; sicut praemium essentiale quod aurea dicitur, est
+              simpliciter majus quam praemium accidentale, quod dicitur aureola; sed aureola est
+              major quantum ad statum habentis, quia non cuilibet datur, sed tantummodo illis qui
+              sunt in statu perfectionis. Et similiter dico, quod perfectio Eucharistiae est
+              simpliciter major quam perfectio confirmationis et extremae unctionis, sed illae sunt
+              majores secundum statum: quia perfectio Eucharistiae, quae est per conjunctionem ad
+              principium sanctitatis est omnibus de necessitate salutis; sed perfectio spiritus
+              sancti ad robur quae est in confirmatione, vel perfectio purgationis a reliquiis
+              peccati, quae est in extrema unctione, non sunt omnibus necessaria; et ideo
+              perfectioni Eucharistiae debet aliquid respondere in qualibet lege, non autem
+              perfectioni confirmationis et extremae unctionis nisi in lege in qua est status
+              perfectionis, quae est lex gratiae.</p>
+            <p xml:id="ta-l4d8q1-d1e378">Ad tertium dicendum, quod praefiguratio Eucharistiae erat magis necessaria quam
+              Baptismi, tum ratione dignitatis, tum ratione difficultatis, tum propter necessitatem
+              fidei ejus quod figuratur in Eucharistia. Tamen Magister supra aliquas figuras
+              Baptismi posuit, scilicet circumcisionem et Baptismum Joannis.</p>
+          </div>
+          <div xml:id="ta-l4d8q1-Dd1e382">
+            <head xml:id="ta-l4d8q1-Hd1e384">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d8q1-d1e387">Ad secundam quaestionem dicendum, quod aliquid potest figurari dupliciter. Uno modo
+              per id quod est signum et causa: et hoc modo effusio sanguinis et aquae ex latere
+              Christi fuit figura hujus sacramenti. Alio modo per id quod est signum tantum; et sic
+              quantum ad id quod est sacramentum tantum in Eucharistia, fuit figura ejus oblatio
+              Melchisedech; quantum autem ad id quod est res et sacramentum, scilicet ipsum Christum
+              passum, fuit figura agnus paschalis; quantum autem ad id quod est res tantum, scilicet
+              gratiam, fuit signum manna, quod reficiebat, omnem saporem suavitatis habens.</p>
+            <p xml:id="ta-l4d8q1-d1e390">Ad primum ergo dicendum, quod ratio illa valeret, si Baptismi et Eucharistiae tantum
+              esset una figura: sunt autem plures; et ideo non est inconveniens quod aliquam figuram
+              Baptismi praecedat aliqua figura Eucharistiae, et ab aliqua praecedatur; sicut
+              praecedit agnus paschalis transitum maris rubri, et sequitur circumcisionem.</p>
+            <p xml:id="ta-l4d8q1-d1e393">Ad secundum dicendum, quod Eucharistia offertur Deo in sanctificatione hostiae, et
+              offertur populo in ipsius sumptione; et hoc significatum fuit in oblatione
+              Melchisedech, qui obtulit Abrahae panem et vinum, et benedixit Deo excelso.</p>
+            <p xml:id="ta-l4d8q1-d1e396">Ad tertium dicendum, quod nihil sub eadem specie manens est signum sui ipsius; sed
+              aliquid secundum quod est in una specie, potest esse signum sui secundum quod est sub
+              alia specie; et similiter est in proposito dicendum, quod aqua fluens de latere
+              Christi figurabat populum, qui ejus sanguine redimendus et reficiendus erat; et ideo
+              significabat aqua sanguini admixta hujus sacramenti usum.</p>
+            <p xml:id="ta-l4d8q1-d1e400">Ad quartum dicendum, quod sacramentum habet omnem suavitatem, inquantum continet
+              fontem omnis gratiae, quamvis non ordinetur ejus usus ad omnes effectus sacramentalis
+              gratiae. Vel dicendum, quod etiam quantum ad effectum habet omnem suavitatis effectum
+              in reficiendo, quia hoc solum sacramentum per modum refectionis operatur. Vel
+              dicendum, secundum Dionysium, quod omnium sacramentorum effectus huic sacramento
+              possunt ascribi, inquantum perfectio est omnis sacramenti, habens quasi in capitulo et
+              summa omnia quae alia sacramenta continent singillatim.</p>
+            <p xml:id="ta-l4d8q1-d1e403">Ad quintum dicendum, quod Baptismus est sacramentum necessitatis quantum ad effectum,
+              quia delet peccatum originale, quo manente non est salus; et ideo oportebat quod in
+              veteri lege responderet sibi aliqua figura, quae contra originale remedium praeberet,
+              scilicet circumcisio. Sed Eucharistia est sacramentum necessitatis quantum ad fidem
+              ejus quod repraesentat, scilicet opus nostrae redemptionis; et ideo non oportuit quod
+              haberet figuras remedium praebentes, sed signantes tantum.</p>
+            <p xml:id="ta-l4d8q1-d1e406">Ad sextum dicendum, quod quamvis in veteri lege fuerint figurae plures materialiter,
+              tamen omnes ad has reducuntur: quia in omnibus sacrificiis et oblationibus antiquorum
+              significabatur illud quod est res et sacramentum in Eucharistia, quod etiam
+              significatur per agnum paschalem, scilicet ipse Christus qui obtulit se Deo patri pro
+              nobis oblationem et hostiam. Vel dicendum, quod istae figurae repraesentant corpus
+              Christi secundum quod est in usu fidelium per esum, quod patet de oblatione
+              Melchisedech, qui panem et vinum edendum obtulit Abrahae; et similiter agnus paschalis
+              edendus a populo occidebatur; et etiam manna ad esum populi a Deo providebatur: aqua
+              etiam sanguini admixta in passione Christi populum significat Christi sanguine
+              communicantem. Non autem ita est in aliis sacrificiis; et ideo quamvis sint figurae
+              Christi passi, non tamen sunt propriae figurae hujus sacramenti. Fit autem in canone
+              Missae mentio de oblatione Abrahae et Abel magis propter devotionem offerentium quam
+              propter figuram rei oblatae.</p>
+          </div>
+          <div xml:id="ta-l4d8q1-Dd1e410">
+            <head xml:id="ta-l4d8q1-Hd1e412">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d8q1-d1e415">Ad tertiam quaestionem dicendum, quod quantum ad id quod est signum tantum in hoc
+              sacramento, expressior figura hujus sacramenti fuit oblatio Melchisedech quam figurae
+              legis Moysi; sed quantum ad id quod est res et sacramentum; expressior fuit figura
+              legis Mosaicae, qua expressius Christus passus significabatur. Et quia ritus
+              sacramenti consistit in signis exterioribus; ideo sacerdotium Christi quantum ad ritum
+              magis convenit cum sacerdotio Melchisedech quam cum sacerdotio levitico; et etiam
+              quantum ad alias conditiones Melchisedech, quas apostolus plenius prosequitur.</p>
+            <p xml:id="ta-l4d8q1-d1e418">Et per hoc patet solutio ad objecta.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d8q1-Dd1e423" type="articulus">
+          <head xml:id="ta-l4d8q1-Hd1e425">Articulus 3</head>
+
+          <head xml:id="ta-l4d8q1-Hd1e428" type="questionTitle">Utrum aliqua fuerit necessitas instituendi hoc
+            sacramentum</head>
+          <div xml:id="ta-l4d8q1-Dd1e431">
+            <head xml:id="ta-l4d8q1-Hd1e433">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d8q1-d1e436">Ad tertium sic proceditur. Videtur quod nulla fuit necessitas instituendi hoc
+              sacramentum. Veniente enim veritate debet cessare figura. Sed hoc sacramentum agitur
+              in figuram dominicae passionis, quae jam realiter venit. Ergo non debuit hoc
+              sacramentum institui.</p>
+            <p xml:id="ta-l4d8q1-d1e439">Praeterea, eadem in actione aliquid instituitur et a contraria dispositione
+              removetur. Sed ad eamdem actionem non debet institui nisi unum sacramentum, sicut unum
+              instrumentum est unius actionis. Cum ergo per Baptismum mundemur a malo, videtur quod
+              non oportuit institui aliquod sacramentum per quod in bono confirmemur, scilicet
+              Eucharistiam, ut in littera dicitur.</p>
+            <p xml:id="ta-l4d8q1-d1e442">Praeterea, ex eisdem ex quibus sumus, et nutrimur, ut in 2 de Generat. dicitur. Sed
+              per Baptismum, qui est spiritualis regeneratio, acquirimus esse spirituale, ut
+              Dionysius dicit. Ergo per gratiam reficimur baptismalem; et ita non oportet hoc
+              sacramentum institui ad spiritualiter reficiendum, ut in littera dicitur.</p>
+            <p xml:id="ta-l4d8q1-d1e445">Sed contra, ad perfectionem corporis exigitur quod membra capiti conjungantur. Sed
+              per hoc sacramentum membra Ecclesiae suo capiti conjunguntur; unde Joan. 6, 57,
+              dicitur: <quote xml:id="ta-l4d8q1-Qd1e447">qui manducat carnem meam, et bibit sanguinem meum, in me manet, et ego
+                in eo</quote>. Ergo necessaria fuit hujus sacramenti institutio.</p>
+            <p xml:id="ta-l4d8q1-d1e452">Praeterea, caritas non est minus necessaria quam fides. Sed habemus unum sacramentum
+              fidei, scilicet Baptismum. Cum ergo caritatis sacramentum sit Eucharistia, unde et
+              communio dicitur; videtur quod ejus institutio fuerit necessaria.</p>
+          </div>
+          <div xml:id="ta-l4d8q1-Dd1e456">
+            <head xml:id="ta-l4d8q1-Hd1e458">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d8q1-d1e461">Ulterius. Videtur quod ante adventum Christi debuerit institui. Christus enim est
+              caput hominum justorum qui fuerunt a principio mundi, ut in 3 Lib., dist. 13, qu. 2,
+              art. 2, quaest. 2 ad 4, dictum est. Si ergo per hoc sacramentum membra capitis mystico
+              suo capiti conjungantur, videtur quod debuerit a principio mundi institui.</p>
+            <p xml:id="ta-l4d8q1-d1e464">Praeterea, populus Israel fuit populus Deo dilectissimus; unde dicitur Exod. 4, 22:
+                <quote xml:id="ta-l4d8q1-Qd1e466">filius meus primogenitus Israel</quote>. Sed hoc sacramentum est sacramentum
+              caritatis, ut dictum est. Ergo debuit institui adhuc priore populo habente statum.</p>
+            <p xml:id="ta-l4d8q1-d1e470">Praeterea, hoc sacramentum dicitur viaticum, quia tendentes ad patriam in via
+              confortat, et quotidianos etiam lapsus reparat. Sed patres qui erant ante adventum
+              Christi, ad patriam tendebant, hospites et peregrinos se vocantes super terram, ut
+              dicitur Hebr. 11, et etiam quotidianis peccatis impediebantur. Ergo ante adventum
+              Christi debuit hoc sacramentum institui.</p>
+            <p xml:id="ta-l4d8q1-d1e473">Sed contra, hoc sacramentum continet verbum incarnatum realiter. Ergo institui non
+              potuit ante incarnationem verbi.</p>
+            <p xml:id="ta-l4d8q1-d1e477">Praeterea, hoc sacramentum continet gratiae plenitudinem; unde et Eucharistia
+              dicitur. Sed tempus plenitudinis incepit ab incarnatione Christi. Ergo ante
+              incarnationem hoc sacramentum institui non potuit.</p>
+          </div>
+          <div xml:id="ta-l4d8q1-Dd1e481">
+            <head xml:id="ta-l4d8q1-Hd1e483">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d8q1-d1e486">Ulterius. Videtur quod post passionem institui debuit. Quia hoc sacramentum est in
+              memoriam dominicae passionis, ut patet 1 Corinth., 11. Sed memoria praeteritorum est.
+              Ergo et praeterita passione Christi institui debuit.</p>
+            <p xml:id="ta-l4d8q1-d1e489">Praeterea, Eucharistia non nisi baptizatis debet dari. Sed Baptismus fuit institutus
+              post Christi passionem, quando dominus discipulis formam baptizandi dedit, Matth. ult.
+              Ergo et post passionem institui debuit Eucharistia.</p>
+            <p xml:id="ta-l4d8q1-d1e492">Praeterea, in his quae sibi invicem continue succedunt, ultimum primi debet conjungi
+              primo secundi. Sed dominus voluit in coena ostendere terminationem veteris legis, et
+              continuationem novae legis ad ipsam, ut ex littera habetur. Ergo debuit post coenam
+              paschalem statim instituere primum sacramentum novae legis, et alia per ordinem; et
+              sic post passionem Eucharistiam, quae est ultimum.</p>
+            <p xml:id="ta-l4d8q1-d1e495">Sed contra, videtur quod debuerit institui a principio praedicationis Christi. Quia
+              quae primo capiuntur, arctius memoriae imprimuntur, ut patet de his quae homo a
+              pueritia capit. Sed dominus voluit ut hoc sacramentum arctissime memoriae
+              commendaretur. Ergo debuit a principio hoc instituere.</p>
+          </div>
+          <div xml:id="ta-l4d8q1-Dd1e500">
+            <head xml:id="ta-l4d8q1-Hd1e502">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d8q1-d1e505">Respondeo dicendum ad primam quaestionem, quod in quolibet genere actionum in quo
+              inveniuntur plures actiones ordinatae diversis agentibus ordinatis distributae,
+              oportet quod principalis illarum actionum attribuatur principali agenti, cujus virtute
+              secundarii agentes operantur secundarias actiones; sicut patet in artibus quae sub
+              invicem continentur, ut militaris, equestris, et frenorum factrix. Et quia invenimus
+              diversas actiones sacramentales diversis sacramentis distributas, quae in virtute
+              verbi incarnati agunt, oportet ad perfectam actionem hujus generis esse aliquam
+              sacramentalem actionem quae ipsimet principali agenti attribuatur, quod est verbum
+              incarnatum; et ideo oportuit esse sacramentum Eucharistiae, quod ipsum verbum
+              incarnatum contineret, ceteris sacramentis tamen in virtute ipsius agentibus; et ideo
+              convenienter in figura cibi hoc sacramentum institutum est: quia inter alios sensus
+              solus tactus est cui suum sensibile realiter conjungitur, similitudinibus tantum
+              sensibilium ad alios sensus per medium pervenientibus: gustus autem tactus quidam est:
+              et inter alia quae ad tactum pertinent, solus cibus est qui agit per conjunctionem sui
+              ad cibatum, quia nutriens et nutritum fit unum; alia vero tangibilia agunt efficiendo
+              aliquas impressiones in eo quod tangitur, sicut patet de calido et frigido, et
+              hujusmodi. Et ideo cum omne sacramentum in figura alicujus rei sensibilis proponi
+              debeat, convenienter sacramentum in quo ipsum verbum incarnatum nobis conjungendum
+              continetur, proponitur nobis in figura cibi, non quidem convertendi in nos per suam
+              conjunctionem ad nos, sed potius sua conjunctione nos in ipsum convertens, secundum
+              quod Augustinus ex persona verbi incarnati dicit: <quote xml:id="ta-l4d8q1-Qd1e507">non tu me mutabis in te,
+                sicut cibum carnis tuae; sed tu mutaberis in me</quote>.</p>
+            <p xml:id="ta-l4d8q1-d1e511">Ad primum ergo dicendum, quod secundum Dionysium nostra hierarchia est media inter
+              caelestem et eam quae in veteri lege erat. Tempore enim legis erat veritas promissa
+              tantum; sed in statu novae legis est veritas inchoata per Jesum Christum; in patria
+              autem erit veritas consummata. Et ideo in veteri lege figurae sine rebus
+              proponebantur; in nova autem proponuntur figurae cum rebus; in patria autem res sine
+              figuris. Et ideo orat Ecclesia ut quod nunc spe gerimus in via, rerum veritate
+              capiamus in patria.</p>
+            <p xml:id="ta-l4d8q1-d1e514">Ad secundum dicendum, quod objectio illa procedit de perfectione illa qua aliquid ad
+              formam receptam perficitur, qualis perfectio fit per Baptismum; non autem de illa quae
+              est per conjunctionem ad principium perfectionis, quae fit per Eucharistiam, ut supra
+              dictum est.</p>
+            <p xml:id="ta-l4d8q1-d1e517">Ad tertium dicendum, quod de nutrimento corporali verum est nos eisdem nutriri ex
+              quibus sumus, quia oportet cibum carnis nostrae in nos transmutari, et ideo oportet
+              quod nobiscum in materia conveniat; secus autem de cibo spirituali, qui nos in seipsum
+              transmutat.</p>
+          </div>
+          <div xml:id="ta-l4d8q1-Dd1e521">
+            <head xml:id="ta-l4d8q1-Hd1e523">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d8q1-d1e526">Ad secundam quaestionem dicendum, quod sicut dictum est, in hoc sacramento ipse
+              Christus, qui est sanctificationis principale agens, realiter nobis proponitur. In
+              veteri autem lege non exhibebatur, sed promittebatur, incarnatione nondum facta; et
+              ideo in veteri lege hujus sacramenti institutio esse non potuit. Unde sacramenta
+              veteris legis habebant se ad modum sensibilium quae per medium cognoscuntur, quae
+              quidem realiter sentienti non conjunguntur, sed suas similitudines ad sensus a
+              longinquo transmittunt. Sacramenta vero alia novae legis, in quibus virtus Christi
+              operatur, cum ipsum realiter non contineant, assimilantur sensibilibus jam dictis,
+              quae quidem non incorporantur sentienti, sed secundum aliquam qualitatem immutant. Hoc
+              autem sacramentum, ut dictum est, quasi majoris perfectionis, similatur illi sensibili
+              quod incorporatur sentienti, scilicet cibo; unde magis distat a modo sacramentorum
+              veteris legis quam sacramenta novae legis.</p>
+            <p xml:id="ta-l4d8q1-d1e529">Ad primum ergo dicendum, quod Christus ab initio mundi erat caput sanctorum, non
+              quasi habens actu conformitatem in natura cum membris Ecclesiae, incarnatione nondum
+              facta, sed solum secundum fidem incarnationem expectantium; et ideo conjunctio
+              corporis mystici ad suum caput pro tempore illo non poterat fieri per aliquod
+              sacramentum realiter continens ipsum caput membris conforme, sed poterat per aliqua
+              sacramenta figurari.</p>
+            <p xml:id="ta-l4d8q1-d1e532">Ad secundum dicendum, quod populus Israel erat dilectissimus pro tempore illo
+              comparatione aliorum populorum, qui idolis serviebant, non autem comparatione populi
+              novi testamenti, de quo dicitur 1 Petr. 2, 9: <quote xml:id="ta-l4d8q1-Qd1e534">vos estis gens sancta, populus
+                acquisitionis</quote>. Vel dicendum, secundum apostolum Rom. 9: non qui sunt
+              secundum carnem, sed qui ex promissione, hi computantur in semine. Unde populus novi
+              testamenti non excluditur ab illo privilegio amoris ratione cujus Israel primogenitus
+              Dei dicebatur.</p>
+            <p xml:id="ta-l4d8q1-d1e538">Ad tertium dicendum, quod quamvis antiqui patres in via essent, tendentes ad patriam,
+              non tamen erant in statu perveniendi ante Christi incarnationem; et ideo non
+              competebat pro tempore illo viaticum esse, quo statim ad patriam perducimur.</p>
+          </div>
+          <div xml:id="ta-l4d8q1-Dd1e542">
+            <head xml:id="ta-l4d8q1-Hd1e544">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d8q1-d1e547">Ad tertiam quaestionem dicendum, quod propter quatuor rationes hoc sacramentum in
+              coena institui debuit, et non ante. Prima apparet ex ipsa necessitate sacramenti
+              assignata: quia ad perfectionem nostram exigebatur ut caput nostrum etiam nobis
+              realiter conjungeretur; et ideo quamdiu sub propria specie cum hominibus conversatus
+              est, non oportebat hoc sacramentum institui, sed quando ejus corporali praesentia
+              destituenda erat Ecclesia; et haec ratio tangitur in littera ab Eusebio:
+                <quote xml:id="ta-l4d8q1-Qd1e549">quia</quote>, inquit, <quote xml:id="ta-l4d8q1-Qd1e552">corpus assumptum ablaturus erat</quote> et
+              cetera. Secunda sumitur ex ejus figura. Christus enim quamdiu in mundo conversatus
+              est, figuras legis observare voluit, factus sub lege, ut eos qui sub lege erant
+              redimeret. Et quia veniente veritate cessat figura, ideo non debuit hoc sacramentum
+              institui nisi Christo ascendente per mortem, quando figurae veteris legis terminandae
+              erant. Tertia ratio sumitur ab ipsa repraesentatione hujus sacramenti. Est enim
+              repraesentativum dominicae passionis; et ideo congrue jam passione imminente
+              instituitur. Quarta ratio sumitur ex ritu quo frequentandum est hoc sacramentum, ut
+              ultimo traditum magis memoriae teneretur.</p>
+            <p xml:id="ta-l4d8q1-d1e556">Ad primum ergo dicendum, quod imminente passione corda discipulorum magis erant
+              affecta ad passionem, quam passione jam peracta, quando jam erant immemores pressurae
+              passionis propter gaudium resurrectionis; et ideo memoriale passionis magis erat eis
+              proponendum ante quam post. Nec tunc erat memoriale, sed instituebatur ut in memoriam
+              in posterum celebrandum.</p>
+            <p xml:id="ta-l4d8q1-d1e559">Ad secundum dicendum, quod Baptismus etiam ante passionem institutus est quantum ad
+              aliquid, ut supra dictum est; et praeterea non oportet quod sit idem ordo
+              institutionis sacramentorum et perceptionis: quia ad finem qui nobis praestituitur,
+              ultimo pervenimus. Sed Eucharistia est quodammodo finis Baptismi: quia per Baptismum
+              aliquis consecratur ad Eucharistiae perceptionem, sicut per ordinem ad ejus
+              consecrationem. Et ideo ratio non procedit.</p>
+            <p xml:id="ta-l4d8q1-d1e562">Ad tertium dicendum, quod quamvis hoc sacramentum sit quasi ultimum in perceptione,
+              est tamen primum in intentione. Institutio autem ordini intentionis respondet; et ideo
+              terminatis sacramentis legalibus hoc primo instituendum fuit.</p>
+            <p xml:id="ta-l4d8q1-d1e566">Ad quartum dicendum, quod ratio illa procedit de illis quae a principio quis capere
+              potest. Apostoli autem a principio non tanti capaces erant mysterii; et ideo in fine
+              hoc eis proponendum fuit. Et praeterea ratio illa procedit de illis quae memoriae
+              imprimuntur propter seipsa; in illis autem quae memoriae imprimit affectio ad
+              dicentem, secus est: quia tunc firmius imprimuntur quando affectionis motus ad
+              dicentem major sentitur. Quanto autem aliquis ad amicum diutius conversatur, fit major
+              dilectio; et quando ab amicis separatur, sentitur motus dilectionis ferventior propter
+              dolorem separationis; et ideo verba amicorum a nobis recedentium finaliter dicta magis
+              memoriae imprimuntur.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d8q1-Dd1e572" type="articulus">
+          <head xml:id="ta-l4d8q1-Hd1e574">Articulus 4</head>
+
+          <head xml:id="ta-l4d8q1-Hd1e577" type="questionTitle">Utrum hoc sacramentum a non jejunis licite sumi possit</head>
+          <div xml:id="ta-l4d8q1-Dd1e580">
+            <head xml:id="ta-l4d8q1-Hd1e582">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d8q1-d1e585">Ad quartum sic proceditur. Videtur quod hoc sacramentum a non jejunis licite sumi
+              possit. Hoc enim sacramentum a domino in coena institutum est. Sed Ecclesia observat
+              ea quae dominus servavit in sacramentorum traditione, sicut formam et materiam. Ergo
+              et ritum deberet servare, ut jam pransis hoc sacramentum traderetur.</p>
+            <p xml:id="ta-l4d8q1-d1e588">Praeterea, 1 Corinth. 11, 33, dicitur: <quote xml:id="ta-l4d8q1-Qd1e590">dum convenitis ad manducandum, invicem
+                expectate. Si quis autem esurit, domi manducet</quote>. Loquitur autem de
+              manducatione corporis Christi. Ergo postquam aliquis domi manducaverit, potest in
+              Ecclesia corpus Christi manducare licite.</p>
+            <p xml:id="ta-l4d8q1-d1e594">Praeterea, de consecratione, dist. 1 dicitur: <quote xml:id="ta-l4d8q1-Qd1e596">sacramenta altaris non nisi a
+                jejunis hominibus celebrantur, excepto uno die anniversario, quo coena domini
+                celebratur</quote>. Ergo ad minus illo die potest aliquis post alios cibos corpus
+              Christi sumere.</p>
+            <p xml:id="ta-l4d8q1-d1e600">Sed contra est quod dicitur de Consecr., dist. 2: <quote xml:id="ta-l4d8q1-Qd1e602">placuit spiritui sancto in
+                honorem tanti sacramenti prius in os Christiani dominicum corpus
+              intrare</quote>.</p>
+            <p xml:id="ta-l4d8q1-d1e607">Praeterea, hoc sacramentum cum magna reverentia sumendum est. Sed post cibum non est
+              aliquis ita sobrius et modestus sicut ante. Ergo non debet post cibum sumi.</p>
+          </div>
+          <div xml:id="ta-l4d8q1-Dd1e611">
+            <head xml:id="ta-l4d8q1-Hd1e613">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d8q1-d1e616">Ulterius. Videtur quod non quaelibet cibi sumptio perceptionem hujus sacramenti
+              impediat. Quia sumptio cibi et potus in parva quantitate in nullo sobrietatem
+              diminuit, immo magis auget naturam confortando. Sed ideo oportet a jejunis sumi, ut
+              cum reverentia sumatur et sobrietate. Ergo non quaelibet sumptio cibi impedit
+              perceptionem hujus sacramenti.</p>
+            <p xml:id="ta-l4d8q1-d1e619">Praeterea, ad perceptionem hujus sacramenti exigitur quod homo sit jejunus. Sed
+              quaedam sunt quae non frangunt jejunium, sicut aqua, et medicinae quaedam. Ergo
+              videtur quod post earum sumptionem homo possit hoc sacramentum percipere.</p>
+            <p xml:id="ta-l4d8q1-d1e622">Praeterea, corpus Christi sicut in os intrat, ita in ventrem trajicitur. Sed si
+              aliquae cibi reliquiae in ore remaneant, et postmodum de mane in ventrem trajiciantur,
+              non impeditur quis a sumptione corporis Christi: quia hoc posset sacerdoti accidere
+              etiam dum est in ipsa celebratione sacramenti, quando non deberet a sumptione corporis
+              Christi desistere. Ergo nec cibus in os missus debet perceptionem hujus sacramenti
+              impedire, in parva quantitate sumptus.</p>
+            <p xml:id="ta-l4d8q1-d1e625">Sed contra est quod ex hoc ipso sacramento reverentia exhibetur quod prius in os
+              corpus domini sumitur a Christianis. Sed quicumque cibus praeponeretur, et in
+              quacumque quantitate, non esset corpus domini prius acceptum. Ergo quaelibet sumptio
+              cibi impedit a perceptione hujus sacramenti.</p>
+          </div>
+          <div xml:id="ta-l4d8q1-Dd1e629">
+            <head xml:id="ta-l4d8q1-Hd1e631">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d8q1-d1e634">Ulterius. Videtur quod homo non statim debet comedere post corporis Christi
+              sumptionem, per hoc quod dicitur de Consecr., dist. 2: <quote xml:id="ta-l4d8q1-Qd1e636">si mane dominica portio
+                editur, usque ad sextam ministri jejunent qui eum consumpserunt, et si in tertia vel
+                quarta hora acceperint, jejunent usque ad vesperam</quote>.</p>
+            <p xml:id="ta-l4d8q1-d1e640">Praeterea, non minor reverentia exhibenda est sacramento jam sumpto quam sumendo. Sed
+              ante perceptionem non est aliquis cibus sumendus. Ergo nec post, quousque in ventre
+              remaneat.</p>
+            <p xml:id="ta-l4d8q1-d1e643">Sed contra est contraria consuetudo totius Ecclesiae.</p>
+          </div>
+          <div xml:id="ta-l4d8q1-Dd1e648">
+            <head xml:id="ta-l4d8q1-Hd1e650">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d8q1-d1e653">Respondeo dicendum ad primam quaestionem, quod hoc sacramentum a jejunis tantum
+              percipi debet, nisi propter necessitatem imminentis mortis, ne contingat sine viatico
+              ex hac vita transire: quod oportet in reverentiam tanti sacramenti, praecipue propter
+              tria institutum esse. Primo propter ipsam sanctitatem sacramenti; ut os Christiani,
+              quo sumendum est, non sit alio cibo prius imbutum, sed quasi novum et purum ad
+              perceptionem ejus reservetur. Secundo propter devotionem quae exigitur ex parte
+              recipientis, et attentionem quae ex cibis acceptis impediri posset, fumis a stomacho
+              ad caput ascendentibus. Tertio propter periculum vomitus, vel alicujus hujusmodi.</p>
+            <p xml:id="ta-l4d8q1-d1e656">Ad primum ergo dicendum, quod forma et materia sunt servata a domino instituente hoc
+              sacramentum quasi essentialia sacramento; et ideo oportuit quod Ecclesia haec
+              retineret. Sed ordinem sumendi servavit dominus quasi convenientem institutioni
+              sacramenti; unde non oportet quod Ecclesia servet: quia non oportet quod illud quod
+              convenit principio vel generationi alicujus rei competat ei quando jam est in esse
+              perfecto; et similiter quod competit sacramento quantum ad sui institutionem, non
+              oportet quod competat ei quantum ad suum usum.</p>
+            <p xml:id="ta-l4d8q1-d1e659">Ad secundum dicendum, quod apostolus non intendit quod fideles post cibos sumptos
+              domi in Ecclesia corpus Christi sumant; sed illos redarguit quia hunc cibum volebant
+              aliis cibis commiscere, quos in Ecclesia sumebant.</p>
+            <p xml:id="ta-l4d8q1-d1e662">Ad tertium dicendum, quod forte Ecclesia aliquo tempore sustinuit in die coenae sumi
+              corpus Christi post alios cibos in repraesentationem dominicae coenae; sed nunc
+              abrogatum est decretum illud per communem consuetudinem: vel loquitur quantum ad
+              astantes qui non sumunt.</p>
+          </div>
+          <div xml:id="ta-l4d8q1-Dd1e666">
+            <head xml:id="ta-l4d8q1-Hd1e668">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d8q1-d1e671">Ad secundam quaestionem dicendum, quod, sicut dictum est, in reverentiam sanctitatis
+              hujus sacramenti institutum est quod os Christiani suscipientis corpus Christi quasi
+              novum ad ipsum sumendum accedat. Quantalibet autem cibi assumptio hanc auferret
+              novitatem; et ideo quaelibet cibi sumptio impedimentum praebet Eucharistiae
+              sumptioni.</p>
+            <p xml:id="ta-l4d8q1-d1e674">Ad primum ergo dicendum, quod legis praecepta se habent ad ea quae agenda sunt sicut
+              universalia ad singularia, ut dicitur in 5 Ethic. Quia enim legislator non potest ad
+              omnes eventus attendere, oportet quod ad ea quae in pluribus accidunt attendens,
+              universalem legem constituat, ut lex universalis sit. Et quia ut frequenter per cibum
+              turbatur hominis discretio et sobrietas, quae praecipue in hoc sacramento exigitur,
+              ideo universaliter prohibitum est post cibum corpus Christi sumi, quamvis aliqua cibi
+              sumptio non impediat rationem; praecipue cum nihil periculi accidat, si post cibum
+              sumptum abstineatur a perceptione hujus sacramenti, quia in articulo necessitatis
+              licet sumere post alios cibos.</p>
+            <p xml:id="ta-l4d8q1-d1e677">Ad secundum dicendum, quod duplex est jejunium; scilicet naturae et Ecclesiae.
+              Jejunium naturae est quo quis jejunus dicitur ante cibum sumptum illa die, etiam si
+              pluries postea comesturus sit: et quia hoc jejunium dicitur ex privatione cibi
+              praeassumpti, ideo quaelibet cibi sumptio hoc jejunium tollit. Jejunium autem
+              Ecclesiae est quo dicitur jejunans secundum modum ab Ecclesia institutum ad carnis
+              afflictionem; et hoc jejunium manet etiam post unicam comestionem, nec solvitur nisi
+              per secundam sumptionem illorum quae in cibum et refectionem de se consueverunt
+              assumi; et ideo ea quae propter alios cibos accipi consueverunt, vel digerendos, sicut
+              electuaria, vel deducendos per membra, sicut potus vini aut aquae, hujusmodi jejunium
+              non solvunt quamvis etiam aliquo modo nutriant. Ad debitam ergo sumptionem dominici
+              corporis non exigitur jejunium Ecclesiae, quia etiam praeter dies jejunii hoc
+              sacramentum celebratur; sed requiritur jejunium naturae propter reverentiam
+              sacramenti; et ideo secundum communem sententiam electuaria et vinum praeassumpta
+              impediunt a perceptione Eucharistiae. Sed de aqua, diversa est opinio. Quidam enim
+              dicunt, quod quia nullo modo nutrit, non solvit neque jejunium naturae neque jejunium
+              Ecclesiae. Sed quamvis aqua in se non nutriat, tamen commixta nutrit. In stomacho
+              autem oportet quod aliis humoribus admisceatur; et ideo in nutrimentum cedere potest;
+              et propter hoc alii probabilius et securius dicunt quod etiam post aquae potum corpus
+              Christi non sumendum est.</p>
+            <p xml:id="ta-l4d8q1-d1e680">Ad tertium dicendum, quod jejunium naturae dicitur per privationem actus comestionis,
+              secundum quod comestio etiam potionem includit. Comestio autem principalis dicitur a
+              sumptione exterioris cibi, quamvis terminetur ad trajectionem cibi in ventrem, et
+              ulterius ad nutritionem; et ideo quae interius geruntur sine exterioris cibi
+              sumptione, non videntur solvere jejunium naturae, nec impedire Eucharistiae
+              perceptionem, sicut deglutitio salivae; et similiter videtur de his quae intra dentes
+              remanent, et etiam de eructationibus: tamen propter reverentiam, nisi necessitas
+              incumbat, potest sine periculo abstineri.</p>
+          </div>
+          <div xml:id="ta-l4d8q1-Dd1e684">
+            <head xml:id="ta-l4d8q1-Hd1e686">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d8q1-d1e689">Ad tertiam quaestionem dicendum, quod secundum consuetudinem Ecclesiae propter
+              reverentiam tanti sacramenti, post ejus sumptionem homo debet in gratiarum actione
+              persistere; unde etiam in Missa oratio gratiarum actionis post communionem dicitur, et
+              sacerdotes post celebrationem suas speciales orationes habent ad gratiarum actionem;
+              et ideo oportet esse aliquod intervallum inter sumptionem Eucharistiae et aliorum
+              ciborum. Sed quia non requiritur magnum intervallum, et quod parum deest, nihil deesse
+              videtur, ut dicitur in 2 Phys., ideo possemus sub hoc sensu concedere quod statim
+              potest aliquis cibos alios sumere post Eucharistiae sumptionem.</p>
+            <p xml:id="ta-l4d8q1-d1e692">Ad primum ergo dicendum, quod illud decretum loquitur secundum consuetudinem
+              primitivae Ecclesiae, quando propter paucitatem ministrorum rarius Missarum solemnia
+              celebrabantur, et cum majori praeparatione. Unde Dionysius narrat de Carpo in suis
+              epistolis quod nunquam Missam celebrabat nisi aliqua divina revelatione prius
+              percepta; et ideo nunc per contrariam consuetudinem abrogatum est.</p>
+            <p xml:id="ta-l4d8q1-d1e695">Ad secundum dicendum, quod sacramentum post sui sumptionem, effectum proprium causat;
+              et ideo oportet actualiter in ipsa sumptione cor hominis in devotione persistere: sed
+              post perceptionem sufficit quod habitu devotio teneatur, quia non potest semper in
+              actu esse; et ideo ea quae possunt actum impedire, prohibentur magis ante sumptionem
+              sacramenti quam post.</p>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 4, Quaestio 2</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Librum IV, Distinctio 4, Quaestio 2</title>
+          <date when="2016-03-18">March 18, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-18">March 18, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness>1856 editum</witness>
+          <witness xml:id="G" n="ghent567">Ghent, Belgium, Ghent University Library, 567</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="0.0.0-dev">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+
+
+
+
+      <div xml:id="starts-on"> 
+        <cb ed="#G" n="57b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ta-l4d4q2">
+        <head xml:id="ta-l4d4q2-Hd1e97">Librum IV, Distinctio 4, Quaestio 2</head>
+        <head xml:id="ta-l4d4q2-Hd1e100" type="questionTitle">De effectum Baptismi, qui est res et non sacramentum</head>
+
+        <div xml:id="ta-l4d4q2-Dd1e103">
+          <head xml:id="ta-l4d4q2-Hd1e105">Prooemium</head>
+          <p xml:id="ta-l4d4q2-d1e108">Deinde quaeritur de effectu Baptismi, qui est res et non sacramentum; et circa hoc
+            quaeruntur tria: 1 de effectu ipsius quantum ad remotionem mali; 2 de effectu ipsius
+            quantum ad collationem boni; 3 utrum effectus ejus aequaliter participetur.</p>
+        </div>
+        <div xml:id="ta-l4d4q2-Dd1e112" type="articulus">
+          <head xml:id="ta-l4d4q2-Hd1e114">Articulus 1</head>
+
+          <head xml:id="ta-l4d4q2-Hd1e117" type="questionTitle">Utrum Baptismus tollat actualem culpam</head>
+          <div xml:id="ta-l4d4q2-Dd1e120">
+            <head xml:id="ta-l4d4q2-Hd1e122">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d4q2-d1e125">Ad primum sic proceditur. Videtur quod Baptismus non tollat actualem culpam.
+              Baptismus enim non tollit actualem culpam nisi adsit contritio: quia nullus suae
+              voluntatis arbiter constitutus in quo solum potest esse actualis culpa potest inchoare
+              novam vitam, nisi poeniteat eum veteris vitae, ut in littera dicitur. Contritio autem
+              per se etiam sine Baptismo delet culpam actualem. Ergo Baptismus nihil facit ad
+              deletionem actualis culpae.</p>
+            <p xml:id="ta-l4d4q2-d1e128">Praeterea, diversorum diversae sunt medicinae: quia non sanat oculum quod sanat
+              calcaneum, ut dicit Hieronymus. Sed Baptismus directe ordinatur ut medicina contra
+              peccatum originale. Ergo non potest salvare ab actuali.</p>
+            <p xml:id="ta-l4d4q2-d1e131">Praeterea, aliquis qui est in proposito peccandi, non potest consequi peccati
+              remissionem. Sed contingit aliquem dum baptizatur, peccare venialiter, vel in
+              proposito peccandi venialiter remanere; nec tamen propter hoc reputatur fictus. Ergo
+              etiam in non fictis Baptismus non tollit culpam actualem.</p>
+            <p xml:id="ta-l4d4q2-d1e134">Sed contra est quod dicit Augustinus in Enchir.: <quote xml:id="ta-l4d4q2-Qd1e136">baptizati non uni tantum
+                peccato, sed multis magis aut omnibus moriuntur quaecumque jam propria commiserunt
+                vel cogitatione vel locutione vel opere</quote>. Sed haec sunt peccata actualia.
+              Ergo Baptismus tollit culpam actualem.</p>
+            <p xml:id="ta-l4d4q2-d1e141">Praeterea, Baptismus est ordinatus ad tollendum culpam originalem. Sed originale non
+              potest tolli sine actuali, etiam ei qui utrumque habet: quia impium est a Deo dimidiam
+              sperare veniam, ut infra dicetur, dist. 15. Ergo Baptismus etiam tollit culpam
+              actualem.</p>
+          </div>
+          <div xml:id="ta-l4d4q2-Dd1e145">
+            <head xml:id="ta-l4d4q2-Hd1e147">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d4q2-d1e150">Ulterius. Videtur quod non tollit omnem poenam temporalem debitam actuali peccato.
+              Quia sicut Augustinus dicit, peccatum aut homo punit, aut Deus. Si ergo homo in seipso
+              non puniat peccatum quod commisit a Deo punietur; et ita per Baptismum actualis
+              peccati poena non totaliter tollitur.</p>
+            <p xml:id="ta-l4d4q2-d1e153">Praeterea, culpa non potest ordinari nisi per poenam. Sed Deus nil inordinatum
+              relinquit. Ergo non dimittit quin pro culpa aliquam poenam infligat; et sic Baptismus
+              non absolvit ab omni poena.</p>
+            <p xml:id="ta-l4d4q2-d1e156">Praeterea, Eucharistia est perfectius sacramentum quam Baptismus, quia est speciale
+              repraesentativum passionis Christi a qua est efficacia in sacramentis. Sed Eucharistia
+              non absolvit etiam non indigne percipientes ab omni poena. Ergo multo minus
+              Baptismus.</p>
+            <p xml:id="ta-l4d4q2-d1e159">Sed contra est quod dicit Ambrosius Rom. 2 super illud: <quote xml:id="ta-l4d4q2-Qd1e161">sine poenitentia enim
+                sunt dona Dei. Gratia Dei</quote> (inquit) <quote xml:id="ta-l4d4q2-Qd1e164">in Baptismo non requirit gemitum
+                vel planctum vel aliquod opus, sed omnia gratis condonat</quote>.</p>
+            <p xml:id="ta-l4d4q2-d1e169">Praeterea, Christus sua simplici morte scilicet poenae, duas mortes in nobis
+              consumpsit ut dicitur in Glossa Rom. 6, scilicet culpae et poenae. Sed in Baptismo
+              configuratur homo morti Christi, ut ibidem dicit apostolus. Ergo absolvitur et a culpa
+              et a poena.</p>
+          </div>
+          <div xml:id="ta-l4d4q2-Dd1e173">
+            <head xml:id="ta-l4d4q2-Hd1e175">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d4q2-d1e178">Ulterius. Videtur quod etiam tollat omnem poenam originalis peccati. Efficacius enim
+              est donum Christi quam peccatum Adae, ut dicit apostolus, Rom. 5. Sed omnis poena
+              peccati originalis est inducta per peccatum Adae. Ergo per donum Christi, quod maxime
+              in Baptismo operatur omnis poena tollitur.</p>
+            <p xml:id="ta-l4d4q2-d1e181">Praeterea, Baptismus directius ordinatur contra peccatum originale quam contra
+              peccatum actuale. Sed tollit omnem poenam actualis peccati, ut Ambrosius dicit. Ergo
+              tollit omnem poenam originalis.</p>
+            <p xml:id="ta-l4d4q2-d1e184">Praeterea, cessante causa cessat effectus. Sed causa poenae est culpa. Si ergo tollit
+              culpam originalem, et per consequens aufert poenam.</p>
+            <p xml:id="ta-l4d4q2-d1e187">Praeterea, nullus qui est debitor alicujus poenae, evolat statim. Sed baptizatus, si
+              statim moriatur, evolat. Ergo non est debitor alicujus poenae; et sic Baptismus
+              absolvit ab omni poena etiam originali.</p>
+            <p xml:id="ta-l4d4q2-d1e191">Sed contra est, quia in baptizatis etiam <quote xml:id="ta-l4d4q2-Qd1e193">caro concupiscit adversus
+                spiritum</quote>. Sed haec pugna est ex peccato originali consecuta. Ergo non
+              tollitur omnis poena originalis peccati per Baptismum.</p>
+            <p xml:id="ta-l4d4q2-d1e197">Praeterea, necessitas moriendi, et incinerationis et poenalitates hujus vitae sunt
+              poenae originalis peccati. Sed istae adhuc manent in baptizatis. Ergo Baptismus non
+              tollit omnem poenam originalis peccati.</p>
+          </div>
+          <div xml:id="ta-l4d4q2-Dd1e202">
+            <head xml:id="ta-l4d4q2-Hd1e204">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d4q2-d1e207">Respondeo dicendum ad primam quaestionem, quod in generatione qualibet per
+              introductionem formae omnis contraria forma expellitur, et etiam dispositio ad formam
+              contrariam, nisi quandoque relinquatur ex indispositione recipientis formam. Unde cum
+              Baptismus sit regeneratio in vitam spiritualem, omne quod est vitae spirituali
+              contrarium, quod scilicet cum gratia stare non potest, quae est spiritualis vitae
+              principium per Baptismum tollitur; et ideo Baptismus delet et originalem et actualem
+              culpam mortalem, et quantum est de se etiam venialem, quae disponit ad privationem
+              gratiae; quamvis quandoque culpa venialis remaneat post Baptismum mortali remota
+              propter indispositionem recipientis Baptismum.</p>
+            <p xml:id="ta-l4d4q2-d1e210">Ad primum ergo dicendum, quod Baptismus non requirit contritionem quasi continuam ad
+              destructionem peccati actualis quasi de se ad hoc non sufficiat, sed solum ad
+              removendam fictionem quae est contraria dispositio impediens effectum Baptismi.</p>
+            <p xml:id="ta-l4d4q2-d1e213">Ad secundum dicendum, quod Baptismus non ordinatur tantum contra culpam originalem
+              alias circumcisis in primitiva Ecclesia non fuisset necessarius Baptismus, sed
+              ordinatur ad destruendum omnem culpam quam inveniat, et ad regenerandum in novam vitam
+              destructa omni vetustate; et ideo est sicut totum potentiale habens completam
+              potentiam ad destruendum totaliter peccatum. Sed poenitentia participat aliquid de
+              potentia, quasi pars potentialis ordinata contra alia peccata, scilicet actualia; quia
+              Baptismus iterari non potest.</p>
+            <p xml:id="ta-l4d4q2-d1e216">Ad tertium dicendum, quod quantum est de se, Baptismus, ut dictum est, tollit omnem
+              culpam originalem et actualem non solum mortalem, sed venialem; quae quamvis non
+              contrarietur gratiae simpliciter, contrariatur tamen gratiae baptismali, quae debet
+              esse perfecta ratione novitatis vitae. Sed potest impediri effectus ejus ex parte
+              recipientis, si sit indispositus per fictionem. Sed cum fictio sit peccatum, sicut
+              peccatum mortale est peccatum simpliciter, ita facit fictum simpliciter, et totaliter
+              effectum Baptismi impedit quantum ad remissionem culpae. Sed peccatum veniale quod in
+              actu vel in proposito est, facit fictum secundum quid, et est secundum quid peccatum,
+              ut dispositio ad peccatum; et ideo impedit effectum Baptismi non simpliciter, sed
+              quantum ad remissionem illius venialis.</p>
+          </div>
+          <div xml:id="ta-l4d4q2-Dd1e220">
+            <head xml:id="ta-l4d4q2-Hd1e222">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d4q2-d1e225">Ad secundam quaestionem dicendum, quod Christus per mortem suam sufficienter
+              satisfecit pro peccatis totius humani generis, etiam si essent multo plura. Et quia
+              homo per Baptismum in mortem Christi baptizatur, et ei commoritur et consepelitur, ut
+              dicitur Roman. 6, ideo Baptismus, quantum in se est, totam efficaciam passionis in
+              baptizatum influit; et propter hoc absolvit non solum a culpa, sed a poena
+              satisfactoria.</p>
+            <p xml:id="ta-l4d4q2-d1e228">Ad primum ergo dicendum, quod per Baptismum homo incorporatur Christo, et efficitur
+              membrum ejus; et ideo poena quam Christus sustinuit, reputatur isti in satisfactionem:
+              quia si patitur unum membrum, omnia alia compatiuntur, ut dicitur 1 Corinth. 11; et
+              ideo Deus in Christo peccata illa punivit, sicut dicitur Isai. 53: <quote xml:id="ta-l4d4q2-Qd1e230">posuit in eo
+                iniquitatem omnium nostrum</quote>.</p>
+            <p xml:id="ta-l4d4q2-d1e234">Ad secundum dicendum, quod poena ordinat culpam dupliciter. Uno modo ut satisfaciens;
+              et sic culpa remanet ordinata per satisfactionem Christi. Alio modo ut medicina
+              sanans, vel repraesentans membrum sanabile, et sic culpa in baptizatis ordinatur ut
+              sanata per gratiam oppositam.</p>
+            <p xml:id="ta-l4d4q2-d1e237">Ad tertium dicendum, quod quamvis Eucharistia sit memoriale passionis Christi, non
+              ordinatur tamen ad hoc quod per ipsam homo regeneretur in membrum Christi crucifixi,
+              sed ut jam regeneratus ei adhaereat, et in ipso perficiatur; et ideo non est similis
+              ratio de Baptismo et Eucharistia.</p>
+          </div>
+          <div xml:id="ta-l4d4q2-Dd1e241">
+            <head xml:id="ta-l4d4q2-Hd1e243">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d4q2-d1e246">Ad tertiam quaestionem dicendum, quod in peccato originali talis fuit processus quod
+              persona corrupit naturam, et natura personam corrupit; unde aliquid consideratur in
+              hoc peccato quod pertinet ad naturam, aliquid quod pertinet ad personam. Passio autem
+              Christi sufficienter peccatum originale abstulit quantum ad utrumque. Sed quia
+              sacramenta personis adhibentur, ideo Baptismus hoc ab homine tollit quod ex
+              corruptione naturae in personam redundabat; et propter hoc ipsam infectionem culpae,
+              prout afficit personam, et poenam illam quae actum personae privabat, scilicet
+              carentiam visionis divinae, Baptismus aufert; sed non aufert actu infectionem prout
+              afficit naturam: quod patet ex hoc quod baptizatus per actum naturae originale
+              transmittit in prolem, similiter nec poenas quae consequuntur principia naturae
+              destitutae gratia innocentiae primi status, cujusmodi sunt rebellio carnis ad
+              spiritum, mors, et hujusmodi poenalitates, quae consequuntur ex hoc ipso quod homo ex
+              contrariis compositus est et quantum ad corpus et quantum ad animam quodammodo,
+              scilicet quantum ad appetitum sensus et intellectus. Sed per gratiam baptismalem
+              efficitur ut hae poenae remanentes non dominentur in personam, sed magis ei
+              subjiciantur, et in utilitatem ipsius cedant, inquantum sunt materia virtutis, et
+              occasio humilitatis et exercitii.</p>
+            <p xml:id="ta-l4d4q2-d1e249">Ad primum ergo dicendum, quod passio Christi sufficienter aufert et illud quod est
+              personae, et illud quod est naturae per causam. Sed quia omnes homines in natura
+              communicant, ideo effectus secundum legem communem curationis naturae non erit nisi in
+              fine mundi; quando omnibus electis jam congregatis, simul cum eis etiam alia creatura
+              insensibilis liberabitur a servitute corruptionis, ut dicitur Rom. 8.</p>
+            <p xml:id="ta-l4d4q2-d1e252">Ad secundum dicendum, quod ea quae ad peccatum actuale pertinent, sunt tantum
+              personae, quia actus individuorum sunt, secundum philosophum; et ideo non est simile
+              de poena actualis et originalis.</p>
+            <p xml:id="ta-l4d4q2-d1e255">Ad tertium dicendum, quod tollitur culpa originalis per Baptismum inquantum est
+              infectiva personae, non autem inquantum est infectiva naturae per actum generationis;
+              et ideo poenae quae ad corruptionem naturae pertinent, etiam non tolluntur.</p>
+            <p xml:id="ta-l4d4q2-d1e259">Ad quartum dicendum, quod baptizatus statim evolat, quia nulla poena debetur sibi
+              ratione personae, sed ratione naturae humanae, quae post mortem non manet secundum
+              hunc statum, in quo sibi poena debetur.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d4q2-Dd1e264" type="articulus">
+          <head xml:id="ta-l4d4q2-Hd1e266">Articulus 2</head>
+
+          <head xml:id="ta-l4d4q2-Hd1e269" type="questionTitle">Utrum per Baptismum conferantur pueris gratia et
+            virtutes</head>
+          <div xml:id="ta-l4d4q2-Dd1e272">
+            <head xml:id="ta-l4d4q2-Hd1e274">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d4q2-d1e277">Ad secundum sic proceditur. Videtur quod per Baptismum non conferantur pueris gratia
+              et virtutes. Dicit enim Augustinus in libro de Baptismo parvulorum: <quote xml:id="ta-l4d4q2-Qd1e279">parvulos
+                fideles facit non fides ea quae consistit in credentium voluntate, sed fidei
+                sacramentum</quote>. Sed fides quae est virtus, consistit in credentium voluntate,
+              ut in 3 libro, dist. 23, quaest. 2, art. 3, quaestiunc. 1, dictum est. Ergo parvuli
+              baptizati non habent virtutem fidei, et pari ratione nec alias virtutes, quae etiam in
+              voluntate consistunt.</p>
+            <p xml:id="ta-l4d4q2-d1e283">Praeterea, si aliquid de novo recipiatur in aliquo, oportet quod recipiens vel
+              influens alio modo se habeat nunc quam prius. Sed anima pueri baptizati non alio modo
+              se habet dum baptizatur quam prius: quia proprium motum non habet, carens liberi
+              arbitrii usu; nec Deus, qui est influens gratiam et virtutes. Ergo pueri in Baptismo
+              gratiam et virtutes non recipiunt.</p>
+            <p xml:id="ta-l4d4q2-d1e286">Praeterea, Damascenus dicit, quod substantia nullo modo est sine propria operatione.
+              Sed constat quod in puero non sunt operationes virtutum, quia non habet electionem, ut
+              dicitur in 3 Ethic., quae in opere virtutis requiritur. Ergo non habet virtutes.</p>
+            <p xml:id="ta-l4d4q2-d1e289">Praeterea, virtutes, cum sint habitus, habilitant ad actum. Sed pueri non sunt
+              habiles ad agendum quae secundum virtutem sunt. Ergo non recipiunt virtutes in
+              Baptismo.</p>
+            <p xml:id="ta-l4d4q2-d1e293">Sed contra, Augustinus dicit, quod fides datur et nutritur in Baptismo: datur quantum
+              ad parvulos, nutritur quantum ad adultos. Sed fides est virtus. Ergo virtutes dantur
+              parvulis in Baptismo, et eadem ratione aliae virtutes.</p>
+            <p xml:id="ta-l4d4q2-d1e296">Praeterea, nullus admittitur ad gloriam nisi habeat vestem nuptialem, quae est
+              caritas. Sed pueri baptizati, si moriantur, statim evolant. Ergo habent caritatem,
+              quae est magistra virtutum, et per consequens alias virtutes.</p>
+          </div>
+          <div xml:id="ta-l4d4q2-Dd1e300">
+            <head xml:id="ta-l4d4q2-Hd1e302">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d4q2-d1e305">Ulterius. Videtur quod in adultis virtutes per Baptismum non augeantur. Augmentum
+              enim virtutum est per meritum: quia secundum Augustinum, caritas meretur augeri, ut
+              aucta mereatur et perfici. Sed in Baptismo non operatur meritum baptizati quantum ad
+              opus operatum. Ergo ex opere operato virtutes in Baptismo non augentur.</p>
+            <p xml:id="ta-l4d4q2-d1e308">Praeterea, cibus corporalis in eo qui jam pervenit ad quantitatem determinatam, non
+              facit augmentum. Sed potest esse quod aliquis ante Baptismum perveniat ad quantitatem
+              gratiae baptismalis quam puer recipit, in quo nullum est impedimentum. Ergo Baptismus
+              nihil supra gratiam adjiciet.</p>
+            <p xml:id="ta-l4d4q2-d1e311">Sed contra, super illud Psal. 22: <quote xml:id="ta-l4d4q2-Qd1e313">super aquam refectionis educavit me</quote>,
+              dicit Glossa: <quote xml:id="ta-l4d4q2-Qd1e316">per augmentum virtutis et bonae operationis educavit in
+                Baptismo</quote>. Ergo Baptismus auget virtutes habentibus.</p>
+          </div>
+          <div xml:id="ta-l4d4q2-Dd1e321">
+            <head xml:id="ta-l4d4q2-Hd1e323">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d4q2-d1e326">Ulterius. Videtur quod Baptismi effectus non sit illuminatio. Quia illuminatio ad
+              doctrinam pertinet. Sed doctrina fidei est per catechismum, qui praecedit Baptismum.
+              Ergo non est actus Baptismi.</p>
+            <p xml:id="ta-l4d4q2-d1e329">Praeterea, illuminatio contra ignorantiam ordinatur. Sed secundum quosdam Baptismus
+              non ordinatur contra ignorantiam, sed magis ordo. Ergo illuminatio non est effectus
+              Baptismi, sed magis ordinis.</p>
+            <p xml:id="ta-l4d4q2-d1e332">Sed contra est quod Damascenus, ponit inter effectus Baptismi illuminationem, ut
+              patet ex ejus definitione in praecedenti dist. inducta.</p>
+          </div>
+          <div xml:id="ta-l4d4q2-Dd1e337">
+            <head xml:id="ta-l4d4q2-Hd1e339">Quaestiuncula 4</head>
+            <p xml:id="ta-l4d4q2-d1e342">Ulterius. Videtur quod fecundatio non sit effectus Baptismi. Non enim idem est quo
+              aliquis active generat, et passive generatur. Sed Baptismus est regeneratio passiva
+              baptizati. Cum ergo fecunditas importet generationem activam, videtur quod non
+              pertineat ad Baptismum.</p>
+            <p xml:id="ta-l4d4q2-d1e345">Praeterea, fecunditas est proprietas consequens aliquid quantum ad perfectum statum
+              sui: quia, ut dicitur in 4 Meteor., perfectum unumquodque est, quando potest alterum
+              generare. Sed Baptismus non ordinatur ad perficiendum, sicut Eucharistia et
+              confirmatio, secundum Dionysium, sed magis ad illuminandum et purgandum. Ergo
+              Baptismus non habet fecunditatem pro effectu.</p>
+            <p xml:id="ta-l4d4q2-d1e348">Sed contra est quod dicit Glossa super illud Psal. 22: <quote xml:id="ta-l4d4q2-Qd1e350">super aquam
+                refectionis: anima peccatorum ariditate sterilis fecundatur per
+              Baptismum</quote>.</p>
+          </div>
+          <div xml:id="ta-l4d4q2-Dd1e355">
+            <head xml:id="ta-l4d4q2-Hd1e357">Quaestiuncula 5</head>
+            <p xml:id="ta-l4d4q2-d1e360">Ulterius. Videtur quod incorporari Christo non sit effectus Baptismi. Aliquis enim
+              incorporatur Christo et membris ejus per fidem formatam, ut in 3 Lib., dist. 23, dixit
+              Magister. Sed aliquis habet fidem formatam etiam ante Baptismum. Ergo incorporatio non
+              est effectus Baptismi.</p>
+            <p xml:id="ta-l4d4q2-d1e363">Praeterea, incorporatio est effectus Eucharistiae. Sed ad eumdem effectum non
+              ordinantur diversa sacramenta. Ergo non est effectus Baptismi.</p>
+            <p xml:id="ta-l4d4q2-d1e366">Sed contra est quod Augustinus dicit ad Bonifacium quod in Baptismo aliquis membrum
+              Christi efficitur. Sed hoc est Christo incorporari. Ergo incorporatio est effectus
+              Baptismi.</p>
+          </div>
+          <div xml:id="ta-l4d4q2-Dd1e370">
+            <head xml:id="ta-l4d4q2-Hd1e372">Quaestiuncula 6</head>
+            <p xml:id="ta-l4d4q2-d1e375">Ulterius. Videtur quod apertio januae non sit effectus Baptismi. Quidam enim ante
+              passionem Christi baptizati sunt. Sed tunc eis janua non est aperta: quia si aliquis
+              eorum tunc decessit, regnum non introivit. Ergo Baptismus non aperit januam regni
+              caelestis.</p>
+            <p xml:id="ta-l4d4q2-d1e378">Praeterea, Baptismus repraesentat passionem Christi, non resurrectionem, ut videtur.
+              Sed in resurrectione est aperta janua, ut patet per collectam quae dicitur in die
+              resurrectionis: <quote xml:id="ta-l4d4q2-Qd1e380">Deus qui in hodierna die per unigenitum tuum aeternitatis nobis
+                aditum devicta morte reserasti</quote>. Ergo non debet iste effectus Baptismo
+              attribui.</p>
+            <p xml:id="ta-l4d4q2-d1e384">Sed contra est auctoritas Bedae supra inducta, dist. 1, quod in hoc differebat
+              circumcisio a Baptismo quod aditum regni caelestis non aperiebat.</p>
+          </div>
+          <div xml:id="ta-l4d4q2-Dd1e388">
+            <head xml:id="ta-l4d4q2-Hd1e390">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d4q2-d1e393">Respondeo dicendum ad primam quaestionem, quod circa hoc est multiplex opinio. Quidam
+              enim dixerunt, quod pueris in Baptismo nullo modo virtutes dantur, sed solum a peccato
+              originali mundantur; sed postea quando decedunt, vel quando ad perfectam aetatem
+              veniunt, eis virtutes conferuntur, si innocentiam servent. Sed haec opinio non potest
+              stare: quia lignum cum praecisum fuerit, ubi ceciderit, ibi stabit, Eccle. 11; et ideo
+              si pueris ante mortem non fuissent collatae virtutes, et gratia operans et cooperans,
+              nec in morte eis conferrentur, et sic non salvarentur; quod falsum est. Videtur autem
+              haec opinio venisse ex hoc quod virtutes actus tantum esse credebant; quod falsum est,
+              ut in 2 libro, dist. 27, quaest. 1, art. 1, dictum est. Et ideo alii dicunt, quod
+              pueris in Baptismo dantur gratia et virtutes non in seipsis, sed in radice sua,
+              scilicet gratia quae est radix virtutum, sicut essentia animae potentiarum; sed postea
+              quando solvuntur potentiae, perfectis organis, effluunt virtutes in ipsa ab ipsa
+              essentia animae. Sed hoc pro tanto esse non potest, quia tunc si puer in furiam
+              verteretur antequam ad perfectam aetatem veniret, nunquam in ipso potentiae
+              solverentur, et ita nunquam virtutes explicite haberet: et praeterea quod potentiae
+              sint ligatae aliquo impedimento, non impedit habitum, sed actum: quia dormientes et
+              vinolenti habitus habent, sed ligatos. Et ideo alii dicunt, et melius, quod pueris in
+              Baptismo dantur gratia et virtutes; sed habitus illi ligati sunt propter pueritiam,
+              sicut in dormiente propter somnum: sed pueritia discedente inclinant ad bene
+              operandum, nisi aliquis spiritui sancto resistat.</p>
+            <p xml:id="ta-l4d4q2-d1e396">Ad primum ergo dicendum, quod Augustinus loquitur de fide et voluntate actuali, quae
+              in pueris esse non potest.</p>
+            <p xml:id="ta-l4d4q2-d1e399">Ad secundum dicendum, quod quamvis agens principale sit immobile, tamen agens
+              instrumentale non eodem modo se habet nunc et prius ad puerum: quia nunc adhibetur
+              sibi Baptismus, non autem prius. Tamen etiam sine aliqua mutabilitate sui Deus alicui
+              puero posset gratiam conferre, etiam sine adhibitione sacramenti, si ab aeterno
+              disposuisset se ei daturum, sicut patet de sanctificatis in utero.</p>
+            <p xml:id="ta-l4d4q2-d1e402">Ad tertium dicendum, quod duplex est actus virtutum. Unus primus, qui est perficere
+              animam et potentias ejus; et hunc actum etiam pueri habent. Alius est secundus, qui
+              est operari cum electione; et hunc actum non semper habent: quia earum operationes
+              sunt voluntariae, et voluntas non habet necesse semper agere, etiam in adultis.</p>
+            <p xml:id="ta-l4d4q2-d1e406">Ad quartum dicendum, quod habitus facit habilem ad actum tollendo inhabilitatem quae
+              est ex imperfectione potentiae, non autem tollit inhabilitatem quae est ex parte
+              corporis, sicut patet in dormientibus.</p>
+          </div>
+          <div xml:id="ta-l4d4q2-Dd1e410">
+            <head xml:id="ta-l4d4q2-Hd1e412">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d4q2-d1e415">Ad secundam quaestionem dicendum, quod per easdem causas virtus generatur et augetur,
+              ut dicit philosophus in 2 Ethic.; et ideo, quia Baptismi est conferre virtutem et
+              gratiam non habentibus, oportet quod in habentibus augeat.</p>
+            <p xml:id="ta-l4d4q2-d1e418">Ad primum ergo dicendum, quod in Baptismo quamvis non operetur meritum baptizati,
+              operatur ibi tamen meritum Christi, quod est efficacius.</p>
+            <p xml:id="ta-l4d4q2-d1e421">Ad secundum dicendum, quod gratia non habet aliquem determinatum terminum ad quem
+              pertingat, vel ultra quem procedere non possit, sicut est de quantitate animalis; et
+              ideo non est simile.</p>
+          </div>
+          <div xml:id="ta-l4d4q2-Dd1e425">
+            <head xml:id="ta-l4d4q2-Hd1e427">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d4q2-d1e430">Ad tertiam quaestionem dicendum quod lumen est quo dirigimur in visionem alicujus
+              rei. Baptismus autem dirigit in visionem spiritualem exteriorem in interiorem. Quidem
+              inquantum Baptismus dicitur sacramentum fidei, quae oculum mentis idoneum facit ad
+              visionem divinorum; exteriorem vero, quia baptizatis conceditur inspicere sacram
+              Eucharistiam, et non aliis, ut Dionysius dicit; et ideo tam Damascenus quam Dionysius
+              Baptismo vim illuminativam attribuunt.</p>
+            <p xml:id="ta-l4d4q2-d1e433">Ad primum ergo dicendum, quod fides principaliter est ex infusione; et quantum ad hoc
+              per Baptismum datur; sed quantum ad determinationem suam est ex auditu; et sic homo ad
+              fidem per catechismum instruitur.</p>
+            <p xml:id="ta-l4d4q2-d1e436">Ad secundum dicendum, quod scientia plus dicit quam illuminatio. Importat enim
+              comprehensionem eorum ad quorum visionem illuminatio dirigebat; et ideo scientia ad
+              perfectionem pertinet; unde Dionysius doctos perfectos nominat, et doctores
+              perfectores: et sic contra ignorantiam ordo datur, ut scilicet ordinati sint docti, et
+              etiam doctores aliorum.</p>
+          </div>
+          <div xml:id="ta-l4d4q2-Dd1e441">
+            <head xml:id="ta-l4d4q2-Hd1e443">Quaestiuncula 4</head>
+            <p xml:id="ta-l4d4q2-d1e446">Ad quartam quaestionem dicendum, quod fecunditas dicitur dupliciter. Uno modo
+              respectu fructus producendi in ipso qui dicitur fecundari, sicut operationes virtutum
+              quidam fructus boni dicuntur; et hoc modo fecundatur anima in Baptismo, cum in eo
+              dentur virtutes non habentibus, et augeantur habentibus. Alio modo respectu fructus
+              producendi in altero, sicut cum aliquis per doctrinam et solicitudinem pastoralem in
+              plebe Dei fructum facit; et hoc modo fecundatio non pertinet ad Baptismum, sed magis
+              ad sacramentum ordinis.</p>
+            <p xml:id="ta-l4d4q2-d1e449">Ad primum ergo dicendum, quod ex eodem ex quo aliquid habet generationem in natura
+              aliqua, habet quod faciat operationes illius naturae; et ideo cum per Baptismum homo
+              regeneretur in vitam spiritualem, per ipsum homo efficitur active fecundus, et quasi
+              genitor spiritualium operum.</p>
+            <p xml:id="ta-l4d4q2-d1e452">Ad secundum dicendum, quod ratio illa procedit de secunda fecundatione.</p>
+          </div>
+          <div xml:id="ta-l4d4q2-Dd1e456">
+            <head xml:id="ta-l4d4q2-Hd1e458">Quaestiuncula 5</head>
+            <p xml:id="ta-l4d4q2-d1e461">Ad quintam quaestionem dicendum, quod incorporari Christo contingit dupliciter,
+              scilicet merito et numero. Merito quidem potest aliquis de Ecclesia effici (quod est
+              Christo incorporari) etiam ante Baptismum actu susceptum, sed non ante Baptismi
+              propositum vel ipsum Baptismum post tempus gratiae revelatae; sed numero non potest
+              aliquis effici de Ecclesia nisi per Baptismum; unde aliquis ante Baptismum non
+              admittitur ad perceptionem Eucharistiae et aliorum sacramentorum Ecclesiae, ut prius
+              dictum est.</p>
+            <p xml:id="ta-l4d4q2-d1e464">Ad primum ergo dicendum, quod objectio illa procedit de prima incorporatione.</p>
+            <p xml:id="ta-l4d4q2-d1e467">Ad secundum dicendum, quod perceptio Eucharistiae praesupponit incorporationem
+              absolute: quia capitis virtus non communicatur membro nisi jam unito. Sed per
+              Eucharistiam est perfecta influentia a capite in membro; et quantum ad hanc
+              perfectionem incorporatio est effectus Eucharistiae.</p>
+          </div>
+          <div xml:id="ta-l4d4q2-Dd1e471">
+            <head xml:id="ta-l4d4q2-Hd1e473">Quaestiuncula 6</head>
+            <p xml:id="ta-l4d4q2-d1e476">Ad sextam quaestionem dicendum, quod aperiri januam regni caelestis nihil aliud est
+              quam amovere impedimentum quo aditus in regnum caeleste toti naturae humanae
+              prohibebatur. Hoc ergo impedimentum absolute quantum ad omnes remotum fuit
+              sufficienter per passionem Christi; sed illa remotio efficienter fit quo ad istum,
+              secundum quod particeps fit passionis Christi jam factae per Baptismum; et sic
+              Baptismus quasi causa instrumentalis aperit januam regni caelestis quo ad istum, sed
+              passio ut causa satisfactoria quo ad omnes.</p>
+            <p xml:id="ta-l4d4q2-d1e479">Ad primum ergo dicendum, quod haec ratio erat, quia passio Christi, in cujus virtute
+              Baptismus agit, nondum facta erat, nec per eum aditus regni caelestis apertus; unde
+              ratio probat quod Baptismus non habeat hanc virtutem quasi causa principalis.</p>
+            <p xml:id="ta-l4d4q2-d1e482">Ad secundum dicendum, quod aditus regni caelestis aperitur tripliciter. Uno modo
+              quantum ad gloriam animae; et sic in passione apertus est; unde dictum est latroni,
+              Luc. 23, 43: <quote xml:id="ta-l4d4q2-Qd1e484">hodie mecum eris in Paradiso</quote>. Alio modo quantum ad gloriam
+              corporis; et sic apertus est in resurrectione. Alio modo quantum ad locum gloriae
+              congruentem; et sic apertus est in ascensione. Et his tribus modis Baptismus
+              instrumentaliter aperit quo ad istum: agit enim virtute et passionis et resurrectionis
+              et ascensionis, inquantum homo configuratur Christo passo per immersionem, qua
+              quodammodo Christo consepelitur, et ei resurgenti quantum ad nitorem qui resultat ex
+              aqua, et ascendenti quantum ad elevationem baptizati de sacro fonte. Unde Baptismus
+              passioni appropriatur: quia etiam gloria animae principalior est, et causa quodammodo
+              aliorum; et in hujus signum baptizato domino caeli aperti sunt super eum; Matth.
+              3.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d4q2-Dd1e491" type="articulus">
+          <head xml:id="ta-l4d4q2-Hd1e493">Articulus 3</head>
+
+          <head xml:id="ta-l4d4q2-Hd1e496" type="questionTitle">Utrum Baptismus aequalem effectum habeat in omnes quantum ad
+            remotionem mali</head>
+          <div xml:id="ta-l4d4q2-Dd1e499">
+            <head xml:id="ta-l4d4q2-Hd1e501">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d4q2-d1e504">Ad tertium sic proceditur. Videtur quod Baptismus non aequalem effectum habeat in
+              omnes quantum ad remotionem mali. In adultis enim removet peccatum actuale et
+              originale; sed in pueris originale tantum. Ergo plus efficit in adultis quam in pueris
+              quantum ad mali remotionem.</p>
+            <p xml:id="ta-l4d4q2-d1e507">Praeterea, mitigatio fomitis est effectus Baptismi. Sed post Baptismum in quibusdam
+              invenitur fomes magis mitigatus quam in aliis. Ergo in eis efficacius Baptismus se
+              habuit in remotione mali.</p>
+            <p xml:id="ta-l4d4q2-d1e510">Sed contra, Baptismus habet efficaciam ad removendum malum, secundum quod habet
+              quamdam similitudinem mortis. Sed morientium unus non magis moritur quam alius. Ergo
+              et Baptismus aequaliter in omnibus mala aufert.</p>
+          </div>
+          <div xml:id="ta-l4d4q2-Dd1e514">
+            <head xml:id="ta-l4d4q2-Hd1e516">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d4q2-d1e519">Ulterius. Videtur quod etiam aequalis gratia omnibus in Baptismo conferatur, qui non
+              ficte accedunt. In Baptismo enim operatur passio Christi, quae habet quodammodo
+              efficaciam infinitam. Sed finitum infinito additum nihil majus efficit. Cum ergo
+              devotio accedentis qua unus alium excedit, sit quoddam bonum finitum, videtur quod
+              devotio vel aliquid hujusmodi, efficere non possit quin omnes in Baptismo aequalem
+              gratiam consequantur.</p>
+            <p xml:id="ta-l4d4q2-d1e522">Praeterea, ad Baptismi effectum capiendum non requiritur alia concausa, sed solum ut
+              impedimentum removeatur. Sed nullus recipit gratiam in Baptismo nisi ab eo sit
+              impedimentum remotum. Ergo omnes recipiunt gratiam aequalem.</p>
+            <p xml:id="ta-l4d4q2-d1e525">Sed contra, Damascenus dicit, quod peccatorum remissio cunctis aequaliter in Baptismo
+              datur, gratia autem spiritus sancti secundum proportionem fidei, et secundum
+              purgationem. Sed non omnes cum aequali fide nec aequaliter praeparati ad Baptismum
+              accedunt. Ergo non omnes aequaliter gratiam consequuntur.</p>
+          </div>
+          <div xml:id="ta-l4d4q2-Dd1e529">
+            <head xml:id="ta-l4d4q2-Hd1e531">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d4q2-d1e534">Ulterius. Videtur quod nec etiam pueri in Baptismo consequantur aequalem gratiam.
+              Quia in Angelis secundum quantitatem naturalium gratia infundebatur. Sed unus puerorum
+              habet meliora naturalia quam alius. Ergo et majorem gratiam in Baptismo recipit.</p>
+            <p xml:id="ta-l4d4q2-d1e537">Praeterea, quidam in Baptismo recipiunt gratiam finalem, qui innocentiam baptismalem
+              usque ad finem servant, quidam autem non. Ergo etiam de pueris aliqui aliis majorem
+              gratiam consequuntur.</p>
+            <p xml:id="ta-l4d4q2-d1e540">Sed contra, gratia baptismalis in pueritia non opponitur nisi peccato originali. Sed
+              unus puer non habet plus de peccato originali quam alius. Ergo nec majorem gratiam
+              baptismalem recipit unus alio.</p>
+          </div>
+          <div xml:id="ta-l4d4q2-Dd1e545">
+            <head xml:id="ta-l4d4q2-Hd1e547">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d4q2-d1e550">Respondeo dicendum, ad primam quaestionem, quod Baptismus universaliter aufert in eo
+              qui non ficte accedit, culpam personam inficientem, quam invenit, ut dictum est, et
+              sic accedit ad terminum. Ea autem quae in termino sunt, intensionem non recipiunt; et
+              ideo quantum ad remotionem culpae, aequalem effectum habet in omnibus Baptismus; et
+              similiter est de poena personali, quae respondet culpae originali prout est inficiens
+              personam, scilicet carentia divinae visionis. Sed contra aliam poenam ex principiis
+              naturae corruptae consequentem, sicut est concupiscentia vel fomes, remedium adhibetur
+              in Baptismo, ut non dominentur per gratiam in Baptismo collatam; et ideo simile est de
+              poena illa et de gratia.</p>
+            <p xml:id="ta-l4d4q2-d1e553">Ad primum ergo dicendum, quod hoc non est de efficacia Baptismi quod non tot peccata
+              destruit in uno quot in alio: in quolibet enim destruit omnia quae invenit.</p>
+            <p xml:id="ta-l4d4q2-d1e556">Ad secundum dicendum, quod illa objectio procedit de secunda poena, quae habet
+              reprimi per Baptismum ex parte gratiae collatae.</p>
+          </div>
+          <div xml:id="ta-l4d4q2-Dd1e560">
+            <head xml:id="ta-l4d4q2-Hd1e562">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d4q2-d1e565">Ad secundam quaestionem dicendum, quod actus activorum recipiuntur in passivis
+              secundum suam dispositionem; et ideo quamvis Baptismus (ut et passio Christi, quae in
+              eo operatur) quantum est de se, aequalem respectum ad omnes habeat; quia tamen quidam
+              ad Baptismum cum majori praeparatione fidei et devotionis accedunt quam alii, ideo
+              quidam aliis majorem gratiam consequuntur. Nullus enim gratiam in termino recipit, ut
+              intendi non possit per Baptismum.</p>
+            <p xml:id="ta-l4d4q2-d1e568">Ad primum ergo dicendum, quod devotio baptizati non additur quasi concausa, ut
+              efficienter agat ad gratiae receptionem; sed additur quasi dispositio materialis; et
+              ideo secundum diversitatem ipsius participatur Baptismi effectus.</p>
+            <p xml:id="ta-l4d4q2-d1e571">Ad secundum dicendum, quod quando adultus baptizatur, non solum requiritur ad
+              percipiendum Baptismi effectum removens prohibens, scilicet fictionem, sed etiam
+              requiritur dispositio quasi materialis, scilicet devotio et fides recipientis
+              Baptismum; et secundum quod magis vel minus invenitur dispositus, effectum Baptismi
+              diversimode consequitur.</p>
+          </div>
+          <div xml:id="ta-l4d4q2-Dd1e575">
+            <head xml:id="ta-l4d4q2-Hd1e577">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d4q2-d1e580">Ad tertiam quaestionem dicendum, quod in pueris baptizatis nihil ex parte eorum
+              requiritur, sed habent quasi pro dispositione ad salutem fidem Ecclesiae, et pro
+              effectivo salutis virtutem passionis Christi, quae operatur in Baptismo; et haec duo
+              aequaliter ad pueros se habent; et ideo non differunt quantum ad effectum Baptismi
+              suscipiendum, sed omnes aequalem gratiam suscipiunt.</p>
+            <p xml:id="ta-l4d4q2-d1e583">Ad primum ergo dicendum, quod non est simile de pueris et de Angelis: quia Angeli
+              differunt specie, secundum multorum opinionem, pueri autem non; unde non est tanta
+              differentia naturalium in pueris sicut in Angelis. Vel dicendum, quod in Angelis
+              secundum proportionem gradus naturalium erat etiam proportio conatus qui ex parte
+              eorum requirebatur, et ideo accipiebant gratiam secundum proportionem naturalium; in
+              pueris autem non requiritur aliquis actus ex parte eorum; et ideo non est simile.</p>
+            <p xml:id="ta-l4d4q2-d1e586">Ad secundum dicendum, quod gratia accepta in pueris, non facit eis necessitatem ad
+              bonum, sed inclinationem tantum; et ideo postquam ad perfectam aetatem pervenerint,
+              possunt diversimode gratia recepta uti; et inde est quod quidam proficiunt et
+              perseverant, quidam vero deficiunt; non ex diversa quantitate gratiae in Baptismo
+              perceptae.</p>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

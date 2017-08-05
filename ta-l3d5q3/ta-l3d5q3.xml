@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum III, Distinctio 5, Quaestio 3</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.09-dev-master">
+          <title>Librum III, Distinctio 5, Quaestio 3</title>
+          <date when="2016-02-24">February 24, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-02-24">February 24, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness>1856 editum</witness>
+          <witness xml:id="H" n="harv245" xml:base="http://iiif.lib.harvard.edu/manifests/drs:51994085/canvas/">Cambridge, Mass., Harvard University, Houghton Library, MS Lat 245</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="2015.09">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+
+
+
+
+      <div xml:id="starts-on">
+        <cb ed="#H" n="26ra"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ta-l3d5q3">
+        <head xml:id="ta-l3d5q3-Hd1e97">Librum III, Distinctio 5, Quaestio 3</head>
+        <div xml:id="ta-l3d5q3-Dd1e100">
+          <head xml:id="ta-l3d5q3-Hd1e102">Prooemium</head>
+          <p xml:id="ta-l3d5q3-d1e105">Deinde quaeritur de assumpto; et circa hoc quaeruntur tria: 1 utrum natura humana sit assumpta; 2 utrum anima sit persona; 3 utrum persona hominis sit assumpta.</p>
+        </div>
+        <div xml:id="ta-l3d5q3-Dd1e109" type="articulus">
+          <head xml:id="ta-l3d5q3-Hd1e111">Articulus 1</head>
+          <head xml:id="ta-l3d5q3-Hd1e114" type="questionTitle">Utrum humana natura sit assumpta</head>
+          <p xml:id="ta-l3d5q3-d1e117">Ad primum sic proceditur. Videtur, quod humana natura non sit assumpta. Quia, secundum <name ref="#Boethius">Boetium</name>, natura, prout hic loquimur de ea, est unumquodque informans specifica differentia. Sed differentia specifica est naturam nudam significans: non enim significat eam ut in aliquo. Cum ergo secundum <name>Damascenum</name>, non assumpserit Deus naturam quae in nuda est contemplatione, videtur quod non assumpsit naturam.</p>
+          <p xml:id="ta-l3d5q3-d1e126">Praeterea, quod assumitur, oportet praeexistere. Sed humana natura non praeextitit unioni: quia simul fuit caro, et Dei verbi caro. Ergo natura non assumitur.</p>
+          <p xml:id="ta-l3d5q3-d1e129">Praeterea, natura est idem quod essentia. Sed non potest dici, quod essentiam assumpserit: quia essentia dicitur ab essendo; esse autem personae est, quam non assumpsit. Ergo nec naturam assumpsit.</p>
+          <p xml:id="ta-l3d5q3-d1e133">Praeterea, natura humana est ipsa humanitas. Sed humanitas non potest esse sine homine. Cum igitur id quod assumptum est, non fuerit homo, ut dicitur in littera, videtur quod nec humanitas, et ita nec humana natura.</p>
+          <p xml:id="ta-l3d5q3-d1e136">Praeterea, assumptio terminatur ad unionem. Sed humana natura non est unita: quia uniens est unitum; natura autem humana non est filius Dei. Ergo natura humana non est assumpta.</p>
+          <p xml:id="ta-l3d5q3-d1e139">Sed contra, <ref xml:id="ta-l3d5q3-Rd1e141"><name ref="#Augustine">Augustinus</name> in <title>Lib. de fide ad Petrum:</title></ref> <quote xml:id="ta-l3d5q3-Qd1e148">Deus humanam naturam in unitatem personae accepit</quote>.</p>
+          <p xml:id="ta-l3d5q3-d1e152">Praeterea, Deus per assumptionem fit homo. Sed non est homo in quo non sit humana natura. Ergo Deus humanam naturam assumpsit.</p>
+          <p xml:id="ta-l3d5q3-d1e155">Praeterea, <ref xml:id="ta-l3d5q3-Rd1e157"><title ref="#phil">Philip.</title> 2, 7:</ref> <quote xml:id="ta-l3d5q3-Qd1e162" ana="#phil2_7">formam servi accipiens</quote>, idest naturam.</p>
+          <p xml:id="ta-l3d5q3-d1e166">Respondeo dicendum, quod quicumque confitetur incarnationem, ponit humanam naturam assumptam: et quamvis secundum omnes modos quibus dicitur natura superius positos, possit dici natura assumpta, non oportet discurrere per singula, cum naturam omnes intelligant, qui dicunt naturam humanam assumptam, secundum quod natura significat quidditatem.</p>
+          <p xml:id="ta-l3d5q3-d1e170">Ad primum ergo dicendum, quod sicut genus est quaedam intentio quam intellectus ponit circa formam intellectam; ita etiam differentia, et omnia quae significant secundas intentiones. Tamen huic intentioni intellectae respondet natura quaedam quae est in particularibus; quamvis secundum quod est in particularibus, non habeat rationem generis vel speciei. Secundum hoc dico, quod <name ref="#Boethius">Boetius</name> non intendit dicere, quod differentia secundum quod accidit ei intentio differentiae, sit natura, sed quantum ad id quod est in re ipsa, scilicet quidditas rei quam differentia complet.</p>
+          <p xml:id="ta-l3d5q3-d1e176">Ad secundum dicendum, quod quamvis non praeexistat tempore, praeexistit tamen secundum modum intelligendi; et hoc sufficit.</p>
+          <p xml:id="ta-l3d5q3-d1e179">Ad tertium dicendum, quod essentia non habet se ad esse sicut consequens ipsum, sed sicut id per quod est esse, sicut et natura; unde similiter concedo quod assumpsit essentiam sicut assumpsit naturam, quamvis non assumpserit suppositum.</p>
+          <p xml:id="ta-l3d5q3-d1e182">Ad quartum dicendum, quod quamvis humanitas non sit sine homine, tamen est prius naturaliter quam homo, quia per eam dicitur aliquis esse homo; unde est eadem ratio sicut de essentia.</p>
+          <p xml:id="ta-l3d5q3-d1e185">Ad quintum dicendum, quod quamvis natura humana non sit unita, idest facta unum simpliciter, cum divina; est tamen ei unita in aliquo, id est in persona.</p>
+        </div>
+        <div xml:id="ta-l3d5q3-Dd1e189" type="articulus">
+          <head xml:id="ta-l3d5q3-Hd1e191">Articulus 2</head>
+          <head xml:id="ta-l3d5q3-Hd1e194" type="questionTitle">Utrum anima separata sit persona</head>
+          <p xml:id="ta-l3d5q3-d1e197">Ad secundum sic proceditur. Videtur quod anima separata sit persona. Persona enim, secundum Boetium, est rationalis naturae individua substantia. Sed hoc convenit animae separatae. Ergo est persona.</p>
+          <p xml:id="ta-l3d5q3-d1e200">Praeterea, propter quod unumquodque tale, et illud magis. Sed homo dicitur persona propter animam: unde quae carent anima, non dicuntur personae. Ergo anima separata est persona.</p>
+          <p xml:id="ta-l3d5q3-d1e203">Praeterea, conceditur quod anima rationalis est hoc aliquid. Sed hoc aliquid in natura rationali est persona. Ergo anima separata est persona.</p>
+          <p xml:id="ta-l3d5q3-d1e207">Praeterea, Angelus et anima separata non videntur differre nisi per hoc quod anima est unibilis. Sed unibilitas non impedit rationem personae. Ergo cum Angelus sit persona, etiam anima separata erit persona. Probatio mediae. Id quod potest fieri per divinam virtutem, non immutat aliquid de ratione rei; sicut quod Deus possit assumere aliquem hominem, ut Petrum, non aufert Petro rationem personalitatis. Sed anima separata non potest uniri corpori nisi per resurrectionem, quae non erit naturalis, sed per divinam virtutem tantum. Ergo anima propter unibilitatem rationem personae non amittit.</p>
+          <p xml:id="ta-l3d5q3-d1e210">Praeterea, sola unibilitas qua aliquid potest uniri nobiliori, tollit rationem personae; alias verbum non haberet ab aeterno rationem personae. Sed unibilitas quae est in anima separata, non est respectu alicujus dignioris, immo minus nobilis. Ergo propter hoc non perdit rationem personae.</p>
+          <p xml:id="ta-l3d5q3-d1e213">Sed contra, nulla forma est persona. Sed anima est forma. Ergo non est persona.</p>
+          <p xml:id="ta-l3d5q3-d1e216">Praeterea, persona habet rationem completi et totius. Sed anima est pars. Ergo anima non habet rationem personae.</p>
+          <p xml:id="ta-l3d5q3-d1e219">Respondeo dicendum, quod de unione animae ad corpus apud antiquos duplex fuit opinio. Una quod anima unitur corpori sicut ens completum enti completo, ut esset in corpore sicut nauta in navi: unde, sicut dicit Gregorius Nyssenus, Plato posuit quod homo non est aliquid constitutum ex corpore et anima, sed est anima corpore induta: et secundum hoc tota personalitas hominis consisteret in anima, adeo quod anima separata posset dici homo vere, ut dicit <name>Hugo de s. Victore</name>: et secundum hanc opinionem esset verum quod Magister dicit, quod anima est persona quando est separata. Sed haec opinio non potest stare: quia sic corpus animae accidentaliter adveniret: unde hoc nomen homo, de cujus intellectu est anima et corpus, non significaret unum per se, sed per accidens; et ita non esset in genere substantiae. Alia est opinio Aristotelis quam omnes moderni sequuntur, quod anima unitur corpori sicut forma materiae: unde anima est pars humanae naturae, et non natura quaedam per se: et quia ratio partis contrariatur rationi personae, ut dictum est, ideo anima separata non potest dici persona: quia quamvis separata non sit pars actu, tamen habet naturam ut sit pars.</p>
+          <p xml:id="ta-l3d5q3-d1e225">Ad primum ergo dicendum, quod anima separata, proprie loquendo, non est substantia alicujus naturae, sed est pars naturae.</p>
+          <p xml:id="ta-l3d5q3-d1e229">Ad secundum dicendum, quod non tantum ab anima habet homo quod sit persona, sed ex ea et corpore; cum ex utrisque subsistat.</p>
+          <p xml:id="ta-l3d5q3-d1e232">Ad tertium dicendum, quod anima rationalis dicitur hoc aliquid per modum quo esse subsistens est hoc aliquid, etiam si habeat naturam partis; sed ad rationem personae exigitur ulterius quod sit totum et completum.</p>
+          <p xml:id="ta-l3d5q3-d1e235">Ad quartum dicendum, quod quamvis unio animae separatae ad carnem non possit fieri nisi per virtutem supernaturalem, tamen in ea est naturalis aptitudo ad hoc: et quod non potest unio compleri per virtutem naturalem, est ex defectu corporis, non ex defectu animae.</p>
+          <p xml:id="ta-l3d5q3-d1e238">Ad quintum dicendum, quod quamvis anima sit dignior corpore, tamen unitur ei ut pars totius hominis, quod quodammodo est dignius anima, inquantum est completius.</p>
+        </div>
+        <div xml:id="ta-l3d5q3-Dd1e242">
+          <head xml:id="ta-l3d5q3-Hd1e244">Articulus 3</head>
+          <head xml:id="ta-l3d5q3-Hd1e247" type="questionTitle">Utrum persona sit assumpta</head>
+          <p xml:id="ta-l3d5q3-d1e250">Ad tertium sic proceditur. Videtur quod persona hominis sit assumpta. <name>Damascenus</name> enim dicit, quod Deus assumpsit humanam naturam in atomo, idest in individuo. Sed humana natura in individuo, est natura in persona. Ergo assumpsit naturam in persona.</p>
+          <p xml:id="ta-l3d5q3-d1e256">Praeterea, Christus non est similis matri nisi in hoc quod accepit a matre. Sed est similis matri quantum ad personam: unde dicit <name>Cassianus</name>, quod Christus propter personarum diversitatem reddidit utrique parenti similitudinem, scilicet patri et matri. Ergo assumpsit personam.</p>
+          <p xml:id="ta-l3d5q3-d1e262">Praeterea, ponatur quod Christus deponat hoc quod assumpsit: constat quod <name>Jesus</name> erit quidam homo, et persona. Sed ex separatione nihil acquisitum est ei quod prius non haberet; nec habuit aliquid ex parte humanitatis nisi assumptum. Ergo assumpsit personam.</p>
+          <p xml:id="ta-l3d5q3-d1e269">Praeterea, non consumitur nisi quod est. Sed dicit Innocentius quartus in decretali, quod persona consumpsit personam. Ergo natura humana habuit personalitatem propriam. Sed non ante assumptionem, quia non fuit ante. Ergo in ipsa assumptione habuit personalitatem propriam: ergo persona fuit assumpta.</p>
+          <p xml:id="ta-l3d5q3-d1e272">Sed contra, <name ref="#Augustine">Augustinus</name> dicit, quod verbum non accepit personam hominis, sed naturam.</p>
+          <p xml:id="ta-l3d5q3-d1e278">Praeterea, quod assumitur, aliquo modo unitur. Sed persona non unitur personae: quia sic essent duae personae, quod esse non potest, ut supra dictum est, quaest. 1, art. 5: vel una composita ex duabus, quod etiam est impossibile, cum persona pars esse non possit. Ergo persona non est assumpta.</p>
+          <p xml:id="ta-l3d5q3-d1e281">Respondeo dicendum, quod, sicut supra dictum est, <!-- important cross ref example --><ref xml:id="ta-l3d5q3-Rd1e284">quaest. 1, art. 1, quaestiunc. 3,</ref> assumens non est assumptum: unde si persona Dei assumpsisset personam hominis, persona Dei non esset persona hominis; et sic essent duae personae, quod est haereticum: unde non conceditur quod persona sit assumpta: et etiam quod assumitur, trahitur ad aliquod completius, ipsum incompletum existens, ut patet ex praedictis, et hoc est contra rationem personae, quae maximam completionem importat.</p>
+          <p xml:id="ta-l3d5q3-d1e288">Ad primum ergo dicendum, quod humana natura non praeexistit ante unionem; sed postquam unita est, fuit in atomo, vel persona verbi.</p>
+          <p xml:id="ta-l3d5q3-d1e291">Ad secundum dicendum, quod hoc quod dicit: <quote xml:id="ta-l3d5q3-Qd1e293">propter personarum diversitatem</quote>, non est referendum ad Christum, sed ad parentes; quia diversae sunt personae patris et matris ejus.</p>
+          <p xml:id="ta-l3d5q3-d1e298">Ad tertium dicendum, quod separatio dat utrique partium totalitatem, et in continuis dat etiam utrique esse in actu: unde supposito quod hominem deponeret, subsisteret homo ille per se in natura rationali, et ex hoc ipso acciperet rationem personae.</p>
+          <p xml:id="ta-l3d5q3-d1e301">Ad quartum dicendum, quod consumere dicitur proprie destruere quod extitit; et secundum hoc persona consumpsisset personam, si persona verbi assumpsisset hominem primo existentem. Sed improprie dicitur etiam consumi quod impeditur ne fiat. Et quia persona divina, quae assumpsit humanam naturam impedit quod natura humana habeat propriam personalitatem, ideo dicitur consumpsisse personam, quamvis improprie: unde non est ex hoc extendendum.</p>
+        </div>
+        <div xml:id="ta-l3d5q3-Dd1e306">
+          <!-- corpus thomisticum makes it seem like "expos" is child of article 3; that seems weird/wrong to me, but I'm not sure -->
+          <head xml:id="ta-l3d5q3-Hd1e310">Expositio textus</head>
+          <p xml:id="ta-l3d5q3-d1e313"><quote xml:id="ta-l3d5q3-Qd1e314">Nec divinitas (inquit) Christi, aliena est a natura patris, nec humanitas a natura matris</quote>. Contra. Christus communicat cum patre in una natura numero, cum matre vero non. Ergo non est recta similitudo. Dicendum, quod non oportet quod sit similitudo quantum ad omnia, sed sufficit quod sit quantum ad aliquid. <quote xml:id="ta-l3d5q3-Qd1e317">Cum (inquit) de Christo audis, quia in forma Dei erat, oportet agnoscere firmissimeque tenere, in illo formae nomine naturalem plenitudinem debere intelligi</quote>. Sciendum, quod natura divina dicitur forma, non quod sit actus alicujus naturae, sed quia non habet partem sui naturam, nec aliquid potentialitatis in ipsa est. Natura vero humana dicitur forma, non quia comprehendit principia tantum formalia (comprehendit enim et formam et materiam), sed per modum quo quidditas compositi dicitur forma totius. <quote xml:id="ta-l3d5q3-Qd1e320">Solum verbum carnem Trinitas fecit</quote>. Pars ponitur hic pro toto, quia caro pro homine: et ponit infirmiorem, de qua minus videtur, ut totam naturam nostram videatur assumpsisse, et etiam defectus humanae naturae quos decuit. <quote xml:id="ta-l3d5q3-Qd1e323">Omnem et perfectam naturam divinitatis</quote>. Contra. Omnis signum distributivum est. Sed natura divina est indivisa. Dicendum, quod omnis ponitur pro toto, secundum quod totum dicitur cui nihil deest, et non ex parte illa quo totum comparatur ad partes, quia natura divina non habet partes. <quote xml:id="ta-l3d5q3-Qd1e326">Ideoque non sic dicitur divina natura esse homo, sicut Dei filius</quote>. Contra. De quocumque praedicatur filius Dei, praedicatur homo. Sed natura divina est filius Dei. Ergo est homo. Dicendum, quod differentia est inter nomina substantiva et adjectiva. Substantiva enim significant non tantum formam, sed etiam suppositum formae, unde possunt praedicari ratione utriusque; et quando praedicantur ratione suppositi, dicitur praedicatio per identitatem; quando autem ratione formae, dicitur per denominationem, sive informationem: et haec est magis propria praedicatio, quia termini in praedicato tenentur formaliter. Adjectiva autem tantum significant formam; et ideo non possunt praedicari, nisi per informationem: unde haec est falsa: essentia est generans; quamvis haec sit vera: essentia est pater. Cum igitur dicitur, filius Dei est homo, est praedicatio per informationem et identitatem; cum vero dicitur: essentia divina est homo, est praedicatio per identitatem, quia est idem secundum rem cum supposito hominis; non autem per informationem, quia natura divina non significatur ut suppositum subsistens in humana natura. Et ideo dicit Magister, quod non est una vera sicut alia; sed nec tamen dicit eam simpliciter esse falsam.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

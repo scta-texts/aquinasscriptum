@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 6, Quaestio 1</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Librum IV, Distinctio 6, Quaestio 1</title>
+          <date when="2016-03-18">March 18, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-18">March 18, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness>1856 editum</witness>
+          <witness xml:id="G" n="ghent567">Ghent, Belgium, Ghent University Library, 567</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="0.0.0-dev">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+
+
+
+
+      <div xml:id="starts-on"> 
+        <cb ed="#G" n="78b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ta-l4d6q1">
+        <head xml:id="ta-l4d6q1-Hd1e97">Librum IV, Distinctio 6, Quaestio 1</head>
+        <head xml:id="ta-l4d6q1-Hd1e100" type="questionTitle">De his quae requiruntur ad Baptismum ex parte baptizantis et baptizati</head>
+        <div xml:id="ta-l4d6q1-Dd1e103">
+          <head xml:id="ta-l4d6q1-Hd1e105">Prooemium</head>
+          <p xml:id="ta-l4d6q1-d1e108">Superius determinavit Magister, qui possunt baptizare; hic intendit, determinare qui et
+            qualiter congrue baptizent; et dividitur in partes tres: in prima ostendit qualiter
+            congrue fiat Baptismus ex parte baptizantis; in secunda qualiter congrue fiat ex parte
+            baptizandi; utrum scilicet aliquis sit rebaptizandus, vel non, ibi: <quote xml:id="ta-l4d6q1-Qd1e110">de illis vero
+              qui ab haereticis baptizantur, utrum rebaptizandi sint quaeri solet</quote>; in tertia
+            qualiter congrue fiat quantum ad ritum Baptismi, ibi: <quote xml:id="ta-l4d6q1-Qd1e113">cognoscendum est etiam, in
+              baptizandis electis duo tempora esse servanda</quote>; secunda pars dividitur in tres:
+            in prima ostendit utrum aliquis sit rebaptizandus propter defectum baptizantis; in
+            secunda, utrum sit rebaptizandus propter defectum baptizati, ibi: <quote xml:id="ta-l4d6q1-Qd1e116">illud etiam
+              ignorandum non est, quod in materno utero nullus baptizari potest</quote>; in tertia,
+            utrum sit rebaptizandus propter defectum eorum quae pertinent ab Baptismum, ibi:
+              <quote xml:id="ta-l4d6q1-Qd1e119">quaeri autem solet, si corrupte proferantur verba illa, an Baptismus
+              sit</quote>. Prima dividitur in tres: in prima ostendit quod baptizati ab haereticis
+            non sunt rebaptizandi; in secunda excludit opinionem contrariam, ibi: <quote xml:id="ta-l4d6q1-Qd1e122">sunt tamen
+              nonnulli doctorum (...) qui dicere videntur, ab haereticis non posse tradi
+              Baptismum</quote>; in tertia removet quamdam objectionem, quae rebaptizantibus
+            patrocinari videtur, ibi: <quote xml:id="ta-l4d6q1-Qd1e126">hoc etiam sciendum est</quote> et cetera. <quote xml:id="ta-l4d6q1-Qd1e129">Illud
+              autem ignorandum non est</quote> et cetera. Hic inquirit, utrum sit aliquis
+            rebaptizandus propter defectum nativitatis ex utero; et circa hoc duo facit: primo
+            ostendit quod illi qui nondum nati sunt, in maternis uteris existentes, non susceperunt
+            Baptismum baptizatis matribus; unde baptizandi sunt; secundo objicit in contrarium, et
+            solvit, ibi: <quote xml:id="ta-l4d6q1-Qd1e132">si vero opponitur de Hieremia, et Joanne (...) dicimus</quote> et
+            cetera. <quote xml:id="ta-l4d6q1-Qd1e135">Quaeri autem solet, si corrupte proferantur verba illa, an Baptismus
+              sit</quote>. Hic inquirit, utrum sint aliqui rebaptizandi propter defectum eorum quae
+            ad Baptismum requiruntur: et primo utrum propter corruptionem formae; secundo utrum
+            propter incertitudinem baptismalis ablutionis, ibi: <quote xml:id="ta-l4d6q1-Qd1e138">praeterea sciendum est, quod
+              illi de quibus nulla extant indicia inter propinquos vel domesticos vel vicinos, a
+              quibus baptizati fuisse doceantur, agendum est ut renascantur, ne pereant</quote>;
+            tertio utrum propter defectum intentionis, ibi: <quote xml:id="ta-l4d6q1-Qd1e141">solet etiam quaeri de illo qui
+              jocans, sicut mimus, commemoratione tamen Trinitatis immergitur. Cognoscendum est
+              etiam, in baptizandis electis duo tempora esse servanda</quote>. Hic ostendit qualiter
+            Baptismus congrue fiat ex parte ritus, et circa hoc tria facit: primo ostendit quod
+            tempus sit deputatum ad solemnem Baptismi celebrationem; secundo determinat de
+            professione quae praecedit Baptismum, ibi: <quote xml:id="ta-l4d6q1-Qd1e145">porro cuncti ad Baptismum venientes
+              fidem suam profiteri debent</quote>; tertio determinat de catechismo et exorcismo, in
+            quibus hujusmodi professio fit, ibi: <quote xml:id="ta-l4d6q1-Qd1e148">illa autem interrogatio et responsio fidei
+              fit in catechismo</quote>. Circa secundum duo facit: primo ostendit propositum;
+            secundo movet duas quaestiones; primam ibi: <quote xml:id="ta-l4d6q1-Qd1e151">si vero quaeritur ex quo sensu pro
+              parvulo dicatur, credo, vel fidem peto; dicimus de sacramento fidei id esse
+              intelligendum</quote>; secundum ibi: <quote xml:id="ta-l4d6q1-Qd1e154">sed adhuc quaeritur, ex quo sensu pro
+              parvulo respondeatur, credo in Deum patrem</quote> et cetera. Hic est duplex quaestio.
+            Prima de his quae requiruntur ad Baptismum ex parte baptizantis et baptizati. Secunda de
+            ritu Baptismi. Circa primum quaeruntur tria: 1 utrum requiratur in baptizando nativitas
+            ex utero; 2 utrum requiratur in utroque intentio et voluntas; 3 utrum requiratur
+            fides.</p>
+        </div>
+        <div xml:id="ta-l4d6q1-Dd1e159" type="articulus">
+          <head xml:id="ta-l4d6q1-Hd1e161">Articulus 1</head>
+
+          <head xml:id="ta-l4d6q1-Hd1e164" type="questionTitle">Utrum nativitas ex utero in baptizando sit expectanda</head>
+          <div xml:id="ta-l4d6q1-Dd1e167">
+            <head xml:id="ta-l4d6q1-Hd1e169">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d6q1-d1e172">Ad primum sic proceditur. Videtur quod nativitas ex utero non sit expectanda. Nulli
+              enim statui hominis praecluditur via salutis ab eo <quote xml:id="ta-l4d6q1-Qd1e174">qui vult omnes homines
+                salvos fieri</quote>. Sed existentes in maternis uteris homines sunt, cum sint jam
+              animam rationalem sortiti, et sunt in periculo damnationis propter peccatum originale
+              contractum, et facilitatem corruptionis. Ergo cum eis non possit remedium adhiberi
+              perveniendi ad vitam nisi per Baptismum, videtur quod debeant baptizari.</p>
+            <p xml:id="ta-l4d6q1-d1e178">Praeterea, puer in materno utero existens est quasi quaedam pars matris, sicut
+              fructus pendens in arbore, pars arboris. Ergo baptizata matre, baptizatur puer in
+              ventre ejus existens.</p>
+            <p xml:id="ta-l4d6q1-d1e181">Praeterea, contingit quandoque quod aliqua pars prius egreditur, sicut legitur, Gen.
+              25, de Esau, quod exivit primo manus; et tamen timetur de periculo mortis. Ergo
+              videtur quod saltem in tali casu non sit expectanda nativitas ex utero sed pars
+              egressa aspergenda baptismali aqua.</p>
+            <p xml:id="ta-l4d6q1-d1e184">Praeterea, mors aeterna pejor est quam mors corporalis in infinitum. Sed de duobus
+              malis eligendum est minus malum. Ergo debet mater scindi, et extrahi puer, ut
+              baptizatus a morte aeterna liberetur et non expectari nativitas ex utero.</p>
+            <p xml:id="ta-l4d6q1-d1e188">Sed contra, 1 Corinth. 15, 46: <quote xml:id="ta-l4d6q1-Qd1e190">non prius quod spirituale est, sed quod
+                animale, deinde quod spirituale</quote>. Sed Baptismus est quaedam regeneratio
+              spiritualis. Ergo prius homo animali, et carnali nativitate nasci debet quam
+              baptizetur.</p>
+            <p xml:id="ta-l4d6q1-d1e194">Praeterea, sacramentum est actio militantis Ecclesiae. Sed quamdiu puer est in ventre
+              matris, nondum connumeratur aliis membris Ecclesiae. Ergo non potest sibi Baptismus
+              exhiberi.</p>
+          </div>
+          <div xml:id="ta-l4d6q1-Dd1e198">
+            <head xml:id="ta-l4d6q1-Hd1e200">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d6q1-d1e203">Ulterius. Videtur quod nullus etiam in materno utero possit sanctificari per gratiae
+              gratum facientis donum. Quia, ut Isidorus dicit, regeneratio in eo dici non potest in
+              quem generatio non praecessit. Sed per gratiam gratum facientem fit homo filius Dei,
+              et ita regeneratur. Ergo non potest homo sanctificari antequam nascatur ex utero.</p>
+            <p xml:id="ta-l4d6q1-d1e206">Praeterea, sicut peccatum actuale contrahitur ex actu, ita originale contrahitur ex
+              origine. Sed peccatum actuale non potest remitti quamdiu homo est in actu peccandi.
+              Ergo nec peccatum originale potest remitti puero in materno utero existenti, qui adhuc
+              est actualiter in origine existens.</p>
+            <p xml:id="ta-l4d6q1-d1e209">Praeterea, ubi est majus periculum, ibi magis divina misericordia subvenit. Sed illi
+              qui morituri sunt antequam ex utero nascantur, sunt in majori periculo quam Joannes
+              Baptista et Hieremias, qui ex utero postmodum nati sunt. Si ergo non dicimus pueros
+              dictos sanctificari in utero, ne praeveniantur morte, videtur quod multo fortius nec
+              Joannes nec Hieremias sanctificati fuerunt.</p>
+            <p xml:id="ta-l4d6q1-d1e212">Sed contra est quod dicitur Hierem. 1, 5: <quote xml:id="ta-l4d6q1-Qd1e214">antequam exires de vulva
+                sanctificavi te</quote>; et Luc. 1, 16, dicitur de Joanne: <quote xml:id="ta-l4d6q1-Qd1e217">et spiritu sancto
+                replebitur adhuc ex utero matris suae</quote>. Ergo aliqui in utero
+              sanctificantur.</p>
+            <p xml:id="ta-l4d6q1-d1e222">Praeterea, de nullo celebrat Ecclesia festum, nisi de sancto aliquo. Sed celebrat
+              nativitatem Joannis. Ergo tunc nascens sanctus erat; ergo in utero sanctificatus
+              fuit.</p>
+          </div>
+          <div xml:id="ta-l4d6q1-Dd1e226">
+            <head xml:id="ta-l4d6q1-Hd1e228">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d6q1-d1e231">Ulterius. Videtur quod in utero sanctificati non sunt baptizandi. In sanctificatione
+              enim in utero datur major gratia quam in Baptismo: quia sanctificationis gratia
+              dicitur esse confirmans saltem contra mortale peccatum. Sed injuriam faceret Baptismo
+              qui baptizatum iterum baptizaret. Ergo injuriam facit sanctificationi in utero qui
+              sanctificatum iterum baptizando sanctificaret.</p>
+            <p xml:id="ta-l4d6q1-d1e234">Praeterea, natura non facit per plura quod per unum potest facere. Sed operatio
+              gratiae est ordinatior quam natura. Cum ergo ad salutem sufficiat gratia
+              sanctificationis, videtur quod frustra Baptismus addatur.</p>
+            <p xml:id="ta-l4d6q1-d1e237">Praeterea, divina operatio non est minus efficax in sanatione spirituali quam
+              corporali. Sed in illis quos curavit corporaliter, non oportebat aliquem medicum ab
+              homine superaddi. Ergo et in illis quos curat per gratiam sanctificationis interius
+              non sunt adhibenda sacramentorum medicamenta.</p>
+            <p xml:id="ta-l4d6q1-d1e240">Sed contra, Baptismus circumcisioni successit. Sed Joannes sanctificatus in utero,
+              octavo die legitur circumcisus, Luc. 1. Ergo et sanctificatus in utero esset
+              baptizandus.</p>
+            <p xml:id="ta-l4d6q1-d1e244">Praeterea, sanctificatio in utero est Baptismus flaminis. Sed adulti baptizati per
+              contritionem Baptismo flaminis, sunt baptizandi Baptismo fluminis. Ergo et similiter
+              sanctificati in utero.</p>
+          </div>
+          <div xml:id="ta-l4d6q1-Dd1e249">
+            <head xml:id="ta-l4d6q1-Hd1e251">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d6q1-d1e254">Respondeo dicendum ad primam quaestionem, quod Baptismus est actio hierarchica
+              secundum Dionysium; unde per ministros Ecclesiae conferendus est, vel per eos qui in
+              necessitate vicem ministrorum obtinent. Puer autem quamdiu est in utero matris
+              existens, non potest subjici operationi ministrorum Ecclesiae nec est hominibus notus;
+              et ideo tunc baptizari non potest. Quidam autem assignant alias causas, quae non sunt
+              magni ponderis: quarum una est quod divina justitia exigit quod peccatum quodlibet non
+              dimittatur sine poena aliqua, quam puer in Baptismo sentit, quod esse non posset, dum
+              adhuc est in utero matris. Sed hoc nihil est quia Baptismus, secundum Ambrosium, non
+              requirit poenam exteriorem. Et praeterea peccato originali non debetur poena
+              sensibilis inflicta. Alia est quod gratia dat esse ordinatum; et ideo regeneratio
+              gratiae praesupponit generationem naturae. Alia est quod puer quamdiu est in materno
+              utero, adhuc conjungitur causae originalis peccati; et ideo non potest ab eo mundari.
+              Sed hae duae causae repugnant sanctificationi in utero, sicut et Baptismo. Alia est
+              quod in Baptismo debet esse aqua et spiritus contra infectionem carnis, et animae per
+              originale; et ideo oportet praeexistere ad Baptismum nativitatem in utero, qua
+              infunditur anima, et nativitatem ex utero, qua nascitur corpus. Sed hoc nihil est:
+              quia nativitas neque est animae neque corporis, sed conjuncti; unde in nativitate in
+              utero nascitur et corpus et anima. Unde primae rationi standum est.</p>
+            <p xml:id="ta-l4d6q1-d1e257">Ad primum ergo dicendum, quod non est ex defectu divinae misericordiae quod in
+              maternis uteris existentibus remedium non exhibetur, sed quia non sunt capaces illius
+              remedii, per quod secundum legem communem participes passionis Christi efficiantur, a
+              qua est remissio peccatorum: quia non possunt subjici operationi ministrorum
+              Ecclesiae, per quos talia remedia ministrantur.</p>
+            <p xml:id="ta-l4d6q1-d1e260">Ad secundum dicendum, quod puer in materno utero existens, quamvis sit conjunctus
+              matri secundum corpus, quod ab ipsa traxit tamen est omnino distinctus secundum animam
+              rationalem quam ab extrinseco habet; et ideo secundum immutationem corporalem matris,
+              immutatur corporaliter, sed non oportet quod sanctificata matre per Baptismum,
+              spiritualiter sanctificetur.</p>
+            <p xml:id="ta-l4d6q1-d1e263">Ad tertium dicendum, quod expectanda est totalis egressio ex utero, nisi periculum
+              mortis timeatur; tunc autem egressa parte principali scilicet capite, in quo
+              operationes animae magis manifestantur, ut quidam dicunt, baptizari debet: secus autem
+              est de aliis partibus, ut de manu et pede, quamvis non noceat etiam si tunc
+              asperguntur illae partes baptismali aqua, quia divina misericordia non est arctanda.
+              Si tamen postea plenarie nascatur non est rebaptizandus, secundum quosdam. Sed nihil
+              periculi accidit, si ad majorem cautelam baptizetur sub hac forma: si non es
+              baptizatus, ego te baptizo et cetera.</p>
+            <p xml:id="ta-l4d6q1-d1e267">Ad quartum dicendum, quod non sunt facienda mala, ut veniant bona, sicut dicitur Rom.
+              3; et ideo homo potius debet dimittere perire infantem quam ipse pereat, homicidii
+              crimen in matre committens.</p>
+          </div>
+          <div xml:id="ta-l4d6q1-Dd1e271">
+            <head xml:id="ta-l4d6q1-Hd1e273">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d6q1-d1e276">Ad secundam quaestionem dicendum, quod sicut Deus non alligavit virtutem suam rebus
+              naturalibus, ut non possit praeter eas operari cum voluerit quod in miraculosis
+              actibus facit, ita non alligavit virtutem suam sacramentis, ut non possit sine
+              sacramentorum ministris aliquem sanctificare; et ideo aliquos praeter legem communem
+              quasi miraculose in maternis uteris sanctificasse legitur, illos praecipue qui
+              immediatius ordinabantur ad ejus sanctissimam conceptionem; et ideo mater sanctificata
+              creditur, et Joannes Baptista, qui ei in utero existenti testimonium perhibuit, et
+              Hieremias, qui ipsius conceptionem vaticinio expresso praedixit: <quote xml:id="ta-l4d6q1-Qd1e278">novum</quote>,
+              inquit, <quote xml:id="ta-l4d6q1-Qd1e281">faciet dominus super terram. Mulier circumdabit virum</quote>: Hierem.
+              31, 22; et ideo etiam in beata virgine fuit amplior sanctificatio, in qua fomes adeo
+              debilitatus est vel extinctus, ut ad peccatum actuale nunquam inclinaretur; in aliis
+              autem inclinavit ad veniale, non autem ad mortale; et in Joanne Baptista etiam fuit
+              expressior quam in Hieremia cujus interior sanctificatio exultatione quadam in
+              notitiam hominum prodiit, quia dictum est: <quote xml:id="ta-l4d6q1-Qd1e284">exultavit infans in utero
+                ejus</quote>, Luc. 1, 41, ut secundum gradum propinquitatis ad Christum sit gradus
+              sanctificationis.</p>
+            <p xml:id="ta-l4d6q1-d1e288">Ad primum ergo dicendum, quod generatio spiritualis praesupponit naturalem sibi
+              correspondentem; et ideo generatio spiritualis quae fit per ministerium hominum in
+              Baptismo praesupponit nativitatem ex utero, qua homo in notitiam et societatem hominum
+              prodit. Sed regeneratio quae fit divinitus, non praesupponit de necessitate nisi
+              nativitatem in utero, qua homo a Deo creatus, formatus est.</p>
+            <p xml:id="ta-l4d6q1-d1e291">Ad secundum dicendum, quod jam formato puerperio anima rationali infusa, puer non
+              accipit a matre nisi nutrimentum. Peccatum autem originale non contrahitur per actum
+              nutritivae, sed generativae; et ideo non est actu in contrahendo originale, nisi in
+              ipsa infusione animae; et propter hoc nihil prohibet puerum in statu illo post
+              infusionem a peccato originali mundari.</p>
+            <p xml:id="ta-l4d6q1-d1e294">Ad tertium dicendum, quod ea quae fiunt praeter legem communem, non fiunt
+              principaliter ad subveniendum uni personae, sed ad insinuationem et commendationem
+              gratiae; et ideo quamvis non fuerit tantum periculum in sanctificatis in utero, qui
+              prodituri erant, tamen quia eligebantur divinitus ut gratiae speciales praecones et
+              ministri, ideo tali privilegiata sanctificatione dotati sunt.</p>
+          </div>
+          <div xml:id="ta-l4d6q1-Dd1e298">
+            <head xml:id="ta-l4d6q1-Hd1e300">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d6q1-d1e303">Ad tertiam quaestionem dicendum, quod sanctificatus in utero debet baptizari, propter
+              tres rationes. Primo propter acquirendum characterem, quo annumeretur ad populum Dei,
+              et quasi deputetur ad percipienda divina sacramenta. Secundo, ut per Baptismi
+              perceptionem passioni Christi etiam corporaliter conformetur. Tertio propter bonum
+              obedientiae: quia praeceptum de Baptismo omnibus datum est, et ab omnibus impleri
+              debet, nisi articulus necessitatis sacramentum excludat.</p>
+            <p xml:id="ta-l4d6q1-d1e306">Ad primum ergo dicendum, quod Baptismus quantum ad aliquid extensive excedit
+              sanctificationem: quia in Baptismo imprimitur character, et corporaliter homo morti
+              Christi configuratur: quamvis intensive in sanctificatione amplior gratia fortassis
+              praebeatur; et ideo non fit injuria sanctificationi, si sanctificatis Baptismus
+              conferatur.</p>
+            <p xml:id="ta-l4d6q1-d1e309">Ad secundum dicendum, quod non totum quod facit Baptismus, factum est per
+              sanctificationem, quia non imprimit characterem; et ideo non frustra Baptismus
+              additur, in quo etiam sanctificatis gratia augetur.</p>
+            <p xml:id="ta-l4d6q1-d1e312">Ad tertium dicendum, quod per medicinam corporalem nihil addi posset ad salutem eorum
+              quos Christus curaverat; et ideo non est similis ratio.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d6q1-Dd1e317" type="articulus">
+          <head xml:id="ta-l4d6q1-Hd1e319">Articulus 2</head>
+
+          <head xml:id="ta-l4d6q1-Hd1e322" type="questionTitle">Utrum intentio baptizantis ad Baptismum requiratur</head>
+          <div xml:id="ta-l4d6q1-Dd1e325">
+            <head xml:id="ta-l4d6q1-Hd1e327">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d6q1-d1e330">Ad secundum sic proceditur. Videtur quod intentio baptizantis non requiritur ad
+              Baptismum. Intentio enim non requiritur ad opus nisi in principali agente, qui
+              praestituit finem, et per imperium suum alios movet ad finem intentum a se. Sed
+              sacerdos baptizans non est principale agens, sed instrumentale, ut dictum est supra.
+              Ergo non requiritur ejus intentio ad Baptismum.</p>
+            <p xml:id="ta-l4d6q1-d1e333">Praeterea, intentio hominis non est alicui certa nisi sibi. Si ergo requiratur
+              intentio ad Baptismum, non erit certum de aliquo quod sit baptizatus, nisi apud eum
+              qui baptizavit; et hoc est inconveniens quod homo sit in tanto dubio salutis.</p>
+            <p xml:id="ta-l4d6q1-d1e336">Praeterea, sicut Augustinus dicit, ebriosus et furiosus baptizare possunt. Sed isti,
+              ut videtur, non possunt habere intentionem, quia privantur usu rationis. Ergo intentio
+              non requiritur ad Baptismum.</p>
+            <p xml:id="ta-l4d6q1-d1e339">Praeterea, intentio cognitionem requirit. Sed frequenter et de facili cogitatio ad
+              alia rapitur. Ergo frequenter Baptismus impediretur.</p>
+            <p xml:id="ta-l4d6q1-d1e343">Sed contra, ea quae fiunt praeter intentionem, sunt casualia. Sed hoc sacramentis non
+              competit, cum habeant determinatos effectus, et determinatas causas. Ergo requiritur
+              intentio in Baptismo, et in aliis sacramentis.</p>
+            <p xml:id="ta-l4d6q1-d1e346">Praeterea, opera quae fiunt a voluntate, determinantur et specificantur intentione.
+              Unde Ambrosius dicit quod <quote xml:id="ta-l4d6q1-Qd1e348">affectus tuus operi tuo imponit nomen</quote>; et in
+              Glossa, Matth. 12, dicitur: <quote xml:id="ta-l4d6q1-Qd1e351">quantum intendis, tantum facis</quote>. Sed
+              baptizare est actus voluntarius. Ergo requiritur in ipso intentio ex parte
+              baptizantis.</p>
+          </div>
+          <div xml:id="ta-l4d6q1-Dd1e356">
+            <head xml:id="ta-l4d6q1-Hd1e358">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d6q1-d1e361">Ulterius. Videtur quod requiratur intentio recta. Requiritur enim intentio faciendi
+              quod facit Ecclesia. Sed hoc intendere est rectae intentionis. Ergo ad Baptismum
+              requiritur recta intentio.</p>
+            <p xml:id="ta-l4d6q1-d1e364">Praeterea, in omnibus ad quae requiritur intentio, ita est quod per pravam
+              intentionem vitiantur. Sed Baptismus, dummodo detur, non potest esse pravus, ut in
+              praecedenti distinctione dictum est. Ergo videtur quod prava intentio non possit
+              conferre Baptismum.</p>
+            <p xml:id="ta-l4d6q1-d1e367">Sed contra, Baptismus non impeditur ex malitia baptizantis. Sed perversa intentio
+              pertinet ad malitiam baptizantis. Ergo perversa intentio in aliis non impedit Baptismi
+              effectum.</p>
+          </div>
+          <div xml:id="ta-l4d6q1-Dd1e371">
+            <head xml:id="ta-l4d6q1-Hd1e373">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d6q1-d1e376">Ulterius. Videtur quod intentio vel voluntas non requiratur in baptizato. Baptismus
+              enim contra peccatum originale datur. Sed peccatum originale praeter voluntatem et
+              intentionem contrahitur. Ergo intentio et voluntas non requiruntur ad Baptismum in
+              baptizando.</p>
+            <p xml:id="ta-l4d6q1-d1e379">Praeterea, pueri, dormientes et amentes possunt baptizari, ut supra, dist. 4, quaest.
+              3, art. 1, quaestiunc. 2 et 3, dictum est. Sed illi carent intentione Baptismi. Ergo
+              ad Baptismum non requiritur intentio ex parte baptizandi.</p>
+            <p xml:id="ta-l4d6q1-d1e382">Praeterea, unaquaeque res per eadem corrumpitur et fit, contrarie tamen facta, ut
+              dicitur in 2 Ethic. Si ergo intentione baptizandi fieret Baptismus, tunc intentione
+              ipsius character baptismalis deleri posset; quod falsum est.</p>
+            <p xml:id="ta-l4d6q1-d1e385">Sed contra, in Baptismo fit quoddam spirituale connubium animae ad Deum. Sed in
+              conjugio requiritur consensus. Ergo et in Baptismo.</p>
+            <p xml:id="ta-l4d6q1-d1e389">Praeterea, Baptismi effectus magis impeditur ex parte baptizati quam baptizantis:
+              quia malitia baptizantis non impedit receptionem gratiae in Baptismo, quae impediri
+              potest per malitiam recipientis sacramentum. Sed defectus intentionis ex parte
+              baptizantis impedit sacramentum. Ergo multo fortius defectus intentionis ex parte
+              baptizati.</p>
+          </div>
+          <div xml:id="ta-l4d6q1-Dd1e394">
+            <head xml:id="ta-l4d6q1-Hd1e396">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d6q1-d1e399">Respondeo dicendum, ad primam quaestionem, quod cum unius effectus una sit causa, si
+              ex aliquibus pluribus causis unus effectus procedat, oportet quod illae causae sint
+              aliquo modo factae unum ad invicem. Ad effectum autem sacramenti videmus multa
+              concurrere; scilicet ministrum, formam verborum, et materiam. Haec autem non possent
+              colligari ad invicem ut sint una causa, nisi per intentionem baptizantis, qui scilicet
+              formam ad materiam applicat, suum vero ministerium ad utrumque, et totum hoc ad
+              sacramenti collationem; et ideo requiritur intentio baptizantis. Et similiter etiam in
+              omnibus aliis sacramentis requiritur intentio ministri cum debita materia et forma,
+              non solum ad effectum sacramenti consequendum, sed ad sacramenti perceptionem.</p>
+            <p xml:id="ta-l4d6q1-d1e402">Ad primum ergo dicendum, quod duplex est instrumentum, scilicet animatum, ut servus,
+              et inanimatum ut securis, ut dicitur in 8 Ethic. In instrumento igitur inanimato non
+              requiritur intentio propria, quia ipsa inclinatio instrumenti ad effectum per motum
+              principalis agentis, locum intentionis supplet; sed in instrumento animato, quod non
+              tantum agitur, sed aliquo modo agit, utpote per imperium agens, et non per impulsum
+              motus, requiritur intentio exequendi ministerium ad quod applicatum est.</p>
+            <p xml:id="ta-l4d6q1-d1e405">Ad secundum dicendum, quod ad hoc dupliciter secundum diversas opiniones respondetur.
+              Quidam enim dicunt, quod si desit mentalis intentio in baptizante, non confert
+              sacramentum Baptismi; tamen in adulto supplet fides et devotio effectum Baptismi, ut
+              periculum ex hoc baptizato, qui ignorat intentionem baptizantis, nullum proveniat. Si
+              autem sit puer, creditur pie, quod summus sacerdos, scilicet Deus, defectum suppleat,
+              et salutem ei conferat. Si tamen non facit, non injuste facit, sicut nec in illo qui
+              sacramento non subjicitur. Alii dicunt, quod in Baptismo et in aliis sacramentis quae
+              habent in forma actum exercitum, non requiritur mentalis intentio, sed sufficit
+              expressio intentionis per verba ab Ecclesia instituta; et ideo si forma servatur, nec
+              aliquid exterius dicitur quod intentionem contrariam exprimat, baptizatus est. Non
+              enim sine causa in sacramentis necessitatis, scilicet Baptismo, et quibusdam aliis,
+              actus baptizantis tam solicite expressus est ad intentionis expressionem.</p>
+            <p xml:id="ta-l4d6q1-d1e408">Ad tertium dicendum, quod quamvis actu ebrius intentionem habere non possit, tamen
+              ebriosus potest esse non actu ebrius, et intentionem baptizandi habens, baptizare.</p>
+            <p xml:id="ta-l4d6q1-d1e412">Ad quartum dicendum, quod quamvis minister sacramenti debeat niti ad custodiendum cor
+              suum quantum potest, ut maxime in verbis sacramentalis formae intentionem habeat
+              actualem; quia tamen cogitatio est valde labilis, etiam si tunc non adsit actualis
+              intentio quando verba profert, dummodo prius intenderit, et contraria intentio non
+              intervenerit, sacramentum non impeditur: quia operatur tunc in vi principalis
+              intentionis. Non enim oportet quod in opere semper intentio conjungatur in actu, sed
+              sufficit quod opus ab intentione procedat.</p>
+          </div>
+          <div xml:id="ta-l4d6q1-Dd1e416">
+            <head xml:id="ta-l4d6q1-Hd1e418">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d6q1-d1e421">Ad secundam quaestionem dicendum, quod rectum est cujus medium non exit ab extremis.
+              Sacramentum autem Baptismi est quo mediante acquiritur effectus Baptismi in anima
+              baptizati; unde tunc est recta intentio quando baptizans seu baptizatus sacramentum
+              ordinat ad effectum sacramenti, qui est salus. Si ergo intentio adsit in baptizante,
+              quia intendit sacramentum conferre; sed desit rectitudo, quia ordinat sacramentum ad
+              finem indebitum; non propter hoc in recipiente impeditur perceptio sacramenti, quia ad
+              hoc fertur intentio baptizantis; neque effectus sacramenti, quia mundatio interior a
+              ministro non est, unde ejus intentio ad hoc nihil facit. Si autem in baptizato sit
+              intentio percipiendi sacramentum, sed desit rectitudo intentionis, recipit quidem quod
+              intendit sacramentum, sed non rem sacramenti: quia obicem per pravam intentionem
+              spiritui sancto ponit.</p>
+            <p xml:id="ta-l4d6q1-d1e424">Ad primum ergo dicendum, quod quamvis ad sacramentum requiratur intentio faciendi
+              quod facit Ecclesia, non tamen requiritur quasi de necessitate sacramenti existens,
+              facere quod facit Ecclesia propter hoc quod Ecclesia facit: et in hoc consistit
+              rectitudo intentionis.</p>
+            <p xml:id="ta-l4d6q1-d1e427">Ad secundum dicendum, quod Baptismus non habet bonitatem ex ministro, sicut alia
+              operatio voluntaria habet bonitatem ex operante; et ideo non est simile.</p>
+          </div>
+          <div xml:id="ta-l4d6q1-Dd1e431">
+            <head xml:id="ta-l4d6q1-Hd1e433">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d6q1-d1e436">Ad tertiam quaestionem dicendum, quod in Baptismo baptizatus duo recipit, scilicet
+              sacramentum, et rem sacramenti; sed ad haec duo recipienda non requiritur aliquid
+              causans ex parte recipientis, sed solum impedimentum removens: quod quidem
+              impedimentum nihil aliud est quam voluntas contraria alteri praedictorum; et ideo in
+              adultis et in habentibus usum rationis, in quibus potest esse contraria voluntas actu
+              vel habitu, requiritur et contritio; sive devotio, ad percipiendam rem sacramenti, et
+              intentio, vel voluntas ad recipiendum sacramentum; in pueris autem absque utroque
+              percipitur et sacramentum et res sacramenti; et similiter est in carentibus usu
+              rationis, nisi contraria voluntas habitu insit, etsi non actu. Tamen sciendum, quod
+              non requiritur in adulto voluntas absoluta suscipiendi quod Ecclesia confert, sed
+              sufficit voluntas conditionata, sicut est in voluntariis mixtis, ut dicitur in 3
+              Ethic.; et ideo si sit coactio sufficiens, ita quod principium sit ex toto extra, nil
+              conferente vim passo, ut cum aliquis reclamans immergitur violenter, tunc talis nec
+              sacramentum suscipit, nec rem sacramenti. Si autem sit coactio inducens, sicut minis
+              vel flagellis, ita quod baptizatus potius eligat Baptismum suscipere quam talia pati;
+              tunc suscipit sacramentum, sed non rem sacramenti.</p>
+            <p xml:id="ta-l4d6q1-d1e439">Ad primum ergo dicendum, quod intentio vel voluntas in baptizato, ut dictum est, non
+              requiritur quasi causans deletionem culpae originalis, sed solum quasi removens
+              prohibens, scilicet contrariam voluntatem.</p>
+            <p xml:id="ta-l4d6q1-d1e442">Ad secundum dicendum, quod in pueris non potest esse contraria voluntas neque actu
+              neque habitu; et ideo non requiritur voluntas vel intentio in eis, qua prohibens
+              removeatur. In amentibus autem et dormientibus potest esse voluntas contraria
+              habitualis, quamvis non sit actualis; et ideo si ante somnum vel furiam fuerunt
+              contrariae voluntatis, non recipiunt sacramentum, quia adhuc illa voluntas
+              habitualiter manet. Si autem habuerunt propositum recipiendi Baptismum, et hoc per
+              aliqua signa innotuit, tunc in articulo necessitatis debet eis conferri Baptismus; et
+              suscipiunt sacramentum et rem sacramenti, etiam si furiosus tunc contradicat: quia
+              illa contradictio non procedit a voluntate rationis, secundum quam est capax
+              baptismalis gratiae. Si autem necessitas non sit, debet in furiosis expectari lucidum
+              intervallum, vel in dormientibus vigilia. Si tamen baptizetur in statu illo,
+              sacramentum suscipit, quamvis peccet baptizans.</p>
+            <p xml:id="ta-l4d6q1-d1e445">Ad tertium dicendum, quod voluntas vel intentio Baptismum suscipiendi non requiritur
+              ad Baptismum quasi causa vel dispositio characteris, sed solum sicut removens
+              prohibens: ideo ratio non valet.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d6q1-Dd1e451" type="articulus">
+          <head xml:id="ta-l4d6q1-Hd1e453">Articulus 3</head>
+
+          <head xml:id="ta-l4d6q1-Hd1e456" type="questionTitle">Utrum in baptizato fides requiratur</head>
+          <div xml:id="ta-l4d6q1-Dd1e459">
+            <head xml:id="ta-l4d6q1-Hd1e461">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d6q1-d1e464">Ad tertium sic proceditur. Videtur quod in baptizato fides requiratur ad hoc quod
+              sacramentum suscipiat. Baptismus enim sacramentum fidei dicitur. Sed nonnisi propter
+              fidem recipientis ipsum. Ergo requiritur fides baptizandi.</p>
+            <p xml:id="ta-l4d6q1-d1e467">Praeterea, Marc. ult. 16, dicitur: <quote xml:id="ta-l4d6q1-Qd1e469">qui crediderit et baptizatus
+              fuerit</quote>. Ergo videtur quod requiritur in adulto quod credat ad hoc quod
+              baptizetur.</p>
+            <p xml:id="ta-l4d6q1-d1e473">Praeterea, fides essentialior est sacramento quam voluntas. Sed voluntas requiritur,
+              ut dictum est. Ergo multo amplius fides.</p>
+            <p xml:id="ta-l4d6q1-d1e476">Sed contra, adulti non sunt pejoris conditionis quam pueri. Sed in pueris sufficit
+              fides Ecclesiae ad Baptismum, et non requiritur fides personae illius. Ergo nec in
+              adultis.</p>
+            <p xml:id="ta-l4d6q1-d1e480">Praeterea, caritas propinquior est ad gratiam quam fides: quia caritas non potest
+              esse sine gratia sicut fides. Sed non requiritur caritas in recipiente Baptismum, quia
+              sic nullus adultus de novo acciperet ibi gratiam. Ergo non requiritur fides.</p>
+          </div>
+          <div xml:id="ta-l4d6q1-Dd1e484">
+            <head xml:id="ta-l4d6q1-Hd1e486">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d6q1-d1e489">Ulterius. Videtur quod requiratur fides in baptizante. Requiritur enim in baptizante
+              intentio conferendi sacramentum. Sed infidelis quantum ad articulum Baptismi non
+              credit sacramentum Baptismi. Ergo non potest intendere conferre illud, et ita non
+              potest baptizare.</p>
+            <p xml:id="ta-l4d6q1-d1e492">Praeterea, Baptismus est sacramentum Ecclesiae. Sed fides est per quam membra
+              Ecclesiae primo ad invicem uniuntur. Ergo qui non habet fidem, nec potest baptizare,
+              cum non sit de Ecclesia.</p>
+            <p xml:id="ta-l4d6q1-d1e495">Praeterea, propinquius se habet ad Baptismum baptizans quam offerens puerum ad
+              baptizandum. Sed in offerente requiritur fides, quia respondet, credo. Ergo multo
+              fortius requiritur in baptizante.</p>
+            <p xml:id="ta-l4d6q1-d1e498">Sed contra est quod in littera determinatur, quod haeretici verum Baptismum
+              conferunt. Haeretici autem infideles sunt. Ergo et cetera.</p>
+          </div>
+          <div xml:id="ta-l4d6q1-Dd1e502">
+            <head xml:id="ta-l4d6q1-Hd1e504">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d6q1-d1e507">Ulterius. Videtur quod recipientes Baptismum ab haereticis non consequantur rem
+              sacramenti. Quia Augustinus dicit, quod qui foris Ecclesiam baptizantur, non sumunt
+              Baptismum ad salutem, sed ad perniciem. Sed baptizati ab haereticis sumunt Baptismum
+              extra Ecclesiam. Ergo non sumunt ad salutem; et ita rem sacramenti non
+              consequuntur.</p>
+            <p xml:id="ta-l4d6q1-d1e510">Praeterea, quicumque accipit aliquid ab aliquo qui non habet jus dandi illud, injuste
+              accipit. Sed haereticus non habet jus dandi Baptismum, ut dicit Augustinus:
+                <quote xml:id="ta-l4d6q1-Qd1e512">si</quote>, inquit, <quote xml:id="ta-l4d6q1-Qd1e515">haereticus jus baptizandi non habuit, tamen
+                Christi est quod dedit</quote>. Ergo accipiens ab haeretico, injuste accipit, et ita
+              peccat.</p>
+            <p xml:id="ta-l4d6q1-d1e519">Sed contra, peccatum baptizantis non polluit Baptismum, ut dictum est supra. Sed
+              infidelitas est quoddam peccatum. Ergo non impedit effectum Baptismi in baptizato.</p>
+          </div>
+          <div xml:id="ta-l4d6q1-Dd1e524">
+            <head xml:id="ta-l4d6q1-Hd1e526">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d6q1-d1e529">Respondeo dicendum ad primam quaestionem, quod cum quaeritur utrum fides requiratur,
+              velut necessaria ad Baptismum, non intelligitur quaestio de necessitate absoluta, sed
+              de necessitate quae est ex conditione finis. Est autem duplex finis in baptizatis.
+              Primus est perceptio sacramenti; secundus est perceptio rei sacramenti. Dico ergo,
+              quod in adultis requiritur fides etiam personalis necessitate quae est ex suppositione
+              finis secundi: quia nisi credat, reputatur fictus, ut supra, dist. 4, quaest. 3, art.
+              2, quaestiunc. 1, 2, et 3, dictum est, et ita non consequitur rem sacramenti. Non
+              autem requiritur ad primum finem consequendum: quia sacramentum percipit aliquis etiam
+              si non credat. Unde Augustinus dicit quod prorsus fieri potest ut aliqui verum
+              Baptisma habeant, et non habeant veram fidem. In parvulis autem sufficit fides
+              Ecclesiae ad utrumque.</p>
+            <p xml:id="ta-l4d6q1-d1e532">Ad primum ergo dicendum, quod Baptismus dicitur fidei sacramentum, quia per eum homo
+              coetibus fidelium aggregatur; et ideo qui accipit Baptismum, ostendit se fidem habere;
+              et si non habet, reputatur fictus, et rem sacramenti cum sacramento percepto non
+              percipit.</p>
+            <p xml:id="ta-l4d6q1-d1e535">Ad secundum dicendum, quod dominus in verbis illis ostendit quid requiritur in
+              baptizando ad salutem consequendam, quae est res sacramenti; unde subdit: <quote xml:id="ta-l4d6q1-Qd1e537">qui
+                crediderit et baptizatus fuerit, salvus erit</quote>.</p>
+            <p xml:id="ta-l4d6q1-d1e541">Ad tertium dicendum, quod sacramentum Baptismi in anima recipitur quantum ad
+              characterem. Anima autem non potest alicui subjici invita; et ideo voluntas seu
+              intentio facit ad hoc quod homo se sacramento subjiciat; sed fides facit ad hoc quod
+              debito modo se subjiciat. Unde fides requiritur tantum ad perceptionem rei sacramenti,
+              sed intentio ad perceptionem rei simpliciter.</p>
+            <p xml:id="ta-l4d6q1-d1e545">Et quia aliae rationes probant, quod nec quantum ad ultimum effectum fides
+              requiratur, ideo ad quartum dicendum, quod in pueris non potest esse contrarium
+              gratiae baptismalis ex personali voluntate; et ideo non requiritur personalis fides,
+              sicut requiritur in adultis ad consequendam rem sacramenti, in quibus potest esse
+              personalis infidelitas.</p>
+            <p xml:id="ta-l4d6q1-d1e548">Ad quintum dicendum, quod recta intentio requiritur ad consequendam rem sacramenti.
+              Fides autem intentionem dirigit, et sine ea non potest esse, praecipue in talibus,
+              intentio recta; sed caritas ulterius facit intentionem meritoriam; et ideo ad hoc quod
+              homo praeparet se ad gratiam in Baptismo percipiendam, praeexigitur fides, sed non
+              caritas: quia sufficit attritio praecedens, etsi non sit contritio.</p>
+          </div>
+          <div xml:id="ta-l4d6q1-Dd1e552">
+            <head xml:id="ta-l4d6q1-Hd1e554">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d6q1-d1e557">Ad secundam quaestionem dicendum, quod dum haereticus vel quicumque infidelis debitam
+              formam servet, et intentionem baptizandi habeat, verum sacramentum confert: quia
+              Baptismus non habet efficaciam ex merito baptizantis, sed ex merito Christi, quod
+              operatur in baptizato per fidem propriam in adultis, vel per fidem Ecclesiae in
+              pueris.</p>
+            <p xml:id="ta-l4d6q1-d1e560">Ad primum ergo dicendum, quod quamvis ille qui non credit Baptismum esse sacramentum,
+              aut habere aliquam spiritualem virtutem, non intendat dum baptizat conferre
+              sacramentum; tamen intendit facere quandoque quod facit Ecclesia, etsi illud reputet
+              nihil esse; et quia Ecclesia, aliquid facit, ideo ex consequenti et implicite intendit
+              aliquid facere, quamvis non explicite.</p>
+            <p xml:id="ta-l4d6q1-d1e563">Ad secundum dicendum, quod quamvis haereticus per fidem rectam non sit membrum
+              Ecclesiae, tamen inquantum servat morem Ecclesiae in baptizando, Baptismum Ecclesiae
+              tradit; unde regenerat filios Christo et Ecclesiae, non sibi vel haeresi suae. Sicut
+              enim Jacob genuit filios per liberas et ancillas, ita Christus per Catholicos et
+              haereticos, bonos et malos, ut Augustinus dicit contra donatum ubi supra.</p>
+            <p xml:id="ta-l4d6q1-d1e566">Ad tertium dicendum, quod non requiritur fides personalis offerentium puerum ad
+              Baptismum, nec alicujus personae determinatae, sed solum fides Ecclesiae militantis;
+              quam non est possibile deficere totaliter, Deo sic ordinante, qui dixit, Matth. ult.,
+              20: <quote xml:id="ta-l4d6q1-Qd1e568">ecce ego vobiscum sum usque ad consummationem saeculi</quote>. Si tamen
+              deficeret, illud suppleret quod de fide remansit in Ecclesia triumphante, scilicet
+              visio: nec offerens puerum ad Baptismum in persona sua dicit, credo, sed in persona
+              pueri, ut sit sensus: credo, idest, sacramentum fidei praesto sum recipere.</p>
+          </div>
+          <div xml:id="ta-l4d6q1-Dd1e573">
+            <head xml:id="ta-l4d6q1-Hd1e575">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d6q1-d1e578">Ad tertiam quaestionem dicendum, quod ille qui ab haeretico baptizatur, propter
+              peccatum haeretici non privatur gratia Baptismatis, sed quandoque propter peccatum
+              proprium. Unde si sit puer, in quem culpa actualis non cadit, si baptizatur in forma
+              Ecclesiae, recipit sacramentum et rem sacramenti: similiter si sit adultus, et
+              baptizans non sit haereticus manifestus et ab Ecclesia praecisus, vel si baptizatus
+              sit in articulo necessitatis. Si autem sciat ipsum esse haereticum, et Baptismum ab
+              ipso suscipiat, hoc contingit vel quia favet haeresi suae, vel in contemptum
+              Ecclesiae, vel propter aliquod temporale commodum; et sic ipsemet peccat; unde proprio
+              peccato obicem ponit spiritui sancto, ne consequatur rem sacramenti.</p>
+            <p xml:id="ta-l4d6q1-d1e581">Ad primum ergo dicendum, quod Augustinus loquitur in casu illo quando aliquis in
+              favorem haeresis vel aliquo alio malo fine ab haeretico Baptismum suscipit.</p>
+            <p xml:id="ta-l4d6q1-d1e584">Ad secundum dicendum, quod jus dandi Baptisma est ex duobus; scilicet ex ordine
+              sacerdotali, et ex jurisdictione. In haeretico ergo ab Ecclesia praeciso manet jus
+              dandi Baptisma quantum ad ordinem sacerdotalem, si primo in Ecclesia sacerdos fuerit;
+              non tamen manet quantum ad jurisdictionem, quam amittit. Nec tamen sequitur quod
+              Baptismum ab haeretico suscipiens, semper injuste accipiat, cum credit eum habere jus
+              dandi, et non esse haereticum, vel in casu necessitatis, in quo quilibet habet
+              potestatem baptizandi.</p>
+
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

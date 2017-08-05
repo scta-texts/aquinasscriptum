@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 42, Quaestio 2</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Librum IV, Distinctio 42, Quaestio 2</title>
+          <date when="2016-03-19">March 19, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-19">March 19, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness>1856 editum</witness>
+          <witness xml:id="G" n="ghent567">Ghent, Belgium, Ghent University Library, 567</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="0.0.0-dev">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+
+
+
+
+      <div xml:id="starts-on">
+        <cb ed="#G" n="565a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ta-l4d42q2">
+        <head xml:id="ta-l4d42q2-Hd1e97">Librum IV, Distinctio 42, Quaestio 2</head>
+        <div xml:id="ta-l4d42q2-Dd1e100">
+          <head xml:id="ta-l4d42q2-Hd1e102">Prooemium</head>
+          <p xml:id="ta-l4d42q2-d1e105">Deinde quaeritur de cognatione legali, quae est per adoptionem; et circa hoc quaeruntur
+            tria: 1 de adoptione; 2 utrum ex adoptione contrahatur aliquod vinculum impediens
+            matrimonium; 3 inter quas personas contrahatur.</p>
+
+        </div>
+        <div xml:id="ta-l4d42q2-Dd1e109" type="articulus">
+          <head xml:id="ta-l4d42q2-Hd1e111">Articulus 1</head>
+
+          <head xml:id="ta-l4d42q2-Hd1e114" type="questionTitle">Utrum convenienter adoptio definiatur</head>
+
+          <p xml:id="ta-l4d42q2-d1e117">Ad primum sic proceditur. Videtur quod inconvenienter adoptio definiatur:
+              <quote xml:id="ta-l4d42q2-Qd1e119">adoptio est extraneae personae in filium vel nepotem, vel deinceps, legitima
+              assumptio</quote>. Filius enim debet esse subditus patri. Sed aliquando ille qui
+            adoptatur, non transit in potestatem patris adoptantis. Ergo non semper per adoptionem
+            aliquis in filium assumitur.</p>
+          <p xml:id="ta-l4d42q2-d1e123">Praeterea, parentes debent filiis thesaurizare; 2 Corinth., 12. Sed pater adoptans non
+            oportet quod semper adoptato thesaurizet; quia quandoque adoptatus non succedit in bona
+            adoptantis. Ergo adoptio non est assumptio alicujus in filium.</p>
+          <p xml:id="ta-l4d42q2-d1e126">Praeterea, adoptio per quam aliquis in filium assumitur, similatur generationi
+            naturali, per quam naturaliter filius producitur. Ergo cui competit naturalis generatio
+            filii, competit adoptio. Sed hoc est falsum; quia ille qui non est sui juris, et qui est
+            minor vigintiquinque annis, et mulier, non possunt adoptare, qui tamen possunt
+            naturaliter filium generare. Ergo adoptio non proprie dicitur assumptio alicujus in
+            filium.</p>
+          <p xml:id="ta-l4d42q2-d1e130">Praeterea, assumptio extraneae personae in filium videtur esse necessaria ad supplendum
+            defectum naturalium filiorum. Sed ille qui non potest generare, ut spado vel frigidus,
+            maxime patitur defectum in filiis naturalibus. Ergo ei maxime competit assumere in
+            filium aliquem. Sed non competit adoptare ei. Ergo adoptio non est assumptio alicujus in
+            filium.</p>
+          <p xml:id="ta-l4d42q2-d1e133">Praeterea, in spirituali cognatione, ubi aliquis in filium assumitur sine carnis
+            propagatione, potest indifferenter major aetate effici pater minoris, et e converso;
+            quia juvenis potest senem baptizare, et e converso. Si ergo per adoptionem aliquis
+            assumitur in filium sine carnis propagatione, similiter posset indifferenter senior
+            juniorem, vel junior seniorem adoptare; quod non est verum; et sic idem quod prius.</p>
+          <p xml:id="ta-l4d42q2-d1e136">Praeterea, adoptatus non differt secundum aliquem gradum ab adoptante. Ergo quilibet
+            adoptatus adoptatur in filium; et sic inconvenienter dicitur, quod adoptatur in
+            nepotem.</p>
+          <p xml:id="ta-l4d42q2-d1e139">Praeterea, adoptatio ex dilectione procedit; unde et Deus dicitur nos per caritatem in
+            filios adoptasse. Sed caritas major est habenda ad proximum quam ad extraneos. Ergo non
+            debet esse adoptatio extraneae personae, sed magis personae propinquae.</p>
+          <p xml:id="ta-l4d42q2-d1e142">Respondeo dicendum, quod ars imitatur naturam, et supplet defectum naturae in illis in
+            quibus natura deficit; unde sicut per naturalem generationem aliquis filium producit,
+            ita per jus positivum, quod est ars aequi et boni potest aliquis sibi assumere aliquem
+            in filium ad similitudinem filii naturalis, et ad supplendum filiorum praedictorum
+            defectum, propter quod praecipue adoptatio est introducta. Et quia assumptio importat
+            terminum a quo, propter quod assumens non est assumptum, ut in 3 Lib., dist. 5, quaest.
+            1, art. 1, quaestiunc. 3, in corp., dictum est, oportet quod ille qui assumitur in
+            filium, sit persona extranea. Sicut ergo naturalis generatio habet terminum ad quem,
+            scilicet formam quae est finis generationis, et terminum a quo, scilicet formam
+            contrariam; ita generatio legalis habet terminum ad quem, filium vel nepotem; terminum a
+            quo, personam extraneam. Et sic patet quod praedicta assignatio comprehendit genus
+            adoptionis, quia dicitur <quote xml:id="ta-l4d42q2-Qd1e144">legitima assumptio</quote>; et terminum a quo, quia
+            dicitur <quote xml:id="ta-l4d42q2-Qd1e147">extraneae personae</quote>; et terminum ad quem, quia dicitur <quote xml:id="ta-l4d42q2-Qd1e150">in
+              filium vel nepotem</quote>.</p>
+          <p xml:id="ta-l4d42q2-d1e154">Ad primum ergo dicendum, quod filiatio adoptionis est quaedam imitatio filiationis
+            naturalis; et ideo duplex est adoptionis species. Una quae perfecte imitatur naturalem
+            filiationem, et haec vocatur <quote xml:id="ta-l4d42q2-Qd1e156">adrogatio</quote>, per quam reducitur adoptatus in
+            potestatem adoptantis, et sic adoptatus succedit patri adoptanti ex intestato, nec
+            potest eum pater sine culpa privare quarta parte hereditatis. Sic autem adoptari non
+            potest nisi ille qui sui juris est, qui scilicet postquam adoptatur, non habet
+            potestatem, aut si habet, est emancipatus; et haec adoptatio non fit nisi auctoritate
+            principis. Alia est adoptatio quae imitatur naturalem filiationem imperfecte, quae
+            vocatur <quote xml:id="ta-l4d42q2-Qd1e159">simplex adoptio</quote>, per quam adoptatus non transit in potestatem
+            adoptantis; unde magis est dispositio quaedam ad perfectam adoptionem quam adoptio
+            perfecta: et secundum hanc potest adoptari etiam ille qui non est sui juris; et sine
+            auctoritate principis ex auctoritate magistratus; et sic adoptatus non succedit in bonis
+            adoptantis, nec tenetur ei adoptans aliquid de bonis suis in testamento dimittere, nisi
+            velit.</p>
+          <p xml:id="ta-l4d42q2-d1e164">Et per hoc patet solutio ad secundum.</p>
+          <p xml:id="ta-l4d42q2-d1e167">Ad tertium dicendum, quod generatio naturalis ordinatur ad speciem consequendam; et
+            ideo competit omnibus posse naturaliter generare in quibus natura speciei non est
+            impedita: sed adoptio ordinatur ad hereditatis successionem; et ideo illis solis
+            competit qui habent potestatem disponendi de hereditate sua; unde ille qui non est sui
+            juris, vel qui est minor vigintiquinque annis, aut mulier, non potest adoptare aliquem,
+            nisi ex speciali concessione principis.</p>
+          <p xml:id="ta-l4d42q2-d1e170">Ad quartum dicendum, quod per eum qui habet impedimentum perpetuum ad generandum, non
+            potest hereditas transire in posterum; unde ex hoc ipso jam debetur illis qui ei
+            succedere debent jure propinquitatis; et ideo ei non competit adoptare, sicut nec
+            naturaliter generare. Et praeterea major est dolor de filiis qui nunquam habiti sunt; et
+            ideo habentes impedimentum generationis non indigent solatio contra carentiam filiorum,
+            sicut illi qui habuerunt, et amiserunt; vel etiam qui habere potuerunt, sed aliquo
+            impedimento accidentali carent.</p>
+          <p xml:id="ta-l4d42q2-d1e173">Ad quintum dicendum, quod spiritualis cognatio contrahitur per sacramentum quo fideles
+            renascuntur in Christo, in quo non differt masculus a femina, servus et liber, juvenis
+            et senex; et ideo indifferenter quilibet potest effici pater spiritualis alterius. Sed
+            adoptio fit per hereditatis successionem, et quamdam subjectionem adoptati ad
+            adoptantem. Non est autem conveniens quod antiquior juveni in cura rei familiaris
+            subdatur; et ideo minor non potest adoptare seniorem; sed oportet secundum leges quod
+            adoptatus sit intantum adoptante junior quod possit ejus naturalis esse filius.</p>
+          <p xml:id="ta-l4d42q2-d1e176">Ad sextum dicendum, quod sicut contingit amitti filios, ita et nepotes; et ideo cum
+            adoptatio sit inducta ad solatium filiorum amissorum, sicut potest aliquis per
+            adoptionem subrogari in locum filii, ita in locum nepotis, et sic deinceps.</p>
+          <p xml:id="ta-l4d42q2-d1e179">Ad septimum dicendum, quod propinquus jure propinquitatis debet succedere; et ideo non
+            competit ei quod per adoptionem ad successionem deducatur; et si aliquis propinquus cui
+            non competat successio hereditatis, adoptetur, non adoptatur inquantum est propinquus,
+            sed inquantum est extraneus a jure successionis in bonis adoptantis.</p>
+
+        </div>
+        <div xml:id="ta-l4d42q2-Dd1e183" type="articulus">
+          <head xml:id="ta-l4d42q2-Hd1e185">Articulus 2</head>
+
+          <head xml:id="ta-l4d42q2-Hd1e188" type="questionTitle">Utrum ex adoptione contrahatur aliquod vinculum impediens
+            matrimonium</head>
+
+          <p xml:id="ta-l4d42q2-d1e191">Ad secundum sic proceditur. Videtur quod ex adoptione non contrahatur aliquod vinculum
+            impediens matrimonium. Quia cura spiritualis est dignior quam cura corporalis. Sed ex
+            hoc quod aliquis curae alicujus subjicitur spiritualiter, non contrahitur aliquod
+            propinquitatis vinculum; alias omnes qui habitant in parochia, essent propinqui
+            sacerdotis, et cum filio ejus non possent contrahere. Ergo nec adoptio, quae trahit
+            adoptatum in curas adoptantis, hoc facere potest.</p>
+          <p xml:id="ta-l4d42q2-d1e194">Praeterea, ex hoc quod aliquis alicui fit beneficus, non contrahitur propinquitatis
+            vinculum. Sed nihil aliud est adoptio quam collatio cujusdam beneficii. Ergo ex
+            adoptione non fit aliquod vinculum propinquitatis.</p>
+          <p xml:id="ta-l4d42q2-d1e197">Praeterea, pater naturalis principaliter filio providet in tribus, ut philosophus
+            dicit; quia scilicet ab ipso habet esse, nutrimentum, et disciplinam: hereditatis autem
+            successio est posterius ad ista. Sed per hoc quod aliquis alicui providet in nutrimento
+            et disciplina, non contrahitur aliquod propinquitatis vinculum; alias nutrientes et
+            paedagogi et magistri essent propinqui; quod falsum est. Ergo nec per adoptionem, per
+            quam aliquis succedit in hereditatem alterius, contrahitur aliqua propinquitas.</p>
+          <p xml:id="ta-l4d42q2-d1e201">Praeterea, sacramenta Ecclesiae non subduntur humanis legibus. Sed matrimonium est
+            sacramentum Ecclesiae. Cum ergo adoptio sit inducta per legem humanam, videtur quod non
+            possit impediri matrimonium per aliquod vinculum ex adoptione contractum.</p>
+          <p xml:id="ta-l4d42q2-d1e204">Sed contra, cognatio matrimonium impedit. Sed ex adoptione quaedam cognatio causatur,
+            scilicet legalis, ut patet per ejus definitionem; est enim cognatio legalis
+              <quote xml:id="ta-l4d42q2-Qd1e206">quaedam proximitas proveniens ex adoptione</quote>. Ergo adoptio causat
+            vinculum per quod matrimonium impeditur.</p>
+          <p xml:id="ta-l4d42q2-d1e210">Praeterea, hoc idem habetur ex auctoritatibus in littera positis.</p>
+          <p xml:id="ta-l4d42q2-d1e213">Respondeo dicendum, quod lex divina illas personas praecipue e matrimonio exclusit quas
+            necesse erat cohabitare, ne, ut Rabbi Moyses dicit, si ad eas liceret carnalis copula,
+            facilis pateret concupiscentiae locus; ad quam reprimendam matrimonium est ordinatum; et
+            quia filius adoptatus versatur in domo patris adoptantis sicut filius naturalis, ideo
+            legibus humanis prohibitum est inter tales matrimonium contrahi; et talis prohibitio est
+            per Ecclesiam approbata; et inde habetur quod legalis cognatio matrimonium impediat.</p>
+          <p xml:id="ta-l4d42q2-d1e216">Et per hoc patet solutio ad prima tria; quia per omnia illa non inducitur talis
+            cohabitatio quae possit fomentum concupiscentiae praestare; et ideo ex eis non causatur
+            propinquitas quae matrimonium impediat.</p>
+          <p xml:id="ta-l4d42q2-d1e219">Ad quartum dicendum, quod prohibitio legis humanae non sufficeret ad impedimentum
+            matrimonii, nisi interveniret auctoritas Ecclesiae, quae idem etiam interdicit.</p>
+
+        </div>
+        <div xml:id="ta-l4d42q2-Dd1e223" type="articulus">
+          <head xml:id="ta-l4d42q2-Hd1e225">Articulus 3</head>
+
+          <head xml:id="ta-l4d42q2-Hd1e228" type="questionTitle">Utrum talis cognatio non contrahatur nisi inter patrem
+            adoptantem et filium adoptatum</head>
+
+          <p xml:id="ta-l4d42q2-d1e231">Ad tertium sic proceditur. Videtur quod talis cognatio non contrahatur nisi inter
+            patrem adoptantem et filium adoptatum. Maxime enim videretur quod deberet contrahi inter
+            patrem adoptantem et matrem naturalem adoptati, sicut accidit in cognatione spirituali.
+            Sed inter tales nulla est cognatio legalis. Ergo nec inter alias personas praeter
+            adoptantem et adoptatum.</p>
+          <p xml:id="ta-l4d42q2-d1e234">Praeterea, cognatio impediens matrimonium est perpetuum impedimentum. Sed inter filium
+            adoptatum et filiam naturalem adoptantis non est perpetuum impedimentum; quia soluta
+            adoptione per mortem adoptantis, vel emancipationem adoptati, potest contrahere cum ea.
+            Ergo cum ea non habuit aliquam propinquitatem quae matrimonium impediret.</p>
+          <p xml:id="ta-l4d42q2-d1e237">Praeterea, cognatio spiritualis in nullam personam transit quae non possit ad aliquod
+            sacramentum tenere, vel suscipere; unde in non baptizatum non transit. Sed mulier non
+            potest adoptare, ut ex dictis patet. Ergo cognatio legalis non transit a viro in
+            uxorem.</p>
+          <p xml:id="ta-l4d42q2-d1e241">Praeterea, cognatio spiritualis est fortior quam legalis. Sed spiritualis cognatio non
+            transit in nepotem. Ergo nec legalis.</p>
+          <p xml:id="ta-l4d42q2-d1e244">Sed contra plus concordat cognatio legalis cum carnis conjunctione vel propagatione
+            quam spiritualis. Sed spiritualis transit in alteram personam modis praedictis, ut
+            dictum est. Ergo et legalis.</p>
+          <p xml:id="ta-l4d42q2-d1e247">Respondeo dicendum, quod triplex est legalis cognatio. Prima quasi descendentium, quae
+            contrahitur inter patrem adoptantem et filium adoptatum, et filium filii adoptivi, et
+            nepotem, et sic deinceps. Secunda quae est inter filium adoptatum et filium naturalem.
+            Tertia per modum cujusdam affinitatis, quae est inter patrem adoptantem et uxorem filii
+            adoptati, vel e converso inter filium adoptatum et uxorem patris adoptantis. Prima ergo
+            cognatio et tertia perpetuo matrimonium impediunt; secunda autem non nisi quamdiu in
+            potestate manet patris adoptantis; unde mortuo patre, vel filio emancipato, potest
+            contrahi inter eos matrimonium.</p>
+          <p xml:id="ta-l4d42q2-d1e250">Ad primum ergo dicendum, quod per generationem spiritualem non trahitur filius extra
+            potestatem patris, sicut fit per adoptionem; et sic filius spiritualis manet filius
+            utriusque simul, non autem filius adoptivus; et ideo non contrahitur aliqua propinquitas
+            inter patrem adoptantem et matrem vel patrem naturalem, sicut erat in cognatione
+            spirituali.</p>
+          <p xml:id="ta-l4d42q2-d1e253">Ad secundum dicendum, quod cognatio legalis impedit matrimonium propter cohabitationem;
+            et ideo quando solvitur necessitas cohabitationis, non est inconveniens si praedictum
+            vinculum non maneat, sicut quando fuerit extra potestatem ejusdem patris. Sed pater
+            adoptans et uxor ejus semper quamdam auctoritatem retinent super filium adoptatum et
+            uxorem ejus; et propter hoc, vinculum manet inter eos.</p>
+          <p xml:id="ta-l4d42q2-d1e256">Ad tertium dicendum, quod etiam mulier ex concessione principis adoptare potest; unde
+            etiam in ipsam potest transire cognatio legalis. Et praeterea causa quare cognatio
+            spiritualis non transit in non baptizatum, non est quia non potest tenere ad
+            sacramentum, sed quia non est alicujus spiritualitatis capax.</p>
+          <p xml:id="ta-l4d42q2-d1e260">Ad quartum dicendum, quod per cognationem spiritualem filius non ponitur in potestate
+            et cura patris spiritualis, sicut in cognatione legali. Oportet enim quod quidquid est
+            in potestate filii, transeat in potestatem patris adoptantis; unde adoptato patre
+            adoptantur filii et nepotes, qui sunt in potestate adoptati.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

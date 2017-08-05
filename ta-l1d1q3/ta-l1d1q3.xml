@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 1, Quaestio 3</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.09-dev-master">
+          <title>Librum I, Distinctio 1, Quaestio 3</title>
+          <date when="2016-01-31">January 31, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-01-31">January 31, 2016</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <p>1856 editum</p>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="2015.09">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+
+      <div xml:id="starts-on">
+      </div>
+    </front>
+    <body>
+      <div xml:id="ta-l1d1q3">
+        <head xml:id="ta-l1d1q3-Hd1e3490">Librum I, Distinctio 1, Quaestio 3</head>
+        <div xml:id="ta-l1d1q3-Dd1e3493" type="articulus">
+        <head xml:id="ta-l1d1q3-Hd1e3495">Articulus 1</head>
+        <head xml:id="ta-l1d1q3-Hd1e3498" type="questionTitle">Utrum utendum sit omnibus aliis a Deo</head>
+        
+            <p xml:id="ta-l1d1q3-d1e3501">Deinde quaeritur de utibilibus, utrum omnibus aliis praeter Deum sit utendum. Et videtur quod non. Uti enim est assumere aliquid in facultatem voluntatis. Illud autem tantum est hoc modo assumptum quod nostrae operationi subjacet. Non autem omnia creata sunt talia, sicut caelum et Angeli, quae non sunt operabilia a nobis. Ergo non possumus omnibus uti.</p>
+            <p xml:id="ta-l1d1q3-d1e3504">Praeterea, illo utimur quo tendentes ad beatitudinem juvamur. Sed creaturis impedimur frequenter, sicut dicitur Sap. 14, 2: <quote xml:id="ta-l1d1q3-Qd1e3506">creaturae factae sunt in odium et in tentationem animabus hominum, et in muscipulam pedibus insipientium</quote>. Ergo non omnibus possumus uti.</p>
+            <p xml:id="ta-l1d1q3-d1e3510">Praeterea, si omnibus praeter Deum tenemur uti, ergo quandocumque non referimus aliquid in Deum, peccamus; sed quandocumque referimus aliquid in Deum, meremur. Ergo omnis actus est meritorius, et sic nullus actus erit indifferens.</p>
+            <p xml:id="ta-l1d1q3-d1e3514">Praeterea, sequitur quod nullum peccatum sit veniale; quia, si refertur in ultimum finem, non est aliquod peccatum; si autem constituatur aliquis finis alius ultimus, non relatus ad finem ultimum, est peccatum mortale. Cum igitur omnis actus rationis sit ad aliquem finem, oportet quod ille finis vel sit finis ultimus, et sic non est peccatum; vel sit alius finis non relatus ad finem ultimum, et sic erit peccatum mortale. Ergo nihil est peccatum veniale.</p>
+            <p xml:id="ta-l1d1q3-d1e3517">Contra, 
+              <ref xml:id="ta-l1d1q3-Rd1e3519"><title ref="#Icor">1 Corinth.</title> 10, 31:</ref> 
+              <quote xml:id="ta-l1d1q3-Qd1e3524" ana="#Icor10_31">sive manducatis, sive bibitis (...) omnia in gloriam Dei facite</quote>. Ergo videtur quod omnibus sit utendum.</p>
+            <p xml:id="ta-l1d1q3-d1e3528">Item, sicut Deus est perfectae potentiae, ita est perfectae bonitatis. Sed ad perfectionem potentiae ejus pertinet quod nihil habeat esse nisi productum ab ipso. Ergo et ad perfectionem divinae bonitatis pertinet quod ametur nihil, nisi quod est in ordine ad ipsum.</p>
+            <p xml:id="ta-l1d1q3-d1e3531">Respondeo dicendum, quod quaecumque sunt bona, non habent bonitatem nisi inquantum accedunt ad similitudinem bonitatis divinae. Unde oportet, cum bonitas sit ratio dilectionis et desiderii, ut omnia amentur in ordine ad bonitatem primam. Omne autem quod bonum est, a Deo est: unde quae ab ipso non sunt, nec quaerenda sunt, nec eis utendum est: et ideo nullo peccato utendum est, quia peccatum non est a Deo. Poena autem a Deo est; et ideo poena utendum est, et ordinanda ad finem, secundum quod promovet meritum hominis, ducens eum in considerationem suae infirmitatis, et secundum quod purgat peccata. Similiter etiam res mundi ab ipso sunt, et eis utendum est, vel inquantum conferunt ad Dei cognitionem, ostendentes ipsius magnitudinem, vel secundum quod praebent subsidium vitae nostrae ordinatae in Deum. Similiter opera nostra quae mala non sunt, ab ipso sunt, et propter ipsum facienda: non quod quamlibet operationem oporteat semper actualiter referre in Deum; sed sufficit ut habitualiter in Deo constituant finem suae voluntatis.</p>
+            <p xml:id="ta-l1d1q3-d1e3534">Ad primum ergo dicendum, quod illis creaturis non utimur tamquam a nobis operatis, sed sicut in Dei cognitionem ducentibus.</p>
+            <p xml:id="ta-l1d1q3-d1e3537">Ad secundum dicendum, quod creaturae, quantum est in se, non impediunt nos a consequenda beatitudine; sed ex parte nostra, inquantum eis abutimur, in eis sistendo, sicut in fine.</p>
+            <p xml:id="ta-l1d1q3-d1e3541">Ad tertium dicendum, quod, secundum theologum, nullus actus procedens a voluntate deliberante est indifferens; quia, si refertur in Deum, supposita gratia, meritorius est; si autem non est referibilis, peccatum est; si vero est referibilis et non referatur, vanus est: otiosum autem inter peccata apud theologum computatur.</p>
+            <p xml:id="ta-l1d1q3-d1e3544">Ad quartum dicendum, quod, quamvis ille qui peccat venialiter non referat actu in Deum suam operationem, nihilominus tamen Deum habitualiter pro fine habet: unde non ponit creaturam finem ultimum, cum diligat eam citra Deum; sed ex hoc peccat, quia excedit in dilectione; sicut ille qui nimis immoratur viae, non tamen exit a via.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

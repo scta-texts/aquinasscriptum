@@ -1,0 +1,1224 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 1, Quaestio 1</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Librum IV, Distinctio 1, Quaestio 1</title>
+          <date when="2016-03-18">March 18, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-18">March 18, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness>1856 editum</witness>
+          <witness xml:id="G" n="ghent567">Ghent, Belgium, Ghent University Library, 567</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="0.0.0-dev">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+
+
+
+
+      <div xml:id="starts-on">
+        <cb ed="#G" n="2a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ta-l4d1q1">
+        <head xml:id="ta-l4d1q1-Hd1e97">Librum IV, Distinctio 1, Quaestio 1</head>
+
+        <div xml:id="ta-l4d1q1-Dd1e100">
+          <head xml:id="ta-l4d1q1-Hd1e102">Prooemium</head>
+          <p xml:id="ta-l4d1q1-d1e105">Hic quaeruntur quinque: 1 quid sit sacramentum; 2 de necessitate sacramentorum; 3 ex
+            quibus consistat sacramentum; 4 de efficacia sacramentorum novae legis; 5 de efficacia
+            sacramentorum veteris legis.</p>
+        </div>
+        <div xml:id="ta-l4d1q1-Dd1e109" type="articulus">
+          <head xml:id="ta-l4d1q1-Hd1e111">Articulus 1</head>
+
+          <head xml:id="ta-l4d1q1-Hd1e114" type="questionTitle">Utrum definitio sacramenti a Magistro convenienter
+            assignetur</head>
+          <div xml:id="ta-l4d1q1-Dd1e117">
+            <head xml:id="ta-l4d1q1-Hd1e119">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d1q1-d1e122">Ad primum sic proceditur. Videtur quod inconvenienter definiatur sacramentum per hoc
+              quod dicitur: <quote xml:id="ta-l4d1q1-Qd1e124">sacramentum est sacrae rei signum</quote>. Sacramenta enim sunt
+              alligamenta sanitatis, ut dicitur in Glossa super illud Psalm. 146, 3: <quote xml:id="ta-l4d1q1-Qd1e127">qui
+                sanat contritos corde</quote>. Sed de ratione medicamenti non est ut aliquid
+              significet, sed solum ut efficiat sanitatem. Ergo sacramentum non est signum.</p>
+            <p xml:id="ta-l4d1q1-d1e131">Praeterea, omnes creaturae sensibiles sunt signa invisibilium divinorum, ut patet
+              Rom. 1, nec tamen dici possunt sacramenta. Ergo male definitur sacramentum
+                <quote xml:id="ta-l4d1q1-Qd1e133">sacrae rei signum</quote>.</p>
+            <p xml:id="ta-l4d1q1-d1e137">Praeterea, serpens aeneus, de quo dicitur Num. 21, signum fuit sacrae rei, scilicet
+              crucis Christi: nec tamen fuit sacramentum. Ergo definitio praedicta est male
+              data.</p>
+            <p xml:id="ta-l4d1q1-d1e140">Praeterea, triplex est signum; scilicet demonstrativum, quod est de praesenti;
+              rememorativum, quod est de praeterito; prognosticum, quod est de futuro. Sed nullum
+              istorum competit sacramento, cum quandoque recipiens sacramentum, gratiam non habeat,
+              nec habuit, nec in posterum habiturus sit. Ergo non omne sacramentum est signum.</p>
+            <p xml:id="ta-l4d1q1-d1e144">Praeterea, signum contra causam dividitur. Sed aliquod sacramentum est causa. Ergo
+              non omne sacramentum est signum.</p>
+          </div>
+          <div xml:id="ta-l4d1q1-Dd1e148">
+            <head xml:id="ta-l4d1q1-Hd1e150">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d1q1-d1e153">Ulterius. Videtur quod male definiatur signum, cum dicitur: <quote xml:id="ta-l4d1q1-Qd1e155">signum est res
+                praeter speciem quam ingerit sensibus, aliquid aliud ex se faciens in cognitionem
+                venire</quote>. Unum enim oppositorum non debet poni in definitione alterius. Sed
+              res et signa ex opposito dividuntur, ut patuit in 1 dist. primi libri. Ergo res non
+              debet poni in definitione signi.</p>
+            <p xml:id="ta-l4d1q1-d1e159">Praeterea, secundum philosophum in libro priorum, omnis effectus suae causae signum
+              esse potest. Sed quidam effectus sunt spirituales, qui nullam speciem ingerunt
+              sensibus. Ergo non omne signum aliquam speciem sensibus ingerit.</p>
+            <p xml:id="ta-l4d1q1-d1e162">Praeterea, omnis locutio fit per aliqua signa. Sed Angeli loquuntur non prolato
+              aliquo sensibili sermone, ut in 2 Lib., dist. 2, dictum est. Ergo non omne signum est
+              sensibile.</p>
+          </div>
+          <div xml:id="ta-l4d1q1-Dd1e166">
+            <head xml:id="ta-l4d1q1-Hd1e168">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d1q1-d1e171">Ulterius. Videtur quod haec definitio male detur: <quote xml:id="ta-l4d1q1-Qd1e173">sacramentum est invisibilis
+                gratiae visibilis forma, ut imaginem gerat, et causa existat</quote>. Sicut enim in
+              littera dicitur, in duobus sacramenta consistunt, scilicet in rebus et verbis. Sed
+              sicut res sunt visibiles, ita verba sunt audibilia. Ergo debuit dicere: visibilis et
+              audibilis forma.</p>
+            <p xml:id="ta-l4d1q1-d1e177">Praeterea, omnis forma est intrinseca vel exemplaris. Sed sacramenta non sunt formae
+              intrinsecae invisibilis gratiae, ut per se patet: nec iterum formae exemplares, cum
+              gratia invisibilis non imitetur rem visibilem, sed e converso. Ergo sacramentum nullo
+              modo est forma invisibilis gratiae.</p>
+            <p xml:id="ta-l4d1q1-d1e180">Praeterea, character baptismalis est sacramentum et res, ut infra, dist. 4, quaest.
+              1, dicetur, et similiter corpus Christi verum existens in altari. Sed neutrum istorum
+              est forma visibilis. Ergo definitio non est bene data.</p>
+            <p xml:id="ta-l4d1q1-d1e183">Praeterea, imago est quod ad imitationem alterius fit; forma autem exemplaris est ad
+              cujus imitationem aliquid fit. Ergo non est idem forma et imago respectu ejusdem. Sed
+              sacramentum est forma invisibilis gratiae. Ergo non est imago respectu ejusdem.</p>
+            <p xml:id="ta-l4d1q1-d1e187">Praeterea, in definitione generis non debet poni differentia constitutiva alicujus
+              specierum in quas dividitur genus. Sed esse causam ejus quod figurat, est differentia
+              sacramentorum novae legis. Ergo non debet poni in definitione communi sacramenti.</p>
+          </div>
+          <div xml:id="ta-l4d1q1-Dd1e192">
+            <head xml:id="ta-l4d1q1-Hd1e194">Quaestiuncula 4</head>
+            <p xml:id="ta-l4d1q1-d1e197">Ulterius. Videtur quod definitio quam ponit Augustinus, sit incompetens; scilicet:
+                <quote xml:id="ta-l4d1q1-Qd1e199">sacramentum est in quo sub tegumento rerum visibilium divina virtus secretius
+                operatur salutem</quote>. Occultatio enim manifestationi opponitur. Sed signum
+              instituitur ad manifestandum. Cum ergo tegumentum occultationem importet, videtur quod
+              male ponatur in definitione sacramenti.</p>
+            <p xml:id="ta-l4d1q1-d1e203">Praeterea, frequenter accipientes sacramenta, salutem non consequuntur. Ergo operatio
+              salutis non debet poni in definitione sacramenti.</p>
+            <p xml:id="ta-l4d1q1-d1e206">Praeterea, in sanctis hominibus divina virtus operatur ad salutem ipsorum, ut dicitur
+              Isai. 26, 12: <quote xml:id="ta-l4d1q1-Qd1e208">omnia opera nostra operatus es in nobis</quote>, nec tamen sancti
+              homines dicuntur sacramenta. Ergo idem quod prius.</p>
+          </div>
+          <div xml:id="ta-l4d1q1-Dd1e213">
+            <head xml:id="ta-l4d1q1-Hd1e215">Quaestiuncula 5</head>
+            <p xml:id="ta-l4d1q1-d1e218">Ulterius. Videtur quod definitio Hugonis a sancto Victore, sit incompetens, quae
+              talis est: <quote xml:id="ta-l4d1q1-Qd1e220">sacramentum est corporale vel materiale elementum, extrinsecus
+                oculis suppositum, ex institutione signans, ex similitudine repraesentans, et ex
+                sanctificatione invisibilem gratiam continens</quote>. Materia enim non praedicatur
+              de toto. Sed materiale elementum est materia sacramenti. Ergo male ponitur in
+              definitione sacramenti ut genus.</p>
+            <p xml:id="ta-l4d1q1-d1e224">Praeterea, in quibusdam sacramentis non est elementum, sed elementatum, sicut in
+              extrema unctione est oleum. Ergo definitio non est communis omnibus sacramentis.</p>
+            <p xml:id="ta-l4d1q1-d1e227">Praeterea, similitudo est rerum differentium eadem qualitas. Sed non potest esse
+              eadem qualitas rerum spiritualium ad corporalia. Ergo nec similitudo; ergo male
+              dicitur: <quote xml:id="ta-l4d1q1-Qd1e229">ex similitudine repraesentans</quote>.</p>
+            <p xml:id="ta-l4d1q1-d1e233">Praeterea, si est aliqua similitudo, illa est ex naturali proprietate materialis
+              elementi. Si ergo ex similitudine repraesentat, et idem est repraesentare quod
+              significare, ut potest patere per definitionem signi in littera positam; ergo
+              sacramentum non significat ex institutione.</p>
+          </div>
+          <div xml:id="ta-l4d1q1-Dd1e237">
+            <head xml:id="ta-l4d1q1-Hd1e239">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d1q1-d1e242">Respondeo dicendum ad primam quaestionem, quod sacramentum secundum proprietatem
+              vocabuli videtur importare sanctitatem active, ut dicatur sacramentum quo aliquid
+              sacratur, sicut ornamentum quo aliquid ornatur. Sed quia actiones activorum dicuntur
+              esse proportionatae conditionibus passivorum, ideo in sanctificatione qua homo
+              sanctificatur, debet esse talis sanctificandi modus qui homini competat secundum quod
+              rationalis est, quia ex hoc est homo. Inquantum autem est rationalis, habet
+              cognitionem a sensibilibus ortam; unde oportet quod sanctificetur hoc modo quod sua
+              sanctificatio sibi innotescat per similitudines sensibilium rerum; et secundum hoc
+              invenitur diversa acceptio sacramenti. Aliquando enim sacramentum importat rem qua fit
+              consecratio; et sic passio Christi dicitur sacramentum; et haec est prima acceptio
+              quam Magister ponit. Aliquando vero includit modum consecrationis, qui homini competit
+              secundum quod causae sanctificantes et sua sanctificatio per similitudines sensibilium
+              sibi notificantur; et sic sacramenta novae legis sacramenta dicuntur: quia et
+              consecrant, et sanctitatem significant modo praedicto, et etiam primas
+              sanctificationis causas significant; sicut Baptismus et puritatem designat, et mortis
+              Christi signum est. Aliquando etiam includit tantum significationem praedictarum
+              consecrationum, sicut signum sanitatis dicitur sanum; et hoc modo sacramenta veteris
+              legis, sacramenta dicuntur, inquantum significant ea quae in Christo sunt gesta, et
+              etiam sacramenta novae legis. Relicto ergo primo modo dicendi sacramentum (quia de
+              hujusmodi sacramentis dictum est in 3 libro), de sacramentis secundo et tertio modo
+              dictis non poterit alia communis definitio assignari nisi dicatur: <quote xml:id="ta-l4d1q1-Qd1e244">sacramentum
+                est sacrae rei signum</quote>; nisi quod oportet ut subintelligatur talis modus
+              significandi, qui est per similitudinem rei sensibilis quod Magister addit quod est id
+              ut scilicet ejus similitudinem gerat.</p>
+            <p xml:id="ta-l4d1q1-d1e248">Ad primum ergo dicendum, quod quamvis significatio non sit de ratione curationis
+              simpliciter, est tamen de ratione curationis talis quae fit per sacramenta, ut ex
+              dictis patet.</p>
+            <p xml:id="ta-l4d1q1-d1e251">Ad secundum dicendum, quod res sensibiles non sunt signa divinorum ut sunt sacrantia,
+              sed ut sunt in seipsis sacra. Sacramentum autem debet intelligi signum rei sacrae ut
+              est sacrans; et ideo non oportet quod omnes res sensibiles sint sacramenta.</p>
+            <p xml:id="ta-l4d1q1-d1e254">Ad tertium dicendum, quod quamvis serpens aeneus esset signum rei sacrae sacrantis,
+              non tamen inquantum sacrans est actu: quia non ad hoc adhibebatur ut aliquis
+              sanctificationis effectus perciperetur; sed solum effectus exterioris curationis; et
+              similis est ratio de imagine crucis, quae ponitur tantum ad repraesentandum.</p>
+            <p xml:id="ta-l4d1q1-d1e258">Ad quartum dicendum, quod sacramenta novae legis tria significant; scilicet causam
+              primam sanctificantem, sicut Baptismus mortem Christi; et quantum ad hoc sunt signa
+              rememorativa. Item significant effectum sanctificationis quam faciunt; et haec
+              significatio est eis principalis; et sic sunt signa demonstrativa. Nec obstat, si
+              aliquis sanctitatem non recipit: quia non est ex defectu sacramenti, quod, quantum in
+              se est, natum est gratiam conferre. Item significant finem sanctificationis, scilicet
+              aeternam gloriam; et quantum ad hoc sunt signa prognostica. Sacramenta vero veteris
+              legis erant totaliter signa prognostica.</p>
+            <p xml:id="ta-l4d1q1-d1e261">Ad quintum dicendum, quod signum, quantum est in se, importat aliquid manifestum quo
+              ad nos, quo manuducimur in cognitionem alicujus occulti. Et quia ut frequentius
+              effectus sunt nobis manifestiores causis; ideo signum quandoque contra causam
+              dividitur, sicut demonstratio quia est quae dicitur esse per signum a communi, ut in 1
+              Physicor. dicitur; demonstratio autem propter quid est per causam. Quandoque autem
+              causa est manifesta quo ad nos, utpote cadens sub sensu; effectus autem occultus, ut
+              si expectatur in futurum; et tunc nihil prohibet causam signum sui effectus dici.</p>
+          </div>
+          <div xml:id="ta-l4d1q1-Dd1e265">
+            <head xml:id="ta-l4d1q1-Hd1e267">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d1q1-d1e270">Ad secundam quaestionem dicendum, quod, sicut dictum est, signum importat aliquod
+              notum quo ad nos, quo manuducimur in alterius cognitionem. Res autem primo notae
+              nobis, sunt res cadentes sub sensu, a quo omnis nostra cognitio ortum habet; et ideo
+              signum quantum ad primam sui institutionem significat aliquam rem sensibilem, prout
+              per eam manuducimur in cognitionem alicujus occulti; et sic Magister accipit hic
+              signum. Contingit autem aliquando quod aliquod magis notum quo ad nos, etiam si non
+              sit res cadens sub sensu, quasi secundaria significatione dicatur signum; sicut dicit
+              philosophus in 2 Ethic., quod signum generati habitus in nobis oportet accipere
+              fientem in opere delectationem, quae non est delectatio sensibilis, cum sit
+              rationis.</p>
+            <p xml:id="ta-l4d1q1-d1e273">Ad primum ergo dicendum, quod definitio illa non est per oppositas res, sed per
+              oppositas rationes; unde etiam ibidem dictum est, quod omne signum est res.</p>
+            <p xml:id="ta-l4d1q1-d1e276">Ad secundum dicendum, quod in rebus intelligibilibus fit processus ab his quae sunt
+              notiora simpliciter, sicut patet in mathematicis; unde ibi effectus non sunt signa
+              causarum; sed in rebus sensibilibus.</p>
+            <p xml:id="ta-l4d1q1-d1e279">Ad tertium dicendum similiter de locutione Angelorum, quod fit per ea quae sunt
+              notiora simpliciter: unde non possunt proprie dici signa, sed quasi transumptive.</p>
+          </div>
+          <div xml:id="ta-l4d1q1-Dd1e283">
+            <head xml:id="ta-l4d1q1-Hd1e285">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d1q1-d1e288">Ad tertiam quaestionem dicendum, quod illa definitio Magistri completissime rationem
+              sacramenti designat, prout nunc de sacramentis loquimur. Ponitur enim efficientia
+              sanctitatis in hoc quod dicitur: <quote xml:id="ta-l4d1q1-Qd1e290">ut causa existat</quote>; et modus competens
+              homini quantum ad cognitionem, in hoc quod dicitur: <quote xml:id="ta-l4d1q1-Qd1e293">invisibilis gratiae
+                visibilis forma</quote>; et modus significationis homini connaturalis, scilicet ex
+              similitudine sensibilium, in hoc quod dicitur: <quote xml:id="ta-l4d1q1-Qd1e296">ut imaginem gerat</quote>.</p>
+            <p xml:id="ta-l4d1q1-d1e300">Ad primum ergo dicendum, quod quia visus est nobilior inter alios sensus, et plures
+              differentias rerum ostendit, ut dicitur in 1 Metaph.; ideo, ut Augustinus dicit, nomen
+              visus ad omnes alios sensus extenditur; et ideo visibilis ponitur hic pro sensibili
+              communiter.</p>
+            <p xml:id="ta-l4d1q1-d1e303">Ad secundum dicendum, quod forma sumitur hic communiter pro figura, secundum quod est
+              in quarta specie qualitatis, et non pro forma exemplari: quia per mutationem figurae
+              imaginibus aliquid repraesentamus. Vel si sumatur pro forma exemplari, hoc est
+              inquantum sacramenta sunt quodammodo causae invisibilis gratiae; et ita in via
+              generationis praecedunt, quamvis quantum ad institutionem imitentur.</p>
+            <p xml:id="ta-l4d1q1-d1e306">Ad tertium dicendum, quod character baptismalis et corpus Christi verum non dicuntur
+              sacramenta nisi secundum quod conjunguntur signis sensibilibus.</p>
+            <p xml:id="ta-l4d1q1-d1e310">Ad quartum dicendum, sicut ad secundum, quod forma quae est figura, non habet
+              oppositionem ad imaginem, cum figura imago dicatur.</p>
+            <p xml:id="ta-l4d1q1-d1e313">Ad quintum dicendum, quod sacramentum non dividitur per sacramenta veteris et novae
+              legis sicut genus per species, sed sicut analogum in suas partes, ut sanum in habens
+              sanitatem, et significans eam. Sacramentum autem simpliciter est quod causat
+              sanctitatem. Quod autem significat tantum, non est sacramentum nisi secundum quid. Et
+              ideo esse causam potest poni in definitione sacramenti, sicut habens sanitatem in
+              definitione sani.</p>
+          </div>
+          <div xml:id="ta-l4d1q1-Dd1e317">
+            <head xml:id="ta-l4d1q1-Hd1e319">Quaestiuncula 4</head>
+            <p xml:id="ta-l4d1q1-d1e322">Ad quartam quaestionem dicendum, quod definitio illa Augustini, si tamen in verbis
+              illis sacramentum definire intendit, datur de sacramento quantum ad id quod est
+              principale in ratione ipsius, scilicet causare sanctitatem. Et quia sacramenta non
+              sunt primae causae sanctitatis, sed quasi causae secundariae et instrumentales; ideo
+              definiuntur sacramenta, sanctificationis instrumenta. Actio autem non attribuitur
+              instrumento, sed principali agenti, cujus virtute instrumenta ad opus applicantur,
+              prout sunt mota ab ipso; et ideo sacramenta non dicit esse sanctificantia, sed quod in
+              eis divina virtus occulta existens sanctificat.</p>
+            <p xml:id="ta-l4d1q1-d1e325">Ad primum ergo dicendum, quod sacramentum est causa et signum. Est quidem causa
+              instrumentalis; et ideo virtus agentis principalis occulte in ipso operatur, sicut
+              virtus artis vel artificis in serra. Sed inquantum est signum, est ad manifestandum
+              hujusmodi occultationem; ut sic ante significationem sit occultum; sed postquam
+              significatio facta est actu, sit manifestum.</p>
+            <p xml:id="ta-l4d1q1-d1e328">Ad secundum dicendum, quod hoc contingit per accidens ex defectu recipientium.
+              Definitiones autem respiciunt hoc quod per se est, sicut quod ignis calefacit, quantum
+              in se est, quamvis ex parte passivi impediri posset.</p>
+            <p xml:id="ta-l4d1q1-d1e331">Ad tertium dicendum, quod in sacramentis Deus operatur salutem sicut in instrumentis,
+              quibus mediantibus salus causatur; sed in hominibus sicut in subjectis recipientibus
+              salutem; et ideo ratio non sequitur.</p>
+          </div>
+          <div xml:id="ta-l4d1q1-Dd1e336">
+            <head xml:id="ta-l4d1q1-Hd1e338">Quaestiuncula 5</head>
+            <p xml:id="ta-l4d1q1-d1e341">Ad quintam quaestionem dicendum, quod definitio Hugonis de sancto Victore eadem est
+              cum definitione quam Magister in littera ponit, hoc excepto quod addit causam
+              significationis, quae est institutio, et causam efficientiae, quae est sanctificatio:
+              idem enim est dictum <quote xml:id="ta-l4d1q1-Qd1e343">materiale elementum exterius oculis suppositum, et ex
+                institutione significans</quote>, quod <quote xml:id="ta-l4d1q1-Qd1e346">invisibilis gratiae visibilis
+                forma</quote>; et <quote xml:id="ta-l4d1q1-Qd1e349">ex similitudine repraesentans</quote>, idem est ei quod
+              dicitur, <quote xml:id="ta-l4d1q1-Qd1e352">ut imaginem gerat</quote>; et <quote xml:id="ta-l4d1q1-Qd1e355">ex sanctificatione invisibilem
+                gratiam continens</quote>, idem est ei quod dicitur: <quote xml:id="ta-l4d1q1-Qd1e359">ut causa
+              existat</quote>.</p>
+            <p xml:id="ta-l4d1q1-d1e363">Ad primum ergo dicendum, quod sicut formae artificiales sunt accidentales, tamen in
+              artificialibus tota substantia est materia, et propter hoc praedicatur, ut dicatur,
+              phiala est aurum; ita etiam cum in sacramentis forma non det esse substantiale, sed
+              accidentale in genere causae et signi, non est inconveniens ut materia sacramenti de
+              ipso praedicetur, et in ejus definitione sicut genus ponatur; hoc enim etiam in aliis
+              accidentibus contingit, ut dicitur in 7 Metaph., ut cum dicitur: simum est nasus
+              curvus.</p>
+            <p xml:id="ta-l4d1q1-d1e366">Ad secundum dicendum, quod elementum accipitur communiter pro quolibet corporali
+              visibili, sive sit elementum simplex, sive elementatum; et utimur tali modo loquendi
+              propter verbum Augustini, qui dicit: <quote xml:id="ta-l4d1q1-Qd1e368">accedit verbum ad elementum, et fit
+                sacramentum</quote>. In Baptismo enim, qui est sacramentorum janua, materia est
+              elementum simplex.</p>
+            <p xml:id="ta-l4d1q1-d1e372">Ad tertium dicendum, quod inter corporalia et spiritualia non attenditur similitudo
+              per participationem ejusdem qualitatis, sed per proportionalitatem, quae est
+              similitudo proportionatorum; ut sicut se habet aqua ad delendas maculas corporales,
+              ita gratia ad abluendum spirituales; et secundum hunc modum similitudinis
+              transferuntur etiam corporalia ad spiritualia.</p>
+            <p xml:id="ta-l4d1q1-d1e376">Ad quartum dicendum, quod res sensibilis secundum praedictam similitudinem ex
+              naturali proprietate pluribus est conformis; et ideo quantum est de se aequaliter
+              potest quodlibet illorum significare. Ad hoc ergo quod ad unum determinetur, et sic
+              sua significatio sit certa, oportet quod accedat institutio, quae ad unum determinet;
+              quia etsi repraesentatio quae est ex similitudine naturalis proprietatis, importet
+              aptitudinem quamdam ad significandum, attamen determinatio et complementum
+              significationis ex institutione est.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d1q1-Dd1e381" type="articulus">
+          <head xml:id="ta-l4d1q1-Hd1e383">Articulus 2</head>
+
+          <head xml:id="ta-l4d1q1-Hd1e386" type="questionTitle">Utrum sacramenta fuerint necessaria post hominis lapsum</head>
+          <div xml:id="ta-l4d1q1-Dd1e389">
+            <head xml:id="ta-l4d1q1-Hd1e391">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d1q1-d1e394">Ad secundum sic proceditur. Videtur quod sacramentis humanum genus etiam post lapsum
+              non indigeat. Per gratiam enim et virtutes peccati vulnera sanantur in nobis: quia
+              gratia a sanctis dicitur sanitas et decor animae. Philosophus etiam in 2 Ethic.
+              comparat virtutem sanitati corporali. Cum ergo sacramenta sint instituta ut medicinae
+              peccati, ut Hugo de sancto Victore dicit, videtur quod eis non indigeamus.</p>
+            <p xml:id="ta-l4d1q1-d1e397">Praeterea, contraria contrariis curantur. Sed homo morbum peccati incurrerat, se per
+              affectum rebus temporalibus subjiciendo. Ergo videtur inconveniens modus curationis ut
+              sub rebus sensibilibus humilietur, sicut Magister dicit.</p>
+            <p xml:id="ta-l4d1q1-d1e400">Praeterea, id quod est causa occultationis et erroris, non prodest ad eruditionem.
+              Sed tradere spiritualia sub signis corporalibus est occultatio quaedam spiritualium;
+              unde et pluribus est causa erroris, sicut patet de illis qui Deum credebant per
+              lineamenta corporalia distingui propter modum loquendi symbolicum in Scripturis. Ergo
+              non facit ad eruditionem nostram sacramentorum exhibitio, ut Magister dicit.</p>
+            <p xml:id="ta-l4d1q1-d1e403">Praeterea, 1 Tim. 6, 8: <quote xml:id="ta-l4d1q1-Qd1e405">corporalis exercitatio ad modicum utilis est</quote>.
+              Sed exercitatio quae fit in sacramentis, est corporalis: quia res quae in usum
+              veniunt, corporales sunt. Ergo eis non indigemus propter exercitationem, ut iterum
+              Magister dicit.</p>
+            <p xml:id="ta-l4d1q1-d1e410">Sed contra, Augustinus dicit contra Faustum, quod omnis religio habuit aliqua signa
+              exteriora, in quibus conveniebant ad Deum colendum. Sed in Ecclesia Dei, post peccatum
+              in hoc mundo peregrinante, est verissima religio. Ergo oportet in ea esse hujusmodi
+              signa: et haec sunt sacramenta; ergo indigemus eis.</p>
+            <p xml:id="ta-l4d1q1-d1e413">Praeterea, medicina vulneri debet esse proportionata. Sed vulnus peccati devenerat in
+              humano genere usque ad corpus, in quo habitat lex peccati, ut dicitur Rom. 7. Ergo
+              debuit medicina etiam per aliqua corporalia ei parari. Sed hujusmodi sunt sacramenta.
+              Ergo sacramentis homo in statu naturae lapsae indiget.</p>
+          </div>
+          <div xml:id="ta-l4d1q1-Dd1e417">
+            <head xml:id="ta-l4d1q1-Hd1e419">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d1q1-d1e422">Ulterius. Videtur quod etiam ante peccatum homo eis indiguisset. Homo enim etiam ante
+              peccatum gratia indigebat, ut in 2 Lib., dist. 24, art. 4 ad 2, dictum est. Sed
+              sacramenta sunt instituta ad gratiae collationem. Ergo homo eis in statu innocentiae
+              indiguisset.</p>
+            <p xml:id="ta-l4d1q1-d1e425">Praeterea, Dionysius assignat hanc causam institutionis hujusmodi sensibilium
+              figurarum in sacramentis: quia per hujusmodi sensibiles figuras materiale nostrum
+              melius reducitur ad spiritualia, propter connaturalitatem cognitionis nostrae ad
+              sensibilia. Sed homo in statu innocentiae materialis erat, et ex sensibilibus
+              cognitionem accipiens, propter quod etiam in Paradiso dicitur positus ad operandum, ut
+              naturales vires rerum experiretur. Ergo et hunc indiguit hujusmodi sacramentis.</p>
+            <p xml:id="ta-l4d1q1-d1e428">Praeterea, matrimonium sacramentum quoddam est. Hoc autem in Paradiso fuit institutum
+              in statu innocentiae, ut patet Gen. 2. Ergo in statu innocentiae homo sacramentis
+              indiguisset.</p>
+            <p xml:id="ta-l4d1q1-d1e431">Sed contra, Matth. 9, 12: <quote xml:id="ta-l4d1q1-Qd1e433" ana="#mt9_12">non opus est sanis medico</quote>, nec etiam
+              medicina. Sed Hugo de sancto Victore dicit, quod sacramenta sunt vasa medicinalia.
+              Ergo non erant in statu innocentiae necessaria, cum morbus non erat.</p>
+            <p xml:id="ta-l4d1q1-d1e438">Praeterea, sacramenta virtutem sortiuntur ex passione Christi: unde et de latere
+              ipsius in cruce pendentis fluxisse dicuntur. Sed si homo non peccasset, Christi passio
+              non fuisset. Ergo nec sacramenta.</p>
+          </div>
+          <div xml:id="ta-l4d1q1-Dd1e442">
+            <head xml:id="ta-l4d1q1-Hd1e444">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d1q1-d1e447">Ulterius. Videtur quod in statu legis naturae sacramenta non fuerunt necessaria. Non
+              minus enim est necessaria eruditio quae fit per praecepta quam illa quae fit per
+              sacramenta. Sed praecepta non fuerunt alia data ad bene vivendum, praeter ea quibus
+              naturali ratione ad bene vivendum informabantur. Ergo videtur quod nec sacramenta
+              debuerunt pro tempore illo institui, cum ea lex naturalis non dictet: quod patet ex
+              hoc quod non sunt eadem apud omnes et secundum omne tempus.</p>
+            <p xml:id="ta-l4d1q1-d1e450">Praeterea, sacramenta, quando instituta sunt, necessaria sunt ad salutem, ut patet
+              Joan. 3, 5: <quote xml:id="ta-l4d1q1-Qd1e452">nisi quis renatus fuerit ex aqua et spiritu sancto, non potest
+                introire in regnum Dei</quote>. Sed ea quae ante legem scriptam videntur esse
+              sacramenta, erant voto celebrata, et non necessitate, ut Hugo de sancto Victore dicit.
+              Ergo non erant sacramenta, et per consequens nec necessaria.</p>
+            <p xml:id="ta-l4d1q1-d1e456">Sed contra, secundum Hugonem, quandocumque fuit morbus, fuit et medicina morbi. Sed
+              in statu legis naturae erat morbus peccati. Ergo necessaria erat sacramentorum
+              medicina.</p>
+          </div>
+          <div xml:id="ta-l4d1q1-Dd1e461">
+            <head xml:id="ta-l4d1q1-Hd1e463">Quaestiuncula 4</head>
+            <p xml:id="ta-l4d1q1-d1e466">Ulterius. Videtur quod nec debuerunt supra illa sacramenta legis naturae alia
+              superaddi in lege Moysi. Quod enim superadditur alteri, debet esse magis ad
+              perfectionem accedens. Sed sacramenta quae fuerunt in lege naturae, erant
+              propinquissima perfectis sacramentis, quae sunt in lege nova, ut patet de oblatione
+              Melchisedech. Ergo non debuit fieri superadditio per legem Moysi.</p>
+            <p xml:id="ta-l4d1q1-d1e469">Praeterea, superadditio ad id quod bonum erat, vel mutatio ejus, non debet fieri nisi
+              propter meliorationem. Sed sacramenta veteris legis non habebant alium effectum
+              meliorem effectu sacramentorum legis naturae: quia utraque sacramenta significabant
+              tantum. Ergo non debuit fieri aliqua mutatio ipsorum, vel superadditio ad ea.</p>
+            <p xml:id="ta-l4d1q1-d1e472">Sed contra, sacramenta, ut Magister in littera dicit, ad eruditionem instituta sunt.
+              Sed secundum Gregorium, per incrementum temporum crevit scientia sanctorum patrum, et
+              fides etiam magis explicata est, ut in 3, dist. 25, quaest. 3, art. 2, quaestiunc. 1,
+              dictum est. Ergo oportuit in lege Moysi alia sacramenta addi sacramentis legis
+              naturae.</p>
+          </div>
+          <div xml:id="ta-l4d1q1-Dd1e476">
+            <head xml:id="ta-l4d1q1-Hd1e478">Quaestiuncula 5</head>
+            <p xml:id="ta-l4d1q1-d1e481">Ulterius. Videtur quod in lege nova non debuerunt aliqua sacramenta remanere.
+              Veniente enim veritate cessat figura. Sed gratia et veritas jam per Christum Jesum
+              facta est, Joan. 1. Non ergo indigemus sacramentis gratiam ipsius et veritatem
+              signantibus.</p>
+            <p xml:id="ta-l4d1q1-d1e484">Praeterea, apostolus Galat. 3, dicit, quod antiqui patres erant sub elementis mundi
+              servientes, sicut pueri sub paedagogo usque ad praefinitum tempus a patre. Sed tempus
+              plenitudinis est tempus incarnationis, ut ibidem dicitur. Ergo cum sacramentum sit
+              materiale elementum, videtur quod ex tunc non debuerimus sub sacramentis salutem
+              quaerere.</p>
+            <p xml:id="ta-l4d1q1-d1e487">Sed contra, quando est tempus medicandi, tunc magis necessariae sunt medicinae. Sed
+              tempus aptissimum spirituali medicationi est tempus gratiae; unde in Psal. 101, tempus
+              miserendi, annus benignitatis Dei dicitur. Ergo in statu gratiae maxime necessaria
+              sunt sacramenta, quae sunt medicinae quaedam.</p>
+          </div>
+          <div xml:id="ta-l4d1q1-Dd1e491">
+            <head xml:id="ta-l4d1q1-Hd1e493">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d1q1-d1e496">Respondeo dicendum, ad primam quaestionem, quod sacramenta non erant necessaria
+              necessitate absoluta, sicut necessarium est Deum esse, cum ex sola divina bonitate
+              instituta sint, sed de necessitate quae est ex suppositione finis; non ita tamen quod
+              sine his Deus hominem sanare non posset, quia sacramentis virtutem suam non alligavit,
+              ut in littera dicitur (sicut cibus necessarius est ad vitam humanam), sed quia per
+              sacramenta magis congrue fit hominis reparatio; sicut equus dicitur necessarius ad
+              iter, quia in equo facilius homo vadit. Hujusmodi autem congruitatis causa potest
+              accipi ex hoc quod homo per peccatum praecipue circa sensibilia corruptus erat, eis
+              detentus ne in Deum surgere posset. Erat autem praedicta corruptio quantum ad
+              cognitionem: quia humana mens circa sensibilia tantum occupari noverat, intantum ut
+              quidam nihil extra sensibilia crederent; et si qui ad cognitionem intelligibilium
+              pervenirent, ea secundum modum rerum sensibilium judicabant. Similiter quantum ad
+              affectionem: quia eis quasi summis bonis inhaerebant, Deo postposito. Similiter etiam
+              quantum ad actionem: quia homo eis inordinate utebatur. Necessarium ergo fuit ad
+              curationem peccatorum ut homo ex sensibilibus in spiritualia cognoscenda proficeret,
+              et ut affectum quem circa ea habebat, in Deum referret, et ut eis ordinate et secundum
+              divinam institutionem uteretur; et ideo necessaria fuit sacramentorum institutio, per
+              quae homo ex sensibilibus de spiritualibus eruditur; et haec est secunda causa quam
+              Magister ponit: per quae etiam affectum, qui sensibilibus subjicitur, in Dei
+              reverentiam referret; et haec est prima causa: per quae etiam circa ea in honorem Dei
+              excitaretur; et haec est tertia causa.</p>
+            <p xml:id="ta-l4d1q1-d1e499">Ad primum ergo dicendum, quod gratia et virtutes sanant formaliter, sicut sanitas;
+              sed sacramenta quodammodo effective, sicut medicinae quaedam. Unde sicut non sequitur:
+              sanitas sanat; ergo medicinae non sunt necessariae; ita nec haec: gratia sanat; ergo
+              sacramenta non sunt necessaria: sed magis posset contrarium concludi.</p>
+            <p xml:id="ta-l4d1q1-d1e502">Ad secundum dicendum, quod per eadem contrario modo fit virtus et corrumpitur, ut in
+              2 Ethic. Unde sicut corruptio virtutis facta est in homine per hoc quod se sub
+              sensibilibus rebus humiliavit propter ipsa sensibilia; ita reparatio virtutis
+              convenienter fit per hoc quod homo sub eis humiliatur propter Dei reverentiam; et sic
+              contraria contrariis curantur: quia contraria debent accipi circa idem.</p>
+            <p xml:id="ta-l4d1q1-d1e505">Ad tertium dicendum, quod remanentibus in sensibilibus praedictus modus tradendi
+              spiritualia est occulti erroris occasio; a quibus etiam congruum est sancta occultare,
+              ut Dionysius dicit. Sed eis qui instruuntur ex sensibilibus in spiritualem intellectum
+              consurgere, est valde congruus: quia est conformis naturali cognitioni, qua ex
+              sensibilibus cognitionem intellectus accipit.</p>
+            <p xml:id="ta-l4d1q1-d1e509">Ad quartum dicendum, quod corporalis exercitatio secundum se accepta ad modicum
+              utilis est in comparatione ad pietatem, ut ibi apostolus intendit; sed si ei pietas
+              adjungatur, sicut fit in sacramentis, quae ad religionis pietatem pertinent, est valde
+              utilis.</p>
+          </div>
+          <div xml:id="ta-l4d1q1-Dd1e513">
+            <head xml:id="ta-l4d1q1-Hd1e515">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d1q1-d1e518">Ad secundam quaestionem dicendum, quod utilitas sacramentorum est eruditio et
+              curatio. Quantum autem ad curationem omnibus patet quod non erant necessaria
+              sacramenta in statu innocentiae, cum tunc morbus non esset. Sed quidam dicunt, quod
+              erant necessaria quantum ad eruditionem: quia homo in statu etiam illo sensibilibus
+              utebatur, et ita ex sensibilibus spiritualia significari congruebat. Sed hoc non
+              videtur conveniens: quia significatio fit ad acquirendum cognitionem de eo quod
+              significatur. Quamvis autem in primo statu sensibilia cognosceret, et in eis etiam
+              spiritualium similitudines inspiceret, non tamen ex sensibilibus spiritualium
+              cognitionem accepit, sed magis ex influentia divini luminis; et ideo sacramentis ad
+              eruditionem non indigebat. Et hoc etiam in littera Magister videtur significare: quia
+              refert hoc quod de eruditione dicit, ad defectum cognitionis qui est in statu peccati.
+              Et ideo dicendum est cum aliis, quod in statu innocentiae sacramenta non fuissent
+              necessaria.</p>
+            <p xml:id="ta-l4d1q1-d1e521">Ad primum ergo dicendum, quod sacramenta non sunt instituta ad gratiam conferendam,
+              nisi prout gratia est sanans formaliter morbum peccati; et sic in statu innocentiae
+              homo gratia non indigebat.</p>
+            <p xml:id="ta-l4d1q1-d1e524">Ad secundum dicendum, quod in statu innocentiae superiores partes hominis omnino
+              inferioribus dominabantur; et ideo quamvis homo haberet sensus, et materialis esset,
+              non tamen intellectus ex sensibilibus cognitionem accipiebat, sed ex influentia divini
+              luminis habebat. Sed quia experientia etiam eorum quae prius sciebamus, delectabilis
+              est, ideo operabatur ad experiendum naturae vires, non ut ex hoc habitum scientiae
+              acciperet, sed ut ex visione experimentali eorum quae sciebat, delectaretur.</p>
+            <p xml:id="ta-l4d1q1-d1e527">Ad tertium dicendum, quod matrimonium non fuisset in statu innocentiae in remedium,
+              sed in officium. Et quia sacramenta remedia sunt, ideo proprie loquendo, non fuisset
+              sacramentum, nisi forte inquantum rem sacram significabat; et non quidem illius sacrae
+              rei, scilicet conjunctionis Christi et Ecclesiae, per hujusmodi matrimonium homo in
+              statu illo cognitionem accepisset; sed magis e converso ex cognitione praedictae
+              conjunctionis convenientiam et sanctitatem matrimonii cognovisset.</p>
+          </div>
+          <div xml:id="ta-l4d1q1-Dd1e531">
+            <head xml:id="ta-l4d1q1-Hd1e533">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d1q1-d1e536">Ad tertiam quaestionem dicendum, quod ea quae ab homine fiunt, a cognitione ortum
+              oportet habere; alias non essent humana opera; unde oportet quod operatio cognitioni
+              respondeat, sicut effectus causae. In statu autem legis naturae non sufficiebat ad
+              salutem sola naturalis cognitio, sed exigebatur fides aliquorum quae supra rationem
+              sunt; et post lapsum exigebatur fides de reparatore, per quem erat medicina morbi; et
+              ideo in statu illo non tantum erant necessaria opera quae sunt de dictamine legis
+              naturalis, sed etiam alia quae essent protestationes et signa eorum quae ad
+              reparationem pertinebant; et haec erant illius temporis sacramenta, sicut sacrificia,
+              decimae, oblationes, et hujusmodi.</p>
+            <p xml:id="ta-l4d1q1-d1e539">Ad primum ergo dicendum, quod praecepta quae ordinant ad bene vivendum, sunt
+              praecepta legis naturae, quae respondent cognitioni naturali. Et quia cognitio
+              naturalis sufficienter ea dictabat, nondum per contrariam consuetudinem omnino
+              obtenebrata, ideo non erat tanta necessitas ut eorum expressio fieret, sicut
+              sacramentorum, quae supernaturali cognitioni respondent.</p>
+            <p xml:id="ta-l4d1q1-d1e542">Ad secundum dicendum, quod ante legem scriptam erant quaedam sacramenta necessitatis,
+              sicut illud fidei sacramentum quod ordinabatur ad deletionem originalis peccati; et
+              similiter poenitentia, quae ordinabatur ad deletionem actualis; et similiter
+              matrimonium, quod ordinabatur ad multiplicationem humani generis. Sed sacrificia et
+              oblationes et hujusmodi erant necessitatis in communi, ut scilicet aliquid facerent in
+              protestationem fidei suae, qua Deo per latriae religionem subjecti erant; sed in
+              speciali erant voluntatis, utrum scilicet deberent sacrificia exhibere, vel
+              oblationes, vel aliquid hujusmodi.</p>
+          </div>
+          <div xml:id="ta-l4d1q1-Dd1e546">
+            <head xml:id="ta-l4d1q1-Hd1e548">Quaestiuncula 4</head>
+            <p xml:id="ta-l4d1q1-d1e551">Ad quartam quaestionem dicendum, quod cum sacramentorum usus fidei proportionaliter
+              respondeat, sicut dictum est, oportuit quod secundum diversum statum fidei diversimode
+              sacramenta traderentur. Fides autem quantum ad articulorum explicationem semper magis
+              et magis crevit secundum propinquitatem temporis gratiae, ut 3 Lib., dist. 25, dictum
+              est; et secundum hoc oportuit sacramenta magis ac magis determinari. Et propter hoc,
+              quia in Abraham fides primo habuit quasi notabilem quantitatem, ut propter fidei
+              religionem ab aliis separaretur (unde et pater fidei dicitur), ideo sibi signaculum,
+              sive sacramentum fidei, determinatum fuit, scilicet circumcisio. Et quia tempore Moysi
+              jam fides ad tantam quantitatem devenerat ut non solum in uno homine refulgeret, vel
+              in familia; sed in una tota gente, populo Dei multiplicato; ideo oportuit et legem
+              dari, quae non nisi populo ferri potest (unde legis positio est pars politicae, non
+              oeconomicae vel monasticae) et sacramenta in speciali determinari et multiplicari; et
+              propter hoc necessarium fuit in lege Moysi determinari sacrificia, oblationes, et
+              decimas, quantum ad omnes singulares circumstantias, et matrimonia ordinari, et
+              poenitentiae satisfactiones distingui.</p>
+            <p xml:id="ta-l4d1q1-d1e554">Ad primum ergo dicendum, quod quamvis oblatio Melchisedech perfectissime
+              repraesentaret nostrum sacrificium quantum ad materiam, tamen etiam oportuit multas
+              alias circumstantias repraesentari, sicut modum sumendi, et passionem Christi, cujus
+              est memoriale, quae explicite significantur per agnum paschalem, et per alia legis
+              sacramenta.</p>
+            <p xml:id="ta-l4d1q1-d1e557">Ad secundum dicendum, quod quamvis non sit facta melioratio per sacramenta veteris
+              legis quantum ad alium effectum in genere, scilicet causare; facta est tamen quantum
+              ad eumdem effectum qui est significare, inquantum expressius et pluribus modis futura
+              gratiae significabantur sacramenta.</p>
+          </div>
+          <div xml:id="ta-l4d1q1-Dd1e562">
+            <head xml:id="ta-l4d1q1-Hd1e564">Quaestiuncula 5</head>
+            <p xml:id="ta-l4d1q1-d1e567">Ad quintam quaestionem dicendum, quod eadem fides est modernorum et antiquorum, ut
+              Augustinus dicit, quia quem illi credebant venturum, nos credimus jam venisse; et ideo
+              cum sacramenta fidei correspondeant, sicut protestationes ipsius, et ab ea virtutem
+              habentia, oportet quod sicut antiqui patres redemptionis Christi participes effecti
+              sunt per sacramenta quae erant signa futuri ita et in nos redemptio ejus perveniat
+              mediantibus aliquibus sacramentis significantibus quod jam factum est, quae sunt
+              sacramenta novae legis.</p>
+            <p xml:id="ta-l4d1q1-d1e570">Ad primum ergo dicendum, quod, sicut dicit Dionysius in Eccles. Hier., status novae
+              legis medius est inter statum veteris legis et statum caelestis patriae; et ideo etiam
+              ea quae sunt novae legis, et sunt veritas respectu signorum veteris legis, et sunt
+              figurae respectu manifestae et plenae cognitionis veritatis, quae erit in patria; et
+              ideo adhuc oportet in nova lege quod maneant aliquae figurae, quae scilicet in patria,
+              ubi erit plenaria perceptio veritatis, omnes cessabunt.</p>
+            <p xml:id="ta-l4d1q1-d1e573">Ad secundum dicendum, quod sacramenta legalia gratiam non continebant; et ideo
+              apostolus ibidem nominat ea egena et vacua; et propter hoc qui eis subdebantur, erant
+              sub elementis pure corporalibus. Sed non est simile de sacramentis quae gratiam
+              invisibilem continent.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d1q1-Dd1e578" type="articulus">
+          <head xml:id="ta-l4d1q1-Hd1e580">Articulus 3</head>
+
+          <head xml:id="ta-l4d1q1-Hd1e583" type="questionTitle">Utrum sacramenta consistant in verbis et rebus</head>
+
+          <p xml:id="ta-l4d1q1-d1e586">Ad tertium sic proceditur. Videtur quod sacramenta non consistant in verbis et rebus.
+            Sacramentum enim est aliquid unum. Sed ex duobus quae non sunt conjuncta, non potest
+            aliquid unum fieri, nec unum potest esse forma alterius. Cum ergo verba et res sint
+            omnino separata, videtur quod ex eis non possit constare sacramentum, ut habeat pro
+            forma verba, et res pro materia.</p>
+          <p xml:id="ta-l4d1q1-d1e589">Praeterea, sicut in sacramentis requiruntur verba, ita et facta quaedam, ut dicit Hugo
+            de sancto Victore. Sed facta non ponuntur de integritate sacramenti. Ergo nec verba.</p>
+          <p xml:id="ta-l4d1q1-d1e592">Praeterea, sacramenta sunt ad significandum et causandum. Sed utrumque horum potest
+            fieri per res sine verbis. Ergo sacramenta non consistunt in his duobus.</p>
+          <p xml:id="ta-l4d1q1-d1e596">Praeterea, sacramenta veteris legis erant signa nostrorum sacramentorum. Sed in illis
+            non erant aliqua verba determinata. Ergo nec in nostris esse debent.</p>
+          <p xml:id="ta-l4d1q1-d1e599">Praeterea, poenitentia et matrimonium sunt quaedam sacramenta. Sed de integritate eorum
+            non sunt verba aliqua. Ergo hoc quod Magister dicit, non est verum de omnibus
+            sacramentis.</p>
+          <p xml:id="ta-l4d1q1-d1e602">Sed contra, sacramenta ex similitudine repraesentant ea quae circa Christum sunt gesta.
+            Ergo cum in Christo fuerit verbum rei sensibili adjunctum, oportet quod hoc etiam sit in
+            sacramentis.</p>
+          <p xml:id="ta-l4d1q1-d1e605">Praeterea, medicina debet proportionari morbo. Sed morbus peccati hominem quantum ad
+            animam et corpus infecerat. Ergo oportet in sacramentis esse verba quae respondeant
+            animae, et res quae respondeant corpori.</p>
+          <p xml:id="ta-l4d1q1-d1e608">Praeterea, secundum Hugonem, sacramenta ex sanctificatione invisibilem gratiam
+            continent. Sed creatura sanctificatur per verbum Dei; 2 Tim., 3. Ergo oportet in
+            sacramentis non solum res sed etiam verba esse.</p>
+          <p xml:id="ta-l4d1q1-d1e611">Respondeo dicendum, quod hoc est commune in omnibus sacramentis quod consistant in
+            rebus sensibilibus invisibilem gratiam significantibus. Sed hoc est speciale in
+            sacramentis novae legis quod rebus verba addantur, propter tres rationes. Prima est,
+            quia haec sacramenta non solum significant opus redemptionis quae per Christum est
+            facta, sicut alia sacramenta, sed etiam ab ipsa Christi passione fluxerunt; et ideo
+            sicut effectus proximi, habent suae causae imaginem quantum possunt, ut scilicet ex
+            rebus et verbis consistant, sicut Christus ex verbo et carne. Secunda ratio est, quia
+            non solum sunt signa futurorum, sicut sacramenta veteris legis, sed praesentium et
+            praeteritorum, ut prius dictum est, quae possunt expressius significari quam futura,
+            sicut et certius cognosci; et ideo, significatio verborum, quae est expressissima,
+            adjungitur significationi rerum. Tertia ratio est, quia gratiam continent ex
+            sanctificatione quae fit per verbum Dei, ut dictum est.</p>
+          <p xml:id="ta-l4d1q1-d1e615">Ad primum ergo dicendum, quod sacramentum est aliquid unum in genere signi vel causae,
+            quorum utrumque relationem importat. Non est autem inconveniens ut quae sunt in se
+            distincta uniantur in relatione ad aliquid unum, sicut accidit de multis trahentibus
+            navim qui sunt una causa tractus navis. Et sicut pater et mater sunt unum in
+            generatione; sic etiam verba et res sunt unum in causando et significando, et per
+            consequens efficiunt unum sacramentum. Et quia virtus causandi est in rebus ex verbis
+            significantibus, ut dictum est, ideo verba sunt formalia, et res materiales, per modum
+            quo omne completivum forma dicitur.</p>
+          <p xml:id="ta-l4d1q1-d1e618">Ad secundum dicendum, quod, sicut Hugo de sancto Victore dicit, ad sacramenta
+            concurrunt verba et res et facta: sed facta pertinent ad usum vel dispensationem
+            sacramentorum; verba autem et res sunt de essentia sacramenti. Et ideo Magister in his
+            duobus dicit constare sacramenta, et non in factis. Vel dicendum, quod facta ad res
+            reducuntur.</p>
+          <p xml:id="ta-l4d1q1-d1e621">Ad tertium dicendum, quod nec efficacia causandi nec expressio significandi poterat
+            esse in rebus, nisi verba adjungerentur, ut dictum est.</p>
+          <p xml:id="ta-l4d1q1-d1e624">Ad quartum dicendum, quod non est similis ratio de sacramentis veteris et novae legis,
+            ut ex dictis patet.</p>
+          <p xml:id="ta-l4d1q1-d1e627">Ad quintum dicendum, quod matrimonium secundum quod est in officium, et poenitentia
+            secundum quod est virtus, non habent aliquam formam verborum; sed secundum quod utrumque
+            est sacramentum in dispensatione ministrorum Ecclesiae consistens, utrumque habet aliqua
+            verba; sicut in matrimonio sunt verba exprimentia consensum, et iterum benedictiones ab
+            Ecclesia institutae; in poenitentia autem est absolutio sacerdotis verbotenus facta.</p>
+        </div>
+        <div xml:id="ta-l4d1q1-Dd1e632" type="articulus">
+          <head xml:id="ta-l4d1q1-Hd1e634">Articulus 4</head>
+
+          <head xml:id="ta-l4d1q1-Hd1e637" type="questionTitle">Utrum sacramenta novae legis sint causa gratiae</head>
+          <div xml:id="ta-l4d1q1-Dd1e640">
+            <head xml:id="ta-l4d1q1-Hd1e642">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d1q1-d1e645">Ad quartum sic proceditur. Videtur quod sacramenta novae legis non sint causa
+              gratiae. Dicit enim Bernardus: <quote xml:id="ta-l4d1q1-Qd1e647">sicut investitur canonicus per librum, abbas per
+                baculum, episcopus per anulum; sic divisiones gratiarum diversis sunt tradita
+                sacramentis</quote>. Sed liber non est causa canonicatus, nec anulus episcopatus.
+              Ergo nec sacramenta gratiae.</p>
+            <p xml:id="ta-l4d1q1-d1e651">Praeterea, si sunt causae gratiae, oportet quod sint secundum aliquod genus causae.
+              Sed constat quod non sunt materiales nec formales, cum sint extra essentiam gratiae;
+              nec iterum sunt causae finales, quia magis sacramenta propter gratiam habendam
+              quaeruntur quam e converso: nec iterum causae efficientes, quia solus Deus efficit
+              gratiam, adeo quod nec Angelis, qui sunt nobiliores sensibilibus creaturis, hoc
+              communicatur. Ergo nullo modo sacramenta sunt causa gratiae.</p>
+            <p xml:id="ta-l4d1q1-d1e654">Praeterea, nobilius est agens patiente, secundum Augustinum in 12 super Gen.; et
+              secundum philosophum, in 3 de anima; et iterum causa dignior est effectu. Sed tam
+              anima rationalis quam gratia praevalent sensibilibus elementis. Ergo sacramentum, quod
+              est materiale elementum, ut prius dictum est, non potest agere in animam ad causandum
+              gratiam in ipsa.</p>
+            <p xml:id="ta-l4d1q1-d1e657">Praeterea, omnis causa vel est univoca vel aequivoca. In causa autem aequivoca est
+              aliquid nobiliori modo quam in causatis, sicut calor in sole quam in aere; in causa
+              autem univoca est aliquid eodem modo. Sed gratia non est in sacramentis neque eodem
+              modo ut in anima, neque nobiliori modo. Ergo non sunt causa gratiae nec univoce nec
+              aequivoce; et ita nullo modo.</p>
+            <p xml:id="ta-l4d1q1-d1e661">Praeterea, sacramenta non causant gratiam in anima per modum influentiae, quia sic
+              crearent ipsam, nec iterum educunt eam de potentia materiae, quia gratia non est in
+              potentia naturali materiae. Ergo nullo modo gratiam causant.</p>
+            <p xml:id="ta-l4d1q1-d1e664">Praeterea, in sacramento altaris transubstantiatur panis in corpus Christi; quod non
+              potest fieri nisi virtute infinita, qualis non est virtus formae illius sacramenti.
+              Ergo virtus illa non causat dictam transubstantiationem, et eadem ratione nec alia
+              sacramenta causant quod significant.</p>
+            <p xml:id="ta-l4d1q1-d1e667">Sed contra, haec differentia assignatur communiter inter sacramenta novae legis et
+              veteris, quod sacramenta novae legis efficiunt quod figurant, quod sacramentis veteris
+              legis non competit. Figurant autem sacramenta invisibilem gratiam. Si ergo sacramenta
+              novae legis gratiam non causant, non differunt in aliquo a sacramentis veteris
+              legis.</p>
+            <p xml:id="ta-l4d1q1-d1e670">Praeterea, Augustinus dicit, quod aqua Baptismi corpus tangit, et cor abluit. Sed cor
+              non abluitur nisi per gratiam. Ergo sacramenta novae legis gratiam causant.</p>
+          </div>
+          <div xml:id="ta-l4d1q1-Dd1e674">
+            <head xml:id="ta-l4d1q1-Hd1e676">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d1q1-d1e679">Ulterius. Videtur quod in sacramentis non sit aliqua virtus specialis ad gratiam
+              inducendam. Quod enim non est in aliquo genere entium, non est ens. Sed hujusmodi
+              virtus non potest reduci ad aliquod decem generum: quia non est forma substantialis,
+              ut per se patet: neque in aliquod aliorum generum praeter qualitatem, nec etiam in
+              qualitatem, ut patet discurrenti per quatuor species qualitatis. Ergo non est ens.</p>
+            <p xml:id="ta-l4d1q1-d1e682">Praeterea, constat quod sacramenta non habent a seipsis hujusmodi virtutem. Si ergo
+              est in eis, oportet quod a Deo habeant eam: nec est assignare, ut videtur, quando eis
+              data sit. Non enim in ista institutione sacramentorum dari eis potuit: quia res istae
+              et haec verba tunc non erant, et non enti nihil datur: nec iterum quotidie eis dat
+              hanc virtutem: quia creatio dicitur esse hoc tempore solum quantum ad animas
+              rationales et quantum ad gratiam: nec alio modo potest eis dari, nisi in eis creetur:
+              nec iterum est probabile quod tam nobilis virtus creetur in verbis, quae statim esse
+              desinunt; et res etiam in brevi corrumpuntur. Ergo nullo modo hujusmodi virtus est in
+              sacramentis.</p>
+            <p xml:id="ta-l4d1q1-d1e685">Praeterea, dicta virtus non potest computari inter minima bona: quia sic ad gratiam
+              inducendam, quae est de maximis bonis, efficaciam non haberet: nec iterum inter media,
+              cujusmodi sunt animae potentiae, quibus homo bene et male utitur: eadem ratione nec
+              iterum inter maxima, cum neque sit gratia, neque virtus mentis. Ergo non est aliquod
+              bonum, et ita nihil est.</p>
+            <p xml:id="ta-l4d1q1-d1e688">Praeterea, omne quod recipitur in aliquo, est in eo per modum recipientis; et inde
+              est quod virtus spiritualis non potest esse in re corporali. Sed haec virtus, quae
+              ordinatur ad gratiam inducendam, est maxime spiritualis. Ergo non potest esse in rebus
+              corporalibus.</p>
+            <p xml:id="ta-l4d1q1-d1e692">Praeterea, unius sacramenti non potest esse nisi una virtus, cum sit ad unum
+              effectum. Sed una virtus non potest esse in diversis. Ergo cum in sacramento sint
+              plura, scilicet verba et res, videtur quod non possit in sacramento esse aliqua virtus
+              ad gratiam inducendam.</p>
+            <p xml:id="ta-l4d1q1-d1e695">Sed contra est, quod Augustinus dicit: <quote xml:id="ta-l4d1q1-Qd1e697">quae est vis aquae ut corpus tangat et
+                cor abluat?</quote> Ergo habet aliquam virtutem. Similiter etiam Beda dicit, quod
+              Christus tactu mundissimae suae carnis vim regenerativam contulit aquis.</p>
+            <p xml:id="ta-l4d1q1-d1e701">Praeterea, sacramenta medicinae quaedam sunt. Sed omnis medicina habet aliquam
+              virtutem per quam fit efficax. Ergo et in sacramentis est aliqua virtus.</p>
+          </div>
+          <div xml:id="ta-l4d1q1-Dd1e705">
+            <head xml:id="ta-l4d1q1-Hd1e707">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d1q1-d1e710">Ulterius. Videtur quod haec virtus non sit in sacramentis a passione Christi.
+              Christus enim, secundum quod homo, non dat spiritum sanctum, neque gratiam causat, ut
+              in 1 Lib., dist. 14, qu. 3, art. unic., dictum est. Sed passio convenit ei secundum
+              quod homo. Ergo efficacia virtutis quae est in sacramentis ad gratiam causandam, non
+              potest esse a Christi passione, sed ab ejus divinitate.</p>
+            <p xml:id="ta-l4d1q1-d1e713">Praeterea, Rom. 4, 25, dicitur, quod <quote xml:id="ta-l4d1q1-Qd1e715" ana="#rom4_25">resurrexit propter justificationem
+                nostram</quote>. Sed justificatio fit per infusionem gratiae. Ergo magis a
+              resurrectione sacramenta praedictam virtutem habent.</p>
+            <p xml:id="ta-l4d1q1-d1e719">Praeterea, sacramenta dicuntur a fide efficaciam habere. Sed fides non solum est de
+              passione sed etiam de aliis articulis. Ergo non solum a passione efficaciam
+              habent.</p>
+            <p xml:id="ta-l4d1q1-d1e722">Sed contra, Rom. 5, super illud: <quote xml:id="ta-l4d1q1-Qd1e724">similitudinem praevaricationis Adae</quote>,
+              dicit Glossa: <quote xml:id="ta-l4d1q1-Qd1e727">ex latere Christi profluxerunt sacramenta per quae salvata est
+                Ecclesia</quote>. Hoc autem factum est in passione. Ergo ex passione efficaciam
+              habent.</p>
+            <p xml:id="ta-l4d1q1-d1e732">Praeterea, sacramenta sunt medicinae contra peccata. Sed peccata sunt ablata per
+              Christi passionem; quia mortuus est propter delicta nostra: Rom. 5. Ergo a passione
+              efficaciam habent.</p>
+          </div>
+          <div xml:id="ta-l4d1q1-Dd1e737">
+            <head xml:id="ta-l4d1q1-Hd1e739">Quaestiuncula 4</head>
+            <p xml:id="ta-l4d1q1-d1e742">Ulterius. Videtur quod sacramenta novae legis non contineant gratiam. Idem enim est
+              subjectum gratiae et gloriae. Sed nihil potest esse subjectum gloriae nisi creatura
+              rationalis. Ergo nec in sacramento, quod est materiale elementum, potest esse
+              gratia.</p>
+            <p xml:id="ta-l4d1q1-d1e745">Si dicatur quod gratia non est in sacramentis sicut in subjecto, sed sicut in vase;
+              contra. Esse in vase significat esse in loco, secundum philosophum in 4 Physic. Sed
+              accidenti non competit esse in loco. Ergo non potest esse verum quod dictum est.</p>
+            <p xml:id="ta-l4d1q1-d1e748">Praeterea, si Deus in sacramentis gratiam posuit, hoc non est nisi propter animam, in
+              quam gratia transfundi debet. Sed non potest eadem gratia quae est in sacramentis, in
+              animam transfundi, quia accidens non transit de subjecto in subjectum. Ergo frustra
+              esset ibi; et ita non est ibi: quia in operibus gratiae minus est aliquid frustra quam
+              in operibus naturae.</p>
+            <p xml:id="ta-l4d1q1-d1e751">Praeterea, secundum philosophum in 1 de anima, spiritualia, etiamsi sint in
+              corporalibus, non dicuntur ab eis contineri, sed magis continere, sicut anima est in
+              corpore, et continet ipsum. Sed gratia est res spiritualis. Ergo etsi sit in
+              sacramentis corporalibus, non debet dici contineri ab eis.</p>
+            <p xml:id="ta-l4d1q1-d1e755">Sed contra est quod dicitur in Glossa, Gal. 3, quod sacramenta veteris legis
+              dicebantur egena et inania, quia gratiam non continebant. Sed hoc non potest dici de
+              sacramentis novae legis. Ergo gratiam continent.</p>
+            <p xml:id="ta-l4d1q1-d1e758">Praeterea hoc patet per definitionem Hugonis de sancto Victore supra positam.</p>
+          </div>
+          <div xml:id="ta-l4d1q1-Dd1e762">
+            <head xml:id="ta-l4d1q1-Hd1e764">Quaestiuncula 5</head>
+            <p xml:id="ta-l4d1q1-d1e767">Ulterius. Videtur quod gratia quae est in sacramentis, non differat ab illa quae est
+              in virtutibus et donis. Gratia enim quae est in sacramentis, est gratia gratum
+              faciens, quia facit dignum vita aeterna, ut patet de Baptismo. Sed gratia gratum
+              faciens est una tantum, quod patet ex unitate subjecti, quod est essentia animae, et
+              ex unitate effectus, quod est Deo acceptum facere. Ergo cum gratia quae est in
+              virtutibus et donis, sit gratia gratum faciens, videtur quod eadem gratia sit hic et
+              ibi.</p>
+            <p xml:id="ta-l4d1q1-d1e770">Praeterea, unum uni opponitur. Sed tam gratia quae est in sacramentis quam illa quae
+              est in virtutibus, opponitur peccato, quia utraque peccatum destruit. Ergo est una
+              tantum gratia.</p>
+            <p xml:id="ta-l4d1q1-d1e773">Praeterea, idem est motus in natura a termino et ad terminum. Sed gratia
+              sacramentalis ordinatur contra peccatum, gratia autem virtutum ad perficiendum animam,
+              et Deo conjungendum. Ergo est una gratia in sacramento.</p>
+            <p xml:id="ta-l4d1q1-d1e776">Sed contra, gratia in sacramento non datur nisi ei qui non ficte accedit. Sed talis
+              habet gratiam virtutum. Cum ergo nulli detur quod jam habet, videtur quod gratia quam
+              accipit in sacramento, sit alia.</p>
+            <p xml:id="ta-l4d1q1-d1e780">Praeterea, virtutes et dona sunt connexa propter gratiam, ut in 3 Lib., dist. 36,
+              quaest. unic., art. 2, et 3, dictum est, non autem sacramenta. Ergo non est eadem
+              gratia hic et ibi.</p>
+          </div>
+          <div xml:id="ta-l4d1q1-Dd1e784">
+            <head xml:id="ta-l4d1q1-Hd1e786">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d1q1-d1e789">Respondeo dicendum, ad primam quaestionem, quod omnes coguntur ponere, sacramenta
+              novae legis aliquo modo causas gratiae esse, propter auctoritates quae hoc expresse
+              dicunt. Sed diversi diversimode eas causas ponunt. Quidam enim dicunt, quod non sunt
+              causae quasi facientes aliquid in anima, sed causae sine quibus non: quia increata
+              virtus, quae sola effectus ad gratiam pertinentes in anima facit, sacramentis assistit
+              per quamdam Dei ordinationem, et quasi pactionem. Sic enim ordinavit et quasi pepigit
+              Deus, ut qui sacramenta accipiunt, simul ab iis gratiam recipiant, non quasi
+              sacramenta aliquid faciant ad hoc. Et est simile de illo qui accipit denarium plumbeum
+              facta tali ordinatione, ut qui habuerit unum de illis denariis, habeat centum libras a
+              rege: qui quidem denarius non dat illas centum libras, sed solus rex accipienti ipsum.
+              Et quia pactio talis non erat facta in sacramentis veteris legis, ut accedentes ad
+              ipsa gratiam acciperent, ideo dicuntur gratiam non conferre, sed promittebant tantum.
+              Sed hoc non videtur sufficere ad salvandum dicta sanctorum. Causa enim sine qua non,
+              si nihil omnino faciat ad inducendum effectum vel disponendo vel meliorando, quantum
+              ad rationem causandi, nihil habebit supra causas per accidens; sicut album est causa
+              domus, si aedificator sit albus; et secundum hoc sacramenta essent causae per accidens
+              tantum sanctificationis. Illa enim ordinatio quam dicunt, sive pactio, nihil dat eis
+              de ratione causae, sed solum de ratione signi; sicut etiam denarius plumbeus est solum
+              signum indicans quis debet accipere. Quod autem est per accidens, omittitur ab arte,
+              nec ponitur in definitione; unde in definitione sacramenti non poneretur causalitas
+              praedicta, nec sancti multum curassent de ea dicere. Nec iterum sacramenta novae
+              legis, quae differunt a sacramentis veteris legis secundum ordinationem praedictam,
+              differrent ab eis secundum rationem causae, sed solum quantum ad modum significandi,
+              inquantum haec significant gratiam ut statim dandam, illa vero non. Et ideo alii
+              dicunt, quod ex sacramentis duo consequuntur in anima. Unum quod est sacramentum et
+              res, sicut character, vel aliquis ornatus animae in sacramentis in quibus non
+              imprimitur character, aliud quod est res tantum, sicut gratia. Respectu ergo primi
+              effectus sunt sacramenta causae aliquo modo efficientes; sed respectu secundi sunt
+              causae disponentes tali dispositione quae est necessitas, nisi sit impedimentum ex
+              parte recipientis; et hoc videtur magis theologis et dictis sanctorum conveniens. Ad
+              cujus evidentiam sciendum est, quod causa efficiens dupliciter potest dividi. Uno modo
+              ex parte effectus; scilicet in disponentem, quae causat dispositionem ad formam
+              ultimam; et perficientem, quae inducit ultimam perfectionem. Alio modo ex parte ipsius
+              causae in agens principale, et instrumentale. Agens enim principale est primum movens,
+              agens autem instrumentale est movens motum. Instrumento autem competit duplex actio:
+              una quam habet ex propria natura, alia quam habet prout est motum a primo agente;
+              sicut calor ignis, qui est instrumentum virtutis nutritivae, ut dicitur in 2 de anima,
+              ex natura propria habet dissolvere, et consumere, et hujusmodi effectus: sed inquantum
+              est instrumentum animae vegetabilis, generat carnem. Sed sciendum, quod actio
+              instrumenti quandoque pertingit ad ultimam perfectionem, quam principale agens inducit
+              aliquando autem non; semper tamen pertingit ad aliquid ultra id quod competit sibi
+              secundum suam naturam, sive illud sit ultima forma, sive dispositio, alias non ageret
+              ut instrumentum: sic qualitates activae et passivae elementorum pertingunt
+              instrumentaliter ad formas materiales educendas de materia, non autem ad productionem
+              animae humanae, quae est ab extrinseco. Dicendum est ergo, quod principale agens
+              respectu justificationis Deus est, nec indiget ad hoc aliquibus instrumentis ex parte
+              sua; sed propter congruitatem ex parte hominis justificandi, ut supra dictum est,
+              utitur sacramentis quasi quibusdam instrumentis justificationis. Hujusmodi autem
+              materialibus instrumentis competit aliqua actio ex natura propria, sicut aquae
+              abluere, et oleo facere nitidum corpus; sed ulterius, inquantum sunt instrumenta
+              divinae misericordiae justificantis, pertingunt instrumentaliter ad aliquem effectum
+              in ipsa anima, quod primo correspondet sacramentis, sicut est character, vel aliquid
+              hujusmodi. Ad ultimum autem effectum, quod est gratia, non pertingunt etiam
+              instrumentaliter, nisi dispositive, inquantum hoc ad quod instrumentaliter effective
+              pertingunt, est dispositio, quae est necessitas, quantum in se est, ad gratiae
+              susceptionem. Et quia omne instrumentum agendo actionem naturalem, quae competit sibi
+              inquantum est res quaedam, pertingit ad effectum qui competit sibi inquantum est
+              instrumentum, sicut dolabrum dividendo suo acumine pertingit instrumentaliter ad
+              formam scanni: ideo etiam materiale elementum exercendo actionem naturalem, secundum
+              quam est signum interioris effectus, pertingit ad interiorem effectum
+              instrumentaliter. Et hoc est quod Augustinus dicit, quod aqua Baptismi corpus tangit,
+              et cor abluit; et ideo dicitur, quod sacramenta efficiunt quod figurant. Et hunc modum
+              justificandi videtur Magister tangere in littera: dicit enim, quod homo non quaerit
+              salutem in sacramentis quasi ab eis, sed per illa a Deo. Haec enim praepositio a
+              denotat principale agens: sed haec praepositio per denotat causam instrumentalem.</p>
+            <p xml:id="ta-l4d1q1-d1e792">Ad primum ergo dicendum, quod Bernardus, ut ex praecedentibus ibidem patet, non
+              intendit ostendere similitudinem sacramentorum ad illa, nisi quantum ad
+              significationem: quia anulus est signum et baculus, et similiter sacramenta; sed
+              sacramenta ulterius sunt causae.</p>
+            <p xml:id="ta-l4d1q1-d1e795">Ad secundum dicendum, quod reducuntur ad genus efficientis causae, non principalis,
+              sed instrumentalis. Deus autem solus est causa gratiae quasi principale agens, sed
+              sacramenta quasi instrumentaliter et dispositive, ut dictum est, agentia sunt.</p>
+            <p xml:id="ta-l4d1q1-d1e798">Ad tertium dicendum, quod agens non semper est nobilius patiente simpliciter
+              loquendo, sed inquantum est agens. Agit enim ignis vel ferrum in corpus humanum, quod
+              est simpliciter nobilius, quo tamen ignis est nobilior inquantum est actu calidus, et
+              secundum hoc agit in corpus humanum; et sic non oportet quod res illae materiales quae
+              sunt in sacramentis, sint simpliciter anima nobiliores, sed secundum quid, scilicet
+              inquantum sunt instrumenta divinae misericordiae operantis ad justificationem. Nec
+              iterum oportet quod instrumentaliter agens sit simpliciter nobilius effectu; quia
+              effectus non proportionatur instrumento, sed principali agenti, qui quandoque per
+              vilia instrumenta nobiliores effectus inducit, sicut medicus perducit ad sanitatem per
+              clysterem.</p>
+            <p xml:id="ta-l4d1q1-d1e802">Ad quartum dicendum, quod causa univoca vel non univoca, proprie loquendo et
+              simpliciter sunt divisiones illius causae cujus est similitudinem habere cum effectu;
+              haec autem est principalis agentis et non instrumentalis, ut dicit Alexander, secundum
+              quod narrat Commentator. Et ideo proprie loquendo, neque instrumentum est causa
+              univoca neque aequivoca. Posset tamen reduci ad utrumlibet, secundum quod principale
+              agens, in cujus virtute instrumentum agit, est causa univoca, vel non univoca.</p>
+            <p xml:id="ta-l4d1q1-d1e805">Ad quintum dicendum, quod ex sacramentis causatur per modum influentiae gratia: nec
+              tamen sacramenta sunt quae influunt gratiam, sed per quae Deus sicut per instrumenta
+              animae gratiam influit.</p>
+            <p xml:id="ta-l4d1q1-d1e808">Ad sextum dicendum, quod in transubstantiatione, cum sit quasi quidam motus vel
+              mutatio, duo sunt, scilicet recessus a termino, et accessus ad terminum. Verba ergo
+              sacramentalia pertingunt instrumentaliter ad transubstantiationem quantum ad recessum
+              a termino a quo; sed quantum ad accessum ad terminum ad quem non pertingunt
+              instrumentaliter, nisi dispositive, sicut in aliis sacramentis accidit.</p>
+          </div>
+          <div xml:id="ta-l4d1q1-Dd1e812">
+            <head xml:id="ta-l4d1q1-Hd1e814">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d1q1-d1e817">Ad secundam quaestionem dicendum, quod propter auctoritates inductas necesse est
+              ponere aliquam virtutem supernaturalem in sacramentis. Sustinentes autem primam
+              opinionem dicunt, quod illa virtus non est nisi quidam ordo ad aliquid. Sed hoc nihil
+              est dictu: quia semper virtus nominat principium alicujus, praecipue prout sumitur hic
+              pro virtute causae. <quote xml:id="ta-l4d1q1-Qd1e819">Ad aliquid</quote> autem, sive relatio, non potest esse
+              principium actionis, vel terminus, ut probatur in 5 Physic.; et ideo nullo modo ille
+              ordo potest habere nomen virtutis neque rationem. Et propter hoc dicendum aliter, quod
+              virtus agendi proportionatur agenti. Unde alio modo oportet ponere virtutem agendi in
+              agente principali; alio modo in agente instrumentali. Agens enim principale agit
+              secundum exigentiam suae formae; et ideo virtus activa in ipso est aliqua forma vel
+              qualitas habens completum esse in natura. Instrumentum autem agit ut motum ab alio; et
+              ideo competit sibi virtus proportionata motui: motus autem non est ens completum sed
+              est via in ens quasi medium quid inter potentiam puram et actum purum, ut dicitur in 3
+              Physic. Et ideo virtus instrumenti inquantum hujusmodi, secundum quod agit ad effectum
+              ultra id quod competit sibi secundum suam naturam, non est ens completum habens esse
+              fixum in natura, sed quoddam ens incompletum, sicut est virtus immutandi visum in
+              aere, inquantum est instrumentum motum ab exteriori visibili; et hujusmodi entia
+              consueverunt intentiones nominari, et habent aliquid simile cum ente, quod est in
+              anima quod est ens diminutum, ut dicitur in 6 Metaph. Et quia sacramenta non faciunt
+              effectum spiritualem nisi inquantum sunt instrumenta; ideo virtus spiritualis est in
+              eis non quasi ens fixum, sed sicut ens incompletum.</p>
+            <p xml:id="ta-l4d1q1-d1e823">Ad primum ergo dicendum, quod ens incompletum quod est in anima, dividitur contra ens
+              distinctum per decem genera, ut patet in 6 Metaph.; et ideo talia entia incompleta,
+              per se loquendo, non sunt in aliquo genere nisi per reductionem, sicut motus quantum
+              ad suam substantiam reducitur ad illud genus in quo sunt termini motus, sicut
+              imperfectum ad perfectum, quamvis ponatur in praedicamento passionis secundum quod
+              importat ordinationem moventis ad motum, ut dicit Commentator. Unde et virtus haec
+              quae est in sacramentis reducitur ad id genus in quo est virtus completa principalis
+              agentis, quae est qualitas, vel in qua esset, si in genere esset: quia virtus increata
+              non est in aliquo genere.</p>
+            <p xml:id="ta-l4d1q1-d1e826">Ad secundum dicendum, quod instrumento datur virtus agendi instrumentaliter
+              dupliciter. Uno modo quasi inchoative, quando instituitur in specie instrumenti; et
+              ideo dicit Hugo, quod continet gratiam ex sanctificatione. Alio modo datur complete,
+              quando actu movetur a principali agente, sicut quando carpentarius utitur serra; et
+              similiter complete datur virtus sacramentis in ipso usu sacramentorum. Nec est
+              inconveniens, si virtus quae motui proportionatur, datur rei statim vel post modicum
+              desiturae.</p>
+            <p xml:id="ta-l4d1q1-d1e829">Ad tertium dicendum, quod sicut virtus praedicta non potest poni in aliquo genere
+              entis nisi per reductionem; ita nec constitui in aliquo gradu boni, nisi per
+              reductionem. Reducitur autem ad bona maxima, in quibus est gratia, quae quodammodo est
+              complementum ipsius virtutis, quasi finis ejus.</p>
+            <p xml:id="ta-l4d1q1-d1e833">Ad quartum dicendum, quod in re corporali non potest esse virtus spiritualis secundum
+              esse completum; potest tamen ibi esse per modum intentionis, sicut in instrumentis
+              motis ab artifice est virtus artis, et sermo audibilis existens causa disciplinae, ut
+              dicitur in Lib. de sensu et sensato continet intentiones animae quodammodo: etiam in
+              motu est virtus substantiae separatae moventis, secundum philosophos, et semen agit in
+              virtute animae, ut dicitur in 1 de Generat. animalium.</p>
+            <p xml:id="ta-l4d1q1-d1e836">Ad quintum dicendum, quod sicut virtus absoluta non est complete in quolibet
+              congregatorum ad unam actionem quam nullus per se perficere potest, sicut est de
+              tractu navis, sed est in omnibus simul, inquantum sunt omnes loco unius agentis, et
+              sic virtus in eis existens suam retinet unitatem; ita etiam est de instrumentis,
+              quando unum non sufficit; et sic etiam est in aliis multis quae exiguntur ad
+              sacramentum: quia in omnibus est illa virtus simul acceptis complete, in singulis
+              autem incomplete.</p>
+          </div>
+          <div xml:id="ta-l4d1q1-Dd1e840">
+            <head xml:id="ta-l4d1q1-Hd1e842">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d1q1-d1e845">Ad tertiam quaestionem dicendum, quod instrumentum praedicto modo virtutem non
+              accipit nisi secundum quod principali agenti continuatur, ut virtus ejus quodammodo in
+              instrumentum transfundatur. Principale autem et per se agens ad justificationem est
+              Deus sicut causa efficiens, et passio Christi sicut meritoria. Huic autem causae
+              continuatur sacramentum per fidem Ecclesiae, quae et instrumentum refert ad
+              principalem causam, et signum ad signatum; et ideo efficacia instrumentorum, sive
+              sacramentorum, vel virtus, est ex tribus: scilicet ex institutione divina sicut ex
+              principali causa agente, ex passione Christi sicut ex causa prima meritoria, ex fide
+              Ecclesiae sicut ex continuante instrumentum principali agenti.</p>
+            <p xml:id="ta-l4d1q1-d1e848">Ad primum ergo dicendum, quod Christus, secundum quod homo, est causa meritoria
+              nostrae justificationis; sed secundum quod Deus, est causa influens gratiam.</p>
+            <p xml:id="ta-l4d1q1-d1e851">Ad secundum dicendum, quod resurrectio est causa justificationis quantum ad terminum
+              ad quem; sed sacramenta magis respiciunt terminum a quo; et ideo directius respiciunt
+              passionem, quae ad peccati deletionem principaliter quasi satisfactio quaedam
+              ordinatur.</p>
+            <p xml:id="ta-l4d1q1-d1e854">Ad tertium dicendum, quod fides dat efficaciam sacramentis, inquantum causae
+              principali ea quodammodo continuat, ut dictum est; et ideo fides passionis, a qua
+              immediate et directe sacramenta efficaciam habent, sacramentis efficaciam
+              largitur.</p>
+          </div>
+          <div xml:id="ta-l4d1q1-Dd1e858">
+            <head xml:id="ta-l4d1q1-Hd1e860">Quaestiuncula 4</head>
+            <p xml:id="ta-l4d1q1-d1e863">Ad quartam quaestionem dicendum, quod, quia omne agens agit sibi simile, ideo
+              effectus agentis oportet quod aliquo modo sit in agente. In quibusdam enim est idem
+              secundum speciem; et ista dicuntur agentia univoca, sicut calor est in igne
+              calefaciente. In quibusdam vero est idem secundum proportionem sive analogiam, sicut
+              cum sol calefacit. Est enim in sole aliquid quod ita facit eum calefacientem sicut
+              calor facit ignem calidum; et secundum hoc calor dicitur esse in sole aequivoce, ut
+              dicitur in libro de substantia orbis. Ex quo patet quod illud quod est in effectu ut
+              forma dans esse, est in agente, inquantum hujusmodi, ut virtus activa; et ideo sicut
+              se habet agens ad virtutem activam, ita se habet ad continendam formam effectus. Et
+              quia agens instrumentale non habet virtutem agendi ad aliquod ens completum, sed per
+              modum intentionis, ut dictum est, et forma introducta continetur in eo per modum
+              intentionis, sicut sunt species colorum in aere, a quibus aer non denominatur
+              coloratus; etiam hoc modo gratia est in sacramentis sicut in instrumento, non
+              complete, sed incomplete quantum ad quatuor. Primo, quia in instrumento non est forma
+              effectus secundum completam rationem speciei, sicut est in effectu jam completo, et in
+              causa univoca. Secundo, quia est in eo per modum intentionis, et non secundum
+              completum esse in natura, sicut forma effectus est in causa principali non univoca
+              secundum esse perfectum in natura, quamvis non secundum completam rationem illius
+              speciei sive formae quam inducit in effectu, ut calor est in sole. Tertio, quia non
+              est in eo per modum intentionis quiescentis, sicut sunt intentiones rerum in anima,
+              sed per modum intentionis fluentis duplici fluxu: quorum unus est de potentia in
+              actum, sicut etiam in mobili est forma, quae est terminus motus, dum movetur ut fluens
+              de potentia in actum; et inter haec cadit medium motus, cujus virtute instrumentum
+              agit: alius de agente in patiens, inter quae cadit medium instrumentum, prout unum est
+              movens, et alterum motum. Quarto, quia sacramentum etiam instrumentaliter non attingit
+              directe ad ipsam gratiam, ut dictum est, sed dispositive.</p>
+            <p xml:id="ta-l4d1q1-d1e866">Ad primum ergo dicendum, quod gratia non est in sacramentis sicut in subjecto, sed
+              sicut in causa dispositiva instrumentali; sed intentio illa quae et virtus dicitur,
+              est in sacramento sicut in subjecto.</p>
+            <p xml:id="ta-l4d1q1-d1e869">Ad secundum dicendum, quod pulcherrime dictum est, gratiam contineri in sacramentis
+              sicut in vase per quamdam similitudinem. Sicut enim quod est in vase, non denominat
+              vas, sed in eo conservatur, ut possit inde accipi cum libet; ita gratia quae
+              continetur in sacramentis, non denominat ipsa, nec qualificat ea secundum aliquod esse
+              completum, sed gratiam in eis accipere poterit qui eis uti voluerit.</p>
+            <p xml:id="ta-l4d1q1-d1e872">Ad tertium dicendum, quod forma effectus quae est in agente principali vel
+              instrumentali, non fit eadem numero in effectu. Nec propter hoc frustra est: quia non
+              ad hoc ordinatur ut ipsamet in effectum fluat, sed ut ab ea vel per eam similis fiat
+              in effectu. Causa enim efficiens non reducitur in idem numero cum forma generati, sed
+              in idem specie, ut patet in 2 Phys.</p>
+            <p xml:id="ta-l4d1q1-d1e876">Ad quartum dicendum, quod continere dicuntur, inquantum aliquo modo sunt causa
+              ipsius.</p>
+          </div>
+          <div xml:id="ta-l4d1q1-Dd1e881">
+            <head xml:id="ta-l4d1q1-Hd1e883">Quaestiuncula 5</head>
+            <p xml:id="ta-l4d1q1-d1e886">Ad quintam quaestionem dicendum, quod, sicut in 2 Lib., 26 dist., quaest. unic., art.
+              3, et 4, dictum est, gratia gratum faciens est una, et est in essentia animae sicut in
+              subjecto, et ab ipsa fluunt virtutes et dona ad perficiendum potentias animae, sicut
+              etiam potentiae fluunt ab essentia; et distinguuntur istae virtutes secundum diversos
+              actus, ad quos oportet potentias animae perfici. Similiter etiam a gratia illa quae
+              est in essentia animae, effluit aliquid ad reparandum defectus qui ex peccato
+              inciderunt; et hoc diversificatur secundum diversitatem defectuum. Sed quia hujusmodi
+              defectus non sunt ita noti sicut actus ad quos virtutes perficiunt; ideo hic effectus
+              ad reparandum defectum non habet speciale nomen, sicut virtus, sed retinet nomen suae
+              causae, et dicitur gratia sacramentalis, ad quam directe sacramenta ordinantur: quae
+              quidem non potest esse sine gratia quae respicit essentiam animae, sicut nec virtus.
+              Sed tamen gratia quae est in essentia animae, non potest esse sine virtutibus; et ideo
+              virtutes in ea habent connexionem. Potest autem esse sine gratia sacramentali; et ideo
+              gratiae sacramentales connexionem non habent. Et ita patet quod gratia quam
+              sacramentum directe continet, differt a gratia quae est in virtutibus, et donis;
+              quamvis etiam illam gratiam per quamdam continuationem contineant.</p>
+            <p xml:id="ta-l4d1q1-d1e889">Ad primum ergo dicendum, quod gratia gratum faciens, prout est in essentia animae,
+              est una, sed secundum quod fluit ad defectus potentiarum tollendos, et potentias
+              perficiendas multiplicatur.</p>
+            <p xml:id="ta-l4d1q1-d1e892">Ad secundum dicendum, quod gratia virtutum opponitur peccato, secundum quod peccatum
+              continet inordinationem actus; sed gratia sacramentalis opponitur ei secundum quod
+              vulnerat naturale bonum potentiarum.</p>
+            <p xml:id="ta-l4d1q1-d1e895">Ad tertium dicendum, quod recessus a peccato, prout opponitur virtuti, et accessus ad
+              perfectionem virtutis pertinent ad eamdem gratiam, non autem recessus a peccato
+              secundum quod vulnerat naturam: quia requirit specialem medicinam, sicut in morbo
+              corporali etiam patet.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d1q1-Dd1e900" type="articulus">
+          <head xml:id="ta-l4d1q1-Hd1e902">Articulus 5</head>
+
+          <head xml:id="ta-l4d1q1-Hd1e905" type="questionTitle">Utrum sacramenta veteris legis gratiam conferrent</head>
+          <div xml:id="ta-l4d1q1-Dd1e908">
+            <head xml:id="ta-l4d1q1-Hd1e910">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d1q1-d1e913">Ad quintum sic proceditur. Videtur quod sacramenta veteris legis gratiam conferebant.
+              Ut enim supra dictum est, sacramenta a sacrando dicuntur, sicut ornatus ab ornando, et
+              munimenta a muniendo. Sed sine gratia non potest aliquid sacrari. Ergo sacramenta
+              veteris legis gratiam conferebant.</p>
+            <p xml:id="ta-l4d1q1-d1e916">Praeterea, in canone Missae fit oratio, ut sacrificium Ecclesiae Deo sit acceptum,
+              sicut sacrificia antiquorum accepta fuerunt; et Dan. 3, petitur ut sacrificium
+              humiliati et contriti spiritus suscipiatur a Deo, sicut holocaustum arietum et
+              taurorum. Sed sacrificium Ecclesiae et sacrificium contriti spiritus gratiam
+              conferunt. Ergo et sacramenta veteris legis gratiam conferebant.</p>
+            <p xml:id="ta-l4d1q1-d1e919">Praeterea, Hugo de sancto Victore dicit, quod ex quo homo aegrotare coepit, Deus in
+              sacramentis suis medicinam paravit. Sed medicina non potest exhiberi contra morbum
+              peccati nisi per gratiam. Ergo sacramenta antiquorum gratiam conferebant.</p>
+            <p xml:id="ta-l4d1q1-d1e922">Praeterea, homo periculosius infirmabatur in affectu per concupiscentiam quam in
+              intellectu per ignorantiam. Sed sacramenta contra ignorantiam figurabant futuram
+              salutem. Ergo multo amplius contra concupiscentiam gratiam conferebant.</p>
+            <p xml:id="ta-l4d1q1-d1e926">Praeterea, impossibile est sine gratia satisfacere. Sed sacramenta veteris legis
+              erant satisfactoria; unde pro diversis peccatis diversa sacrificia injungebantur in
+              lege, ut patet Levit. 16 et 17. Ergo gratiam conferebant.</p>
+            <p xml:id="ta-l4d1q1-d1e929">Sed contra, Hebr. 10, 4: <quote xml:id="ta-l4d1q1-Qd1e931" ana="#hebr10_4">impossibile est sanguine hircorum et taurorum auferri
+                peccata</quote>. Sed gratia tollit peccatum. Ergo antiqua sacramenta gratiam non
+              conferebant.</p>
+            <p xml:id="ta-l4d1q1-d1e935">Praeterea, per gratiam est vita animae. Sed de praeceptis veterum sacramentorum
+              dicitur Ezech. 20, 25: <quote xml:id="ta-l4d1q1-Qd1e937">dedi eis praecepta non bona, et judicia in quibus non
+                vivent</quote>. Ergo gratiam non conferebant.</p>
+          </div>
+          <div xml:id="ta-l4d1q1-Dd1e942">
+            <head xml:id="ta-l4d1q1-Hd1e944">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d1q1-d1e947">Ulterius. Videtur quod eorum usus non erat meritorius. Nihil enim est meritorium nisi
+              sit Deo acceptum. Sed sacramenta illa non erant Deo accepta; super illud enim Isaiae
+              1: <quote xml:id="ta-l4d1q1-Qd1e949">sanguinem hircorum nolui</quote>, dicit Glossa: <quote xml:id="ta-l4d1q1-Qd1e952">praeterito utens
+                tempore, ostendit se nunquam sacrificia Judaeorum amasse</quote>. Ergo eorum usus
+              non erat meritorius.</p>
+            <p xml:id="ta-l4d1q1-d1e956">Praeterea, nullum opus inutile est meritorium. Sed occisio tot animalium erat omnino
+              inutilis. Ergo non erat meritoria.</p>
+            <p xml:id="ta-l4d1q1-d1e959">Praeterea, nihil efficit nisi hoc quod a Deo institutum est. Sed illa sacramenta
+              imposuit Deus in onus; sicut in littera dicitur. Ergo eorum exercitium meritorium non
+              erat.</p>
+            <p xml:id="ta-l4d1q1-d1e962">Praeterea, Origenes dicit quod illa ratione permisit Deus hoc sibi fieri qua permisit
+              libellum repudii. Sed libellus repudii semper malus fuit, et nunquam meritorius. Ergo
+              nec praedictorum sacramentorum usus.</p>
+            <p xml:id="ta-l4d1q1-d1e966">Sed contra, dicit Beda, quod sacramenta veteris legis suo tempore custodita vitam
+              conferebant aeternam. Sed nihil perducit ad vitam aeternam, nisi sit meritorium. Ergo
+              erant meritoria.</p>
+            <p xml:id="ta-l4d1q1-d1e969">Praeterea, omnis actus virtutis formatae est meritorius. Sed usus sacramentorum
+              veteris legis erat actus latriae, quae in sanctis viris caritate formata erat. Ergo
+              erat meritorius.</p>
+          </div>
+          <div xml:id="ta-l4d1q1-Dd1e973">
+            <head xml:id="ta-l4d1q1-Hd1e975">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d1q1-d1e978">Ulterius. Videtur quod non purgabant ab immunditiis carnis. Aut enim illae
+              immunditiae sunt pure corporales, aut spirituales. A corporalibus pure non mundabant,
+              immo magis inquinare videbantur. Similiter nec a spiritualibus, quia spirituales ab
+              anima in corpus fiunt: quia secundum Augustinum, non inquinatur corpus, nisi prius
+              anima inquinata fuerit. Dicta autem sacramenta animam non mundabant, cum gratiam non
+              conferrent. Ergo neque carnem.</p>
+            <p xml:id="ta-l4d1q1-d1e981">Praeterea, inter omnia sacramenta veteris legis magis erat purgativum cinis vitulae
+              aspersus. Sed hic magis immundabat quam purgaret: quia sacerdos, qui vitulum
+              immolaverat, immundus efficiebatur, ut patet Num. 19. Ergo nec alia sacramenta
+              purgabant.</p>
+            <p xml:id="ta-l4d1q1-d1e984">Praeterea, sacramenta novae legis sunt majoris efficaciae quam sacramenta veteris
+              legis. Sacramenta autem novae legis non purgant ab irregularitatibus. Ergo nec
+              sacramenta veteris legis ab eis purgabant; quas irregularitates Magister hic exponit
+              immunditias carnis.</p>
+            <p xml:id="ta-l4d1q1-d1e987">Sed contra est quod dicitur Hebr. 9, 13: <quote xml:id="ta-l4d1q1-Qd1e989" ana="#hebr9_13">sanguis hircorum, et sanguis vitulae
+                aspersus inquinatos sanctificat ad emundationem carnis</quote>.</p>
+            <p xml:id="ta-l4d1q1-d1e994">Praeterea, sicut sacramenta nostra dicuntur spiritualia, ita et illa carnalia
+              dicebantur; Heb. 9, 1: <quote xml:id="ta-l4d1q1-Qd1e996" ana="#hebr9_1">habuit prius testamentum justificationes
+                culturae</quote>. Glossa: <quote xml:id="ta-l4d1q1-Qd1e999">non veras et spirituales, sed pro modo culturae
+                carnalis</quote>. Sed sacramenta novae legis purgant ab immunditiis spiritualibus.
+              Ergo illa purgabant ab immunditiis carnis.</p>
+          </div>
+          <div xml:id="ta-l4d1q1-Dd1e1005">
+            <head xml:id="ta-l4d1q1-Hd1e1007">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d1q1-d1e1010">Respondeo dicendum, ad primam quaestionem, quod in sacramento est duo considerare;
+              scilicet ipsum sacramentum, et usum sacramenti. Ipsum sacramentum dicitur a quibusdam
+              opus operatum; usus autem sacramenti est ipsa operatio, quae a quibusdam opus operans
+              dicitur. Cum ergo dicitur sacramentum, per se loquendo, gratiam conferre vel non
+              conferre, justificare vel non justificare, referendum est ad opus operatum. De opere
+              autem operato in sacramentis veteris legis duplex est opinio. Quidam enim dicunt, quod
+              in illis sacramentis opus operatum erat signum sacramentorum novae legis, et passionis
+              Christi, a quo efficaciam habent; et ideo illud opus operatum erat cum quadam
+              protestatione fidei; et ideo indirecte et ex consequenti habebant justificare, quasi
+              mediantibus nostris sacramentis per ea significatis a Deo significationem habentia, ut
+              dicit Hugo de sancto Victore. Nostra autem sacramenta directe et immediate
+              justificant, quia ad hoc directe sunt instituta. Sed haec opinio non videtur convenire
+              dictis sanctorum: dicunt enim, quod lex erat occasio mortis, inquantum ostendebat
+              peccatum, et gratiam adjutricem non conferebat. Nec differt quantum ad hoc
+              qualitercumque vel directe vel indirecte gratiam conferrent. Et praeterea secundum hoc
+              nulla esset vel valde modica praeeminentia sacramentorum novae legis ad sacramenta
+              veteris legis: quia etiam sacramenta novae legis a fide et significatione causandi
+              efficaciam habent, ut dictum est. Et ideo alii dicunt, et melius, quod nullo modo
+              sacramenta ipsa veteris legis, idest opus operatum in eis, gratiam conferebant,
+              excepta circumcisione, de qua post dicetur.</p>
+            <p xml:id="ta-l4d1q1-d1e1013">Secundum hoc ergo ad primum dicendum, quod sanctificatio quandoque importat
+              emundationem et confirmationem spiritualem, quae fit per gratiam; et sic sacramenta
+              veteris legis non dicebantur sacramenta, nisi quasi signa sanctificantium, ut dictum
+              est. Alio modo sanctificatio importat mancipationem alicujus ad aliquod sacrum; et sic
+              dicebantur sacramenta, et quasi sanctificantia, quia per ea fiebat quaedam idoneitas
+              ad sacros usus et in templo et in vasis et in ministris et in populo. Et per hunc
+              etiam modum apud gentiles dicebantur sacramenta militaria, quibus homo mancipabatur
+              officio militari, quod sacramentum reputabant, sicut et omnia quae ad communitatem
+              pertinebant.</p>
+            <p xml:id="ta-l4d1q1-d1e1016">Ad secundum dicendum, quod illa oratio in canone Missae non attenditur quantum ad
+              ipsa operata, quia hoc sacrificium magis placet quam illa; sed petitur ut devotio
+              istius offerentis placeat, sicut illorum placuit: et similiter Daniel comparat
+              sacrificium, quale tunc poterat offerre, ad devotionem illorum qui sacrificia in lege
+              praecepta in Hierusalem cum magna devotione obtulerant.</p>
+            <p xml:id="ta-l4d1q1-d1e1019">Ad tertium dicendum, quod sacramenta veteris legis dicebantur medicinae quantum ad
+              significationem, et non quantum ad collationem gratiae.</p>
+            <p xml:id="ta-l4d1q1-d1e1023">Ad quartum dicendum, quod homo tempore legis naturae relictus est sibi quantum ad
+              cognitionem; et per ignorantiam erravit in idolatriam lapsus: unde ut quantum ad omnia
+              se infirmum inveniret, oportebat ut instructus per legem et sacramentorum ejus
+              significationem, se impotentem cognosceret sine auxilio gratiae; et ideo congruum fuit
+              ut illa sacramenta gratiam non conferrent, ut sic salus a solo Christo
+              expectaretur.</p>
+            <p xml:id="ta-l4d1q1-d1e1026">Ad quintum dicendum, quod quamvis illa sacramenta peccata non diluerent quantum ad
+              maculam, quia gratiam non conferebant, diminuebant tamen reatum, inquantum onerosa
+              erant; et ideo satisfactoria esse poterant, praesupposita gratia ex fide mediatoris ei
+              collata.</p>
+          </div>
+          <div xml:id="ta-l4d1q1-Dd1e1030">
+            <head xml:id="ta-l4d1q1-Hd1e1032">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d1q1-d1e1035">Ad secundam quaestionem dicendum, quod de usu sacramentorum, qui opus operans a
+              quibusdam dicitur, est etiam duplex opinio. Quidam enim dixerunt, quod usus ipse non
+              erat meritorius, etiamsi in fide et caritate fierent: et hoc videtur Magister in
+              littera dicere. Sed hoc videtur absurdum, quod labores sanctorum patrum in hujusmodi
+              sacramentis Deo accepti non fuerint, et quod opus virtutis possit esse non meritorium.
+              Et ideo communiter tenetur, quod usus eorum meritorius esse poterat, si ex caritate
+              fieret. Aliqui tamen excusant Magistrum, dicentes, quod ipse intellexerit ipsa opera
+              operata non justificare quantumcumque in caritate fierent, quamvis ipsa operatio ex
+              caritate facta possit esse meritoria in eo qui est in statu merendi.</p>
+            <p xml:id="ta-l4d1q1-d1e1038">Ad primum ergo dicendum, quod sacrificia illa per se loquendo nunquam fuerunt Deo
+              accepta, quia gratiam non continebant, per quam Deo aliquid est acceptum; sed per
+              accidens erant et accepta et non accepta. Accepta quidem propter significationem et
+              devotionem offerentium; sed non accepta et abominabilia propter peccata et abusum
+              offerentium, et quia eadem idolis immolabantur, et sic inquantum erant Deo accepta,
+              poterant esse meritoria.</p>
+            <p xml:id="ta-l4d1q1-d1e1041">Ad secundum dicendum, quod quamvis occisio animalium esset secundum se inutilis,
+              tamen inquantum ordinabatur ad cultum Dei, ex divina institutione utilis erat, et ejus
+              utilitates tanguntur in Glossa, Rom. 5: <quote xml:id="ta-l4d1q1-Qd1e1043">lex data est ad domandum
+                superbum</quote>, ut scilicet Deo offerret potius quam idolis; <quote xml:id="ta-l4d1q1-Qd1e1046">ad
+                flagellandum durum</quote>, inquantum erat ad satisfactionem; <quote xml:id="ta-l4d1q1-Qd1e1049">ad instruendum
+                insipientem</quote>, ratione significationis, <quote xml:id="ta-l4d1q1-Qd1e1052">ad ostensionem delicti, et
+                humanae infirmitatis</quote>; et hoc respondet primis duobus; <quote xml:id="ta-l4d1q1-Qd1e1055">ad
+                manifestationem et testimonium gratiae, et futurorum significationem</quote>; et hoc
+              exponit tertium.</p>
+            <p xml:id="ta-l4d1q1-d1e1059">Ad tertium dicendum, quod lex secundum Augustinum data est quantum ad hujusmodi
+              sacramenta duris et superbis in flagellum et onus, ut oneratis divinis sacrificiis non
+              liberet eis ad idolatriam declinare; sed perfectis in signum, et parvulis in
+              paedagogum: et quantum ad hoc poterat esse eorum usus meritorius.</p>
+            <p xml:id="ta-l4d1q1-d1e1063">Ad quartum dicendum, quod Magister loquitur de illis sacrificiis, secundum quod
+              habebant aliquam rationem displicentiae ex hoc quod idolis immolabantur; et quantum ad
+              hoc non habebant rationem meriti.</p>
+          </div>
+          <div xml:id="ta-l4d1q1-Dd1e1067">
+            <head xml:id="ta-l4d1q1-Hd1e1069">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d1q1-d1e1072">Ad tertiam quaestionem dicendum, quod veteris legis intentio erat homines ad timorem
+              et reverentiam Dei inducere, et a carnalibus ad spiritualia trahere paulatim; et ideo
+              instituit multa impedimenta, quibus homines ab usu illorum sacramentorum frequenter
+              impedirentur, ut sic magis in reverentia haberentur, quia omne rarum carum; et sic
+              etiam paulatim a carnalibus observantiis dissuescerent, quandoque totaliter
+              abstrahendi in tempore gratiae. Et haec impedimenta immunditiae carnis dicebantur,
+              quibus homo corporaliter accedere ad sancta inidoneus efficiebatur; et ab his carnis
+              immunditiis sacramenta legis purgabant.</p>
+            <p xml:id="ta-l4d1q1-d1e1075">Ad primum ergo dicendum, quod immunditiae illae non erant spirituales, quasi a
+              peccato causatae semper, sed quasi a sacramentis prohibentes.</p>
+            <p xml:id="ta-l4d1q1-d1e1078">Ad secundum dicendum, quod sacerdos lavabat manus et vestimenta, ne cum manibus
+              sanguinolentis et cinerosis alia tangeret; et quia sacrorum ad communia non debet esse
+              commixtio; unde etiam uncti chrismate manus lavant, et abstergunt. Immundus autem
+              reputabatur propter tria. Primo ut sacerdotes essent sub onere, sicut et alii. Secundo
+              ad tollendum superbiam sacerdotum de hoc quod alios sanctificabant. Tertio ad
+              significandum quod sacerdos novi testamenti propter maximam sanctitatem sacrificii
+              semper debet se inidoneum reputare.</p>
+            <p xml:id="ta-l4d1q1-d1e1081">Ad tertium dicendum, quod in nova lege non sunt irregularitates tot sicut in veteri
+              lege, nec sunt nisi in ministris Ecclesiae, in quibus requiritur maxima idoneitas
+              propter sacramentorum sanctitatem; ideo tales irregularitates non ita facile
+              absterguntur.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d1q1-Dd1e1086">
+          <head xml:id="ta-l4d1q1-Hd1e1088">Expositio textus</head>
+          <p xml:id="ta-l4d1q1-d1e1091"><quote xml:id="ta-l4d1q1-Qd1e1092">Observantiae caeremoniales</quote>. Caeremonialia dicuntur quae secundum se non
+            habent causam manifestam ipsorum factorum, quamvis possint habere causam manifestam suae
+            institutionis. Dicitur autem caeremonia, quasi munia Cereris; quae erat dea frugum, quia
+            ei prius sacrificia instituta sunt, et exinde translatum est nomen ad omnem divinum
+            cultum. Vel, sicut dicit Valerius maximus, dicuntur a Caere oppido, in quo prius Romani
+            suos ritus instituerunt. <quote xml:id="ta-l4d1q1-Qd1e1095">Mundabant etiam interdum a corporali lepra</quote>;
+            idest, mundatum ostendebant, quando signa quae apparuerant, cessabant. <quote xml:id="ta-l4d1q1-Qd1e1098">Sine medio
+              Deum videbant</quote>; idest, divinorum cognitionem non ex sensibilibus signis
+            accipiebant, sed per infusionem. Et de hoc in 2 Lib., dist. 24, dictum est.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,1795 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 14, Quaestio 1</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.09-dev-master">
+          <title>Librum I, Distinctio 14, Quaestio 1</title>
+          <date when="2016-03-14">March 14, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-14">March 14, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p>1856 editum</p>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="2015.09">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <div xml:id="starts-on"> </div>
+    </front>
+    <body>
+      <div xml:id="ta-l1d14q1">
+        <head xml:id="ta-l1d14q1-Hd1e3490">Librum I, Distinctio 14, Quaestio 1</head>
+
+        <div xml:id="ta-l1d14q1-Dd1e3493">
+          <head xml:id="ta-l1d14q1-Hd1e3495">Prooemium</head>
+          <p xml:id="ta-l1d14q1-d1e3498">Hic incipit Magister determinare de temporali processione spiritus sancti, et dividitur
+            in partes duas: in prima determinat processionem temporalem spiritus sancti; in secunda
+            determinat nomen spiritus sancti, quod rationem temporalis processionis ostendit, in 18
+            dist. ibi: <quote xml:id="ta-l1d14q1-Qd1e3500">praeterea diligenter considerandum est, cum spiritus sanctus dicatur
+              donum et datum, utrum et eadem ratione utrumque nomen ei conveniat</quote>. Prima in
+            duas: in prima determinat de temporali processione in communi; in secunda quantum ad
+            speciales modos missionis, in 16 dist.: <quote xml:id="ta-l1d14q1-Qd1e3503">nunc de spiritu sancto videndum est (...)
+              quae sit ejus temporalis processio</quote>. Prima in duas: in prima ostendit, spiritum
+            sanctum a patre et filio temporali processione procedere: in secunda inquirit utrum a
+            seipso temporali processione procedat, 15 dist.: <quote xml:id="ta-l1d14q1-Qd1e3506">hic considerandum est, cum
+              spiritus sanctus detur hominibus a patre et filio (...) utrum etiam a seipso
+              detur</quote>. Prima in duas: in prima ostendit processionem spiritus sancti
+            temporalem esse a patre et filio; in secunda excludit errorem circa intellectum
+            temporalis processionis, ibi: <quote xml:id="ta-l1d14q1-Qd1e3509">sunt autem aliqui qui dicunt, spiritum sanctum
+              ipsum Deum non dari, sed dona ejus</quote>. Circa primum duo facit: primo determinat
+            veritatem temporalis processionis quantum ad principium a quo procedit, ostendens per
+            Augustinum quod procedit a patre et filio; secundo ostendit veritatem quantum ad hoc
+            quod ab eis dicitur procedere temporaliter, ibi: <quote xml:id="ta-l1d14q1-Qd1e3512">de temporali autem processione
+              Beda (...) ita loquitur. Sunt autem aliqui qui dicunt, spiritum sanctum ipsum Deum non
+              dari, sed dona ejus</quote>. Hic excludit errorem dicentium, in processione temporali
+            spiritum sanctum non dari, sed tantum dona ejus: et circa hoc duo facit: primo ostendit,
+            ipsum spiritum sanctum qui Deus est, temporali processione dari; secundo ex hoc ostendit
+            quod nullus homo spiritum sanctum dare potest, ibi: <quote xml:id="ta-l1d14q1-Qd1e3516">hic quaeritur, utrum et viri
+              sancti dent vel possint dare aliis spiritum sanctum</quote>. Et circa hoc duo facit:
+            primo movet quaestionem, et determinat eam, ostendens quod nullus homo spiritum sanctum
+            dare potest, nec etiam Christus, secundum quod homo; secundo objicit in contrarium, et
+            solvit, ibi: <quote xml:id="ta-l1d14q1-Qd1e3519">sed huic videtur contrarium quod apostolus (...) ait</quote>. Ad
+            intellectum hujus partis tria quaeruntur: primo de processione temporali secundum se.
+            Secundo ratione cujus spiritus sanctus temporaliter procedere dicatur, vel secundum quid
+            fiat. Tertio a quo fiat. Circa primum duo quaeruntur: 1 utrum sit aliqua temporalis
+            processio spiritus sancti; 2 utrum ponat in numerum cum aeterna.</p>
+        </div>
+        <div xml:id="ta-l1d14q1-Dd1e3524" type="articulus">
+          <head xml:id="ta-l1d14q1-Hd1e3526">Articulus 1</head>
+
+          <head xml:id="ta-l1d14q1-Hd1e3529" type="questionTitle">Utrum aliqua processio spiritus sancti sit temporalis</head>
+
+          <p xml:id="ta-l1d14q1-d1e3532">Ad primum sic proceditur. Videtur quod nulla processio spiritus sancti sit temporalis.
+            Sicut enim generatio est proprietas aeterna filii secundum quam distinguitur a patre,
+            ita processio spiritus sancti est proprietas secundum quam distinguitur a patre et
+            filio. Sed generatio filii non dicitur temporalis nisi secundum naturam assumptam. Cum
+            igitur spiritus sanctus nullam assumpserit naturam, nec assumet, videtur quod nulla sit
+            ejus processio temporalis.</p>
+          <p xml:id="ta-l1d14q1-d1e3535">Praeterea, omne illud cui convenit aliquid temporaliter, est mutabile vel variabile.
+            Hoc autem spiritui sancto non convenit, cum sit verus Deus. Ergo nec temporalis
+            processio.</p>
+          <p xml:id="ta-l1d14q1-d1e3538">Praeterea, secundum philosophum Lib. de causis, inter rem cujus substantia et operatio
+            est in tempore, et inter rem cujus substantia et operatio est in momento aeternitatis,
+            est res media, cujus operatio est in tempore, et substantia in aeternitate. Rem autem
+            illam, cujus substantia et operatio est in aeternitate, dicit substantias separatas, et
+            praecipue Deum. Cum igitur processio sit operatio ipsius Dei, sive active sive passive
+            intelligatur, videtur quod non sit in tempore, et ita nec temporalis dici debeat.</p>
+          <p xml:id="ta-l1d14q1-d1e3542">Praeterea, illud quod elevat hominem supra tempus, non potest dici temporale. Sed per
+            processionem spiritus sancti in hominem elevatur homo supra omnia temporalia: quia,
+            secundum Augustinum, inquantum aliquod aeternum mente capimus, non in hoc mundo sumus.
+            Ergo non debet dici temporalis.</p>
+          <p xml:id="ta-l1d14q1-d1e3545">Praeterea, in processione temporali, quae etiam missio dicitur, includitur intellectus
+            processionis aeternae, secundum Augustinum. Sed denominatio debet fieri a digniori.
+            Igitur etsi in processione esset aliquid temporale, non deberet dici temporalis, sed
+            aeterna.</p>
+          <p xml:id="ta-l1d14q1-d1e3548">Contrarium dicitur per auctoritates in littera.</p>
+          <p xml:id="ta-l1d14q1-d1e3551">Praeterea, contingit aliquem ex tempore habere spiritum sanctum, qui prius non habuit.
+            Sed spiritus sanctus non habetur nisi ut procedens a patre et filio, cum sit donum
+            utriusque. Ergo est ejus aliqua processio temporalis, secundum quam procedit ad
+            sanctificandum creaturam, ut in littera dicitur.</p>
+          <p xml:id="ta-l1d14q1-d1e3554">Respondeo dicendum, quod quamvis in personis divinis, proprie loquendo, dicatur
+            processio secundum rationem exitus a principio, qui non necessario tendit in aliud,
+            tamen processio spiritus sancti ex modo suae processionis habet, inquantum scilicet
+            procedit ut amor, quod in alium tendat, scilicet in amatum, sicut in objectum. Et quia
+            processiones personarum aeternae, sunt causa et ratio totius productionis creaturarum,
+            ideo oportet quod sicut generatio filii est ratio totius productionis creaturae secundum
+            quod dicitur pater in filio omnia fecisse, ita etiam amor patris tendens in filium ut in
+            objectum, sit ratio in qua Deus omnem effectum amoris creaturis largiatur; et inde est
+            quod spiritus sanctus, qui est amor quo pater amat filium, est etiam amor quo amat
+            creaturam impartiendo sibi suam perfectionem. Poterit ergo processio istius amoris
+            dupliciter considerari: vel secundum quod tendit in objectum aeternum, et sic dicetur
+            aeterna processio, vel secundum quod procedit ut amor in objectum creatum, inquantum
+            scilicet per illum amorem, creaturae aliquid a Deo confertur; et sic dicetur processio
+            temporalis, ex eo quod ex novitate effectus consurgit nova relatio creaturae ad Deum,
+            ratione cujus oportet Deum sub nova habitudine ad creaturam significari, ut patet in
+            omnibus quae de Deo ex tempore dicuntur.</p>
+          <p xml:id="ta-l1d14q1-d1e3557">Ad primum ergo dicendum, quod generatio de ratione sui non dicit respectum nisi ad eum
+            a quo est generatio. Hoc autem dupliciter potest esse in filio: aut sicut a quo accipit
+            divinam naturam, et sic est generatio aeterna a patre; aut sicut a quo accipit naturam
+            humanam, et sic est temporalis generatio a matre. Processio autem spiritus sancti, ut
+            dictum est, distin. 13, quaest. unica, art. 2, non solum dicit respectum ad principium a
+            quo procedit, secundum quem aeterna tantummodo est, sicut et generatio; sed etiam
+            importat respectum ad eum in quem procedit, secundum quem temporalis dici potest.</p>
+          <p xml:id="ta-l1d14q1-d1e3561">Ad secundum dicendum, quod inquantum per amorem, qui est spiritus sanctus, aliquod
+            donum creaturae confertur, nulla mutatio vel variatio fit in ipso amore, sed in eo cui
+            per amorem aliquid datur; si tamen mutatio, et non potius perfectio dici debet. Et ideo
+            ille temporalis respectus non ponitur circa spiritum sanctum realiter, sed solum
+            secundum rationem; realiter autem in creatura quae mutatur; sicut fit cum dicitur Deus
+            dominus ex tempore.</p>
+          <p xml:id="ta-l1d14q1-d1e3564">Ad tertium dicendum, quod operatio divina dupliciter potest considerari: vel ex parte
+            operantis, et sic est aeterna; vel quantum ad effectum operationis, et sic potest esse
+            temporalis. Sed tamen quia Deus non agit per operationem quae sit media inter ipsum et
+            operatum, sed sua operatio est in ipso et est tota sua substantia; ideo operatio ejus
+            essentialiter aeterna est, sed effectus temporalis.</p>
+          <p xml:id="ta-l1d14q1-d1e3567">Ad quartum dicendum, quod aliquid potest dici temporale multipliciter: vel quia
+            subjacet variationi temporis, et hoc modo processio non dicitur temporalis, etiam
+            quantum ad effectum gratiae; vel quia habet initium in tempore, et sic gratia dicitur
+            temporalis, et eadem ratione processio ratione effectus.</p>
+          <p xml:id="ta-l1d14q1-d1e3570">Ad quintum dicendum, quod aliquod conjunctum non potest affirmari nisi pro utraque
+            parte, sed negari potest pro altera parte tantum; sicut patet in veritate et falsitate
+            copulativae propositionis. Et quia temporale claudit in se quamdam negationem cum
+            affirmatione, scilicet aliquando esse et prius non fuisse, aeternum autem importat
+            tantum affirmationem essendi; ideo conjunctum non potest dici aeternum, nisi utrumque
+            aeternum sit; temporale autem dici potest, etiam si alterum tantum sit temporale, sicut
+            creator importat divinam operationem et connotat effectum in creatura actualiter,
+            ratione cujus Deus non dicitur creator ab aeterno sed ex tempore.</p>
+        </div>
+        <div xml:id="ta-l1d14q1-Dd1e3574" type="articulus">
+          <head xml:id="ta-l1d14q1-Hd1e3576">Articulus 2</head>
+
+          <head xml:id="ta-l1d14q1-Hd1e3579" type="questionTitle">Utrum processio temporalis distinguatur realiter ab
+            aeterna</head>
+
+          <p xml:id="ta-l1d14q1-d1e3582">Ad secundum sic proceditur. Videtur quod temporalis processio ponat in numerum cum
+            aeterna, ut sit alia et alia processio. Aeternum enim et temporale non possunt idem esse
+            in essentia. Sed quae differunt per essentiam, simpliciter multiplicantur et numerantur.
+            Ergo aeterna processio et temporalis simpliciter sunt duae.</p>
+          <p xml:id="ta-l1d14q1-d1e3585">Item, idem non est signum sui ipsius. Sed processio temporalis, secundum Augustinum,
+            est signum aeternae. Ergo non sunt una processio.</p>
+          <p xml:id="ta-l1d14q1-d1e3588">Praeterea, cum una dicatur processio aeterna et alia temporalis, aut hoc erit quia
+            essentialiter differunt, aut quia una addit super aliam. Sed aeterna non potest addere
+            supra temporalem, quia sic temporalis esset naturaliter prior aeterna; nec etiam
+            temporalis potest se habere ex additione ad aeternam, cum aeterno, quia perfectum est,
+            nihil sit addibile. Ergo relinquitur quod essentialiter differant, et ita simpliciter
+            sunt duae.</p>
+          <p xml:id="ta-l1d14q1-d1e3592">Praeterea, sicut filius se habet ad generationem passivam, ita et spiritus sanctus ad
+            processionem passivam. Sed propter aeternam generationem et temporalem, filius dicitur
+            habere duas nativitates et bis natus. Ergo et spiritus sanctus dicitur habere duas
+            processiones.</p>
+          <p xml:id="ta-l1d14q1-d1e3595">Contra, processio ponit aliquid in ipso procedente. Sed processio temporalis, inquantum
+            est temporalis, nihil ponit circa spiritum sanctum. Ergo oportet quod in processione
+            temporali essentialiter includatur aeterna. Ergo non differunt essentialiter, nec
+            simpliciter sunt plures.</p>
+          <p xml:id="ta-l1d14q1-d1e3598">Item, ea quae non sunt ejusdem rationis, non connumerantur ad invicem. Sed temporale et
+            aeternum non sunt ejusdem rationis. Ergo non potest dici quod sint duae processiones,
+            temporalis et aeterna.</p>
+          <p xml:id="ta-l1d14q1-d1e3601">Respondeo dicendum, quod cum processio semper dicat respectum procedentis ad illum a
+            quo procedit, spiritus sanctus autem ad patrem non refertur nisi relatione aeterna;
+            oportet quod nulla processio spiritus sancti sit alia essentialiter ab aeterna; sed
+            potest sibi advenire aliquis respectus alius ex parte ejus in quem est, sicut in amatum,
+            et ratione illius dicitur temporalis. Dicendum ergo, quod est una processio
+            essentialiter propter respectum unum procedentis ad id a quo procedit, quem
+            principaliter importat. Processio autem est duplex, vel gemina, ratione duorum
+            respectuum in duo objecta, scilicet in aeternum et temporale: quorum unus, scilicet
+            aeternus, realiter est in ipso procedente; alius autem secundum rationem tantum in
+            spiritu sancto, sed secundum rem in eo in quem procedit. Horum tamen respectuum primus
+            includitur in secundo, sicut ratio et causa ejus; unde secundus se habet ex additione ad
+            primum.</p>
+          <p xml:id="ta-l1d14q1-d1e3604">Ad primum ergo dicendum, quod processio non dicitur temporalis secundum id quod est,
+            sed ratione respectus ad creaturam, temporalis dicitur, ut dictum est, art. 1 hujus
+            quaest.</p>
+          <p xml:id="ta-l1d14q1-d1e3607">Ad secundum dicendum, quod processio temporalis dicitur esse signum aeternae, quantum
+            ad effectum ex quo consurgit respectus ille temporalis secundum quem processio
+            temporalis dicitur. Effectus autem hujus processionis est amor gratuitus, qui est
+            similitudo quaedam amoris increati, qui est spiritus sanctus, et per consequens signum
+            ejus.</p>
+          <p xml:id="ta-l1d14q1-d1e3611">Ad tertium dicendum, quod quamvis aeterno secundum rem nihil sit addibile; nihilominus
+            tamen aeternum potest intelligi in aliqua habitudine se habere ad aliquod temporale:
+            quae tamen habitudo non ponitur realiter circa ipsum aeternum, ut dictum est. Et quia
+            intellectus potest repraesentari per nomen, quia voces sunt notae earum quae sunt in
+            anima passionum, ideo potest aeterno imponi aliquod nomen, prout intelligitur sub illa
+            habitudine, sicut Deus dicitur dominus ex tempore. Ita etiam dicitur processio
+            temporalis.</p>
+          <p xml:id="ta-l1d14q1-d1e3614">Ad quartum dicendum, quod generatio filii temporalis et aeterna distinguuntur etiam
+            secundum respectum ad principium a quo sunt, quia aeterna est a patre et temporalis a
+            matre, et secundum diversas naturas; et ideo una realiter non est alia. Sed de
+            processione non est simile, ut dictum est, art. antec.</p>
+          <p xml:id="ta-l1d14q1-d1e3617">Quintum concedimus.</p>
+          <p xml:id="ta-l1d14q1-d1e3620">Ad sextum dicendum, quod processio temporalis et aeterna, consideratae secundum
+            respectum procedentis ad principium, a quo est, sunt omnino idem, nedum ejusdem
+            rationis; et ex hac parte non numerantur. Sed consideratae secundum respectum ad id in
+            quod est processio per modum dictum, non sunt ejusdem rationis, scilicet per
+            univocationem, sed analogice; quia unum est ratio alterius; et ita possunt connumerari:
+            sicut etiam dicimus Deum et hominem duas res.</p>
+        </div>
+
+
+      </div>
+    </body>
+  </text>
+</TEI>

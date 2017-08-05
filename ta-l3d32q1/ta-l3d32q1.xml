@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum III, Distinctio 32, Quaestio 1</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.09-dev-master">
+          <title>Librum III, Distinctio 32, Quaestio 1</title>
+          <date when="2016-03-13">March 13, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-13">March 13, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness>1856 editum</witness>
+          <witness xml:id="H" n="harv245" xml:base="http://iiif.lib.harvard.edu/manifests/drs:51994085/canvas/">Cambridge, Mass.,
+            Harvard University, Houghton Library, MS Lat 245</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="2015.09">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+
+
+
+
+      <div xml:id="starts-on">
+        <cb ed="#H" n="118va"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ta-l3d32q1">
+        <head xml:id="ta-l3d32q1-Hd1e97">Librum III, Distinctio 32, Quaestio 1</head>
+
+        <div xml:id="ta-l3d32q1-Dd1e100">
+          <head xml:id="ta-l3d32q1-Hd1e102">Prooemium</head>
+          <p xml:id="ta-l3d32q1-d1e105">Postquam determinavit <name ref="#Lombard">Magister</name> de dilectione caritatis qua
+            diligimus Deum, hic determinat de dilectione qua Deus diligit nos; et dividitur in
+            partes duas: in prima ostendit quomodo Deus omnem creaturam diligit; in secunda movet
+            quaestionem de reprobis, quos diligere non videtur, ibi: <quote xml:id="ta-l3d32q1-Qd1e110">de reprobis vero qui
+              praeparati non sunt ad vitam, sed ad mortem, si quaeritur, utrum debeat concedi quod
+              Deus ab aeterno dilexit eos; dicimus de electis solis simpliciter hoc esse
+              concedendum</quote>. Prima in duas. In prima determinat de dilectione Dei, secundum
+            quod absolute dicitur creaturam diligere. In secunda determinat de gradibus divinae
+            dilectionis, secundum quod unum plus et alium minus dicitur diligere, ibi: <quote xml:id="ta-l3d32q1-Qd1e113">cum
+              autem dilectio Dei immutabilis sit</quote> et cetera. Et dividitur haec pars in duas:
+            in prima determinat de ordine dilectionis quantum ad diversos; in secunda quantum ad
+            eumdem, ibi: <quote xml:id="ta-l3d32q1-Qd1e116">si vero quaeritur de aliquo uno, utrum magis diligatur a Deo uno
+              tempore quam alio; distinguenda est dilectionis intelligentia</quote>. Circa primum
+            tria facit: primo movet quaestionem; secundo determinat eam, ibi, <quote xml:id="ta-l3d32q1-Qd1e119">potest tamen
+              sane intelligi</quote> etc.; tertio confirmat solutionem, ibi: <quote xml:id="ta-l3d32q1-Qd1e123">consideratur
+              enim duobus modis dilectio Dei</quote>. Hic quaeruntur quatuor: 1 utrum Deus creaturam
+            diligat; 2 utrum omnem creaturam; 3 utrum aequaliter omnia; 4 quid plus et quid minus
+            sive aequaliter.</p>
+        </div>
+        <div xml:id="ta-l3d32q1-Dd1e128" type="articulus">
+          <head xml:id="ta-l3d32q1-Hd1e130">Articulus 1</head>
+          <head xml:id="ta-l3d32q1-Hd1e133" type="questionTitle">Utrum Deo competat creaturam amare</head>
+
+          <p xml:id="ta-l3d32q1-d1e136">Ad primum sic proceditur. Videtur quod Deo non competat creaturam amare. Amor enim
+            quamdam passionem animi importat. Sed aliae passiones animi, ut ira, et hujusmodi, non
+            sunt in Deo, nisi secundum effectum, et per similitudinem. Ergo nec amor est in
+            ipso.</p>
+          <p xml:id="ta-l3d32q1-d1e139">Praeterea, inter multum distantia non potest esse amor; unde amici non optant amicis
+            maxima bonorum, ne amicitia dissolvatur, ut philosophus dicit in 9 Ethic. Sed nulla est
+            tanta distantia quanta creatoris a creatura. Ergo non potest esse amor Dei ad
+            creaturam.</p>
+          <p xml:id="ta-l3d32q1-d1e142">Praeterea, amor transfert amantem in amatum, ut vivat jam vita amati, ut dicit
+            Dionysius. Sed Deus non transfertur in aliquid aliud, cum sit immobilis; sed omnia ad se
+            trahit, ut dicitur Joan. 12. Ergo ipse non amat creaturam.</p>
+          <p xml:id="ta-l3d32q1-d1e146">Praeterea, amans quodammodo subjicitur amato, inquantum affectus amantis amato
+            informatur, ut supra dictum est. Sed Deus nullo modo creaturae subjicitur. Ergo nullo
+            modo amat creaturam.</p>
+          <p xml:id="ta-l3d32q1-d1e149">Praeterea, omnis nostra perfectio a divina perfectione exemplatur. Sed omnis virtus
+            perfectio mentis est. Ergo cum quaedam aliae virtutes non sint in Deo, ut temperantia,
+            et hujusmodi, videtur quod nec caritas.</p>
+          <p xml:id="ta-l3d32q1-d1e152">Sed contra, sicut essentia sua est exemplar omnis creaturae, ita bonitas sua est causa
+            omnis bonitatis in creatura. Sed cognoscendo essentiam cognoscit omnia quae ab ipsa
+            exemplantur. Ergo amando bonitatem suam, amat omnia quae ab ipsa bonitatem
+            participant.</p>
+          <p xml:id="ta-l3d32q1-d1e155">Praeterea, Joan. 3, 16: <quote xml:id="ta-l3d32q1-Qd1e157">sic Deus dilexit mundum, ut filium suum unigenitum
+              daret</quote>.</p>
+          <p xml:id="ta-l3d32q1-d1e161">Praeterea, Dionysius dicit quod divinus amor non permisit ipsum sine germine esse.</p>
+          <p xml:id="ta-l3d32q1-d1e164">Respondeo dicendum, quod unicuique habenti cognitionem amabile est proprium bonum non
+            solum amore naturali, sed amore animali, sive intellectuali. Unde cum in Deo sit sui
+            perfecta cognitio, amat suam bonitatem. Bonum autem alicujus non solum dicitur secundum
+            hoc quod in ipso est, sed secundum quod in alio est per similitudinem. Unde cum bonitas
+            quae est in creatura, sit similitudo divinae bonitatis, sequitur quod ipse creaturam
+            diligat.</p>
+          <p xml:id="ta-l3d32q1-d1e168">Ad primum ergo dicendum, quod passiones quaedam important in sui ratione aliquam
+            materialem transmutationem; et ideo non possunt transferri in Deum, nisi per
+            similitudinem, sicut ira; et similiter illae quae important defectum, ut tristitia, et
+            etiam ira secundum quod ex tristitia causatur. Quaedam vero passiones sunt quae de
+            ratione sui non important aliquid materiale, vel aliquem defectum, sicut delectatio;
+            unde etiam in operatione intellectuali delectatio est, non solum in corporali
+            operatione, ut philosophus probat in 7 Ethic.: et propter hoc delectatio in Deo potest
+            poni, non quidem ut passio, sed operationem suam simplicem et sine motu consequens per
+            modum intelligendi, ut philosophus dicit in 7 Ethic., quod Deus simplici gaudet
+            delectatione. Et similiter etiam de amore dicendum est.</p>
+          <p xml:id="ta-l3d32q1-d1e171">Ad secundum dicendum, quod inter multum distantia bene potest esse amor, sed non
+            amicitia: quia non conversantur simul, quod est proprium amicitiae. Deus autem quamvis
+            in infinitum distet a creatura; tamen operatur in omnibus, et in omnibus est: et ideo
+            potest salvari etiam ratio amicitiae.</p>
+          <p xml:id="ta-l3d32q1-d1e174">Ad tertium dicendum, quod amor omnis transfert quodammodo amantem in amatum, sed
+            diversimode. Uno modo secundum quod amans transfertur in participandum ea quae sunt
+            amati; alio modo ut communicet amato ea quae sunt sua. Primo ergo modo Deus non
+            transfertur in amatum, quod est creatura; sed secundo modo, inquantum bonitatem suam ei
+            communicat; et sic dicit Dionysius, quod ipse Deus est per amorem extasim passus.</p>
+          <p xml:id="ta-l3d32q1-d1e177">Ad quartum dicendum, quod potentia passiva informatur ex objecto suo; sed potentia
+            activa ponit formam suam circa objectum, sicut patet de intellectu agente et possibili.
+            Unde sicut intellectus divinus non informatur rebus quas cognoscit per essentiam suam,
+            ita nec voluntas ejus informatur rebus quas amat: quia eas per bonitatem suam amat, et
+            amando communicat eis suam bonitatem.</p>
+          <p xml:id="ta-l3d32q1-d1e180">Ad quintum dicendum, quod virtutes quae habent materiam determinatam circa actus et
+            passiones corporales, vel quae important aliquem defectum, sicut fides, non possunt
+            habere exemplar in natura divina, ita scilicet quod illae virtutes in Deo sint; sed
+            habent exemplar in intellectu divino, sicut habent reliquae res materiales; et ideo cum
+            caritas nullum defectum nec aliquod materiale importet, invenitur in Deo prae quibusdam
+            aliis virtutibus.</p>
+        </div>
+        <div xml:id="ta-l3d32q1-Dd1e184" type="articulus">
+          <head xml:id="ta-l3d32q1-Hd1e186">Articulus 2</head>
+
+          <head xml:id="ta-l3d32q1-Hd1e189" type="questionTitle">Utrum Deus diligat omnem creaturam</head>
+
+          <p xml:id="ta-l3d32q1-d1e192">Ad secundum sic proceditur. Videtur quod Deus non diligat omnem creaturam. Quidquid
+            enim Deus diligit, ex caritate diligit. Sed creaturae irrationales non diliguntur ex
+            caritate, ut supra, dist. 21, quaest. 1, art. 2, dictum est. Ergo eas Deus non
+            diligit.</p>
+          <p xml:id="ta-l3d32q1-d1e195">Praeterea, sicut dicit philosophus in 8 Ethic., creaturae inanimatae non diliguntur
+            nisi amore concupiscentiae, sicut patet de vino. Sed Deus non diligit amore
+            concupiscentiae, quia ipse bonorum nostrorum non eget. Ergo creaturas inanimatas nullo
+            modo diligit.</p>
+          <p xml:id="ta-l3d32q1-d1e198">Praeterea, dilectio est causa electionis. Sed Deus non omnes etiam homines eligit. Ergo
+            non omnes diligit.</p>
+          <p xml:id="ta-l3d32q1-d1e202">Praeterea, quicumque diligit aliquid, vult ei bonum. Sed Deus non vult reprobis bonum,
+            quod est perfectum bonum, scilicet vitam aeternam: quia si vellet, haberent. Ergo Deus
+            non diligit omnem creaturam.</p>
+          <p xml:id="ta-l3d32q1-d1e205">Praeterea, non potest esse ejusdem ad idem amor et odium. Sed Deus aliquam creaturam
+            odit; Malach. 1, 5: <quote xml:id="ta-l3d32q1-Qd1e207">Esau odio habui</quote>. Ergo non omnem creaturam
+            diligit.</p>
+          <p xml:id="ta-l3d32q1-d1e211">Sed contra, Sap. 2, 25: <quote xml:id="ta-l3d32q1-Qd1e213">diligis omnia quae sunt, et nihil odisti eorum quae
+              fecisti</quote>.</p>
+          <p xml:id="ta-l3d32q1-d1e217">Praeterea, Dionysius dicit quod etiam amor divinus movet superiora in providentiam
+            inferiorum. Sed Deus habet providentiam de omnibus. Ergo ipse omnia diligit.</p>
+          <p xml:id="ta-l3d32q1-d1e220">Praeterea, Genes. 1, 31, dicitur: <quote xml:id="ta-l3d32q1-Qd1e222" ana="#gen1_31">vidit Deus cuncta quae fecerat, et erant valde
+              bona</quote>; et Augustinus dicit, quod per hoc significatur quod omnia approbavit sed
+            nihil approbatur nisi quod amatur. Ergo Deus omnia amat.</p>
+          <p xml:id="ta-l3d32q1-d1e226">Respondeo dicendum, quod amicitia, sicut dictum est Sup. dist. 27, quaest. 2, art. 1,
+            addit aliquid supra amorem, quia ad rationem amoris sufficit quod homo velit bonum
+            quodcumque alicui; ad rationem autem amicitiae oportet quod aliquis velit ei bonum quod
+            vult sibi, ut scilicet velit conversari cum ipso, et convivere in illis quae maxime
+            amat. Sic ergo Deus, communiter loquendo de dilectione, diligit omnia, inquantum vult
+            eis bonum aliquod, scilicet bonum naturale ipsorum; sed bonum quod ipse sibi vult,
+            scilicet visionem sui, et fruitionem qua ipse beatus est, vult quidem omni creaturae
+            rationali voluntate antecedente, sed voluntate consequente solum electis, quae est
+            voluntas simpliciter; et ideo solos electos diligit amore amicitiae, alia autem diligit
+            amore communiter dicto, inquantum sunt bona.</p>
+          <p xml:id="ta-l3d32q1-d1e230">Ad primum ergo dicendum, quod Deus omnia, idest creaturas irrationales, ex caritate
+            diligit, non sicut caritatem habens ad illa, sed sicut ordinans ea ad illa ad quae ille
+            caritatem habet.</p>
+          <p xml:id="ta-l3d32q1-d1e233">Ad secundum dicendum, quod quamvis nos non diligamus creaturas inanimatas amore
+            benevolentiae, quia eorum bonum non est a nobis; Deus tamen eas diligit amore
+            benevolentiae: quia per hoc quod eis bonum vult, sunt, et bonae sunt. Tamen Deus quamvis
+            non amet aliquid in concupiscendo sibi, amat tamen in concupiscendo alteri, ut non fiat
+            vis in verbo concupiscentiae, quae anxietatem, non proprietatem desiderii importat.</p>
+          <p xml:id="ta-l3d32q1-d1e236">Ad tertium dicendum, quod dilectio amicitiae est illa quae electionem causat; et hanc
+            non habet ad omnia.</p>
+          <p xml:id="ta-l3d32q1-d1e239">Ad quartum dicendum, quod Deus omnibus creaturis irrationalibus vult bonum eis
+            proportionatum, et cujus sunt capaces; et ideo simpliciter loquendo potest dici quod
+            Deus eas diligat. Sed reprobis voluntate consequente, secundum quam simpliciter dicitur
+            aliquid velle, vult quidem bonum naturae, non autem bonum cujus sunt capaces, scilicet
+            gratiae et gloriae, nisi voluntate antecedente: et ideo non est dicendum quod diligat
+            Deus eos simpliciter, sed secundum quid, scilicet inquantum sunt creaturae.</p>
+          <p xml:id="ta-l3d32q1-d1e242">Ad quintum dicendum, quod non odit reprobos inquantum creaturae sunt, sed inquantum
+            mali sunt, quod ab ipso non est.</p>
+        </div>
+        <div xml:id="ta-l3d32q1-Dd1e246" type="articulus">
+          <head xml:id="ta-l3d32q1-Hd1e248">Articulus 3</head>
+
+          <head xml:id="ta-l3d32q1-Hd1e251" type="questionTitle">Utrum Deus ab aeterno dilexerit creaturas</head>
+
+          <p xml:id="ta-l3d32q1-d1e254">Ad tertium sic proceditur. Videtur quod Deus ab aeterno non dilexerit creaturas.
+            Dilectio enim non est nisi boni. Sed creaturae non fuerunt bonae ab aeterno. Ergo non
+            diligit eas ab aeterno.</p>
+          <p xml:id="ta-l3d32q1-d1e257">Praeterea, dilectio significat divinam essentiam, et connotat effectum in creatura. Sed
+            ea quae important effectum in creatura, dicuntur de Deo ex tempore, sicut dominus, et
+            salvator, et hujusmodi. Ergo et diligere creaturas non dicitur de Deo nisi ex
+            tempore.</p>
+          <p xml:id="ta-l3d32q1-d1e260">Praeterea, dilectio unit amantem amato. Sed res non potuerunt conjungi vel uniri Deo
+            antequam essent. Ergo non poterant amari ab eo ab aeterno.</p>
+          <p xml:id="ta-l3d32q1-d1e264">Praeterea, eorum quae similiter se habent, est una ratio amoris. Sed creaturae antequam
+            essent, in nullo distinguebantur. Ergo non erat in uno quare diligeretur magis quam in
+            alio; et ita ab aeterno non dilexit electos, nisi forte sicut alia.</p>
+          <p xml:id="ta-l3d32q1-d1e267">Praeterea, amans vult esse amatum. Sed Deus non volebat esse creaturas antequam essent:
+            quia si voluisset eas esse, fuissent. Ergo non amabat eas antequam essent.</p>
+          <p xml:id="ta-l3d32q1-d1e270">Sed contra, Ephes. 1: <quote xml:id="ta-l3d32q1-Qd1e272">elegit nos ante mundi constitutionem</quote>. Sed electio
+            est ex dilectione. Ergo etiam ab aeterno dilexit creaturas.</p>
+          <p xml:id="ta-l3d32q1-d1e276">Praeterea, Dionysius dicit, quod divinus amor fuit causa quare res fecit. Ergo amor
+            rerum fuit in Deo antequam res essent, et ita ab aeterno.</p>
+          <p xml:id="ta-l3d32q1-d1e279">Praeterea, affectus boni sequitur cognitionem de bono. Sed Deus ab aeterno cognovit
+            quidquid boni est in creaturis. Ergo ab aeterno dilexit creaturas.</p>
+          <p xml:id="ta-l3d32q1-d1e282">Respondeo dicendum, quod illa sola nomina ex tempore de Deo dici possunt quae in
+            principali significato important aliquid quod in Deo secundum rem non est: sicut ea quae
+            important relationem Dei ad creaturam in principali significato, ut dominus, et
+            hujusmodi: quae quidem relatio secundum rem est in creatura, sed in Deo est secundum
+            rationem tantum: similiter ea quae important in principali significato actionem divinam
+            terminatam ad aliquid extra se, sicut causare, et hujusmodi. Amor autem non importat in
+            principali significato relationem, sed operationem voluntatis; cujus operationes, sicut
+            et operationes intellectus proximae, et ab eis elicitae, in operante manent, et non
+            transeunt ad constituendum aliquid in exteriori materia. Et ideo amor Deo ab aeterno
+            convenit.</p>
+          <p xml:id="ta-l3d32q1-d1e286">Ad primum igitur dicendum, quod quamvis creaturae ab aeterno non fuerint bonae in
+            propria natura, fuerunt tamen bonae in Dei praescientia.</p>
+          <p xml:id="ta-l3d32q1-d1e289">Ad secundum dicendum, quod non connotat effectum in actu, sed in habitu; et hoc est,
+            quia operationes animae non terminantur ad aliquid extra operantem; unde possunt extendi
+            etiam ad id quod non est in actu.</p>
+          <p xml:id="ta-l3d32q1-d1e292">Ad tertium dicendum, quod amor non unit secundum rem semper, sed est unio affectus:
+            quae quidem unio potest haberi etiam ad illud quod est absens, aut penitus non
+            existens.</p>
+          <p xml:id="ta-l3d32q1-d1e295">Ad quartum dicendum, quod quamvis non differrent secundum id quod non erant in propria
+            natura, differentiam tamen habebant in Dei praescientia, secundum quod eorum
+            diversitates futuras praesciebat.</p>
+          <p xml:id="ta-l3d32q1-d1e298">Ad quintum dicendum, quod Deus volebat ab aeterno creaturas esse, sed non eas esse ab
+            aeterno, sed secundum ordinem suae sapientiae.</p>
+        </div>
+        <div xml:id="ta-l3d32q1-Dd1e303" type="articulus">
+          <head xml:id="ta-l3d32q1-Hd1e305">Articulus 4</head>
+
+          <head xml:id="ta-l3d32q1-Hd1e308" type="questionTitle">Utrum Deus omnia aequaliter diligat</head>
+
+          <p xml:id="ta-l3d32q1-d1e311">Ad quartum sic proceditur. Videtur quod Deus omnia aequaliter diligat. Quia
+            providentia, ut dicit Dionysius, est effectus amoris. Sed <quote xml:id="ta-l3d32q1-Qd1e313">aequaliter est illi
+              cura de omnibus</quote>. Sap. 6. Ergo omnia aequaliter diligit.</p>
+          <p xml:id="ta-l3d32q1-d1e317">Praeterea, dilectio Dei ad creaturas significat habitudinem ipsius ad creaturas. Sed
+            Deus aequaliter se habet ad omnia, ut dicit philosophus, quamvis omnia inaequaliter se
+            habeant ad ipsum. Ergo ipse aequaliter omnia diligit.</p>
+          <p xml:id="ta-l3d32q1-d1e320">Praeterea, sicut diligit omnia, ita cognoscit omnia. Sed aequaliter cognoscit omnia.
+            Ergo aequaliter omnia diligit.</p>
+          <p xml:id="ta-l3d32q1-d1e324">Praeterea, idem actus non potest esse intensior et remissior, nisi secundum diversas
+            sui partes. Sed eodem actu simplici diligit omnia. Ergo non diligit unum plus
+            altero.</p>
+          <p xml:id="ta-l3d32q1-d1e327">Praeterea, qua ratione diligit unum plus altero, eadem ratione diligit aliquem
+            quandoque plus quandoque minus: quia sicut una res est melior altera, ita idem secundum
+            diversa tempora est melius seipso. Sed Deus non diligit aliquem quandoque plus quandoque
+            minus: quia sic amor suus esset mutabilis, quod est impossibile. Ergo non diligit unum
+            plus altero.</p>
+          <p xml:id="ta-l3d32q1-d1e330">Sed contra, Prov. 16, 4: <quote xml:id="ta-l3d32q1-Qd1e332">universa propter seipsum operatus est dominus</quote>;
+            et similiter etiam dicitur quod omnia fecit propter hominem. Sed illud propter quod
+            aliquid fit, plus diligitur. Ergo Deus magis diligit se quam alia, et inter alia magis
+            amat unum quam aliud.</p>
+          <p xml:id="ta-l3d32q1-d1e336">Praeterea, caritas est boni inquantum bonum. Ergo magis bonum magis amat.</p>
+          <p xml:id="ta-l3d32q1-d1e339">Praeterea, ordo caritatis est de perfectione ipsius. Sed caritas Dei perfectissima est.
+            Ergo secundum ordinem diligit unum plus alio.</p>
+          <p xml:id="ta-l3d32q1-d1e342">Respondeo dicendum, quod amor dupliciter mensuratur. Uno modo ex suo principio; et sic
+            dicitur magis amari illud ad quod amandum efficacius voluntas inclinatur; et sic Deus
+            aequaliter omnia diligit: quia in dilectione sua respectu cujuslibet rei habet infinitam
+            efficaciam in diligendo. Alio modo ex parte objecti, secundum quod dicitur aliquis magis
+            diligere illud cui vult majus bonum; et sic Deus dicitur magis diligere unum quam aliud
+            inquantum vult ei majus bonum: et ex hoc etiam habet majorem effectum in illo, quia
+            voluntas ejus est causa rerum.</p>
+          <p xml:id="ta-l3d32q1-d1e346">Ad primum ergo dicendum, quod aequaliter est ei cura de omnibus ex parte solicitudinis
+            ipsius, sed non ex parte eorum quae eis providentur.</p>
+          <p xml:id="ta-l3d32q1-d1e349">Ad secundum dicendum, quod dilectio non tantum importat id quod est ex parte Dei, sed
+            etiam id quod est ex parte creaturae; cujusmodi bonum, prout est a Deo volitum, in
+            dilectione Dei includitur. Et quia creaturae non se habent aequaliter ad Deum, nec
+            possunt aequaliter bonitatem ejus participare, ideo non aequaliter omnia diligit.</p>
+          <p xml:id="ta-l3d32q1-d1e352">Ad tertium dicendum, quod cognitio est secundum motum rei ad animam, amor autem
+            secundum motum animae ad res; et ideo cognitio mensuratur tantum ex parte cognoscentis,
+            sed amor est ex parte utriusque. Non enim dicitur magis cognoscere, quia majorem rem
+            inesse alicui cognoscit, sicut dicitur magis diligere cui majus bonum inesse vult. Unde
+            non est simile de dilectione et cognitione.</p>
+          <p xml:id="ta-l3d32q1-d1e355">Ad quartum dicendum, quod non dicitur magis diligere quia intensius diligit, sed quia
+            majus bonum vult.</p>
+          <p xml:id="ta-l3d32q1-d1e358">Ad quintum dicendum, quod quantum ad effectum dilectionis semper eumdem aequaliter
+            diligit: quia semper vult ei idem bonum finaliter, quamvis non velit quod semper habeat
+            aequale bonum vel idem; et ideo secundum effectum non est aequalis.</p>
+        </div>
+        <div xml:id="ta-l3d32q1-Dd1e362" type="articulus">
+          <head xml:id="ta-l3d32q1-Hd1e364">Articulus 5</head>
+
+          <head xml:id="ta-l3d32q1-Hd1e367" type="questionTitle">Utrum Deus plus diligat justum praescitum, quam peccatorem
+            praedestinatum</head>
+          <div xml:id="ta-l3d32q1-Dd1e370">
+            <head xml:id="ta-l3d32q1-Hd1e372">Quaestiuncula 1</head>
+            <p xml:id="ta-l3d32q1-d1e375">Ad quintum sic proceditur. Videtur quod Deus diligat plus justum praescitum quam
+              peccatorem praedestinatum. Proverb. 8, 17: <quote xml:id="ta-l3d32q1-Qd1e377">ego diligentes me diligo</quote>.
+              Sed iste peccator praedestinatus non amat Deum, quem amat justus praescitus. Ergo plus
+              diligit justum praescitum quam peccatorem praedestinatum.</p>
+            <p xml:id="ta-l3d32q1-d1e381">Praeterea, magis bonum Deus magis diligit. Sed iste justus est magis bonum quam ille
+              peccator. Ergo magis a Deo diligitur.</p>
+            <p xml:id="ta-l3d32q1-d1e384">Praeterea, in littera dicitur, quod magis diligit membra unigeniti sui quam alios.
+              Sed peccator praedestinatus non est membrum Christi. Ergo minus a Deo diligitur quam
+              justus praescitus qui est membrum Christi.</p>
+            <p xml:id="ta-l3d32q1-d1e387">Sed contra, dilectio causa est electionis. Sed peccatorem praedestinatum Deus elegit.
+              Ergo magis diligit eum quam justum praescitum, quem non elegit.</p>
+            <p xml:id="ta-l3d32q1-d1e391">Praeterea, illud magis diligit cui majus bonum vult. Sed peccatori praedestinato vult
+              majus bonum, quia vitam aeternam. Ergo magis eum diligit.</p>
+          </div>
+          <div xml:id="ta-l3d32q1-Dd1e395">
+            <head xml:id="ta-l3d32q1-Hd1e397">Quaestiuncula 2</head>
+            <p xml:id="ta-l3d32q1-d1e400">Ulterius. Videtur quod magis diligat poenitentem quam innocentem: quia gaudium ex
+              amore consequitur. Sed plus gaudet de poenitente, ut patet Luc. 15. Ergo plus eum
+              amat.</p>
+            <p xml:id="ta-l3d32q1-d1e403">Praeterea, ubi homo magis operatur, magis diligit: propter quod, ut philosophus dicit
+              9 Ethic., matres plus diligunt filios quam patres. Sed Deus plus operatur ad salutem
+              poenitentis quam innocentis. Ergo plus eum amat.</p>
+            <p xml:id="ta-l3d32q1-d1e406">Praeterea, affectus amoris ex effectu pensatur. Sed major amoris effectus videtur
+              revocare inimicum ad amicitiam, quam amicum in amicitia conservare. Ergo plus diligit
+              poenitentem quam innocentem.</p>
+            <p xml:id="ta-l3d32q1-d1e409">Sed contra, quod est diuturnius, est magis eligendum et diligendum. Sed bonum
+              innocentis est diuturnius. Ergo magis diligitur a Deo.</p>
+            <p xml:id="ta-l3d32q1-d1e413">Praeterea, supra dictum est, dist. 31, qu. 1, art. 10, quod resurgens nunquam redit
+              ad tantam dignitatem, quamvis redire possit ad tantam caritatem. Ergo Deus plus
+              diligit innocentem quam poenitentem.</p>
+          </div>
+          <div xml:id="ta-l3d32q1-Dd1e417">
+            <head xml:id="ta-l3d32q1-Hd1e419">Quaestiuncula 3</head>
+            <p xml:id="ta-l3d32q1-d1e422">Ulterius. Videtur quod diligat plus hominem quam Angelum. Quia <quote xml:id="ta-l3d32q1-Qd1e424">nusquam Angelos
+                apprehendit, sed semen Abrahae apprehendit</quote>; Hebr. 2, 16; et sic plus fecit
+              pro hominibus quam pro Angelis. Ergo magis diligit eos.</p>
+            <p xml:id="ta-l3d32q1-d1e428">Praeterea, homines pluribus modis sunt membra Christi quam Angeli, scilicet quantum
+              ad conformitatem naturae. Sed membra Christi magis diligit, ut in littera dicitur.
+              Ergo homines plus diligit quam Angelos.</p>
+            <p xml:id="ta-l3d32q1-d1e431">Praeterea, homines supra Angelos collocavit, scilicet Christum, et beatam virginem.
+              Ergo plus homines Angelis diligit.</p>
+            <p xml:id="ta-l3d32q1-d1e434">Sed contra, dilectio causatur ex convenientia amantis cum amato. Sed Angeli sunt
+              similiores Deo, ut dicit Gregorius Lib. 32 Moral. Ergo Angelos plus diligit.</p>
+            <p xml:id="ta-l3d32q1-d1e438">Praeterea, Angelis in principio gratiam vel quasi gloriam contulit; non autem
+              hominibus. Ergo Angelos magis hominibus diligit.</p>
+          </div>
+          <div xml:id="ta-l3d32q1-Dd1e443">
+            <head xml:id="ta-l3d32q1-Hd1e445">Quaestiuncula 4</head>
+            <p xml:id="ta-l3d32q1-d1e448">Ulterius. Videtur quod magis diligat humanum genus quam Christum: quia ipsum pro
+              redemptione humani generis dedit, ut patet Joan. 3.</p>
+            <p xml:id="ta-l3d32q1-d1e451">Praeterea, bonum commune est divinius quam bonum unius. Sed bonum humani generis est
+              bonum commune, bonum autem Christi est bonum unius singularis personae. Ergo plus
+              diligit humanum genus quam Christum.</p>
+            <p xml:id="ta-l3d32q1-d1e454">Sed contra, per Christum totum genus humanum fit Deo acceptum. Ergo Christum magis
+              diligit.</p>
+            <p xml:id="ta-l3d32q1-d1e457">Praeterea, datus est ei spiritus non ad mensuram; Joan. 3. Ergo plus eum diligit.</p>
+          </div>
+          <div xml:id="ta-l3d32q1-Dd1e461">
+            <head xml:id="ta-l3d32q1-Hd1e463">Quaestiuncula 1</head>
+            <p xml:id="ta-l3d32q1-d1e466">Respondeo dicendum ad primam quaestionem, quod Deus, simpliciter loquendo, majus
+              bonum vult peccatori praedestinato quam justo praescito; sed ut nunc vult justo
+              praescito. Haec autem determinatio ut nunc non cadit ex parte dilectionis, sed magis
+              ex parte objecti: quia dilectio Dei non variatur per tempora: ab aeterno enim isti
+              praedestinato voluit majus bonum. Unde simpliciter concedendum est, quod magis diligit
+              praedestinatum quam praescitum.</p>
+            <p xml:id="ta-l3d32q1-d1e469">Et per hoc patet responsio ad objecta, quia procedunt ut nunc.</p>
+          </div>
+          <div xml:id="ta-l3d32q1-Dd1e473">
+            <head xml:id="ta-l3d32q1-Hd1e475">Quaestiuncula 2</head>
+            <p xml:id="ta-l3d32q1-d1e478">Ad secundam quaestionem dicendum, quod quantum ad bonum praemii essentialis
+              aequaliter diligit poenitentem et innocentem, si aequalem habeant caritatem, vel illum
+              magis qui majorem caritatem habet; sed quantum ad praemium accidentale plus diligit
+              innocentem propter dignitatem innocentiae, ad quam non potest pervenire poenitens.</p>
+            <p xml:id="ta-l3d32q1-d1e481">Ad primum ergo dicendum, quod quamvis poenitens resurgat in aequali caritate, et ita
+              bonum quod sibi vult Deus, sit aequale consideratum in se, est tamen majus in
+              comparatione ad ipsum cui datur: sicut quanto aliquis est magis indigens, magis sibi
+              impensum reputatur beneficium; et propter hoc dicitur Deus et Angeli plus gaudere de
+              conversione ejus; sicut homo plus gaudet de modico signo sanitatis alicujus
+              infirmantis quam de integra sanitate, dum eam habebat. Vel dicendum, quod hoc dicitur
+              ex hoc quod poenitens frequenter magis humilis et fervens et cautus resurgit.</p>
+            <p xml:id="ta-l3d32q1-d1e484">Ad secundum dicendum, quod Deus non magis operatur in eo cui de novo infundit
+              gratiam, quam in eo in quo eam continuat: sicut nec sol illuminans aerem tenebrosum
+              plus quam continuans lumen: nihil enim potest subsistere, nisi Dei operatio
+              continuetur in ipso.</p>
+            <p xml:id="ta-l3d32q1-d1e487">Ad tertium dicendum, quod quamvis sit majus respectu illius qui liberatur, non tamen
+              est majus simpliciter.</p>
+          </div>
+          <div xml:id="ta-l3d32q1-Dd1e491">
+            <head xml:id="ta-l3d32q1-Hd1e493">Quaestiuncula 3</head>
+            <p xml:id="ta-l3d32q1-d1e496">Ad tertiam quaestionem dicendum, quod quantum ad bonum naturae plus diligit Deus
+              Angelum quam hominem; sed quantum ad bonum gloriae se habent ut excedentia et excessa:
+              quia quosdam homines plus, et quosdam Angelos plus, et quosdam aequaliter: quia
+              homines erunt aequales Angelis, et quidam etiam superiores Angelis; et unicuique
+              providit secundum exigentiam naturae et status sui.</p>
+            <p xml:id="ta-l3d32q1-d1e499">Et per hoc patet responsio ad objecta. Non enim plus diligit pater filium infirmum
+              quam sanum, quia ei impendit remedia quae non impendit sano.</p>
+          </div>
+          <div xml:id="ta-l3d32q1-Dd1e503">
+            <head xml:id="ta-l3d32q1-Hd1e505">Quaestiuncula 4</head>
+            <p xml:id="ta-l3d32q1-d1e508">Ad quartam quaestionem dicendum, quod Christum diligit non solum plus quam homines,
+              sed etiam plus quam totam creaturam, non solum quantum ad divinam naturam, sed etiam
+              quantum ad humanam, inquantum eam praedestinavit ad majus bonum, scilicet ad unionem
+              divinae personae.</p>
+            <p xml:id="ta-l3d32q1-d1e511">Ad primum ergo dicendum, quod in hoc etiam quod Christus pro hominibus fuit datus,
+              maximum bonum ipsi Christo fuit, secundum quod in hoc virtus sua manifesta fuit, et
+              causa fuit salutis humanae, quod est sibi valde honorificum.</p>
+            <p xml:id="ta-l3d32q1-d1e514">Ad secundum dicendum, quod quamvis sit singularis persona Christi, tamen est causa
+              universalis salutis humani generis: et causa praestantior est causato.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l3d32q1-Dd1e519">
+          <head xml:id="ta-l3d32q1-Hd1e521">Expositio textus</head>
+          <p xml:id="ta-l3d32q1-d1e524"><quote xml:id="ta-l3d32q1-Qd1e525">Praemissis adjiciendum est de dilectione Dei qua ipse diligit nos</quote>.
+            Videtur quod hoc in primo libro determinare debuerit. Et dicendum, quod etiam in primo
+            libro poni convenienter potuit, inquantum divina dilectio est divina essentia; et hic
+            poni congruenter potest, inquantum est exemplar nostrae dilectionis. <quote xml:id="ta-l3d32q1-Qd1e528">Dilectio Dei
+              usia est</quote>. Est enim essentia et dilectio in Deo idem re, sed differt ratione
+            tantum, ut in primo libro dictum est.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

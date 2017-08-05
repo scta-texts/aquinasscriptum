@@ -1,0 +1,718 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 19, Quaestio 2</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Librum IV, Distinctio 19, Quaestio 2</title>
+          <date when="2016-03-19">March 19, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-19">March 19, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness>1856 editum</witness>
+          <witness xml:id="G" n="ghent567">Ghent, Belgium, Ghent University Library, 567</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="0.0.0-dev">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+
+
+
+
+      <div xml:id="starts-on">
+        <cb ed="#G" n="353a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ta-l4d19q2">
+        <head xml:id="ta-l4d19q2-Hd1e97">Librum IV, Distinctio 19, Quaestio 2</head>
+        <div xml:id="ta-l4d19q2-Dd1e100">
+          <head xml:id="ta-l4d19q2-Hd1e102">Prooemium</head>
+          <p xml:id="ta-l4d19q2-d1e105">Deinde quaeritur de correptione fraterna; et circa hoc quaeruntur tria: 1 quid sit; 2
+            cujus sit; 3 de modo et ordine ipsius.</p>
+        </div>
+        <div xml:id="ta-l4d19q2-Dd1e109" type="articulus">
+          <head xml:id="ta-l4d19q2-Hd1e111">Articulus 1</head>
+
+          <head xml:id="ta-l4d19q2-Hd1e114" type="questionTitle">Utrum male assignetur quaedam definitio de correptione
+            fraterna</head>
+
+          <p xml:id="ta-l4d19q2-d1e117">Ad primum sic proceditur. Videtur quod male assignetur quaedam definitio de correptione
+            fraterna: <quote xml:id="ta-l4d19q2-Qd1e119">correptio fraterna est admonitio fratris de emendatione delictorum
+              fraterna caritate</quote>. Admonere enim videtur esse idem quod ad mentem reducere; et
+            sic non est nisi oblitorum. Sed correptio fraterna non est tantum de peccatis oblitis.
+            Ergo male ponitur in definitione ejus <quote xml:id="ta-l4d19q2-Qd1e122">admonitio</quote>.</p>
+          <p xml:id="ta-l4d19q2-d1e126">Praeterea, correptio quamdam violentiam sonat; quia idem videtur esse corripere quod
+            simul rapere. Ergo cum admonitio in quamdam lenitatem sonet, videtur quod correptio non
+            sit admonitio.</p>
+          <p xml:id="ta-l4d19q2-d1e129">Praeterea, ejus videtur esse correptio cujus est corrigere. Sed hoc est solius Dei; cum
+            corrigere dicatur simul regere, quod solius Dei est, ut patet Prov. 16, 1 et 9:
+              <quote xml:id="ta-l4d19q2-Qd1e131">hominis est praeparare animam (...) et Dei est dirigere gressus suos</quote>.
+            Ergo non debuit dicere, quod sit <quote xml:id="ta-l4d19q2-Qd1e134">fratris</quote>.</p>
+          <p xml:id="ta-l4d19q2-d1e139">Praeterea, admonitio videtur pertinere ad aliquid faciendum vel evitandum. Sed
+            emendatio delictorum pertinet ad aliquid factum jam, vel omissum. Ergo videtur quod
+            correptio non possit esse <quote xml:id="ta-l4d19q2-Qd1e141">de emendatione admonitio</quote>.</p>
+          <p xml:id="ta-l4d19q2-d1e145">Praeterea, quae graviora sunt, magis indigent emendatione. Sed transgressiones sunt
+            graviores omissionibus, in genere loquendo. Cum ergo nomine delicti importetur omissio,
+            nomine autem peccati transgressio, ut in 2 Lib., distin. 42, dictum est, videtur quod
+            magis debeat dici de emendatione peccatorum quam delictorum.</p>
+          <p xml:id="ta-l4d19q2-d1e148">Praeterea, fraterna correptio videtur esse opus justitiae, ut patet secundum Glossam
+            Rabani Matth. 18, super illud: <quote xml:id="ta-l4d19q2-Qd1e150">si peccaverit in te</quote> etc.: dicit enim:
+              <quote xml:id="ta-l4d19q2-Qd1e153">peccantem zelo justitiae corrigamus, et poenitenti viscera misericordiae
+              pandamus</quote>. Ergo deberet dicere: ex justitia procedens, magis quam ex
+            caritate.</p>
+          <p xml:id="ta-l4d19q2-d1e157">Respondeo dicendum: ad hoc quod homo recte gradiatur in via salutis, tria sunt ei
+            impendenda ab eo qui ipsius curam gerit. Primo ut in finem rectum ordinetur; et quantum
+            ad hoc dicitur superior inferiorem sibi commissum dirigere. Secundo ut ei cautelam
+            adhibeat, ne a via ad finem ducente discedat; et quantum ad hoc dicitur eum regere.
+            Tertio ut si contingat eum discedere, quod ad viam rectam reducat; et quantum ad hoc
+            dicitur ipsum corrigere: quandoque quidem ut rectitudo justitiae fiat ab eo, quando
+            scilicet ille qui deliquerat, emendatur, ex cura sibi impensa; quandoque autem ut
+            rectitudo justitiae de eo fiat per poenas inflictas, etiam si ille non corrigatur ex
+            parte sua. Sed aliquis a via rectitudinis discedens, dupliciter potest ad viam
+            rectitudinis reduci, secundum philosophum in 10 Eth. Uno modo per timorem turpis, aut
+            odium ipsius; ut cum quis turpitudinem peccati abominatur, et confusionem exinde
+            consequentem. Alio modo per timorem et odium tristis; sicut cum quis propter poenas
+            illatas pro peccatis, vel quas timet inferri, resilit a peccato. Et quia iste secundus
+            modus est cum quadam violentia, ideo correctio dicitur, quasi usque ad rectitudinem
+            perducens. Sed primus modus proprie dicitur correptio. Illa enim rapi dicuntur quae
+            subito auferuntur; unde etiam syllaba corripi dicitur, quae raptim et quasi subito
+            pronuntiatur. Et propter hoc quando homo ex hoc solum quod ei turpitudo peccati
+            ostenditur, et ad meliora quis eum hortatur, ipse per se ad viam rectitudinis
+            revertitur, corrigi dicitur. Ex quo patet quod secundus modus solis praelatis competit,
+            quorum verba vim coactivam habent per inflictionem poenarum; sed primus modus
+            praelationis ordinem non requirit: quamvis etiam praelationis ordo ipsum requirat: quia
+            secundus modus adhiberi non debet, nisi ubi primus locum non habet, etiam a praelatis.
+            Et ideo correptio, quando praeter ordinem praelationis fit, vocatur fraterna, quae in
+            praedicta assignatione notificatur per tria, quae ibi ponuntur: scilicet actus ipse, cum
+            dicit: <quote xml:id="ta-l4d19q2-Qd1e159">admonitio fratris</quote>: finis cum dicit: <quote xml:id="ta-l4d19q2-Qd1e162">de emendatione
+              delictorum</quote>: principium cum dicit: <quote xml:id="ta-l4d19q2-Qd1e165">fraterna caritate
+            procedens</quote>.</p>
+          <p xml:id="ta-l4d19q2-d1e169">Ad primum ergo dicendum, quod aliquis potest reduci ad mentem suam dupliciter. Uno modo
+            quantum ad cognitionem speculativam; alio modo quantum ad cognitionem practicam, quae
+            per ignorantiam electionis intercipitur: et sic dupliciter aliquis ad mentem reducitur.
+            Uno modo cum coactione quadam: vel factis, sicut cum quis punitur; vel verbis habentibus
+            vim coactivam, sicut cum aliquid alicui praecipitur: et hoc ad corrigendum pertinet.
+            Alio modo per verba tantum quae vim coactivam non habent; et talia verba admonitoria
+            dicuntur; et ideo, cum hic modus ad corripientem pertineat, correptio nihil est aliud
+            quam admonitio; et ejusdem potentiae actus est admonitio cujus est imperium.</p>
+          <p xml:id="ta-l4d19q2-d1e172">Ad secundum dicendum, quod corripere dicitur a rapiendo quantum ad hoc quod statim et
+            subito rapina exercetur; non autem inquantum rapina habet aliquam violentiam, nisi
+            quantum ad hoc quod corripiens a sua voluntate qua peccavit, avertere peccantem nititur;
+            et sic aliquid est ibi simile violentiae, secundum quod id quod est contrarium
+            voluntati, violentum dicitur.</p>
+          <p xml:id="ta-l4d19q2-d1e176">Ad tertium dicendum, quod jam ex dictis patet quod alicujus potest esse corripere cujus
+            non est corrigere; sed omnis cujus est corrigere, etiam est dirigere, si quidem dirigere
+            importet solum ordinationem alicujus in finem; si autem importet perductionem ad finem,
+            sic solius Dei est; quia ejus solius est impedimenta auferre, ut aliquis ad finem non
+            impeditus perveniat.</p>
+          <p xml:id="ta-l4d19q2-d1e179">Ad quartum dicendum, quod de peccato praeterito potest esse aliquis actus praesens vel
+            futurus: et ideo quamvis emendatio sit de peccato praeterito, non tamen ipsa admonitio
+            aliquando potest esse facienda ad hoc; et ideo de ipsa emendatione potest esse
+            admonitio, ut dicatur emendatio reversio peccatoris ad statum rectae operationis, quae
+            est correptionis finis.</p>
+          <p xml:id="ta-l4d19q2-d1e182">Ad quintum dicendum, quod nullus movetur ex odio vel timore turpis, nisi ille cui jam
+            inest aliqualiter voluntas pulchri et boni; et ideo, cum correptio procedat ex hac via,
+            ut dictum est, proprie illi competit ut corripiatur qui habet propositum boni, a quo
+            tamen vel propter ignorantiam vel propter aliquam desidiam avertitur; et ideo magis
+            proprie respicit omissionem, quae etiam in ipsa transgressione considerari potest, quam
+            transgressionis perversitatem; et propter hoc convenientius dicitur delictorum quam
+            peccatorum.</p>
+          <p xml:id="ta-l4d19q2-d1e185">Ad sextum dicendum, quod in hoc quod aliquis peccat, laeditur justitia, et laeditur
+            peccans; et, secundum hoc, ille qui peccantem arguit, ad duo potest attendere; scilicet
+            ad laesionem justitiae (sed hoc proprie est ejus cui commissa est custodia justitiae,
+            quae est commune bonum, scilicet praelati, qui est persona publica); et iterum ad
+            laesionem peccantis; et hoc est proprie ejus cui competit defectibus ejus subvenire. Et
+            quia hoc est proprium amicitiae, quae, secundum philosophum in 9 Ethic., magis subvenire
+            facit amico in damnis virtutum quam in damnis exteriorum rerum; ideo directe pertinet ad
+            caritatem: unde quamvis correctio sit actus justitiae, tamen correptio est actus
+            caritatis, sive misericordiae. Quia tamen bonum privatum debet ad bonum publicum
+            ordinari sicut ad finem, ideo etiam corripiens ex caritate ad laesionem justitiae aliquo
+            modo respicit; et secundum hoc intelligenda est Glossa inducta.</p>
+        </div>
+        <div xml:id="ta-l4d19q2-Dd1e189" type="articulus">
+          <head xml:id="ta-l4d19q2-Hd1e191">Articulus 2</head>
+
+          <head xml:id="ta-l4d19q2-Hd1e194" type="questionTitle">Utrum quilibet ex praecepto ad correptionem fraternam
+            teneatur</head>
+
+          <div xml:id="ta-l4d19q2-Dd1e197">
+            <head xml:id="ta-l4d19q2-Hd1e199">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d19q2-d1e202">Ad secundum sic proceditur. Videtur quod non quilibet ex praecepto ad correptionem
+              fraternam teneatur. Dicit enim Hieronymus: <quote xml:id="ta-l4d19q2-Qd1e204">sacerdotes studeant illud
+                evangelicum implere: si peccaverit in te frater tuus</quote> et cetera. Ergo videtur
+              quod soli sacerdotes ad hoc teneantur.</p>
+            <p xml:id="ta-l4d19q2-d1e208">Praeterea, quicumque aliquem corripit, curam illius gerit. Sed soli praelati tenentur
+              ex praecepto curam de subditis habere. Ergo soli ipsi tenentur ex praecepto ad
+              corripiendum.</p>
+            <p xml:id="ta-l4d19q2-d1e211">Praeterea, ad praecepta obligatur aliquis semper; ad consilia autem, non nisi in
+              aliquo casu speciali. Sed ad corripiendum non obligatur aliquis nisi in casu
+              necessitatis; alias oporteret hominem omnia negotia sua dimittere, et correptioni
+              insistere, cum quotidie corripiendi occurrant. Ergo correptio fraterna non cadit sub
+              praecepto, sed sub consilio.</p>
+            <p xml:id="ta-l4d19q2-d1e214">Praeterea, homo propter votum religionis non absolvitur a praeceptis Dei. Si ergo
+              homo quilibet ex praecepto teneretur fratrem corripere, videtur quod religiosi
+              deberent de claustro suo exire ad corripiendum saeculares delinquentes; quod falsum
+              est, quia sic religionis observantia periret.</p>
+            <p xml:id="ta-l4d19q2-d1e218">Praeterea, homo non debet excitare sibi odium proximi; quia Gregorius dicit:
+                <quote xml:id="ta-l4d19q2-Qd1e220">non est timendum ne is qui arguitur contumelias inferat; sed timendum ne
+                tractus ad odium deterior fiat</quote>. Sed frequenter ex correptione odium
+              generatur, quia veritas odium parit. Ergo non tenetur homo ad corripiendum.</p>
+            <p xml:id="ta-l4d19q2-d1e224">Praeterea, ibi debet homo corripere ubi habet arbitrium; sicut dicit Glossa, super
+              illud: <quote xml:id="ta-l4d19q2-Qd1e226">si peccaverit in te</quote> etc.: <quote xml:id="ta-l4d19q2-Qd1e229">si enim in Deum peccavit, non
+                est nostri arbitrii</quote>. Cum ergo omne peccatum sit in Deum, non possumus de
+              peccato corripere.</p>
+            <p xml:id="ta-l4d19q2-d1e233">Sed contra, super illud Matth. 18: <quote xml:id="ta-l4d19q2-Qd1e235">si peccaverit in te</quote> etc., dicit
+              Glossa: <quote xml:id="ta-l4d19q2-Qd1e238">ita peccat qui fratrem suum peccare videt, et tacet, sicut qui
+                poenitenti non indulget</quote>. Sed ad indulgendum peccanti omnes ex praecepto
+              caritatis tenentur. Ergo et ad corripiendum delinquentes.</p>
+            <p xml:id="ta-l4d19q2-d1e242">Praeterea, eleemosynae spirituales sunt magis necessariae quam corporales. Sed
+              eleemosyna corporalis est sub praecepto; ut supra, dist. 15, qu. 1, art. 1,
+              quaestiunc. 4, dictum est. Ergo et correptio peccantium, cum sit spiritualis
+              eleemosyna, ut ibi dictum est.</p>
+
+          </div>
+          <div xml:id="ta-l4d19q2-Dd1e246">
+            <head xml:id="ta-l4d19q2-Hd1e248">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d19q2-d1e251">Ulterius. Videtur quod peccator corripiens non peccet. 1 Joan. 1, 8: <quote xml:id="ta-l4d19q2-Qd1e253">si
+                dixerimus quod peccatum non habemus, nos ipsos seducimus</quote>. Si ergo peccatoris
+              non est corripere, nullus poterit alterum corripere.</p>
+            <p xml:id="ta-l4d19q2-d1e257">Praeterea, nullus propter peccatum excusatur ab observatione praecepti. Ergo peccator
+              tenetur ad corripiendum, cum sit in praecepto; et si non corripiat, peccat. Si ergo
+              peccando corriperet, esset perplexus; quod est inconveniens.</p>
+            <p xml:id="ta-l4d19q2-d1e260">Praeterea, eleemosyna corporalis est minus necessaria quam spiritualis. Sed peccator
+              dans eleemosynam corporalem, non peccat. Ergo nec corripiendo; cum correptio sit
+              spiritualis eleemosyna, ut dictum est.</p>
+            <p xml:id="ta-l4d19q2-d1e263">Praeterea, majus est docere sacram Scripturam quam aliquem singulariter admonere;
+              quia hoc cujuslibet est, sed non illud. Sed, ut quidam dicunt, docens sacram
+              Scripturam non peccat, quamvis in peccato existat. Ergo multo minus corripiens ex
+              caritate fratrem, peccat, quamvis ipse in peccato existat.</p>
+            <p xml:id="ta-l4d19q2-d1e267">Sed contra, quicumque aliquem corripit, quodammodo ipsum judicat. Sed qui judicat in
+              altero quod commisit, seipsum condemnat, ut patet Rom. 2. Ergo peccator corripiendo
+              alterum peccat.</p>
+            <p xml:id="ta-l4d19q2-d1e270">Praeterea, philosophus dicit in 10 Ethic., quod sermones qui sunt de moribus, cum
+              dissonant his quae videntur secundum sensum in eo qui eos dicit, contemnuntur, et
+              veritatem interimunt. Sed in peccatore qui corripit alterum de peccato, ea quae
+              videntur de ipso ad sensum, dissonant sermonibus. Ergo interimit, inquantum in se est,
+              veritatem. Sed hoc est peccatum. Ergo talis corripiendo peccat.</p>
+
+          </div>
+          <div xml:id="ta-l4d19q2-Dd1e274">
+            <head xml:id="ta-l4d19q2-Hd1e276">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d19q2-d1e279">Ulterius. Videtur quod aliquis non teneatur corripere praelatum suum. Galat. 2, super
+              illud: <quote xml:id="ta-l4d19q2-Qd1e281">in faciem ejus restitit</quote>, dicit Glossa, <quote xml:id="ta-l4d19q2-Qd1e284">tamquam
+                par</quote>. Ergo si par non fuisset, non potuisset eum corripere; et ita videtur
+              quod fraterna correptio non se extendat ad praelatos.</p>
+            <p xml:id="ta-l4d19q2-d1e288">Praeterea, Dionysius in epistolis suis, arguit Demophilum monachum de hoc quod
+              sacerdotem corripuerat, quia erat eo superior. Ergo fraterna correptio non se extendit
+              ad superiores.</p>
+            <p xml:id="ta-l4d19q2-d1e291">Praeterea, 2 regum 6, Oza legitur percussus a domino, quia arcam tetigit. Sed per
+              arcam significatur praelatus, per Ozam subditus. Ergo peccat subditus corripiendo
+              praelatum.</p>
+            <p xml:id="ta-l4d19q2-d1e294">Praeterea, Gregorius dicit in pastorali: <quote xml:id="ta-l4d19q2-Qd1e296">admonendi sunt subditi, ne
+                praepositorum suorum vitam temere judicent, si quid eos fortasse agere
+                reprehensibile vident</quote>. Ergo videtur quod sit temeritatis praelatum arguere
+              delinquentem.</p>
+            <p xml:id="ta-l4d19q2-d1e301">Praeterea, Gregorius dicit: <quote xml:id="ta-l4d19q2-Qd1e303">sanctorum vitam corrigere quis non praesumat, nisi
+                de se meliora sentiat</quote>. Sed hoc videtur esse praesumptuosum quod homo de se
+              sentiat meliora quam de praelato suo. Ergo non sunt corripiendi.</p>
+            <p xml:id="ta-l4d19q2-d1e307">Sed contra, correptio fraterna, cum sit spiritualis eleemosyna, opus misericordiae
+              est. Sed misericordia maxime praelato debetur, qui in maximo periculo constitutus est;
+              unde Augustinus dicit in regula: <quote xml:id="ta-l4d19q2-Qd1e309">non solum autem vestri, sed etiam
+                ipsius</quote>, scilicet praelati, <quote xml:id="ta-l4d19q2-Qd1e312">miseremini, qui inter vos quanto in loco
+                superiori, tanto in periculo majori versatur</quote>. Ergo correptio fraterna se
+              extendit etiam ad praelatos.</p>
+            <p xml:id="ta-l4d19q2-d1e316">Praeterea, Eccl. 17, 12, dicitur, quia <quote xml:id="ta-l4d19q2-Qd1e318">Deus mandavit unicuique de proximo
+                suo</quote>. Sed praelatus noster proximus est. Ergo eum corripere debemus si
+              delinquat.</p>
+          </div>
+          <div xml:id="ta-l4d19q2-Dd1e324">
+            <head xml:id="ta-l4d19q2-Hd1e326">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d19q2-d1e329">Respondeo dicendum ad primam quaestionem, quod per legis divinae praecepta homines
+              sufficienter in hac vita ordinantur. Sicut autem in exercitu, ut philosophus dicit in
+              11 Metaph., est duplex ordo; unus quo totus exercitus ad ducem ordinatur; alius quo
+              singuli de exercitu ordinantur ad invicem: ita et in conversatione hujus vitae, omnium
+              qui in aliqua communitate congregantur, est duplex ordo; unus ad praelatum, alius
+              singulorum ad invicem. Unde uterque ordo debet praecepto divinae legis institui. Ordo
+              autem praelati ad subditum consistit in hoc ut omnes subditi ad bonum commune, quod
+              praelatus intendere debet, intendant, et quod praelatus eos ad hoc dirigat. Ordo autem
+              singulorum ad invicem est ut unusquisque alteri auxilium praebeat ad bonum suum
+              consequendum; unde sicut praelatis ex praecepto incumbit ut subditorum curam gerant,
+              et subditis ut praelatis obediant; ita et coaequalibus ad invicem, ut sibi invicem
+              auxilium ferant non solum in corporalibus, sed etiam in spiritualibus magis; et ideo
+              cum maximum auxilium homini per correptionem in spiritualibus adhibeatur, praeceptum
+              divinae legis ad hoc se extendere debet.</p>
+            <p xml:id="ta-l4d19q2-d1e332">Ad primum ergo dicendum, quod Hieronymus loquitur de correptione cui adjungitur
+              correctio, quod patet ex hoc quod subjungit: <quote xml:id="ta-l4d19q2-Qd1e334">quae est enim misericordia parcere
+                uni, et omnes in discrimen adducere?</quote> Et talis correptio solum praelatis
+              competit.</p>
+            <p xml:id="ta-l4d19q2-d1e338">Ad secundum dicendum, quod curam alicujus aliquis simpliciter habere potest, et
+              secundum quid. Simpliciter quidem curam alicujus habet, cujus dispositioni totum
+              regimen vitae ipsius subditur; quia providentia et cura respiciunt ordinem ad finem,
+              ad quem homo per totam vitam suam intendit; et sic curam alterius non habet aliquis
+              nisi praelatus, qui habet propter hoc super subditum imperium. Sed secundum quid
+              quantum ad aliquid; ut ad subveniendum in aliquo particulari casu, quilibet habet
+              curam alterius; quia <quote xml:id="ta-l4d19q2-Qd1e340">unicuique mandavit Deus de proximo suo</quote>; Eccl. 17,
+              12; et secundum apostolum 1 Cor. 12, 12, <quote xml:id="ta-l4d19q2-Qd1e343">pro se invicem solicita sunt
+                membra</quote>.</p>
+            <p xml:id="ta-l4d19q2-d1e347">Ad tertium dicendum, quod etiam praecepta affirmativa non obligant ad semper, quamvis
+              semper obligent; et ideo ad illud ad quod in aliquo casu implendum obligamur, et non
+              in alio, non est consilium, sed praeceptum; quia consilium nunquam obligat, nisi per
+              hoc quod in praeceptum transit ex aliquo accidenti. Tempus autem ad quod obligat, est
+              cum delinquens occurrit ipsi corripienti, et corripi potest commode, et speratur
+              emendatio, et non est alius cui ex officio incumbat corripere; vel si ille cui
+              incumbit, negligens appareat in corrigendo. Si enim non speraretur emendatio, sed
+              magis deterioratio propter impatientiam corrigendi, excusaretur a praecepto; similiter
+              si praelatus diligens appareret ad corrigendum subditum suum.</p>
+            <p xml:id="ta-l4d19q2-d1e351">Ad quartum dicendum, quod quidam dicunt, quod monachus non debet exire claustrum ut
+              corripiat delinquentes, quia vacat operi meliori, scilicet contemplationi. Sed hoc non
+              videtur verum; quia etiam aliquis a contemplatione abstrahitur, ut saluti proximorum
+              subveniat. Et ideo dicendum, quod si monacho opportunitas corripiendi advenerit, ipse
+              etiam corripere tenetur; sed non tenetur quaerere delinquentem exiens claustrum, aut
+              ordinis sui statuta frangere, ne ipse in periculum incidat, a quo alium liberare
+              tenetur.</p>
+            <p xml:id="ta-l4d19q2-d1e354">Ad quintum dicendum, quod semper vitandum est ne ex correctione sequatur odium nostra
+              culpa, scilicet ex indiscreta correptione. Si autem ad odium provocetur ex quo deberet
+              ad dilectionem incitari, non est curandum, praecipue quando ejus peccatum in damnum
+              aliorum vergit, vel etiam damnum sequens, vel peccatum ipsum est gravius odio quod in
+              nos excitamus; vel quando speramus quod odium paulatim tepescet, et tandem correctio
+              sequetur; quia, sicut dicit Chrysostomus, <quote xml:id="ta-l4d19q2-Qd1e356">melius est odium propter Deum quam
+                amicitia quae est propter ipsum. Cum enim propter ipsum amamur, debitores Dei sumus;
+                cum odio propter ipsum habemur, debitorem eum nobis facimus</quote>.</p>
+            <p xml:id="ta-l4d19q2-d1e360">Ad sextum dicendum, quod Glossa intelligenda est, quando peccatur in Deum, idest solo
+              Deo sciente; vel loquitur non quantum ad correptionem, sed quantum ad remissionem quae
+              sequitur; quia illud quod est ex parte nostra, possumus remittere, sed non quod est ex
+              parte Dei.</p>
+
+          </div>
+          <div xml:id="ta-l4d19q2-Dd1e364">
+            <head xml:id="ta-l4d19q2-Hd1e366">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d19q2-d1e369">Ad secundam quaestionem dicendum, quod circa hoc est duplex opinio. Quidam enim
+              dicunt, quod ille qui est in simili peccato, vel majori, non potest alium corripere,
+              sive illud notorium sit sive occultum; propter hoc quod alterum judicans, contra
+              seipsum sententiam profert. Alii autem dicunt, quod si sit peccatum occultum, absque
+              peccato potest corripere; non autem si sit notorium. Utraque autem opinio quantum ad
+              aliquid vera est. Dupliciter enim aliquis corripere potest. Uno modo ex officio, sicut
+              praelati corripiunt; et sic videtur prima opinio habere veritatem; quia quandocumque
+              aliquis indigne utitur officio suo, peccat; ille autem qui est in mortali peccato,
+              etiam occulto, indigne utitur officio praelationis; unde peccat corripiendo, vel
+              quidquid aliud proprii officii exequatur. Alio modo aliquis corripit ex zelo
+              caritatis, non ut Ecclesiae minister: et tunc in correptione non potest esse peccatum,
+              nisi ratione scandali, quod non consurgit nisi de peccato notorio; et secundum hoc
+              secunda opinio habet veritatem. Unde sive praelatus, sive subditus etiam in peccato
+              notorio existens, aliquem peccare viderit, potest eum admonere non per modum
+              corripientis, sed per modum rogantis, ut exemplo suo non incitetur ad malum.</p>
+            <p xml:id="ta-l4d19q2-d1e372">Ad primum ergo dicendum, quod peccatum veniale non reddit aliquem indignum executione
+              officii sacri, sicut peccatum mortale; nec ita natum est scandalizare, quia ab eis
+              nullus invenitur immunis; et ideo existens in peccato veniali non peccat, etiam si de
+              eodem corripiat, nisi probabiliter ex correptione scandalum sequi videatur: et de hoc
+              peccato, scilicet veniali, loquitur auctoritas inducta.</p>
+            <p xml:id="ta-l4d19q2-d1e375">Ad secundum dicendum, quod peccator non est perplexus; nec tamen absolvitur a
+              praecepto corripiendi. Potest enim peccatum dimittere, vel officium resignare, aut
+              etiam humiliter peccatum suum recognoscens alium admonere rogando; et tunc non
+              peccat.</p>
+            <p xml:id="ta-l4d19q2-d1e378">Ad tertium dicendum, quod in eleemosyna corporali non invenitur aliquis dissensus ad
+              vitam, qua in peccato vivitur, sicut de correptione dictum est; et ideo peccator
+              eleemosynam dans, non scandalizat, sicut corripiendo scandalum generat.</p>
+            <p xml:id="ta-l4d19q2-d1e382">Ad quartum dicendum, quod docere sacram Scripturam dupliciter contingit. Uno modo ex
+              officio praelationis, sicut qui praedicat, docet; non enim licet alicui praedicare,
+              nisi officium praelationis habeat, vel ex auctoritate alicujus praelationem habentis;
+              Rom. 10, 15: <quote xml:id="ta-l4d19q2-Qd1e384" ana="#rom10_15">quomodo praedicabunt, nisi mittantur?</quote> Alio modo ex officio
+              magisterii, sicut magistri theologiae docent. Dicunt ergo quidam, quod ille qui primo
+              modo docet, peccat mortaliter, si sit in peccato mortali notorio; non autem ille qui
+              secundo modo docet. Sed hoc est falsum; quia eorum qui docent sacram Scripturam est
+              idem finis et eorum qui sacram Scripturam ediderunt; unde, cum ad hoc ordinetur
+              Scripturae editio, ut ad vitam aeternam homo perveniat, ut patet Joan. 10; quicumque
+              impedit finem doctrinae, docendo peccat. Impedit autem qui sacram Scripturam in
+              peccato docet, quia ore se profitetur nosse Deum, factis autem negat. Et dicendum,
+              quod ille qui est in peccato notorio, peccat sive sic, sive sic doceat; sed ille qui
+              est in peccato occulto, peccat si primo modo doceat, non autem si secundo.</p>
+            <p xml:id="ta-l4d19q2-d1e388">Et quia aliae rationes videntur concludere quod nullo modo corripere liceat ei qui
+              est in peccato; ideo dicendum ad quintum, quod ex hoc ipso quod aliquis alium
+              corripiendo judicat, si in eodem peccato sit, seipsum condemnat, idest condemnabilem
+              seipsum ostendit, non tamen novam causam damnationis superadjicit.</p>
+            <p xml:id="ta-l4d19q2-d1e391">Ad sextum dicendum, quod ratio illa procedit de peccato manifesto.</p>
+
+          </div>
+          <div xml:id="ta-l4d19q2-Dd1e395">
+            <head xml:id="ta-l4d19q2-Hd1e397">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d19q2-d1e400">Ad tertiam quaestionem dicendum, quod quidam dicunt, quod correptio fraterna non se
+              extendit ad praelatos; tum quia non debet homo os ponere in caelum; tum quia de facili
+              scandalizari possunt praelati, si a subditis corripiantur. Sed hoc nihil est; quia
+              praelati, inquantum peccant, non sunt caelum, et secundum hoc eis correptio debetur;
+              nec iterum qui eos caritative corripit, in eos os ponit, idest contra eos, sed pro
+              eis, quia ad utilitatem eorum eos admonet; nec iterum praesumere debet quis de
+              praelato quod injuste scandalizetur, nisi contrarium constet, quia ipsi sunt in statu
+              perfectionis; scandalum autem passivum non convenit perfectis, sed pusillis. Et ideo
+              dicendum est, quod praelatus ex hoc quod est persona publica, et vicem Dei super
+              subditos gerens, non amittit ea quae sunt propria illius singularis personae; et ideo
+              omnia illa quae debentur alicui ex affectu fraterno, qui ad omnes homines habendus
+              est, etiam praelato debentur, sicut etiam ipse aliis debet ea quae affectus caritatis
+              expostulat; nec ab his ratione praelationis excusatur. Et ideo, secundum alios,
+              praeceptum de fraterna correptione etiam ad praelatos se extendit, ut corripiantur a
+              subditis; et sicut ea quae sunt caritatis ad subditos praelatus taliter gerere debet,
+              ut nullum auctoritati praejudicium generetur; ne dum nimium servatur humilitas,
+              regendi frangatur auctoritas, ut Augustinus dicit; ita correptio ad praelatos taliter
+              debet fieri, ne aliquid reverentiae subtrahatur; et ideo dicitur 1 Timoth. 5, 1:
+                <quote xml:id="ta-l4d19q2-Qd1e402">seniorem ne increpaveris, sed obsecra ut patrem</quote>.</p>
+            <p xml:id="ta-l4d19q2-d1e406">Ad primum ergo dicendum, quod Paulus in faciem Petro coram omnibus restitit, sicut
+              ibidem dicitur. Hoc autem excedit modum fraternae correptionis, quae praelatis a
+              subditis debetur. Non enim praelati a subditis coram multitudine, sed humiliter in
+              privato corripiendi sunt, nisi immineret periculum fidei; tunc enim praelatus minor
+              fieret, si in infidelitatem laberetur, et subditus fidelis major.</p>
+            <p xml:id="ta-l4d19q2-d1e409">Ad secundum dicendum, quod monachus ille arguitur de hoc quod injuste corripuit
+              sacerdotem recte agentem, et de hoc quod correptionem usque ad correctionem extendit
+              poenam inferendo, quia sacerdotem percussit, et eum ab Ecclesia amovit. Quamvis autem
+              praelati sint corripiendi a subditis; non tamen est eis poena infligenda, sed
+              recurrendum ad superiorem denuntiando; vel si non habet superiorem, recurrat ad Deum,
+              qui eum emendet, vel de medio subtrahat.</p>
+            <p xml:id="ta-l4d19q2-d1e412">Ad tertium dicendum, quod tangere arcam non erat Levitarum, sed sacerdotum; et ideo
+              Oza percussus fuit, quia officium superioris usurpavit. Sed fraterna correptio non
+              sequitur officium, sed affectum caritatis; et ideo non concludit ratio de fraterna
+              correptione, sed de correctione quae est a praelatis adhibenda, quam subditus
+              praelatis non potest adhibere.</p>
+            <p xml:id="ta-l4d19q2-d1e416">Ad quartum dicendum, quod Gregorius prohibet judicium temeritatis, ne scilicet
+              aliquis praelatorum facta de facili in malum convertat, vel de eis coram aliis
+              obloquatur; non autem judicium fraternae correptionis prohibet cum reverentia
+              factum.</p>
+            <p xml:id="ta-l4d19q2-d1e419">Ad quintum dicendum, quod quamvis praesumptuosum sit quod aliquis simpliciter se
+              alteri praeferat in bonitate, praecipue sancto viro; tamen non est praesumptuosum
+              quantum ad aliquod factum, si praelatus non faciat illud, de se meliora sentire.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d19q2-Dd1e424" type="articulus">
+          <head xml:id="ta-l4d19q2-Hd1e426">Articulus 3</head>
+
+          <head xml:id="ta-l4d19q2-Hd1e429" type="questionTitle">Utrum oporteat quod fraterna admonitio praecedat denuntiationem
+            Ecclesiae faciendam</head>
+
+          <div xml:id="ta-l4d19q2-Dd1e432">
+            <head xml:id="ta-l4d19q2-Hd1e434">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d19q2-d1e437">Ad tertium sic proceditur. Videtur, quod non oporteat quod fraterna admonitio
+              praecedat denuntiationem Ecclesiae faciendam. Quia secundum Augustinum in Lib. de
+              mendacio, ex factis sanctorum colligimus quid in Scripturis sentire debeamus. Sed
+              Christus denuntiavit Judam discipulis ante admonitionem factam, ut patet Joan. 13:
+              similiter Petrus damnavit Ananiam et Saphiram ante aliquam admonitionem, ut patet Act.
+              5: similiter Paulus reprehendit Petrum coram omnibus, nulla monitione secreta
+              praecedente. Ergo videtur quod non semper admonitio fraterna debet praecedere
+              denuntiationem Ecclesiae faciendam.</p>
+            <p xml:id="ta-l4d19q2-d1e440">Praeterea, majori periculo magis debet homo obviare. Sed aliquando majus periculum
+              imminet, si peccatum non publicetur, quam sit malum infamatio unius hominis: quia
+              peccator latens potest multos corrumpere in fide vel moribus; quod non posset facere
+              in publicum ejus peccato deducto: aut etiam infamatur multitudo, si peccatum unus de
+              multitudine committat; nec talis infamia aboletur nisi per poenam peccati, quae non
+              potest inferri, nisi peccatum ad publicum deducatur. Ergo nec semper debet
+              denuntiationem admonitio praecedere.</p>
+            <p xml:id="ta-l4d19q2-d1e443">Praeterea, accusare in capitulo est dicere Ecclesiae. Sed religiosi frequenter se
+              invicem accusant in capitulo nulla admonitione praecedente. Ergo non oportet quod
+              semper admonitio denuntiationem praecedat.</p>
+            <p xml:id="ta-l4d19q2-d1e446">Praeterea, gravior via procedendi contra crimina est si per accusationem vel etiam
+              per inquisitionem procedatur, quam si per denuntiationem: quia etiam major poena
+              infligitur. Sed aliquis potest procedere ad accusationem non praecedente admonitione,
+              inquisitione tamen facta, sicut Innocentius III dicit in decretali. Ergo nec
+              denuntiationem oportet quod admonitio praecedat.</p>
+            <p xml:id="ta-l4d19q2-d1e450">Praeterea, nullus tenetur alteri obedire contra praeceptum divinum. Sed si praelatus
+              praeciperet alicui scienti crimen fratris sui quod ei diceret, teneretur dicere ante
+              admonitionem; et similiter si praeciperet illi qui crimen commisit: tamen praelatus
+              peccaret quaerendo, quia secundum ordinem juris petitur juramentum de veritate dicenda
+              etiam in causa criminali ab eo qui accusatur. Ergo videtur quod non sit de necessitate
+              praecepti quod admonitio denuntiationem praecedat.</p>
+            <p xml:id="ta-l4d19q2-d1e453">Sed contra est quod dicit Glossa Matth. 18, super illud: <quote xml:id="ta-l4d19q2-Qd1e455">si peccaverit in
+                te</quote>, etc.: <quote xml:id="ta-l4d19q2-Qd1e458">hoc ordine vitare scandala debemus</quote>. Sed debitum est
+              ex praecepto obligante. Ergo ordo correptionis est in praecepto.</p>
+            <p xml:id="ta-l4d19q2-d1e462">Praeterea, propter hoc fraterna correptio est in praecepto, ut homo fratrem suum a
+              peccato eripiat. Sed quandoque fratri daretur peccati occasio, si statim in publicum
+              proderetur; unde Glossa dicit ibidem: <quote xml:id="ta-l4d19q2-Qd1e464">corripe ipsum inter te et ipsum solum, ne
+                publice correptus verecundiam perdat, qua perdita in peccato remaneat</quote>. Ergo
+              secundum necessitatem praecepti debet admonitio privata denuntiationem praecedere.</p>
+
+          </div>
+          <div xml:id="ta-l4d19q2-Dd1e469">
+            <head xml:id="ta-l4d19q2-Hd1e471">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d19q2-d1e474">Ulterius. Videtur quod inconvenienter in ordine correptionis ponatur testium
+              inductio. Quia aut iste correptionis ordo intelligitur de peccato publico, aut
+              occulto. Si de publico, non oportet inducere testes, quia manifestum est. Si de
+              occulto, non oportet manifestari nescientibus, quia sic esset homo proditor criminis.
+              Ergo videtur quod nullo modo testium adhibitio requiratur.</p>
+            <p xml:id="ta-l4d19q2-d1e477">Praeterea, Augustinus dicit in regula, ubi ordinem fraternae correctionis ponit, quod
+              aliis (scilicet testibus) peccatum fratris demonstratur, per quos convincendus est, si
+              negaverit. Sed aliquis non potest convinci per unum testem, quia in ore duorum vel
+              trium testium debet stare omne verbum. Ergo inconvenienter dicitur quod testis unus
+              vel duo adhibeantur; quia semper debent esse duo ad minus.</p>
+            <p xml:id="ta-l4d19q2-d1e480">Praeterea, correptio etiam debet fieri de peccato semel facto. Sed ad illud quod jam
+              factum est, non possunt adhiberi testes, ut videant qui non viderunt: quandoque etiam
+              non reiteratur de facili; aut si reiteratur, peccator sibi a corripiente cavet, ne
+              etiam ipse videre possit peccantem, nedum nisi alios inducat ad videndum: nec iterum
+              debet ille qui peccatum fratris scit, ei dare aliquam occasionem peccatum iterandi, ut
+              deprehendi possit, quia sic esset peccati particeps. Ergo videtur quod testium
+              inductio non requiratur ad correptionem.</p>
+            <p xml:id="ta-l4d19q2-d1e483">Praeterea, dicere praelato, est dicere Ecclesiae. Sed Augustinus dicit in regula,
+              quod antequam aliis demonstretur, per quos convincendus est, si negaverit, prius
+              praeposito debet ostendi, si neglexerit admonitus corrigi. Ergo videtur quod testium
+              adhibitio non debeat praecedere denuntiationem, sed sequi.</p>
+
+          </div>
+          <div xml:id="ta-l4d19q2-Dd1e487">
+            <head xml:id="ta-l4d19q2-Hd1e489">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d19q2-d1e492">Ulterius. Videtur quod correptio quantum ad monitionem secretam debet esse dura.
+              Matth. 3, 7, et Lucae 3, 7, Joannes Baptista dixit: <quote xml:id="ta-l4d19q2-Qd1e494">genimina viperarum</quote>;
+              quae fuit durissima correptio. Ergo videtur quod debeat aliquis alterum dure
+              corrigere.</p>
+            <p xml:id="ta-l4d19q2-d1e498">Praeterea, Tit. 1, 13, dicitur: <quote xml:id="ta-l4d19q2-Qd1e500">argue illos dure</quote>.</p>
+            <p xml:id="ta-l4d19q2-d1e504">Praeterea, ad correptionem fraternam incitat ira per zelum. Sed ira asperitatem
+              habet. Ergo debet aliquis aspere corrigi.</p>
+            <p xml:id="ta-l4d19q2-d1e507">Sed contra, Gal. 6, 1: <quote xml:id="ta-l4d19q2-Qd1e509">vos qui spirituales estis instruite hujusmodi in
+                spiritu lenitatis</quote>. Ergo videtur quod non debeat dure corripi.</p>
+            <p xml:id="ta-l4d19q2-d1e514">Praeterea, Augustinus dicit: <quote xml:id="ta-l4d19q2-Qd1e516">corripiat justus in misericordia, et
+                arguat</quote>. Ergo debet esse lenis correptio.</p>
+          </div>
+          <div xml:id="ta-l4d19q2-Dd1e522">
+            <head xml:id="ta-l4d19q2-Hd1e524">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d19q2-d1e527">Respondeo dicendum ad primam quaestionem, quod secundum philosophum in 5 Ethic.,
+              minus malum, ex hoc quod praeeligitur respectu magis mali, accipit rationem magis
+              boni; et ideo medicus corporalis hominem, si potest, ab infirmitate totaliter liberat;
+              si autem non potest, eligit minus malum, ut occurrat magis malo; sicut amputare unum
+              membrum, ne totum corpus inficiatur; et hunc ordinem dominus servari praecepit, cum
+              peccatoribus corripiendo spiritualiter medicamur. Peccator autem ex peccato duo mala
+              incurrit; innocentiae damnum, et famae dispendium: et ideo prius tentandum est ut
+              taliter innocentia restituatur quod fama etiam conservetur. Sin autem, debet negligi
+              fama, ut conscientia reparetur, famae etiam dispendio subveniri, si aliter non potest,
+              debet quantum potest; ut scilicet primo paucis, et postea multis crimen prodatur. Et
+              ideo dominus hunc ordinem corripiendi statuit, ut primo frater corripiatur secreto, ut
+              sic et innocentiam recuperet, et famam non perdat: quod si haec medicina non fuerit
+              efficax, debet paucis ostendi, ut non totaliter fama perdatur; et deinde si non
+              corripitur, debet omnino fama negligi, et in publicum prodi: quod si etiam publica
+              correptio vel admonitio non profuerit, debet omnino abscindi judicio Ecclesiae, ut sit
+              sicut ethnicus et publicanus. Et ideo dicendum, quod sicut correptio fraterna cadit in
+              praecepto, ita et correptionis ordo.</p>
+            <p xml:id="ta-l4d19q2-d1e530">Ad primum ergo dicendum, quod in observatione praeceptorum semper ad intentionem
+              praecipientis et rationem praecepti attendendum est. Ideo autem dominus praecepit ut
+              secreta admonitio publicam denuntiationem praecederet, ut expectaretur emendatio
+              vitae, et famae parceretur peccatoris: et quia dominus sciebat Judam non emendandum
+              fore, si ipsum admoneret, sed magis exasperandum; quia non est probabile quod verba
+              moverent quem tot miracula visa non moverent; ideo ipsum non praemonuit: et quia etiam
+              sciebat ex hoc forte magis exasperandum, et deteriorem fieri. Nec tamen est simile de
+              ipso et nobis: quia ipse secreta cordium sciebat, et futuros eventus, non autem nos;
+              et ideo, nisi certissimis signis appareat incorrigibilitas, et exasperatio ipsius
+              futura, non debet fraterna admonitio praetermitti. De Petro autem dicendum est, quod
+              forte peccatum eorum erat publicum, vel statim publicandum: vel forte sciebat
+              monitionem ipsis non valituram: vel etiam consilio spiritus sancti fecit ad terrorem,
+              quia hoc competebat statui primitivae Ecclesiae, ne veniret ejus auctoritas in
+              contemptum. De Paulo autem patet responsio. Quia Petrus coram omnibus peccavit, ideo
+              oportebat eum coram omnibus redargui. Hic autem ordo servandus est in peccatis
+              occultis; unde dicitur: <quote xml:id="ta-l4d19q2-Qd1e532">si peccaverit in te</quote>, idest te solo sciente.</p>
+            <p xml:id="ta-l4d19q2-d1e536">Ad secundum dicendum, quod in peccatis considerandum est, utrum peccatum sit omnino
+              occultum, aut ad notitiam aliorum devenerit, aut in promptu sit ut deveniat. Si autem
+              peccatum jam ad notitiam aliorum devenerit, tunc debet denuntiari ei qui habet
+              potestatem corrigendi, ut qui sunt scandalizati de culpa, aedificentur de poena. Si
+              autem nondum in publicum devenit, sed est in via deveniendi; tunc etiam denuntiandum
+              est, ut scandalo futuro occurratur. Si autem sit omnino occultum, tunc considerandum
+              est, utrum emendatio peccantis expectari probabiliter possit, aut non; quod quidem
+              facile adverti poterit, si consideretur utrum aliquis ex electione vel passione
+              peccavit, sive ex malitia vel infirmitate, quod idem est; quod quidem perpendi potest
+              ex conditione peccantis, et ex iteratione actus. Quia si aliquis frequenter et quasi
+              improhibite sine freno in aliquod peccatum lapsus est, signum est quod ex malitia vel
+              electione peccat, et non facile emendetur. Si autem semel occasione peccandi oblata,
+              in peccatum ruit, et postea tristitiam et verecundiam de peccato ostenderit, signum
+              est quod sit peccatum ex passione vel ex infirmitate, et quod de facili emendetur. Si
+              ergo emendatio speretur, debet admonitio praecedere, et denuntiatio differri quousque
+              videatur quomodo emendatur peccator; nisi forte immineret occasio similis in peccatum
+              ruendi, quam tamen declinare non vellet admonitus; tunc enim deberet praelato
+              denuntiari, ne in praecipitium iret. Si autem non speretur emendatio, tunc
+              considerandum est, an illud peccatum sit infectivum aliorum, sicut est haeresis vel
+              fornicatio, vel aliquid hujusmodi; aut etiam cedat in aliquod damnum alterius, sicut
+              furtum vel homicidium, et hujusmodi. Si enim non cedat in damnum alterius, nec sit
+              infectivum peccatum, tunc potest denuntiatio differri quousque videatur admonitionis
+              effectus, praecipue si emendationem promittit. Si autem est infectivum aliorum, debet
+              denuntiari praelato, ut gregi suo caveat. Sicut enim dicit Hieronymus, <quote xml:id="ta-l4d19q2-Qd1e538">quae
+                misericordia est parcere uni, et multos in discrimen adducere?</quote> Polluitur
+              populus ex uno peccatore, sicut ex una ove morbida universus grex. Semper enim bonum
+              multorum debet praeferri bono unius. Unde etiam fama unius negligi debet, ut
+              innocentia vel fama multitudinis conservetur. Si autem vergat in damnum corporale
+              alterius, debet fieri comparatio illius damni ad damnum famae istius, et illi damno
+              quod praeponderat obviandum magis.</p>
+            <p xml:id="ta-l4d19q2-d1e542">Ad tertium dicendum, quod de levibus peccatis non surgit infamia nec scandalum, et
+              ideo de talibus non est vis, si quis in capitulo accusetur, admonitione praetermissa:
+              nisi forte probabiliter credi possit quod tali accusatione magis deterioratur qui
+              corrigitur; et collegio etiam non multum prosit, cujus bonum semper praeponendum est
+              bono unius; unde et aliquando, etiam si peccantis emendatio non expectetur, potest
+              aliquis coram multitudine accusari, si profectus multitudinis credatur; sed de
+              peccatis ex quibus posset infamiam surgere, non deberet aliquis in publico accusari,
+              nisi aliis praemissis quae ordo fraternae correptionis deposcit; et graviter peccaret
+              accusans, sicut fratrem suum infamans.</p>
+            <p xml:id="ta-l4d19q2-d1e546">Ad quartum dicendum, quod etiam ad accusationem, ut quidam dicunt, procedi non debet
+              secundum forum conscientiae, monitione non praemissa, nec emendatione expectata, nisi
+              forte majori periculo obviandum videatur, aut peccatum sit publicum; quamvis secundum
+              forum causarum non requiratur quod accusationem praecedat admonitio, sed solum
+              inquisitio. Inquisitio vero non est facienda nisi de notorio peccato; quia oportet
+              quod inquisitionem praecedat clamosa insinuatio: et ideo secreta admonitio non
+              requiritur de necessitate. Vel dicendum secundum alios, quod in accusatione non agitur
+              ad emendationem peccantis, sed ad bonum commune, scilicet justitiam conservandam per
+              punitionem delinquentis; et ideo accusatio in judicio bona conscientia potest fieri,
+              etiam si admonitio non praecedat, nec est contra praeceptum domini, quod intelligitur,
+              quando agitur ad emendationem peccantis.</p>
+            <p xml:id="ta-l4d19q2-d1e549">Ad quintum dicendum, quod praeceptum alicui factum a praelato suo de peccato alterius
+              publicando in eo casu in quo publicari non debet, potest fieri vel in judicio, vel
+              extra judicium. Si extra judicium, peccat praecipiens; nec ille cui praecipitur,
+              obedire tenetur. Si autem in judicio ordine juris exigente judex alicui praecipiat ut
+              peccatum suum vel alterius confiteatur, non peccat praecipiendo, quia ipse non exigit,
+              sed accusans cui judex jus reddere debet; et tunc tenetur quis profiteri ad praeceptum
+              judicis peccatum suum, vel alterius; vel appellare, si contra ordinem juris ei
+              praecipiatur; et tunc publicans peccatum occultum, vitat majus malum, scilicet
+              disciplinae juris enervationem. Tamen judex deberet dissimulare quantum posset, ne
+              tale praeceptum faceret salvo ordine juris, et praecipue in capitulo, ubi magis per
+              aequitatem procedendum est quam secundum rigorem juris.</p>
+
+          </div>
+          <div xml:id="ta-l4d19q2-Dd1e553">
+            <head xml:id="ta-l4d19q2-Hd1e555">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d19q2-d1e558">Ad secundam quaestionem dicendum, quod quando medicina levis, a qua incipiendum est,
+              non proficit, tunc debet medicus efficaciorem medicinam apponere; non tamen statim
+              efficacissimam, sed paulatim procedendum est, ut quam minus potest fieri, gravetur
+              ille cui medicari volumus; et ideo si prima medicina, scilicet admonitio praecedens
+              secreta, non prosit, quia peccatum iterari videtur; oportet ad ulteriora procedi, ut
+              paucis ostendatur, et talibus qui possunt prodesse, et quibus non creditur quod obsint
+              diffamando; et illi principaliter adhibentur ut admoneant; secundo ut admonitionis
+              factae sint testes; tertio ut negantem coram Ecclesia convincant, ut Augustinus dicit
+              in regula: prius tamen, scilicet quam in publicum prodatur, <quote xml:id="ta-l4d19q2-Qd1e560">alteri vel tertio
+                demonstretur, ut duorum vel trium possit ore convinci</quote>.</p>
+            <p xml:id="ta-l4d19q2-d1e564">Ad primum ergo dicendum, quod quidam dicunt, quod iste modus corripiendi servandus
+              est, quando peccatum non est omnino publicum nec omnino occultum, sed ab aliquibus
+              scitum; unde dicunt, quod non possunt alii advocari, nisi qui sciunt, ad quos etiam
+              pertinet correptio. Sic enim exponunt: <quote xml:id="ta-l4d19q2-Qd1e566">si peccaverit in te</quote>, idest te
+              solo sciente, <quote xml:id="ta-l4d19q2-Qd1e569">frater tuus, corripe eum inter te et ipsum solum. Si te audierit,
+                lucratus es fratrem tuum. Si te non audierit</quote>, et nullus alius sciat, non
+              debes ultra procedere. Si autem aliquid alii sciant, <quote xml:id="ta-l4d19q2-Qd1e572">adhibe tecum adhuc unum
+                vel duos</quote>. Sed hoc non videtur esse secundum intentionem Evangelii; quia si
+              illi qui adhibentur, alias scivissent, non oporteret eos adhibere ad videndum, sed
+              statim per eos posset convinci. Et praeterea Hieronymus dicit, quod non est
+              misericordia parcere uni, et omnes in discrimen adducere; quod fieret, si peccatum
+              quod est aliis nocivum, non publicaretur ad correptionem. Unde patet quod si peccatum
+              in aliorum detrimentum vergat, debet aliis dici, quantumcumque sit occultum; et etiam
+              si non vergat in detrimentum alterius nisi in illius qui peccat, ut patet secundum
+              Augustinum in regula, ubi sic dicit: <quote xml:id="ta-l4d19q2-Qd1e575">innocentes non estis, si fratres vestros,
+                quos judicando corrigere potestis, tacendo perire permittatis</quote>. Nec ex hoc
+              aliquis efficitur proditor criminis; quia non manifestat crimen ad infamandum, sed ad
+              corrigendum.</p>
+            <p xml:id="ta-l4d19q2-d1e579">Ad secundum dicendum, quod unus testis inducitur ad admonendum, sed duo ad
+              convincendum. Vel dicendum, quod ipse denuntians cum uno teste sufficit ad
+              denuntiandum, quia per hoc fit aliqua praesumptio judici; sed ad decisionem causae
+              requiruntur duo testes.</p>
+            <p xml:id="ta-l4d19q2-d1e582">Ad tertium dicendum, quod non potest intelligi quod aliquis ex praecedenti monitione
+              non sit emendatus, nisi per hoc quod actum iterat; unde ad hoc inducendi sunt testes,
+              ut actum iteratum videant, ut patet per Augustinum, qui dicit: <quote xml:id="ta-l4d19q2-Qd1e584">prius alteri,
+                vel tertio demonstrandum</quote>, scilicet actum peccati. Non tamen debet aliqua
+              occasio praeberi ut peccatum iteret, intentione convincendi; quia non sunt facienda
+              mala ut veniant bona; Rom. 3. Si tamen actus iterati ostendi testibus non possint,
+              debent tamen adhiberi, ut coram ipsis recognoscat, vel saltem ut ipsi admoneant, ut
+              objurgatio plurimorum eum corrigat, ut ibidem Glossa dicit; et has duas causas Glossa
+              Interl. ex Hieronymo tangit ibidem super illud: <quote xml:id="ta-l4d19q2-Qd1e587">adhibe tecum</quote> etc.;
+                <quote xml:id="ta-l4d19q2-Qd1e590">studio scilicet corrigendi vel convincendi</quote>.</p>
+            <p xml:id="ta-l4d19q2-d1e595">Ad quartum dicendum, quod praelatus potest dupliciter considerari; aut secundum quod
+              judicio praesidet: et sic dicere praelato est dicere Ecclesiae; et sic prius debent
+              testes adhiberi quam praelato dicatur: aut extra judicium existens; et sic dicere
+              praelato non est dicere Ecclesiae, sed personae quae potest prodesse et non obesse;
+              quia nullus magis potest prodesse quam praelatus; et secundum hoc debet prius dici
+              praelato quam testibus ostendi aliis, ut quanto minus potest fieri, publicetur; et
+              tunc praelatus adhibetur quasi unus de testibus. Talis enim debet esse ordo
+              correptionis fraternae, quem Augustinus in regula tradit, ut cum quis oculi
+              petulantiam, vel aliud peccatum quodcumque in fratre suo advertit, statim admonere
+              debet, ne coepta progrediantur, sed de proximo corrigantur. Quod si post admonitionem
+              iterum vel tertio id facere videatur, tunc debet quasi vulneratus sanandus
+              manifestari. Sed antequam in publicum prodatur, quod fit cum Ecclesiae dicitur, prius
+              debet alteri vel tertio demonstrari, quod est adhibere unum vel duos testes; et inter
+              eos quibus ostendi debet, antequam aliis ostendatur, per quos convincendus est, si
+              negaverit, prius praeposito debet ostendi post admonitionem, ut secretius correptus
+              non innotescat ceteris. Et ita primo debet admoneri; secundo praelato ostendi; tertio
+              testes adhiberi; quarto in publicum produci convincendus, si negaverit. Sed duo media
+              dominus sub uno comprehendit.</p>
+
+          </div>
+          <div xml:id="ta-l4d19q2-Dd1e599">
+            <head xml:id="ta-l4d19q2-Hd1e601">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d19q2-d1e604">Ad tertiam quaestionem dicendum, quod secundum Gregorium in pastorali,
+                <quote xml:id="ta-l4d19q2-Qd1e606">nonnulla peccata sunt leviter corrigenda. Nam cum non malitia, sed ignorantia
+                sola vel infirmitate delinquitur, necesse est ut magno moderamine ipsa delicti
+                correptio temperetur (...). Nonnulla autem sunt vehementer increpanda, ut cum culpa
+                ab auctore non agnoscitur quanti sit ponderis, ab increpantis ore sentiatur; et cum
+                quis sibi malum quod perpetravit levigat, hoc contra se graviter ex corripientis
+                asperitate pertimescat</quote>. Et quamvis ille loquatur de correptione quae
+              praelatis competit, tamen etiam in correptione quae ab aliis fit, hoc est observandum;
+              quamvis fraterna correptio semper magis debeat ad lenitatem accedere; quia non ex
+              auctoritate officii, sed ex caritatis affectu exhibeatur.</p>
+            <p xml:id="ta-l4d19q2-d1e610">Et per hoc patet solutio ad objecta.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d19q2-Dd1e616">
+          <head xml:id="ta-l4d19q2-Hd1e618">Expositio textus</head>
+          <p xml:id="ta-l4d19q2-d1e621"><quote xml:id="ta-l4d19q2-Qd1e622">Moyses et Aaron sacerdotes</quote>. Moyses sacerdos dicitur non officio
+            oblationes offerendi, sed quia sacra primitus populo dedit immediate a Deo accepta,
+            Psal. 98, 6: <quote xml:id="ta-l4d19q2-Qd1e625">Moyses et Aaron in sacerdotibus ejus. Cum esset pontifex anni
+              illius, prophetavit</quote>. Sciendum, quod in verbo Caiphae fuerunt quatuor. Primo
+            inspiratio immissa, per quam utilitas passionis Christi cordi ejus inspirata fuit a
+            spiritu sancto; secundo intellectus quem ipse ex illa inspiratione concepit; tertio
+            intentio exprimendi intellectum suum, et ad effectum perducendi; quarto verba ipsa
+            prolata. Primum quidem fuit quaedam participatio prophetiae; secundum fuit falsus
+            intellectus a seipso; tertium fuit iniqua intentio: quantum fuit vera locutio, quamvis
+            non secundum intellectum ejus; et ideo primum fuit a spiritu sancto, non autem secundum,
+            neque tertium; sed quartum aliqualiter fuit a spiritu sancto regulante verba illius ut
+            consonarent inspirationi ab eo factae. <quote xml:id="ta-l4d19q2-Qd1e628">Nullus officio sacerdotis uti debet nisi
+              immunis sit ab illis quae in aliis judicat</quote>. Hoc intelligendum est de
+            mortalibus: quia sacerdos potest sine peccato de illis venialibus absolvere in quibus
+            ipse est: quia per ea non redditur executione officii indignus. <quote xml:id="ta-l4d19q2-Qd1e631">Ideo liberavit
+              peccatricem, quia non erat qui juste projiceret lapidem</quote>; idest, ex hoc
+            occasionem liberationis ejus sumpsit. <quote xml:id="ta-l4d19q2-Qd1e634">Diligens ergo investigator sapienter
+              interroget a peccatore quod forsitan ignorat, vel verecundia velit occultare</quote>.
+            Sed contra, <quote xml:id="ta-l4d19q2-Qd1e637">defecerunt scrutantes scrutinio, qui scrutati sunt
+              iniquitates</quote>, ut dicitur in Psal. 63. Ergo videtur quod sacerdos non debeat
+            perscrutari conscientiam subditorum. Et dicendum, quod sacerdos debet perscrutari
+            conscientiam peccatoris in confessione quasi medicus vulnus, et judex causam: quia
+            frequenter quae prae confusione confitens taceret, interrogatus revelat. Sed tamen in
+            interrogationibus faciendis tria sunt attendenda. Primo ut quilibet peccator
+            interrogetur de peccatis quae consueverunt in hominibus illius conditionis abundare. Non
+            enim oportet quod a milite quaeratur de peccato clericorum aut religiosorum, aut e
+            converso. Secundo ut non fiat explicita interrogatio de peccatis, nisi de illis quae
+            omnibus manifesta sunt; de aliis autem adinventionibus peccatorum ita debet a longinquo
+            fieri interrogatio, ut si commisit, dicat; et si non commisit, non addiscat. Tertio ut
+            de peccatis praecipue carnalibus non descendat nimis ad particulares circumstantias:
+            quia hujusmodi delectabilia quanto magis in speciali considerantur, magis
+            concupiscentiam nata sunt movere, ut dicitur in 3 Ethic.; et ideo potest contingere ut
+            confessor talia quaerens et sibi et confitenti noceat; et sic quandoque deficiant in suo
+            scrutinio iniquitates scrutantes. <quote xml:id="ta-l4d19q2-Qd1e641">Maledicam benedictionibus vestris</quote>, quae
+            scilicet ita sunt vestrae quod non Dei.</p>
+        </div>
+      </div>
+
+    </body>
+  </text>
+</TEI>

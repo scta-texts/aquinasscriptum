@@ -1,0 +1,1086 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 17, Quaestio 1</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Librum IV, Distinctio 17, Quaestio 1</title>
+          <date when="2016-03-19">March 19, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-19">March 19, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness>1856 editum</witness>
+          <witness xml:id="G" n="ghent567">Ghent, Belgium, Ghent University Library, 567</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="0.0.0-dev">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+
+
+
+
+      <div xml:id="starts-on">
+        <cb ed="#G" n="294a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ta-l4d17q1">
+        <head xml:id="ta-l4d17q1-Hd1e97">Librum IV, Distinctio 17, Quaestio 1</head>
+        <head xml:id="ta-l4d17q1-Hd1e100">Distinctio 17</head>
+        <div xml:id="ta-l4d17q1-Dd1e103">
+          <head xml:id="ta-l4d17q1-Hd1e105">Prooemium</head>
+          <p xml:id="ta-l4d17q1-d1e108">Postquam distinxit Magister poenitentiae partes, hic movet quasdam quaestiones de
+            partibus illis; et dividitur in partes duas: in prima movet quaestiones; in secunda
+            prosequitur eas, ibi: <quote xml:id="ta-l4d17q1-Qd1e110">dicunt enim quidam sine confessione oris et satisfactione
+              operis neminem a peccato mundari</quote>. Et haec pars dividitur in duas: in prima
+            prosequitur unam quaestionem de comparatione contritionis ad confessionem, utrum
+            scilicet per solam contritionem aut confessionem peccatum dimittatur; in secunda
+            prosequitur quaestiones de ipsa confessione, ibi: <quote xml:id="ta-l4d17q1-Qd1e113">jam secundum quaestionis
+              articulum inspiciamus</quote>. Circa primum tria facit: primo ponit rationes ad partem
+            affirmativam; secundo ad negativam, ibi: <quote xml:id="ta-l4d17q1-Qd1e116">quod qui negant, eas determinare
+              laborant</quote>; tertio determinat veritatem, ibi: <quote xml:id="ta-l4d17q1-Qd1e119">quid igitur super his
+              sentiendum sit, quid tenendum? Jam secundum quaestionis articulum inspiciamus</quote>.
+            Hic prosequitur quaestiones de ipsa confessione secundum se; et dividitur in partes
+            duas: in prima prosequitur quaestiones superius motas de confessione ex parte ejus cui
+            facienda est confessio; in secunda concludit ex dictis responsionem ad quamdam
+            quaestionem de necessitate confessionis, ibi: <quote xml:id="ta-l4d17q1-Qd1e122">si ergo quaeritur ad quid confessio
+              sit necessaria (...) dicimus, quia punitio peccati est</quote>. Prima in tres: in
+            prima prosequitur secundam quaestionem superius motam, scilicet utrum oporteat homini
+            confiteri, et an sufficiat confessio Deo facta, ponendo rationes ad veritatem, et contra
+            veritatem; in secunda prosequitur tertiam quaestionem, scilicet an oporteat sacerdoti
+            confiteri, vel possit fieri cuicumque, ibi: <quote xml:id="ta-l4d17q1-Qd1e126">nunc priusquam praemissis
+              auctoritatibus (...) respondeamus, tertiam quaestionem intueamur</quote>; in tertia
+            respondet ad objectiones secundae quaestionis contra veritatem factas, ibi: <quote xml:id="ta-l4d17q1-Qd1e129">cum
+              igitur ex his aliisque pluribus testimoniis perspicuum fiat (...) peccata primum Deo,
+              deinde sacerdoti esse confitenda (...) illud Joannis Chrysostomi non est ita
+              intelligendum</quote> et cetera. Prima in duas: in prima objicit contra veritatem; in
+            secunda pro ipsa, ibi: <quote xml:id="ta-l4d17q1-Qd1e132">sed quod sacerdotibus confiteri oporteat, non solum illa
+              auctoritate Jacobi (...) sed etiam aliorum pluribus testimoniis comprobatur. Nunc
+              prius quam praemissis auctoritatibus (...) respondeamus, tertiam quaestionem
+              intueamur</quote>. Hic duo facit: primo ostendit quod quando facultas adest, confessio
+            facienda est sacerdoti; secundo distinguit in hoc de confessione venialium vel
+            mortalium, secundum Bedam, ibi: <quote xml:id="ta-l4d17q1-Qd1e135">Beda vero inter confessionem venialium et
+              mortalium distinguit</quote>. Hic est triplex quaestio. Prima de justificatione impii.
+            Secunda de contritione. Tertia de confessione. De satisfactione autem in 15 dist. dictum
+            est. Circa primum quaeruntur quinque: 1 quid sit justificatio impii; 2 quae
+            praeexiguntur ad ipsam; 3 quae concurrunt ad ipsam; 4 de ordine ipsorum; 5 qualis
+            sit.</p>
+
+        </div>
+        <div xml:id="ta-l4d17q1-Dd1e140" type="articulus">
+          <head xml:id="ta-l4d17q1-Hd1e142">Articulus 1</head>
+
+          <head xml:id="ta-l4d17q1-Hd1e145" type="questionTitle">Utrum assignatio justificationis quae ponitur Rom. 8, sit
+            competens</head>
+
+          <div xml:id="ta-l4d17q1-Dd1e148">
+            <head xml:id="ta-l4d17q1-Hd1e150">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d17q1-d1e153">Ad primum sic proceditur. Videtur quod haec assignatio quae ponitur Rom. 8, in Glossa
+              interlineali sit incompetens, scilicet: <quote xml:id="ta-l4d17q1-Qd1e155">justificatio est remissio peccatorum,
+                et consummatio bonorum operum</quote>. Peccata enim inficiunt omnes potentias. Sed
+              justificatio est in sola voluntate; quia secundum Anselmum, justitia est rectitudo
+              voluntatis pro se servata. Ergo cum justificatio nihil aliud sit quam justitiae
+              adeptio, videtur quod non sit remissio omnium peccatorum.</p>
+            <p xml:id="ta-l4d17q1-d1e159">Praeterea, Bernardus dicit, quod justificatio est revelatio divini consilii. Sed
+              divinum consilium revelatur aliquando eis quibus non dimittitur peccatum, sicut patet
+              de Nabuchodonosor, Dan. 2. Ergo justificatio non est peccatorum remissio.</p>
+            <p xml:id="ta-l4d17q1-d1e162">Praeterea, justificatio, ut quidam dicunt, est effectus justitiae generalis, in qua
+              de impio fit pius. Remissio autem peccatorum non est effectus justitiae, sed gratiae.
+              Ergo justificatio non est remissio peccatorum.</p>
+            <p xml:id="ta-l4d17q1-d1e165">Praeterea, consummatio bonorum operum in poenitente fit per satisfactionem. Sed homo
+              justificatur per solam contritionem ante satisfactionem, ut ex littera habetur. Ergo
+              justificatio non est consummatio bonorum operum.</p>
+
+          </div>
+          <div xml:id="ta-l4d17q1-Dd1e169">
+            <head xml:id="ta-l4d17q1-Hd1e171">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d17q1-d1e174">Ulterius. Videtur quod justificatio sit aliud quam vocatio. Quia, Rom. 8, quatuor per
+              ordinem recitantur: scilicet praedestinatio, vocatio, justificatio, magnificatio. Sed
+              secundum horum distat a primo. Ergo et tertium differt a secundo.</p>
+            <p xml:id="ta-l4d17q1-d1e177">Praeterea, vocatio etiam est in peccato existentium. Prov. 1, 24: <quote xml:id="ta-l4d17q1-Qd1e179">vocavi et
+                renuistis</quote>. Sed justificatio non, cum sit peccatorum remissio. Ergo
+              justificatio non est vocatio.</p>
+            <p xml:id="ta-l4d17q1-d1e183">Praeterea, vocatio importat distantiam in eo qui vocatur. Sed justificatio importat
+              approximationem ad Deum in eo qui justificatur. Ergo justificatio non est vocatio.</p>
+            <p xml:id="ta-l4d17q1-d1e186">Sed contra, Glossa, Rom. 8, dicit, quod vocare est cognitionem de fide adjuvare. Sed
+              istud adjutorium non est per gratiam gratis datam; quia sic esset etiam malorum; quod
+              est contra intentionem Glossae, ibidem. Ergo est per gratiam gratum facientem. Sed
+              infusio gratiae gratum facientis est justificatio. Ergo vocatio est idem quod
+              justificatio.</p>
+            <p xml:id="ta-l4d17q1-d1e190">Praeterea, idem per essentiam est motus a termino et ad terminum oppositum, sicut de
+              albedine ad nigredinem. Sed vocatio dicit motum a termino, scilicet a peccato;
+              justificatio dicit accessum ad terminum, scilicet justitiam. Ergo justificatio et
+              vocatio sunt idem.</p>
+
+          </div>
+          <div xml:id="ta-l4d17q1-Dd1e194">
+            <head xml:id="ta-l4d17q1-Hd1e196">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d17q1-d1e199">Ulterius. Videtur quod justificatio non sit idem quod renovatio mentis, et sanatio.
+              Quia justificari potest aliquis in hac vita, non autem renovari vel sanari. Ergo
+              justificatio neutrum illorum est. Probatio mediae quantum ad justificationem est ex
+              hoc quod dicitur Roman. 3, 24: <quote xml:id="ta-l4d17q1-Qd1e201">justificati gratis per gratiam ipsius</quote>.
+              Quantum ad sanationem patet per id quod dicitur in Glossa interlineali ex Augustino
+              super illud Psalm. 102, 3: <quote xml:id="ta-l4d17q1-Qd1e204">qui sanat omnes infirmitates tuas</quote>, quod in
+              fine sanabit languores, quando corruptibile hoc induet incorruptionem; quod non erit
+              in hac vita. Quantum ad renovationem autem ex hoc quod dicitur in Glossa super illud
+              Rom. 6: <quote xml:id="ta-l4d17q1-Qd1e207">in novitate vitae ambulemus</quote>; quod in futuro in immortalitate
+              perficietur.</p>
+            <p xml:id="ta-l4d17q1-d1e211">Praeterea, quorum opposita differunt, ipsa etiam differunt. Sed opposita horum sunt
+              diversa et nomine et ratione; quia justificationi opponitur impietas, renovationi
+              vetustas, sanationi infirmitas. Ergo non sunt idem.</p>
+            <p xml:id="ta-l4d17q1-d1e214">Sed contra, renovatio mentis et sanatio fit per peccatorum dimissionem. Sed
+              justificatio nihil aliud est quam peccatorum remissio. Ergo videtur quod justificatio
+              sit idem quod renovatio vel sanatio mentis.</p>
+
+          </div>
+          <div xml:id="ta-l4d17q1-Dd1e219">
+            <head xml:id="ta-l4d17q1-Hd1e221">Quaestiuncula 4</head>
+            <p xml:id="ta-l4d17q1-d1e224">Ulterius. Videtur quod justificatio non reducatur ad attributum misericordiae. Quia
+              secundum Augustinum, majus est de impio facere pium quam creare caelum et terram. Sed
+              creatio caeli et terrae, propter hoc quod infinitam potentiam ostendit, reducitur ad
+              attributum potentiae. Ergo et justificatio impii; et non ad misericordiam.</p>
+            <p xml:id="ta-l4d17q1-d1e227">Praeterea, Deus, inquantum est bonus, facit omnia bona. Ergo inquantum est justus,
+              facit homines justos. Sed justificare nihil aliud est quam justum facere. Ergo
+              justificatio reducitur ad attributum justitiae magis quam misericordiae.</p>
+            <p xml:id="ta-l4d17q1-d1e230">Praeterea, Ambrosius dicit, quod praecedit quiddam in peccatoribus quo digni sunt
+              justificatione. Sed ad justitiam pertinet reddere alicui hoc quo dignus est. Ergo
+              justificatio reducitur ad attributum justitiae.</p>
+            <p xml:id="ta-l4d17q1-d1e233">Sed contra, miseria hominis in peccato principaliter consistit; miseros enim facit
+              populos peccatum ipsum. Sed miseriam removere ad misericordiam pertinet. Ergo cum
+              justificatio sit peccatorum remissio, videtur quod ad attributum misericordiae
+              reducatur.</p>
+            <p xml:id="ta-l4d17q1-d1e237">Praeterea, justificatio fit per gratiam. Sed gratia est effectus misericordiae, ut
+              patet per illud quod apostolus inducit Rom. 9, 15: <quote xml:id="ta-l4d17q1-Qd1e239">miserebor cujus miserebor,
+                et misericordiam praestabo, cujus miserebor</quote>. Ergo pertinet ad
+              misericordiam.</p>
+          </div>
+          <div xml:id="ta-l4d17q1-Dd1e244">
+            <head xml:id="ta-l4d17q1-Hd1e246">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d17q1-d1e249">Respondeo dicendum ad primam quaestionem, quod justificatio de sui ratione importat
+              motum ad justitiam. Justitia autem, secundum philosophum in 5 Ethic., tribus modis
+              dicitur. Uno enim modo est specialis virtus aequalitatem constituens in
+              commutationibus et distributionibus communicabilium bonorum, quae sunt necessaria in
+              vita. Alio modo est nomen generale ad omnes virtutes, secundum quod actus earum ad
+              bonum commune ordinat secundum directionem legis. Tertio modo importat quemdam statum
+              rectitudinis in homine quantum ad partes ipsius, prout scilicet aliqua pars animae suo
+              superiori subditur, sive alii parti, sive ipsi Deo; et hanc justitiam nominat
+              philosophus metaphoricam, eo quod diversae partes hominis computantur quasi diversae
+              personae. Haec autem rectitudo per quodlibet peccatum tollitur, et per gratiam
+              reparatur: unde haec justitia generalis etiam dicitur, inquantum omnes virtutes
+              includit, non quidem per modum totius universalis, sicut praecedens justitia; sed
+              generalis dicitur per modum totius integralis: et ad hanc justitiam motus justificatio
+              dicitur. In quolibet autem motu est recessus a termino, et hoc in praedicta
+              assignatione tangitur in hoc quod dicitur: <quote xml:id="ta-l4d17q1-Qd1e251">remissio peccatorum</quote>, et
+              accessus ad terminum, qui tangitur in hoc quod dicitur: <quote xml:id="ta-l4d17q1-Qd1e254">et consummatio bonorum
+                operum</quote>.</p>
+            <p xml:id="ta-l4d17q1-d1e258">Ad primum ergo dicendum, quod tota ista rectitudo a voluntate originaliter est, quae
+              est principium merendi et demerendi; sed etiam est in aliis partibus animae quasi
+              rectificatis, sicut in subjecto.</p>
+            <p xml:id="ta-l4d17q1-d1e261">Ad secundum dicendum, quod revelatio sumitur ibi materialiter, pro eo scilicet in quo
+              consilium revelatur. Consilium autem divinae praedestinationis fuit de justificatione;
+              unde hoc consilium revelatur per ipsam justificationem, sicut effectus per causam; et
+              sic objectio cessat.</p>
+            <p xml:id="ta-l4d17q1-d1e264">Ad tertium dicendum, quod justificatio potest sumi dupliciter: vel secundum quod
+              respondet ad justificari; et sic dicit motum ad justitiam praedictam: vel secundum
+              quod sumitur ad justificatum esse; et sic est effectus formalis justitiae praedictae,
+              quia ea aliquid formaliter justificatum est, sicut albedine albatum. Sicut autem ab
+              essentia animae potentiae fluunt, ita rectitudo potentiarum a gratia, quae est
+              essentiae perfectio; et inter ipsas potentias voluntas quae alias movet, et eis
+              rectitudinem quodammodo largitur; et ideo praedictae justitiae causa prima est gratia,
+              et consequenter caritas, quae voluntatem ad finem perficit, a quo est rectitudo
+              praedicta; et propter hoc ipsa justificatio et peccatorum remissio est effectus
+              justitiae generalis sicut causae formalis proximae; sed caritatis et gratiae sicut
+              causarum causae proximae; sicut aliquis aequatus dicitur et aequalitate, et quantitate
+              quae est aequalitatis causa. Et quia a proximis causis vel terminis aliquid denominari
+              debet; ideo praedictus motus vel terminatio motus magis denominatur a justitia quam a
+              caritate vel gratia.</p>
+            <p xml:id="ta-l4d17q1-d1e268">Ad quartum dicendum, quod consummatio bonorum operum potest accipi vel in executione
+              ipsorum, et sic procedit objectio, et sic non accipitur hic; vel in infusione
+              habituum, a quibus opera bona perfectionem habent; et sic dicitur hic consummatio
+              bonorum operum justificatio.</p>
+
+          </div>
+          <div xml:id="ta-l4d17q1-Dd1e272">
+            <head xml:id="ta-l4d17q1-Hd1e274">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d17q1-d1e277">Ad secundam quaestionem dicendum, quod vocatio est duplex: quaedam exterior, ut quae
+              fit per praedicatorem; et haec non est justificatio, sed disponit ad eam: quaedam vero
+              interior: et haec quandoque quidem non pertingit ad finem suum ex vocati defectu; et
+              haec vocatio nihil aliud est quam aliquis instinctus, vel motus ad bonum, a Deo
+              immissus; et haec etiam vocatio non est idem quod justificatio, sed via ad illam:
+              quandoque autem pertingit ad finem, quando scilicet aliquis audit vocantem, et venit
+              ad Christum, ut dicitur Joan. 6, 45: <quote xml:id="ta-l4d17q1-Qd1e279">omnis qui audivit a patre et didicit,
+                venit ad me</quote>: et haec vocatio idem est quod justificatio secundum
+              substantiam, sed differt ratione: quia vocatio dicitur secundum quod per infusionem
+              gratiae et auxilium homo a peccato retrahitur; sed justificatio respicit terminum ad
+              quem, scilicet praedictae rectitudinis statum; et sic vocatio sumitur Rom. 8, ut patet
+              per Glossam. Auxilium enim quod fidei, nos vocando, Deus praestat, est gratia, quae
+              facit fidem per dilectionem operari; unde illorum quatuor quae ibi ponuntur,
+              praedestinatio est causa justificationis in justificante, vocatio autem est idem
+              justificationi, ratione differens, ut dictum est; sed magnificatio est justificationis
+              complementum, sive referatur ad perfectionem gratiae, sive ad perfectionem
+              gloriae.</p>
+            <p xml:id="ta-l4d17q1-d1e283">Ad primum ergo dicendum, quod vocatio ibi praeponitur justificationi: quia prius est
+              recessus a termino quam accessus ad terminum.</p>
+            <p xml:id="ta-l4d17q1-d1e286">Ad secundum dicendum, quod objectio procedit de primis duabus justificationibus, non
+              de tertia.</p>
+            <p xml:id="ta-l4d17q1-d1e289">Ad tertium dicendum, quod ille non justificat quantum ad terminum a quo erat distans,
+              sed quantum ad terminum ad quem est prope; et hoc competit ei quod dictum est.</p>
+
+          </div>
+          <div xml:id="ta-l4d17q1-Dd1e293">
+            <head xml:id="ta-l4d17q1-Hd1e295">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d17q1-d1e298">Ad tertiam quaestionem dicendum, quod praedicta justitiae rectitudo metaphorice
+              sanitas animae dicitur et novitas ipsius, eo quod sanitas commensurationem debitam in
+              partibus corporis importat; novitas autem integritatem et virtutem et decorem habet;
+              et per haec omnia patet quod rectitudo potentiarum animae, quae justitia dicitur,
+              continet haec omnia per similitudinem. Sed quia res aliqua non est ita similis uni
+              quin possit etiam alteri assimilari; inde est quod ea quae metaphorice dicuntur, non
+              ita conveniunt uni quin et aliis convenire possint, sicut leo metaphorice et Deus et
+              Diabolus dicitur; unde sanitas et novitas per similitudinem integritatem gratiae
+              significare possunt, quae per culpam tollitur; unde culpa etiam similitudinarie
+              dicitur vetustas et languor animae; et etiam possunt significare integritatem naturae,
+              quam tollit poena, quae etiam vetustas et languor dicitur. Sed quia culpa est causa
+              poenae, ideo vetustas in vetustate et languor in languore includitur, sicut effectus
+              in causa. Patet ergo quod ipsa justificatio, per quam gratia acquiritur et culpa
+              tollitur, renovatio et sanatio dici potest; quamvis etiam ablatio poenae renovatio et
+              sanatio dici possit.</p>
+            <p xml:id="ta-l4d17q1-d1e301">Ad primum ergo dicendum, quod quantum ad culpam potest fieri renovatio in hac vita,
+              sed non quantum ad poenam omnino; et similiter est de sanatione; et sic loquuntur
+              auctoritates illae.</p>
+            <p xml:id="ta-l4d17q1-d1e304">Ad secundum dicendum, quod illa etiam per similitudinem signant idem quod impietas,
+              ut ex dictis patet.</p>
+
+          </div>
+          <div xml:id="ta-l4d17q1-Dd1e308">
+            <head xml:id="ta-l4d17q1-Hd1e310">Quaestiuncula 4</head>
+            <p xml:id="ta-l4d17q1-d1e313">Ad quartam quaestionem dicendum, quod in omni actione quam Deus in creatura facit
+              omnia attributa concurrunt (alias ejus actio non esset perfecta), sed tamen aliqua
+              ipsius actio vel effectus actionis uni attributo appropriatur magis quam alteri,
+              inquantum illud attributum magis manifestatur per talem actionem vel effectum quam per
+              aliud; sicut per revelationem futurorum manifestatur plenitudo divinae sapientiae; et
+              ideo sapientiae appropriatur. Et quia in justificatione impii maxime divina
+              misericordia manifestatur, ideo ad hoc attributum reducitur.</p>
+            <p xml:id="ta-l4d17q1-d1e316">Ad primum ergo dicendum, quod difficultas quae est in justificatione impii, maxime
+              est ex incongruentia impii ad justificationis effectum suscipiendum; et ideo quando
+              talis effectus in ipsum inducitur, magis indicat misericordiam quam potentiam. Sed
+              effectus creationis difficultatem habet propter magnitudinem facti, vel propter modum
+              faciendi, quia ex nihilo fit aliquid; et ideo manifestat maxime potentiam.</p>
+            <p xml:id="ta-l4d17q1-d1e319">Ad secundum dicendum, quod justificatio manifestat justitiam divinam sicut causam
+              exemplarem, sed misericordiam sicut causam efficientem: effectus autem proprie causae
+              efficienti respondet. Sed bonitas creaturae manifestat bonitatem divinam utroque modo:
+              quia bonitas movet ipsum ad communicandum similem bonitatem. Sed misericordia magis
+              movet ad justificandum quam justitia.</p>
+            <p xml:id="ta-l4d17q1-d1e322">Ad tertium dicendum, quod illud non est intelligendum, quod aliquis ante
+              justificationem sit sufficienter dignus; alias gratia non esset gratia; sed quia est
+              in ipso aliqua dispositio ad justificationem, qua est minus indignus quam alii; unde
+              talis dignitas ad justitiam non sufficit.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d17q1-Dd1e327" type="articulus">
+          <head xml:id="ta-l4d17q1-Hd1e329">Articulus 2</head>
+
+          <head xml:id="ta-l4d17q1-Hd1e332" type="questionTitle">Utrum praeparatio, per quam aliquis facit quod in se est, ad
+            justificationem praeexigatur</head>
+
+          <div xml:id="ta-l4d17q1-Dd1e335">
+            <head xml:id="ta-l4d17q1-Hd1e337">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d17q1-d1e340">Ad secundum sic proceditur. Videtur quod praeparatio, per quam aliquis facit quod in
+              se est, ad justificationem non praeexigatur. Ille enim qui ad peccandum nititur, non
+              praeparat se ad faciendum quod in se est. Sed aliquando aliquis justificatur qui ad
+              peccatum tendit, sicut de Paulo patet actuum 9. Ergo praedicta praeparatio ad
+              justificationem non praeexigitur.</p>
+            <p xml:id="ta-l4d17q1-d1e343">Praeterea, major est caritas in Deo quam illa quam homini praecipit. Sed homini
+              praecipit ut benefaciat inimicis, Matth. 5. Ergo ipse multo fortius benefacit
+              justificando his qui peccando inimicitias contra ipsum exercent; et sic idem quod
+              prius.</p>
+            <p xml:id="ta-l4d17q1-d1e346">Praeterea, Dei bonitate nihil majus cogitari potest. Sed bonum est diffusivum sui,
+              secundum Dionysium. Cum ergo major diffusio bonitatis esset, si etiam renitentibus
+              daretur gratia, videtur quod gratiae infusio, per quam fit justificatio,
+              praeparationem non praeexigat.</p>
+            <p xml:id="ta-l4d17q1-d1e349">Sed contra, ille qui clausum habet oculum materialem, non potest lumen materiale
+              suscipere. Sed ille qui se non praeparat faciendo quod in se est, non aperit oculum
+              spiritualem, quem peccando clausit. Ergo non potest lumen gratiae spiritualis
+              recipere; et sic non potest justificari.</p>
+            <p xml:id="ta-l4d17q1-d1e353">Praeterea, Augustinus dicit: <quote xml:id="ta-l4d17q1-Qd1e355">qui creavit te sine te, non justificabit te sine
+                te</quote>. Ergo praeexigitur praeparatio ex parte nostra.</p>
+
+          </div>
+          <div xml:id="ta-l4d17q1-Dd1e360">
+            <head xml:id="ta-l4d17q1-Hd1e362">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d17q1-d1e365">Ulterius. Videtur quod nihil sit in homine quod facere possit ut ad gratiam habendam
+              se praeparet. Quia super illud Exod. 7, <quote xml:id="ta-l4d17q1-Qd1e367">induravit cor ejus</quote> etc., dicit
+              Glossa, quod ita induratum est cor ejus, quod nihil poterat facere acceptabile Deo.
+              Sed nihil ad gratiam habendam praeparat nisi opus acceptabile Deo. Ergo non erat in eo
+              facere aliquid per quod se praepararet; et eadem ratio est de aliis.</p>
+            <p xml:id="ta-l4d17q1-d1e371">Praeterea, Augustinus dicit, quod cum fides justificationem impetrat, voluntas
+              concomitatur gratiam, non ducit; est pedissequa, non praevia. Sed si homo posset se ad
+              gratiam nondum habitam praeparare, voluntas ejus esset praevia gratiae. Ergo non
+              potest homo aliquid facere per quod se ad gratiam praeparet.</p>
+            <p xml:id="ta-l4d17q1-d1e374">Praeterea, nullus potest se ad gratiam praeparare nisi recte agendo. Sed secundum
+              Augustinum in Lib. Retract., a mortalibus recte non vivitur nisi prius liberum
+              arbitrium a peccati pravitate liberetur; quod fit per gratiam. Ergo ante gratiam
+              habitam non potest se ad gratiam praeparare.</p>
+            <p xml:id="ta-l4d17q1-d1e377">Praeterea, fides intentionem dirigit. Sed operatio quae sine recta intentione fit,
+              non potest ad gratiam praeparare. Ergo oportet quod fides praecedat praeparationem; et
+              ita cum fides ad gratiam pertineat, ut Augustinus ex verbis apostoli probat; ante
+              gratiam praeparatio ad gratiam esse non potest.</p>
+            <p xml:id="ta-l4d17q1-d1e381">Sed contra, Deus non praecipit homini impossibile. Sed praecipit ei quod se ad
+              gratiam aliquid faciendo praeparet, ut patet Jac. 4, 8: <quote xml:id="ta-l4d17q1-Qd1e383">appropinquate Deo, et
+                appropinquabit vobis</quote>. Ergo possibile est homini facere quod se ad gratiam
+              praeparet.</p>
+
+          </div>
+          <div xml:id="ta-l4d17q1-Dd1e388">
+            <head xml:id="ta-l4d17q1-Hd1e390">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d17q1-d1e393">Ulterius. Videtur quod non sit necessarium eum qui facit quod in se est, justificari.
+              Illud enim quod fit gratis, fit ex liberalitate, non ex necessitate. Sed justificamur
+              gratis, ut patet Rom. 3. Ergo non est necessarium quod justificemur, quantumcumque
+              simus praeparati.</p>
+            <p xml:id="ta-l4d17q1-d1e396">Praeterea, Deus comparatur ad nos sicut figulus ad lutum, ut patet Isai. 64, et
+              Hierem. 18, et Rom. 9. Sed quantumcumque lutum sit praeparatum, non est necessarium
+              quod ex eo formetur vas. Ergo quantumcumque homo sit praeparatus, non est necessarium
+              quod ei gratia infundatur.</p>
+            <p xml:id="ta-l4d17q1-d1e399">Praeterea, illud quo posito necesse est alterum esse, videtur sufficienter ad illud
+              ordinari. Sed actus noster, qui sufficienter ad aliquid ordinatur, dicitur esse
+              meritorius illius. Ergo aliquis merebitur justificationem secundum opera quibus se
+              praeparavit, si necessario ad praeparationem illam sequitur justificatio.</p>
+            <p xml:id="ta-l4d17q1-d1e402">Sed contra, impossibile est summam veritatem mentiri. Sed ipsa veritas promisit se
+              gratiam daturum ei qui quod in se est, facit. Zach. 1, 3: <quote xml:id="ta-l4d17q1-Qd1e404">convertimini ad me,
+                et ego convertar ad vos</quote>; et Apoc. 3, 20: <quote xml:id="ta-l4d17q1-Qd1e407">si quis aperuerit mihi,
+                intrabo ad eum</quote>. Ergo necesse est eum qui facit quod in se est,
+              justificari.</p>
+            <p xml:id="ta-l4d17q1-d1e412">Praeterea, Rom. 5, super illud: <quote xml:id="ta-l4d17q1-Qd1e414">justificati ex fide</quote>, dicit Augustinus
+              in Glossa: <quote xml:id="ta-l4d17q1-Qd1e417">Deus recipit confugientes ad se; aliter in eo esset
+                iniquitas</quote>. Sed impossibile est in Deo esse iniquitatem. Ergo necessarium est
+              quod justificet illos qui faciunt quod in se est.</p>
+          </div>
+          <div xml:id="ta-l4d17q1-Dd1e423">
+            <head xml:id="ta-l4d17q1-Hd1e425">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d17q1-d1e428">Respondeo dicendum ad primam quaestionem, quod voluntas, quae est susceptiva
+              perfectionis justitiae, non potest huic perfectioni subjici ab extrinseco agente cui
+              nil conferat; quia hoc esset per violentiam agens, quae in voluntatem non cadit, cum
+              cogi non possit; et ideo oportet quod ipsa cooperetur ad suam perfectionem; et haec
+              cooperatio dicitur praeparatio ad gratiam, quae facit quod in se est. Sed non semper
+              oportet quod talis praeparatio tempore justificationem praecedat, sicut oportet in
+              mutationibus naturalibus quod alteratio tempore semper praecedat generationem; quia
+              cum actus voluntatis sit in sua potestate, a principio potest esse tantum intensus,
+              quantum sufficit ad praeparationem; sed dispositio naturalis ad formam successive ad
+              hanc intentionem procedit. In illis autem qui non per propriam voluntatem culpam
+              incurrunt, et usum voluntatis non habent, non exigitur ex parte eorum aliqua
+              praeparatio, sicut de pueris patet in Baptismo.</p>
+            <p xml:id="ta-l4d17q1-d1e431">Ad primum ergo dicendum, quod justificatio, de qua nunc loquimur, semper est cum
+              cooperatione voluntatis, quae praeparatio dicitur. Sed haec cooperatio, ut dictum est,
+              quandoque diu ante incipit quam gratia infundatur; quandoque autem, quia perfecta est,
+              statim justificationem adjunctam habet; unde potest contingere quod aliquis dum est in
+              proposito et intentione peccandi, subito ejus voluntas convertatur ad Deum, vel ex
+              aliquo exteriori occasionem accipiens, sicut fuit in Paulo; vel etiam ex aliquo
+              interiori instinctu, quo cor hominis movetur a Deo. Unde non sequitur quod talis
+              gratiam habeat non faciens quod in se est.</p>
+            <p xml:id="ta-l4d17q1-d1e434">Ad secundum dicendum, quod homini non praecipitur quod illa bona faciat inimicis suis
+              quorum capaces non sunt, sed illa quae suscipere possunt; et hoc Deus maxime implet,
+              quia bona quibus capaces sunt, scilicet naturalia, eis largitur qui contra ipsum
+              peccando inimicitias exercent. Boni tamen gratiae capaces non sunt nisi voluntate
+              consentiente; et sic quod ipse paratus est dare, illi recipere nolunt.</p>
+            <p xml:id="ta-l4d17q1-d1e437">Ad tertium dicendum, quod talis diffusio boni non potest intelligi nisi aliquis
+              perfectionem illam suscipiat, cui renitens non est capax; et ideo ratio illa procedit
+              ex falso.</p>
+
+          </div>
+          <div xml:id="ta-l4d17q1-Dd1e441">
+            <head xml:id="ta-l4d17q1-Hd1e443">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d17q1-d1e446">Ad secundam quaestionem dicendum, quod praeparatio quae exigitur in materia ad hoc
+              quod formam suscipiat, duo includit; scilicet quod sit in debita proportione ad formam
+              et ad agens quod debet formam inducere; quia nihil se educit de potentia in actum.
+              Debita autem proportio ad suscipiendum actum agentis attenditur secundum debitam
+              approximationem ad agens. In spiritualibus autem non est intelligenda localis
+              approximatio, sed spiritualis, quae est dupliciter. Primo per similitudinem naturae,
+              secundum quod res corruptibiles dicuntur magis a primo distare quam incorruptibiles in
+              2 de Gener., et propter hoc debilius esse recipiunt; et similiter spiritualia
+              propinquiora esse Deo quam corporalia: et propter hoc Angeli, secundum Dionysium,
+              abundantius de divina bonitate recipiunt. Secundo secundum affectum; quia, secundum
+              Augustinum, Deo non loco, sed affectu propinquamus. Sed debita proportio materiae ad
+              formam est dupliciter; scilicet per ordinem naturalem materiae ad formam, et per
+              remotionem impedimenti. Ad hoc ergo quod voluntas se ad gratiam justificantem
+              praeparet, oportet quod se in debita proportione ad Deum qui dat et ad gratiam quae
+              datur, ponat. Sed proportio ad Deum per naturae similitudinem non est in potestate
+              voluntatis; similiter nec proportio capacitatis gratiae, quia haec ei praeexistunt a
+              creatione; unde relinquitur quod in ipsa voluntate sit appropinquare Deo per affectum
+              et desiderium, et ordinari ad gratiam per remotionem impedimenti, quod quidem
+              impedimentum est peccatum; et ideo per displicentiam peccati et affectum ad Deum se
+              aliquis ad gratiam praeparat; et quando haec duo efficaciter facit, dicitur facere
+              quod in se est; et gratiam recipit. De primo horum dicitur Jac. 4, 8:
+                <quote xml:id="ta-l4d17q1-Qd1e448">appropinquate Deo, et appropinquabit vobis</quote>; de secundo Apoc. 3, 20:
+                <quote xml:id="ta-l4d17q1-Qd1e451">si quis aperuerit mihi, intrabo ad eum</quote>.</p>
+            <p xml:id="ta-l4d17q1-d1e455">Ad primum ergo dicendum, quod si opus Deo acceptabile dicatur opus meritorium, tunc
+              planum est quod nec Pharao nec aliquis in peccato mortali existens, potest facere opus
+              Deo acceptum. Si autem omne opus quod est bonum ex genere, et bona intentione factum,
+              dicatur opus acceptabile Deo; tunc dicitur Pharao non potuisse, non quia omnino non
+              potuerit, sed propter fixionem obstinatae voluntatis ad malum, in quam inciderat
+              divina gratia desertus.</p>
+            <p xml:id="ta-l4d17q1-d1e458">Ad secundum dicendum, quod voluntas nostra est omnino pedissequa respectu divinae
+              gratiae, et nullo modo praevia; quia ipsa voluntas bona, quae gratiam gratum facientem
+              praecedit, ex Deo nobis provenit, qui gratuita sua voluntate nos ad hoc provocat vel
+              flagellis, vel aliquo auxilio interiori aut exteriori. Nec tamen voluntas haec est
+              praevia, sed pedissequa respectu gratiae gratum facientis; quia non est causa ipsius,
+              sed aliqualiter ad ipsam viam parat.</p>
+            <p xml:id="ta-l4d17q1-d1e461">Ad tertium dicendum, quod sine gratia gratum faciente non potest recte a mortalibus
+              vita duci, secundum quod ly recte importat rectitudinem ad finem ultimum pertingentem;
+              potest tamen etiam sine ea recte aliquid agi rectitudine quam habet actus ex materia
+              et circumstantiis et fine debito, sed non sine gratia quae dicitur gratuita Dei
+              voluntas.</p>
+            <p xml:id="ta-l4d17q1-d1e465">Ad quartum dicendum, quod recta intentio ad finem ultimum determinate perducens, non
+              potest esse sine fide; sed tamen finis ultimus, scilicet Deus, potest esse in
+              intentione ejus etiam qui finem non habet, per generalem vel naturalem cognitionem
+              quam de Deo habet; unde etiam ille qui fidem non habet, potest se ad fidem habendam
+              praeparare et ad gratiam, si secundum suam cognitionem peccatum sibi displiceat, et in
+              Deum affectus ejus feratur.</p>
+
+          </div>
+          <div xml:id="ta-l4d17q1-Dd1e469">
+            <head xml:id="ta-l4d17q1-Hd1e471">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d17q1-d1e474">Ad tertiam quaestionem dicendum, quod duplex est necessitas; scilicet necessitas
+              absoluta, et necessitas ex suppositione. De prima quidem necessitate loquendo, non est
+              necessarium eum gratiam recipere qui se sufficienter ad gratiam parat; quia neque per
+              se necessitas, secundum quam Deum necesse est esse, neque necessitas coactionis vel
+              prohibitionis, in his quae divina voluntate fiunt, cadere potest. Loquendo autem de
+              necessitate quae est ex suppositione divini propositi, quo propter benevolentiam suae
+              bonitatis voluit unicuique eam communicare secundum suam capacitatem, necessarium est
+              quod cuilibet materiae praeparatae forma infundatur. Non tamen eodem modo est in
+              omnibus formis; quia formae quae mediantibus secundis agentibus in materia
+              producuntur, necessario in materia disposita recipiuntur necessitate conditionata in
+              comparatione ad Deum, cujus virtute cetera agentia agunt; sed necessitate absoluta per
+              comparationem ad agentia proxima, quae necessitate naturae agunt propter ordinem
+              divinitus eis impositum, quem praeterire non possunt. Formae autem quae immediate a
+              Deo inducuntur, non habent necessitatem absolutam ex parte agentis, sed quaedam ex
+              parte recipientis, sicut in perfectionibus quae sunt de esse naturae, ut est anima
+              rationalis. Formae autem quae non debentur naturae, sicut gratia et virtutes,
+              immediate a Deo productae, nihil habent de necessitate absoluta, sed solum de
+              necessitate ex suppositione divini ordinis, ut dictum est.</p>
+            <p xml:id="ta-l4d17q1-d1e477">Et per hoc patet responsio ad objecta; quia primae rationes procedunt de necessitate
+              (absoluta: nos autem loquimur de necessitate) ex suppositione divini propositi.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d17q1-Dd1e483" type="articulus">
+          <head xml:id="ta-l4d17q1-Hd1e485">Articulus 3</head>
+
+          <head xml:id="ta-l4d17q1-Hd1e488" type="questionTitle">Utrum gratiae infusio requiratur ad justificationem</head>
+
+          <div xml:id="ta-l4d17q1-Dd1e491">
+            <head xml:id="ta-l4d17q1-Hd1e493">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d17q1-d1e496">Ad tertium sic proceditur. Videtur quod gratiae infusio non requiratur ad
+              justificationem. Non enim minus est justificare quam creare. Sed Deus creat sine
+              medio. Ergo et justificat sine gratia media.</p>
+            <p xml:id="ta-l4d17q1-d1e499">Praeterea, in contrariis mediatis unum potest removeri sine hoc quod alterum ponatur.
+              Sed inter statum gratiae et culpae est medium innocentiae status. Ergo potest removeri
+              culpa per justificationem sine hoc quod gratia infundatur.</p>
+            <p xml:id="ta-l4d17q1-d1e502">Sed contra, nulli dimittitur peccatum, nisi ratione caritatis; quia caritas est quae
+              universa delicta operit; Proverb. 10. Sed caritas non potest esse sine gratia, quia
+              nunquam est informis. Ergo nec remissio peccatorum potest fieri sine gratiae
+              infusione.</p>
+
+          </div>
+          <div xml:id="ta-l4d17q1-Dd1e506">
+            <head xml:id="ta-l4d17q1-Hd1e508">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d17q1-d1e511">Ulterius. Videtur quod non sit necessarius ad justificationem motus liberi arbitrii
+              in Deum. Ille enim qui trahitur, non movetur libero arbitrio. Sed ille qui venit ad
+              Deum per justificationem, trahitur. Joan. 6, 44: <quote xml:id="ta-l4d17q1-Qd1e513">nemo venit ad me, nisi pater
+                meus traxerit illum</quote>. Ergo in justificatione non est necessarius motus liberi
+              arbitrii.</p>
+            <p xml:id="ta-l4d17q1-d1e517">Praeterea, sicut gratia est a Deo, ita et sapientia. Sed ad hoc quod aliquis accipiat
+              sapientiam a Deo, non exigitur motus liberi arbitrii; unde dormienti datur, ut patet 3
+              Reg. 3, de Salomone; et Job 33, 15, dicitur: <quote xml:id="ta-l4d17q1-Qd1e519">in somno (...) tunc aperit aures
+                virorum</quote>. Ergo et ad gratiam justificantem suscipiendam non requiritur motus
+              liberi arbitrii.</p>
+            <p xml:id="ta-l4d17q1-d1e523">Praeterea, per Baptismum aliquis justificatur. Sed in Baptismo non requiritur motus
+              liberi arbitrii ad effectum ejus suscipiendum; quia pueri et dormientes ejus effectum
+              suscipere possunt, ut dicit decretalis Innocentii III. Ergo ad justificationem non
+              requiritur motus liberi arbitrii in Deum.</p>
+            <p xml:id="ta-l4d17q1-d1e526">Sed contra, Augustinus dicit: <quote xml:id="ta-l4d17q1-Qd1e528">qui creavit te sine te, non justificabit te sine
+                te</quote>. Ergo requiritur motus liberi arbitrii in Deum ad justificationem.</p>
+            <p xml:id="ta-l4d17q1-d1e533">Praeterea, Bernardus dicit, quod donum gratiae tam absque consensu recipientis esse
+              non potest, quam absque gratia dantis. Sed consensus non est sine motu liberi
+              arbitrii. Ergo motus liberi arbitrii ad justificationem requiritur.</p>
+
+          </div>
+          <div xml:id="ta-l4d17q1-Dd1e537">
+            <head xml:id="ta-l4d17q1-Hd1e539">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d17q1-d1e542">Ulterius. Videtur quod iste motus liberi arbitrii in Deum non sit motus fidei. Quia
+              ad hoc quod Deus appropinquet nobis per justificationem, oportet quod nos
+              appropinquemus ei per affectum. Sed per affectum facit nos appropinquare Deo caritas.
+              Ergo iste motus liberi arbitrii in Deum, non est fidei, sed caritatis.</p>
+            <p xml:id="ta-l4d17q1-d1e545">Praeterea, Isa. 26, 18, dicitur: <quote xml:id="ta-l4d17q1-Qd1e547">a timore tuo, domine, concepimus spiritum
+                salutis</quote>. Ergo cum ista conceptio in justificatione fiat, videtur quod sit
+              motus timoris, non fidei.</p>
+            <p xml:id="ta-l4d17q1-d1e551">Praeterea, dispositio et perfectio debent esse in eodem. Sed motus fidei est in
+              intellectu, justificatio autem specialiter in affectu. Ergo non est motus fidei.</p>
+            <p xml:id="ta-l4d17q1-d1e554">Sed contra, Rom. 5, 1: <quote xml:id="ta-l4d17q1-Qd1e556" ana="#rom5_1">justificati per fidem</quote>; et Act. 15, 9:
+                <quote xml:id="ta-l4d17q1-Qd1e559">fide purificans corda eorum</quote>.</p>
+            <p xml:id="ta-l4d17q1-d1e564">Praeterea, justificatio est opus gratiae praevenientis. Sed <quote source="http://scta.info/resource/pl-l2d26c3-d1e108">gratia praeveniens est
+              fides</quote>, ut dixit <ref><name ref="#Lombard">Magister</name> in 2 Lib., dist. 27</ref>. Ergo motus fidei requiritur in
+              justificatione.</p>
+
+          </div>
+          <div xml:id="ta-l4d17q1-Dd1e569">
+            <head xml:id="ta-l4d17q1-Hd1e571">Quaestiuncula 4</head>
+            <p xml:id="ta-l4d17q1-d1e574">Ulterius. Videtur quod non requiratur motus liberi arbitrii in peccatum, sive
+              contritio. Luc. 7, 47: <quote xml:id="ta-l4d17q1-Qd1e576">dimissa sunt ei peccata multa, quoniam dilexit
+                multum</quote>; dicit Glossa, quod ardor caritatis rubiginem peccatorum in ea
+              consumpsit. Sed ardor caritatis potest esse sine motu in peccatum. Ergo ad
+              justificationem non requiritur motus in peccatum.</p>
+            <p xml:id="ta-l4d17q1-d1e580">Praeterea, conversio ad Deum potentior est ad bonum quam conversio ad rem temporalem
+              ad malum. Sed conversio ad bonum commutabile sufficienter induxit culpam. Ergo et
+              conversio ad Deum sufficienter justificat; et sic non requiritur motus in
+              peccatum.</p>
+            <p xml:id="ta-l4d17q1-d1e583">Sed contra est quod dicit Glossa in Psal. 50, super illum locum: <quote xml:id="ta-l4d17q1-Qd1e585">sacrificium
+                Deo spiritus contribulatus</quote> etc.: <quote xml:id="ta-l4d17q1-Qd1e588">spiritus contribulatus et contritus
+                est sacrificium in quo peccata solvuntur</quote>.</p>
+
+          </div>
+          <div xml:id="ta-l4d17q1-Dd1e593">
+            <head xml:id="ta-l4d17q1-Hd1e595">Quaestiuncula 5</head>
+            <p xml:id="ta-l4d17q1-d1e598">Ulterius. Videtur quod non debeat addi quartum, scilicet peccatorum remissio. Quia
+              effectus non connumeratur causae. Sed gratiae infusio et contritio sunt causae
+              remissionis peccati. Ergo non debet connumerari eis.</p>
+            <p xml:id="ta-l4d17q1-d1e601">Praeterea, remotio privationis nihil aliud est quam positio habitus. Sed culpa est
+              privatio gratiae. Ergo idem est remotio culpae et infusio gratiae; et ita non debent
+              ad invicem connumerari.</p>
+            <p xml:id="ta-l4d17q1-d1e604">Sed contra, generatio unius est corruptio alterius; et tamen generatio corruptioni
+              connumeratur. Ergo cum infusio gratiae sit remissio culpae, debet unum alteri
+              connumerari.</p>
+          </div>
+          <div xml:id="ta-l4d17q1-Dd1e608">
+            <head xml:id="ta-l4d17q1-Hd1e610">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d17q1-d1e613">Respondeo dicendum ad primam quaestionem, quod necessitas ponendi virtutum habitus in
+              anima infusos, est ex hoc quod actus illi qui homini necessarii sunt ad vitam aeternam
+              consequendam, sunt supra humanae naturae facultatem: quia propriae vires non
+              sufficiunt ad merendum infinitum bonum. Sicut autem beatitudo futura infinitatem habet
+              ex objecto, et per consequens facit actus suos meritorios aliquo modo infinitae
+              virtutis, ut sint tali fini proportionati; ita offensa in Deum commissa habet quamdam
+              infinitatem ex eo in quem commissa est; et ideo ad culpae remissionem non sufficit
+              humana natura; et propter hoc oportet quod ad ejus remissionem, sicut ad merendum
+              vitam aeternam, gratia infundatur.</p>
+            <p xml:id="ta-l4d17q1-d1e616">Ad primum ergo dicendum, quod gratia in remissione culpae non se habet sicut agens
+              medium, sed sicut causa formalis, qua peccatum remittitur; sicut ignis frigus aufert,
+              calorem in subjecto causando, non sicut instrumentum, sed sicut forma contraria; et in
+              creatione etiam est forma naturalis, qua res creata esse formaliter accipit, vel etiam
+              ipsum quo est, quidquid sit illud.</p>
+            <p xml:id="ta-l4d17q1-d1e619">Ad secundum dicendum, quod quamvis secundum consecutionem argumenti non sequatur
+              positio gratiae ad remotionem, idest negationem, culpae; tamen destructio culpae prius
+              existentis non potest fieri nisi per gratiam: quia illa innocentiae bonitas, quae
+              inter utrumque media videtur, non sufficeret ad hoc quod dignum redderet ab immunitate
+              personae, vel ab infinita offensa commissa prius, quamvis sufficeret ut immunem
+              redderet illum in quo peccatum non praecessit. In eo enim qui peccavit, requiritur non
+              solum quod peccatum absit actu, sed etiam quod peccatum prius commissum expietur, et
+              quodammodo tegatur; quod fieri non potest, nisi aliquo habente infinitam virtutem.</p>
+
+          </div>
+          <div xml:id="ta-l4d17q1-Dd1e623">
+            <head xml:id="ta-l4d17q1-Hd1e625">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d17q1-d1e628">Ad secundam quaestionem dicendum, quod gratia quae datur ad recte vivendum et
+              peccatorum remissionem, per prius respicit voluntatem quam alias potentias: per eam
+              enim peccatur et recte vivitur; et ideo oportet quod infusio gratiae justificantis sit
+              secundum talem modum qui voluntati competat; et propter hoc oportet quod a tali
+              infusione omnis ratio violentiae excludatur, quia violentiae capax non est. Ad hoc
+              autem quod violentia ab actione tollatur, oportet quod patiens cooperetur agenti
+              secundum modum suum; unde in illis quae nata sunt agere, requiritur quod active
+              cooperentur; in illis autem quae sunt nata recipere tantum, sicut materia prima,
+              sufficit ad violentiam tollendam naturalis inclinatio ad formam; et ex hoc dicitur
+              generatio naturalis. Sed quantum est ibi de contrarietate, tantum est ibi de
+              violentia; unde quando voluntas non habet actum contrarium, sicut est in pueris, sine
+              violentia voluntatis potest infundi gratia per sacramentum, sicut pueris baptizatis;
+              et sine sacramento, sicut patet in sanctificatis in utero. Sed quando voluntas habet
+              suum actum, sicut est in adultis, requiritur actus voluntatis ad gratiam suscipiendam,
+              animam ad datorem ordinans; et ideo ad justificationem, quae per infusionem gratiae
+              fit, requiritur motus liberi arbitrii in Deum.</p>
+            <p xml:id="ta-l4d17q1-d1e631">Ad primum ergo dicendum, quod tractio illa de qua dominus loquitur, non importat
+              coactionem, sed inductionem, vel adjutorium ad bene operandum.</p>
+            <p xml:id="ta-l4d17q1-d1e634">Ad secundum dicendum, quod sapientia magis respicit intellectum quam voluntatem, sed
+              gratia magis voluntatem, ut dictum est; et quia intellectus cogi potest, non autem
+              voluntas; ideo ad sapientiam percipiendam, et alias intellectus perfectiones, non
+              requiritur consensus suscipientis, sicut ad perfectionem gratiae; unde in somno fiunt
+              revelationes eorum quae ad sapientiam pertinent, ut patet Num. 2: non autem gratiae
+              infusio.</p>
+            <p xml:id="ta-l4d17q1-d1e637">Ad tertium dicendum, quod per Baptismum etiam adulti gratiam suscipere possunt in
+              dormiendo: quia quamvis non adsit actualis dispositio ex actuali motu voluntatis,
+              adest tamen habitualis dispositio ex motu liberi arbitrii praecedente: qui quidem
+              quandoque ad gratiam percipiendam sufficienter disponit, et tunc gratia infunditur
+              statim, ut dictum est; quandoque autem insufficienter, et tunc talis insufficientia
+              non potest suppleri nisi per alium actum liberi arbitrii, vel per sacramentum, quod ad
+              gratiam dispositive operatur, ut supra, dist. 1, dictum est; et propter hoc sine
+              sacramento nullus adultus justificari potest, nisi actualiter motu liberi arbitrii
+              existente; sed per sacramentum potest, si tamen praecessit motus liberi arbitrii
+              prohibens fictionem.</p>
+
+          </div>
+          <div xml:id="ta-l4d17q1-Dd1e641">
+            <head xml:id="ta-l4d17q1-Hd1e643">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d17q1-d1e646">Ad tertiam quaestionem dicendum, quod omne quod natum est ex pluribus sequi,
+              attribuitur ei quod primum est; sicut vita attribuitur animae nutritivae, quia ipsa
+              est prior inter principia vitae in viventibus corporaliter. Similiter dicitur animal
+              esse animal per sensum primum, qui est tactus, ut patet in 3 de anima. Unde si
+              justificatio sequitur ad motum liberi arbitrii in Deum, oportet quod attribuatur illi
+              motui qui naturaliter prior in justificatione apparet. Movetur autem mens in Deum et
+              per intellectum et per affectum, et hi duo motus mentis simul esse possunt, quamvis
+              non simul cogitari possint: quia unus est regula alterius, et per actum intellectus
+              praesentatur suum objectum voluntati, quia objectum ejus est bonum imaginatum vel
+              intellectum, ut philosophus dicit in 3 de anima. Sed naturaliter motus intellectus
+              praecedit, sicut objectum naturaliter praecedit actum potentiae; unde cum motus
+              intellectus in Deum sit per fidem, justificatio motum fidei requirit.</p>
+            <p xml:id="ta-l4d17q1-d1e649">Ad primum ergo dicendum, quod motum liberi arbitrii, cum quo gratia infunditur,
+              oportet accipi in sua ultima perfectione. Actus autem fidei perfectus non est, nisi
+              actu affectus perfecto existente: nullus enim credit nisi qui vult, ut Augustinus
+              dicit; et ideo cum actu fidei in justificatione semper adjungitur actus caritatis; et
+              his duobus anima Deo appropinquat. Non enim potest esse dubium quin actui caritatis
+              semper actus fidei conjungatur, ex quo objectum per fidem caritati praesentatur: sicut
+              etiam intelligere nostrum nunquam est in actu nisi per imaginationem in actu
+              existentem.</p>
+            <p xml:id="ta-l4d17q1-d1e652">Ad secundum dicendum, quod timor est remota dispositio ad gratiam: nunquam enim ad
+              gratiam attingit, nisi amor adjungatur. Nos autem loquimur hic de dispositione ultima
+              ad gratiam, cum qua gratia datur.</p>
+            <p xml:id="ta-l4d17q1-d1e655">Ad tertium dicendum, quod non oportet in eodem esse dispositionem et perfectionem in
+              rebus ad invicem ordinatis: quia dispositio facta in priori ordinat ad perfectionem
+              factam in posteriori, sicut motus imaginationis est dispositio ad perfectionem
+              intellectus; et similiter motus in intellectu factus potest esse dispositio ad motum
+              affectus.</p>
+
+          </div>
+          <div xml:id="ta-l4d17q1-Dd1e659">
+            <head xml:id="ta-l4d17q1-Hd1e661">Quaestiuncula 4</head>
+            <p xml:id="ta-l4d17q1-d1e664">Ad quartam quaestionem dicendum, quod sicut in generationibus naturalibus, in quibus
+              una forma expellitur et altera introducitur, propter hoc quod generatio unius est
+              corruptio alterius, oportet esse disponens ad utrumque; ita in justificatione, qua
+              gratia confertur et culpa expellitur, oportet esse dispositionem voluntatis secundum
+              proprium actum ad utrumque. Et ideo sicut per motum liberi arbitrii in Deum disponitur
+              ille qui justificatur, ad gratiam obtinendam; ita per motum liberi arbitrii in
+              peccatum, oportet quod ad culpae expulsionem disponatur; et ideo in justificatione qua
+              innocens justificatur, oportet esse dispositionem solum ad gratiam inducendam; sed in
+              justificatione qua justificatur impius, oportet dispositionem esse duplicem; unam ad
+              introducendum gratiam, scilicet motum liberi arbitrii in Deum; alteram ad expellendam
+              culpam, scilicet motum liberi arbitrii in peccatum.</p>
+            <p xml:id="ta-l4d17q1-d1e667">Ad primum ergo dicendum, quod fervor dilectionis de necessitate secum conjunctum
+              habet odium contrarii; et ideo fervor dilectionis ad dimissionem culpae non operatur
+              sine peccati detestatione, quae directe dimissioni culpae respondeat.</p>
+            <p xml:id="ta-l4d17q1-d1e670">Ad secundum dicendum, quod conversio ad Deum sufficit ad gratiam obtinendam quantum
+              in se est, sicut conversio ad bonum commutabile sufficit ad culpam; sed requiritur
+              conversio ad peccatum quasi removens impedimentum. Vel dicendum, quod etiam in peccato
+              conversio non facit culpam sine aversione; et similiter oportet duo esse in
+              justificatione.</p>
+
+          </div>
+          <div xml:id="ta-l4d17q1-Dd1e675">
+            <head xml:id="ta-l4d17q1-Hd1e677">Quaestiuncula 5</head>
+            <p xml:id="ta-l4d17q1-d1e680">Ad quintam quaestionem dicendum, quod illa quae per accidens se habent ad aliquid,
+              non includuntur ab illo. Remissio autem culpae se habet accidentaliter ad gratiae
+              infusionem, quia accidit ex subjecto in quo culpam invenit: posset enim esse infusio
+              gratiae sine hoc quod culpa remitteretur, sicut in statu innocentiae fuit, et in
+              Christo homine quantum ad primum instans suae conceptionis; et ideo infusio gratiae
+              non includit culpae remissionem. Unde cum ad justificationem impii, de qua loquimur,
+              sit necessaria culpae remissio, oportet quod connumeretur gratiae infusioni; et sic
+              sunt quatuor quae requiruntur in ipsa justificatione: scilicet gratiae infusio, culpae
+              remissio, motus liberi arbitrii in Deum, et motus liberi arbitrii in peccatum.</p>
+            <p xml:id="ta-l4d17q1-d1e683">Ad primum ergo dicendum, quod objectio illa procedit de effectu proportionato causae
+              qui includitur in ipsa causa; non est autem ita de peccati remissione, ut dictum
+              est.</p>
+            <p xml:id="ta-l4d17q1-d1e686">Ad secundum dicendum, quod peccatum et gratia non se habent sicut affirmatio et
+              negatio, vel sicut privatio et habitus: quia aliquis potest esse gratia destitutus, et
+              tamen non habebit peccatum, sicut patet de Adam secundum illos qui dicunt eum non
+              fuisse in gratia creatum, quia peccatum aliquid ponit vel esse vel fuisse in peccante.
+              Transeunte enim actu peccati, adhuc peccatum praecedens manet aliquo modo in ipso
+              peccante, secundum quod ex eo reus apud Deum efficitur, sicut etiam actus meritorii
+              manent, ut supra, dist. 14, dictum est; et ideo ratio non procedit.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d17q1-Dd1e691" type="articulus">
+          <head xml:id="ta-l4d17q1-Hd1e693">Articulus 4</head>
+
+          <head xml:id="ta-l4d17q1-Hd1e696" type="questionTitle">Utrum culpae remotio naturaliter praecedat gratiae
+            infusionem</head>
+
+          <div xml:id="ta-l4d17q1-Dd1e699">
+            <head xml:id="ta-l4d17q1-Hd1e701">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d17q1-d1e704">Ad quartum sic proceditur. Videtur quod culpae remotio naturaliter praecedat gratiae
+              infusionem. In Psalm. 62, ubi super illud: <quote xml:id="ta-l4d17q1-Qd1e706">sic in sancto apparui tibi</quote>,
+              dicit Glossa: <quote xml:id="ta-l4d17q1-Qd1e709">nisi quis prius sitiat in isto deserto</quote> (idest malo)
+                <quote xml:id="ta-l4d17q1-Qd1e712">in quo est, nunquam perveniet ad bonum</quote>. Ergo remissio mali culpae est
+              prior quam perventio ad bonum gratiae.</p>
+            <p xml:id="ta-l4d17q1-d1e716">Praeterea, remissio culpae et infusio gratiae se habent sicut illuminatio et
+              purgatio. Sed purgatio praecedit illuminationem, secundum Dionysium. Ergo et remissio
+              culpae praecedit gratiae infusionem.</p>
+            <p xml:id="ta-l4d17q1-d1e719">Praeterea, in quolibet motu recessus a termino a quo, praecedit accessum ad terminum
+              ad quem: vel tempore, si sit motus successivus; vel saltem natura, si sit mutatio
+              subita. Sed justificationis terminus a quo est culpa; terminus ad quem est gratia.
+              Ergo remissio culpae praecedit infusionem gratiae.</p>
+            <p xml:id="ta-l4d17q1-d1e722">Sed contra est, quia causa naturaliter praecedit effectum. Sed infusio gratiae est
+              causa remissionis culpae, quia infundendo gratiam Deus peccata remittit. Ergo infusio
+              gratiae praecedit.</p>
+            <p xml:id="ta-l4d17q1-d1e726">Praeterea, Ambrosius dicit, quod perfecta virtus in animam intrans, iniquitatem
+              tollit. Sed prius est unumquodque naturaliter quam agat. Ergo prius est virtus et
+              gratia, quam peccatum tollat.</p>
+
+          </div>
+          <div xml:id="ta-l4d17q1-Dd1e730">
+            <head xml:id="ta-l4d17q1-Hd1e732">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d17q1-d1e735">Ulterius. Videtur quod motus liberi arbitrii praecedat gratiae infusionem. Quia
+              dispositio praecedit naturaliter perfectionem. Sed motus liberi arbitrii est
+              dispositio ad gratiam. Ergo naturaliter praecedit gratiae infusionem.</p>
+            <p xml:id="ta-l4d17q1-d1e738">Praeterea, gratiae infusio et culpae remissio se concomitantur. Sed motus
+              contritionis, qui est motus liberi arbitrii in peccatum, causat culpae remissionem.
+              Ergo est prior quam gratiae infusio.</p>
+            <p xml:id="ta-l4d17q1-d1e741">Praeterea, justificatio impii, ut ex dictis patet, est culpae remissio. Ergo illud
+              quod sequitur ad culpae remissionem, sequitur ad justificationem. Sed motus liberi
+              arbitrii non sequitur ad justificationem, sed est de essentia. Ergo non sequitur
+              peccati remissionem; et sic idem quod prius.</p>
+            <p xml:id="ta-l4d17q1-d1e744">Sed contra, motus liberi arbitrii, scilicet contritio, est meritorius. Ergo est
+              informatus gratia. Sed gratia informans actum est prior eo, cum sit causa ejus. Ergo
+              gratiae infusio et culpae remissio praecedunt motum liberi arbitrii.</p>
+            <p xml:id="ta-l4d17q1-d1e748">Praeterea, actus primus praecedit actum secundum. Sed gratiae infusio et culpae
+              remissio pertinent ad actum primum, qui est forma; motus autem liberi arbitrii sive in
+              Deum sive in peccatum, pertinent ad actum secundum, qui est operatio. Ergo prior est
+              eis gratiae infusio.</p>
+
+          </div>
+          <div xml:id="ta-l4d17q1-Dd1e752">
+            <head xml:id="ta-l4d17q1-Hd1e754">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d17q1-d1e757">Ulterius. Videtur quod motus liberi arbitrii in peccatum praecedat motum liberi
+              arbitrii in Deum. Quia motus liberi arbitrii in peccatum maxime videtur ad timorem
+              pertinere. Sed timor praecedit caritatem, ut Augustinus dicit. Ergo et motus liberi
+              arbitrii in peccatum praecedit motum liberi arbitrii in Deum, qui est caritatis.</p>
+            <p xml:id="ta-l4d17q1-d1e760">Praeterea, motus liberi arbitrii in peccatum est quasi removens prohibens. Sed non
+              sequitur motus ad terminum debitum nisi remoto prohibente, sicut patet in motu locali.
+              Ergo motus liberi arbitrii in peccatum praecedit motum liberi arbitrii in Deum quasi
+              in finem debitum.</p>
+            <p xml:id="ta-l4d17q1-d1e763">Sed contra, motus liberi arbitrii in Deum est motus fidei; motus autem liberi
+              arbitrii in peccatum est motus poenitentiae. Sed fides praecedit poenitentiae
+              virtutem, sicut supra dictum est. Ergo videtur quod motus liberi arbitrii in Deum sit
+              prior quam motus liberi arbitrii in peccatum.</p>
+          </div>
+          <div xml:id="ta-l4d17q1-Dd1e768">
+            <head xml:id="ta-l4d17q1-Hd1e770">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d17q1-d1e773">Respondeo dicendum ad primam quaestionem, quod omnis prioritas secundum ordinem
+              naturae aliquo modo reducitur ad ordinem causae et causati: quia principium et causa
+              sunt idem. In causis autem contingit quod idem est causa et causatum, secundum
+              diversum genus causae, ut patet in 2 Physic., et in 5 Metaph.: sicut ambulatio est
+              causa efficiens sanationis, et sanatio est causa finalis ambulationis; et similiter de
+              habitudine quae est inter materiam et formam: quia secundum genus causae materialis
+              materia est causa formae quasi sustentans ipsam, et forma est causa materiae quasi
+              faciens eam esse actu secundum genus causae formalis. Ex parte autem causae materialis
+              se tenet secundum quemdam reductionem omne illud per quod materia efficitur propria
+              hujus formae, sicut dispositiones et remotiones impedimentorum; et ideo in generatione
+              naturali quando corruptio unius est generatio alterius per hoc quod forma una
+              inducitur et alia expellitur, remotio formae praeexistentis se tenet ex parte causae
+              materialis; et ideo secundum ordinem causae materialis praecedit naturaliter
+              introductionem alterius formae; sed secundum ordinem causae formalis est e contrario.
+              Et quia forma et finis et agens incidunt in idem numero vel specie, ideo etiam in
+              ordine causae efficientis introductio formae prior est: quia forma prior introducta,
+              est similitudo formae agentis, per quam agens agit; et similiter in ordine causae
+              finalis: quia natura principaliter intendit introductionem formae, et ad hanc ordinat
+              expulsionem omnis ejus cum quo non potest stare formae introductio. Unde cum gratiae
+              infusio et remissio culpae, ut ex dictis patet, se habeat sicut introductio unius
+              formae et expulsio alterius, constat quod secundum ordinem causae materialis remissio
+              culpae praecedit infusionem gratiae; sed secundum ordinem causae formalis, efficientis
+              et finalis, infusio gratiae natura prior est; et propter hoc etiam utrumque invenitur
+              dici causa alterius. Infusio enim gratiae est causa remissionis culpae per modum
+              causae formalis; sed extirpatio vitiorum dicitur operari virtutum ingressum per modum
+              causae materialis.</p>
+            <p xml:id="ta-l4d17q1-d1e776">Et per hoc patet responsio ad objecta.</p>
+
+          </div>
+          <div xml:id="ta-l4d17q1-Dd1e780">
+            <head xml:id="ta-l4d17q1-Hd1e782">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d17q1-d1e785">Ad secundam quaestionem dicendum, quod de ordine illorum motuum liberi arbitrii ad
+              gratiae infusionem et remissionem culpae, est multiplex opinio. Quidam enim dicunt,
+              quod motus praedicti praecedunt; et concedunt quod motus liberi arbitrii in Deum est
+              motus fidei non formatae, sed informis; et motus liberi arbitrii in peccatum est motus
+              attritionis, non contritionis: quia omne quod praecedit gratiam, non potest esse per
+              gratiam formatum. Sed hoc non potest esse: quia in ipso motu contritionis justificatur
+              poenitens, sicut in ipso actu ablutionis baptismalis justificatur puer baptizatus.
+              Tunc autem aliquis justificatur quando gratiam recipit; unde simul cum gratiae
+              infusione et justificatione est motus contritionis; sed motus attritionis praecedit
+              quasi praeparatorius. Nos autem nunc non loquimur de praeparatoriis ad
+              justificationem, sed de his quae intrant substantiam ipsius. Et ideo quidam dicunt,
+              quod gratiae infusio praecedit motus liberi arbitrii in Deum et in peccatum, ut possit
+              eos informare; sed culpae remissio sequitur ad utrumque. Sed hoc non potest esse: quia
+              inter gratiae infusionem et culpae remissionem non cadit medium, quia hoc est ejus
+              effectus primus et principalis. Et praeterea, sicut ad contritionis motum requiritur
+              quod adsit gratia; ita quod absit culpa; quia cum ea esse non potest. Et ideo alii
+              dicunt, quod gratiae infusio et culpae remissio praecedunt motus praedictos
+              simpliciter. Sed hoc etiam non videtur usquequaque verum: quia illi motus non
+              requirerentur ad justificationem, nisi aliquam causalitatem haberent respectu illius.
+              Et ideo dicendum est, quod aliquo modo gratiae infusio et culpae remissio praecedunt;
+              aliquo autem modo praedicti motus: quod patet ex simili in generatione naturali, quae
+              est terminus alterationis. In eodem enim instanti terminatur alteratio ad
+              dispositionem quae est necessitas, et generatio ad formam; et tamen secundum ordinem
+              naturae utrumque est prius altero aliquo modo: quia dispositio quae est necessitas,
+              praecedit formam secundum ordinem causae materialis; sed forma est prior secundum
+              ordinem causae formalis; et secundum hunc modum illa qualitas consummata est etiam
+              formalis effectus formae substantialis, secundum quod forma substantialis est causa
+              accidentalium; et ideo cum isti motus, qui sunt in ipsa justificatione impii, sint
+              quasi dispositio ultima ad gratiae susceptionem suo modo, praecedunt quidem in via
+              causae materialis, sed sequuntur in via causae formalis; et ideo nihil prohibet eos
+              esse formatos, quia hoc ad rationem et perfectionem esse formalis pertinet; sicut
+              qualitates quae introducuntur simul cum forma substantiali, quodammodo formantur per
+              formam substantialem: et sicut qualitas praedicta ante sui consummationem et formae
+              introductionem non erat formata, sed informis; ita etiam est de motu liberi arbitrii,
+              si tamen continuatus in fine perficiatur per gratiae infusionem. Nec est inconveniens:
+              quia etsi sit aliquo modo idem secundum genus naturae, non tamen est idem secundum
+              genus moris. Contingit enim unum motum secundum genus naturae esse virtutis et vitii
+              secundum genus moris, sicut patet de illo qui eundo ad Ecclesiam mutat intentionem de
+              malo in bonum.</p>
+            <p xml:id="ta-l4d17q1-d1e788">Et per hoc patet responsio ad objecta.</p>
+
+          </div>
+          <div xml:id="ta-l4d17q1-Dd1e792">
+            <head xml:id="ta-l4d17q1-Hd1e794">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d17q1-d1e797">Ad tertiam quaestionem dicendum, quod motus liberi arbitrii in Deum, ut ex dictis
+              patet, directe respondet gratiae infusioni; motus autem liberi arbitrii in peccatum
+              directe respondet remissioni culpae; unde eadem ratio est de ordine istorum ad
+              invicem, et de ordine remissionis culpae ad infusionem gratiae.</p>
+            <p xml:id="ta-l4d17q1-d1e800">Ad primum ergo dicendum, quod Augustinus loquitur de timore servili, cujus actus non
+              est motus liberi arbitrii qui est simul cum justificatione: quia timor servilis non
+              est simul cum gratia, qua iste motus informatur; et ideo ratio non est ad
+              propositum.</p>
+            <p xml:id="ta-l4d17q1-d1e803">Ad secundum dicendum, quod ratio illa procedit, quod sit prior in via causae
+              materialis, ad quam reducitur remotio impedimenti.</p>
+            <p xml:id="ta-l4d17q1-d1e806">Ad tertium dicendum, quod ordo qui attenditur inter virtutes, est secundum quod
+              eliciunt actus suos, quod per modum causae formalis faciunt; et ideo ratio illa
+              procedit secundum viam causae formalis.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d17q1-Dd1e811" type="articulus">
+          <head xml:id="ta-l4d17q1-Hd1e813">Articulus 5</head>
+
+          <head xml:id="ta-l4d17q1-Hd1e816" type="questionTitle">Utrum justificatio impii sit miraculosa</head>
+
+          <div xml:id="ta-l4d17q1-Dd1e819">
+            <head xml:id="ta-l4d17q1-Hd1e821">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d17q1-d1e824">Ad quintum sic proceditur. Videtur quod justificatio impii sit miraculosa. Quia,
+              sicut dicit Augustinus, majus est de impio facere pium quam creare caelum et terram.
+              Sed creatio caeli et terrae est miraculosa. Ergo et justificatio impii.</p>
+            <p xml:id="ta-l4d17q1-d1e827">Praeterea, quanto est major resistentia, tanto difficilior actio. Sed in creatione
+              non est aliqua resistentia: quia quod non est, non potest resistere; in justificatione
+              autem impii est contrarietas resistens, scilicet impietas inventa in eo. Ergo est
+              difficilior; et sic idem quod prius.</p>
+            <p xml:id="ta-l4d17q1-d1e830">Praeterea, omnis actio divina, quae fit praeter ordinem illius rei in quam operatur,
+              est actio miraculosa; sicut praeter ordinem cadaveris est quod ad vitam reparetur; et
+              ideo resuscitatio mortui divina virtute facta, est miraculosa. Sed quod voluntas ad
+              aliquid trahatur, contra ordinem ipsius est, inquantum est libera. Cum ergo in
+              justificatione impii trahatur a Deo ad bonum, videtur quod justificatio sit
+              miraculosa.</p>
+            <p xml:id="ta-l4d17q1-d1e833">Sed contra, justificatio non est praeter spem proveniens. Sed hoc est de ratione
+              miraculi. Ergo justificatio non est miraculosa.</p>
+            <p xml:id="ta-l4d17q1-d1e837">Praeterea, miracula dicuntur quae raro accidunt. Sed frequenter aliqui justificantur.
+              Ergo non est miraculosa actio.</p>
+
+          </div>
+          <div xml:id="ta-l4d17q1-Dd1e841">
+            <head xml:id="ta-l4d17q1-Hd1e843">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d17q1-d1e846">Ulterius. Videtur quod infusio gratiae et remissio culpae non sint in eodem instanti.
+              Gratia enim non datur nisi digno. Sed nullus est dignus in quo culpa est. Ergo gratia
+              datur ei a quo culpa jam remota est; et sic non sunt simul.</p>
+            <p xml:id="ta-l4d17q1-d1e849">Praeterea, gratia adveniens expellit culpam. Sed nihil agit nisi postquam est. Gratia
+              autem non prius est quam insit. Ergo oportet quod gratia prius sit in subjecto quam
+              culpam expellat; et ita non sunt simul tempore gratiae infusio et culpae remissio.</p>
+            <p xml:id="ta-l4d17q1-d1e852">Praeterea, culpa et gratia non sunt in eodem instanti in anima: quia contraria non
+              sunt simul in eodem. Ergo instans in quo ultimo est culpa in anima, est aliud ab illo
+              instanti in quo primo est gratia in ipsa. Sed inter quaelibet duo instantia est tempus
+              medium. Ergo prius tempore expellitur culpa ab anima quam gratia infundatur.</p>
+            <p xml:id="ta-l4d17q1-d1e855">Sed contra, inter prius et posterius temporis cadit tempus medium. Sed postquam culpa
+              est expulsa ab anima, non est in ipsa, nec gratia inest antequam infundatur. Ergo si
+              prius tempore culpa expellatur quam gratia infundatur, erit aliquod tempus in quo
+              anima gratia et culpa carebit; quod est impossibile: quia dato quod in illo tempore
+              moreretur, neque iret ad Infernum neque ad Paradisum finaliter; quod est
+              impossibile.</p>
+            <p xml:id="ta-l4d17q1-d1e859">Praeterea, remissio culpae et infusio gratiae se habent in justificatione sicut
+              introductio unius formae et expulsio alterius in generatione naturali. Sed illa duo
+              sunt in eodem instanti. Ergo et haec duo. Probatio mediae. Quia terminus cujuslibet
+              motus est in instanti. Sed utrumque praedictorum est terminus alterationis, ut in 6
+              Physic. dicit Commentator. Ergo sunt in eodem instanti.</p>
+
+          </div>
+          <div xml:id="ta-l4d17q1-Dd1e863">
+            <head xml:id="ta-l4d17q1-Hd1e865">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d17q1-d1e868">Ulterius. Videtur quod sit successiva. Quia nullus motus est in instanti. Sed in ipsa
+              justificatione est motus liberi arbitrii. Ergo non est in instanti, sed
+              successiva.</p>
+            <p xml:id="ta-l4d17q1-d1e871">Praeterea, sicut intellectus est simplex, ita et liberum arbitrium est simplex. Sed
+              propter simplicitatem intellectus impossibile est simul plura intelligere. Ergo
+              propter simplicitatem liberi arbitrii impossibile est liberum arbitrium simul ferri ad
+              diversa. Ergo cum in justificatione impii sit motus liberi arbitrii in Deum, et in
+              peccatum, non erit justificatio impii in instanti, sed successiva.</p>
+            <p xml:id="ta-l4d17q1-d1e874">Praeterea, impossibile est idem simul esse et non esse. Sed quod fit, non est in
+              permanentibus; quod autem est factum, est in eisdem. Ergo impossibile est simul fieri
+              et factum esse. Sed justificatio est quoddam fieri. Ergo impossibile est simul
+              justificari et justificatum esse: ergo justificatio est successiva: quia inter
+              quodlibet prius et posterius instans temporis, cadit tempus medium, ut dictum est.</p>
+            <p xml:id="ta-l4d17q1-d1e877">Praeterea, formae quae suscipiunt magis et minus, non inducuntur subito in subjectum.
+              Sed gratia suscipit magis et minus. Ergo successive infunditur in subjecto; et sic
+              justificatio est successiva.</p>
+            <p xml:id="ta-l4d17q1-d1e881">Sed contra, efficacior est virtus divina ad agendum quam virtus naturae. Sed virtute
+              naturae generatio, qua fit ignis, est in instanti. Ergo multo fortius aliquis fit
+              justus virtute divina in instanti.</p>
+          </div>
+          <div xml:id="ta-l4d17q1-Dd1e886">
+            <head xml:id="ta-l4d17q1-Hd1e888">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d17q1-d1e891">Respondeo dicendum ad primam quaestionem, quod de ratione miraculi secundum se sumpti
+              tria sunt: quorum primum est, quod illud quod fit per miraculum, fit supra virtutem
+              naturae creatae agentis; secundum, ut in natura recipiente non sit ordo naturalis ad
+              illius susceptionem, sed solum potentia obedientiae ad Deum; tertium, ut praeter modum
+              consuetum tali effectui ipse effectus inducatur. Exemplum primi est de gloria corporum
+              in resurrectione, ad quam natura non attingit: exemplum secundi est de illuminatione
+              caeci, in quo non est potentia naturalis ad suscipiendum visum: exemplum tertii est de
+              conversione aquae in vinum praeter cursum naturae. Et haec tria aliquo modo semper
+              concurrunt ad actum miraculosum: quia etsi visiva potentia non excedat vires naturae
+              absolute loquendo, quia eam per generationem inducit; excedit tamen vires naturae
+              considerata impotentia recipientis; et si adsit potentia absolute aliquando, sicut in
+              conversione aquae in vinum, tamen per comparationem ad modum fiendi, neutrum adest; et
+              ideo in definitione miraculi ponitur <quote xml:id="ta-l4d17q1-Qd1e893">arduum</quote> quantum ad primum;
+                <quote xml:id="ta-l4d17q1-Qd1e896">praeter spem</quote>, scilicet naturae, quantum ad secundum;
+                <quote xml:id="ta-l4d17q1-Qd1e899">insolitum</quote> quantum ad tertium; et ideo ille effectus qui immediate est
+              a Deo tantum, et tamen inest recipienti ordo naturalis ad recipiendum illum effectum
+              non per alium modum quam per istum, non erit miraculosus; sicut patet de infusione
+              animae rationalis. Et similiter est de justificatione impii: quia ordo naturalis inest
+              animae ad justitiae rectitudinem consequendam: nec alio modo eam consequi potest quam
+              a Deo immediate; et ideo justificatio impii de se non est miraculosa; sed potest
+              habere aliquid miraculosum adjunctum, quod justificationi viam parat.</p>
+            <p xml:id="ta-l4d17q1-d1e903">Ad primum ergo dicendum, quod verbum Augustini intelligendum est quantum ad id quod
+              fit: quia in creatione fit res secundum esse naturae, quod est minus quam esse
+              gratiae, quod datur in justificatione: sed quantum ad modum faciendi difficilior est
+              creationis actus, qui potentiam non praesupponit; et tamen de creatione quidam dicunt
+              quod non est miraculosa, eo quod est alius modus producendi illas res in esse.</p>
+            <p xml:id="ta-l4d17q1-d1e906">Ad secundum dicendum, quod contrarium inventum in subjecto resistit actioni
+              dupliciter. Uno modo inquantum agit in ipsum agentem, quod patet in mutuo agentibus et
+              patientibus; alio modo impedimentum praestando in ipso susceptibili ad receptionem
+              formae. Primo modo non potest esse aliqua resistentia ad divinam actionem; quia ipse
+              est agens nullo modo patiens; et ideo resistentia in actione ejus non est nisi ex
+              parte effectus recipientis; contrarium autem impedit ne suum contrarium in subjectum
+              recipiatur formaliter, non active, inquantum scilicet facit potentiam non esse
+              propriam illi formae. Unde patet quod plus resistit isto modo illud quod omnino
+              subtrahit potentiam, quam quod posita potentia facit eam non esse propriam; et ideo
+              difficilius est aliquid facere ex nihilo quam ex contrario. Hoc autem potest natura,
+              primum autem non potest.</p>
+            <p xml:id="ta-l4d17q1-d1e909">Ad tertium dicendum, quod voluntas non trahitur in justificationem per modum
+              coactionis; sed ut libere velit illud ad quod Deus eam movet.</p>
+
+          </div>
+          <div xml:id="ta-l4d17q1-Dd1e913">
+            <head xml:id="ta-l4d17q1-Hd1e915">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d17q1-d1e918">Ad secundam quaestionem dicendum, quod expulsio formae dicit terminum motus illius
+              qui est ad corruptionem ordinatus; et introductio formae dicit similiter terminum
+              motus illius qui praecedit generationem; quia tam generatio quam corruptio sunt
+              termini motus. Omne autem quod movetur, quando est in termino motus, disponitur
+              secundum illud ad quod motus ordinatur; et ideo, cum motus corruptionis tendat in non
+              esse, generationis vero ad esse; quando forma introducitur, forma est; quando autem
+              expellitur, non est. Et quia introduci dicitur forma quando primo est; expelli autem,
+              quando primo non est; non potest esse materia sine forma hac vel illa; et ideo simul
+              est ibi expulsio unius formae et introductio alterius. Cum ergo similiter anima non
+              possit esse sine culpa vel gratia; simul est infusio gratiae et remissio culpae.</p>
+            <p xml:id="ta-l4d17q1-d1e921">Ad primum ergo dicendum, quod sicut albedo nunquam est in non albo, quia sua
+              praesentia facit album; ita gratia nunquam est in indigno, quia sua praesentia facit
+              dignum; et propter hoc non oportet quod prius sit dignus quam gratiam habeat.</p>
+            <p xml:id="ta-l4d17q1-d1e924">Ad secundum dicendum, quod gratia non agit ad destructionem culpae per modum causae
+              efficientis, sed per modum causae formalis, quae simul est cum suo effectu formali,
+              qui est esse hoc, et non esse contrarium.</p>
+            <p xml:id="ta-l4d17q1-d1e927">Ad tertium dicendum, quod quamvis anima secundum se sit supra tempus, ut dicitur in
+              Lib. de causis; tamen actus ejus per accidens mensuratur tempore quod est mensura
+              primi motus, inquantum scilicet motus animae intellectivae habent connexionem cum
+              motibus animae sensitivae, qui exercentur corporalibus organis, et dependent
+              quodammodo ex eis. Unde non videtur dicendum quod ejus alterationes secundum vitam
+              quam nunc agit, alio tempore mensurentur quam illo quod mensurat motum caeli, sicut
+              dicebatur in 1 Lib. de motu Angeli: et propter hoc inter quodlibet instans sui
+              temporis et aliud instans est accipere tempus medium. Et ideo dicendum est, quod non
+              est assignare ultimum instans in quo est culpa, sed primum in quo non est; sed est
+              assignare primum instans in quod est gratia; et quomodo hoc sit verum, patet ex his
+              quae dicta sunt supra, dist. 11, qu. 1, art. 3, qu. 2, de transubstantiatione panis in
+              corpus Christi.</p>
+
+          </div>
+          <div xml:id="ta-l4d17q1-Dd1e931">
+            <head xml:id="ta-l4d17q1-Hd1e933">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d17q1-d1e936">Ad tertiam quaestionem dicendum, quod duplex est modus formarum. Quaedam enim formae
+              sunt quae recipiunt magis et minus secundum elongationem a contrario, et secundum
+              accessum ad causam propriam, sicut albedo; et ideo talis forma etiam successive in
+              subjecto recipitur; et postquam recepta est, intenditur et remittitur. Quaedam autem
+              forma est quae non recipit magis nec minus, neque sic neque sic: quia introductio ejus
+              est in indivisibili; sicut forma substantialis; et talis forma neque recipitur
+              successive in subjecto, neque intenditur neque remittitur postquam suscepta fuerit.
+              Quaedam autem forma medio modo se habet; quia non recipit magis aut minus secundum
+              elongationem a contrario, eo quod nullo modo suo contrario commiscibilis est, et in
+              hoc convenit cum forma substantiali; sed tamen suscipit magis et minus secundum
+              accessum ad suam causam; sicut patet de luce; et ideo talis forma non recipitur
+              successive in subjecto, sicut nec forma substantialis; sed tamen postquam inest,
+              potest intendi et remitti, sicut forma accidentalis contrarium habens; et talis forma
+              est gratia, quia nullam commixtionem patitur cum suo opposito, eo quod suum oppositum
+              magis habet naturam privationis quam alicujus positionis, sicut et tenebra; et ideo
+              oportet quod recipiatur subito in subjecto; et tamen potest intendi et remitti
+              secundum accessum ad causam gratiae; et ideo sicut in instanti est introductio formae
+              substantialis in materiam, et in eodem instanti expulsio alterius formae, et in eodem
+              instanti completa dispositio, quae est necessitas ad formam, et per se terminus
+              alterationis; ita infusio gratiae est in instanti, et in eodem instanti est remissio
+              culpae, et motus liberi arbitrii, qui est quasi dispositio completa ad suscipiendam
+              gratiam; et sic totum quod ad justificationem requiritur, est in instanti; unde
+              justificatio non est successiva, sed subita.</p>
+            <p xml:id="ta-l4d17q1-d1e939">Ad primum ergo dicendum, quod motus dupliciter dicitur, ut patet in 3 de anima. Est
+              enim quidam motus qui est actus imperfecti, qui est exitus de potentia in actum; et
+              talis oportet quod sit successivus, quia semper expectat aliquid in futurum ad
+              perfectionem suae speciei, eo quod pars motus est alterius speciei a toto motu, ut
+              dicitur in 10 Ethic.; sicut patet in alteratione de motu qui est ad albedinem, cujus
+              pars est motus ad medium colorem specie differens, si divisim accipiatur. Alius motus
+              est actus perfecti, qui magis operatio dicitur, qui non expectat aliquid in futurum ad
+              complementum suae speciei, sicut sentire; et talis motus non est successivus, sed
+              subitus; et si contingat quod talis motus sit in tempore, hoc erit per accidens, quia
+              mensuratur in quolibet instanti illius temporis in quo dicitur esse; sicut esse
+              hominem, in tempore est et in instanti; et talis motus est motus liberi arbitrii, de
+              quo loquimur; et ideo est in instanti. Secus autem esset, si esset motus collativus;
+              quia tunc non posset esse in instanti, propter discursum de uno in aliud.</p>
+            <p xml:id="ta-l4d17q1-d1e942">Ad secundum dicendum, quod intellectus quando intelligit aliquid in ordine ad aliud,
+              intelligit utrumque. Non tamen sequitur quod plura intelligat, quia intelligit ea ut
+              unum, sicut intelligit relationem unius ad alterum. Similiter etiam liberum arbitrium
+              potest simul moveri in diversa, ita quod in unum per ordinem ad aliud; et propter hoc
+              motus virtutis imperatae est simul cum motu virtutis imperantis, quia motus virtutis
+              imperatae ordinatur ad finem virtutis imperantis: sicut qui vult sustinere mortem
+              propter Deum, simul movetur liberum arbitrium ejus motu fortitudinis, et motu
+              caritatis, qui actum fortitudinis imperat. Unde cum motus liberi arbitrii in peccatum
+              elicitus a poenitentia, imperatus a caritate sit, quia propter Deum detestatur quis
+              peccatum quod commisit; simul uterque motus esse potest.</p>
+            <p xml:id="ta-l4d17q1-d1e945">Ad tertium dicendum, quod in mutationibus quae sunt termini motus, idem secundum rem
+              est fieri et factum esse, sicut terminari et terminatum esse; sed diversimode
+              significatur in fieri, scilicet secundum respectum ad motum praecedentem, cujus est
+              terminus in facto esse secundum se; et ideo non sequitur quod simul sit et non sit,
+              sed quod habeat esse post non esse.</p>
+            <p xml:id="ta-l4d17q1-d1e949">Ad quartum patet solutio ex praedictis.</p>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

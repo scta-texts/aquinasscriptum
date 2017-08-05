@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum III, Distinctio 22, Quaestio 1</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.09-dev-master">
+          <title>Librum III, Distinctio 22, Quaestio 1</title>
+          <date when="2016-03-12">March 12, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-12">March 12, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness>1856 editum</witness>
+          <witness xml:id="H" n="harv245" xml:base="http://iiif.lib.harvard.edu/manifests/drs:51994085/canvas/">Cambridge, Mass.,
+            Harvard University, Houghton Library, MS Lat 245</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="2015.09">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+
+
+
+
+      <div xml:id="starts-on">
+        <cb ed="#H" n="77va"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ta-l3d22q1">
+        <head xml:id="ta-l3d22q1-Hd1e97">Librum III, Distinctio 22, Quaestio 1</head>
+        <div xml:id="ta-l3d22q1-Dd1e100">
+          <head xml:id="ta-l3d22q1-Hd1e102">Prooemium</head>
+          <p xml:id="ta-l3d22q1-d1e105">Postquam determinavit <name ref="#Lombard">Magister</name> de his quae pertinent ad
+            mortem Christi, scilicet secundum quam rationem dicatur mortuus, hic determinat ea quae
+            consequuntur ad mortem Christi. Dividitur autem in duas partes: in prima determinat de
+            morte Christi per comparationem ad ejus humanitatem absolute; secundo per comparationem
+            ad locum; ibi: <quote xml:id="ta-l3d22q1-Qd1e110">hic quaeritur si Christus in morte alicubi erat homo</quote>.
+            Circa primum tria facit: primo movet quaestionem, utrum Christus in triduo fuerit homo;
+            secundo ponit aliorum opinionem, ibi: <quote xml:id="ta-l3d22q1-Qd1e113">quod non videtur quibusdam</quote>; tertio
+            ponit opinionem suam, ibi: <quote xml:id="ta-l3d22q1-Qd1e116">quibus respondemus. Hic quaeritur, si Christus in
+              morte alicubi erat homo</quote>. Hic inquirit de morte per comparationem ad locum in
+            quo erat; et duo facit: primo ostendit quod erat secundum humanitatem in sepulcro et in
+            Inferno, et secundum divinitatem ubique. Secundo inquirit, utrum de illo homine possit
+            praedicari esse ubique, ibi: <quote xml:id="ta-l3d22q1-Qd1e119">solet etiam quaeri, si congruenter dici possit
+              filius hominis (...) ubique esse</quote>. Circa primum duo facit: primo ostendit quod
+            Christus erat in diversis locis secundum diversa; secundo inquirit, utrum fuerit in
+            illis locis totus, ibi: <quote xml:id="ta-l3d22q1-Qd1e123">et utique totus eodem tempore erat in Inferno, in caelo
+              totus, ubique totus</quote>. Hic est triplex quaestio. Prima de morte Christi per
+            comparationem ad ejus humanitatem. Secunda de descensu ad Inferos. Tertia de ascensione
+            ejus in caelum. Circa primum quaeruntur duo: 1 utrum Christus in illo triduo mortis
+            fuerit homo; 2 utrum fuerit ubique homo tunc, vel etiam ante, vel nunc.</p>
+        </div>
+        <div xml:id="ta-l3d22q1-Dd1e128" type="articulus">
+          <head xml:id="ta-l3d22q1-Hd1e130">Articulus 1</head>
+          <head xml:id="ta-l3d22q1-Hd1e133">Utrum Christus in triduo quo jacuit in sepulcro, potuerit dici homo</head>
+
+          <p xml:id="ta-l3d22q1-d1e136">Ad primum sic proceditur. Videtur quod Christus in illo triduo fuerit homo. Rationale
+            enim est differentia completiva hominis. Sed Christus poterat dici rationalis in illo
+            triduo propter animam rationalem sibi unitam. Ergo poterat dici homo.</p>
+          <p xml:id="ta-l3d22q1-d1e139">Praeterea, omnis persona subsistens in natura humana potest dici homo. Sed persona
+            filii Dei subsistebat in natura humana, quia habebat omnes partes humanae naturae sibi
+            unitas. Ergo poterat dici homo.</p>
+          <p xml:id="ta-l3d22q1-d1e142">Praeterea, ad hoc quod aliquis dicatur homo oportet quod anima et corpus sint sibi
+            unita. Sed in illo triduo anima et corpus erant unita in unam hypostasim filii Dei. Ergo
+            poterat dici homo.</p>
+          <p xml:id="ta-l3d22q1-d1e146">Praeterea, omnis sacerdos est homo. Christus in illo triduo fuit sacerdos: quia dictum
+            est ei, <ref xml:id="ta-l3d22q1-Rd1e148"><title ref="#ps">Psalm.</title> 109, 4:</ref> <quote xml:id="ta-l3d22q1-Qd1e153" ana="#ps109_4">tu es sacerdos in aeternum</quote>. Ergo Christus in illo
+            triduo erat homo.</p>
+          <p xml:id="ta-l3d22q1-d1e157">Praeterea, cum omnia esse desiderent, ut philosophus dicit in 2 de generatione, nullus
+            desiderat non esse, sed semper verius esse. Sed sancti desiderant mori, ut patet
+            Philipp. 1, 23: <quote xml:id="ta-l3d22q1-Qd1e159">cupio dissolvi, et esse cum Christo</quote>. Ergo per mortem non
+            desinunt esse id quod fuerant, sed verius esse incipiunt; et ita post mortem possunt
+            dici homines.</p>
+          <p xml:id="ta-l3d22q1-d1e163">Praeterea, Petrus est nomen cujusdam singularis in natura humana. Sed post mortem Petri
+            invocamus eum dicentes: <quote xml:id="ta-l3d22q1-Qd1e165">sancte Petre, ora pro nobis</quote>. Ergo post mortem
+            potest dici homo; et sic videtur quod eadem ratione Christus.</p>
+          <p xml:id="ta-l3d22q1-d1e169">Praeterea, philosophus dicit in 9 Ethic., quod homo est intellectus suus. Sed
+            intellectus hominis manet post mortem. Ergo potest post mortem dici homo.</p>
+          <p xml:id="ta-l3d22q1-d1e172">Sed contra, pars non praedicatur de toto, nec e contra. Sed post mortem Christi
+            manserunt tantum partes humanae naturae. Ergo ratione illarum partium Christus non
+            poterat dici homo.</p>
+          <p xml:id="ta-l3d22q1-d1e175">Praeterea, homo est nomen speciei. Sed species et genera sumuntur a forma totius; forma
+            autem totius resultat ex compositione partium. Cum ergo anima et corpus non fuerint in
+            illo triduo ad invicem composita, Christus non poterat dici homo.</p>
+          <p xml:id="ta-l3d22q1-d1e179">Praeterea, vivum est superius ad hominem, ut dicitur in Lib. de causis, mortuum autem
+            opponitur vivo. Sed Christus erat mortuus. Ergo non erat homo.</p>
+          <p xml:id="ta-l3d22q1-d1e182">Respondeo dicendum, quod opinio fuit <name ref="#Lombard">Magistri</name>, et etiam Hugonis de sancto Victore, quod
+            Christus in illo triduo fuit homo; sed ad hoc movebantur diversis viis. Hugo enim
+            dicebat, quod tota personalitas hominis est in anima, et in ipsa erat homo proprie
+            loquendo: et ideo anima post mortem potest dici homo non solum in Christo, sed etiam in
+            aliis hominibus. Haec autem positio non potest esse vera: quia postquam aliquid est
+            completum in specie sua et personalitate, non potest ei advenire aliquid, ut componat
+            cum eo naturam aliquam; sed vel adjungitur ei in persona, et non in natura, quod est
+            singulare in Christo; vel adjungitur ei accidentaliter. Unde ex hac positione sequitur
+            quod vel ex anima et corpore non efficiatur una natura; et sic anima non erit forma
+            corporis, nec vivificabit corpus formaliter: vel iterum quod anima adjungatur corpori
+            accidentaliter, ut nauta navi, vel homo vestimento, sicut dicebant antiqui philosophi;
+            quorum Plato, ut Gregorius Nyssenus narrat, dicebat, quod homo non est aliquid
+            compositum ex anima et corpore; sed est anima utens corpore. Et quia haec inconvenientia
+            sunt; ideo Magister non voluit quod alii post mortem essent homines, sed solum hoc
+            voluit de Christo: quia etiam post mortem anima et corpus aliquo modo manent unita in
+            Christo, inquantum utrumque manet unitum verbo. Sed haec etiam positio non potest stare,
+            si proprie accipiatur hoc nomen homo, propter duas rationes. Primo, quia ad hoc quod sit
+            homo, oportet quod sint anima et corpus conjuncta ad constituendum naturam unam; quod
+            fit per hoc quod informatur anima; quod in illo triduo non fuit. Secundo, quia recedente
+            anima, illa caro non dicebatur nisi aequivoce caro; unde nec illud corpus erat humanum
+            corpus, nisi aequivoce. Et ideo omnes moderni tenent, quod Christus in triduo non fuerit
+            homo. Sciendum tamen, quod Magister non voluit quod Christus in triduo illo diceretur
+            homo, nisi aequivoce; unde dicit, quod non secundum eamdem rationem dicebatur homo post
+            mortem, sicut ante, vel sicut alii homines: et secundum hoc ex opinione Magistri non
+            sequitur aliquod inconveniens secundum rem: quia secundum philosophum, 4 Metaph., non
+            est inconveniens ut quod nos dicimus hominem alii dicant non hominem quantum ad
+            convenientiam nominis; sed solum est improprietas in modo loquendi: quia non est in usu
+            hujus nominis homo quod significet corpus et animam divisam.</p>
+          <p xml:id="ta-l3d22q1-d1e188">Ad primum ergo dicendum, quod rationale secundum quod est differentia, est ipsius
+            compositi, ut dicit Avicenna, quamvis sumatur ab anima: et ideo post mortem sicut non
+            erat homo, ita non erat rationale, secundum quod rationale nominat differentiam hominis,
+            sed solum secundum quod nominat potentiam animae.</p>
+          <p xml:id="ta-l3d22q1-d1e191">Ad secundum dicendum, quod non subsistebat in natura humana, quia non erant omnes
+            partes humanae naturae: non enim erat caro et os, nisi aequivoce, ut dictum est: et
+            iterum non erat unio animae ad corpus.</p>
+          <p xml:id="ta-l3d22q1-d1e194">Ad tertium dicendum, quod ad hoc quod sit homo, non solum oportet quod anima et corpus
+            uniantur in persona, sed etiam ad constitutionem unius naturae.</p>
+          <p xml:id="ta-l3d22q1-d1e197">Ad quartum dicendum, quod Christus dicitur sacerdos in aeternum, quia ejus sacerdotio
+            aliud sacerdotium non succedit. Vel aliter dicendum, quod Christus, ut dicitur Heb. 9,
+            erat assistens pontifex futurorum bonorum spiritualium; et ideo illud sacerdotium est
+            etiam animae Christi separatae a corpore.</p>
+          <p xml:id="ta-l3d22q1-d1e201">Ad quintum dicendum, quod Paulus desiderabat verius esse quantum ad animam, quod erat
+            nobilius, quam esse in mortali corpore.</p>
+          <p xml:id="ta-l3d22q1-d1e204">Ad sextum dicendum, quod illae locutiones sunt synecdochicae, quia ponitur totum pro
+            parte.</p>
+          <p xml:id="ta-l3d22q1-d1e207">Ad septimum dicendum, quod philosophus loquitur figurative, et non proprie: unde ipse
+            dicit, quod ita homo dicitur intellectus sicut civitas rex, quia totum quod est in
+            civitate, dependet ex voluntate regis.</p>
+        </div>
+        <div xml:id="ta-l3d22q1-Dd1e211" type="articulus">
+          <head xml:id="ta-l3d22q1-Hd1e213">Articulus 2</head>
+          <head xml:id="ta-l3d22q1-Hd1e216">Utrum Christus ubique fuerit homo</head>
+
+          <p xml:id="ta-l3d22q1-d1e219">Ad secundum sic proceditur. Videtur quod Christus ubique fuerit homo. Secundum
+            Damascenum enim, naturae communicant sibi sua idiomata. Sed Christus ubique est Deus.
+            Ergo ubique est homo.</p>
+          <p xml:id="ta-l3d22q1-d1e222">Praeterea, quaecumque sunt unum supposito, ubicumque est unum, est aliud. Sed homo et
+            filius Dei sunt idem supposito. Ergo cum filius Dei sit ubique, ubique etiam erit
+            homo.</p>
+          <p xml:id="ta-l3d22q1-d1e225">Praeterea, sicut Petrus vere est homo, ita et Christus. Sed ubicumque est Petrus, ibi
+            est homo. Ergo ubicumque est Christus, ibi est homo. Sed Christus est ubique. Ergo
+            ubique est homo.</p>
+          <p xml:id="ta-l3d22q1-d1e229">Praeterea, omne quod est, aut est homo, aut non homo. Si ergo Christus non est ubique
+            homo, erit alicubi non homo: quod est falsum.</p>
+          <p xml:id="ta-l3d22q1-d1e232">Praeterea, esse ubique, non magis est remotum a creaturis quam aeternitas. Sed dicimus,
+            quod iste homo fuit ab aeterno. Ergo similiter dicere possumus, quod est ubique
+            homo.</p>
+          <p xml:id="ta-l3d22q1-d1e235">Praeterea, totalitas rei dicitur respectu illorum ex quibus res componitur. Sed totus
+            Christus dicitur esse ubique, ut dicitur in littera; et ut Damascenus dicit. Cum igitur
+            totus ad personam pertineat, et persona sit composita ex divinitate et humanitate,
+            videtur quod humanitas Christi sit ubique, et sic ubique est homo.</p>
+          <p xml:id="ta-l3d22q1-d1e238">Sed contra, humanitas Christi non consistit nisi in anima et carne. Sed neque corpus
+            Christi neque anima sunt ubique. Ergo ipse secundum humanitatem non est ubique.</p>
+          <p xml:id="ta-l3d22q1-d1e241">Praeterea omne quod movetur de loco ad locum, habet locum determinatum, et non est
+            ubique. Sed Christus, secundum quod homo, movebatur de loco ad locum. Ergo non erat
+            ubique.</p>
+          <p xml:id="ta-l3d22q1-d1e244">Praeterea, esse ubique solius est Dei. Sed nullum tale convenit Christo secundum quod
+            homo. Ergo non est ubique secundum quod homo.</p>
+          <p xml:id="ta-l3d22q1-d1e248">Respondeo dicendum, quod humana natura Christi non est ubique, neque quando anima et
+            corpus fuerunt divisa, neque quando sunt conjuncta; sed persona illa ratione sui et
+            ratione divinae naturae est ubique. Ad veritatem autem locutionis, ut supra dictum est,
+            non exigitur quod praedicatum secundum se totum conveniat subjecto; sufficit autem quod
+            conveniat ei ratione suppositi. Et ideo, quia homo signat suppositum humanae naturae, et
+            ipsam naturam humanam, inde est quod haec est falsa: Christus est homo ubique; quia non
+            convenit sibi ubique habere humanitatem. Adverbium autem ubique determinat esse hominem
+            in praedicato positum ad id totum quod in homine importatur, et magis etiam quantum ad
+            naturam, secundum quod termini in praedicato positi tenentur formaliter. Sed haec est
+            vera: iste homo est ubique: quia esse ubique convenit personae. Haec autem, Christus
+            secundum quod homo, est ubique, potest esse vera et falsa: secundum quod enim potest
+            importare conditionem naturae, sic est falsa; sed unitatem suppositi, et sic est
+            vera.</p>
+          <p xml:id="ta-l3d22q1-d1e251">Ad primum ergo dicendum, quod communicatio idiomatum fit secundum quod naturae uniuntur
+            in persona, vel in supposito; et ideo oportet quod ista communicatio attendatur secundum
+            quod nomen significans utramque naturam, in subjecto ponitur, et non secundum quod
+            ponitur in praedicato; non enim sequitur: factus est homo; ergo est factus Deus; et
+            similiter non sequitur: est ubique Deus; ergo est ubique homo.</p>
+          <p xml:id="ta-l3d22q1-d1e254">Ad secundum dicendum, quod ubicumque est Deus, hic homo est in illo loco; non est tamen
+            ibi humana natura; et ideo non oportet quod ibi sit homo.</p>
+          <p xml:id="ta-l3d22q1-d1e257">Ad tertium dicendum, quod Petrus non habet nisi humanam naturam: et ideo ubicumque ipse
+            est, oportet quod sit illa natura. Sed Christus habet plures naturas: et ideo non
+            oportet quod ubicumque est, ibi habeat utramque naturam; sicut non oportet quod
+            ubicumque est totum, ibi sint omnes partes ejus; sed in uno loco secundum manum, et in
+            alio secundum pedem.</p>
+          <p xml:id="ta-l3d22q1-d1e260">Ad quartum dicendum, quod cum dicitur, filius Dei non est ubique homo, locutio non
+            verificatur secundum quod negatio absolute fertur ad hominem, sed secundum quod fertur
+            ad hominem cum hoc quod est esse ubique; sed quando additur sibi per compositionem,
+            negatio non fertur extra terminum illum; et ideo removet humanitatem absolute, et non
+            respectu ejus quod dicitur ubique vel alicubi; et propter hoc haec est falsa: Christus
+            alicubi est non homo; sed haec est vera: non est ubique homo.</p>
+          <p xml:id="ta-l3d22q1-d1e263">Ad quintum dicendum, quod similiter est de hoc sicut de aeterno: haec enim est vera,
+            iste homo fuit ab aeterno; sed haec est falsa: Christus fuit ab aeterno homo, sicut et
+            de ubique dictum est.</p>
+          <p xml:id="ta-l3d22q1-d1e267">Ad sextum dicendum, quod persona non proprie dicitur composita ex naturis, ut supra
+            dictum est; unde totus non fertur ad personam, secundum quod totum dicitur quod habet
+            partes, sed secundum quod totum dicitur perfectum, cui nihil deest: et secundum hoc
+            dicitur totus ubique, quia nihil deest sibi de sua personalitate, secundum quod est
+            ubique: totus enim cum sit masculini generis, ad personam pertinet. Deest ei autem
+            aliquid de his quae ad humanam naturam pertinent secundum quod est ubique: quia secundum
+            humanam naturam non est ubique; et ideo dicitur quod non est totum ubique: quia totum
+            cum sit neutrius generis, ad naturam pertinet.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

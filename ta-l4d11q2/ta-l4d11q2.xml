@@ -1,0 +1,778 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 11, Quaestio 2</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Librum IV, Distinctio 11, Quaestio 2</title>
+          <date when="2016-03-19">March 19, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-19">March 19, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness>1856 editum</witness>
+          <witness xml:id="G" n="ghent567">Ghent, Belgium, Ghent University Library, 567</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="0.0.0-dev">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+
+
+
+
+      <div xml:id="starts-on">
+        <cb ed="#G" n="165b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ta-l4d11q2">
+        <head xml:id="ta-l4d11q2-Hd1e97">Librum IV, Distinctio 11, Quaestio 2</head>
+        <div xml:id="ta-l4d11q2-Dd1e100">
+          <head xml:id="ta-l4d11q2-Hd1e102">Prooemium</head>
+          <p xml:id="ta-l4d11q2-d1e105">Deinde quaeritur de materia hujus sacramenti; et circa hoc quaeruntur quatuor: 1 utrum
+            panis et vinum sint materia hujus sacramenti; 2 qualis panis; 3 quale vinum hujus
+            sacramenti materia esse possit; 4 de aquae admixtione.</p>
+        </div>
+        <div xml:id="ta-l4d11q2-Dd1e109" type="articulus">
+          <head xml:id="ta-l4d11q2-Hd1e111">Articulus 1</head>
+
+          <head xml:id="ta-l4d11q2-Hd1e114" type="questionTitle">Utrum sit duplex materia hujus sacramenti</head>
+          <div xml:id="ta-l4d11q2-Dd1e117">
+            <head xml:id="ta-l4d11q2-Hd1e119">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d11q2-d1e122">Ad primum sic proceditur. Videtur quod non debeat esse duplex materia hujus
+              sacramenti. Quanto enim aliquid est simplicius, tanto nobilius; unde et simplicissima
+              sunt nobilissima. Sed hoc sacramentum est nobilius aliis. Ergo debet esse simplicius.
+              Cum ergo alia sacramenta unam tantum materiam habeant, sicut Baptismus aquam,
+              confirmatio chrisma; videtur quod non debeat esse duplex materia hujus sacramenti.</p>
+            <p xml:id="ta-l4d11q2-d1e125">Praeterea, materia sacramenti debet respondere ei quod est sacramentum et res in
+              sacramento, quia est signum ejus. Sed totum illud quod est res et sacramentum,
+              continetur sub specie panis, scilicet totus Christus. Ergo panis est tota materia
+              hujus sacramenti; et sic idem quod prius.</p>
+            <p xml:id="ta-l4d11q2-d1e128">Praeterea, hoc sacramentum ordinatur ad usum fidelium. Sed tantum sub una specie
+              populo hoc sacramentum ministratur, scilicet sub specie panis. Ergo tantum una ejusdem
+              debet esse materia.</p>
+            <p xml:id="ta-l4d11q2-d1e131">Praeterea, posset contingere quod in aliqua terra triticum haberetur et non vinum,
+              vel e converso. Ergo in tali casu liceret et in una specie tantum conficere.</p>
+            <p xml:id="ta-l4d11q2-d1e135">Sed contra, sacramentum Eucharistiae a Christo initium sumpsit. Sed Christus
+              discipulis duo in coena dedit, scilicet panem et vinum. Ergo debent esse materia hujus
+              sacramenti.</p>
+            <p xml:id="ta-l4d11q2-d1e138">Praeterea, materia sacramenti debet respondere usui sacramenti. Sed manducatio, quae
+              est usus hujus sacramenti, ut supra, dist. 9, qu. 1, art. 1, dictum est, requirit
+              cibum et potum. Ergo hujus sacramenti materia debet esse duplex, una quae competat in
+              cibum, et alia quae competat in potum.</p>
+          </div>
+          <div xml:id="ta-l4d11q2-Dd1e142">
+            <head xml:id="ta-l4d11q2-Hd1e144">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d11q2-d1e147">Ulterius. Videtur quod non debeat esse materia hujus sacramenti panis et vinum.
+              Sacramenta enim legis Mosaicae propinquiora fuerunt sacramentis legis novae quam
+              sacramenta legis naturae. Sed in lege Mosaica secundum modum sacramenti manducabantur
+              carnes animalium. Ergo hoc magis debet esse materia hujus sacramenti quam panis et
+              vinum, quae sumebantur in lege naturae per modum sacramenti.</p>
+            <p xml:id="ta-l4d11q2-d1e150">Praeterea, materia sacramenti debet competere usui sacramenti et significationi. Sed
+              expressius significaret caro animalis alicujus carnem Christi quam panis: quia majorem
+              habet convenientiam ad ipsam, et iterum magis reficit. Ergo magis debet caro esse
+              materia hujus sacramenti quam panis.</p>
+            <p xml:id="ta-l4d11q2-d1e153">Praeterea, sacramenta infirmis ministrari debent, quia medicinae sunt. Sed vinum non
+              datur infirmis. Ergo non debet esse materia hujus sacramenti.</p>
+            <p xml:id="ta-l4d11q2-d1e156">Praeterea, illud sacramentum non solum praefiguratum fuit in oblatione Melchisedech,
+              qui obtulit panem et vinum, ut dicitur Genes. 14, sed etiam in favo mellis, quem
+              sumpsit Jonathas, ut dicitur 1 Reg. 14. Ergo etiam mel deberet esse materia hujus
+              sacramenti, et praecipue propter suavitatem.</p>
+            <p xml:id="ta-l4d11q2-d1e160">Praeterea, in hoc sacramento continetur Christus ut cibus parvulorum. Sed parvulis
+              datur in cibum lac. Ergo lac deberet esse materia hujus sacramenti.</p>
+          </div>
+          <div xml:id="ta-l4d11q2-Dd1e164">
+            <head xml:id="ta-l4d11q2-Hd1e166">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d11q2-d1e169">Ulterius. Videtur quod panis et vinum non possint esse materia hujus sacramenti nisi
+              sub determinata quantitate. In sacramentis enim intentio requiritur conformis
+              intentioni Ecclesiae. Sed si aliquis vellet consecrare totum panem qui est in foro, et
+              totum vinum quod est in cellario, intentio ejus non esset concors intentioni
+              Ecclesiae, quae intendit consecrare ad usum fidelium: quod etiam verba instituentis
+              ostendunt: <quote xml:id="ta-l4d11q2-Qd1e171">accipite</quote>, inquit, <quote xml:id="ta-l4d11q2-Qd1e174">et manducate</quote>. Ergo
+              requiritur determinata quantitas panis.</p>
+            <p xml:id="ta-l4d11q2-d1e178">Praeterea, virtus data verbis et ministro, datur ad venerationem sacramenti, non ad
+              irrisionem. Sed si immoderata quantitas panis et vini consecraretur, verteretur in
+              irrisionem. Ergo non potest consecrari nisi sub determinata quantitate.</p>
+            <p xml:id="ta-l4d11q2-d1e181">Praeterea, si aliquis in mari hominem baptizet, illa tantum aqua verbo vitae
+              sanctificatur quae ad usum ablutionis cedit, et non totum mare. Ergo a simili et hic,
+              tantum de pane et vino consecrari potest, quantum potest venire in usum fidelium.</p>
+            <p xml:id="ta-l4d11q2-d1e184">Sed contra, secundum philosophum, omne determinatum est medium duorum extremorum
+              determinatorum. Sed quantitas panis qui consecrari potest, non est medium duorum
+              extremorum determinatorum: quia nunquam est ita parva quantitas quin possit
+              consecrari. Ergo non est determinata quantitas etiam secundum magnitudinem.</p>
+            <p xml:id="ta-l4d11q2-d1e188">Praeterea, constat quod sacerdos habens paucos parochianos potest tantum de pane
+              consecrare, quantum habens multos, quamvis non debeat. Sed non potest accipi tanta
+              quantitas panis quae non possit venire in usum multorum parochianorum, et praecipue
+              cum unus homo possit et multum et parum in quantitate sumere. Ergo non potest esse
+              tanta materia panis quin possit consecrari etiam a quocumque sacerdote.</p>
+          </div>
+          <div xml:id="ta-l4d11q2-Dd1e193">
+            <head xml:id="ta-l4d11q2-Hd1e195">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d11q2-d1e198">Respondeo dicendum ad primam quaestionem, quod materia sacramenti debet competere et
+              significationi sacramenti et usui; et utroque modo exigitur duplex materia in hoc
+              sacramento. Usus enim hujus sacramenti est manducatio, quae ad sui integritatem et
+              cibum et potum exigit; et ideo hujus sacramenti debet esse duplex materia; una quae in
+              cibum sumitur, et alia quae in potum. Significatio autem sacramenti est duplex. Una
+              secundum quod repraesentat praeteritum; et sic in hoc sacramento significatur passio
+              Christi, in qua separatus fuit ejus sanguis a corpore; et ideo separatim in hoc
+              sacramento offerri debet signum corporis et signum sanguinis, duplici materia
+              existente. Alia significatio sacramenti est de effectu per sacramentum inducendo, quia
+              sacramenta efficiunt quod figurant; et sic, cum hoc sacramentum ad salutem corporis et
+              animae sumatur, oportet quod sub specie panis ad significandam salutem corporis, et
+              sub specie vini ad significandam salutem animae hoc sacramentum perficiatur, ut in
+              littera Magister dicit.</p>
+            <p xml:id="ta-l4d11q2-d1e201">Ad primum ergo dicendum, quod simplicitas per se non est causa nobilitatis; sed
+              perfectio; unde ubi perfecta bonitas in uno simplici invenitur, simplex est nobilius
+              quam compositum; quando autem e contrario simplex est imperfectum, compositum vero
+              perfectum, tunc compositum est nobilius quam simplex, sicut homo est nobilior terra;
+              et ideo hoc sacramentum quamvis sit magis compositum ratione materiae, est tamen
+              nobilius, quia est magis perfectum. Quod autem ad perfectionem ejus haec compositio
+              exigatur, patet ex dictis.</p>
+            <p xml:id="ta-l4d11q2-d1e204">Ad secundum dicendum, quod quamvis totus Christus sit sub specie panis secundum rei
+              veritatem, non tamen est ibi ex vi sacramenti nisi corpus ejus, ut ex dictis patet, et
+              secundum quod venit in usum fidelium.</p>
+            <p xml:id="ta-l4d11q2-d1e207">Ad tertium dicendum, quod populo non datur sanguis propter periculum: quia una gutta
+              sanguinis citius laberetur quam aliqua particula corporis; unde ministris altaris
+              secundum consuetudinem aliquorum datur participatio sanguinis, de quibus praesumitur
+              quod in talibus magis sint cauti. In lege autem veteri de libaminibus nihil habebant
+              offerentes, sed soli sacerdotes; per quae significabatur potus hujus sacramenti: de
+              sacrificiis autem habebant, quibus significabatur cibus hujus sacramenti.</p>
+            <p xml:id="ta-l4d11q2-d1e211">Ad quartum dicendum, quod quamvis consecratio panis non dependeat a consecratione
+              vini, quod quidam posuerunt, ut supra, dist. 8, qu. 2, art. 4, quaestiunc. 1, dictum
+              est, tamen potius deberet desistere qui non haberet utrumque quam conficere praeter
+              morem Ecclesiae in una tantum specie; quamvis etiam si in una tantum specie
+              consecraret, consecratum esset. Peccaret autem graviter: nisi post consecrationem
+              corporis ante consecrationem sanguinis occideretur, vel alias praeter culpam suam
+              impediretur.</p>
+          </div>
+          <div xml:id="ta-l4d11q2-Dd1e215">
+            <head xml:id="ta-l4d11q2-Hd1e217">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d11q2-d1e220">Ad secundam quaestionem dicendum, quod causa quare panis et vinum sunt materia hujus
+              sacramenti inter alios cibos et potus, est institutio divina. Causa autem
+              institutionis multipliciter potest assignari. Prima ex parte usus sacramenti: quia
+              haec duo communius in cibum et potum veniunt; unde convenientius per haec in cibum et
+              potum spiritualem manuducimur. Secunda ex effectu sacramenti: quia, ut dicitur in
+              Glossa 1 Corinth. 11, panis prae ceteris cibis sustentat corpus, et vinum laetificat
+              cor: et similiter hoc sacramentum sustentat magis et laetificat caritate inebriatos
+              quam alia sacramenta. Tertia ex ritu celebrationis: quia mundius tractantur quam alia
+              quae in cibum et potum veniunt. Quarta ex significatione duplicis rei hujus
+              sacramenti: quia panis ex multis granis conficitur, et vinum ex multis acinis
+              confluit; quod competit ad significandum corpus Christi verum et mysticum, ut supra,
+              dist. 8, dictum est. Quinta ex repraesentatione ejus quod praecessit: nam grana in
+              area conculcantur, et panis in fornace decoquitur, et vinum in torculari exprimitur;
+              quae omnia competunt ad repraesentandum passionem Christi.</p>
+            <p xml:id="ta-l4d11q2-d1e223">Ad primum ergo dicendum, quod hoc sacramentum non debuit in specie alicujus
+              sacramenti legis Mosaicae institui, ut ostenderetur cessatio legalium, quorum
+              sacerdotium est imperfectius sacerdotio Christi; et ideo convenienter ad illas species
+              in novo testamento reducitur, quibus ostenditur sacerdotium novi testamenti sic
+              praeeminere sacerdotio levitico scilicet ad oblationem Melchisedech, ut apostolus
+              probat Hebr. 7.</p>
+            <p xml:id="ta-l4d11q2-d1e226">Ad secundum dicendum, quod caro de ratione sui non dicit aliquid ordinatum in cibum,
+              sed quamdam rem naturae; et ideo non ita competenter significaret caro animalis carnem
+              Christi, ut est cibus fidelium, secundum quod in hoc sacramento continetur sicut
+              panis; quia ad hoc confectus est ut cibus sit.</p>
+            <p xml:id="ta-l4d11q2-d1e229">Ad tertium dicendum, quod vinum quamvis non detur infirmis qui morbo febrili
+              subjacent, datur tamen debilibus ut confortentur; et similiter hoc sacramentum non est
+              dandum his qui sunt in febre peccati, sed ad confortationem debilium qui a peccato
+              liberati sunt.</p>
+            <p xml:id="ta-l4d11q2-d1e233">Ad quartum dicendum, quod mel quamvis habeat suavitatem, est tamen inflativum; et
+              ideo magis congrue significat suavitatem temporalem quae inflat, quam caritatem quae
+              aedificat; unde et in sacrificiis veteris legis apponi prohibebatur; et ideo etiam non
+              competit huic sacramento.</p>
+            <p xml:id="ta-l4d11q2-d1e236">Ad quintum dicendum, quod quamvis cibus iste sit parvulorum per humilitatem, est
+              tamen grandium in fide. Unde Augustinus: <quote xml:id="ta-l4d11q2-Qd1e238">cibus sum grandium</quote>; et ideo
+              non convenit ut sub specie lactis sumatur.</p>
+          </div>
+          <div xml:id="ta-l4d11q2-Dd1e243">
+            <head xml:id="ta-l4d11q2-Hd1e245">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d11q2-d1e248">Ad tertiam quaestionem dicendum, quod quidam dicunt, quod virtus non est data
+              ministro et verbis ad consecrandum panem et vinum sub quacumque quantitate, sed sub
+              tanta quantitate, quanta potest competere ad usum fidelium; sic enim conformabitur
+              intentio consecrantis intentioni Ecclesiae. Sed hoc non videtur verum. Non enim potest
+              dici, quod quantitas materiae sit determinata secundum usum qui in praesenti occurrit;
+              quia sic sacerdos in deserto non posset conficere tot hostias, quot sacerdos alicujus
+              civitatis habentis multos parochianos, quod falsum est; sed secundum usum qui nunquam
+              occurrere potest. Tantum ergo de vino et pane consecrare potest, quantum est sumibile
+              ab omnibus. Ad hoc autem non est quantitas determinata, praecipue cum unus homo possit
+              sumere in magna quantitate et parva quantitate; unde quantitas parva vel magna ad hoc
+              nihil facit.</p>
+            <p xml:id="ta-l4d11q2-d1e251">Ad primum ergo dicendum, quod sacramenta ad aliquid ordinantur; unde in sacramentis
+              est duplex intentio. Una quae ordinatur ad perfectionem sacramenti; et haec est
+              essentialis sacramento; unde ea praetermissa non est sacramentum. Alia quae ordinatur
+              ad finem sacramenti; et haec consequitur sacramentum, ut ea posita vel remota,
+              nihilominus perficiatur sacramentum; sicut si aliquis intendat baptizare aliquem ut
+              lucrum temporale consequatur, sacramentum Baptismi verum est, quia secundum primam
+              intentionem conformatur intentioni Ecclesiae, quamvis non quantum ad secundam. Et
+              similiter in hoc sacramento si aliquis sacerdos intenderet consecrare non ad sumendum,
+              sed ut in veneficiis uteretur, verum corpus Christi esset. Unde etsi aliquis sacerdos
+              intenderet consecrare magnam quantitatem panis et vini non ad usum fidelium, sed in
+              irrisionem, esset consecratum. Non tamen dico quod posset consecrare totum panem qui
+              est in civitate simul, vel qui est in foro; quia ipsa forma pronomine demonstrativo
+              utens, ostendit quod materia consecranda debet esse coram sacerdote. Unde sacerdos
+              existens in domo sua non posset consecrare panem qui est in altari: quod etiam non
+              potest de toto pane qui est in foro, neque de toto vino quod est in cellario. Sed
+              quantacumque sit quantitas panis et vini quae coram sacerdote proponitur, credo quod
+              possit consecrari ab ipso.</p>
+            <p xml:id="ta-l4d11q2-d1e254">Ad secundum dicendum, quod potestas omnis a Deo est, ut dicitur Rom. 13, et quantum
+              est de intentione dantis potestatem, ad bonum est ordinata; nihil tamen prohibet quin
+              potestate accepta abutatur. Unde sicut praelati Ecclesiae habent potestatem in
+              aedificationem, et non in destructionem, tamen multa possunt facere quae sunt in
+              destructionem; ita virtus consecrandi data est verbo et ministris ad Dei honorem;
+              tamen potest aliquis abuti, ut ad irrisionem, vel ad lucrum, vel ad aliquid hujusmodi
+              faciat.</p>
+            <p xml:id="ta-l4d11q2-d1e257">Ad tertium dicendum, quod perfectio sacramenti in Baptismo consistit in ipso usu
+              materiae; et ideo illud tantum aquae consecratur verbo vitae quod in usum venit. Sed
+              perfectio hujus sacramenti consistit in ipsa materiae consecratione, et usus est
+              consequens ad hoc sacramentum; unde perfectio hujus sacramenti non dependet ab usu,
+              sicut est in Baptismo.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d11q2-Dd1e262" type="articulus">
+          <head xml:id="ta-l4d11q2-Hd1e264">Articulus 2</head>
+
+          <head xml:id="ta-l4d11q2-Hd1e267" type="questionTitle">Utrum oporteat quod sit panis triticeus</head>
+          <div xml:id="ta-l4d11q2-Dd1e270">
+            <head xml:id="ta-l4d11q2-Hd1e272">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d11q2-d1e275">Ad secundum sic proceditur. Videtur quod non oportet quod sit panis triticeus. Hoc
+              enim sacramentum est memoriale dominicae passionis. Sed magis competeret ad
+              significandum passionem, panis hordei, quod est durum et hispidum, quam granum
+              tritici, quod est delicatum. Ergo ex alio frumento panis confectus potest esse materia
+              hujus sacramenti.</p>
+            <p xml:id="ta-l4d11q2-d1e278">Praeterea, in omni aqua potest perfici sacramentum Baptismi, ut nullus propter
+              defectum materiae a sacramenti perceptione fraudetur. Ergo et similiter omnis panis
+              debet esse materia hujus sacramenti, ut nullum inopia excuset.</p>
+            <p xml:id="ta-l4d11q2-d1e281">Praeterea, figura in naturalibus est signum speciei. Sed quaedam frumenta sunt quae
+              habent similem figuram grano tritici, sicut de farre et spelta. Ergo sunt ejusdem
+              speciei cum grano tritici; et ita panis ex illis frumentis poterit esse materia hujus
+              sacramenti.</p>
+            <p xml:id="ta-l4d11q2-d1e284">Praeterea, panis, materia hujus sacramenti est, quia ex multis granis confectus
+              unitatem corporis mystici designat, ut supra, dist. 8, dictum est. Sed hoc etiam
+              invenitur in pane de aliis frumentis confecto. Ergo ille panis potest esse materia
+              hujus sacramenti.</p>
+            <p xml:id="ta-l4d11q2-d1e288">Sed contra est usus Ecclesiae, et hoc quod dominus se grano frumenti comparavit Joan.
+              12, et non aliis leguminibus.</p>
+          </div>
+          <div xml:id="ta-l4d11q2-Dd1e292">
+            <head xml:id="ta-l4d11q2-Hd1e294">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d11q2-d1e297">Ulterius. Videtur quod, si grano tritici admisceatur aliud frumentum, possit panis
+              exinde confectus esse materia hujus sacramenti. Quia in siccis commixtio non tollit
+              speciem. Sed granum tritici et alia hujusmodi sunt sicca. Ergo si commisceantur, adhuc
+              manet species tritici, et ita potest inde confici corpus Christi.</p>
+            <p xml:id="ta-l4d11q2-d1e300">Praeterea, vix invenitur farina ex solis granis tritici, nisi studiose fiat. Si ergo
+              ex farina commixta ex diversis granis non posset confici panis qui sit materia hujus
+              sacramenti, rarissime hoc sacramentum perficeretur; quod est absurdum.</p>
+            <p xml:id="ta-l4d11q2-d1e303">Praeterea, per corruptionem magis receditur a specie quam per mixtionem. Sed de pane
+              corrupto potest fieri hoc sacramentum, cum videamus hostias diutissime a quibusdam
+              conservari. Ergo multo magis de pane ex granis commixtis confecto potest perfici hoc
+              sacramentum.</p>
+            <p xml:id="ta-l4d11q2-d1e306">Sed contra, medium, neutrum extremorum est. Sed panis commixtus ex diversis granis,
+              est medius inter panem tritici et aliorum granorum. Ergo non est panis triticeus; ergo
+              de eo non potest perfici hoc sacramentum.</p>
+            <p xml:id="ta-l4d11q2-d1e310">Praeterea, de amido, ut quidam dicunt, non potest perfici hoc sacramentum. Sed amidum
+              est farina triticea pura. Ergo multo minus potest perfici hoc sacramentum de pane
+              alterius farinae.</p>
+          </div>
+          <div xml:id="ta-l4d11q2-Dd1e314">
+            <head xml:id="ta-l4d11q2-Hd1e316">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d11q2-d1e319">Ulterius. Videtur quod non debeamus conficere in azymo, sed in fermentato. Nos enim
+              debemus conficere secundum quod Christus confecit. Sed Christus confecit in
+              fermentato, non in azymo. Ergo nec nos debemus in azymo conficere. Probatio mediae.
+              Ante Pascha Judaei azymis non utebantur. Sed coena domini, in qua hoc sacramentum
+              inchoavit, fuit ante Pascha celebratum, ut patet Joan. 13, 1: <quote xml:id="ta-l4d11q2-Qd1e321">ante diem festum
+                Paschae</quote> et cetera. Ergo ipse in fermentato, non in azymis confecit.</p>
+            <p xml:id="ta-l4d11q2-d1e325">Praeterea, veritas debet respondere figurae. Sed agnus typicus immolabatur luna
+              decimaquarta, ut habetur Exod. 12. Ergo Christus immolatus fuit luna decimaquarta. Sed
+              in die praecedenti corpus suum dedit discipulis manducandum. Ergo hoc fuit luna
+              decimatertia. Sed Pascha incipiebat luna decimaquarta. Ergo ante Pascha fuit coena
+              domini, et sic idem quod prius.</p>
+            <p xml:id="ta-l4d11q2-d1e328">Praeterea, Joan. 18, dicitur, quod in die passionis domini Judaei non intraverunt
+              praetorium Pilati, ut non contaminarentur, sed ut manducarent Pascha. Ergo illa die a
+              Judaeis manducabatur Pascha, et sic coena domini fuit ante Pascha; et sic idem quod
+              prius.</p>
+            <p xml:id="ta-l4d11q2-d1e331">Praeterea, Luc. 24, dicitur, quod mulieres viso monumento iverunt, et paraverunt
+              aromata. Sed hoc non licuisset prima die de septem quibus azyma comedebant, quia dies
+              illa erat eis celeberrima, quae quidem dies erat luna decimaquinta. Ergo Christus
+              passus est luna decimaquarta; et sic idem quod prius.</p>
+            <p xml:id="ta-l4d11q2-d1e335">Praeterea, Joan. 20, dicitur, quod dies sepulturae dominicae erat magnus dies
+              sabbati. Sed in solemnitate azymorum sola prima dies erat celeberrima, et vocabatur
+              magna. Ergo dies sabbati fuit prima dies solemnitatis, quod est luna decimaquinta; et
+              sic dies Veneris fuit luna decimaquarta; et sic idem quod prius.</p>
+            <p xml:id="ta-l4d11q2-d1e338">Praeterea, artos secundum Graecos significat panem fermentatum. Sed hoc nomen
+              invenitur apud Graecos, ubi nos habemus, <quote xml:id="ta-l4d11q2-Qd1e340">accepit Jesus panem</quote>. Ergo de
+              fermentato confecit; et sic idem quod prius.</p>
+            <p xml:id="ta-l4d11q2-d1e344">Praeterea, sacramenta veteris legis tempore revelatae gratiae observata ad litteram,
+              sunt mortifera: quia <quote xml:id="ta-l4d11q2-Qd1e346">littera occidit</quote>, 2 Cor. 3, 6. Sed hoc erat unum de
+              legalibus, comedere in azymis. Ergo videtur esse mortiferum in azymis conficere.</p>
+            <p xml:id="ta-l4d11q2-d1e350">Praeterea, hoc sacramentum est specialiter sacramentum caritatis. Sed fermentum
+              caritatem significat, ut patet in Glossa Matth. 13, super illud: <quote xml:id="ta-l4d11q2-Qd1e352">simile est
+                regnum caelorum fermento</quote> et cetera. Ergo maxime debet confici de
+              fermentato.</p>
+            <p xml:id="ta-l4d11q2-d1e356">Praeterea, sicut album et rubeum sunt accidentia vini; ita azymum et fermentatum sunt
+              accidentia panis. Sed indifferenter conficitur de vino albo et rubeo. Ergo non magis
+              debet attendi de pane an sit azymus vel fermentatus, quam de vino an sit album vel
+              rubeum.</p>
+            <p xml:id="ta-l4d11q2-d1e359">Sed contra, prima die azymorum nihil fermentatum esse debebat in domibus Judaeorum,
+              ut patet Exod. 12. Sed dominus confecit prima die azymorum, ut patet Matth. 26, Marc.
+              14, Luc. 22. Ergo ipse confecit de azymo; ergo et nos debemus de azymo conficere.</p>
+            <p xml:id="ta-l4d11q2-d1e363">Praeterea, Christus non venit legem solvere, sed implere, ut dicitur Matth. 5. Sed
+              secundum legem agnus paschalis comedebatur cum azymis, ut patet Exod. 17. Ergo
+              Christus agnum paschalem cum azymis comedit. Ergo de azymo confecit.</p>
+            <p xml:id="ta-l4d11q2-d1e366">Praeterea, materia debet convenire sacramento. Sed panis azymus magis competit huic
+              sacramento quam fermentatus propter puritatem. 1 Cor. 5, 8: <quote xml:id="ta-l4d11q2-Qd1e368">epulemur non in
+                fermento veteri, neque in fermento malitiae et nequitiae, sed in azymis sinceritatis
+                et veritatis</quote>. Ergo debet de pane azymo fieri sacramentum.</p>
+          </div>
+          <div xml:id="ta-l4d11q2-Dd1e374">
+            <head xml:id="ta-l4d11q2-Hd1e376">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d11q2-d1e379">Respondeo dicendum ad primam quaestionem, quod non potest confici nisi de pane
+              triticeo; cujus causa est divina institutio, quia ipse hoc pane confecit. Ratio autem
+              institutionis potest triplex assignari. Prima ex effectu; quia talis panis melius
+              nutrimentum praestat; unde competit ad significandum excellentiam gratiae quae in hoc
+              sacramento confertur. Secunda ex usu sacramenti: quia panis triticeus est qui
+              communius in usum cibi venit, alii autem panes non fiunt nisi propter defectum
+              tritici; unde et panis simpliciter intelligitur de tritico, sicut et oleum de olivis;
+              unde competit huic sacramento, cujus usus est in manducando, ut supra, dist. 9, dictum
+              est. Tertia ex re contenta, quae est Christus, qui se grano frumenti comparavit
+              dicens, Joan. 12, 24: <quote xml:id="ta-l4d11q2-Qd1e381">nisi granum frumenti cadens in terram mortuum fuerit,
+                ipsum solum manet</quote>.</p>
+            <p xml:id="ta-l4d11q2-d1e385">Ad primum ergo dicendum, quod in passione Christi non fuit aliqua duritia ex parte
+              Christi qui patiebatur, sed summa benignitas; et quia hostia panis significat et
+              continet ipsum Christum, ideo non ita competit huic sacramento panis hordeaceus, vel
+              alterius modi, sicut panis triticeus, qui est delicatior et suavior.</p>
+            <p xml:id="ta-l4d11q2-d1e388">Ad secundum dicendum, quod omnis aqua omni aquae est eadem specie, secundum
+              philosophum; et ideo non differt in quacumque aqua Baptismus fiat. Sed non omnia grana
+              ex quibus panis consuevit confici, sunt ejusdem speciei; et ideo non est similis ratio
+              utrobique. Et praeterea sacramentum istud non est tantae necessitatis sicut
+              sacramentum Baptismi, ut prius dictum est, dist. 9, qu. 1, art. 1, quaestiunc. 2.</p>
+            <p xml:id="ta-l4d11q2-d1e391">Ad tertium dicendum, quod quidam dicunt, quod de spelta potest confici corpus Christi
+              propter similitudinem quam habet ad triticum. Sed, sicut patet intuenti, quantum ad
+              figuram plus appropinquat hordeum ad similitudinem tritici quam spelta, remoto cortice
+              ab utroque, quamvis in colore plus spelta conveniat; sed inter alia omnia hujusmodi
+              plus convenit, maxime in figura, far cum tritico, et similiter in colore. Unde ex
+              identitate figurae non potest haberi quod aliquod istorum sit ejusdem speciei cum
+              grano tritici; sed identitatis speciei potest ex alio experimentum accipi. Generans
+              enim et genitum conveniunt de necessitate in specie, sed non de necessitate in
+              accidentibus, quinimmo accidentia variantur ex causis extrinsecis; unde cum ex grano
+              tritici, ubicumque seminetur, nunquam nascatur spelta vel far aut hordeum, vel aliquid
+              hujusmodi, constat quod omnino ista differunt specie a tritico.</p>
+            <p xml:id="ta-l4d11q2-d1e395">Ad quartum dicendum, quod illud quod objectio tangit, est causa quare ex pane fit hoc
+              sacramentum, non autem quare ex tali pane; sed hanc oportet superaddere sicut proprium
+              ad commune.</p>
+          </div>
+          <div xml:id="ta-l4d11q2-Dd1e399">
+            <head xml:id="ta-l4d11q2-Hd1e401">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d11q2-d1e404">Ad secundam quaestionem dicendum, quod admixtio extranei duplex potest esse: uno modo
+              ita quod extraneum adjunctum solvat speciem ejus cui adjungitur, vel trahendo ad
+              speciem suam, sicut si amphorae aquae adderetur phiala vini; vel faciendo mediam
+              speciem, sicut quando utraque aequaliter ponitur, ut aequalitas non accipiatur
+              secundum quantitatem, sed secundum proportionem virtutis. Alio modo ita quod additum
+              non solvat speciem, sed ipsum assumatur ad speciem ejus cui additur; sicut si gutta
+              aquae amphorae vini apponatur. Si ergo fiat tanta admixtio extranei quod solvatur
+              species panis triticei, non poterit confici ex pane illo; si autem adeo sit parva
+              admixtio quod species panis triticei maneat, et illud quod additur, ad naturam tritici
+              convertatur, potest exinde confici sacramentum. Hujusmodi autem signum potest accipi
+              ex accidentibus, scilicet colore, sapore, et hujusmodi; quia accidentia maximam partem
+              conferunt ad cognoscendum quod quid est, secundum philosophum in 1 de anima.</p>
+            <p xml:id="ta-l4d11q2-d1e407">Ad primum ergo dicendum, quod quamvis sicca, cum integra manent, non amittant speciem
+              ex permixtione, tamen quando dividuntur et conficiuntur, sicut in pane accidit,
+              possunt speciem amittere.</p>
+            <p xml:id="ta-l4d11q2-d1e410">Ad secundum patet solutio ex distinctione praedicta.</p>
+            <p xml:id="ta-l4d11q2-d1e413">Ad tertium dicendum, quod si sit tanta corruptio quod species panis non maneat, tunc
+              non potest ex eo confici; si autem specie manente sit aliqua dispositio ad
+              corruptionem, potest exinde confici; quamvis graviter peccet conficiens ex tali
+              scienter propter irreverentiam sacramenti. Et quod species maneat, potest ex hoc
+              cognosci, quod continuitas non est soluta, nec alia accidentia omnino ablata. Et quia
+              amidum fit de farina triticea, quae quidem per attritionem et excolationem et vaporis
+              admixtionem videtur speciem farinae amisisse, vel ad corruptionem omnino esse
+              disposita; ideo ex ea non debet confici, nec potest, secundum quosdam. Quidam autem
+              dicunt, quod amidum cum sit crudum, non potest esse materia hujus sacramenti, sicut
+              nec pasta. Sed si coquatur, poterit exinde confici, quia amidum fit ex farina maxime
+              depurata.</p>
+          </div>
+          <div xml:id="ta-l4d11q2-Dd1e417">
+            <head xml:id="ta-l4d11q2-Hd1e419">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d11q2-d1e422">Ad tertiam quaestionem dicendum, quod in hoc videtur esse diversitas inter Graecos et
+              Latinos: Graeci enim de fermentato, Latini de azymo conficiunt. Causa autem hujusmodi
+              diversitatis est, quia dominus in azymo confecit, ut ex tribus Evangelistis habetur
+              manifeste, et ita in primitiva Ecclesia apostoli celebrabant; quem morem Romana
+              Ecclesia ab apostolis, qui ipsam fundaverunt, accepit, ut Innocentius 3 dicit. Sed
+              postea, ut dicit Leo Papa imminente haeresi Ebionitarum, qui dicebant simul cum
+              Evangelio legalia observanda, sancti patres ne eis consentire viderentur, voluerunt ad
+              tempus instinctu spiritus sancti ex fermentato confici sacramentum: postea cessante
+              illa haeresi, Ecclesia Romana ad pristinum morem rediit; Graeci autem servare
+              voluerunt morem ad tempus a patribus introductum, ulterius addentes non posse confici
+              nisi de fermentato: et ad hoc probandum asserere voluerunt dominum in fermentato
+              confecisse. Et quia tres Evangelistae concorditer dicunt, prima die azymorum dominum
+              instituisse hoc sacramentum, in tantam infamiam quidam ex eis proruperunt, ut
+              dicerent, Evangelistas illos falsum scripsisse, et a Joanne fuisse correctos qui ante
+              diem Paschae dicit dominum coenasse cum discipulis. Sed quod hoc non contradicat,
+              ostendetur. Supposito autem quod dominus decimatertia luna, ut dicunt, coenam
+              celebrasset, adhuc evidenter ostenditur quod de azymo confecit; quia, sicut dicit
+              Chrysostomus super Matth., <quote xml:id="ta-l4d11q2-Qd1e424">apertissime dominus demonstravit, quia a principio
+                circumcisionis suae usque ad diem Paschae extremum, non erat contrarius divinarum
+                legum, in quibus praecipiebatur ut cum azymis paschalis agnus comederetur</quote>.
+              Et ideo dicendum est, quod dominus in azymo confecit, et in azymo conficiendum est,
+              quamvis etiam in fermentato confici possit; quamvis peccaret conficiens, Ecclesiae
+              morem non servans.</p>
+            <p xml:id="ta-l4d11q2-d1e428">Ad primum ergo dicendum, quod verbum illud Joannis, Graeci hoc modo intelligunt,
+              sicut in objecto procedit. Sed hic intellectus stare non potest, quia est contrarius
+              aliis Evangelistis, quod non est fas in sacra Scriptura dicere. Praeterea non
+              invenitur in lege quod aliquo casu liceret anticipare lunam decimam quartam, sicut
+              dicunt dominum fecisse praevidens passionem. Unde quidam dixerunt, quod coena qua
+              dominus lavit discipulorum pedes, et qua corpus suum consecravit, non fuit eadem, sed
+              una aliam praecessit; et de prima loquitur Joannes, de secunda alii Evangelistae. Sed
+              hoc est contra usum Ecclesiae, quae die Jovis ablutionem pedum celebrat, et etiam
+              contra textum Evangelii: quia sicut ex serie Evangelii Joannis apparet, eodem sero quo
+              pedes lavit, a Juda post bucellam recedente traditus est. Et ideo dicendum est, quod
+              dies festus Paschae vocabatur prima dies de septem quae erat celeberrima, et haec erat
+              decimaquinta luna, et in vespere praecedenti immolabatur et comedebatur agnus, luna
+              decimaquarta, cum azymis; et tunc dominus coenam fecit cum discipulis suis; et hanc
+              diem dicunt alii Evangelistae primam diem azymorum, et Joannes ante diem festum
+              Paschae.</p>
+            <p xml:id="ta-l4d11q2-d1e431">Ad secundum dicendum, quod non oportet quod veritas responderet figurae quantum ad
+              omnia; alioquin oportebit nos dicere, quod dominus ad vesperam passus sit, quia tunc
+              immolabatur agnus, quod est contra omnes Evangelistas; sed quantum ad aliquid veritas
+              figurae respondet; quia quamvis ante Christi resurrectionem dies a mane in mane
+              computaretur, sicut in 2 Lib., dist. 13, dictum est, tamen hoc erat speciale in
+              solemnitatibus legis quod computabatur dies a vespera in vesperam. Unde vespera
+              quartaedecimae diei computabatur quantum ad solemnitatem in numero dierum cum
+              quintadecima, in qua dominus passus est; et etiam immolatio ejus vespere
+              quartaedecimae diei quodammodo inchoavit; quia tunc traditus fuit, et tunc factus est
+              sudor ejus sanguineus, ut dicitur Luc. 22.</p>
+            <p xml:id="ta-l4d11q2-d1e434">Ad tertium dicendum, quod Pascha accipitur ibi pro cibis paschalibus, scilicet
+              azymis, qui per omnes septem dies comedebantur. Chrysostomus tamen dicit super Joan.,
+              quod intelligitur de agno paschali, quem in alia die ab ea quam lex instituit,
+              comederunt, et legem solverunt, ut animi sui adimplerent desiderium in morte Christi.
+              Christus autem non praeteriit tempus Paschae, diem scilicet Jovis, sed in ipso Pascha
+              comedit.</p>
+            <p xml:id="ta-l4d11q2-d1e438">Ad quartum dicendum, quod nulla dies erat adeo celebris quantum ad vacationem ab
+              operibus, sicut dies sabbati; unde in prima die solemnitatis licebat coquere cibos et
+              alia hujusmodi facere quod non licebat facere sabbatis; et ideo mulieres feria sexta
+              paraverunt aromata, videntes quod non sufficerent quae per Nicodemum parata erant; et
+              sabbato secundum legem quieverunt; et transeunte sabbato emerunt aromata, idest empta
+              paraverunt, vel etiam alia superemerunt, videntes non sufficere quae prius feria sexta
+              paraverant, et venerunt ad monumentum. Vel secundum quosdam, opera misericordiae non
+              reputantur inter opera servilia; unde in die solemni licebat aromata ad sepulturam
+              praeparare, quia hoc erat opus misericordiae.</p>
+            <p xml:id="ta-l4d11q2-d1e441">Ad quintum dicendum, quod quocumque die de septem diebus azymorum sabbatum veniret,
+              dicebatur magnus dies sabbati propter geminatam solemnitatem, scilicet sabbati et
+              Paschae.</p>
+            <p xml:id="ta-l4d11q2-d1e444">Ad sextum dicendum, quod artos apud Graecos quandoque etiam pro azymo pane ponitur;
+              et ideo Exod. 12, dicitur in Graecos artos ubi nos habemus <quote xml:id="ta-l4d11q2-Qd1e446">panes
+              azymos</quote>.</p>
+            <p xml:id="ta-l4d11q2-d1e450">Ad septimum dicendum, quod facere aliquid quod in lege fiebat, ut dicit Anselmus, non
+              est judaizare; alioquin judaizant conficientes ex fermentato, quia in lege praeceptum
+              erat ut panes primitiarum fermentatos offerent. Sed facere aliquid hac intentione ut
+              legalia observentur, est judaizare. Nos autem non ob hoc ex azymo conficimus ut legem
+              servemus, sed ut Christo conformemur, servantes hoc quod huic competit sacramento ab
+              eo instituto. Significatur enim in azymo puritas vitae, quae semper servanda est,
+              sicut et in thurificatione devotio orationis; unde utrumque in lege nova
+              retinetur.</p>
+            <p xml:id="ta-l4d11q2-d1e453">Ad octavum dicendum, quod in hoc sacramento continetur Christus ut hostia: et quia
+              puritas praecipue in hostia, etiam secundum legem, exigebatur; ideo magis competit
+              huic sacramento ut significetur Christi puritas per panem azymum, quam quod
+              significetur fervor caritatis per fermentum.</p>
+            <p xml:id="ta-l4d11q2-d1e456">Ad nonum dicendum, quod album et rubeum non ita faciunt differentiam in
+              significatione sacramenti circa vinum, sicut azymum et fermentatum circa panem; et
+              ideo non est similis ratio de utroque.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d11q2-Dd1e461">
+          <head xml:id="ta-l4d11q2-Hd1e463">Articulus 3</head>
+
+          <head xml:id="ta-l4d11q2-Hd1e466" type="questionTitle">Utrum solum de vino vitis debeat sanguis Christi
+            consecrari</head>
+          <div xml:id="ta-l4d11q2-Dd1e469">
+            <head xml:id="ta-l4d11q2-Hd1e471">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d11q2-d1e474">Ad tertium sic proceditur. Videtur quod non solum de vino vitis debeat sanguis
+              Christi consecrari. Baptismus enim in qualibet aqua fieri potest. Sed vinum est
+              materia hujus sacramenti, sicut aqua Baptismi. Ergo et de quolibet vino potest hoc
+              sacramentum fieri, sicut de vino malorum granatorum vel mororum vel hujusmodi.</p>
+            <p xml:id="ta-l4d11q2-d1e477">Praeterea, in aliquibus terris non sunt vites, nec ad eas de facili vinum portari
+              potest. Ergo debuit a divina sapientia provideri ut alius aliquis liquor loco vini de
+              vite possit in sacramento assumi.</p>
+            <p xml:id="ta-l4d11q2-d1e480">Sed contra, sicut dominus se comparavit grano frumenti, Joan. 12, ita comparavit se
+              viti, Joan. 15. Ergo sicut non debet in hoc sacramento assumi nisi panis de tritico,
+              ita nec vinum nisi de vite.</p>
+          </div>
+          <div xml:id="ta-l4d11q2-Dd1e484">
+            <head xml:id="ta-l4d11q2-Hd1e486">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d11q2-d1e489">Ulterius. Videtur quod possit etiam confici de aceto. Quia, secundum Isidorum, acetum
+              est species vini. Sed cum vino vitis potest confici hoc sacramentum. Ergo et de
+              aceto.</p>
+            <p xml:id="ta-l4d11q2-d1e492">Praeterea, si vinum consecratum in acetum converteretur, non desineret ibi esse
+              Christi sanguis. Ergo eadem ratione si ante consecrationem sit acetum, potest exinde
+              sanguis Christi consecrari.</p>
+            <p xml:id="ta-l4d11q2-d1e495">Sed contra, Innocentius dicit, quod <quote xml:id="ta-l4d11q2-Qd1e497">vinum huic sacramento competit: quia cor
+                bibentis et dilatat et exhilarat</quote>. Sed hoc non facit acetum. Ergo ex aceto
+              non potest consecrari sanguis Christi.</p>
+          </div>
+          <div xml:id="ta-l4d11q2-Dd1e502">
+            <head xml:id="ta-l4d11q2-Hd1e504">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d11q2-d1e507">Ulterius. Videtur quod de agresta possit sanguis Christi consecrari. Sicut enim
+              agresta non habet speciem perfectam vini, ita nec mustum. Sed de musto dulci potest
+              confici sanguis Christi; dicitur enim de Consecr., dist. 2: <quote xml:id="ta-l4d11q2-Qd1e509">si necesse fuerit,
+                botrus in calice prematur</quote>. Ergo et eadem ratione de agresta.</p>
+            <p xml:id="ta-l4d11q2-d1e513">Praeterea, agresta non differt a vino nisi quia immatura est. Sed maturitas et
+              immaturitas sunt accidentia. Ergo non differunt secundum speciem; et ita videtur quod
+              ex agresta sicut ex vino indifferenter sanguis Christi consecrari possit.</p>
+            <p xml:id="ta-l4d11q2-d1e516">Sed contra, quod fit, non est, secundum philosophum. Sed agresta est in via
+              generationis respectu vini. Ergo nondum est vinum; ergo ex ea non potest sanguis
+              Christi consecrari.</p>
+          </div>
+          <div xml:id="ta-l4d11q2-Dd1e521">
+            <head xml:id="ta-l4d11q2-Hd1e523">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d11q2-d1e526">Respondeo dicendum ad primam quaestionem, quod non potest confici sanguis Christi
+              nisi de vino vitis, quia hoc proprie vinum est. Alia vero dicuntur vina per
+              similitudinem hujus vini. Hoc etiam vinum communius sumitur in potum, sicut et panis
+              tritici in cibum; et habet proprietates magis convenientes ad effectum sacramenti,
+              inquantum calefacit et laetificat; et ideo dominus de vino vitis confecit, ut patet
+              per hoc quod dicitur Matth. 26, 29: <quote xml:id="ta-l4d11q2-Qd1e528" ana="#mt26_29">amodo non bibam de hoc genimine
+                vitis</quote>.</p>
+            <p xml:id="ta-l4d11q2-d1e532">Ad primum ergo dicendum, quod omnis aqua est ejusdem speciei; sed non sic est de
+              vino.</p>
+            <p xml:id="ta-l4d11q2-d1e535">Ad secundum dicendum, quod non est aliqua terra ad quam non possit tantum de vino
+              portari quantum sufficeret ad celebrandum; unde illa ratio non cogit.</p>
+          </div>
+          <div xml:id="ta-l4d11q2-Dd1e539">
+            <head xml:id="ta-l4d11q2-Hd1e541">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d11q2-d1e544">Ad secundam quaestionem dicendum, quod secundum philosophum, in 8 Metaph., hoc modo
+              fit ex vino acetum, quo ex vivo fit mortuum; unde sicut animal vivum et mortuum non
+              sunt ejusdem speciei, ita nec vinum et acetum; et hoc ostendunt contrariae
+              proprietates: quia vinum est calidum, acetum autem frigidum; et non fit reditus de
+              aceto in vinum, sicut nec de mortuo ad vivum. Et ideo dicendum, quod si vinum sit
+              omnino acetum, de eo non potest confici; sed si sit acidum quasi in via acescendi, est
+              idem judicium quod de pane qui in via est ad corruptionem; unde sicut de pane illo
+              potest confici, peccat tamen conficiens propter irreverentiam, ita et hic.</p>
+            <p xml:id="ta-l4d11q2-d1e547">Ad primum ergo dicendum, quod ipse largo modo accipit vinum pro omni liquore qui ex
+              uvis ortum habet.</p>
+            <p xml:id="ta-l4d11q2-d1e550">Ad secundum dicendum, quod si vinum consecratum reservatum omnino acetum fieret,
+              esset idem judicium quod de pane omnino corrupto; unde sicut non remanet ibi corpus
+              Christi, ita nec hic sanguis. Secus autem est de pane qui est in via ad corruptionem,
+              et de vino quod est in via ad acescendum.</p>
+          </div>
+          <div xml:id="ta-l4d11q2-Dd1e554">
+            <head xml:id="ta-l4d11q2-Hd1e556">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d11q2-d1e559">Ad tertiam quaestionem dicendum, quod nihil recipit speciem nisi in termino
+              generationis: agresta autem adhuc est in via generationis ad vinum, sicut sanguis
+              quando coagulari incipit, est in via generationis ad animal; unde sicut ille sanguis
+              non est animal, ita agresta non est vinum; et propter hoc de ipsa non potest confici
+              sanguis Christi.</p>
+            <p xml:id="ta-l4d11q2-d1e562">Ad primum ergo dicendum, quod mustum jam ad completam speciem vini venit: dulcedo
+              enim ipsius attestatur maturationem quae est digestionis species; digestio autem est
+              completio a naturali calore, ut patet in 4 Meteor.; et ideo ex musto confici potest,
+              sed non decet, propter impuritatem ipsius, ut ex ipso conficiatur, nisi necessitas
+              emergat.</p>
+            <p xml:id="ta-l4d11q2-d1e565">Ad secundum dicendum, quod maturatio est naturalis digestio, per quam digestum ad
+              ultimam perfectionem naturalem perducitur, ut etiam possit alterum generare sibi
+              simile, ut dicitur in 4 Meteor.; unde maturum et acerbum differunt sicut completum et
+              incompletum: quae quidem differentia non est tantum accidentalis.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d11q2-Dd1e571" type="articulus">
+          <head xml:id="ta-l4d11q2-Hd1e573">Articulus 4</head>
+
+          <head xml:id="ta-l4d11q2-Hd1e576" type="questionTitle">Utrum aqua vino admiscenda sit</head>
+          <div xml:id="ta-l4d11q2-Dd1e579">
+            <head xml:id="ta-l4d11q2-Hd1e581">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d11q2-d1e584">Ad quartum sic proceditur. Videtur quod aqua vino admiscenda non sit. De latere enim
+              domini in cruce pendentis effluxit sanguis et aqua, ut dicitur Joan. 19; per quae duo,
+              sacramenta praecipue intelliguntur, ut dicit Innocentius. Sed aqua competit sacramento
+              regenerationis, scilicet Baptismo. Ergo sanguis tantum competit sacramento
+              redemptionis Eucharistiae; et ita vinum sine aqua.</p>
+            <p xml:id="ta-l4d11q2-d1e587">Praeterea, vinum et aqua sunt alterius speciei. Si ergo aqua admiscetur vino, erit
+              triplex materia hujus sacramenti, et non solum duplex, ut dictum est.</p>
+            <p xml:id="ta-l4d11q2-d1e590">Praeterea, hoc sacramentum sub specie panis et vini celebratur, ut in littera
+              dicitur. Sed ad speciem panis nihil additur. Ergo nec vino aliquid addi debet.</p>
+            <p xml:id="ta-l4d11q2-d1e593">Sed contra est quod dicit Alexander Papa: <quote xml:id="ta-l4d11q2-Qd1e595">in sacramentorum oblationibus panis
+                tantum et vinum aqua permixtum offerantur</quote>. Ergo debet admisceri aqua.</p>
+            <p xml:id="ta-l4d11q2-d1e600">Praeterea, materia sacramenti debet competere rei significatae. Sed populus
+              significatur per aquam, qui ad corpus misticum pertinet, quod est res ultima hujus
+              sacramenti. Ergo aqua debet apponi.</p>
+          </div>
+          <div xml:id="ta-l4d11q2-Dd1e604">
+            <head xml:id="ta-l4d11q2-Hd1e606">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d11q2-d1e609">Ulterius. Videtur quod absque ea non possit sanguis consecrari. Cyprianus enim dicit:
+                <quote xml:id="ta-l4d11q2-Qd1e611">calix domini non potest esse aqua sola et vinum solum nisi utrumque
+                misceatur, quoniam nec corpus domini farina esse potest, nisi utrumque, scilicet
+                farina et aqua, adunatum fuerit</quote>. Sed constat quod ex farina sine aqua nullo
+              modo potest corpus Christi consecrari. Ergo nec ex vino sine aqua.</p>
+            <p xml:id="ta-l4d11q2-d1e615">Praeterea, significatio est de essentia sacramenti. Sed aqua significat aliquid quod
+              est principale in sacramento, scilicet unionem corporis mystici ad caput. Ergo aqua
+              est de necessitate hujus sacramenti, ut sine ea confici non possit.</p>
+            <p xml:id="ta-l4d11q2-d1e618">Praeterea, hoc sacramentum est memoriale dominicae passionis. Sed ex latere domini
+              patientis non solum fluxit sanguis sed aqua. Ergo ex vino sine aqua sacramentum hoc
+              confici non potest.</p>
+            <p xml:id="ta-l4d11q2-d1e621">Sed contra, Graeci non apponunt aquam, ut Magister dicit; sed tamen conficiunt. Ergo
+              sine aquae admixtione confici potest sacramentum.</p>
+            <p xml:id="ta-l4d11q2-d1e625">Praeterea, nihil est de substantia sacramenti quod non manet in sacramento. Sed aqua
+              non manet in propria specie in sacramento. Ergo non est de substantia sacramenti.</p>
+          </div>
+          <div xml:id="ta-l4d11q2-Dd1e629">
+            <head xml:id="ta-l4d11q2-Hd1e631">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d11q2-d1e634">Ulterius. Videtur quod debeat aqua artificialis apponi. Quia sacramentum dicitur esse
+              uniforme. Sed ex parte corporis est aliquid artificiale, scilicet panis. Ergo ex parte
+              sanguinis debet esse aqua artificialis.</p>
+            <p xml:id="ta-l4d11q2-d1e637">Praeterea, si panis ex aqua artificiali, ut rosacea, conficeretur, posset ex eo
+              corpus Christi consecrari. Ergo similiter potest apponi in vino aqua artificialis.</p>
+            <p xml:id="ta-l4d11q2-d1e640">Sed contra, Baptismus est sacramentum majoris necessitatis quam Eucharistia. Sed in
+              Baptismo non potest accipi nisi aqua naturalis, ut supra dictum est. Ergo nec in
+              Eucharistia.</p>
+          </div>
+          <div xml:id="ta-l4d11q2-Dd1e645">
+            <head xml:id="ta-l4d11q2-Hd1e647">Quaestiuncula 4</head>
+            <p xml:id="ta-l4d11q2-d1e650">Ulterius. Videtur quod debeat in magna quantitate apponi. Quia quod non est, non
+              potest aliquid significare. Sed quod corruptum est, non est. Cum ergo aqua ponatur ad
+              significandum, ut dicitur, videtur quod debeat tantum apponi quod non corrumpatur; et
+              ita tantum quantum de vino vel plus, quia vinum est magis activum.</p>
+            <p xml:id="ta-l4d11q2-d1e653">Praeterea, de latere Christi sicut sanguis, ita et aqua sensibiliter fluxit. Sed si
+              parum de aqua poneretur, non posset sentiri. Ergo debet in majori quantitate
+              apponi.</p>
+            <p xml:id="ta-l4d11q2-d1e656">Praeterea, si sufficit in parva quantitate aquam apponi, eadem ratione sufficeret ad
+              sacramentum, si gutta aquae in totum dolium projiceretur. Sed hoc videtur ridiculum.
+              Ergo non sufficit quod parva quantitas ponatur.</p>
+            <p xml:id="ta-l4d11q2-d1e659">Praeterea, quorumdam consuetudo esse dicitur in terris ubi non crescit vinum, quod
+              pannum vino rubeo intinctum et siccatum aqua lavent; de qua cum ruborem vini
+              acceperit, sanguinem Christi conficiunt. Ergo videtur quod aqua in magna quantitate
+              possit apponi.</p>
+            <p xml:id="ta-l4d11q2-d1e663">Sed contra, illud quod est ex duobus, neutrum illorum est, ut Damascenus dicit. Sed
+              si magna quantitas aquae apponeretur, esset quaedam mixtio. Ergo non esset vinum; et
+              ita non posset inde sanguis Christi confici.</p>
+            <p xml:id="ta-l4d11q2-d1e666">Praeterea, oportet quod aqua consumatur a vino ad hoc quod ex parte sanguinis sit
+              tantum una species, sicut ex parte corporis. Sed non posset consumi, si aqua in magna
+              quantitate poneretur. Ergo non debet in magna quantitate poni.</p>
+          </div>
+          <div xml:id="ta-l4d11q2-Dd1e670">
+            <head xml:id="ta-l4d11q2-Hd1e672">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d11q2-d1e675">Respondeo dicendum ad primam quaestionem, quod aqua debet apponi vino propter
+              institutionem: quia dominus apposuisse probabiliter creditur ex more illius patriae:
+              quia vinum ibi sine aqua nunquam bibitur propter vini fortitudinem: quamvis de aqua in
+              Evangelio mentio non fiat, quia non est principalis materia in hoc sacramento; sed
+              ejus appositio competit huic sacramento et quantum ad significationem rei hujus
+              sacramenti, quae est corpus mysticum per aquam significatum, quia <quote xml:id="ta-l4d11q2-Qd1e677">aquae multae
+                populi multi</quote>, Apocal. 17, 15; et sic appositio aquae ad vinum significat
+              unionem membrorum ad caput ratione ipsius conjunctionis; et amorem capitis patientis
+              pro membris, ad ipsa, ex hoc quod ex duobus conjunctis unum efficitur; et processum
+              redemptionis a capite ad membra, ex ipsa transformatione aquae in vinum. Unde dicit
+              Glossa Marc. 14 super illud: <quote xml:id="ta-l4d11q2-Qd1e680">accepit Jesus panem</quote> etc.: <quote xml:id="ta-l4d11q2-Qd1e683">neque
+                aqua solum neque vinum solum cuilibet licet offerre, ne videatur caput a membris
+                secernere, vel Christum sine nostrae redemptionis amore pati potuisse, vel nos sine
+                illius passione salvari</quote>.</p>
+            <p xml:id="ta-l4d11q2-d1e687">Ad primum ergo dicendum, quod, sicut dicit Gregorius in Moral., <quote xml:id="ta-l4d11q2-Qd1e689">quia natura
+                uniuscujusque ex diversitate componitur, in sacro eloquio per rem quamlibet recte
+                diversa significantur</quote>. Aqua ergo secundum quod habet vim abluendi,
+              significatio ejus competit Baptismo; secundum autem quod continue in terram decurrit,
+              habet significare populum: 2 Reg., 14, 14: <quote xml:id="ta-l4d11q2-Qd1e692">omnes morimur, et quasi aqua
+                dilabimur</quote>; et sic ejus significatio competit huic sacramento.</p>
+            <p xml:id="ta-l4d11q2-d1e696">Ad secundum dicendum, quod de aqua apposita est duplex opinio. Quidam enim dicunt,
+              quod aqua manet in sua natura, et solum vinum transubstantiatur; unde aqua non
+              apponitur ibi nisi ad significationem. Alii vero dicunt, quod aqua apposita in vinum
+              convertitur, et sic totum in sanguinem Christi transubstantiatur. Quaecumque autem
+              harum opinionum sit vera, aqua non erit materia hujus sacramenti: quia secundum primam
+              non convertitur in corpus vel sanguinem Christi; secundum secundam non manet in
+              propria specie sed vini. Secunda tamen verior apparet, et secundum rationem naturalem;
+              quia modica aqua vino admixta, quod est magis activum, a vino corrumpitur et in
+              speciem vini transit: et quantum ad ritum sacramenti: quia si aqua in propria natura
+              remaneret, sic calix consecratus non esset tantum potus spiritualis sed etiam
+              corporalis; et ita non liceret post primam sumptionem sanguinis iterum sumere.</p>
+            <p xml:id="ta-l4d11q2-d1e699">Ad tertium dicendum, quod aqua apponitur pani in ipsa sua confectione; et ideo non
+              est necesse ut postea apponatur. Vel dicendum, quod effectus redemptionis a capite
+              pervenit ad membra per sanguinis effusionem; et ideo magis apponitur aliquid ad
+              significandum populi unionem ad sanguinem quam ad corpus.</p>
+          </div>
+          <div xml:id="ta-l4d11q2-Dd1e703">
+            <head xml:id="ta-l4d11q2-Hd1e705">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d11q2-d1e708">Ad secundam quaestionem dicendum, quod materia proportionatur sacramento; unde
+              secundum aliquid est de essentia sacramenti. Dictum est autem supra, quod perfectio
+              hujus sacramenti consistit in ipsa consecratione corporis et sanguinis Christi, et non
+              in usu materiae consecratae, sicut est in Baptismo et confirmatione; et ideo ex parte
+              materiae illud tantum est de necessitate sacramenti, quod significat corpus et
+              sanguinem Christi, scilicet panis et vinum; illud autem quod significat usum et
+              effectum hujus sacramenti, scilicet aqua, non est de necessitate hujus sacramenti;
+              unde vinum sine aqua potest consecrari, sed consecrans peccat.</p>
+            <p xml:id="ta-l4d11q2-d1e711">Ad primum ergo dicendum, quod exponendum est verbum Cypriani: <quote xml:id="ta-l4d11q2-Qd1e713">non
+                potest</quote>, idest non debet; quia illud possumus quod de jure possumus: et ideo
+              quantum ad id quod debet fieri, est simile ex parte corporis et sanguinis; non autem
+              quantum ad id quod fieri potest: quia aqua est de substantia panis, non autem de
+              substantia vini.</p>
+            <p xml:id="ta-l4d11q2-d1e717">Ad secundum dicendum, quod non significat aqua aliquid quod sit de substantia hujus
+              sacramenti, ut dictum est, sed effectum vel usum consequentem.</p>
+            <p xml:id="ta-l4d11q2-d1e720">Ad tertium dicendum, quod effusio sanguinis in passione Christi directe pertinebat ad
+              effectum ablutionis a peccatis.</p>
+          </div>
+          <div xml:id="ta-l4d11q2-Dd1e724">
+            <head xml:id="ta-l4d11q2-Hd1e726">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d11q2-d1e729">Ad tertiam quaestionem dicendum, quod cum sine aqua possit sanguis consecrari,
+              quantum ad id quod fieri potest non refert quaecumque aqua apponatur, dummodo sit
+              talis aqua quae in vinum converti possit; sed quantum ad id quod fieri debet, non
+              debet apponi nisi aqua naturalis: quia illae aquae non sunt ejusdem speciei, et
+              dicuntur aquae aequivoce, sicut etiam de vino et de pane dictum est.</p>
+            <p xml:id="ta-l4d11q2-d1e732">Ad primum ergo dicendum quod panis artificialiter factus est ejusdem speciei cum illo
+              pane de quo confecit Christus; non autem aqua artificialis cum aqua quae effluxit cum
+              sanguine de corpore Christi, est eadem specie; et ideo non est similis ratio.</p>
+            <p xml:id="ta-l4d11q2-d1e735">Ad secundum dicendum, quod quidam dicunt, quod similiter est ex parte panis, quod de
+              pane confecto ex aqua rosacea potest confici corpus Christi, quamvis peccaret scienter
+              ex tali pane conficiens. Sed probabiliter videtur quod possit confici: quia panis est
+              principalis materia hujus sacramenti, de cujus substantia et compositione est aqua; et
+              ideo diversificatio aquae secundum speciem, facit diversitatem speciei in materia
+              sacramenti. Sed aqua non est de substantia vini, quae est principalis materia in hoc
+              sacramento.</p>
+            <p xml:id="ta-l4d11q2-d1e738">Patet etiam responsio ad id quod in oppositum objicitur: quia aqua in Baptismo est
+              principalis materia; et ideo si aqua alterius speciei apponatur, non servatur debita
+              materia, et propter hoc non est sacramentum; sed hic est aliter, ut dictum est.</p>
+          </div>
+          <div xml:id="ta-l4d11q2-Dd1e742">
+            <head xml:id="ta-l4d11q2-Hd1e744">Quaestiuncula 4</head>
+            <p xml:id="ta-l4d11q2-d1e747">Ad quartam quaestionem dicendum, quod, sicut dictum est, aqua apposita vino in vinum
+              convertitur, et sic totum convertitur in sanguinem; unde non tantum de aqua debet
+              apponi quod vinum in aquam convertatur, vel in aliquod medium per mixtionem; et ideo
+              semper tutius est apponere parum: quia quantumcumque apponatur parum, significatio
+              servatur.</p>
+            <p xml:id="ta-l4d11q2-d1e750">Ad primum ergo dicendum, quod ex hoc ipso quod in vinum convertitur aqua, habet suam
+              significationem: quia nos in Christum mutamur, non ipse in nos.</p>
+            <p xml:id="ta-l4d11q2-d1e753">Ad secundum dicendum, quod hoc sacramentum repraesentat Christi passionem quantum ad
+              redemptionem, quae facta est per effusionem sanguinis; sed Baptismus quantum ad
+              ablutionem; et ideo in Baptismo oportet quod sensibiliter aqua maneat, sicut et vinum
+              hoc quod sanguini respondet; aqua autem haec apposita a vino absorbetur, sicut nostra
+              mortalitas per virtutem passionis Christi.</p>
+            <p xml:id="ta-l4d11q2-d1e756">Ad tertium dicendum, quod si apponeretur aqua in dolio, non significaret aliquid; et
+              ideo hoc non sufficeret; sed oportet ut imminente oblatione apponatur ad sacramentum
+              perficiendum.</p>
+            <p xml:id="ta-l4d11q2-d1e760">Ad quartum dicendum, quod cum illud sit magis aqua rubea quam vinum, non potest
+              exinde sanguis Christi consecrari; unde illa consuetudo damnatur in canone de Consec.,
+              dist. 2, cap. cum omne.</p>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

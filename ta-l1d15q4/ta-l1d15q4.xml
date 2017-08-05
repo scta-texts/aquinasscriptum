@@ -1,0 +1,1831 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 15, Quaestio 4</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.09-dev-master">
+          <title>Librum I, Distinctio 15, Quaestio 4</title>
+          <date when="2016-03-14">March 14, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-14">March 14, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p>1856 editum</p>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="2015.09">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <div xml:id="starts-on"> </div>
+    </front>
+    <body>
+      <div xml:id="ta-l1d15q4">
+        <head xml:id="ta-l1d15q4-Hd1e3490">Librum I, Distinctio 15, Quaestio 4</head>
+        <div xml:id="ta-l1d15q4-Dd1e3493">
+          <head xml:id="ta-l1d15q4-Hd1e3495">Prooemium</head>
+          <p xml:id="ta-l1d15q4-d1e3498"><quote xml:id="ta-l1d15q4-Qd1e3499">Hic quaeritur, utrum semel tantum missus sit filius, an saepe mittatur</quote>.
+            Hic determinat de missione filii secundum speciales modos ipsius; et dividitur in partes
+            duas: in prima determinat veritatem; in secunda removet objectionem, ibi: <quote xml:id="ta-l1d15q4-Qd1e3502">hic
+              quaeritur, cur pater non dicitur missus, cum ex tempore a quoquam cognoscitur, sicut
+              filius</quote>. Prima in duas: in prima distinguit duos modos missionis filii; in
+            secunda assignat ipsorum differentiam, ibi: <quote xml:id="ta-l1d15q4-Qd1e3505">ecce distincti sunt duo modi
+              missionis filii</quote>. Prima in duas: in prima movet quaestionem; in secunda ponit
+            solutionem, ibi: <quote xml:id="ta-l1d15q4-Qd1e3508">ad quod dicimus quod duobus modis dicitur filius mitti. Ecce
+              distincti sunt duo modi missionis filii</quote>. Hic assignat differentiam inter duos
+            modos assignatos; et dividitur in duas, secundum duas differentias quas assignat.
+            Secunda, ibi: <quote xml:id="ta-l1d15q4-Qd1e3511">praeterea notandum est. Hic quaeritur, cur pater non dicitur
+              missus, cum ex tempore a quoquam cognoscitur, sicut filius</quote>. Hic excludit
+            objectionem, et circa hoc tria facit: primo movet objectionem, secundo ponit solutionem,
+            ibi: <quote xml:id="ta-l1d15q4-Qd1e3514">ad quod dicimus. Quia in eo est principii auctoritas</quote>; tertio ex
+            solutione improbat quorundam errorem, quem primo ponit ibi: <quote xml:id="ta-l1d15q4-Qd1e3518">ideoque putaverunt
+              quidam haeretici (...) patrem esse majorem et filium minorem</quote>; secundo
+            improbat, ibi: <quote xml:id="ta-l1d15q4-Qd1e3521">quod Augustinus improbat</quote>. Ad intellectum hujus partis de
+            duobus quaeritur. Primo de missione filii invisibili, secundum se; quia de visibili
+            dicetur in 3. Secundo de missione per comparationem ad eos ad quos sit missio. Circa
+            primum tria quaeruntur: 1 utrum missio invisibilis conveniat filio; 2 utrum fit
+            distincta a missione spiritus sancti invisibili; 3 utrum aliqua missio sit aeterna,
+            sicut processio est aeterna et temporalis.</p>
+        </div>
+        <div xml:id="ta-l1d15q4-Dd1e3526" type="articulus">
+          <head xml:id="ta-l1d15q4-Hd1e3528">Articulus 1</head>
+
+          <head xml:id="ta-l1d15q4-Hd1e3531" type="questionTitle">Utrum filius invisibiliter mittatur in mentem</head>
+
+          <p xml:id="ta-l1d15q4-d1e3534">Ad primum sic proceditur. Videtur quod filius invisibiliter in mentem non mittatur. Ad
+            missionem enim divinae personae requiritur quod cognoscatur ipsa persona adveniens; et
+            praecipue in missione sapientiae, quam nullus habens ignorat. Sed adveniente filio, non
+            cognoscitur ejus adventus. Job 9, 11: <quote xml:id="ta-l1d15q4-Qd1e3536">si venerit ad me, non intelligam</quote>.
+            Ergo videtur quod filius non mittatur in mentem.</p>
+          <p xml:id="ta-l1d15q4-d1e3540">Item, missio est idem quod processio temporalis, ut supra dictum est, dist. ista,
+            quaest. 1, art. 1. Sed, sicut supra diximus, processio non habet quod dicatur
+            temporalis, nisi secundum respectum in quem est; quem respectum habet processio spiritus
+            sancti ex ipso modo processionis, inquantum procedit ut amor. Cum igitur processio filii
+            ex suo modo non habeat respectum ut in quem, sed solum ut a quo, videtur quod processio
+            temporalis filio non conveniat, et ita nec missio.</p>
+          <p xml:id="ta-l1d15q4-d1e3543">Praeterea, persona divina non mittitur nisi in donis gratiae gratum facientis. Sed dona
+            pertinentia ad intellectum quae appropriantur filio, non sunt gratum facientia, cum sint
+            communia bonis et malis, ut dicitur 1 Corinth. 13: <quote xml:id="ta-l1d15q4-Qd1e3545">si habuero omnem scientiam
+              (...) caritatem autem non habuero, nihil sum</quote>. Ergo filius non dicitur mitti
+            invisibiliter in donis sibi appropriatis; et ita nullo modo.</p>
+          <p xml:id="ta-l1d15q4-d1e3550">In contrarium est quod habetur Sap. 9, 10: <quote xml:id="ta-l1d15q4-Qd1e3552">mitte illam</quote>, sapientiam,
+              <quote xml:id="ta-l1d15q4-Qd1e3555">de caelis</quote>, scilicet tuis, <quote xml:id="ta-l1d15q4-Qd1e3558">a sede magnitudinis tuae</quote>. Non
+            autem loquitur de sapientia essentialiter dicta; quia illa non mittitur, cum non sit ab
+            alio. Ergo loquitur de sapientia genita, quae est filius.</p>
+          <p xml:id="ta-l1d15q4-d1e3562">Item, Augustinus: <quote xml:id="ta-l1d15q4-Qd1e3564">sicut filium generari, est ipsum esse a patre; ita filium
+              mitti est cognosci quod sit a patre</quote>. Hoc autem contingit. Ergo et filium
+            mitti.</p>
+          <p xml:id="ta-l1d15q4-d1e3568">Respondeo dicendum, quod sicut in exitu rerum a principio dicitur bonitas divina in
+            creaturas procedere, inquantum repraesentatur in creatura per similitudinem bonitas
+            divina in ipsa recepta; ita in reductione rationalis creaturae in Deum intelligitur
+            processio divinae personae, quae et missio dicitur, inquantum propria relatio ipsius
+            personae divinae repraesentatur in anima per similitudinem aliquam receptam, quae est
+            exemplata et originata ab ipsa proprietate relationis aeternae; sicut proprius modus quo
+            spiritus sanctus refertur ad patrem, est amor, et proprius modus referendi filium in
+            patrem est, quia est verbum ipsius manifestans ipsum. Unde sicut spiritus sanctus
+            invisibiliter procedit in mentem per donum amoris, ita filius per donum sapientiae; in
+            quo est manifestatio ipsius patris, qui est ultimum ad quod recurrimus. Et quia secundum
+            receptionem horum duorum efficitur in nobis similitudo ad propria personarum; ideo
+            secundum novum modum essendi, prout res est in sua similitudine, dicuntur personae
+            divinae in nobis esse, secundum quod novo modo eis assimilamur; et secundum hoc utraque
+            processio dicitur missio. Ulterius, sicuti praedicta originantur ex propriis personarum,
+            ita etiam effectum suum non consequuntur ut conjungantur fini, nisi virtute divinarum
+            personarum; quia in forma impressa ab aliquo agente est virtus imprimentis. Unde in
+            receptione hujusmodi donorum habentur personae divinae novo modo quasi ductrices in
+            finem vel conjungentes. Et ideo utraque processio dicitur datio, inquantum est ibi novus
+            modus habendi.</p>
+          <p xml:id="ta-l1d15q4-d1e3571">Ad primum ergo dicendum, quod ad rationem missionis non requiritur quod sit ibi
+            cognitio actualis personae ipsius, sed tantum habitualis, inquantum scilicet in dono
+            collato, quod est habitus, repraesentatur proprium divinae personae sicut in
+            similitudine; et ita dicitur quod mitti est cognosci quod ab alio sit per modum
+            repraesentationis. Sicut aliquid dicitur se manifestare vel facere cognitionem de se,
+            inquantum se repraesentat in sui similitudine. Sed tamen me habere actuale donum, in quo
+            persona divina detur, non possum scire certitudinaliter in actu, propter similitudinem
+            actuum moralium ad actus meritorios (etsi possim ex aliquibus signis conjicere) nisi per
+            revelationem fiat certitudo; et ideo dicit Job: <quote xml:id="ta-l1d15q4-Qd1e3573">si venerit ad me, non videbo eum;
+              si abierit, non intelligam</quote>; quia certitudinaliter gratia gratum faciens in qua
+            est adventus divinae personae, cognosci non potest; quamvis ipsum donum perceptum sit in
+            se sufficienter ductivum in cognitionem advenientis personae.</p>
+          <p xml:id="ta-l1d15q4-d1e3577">Ad secundum dicendum, quod proprium spiritus sancti, quod est amor, potest dupliciter
+            habere respectum ad creaturam, vel ut objectum, vel secundum rationem principii
+            exemplaris ad principiatum exemplatum. Sed proprium filii unam tantum habere potest
+            relationum dictarum, scilicet illam quae est secundum rationem principii; et hoc
+            sufficit ad processionem temporalem filii, quamvis secundum plura possit attendi
+            respectus temporalis in processione spiritus sancti: et ita etiam missio utrique
+            convenire potest.</p>
+          <p xml:id="ta-l1d15q4-d1e3580">Ad tertium dicendum, quod quando aliquid participatur non secundum suum actum
+            perfectum, sed secundum aliquem modum, non dicitur proprie haberi; sicut animalia habent
+            aliquem modum prudentiae, non tamen dicuntur prudentiam habere, quia non habent actum
+            rationis, qui proprie est actus prudentiae, scilicet ipsa electio; unde magis habent
+            aliquid simile prudentiae quam prudentiam. Videmus autem in cognitione duos gradus:
+            primum, secundum quod cognitio intellectiva tendit in unum; secundum, prout verum
+            accipit ut conveniens et bonum. Et nisi sit aliqua resistentia ex tali cognitione,
+            sequitur amor et delectatio; quia, secundum philosophum, delectatio consequitur
+            operationem perfectam non impeditam. Unde felicitas contemplativa est quando aliquis
+            pervenit ad ultimam operationem intellectus et ipsam sine impedimento exercet. Constat
+            autem quod in processione verbi aeterni est cognitio perfecta secundum omnem modum, et
+            ideo ex tali notitia procedit amor. Unde dicit Augustinus: <quote xml:id="ta-l1d15q4-Qd1e3582">verbum quod insinuare
+              intendimus cum amore notitia est</quote>. Quandocumque igitur habetur cognitio ex qua
+            non sequitur amor gratuitus, non habetur similitudo verbi, sed aliquid illius. Sed solum
+            tunc habetur similitudo verbi, quando habetur cognitio talis ex qua procedit amor, qui
+            conjungit ipsi cognito secundum rationem convenientis. Et ideo non habet filium in se
+            inhabitantem nisi qui recipit talem cognitionem. Hoc autem non potest esse sine gratia
+            gratum faciente. Unde constat quod, simpliciter et proprie loquendo, filius nec datur
+            nec mittitur, nisi in dono gratiae gratum facientis; sed in aliis donis quae pertinent
+            ad cognitionem, participatur aliquid de similitudine verbi.</p>
+        </div>
+        <div xml:id="ta-l1d15q4-Dd1e3587" type="articulus">
+          <head xml:id="ta-l1d15q4-Hd1e3589">Articulus 2</head>
+
+          <head xml:id="ta-l1d15q4-Hd1e3592" type="questionTitle">Utrum missio filii distinguatur a missione spiritus
+            sancti</head>
+
+          <p xml:id="ta-l1d15q4-d1e3595">Ad secundum sic proceditur. Videtur quod missio filii distinguatur a missione spiritus
+            sancti. Missio enim est temporalis processio, ut supra dixit Magister, dist. 14. Sed
+            alia est ratio processionis filii, alia ratio processionis spiritus sancti: quia
+            spiritus sanctus procedit ut amor, filius ut verbum. Ergo et alia ratio missionis.</p>
+          <p xml:id="ta-l1d15q4-d1e3598">Item, omne quod convenit aliquibus secundum prius et posterius non convenit eis
+            secundum eandem rationem. Sed spiritui sancto convenit datio per prius quam filio, quia
+            habet rationem primi doni: ergo alia est ratio dationis in utroque. Ergo et missionis,
+            cum missio sit ipsa datio.</p>
+          <p xml:id="ta-l1d15q4-d1e3601">Praeterea, dona in quibus datur filius et spiritus sanctus sunt diversa et non
+            dependentia ad invicem. Sed eorum quae non dependent ad invicem, unum potest esse sine
+            alio. Ergo missio filii potest esse sine missione spiritus sancti et e converso, et ita
+            sunt distinctae etiam secundum tempus missionis.</p>
+          <p xml:id="ta-l1d15q4-d1e3605">Praeterea, videmus sensibiliter quosdam simplices ferventes esse in amore divino, qui
+            tamen sunt valde hebetes in cognitione divinae sapientiae et e converso. Cum igitur
+            missio filii sit secundum donum sapientiae et missio spiritus sancti sit secundum amoris
+            donum, videtur quod una missio sine alia possit esse.</p>
+          <p xml:id="ta-l1d15q4-d1e3608">Contra, missio spiritus sancti est ad sanctificandum creaturam, ut supra dixit
+            Magister, dist. 14. Si igitur missio filii quae est etiam in gratia gratum faciente,
+            cujus est sanctificare, esset alia a missione spiritus sancti, essent duae missiones ad
+            sanctificandum creaturam rationalem; et ita altera superflueret, quod non invenitur in
+            operibus divinis. Ergo una missio non distinguitur ab alia.</p>
+          <p xml:id="ta-l1d15q4-d1e3611">Respondeo dicendum, quod de distinctione missionum filii et spiritus sancti,
+            tripliciter contingit loqui: aut quantum ad ipsarum diversitatem realem, aut quantum ad
+            rationem missionis, aut quantum ad earum separationem. Si primo modo, cum in missione
+            duo considerentur: scilicet exitus personae missae ab alia, et effectus secundum quem
+            novo modo in creatura persona divina esse dicitur; utroque modo missio filii est alia a
+            missione spiritus sancti secundum rem: quia et generatio qua filius exit a patre, est
+            alia a processione spiritus sancti qua exit ab utroque. Similiter donum quod perficit
+            intellectum, scilicet sapientia, secundum quod attenditur missio filii, est aliud a dono
+            quod perficit affectum vel voluntatem, secundum quod attenditur missio spiritus sancti.
+            Si autem secundo modo de earum distinctione loquamur, hoc potest esse dupliciter; aut
+            secundum rationem propriam utriusque, aut secundum communem. Si secundum communem, tunc
+            eadem ratio est missionis filii et spiritus sancti quantum ad utrumque; quia et esse ab
+            alio commune est utrique, et similiter esse novo modo in creatura. Sed secundum propriam
+            rationem utrumque differt: quia et propria ratio processionis filii non est propria
+            ratio processionis spiritus sancti, cum ille procedat ut amor, et hic ut filius vel
+            verbum; et similiter proprius modus quo filius dicitur esse in creatura, non est
+            proprius modus quo spiritus sanctus est; quinimmo unus per sapientiam, alter per amorem.
+            Si autem tertio modo, tunc dico, quod una missio nunquam est sine alia; quia amor
+            sequitur notitiam; notitia perfecta, secundum quam est missio filii, semper inducit in
+            amorem, et ideo simul infunduntur et simul augmentantur.</p>
+          <p xml:id="ta-l1d15q4-d1e3614">Ad primum ergo dicendum, quod quamvis sit alia processio secundum rem, conveniunt tamen
+            in quodam communi secundum rationem, quod est esse ab alio.</p>
+          <p xml:id="ta-l1d15q4-d1e3617">Ad secundum dicendum, quod, ut prius diximus, in divinis non est prius et posterius;
+            tamen exitus spiritus sancti praesupponit exitum filii, secundum ordinem naturae; et ex
+            parte ista, si liceret ita loqui, possemus dicere, quod missio filii ex parte exitus
+            importati, est prior missione spiritus sancti. Sed hoc esset secundum rationem propriam
+            utriusque, et non secundum rationem communem. Si autem considerentur istae missiones
+            quantum ad effectum in creatura, hoc dupliciter: vel ex parte ipsius dantis vel
+            mittentis; vel ex parte ipsorum donorum in quibus fit missio. Si ex parte donorum, tunc
+            simpliciter naturaliter notitia praecedit amorem, et ex parte illa missio filii
+            missionem spiritus sancti. Sed hoc erit secundum rationis propriae considerationem, et
+            non communis; sicut omnes species motus aequaliter conveniunt in ratione communi motus;
+            tamen secundum esse suum proprium, motus localis est prior aliis motibus. Si autem ex
+            parte dantis, cum primum movens et inclinans ad dandum sit ipse amor, sic datio spiritus
+            sancti est prior datione filii. Sed hoc non ita exprimitur in ratione missionis.</p>
+          <p xml:id="ta-l1d15q4-d1e3620">Ad tertium dicendum, quod dona in quibus mittitur filius et spiritus sanctus,
+            consequuntur se invicem necessario, ut supra ostensum est, in corp. art., et ideo ratio
+            procedit ex falsis.</p>
+          <p xml:id="ta-l1d15q4-d1e3624">Ad quartum dicendum, quod illa notitia ex qua procedit amor, viget in ferventibus
+            divino amore, qua scilicet cognoscunt divinam bonitatem inquantum est finis, et
+            inquantum est largissime in eos profluens sua beneficia; et talem notitiam perfecte non
+            habent qui amore ipsius non accenduntur.</p>
+          <p xml:id="ta-l1d15q4-d1e3627">Ad quintum dicendum, quod utraque missio ordinatur ad finem unum ultimum, scilicet
+            conjungere Deo; sed effectus utriusque missionis differt secundum duo quae inveniuntur
+            in rationali creatura, quibus Deo conjungitur, scilicet intellectus et affectus, et ita
+            neutra superfluit.</p>
+        </div>
+        <div xml:id="ta-l1d15q4-Dd1e3631" type="articulus">
+          <head xml:id="ta-l1d15q4-Hd1e3633">Articulus 3</head>
+
+          <head xml:id="ta-l1d15q4-Hd1e3636" type="questionTitle">Utrum missio possit esse aeterna</head>
+
+          <p xml:id="ta-l1d15q4-d1e3639">Ad tertium sic proceditur. Videtur quod missio possit esse aeterna. Sicut enim dicit
+            Gregorius, eo mittitur filius quo generatur. Sed generatio ejus est aeterna. Ergo et
+            missio.</p>
+          <p xml:id="ta-l1d15q4-d1e3642">Item, sicut missio dicit respectum a quo est, et in quem; ita et processio amoris, ut
+            supra dictum est, in hac dist., quaest. 1, art. 2. Sed processio amoris est aeterna a
+            patre in filium. Ergo et missio potest esse aeterna.</p>
+          <p xml:id="ta-l1d15q4-d1e3645">Praeterea, sicut missio dicitur per respectum ad creaturam, ita et donum. Sed donum
+            spiritus sancti dicitur ab aeterno. Ergo et missio potest dici aeterna.</p>
+          <p xml:id="ta-l1d15q4-d1e3649">Contra est illud quod Augustinus in littera dicit: <quote xml:id="ta-l1d15q4-Qd1e3651">non eo quod de patre natus
+              est, dicitur filius missus</quote>.</p>
+          <p xml:id="ta-l1d15q4-d1e3655">Praeterea, missio semper ponit novum modum existendi in aliquo ipsius missi. Sed nihil
+            novum est aeternum. Ergo non est aeterna, sed tantum temporalis: et hoc simpliciter
+            concedendum est.</p>
+          <p xml:id="ta-l1d15q4-d1e3658">Ad primum ergo dicendum, quod verbum Gregorii potest tripliciter exponi. Uno modo quod
+            loquatur de generatione temporali ipsius filii, secundum quam dicitur missus in carne.
+            Secundo modo ut ly eo non sit adverbium, sed ablativi casus; ut sit sensus: ab eo a quo
+            generatur mittitur: et hoc verum est. Tertio modo ut loquatur non de missione in actu,
+            sed secundum aptitudinem: ex hoc enim filius est, ut ita dicam, missibilis, quo a patre
+            per generationem exivit. Esse enim ab alio non dicit totam rationem missionis, ut patet
+            ex dictis.</p>
+          <p xml:id="ta-l1d15q4-d1e3661">Ad secundum dicendum, quod processio amoris, quamvis sit in aliquem, non tamen ponit
+            novum modum existendi in illo, et ideo potest esse aeterna: sed missio ponit novitatem
+            existendi in aliquo, et ideo non potest esse aeterna. Et propter hoc, quamvis possit
+            concedi aliquo modo quod spiritus sanctus procedat a patre in filium ab aeterno, non
+            tamen conceditur quod mittatur a patre in filium ab aeterno.</p>
+          <p xml:id="ta-l1d15q4-d1e3664">Ad tertium dicendum, quod missio est nomen verbale, unde importat actualem relationem
+            ad creaturam; sed donum imponitur ab aptitudine donandi, et ideo non importat actualem
+            respectum ad creaturam; propter quod ab aeterno spiritus sanctus dicitur donum, non
+            autem missus, sicut nec datus.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

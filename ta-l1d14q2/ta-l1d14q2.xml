@@ -1,0 +1,1791 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 14, Quaestio 2</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.09-dev-master">
+          <title>Librum I, Distinctio 14, Quaestio 2</title>
+          <date when="2016-03-14">March 14, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-14">March 14, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p>1856 editum</p>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="2015.09">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <div xml:id="starts-on"> </div>
+    </front>
+    <body>
+      <div xml:id="ta-l1d14q2">
+        <head xml:id="ta-l1d14q2-Hd1e3490">Librum I, Distinctio 14, Quaestio 2</head>
+        <div xml:id="ta-l1d14q2-Dd1e3493">
+          <head xml:id="ta-l1d14q2-Hd1e3495">Prooemium</head>
+          <p xml:id="ta-l1d14q2-d1e3498">Deinde quaeritur, secundum quid attendatur processio temporalis, et circa hoc duo
+            quaeruntur: 1 utrum ipse spiritus sanctus secundum processionem temporalem detur, vel
+            tantum dona ejus, vel utrumque. Et si utrumque, quaeritur, secundum quae dona dicatur
+            spiritum sanctum dari vel procedere temporaliter.</p>
+        </div>
+        <div xml:id="ta-l1d14q2-Dd1e3502" type="articulus">
+          <head xml:id="ta-l1d14q2-Hd1e3504">Articulus 1</head>
+
+          <head xml:id="ta-l1d14q2-Hd1e3507" type="questionTitle">Utrum spiritus sanctus temporaliter detur</head>
+          <div xml:id="ta-l1d14q2-Dd1e3510">
+            <head xml:id="ta-l1d14q2-Hd1e3512">Quaestiuncula 1</head>
+            <p xml:id="ta-l1d14q2-d1e3515">Ad primum sic proceditur. Videtur quod ipse spiritus sanctus non procedat
+              temporaliter vel detur. Illud enim quod secundum se est ubique non videtur usquam
+              secundum se procedere. Sed spiritus sanctus, cum sit Deus, est ubique. Ergo non potest
+              in quemquam procedere.</p>
+            <p xml:id="ta-l1d14q2-d1e3518">Si dicas, quod potest esse secundum aliquem modum in aliquo secundum quem prius non
+              erat, adhuc habetur propositum; quia, secundum Dionysium, et auctorem Lib. de causis.
+              Deus eodem modo se habet ad omnia, quamvis non omnia eodem modo se habeant ad ipsum.
+              Sed iste modus diversus in creaturis est ex diversis perfectionibus quas ex Deo
+              consequuntur. Ergo videtur quod ex hoc quod spiritus sanctus dicitur aliter esse in
+              isto quam prius non fuit, non propter aliud est nisi quia aliquem effectum consequitur
+              iste quem prius non consequebatur: et sic tota datio vel processio refertur ad dona,
+              et non ad ipsum spiritum sanctum.</p>
+            <p xml:id="ta-l1d14q2-d1e3521">Item, ut dictum est, in hac dist., quaest. 1, art. 2, processio temporalis nihil
+              secundum rem addit ex parte ipsius procedentis ad processionem aeternam. Sed secundum
+              processionem aeternam ipse spiritus sanctus non procedit in aliquam creaturam. Ergo
+              nec secundum temporalem, quantum ex parte ipsius spiritus sancti, sed solum quantum ad
+              dona ipsius.</p>
+            <p xml:id="ta-l1d14q2-d1e3524">Praeterea, constat quod virtus infusa non est deficientior in operibus meritoriis,
+              quam virtus acquisita in operibus politicis. Sed virtus acquisita sufficienter dirigit
+              hominem in omnibus civilibus. Ergo infusa in omnibus meritoriis. Non igitur oportet,
+              ut videtur, quod cum virtute infusa ipse spiritus sanctus detur, sed vel solus
+              spiritus sanctus, vel sola virtus.</p>
+            <p xml:id="ta-l1d14q2-d1e3528">Contra, Rom. 5, 5, dicitur: <quote xml:id="ta-l1d14q2-Qd1e3530" ana="#rom5_5">caritas Dei diffusa est in cordibus nostris per
+                spiritum sanctum, qui datus est nobis</quote>. Ergo videtur quod utrumque detur.</p>
+            <p xml:id="ta-l1d14q2-d1e3534">Praeterea, amor habet rationem primi doni, quia in ipso omnia ex liberalitate
+              conferuntur. Cum igitur spiritus sanctus sit amor, videtur quod habeat rationem doni.
+              Sed non nisi quia datur. Ergo videtur quod ipse spiritus sanctus detur.</p>
+          </div>
+          <div xml:id="ta-l1d14q2-Dd1e3538">
+            <head xml:id="ta-l1d14q2-Hd1e3540">Quaestiuncula 2</head>
+            <p xml:id="ta-l1d14q2-d1e3543">Ulterius quaeritur circa hoc, si utrumque datur, quid per prius datur. Et videtur
+              quod spiritus sanctus: quia per ipsum dantur alia, et quia habet rationem primi
+              doni.</p>
+            <p xml:id="ta-l1d14q2-d1e3546">Sed e contrario videtur quod dona per prius. Quia dona ipsius disponunt nos ad hoc
+              quod ipsum habeamus. Dispositio autem prior est eo ad quod disponit. Ergo et
+              cetera.</p>
+          </div>
+          <div xml:id="ta-l1d14q2-Dd1e3550">
+            <head xml:id="ta-l1d14q2-Hd1e3552">Quaestiuncula 1</head>
+            <p xml:id="ta-l1d14q2-d1e3555">Respondeo dicendum, quod ipsemet spiritus sanctus procedit temporali processione, vel
+              datur, et non solum dona ejus. Si enim consideremus processionem spiritus sancti ex
+              parte ejus a quo procedit, non est dubium quin secundum illum respectum ipsemet
+              spiritus sanctus procedat. Si autem consideremus processionem secundum respectum ad id
+              in quo procedit, tunc, sicut dictum est, in hac dist., quaest. 1, art. 1, respectus
+              iste in spiritu sancto ponitur, non quia ipse realiter referatur, sed quia alterum
+              refertur ad ipsum. Cum igitur in acceptione donorum ipsius non solum relatio nostra
+              terminetur ad dona, ut ipsa tantum habeamus, sed etiam ad spiritum sanctum, quia
+              aliter ipsum habemus quam prius; non tantum dicentur dona ipsius procedere in nos, sed
+              etiam ipsemet; secundum hoc enim ipse dicitur referri ad nos, secundum quod nos
+              referimur in ipsum. Et ideo procedit ipse in nos et dona ipsius: quia et dona ejus
+              recipimus et per eadem ad ipsum nos aliter habemus, inquantum per dona ejus ipsi
+              spiritui sancto conjungimur, vel ille nobis, per donum nos sibi assimilans.</p>
+            <p xml:id="ta-l1d14q2-d1e3558">Ad primum igitur dicendum, quod cum dicitur Deus esse ubique, importatur quaedam
+              relatio Dei ad creaturam, quae quidem realiter non est in ipso, sed in creatura.
+              Contingit autem ex parte creaturae istas relationes multipliciter etiam diversificari
+              secundum diversos effectus quibus Deo assimilatur; et inde est quod significatur ut
+              aliter se habens ad creaturam quam prius. Et propter hoc spiritus sanctus, qui ubique
+              est secundum relationem creaturae ad ipsum, potest dici de novo esse in aliquo,
+              secundum novam relationem ipsius creaturae ad ipsum.</p>
+            <p xml:id="ta-l1d14q2-d1e3561">Ad secundum dicendum, quod quamvis ille modus aliter se habendi, diversificetur ex
+              diversis donis receptis in creatura, tamen relatio creaturae non sistit in donis
+              illis, sed ulterius tendit in eum per quem illa dona dantur. Et ideo possumus
+              significare, nos alio modo habere spiritum sanctum, et spiritum sanctum aliter a nobis
+              haberi; et hoc significatur cum dicitur ipsemet in nos procedere vel nobis dari.</p>
+            <p xml:id="ta-l1d14q2-d1e3564">Ad tertium dicendum, quod non dicitur ipsemet in nos procedere, quia circa ipsum
+              aliquid fiat; sed quia ex eo quod nos ad ipsummet aliter nos habemus, ipse potest
+              significari sub alio respectu se habere ad nos. Et ita dicitur in nos procedere
+              quantum ad illum respectum quem processio ponit ad id in quod est processio; licet non
+              quantum ad illum quem ponit ad id a quo est.</p>
+            <p xml:id="ta-l1d14q2-d1e3568">Ad quartum dicendum, quod virtus infusa est multo sufficientior quam virtus
+              acquisita, et ex ratione suae perfectionis habet quod nos maxime Deo conjungat et
+              assimilet; secundum quam conjunctionem innascitur nobis novus respectus ad Deum. Unde
+              quanto sufficientior est, tanto magis in ipsa spiritus sanctus procedere dicitur et
+              cum ipsa. Utrum autem oporteat aliquod donum creatum dari cum spiritu sancto, erit
+              quaestio infra, dist. 18, quaest. unica, art. 3.</p>
+            <p xml:id="ta-l1d14q2-d1e3571">Alia duo concedimus.</p>
+          </div>
+          <div xml:id="ta-l1d14q2-Dd1e3576">
+            <head xml:id="ta-l1d14q2-Hd1e3578">Quaestiuncula 2</head>
+            <p xml:id="ta-l1d14q2-d1e3581">Ad id quod ulterius quaeritur, dicendum, quod ordo aliquorum secundum naturam potest
+              dupliciter considerari. Aut ex parte recipientis vel materiae; et sic dispositio est
+              prior quam id ad quod disponit: et sic per prius recipimus dona spiritus sancti quam
+              ipsum spiritum, quia per ipsa dona recepta spiritui sancto assimilamur. Aut ex parte
+              agentis et finis; et sic quod propinquius erit fini et agenti, dicitur esse prius: et
+              ita per prius recipimus spiritum sanctum quam dona ejus, quia et filius per amorem
+              suum alia nobis donavit. Et hoc est simpliciter esse prius.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l1d14q2-Dd1e3586" type="articulus">
+          <head xml:id="ta-l1d14q2-Hd1e3588">Articulus 2</head>
+
+          <head xml:id="ta-l1d14q2-Hd1e3591" type="questionTitle">Utrum processio temporalis spiritus sancti attendatur secundum
+            omnia dona</head>
+
+          <p xml:id="ta-l1d14q2-d1e3594">Ad secundum sic proceditur. Videtur quod secundum omnia dona processio temporalis
+            spiritus sancti attendatur. Omne enim donum quod creaturae confertur, ex liberalitate
+            divinae voluntatis procedit. Sed ratio conferendi per liberalitatem est amor. Ergo
+            videtur quod secundum quaelibet dona creaturae collata, spiritus sanctus detur vel
+            procedat.</p>
+          <p xml:id="ta-l1d14q2-d1e3597">Praeterea, in collatione cujuslibet doni, creatura secundum aliquem respectum se habet
+            ad Deum secundum quem prius non se habebat. Assimilatur enim sibi secundum
+            participationem illius perfectionis quam de novo a Deo recepit. Sed hoc erat spiritum
+            sanctum temporaliter procedere, quod significari spiritum sanctum in habitudine aliqua
+            ad creaturam, ex eo quod creatura novo modo referebatur ad ipsum. Ergo videtur quod
+            spiritus sanctus etiam secundum dona naturalia mittatur, et non tantum secundum gratum
+            facientia.</p>
+          <p xml:id="ta-l1d14q2-d1e3600">Praeterea, secundum Augustinum, mitti est cognosci quod ab alio sit. Sed aliquis sine
+            gratia gratum faciente potest cognoscere spiritum sanctum ab alio esse per fidem
+            informem. Ergo videtur quod processio temporalis non semper sit secundum donum gratum
+            faciens.</p>
+          <p xml:id="ta-l1d14q2-d1e3604">Praeterea, Rabanus dicit, quod spiritus sanctus datus est apostolis ad operationem
+            miraculorum. Hoc autem donum non est gratum faciens, sed tantum gratis datum. Ergo etiam
+            secundum haec dona potest attendi temporalis processio spiritus sancti.</p>
+          <p xml:id="ta-l1d14q2-d1e3607">Contra, Sapient. 1, 5: <quote xml:id="ta-l1d14q2-Qd1e3609">spiritus sanctus disciplinae effugiet fictum</quote>.
+            Quicumque autem caret gratia gratum faciente, pro ficto habetur. Ergo in nullum talem
+            spiritus sanctus procedit.</p>
+          <p xml:id="ta-l1d14q2-d1e3613">Praeterea, spiritus sanctus non procedit in aliquem nisi quem inhabitat Deus, sicut in
+            templo suo: quia per spiritum sanctum efficitur quis templum Dei, 1 Corinth. 6. Sed in
+            nullo dicitur habitare Deus nisi per gratiam gratum facientem. Ergo secundum hoc donum
+            tantum temporalis processio spiritus sancti attenditur.</p>
+          <p xml:id="ta-l1d14q2-d1e3616">Respondeo dicendum, quod in exitu creaturarum a primo principio attenditur quaedam
+            circulatio vel regiratio, eo quod omnia revertuntur sicut in finem in id a quo sicut a
+            principio prodierunt. Et ideo oportet ut per eadem quibus est exitus a principio, et
+            reditus in finem attendatur. Sicut igitur dictum est, dist. 13, quaest. 1, art. 1, quod
+            processio personarum est ratio productionis creaturarum a primo principio, ita etiam est
+            eadem processio ratio redeundi in finem, quia per filium et spiritum sanctum sicut et
+            conditi sumus, ita etiam et fini ultimo conjungimur; ut patet ex verbis Augustini
+            positis in 3 dist., ubi dicit: <quote xml:id="ta-l1d14q2-Qd1e3618">principium ad quod recurrimus</quote>, scilicet
+            patrem, <quote xml:id="ta-l1d14q2-Qd1e3621">et formam quam sequitur</quote>, scilicet filium, <quote xml:id="ta-l1d14q2-Qd1e3624">et gratiam qua
+              reconciliamur</quote>. Et Hilarius dicit infra 31 dist.: <quote xml:id="ta-l1d14q2-Qd1e3627">ad unum initiabile
+              omnium initium per filium universa referimus</quote>. Secundum hoc ergo processio
+            divinarum personarum in creaturas potest considerari dupliciter. Aut inquantum est ratio
+            exeundi a principio; et sic talis processio attenditur secundum dona naturalia, in
+            quibus subsistimus, sicut dicitur a Dionysio divina sapientia vel bonitas in creaturas
+            procedere. Sed de tali processione non loquimur hic. Potest etiam attendi inquantum est
+            ratio redeundi in finem, et est secundum illa dona tantum quae proxime conjungunt nos
+            fini ultimo, scilicet Deo, quae sunt gratia gratum faciens et gloria, et de ista
+            processione loquimur hic. Sicut enim in generatione naturali generatum non conjungitur
+            generanti in similitudine speciei nisi in ultimo generationis, ita etiam in
+            participationibus divinae bonitatis non est immediata conjunctio ad Deum per primos
+            effectus quibus in esse naturae subsistimus, sed per ultimos quibus fini adhaeremus; et
+            ideo concedimus, spiritum sanctum non dari nisi secundum dona gratum facientia.</p>
+          <p xml:id="ta-l1d14q2-d1e3631">Ad primum ergo dicendum, quod quamvis in collatione donorum naturalium vel gratis
+            datorum attendatur magna liberalitas, tamen perfectio liberalitatis attenditur in his
+            quae ultimae perfectioni conjungunt: et ista sunt quae immediate ordinant nos in finem;
+            et ideo secundum ista dona praecipue spiritus sancti processio attenditur.</p>
+          <p xml:id="ta-l1d14q2-d1e3634">Ad secundum dicendum, quod in processione spiritus, secundum quod hic loquimur, prout
+            scilicet claudit in se dationem spiritus sancti, non sufficit quod sit nova relatio,
+            qualiscumque est, creaturae ad Deum; sed oportet quod referatur in ipsum sicut ad
+            habitum: quia quod datur alicui habetur aliquo modo ab illo. Persona autem divina non
+            potest haberi a nobis nisi vel ad fructum perfectum, et sic habetur per donum gloriae;
+            aut secundum fructum imperfectum, et sic habetur per donum gratiae gratum facientis; vel
+            potius sicut id per quod fruibili conjungimur, inquantum ipsae personae divinae quadam
+            sui sigillatione in animabus nostris relinquunt quaedam dona quibus formaliter fruimur,
+            scilicet amore et sapientia; propter quod spiritus sanctus dicitur esse pignus
+            hereditatis nostrae.</p>
+          <p xml:id="ta-l1d14q2-d1e3638">Ad tertium dicendum, quod non qualiscumque cognitio sufficit ad rationem missionis, sed
+            solum illa quae accipitur ex aliquo dono appropriato personae, per quod efficitur in
+            nobis conjunctio ad Deum, secundum modum proprium illius personae, scilicet per amorem,
+            quando spiritus sanctus datur. Unde cognitio ista est quasi experimentalis.</p>
+          <p xml:id="ta-l1d14q2-d1e3641">Ad quartum dicendum, quod quamvis operatio virtutum non sit donum gratum faciens, tamen
+            cum dono gratum faciente conferri potest. Et quia apostoli hoc donum non sine gratia
+            gratum faciente acceperunt, ideo dicuntur temporaliter accepisse spiritum sanctum in
+            collatione hujus doni.</p>
+        </div>
+
+
+
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,1075 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 44, Quaestio 1</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Librum IV, Distinctio 44, Quaestio 1</title>
+          <date when="2016-03-19">March 19, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-19">March 19, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness>1856 editum</witness>
+          <witness xml:id="G" n="ghent567">Ghent, Belgium, Ghent University Library, 567</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="0.0.0-dev">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+
+
+
+
+      <div xml:id="starts-on">
+        <cb ed="#G" n="584a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ta-l4d44q1">
+        <head xml:id="ta-l4d44q1-Hd1e97">Librum IV, Distinctio 44, Quaestio 1</head>
+        <div xml:id="ta-l4d44q1-Dd1e100">
+          <head xml:id="ta-l4d44q1-Hd1e102">Prooemium</head>
+          <p xml:id="ta-l4d44q1-d1e105">Postquam determinavit Magister de conditionibus resurrectionis, hic determinat de
+            conditionibus resurgentium; et dividitur in partes duas: in prima parte determinat de
+            conditionibus resurgentium qui ad perfectionem humanae naturae pervenerunt; in secunda
+            de conditionibus illorum qui in praesenti vita praedicta perfectione caruerunt, scilicet
+            de abortivis fetibus, ibi: <quote xml:id="ta-l4d44q1-Qd1e107">illud etiam investigare oportet</quote> et cetera.
+            Prima in duas: in prima determinat conditiones resurgentium beatorum; in secunda
+            conditiones malorum, ibi: <quote xml:id="ta-l4d44q1-Qd1e110">de reprobis autem quaeri solet</quote> et cetera. Prima
+            in tres: in prima determinat resurgentium aetatem, et staturam; in secunda corporum
+            integritatem, ibi: <quote xml:id="ta-l4d44q1-Qd1e113">non enim perit Deo terrena materies</quote>; in tertia eorum
+            gloriam, ibi: <quote xml:id="ta-l4d44q1-Qd1e116">hoc autem in corporibus sanctorum intelligendum est. De reprobis
+              autem quaeri solet, an cum deformitatibus hic habitis resurgant</quote>. Hic
+            determinat conditiones reproborum: et primo quantum ad reprobationem naturae; secundo
+            quantum ad passionem poenae, ibi: <quote xml:id="ta-l4d44q1-Qd1e119">si vero quaeritur de corporibus malorum quomodo
+              in igne ardeant et non consumantur, Augustinus variis exemplis astruit</quote>. Et
+            circa hoc duo facit: primo ostendit quomodo corpora reproborum poterunt poenam pati;
+            secundo ostendit idem de spiritibus damnatorum, ibi: <quote xml:id="ta-l4d44q1-Qd1e123">quaeri etiam solet, an
+              Daemones corporali igne ardeant</quote>. Et circa hoc duo facit: primo ostendit
+            quomodo spiritus Daemonum sunt passibiles ab igne corporali; secundo ostendit idem de
+            spiritibus damnatorum, ibi: <quote xml:id="ta-l4d44q1-Qd1e126">cum autem constet animas igne materiali in corporibus
+              cruciandas, quaeri solet</quote> et cetera. Hic est triplex quaestio circa conditionem
+            resurgentium. Prima de his quae communiter ad bonos et malos pertinent. Secunda de his
+            quae pertinent tantum ad bonos. Tertia de his quae spectant tantum ad malos. Circa
+            primum quaeruntur tria: 1 de identitate resurgentium; 2 de integritate corporum; 3 de
+            qualitate ipsorum.</p>
+
+        </div>
+        <div xml:id="ta-l4d44q1-Dd1e131" type="articulus">
+          <head xml:id="ta-l4d44q1-Hd1e133">Articulus 1</head>
+
+          <head xml:id="ta-l4d44q1-Hd1e136" type="questionTitle">Utrum idem corpus anima resumat in resurrectione</head>
+
+          <div xml:id="ta-l4d44q1-Dd1e139">
+            <head xml:id="ta-l4d44q1-Hd1e141">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d44q1-d1e144">Ad primum sic proceditur. Videtur quod non idem corpus anima resumat in
+              resurrectione. 1 Corinth. 15, 37: <quote xml:id="ta-l4d44q1-Qd1e146">non corpus quod futurum est seminas, sed
+                nudum granum</quote>. Sed apostolus ibi comparat mortem seminationi, et
+              resurrectionem pullulationi. Ergo non idem corpus quod per mortem deponitur, in
+              resurrectione resumitur.</p>
+            <p xml:id="ta-l4d44q1-d1e150">Praeterea, cuilibet formae aptatur materia secundum suam conditionem, et similiter
+              cuilibet agenti instrumentum. Sed corpus comparatur ad animam sicut materia ad formam,
+              et instrumentum ad agentem. Cum ergo anima in resurrectione non sit ejusdem
+              conditionis sicut modo est; quia vel transferetur totaliter in caelestem vitam, cui
+              inhaesit vivens in mundo; vel deprimetur in brutalem, si brutaliter vixit in hoc
+              mundo: videtur quod non resumet idem corpus, sed vel caeleste, vel brutale.</p>
+            <p xml:id="ta-l4d44q1-d1e153">Praeterea, corpus humanum usque ad elementa post mortem resolvitur, ut supra dictum
+              est. Sed illae partes elementorum in quas corpus humanum resolutum est, non conveniunt
+              cum corpore humano quod in ea resolutum est, nisi in materia prima, quomodo quaelibet
+              aliae elementorum partes cum praedicto corpore conveniunt. Si autem ex aliis partibus
+              elementorum corpus formaretur, non diceretur idem numero. Ergo nec si ex illis
+              partibus reparetur, corpus erit numero idem.</p>
+            <p xml:id="ta-l4d44q1-d1e156">Praeterea, impossibile est esse idem numero cujus partes essentiales sunt aliae
+              numero. Sed forma mixti, quae est pars essentialis corporis humani, sicut forma ejus,
+              non poterit eadem resumi. Ergo corpus non erit idem numero. Probatio mediae. Illud
+              enim quod penitus cedit in non ens, non potest idem numero resumi; quod patet ex hoc,
+              quia non potest esse idem numero cujus est esse diversum. Sed esse interruptum, quod
+              est actus entis, est diversum, sicut quilibet alius actus interruptus. Sed forma
+              mixtionis penitus cedit in non ens per mortem, cum sit forma corporalis, et similiter
+              qualitates contrariae ex quibus fit mixtio. Ergo forma mixtionis non redit eadem
+              numero.</p>
+            <p xml:id="ta-l4d44q1-d1e160">Sed contra est quod dicit Job 19, 26: <quote xml:id="ta-l4d44q1-Qd1e162">in carne mea videbo Deum salvatorem
+                meum</quote>. Loquitur autem de visione post resurrectionem: quod patet ex hoc quod
+              praecedit: <quote xml:id="ta-l4d44q1-Qd1e165">in novissimo die de terra resurrecturus sum</quote>. Ergo idem
+              numero corpus resurget.</p>
+            <p xml:id="ta-l4d44q1-d1e169">Praeterea, sicut Damascenus dicit in 4 Lib., <quote xml:id="ta-l4d44q1-Qd1e171">resurrectio est ejus qui cecidit
+                secunda surrectio</quote>. Sed hoc corpus quod nunc gerimus, per mortem cecidit.
+              Ergo idem numero resurget.</p>
+
+          </div>
+          <div xml:id="ta-l4d44q1-Dd1e176">
+            <head xml:id="ta-l4d44q1-Hd1e178">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d44q1-d1e181">Ulterius. Videtur quod non sit idem numero homo qui resurget. Sicut enim dicit
+              philosophus, 2 de generatione, <quote xml:id="ta-l4d44q1-Qd1e183">quaecumque habent speciem corruptibilem motam,
+                non reiteratur eadem numero</quote>. Sed talis est substantia hominis secundum
+              praesentem statum. Ergo post mutationem mortis non potest reiterari idem numero.</p>
+            <p xml:id="ta-l4d44q1-d1e187">Praeterea, ubi est alia et alia humanitas, non est idem homo numero; unde Socrates et
+              Plato sunt duo homines, et non unus homo, quia alia est humanitas utriusque. Sed alia
+              est humanitas hominis resurgentis ab ea quam nunc habet. Ergo non est idem homo
+              numero. Media potest probari dupliciter. Primo, quia humanitas quae est forma totius,
+              non est forma et substantia sicut anima, sed est forma tantum: hujusmodi autem formae
+              penitus cedunt in non ens; et sic non possunt reiterari. Secundo, quia humanitas
+              resultat ex conjunctione partium; sed non potest eadem numero conjunctio resumi quae
+              prius fuit, quia iteratio identitati opponitur. Iteratio enim numerum importat,
+              identitas autem unitatem, quae se non compatiuntur. In resurrectione autem conjunctio
+              iteratur. Ergo non est eadem conjunctio; et sic nec eadem humanitas, nec idem
+              homo.</p>
+            <p xml:id="ta-l4d44q1-d1e190">Praeterea, unus homo non est, si est plura animalia. Ergo si non est idem animal, non
+              est unus numero homo. Sed ubi non est idem sensus, non est idem animal: quia animal
+              definitur per sensum primum, scilicet tactum, ut patet 2 de anima. Sensus autem cum
+              non maneant in anima separata, ut quidam dicunt, non possunt iidem numero resumi. Ergo
+              in resurrectione non erit homo resurgens idem animal in numero; et sic nec idem
+              homo.</p>
+            <p xml:id="ta-l4d44q1-d1e193">Praeterea, materia statuae principalior est in statua quam materia hominis in homine:
+              quia artificialia tota sunt in genere substantiae ex materia, sed naturalia ex forma,
+              ut patet per philosophum in 2 Physic., et Commentator idem dicit in 2 de anima. Sed si
+              statua ex eodem aere reficiatur, non est eadem numero. Ergo multo minus, si homo ex
+              eisdem pulveribus reficiatur, non erit idem homo numero.</p>
+            <p xml:id="ta-l4d44q1-d1e197">Sed contra est quod dicitur Job 19, 27: <quote xml:id="ta-l4d44q1-Qd1e199">quem visurus sum ego ipse (...) et non
+                alius</quote>; et loquitur de visione post resurrectionem, ut supra dictum est. Ergo
+              idem numero homo resurget.</p>
+            <p xml:id="ta-l4d44q1-d1e203">Praeterea, Augustinus dicit, 8 Lib. de Trinit., quod resurgere nihil aliud est quam
+              reviviscere. Nisi autem idem homo numero rediret ad vitam qui mortuus est, non
+              diceretur reviviscere. Ergo non resurgeret; quod est contra fidem.</p>
+
+          </div>
+          <div xml:id="ta-l4d44q1-Dd1e207">
+            <head xml:id="ta-l4d44q1-Hd1e209">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d44q1-d1e212">Ulterius. Videtur quod oporteat pulveres humani corporis ad eamdem partem corporis
+              quae in eis dissoluta est, per resurrectionem redire. Quia secundum philosophum in 2
+              de anima, sicut se habet tota anima ad totum corpus, ita pars animae ad partem
+              corporis, ut visus ad pupillam. Sed oportet quod post resurrectionem corpus resumatur
+              ab anima eadem. Ergo oportet quod etiam partes corporis resumantur ad eadem membra, in
+              quibus eisdem partibus animae perficiantur.</p>
+            <p xml:id="ta-l4d44q1-d1e215">Praeterea, diversitas materiae facit diversitatem in numero. Sed si pulveres non
+              redeant ad easdem partes, singulae partes non reficientur ex eadem materia ex qua
+              prius constabant. Ergo non erunt eaedem numero. Sed si partes sunt diversae, et totum
+              erit diversum: quia partes comparantur ad totum sicut materia ad formam, ut patet 2
+              Physic. Ergo non erit idem numero homo; quod est contra veritatem resurrectionis.</p>
+            <p xml:id="ta-l4d44q1-d1e218">Praeterea, resurrectio ad hoc ordinatur quod homo operum suorum mercedem accipiat.
+              Sed diversis operibus meritoriis vel demeritoriis diversae partes corporis deserviunt.
+              Ergo oportet quod in resurrectione quaelibet pars ad suum statum redeat, ut pro suo
+              modo praemietur.</p>
+            <p xml:id="ta-l4d44q1-d1e221">Sed contra, artificialia magis dependent ex sua materia quam naturalia. Sed in
+              artificialibus ad hoc quod idem artificiatum ex eadem materia reparetur, non oportet
+              quod partes reducantur ad eumdem situm. Ergo nec in homine oportet.</p>
+            <p xml:id="ta-l4d44q1-d1e225">Praeterea, variatio accidentis non facit diversitatem in numero. Sed situs partium
+              est accidens quoddam. Ergo diversitas ejus in homine non facit diversitatem in
+              numero.</p>
+          </div>
+          <div xml:id="ta-l4d44q1-Dd1e230">
+            <head xml:id="ta-l4d44q1-Hd1e232">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d44q1-d1e235">Respondeo dicendum ad primam quaestionem, quod circa hanc quaestionem et philosophi
+              erraverunt, et quidam moderni haeretici errant. Quidam enim philosophi posuerunt,
+              animas a corpore separatas iterato corporibus conjungi. Sed errabant in hoc quantum ad
+              duo. Primo quantum ad modum conjunctionis: quia quidam ponebant animam separatam
+              corpori iterum conjungi naturaliter per viam generationis. Secundo quantum ad corpus
+              cui conjungebatur quia: ponebant quod secunda conjunctio non erat ad idem corpus quod
+              per mortem depositum fuit, sed ad aliud: quandoque quidem idem specie, quandoque autem
+              diversum; ad diversum quidem quando anima in corpore existens praeter rationis ordinem
+              vitam duxerat bestialem, unde transibat post mortem de corpore hominis in corpus
+              alterius animalis, cujus moribus vivendo se conformavit; sicut in corpus canis propter
+              luxuriam, et in corpus leonis propter rapinam et violentiam, et sic de aliis; sed in
+              corpus ejusdem speciei, quando anima bene in corpore vivens, post mortem aliqua
+              felicitate perfuncta, post aliqua saecula incipiebat ad corpus velle redire; et sic
+              iterum corpori conjungebatur humano. Sed haec opinio ex duabus falsis radicibus venit:
+              quarum prima est, quia anima non conjungitur corpori essentialiter sicut forma
+              materiae, sed solum accidentaliter, sicut motor mobili, aut homo vestimento; et ideo
+              ponere poterant quod anima praeexistebat antequam corpori generato infunderetur in
+              generatione naturali; et iterum quod diversis corporibus uniretur. Secunda est, quia
+              ponebant intellectum non differre a sensu nisi accidentaliter, ut scilicet homo
+              diceretur intellectum habere prae aliis animalibus, quia in eo propter optimam
+              corporis complexionem vis sensitiva amplius viget; unde poterant ponere quod anima
+              hominis in corpus animalis bruti transiret, praecipue facta immutatione animae humanae
+              ad effectus brutales. Sed praedictae duae radices destruuntur a philosopho, in Lib. de
+              anima; quibus destructis, patet falsitas praedictae positionis. Et simili modo
+              destruuntur errores quorumdam haereticorum: quorum quidam in praedictas positiones
+              inciderunt; quidam autem posuerunt animam iterato conjungi corporibus caelestibus, vel
+              etiam corporibus in modum venti subtilibus, ut Gregorius de quodam Constantinopolitano
+              episcopo narrat, exponens illud verbum Job 19, 26: <quote xml:id="ta-l4d44q1-Qd1e237">in carne mea videbo Deum
+                salvatorem meum</quote>. Et praedicti errores haereticorum destrui possunt ex hoc
+              quod veritati resurrectionis praejudicant, quam sacra Scriptura profitetur. Non enim
+              resurrectio dici potest, nisi anima ad idem corpus redeat: quia resurrectio est
+              iterata surrectio; ejusdem autem est surgere et cadere; unde resurrectio magis
+              respicit corpus quod post mortem cadit, quam animam quae post mortem vivit; et ita, si
+              non est idem corpus quod anima resumit, non dicetur resurrectio, sed magis novi
+              corporis assumptio.</p>
+            <p xml:id="ta-l4d44q1-d1e241">Ad primum ergo dicendum, quod similitudo non currit per omnia, sed quantum ad
+              aliquid. In seminatione enim grani granum seminatum et natum non est idem numero, nec
+              eodem modo se habens, cum primo seminatum fuerit absque folliculis cum quibus
+              nascitur. Corpus autem resurgens erit idem, sed alio modo se habens: quia fuit
+              mortale, et surget in immortalitate.</p>
+            <p xml:id="ta-l4d44q1-d1e244">Ad secundum dicendum, quod differentia quae est inter animam resurgentis et animam in
+              hoc mundo viventis, non est secundum aliquod essentiale, sed secundum gloriam et
+              miseriam; quae differentiam accidentalem faciunt; unde non oportet quod aliud corpus
+              numero resurgat, sed alio modo se habens, ut respondeat proportionabiliter differentia
+              corporum differentiae animarum.</p>
+            <p xml:id="ta-l4d44q1-d1e247">Ad tertium dicendum, quod illud quod intelligitur in materia ante formam, remanet in
+              materia post corruptionem: quia remoto posteriori, remanere adhuc potest prius.
+              Oportet autem, ut Commentator dicit in 1 Physic., et in Lib. de substantia orbis, in
+              materia generabilium et corruptibilium ante formam substantialem intelligere
+              dimensiones non terminatas, secundum quas attendatur divisio materiae, ut diversas
+              formas in diversis partibus recipere possit; unde et post separationem formae
+              substantialis a materia adhuc dimensiones illae manent eadem; et sic materia sub illis
+              dimensionibus existens, quamcumque formam accipiat, habet majorem identitatem ad illud
+              quod ex ea generatum fuerat, quam aliqua pars alia materiae sub quacumque forma
+              existens; et sic eadem materia ad corpus humanum reparandum reducetur quae prius ejus
+              materia fuit.</p>
+            <p xml:id="ta-l4d44q1-d1e251">Ad quartum dicendum, quod sicut qualitas simplex non est forma substantialis
+              elementi, sed accidens proprium ejus, et dispositio per quam materia efficitur propria
+              tali formae; ita forma mixtionis, quae est forma resultans ex qualitatibus simplicibus
+              ad medium venientibus, non est substantialis forma corporis mixti, sed est accidens
+              proprium, et dispositio per quam materia fit necessaria ad formam. Corpus autem
+              humanum praeter hanc formam mixtionis non habet aliam formam substantialem nisi animam
+              rationalem: quia si haberet aliam formam substantialem priorem illa, daret ei esse
+              substantiale, et sic per eam constitueretur in genere substantiae; unde anima jam
+              adveniret corpori constituto in genere substantiae; et sic comparatio animae ad corpus
+              esset sicut comparatio formarum artificialium ad suas materias quantum ad hoc quod
+              constituuntur in genere substantiae per suam materiam; unde conjunctio animae ad
+              corpus esset accidentalis: quod est error antiquorum philosophorum in libris de anima
+              reprobatus. Sequeretur etiam quod corpus humanum et singulae partes ejus non aequivoce
+              retinerent priora nomina; quod est contra philosophum in 2 de anima. Unde cum anima
+              rationalis remanet, nulla forma corporis humani substantialis cedit penitus in non
+              ens. Formarum autem accidentalium variatio non facit diversitatem in numero. Unde idem
+              numero resurget, cum materia eadem numero resumatur, ut in praecedenti solutione
+              dictum est.</p>
+
+          </div>
+          <div xml:id="ta-l4d44q1-Dd1e255">
+            <head xml:id="ta-l4d44q1-Hd1e257">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d44q1-d1e260">Ad secundam quaestionem dicendum, quod necessitas ponendi resurrectionem est ex hoc
+              ut homo finem ultimum propter quem homo factus est, consequatur: quod in hac vita
+              fieri non potest, nec in vita animae separatae, ut supra dictum est: alias vane esset
+              homo constitutus, si ad finem ad quem factus est, pervenire non posset. Et quia
+              oportet quod illud idem numero ad finem perveniat quod propter finem est factum, ne in
+              vanum factum esse videatur; oportet quod idem numero homo resurgat; et hoc quidem fit
+              cum eadem anima eidem numero corpori conjungitur, ut ex dictis patet: alias enim non
+              esset resurrectio, proprie loquendo, nisi idem homo repararetur. Unde ponere quod non
+              sit idem numero qui resurget, est haereticum, derogans veritati Scripturae, quae
+              resurrectionem praedicat.</p>
+            <p xml:id="ta-l4d44q1-d1e263">Ad primum ergo dicendum, quod philosophus loquitur de iteratione quae fit per motum
+              vel mutationem naturalem. Ostendit enim differentiam circulationis quae est in
+              generatione et corruptione, ad circulationem quae est in motu caeli: quia caelum per
+              motum localem redit idem numero ad principium motus, quia habet substantiam
+              incorruptibilem motam; sed generabilia et corruptibilia per generationem redeunt ad
+              idem specie, non ad idem numero: quia ex homine generatur semen, ex quo sanguis; et
+              sic deinceps, quousque perveniatur ad hominem, non ad eumdem numero, sed specie; et ex
+              igne generatur aer, ex quo aqua; ex aqua terra, ex terra ignis, non idem numero, sed
+              specie. Unde patet quod ratio inducta secundum philosophi intentionem non est ad
+              propositum. Vel dicendum, quod aliorum generabilium et corruptibilium forma non est
+              per se subsistens, ut post compositi corruptionem manere valeat, sicut est de anima
+              rationali, quae esse, quod sibi in corpore acquiritur, etiam post corpus retinet, et
+              in participationem illius esse corpus per resurrectionem adducitur, cum non sit aliud
+              esse corporis et aliud animae in corpore; alias esset conjunctio animae et corporis
+              accidentalis; et sic nulla interruptio facta est in esse substantiali hominis, ut non
+              possit idem numero redire propter interruptionem essendi, sicut accidit in aliis rebus
+              corruptis, quarum esse omnino interrumpitur, forma non remanente, materia autem sub
+              alio esse remanente. Sed tamen nec etiam homo per generationem naturalem reiteratur
+              idem numero: quia corpus generati hominis non fit ex tota materia generantis; unde est
+              corpus diversum in numero, et per consequens anima, et totus homo.</p>
+            <p xml:id="ta-l4d44q1-d1e266">Ad secundum dicendum, quod de humanitate et de qualibet forma totius est duplex
+              opinio. Quidam enim dicunt, quod idem secundum rem est forma totius et forma partis:
+              forma partis secundum quod perficit materiam; forma autem totius secundum quod ex ea
+              tota ratio speciei consequitur; et secundum hanc opinionem, humanitas secundum rem non
+              est aliud quam anima rationalis; et sic, cum anima rationalis eadem numero resumatur,
+              eadem numero erit humanitas, et etiam post mortem manet, quamvis non sub ratione
+              humanitatis, quia ex ea compositum rationem speciei non consequitur. Alia opinio est
+              Avicennae, quae verior videtur, quia forma totius non est forma partis tantum, nec
+              forma aliqua alia praeter formam partis, sed est totum resultans ex compositione
+              formae et materiae, comprehendens in se utrumque; et haec forma totius, essentia vel
+              quidditas dicitur. Quia ergo in resurrectione idem numero corpus erit, et eadem numero
+              anima rationalis, erit de necessitate eadem humanitas. Prima autem ratio probans
+              diversitatem humanitatis futuram, procedebat ac si humanitas esset quaedam alia forma
+              superveniens formae et materiae; quod falsum est. Secunda autem ratio etiam non potest
+              identitatem humanitatis impedire: quia conjunctio significat actionem vel passionem:
+              quae quamvis sit diversa, non potest impedire identitatem humanitatis: quia actio et
+              passio, ex quibus erat humanitas, non sunt de essentia humanitatis; unde eorum
+              diversitas non inducit diversitatem humanitatis. Constat enim quod generatio et
+              resurrectio non sunt idem motus numero, nec tamen propter hoc impeditur identitas
+              resurgentis. Similiter etiam nec impeditur identitas humanitatis, si accipiatur
+              conjunctio pro ipsa relatione: quia relatio illa non est de essentia humanitatis, sed
+              concomitatur eam, eo quod humanitas non est de illis formis quae sunt compositio et
+              ordo, ut dicitur 2 Physic., sicut sunt formae artificiatorum; unde existente alia
+              compositione numero, non est eadem numero forma domus.</p>
+            <p xml:id="ta-l4d44q1-d1e269">Ad tertium dicendum, quod ratio illa optime concludit contra illos qui ponebant
+              animam sensibilem et rationalem divisas in homine esse: quia secundum hoc anima
+              sensitiva in homine non esset incorruptibilis, sicut nec in aliis animalibus. Unde in
+              resurrectione non erit eadem anima sensibilis, et per consequens nec idem animal, nec
+              idem homo. Si autem ponamus quod eadem anima secundum substantiam in homine sit
+              rationalis et sensibilis, nullas in hoc angustias patiemur: quia animal definitur per
+              sensum, qui est anima sensitiva, sicut per formam essentialem: per sensum autem, qui
+              est potentia sensitiva, cognoscitur ejus definitio, sicut per formam accidentalem,
+              quae maximam partem confert ad cognoscendum quod quid est, ut in 1 de anima dicitur.
+              Post mortem ergo manet anima sensibilis sicut anima rationalis secundum substantiam:
+              sed potentiae sensitivae, secundum quosdam, non manent: quae quidem potentiae cum sint
+              accidentales proprietates, earum varietas identitatem animalis totius auferre non
+              potest, nec etiam partium animalis: non enim dicuntur potentiae perfectiones vel actus
+              organorum, nisi sint principia agendi, ut calor in igne.</p>
+            <p xml:id="ta-l4d44q1-d1e273">Ad quartum dicendum, quod statua dupliciter considerari potest; vel secundum quod est
+              substantia quaedam, vel secundum quod est artificiale quoddam. Et quia in genere
+              substantiae ponitur ratione suae materiae; ideo si consideretur secundum quod est
+              substantia quaedam, est eadem numero statua quae ex eadem materia reparatur. Sed in
+              genere artificialium ponitur secundum quod est forma, quae accidens quoddam est, et
+              transit, statua destructa; et sic non redit idem numero, nec statua idem numero esse
+              potest. Sed forma hominis, scilicet anima, manet post dissolutionem corporis; et ideo
+              non est similis ratio.</p>
+
+          </div>
+          <div xml:id="ta-l4d44q1-Dd1e277">
+            <head xml:id="ta-l4d44q1-Hd1e279">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d44q1-d1e282">Ad tertiam quaestionem dicendum, quod in hac quaestione differt considerare quid
+              fieri possit sine identitatis praejudicio, et quid fiet, ut congruentia servetur.
+              Quantum ergo ad primum, sciendum, quod in homine possunt accipi diversae partes totius
+              dupliciter. Uno modo diversae partes homogenei, sicut diversae partes carnis, vel
+              diversae partes ossis; alio modo diversae partes diversarum specierum totius
+              heterogenei. Si ergo dicatur quod pars materiae redibit ad aliam partem speciei
+              ejusdem, hoc non facit nisi varietatem in situ partium: situs autem partium variatus
+              non variat speciem in totis homogeneis; et sic si materia unius partis redeat ad
+              aliam, nullum praejudicium generabitur identitati totius; et ita etiam est in exemplo
+              quod ponitur in littera: quia statua non redit eadem numero secundum formam, sed
+              secundum materiam, secundum quam est substantia quaedam. Sic autem statua est
+              homogenea, quamvis non secundum formam artificialem. Si autem dicatur quod materia
+              unius partis redit ad aliam partem alterius speciei; sic de necessitate variatur non
+              solum situs partium, sed etiam identitas ipsarum; ita tamen si tota materia, aut
+              aliquid quod erat de veritate humanae naturae in una, in aliam transferatur; non autem
+              si aliquod quod erat in una parte superfluum, transferatur in aliam. Ablata autem
+              identitate partium, aufertur identitas totius, si loquimur de partibus essentialibus;
+              non autem si loquimur de partibus accidentalibus, sicut sunt capilli et ungues, de
+              quibus videtur loqui Augustinus. Et sic patet qualiter translatio materiae de parte in
+              partem tollit identitatem totius, et qualiter non. Sed loquendo secundum congruentiam,
+              magis probabile est quod etiam situs partium idem servabitur in resurrectione,
+              praecipue quantum ad partes essentiales et organicas, quamvis forte non quantum ad
+              partes accidentales, sicut sunt ungues et capilli.</p>
+            <p xml:id="ta-l4d44q1-d1e285">Ad primum ergo dicendum, quod objectio illa procedit de partibus organicis, et non de
+              partibus similaribus.</p>
+            <p xml:id="ta-l4d44q1-d1e288">Ad secundum dicendum, quod diversus situs partium materiae non facit diversitatem in
+              numero, quamvis eam faciat diversitas materiae.</p>
+            <p xml:id="ta-l4d44q1-d1e291">Ad tertium dicendum, quod operatio non est, proprie loquendo, partis, sed totius;
+              unde praemium non debetur parti, sed toti.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d44q1-Dd1e296" type="articulus">
+          <head xml:id="ta-l4d44q1-Hd1e298">Articulus 2</head>
+
+          <head xml:id="ta-l4d44q1-Hd1e301" type="questionTitle">Utrum omnia membra corporis humani resurgent</head>
+
+          <div xml:id="ta-l4d44q1-Dd1e304">
+            <head xml:id="ta-l4d44q1-Hd1e306">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d44q1-d1e309">Ad secundum sic proceditur. Videtur quod non omnia membra corporis humani resurgent.
+              Remoto enim fine, frustra reparatur illud quod est ad finem. Finis autem cujuslibet
+              membri est ejus actus. Cum ergo nihil sit frustra in operibus divinis, et quorumdam
+              membrorum usus post resurrectionem non competat, praecipue genitalium, quia tunc nec
+              nubent nec nubentur; videtur quod non omnia membra resurgent.</p>
+            <p xml:id="ta-l4d44q1-d1e312">Praeterea, intestina, membra quaedam sunt. Sed non resurgent: plena enim resurgere
+              non possunt, quia immunditias continent: nec vacua, quia nihil est vacuum in natura.
+              Ergo non omnia membra resurgent.</p>
+            <p xml:id="ta-l4d44q1-d1e315">Praeterea, ad hoc corpus resurget, ut praemietur de opere quod anima per ipsum
+              gessit. Sed membrum propter furtum amputatum furi, qui postea poenitentiam agit et
+              salvatur, non potest in resurrectione remunerari neque de bono, quia ad hoc non
+              cooperatum est, neque de malo, quia poena membri in poenam hominis redundaret. Ergo
+              non omnia membra resurgent cum homine.</p>
+            <p xml:id="ta-l4d44q1-d1e318">Sed contra, magis pertinent ad veritatem humanae naturae alia membra quam capilli et
+              ungues. Sed capilli et ungues restituentur homini in resurrectione, ut dicitur in
+              littera. Ergo multo fortius alia membra.</p>
+            <p xml:id="ta-l4d44q1-d1e322">Praeterea, <quote xml:id="ta-l4d44q1-Qd1e324">Dei perfecta sunt opera</quote>. Sed resurrectio opere divino fiet.
+              Ergo homo reparabitur perfectus in omnibus membris.</p>
+
+          </div>
+          <div xml:id="ta-l4d44q1-Dd1e329">
+            <head xml:id="ta-l4d44q1-Hd1e331">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d44q1-d1e334">Ulterius. Videtur quod capilli et ungues in homine non resurgent. Sicut enim capilli
+              et ungues ex superfluitatibus cibi generantur; ita urina, sudor, et aliae hujusmodi
+              faeces. Sed haec non resurgent cum corpore. Ergo nec capilli et ungues.</p>
+            <p xml:id="ta-l4d44q1-d1e337">Praeterea, inter alias superfluitates quae ex cibo generantur, maxime accedit ad
+              naturae humanae veritatem semen, quod est superfluum quo indigetur. Sed semen non
+              resurget in corpore hominis. Ergo multo minus capilli et ungues resurgent.</p>
+            <p xml:id="ta-l4d44q1-d1e340">Praeterea, nihil est perfectum anima rationali quod non sit perfectum anima
+              sensibili. Sed capilli et ungues non sunt perfecti anima sensibili, quia eis non
+              sentimus, ut dicitur in 1 de anima. Ergo, cum non resurgat corpus humanum nisi propter
+              hoc quod est perfectum ab anima rationali, videtur quod capilli et ungues non
+              resurgent.</p>
+            <p xml:id="ta-l4d44q1-d1e343">Sed contra est quod dicitur Luc. 21, 18: <quote xml:id="ta-l4d44q1-Qd1e345">capillus de capite vestro non
+                peribit</quote>.</p>
+            <p xml:id="ta-l4d44q1-d1e350">Praeterea, capilli et ungues sunt dati in ornatum homini. Sed corpora hominum,
+              praecipue electorum, debent resurgere cum omni ornatu. Ergo debent resurgere cum
+              capillis.</p>
+
+          </div>
+          <div xml:id="ta-l4d44q1-Dd1e354">
+            <head xml:id="ta-l4d44q1-Hd1e356">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d44q1-d1e359">Ulterius. Videtur quod humores in corpore non resurgent. Quia 1 Corinth. 15, 50,
+              dicitur: <quote xml:id="ta-l4d44q1-Qd1e361">caro et sanguis regnum Dei non possidebunt</quote>. Sed sanguis est
+              principalior humor. Ergo non resurgent in beatis, qui regnum Dei possidebunt, et multo
+              minus in aliis.</p>
+            <p xml:id="ta-l4d44q1-d1e365">Praeterea, humores sunt ad restaurationem deperditi. Sed post resurrectionem nulla
+              deperditio fiet. Ergo corpus non resurget cum humoribus.</p>
+            <p xml:id="ta-l4d44q1-d1e368">Praeterea illud quod est in via generationis in corpore humano, nondum est ab anima
+              rationali perfectum. Sed humores adhuc sunt in via generationis, quia sunt in potentia
+              caro et os. Ergo nondum sunt perfecti anima rationali. Sed corpus humanum non habet
+              ordinem ad resurrectionem nisi secundum quod est anima rationali perfectum. Ergo
+              humores in eo non resurgent.</p>
+            <p xml:id="ta-l4d44q1-d1e371">Sed contra, quod est de constitutione corporis humani, resurget in eo. Sed humores
+              sunt hujusmodi; quod patet per Augustinum, qui dicit quod corpus constat ex membris
+              officialibus, officialia ex similibus, similia ex humoribus. Ergo humores resurgent in
+              corpore.</p>
+            <p xml:id="ta-l4d44q1-d1e375">Praeterea, resurrectio nostra erit conformis resurrectioni Christi. Sed in Christo
+              resurrexit sanguis; alias nunc vinum non transubstantiaretur in sanguinem ejus in
+              sacramento altaris. Ergo et in nobis resurget sanguis; et eadem ratione alii
+              humores.</p>
+
+          </div>
+          <div xml:id="ta-l4d44q1-Dd1e380">
+            <head xml:id="ta-l4d44q1-Hd1e382">Quaestiuncula 4</head>
+            <p xml:id="ta-l4d44q1-d1e385">Ulterius. Videtur quod non totum quod fuit in corpore de veritate naturae humanae,
+              resurgat in ipso. Quia cibus convertitur in veritatem humanae naturae. Sed aliquando
+              caro bovis sumitur in cibum. Si ergo resurget quidquid fuit de veritate humanae
+              naturae, resurget etiam caro bovis; quod videtur inconveniens.</p>
+            <p xml:id="ta-l4d44q1-d1e388">Praeterea, costa Adae fuit de veritate humanae naturae, sicut et costa nostra in
+              nobis. Sed costa Adae non resurget in eo, sed in Eva; alias Eva non resurgeret, quia
+              de costa illa formata est. Ergo non resurget in homine quidquid fuit de veritate
+              humanae naturae in ipso.</p>
+            <p xml:id="ta-l4d44q1-d1e391">Praeterea, non potest esse quod idem in diversis hominibus resurgat. Sed potest esse
+              quod aliquid fuerit de veritate humanae naturae in diversis hominibus, sicut si
+              aliquis carnibus humanis vescatur, quae in substantiam ejus transeant. Ergo non
+              resurget in aliquo quidquid fuit de veritate humanae naturae in ipso.</p>
+            <p xml:id="ta-l4d44q1-d1e394">Si dicatur, quod non quidquid est in carnibus comestis, est de veritate humanae
+              naturae; et ita aliquid eorum potest resurgere in primo, et aliquid in secundo;
+              contra. De veritate humanae naturae maxime videtur esse illud quod a parentibus
+              trahitur. Sed si aliquis non comedens nisi carnes humanas filium generet, oportet quod
+              illud quod filius a parente trahit, fuerit de carnibus aliorum hominum quas pater suus
+              comedit; quia semen est de superfluo alimenti, ut philosophus probat in Lib. de
+              animalibus. Ergo illud quod est de veritate humanae naturae in puero isto, etiam fuit
+              de veritate humanae naturae in aliis hominibus, quorum pater carnes comedit.</p>
+            <p xml:id="ta-l4d44q1-d1e398">Si dicatur, quod illud quod erat de veritate humanae naturae in carnibus hominum
+              comestorum, non transit in semen, sed illud quod erat ibi de veritate humanae naturae
+              non existens; contra. Ponatur quod aliquis cibetur solum embryis, in quibus videtur
+              nihil esse quod non sit de veritate naturae: quia totum quod est in eis, trahitur a
+              parentibus. Si ergo superfluitas cibi convertitur in semen, oportet quod illud quod
+              fuit de veritate humanae naturae in embryis, qui etiam ad resurrectionem pertinent,
+              postquam animam rationalem perceperunt, sit etiam de veritate humanae naturae in puero
+              qui ex tali semine generatur; et sic, cum non possit idem resurgere in duobus, non
+              poterit in quolibet resurgere quidquid fuit de veritate humanae naturae in ipso.</p>
+            <p xml:id="ta-l4d44q1-d1e401">Sed contra: quidquid fuit in homine de veritate humanae naturae, fuit perfectum anima
+              rationali. Sed ex hoc habet corpus humanum ordinem ad resurrectionem, quia fuit anima
+              rationali perfectum. Ergo quidquid fuit de veritate humanae naturae, resurget in
+              unoquoque.</p>
+            <p xml:id="ta-l4d44q1-d1e404">Praeterea, si a corpore hominis subtrahatur aliquid quod est de veritate humanae
+              naturae, in ipso non erit corpus hominis perfectum. Sed omnis imperfectio tolletur in
+              resurrectione, praecipue ab electis, quibus promissum est, Lucae 21, quod capillus
+              capitis eorum non peribit. Ergo quidquid fuit de veritate naturae humanae, resurget in
+              homine.</p>
+
+          </div>
+          <div xml:id="ta-l4d44q1-Dd1e408">
+            <head xml:id="ta-l4d44q1-Hd1e410">Quaestiuncula 5</head>
+            <p xml:id="ta-l4d44q1-d1e413">Ulterius. Videtur quod quidquid fuit materialiter in membris hominis, totum resurget.
+              Minus enim videntur pertinere ad resurrectionem capilli quam alia membra. Sed quidquid
+              fuit in capillis, totum resurget, etsi non in capillis, saltem in aliis partibus
+              corporis, ut Augustinus dicit in littera. Ergo multo fortius quidquid fuit in aliis
+              membris materialiter, totum resurget.</p>
+            <p xml:id="ta-l4d44q1-d1e416">Praeterea, sicut partes carnis secundum speciem perficiuntur ab anima rationali, ita
+              partes secundum materiam. Sed corpus humanum habet ordinem ad resurrectionem ex hoc
+              quod fuit anima rationali perfectum. Ergo non solum partes secundum speciem, sed omnes
+              partes secundum materiam resurgent.</p>
+            <p xml:id="ta-l4d44q1-d1e419">Praeterea, ex parte illa accidit corpori totalitas ex qua parte accidit ei divisio in
+              partes. Sed divisio in partes accidit corpori ex parte materiae, cujus dispositio est
+              quantitas secundum quam dividitur. Ergo et totalitas corporis attenditur secundum
+              partes materiae. Si ergo non omnes partes materiae resurgent, non totum corpus
+              resurget; quod est inconveniens.</p>
+            <p xml:id="ta-l4d44q1-d1e422">Sed contra, partes secundum materiam non manent in corpore, sed fluunt et refluunt,
+              ut patet per illud quod dicitur in 1 de generatione. Si ergo omnes partes secundum
+              materiam resurgent, vel erit corpus resurgentis densissimum, vel erit immoderatae
+              quantitatis.</p>
+            <p xml:id="ta-l4d44q1-d1e426">Praeterea, quidquid est de veritate humanae naturae in uno homine, totum potest esse
+              pars materiae in alio homine qui ejus carnibus vescitur. Si ergo omnes partes secundum
+              materiam resurgent in aliquo, sequitur quod resurget in uno id quod est de veritate
+              humanae naturae in alio; quod est inconveniens.</p>
+          </div>
+          <div xml:id="ta-l4d44q1-Dd1e430">
+            <head xml:id="ta-l4d44q1-Hd1e432">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d44q1-d1e435">Respondeo dicendum ad primam quaestionem, quod, sicut dicitur in 2 de anima, anima
+              habet se ad corpus non solum in habitudine formae et finis, sed etiam in habitudine
+              causae efficientis; est enim comparatio animae ad corpus sicut est comparatio artis ad
+              artificiatum, ut dicit philosophus. Quidquid autem explicite in artificiato
+              ostenditur, hoc totum implicite et originaliter in ipsa arte continetur; et similiter
+              etiam quidquid in partibus corporis apparet, totum originaliter, et quodammodo
+              implicite, in anima continetur. Sicut ergo artis opus non esset perfectum si
+              artificiato aliquid deesset eorum quae ars continet; ita nec homo posset esse
+              perfectus, nisi totum quod in anima implicite continetur, exterius in corpore
+              explicetur; nec etiam corpus ad plenum proportionaliter responderet animae. Cum ergo
+              oporteat in resurrectione corpus hominis esse animae totaliter correspondens, quia non
+              resurgit nisi secundum ordinem quem habet ad animam rationalem; oporteat etiam hominem
+              perfectum resurgere, utpote quod ad ultimam perfectionem consequendam reparatur;
+              oportet quod omnia membra quae nunc sunt in corpore, in resurrectione hominis
+              reparentur.</p>
+            <p xml:id="ta-l4d44q1-d1e438">Ad primum ergo dicendum, quod membra dupliciter possunt considerari in comparatione
+              ad animam; vel secundum habitudinem materiae ad formam, vel secundum habitudinem
+              instrumenti ad agentem. Eadem est enim comparatio totius corporis ad totam animam, et
+              partium ad partes, ut dicitur in 2 de anima. Si ergo membrum accipiatur secundum
+              primam comparationem, finis ejus non est operatio, sed magis perfectum esse speciei,
+              quod etiam post resurrectionem requiretur. Si autem membrum accipiatur secundum
+              secundam comparationem, sic finis ejus est operatio; nec tamen sequitur quod quando
+              deficit operatio, frustra sit instrumentum; quia instrumentum non solum servit ad
+              exequendam operationem agentis, sed ad ostendendum virtutem ipsius; unde oportebit ut
+              virtus potentiarum animae instrumentis corporis demonstretur, etsi nunquam in actum
+              prodeant, ut ex hoc commendetur Dei sapientia.</p>
+            <p xml:id="ta-l4d44q1-d1e441">Ad secundum dicendum, quod intestina resurgent in corpore, sicut et alia membra; et
+              plena erunt, non quidem turpibus superfluitatibus, sed nobilibus humiditatibus.</p>
+            <p xml:id="ta-l4d44q1-d1e444">Ad tertium dicendum, quod actus quibus meremur, non sunt, proprie loquendo, manus vel
+              pedis, sed hominis totius; sicut et operatio artis non attribuitur instrumento, sed
+              artifici, ut philosophus dicit. Quamvis ergo membrum quod ante poenitentiam est
+              mutilatum, non sit cooperatum homini in statu illo quo gloriam post meretur, tamen
+              ipse homo meretur ut totum praemietur, qui ex toto quod habet, Deo servit.</p>
+
+          </div>
+          <div xml:id="ta-l4d44q1-Dd1e448">
+            <head xml:id="ta-l4d44q1-Hd1e450">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d44q1-d1e453">Ad secundam quaestionem dicendum, quod anima habet se ad corpus animatum sicut ars ad
+              artificiatum, et ad partes ejus sicut ars ad sua instrumenta; unde et corpus animatum
+              organicum dicitur. Ars autem utitur instrumentis quibusdam ad operis intenti
+              executionem; et haec instrumenta sunt de prima intentione artis. Utitur etiam aliis
+              instrumentis ad conservationem principalium instrumentorum, et haec sunt de secunda
+              intentione artis; sicut ars militaris utitur gladio ad bellum, et vagina ad gladii
+              conservationem. Ita etiam in partibus corporis animati quaedam ordinantur ad
+              operationes animae exequendas, sicut cor, hepar, manus, et pes; quaedam autem ad
+              conservationem aliarum partium, sicut folia sunt ad cooperimentum fructuum; ita etiam
+              capilli et ungues sunt in homine ad custodiam aliarum partium; unde sunt de secunda
+              perfectione corporis humani, quamvis non de prima. Ergo quia homo resurget in omni
+              perfectione suae naturae, propter hoc oportet quod capilli et ungues resurgant in
+              ipso.</p>
+            <p xml:id="ta-l4d44q1-d1e456">Ad primum ergo dicendum, quod illae superfluitates expelluntur a natura quasi ad
+              nihil utiles, unde non pertinent ad perfectionem corporis humani; secus autem est de
+              aliis superfluitatibus, quas sibi natura retinet ad generationem capillorum et
+              unguium, quibus indiget ad membrorum conservationem.</p>
+            <p xml:id="ta-l4d44q1-d1e459">Ad secundum dicendum, quod semine non indigetur ad perfectionem individui, sicut
+              capillis, sed solum ad perfectionem speciei.</p>
+            <p xml:id="ta-l4d44q1-d1e462">Ad tertium dicendum, quod capilli et ungues nutriuntur et augentur; et sic patet quod
+              aliqua operatione participant: quod non posset esse, nisi essent partes aliquo modo ab
+              anima perfectae; et quia in homine non est nisi una anima, scilicet anima rationalis,
+              constat quod ab anima rationali perfectae sunt, quamvis non usque ad hoc quod
+              operatione sensus participent, sicut nec ossa, de quibus constat quod resurgent, et
+              sunt de integritate individui.</p>
+
+          </div>
+          <div xml:id="ta-l4d44q1-Dd1e466">
+            <head xml:id="ta-l4d44q1-Hd1e468">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d44q1-d1e471">Ad tertiam quaestionem dicendum, quod quidquid pertinet ad integritatem humanae
+              naturae in resurgente, hoc totum in eo resurget ratione praedicta; unde oportet quod
+              illa humiditas corporis resurgat in homine quae ad integritatem ejus pertinebat. Est
+              autem in homine triplex humiditas. Quaedam enim humiditas est in recedendo a
+              perfectione hujus individui, vel quia est in via corruptionis, et a natura abjicitur,
+              sicut urina, sudor, sanies, et hujusmodi; vel quia a natura ordinatur ad
+              conservationem speciei in alio individuo, sive per actum generantem, sicut semen, vel
+              per actum nutrientem sicut lac: et nulla talium humiditatum resurget, eo quod non est
+              de perfectione individui resurgentis. Secunda humiditas est quae nondum pervenit ad
+              ultimam perfectionem quam natura operatur in individuo, sed est ad illam ordinata a
+              natura; et haec est duplex. Quia quaedam est quae habet aliquam formam determinatam,
+              secundum quam continetur inter partes corporis, sicut sanguis, et alii tres humores,
+              quos natura ordinavit ad membra, quae ex eis generantur, sed tamen habent aliquas
+              formas determinatas, sicut et aliae partes corporis; et ideo resurgent cum aliis
+              partibus. Quaedam vero humiditas est in via transeundi de forma in formam, scilicet de
+              forma humoris in formam membri; et talis humiditas non resurget, quia post
+              resurrectionem partes corporis singulae in suis formis stabilientur, ut una in aliam
+              non transeat; et ideo non resurget illa humiditas quae est in ipso actu transeundi de
+              forma in formam. Haec autem humiditas potest in duplici statu accipi: vel secundum
+              quod est in principio transmutationis; et sic vocatur ros, illa scilicet humiditas
+              quae est in foraminibus parvarum venarum; vel secundum quod est in progressu
+              transmutationis, et incipit jam dealbari, et sic vocatur cambium. In neutro autem
+              statu resurget. Tertium genus humiditatis est quod jam pervenit ad ultimam
+              perfectionem quam natura intendit in corpore individui, quae jam est dealbata et
+              incorporata membris; et haec vocatur gluten; et cum sit de substantia membrorum,
+              resurget, sicut alia membra resurgunt.</p>
+            <p xml:id="ta-l4d44q1-d1e474">Ad primum ergo dicendum, quod caro et sanguis in verbis illis apostoli non
+              accipiuntur pro substantia carnis et sanguinis, sed pro operibus carnis et sanguinis,
+              quae sunt opera peccati, vel opera animalis vitae. Vel, secundum quod dicit
+              Augustinus, caro et sanguis accipitur ibi pro corruptione quae nunc dominatur in carne
+              et sanguine, unde etiam subditur in verbis apostoli: <quote xml:id="ta-l4d44q1-Qd1e476">neque corruptio
+                incorruptionem</quote>.</p>
+            <p xml:id="ta-l4d44q1-d1e480">Ad secundum dicendum, quod sicut membra servientia generationi erunt post
+              resurrectionem ad integritatem humanae naturae, non ad operationem quae nunc exercetur
+              per membra illa; ita et humores erunt in corpore non ad restaurationem deperditi, sed
+              ad integritatem humanae naturae reparandam, et ad virtutis naturalis ostensionem.</p>
+            <p xml:id="ta-l4d44q1-d1e483">Ad tertium dicendum, quod sicut sunt elementa in via generationis respectu corporum
+              mixtorum, quia sunt eorum materia, non autem ita quod semper sint in transeundo in
+              corpore mixto; ita etiam humores se habent ad membra: et propter hoc sicut elementa in
+              partibus universi habent formas determinatas, ratione quarum sunt in perfectione
+              universi, sicut corpora mixta; ita et humores sunt de perfectione corporis humani,
+              sicut et aliae partes, quamvis non perveniant ad totam perfectionem sicut aliae
+              partes, nec elementa habent ita perfectas formas sicut mixta. Sicut autem partes omnes
+              universi perfectionem a Deo consequuntur non aequaliter, sed secundum suum modum
+              unumquodque; ita etiam humores aliquo modo perficiuntur ab anima rationali, non tamen
+              eodem modo sicut partes perfectiores.</p>
+
+          </div>
+          <div xml:id="ta-l4d44q1-Dd1e487">
+            <head xml:id="ta-l4d44q1-Hd1e489">Quaestiuncula 4</head>
+            <p xml:id="ta-l4d44q1-d1e492">Ad quartam quaestionem dicendum, quod unumquodque sicut se habet ad esse, ita ad
+              veritatem, ut in 2 Metaph. dicitur; quia illa res vera est quae ita est ut videtur
+              cognitori secundum actum; et propter hoc Avicenna dicit, quod veritas uniuscujusque
+              rei est proprietas sui esse quod stabilitum est ei: et secundum hoc aliquid dicitur
+              esse de veritate humanae naturae, quia proprie pertinet ad esse humanae naturae; et
+              hoc est quod participat formam humanae naturae; sicut verum aurum dicitur quod habet
+              veram formam auri, ex qua est proprium esse auri. Ut ergo videatur quid sit illud quod
+              est de veritate humanae naturae, sciendum, quod circa hoc est triplex opinio. Quidam
+              enim posuerunt, quod nihil de novo esse incipit de veritate humanae naturae; sed
+              quidquid ad veritatem humanae naturae pertinet, totum fuit in ipsa institutione
+              humanae naturae de veritate ejus; et hoc per seipsum multiplicatur ut ex eo possit
+              semen decidi a generante, ex quo filius generetur; in quo etiam illa pars decisa
+              multiplicatur; et ad perfectam quantitatem pervenit per augmentum, et sic deinceps; et
+              ita multiplicatum est totum genus humanum. Unde secundum hanc opinionem, quidquid ex
+              alimento generatur, quamvis videatur speciem carnis aut sanguinis habere, non tamen
+              pertinet ad veritatem humanae naturae. Alii vero dixerunt, quod aliquid de novo
+              additur ad veritatem humanae naturae per transmutationem naturalem alimenti in corpus
+              humanum, considerata veritate humanae naturae in specie, ad cujus conservationem
+              ordinatur actus generativae virtutis. Si autem veritas humanae naturae in individuo
+              consideretur, ad cujus conservationem et perfectionem actus nutritivae virtutis
+              ordinatur; non additur aliquid per alimentum quod sit primo de veritate humanae
+              naturae hujus individui, sed solum secundario. Ponunt enim quod veritas humanae
+              naturae primo et principaliter consistat in humido radicali, quod scilicet est ex
+              semine generatum ex quo est prima constitutio corporis humani; quod autem convertitur
+              de alimento in veram carnem et sanguinem, non est principaliter de veritate humanae
+              naturae illius individui, sed secundario; sed potest esse principaliter de veritate
+              humanae naturae alterius individui quod ex semine illius generatur. Semen enim ponunt
+              esse superfluum alimenti, vel cum admixtione alicujus quod est primo de veritate
+              humanae naturae in generante, ut quidam dicunt; vel sine admixtione ejus, ut dicunt
+              alii; et sic quod est humidum nutrimentale in uno, fit humidum radicale in alio.
+              Tertia opinio est, quod aliquid de novo incipit esse principaliter de veritate humanae
+              naturae etiam in isto individuo; quia non est distinctio talis in corpore humano, ut
+              aliqua pars materialis signata de necessitate per totam vitam remaneat; sed ad hoc
+              indifferenter se habet quaelibet pars signata accepta, quod maneat semper quantum ad
+              id quod est speciei in ea, sed potest fluere et refluere quantum ad id quod est
+              materiae in ipsa; et sic humidum nutrimentale non distinguitur a radicali ex parte
+              principii, ut dicatur radicale quod ex semine generatum, nutrimentale quod generatur
+              ex cibo; sed magis distinguitur ex termino, ut radicale dicatur quod ad terminum
+              generationis pervenit per actum generativae, vel etiam nutritivae virtutis; sed
+              nutrimentale, quia nondum pervenit ad hunc terminum, sed est adhuc in via nutriendi.
+              Et hae tres opiniones in 2 Lib., dist. 30, qu. 2, art. 1, in corp., plenius
+              pertractatae et investigatae sunt; et ideo non debent hic repeti, nisi quantum ad
+              propositum pertinet. Sciendum est ergo, quod secundum has opiniones diversimode ad
+              hanc quaestionem oportet respondere. Prima enim opinio per viam multiplicationis quam
+              ponit, potest ponere perfectionem veritatis humanae naturae et quantum ad numerum
+              individuorum, et quantum ad debitam quantitatem uniuscujusque individui, absque eo
+              quod ex alimento generatum est; quod quidem non additur nisi ad resistendum
+              consumptioni, quae posset induci per actionem caloris naturalis; sicut argento
+              apponitur plumbum, ne ex liquefactione consumatur. Unde cum in resurrectione oporteat
+              naturam humanam in sua perfectione reparari; nec calor naturalis tunc agat ad
+              consumptionem humidi naturalis: nulla necessitas erit quod resurgat aliquid in homine
+              quod ex alimento sit generatum; sed resurget tantum illud quod fuit de veritate
+              humanae naturae individui, et per decisionem et multiplicationem ad praedictam
+              perfectionem pervenit in numero et quantitate. Secunda autem opinio, quia ponit quod
+              eo quod generatur ex nutrimento, indigetur ad perfectionem quantitatis individui, et
+              ad multiplicationem quae fit per generationem; necesse habet ponere aliquid de hoc in
+              quod conversum est alimentum, resurgere; non tamen totum, sed solum quantum indigetur
+              ad perfectam reintegrationem naturae humanae in omnibus suis individuis; unde ponit
+              haec opinio, quod totum illud quod fuit in substantia seminis, resurget in illo homine
+              qui ex illo semine generatus est, quia hoc est principaliter de veritate humanae
+              naturae in ipso. De eo autem quod postea advenit per nutrimentum, tantum resurget in
+              eo, quantum est necessarium ad perfectionem quantitatis, et non totum; quia hoc non
+              pertinet aliter ad veritatem humanae naturae nisi quatenus natura indiget eo ad
+              perfectionem quantitatis. Sed quia hoc humidum nutrimentale fluit et refluit; hoc
+              ordine reparabitur, quod illud quod fuit de substantia corporis hominis, totum
+              reparabitur; et de eo quod secundo et tertio et deinceps advenit, quantum necessarium
+              est ad quantitatem redintegrandam, duplici ratione. Primo, quia super hoc quod advenit
+              inductum fuit, ut illud quod primo erat deperditum reparetur; et ideo non ita
+              principaliter pertinet ad veritatem humanae naturae sicut praecedens. Secundo, quia
+              adjunctio extranei humidi ad primum humidum radicale facit quod totum permixtum non
+              ita perfecte participet veritatem speciei sicut primum participabat, ut ponit exemplum
+              philosophus in 1 de Gener., de aqua permixta vino, quae semper vini virtutem
+              debilitat, ita quod in fine ipsum aquosum reddit. Unde sicut secunda aqua quamvis
+              assumatur in speciem vini, non tamen ita perfecte speciem vini participat sicut prima
+              quae in vinum assumebatur; ita quod de alimento secundo in carnem convertitur, non ita
+              perfecte attingit ad speciem carnis sicut quod primo convertebatur; et ideo non ita
+              pertinet ad veritatem humanae naturae, nec ad resurrectionem. Sic ergo patet quod haec
+              opinio ponit resurgere totum id quod est de veritate humanae naturae principaliter,
+              non autem totum quod est de veritate humanae naturae secundario. Tertia autem opinio
+              quantum ad aliquid differt a secunda, et quantum ad aliquid convenit cum ea. Differt
+              quidem quantum ad hoc quod ponit totum quod est sub forma carnis et ossis, eadem
+              ratione ad veritatem humanae naturae pertinere; quia non distinguit aliquid materiale
+              signatum permanens in homine toto tempore vitae ejus, quod per se pertineat ad
+              veritatem humanae naturae et primo; et aliquid fluens et refluens, quod pertineat ad
+              veritatem humanae naturae solum propter quantitatis perfectionem, non propter primum
+              esse speciei, sicut secunda opinio dicebat; sed ponit, omnes partes quae non sunt
+              praeter intentionem naturae aggeneratae, pertinere ad veritatem humanae naturae
+              quantum ad id quod habent de specie, quia sic manent; non autem quantum ad id quod
+              habent de materia, quia sic fluunt et refluunt indifferenter; ut ita etiam
+              intelligamus contingere in partibus hominis unius sicut contingit in tota multitudine
+              civitatis, quia singuli subtrahuntur a multitudine per mortem, aliis in locum eorum
+              succedentibus; unde partes multitudinis fluunt et refluunt materialiter; sed
+              formaliter manent, quia ad eadem officia et ordines substituuntur alii, a quibus
+              priores subtrahebantur; unde respublica una numero manere dicitur. Et similiter etiam
+              dum quibusdam partibus fluentibus aliae reparantur in eadem figura et in eodem situ,
+              omnes partes fluunt et refluunt secundum materiam, sed manent secundum speciem; manet
+              nihilominus unus homo numero. Sed convenit tertia cum secunda opinione, quia ponit
+              quod partes secundo advenientes non ita perfecte pertingunt ad veritatem speciei sicut
+              quae primo advenerunt; et ideo idem quod ponit resurgere in homine secunda opinio,
+              ponit tertia, sed non penitus eadem ratione. Ponit enim, totum illud quod ex semine
+              generatum est, resurgere, non quia alia ratione pertineat ad veritatem humanae naturae
+              quam hoc quod postea advenit, sed quia perfectius virtutem speciei participat; quem
+              ordinem ponebat secunda opinio in his quae postea advenerunt ex alimento; in quo etiam
+              haec opinio concordat cum alia, scilicet secunda.</p>
+            <p xml:id="ta-l4d44q1-d1e495">Ad primum ergo dicendum, quod res naturalis non est id quod est, ex sua materia, sed
+              ex sua forma; unde quamvis illud materiae quod quandoque fuit forma carnis bovinae
+              resurgat in homine sub forma carnis humanae, non sequitur quod resurgat caro bovis,
+              sed caro hominis; ita enim etiam posset concludi quod resurgeret limus, de quo
+              formatum est corpus Adae. Tamen prima opinio concedit hanc rationem.</p>
+            <p xml:id="ta-l4d44q1-d1e498">Ad secundum dicendum, quod costa illa non fuit in Adam de perfectione individui, sed
+              ordinata ad multiplicationem speciei; unde non resurget in Adam, sed in Eva; sicut et
+              semen non resurget in generante, sed in generato.</p>
+            <p xml:id="ta-l4d44q1-d1e501">Ad tertium dicendum, quod secundum primam opinionem facile est ad hoc respondere;
+              quia carnes comestae nunquam sunt de veritate humanae naturae in comedente; fuerunt
+              autem de veritate humanae naturae in eo cujus carnes comeduntur; et ita resurgent in
+              primo, et non in secundo. Sed secundum secundam opinionem et secundum tertiam,
+              unusquisque resurget in illo in quo magis accessit ad perfectam participationem
+              virtutis speciei; et si aequaliter in utroque accesserit, resurget in illo in quo
+              primo fuit; quia in eo primo habuit ordinem ad resurrectionem ex conjunctione ad
+              animam rationalem illius hominis; et ideo si in carnibus comestis fuit aliqua
+              superfluitas quae non pertineret ad veritatem humanae naturae in primo, resurgere
+              poterit in secundo; alias illud quod pertinebat ad resurrectionem in primo, resurget
+              in eo, et non in secundo: sed in secundo loco ejus sumetur vel aliquid de eo quod ex
+              aliis cibis in carnem secundi conversum est; vel si nullo cibo unquam pastus fuisset
+              nisi carnibus humanis, divina virtus aliunde suppleret quantum indigetur ad
+              perfectionem quantitatis, sicut supplet in illis qui ante perfectam aetatem decedunt.
+              Nec per hoc aliquid praejudicatur identitati in numero, sicut nec praejudicatur per
+              hoc quod partes secundum materiam fluunt et refluunt.</p>
+            <p xml:id="ta-l4d44q1-d1e505">Ad quartum dicendum, quod secundum primam opinionem facile est solvere; quia ponit
+              quod semen est ex superfluo alimenti; unde carnes comestae non transeunt in semen, ex
+              quo pueri generantur. Sed secundum alias duas opiniones dicendum est, quod non est
+              possibile quod totum quod fuit in carnibus comestis, in semen convertatur; quia post
+              multam depurationem cibi pervenitur ad decoctionem seminis, quod est superfluitas
+              ultimi cibi. Illud autem quod de carnibus comestis in semen convertitur, magis
+              pertinet ad veritatem humanae naturae in eo qui ex semine nascitur, quam in illo ex
+              cujus carnibus semen est generatum; et ideo, secundum regulam prius datam, hoc quod in
+              semen conversum est, resurget in eo qui ex semine nascitur; residuum autem materiae
+              resurget in illo ex cujus carnibus comestis semen est generatum.</p>
+            <p xml:id="ta-l4d44q1-d1e508">Ad quintum dicendum, quod embrya non pertinent ad resurrectionem ante animationem per
+              animam rationalem, in quo statu jam multum advenit supra substantiam seminis de
+              substantia nutrimenti, qua puer in utero matris nutritur; et ideo si aliquis embryis
+              vescatur, et ex superfluo illius cibi generetur aliquis, illud quod erit in substantia
+              seminis, resurget quidem in eo qui ex semine generatur, nisi in illo contineretur
+              aliquid quod fuisset de substantia seminum in illis ex quorum carnibus comestis semen
+              generatum est, quia hoc resurgeret in primo et non in secundo; residuum autem carnium
+              comestarum, quod non est conversum in semen, constat quod non resurgeret in primo,
+              utrique divina potentia supplente quod deest. Prima autem opinio hac objectione non
+              arctatur, cum non ponat semen esse ex superfluo alimenti; sed aliae multae rationes
+              sunt contra eam, ut in 2 Lib., dist. 30, qu. 2, art. 2, patuit.</p>
+
+          </div>
+          <div xml:id="ta-l4d44q1-Dd1e513">
+            <head xml:id="ta-l4d44q1-Hd1e515">Quaestiuncula 5</head>
+            <p xml:id="ta-l4d44q1-d1e518">Ad quintam quaestionem dicendum, quod illud quod est materialiter in homine, non
+              habet ordinem ad resurrectionem nisi secundum quod pertinet ad veritatem humanae
+              naturae, quia secundum hoc habet ordinem ad animam rationalem. Illud autem totum quod
+              est in homine materialiter, pertinet quidem ad veritatem humanae naturae quantum ad id
+              quod habet de specie; sed non totum considerata materiae totalitate; quia tota materia
+              quae fuit in homine a principio vitae usque ad finem, excederet quantitatem debitam
+              speciei, ut tertia opinio dicit, quae probabilior inter ceteras mihi videtur; et ideo
+              totum quod est in homine, resurget considerata totalitate speciei, quia attenditur
+              secundum quantitatem, figuram, situm, et ordinem partium; non autem resurget totum
+              considerata totalitate materiae. Secunda autem opinio et prima non utuntur hac
+              distinctione; sed distinguunt inter partes, quarum utraeque habent speciem vel
+              materiam. Conveniunt autem duae hae opiniones in hoc quod utraque dicit, quod illud
+              quod est ex semine generatum, totum resurget, etiam totalitate materiae considerata.
+              Differunt autem in hoc quod de eo quod ex alimento generatur, nihil resurgere ponit
+              prima opinio; secunda vero aliquid ejus resurgere ponit, et non totum, ut ex dictis
+              patet.</p>
+            <p xml:id="ta-l4d44q1-d1e521">Ad primum ergo dicendum, quod sicut quidquid est in aliis partibus corporis, resurget
+              considerata totalitate speciei, non autem considerata totalitate materiae; ita etiam
+              est de capillis. In aliis autem partibus advenit aliquid ex nutrimento quod facit
+              augmentum: et hoc computatur ut alia pars, considerata totalitate speciei, quia
+              obtinet alium locum et situm in corpore, et substat aliis partibus dimensionis:
+              aliquid autem advenit quod non facit augmentum, sed cedit in restaurationem deperditi
+              in nutriendo, et non computatur ut alia pars totius secundum speciem considerati, cum
+              non obtineat alium locum vel situm in corpore, quam pars quae defluxit tenebat;
+              quamvis possit alia pars computari considerata totalitate materiae: et similiter est
+              de capillis. Augustinus ergo loquitur de incisionibus capillorum, quae erant partes
+              facientes augmentum; et ideo oportet quod resurgant; non tamen in quantitate
+              capillorum, ne sit quantitas immoderata, sed in aliis partibus, ut necessarium
+              judicabit divina providentia. Vel loquitur in casu illo quando aliis partibus
+              deficiet: tunc enim eorum defectus poterit ex superfluitatibus capillorum
+              reparari.</p>
+            <p xml:id="ta-l4d44q1-d1e524">Ad secundum dicendum, quod secundum tertiam opinionem eaedem sunt partes secundum
+              speciem, et secundum materiam. Non enim illa distinctione utitur philosophus in 1 de
+              generatione, ad distinguendum diversas partes, sed ad ostendendum quod eaedem partes
+              possunt considerari et secundum speciem quantum ad id quod est formae et speciei in
+              ipsis, et secundum materiam quantum ad id quod subest formae et speciei. Constat autem
+              quod materia carnis non habet ordinem ad animam rationalem, nisi inquantum est sub
+              tali forma; et ideo ratione ejus habet ordinem ad resurrectionem. Sed prima et secunda
+              opinio, quae ponunt alias esse partes quae sunt secundum speciem, et alias quae sunt
+              secundum materiam, dicunt quod anima quamvis utrasque partes perficiat, tamen perficit
+              partes secundum materiam mediantibus partibus secundum speciem; et ideo non aequaliter
+              habent ordinem ad resurrectionem.</p>
+            <p xml:id="ta-l4d44q1-d1e527">Ad tertium dicendum, quod in materia generabilium et corruptibilium dimensiones
+              interminatas oportet intelligere ante receptionem formae substantialis: et ideo
+              divisio quae est secundum hujusmodi dimensiones, proprie pertinet ad materiam; sed
+              quantitas completa et terminata advenit materiae post formam substantialem; unde
+              divisio quae fit secundum dimensiones terminatas, respicit speciem, praecipue quando
+              ad resurrectionem speciei pertinet determinatus situs partium, sicut est in corpore
+              humano.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d44q1-Dd1e532" type="articulus">
+          <head xml:id="ta-l4d44q1-Hd1e534">Articulus 3</head>
+
+          <head xml:id="ta-l4d44q1-Hd1e537" type="questionTitle">Utrum omnes resurgent in eadem aetate, scilicet juvenili</head>
+
+          <div xml:id="ta-l4d44q1-Dd1e540">
+            <head xml:id="ta-l4d44q1-Hd1e542">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d44q1-d1e545">Ad tertium sic proceditur. Videtur quod non omnes resurgent in eadem aetate, scilicet
+              juvenili. Quia Deus resurgentibus, praecipue beatis, nihil subtrahet quod ad
+              perfectionem hominis pertinet. Sed aetas pertinet ad perfectionem hominis, cum
+              senectus sit venerabilis aetas. Ergo senes non resurgent in aetate juvenili.</p>
+            <p xml:id="ta-l4d44q1-d1e548">Praeterea, aetas computatur secundum mensuram temporis praeteriti. Sed impossibile
+              est tempus quod fuit praeteritum, non praeterisse. Ergo impossibile est eos qui
+              majoris aetatis fuerunt, ad aetatem juvenilem reduci.</p>
+            <p xml:id="ta-l4d44q1-d1e551">Praeterea, illud quod magis fuit de veritate humanae naturae in unoquoque, maxime
+              resurget in eo. Sed quanto aliquid primo fuit in homine, tanto videtur magis ad
+              veritatem humanae naturae pertinuisse: quia in fine propter virtutem speciei
+              debilitatam comparatur vino aquoso corpus humanum, ut patet per philosophum in 1 de
+              Gener. Ergo si omnes debent in eadem aetate resurgere, magis decet quod resurgant in
+              aetate puerili quam juvenili.</p>
+            <p xml:id="ta-l4d44q1-d1e554">Sed contra est quod dicitur Ephes. 4, 13: <quote xml:id="ta-l4d44q1-Qd1e556">donec occurramus omnes (...) in
+                virum perfectum, in mensuram aetatis plenitudinis Christi</quote>. Sed Christus
+              resurrexit in aetate juvenili, quae circa triginta annos incipit, ut Augustinus dicit.
+              Ergo et alii in aetate juvenili resurgent.</p>
+            <p xml:id="ta-l4d44q1-d1e561">Praeterea, homo in maxima perfectione naturae resurget. Sed natura humana
+              perfectissimum statum habet in aetate juvenili. Ergo in illa aetate resurgent
+              omnes.</p>
+
+          </div>
+          <div xml:id="ta-l4d44q1-Dd1e565">
+            <head xml:id="ta-l4d44q1-Hd1e567">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d44q1-d1e570">Ulterius. Videtur quod omnes resurgent ejusdem staturae. Sicut enim homo mensuratur
+              quantitate dimensiva, ita quantitate durationis. Sed quantitas durationis in omnibus
+              reducetur ad eamdem mensuram, quia omnes in eadem aetate resurgent. Ergo quantitas
+              dimensionis in omnibus reducetur ad eamdem mensuram, ut in eadem statura omnes
+              resurgant.</p>
+            <p xml:id="ta-l4d44q1-d1e573">Praeterea, philosophus dicit in 2 de anima, quod <quote xml:id="ta-l4d44q1-Qd1e575">omnium natura constantium
+                terminus est et ratio magnitudinis et augmenti</quote>. Sed ille terminus non est
+              nisi ex virtute formae, cui debet congruere quantitas, sicut et omnia alia accidentia.
+              Ergo cum omnes homines habeant eamdem formam specificam, in omnibus debet esse
+              secundum naturam eadem quantitatis mensura, nisi sit error. Sed error naturae
+              corrigetur in resurrectione. Ergo omnes resurgent in eadem statura.</p>
+            <p xml:id="ta-l4d44q1-d1e579">Praeterea, quantitas resurgentis non poterit esse proportionata virtuti naturali,
+              quae primo corpus formavit: nam alias qui non potuerunt ad majorem quantitatem perduci
+              virtute naturae, nunquam in majori quantitate resurgerent; quod falsum est. Ergo
+              oportet quod quantitas illa proportionetur virtuti reparanti corpus humanum per
+              resurrectionem, et materiae de qua reparatur. Sed virtus reparans omnia corpora est
+              eadem numero, scilicet virtus divina; cineres autem omnes, ex quibus reparantur humana
+              corpora, se habent aequaliter ad suscipiendam actionem praedictae virtutis. Ergo ad
+              eamdem quantitatem terminabitur resurrectio omnium hominum; et sic idem quod
+              prius.</p>
+            <p xml:id="ta-l4d44q1-d1e582">Sed contra, quantitas naturalis sequitur naturam uniuscujusque individui. Sed in
+              resurrectione non variatur natura individui. Ergo nec quantitas naturalis ejus. Sed
+              non est eadem quantitas naturalis omnium hominum. Ergo non omnes resurgent in eadem
+              statura.</p>
+            <p xml:id="ta-l4d44q1-d1e586">Praeterea, natura humana reparabitur per resurrectionem ad gloriam vel ad poenam. Sed
+              non erit eadem quantitas gloriae vel poenae in omnibus resurgentibus. Ergo nec eadem
+              quantitas naturae.</p>
+
+          </div>
+          <div xml:id="ta-l4d44q1-Dd1e590">
+            <head xml:id="ta-l4d44q1-Hd1e592">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d44q1-d1e595">Ulterius. Videtur quod omnes resurgent in sexu virili. Quia dicitur Ephes. 4, quod
+              occurremus omnes in virum perfectum. Ergo non erit ibi nisi sexus virilis.</p>
+            <p xml:id="ta-l4d44q1-d1e598">Praeterea, in futuro omnis cessabit praelatio, ut dicit Glossa 1 Corinth. 15. Sed
+              mulier naturali ordine subdita est viro. Ergo mulieres non resurgent in sexu muliebri,
+              sed virili.</p>
+            <p xml:id="ta-l4d44q1-d1e601">Praeterea, illud quod est occasionaliter et praeter intentionem naturae inductum, non
+              resurget: quia in resurrectione omnis error tolletur. Sed sexus muliebris est praeter
+              intentionem naturae inductus ex defectu virtutis formativae in semine, quae non potest
+              perducere materiam concepti ad perfectionem virilem; unde dicit philosophus in 16 de
+              animalibus, quod femina est mas occasionatus. Ergo sexus muliebris non resurget.</p>
+            <p xml:id="ta-l4d44q1-d1e604">Sed contra est quod dicit Augustinus, 22 de Civit. Dei: <quote xml:id="ta-l4d44q1-Qd1e606">melius sapere videntur
+                qui utrumque sexum resurrecturum esse non dubitant</quote>.</p>
+            <p xml:id="ta-l4d44q1-d1e611">Praeterea, Deus reparabit in resurrectione quod in homine fecit in prima conditione.
+              Sed ipse fecit mulierem de costa viri, ut patet Genes. 2. Ergo ipse sexum femineum in
+              resurrectione reparabit.</p>
+
+          </div>
+          <div xml:id="ta-l4d44q1-Dd1e616">
+            <head xml:id="ta-l4d44q1-Hd1e618">Quaestiuncula 4</head>
+            <p xml:id="ta-l4d44q1-d1e621">Ulterius. Videtur quod resurgent in vita animali, ut scilicet utantur actu nutritivae
+              et generativae. Quia resurrectio nostra erit conformis resurrectioni Christi. Sed
+              Christus post resurrectionem legitur comedisse, ut patet Joan. ult. et Luc. ult. Ergo
+              et homines post resurrectionem comedent, et eadem ratione generabunt.</p>
+            <p xml:id="ta-l4d44q1-d1e624">Praeterea, distinctio sexuum ad generationem ordinatur; et similiter instrumenta quae
+              deserviunt virtuti nutritivae, ordinantur ad comestionem. Sed homo cum omnibus
+              hujusmodi resurget, ut ex supra dictis patet. Ergo utetur actibus virtutis generativae
+              et nutritivae.</p>
+            <p xml:id="ta-l4d44q1-d1e627">Praeterea, totus homo beatificatur et secundum animam et secundum corpus. Sed
+              beatitudo sive felicitas, secundum philosophum, in propria operatione consistit. Ergo
+              oportet quod omnes potentiae animae et omnia membra sint in suis actibus in beatis
+              post resurrectionem; et sic idem quod prius.</p>
+            <p xml:id="ta-l4d44q1-d1e630">Praeterea, in beatis post resurrectionem erit beata et perfecta jucunditas. Sed talis
+              jucunditas omnes delectationes includit: quia beatitudo est status omnium bonorum
+              congregatione completus; et perfectum est cui nihil deest. Cum ergo in actu virtutis
+              generativae et nutritivae sit magna delectatio, videtur quod tales actus ad vitam
+              animalem pertinentes in beatis erunt, et multo fortius in aliis qui minus spiritualia
+              corpora habebunt.</p>
+            <p xml:id="ta-l4d44q1-d1e634">Sed contra est quod dicitur Matth. 22, 30: <quote xml:id="ta-l4d44q1-Qd1e636" ana="#mt22_30">in resurrectione neque nubent neque
+                nubentur</quote>.</p>
+            <p xml:id="ta-l4d44q1-d1e640">Praeterea, generatio ordinatur ad subveniendum defectui qui per mortem accidit, et ad
+              multiplicationem humani generis; et comestio ad restaurationem deperditi, et ad
+              augmentum quantitatis. Sed in statu resurrectionis jam humanum genus habebit totam
+              multitudinem individuorum a Deo praefinitam: quia usque ad hoc generatio deferetur, ut
+              ex praecedenti distinctione, quaest. 1, art. 3, in corp., patet; similiter etiam
+              quilibet homo resurget in debita quantitate; nec erit ultra mors, aut aliqua
+              deperditio fiet a partibus hominis. Ergo frustra esset actus generativae et nutritivae
+              virtutis.</p>
+          </div>
+          <div xml:id="ta-l4d44q1-Dd1e644">
+            <head xml:id="ta-l4d44q1-Hd1e646">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d44q1-d1e649">Respondeo dicendum ad primam quaestionem, quod homo resurget absque omni defectu
+              humanae naturae; quia sicut Deus humanam naturam absque defectu instituit, ita sine
+              defectu reparabit. Deficit autem humana natura dupliciter. Uno modo, quia nondum
+              perfectionem ultimam est consecuta; alio modo quia ab ultima perfectione jam recessit;
+              et primo modo deficit in pueris, secundo modo deficit in senibus; et ideo in utrisque
+              reducetur humana natura per resurrectionem ad statum ultimae perfectionis, qui est in
+              juvenili aetate, ad quam terminatur motus augmenti, et a qua incipit motus
+              decrementi.</p>
+            <p xml:id="ta-l4d44q1-d1e652">Ad primum ergo dicendum, quod aetas senectutis habet reverentiam non propter
+              conditionem corporis, quod in defectu est, sed propter sapientiam animae, quae ibi
+              esse praesumitur ex temporis antiquitate; unde in electis manebit reverentia
+              senectutis propter plenitudinem divinae sapientiae, quae in eis erit; sed non manebit
+              senectutis defectus.</p>
+            <p xml:id="ta-l4d44q1-d1e655">Ad secundum dicendum, quod non loquimur de aetate quantum ad numerum annorum, sed
+              quantum ad statum qui ex annis in corpore humano relinquitur; unde Adam dicitur in
+              aetate juvenili formatus propter talem corporis conditionem quam primo die formationis
+              suae habuit; et ideo ratio non est ad propositum.</p>
+            <p xml:id="ta-l4d44q1-d1e658">Ad tertium dicendum, quod virtus speciei dicitur esse perfectior in puero quam in
+              juvene quantum ad efficaciam agendi conversionem alimenti aliquo modo, sicut etiam est
+              perfectior in semine quam in homine completo; sed in juvenibus est perfectior quantum
+              ad terminum complementi; unde illud quod maxime ad naturae veritatem pertinuit, ad
+              illam perfectionem reducetur quam habet in aetate juvenili, non ad illam quam habet in
+              aetate puerili, in qua humores adhuc non pervenerunt ad ultimam digestionem.</p>
+
+          </div>
+          <div xml:id="ta-l4d44q1-Dd1e662">
+            <head xml:id="ta-l4d44q1-Hd1e664">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d44q1-d1e667">Ad secundam quaestionem dicendum, quod in resurrectione non reparabitur humana natura
+              solum quantum ad idem specie, sed etiam quantum ad idem numero; et ideo in
+              resurrectione non solum attendendum quid competat naturae speciei, sed quid competat
+              naturae individui. Natura autem speciei habet aliquam quantitatem quam nec excedit nec
+              ab ea deficit absque errore; quae tamen quantitas habet aliquos gradus latitudinis, et
+              non est accipienda secundum unam mensuram determinatam. Unumquodque autem individuum
+              in specie humana assequitur infra terminos illius latitudinis aliquem gradum
+              quantitatis quae competit naturae individui; et ad hanc perducitur in termino
+              augmenti, si non fuit aliquis error in opere naturae, per quem sit aliquid additum vel
+              subtractum praedictae quantitati: cujus quidem mensura accipitur secundum proportionem
+              caloris extendentis et humidi extensibilis, quod non est ejusdem virtutis in omnibus.
+              Et ideo non omnes resurgent in eadem quantitate, sed quilibet resurget in illa
+              quantitate in qua fuisset in termino augmenti, si natura non errasset vel defecisset:
+              quod autem superest vel quod deficit in homine, resecabit vel supplebit divina
+              potentia.</p>
+            <p xml:id="ta-l4d44q1-d1e670">Ad primum ergo dicendum, quod jam patet ex dictis quod non dicuntur omnes in eadem
+              aetate resurgere quasi omnibus competat eadem quantitas dimensionis, sed quia idem
+              status perfectionis erit in omnibus: qui quidem status salvari potest in magna et
+              parva quantitate.</p>
+            <p xml:id="ta-l4d44q1-d1e673">Ad secundum dicendum, quod quantitas hujusmodi individui non solum respondet formae
+              speciei, sed etiam naturae individui, ut ex dictis patet; et ideo ratio non
+              sequitur.</p>
+            <p xml:id="ta-l4d44q1-d1e676">Ad tertium dicendum, quod quantitas resurgentis non proportionatur virtuti reparanti,
+              quia illa non est de natura corporis, nec omnibus secundum statum illum in quo sunt
+              ante resurrectionem; sed naturae quam primo individuum habebat. Tamen si virtus
+              formativa propter aliquem defectum non poterat perducere ad debitam quantitatem quae
+              competit speciei, divina virtus supplebit in resurrectione defectum, sicut patet de
+              nanis; et eadem ratio est de illis qui immoderatae magnitudinis fuerunt ultra debitum
+              naturae.</p>
+
+          </div>
+          <div xml:id="ta-l4d44q1-Dd1e680">
+            <head xml:id="ta-l4d44q1-Hd1e682">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d44q1-d1e685">Ad tertiam quaestionem dicendum, quod sicut, considerata natura individui, debetur
+              quantitas diversa diversis hominibus; ita considerata natura individui, debetur
+              diversis diversus sexus; et haec etiam diversitas competit perfectioni speciei, cujus
+              diversi gradus implentur per dictam diversitatem sexus vel quantitatis. Et ideo sicut
+              resurgent homines in diversis staturis, ita in diversis sexibus; et quamvis sit
+              differentia sexuum, deerit tamen confusio mutuae visionis: quia aberit libido incitans
+              ad turpes actus, ex quibus confusio causetur.</p>
+            <p xml:id="ta-l4d44q1-d1e688">Ad primum ergo dicendum, quod dicuntur omnes Christo occurrere in virum perfectum,
+              non propter sexum virilem, sed propter virtutem animi, quae erit in omnibus, et viris
+              et mulieribus.</p>
+            <p xml:id="ta-l4d44q1-d1e691">Ad secundum dicendum, quod mulier subditur viro propter imbecillitatem naturae
+              quantum ad vigorem animi et quantum ad robur corporis; sed post resurrectionem non
+              erit differentia in his secundum diversitatem sexuum, sed magis secundum diversitatem
+              meritorum; et ideo ratio non procedit.</p>
+            <p xml:id="ta-l4d44q1-d1e694">Ad tertium dicendum, quod quamvis feminae generatio sit praeter intentionem naturae
+              particularis, est tamen de intentione naturae universalis, quae ad perfectionem
+              humanae speciei utrumque sexum requirit; nec ex sexu erit ibi aliquis defectus, ut ex
+              dictis patet.</p>
+
+          </div>
+          <div xml:id="ta-l4d44q1-Dd1e698">
+            <head xml:id="ta-l4d44q1-Hd1e700">Quaestiuncula 4</head>
+            <p xml:id="ta-l4d44q1-d1e703">Ad quartam quaestionem dicendum, quod resurrectio non erit necessaria homini propter
+              primam perfectionem ipsius, quae consistit in integritate eorum quae ad naturam
+              spectant, quia ad hoc homo pervenire potest in statu praesentis vitae per actionem
+              causarum naturalium; sed necessitas resurrectionis est ad consequendam ultimam
+              perfectionem, quae consistit in perventione ad finem ultimum, ut in praecedenti
+              distinct., dictum est; et ideo illae operationes naturales quae ordinantur ad primam
+              perfectionem humanae naturae vel causandam vel servandam, non erunt in resurrectione;
+              et hujusmodi sunt actiones animalis vitae in homine, et actiones naturae in elementis,
+              et motus caeli; et ideo omnia haec cessabunt in resurrectione. Et quia comedere et
+              bibere et dormire et generare ad animalem vitam pertinent, cum sint ad primam
+              perfectionem naturae ordinata; in resurrectione talia non erunt.</p>
+            <p xml:id="ta-l4d44q1-d1e706">Ad primum ergo dicendum, quod illa comestio qua Christus comedit, non fuit
+              necessitatis, quasi cibis indigeret humana natura post resurrectionem; sed fuit
+              potestatis, ut ostenderet se veram naturam humanam resumpsisse, quam prius habuerat in
+              statu illo, quando cum discipulis comederat, et biberat. Haec autem ostensio non erit
+              necessaria in resurrectione communi, quia omnibus notum erit. Et ideo dicitur
+              dispensative Christus manducasse eo modo loquendi quo juristae dicunt, quod
+              dispensatio est communis juris relaxatio; quia Christus intermisit hoc quod est
+              communiter resurgentium, scilicet non uti cibis, propter causam praedictam; et propter
+              hoc ratio non sequitur.</p>
+            <p xml:id="ta-l4d44q1-d1e709">Ad secundum dicendum, quod differentia sexuum et membrorum erit ad naturae humanae
+              perfectionem reintegrandam et in specie et in individuo; unde non sequitur quod sit
+              frustra, quamvis animales operationes desint.</p>
+            <p xml:id="ta-l4d44q1-d1e712">Ad tertium dicendum, quod praedictae operationes non sunt hominis inquantum est homo,
+              ut etiam philosophus dicit; et ideo in eis non consistit beatitudo humani corporis;
+              sed corpus humanum beatificabitur ex redundantia a ratione a qua homo est homo,
+              inquantum erit ei subditum.</p>
+            <p xml:id="ta-l4d44q1-d1e716">Ad quartum dicendum, quod delectationes corporales, sicut dicit philosophus in 7 et
+              10 Ethic., sunt medicinales, quia adhibentur homini ad tollendum fastidium; vel etiam
+              aegritudinales, inquantum homo eis inordinate delectatur, ac si essent verae
+              delectationes; sicut homo habens infirmum gustum delectatur in quibusdam quae sanis
+              non sunt delectabilia; et ideo non oportet quod tales delectationes sint de
+              perfectione beatitudinis, ut Judaei et Saraceni et quidam haeretici posuerunt, qui
+              vocantur chiliarchae; qui etiam secundum doctrinam philosophi, non videntur sanum
+              affectum habere. Solae enim delectationes spirituales, secundum ipsum, sunt
+              simpliciter delectationes, et propter se quaerendae; et ideo ipsae solae ad
+              beatitudinem requiruntur.</p>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

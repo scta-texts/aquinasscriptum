@@ -1,0 +1,1939 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 13, Quaestio 1</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.09-dev-master">
+          <title>Librum I, Distinctio 13, Quaestio 1</title>
+          <date when="2016-03-14">March 14, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-14">March 14, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p>1856 editum</p>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="2015.09">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <div xml:id="starts-on"> </div>
+    </front>
+    <body>
+      <div xml:id="ta-l1d13q1">
+        <head xml:id="ta-l1d13q1-Hd1e3490">Librum I, Distinctio 13, Quaestio 1</head>
+        <div xml:id="ta-l1d13q1-Dd1e3493">
+          <head xml:id="ta-l1d13q1-Hd1e3495">Prooemium</head>
+          <p xml:id="ta-l1d13q1-d1e3498">Postquam determinavit de processione aeterna spiritus sancti quantum ad modum et
+            principium, hic determinat de ipsa per comparationem ad generationem, et dividitur in
+            partes duas: in prima inquirit utrum spiritus sanctus procedens possit dici genitus ut
+            filius; in secunda utrum possit dici ingenitus, ibi: <quote xml:id="ta-l1d13q1-Qd1e3500">nunc considerandum est, cum
+              spiritus sanctus non sit genitus, utrum debeat dici ingenitus</quote>. Prima in duas:
+            primo ostendit quod spiritus sanctus procedens non potest dici filius; secundo inquirit
+            differentiam generationis filii et processionis spiritus sancti, ibi: <quote xml:id="ta-l1d13q1-Qd1e3503">inter
+              generationem vero filii et processionem spiritus sancti, dum hic vivimus distinguere
+              non sufficimus</quote>. Circa primum duo facit: primo inquirit utrum spiritus sanctus
+            possit dici genitus; secundo, cum non dicatur genitus sed procedens, quare filius non
+            tantum dicitur genitus, sed etiam procedens, ibi: <quote xml:id="ta-l1d13q1-Qd1e3506">cum autem spiritus sanctus non
+              dicatur genitus, sed tantum procedens, quaeri solet cur filius non dicitur tantum
+              genitus, sed et procedens</quote>. Utraque pars dividitur in quaestionem et
+            responsionem. <quote xml:id="ta-l1d13q1-Qd1e3509">Inter generationem vero filii et processionem spiritus sancti, dum
+              hic vivimus, distinguere non sufficimus</quote>. Hic inquirit differentiam
+            generationis et processionis, et circa hoc duo facit: primo determinat quaestionem
+            quantum ad id quod scire possumus, scilicet quod spiritus sanctus procedit et non
+            gignitur, filius autem procedit et gignitur; secundo quantum ad id quod perfecte scire
+            non possumus, qualiter scilicet differunt processio et generatio: quia cum utrumque sit
+            ineffabile, utriusque modum plene comprehendere non valemus, ibi: <quote xml:id="ta-l1d13q1-Qd1e3512">quid autem
+              inter nasci et procedere intersit (...) explicare quis possit? Nunc considerandum est,
+              cum spiritus sanctus non sit genitus, utrum debeat dici ingenitus</quote>. Hic
+            ostendit quod spiritus sanctus sicut nec genitus, ita nec ingenitus dici debet: et primo
+            ostendit veritatem; secundo removet objectionem, ibi: <quote xml:id="ta-l1d13q1-Qd1e3516">Hieronymus tamen (...)
+              dicit spiritum sanctum ingenitum</quote> etc. ubi tria facit: primo inducit
+            contrarietatem; secundo ponit solutionem, ibi: <quote xml:id="ta-l1d13q1-Qd1e3519">sed ut istam quae videtur
+              repugnantiam de medio abigamus, dicimus</quote>; tertio ponit solutionis
+            confirmationem, ibi: <quote xml:id="ta-l1d13q1-Qd1e3522">quod autem Hieronymus ita acceperit, ostenditur ex verbis
+              ejus</quote>. Ad intelligentiam hujus partis, quatuor quaeruntur: 1 utrum in Deo sit
+            aliqua processio; 2 si est, utrum sit una tantum vel plures; 3 qualiter duae
+            processiones nominari debeant; 4 si spiritus sanctus, qui procedit, non dicatur genitus,
+            utrum debeat dici ingenitus.</p>
+        </div>
+        <div xml:id="ta-l1d13q1-Dd1e3527" type="articulus">
+          <head xml:id="ta-l1d13q1-Hd1e3529">Articulus 1</head>
+
+          <head xml:id="ta-l1d13q1-Hd1e3532" type="questionTitle">Utrum processio sit in Deo</head>
+
+          <p xml:id="ta-l1d13q1-d1e3535">Ad primum sic proceditur. Videtur quod in Deo non sit processio. Processio enim dicit
+            motum quemdam processivum. Omnis autem motus indigentiae et imperfectionis est, et Deo
+            non competit. Ergo in Deo non est processio.</p>
+          <p xml:id="ta-l1d13q1-d1e3538">Item, processio dicit exitum unius ab alio. Exitus autem est per distantiam exeuntis ab
+            eo ex quo exit. Cum igitur in divinis personis sit omnino indistantia, videtur quod ibi
+            non sit processio.</p>
+          <p xml:id="ta-l1d13q1-d1e3541">Praeterea, omnis processio est ab aliquo in aliquid. Sed divinae personae cum sint per
+            se subsistentes, non sunt ab aliquo in aliquid. Ergo videtur quod non conveniat eis
+            procedere.</p>
+          <p xml:id="ta-l1d13q1-d1e3545">Contra, Joan. 15, 26: <quote xml:id="ta-l1d13q1-Qd1e3547">cum venerit Paraclitus, quem ego mittam a patre, spiritus
+              veritatis, qui a patre procedit</quote>. Ergo et cetera.</p>
+          <p xml:id="ta-l1d13q1-d1e3551">Praeterea, in anima est imago Trinitatis. Sed in anima invenitur notitia procedere a
+            mente, et amor ab utroque. Videtur ergo quod sit processio etiam in divinis
+            personis.</p>
+          <p xml:id="ta-l1d13q1-d1e3554">Respondeo dicendum, quod processio dicitur dupliciter: uno modo dicit motum localem qui
+            proprie est motus animalis motu progressivo, et talis processio non potest esse in
+            divinis, nisi metaphorice loquendo: secundum similitudinem enim talis processionis
+            dicitur divina sapientia vel bonitas procedere in creaturas, secundum quod similitudinem
+            suam gradatim efficit in illis; secundum quem modum quaedam Deo aliis similiora sunt.
+            Alio modo dicitur processio eductio principiati a suo principio; et cum in divinis
+            personis una sit ab alia sicut a principio, per modum istum proprie est processio in
+            divinis.</p>
+          <p xml:id="ta-l1d13q1-d1e3557">Ad primum ergo dicendum, quod in creaturis quaelibet processio est per aliquem motum
+            vel mutationem; quia nec aliquid localiter procedit nisi per motum, nec aliquid a causa
+            sua egreditur nisi aliqua mutatione contingente circa ipsum a quo egreditur, si sit de
+            essentia ejus, vel saltem circa id quod egreditur. In divinis autem est origo unius
+            personae ab alia sine aliqua mutatione, ut supra de generatione dictum est, dist. 4,
+            quaest. 1, art. 1, cum nihil praedicetur de Deo secundum id quod imperfectionis est in
+            ipso.</p>
+          <p xml:id="ta-l1d13q1-d1e3560">Ad secundum dicendum, quod quamvis in divinis personis non sit distantia secundum locum
+            neque secundum essentiam, est tamen distinctio in personis secundum proprietates
+            personales; et hoc sufficit ad rationem processionis.</p>
+          <p xml:id="ta-l1d13q1-d1e3563">Ad tertium dicendum, quod processio localis est in aliquid sicut in terminum motus; sed
+            quod procedit a causa, non oportet quod in alterum procedat, et sic sumitur processio in
+            divinis.</p>
+        </div>
+        <div xml:id="ta-l1d13q1-Dd1e3567" type="articulus">
+          <head xml:id="ta-l1d13q1-Hd1e3569">Articulus 2</head>
+
+          <head xml:id="ta-l1d13q1-Hd1e3572" type="questionTitle">Utrum processio divina sit tantum una</head>
+
+          <p xml:id="ta-l1d13q1-d1e3575">Ad secundum sic proceditur. Videtur quod in divinis una tantum sit processio. Sicut
+            enim paternitas notat proprietatem originis, ut a quo est aliquis; ita processio, ut qui
+            est ab alio. Sed supra dictum est, dist. 7, quaest. 2, art. 2, quod in divinis non
+            potest esse nisi una paternitas. Ergo nec nisi una processio.</p>
+          <p xml:id="ta-l1d13q1-d1e3578">Praeterea, in omnibus habentibus unam naturam in specie, non est nisi unus modus quo
+            natura illa communicatur; unde etiam dicit Commentator 8 Physic., quod mures qui
+            generantur ex putrefactione terrae, et qui generantur ex semine, non sunt ejusdem
+            speciei. Sed per processionem personarum communicatur natura divina, quae est una tantum
+            non solum in specie, sed etiam in numero. Ergo non est nisi unus modus processionis in
+            divinis.</p>
+          <p xml:id="ta-l1d13q1-d1e3581">Praeterea, operationes vel actus distinguuntur ad invicem penes terminos et penes
+            principia. Sed processio in divinis est semper ab eodem principio, quia omnis processio
+            est virtute naturae ipsius producentis; est etiam ad eumdem terminum per processionem
+            acceptum, quia in processione divina semper accipitur divina natura. Ergo videtur quod
+            non sit nisi una processio in divinis.</p>
+          <p xml:id="ta-l1d13q1-d1e3585">Praeterea, si sunt duae processiones, aut differentiam habebunt ex parte essentiae, aut
+            ex parte relationum, cum non sint plura in divinis. Sed ex parte essentiae non invenitur
+            diversitas nisi rationis secundum pluralitatem attributorum; diversitas autem rationis
+            non causat pluralitatem realem, qualem oportet esse processionum duarum, secundum quas
+            duae personae realiter distinctae procedunt. Ergo ex parte essentiae non potest sumi
+            realis diversitas processionum. Similiter nec ex parte relationum; relationes enim
+            secundum rationem intelligendi consequuntur processiones; eo enim filius est, quia a
+            patre procedit. Ergo videtur quod nullo modo possunt esse processiones plures in
+            divinis.</p>
+          <p xml:id="ta-l1d13q1-d1e3588">Contra, secundum unam processionem est unus tantum procedens. Sed in divinis sunt duae
+            personae procedentes, scilicet filius et spiritus sanctus, ut habetur in littera. Ergo
+            videtur quod oportet esse duas processiones.</p>
+          <p xml:id="ta-l1d13q1-d1e3591">Respondeo dicendum, quod quidam dicunt quod istae duae processiones realiter
+            distinguuntur, nec oportet quaerere quo distinguantur, quia sunt prima distinguentia
+            personas; sicut nec quaerimus quo distinguuntur rationale et irrationale. Sed hoc non
+            videtur conveniens: quia generatio et processio nullam habent oppositionem ad invicem;
+            omnis autem distinctio formalis est secundum aliquam oppositionem. Et praeterea
+            processio et generatio significantur per modum operationum. Hoc autem non convenit, ut
+            per operationes vel motus, distinguantur operantia vel operata; sed magis e converso,
+            quia actiones differunt specie secundum formas agentium, ut calefacere et infrigidare,
+            et motus secundum terminos. Et ideo alii dicunt quod differentia sumitur ex hoc quod
+            generatio est processio naturae, et processio spiritus sancti est processio voluntatis.
+            Sed hoc etiam non competit: quia voluntas et natura in divinis solum ratione
+            distinguuntur. Unde talis distinctio, realis distinctionis ratio esse non potest, quia
+            principium non est debilius principiato. Et praeterea secundum hoc processio
+            intellectus, secundum quam dicitur verbum, esset alia a processione naturae, secundum
+            quam dicitur filius. Et ideo dicendum, quod in divinis non potest esse aliqua realis
+            distinctio et pluralitas, nisi secundum relationes originis. Et ideo secundum hoc nos
+            oportet investigare pluralitatem procedentium et processionum. Dico igitur secundum hoc,
+            quod est in divinis aliqua processio secundum quam una persona procedit ab una; et haec
+            est processio generationis, secundum quam filius est a patre; et ideo dicitur esse per
+            modum naturae vel intellectus; procedit enim ut filius, et ut verbum: quia in utroque
+            modo istarum processionum, scilicet naturae et intellectus, est unius ab uno processio.
+            Item est aliqua processio in divinis quae est simul a duobus, scilicet ab eo qui
+            procedit et ab eo a quo procedit; et haec distinguitur a prima secundum originem; quia
+            ista secunda processio est a procedente secundum processionem praedictam, quae est per
+            modum naturae. Et inde est quod ista processio dicitur per modum voluntatis esse, quia
+            per consensum ex duobus volentibus potest unus amor procedere. Et secundum istos modos
+            diversos originis, producuntur plures personae relatione originis distinctae, scilicet
+            filius, qui est a patre, et spiritus sanctus, qui est ab utroque. Unde concedo quod nisi
+            spiritus sanctus esset a filio, non esset assignare distinctionem realem inter filium et
+            spiritum sanctum.</p>
+          <p xml:id="ta-l1d13q1-d1e3594">Ad primum ergo dicendum, quod paternitas dicit modum determinatum originis, qui
+            ulterius non potest multiplicari secundum diversam rationem originis, sed tantum
+            secundum materiam, ut diversificetur in numero; sed processio dicit originem in communi,
+            et potest secundum duos modos originis determinari; scilicet quod sit processio unius ab
+            uno non procedente, et quod sit processio etiam a procedente. Plures modi non possunt
+            inveniri qui distinguantur ex ratione originis; et ideo non possunt esse plures
+            processiones in divinis quam duae. Si enim acciperetur processio ab uno procedente vel
+            pluribus, non esset differentia nisi secundum unum et plura, quae differentia nullo modo
+            ad originem pertinet, sicut si divideretur gressibile, non per bipes et quadrupes, sed
+            per album et nigrum.</p>
+          <p xml:id="ta-l1d13q1-d1e3597">Ad secundum dicendum, quod in natura creata est duplex communicatio: una quae est per
+            modum naturae, et alia quae est per modum amoris. Non autem in utraque communicationum
+            communicatur natura, sed tantum in ea quae est per modum naturae. Ex imperfectione autem
+            voluntatis creatae est quod non potest communicari per eam natura; quia illud quod
+            procedit per modum voluntatis, scilicet amor, non est hypostasis per se subsistens,
+            sicut in divinis; et ideo ex perfectione divinae naturae est quod communicetur non
+            tantum per actum naturae, qui est generatio, sed per actum voluntatis, qui est consensus
+            amoris.</p>
+          <p xml:id="ta-l1d13q1-d1e3600">Ad tertium dicendum, quod distinguuntur processiones in divinis et penes principium et
+            penes finem. Ut enim superius dictum est, quamvis natura divina sit principium
+            generationis in patre, non tamen absolute sub ratione naturae, sed sub ratione
+            paternitatis. Et similiter a natura divina, inquantum est natura quae acquiritur in
+            filio per generationem, non habet filius quod sit filius, sed ab eo quod natura in filio
+            secundum rem est ipsa filiatio. Et ita patet quod ipsae relationes se habent aliquo modo
+            ut principium et ut terminus ad ipsas processiones.</p>
+          <p xml:id="ta-l1d13q1-d1e3604">Ad quartum dicendum, quod, cum secundum processiones distinguantur personae, quae
+            realiter plures sunt, non potest dici quod processiones re non differunt sed ratione
+            tantum. Nihil enim causat distinctionem majorem, formaliter loquendo, quam sit
+            distinctio qua distinguuntur ipsa ad invicem. Sed sicut proprietates personales,
+            secundum quod comparantur ad essentiam, sunt idem re, quia sunt divina essentia, a qua
+            tantum ratione differunt; secundum autem quod ad aliquid dicuntur, sunt secundum rem
+            plures; ita est etiam de processionibus: quia secundum quod comparantur ad naturam ut
+            principium vel terminus, non distinguuntur nisi ratione, secundum quod dicitur in Deo
+            voluntas et natura ratione differre; sed quia comparantur etiam ad proprietates
+            relativas sicut ad principium vel terminum, ut dictum est, dist. 2, qu. 1, art. 5, ideo
+            ex hoc etiam habent realem differentiam.</p>
+          <p xml:id="ta-l1d13q1-d1e3607">Quod ergo objicitur, quod relationes consequuntur processiones, unde magis videtur quod
+            processiones diversae causent diversitatem relationum, quam e converso; vel ad minus
+            erit ibi circulatio: dicendum, quod relatio in divinis non tantum habet quod sit
+            relatio, sed etiam quod sit personalis, idest constituens personam; et ex hoc habet
+            quasi actum differentiae constitutivae et formae propriae ipsius personae, cujus est
+            operatio generationis vel spirationis; et ideo non est inconveniens quod secundum
+            relationis rationem relationes consequantur ipsas processiones, et recipiant
+            differentiam ab eis; secundum autem quod sunt formae propriae ipsarum personarum,
+            causent differentiam processionum.</p>
+        </div>
+        <div xml:id="ta-l1d13q1-Dd1e3611" type="articulus">
+          <head xml:id="ta-l1d13q1-Hd1e3613">Articulus 3</head>
+
+          <head xml:id="ta-l1d13q1-Hd1e3616" type="questionTitle">Utrum processio spiritus sancti debeat dici processio vel
+            generatio</head>
+
+          <p xml:id="ta-l1d13q1-d1e3619">Ad tertium sic proceditur. Videtur quod processio spiritus sancti non debet nominari
+            processio, sed generatio. Si enim non sit generatio, tunc contra generationem dividitur.
+            Sed nullum commune dividitur contra proprium. Cum igitur processio sit communis
+            generationi et processioni spiritus sancti, videtur quod processio spiritus sancti non
+            debeat nominari processio.</p>
+          <p xml:id="ta-l1d13q1-d1e3622">Praeterea, sicut generatio filii dicit specialem modum originis, ita et processio
+            spiritus sancti; alias non esset proprietas constitutiva personae, ut prius dictum est,
+            art. antec. Sed processio non dicit aliquem specialem modum originis, ut dictum est,
+            art. 1, istius dist. Ergo modus originis spiritus sancti non debet per processionem
+            nominari.</p>
+          <p xml:id="ta-l1d13q1-d1e3625">Praeterea, sicut filius accipit totam naturam et substantiam patris, ita et spiritus
+            sanctus. Sed illa processio secundum quam aliquis accipit naturam ejus a quo procedit,
+            dicitur generatio, etiam in inferioribus, ut patet inducendo in singulis. Ergo videtur
+            quod processio spiritus sancti debet dici generatio.</p>
+          <p xml:id="ta-l1d13q1-d1e3629">Praeterea, Damascenus, definiens generationem dicit sic: <quote xml:id="ta-l1d13q1-Qd1e3631">generatio est divinae
+              naturae opus existens, ut versionem, qui generat, non suscipiat, et ut neque Deus
+              prior neque posterior sit</quote>. Sed processio spiritus sancti est opus divinae
+            naturae et cetera. Ergo videtur quod sit generatio. Quod autem sit opus divinae naturae
+            et non voluntatis, probatur per Hilarium, qui dicit, quod omnibus creaturis substantiam
+            voluntas attulit, sed filio natura dedit. Sed spiritus sanctus non est creatura; et ita
+            non habet substantiam per voluntatem, sed per naturam patris.</p>
+          <p xml:id="ta-l1d13q1-d1e3635">Contra, quidquid procedit per modum generationis, procedit ut genitum, praecipue in
+            rebus viventibus. Sed spiritus sanctus non procedit ut genitus: alias essent duo filii
+            in Trinitate, quod non potest esse. Ergo processio spiritus sancti non debet dici
+            generatio.</p>
+          <p xml:id="ta-l1d13q1-d1e3638">Respondeo dicendum, quod in divinis est accipere commune et proprium, quamvis non sit
+            accipere universale, et particulare. Ad hoc enim quod sit universale et particulare,
+            exigitur aliqua diversitas realis, ut supra dictum est, dist. 8, quaest. 4, art. 1,
+            quidditatis communicabilis, et esse quod proprium est. Et talis diversitas non potest
+            esse in divinis. Sed est ibi accipere commune et proprium dupliciter, scilicet secundum
+            rem, et secundum rationem. Secundum rem, sicut dicimus essentiam esse communem tribus
+            personis, et unamquamque personam distingui per id quod sibi est proprium. Secundum
+            rationem autem, sicut quando intellectus noster in divinis accipit aliquid et quantum ad
+            rationem communem vel indeterminatam, et quantum ad rationem determinatam et propriam:
+            quia utrumque ad dignitatem pertinet, et ratio generis et ratio differentiae: sicut in
+            divinis est ratio cognitionis, quae communis est, et ratio scientiae, quae propria est
+            et determinata; nec tamen unum est genus alterius, secundum quod in Deo sunt. Ita dico,
+            quod processio dicitur secundum rationem communem originis, generatio autem secundum
+            determinatam originis rationem. Unde se habent sicut commune et proprium; non tamen
+            sicut genus et species.</p>
+          <p xml:id="ta-l1d13q1-d1e3641">Ad primum ergo dicendum, quod processio, secundum quod sumitur in communi ratione, non
+            condividitur generationi; sed prout sumitur secundum determinatum modum processionis,
+            qui spiritui sancto competit.</p>
+          <p xml:id="ta-l1d13q1-d1e3644">Ad secundum dicendum, quod frequenter invenimus quod aliquod proprium denominatur
+            nomine communi; sicut omne convertibile dicitur proprium, sive significet quid est res,
+            sive non. Sed tamen hoc nomen sibi specialiter retinet illud convertibile quod
+            substantiam non significat, quia non addit aliquid nobilitatis quo nominari possit. Non
+            autem sic dicimus in proposito: non enim origo spiritus sancti nominatur communi nomine,
+            quia nihil addit supra rationem, vel minus habet quam generatio filii, cum spiritus
+            sanctus filio sit aequalis in dignitate. Sed hujusmodi assignantur tres rationes. Prima
+            est, quia spiritus sanctus maxime accedit ad processionem: non enim tantum ipse procedit
+            sicut et filius, sed a procedente procedit, quod filio non competit. Secunda est, quia
+            cum processio dicatur dupliciter, scilicet secundum motum localem et secundum exitum
+            causati a causa, uterque modus aliquo modo competit origini spiritus sancti. Inquantum
+            enim procedit ut persona distincta, sic sua processio habet similitudinem ad exitum
+            causati a causa. Inquantum autem procedit ut amor, qui tendit in alterum non sicut in
+            recipiens, sed sicut in objectum, habet similitudinem cum processione locali, quae est
+            ex aliquo in aliquid. Pater enim amat filium amore, qui est spiritus sanctus. Filio
+            autem non competit processio nisi secundum unum modum, scilicet exitum a causa. Tertia
+            ratio (et credo quod melior est) quia in rebus creatis invenimus aliquid in se
+            subsistens, procedere per modum naturae, et hoc dicimus generari; unde secundum hoc
+            potuimus processionem filii proprio nomine nominare, scilicet generationis nomine. Sed
+            non invenimus aliquid in creaturis per se subsistens, procedere per modum amoris, sicut
+            spiritus sanctus procedit: et ideo istam processionem non potuimus nominare nomine
+            proprio, sed tantum communi.</p>
+          <p xml:id="ta-l1d13q1-d1e3647">Ad tertium dicendum, quod processio amoris, inquantum hujusmodi, non habet quod per
+            ipsam natura aliqua communicetur; sed hoc habet inquantum est in divinis, ubi non potest
+            esse aliquid imperfectum. Et ideo spiritus sanctus secundum rationem processionis,
+            communiter loquendo, non habet quod communicetur sibi natura; et ideo talis processio
+            non potest dici generatio secundum suam propriam rationem. Ex ipsa enim ratione
+            generationis est quod natura genito communicetur: quamvis enim diversitas rationis non
+            sufficiat ad realem processionum differentiam, sufficit tamen ad differentem
+            nominationem.</p>
+          <p xml:id="ta-l1d13q1-d1e3651">Ad quartum dicendum, quod natura non est principium processionis spiritus sancti sub
+            ratione naturae, sed sub ratione voluntatis, a qua procedit amor; et ideo sua processio
+            non dicitur nativitas, cum nativitas a natura dicatur. Nec tamen ex hoc sequitur quod
+            spiritus sanctus sit creatura. Voluntas enim comparatur ut principium ad ipsa
+            principiata, et sic comparatur ad creaturas; vel ad ipsam rationem principiandi, et sic
+            comparatur ad amorem, qui est spiritus sanctus, sicut intellectus ad artem, ut superius
+            dictum est, dist. 10, quaest. 1, art. 3.</p>
+        </div>
+        <div xml:id="ta-l1d13q1-Dd1e3656" type="articulus">
+          <head xml:id="ta-l1d13q1-Hd1e3658">Articulus 4</head>
+
+          <head xml:id="ta-l1d13q1-Hd1e3661" type="questionTitle">Utrum spiritus sanctus debeat dici ingenitus</head>
+
+          <p xml:id="ta-l1d13q1-d1e3664">Ad quartum sic proceditur. Videtur quod spiritus sanctus debet dici ingenitus. Et primo
+            per auctoritatem Hieronymi in littera.</p>
+          <p xml:id="ta-l1d13q1-d1e3667">Praeterea, terminus infinitus convertitur cum negatione, supposita existentia subjecti;
+            sicut non homo, non est homo. Quidquid enim est et non est homo, est non homo. Sed
+            ingenitus est terminus infinitus. Ergo cum spiritus sanctus sit, et non sit genitus,
+            videtur quod sit ingenitus.</p>
+          <p xml:id="ta-l1d13q1-d1e3670">Praeterea, ingenitum aut dicit relationem, aut absolutum. Sed non dicit relationem
+            notionalem, quia tunc non posset dici essentia ingenita. Ergo videtur quod sit de
+            absolutis; et ita videtur convenire spiritui sancto.</p>
+          <p xml:id="ta-l1d13q1-d1e3674">Sed in contrarium est quod dicitur in littera, quod solus pater ingenitus est. Ergo non
+            spiritus sanctus.</p>
+          <p xml:id="ta-l1d13q1-d1e3677">Respondeo dicendum, quod in divinis, proprie loquendo, nihil potest dici privative:
+            quia ad rationem privationis exigitur quod aliquid sit aptum natum habere quod non
+            habet. Hoc autem Deo competere non potest. Unde oportet quod ingenitus sumatur negative
+            et non privative. Sed negatio quaedam negat in genere determinato, et haec habet aliquid
+            simile privationi, inquantum ponitur aliquod determinatum genus. Est etiam quaedam
+            negatio extra genus; et haec est absoluta negatio, quia nullum genus determinat. Dico
+            ergo, quod ingenitus si dicat negationem extra genus, tunc convenit omni ei quod est et
+            quod non est ab alio per generationem, sive sit ab aliquo alio sive non, et sive sit
+            creatum sive increatum; et secundum hoc possumus dicere patrem ingenitum, et spiritum
+            sanctum, et essentiam divinam, et primas creaturas, quae non exierunt in esse per
+            generationem. Si autem sit negatio in genere, hoc potest esse dupliciter, secundum quod
+            in divinis accipitur: vel in genere divinae naturae; et sic adhuc convenit patri,
+            spiritui sancto et essentiae; vel in genere principii in natura divina; et sic non
+            convenit nisi patri, et tunc erit notio patris. Principium enim aliquod potest
+            innotescere aut secundum quod aliquid est ab illo, et sic pater innotescit per
+            generationem et spirationem activam: aut secundum quod non est ab alio, et sic est notio
+            patris ingenitus.</p>
+          <p xml:id="ta-l1d13q1-d1e3680">Ad primum ergo dicendum, quod Hieronymus accipit ingenitum, idest non genitum, secundum
+            quod negatio est extra genus; vel in genere divinae naturae, et non in genere
+            principii.</p>
+          <p xml:id="ta-l1d13q1-d1e3683">Ad secundum dicendum, quod negatio termini infiniti non est negatio in aliquo genere
+            determinato, sed tantum in genere entis; et ideo potest dici de omni ente cui non
+            convenit affirmatio: sed negatio quae negat in aliquo genere determinato, non potest
+            dici extra illud genus.</p>
+          <p xml:id="ta-l1d13q1-d1e3686">Ad tertium dicendum, quod ingenitus, secundum quod convenit tantum patri, dicit
+            notionem patris; et sic non convenit essentiae. Secundum autem quod convenit essentiae
+            et spiritui sancto, non dicit aliquam notionem, nec etiam aliquid de absolutis, quia sic
+            etiam conveniret filio; sed removet notionem quamdam, scilicet generationem
+            passivam.</p>
+        </div>
+        <div xml:id="ta-l1d13q1-Dd1e3690">
+          <head xml:id="ta-l1d13q1-Hd1e3692">Expositio textus</head>
+          <p xml:id="ta-l1d13q1-d1e3695"><quote xml:id="ta-l1d13q1-Qd1e3696">Absit autem ut inter Deum patrem et Deum filium tale aliquid suspicemur</quote>.
+            Sic enim processio spiritus sancti materialis videretur; quia pater se habet ad
+            generationem ut principium activum, mater autem ut materiale, quia materiam ministrat.
+              <quote xml:id="ta-l1d13q1-Qd1e3699">Nescio</quote>, scilicet per artem acquisitam: <quote xml:id="ta-l1d13q1-Qd1e3702">non valeo</quote>, per
+            naturalem virtutem vel industriam: <quote xml:id="ta-l1d13q1-Qd1e3705">non sufficio</quote>, per defectum usus vel
+            exercitii. <quote xml:id="ta-l1d13q1-Qd1e3708">Omne quod est, aut ingenitum est aut genitum aut factum</quote>.
+            Sciendum est, quod istius divisionis membra variantur materiali multiplicatione et non
+            formali; et ideo unum membrum bis repetitur, inquantum duobus convenit, scilicet patri
+            et spiritui sancto.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

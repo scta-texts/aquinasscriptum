@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum III, Distinctio 2, Quaestio 2</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.09-dev-master">
+          <title>Librum III, Distinctio 2, Quaestio 2</title>
+          <date when="2016-02-19">February 19, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-02-19">February 19, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness>1856 editum</witness>
+          <witness xml:id="H" n="harv245" xml:base="http://iiif.lib.harvard.edu/manifests/drs:51994085/canvas/">Cambridge, Mass., Harvard University, Houghton Library, MS Lat 245</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="2015.09">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+
+
+
+
+      <div xml:id="starts-on">
+        <cb ed="#H" n="11va" select="canvas-51994140.json"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ta-l3d2q2">
+        <head xml:id="ta-l3d2q2-Hd1e97">Librum III, Distinctio 2, Quaestio 2</head>
+        <div xml:id="ta-l3d2q2-Dd1e100">
+          <head xml:id="ta-l3d2q2-Hd1e102">Prooemium</head>
+          <p xml:id="ta-l3d2q2-d1e105">Deinde quaeritur de ordine assumptionis; et circa hoc quaeruntur tria: 1 utrum unam partem humanae naturae assumpserit mediante alia; 2 utrum humanam naturam assumpserit mediante aliquo alio; 3 utrum omnes partes humanae naturae simul tempore assumpserit.</p>
+        </div>
+        <div xml:id="ta-l3d2q2-Dd1e109" type="articulus">
+          <head xml:id="ta-l3d2q2-Hd1e111">Articulus 1</head>
+          <head xml:id="ta-l3d2q2-Hd1e114" type="quesetionTitle">Utrum assumpserit carnem mediante anima</head>
+          <div xml:id="ta-l3d2q2-Dd1e117">
+            <head xml:id="ta-l3d2q2-Hd1e119">Quaestiuncula 1</head>
+            <p xml:id="ta-l3d2q2-d1e122">Ad primum sic proceditur. Videtur quod carnem non assumpserit mediante anima. Remoto enim medio quo aliqua conjunguntur, extrema separantur, sicut patet in tabulis quae per clavum conjunguntur. Sed in morte Christi separata est anima a carne; nec tamen separata est deitas a carne. Ergo anima non est medium quo deitas unitur carni.</p>
+            <p xml:id="ta-l3d2q2-d1e125">Praeterea, unum extremorum quae conjunguntur per medium, magis conjungitur medio quam alteri extremo. Sed caro non magis conjungitur animae quam deitati: est enim caro ab anima separata in morte, non tamen a deitate. Ergo divinitas non est unita carni mediante anima.</p>
+            <p xml:id="ta-l3d2q2-d1e128">Praeterea, Deus in qualibet creatura est immediate per essentiam, praesentiam, et potentiam: similiter etiam animae sanctae conjungitur immediate per gratiam. Cum ergo major sit conjunctio unionis quam aliqua praedictarum, videtur quod quidquid assumitur ad unitatem personae, immediate divinitati conjungatur.</p>
+            <p xml:id="ta-l3d2q2-d1e131">Sed contra, <name ref="#Augustine">Augustinus</name> ad <name>Volusianum</name> dicit: <quote xml:id="ta-l3d2q2-Qd1e139">filius Dei assumpsit animam rationalem, et per eam sibi corpus aptavit</quote>; et ita videtur quod mediante anima filius Dei carnem assumpserit.</p>
+            <p xml:id="ta-l3d2q2-d1e144">Praeterea, multum distantia non conjunguntur nisi per medium, quod minus distat ab extremis quam extrema ad invicem. Sed corpus plus distat a deitate quam anima. Ergo corpus unitur deitati mediante anima.</p>
+          </div>
+          <div xml:id="ta-l3d2q2-Dd1e148">
+            <head xml:id="ta-l3d2q2-Hd1e150">Quaestiuncula 2</head>
+            <p xml:id="ta-l3d2q2-d1e153">Ulterius. Videtur quod non assumpserit animam mediante spiritu. Impossibile enim est ut per idem medium uniatur aliquid superiori et inferiori; quia illud quo unitur inferiori, est infra ipsum; illud quo unitur superiori, est supra ipsum. Sed anima mediante spiritu unitur corpori, quod est infra ipsum, ut quidam dicunt. Ergo non unitur Deo, qui est supra eam, mediante spiritu.</p>
+            <p xml:id="ta-l3d2q2-d1e156">Praeterea, medium oportet differre ab extremis. Sed mens quae spiritus dicitur ab <name ref="#Augustine">Augustino</name>, non est extra essentiam animae, immo est id quod in anima nostra est sublimius, in qua imago Dei invenitur, ut idem <name ref="#Augustine">Augustinus</name> dicit. Ergo non assumpsit animam mediante spiritu.</p>
+            <p xml:id="ta-l3d2q2-d1e165">Praeterea, spiritus humanus differt in hoc ab angelico quod est animae unitus et carni: quod Angelo non convenit. Sed spiritus angelicus non est assumptibilis: ut supra dictum est, qu. 2, art. 1, quaestiunc. 3. Ergo quod spiritus humanus sit assumptibilis, est ex ratione animae, vel ex ratione carnis. Ergo magis assumpsit spiritum mediante carne vel anima, quam e converso.</p>
+            <p xml:id="ta-l3d2q2-d1e168">Sed contra, ea quae sunt distantia, per aliquid utrique proximum conjunguntur. Sed spiritus proximus est 
+              <cb ed="#H" n="11vb" select="canvas-51994140.json"/>
+              Deo per similitudinem imaginis, quia et ipse Deus spiritus est, ut dicitur Joan. 4: similiter etiam cum anima convenit in hoc quod pars quaedam animae est. Ergo Deus animam mediante spiritu assumpsit.</p>
+            <p xml:id="ta-l3d2q2-d1e174">Praeterea, sicut anima corpore, ita aliis partibus animae spiritus superior est. Sed Deus assumpsit corpus mediante anima. Ergo eadem ratione assumpsit animam mediante spiritu.</p>
+          </div>
+          <div xml:id="ta-l3d2q2-Dd1e178">
+            <head xml:id="ta-l3d2q2-Hd1e180">Quaestiuncula 3</head>
+            <p xml:id="ta-l3d2q2-d1e183">Ulterius. Videtur quod non assumpserit totum mediantibus partibus. Illud enim quod convenit toti ratione partium, non solum convenit toti, sed etiam partibus. Sed deitas non praedicatur de partibus humanae naturae (non enim dicimus quod anima sit Deus, vel quod corpus sit Deus): praedicatur autem de toto cum dicimus Deum hominem esse. Ergo cum per assumptionem humanae naturae praedicetur Deus de homine, et e converso, videtur quod partes non assumpserit nisi mediante toto.</p>
+            <p xml:id="ta-l3d2q2-d1e186">Praeterea, alia est singularitas uniuscujusque partis hominis, et singularitas divinae personae vel incommunicabilitas, quia partes sunt plures, sed persona assumens una est. Est autem eadem singularitas personae assumentis et totius hominis, quia eadem est hypostasis utriusque, ut dicit Damascenus. Ergo videtur quod partes non assumpserit nisi mediante toto.</p>
+            <p xml:id="ta-l3d2q2-d1e189">Praeterea, creaturae cui est unita divinitas debetur honor latriae, ut infra dicetur, dist. 9, qu. 1, art. 2. Sed aliquibus partibus corporis Christi, si essent separatae, non deberetur honor latriae. Ergo partibus separatis a toto non est unita divinitas. Ergo non est unita partibus nisi mediante toto.</p>
+            <p xml:id="ta-l3d2q2-d1e192">Sed contra, in morte Christi divinitas partibus hominis, scilicet corpori et animae, unita mansit. Sed tunc ex partibus, cum conjunctae non essent, totum non constabat. Ergo non assumpsit partes mediante toto.</p>
+            <p xml:id="ta-l3d2q2-d1e196">Praeterea, quidquid convenit parti et toti, per prius convenit parti quam toti. Sed dicimus humanam naturam assumptam esse, et similiter partes ejus, scilicet animam et carnem. Ergo per prius assumpsit partes quam totum; et ita non partes mediante toto assumpsit.</p>
+          </div>
+          <div xml:id="ta-l3d2q2-Dd1e201">
+            <head xml:id="ta-l3d2q2-Hd1e203">Quaestiuncula 1</head>
+            <p xml:id="ta-l3d2q2-d1e206">Respondeo dicendum, quod est duplex medium, scilicet congruentiae, et necessitatis. Medium congruentiae est quod facit ad decentem conjunctionem extremorum, quae tamen nihilominus sine illo esse posset, sicut pulchritudo facit ad decentem conjunctionem matrimonii, qua tamen amissa, matrimonium non solvitur. Medium autem necessitatis est sine quo conjunctio extremorum esse non potest, sicut lumen conjungitur aeri mediante diaphaneitate. Hoc tamen contingit dupliciter: quia vel est causa conjunctionis, vel est ad conjunctionem consequens. Conjunctionis causa est medium, sicut aqua et aer in visu: quia per aerem redditur species visibilis ipsi visui. Consequens autem conjunctionem est quod ex conjunctorum dispositione causatur, sicut aer vel aqua est medium in tactu: propter hoc oportet extremitates corporum se tangentium humidas esse; et ita oportet humiditatem aliquam intermediam esse. Medium autem quod est causa conjunctionis, est duplex: quia vel conjungit effective, sicut homo 
+              <cb ed="#H" n="12ra" select="canvas-51994140.json"/>
+              reconcilians inimicos, dicitur medius inter eos: vel conjungit formaliter, sicut amor conjungit amicos, ut medium quoddam inter eos. Sed utrumque horum adhuc dupliciter contingit: quia medium necessitatis vel causa conjunctionis est in actu, ut patet in vinculo quo aliqua colligantur, vel est causa conjungibilitatis, sicut siccitas in lignis causat conjungibilitatem ad ignem. His igitur visis, ad primam quaestionem dicendum, quod anima est quodammodo medium quo corpus divinitati unitur. Sed sciendum, quod si anima comparetur ad unionem in actu, est medium congruentiae tantum: non enim decet ut divinitas corpori uniatur, nisi habeat animam: tum quia est Deo propinquior, tum quia pluribus modis est Deo unibilis quam corpus, quia etiam per gratiam et gloriam; tum etiam quia corpori unitur propter reparationem animae. Si vero comparetur ad unibilitatem, sic est medium necessitatis, sicut causans formaliter unibilitatem in corpore; non enim corpus est unibile servato ordine ad finem unionis (secundum quod creatura rationalis prae aliis assumptibilis dicta est) nisi per hoc quod particeps est imaginis Dei mediante anima; unde corpora inanimata unibilia non sunt.</p>
+            <p xml:id="ta-l3d2q2-d1e211">Ad primum ergo dicendum, quod si tollatur medium quod est causa conjunctionis in actu, necesse est unita dissolvi, sicut subtracto amore, hominum corda ulterius unum non erunt: semper enim ablata causa aufertur effectus. Subtracto tamen medio congruentiae, quod ad decentiam unionis faciebat, non est necessarium unita dissolvi. Similiter autem non est necessarium ut si tollatur medium, quod est causa conjungibilitatis, unio dissolvatur: potest enim esse ut causet conjungibilitatem etiam postquam abscesserit, dummodo remaneat ordo et possibilitas ad ipsum, quia forte conjunctio actualis medii non est causa conjungibilitatis ad extremum, sed potius conjungibilitas medii; sicut actualis consideratio principiorum est medium quo habitus conclusionum acquiritur; non tamen transeunte actuali consideratione principiorum, transit habitus conclusionis, eo quod adhuc manet habilitas ad considerandum principia. Unde cum anima sit medium congruentiae, et causans unibilitatem in corpore, non oportet quod abscedente anima conjunctio divinitatis ad carnem dirimatur: quia adhuc remanet in corpore habilitas et ordo ad animam, ratione cujus remanet in carne convenientia unionis, et unibilitas ad divinitatem.</p>
+            <p xml:id="ta-l3d2q2-d1e214">Ad secundum dicendum, quod aliqua duo possunt esse magis conjuncta quam alia, dupliciter. Vel quia pluribus modis conjunguntur; et sic anima magis unitur carni quam deitas, quia anima est forma ejus; et hoc modo est medium formaliter unibilitatem in ipso causans: vel quia fortiori vinculo conjunguntur; et sic deitas magis unitur carni quam anima, quae unitur ei naturali unione, propter quod separabilis est; divinitas autem unitur carni per gratiam increatam, quae immutabilis est; et ideo illa unio nunquam separatur.</p>
+            <p xml:id="ta-l3d2q2-d1e217">Ad 
+              <cb ed="#H" n="12rb" select="canvas-51994140.json"/>
+              tertium dicendum, quod creatura ex seipsa receptibilis est divini influxus in ipsam; et ideo non indiget medio quod faciat eam possibilem ad hoc quod Deus in ea sit per essentiam, praesentiam et potentiam: neque etiam indiget medio congruentiae, quia decentissimum est ut creatura a creatore non deseratur. Similiter etiam anima secundum sui naturam capax est Dei; corpus autem non est assumptibile per naturam corporis, sed inquantum est perfectum anima rationali; et ideo non est simile.</p>
+          </div>
+          <div xml:id="ta-l3d2q2-Dd1e223">
+            <head xml:id="ta-l3d2q2-Hd1e225">Quaestiuncula 2</head>
+            <p xml:id="ta-l3d2q2-d1e228">Ad secundam quaestionem dicendum, quod secundum <name ref="#Augustine">Augustinum</name>, spiritus multipliciter dicitur. Uno modo ipsum corpus subtile, ut aer. Alio modo corpus animae omnino subjectum, sicut corpora sanctorum in resurrectione, 1 Corinth. 15. Tertio modo quaelibet anima brutorum; Eccle. 3: <quote xml:id="ta-l3d2q2-Qd1e233">quis novit (...) si spiritus jumentorum descendat deorsum?</quote> Quarto virtus imaginaria, 1 Corinth., 14, 15: <quote xml:id="ta-l3d2q2-Qd1e236">psallam spiritu, psallam mente</quote>. Quinto ipsa mens hominis vel Angeli, Ephes. 4, 23: <quote xml:id="ta-l3d2q2-Qd1e239">renovamini spiritu mentis vestrae</quote>. Sexto ipsa divina substantia, Joan. 4, 24: <quote xml:id="ta-l3d2q2-Qd1e242">spiritus est Deus</quote>. Nunc autem loquimur de spiritu secundum quod pro mente ponitur. Unde dicendum, quod divinitas mediante spiritu animam assumpsit, sicut anima mediante, corpus; sicut enim corpus non est assumptibile nisi per hoc quod habet animam; ita anima non est assumptibilis nisi per hoc quod mens in ea est, per quam imaginem Dei habet.</p>
+            <p xml:id="ta-l3d2q2-d1e246">Ad primum ergo circa hoc objectum dicendum, quod ratio illa procedit ex aequivocatione spiritus, ut ex dictis patet.</p>
+            <p xml:id="ta-l3d2q2-d1e249">Ad secundum dicendum, quod quamvis spiritus, idest mens, non differat ab anima per essentiam, nisi mens dicatur potentia animae, quae quodammodo ab anima per essentiam differt, sicut proprietas a subjecto; tamen anima non ex hoc quod est anima, assumptibilis est modo praedicto, sed ex hoc quod mentem habet; et ideo mens est medium in anima assumptibilitatem causans.</p>
+            <p xml:id="ta-l3d2q2-d1e252">Ad tertium dicendum, quod quamvis forma materialis non possit esse sine materia, tamen materia non dat esse formae, sed e converso; ita etiam quamvis spiritus carni non unitus assumptibilis non sit, magis tamen spiritus causat assumptibilitatem in corpore quam e converso.</p>
+            <p xml:id="ta-l3d2q2-d1e256">Alia duo concedimus.</p>
+          </div>
+          <div xml:id="ta-l3d2q2-Dd1e260">
+            <head xml:id="ta-l3d2q2-Hd1e262">Quaestiuncula 3</head>
+            <p xml:id="ta-l3d2q2-d1e265">Ad tertiam quaestionem dicendum, quod partes originaliter sunt priores toto, quasi constituentes ipsum; totum autem completive est prius partibus, quia ratio naturae completae invenitur prius in ipso toto, et ad partes ejus pervenit mediante toto, inquantum ejus partes sunt; unde etiam sunt in genere per reductionem. Et ideo dicendum est, quod quodammodo mediantibus partibus assumpsit totum, inquantum scilicet partes originaliter humanam naturam constituebant, cui per se assumptio debebatur; quodammodo autem partes mediante toto, inquantum ratio humanae naturae, quae per se assumptibilis est, per prius invenitur in toto, et per hoc in partibus.</p>
+            <p xml:id="ta-l3d2q2-d1e268">Ad primum ergo dicendum, quod quamvis de partibus humanae naturae Deus non praedicetur, tamen partes illae causant originaliter assumptibilitatem in toto; sicut homo dicitur animal, non autem corpus vel anima dicitur animal, quamvis ex corpore et anima causetur in homine quod animal sit.</p>
+            <p xml:id="ta-l3d2q2-d1e271">Ad secundum dicendum, quod est duplex singularitas: 
+              <cb ed="#H" n="12va" select="canvas-51994141.json"/>
+              scilicet singularitas naturae, ut haec humanitas; et singularitas subsistentis in natura, ut hic homo. Non autem est facta unio in singularitate naturae, quia naturae inalterabiliter unitae sunt; sed est facta unio in singularitate personae subsistentis in natura, quia idem Christus in utraque natura subsistit. Singularitas autem partium, inquantum partes sunt, ad naturam pertinet; et ideo non est eadem singularitas partium hominis et Dei; sed est eadem persona hominis et Dei: nec tamen sequitur quod partes non causent assumptibilitatem in toto.</p>
+            <p xml:id="ta-l3d2q2-d1e276">Ad tertium dicendum, quod in omnibus partibus quae sunt de veritate humanae naturae, etiam separatis, manet ordo ad totam naturam; et ideo remanet in eis assumptibilitas, et per consequens unio, sicut in corpore Christi remansit anima separata; unde et eis latria deberetur. Si autem separarentur aliquae partes quae non essent de veritate humanae naturae, non remaneret in eis ordo ad naturam humanam, cui principaliter assumptio debetur; et ideo non remaneret unio, nec debitum latriae.</p>
+            <p xml:id="ta-l3d2q2-d1e280">Ad quartum dicendum, quod sicut corpus remanet unitum post animam, quamvis mediante anima uniatur, propter hoc quod remanet in corpore ordo ad animam; ita etiam remanet ordo in partibus ad totum; et propter hoc, dissoluto toto adhuc remanent partes unitae.</p>
+            <p xml:id="ta-l3d2q2-d1e283">Ad quintum dicendum, quod quamvis partes sint priores toto et causent totum, tamen aliquid est quod non convenit partibus nisi in ordine ad totum, sicut quod ordinentur in praedicamento: unde ratio ex falsis procedit.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l3d2q2-Dd1e288" type="articulus">
+          <head xml:id="ta-l3d2q2-Hd1e290">Articulus 2</head>
+          <head xml:id="ta-l3d2q2-Hd1e293" type="questionTitle">Utrum natura humana sit assumpta mediante gratia</head>
+          <div xml:id="ta-l3d2q2-Dd1e296">
+            <head xml:id="ta-l3d2q2-Hd1e298">Quaestiuncula 1</head>
+            <p xml:id="ta-l3d2q2-d1e301">Ad secundum sic proceditur. Videtur quod natura humana assumpta sit mediante gratia. Sicut enim dicit <name ref="#Augustine">Augustinus</name>, in rebus per tempus exortis summa gratia est quod Deus in unitate personae homini nullis meritis praecedentibus copulatur. Sed in his quae fiunt per gratiam gratia medium cadit. Ergo natura humana unitur divinitati mediante gratia.</p>
+            <p xml:id="ta-l3d2q2-d1e307">Praeterea, major est unio in persona quam unio animae beatae ad Deum per fruitionem. Sed anima non potest uniri Deo per modum fruitionis nisi mediante gratia. Ergo nec natura humana potest assumi in unitatem divinae personae nisi mediante gratia.</p>
+            <p xml:id="ta-l3d2q2-d1e310">Praeterea, in illud quod facultatem naturae excedit, natura non potest pervenire nisi mediante gratia. Sed assumi in unitatem divinae personae est maxime excedens facultatem naturae. Ergo in hoc natura non potest pervenire, nisi per gratiam elevetur; et sic idem quod prius.</p>
+            <p xml:id="ta-l3d2q2-d1e313">Sed contra, corpus humanum non est susceptibile gratiae, et tamen assumptum est sicut et anima. Ergo assumptio humanae naturae non est facta mediante gratia.</p>
+            <p xml:id="ta-l3d2q2-d1e317">Praeterea, in his quae miraculose fiunt, non requiritur aliquod medium disponens. Sed assumptio humanae naturae miraculose est facta. Ergo non oportuit quod esset ibi gratia aliqua, quasi disponens humanam naturam in unionem.</p>
+          </div>
+          <div xml:id="ta-l3d2q2-Dd1e321">
+            <head xml:id="ta-l3d2q2-Hd1e323">Quaestiuncula 2</head>
+            <p xml:id="ta-l3d2q2-d1e326">Ulterius. Videtur quod filius Dei carnem assumpsit mediante spiritu sancto. Verbum enim creatum non unitur voci, nisi mediante spiritu. 
+              <cb ed="#H" n="12vb" select="canvas-51994141.json"/>
+              Sed sicut verbum mentis humanae unitur voci, ita verbum divinum unitur carni, ut dicit <name ref="#Augustine">Augustinus</name>. Ergo illa unio facta est mediante spiritu sancto.</p>
+            <p xml:id="ta-l3d2q2-d1e334">Praeterea, in omni conjunctione quae fit per gratuitam voluntatem, amor medium cadit. Sed unio filii Dei ad humanam naturam est hujusmodi. Ergo in ea spiritus sanctus, qui est amor, medium est.</p>
+            <p xml:id="ta-l3d2q2-d1e337">Praeterea, secundum <name ref="#Augustine">Augustinum</name> et Hilarium, inter tres personas spiritus sanctus est nobis propinquior. Sed id quod alicui magis propinquat, est medium quo magis distanti unitur. Ergo spiritus sanctus est medium quo unitur humana natura divinae.</p>
+            <p xml:id="ta-l3d2q2-d1e343">Sed contra, medium magis unitur utrique extremorum quam extrema ad invicem. Sed spiritus sanctus non unitur humanitati in persona. Ergo non est medium unionis.</p>
+          </div>
+          <div xml:id="ta-l3d2q2-Dd1e347">
+            <head xml:id="ta-l3d2q2-Hd1e349">Quaestiuncula 3</head>
+            <p xml:id="ta-l3d2q2-d1e352">Ulterius. Videtur quod nec unio cadat medium inter humanam naturam et divinam. Nullum enim accidens cadit medium in aliqua substantiali unione. Sed unio, cum sit relatio, accidens quoddam est. Ergo cum unio divinitatis ad humanitatem non sit accidentalis, sed in substantia, quae hypostasis dicitur, videtur quod in illa unione medium cadere non possit.</p>
+            <p xml:id="ta-l3d2q2-d1e355">Praeterea, si unio illa res aliqua est, aut est aeterna, aut temporalis. Si aeterna, cum compositionem non sit intelligere sine componentibus, ut dicit <name ref="#Aristotle">philosophus</name>, oporteret quod homo ab aeterno Deo unitus fuisset. Si temporalis, cum unio sit in utroque extremorum, videtur quod aliquod temporale in Deo sit; quod est impossibile. Ergo unio non est aliqua res cadens medium inter humanam naturam et divinam.</p>
+            <p xml:id="ta-l3d2q2-d1e361">Praeterea, si sit temporalis, cum omnia temporalia praecesserint in operibus sex dierum, oportet quod et unio ista in operibus illis praecesserit, quod non videtur. Ergo unio non est aliqua res temporalis quae medium inter divinitatem et humanitatem cadere possit.</p>
+            <p xml:id="ta-l3d2q2-d1e364">Sed contra, relatio cadit medium inter extrema. Sed unio relatio quaedam est, qua humanitas et divinitas uniri dicuntur. Ergo mediante unione, humana natura divinae unita est.</p>
+          </div>
+          <div xml:id="ta-l3d2q2-Dd1e369">
+            <head xml:id="ta-l3d2q2-Hd1e371">Quaestiuncula 1</head>
+            <p xml:id="ta-l3d2q2-d1e374">Respondeo, supposita distinctione in praedicto articulo praemissa, sciendum est, quod in unione humanae naturae ad divinam nihil potest cadere medium formaliter unionem causans, cui per prius humana natura conjungatur quam divinae personae: sicut enim inter materiam et formam nihil cadit medium in esse quod per prius sit in materia quam forma substantialis; alias esse accidentale esset prius substantiali, quod est impossibile; ita etiam inter naturam et suppositum non potest aliquid dicto modo medium cadere, cum utraque conjunctio sit ad esse substantiale. Sed sicut adventum formae in materiam praecedunt ordine fiendi disponentia formaliter et materialiter, quibus materia redditur idonea ad susceptionem formae; ita etiam in humana natura inveniuntur quaedam superaddita, quibus redditur decens ut assumatur a divina persona, ut scientiae et virtutes et hujusmodi: unde ista possunt quodammodo dici medium congruentiae. Ad primam ergo quaestionem dicendum, quod sicut in 2 Sentent., 26 dist., Magister dicit, gratia dupliciter dicitur: uno modo ipse Deus gratis dans, vel gratuita voluntas ejus; 
+              <cb ed="#H" n="13ra" select="canvas-51994141.json"/>
+              alio modo donum aliquod gratis datum. Primo ergo modo accipiendo gratiam, gratia est medium unionis quasi unionem efficaciter causans: quia gratuita sua voluntate sine meritis praecedentibus carnem assumpsit. Secundo modo accipiendo gratiam, non cadit ibi aliquod medium habituale donum, sicut unionem vel unibilitatem formaliter causans; sed solum est sicut medium congruitatis, sicut etiam scientia, et perfectio corporis, et hujusmodi, quae decuit naturae assumptae non deesse. Nisi forte gratia ipsa unio dicatur, quae est quoddam donum gratiae gratis datum: quae quomodo sit medium, post dicetur.</p>
+            <p xml:id="ta-l3d2q2-d1e379">Ad primum ergo dicendum, quod, sicut ipsemet se exponit, assumptio illa ad maximam gratiam pertinet: quia tam maximum donum collatum est homini ut esset filius Dei nullis praecedentibus meritis. Unde gratia divina ibi significat voluntatem divinam, unionem gratis facientem, et non habitum aliquem, quo interveniente unio completa sit.</p>
+            <p xml:id="ta-l3d2q2-d1e382">Ad secundum dicendum, quod fruitio operationem quamdam dicit: unde per fruitionem anima unitur Deo, sicut operans operationis objecto. Hoc autem ad rationem perfectae operationis pertinet ut a potentia mediante habitu eliciatur; et ideo oportet quod unio fruitionis mediante habitu gratuito fiat. Unio autem in persona est ad unum esse personale; habitus autem non potest esse principium personae subsistentis, sed est ad esse consequens; et ideo gratia non est medium in unione personali, sicut unionem formaliter causans.</p>
+            <p xml:id="ta-l3d2q2-d1e385">Ad tertium dicendum, quod quamvis assumi in unitatem divinae personae sit supra facultatem humanae naturae, non tamen exigitur aliquid formaliter humanam naturam elevans ad talem assumptionem: tum quia quocumque addito, talis natura a persona divina in infinitum distaret: tum quia cum assumi per se naturae conveniat; omnia autem accidentia praeter rationem naturae sint, ideo non poterit humana natura secundum id quod assumptibilis est, elevari per aliquod accidens additum ad hoc ut assumptibilior fiat: sed ad hoc quod assumatur, exigitur benignitas divina humanam naturam ad tantam dignitatem gratis elevans.</p>
+          </div>
+          <div xml:id="ta-l3d2q2-Dd1e389">
+            <head xml:id="ta-l3d2q2-Hd1e391">Quaestiuncula 2</head>
+            <p xml:id="ta-l3d2q2-d1e394">Ad secundam quaestionem dicendum, quod spiritus sanctus non potest dici in illa unione medium, nisi sicut unionem effective causans: quae quamvis effectus totius Trinitatis sit, tamen spiritui sancto appropriatur, ut infra dicetur, dist. 4, quaest. 1, art. 2, quaestiunc. 1.</p>
+            <p xml:id="ta-l3d2q2-d1e397">Ad primum ergo dicendum, quod etiam verbum creatum voci non unitur mediante spiritu, nisi sicut per medium effectivum unionis: quia, sicut dicit <name ref="#Aristotle">philosophus</name>, percussio respirati aeris ad arteriam est causa vocis: et per hunc etiam modum spiritui sancto appropriatur efficientia carnis, cui verbum increatum unitur.</p>
+            <p xml:id="ta-l3d2q2-d1e403">Ad secundum dicendum, quod ea quae per voluntatem fiunt, etiam mediante amore fiunt, sicut efficiente causa; et sic etiam est in praedicta unione.</p>
+            <p xml:id="ta-l3d2q2-d1e406">Ad tertium dicendum, quod spiritus sanctus etiam dicitur propinquior nobis, inquantum per ipsum omnia dona nobis donantur, ut in 1 Lib., dist. 18, dictum est; et sic in idem redit cum praedictis.</p>
+          </div>
+          <div xml:id="ta-l3d2q2-Dd1e410">
+            <head xml:id="ta-l3d2q2-Hd1e412">Quaestiuncula 3</head>
+            <p xml:id="ta-l3d2q2-d1e415">Ad tertiam quaestionem dicendum est, quod inter humanam naturam et divinam necesse est cadere unionem mediam, non sicut causam, sed sicut effectum conjunctionem naturarum consequentem. Est enim natura relationis ut in aliis rerum generibus causam habeat, quia minimum habet de natura entis, ut Commentator 12 Metaph. dicit. Unde quamvis relatio per se non terminet motum, quia in ad aliquid non est motus, ut probatur in 5 Physic., tamen ex hoc quod motus per se terminatur ad aliquod ens, de necessitate consequitur relatio aliqua; sicut ex hoc quod motus alterationis terminatur ad albedinem, consequitur relatio similitudinis ad omnia alba: similiter etiam ex hoc quod motus generationis terminatur ad formam, consequitur haec relatio secundum quam materia sub forma esse dicitur; ita etiam ex hoc quod motus assumptionis humanae naturae terminatur ad personam, consequitur haec relatio quae dicitur unio; unde unio est medium non sicut assumptionem causans, sed potius 
+              <cb ed="#H" n="13rb" select="canvas-51994141.json"/>
+              sicut eam consequens; sicut etiam dictum est supra, quod aqua est medium in tactu ex hoc quod tangentia humectata sunt.</p>
+            <p xml:id="ta-l3d2q2-d1e420">Ad primum ergo dicendum, quod nihil prohibet accidens esse medium in conjunctione substantiali sicut conjunctionem sequens; impossibile est tamen ut sit medium conjunctionem causans.</p>
+            <p xml:id="ta-l3d2q2-d1e423">Ad secundum dicendum, quod unio relatio quaedam temporalis est: quae quidem realiter est in ipsa natura assumpta, sed in persona assumente secundum rationem tantum; sicut et de aliis relationibus ex tempore de Deo dictis, ut dominus, et hujusmodi, in 1 Lib., dist. 30, dictum est. Et tamen sicut dominus realiter dicitur Deus, non propter relationem dominii realiter in ipso existentem, sed propter potestatem coercendi creaturam, ex qua talis relatio causatur; ita etiam dicitur realiter unitus, quia in eo realiter est personalitas, ad quam unio terminatur.</p>
+            <p xml:id="ta-l3d2q2-d1e426">Ad tertium dicendum, quod unio illa praecessit in operibus sex dierum, non in ratione seminali, sed in potentia obedientiae tantum; sicut in costa Adae fuit ut ex ea Eva nasci posset.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l3d2q2-Dd1e431" type="articulus">
+          <head xml:id="ta-l3d2q2-Hd1e433">Articulus 3</head>
+          <head xml:id="ta-l3d2q2-Hd1e436" type="questionTitle">Utrum caro prius fuerit concepta quam assumpta</head>
+          <div xml:id="ta-l3d2q2-Dd1e439">
+            <head xml:id="ta-l3d2q2-Hd1e441">Quaestiuncula 1</head>
+            <p xml:id="ta-l3d2q2-d1e444">Ad tertium sic proceditur. Videtur quod caro prius fuerit concepta quam assumeretur. Quod enim non est, non potest assumi. Sed caro per conceptionem efficitur ens. Caro ergo prius fuit concepta quam assumeretur.</p>
+            <p xml:id="ta-l3d2q2-d1e447">Praeterea, motus semper praecedit tempore terminum motus. Sed conceptio carnis terminata est ad unionem, sicut motus ad terminum. Ergo conceptio unionem praecessit.</p>
+            <p xml:id="ta-l3d2q2-d1e450">Sed contra, sola unione communicatio proprietatum efficitur, ut quod de homine dicitur, de filio Dei dicatur. Sed concipi proprie carnis est. Si ergo conceptio carnis unionem praecederet, filius Dei de virgine conceptus non esset; quod est contra symbolum. Ergo conceptio carnis unionem non praecessit.</p>
+          </div>
+          <div xml:id="ta-l3d2q2-Dd1e454">
+            <head xml:id="ta-l3d2q2-Hd1e456">Quaestiuncula 2</head>
+            <p xml:id="ta-l3d2q2-d1e459">Ulterius. Videtur quod caro prius fuerit assumpta quam animata. Quod enim est primum in resolutione, est ultimum in compositione. Sed anima separata est a carne, adhuc manente unione carnis ad divinitatem. Ergo caro prius est assumpta a divinitate quam animaretur.</p>
+            <p xml:id="ta-l3d2q2-d1e462">Praeterea, anima, cum sit forma, requirit propriam materiam, scilicet corpus organicum in quo sit. Hoc autem fit per conceptionem carnis. Ergo conceptio praecedit animationem. Sed conceptio carnis simul est cum ipsius assumptione, ut probatum est. Ergo caro prius fuit assumpta quam animata anima rationali.</p>
+            <p xml:id="ta-l3d2q2-d1e465">Sed contra, caro unitur divinitati mediante anima, ut supra habitum est. Sed extremum non prius extremo conjungitur quam medio. Ergo caro non prius est divinitati unita quam animata.</p>
+          </div>
+          <div xml:id="ta-l3d2q2-Dd1e469">
+            <head xml:id="ta-l3d2q2-Hd1e471">Quaestiuncula 3</head>
+            <p xml:id="ta-l3d2q2-d1e474">Ulterius. Videtur quod anima sit prius assumpta quam corpori conjuncta. Extremum enim prius conjungitur medio quam alteri extremorum. Sed divinitas unitur carni mediante anima. Ergo prius unitur animae quam carni. Sed simul divinitas et anima carni uniuntur. Ergo divinitas prius unitur animae quam carni.</p>
+            <p xml:id="ta-l3d2q2-d1e477">Praeterea, persona Christi ex tribus substantiis componi dicitur, scilicet ex divinitate, anima et carne: quorum supremum est deitas, et infimum est caro, anima autem est medium. Sed prius divinitas fuit quam animae et carni uniretur. Ergo si medium cum extremis communicat, videtur quod anima sit posterior deitate, et prior carne. Sed simul anima creata est et assumpta. Ergo anima prius est assumpta quam carni uniatur.</p>
+            <p xml:id="ta-l3d2q2-d1e480">Sed contra, anima non est prius assumpta quam creata; nec creata quam corpori infusa: quia creando corpori infunditur, et infundendo creatur. Ergo anima non est prius assumpta quam carni unita.</p>
+          </div>
+          <div xml:id="ta-l3d2q2-Dd1e485">
+            <head xml:id="ta-l3d2q2-Hd1e487">Quaestiuncula 1</head>
+            <p xml:id="ta-l3d2q2-d1e490">Respondeo dicendum, quod nulla natura habet esse nisi in supposito suo: non enim humanitas potest esse nisi in homine: unde quidquid est in genere substantiae per se existens, rationem hypostasis habet, vel suppositi: et quia unio divinitatis et humanitatis fit in hypostasi, ut dicit Damascenus, ideo non potest esse ut quod assumptum est, prius fuerit quam assumeretur: nisi forte poneretur quod assumptio rationem hypostasis rei assumptae tolleret, 
+              <cb ed="#H" n="13va" select="canvas-51994142.json"/>
+              quod est inconveniens; hoc enim sine corruptione assumpti accidere non posset. Et ideo nullum horum trium est possibile: scilicet nec ut caro concepta prius fuerit, et postmodum assumpta; nec ut anima prius creata, et postmodum assumpta; neque ut homo prius ex suis partibus constitutus sit, et postmodum assumptus. Sicut autem ex dictis patet, corpus assumptibilitatem habet ab anima; similiter etiam partes essentiales assumptibilitatem habent ex ratione, cujus sunt partes naturae. Unde etiam utrumque horum est impossibile, ut scilicet anima prius sit creata et assumpta, et postmodum corpori conjuncta; et etiam quod caro prius sit concepta et assumpta, et postmodum animae unita: sed haec quatuor necesse est simul fuisse, scilicet conceptionem carnis, creationem animae, conjunctionem utriusque, et unionem ad deitatem. Unde patet responsio ad primam quaestionem: non enim fuit possibile quod caro prius fuerit concepta, et postmodum assumpta; quia si ante assumptionem concepta fuisset, propriam hypostasim habuisset; et tunc post assumptionem, vel mansisset illa hypostasis, et sic non potuisset fieri unio in hypostasi; vel non mansisset, et hoc sine corruptione carnis prius conceptae accidere non posset: ratio enim hypostasis non est accidentalis rei, ut re eadem numero manente alia hypostasis esse possit.</p>
+            <p xml:id="ta-l3d2q2-d1e495">Ad primum ergo dicendum, quod quamvis illud quod non est, non possit assumi, tamen possibile est ut in eodem instanti in quo esse habet, assumatur, ut sic esse rei assumptae non praecedat assumptionem tempore, sed natura.</p>
+            <p xml:id="ta-l3d2q2-d1e498">Ad secundum dicendum, quod quamvis motus secundum principium sui vel medium, non possit esse simul cum eo ad quod motus terminatur, tamen ultimum motus potest esse simul cum eo; sicut alteratio terminatur ad generationem, ita quod in eodem instanti in quo alteratio terminatur, forma substantialis introducitur: ita etiam in eodem instanti in quo conceptio terminatur, quando caro primo concepta est, tunc assumi potest. Et quia conceptio in instanti facta est, non differebat in ea primum medium et terminus: et ideo simpliciter loquendo conceptio simul fuit cum assumptione.</p>
+          </div>
+          <div xml:id="ta-l3d2q2-Dd1e502">
+            <head xml:id="ta-l3d2q2-Hd1e504">Quaestiuncula 2</head>
+            <p xml:id="ta-l3d2q2-d1e507">Ad secundam quaestionem patet etiam responsio ex praedictis. Non enim est possibile ut caro prius assumpta sit, et postmodum animata, propter duo: tum quia assumptibilitatem habet ab anima, quam sibi anima conferre non potest antequam ei uniatur; tum etiam quia partes assumptibilitatem habent a toto, ut prius dictum est.</p>
+            <p xml:id="ta-l3d2q2-d1e510">Ad primum ergo dicendum, quod corpus assumptibile est, secundum quod ordinem habet ad animam et ad totum; quem ordinem habere non potest nisi postquam animae unitum est, et actu pars humanae naturae effectum; et tamen separata anima et dissoluto toto, adhuc remanet ille ordo in corpore secundum spem resurrectionis; sicut et habitus acquisitus, ut virtus politica, causatur per actualem operationem, et tamen transeunte actuali operatione remanet habitus. Unde patet quod corpus non potest assumi antequam animae uniatur; et tamen si anima separaretur post unionem, remanebit caro nihilominus assumpta, et divinitati unita.</p>
+            <p xml:id="ta-l3d2q2-d1e513">Ad secundum dicendum, quod forma praesupponit materiam propriam et dispositam, non ordine temporis, sed ordine naturae: quia in eodem instanti in quo materiae fit necessitas, idest in ultimo instanti dispositionis, inducitur forma substantialis: et ideo non oportet quod prius tempore caro sit concepta quam animae uniatur.</p>
+          </div>
+          <div xml:id="ta-l3d2q2-Dd1e517">
+            <head xml:id="ta-l3d2q2-Hd1e519">Quaestiuncula 3</head>
+            <p xml:id="ta-l3d2q2-d1e522">Ad tertiam quaestionem patet responsio ex praedictis. Non enim potuit anima prius assumi quam carni uniretur, cum assumptibilis sit per hoc quod est pars humanae naturae.</p>
+            <p xml:id="ta-l3d2q2-d1e525">Ad primum ergo dicendum, quod extremum non semper prius tempore conjungitur medio quam alteri extremorum: simul enim tempore aer patitur a colore, et visus; sed tamen aer prius patitur ordine naturae, quia passio aeris causat passionem visus. Similiter etiam non est necessarium quod prius tempore deitas sit unita animae quam carni.</p>
+            <p xml:id="ta-l3d2q2-d1e528">Ad secundum dicendum, quod anima quamvis sit dignior corpore, est tamen forma corporis. Formae autem non est ut tempore materiam praecedat, sed dignitate tantum. Divinitas autem non unitur humanae naturae ut forma. Unde non est similis ratio utrobique.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l3d2q2-Dd1e534">
+          <head xml:id="ta-l3d2q2-Hd1e536">Expositio textus</head>
+          <p xml:id="ta-l3d2q2-d1e539">
+            <cb ed="#H" n="13vb" select="canvas-51994142.json"/>
+            <quote xml:id="ta-l3d2q2-Qd1e543">Quod autem humanae naturae sive humanitatis vocabulo anima et caro intelligi debeant, aperte docet <name ref="#Jerome">Hieronymus</name></quote>. Non est intelligendum per humanitatem anima et corpus, quasi proprie dici possit, humanitas est anima et corpus; sed sicut in toto intelliguntur partes, ut in domo paries et tectum, quae tamen de toto non praedicantur: unde etiam in auctoritate beati Hieronymi subditur: <quote xml:id="ta-l3d2q2-Qd1e548">humanitas, quae ex anima continetur et corpore</quote>; non dicit: quae est anima et corpus. <quote xml:id="ta-l3d2q2-Qd1e551">Errant ergo qui nomine humanitatis non substantiam, sed proprietatem quamdam a qua homo nominatur, significari contendunt</quote>. Per hanc proprietatem, quae ab eis humanitas dicitur, potest intelligi forma consequens partium compositionem, scilicet corporis et animae, in qua sicut in natura communi omnia individua communicant. Forte enim qui hoc posuerunt, sapiebant opinionem Platonis, qui posuit formas universales in actu habere esse in natura praeter materiam. Sic enim secundum eum, ut <name ref="#Aristotle">philosophus</name> in 1 Metaph. dicit, forma hominis erat sine carnibus et ossibus, et sine aliis partibus ejus; et talem humanitatem sine corpore et anima isti assumptam ponebant: et contra tales Damascenus dicit in Lib. 3 cap. 11: <quote xml:id="ta-l3d2q2-Qd1e558">neque eam quae nuda contemplatione consideratur, naturam assumpsit: non enim incarnatio esset, sed deceptio et fictio incarnationis</quote>. Vel tangit, ut quidam dicunt, opinionem eorum qui dicebant, Christum, secundum quod est homo, non esse quid, sed qualiter se habens: quod infra tangetur, dist. 6. <quote xml:id="ta-l3d2q2-Qd1e561">Quod evidenter idem Joannes ostendit</quote>. Sciendum, quod Magister accipit verba Joannis Damasceni, sed non sensum: inducit enim Damascenus haec verba ad confutandum errorem eorum qui dicebant in Christo unam tantum naturam esse, quasi confectam ex divinitate et humanitate, sicut una quaedam natura conficitur ex anima et corpore; quae signatur cum dicitur omnes homines esse ejusdem naturae: non ita quod in quolibet eorum anima et corpus sint unius naturae ad invicem comparata, sed quia ex his duobus una natura conficitur, in qua omnes conveniunt. Sed non ita est in Christo quod ex humanitate et divinitate una communis natura resultet, quae sit quasi communis species de pluribus praedicata, quae divinitatem et humanitatem simul habeant. Magister autem assumit haec verba ad impugnandum positionem eorum qui proprietatem quae humanitas dicitur, assumptam dicebant. Humanitas enim si consideretur ut communis, species est quae in pluribus invenitur; secundum quem modum omnium hominum dicitur una natura. Sic autem communis species humanitatis in Christo non est: non enim humanitas Christi est communis in actu, sed est humanitas singularis. <quote xml:id="ta-l3d2q2-Qd1e564">Neque enim factus est, nec est, nec aliquando fiet alius</quote>. Videtur quod haec probatio nulla sit: multae enim species sunt quae non nisi de uno individuo praedicantur, ut sol et luna. Sed dicendum ad hoc, quod secundum intentionem Magistri facile est respondere. Omnis enim species quae participatur a multis individuis, praedicatur de omnibus eis: unde si species humana, prout est communis, esset quid subsistens praeter singularia, ipsa de omnibus praedicaretur; unde si talem humanitatem Christus assumpsisset, homo qui est Christus, de omnibus hominibus praedicaretur. Secundum intentionem vero Damasceni aliter est dicendum, quod omnis natura communis inquantum hujusmodi, in multis inveniri potest: sed si aliqua species sit quae in uno tantum est individuo, hoc est propter aliquid aliud, quod non est de intellectu illius naturae: unde possibile est intelligere plures soles. Sed singulare habet incommunicabilitatem per id quod est de ratione ejus, scilicet per materiam, quae esset pars definitionis ejus, si definiretur, ut ex 8 Metaph. patet. Unde non est possibile intelligi hunc hominem de pluribus praedicari. Unde patet quod illud quod nec actu nec intellectu de pluribus dici potest, est singulare. Hujusmodi autem est Christus: quare hoc nomen Christus non significat unam naturam communem resultantem ex unione divinitatis et humanitatis, sed unam hypostasim subsistentem in utraque natura. <quote xml:id="ta-l3d2q2-Qd1e567">Omnia quae in nostra natura plantavit Deus, verbum assumpsit</quote>. Intelligendum est de his quae sunt de ratione humanae naturae sicut principia essentialia ipsius, 
+            <cb ed="#H" n="14ra" select="canvas-51994142.json"/>
+            vel etiam ea quae ex principiis essentialibus consequuntur ut naturales proprietates: unde non est instantia de immortalitate, quae gratis primo homini concessa est. <quote xml:id="ta-l3d2q2-Qd1e572">Et tamen praedicant istum visibilem solem radios suos per omnes faeces et sordes corporum spargere, et eos mundos et sinceros servare</quote>. Responsio, quare sol non inficitur ex hoc quod radios suos per faeces spargit, haec est: quia non communicat cum aliis corporibus in materia, ut simul agens patiatur, sicut ea quae in materia communicant, dum agunt, patiuntur, ut in 1 de Gener. dicitur. Anima autem communicat corpori in materia, non ex qua fit anima, sed in qua fit; et ideo ex conjunctione ad corpus inficitur. Divinitas autem non communicat cum corpore neque in materia ex qua, cum omnino sit immaterialis, neque sicut materia in qua, cum non uniatur corpori sicut forma ejus.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

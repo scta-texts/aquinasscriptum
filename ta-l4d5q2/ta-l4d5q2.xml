@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 5, Quaestio 2</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Librum IV, Distinctio 5, Quaestio 2</title>
+          <date when="2016-03-18">March 18, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-18">March 18, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness>1856 editum</witness>
+          <witness xml:id="G" n="ghent567">Ghent, Belgium, Ghent University Library, 567</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="0.0.0-dev">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+
+
+
+
+      <div xml:id="starts-on"> 
+        <cb ed="#G" n="74b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ta-l4d5q2">
+        <head xml:id="ta-l4d5q2-Hd1e97">Librum IV, Distinctio 5, Quaestio 2</head>
+        <head xml:id="ta-l4d5q2-Hd1e100" type="questionTitle">Qui possint baptizare</head>
+        <div xml:id="ta-l4d5q2-Dd1e103">
+          <head xml:id="ta-l4d5q2-Hd1e105">Prooemium</head>
+          <p xml:id="ta-l4d5q2-d1e108">Deinde quaeritur, qui possint baptizare; et circa hoc quaeruntur tria: 1 utrum possint
+            baptizare tam ordinati quam non ordinati; 2 utrum possint baptizare tam boni, quam mali;
+            3 utrum possint baptizare tam homines quam Angeli.</p>
+        </div>
+        <div xml:id="ta-l4d5q2-Dd1e112" type="articulus">
+          <head xml:id="ta-l4d5q2-Hd1e114">Articulus 1</head>
+
+          <head xml:id="ta-l4d5q2-Hd1e117" type="questionTitle">Utrum nullus possit baptizare nisi habeat ordinem</head>
+          <div xml:id="ta-l4d5q2-Dd1e120">
+            <head xml:id="ta-l4d5q2-Hd1e122">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d5q2-d1e125">Ad primum sic proceditur. Videtur quod nullus possit baptizare nisi habeat ordinem.
+              Actum enim hierarchicum nullus potest exercere nisi sit hierarchiae particeps. Sed
+              illi qui non habent ordinem, non sunt participes hierarchiae, quia non habent aliquem
+              sacrum principatum. Ergo cum baptizare sit actus hierarchicus, quia Baptismus est
+              purgatio et illuminatio, ut dicit Dionysius in Eccl. Hierarc., videtur quod nullus
+              possit baptizare nisi habeat ordinem.</p>
+            <p xml:id="ta-l4d5q2-d1e128">Praeterea, sicut Baptismus est sacramentum necessitatis, ita et poenitentia. Sed
+              nullus potest absolvere sacramentaliter in poenitentia nisi habeat ordinem. Ergo et
+              similiter nullus non ordinatus potest baptizare.</p>
+            <p xml:id="ta-l4d5q2-d1e131">Sed contra est quod Isidorus dicit, quod cum ultima necessitas cogit, etiam laicis
+              fidelibus permittitur baptizare. Sed laici non habent ordinem. Ergo et cetera.</p>
+          </div>
+          <div xml:id="ta-l4d5q2-Dd1e135">
+            <head xml:id="ta-l4d5q2-Hd1e137">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d5q2-d1e140">Ulterius. Videtur quod baptizare sit proprium ordinis diaconi. Quia, secundum
+              Dionysium, diaconi habent vim purgativam. Sed Baptismus principaliter ad purgandum est
+              institutus. Ergo diaconis competit baptizare ex proprio officio.</p>
+            <p xml:id="ta-l4d5q2-d1e143">Praeterea, Marc. ult., simul injungitur officium baptizandi cum praedicatione
+              Evangelii. Sed praedicatio Evangelii pertinet ad diaconos ex proprio officio. Ergo et
+              baptizare.</p>
+            <p xml:id="ta-l4d5q2-d1e146">Sed contra, est quod Isidorus dicit, quod Baptismi ministerium nec ipsis diaconibus
+              implere est licitum.</p>
+          </div>
+          <div xml:id="ta-l4d5q2-Dd1e150">
+            <head xml:id="ta-l4d5q2-Hd1e152">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d5q2-d1e155">Ulterius. Videtur quod non baptizati baptizare non possint. Minus enim est
+              sacramentum recipere quam sacramentum conferre. Sed non baptizati non possunt
+              sacramentum aliquod recipere: quia, secundum Dionysium, non sunt ad spirituales et
+              hierarchicas actiones idonei. Ergo nec sacramentum Baptismi conferre possunt.</p>
+            <p xml:id="ta-l4d5q2-d1e158">Praeterea, si non baptizatus posset baptizare, et ipse Baptismo indigeret, posset
+              seipsum baptizare. Sed hoc est impossibile: tum quia nulla res, secundum Augustinum,
+              seipsam gignit ut sit; Baptismus autem regeneratio quaedam est: tum quia non posset
+              servari forma Ecclesiae. Ergo non baptizatus baptizare non potest.</p>
+            <p xml:id="ta-l4d5q2-d1e161">Sed contra est quod in littera dicitur, quod Romanus pontifex non hominem judicat qui
+              baptizat, sed spiritum Dei, quamvis Paganus sit qui baptizat. Sed Paganus non est
+              baptizatus. Ergo non baptizatus potest baptizare.</p>
+          </div>
+          <div xml:id="ta-l4d5q2-Dd1e166">
+            <head xml:id="ta-l4d5q2-Hd1e168">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d5q2-d1e171">Respondeo dicendum ad primam quaestionem, quod Baptisma inter alia sacramenta est
+              maximae necessitatis: tum quia pueris non potest aliter subveniri; tum quia etiam nec
+              adultis quantum ad remissionem totius poenae; et ideo ea quae ad necessitatem
+              sacramenti requiruntur, debuerunt esse communissima et ex parte materiae, scilicet
+              aquae, quae ubique haberi potest, et ex parte ministri, ut quilibet homo baptizare
+              possit; et sic sanctificatio materiae et benedictio praecedens Baptismum non est de
+              necessitate sacramenti, sed de solemnitate, quam non licet praetermittere propter
+              Ecclesiae institutionem. Ita etiam ordinatio ministri non est de necessitate
+              sacramenti, sed de solemnitate; et peccat si aliquis non ordinatus baptizet, nisi
+              necessitate imminente, tamen sacramentum confert.</p>
+            <p xml:id="ta-l4d5q2-d1e174">Ad primum ergo dicendum, quod homini non competit actus hierarchicus ex natura sua,
+              sed ex divina institutione et sanctificatione; et quamvis simpliciter gradum
+              hierarchicum non contulit omni homini, tamen actum istum hierarchicum omnibus
+              hominibus contulit propter necessitatem, sicut omnibus aquis vim regenerativam
+              dedit.</p>
+            <p xml:id="ta-l4d5q2-d1e177">Ad secundum dicendum, quod non est simile de poenitentiae sacramento, et Baptismo:
+              quia aliquis sine absolutione sacramenti poenitentiae potest salvari in necessitate
+              nec iterum absolutio sacerdotalis a tota poena absolvit; sed in pueris non est aliquid
+              aliud per quod possint salvari, nec quo adulti possint a tota poena liberari; et ideo
+              est majoris necessitatis quam poenitentia.</p>
+          </div>
+          <div xml:id="ta-l4d5q2-Dd1e181">
+            <head xml:id="ta-l4d5q2-Hd1e183">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d5q2-d1e186">Ad secundam quaestionem dicendum, quod in potentiis ordinatis ita est quod quidquid
+              potest potentia inferior, potest superior; sed non convertitur. Unde cum potestas
+              sacerdotalis ordinis sit supra potestatem diaconi, sacerdos habet vim purgativam cum
+              illuminativa; sed diaconus habet purgativam tantum sine illuminativa. Et quia in
+              omnibus sacramentis novae legis est illuminatio gratiae cum purgatione, ideo non est
+              diaconus proprius minister Baptismi nec alicujus sacramenti sed aliquorum
+              sacramentalium, sicut exorcismi, et expulsionis immundorum a divinis, ut cum dicit: si
+              quis Judaeus est, abscedat; et eruditionis eorum qui ignorant qualiter se habere
+              debeant ad divina, ut cum dicit: flectamus genua, et humiliate vos, ad benedictionem,
+              vel aliud hujusmodi.</p>
+            <p xml:id="ta-l4d5q2-d1e189">Ad primum ergo dicendum, quod Baptismus non habet tantum purgare, sed illuminare, ut
+              dicit Dionysius; et ideo non competit diacono, sed sacerdoti.</p>
+            <p xml:id="ta-l4d5q2-d1e192">Ad secundum dicendum, quod ad diaconum pertinet praedicare Evangelium, et in Ecclesia
+              recitare, quod est quasi loqui linguis; sed ad presbyterum pertinet interpretari et
+              exhortari, quod est quasi prophetare.</p>
+          </div>
+          <div xml:id="ta-l4d5q2-Dd1e196">
+            <head xml:id="ta-l4d5q2-Hd1e198">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d5q2-d1e201">Ad tertiam quaestionem dicendum, quod sicut aqua absque omni sanctificatione est
+              materia Baptismi, ita etiam homo absque omni sacramentali sanctificatione est Baptismi
+              minister quantum ad necessitatem sacramenti; unde non baptizatus potest baptizare,
+              dummodo servet formam Ecclesiae, et habeat intentionem baptizandi.</p>
+            <p xml:id="ta-l4d5q2-d1e204">Ad primum ergo dicendum, quod receptio aliorum sacramentorum non est tantae
+              necessitatis quantae collatio istius; et ideo potest aliquis conferre hoc sacramentum
+              qui alia non posset percipere.</p>
+            <p xml:id="ta-l4d5q2-d1e207">Ad secundum dicendum, quod quamvis posset aliquis non baptizatus baptizare alium, non
+              tamen potest seipsum baptizare rationibus praedictis in objectione. Sed quod
+              Innocentius tertius in decretali quadam dicit: <quote xml:id="ta-l4d5q2-Qd1e209">Judaeus qui se ipsum in aquam
+                immersit, dicens: ego baptizo me in nomine patris</quote> etc. <quote xml:id="ta-l4d5q2-Qd1e212">si
+                decessisset, ad patriam evolasset</quote>, intelligendum est propter vim
+              contritionis et devotionis, ex cujus magnitudine hoc procedere videbatur, ut inter
+              Judaeos existens, quasi periculo mortis se offerret.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d5q2-Dd1e218" type="articulus">
+          <head xml:id="ta-l4d5q2-Hd1e220">Articulus 2</head>
+
+          <head xml:id="ta-l4d5q2-Hd1e223" type="questionTitle">Utrum mali sacramentum Baptismi conferre possint</head>
+          <div xml:id="ta-l4d5q2-Dd1e226">
+            <head xml:id="ta-l4d5q2-Hd1e228">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d5q2-d1e231">Ad secundum sic proceditur. Videtur quod mali sacramentum Baptismi conferre non
+              possint. Sicut enim ad Baptismum requiritur forma et materia, ita et minister. Sed si
+              sit materia indebita vel forma, non erit Baptismus. Ergo et similiter si sit minister
+              indebitus. Sed mali non sunt debiti ministri: quia, sicut dicit Augustinus, justos
+              oportet esse per quos baptizatur. Ergo mali sacramentum conferre non possunt.</p>
+            <p xml:id="ta-l4d5q2-d1e234">Praeterea, membrum aridum non participat aliquam actionem corporis. Sed baptizare est
+              aliqua actio corporis mystici. Cum ergo mali sint quasi membrum aridum, carentes
+              pinguedine caritatis et gratiae, videtur quod Baptismum conferre non possint.</p>
+            <p xml:id="ta-l4d5q2-d1e237">Sed contra sunt plures rationes in littera.</p>
+          </div>
+          <div xml:id="ta-l4d5q2-Dd1e241">
+            <head xml:id="ta-l4d5q2-Hd1e243">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d5q2-d1e246">Ulterius. Videtur quod per eos non conferatur res sacramenti. Eccli. 34, 4: <quote xml:id="ta-l4d5q2-Qd1e248">ab
+                immundo quis mundabitur?</quote> Sed peccator omnis est immundus. Ergo ab eo nullus
+              potest mundari. Cum ergo mundatio sit res sacramenti Baptismi, videtur quod per malos
+              res sacramenti non conferatur.</p>
+            <p xml:id="ta-l4d5q2-d1e252">Praeterea, sacerdotes sunt medii inter Deum et plebem, divina in sacris praebentes
+              populo per doctrinam, et ea quae sunt populi repraesentantes Deo per orationem. Sed
+              orationes malorum sacerdotum non prosunt plebi: quia, secundum Gregorium in pastorali,
+                <quote xml:id="ta-l4d5q2-Qd1e254">cum is qui displicet, ad intercedendum mittitur, irati animus ad deteriora
+                provocatur</quote>. Ergo nec sacramenta per malos ministros data prosunt ad effectum
+              salutis.</p>
+            <p xml:id="ta-l4d5q2-d1e258">Sed contra est quod in littera dicitur: <quote xml:id="ta-l4d5q2-Qd1e260">cum baptizat malus, illud quod datum
+                est, unum est, nec impar propter impares ministros</quote>. Sed boni baptizando
+              conferunt sacramentum et rem sacramenti. Ergo et mali.</p>
+          </div>
+          <div xml:id="ta-l4d5q2-Dd1e265">
+            <head xml:id="ta-l4d5q2-Hd1e267">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d5q2-d1e270">Ulterius. Videtur quod per meliorem ministrum Baptismus datus majorem effectum
+              habeat. Multiplicata enim causa multiplicatur effectus. Sed Baptismus ex opere operato
+              gratiam confert: similiter etiam patet quod sancti homines ex opere operante gratiam
+              alicui merentur. Ergo si opus operans baptizantis adjungatur cum efficacia Baptismi,
+              major gratia dabitur.</p>
+            <p xml:id="ta-l4d5q2-d1e273">Praeterea, Baptismus magis est ordinatus ad spiritualem salutem quam ad corporalem.
+              Sed aliquis baptizatus a sancto homine, meritis et intercessione baptizantis quandoque
+              salutem corporalem consequitur; quod non est ex opere operato; quia Baptismus ad hoc
+              efficaciam non habet; sicut patet de Constantino, quem Silvester baptizavit. Ergo
+              etiam quantum ad spiritualem salutem Baptismus a bono ministratus potest ampliorem
+              effectum spiritualis salutis habere.</p>
+            <p xml:id="ta-l4d5q2-d1e276">Sed contra est quod in littera dicitur: <quote xml:id="ta-l4d5q2-Qd1e278">non est melior Baptismus qui per
+                meliorem ministrum datur; sed per ministros dispares Dei munus est
+              aequale</quote>.</p>
+          </div>
+          <div xml:id="ta-l4d5q2-Dd1e284">
+            <head xml:id="ta-l4d5q2-Hd1e286">Quaestiuncula 4</head>
+            <p xml:id="ta-l4d5q2-d1e289">Ulterius. Videtur quod malus minister peccet baptizans. Quia, sicut Augustinus in
+              littera dicit, justos oportet esse per quos baptizatur. Si ergo non sint justi cum
+              baptizent, faciunt quod non oportet. Ergo peccant.</p>
+            <p xml:id="ta-l4d5q2-d1e292">Praeterea, Eucharistiae sacramentum non est majoris efficaciae quam Baptismi. Sed
+              peccat sacerdos indigne accedens ad illud sacramentum, ut patet 1 Corinth., 11. Ergo
+              et peccat, si sit malus, baptizando.</p>
+            <p xml:id="ta-l4d5q2-d1e295">Sed contra, ex officio habet quod baptizet. Ergo exequendo suum ministerium non
+              peccat.</p>
+            <p xml:id="ta-l4d5q2-d1e298">Praeterea, ipse tenetur baptizare. Ergo si baptizando peccat, esset perplexus; quod
+              non potest esse.</p>
+          </div>
+          <div xml:id="ta-l4d5q2-Dd1e302">
+            <head xml:id="ta-l4d5q2-Hd1e304">Quaestiuncula 5</head>
+            <p xml:id="ta-l4d5q2-d1e307">Ulterius. Videtur quod recipiens in se vel in alio sacramentum a malo sacerdote,
+              peccat. Quia consentiens peccanti ipse peccat. Sed sacerdos in aliquo casu peccat
+              indigne baptizans. Ergo et ab eo Baptismum accipiens vel exigens.</p>
+            <p xml:id="ta-l4d5q2-d1e310">Praeterea, esto quod sacerdos non velit baptizare sine pretio, constat quod si datur
+              ei pretium, simonia committitur; quod sine peccato fieri non potest. Ergo in alio casu
+              peccat accipiens sacramentum Baptismi a malo ministro.</p>
+            <p xml:id="ta-l4d5q2-d1e313">Sed contra est quod Augustinus in littera dicit: <quote xml:id="ta-l4d5q2-Qd1e315">nec timeo adulterum nec
+                homicidam</quote>. Esset autem timendus, si ab eo accipiens sacramentum peccaret.
+              Ergo nec peccat ab eo accipiens sacramentum.</p>
+          </div>
+          <div xml:id="ta-l4d5q2-Dd1e320">
+            <head xml:id="ta-l4d5q2-Hd1e322">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d5q2-d1e325">Respondeo dicendum, ad primam quaestionem quod in sacramentis est aliquid quod est de
+              substantia sacramenti, et aliquid quod est de convenientia sacramenti et solemnitate.
+              Si ergo subtraheretur aliquid quod est de substantia sacramenti, non erit verum
+              sacramentum; si autem subtraheretur aliquid eorum quae requiruntur ad solemnitatem vel
+              convenientiam sacramenti, propter hoc non desinit esse sacramentum. Unde cum bonitas
+              ministri non sit de substantia sacramenti, quia non omnino certa est, sed quandoque
+              ignorata, ea autem quae sunt de substantia sacramenti oportet esse certa; patet quod
+              subtracta bonitate ministri adhuc est sacramentum, dummodo alia quae sunt de
+              sacramenti substantia, observentur.</p>
+            <p xml:id="ta-l4d5q2-d1e328">Ad primum ergo dicendum, quod debitum dicitur dupliciter. Uno modo, debito
+              necessitatis; et sic est debitus minister Baptismi quilibet homo. Alio modo, debito
+              convenientiae et congruitatis; et sic oportet ministrum esse bonum, sicut oportet
+              aquam in qua fit Baptismus, esse mundam ob reverentiam sacramenti; tamen si sit
+              immunda, nihilominus fit in ea Baptismus; et similiter si sit minister malus,
+              nihilominus confertur Baptismus.</p>
+            <p xml:id="ta-l4d5q2-d1e331">Ad secundum dicendum, quod duplex est actio corporis. Una est intranea, sicut
+              sentire, vivere, et hujusmodi; et talem actionem non participat membrum aridum; et
+              similiter nec homo malus actionem virtutum, quae huic proportionatur. Alia est actio
+              ad extra; et talis actio bene potest fieri per membrum aridum, sicut percutere, quod
+              etiam omnino re inanimata fit, ut baculo; et huic proportionaliter respondet
+              ministratio sacramentorum.</p>
+          </div>
+          <div xml:id="ta-l4d5q2-Dd1e335">
+            <head xml:id="ta-l4d5q2-Hd1e337">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d5q2-d1e340">Ad secundam quaestionem dicendum, quod duplex est agens; unum principale, et aliud
+              instrumentale. Agens autem principale, cum agat sibi simile, oportet quod habeat
+              formam, quam inducit per suam actionem in agentibus univocis, vel aliquam nobiliorem
+              in agentibus non univocis. Sed agens instrumentale non oportet quod habeat formam quam
+              inducit ut disponentem ipsum, sed solum per modum intentionis, sicut de forma scamni
+              in serra patet, ut in 1 dist., quaest. 1, art. 4, quaestiunc. 1 et 2, dictum est.
+              Agens autem principale in baptizando est ipse Deus per auctoritatem, et ipse Christus
+              secundum quod homo, cujus meritum operatur in Baptismo; et ex plenitudine divinae
+              bonitatis et gratiae Christi pervenit gratia ad baptizatum. Sed baptizans est tantum
+              agens instrumentale; unde non refert ad rem sacramenti percipiendam, utrum ipse
+              gratiam habeat, vel non.</p>
+            <p xml:id="ta-l4d5q2-d1e343">Ad primum ergo dicendum, quod actio non attribuitur instrumento secundum philosophum,
+              proprie, sed principali agenti. Unde proprie et per se loquendo iste malus minister
+              non est qui mundat, sed Christus, de quo dictum est, Joan. 1, 33: <quote xml:id="ta-l4d5q2-Qd1e345">hic est qui
+                baptizat</quote>.</p>
+            <p xml:id="ta-l4d5q2-d1e349">Ad secundum dicendum, quod in oratione orans est sicut principale agens, non solum
+              sicut instrumentale; et ideo requiritur ad efficaciam orationis quod ex opere operante
+              effectum sortiatur, non solum ex opere operato, sicut est in sacramentis; et ideo
+              malorum orationes infructuosae sunt, quantum ex eis est; sed possunt esse fructuosae
+              aliis pro quibus oratur, propter eorum devotionem, vel inquantum orant in persona
+              Ecclesiae.</p>
+          </div>
+          <div xml:id="ta-l4d5q2-Dd1e353">
+            <head xml:id="ta-l4d5q2-Hd1e355">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d5q2-d1e358">Ad tertiam quaestionem dicendum, quod aliquid dicitur effectus alicujus per se et per
+              accidens. Per se quidem effectus alicujus est quod per ipsum ad hoc ordinatum
+              producitur, sicut domus aedificatoris. Per accidens quod conjungitur ei quod est
+              effectus per se, sicut si habitatio domus dicatur effectus aedificatoris. Sic ergo
+              dico, quod effectus per se Baptismi aequalis est a quocumque detur, vel a malo vel a
+              bono, ceteris paribus ex parte baptizati; sed cum effectu Baptismi potest aliquid
+              aliud baptizato conferri, sive pertineat ad salutem corporis, sive animae, ex merito
+              Baptismi; et hoc non est proprie effectus Baptismi: quia Baptismus non est causa nisi
+              instrumentalis, et non est instrumentum agens in virtute ministri, qui et ipse
+              instrumentum est, agens in virtute Christi et Dei.</p>
+            <p xml:id="ta-l4d5q2-d1e361">Et per hoc patet solutio ad objecta.</p>
+          </div>
+          <div xml:id="ta-l4d5q2-Dd1e365">
+            <head xml:id="ta-l4d5q2-Hd1e367">Quaestiuncula 4</head>
+            <p xml:id="ta-l4d5q2-d1e370">Ad quartam quaestionem dicendum, quod quicumque in peccato mortali existens, exhibet
+              se ministrum Ecclesiae in quocumque spirituali, peccat, secundum quorumdam opinionem
+              satis probabilem, et quae per auctoritatem Dionysii, confirmatur, ut infra dist. 24,
+              quaest. 1, art. 3, quaestiunc. 1, melius ostendetur; et ideo sacerdos baptizans cum
+              solemnitate, ministrum Ecclesiae se exhibens, peccat mortaliter; si autem simpliciter
+              baptizet in articulo necessitatis, non quasi minister Ecclesiae, sed sicut vetula
+              baptizare posset, non peccat.</p>
+            <p xml:id="ta-l4d5q2-d1e373">Ad primum ergo dicendum, quod auctoritas Augustini non multum cogit, quia loquitur de
+              opportunitate congruentiae; et praeterea loquitur de illis qui baptizant ut ministri
+              Ecclesiae; unde subdit: <quote xml:id="ta-l4d5q2-Qd1e375">justos oportet esse tanti judicis
+              ministros</quote>.</p>
+            <p xml:id="ta-l4d5q2-d1e379">Ad secundum dicendum, quod secus est de Eucharistia: quia illud sacramentum nunquam
+              nisi a ministris Ecclesiae perfici potest; et ideo semper aliquis celebrans illud
+              sacramentum, ministrum Ecclesiae se exhibet.</p>
+            <p xml:id="ta-l4d5q2-d1e382">Ad tertium dicendum, quod quamvis ex officio competat sibi quod baptizet, tamen
+              officium suum debet juste exercere, sicut dicitur Deut. 16, 20: <quote xml:id="ta-l4d5q2-Qd1e384">juste quod
+                justum est exequeris</quote>.</p>
+            <p xml:id="ta-l4d5q2-d1e389">Ad quartum dicendum, quod ipse non est perplexus: quia potest conteri de peccato, et
+              tunc baptizare et conficere.</p>
+          </div>
+          <div xml:id="ta-l4d5q2-Dd1e394">
+            <head xml:id="ta-l4d5q2-Hd1e396">Quaestiuncula 5</head>
+            <p xml:id="ta-l4d5q2-d1e399">Ad quintam quaestionem dicendum, quod malus minister aut est praecisus ab Ecclesia
+              aut non. Si sit praecisus ab Ecclesia, tunc peccat ab eo recipiens sacramentum, nisi
+              in necessitate in qua posset etiam a Pagano vel a Judaeo suscipere. Si autem non sit
+              praecisus ab Ecclesia, non peccat ab eo accipiens sacramentum, nisi per accidens
+              scilicet si ejus peccato communicet.</p>
+            <p xml:id="ta-l4d5q2-d1e402">Ad primum ergo dicendum, quod dato quod malus sacerdos peccet baptizando, non tamen
+              oportet quod ille qui ab eo Baptismum recipit vel exigit, etiam excepto casu
+              necessitatis, peccet propter duas rationes. Primo quia isti non potest esse certum
+              quod ille sit in peccato mortali, cum in uno instanti spiritus operetur
+              justificationem impii. Secundo, quia iste petit quod justum est quia a suo sacerdote
+              debet sacramenta percipere. Nec propter hoc cogit vel inducit eum ad peccandum: quia
+              ille potest reddere quod debet non peccando.</p>
+            <p xml:id="ta-l4d5q2-d1e405">Ad secundum dicendum, quod aut ille qui est baptizandus, est adultus, aut non. Si est
+              adultus, sufficit ei petere Baptismum ad salutem, quia baptizatur Baptismo flaminis;
+              nec debet propter hoc simoniam committere. Si autem sit puer qui est baptizandus, tunc
+              potius debet ipsemet puerum baptizare, quam pretium sacerdoti pro Baptismo simoniace
+              dare. Et tamen licitum est ei aquam emere, si alias habere non posset, quia aqua non
+              est sacrum quid: et si sit sanctificata non operatur ad Baptismum de necessitate ejus
+              existens quasi sanctificata, sed quasi aqua; et ideo non emit aquam sanctificatam, sed
+              aquam. Quidam vero dicunt, quod potest pretium dare: quia hoc non est simoniam
+              committere, sed redimere vexationem suam. Sed primum melius videtur.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d5q2-Dd1e411" type="articulus">
+          <head xml:id="ta-l4d5q2-Hd1e413">Articulus 3</head>
+
+          <head xml:id="ta-l4d5q2-Hd1e416" type="questionTitle">Utrum Daemon in figura hominis apparens possit baptizare</head>
+          <div xml:id="ta-l4d5q2-Dd1e419">
+            <head xml:id="ta-l4d5q2-Hd1e421">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d5q2-d1e424">Ad tertium sic proceditur. Videtur quod Daemon in figura hominis apparens possit
+              baptizare. Dicit enim Augustinus super Joan., quod talis est Baptismus, qualis ille in
+              cujus potestate datur. Si ergo Diabolus baptizet invocando potestatem Trinitatis,
+              bonus est Baptismus.</p>
+            <p xml:id="ta-l4d5q2-d1e427">Praeterea, in baptizante non requiritur assimilatio ad Deum per gratiam, quia etiam
+              mali possunt baptizare; nec etiam assimilatio per characterem, quia etiam Pagani
+              baptizare possunt. Ergo sufficit assimilatio per naturam. Sed hoc est in Daemonibus.
+              Ergo possunt baptizare.</p>
+            <p xml:id="ta-l4d5q2-d1e430">Sed contra, ministri Baptismi ad Christum est aliqua conventio. Sed nulla est
+              conventio Christi ad Diabolum, ut patet 2 Corinth., 6. Ergo Diabolus non potest
+              conferre sacramentum Baptismi.</p>
+          </div>
+          <div xml:id="ta-l4d5q2-Dd1e434">
+            <head xml:id="ta-l4d5q2-Hd1e436">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d5q2-d1e439">Ulterius. Videtur quod bonus Angelus in figura hominis apparens, baptizare possit.
+              Baptismus enim est actio hierarchica: quia est illuminatio et purgatio, secundum
+              Dionysium. Sed Angeli exercent in nos hierarchicas actiones: quia purgant nos
+              perficiunt, et illuminant. Ergo possunt baptizare.</p>
+            <p xml:id="ta-l4d5q2-d1e442">Praeterea, in actionibus hierarchicis ita est quod quamcumque actionem potest facere
+              inferior, potest facere superior: sicut quidquid potest diaconus, potest sacerdos.
+              Sed, secundum Dionysium, quilibet Angelus est major summo sacerdote apud nos, qui ex
+              eorum potestatis participatione Angelus dicitur, Malach. 2. Si ergo sacerdos homo
+              potest baptizare multo fortius Angelus.</p>
+            <p xml:id="ta-l4d5q2-d1e445">Sed contra, Baptismus est actio militantis Ecclesiae. Sed Angeli non sunt neque actu
+              neque potentia de Ecclesia militante. Ergo baptizare non possunt.</p>
+          </div>
+          <div xml:id="ta-l4d5q2-Dd1e449">
+            <head xml:id="ta-l4d5q2-Hd1e451">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d5q2-d1e454">Respondeo dicendum ad primam quaestionem, quod Diabolus in figura sacerdotis apparens
+              potest immergere, sed non sacramentum conferre, propter duas rationes. Primo, quia
+              dispensatio sacramentorum non est concessa nisi hominibus, qui conveniunt cum verbo
+              incarnato, a quo sacramenta fluxerunt in natura assumpta; et etiam cum sacramentis, in
+              quibus est spiritualis virtus in corporeis elementis, sicut et homines ex natura
+              spirituali et corporali compositi sunt. Secundo si baptizare se fingeret, semper esset
+              timendum quod non faceret intentione baptizandi, quae ad sacramentum exigitur, sed
+              intentione decipiendi: quia non esset probabile quod tantum bonum homini procuraret,
+              sicut est spiritualis regeneratio.</p>
+            <p xml:id="ta-l4d5q2-d1e457">Ad primum ergo dicendum, quod ubi datur Baptismus, talis est qualis ille in cujus
+              potestate datur. Sed Diabolus nullo modo dare potest.</p>
+            <p xml:id="ta-l4d5q2-d1e460">Ad secundum dicendum, quod homo peccator habet similitudinem cum Deo non solum
+              quantum ad naturam divinam per imaginem, sed etiam quantum ad naturam assumptam; et
+              iterum in malis hominibus possibile est esse similitudinem per gratiam, non autem in
+              Daemonibus. Et praeterea quod omnibus hominibus concessa est baptizandi potestas, hoc
+              est propter necessitatem sacramenti, ut omnibus possit de facili adesse baptizans. Sed
+              Diaboli conversatio non est cum hominibus; unde non juvaret ad necessitatem
+              sacramenti, si sibi potestas illa concederetur.</p>
+          </div>
+          <div xml:id="ta-l4d5q2-Dd1e465">
+            <head xml:id="ta-l4d5q2-Hd1e467">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d5q2-d1e470">Ad secundam quaestionem dicendum quod Angelis bonis non est collata potestas
+              baptizandi, propter duas rationes. Primo, quia non habent praedictam convenientiam cum
+              sacramento, et cum Christo, qui est auctor sacramenti. Secundo, quia ad necessitatem
+              Baptismi non valeret potestas eis concessa, cum non sint in promptu hominibus, ut per
+              eos baptizentur. Sed sicut Deus potentiam suam sacramentis non alligavit, ita nec
+              potestatem consecrandi sacramenta alligavit aliquibus ministris; unde qui dedit hanc
+              potestatem hominibus, posset dare et Angelis. Nec Angelus bonus baptizaret nisi
+              divinitus potestate sibi concessa; unde si baptizaret, non esset rebaptizandus,
+              dummodo constaret quod bonus Angelus esset; sicut et judicatum est, templum quod per
+              Angelos consecratum est, non oportere per hominem consecrari, ut legitur in historia
+              dedicationis sancti Michaelis.</p>
+            <p xml:id="ta-l4d5q2-d1e473">Ad primum ergo dicendum, quod Angeli actiones hierarchicas eis proportionaliter
+              exequuntur, scilicet invisibiliter: non autem eis est proportionale ut per corporalia
+              hierarchicas actiones perficiant.</p>
+            <p xml:id="ta-l4d5q2-d1e476">Ad secundum dicendum, quod non oportet quod superior potestas eodem modo operetur quo
+              inferior, sed modo altiori; et ideo non oportet si homines sacerdotes per
+              sacramentalia symbola actiones hierarchicas exequuntur, quod hoc Angeli possint
+              facere, sed moto altiori.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d5q2-Dd1e481">
+          <head xml:id="ta-l4d5q2-Hd1e483">Expositio textus</head>
+          <p xml:id="ta-l4d5q2-d1e486"><quote xml:id="ta-l4d5q2-Qd1e487">Quid noverat Joannes Baptista? Dominum</quote>. Sciendum est, quod Joannes
+            antequam intraret eremum, Christum cognovit personaliter ex conversatione, cum fuerit
+            ejus cognatus per carnem et scivit etiam dignitatem ejus ex prophetica revelatione sed
+            propter longam moram amiserat vultus ejus imaginationem; unde personaliter eum non
+            cognoscebat. Et ideo Christo veniente ad Baptismum, tria didicit, secundum diversos
+            sanctos: quia, secundum Chrysostomum, didicit quod iste in persona erat ille quem
+            praedicaverat venturum: secundum Augustinum, didicit quod haberet potestatem
+            excellentiae quam sibi retineret, tamen posset eam servis largiri quod tamen in generali
+            prius sciverat, sed tunc in speciali de hac persona cognovit; sed secundum Hieronymum
+            didicit, quod per Baptismum Christi non solum gratia conferretur mundans a culpa, sed
+            etiam ab omni poena absolvens, quod habet ab ejus passione. <quote xml:id="ta-l4d5q2-Qd1e490">Tot essent Baptismi
+              quot servi</quote>. Hoc non videtur esse inconveniens; quia per hoc non differrent
+            Baptismi secundum speciem, cum haberent unam formam et unum effectum, sed differrent
+            tantum secundum materiam, sicut et nunc differunt. Et dicendum, quod differrent secundum
+            virtutem, et secundum invocationem; et sic esset occasio schismatis in Ecclesia, ut unus
+            diceret: ego sum Pauli, alius, ego sum Petri.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

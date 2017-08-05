@@ -1,0 +1,718 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum III, Distinctio 19, Quaestio 1</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.09-dev-master">
+          <title>Librum III, Distinctio 19, Quaestio 1</title>
+          <date when="2016-03-12">March 12, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-12">March 12, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness>1856 editum</witness>
+          <witness xml:id="H" n="harv245" xml:base="http://iiif.lib.harvard.edu/manifests/drs:51994085/canvas/">Cambridge, Mass.,
+            Harvard University, Houghton Library, MS Lat 245</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="2015.09">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+
+
+
+
+      <div xml:id="starts-on">
+        <cb ed="#H" n="68va"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ta-l3d19q1">
+        <head xml:id="ta-l3d19q1-Hd1e97">Librum III, Distinctio 19, Quaestio 1</head>
+        <div xml:id="ta-l3d19q1-Dd1e100">
+          <head xml:id="ta-l3d19q1-Hd1e102">Prooemium</head>
+          <p xml:id="ta-l3d19q1-d1e105">Postquam determinavit Magister de merito Christi secundum quod ordinatur ad bonum
+            consequendum sibi et nobis, hic determinat de merito ipsius secundum quod ordinatur ad
+            remotionem mali in nobis: ipse enim in se nec subjectus est culpae neque debitor est
+            poenae. Dividitur autem in duas partes: in prima ostendit quomodo per passionem Christi
+            liberamur a malis; in secunda de causa passionis Christi, dist. 20: <quote xml:id="ta-l3d19q1-Qd1e107">si vero
+              quaeritur</quote>. Prima in duas: primo ostendit quomodo per meritum passionis Christi
+            sumus liberati a malo; secundo determinat de his quae dicuntur de Christo ratione hujus
+            liberationis, ibi: <quote xml:id="ta-l3d19q1-Qd1e110">unde ipse vere dicitur mundi redemptor</quote>. Prima in duas:
+            primo ostendit quomodo per passionem Christi liberati sumus a malo culpae, et a
+            potestate instigantis ad culpam, scilicet Daemonis; secundo ostendit quomodo per dictam
+            passionem sumus liberati a malo poenae, ibi: <quote xml:id="ta-l3d19q1-Qd1e113">a poena redemit</quote>. Circa
+            primum duo facit: primo ponit intentum; secundo exequitur propositum, ibi: <quote xml:id="ta-l3d19q1-Qd1e116">sed
+              quomodo a peccatis per ejus mortem soluti sumus?</quote> Circa quod duo facit: primo
+            prosequitur modum quo per Christi passionem et mortem liberati sumus a peccato; secundo
+            quomodo liberati sumus a potestate Diaboli, ibi: <quote xml:id="ta-l3d19q1-Qd1e119">a Diabolo liberamur</quote>.
+            Circa quod tria facit: primo ostendit quantum ad quid liberati sumus a potestate
+            Diaboli; secundo exponit modum liberationis, ibi: <quote xml:id="ta-l3d19q1-Qd1e123">unde Augustinus causam et modum
+              nostrae redemptionis insinuans ait</quote>; tertio quod hoc fieri non poterat nisi per
+            Deum et hominem, ibi: <quote xml:id="ta-l3d19q1-Qd1e126">factus est igitur homo mortalis. Et a poena
+            redemit</quote>. Hic ostendit quomodo sumus liberati a poena per Christi passionem;
+            circa quod duo facit: primo ostendit a qua poena nos liberavit; secundo modum
+            liberationis, ibi: <quote xml:id="ta-l3d19q1-Qd1e129">peccata quoque nostra, idest poenam peccatorum nostrorum,
+              dicitur in corpore suo super lignum portasse. Unde ipse vere mediator dicitur</quote>.
+            Hic determinat de his quae dicuntur de Christo ratione dictae liberationis: et circa hoc
+            duo facit: primo ostendit quare dicatur redemptor; secundo quare dicatur mediator, ibi:
+              <quote xml:id="ta-l3d19q1-Qd1e132">qui solus dicitur mediator</quote>. Circa quod tria facit: primo ostendit
+            rationem quare dicitur mediator; secundo ostendit quod ipse solus est mediator, non
+            pater vel spiritus sanctus, ibi: <quote xml:id="ta-l3d19q1-Qd1e135">sed cum peccata deleat non solus filius, sed et
+              pater et spiritus sanctus (...) quare solus filius dicitur mediator?</quote> Tertio
+            ostendit secundum quam naturam ipse sit mediator, ibi: <quote xml:id="ta-l3d19q1-Qd1e138">unde et mediator dicitur
+              secundum humanitatem</quote>. Hic quaeruntur quinque: 1 utrum per passionem Christi
+            simus liberati a peccato; 2 utrum per ipsum simus liberati a potestate Diaboli; 3 utrum
+            per ipsum simus liberati a poena; 4 utrum ratione illius liberationis, Christus dicendus
+            sit redemptor; 5 utrum eadem ratione sit mediator.</p>
+        </div>
+        <div xml:id="ta-l3d19q1-Dd1e143" type="articulus">
+          <head xml:id="ta-l3d19q1-Hd1e145">Articulus 1</head>
+          <head xml:id="ta-l3d19q1-Hd1e148" type="questionTitle">Utrum per passionem Christi simus liberati a peccato</head>
+          <div xml:id="ta-l3d19q1-Dd1e151">
+
+            <head xml:id="ta-l3d19q1-Hd1e153">Quaestiuncula 1</head>
+            <p xml:id="ta-l3d19q1-d1e156">Ad primum sic proceditur. Videtur quod per passionem Christi non simus liberati a
+              peccato. Christus enim non est passus secundum divinam naturam, sed secundum humanam.
+              Sed peccata delere solius est Dei, ut patet Isai. 43, quia ipsius solius est gratiam
+              dare, per quam delentur peccata. Ergo per passionem Christi, peccata nostra deleri non
+              potuerunt.</p>
+            <p xml:id="ta-l3d19q1-d1e159">Praeterea, corporale non potest agere in spirituale. Sed passio Christi fuit quoddam
+              corporale. Ergo non potuit agere in animas nostras ad delenda peccata.</p>
+            <p xml:id="ta-l3d19q1-d1e162">Praeterea, liberatio a peccato dicitur esse justificatio. Sed haec attribuitur
+              resurrectioni: <quote xml:id="ta-l3d19q1-Qd1e164">resurrexit enim propter justificationem nostram</quote>; Rom. 4.
+              Ergo liberatio a peccato non debet attribui passioni, sed resurrectioni.</p>
+            <p xml:id="ta-l3d19q1-d1e168">Praeterea, sicut passio Christi excitat in nobis caritatem, ita et alia beneficia
+              Dei: quia ipse nobis temporalia et spiritualia bona tribuit. Similiter etiam sanctorum
+              exempla nos ad caritatem excitant. Et tamen non dicitur quod per omnia beneficia Dei a
+              peccato liberemur. Ergo neque debet dici quod per passionem liberemur a peccato quia
+              nos ad caritatem excitat, ut dicit Magister.</p>
+            <p xml:id="ta-l3d19q1-d1e172">Praeterea, sicut habemus fidem de passione, sic etiam habemus fidem de creatione
+              mundi; et tamen non dicitur quod per bona creationis a peccato mundemur, quamvis fides
+              corda purificet, ut dicitur Act. 15. Ergo videtur quod nec etiam ista ratione dicendum
+              sit quod per passionem a peccatis liberati simus, ut dicit Magister.</p>
+            <p xml:id="ta-l3d19q1-d1e175">Sed contra, Apoc. 1, 5: <quote xml:id="ta-l3d19q1-Qd1e177">lavit nos a peccatis nostris in sanguine suo</quote>.
+              Sanguinem autem in passione fudit. Ergo per passionem a peccatis nos liberavit.</p>
+            <p xml:id="ta-l3d19q1-d1e181">Praeterea, signum respondet signato. Sed ritus veteris legis fuit signum et figura
+              Christi. Cum igitur in veteri lege non fuerit sine sanguinis effusione remissio, ut
+              dicitur Hebr. 9, nec peccatorum remissio fit nisi per sanguinis Christi
+              effusionem.</p>
+          </div>
+          <div xml:id="ta-l3d19q1-Dd1e185">
+            <head xml:id="ta-l3d19q1-Hd1e187">Quaestiuncula 2</head>
+            <p xml:id="ta-l3d19q1-d1e190">Ulterius. Videtur quod non omnia peccata per Christi mortem deleta sint. Nullus enim
+              damnatur nisi pro peccato. Sed multi post Christi passionem damnantur. Ergo non
+              quidquid culparum erat, delevit.</p>
+            <p xml:id="ta-l3d19q1-d1e193">Praeterea, quod semel deletum est, ulterius deleri non potest. Sed peccata
+              praecedentium patrum deleta erant et quantum ad actualia per poenitentiam, et quantum
+              ad originale per circumcisionem. Ergo per passionem Christi non omnia peccata humani
+              generis deleta sunt.</p>
+            <p xml:id="ta-l3d19q1-d1e196">Praeterea, peccatum non potest deleri antequam fiat, quia tunc nunquam fieret. Sed
+              multa peccata facta sunt post Christi passionem. Ergo non omnia peccata delevit.</p>
+            <p xml:id="ta-l3d19q1-d1e199">Praeterea, poenitentia et Baptismus et alia bona opera nobis indicuntur ad peccatorum
+              remissionem. Hoc autem non esset, si omnia peccata per mortem Christi deleta essent.
+              Ergo videtur quod non omnia deleta fuerunt.</p>
+            <p xml:id="ta-l3d19q1-d1e203">Praeterea, eorum quae sunt aequalia, unum non destruit alterum. Sed quantum bonum
+              fuit passio Christi ex parte patientis, tantum malum fuit occasio ipsius ex parte
+              occidentium: quia occidebatur Deus, qui erat infinitum bonum. Ergo videtur quod illud
+              peccatum per Christi mortem expiari non potuit.</p>
+            <p xml:id="ta-l3d19q1-d1e206">Sed contra, Coloss. 2, 13: <quote xml:id="ta-l3d19q1-Qd1e208">vivificavit nos cum illo, donans nobis omnia
+                delicta</quote>. Sed donare delicta est remittere peccata. Ergo per Christum omnia
+              peccata sunt dimissa.</p>
+            <p xml:id="ta-l3d19q1-d1e212">Praeterea, passio Christi, quantum in se est, aequaliter se habet ad omnia peccata
+              delenda. Si ergo aliqua peccata non delevit, nulla delevit: quod est absurdum.</p>
+          </div>
+          <div xml:id="ta-l3d19q1-Dd1e216">
+            <head xml:id="ta-l3d19q1-Hd1e218">Quaestiuncula 1</head>
+            <p xml:id="ta-l3d19q1-d1e221">Respondeo dicendum ad primam quaestionem, quod delere peccatum dicitur dupliciter.
+              Uno modo formaliter, sicut albedo dicitur delere nigredinem per hoc quod advenit in
+              subjecto; et sic gratiae est delere peccatum. Alio modo dicitur effective; et hoc
+              contingit tripliciter, secundum tria genera causae efficientis. Dicitur enim causa
+              efficiens, uno modo perficiens effectum, et hoc est principale agens inducens formam;
+              et sic solus Deus peccatum delet, quia ipse solus gratiam infundit. Alio modo dicitur
+              efficiens disponens materiam ad recipiendum formam: et sic dicitur peccatum delere
+              ille, qui meretur peccati deletionem: quia ex merito efficitur aliquis dignus quasi
+              materia disposita ad recipiendum gratiam, per quam peccata deleantur. Hoc autem
+              contingit dupliciter: vel sufficienter, vel insufficienter. Sufficienter quidem
+              disposita est materia, quando fit necessitas ad formam: et similiter aliquis
+              sufficienter per meritum disponitur ad aliquid, quando illud efficitur sibi debitum;
+              et hoc est meritum condigni; et sic nullus homo neque sibi neque alteri potest mereri
+              gratiam vel peccati deletionem. Non sibi, quia antequam gratiam habeat, non est in
+              statu merendi, ut patet ex dictis: aliis non, quia actio unius non potest sufficienter
+              transire in alterum, nisi inquantum habet aliquam communitatem cum illo, quae potest
+              esse vel per communionem in natura, vel per conjunctionem affectus. Sed prima
+              conjunctio est essentialis, secunda autem accidentalis. Purus autem homo non potest in
+              naturam, quia, ut supra dictum est, dist., 18, qu. 2, art. 6, quaestiunc. 1, est
+              inferior quam natura; et ideo non potest actio ejus in alium hominem transire secundum
+              quod conjungitur ei in natura, sed solum quantum ad conjunctionem affectus, quae est
+              conjunctio accidentalis; et propter hoc non potest alteri sufficienter mereri, sed ex
+              congruo. Solus autem Christus aliis potest sufficienter mereri: quia potest in
+              naturam, inquantum Deus est, et caritas sua quodammodo est infinita, sicut et gratia,
+              ut supra dictum est, dist. 13, qu. 1, art. 2, quaestiunc. 2. In hoc autem pro tota
+              natura meruit, in quo debitum naturae, scilicet mortis, quae pro peccato ei debebatur,
+              exsolvit ipse peccatum non habens; ut sic non pro se mortem solvere teneretur, sed pro
+              natura solveret; unde satisfaciendo pro tota natura, sufficienter meruit peccatorum
+              remissionem aliis qui peccata habebant. Tertio modo dicitur agens instrumentale; et
+              hoc modo sacramenta delent peccata, quia sunt instrumenta divinae misericordiae
+              salvantis.</p>
+            <p xml:id="ta-l3d19q1-d1e224">Ad primum ergo dicendum, quod ea quae hominis erant, Christus supra hominem faciebat,
+              secundum quod ejus actio habebat virtutem ex divino consortio, ut supra dictum est; et
+              ideo quamvis passio ejus esset secundum quod homo, tamen per passionem peccata
+              delevit, sicut per contactum corporalem leprosum mundavit.</p>
+            <p xml:id="ta-l3d19q1-d1e227">Ad secundum dicendum, quod quamvis passio esset in corpore, tamen erat in spiritu
+              acceptare passionem; et ideo per passionem meruit nostrorum spirituum
+              emundationem.</p>
+            <p xml:id="ta-l3d19q1-d1e230">Ad tertium dicendum, quod Christus est unius naturae nobiscum; unde ejus actio in nos
+              est aliquo modo univoca, idest similitudinem habens cum effectu. Quamvis autem in
+              justificatione peccata deleantur, tamen justificatio nominat illam mutationem de culpa
+              in gratiam secundum terminum ad quem; peccati autem deletio secundum terminum a quo:
+              et ideo attribuitur peccati deletio morti, quae vitam passibilem, vitae peccatrici
+              similem in poena, a Christo ademit; justificatio autem resurrectioni, per quam nova
+              vita in Christo inchoata est; et hoc est quod apostolus dicit, Rom. 4, 25, quod
+                <quote xml:id="ta-l3d19q1-Qd1e232">resurrexit propter justificationem nostram, et traditus est propter delicta
+                nostra</quote>.</p>
+            <p xml:id="ta-l3d19q1-d1e237">Ad quartum dicendum, quod Christus, inquantum nobis influxit per meritum, dicitur
+              caput nostrum, ut supra, dist. 13, qu. 2, art. 1, dictum est. Ex capite autem non
+              recipitur influxus in membris divisis, sed in membris conjunctis capiti, quantumcumque
+              caput ex se sufficiens sit ad influendum. Unde quamvis meritum Christi sit sufficiens
+              ad delendum peccata, tamen ad efficientiam deletionis requiruntur ea quae capiti
+              conjungunt. Hujusmodi autem sunt fides et caritas. Et ideo Magister assignat fidem
+              passionis, et caritatem quasi causas efficientiae deletionis culpae; causam tamen
+              sufficientiae assignat in hoc quod dicit, quod mors Christi est verum sacrificium, per
+              quod peccata delentur. Unde quamvis ex aliis divinis beneficiis et sanctorum exemplis
+              caritas excitetur, non tamen conjungit merito sufficienti ad culpae deletionem
+              inquantum ex eis excitatur, sed inquantum excitatur ex passione Christi.</p>
+            <p xml:id="ta-l3d19q1-d1e240">Similiter dicendum ad quintum de fide.</p>
+          </div>
+          <div xml:id="ta-l3d19q1-Dd1e245">
+            <head xml:id="ta-l3d19q1-Hd1e247">Quaestiuncula 2</head>
+            <p xml:id="ta-l3d19q1-d1e250">Ad secundam quaestionem dicendum, quod ad hoc quod aliquid in alterum effectum
+              inducere possit, duo requiruntur: unum ex parte agentis, scilicet quod habeat virtutem
+              sufficientem ad inducendum illum effectum; alterum ex parte recipientis, ut scilicet
+              dispositum sit ad suscipiendum actionem. Christi autem qui nobis meruit deletionem
+              peccatorum, invenitur sufficientia ad delendum omnia peccata nostra ex duobus:
+              scilicet ex actione, in qua meritum consistit, quae agit ut divina, eo quod est actio
+              Dei et hominis, ut dictum est; et ex hoc habet infinitam in merendo efficaciam; et
+              iterum ex eo quod passio abstulit, scilicet animam Deo unitam, quae etiam habebat
+              infinitum valorem ex hoc quod est Deo unita; et ex hoc est infinita efficacia in
+              satisfaciendo. Ex parte autem nostra requiritur ut nos praeparemus ad meriti Christi
+              effectum in nobis suscipiendum per fidem intellectus, et caritatem affectus, et per
+              imitationem operis, quod quidem non contingit in omnibus; et ideo quo ad sufficientiam
+              satisfactionis et meriti, omnia peccata per Christi passionem deleta sunt, non autem
+              quantum ad efficientiam.</p>
+            <p xml:id="ta-l3d19q1-d1e253">Ad primum ergo dicendum, quod in illis qui damnantur, est indispositio ad recipiendum
+              effectum meriti Christi; unde ex hoc contingit quod eorum peccata non delentur, non ex
+              insufficientia meriti passionis Christi.</p>
+            <p xml:id="ta-l3d19q1-d1e256">Ad secundum dicendum, quod etiam in sanctis qui fuerunt ante incarnationem, habuit
+              effectum passio Christi, inquantum fidem habebant passionis ipsius, per quam
+              justificabantur. Quia autem passio nondum erat in rerum natura, sed in fide eorum,
+              inquantum personali actione in Christum credebant: ideo illa justificatio qua per
+              fidem passionis Christi justificabantur, non se extendebat nisi ad removendum
+              personale impedimentum, non autem ad removendum impedimentum naturae: et propter hoc
+              ipsi quidem a peccato mundabantur, sed Paradisi januam non intrabant, quia nondum erat
+              amotum impedimentum naturae.</p>
+            <p xml:id="ta-l3d19q1-d1e259">Ad tertium dicendum, quod passio Christi quantum ad sufficientiam potest delere
+              peccata etiam antequam fiant; sed efficientia deletionis non est nisi postquam aliquis
+              a peccato commisso avertitur; sicut medicina sufficiens ad sanandum paratur interdum
+              antequam aliquis infirmetur; sed non sanatur per ipsam actu, nisi postquam infirmus
+              fuerit.</p>
+            <p xml:id="ta-l3d19q1-d1e263">Ad quartum dicendum, quod Baptismus, poenitentia, et alia sacramenta exiguntur ad
+              deletionem peccatorum, sicut instrumentaliter agentia ad deletionem culpae: unde agunt
+              in virtute passionis dominicae, et ipsam passionis virtutem in nos quodammodo
+              transfundunt.</p>
+            <p xml:id="ta-l3d19q1-d1e266">Ad quintum dicendum, quod quamvis ille qui occidebatur, esset Deus, non tamen
+              cognoscebant occisores ipsum esse Deum: quia <quote xml:id="ta-l3d19q1-Qd1e268">si cognovissent, nunquam dominum
+                gloriae crucifixissent</quote>: 1 Corinth. 2, 8; unde eorum peccatum ex ignorantia
+              minuitur, quamvis non ex toto excusetur. Et etiam quamvis habeant aequalitatem, eorum
+              peccatum et meritum Christi, secundum quid, scilicet quantum ad objectum actus: quia
+              vitam corporalem, quam Christus caritative dedit, illi nequiter extinxerunt: non tamen
+              habent aequalitatem quantum ad modum: quia multo major fuit caritas ex parte Christi
+              animam ponentis, quam nequitia ex parte illorum qui illam animam nequiter extorserunt:
+              et iterum bonum est efficacius quam malum, quod non nisi virtute boni agit, ut dicit
+              Dionysius.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l3d19q1-Dd1e274" type="articulus">
+          <head xml:id="ta-l3d19q1-Hd1e276">Articulus 2</head>
+          <head xml:id="ta-l3d19q1-Hd1e279" type="questionTitle">Utrum simus liberati a Diabolo per passionem Christi</head>
+          <p xml:id="ta-l3d19q1-d1e282">Ad secundum sic proceditur. Videtur quod per Christi passionem non simus liberati a
+            Diabolo. Libertas enim hominis in hoc consistit quod cogi non potest. Sed sicut nunc
+            liberum arbitrium cogi non potest a Diabolo, ita nec ante Christi passionem. Ergo passio
+            Christi non liberavit nos a potestate Daemonis.</p>
+          <p xml:id="ta-l3d19q1-d1e285">Praeterea, Diabolus non habuit potestatem in res ipsius Job, neque in carnem ejus, nisi
+            cum accepit eam a Deo. Sed modo etiam accepta potestate a Deo, potest homines affligere
+            in rebus et in personis. Ergo in nullo sumus modo magis liberi ab ejus potestate quam
+            ante.</p>
+          <p xml:id="ta-l3d19q1-d1e288">Praeterea, ante passionem Christi, Daemon aliter non nocebat hominibus, nisi tentando
+            quantum ad animam, et vexando quantum ad corpora. Sed hoc etiam quotidie facit. Ergo in
+            nullo ejus virtus est diminuta.</p>
+          <p xml:id="ta-l3d19q1-d1e292">Praeterea, illi proprie sub Diaboli servitute detinentur qui ipsi servitutem latriae
+            impendunt. Sed adhuc hodie sunt idolatrae multi. Ergo humanum genus non est liberatum a
+            servitute Diaboli.</p>
+          <p xml:id="ta-l3d19q1-d1e295">Praeterea, apostolus dicit, 2 Tim. 3, 1, quod <quote xml:id="ta-l3d19q1-Qd1e297">in novissimis diebus instabunt
+              tempora periculosa, et erunt homines seipsos amantes</quote>; et etiam tempore
+            Antichristi magis praevalebit quam nunquam fecerit. Ergo videtur quod per passionem
+            Christi non sit virtus Daemonis extincta.</p>
+          <p xml:id="ta-l3d19q1-d1e301">Sed contra, Joan. 12, 31, instante passione dixit dominus: <quote xml:id="ta-l3d19q1-Qd1e303">princeps mundi hujus
+              ejicietur foras</quote>. Ergo per passionem Christi principatus sui dominium
+            amisit.</p>
+          <p xml:id="ta-l3d19q1-d1e307">Praeterea, victoris est adversarium a potestate dominii ejicere. Sed Christus per
+            passionem victor fuit: Apoc. 5, 5: <quote xml:id="ta-l3d19q1-Qd1e309">vicit leo de tribu Juda</quote>. Ergo
+            potestatem Daemonibus abstulit.</p>
+          <p xml:id="ta-l3d19q1-d1e313">Praeterea, Diabolus per peccatum homini dominatur. Sed Christus per passionem homines a
+            peccato liberavit. Ergo et a potestate Daemonis.</p>
+          <p xml:id="ta-l3d19q1-d1e316">Respondeo dicendum, quod potestas Daemonis in duobus consistit, scilicet in impugnando,
+            et detinendo devictos. Ex eo autem quod quis impugnatur, nondum servus factus est, sed
+            ex eo quod victus est, ut patet 2 Petr., 2, 19. Devicerat autem Diabolus totum humanum
+            genus in primis parentibus, et eis dominabatur, dum eos ad hoc secundum suum votum
+            deduxerat ut nullus Paradisi januam introiret: devincit etiam unumquemque singulariter,
+            dum eum ad peccatum inclinat, quia <quote xml:id="ta-l3d19q1-Qd1e318">qui facit peccatum, servus est
+            peccati</quote>; Joan. 8, 34. Potestatem igitur Diaboli qua victos detinet, Christus per
+            passionem ex toto amovit quantum ad sufficientiam, licet non quantum ad efficientiam
+            nisi in illis qui vim passionis suscipiunt per fidem, caritatem, et sacramenta: et per
+            hoc dicitur dominium Diaboli evacuasse. Sed potestatem qua impugnat, non ex toto
+            evacuavit, sed debilitavit, dum ipsum hostem vicit, et hominibus auxilia multa ad
+            resistendum tribuit, sicut sacramenta, gratiam abundantiorem, et alia hujusmodi.</p>
+          <p xml:id="ta-l3d19q1-d1e323">Ad primum igitur dicendum, quod quamvis ante passionem Christi non posset cogere
+            liberum arbitrium, sicut nec modo, tamen poterat magis inclinare, inquantum homo erat
+            debilior ad resistendum.</p>
+          <p xml:id="ta-l3d19q1-d1e326">Ad secundum dicendum, quod hoc quod homines in rebus et personis affligit, vel est ex
+            merito culpae ipsorum, vel ad probationem justorum, et exercitium patientiae ipsorum; et
+            non est ex insufficientia passionis Christi.</p>
+          <p xml:id="ta-l3d19q1-d1e329">Ad tertium dicendum, quod quamvis modo tentet sicut et ante, non tamen ita de facili
+            superat, inquantum homo plura remedia habet.</p>
+          <p xml:id="ta-l3d19q1-d1e332">Ad quartum dicendum, quod hoc quod idolatrae adhuc manent sub servitute Daemonis,
+            contingit ex hoc quod auxilia quae sunt ex passione Christi, accipere negligunt.</p>
+          <p xml:id="ta-l3d19q1-d1e335">Ad quintum dicendum, quod multitudo malorum qui erunt in ultimis temporibus, non erit
+            ex hoc quod virtus passionis Christi deficiat, sed quia armaturam Dei qua armati sunt
+            per passionem Christi abjicient, vel contemnent: quia <quote xml:id="ta-l3d19q1-Qd1e337" ana="#mt24_12">refrigescet caritas
+              multorum</quote>; Matth. 24, 12; et ideo non est mirum, si devincantur.</p>
+        </div>
+        <div xml:id="ta-l3d19q1-Dd1e342" type="articulus">
+          <head xml:id="ta-l3d19q1-Hd1e344">Articulus 3</head>
+          <head xml:id="ta-l3d19q1-Hd1e347" type="questionTitle">Utrum per passionem Christi a poena aeterna liberati
+            sumus</head>
+          <div xml:id="ta-l3d19q1-Dd1e350">
+            <head xml:id="ta-l3d19q1-Hd1e352">Quaestiuncula 1</head>
+            <p xml:id="ta-l3d19q1-d1e355">Ad tertium sic proceditur. Videtur quod per passionem Christi non sumus liberati a
+              poena aeterna. Poena enim aeterna est poena Inferni. Sed in Inferno nulla est
+              redemptio. Igitur a poena aeterna Christi passio non liberat.</p>
+            <p xml:id="ta-l3d19q1-d1e358">Praeterea, si Christus non fuisset passus, nullus in Infernum ivisset, nisi peccasset
+              mortaliter. Sed nunc etiam Christo passo, solum mortaliter peccantes in Infernum
+              vadunt. Ergo Christi passio non liberavit nos a poena aeterna.</p>
+            <p xml:id="ta-l3d19q1-d1e361">Praeterea, poena quae finiri potest, aeterna non fuit. Sed poena a qua Christus
+              homines liberavit, finita est. Ergo a poena aeterna non liberavit.</p>
+            <p xml:id="ta-l3d19q1-d1e364">Sed contra, peccatum est causa mortis aeternae. Sed Christus liberavit a peccato.
+              Ergo et a poena aeterna.</p>
+            <p xml:id="ta-l3d19q1-d1e368">Praeterea, Zach. 9, 11: <quote xml:id="ta-l3d19q1-Qd1e370">tu autem in sanguine testamenti eduxisti vinctos de
+                lacu in quo non est aqua</quote>.</p>
+          </div>
+          <div xml:id="ta-l3d19q1-Dd1e375">
+            <head xml:id="ta-l3d19q1-Hd1e377">Quaestiuncula 2</head>
+            <p xml:id="ta-l3d19q1-d1e380">Ulterius. Videtur quod non liberavit nos a poena temporali. Quia adhuc pro peccatis
+              poena temporalis injungitur poenitentibus. Ergo ab ea per Christum non sumus
+              liberati.</p>
+            <p xml:id="ta-l3d19q1-d1e383">Praeterea, 1 Petr., 2, 21: <quote xml:id="ta-l3d19q1-Qd1e385">Christus passus est pro nobis, vobis relinquens
+                exemplum, ut sequamini vestigia ejus</quote>. Hoc autem non est nisi patiendo. Ergo
+              Christus per suam passionem nos obligavit ad patiendum poenam temporalem, magis quam
+              ab ea liberavit.</p>
+            <p xml:id="ta-l3d19q1-d1e389">Praeterea, per resurrectionem mortuorum liberamur ab omni poena temporali. Sed etiam
+              si Christus non fuisset passus, mortui resurgerent: quia resurrectio mortuorum est
+              articulus fidei. Ergo passio Christi non liberat nos a poena temporali.</p>
+            <p xml:id="ta-l3d19q1-d1e392">Praeterea, posita causa sufficienti ponitur effectus. Sed adhuc in illis qui vim
+              passionis Christi omnibus modis in se excipiunt, manet poena temporalis. Ergo passio
+              Christi non liberat a poena temporali.</p>
+            <p xml:id="ta-l3d19q1-d1e396">Sed contra, per claves Ecclesiae remittitur poena temporalis. Sed claves Ecclesiae
+              virtutem habent a passione Christi. Ergo per passionem Christi tollitur poena
+              temporalis.</p>
+            <p xml:id="ta-l3d19q1-d1e399">Praeterea, Deus non punit bis in idipsum: Naum, 1. Sed Deus posuit in Christo
+              iniquitates omnium nostrum, dum ipse dolores nostros portavit; Isai. 53. Ergo nos a
+              poena temporali per suam passionem liberavit.</p>
+          </div>
+          <div xml:id="ta-l3d19q1-Dd1e403">
+            <head xml:id="ta-l3d19q1-Hd1e405">Quaestiuncula 1</head>
+            <p xml:id="ta-l3d19q1-d1e408">Respondeo dicendum ad primam quaestionem, quod poena aeterna dicitur per oppositum ad
+              vitam aeternam; unde poena per quam vita aeterna privantur, dicitur poena aeterna.
+              Homo autem vitam aeternam amittere potest dupliciter: scilicet per peccatum naturae,
+              scilicet originale, cujus poena est carentia visionis divinae, et per peccatum
+              personale actuale, scilicet mortale. Poenam igitur aeternam, secundum quod ex
+              originali consequitur, omnes incurrerunt: sed quidam secundum reatum tantum, sicut qui
+              adhuc vivebant in carne: quidam autem secundum experientiam illius poenae, sicut qui
+              jam mortui erant. Similiter etiam poenam aeternam quae debetur peccato actuali, non
+              omnes incurrerunt; sed quidam, vel quantum ad reatum tantum, sicut existentes in
+              mortali, vel quantum ad experientiam, sicut damnati. Christus igitur per passionem
+              suam a poena aeterna quae debetur originali, quod omnes contrahunt, dupliciter
+              absolvit: scilicet auferendo reatum quantum ad illos qui participes efficiebantur
+              redemptionis ejus, et adhuc vivebant; et auferendo poenam quantum ad illos qui mortui
+              erant: ab omnibus quidem quantum ad sufficientiam; sed quantum ad efficientiam ab
+              illis in quibus nullum inveniebatur. Sed a poena debita mortali actuali dupliciter
+              absolvit: uno modo, praebendo auxilium, ne aliquis reatum illum incurreret; alio modo,
+              praebendo etiam medicamenta quibus reatus posset auferri ab illis qui in se vim
+              passionis ejus receperunt. Sed quod a poena illa jam actualiter suscepta aliquis
+              liberetur esse non potest: quia non est in statu viatoris, ut gratiam et caritatem
+              suscipere possit, per quam vis passionis Christi in homines transfunditur.</p>
+            <p xml:id="ta-l3d19q1-d1e411">Ad primum ergo dicendum, quod poena aeterna non solum dicitur poena Inferni, in qua
+              sunt damnati, a qua non potest esse redemptio (quia illi nec gratiam habent nec
+              gratiae capaces sunt, ut possit eis continuari passio Christi), sed dicitur poena
+              aeterna etiam Limbi, in quo erant sancti patres, a qua poterat esse redemptio propter
+              gratiam et caritatem quae in illis sanctis erat per quam eis Christi passio
+              continuabatur.</p>
+            <p xml:id="ta-l3d19q1-d1e414">Ad secundum dicendum, quod quamvis illi qui peccant mortaliter post passionem
+              Christi, in Infernum vadunt, tamen passio Christi poterat eos praeservare a peccato,
+              et etiam sanare vulnus peccati in ipsis; et ideo quantum in se est, a poena infernali
+              liberat.</p>
+            <p xml:id="ta-l3d19q1-d1e417">Ad tertium dicendum, quod poena Inferni dicitur aeterna, tum quia in eo qui punitur,
+              non est virtus ad liberandum se a poena illa: tum quia non est dispositio, ut virtus
+              liberans in eo effectum habere possit; et ideo nullo modo terminari potest. Sed poena
+              Limbi erat aeterna inquantum deficiebat in punito virtus ad liberandum; unde in
+              aeternum durasset, nisi liberatio affuisset; quamvis esset dispositio ad recipiendum
+              effectum liberantis, et ideo terminari poterat. Sed poena Purgatorii neutro modo est
+              aeterna: quia per virtutem gratiae, quam ille qui punitur, habet, poena illa purgat,
+              et terminatur purgatione completa.</p>
+          </div>
+          <div xml:id="ta-l3d19q1-Dd1e422">
+            <head xml:id="ta-l3d19q1-Hd1e424">Quaestiuncula 2</head>
+            <p xml:id="ta-l3d19q1-d1e427">Ad secundam quaestionem dicendum, quod poena temporalis dicitur per quam privatur
+              aliquod bonum temporale: quia bonum temporale non est natum manere semper. Haec autem
+              temporalis poena in homine est duplex. Quaedam quae universaliter invenitur in tota
+              humana natura, sicut necessitas moriendi, passibilitas, inobedientia carnis ad
+              spiritum, et hujusmodi: et haec quidem poena naturae humanae debetur ex originali
+              peccato: nihilominus hujusmodi ex principiis naturae consequuntur gratia innocentiae
+              destitutae. Has igitur poenas per suam passionis poenam Christus ab omnibus
+              sufficienter exclusit, quamvis non efficaciter ab omnibus, scilicet illis qui ejus
+              passionis participes non sunt; nec tamen ita quod statim post passionem ab omnibus
+              auferantur, vel ita quod auferantur ab illis qui sacramenta passionis ejus percipiunt,
+              statim post perceptionem sacramenti: sed in fine mundi ab omnibus sanctis simul
+              auferentur: quia istae poenae debentur naturae, in qua omnes sunt unum; unde tunc non
+              solum hominum, sed totius mundi natura reparabitur per resurrectionem: quia <quote xml:id="ta-l3d19q1-Qd1e429" ana="#rom8_21">et
+                ipsa creatura liberabitur a servitute corruptionis in libertatem gloriae filiorum
+                Dei</quote>: Rom. 8, 21. Aliae autem poenae sunt quae aliquibus hominibus
+              specialiter infliguntur; et hae poenae dupliciter ad eos comparantur. Uno modo ut
+              vindicantes culpam, secundum quod culpa facit debitum hujus poenae: et hoc modo
+              Christus omnes istas poenas sua morte quantum ad sufficientiam abstulit, removendo
+              causam. Sed ad hoc quod aliquis his poenis quantum ad efficaciam liberetur, exigitur
+              quod passionis Christi particeps fiat; quod quidem contingit dupliciter. Primo quidem
+              per sacramentum passionis, scilicet Baptismum, in quo consepelimur Christo in mortem,
+              ut dicitur Rom. 6, in quo divina virtus quae inefficaciam nescit, operatur salutem; et
+              ideo omnis talis poena in Baptismo tollitur. Secundo aliquis fit particeps Christi per
+              realem conformitatem ad ipsum, scilicet inquantum Christo patiente patimur, quod
+              quidem fit per poenitentiam. Et quia haec conformatio fit per nostram operationem,
+              ideo contingit quod est imperfecta, et perfecta. Et quando quidem est perfecta
+              conformatio secundum proportionem ad reatum culpae, tunc poena totaliter tollitur,
+              sive hoc sit in contritione tantum, sive etiam sit in aliis partibus poenitentiae.
+              Quando autem non est perfecta conformatio, tunc adhuc manet obligatio ad aliquam
+              poenam vel hic vel in Purgatorio. Non tamen oportet quod sit conformatio ad passionem
+              Christi secundum experientiam tantae poenae ad quantam aliquis obligatur ex culpa:
+              quia passio capitis in membra redundat; et tanto plus, quanto est ei aliquis per
+              caritatem magis conjunctus; unde ex vi passionis Christi diminuitur quantitas debitae
+              poenae; et secundum hoc dicitur has poenas auferre, inquantum eas diminuit. Alio modo
+              dictae poenae comparantur ad eos quibus infliguntur, ut medicinae: quia poenae sunt
+              quaedam medicinae, ut dicitur 2 Ethic., vel sibi, inquantum scilicet praeservant a
+              culpa, seu ad virtutem promovent; vel aliis, inquantum scilicet est aliis exemplum, ut
+              unus pro aliis aliqualiter satisfaciat: et hoc modo per passionem Christi poena
+              temporalis non est neque totaliter ablata, neque diminuta, sed magis augmentata
+              caritate crescente, quantum ad praesentem statum, in quo et peccare possumus, et
+              proficere nobis et aliis; sed in futuro, quando erit terminus viae, omnino poena
+              tolletur per virtutem passionis Christi.</p>
+            <p xml:id="ta-l3d19q1-d1e433">Ad primum ergo dicendum, quod poena temporalis injungitur vel ut satisfactoria; et
+              hoc sive ut aliquis passionis Christi per imitationem conformetur, unde ubi est
+              conformitas per sacramentum Baptismi, non injungitur aliqua poena satisfactoria: vel
+              etiam injungitur ut medicina praeservans vel promovens, et non tamquam debita.</p>
+            <p xml:id="ta-l3d19q1-d1e436">Et per hoc patet etiam solutio ad secundum.</p>
+            <p xml:id="ta-l3d19q1-d1e439">Ad tertium dicendum, quod sicut causalitas justificationis attribuitur resurrectioni
+              quantum ad terminum ad quem, passioni autem quantum ad terminum a quo; ita
+              glorificationis causalitas attribuitur resurrectioni quantum ad gloriam quae dabitur,
+              sed passioni quantum ad poenalitates quae tolluntur.</p>
+            <p xml:id="ta-l3d19q1-d1e443">Ad quartum dicendum, quod in causis quae agunt ex ordinatione sapientiae, non est
+              necessarium quod posita causa statim ponatur effectus; sed tunc effectus ponitur,
+              quando sapientiae ordo requirit; et taliter agit passio Christi.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l3d19q1-Dd1e449" type="articulus">
+          <head xml:id="ta-l3d19q1-Hd1e451">Articulus 4</head>
+          <head xml:id="ta-l3d19q1-Hd1e454" type="questionTitle">Utrum Christus debeat dici redemptor ratione praedictae
+            liberationis</head>
+          <div xml:id="ta-l3d19q1-Dd1e457">
+            <head xml:id="ta-l3d19q1-Hd1e459">Quaestiuncula 1</head>
+            <p xml:id="ta-l3d19q1-d1e462">Ad quartum sic proceditur. Videtur quod ratione praedictae liberationis Christus non
+              debeat dici redemptor. Redemptio enim emptionem significat iteratam. Sed Christus nos
+              nunquam alias emerat. Ergo nec redimere dicendus est ex hoc quod nos liberavit.</p>
+            <p xml:id="ta-l3d19q1-d1e465">Praeterea, nullus quod suum est emit, nisi forte solvendo pretium ei qui injuste
+              detinebat. Sed Diabolus injuste nos detinebat; ei autem Christus proprii sanguinis
+              pretium non solvit. Ergo nullo modo nos redemit.</p>
+            <p xml:id="ta-l3d19q1-d1e468">Praeterea, ab eo qui aliquid usurpavit, non oportet quod suum est emere, sed
+              violenter auferre, si facultas adsit. Sed Christo nos liberandi de potestate Diaboli
+              facultas non defuit. Ergo non liberavit nos per modum emptionis.</p>
+            <p xml:id="ta-l3d19q1-d1e471">Sed contra, <title ref="#ap">Apocal.</title>, 5, 9, dicitur de Christo:
+                <quote xml:id="ta-l3d19q1-Qd1e476">redemisti nos Deo in sanguine tuo</quote>. Ergo ipse est redemptor.</p>
+            <p xml:id="ta-l3d19q1-d1e481">Praeterea, ubicumque est aliqua commutatio, ibi videtur emptio. Sed in passione
+              Christi fuit quaedam commutatio: quia accepit mortem, et largitus est vitam. Ergo fuit
+              ibi emptio.</p>
+          </div>
+          <div xml:id="ta-l3d19q1-Dd1e485">
+            <head xml:id="ta-l3d19q1-Hd1e487">Quaestiuncula 2</head>
+            <p xml:id="ta-l3d19q1-d1e490">Ulterius. Videtur quod non solus filius sit dicendus redemptor. Ejus enim est
+              redimere cujus est pretium dare. Sed Deus pater dedit nobis filium in pretium
+              redemptionis: Galat. 4, 4: <quote xml:id="ta-l3d19q1-Qd1e492">misit Deus filium suum (...) factum sub lege, ut eos
+                qui sub lege erant redimeret</quote>. Ergo Deus pater redemit.</p>
+            <p xml:id="ta-l3d19q1-d1e496">Praeterea, ejus est redimere ab hoste cujus est hostem vincere. Sed Christus per
+              potentiam quam habet simul cum patre, hostem, qui nos detinebat vicit. Ergo pater nos
+              redemit.</p>
+            <p xml:id="ta-l3d19q1-d1e499">Praeterea, omne nomen significans effectum in creatura, est commune toti Trinitati.
+              Sed redemptor est hujusmodi. Ergo et cetera.</p>
+            <p xml:id="ta-l3d19q1-d1e502">Sed contra, redempti sumus per passionem Christi: 1 Petr. 1, 18: <quote xml:id="ta-l3d19q1-Qd1e504">redempti
+                estis pretioso sanguine agni</quote>. Sed solus filius passus est. Ergo solus filius
+              nos redemit.</p>
+            <p xml:id="ta-l3d19q1-d1e509">Praeterea, ad hoc incarnatus est, ut nos redimeret. Solus autem filius incarnatus
+              est. Ergo ipse est redemptor.</p>
+          </div>
+          <div xml:id="ta-l3d19q1-Dd1e513">
+            <head xml:id="ta-l3d19q1-Hd1e515">Quaestiuncula 1</head>
+            <p xml:id="ta-l3d19q1-d1e518">Respondeo dicendum ad primam quaestionem, quod per peccatum primi parentis totum
+              humanum genus alienatum erat a Deo, ut dicitur Ephes. 2, non quidem a potestate Dei,
+              sed a visione faciei Dei, ad quam filii et domestici admittuntur; et iterum in
+              potestatem Diaboli usurpantis deveneramus, cui consentiendo homo se subdiderat,
+              quantum in ipso erat, quamvis de jure non posset: quia suus non erat, sed alterius. Et
+              ideo per suam passionem Christus duo fecit: liberavit enim nos a potestate hostis,
+              vincendo ipsum per contraria eorum quibus hominem vicerat, scilicet humilitatem,
+              obedientiam, et austeritatem poenae, quae delectationi cibi vetiti opponitur: et
+              iterum, satisfaciendo pro culpa, Deo conjunxit, et domesticos Dei et filios fecit.
+              Unde ista liberatio duas rationes habuit emptionis: inquantum enim a potestate Diaboli
+              eripuit, dicitur nos redemisse, sicut rex regnum occupatum ab adversario, per laborem
+              certaminis redimit; inquantum vero Deum nobis placavit, dicitur nos redemisse, sicut
+              pretium solvens suae satisfactionis pro nobis, ut a poena et a peccato liberemur.</p>
+            <p xml:id="ta-l3d19q1-d1e521">Ad primum ergo dicendum, quod iteratio importata per praepositionem, non refertur ad
+              actum emptionis, quasi alias empti fuerimus; sed ad terminum actus, quia alias sui
+              fueramus in statu innocentiae. Emere enim est aliquid suum facere. Vel dicendum, quod
+              dicitur redemptio habito respectu ad illam venditionem qua nos Diabolo per consensum
+              peccati vendideramus; a qua venditione haec emptio secunda est.</p>
+            <p xml:id="ta-l3d19q1-d1e524">Ad secundum dicendum, quod pretium sanguinis sui non Diabolo, sed Deo obtulit, ut pro
+              nobis satisfaceret. A Diabolo autem nos per victoriam suae passionis eripuit, ut
+              dictum est.</p>
+            <p xml:id="ta-l3d19q1-d1e527">Ad tertium dicendum, quod quamvis Diabolus nos injuste usurpaverit, nos tamen in ejus
+              potestatem devenimus ex quo ab eo victi sumus: et ideo oportuit etiam ut ipse
+              vinceretur per contraria eorum quibus vicit: non enim violenter vicit, sed ad peccatum
+              fraudulenter inducens.</p>
+          </div>
+          <div xml:id="ta-l3d19q1-Dd1e532">
+            <head xml:id="ta-l3d19q1-Hd1e534">Quaestiuncula 2</head>
+            <p xml:id="ta-l3d19q1-d1e537">Ad secundam quaestionem dicendum, quod effectus redemptionis potest attribui causae
+              proximae, et causae remotae. Si attribuatur causae proximae, sic Christus nos redimit
+              per ea quae in humana natura fecit et sustinuit; quibus et patri satisfecit pro
+              omnibus hominibus, et hostem vicit, ejus tentationibus resistendo. Si autem referatur
+              ad causam primam et remotam, sic attribuitur toti Trinitati, inquantum tota Trinitas
+              acceptavit nostram redemptionem, et filium dedit nobis redemptorem, inquantum per
+              virtutem divinitatis habuit passio efficaciam ad satisfaciendum pro toto genere
+              humano. Sed quia ille proprie dicitur emere qui emptionis pretium solvit, magis quam
+              ille qui emptorem mittit; ideo proprie loquendo dicitur Christus tantum redemptor;
+              quamvis etiam tota Trinitas possit dici redemptor.</p>
+            <p xml:id="ta-l3d19q1-d1e540">Et per hoc patet solutio ad utramque partem.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l3d19q1-Dd1e545" type="articulus">
+          <head xml:id="ta-l3d19q1-Hd1e547">Articulus 5</head>
+          <head xml:id="ta-l3d19q1-Hd1e550" type="questionTitle">Utrum Christus reconciliaverit nos Deo</head>
+          <div xml:id="ta-l3d19q1-Dd1e553">
+            <head xml:id="ta-l3d19q1-Hd1e555">Quaestiuncula 1</head>
+            <p xml:id="ta-l3d19q1-d1e558">Ad quintum sic proceditur. Videtur quod Christus non reconciliaverit nos Deo; quod
+              mediatoris est officium. Nullus enim reconciliatur diligenti, sed odienti. Sed Deus
+              pater nos diligebat: quia ipse diligit omnia quae sunt, et nihil odit eorum quae
+              fecit; Sapient. 11. Ergo Christus nos ei non reconciliavit.</p>
+            <p xml:id="ta-l3d19q1-d1e561">Praeterea, Joan. 3, 16: <quote xml:id="ta-l3d19q1-Qd1e563">sic Deus dilexit mundum, ut filium suum unigenitum
+                daret</quote>. Ergo magis amor patris est causa passionis quam e converso: et ita
+              videtur quod per mortem Christi non simus Deo reconciliati.</p>
+            <p xml:id="ta-l3d19q1-d1e567">Praeterea, Matth. 22, dicitur, quod homo rex, cujus filium cultores vineae
+              occiderant, veniens perdidit homicidas illos: et per illum hominem significatur Deus
+              pater, cujus filius occisus est. Ergo per mortem Christi sunt inimicitiae magis auctae
+              quam ablatae.</p>
+            <p xml:id="ta-l3d19q1-d1e570">Sed contra, Rom. 5, 10: <quote xml:id="ta-l3d19q1-Qd1e572" ana="#rom5_10">cum inimici essemus, reconciliati sumus Deo per mortem
+                filii ejus</quote>.</p>
+            <p xml:id="ta-l3d19q1-d1e577">Praeterea, per satisfactionem Deo reconciliamur. Sed Christus per passionem suam pro
+              nobis satisfecit. Ergo nos Deo reconciliavit.</p>
+          </div>
+          <div xml:id="ta-l3d19q1-Dd1e581">
+            <head xml:id="ta-l3d19q1-Hd1e583">Quaestiuncula 2</head>
+            <p xml:id="ta-l3d19q1-d1e586">Ulterius. Videtur quod ipse non sit mediator secundum humanam naturam. Non enim est
+              idem extremum et medium. Sed humana natura est extremum istius reconciliationis quae
+              fit hominis ad Deum. Secundum ergo quod homo, Christus non est mediator.</p>
+            <p xml:id="ta-l3d19q1-d1e589">Praeterea, medium compositum est ex extremis. Sed compositum ex humana natura et
+              divina non est in Christo nisi persona. Ergo non ratione humanae naturae, sed ratione
+              compositae personae est mediator.</p>
+            <p xml:id="ta-l3d19q1-d1e592">Praeterea, secundum hoc est mediator secundum quod nos Deo conjunxit. Sed non
+              potuisset nos Deo conjungere, nisi inquantum est Deus. Ergo secundum quod Deus, est
+              mediator.</p>
+            <p xml:id="ta-l3d19q1-d1e595">Sed contra, mediator non est unum cum his inter quos mediat. Sed Christus, secundum
+              quod Deus, est unum cum patre, Joan. 11. Ergo secundum quod Deus, non est
+              mediator.</p>
+            <p xml:id="ta-l3d19q1-d1e599">Praeterea, secundum hoc est mediator secundum quod est redemptor. Sed redemit nos
+              secundum humanam naturam. Ergo et secundum ipsam est mediator.</p>
+          </div>
+          <div xml:id="ta-l3d19q1-Dd1e603">
+            <head xml:id="ta-l3d19q1-Hd1e605">Quaestiuncula 3</head>
+            <p xml:id="ta-l3d19q1-d1e608">Ulterius. Videtur quod non soli Christo convenit esse mediatorem. Ille enim est
+              mediator qui inter nos et Deum pacem facit. Hic autem est spiritus sanctus, qui est
+              amor, quo Deus nos diligit, et in quo nos Deum diligimus, quantum ad caritatis donum,
+              in quo ipse nobis datur. Ergo videtur quod spiritus sanctus debeat dici mediator.</p>
+            <p xml:id="ta-l3d19q1-d1e611">Praeterea, medium est quod convenit cum extremis. Sed Daemones conveniunt cum Deo in
+              hoc quod sunt immortales, nobiscum autem in hoc quod sunt miseri. Ergo Daemones sunt
+              mediatores, non solum Christus.</p>
+            <p xml:id="ta-l3d19q1-d1e614">Praeterea, Angeli beati conveniunt etiam nobiscum, et cum Deo: cum Deo quidem,
+              inquantum sunt immortales et beati; nobiscum vero, inquantum sunt creaturae. Ergo et
+              ipsi sunt mediatores.</p>
+            <p xml:id="ta-l3d19q1-d1e617">Praeterea, Dionysius probat, quod divinae illuminationes non deferuntur ad nos nisi
+              mediantibus Angelis. Ergo ipsi sunt mediatores.</p>
+            <p xml:id="ta-l3d19q1-d1e621">Praeterea, sacerdos est medium inter Deum et populum; et similiter alii sancti;
+              inquantum pro peccatoribus intercedunt. Ergo non solum Christus est mediator.</p>
+            <p xml:id="ta-l3d19q1-d1e624">Sed contra, officium mediatoris est reconciliare discordes. Sed solus Christus solvit
+              inimicitias quae erant inter nos et Deum; Coloss. 1. Ergo ipse solus est mediator.</p>
+            <p xml:id="ta-l3d19q1-d1e627">Praeterea, ex hoc dicitur mediator, quia pro nobis satisfecit. Sed solus Christus pro
+              humana natura satisfecit. Ergo ipse solus est mediator.</p>
+          </div>
+          <div xml:id="ta-l3d19q1-Dd1e632">
+            <head xml:id="ta-l3d19q1-Hd1e634">Quaestiuncula 1</head>
+            <p xml:id="ta-l3d19q1-d1e637">Respondeo dicendum ad primam quaestionem, quod dilectio Dei ad nos secundum effectum
+              indicatur. Cum enim ipse, quantum in se est, ad omnes aequaliter se habeat, secundum
+              hoc aliquos dicitur diligere secundum quod eos suae bonitatis participes facit. Ultima
+              autem et completissima participatio suae bonitatis consistit in visione essentiae
+              ipsius, secundum quam ei convivimus socialiter, quasi amici, cum in ea suavitate
+              beatitudo consistat. Unde illos dicitur simpliciter diligere quos admittit ad dictam
+              visionem vel secundum rem, vel secundum causam, sicut patet in illis quibus dedit
+              spiritum sanctum quasi pignus illius visionis. Ab hac igitur participatione divinae
+              bonitatis, scilicet a visione essentiae ipsius, homo per peccatum amotus erat; et
+              secundum hoc homo dicebatur privatus Dei dilectione. Et ideo inquantum Christus per
+              passionem suam satisfaciens pro nobis, ad visionem Dei homines admitti impetravit,
+              secundum hoc dicitur nos Deo reconciliasse.</p>
+            <p xml:id="ta-l3d19q1-d1e640">Ad primum ergo dicendum, quod omnes creaturas diligit quantum ad aliquem modum, quo
+              communicat eis bonitatem suam; sed illas dicitur simpliciter diligere quibus seipsum
+              videndum communicat. Joan. 14, 21: <quote xml:id="ta-l3d19q1-Qd1e642">ego diligam eum, et manifestabo ei me
+                ipsum</quote>.</p>
+            <p xml:id="ta-l3d19q1-d1e646">Ad secundum dicendum, quod sicut Deus dicitur diligere creaturas quando jam sunt,
+              inquantum eis actu suam bonitatem communicat, quas antequam essent, dilexit secundum
+              propositum communicandi eis suam bonitatem; ita etiam dicitur Deus homines dilexisse
+              secundum propositum communicandi vel concedendi hominibus suam visionem, ex qua
+              dilectione filium dedit. Sed per mortem filii dilexit eos quasi actualiter ad visionem
+              sui admittens, remoto impedimento quod eos a visione Dei impediebat.</p>
+            <p xml:id="ta-l3d19q1-d1e649">Ad tertium dicendum, quod ex parte illorum qui occiderunt Christum, non fuit aliquid
+              quod misericordiam provocaret, sed magis iram; sed ex parte Christi qui pro nobis
+              mortem sustinuit, fuit immensa caritas, quae fecit passionem ex parte patientiae Deo
+              acceptam: et sic per ipsam sumus reconciliati.</p>
+          </div>
+          <div xml:id="ta-l3d19q1-Dd1e653">
+            <head xml:id="ta-l3d19q1-Hd1e655">Quaestiuncula 2</head>
+            <p xml:id="ta-l3d19q1-d1e658">Ad secundam quaestionem dicendum, quod in medio est duo considerare, scilicet
+              rationem quare dicatur medium, et actum medii. Dicitur autem aliquid medium ex hoc
+              quod est inter extrema. Actus autem medii est extrema conjungere. Mediator igitur
+              dicitur aliquis ex hoc quod actum medii exercet conjungendo disjunctos. Non potest
+              autem actum medii exercere nisi aliquo modo natura medii in ipso inveniatur, ut
+              scilicet sit inter extrema. Esse autem inter extrema convenit quantum ad duo; scilicet
+              quantum ad hoc quod medium participat utrumque extremorum; et secundum ordinem,
+              inquantum est sub primo, et supra ultimum: et hoc exigitur ad rationem medii proprie
+              dicti: quia medium dicitur secundum respectum ad primum et ultimum, quae ordinem
+              dicunt. Christo autem secundum humanam naturam haec tria conveniunt. Ipse enim
+              secundum humanam naturam pro hominibus satisfaciens, homines Deo conjunxit: ipse etiam
+              ab utroque extremorum aliquid participat, inquantum homo; a Deo quidem beatitudinem,
+              ab hominibus autem infirmitatem: ipse etiam inquantum homo, supra homines fuit per
+              plenitudinem gratiarum, et unionem; et infra Deum propter naturam creatam assumptam.
+              Et ideo, proprie loquendo, ratione humanae naturae est mediator. Ratione autem
+              compositae personae potest etiam dici mediator quantum ad duas dictarum conditionum,
+              scilicet inquantum conjunxit homines Deo, et inquantum utrique extremorum communicat
+              in natura plenarie, non participative; sed tertia conditio deficit, quia secundum
+              personam non fuit minor patre. Sed quantum ad divinam naturam nullo modo competit sibi
+              ratio mediatoris: quia secundum divinam naturam, neque est inter extrema
+              participative, neque secundum ordinem, neque iterum conjungit ut causa proxima, sed ut
+              causa prima, ut dictum est.</p>
+            <p xml:id="ta-l3d19q1-d1e661">Ad primum ergo dicendum, quod humana natura prout est in Christo, non est extremum,
+              quia ipsa non eget reconciliatione, cum in ipsa peccatum non sit.</p>
+            <p xml:id="ta-l3d19q1-d1e664">Ad secundum patet solutio per id quod dictum est.</p>
+            <p xml:id="ta-l3d19q1-d1e667">Ad tertium dicendum, quod quamvis nos Deo conjungere non potuisset nisi Deus fuisset,
+              quia humana natura ex divina sibi conjuncta in persona majorem efficaciam habebat,
+              tamen satisfactionem, qua Deo reconciliati et conjuncti sumus, non exhibuit nisi per
+              humanam naturam; et ideo secundum ipsam est proxima causa conjunctionis.</p>
+          </div>
+          <div xml:id="ta-l3d19q1-Dd1e671">
+            <head xml:id="ta-l3d19q1-Hd1e673">Quaestiuncula 3</head>
+            <p xml:id="ta-l3d19q1-d1e676">Ad secundam quaestionem dicendum, quod quantum ad hanc reconciliationem qua humana
+              natura reconciliata est Deo, solus Christus est mediator: quia in ipso solo est
+              reperire conditiones mediatoris praedictas.</p>
+            <p xml:id="ta-l3d19q1-d1e679">Ad primum ergo dicendum, quod spiritus sanctus quamvis conjungat sicut causa prima,
+              non tamen est medium inter extrema, nec conjungens proximum: et ideo non est, proprie
+              loquendo, mediator.</p>
+            <p xml:id="ta-l3d19q1-d1e682">Ad secundum dicendum, quod Daemones communicant cum Deo in immortalitate, nobiscum
+              autem in miseriis; unde ad hoc se medios interponunt ut nos ad immortalitatem et
+              aeternam miseriam adducant; et hoc faciunt, a Deo nos sejungendo, et non conjungendo.
+              Et quia recedendo ab uno primo invenitur multitudo; ideo ipsi non sunt unus, sed
+              plures medii; non mediatores, sed separatores. Christus autem cum Deo habuit communem
+              beatitudinem, nobiscum autem mortalitatem; et ideo ad beatitudinem nos ducit aeternam,
+              mortalitate quam habuit ad tempus consumpta; et hoc est quod dicit Augustinus 9 de
+              Civ. Dei.</p>
+            <p xml:id="ta-l3d19q1-d1e685">Ad tertium dicendum, quod Angeli sunt beati et immortales: unde non conveniunt
+              nobiscum in hoc quod a nobis amovendum est per actum mediatoris; non enim ad hoc datur
+              mediator, ut faciat nos non esse creaturas. Et ideo quamvis conveniant nobiscum in hoc
+              quod sunt creaturae, non tamen competit eis ratio mediatoris.</p>
+            <p xml:id="ta-l3d19q1-d1e689">Ad quartum dicendum, quod illud quod Angeli nobis a Deo deferunt, quasi medii inter
+              nos et Deum, non est hoc per quod Deo conjungimur: quia gratia non est nobis ab
+              Angelis, nec satisfactio; sed illa transfusio conjunctionem praesupponit vel eam
+              praeparat; et ideo ipsi non sunt mediatores, sed eorum officium sequitur vel disponit
+              ad officium mediatoris; et ideo ipsi sunt ministri mediatoris.</p>
+            <p xml:id="ta-l3d19q1-d1e692">Ad quintum dicendum, quod aliquis sanctorum non potest esse mediator, conjungens
+              totam humanam naturam Deo, quamvis unam specialem personam Deo possit conjungere, non
+              quidem merendo ei gratiam ex condigno, sicut Christus fecit, sed ex congruo tantum
+              inducendo ad bonum.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l3d19q1-Dd1e697">
+          <head xml:id="ta-l3d19q1-Hd1e699">Expositio textus</head>
+          <p xml:id="ta-l3d19q1-d1e702"><quote xml:id="ta-l3d19q1-Qd1e703">Morte quippe sua uno verissimo sacrificio quidquid culparum erat (...) Christus
+              extinxit</quote>. Hic est tertius modus quo per passionem a peccatis liberamur: duo
+            enim prius positi pertinent ad efficientiam justificationis ex parte nostra: hic autem
+            pertinet ad sufficientiam ex parte sua: quia sua satisfactio fuit sicut quoddam
+            sacrificium ad delendum omnia peccata, quantum in se est, sufficiens. <quote xml:id="ta-l3d19q1-Qd1e706">Culparum
+              chyrographa</quote>. Chyrographum dicitur a chyros, quod est manus et graphos, quod
+            est Scriptura; quasi manualis Scriptura, quae memoriam debitorum facit, et obligationem
+            ad solvendum. Dicuntur autem chyrographa nostrorum peccatorum per mortem Christi deleta,
+            inquantum memoria nostrorum delictorum amota est, secundum quod Deus eorum non
+            recordatur ad puniendum, vel inquantum obligatio poenae, sive reatus amotus est.
+              <quote xml:id="ta-l3d19q1-Qd1e709">In Baptismo penitus laxatur</quote>. Contra. Requiritur gemitus interior.
+            Dicendum, quod non requiritur inquantum est poena, sed inquantum consequitur ex
+            displicentia veteris vitae; cujus si non poeniteat, non potest novam vitam inchoare, sed
+            victus abscedit. <quote xml:id="ta-l3d19q1-Qd1e712">Implevit illa sacramenta</quote>. Sacramentum hic dicitur, non
+            sacrum signum, sicut Baptismus, et hujusmodi, sed sacrum secretum, sicut passio,
+            incarnatio, et hujusmodi. <quote xml:id="ta-l3d19q1-Qd1e715">Si ergo Christus secundum vos, o haeretici, unam tantum
+              habet naturam, unde medius erit?</quote> Haec sunt verba Vigilii, qui ponit Christum
+            mediatorem ratione personae compositae, ut dictum est. Possumus tamen dicere, quod si
+            haberet humanam naturam tantum, secundum illam non esset sufficiens mediator: quia non
+            haberet unde satisfaceret pro tota natura humana, sicut nec alii qui sunt puri
+            homines.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

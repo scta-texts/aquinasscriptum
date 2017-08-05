@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 21, Quaestio 2</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Librum IV, Distinctio 21, Quaestio 2</title>
+          <date when="2016-03-19">March 19, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-19">March 19, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness>1856 editum</witness>
+          <witness xml:id="G" n="ghent567">Ghent, Belgium, Ghent University Library, 567</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="0.0.0-dev">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+
+
+
+
+      <div xml:id="starts-on">
+        <cb ed="#G" n="380a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ta-l4d21q2">
+        <head xml:id="ta-l4d21q2-Hd1e97">Librum IV, Distinctio 21, Quaestio 2</head>
+        <div xml:id="ta-l4d21q2-Dd1e100">
+          <head xml:id="ta-l4d21q2-Hd1e102">Prooemium</head>
+          <p xml:id="ta-l4d21q2-d1e105">Deinde quaeritur de confessione generali; et circa hoc quaeruntur tria: 1 utrum virtute
+            confessionis generalis venialia deleantur quo ad culpam; 2 utrum peccata mortalia
+            oblita; 3 utrum aliquis possit licite confiteri peccata quae non fecit.</p>
+
+        </div>
+        <div xml:id="ta-l4d21q2-Dd1e109" type="articulus">
+          <head xml:id="ta-l4d21q2-Hd1e111">Articulus 1</head>
+
+          <head xml:id="ta-l4d21q2-Hd1e114" type="questionTitle">Utrum per confessionem generalem, quae fit in completorio et
+            prima, dimittantur venialia</head>
+
+          <p xml:id="ta-l4d21q2-d1e117">Ad primum sic proceditur. Videtur quod per confessionem generalem, quae fit in
+            completorio et prima, non dimittantur venialia. Confessio enim qua dimittuntur peccata,
+            est quoddam sacramentale. Sed illa generalis confessio non est sacramentalis, quia
+            potest fieri etiam non sacerdoti. Ergo non valet ad peccatorum venialium
+            dimissionem.</p>
+          <p xml:id="ta-l4d21q2-d1e120">Praeterea, confessio per hoc ordinatur ad peccatorum dimissionem, inquantum per eam
+            peccata confitentis manifestant. Sed post confessionem generalem ita remanent occulta
+            peccata confitentis respectu ejus cui fit confessio, sicut et prius; tum quia quandoque
+            ille cui fit confessio, non potest distinguere voces singulorum, quando plures simul
+            generalem confessionem faciunt; tum quia in illis generalibus quae in confessione
+            generali dicuntur, non est aliquis qui non peccet. Ergo confessio generalis non valet ad
+            dimissionem venialium.</p>
+          <p xml:id="ta-l4d21q2-d1e123">Praeterea, contritio directius ordinatur ad remissionem culpae quam confessio. Sed
+            contritio generalis non sufficit ad remissionem venialium; quia quandoque cum generali
+            contritione simul stat habitualis placentia alicujus venialis. Ergo multo minus
+            confessio generalis peccata venialia quo ad culpam delet.</p>
+          <p xml:id="ta-l4d21q2-d1e127">Praeterea, <quote xml:id="ta-l4d21q2-Qd1e129">si dixerimus, quod peccatum non habemus, nos ipsos seducimus</quote>,
+            ut dicitur 1 Joan. 1, 8. Sed aliqui qui non habent peccata mortalia, frequenter
+            confessionem generalem faciunt. Si ergo talis confessio sufficit ad delendum venialia,
+            frequenter sunt sine peccato aliquo; quod videtur esse contra auctoritatem inductam.</p>
+          <p xml:id="ta-l4d21q2-d1e133">Sed contra, nihil in Ecclesia frustra agitur. Sed post generalem confessionem sequitur
+            secundum usum Ecclesiae, oratio, qua sacerdos dimissionem peccatorum confitentibus
+            precatur. Ergo confessio generalis valet ad dimissionem peccatorum saltem venialium.</p>
+          <p xml:id="ta-l4d21q2-d1e136">Praeterea, sacerdos accedens ad Missam celebrandam, confessionem generalem facit, ut
+            purius accedat. Sed hoc non esset, si talis confessio non purgaret. Ergo purgat saltem a
+            peccatis venialibus.</p>
+          <p xml:id="ta-l4d21q2-d1e139">Respondeo dicendum, quod ista est ratio quare per infusionem gratiae et caritatis
+            peccata venialia non dimittantur, quia non opponuntur caritati quantum ad habitum, sed
+            magis quantum ad actum ejus, quem impediunt vel retardant; et ideo, quando actus
+            caritatis contra venialia dirigitur, ea quasi suo contrario delet. Nec oportet quod
+            contra singulum eorum actus caritatis feratur ad eorum deletionem; quia nullum eorum de
+            se habet specialem rationem qua caritati aliquo modo contrarietur, sicut est de peccatis
+            mortalibus; sed omnia secundum unam rationem disponunt ad contrarium caritatis,
+            inquantum nimis temporalibus rebus inhaeretur. Unde cum confessio generalis sit actus ex
+            caritate procedens in eo qui caritatem habet, in venialia directus; constat quod valet
+            ad venialium peccatorum dimissionem quantum ad culpam, et quandoque quantum ad poenam;
+            tanta potest devotio confitentis adesse.</p>
+          <p xml:id="ta-l4d21q2-d1e142">Ad primum ergo dicendum, quod confessio generalis quandoque est sacramentalis, et
+            quandoque non. Sacramentalis quidem est, quando aliquis in secreto sacerdoti confitetur
+            quaedam quae meminit, et alia venialia in generali; et tunc illa generalis confessio ex
+            quatuor habet quod valeat ad remissionem venialium, quantum ad culpam, et etiam poenam,
+            vel in parte vel in toto: scilicet ex contritione confitentis, ex humilitate
+            confessionis, ex oratione sacerdotis, inquantum est quaedam persona; ex vi clavium.
+            Quando autem fit publice coram multis et cum multis in Ecclesia, non est sacramentalis;
+            unde tunc habet efficaciam ex tribus primis, et non ex quarto; et propter hoc etiam non
+            subjungitur in prima et completorio absolutio, nec satisfactionis injunctio, sed solum
+            oratio misereatur.</p>
+          <p xml:id="ta-l4d21q2-d1e145">Ad secundum dicendum, quod ratio illa procedit de confessione sacramentali, quae
+            judicium sacerdotis expectat; et ideo requiritur aliqualis peccatorum manifestatio.</p>
+          <p xml:id="ta-l4d21q2-d1e149">Ad tertium dicendum, quod contritio generalis sufficit ad peccatorum venialium
+            dimissionem quo ad culpam; sed illud quod habitu retinetur in affectu, excluditur ab
+            illa generalitate; unde illud non deletur per talem contritionem, neque etiam per
+            generalem confessionem.</p>
+          <p xml:id="ta-l4d21q2-d1e152">Ad quartum dicendum, quod non fuit intentio apostoli dicere, quod non sit aliquod
+            momentum in quo homo non sit sine peccato quo ad culpam; sed quia ista vita a nullo sine
+            peccato agitur; et quia etiam dimissa culpa reatus aliquis manet.</p>
+
+        </div>
+        <div xml:id="ta-l4d21q2-Dd1e156" type="articulus">
+          <head xml:id="ta-l4d21q2-Hd1e158">Articulus 2</head>
+
+          <head xml:id="ta-l4d21q2-Hd1e161" type="questionTitle">Utrum confessio generalis sufficiat ad delendum peccata
+            mortalia oblita</head>
+
+          <p xml:id="ta-l4d21q2-d1e164">Ad secundum sic proceditur. Videtur quod confessio generalis non sufficiat ad delendum
+            peccata mortalia oblita. Peccatum enim quod per confessionem deletum est, non est
+            necesse iterum confiteri. Si ergo peccata oblita per confessionem generalem
+            dimitterentur, non esset necessarium quod cum ad notitiam redeunt, aliquis ea
+            confiteretur.</p>
+          <p xml:id="ta-l4d21q2-d1e167">Praeterea, quicumque non est conscius alicujus peccati; vel non habet peccatum, vel est
+            oblitus sui peccati. Si ergo per generalem confessionem factam peccata oblita mortalia
+            dimittuntur; quicumque non est sibi conscius de aliquo peccato mortali, quandocumque
+            generalem confessionem facit, potest esse certus quod sit immunis a peccato mortali;
+            quod est contra apostolum 1 Corinth. 4, 4: <quote xml:id="ta-l4d21q2-Qd1e169">nihil mihi conscius sum, sed non in
+              hoc justificatus sum</quote>.</p>
+          <p xml:id="ta-l4d21q2-d1e173">Praeterea, nullus ex negligentia reportat commodum. Sed non potest esse sine
+            negligentia quod aliquis peccatum mortale obliviscatur antequam ei dimittatur. Ergo non
+            reportat ex hoc tale commodum, quod sine speciali confessione de peccato ei
+            dimittatur.</p>
+          <p xml:id="ta-l4d21q2-d1e177">Praeterea, magis est elongatum a cognitione confitentis illud quod est omnino
+            ignoratum, quam illud cujus est oblitus. Sed peccata per ignorantiam commissa generalis
+            confessio non delet; quia tunc, haeretici qui nesciunt aliqua peccata, in quibus sunt,
+            esse peccata, aut etiam aliqui simplices, per generalem confessionem absolverentur; quod
+            falsum est. Ergo generalis confessio non tollit peccata oblita.</p>
+          <p xml:id="ta-l4d21q2-d1e180">Sed contra, Psalm. 33, 6: <quote xml:id="ta-l4d21q2-Qd1e182">accedite ad eum, et illuminamini, et facies vestrae
+              non confundentur</quote>. Sed ille qui confitetur omnia quae scit, accedit ad Deum
+            quantum potest; plus autem ab eo requiri non potest. Ergo non confunditur, ut repulsam
+            patiatur; sed veniam consequitur.</p>
+          <p xml:id="ta-l4d21q2-d1e186">Praeterea, ille qui confitetur, veniam consequitur, nisi sit fictus. Sed ille qui
+            confitetur omnia peccata quae in memoria habet, et oblitus est aliquorum, non ex hoc est
+            fictus; quia ignorantiam facti patitur, quae a peccato excusat. Ergo veniam consequitur,
+            et sic peccata oblita sibi relaxantur; cum impium sit a Deo dimidiam sperare veniam, ut
+            supra, dist. 15, Magister dicit.</p>
+          <p xml:id="ta-l4d21q2-d1e189">Respondeo dicendum, quod confessio operatur praesupposita contritione, quae culpam
+            delet; et sic ordinatur confessio directe ad dimissionem poenae; quod quidem facit et ex
+            erubescentia quam habet, et ex vi clavium, cui se confitens subjicit. Contingit autem
+            quandoque quod per contritionem praecedentem peccatum aliquod deletum est quo ad culpam
+            sive in generali, si ejus tunc memoria non habeatur, sive in speciali; et tamen ante
+            confessionem aliquis illius peccati oblitus est; et tunc confessio generalis
+            sacramentalis operatur ad dimissionem poenae ex vi clavium, quibus se confitens
+            subjicit, nullum obstaculum, quantum in ipso est, ponens. Sed ex illa parte qua
+            erubescentia confessionis peccati poenam minuebat, poena ipsius, de qua quis specialiter
+            coram sacerdote non erubuit, non est diminuta.</p>
+          <p xml:id="ta-l4d21q2-d1e192">Ad primum ergo dicendum, quod in sacramentali confessione non solum requiritur
+            absolutio, sed judicium sacerdotis satisfactionem imponentis expectatur; et ideo quamvis
+            iste absolutione sit functus, tamen tenetur confiteri, ut suppleatur quod defuit
+            sacramentali confessioni.</p>
+          <p xml:id="ta-l4d21q2-d1e195">Ad secundum dicendum, quod confessio non operatur, ut dictum est, nisi contritione
+            praesupposita; de qua quando vera fuerit, non potest aliquis scire, sicut nec scire
+            potest an gratiam habeat, per certitudinem. Et ideo sciri non potest, utrum per
+            confessionem generalem sit sibi peccatum oblitum dimissum per certitudinem; quamvis
+            possit per conjecturas aliquas aestimari, de quibus supra, dist. 9, dictum est.</p>
+          <p xml:id="ta-l4d21q2-d1e199">Ad tertium dicendum, quod iste non reportat commodum ex negligentia; quia non ita
+            plenam remissionem consequitur, sicut alias consecutus fuisset; nec tantum meretur; et
+            tenetur iterum confiteri, cum ad memoriam peccatum reduxit.</p>
+          <p xml:id="ta-l4d21q2-d1e202">Ad quartum dicendum, quod ignorantia juris non excusat, quia ipsa peccatum est; sed
+            ignorantia facti excusat. Unde aliquis de hoc quod non confitetur peccata quae nescit
+            esse peccata propter ignorantiam juris divini, non excusatur a fictione; excusaretur
+            autem, si nesciret ea esse peccata propter ignorantiam particularis circumstantiae, ut
+            si cognovit alienam quam credidit esse suam. Sed oblivio de actu peccati habet
+            ignorantiam facti; et ideo excusat a peccato fictionis in confessione, quod fructum
+            absolutionis et confessionis impedit.</p>
+
+        </div>
+        <div xml:id="ta-l4d21q2-Dd1e206" type="articulus">
+          <head xml:id="ta-l4d21q2-Hd1e208">Articulus 3</head>
+
+          <head xml:id="ta-l4d21q2-Hd1e211" type="questionTitle">Utrum aliquis licite possit confiteri peccatum quod non
+            habet</head>
+
+          <p xml:id="ta-l4d21q2-d1e214">Ad tertium sic proceditur. Videtur quod aliquis licite possit confiteri peccatum quod
+            non habet. Quia, sicut dicit Gregorius, bonarum mentium est ibi culpam agnoscere ubi
+            culpa non est. Ergo ad bonam mentem pertinet ut de illis culpis se accuset quas non
+            commisit.</p>
+          <p xml:id="ta-l4d21q2-d1e217">Praeterea, aliquis per humilitatem se reputat deteriorem aliquo qui est manifestus
+            peccator; et in hoc commendandus est. Sed quod corde quis aestimat, licet ore confiteri.
+            Ergo licite potest se confiteri habere gravius peccatum quam habeat.</p>
+          <p xml:id="ta-l4d21q2-d1e220">Praeterea, aliquis quandoque dubitat de aliquo peccato, utrum sit mortale vel veniale;
+            et talis debet, ut videtur, de illo confiteri ut de mortali. Ergo aliquis debet
+            confitere aliquod peccatum quod non habet.</p>
+          <p xml:id="ta-l4d21q2-d1e224">Praeterea, satisfactio ex confessione ordinatur. Sed aliquis potest satisfacere de
+            peccato quod non commisit. Ergo potest etiam confiteri peccatum quod non fecit.</p>
+          <p xml:id="ta-l4d21q2-d1e227">Sed contra, quicumque dicit se fecisse quod non fecit, mentitur. Sed nullus in
+            confessione mentiri debet, cum omne mendacium sit peccatum. Ergo nullus debet confiteri
+            peccatum quod non fecit.</p>
+          <p xml:id="ta-l4d21q2-d1e230">Praeterea, in judicio exteriori non debet aliquod crimen alicui impingi, quod non
+            potest per testes idoneos probari. Sed testis in foro poenitentiae est conscientia. Ergo
+            aliquis non debet se accusare de peccato quod conscientia sua non habet.</p>
+          <p xml:id="ta-l4d21q2-d1e233">Respondeo dicendum, quod per confessionem debet poenitens se confessori suo
+            manifestare. Ille autem qui aliud de se sacerdoti loquitur quam sua conscientia habeat,
+            sive bonum, sive malum, non se sacerdoti manifestat, sed magis occultat; et ideo non est
+            idonea confessio; sed ad hoc quod sit idonea requiritur quod os cordi concordet, ut
+            solum hoc os accuset quod conscientia tenet.</p>
+          <p xml:id="ta-l4d21q2-d1e236">Ad primum ergo dicendum, quod agnoscere culpam ubi non est, potest esse dupliciter. Uno
+            modo ut intelligatur quantum ad substantiam actus; et sic non est verum; non enim ad
+            bonam mentem pertinet, sed ad errantem, ut se actum aliquem commisisse cognoscat quem
+            non commisit. Alio modo quantum ad conditionem actus; et sic verum est quod Gregorius
+            dicit, quia justus in actu qui de se bonus videtur, formidat ne aliquis defectus ex
+            parte sua fuerit; et sic dicitur Job 9, 28: <quote xml:id="ta-l4d21q2-Qd1e238">verebar omnia opera mea</quote>. Et
+            ideo ad bonam mentem etiam pertinet ut hanc formidinem quam corde tenet, lingua
+            accuset.</p>
+          <p xml:id="ta-l4d21q2-d1e242">Et per hoc patet solutio ad secundum; quia justus qui est vere humilis, non reputat se
+            deteriorem quantum ad perpetrationem actus qui sit pejor ex genere; sed timet ne in his
+            quae bene agere videtur, per superbiam gravius delinquat.</p>
+          <p xml:id="ta-l4d21q2-d1e246">Ad tertium dicendum, quod quando aliquis dubitat de aliquo peccato an sit mortale,
+            tenetur illud confiteri dubitatione manente; quia qui aliquid committit vel omittit, in
+            quo dubitat esse mortale peccatum, peccat mortaliter, discrimini se committens. Et
+            similiter periculo se committit qui de hoc quod dubitat esse mortale, negligit
+            confiteri. Non tamen debet asserere illud esse mortale, sed cum dubitatione loqui, et
+            judicium sacerdotis expectare, cujus est discernere inter lepram et lepram.</p>
+          <p xml:id="ta-l4d21q2-d1e249">Ad quartum dicendum, quod ex hoc quod homo satisfacit pro peccato quod non commisit,
+            non incurrit mendacium, sicut cum quis confitetur peccatum quod non credit se fecisse.
+            Si enim dicat peccatum quod non fecit, tamen credit se fecisse, non mentitur; et ideo
+            non peccat si eo modo dicat sicut est in corde suo.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 42, Quaestio 1</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Librum IV, Distinctio 42, Quaestio 1</title>
+          <date when="2016-03-19">March 19, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-19">March 19, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness>1856 editum</witness>
+          <witness xml:id="G" n="ghent567">Ghent, Belgium, Ghent University Library, 567</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="0.0.0-dev">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+
+
+
+
+      <div xml:id="starts-on">
+        <cb ed="#G" n="561b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ta-l4d42q1">
+        <head xml:id="ta-l4d42q1-Hd1e97">Librum IV, Distinctio 42, Quaestio 1</head>
+        <div xml:id="ta-l4d42q1-Dd1e100">
+          <head xml:id="ta-l4d42q1-Hd1e102">Prooemium</head>
+          <p xml:id="ta-l4d42q1-d1e105">Postquam determinavit Magister de carnalis propinquitatis impedimento, hic determinat
+            de impedimento spiritualis propinquitatis; et dividitur in partes duas: in prima
+            ostendit quomodo spiritualis cognatio matrimonium impediat; in secunda inquirit, utrum
+            secundae nuptiae sint licitae, ibi: <quote xml:id="ta-l4d42q1-Qd1e107">sciendum est etiam, quod non solum primae,
+              vel secundae nuptiae sunt licitae, sed etiam tertiae et quartae non sunt
+              damnandae</quote>. Prima in duas: in prima distinguit propinquitatem spiritualem a
+            carnalibus, de quibus supra actum est; in secunda prosequitur de propinquitate
+            spirituali, ibi: <quote xml:id="ta-l4d42q1-Qd1e110">spirituales filii sunt quos de sacro fonte levamus</quote>. Et
+            haec pars dividitur in duas: in prima ostendit unde spiritualis propinquitas
+            contrahatur; in secunda ostendit quomodo matrimonium impediat, ibi: <quote xml:id="ta-l4d42q1-Qd1e113">quod autem
+              compater vel commater sibi jungi nequeant (...) ex Concilio Maguntinensi
+              docetur</quote>. Et haec in duas: in prima ostendit quomodo impedit matrimonium
+            propinquitas spiritualis quam aliqua persona directe contrahit, quae assimilatur
+            consanguinitati; in secunda quomodo impediat matrimonium illa quae indirecte ex uxore in
+            virum redundat per modum cujusdam affinitatis, vel e contra, ibi: <quote xml:id="ta-l4d42q1-Qd1e116">solet etiam
+              quaeri, si commatrem uxoris post ejus obitum quis ducere valeat</quote>. Prima in
+            duas: in prima ostendit quando spiritualis cognatio impediat matrimonium inter compatrem
+            spiritualem et matrem naturalem, aut e converso; in secunda ostendit quando matrimonium
+            impediat inter filios spirituales et naturales, ibi: <quote xml:id="ta-l4d42q1-Qd1e119">quod autem spirituales vel
+              adoptivi filii naturalibus copulari nequeant, Nicolaus Papa testatur</quote>. Prima in
+            duas: in prima ostendit quando spirituali cognatio matrimonium praecedens impediat
+            matrimonium contrahendum, et dirimat contractum inter compatrem et commatrem; non autem
+            si sequatur; in secunda objicit in contrarium, et solvit, ibi: <quote xml:id="ta-l4d42q1-Qd1e123">his autem obviare
+              videtur quod Deusdedit Papa ait. Quod autem spirituales vel adoptivi filii naturalibus
+              copulari nequeant, Nicolaus Papa testatur</quote>. Hic ostendit quando impeditur
+            matrimonium inter prolem spiritualem et naturalem unius hominis; et circa hoc duo facit:
+            primo probat propositum; secundo inquirit, utrum haec probatio se extendat ad fratres
+            naturales spiritualis prolis, quod scilicet possint copulari filiis naturalibus
+            spiritualis patris, ibi: <quote xml:id="ta-l4d42q1-Qd1e126">hoc autem quidam volunt intelligere tantum de illis
+              filiis quibus compatres facti sunt. Solet etiam quaeri si commatrem uxoris post ejus
+              obitum quis ducere valeat</quote>. Circa hoc duo facit. Primo ostendit quod
+            spiritualis cognatio transit a viro in uxorem. Secundo inquirit, utrum possint
+            spiritualiter effici parentes alicujus prolis, ibi: <quote xml:id="ta-l4d42q1-Qd1e129">solet etiam quaeri, si uxor
+              cum viro simul debeat in Baptismo suscipere puerum</quote>. Hic est triplex quaestio.
+            Prima de cognatione spirituali. Secunda de legali. Tertia de secundis nuptiis. Circa
+            primum quaeruntur tria: 1 utrum spiritualis cognatio matrimonium impediat; 2 ex qua
+            causa contrahatur; 3 inter quos contrahatur.</p>
+
+        </div>
+        <div xml:id="ta-l4d42q1-Dd1e134" type="articulus">
+          <head xml:id="ta-l4d42q1-Hd1e136">Articulus 1</head>
+
+          <head xml:id="ta-l4d42q1-Hd1e139" type="questionTitle">Utrum spiritualis cognatio matrimonium impediat</head>
+
+          <p xml:id="ta-l4d42q1-d1e142">Ad primum sic proceditur. Videtur quod spiritualis cognatio matrimonium non impediat.
+            Nihil enim impedit matrimonium quod non contrariatur alicui bono matrimonii. Sed
+            spiritualis cognatio non contrariatur alicui bono matrimonii. Ergo non impedit
+            matrimonium.</p>
+          <p xml:id="ta-l4d42q1-d1e145">Praeterea, perpetuum impedimentum matrimonii non potest stare simul cum matrimonio. Sed
+            cognatio spiritualis stat simul aliquando cum matrimonio, ut in littera dicitur, sicut
+            cum aliquis in casu necessitatis filium suum baptizat: quia tunc fit uxori suae
+            spirituali cognatione conjunctus, nec tamen matrimonium separatur. Ergo spiritualis
+            cognatio matrimonium non impedit.</p>
+          <p xml:id="ta-l4d42q1-d1e148">Praeterea, unio spiritus non transit in carnem. Sed matrimonium est carnalis
+            conjunctio. Ergo cum cognatio spiritualis sit unio spiritus, non potest transire ad
+            matrimonium impediendum.</p>
+          <p xml:id="ta-l4d42q1-d1e152">Praeterea, contrariorum non sunt iidem effectus. Sed spiritualis cognatio videtur esse
+            contraria disparitati cultus; cum spiritualis cognatio sit propinquitas proveniens ex
+            datione sacramenti, vel tentione ad idem; disparitas autem cultus consistit in
+            sacramenti carentia, ut prius, dist. 39, quaest. 1, art. 1, dictum est. Cum ergo
+            disparitas cultus matrimonium impediat, videtur quod spiritualis cognatio non habeat
+            hunc effectum.</p>
+          <p xml:id="ta-l4d42q1-d1e155">Sed contra, quanto aliquod vinculum est sanctius, tanto est magis custodiendum. Sed
+            vinculum spirituale est sanctius quam corporale. Ergo cum vinculum propinquitatis
+            corporalis matrimonium impediat, videtur etiam quod spiritualis cognatio idem
+            faciat.</p>
+          <p xml:id="ta-l4d42q1-d1e158">Praeterea, in matrimonio conjunctio animarum est principalior quam conjunctio corporum,
+            quia praecedit ipsam. Ergo multo fortius spiritualis cognatio matrimonium impedire
+            potest quam carnalis.</p>
+          <p xml:id="ta-l4d42q1-d1e161">Respondeo dicendum, quod sicut per carnis propagationem homo accipit esse naturae, ita
+            per sacramenta accipit esse spirituale gratiae. Unde sicut vinculum quod ex carnis
+            propagatione contrahitur, est naturale homini, inquantum est res quaedam naturae; ita
+            vinculum quod contrahitur ex sacramentorum susceptione, est quodammodo naturale alicui,
+            inquantum est membrum Ecclesiae; et ideo sicut carnalis cognatio impedit matrimonium,
+            ita spiritualis ex Ecclesiae statuto. Tamen distinguendum est de spirituali cognatione.
+            Quia aut praecessit matrimonium, aut sequitur. Si praecessit, impedit contrahendum, et
+            dirimit contractum; si sequitur, tunc non dirimit vinculum matrimonii. Sed quantum ad
+            actum matrimonii est distinguendum. Quia aut spiritualis cognatio inducitur causa
+            necessitatis, sicut cum pater baptizat puerum in articulo mortis; et tunc non impedit
+            actum matrimonii ex neutra parte: aut inducitur extra casum necessitatis, ex ignorantia
+            tamen; et tunc si ille ex cujus actu inducitur, diligentiam adhibuit, est eadem ratio
+            sicut et de primo; aut ex industria extra casum necessitatis; et tunc ille ex cujus actu
+            inducitur, amittit jus petendi debitum; sed tamen debet reddere, quia ex culpa ejus non
+            debet aliquod incommodum alius reportare.</p>
+          <p xml:id="ta-l4d42q1-d1e164">Ad primum ergo dicendum, quod quamvis spiritualis cognatio non impediat aliquod de
+            principalibus bonis matrimonii, tamen impedit aliquod de secundariis bonis, quod est
+            amicitiae multiplicatio: quia spiritualis cognatio est sufficiens ratio amicitiae per
+            se; unde oportet quod ad alios per matrimonium familiaritas et amicitia quaeratur.</p>
+          <p xml:id="ta-l4d42q1-d1e167">Ad secundum dicendum, quod matrimonium est perpetuum vinculum; et ideo nullum
+            impedimentum superveniens potest ipsum dirimere; et sic quandoque contingit quod
+            matrimonium et matrimonii impedimentum stant simul; non autem si impedimentum
+            praecedat.</p>
+          <p xml:id="ta-l4d42q1-d1e171">Ad tertium dicendum, quod in matrimonio non tantum est conjunctio corporalis, sed etiam
+            spiritualis; et ideo propinquitas spiritus ei impedimentum praestat sine hoc quod
+            propinquitas spiritualis transire debeat in carnalem.</p>
+          <p xml:id="ta-l4d42q1-d1e174">Ad quartum dicendum, quod non est inconveniens quod duo contraria ad invicem
+            contrarientur eidem, sicut magnum et parvum aequali; et sic disparitas cultus et
+            spiritualis cognatio matrimonio repugnant: quia in uno est major distantia, et in altero
+            major propinquitas quam matrimonium requirat; et ideo ex utraque parte matrimonium
+            impeditur.</p>
+
+        </div>
+        <div xml:id="ta-l4d42q1-Dd1e178" type="articulus">
+          <head xml:id="ta-l4d42q1-Hd1e180">Articulus 2</head>
+
+          <head xml:id="ta-l4d42q1-Hd1e183" type="questionTitle">Utrum per solum Baptismum spiritualis propinquitas
+            contrahatur</head>
+
+          <p xml:id="ta-l4d42q1-d1e186">Ad secundum sic proceditur. Videtur quod per solum Baptismum spiritualis propinquitas
+            contrahatur. Sicut enim se habet cognatio corporalis ad corporalem generationem, ita
+            spiritualis ad spiritualem. Sed solus Baptismus dicitur spiritualis generatio. Ergo per
+            solum Baptismum contrahitur spiritualis cognatio, sicut per solam generationem carnalem
+            cognatio carnalis.</p>
+          <p xml:id="ta-l4d42q1-d1e189">Praeterea, sicut in confirmatione imprimitur character, ita in ordine. Sed ex
+            susceptione ordinis non sequitur spiritualis cognatio. Ergo nec ex confirmatione; et sic
+            solum ex Baptismo.</p>
+          <p xml:id="ta-l4d42q1-d1e192">Praeterea, sacramenta sunt digniora sacramentalibus. Sed ex quibusdam sacramentis
+            spiritualis cognatio non sequitur, sicut patet in extrema unctione. Ergo multo minus ex
+            catechismo, ut quidam dicunt.</p>
+          <p xml:id="ta-l4d42q1-d1e196">Praeterea, inter sacramentalia Baptismi multa alia praeter catechismum numerantur, ut
+            patet supra, distinct. 6. Ergo ex catechismo non magis contrahitur spiritualis cognatio
+            quam ex aliis.</p>
+          <p xml:id="ta-l4d42q1-d1e199">Praeterea, oratio non est minus efficax ad promovendum in bonum quam instructio sive
+            catechizatio. Sed ex oratione non contrahitur spiritualis cognatio. Ergo nec ex
+            catechismo.</p>
+          <p xml:id="ta-l4d42q1-d1e202">Praeterea, instructio quae fit baptizatis per praedicationem, non minus valet quam illa
+            quae fit nondum baptizatis. Sed ex praedicatione non contrahitur aliqua spiritualis
+            cognatio. Ergo nec ex catechismo.</p>
+          <p xml:id="ta-l4d42q1-d1e205">Sed contra, 1 Corinth. 4, 15: <quote xml:id="ta-l4d42q1-Qd1e207">in Christo Jesu per Evangelium ego vos
+              genui</quote>. Sed spiritualis generatio causat spiritualem cognationem. Ergo ex
+            praedicatione Evangelii et instructione fit spiritualis cognatio, et non solum ex
+            Baptismo.</p>
+          <p xml:id="ta-l4d42q1-d1e211">Praeterea, sicut per Baptismum tollitur peccatum originale, ita per poenitentiam
+            actuale. Ergo sicut Baptisma causat spiritualem cognationem, ita et poenitentia.</p>
+          <p xml:id="ta-l4d42q1-d1e214">Praeterea, pater nomen cognationis est. Sed per poenitentiam et doctrinam et pastoralem
+            curam et multa hujusmodi aliquis dicitur alteri spiritualis pater. Ergo ex multis aliis
+            praeter Baptismum et confirmationem spiritualis cognatio contrahitur.</p>
+          <p xml:id="ta-l4d42q1-d1e218">Respondeo dicendum, quod circa hoc est triplex opinio. Quidam enim dicunt, quod
+            spiritualis regeneratio sicut per septiformem spiritus sancti gratiam datur, ita per
+            septem efficitur, incipiendo a primo pabulo salis sacramenti usque ad confirmationem per
+            episcopum factam, et per quodlibet horum septem spiritualis cognatio contrahitur. Sed
+            illud non videtur rationabile: quia cognatio carnalis non contrahitur nisi per actum
+            generationis completum; unde etiam affinitas non contrahitur nisi sit facta conjunctio
+            seminum, ex qua potest sequi carnalis generatio. Spiritualis autem generatio non
+            perficitur nisi per aliquod sacramentum. Et ideo inconveniens est quod spiritualis
+            cognatio contrahatur nisi per aliquod sacramentum. Et ideo alii dicunt, quod per tria
+            tantum sacramenta spiritualis cognatio contrahitur; scilicet per catechismum, Baptismum,
+            et confirmationem. Sed isti propriam vocem videntur ignorare: quia catechismus non est
+            sacramentum, sed sacramentale. Et ideo alii dicunt, quod tantum per duo sacramenta,
+            scilicet per Baptismum, et confirmationem; et haec opinio est communior. Tamen de
+            catechismo quidam horum dicunt, quod est debile impedimentum quod impedit contrahendum,
+            sed non dirimit matrimonium contractum.</p>
+          <p xml:id="ta-l4d42q1-d1e221">Ad primum ergo dicendum, quod duplex est carnalis nativitas. Prima in utero, in quo
+            adhuc id quod natum est, est adeo debile quod non possit extra exponi sine periculo; et
+            huic nativitati similatur generatio per Baptismum, in quo regeneratur aliquis adhuc
+            quasi fovendus intra uterum Ecclesiae. Secunda est nativitas ex utero, quando jam id
+            quod natum erat in utero, tantum roboratum est quod potest sine periculo exponi
+            exterioribus, quae nata sunt corrumpere; et huic similatur confirmatio, per quam homo
+            roboratus exponitur in publicum ad confessionem nominis Christi. Et ideo congrue per
+            utrumque istorum sacramentorum contrahitur spiritualis cognatio.</p>
+          <p xml:id="ta-l4d42q1-d1e224">Ad secundum dicendum, quod per ordinis sacramentum non fit aliqua regeneratio, sed
+            quaedam promotio potestatis; et propterea mulier non suscipit ordinem; et sic non potest
+            ex hoc aliquod impedimentum praestare matrimonio; et ideo talis cognatio non
+            computatur.</p>
+          <p xml:id="ta-l4d42q1-d1e227">Ad tertium dicendum, quod in catechismo fit quaedam professio futuri Baptismi, sicut in
+            sponsalibus fit quaedam sponsio futurarum nuptiarum; unde sicut in sponsalibus
+            contrahitur quidam modus propinquitatis, ita et in catechismo, ad minus impediens
+            contrahendum, ut quidam dicunt; non autem in aliis sacramentis.</p>
+          <p xml:id="ta-l4d42q1-d1e230">Ad quartum dicendum, quod talis professio fidei non fit in aliis sacramentalibus
+            Baptismi, sicut in catechismo; et ideo non est similis ratio.</p>
+          <p xml:id="ta-l4d42q1-d1e233">Et similiter dicendum ad quintum de oratione, et ad sextum de praedicatione.</p>
+          <p xml:id="ta-l4d42q1-d1e237">Ad septimum dicendum, quod apostolus eos ad fidem instruxerat per modum catechismi; et
+            sic aliquo modo talis instructio habebat ordinem ad spiritualem cognationem.</p>
+          <p xml:id="ta-l4d42q1-d1e240">Ad octavum dicendum, quod per sacramentum poenitentiae non contrahitur, proprie
+            loquendo, spiritualis cognatio; unde filius sacerdotis potest contrahere cum illa quam
+            sacerdos in confessione audit: alias filius sacerdotis non inveniret in tota una
+            parochia mulierem cum qua contraheret. Nec obstat quod per poenitentiam tollitur
+            peccatum actuale: quia hoc non est per modum generationis, sed magis per modum
+            sanationis. Sed tamen per poenitentiam contrahitur quoddam foedus inter sacerdotem et
+            mulierem confitentem, simile cognationi spirituali, ut tantum peccet eam carnaliter
+            cognoscens, ac si esset sua spiritualis filia; et hoc ideo quia maxima familiaritas est
+            inter sacerdotem et confitentem; et ex hoc ista prohibitio est inducta, ut tollatur
+            peccandi occasio.</p>
+          <p xml:id="ta-l4d42q1-d1e243">Ad nonum dicendum, quod pater spiritualis dicitur ad similitudinem patris carnalis.
+            Pater autem corporalis, ut dicit philosophus in 8 Ethic., tria dat, esse, nutrimentum,
+            et instructionem; et ideo spiritualis pater aliquis alicujus dicitur ratione alicujus
+            horum trium. Tamen ex hoc quod est spiritualis pater, non habet cognationem spiritualem,
+            nisi conveniat cum patre quantum ad generationem, per quam est esse. Et sic etiam potest
+            solvi octavum quod praecessit.</p>
+
+        </div>
+        <div xml:id="ta-l4d42q1-Dd1e247" type="articulus">
+          <head xml:id="ta-l4d42q1-Hd1e249">Articulus 3</head>
+
+          <head xml:id="ta-l4d42q1-Hd1e252" type="questionTitle">Utrum cognatio spiritualis contrahatur inter suscipientem
+            sacramentum Baptismi et levantem de sacro fonte</head>
+
+          <div xml:id="ta-l4d42q1-Dd1e255">
+            <head xml:id="ta-l4d42q1-Hd1e257">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d42q1-d1e260">Ad tertium sic proceditur. Videtur quod cognatio spiritualis non contrahatur inter
+              suscipientem sacramentum Baptismi et levantem de sacro fonte. Quia in generatione
+              carnali contrahitur propinquitas solum ex parte ejus cujus semine generatur proles,
+              non autem ex parte ejus qui puerum natum suscepit. Ergo nec spiritualis cognatio
+              contrahitur inter eum qui suscipit de sacro fonte, et eum qui suscipitur.</p>
+            <p xml:id="ta-l4d42q1-d1e263">Praeterea, ille qui in sacro fonte levat <quote xml:id="ta-l4d42q1-Qd1e265">anadocus</quote> a Dionysio dicitur,
+              et ad ejus officium spectat puerum instruere. Sed instructio non est sufficiens causa
+              spiritualis cognationis, ut dictum est. Ergo nulla cognatio contrahitur inter eum et
+              illum qui de sacro fonte levatur.</p>
+            <p xml:id="ta-l4d42q1-d1e269">Praeterea, potest contingere quod aliquis levet aliquem de sacro fonte antequam ipse
+              sit baptizatus. Sed ex hoc non contrahitur aliqua spiritualis cognatio: quia ille qui
+              non est baptizatus, non est capax alicujus spiritualitatis. Ergo levare aliquem de
+              sacro fonte non sufficit ad cognationem spiritualem contrahendam.</p>
+            <p xml:id="ta-l4d42q1-d1e272">Sed contra est definitio spiritualis cognationis supra inducta, et auctoritates quae
+              ponuntur in littera.</p>
+
+          </div>
+          <div xml:id="ta-l4d42q1-Dd1e276">
+            <head xml:id="ta-l4d42q1-Hd1e278">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d42q1-d1e281">Ulterius. Videtur quod spiritualis cognatio non transeat a viro in uxorem. Quia
+              spiritualis unio et corporalis sunt disparatae, et diversorum generum. Ergo mediante
+              carnali conjunctione, quae est inter virum et uxorem, non transitur ad spiritualem
+              cognationem.</p>
+            <p xml:id="ta-l4d42q1-d1e284">Praeterea, magis conveniunt in spirituali generatione, quae est causa spiritualis
+              cognationis, pater et mater spiritualis, quam vir qui est pater spiritualis et uxor.
+              Sed pater et mater spiritualis nullam ex hoc cognationem spiritualem contrahunt. Ergo
+              nec uxor contrahit aliquam cognationem spiritualem ex hoc quod vir ejus sit pater
+              spiritualis alicujus.</p>
+            <p xml:id="ta-l4d42q1-d1e287">Praeterea, potest contingere quod vir est baptizatus et uxor non est baptizata, sicut
+              quando unus est ab infidelitate conversus sine alterius conjugis conversione. Sed
+              spiritualis cognatio non potest pervenire ad non baptizatum. Ergo non transit semper
+              de viro ad uxorem.</p>
+            <p xml:id="ta-l4d42q1-d1e290">Praeterea, vir et uxor possunt aliquem simul de sacro fonte levare. Si ergo
+              spiritualis cognatio a viro transiret in uxorem, sequeretur quod uterque conjugum
+              esset bis pater vel mater spiritualis ejusdem; quod est inconveniens.</p>
+            <p xml:id="ta-l4d42q1-d1e294">Sed contra, bona spiritualia magis multiplicabilia sunt quam corporalia. Sed
+              consanguinitas corporalis viri transit ad uxorem per affinitatem. Ergo multo magis
+              spiritualis cognatio.</p>
+
+          </div>
+          <div xml:id="ta-l4d42q1-Dd1e298">
+            <head xml:id="ta-l4d42q1-Hd1e300">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d42q1-d1e303">Ulterius. Videtur quod non transeat ad filios carnales patris spiritualis. Quia
+              spirituali cognationi non assignantur gradus, essent autem gradus, si transiret a
+              patre in filium; quia persona generata mutat gradum, ut supra, dist. 40, quaest.
+              unica, art. 2, in corp., dictum est. Ergo non transit ad filios carnales patris
+              spiritualis.</p>
+            <p xml:id="ta-l4d42q1-d1e306">Praeterea, pater eodem gradu attinet filio, et frater fratri. Si ergo spiritualis
+              cognatio transit a patre in filium, eadem ratione transibit a fratre in fratrem; quod
+              falsum est.</p>
+            <p xml:id="ta-l4d42q1-d1e309">Sed contra est quod in littera probatur pari auctoritate.</p>
+          </div>
+          <div xml:id="ta-l4d42q1-Dd1e314">
+            <head xml:id="ta-l4d42q1-Hd1e316">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d42q1-d1e319">Respondeo dicendum ad primam quaestionem, quod sicut in generatione carnali aliquis
+              nascitur ex patre et matre; ita in generatione spirituali aliquis renascitur filius
+              Dei sicut patris, et Ecclesiae sicut matris. Sicut autem ille qui sacramentum confert,
+              gerit personam Dei, cujus instrumentum et minister est; ita ille qui baptizatum
+              suscipit de sacro fonte, aut confirmandum tenet, gerit personam Ecclesiae; unde ad
+              utrumque spiritualis cognatio contrahitur.</p>
+            <p xml:id="ta-l4d42q1-d1e322">Ad primum ergo dicendum, quod non tantum pater ex cujus semine generatur proles,
+              habet cognationem carnalem ad natum, sed etiam mater, quae materiam ministrat, et in
+              cujus utero generatur; et ita etiam anadocus qui baptizandum vice totius Ecclesiae
+              offert et suscipit, et confirmandum tenet, spiritualem cognationem contrahit.</p>
+            <p xml:id="ta-l4d42q1-d1e325">Ad secundum dicendum, quod non ratione instructionis debitae, sed ratione
+              generationis spiritualis, ad quam cooperatur, spiritualem cognationem contrahit.</p>
+            <p xml:id="ta-l4d42q1-d1e328">Ad tertium dicendum, quod non baptizatus non potest aliquem levare de sacro fonte,
+              cum non sit membrum Ecclesiae, cujus typum gerit in Baptismo suscipiens; quamvis
+              possit baptizare, quia est creatura Dei, cujus typum gerit baptizans. Nec tamen
+              aliquam cognationem contrahere spiritualem potest; quia est expers spiritualis vitae,
+              in quam homo primo per Baptismum nascitur.</p>
+
+          </div>
+          <div xml:id="ta-l4d42q1-Dd1e332">
+            <head xml:id="ta-l4d42q1-Hd1e334">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d42q1-d1e337">Ad secundam quaestionem dicendum, quod aliquis potest alicujus fieri compater
+              dupliciter. Uno modo per actum alterius qui baptizat, vel in ipso Baptismo suscipit
+              filium ejus; et sic cognatio spiritualis non transit a viro in uxorem, nisi forte ille
+              sit filius uxoris; quia tunc uxor directe contrahit cognationem spiritualem, sicut et
+              vir. Alio modo per actum proprium, sicut cum levat filium alterius de sacro fonte; et
+              sic cognatio spiritualis transit ad uxorem quam jam carnaliter cognovit; non autem si
+              nondum sit consummatum matrimonium, quia nondum effecti sunt una caro; et hoc est per
+              modum cujusdam affinitatis; unde etiam pari ratione videtur transire ad mulierem quae
+              est carnaliter cognita, quamvis non sit uxor; unde versus: <quote xml:id="ta-l4d42q1-Qd1e339">qui mihi, vel cujus
+                mea natum de fonte levavit, haec mea commater, fieri mea non valet uxor. Si qua meae
+                natum, non ex me, fonte levavit, hanc post fata meae, non inde vetabor
+                habere</quote>.</p>
+            <p xml:id="ta-l4d42q1-d1e343">Ad primum ergo dicendum, quod ex hoc quod sunt diversorum generum unio spiritualis et
+              corporalis, potest concludi quod una non est altera; non autem quod una non possit
+              esse causa alterius; quia eorum quae sunt in diversis generibus, unum quandoque est
+              causa alterius vel per se vel per accidens.</p>
+            <p xml:id="ta-l4d42q1-d1e346">Ad secundum dicendum, quod pater spiritualis et mater spiritualis eidem non
+              conjunguntur in generatione spirituali nisi per accidens; quia unus ad hoc per se
+              sufficeret; unde non oportet quod ex hoc aliqua cognatio spiritualis inter eos
+              nascatur, quin possit esse inter eos matrimonium; unde versus: <quote xml:id="ta-l4d42q1-Qd1e348">unus semper erit
+                compatrum spiritualis, alter carnalis: nec fallit regula talis</quote>. Sed per
+              matrimonium fit vir et uxor una caro, per se loquendo; et ideo non est simile.</p>
+            <p xml:id="ta-l4d42q1-d1e352">Ad tertium dico, quod si uxor non sit baptizata, non perveniet ad eam spiritualis
+              cognatio propter hoc quod non est capax, non ex hoc quod non possit per matrimonium
+              traduci spiritualis cognatio a viro in uxorem.</p>
+            <p xml:id="ta-l4d42q1-d1e356">Ad quartum dicendum, quod ex quo inter patrem spiritualem et matrem non contrahitur
+              aliqua cognatio, nihil prohibet quin vir et uxor simul aliquem de sacro fonte
+              levarent; nec est inconveniens quod uxor ex diversis causis efficiatur bis mater
+              spiritualis ejusdem; sicut et potest esse quod est affinis et consanguinea ejusdem per
+              carnalem propinquitatem.</p>
+
+          </div>
+          <div xml:id="ta-l4d42q1-Dd1e360">
+            <head xml:id="ta-l4d42q1-Hd1e362">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d42q1-d1e365">Ad tertiam quaestionem dicendum, quod filius est aliquid patris, et non e converso,
+              ut dicitur in 8 Ethic.: et ideo spiritualis cognatio transit a patre in filium, sed
+              non e converso, et sic patet quod sunt tres spirituales cognationes. Una quae dicitur
+              spiritualis paternitas, quae est inter patrem spiritualem et filium spiritualem. Alia
+              quae dicitur compaternitas, quae est inter patrem spiritualem et carnalem ejusdem.
+              Tertia autem dicitur spiritualis fraternitas, quae est inter filium spiritualem et
+              filios carnales ejusdem patris. Et quaelibet harum impedit contrahendum matrimonium,
+              et dirimit contractum.</p>
+            <p xml:id="ta-l4d42q1-d1e368">Ad primum ergo dicendum, quod persona addita per carnis propagationem, facit gradum
+              respectu illius personae quae eodem genere attinet, non autem respectu ejus quae
+              attinet in alio genere; sicut filius attinet in eodem gradu uxori patris in quo et
+              pater, quamvis alio genere attinentiae. Spiritualis autem cognatio est alterius
+              generis quam carnalis; et ideo non in eodem gradu attinet filius spiritualis filio
+              naturali patris sui spiritualis in quo attinet ei pater ejus, quo mediante cognatio
+              spiritualis transit; et ita non oportet quod spiritualis cognatio habeat gradum.</p>
+            <p xml:id="ta-l4d42q1-d1e371">Ad secundum dicendum, quod frater non est aliquid fratris, sicut filius est aliquid
+              patris; sed uxor est aliquid viri, cum qua effecta est unum corpus; et ideo a fratre
+              in fratrem non transit, sive sit genitus ante, sive post fraternitatem
+              spiritualem.</p>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

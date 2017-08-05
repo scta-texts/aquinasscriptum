@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 23, Quaestio 2</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Librum IV, Distinctio 23, Quaestio 2</title>
+          <date when="2016-03-19">March 19, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-19">March 19, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness>1856 editum</witness>
+          <witness xml:id="G" n="ghent567">Ghent, Belgium, Ghent University Library, 567</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="0.0.0-dev">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+
+
+
+
+      <div xml:id="starts-on">
+        <cb ed="#G" n="403b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ta-l4d23q2">
+        <head xml:id="ta-l4d23q2-Hd1e97">Librum IV, Distinctio 23, Quaestio 2</head>
+        <div xml:id="ta-l4d23q2-Dd1e100">
+          <head xml:id="ta-l4d23q2-Hd1e102">Prooemium</head>
+          <p xml:id="ta-l4d23q2-d1e105">Deinde quaeritur de administratione hujus sacramenti; et circa hoc quaeruntur quatuor:
+            1 quis sit minister hujus sacramenti; 2 cui debeat conferri; 3 in qua parte; 4 utrum
+            debeat iterari.</p>
+
+        </div>
+        <div xml:id="ta-l4d23q2-Dd1e109" type="articulus">
+          <head xml:id="ta-l4d23q2-Hd1e111">Articulus 1</head>
+
+          <head xml:id="ta-l4d23q2-Hd1e114" type="questionTitle">Utrum laicus possit hoc sacramentum conferre</head>
+
+          <div xml:id="ta-l4d23q2-Dd1e117">
+            <head xml:id="ta-l4d23q2-Hd1e119">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d23q2-d1e122">Ad primum sic proceditur. Videtur quod etiam laicus possit hoc sacramentum conferre.
+              Quia hoc sacramentum habet efficaciam ex oratione, ut Jacobus dicit. Sed oratio laici
+              quandoque est aeque Deo accepta sicut sacerdotis. Ergo potest hoc sacramentum
+              conferre.</p>
+            <p xml:id="ta-l4d23q2-d1e125">Praeterea, de quibusdam patribus in Aegypto legitur, quod oleum ad infirmos
+              transmittebant et sanabantur; et similiter dicitur de beata Genovefa quod oleo
+              infirmos ungebat. Ergo hoc sacramentum potest conferri etiam a laicis.</p>
+            <p xml:id="ta-l4d23q2-d1e128">Sed contra est, quia in hoc sacramento fit remissio peccatorum. Sed laici non habent
+              potestatem dimittendi peccata. Ergo et cetera.</p>
+
+          </div>
+          <div xml:id="ta-l4d23q2-Dd1e132">
+            <head xml:id="ta-l4d23q2-Hd1e134">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d23q2-d1e137">Ulterius. Videtur quod diaconi possint hoc sacramentum conferre. Quia, secundum
+              Dionysium, diaconi habent virtutem purgativam. Sed hoc sacramentum est institutum ad
+              purgandum tantum ab infirmitate mentis et corporis. Ergo diaconi possunt conferre.</p>
+            <p xml:id="ta-l4d23q2-d1e140">Praeterea, dignius sacramentum est Baptismus quam hoc de quo agimus. Sed diaconi
+              possunt baptizare, ut patet de beato Laurentio. Ergo et possunt hoc sacramentum
+              conferre.</p>
+            <p xml:id="ta-l4d23q2-d1e143">Sed contra est quod dicitur Jac. 5, 14: <quote xml:id="ta-l4d23q2-Qd1e145">inducat presbyteros
+              Ecclesiae</quote>.</p>
+
+          </div>
+          <div xml:id="ta-l4d23q2-Dd1e150">
+            <head xml:id="ta-l4d23q2-Hd1e152">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d23q2-d1e155">Ulterius. Videtur quod solus episcopus possit hoc sacramentum conferre. Quia hoc
+              sacramentum unctione perficitur, sicut et confirmatio. Sed solus episcopus potest
+              confirmare. Ergo solus potest hoc sacramentum conferre.</p>
+            <p xml:id="ta-l4d23q2-d1e158">Praeterea, qui non potest quod est minus, non potest quod est majus. Sed majus est
+              usus materiae sanctificatae quam sanctificatio ejus, quia est finis ipsius. Ergo cum
+              sacerdos non possit sanctificare materiam, nec potest materia sanctificata uti.</p>
+            <p xml:id="ta-l4d23q2-d1e161">Sed contra, hujus sacramenti minister inducendus est ad eum qui suscipit sacramentum,
+              ut patet Jacob. 5. Sed episcopus non posset accedere ad omnes infirmos suae dioecesis.
+              Ergo non solus episcopus potest hoc sacramentum conferre.</p>
+          </div>
+          <div xml:id="ta-l4d23q2-Dd1e166">
+            <head xml:id="ta-l4d23q2-Hd1e168">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d23q2-d1e171">Respondeo dicendum ad primam quaestionem, quod secundum Dionysium in Eccles. Hierar.,
+              sunt quidam exercentes actiones hierarchicas, et quidam recipientes tantum, qui sunt
+              laici; et ideo nullius sacramenti dispensatio laico ex officio competit; sed quod
+              baptizare possunt in casu necessitatis, est divina dispensatione factum, ut nulli
+              regenerationis spiritualis facultas desit.</p>
+            <p xml:id="ta-l4d23q2-d1e174">Ad primum ergo dicendum, quod oratio illa non fit a sacerdote in persona sua: quia
+              cum sit quandoque peccator, non esset exaudibilis: sed fit in persona totius
+              Ecclesiae, in cujus persona orare potest quasi persona publica; non autem laicus, qui
+              est persona privata.</p>
+            <p xml:id="ta-l4d23q2-d1e177">Ad secundum dicendum, quod illae unctiones non erant sacramentales, sed ex quadam
+              devotione recipientium talem unctionem, et meritis ungentium vel oleum mittentium
+              consequebatur effectus sanitatis corporalis per gratiam sanitatum, non per gratiam
+              sacramentalem.</p>
+
+          </div>
+          <div xml:id="ta-l4d23q2-Dd1e181">
+            <head xml:id="ta-l4d23q2-Hd1e183">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d23q2-d1e186">Ad secundam quaestionem dicendum, quod diaconus habet vim purgativam tantum, non
+              autem illuminativam; unde cum illuminatio sit per gratiam, nullum sacramentum in quo
+              gratia conferatur, potest diaconus ex officio dare; et ideo nec hoc, cum in eo gratia
+              conferatur.</p>
+            <p xml:id="ta-l4d23q2-d1e189">Ad primum ergo dicendum, quod hoc sacramentum illuminando per collationem gratiae
+              purgat: et ideo diaconis ejus non competit collatio.</p>
+            <p xml:id="ta-l4d23q2-d1e192">Ad secundum dicendum, quod hoc sacramentum non est necessitatis sacramentum, sicut
+              Baptismus; unde non ita committitur dispensatio ejus omnibus in articulo necessitatis,
+              sed solum illis quibus ex officio competit; diaconis autem etiam baptizare non
+              competit ex officio.</p>
+
+          </div>
+          <div xml:id="ta-l4d23q2-Dd1e196">
+            <head xml:id="ta-l4d23q2-Hd1e198">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d23q2-d1e201">Ad tertiam quaestionem dicendum, quod secundum Dionysium, episcopus proprie habet
+              perficiendi officium, sicut sacerdos illuminandi; unde illa sacramenta dispensanda
+              solis episcopis reservantur quae suscipientem in aliquo statu perfectionis super alios
+              ponunt: hoc autem non est in hoc sacramento, cum omnibus detur; et ideo per simplices
+              sacerdotes potest administrari.</p>
+            <p xml:id="ta-l4d23q2-d1e204">Ad primum ergo dicendum, quod confirmatio imprimit characterem, quo collocatur homo
+              in statu perfectionis, ut supra, dist. 7, qu. 2, art. 1, quaestiunc. 1, dictum est;
+              non autem hoc est in hoc sacramento; et ideo non est simile.</p>
+            <p xml:id="ta-l4d23q2-d1e207">Ad secundum dicendum, quod quamvis in genere causae finalis usus materiae
+              sanctificatae sit potior quam sanctificatio materiae; tamen in genere causae
+              efficientis sanctificatio materiae est potior, quia ab eodem pendet usus sicut ab
+              activa causa; et ideo sanctificatio requirit altiorem virtutem activam quam usus.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d23q2-Dd1e212" type="articulus">
+          <head xml:id="ta-l4d23q2-Hd1e214">Articulus 2</head>
+
+          <head xml:id="ta-l4d23q2-Hd1e217" type="questionTitle">Utrum etiam sanis debeat conferri hoc sacramentum</head>
+
+          <div xml:id="ta-l4d23q2-Dd1e220">
+            <head xml:id="ta-l4d23q2-Hd1e222">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d23q2-d1e225">Ad secundum sic proceditur. Videtur quod etiam sanis debeat conferri hoc sacramentum.
+              Quia principalior effectus hujus sacramenti est sanatio mentis quam sanatio corporis,
+              ut dictum est. Sed etiam sani corpore indigent sanatione mentis. Ergo eis debet hoc
+              sacramentum conferri.</p>
+            <p xml:id="ta-l4d23q2-d1e228">Praeterea, hoc sacramentum est exeuntium sicut Baptismus intrantium. Sed omnibus
+              intrantibus Baptismus datur. Ergo omnibus exeuntibus debet dari hoc sacramentum. Sed
+              quandoque illi qui sunt in propinquo exitus, sunt sani, sicut illi qui decapitandi
+              sunt. Ergo talibus debet hoc sacramentum dari.</p>
+            <p xml:id="ta-l4d23q2-d1e231">Sed contra est quod dicitur Jacob. 5, 14: <quote xml:id="ta-l4d23q2-Qd1e233">infirmatur quis in vobis</quote> et
+              cetera. Ergo solis infirmis competit.</p>
+
+          </div>
+          <div xml:id="ta-l4d23q2-Dd1e238">
+            <head xml:id="ta-l4d23q2-Hd1e240">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d23q2-d1e243">Ulterius. Videtur quod in qualibet infirmitate hoc sacramentum dari debeat. Quia
+              Jacob. 5 ubi hoc sacramentum traditur, nulla infirmitas determinatur. Ergo in omnibus
+              infirmitatibus debet hoc sacramentum conferri.</p>
+            <p xml:id="ta-l4d23q2-d1e246">Praeterea, quanto remedium est dignius, tanto debet esse generalius. Sed hoc
+              sacramentum est dignius quam medicina corporalis. Cum ergo medicina corporalis omnibus
+              infirmis detur, videtur quod etiam hoc sacramentum.</p>
+            <p xml:id="ta-l4d23q2-d1e249">Sed contra, hoc sacramentum dicitur ab omnibus extremae unctionis. Sed non omnis
+              infirmitas ad extremum vitae perducit, cum quaedam infirmitates sint causae longioris
+              vitae, ut dicit philosophus. Ergo non omnibus infirmantibus debet hoc sacramentum
+              dari.</p>
+
+          </div>
+          <div xml:id="ta-l4d23q2-Dd1e253">
+            <head xml:id="ta-l4d23q2-Hd1e255">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d23q2-d1e258">Ulterius. Videtur quod furiosis et amentibus hoc sacramentum dari debeat. Quia tales
+              aegritudines sunt periculosissimae, et cito ad mortem disponunt. Sed periculo debet
+              adhiberi remedium. Ergo hoc sacramentum, quod est in remedium infirmitatis humanae,
+              debet talibus conferri.</p>
+            <p xml:id="ta-l4d23q2-d1e261">Praeterea, dignius sacramentum est Baptismus quam istud. Sed Baptismus datur
+              furiosis, ut supra dictum est. Ergo et hoc sacramentum eis debet dari.</p>
+            <p xml:id="ta-l4d23q2-d1e264">Sed contra, hoc sacramentum non est dandum nisi recognoscentibus ipsum. Sed tales non
+              sunt furiosi et amentes. Ergo eis dari non debet.</p>
+
+          </div>
+          <div xml:id="ta-l4d23q2-Dd1e269">
+            <head xml:id="ta-l4d23q2-Hd1e271">Quaestiuncula 4</head>
+            <p xml:id="ta-l4d23q2-d1e274">Ulterius. Videtur quod debeat dari pueris. Quia eisdem infirmitatibus quandoque
+              laborant pueri et adulti. Sed eidem morbo debet adhiberi idem remedium. Ergo sicut
+              adultis, ita et pueris debet hoc sacramentum conferri.</p>
+            <p xml:id="ta-l4d23q2-d1e277">Praeterea, hoc sacramentum datur ad purgandum reliquias peccati, ut praedictum est,
+              tam originalis quam actualis. Sed in pueris sunt reliquiae originalis peccati. Ergo
+              eis debet hoc sacramentum dari.</p>
+            <p xml:id="ta-l4d23q2-d1e280">Sed contra est quod nulli debet dari sacramentum cui non competit forma sacramenti.
+              Sed forma hujus sacramenti non competit pueris, qui non peccaverunt per visum et
+              auditum, ut in forma exprimitur. Ergo eis non debet dari hoc sacramentum.</p>
+          </div>
+          <div xml:id="ta-l4d23q2-Dd1e284">
+            <head xml:id="ta-l4d23q2-Hd1e286">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d23q2-d1e289">Respondeo dicendum ad primam quaestionem, quod hoc sacramentum est quaedam
+              spiritualis curatio, ut prius dictum est, quae quidem per quemdam corporalis
+              curationis modum significatur; et ideo illis quibus corporalis curatio non competit,
+              scilicet sanis, non debet sacramentum conferri.</p>
+            <p xml:id="ta-l4d23q2-d1e292">Ad primum ergo dicendum, quod quamvis spiritualis sanitas sit principalis effectus
+              hujus sacramenti, tamen oportet quod per curationem corporalem significetur curatio
+              spiritualis, etiam si corporalis sanatio non sequatur; et ideo solum illis hoc
+              sacramento sanitas spiritualis dari potest quibus curatio corporalis competit,
+              scilicet infirmis; sicut ille solus potest Baptismum suscipere qui potest corporalis
+              ablutionis esse particeps; non autem puer in ventre matris existens.</p>
+            <p xml:id="ta-l4d23q2-d1e295">Ad secundum dicendum, quod Baptismus etiam non est nisi illorum intrantium qui
+              corporali ablutioni subjici possunt; et ideo hoc sacramentum illorum tantum exeuntium
+              est quibus corporalis curatio competit.</p>
+
+          </div>
+          <div xml:id="ta-l4d23q2-Dd1e299">
+            <head xml:id="ta-l4d23q2-Hd1e301">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d23q2-d1e304">Ad secundam quaestionem dicendum, quod hoc sacramentum est ultimum remedium quod
+              Ecclesia potest conferre, quasi immediate disponens ad gloriam; et ideo illis tantum
+              infirmantibus debet exhiberi qui sunt in statu exeuntium, propter hoc quod aegritudo
+              nata est mortem inducere, et de periculo timetur.</p>
+            <p xml:id="ta-l4d23q2-d1e307">Ad primum ergo dicendum, quod quaelibet infirmitas augmentata potest mortem inducere;
+              et ideo si genera infirmitatum pensantur, in qualibet aegritudine potest dari hoc
+              sacramentum, quia apostolus non determinat infirmitatem aliquam; sed si pensetur
+              infirmitatis modus et status, non semper debet infirmantibus hoc sacramentum dari.</p>
+            <p xml:id="ta-l4d23q2-d1e310">Ad secundum dicendum, quod medicina corporalis habet pro principali effectu sanitatem
+              corporalem, qua omnes infirmi in quolibet statu indigent: sed hoc sacramentum habet
+              pro principali effectu illam sospitatem quae exeuntibus et iter ad gloriam agentibus
+              est necessaria; et ideo non est simile.</p>
+
+          </div>
+          <div xml:id="ta-l4d23q2-Dd1e314">
+            <head xml:id="ta-l4d23q2-Hd1e316">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d23q2-d1e319">Ad tertiam quaestionem dicendum, quod ad effectum hujus sacramenti percipiendum
+              plurimum valet devotio suscipientis, et personale meritum conferentium, et generale
+              totius Ecclesiae: quod patet ex hoc quod per modum deprecationis forma hujus
+              sacramenti confertur; et ideo illis qui non possunt recognoscere, et cum devotione
+              suscipere, hoc sacramentum dari non debet; et praecipue furiosis et amentibus, qui
+              possunt irreverentiam sacramento per aliquam immunditiam facere: nisi haberent lucida
+              intervalla, in quibus sacramenta recognoscerent, et sic eis conferri in statu illo
+              possent.</p>
+            <p xml:id="ta-l4d23q2-d1e322">Ad primum ergo dicendum, quod quamvis in periculo mortis tales quandoque sint, tamen
+              remedium per devotionem propriam non potest eis applicari; et ideo non debet eis
+              conferri.</p>
+            <p xml:id="ta-l4d23q2-d1e325">Ad secundum dicendum, quod Baptismus non requirit motum liberi arbitrii, quia datur
+              contra originale principaliter, quod non curatur in nobis ex nostro libero arbitrio;
+              sed in hoc sacramento requiritur motus liberi arbitrii; et ideo non est simile. Et
+              praeterea Baptismus est sacramentum necessitatis, non autem extrema unctio.</p>
+
+          </div>
+          <div xml:id="ta-l4d23q2-Dd1e329">
+            <head xml:id="ta-l4d23q2-Hd1e331">Quaestiuncula 4</head>
+            <p xml:id="ta-l4d23q2-d1e334">Ad quartam quaestionem dicendum, quod hoc sacramentum exigit actualem devotionem in
+              suscipiente, sicut et Eucharistia; unde sicut Eucharistia non debet dari pueris, ita
+              nec hoc sacramentum.</p>
+            <p xml:id="ta-l4d23q2-d1e337">Ad primum ergo dicendum, quod non datur contra reliquias originalis peccati, nisi
+              secundum quod sunt actualia peccata quodammodo confortatae; unde principaliter contra
+              actualia peccata datur, ut ex ipsa forma patet, quae non sunt in pueris.</p>
+            <p xml:id="ta-l4d23q2-d1e340">Ad secundum dicendum, quod infirmitates in pueris non sunt ex peccato actuali
+              causatae, sicut in adultis; et contra illas praecipue infirmitates hoc sacramentum
+              datur quae sunt ex peccato causatae, quasi peccati reliquiae.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d23q2-Dd1e345" type="articulus">
+          <head xml:id="ta-l4d23q2-Hd1e347">Articulus 3</head>
+
+          <head xml:id="ta-l4d23q2-Hd1e350" type="questionTitle">Utrum hoc sacramento totum corpus inungi debeat</head>
+
+          <div xml:id="ta-l4d23q2-Dd1e353">
+            <head xml:id="ta-l4d23q2-Hd1e355">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d23q2-d1e358">Ad tertium sic proceditur. Videtur quod hoc sacramento totum corpus inungi debeat.
+              Quia, secundum Augustinum, anima tota est in toto corpore. Sed praecipue datur hoc
+              sacramentum ad sanandum animam. Ergo in toto corpore debet inunctio fieri.</p>
+            <p xml:id="ta-l4d23q2-d1e361">Praeterea, ubi est morbus, ibi debet apponi medicina. Sed morbus est universalis in
+              toto corpore, sicut febris. Ergo totum corpus inungi debet.</p>
+            <p xml:id="ta-l4d23q2-d1e364">Praeterea, in Baptismo totum corpus immergitur. Ergo et hic totum deberet inungi.</p>
+            <p xml:id="ta-l4d23q2-d1e367">Sed contra est universalis Ecclesiae ritus, secundum quem non inungitur infirmus nisi
+              in determinatis partibus corporis.</p>
+
+          </div>
+          <div xml:id="ta-l4d23q2-Dd1e371">
+            <head xml:id="ta-l4d23q2-Hd1e373">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d23q2-d1e376">Ulterius. Videtur quod inconvenienter determinentur istae partes, ut scilicet
+              infirmans ungatur in oculis, in auribus, in naribus, in labiis, in manibus, et
+              pedibus. Quia sapiens medicus curat morbum in radice. Sed <quote xml:id="ta-l4d23q2-Qd1e378">de corde exeunt
+                cogitationes, quae coinquinant hominem</quote>, ut dicitur Matth. 15. Ergo in
+              pectore debet fieri unctio.</p>
+            <p xml:id="ta-l4d23q2-d1e382">Praeterea, puritas mentis non minus est necessaria exeuntibus quam intrantibus. Sed
+              intrantes unguntur chrismate in vertice a sacerdote ad significandum puritatem mentis.
+              Ergo et exeuntes hoc sacramento debent ungi in vertice.</p>
+            <p xml:id="ta-l4d23q2-d1e385">Praeterea, ibi debet adhiberi remedium ubi est major vis morbi. Sed spiritualis
+              morbus praecipue viget in renibus viris, et mulieribus in umbilico, ut patet Job 40,
+              2: <quote xml:id="ta-l4d23q2-Qd1e387">potestas ejus in lumbis ejus</quote>, secundum expositionem Gregorii. Ergo
+              ibi debet fieri inunctio.</p>
+            <p xml:id="ta-l4d23q2-d1e391">Praeterea, sicut per pedes peccatur, ita et per alia membra corporis. Ergo sicut
+              unguntur pedes, ita et alia corporis membra inungi debent.</p>
+
+          </div>
+          <div xml:id="ta-l4d23q2-Dd1e395">
+            <head xml:id="ta-l4d23q2-Hd1e397">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d23q2-d1e400">Ulterius. Videtur quod mutilati non sunt ungendi illis unctionibus quae partibus
+              illis competunt. Quia sicut hoc sacramentum exigit determinatam dispositionem in
+              suscipiente, ut scilicet sit infirmus, ita et determinatam partem. Sed ille qui non
+              habet infirmitatem, non potest inungi. Ergo nec ille qui non habet partem illam in qua
+              debet fieri inunctio.</p>
+            <p xml:id="ta-l4d23q2-d1e403">Praeterea, ille qui est caecus a nativitate, non delinquit per visum. Sed in unctione
+              quae fit ad oculos, fit mentio de delicto per visum. Ergo talis inunctio caeco nato
+              non deberet fieri; et sic de aliis.</p>
+            <p xml:id="ta-l4d23q2-d1e406">Sed contra est quod defectus corporis non impedit aliquod aliud sacramentum. Ergo nec
+              istud impedire debet. Sed de necessitate istius sacramenti est quaelibet unctionum.
+              Ergo omnes debent fieri mutilato.</p>
+          </div>
+          <div xml:id="ta-l4d23q2-Dd1e411">
+            <head xml:id="ta-l4d23q2-Hd1e413">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d23q2-d1e416">Respondeo dicendum ad primam quaestionem, quod hoc sacramentum per modum curationis
+              exhibetur. Curatio autem corporalis non oportet quod fiat per medicinam toti corpori
+              appositam, sed illis partibus ubi est radix morbi; et ideo unctio etiam sacramentalis
+              debet fieri in illis partibus tantum in quibus est radix spiritualis infirmitatis.</p>
+            <p xml:id="ta-l4d23q2-d1e419">Ad primum ergo dicendum, quod anima quamvis sit tota in qualibet parte corporis
+              quantum ad essentiam, non tamen quantum ad potentias quae sunt radices actuum peccati;
+              et ideo oportet quod in determinatis partibus unctio fiat, in quibus illae potentiae
+              habent esse.</p>
+            <p xml:id="ta-l4d23q2-d1e422">Ad secundum dicendum, quod non semper apponitur medicina ubi est morbus; sed
+              congruentius ubi est radix morbi.</p>
+            <p xml:id="ta-l4d23q2-d1e425">Ad tertium dicendum, quod Baptismus fit per modum ablutionis; ablutio autem
+              corporalis non purgat maculam ab aliqua parte nisi cui apponitur; et ideo Baptismus
+              toti corpori exhibetur; secus autem est de extrema unctione, ratione jam dicta.</p>
+
+          </div>
+          <div xml:id="ta-l4d23q2-Dd1e429">
+            <head xml:id="ta-l4d23q2-Hd1e431">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d23q2-d1e434">Ad secundam quaestionem dicendum, quod principia peccandi in nobis sunt eadem quae et
+              principia agendi: quia peccatum in actu consistit. Principia autem agendi in nobis
+              sunt tria. Primum est dirigens, scilicet vis cognoscitiva: secundum est imperans,
+              scilicet vis appetitiva; tertium est exequens, scilicet motiva. Omnis autem nostra
+              cognitio a sensu ortum habet: et quia ubi est in nobis prima origo peccati, ibi debet
+              unctio adhiberi; ideo unguntur loca quinque sensuum, scilicet oculi propter visum,
+              aures propter auditum, nares propter odoratum, os propter gustum, manus propter
+              tactum, qui in pulpis digitorum praecipue viget. Sed propter appetitivam unguntur a
+              quibusdam renes; propter motivam unguntur pedes, qui sunt principalius ejus
+              instrumentum. Et quia primum principium est cognoscitiva; ideo illa unctio ab omnibus
+              observatur quae fit ad quinque sensus, quasi de necessitate sacramenti. Sed quidam non
+              servant alias; quidam vero illam servant quae ad pedes, et non quae ad renes; quia
+              appetitiva et motiva sunt secundaria principia.</p>
+            <p xml:id="ta-l4d23q2-d1e437">Ad primum ergo dicendum, quod cogitatio a corde non exit nisi per aliquam
+              imaginationem, quae est motus a sensu factus, ut dicitur in 2 de anima; et ideo cor
+              non est prima radix cogitationis, sed organa sensuum, nisi quatenus cor est principium
+              totius corporis; sed hoc principium est radix remota.</p>
+            <p xml:id="ta-l4d23q2-d1e440">Ad secundum dicendum, quod intrantes debent acquirere puritatem, sed exeuntes eam
+              purgare; et ideo exeuntes debent inungi in illis partibus quibus contingit puritatem
+              mentis inquinari.</p>
+            <p xml:id="ta-l4d23q2-d1e443">Ad tertium dicendum, quod secundum quorumdam consuetudinem fit in renibus propter hoc
+              quod ibi maxime viget appetitus concupiscibilis; sed appetitiva non est prima radix,
+              ut dictum est.</p>
+            <p xml:id="ta-l4d23q2-d1e447">Ad quartum dicendum, quod organa corporis quibus actus peccati exercentur, sunt
+              pedes, manus, et lingua, quibus etiam unctio exhibetur; et membra genitalia, quibus
+              propter immunditiam illarum partium, et honestatem sacramenti, non debet unctio
+              adhiberi.</p>
+
+          </div>
+          <div xml:id="ta-l4d23q2-Dd1e451">
+            <head xml:id="ta-l4d23q2-Hd1e453">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d23q2-d1e456">Ad tertiam quaestionem dicendum, quod mutilati inungi debent quanto propinquius esse
+              potest ad partes illas in quibus unctio fieri debuerat: quia quamvis non habeant
+              membra, habent tamen potentias animae quae illis membris debentur, saltem in radice;
+              et interius peccare possunt per ea quae ad partes illas pertinent, quamvis non
+              exterius.</p>
+            <p xml:id="ta-l4d23q2-d1e459">Et per hoc patet solutio ad objecta.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d23q2-Dd1e465" type="articulus">
+          <head xml:id="ta-l4d23q2-Hd1e467">Articulus 4</head>
+
+          <head xml:id="ta-l4d23q2-Hd1e470" type="questionTitle">Utrum hoc sacramentum debeat iterari</head>
+
+          <div xml:id="ta-l4d23q2-Dd1e473">
+            <head xml:id="ta-l4d23q2-Hd1e475">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d23q2-d1e478">Ad quartum sic proceditur. Videtur quod hoc sacramentum non debeat iterari. Quia
+              dignior est unctio quae fit homini quam quae fit lapidi. Sed unctio altaris non
+              iteratur, nisi altare illud fractum fuerit. Ergo nec unctio extrema, quae adhibetur
+              homini, debet iterari.</p>
+            <p xml:id="ta-l4d23q2-d1e481">Praeterea, post ultimum nihil est. Sed haec unctio dicitur extrema. Ergo non debet
+              iterari.</p>
+            <p xml:id="ta-l4d23q2-d1e484">Sed contra, hoc sacramentum est quaedam spiritualis curatio per modum curationis
+              corporalis exhibita. Sed curatio corporalis iteratur. Ergo et hoc sacramentum iterari
+              potest.</p>
+
+          </div>
+          <div xml:id="ta-l4d23q2-Dd1e488">
+            <head xml:id="ta-l4d23q2-Hd1e490">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d23q2-d1e493">Ulterius. Videtur quod in eadem infirmitate non debeat iterari. Quia uni morbo non
+              debetur nisi una medicina. Sed hoc sacramentum est quaedam spiritualis medicina. Ergo
+              contra unum morbum non debet iterari.</p>
+            <p xml:id="ta-l4d23q2-d1e496">Praeterea, secundum hoc posset aliquis infirmus tota die inungi, si in eodem morbo
+              posset iterari inunctio; quod est absurdum.</p>
+            <p xml:id="ta-l4d23q2-d1e499">Sed contra est quod aliquando morbus diu durat post sacramenti perceptionem; et sic
+              reliquiae peccatorum contrahuntur, contra quas principaliter hoc sacramentum datur.
+              Ergo debet iterato inungi.</p>
+          </div>
+          <div xml:id="ta-l4d23q2-Dd1e503">
+            <head xml:id="ta-l4d23q2-Hd1e505">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d23q2-d1e508">Respondeo dicendum ad primam quaestionem, quod nullum sacramentale nec sacramentum
+              quod habet effectum perpetuum, debet iterari: quia ostenderetur sacramentum non fuisse
+              efficax ad faciendum illum effectum; et sic fieret injuria illi sacramento.
+              Sacramentum autem quod habet effectum non perpetuum, potest iterari sine injuria, ut
+              effectus deperditus iterato recuperetur. Et quia sanitas corporis et mentis, quae sunt
+              effectus hujus sacramenti, possunt amitti postquam fuerunt per sacramentum effecta;
+              ideo hoc sacramentum sine sui injuria potest iterari.</p>
+            <p xml:id="ta-l4d23q2-d1e511">Ad primum ergo dicendum, quod inunctio lapidis fit ad ipsius altaris consecrationem,
+              quae est perpetuo in lapide quamdiu altare manet, et ideo non potest iterari; sed haec
+              unctio non fit ad consecrationem hominis, cum non imprimatur character; et ideo non
+              est simile.</p>
+            <p xml:id="ta-l4d23q2-d1e514">Ad secundum dicendum, quod illud quod secundum aestimationem hominum est extremum,
+              quandoque secundum rei veritatem non est extremum; et sic dicitur hoc sacramentum
+              extrema unctio, quia non debet iterari nisi illis quorum mors est propinqua secundum
+              aestimationem hominum.</p>
+
+          </div>
+          <div xml:id="ta-l4d23q2-Dd1e519">
+            <head xml:id="ta-l4d23q2-Hd1e521">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d23q2-d1e524">Ad secundam quaestionem dicendum, quod hoc sacramentum non respicit tantum
+              infirmitatem, sed etiam infirmitatis statum: quia non debet dari nisi infirmis qui
+              secundum humanam aestimationem videntur morti appropinquare. Quaedam ergo infirmitates
+              non sunt diuturnae; unde si in eis datur hoc sacramentum, tunc, cum homo ad illum
+              statum perveniat, quod fit in periculo mortis, non recedit a statu illo nisi
+              infirmitate curata, et ita iterum non debet inungi. Sed si recidivum patiatur, erit
+              alia infirmitas, et poterit fieri alia inunctio. Quaedam vero sunt aegritudines
+              diuturnae, ut hectica et hydropisis, et hujusmodi: et in talibus non debet fieri
+              inunctio, nisi quando videntur perducere ad periculum mortis; et si homo illum
+              articulum evadat eadem infirmitate durante, et iterum ad similem statum per illam
+              infirmitatem reducatur, iterum potest inungi: quia jam est quasi alius infirmitatis
+              status, quamvis non sit alia infirmitas simpliciter.</p>
+            <p xml:id="ta-l4d23q2-d1e527">Et per hoc patet solutio ad objecta.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d23q2-Dd1e532">
+          <head xml:id="ta-l4d23q2-Hd1e534">Expositio textus</head>
+          <p xml:id="ta-l4d23q2-d1e537"><quote xml:id="ta-l4d23q2-Qd1e538">Praeter praemissa est etiam aliud sacramentum scilicet unctio
+            infirmorum</quote>. Videtur quod male ordinet: quia cum hoc sacramentum exeuntibus
+            detur, deberet ultimo poni. Et dicendum, quod alia duo quae sequuntur, ordinantur ad
+            bonum commune Ecclesiae, vel totius humanae speciei. Bonum autem unius est prius quam
+            bonum multorum, quod ex singularibus bonis consurgit; unde hoc sacramentum debuit ultimo
+            poni inter illa quae ordinantur ad bonum unius personae, et ante illa quae ordinantur ad
+            bonum multitudinis. <quote xml:id="ta-l4d23q2-Qd1e541">Quae dicitur principalis</quote>: quia in ea sola imprimitur
+            character, et datur spiritus sancti plenitudo ad robur. <quote xml:id="ta-l4d23q2-Qd1e544">Capita regum et
+              pontificum unguntur</quote>. Contra est quod reges non unguntur secundum consuetudinem
+            Ecclesiae chrismate in capite, sed oleo in scapulis. Et dicendum, quod illa unctio regum
+            non est sacramentum; et ideo secundum diversas consuetudines potest diversimode fieri.
+            Vel dicendum, quod exponendum est, <quote xml:id="ta-l4d23q2-Qd1e547">regum et pontificum</quote>, idest eorum qui
+            habent sacerdotium regale, ut pro eodem sumatur utraque gens. <quote xml:id="ta-l4d23q2-Qd1e550">Sed ex contemptu
+              vel negligentia</quote>, contra. Negligentia in his quae non sunt de necessitate
+            salutis, non est damnabilis. Hoc autem sacramentum non est de necessitate salutis. Et
+            dicendum quod hoc magis accipiendum est copulative quam disjunctive: non enim quaelibet
+            negligentia, sed ex contemptu procedens, vel contemptum inducens, damnabilis est.
+              <quote xml:id="ta-l4d23q2-Qd1e553">Non potest confici nisi de pane consecrato</quote>: non quod panis consecratus
+            sit materia sacramenti, sed quod ipse panis consecratus sit sacramentum.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

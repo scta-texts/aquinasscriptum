@@ -1,0 +1,654 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum III, Distinctio 35, Quaestio 1</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.09-dev-master">
+          <title>Librum III, Distinctio 35, Quaestio 1</title>
+          <date when="2016-03-13">March 13, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-13">March 13, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness>1856 editum</witness>
+          <witness xml:id="H" n="harv245" xml:base="http://iiif.lib.harvard.edu/manifests/drs:51994085/canvas/">Cambridge, Mass.,
+            Harvard University, Houghton Library, MS Lat 245</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="2015.09">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+
+
+
+
+      <div xml:id="starts-on">
+        <cb ed="#H" n="136rb"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ta-l3d35q1">
+        <head xml:id="ta-l3d35q1-Hd1e97">Librum III, Distinctio 35, Quaestio 1</head>
+        <div xml:id="ta-l3d35q1-Dd1e100">
+          <head xml:id="ta-l3d35q1-Hd1e102">Prooemium</head>
+          <p xml:id="ta-l3d35q1-d1e105">Postquam determinavit Magister de donis, hic ostendit differentiam quorumdam donorum ad
+            invicem, quae maxime convenire videntur, idest sapientiae, scientiae, et intellectus; et
+            dividitur in partes duas: in prima assignat differentiam; in secunda removet quaedam
+            dubia, ibi: <quote xml:id="ta-l3d35q1-Qd1e107">et notandum quod intellectus et scientia quae dicuntur dona spiritus
+              sancti alia sunt ab intellectu et scientia quae naturaliter sunt in hominis
+              anima</quote>. Circa primum duo facit: primo assignat differentiam inter scientiam et
+            sapientiam; secundo inter sapientiam et intellectum, ibi: <quote xml:id="ta-l3d35q1-Qd1e110">ostensa differentia
+              inter sapientiam et scientiam. Et notandum</quote> et cetera. Hic removet quaedam
+            dubia; et primo circa scientiam et intellectum; secundo circa sapientiam, ibi:
+              <quote xml:id="ta-l3d35q1-Qd1e113">illud etiam sciendum, quod sapientia de qua nunc disserimus, non est illa Dei
+              sapientia quae Deus est</quote>. Hic est duplex quaestio. Primo de vita activa et
+            contemplativa. Secundo de donis perficientibus in utraque vita. Circa primum quaeruntur
+            quatuor: 1 de divisione vitae in activam et contemplativam; 2 de vita contemplativa; 3
+            de activa; 4 de comparatione unius ad aliam.</p>
+        </div>
+        <div xml:id="ta-l3d35q1-Dd1e118" type="articulus">
+          <head xml:id="ta-l3d35q1-Hd1e120">Articulus 1</head>
+
+          <head xml:id="ta-l3d35q1-Hd1e123" type="questionTitle">Utrum vita convenienter dividatur per activam et
+            contemplativam</head>
+
+          <p xml:id="ta-l3d35q1-d1e126">Ad primum sic proceditur. Videtur quod vita inconvenienter dividatur per activam et
+            contemplativam. Vivere enim, ut dicit philosophus in 2 de anima, viventibus est esse.
+            Sed contemplativum et activum non ostendunt differentiam in essendo, sed magis in
+            operando. Ergo non sunt differentiae vitae.</p>
+          <p xml:id="ta-l3d35q1-d1e129">Praeterea, philosophus, in 2 de anima, dicit: <quote xml:id="ta-l3d35q1-Qd1e131">vivere secundum hoc
+              principium</quote>, scilicet animam vegetabilem, <quote xml:id="ta-l3d35q1-Qd1e134">inest viventibus</quote>. Sed
+            anima vegetabilis nullo modo participat contemplationem, neque etiam agere ipsius est,
+            sicut dicitur in 6 Ethic. Ergo vita inconvenienter dividitur per activam et
+            contemplativam.</p>
+          <p xml:id="ta-l3d35q1-d1e138">Praeterea, in Lib. de causis dicitur, quod vita est continuus motus ab ente sempiterno.
+            Sed motus operationem importat. Cum ergo omnis operatio sit actio quaedam, videtur quod
+            omnis vita sit activa; et ita non erit differentia vitae activum.</p>
+          <p xml:id="ta-l3d35q1-d1e142">Praeterea, philosophus, in 2 de anima, dividit vivere in quatuor, scilicet nutriri,
+            sentire, et moveri secundum locum, et intelligere. Ergo insufficienter dividitur per has
+            duas differentias, activum et contemplativum.</p>
+          <p xml:id="ta-l3d35q1-d1e145">Praeterea, Augustinus, in Lib. de Civ. Dei, apponit tertium membrum, scilicet
+            compositum ex utroque. Ergo videtur quod insufficienter dividatur per activum et
+            contemplativum.</p>
+          <p xml:id="ta-l3d35q1-d1e148">Sed in contrarium sunt multae auctoritates sanctorum, quae dicunt per Martham et
+            Mariam, Luc. 10, signari duas vitas, activam et contemplativam.</p>
+          <p xml:id="ta-l3d35q1-d1e151">Praeterea, vita hominis est secundum id a quo homo est homo. Hoc autem est intellectus.
+            Cum ergo intellectus dividatur in activum et contemplativum, idest speculativum et
+            practicum, videtur quod humana vita in haec duo dividi debeat.</p>
+          <p xml:id="ta-l3d35q1-d1e154">Praeterea, secundum philosophum in 9 Ethic. illud dicitur esse uniuscujusque vita in
+            quo maxime studet, sicut militis in pugnando, et ebriosi in potando; unde et in talibus
+            ad amicos convivere volunt. Sed hoc in quo maxime studet quis, est illud quod finem suae
+            vitae ponit. Cum igitur finis humanae vitae felicitas ponatur, quae secundum philosophos
+            in civilem et contemplativam dividitur, ut patet in 10 Ethic., videtur etiam quod humana
+            vita in activam et contemplativam dividi debeat.</p>
+          <p xml:id="ta-l3d35q1-d1e157">Respondeo dicendum, quod nomen vitae ex hoc sumptum videtur quod aliquid a seipso
+            potest moveri; et ideo ex hoc dicta sunt primo aliqua vivere, quia visa sunt a seipsis
+            moveri, sicut plantae per motum augmenti, et animalia per motum insuper localem; ea vero
+            quae visa sunt non moveri nisi ab aliis mota, dicta sunt mortua, vel vita carentia,
+            sicut lapides et ligna. Unde etiam per quamdam transumptionem ea quorum principium motus
+            in ipsis est dicuntur viventia, quamvis non seipsa moveant, sicut aquae scaturientes
+            impetu sui motus a terra dicuntur vivae: aquae autem immobiles congregatae in lacunis
+            dicuntur aquae mortuae. Ulterius, nomen vitae attributum est omnibus operationibus quas
+            aliquis a seipso exercet non ab alio motus, etiam si motus non sint; sicut nomen motus
+            ad operationem quamlibet solet transferri, sicut dicitur sentire et intelligere motus;
+            et secundum hoc non solum quae moventur a seipsis vel per augmentum vel localiter,
+            dicuntur vivere, sed omnia quae ex seipsis appetunt, sentiunt, intelligunt: haec enim
+            dicuntur operationes vitae. Quamvis autem plures dictarum operationum in aliquo sint, ex
+            illa tamen dicitur vita ejus quae principalis in ipso est; sicut animalium vita dicitur
+            in sentiendo, quamvis etiam nutriantur; et hominum in intelligendo, quamvis etiam
+            sentiant; et hoc non solum est accipiendum secundum naturales potentias, sed etiam
+            secundum habitus superadditos. Unde vita uniuscujusque hominis dicitur in hoc consistere
+            in quo summum studium impendit et curam, ut dicit philosophus in 9 Ethic.: et sic
+            accipiendo vitam, dividitur in activam et contemplativam. Cum enim vita humana ordinata
+            (quia de inordinata non intendimus, sicut est voluptuosa, quae nec humana est, sed
+            bestialis) consistat in operatione intellectus et rationis; habeat autem intellectiva
+            pars duas operationes, unam quae est ipsius secundum se, aliam quae ipsius est secundum
+            quod regit inferiores vires; erit duplex vita humana: una quae consistit in operatione
+            quae est intellectus secundum seipsum, et haec dicitur contemplativa; alia quae
+            consistit in operatione intellectus et rationis secundum quod ordinat et regit et
+            imperat inferioribus partibus, et haec dicitur activa vita. Unde secundum philosophum
+            agere proprie dicitur operatio quae est a voluntate imperata, in ipso operante
+            consistens, non in materiam exteriorem transmutandam transiens: quia hoc esset facere,
+            quod est operatio mechanicae artis. Morales enim virtutes quae in vita activa
+            perficiunt, circa agibilia dicuntur.</p>
+          <p xml:id="ta-l3d35q1-d1e161">Ad primum ergo dicendum, quod essentia rei ex operatione ipsius cognoscitur; et ideo ex
+            operationibus quibus per prius convenit nomen vitae translatum est nomen ad ipsum esse,
+            secundum quod alius est effectus talium operationum.</p>
+          <p xml:id="ta-l3d35q1-d1e164">Ad secundum dicendum, quod secundum animam vegetabilem dicitur esse vivere, non quasi
+            in operationibus ejus tantum vita consistat; sed quia operationes ejus sunt primae
+            operationes vitae in nobis; per quem modum dicitur secundum tactum inesse sensus
+            animalibus.</p>
+          <p xml:id="ta-l3d35q1-d1e167">Ad tertium dicendum, quod illa auctoritas intelligenda est de vita qua corpora
+            caelestia ponebantur a quibusdam vivere velut ex se mota: quam opinionem videtur sequi
+            ille qui librum illum condidit.</p>
+          <p xml:id="ta-l3d35q1-d1e170">Ad quartum dicendum, quod philosophus distinxit vitam secundum quod est communis
+            omnibus viventibus; sed nunc loquimur de divisione vitae humanae.</p>
+          <p xml:id="ta-l3d35q1-d1e173">Ad quintum dicendum, quod illud tertium membrum apponitur ab Augustino non quantum ad
+            diversitatem vitae, sed magis quantum ad diversitatem viventium. Quidam enim sunt qui
+            exercitiis activae insistunt principaliter, quamvis etiam quandoque contemplationis
+            actus exequantur: quidam vero sunt qui postpositis curis activae, principaliter
+            contemplationi student; alii vero qui circa utrumque insistunt. Sunt nihilominus et
+            quaedam operationes quae utrumque requirunt, sicut praedicatio et doctrina, quae a
+            contemplatione inchoatae in actionem terminant, sicut a causa in effectum procedentes;
+            et hoc medium in extremis includitur.</p>
+        </div>
+        <div xml:id="ta-l3d35q1-Dd1e177" type="articulus">
+          <head xml:id="ta-l3d35q1-Hd1e179">Articulus 2</head>
+
+          <head xml:id="ta-l3d35q1-Hd1e182" type="questionTitle">Utrum vita contemplativa consistat tantum in actu
+            cognitivae</head>
+          <div xml:id="ta-l3d35q1-Dd1e185">
+            <head xml:id="ta-l3d35q1-Hd1e187">Quaestiuncula 1</head>
+            <p xml:id="ta-l3d35q1-d1e190">Ad secundum sic proceditur. Videtur quod vita contemplativa consistat tantum in actu
+              cognitivae. Quia contemplationis finis est veritas. Sed veritas tantum ad cognitionem
+              pertinet. Ergo vita contemplativa tantum in operatione cognitivae consistit.</p>
+            <p xml:id="ta-l3d35q1-d1e193">Praeterea, vita contemplativa a sanctis otium dicitur; et philosophus etiam in 10
+              Ethic. dicit ipsam vacationem. Sed voluntas est vis motiva. Cum ergo motus otio et
+              vacationi repugnet, videtur quod vita contemplativa non consistat in actu affectivae,
+              sed solum in actu cognitivae.</p>
+            <p xml:id="ta-l3d35q1-d1e196">Praeterea, proportionantur operationes habitibus. Sed dona quae perficiunt in vita
+              contemplativa tantum, ad cognitionem pertinent, scilicet sapientia et intellectus.
+              Ergo vita contemplativa consistit tantum in cognitione.</p>
+            <p xml:id="ta-l3d35q1-d1e199">Sed contra, Isidorus dicit in Lib. differentiarum, quod contemplativa vita est quae
+              vacans ab omni negotio, in sola Dei dilectione defigitur. Sed dilectio ad affectivam
+              pertinet. Ergo vita contemplativa non consistit tantum in cognitione.</p>
+            <p xml:id="ta-l3d35q1-d1e203">Praeterea, gustare ad affectum pertinet, sicut videre ad intellectum. Sed Gregorius
+              dicit, quod contemplativa vita sapore intimo venturam jam requiem degustat. Ergo
+              contemplativa vita non consistit tantum in cognitione.</p>
+          </div>
+          <div xml:id="ta-l3d35q1-Dd1e207">
+            <head xml:id="ta-l3d35q1-Hd1e209">Quaestiuncula 2</head>
+            <p xml:id="ta-l3d35q1-d1e212">Ulterius. Videtur quod consistat in operatione rationis. Vita enim contemplativa est
+              vita humana. Sed humana vita est secundum operationem humanam. Cum ergo operatio
+              humana sit secundum rationem, a qua dicitur homo, videtur quod vita contemplativa
+              consistat in operatione rationis principaliter.</p>
+            <p xml:id="ta-l3d35q1-d1e215">Praeterea, vita contemplativa praecipue consistit in cognitione divinorum. Sed
+              invisibilia Dei per ea quae facta sunt cognoscuntur, Roman. 1; cognoscere autem ex
+              aliquibus alia, rationis est. Ergo vita contemplativa praecipue consistit in
+              operatione rationis.</p>
+            <p xml:id="ta-l3d35q1-d1e218">Praeterea, Richardus de sancto Victore dicit in libro de contemplatione:
+                <quote xml:id="ta-l3d35q1-Qd1e220">contemplationis nostrae volatus multiformiter variatur; nunc de inferioribus
+                ad summa ascendit, nunc de superioribus ad ima descendit; et nunc de parte ad totum,
+                nunc de toto ad partem discurrit; nunc a majori, nunc a minori argumentum
+                trahit</quote>. Sed iste discursus videtur ad rationem pertinere. Ergo vita
+              contemplativa principaliter in actu rationis consistit.</p>
+            <p xml:id="ta-l3d35q1-d1e224">Sed contra, Bernardus in libro 2 de consideratione dicit, quod <quote xml:id="ta-l3d35q1-Qd1e226">contemplatio in
+                hoc distat a consideratione, quia consideratio ad inquisitionem magis se habet,
+                contemplatio autem est verus certusque animi intuitus</quote>. Sed intueri est
+              intellectus, inquirere autem rationis. Ergo contemplativa vita non consistit in actu
+              rationis, sed intellectus.</p>
+            <p xml:id="ta-l3d35q1-d1e231">Praeterea, secundum philosophum in 10 Ethic., secundum vitam contemplativam
+              communicamus cum Deo. Non autem communicamus cum eo secundum inquisitionem rationis,
+              sed magis secundum intellectus intuitum. Ergo contemplativa vita non consistit in actu
+              rationis, sed intellectus tantum.</p>
+          </div>
+          <div xml:id="ta-l3d35q1-Dd1e235">
+            <head xml:id="ta-l3d35q1-Hd1e237">Quaestiuncula 3</head>
+            <p xml:id="ta-l3d35q1-d1e240">Ulterius. Videtur quod omnis actus intellectus ad vitam contemplativam pertineat.
+              Sicut enim se habet vita activa ad agibilia, ita se habet contemplativa ad
+              contemplabilia. Sed omnes actus circa agibilia ad vitam activam pertinent. Ergo omnes
+              actus intellectus circa intelligibilia ad contemplativam vitam pertinent.</p>
+            <p xml:id="ta-l3d35q1-d1e243">Praeterea, vita contemplativa, secundum philosophum in 10 Ethic., in philosophiae
+              consideratione consistit. Sed philosophia est de omnibus entibus. Ergo omnis operatio
+              intellectus pertinet ad vitam contemplativam, cum intellectus non sit non entium.</p>
+            <p xml:id="ta-l3d35q1-d1e246">Praeterea, Richardus de sancto Victore ponit sex species contemplationis. Prima est,
+              quando sensibilia per imaginationem considerantes, in eis divinam sapientiam
+              admiramur. Secunda est, quando earum rationes inquirimus. Tertia, quando ex
+              visibilibus in invisibilia ascendimus. Quarta, quando, remota imaginatione, in solis
+              intelligibilibus versamur. Quinta, quando ea consideramus quae ex divina revelatione
+              cognoscimus, non humana ratione. Sexta, quando ea consideramus quibus etiam humana
+              ratio contradicere videtur. Sed in his speciebus comprehenditur omnis operatio
+              intellectus. Ergo omnis operatio intellectus ad vitam contemplativam pertinet.</p>
+            <p xml:id="ta-l3d35q1-d1e249">Sed contra, Isidorus in Lib. de Sum. bono: <quote xml:id="ta-l3d35q1-Qd1e251">contemplativa vita mundo
+                renuntians, soli Deo vivere delectatur</quote>. Sed non vivit soli Deo nisi quando
+              Deum solum cogitat. Ergo non omnis operatio intellectus ad contemplativam vitam
+              pertinet.</p>
+            <p xml:id="ta-l3d35q1-d1e256">Praeterea, circa idem videtur esse vita contemplativa et felicitas contemplativa. Sed
+              felicitas contemplativa est tantum in consideratione nobilissimi intelligibilis, quod
+              constat Deum esse, secundum philosophum in 10 Ethic. Ergo vita contemplativa in sola
+              Dei consideratione consistit.</p>
+          </div>
+          <div xml:id="ta-l3d35q1-Dd1e261">
+            <head xml:id="ta-l3d35q1-Hd1e263">Quaestiuncula 1</head>
+            <p xml:id="ta-l3d35q1-d1e266">Respondeo dicendum ad primam quaestionem, quod vita, secundum quod nunc loquimur,
+              consistit in operatione cui aliquis principaliter mancipatur: cujus ratione omnia quae
+              impedire possunt, dimittit; quae autem adjuvant, quaerit et prosequitur. Hoc autem non
+              potest esse nisi per voluntatem, cujus est inter opera humana unum prae aliis
+              acceptare, quidquid sit illud. Voluntas autem cum sit motor omnium potentiarum animae,
+              oportet quod ad objecta et actus omnium potentiarum se habeat, prout habent rationem
+              boni: quia unusquisque actus debitus cujuscumque potentiae est bonum ejus. Et ideo
+              vita contemplativa consistit in actu cognitivae virtutis praeacceptatae per
+              affectivam. Sed cum operatio sit quodammodo media inter operantem et objectum, velut
+              perfectio ipsius operantis, et perfecta per objectum, a quo speciem recipit; ex
+              duplici parte potest operatio cognitivae affectari. Uno modo inquantum est perfectio
+              cognoscentis; et talis affectatio operationis cognitivae procedit ex amore sui: et sic
+              erat affectio in vita contemplativa philosophorum. Alio modo inquantum terminatur ad
+              objectum; et sic contemplationis desiderium procedit ex amore objecti: quia ubi amor,
+              ibi oculus; et Matth. 6, 21: <quote xml:id="ta-l3d35q1-Qd1e268" ana="#mt6_21">ubi est thesaurus tuus, ibi est et cor
+                tuum</quote>; et sic habet affectionem vita contemplativa sanctorum, de qua
+              loquimur. Sed tamen contemplatio essentialiter in actu cognitivae consistit,
+              praeexigens caritatem ratione praedicta; unde Gregorius dicit super Ezech.:
+                <quote xml:id="ta-l3d35q1-Qd1e271">contemplativae vitae est caritatem Dei et proximi tota mente retinere, ab
+                exteriori actione quiescere; ita ut nil jam agere libeat, sed calcatis curis
+                omnibus, ad videndam faciem sui creatoris animus inardescat</quote>.</p>
+            <p xml:id="ta-l3d35q1-d1e275">Ad primum igitur dicendum, quod finis contemplationis, inquantum contemplatio, est
+              veritas tantum; sed secundum quod contemplatio accipit rationem vitae, sic induit
+              rationem affectati et boni, ut dictum est.</p>
+            <p xml:id="ta-l3d35q1-d1e278">Ad secundum dicendum, quod voluntas non solum est motiva quantum ad exteriores motus
+              qui vacationi repugnant, sed etiam motuum interiorum, etiam ipsius intellectus: qui
+              quidem motus aequivoce dicuntur, ut patet in 3 de anima; sunt enim actus perfecti; et
+              ideo magis assimilantur quieti quam motui: et propter hoc qui operatur secundum
+              intellectum, vacare dicitur ab exteriorum actione, ut patet in praedicta
+              auctoritate.</p>
+            <p xml:id="ta-l3d35q1-d1e281">Ad tertium dicendum, quod habitus contemplativae, quamvis sint in parte cognitiva,
+              tamen possunt eorum actus a voluntate imperari vel acceptari; et sic in eis vita
+              contemplativa consistit.</p>
+          </div>
+          <div xml:id="ta-l3d35q1-Dd1e285">
+            <head xml:id="ta-l3d35q1-Hd1e287">Quaestiuncula 2</head>
+            <p xml:id="ta-l3d35q1-d1e290">Ad secundam quaestionem dicendum, quod vita contemplativa consistit in illa
+              operatione quam homo prae aliis acceptat; unde habet rationem finis respectu aliarum
+              humanarum operationum, quia aliae propter ipsam exercentur. Inquisitio autem rationis
+              sicut a simplici intuitu intellectus progreditur (quia ex principiis quae quis
+              intellectu tenet, ad inquisitionem procedit), ita etiam ad intellectus certitudinem
+              terminatur, dum conclusiones inventae in principia resolvuntur, in quibus certitudinem
+              habent. Et ideo vita contemplativa principaliter in operatione intellectus consistit;
+              et hoc ipsum nomen contemplationis importat, quod visionem significat. Utitur tamen
+              inquisitione rationis contemplativus, ut deveniat ad visionem contemplationis, quam
+              principaliter intendit; et haec inquisitio, secundum Bernardum, dicitur
+              consideratio.</p>
+            <p xml:id="ta-l3d35q1-d1e293">Ad primum igitur dicendum, quod homo, inquantum est contemplativus, est aliquid supra
+              hominem: quia in intellectus simplici visione continuatur homo superioribus
+              substantiis, quae intelligentiae vel Angeli dicuntur, sicut animalia continuantur
+              hominibus in vi aestimativa, quae est supremum in eis, secundum quam aliquid simile
+              operibus rationis operantur.</p>
+            <p xml:id="ta-l3d35q1-d1e296">Ad secundum dicendum, quod quamvis creaturae visibiles sint via deveniendi in
+              contemplationem divinorum, tamen in hac via non consistit principaliter contemplatio,
+              sed in termino viae, ut dictum est.</p>
+            <p xml:id="ta-l3d35q1-d1e299">Ad tertium dicendum, quod Richardus non intendit quod in illis discursibus
+              principaliter consistat vita contemplativa, sed quia utitur eis ad suum finem, sicut
+              dictum est.</p>
+          </div>
+          <div xml:id="ta-l3d35q1-Dd1e303">
+            <head xml:id="ta-l3d35q1-Hd1e305">Quaestiuncula 3</head>
+            <p xml:id="ta-l3d35q1-d1e308">Ad tertiam quaestionem dicendum, quod vita contemplativa sanctorum praesupponit
+              amorem ipsius contemplati, ex quo procedit. Unde cum vita contemplativa consistat in
+              operatione quam quis maxime intendit, oportet quod sit circa contemplationem maxime
+              amati: hoc autem Deus est: unde principaliter consistit in operatione intellectus
+              circa Deum; unde Gregorius, super Ezech., dicit, quod contemplativa vita ad solum
+              videndum principium anhelat, scilicet Deum. Nihilominus tamen et contemplativus
+              considerat alia, inquantum ad Dei contemplationem ordinantur sicut ad finem, puta
+              creaturas, in quibus admiratur divinam majestatem et sapientiam et beneficia Dei, ex
+              quibus inardescit in ejus amorem; et peccata propria, ex quorum ablutione mundatur
+              cor, ut Deum videre possit. Unde et nomen contemplationis significat illum actum
+              principalem, quo quis Deum in seipso contemplatur; sed speculatio magis nominat illum
+              actum quo quis divina in rebus creatis quasi in speculo inspicit. Et similiter etiam
+              felicitas contemplativa, de qua philosophi tractaverunt, in contemplatione Dei
+              consistit: quia, secundum philosophum, consistit in actu altissimae potentiae quae in
+              nobis est, scilicet intellectus, et in habitu nobilissimo, scilicet sapientia, et
+              etiam objecto dignissimo, quod Deus est. Unde enim philosophi ultimum tempus vitae
+              suae reservabant, ut dicitur, ad contemplandum divina, praecedens tempus in aliis
+              scientiis expendentes, ut ex illis habiliores fierent ad considerandum divina.</p>
+            <p xml:id="ta-l3d35q1-d1e311">Ad primum ergo dicendum, quod actus vitae activae non habent ex seipsis ordinem sicut
+              actus vitae contemplativae; unde non potest dici, simpliciter loquendo, quod consistat
+              in aliquo illorum principaliter; sed quo ad aliquem consistit principaliter in hoc in
+              quo ille magis exercitatur; sicut quidam magis insistunt operibus justitiae, quidam
+              vero operibus temperantiae, et sic de aliis.</p>
+            <p xml:id="ta-l3d35q1-d1e314">Ad secundum dicendum, quod philosophus ibi accipit philosophiam stricte pro sapientia
+              de divinis, quae speciali nomine philosophia prima dicitur.</p>
+            <p xml:id="ta-l3d35q1-d1e317">Ad tertium dicendum, quod quamvis illa consideret interdum contemplativus, non tamen
+              in his principaliter consistit contemplativa vita.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l3d35q1-Dd1e322" type="articulus">
+          <head xml:id="ta-l3d35q1-Hd1e324">Articulus 3</head>
+
+          <head xml:id="ta-l3d35q1-Hd1e327" type="questionTitle">Utrum vita activa consistat tantum in his quae sunt ad
+            alterum</head>
+          <div xml:id="ta-l3d35q1-Dd1e330">
+            <head xml:id="ta-l3d35q1-Hd1e332">Quaestiuncula 1</head>
+            <p xml:id="ta-l3d35q1-d1e335">Ad tertium sic proceditur. Videtur quod activa vita non consistat principaliter in
+              his quae ad alterum sunt. Vita enim activa ordinatur ad contemplativam, inquantum
+              disponit hominem ad contemplationis actum. Sed per virtutes quae ordinant hominem in
+              seipso, maxime disponitur homo ad contemplationem, sicut per castitatem, ut dicit
+              Commentator in 7 Physic. Ergo vita activa praecipue consistit in his quae sunt hominis
+              ad seipsum.</p>
+            <p xml:id="ta-l3d35q1-d1e338">Praeterea, vita contemplativa principaliter consistit in contemplatione ejus quod
+              maxime diligitur. Ergo et vita activa similiter. Sed homo magis debet seipsum diligere
+              quam alios in his quae virtutis sunt, ut supra, dist. 29, qu. 1, art. 5, dictum est.
+              Ergo et vita activa magis consistit in hoc quod homo seipsum ordinet quam aliis
+              intendat.</p>
+            <p xml:id="ta-l3d35q1-d1e341">Praeterea, in his praecipue videtur consistere activa vita in quibus a contemplativa
+              dividitur. Sed in his quae ad alium sunt etiam contemplativa communicat: quia ad
+              eamdem vitam pertinere videtur contemplari et contemplata docere. In passionibus autem
+              propriis moderandis non communicat activa vita cum contemplativa. Ergo activa vita
+              praecipue consistit in his quae sunt ad seipsum.</p>
+            <p xml:id="ta-l3d35q1-d1e344">Sed contra, Isidorus in Lib. differentiarum: <quote xml:id="ta-l3d35q1-Qd1e346">activa vita est quae in operibus
+                justitiae et proximi utilitate versatur</quote>. Sed utrumque istorum ad alterum
+              pertinere videtur. Ergo in his quae ad alterum sunt, praecipue vita activa
+              consistit.</p>
+            <p xml:id="ta-l3d35q1-d1e351">Praeterea, vita activa fecunda dicitur; unde per Liam significatur. Sed fecunditas
+              ista non consistit nisi in operationibus quae fiunt ad alios. Ergo vita activa in his
+              praecipue consistit.</p>
+          </div>
+          <div xml:id="ta-l3d35q1-Dd1e355">
+            <head xml:id="ta-l3d35q1-Hd1e357">Quaestiuncula 2</head>
+            <p xml:id="ta-l3d35q1-d1e360">Ulterius. Videtur quod cognitio nullo modo ad activam pertineat. Sicut enim se habet
+              vita contemplativa ad cognitionem, ita se habet vita activa ad actionem. Ergo
+              proportionalitate transversa, sicut se habet vita contemplativa ad actionem, ita se
+              habet vita activa ad cognitionem. Sed nihil actionis ad contemplativam vitam pertinet.
+              Ergo nihil cognitionis pertinet ad activam.</p>
+            <p xml:id="ta-l3d35q1-d1e363">Praeterea, vita activa consistit totaliter in operationibus virtutum moralium, ad
+              quas scire parum vel nihil confert, ut philosophus dicit in 2 Ethic. Ergo videtur quod
+              ad activam nihil cognitionis pertineat.</p>
+            <p xml:id="ta-l3d35q1-d1e366">Praeterea, si aliqua cognitio ad activam vitam pertineret, praecipue videretur ad
+              ipsam pertinere consideratio propriorum actuum. Sed considerare peccata quae quis
+              fecit, pertinet ad vitam contemplativam, ut dicit Bernardus, qui secundam speciem
+              contemplationis ponit, qua quisque judicia Dei et peccata sua recogitat. Ergo nulla
+              cognitio ad activam vitam pertinet.</p>
+            <p xml:id="ta-l3d35q1-d1e369">Sed contra, ad activam vitam pertinent consilii et scientiae dona, quae quidem
+              cognitionem important. Ergo aliqua cognitio est in vita activa.</p>
+            <p xml:id="ta-l3d35q1-d1e373">Praeterea, philosophus dicit quod prudentia est cognata morali virtuti. Sed prudentia
+              cognitionem importat. Ergo cum in moralibus virtutibus activa vita constet, videtur
+              quod in activa vita sit aliquid cognitionis.</p>
+          </div>
+          <div xml:id="ta-l3d35q1-Dd1e377">
+            <head xml:id="ta-l3d35q1-Hd1e379">Quaestiuncula 3</head>
+            <p xml:id="ta-l3d35q1-d1e382">Ulterius. Videtur quod vita activa non possit esse simul cum contemplativa. Quia vita
+              de qua hic loquimur, consistit in hoc in quo homo maxime studet. Sed impossibile est
+              quod homo duobus summum studium apponat. Ergo impossibile est quod in homine sit simul
+              vita activa et contemplativa.</p>
+            <p xml:id="ta-l3d35q1-d1e385">Praeterea, vita activa significatur per Martham, quae turbatur circa plurima, Luc.
+              10. Sed turbatio vacationi repugnat quam contemplatio requirit. Ergo vita activa non
+              est simul cum contemplativa.</p>
+            <p xml:id="ta-l3d35q1-d1e388">Praeterea, vita activa introducit ad contemplativam; unde Gregorius: <quote xml:id="ta-l3d35q1-Qd1e390">qui ad
+                arcem contemplationis ascendere desiderat, prius necesse est ut in campo actionis se
+                exerceat</quote>. Sed quod introducit ad aliquid non est necessarium illo
+              adveniente: quia secundum Bernardum, <quote xml:id="ta-l3d35q1-Qd1e393">quid necesse est scalis tenenti jam
+                solium?</quote> Ergo activa vita non est simul cum contemplativa.</p>
+            <p xml:id="ta-l3d35q1-d1e397">Sed contra est quod Augustinus dicit in Lib. de Civ. Dei, quod quoddam genus hominum
+              est compositum ex otioso et actuoso; et loquitur de otio contemplationis. Gregorius
+              etiam dicit super Ezech., quod plerumque a contemplativa vita ad activam utiliter
+              animus reflectitur. Ergo contemplativa vita et activa possunt esse simul.</p>
+            <p xml:id="ta-l3d35q1-d1e401">Praeterea, beata virgo fuit in utraque vita; et ideo secundum Anselmum in assumptione
+              ejus legitur Evangelium de Martha et Maria, quae significant vitam activam et
+              contemplativam. Sed beata virgo fuit tantum viatrix. Ergo in aliquo viatore potest
+              esse simul activa et contemplativa vita.</p>
+          </div>
+          <div xml:id="ta-l3d35q1-Dd1e406">
+            <head xml:id="ta-l3d35q1-Hd1e408">Quaestiuncula 1</head>
+            <p xml:id="ta-l3d35q1-d1e411">Respondeo dicendum ad primam quaestionem, quod activa vita consistit in omnibus
+              agibilibus, sive sint ad seipsum, sive ad alium; sed principaliter consistit in his
+              quae ad alium sunt; quia bonum multorum, secundum philosophum in principio Ethic., est
+              divinius quam bonum unius; unde et justitia quae ad alterum est, a philosopho in 5
+              Ethic., dicitur esse pulcherrima virtutum. Sicut autem vita contemplativa consistit
+              principaliter in optimo contemplabili, ita vita activa in optimo agibili.</p>
+            <p xml:id="ta-l3d35q1-d1e414">Ad primum igitur dicendum, quod per ea quae ad seipsum sunt homo disponit se tantum
+              ad contemplativam; licet per ea quae ad alium comparantur, homo et se et alios
+              disponat, ubi divinius est.</p>
+            <p xml:id="ta-l3d35q1-d1e417">Ad secundum dicendum, quod in hoc ipso quod homo aliorum saluti et regimini studet,
+              se plus diligit, et sibi meliorem partem reservat: quia divinius est et sibi et aliis
+              causam bonae operationis esse, quam sibi tantum, sicut dicit philosophus in 10
+              Ethic.</p>
+            <p xml:id="ta-l3d35q1-d1e420">Ad tertium dicendum, quod doctrina est duplex. Quaedam quae ad cognitionem veritatis
+              tantum ordinatur; et haec quamvis ad alterum sit, limites tamen vitae contemplativae
+              non exit. Est autem quaedam doctrina quae ordinatur ad persuadendum bonos mores, quae
+              praedicatio dicitur; et haec ad vitam activam pertinet. Unde Gregorius: <quote xml:id="ta-l3d35q1-Qd1e422">qui ad
+                laborem praedicationis se dirigit, minus videt, et amplius parit</quote>: et sic
+              significatur per Liam, quae erat fecunda, et lippis oculis. Vel dicendum, quod
+              doctrina potest dupliciter considerari. Uno modo secundum quod est ad exercitium
+              cognitionis, et profectum ipsius docentis; et sic ad vitam contemplativam pertinet.
+              Alio modo secundum quod intenditur bonum alterius. Sic autem ea quae cognitionis sunt
+              etiam speculativae, exercentur per modum dispositionis rerum temporalium (inter quae
+              proximus computatur), quod activae vitae est; et ideo Gregorius dicit super Ezech.,
+              quod <quote xml:id="ta-l3d35q1-Qd1e425">activa vita est panem esurienti tribuere, verbum sapientiae nescientem
+                docere</quote> et cetera.</p>
+          </div>
+          <div xml:id="ta-l3d35q1-Dd1e430">
+            <head xml:id="ta-l3d35q1-Hd1e432">Quaestiuncula 2</head>
+            <p xml:id="ta-l3d35q1-d1e435">Ad secundam quaestionem dicendum, quod duplex est cognitio. Una speculativa, cujus
+              finis est veritas, secundum philosophum in 2 Metaph. Alia cujus finis est operatio,
+              quae est causa et regula eorum quae per hominem fiunt. Quae autem ab homine fiunt,
+              quaedam dicuntur factibilia, quae fiunt per transmutationem aliquam exterioris
+              materiae, sicut contingit in operationibus artis mechanicae; quaedam vero non
+              transeunt in transmutationem exterioris materiae, sed in moderationem propriarum
+              passionum et operationum. Ad utrumque autem istorum practica cognitio dirigit. Unde
+              non omnis practica cognitio in vita activa essentialiter invenitur, sed illa tantum
+              quae in agibilibus dirigit opera quae sunt virtutis moralis. Haec enim cognitio ad
+              electionem requiritur, in qua principaliter consistit moralis virtus. Contemplativa
+              autem cognitio essentialiter non ingreditur activam vitam, quia in operabilibus
+              humanis, cum non habeant veritatem nisi contingentem, propter seipsam veritas nunquam
+              quaereretur: unde etiam in scientiis moralibus finis non est cognitio, sed opus,
+              secundum philosophum in 2 Ethic. Sed tamen cognitio contemplativa aeternorum aliquando
+              pertinet ad activam vitam, non quod sit de essentia ejus, sed quia praeexigitur ad
+              ipsam sicut causa, dum rationes vivendi ex contemplatione aeternorum sumuntur. Sicut
+              enim intellectus est rationis et principium et terminus, ita et vita contemplativa
+              respectu activae; et ideo Gregorius dicit super Ezech., quod per hoc quod
+              contemplativa mentem accendit, perfectius activa tenetur.</p>
+            <p xml:id="ta-l3d35q1-d1e438">Ad primum igitur dicendum, quod actio non dirigit contemplationem, sicut cognitio
+              activa dirigit actionem; et ideo non est similis ratio.</p>
+            <p xml:id="ta-l3d35q1-d1e441">Ad secundum dicendum, quod ad virtutem moralem scire speculative de his quae ab
+              homine non fiunt, nihil prodest; de his autem quae ab homine fiunt, parum confert; sed
+              scientia practica multum confert, cum sit regula actionis.</p>
+            <p xml:id="ta-l3d35q1-d1e444">Ad tertium dicendum, quod praeteritum jam transit in necessarium; unde consideratio
+              praeteritorum peccatorum magis ad contemplationem quam ad practicam pertinet.</p>
+          </div>
+          <div xml:id="ta-l3d35q1-Dd1e448">
+            <head xml:id="ta-l3d35q1-Hd1e450">Quaestiuncula 3</head>
+            <p xml:id="ta-l3d35q1-d1e453">Ad tertiam quaestionem dicendum, quod in omnibus dispositionibus naturalibus
+              contingit quod dispositio in suo perfecto esse attingit id ad quod disponit, quod
+              etiam erat per quamdam inchoationem, dum dispositio ad perfectionem tendebat, sicut
+              patet de calore et forma ignis; quia quando calor completus est in termino
+              alterationis, forma ignis inducitur, et calor simul cum forma ignis manet; dum vero
+              erat alteratio, non erat forma ignis, nisi secundum quamdam inchoationem. Vita autem
+              activa est dispositio ad contemplativam; unde Isidorus in Lib. de Sum. bono:
+                <quote xml:id="ta-l3d35q1-Qd1e455">qui prius in vita activa proficit, bene ad contemplationem
+              conscendit</quote>. Et ideo quamdiu homo non pervenit ad perfectionem in vita activa,
+              non potest in eo esse contemplativa vita, nisi secundum quamdam inchoationem
+              imperfecte: tunc enim difficultatem homo patitur in actibus virtutum moralium, et
+              oportet quod tota solicitudine ad ipsos intendat, unde retrahitur a studio
+              contemplationis. Sed quando jam vita activa perfecta est, tunc operationes virtutum
+              moralium in promptu habet, ut eis non impeditus libere contemplationi vacet. Tamen
+              secundum quod homo est magis vel minus perfectus in vita activa, circa plura vel
+              pauciora occupari potest activae vitae simul cum contemplativa. Et quia praelatorum
+              est in utraque vita perfectos esse, utpote qui medii sunt inter Deum et plebem, a Deo
+              recipientes per contemplationem, et populo tradentes per actionem; ideo oportet eos in
+              moralibus virtutibus perfectos esse; et similiter praedicatores; alias indigne quis
+              praelationis vel praedicationis officium assumit.</p>
+            <p xml:id="ta-l3d35q1-d1e459">Ad primum igitur dicendum, quod ad diversa potest homo principaliter intendere
+              diversis temporibus, quamvis non simul.</p>
+            <p xml:id="ta-l3d35q1-d1e462">Ad secundum dicendum, quod turbatio in vita activa non contingit postquam ad
+              perfectionem venit: quia tunc jam delectabiliter et faciliter operatur non
+              perturbatus.</p>
+            <p xml:id="ta-l3d35q1-d1e465">Ad tertium dicendum, quod dispositiones quae essentialiter habent imperfectionem
+              annexam, non manent cum eo ad quod disponunt, sicut fides non manet cum visione; sed
+              aliae dispositiones possunt simul manere, sicut dictum est, et sic est de vita
+              activa.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l3d35q1-Dd1e471" type="articulus">
+          <head xml:id="ta-l3d35q1-Hd1e473">Articulus 4</head>
+
+          <head xml:id="ta-l3d35q1-Hd1e476" type="questionTitle">Utrum activa vita sit nobilior quam contemplativa</head>
+          <div xml:id="ta-l3d35q1-Dd1e479">
+            <head xml:id="ta-l3d35q1-Hd1e481">Quaestiuncula 1</head>
+            <p xml:id="ta-l3d35q1-d1e484">Ad quartum sic proceditur. Videtur quod activa vita sit nobilior quam contemplativa.
+              Tullius enim, in Lib. de Offic., probat praeeminentiam justitiae ad alias virtutes;
+              quia propter exercitium actus ejus, actus aliarum interimuntur. Sed similiter aliquis
+              revocatur ab otio contemplationis, ut fructum faciat per laborem actionis. Ergo activa
+              vita est dignior quam contemplativa.</p>
+            <p xml:id="ta-l3d35q1-d1e487">Praeterea, bonum gentis divinius est quam bonum unius. Sed vita contemplativa
+              consistit in bono unius hominis, vita activa in bono multorum. Ergo vita activa est
+              nobilior quam contemplativa.</p>
+            <p xml:id="ta-l3d35q1-d1e490">Praeterea, in omnibus artibus et potentiis imperans est nobilius imperato. Sed
+              politica quae ad vitam activam pertinet, imperat omnibus disciplinis, et disponit de
+              his quae ad contemplativam vitam pertinent, secundum philosophum in 1 Ethic. Ergo vita
+              activa est dignior quam contemplativa.</p>
+            <p xml:id="ta-l3d35q1-d1e493">Praeterea, secundum Dionysium, nihil est divinius quam Dei cooperatorem fieri. Hoc
+              autem fit per exercitium activae, qua homo aliorum reductioni in Deo studet. Ergo
+              videtur esse nobilissimum.</p>
+            <p xml:id="ta-l3d35q1-d1e497">Sed contra est quod dicit dominus, Luc. 10, 43: <quote xml:id="ta-l3d35q1-Qd1e499">Maria optimam partem
+                elegit</quote>. Per Mariam autem vita contemplativa significatur. Ergo vita
+              contemplativa nobilior est quam activa.</p>
+            <p xml:id="ta-l3d35q1-d1e503">Praeterea, quanto vita alicujus est caelesti vitae similior, tanto est nobilior. Sed
+              vita contemplativa est similior caelesti quam activa: quia in caelesti vita, ut dicit
+              Augustinus, vacabimus et videbimus; videbimus et amabimus; amabimus et laudabimus:
+              quod ad vitam contemplativam pertinet. Ergo vita contemplativa est nobilior quam
+              activa.</p>
+          </div>
+          <div xml:id="ta-l3d35q1-Dd1e507">
+            <head xml:id="ta-l3d35q1-Hd1e509">Quaestiuncula 2</head>
+            <p xml:id="ta-l3d35q1-d1e512">Ulterius. Videtur quod etiam vita contemplativa sit majoris meriti quam activa.
+              Gregorius enim dicit in moralibus: <quote xml:id="ta-l3d35q1-Qd1e514">contemplativa major est merito quam activa:
+                quia activa in usu praesentis operis laborat; contemplativa vero in sapore intimo
+                venturam jam requiem degustat</quote>.</p>
+            <p xml:id="ta-l3d35q1-d1e518">Praeterea, supra dictum est, distinct. 30, quaest. unica, art. 4, quod magis
+              consistit meritum in dilectione Dei quam proximi. Sed in contemplativa vita homo magis
+              insistit dilectioni Dei, in activa autem magis proximi. Ergo contemplativa est majoris
+              meriti quam activa.</p>
+            <p xml:id="ta-l3d35q1-d1e521">Praeterea, quanto magis aliquid beneficiatur a Deo, tanto est majoris meriti. Sed
+              secundum philosophum in 10 Ethic., Deus maxime beneficiat eos qui contemplationi
+              student, quasi sibi simillimos. Ergo videtur quod vita contemplativa plus habeat de
+              merito quam activa.</p>
+            <p xml:id="ta-l3d35q1-d1e524">Sed contra, totum meritum hominis consistit in acceptatione divina. Sed Gregorius
+              dicit super Ezech.: <quote xml:id="ta-l3d35q1-Qd1e526">nullum sacrificium est Deo magis acceptum quam regimen
+                animarum</quote>. Ergo cum hoc pertineat ad laborem activae, videtur quod in activa
+              sit majus meritum.</p>
+            <p xml:id="ta-l3d35q1-d1e531">Praeterea, meritum contra praemium dividitur. Sed contemplativa vita plus habet de
+              ratione praemii quam activa: quia pascitur a domino contemplativa, sed activa pascit,
+              ut dicit Gregorius. Ergo activa plus habet de merito.</p>
+          </div>
+          <div xml:id="ta-l3d35q1-Dd1e535">
+            <head xml:id="ta-l3d35q1-Hd1e537">Quaestiuncula 3</head>
+            <p xml:id="ta-l3d35q1-d1e540">Ulterius. Videtur quod contemplativa vita non sit diuturnior quam activa. Vita enim
+              activa fuit in Christo perfecta. Sed ipse fuit perfectus comprehensor. Ergo vita
+              activa manebit in patria; et ita non est minus diuturna quam contemplativa.</p>
+            <p xml:id="ta-l3d35q1-d1e543">Praeterea, homines erunt in patria aequales Angelis. Sed in Angelis est utraque vita:
+              quia quidam sunt assistentes, quod ad contemplationem pertinet; quidam ministrantes,
+              quod pertinet ad actionem. Ergo utraque vita etiam in hominibus in patria erit; et sic
+              idem quod prius.</p>
+            <p xml:id="ta-l3d35q1-d1e546">Praeterea, in patria manebunt virtutes cardinales, et habebunt aliquos actus:
+              similiter etiam et dona omnia. Sed virtutes cardinales perficiunt in activa vita, et
+              similiter quaedam dona. Ergo in patria manebit vita activa; et sic idem quod
+              prius.</p>
+            <p xml:id="ta-l3d35q1-d1e549">Sed contra, Luc. 10, 43: <quote xml:id="ta-l3d35q1-Qd1e551">Maria optimam partem elegit</quote>. Glossa:
+                <quote xml:id="ta-l3d35q1-Qd1e554">contemplativa hic incipit, et in caelesti patria perficitur; activa autem cum
+                corpore deficit</quote>.</p>
+            <p xml:id="ta-l3d35q1-d1e559">Praeterea, philosophus in 10 Ethic. dicit, quod contemplativa vita diuturnior est
+              quam activa.</p>
+          </div>
+          <div xml:id="ta-l3d35q1-Dd1e564">
+            <head xml:id="ta-l3d35q1-Hd1e566">Quaestiuncula 1</head>
+            <p xml:id="ta-l3d35q1-d1e569">Respondeo dicendum ad primam quaestionem, quod duplex est ratio boni. Aliquid enim
+              dicitur bonum, quod propter seipsum est desiderandum: et sic vita contemplativa
+              simpliciter melior est quam activa, inquantum magis assimilatur illi vitae ad quam per
+              activam et contemplativam nitimur pervenire; unde et contemplativa est finis activae,
+              et fini ultimo vicinior. Aliquid vero dicitur bonum quasi propter aliud eligendum; et
+              in hac via vita activa praeeminet contemplativae. Vita enim contemplativa non
+              ordinatur ad aliquid aliud in ipso in quo est: quia vita aeterna non est nisi quaedam
+              consummatio contemplativae vitae, quae per vitam contemplativam in praesenti
+              quodammodo praelibatur: unde non restat quod ordinetur ad aliud, nisi secundum quod
+              bonum unius hominis ordinatur ad bonum multorum, ad quod propinquius se habet vita
+              activa quam contemplativa. Unde activa quantum ad hanc partem quae saluti proximorum
+              studet, est utilior quam contemplativa; sed contemplativa est dignior: quia dignitas
+              significat bonitatem alicujus propter seipsum, utilitas vero propter aliud. Sed vita
+              activa quae non ad alium, sed ad seipsum tantum ordinatur, neque dignior neque utilior
+              est quam contemplativa, immo comparatur ad contemplativam sicut utile ad id ad quod
+              est utile.</p>
+            <p xml:id="ta-l3d35q1-d1e572">Ad primum igitur dicendum, quod vita contemplativa propter activam intermittitur ad
+              tempus, non simpliciter; seu ratione utilitatis, non ratione dignitatis.</p>
+            <p xml:id="ta-l3d35q1-d1e575">Ad secundum dicendum, quod sicut bonum unius consistit in actione et contemplatione;
+              ita et bonum multitudinis, secundum quod contingit multitudinem contemplationi vacare.
+              Sed ad bonum multitudinis pervenitur per regimen activae vitae: unde ex hoc non
+              probatur quod activa sit dignior, sed utilior.</p>
+            <p xml:id="ta-l3d35q1-d1e578">Ad tertium dicendum, quod politica, ut dicit philosophus in 6 Ethic., non praecipit
+              sapientiae, et aliis quae ad vitam contemplativam pertinent, sed imperat quaedam
+              propter ipsa; sicut etiam imperat quaedam propter Deum, cui praecipit sic vel sic
+              cultum exhiberi.</p>
+            <p xml:id="ta-l3d35q1-d1e582">Ad quartum dicendum, quod intelligendum est ratione utilitatis in alterum
+              provenientis.</p>
+          </div>
+          <div xml:id="ta-l3d35q1-Dd1e586">
+            <head xml:id="ta-l3d35q1-Hd1e588">Quaestiuncula 2</head>
+            <p xml:id="ta-l3d35q1-d1e591">Ad secundam quaestionem dicendum, quod meritum pendet ex radice caritatis; unde
+              contingit quandoque quod in activa quis plus mereatur quam in contemplativa, vel e
+              converso, secundum quod majorem habet caritatem vel minorem. Nihilominus tamen cum
+              quaeritur de duobus in genere quid sit majoris meriti, intelligendum est quantum
+              pertinet ad rationem ipsorum actuum, non quantum ad ipsos operantes. Est ergo duplex
+              meritum; scilicet dimissionis culpae, et consecutionis gloriae: quantum ad primum,
+              majoris meriti dicitur activa quam contemplativa, inquantum laboriosior; unde habet
+              plus de ratione satisfactionis. Quantum autem ad meritum consecutionis gloriae, sic
+              contemplativa vita est majoris meriti quam activa quantum ad puritatem: quia non
+              admiscetur ei tantum de pulvere terrenorum, sicut fit in activa vita. Sed quantum ad
+              intensionem meriti videtur contemplativa iterum majoris meriti illa parte activae quae
+              circa sui moderationem studet; minoris autem quantum ad illam partem quae profectui
+              aliorum invigilat: quia hoc ipsum videtur esse fortioris caritatis secundum genus,
+              quod homo, praetermissa consolatione qua in Dei contemplatione reficitur, gloriam Dei
+              in aliorum conversione quaerat: quia etiam in humana amicitia verus amicus quaerit
+              magis bonum amici quam de ejus praesentia delectari.</p>
+            <p xml:id="ta-l3d35q1-d1e594">Ad primum ergo dicendum, quod contemplativa dicitur esse a Gregorio major merito,
+              quia minus habet de impuritate demeriti admixtum.</p>
+            <p xml:id="ta-l3d35q1-d1e597">Ad secundum dicendum, quod ex dilectione Dei videtur procedere quod homo praetermissa
+              propria consolatione voluntatem Dei implere studeat in aliorum salute; unde Gregorius
+              super Ezech.: <quote xml:id="ta-l3d35q1-Qd1e599">est amanti animae non parva consolatio, si cum ipsa differtur,
+                per eam multae colligantur</quote>.</p>
+            <p xml:id="ta-l3d35q1-d1e603">Ad tertium dicendum, quod philosophus loquitur de contemplativa vita per
+              comparationem ad activam, quae in rebus humanis negotiatur, non autem respectu illius
+              quae proximorum saluti insistit.</p>
+          </div>
+          <div xml:id="ta-l3d35q1-Dd1e607">
+            <head xml:id="ta-l3d35q1-Hd1e609">Quaestiuncula 3</head>
+            <p xml:id="ta-l3d35q1-d1e612">Ad tertiam quaestionem dicendum, quod, sicut dictum est de donis et virtutibus
+              perficientibus in vita activa, quod manent in patria, sed non quantum ad eosdem actus;
+              similiter etiam dicendum est de vita activa: unde vita activa quantum ad illos actus
+              quos modo habet, quibus turbatur de proximorum necessitatibus et de propriis
+              passionibus, non remanebit: quia tunc panem esurienti non porriget, ut in Glossa
+              inducta subjungitur. Manebit autem quantum ad alios actus qui erunt virtutum et
+              donorum in patria. Vita autem contemplativa nihilominus est diuturnior quam activa:
+              quia manet etiam quo ad illos actus quos in via habet: qui quidem in statu viae sunt
+              imperfecti, sed in patria perficientur. Unde Gregorius dicit super Ezech. de
+              contemplativa vita: <quote xml:id="ta-l3d35q1-Qd1e614">etiam cum contendimus, vix aliquid aut parum attingere
+                valemus</quote>.</p>
+            <p xml:id="ta-l3d35q1-d1e618">Ad primum tamen dicendum, quod non est simile de Christo et de aliis: quia ipse erat
+              verus viator et comprehensor; unde simul erat in actu perfecto quantum ad utramque
+              vitam etiam secundum actus viae.</p>
+            <p xml:id="ta-l3d35q1-d1e621">Ad secundum dicendum, quod Angeli ex ordine naturae sunt medii inter Deum et homines:
+              et ideo eis competit ministerium custodiae, et hujusmodi; non autem animabus
+              sanctorum.</p>
+            <p xml:id="ta-l3d35q1-d1e624">Ad tertium patet solutio per id quod dictum est in corp.</p>
+            <p xml:id="ta-l3d35q1-d1e628">Ad alia etiam patet solutio ex praedictis.</p>
+          </div>
+        </div>
+
+      </div>
+    </body>
+  </text>
+</TEI>

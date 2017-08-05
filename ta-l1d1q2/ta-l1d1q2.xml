@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 1, Quaestio 2</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.09-dev-master">
+          <title>Librum I, Distinctio 1, Quaestio 2</title>
+          <date when="2016-01-31">January 31, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-01-31">January 31, 2016</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <p>1856 editum</p>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="2015.09">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+
+      <div xml:id="starts-on">
+      </div>
+    </front>
+    <body>
+      <div xml:id="ta-l1d1q2">
+        <head xml:id="ta-l1d1q2-Hd1e3490">Librum I, Distinctio 1, Quaestio 2</head>
+        <div xml:id="ta-l1d1q2-Dd1e3493">
+          <head xml:id="ta-l1d1q2-Hd1e3495">Prooemium</head>
+          <p xml:id="ta-l1d1q2-d1e3498">Circa objecta dictorum actuum, primo quaeritur de fruibilibus; secundo de utibilibus. Quantum ad primum duo quaeruntur: 1 utrum solo Deo sit fruendum; 2 utrum una tantum fruitione vel pluribus.</p>
+        </div>
+        <div xml:id="ta-l1d1q2-Dd1e3502" type="articulus">
+          <head xml:id="ta-l1d1q2-Hd1e3504">Articulus 1</head>
+          <head xml:id="ta-l1d1q2-Hd1e3507" type="questionTitle">Utrum fruendum sit solo Deo</head>
+          <p xml:id="ta-l1d1q2-d1e3510">Ad primum sic proceditur. Videtur quod non solo Deo fruendum sit. His enim rebus fruendum est, ut dicitur in littera, quae nos beatos faciunt. Beatitudo autem creata beatos nos facit. Ergo ea fruendum est: non ergo tantum Deo.</p>
+          <p xml:id="ta-l1d1q2-d1e3513">Praeterea, ultimus finis hominis est sua felicitas. Felicitas autem ejus est perfectissima operatio. Cum igitur ultimo fine fruendum sit, operatione perfectissima fruendum est: quod etiam videtur per philosophum qui dicit, quod felicitas non quaeritur propter aliquid aliud: et per Boetium, qui dicit, quod 
+            <quote xml:id="ta-l1d1q2-Qd1e3515">beatitudo est status omnium bonorum aggregatione perfectus</quote>.</p>
+          <p xml:id="ta-l1d1q2-d1e3519">Praeterea, Tullius dicit: <quote xml:id="ta-l1d1q2-Qd1e3521">honestum est quod sua vi nos trahit, et sua dignitate nos allicit</quote>. Sed quod per se allicit, propter se amatur. Ergo omni honesto fruendum est, et ita omnibus virtutibus. Ergo non tantum Deo.</p>
+          <p xml:id="ta-l1d1q2-d1e3526">Praeterea, apostolus ad 
+            <ref xml:id="ta-l1d1q2-Rd1e3528"><title>Philemonem</title> 20,</ref> dicit: 
+            <quote xml:id="ta-l1d1q2-Qd1e3533">itaque, frater, ego te fruar in domino</quote>. Ergo etiam homine justo frui possumus, et per consequens quolibet homine, qui est ad imaginem Dei, et qualibet creatura, in qua est vestigium Dei.</p>
+          <p xml:id="ta-l1d1q2-d1e3537">Contra, ratio dilectionis est bonitas. Sed omnis bonitas refertur ad bonitatem Dei a qua fluit et cujus similitudinem gerit. Ergo nihil est diligendum nisi in ordine ad Deum. Ergo solo Deo fruendum est.</p>
+          <p xml:id="ta-l1d1q2-d1e3540">Praeterea, 
+            <ref xml:id="ta-l1d1q2-Rd1e3542"><title>Proverb.</title> 16, 4,</ref> dicitur: 
+            <quote xml:id="ta-l1d1q2-Qd1e3547" ana="#prov16_4">universa propter semetipsum operatus est Deus</quote>. Ergo ipse est finis omnium. Omnia ergo propter ipsum diligenda sunt: et sic idem quod prius.</p>
+          <p xml:id="ta-l1d1q2-d1e3551">Respondeo dicendum, quod frui aliquo dicitur tripliciter. Aut sicut objecto; et hoc modo solo Deo fruendum est: quia ad bonitatem ipsius Dei ordinatur tota bonitas universi; sicut bonum totius exercitus ad bonum ducis, ut dicitur 12 Metaph. Alio modo sicut habitu eliciente actum fruitionis; et hoc modo beatitudine creata et caritate fruendum est. Tertio modo fruimur aliquo sicut instrumento fruitionis; et hoc modo fruimur potentia, cujus fruitio est actus.</p>
+          <p xml:id="ta-l1d1q2-d1e3554">Ad primum ergo dicendum, quod aliquid facit beatum dupliciter: vel effective, sicut Deus; et hoc solo fruendum est velut objecto: vel formaliter, sicut albedo facit album; et hoc fruendum est formaliter loquendo, et sic beatitudo beatum facit.</p>
+          <p xml:id="ta-l1d1q2-d1e3557">Ad secundum dicendum, quod objectum operationis terminat et perficit ipsam, et est finis ejus. Unde impossibile est operationem habere rationem finis ultimi. Sed, quia objectum non consequimur nisi per operationem, ideo est idem appetitus operationis et objecti. Unde, si aliquo modo ipsa fruitione fruimur, hoc erit inquantum fruitio nos Deo conjungit: et eadem fruitione fruemur fine et operatione, cujus objectum est finis ultimus; sicut eadem operatione intelligo intelligibile et intelligo me intelligere.</p>
+          <p xml:id="ta-l1d1q2-d1e3561">Ad tertium dicendum, quod propter se dicitur dupliciter. Uno modo secundum quod opponitur ad propter aliud; et hoc modo virtutes et honestum non propter se diliguntur, cum etiam ad aliud referantur. Alio modo dicitur propter se, secundum quod opponitur ad per accidens; et sic dicitur propter se diligi quod habet in natura sua aliquid movens ad diligendum: et hoc modo virtutes propter se diliguntur, quia habent in se aliquid unde quaerantur, etsi nihil aliud ab eis contingeret: non tamen est inconveniens ut aliquid propter se ametur et tamen ad alterum ordinetur, sicut dicitur in 1 Ethic. Est autem aliquid quod desideratur, non propter aliquid quod in se habet, sed tantum secundum quod ordinatur ad alterum, ut effectivum illius; sicut potio amara amatur, non propter aliquid quod in ipsa est, sed quia sanitatem efficit: et hujusmodi nullo modo propter se diliguntur; sive propter se dicat causam formalem, sicut virtus dicitur propter se diligi; sive finalem, sicut Deus.</p>
+          <p xml:id="ta-l1d1q2-d1e3564">Ad quartum dicendum, quod homine justo non est simpliciter fruendum, sed in Deo; ita quod objectum fruitionis sit Deus; et repraesentans ipsum gratiae objectum per similitudinem, in qua inhabitat Deus, sit homo sanctus. Nec tamen sequitur quod homine peccatore sit fruendum in Deo, quia non est in eo gratia, quae facit Deum inhabitare, et quae est exemplar expressum illius summae bonitatis, qua fruendum est: et multo minus hoc sequitur de creatura irrationali: non enim sufficit ad hoc similitudo imaginis et vestigii, sed similitudo gratiae.</p>
+        </div>
+        <div xml:id="ta-l1d1q2-Dd1e3568" type="articulus">
+          <head xml:id="ta-l1d1q2-Hd1e3570">Articulus 2</head>
+          <head xml:id="ta-l1d1q2-Hd1e3573" type="questionTitle">Utrum fruamur Deo una fruitione</head>
+          <p xml:id="ta-l1d1q2-d1e3576">Circa secundum sic proceditur. Videtur quod non una fruitione Deo fruamur. Actus enim distinguuntur secundum objecta. Sed objecta fruitionis sunt tres res distinctae proprietatibus personalibus, scilicet pater, filius, et spiritus sanctus. Ergo fruitiones sunt tres.</p>
+          <p xml:id="ta-l1d1q2-d1e3579">Praeterea, operatio animae sistens in communi non est perfecta, nisi etiam descendat ad propria, sicut cognitio generis perficitur per cognitionem differentiae; et multo plus desiderium et amor perficitur in particulari. Sed fruitio est operatio perfecta. Ergo non tantum fruemur essentia communi tribus personis, sed singulis personis et proprietatibus ipsarum; et ita videtur quod non sit una tantum fruitio.</p>
+          <p xml:id="ta-l1d1q2-d1e3582">Praeterea, quidquid habet filius solet referre ad patrem a quo habet, sicut 
+            <title ref="#io7_16">Joan. 7, 16,</title> dicitur: 
+            <quote xml:id="ta-l1d1q2-Qd1e3587">mea doctrina non est mea, sed ejus qui misit me</quote>. Sed bonitatem accepit filius a patre nascendo, sicut essentiam. Ergo et fruitionem bonitatis filii debemus referre in fruitionem patris. Ergo non est aequaliter fruendum tribus personis: multo minus ergo nec eadem fruitione.</p>
+          <p xml:id="ta-l1d1q2-d1e3592">Contra, sicut Deus Trinitas est unum principium omnium, ita est unus finis omnium. Sed eadem operatio communis est totius Trinitatis, inquantum est unum principium. Ergo eadem est fruitio trium, inquantum est unus finis.</p>
+          <p xml:id="ta-l1d1q2-d1e3595">Praeterea, operatio felicitatis est ad nobilissimum objectum, ut dicit philosophus. Nobilissimum autem est unum tantum, quia quod per superabundantiam dicitur, uni soli convenit. Ergo, cum fruitio sit operatio ultimae felicitatis, refertur ad unum tantum objectum; ergo fruimur tribus personis, inquantum sunt unum: ergo inquantum est unum objectum.</p>
+          <p xml:id="ta-l1d1q2-d1e3598">Respondeo dicendum, quod una fruitione fruimur tribus personis: et hujus ratio est duplex. Una ex parte essentiae. Objectum enim fruitionis est summa bonitas; unde fruitio respicit unamquamque personam, inquantum est summum bonum; unde cum eadem numero sit bonitas trium, eadem erit et fruitio. Alia ratio sumitur ex parte proprietatum. Sicut enim dicit philosophus qui novit unum relativorum, cognoscit et reliquum; et sic cum tota fruitio originetur ex visione, ut prius dictum est, qui fruitur uno relativorum inquantum hujusmodi, fruitur et reliquo. Personae autem tres distinguuntur tantum secundum relationes; et ideo in fruitione unius includitur fruitio alterius; et ita est fruitio eadem trium. Sed prima ratio melior est, quae tangit rationem objecti, a qua actus habet unitatem.</p>
+          <p xml:id="ta-l1d1q2-d1e3601">Et per hoc patet solutio ad primum: quia tres personae non distinguuntur secundum id quod sunt objectum fruitionis, immo uniuntur in eo, scilicet in summa bonitate.</p>
+          <p xml:id="ta-l1d1q2-d1e3604">Ad secundum dicendum, quod proprietate uniuscujusque personae fruimur, ut paternitate; tamen paternitas non dicit rationem fruitionis: unde fruemur paternitate, inquantum paternitas est idem re quod summa bonitas, differens tamen ratione.</p>
+          <p xml:id="ta-l1d1q2-d1e3607">Ad tertium dicendum, quod illa reductio non ponit gradum bonitatis in patre et filio, sed tantum ordinem naturae; et ideo non tollitur aequalitas et unitas fruitionis.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

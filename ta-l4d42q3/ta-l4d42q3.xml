@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 42, Quaestio 3</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Librum IV, Distinctio 42, Quaestio 3</title>
+          <date when="2016-03-19">March 19, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-19">March 19, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness>1856 editum</witness>
+          <witness xml:id="G" n="ghent567">Ghent, Belgium, Ghent University Library, 567</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="0.0.0-dev">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+
+
+
+
+      <div xml:id="starts-on">
+        <cb ed="#G" n="567b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ta-l4d42q3">
+        <head xml:id="ta-l4d42q3-Hd1e97">Librum IV, Distinctio 42, Quaestio 3</head>
+        <div xml:id="ta-l4d42q3-Dd1e100">
+          <head xml:id="ta-l4d42q3-Hd1e102">Prooemium</head>
+          <p xml:id="ta-l4d42q3-d1e105">Deinde quaeritur de secundis nuptiis; et circa hoc quaeruntur duo: 1 utrum sint
+            licitae; 2 utrum sint sacramentales.</p>
+
+        </div>
+        <div xml:id="ta-l4d42q3-Dd1e109" type="articulus">
+          <head xml:id="ta-l4d42q3-Hd1e111">Articulus 1</head>
+
+          <head xml:id="ta-l4d42q3-Hd1e114" type="questionTitle">Utrum secundae nuptiae sint licitae</head>
+
+          <p xml:id="ta-l4d42q3-d1e117">Ad primum sic proceditur. Videtur quod secundae nuptiae non sint licitae. Quia judicium
+            de re debet esse secundum veritatem. Dicit enim Chrysostomus, quod secundum virum
+            accipere, secundum veritatem est fornicatio: quae non est licita. Ergo nec secundum
+            matrimonium.</p>
+          <p xml:id="ta-l4d42q3-d1e120">Praeterea, omne quod non est bonum, non est licitum. Sed Ambrosius dicit, quod duplex
+            matrimonium non est bonum. Ergo non est licitum.</p>
+          <p xml:id="ta-l4d42q3-d1e123">Praeterea, nullus arceri debet ne intersit illis quae sunt honesta et licita. Sed
+            sacerdotes arcentur ne intersint secundis nuptiis, ut in littera patet. Ergo non sunt
+            licitae.</p>
+          <p xml:id="ta-l4d42q3-d1e127">Praeterea, nullus reportat poenam nisi pro culpa. Sed pro secundis nuptiis aliquis
+            reportat irregularitatis poenam. Ergo non sunt licitae.</p>
+          <p xml:id="ta-l4d42q3-d1e130">Sed contra est quod Abraham legitur secundas nuptias contraxisse: Gen. 25.</p>
+          <p xml:id="ta-l4d42q3-d1e133">Praeterea, 1 Tim. 5, 14, dicit apostolus: <quote xml:id="ta-l4d42q3-Qd1e135">volo autem juniores</quote>, scilicet
+            viduas, <quote xml:id="ta-l4d42q3-Qd1e138">nubere, filios procreare</quote>. Ergo secundae nuptiae sunt licitae.</p>
+          <p xml:id="ta-l4d42q3-d1e142">Respondeo dicendum, quod vinculum matrimoniale non durat nisi usque ad mortem, ut patet
+            Rom. 7; et ideo moriente altero conjugum, vinculum matrimoniale cessat. Unde propter
+            praecedens matrimonium non impeditur aliquis a secundo, mortuo conjuge, et sic non solum
+            secundae, sed tertiae, et sic deinceps nuptiae sunt licitae.</p>
+          <p xml:id="ta-l4d42q3-d1e145">Ad primum ergo dicendum, quod Chrysostomus loquitur quantum ad causam quae aliquando
+            solet ad secundas nuptias incitare, scilicet concupiscentiam, quae etiam ad
+            fornicationem incitat.</p>
+          <p xml:id="ta-l4d42q3-d1e148">Ad secundum dicendum, quod matrimonium secundum dicitur non esse bonum, non quia sit
+            illicitum, sed quia caret illo honore significationis qui est in primis nuptiis, ut sit
+            una unius, sicut est in Christo et Ecclesia.</p>
+          <p xml:id="ta-l4d42q3-d1e152">Ad tertium dicendum, quod homines divinis dediti non solum ab illicitis, sed etiam ab
+            illis quae habent aliquam turpitudinis speciem arcentur; et ideo etiam arcentur a
+            secundis nuptiis, quae carent honestate quae erat in primis.</p>
+          <p xml:id="ta-l4d42q3-d1e155">Ad quartum dicendum, quod irregularitas, sicut supra dictum est, dist. 29, quaest. 3,
+            art. 1, non semper inducitur propter culpam, sed propter defectum sacramenti; et ideo
+            ratio non est ad propositum.</p>
+
+        </div>
+        <div xml:id="ta-l4d42q3-Dd1e159" type="articulus">
+          <head xml:id="ta-l4d42q3-Hd1e161">Articulus 2</head>
+
+          <head xml:id="ta-l4d42q3-Hd1e164" type="questionTitle">Utrum secundum matrimonium sit sacramentum</head>
+
+          <p xml:id="ta-l4d42q3-d1e167">Ad secundum sic proceditur. Videtur quod secundum matrimonium non sit sacramentum. Qui
+            enim iterat sacramentum, facit ei injuriam. Sed nulli sacramento facienda est injuria.
+            Ergo si secundum matrimonium esset sacramentum, nullo modo esset iterandum.</p>
+          <p xml:id="ta-l4d42q3-d1e170">Praeterea, in omni sacramento adhibetur aliqua benedictio. Sed in secundis nuptiis non
+            adhibetur, ut in littera dicitur. Ergo non fit ibi aliquod sacramentum.</p>
+          <p xml:id="ta-l4d42q3-d1e173">Praeterea, significatio est de essentia sacramenti. Sed in secundo matrimonio non
+            salvatur significatio matrimonii; quia non est una unius, sicut Christus et Ecclesia.
+            Ergo non est sacramentum.</p>
+          <p xml:id="ta-l4d42q3-d1e177">Praeterea, unum sacramentum non impedit a susceptione alterius. Sed secundum
+            matrimonium impedit a susceptione ordinis. Ergo non est sacramentum.</p>
+          <p xml:id="ta-l4d42q3-d1e180">Sed contra, coitus in secundis nuptiis excusatur a peccato, sicut etiam in primis. Sed
+            per tria bona conjugii excusatur matrimonialis coitus, quae sunt fides, proles et
+            sacramentum. Ergo secundum matrimonium est sacramentum.</p>
+          <p xml:id="ta-l4d42q3-d1e183">Praeterea, ex secunda conjunctione viri ad mulierem non sacramentali, non contrahitur
+            irregularitas, sicut patet de fornicatione. Sed in secundis nuptiis contrahitur
+            irregularitas. Ergo sunt sacramentales.</p>
+          <p xml:id="ta-l4d42q3-d1e186">Respondeo dicendum, quod ubicumque inveniuntur illa quae sunt de essentia sacramenti,
+            illud est verum sacramentum; unde cum in secundis nuptiis inveniantur omnia quae sunt de
+            essentia sacramenti, quia debita materia quam facit personarum legitimitas, et debita
+            forma, scilicet expressio consensus interioris per verba; constat etiam quod secundum
+            matrimonium est sacramentum sicut primum.</p>
+          <p xml:id="ta-l4d42q3-d1e189">Ad primum ergo dicendum, quod hoc intelligitur de sacramento quod inducit effectum
+            perpetuum: tunc enim si iteratur sacramentum, datur intelligi quod primum non fuit
+            efficax; et sic fit primo injuria, sicut patet in omnibus sacramentis quae imprimunt
+            characterem. Sed illa sacramenta quae habent effectum non perpetuum, possunt iterari
+            sine injuria sacramenti, sicut patet de poenitentia. Et quia vinculum matrimoniale
+            tollitur per mortem, nulla fit injuria sacramento, si mulier post mortem viri iterato
+            nubat.</p>
+          <p xml:id="ta-l4d42q3-d1e192">Ad secundum dicendum, quod secundum matrimonium quamvis in se consideratum sit
+            perfectum sacramentum, tamen in ordine ad primum consideratum habet aliquid de defectu
+            sacramenti, quia non habet plenam significationem, cum non sit una unius, sicut est in
+            matrimonio Christi et Ecclesiae; et ratione hujus defectus benedictio a secundis nuptiis
+            subtrahitur. Sed hoc est intelligendum, quando secundae nuptiae sunt secundae et ex
+            parte viri et ex parte mulieris, vel ex parte mulieris tantum. Si enim virgo contrahat
+            cum illo qui habuit aliam uxorem, nihilominus nuptiae benedicuntur: salvatur enim aliquo
+            modo significatio etiam in ordine ad primas nuptias: quia Christus, etsi unam Ecclesiam
+            sponsam habeat, habet tamen plures personas desponsatas in una Ecclesia; sed anima non
+            potest esse sponsa alterius quam Christi, quia cum Daemone fornicatur, nec est ibi
+            matrimonium spirituale; et propter hoc quando mulier secundo nubit, nuptiae non
+            benedicuntur propter defectum sacramenti.</p>
+          <p xml:id="ta-l4d42q3-d1e196">Ad tertium dicendum, quod significatio perfecta invenitur in secundo matrimonio
+            secundum se considerato, non autem si consideretur in ordine ad praecedens matrimonium;
+            et sic habet defectum sacramenti.</p>
+          <p xml:id="ta-l4d42q3-d1e199">Ad quartum dicendum, quod secundum matrimonium impedit sacramentum ordinis quantum ad
+            id quod habet de defectu sacramenti, et non inquantum est sacramentum.</p>
+        </div>
+        <div xml:id="ta-l4d42q3-Dd1e203">
+          <head xml:id="ta-l4d42q3-Hd1e205">Expositio textus</head>
+          <p xml:id="ta-l4d42q3-d1e208"><quote xml:id="ta-l4d42q3-Qd1e209">Omnes quos in poenitentia accipimus, ita nostri filii sunt ut in Baptismo
+              suscepti</quote>: non ratione alicujus cognationis, sed propter periculum evitandum,
+            ut dictum est. <quote xml:id="ta-l4d42q3-Qd1e212">Paschalis vero secundus post compaternitatem genitos copulari
+              prohibet</quote>. Illa prohibitio nunc locum non habet; magis enim fuit propter
+            quamdam honestatem quam propter aliquod vinculum. <quote xml:id="ta-l4d42q3-Qd1e215">Si quis suae spiritualis
+              commatris filiam fortuito (...) duxerit, maturiori servato consilio habeat</quote>.
+            Hoc ideo dicitur, quia spiritualis cognatio ad filium spiritualem transit a patre in
+            filium naturalem, quia omnes filii naturales spiritualis patris sunt ei fratres
+            spirituales; non autem respectu patris: patri enim spirituali non fiunt filii
+            spirituales filii naturales matris, nec e converso. <quote xml:id="ta-l4d42q3-Qd1e218">Quia vero piaculare flagitium
+              commisit qui duabus commatribus vel sororibus nupsit, magna poenitentia debet ei
+              injungi</quote>. Hoc est intelligendum, quando una illarum est facta commater alteri,
+            postquam uxor ejus est matrimonio consummato, et per actum proprium: alias enim
+            prohibetur, ut dictum est.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

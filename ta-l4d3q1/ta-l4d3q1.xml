@@ -1,0 +1,1086 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 3, Quaestio 1</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Librum IV, Distinctio 3, Quaestio 1</title>
+          <date when="2016-03-18">March 18, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-18">March 18, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness>1856 editum</witness>
+          <witness xml:id="G" n="ghent567">Ghent, Belgium, Ghent University Library, 567</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="0.0.0-dev">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+
+
+
+
+      <div xml:id="starts-on"> 
+        <cb ed="#G" n="39a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ta-l4d3q1">
+        <head xml:id="ta-l4d3q1-Hd1e97">Librum IV, Distinctio 3, Quaestio 1</head>
+        <div xml:id="ta-l4d3q1-Dd1e100">
+          <head xml:id="ta-l4d3q1-Hd1e102">Prooemium</head>
+          <p xml:id="ta-l4d3q1-d1e105">Postquam determinavit Magister de his quae praeexiguntur ad sacramenta novae legis, hic
+            incipit determinare de singulis sacramentorum novae legis; et dividitur in partes duas:
+            in prima determinat de illis sacramentis quae sunt ordinata in remedium unius personae;
+            in secunda de illis quae sunt ordinata in remedium totius Ecclesiae; 24 dist., ibi:
+              <quote xml:id="ta-l4d3q1-Qd1e107">nunc ad considerationem sacrae ordinationis accedamus</quote>. Prima dividitur
+            in tres: in prima determinat de sacramento intrantium, scilicet Baptismo, in secunda de
+            sacramentis progredientium, 7 dist., ibi: <quote xml:id="ta-l4d3q1-Qd1e110">nunc de sacramento confirmationis
+              addendum est</quote>; in tertia de sacramento exeuntium, scilicet extrema unctione, 23
+            dist., ibi: <quote xml:id="ta-l4d3q1-Qd1e113">praeter praemissa est aliud sacramentum, scilicet unctio
+              infirmorum</quote>. Prima in tres: in prima determinat de Baptismo secundum se; in
+            secunda de Baptismo per comparationem ad recipientes, 4 dist., ibi: <quote xml:id="ta-l4d3q1-Qd1e116">hic dicendum
+              est, aliquos suscipere sacramentum et rem sacramenti</quote> etc.; in tertia secundum
+            comparationem ad ministrantes, 5 dist., ibi: <quote xml:id="ta-l4d3q1-Qd1e119">post haec sciendum est, sacramentum
+              Baptismi a bonis et a malis ministris dari</quote>. Prima in duas: in prima determinat
+            de Baptismo secundum se; in secunda determinat de eo per comparationem ad
+            circumcisionem, ibi: <quote xml:id="ta-l4d3q1-Qd1e123">solet etiam quaeri, si circumcisio amisit statim vim suam ab
+              institutione Baptismi</quote>. Prima in duas: in prima determinat quid est Baptismus;
+            in secunda de his quae ad Baptismum requiruntur, ibi: <quote xml:id="ta-l4d3q1-Qd1e126">sed quod est illud verbum
+              quo accedente ad elementum fit sacramentum?</quote> Haec pars dividitur in tres
+            secundum tria quae exiguntur ad Baptismum: in prima enim determinat de forma Baptismi;
+            in secunda de materia ejus, ibi: <quote xml:id="ta-l4d3q1-Qd1e129">celebratur autem hoc sacramentum tantum in
+              aqua</quote>; in tertia de ipso actu ablutionis vel immersionis, ibi: <quote xml:id="ta-l4d3q1-Qd1e132">de
+              immersione vero si quaeritur quomodo fieri debeat, praecise respondemus</quote>. Prima
+            in duas: in prima determinat de forma Baptismi; in secunda de institutione ipsius, ibi:
+              <quote xml:id="ta-l4d3q1-Qd1e135">de institutione Baptismi quando coepit, variae sunt aestimationes</quote>.
+            Circa primum duo facit: primo determinat formam Baptismi; secundo movet quamdam
+            quaestionem circa formam Baptismi, et determinat eam, ibi: <quote xml:id="ta-l4d3q1-Qd1e138">hic quaeritur, an
+              Baptismus esset verus, si diceretur, in nomine patris tantum</quote> et cetera. Prima
+            in duas: in prima determinat formam principalem Baptismi; in secunda quamdam formam
+            secundariam pro tempore observatam, ibi: <quote xml:id="ta-l4d3q1-Qd1e142">legitur tamen in actibus apostolorum,
+              apostolos baptizasse in nomine Christi. Solet etiam quaeri, si circumcisio amisit
+              statim vim suam ab institutione Baptismi</quote>. Hic determinat de Baptismo per
+            comparationem ad circumcisionem, et circa hoc tria facit: primo determinat cessationem
+            circumcisionis; secundo institutionem Baptismi, ibi: <quote xml:id="ta-l4d3q1-Qd1e145">causa vero institutionis
+              Baptismi est innovatio mentis</quote>; tertio effectum utriusque, ibi: <quote xml:id="ta-l4d3q1-Qd1e148">si
+              quaeritur, utrum Baptismus aperuerit caelum, quod non aperuit circumcisio; dicimus,
+              quia nec Baptismus nec circumcisio, regni nobis aditum aperuit, sed hostia
+              salvatoris</quote>. Hic quaeruntur quinque: 1 quid sit Baptismus; 2 de forma ipsius; 3
+            de materia ejus; 4 de intentione; 5 de institutione.</p>
+        </div>
+        <div xml:id="ta-l4d3q1-Dd1e153" type="articulus">
+          <head xml:id="ta-l4d3q1-Hd1e155">Articulus 1</head>
+
+          <head xml:id="ta-l4d3q1-Hd1e158" type="questionTitle">Utrum Baptismi definitio assignata sit conveniens</head>
+          <div xml:id="ta-l4d3q1-Dd1e161">
+            <head xml:id="ta-l4d3q1-Hd1e163">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d3q1-d1e166">Ad primum sic proceditur. Videtur quod inconvenienter sit assignata haec definitio
+              Baptismi quae in littera ponitur, scilicet: <quote xml:id="ta-l4d3q1-Qd1e168">Baptismus est ablutio corporis
+                exterior, facta sub forma praescripta verborum</quote>. Manente enim definito, manet
+              definitio. Sed transeunte ablutione, quae est quaedam actio, vel passio, manet
+              Baptismus. Ergo Baptismus non est ablutio.</p>
+            <p xml:id="ta-l4d3q1-d1e172">Praeterea, sacramentum, secundum Hugonem, est materiale elementum. Ablutio autem non
+              est materiale elementum, sed elementi usus. Ergo Baptismus, cum sit sacramentum, non
+              erit ablutio.</p>
+            <p xml:id="ta-l4d3q1-d1e175">Praeterea, sacramentum est in genere relationis, cum sit causa, vel signum, sicut
+              supra dictum est. Sed Baptismus est sacramentum. Ergo inconvenienter ponitur in genere
+              actionis vel passionis.</p>
+            <p xml:id="ta-l4d3q1-d1e178">Praeterea, in definitione instrumenti debet poni illud ad quod est. Sed Baptismus,
+              sicut et alia sacramenta, ut prius dictum est, sunt instrumenta sanctificationis. Ergo
+              cum in definitione ejus nulla mentio fiat de sanctificatione, videtur inconvenienter
+              esse assignata.</p>
+          </div>
+          <div xml:id="ta-l4d3q1-Dd1e182">
+            <head xml:id="ta-l4d3q1-Hd1e184">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d3q1-d1e187">Ulterius. Videtur quod etiam inconvenienter assignetur definitio Hugonis, quae talis
+              est: <quote xml:id="ta-l4d3q1-Qd1e189">Baptismus est aqua diluendis criminibus sanctificata per verbum
+                Dei</quote>. Nihil enim fit in seipso. Sed Baptismus in aqua fit. Ergo Baptismus non
+              est aqua.</p>
+            <p xml:id="ta-l4d3q1-d1e193">Praeterea, in definitione alicujus non debet poni aliquid quod non sit de essentia
+              ejus. Sed sanctificatio materiae non est de essentia Baptismi: quia in mari vel in
+              flumine potest fieri Baptismus. Ergo sanctificatio aquae non debet poni in definitione
+              Baptismi.</p>
+            <p xml:id="ta-l4d3q1-d1e196">Praeterea, definitio debet converti cum definito. Sed potest esse aqua sanctificata
+              verbo vitae diluendis criminibus, et tamen non erit Baptismus, sicut quando non fit
+              intinctio. Ergo haec non est competens Baptismi definitio.</p>
+            <p xml:id="ta-l4d3q1-d1e199">Praeterea, effectus qui potest impediri, non debet poni in definitione causae, quia
+              tunc definitio esset minus quam definitum. Sed potest impediri quod per Baptismum non
+              diluantur crimina. Ergo non debet ablutio criminum in definitione Baptismi poni.</p>
+          </div>
+          <div xml:id="ta-l4d3q1-Dd1e203">
+            <head xml:id="ta-l4d3q1-Hd1e205">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d3q1-d1e208">Ulterius. Videtur quod etiam inconvenienter assignetur definitio Dionysii, quam ponit
+              2 cap. Cael. Hier., ubi dicit: <quote xml:id="ta-l4d3q1-Qd1e210">quoddam ergo est principium sanctissimorum
+                mandatorum sacrae actionis, ad aliorum divinorum eloquiorum et sacrarum actionum
+                susceptivam opportunitatem, formans nostros animales habitus ad supercaelestis
+                quietis anagogem, nostrum iter faciens, sacrae et divinissimae nostrae
+                regenerationis traditio</quote>. Principium enim reducitur ad genus principiatorum.
+              Sed sacramentum non est in genere principii, sed in genere sacramenti. Ergo non debet
+              dici principium sanctissimorum mandatorum.</p>
+            <p xml:id="ta-l4d3q1-d1e214">Praeterea, non dicitur esse principium sanctorum mandatorum nisi inquantum praeparat
+              viam ad alia mandata. Ergo superfluum fuit postea addere: <quote xml:id="ta-l4d3q1-Qd1e216">ad susceptivam
+                opportunitatem aliorum nos formans</quote>.</p>
+            <p xml:id="ta-l4d3q1-d1e220">Praeterea, nihil potest formari ad divina eloquia nisi quod est perceptivum eorum.
+              Sed hoc quod est animale in nobis, non percipit divina eloquia, sed solum hoc quod est
+              rationale. Ergo male dixit: <quote xml:id="ta-l4d3q1-Qd1e222">formans animales habitus ad divina
+              eloquia</quote>.</p>
+            <p xml:id="ta-l4d3q1-d1e226">Praeterea, forma et materia sunt de essentia rei. Sed ipse nullam mentionem facit de
+              materia et forma Baptismi. Ergo videtur quod insufficienter definiat.</p>
+          </div>
+          <div xml:id="ta-l4d3q1-Dd1e231">
+            <head xml:id="ta-l4d3q1-Hd1e233">Quaestiuncula 4</head>
+            <p xml:id="ta-l4d3q1-d1e236">Ulterius. Videtur quod inconvenienter assignetur definitio quam Damascenus ponit in 4
+              Lib. cap. 10, sic dicens: <quote xml:id="ta-l4d3q1-Qd1e238">Baptismus est per quem primitias spiritus sancti
+                accipimus, et principium alterius vitae fit nobis regeneratio et sigillum et
+                custodia et illuminatio</quote>. Aliqui enim prius habent spiritum sanctum et
+              spiritualem vitam, quam Baptismum consequantur, sicut patet de Cornelio Act. 10. Ergo
+              per Baptismum non semper accipimus primitias spiritus sancti, nec est Baptismus
+              principium alterius vitae in nobis.</p>
+            <p xml:id="ta-l4d3q1-d1e242">Praeterea, idem non debet poni in definitione sui ipsius. Sed regeneratio est idem
+              quod Baptismus. Ergo non debet poni in definitione Baptismi.</p>
+            <p xml:id="ta-l4d3q1-d1e245">Praeterea, illuminatio non fit nisi per virtutes intellectuales. Sed Baptismus non
+              est intellectualis virtus, sed sacramentum. Ergo non debet sibi attribui
+              illuminatio.</p>
+            <p xml:id="ta-l4d3q1-d1e248">Praeterea, custodia fit in nobis per divinam providentiam, de qua dicitur in Psalm.
+              120, 4: <quote xml:id="ta-l4d3q1-Qd1e250">ecce non dormitabit neque dormiet qui custodit Israel</quote>. Ergo non
+              debet hoc Baptismo attribui.</p>
+          </div>
+          <div xml:id="ta-l4d3q1-Dd1e255">
+            <head xml:id="ta-l4d3q1-Hd1e257">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d3q1-d1e260">Respondeo ad primam quaestionem dicendum, quod secundum doctrinam philosophi in Lib.
+              2 posteriorum, triplex est genus definitionis. Quaedam enim sunt definitiones
+              materiales, quas dicimus demonstrationis conclusiones: quaedam formales, quae sunt
+              principia demonstrationis: quaedam materiales et formales simul, quae sunt
+              demonstrationes positione differentes: quia habent medium demonstrationis, inquantum
+              continent definitionem formalem, et conclusionem, inquantum continent materialem; sed
+              deest solus ordo terminorum. Quia autem omne completivum quodammodo formale est
+              respectu ejus quod completur, ideo definitio formalis non dicitur quae solum continet
+              formam, sed illa quae continet hoc quod est completivum respectu alterius. Et quia in
+              causis est talis ordo quod materia completur per formam, et forma per efficientem, et
+              efficiens per finem; ideo definitio quandoque materialis dicitur, quae comprehendit
+              tantum materiam rei, formalis autem quae comprehendit formam; sicut, ira est accensio
+              sanguinis circa cor, dicitur materialis definitio; et, ira est appetitus in vindictam,
+              dicitur formalis. Quandoque autem materialis comprehendit formam et materiam; sed
+              formalis causam efficientem, sicut haec dicitur materialis: tonitruum est continuus
+              sonus in nubibus; haec autem formalis: tonitruum est extinctio ignis in nube.
+              Quandoque autem definitio materialis comprehendit materiam et formam et efficientem,
+              formalis autem finem: sicut, domus est coopertorium factum ex lapidibus et lignis per
+              talem modum et talem artem, est definitio materialis respectu hujus: domus est
+              cooperimentum prohibens nos a frigoribus et caumatibus; et hoc praecipue accidit in
+              instrumentis, quia in eis quasi tota ratio speciei a fine sumitur. Et quia Baptismus,
+              cum sit sacramentum, quoddam instrumentum est; ideo definitio materialis ejus erit
+              quae comprehendit materiam et formam ejus et efficientem; et formalis quae
+              comprehendit finem; et sic definitio quam Magister in littera ponit, est materialis.
+              Continet enim materiam in hoc quod dicit: <quote xml:id="ta-l4d3q1-Qd1e262">ablutio exterior</quote>; et innuit
+              efficientem in hoc quod dicit, <quote xml:id="ta-l4d3q1-Qd1e265">facta</quote>; et ponit formam in hoc quod
+              dicit, <quote xml:id="ta-l4d3q1-Qd1e268">sub forma verborum praescripta</quote>. Et sciendum, quod Augustinus,
+              ponit eamdem definitionem, quamvis sub aliis verbis; dicit enim: <quote xml:id="ta-l4d3q1-Qd1e271">Baptismus est
+                tinctio in aqua verbo vitae sanctificata</quote>.</p>
+            <p xml:id="ta-l4d3q1-d1e275">Ad primum ergo dicendum, quod in sacramento Baptismi sunt tria. Aliquid quod est
+              sacramentum tantum, sicut aqua quae exterius fluit et transfluit, et non manet; et
+              aliquid quod est sacramentum et res, et hoc semper manet, scilicet character; et
+              aliquid quod est res tantum, quod quandoque manet quandoque transit, scilicet gratia.
+              Magister ergo hic definit Baptismum quantum ad id quod est sacramentum tantum, quia
+              intendit ipsum materialiter definire.</p>
+            <p xml:id="ta-l4d3q1-d1e278">Ad secundum dicendum, quod sacramentum novae legis est signum et causa gratiae; unde
+              secundum hoc est sacramentum, secundum quod habet significare, et causare. Aqua autem
+              non habet significare et causare effectum Baptismi, nisi secundum quod est abluens.
+              Unde essentialiter Baptismus est ipsa ablutio: quia ad ablutionem interiorem causandam
+              institutus est, quam significando causat ipsa exterior ablutio: sed aqua est materia
+              ejus remota, et ablutio ipsa est materiale Baptismi; sed verbum vitae est forma
+              completiva sacramenti. Augustinus autem et Magister definiunt Baptismum per materiam
+              proximam, quae praedicatur proprie de Baptismo, sicut materia de artificialibus, ut
+              phiala est argentum; sed Hugo definivit per materiam remotam, quae non ita proprie
+              praedicatur, nisi per causam remotam.</p>
+            <p xml:id="ta-l4d3q1-d1e281">Ad tertium dicendum, quod Baptismus, inquantum est sacramentum, est in genere signi
+              vel causae; et in hoc genere constituitur per formam verborum, a qua habet
+              significationem et efficaciam sacramentalem. Sicut autem artificialia non ponuntur in
+              genere ex forma simpliciter, sed ex materia (non enim dicimus quod domus sit in genere
+              qualitatis nisi inquantum artificiale figuratum, sed dicitur esse in genere
+              substantiae), ita etiam est de sacramentis. Baptismus enim simpliciter est in genere
+              ablutionis; sed secundum quid, scilicet inquantum est sacramentum, est in genere
+              relationis.</p>
+            <p xml:id="ta-l4d3q1-d1e285">Ad quartum dicendum, quod finis ad quem est sacramentum, est ultimum formale ipsius,
+              a quo sumitur formalis definitio. Magister autem non intendit hic definire Baptismum
+              formaliter, sed materialiter; et ideo sanctificationem praetermisit.</p>
+          </div>
+          <div xml:id="ta-l4d3q1-Dd1e289">
+            <head xml:id="ta-l4d3q1-Hd1e291">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d3q1-d1e294">Ad secundam quaestionem dicendum, quod definitio illa Hugonis complectitur et
+              materiam Baptismi in hoc quod dicit, <quote xml:id="ta-l4d3q1-Qd1e296">aqua</quote>, et finem in hoc quod dicit,
+                <quote xml:id="ta-l4d3q1-Qd1e299">diluendis criminibus</quote>, et formam per hoc quod dicit, <quote xml:id="ta-l4d3q1-Qd1e302">per verbum
+                vitae sanctificata</quote>; unde est definitio composita ex materiali et formali,
+              quasi demonstratio positione differens: et complete essentiam Baptismi complectitur,
+              excepto quod actus ablutionis intermittitur, qui facit materiam proximam Baptismo;
+              quamvis ex aliis quae ponuntur, intelligi possit.</p>
+            <p xml:id="ta-l4d3q1-d1e306">Ad primum ergo dicendum, quod haec est propria praedicatio, Baptismus fit in aqua;
+              sed haec est per causam praedicatio, Baptismus est aqua.</p>
+            <p xml:id="ta-l4d3q1-d1e309">Ad secundum dicendum, quod ibi non tangitur sanctificatio, nisi illa quae fit per
+              formam Baptismi, quae consistit in invocatione Trinitatis; et haec sanctificatio est
+              de necessitate Baptismi.</p>
+            <p xml:id="ta-l4d3q1-d1e312">Ad tertium dicendum, quod sacramenta non efficiunt nisi id quod figurant. Ex hoc
+              autem ipso quod ponitur dilutio criminum, effectus Baptismi potest accipi: quia
+              Baptismus materialiter non consistit in aqua nisi secundum quod est abluens;
+              quandocumque autem est aqua sanctificata in actu ablutionis, est Baptismus.</p>
+            <p xml:id="ta-l4d3q1-d1e316">Ad quartum dicendum, quod idem numero quandoque est effectus alicujus et finis, sicut
+              sanitas est effectus et finis medicantis; sed effectus, secundum quod producitur per
+              actum medici, finis autem secundum quod est intentum a medico. Medicus autem potest
+              impediri a productione sanitatis, sed non ab intentione; et ideo sanitas potest poni
+              in definitione ut est finis, non autem ut est effectus; et similiter dilutio criminum
+              in definitione sacramenti.</p>
+          </div>
+          <div xml:id="ta-l4d3q1-Dd1e320">
+            <head xml:id="ta-l4d3q1-Hd1e322">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d3q1-d1e325">Ad tertiam quaestionem dicendum, quod Dionysius ex definitione Baptismi data intendit
+              procedere ad ea quae materialiter in Baptismo requiruntur: unde post hanc definitionem
+              datam, ritum Baptismi ponit; et ideo ponit eam ut demonstrationis principium: et
+              propter hoc est definitio totaliter formalis. Et est sciendum, quod in verbis ejus
+              aliquid ponitur quasi definitum, et aliquid ponitur tamquam definitio. Tamquam
+              definitum ponitur, scilicet <quote xml:id="ta-l4d3q1-Qd1e327">traditio sacrae et divinissimae
+                regenerationis</quote>. Ista enim est quaedam circumlocutio Baptismi, qua ipse
+              frequenter utitur; et hoc patet ex hoc quod ibi Baptismum non nominat; ut sit sensus:
+                <quote xml:id="ta-l4d3q1-Qd1e330">quoddam est principium</quote> etc., scilicet <quote xml:id="ta-l4d3q1-Qd1e333">sacrae et divinissimae
+                regenerationis traditio</quote>. Quasi definitio ponitur hic, quod dicit,
+                <quote xml:id="ta-l4d3q1-Qd1e336">principium sanctissimorum mandatorum sacrae actionis</quote>. Et ponit tria
+              ad quae Baptismus ordinatur, quae formaliter rationem ejus complent. Unum est quod
+              competit ei secundum quod est janua sacramentorum; et quantum ad hoc dicit, quod est
+                <quote xml:id="ta-l4d3q1-Qd1e339">principium sanctissimorum mandatorum sacrae actionis</quote>. Actiones enim
+              sacras nominat actiones hierarchicas, scilicet purgare, illuminare, et perficere; quae
+              praecipue in nostra hierarchia consistunt in dispensatione sacramentorum: quae quidem
+              actiones nobis sub praecepto traditae sunt, et ad eas est principium Baptismus quasi
+              eorum janua. Secundum competit sibi inquantum est causa, prout scilicet characterem
+              imprimit, et gratiam confert, secundum quod homo informatur et idoneus redditur ad
+              aliorum sacramentorum perceptionem; et quantum ad hoc dicit, quod est
+                <quote xml:id="ta-l4d3q1-Qd1e343">formans</quote> per characterem et gratiam <quote xml:id="ta-l4d3q1-Qd1e346">nostros animales
+                habitus</quote>, idest, vires animae, <quote xml:id="ta-l4d3q1-Qd1e349">ad susceptivam opportunitatem</quote>,
+              idest ad idoneam et opportunam susceptionem <quote xml:id="ta-l4d3q1-Qd1e352">divinorum eloquiorum</quote>
+              quantum ad doctrinam fidei, <quote xml:id="ta-l4d3q1-Qd1e355">et sacrarum actionum</quote> quantum ad alia
+              sacramenta, quae nulli non baptizato debent conferri. Tertium competit sibi inquantum
+              est signum et figura caelestium, et secundum hoc per Baptismum manuducimur in
+              caelestium contemplationem; et quantum ad hoc dicit, quod est <quote xml:id="ta-l4d3q1-Qd1e358">faciens iter
+                nostrum</quote>, idest praeparans nobis contemplationis viam ad
+                <quote xml:id="ta-l4d3q1-Qd1e362">anagogem</quote>, idest sursum ductionem, <quote xml:id="ta-l4d3q1-Qd1e365">supercaelestis
+                quietis</quote>, quae consistit in contemplatione spiritualium. Vel potest dici,
+              quod per secundum tangit finem proximum Baptismi quantum, ad ea quae sunt viae; per
+              tertium autem tangit finem remotum et ultimum, quantum ad ea quae sunt patriae; ad
+              quam nos Baptismus perducit per gratiam, quam confert, quae est res significata et non
+              contenta.</p>
+            <p xml:id="ta-l4d3q1-d1e369">Ad primum ergo dicendum, quod Dionysius determinat de Baptismo secundum quod est
+              actio quaedam hierarchica; et ideo definit <quote xml:id="ta-l4d3q1-Qd1e371">principium mandatorum</quote>, non
+              quorumlibet sed illorum quibus actiones hierarchicae nobis traduntur.</p>
+            <p xml:id="ta-l4d3q1-d1e375">Ad secundum dicendum, quod per primum tangit tantum ordinem Baptismi ad alia
+              sacramenta, sed per secundum tangit effectum, quo mediante ad alia sacramenta
+              percipienda idonee perducit, ut ex dictis patet.</p>
+            <p xml:id="ta-l4d3q1-d1e378">Ad tertium dicendum, quod animales habitus hic dicuntur ab anima, et non ab
+              animalitate, qua scilicet cum aliis animalibus communicamus; ut ostendat quod non
+              solum Baptismus corpus exterius lavat, sed etiam animam interius format.</p>
+            <p xml:id="ta-l4d3q1-d1e382">Ad quartum dicendum, quod haec definitio est principium omnium quae Dionysius de
+              Baptismo tradit; unde in principio statim hanc definitionem ponit. Et quia in omnibus
+              quae sunt propter finem et ex fine, debet accipi et forma competens fini, et materia
+              competens formae et fini; ideo in hac definitione non posuit formam et materiam, sed
+              solum ea ad quae Baptismus ordinatur quasi ad finem proximum vel remotum.</p>
+          </div>
+          <div xml:id="ta-l4d3q1-Dd1e386">
+            <head xml:id="ta-l4d3q1-Hd1e388">Quaestiuncula 4</head>
+            <p xml:id="ta-l4d3q1-d1e391">Ad quartam quaestionem dicendum, quod Damascenus praedictam definitionem venatur ex
+              hoc ipso quod Baptismus regeneratio dicitur. Cum enim generatio sit motus ad esse,
+              constat quod Baptismus est per quem nobis traditur spirituale esse. Et quia nullus
+              potest agere actionem alicujus naturae, nisi prius habeat esse in natura illa, ideo
+              concluditur quod Baptismus est principium omnium spiritualium actionum: et secundum
+              hoc Damascenus Baptismum definivit adhuc per priora quam Dionysius, inquantum accipit
+              primum effectum Baptismi, qui est constituere in spirituali vita, ex qua habet quod
+              regeneratio dicatur; et ideo definit Baptismum ut principium spiritualis vitae in hoc
+              quod dicit, <quote xml:id="ta-l4d3q1-Qd1e393">principium alterius vitae</quote>, scilicet spiritualis, quae est
+              altera a naturali; ut haec generatio sit altera a naturali, et regeneratio dicatur; et
+              iterum ut principium eorum quae ad vitam prima consequuntur, et ideo dicit: <quote xml:id="ta-l4d3q1-Qd1e396">per
+                quod fiunt primitiae spiritus</quote>, idest primi spiritus effectus in nobis. Hi
+              autem effectus vel consequuntur ipsam generationem, sicut filiatio, vel aliqua talis
+              relatio, et sic per Baptismum dicimur regenerari in filios Dei, et quantum ad hoc
+              dicitur <quote xml:id="ta-l4d3q1-Qd1e399">regeneratio</quote>, vel consequuntur formam per generationem inductam;
+              et hoc tripliciter. Primo in ordine ad generantem, secundum quod per formam inductam
+              genitus fit similis generanti; et quantum ad hoc dicitur <quote xml:id="ta-l4d3q1-Qd1e402">sigillum</quote>.
+              Secundo quantum ad esse ipsius geniti, quod per formam conservatur; et quantum ad hoc
+              dicitur <quote xml:id="ta-l4d3q1-Qd1e405">custodia</quote>. Tertio quantum ad actionem ejus, cujus forma est
+              principium; et quantum ad hoc dicitur <quote xml:id="ta-l4d3q1-Qd1e409">illuminatio</quote>.</p>
+            <p xml:id="ta-l4d3q1-d1e413">Ad primum ergo dicendum, quod primitiae spiritus dantur antequam percipiatur
+              Baptismus actu, sed non antequam percipiatur proposito habituali, sicut in Cornelio;
+              vel actuali, sicut in aliis qui Baptismi fidem habent. Vel dicendum, quod hic loquitur
+              de vita spirituali, secundum quod homo quantum ad exteriora reputatur membrum
+              Ecclesiae, quod non fit ante Baptismum, quia ad actus fidelium nullus ante Baptismum
+              admittitur.</p>
+            <p xml:id="ta-l4d3q1-d1e416">Ad secundum dicendum, quod regeneratio ponitur hic pro relatione consequente
+              regenerationem, sicut est filiatio.</p>
+            <p xml:id="ta-l4d3q1-d1e419">Ad tertium dicendum, quod etiam Dionysius, vim illuminativam Baptismo attribuit, quod
+              quidem ei competit inquantum est fidei sacramentum; unde baptizatus jam admittitur ad
+              inspectionem sacramentorum quasi illuminatus: non autem ante debet admitti, ne sancta
+              canibus tradantur secundum Dionysium.</p>
+            <p xml:id="ta-l4d3q1-d1e423">Ad quartum dicendum, quod custodia conservationem importat: quae quidem est a Deo
+              sicut a principio efficiente, a gratia autem baptismali sicut a principio formali.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d3q1-Dd1e428" type="articulus">
+          <head xml:id="ta-l4d3q1-Hd1e430">Articulus 2</head>
+
+          <head xml:id="ta-l4d3q1-Hd1e433" type="questionTitle">Utrum haec verba, ego te baptizo etc., sint de integritate
+            formae baptismalis</head>
+          <div xml:id="ta-l4d3q1-Dd1e436">
+            <head xml:id="ta-l4d3q1-Hd1e438">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d3q1-d1e441">Ad secundum sic proceditur. Videtur quod integritas formae baptismalis non
+              contineatur in his verbis, <quote xml:id="ta-l4d3q1-Qd1e443">ego te baptizo in nomine patris et filii et spiritus
+                sancti</quote>. Actio enim magis debet attribui principali agenti quam secundario.
+              Sed principalis baptizans est Christus, ut patet Joan. 1, 33, ubi dicitur: <quote xml:id="ta-l4d3q1-Qd1e446">hic
+                est qui baptizat</quote>; homo autem est tantum minister Baptismi. Ergo magis debuit
+              dici, Christus te baptizat etc. quam <quote xml:id="ta-l4d3q1-Qd1e449">ego te baptizo</quote>.</p>
+            <p xml:id="ta-l4d3q1-d1e453">Praeterea, secundum grammaticos in verbis primae et secundae personae intelligitur
+              nominativus certus et determinatus. Sed baptizo est verbum primae personae. Ergo non
+              fuit necessarium quod adderetur ego.</p>
+            <p xml:id="ta-l4d3q1-d1e456">Praeterea, sacramenta habent a divina institutione efficaciam et virtutem. Sed ex
+              forma quam dominus tradidit Matth. ult. 19, ubi dicitur, <quote xml:id="ta-l4d3q1-Qd1e458" ana="#mt28_19">docete omnes
+                gentes</quote>, non potest haberi quod <quote xml:id="ta-l4d3q1-Qd1e461">ego te baptizo</quote> sit de forma
+              Baptismi: quia hoc participium <quote xml:id="ta-l4d3q1-Qd1e464">baptizantes</quote>, ponitur ibi ad designandum
+              exercitium actus; non quasi pars formae. Ergo videtur quod non sit de necessitate
+              formae.</p>
+            <p xml:id="ta-l4d3q1-d1e468">Praeterea, simul dominus praecepit actum docendi et baptizandi, Matth. ult. Sed non
+              exigitur ad docendum quod sacerdos dicat, ego te doceo. Ergo similiter non exigitur ad
+              Baptismum quod dicat, <quote xml:id="ta-l4d3q1-Qd1e470">ego te baptizo</quote>.</p>
+            <p xml:id="ta-l4d3q1-d1e475">Praeterea, verba non debent dirigi ad eum qui non est verborum sensus perceptivus.
+              Sed quandoque baptizatus non potest percipere sensum verborum, sicut patet quando puer
+              baptizatur. Ergo non debet dicere, baptizo te, sed, baptizo Joannem.</p>
+            <p xml:id="ta-l4d3q1-d1e478">Praeterea, hoc videtur ex modo loquendi quo dominus usus est, ponens baptizandos in
+              tertia persona dicens: <quote xml:id="ta-l4d3q1-Qd1e480">baptizantes eos</quote>.</p>
+            <p xml:id="ta-l4d3q1-d1e484">Praeterea, materia sacramenti non minus est de essentia sacramenti quam suscipiens
+              illud sacramentum. Sed nulla mentio fit in forma de aqua, quae est materia sacramenti.
+              Ergo non debet fieri mentio de recipiente, ut dicatur: <quote xml:id="ta-l4d3q1-Qd1e486">baptizo te</quote>.</p>
+            <p xml:id="ta-l4d3q1-d1e490">Praeterea, Baptismus a passione Christi efficaciam habet, et figura est mortis
+              Christi, ut patet Rom. 6. Ergo potius debuit in Baptismi forma fieri mentio de fide
+              passionis quam de fide Trinitatis.</p>
+            <p xml:id="ta-l4d3q1-d1e493">Praeterea, omne illud in quo personae non conveniunt, debet de eis pluraliter dici.
+              Sed personae distinguuntur quantum ad nomen: quia nomen filii patri non convenit, nec
+              e converso. Ergo non debuit dici: <quote xml:id="ta-l4d3q1-Qd1e495">in nomine patris</quote> etc., sed: in
+              nominibus.</p>
+          </div>
+          <div xml:id="ta-l4d3q1-Dd1e500">
+            <head xml:id="ta-l4d3q1-Hd1e502">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d3q1-d1e505">Ulterius. Videtur quod liceat ea quae in hac forma ponuntur, mutare sine praejudicio
+              Baptismi. Graeci enim hanc formam baptizandi habent: <quote xml:id="ta-l4d3q1-Qd1e507">baptizatur servus Christi
+                Nicolaus in nomine patris et filii et spiritus sancti</quote>. Sed apud omnes est
+              unum Baptisma. Ergo et noster similiter Baptismus fieri posset.</p>
+            <p xml:id="ta-l4d3q1-d1e511">Praeterea, hoc quod dicit: <quote xml:id="ta-l4d3q1-Qd1e513">ego baptizo te</quote>, ponitur in forma ad
+              exprimendum Baptismi actum. Sed actus Baptismi potest effici ab uno et duobus et in
+              unum et in duos. Ergo potest fieri mutatio formae, ut dicatur: nos baptizamus vos.</p>
+            <p xml:id="ta-l4d3q1-d1e517">Praeterea, Ecclesia est ejusdem potestatis nunc cujus erat primitiva Ecclesia quantum
+              ad sacramentorum dispensationem. Sed primitiva Ecclesia mutavit formam Baptismi: quia
+              baptizabant in nomine Christi, sicut in Act. legitur. Ergo et nunc Ecclesia formam
+              mutare posset.</p>
+            <p xml:id="ta-l4d3q1-d1e520">Praeterea, tres personae in forma Baptismi ponuntur ad exprimendum fidem Trinitatis.
+              Sed ita exprimeretur fides Trinitatis, si diceretur: in nomine Trinitatis, sicut si
+              dicitur: <quote xml:id="ta-l4d3q1-Qd1e522">in nomine patris et filii et spiritus sancti</quote>. Ergo potest ita
+              mutatio fieri ut dicatur: in nomine Trinitatis.</p>
+            <p xml:id="ta-l4d3q1-d1e527">Praeterea, virtus sacramentaria non consistit in verbis, nisi secundum quod ad
+              significationem referuntur: alias non esset virtutis alicujus nisi in una lingua, quia
+              voces non sunt eaedem apud omnes. Sed idem significat pater quod genitor, et filius
+              quod genitus, et spiritus sanctus quod ab utroque procedens. Ergo potest hoc modo
+              fieri mutatio, ut dicatur: in nomine genitoris, et geniti, et procedentis ab
+              utroque.</p>
+            <p xml:id="ta-l4d3q1-d1e530">Praeterea, qui corrumpit verba mutat litteras et syllabas, et per consequens
+              dictiones. Sed infra, dist. 6, dicitur, quod reputatur Baptismus, quamvis aliquis
+              verba corrupte proferat. Ergo potest fieri formae mutatio.</p>
+          </div>
+          <div xml:id="ta-l4d3q1-Dd1e534">
+            <head xml:id="ta-l4d3q1-Hd1e536">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d3q1-d1e539">Ulterius. Videtur quod non possit aliquid addi vel minui. Non enim est minor
+              necessitas in verbis quae pertinent ad formas sacramentorum, quam in verbis sacrae
+              Scripturae. Sed in verbis sacrae Scripturae non licet addere vel minuere, ut patet
+              Apocal. ult. Ergo nec verbis formarum in sacramentis.</p>
+            <p xml:id="ta-l4d3q1-d1e542">Praeterea, in formis naturalibus ita est quod differentia addita vel subtracta variat
+              speciem. Ergo et si in formis sacramentorum aliquid addatur vel subtrahatur, tolletur
+              ratio illius sacramenti.</p>
+            <p xml:id="ta-l4d3q1-d1e545">Praeterea, Ariani non mutabant formam istam nisi per additionem. Dicebant enim:
+                <quote xml:id="ta-l4d3q1-Qd1e547">in nomine patris majoris et filii minoris</quote>; et propter hoc non
+              reputabantur baptizati. Ergo non licet addere vel diminuere in forma.</p>
+            <p xml:id="ta-l4d3q1-d1e551">Sed contra, in littera habetur ab Ambrosio quod si fides totius Trinitatis corde
+              teneatur et una tantum persona sit nominata, sit Baptisma verum. Ergo licet aliquid de
+              forma subtrahere.</p>
+            <p xml:id="ta-l4d3q1-d1e555">Praeterea, actus baptizandi ponitur in forma ad excitandum attentionem. Ergo, ut
+              videtur, licet addere verbum intentionem signans, ut dicatur: intendo te
+              baptizare.</p>
+          </div>
+          <div xml:id="ta-l4d3q1-Dd1e560">
+            <head xml:id="ta-l4d3q1-Hd1e562">Quaestiuncula 4</head>
+            <p xml:id="ta-l4d3q1-d1e565">Ulterius. Videtur quod non possit fieri interpositio vel transpositio. Quia Baptismus
+              est unus actus: unus autem est actus qui est continuus, ut dicitur in 5 physicorum.
+              Sed interruptio tollit continuitatem Baptismi. Ergo tollit unitatem ejus; ergo non
+              debet fieri aliqua interruptio.</p>
+            <p xml:id="ta-l4d3q1-d1e568">Praeterea, sicut ad fidem Trinitatis pertinent tres personae, ita et personarum ordo.
+              Sed in translatione variatur ordo. Ergo corrumpitur forma.</p>
+            <p xml:id="ta-l4d3q1-d1e571">Sed contra est, quia transposita nomina et verba idem significant.</p>
+          </div>
+          <div xml:id="ta-l4d3q1-Dd1e575">
+            <head xml:id="ta-l4d3q1-Hd1e577">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d3q1-d1e580">Respondeo dicendum ad primam quaestionem, quod forma completiva rei media est
+              quodammodo inter materiam quam perficit, et causam efficientem a qua producitur, ut
+              virtus efficientis mediante forma ad materiam traducatur. Et quia medium complectitur
+              aliquo modo utrumque extremorum, ideo forma Baptismi continet et principale efficiens,
+              unde Baptismus efficaciam habet, et materiam Baptismi proximam quae est actus
+              ablutionis; et ideo ponitur: <quote xml:id="ta-l4d3q1-Qd1e582">in nomine patris et filii et spiritus
+                sancti</quote>, tamquam principale efficiens, a quo Baptismus efficaciam habet; et
+              ponitur actus materialis cum iis quae circumstant ipsum scilicet conferens et
+              recipiens, in hoc quod dicitur: <quote xml:id="ta-l4d3q1-Qd1e585">ego baptizo te</quote>.</p>
+            <p xml:id="ta-l4d3q1-d1e589">Ad primum ergo dicendum, quod principale agens significatur in invocatione Trinitatis
+              quae invisibiliter agit, et ideo relinquebatur ut circa actum materialem poneretur
+              agens secundarium, scilicet minister sacramenti.</p>
+            <p xml:id="ta-l4d3q1-d1e592">Ad secundum dicendum, quod formae sacramentorum non accipiuntur ut voces
+              significativae tantum, sed ut effectivae. Et quia nihil agit nisi secundum quod
+              perfectum est, ideo de integritate formae baptismalis est ut ponatur totum quod ad
+              Baptismum requiritur, quamvis unum ex alio intelligi possit.</p>
+            <p xml:id="ta-l4d3q1-d1e595">Ad tertium dicendum, quod in verbis illis dominus principaliter non intendit tradere
+              formam sacramenti, quia prius eis tradiderat, quando baptizabant etiam ante passionem;
+              sed intendit eis praecipere actum baptizandi secundum formam prius eis traditam; et
+              ideo ex verbis illis potest probabiliter accipi forma praedicta, quamvis non expresse
+              ibi ponatur.</p>
+            <p xml:id="ta-l4d3q1-d1e599">Ad quartum dicendum, quod quia Baptismus est sacramentum necessitatis, et in
+              sacramento requiritur intentio; ideo oportet exprimi omnia quae intentionem
+              determinant ad actum illum; non autem sic in aliis actibus, in quibus non est tantum
+              periculum, si intentio non adsit. Vel dicendum, quod alii actus habent efficaciam ex
+              ipso suo exercitio tantum, sed actus baptizandi habet efficaciam ex forma verborum. Et
+              quia talis efficacia est sacramentalis, idcirco oportet quod verba formae significando
+              efficaciam actui praebeant; et ideo oportet baptizantem actum suum verbo significare,
+              quamvis hoc in aliis actibus non reperiatur.</p>
+            <p xml:id="ta-l4d3q1-d1e602">Ad quintum dicendum, quod ratio illa tenet de illis verbis quae proferuntur causa
+              significationis tantum, non autem de illis quae proferuntur causa efficiendi, quae
+              etiam oportet ad res non intelligentes proferri, ut effectus verborum determinetur ad
+              res illas; unde etiam dicitur: <quote xml:id="ta-l4d3q1-Qd1e604">exorcizo te creatura salis</quote>.</p>
+            <p xml:id="ta-l4d3q1-d1e608">Ad sextum dicendum, quod dominus praecipiebat actum Baptismi, ut absentium; et ideo
+              oportebat quod uteretur tertia persona: secus autem est de illis qui exercent actum
+              illum in praesentes.</p>
+            <p xml:id="ta-l4d3q1-d1e611">Ad septimum dicendum, quod aqua comprehenditur in distinctione Baptismi: quia
+              Baptismus nihil aliud est quam ablutio facta in aqua; et ideo esset nugatio, si iterum
+              poneretur.</p>
+            <p xml:id="ta-l4d3q1-d1e614">Ad octavum dicendum, quod actio semper magis attribuitur principali agenti, quia
+              efficacius imprimit ad agendum. Tota enim virtus mediae causae est a prima, sed non
+              convertitur: quia prima causa a qua Baptismus efficaciam habet, auctoritative est
+              Trinitas; passio autem Christi causa secundaria et meritoria; ideo magis fit mentio de
+              Trinitate quam de passione.</p>
+            <p xml:id="ta-l4d3q1-d1e617">Ad nonum dicendum, quod nomen non competit voci nisi secundum quod facit notitiam de
+              re; nomen enim dicitur quasi notamen. Notitiam autem habemus de Trinitate per fidem.
+              Et quia est una fides Trinitatis, et una confessio Dei, quamvis sint diversae voces
+              significantes tres personas; ideo dicitur: <quote xml:id="ta-l4d3q1-Qd1e619">in nomine</quote>, quasi in
+              invocatione, quae fit per professionem exteriorem interioris fidei.</p>
+          </div>
+          <div xml:id="ta-l4d3q1-Dd1e624">
+            <head xml:id="ta-l4d3q1-Hd1e626">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d3q1-d1e629">Ad secundam quaestionem dicendum, quod quia sacramenta efficaciam habent ex
+              institutione divina, et principalius est in sacramentis forma quam etiam materia; ideo
+              sicut nulli licet mutare sacramentum, vel aliquod novum instituere, ita nulli licet
+              mutare formam sacramenti quantum ad id quod est de essentia formae absque speciali
+              consilio spiritus sancti, qui virtutem suam illis verbis non alligavit: et si mutatur,
+              nihil agitur; et praeter hoc culpa incurritur. Si autem aliquid pertinet ad formam ex
+              determinatione Ecclesiae, si illud mutatur, nihilominus est sacramentum, sed culpa
+              incurritur. In forma autem baptismali essentialius est quod exprimit causam agentem, a
+              qua est tota efficacia, quam quod exprimit actum exercitum; et ideo quantum ad omnes
+              invocatio Trinitatis est de essentia formae, nec aliqui quantum ad hoc formam mutare
+              possunt. Quidam vero dicebant, quod actus exercitus non est de essentia formae, et
+              quod in illa invocatione Trinitatis essentia formae consistit; quos refellit
+              auctoritas Alexandri Papae, qui dicit, quod non est Baptismus illud lavacrum quo
+              aliquis in nomine patris et filii et spiritus sancti nihil addendo baptizatur.</p>
+            <p xml:id="ta-l4d3q1-d1e632">Ad primum ergo dicendum, quod secundum opinionem Graecorum, de necessitate formae est
+              actus Baptismi quantum ad significatum, sed non quantum ad consignificatum. Persona
+              autem baptizans per ministerium non est de necessitate formae, quia ex eo Baptismus
+              efficaciam non habet; sed persona recipiens est de necessitate formae, quia actus ad
+              suscipientem terminatur; et ideo differunt in forma a nobis quantum ad tria. Primo,
+              quia personam ministri in forma non exprimunt; et hoc dicunt ad removendum errorem qui
+              fuit in primitiva Ecclesia, qui efficaciam Baptismi baptizanti attribuebat, ut patet
+              Corinth. 3. Secundo in hoc quod significant actum sub alia persona, scilicet tertia,
+              et sub alio modo, scilicet subjunctivo vel optativo, ad significandum quod actus
+              interior expectatur ab extra. Tertio quia personam ponunt in nominativo casu, et in
+              tertia persona; quia quandoque baptizatus non habet intellectum ut ad eum possit
+              dirigi sermo. Utrum autem ipsi mutent aliquid quod sit de substantia formae, ut sic
+              oporteat rebaptizari, quamvis quidam dicant hoc, non tamen est determinatum, sed
+              dubium apud quosdam, quibus videtur quod sufficiat actum Baptismi significare ad
+              perfectionem sacramenti, et quod consignificationis determinatio sit ex Ecclesiae
+              institutione. Hoc autem certum quod forma qua nos utimur, melior est: tum quia
+              perfectior est, ut patet ex supradictis; tum quia magis consonat verbis Evangelii quod
+              ministros baptizantes dicit; tum propter auctoritatem Ecclesiae, quae hanc formam
+              tradit, quae nunquam a vera fide legitur declinasse, hanc formam ab apostolis
+              retinens; et ideo non licet, praecipue Latinis, in forma Graecorum baptizare: quod si
+              praesumerent, secundum quosdam non esset Baptismus, secundum quosdam autem esset, sed
+              graviter peccarent.</p>
+            <p xml:id="ta-l4d3q1-d1e635">Ad secundum dicendum, quod unus actus qui uno agente expleri potest, non progreditur
+              a pluribus agentibus simul, et ideo unus baptizans, cum ipse solus baptizare possit,
+              debet significare actum suum non ut a pluribus exeuntem, sed ut a se solo; et ideo non
+              potest dici, nos baptizamus; sed secundum quosdam dici potest, <quote xml:id="ta-l4d3q1-Qd1e637">ego baptizo
+                vos</quote>, si necessitas adsit. Nec est aliqua mutatio formae, quantum ad
+              significationem, quia plurale non est nisi singulare geminatum. Potest et alia ratio
+              assignari, quia baptizo vos, idem est quod baptizo te et te; et ideo per hoc non fit
+              mutatio formae quantum ad sensum, sed solum quantum ad vocem. Sed nos baptizamus, idem
+              est quod ego et ille; non autem ego et ego. Unde non omnino est idem; et ideo qui
+              dicit, nos baptizamus, nihil facit; qui autem dicit, baptizo vos, si simul plures
+              baptizaret, baptizatum est; sed peccat, nisi ex magna necessitate faciens.</p>
+            <p xml:id="ta-l4d3q1-d1e641">Ad tertium dicendum, quod forma quam dominus tradidit, non fuit ab apostolis mutata
+              quantum ad intellectum: quia in Christi nomine tota Trinitas intelligitur, ut in
+              littera habetur, sed solum quantum ad vocem: et hoc est quod quidam dicunt, quod est
+              mutata forma sensibilis, sed non intelligibilis. Nec hoc ipsum potuissent, nisi ex
+              familiari consilio spiritus sancti. Ratio autem mutationis fuit, ut nomen Christi
+              amabile redderetur, si in ejus nomine Baptismus fieret: et hoc etiam Ecclesia nunc
+              posset, si speciale praeceptum a spiritu sancto haberet; non autem propria
+              auctoritate. Et quia illius mutationis causa fuit conveniens illi tempori, ideo
+              cessante causa, cessat effectus: et modo non esset Baptismus; si quis in Christi
+              nomine baptizaret, ut communiter dicitur; quamvis quidam contrarium dicant.</p>
+            <p xml:id="ta-l4d3q1-d1e645">Ad quartum dicendum, quod in nomine Trinitatis non exprimuntur ipsae personae, sed
+              solum numerus personarum; et ideo non sufficit dicere, in nomine Trinitatis; nec esset
+              Baptismus, si diceretur.</p>
+            <p xml:id="ta-l4d3q1-d1e648">Ad quintum dicendum, quod genitor non significat personam patris sicut hypostasim
+              subsistentem, ut hoc nomen pater, sed per modum actus; et ideo non est eadem
+              significatio, si dicatur in nomine genitoris, et in nomine patris; et similis ratio
+              est de aliis. Quamvis autem non sit eadem vox in Graeco et Latino, tamen est eadem
+              vocis significatio; et in qualibet lingua verba illa pertinent ad formam quae
+              principalius sunt instituta ad signandum personas illas.</p>
+            <p xml:id="ta-l4d3q1-d1e651">Ad sextum dicendum, quod qui corrupte profert verba, aut hoc facit ex industria; et
+              sic non videtur intendere quod Ecclesia intendit, unde non est Baptismus: aut hoc
+              facit ex ignorantia vel defectu linguae; et tunc dicitur quod si sit tanta corruptio
+              quod omnino auferat sensum locutionis, non est Baptismus; si autem sensus locutionis
+              remaneat, tunc erit Baptismus; et hoc praecipue accidit quod sensus non mutatur,
+              quando fit corruptio in fine: quia ex parte finis mutatio variat consignificationem,
+              non autem significationem, ut grammatici dicunt. Sed mutatio ex parte principii variat
+              significationem; unde corruptio talis, maxime si sit magna, omnino sensum locutionis
+              auferret. Quando autem sensus locutionis aliquo modo manet, tunc quamvis mutetur forma
+              quantum ad sonum sensibilem, non tamen mutatur quantum ad significationem: quia
+              quamvis oratio corrupte prolata nihil significet ex veritate impositionis, significat
+              tamen ex accommodatione usus.</p>
+          </div>
+          <div xml:id="ta-l4d3q1-Dd1e655">
+            <head xml:id="ta-l4d3q1-Hd1e657">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d3q1-d1e660">Ad tertiam quaestionem dicendum, quod de subtractione hoc certum est, quod si
+              subtrahatur aliquid quod sit de essentia formae, non est Baptismus, et ille qui
+              baptizat, graviter peccat. Et quia apud omnes invocatio Trinitatis est de essentia
+              formae ideo hoc nullo modo subtrahi potest. Sed quidam dicunt, quod expressio actus
+              non est de substantia formae; unde si subtrahatur, facta sola Trinitatis invocatione,
+              erit Baptismus, quamvis peccet baptizans. Sed contra hoc est decretalis Alexandri
+              Papae tertii qui dicit, quod si quis puerum in aqua ter merserit dicendo, <quote xml:id="ta-l4d3q1-Qd1e662">in
+                nomine patris et filii et spiritus sancti</quote>, si non dicat: <quote xml:id="ta-l4d3q1-Qd1e665">ego baptizo
+                te</quote>, talis immersio non facit Baptisma. Oportet enim quod per formam virtus
+              Trinitatis invocatae ad materiam propositam determinetur, quod fit in expressione
+              actus. Similiter etiam expressio personae baptizatae est de substantia formae, quia
+              per eam determinatur actus ad hunc Baptismum; et ideo si subtrahatur, non erit
+              Baptismus. Sed expressio personae baptizantis dicitur quod non est de forma quantum ad
+              necessitatem sacramenti, sed ex institutione Ecclesiae, ut intentio magis referatur ad
+              actum illum; et ideo si omittatur, erit Baptismus, sed peccat omittens. De additione
+              vero duo sunt observanda. Primum est ex parte addentis. Quia si adderet, intendens
+              illud esse de forma, quasi volens per hoc novum ritum adducere, constat quod non
+              intendit proferre formam qua utitur Ecclesia, et ita nec facere quod Ecclesia facit:
+              quare non esset Baptismus. Secus autem est, si quis ex aliqua causa adderet, ut ex
+              devotione quadam. Secundum est ex parte ejus quod additur: quod si est corruptivum
+              formae, tunc non est Baptismus; si autem non, est Baptismus secundum quosdam; sicut si
+              dicatur, <quote xml:id="ta-l4d3q1-Qd1e668">in nomine patris majoris et filii minoris</quote>, corrumpitur fides
+              quam forma profitetur. Si autem addatur, <quote xml:id="ta-l4d3q1-Qd1e671">et beatae Mariae</quote>, quidam
+              dicunt quod non est Baptismus, quia non fit Baptismus in virtute beatae Mariae: fieret
+              autem si diceretur; <quote xml:id="ta-l4d3q1-Qd1e674">et beata Maria juvet puerum istum</quote>, vel aliquod
+              hujusmodi. Alii autem dicunt et probabilius, quod esset Baptismus etiam primo modo
+              additione facta. Quia secundum Magistrum: <quote xml:id="ta-l4d3q1-Qd1e678">in nomine patris</quote>, idem est
+              quod in invocatione. Potest autem in invocatione beatae Mariae fieri Baptismus, cum
+              invocatione Trinitatis; non quasi ex virtute ejus efficaciam habeat Baptismus, sicut
+              habet ex virtute Trinitatis, sed ut ejus intercessio baptizato proficiat ad salutem.
+              Quidam autem addunt tertium considerandum: dicunt enim, quod si fiat additio in medio
+              vel in principio, non est Baptismus; si autem in fine, est Baptismus. Sed hoc nullam
+              videtur habere rationem. Unde secundum alios qualitercumque fiat additio non refert,
+              dummodo non sit contraria formae, et baptizans non intendat mutare ritum Baptismi.</p>
+            <p xml:id="ta-l4d3q1-d1e682">Ad primum ergo dicendum, quod illud dicitur contra haereticos qui addebant
+              Scripturae, vel minuebant ex ea propter fidei corruptionem; et similiter in proposito
+              additio vel subtractio corrumpens formam tollit Baptisma.</p>
+            <p xml:id="ta-l4d3q1-d1e685">Ad secundum dicendum, quod hoc est verum de differentia essentiali, non autem de
+              accidentali. Unde si subtrahatur aliquid de essentia formae existens, vel addatur
+              aliquid non de essentia formae, ac si sit de essentia formae, non erit Baptismus.</p>
+            <p xml:id="ta-l4d3q1-d1e688">Ad tertium dicendum, quod additio illa corrumpebat fidem Trinitatis quam exprimit
+              forma; et ideo corrumpebat formam.</p>
+            <p xml:id="ta-l4d3q1-d1e692">Ad quartum dicendum, quod secundum quosdam sufficiebat quantum ad invocationem
+              Trinitatis, ut nihil minueretur de forma intelligibili, quamvis minueretur de forma
+              sensibili, quia in una persona omnes intelliguntur. Ideo dicebant; quod una persona
+              nominata plenus esset Baptismus, si fides interius plena esset. Sed quia fides
+              personae baptizantis vel infidelitas nihil prodest nec nocet ad Baptismum, qui fit in
+              fide Ecclesiae; ideo quasi communiter modo dicitur, quod oportet omnes tres personas
+              exprimi; et ideo ad verbum Ambrosii multipliciter respondetur. Quidam enim dicunt,
+              quod cum dicit: <quote xml:id="ta-l4d3q1-Qd1e694">plenum fit sacramentum</quote>, ponit sacramentum pro fide:
+              quia qui unam tantum personam confitetur, si alias corde teneat, plenam habet fidem.
+              Quidam vero dicunt, quod intelligitur quantum ad plenitudinem ipsius sacramenti quam
+              habet ex fide: quod patet ex hoc quod dicit: <quote xml:id="ta-l4d3q1-Qd1e697">plenum est fidei
+                sacramentum</quote>; vel quod intelligatur secundum quosdam in casu quando una
+              persona nominata, puer vel sacerdos moreretur (creditur enim quod invisibilis sacerdos
+              suppleret defectum), vel in casu simili, in quo apostoli in nomine Christi
+              baptizabant; et hoc magis consonat verbis ejus.</p>
+            <p xml:id="ta-l4d3q1-d1e701">Ad quintum dicendum, quod qui intendit aliquid facere, non est consequens quod faciat
+              illud; unde esset ad corruptionem formae: ego intendo te baptizare.</p>
+          </div>
+          <div xml:id="ta-l4d3q1-Dd1e705">
+            <head xml:id="ta-l4d3q1-Hd1e707">Quaestiuncula 4</head>
+            <p xml:id="ta-l4d3q1-d1e710">Ad quartam quaestionem dicendum, quod cum forma verborum consistat in tribus,
+              scilicet significatione, integritate verborum, et ordine; quidam dicunt, quod quidquid
+              horum mutetur vel varietur, non erit Baptismum. Sed quia formae sacramentorum sunt
+              quaedam fidei professiones, fidem autem non profitentur verba formae nisi ratione suae
+              significationis; ideo alii dicunt, quod dummodo servetur intellectus vel implicite vel
+              explicite, etiam si non esset vocum integritas nec ordo, idem erit Baptismus. Sed quia
+              sacramentum quantum ad formam et materiam debet esse ejusdem signum, ideo alii dicunt
+              medio modo, quod requiritur et significatio plena, et verba integra quae sunt de
+              essentia formae. Si autem ordo, vel aliquid circa verba mutetur quod non tollit nec
+              significationem nec integritatem verborum, erit Baptismus.</p>
+            <p xml:id="ta-l4d3q1-d1e713">Et secundum hoc ad primum dicendum, quod si fiat tanta interruptio quod intercipiat
+              intentionem baptizantis, tunc non erit una forma; et ideo utraque per se erit
+              imperfecta, nec sufficit ad Baptismum; sicut si dicatur: <quote xml:id="ta-l4d3q1-Qd1e715">in nomine
+                patris</quote>, et interponat longam fabulam, et postea dicat, <quote xml:id="ta-l4d3q1-Qd1e718">et
+                filii</quote>. Si autem ita fiat parva interruptio, vel verbi non corrumpentis
+              formam, ut si dicatur: in nomine patris omnipotentis; aut silentii, aut tussis, vel
+              alicujus hujusmodi, quod intentionem non discontinuet; tunc erit ab unitate
+              intentionis unitas formae. Constat enim quod continuitas formae ex vocibus unitatem
+              habere non potest, cum oratio sit quantitas discreta.</p>
+            <p xml:id="ta-l4d3q1-d1e722">Ad secundum dicendum, quod quidam dicunt, quod si sit talis ordo qui mutet
+              intellectum, non fit Baptismus; ut si dicatur: <quote xml:id="ta-l4d3q1-Qd1e724">in nomine patris baptizo te, et
+                filii et spiritus sancti</quote>. Si autem non mutetur intellectus, erit Baptismus,
+              ut si dicatur: <quote xml:id="ta-l4d3q1-Qd1e727">in nomine patris et filii et spiritus sancti baptizo te</quote>.
+              Alii vero dicunt, quod qualitercumque mutetur ordo verborum, non videtur intellectus
+              mutari; et ideo erit Baptismus, quamvis peccet transponens. Et secundum hoc dicendum,
+              quod ordo personarum non est quo una sit prior altera, sed quo una est ex altera; quem
+              ordinem ipsa nomina personarum ostendunt, quocumque ordine proferantur.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d3q1-Dd1e733" type="articulus">
+          <head xml:id="ta-l4d3q1-Hd1e735">Articulus 3</head>
+
+          <head xml:id="ta-l4d3q1-Hd1e738" type="questionTitle">Utrum Baptismus debeat fieri in aqua</head>
+          <div xml:id="ta-l4d3q1-Dd1e741">
+            <head xml:id="ta-l4d3q1-Hd1e743">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d3q1-d1e746">Ad tertium sic proceditur. Videtur quod Baptismus non debeat fieri in aqua. Ex
+              similibus enim causis similes effectus producuntur. Sed Baptismus habet similem
+              effectum cum circumcisione. Cum ergo aqua in nullo conveniat cum instrumento
+              circumcisionis, videtur quod non congrue fiat Baptismus in aqua.</p>
+            <p xml:id="ta-l4d3q1-d1e749">Praeterea, secundum Damascenum, et Dionysium, Baptismus habet vim illuminativam, et
+              in eo spiritus sanctus datur, et homo in filium Dei regeneratur. Sed ignis inter alia
+              elementa plus habet de luce, et per eum ratione caloris spiritus sanctus, qui est
+              caritas, significatur, et secundum Dionysium in fine Cael. Hier., ignis maxime
+              deiformitatem significat. Ergo Baptismus debet fieri in igne, et non in aqua.</p>
+            <p xml:id="ta-l4d3q1-d1e752">Praeterea, secundum Damascenum, Baptismus est principium vitae, et est sacramentum
+              maximae necessitatis. Sed aer habet maximam convenientiam cum vita, quia calidus est
+              et humidus, et est communissimum elementum, ut nulli propter ejus penuriam posset esse
+              periculum, sicut quandoque parvulis est periculum propter defectum aquae. Ergo
+              Baptismus debuit in aere fieri, et non in aqua.</p>
+            <p xml:id="ta-l4d3q1-d1e755">Praeterea, per Baptismum configuramur sepulturae Christi; Rom. 6. Sed Christus in
+              terra sepultus est. Ergo Baptismus debet in terra fieri, et non in aqua.</p>
+            <p xml:id="ta-l4d3q1-d1e759">Praeterea, oleum et vinum ablutiva sunt, et laetificantia, et impinguantia. Sed
+              Baptismus praeter ablutionem peccatorum, pinguedinem et laetitiam spiritualem tribuit.
+              Ergo in his liquoribus fieri debet.</p>
+            <p xml:id="ta-l4d3q1-d1e762">Praeterea, sacramenta de latere Christi fluxerunt. Sed sicut fluxit aqua, sic et
+              sanguis. Ergo in sanguine debet fieri Baptismus.</p>
+            <p xml:id="ta-l4d3q1-d1e765">Sed contra est quod dicitur Joan. 3, 5: <quote xml:id="ta-l4d3q1-Qd1e767">nisi quis renatus fuerit ex aqua et
+                spiritu sancto, non potest introire in regnum Dei</quote>.</p>
+            <p xml:id="ta-l4d3q1-d1e771">Praeterea, reparatio debet creationi respondere. Sed in creatione mundi spiritus
+              domini commemoratur primo super aquas ferri, et ex aquis primo animam viventem
+              produxisse, ut patet Genes. 1. Ergo et spiritus sanctus in opere reparationis primo
+              dari debet in aqua, et per illum spiritualis vita; et sic Baptismus in aqua fieri
+              debet, quod est principium alterius vitae, et per quod primitias spiritus
+              accepimus.</p>
+          </div>
+          <div xml:id="ta-l4d3q1-Dd1e775">
+            <head xml:id="ta-l4d3q1-Hd1e777">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d3q1-d1e780">Ulterius. Videtur quod non debeat fieri in aqua simplici. Quia medicina debet esse
+              infirmis proportionata. Sed nos, quibus medicina Baptismi adhibetur, habemus corpus ex
+              elementis mixtum. Ergo aqua Baptismi non debet esse elementum simplex.</p>
+            <p xml:id="ta-l4d3q1-d1e783">Praeterea, sacramenta fluxerunt de latere Christi dormientis in cruce. Sed de latere
+              ejus non est probabile fluxisse aquam quae sit purum elementum, cum tale quid in
+              corporibus mixtis non inveniatur. Ergo non debet in aqua simplici Baptismus fieri.</p>
+            <p xml:id="ta-l4d3q1-d1e786">Praeterea, pura elementa, secundum philosophos, non sunt in extremis, sed in mediis
+              elementorum: quia in extremis alterant se invicem. Si ergo oporteret in aqua simplici
+              Baptismum fieri, non posset apud nos fieri.</p>
+            <p xml:id="ta-l4d3q1-d1e789">Praeterea, constat quod aqua maris non est simplex aqua, quod ejus amaritudo et
+              salsedo demonstrat, quae ex terrestri mixto contingit. Sed in aqua maris potest fieri
+              Baptismus. Ergo non requiritur aqua simplex.</p>
+            <p xml:id="ta-l4d3q1-d1e793">Praeterea, aqua competit Baptismo ratione ablutionis. Sed quaedam aqua mixta magis
+              abluit, sicut lixivium et hujusmodi. Ergo magis Baptismo competit.</p>
+            <p xml:id="ta-l4d3q1-d1e796">Sed contra est quod mixtum neutrum miscibilium est. Si ergo fiat Baptismus in aqua
+              mixta, non fieret in aqua; quod esset contra doctrinam Evangelii.</p>
+          </div>
+          <div xml:id="ta-l4d3q1-Dd1e800">
+            <head xml:id="ta-l4d3q1-Hd1e802">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d3q1-d1e805">Ulterius. Videtur quod non in qualibet aqua simplici possit fieri Baptismus. Dominus
+              enim tactu mundissimae suae carnis vim regenerativam contulit aquis. Sed non tetigit
+              nisi aquas Jordanis. Ergo solae illae aquae habent vim regenerativam; et ita non in
+              qualibet aqua potest fieri Baptismus.</p>
+            <p xml:id="ta-l4d3q1-d1e808">Praeterea, Baptismus non potest fieri nisi in aqua verbo vitae sanctificata. Si ergo
+              Baptismus fieret in mari, vel in aliquo fluvio, tota aqua fluminis esset sanctificata;
+              quod videtur absurdum.</p>
+            <p xml:id="ta-l4d3q1-d1e811">Praeterea, quaedam aquae non habent vim abluendi, sed magis deturpant, sicut aquae
+              paludum. Ergo videtur quod in hujusmodi aquis non possit fieri Baptismus.</p>
+            <p xml:id="ta-l4d3q1-d1e814">Sed contra est, quia materia Baptismi debet esse communis: quia Baptismus est
+              sacramentum maximae necessitatis. Sed hoc non esset, nisi in qualibet aqua Baptismus
+              fieri posset. Ergo in qualibet aqua potest fieri Baptismus.</p>
+          </div>
+          <div xml:id="ta-l4d3q1-Dd1e819">
+            <head xml:id="ta-l4d3q1-Hd1e821">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d3q1-d1e824">Respondeo dicendum ad primam quaestionem, quod ex institutione divina necessarium est
+              Baptismum in aqua fieri. Possunt autem institutionis accipi sex rationes. Prima est,
+              quia aqua ratione diaphaneitatis habet aliquid de lumine, et ita competit Baptismo qui
+              habet vim illuminativam, secundum quod in eo gratia confertur. Secunda est, quia
+              ratione humiditatis habet vim ablutivam; et ideo competit Baptismo, in quo sordes
+              culpae mundantur. Tertia est, quia ratione frigiditatis habet vim refrigerandi; et
+              ideo competit Baptismo, in quo incendium fomitis mitigatur. Quarta est, quia, ut
+              dicitur in 17 de animalibus, aqua maxime competit generationi et augmentationi rerum
+              viventium; unde et in principio mundi ex aqua primitus animalia producta sunt; et sic
+              competit Baptismo, inquantum est regeneratio in spiritualem vitam. Quinta est, quia in
+              omnibus mundi partibus aqua invenitur. Sexta, quia est res quae de facili ab omnibus
+              haberi potest sine magno pretio. Et hae duae competunt Baptismo prout est sacramentum
+              necessitatis.</p>
+            <p xml:id="ta-l4d3q1-d1e827">Ad primum ergo dicendum, quod neque circumcisio neque Baptismus tollunt originalem
+              culpam ex virtute naturali ipsarum rerum, sed inquantum significant aliquid
+              spirituale; et in significatione communicat aqua cum instrumento circumcisionis, quia
+              in utroque fit ablatio alicujus.</p>
+            <p xml:id="ta-l4d3q1-d1e830">Ad secundum dicendum, quod ignis habet lucem ex se et calorem, qui est qualitas
+              activa; et quia spiritus sanctus est primum agens deiformitatem in Baptismo, et primum
+              illuminans, sed Baptismus est sicut quaedam instrumentalis causa, ideo spiritui sancto
+              competit figurari per ignem, sed Baptismo per aquam, qua mediante transfunditur lumen
+              a spiritu sancto in animam, sicut per diaphanum lumen corporale ad sensum.</p>
+            <p xml:id="ta-l4d3q1-d1e833">Ad tertium dicendum, quod quamvis aer communicet cum vita, non tamen aer generationi
+              viventium, sicut aqua, competit; et propter hoc magis competit aqua Baptismo quam
+              aer.</p>
+            <p xml:id="ta-l4d3q1-d1e837">Ad quartum dicendum, quod sepultura Christi est res significata, non contenta;
+              institutio autem sacramentalis materiae attenditur principaliter quantum ad
+              significationem rei contentae. Magis autem competit aqua tali significationi in
+              Baptismo quam terra; et ideo ratio non sequitur.</p>
+            <p xml:id="ta-l4d3q1-d1e840">Ad quintum dicendum, quod oleum et vinum non habentur in usu ablutionis, sicut aqua,
+              nec ita bene abluunt, quia ex eis etiam aliquae sordes contrahuntur, et desunt iterum
+              aliae conditiones, quae aquae competunt; et ideo non ita competunt Baptismo sicut
+              aqua. Pinguedo autem devotionis et laetitia sunt quidam effectus Baptismum
+              consequentes, et non primi.</p>
+            <p xml:id="ta-l4d3q1-d1e843">Ad sextum dicendum, quod ex latere Christi fluxit sanguis et aqua; sed sanguis ad
+              redimendum, ut dicitur 1 Petr. 1, aqua autem ad abluendum; et ideo aqua Baptismo
+              competit, et non sanguis.</p>
+          </div>
+          <div xml:id="ta-l4d3q1-Dd1e847">
+            <head xml:id="ta-l4d3q1-Hd1e849">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d3q1-d1e852">Ad secundam quaestionem dicendum, quod permixtio aquae potest esse duplex. Una quae
+              tollit speciem, sicut quando per alterationem transit in aliam speciem, sicut per
+              putrefactionem aliquam vel digestionem transit in vinum, aut etiam per additionem
+              tantam alterius liquoris, quod solvatur species aquae, sicut si parum aquae multo vino
+              admisceatur. Alia permixtio est quae non tollit speciem aquae; sicut quando alteratur
+              aqua secundum aliquod accidens, et manet species, ut patet in aqua calefacta; vel
+              quando additur aliquid aquae quod vel non commisceatur, sicut si aliqua solida
+              ponantur in aqua; vel si sit commiscibile, sicut aliquod humidum, tamen est tam parvae
+              quantitatis quod mixtionem non faciat, sed in aquam penitus convertatur. In aqua ergo
+              primo modo permixta non potest fieri Baptismus, quia jam non est aqua; in aqua autem
+              secundo modo potest fieri. Ut autem cognoscatur quando sic vel sic permixta est aqua,
+              sciendum est, quod sicut diversitatem speciei in animalibus judicamus ex diversitate
+              figurarum, ita etiam diversam speciem in elementis cognoscimus ex diversitate rari et
+              densi; et ideo si fiat tanta alteratio vel permixtio aquae quod recedatur a termino
+              raritatis et densitatis aquae vel in actu vel in potentia, signum est quod sit species
+              aquae transmutata; et dico in potentia, quando humor aliquis non condensatur et
+              rarefit calido vel frigido, sicut aqua; sed aliter, sicut patet in vino, oleo, lacte,
+              et hujusmodi.</p>
+            <p xml:id="ta-l4d3q1-d1e855">Ad primum ergo dicendum, quod non oportet quod aqua competat nobis per convenientiam
+              in naturali proprietate, sed significando effectum qui in nobis debet fieri.</p>
+            <p xml:id="ta-l4d3q1-d1e858">Ad secundum dicendum, quod de corpore Christi exivit vera aqua, sicut verus sanguis;
+              et hoc ad probandum esse corpus Christi verum, non phantasticum, ut Manichaei ponunt.
+              Fuit enim in eo compositio ex elementis, quod probatum fuit ex eo quod aqua, quae est
+              elementum, prodiit ex ejus latere; et compositionem humorum probavit sanguis
+              effluens.</p>
+            <p xml:id="ta-l4d3q1-d1e861">Ad tertium dicendum, quod quamvis aqua quae est apud nos, sit aliquo modo alterata,
+              et habens aliquid de permixtione aliorum elementorum, non tamen amisit speciem
+              propriam.</p>
+            <p xml:id="ta-l4d3q1-d1e865">Et similiter dicendum est ad quartum de aqua maris.</p>
+            <p xml:id="ta-l4d3q1-d1e868">Ad quintum dicendum, quod illae aquae quae per aliquam transmutationem speciem aquae
+              amittunt, etsi retineant abluendi virtutem, tamen materia Baptismi esse non possunt,
+              quia prima virtus abluendi est in vera aqua; et etiam purius abluit, quia ex aliis
+              liquoribus corpora abluta aliquo modo inficiuntur: communius etiam aqua utimur ad
+              abluendum. De lixivio autem quidam dicunt quod speciem aquae amisit, unde Baptismi
+              materia esse non potest. Sed hoc non videtur: quia eadem ratione nec aqua transiens
+              per mineras sulphureas et terras combustas posset esse materia Baptismi; quod falsum
+              est. Lixivium enim ab alia aqua non differt nisi in hoc quod per cineres transivit.
+              Unde videtur aliter dicendum, quod Baptismus potest fieri in lixivio, sicut et in
+              aquis sulphureis, et in aliis aquis quae ex terra, per quam transeunt, immutantur.</p>
+          </div>
+          <div xml:id="ta-l4d3q1-Dd1e872">
+            <head xml:id="ta-l4d3q1-Hd1e874">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d3q1-d1e877">Ad tertiam quaestionem dicendum, quod diversitas aquarum quae est per loca et situs,
+              est differentia accidentalis, unde non mutat speciem aquae; et ideo in qualibet aqua
+              hujusmodi, vel maris vel fluminis vel cisternae vel fontis vel stagni, potest fieri
+              Baptismus.</p>
+            <p xml:id="ta-l4d3q1-d1e880">Ad primum ergo dicendum, quod dominus tangendo illam aquam dedit vim regenerativam in
+              tota specie aquae, instituens eam instrumentum Baptismi.</p>
+            <p xml:id="ta-l4d3q1-d1e883">Ad secundum dicendum, quod si baptizatur aliquis in mari, sola illa aqua maris
+              pertinet ad Baptismum quae potest habere aliquem effectum in baptizato vel lavando vel
+              infrigidando, et non totum mare.</p>
+            <p xml:id="ta-l4d3q1-d1e886">Ad tertium dicendum, quod si aqua paludis esset intantum ingrossata quod recederet a
+              vera raritate aquae non esset Baptismus, sicut si esset lutum, alias esset Baptismus,
+              quia adhuc species aquae manet.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d3q1-Dd1e892" type="articulus">
+          <head xml:id="ta-l4d3q1-Hd1e894">Articulus 4</head>
+
+          <head xml:id="ta-l4d3q1-Hd1e897" type="questionTitle">Utrum immersio sit de necessitate Baptismi</head>
+          <div xml:id="ta-l4d3q1-Dd1e900">
+            <head xml:id="ta-l4d3q1-Hd1e902">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d3q1-d1e905">Ad quartum sic proceditur. Videtur quod immersio sit de necessitate Baptismi. Quia
+              per Baptismum configuramur sepulturae Christi, ut dicitur Rom. 6. Sed hoc non fit per
+              Baptismum nisi inquantum immergimur et occultamur in aqua, sicut Christus sub terra.
+              Ergo immersio est de necessitate Baptismi.</p>
+            <p xml:id="ta-l4d3q1-d1e908">Praeterea, Baptismus datur in remedium contra originale peccatum. Sed originale
+              peccatum est in toto corpore. Ergo totum debet immergi.</p>
+            <p xml:id="ta-l4d3q1-d1e911">Praeterea, si aliqua pars sufficeret ut intingeretur, praecipue videretur de membris
+              genitalibus, in quibus praecipue originale manet, et in quibus circumcisio fiebat. Sed
+              ablutio non potest fieri congrue in illis membris, nisi totum corpus immergatur. Ergo
+              totum corpus debet immergi.</p>
+            <p xml:id="ta-l4d3q1-d1e914">Sed contra est consuetudo in aliquibus Ecclesiis, in quibus quandoque per aspersionem
+              et non per immersionem Baptismus celebratur.</p>
+            <p xml:id="ta-l4d3q1-d1e918">Praeterea, in Baptismo beati Laurentii legitur; quod Romanus ab eo baptizandus urceum
+              aquae attulit, in quo constat quod immergi non poterat. Ergo immersio non est de
+              necessitate Baptismi.</p>
+          </div>
+          <div xml:id="ta-l4d3q1-Dd1e922">
+            <head xml:id="ta-l4d3q1-Hd1e924">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d3q1-d1e927">Ulterius. Videtur quod non debet esse trina. Baptismus enim est tinctio in aqua verbo
+              vitae sanctificata, ut dicit Augustinus. Sed unus est Baptismus. Ergo debet esse una
+              tinctio, sive immersio.</p>
+            <p xml:id="ta-l4d3q1-d1e930">Praeterea, requiritur ad Baptismum fides de unitate et de Trinitate personarum. Sed
+              Trinitas personarum sufficienter exprimitur in forma. Ergo unitas essentiae debet
+              exprimi in unitate immersionis.</p>
+            <p xml:id="ta-l4d3q1-d1e933">Praeterea, Baptismus est figura passionis Christi. Sed una est passio Christi. Ergo
+              una debet esse immersio in Baptismo.</p>
+            <p xml:id="ta-l4d3q1-d1e936">Sed contra est quod Dionysius dicit, quod debet fieri Baptismus tribus immersionibus
+              et elevationibus, ad designandum quod Christus in sepulcro jacuit tribus diebus et
+              tribus noctibus.</p>
+            <p xml:id="ta-l4d3q1-d1e940">Praeterea, Chrysostomus super Joan. 3: <quote xml:id="ta-l4d3q1-Qd1e942">fit immersio, ut discas quoniam virtus
+                patris et filii et spiritus sancti omnia haec implet</quote>. Idem dicit Hieronymus
+              super Epist. ad Ephes. 4.</p>
+          </div>
+          <div xml:id="ta-l4d3q1-Dd1e947">
+            <head xml:id="ta-l4d3q1-Hd1e949">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d3q1-d1e952">Ulterius. Videtur quod trina immersio sit de necessitate sacramenti. Legitur enim in
+              decretis de consecratione, dist. 6: <quote xml:id="ta-l4d3q1-Qd1e954">si quis presbyter vel episcopus semel
+                immergat, et unam immersionem fecerit, deponatur</quote>. Hoc autem non esset, nisi
+              trina immersio esset de necessitate sacramenti. Ergo est de necessitate
+              sacramenti.</p>
+            <p xml:id="ta-l4d3q1-d1e958">Praeterea, sicut fides Trinitatis exprimitur per nomina trium personarum, ita per
+              tres immersiones, ut ex dictis patet. Sed si non nominarentur tres personae non esset
+              Baptismus. Ergo similiter si non trina immersio fiat.</p>
+            <p xml:id="ta-l4d3q1-d1e961">Praeterea, si non trina immersio est de necessitate sacramenti, statim in prima
+              immersione Baptismus habet totum effectum suum. Ergo aliae immersiones frustra
+              adderentur, et fit injuria sacramento.</p>
+            <p xml:id="ta-l4d3q1-d1e964">Sed contra est quod ipsa immersio non est de necessitate sacramenti. Ergo multo minus
+              numerus immersionis.</p>
+            <p xml:id="ta-l4d3q1-d1e968">Praeterea, auctoritas Gregorii in littera posita dicit, quod utrumque potest fieri
+              servata Ecclesiae consuetudine. Ergo non est de necessitate sacramenti neque una neque
+              trina immersio.</p>
+          </div>
+          <div xml:id="ta-l4d3q1-Dd1e973">
+            <head xml:id="ta-l4d3q1-Hd1e975">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d3q1-d1e978">Respondeo dicendum ad primam quaestionem, quod Baptismus ablutionem importat. Ablutio
+              autem per aquam potest fieri non tantum per modum immersionis, sed per modum
+              aspersionis vel effusionis; et ideo utroque modo potest fieri Baptismus. Et videtur
+              quod apostoli hoc modo baptizarent, cum legatur quod simul una die conversi sunt
+              quinque millia, et alia tria millia Act. 2 et 3; et ideo quando consuetudo Ecclesiae
+              patitur, vel quando necessitas incumbit propter defectum aquae, sive propter periculum
+              pueri, de cujus morte timetur, vel etiam propter imbecillitatem sacerdotis non
+              potentis sustentare infantem, potest sine immersione Baptismus celebrari.</p>
+            <p xml:id="ta-l4d3q1-d1e981">Ad primum ergo dicendum, quod etiam in effusione aquae homo quodammodo sub aqua
+              ponitur; et ideo quodammodo Christo per Baptismum consepelitur.</p>
+            <p xml:id="ta-l4d3q1-d1e984">Ad secundum dicendum, quod omnes operationes animales a capite principium habent,
+              quia Baptismus format animales habitus secundum definitionem Dionysii prius positam,
+              art. 1, quaestiunc. 3, non autem naturales vel vitales; ideo si sit caput aspersum
+              aqua, in totum corpus aspersio reputatur; sicut etiam juristae dicunt, quod ubi caput
+              hominis jacet, reputatur ac si totus homo sepultus esset ibidem. Non sic autem est de
+              aliis partibus.</p>
+            <p xml:id="ta-l4d3q1-d1e987">Ad tertium dicendum, quod quamvis originale peccatum consistat praecipue in membris
+              genitalibus quantum ad originem, tamen in operationibus animalibus consummatur quantum
+              ad rationem culpae; et ideo potius oportet Baptismum adhiberi circa caput, si
+              necessitas incumbit, ut non totum corpus possit immergi.</p>
+          </div>
+          <div xml:id="ta-l4d3q1-Dd1e991">
+            <head xml:id="ta-l4d3q1-Hd1e993">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d3q1-d1e996">Ad secundam quaestionem dicendum, quod congruentissime fit trina immersio, tum ad
+              exprimendum in factis fidem Trinitatis, tum ad significandum Christi sepulturam, cui
+              per Baptismum consepelimur, ut patet ex auctoritatibus inductis.</p>
+            <p xml:id="ta-l4d3q1-d1e999">Ad primum ergo dicendum, quod Magister exposuit tinctionem per ablutionem. Quamvis
+              autem in trina immersione sit trina intinctio, tamen est una ablutio; sicut etiam in
+              ablutionibus pure materialibus videmus contingere, quod aliquid pluries in aquam
+              immergitur vel aqua perfunditur, antequam ablutio una sit perfecta.</p>
+            <p xml:id="ta-l4d3q1-d1e1002">Ad secundum dicendum, quod in fide Trinitatis includitur fides unitatis; et ideo in
+              Baptismo cum fide Trinitatis expressa datur intelligi fides unitatis et in forma
+              verborum per hoc quod singulariter dicitur: <quote xml:id="ta-l4d3q1-Qd1e1004">in nomine</quote>, et in immersione
+              propter similitudinem immersionum. Non autem in fide unitatis includitur fides
+              Trinitatis; et ideo congruentius est ut etiam in actu Baptismi fides Trinitatis
+              exprimatur.</p>
+            <p xml:id="ta-l4d3q1-d1e1008">Ad tertium dicendum, quod quamvis passio Christi sit una, tamen Christus passus
+              triduo in sepulcro quievit: et hoc Baptismus significare debuit trina immersione.</p>
+          </div>
+          <div xml:id="ta-l4d3q1-Dd1e1012">
+            <head xml:id="ta-l4d3q1-Hd1e1014">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d3q1-d1e1017">Ad tertiam quaestionem dicendum, quod cum trina immersio non sit ad significandum rem
+              in sacramento contentam, quam oportet per materiam et usum sacramenti significari, sed
+              significet rem significatam et non contentam, quae significatio non est principalis in
+              sacramento, trina immersio, ut in littera dicitur, non est de necessitate sacramenti.
+              Si tamen omittatur contra consuetudinem Ecclesiae, graviter aliquis peccat semel
+              tantum immergens; et ideo per canones poena adhibetur.</p>
+            <p xml:id="ta-l4d3q1-d1e1020">Per quod patet solutio ad primum.</p>
+            <p xml:id="ta-l4d3q1-d1e1023">Ad secundum dicendum, quod forma principaliter debet significare illud unde est
+              efficacia in sacramento, cum sit medium quo quasi pervenit efficacia ad materiam quae
+              verbo illo sanctificatur; sed materia debet principaliter significare effectum qui
+              immediate consequitur ex usu ejus.</p>
+            <p xml:id="ta-l4d3q1-d1e1026">Ad tertium dicendum, quod unitas intentionis in tribus immersionibus facit unitatem
+              Baptismi, ut dictum est; et ideo quando aliquis intendit ter immergere, prima immersio
+              non terminat intentionem baptizantis, et per consequens nec esse Baptismi completur,
+              nec per illam tantum habet effectum, nisi per ordinem ad alias; unde aliae non
+              superfluunt. Si autem non intendit nisi unam facere, prima sola complet Baptismum,
+              terminans intentionem baptizantis.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d3q1-Dd1e1031" type="articulus">
+          <head xml:id="ta-l4d3q1-Hd1e1033">Articulus 5</head>
+
+          <head xml:id="ta-l4d3q1-Hd1e1036" type="questionTitle">Utrum fuerit necessarium instituere Baptismum post
+            circumcisionem</head>
+          <div xml:id="ta-l4d3q1-Dd1e1039">
+            <head xml:id="ta-l4d3q1-Hd1e1041">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d3q1-d1e1044">Ad quintum sic proceditur. Videtur quod non fuit necessarium instituere Baptismum
+              post circumcisionem. Causa enim institutionis Baptismi, ut in littera dicitur, est
+              innovatio mentis. Sed circumcisio mentem innovabat, cum peccatum auferret, et gratiam
+              conferret, ut supra dictum est, dist. 1, qu. 2, art. 2, quaestiunc. 5. Ergo non fuit
+              necessarium Baptismum instituere.</p>
+            <p xml:id="ta-l4d3q1-d1e1047">Praeterea, in sacramentis efficacia respondet significationi. Sed circumcisio
+              expressius significat, ut videtur, ablationem originalis et quantum ad causam
+              ablationis, quae est effusio sanguinis Christi et quantum ad causam traductionis, quae
+              est generatio, in membris generationis cum sanguinis effusione facta. Ergo habuit
+              majorem efficaciam quam Baptismus; et ita non debuit post eam Baptismus institui.</p>
+            <p xml:id="ta-l4d3q1-d1e1050">Sed contra, perfectum debet imperfecto succedere. Sed Baptismus est perfectior
+              circumcisione, quia communior est. Ergo debuit post circumcisionem institui.</p>
+          </div>
+          <div xml:id="ta-l4d3q1-Dd1e1054">
+            <head xml:id="ta-l4d3q1-Hd1e1056">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d3q1-d1e1059">Ulterius. Videtur quod fuerit ante passionem institutus: quia dominus tactu carnis
+              suae, vim regenerativam contulit aquis. Sed hoc fuit ante passionem in Baptismo suo.
+              Ergo ante passionem fuit institutus.</p>
+            <p xml:id="ta-l4d3q1-d1e1062">Praeterea, Joan. 3, 5, dixit: <quote xml:id="ta-l4d3q1-Qd1e1064">nisi quis renatus fuerit ex aqua et spiritu
+                sancto, non potest introire in regnum Dei</quote>. Sed hoc fuit ante passionem. Ergo
+              Baptismus ante passionem fuit institutus.</p>
+            <p xml:id="ta-l4d3q1-d1e1068">Sed contra, causam non praecedit effectus. Sed Baptismus habet efficaciam a passione
+              Christi. Ergo non debuit ante passionem institui.</p>
+            <p xml:id="ta-l4d3q1-d1e1071">Praeterea, Baptismus non fuit sine forma sua. Sed forma fuit instituta post
+              passionem, Matth. ult. Ergo et Baptismus.</p>
+          </div>
+          <div xml:id="ta-l4d3q1-Dd1e1075">
+            <head xml:id="ta-l4d3q1-Hd1e1077">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d3q1-d1e1080">Ulterius. Videtur quod statim in sua institutione fuit obligatorium. Quia dicitur
+              Joan. 3, 5, quasi in principio institutionis: <quote xml:id="ta-l4d3q1-Qd1e1082">nisi quis renatus fuerit ex aqua
+                et spiritu sancto, non potest introire in regnum Dei</quote>; quod obligationem
+              importet. Ergo statim obligatorium fuit.</p>
+            <p xml:id="ta-l4d3q1-d1e1086">Praeterea, institutio sacramentorum novae legis est per modum praecepti. Sed
+              praeceptum statim est obligatorium. Ergo institutio Baptismi statim obligabat.</p>
+            <p xml:id="ta-l4d3q1-d1e1089">Sed contra, ad idem non sunt necessaria duo remedia. Sed ante passionem, jam
+              instituto Baptismo, homines obligabantur adhuc ad circumcisionem, quae ad idem
+              ordinatur cum Baptismo. Ergo non obligabantur ad Baptismum.</p>
+          </div>
+          <div xml:id="ta-l4d3q1-Dd1e1094">
+            <head xml:id="ta-l4d3q1-Hd1e1096">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d3q1-d1e1099">Respondeo dicendum, ad primam quaestionem, quod secundum Hugonem de sancto Victore,
+              oportuit ut secundum processionem temporum spiritualium gratiarum signa magis ac magis
+              evidentia darentur; et ideo oportuit quod Baptismus post circumcisionem institueretur;
+              quia circumcisio significabat tantum in removendo; perfectio autem sanctificationis
+              non est in removendo, sed in collatione gratiae, cujus effectus aqua figurat, scilicet
+              vitam, illuminationem, et hujusmodi, de quibus dictum est; et propter hoc significat
+              ablutionem; et iterum etiam est perfectio quantum ad usum, quia sexui utrique communis
+              est, quod non erat de circumcisione.</p>
+            <p xml:id="ta-l4d3q1-d1e1102">Ad primum ergo dicendum, quod quamvis circumcisio auferret culpam sicut Baptismus,
+              non tamen conferebat tantam plenitudinem gratiae sicut Baptismus, nec tantum
+              diminuebat fomitem; et ideo oportuit Baptismum succedere. Innovatio enim non solum
+              consistit in remotione culpae, sed in collatione gratiae.</p>
+            <p xml:id="ta-l4d3q1-d1e1105">Ad secundum dicendum, quod illae significationes sunt rerum non contentarum; et ideo
+              de illis nihil ad propositum.</p>
+          </div>
+          <div xml:id="ta-l4d3q1-Dd1e1109">
+            <head xml:id="ta-l4d3q1-Hd1e1111">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d3q1-d1e1114">Ad secundam quaestionem dicendum, quod multiplex fuit Baptismi institutio. Fuit enim
+              primo institutus quantum ad materiam in Baptismo Christi; tunc enim vim regenerativam
+              aquis contulit; et aliquo modo fuit forma figurata per praesentiam trium personarum in
+              signo visibili, quia pater apparuit in voce, filius in carne, spiritus sanctus in
+              columba; et similiter fructus Baptismi ibi praefiguratus fuit, quia caeli aperti sunt
+              super eum. Sed necessitas ejus fuit declarata Joan. 3, 5, ubi dicit: <quote xml:id="ta-l4d3q1-Qd1e1116">nisi quis
+                renatus fuerit ex aqua et spiritu sancto, non potest introire in regnum Dei</quote>.
+              Sed usus fuit inchoatus quando misit discipulos ad praedicandum et baptizandum, ut
+              patet Matth. 10. Sed efficaciam habuit ex passione Christi, quantum ad ultimum
+              effectum, qui est apertio januae. Sed divulgatio ejus quantum ad omnes nationes
+              praecepta fuit Matth. ult., 10, ubi dixit: <quote xml:id="ta-l4d3q1-Qd1e1119" ana="#mt28_10">euntes, docete omnes gentes</quote>
+              et cetera.</p>
+            <p xml:id="ta-l4d3q1-d1e1123">Et per hoc patet solutio ad objecta. Tamen sciendum, quod Matth. ult., non fuit forma
+              instituta cum ante passionem in eadem forma baptizaverint sicut in littera dicitur,
+              sed fuit iterata.</p>
+          </div>
+          <div xml:id="ta-l4d3q1-Dd1e1127">
+            <head xml:id="ta-l4d3q1-Hd1e1129">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d3q1-d1e1132">Ad tertiam quaestionem dicendum, quod ante passionem nullus obligabatur ad Baptismum,
+              quia tunc non erat institutus ad obligandum, sed ad exercitandum; sed post passionem
+              obligatorium fuit, quando circumcisio mortua fuit quantum ad omnes ad quos institutio
+              potuit pervenire.</p>
+            <p xml:id="ta-l4d3q1-d1e1135">Et per hoc patet solutio ad objecta. Dominus enim Joan. 3, magis praedixit
+              obligationem futuram quam narraret praesentem nec praeceptum obligat antequam sit
+              divulgatum.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d3q1-Dd1e1140">
+          <head xml:id="ta-l4d3q1-Hd1e1142">Expositio textus</head>
+          <p xml:id="ta-l4d3q1-d1e1145"><quote xml:id="ta-l4d3q1-Qd1e1146">Baptismus dicitur corporis tinctio</quote> et cetera. Sciendum est, quod
+            baptizare in Graeco, idem est quod lavare: a lavando enim duo dicuntur, scilicet
+            lavacrum, quod significat aquam, in qua fit lotio humano artificio praeparatam; alio
+            modo lotio, quae significat usum lavacri. Baptismus ergo potest significare ipsam aquam,
+            quae dicitur lavacrum; unde dicitur Tit. 3, 5: <quote xml:id="ta-l4d3q1-Qd1e1149">per lavacrum regenerationis et
+              renovationis spiritus sancti</quote>; et potest significare ipsam ablutionem. Marc. 7,
+            8: <quote xml:id="ta-l4d3q1-Qd1e1152">tenentes Baptismata hominum, et calicum, et urceorum</quote>; idest
+            ablutiones. Et ideo Hugo de sancto Victore, definivit Baptismum aquam quantum ad primam
+            acceptionem; Magister vero ablutionem quantum ad secundam. Sed haec definitio est magis
+            propria quia aqua non significat mundationem, neque causat, nisi secundum quod est
+            abluens. <quote xml:id="ta-l4d3q1-Qd1e1155">Unde est haec tanta virtus aquae, ut corpus tangat, et cor abluat, nisi
+              faciente verbo?</quote> Quid sit ista virtus, et quando sit data; dictum est supra,
+            dist. 1, qu. 1, art. 4, quaestiunc. 2. <quote xml:id="ta-l4d3q1-Qd1e1158">Unde nihilominus insinuare videtur verum
+              Baptisma dari posse in nomine patris tantum</quote> et cetera. Hoc est intelligendum
+            in simili casu, sicut apostoli in nomine Christi baptizabant; alias Magister falsum
+            diceret. <quote xml:id="ta-l4d3q1-Qd1e1161">Celebratur autem hoc sacramentum tantum in aqua</quote>. Sciendum, quod
+            aqua est materia Baptismi, et potest tripliciter considerari. Quia secundum quod
+            consideratur in sua propria natura est quasi materia remota, quia ex naturali
+            proprietate habet aliquam convenientiam ad hoc quod sit Baptismi materia ratione
+            similitudinis. Secundum autem quod est instituta ad hoc, accipiens vim regenerativam ex
+            tactu carnis salvatoris, sic est materia quasi disposita. Secundum autem quod
+            consideratur sub forma verborum, est quasi materia jam informata. <quote xml:id="ta-l4d3q1-Qd1e1165">Solet autem
+              quaeri, si circumcisio amisit statim vim suam ab institutione Baptismi</quote>. De hac
+            dictum est prius distinct. 1. <quote xml:id="ta-l4d3q1-Qd1e1168">Aditum nobis regni aperuit</quote>. Apertio januae
+            non est aliud quam remotio impedimenti quod prohibebat totum humanum genus ab introitu
+            caeli: quod quidem ablatum est per passionem Christi, ut dictum est in 3 Lib., dist. 18,
+            qu. 1, art. 6, quaestiunc. 3.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

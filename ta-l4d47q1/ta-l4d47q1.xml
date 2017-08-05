@@ -1,0 +1,759 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 47, Quaestio 1</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Librum IV, Distinctio 47, Quaestio 1</title>
+          <date when="2016-03-19">March 19, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-19">March 19, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness>1856 editum</witness>
+          <witness xml:id="G" n="ghent567">Ghent, Belgium, Ghent University Library, 567</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="0.0.0-dev">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+
+
+
+
+      <div xml:id="starts-on">
+        <cb ed="#G" n="670a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ta-l4d47q1">
+        <head xml:id="ta-l4d47q1-Hd1e97">Librum IV, Distinctio 47, Quaestio 1</head>
+
+
+        <div xml:id="ta-l4d47q1-Dd1e100">
+          <head xml:id="ta-l4d47q1-Hd1e102">Prooemium</head>
+          <p xml:id="ta-l4d47q1-d1e105">Postquam determinavit Magister de remuneratione animarum, et punitione, quae praecedit
+            judicium generale; hic incipit determinare de remuneratione et punitione quae erit per
+            judicium generale; et dividitur in partes duas: in prima determinat de ipso generali
+            judicio; in secunda determinat de remuneratione et poena quae generale judicium
+            consequitur, 49 dist., ibi: <quote xml:id="ta-l4d47q1-Qd1e107">post resurrectionem vero facto impletoque judicio,
+              suos fines habebunt civitates duae</quote>. Prima pars dividitur in duas: in prima
+            determinat ea quae pertinent ad modum judicii, et ad judicis ministerium; in secunda
+            determinat ea quae pertinent ad judicis personam, 48 dist., ibi: <quote xml:id="ta-l4d47q1-Qd1e110">solet etiam
+              quaeri, in qua forma Christus judicabit</quote>. Prima in duas: in prima enim requirit
+            de judicii modo; in secunda de judicis ministris, ibi: <quote xml:id="ta-l4d47q1-Qd1e113">non autem solus Christus
+              judicabit</quote>. Et haec pars dividitur in tres: in prima enim ostendit quomodo
+            homines cum Christo judicante judicabunt; in secunda ostendit quid ministerii Angeli in
+            judicio exhibebunt, ibi: <quote xml:id="ta-l4d47q1-Qd1e116">cum autem in Evangelio legatur quod dominus mittet
+              Angelos suos</quote> etc.; in tertia parte requirit utrum Daemones ministri hujus
+            judicii sint futuri, torquendo damnatorum animas, ibi: <quote xml:id="ta-l4d47q1-Qd1e119">et solet quaeri, utrum in
+              Inferno malis ad puniendum praesint Daemones</quote>. Prima pars dividitur in duas: in
+            prima ostendit quod quidam homines cum Christo judicabunt; in secunda enumerat quatuor
+            ordines hominum qui ad judicium veniunt, ibi: <quote xml:id="ta-l4d47q1-Qd1e123">erunt autem quatuor ordines in
+              judicio</quote>. Hic est duplex quaestio. Prima de judicio generali. Secunda de igne
+            qui praecedit faciem judicis. Circa primum quaeruntur tria: 1 de ipso judicio; 2 de
+            judicantibus cum Christo; 3 de his qui in judicio judicabuntur.</p>
+
+        </div>
+        <div xml:id="ta-l4d47q1-Dd1e128" type="articulus">
+          <head xml:id="ta-l4d47q1-Hd1e130">Articulus 1</head>
+
+          <head xml:id="ta-l4d47q1-Hd1e133" type="questionTitle">Utrum generale judicium sit futurum</head>
+
+          <div xml:id="ta-l4d47q1-Dd1e136">
+            <head xml:id="ta-l4d47q1-Hd1e138">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d47q1-d1e141">Ad primum sic proceditur. Videtur quod generale judicium non sit futurum. Quia, ut
+              dicitur Naum 1, 9, <quote xml:id="ta-l4d47q1-Qd1e143">non judicabit Deus bis in idipsum</quote>. Sed nunc Deus
+              judicat de singulis hominum operibus, cum post mortem unicuique poenas vel praemia pro
+              meritis tribuit, et dum etiam in hac vita quosdam pro bonis vel malis operibus
+              praemiat vel punit. Ergo videtur quod non sit aliud judicium futurum.</p>
+            <p xml:id="ta-l4d47q1-d1e147">Praeterea, in nullo judicio executio sententiae praecedit judicium. Sed sententia
+              divini judicii quo ad homines, est de adeptione regni, vel exclusione a regno, ut
+              patet Matth. 25. Ergo cum modo aliqui adipiscantur regnum aeternum, et quidam
+              excludantur ab ipso perpetuo, videtur quod aliud judicium non sit futurum.</p>
+            <p xml:id="ta-l4d47q1-d1e150">Praeterea, propter hoc aliqua in judicium oportet adduci, quia dubium est quid de eis
+              definiendum sit. Sed ante finem mundi determinata est unicuique damnatorum sua
+              damnatio, et cuique sanctorum sua beatitudo. Ergo videtur quod non oporteat aliquod
+              futurum judicium esse.</p>
+            <p xml:id="ta-l4d47q1-d1e153">Sed contra, Matth. 12, 41, dicitur: <quote xml:id="ta-l4d47q1-Qd1e155" ana="#mt12_41">viri Ninivitae surgent in judicio cum
+                generatione ista, et condemnabunt eam</quote>. Ergo post resurrectionem aliquod
+              judicium erit.</p>
+            <p xml:id="ta-l4d47q1-d1e160">Praeterea, Joan. 5, 29, dicitur: <quote xml:id="ta-l4d47q1-Qd1e162" ana="#io5_29">procedent qui bona fecerunt, in
+                resurrectionem vitae; qui vero mala egerunt, in resurrectionem judicii</quote>. Ergo
+              videtur quod post resurrectionem aliquod judicium sit futurum.</p>
+
+          </div>
+          <div xml:id="ta-l4d47q1-Dd1e167">
+            <head xml:id="ta-l4d47q1-Hd1e169">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d47q1-d1e172">Ulterius. Videtur quod judicium illud quantum ad disceptationem et sententiam fiat
+              per locutionem vocalem. Quia, ut dicit Augustinus, 20 de Civ. Dei, <quote xml:id="ta-l4d47q1-Qd1e174">per quot
+                dies hoc futurum judicium tendatur incertum est</quote>. Sed non esset incertum, si
+              illa quae in judicio dicuntur futura, tantum mentaliter complerentur. Ergo judicium
+              illud vocaliter fiet, et non solum mentaliter.</p>
+            <p xml:id="ta-l4d47q1-d1e178">Praeterea, Gregorius dicit, et habetur in littera: <quote xml:id="ta-l4d47q1-Qd1e180">illi saltem verba judicis
+                audient qui ejus fidem saltem verbo tenuerunt</quote>. Hoc autem non potest
+              intelligi de verbo interiori; quod sic omnes verba judicis audient: quia omnibus et
+              bonis et malis, nota erunt omnia facta aliorum, sicut supra, dist. 43, dictum est.
+              Ergo videtur quod judicium illud vocaliter peragetur.</p>
+            <p xml:id="ta-l4d47q1-d1e184">Praeterea, sicut in sequenti dist. dicetur, Christus secundum formam hominis
+              judicabit, in qua corporaliter ab omnibus possit videri. Ergo videtur eadem ratione
+              quod corporali voce loquatur, ut ab omnibus audiatur.</p>
+            <p xml:id="ta-l4d47q1-d1e187">Sed contra, Augustinus dicit, 20 de Civ. Dei, quod liber vitae, de quo Apocal. 20,
+                <quote xml:id="ta-l4d47q1-Qd1e189">vis quaedam intelligenda est divina, qua fiet ut unicuique opera sua vel bona
+                vel mala in memoriam revocentur, et mentis intuitu mira celeritate cernantur, ut
+                accuset vel excuset scientia conscientiam; atque ita simul et omnes et singuli
+                judicentur</quote>. Sed si vocaliter discurrerentur merita singulorum, non possent
+              omnes et singuli judicari simul. Ergo videtur quod illa discussio non erit
+              vocalis.</p>
+            <p xml:id="ta-l4d47q1-d1e194">Praeterea, sententia proportionaliter debet testimonio respondere. Sed testimonium et
+              accusatio vel excusatio mentalis erit; unde Rom. 2, 15: <quote xml:id="ta-l4d47q1-Qd1e196" ana="#rom2_15">testimonium illis
+                reddente conscientia ipsorum, et inter se invicem cogitationum accusantium, aut
+                etiam defendentium, in die cum judicabit Deus occulta hominum</quote>. Ergo videtur
+              quod illa sententia, et totum judicium, mentaliter expleatur.</p>
+
+          </div>
+          <div xml:id="ta-l4d47q1-Dd1e201">
+            <head xml:id="ta-l4d47q1-Hd1e203">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d47q1-d1e206">Ulterius. Videtur quod tempus futuri judicii non sit ignotum. Sicut enim sancti
+              patres expectabant primum adventum, ita et nos expectamus secundum. Sed sancti patres
+              sciverunt tempus adventus primi, sicut patet per numerum hebdomadarum quae
+              describuntur Dan. 9; unde et reprehenduntur Judaei, quod tempus adventus Christi non
+              cognoverunt, ut patet Luc. 12, 56: <quote xml:id="ta-l4d47q1-Qd1e208">hypocritae, faciem caeli et terrae nostis
+                probare; hoc autem tempus quomodo non probatis?</quote> Ergo videtur quod etiam
+              nobis esse debeat determinatum tempus secundi adventus, quo Deus ad judicium
+              veniet.</p>
+            <p xml:id="ta-l4d47q1-d1e212">Praeterea, per signa devenimus in cognitionem signatorum. Sed de judicio futuro multa
+              signa nobis in Scriptura ponuntur, ut patet 14 Matth. et 21 Lucae et 12 Marci. Ergo in
+              cognitionem illius temporis possumus pervenire.</p>
+            <p xml:id="ta-l4d47q1-d1e215">Praeterea, apostolus dixit, 1 Cor. 10, 2: <quote xml:id="ta-l4d47q1-Qd1e217">nos sumus in quos fines saeculorum
+                devenerunt</quote>; et 1 Joan. 2, 18: <quote xml:id="ta-l4d47q1-Qd1e220">filioli, novissima hora est</quote> et
+              cetera. Cum ergo jam longum tempus transierit ex quo haec dicta sunt, videtur quod
+              saltem nunc scire possumus quod ultimum judicium sit propinquum.</p>
+            <p xml:id="ta-l4d47q1-d1e224">Praeterea, tempus judicii non debet esse occultum, nisi propter hoc quod quilibet
+              solicitus se ad judicium praeparet, dum determinate tempus ignorat. Sed eadem
+              solicitudo remaneret, etiam si certum esset: quia cuicumque incertum est tempus suae
+              mortis, et, sicut dicit Augustinus in epistola ad Hesychium, <quote xml:id="ta-l4d47q1-Qd1e226">in quo quemque
+                invenerit suus novissimus dies, in hoc eum comprehendet mundi novissimus
+                dies</quote>. Ergo non est necessarium, tempus judicii esse occultum.</p>
+            <p xml:id="ta-l4d47q1-d1e231">Sed contra est quod dicitur Marc. 13, 32: <quote xml:id="ta-l4d47q1-Qd1e233">de die illa vel hora nemo scit;
+                neque Angeli in caelo, neque filius, nisi pater</quote>. Dicitur autem filius
+              nescire, inquantum nos scire non facit.</p>
+            <p xml:id="ta-l4d47q1-d1e237">Praeterea, 1 Thessal. 5, 2: <quote xml:id="ta-l4d47q1-Qd1e239">dies domini sicut fur in nocte, ita
+              veniet</quote>. Ergo videtur, cum adventus furis in nocte sit omnino incertus, quod
+              dies ultimi judicii sit omnino incertus.</p>
+          </div>
+          <div xml:id="ta-l4d47q1-Dd1e245">
+            <head xml:id="ta-l4d47q1-Hd1e247">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d47q1-d1e250">Respondeo dicendum ad primam quaestionem, quod sicut operatio pertinet ad rerum
+              principium quo producuntur in esse, ita judicium pertinet ad terminum, quo res ad suum
+              finem perducuntur. Distinguitur autem duplex Dei operatio. Una qua res primitus in
+              esse producit, instituens naturam, et distinguens ea quae ad completionem ipsius
+              pertinent: a quo quidem opere Deus dicitur quievisse Genes. 1. Alia ejus operatio est
+              qua operatur in gubernatione creaturarum, de qua Joan. 5, 17: <quote xml:id="ta-l4d47q1-Qd1e252">pater meus usque
+                modo operatur, et ego operor</quote>; ita etiam duplex judicium distinguitur, ordine
+              tamen converso. Unum quod respondet operi gubernationis, quae sine judicio esse non
+              potest: per quod quidem judicium unusquisque singulariter pro suis operibus judicatur
+              non solum secundum quod sibi competit, sed secundum quod competit gubernationi
+              universi; unde differtur unius praemiatio pro utilitate aliorum, ut dicitur Hebr. 11,
+              et poenae unius ad profectum alterius cedunt; unde necesse est ut sit aliquod judicium
+              universale correspondens ex adverso primae rerum productioni in esse, ut videlicet
+              sicut tunc omnia processerunt immediate a Deo, ita tunc ultima completio mundo detur,
+              unoquoque accipiente finaliter quod ei debetur secundum seipsum; unde in illo judicio
+              apparebit manifeste divina justitia quantum ad omnia quae nunc ex hoc occultantur quod
+              interdum de uno disponitur ad utilitatem aliorum aliter quam manifesta opera exigere
+              videantur; unde etiam et tunc erit universalis separatio bonorum a malis, quia
+              ulterius non erit locus ut mali per bonos vel boni per malos proficiant; propter quem
+              profectum interim commixti inveniuntur boni malis, quoadusque status hujus vitae per
+              divinam providentiam gubernatur.</p>
+            <p xml:id="ta-l4d47q1-d1e256">Ad primum ergo dicendum, quod quilibet homo et est singularis quaedam persona, et est
+              pars totius humani generis; unde et duplex ei judicium debetur. Unum singulare, quod
+              de eo fiet post mortem, quando recipiet juxta ea quae in corpore gessit, quamvis non
+              totaliter, quia non quo ad corpus, sed quo ad animam tantum. Aliud judicium debet esse
+              de eo secundum quod est pars totius humani generis; sicut aliquis judicari dicitur
+              secundum humanam justitiam etiam quando judicium datur de communitate, cujus ipse est
+              pars; unde et tunc quando fiet universale judicium totius humani generis per
+              universalem separationem bonorum a malis, etiam quilibet per consequens judicabitur.
+              Nec tamen Deus bis judicat in idipsum: quia non duas poenas pro uno peccato infert;
+              sed poena quae ante judicium complete inflicta non fuerat, in ultimo judicio
+              complebitur, post quod impii cruciabuntur quo ad corpus et animam simul.</p>
+            <p xml:id="ta-l4d47q1-d1e259">Ad secundum dicendum, quod propria sententia illius generalis judicii est universalis
+              separatio bonorum a malis, quae illud judicium non praecedet. Sed nec etiam quo ad
+              particularem sententiam uniuscujusque plene praecessit judicii effectus: quia etiam
+              boni amplius post judicium praemiabuntur, tum ex gloria corporis adjuncta, tum ex
+              numero sanctorum completo; et mali etiam amplius torquebuntur adjuncta poena corporis,
+              et impleto in poenis numero damnatorum: quia quanto cum pluribus ardebunt, tanto plus
+              ardebunt.</p>
+            <p xml:id="ta-l4d47q1-d1e262">Ad tertium dicendum, quod universale judicium, ut dictum est, magis directe respicit
+              utilitatem hominum quam singulos judicandorum. Quamvis ergo cuilibet homini ante
+              judicium sit certa notitia de sua damnatione vel praemio; non tamen omnibus omnium
+              damnatio vel praemium innotescet; unde judicium necessarium erit.</p>
+
+          </div>
+          <div xml:id="ta-l4d47q1-Dd1e266">
+            <head xml:id="ta-l4d47q1-Hd1e268">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d47q1-d1e271">Ad secundam quaestionem dicendum, quod quid sit verum circa hanc quaestionem,
+              definiri pro certo non potest; tamen probabilius aestimatur quod totum illud judicium,
+              et quo ad discussionem, et quo ad accusationem malorum et commendationem bonorum, et
+              quo ad sententiam de utrisque, mentaliter perficietur. Si enim vocaliter singulorum
+              facta narrarentur, inaestimabilis magnitudo temporis ad hoc exigeretur; sicut etiam
+              Augustinus, 20 de Civ. Dei, dicit, quod si liber ex cujus Scriptura omnes
+              judicabuntur, ut dicitur Apoc. 9, carnaliter cogitetur, quis ejus magnitudinem aut
+              longitudinem valeat aestimare? Aut quanto tempore legi poterit liber, in quo scriptae
+              sunt universae vitae universorum? Non autem minus tempus requiritur ad narrandum
+              oretenus singulorum facta, quam ad legendum, si essent in libro materiali scripta.
+              Unde probabile est quod illa quae dicuntur Matth. 25, non vocaliter, sed mentaliter,
+              intelligenda sint esse perficienda.</p>
+            <p xml:id="ta-l4d47q1-d1e274">Ad primum ergo dicendum, quod pro tanto dicit Augustinus quod incertum est per quot
+              dies hoc judicium tendatur, quia non est determinatum utrum perficiatur vocaliter. Si
+              enim vocaliter perficeretur, prolixum tempus ad hoc requireretur; si autem mentaliter,
+              in momento fieri poterit.</p>
+            <p xml:id="ta-l4d47q1-d1e277">Ad secundum dicendum, quod etiam si judicium fiat mentaliter tamen verbum Gregorii
+              salvari potest: quia etsi omnibus innotescent sua et aliorum facta, divina virtute hoc
+              faciente, quae in Evangelio locutio dicitur; tamen illi qui fidem habuerunt, quam ex
+              verbis Dei conceperunt, ex ipsis verbis judicabuntur: quia, ut dicitur Rom. 2, 12,
+                <quote xml:id="ta-l4d47q1-Qd1e279" ana="#rom2_12">qui in lege peccaverunt, per legem judicabuntur</quote>. Unde et quodam
+              speciali modo dicetur aliquid his qui fuerunt fideles quod non dicetur his qui fuerunt
+              infideles.</p>
+            <p xml:id="ta-l4d47q1-d1e283">Ad tertium dicendum, quod Christus corporaliter apparebit, ut ab omnibus judex
+              corporalis cognoscatur; quod quidem subito fieri poterit. Sed locutio quae tempore
+              mensuratur requireret immensam temporis prolixitatem, si vocali locutione judicium
+              perageretur.</p>
+
+          </div>
+          <div xml:id="ta-l4d47q1-Dd1e287">
+            <head xml:id="ta-l4d47q1-Hd1e289">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d47q1-d1e292">Ad tertiam quaestionem dicendum, quod Deus per scientiam suam est causa rerum.
+              Utrumque autem creaturis communicat, dum et rebus tribuit virtutem agendi alias res
+              quarum sint causa, et quibusdam etiam rerum cognitionem praebet; sed in utroque aliqua
+              sibi reservat. Operatur enim quaedam in quibus nulla creatura ei cooperatur; et
+              similiter cognoscit quaedam quae a nulla pura creatura cognoscuntur. Haec autem nulla
+              alia magis esse debent quam illa quae soli divinae subjacent potestati, in quibus ei
+              nulla creatura cooperatur; et hujusmodi est finis mundi, in quo erit dies judicii. Non
+              enim per aliquam causam creatam mundus finietur, sicut etiam et mundus esse incepit
+              immediate a Deo; unde dicitur, quod cognitio finis mundi soli Deo reservatur. Et hanc
+              rationem ipse dominus videtur assignare Act. 1, 7: <quote xml:id="ta-l4d47q1-Qd1e294">non est</quote>, inquit,
+                <quote xml:id="ta-l4d47q1-Qd1e297">vestrum nosse tempora vel momenta, quae pater posuit in sua
+              potestate</quote>; quasi dicat, quae soli potestati ejus reservata sunt.</p>
+            <p xml:id="ta-l4d47q1-d1e301">Ad primum ergo dicendum, quod in primo adventu Christus venit occultus, secundum
+              illud Isai. 45, 15: <quote xml:id="ta-l4d47q1-Qd1e303">vere tu es Deus absconditus, sanctus Israel
+                salvator</quote>; et ideo ut a fidelibus cognosci posset, oportuit determinate
+              tempus praedeterminare. Sed in secundo adventu veniet manifestus, ut dicitur in Psalm.
+              49, 3: <quote xml:id="ta-l4d47q1-Qd1e306">Deus manifeste veniet</quote> etc.; et ideo circa cognitionem adventus
+              ipsius error esse non poterit: propter quod non est simile.</p>
+            <p xml:id="ta-l4d47q1-d1e310">Ad secundum dicendum, sicut dicit Augustinus in epistola, de die judicii ad
+              Hesychium. Signa quae in Evangeliis ponuntur, non omnia pertinent ad secundum
+              adventum, qui erit in fine; sed quaedam eorum pertinent ad tempus destructionis
+              Hierusalem, quae jam praeteriit; quaedam vero, et plura, eorum pertinent ad adventum
+              quo quotidie ad Ecclesiam suam venit, eam spiritualiter visitans, prout inhabitat nos
+              per fidem et amorem: nec illa quae in Evangeliis vel in epistolis ponuntur ad ultimum
+              adventum spectantia, ad hoc possunt valere ut determinate tempus judicii possit
+              cognosci; quia illa pericula quae praenuntiantur nuntiantia vicinum Christi adventum,
+              etiam a tempore primitivae Ecclesiae fuerunt, quandoque intensius quandoque remissius:
+              unde et ipsi dies apostolorum dicti sunt novissimi dies, ut patet Act. 2, 17: ubi
+              Petrus exponit illud verbum Joel. 2, 28: <quote xml:id="ta-l4d47q1-Qd1e312">erit in novissimis diebus, effundam
+                spiritum meum super omnem carnem, et prophetabunt filii vestri et filiae
+                vestrae</quote>, pro tempore illo; et tamen ex illo tempore tempus plurimum
+              transivit; et quandoque plures, et quandoque pauciores tribulationes in Ecclesia
+              fuerunt. Unde non potest determinari tempus quantum sit futurum, nec de mense, nec de
+              anno, nec de centum, nec de mille annis, ut Augustinus in eodem libro dicit. Et si
+              credatur in fine hujusmodi pericula magis abundare, non tamen potest determinari quae
+              sit illa quantitas periculorum quae immediate diem judicii praecedet, vel Antichristi
+              adventum; cum et circa tempora primitivae Ecclesiae fuerint persecutiones aliquae adeo
+              graves, et corruptiones errorum adeo abundarent, quod aliquibus tunc vicinus
+              expectaretur vel imminens Antichristi adventus, sicut dicitur in ecclesiastica
+              historia, et in Lib. Hieronymi de viris illustribus.</p>
+            <p xml:id="ta-l4d47q1-d1e316">Ad tertium dicendum, quod ex hoc quod dicitur, <quote xml:id="ta-l4d47q1-Qd1e318">novissima hora est</quote>, vel
+              ex similibus locutionibus quae in Scriptura dicuntur, non potest aliqua determinata
+              quantitas temporis sciri. Non enim est dictum ad significandum aliquam brevem horam
+              temporis, sed ad significandum novissimum statum mundi, qui est quasi novissima aetas;
+              quae quanto temporis spatio duret, non est definitum; cum etiam nec senio, quod est
+              ultima aetas hominis, sit aliquis terminus certus praefinitus, cum quandoque
+              inveniatur durare quantum omnes praecedentes aetates, vel plus, ut dicit Augustinus in
+              Lib. 83 quaest., quaest. 58; unde etiam et apostolus, 2 Thessal. 2, excludit falsum
+              intellectum quem quidam ex illis verbis conceperant, ut crederent diem domini jam
+              instare.</p>
+            <p xml:id="ta-l4d47q1-d1e323">Ad quartum dicendum, quod etiam supposita mortis incertitudine, dupliciter ad
+              vigilantiam valet incertitudo judicii. Primo ad hoc quod ignoratur utrum etiam
+              differatur tantum quantum est hominis vita, ut sic ex duabus partibus incertitudo
+              majorem diligentiam faciat. Secundo quantum ad hoc quod homo non gerit solum
+              solicitudinem de persona sua, sed de familia vel civitate vel regno, aut tota
+              Ecclesia, cui non determinatur tempus durationis secundum hominis vitam; et tamen
+              oportet unumquodque horum hoc modo disponi ut dies domini non inveniat imparatos.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d47q1-Dd1e328" type="articulus">
+          <head xml:id="ta-l4d47q1-Hd1e330">Articulus 2</head>
+
+          <head xml:id="ta-l4d47q1-Hd1e333" type="questionTitle">Utrum aliqui homines judicabunt cum Christo</head>
+
+          <div xml:id="ta-l4d47q1-Dd1e336">
+            <head xml:id="ta-l4d47q1-Hd1e338">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d47q1-d1e341">Ad secundum sic proceditur. Videtur quod nulli homines judicabunt cum Christo. Quia
+              Joan. 5, 22: <quote xml:id="ta-l4d47q1-Qd1e343">pater omne judicium dedit filio, ut omnes honorificent filium,
+                sicut honorificant patrem</quote>. Sed honorificentia talis non debetur alicui quam
+              Christo. Ergo et cetera.</p>
+            <p xml:id="ta-l4d47q1-d1e347">Praeterea, quicumque judicat, habet potestatem super illud quod judicat. Sed ea de
+              quibus debet esse futurum judicium, sicut merita et praemia humana, soli divinae
+              auctoritati subsunt. Ergo nulli competit de his judicare.</p>
+            <p xml:id="ta-l4d47q1-d1e350">Praeterea, judicium illud non exercebitur vocaliter, sed mentaliter, ut probabilius
+              aestimatur. Sed hoc quod cordibus hominum notificentur merita et demerita, quod est
+              quasi accusatio vel commendatio; vel retributio poenae et praemii, quod est quasi
+              sententiae prolatio, sola divina virtute fiet. Ergo nulli alii judicabunt nisi
+              Christus, qui est Deus.</p>
+            <p xml:id="ta-l4d47q1-d1e353">Sed contra est quod dicitur Matth. 19, 28: <quote xml:id="ta-l4d47q1-Qd1e355" ana="#mt19_28">sedebitis super sedes duodecim,
+                judicantes duodecim tribus Israel</quote>.</p>
+            <p xml:id="ta-l4d47q1-d1e360">Praeterea, Isai. 3, 14: <quote xml:id="ta-l4d47q1-Qd1e362" ana="#is3_14">dominus ad judicium veniet cum senioribus populi
+                sui</quote>. Ergo videtur quod etiam alii judicabunt cum Christo.</p>
+
+          </div>
+          <div xml:id="ta-l4d47q1-Dd1e367">
+            <head xml:id="ta-l4d47q1-Hd1e369">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d47q1-d1e372">Ulterius. Videtur quod judiciaria potestas non respondeat voluntariae paupertati. Hoc
+              enim solum duodecim apostolis promissum est Matth. 19, 28: <quote xml:id="ta-l4d47q1-Qd1e374" ana="#mt19_28">sedebitis super
+                sedes duodecim, judicantes duodecim tribus Israel</quote>. Ergo cum non omnes
+              voluntarie pauperes sint apostoli, videtur quod non omnibus judiciaria potestas
+              respondeat.</p>
+            <p xml:id="ta-l4d47q1-d1e378">Praeterea, majus est offerre sacrificium Deo de proprio corpore quam de exterioribus
+              rebus. Sed martyres, et etiam virgines, offerunt de proprio corpore sacrificium Deo,
+              voluntarie autem pauperes de exterioribus rebus. Ergo sublimitas judiciariae
+              potestatis magis respondet martyribus et virginibus quam voluntarie pauperibus.</p>
+            <p xml:id="ta-l4d47q1-d1e381">Praeterea, Joan. 5, 45: <quote xml:id="ta-l4d47q1-Qd1e383" ana="#io5_45">est qui accusat vos Moyses, in quo vos
+                speratis</quote>; Glossa: <quote xml:id="ta-l4d47q1-Qd1e386">quia voci ejus non creditis</quote>; et Joan. 12,
+              48: <quote xml:id="ta-l4d47q1-Qd1e389">sermo quem locutus sum, ille judicabit eum in novissimo die</quote>. Ergo
+              ex hoc quod aliquis proponit legem vel verbum exhortationis ad instructionem morum,
+              habet quod judicet contemnentes. Sed hoc est doctorum. Ergo doctoribus magis competit
+              quam pauperibus.</p>
+            <p xml:id="ta-l4d47q1-d1e393">Praeterea, Christus ex hoc quod injuste judicatus est inquantum homo, meruit ut sit
+              judex omnium in natura humana; unde Joan. 5, 27: <quote xml:id="ta-l4d47q1-Qd1e395" ana="#io5_27">potestatem dedit ei judicium
+                facere, quia filius hominis est</quote>. Sed qui persecutionem patiuntur propter
+              justitiam, injuste judicantur. Ergo judiciaria potestas magis eis quam pauperibus
+              competit.</p>
+            <p xml:id="ta-l4d47q1-d1e400">Praeterea, superior non judicatur ab inferiore. Sed multi licite divitiis utentes,
+              majoris meriti erunt multis voluntarie pauperibus. Ergo voluntarii pauperes non
+              judicabunt, sed ab aliis judicabuntur.</p>
+            <p xml:id="ta-l4d47q1-d1e403">Sed contra, Job 36, 6: <quote xml:id="ta-l4d47q1-Qd1e405" ana="#iob36_6">non salvat impios, et judicium pauperibus
+                tribuit</quote>. Ergo pauperum est judicare.</p>
+            <p xml:id="ta-l4d47q1-d1e409">Praeterea, Matth. 19, super illud: <quote xml:id="ta-l4d47q1-Qd1e411">vos qui reliquistis omnia</quote> etc.;
+              dicit Glossa: <quote xml:id="ta-l4d47q1-Qd1e414">qui reliquerunt omnia, et secuti sunt dominum, hi judices erunt:
+                qui licita habentes, recte usi sunt, judicabuntur</quote>; et sic idem quod
+              prius.</p>
+
+          </div>
+          <div xml:id="ta-l4d47q1-Dd1e419">
+            <head xml:id="ta-l4d47q1-Hd1e421">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d47q1-d1e424">Ulterius. Videtur quod Angeli debeant judicare. Matth. 25, 31: <quote xml:id="ta-l4d47q1-Qd1e426" ana="#mt25_31">cum venerit
+                filius in majestate sua; et omnes Angeli cum eo</quote>. Sed loquitur de adventu ad
+              judicium. Ergo videtur quod etiam Angeli judicabunt.</p>
+            <p xml:id="ta-l4d47q1-d1e430">Praeterea, Angelorum ordines nomina sortiuntur ex officio quod exercent. Sed quidam
+              Angelorum ordo est ordo thronorum, quod videtur pertinere ad judiciariam potestatem:
+              thronum enim est sedes judicis, solium regis, cathedra doctoris. Ergo aliqui Angeli
+              judicabunt.</p>
+            <p xml:id="ta-l4d47q1-d1e433">Praeterea, sanctis post hanc vitam promittitur Angelorum aequalitas Matth. 22. Si
+              ergo homines hanc habebunt potestatem, ut judicent, multo fortius et Angeli.</p>
+            <p xml:id="ta-l4d47q1-d1e436">Sed contra, Joan. 5, 27: <quote xml:id="ta-l4d47q1-Qd1e438" ana="#io5_27">potestatem dedit ei judicium facere, quia filius
+                hominis est</quote>. Sed Angeli non communicant in humana natura. Ergo nec in
+              judiciaria potestate.</p>
+            <p xml:id="ta-l4d47q1-d1e443">Praeterea, non est ejusdem judicare et esse judicis ministrum. Sed Angeli erunt in
+              judicio illo ut ministri judicis. Matth. 13, 41: <quote xml:id="ta-l4d47q1-Qd1e445" ana="#mt13_41">mittet filius hominis Angelos
+                suos, et colligent de regno ejus omnia scandala</quote>. Ergo Angeli non
+              judicabunt.</p>
+          </div>
+          <div xml:id="ta-l4d47q1-Dd1e451">
+            <head xml:id="ta-l4d47q1-Hd1e453">Quaestiuncula 4</head>
+            <p xml:id="ta-l4d47q1-d1e456">Ulterius. Videtur quod post diem judicii Daemones non exequantur sententiam judicis
+              in damnatis. Quia Daemones magis peccaverunt quam homines. Ergo non est justum quod
+              homines per Daemones torqueantur.</p>
+            <p xml:id="ta-l4d47q1-d1e459">Praeterea, sicut Daemones suggerunt hominibus mala, ita Angeli suggerunt bona. Sed
+              praemiare bonos non erit officium Angelorum; sed hoc erit ab ipso Deo immediate. Ergo
+              nec punire malos erit officium Daemonum.</p>
+            <p xml:id="ta-l4d47q1-d1e462">Sed contra est quod homines peccatores se Diabolo subjecerunt peccando. Ergo justum
+              est ut ei subjiciantur in poenis, quasi ab eo puniendi.</p>
+          </div>
+          <div xml:id="ta-l4d47q1-Dd1e466">
+            <head xml:id="ta-l4d47q1-Hd1e468">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d47q1-d1e471">Respondeo dicendum ad primam quaestionem, quod judicare multipliciter dicitur. Uno
+              modo causaliter, ut dicatur illud judicare unde apparet aliquis judicandus; et
+              secundum hoc aliqui dicuntur judicare comparatione, inquantum ex comparatione aliorum
+              aliqui judicandi ostenduntur, sicut patet Matth. 12, 41: <quote xml:id="ta-l4d47q1-Qd1e473" ana="#mt12_41">viri Ninivitae surgent
+                in judicio cum generatione ista, et condemnabunt eam</quote>. Sed sic judicare in
+              judicio, communiter bonorum et malorum est. Alio modo dicitur judicare, quasi
+              interpretative: interpretamur enim aliquem facere qui facienti consentit; unde illi
+              qui consentient Christo judici, ejus sententiam approbando, judicare dicuntur; et sic
+              judicare est omnium electorum; unde dicitur Sap. 3, 8: <quote xml:id="ta-l4d47q1-Qd1e476" ana="#sap3_8">judicabunt</quote>
+              sancti <quote xml:id="ta-l4d47q1-Qd1e479">nationes</quote>. Tertio modo dicitur judicare quasi per similitudinem,
+              quia scilicet similitudinem judicis habet, inquantum sedet in loco eminenti sicut
+              judex; sicut assessores judicare dicuntur; et secundum hunc modum dicunt quidam, quod
+              perfecti viri, quibus judiciaria potestas promittitur Matth. 19, judicabunt, scilicet
+              per honorabilem confessionem, quia superiores ceteris in judicio apparebunt,
+              occurrentes Christo obviam in aera. Sed istud non videtur sufficere ad promissionem
+              domini complendam, qua dicitur, <quote xml:id="ta-l4d47q1-Qd1e482">sedebitis judicantes</quote>; videtur enim
+              judicium confessioni superaddere. Et ideo est quartus modus judicandi, qui perfectis
+              viris conveniet, inquantum continentur in eis decreta divinae justitiae, ex quibus
+              homines judicabuntur; sicut si liber in quo continetur lex, judicare dicatur; unde
+              Apoc. 20, <quote xml:id="ta-l4d47q1-Qd1e485">judicium sedit, et libri aperti sunt</quote>. Et per hunc modum hanc
+              judicationem Richardus de sancto Victore exponit; unde dicit, quod <quote xml:id="ta-l4d47q1-Qd1e489">qui divinae
+                contemplationi assistunt, qui in libro sapientiae quotidie legunt, velut in cordium
+                voluminibus transcribunt quidquid jam perspicua veritatis intelligentia
+                comprehendunt</quote>; et infra: <quote xml:id="ta-l4d47q1-Qd1e492">quid vero sunt judicantium corda divinitus
+                in omnem veritatem edocta, nisi quaedam canonum decreta?</quote> Sed quia judicare
+              importat actionem in alium procedentem, ideo proprie loquendo judicare dicitur qui
+              sententiam loquendo in alterum fert. Sed hoc dupliciter contingit. Uno modo ex propria
+              auctoritate; et hoc est illius proprie qui habet in alios dominium et potestatem,
+              cujus regimini subduntur qui judicantur, unde ejus est in eos jus ferre; et sic
+              judicare solius Dei est. Alio modo judicare est, sententiam alterius auctoritate latam
+              in aliorum notitiam ducere, quod est sententiam latam pronuntiare; et hoc modo
+              perfecti viri judicabunt: quia alios ducent in cognitionem divinae justitiae, ut
+              sciant quid eis juste pro meritis debeatur, ut ipsa revelatio justitiae judicium
+              dicatur. Unde dicit Richardus de sancto Victore: <quote xml:id="ta-l4d47q1-Qd1e495">judices coram judicandis
+                decretorum suorum libros aperire, est ad cordium suorum inspectionem inferiorum
+                quorumlibet visum admittere, sensumque suum in his quae ad judicium pertinent,
+                revelare</quote>.</p>
+            <p xml:id="ta-l4d47q1-d1e499">Ad primum ergo dicendum, quod objectio illa procedit de judicio auctoritatis, quod
+              soli Christo conveniet.</p>
+            <p xml:id="ta-l4d47q1-d1e502">Et similiter dicendum ad secundum.</p>
+            <p xml:id="ta-l4d47q1-d1e505">Ad tertium dicendum, quod non est inconveniens aliquos sanctorum aliis quaedam
+              revelare, vel per modum illuminationis, sicut superiores Angeli inferiores illuminant;
+              vel per modum locutionis, sicut quando inferiores superioribus loquuntur.</p>
+
+          </div>
+          <div xml:id="ta-l4d47q1-Dd1e509">
+            <head xml:id="ta-l4d47q1-Hd1e511">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d47q1-d1e514">Ad secundam quaestionem dicendum, quod paupertati debetur judiciaria potestas
+              specialiter propter tria. Primo ratione congruitatis: quia voluntaria paupertas est
+              eorum qui omnibus quae mundi sunt contemptis, soli Christo inhaerent; et ideo non est
+              eis aliquid quod eorum judicium a justitia deflectat; unde idonei ad judicandum
+              redduntur, quasi veritatem justitiae prae omnibus diligentes. Secundo per modum
+              meriti; quia humilitati respondet exaltatio pro merito. Inter omnia autem quae hominem
+              in hoc mundo despectum faciunt, praecipuum est paupertas; unde et pauperibus
+              excellentia judiciariae potestatis promittitur, ut sic qui se propter Christum
+              humiliat, exaltetur. Tertio, quia paupertas disponit ad praedictum modum judicandi. Ex
+              hoc enim aliquis sanctorum judicare dicetur, ut ex praedictis patet, quod cor habebit
+              edoctum omni divina veritate, quam aliis potens erit manifestare. In progressu autem
+              ad perfectionem, primum quod relinquendum occurrit, sunt exteriores divitiae, quia
+              haec sunt ultimo acquisita; quod autem est ultimum in generatione, est primum in
+              destructione; unde et inter beatitudines, quibus est progressus ad perfectionem, prima
+              ponitur paupertas. Et sic paupertati respondet judiciaria potestas, inquantum est
+              prima dispositio ad potestatem praedictam. Et hinc est quod non quibuscumque
+              pauperibus, etiam voluntarie, repromittitur potestas praedicta, sed illis qui
+              relinquentes omnia sequuntur Christum secundum perfectionem vitae.</p>
+            <p xml:id="ta-l4d47q1-d1e517">Ad primum ergo dicendum, quod, sicut dicit Augustinus, 21 de Civ. Dei, <quote xml:id="ta-l4d47q1-Qd1e519">nec
+                quoniam super duodecim sedes sessuros esse ait, duodecim solos homines cum illo
+                judicaturos putare debemus; alioquin quoniam in locum Judae traditoris apostolum
+                Mathiam legimus ordinatum, Paulus, qui plus aliis laboravit, ubi ad judicandum
+                sedeat, non habebit. Unde duodenario numero significata est universa judicantium
+                multitudo propter duas partes septenarii, scilicet tria et quatuor, quae in se
+                ductae duodenarium faciunt</quote>. Septenarius autem est numerus perfectionis, vel
+              propter hoc quod constat ex duplici senario qui est numerus perfectus, vel quia ad
+              litteram duodecim apostolis loquebatur, in quorum persona hoc omnibus eorum
+              sectatoribus promittebat.</p>
+            <p xml:id="ta-l4d47q1-d1e523">Ad secundum dicendum, quod virginitas et martyrium non ita disponunt ad retinendum in
+              corde decreta divinae justitiae sicut paupertas; sicut e contrario exteriores divitiae
+              ex sua solicitudine suffocant verbum Dei, ut dicitur Luc. 8. Vel dicendum, quod
+              paupertas non solum sufficit ad meritum judiciariae potestatis; sed quia est prima
+              pars perfectionis, cui respondet judiciaria potestas; unde inter ea quae sequuntur ad
+              paupertatem, ad perfectionem spectantia, possunt computari et virginitas et martyrium,
+              et omnia perfectionis opera: non tamen sunt ita principalia sicut paupertas; quia
+              principium est maxima pars rei.</p>
+            <p xml:id="ta-l4d47q1-d1e526">Ad tertium dicendum, quod ille qui legem proposuit, aut exhortatus est ad bonum;
+              judicabit causaliter loquendo: quia per comparationem ad verba ab ipso proposita
+              aliqui judicabuntur; et ideo non respondet proprie potestas judiciaria praedicationi
+              vel doctrinae. Vel dicendum, secundum quosdam, quod tria requiruntur ad judiciariam
+              potestatem. Primo abdicatio temporalium curarum, ne impediatur animus a sapientiae
+              perceptione. Secundo requiritur habitus continens divinam justitiam scitam et
+              observatam. Tertio, quod illam justitiam alios docuerit; et sic doctrina erit complens
+              meritum judiciariae potestatis.</p>
+            <p xml:id="ta-l4d47q1-d1e530">Ad quartum dicendum, quod Christus in hoc quod est injuste judicatus, seipsum
+              humiliavit: oblatus est enim quia voluit; et meritum humilitatis est judiciaria
+              exaltatio, qua ei omnia subduntur, ut dicitur Philip. 2. Et ideo magis debetur
+              judiciaria potestas illis qui voluntarie se humiliant bona temporalia abjiciendo,
+              propter quae homines a mundanis honorantur, quam his qui ab aliis humiliantur.</p>
+            <p xml:id="ta-l4d47q1-d1e533">Ad quintum dicendum, quod inferior non potest judicare superiorem auctoritate
+              propria; sed tamen auctoritate superioris potest; sicut patet in judicibus delegatis;
+              et ideo non est inconveniens, si hoc quasi accidentale praemium pauperibus detur, ut
+              judicent alios, etiam qui sunt excellentioris meriti respectu praemii essentialis.</p>
+
+          </div>
+          <div xml:id="ta-l4d47q1-Dd1e537">
+            <head xml:id="ta-l4d47q1-Hd1e539">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d47q1-d1e542">Ad tertiam quaestionem dicendum, quod assessores judicis debent esse judici
+              proportionales vel conformes. Judicium autem filio attribuitur, quia secundum humanam
+              naturam omnibus apparebit, tam bonis quam malis, quamvis tota Trinitas judicet per
+              auctoritatem; et ideo etiam oportet ut assessores judicis humanam naturam habeant, in
+              qua possint ab omnibus bonis et malis videri; et sic Angelis non competit judicare;
+              quamvis etiam Angeli aliquo modo possint dici judicare, scilicet per sententiae
+              approbationem.</p>
+            <p xml:id="ta-l4d47q1-d1e545">Ad primum ergo dicendum, quod sicut ex Glossa ibidem patet, Angeli cum Christo
+              venient, non ut judices, sed ut sint testes humanorum actuum, sub quorum custodia
+              homines bene vel male egerunt.</p>
+            <p xml:id="ta-l4d47q1-d1e548">Ad secundum dicendum, quod nomen throni attribuitur Angelis ratione illius judicii
+              quod Deus semper exercet, omnia justissime gubernando; cujus judicii Angeli sunt
+              quodammodo executores et promulgatores. Sed judicium quod de omnibus per hominem
+              Christum fiet, etiam requirit homines assessores.</p>
+            <p xml:id="ta-l4d47q1-d1e551">Ad tertium dicendum, quod hominibus promittitur Angelorum aequalitas quantum ad
+              praemium essentiale. Nihil tamen prohibet aliquod accidentale praemium hominibus
+              exhiberi quod Angelis non dabitur, ut patet de aureola virginum aut martyrum; et
+              similiter potest dici de judiciaria potestate.</p>
+
+          </div>
+          <div xml:id="ta-l4d47q1-Dd1e555">
+            <head xml:id="ta-l4d47q1-Hd1e557">Quaestiuncula 4</head>
+            <p xml:id="ta-l4d47q1-d1e560">Ad quartam quaestionem dicendum, quod circa hoc tangitur a Magistro in littera duplex
+              opinio; et utraque Dei justitiae videtur competere. Ex hoc enim quod homo peccat,
+              juste Daemoni subjicitur, sed Daemon injuste ei praeest. Opinio ergo illa quae ponit
+              Daemones in futurum post diem judicii hominibus non praeesse in poenis, respicit
+              ordinem divinae justitiae ex parte Daemonum punientium; contraria vero opinio respicit
+              ordinem divinae justitiae ex parte hominum punitorum. Quae autem harum verior sit,
+              certum nobis esse non potest. Verius autem aestimo, quod sicut servabitur ordo in
+              salvatis, quod quidam a quibusdam illuminabuntur et perficientur; eo quod caelestis
+              hierarchiae ordines perpetui erunt; ita salvabitur ordo in poenis, ut homines per
+              Daemones puniantur, ne totaliter ordo divinus quo Angelos medios inter naturam divinam
+              et humanam constituit, annulletur. Et ideo sicut hominibus per Angelos divinae
+              illuminationis deferuntur, ita etiam Daemones sunt executores divinae justitiae in
+              malos. Nec in hoc aliquid minuetur de Daemonum poena; quia in hoc quod etiam alios
+              torquent, ipsi torquebuntur. Ibi enim miserorum societas miseriam non minuet, sed
+              augebit.</p>
+            <p xml:id="ta-l4d47q1-d1e563">Ad primum ergo dicendum, quod praelatio illa quae dicitur evacuanda per Christum in
+              futuro, est accipienda secundum modum praelationis quae est secundum statum hujus
+              mundi, in quo et homines hominibus principantur, et Angeli hominibus, et Angeli
+              Angelis, et Daemones Daemonibus, et Daemones hominibus; et hoc totum ad perducendum ad
+              finem, vel abducendum a fine. Tunc autem cum omnia ad finem suum pervenerint, non erit
+              praelatio adducens ad finem, sed conservans in fine boni vel mali.</p>
+            <p xml:id="ta-l4d47q1-d1e566">Ad secundum dicendum, quod quamvis meritum Daemonum non requirat ut hominibus
+              praeferantur, quia injuste sibi homines subjecerunt; tamen hoc requirit ordo naturae
+              ipsorum ad naturam humanam; bona enim naturalia in eis integra manent, ut Dionysius
+              dicit, 4 cap. de Div. Nomin.</p>
+            <p xml:id="ta-l4d47q1-d1e569">Ad tertium dicendum, quod Angeli boni non sunt causa principalis praemii electis;
+              quia hoc omnes immediate a Deo percipient; sed tamen quorumdam accidentalium
+              praemiorum Angeli hominibus sunt causa; inquantum per superiores Angelos, inferiores
+              et Angeli et homines illuminantur de aliquibus secretis divinorum quae ad substantiam
+              beatitudinis non pertinent. Et similiter etiam principalem poenam damnati percipient
+              immediate a Deo, scilicet exclusionem perpetuam a visione divina; alias autem poenas
+              sensibiles non est inconveniens hominibus per Daemones infligi. In hoc tamen est
+              differentia, quia meritum exaltat, sed peccatum deprimit; unde cum natura angelica sit
+              altior quam humana, quidam propter excellentiam meriti intantum exaltabuntur, quod
+              talis exaltatio excedet altitudinem naturae et praemii in quibusdam Angelis; unde
+              etiam quidam Angeli per quosdam homines illuminabuntur; sed nulli homines peccatores
+              propter aliquem gradum malitiae venient ad illam eminentiam quae debetur naturae
+              Daemonum.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d47q1-Dd1e574" type="articulus">
+          <head xml:id="ta-l4d47q1-Hd1e576">Articulus 3</head>
+
+          <head xml:id="ta-l4d47q1-Hd1e579" type="questionTitle">Utrum omnes homines in judicio compareant</head>
+
+          <div xml:id="ta-l4d47q1-Dd1e582">
+            <head xml:id="ta-l4d47q1-Hd1e584">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d47q1-d1e587">Ad tertium sic proceditur. Videtur quod non omnes homines in judicio compareant. Quia
+              dicitur Matth. 19, 28: <quote xml:id="ta-l4d47q1-Qd1e589" ana="#mt19_28">sedebitis super sedes, judicantes duodecim tribus
+                Israel</quote>. Sed non omnes homines pertinent ad illas duodecim tribus. Ergo
+              videtur quod non omnes homines compareant.</p>
+            <p xml:id="ta-l4d47q1-d1e593">Praeterea, idem videtur per hoc quod dicitur in Psal. 1, 6: <quote xml:id="ta-l4d47q1-Qd1e595">non resurgent
+                impii in judicio</quote>. Sed multi hominum sunt tales. Ergo in judicio non
+              comparebunt.</p>
+            <p xml:id="ta-l4d47q1-d1e599">Praeterea, ad hoc aliquis ad judicium adducitur, ut ejus merita discutiantur. Sed
+              quidam sunt qui nulla merita habuerunt, sicut pueri ante perfectam aetatem decedentes.
+              Ergo illos in judicio comparere non est necesse.</p>
+            <p xml:id="ta-l4d47q1-d1e602">Sed contra est quod dicitur actuum 10, quod Christus <quote xml:id="ta-l4d47q1-Qd1e604">est constitutus a Deo
+                judex vivorum et mortuorum</quote>. Sed sub istis differentiis comprehenduntur omnes
+              homines, qualitercumque vivi a mortuis distinguantur. Ergo omnes homines in judicio
+              comparebunt.</p>
+            <p xml:id="ta-l4d47q1-d1e609">Praeterea, Apoc. 1, 7, dicitur: <quote xml:id="ta-l4d47q1-Qd1e611">ecce venit cum nubibus, et videbit eum omnis
+                oculus</quote>. Hoc autem non esset, si non omnes homines in judicio comparerent.
+              Ergo et cetera.</p>
+
+          </div>
+          <div xml:id="ta-l4d47q1-Dd1e616">
+            <head xml:id="ta-l4d47q1-Hd1e618">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d47q1-d1e621">Ulterius. Videtur quod nulli boni in judicio judicentur. Quia Joan. 3, 18: <quote xml:id="ta-l4d47q1-Qd1e623">qui
+                credit in eum, non judicabitur</quote>. Sed omnes boni crediderunt in eum. Ergo non
+              judicabuntur.</p>
+            <p xml:id="ta-l4d47q1-d1e627">Praeterea, illi non sunt beati quibus est incerta sua beatitudo: ex quo Augustinus
+              probat, Daemones nunquam fuisse beatos. Sed sancti homines nunc sunt beati. Ergo certi
+              sunt de sua beatitudine. Sed quod est certum, non adducitur in judicium. Ergo boni non
+              judicabuntur.</p>
+            <p xml:id="ta-l4d47q1-d1e630">Praeterea, timor beatitudini repugnat. Sed extremum judicium, quod tremendum maxime
+              dicitur, non poterit fieri sine timore eorum qui sunt judicandi; unde etiam Gregorius
+              dicit, super illud Job 41: <quote xml:id="ta-l4d47q1-Qd1e632">cum sublatus fuerit, timebunt Angeli: consideremus
+                quomodo tunc iniquorum conscientia concutitur, quando etiam justorum vita
+                turbatur</quote>. Ergo beati non judicabuntur.</p>
+            <p xml:id="ta-l4d47q1-d1e636">Sed contra, videtur quod omnes boni judicentur. Quia dicitur 2 Corinth. 5, 10:
+                <quote xml:id="ta-l4d47q1-Qd1e638">omnes astabimus ante tribunal Christi, ut referat unusquisque propria
+                corporis quae gessit, sive bona, sive mala</quote>. Sed non est aliud judicari. Ergo
+              omnes judicabuntur.</p>
+            <p xml:id="ta-l4d47q1-d1e643">Praeterea, universale omnia comprehendit. Sed illud judicium dicitur universale. Ergo
+              omnes judicabuntur.</p>
+
+          </div>
+          <div xml:id="ta-l4d47q1-Dd1e647">
+            <head xml:id="ta-l4d47q1-Hd1e649">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d47q1-d1e652">Ulterius. Videtur quod nulli mali judicabuntur. Sicut enim est certa infidelium
+              damnatio, ita et eorum qui in mortali decedunt. Sed propter damnationis certitudinem,
+              dicitur Joan. 3, 18: <quote xml:id="ta-l4d47q1-Qd1e654">qui non credit, jam judicatus est</quote>. Ergo eadem
+              ratione nec alii peccatores judicabuntur.</p>
+            <p xml:id="ta-l4d47q1-d1e658">Praeterea, vox judicis est valde terribilis eis qui per judicium condemnantur. Sed,
+              sicut in littera ex verbis Gregorii habetur, ad infideles allocutio judicis non fiet.
+              Si ergo fieret ad fideles damnandos, infideles de sua infidelitate commodum
+              reportarent; quod est absurdum.</p>
+            <p xml:id="ta-l4d47q1-d1e661">Sed contra, videtur quod omnes mali sint judicandi. Quia omnibus malis infligetur
+              poena secundum quantitatem culpae. Sed hoc sine definitione judicii esse non potest.
+              Ergo omnes mali judicabuntur.</p>
+
+          </div>
+          <div xml:id="ta-l4d47q1-Dd1e666">
+            <head xml:id="ta-l4d47q1-Hd1e668">Quaestiuncula 4</head>
+            <p xml:id="ta-l4d47q1-d1e671">Ulterius. Videtur quod Angeli in futuro judicentur. Quia dicitur 1 Corinth. 6, 3:
+                <quote xml:id="ta-l4d47q1-Qd1e673">nescitis quoniam Angelos judicabimus?</quote> Sed hoc non potest referri ad
+              statum praesentis temporis. Ergo hoc referri debet ad futurum judicium.</p>
+            <p xml:id="ta-l4d47q1-d1e677">Praeterea, Job 40, 28, dicitur de Behemoth, per quem Diabolus intelligitur:
+                <quote xml:id="ta-l4d47q1-Qd1e679">cunctis videntibus praecipitabitur</quote>; et Marc. 1, 24, exclamavit Daemon
+              ad Christum: <quote xml:id="ta-l4d47q1-Qd1e682">venisti ante tempus perdere nos</quote>; et Glossa dicit ibidem,
+              quod Daemones in terra dominum cernentes, se continuo judicandos credebant. Ergo
+              videtur quod eis finale judicium reservatur.</p>
+            <p xml:id="ta-l4d47q1-d1e686">Praeterea, 2 Petri 2, 4, dicitur: <quote xml:id="ta-l4d47q1-Qd1e688">Deus Angelis peccantibus non pepercit, sed
+                rudentibus Inferni detractos in Tartarum tradidit cruciandos in judicium
+                reservari</quote>. Ergo videtur quod Angeli judicabuntur.</p>
+            <p xml:id="ta-l4d47q1-d1e692">Sed contra, Deus non judicat bis in idipsum. Sed mali Angeli jam judicati sunt; unde
+              Joan. 16, 11: <quote xml:id="ta-l4d47q1-Qd1e694">princeps mundi jam judicatus est</quote>. Ergo in futuro Angeli
+              non judicabuntur.</p>
+            <p xml:id="ta-l4d47q1-d1e699">Praeterea, perfectior est bonitas vel malitia Angelorum quam aliquorum hominum in
+              statu viae. Sed quidam homines boni et mali non judicabuntur, ut in littera dicitur.
+              Ergo Angeli boni vel mali non judicabuntur.</p>
+          </div>
+          <div xml:id="ta-l4d47q1-Dd1e703">
+            <head xml:id="ta-l4d47q1-Hd1e705">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d47q1-d1e708">Respondeo dicendum ad primam quaestionem, quod potestas judiciaria Christo homini
+              collata est in praemium humilitatis quam in passione exhibuit. Ipse autem sua passione
+              sanguinem pro omnibus fudit quantum ad sufficientiam, licet non in omnibus effectum
+              habuit propter impedimentum in aliquibus inventum. Et ideo congruum est ut omnes
+              homines in judicio congregentur ad videndum ejus exaltationem in humana natura,
+              secundum quam constitutus est a Deo judex vivorum et mortuorum.</p>
+            <p xml:id="ta-l4d47q1-d1e711">Ad primum ergo dicendum, quod sicut dicit Augustinus, 20 de Civ. Dei, <quote xml:id="ta-l4d47q1-Qd1e713">non quia
+                dictum est, judicantes duodecim tribus Israel, tribus levi, quae tertiadecima est,
+                judicanda non erit, aut solum illum populum, non etiam gentes ceteras
+                judicabunt</quote>. Ideo autem per duodecim tribus omnes aliae gentes significatae
+              sunt, quia per Christum in sortem duodecim tribuum omnes gentes sunt vocatae.</p>
+            <p xml:id="ta-l4d47q1-d1e717">Ad secundum dicendum, quod hoc quod dicitur: <quote xml:id="ta-l4d47q1-Qd1e719">non resurgent impii in
+                judicio</quote>, si referatur ad omnes peccatores, sic intelligendum est, quod non
+              resurgent ad hoc quod judicent. Si autem impii dicantur infideles; sic intelligendum
+              est quod non resurgent ad hoc quod judicentur, quia jam judicati sunt; sed omnes
+              resurgent, ut in judicio compareant ad gloriam judicis intuendam.</p>
+            <p xml:id="ta-l4d47q1-d1e723">Ad tertium dicendum, quod etiam pueri ante perfectam aetatem decedentes in judicio
+              comparebunt; non autem ut judicentur, sed ut videant gloriam judicis.</p>
+
+          </div>
+          <div xml:id="ta-l4d47q1-Dd1e727">
+            <head xml:id="ta-l4d47q1-Hd1e729">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d47q1-d1e732">Ad secundam quaestionem dicendum, quod ad judicium duo pertinent: scilicet discussio
+              meritorum, et retributio praemiorum. Quantum ergo ad receptionem praemiorum, omnes
+              judicabuntur, etiam boni, in eo quod unusquisque recipiet ex divina sententia praemium
+              merito respondens. Sed discussio meritorum non fit nisi ubi est quaedam meritorum
+              commixtio bonorum cum malis. Illi autem qui aedificant super fundamentum fidei aurum
+              et argentum et lapides pretiosos, divinis servitiis totaliter insistentes; quia nullam
+              admixtionem notabilem alicujus mali meriti habent, in eis discussio meritorum locum
+              non habet; sicut illi qui rebus mundi penitus abjectis solicite cogitant solummodo
+              quae sunt Dei; et ideo salvabuntur, sed non judicabuntur. Illi vero qui aedificant
+              super fundamentum fidei lignum et fenum et stipulam, qui adhuc scilicet amant
+              saecularia, et terrenis negotiis implicantur, ita tamen quod nihil Christo praeponant,
+              sed studeant peccata eleemosynis expiare; habent quamdam commixtionem bonorum
+              meritorum cum malis; et ideo discussio meritorum in eis locum habet; unde tales
+              quantum ad hoc judicantur, et tamen salvabuntur.</p>
+            <p xml:id="ta-l4d47q1-d1e735">Ad primum ergo dicendum, quod quia punitio est effectus justitiae, praemiatio autem
+              misericordiae; magis Deo, et judicio, quod est actus justitiae, antonomastice punitio
+              attribuitur, ut interdum judicium pro ipsa condemnatione accipiatur; et sic
+              intelligitur auctoritas inducta, ut per Glossam, ibidem, patet.</p>
+            <p xml:id="ta-l4d47q1-d1e738">Ad secundum dicendum, quod discussio meritorum in electis non erit ad tollendum
+              incertitudinem beatitudinis a cordibus ipsorum judicandorum; sed ut praeeminentia
+              bonorum meritorum ad mala ostendatur omnibus manifeste; et sic Dei justitia
+              comprobetur.</p>
+            <p xml:id="ta-l4d47q1-d1e741">Ad tertium dicendum, quod Gregorius loquitur de justis adhuc in carne mortali
+              existentibus; unde supra praemiserat: <quote xml:id="ta-l4d47q1-Qd1e743">hi qui in corporibus reperiri potuerint;
+                quamvis jam fortes atque perfecti, quia adhuc in carne sunt positi, non possunt in
+                tanti terroris turbine nulla formidine concuti</quote>. Unde patet quod terror ille
+              referendus est ad tempus immediate judicium praecedens, tremendum quidem maxime malis,
+              non autem bonis, quibus nulla erit mali suspicio.</p>
+            <p xml:id="ta-l4d47q1-d1e748">Rationes autem quae sunt in oppositum, procedunt de judicio quantum ad retributionem
+              praemiorum.</p>
+
+          </div>
+          <div xml:id="ta-l4d47q1-Dd1e752">
+            <head xml:id="ta-l4d47q1-Hd1e754">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d47q1-d1e757">Ad tertiam quaestionem dicendum, quod judicium quod est poenarum retributio pro
+              peccatis, omnibus malis competit; judicium autem quod est discussio peccatorum, solum
+              fidelibus: quia in infidelibus non est fidei fundamentum, quo sublato, omnia opera
+              sequentia perfecta rectitudine intentionis carent; unde non est in eis aliqua
+              permixtio bonorum meritorum ad mala, quae discussionem requirant. Sed fideles in
+              quibus manet fidei fundamentum, ad minus fidei actum laudabilem habent, qui quamvis
+              non sit meritorius sine caritate, tamen, quantum est de se, est ordinatus ad meritum;
+              et ideo in eis judicium discussionis locum habet. Unde ipsi fideles, qui fuerunt
+              saltem numero cives civitatis Dei, judicabuntur ut cives, in quos sine discussione
+              meritorum sententia mortis non fertur; sed infideles condemnabuntur ut hostes, qui
+              consueverunt apud homines absque meritorum audientia exterminari.</p>
+            <p xml:id="ta-l4d47q1-d1e760">Ad primum ergo dicendum, quod quamvis eis qui in mortali decedunt, pro certo constet
+              de eorum damnatione; quia tamen aliqua quae pertinent ad bene merendum habent annexa,
+              oportet ad manifestationem divinae justitiae, ut discussio de eorum meritis fiat, per
+              quam ostendatur eos juste a civitate sanctorum excludi, cujus esse cives numero
+              exterius videbantur.</p>
+            <p xml:id="ta-l4d47q1-d1e763">Ad secundum dicendum, quod allocutio illa spiritualiter intellecta, secundum hoc non
+              erit aspera fidelibus condemnandis, quod in eis aliqua sibi placentia manifestabit,
+              quae in infidelibus inveniri non possunt; quia <quote xml:id="ta-l4d47q1-Qd1e765">sine fide impossibile est
+                placere Deo</quote>, Hebr. 11. Sed sententia condemnationis, quae in omnes feretur,
+              omnibus terribilis erit.</p>
+            <p xml:id="ta-l4d47q1-d1e769">Ratio vero in contrarium adducta procedebat de judicio retributionis.</p>
+
+          </div>
+          <div xml:id="ta-l4d47q1-Dd1e773">
+            <head xml:id="ta-l4d47q1-Hd1e775">Quaestiuncula 4</head>
+            <p xml:id="ta-l4d47q1-d1e778">Ad quartam quaestionem dicendum, quod judicium discussionis nullo modo habet locum
+              neque in bonis Angelis neque in malis; quia neque in bonis potest aliquid mali
+              inveniri, neque in malis aliquid boni ad judicium pertinens. Sed si loquamur de
+              judicio retributionis, sic est distinguenda duplex retributio. Una respondens propriis
+              meritis Angelorum; et haec a principio fuit utrisque facta, dum quidam sunt ad
+              beatitudinem sublimati, quidam vero in miseriam demersi. Alia retributio, quae
+              respondet meritis bonis vel malis per Angelos procuratis; et haec retributio in futuro
+              judicio fiet; quia boni Angeli amplius gaudium habebunt de salute eorum quos ad
+              meritum induxerunt, et mali amplius torquebuntur, multiplicata malorum ruina, qui per
+              eos ad mala sunt incitati. Unde directe loquendo, judicium nec ex parte judicantium
+              nec ex parte judicandorum erit Angelorum, sed hominum; sed indirecte quodammodo
+              respiciet Angelos, inquantum actibus hominum fuerunt commixti.</p>
+            <p xml:id="ta-l4d47q1-d1e781">Ad primum ergo dicendum, quod verbum illud apostoli est intelligendum de judicio
+              comparationis; quia quidam homines quibusdam Angelis superiores invenientur.</p>
+            <p xml:id="ta-l4d47q1-d1e784">Ad secundum dicendum, quod ipsi Daemones, cunctis videntibus, tunc praecipitabuntur,
+              quia in perpetuum in Inferni carcerem retrudentur, ut non sit eis liberum extra
+              progredi; quia hoc eis non concedebatur nisi secundum quod ordinabatur ex divina
+              providentia ad hominum vitam exercendam.</p>
+            <p xml:id="ta-l4d47q1-d1e787">Et similiter dicendum ad tertium.</p>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

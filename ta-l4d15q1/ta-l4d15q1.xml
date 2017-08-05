@@ -1,0 +1,1050 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 15, Quaestio 1</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Librum IV, Distinctio 15, Quaestio 1</title>
+          <date when="2016-03-19">March 19, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-19">March 19, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness>1856 editum</witness>
+          <witness xml:id="G" n="ghent567">Ghent, Belgium, Ghent University Library, 567</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="0.0.0-dev">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+
+
+
+
+      <div xml:id="starts-on">
+        <cb ed="#G" n="225b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ta-l4d15q1">
+        <head xml:id="ta-l4d15q1-Hd1e97">Librum IV, Distinctio 15, Quaestio 1</head>
+
+        <div xml:id="ta-l4d15q1-Dd1e100">
+          <head xml:id="ta-l4d15q1-Hd1e102">Prooemium</head>
+          <p xml:id="ta-l4d15q1-d1e105">Postquam determinavit Magister de poenitentia quantum ad sui veritatem, ostendens quid
+            sit poenitentia secundum sui veram rationem, et removens errorem quorumdam qui ad
+            rationem poenitentiae addere volebant futuram perseverantiam, hic intendit determinare
+            de poenitentia quantum ad sui integritatem, quorumdam errorem removens, qui falso
+            opinabantur posse de uno peccato poenitentiam agi, et non de alio: quod est contra
+            integritatem poenitentiae. Et dividitur in partes duas: in prima ponit rationes quae
+            sunt causa erroris; in secunda improbat ipsum errorem, ibi: <quote xml:id="ta-l4d15q1-Qd1e107">satis arbitror illis
+              esse responsum</quote>. Prima in duas, secundum quod error praedictus duos habuit
+            modos positionis: in prima enim parte reprobat rationes eorum qui dicebant, quod de uno
+            peccato sine alio poterat poenitentia agi, et fructuose quantum ad praesens; in secunda
+            illorum qui ponebant quod hoc non erat fructuosum quantum ad praesens, sed quantum ad
+            futurum, quando de peccatis aliis poenitentiam aget, ibi: <quote xml:id="ta-l4d15q1-Qd1e110">quibusdam tamen videtur
+              fuisse satisfactio, sed infructuosa</quote>. Prima in duas: in prima excludit
+            probationem eorum, quae ex auctoritatibus canonis procedebat; in secunda probationes ex
+            auctoritatibus sanctorum et ratione sumptas, ibi: <quote xml:id="ta-l4d15q1-Qd1e113">alias quoque auctoritates
+              inducunt</quote>. Circa primum tria facit: primo ponit objectionem; secundo solvit
+            eam, ibi: <quote xml:id="ta-l4d15q1-Qd1e116">sed de his oportet illud tantum intelligi qui praesentibus suppliciis
+              commutantur in bonum</quote>; tertio excludit quamdam dubitationem ex praecedenti
+            solutione ortam, ibi: <quote xml:id="ta-l4d15q1-Qd1e119">attende lector his verbis. Alias quoque auctoritates
+              inducunt</quote>. Circa hanc partem duo facit: primo ponit probationes illorum, quorum
+            prima est ex auctoritate Gregorii; secunda ex auctoritate Ambrosii; tertia ex ratione
+            sumpta, ut per se patet; secundo solvit eas; et primo ad auctoritatem Gregorii, ibi:
+              <quote xml:id="ta-l4d15q1-Qd1e123">hic responderi potest</quote> etc.; secundo ad auctoritatem Ambrosii, ibi:
+              <quote xml:id="ta-l4d15q1-Qd1e126">illud autem quod Ambrosius ait</quote> etc.; tertio ad rationem, ibi: <quote xml:id="ta-l4d15q1-Qd1e129">ad
+              hoc autem quod objicitur</quote> et cetera. <quote xml:id="ta-l4d15q1-Qd1e132">Quibusdam tamen videtur fuisse
+              satisfactio, sed infructuosa</quote>. Hic destruit probationes alterius positionis; et
+            circa hoc duo facit: primo ponit eas; secundo solvit, ibi: <quote xml:id="ta-l4d15q1-Qd1e135">sed haec dicta
+              intelligimus de illo qui in caritate quodam tempore bona facit, et bonus est, alio
+              vero tempore malus est</quote>. Et ponit duas solutiones, quarum secunda incipit ibi:
+              <quote xml:id="ta-l4d15q1-Qd1e138">potest etiam accipi de operibus bonis quae ab aliquo fiunt dum malus
+              est</quote>. Et circa hoc duo facit; primo ostendit quod bona extra caritatem facta,
+            etsi valeant ad tolerabilius judicium sustinendum, non tamen valent ad vitam
+            consequendam; secundo ostendit idem de operibus in caritate factis, quae postea per
+            peccatum mortificantur, ibi: <quote xml:id="ta-l4d15q1-Qd1e142">illa etiam quae in caritate quis facit, si postea
+              prolapsus fuerit, nec exsurrexerit, non esse in memoria Dei Ezechiel dicit. Satis
+              arbitror illis esse responsum</quote>. Hic improbat ipsum errorem; et circa hoc duo
+            facit: primo improbat errorem; secundo concludit veritatem, scilicet quae sit vera et
+            sufficiens poenitentia, ibi: <quote xml:id="ta-l4d15q1-Qd1e145">ex praemissis perspicua fit notitia verae
+              poenitentiae</quote>. Hic est quaerendum de satisfactione et de partibus ejus; unde
+            quatuor hic quaeruntur. Primo de ipsa satisfactione. Secundo de eleemosyna. Tertio de
+            jejunio. Quarto de oratione. His enim tribus homo satisfacit. Circa hoc quaeruntur
+            quinque: 1 quid sit satisfactio; 2 utrum possibile sit a nobis Deo satisfieri; 3
+            qualiter homo satisfacere possit; 4 per quae; 5 utrum restitutio sit pars
+            satisfactionis.</p>
+
+        </div>
+        <div xml:id="ta-l4d15q1-Dd1e150" type="articulus">
+          <head xml:id="ta-l4d15q1-Hd1e152">Articulus 1</head>
+
+          <head xml:id="ta-l4d15q1-Hd1e155" type="questionTitle">Utrum satisfactio sit virtus, aut virtutis actus</head>
+
+          <div xml:id="ta-l4d15q1-Dd1e158">
+            <head xml:id="ta-l4d15q1-Hd1e160">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d15q1-d1e163">Ad primum sic proceditur. Videtur quod satisfactio non sit neque virtus neque
+              virtutis actus. Omnis enim virtutis actus est meritorius. Sed satisfactio non est
+              meritoria, ut videtur; quia meritum gratuitum est; sed satisfactio debitum attendit.
+              Ergo satisfactio non est actus virtutis.</p>
+            <p xml:id="ta-l4d15q1-d1e166">Praeterea, omnis actus virtutis est voluntarius. Sed aliquando fit alicui satisfactio
+              de aliquo, eo invito; ut quando aliquis pro offensa in alterum commissa a judice
+              punitur. Ergo satisfactio non est virtutis actus.</p>
+            <p xml:id="ta-l4d15q1-d1e169">Praeterea, secundum philosophum, in virtute moris principale est electio. Sed
+              satisfactio non fit per electionem, sed respicit principaliter exteriora opera. Ergo
+              non est virtutis actus.</p>
+            <p xml:id="ta-l4d15q1-d1e172">Sed contra, satisfactio ad poenitentiam pertinet. Sed poenitentia est virtus, ut
+              prius dictum est. Ergo satisfactio est actus virtutis.</p>
+            <p xml:id="ta-l4d15q1-d1e176">Praeterea, nullus actus operatur ad deletionem peccati, nisi sit actus virtutis: quia
+              contrarium destruitur per suum contrarium. Sed per satisfactionem peccatum totaliter
+              annihilatur. Ergo satisfactio est virtutis actus.</p>
+
+          </div>
+          <div xml:id="ta-l4d15q1-Dd1e180">
+            <head xml:id="ta-l4d15q1-Hd1e182">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d15q1-d1e185">Ulterius. Videtur quod non sit actus justitiae. Quia satisfactio fit ad hoc quod
+              reconcilietur ei quem offendit. Sed reconciliatio, cum sit amoris, ad caritatem
+              pertinet. Ergo satisfactio est actus caritatis, et non justitiae.</p>
+            <p xml:id="ta-l4d15q1-d1e188">Praeterea, causae peccatorum in nobis sunt passiones animae, quibus ad malum
+              incitamur. Sed justitia, secundum philosophum, non est circa passiones, sed circa
+              operationes. Cum ergo ad satisfactionem pertineat peccatorum causas excidere, ut in
+              littera dicitur, videtur quod non sit actus justitiae.</p>
+            <p xml:id="ta-l4d15q1-d1e191">Praeterea, cavere in futurum non est actus justitiae, sed magis prudentiae, cujus
+              pars ponitur cautela, ut in 3 Lib., dist. 33, quaest. 3, art. 1, quaestiunc. 2, dictum
+              est. Sed hoc pertinet ad satisfactionem: quia ipsius est suggestionibus peccatorum
+              aditum non indulgere. Ergo satisfactio non est actus justitiae.</p>
+            <p xml:id="ta-l4d15q1-d1e194">Sed contra, nulla virtus attendit rationem debiti nisi justitia. Sed satisfactio
+              honorem debitum Deo impendit, ut Anselmus dicit. Ergo satisfactio est justitiae
+              actus.</p>
+            <p xml:id="ta-l4d15q1-d1e198">Praeterea, nulla virtus habet rerum exteriorum adaequationem perficere nisi justitia.
+              Sed hoc fit per satisfactionem: quia constituitur aequalitas emendae ad offensam
+              praecedentem. Ergo satisfactio est justitiae actus.</p>
+
+          </div>
+          <div xml:id="ta-l4d15q1-Dd1e202">
+            <head xml:id="ta-l4d15q1-Hd1e204">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d15q1-d1e207">Ulterius. Videtur quod definitio satisfactionis in littera inconvenienter ponatur ab
+              Augustino. Dicit enim quod satisfactio est peccatorum causas excidere, et eorum
+              suggestionibus aditum non indulgere. Causa enim actualis peccati fomes est. Sed in hac
+              vita non possumus fomitem excidere. Ergo satisfacere non est causas peccatorum
+              excidere.</p>
+            <p xml:id="ta-l4d15q1-d1e210">Praeterea, causa peccati est fortior quam peccatum. Sed homo per se non potest
+              peccatum excidere. Ergo multo minus causas peccati; et sic idem quod prius.</p>
+            <p xml:id="ta-l4d15q1-d1e213">Praeterea, satisfactio, cum sit pars poenitentiae, praeteritum respicit, non futurum.
+              Sed non indulgere aditum suggestionibus peccatorum respicit futurum. Ergo non debet
+              poni in definitione satisfactionis.</p>
+            <p xml:id="ta-l4d15q1-d1e216">Praeterea, satisfactio dicitur respectu offensae praeteritae. Sed de offensa
+              praecedenti nulla fit mentio. Ergo inconvenienter assignatur definitio
+              satisfactionis.</p>
+            <p xml:id="ta-l4d15q1-d1e220">Praeterea, Anselmus ponit aliam definitionem in Lib. 1, cur Deus homo, ubi Sup.,
+              scilicet: <quote xml:id="ta-l4d15q1-Qd1e222">satisfactio est honorem debitum Deo impendere</quote>; in qua nulla
+              fit mentio horum quae Augustinus hic ponit. Ergo altera earum videtur esse
+              incompetens.</p>
+            <p xml:id="ta-l4d15q1-d1e226">Praeterea, honorem debitum Deo potest innocens impendere. Sed satisfacere non
+              competit innocenti. Ergo definitio Anselmi est male assignata.</p>
+          </div>
+          <div xml:id="ta-l4d15q1-Dd1e231">
+            <head xml:id="ta-l4d15q1-Hd1e233">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d15q1-d1e236">Respondeo dicendum ad primam quaestionem, quod aliquis actus dicitur esse actus
+              virtutis dupliciter. Uno modo materialiter; et sic quilibet actus qui non habet
+              malitiam implicitam vel defectum debitae circumstantiae, actus virtutis dici potest:
+              quia quolibet tali actu potest uti virtus in suum finem, sicut est ambulare, loqui, et
+              hujusmodi. Alio modo dicitur aliquis actus esse actus virtutis formaliter: quia in suo
+              nomine formam et rationem virtutis implicitam habet; sicut fortiter sustinere, dicitur
+              actus fortitudinis. Formale autem cujuslibet virtutis moralis est ratio medii; unde
+              omnis actus qui rationem medii importat, actus virtutis formaliter est. Et quia
+              aequalitas medium est, quod suo nomine satisfactio importat (non enim dicitur aliquid
+              satisfactum nisi secundum proportionem aequalitatis ad aliquid), constat quod
+              satisfactio etiam formaliter est actus virtutis.</p>
+            <p xml:id="ta-l4d15q1-d1e239">Ad primum ergo dicendum, quod quamvis satisfacere in se sit debitum, tamen inquantum
+              satisfaciens voluntarie hoc opus exequitur, rationem gratuiti accipit ex parte
+              operantis; et sic operans facit de necessitate virtutem: ex hoc enim debitum diminuere
+              habet meritum, quod necessitatem importat, quae voluntati contrariatur; unde si
+              voluntas necessitate consentiat, ratio meriti non tolletur.</p>
+            <p xml:id="ta-l4d15q1-d1e242">Ad secundum dicendum, quod actus virtutis non requirit voluntarium in eo qui facit,
+              quia illius actus est; et ideo, cum ille in quem judex vindictam exercet, se habeat ut
+              patiens ad satisfactionem, non ut agens; non oportet quod in eo voluntaria sit
+              satisfactio, sed in judice faciente.</p>
+            <p xml:id="ta-l4d15q1-d1e245">Ad tertium dicendum, quod principale in virtute potest accipi dupliciter. Uno modo
+              principale in ipsa, inquantum est virtus; et sic ea quae ad rationem pertinent, vel
+              magis ei propinqua sunt, principaliora sunt in virtute; et sic electio et interiores
+              actus in virtute, inquantum virtus est, principaliores sunt. Alio modo potest accipi
+              principale in virtute, inquantum est talis virtus; et sic principalius in ipsa est ex
+              quo determinationem recipit. Actus autem interiores in aliquibus virtutibus
+              determinantur per exteriores: quia electio, quae est communis omnibus virtutibus, ex
+              hoc quod est electio talis actus, efficitur propria hujus virtutis; et sic actus
+              exteriores in aliquibus virtutibus sunt principaliores; et ita etiam est in
+              satisfactione.</p>
+
+          </div>
+          <div xml:id="ta-l4d15q1-Dd1e249">
+            <head xml:id="ta-l4d15q1-Hd1e251">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d15q1-d1e254">Ad secundam quaestionem dicendum, quod secundum philosophum in 5 Ethic., medium
+              justitiae accipitur secundum adaequationem rei ad rem in proportionalitate aliqua.
+              Unde cum talem adaequationem ipsum nomen satisfactionis importet, quia hoc adverbium
+              satis aequalitatem proportionis designat; constat quod satisfactio formaliter
+              justitiae actus est. Sed justitiae actus, secundum philosophum, est vel sui ad
+              alterum, ut quando aliquis reddit alteri quod ei debet; vel alterius ad alterum, sicut
+              quando judex facit justitiam inter duos. Quando autem actus justitiae est sui ad
+              alterum, aequalitas in ipso faciente constituitur; quando autem alterius ad alterum,
+              aequalitas constituitur in justum passo. Et quia satisfactio aequalitatem in ipso
+              faciente exprimit, dicit actum justitiae qui est sui ad alterum proprie loquendo. Sed
+              sui ad alterum potest aliquis facere justitiam vel in actionibus et passionibus, vel
+              in rebus exterioribus; sicut etiam injuria fit alteri vel subtrahendo res, vel sub
+              aliquam actionem laedendo. Et quia usus rerum exteriorum est dare; ideo actus
+              justitiae, secundum quod aequalitatem in rebus exterioribus constituit, proprie
+              dicitur hoc quod est reddere. Sed satisfacere, aequalitatem in actionibus demonstrat,
+              quamvis quandoque unum pro altero ponatur. Et quia adaequatio non est nisi
+              inaequalium, ideo satisfactio inaequalitatem actionum praesupponit; quae quidem
+              offensam constituit; et ideo habet respectum ad offensam praecedentem. Nulla autem
+              pars justitiae respicit offensam praecedentem, nisi vindicativa justitia, quae
+              aequalitatem constituit in eo qui justum patitur indifferenter; sive sit patiens idem
+              quod agens, ut quando aliquis sibi ipsi poenam infert; sive non sit idem, ut quando
+              judex alium punit; ad utrumque vindicativa justitia se habente. Similiter et
+              poenitentia, quae aequalitatem tantum in faciente importat, quia ipsemet poenam tenet;
+              ut sic quodammodo poenitentia vindicativae justitiae species fit. Et propter hoc
+              constat quod satisfactio, quae aequalitatem respectu offensae praecedentis in faciente
+              importat, opus justitiae est quantum ad illam partem quae poenitentia dicitur.</p>
+            <p xml:id="ta-l4d15q1-d1e257">Ad primum ergo dicendum, quod satisfactio, ut ex dictis patet, est quaedam injuriae
+              illatae recompensatio. Unde sicut injuria illata immediate ad inaequalitatem justitiae
+              pertingebat, et per consequens ad inaequalitatem amicitiae oppositam; ita et
+              satisfactio directe ad aequalitatem justitiae perducit, et ad aequalitatem amicitiae
+              ex consequenti. Et quia actus aliquis elicitive ab illo habitu procedit ad cujus finem
+              immediate ordinatur, imperative autem ab illo ad cujus finem ulterius tendit; ideo
+              satisfactio elicitive est a justitia, sed imperative a caritate.</p>
+            <p xml:id="ta-l4d15q1-d1e260">Ad secundum dicendum, quod quamvis justitia sit principaliter circa operationes,
+              tamen etiam ex consequenti est circa passiones, inquantum sunt operationum causae. Sed
+              sicut justitia cohibet iram ne alteri laesionem injuste inferat, et concupiscentiam ne
+              ad aliorum torum accedat; sic etiam satisfactio potest peccatorum causas excidere.</p>
+            <p xml:id="ta-l4d15q1-d1e263">Ad tertium dicendum, quod quaelibet virtus moralis participat actus prudentiae, eo
+              quod formaliter ipsa complet in eis rationem virtutis, cum secundum eam medium
+              accipiatur in singulis virtutibus moralibus, ut patet per definitionem virtutis
+              positam in 2 Ethic.</p>
+
+          </div>
+          <div xml:id="ta-l4d15q1-Dd1e267">
+            <head xml:id="ta-l4d15q1-Hd1e269">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d15q1-d1e272">Ad tertiam quaestionem dicendum, quod justitia non ad hoc tantum tendit ut
+              inaequalitatem praecedentem auferat puniendo culpam praeteritam, sed ut in futurum
+              aequalitatem custodiat: quia secundum philosophum in 2 Ethic., poenae medicinae sunt;
+              unde et satisfactio, quae est justitiae actus poenam inferentis, est medicina, curans
+              peccata praeterita, et praeservans a futuris; et ideo quando homo homini satisfacit,
+              et praeterita recompensat et de futuris cavet. Et secundum hoc dupliciter potest
+              satisfactio definiri. Uno modo respectu culpae praeteritae, quam recompensando curat;
+              et sic dicitur, quod satisfactio est injuriae illatae recompensatio secundum justitiae
+              aequalitatem; et in idem dicitur redire definitio Anselmi, qui dicit, quod satisfacere
+              est Deo debitum honorem impendere, ut consideretur debitum ratione culpae commissae.
+              Alio modo potest definiri secundum quod praeservat a culpa futura; et sic definit eam
+              hic Augustinus. Praeservatio autem a morbo corporali fit per ablationem causarum ex
+              quibus morbus consequi potest: eis enim ablatis non potest morbus sequi. Sed in morbo
+              spirituali non est ita: quia liberum arbitrium non cogitur; unde causis praecedentibus
+              potest vitari, quamvis difficulter causis amotis potest incurri. Et ideo in
+              satisfactionis definitione duo ponit: scilicet abscissionem causarum quantum ad
+              primum, et abstinentiam liberi arbitrii a peccato quantum ad secundum.</p>
+            <p xml:id="ta-l4d15q1-d1e275">Ad primum ergo dicendum, quod accipiendae sunt causae proximae peccati actualis, quae
+              dicuntur duo: scilicet libido ex consuetudine vel actu peccati relicta, et aliquae
+              reliquiae peccati praeteriti; et exteriores occasiones ad peccandum, ut locus,
+              societas mala, et hujusmodi; et tales causae in hac vita per satisfactionem tolluntur;
+              quamvis fomes, qui est causa remota peccati actualis, non tollatur totaliter in hac
+              vita per satisfactionem, etsi debilitetur.</p>
+            <p xml:id="ta-l4d15q1-d1e278">Ad secundum dicendum, quod quia causa mali vel privationis, eo modo quo causam habet,
+              non est nisi bonum deficiens; bonum autem facilius tollitur quam construatur; ideo
+              facilius est causas privationis et mali abscindere, quam ipsum malum removere, quod
+              non removetur nisi per constructionem boni; quod patet in caecitate et causis ejus. Et
+              tamen causae peccati praedictae non sunt causae sufficientes, cum ex eis non de
+              necessitate sequatur peccatum, sed sunt actiones quaedam. Nec iterum satisfactio sine
+              Dei auxilio fit, quia sine caritate esse non potest, ut dicetur.</p>
+            <p xml:id="ta-l4d15q1-d1e281">Ad tertium dicendum, quod quamvis poenitentia ex prima sui intentione respiciat
+              praeteritum, tamen etiam ex consequenti futurum respicit, inquantum est medicina
+              praeservans; et sic etiam satisfactio.</p>
+            <p xml:id="ta-l4d15q1-d1e285">Ad quartum dicendum, quod Augustinus definit satisfactionem secundum quod fit Deo,
+              cui secundum rei veritatem nihil subtrahi potest, quamvis peccator, quantum in se est,
+              aliquid subtrahat; et ideo in satisfactione tali principalius requiritur emendatio in
+              futurum quam recompensatio praeteritorum; et propter hoc ex parte ista Augustinus
+              satisfactionem definivit. Nihilominus tamen ex cautela futurorum cognosci potest
+              recompensatio praeteritorum, quia fit circa eadem converso modo. In praeterita enim
+              respicientes, causas peccatorum propter peccata detestamur, a peccatis incipientes
+              detestationis motum; sed in cautela a causis incipimus, ut causis subtractis facilius
+              peccata vitemus.</p>
+            <p xml:id="ta-l4d15q1-d1e288">Ad quintum dicendum, quod non est inconveniens quod de eodem dentur diversae
+              assignationes secundum diversa quae in ipso inveniuntur; et sic est in proposito, ut
+              ex dictis patet.</p>
+            <p xml:id="ta-l4d15q1-d1e291">Ad sextum dicendum, quod intelligitur debitum quod debemus Deo ratione culpae
+              commissae: quia debitum poenitentia respicit, ut prius dictum est.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d15q1-Dd1e296" type="articulus">
+          <head xml:id="ta-l4d15q1-Hd1e298">Articulus 2</head>
+
+          <head xml:id="ta-l4d15q1-Hd1e301" type="questionTitle">Utrum homo possit Deo satisfacere</head>
+
+          <p xml:id="ta-l4d15q1-d1e304">Ad secundum sic proceditur. Videtur quod homo non possit Deo satisfacere. Satisfactio
+            enim debet aequari offensae, ut ex dictis patet. Sed offensa in Deum commissa, est
+            infinita, quia quantitatem recipit ab eo in quem committitur; cum plus offendat qui
+            principem percutit quam alium quemcumque. Cum ergo actio hominis non possit esse
+            infinita, videtur quod homo Deo satisfacere non possit.</p>
+          <p xml:id="ta-l4d15q1-d1e307">Praeterea, servus, quia totum quod habet, domini est, non potest aliquid domino
+            recompensare. Sed nos servi Dei sumus; et quidquid nos boni habemus, ab ipso habemus.
+            Cum ergo satisfactio sit recompensatio offensae praeteritae, videtur quod Deo
+            satisfacere non possimus.</p>
+          <p xml:id="ta-l4d15q1-d1e310">Praeterea, ille cujus totum quod habet non sufficit ad unum debitum exsolvendum, non
+            potest alii debito satisfacere. Sed quidquid homo est et potest et habet, non sufficit
+            ad solvendum debitum pro beneficio conditionis; unde Isaiae cap. 40, dicitur, quod
+            Libanus ad succendendum, et animalia ejus non sufficient ad holocaustum. Ergo nullo modo
+            potest satisfacere pro debito offensae commissae.</p>
+          <p xml:id="ta-l4d15q1-d1e314">Praeterea, homo totum tempus suum in Dei servitium debet expendere. Sed tempus amissum
+            non potest recuperari: propter quod est gravis jactura temporis, ut Seneca dicit. Ergo
+            non potest homo recompensationem Deo facere; et sic idem quod prius.</p>
+          <p xml:id="ta-l4d15q1-d1e317">Praeterea, peccatum actuale mortale est gravius quam originale. Sed pro originali
+            nullus satisfacere potuit, nisi esset Deus et homo. Ergo neque pro actuali.</p>
+          <p xml:id="ta-l4d15q1-d1e320">Sed contra, sicut Hieronymus dicit, <quote xml:id="ta-l4d15q1-Qd1e322">qui dicit Deum aliquid impossibile homini
+              praecepisse, anathema sit</quote>. Sed satisfactio est in praecepto: Luc. 3, 8:
+              <quote xml:id="ta-l4d15q1-Qd1e325">facite dignos fructus poenitentiae</quote>. Ergo possibile est Deo
+            satisfacere.</p>
+          <p xml:id="ta-l4d15q1-d1e329">Praeterea, Deus est magis misericors quam aliquis homo. Sed homini possibile est
+            satisfacere. Ergo et Deo.</p>
+          <p xml:id="ta-l4d15q1-d1e332">Praeterea, debita satisfactio est cum poena culpae aequatur: quia justitia est idem
+            quod contrapassum, ut Pythagorici dixerunt. Sed contingit aequalem poenam sumere
+            delectationi, quae fuit in peccando. Ergo contingit Deo satisfacere.</p>
+          <p xml:id="ta-l4d15q1-d1e335">Respondeo dicendum, quod, sicut supra dictum est, dupliciter homo Deo debitor
+            efficitur. Uno modo ratione beneficii accepti; alio modo ratione peccati commissi. Et
+            sicut gratiarum actio vel latria, vel si quid est hujusmodi, respicit debitum accepti
+            beneficii, ita satisfactio respicit debitum peccati commissi. In his autem honoribus qui
+            sunt ad parentes et deos, etiam secundum philosophum, impossibile est aequivalens
+            reddere secundum quantitatem; sed sufficit ut homo reddat quod potest: quia amicitia non
+            exigit aequivalens nisi secundum quod possibile est; et hoc etiam aequale est
+            aliqualiter, scilicet secundum proportionalitatem: quia sicut se habet quod Deo est
+            debitum ad ipsum Deum, ita hoc quod iste potest reddere, ad eum; et sic aliquo modo
+            forma justitiae conservatur; et similiter est ex parte satisfactionis. Unde non potest
+            homo satisfacere, si ly satis aequalitatem quantitatis importet. Contingit autem, si
+            importet aequalitatem proportionis, ut dictum est, et hoc sicut sufficit ad rationem
+            justitiae, ita sufficit ad rationem satisfactionis.</p>
+          <p xml:id="ta-l4d15q1-d1e339">Ad primum ergo dicendum, quod sicut offensa habuit quamdam infinitatem ex infinitate
+            divinae majestatis, ita et satisfactio accipit quamdam infinitatem ex infinitate divinae
+            misericordiae, prout est gratia informata, per quam acceptum redditur quod homo reddere
+            potest. Quidam tamen dicunt, quod habet infinitatem ex parte aversionis, et sic gratis
+            dimittitur; sed ex parte conversionis finita est, et sic pro ea satisfieri potest. Sed
+            hoc nihil est; quia satisfactio non respondet peccato nisi secundum quod est offensa
+            Dei: quod non habet ex parte conversionis, sed solum ex parte aversionis. Alii vero
+            dicunt, quod etiam quantum ad aversionem pro peccato satisfieri potest virtute meriti
+            Christi, quod quodammodo infinitum fuit, ut in 3 Lib., dist. 18, qu. 1, art. 6,
+            quaestiunc. 1, dictum est; et hoc in idem redit quod prius dictum est; quia per fidem
+            mediatoris gratia data est credentibus. Si tamen alio modo gratiam daret, sufficeret
+            satisfactio per modum praedictum.</p>
+          <p xml:id="ta-l4d15q1-d1e342">Ad secundum dicendum, quod homo, qui ad imaginem Dei factus est, aliquid libertatis
+            participat, inquantum est dominus suorum actuum per liberum arbitrium; et ideo ex hoc
+            quod per liberum arbitrium agit, Deo satisfacere potest; quia quamvis Dei sit, prout a
+            Deo est sibi concessum, libere tamen traditum est, ut ejus dominus sit; quod servo non
+            competit.</p>
+          <p xml:id="ta-l4d15q1-d1e345">Ad tertium dicendum, quod ratio illa concludit, quod Deo aequivalens satisfactio fieri
+            non possit; non autem quod non possit sibi sufficiens fieri. Quamvis enim homo totum
+            suum posse Deo debeat, non tamen ab eo exigitur de necessitate ut totum quod possit,
+            faciat; quia hoc est impossibile secundum statum praesentis vitae, ut totum posse suum
+            ad aliquid unum expendat, cum oporteat eum circa multa solicitum esse; sed est quaedam
+            mensura homini adhibita, quae ab eo requiritur, scilicet impletio mandatorum Dei; et
+            super ea potest aliquid erogare, ut satisfaciat.</p>
+          <p xml:id="ta-l4d15q1-d1e348">Ad quartum dicendum, quod quamvis homo non possit tempus praeteritum recuperare, potest
+            tamen in futuro recompensare illud quod in praeterito facere debuisset; quia non debuit
+            debito praecepti totum quod potuit, ut dictum est.</p>
+          <p xml:id="ta-l4d15q1-d1e351">Ad quintum dicendum, quod originale peccatum, etsi minus habeat de ratione peccati quam
+            actuale, tamen est gravius, quia est ipsius humanae naturae infectio; ideo per unius
+            hominis puri satisfactionem expiari non potuit, sicut actuale.</p>
+
+        </div>
+        <div xml:id="ta-l4d15q1-Dd1e355" type="articulus">
+          <head xml:id="ta-l4d15q1-Hd1e357">Articulus 3</head>
+
+          <head xml:id="ta-l4d15q1-Hd1e360" type="questionTitle">Utrum homo possit de uno peccato sine alio satisfacere</head>
+
+          <div xml:id="ta-l4d15q1-Dd1e363">
+            <head xml:id="ta-l4d15q1-Hd1e365">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d15q1-d1e368">Ad tertium sic proceditur. Videtur quod homo possit de uno peccato sine alio
+              satisfacere. Eorum enim quae non habent connexionem ad invicem, unum potest auferri
+              sine alio. Sed peccata non habent ad invicem connexionem; alias qui haberet unum,
+              haberet omnia. Ergo unum potest expiari sine alio per satisfactionem.</p>
+            <p xml:id="ta-l4d15q1-d1e371">Praeterea, Deus est magis misericors quam homo. Sed homo recipit solutionem unius
+              debiti sine alio. Ergo et Deus satisfactionem unius peccati sine alio.</p>
+            <p xml:id="ta-l4d15q1-d1e374">Praeterea, satisfactio, ut in littera dicitur, est peccatorum causas excidere, nec
+              suggestionibus aditum indulgere. Sed contingit hoc fieri de uno peccato sine alio, ut
+              scilicet luxuriam refrenet, et avaritiae insistat. Ergo de uno peccato potest fieri
+              satisfactio sine alio.</p>
+            <p xml:id="ta-l4d15q1-d1e377">Sed contra, Isaiae 58, dicitur, quod jejunium eorum qui ad contentiones et lites
+              jejunabant, Deo acceptum non erat; licet jejunium sit satisfactionis opus. Sed non
+              potest fieri satisfactio nisi per opus Deo acceptum. Ergo non potest, qui habet
+              aliquod peccatum, Deo satisfacere.</p>
+            <p xml:id="ta-l4d15q1-d1e381">Praeterea, satisfactio est medicina curans peccata praeterita, et praeservans a
+              futuris, ut dictum est. Sed peccata non possunt sine gratia curari. Ergo, cum
+              quodlibet peccatum gratiam auferat, non potest de uno peccato fieri satisfactio sine
+              alio.</p>
+
+          </div>
+          <div xml:id="ta-l4d15q1-Dd1e385">
+            <head xml:id="ta-l4d15q1-Hd1e387">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d15q1-d1e390">Ulterius. Videtur quod qui de peccatis omnibus contritus fuerit prius, et postea in
+              peccatum incidit, de aliis peccatis quae sibi per contritionem dimissa fuerant,
+              satisfacere possit extra caritatem existens. Dixit enim Daniel, Nabuchodonosori:
+                <quote xml:id="ta-l4d15q1-Qd1e392">peccata tua eleemosynis redime</quote>. Sed ipse adhuc peccator erat, quod
+              sequens poena demonstrat. Ergo potest existens in peccato satisfacere.</p>
+            <p xml:id="ta-l4d15q1-d1e396">Praeterea, nemo scit an sit dignus odio, vel amore; Eccle. 6. Si ergo non posset
+              fieri satisfactio nisi ab eo qui est in caritate, nullus sciret se satisfacere; et hoc
+              est inconveniens.</p>
+            <p xml:id="ta-l4d15q1-d1e399">Praeterea, ex intentione quam homo habet in principio actus, totus actus informatur.
+              Sed poenitens quando poenitentiam inchoavit, in caritate erat. Ergo tota satisfactio
+              sequens ex illa caritate intentionem ejus informante efficaciam habebit.</p>
+            <p xml:id="ta-l4d15q1-d1e402">Praeterea, satisfactio consistit in quadam adaequatione poenae ad culpam. Sed talis
+              adaequatio potest fieri in eo qui caritatem non habet. Ergo et cetera.</p>
+            <p xml:id="ta-l4d15q1-d1e406">Sed contra, Proverb. 10, 12: <quote xml:id="ta-l4d15q1-Qd1e408">universa delicta operit caritas</quote>. Sed
+              satisfactionis virtus est delere delicta. Ergo sine caritate non habet suam
+              virtutem.</p>
+            <p xml:id="ta-l4d15q1-d1e412">Praeterea, praecipuum opus in satisfaciendo est eleemosyna. Sed eleemosyna extra
+              caritatem facta non valet, ut patet 1 Corinth. 13, 3: <quote xml:id="ta-l4d15q1-Qd1e414">si distribuero in cibos
+                pauperum omnes facultates meas (...) caritatem autem non habuero, nihil mihi
+                prodest</quote>. Ergo nec satisfactio aliqua est.</p>
+
+          </div>
+          <div xml:id="ta-l4d15q1-Dd1e419">
+            <head xml:id="ta-l4d15q1-Hd1e421">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d15q1-d1e424">Ulterius. Videtur quod postquam homo caritatem habuerit, valere incipiat satisfactio
+              praecedens. Super illud Levit. 25: <quote xml:id="ta-l4d15q1-Qd1e426">si attenuatus fuerit frater tuus</quote>,
+              dicit Glossa, quod fructus bonae conversationis debent computari ex eo tempore quo
+              peccavit. Sed non computarentur, nisi aliquam efficaciam acciperent ex caritate
+              sequente. Ergo post caritatem recuperatam valere incipiunt.</p>
+            <p xml:id="ta-l4d15q1-d1e430">Praeterea, sicut efficacia satisfactionis impeditur per peccatum, ita efficacia
+              Baptismi impeditur per fictionem. Sed Baptismus incipit valere recedente fictione.
+              Ergo et satisfactio recedente peccato.</p>
+            <p xml:id="ta-l4d15q1-d1e433">Praeterea, si alicui pro peccatis commissis injuncta fuerint multa jejunia, et in
+              peccatum cadens ea perfecerit, non injungitur, cum iterum confitetur, ut jejunia illa
+              iteret. Injungeretur autem, si per ea satisfactio non impleretur. Ergo per
+              poenitentiam sequentem opera praecedentia satisfaciendi efficaciam accipiunt.</p>
+            <p xml:id="ta-l4d15q1-d1e436">Sed contra, opera extra caritatem facta ideo non erant satisfactoria, quia fuerunt
+              mortua. Sed per poenitentiam non vivificantur. Ergo nec incipiunt esse
+              satisfactoria.</p>
+            <p xml:id="ta-l4d15q1-d1e440">Praeterea, caritas non informat actum nisi qui ab ipsa aliqualiter procedit. Sed
+              opera non possunt esse Deo accepta, ac per hoc nec satisfactoria, nisi sint caritate
+              informata. Ergo cum opera facta extra caritatem nullo modo ex caritate processerint,
+              vel de cetero procedere possint, nullo modo poterunt in satisfactionem computari.</p>
+
+          </div>
+          <div xml:id="ta-l4d15q1-Dd1e445">
+            <head xml:id="ta-l4d15q1-Hd1e447">Quaestiuncula 4</head>
+            <p xml:id="ta-l4d15q1-d1e450">Ulterius. Videtur quod opera extra caritatem facta sint alicujus boni meritoria,
+              saltem temporalis. Quia sicut se habet poena ad malum actum, ita se habet praemium ad
+              bonum. Sed nullum factum apud Deum justum judicem est impunitum. Ergo nec aliquod
+              bonum irremuneratum; et sic per illud bonum aliquid meretur.</p>
+            <p xml:id="ta-l4d15q1-d1e453">Praeterea, merces non datur nisi merito. Sed operibus extra caritatem factis datur
+              merces, ut dicitur Matth. 5, de illis qui propter gloriam humanam opera bona faciunt,
+              quod receperunt mercedem suam. Ergo opera illa fuerunt alicujus boni meritoria.</p>
+            <p xml:id="ta-l4d15q1-d1e456">Praeterea, duo existentes in peccato, quorum unus multa bona facit ex genere et
+              circumstantia, alius autem nulla, non aequaliter propinque se habent ad accipiendum
+              bona a Deo; alias non esset ei consulendum ut aliquid boni faceret. Sed qui magis
+              appropinquat Deo, magis de bonis percipit. Ergo iste per bona opera quae facit,
+              aliquid boni a Deo meretur.</p>
+            <p xml:id="ta-l4d15q1-d1e459">Sed contra est quod Augustinus dicit, quod peccator non est dignus pane quo vescitur.
+              Ergo non potest aliquid a Deo mereri.</p>
+            <p xml:id="ta-l4d15q1-d1e463">Praeterea, qui nihil est, non potest mereri. Sed peccator non habens caritatem nihil
+              est secundum esse spirituale, ut patet 1 Corinth. 13. Ergo non potest aliquid
+              mereri.</p>
+
+          </div>
+          <div xml:id="ta-l4d15q1-Dd1e467">
+            <head xml:id="ta-l4d15q1-Hd1e469">Quaestiuncula 5</head>
+            <p xml:id="ta-l4d15q1-d1e472">Ulterius. Videtur quod opera praedicta non valeant ad poenae infernalis mitigationem.
+              Quia secundum quantitatem culpae, erit quantitas poenae in Inferno. Sed opera extra
+              caritatem facta non minuunt quantitatem peccati. Ergo nec infernalis poenae.</p>
+            <p xml:id="ta-l4d15q1-d1e475">Praeterea, poena infernalis, quamvis sit duratione infinita, tamen intensione finita
+              est. Sed quodlibet finitum consumitur aliqua finita subtractione facta. Si ergo opera
+              extra caritatem facta, aliquid subtraherent de poena debita pro peccatis, contingeret
+              tantum multiplicari illa opera quod totaliter tolleretur poena Inferni: quod falsum
+              est.</p>
+            <p xml:id="ta-l4d15q1-d1e478">Praeterea, suffragia Ecclesiae sunt magis efficacia quam opera extra caritatem facta.
+              Sed, sicut Augustinus in Enchir. dicit, damnatis in Inferno non prosunt suffragia
+              Ecclesiae. Ergo multo minus opera extra caritatem facta.</p>
+            <p xml:id="ta-l4d15q1-d1e481">Sed contra est quod Augustinus dicit in Enchir.: <quote xml:id="ta-l4d15q1-Qd1e483">ad hoc prosunt ut sit plena
+                remissio, vel ut tolerabilior fiat damnatio</quote>.</p>
+            <p xml:id="ta-l4d15q1-d1e488">Praeterea, majus est facere bonum quam dimittere malum. Sed dimittere malum semper
+              vitat poenam, etiam in eo qui caritate caret. Ergo multo fortius facere bonum.</p>
+          </div>
+          <div xml:id="ta-l4d15q1-Dd1e492">
+            <head xml:id="ta-l4d15q1-Hd1e494">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d15q1-d1e497">Respondeo dicendum ad primam quaestionem, quod quidam dixerunt quod potest de uno
+              peccato satisfieri sine alio, ut Magister in littera dicit; sed hoc non potest esse.
+              Cum enim per satisfactionem tolli debeat offensa praecedens, oportet quod talis sit
+              modus satisfactionis qui competat ad tollendam offensam. Offensae autem ablatio est
+              amicitiae restitutio; et ideo si aliquid sit quod amicitiae restitutionem impediat,
+              etiam apud homines satisfactio esse non potest. Ergo cum quodlibet peccatum amicitiam
+              caritatis impediat, quae est hominis ad Deum, impossibile est ut homo de uno peccato
+              satisfaciat alio retento; sicut nec homo satisfaceret, qui pro alapa sibi data, se ei
+              prosterneret, et aliam sibi daret.</p>
+            <p xml:id="ta-l4d15q1-d1e500">Ad primum ergo dicendum, quod quia peccata non habent connexionem ad invicem in
+              aliquo uno, unum potest quis incurrere sine alio: sed unum et idem est secundum quod
+              omnia peccata remittuntur; et ideo remissiones diversorum peccatorum connexae sunt, et
+              de uno sine alio satisfactio fieri non potest.</p>
+            <p xml:id="ta-l4d15q1-d1e503">Ad secundum dicendum, quod in obligatione debiti non est nisi inaequalitas justitiae
+              opposita, quia unus rem alterius habet; et ideo ad restitutionem non exigitur nisi
+              quod restituatur aequalitas justitiae: quod quidem potest fieri de uno debito, non de
+              alio. Sed ubi est offensa, ibi est inaequalitas non tantum justitiae opposita, sed
+              etiam amicitiae; et ideo ad hoc quod per satisfactionem offensa tollatur, non solum
+              oportet quod aequalitas justitiae restituatur per recompensationem aequalis poenae,
+              sed etiam quod restituatur amicitiae aequalitas; quod non potest fieri, dum aliquid
+              est quod amicitiam impediat.</p>
+            <p xml:id="ta-l4d15q1-d1e506">Ad tertium dicendum, quod unum peccatum suo pondere ad aliud trahit, ut Gregorius
+              dicit; et ideo qui unum peccatum retinet, non sufficienter causas alterius peccati
+              excidit.</p>
+
+          </div>
+          <div xml:id="ta-l4d15q1-Dd1e510">
+            <head xml:id="ta-l4d15q1-Hd1e512">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d15q1-d1e515">Ad secundam quaestionem dicendum, quod quidam dixerunt, quod postquam omnia peccata
+              per poenitentiam et contritionem remissa sunt, si aliquis ante satisfactionem peractam
+              in peccatum decidat, et in peccato existens satisfaciat, satisfactio ei valeat; ita
+              quod si in peccato illo moreretur, in Inferno de illis peccatis non puniretur. Sed hoc
+              non potest esse: quia in satisfactione oportet quod, amicitia restituta, justitiae
+              aequalitas restituatur, cujus contrarium amicitiam solvit, ut philosophus in 8 Ethic.
+              dicit. Aequalitas autem in satisfactione ad Deum non est secundum aequivalentiam, sed
+              magis secundum acceptationem ipsius, ut est dictum; et ideo oportet quod et si jam
+              offensa sit dimissa per praecedentem contritionem, opera satisfactoria sint Deo
+              accepta, quod dat eis caritas; et ideo sine caritate opera facta non sunt
+              satisfactoria.</p>
+            <p xml:id="ta-l4d15q1-d1e518">Ad primum ergo dicendum, quod consilium Danielis intelligitur quod a peccato cessaret
+              et poeniteret, et sic per eleemosynas satisfaceret.</p>
+            <p xml:id="ta-l4d15q1-d1e521">Ad secundum dicendum, quod sicut homo nescit pro certo utrum caritatem habuerit in
+              satisfaciendo, vel habeat, ita etiam nescit pro certo utrum satisfecerit; et ideo
+              dicit Ecclesiasticus: <quote xml:id="ta-l4d15q1-Qd1e523">de propitiatu peccatorum noli esse sine metu</quote>. Non
+              tamen exigitur quod propter hunc metum homo satisfactionem expletam iteret, si
+              conscientiam peccati mortalis non habet. Quamvis enim poenam non expiet per hujusmodi
+              satisfactionem, tamen non incurrit reatum omissionis ex satisfactione neglecta; sicut
+              nec ille qui accedit ad Eucharistiam sine conscientia peccati mortalis, cui subjacet,
+              reatum indignae sumptionis incurrit.</p>
+            <p xml:id="ta-l4d15q1-d1e527">Ad tertium dicendum, quod illa intentio interrupta est per peccatum sequens, et ideo
+              non dat operibus vim aliquam post peccatum factis.</p>
+            <p xml:id="ta-l4d15q1-d1e531">Ad quartum dicendum, quod non potest fieri adaequatio sufficiens nec secundum divinam
+              acceptationem nec secundum aequivalentiam; et ideo ratio non sequitur.</p>
+
+          </div>
+          <div xml:id="ta-l4d15q1-Dd1e535">
+            <head xml:id="ta-l4d15q1-Hd1e537">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d15q1-d1e540">Ad tertiam quaestionem dicendum, quod quidam dixerunt, quod opera in caritate facta,
+              quae viva dicuntur, sunt meritoria vitae aeternae, et satisfactoria respectu poenae
+              dimittendae; et quod opera extra caritatem facta, vivificantur per caritatem quantum
+              ad hoc quod sunt meritoria vitae aeternae. Sed hoc non potest esse: quia utrumque
+              habent ex eadem ratione opera ex caritate facta, scilicet ex hoc quod sunt Deo grata;
+              unde sicut caritas adveniens non potest ea gratificare quantum ad unum, ita nec
+              quantum ad aliud.</p>
+            <p xml:id="ta-l4d15q1-d1e543">Ad primum ergo dicendum, quod non debet intelligi quod fructus computetur a tempore
+              quo primo in peccato fuit; sed a tempore in quo peccare cessavit, quo scilicet ultimo
+              in peccato fuit. Vel intelligitur, quando statim post peccatum contritus fuit, et
+              fecit multa bona antequam confiteretur. Vel dicendum, quod quanto est major contritio,
+              tanto magis diminuit de poena; et quanto aliquis plura bona facit in peccato existens,
+              magis se ad gratiam contritionis disponit; et ideo probabile est quod minoris poenae
+              sit debitor; et propter hoc debet a sacerdote discrete computari, ut ei minorem poenam
+              injungat, inquantum invenit eum melius dispositum.</p>
+            <p xml:id="ta-l4d15q1-d1e546">Ad secundum dicendum, quod Baptismus imprimit characterem in animam, non autem
+              satisfactio; et ideo adveniens caritas, quae fictionem tollit et peccatum, facit quod
+              Baptismus effectum suum habeat; non autem facit hoc de satisfactione. Et praeterea
+              Baptismus ex ipso opere operato justificat, quod non est hominis, sed Dei; et ideo non
+              eodem modo mortificatur sicut satisfactio, quae est opus hominis.</p>
+            <p xml:id="ta-l4d15q1-d1e549">Ad tertium dicendum, quod aliquae satisfactiones sunt ex quibus manet aliquis
+              effectus in satisfacientibus, etiam postquam actus satisfactionis transit; sicut ex
+              jejunio manet corporis debilitatio, ex eleemosynis largitis diminutio substantiae, et
+              sic de similibus; et tales satisfactiones in peccatis factae non oportet quod
+              iterentur; quia quantum ad id quod de eis manet, per poenitentiam Deo acceptae sunt.
+              Satisfactiones autem quae non relinquunt aliquem effectum in satisfaciente, postquam
+              actus transit, oportet quod iterentur, sicut est de oratione et similibus. Actus autem
+              interior, quia totaliter transit, nullo modo vivificatur; sed oportet quod
+              iteretur.</p>
+
+          </div>
+          <div xml:id="ta-l4d15q1-Dd1e553">
+            <head xml:id="ta-l4d15q1-Hd1e555">Quaestiuncula 4</head>
+            <p xml:id="ta-l4d15q1-d1e558">Ad quartam quaestionem dicendum, quod, sicut in 3 dist. 18, quaest. 1, art. 4,
+              quaestiunc. 1, dictum est, meritum proprie dicitur actio qua efficitur ut ei qui agit
+              sit justum aliquid dari. Sed justitia dupliciter dicitur. Uno modo proprie, quae
+              scilicet respicit debitum ex parte recipientis; alio modo quasi similitudinarie, quae
+              respicit debitum ex parte dantis. Aliquid enim decet dantem dare, quod tamen non habet
+              recipiens debitum recipiendi; et sic justitia est de essentia divinae bonitatis, sicut
+              Anselmus dicit, quod Deus justus est cum peccatoribus parcit, quia eum decet. Et
+              secundum hoc etiam meritum dicitur dupliciter. Uno modo actus per quem efficitur ut
+              ipse agens habeat debitum recipiendi; et hoc vocatur meritum condigni. Alio modo, per
+              quem efficitur ut sit debitum dandi in dante secundum decentiam ipsius; et ideo hoc
+              meritum dicitur meritum congrui. Cum autem in omnibus illis quae gratis dantur, prima
+              ratio dandi sit amor; impossibile est quod aliquis tale sibi debitum faciat, qui
+              amicitia caret; et ideo cum omnia bona et temporalia et aeterna ex divina liberalitate
+              nobis donentur, nullus acquirere potest debitum recipiendi aliquod illorum, nisi per
+              caritatem ad Deum; et ideo opera extra caritatem facta, non sunt meritoria ex condigno
+              neque aeterni neque temporalis alicujus boni apud Deum. Sed quia divinam bonitatem
+              decet ut ubicumque dispositionem invenit, perfectionem adjiciat; ideo ex merito
+              congrui dicitur aliquis mereri aliquod bonum per opera extra caritatem facta. Et
+              secundum hoc opera ista valent ad triplex bonum: scilicet ad temporalium
+              consecutionem, ad dispositionem ad gratiam, et ad assuetudinem bonorum operum. Quia
+              tamen hoc meritum non proprie meritum dicitur, ideo magis concedendum est quod
+              hujusmodi opera non sint alicujus meritoria, quam quod sint.</p>
+            <p xml:id="ta-l4d15q1-d1e561">Ad primum ergo dicendum, quod sicut philosophus dicit in 9 Ethic., quia filius per
+              omnia quae facere potest, nihil aequale patri reddere potest his quae a patre recipit,
+              ideo nunquam pater debitor filii efficitur; et multo minus homo potest propter
+              aequivalentiam operis Deum sibi constituere debitorem; et ideo nullum opus nostrum ex
+              quantitate suae bonitatis habet quod aliquid mereatur; sed ex vi caritatis, quae facit
+              ea quae sunt amicorum, esse communia. Unde quantumcumque sit opus bonum extra
+              caritatem factum, non facit, proprie loquendo, quod aliquid recipiendi a Deo faciens
+              debitum habeat; sed opus malum ex quantitate suae malitiae secundum aequivalentiam
+              poenam meretur: quia ex parte Dei non sunt nobis aliqua mala facta sicut bona; et ideo
+              quamvis opus malum mereatur ex condigno poenam, non tamen opus bonum sine caritate
+              meretur ex condigno praemium.</p>
+            <p xml:id="ta-l4d15q1-d1e564">Ad secundum et tertium dicendum, quod procedunt de merito congrui. Aliae autem
+              rationes procedunt de merito condigni.</p>
+
+          </div>
+          <div xml:id="ta-l4d15q1-Dd1e569">
+            <head xml:id="ta-l4d15q1-Hd1e571">Quaestiuncula 5</head>
+            <p xml:id="ta-l4d15q1-d1e574">Ad quintam quaestionem dicendum, quod diminuere poenam infernalem potest intelligi
+              dupliciter. Uno modo ita quod quis liberetur a poena quam jam meruit; et sic, cum
+              nullus liberetur a poena nisi sit absolutus a culpa, quia effectus non diminuuntur
+              neque tolluntur nisi diminuta vel ablata causa; per opera extra caritatem facta, quae
+              neque culpam tollere neque diminuere possunt, poena Inferni mitigari non potest. Alio
+              modo ita quod meritum poenae impediatur; et sic hujusmodi opera diminuunt poenam
+              Inferni. Primo, quia homo reatum omissionis evadit, dum hujusmodi opera perficit.
+              Secundo, quia hujusmodi opera aliquo modo ad bonum disponunt, ut homo ex minori
+              contemptu etiam peccata faciat, ut etiam a multis peccatis per hujusmodi opera
+              retrahatur. Sed diminutionem vel dilationem temporalis poenae merentur hujusmodi
+              opera, sicut dicitur de Achab, 3 regum 21, eodem modo sicut et bonorum temporalium
+              consecutionem. Quidam autem dicunt, quod minuunt poenam Inferni, non subtrahendo
+              aliquid de ipsa quantum ad substantiam, sed fortificando subjectum, ut melius
+              sustinere possit. Sed hoc non potest esse: quia fortificatio non est nisi ex ablatione
+              passibilitatis; passibilitas autem est secundum mensuram culpae; et ideo si culpa non
+              diminuitur, nec subjectum fortificari potest. Quidam etiam dicunt, quod diminuitur
+              poena quantum ad vermem conscientiae, licet non quantum ad ignem. Sed hoc etiam nihil
+              est: quia sicut poena ignis aequatur culpae, ita et poena remorsionis conscientiae;
+              unde similis ratio est de utroque.</p>
+            <p xml:id="ta-l4d15q1-d1e577">Et per hoc patet solutio ad objecta.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d15q1-Dd1e583" type="articulus">
+          <head xml:id="ta-l4d15q1-Hd1e585">Articulus 4</head>
+
+          <head xml:id="ta-l4d15q1-Hd1e588" type="questionTitle">Utrum satisfactionem oporteat fieri per opera poenalia</head>
+
+          <div xml:id="ta-l4d15q1-Dd1e591">
+            <head xml:id="ta-l4d15q1-Hd1e593">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d15q1-d1e596">Ad quartum sic proceditur. Videtur quod satisfactionem non oporteat fieri per opera
+              poenalia. Quia per satisfactionem oportet fieri recompensationem ad divinam offensam.
+              Sed nulla recompensatio videtur fieri per opera poenalia; quia Deus non delectatur in
+              poenis nostris. Ergo non oportet satisfactionem per opera poenalia fieri.</p>
+            <p xml:id="ta-l4d15q1-d1e599">Praeterea, quanto aliquod opus ex majori caritate procedit, tanto minus est poenale;
+              quia caritas poenam non habet; 1 Joan. 4. Si ergo oportet opera satisfactoria esse
+              poenalia; quanto magis sunt ex caritate facta, minus erunt satisfactoria; quod falsum
+              est.</p>
+            <p xml:id="ta-l4d15q1-d1e602">Praeterea, satisfacere est, ut dicit Anselmus, honorem debitum Deo impendere. Sed hoc
+              etiam aliis quam operibus poenalibus fieri potest. Ergo satisfactionem non oportet
+              poenalibus operibus fieri.</p>
+            <p xml:id="ta-l4d15q1-d1e605">Sed contra est quod Gregorius dicit: <quote xml:id="ta-l4d15q1-Qd1e607">justum est ut peccator tanto majora sibi
+                inferat lamenta per poenitentiam, quanto majora intulit damna per
+              culpam</quote>.</p>
+            <p xml:id="ta-l4d15q1-d1e612">Praeterea, per satisfactionem oportet sanari vulnus peccati perfecte. Sed peccatorum
+              medicinae sunt poenae, ut philosophus dicit in 2 Ethic. Ergo oportet quod per poenalia
+              opera satisfactio fiat.</p>
+
+          </div>
+          <div xml:id="ta-l4d15q1-Dd1e616">
+            <head xml:id="ta-l4d15q1-Hd1e618">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d15q1-d1e621">Ulterius. Videtur quod flagella quibus a Deo in hac vita punimur, non possint
+              satisfactoria esse. Nihil enim potest esse satisfactorium nisi quod est meritorium, ut
+              ex dictis patet. Sed non meremur nisi per ea quae in nobis sunt. Cum ergo flagella
+              quibus a Deo punimur, non sint in nobis, videtur quod satisfactoria esse non
+              possint.</p>
+            <p xml:id="ta-l4d15q1-d1e624">Praeterea, satisfactio tantum bonorum est. Sed hujusmodi flagella in malis
+              inducuntur, et praecipue eis debentur. Ergo non possunt esse satisfactoria.</p>
+            <p xml:id="ta-l4d15q1-d1e627">Praeterea, satisfactio respicit peccata praeterita. Sed aliquando ista flagella
+              infliguntur illis qui peccata non habent, sicut de Job patet. Ergo videtur quod non
+              sint satisfactoria.</p>
+            <p xml:id="ta-l4d15q1-d1e630">Sed contra est quod dicitur Rom. 5, 3: <quote xml:id="ta-l4d15q1-Qd1e632" ana="#rom5_3">tribulatio patientiam operatur;
+                patientia autem probationem et a peccato purgationem</quote>, ut Glossa ibidem
+              dicit. Ergo flagella peccata purgant, et sic sunt satisfactoria.</p>
+            <p xml:id="ta-l4d15q1-d1e637">Praeterea, Ambrosius dicit: <quote xml:id="ta-l4d15q1-Qd1e639">etsi fides</quote>, idest peccati conscientia,
+                <quote xml:id="ta-l4d15q1-Qd1e642">desit, poena satisfacit</quote>. Ergo hujusmodi flagella sunt
+              satisfactoria.</p>
+
+          </div>
+          <div xml:id="ta-l4d15q1-Dd1e647">
+            <head xml:id="ta-l4d15q1-Hd1e649">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d15q1-d1e652">Ulterius. Videtur quod inconvenienter enumerentur opera satisfactoria, cum dicitur
+              quod sunt tria; eleemosyna, jejunium, et oratio. Quia opus satisfactorium debet esse
+              poenale. Sed oratio poenam non habet, cum sit contra poenae tristitiam medicina, sed
+              delectationem; unde dicitur Jacob. 5, 13: <quote xml:id="ta-l4d15q1-Qd1e654">tristatur aliquis in vobis? Oret, et
+                psallat</quote>. Ergo non debet computari inter opera satisfactoria.</p>
+            <p xml:id="ta-l4d15q1-d1e658">Praeterea, omne peccatum vel est carnale vel spirituale. Sed, sicut dicit Hieronymus,
+              jejunio sanantur pestes corporis, oratione pestes mentis. Ergo non debet esse aliquod
+              aliud opus satisfactorium.</p>
+            <p xml:id="ta-l4d15q1-d1e661">Praeterea, satisfactio necessaria est ad emundationem peccatorum. Sed eleemosyna ab
+              omnibus peccatis emundat; Luc. 11, 41: <quote xml:id="ta-l4d15q1-Qd1e663">date eleemosynam, et omnia munda sunt
+                vobis</quote>. Ergo alia duo sunt superflua.</p>
+            <p xml:id="ta-l4d15q1-d1e667">Sed contra, videtur quod debeant esse plura. Quia contraria contrariis curantur. Sed
+              multo plura sunt peccatorum genera quam tria. Ergo debent plura satisfactionis opera
+              computari.</p>
+            <p xml:id="ta-l4d15q1-d1e671">Praeterea, peregrinationes etiam injunguntur pro satisfactione, et disciplinae, sive
+              flagellationes; quae non computantur sub aliquo horum. Ergo insufficienter
+              numerantur.</p>
+          </div>
+          <div xml:id="ta-l4d15q1-Dd1e676">
+            <head xml:id="ta-l4d15q1-Hd1e678">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d15q1-d1e681">Respondeo dicendum ad primam quaestionem, quod satisfactio, ut dictum est, respectum
+              habet ad praeteritam offensam pro qua recompensatio fit per satisfactionem, et etiam
+              ad futuram culpam, a qua per eam praeservamur; et quantum ad utrumque exigitur quod
+              satisfactio per opera poenalia fiat. Recompensatio enim offensae importat
+              adaequationem, quam oportet esse ejus qui offendit ad eum in quem offensa commissa
+              est. Adaequatio autem in humana justitia attenditur per subtractionem ab uno qui plus
+              habuit justo, et additionem ad alterum cui subtractum est aliquid. Deo autem quamvis
+              quantum ex parte sui est, nihil subtrahi possit; tamen peccator, quantum in ipso est,
+              aliquid ei subtraxit peccando, ut dictum est; unde oportet ad hoc quod recompensatio
+              fiat, quod aliquid subtrahatur a peccante per satisfactionem, quod in honorem Dei
+              cedat. Opus autem bonum, ex hoc quod est hujusmodi, non subtrahit aliquid, sed magis
+              perficit ipsum; unde subtractio non potest fieri per opus bonum, nisi poenale sit. Et
+              ideo ad hoc quod aliquod opus sit satisfactorium, oportet quod sit bonum, ut in
+              honorem Dei sit; et poenale, ut aliquid peccatori subtrahatur. Similiter etiam poena a
+              culpa futura praeservat; quia non facile homo ad peccata redit, ex quo poenam expertus
+              est; unde secundum philosophum, poenae medicinae sunt.</p>
+            <p xml:id="ta-l4d15q1-d1e684">Ad primum ergo dicendum, quod quamvis Deus non delectetur in poenis ut sunt poenae,
+              delectatur tamen in eis ut sunt justae, et sic satisfactoriae esse possunt.</p>
+            <p xml:id="ta-l4d15q1-d1e687">Ad secundum dicendum, quod sicut in satisfactione consideratur poenalitas, ita in
+              merito consideratur difficultas. Diminutio autem difficultatis ex parte ipsius actus
+              diminuit meritum ceteris paribus; sed diminutio difficultatis ex promptitudine
+              voluntatis non diminuit meritum, sed auget. Et similiter diminutio poenalitatis ex
+              promptitudine voluntatis, quod facit caritas, non diminuit efficaciam satisfactionis,
+              sed auget.</p>
+            <p xml:id="ta-l4d15q1-d1e690">Ad tertium dicendum, quod debitum pro peccato est recompensatio offensae, quae sine
+              poena peccantis non fit; et de tali debito Anselmus intelligit.</p>
+
+          </div>
+          <div xml:id="ta-l4d15q1-Dd1e694">
+            <head xml:id="ta-l4d15q1-Hd1e696">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d15q1-d1e699">Ad secundam quaestionem dicendum, quod recompensatio offensae praeteritae potest
+              fieri et ab eo qui offendit, et ab alio. Quando autem fit ab alio, talis recompensatio
+              vindicationis magis quam satisfactionis rationem habet. Quando autem fit ab ipso qui
+              offendit, etiam rationem satisfactionis habet. Unde si flagella quae pro peccatis a
+              Deo infliguntur, fiant aliquo modo ipsius patientis, rationem satisfactionis
+              accipiunt. Fiunt autem ipsius, inquantum ea acceptat ad purgationem peccatorum, eis
+              utens patienter. Si autem ratio eis per impatientiam dissentiat, tunc non efficiuntur
+              aliquo modo ipsius; et ideo non habent rationem satisfactionis, sed vindicationis
+              tantum.</p>
+            <p xml:id="ta-l4d15q1-d1e702">Ad primum ergo dicendum, quod quamvis illa flagella non sint omnino in potestate
+              nostra, tamen quantum ad aliquid sunt, cum scilicet eis patienter utimur; et sic homo
+              facit de necessitate virtutem; unde et meritoria et satisfactoria esse possunt.</p>
+            <p xml:id="ta-l4d15q1-d1e705">Ad secundum dicendum, quod sicut ex eodem igne, ut Gregorius dicit, aurum rutilat, et
+              palea fumat; ita eisdem flagellis et boni purgantur, et mali magis inficiuntur per
+              impatientiam; et ideo quamvis flagella sint communia, tamen satisfactio est tantum
+              bonorum.</p>
+            <p xml:id="ta-l4d15q1-d1e708">Ad tertium dicendum, quod flagella respectum habent ad culpam praeteritam semper, sed
+              non semper ad culpam personae, sed ad culpam naturae. Si enim in natura humana nulla
+              culpa praecessisset, nulla poena fuisset. Sed quia culpa in natura praecessit,
+              personae alicui divinitus poena infertur sine culpa personae, ad meritum virtutis et
+              cautelam peccati sequentis: et haec duo etiam necessaria sunt in satisfactione.
+              Oportet enim esse opus meritorium, ut honor Deo exhibeatur; et oportet esse virtutum
+              custodiam, ut a futuris peccatis praeservemur.</p>
+
+          </div>
+          <div xml:id="ta-l4d15q1-Dd1e712">
+            <head xml:id="ta-l4d15q1-Hd1e714">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d15q1-d1e717">Ad tertiam quaestionem dicendum, quod satisfactio, ut dictum est, debet esse talis
+              per quam aliquid nobis subtrahamus ad honorem Dei. Nos autem non habemus nisi tria
+              bona; scilicet bona animae, bona corporis, et bona fortunae, scilicet exteriora. Ex
+              bonis quidem fortunae subtrahimus aliquid nobis per eleemosynam; sed ex bonis
+              corporalibus per jejunium; ex bonis autem animae non oportet quod aliquid subtrahamus
+              nobis quantum ad essentiam vel quantum ad diminutionem ipsorum, quia per ea efficimur
+              Deo accepti sed per hoc quod ea submittimus Deo totaliter; et hoc fit per orationem.
+              Competit etiam iste numerus ex parte illa qua satisfactio peccatorum causas excidit;
+              quia radices peccatorum tres ponuntur 1 Joan. 2: <quote xml:id="ta-l4d15q1-Qd1e719">concupiscentia carnis,
+                concupiscentia oculorum, et superbia vitae</quote>. Et contra concupiscentiam carnis
+              ordinatur jejunium; contra concupiscentiam oculorum, eleemosyna; contra superbiam
+              vitae, oratio ut Augustinus dicit super Matth. Competit etiam quantum ad hoc quod
+              satisfactionis est, peccatorum suggestionibus aditum non indulgere; quia omne peccatum
+              vel in Deum committimus, et contra hoc ordinatur oratio; vel in proximum, et contra
+              hoc eleemosyna; vel in nos ipsos, et contra hoc ordinatur jejunium.</p>
+            <p xml:id="ta-l4d15q1-d1e723">Ad primum ergo dicendum, quod secundum quosdam duplex est oratio: quaedam quae est
+              contemplativorum, quorum conversatio in caelis est; et talis, quia totaliter est
+              delectabilis, non est satisfactoria: alia est quae pro peccatis gemitus fundit; et
+              talis habet poenam, et est satisfactionis pars. Vel dicendum est melius, quod
+              quaelibet oratio habet rationem satisfactionis: quia quamvis habeat suavitatem
+              spiritus, tamen habet afflictionem carnis: quia, ut dicit Gregorius super Ezech., dum
+              crescit in nobis fortitudo amoris intimi, infirmatur proculdubio fortitudo carnis;
+              unde et nervus femoris Jacob ex lucta Angeli emarcuisse legitur in Genesi cap. 32.</p>
+            <p xml:id="ta-l4d15q1-d1e726">Ad secundum dicendum, quod peccatum carnale dicitur dupliciter. Uno modo quod in ipsa
+              delectatione carnis completur, ut gula et luxuria; alio modo quod completur in his
+              quae ad carnem ordinantur, quamvis non in delectatione carnis, sed in delectatione
+              animae magis, ut avaritia; unde talia peccata sunt quasi media inter spiritualia et
+              carnalia; et ideo oportet quod eis etiam respondeat aliqua satisfactio propria,
+              scilicet eleemosyna.</p>
+            <p xml:id="ta-l4d15q1-d1e729">Ad tertium dicendum, quod quamvis singula istorum per quamdam convenientiam singulis
+              peccatis approprientur, quia congruum est ut in quo quis peccavit, in hoc puniatur, et
+              quod peccati commissi per satisfactionem radix abscindatur; tamen quodlibet horum pro
+              quolibet peccato satisfacere potest. Unde ei qui non potest unum ex eis perficere,
+              injungatur aliud; et praecipue eleemosyna aliorum vices supplere potest, inquantum
+              alia satisfactionis opera per eleemosynam sibi quisque mercatur quodammodo in illis
+              quibus eleemosynam tribuit; unde non oportet quod si eleemosyna omnia mundat peccata,
+              propter hoc aliae satisfactiones superfluant.</p>
+            <p xml:id="ta-l4d15q1-d1e733">Ad quartum dicendum, quod quamvis sint multa peccata in specie, tamen omnia ad illas
+              tres radices, vel ad illa tria peccatorum genera quibus diximus dictas satisfactiones
+              respondere, reducuntur.</p>
+            <p xml:id="ta-l4d15q1-d1e736">Ad quintum dicendum, quod quidquid ad afflictionem corporis pertinet, totum ad
+              jejunium refertur; et quidquid ad proximi utilitatem expenditur, totum elemosynae
+              rationem habet; et similiter quaecumque latria exhibeatur Deo, orationis accipit
+              rationem; et ideo etiam unum opus potest habere plures rationes satisfaciendi.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d15q1-Dd1e741" type="articulus">
+          <head xml:id="ta-l4d15q1-Hd1e743">Articulus 5</head>
+
+          <head xml:id="ta-l4d15q1-Hd1e746" type="questionTitle">Utrum restitutio sit satisfactionis pars</head>
+
+          <div xml:id="ta-l4d15q1-Dd1e749">
+            <head xml:id="ta-l4d15q1-Hd1e751">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d15q1-d1e754">Ad quintum sic proceditur. Videtur quod restitutio sit satisfactionis pars. Quia
+              satisfactio reconciliat Deo et proximo. Sed per restitutionem homo reconciliatur
+              proximo. Ergo restitutio est satisfactionis pars.</p>
+            <p xml:id="ta-l4d15q1-d1e757">Praeterea, satisfactio fit per contrarium peccati, sicut per jejunium satisfacimus de
+              gula. Sed contrarium peccati malae ablationis est restitutio. Ergo restitutio est
+              quaedam satisfactionis pars.</p>
+            <p xml:id="ta-l4d15q1-d1e760">Praeterea, Ambrosius dicit, quod vera poenitentia est a peccato cessare. Sed qui
+              restituit, a peccato cessat: quia quamdiu quis alienum eo invito detinet, peccat. Ergo
+              restitutio est pars poenitentiae. Sed non nisi ratione satisfactionis. Ergo est pars
+              satisfactionis.</p>
+            <p xml:id="ta-l4d15q1-d1e763">Sed contra, satisfactio fit Deo, ut patet per definitionem Anselmi supra positam. Sed
+              restitutio fit proximo. Ergo satisfactionis non est restitutio pars.</p>
+            <p xml:id="ta-l4d15q1-d1e767">Praeterea, satisfactio ponitur in arbitrio sacerdotis poenitentiam injungentis; non
+              autem restitutio. Ergo restitutio non est satisfactionis pars.</p>
+
+          </div>
+          <div xml:id="ta-l4d15q1-Dd1e771">
+            <head xml:id="ta-l4d15q1-Hd1e773">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d15q1-d1e776">Ulterius. Videtur quod ablatum non semper debet restitui. Fama enim restitui non
+              potest. Sed fama aufertur. Ergo non de omni ablato potest fieri restitutio.</p>
+            <p xml:id="ta-l4d15q1-d1e779">Praeterea, damna in personam illata, sunt maxima. Sed hujusmodi damna non possunt
+              restitui, ut ablatio virginitatis, abscissio membri alicujus. Ergo non omne ablatum
+              potest restitui.</p>
+            <p xml:id="ta-l4d15q1-d1e782">Praeterea, qui impedit aliquem a consecutione alicujus, videtur hoc sibi auferre. Sed
+              hoc non debet ei restituere vel recompensare, sicut si quis impedit aliquem ne
+              praebendam consequatur. Ergo videtur quod non omne ablatum debeat restitui.</p>
+            <p xml:id="ta-l4d15q1-d1e785">Praeterea, qui occasionem damni dat, damnum dedisse videtur. Sed ille qui subvertit
+              semina in campo projecta, dat occasionem damni de toto fructu qui inde sequi posset;
+              et similiter de illo qui detinet pecuniam creditoris ultra terminum praefixum, ex qua
+              ille poterat lucrari, de toto lucro quod accidere potuisset: nec tamen videtur quod
+              teneatur ad restitutionem totius lucri quod accidere potuisset, vel fructus qui
+              percipiendus esset. Ergo non oportet quod semper fiat ablatorum restitutio.</p>
+            <p xml:id="ta-l4d15q1-d1e789">Sed contra, videtur quod homo debet plus restituere quam abstulerit. Quia praeceptum
+              legis veteris est, ut patet Exod. 22, quod ovis reddatur in quadruplum, et bos in
+              quintuplum; et hoc praeceptum, cum sit de moribus, videtur esse morale. Ergo adhuc
+              manet: ergo tenetur homo in quintuplum vel quadruplum restituere.</p>
+            <p xml:id="ta-l4d15q1-d1e792">Praeterea, ea quae in Scriptura ponuntur, nobis in exemplum dantur. Sed Luc. 10
+              dicitur, quod Zachaeus se obtulit ad restitutionem in quadruplum eorum quae acceperat
+              per fraudem. Ergo et talis debet esse apud nos restitutionis modus.</p>
+
+          </div>
+          <div xml:id="ta-l4d15q1-Dd1e796">
+            <head xml:id="ta-l4d15q1-Hd1e798">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d15q1-d1e801">Ulterius. Videtur quod solus ille qui accipit, ad restitutionem teneatur. Quia non
+              exigitur plus in restitutione quam illatum est in damno. Si ergo unus solus damnum
+              intulit, ille solus ad restitutionem tenetur: alias multo plura reciperet damnificatus
+              quam ea quae amisit, si a quolibet consentiente deberet sibi in solidum restitutio
+              fieri.</p>
+            <p xml:id="ta-l4d15q1-d1e804">Praeterea, nulli debetur restitutio nisi ei qui damnum passus est. Sed contingit quod
+              aliquis praecipiat damnificari aliquem, vel consulat, aut consentiat; et tamen ille
+              non damnificatur. Ergo tales non semper ad restitutionem tenentur.</p>
+            <p xml:id="ta-l4d15q1-d1e807">Praeterea, nullus debet incurrere damnum personae pro evitando damno pecuniae
+              alterius: quia caritas debet esse ordinata. Sed quandoque si aliquis raptorem
+              manifestaret, incurreret personae suae periculum. Ergo non est verum quod teneatur
+              ille qui non manifestat, ad restitutionem, ut quidam dicunt.</p>
+            <p xml:id="ta-l4d15q1-d1e810">Praeterea, multi etiam boni viri non reprehendunt eos quos vident injuste accipere
+              aliena; unde durum esset dicere, quod tenerentur ad restitutionem omnium. Ergo etiam
+              ille qui non reprehendit, non tenetur, ut a quibusdam dicitur, restituere. Similiter
+              etiam potest objici de illis qui non obstant, et tamen obstare possunt.</p>
+
+          </div>
+          <div xml:id="ta-l4d15q1-Dd1e815">
+            <head xml:id="ta-l4d15q1-Hd1e817">Quaestiuncula 4</head>
+            <p xml:id="ta-l4d15q1-d1e820">Ulterius. Videtur quod non sit semper restitutio facienda ei qui damnum passus est.
+              Nullus enim potest restituere ei quem non cognoscit. Sed quandoque fur nescit cujus
+              sit res quam furto accepit. Ergo videtur quod non teneatur ei restituere.</p>
+            <p xml:id="ta-l4d15q1-d1e823">Praeterea, ille qui accepit, non tenetur nisi ad restitutionem. Sed aliquando ad eum
+              cui debet fieri restitutio, non posset pervenire sine magno damno; forte etiam cum
+              majori quam sit pretium rei restituendae. Ergo videtur quod in tali casu non teneatur
+              ei restituere.</p>
+            <p xml:id="ta-l4d15q1-d1e826">Praeterea, aliquis in depraedatione civitatum injuste accipit aliqua. Sed non potest
+              ei cujus fuit, restituere: quia vel nescit eum, vel mortuus est. Ergo videtur quod non
+              teneatur restituere.</p>
+            <p xml:id="ta-l4d15q1-d1e829">Praeterea, aliquis praelatus Ecclesiae injuste aliquas res Ecclesiae concedit alicui.
+              Sed iste non tenetur reddere Ecclesiae, ut videtur, quia venirent ad manus illius
+              praelati, qui non est dignus ea recipere. Ergo videtur quod non semper ei qui damnum
+              passus est, sit restitutio facienda.</p>
+            <p xml:id="ta-l4d15q1-d1e833">Sed contra est, quia per restitutionem integratur aequalitas justitiae. Sed
+              aequalitas justitiae est ut quod aufertur a lucro, apponatur ad damnum, ut dicitur in
+              5 Ethic. Ergo videtur quod restitutio sit semper facienda ei qui damnum passus
+              est.</p>
+          </div>
+          <div xml:id="ta-l4d15q1-Dd1e837">
+            <head xml:id="ta-l4d15q1-Hd1e839">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d15q1-d1e842">Respondeo dicendum ad primam quaestionem, quod inaequalitas justitiae opposita duobus
+              modis contingit. Uno modo in rebus exterioribus, ut quando unus rem alienam detinet;
+              alio modo in actionibus et passionibus, sicut cum quis alium per violentiam
+              reverberat; et haec duo aliquando separata sunt, ut per se patet; aliquando autem
+              conjunguntur, ut cum quis per violentiam accepit, in quo ei a quo accepit, injuriam et
+              contumeliam infert; et secundum hoc reparatio aequalitatis justitiae dupliciter
+              significatur. Reparatio enim inaequalitatis existentis in rebus, restitutio dicitur;
+              reparatio autem inaequalitatis existentis in actionibus et passionibus, satisfactio
+              nominatur; et ideo quandoque est satisfactio sine restitutione aliqua, ut cum quis se
+              proximo humiliat de aliquibus contumeliis ei dictis; aliquando autem restitutio sine
+              satisfactione, ut cum quis mutuum reddit; aliquando autem utrumque exigitur; ut cum
+              quis alicui per violentiam rem suam subtraxit: et sic loquimur hic de restitutione rei
+              male ablatae, in quo homo proximum et Deum offendit. Quidam ergo dicunt, quod talis
+              restitutio non est pars satisfactionis, quia non debetur Deo tantum; nec est ad
+              arbitrium sacerdotis, sed est ad satisfactionem praeambulum. Sed hoc nihil est: quia
+              omne peccatum quod in proximum committitur, etiam in Deum commissum est; sicut et in
+              dilectione proximi dilectio Dei includitur; unde et satisfactio proximi conjunctam
+              habet satisfactionem Dei. Nec obstat quod non est ad arbitrium sacerdotis: quia
+              sacerdos non est ibi vicarius proximi, sicut est vicarius Dei; et ideo satisfactio
+              quae est Deo facienda, dependet ex arbitrio ejus; sed satisfactio quae est proximo et
+              Deo simul facienda, non. Et ideo alii dicunt, quod est satisfactionis pars. Sed hoc
+              verum non est: quia satisfactio offensam removet, et a poena liberat. Nullus autem ex
+              hoc ipso quod offendere desistit, consequitur hoc quod de offensa praecedenti
+              reconciliationem inveniat, vel poenam pro illa debitam evadat; sed hoc solum
+              consequitur, quod majorem offensam et poenam non cumulat; et sic cessare ab offensa
+              nulla pars satisfactionis est, sed est praeambulum ad satisfactionem. Et ideo, cum
+              restitutio nihil aliud sit quam ab offensa cessare, quia ex hoc ipso quod rem alienam
+              detinet eo invito, offendit; constat quod non est pars satisfactionis proprie
+              acceptae, sed est praeambulum ad satisfactionem; non tamen propter rationem prius
+              assignatam: quia bene concedimus quod satisfactio proximo facta, est pars
+              satisfactionis Deo factae; sed restitutio non est pars satisfactionis neque Deo neque
+              proximo factae.</p>
+            <p xml:id="ta-l4d15q1-d1e845">Ad primum ergo dicendum, quod de offensa homo proximo non reconciliatur per hoc quod
+              sua ei restituit, sed per hoc quod supra hoc aliquid humilitatis ei exhibet; et ita
+              non sequitur quod restitutio sit satisfactionis pars.</p>
+            <p xml:id="ta-l4d15q1-d1e848">Ad secundum dicendum, quod restitutio non est contrarium ad acceptionem vel
+              detentionem injustam; sed magis est negatio vel privatio ipsius; et ideo non oportet
+              quod hoc sufficiat ad satisfactionem, sicut nec est satisfactorium pro gula ut quis
+              non immoderate comedat, sed ut etiam a moderatis abstineat.</p>
+            <p xml:id="ta-l4d15q1-d1e851">Ad tertium dicendum, quod cessare a peccato dicitur esse pars poenitentiae, non
+              quidem desistendo a peccato praeterito sicut praeambulum ad poenitentiam, sed
+              praecidendo causas futurorum peccatorum, ut dictum est prius.</p>
+
+          </div>
+          <div xml:id="ta-l4d15q1-Dd1e855">
+            <head xml:id="ta-l4d15q1-Hd1e857">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d15q1-d1e860">Ad secundam quaestionem dicendum, quod per satisfactionem oportet quod homo sicut
+              Deo, ita proximo reconcilietur. Reconciliatio autem nihil aliud est quam amicitiae
+              reparatio. Manente autem causa dissolutionis amicitiae, amicitia reparari non potest;
+              quae quidem causa fuit inaequalitas ex injusta acceptione vel detentione causata; et
+              ideo ille satisfacere non potest, nec Deo reconciliari, qui rem male ablatam, vel
+              detentam male, non restituit. Sed sciendum, quod amicitia, ut philosophus dicit in 8
+              Ethic., non requirit semper aequale, sed quod possibile; et ideo si aliqua sunt ablata
+              quae omnino restitui non possunt, sufficit voluntas restituendi cum tanta restitutione
+              quanta possibilis est secundum conditionem utriusque ad arbitrium bonorum.</p>
+            <p xml:id="ta-l4d15q1-d1e863">Ad primum ergo dicendum, quod ille qui malitiam alicujus manifestat et qui habet
+              corrigere, vel etiam, si sit incorrigibilis, in conspectu Ecclesiae, ut confusus a
+              peccato desistat, vel saltem ut alii ab ejus consortio corruptivo discedant, servato
+              ordine caritatis fraternae, non injuste famam aufert; unde non tenetur ad famae
+              restitutionem. Si autem intentione diffamandi hoc fecerit, injuste aufert, etiam si
+              verum sit quod dicit; et tunc tenetur ad famae restitutionem vel dicendo se falsum
+              dixisse, si falsum dixit; vel quocumque alio modo, non mentiendo, si verum dixit, sine
+              hoc tamen quod se verum dixisse dicat; quia non debet alterius famam cum mendacio
+              restituere.</p>
+            <p xml:id="ta-l4d15q1-d1e866">Ad secundum dicendum, quod restitutio principaliter inventa est in damnis quae
+              inferuntur in rebus fortunae, quae restitui possunt: in his autem quae objectio
+              tangit, quae non possunt ad simile bonum restitui, debet fieri restitutio qualis
+              possibilis est, scilicet ad arbitrium bonorum.</p>
+            <p xml:id="ta-l4d15q1-d1e869">Ad tertium dicendum, quod ille qui impedit aliquem ne praebendam consequatur, si hoc
+              faciat quia indignus est, vel ut de alio melius provideatur, non injuste facit; unde
+              non tenetur ad restitutionem; si autem animo laedendi ipsum, tenetur ad restitutionem,
+              non quidem tanti quantum valebat praebenda, quia ipse eam non bene erat consecutus;
+              sed pensatis conditionibus utriusque secundum arbitrium bonorum.</p>
+            <p xml:id="ta-l4d15q1-d1e873">Ad quartum dicendum, quod ille qui subfodit semina, non tenetur ad tantum quantum
+              agri fructus valituri erant, sed quantum ager sic seminatus valere consuevit; quia
+              multis de causis potest impediri agrorum fructus. Et similiter dicendum est de eo cui
+              debitum non restituitur suo tempore; quia non tenetur restituere tantum quantum
+              lucrari potuisset; sed secundum aestimationem lucri quod accidere consuevit, pensato
+              labore, et infortuniis etiam, quae in lucro accidere alias possent; quia lucrum non
+              causatur tantum ex pecunia, sed ex industria et labore.</p>
+            <p xml:id="ta-l4d15q1-d1e876">Ad quintum dicendum, quod illud praeceptum legis quamvis sit de moribus, non tamen
+              est morale, sed judiciale. Talia enim praecepta pro loco et tempore populo illi
+              dabantur; unde tunc non obligant nisi de novo statuerentur ab aliquo qui statuendi
+              haberet potestatem. Nihilominus tamen inquantum habebant aliquid significationis per
+              Christum, impleta sunt hujusmodi praecepta, sicut et caeremonialia.</p>
+            <p xml:id="ta-l4d15q1-d1e879">Ad sextum dicendum, quod Zachaeus non dixit hoc quasi necessarium, sed ex
+              abundanti.</p>
+
+          </div>
+          <div xml:id="ta-l4d15q1-Dd1e883">
+            <head xml:id="ta-l4d15q1-Hd1e885">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d15q1-d1e888">Ad tertiam quaestionem dicendum, quod quidam versus dantur de illis qui tenentur ad
+              restitutionem, tales: <quote xml:id="ta-l4d15q1-Qd1e890">jussio, consilium, consensus, palpo, recursus,
+                participans, mutus, non obstans, non manifestans</quote>. Sed tantum quinque istorum
+              sunt quae ad restitutionem semper obligant; quorum primum est jussio, quando aliquis
+              jubet aliquem depraedari: alias tyranni non tenerentur ad restitutionem. Secundus est
+              consensus ad rapinam perpetrandam in eo sine quo rapina fieri non poterat. Tertium est
+              recursus, quando scilicet aliquis receptator latronum est, et eis patrocinium
+              praestat. Quartum est participatio, quando aliquis latroni se sociat ad spoliandum, et
+              partem spoliorum accipit. Quintum est non obstans, cum scilicet ex officio obstare
+              tenetur, ut principes terrae, qui justitiam servare debent, si non obstant cum obstare
+              possint, ad restitutionem tenentur. In aliis autem causis enumeratis non obligatur
+              semper quis ad restitutionem, nisi in certis casibus, quando probabiliter credit quod
+              consilium suum fuit efficax, et quod alias injusta ablatio commissa non fuisset.
+              Similiter etiam non omnis palpo, idest adulator, ad restitutionem tenetur; sed ille
+              qui adulando ad auferendum incitat, dicens hoc signum strenuitatis esse. Similiter
+              etiam mutus dicitur qui ex officio reclamare tenetur et non reclamat; nec tunc semper
+              tenetur ad restitutionem, nisi operetur ut fiat injusta ablatio; sed debet inducere
+              eum qui abstulit, ut reddat. Similiter etiam non omnis qui non manifestat, tenetur ad
+              restitutionem; sed ille qui pro latrocinio celat, et particeps est lucri. In omnibus
+              autem his, si principalis restituit, alii deobligantur a debito restitutionis.</p>
+            <p xml:id="ta-l4d15q1-d1e894">Et per hoc patet solutio ad objecta.</p>
+
+          </div>
+          <div xml:id="ta-l4d15q1-Dd1e898">
+            <head xml:id="ta-l4d15q1-Hd1e900">Quaestiuncula 4</head>
+            <p xml:id="ta-l4d15q1-d1e903">Ad quartam quaestionem dicendum, quod restituere est iterato statuere aliquem in suae
+              rei possessione; et ideo patet quod illi qui privatus est re sua, debet fieri
+              restitutio.</p>
+            <p xml:id="ta-l4d15q1-d1e906">Ad primum ergo dicendum, quod quando incertus est dominus rerum ablatarum, pauperes
+              sunt heredes; et ideo non deobligatur a debito restitutionis, nisi det pauperibus pro
+              anima illius cui restitutio debebatur, adhibita tamen prius diligentia debita.</p>
+            <p xml:id="ta-l4d15q1-d1e909">Ad secundum dicendum, quod si sit res magni valoris, debet sibi transmittere, si
+              potest commode; nec obstat si damnum de remissione patitur, quia ipse sibi causa fuit
+              injuste auferendo. Si autem transmittere non possit, vel res sit non magni valoris,
+              potest eam dare propinquis illius si habet, vel alicui coenobio, si non habet
+              propinquos, cum protestatione tali quod ei reddere teneantur, si requisiverit, vel
+              unquam comparuerit.</p>
+            <p xml:id="ta-l4d15q1-d1e912">Ad tertium dicendum, quod ille qui illo modo accipit, debet pauperibus illius villae
+              restituere, vel in alios usus communitatis illius civitatis expendere secundum
+              arbitrium episcopi, vel illorum ad quos pertinet cura illius civitatis.</p>
+            <p xml:id="ta-l4d15q1-d1e916">Ad quartum dicendum, quod debet fieri restitutio Ecclesiae, ut res illae deveniant ad
+              successorem illius praelati; quia quamvis ipse eas recipere non mereatur, Ecclesia
+              tamen perdere eas non debet.</p>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

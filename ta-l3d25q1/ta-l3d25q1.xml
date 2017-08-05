@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum III, Distinctio 25, Quaestio 1</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.09-dev-master">
+          <title>Librum III, Distinctio 25, Quaestio 1</title>
+          <date when="2016-03-13">March 13, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-13">March 13, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness>1856 editum</witness>
+          <witness xml:id="H" n="harv245" xml:base="http://iiif.lib.harvard.edu/manifests/drs:51994085/canvas/">Cambridge, Mass.,
+            Harvard University, Houghton Library, MS Lat 245</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="2015.09">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+
+
+
+
+      <div xml:id="starts-on">
+        <cb ed="#H" n="92ra"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ta-l3d25q1">
+        <head xml:id="ta-l3d25q1-Hd1e97">Librum III, Distinctio 25, Quaestio 1</head>
+        <div xml:id="ta-l3d25q1-Dd1e100">
+          <head xml:id="ta-l3d25q1-Hd1e102">Prooemium</head>
+          <p xml:id="ta-l3d25q1-d1e105">Postquam <name ref="#Lombard">Magister</name> determinavit de fide quantum ad suam
+            essentiam, quae per definitionem cognoscitur, et de objecto fidei; hic determinat de
+            ipsa per comparationem ad habentem ratione quantitatis, secundum quam crescit in habente
+            fidem. Dividitur autem haec pars in duas: in prima determinat de fide prout comparatur
+            ad credentes secundum quantitatem quam habet ex numero credibilium; in secunda secundum
+            quantitatem quam habet ex intensione habitus, ibi: <quote xml:id="ta-l3d25q1-Qd1e110">illud etiam non est
+              praetermittendum</quote>. Circa primum tria facit: primo ostendit quod fides
+            sufficiens ad salutem, se extendit ad cognitionem deitatis; secundo quod se extendit ad
+            cognitionem redemptoris, ibi: <quote xml:id="ta-l3d25q1-Qd1e113">sed quaeritur, utrum hoc credere ante adventum et
+              ante legem ad salutem suffecerit</quote>; tertio ostendit ad quos articulos
+            redemptoris fides se extendit, ibi: <quote xml:id="ta-l3d25q1-Qd1e116">sed quaeritur, cum sine fide mediatoris
+              antiquis non fuerit salus, sicut nec modernis, utrum oportuerit illos credere omnia
+              illa de mediatore quae nos credimus. Sed quaeritur, utrum hoc credere ante adventum et
+              ante legem ad salutem suffecerit</quote>. Hic duo facit: primo ostendit propositum;
+            secundo removet quamdam quaestionem ex dictis, ibi: <quote xml:id="ta-l3d25q1-Qd1e119">quid ergo dicetur de illis
+              simplicibus quibus non erat revelatum mysterium incarnationis? Sed quaeritur, cum sine
+              fide mediatoris antiquis non fuerit salus</quote> et cetera. Hic etiam duo facit:
+            primo ostendit propositum; secundo movet quaestionem, ibi: <quote xml:id="ta-l3d25q1-Qd1e123">solet etiam quaeri de
+              Cornelio. Illud etiam praetermittendum non est</quote>. Hic ostendit quod fides
+            secundum quantitatem quam habet ex intensione habitus, aequatur spei, caritati, et
+            operationi; et circa hoc duo facit: primo ostendit propositum; secundo solvit
+            dubitationem, ibi: <quote xml:id="ta-l3d25q1-Qd1e126">huic vero quod hic et superius dictum est (...) videtur
+              obviare quod ait apostolus</quote>. Hic est duplex quaestio. Prima de definitione
+            articulorum. Secunda de explicita eorum cognitione. Circa primum quaeruntur duo: 1 de
+            articulo secundum se; 2 de distinctione articulorum ad invicem.</p>
+        </div>
+        <div xml:id="ta-l3d25q1-Dd1e131" type="articulus">
+          <head xml:id="ta-l3d25q1-Hd1e133">Articulus 1</head>
+          <head xml:id="ta-l3d25q1-Hd1e136" type="questionTitle">Utrum definitio Richardi de s. Victore de articulo sit
+            competens</head>
+          <div xml:id="ta-l3d25q1-Dd1e139">
+
+
+            <head xml:id="ta-l3d25q1-Hd1e141">Quaestiuncula 1</head>
+            <p xml:id="ta-l3d25q1-d1e144">Ad primum sic proceditur, et exponitur definitio Richardi de sancto Victore, quae
+              talis est: <quote xml:id="ta-l3d25q1-Qd1e146">articulus est indivisibilis veritas de Deo, arctans nos ad
+                credendum</quote>. Videtur autem quod sit incompetens. Quia indivisibilis veritas
+              est veritas incomplexi. Sed fides est de complexi, ut supra dictum est. Ergo articulus
+              fidei non est indivisibilis veritas.</p>
+            <p xml:id="ta-l3d25q1-d1e150">Praeterea, inter articulos fidei ponuntur aliqua quae non pertinent ad Deum nisi
+              sicut ad causam, sicut carnis resurrectio. Sed hoc non sufficit ad hoc quod dicatur
+              veritas esse de Deo: quia sic omnis veritas a Deo est; non tamen omnis veritas ad
+              articulum fidei pertinet. Ergo videtur quod inconvenienter dicatur de Deo.</p>
+            <p xml:id="ta-l3d25q1-d1e153">Praeterea, arctatio necessitatem importat. Sed fides voluntaria est: quia nullus
+              credit nisi volens, ut dicit Augustinus. Ergo male dicit, quod est <quote xml:id="ta-l3d25q1-Qd1e155">arctans ad
+                credendum</quote>.</p>
+            <p xml:id="ta-l3d25q1-d1e159">Item, ponitur alia definitio Isidori: <quote xml:id="ta-l3d25q1-Qd1e161">articulus est perceptio divinae
+                veritatis tendens in ipsam</quote>. Quia perceptio divinae veritatis est etiam per
+              rationem naturalem, sicut quod scimus Deum esse; et tamen de hoc non est articulus.
+              Ergo male definit articulum.</p>
+            <p xml:id="ta-l3d25q1-d1e166">Item, objicitur de definitione Hugonis de sancto Victore: <quote xml:id="ta-l3d25q1-Qd1e168">articulus est natura
+                cum gratia</quote>. Quia articulus est res credita. Sed natura cum gratia est
+              credens. Ergo, cum credens non sit creditum, articulus male definitur.</p>
+          </div>
+          <div xml:id="ta-l3d25q1-Dd1e173">
+            <head xml:id="ta-l3d25q1-Hd1e175">Quaestiuncula 2</head>
+            <p xml:id="ta-l3d25q1-d1e178">Ulterius. Videtur quod articulus possit dici formatus et informis. Objectum enim
+              proportionatur habitui. Sed fidei objectum est articulus. Cum ergo fides sit formata
+              et informis, videtur quod etiam articuli.</p>
+            <p xml:id="ta-l3d25q1-d1e181">Praeterea, tendere in Deum est actus fidei formatae. Sed articuli est tendere in
+              Deum, ut patet per alteram definitionum assignatarum. Ergo articulus potest esse
+              informis, et formatus.</p>
+            <p xml:id="ta-l3d25q1-d1e184">Praeterea, unus articulus est: <quote xml:id="ta-l3d25q1-Qd1e186">credo in Deum</quote>. Sed hic est actus fidei
+              formatae. Ergo articulus est etiam formatus et informis.</p>
+            <p xml:id="ta-l3d25q1-d1e190">Sed contra, in articulis fidei non differt peccator et justus. Differt autem secundum
+              formationem et informitatem. Ergo formatio et informitas non pertinent ad
+              articulos.</p>
+            <p xml:id="ta-l3d25q1-d1e194">Praeterea, mutare articulos non est in potestate hominis. Sed informitas est in
+              potestate hominis, inquantum ex peccato causatur. Ergo informitas non consideratur
+              circa articulum.</p>
+          </div>
+          <div xml:id="ta-l3d25q1-Dd1e198">
+            <head xml:id="ta-l3d25q1-Hd1e200">Quaestiuncula 3</head>
+            <p xml:id="ta-l3d25q1-d1e203">Ulterius. Videtur quod articuli non debuerunt colligi in symbolo. Quia tota fides
+              sufficienter per sacram Scripturam instruitur. Ergo superfluum fuit symbolum
+              condere.</p>
+            <p xml:id="ta-l3d25q1-d1e206">Praeterea, symbolum proponitur ut regula fidei, cujus actus est assentire. Sed, sicut
+              dicit Augustinus in epistola 19 ad Hieronymum, solis apostolis et prophetis est hic
+              honor exhibendus, ut quaecumque dixerunt, haec ipsa vera esse credantur. Ergo post
+              symbolum apostolorum non debuerunt alia symbola fieri.</p>
+            <p xml:id="ta-l3d25q1-d1e209">Praeterea, quaeritur, quare symbolum apostolorum et Nicaenum dividitur in tres partes
+              secundum tres personas; symbolum autem Athanasii secundum divinitatem et humanitatem
+              partitur.</p>
+            <p xml:id="ta-l3d25q1-d1e212">Praeterea, quaeritur, quare symbolum apostolorum dicitur submisse in prima et
+              completorio; alia vero duo alte, unum post Evangelium, alterum in prima.</p>
+          </div>
+          <div xml:id="ta-l3d25q1-Dd1e217">
+            <head xml:id="ta-l3d25q1-Hd1e219">Quaestiuncula 1</head>
+            <p xml:id="ta-l3d25q1-d1e222">Respondeo dicendum ad primam quaestionem, quod articulus nomen Graecum est; et
+              importat indivisionem; unde membra quae non dividuntur in alia membra, dicuntur
+              articuli: et secundum istum modum conclusiones quae inquiruntur in aliqua scientia vel
+              aliquo tractatu, dicuntur articuli: quia ex eis, sicut ex quibusdam principiis
+              indivisibilibus, consurgit collectio quae tractatum perficit: et sic in judiciis ea
+              quae per testes probata sunt vel probanda, dicuntur articuli. Fides autem non inquirit
+              sed supponit ea quae sunt fidei ex testimonio Dei ea dicentis: unde illud quod habet
+              specialem difficultatem in fide, et cujus suppositio non dependet ab alio supposito,
+              proprie dicitur articulus fidei. Et ideo in definitione praedicta Richardus secutus
+              est et proprietatem nominis, dicens, quod <quote xml:id="ta-l3d25q1-Qd1e224">est indivisibilis veritas</quote>, et
+              etymologiam, secundum quod sonat in lingua Latina, dicens quod <quote xml:id="ta-l3d25q1-Qd1e227">arctat nos ad
+                credendum</quote>.</p>
+            <p xml:id="ta-l3d25q1-d1e231">Ad primum ergo dicendum, quod in incomplexis, per se loquendo, non est veritas nisi
+              aequivoce: unde indivisibile intelligendum est non simpliciter, sed in genere
+              complexorum.</p>
+            <p xml:id="ta-l3d25q1-d1e234">Ad secundum dicendum, quod articuli fidei dicuntur esse de Deo, aut quia pertinent ad
+              divinam naturam, aut quia ad personam (sive ratione sui, sive ratione naturae
+              assumptae), aut effectus proprius ejus, qui non potest fieri aliqua virtute creata,
+              nec percipitur ratione humana: et ideo objectio cessat.</p>
+            <p xml:id="ta-l3d25q1-d1e237">Ad tertium dicendum, quod articulus dicitur arctare ad credendum non de necessitate
+              coactionis, sed de necessitate finis: quia sine fide articulorum non potest esse
+              salus.</p>
+            <p xml:id="ta-l3d25q1-d1e241">Ad quartum dicendum, quod perceptio divinae veritatis quae fit per rationem
+              naturalem, tendit, sicut in id cui innititur, in intellectum principiorum; sed
+              perceptio divinae veritatis quae est articulus, tendit in primam veritatem non solum
+              sicut in finem, vel objectum, sed sicut in id in quod resolvitur sicut in causam suae
+              credulitatis.</p>
+            <p xml:id="ta-l3d25q1-d1e244">Ad quintum dicendum, quod Hugo non intendit definire articulum, sed ostendere quae
+              sunt ea de quibus est fides: quia est de operibus conditionis, quibus instituta est
+              natura, et de operibus reparationis, quibus collata est gratia Dei.</p>
+          </div>
+          <div xml:id="ta-l3d25q1-Dd1e248">
+            <head xml:id="ta-l3d25q1-Hd1e250">Quaestiuncula 2</head>
+            <p xml:id="ta-l3d25q1-d1e253">Ad secundam quaestionem dicendum, quod articulus nominat id quod credendum est quasi
+              objectum fidei. Diversa autem dispositio operantis nihil variat in objecto
+              operationis; nec objectum denominatur ex dispositione operantis, sed magis e converso;
+              sicut color non denominatur ex diversa dispositione videntis, secundum quod quidam
+              habent lippos oculos, et quidam claros: unde cum formatio fidei et informitas ad
+              dispositionem credentis pertineant, nec etiam secundum id quod est proprium
+              intellectus in quo est fides, sed secundum relationem ejus ad voluntatem, in qua est
+              caritas, non potest proprie dici, quod articulus sit formatus vel informis.</p>
+            <p xml:id="ta-l3d25q1-d1e256">Ad primum ergo dicendum, quod objectum proportionatur habitui in his quae ad naturam
+              habitus pertinent, non in his quae accidunt ex dispositione habentis habitum.</p>
+            <p xml:id="ta-l3d25q1-d1e259">Ad secundum dicendum, quod illa definitio est data de articulo per actum fidei; unde
+              dicit: <quote xml:id="ta-l3d25q1-Qd1e261">perceptio divinae veritatis</quote>; et ideo ex parte actus accidit ibi
+              id quod est fidei formatae, non ex parte objecti.</p>
+            <p xml:id="ta-l3d25q1-d1e265">Et similiter dicendum ad tertium.</p>
+          </div>
+          <div xml:id="ta-l3d25q1-Dd1e269">
+            <head xml:id="ta-l3d25q1-Hd1e271">Quaestiuncula 3</head>
+            <p xml:id="ta-l3d25q1-d1e274">Ad tertiam quaestionem dicendum, quod nomen symboli similitudinem et collectionem
+              importat; unde a quatuor collectionibus nomen symboli imponitur. Primo a collectione
+              multorum hominum in unam fidem. Secundo a collectione praedicantium fidem: quia omnes
+              apostoli collecti hanc regulam fidei ediderunt, unusquisque quod suum est apponens.
+              Tertio, quia ex diversis locis sacrae Scripturae colliguntur ea quae credenda sunt, ut
+              in promptu habeantur. Quarto omnia beneficia divinitus collata ibi colliguntur; unde
+              Dionysius, dicit, quod religionis symbolum congruentius potest appellari hierarchia
+              eucharistica, quasi bona gratia.</p>
+            <p xml:id="ta-l3d25q1-d1e277">Ad primum ergo dicendum, quod oportuit ea quae in diversis locis sacrae Scripturae
+              tradita sunt, in unum colligi locum, ut fides magis in promptu haberetur.</p>
+            <p xml:id="ta-l3d25q1-d1e280">Ad secundum dicendum, quod patres qui alia symbola post apostolos ediderunt, nihil de
+              suo apposuerunt; sed ex sacris Scripturis ea quae addiderunt, exceperunt. Et quia
+              quaedam difficilia sunt in illo symbolo apostolorum, ideo ad ejus explanationem editum
+              est symbolum Nicaenum, quod diffusius fidem quantum ad aliquos articulos prosequitur.
+              Et quia quaedam implicite continebantur in illis symbolis, quae oportebat propter
+              insurgentes haereses explicari; ideo additum est symbolum Athanasii, qui specialiter
+              contra haereticos se opposuit.</p>
+            <p xml:id="ta-l3d25q1-d1e283">Ad tertium dicendum, quod quia tempore Athanasii specialiter haereses insurrexerunt
+              contra personam filii quantum ad utramque naturam, ideo secundum duas naturas symbolum
+              illud in duas partes dividitur. Alia autem symbola, quae non sunt ex principali
+              intentione contra haereticos facta, sed ad doctrinam fidei propalandam vel
+              elucidandam, dividuntur in tres personas, in quibus principaliter nostra fides
+              fundatur.</p>
+            <p xml:id="ta-l3d25q1-d1e287">Ad quartum dicendum, quod symbolum apostolorum fuit editum quando fides nondum erat
+              propalata, et ideo in occulto dicitur. Et quia editum fuit ad proponendum fidei
+              doctrinam, ideo quotidie dicitur et in prima et in completorio, quasi in principio
+              diei et noctis, in signum quod omnis nostra operatio a fine debet accipere initium: et
+              quia per ipsam contra adversa et in prosperis protegimur. Alia autem symbola edita
+              fuerunt tempore fidei jam propalatae; et ideo publice cantantur. Et quia non ad
+              proponendum fidem, sed ad defendendum vel elucidandum edita fuerunt; ideo non in
+              singulis diebus dicuntur, sed in illis in quibus homines maxime ad Ecclesiam venire
+              consueverunt, et in illis in quibus fit aliqua solemnizatio de illis quae ad articulos
+              pertinent. Et quia symbolum Nicaenum editum est ad manifestationem fidei, ideo dicitur
+              statim post Evangelium, quasi expositio ipsius. Symbolum autem Athanasii quod contra
+              haereticos editum est, in prima dicitur, quasi jam pulsis haereticorum tenebris.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l3d25q1-Dd1e292" type="articulus">
+          <head xml:id="ta-l3d25q1-Hd1e294">Articulus 2</head>
+          <head xml:id="ta-l3d25q1-Hd1e297" type="questionTitle">Utrum articuli convenienter distinguantur in symbolo</head>
+
+          <p xml:id="ta-l3d25q1-d1e300">Ad secundum sic proceditur. Videtur quod inconvenienter articuli distinguantur in
+            symbolo. Tres enim personae sunt aequales. Sed articuli pertinentes ad personam filii et
+            spiritus sancti ponuntur plures. Ergo similiter debent poni plures pertinentes ad
+            personam patris.</p>
+          <p xml:id="ta-l3d25q1-d1e303">Praeterea, Deum esse unum, est probabile per demonstrationem, et similiter Deum esse
+            creatorem rerum; unde etiam quidam philosophi, ut Avicenna, demonstratione moti hoc
+            concedunt. Sed articuli qui essentialiter ad fidem pertinent non possunt per
+            demonstrationem probari, ut ex dictis patet. Ergo inconvenienter ponuntur in symbolis
+            pro articulis.</p>
+          <p xml:id="ta-l3d25q1-d1e306">Praeterea, sicut potentia appropriatur patri, ita sapientia filio. Ergo sicut fit
+            mentio in symbolo de omnipotentia, ita debet mentio fieri de sapientia, et aliis etiam
+            attributis.</p>
+          <p xml:id="ta-l3d25q1-d1e310">Praeterea, in symbolo debet exponi fides quantum ad omnes credentes. Sed non omnibus
+            credentibus convenit credere in Deum, sed tantum habentibus fidem formatam. Ergo videtur
+            quod male dictum sit: <quote xml:id="ta-l3d25q1-Qd1e312">credo in unum Deum</quote>; et quod habens fidem informem,
+            hoc dicens peccet mentiendo.</p>
+          <p xml:id="ta-l3d25q1-d1e316">Praeterea, cum dicitur credere in Deum, designatur finis fidei. Sed solus Deus est
+            finis fidei. Ergo cum in symbolo contineatur aliquid quod est pure creatum, sicut
+            Ecclesia Catholica, videtur quod inconvenienter ponatur iste modus loquendi.</p>
+          <p xml:id="ta-l3d25q1-d1e319">Praeterea, sicut incarnationis sacramentum incepit in conceptione, et terminatum est in
+            nativitate; ita et mysterium passionis incepit in passione, et terminatum est in
+            sepultura. Sed assignatur alius articulus de conceptione et nativitate. Ergo et alius
+            articulus debet assignari de passione et sepultura.</p>
+          <p xml:id="ta-l3d25q1-d1e322">Praeterea, sicut patri appropriatur aliquod opus, et spiritui sancto; ita et filio.
+            Ergo sicut cum fide de patre ponitur aliquod opus divinum, sicut creatio, et cum
+            articulo spiritus sancti opus remissionis peccatorum; ita et cum articulis filii deberet
+            aliquod opus divinum poni.</p>
+          <p xml:id="ta-l3d25q1-d1e325">Praeterea, in Nicaeno symbolo nulla fit mentio de descensu ad Inferos. Ergo videtur
+            insufficienter articulos continere.</p>
+          <p xml:id="ta-l3d25q1-d1e328">Praeterea, quaeritur quare in Nicaeno symbolo dicitur, non creatorem, sed factorem.</p>
+          <p xml:id="ta-l3d25q1-d1e332">Praeterea, fides de corpore Christi in sacramento altaris maximam difficultatem habet.
+            Cum ergo in nullo symbolorum de hoc dicatur aliquid, videtur quod insufficienter in eis
+            fides tradatur.</p>
+          <p xml:id="ta-l3d25q1-d1e335">Respondeo dicendum, quod articuli fidei distinguuntur dupliciter. Uno modo quantum ad
+            ipsa credibilia; et sic sunt quatuordecim: alio modo quantum ad ipsos qui articulos
+            distinxerunt; et sic sunt duodecim secundum numerum duodecim apostolorum. Quia autem
+            articulus est veritas de Deo, hoc contingit esse dupliciter: quia aut est de ipso Deo
+            tantum, aut de Deo ratione naturae assumptae. Si primo modo, contingit esse tripliciter:
+            quia aut est de eo ratione naturae, aut ratione personarum, aut ratione effectus
+            proprii. Si ratione naturae, sic habemus primum articulum: <quote xml:id="ta-l3d25q1-Qd1e337">credo in unum
+              Deum</quote>. Si ratione personae, aut ratione personae patris, et sic habemus
+            secundum: <quote xml:id="ta-l3d25q1-Qd1e340">patrem omnipotentem</quote>; aut ratione filii, et sic habemus tertium:
+              <quote xml:id="ta-l3d25q1-Qd1e343">et in Jesum Christum filium ejus</quote>; aut ratione personae spiritus sancti,
+            et sic habemus quartum: <quote xml:id="ta-l3d25q1-Qd1e346">credo in spiritum sanctum</quote>. Si ratione effectus,
+            aut pertinet ad conditionem naturae, et sic est quintus: <quote xml:id="ta-l3d25q1-Qd1e349">creatorem caeli et
+              terrae</quote>; aut ad bonum gratiae, et sic habemus sextum: <quote xml:id="ta-l3d25q1-Qd1e353">sanctam Ecclesiam
+              Catholicam, sanctorum communionem, remissionem peccatorum</quote>; aut de perfectione
+            gloriae, et sic habemus septimum: <quote xml:id="ta-l3d25q1-Qd1e356">carnis resurrectionem, vitam aeternam</quote>.
+            Quidam autem aliter distinguunt hos tres articulos: quia opus creationis includunt in
+            primo articulo, qui pertinet ad veritatem essentiae; et ultimum opus dividunt in duos
+            articulos, scilicet <quote xml:id="ta-l3d25q1-Qd1e359">carnis resurrectionem</quote>, unum articulum dicentes, et
+              <quote xml:id="ta-l3d25q1-Qd1e362">vitam aeternam</quote> alium. Sed prima distinctio melior videtur: quia
+            apostolus expresse ponit unum articulum de creatione, Hebr. 11, 3: <quote xml:id="ta-l3d25q1-Qd1e365" ana="#hebr11_3">fide credimus
+              aptata esse saecula verbo Dei</quote>. Et iterum completio vitae aeternae et gloriae
+            includit conjunctionem animae et corporis. Item sciendum, quod opus creationis
+            conjungitur articulo de persona patris, quia pertinet ad potentiam, quae appropriatur
+            patri. Duo autem alia opera adjunguntur articulis de spiritu sancto: unde sibi
+            appropriatur unio Ecclesiae, quae importatur per hoc quod dicitur: <quote xml:id="ta-l3d25q1-Qd1e368">sanctam
+              Ecclesiam Catholicam, remissionem peccatorum</quote>: et communicatio bonorum operum
+            quae est per caritatem, ut bonum unius alteri prosit. Articuli autem pertinentes ad
+            naturam assumptam sunt etiam septem. Primus pertinet ad conceptionem: <quote xml:id="ta-l3d25q1-Qd1e372">qui
+              conceptus est de spiritu sancto</quote>. Secundus ad nativitatem: <quote xml:id="ta-l3d25q1-Qd1e375">natus ex
+              Maria</quote>. Tertius ad passionem: <quote xml:id="ta-l3d25q1-Qd1e378">passus sub Pontio Pilato, crucifixus,
+              mortuus, et sepultus</quote>. Quartus ad descensum ad Inferos: <quote xml:id="ta-l3d25q1-Qd1e381">descendit ad
+              Inferna</quote>. Quintus ad resurrectionem: <quote xml:id="ta-l3d25q1-Qd1e384">tertio die resurrexit a
+              mortuis</quote>. Sextus ad ascensionem: <quote xml:id="ta-l3d25q1-Qd1e387">ascendit in caelos, sedet ad dexteram
+              Dei patris</quote>. Septimus ad adventum ad judicium: <quote xml:id="ta-l3d25q1-Qd1e391">inde venturus est
+              judicare vivos et mortuos</quote>. Horum autem articulorum tres Petrus in unum
+            complexus est, scilicet articulum de unitate essentiae, de omnipotentia patris, et de
+            opere creationis, ideo quia opus creationis propter potentiam quam indicat, patri
+            appropriatur qui est etiam fons totius deitatis; et ideo competit Petro, quod est caput
+            apostolorum, sicut pater Trinitatis. Posuit autem Joannes articulum de persona filii.
+            Articulum autem de conceptione et nativitate conjunxit in unum Jacobus Zebedaei.
+            Articulum autem de passione posuit Andreas. Descensum ad Inferos posuit Philippus.
+            Resurrectionem Thomas. Ascensionem Bartholomeus. Adventum ad judicium Matthaeus.
+            Articulum de spiritus sancti persona Jacobus Alphaei. Opus gratiae diviserunt duo
+            apostoli. Nam Simon posuit effectum gratiae in consecutione boni, scilicet:
+              <quote xml:id="ta-l3d25q1-Qd1e394">sanctam Ecclesiam Catholicam, sanctorum communionem</quote>; Judas Jacobi
+            quantum ad remotionem mali, scilicet <quote xml:id="ta-l3d25q1-Qd1e397">peccatorum remissionem</quote>. Effectum
+            gloriae posuit Matthias, vel iterum Thomas, ut quidam dicunt. Alii autem aliter
+            praedictos articulos attribuunt apostolis. Sed in hoc non est magna vis.</p>
+          <p xml:id="ta-l3d25q1-d1e401">Ad primum ergo dicendum, quod pater non est missus sicut aliae personae; et ideo eis
+            propter effectum missionis plures articuli appropriantur quam patri.</p>
+          <p xml:id="ta-l3d25q1-d1e404">Ad secundum dicendum, quod Deum esse simpliciter, non est articulus; sed Deum esse
+            sicut fides supponit, scilicet habentem curam de omnibus, remunerantem, et punientem, ut
+            patet per apostolum Hebr. 11: quia sic determinat, quia est, et quia remunerator est.
+            Similiter Deum esse creatorem non cognoverunt philosophi, sicut fides ponit, ut scilicet
+            postquam non fuerunt, in esse producta sint; sed secundum alium modum accipiunt
+            creationem, ut in Lib. 2, dist. 1 dictum est.</p>
+          <p xml:id="ta-l3d25q1-d1e407">Ad tertium dicendum, quod omnes articuli, praecipue qui pertinent ad opera divina,
+            probantur per omnipotentiam Dei, sicut et Angelus probavit incarnationem, veniens ad
+            virginem, Lucae 1, 37: <quote xml:id="ta-l3d25q1-Qd1e409">quia non erit impossibile apud Deum omne verbum</quote>;
+            et ideo ponitur praecipue omnipotentia quasi radix fidei.</p>
+          <p xml:id="ta-l3d25q1-d1e413">Ad quartum dicendum, quod in symbolo proponitur nobis regula fidei, ad quam omnes
+            debent pertingere. Non autem debent pertingere solum ad actum fidei informis, sed etiam
+            ad actum fidei formatae, et ideo ponitur in symbolis actus fidei formatae. Nihilominus
+            habens fidem informem, dicens symbolum, non peccat: quia hoc dicit in persona
+            Ecclesiae.</p>
+          <p xml:id="ta-l3d25q1-d1e417">Ad quintum dicendum, quod Leo Papa dicit, quod non debet ibi addi haec praepositio in,
+            ut dicatur: et in unam sanctam Catholicam etc., sed debet dici: et unam sanctam et
+            cetera. Anselmus vero dicit, quod potest dici, in unam, inquantum in isto effectu
+            intelligitur veritas increata, scilicet ut sit sensus in unam sanctam, idest in spiritum
+            sanctum unientem Ecclesiam.</p>
+          <p xml:id="ta-l3d25q1-d1e420">Ad sextum dicendum, quod, sicut dictum est, articulus est indivisibilis veritas supra
+            rationem existens: et ubi occurrunt diversae difficultates, quibus hoc quod dicitur, est
+            supra rationem, oportet ponere diversos articulos. Ponere autem Deum sepultum, non habet
+            aliam difficultatem, quam ponere eum passum vel mortuum; et ideo totum hoc
+            comprehenditur sub uno articulo. Sed nativitas habet aliam difficultatem praeter
+            difficultatem conceptionis: quia in conceptione est difficultas ex hoc quod Deus homo
+            factus est, et quod est facta conceptio sine virili semine: in nativitate autem ex hoc
+            quod clauso virginis utero exivit: et ideo sunt duo articuli.</p>
+          <p xml:id="ta-l3d25q1-d1e423">Ad septimum dicendum, quod ex parte potentiae filii ponitur opus quod in natura
+            assumpta operatus est quantum ad septem articulos, ut dictum est.</p>
+          <p xml:id="ta-l3d25q1-d1e426">Ad octavum dicendum, quod, sicut dicit Innocentius tertius, Nicaena synodus praecipue
+            congregata fuit contra Arium, qui negabat filium esse verum Deum; et ideo descensus ad
+            Inferos suppressus fuit, in quo maxime videbatur derogari divinitati filii. Vel
+            dicendum, quod quia illud symbolum editum est ad manifestandum fidem contra haereticos;
+            nullus autem error acciderat de descensu ad Inferos: ideo illum articulum explicare non
+            curaverunt, sed implicite posuerunt in articulo de resurrectione, in quo intelligitur
+            terminus a quo resurrexit: sicut in articulo conceptionis implicite tradiderunt
+            articulum nativitatis, quia non fuerat de nativitate aliquis specialis error.</p>
+          <p xml:id="ta-l3d25q1-d1e429">Ad nonum dicendum, quod quia quidam philosophi posuerunt mundum creatum a Deo et tamen
+            ab aeterno fuisse, ut Augustinus dicit; ideo symbolum Nicaenum, quod specialiter ad
+            evacuandos errores editum fuit, posuit factorem, quod magis ostendit initium durationis
+            mundi, et quod est a Deo agente per voluntatem, non per necessitatem naturae.</p>
+          <p xml:id="ta-l3d25q1-d1e432">Ad decimum dicendum, quod fides de corpore Christi et de omnibus sacramentis et de
+            clavibus et de omnibus hujusmodi includitur in articulo qui est de effectu gratiae, qui
+            est: <quote xml:id="ta-l3d25q1-Qd1e434">sanctam Ecclesiam Catholicam</quote>; et ideo in Nicaeno symbolo additum
+            est: <quote xml:id="ta-l3d25q1-Qd1e437">confiteor unum Baptisma</quote>. Quidam tamen dicunt, quod reducitur ad
+            articulum de passione. Sed primum est probabilius.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

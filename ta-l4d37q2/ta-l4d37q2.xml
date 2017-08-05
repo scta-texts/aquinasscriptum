@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 37, Quaestio 2</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Librum IV, Distinctio 37, Quaestio 2</title>
+          <date when="2016-03-19">March 19, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-19">March 19, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness>1856 editum</witness>
+          <witness xml:id="G" n="ghent567">Ghent, Belgium, Ghent University Library, 567</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="0.0.0-dev">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+
+
+
+
+      <div xml:id="starts-on">
+        <cb ed="#G" n="512a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ta-l4d37q2">
+        <head xml:id="ta-l4d37q2-Hd1e97">Librum IV, Distinctio 37, Quaestio 2</head>
+
+        <div xml:id="ta-l4d37q2-Dd1e100">
+          <head xml:id="ta-l4d37q2-Hd1e102">Prooemium</head>
+          <p xml:id="ta-l4d37q2-d1e105">Deinde quaeritur de uxoricidio; et circa hoc quaeruntur duo: 1 utrum in aliquo casu
+            liceat uxorem occidere; 2 utrum uxoricidium impediat matrimonium.</p>
+
+        </div>
+        <div xml:id="ta-l4d37q2-Dd1e109" type="articulus">
+          <head xml:id="ta-l4d37q2-Hd1e111">Articulus 1</head>
+
+          <head xml:id="ta-l4d37q2-Hd1e114" type="questionTitle">Utrum liceat viro uxorem interficere in actu adulterii
+            deprehensam</head>
+
+          <p xml:id="ta-l4d37q2-d1e117">Ad primum sic proceditur. Videtur quod liceat viro uxorem interficere in actu adulterii
+            deprehensam. Lex enim divina praecipit adulteras lapidari. Sed ille qui legem divinam
+            exequitur, non peccat. Ergo nec occidens propriam uxorem, si sit adultera.</p>
+          <p xml:id="ta-l4d37q2-d1e120">Praeterea, illud quod licet legi, licet ei cui lex hoc committit. Sed legi licet
+            interficere adulteram, aut quamlibet personam ream mortis. Cum ergo lex commiserit viro
+            interfectionem uxoris in actu adulterii deprehensae, videtur quod ei liceat.</p>
+          <p xml:id="ta-l4d37q2-d1e123">Praeterea, vir habet majorem potestatem super uxorem adulteram quam super eum qui cum
+            ipsa adulterium commisit. Sed si vir percutiat clericum quem cum propria uxore invenit,
+            non est excommunicatus. Ergo videtur quod etiam liceat interficere propriam uxorem in
+            adulterio deprehensam.</p>
+          <p xml:id="ta-l4d37q2-d1e127">Praeterea, viri est uxorem suam corrigere. Sed correctio fit per inflictionem justae
+            poenae. Cum ergo justa poena adulterii sit mors, quia est capitale crimen; videtur quod
+            liceat viro uxorem adulteram occidere.</p>
+          <p xml:id="ta-l4d37q2-d1e130">Sed contra, in littera dicitur, quod Ecclesia Dei, quae nunquam constringitur legibus
+            mundanis, gladium non habet nisi spiritualem. Ergo videtur quod ei qui vult esse de
+            Ecclesia, non sit licitus usus legis illius quae uxoricidium permittit.</p>
+          <p xml:id="ta-l4d37q2-d1e133">Praeterea, vir et uxor ad paria judicantur. Sed uxori non licet interficere virum in
+            adulterio deprehensum. Ergo nec viro uxorem.</p>
+          <p xml:id="ta-l4d37q2-d1e136">Respondeo dicendum, quod virum interficere uxorem contingit dupliciter. Uno modo per
+            judicium civile; et sic non est dubium quod sine peccato potest vir zelo justitiae, non
+            livore vindictae aut odii motus, uxorem adulteram in judicio saeculari accusare
+            criminaliter de adulterio, et poenam mortis a lege statutam petere; sicut etiam licet
+            accusare aliquem de homicidio, aut de alio crimine. Non tamen talis accusatio potest
+            fieri in judicio ecclesiastico; quia Ecclesia non habet gladium materiale, ut in littera
+            dicitur. Alio modo potest eam per seipsum occidere non in judicio convictam; et sic
+            extra actum adulterii eam interficere, quantumcumque sciat eam adulteram, neque secundum
+            leges civiles, neque secundum legem conscientiae licet. Sed lex civilis quasi licitum
+            computat quod in ipso actu eam interficiat, non quasi praecipiens, sed quasi poenam
+            homicidii inferens, propter maximum incitamentum quod habet vir in tali facto ad
+            occisionem uxoris. Sed Ecclesia in hoc non est astricta legibus humanis, ut judicet eum
+            sine reatu poenae aeternae, vel poenae ecclesiastico judicio infligendae, ex hoc quod
+            est sine reatu poenae infligendae per judicium saeculare. Et ideo in nullo casu licet
+            viro interficere uxorem propria auctoritate.</p>
+          <p xml:id="ta-l4d37q2-d1e139">Ad primum ergo dicendum, quod poenam illam infligendam lex non commisit personis
+            privatis, sed personis publicis quae habent officium ad hoc deputatum; vir autem non est
+            judex uxoris; et ideo non potest eam interficere, sed coram judice accusare.</p>
+          <p xml:id="ta-l4d37q2-d1e142">Ad secundum dicendum, quod lex civilis non commisit viro occisionem uxoris quasi
+            praecipiens (quia sic non peccaret, sicut nec minister judicis peccat latronem occidens
+            condemnatum ad mortem), sed permisit, poenam non adhibens; unde etiam difficultates
+            quasdam apposuit, quibus retraherentur viri ab uxoricidio.</p>
+          <p xml:id="ta-l4d37q2-d1e146">Ad tertium dicendum, quod ex hoc non probatur quod sit licitum simpliciter, sed quantum
+            ad immunitatem ab aliqua poena: quia etiam excommunicatio quaedam poena est.</p>
+          <p xml:id="ta-l4d37q2-d1e149">Ad quartum dicendum, quod duplex est congregatio: quaedam oeconomica, sicut familia
+            aliqua; et quaedam politica, sicut civitas aut regnum. Ille igitur qui praeest secundae
+            congregationi, ut rex aut judex, potest infligere poenam et corrigentem personam, et
+            exterminantem ad purgationem communitatis cujus curam gerit. Sed ille qui praeest in
+            prima congregatione, sicut paterfamilias, non potest infligere nisi poenam corrigentem,
+            quae non se extendit ultra terminos emendationis, quam transcendit poena mortis; et ideo
+            vir qui sic praeest uxori, non potest ipsam interficere, sed alias castigare.</p>
+
+        </div>
+        <div xml:id="ta-l4d37q2-Dd1e153" type="articulus">
+          <head xml:id="ta-l4d37q2-Hd1e155">Articulus 2</head>
+
+          <head xml:id="ta-l4d37q2-Hd1e158" type="questionTitle">Utrum uxoricidium matrimonium impediat</head>
+
+          <p xml:id="ta-l4d37q2-d1e161">Ad secundum sic proceditur. Videtur quod uxoricidium non impediat matrimonium.
+            Directius enim opponitur matrimonio adulterium quam homicidium. Sed adulterium non
+            impedit matrimonium. Ergo nec homicidium uxoris.</p>
+          <p xml:id="ta-l4d37q2-d1e164">Praeterea, gravius peccatum est occidere matrem quam uxorem: quia nunquam licet
+            verberare matrem, licet autem verberare uxorem. Sed occisio matris non impedit
+            matrimonium. Ergo nec occisio uxoris.</p>
+          <p xml:id="ta-l4d37q2-d1e167">Praeterea, magis peccat qui uxorem alterius propter adulterium interficit, quam qui
+            uxorem suam; inquantum minus habet de motivo, et minus ad eum spectat ejus correctio.
+            Sed qui alienam uxorem occidit, non impeditur a matrimonio. Ergo nec ille qui propriam
+            uxorem interficit.</p>
+          <p xml:id="ta-l4d37q2-d1e171">Praeterea, remota causa removetur effectus. Sed peccatum homicidii potest per
+            poenitentiam removeri. Ergo impedimentum matrimonii quod ex eo causatur; et ita videtur
+            quod post peractam poenitentiam non prohibeatur matrimonium contrahere.</p>
+          <p xml:id="ta-l4d37q2-d1e174">Sed contra est quod canon dicit: <quote xml:id="ta-l4d37q2-Qd1e176">interfectores suarum conjugum ad poenitentiam
+              redigendi sunt, quibus penitus denegatur conjugium</quote>.</p>
+          <p xml:id="ta-l4d37q2-d1e180">Praeterea, in eo in quo quis peccat, debet etiam puniri. Sed peccat contra matrimonium
+            qui uxorem occidit. Ergo debet puniri, ut matrimonio privetur.</p>
+          <p xml:id="ta-l4d37q2-d1e183">Respondeo dicendum, quod uxoricidium ex statuto Ecclesiae matrimonium impedit. Sed
+            quandoque impedit contrahendum, et non dirimit contractum; quando scilicet vir propter
+            adulterium aut propter odium occidit uxorem; tamen si timetur de incontinentia ejus,
+            potest cum eo dispensari per Ecclesiam, ut licite matrimonium contrahat. Quandoque etiam
+            dirimit contractum, ut quando aliquis interficit uxorem suam, ut ducat eam cum qua
+            moechatur: tunc enim efficitur illegitima persona simpliciter ad contrahendum cum illa;
+            ita quod si de facto cum ea contraxerit matrimonium, dirimitur. Sed ex hoc non efficitur
+            persona simpliciter illegitima respectu aliarum mulierum; unde si cum alia contraxerit,
+            quamvis peccet contra statutum Ecclesiae faciens, tamen matrimonium contractum non
+            dirimitur propter hoc.</p>
+          <p xml:id="ta-l4d37q2-d1e186">Ad primum ergo dicendum, quod homicidium et adulterium in aliquo casu impediunt
+            matrimonium contrahendum et dirimunt contractum, sicut de uxoricidio hic dicitur, et de
+            adulterio, ut habitum est supra, dist. 35. Vel dicendum, quod uxoricidium est contra
+            substantiam conjugii, sed adulterium est contra bonum fidei ei debitae; et sic
+            adulterium non est magis contra matrimonium quam uxoricidium; et ita ratio procedit ex
+            falsis.</p>
+          <p xml:id="ta-l4d37q2-d1e189">Ad secundum dicendum, quod simpliciter loquendo, gravius peccatum est occidere matrem
+            quam uxorem, et magis contra naturam: quia naturaliter homo matrem reveretur; et ideo
+            minus inclinatur ad interfectionem matris, et pronior est ad interfectionem uxoris; ad
+            cujus pronitatis repressionem uxoricidis est matrimonium ab Ecclesia interdictum.</p>
+          <p xml:id="ta-l4d37q2-d1e193">Ad tertium dicendum, quod talis non peccat contra matrimonium, sicut ille qui propriam
+            uxorem interficit; et ideo non est simile.</p>
+          <p xml:id="ta-l4d37q2-d1e196">Ad quartum dicendum, quod non est necessarium quod deleta culpa deleatur omnis poena,
+            sicut de irregularitate patet: non enim poenitentia restituit in pristinam dignitatem,
+            quamvis possit restituere in pristinum statum gratiae, ut supra, dist. 14, dictum
+            est.</p>
+        </div>
+        <div xml:id="ta-l4d37q2-Dd1e200">
+          <head xml:id="ta-l4d37q2-Hd1e202">Expositio textus</head>
+          <p xml:id="ta-l4d37q2-d1e205"><quote xml:id="ta-l4d37q2-Qd1e206">Uxorem virginem</quote>, et cetera. Intelligitur sub hypothesi; idest, si ad
+            clericatum redire desiderat ad sacerdotium promovendus. <quote xml:id="ta-l4d37q2-Qd1e209">Sancta Dei Ecclesia
+              gladium non habet</quote> et cetera. Contra est quod Bernardus dicit ad Eugenium, quod
+            Ecclesia utrumque gladium habet. Et dicendum, quod habet spiritualem tantum quantum ad
+            executionem sua manu exercendam; sed habet etiam temporalem quantum ad ejus jussionem:
+            quia ejus nutu extrahendus est, ut dicit Bernardus.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

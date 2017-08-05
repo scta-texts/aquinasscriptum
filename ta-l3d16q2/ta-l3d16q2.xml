@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum III, Distinctio 16, Quaestio 2</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.09-dev-master">
+          <title>Librum III, Distinctio 16, Quaestio 2</title>
+          <date when="2016-03-12">March 12, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-12">March 12, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness>1856 editum</witness>
+          <witness xml:id="H" n="harv245" xml:base="http://iiif.lib.harvard.edu/manifests/drs:51994085/canvas/">Cambridge, Mass.,
+            Harvard University, Houghton Library, MS Lat 245</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="2015.09">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+
+
+
+
+      <div xml:id="starts-on">
+        <cb ed="#H" n="61ra"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ta-l3d16q2">
+        <head xml:id="ta-l3d16q2-Hd1e97">Librum III, Distinctio 16, Quaestio 2</head>
+        <div xml:id="ta-l3d16q2-Dd1e100">
+          <head xml:id="ta-l3d16q2-Hd1e102">Prooemium</head>
+          <p xml:id="ta-l3d16q2-d1e105">Deinde quaeritur, utrum cum necessitate moriendi potuit habere ea quae pertinent ad
+            statum gloriae. Et quia supra dictum est de his quae pertinent ad gloriam animae; ideo
+            quaeritur de his quae pertinent ad statum gloriae corporis, quam in transfiguratione
+            ostendit Matth. 17; et circa hoc quaeruntur duo: 1 utrum illa claritas fuerit vera vel
+            imaginaria; 2 utrum fuerit gloriosa.</p>
+          <div xml:id="ta-l3d16q2-Dd1e108" type="articulus">
+            <head xml:id="ta-l3d16q2-Hd1e110">Articulus 1</head>
+            <head xml:id="ta-l3d16q2-Hd1e113" type="questionTitle">Utrum claritas quae fuit in Christi corpore in
+              transfiguratione, fuerit vera, et utrum fuerit imaginaria</head>
+            <p xml:id="ta-l3d16q2-d1e116">Ad primum sic proceditur. Videtur quod illa claritas non fuerit vera. In illud enim
+              dicitur aliquid transfigurari quod non secundum veritatem ei inest, sicut dicitur 2
+              Corinth. 11, quod Angelus Satanae transfigurat se in Angelum lucis. Sed Christus
+              dicitur transfiguratus, secundum quod illam claritatem demonstravit, ut patet Matth.
+              17. Ergo claritas illa non secundum veritatem ei inerat.</p>
+            <p xml:id="ta-l3d16q2-d1e119">Praeterea, Luc. 9: <quote xml:id="ta-l3d16q2-Qd1e121">non gustabunt mortem nisi videant regnum Dei</quote>.
+              Glossa Bedae: <quote xml:id="ta-l3d16q2-Qd1e124">idest glorificationem corporis in imaginaria repraesentatione
+                futurae beatitudinis</quote>. Sed quod est imaginarium, non est verum. Ergo illa
+              claritas non secundum veritatem ei inerat.</p>
+            <p xml:id="ta-l3d16q2-d1e128">Praeterea, impossibile est quod idem corpus sit simul opacum et lucidum. Sed secundum
+              veritatem rei corpus. Christi opacum erat. Ergo claritas non inerat ei secundum rei
+              veritatem.</p>
+            <p xml:id="ta-l3d16q2-d1e132">Praeterea, claritas sensibilis maxime corrumpit visum. Sed claritas illa fuit maxima:
+              quia super illud Matth. 17: <quote xml:id="ta-l3d16q2-Qd1e134">resplenduit facies ejus sicut sol</quote>, dicit
+              Glossa Hieronymi: <quote xml:id="ta-l3d16q2-Qd1e137">Deus non potest in hac vita tam clarum quid facere</quote>.
+              Cum ergo oculi apostolorum non fuerint laesi in visione illius claritatis, non fuit
+              illa claritas sensibilis, sed solum imaginaria.</p>
+            <p xml:id="ta-l3d16q2-d1e141">Praeterea, testes transfigurationis transfigurationi conformantur. Sed super illud
+              Lucae 9: <quote xml:id="ta-l3d16q2-Qd1e143">apparuerunt Moyses et Elias</quote>, dicit Glossa: <quote xml:id="ta-l3d16q2-Qd1e146">sciendum
+                est, non corpora vel animas Moysi et Eliae ibi apparuisse; sed ex subjecta creatura
+                illa corpora fuisse formata</quote>. Potest etiam credi ut angelico ministerio hoc
+              factum esset, ut Angeli eorum personas assumerent. Ergo nec ipsa claritas secundum
+              quam fuit facta transfiguratio, fuit vera, sed imaginaria.</p>
+            <p xml:id="ta-l3d16q2-d1e150">Sed contra, Augustinus dicit, et supra habitum est, dist. praeced., quod si unum
+              eorum quae Evangelium de Christo dicit, verum non fuit, nec alia oportet dicere vera
+              fuisse. Si ergo non fuit vera claritas, cum Evangelium hoc dicat, relinquitur quod non
+              vere comederit, nec vere passus sit; quod est haereticum.</p>
+            <p xml:id="ta-l3d16q2-d1e153">Praeterea, in operibus veritatis non est credendum aliquid false et praestigiose
+              factum. Sed si illa claritas non fuisset vera, fuisset quoddam praestigium illudens
+              oculos. Ergo nullo modo hoc dicendum est.</p>
+            <p xml:id="ta-l3d16q2-d1e156">Praeterea, super illud Luc. 9: <quote xml:id="ta-l3d16q2-Qd1e158">faciamus hic tria tabernacula</quote>, dicit
+              Glossa, quod Moyses et Elias fuerunt testes de caelo. Sed non fuissent veri testes,
+              nisi ibi vere fuissent. Ergo ibi vere fuerunt, et sic vere ibi claritas fuit.</p>
+            <p xml:id="ta-l3d16q2-d1e162">Respondeo dicendum, quod claritas illa fuit sensibilis, secundum veritatem in corpore
+              Christi existens, ad ostensionem claritatis quam promiserat in sanctis post
+              resurrectionem futuram, dicens: <quote xml:id="ta-l3d16q2-Qd1e164" ana="#mt13_43">fulgebunt justi tamquam sol in regno patris
+                eorum</quote>; Matth. 13, 43.</p>
+            <p xml:id="ta-l3d16q2-d1e169">Ad primum ergo dicendum, quod figura dupliciter dicitur. Uno modo dicitur qualitas
+              resultans ex terminatione quantitatis; et sic non dicitur Christus transfiguratus,
+              quia eadem lineamenta corporis in ipso erant. Et quia figura alicujus rei signum
+              ipsius ponitur, sicut patet de imaginibus, quae praecipue fiunt secundum
+              repraesentationem figurae; inde translatum est nomen figurae ut ponatur pro quodlibet
+              signo, quod instituitur ad aliquid significandum, secundum assimilationem ad aliud.
+              Hoc autem potest fieri et de eo quod est in rei veritate, sicut una res est imago vel
+              figura alterius, et de eo quod est in imaginatione tantum. Dicitur autem Christus
+              figuratus quia claritatem sibi veraciter inhaerentem assumpsit ad tempus, in figuram
+              futurae claritatis quae erit in sanctis.</p>
+            <p xml:id="ta-l3d16q2-d1e172">Ad secundum dicendum, quod Beda dicit imaginarium non quod est tantum in
+              imaginatione, sed quod est imago et figura alterius.</p>
+            <p xml:id="ta-l3d16q2-d1e175">Ad tertium dicendum, quod non est inconveniens id quod est in se opacum in
+              intrinsecis, habere claritatem in superficie, vel extensione, sicut aes politum; vel
+              ex aliquo extrinseco superinducto, sicut ex reverberatione solis, vel alicujus
+              hujusmodi: et sic fuit claritas in Christo, non quidem superinducta ex aliquo corpore
+              superlucenti, sed miraculose ab ipso Deo.</p>
+            <p xml:id="ta-l3d16q2-d1e178">Ad quartum dicendum, quod claritas illa erat similis gloriosi corporis claritati,
+              quae visum non corrumpit, sed demulcet. Unde Apoc. 21, comparatur claritati jaspidis,
+              quae visum demulcet, et delectat. Et hoc quidem contingit, quia est alterius generis
+              quam ista claritas naturalis: provenit enim ex claritate spirituali animae, quae
+              quidem non corrumpit proportionem oculi ad vim animae, sed magis confortat. Unde hoc
+              quod dicit Hieronymus, quod Deus non posset in hac vita tam clarum quid facere,
+              intelligendum est ideo dictum esse, quia claritas hujus vitae, scilicet naturalis, non
+              est proportionabilis claritati patriae, sed alterius generis existens.</p>
+            <p xml:id="ta-l3d16q2-d1e181">Ad quintum dicendum, quod illa Glossa punctata est a magistris; unde dicendum, quod
+              uterque illorum vere ibi apparuit; sed Elias in anima et corpore, Moyses autem in
+              anima tantum; quae apparere potuit vel per aliquod corpus assumptum, sicut Angeli
+              apparent, vel quia est potens, maxime Deo ordinante, facere aliquam in oculis speciem,
+              illum hominem cujus est anima, repraesentantem.</p>
+          </div>
+          <div xml:id="ta-l3d16q2-Dd1e185" type="articulus">
+            <head xml:id="ta-l3d16q2-Hd1e187">Articulus 2</head>
+            <head xml:id="ta-l3d16q2-Hd1e190" type="questionTitle">Utrum claritas illa fuerit gloriosa</head>
+
+            <p xml:id="ta-l3d16q2-d1e193">Ad secundum sic proceditur. Videtur quod claritas illa non fuit gloriosa. Matth. 17
+              super illud: <quote xml:id="ta-l3d16q2-Qd1e195">transfiguratus est</quote> et cetera. Glossa Bedae dicit:
+                <quote xml:id="ta-l3d16q2-Qd1e198">in corpore mortali ostendit non immortalitatem, sed claritatem similem
+                futurae immortalitati</quote>. Sed claritas gloriosa est claritas immortalitatis.
+              Ergo illa claritas non fuit gloriosa.</p>
+            <p xml:id="ta-l3d16q2-d1e202">Praeterea, idem non potest esse subjectum poenalitatis et gloriae. Sed corpus Christi
+              erat subjectum poenalitatibus. Ergo non poterat in eo esse claritas gloriosa.</p>
+            <p xml:id="ta-l3d16q2-d1e205">Si dicatur, quod claritas illa redundabat ex gloria animae; contra, 2 Corinth. 3,
+              tanta erat claritas in facie Moysi, quod non poterat inspici nisi velaretur; et Matth.
+              1, super illud: <quote xml:id="ta-l3d16q2-Qd1e207">non cognoscebat eam donec peperit</quote>, dicit Glossa:
+                <quote xml:id="ta-l3d16q2-Qd1e210">Joseph Mariam facie ad faciem videre non poterat, quam spiritus sanctus
+                repleverat</quote>. Sed Maria et Moyses non habebant animam glorificatam. Ergo non
+              est verum quod illa claritas ex glorificatione animae processit.</p>
+            <p xml:id="ta-l3d16q2-d1e215">Praeterea, proprietas corporis gloriosi non solum est claritas, sed etiam agilitas et
+              impassibilitas et subtilitas. Si igitur claritatem assumpsisset, quae est gloriosi
+              corporis proprietas, debuisset etiam alias proprietates assumere.</p>
+            <p xml:id="ta-l3d16q2-d1e218">Praeterea, claritas gloriosa non videtur ab oculo non glorificato. Sed oculi
+              apostolorum, qui viderunt Christi claritatem, non erant glorificati. Ergo illa
+              claritas non fuit gloriosa.</p>
+            <p xml:id="ta-l3d16q2-d1e221">Praeterea, claritas gloriosa non est corpori naturalis. Sed claritas illa fuit
+              corpori Christi naturalis; quod patet per verba Hilarii superinducta, ubi dicit:
+                <quote xml:id="ta-l3d16q2-Qd1e223">si domini corporis solum ista natura sit ut sua virtute feratur in humidis,
+                et sistat in liquidis, et extructa transcurrat: quid per naturam humani corporis
+                carnem ex spiritu sancto conceptam judicamus?</quote> Et Glossa, Matth. 17, dicit:
+                <quote xml:id="ta-l3d16q2-Qd1e226">speciem quam habebat per naturam ostendit, non amittens carnem, quam
+                assumpserat voluntate</quote>. Ergo claritas illa non fuit gloriosa.</p>
+            <p xml:id="ta-l3d16q2-d1e230">Praeterea, claritas illa non solum fuit in corpore Christi, sed etiam in vestibus
+              ejus, ut patet ex textu Evangelii. Sed in vestimentis non potest esse gloriosa
+              claritas. Ergo nec in corpore Christi tunc fuit.</p>
+            <p xml:id="ta-l3d16q2-d1e233">Sed contra, Philip. 3, super illud: <quote xml:id="ta-l3d16q2-Qd1e235">configuratum corpori claritatis</quote>,
+              dicit Glossa: <quote xml:id="ta-l3d16q2-Qd1e238">assimilabimur claritati quam habuit in transfiguratione</quote>.
+              Sed assimilabimur claritati gloriosae. Ergo tunc habuit claritatem gloriosam.</p>
+            <p xml:id="ta-l3d16q2-d1e242">Praeterea, Matth. 17, dicit Glossa, quod apparuit in ea claritate quam habebit,
+              peracto judicio. Sed tunc habebit claritatem gloriae. Ergo et in ea tunc apparuit.</p>
+            <p xml:id="ta-l3d16q2-d1e246">Praeterea, claritas non gloriosa non ostendit gloriam resurrectionis. Sed ad hoc
+              Christus transfiguratus est ut gloriam resurrectionis ostenderet, ut dictum est. Ergo
+              erat claritas gloriosa.</p>
+            <p xml:id="ta-l3d16q2-d1e249">Respondeo dicendum, quod Hugo de sancto Victore dicit, quod Christus assumpsit omnes
+              proprietates seu dotes corporis glorificati adhuc corpus passibile gerens, quamvis in
+              Christo non proprie habebant rationem dotis; sicut subtilitatem in nativitate, quando
+              egressus est de utero virginali, claustris pudoris manentibus clausis; agilitatem
+              autem, quando super undas maris ambulavit; claritatem autem in transfiguratione;
+              impassibilitatem in coena, quando corpus suum ad edendum discipulis sine hoc quod
+              divideretur dedit. Et hoc quidem non potest intelligi quantum ad ipsas qualitates sive
+              habitus gloriosi corporis, quia contrariantur conditionibus et proprietatibus corporis
+              passibilis. Christus autem semper ante resurrectionem corpus passibile habuit. Nec hoc
+              quod corpus ejus a discipulis edentibus non dividebatur, fuit propter
+              impassibilitatem; sed quia non in propria specie comedebatur, sed in specie panis in
+              qua fiebat fractio. Unde cum contraria non sint simul in eodem, non poterat tunc
+              habere qualitates corporis gloriosi; sed actus illarum proprietatum fuerunt in eo non
+              quidem procedentes ex aliquo inhaerente, sed supernaturaliter divino miraculo, ut
+              dicit Dionysius in epistola 4 ad Cajum: <quote xml:id="ta-l3d16q2-Qd1e251">super hominem operatur ea quae sunt
+                hominis: et hoc monstrat virgo supernaturaliter concipiens, et aqua instabilis
+                materialium et terrenorum pedum sustinens gravitatem</quote>. Dicendum ergo, quod
+              ille fulgor non fuit proveniens ex aliqua proprietate corporis gloriosi existente in
+              corpore Christi, sed fuit miraculose et divinitus inductus in corpore Christi. Fuit
+              tamen ille fulgor ejusdem generis cum fulgore corporum glorificatorum, non tamen ita
+              perfectus; sicut caritas viae assimilatur caritati patriae. In Moyse autem fuit
+              claritas similis claritati patriae sicut fides visioni, non ejusdem generis; et ideo
+              aspectum intuentium offendebat; quod non fuit de claritate Christi. Et hujus ratio
+              est, quia anima Christi glorificata erat, non autem anima Moysi; unde et corpori ejus
+              poterat convenienter attribui claritas gloriosa; non autem corpori Moysi, ne prius
+              esset gloria in corpore quam in anima.</p>
+            <p xml:id="ta-l3d16q2-d1e255">Ad primum ergo dicendum, quod ex Glossa ista habetur, quod non fuerit habitus
+              claritatis sicut in corporibus immortalibus, sed fuit actus splendoris similis ex
+              divino miraculo.</p>
+            <p xml:id="ta-l3d16q2-d1e258">Per quod patet etiam solutio ad secundum.</p>
+            <p xml:id="ta-l3d16q2-d1e261">Ad tertium dicendum, quod non potest esse quod claritas fuerit in corpore ex gloria
+              animae: quia anima Christi adhuc erat passibilis ex illo respectu, quod est forma
+              corporis: unde gloriam in corpus non transfundebat, ut dictum est.</p>
+            <p xml:id="ta-l3d16q2-d1e264">Ad quartum dicendum, quod etiam actum aliarum dotium Christus ostendit, sed aliter,
+              ut dictum est. Sed tamen secundum illa non dicitur transfiguratus: quia aliae dotes
+              non pertinent ad aspectum, secundum quem praecipue de figura alicujus judicamus, sicut
+              claritas, per quam aliquid in seipso videtur.</p>
+            <p xml:id="ta-l3d16q2-d1e268">Ad quintum dicendum, quod hoc intelligitur quando corpus gloriosum non vult se
+              ostendere.</p>
+            <p xml:id="ta-l3d16q2-d1e271">Ad sextum dicendum, quod illa claritas dicitur sibi fuisse naturalis, inquantum
+              corpus illud ordinatum erat ad illam claritatem habendam, sicut virtutes dicuntur
+              animae naturales; vel inquantum erat conformis claritati animae; vel ratione
+              divinitatis.</p>
+            <p xml:id="ta-l3d16q2-d1e274">Ad septimum dicendum, quod in vestibus erat splendor ex claritate corporis
+              procedens.</p>
+          </div>
+          <div xml:id="ta-l3d16q2-Dd1e278">
+            <head xml:id="ta-l3d16q2-Hd1e280">Expositio textus</head>
+            <p xml:id="ta-l3d16q2-d1e283"><quote xml:id="ta-l3d16q2-Qd1e284">Sicut aliis hominibus</quote>. Similitudo attenditur inquantum aliis hominibus
+              necessitas moriendi inest natura, non inquantum est ex peccato. <quote xml:id="ta-l3d16q2-Qd1e287">Sunt enim
+                quatuor status hominis</quote>. Contra. <name ref="#Boethius">Boetius</name>
+              assignat tres. Dicendum, quod <name ref="#Boethius">Boetius</name> assignat status
+              humanae naturae quantum ad conditiones corporis principaliter: quod quidem in primo
+              statu erat animale, in secundo corruptibile, in tertio spirituale. Magister autem
+              assignat principaliter quatuor status quantum ad conditiones animae, ut patet.
+                <quote xml:id="ta-l3d16q2-Qd1e296">Immunitatem peccati</quote>. Non quantum ad potentiam peccandi, sed quantum
+              ad actum. Boetius vero dicit, quod de primo statu accepit ea quae ad vitam animalem
+              pertinent, scilicet, comedere, dormire, et hujusmodi.</p>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

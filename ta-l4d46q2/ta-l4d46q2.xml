@@ -1,0 +1,798 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 46, Quaestio 2</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Librum IV, Distinctio 46, Quaestio 2</title>
+          <date when="2016-03-19">March 19, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-19">March 19, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness>1856 editum</witness>
+          <witness xml:id="G" n="ghent567">Ghent, Belgium, Ghent University Library, 567</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="0.0.0-dev">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+
+
+
+
+      <div xml:id="starts-on">
+        <cb ed="#G" n="662a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ta-l4d46q2">
+        <head xml:id="ta-l4d46q2-Hd1e97">Librum IV, Distinctio 46, Quaestio 2</head>
+        <div xml:id="ta-l4d46q2-Dd1e100">
+          <head xml:id="ta-l4d46q2-Hd1e102">Prooemium</head>
+          <p xml:id="ta-l4d46q2-d1e105">Deinde quaeritur de misericordia Dei; et circa hoc quaeruntur tria: 1 utrum in Deo sit
+            ponere misericordiam; 2 de effectu ipsius; 3 utrum misericordia Dei patiatur poenas
+            damnatorum esse perpetuas.</p>
+
+        </div>
+        <div xml:id="ta-l4d46q2-Dd1e109" type="articulus">
+          <head xml:id="ta-l4d46q2-Hd1e111">Articulus 1</head>
+
+          <head xml:id="ta-l4d46q2-Hd1e114" type="questionTitle">Utrum sit misericordia in Deo</head>
+
+          <div xml:id="ta-l4d46q2-Dd1e117">
+            <head xml:id="ta-l4d46q2-Hd1e119">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d46q2-d1e122">Ad primum sic proceditur. Videtur quod in Deo non sit misericordia. Sicut enim dicit
+              Damascenus, misericordia est compassio de alienis malis. Sed compassio non cadit in
+              Deo. Ergo nec misericordia.</p>
+            <p xml:id="ta-l4d46q2-d1e125">Praeterea, misericordia miseriam respicit. Sed quanto aliquis est magis peccator,
+              tanto magis est miser; quia Proverb. 14, 34: <quote xml:id="ta-l4d46q2-Qd1e127">miseros facit populos
+                peccatum</quote>. Ergo si Deus est misericors, quanto aliquis est magis peccator,
+              tanto magis ei providebit; quod videtur absurdum.</p>
+            <p xml:id="ta-l4d46q2-d1e131">Praeterea, misericordia inclinat misericordem ad alienam miseriam repellendam. Ergo
+              misericors nec alii miseriam infert, nec inferri permittit, si fieri potest. Sed Deus
+              aliquos inducit in miseriam poenae, et permittit eos incidere in miseriam culpae. Ergo
+              cum ipse sit omnipotens, non erit misericors.</p>
+            <p xml:id="ta-l4d46q2-d1e134">Sed contra est quod in Psal. 144, 8, dicitur: <quote xml:id="ta-l4d46q2-Qd1e136">miserator et misericors
+                dominus</quote>.</p>
+            <p xml:id="ta-l4d46q2-d1e141">Praeterea, sicut Deus aliquos punit, ita et aliquibus parcit; est enim praestabilis
+              super malitia; Joel. 2. Sed ex hoc quod punit, ponimus in Deo iram, quamvis ira sit
+              passio. Ergo ex eo quod parcit, debet dici misericors, quamvis misericordia in nobis
+              sit passio.</p>
+
+          </div>
+          <div xml:id="ta-l4d46q2-Dd1e145">
+            <head xml:id="ta-l4d46q2-Hd1e147">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d46q2-d1e150">Ulterius. Videtur quod in Deo secundum eamdem rationem dicatur bonitas et
+              misericordia. Constat enim quod Deus gentiles ex sola misericordia liberavit; Roman.
+              15, 9: <quote xml:id="ta-l4d46q2-Qd1e152">gentes autem super misericordia honorare Deum</quote>. Sed conversionem
+              gentium apostolus attribuit divinae bonitati; Rom. 11, 22: <quote xml:id="ta-l4d46q2-Qd1e155" ana="#rom11_22">vide bonitatem et
+                severitatem Dei; in eos qui ceciderunt severitatem, in te autem bonitatem</quote>.
+              Ergo bonitas et misericordia ejusdem sunt rationis in Deo.</p>
+            <p xml:id="ta-l4d46q2-d1e159">Praeterea, principia per effectus cognoscuntur. Sed idem est effectus misericordiae
+              et bonitatis; scilicet providere minus habentibus. Ergo eadem est ratio utriusque.</p>
+            <p xml:id="ta-l4d46q2-d1e162">Praeterea, misericordia est quaedam virtus. Sed virtus est bonitas virtuosi. Ergo
+              misericordia, inquantum hujusmodi, bonitas quaedam est; et ita videtur eadem ratio
+              utriusque.</p>
+            <p xml:id="ta-l4d46q2-d1e165">Sed contra, quaecumque sunt unius rationis, sunt etiam unius ambitus. Sed bonitas et
+              misericordia non sunt unius ambitus; quia bonitas divina communicatur omnibus
+              creaturis, inquantum a primo bono sunt omnia bona; misericordia autem non invenitur in
+              omnibus creaturis, ut omnes misericordes dicantur. Ergo bonitas et misericordia non
+              sunt ejusdem rationis.</p>
+            <p xml:id="ta-l4d46q2-d1e169">Praeterea, misericordia non esset, nisi esset miseria. Sed bonitas esse potest etiam
+              nulla miseria existente; quia bonum non dependet a malo, sicut nec habitus a
+              privatione. Ergo misericordia et bonitas in Deo non sunt unius rationis.</p>
+
+          </div>
+          <div xml:id="ta-l4d46q2-Dd1e173">
+            <head xml:id="ta-l4d46q2-Hd1e175">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d46q2-d1e178">Ulterius. Videtur quod opus divinae misericordiae ad attributum potentiae reducatur.
+              Quia opus Dei ad illud attributum reducitur quod maxime per ipsum manifestatur. Sed
+              opus misericordiae maxime manifestat Dei potentiam; unde in collecta dicitur:
+                <quote xml:id="ta-l4d46q2-Qd1e180">Deus qui omnipotentiam tuam parcendo maxime et miserando manifestas</quote>.
+              Ergo misericordiae opus ad omnipotentiam reducitur.</p>
+            <p xml:id="ta-l4d46q2-d1e184">Praeterea, divina misericordia maxime manifestatur in justificatione impii. Sed majus
+              est justificare impium quam creare caelum et terram, ut dicit Augustinus. Ergo cum
+              creatio ad potentiam reducatur, videtur quod et misericordiae opus ad potentiam Dei
+              reduci debeat.</p>
+            <p xml:id="ta-l4d46q2-d1e187">Sed contra, videtur quod reducatur ad attributum sapientiae. Quia ipse non miseretur
+              passione, sed judicio. Judicium autem ad sapientiam pertinet. Ergo et misericordiae
+              opus sapientiae est attribuendum.</p>
+            <p xml:id="ta-l4d46q2-d1e190">Praeterea, misericordia facit miseriam alicujus quodammodo esse in eo qui miseratur.
+              Sed miseriae nostrae non possunt esse in Deo nisi per cognitionem. Ergo misericordia
+              ad cognitionem seu sapientiam Dei pertinet.</p>
+            <p xml:id="ta-l4d46q2-d1e194">Sed contra, videtur quod ad bonitatem. Quia Sap. 11, 27, ponitur pro ratione
+              misericordiae amor divinus; dicitur enim: <quote xml:id="ta-l4d46q2-Qd1e196">parcis omnibus, quoniam tua sunt, qui
+                amas animas</quote>. Sed amor ad bonitatem pertinet. Ergo misericordia bonitati est
+              attribuenda.</p>
+          </div>
+          <div xml:id="ta-l4d46q2-Dd1e202">
+            <head xml:id="ta-l4d46q2-Hd1e204">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d46q2-d1e207">Respondeo dicendum ad primam quaestionem, quod ex hoc homo dicitur misericors, quia
+              miseriam alterius suam facit; quod quidem contingit quantum ad duo. Primo quantum ad
+              hoc quod ipse quodammodo ex aliena miseria afficitur, inquantum compatitur patienti.
+              Secundo secundum quamdam reputationem, quia miseriam proximi reputat quasi suam, et
+              exinde movetur ad repellendum ejus miseriam per beneficium, sicut repelleret suam.
+              Deus autem nullo modo miseriae particeps esse potest; unde secundum primum modum
+              misericordia in eum non cadit; sed ipse hoc modo se habet in repellendo miserias
+              aliorum, sicut se habet homo in repellendo miseriam eorum. Sicut homo enim in
+              repellendo miseriam alicujus considerat hominis utilitatem cujus repellit miseriam;
+              ita et Deus per sua beneficia repellens nostram miseriam, non ordinat hoc ad suam
+              utilitatem, sed ad nostram; unde inquantum nostra miseria est quasi sua secundum
+              reputationem quamdam ipsius qui eam repellit, sic dicitur misericors, et misereri; et
+              propter hoc communiter dicitur, quod non est in eo misericordia secundum passionem,
+              sed secundum effectum; qui tamen effectus ex affectu voluntatis procedit; qui non est
+              passio, sed simplex voluntatis actus.</p>
+            <p xml:id="ta-l4d46q2-d1e210">Ad primum ergo dicendum, quod Damascenus definit misericordiam prout est passio in
+              nobis inventa; et per hunc modum Deo non competit.</p>
+            <p xml:id="ta-l4d46q2-d1e213">Ad secundum dicendum, quod misericordia in nobis passio quaedam est; nulla autem
+              passio est laudabilis, nisi secundum quod ratione regulatur; unde in nobis
+              misericordia non est laudabilis, nisi secundum quod sequitur ordinem rationis. Nihil
+              enim quod in nobis sit, transfertur in Deum, nisi eo modo quo in nobis est laudabile;
+              et ideo misericordia in Deo est secundum rationem sapientiae ipsius; unde non oportet
+              quod ex hoc ipso quod aliquis est magis peccator, majorem effectum misericordiae
+              consequatur, nisi secundum quod est in divina sapientia ordinatum.</p>
+            <p xml:id="ta-l4d46q2-d1e216">Et per hoc patet solutio ad tertium. Quia homo misericors non repellit alienam
+              miseriam quantumcumque potest, sed quantum recta ratio permittit. Similiter et Deus
+              repellit nostram miseriam secundum ordinem sapientiae suae; et ideo inducit miseriam
+              poenae quibusdam, et permittit quosdam incidere in miseriam culpae.</p>
+
+          </div>
+          <div xml:id="ta-l4d46q2-Dd1e220">
+            <head xml:id="ta-l4d46q2-Hd1e222">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d46q2-d1e225">Ad secundam quaestionem dicendum, quod ratio misericordiae et bonitatis differunt in
+              tribus. Primo in hoc quod misericordia respicit terminum a quo, sed bonitas magis
+              terminum ad quem. Ille enim cui Deus beneficia largitur, fit de deficiente perfectus.
+              Bonitas ergo respicit communicationem perfectionis, quia bonum est diffusivum sui
+              esse; sed misericordia respicit remotionem defectus. Secundo in hoc quod misericordia,
+              proprie loquendo, pertinet ad providentiam divinam, qua bona sua communicat creaturis
+              rationalibus tantum; respicit enim miseriam, quae cum sit contraria felicitati, non
+              potest esse nisi rationalium creaturarum, quarum est felices esse. Sed bonitas
+              respicit providentiam divinam respectu quarumlibet rerum. Tertio in hoc quod
+              misericordia importat quamdam assimilationem providentis ad eum cui providetur,
+              inquantum providens alterius miseriam quasi suam reputat; et ideo misericordia esse
+              non potest nisi in natura intellectuali quae habet aestimationem miseriae alienae. Sed
+              bonitas habet ordinem ad communicationem simpliciter; unde cuilibet creaturae quae
+              habet perfectionem communicabilem, bonitas convenire potest. Potest et quarta
+              differentia assignari; quia misericordia removet debitum ab eo cui providetur; non
+              enim dicitur misericorditer dari alicui quod ei debetur; sed bonitas non removet
+              debiti rationem ab eo cui aliquid datur; unde bonitas se habet communiter ad
+              largitionem justitiae et misericordiae.</p>
+            <p xml:id="ta-l4d46q2-d1e228">Ad primum ergo dicendum, quod non est inconveniens conversionem gentium et bonitati
+              divinae et misericordiae etiam attribuere, quamvis ratione diversa, ut ex dictis
+              patet.</p>
+            <p xml:id="ta-l4d46q2-d1e231">Ad secundum dicendum, quod misericordia se habet ex additione ad bonitatem
+              quodammodo, ut patet per praedicta; et ideo omne opus quod est misericordiae, est
+              etiam bonitatis, sed non e converso.</p>
+            <p xml:id="ta-l4d46q2-d1e234">Ad tertium dicendum, quod misericordia quamvis sit bonitas quaedam, tamen quaedam
+              super rationem bonitatis addit; et secundum hoc non est omnino eadem ratio bonitatis
+              et misericordiae, sicut non est omnino eadem ratio hominis et animalis.</p>
+
+          </div>
+          <div xml:id="ta-l4d46q2-Dd1e238">
+            <head xml:id="ta-l4d46q2-Hd1e240">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d46q2-d1e243">Ad tertiam quaestionem dicendum, quod omne opus divinum ex potentia, sapientia et
+              bonitate procedit; sed tamen opus aliquod appropriatur potentiae, sapientiae vel
+              bonitati, secundum quod in eo mirabilius apparet id quod pertinet ad aliquod
+              praedictorum attributorum. Potentia autem importat absolutam rationem principii
+              aliquid producentis; sed sapientiae est ordinare; unde ad sapientiam pertinet modus
+              producendi rem, quo aliquid ordinare in esse producitur; sed bonitas, quae habet
+              rationem finis, respicit motivum ad producendum: et ideo in opere creationis, in quo
+              admirabile redditur hoc praecipue quod res in esse productae sunt, manifestatur maxime
+              divina potentia; sed in opere gubernationis, quo res ordinatae disponuntur, redditur
+              ipse ordo rerum admirabilis, et ideo sapientiae attribuitur; sed opus recreationis
+              admirabile redditur ex ipso motivo, quia <quote xml:id="ta-l4d46q2-Qd1e245">non ex operibus justitiae quae
+                fecimus, sed propter suam bonitatem salvos nos fecit</quote>; unde attribuitur
+              praecipue bonitati. Et quia ex hoc aliquid dicitur misericorditer esse factum quod non
+              ex debito datur, sed ex bonitate largientis; ideo opus misericordiae, inquantum
+              hujusmodi, bonitati appropriatur.</p>
+            <p xml:id="ta-l4d46q2-d1e249">Ad primum ergo dicendum, quod Deus dicitur parcendo et miserendo suam omnipotentiam
+              maxime manifestare, non tam quoad substantiam facti, quam quoad licentiam faciendi;
+              ille enim qui est alicui superiori potestati subjectus, non potest licite dimittere
+              poenas a superiori potestate constitutas. Ex hoc ergo quod Deus poenas dimittit, et
+              supra debitum largitur; ostenditur quod ipse ex propria potestate et auctoritate omnia
+              operatur; et quod ipse non est superiori potestati subjectus. Sed quantum ad
+              substantiam facti praecipue manifestatur bonitas in parcendo; et ideo opus
+              misericordiae bonitati est attribuendum.</p>
+            <p xml:id="ta-l4d46q2-d1e252">Ad secundum dicendum, quod justificare impium dicitur majus quam creare caelum et
+              terram, inquantum ad nobilius esse perducitur quis per justificationem quam per
+              creationem; vel inquantum in creatione non est aliquid quod repugnet creanti, cum sit
+              ex nihilo, sicut in justificatione repugnat justificanti inordinata voluntas. Unde
+              quamvis opus justificationis potentiam manifestet, specialiter tamen commendat
+              bonitatem, inquantum ipsa est sola quae ad justificandum movet, cum ex parte
+              justificandi magis inveniatur quod justificationi repugnet.</p>
+            <p xml:id="ta-l4d46q2-d1e255">Ad tertium dicendum, quod licet misericordia judicio dirigatur, non tamen esse
+              misericordiae consistit in judicio, sed magis in voluntate; et ideo magis appropriatur
+              bonitati quam sapientiae.</p>
+            <p xml:id="ta-l4d46q2-d1e259">Et similiter dicendum ad quartum de cognitione; quia illa praeexigitur ad voluntatem
+              repellendi miseriam, in qua ratio misericordiae completur.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d46q2-Dd1e264" type="articulus">
+          <head xml:id="ta-l4d46q2-Hd1e266">Articulus 2</head>
+
+          <head xml:id="ta-l4d46q2-Hd1e269" type="questionTitle">Utrum Deus semper misericordiam exhibeat in hoc quod punit
+            citra condignum, et remunerat ultra meritum</head>
+
+          <div xml:id="ta-l4d46q2-Dd1e272">
+            <head xml:id="ta-l4d46q2-Hd1e274">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d46q2-d1e277">Ad secundum sic proceditur. Videtur quod Deus non semper misericordiam exhibeat in
+              hoc quod punit citra condignum, et remunerat ultra meritum. Quia Apocal. 18, 7:
+                <quote xml:id="ta-l4d46q2-Qd1e279">quantum glorificavit se et in deliciis fuit, tantum date illi tormentum et
+                luctum</quote>; et Matth. 7, 2: <quote xml:id="ta-l4d46q2-Qd1e282" ana="#mt7_2">in qua mensura mensi fueritis, remetietur et
+                vobis</quote>. Ergo videtur quod secundum mensuram meriti vel delicti sit mensura
+              poenae vel praemii; et ita non semper punit citra condignum, nec remunerat ultra
+              meritum.</p>
+            <p xml:id="ta-l4d46q2-d1e286">Praeterea, Apoc. 18, 6, dicitur: <quote xml:id="ta-l4d46q2-Qd1e288">duplicate ei duplicia secundum opera
+                ejus</quote>; et Isa. 40, 2: <quote xml:id="ta-l4d46q2-Qd1e291">suscepit de manu domini duplicia pro omnibus
+                peccatis suis</quote>; et super illud Psal. 71: <quote xml:id="ta-l4d46q2-Qd1e294">ex usuris et
+                iniquitate</quote> etc., dicit Glossa: <quote xml:id="ta-l4d46q2-Qd1e297">plus exigit in poenis quam commissum
+                sit in culpis</quote>. Ergo videtur quod non puniat citra condignum, sed magis
+              ultra.</p>
+            <p xml:id="ta-l4d46q2-d1e301">Praeterea, pueri baptizati liberati sunt ab omni peccato. Ergo non sunt debitores
+              alicujus poenae. Sed tamen frequenter multae poenae eis divinitus in hac vita
+              infliguntur, ut febres, et hujusmodi; nec potest dici quod ad eorum utilitatem cedant,
+              cum quandoque moriantur antequam ad adultam aetatem perveniant. Ergo videtur quod non
+              puniat semper citra condignum.</p>
+            <p xml:id="ta-l4d46q2-d1e304">Praeterea, peccato originali non debetur alia poena quam carentia visionis divinae.
+              Sed hac poena puniuntur pueri non baptizati, qui in peccato originali decedunt. Ergo
+              videtur quod non semper puniat citra condignum.</p>
+            <p xml:id="ta-l4d46q2-d1e308">Praeterea, illud quod potest aliter esse, non est asserendum quod semper ita se
+              habeat. Sed Deus potest aliquando servare modum justitiae, ut secundum condignum
+              puniat; hoc enim non est contra potentiam ordinatam. Ergo non est asserendum quod
+              semper puniat citra condignum.</p>
+            <p xml:id="ta-l4d46q2-d1e311">Praeterea, Sap. 6, 7 dicitur: <quote xml:id="ta-l4d46q2-Qd1e313">exiguo conceditur misericordia; potentes autem
+                potenter tormenta patientur</quote>; et Jac. 2, 13: <quote xml:id="ta-l4d46q2-Qd1e316">judicium sine
+                misericordia fiet ei qui non fecit misericordiam</quote>. Ergo videtur quod potentes
+              et immisericordes non puniantur citra condignum.</p>
+            <p xml:id="ta-l4d46q2-d1e320">Sed contra est quod dicitur Psal. 102, 10: <quote xml:id="ta-l4d46q2-Qd1e322">non secundum peccata nostra fecit
+                nobis, neque secundum iniquitates nostras retribuit nobis</quote>.</p>
+            <p xml:id="ta-l4d46q2-d1e326">Praeterea, proprium non derelinquit id cujus est proprium. Sed Deo proprium est
+              misereri, ut dicitur in collecta: <quote xml:id="ta-l4d46q2-Qd1e328">Deus cui proprium est misereri semper et
+                parcere</quote>. Ergo semper miseretur. Sed hoc non esset nisi praemium conferret
+              ultra meritum, et mala citra condignum. Ergo videtur quod ita semper accidat.</p>
+
+          </div>
+          <div xml:id="ta-l4d46q2-Dd1e333">
+            <head xml:id="ta-l4d46q2-Hd1e335">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d46q2-d1e338">Ulterius. Videtur quod non in omni tempore Dei misericordia et veritas conjungantur.
+              Quia opus creationis non praesupponit aliquid. Sed opus quod est secundum justitiam,
+              praesupponit debitum; opus autem quod est secundum misericordiam, praesupponit
+              miseriam. Ergo in opere creationis non conveniunt justitia et misericordia.</p>
+            <p xml:id="ta-l4d46q2-d1e341">Praeterea, convertere gentes et convertere Judaeos sunt diversa opera. Sed in
+              conversione gentium videtur fuisse sola misericordia; in salvatione autem Judaeorum
+              justitia; per id quod dicitur Rom. 15, 8: <quote xml:id="ta-l4d46q2-Qd1e343" ana="#rom15_8">dico Jesum Christum ministrum fuisse
+                circumcisionis ad confirmandas promissiones patrum; gentes autem super misericordia
+                honorare Deum</quote>. Ergo nec in omni opere domini est misericordia et
+              veritas.</p>
+            <p xml:id="ta-l4d46q2-d1e347">Praeterea, ibi non videtur esse justitia ubi unus pro peccato alterius punitur. Sed
+              Deus quandoque punit unum pro peccato alterius, sicut pro peccato Cham maledictus est
+              Chanaan, Gen. 9; et pro peccato David percussus est populus, 2 Reg., ult. Ergo videtur
+              quod non semper justitiam et misericordiam in opere servet.</p>
+            <p xml:id="ta-l4d46q2-d1e350">Praeterea, ibi non videtur servari justitia ubi nullum meritum praecessit; cum
+              justitia debitum respiciat. Sed in impio qui justificatur, nullum meritum praecessit.
+              Ergo non videtur justitia aliqua in impii justificatione.</p>
+            <p xml:id="ta-l4d46q2-d1e354">Praeterea, justitia nunquam reddit aequalibus nisi aequalia. Sed Deus quandoque
+              aequalibus inaequalia tribuit; ante enim quam Jacob et Esau nati essent, aut aliquid
+              boni vel mali egissent, omnino aequales erant; et tamen uni praeparavit gloriam, et
+              alteri poenam, ut patet Rom. 9. Similiter cum Aaron et filii Israel peccassent
+              aequaliter in idoli adoratione, Aaron non est punitus, cum populus punitus fuerit, ut
+              patet Exod. 21. Ergo videtur quod non in omnibus justitiam servet.</p>
+            <p xml:id="ta-l4d46q2-d1e357">Praeterea, hoc videtur esse injustum, ut meliori minus detur de bonis, et magis de
+              malis. Sed bona temporalia aliquando abundantius dantur a Deo malis quam bonis, et
+              poenae quandoque magis inferuntur bonis quam malis. Ergo videtur quod non in omni
+              opere suo justitiam servet cum misericordia.</p>
+            <p xml:id="ta-l4d46q2-d1e360">Sed contra, Augustinus dicit in Lib. de concordia Evangelistarum: <quote xml:id="ta-l4d46q2-Qd1e362">Deus, qui
+                res humanas curat, juste et misericorditer curat, ut nec praecludat misericordia
+                justitiam, nec justitia misericordiam excludat</quote>. Ergo videtur quod in omni
+              opere domini justitia et misericordia conveniant.</p>
+            <p xml:id="ta-l4d46q2-d1e366">Praeterea, non magis differt in Deo justitia et misericordia, quam potentia, bonitas
+              et sapientia. Sed omne opus potentiae est opus sapientiae et bonitatis. Ergo videtur
+              quod similiter omne opus justitiae sit misericordiae, et e converso.</p>
+
+          </div>
+          <div xml:id="ta-l4d46q2-Dd1e370">
+            <head xml:id="ta-l4d46q2-Hd1e372">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d46q2-d1e375">Ulterius. Videtur quod in opere Dei principalior sit justitia quam misericordia.
+              Quia, ut dicitur Hebr. 10, 4, <quote xml:id="ta-l4d46q2-Qd1e377" ana="#hebr10_4">horrendum est incidere in manus Dei
+                viventis</quote>. Sed hoc non esset, si misericordia principalior in ejus opere
+              esset. Ergo justitia magis in opere Dei principatur quam misericordia.</p>
+            <p xml:id="ta-l4d46q2-d1e381">Praeterea, illud quod est prius in quolibet genere, est principalius. Sed justitia
+              videtur esse prior quam misericordia; quia misericordia ex justitia nascitur, ut dicit
+              Anselmus in Proslogio. Ergo justitia principalior est in opere Dei quam
+              misericordia.</p>
+            <p xml:id="ta-l4d46q2-d1e384">Praeterea, illud quod inest alicui secundum se, principalius ei convenit quam quod
+              convenit ei secundum alterum. Sed, sicut dicit Anselmus in Proslog., <quote xml:id="ta-l4d46q2-Qd1e386">parcendo
+                malis justus es secundum te et non secundum nos, sicut misertus es secundum nos et
+                non secundum te</quote>; et sic misericordia competit Deo secundum nos; sed justitia
+              secundum seipsum. Ergo principalior est in opere Dei justitia quam misericordia.</p>
+            <p xml:id="ta-l4d46q2-d1e390">Sed contra est quod dicitur Jacob. 2, 12: <quote xml:id="ta-l4d46q2-Qd1e392">superexaltat autem misericordia
+                judicium</quote>; idest, superponetur misericordia in judicio, ut Glossa dicit; et
+              in Psalm. 144, 9: <quote xml:id="ta-l4d46q2-Qd1e395">miserationes ejus super omnia opera ejus</quote>. Ergo
+              misericordia principalior est in opere Dei quam justitia.</p>
+            <p xml:id="ta-l4d46q2-d1e400">Praeterea, illud quod est proprium alicui, principalius ei convenit quam id quod est
+              alienum ab eo. Sed proprium opus Dei est misereri et parcere; et opus punitionis est
+              alienum ab eo, ut patet Exod. 22. Ergo misericordia principalior est in opere Dei quam
+              justitia.</p>
+          </div>
+          <div xml:id="ta-l4d46q2-Dd1e405">
+            <head xml:id="ta-l4d46q2-Hd1e407">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d46q2-d1e410">Respondeo dicendum ad primam quaestionem, quod agens et patiens semper debent sibi
+              proportionaliter respondere; ita quod hoc modo se habeat agens ad actionem, sicut
+              patiens ad passionem. Ea autem quae sunt inaequalia, non habent similem proportionem
+              nisi ad inaequalia: sicut enim senarius est major quaternario; ita et ternarius, cujus
+              duplum est senarius, est major binario, cujus duplum est quaternarius. Et inde est
+              quod quandocumque agens excedit patiens, oportet quod actio excedat passionem; sicut
+              videmus in omnibus agentibus aequivocis, quia patiens non recipit effectum totum
+              actionis. Dans autem se habet per modum agentis, et recipiens per modum patientis; et
+              ideo quando dans superexcedit recipientem, conveniens est ut datio excedat illam
+              receptionem quae est proportionata recipienti. Et ideo cum Deus sit excellentissimus
+              dator propter abundantiam suae bonitatis, oportet quod semper ejus datio in bonis
+              superexcedat receptionem quae est proportionata recipienti. Pro eodem autem computatur
+              minus malum et majus bonum, ut dicitur in 5 Ethic.; et ideo Deus semper dat ultra
+              condignum de bonis, et semper mala poenae irrogat citra condignum.</p>
+            <p xml:id="ta-l4d46q2-d1e413">Ad primum ergo dicendum, quod quantum et tantum non important aequalitatem
+              quantitatis, sed proportionis, in auctoritate inducta. Poenae autem proportio ad
+              culpam potest intelligi dupliciter: vel in generali, vel in speciali. In generali
+              quidem; ut qui peccavit, puniatur; et qui multum peccavit, multum puniatur. In
+              speciali autem dupliciter: vel accipiendo proportionem poenae ad culpam secundum
+              debitum culpae absolute; vel praesupposita mitigatione divinae misericordiae, quae
+              aliquid de poena remittit. Primo igitur et tertio modo nunquam Deus punit citra
+              condignum: quia semper peccantes multum punit: nec aliquid de poena dimittitur quae
+              post mitigationem divinae misericordiae remanet. Sed quantum ad secundum modum semper
+              punitur aliquis citra condignum: quia non tantum punitur quis, quantum per culpam
+              meruit. Vel dicendum, et melius, quod aequalitas ista proportionalitatis est, non
+              aequalitatis; et attendenda est non secundum comparationem poenae ad culpam, sed
+              secundum proportionem duorum peccantium ad duas poenas; ut scilicet qui plus peccavit,
+              plus puniatur; et secundum quod exceditur in peccato, sic excedatur in poena; et sic
+              etiam intelligendae sunt omnes auctoritates quae videntur aequalitatem culpae et
+              poenae demonstrare.</p>
+            <p xml:id="ta-l4d46q2-d1e416">Ad secundum dicendum, quod duplicitas illa poenae non intelligitur secundum excessum
+              poenae ad culpam in duplo; sed quia homo in duobus punietur; scilicet in anima et
+              corpore. Quod autem dicitur, quod plus exigitur in poenis quam commissum sit in
+              culpis; intelligendum est quantum ad temporis durationem: quia pro delectatione
+              momentanea infligitur poena aeterna. Duratio autem poenae non proportionatur durationi
+              culpae; sed magis intensio poenae respondet enormitati culpae, ut patet ex supra
+              dictis.</p>
+            <p xml:id="ta-l4d46q2-d1e419">Ad tertium dicendum, quod peccatum originale sequitur duplex poena. Una, secundum
+              quod infectivum personae; et sic est poena ejus carentia visionis divinae. Alia,
+              secundum quod est vitium naturae; et sic sequuntur ipsum poenae quae ex principio
+              naturae causantur, ut mors, quae causatur ex contrarietate principiorum naturae, et
+              alia hujusmodi quae ad mortem ordinantur, vel quae ex deordinatione principiorum
+              naturae consequuntur, ut febris, et hujusmodi. Dico ergo, quod Baptismus mundat
+              personam, sed non curat naturam; quod patet ex hoc quod per actum naturae baptizatus
+              originale transmittit in prolem; et ideo per Baptismum absolvitur puer baptizatus a
+              reatu mortis aeternae, quae est carentia visionis divinae; manet tamen adhuc reatus
+              mortis temporalis, et aliorum hujusmodi, quae ex peccato naturae consequuntur: quae
+              quamvis ad utilitatem illius personae non cedant, si infra aetatem perfectam decedit,
+              quia his passionibus non meretur; cedunt tamen in utilitatem aliorum qui sunt ei
+              conformes in natura: quia et poenae hujusmodi peccatum naturae consequuntur.</p>
+            <p xml:id="ta-l4d46q2-d1e423">Ad quartum dicendum, quod pro peccato originali secundum rigorem justitiae non solum
+              debetur naturae pro poena carentia visionis divinae, sed etiam ipsius annihilatio; et
+              ideo ex hoc ipso quod conservantur pueris non baptizatis naturalia bona, citra
+              condignum puniuntur. Unde Threnor. cap. 3, 22: <quote xml:id="ta-l4d46q2-Qd1e425">misericordiae domini, quod non
+                sumus consumpti</quote>.</p>
+            <p xml:id="ta-l4d46q2-d1e429">Ad quintum dicendum, quod sicut potentia Dei habet ordinem ad ejus justitiam, ita
+              etiam habet ordinem ad ejus misericordiam; unde quamvis non repugnet potentiae
+              secundum quod ordinatur ad justitiam, nihil de poena dimittere; repugnat tamen
+              potentiae secundum quod ordinatur ad misericordiam; et sic de potentia ad
+              misericordiam ordinata hoc Deus non potest.</p>
+            <p xml:id="ta-l4d46q2-d1e432">Ad sextum dicendum, quod immisericordes non consequuntur misericordiam totaliter a
+              poena liberantem, consequuntur tamen misericordiam aliquid de poena relaxantem.
+              Similiter etiam si potentes sint mali, non possunt excusari per infirmitatem, quae
+              quandoque excusat a toto, sicut per eam exigui, idest totaliter infirmi,
+              excusantur.</p>
+
+          </div>
+          <div xml:id="ta-l4d46q2-Dd1e436">
+            <head xml:id="ta-l4d46q2-Hd1e438">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d46q2-d1e441">Ad secundam quaestionem dicendum, quod operatio Dei est quasi medium inter Deum
+              operantem et ipsum opus operatum. Omne autem medium participat quodammodo cum utroque
+              extremorum; et ideo in operatione Dei oportet aliquid inveniri ex parte ipsius Dei
+              operantis et ex parte operati, ad quod operatio terminatur. Ex parte quidem operantis
+              exigitur ut sit superabundantia in collatione bonorum et diminutione malorum, cum ipse
+              Deus sit excellentissimus operator, ut dictum est, et in hoc consistit divina
+              misericordia; ex parte autem operati requiritur receptio, quae fit secundum
+              proportionem recipientis; et in hoc ratio justitiae consistit. Ideo oportet quod in
+              omni divina operatione aliquid misericordiae et aliquid justitiae inveniatur: nec
+              justitia misericordiae repugnat; quia misericordia non est laudabilis nisi sit
+              secundum rationem rectam, quae est regula justitiae, sive secundum ordinem sapientiae
+              in divinis; nec misericordia repugnat justitiae; quia elargiri aliquid supra debitum
+              de bonis, vel citra debitum de malis, non est contra justitiam, sed praeter eam, ut ex
+              dictis patet; et ideo nec immensitas misericordiae excludit justitiam a divino opere,
+              nec immensitas justitiae misericordiam.</p>
+            <p xml:id="ta-l4d46q2-d1e444">Ad primum ergo dicendum, quod justitia, ut ex dictis patet, quandoque consistit in
+              retributione meritorum; et sic justitia in creatione non consideratur: quandoque vero
+              justitia consistit in condecentia divinae bonitatis; et sic non praesupponit aliquid
+              ex parte recipientis, sed solum ex parte Dei; et sic potest esse justitia in opere
+              creationis. Justum est enim ut unaquaeque res hoc modo esse habeat quomodo
+              praeordinatum est a sapientia divina. Similiter et misericordia dupliciter dicitur.
+              Uno modo secundum quod repellit miseriam praecedentem non ex debito; et sic non potest
+              esse misericordia in opere creationis: alio modo communiter, secundum quod sine debito
+              tollitur quicumque defectus; et sic in opere creationis est misericordia: quia maximum
+              defectum Deus creando removit, scilicet non esse; et hoc ex gratuita voluntate fecit,
+              non aliquo debito constrictus.</p>
+            <p xml:id="ta-l4d46q2-d1e447">Ad secundum dicendum, quod apostolus utitur tali modo distinctionis, quia aliquis
+              modus justitiae fuit in salvatione Judaeorum qui non fuit in conversione gentium;
+              scilicet impletio promissorum, quae fuerunt per prophetas Judaeis, et non gentibus,
+              repromissa a Deo. Sed tamen in utrisque salvatio habuit et justitiam et misericordiam:
+              justitiam autem quae est secundum decentiam divinae bonitatis: decuit enim ut Deus
+              rationalem creaturam non totaliter perderet, quam ad beatitudinem fecit: misericordiam
+              vero, quia in neutris merita praecesserunt quae ad hoc sufficerent, secundum illud
+              Tit. 3, 5: <quote xml:id="ta-l4d46q2-Qd1e449">non ex operibus justitiae, quae fecimus nos, sed secundum suam
+                misericordiam salvos nos fecit</quote>.</p>
+            <p xml:id="ta-l4d46q2-d1e453">Ad tertium dicendum, quod sicut dicit Augustinus super illud Josue, 7: <quote xml:id="ta-l4d46q2-Qd1e455">filii
+                Israel praevaricati sunt</quote> etc., in poenis aeternis nunquam unus punitur pro
+              alio; sed in temporali quandoque unus punitur pro alio: cujus ratio potest esse
+              triplex. Una est, quia poena aeterna non infligitur alicui ad profectum patientis, sed
+              ad vindictam culpae; sed poena temporalis quandoque infertur ad profectum patientis.
+              Unde sicut quandoque aliquis sine culpa punitur temporali poena, ita etiam quandoque
+              aliquis punitur pro peccato alterius ad profectum sui et aliorum, ut scilicet videatur
+              quantum unus debeat esse solicitus pro alio, ne cadat in peccatum, ex quo pro peccato
+              unius tota congregatio temporaliter punitur; et ut etiam ostendatur quam fugiendum sit
+              peccatum, quod ita graviter punitur, ut uno delinquente plures puniantur. Secunda
+              ratio potest esse, quia quantum ad temporalia unus homo est res alterius, sicut filius
+              est quaedam res patris; et ideo quandoque filius punitur temporaliter pro peccato
+              patris, et servus pro peccato domini; sed quantum ab bonum animae quilibet gerit
+              personam propriam. Ezech. 18, 4: <quote xml:id="ta-l4d46q2-Qd1e458">omnes animae meae sunt</quote>. Tertia ratio
+              est quam assignat Gregorius, quia quandoque aliquis est particeps culpae alterius;
+              sicut ex culpa subditorum quandoque permittuntur praelati cadere in peccatum; et ita
+              non est mirum, si pro peccatis praelatorum subditi puniuntur, sicut in 2 Reg., ultim.,
+              David peccante populus est punitur. Unde hoc non est divinae justitiae contrarium, ut
+              unus quandoque pro peccato alterius puniatur. Nec tamen ex hoc debet sumi exemplum in
+              judicio humano, ut unus puniatur pro alio, ut Augustinus dicit: quia homo non potest
+              scire profectum provenientem ex poena temporali, sicut hoc Deus infallibiliter
+              cognoscit.</p>
+            <p xml:id="ta-l4d46q2-d1e463">Ad quartum dicendum, quod in justificatione impii servatur aliquis modus justitiae,
+              qui est secundum condecentiam divinae bonitatis, vel etiam secundum exhibitionem
+              promissi, ut habetur in Glossa super illud Psal. 50, 6: <quote xml:id="ta-l4d46q2-Qd1e465">ut justificeris in
+                sermonibus tuis</quote>; et cetera. Deus enim hoc promisit ut peccatoribus veniam
+              petentibus venia largiretur.</p>
+            <p xml:id="ta-l4d46q2-d1e469">Ad quintum dicendum, quod non est justitia, si de eo quod neutri est debitum,
+              aequalibus inaequaliter detur, sicut patet Matth. 20, in parabola de laborantibus in
+              vinea, qui licet inaequaliter laborassent, est redditum aequale praemium; eo enim quod
+              aliquis liberaliter dat quod potest dare vel non dare, nihil differt quo ad justitiam
+              quantumcumque detur. Dico ergo, quod omnibus hominibus ex merito proprii peccati
+              debetur poena aeterna; sed quod aliqui liberentur, hoc est ex sola divina
+              liberalitate: posset enim omnes juste damnare; et ideo nulla est injustitia, si
+              aliquos eligat et aliquos reprobet, in quibus tamen nulla differentia meritorum
+              praecessit. Aaron autem punitus fuit, quamvis non poena manifesta, sicut et populus,
+              in signum quod praelati non debent puniri manifeste, sed occulte propter scandalum
+              vitandum. Poena autem Aaron dicitur fuisse in ipso et filiis ejus, quod in sacrificio
+              vitulae rufae immundi efficiebantur, ut habetur Numer. 19. Augustinus tamen in Glossa
+              Exod. 32, hoc occulto Dei judicio ascribit, qui quibusdam parcit ad tempus, ut in
+              melius commutentur, aliis punitis.</p>
+            <p xml:id="ta-l4d46q2-d1e472">Ad sextum dicendum, quod hoc quod melioribus minus datur de bono temporali, et
+              quandoque plus de malo, in eorum profectum cedit quantum ad spirituale bonum, quod est
+              simpliciter hominis bonum. Bona enim temporalia non sunt simpliciter hominis bona,
+              nisi secundum quod organice deserviunt ad spirituale bonum. Quomodo autem hoc cedat in
+              profectum spiritualis boni, supra ostensum est.</p>
+
+          </div>
+          <div xml:id="ta-l4d46q2-Dd1e476">
+            <head xml:id="ta-l4d46q2-Hd1e478">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d46q2-d1e481">Ad tertiam quaestionem dicendum, quod illud quod est formale in unoquoque, est
+              excellentius in eo; quia per formam materia completur. In qualibet autem actione illud
+              quod est ex parte agentis, est quasi formale; illud autem quod est ex parte patientis
+              vel recipientis, est quasi materiale. Dictum autem est supra, quod misericordia in
+              omni opere divino resultat ex parte ipsius Dei, qui superabundat in bono; sed justitia
+              ex parte recipientis, qui recipit secundum suam proportionem; et ideo in quolibet
+              opere divino supereminet misericordia justitiae, sicut materiali formale; et hoc est
+              quod in Psal. 144, 9, dicitur: <quote xml:id="ta-l4d46q2-Qd1e483">miserationes ejus super omnia opera
+              ejus</quote>.</p>
+            <p xml:id="ta-l4d46q2-d1e487">Ad primum ergo dicendum, quod dicitur esse horrendum incidere in manus Dei viventis,
+              non propter remotionem misericordiae relaxantis aliquid de poena, sed propter poenae
+              interminabilitatem, vel etiam propter remotionem resistentiae: quia ejus irae nemo
+              resistere potest, cum sit omnipotens; nec ab eo fugere, cum sit ubique praesens; nec
+              coram eo fallaciter se excusare, cum omnia sciat.</p>
+            <p xml:id="ta-l4d46q2-d1e490">Ad secundum dicendum, quod Anselmus loquitur non de justitia quae attendit
+              proportionem creaturae, vel humana merita, sed quae attendit solam decentiam bonitatis
+              divinae: ex tali enim decentia misericordia nascitur: non autem loquitur de justitia
+              secundum quod respicit debitum ex parte creaturae.</p>
+            <p xml:id="ta-l4d46q2-d1e493">Et similiter etiam est dicendum ad tertium.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d46q2-Dd1e498" type="articulus">
+          <head xml:id="ta-l4d46q2-Hd1e500">Articulus 3</head>
+
+          <head xml:id="ta-l4d46q2-Hd1e503" type="questionTitle">Utrum per divinam misericordiam omnis poena terminetur tam
+            hominum, quam etiam Daemonum</head>
+
+          <div xml:id="ta-l4d46q2-Dd1e506">
+            <head xml:id="ta-l4d46q2-Hd1e508">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d46q2-d1e511">Ad tertium sic proceditur. Videtur quod per divinam misericordiam omnis poena
+              terminetur tam hominum quam etiam Daemonum. Quia Sap. 11, 24: <quote xml:id="ta-l4d46q2-Qd1e513">misereris omnium,
+                domine, quoniam omnia potes</quote>. Sed inter omnia etiam Daemones continentur, qui
+              sunt Dei creaturae. Ergo et Daemonum poena finietur.</p>
+            <p xml:id="ta-l4d46q2-d1e517">Praeterea, Rom. 11, 32: <quote xml:id="ta-l4d46q2-Qd1e519" ana="#rom11_32">conclusit Deus omnia sub peccato, ut omnium
+                misereatur</quote>. Sed Deus Daemones sub peccato conclusit, idest peccato concludi
+              permisit. Ergo videtur quod etiam Daemonum quandoque misereatur.</p>
+            <p xml:id="ta-l4d46q2-d1e523">Praeterea, sicut dicit Anselmus in Lib. cur Deus homo, <quote xml:id="ta-l4d46q2-Qd1e525">non est justum ut Deus
+                creaturam rationalem quam fecit ad beatitudinem, omnino perire sinat</quote>. Ergo
+              videtur quod cum quaelibet creatura rationalis creata fuerit ad beatitudinem, non sit
+              justum ut omnino perire permittatur.</p>
+            <p xml:id="ta-l4d46q2-d1e529">Sed contra est quod dicitur Matth. 25, 41: <quote xml:id="ta-l4d46q2-Qd1e531" ana="#mt25_41">ite maledicti in ignem aeternum,
+                qui paratus est Diabolo et Angelis ejus</quote>. Ergo aeternaliter punientur.</p>
+            <p xml:id="ta-l4d46q2-d1e536">Praeterea, sicut boni Angeli effecti sunt beati per conversionem ad Deum, ita mali
+              Angeli effecti sunt miseri per aversionem a Deo. Si ergo miseria malorum Angelorum
+              quandoque finietur; et beatitudo bonorum finem habebit; quod est inconveniens.</p>
+
+          </div>
+          <div xml:id="ta-l4d46q2-Dd1e540">
+            <head xml:id="ta-l4d46q2-Hd1e542">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d46q2-d1e545">Ulterius. Videtur quod divina misericordia non permittat, saltem homines, in aeternum
+              puniri. Quia Gen. 6, 3, dicitur: <quote xml:id="ta-l4d46q2-Qd1e547" ana="#gen6_3">non permanebit spiritus meus in homine in
+                aeternum, quia caro est</quote>; et accipitur ibi spiritus pro indignatione, ut
+              patet per Glossam, ibidem. Cum igitur indignatio Dei non sit aliud quam ejus poena,
+              non punientur aeternaliter.</p>
+            <p xml:id="ta-l4d46q2-d1e551">Praeterea, caritas sanctorum in praesenti hoc facit ut pro inimicis exorent. Sed tunc
+              habebunt perfectiorem caritatem. Ergo tunc orabunt pro inimicis damnatis. Sed
+              orationes eorum esse cassae non poterunt, cum sint maxime Deo accepti. Ergo precibus
+              sanctorum divina misericordia quandoque damnatos a poena liberabit.</p>
+            <p xml:id="ta-l4d46q2-d1e554">Praeterea, hoc quod Deus poenam aeternam damnatorum praedixit, ad prophetiam
+              comminationis pertinet. Sed prophetia comminationis non semper impletur; quod patet
+              per hoc quod dictum est de subversione Ninive, quae non fuit subversa, sicut
+              praedictum fuerat per prophetam, qui ex hoc etiam contristatus fuit. Ergo videtur quod
+              multo amplius per divinam misericordiam comminatio poenae aeternae commutabitur in
+              mitiorem sententiam, quando in nullius tristitiam, sed in omnium gaudium cedere
+              poterit.</p>
+            <p xml:id="ta-l4d46q2-d1e557">Praeterea, ad hoc facit quod in Psalm. 76, 8, dicitur: <quote xml:id="ta-l4d46q2-Qd1e559">numquid in aeternum
+                irascetur Deus?</quote> Sed ira Dei est ejus punitio. Ergo Deus in aeternum homines
+              non puniet.</p>
+            <p xml:id="ta-l4d46q2-d1e564">Praeterea, Isa. 14, super illud: <quote xml:id="ta-l4d46q2-Qd1e566">tu autem projectus</quote> etc., dicit
+              Glossa: <quote xml:id="ta-l4d46q2-Qd1e569">et si omnes animae aliquando habebunt requiem, tu nunquam</quote>:
+              loquens de Diabolo. Ergo videtur quod omnes animae humanae aliquando requiem habebunt
+              a poenis.</p>
+            <p xml:id="ta-l4d46q2-d1e573">Sed contra est quod dicitur Matth. 25, 46, simul de electis et reprobis: <quote xml:id="ta-l4d46q2-Qd1e575" ana="#mt25_46>ibunt
+                hi in supplicium aeternum, justi autem in vitam aeternam</quote>. Sed inconveniens
+              est ponere quod justorum vita quandoque finiatur. Ergo inconveniens est ponere quod
+              reproborum supplicium terminetur.</p>
+            <p xml:id="ta-l4d46q2-d1e579">Praeterea, sicut dicit Damascenus, hoc est hominibus mors quod Angelis casus. Sed
+              Angeli post casum irreparabiles fuerunt. Ergo et homines similiter post mortem; et sic
+              damnatorum supplicium nunquam terminabitur.</p>
+
+          </div>
+          <div xml:id="ta-l4d46q2-Dd1e583">
+            <head xml:id="ta-l4d46q2-Hd1e585">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d46q2-d1e588">Ulterius. Videtur quod saltem Christianorum poena per divinam misericordiam
+              terminetur. Quia Marc. ult. 16, dicitur: <quote xml:id="ta-l4d46q2-Qd1e590">qui crediderit et baptizatus fuerit,
+                salvus erit</quote>. Sed hoc est omnium Christianorum. Ergo omnes Christiani
+              finaliter salvabuntur.</p>
+            <p xml:id="ta-l4d46q2-d1e594">Praeterea, Joan. 6, 55, dicitur: <quote xml:id="ta-l4d46q2-Qd1e596">qui manducat carnem meam, et bibit meum
+                sanguinem, habet vitam aeternam</quote>. Sed hoc est communis cibus et potus
+              Christianorum. Ergo omnes Christiani finaliter salvabuntur.</p>
+            <p xml:id="ta-l4d46q2-d1e600">Praeterea, 1 Corinth. 3, 15: <quote xml:id="ta-l4d46q2-Qd1e602">si cujus opus arserit, detrimentum patietur, ipse
+                autem salvus erit, sic tamen quasi per ignem</quote>; et loquitur de illis in quibus
+              fuit fundamentum fidei Christianae. Ergo omnes tales finaliter salvabuntur.</p>
+            <p xml:id="ta-l4d46q2-d1e606">Sed contra est quod dicitur 1 Corinth. 6: <quote xml:id="ta-l4d46q2-Qd1e608">iniqui regnum Dei non
+                possidebunt</quote>. Sed quidam Christiani sunt iniqui. Ergo non omnes Christiani ad
+              regnum Dei pervenient.</p>
+            <p xml:id="ta-l4d46q2-d1e613">Praeterea, 2 Petri 2, 21, dicitur: <quote xml:id="ta-l4d46q2-Qd1e615">melius erat eis viam veritatis non
+                cognoscere quam post agnitam retroire ab eo quod traditum est illis sancto
+                mandato</quote>. Sed illi qui viam veritatis non cognoscunt, aeternaliter puniuntur.
+              Ergo et Christiani qui ab agnita retrocesserunt.</p>
+
+          </div>
+          <div xml:id="ta-l4d46q2-Dd1e621">
+            <head xml:id="ta-l4d46q2-Hd1e623">Quaestiuncula 4</head>
+            <p xml:id="ta-l4d46q2-d1e626">Ulterius. Videtur quod illi omnes qui opera misericordiae faciunt, non punientur
+              aeternaliter: sed soli illi qui opera misericordiae negligunt. Jac. 2, 13:
+                <quote xml:id="ta-l4d46q2-Qd1e628">judicium sine misericordia fiet ei qui non fecit misericordiam</quote>; et
+              Matth. 5, 7: <quote xml:id="ta-l4d46q2-Qd1e631" ana="#mt5_7">beati misericordes, quoniam ipsi misericordiam
+                consequentur</quote>.</p>
+            <p xml:id="ta-l4d46q2-d1e635">Praeterea, Matth. 25, ponitur disceptatio domini cum electis et reprobis. Sed
+              disceptatio non est nisi de operibus misericordiae. Ergo solum pro operibus
+              misericordiae omissis aliqui aeternaliter punientur; et sic idem quod prius.</p>
+            <p xml:id="ta-l4d46q2-d1e638">Praeterea, Matth. 6, 12, dicitur: <quote xml:id="ta-l4d46q2-Qd1e640" ana="#mt6_12">dimitte nobis debita nostra, sicut et nos
+                dimittimus debitoribus nostris</quote>; et sequitur: <quote xml:id="ta-l4d46q2-Qd1e643">si enim dimiseritis
+                hominibus peccata eorum, dimittet et vobis pater vester caelestis delicta
+                vestra</quote>. Ergo videtur quod misericordes, qui aliis peccato dimittunt, ipsi
+              veniam peccatorum consequantur; et sic non aeternaliter punientur.</p>
+            <p xml:id="ta-l4d46q2-d1e647">Praeterea, 1 Tim. 4, super illud: <quote xml:id="ta-l4d46q2-Qd1e649">pietas ad omnia valet</quote>, dicit Glossa
+              Ambrosii: <quote xml:id="ta-l4d46q2-Qd1e652">omnis summa disciplinae Christianae in misericordia et pietate est:
+                quam aliquis sequens, si lubricum carnis patiatur, sine dubio vapulabit, non tamen
+                peribit; si quis autem solum exercitium corporis habuerit, perennes poenas
+                patietur</quote>. Ergo illi qui insistunt operibus misericordiae, qui peccatis
+              carnalibus detinentur, non in aeternum punientur; et sic idem quod prius.</p>
+            <p xml:id="ta-l4d46q2-d1e657">Sed contra est quod dicitur 1 Corinth. 6, 9, 10: <quote xml:id="ta-l4d46q2-Qd1e659">neque fornicarii neque
+                adulteri regnum Dei possidebunt</quote>. Sed multi qui se exercent in operibus
+              misericordiae, sunt tales. Ergo non omnes misericordes ad regnum aeternum pervenient;
+              et ita aliqui eorum aeternaliter punientur.</p>
+            <p xml:id="ta-l4d46q2-d1e663">Praeterea, Jac. 2, 10, dicitur: <quote xml:id="ta-l4d46q2-Qd1e665">quicumque totam legem servaverit, offenderit
+                autem in uno, factus est omnium reus</quote>. Ergo quicumque servat legem quo ad
+              opera misericordiae, et negligit alia opera, reatum de transgressione legis incurret;
+              et ita aeternaliter punietur.</p>
+          </div>
+          <div xml:id="ta-l4d46q2-Dd1e670">
+            <head xml:id="ta-l4d46q2-Hd1e672">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d46q2-d1e675">Respondeo dicendum ad primam quaestionem, quod error Origenis fuit, ut Augustinus 21
+              de Civ. Dei dicit quod Daemones quandoque per Dei misericordiam liberandi sunt a
+              poenis. Sed iste error ab Ecclesia est reprobatus, propter duo. Primo, quia manifeste
+              auctoritati Scripturae repugnat, quae habet Apoc. 20, 9: <quote xml:id="ta-l4d46q2-Qd1e677">Diabolus, qui
+                seducebat eos, missus est in stagnum ignis et sulphuris, ubi bestia et
+                pseudopropheta cruciabuntur die ac nocte in saecula saeculorum</quote>; per quod in
+              Scriptura significari aeternitas consuevit. Secundo, quia ex una parte Dei
+              misericordiam nimis extendebat, et ex alia parte nimis eam coarctabat; ejusdem enim
+              rationis esse videtur bonos Angelos in aeterna beatitudine permanere, et malos Angelos
+              in aeternum puniri. Unde sicut ponebat Daemones et animas damnatorum quandoque a poena
+              liberandas, ita ponebat Angelos et animas beatorum quandoque a beatitudine in hujus
+              vitae miserias devolvendas.</p>
+            <p xml:id="ta-l4d46q2-d1e681">Ad primum ergo dicendum, quod Deus, quantum in ipso est, miseretur omnibus; sed quia
+              ejus misericordia sapientiae ordine regulatur, inde est quod ad quosdam non se
+              extendit, qui se fecerunt misericordiae indignos, sicut Daemones et damnati, qui sunt
+              in malitia obstinati. Tamen potest dici, quod in eis misericordia etiam locum habet,
+              inquantum citra condignum puniuntur, non quod a poena totaliter absolvantur.</p>
+            <p xml:id="ta-l4d46q2-d1e684">Ad secundum dicendum, quod ibi intelligenda est distributio pro generibus singulorum,
+              et non pro singulis generum; ut intelligatur auctoritas de hominibus secundum statum
+              viae; quia scilicet et Judaeorum et gentilium misertus est; sed non omnium gentilium,
+              vel omnium Judaeorum.</p>
+            <p xml:id="ta-l4d46q2-d1e687">Ad tertium dicendum, quod Anselmus intelligit non esse justum quantum ad decentiam
+              divinae bonitatis, et loquitur de creatura secundum genus suum; non enim est
+              conveniens divinae bonitati ut totum unum genus creaturae deficiat a fine propter quem
+              factum est; unde nec omnes homines, nec omnes Angelos damnari convenit; sed nihil
+              prohibet quin aliqui ex hominibus vel ex Angelis in aeternum pereant; quia divinae
+              voluntatis intentio impletur in aliis qui salvantur.</p>
+
+          </div>
+          <div xml:id="ta-l4d46q2-Dd1e691">
+            <head xml:id="ta-l4d46q2-Hd1e693">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d46q2-d1e696">Ad secundam quaestionem dicendum, quod sicut dicit Augustinus, 21 de Civ. Dei, quidam
+              in hoc ab errore Origenis declinaverunt, quod Daemones posuere in perpetuum puniri;
+              sed omnes homines quandoque liberari a poena, etiam infideles. Sed haec positio est
+              omnino irrationabilis. Sicut enim Daemones sunt in malitia obstinati, et ita perpetuo
+              puniendi; ita et animae hominum qui sine caritate decedunt; cum hoc sit hominibus mors
+              quod Angelis casus, ut Damascenus dicit.</p>
+            <p xml:id="ta-l4d46q2-d1e699">Ad primum ergo dicendum, quod verbum illud intelligendum est de homine secundum genus
+              suum; quia ab humano genere quandoque indignatio est remota per Christi adventum: sed
+              illi qui in hac reconciliatione, quae facta est per Christum, noluerunt esse, vel
+              permanere, in seipsis divinam iram perpetuaverunt, cum non sit nobis aliquis modus
+              reconciliationis concessus nisi per Christum.</p>
+            <p xml:id="ta-l4d46q2-d1e702">Ad secundum dicendum, quod, sicut dicit Augustinus, 21 de Civit. Dei, et Gregorius 9
+              Moral., et 4 Dialog., sancti in hac vita ideo pro inimicis exorant ut convertantur ad
+              Deum, cum adhuc converti possint; si enim esset nobis notum quod essent praesciti ad
+              mortem, non magis pro eis quam pro Daemonibus oraremus. Et quia post hanc vitam
+              decedentibus sine gratia tempus conversionis non erit, nulla pro eis fiet oratio nec
+              ab Ecclesia militante, nec a triumphante; hic enim pro eis orandum est, ut apostolus
+              dicit 2 Tim. 2, 25, <quote xml:id="ta-l4d46q2-Qd1e704">ut det illis Deus poenitentiam, et resipiscant a laqueis
+                Diaboli</quote>.</p>
+            <p xml:id="ta-l4d46q2-d1e708">Ad tertium dicendum, quod prophetia comminatoria poenae tunc solummodo immutatur
+              quando merita ejus variantur in quem comminatio facta est; unde Hierem. 18, 7:
+                <quote xml:id="ta-l4d46q2-Qd1e710">repente loquar ad gentem et adversum regnum, ut eradicem et destruam et
+                disperdam illud. Si poenitentiam egerit gens illa a malo suo, agam et ego
+                poenitentiam super malo quod cogitaveram ei</quote>. Unde, cum damnatorum merita
+              mutari non possint, comminatio poenae semper in eis implebitur. Nihilominus tamen
+              prophetia comminationis semper quantum ad aliquem intellectum impletur; quia, ut dicit
+              Augustinus, Lib. praedicto, <quote xml:id="ta-l4d46q2-Qd1e713">eversa est Ninive quae mala erat, et bona
+                aedificata est, quae non erat; stantibus enim moenibus atque domibus, eversa est
+                civitas in perditis moribus</quote>.</p>
+            <p xml:id="ta-l4d46q2-d1e718">Ad quartum dicendum, quod verbum illud Psalmi pertinet ad vasa misericordiae, quae se
+              indignos misericordia non fecerunt; quia in hac vita, quae quaedam ira Dei est propter
+              vitae miserias, vasa misericordiae mutat in melius; unde sequitur in Psal. 76, 2:
+                <quote xml:id="ta-l4d46q2-Qd1e720">haec mutatio dexterae excelsi</quote>. Vel dicendum, quod hoc intelligitur de
+              misericordia totaliter liberante, si extendatur etiam ad damnatos; unde non dicit:
+              continebit ab ira misericordias suas, sed <quote xml:id="ta-l4d46q2-Qd1e723">in ira</quote>; quia non totaliter
+              poena tolletur, sed ipsa poena durante misericordia operabitur eam diminuendo.</p>
+            <p xml:id="ta-l4d46q2-d1e727">Ad quintum dicendum, quod Glossa illa non loquitur simpliciter, sed sub hypothesi
+              impossibili, ad exaggerandum peccati magnitudinem ipsius Diaboli vel
+              Nabuchodonosor.</p>
+
+          </div>
+          <div xml:id="ta-l4d46q2-Dd1e731">
+            <head xml:id="ta-l4d46q2-Hd1e733">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d46q2-d1e736">Ad tertiam quaestionem dicendum, quod quidam fuerunt, ut dicit Augustinus in Lib.
+              praedicto, qui non omnibus hominibus promiserunt absolutionem a poena aeterna, sed
+              solis Christianis; et in hoc rursum diversificati sunt. Quidam enim dixerunt, quod
+              quicumque sacramenta fidei perceperunt, ab aeterna poena erunt immunes. Sed hoc est
+              contrarium veritati; quia quidam sacramenta fidei recipiunt, et fidem non habent, sine
+              qua <quote xml:id="ta-l4d46q2-Qd1e738">impossibile est placere Deo</quote>. Hebr. 11. Et ideo alii dixerunt, quod
+              solum illi ab aeterna poena erunt immunes qui sacramenta fidei sunt consecuti, et
+              fidem Catholicam tenuerunt. Sed contra hoc esse videtur quod aliquando aliqui
+              Catholicam fidem tenent, et postea ab ea resiliunt, qui non minori poena sunt digni,
+              sed majori; quia 2 Petr. 2, 21: <quote xml:id="ta-l4d46q2-Qd1e741">melius erat viam veritatis non agnoscere quam
+                post agnitam retroire</quote>. Planum est etiam plus peccare haeresiarchas, qui de
+              fide Catholica recedentes novas haereses fingunt, quam illos qui a principio aliquam
+              haeresim sunt secuti. Et ideo alii dixerunt, quod illi soli sunt a poena aeterna
+              immunes qui in fide Catholica finaliter perseverant, quantumcumque aliis criminibus
+              involvantur. Sed hoc manifeste contrariatur Scripturae; quia Jacob. 2, 20, dicitur:
+                <quote xml:id="ta-l4d46q2-Qd1e744">fides sine operibus mortua est</quote>; et Matth. 7, 21 dicitur: <quote xml:id="ta-l4d46q2-Qd1e747" ana="#mt7_21">non
+                omnis qui dicit mihi, domine domine, intrabit in regnum caelorum</quote>; et in
+              multis aliis locis Scriptura peccantibus aeternas poenas comminatur. Unde non omnes
+              finaliter in fide persistentes a poena aeterna erunt immunes, nisi ab aliis criminibus
+              inveniantur finaliter absoluti.</p>
+            <p xml:id="ta-l4d46q2-d1e751">Ad primum ergo dicendum, quod dominus ibi loquitur de fide formata quae per
+              dilectionem operatur, in qua quicumque decesserit, salvus erit. Sed huic non solum
+              opponitur infidelitatis error, sed quodlibet peccatum mortale.</p>
+            <p xml:id="ta-l4d46q2-d1e754">Ad secundum dicendum, quod verbum domini est intelligendum non de illis qui tantum
+              sacramentaliter edunt, qui indigne quandoque sumentes, judicium sibi manducant et
+              bibunt, ut dicitur 1 Cor. 11; sed de manducantibus spiritualiter, qui ei per caritatem
+              incorporantur; quam incorporationem facit sacramentalis comestio, si quis digne
+              accedat. Unde quantum est ex virtute sacramenti, ad vitam aeternam perducit; quamvis
+              aliquis se possit tali fructu privare per peccata, etiam postquam digne sumpserit.</p>
+            <p xml:id="ta-l4d46q2-d1e757">Ad tertium dicendum, quod fundamentum in verbis apostoli intelligitur fides formata;
+              supra quam qui peccata venialia aedificaverit, detrimentum patietur, quia pro eis
+              punietur a Deo; ipse tamen salvus erit finaliter, quasi per ignem vel temporalis
+              tribulationis, vel purgatoriae poenae, quae erit post mortem.</p>
+
+          </div>
+          <div xml:id="ta-l4d46q2-Dd1e761">
+            <head xml:id="ta-l4d46q2-Hd1e763">Quaestiuncula 4</head>
+            <p xml:id="ta-l4d46q2-d1e766">Ad quartam quaestionem dicendum, quod, sicut dicit Augustinus in Lib. praedicto,
+              quidam posuerunt non omnes qui Catholicam fidem tenent, a poena aeterna esse
+              liberandos, sed solum illos qui misericordiae operibus insistunt, quamvis etiam aliis
+              criminibus sint subjecti. Sed istud non potest stare; quia sine caritate non potest
+              aliquid Deo esse acceptum, nec sine ea prodest aliquid ad vitam aeternam. Contingit
+              autem aliquos operibus misericordiae insistere qui caritatem non habent; unde his
+              nihil prodest ad vitam aeternam promerendam, vel ad immunitatem poenae aeternae, ut
+              patet 1 Corinth. 13. Et praecipue hoc apparet absurdum in raptoribus, qui multa
+              rapiunt; et tamen aliqua misericorditer largiuntur. Et ideo dicendum, quod quicumque
+              cum peccato mortali decedunt, nec fides nec opera misericordiae eos liberabunt a poena
+              aeterna, etiam post quantumcumque spatium temporis.</p>
+            <p xml:id="ta-l4d46q2-d1e769">Ad primum ergo dicendum, quod illi misericordiam consequentur qui misericordiam
+              ordinate impendunt; non autem ordinate misericordiam impendunt qui seipsos in
+              miserendo negligunt, sed magis se impugnant male agendo; et ideo tales misericordiam
+              penitus absolventem non consequentur, etsi consequantur misericordiam de poenis
+              debitis aliquid relaxantem.</p>
+            <p xml:id="ta-l4d46q2-d1e772">Ad secundum dicendum, quod non propter hoc ponitur disceptatio solum de operibus
+              misericordiae, quia pro earum neglectu tantummodo aliqui aeternaliter puniantur; sed
+              quia illi ab aeterna poena liberantur post peccata qui per opera misericordiae sibi
+              veniam impetraverunt, facientes sibi amicos de mammona iniquitatis.</p>
+            <p xml:id="ta-l4d46q2-d1e775">Ad tertium dicendum, quod illud a domino dicitur his qui petunt sibi debitum
+              relaxari, non illis qui in peccato persistunt; et ideo soli poenitentes per opera
+              misericordiae consequentur misericordiam penitus liberantem.</p>
+            <p xml:id="ta-l4d46q2-d1e779">Ad quartum dicendum, quod Glossa Ambrosii loquitur de lubrico venialis peccati, a quo
+              aliquis post purgatorias poenas, quas vapulationem dicit, per opera misericordiae
+              absolvetur. Vel si loquatur de lubrico mortalis peccati, est intelligendum quantum ad
+              hoc quod adhuc in vita existentes, illi qui ex fragilitate in carnalia peccata
+              incidunt, per opera misericordiae ad poenitentiam disponuntur; unde talis non peribit,
+              idest disponetur per talia opera ad non pereundum.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d46q2-Dd1e785">
+          <head xml:id="ta-l4d46q2-Hd1e787">Expositio textus</head>
+          <p xml:id="ta-l4d46q2-d1e790"><quote xml:id="ta-l4d46q2-Qd1e791">Tam grandis tamen poena est, ut ei possint nulla tormenta quae novimus,
+              comparari</quote>. Augustinus dicit, quod mitissima est poena parvulorum, qui tamen
+            alienantur a regno. Et dicendum, quod hoc quod hic dicitur, intelligendum est de illis
+            qui carent divina visione, et habent conscientiae remorsum, quod ex propria culpa ea
+            priventur. <quote xml:id="ta-l4d46q2-Qd1e794">Incomprehensibilia sunt judicia ejus</quote>. Sed contra, in Psal.
+            118, 13: <quote xml:id="ta-l4d46q2-Qd1e797">in labiis meis pronuntiavi omnia judicia oris tui</quote>. Et dicendum,
+            quod judicia in Psal. appellantur Dei mandata; apostolus autem dicit Dei judicia,
+            dispositiones ejus. <quote xml:id="ta-l4d46q2-Qd1e800">Sed varietas sensuum et effectuum in creaturis
+              monstratur</quote>, inquantum videlicet ex diversis conceptionibus quas a creaturis
+            accipimus, diversas rationes attribuimus Deo, ut diversitas non sit in Deo secundum
+            esse, sed sit diversitas secundum rationem tantum, quod hic dicitur <quote xml:id="ta-l4d46q2-Qd1e803">varietas
+              sensuum</quote>; vel secundum connotata, et hoc dicitur <quote xml:id="ta-l4d46q2-Qd1e806">varietas
+              effectuum</quote>. Et de hoc in 2 dist., 1 Lib., quaest. 1, art. 2, ad 5, dictum
+            est.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

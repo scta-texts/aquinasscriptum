@@ -1,0 +1,1804 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 19, Quaestio 4</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.09-dev-master">
+          <title>Librum I, Distinctio 19, Quaestio 4</title>
+          <date when="2016-03-14">March 14, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-14">March 14, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p>1856 editum</p>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="2015.09">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <div xml:id="starts-on"> </div>
+    </front>
+    <body>
+      <div xml:id="ta-l1d19q4">
+        <head xml:id="ta-l1d19q4-Hd1e3490">Librum I, Distinctio 19, Quaestio 4</head>
+        <div xml:id="ta-l1d19q4-Dd1e3493">
+          <head xml:id="ta-l1d19q4-Hd1e3495">Prooemium</head>
+          <p xml:id="ta-l1d19q4-d1e3498"><quote xml:id="ta-l1d19q4-Qd1e3499">Sed jam nunc ad propositum redeamus</quote>. Hic ostendit secundo modo
+            aequalitatem in magnitudine divinarum personarum, removendo ea quae inaequalitatem
+            facere possent, et dividitur in partes duas: in prima ostendit veritatem; in secunda
+            solvit quamdam contrarietatem, ibi: <quote xml:id="ta-l1d19q4-Qd1e3502">his autem videntur adversari quae quidam
+              sacrae Scripturae tractatores Catholici in suis scriptis tradiderunt</quote>. Prima in
+            duas: in prima ostendit quod divinae personae non conveniunt in essentia sicut in toto;
+            in secunda ostendit quod non conveniunt in essentia sicut in parte, ibi: <quote xml:id="ta-l1d19q4-Qd1e3505">notandum
+              etiam, quod essentia divina non est materia trium personarum</quote>. Prima in duas:
+            in prima ostendit quod personae divinae non conveniunt in una essentia, sicut partes in
+            toto integrali; in secunda, quod non conveniunt in essentia, sicut partes in toto
+            universali, ibi: <quote xml:id="ta-l1d19q4-Qd1e3508">hic adjiciendum est</quote>. Primum ostendit dupliciter ex
+            verbis Augustini. Primo sic: ubicumque est totum integrale, oportet esse partes diversas
+            per essentiam. Sed in divinis personis non est essentiae vel naturae diversitas. Ergo
+            non sunt partes unius naturae, quasi integrantes ipsam. Secundo ibi: <quote xml:id="ta-l1d19q4-Qd1e3511">item in
+              eodem capite</quote>, ostendit idem per simile; quia sicut in una persona, scilicet
+            patre, inveniuntur plura attributa, ut bonitas, sapientia et hujusmodi; ita in natura
+            divina inveniuntur plures personae. Sed pater non dicitur esse compositus ex pluribus
+            attributis sicut ex partibus, quia simplex est. Ergo pari ratione, quia natura divina
+            simplex est, non erit composita ex personis sicut ex partibus. <quote xml:id="ta-l1d19q4-Qd1e3514">Hic
+              adjiciendum</quote>. Hic ostendit quod personae non conveniunt in essentia sicut in
+            toto universali; et probat hoc dupliciter. Primo sic: omne genus praedicatur pluraliter
+            de pluribus speciebus simul acceptis, vel de pluribus individuis sub illis speciebus
+            contentis; sicut homo et asinus sunt animalia, et duo homines duo animalia. Sed essentia
+            non praedicatur in plurali de tribus personis: non enim dicimus quod tres personae sunt
+            tres essentiae, sed una essentia. Ergo tres personae non conveniunt in una essentia
+            sicut species in genere. Eadem ratione probat, quod nec sicut individua in specie, ibi:
+              <quote xml:id="ta-l1d19q4-Qd1e3518">si vero dicunt, nomine personae non speciem significari, sed aliquid singulare
+              (...) sic quoque illos eadem ratio confutabit</quote>. Secundo, ibi: <quote xml:id="ta-l1d19q4-Qd1e3521">alio
+              quoque modo idem probat Augustinus</quote>, probat idem sic. Nihil unum existens habet
+            sub se species, sicut genus; vel individua, sicut species. Sed essentia divina est una
+            numero. Ergo neque se habet ad personas sicut genus ad speciem, neque sicut species ad
+            individua. <quote xml:id="ta-l1d19q4-Qd1e3524">Notandum etiam, quod essentia divina non est materia trium
+              personarum</quote>. Hic ostendit, quod tres personae non conveniunt in essentia sicut
+            in parte; et circa hoc duo facit. Primo ostendit quod non conveniunt in ipsa sicut in
+            parte materiali; secundo quod non conveniunt in ipsa sicut in proprietate formali, ibi:
+              <quote xml:id="ta-l1d19q4-Qd1e3527">his quoque addendum, quod tres personas non ita dicimus esse unam essentiam
+              (...) sicut dicimus aliquos tres homines ejusdem (...) sexus unam esse naturam, vel
+              unius naturae</quote>. Primum sic probat. In omnibus quae constituuntur ex una
+            materia, sicut anuli ex auro, plus est de materia in pluribus quam in uno. Sed non plus
+            est de essentia divina in tribus personis quam in una tantum. Ergo neque se habet ad
+            personam sicut materia. Eodem modo ostendit quod non conveniunt in ipsa sicut in
+            proprietate formali, sicut dicimus homines ejusdem complexionis esse unius naturae: quia
+            in his majus aliquid sunt duo quam unus, quod non est in divinis personis. <quote xml:id="ta-l1d19q4-Qd1e3530">His
+              autem videntur adversari quae quidam sacrae Scripturae tractatores Catholici in suis
+              scriptis tradiderunt</quote>. Hic solvit contrarietatem; et circa hoc duo facit: primo
+            inducit contrarietatem ex verbis Damasceni, qui videtur dicere, quod essentia est sicut
+            species, et personae sicut particularia; secundo ponit solutionem, ibi: <quote xml:id="ta-l1d19q4-Qd1e3533">haec
+              autem quae hic dicuntur, licet in sermonis superficie aliquid a fide alienum resonare
+              videantur, sane tamen intelligi queunt</quote>. Et circa hoc duo facit: primo exponit
+            qualiter intelligendum sit quod essentia est sicut species praedicata de personis sicut
+            de partibus: quia scilicet hoc dicitur secundum similitudinem quamdam, et non secundum
+            proprietatem; secundo ostendit qualiter intelligendum sit quod dicit personas numero
+            differre, quia scilicet sunt relationibus distinctae ut una non sit altera, et non per
+            essentiam divinam, ut quod est in una non sit in alia, ibi: <quote xml:id="ta-l1d19q4-Qd1e3537">quod autem Joannes
+              dicit hypostases differre numero, non natura; in eo quod non differre natura ait,
+              verissime (...) loquitur. Sciendum est igitur, tantam aequalitatem esse in
+              Trinitate</quote> et cetera. Hic probat tertio aequalitatem magnitudinis personarum ex
+            ratione veritatis, sic. Ubicumque eadem est veritas et magnitudo, non est major
+            magnitudo et veritas secundum rem. Ergo ubi non est major veritas, nec major magnitudo.
+            Sed non magis verum est tres personas esse quam unam tantum. Ergo non est major
+            magnitudo trium personarum quam unius tantum. <quote xml:id="ta-l1d19q4-Qd1e3540">Praeterea cum Deus dicatur trinus,
+              non debet dici triplex</quote>. Hic concludit ex dictis, quod Deus quamvis dicatur
+            trinus, non tamen dicendus est triplex. In illis enim rebus invenitur triplicitas, ubi
+            tria excedunt unum in magnitudine. Sed tres personae non excedunt unam in magnitudine.
+            Ergo non est dicenda triplicitas trium personarum respectu unius. Hic quaeritur de
+            duobus, secundum duas rationes quae in hac lectione habentur. Circa primam probationem
+            quaeruntur duo: 1 utrum in divinis sit totum integrale; 2 utrum sit ibi totum
+            universale.</p>
+        </div>
+        <div xml:id="ta-l1d19q4-Dd1e3545" type="articulus">
+          <head xml:id="ta-l1d19q4-Hd1e3547">Articulus 1</head>
+
+          <head xml:id="ta-l1d19q4-Hd1e3550" type="questionTitle">Utrum in divinis sit totum integrale</head>
+
+          <p xml:id="ta-l1d19q4-d1e3553">Ad primum sic proceditur. Videtur quod in divinis sit totum integrale. Ubicumque enim
+            est quantitas aliqua, ibi est ratio totius integralis, cum omnis quantitas in partes
+            divisibilis sit. Sed in Deo est quantitas virtutis. Ergo est ibi totum integrale.</p>
+          <p xml:id="ta-l1d19q4-d1e3556">Praeterea, sicut quantitas continua integratur ex suis partibus, ita et numerus. Sed in
+            divinis est numerus personarum, scilicet ternarius, cujus pars quaedam est unum et duo.
+            Ergo videtur quod sit ibi totum integrale.</p>
+          <p xml:id="ta-l1d19q4-d1e3559">Item, quidquid est aliquid alicujus et non est illud, est pars integralis illius. Sed
+            pater est aliquid Trinitatis et non est Trinitas. Ergo est pars integralis
+            Trinitatis.</p>
+          <p xml:id="ta-l1d19q4-d1e3563">Praeterea, ex sola natura nunquam constituuntur res naturae, et praecipue ubi sunt
+            plures res naturae in una natura. Sed in una natura divina sunt plures res naturae,
+            scilicet personae. Ergo oportet quod ad constitutionem personae aliquid aliud naturae
+            divinae adveniat; et sic erit ibi aliquid integratum ex pluribus.</p>
+          <p xml:id="ta-l1d19q4-d1e3566">Contra, omne totum integrale est compositum ex partibus. Sed in Deo nulla est
+            compositio, sed summa simplicitas, ut supra, dist. 8, quaest. 4, art. 1, habitum est.
+            Ergo in divinis non est totum integrale.</p>
+          <p xml:id="ta-l1d19q4-d1e3569">Respondeo dicendum, quod ratio totius integralis consistit in compositione. Ratio autem
+            partis integralis habet imperfectionem annexam, quibus divina simplicitas et perfectio
+            repugnat; unde non potest ibi esse totum integrale et pars.</p>
+          <p xml:id="ta-l1d19q4-d1e3572">Ad primum igitur dicendum, quod quantitas virtutis non attenditur secundum divisionem
+            virtutis intrinsecus; sed magis attenditur ejus divisio respectu exteriorum, vel
+            secundum numerum objectorum, vel secundum intensionem actus, vel secundum modos agendi.
+            Unde patet quod in quantitate virtutis non est ratio totius et partis integralis, quia
+            partes integrales sunt intra suum totum.</p>
+          <p xml:id="ta-l1d19q4-d1e3575">Ad secundum dicendum, quod in divinis unitas vel dualitas non est pars ternarii nisi
+            secundum rationis acceptionem. Cujus ratio est, quia alio modo est numerus in rebus
+            divinis et in rebus creatis, et alio modo unitas. Cum enim unum sit quod est indivisum
+            in se et divisum ab aliis, unumquodque autem creatum per essentiam suam distinguatur ab
+            aliis; ipsa essentia creati, secundum quod est indivisa in se et distinguens ab aliis,
+            est unitas ejus, et plures unitates constituentes numerum personarum creatarum, sunt
+            plures essentiae congregatae secundum numerationem, ita quod nihil est in una quod sit
+            in alia secundum numerum idem. Sic ergo numerus in rebus creatis habet rationem
+            distinctionis et cujusdam coacervationis distinctorum per essentiam, et ex hoc habet
+            rationem totius integralis. Unitas autem personalis est ipsa proprietas relativa,
+            distinguens unam personam ab alia, et non essentiam ipsius personae; unde tres personae
+            non sunt differentes per essentiam, cum una numero essentia sit in tribus personis. Et
+            ideo non potest ibi esse coacervatio, sed tantum distinctio. Et propter hoc numerus non
+            habet rationem totius integralis, nisi forte secundum quod in intellectu coadunantur
+            rationes proprietatum personalium. Sed per hoc non erit integratio alicujus rei, sed in
+            ratione tantum.</p>
+          <p xml:id="ta-l1d19q4-d1e3578">Ad tertium dicendum, quod haec est falsa: pater est aliquid Trinitatis, si intelligatur
+            partitive; significaretur enim quod haberet partem essentiae Trinitatis, ex hoc quod
+            aliquid, cum sit neutrum, essentiam significat. Sed haec est vera: est aliquis
+            Trinitatis: ex quo non potest concludi quod sit pars Trinitatis, nisi secundum rationem;
+            quia scilicet non est tot personae quot est Trinitas: quia Trinitas est tres personae,
+            et non pater.</p>
+          <p xml:id="ta-l1d19q4-d1e3582">Ad quartum dicendum, quod naturae divinae nihil additur ad constituendum rem naturae,
+            cum in Deo idem sit quo est et quod est, sive qui est. Distinctio autem non est ex
+            ratione naturae, sed ex ratione proprietatis relativae; quae quidem, secundum quod
+            comparatur ad essentiam, est ratione tantum et non re ab ipsa differens; prout autem
+            comparatur ad correlativum cui opponitur, facit realem distinctionem personae, ut supra
+            dictum est, dist. 9, quaest. unic. art. 1.</p>
+        </div>
+        <div xml:id="ta-l1d19q4-Dd1e3586" type="articulus">
+          <head xml:id="ta-l1d19q4-Hd1e3588">Articulus 2</head>
+
+          <head xml:id="ta-l1d19q4-Hd1e3591" type="questionTitle">Utrum in divinis sit totum universale</head>
+
+          <p xml:id="ta-l1d19q4-d1e3594">Ad secundum sic proceditur. Videtur quod in divinis sit totum universale. Quidquid enim
+            praedicatur de aliquo substantialiter et non conversim, praedicatur de ipso ut totum
+            universale de parte subjectiva. Sed essentia divina, vel Deus, hoc modo praedicatur de
+            patre: pater enim est essentia divina, sed non quicumque est essentia divina est pater.
+            Ergo ibi est totum universale.</p>
+          <p xml:id="ta-l1d19q4-d1e3597">Praeterea, universale et particulare differunt, sicut commune et proprium. Sed in
+            divinis invenitur commune et proprium; quia essentia est communis, et relatio est
+            propria personae. Ergo est ibi universale et particulare.</p>
+          <p xml:id="ta-l1d19q4-d1e3600">Item, supra, dist. 5, ex verbis Hilarii habitum est, quod <quote xml:id="ta-l1d19q4-Qd1e3602">filius Dei generis sui
+              potestatem in habitu assumptae humanitatis exercuit</quote>. Genus autem suum nominat
+            naturam suam. Ergo videtur quod essentia sit genus et universale respectu
+            personarum.</p>
+          <p xml:id="ta-l1d19q4-d1e3607">Praeterea, scientia est species cognitionis. Sed de Deo utrumque dicitur, scilicet quod
+            cognoscit et scit. Ergo videtur quod in divinis sit totum universale.</p>
+          <p xml:id="ta-l1d19q4-d1e3610">Contra, ubicumque est universale et particulare, particularia sunt potentia in suis
+            universalibus sicut differentiae in genere. Sed in divinis non est aliquid in potentia.
+            Ergo non est ibi universale et particulare.</p>
+          <p xml:id="ta-l1d19q4-d1e3613">Praeterea, omne superius est pars integralis constituens definitionem inferioris; unde
+            dicit Porphyrius, quod genus se habet ad similitudinem materiae, et differentia ad
+            similitudinem formae, et species ad similitudinem compositi. Sed in divinis non est
+            totum integrale et pars. Ergo etiam nec totum universale et pars sibi respondens.</p>
+          <p xml:id="ta-l1d19q4-d1e3616">Respondeo dicendum, quod in divinis non potest esse universale et particulare. Et hujus
+            ratio potest quadruplex assignari: primo, quia, secundum Avicennam, ubicumque est genus
+            et species, oportet esse quidditatem differentem a suo esse, ut prius, dist. 8, quaest.
+            1, art. 1, dictum est; et hoc in divinis non competit; secundo, quia essentia
+            universalis non est eadem numero in suis inferioribus, sed secundum rationem tantum;
+            essentia autem divina est eadem numero in pluribus personis; tertio, quia universale
+            exigit pluralitatem in his quae sub ipso continentur vel in actu vel in potentia: in
+            actu sicut est in genere, quod semper habet plures species; in potentia sicut in
+            aliquibus speciebus, quarum forma, quantum est de se, possibilis est inveniri in multis,
+            cum omnis forma sit de se communicabilis; sed quod inveniatur tantum in uno, est ex
+            parte materiae debitae illi speciei, quae tota adunatur in uno individuo, ut patet in
+            sole, qui constat ex tota sua materia; et ista pluralitas est secundum numerum, qui
+            numerus simpliciter est fundatus in substantiali distinctione: tres autem personae non
+            numerantur tali numero, ut dictum est, art. antec., et ideo essentia non habet rationem
+            universalis; quarto, quia particulare semper se habet ex additione ad universale. In
+            divinis autem, propter summam simplicitatem, non est possibilis additio, et ideo nec
+            universale nec particulare.</p>
+          <p xml:id="ta-l1d19q4-d1e3619">Ad primum igitur dicendum, quod modus praedicandi proportionatur ipsis rebus de quibus
+            fit praedicatio; cum, secundum Hilarium, sermo sit rei subjectus. Unde sicut nulla res
+            in creaturis invenitur similis ex toto unitati essentiae in tribus personis, sed
+            secundum aliquid: ita etiam nullus modus praedicandi in creaturis est similis huic modo
+            praedicandi quo essentia vel Deus de tribus personis praedicatur. Dico igitur, quod
+            secundum id quod tactum est in objectione, habet similitudinem cum modo praedicandi
+            totius universalis, sed differt secundum alia quae supra, in corp. art., dicta sunt.</p>
+          <p xml:id="ta-l1d19q4-d1e3622">Ad secundum dicendum, quod commune, quantum est de se, non determinat rei communitatem,
+            vel rationis, sicut universale; et ideo essentia potest dici communis, non autem
+            universalis.</p>
+          <p xml:id="ta-l1d19q4-d1e3626">Ad tertium dicendum, quod Hilarius loquitur ad similitudinem creaturarum, prout
+            communiter loquendo dicimus, genus hominum unum genus esse, secundum quod est multitudo
+            aliquorum se habentium ad unum principium; ita etiam dicitur genus divinum ipsa
+            pluralitas personarum, secundum ordinem emanationis ab uno principio, qui est pater.</p>
+          <p xml:id="ta-l1d19q4-d1e3629">Ad quartum dicendum, quod in creaturis quaedam inveniuntur quae tam secundum rationem
+            generis, quam secundum rationem speciei dicunt aliquid perfectionis. Unde attribuitur
+            Deo utrumque secundum propriam rationem, sicut patet in cognitione et scientia. Et haec
+            quidem quamvis in creaturis se habeant sicut genus et species, tamen in divinis non sic
+            se habent; quia unum, secundum rem nihil addit super alterum, sed solum secundum
+            rationem.</p>
+        </div>
+
+      </div>
+    </body>
+  </text>
+</TEI>

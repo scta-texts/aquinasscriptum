@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum III, Distinctio 4, Quaestio 3</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.09-dev-master">
+          <title>Librum III, Distinctio 4, Quaestio 3</title>
+          <date when="2016-02-23">February 23, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-02-23">February 23, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness>1856 editum</witness>
+          <witness xml:id="H" n="harv245" xml:base="http://iiif.lib.harvard.edu/manifests/drs:51994085/canvas/">Cambridge, Mass., Harvard University, Houghton Library, MS Lat 245</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="2015.09">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+      <div xml:id="starts-on">
+        <cb ed="#H" n="22vb" select="canvas-51994151.json"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ta-l3d4q3">
+        <head xml:id="ta-l3d4q3-Hd1e97">Librum III, Distinctio 4, Quaestio 3</head>
+        <div xml:id="ta-l3d4q3-Dd1e100">
+          <head xml:id="ta-l3d4q3-Hd1e102">Prooemium</head>
+          <p xml:id="ta-l3d4q3-d1e105">Deinde quaeritur de conceptione in comparatione ad gratiam 
+            <cb ed="#H" n="23ra" select="canvas-51994151.json"/>
+            Christi, per quam facta est conceptio; et circa hoc quaeruntur duo: 1 utrum illam conceptionem vel unionem aliqua merita praecesserint; 2 utrum gratia sit illi homini naturalis.</p>
+        </div>
+        <div xml:id="ta-l3d4q3-Dd1e111" type="articulus">
+          <head xml:id="ta-l3d4q3-Hd1e113">Articulus 1</head>
+          <head xml:id="ta-l3d4q3-Hd1e116" type="questionTitle">Utrum illam conceptionem aliqua merita praecesserunt in antiquis patribus</head>
+          <p xml:id="ta-l3d4q3-d1e119">Ad primum sic proceditur. Videtur, quod antiqui patres incarnationem meruerunt. Isa. 26, 8: <quote xml:id="ta-l3d4q3-Qd1e121">in semita judiciorum tuorum sustinuimus te</quote>. Sed ad judicium pertinet ut aliquid pro meritis reddatur. Ergo adventus filii Dei in carnem quem sancti patres expectabant, eis pro meritis reddendus erat.</p>
+              <p xml:id="ta-l3d4q3-d1e125">Praeterea, <ref xml:id="ta-l3d4q3-Rd1e127"><title>Psalm.</title> 32, 22:</ref> <quote xml:id="ta-l3d4q3-Qd1e132" ana="#ps32_22">fiat misericordia tua, domine, super nos</quote>. Glossa: <quote xml:id="ta-l3d4q3-Qd1e135">insinuatur desiderium prophetae de incarnatione et meritum impletionis</quote>.</p>
+              <p xml:id="ta-l3d4q3-d1e139">Praeterea, qui meretur aliquid, meretur et hoc sine quo non potest illud haberi: alias meritum cassum esset. Sed sancti patres merebantur vitam aeternam, ad quam pervenire non poterant nisi filio Dei veniente. Ergo merebantur ejus incarnationem.</p>
+              <p xml:id="ta-l3d4q3-d1e143">Praeterea, oratio quae fit ab aliquo pure et perseveranter, pro se, et ad salutem pertinens, meretur sui impletionem. Sed sancti patres hoc modo orabant pro incarnatione, ut patet Isa. 64, 1: <quote xml:id="ta-l3d4q3-Qd1e145">utinam dirumperes caelos, et descenderes</quote>. Ergo eam merebantur.</p>
+              <p xml:id="ta-l3d4q3-d1e149">Praeterea, nos per fidem operantem per dilectionem, quam habemus de vita aeterna quam expectamus, meremur eam. Sed similiter antiqui patres habebant fidem per dilectionem operantem de incarnatione. Ergo eam merebantur.</p>
+              <p xml:id="ta-l3d4q3-d1e152">Praeterea, hoc videtur ad minus de beata virgine de qua cantatur: <quote xml:id="ta-l3d4q3-Qd1e154">quae dominum omnium portare meruisti</quote>.</p>
+              <p xml:id="ta-l3d4q3-d1e158">Praeterea, <name>Bernardus</name> dicit, quod fermentum quod mulier abscondit sub tribus farinae satis, est fides beatae virginis, quae tres substantias in unam personam conjunxit. Sed hoc non potuit facere nisi per modum meriti. Ergo beata virgo meruit incarnationem per eam fieri.</p>
+              <p xml:id="ta-l3d4q3-d1e164">Sed contra, <ref xml:id="ta-l3d4q3-Rd1e166"><title>ad Tit.</title> 3, 4:</ref> <quote xml:id="ta-l3d4q3-Qd1e171" ana="#tit">apparuit benignitas et humanitas salvatoris nostri Dei non ex operibus justitiae quae fecimus nos</quote>. Sed benignitatem nominat apostolus ostensam in Christi incarnatione. Ergo non est secundum merita.</p>
+              <p xml:id="ta-l3d4q3-d1e175">Praeterea, ad hoc est quod Augustinus dicit in littera.</p>
+              <p xml:id="ta-l3d4q3-d1e179">Praeterea, incarnatio Christi est beneficium impensum toti naturae. Sed meritum nullius hominis praeter meritum Christi, extendit se ad totam naturam. Ergo sancti patres non meruerunt incarnationem.</p>
+              <p xml:id="ta-l3d4q3-d1e182">Respondeo dicendum, quod Augustinus videtur intendere in littera quod nulla merita illius hominis praecesserint, ut filio Dei in persona uniretur: nihilominus tamen verum est quod nulla merita etiam aliorum, filii Dei incarnationem meruerunt, proprie loquendo, propter tres rationes. Prima est quod meritum puri hominis non extendit se ad totam naturam, sicut supra dictum est, dist. 1, qu. 1, art. 2 ad 9; unde cum incarnatio sit quoddam medicamentum totius naturae, non potest sub merito alicujus cadere. Secunda autem ratio est, quia illud quod est principium merendi, non potest cadere sub merito; incarnatio autem est quodammodo principium omnium humanorum meritorum: quia omnia nostra merita a Christo efficaciam habent, per quem veritas et gratia facta est. Tertia ratio est, quia meritum humanum non se extendit ultra conditionem humanam, quae in hoc consistit ut quis mereatur aliquam divinitatis et beatitudinis participationem. Sed quod tota plenitudo divinitatis habitet in homine, hoc excedit et conditionem et meritum humanum. Unde nullo modo potest cadere sub merito, nisi large meritum dicamus omnem praeparationem ad aliquid habendum quod praecessit in humano genere.</p>
+              <p xml:id="ta-l3d4q3-d1e185">Ad primum ergo dicendum, quod per judicium redditur aliquid alicui quod prius sibi debebatur. Nobis autem non debebatur filii incarnatio quasi ex merito, sed ex divina promissione; et quantum ad hoc salvatur ratio judicii.</p>
+              <p xml:id="ta-l3d4q3-d1e188">Ad secundum dicendum, quod Glossa illa loquitur 
+                <cb ed="#H" n="23rb" select="canvas-51994151.json"/>
+                de merito congrui, et non de merito condigni, quod proprie dicitur meritum. Vel dicendum quod completio incarnationis consistit in ultimo effectu ejus, scilicet in ultima reparatione humani generis, quae aliquo modo cadebat sub merito, maxime secundum quod reparationis terminus consistit in perventione ad vitam aeternam.</p>
+              <p xml:id="ta-l3d4q3-d1e193">Ad tertium dicendum, quod aliqua sunt sine quibus vita aeterna haberi non potest, quae sunt concomitantia ipsam, sicut visio Dei, et impassibilitas; et de his verum est quod meretur ea qui meretur vitam aeternam. Quaedam vero sunt quae sunt ducentia ad vitam aeternam sicut principia merendi; et talia non cadunt sub merito, sicut gratia, et hujusmodi; et inter illa potest computari incarnatio filii. Vel dicendum, quod sine incarnatione poterat perveniri ad vitam aeternam: quia fuit alius modus possibilis nostrae salutis, ut dicunt sancti.</p>
+              <p xml:id="ta-l3d4q3-d1e196">Ad quartum dicendum, quod ipsi non petebant incarnationem, quam indubitanter credebant futuram; sed petebant ejus accelerationem. Vel dicendum, quod non petebant pro se, quia non petebant aliquid fiendum in ipsis petentibus.</p>
+              <p xml:id="ta-l3d4q3-d1e200">Ad quintum dicendum, quod quamvis mereamur vitam aeternam per fidem operantem per dilectionem, non tamen oportet hoc dicere de incarnatione: quia vita aeterna est beneficium praestitum tantum personae merentis, incarnatio autem beneficium praestitum toti humanae naturae.</p>
+              <p xml:id="ta-l3d4q3-d1e203">Ad sextum dicendum, quod beata virgo non meruit incarnationem; sed praesupposita incarnatione meruit quod per eam fieret, non quidem merito condigni, sed merito congrui, inquantum decebat quod mater Dei esset purissima et perfectissima virgo.</p>
+              <p xml:id="ta-l3d4q3-d1e206">Et per hoc patet etiam solutio ad alia.</p>
+        </div>
+        <div xml:id="ta-l3d4q3-Dd1e210" type="articulus">
+          <head xml:id="ta-l3d4q3-Hd1e212">Articulus 2</head>
+          <head xml:id="ta-l3d4q3-Hd1e215" type="questionTitle">Utrum gratia sit naturalis illi homini</head>
+          <div xml:id="ta-l3d4q3-Dd1e218">
+            <head xml:id="ta-l3d4q3-Hd1e220">Quaestiuncula 1</head>
+            <p xml:id="ta-l3d4q3-d1e223">Ad secundum sic proceditur. Videtur quod gratia non sit illi homini naturalis. Gratia enim et natura dividuntur ex opposito. Sed unum oppositorum non denominat aliud. Ergo gratia non debet dici naturalis.</p>
+            <p xml:id="ta-l3d4q3-d1e226">Praeterea, naturale est quod ex principiis naturae causatur, sicut igni ferri sursum. Sed ex humana natura non causatur gratia. Ergo non debet dici naturalis.</p>
+            <p xml:id="ta-l3d4q3-d1e229">Praeterea, Christus est ejusdem naturae cum aliis hominibus. Sed aliis hominibus gratia non est naturalis. Ergo nec sibi.</p>
+            <p xml:id="ta-l3d4q3-d1e232">Praeterea, per naturalia non meremur. Sed Christus meruit per gratiam quam habuit, ut infra dicetur, dist. 18, art. 2, 3, 4, 6. Ergo non fuit ei naturalis.</p>
+            <p xml:id="ta-l3d4q3-d1e236">Sed contra, causae proximae rerum naturalium sunt naturales. Sed Christus per gratiam est naturalis filius. Ergo gratia est ei naturalis.</p>
+          </div>
+          <div xml:id="ta-l3d4q3-Dd1e240">
+            <head xml:id="ta-l3d4q3-Hd1e242">Quaestiuncula 2</head>
+            <p xml:id="ta-l3d4q3-d1e245">Ulterius. Videtur quod Christus divina gratia vel divinitate non sit repletus corporaliter, quod in littera dicitur. Omne enim quod est in aliquo corporaliter, est in eo per circumscriptionem. Sed divinitas non potest esse circumscripta. Ergo non potest habitare in Christo corporaliter.</p>
+            <p xml:id="ta-l3d4q3-d1e248">Praeterea, Deus magis elongatur a corporeitate quam Angelus, qui in comparatione Dei corporeus est, ut dicit Damascenus Lib. 1 de fide, cap. 3. Sed Angelus non est in aliquo loco, vel corpore, corporaliter. Ergo multo minus divinitas.</p>
+            <p xml:id="ta-l3d4q3-d1e251">Praeterea, deitas in homine non habitat nisi per gratiam. Sed gratia non est in corpore. Ergo deitas non potest habitare in aliquo corporaliter.</p>
+            <p xml:id="ta-l3d4q3-d1e254">Sed contra, divinitas juncta est toti humanae naturae. Sed corpus est pars humanae naturae. Ergo unita est corpori; ergo habitat in Christo etiam corporaliter.</p>
+          </div>
+          <div xml:id="ta-l3d4q3-Dd1e258">
+            <head xml:id="ta-l3d4q3-Hd1e260">Quaestiuncula 1</head>
+            <p xml:id="ta-l3d4q3-d1e263">Respondeo dicendum ad primam quaestionem, quod de gratia Christi possumus loqui dupliciter: aut de gratia unionis, aut de gratia habituali, qua anima ejus perfecta est. Gratia autem unionis dicitur Christo naturalis, quia ordinatur ad unionem in personam divinam, secundum quod ille homo dicitur naturalis filius patris. Gratia vero habitualis potest etiam dici Christo naturalis dupliciter. Uno modo quia ad modum proprietatum naturalium se habet, quae suum subjectum inseparabiliter consequuntur. Alio modo quia ex altera 
+              <cb ed="#H" n="23va" select="canvas-51994152.json"/>
+              suarum naturarum causatur, scilicet ex divina natura, non autem ex humana.</p>
+            <p xml:id="ta-l3d4q3-d1e268">Ad primum ergo dicendum, quod gratia unionis dicitur quidem gratia quantum ad causam, quia eam nulla merita praecesserunt; sed dicitur naturalis quantum ad effectum, quod est esse filium naturalem, ut dictum est. Gratia autem habitualis dicitur gratia ratione humanae naturae; naturalis ratione divinae, vel ratione humanae naturae inquantum inseparabiliter inest.</p>
+            <p xml:id="ta-l3d4q3-d1e271">Et per hoc patet solutio ad alia.</p>
+          </div>
+          <div xml:id="ta-l3d4q3-Dd1e276">
+            <head xml:id="ta-l3d4q3-Hd1e278">Quaestiuncula 2</head>
+            <p xml:id="ta-l3d4q3-d1e281">Ad id quod ulterius quaeritur, dicendum quod plenitudo divinitatis dicitur corporaliter habitare in Christo tripliciter. Primo modo quia deitas non tantum animae, sed etiam carni unita est. Secundo per similitudinem ad tres dimensiones corporis, quia divinitas est tribus modis in Christo. Uno modo generali, sicut est in omnibus creaturis, per essentiam, praesentiam et potentiam; et in hoc consistit quasi longitudo. Alio modo speciali, prout est in sanctis per gratiam; per quam est latitudo caritatis. Tertio modo in proprio filio, scilicet per unionem; in quo est sublimitas et profundum. Tertio dicitur corporaliter habitare ad similitudinem corporis, secundum quod dividitur contra umbram. In sacramentis enim veteris legis fuit quasi in umbris et signis, Heb. 10, 1: <quote xml:id="ta-l3d4q3-Qd1e283">umbram habens lex futurorum bonorum</quote>: in Christo autem secundum rem et veritatem; unde Christus se habet ad illas figuras sicut corpus ad umbram.</p>
+            <p xml:id="ta-l3d4q3-d1e287">Ad primum ergo dicendum, quod corporaliter secundum primam expositionem non dicit modum existendi divinitatem in Christo, sed magis id cui divinitas conjungitur; secundum autem alios modos est similitudinarie dictum.</p>
+            <p xml:id="ta-l3d4q3-d1e290">Unde patet solutio ad secundum.</p>
+            <p xml:id="ta-l3d4q3-d1e293">Ad tertium dicendum, quod in aliis hominibus sanctis est Deus per gratiam acceptationis, sive habitualem, quae est tantum in anima; in Christo autem est per gratiam unionis, quae est ad animam et corpus.</p>
+          </div>
+        </div>
+          <div xml:id="ta-l3d4q3-Dd1e298">
+            <head xml:id="ta-l3d4q3-Hd1e300">Expositio textus</head>
+            <p xml:id="ta-l3d4q3-d1e303"><quote xml:id="ta-l3d4q3-Qd1e304">Uno nominato tres intelliguntur</quote>. Contra. Dicimus filium Dei incarnatum, quod non intelligitur de patre et spiritu sancto. Et dicendum, quod hoc est intelligendum de his quae ad essentiam pertinent: quorum si aliquid de una tantum persona dicatur, oportet quod de alia intelligatur. <quote xml:id="ta-l3d4q3-Qd1e307">Non est autem concedendum, quidquid de aliqua re nascitur, continuo ejusdem rei filium nuncupandum</quote>. Sciendum est ergo, quod haec praepositio ex denotat causam efficientem, vel materialem. Ad hoc autem quod aliquid natum ex aliquo materialiter, filiationis nomen accipiat, oportet quod in similitudinem speciei producatur cum eo ex quo nascitur, sicut filius matri; et ideo capilli et lumbricus non dicuntur filii ejus ex quo materialiter nascuntur. Ad hoc etiam quod aliquid natum de alio active dicatur filius ejus, oportet quod producatur de substantia agentis, et in similitudinem ejusdem speciei, et quod non sit agens instrumentale, sed principale. Primae autem duae conditiones deficiunt in spiritu sancto; unde Christus non potest dici filius ejus. Secunda autem et tertia deficiunt in aqua: quia renatus spiritualiter non assumit similitudinem aquae, sed similitudinem Dei; et aqua est instrumentum divinae virtutis operantis in eo: tamen Dionysius, 2 cap. Eccles. Hierarch., vocat aquam Baptismi matrem filialitatis: sed non proprie dicitur. <quote xml:id="ta-l3d4q3-Qd1e310">Dicuntur filii Gehennae</quote>. Sciendum, quod hoc dicitur secundum modum loquendi consuetum in Scripturis, ut illud quod magnam habet affinitatem ad alterum, filius ejus dicatur; sicut Isai. 5, 1, dicitur: <quote xml:id="ta-l3d4q3-Qd1e313">in cornu filio olei</quote>; idest in monte, ubi abundat oleum; et similiter, 1 Reg. 26, dixit David de Abner, quod filius mortis esset, quia mortem valde merebatur. <quote xml:id="ta-l3d4q3-Qd1e316">Conceptus et natus de spiritu sancto</quote>. Quamvis utrumque horum possit dici et de spiritu sancto et de matre; tamen magis proprie dicitur conceptus de spiritu sancto, quia conceptionem in instanti spiritus sanctus operatus est; natus autem magis proprie dicitur de matre, quae eum ex utero 
+              <cb ed="#H" n="23vb" select="canvas-51994152.json"/>
+              produxit: unde in symbolo dicitur conceptus de spiritu sancto, natus ex Maria virgine. <quote xml:id="ta-l3d4q3-Qd1e322">Factum ex semine David</quote>: Roman. 1. Contra. Damascenus, 3 Lib., cap. 2: <quote xml:id="ta-l3d4q3-Qd1e325">non seminaliter, sed conditive per spiritum sanctum</quote>. Ad quod dicendum, quod Damascenus loquitur quantum ad proximam Christi generationem ex virgine; verbum autem apostoli intelligendum est quantum ad remotos parentes, ex quibus seminaliter mater Christi processit. <quote xml:id="ta-l3d4q3-Qd1e328">Cum aliud sit fieri, aliud nasci</quote>. Contra. Fieri videtur esse commune ad omnem productionem, qua aliquid incipit esse. Ad quod dicendum, quod hoc est verum de facere, secundum quod communiter sumitur: proprie tamen dicitur facere, exercere aliquam actionem in exteriorem materiam, secundum quod dicit philosophus in 6 Ethic., quod ars est recta ratio agibilium. Unde ad ostendendum quod conceptio Christi est ex principio agente extrinseco, non naturaliter agente, sicut est in nostra conceptione, ideo dicit apostolus eum factum; quamvis et natus et conceptus dici possit quantum est ex parte matris.</p>
+          </div>
+        </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 1, Quaestio 2</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.09-dev-master">
+          <title>Librum I, Distinctio 1, Quaestio 2</title>
+          <date when="2016-03-16">March 16, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-16">March 16, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p>1856 editum</p>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="2015.09">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+
+
+
+
+      <div xml:id="starts-on"> </div>
+    </front>
+    <body>
+      <div xml:id="ta-l1d1q2">
+        <head xml:id="ta-l1d1q2-Hd1e89">Librum I, Distinctio 1, Quaestio 2</head>
+
+        <div xml:id="ta-l1d1q2-Dd1e92">
+          <head xml:id="ta-l1d1q2-Hd1e94">Prooemium</head>
+          <p xml:id="ta-l1d1q2-d1e97">Dicto exitu rerum a primo principio, hic prosequitur ordinem earum in ultimum finem; et
+            dividitur in partes tres: in prima ostendit finem ultimum creaturarum: in secunda ex
+            fine ostendit creaturarum diversitatem, ibi: <quote xml:id="ta-l1d1q2-Qd1e99">et quia non valet ejus beatitudinis
+              particeps existere aliquis nisi per intelligentiam (...) fecit Deus rationalem
+              creaturam</quote>: in tertia, ex distinctione concludit tractandi ordinem, ibi:
+              <quote xml:id="ta-l1d1q2-Qd1e102">ex praemissis apparet, rationalem creaturam in angelicam et humanam fuisse
+              distinctam</quote>. Secunda dividitur in tres: in prima ostendit ordinem spiritualis
+            naturae in finem; in secunda ordinem corporalis, ibi: <quote xml:id="ta-l1d1q2-Qd1e105">et sicut factus est homo
+              propter Deum (...) ita mundus factus est propter hominem</quote>; in tertia ordinem
+            conjuncti ex utroque, ibi: <quote xml:id="ta-l1d1q2-Qd1e108">solet etiam quaeri, cum majoris dignitatis esse
+              videretur anima si absque corpore permansisset, cur unita sit corpori</quote>. Circa
+            primum duo facit: primo ex fine concludit spiritualis naturae institutionem; secundo
+            concludit ordinem ipsius in finem, ibi: <quote xml:id="ta-l1d1q2-Qd1e111">ideoque si quaeratur, quare creatus sit
+              homo vel Angelus, brevi sermone responderi potest: propter bonitatem ejus</quote>. Et
+            circa hoc tria facit: primo assignat finem ex parte agentis; secundo ex parte operis,
+            ibi: <quote xml:id="ta-l1d1q2-Qd1e115">et si quaeratur, ad quid creata sit rationalis creatura, respondetur, ad
+              laudandum Deum</quote>; tertio conjungit utrumque, ibi: <quote xml:id="ta-l1d1q2-Qd1e118">cum ergo quaeritur
+              quare vel ad quid facta sit rationalis creatura, brevissime responderi potest: propter
+              Dei bonitatem et suam utilitatem</quote>. Circa hoc duo facit: primo ostendit finem
+            corporalis creaturae; secundo excludit quamdam dubitationem, ibi: <quote xml:id="ta-l1d1q2-Qd1e121">de homine
+              quoque in Scriptura interdum reperitur quod factus sit propter reparationem angelicae
+              ruinae</quote>. Hic quinque quaeruntur: 1 utrum Deo conveniat agere propter finem; 2
+            utrum finis omnium sit Dei bonitas; 3 utrum omnia sint propter hominem facta; 4 propter
+            quid homo ex anima et corpore constitutus sit; 5 utrum tali corpori anima ejus uniri
+            debuerit.</p>
+        </div>
+        <div xml:id="ta-l1d1q2-Dd1e126" type="articulus">
+          <head xml:id="ta-l1d1q2-Hd1e128">Articulus 1</head>
+          <head xml:id="ta-l1d1q2-Hd1e131" type="questionTitle">Utrum Deo competat agere propter finem</head>
+
+          <p xml:id="ta-l1d1q2-d1e134">Ad primum sic proceditur. Videtur quod Deo non competit agere propter finem. Finis enim
+            est terminus motus: unde in his quae carent motu, sicut in mathematicis, non est finis
+            neque bonum, ut in 3 Metaph. dicitur. Sed Deus non producit res per motum, ut prius
+            dictum est. Ergo sibi non competit propter finem agere.</p>
+          <p xml:id="ta-l1d1q2-d1e137">Praeterea, finis est perfectio agentis: unde sicut materia appetit formam, ita agens
+            finem. Sed Deo non competit ab aliquo perfici, cum sit primum movens, et perfectio
+            summa. Ergo non agit propter finem.</p>
+          <p xml:id="ta-l1d1q2-d1e140">Praeterea, unicuique agenti propter finem, melius est suum opus esse quam non esse:
+            quia per illud finem consequitur, ut patet inducendo in singulis. Sed non melius, immo
+            indifferens est Deo utrum creaturae sint vel non sint; quia bonorum nostrorum non eget.
+            Ergo non agit propter finem.</p>
+          <p xml:id="ta-l1d1q2-d1e144">Praeterea, actio ejus est ultimus finis rerum, quia est sua substantia. Sed finis
+            ultimi non est aliquis alius finis. Ergo videtur quod actio ejus non sit propter
+            finem.</p>
+          <p xml:id="ta-l1d1q2-d1e147">Sed contra, omne agens quod non agit propter finem aliquem, opus ejus est vanum. Sed
+            Dei opera non sunt hujusmodi: unde in Psalm. 88, 48, dicitur: <quote xml:id="ta-l1d1q2-Qd1e149">numquid enim vane
+              constituisti omnes filios hominum?</quote> Ergo agit propter finem.</p>
+          <p xml:id="ta-l1d1q2-d1e153">Praeterea, secundum philosophum, omne agens per intellectum, agit propter finem. Sed
+            Deus est hujusmodi, cum sua scientia sit causa rerum. Ergo et cetera.</p>
+          <p xml:id="ta-l1d1q2-d1e156">Respondeo dicendum, quod agere aliquid propter finem est dupliciter: vel propter finem
+            operis, vel propter finem operantis. Finis operis est hoc ad quod opus ordinatum est ab
+            agente, et hoc dicitur ratio operis; finis autem operantis est quem principaliter
+            operans intendit: unde finis operis potest esse in alio; sed finis operantis semper est
+            in ipso; sicut patet in aedificatore, qui lapides congregat ad componendum eos, quod
+            ista compositio, in qua consistit forma domus, est finis operis; sed utilitas quae
+            provenit ex hoc operanti, est finis ex parte agentis. Cum autem omne opus divinum in
+            finem quemdam ordinatum sit, constat quod ex parte operis Deus propter finem agit. Sed
+            quia finis operis semper reducitur in finem operantis, ideo oportet quod etiam ex parte
+            operantis, finis actionis ejus consideretur, qui est bonum ipsius in ipso. Sciendum est
+            ergo, quod agere hoc modo, est dupliciter: vel propter desiderium finis; vel propter
+            amorem finis: desiderium enim est rei non habitae; sed amor est rei quae habetur, ut
+            Augustinus dicit; et ideo omni creaturae convenit agere propter desiderium finis, quia
+            unicuique creaturae acquiritur bonum ab alio quod ex se non habet; sed Deo competit
+            agere propter amorem finis, cujus bonitati nihil addi potest. Ipse enim bonitatem suam
+            perfecte amat, et ex hoc vult quod bonitas sua multiplicetur per modum qui possibilis
+            est, ex sui scilicet similitudine, ex quo provenit utilitas creaturae, inquantum
+            similitudinem divinae bonitatis recipit: et ideo dicitur in littera, quod Deus fecit
+            creaturam propter bonitatem suam, considerando finem operantis; et propter utilitatem
+            creaturae, considerando finem operis; et propter hoc etiam dicit Augustinus, quod
+            inquantum Deus est bonus, sumus: et Dionysius dicit, quod divinus amor non dimisit eum
+            sine germine esse.</p>
+          <p xml:id="ta-l1d1q2-d1e159">Ad primum ergo dicendum, quod secundum Avicennam, sicut est duplex agens, quoddam quod
+            agit per motum, sicut naturale; et quoddam quod agit sine motu, dando esse; ita duplex
+            est bonum: quoddam acquisitum per motum, et hoc est tantum in rebus naturalibus; et
+            quoddam acquisitum sine motu in recipiendo influentiam agentis sine motu, et tale est
+            bonum etiam in rebus immobilibus.</p>
+          <p xml:id="ta-l1d1q2-d1e162">Ad secundum dicendum, quod illud quod agit propter desiderium finis, habet finem extra
+            se, quo perficitur. Hoc autem non convenit Deo qui agit propter amorem finis, quia
+            ipsemet est sibi finis a se habitus et amatus: et ideo dicimus, quod divina voluntas non
+            est perfecta quodam alio, sed seipsa, quia ipsa voluntas est bonitas.</p>
+          <p xml:id="ta-l1d1q2-d1e166">Ad tertium dicendum, quod omne id quod agit propter desiderium finis, per actionem suam
+            ordinatur ad consecutionem desiderati. Unde oportet quod apud eum differat an sit vel
+            non sit suum opus. Non autem apud eum qui agit propter finis amorem, quia non agit ad
+            acquirendum aliquod bonum.</p>
+          <p xml:id="ta-l1d1q2-d1e169">Ad quartum dicendum, quod actio divina est essentia ejus; et ex hac parte non quaeritur
+            finis ejus, sed ex parte illa qua effectum creaturae communicat.</p>
+        </div>
+        <div xml:id="ta-l1d1q2-Dd1e173" type="articulus">
+          <head xml:id="ta-l1d1q2-Hd1e175">Articulus 2</head>
+
+          <head xml:id="ta-l1d1q2-Hd1e178" type="questionTitle">Utrum creaturae sint propter bonitatem Dei</head>
+
+          <p xml:id="ta-l1d1q2-d1e181">Ad secundum sic proceditur. Videtur quod creaturae non sint propter Dei bonitatem.
+            Sicut enim in 1 Cael. et Mund. dicitur, nihil movetur naturaliter propter illud quod
+            consequi non potest. Sed nulla res potest consequi divinam bonitatem: quia ipsa non
+            recipitur ut perfectio alicujus creaturae, vel forma. Ergo res non sunt ordinatae
+            naturaliter in ipsam.</p>
+          <p xml:id="ta-l1d1q2-d1e184">Praeterea, ut in 2 Cael. et Mund. dicitur, omnis res est propter suam operationem, et
+            res sempiterna vel incorporalis, est propter sempiternalitatem sui esse. Sed esse rei et
+            operatio non est extra ipsam. Ergo videtur quod non sint propter Dei bonitatem, quae est
+            a rebus separata et impermixta.</p>
+          <p xml:id="ta-l1d1q2-d1e187">Praeterea, omnis res producitur ab agente propinquius fini, quantumcumque potest. Sed
+            quanto aliquid est melius et diuturnius, magis ad divinam bonitatem accedit. Ergo Deus
+            fecit unumquodque quantumcumque melius potuit, et ab aeterno, si facere potuit: quae cum
+            falsa sint, videtur quod bonitas Dei creaturarum finis non sit.</p>
+          <p xml:id="ta-l1d1q2-d1e191">Praeterea, divina bonitas est sua beatitudo. Sed beatitudinis ejus non est capax nisi
+            intellectualis creatura, ut in littera dicitur. Ergo non omnis creaturae finis est
+            divina bonitas.</p>
+          <p xml:id="ta-l1d1q2-d1e194">Sed contra, hoc propter quod res fit, est finis ejus. Sed, sicut dicitur Proverb. 16,
+            4, <quote xml:id="ta-l1d1q2-Qd1e196">universa propter semetipsum operatus est dominus</quote>. Ergo videtur quod
+            ipse sit finis omnium.</p>
+          <p xml:id="ta-l1d1q2-d1e200">Praeterea, bonum habet rationem finis, ut in 3 Metaph. dicitur. Ergo et summum bonum
+            habet in Deo rationem finis ultimi. Sed divina bonitas est summa bonitas. Ergo ipsa est
+            ultimus rerum finis.</p>
+          <p xml:id="ta-l1d1q2-d1e203">Respondeo dicendum, quod finis et agens proportionantur ad invicem, sicut materia et
+            forma. Unde secundum differentiam agentis est differentia finis. Est autem duplex agens.
+            Quoddam quod suscipienti suum effectum est proportionatum; unde formam ejusdem speciei
+            vel rationis in effectum inducit, sicut in omnibus agentibus univocis, ut ignis generat
+            ignem, et domus quae est in anima artificis, causat domum quae est in materia. Quoddam
+            vero agens non est proportionatum recipienti suum effectum. Unde effectus non
+            consequitur speciem agentis, sed aliquam similitudinem ejus quantum potest, sicut est in
+            omnibus agentibus aequivoce, ut sol calefacere dicitur. Ita etiam est duplex finis.
+            Quidam proportionatus ei quod est ad finem; et talis finis acquiritur ut perfectio in eo
+            quod ad finem est, sicut sanitas per operationem medicinae. Est etiam quidam finis
+            improportionabiliter excedens illud quod est ad finem: et hic non acquiritur ut
+            perfectio inhaerens ei quod est ad finem, sed aliqua similitudo ejus; et talis finis est
+            divina bonitas in infinitum creaturas excedens; et ideo non acquiritur in creatura
+            secundum se, ita ut sit forma ejus; sed aliqua similitudo ejus quae est in
+            participatione alicujus bonitatis; et ideo omnis appetitus naturae vel voluntatis tendit
+            in assimilationem divinae bonitatis, et in ipsammet tenderet, si esset possibilis haberi
+            ut perfectio essentialis, quae est forma rei. Sed tamen ipsamet divina bonitas potest
+            acquiri a creatura rationali ut perfectio quae est objectum operationis, inquantum
+            rationalis creatura possibilis est ad videndum et amandum Deum. Et ideo singulari modo
+            Deus est finis in quem tendit creatura rationalis praeter modum communem quo tendit in
+            ipsum omnis creatura, inquantum scilicet omnis creatura desiderat aliquod bonum, quod
+            est similitudo quaedam divinae bonitatis. Et ex hoc patet quod in omni bono summum bonum
+            desideratur.</p>
+          <p xml:id="ta-l1d1q2-d1e206">Ad primum ergo dicendum, quod quamvis res non acquirat divinam bonitatem, tamen
+            acquirit aliquam similitudinem ejus; et ex hoc dicitur finis.</p>
+          <p xml:id="ta-l1d1q2-d1e209">Ad secundum dicendum, quod ipsa operatio est ultima perfectio in qua res existit:
+            habitus enim et potentia imperfectionem dicunt: et ideo idem est rei esse propter suam
+            operationem et propter divinam bonitatem, ad quam maxime accedit secundum quod maxime
+            est in actu perfecto. Similiter etiam ipsa sempiternitas essendi est quaedam assimilatio
+            divinae bonitatis; et propter hoc perpetuitas specierum vocatur a philosophis divinum
+            esse.</p>
+          <p xml:id="ta-l1d1q2-d1e213">Ad tertium dicendum, quod finis non est causa rei, nisi secundum quod est in voluntate
+            agentis; et ideo ipsa bonitas divina secundum modum et ordinem quo est ab eo volita est
+            finis rerum. Et ideo tunc unaquaeque res maxime ad suum finem accedit, quando imitatur
+            divinam voluntatem, secundum quod de ipsa re dispositum est a Deo.</p>
+          <p xml:id="ta-l1d1q2-d1e216">Ad quartum dicendum, quod cum bonitas Dei sit finis rerum, ad ipsam res diversimode se
+            habent. Ipse enim Deus habet eam perfecte secundum suum esse; unde summe bonus est; et
+            etiam secundum suam operationem, qua perfecte eam cognoscit et amat: unde beatus est,
+            quia beatitudo est operatio perfecta, secundum philosophum. Creatura autem
+            intellectualis non attingit ad eam secundum suum esse ut ipsa sit summum bonum, sed
+            secundum operationem intelligendo et amando eam; unde particeps est beatitudinis et non
+            tantum bonitatis divinae. Sed creatura irrationalis accedit ad eam secundum aliquam
+            assimilationem, quamvis non pertingat neque secundum operationem neque secundum esse;
+            unde est particeps bonitatis, sed non beatitudinis.</p>
+        </div>
+        <div xml:id="ta-l1d1q2-Dd1e220" type="articulus">
+          <head xml:id="ta-l1d1q2-Hd1e222">Articulus 3</head>
+
+          <head xml:id="ta-l1d1q2-Hd1e225" type="questionTitle">Utrum omnia sint facta propter hominem</head>
+
+          <p xml:id="ta-l1d1q2-d1e228">Ad tertium sic proceditur. Videtur quod non omnia sint facta propter hominem. Finis
+            enim est intentus ab agente. Sed humana natura non potest esse intenta a Deo: quia
+            nullius intentio est ad hoc quod est vilius se. Ergo videtur quod Deus non fecit omnia
+            propter hominem.</p>
+          <p xml:id="ta-l1d1q2-d1e231">Praeterea, sicut universale agens non est nisi primum agens, ita universalis finis non
+            videtur esse nisi finis ultimus. Sed homo non est finis ultimus creaturae, sed divina
+            bonitas, ut dictum est. Ergo non est finis omnium creaturarum.</p>
+          <p xml:id="ta-l1d1q2-d1e234">Praeterea, non est sapientis artificis facere multa magna instrumenta propter aliquod
+            parvum. Sed humana natura est quasi quoddam minimum in universo. Ergo videtur ridiculum
+            quod totum universum propter hominem factum sit.</p>
+          <p xml:id="ta-l1d1q2-d1e238">Praeterea, illud quod non juvat ad id propter quod fit, est superfluum et inane. Sed
+            multa sunt in universo quae sunt homini nociva, ut serpentes, spinae et hujusmodi: multa
+            sunt etiam ex quibus nullum juvamentum habet, sicut aliqui pisces in profundo maris
+            existentes. Ergo cum nihil sit vanum in operibus Dei, videtur quod non omnia propter
+            hominem facta sint.</p>
+          <p xml:id="ta-l1d1q2-d1e241">Sed contra est quod dicitur in 2 Phys., quod sumus et nos quodammodo finis omnium.</p>
+          <p xml:id="ta-l1d1q2-d1e244">Praeterea, ordo universi est finis totius creaturae. Sed in homine est quaedam
+            similitudo ordinis universi; unde et minor mundus dicitur: quia omnes naturae quasi in
+            homine confluunt. Ergo videtur quod ipse sit quodammodo finis omnium.</p>
+          <p xml:id="ta-l1d1q2-d1e247">Respondeo dicendum, quod finis alicujus rei dicitur dupliciter: vel in quem tendit
+            naturaliter, vel ex eo quod ad ipsum sicut ad finem ordinari dicitur, ut utilitatem
+            aliquam consequatur secundum intentionem et ordinem agentis. Utroque autem modo homo
+            finis creaturarum dicitur: et primus quidem ex parte operis, sed secundus ex parte
+            agentis. Differenter tamen homo dicitur finis, et divina bonitas: quia ex parte agentis
+            divina bonitas est finis rerum, sicut ultimum intentum ab agente: sed natura humana non
+            est intenta a Deo quasi movens voluntatem ejus, sed sicut ad cujus utilitatem est
+            ordinatus effectus ejus. Ipse enim duplicem ordinem in universo instituit; principalem
+            scilicet, et secundarium. Principalis est secundum quod res ordinantur in ipsum; et
+            secundarius est secundum quod una juvat aliam in perveniendo ad similitudinem divinam;
+            unde dicitur in 12 Metaph., quod ordo partium universi ad invicem est propter illum
+            ordinem qui est in bonum ultimum, et sic dicitur esse propter aliud omne illud ex quo
+            provenit ei utilitas. Sed hoc contingit dupliciter; aut ita quod illud ex quo provenit
+            alicui utilitas, non habeat participationem divinae bonitatis nisi secundum ordinem ejus
+            ad hoc cui est utile, sicut sunt partes ad totum, et accidentia ad subjectum, quae non
+            habent esse absolutum, sed solum in altero: et talia non essent nec fierent, nisi aliud
+            esset, cui ex eis provenit utilitas. Sed quaedam sunt quae habent participationem
+            divinae bonitatis absolutam, ex qua provenit aliqua utilitas alicui rei: et talia essent
+            etiam si illud cui provenit ex eis utilitas non foret: et per hunc modum dicitur, quod
+            Angeli et omnes creaturae propter hominem a Deo factae sunt; et sic etiam homo factus
+            est propter reparationem ruinae angelicae: quia haec utilitas consecuta est et a Deo
+            praevisa et ordinata. Similiter ex parte operis ipsae creaturae tendunt in divinam
+            bonitatem sicut in illud cui per se assimilari intendunt. Sed quia optimo assimilatur
+            aliquid per hoc quod simile fit meliori se, ideo omnis creatura corporalis tendit in
+            assimilationem creaturae intellectualis quantum potest, quae altiori modo divinam
+            bonitatem consequitur, et propter hoc etiam forma humana, scilicet anima rationalis,
+            dicitur esse finis ultimus intentus a natura inferiori, ut in 2 de anima dicitur.</p>
+          <p xml:id="ta-l1d1q2-d1e250">Ad primum ergo dicendum, quod homo non hoc modo dicitur esse finis sicut intentum ab
+            agente: quia haec est ratio finis ultimi et principalis: sed sicut ad quod ordinatum est
+            opus agentis aliquo modo, ut dictum est.</p>
+          <p xml:id="ta-l1d1q2-d1e253">Ad secundum dicendum, quod homo non est finis omnis creaturae sicut ultimo intentum ab
+            omni creatura, sed sicut illud cui provenit utilitas ex omni creatura: et hoc contingit
+            propter communicationem ejus cum omni creatura, ut dicit Gregorius, ubi supra.</p>
+          <p xml:id="ta-l1d1q2-d1e257">Ad tertium dicendum, quod omnis creatura corporalis, quantumcumque sit magna
+            quantitate, est tamen inferior homine ratione intellectus. Unde non est inconveniens, si
+            omnis creatura talis etiam in assimilationem ejus tendit, inquantum per hoc summae
+            bonitati assimilatur. Sed Angeli sunt nobiliores homine secundum conditionem naturae;
+            unde non sunt propter hominem praedicto modo, sed solum sicut ex quibus provenit homini
+            utilitas; sicut si diceretur regem esse constitutum propter aliquem rusticum, cui
+            provenit utilitas pacis propter leges regis.</p>
+          <p xml:id="ta-l1d1q2-d1e260">Ad quartum dicendum, quod hujusmodi non fuerunt a principio homini nociva; sed postea
+            per peccatum nociva sibi facta sunt; ex quibus tamen aliqua utilitas sibi provenit, dum
+            per hoc humilior fit, et in talibus etiam visibilibus gloriam et sapientiam Dei
+            considerat. Et sic etiam in utilitatem cedunt ea quae in usum operis ejus non veniunt,
+            dum de eis aliquam cognitionem habet vel in universali vel in particulari. Tamen
+            auctoritas philosophi in 5 Physic., in contrarium inducta, intelligitur de rebus
+            artificialibus.</p>
+        </div>
+        <div xml:id="ta-l1d1q2-Dd1e265" type="articulus">
+          <head xml:id="ta-l1d1q2-Hd1e267">Articulus 4</head>
+
+          <head xml:id="ta-l1d1q2-Hd1e270" type="questionTitle">Utrum anima rationalis debeat uniri corpori</head>
+
+          <p xml:id="ta-l1d1q2-d1e273">Ad quartum sic proceditur. Videtur quod anima rationalis corpori uniri non debuit. Ea
+            enim quae sunt ad finem, determinantur secundum rationem finis. Sed anima rationalis est
+            propter divinam beatitudinem et bonitatem. Ergo cum per corpus impediatur a
+            participatione divinae beatitudinis, quia per operationes corporales impeditur anima a
+            contemplatione spiritualium, videtur quod corpori uniri non debuit.</p>
+          <p xml:id="ta-l1d1q2-d1e276">Praeterea, illud quod habet per se esse subsistens, non unitur alteri nisi
+            accidentaliter; quia quod advenit post esse completum, est accidens. Sed anima est
+            quiddam in esse suo subsistens; alias post corpus remanere non posset. Ergo non est
+            unibilis, ut ex ea et corpore fiat unum essentialiter.</p>
+          <p xml:id="ta-l1d1q2-d1e279">Praeterea, ea quae maxime distant, non uniuntur nisi minima conjunctione. Sed anima et
+            corpus maxime distant, ut in littera dicitur. Ergo cum conjunctio formae ad materiam sit
+            secundum maximam unionem, videtur quod anima non sit corpori unibilis, sicut forma
+            materiae.</p>
+          <p xml:id="ta-l1d1q2-d1e283">Praeterea, potentiae animae fluunt ab essentia ejus. Sed principiatum non potest esse
+            simplicius principio a quo fluit. Cum ergo quaedam potentia animae nullius corporis
+            actus sit, ut intellectus et voluntas; videtur quod nec essentia animae rationalis.</p>
+          <p xml:id="ta-l1d1q2-d1e286">Sed contra, divinae bonitatis est omnes gradus creaturarum universi complere. Sed
+            quaedam creaturae sunt pure corporales, quaedam pure intellectuales. Ergo ad
+            completionem universi oportet esse creaturam ex corporali et intellectuali natura
+            compositam.</p>
+          <p xml:id="ta-l1d1q2-d1e289">Praeterea, intellectus possibilis, secundum philosophum, est sicut tabula in qua nihil
+            est scriptum. Sed non potest perfici ut scribatur aliquid in eo nisi per species in
+            sensibus receptas. Ergo oportet quod uniatur corpori organico sensibili.</p>
+          <p xml:id="ta-l1d1q2-d1e292">Respondeo dicendum, quod causa finalis ipsius conjunctionis animae et corporis
+            assignatur in littera a Magistro sufficienter. Finis enim potest sumi vel ex parte
+            agentis, vel ex parte ipsius operis. Ex parte agentis, scilicet Dei, finis est bonitas
+            ejus, secundum quod cadit in voluntate ipsius volentis bonitatem suam in res diffundere:
+            et haec est prima ratio quam Magister assignat. Ex parte autem operis, finis intentus
+            est pertingere in assimilationem divinae beatitudinis. Hoc autem est secundum esse ejus,
+            prout ipsa conjunctio animae et corporis est quaedam similitudo divinae beatitudinis,
+            qua conjungitur spiritus Deo: et haec est secunda ratio quam assignat. Et etiam secundum
+            operationem, prout scilicet anima per operationes quas in corpore exercet, ad divinam
+            beatitudinem accedit merendo: et haec est tertia ratio.</p>
+          <p xml:id="ta-l1d1q2-d1e295">Ad primum ergo dicendum, quod si anima non esset corpori unibilis, tunc esset alterius
+            naturae; unde secundum hanc naturam quam habet, non potest melius ad divinam bonitatem
+            accedere quam per hoc quod unitur corpori.</p>
+          <p xml:id="ta-l1d1q2-d1e298">Ad secundum dicendum, quod quidquid advenit rei subsistenti ita quod ex ipsius adventu
+            novum esse constituatur, oportet accidentaliter advenire, quia unius rei non potest esse
+            nisi unum esse essentiale; unde aliud esse superveniens erit accidentale. Sed corpus
+            adveniens animae trahitur in consortium illius esse a quo anima subsistere potest,
+            quamvis aliae formae non possunt subsistere in illo esse, sicut potest anima.</p>
+          <p xml:id="ta-l1d1q2-d1e302">Ad tertium dicendum, quod propter hanc objectionem Plato posuit, ut Gregorius Nyssenus
+            narrat, quod anima est in corpore sicut motor in mobili, ut nauta in navi, et non sicut
+            forma in materia; unde dicebat, quod homo non est aliquid ex anima et corpore, sed quod
+            homo est anima utens corpore; et propter hoc etiam quidam quaesierunt quaedam media
+            inter animam et corpus, ut spiritum corporalem, animam vegetabilem et sensibilem, et
+            lucem, quibus mediantibus anima rationalis corpori uniretur; quae omnia absurda sunt
+            secundum philosophiam, et improbata a philosopho in 8 Metaph. Et ideo dicimus quod
+            essentia animae rationalis immediate unitur corpori sicut forma materiae, et figura
+            cerae, ut in 2 de anima dicitur. Sciendum ergo, quod convenientia potest attendi
+            dupliciter: aut secundum proprietates naturae; et sic anima et corpus multum distant:
+            aut secundum proportionem potentiae ad actum; et sic anima et corpus maxime conveniunt.
+            Et ista convenientia exigitur ad hoc ut aliquid uniatur alteri immediate ut forma; alias
+            nec accidens subjecto nec aliqua forma materiae uniretur; cum accidens et subjectum
+            etiam sint in diversis generibus, et materia sit potentia, et forma sit actus.</p>
+          <p xml:id="ta-l1d1q2-d1e305">Ad quartum dicendum, quod in formis est quidam gradus nobilitatis; et quanto aliqua
+            forma est nobilior, tanto plus materiae praedominatur; unde forma terrae est magis
+            materialis quam forma aeris vel ignis. Inter autem omnes formas anima rationalis
+            nobilior est, unde maxime praedominatur materiae. Omne autem quod unitur alteri ut
+            vincens et dominans super illud habet effectum non solum secundum conjunctionem sui ad
+            alterum, sed etiam per se absolute, inquantum non dependet ad illud cui unitur; sicut
+            patet in igne candelae, cujus lumen extenditur ultra ascensionem vaporis, et
+            calefactionem. Unde quaedam vires ab anima provenire possunt quae sunt corporis actus,
+            et quaedam sunt ab organis corporalibus absolutae; quamvis enim essentia animae corpori
+            uniatur ut forma, non tamen sicut forma materialis non habens esse absolute in quo
+            subsistere possit.</p>
+        </div>
+        <div xml:id="ta-l1d1q2-Dd1e309" type="articulus">
+          <head xml:id="ta-l1d1q2-Hd1e311">Articulus 5</head>
+
+          <head xml:id="ta-l1d1q2-Hd1e314" type="questionTitle">Utrum anima humana tali corpori debuerit uniri</head>
+
+          <p xml:id="ta-l1d1q2-d1e317">Ad quintum sic proceditur. Videtur quod tali corpori uniri non debuit. Cum enim forma
+            proportionetur materiae, nobilissimae formae debetur nobilissimum corpus. Ergo videtur
+            quod corpori caelesti debeat uniri anima, quae est nobilissima formarum.</p>
+          <p xml:id="ta-l1d1q2-d1e320">Praeterea, simplici formae magis proportionatur corpus simplex quam compositum. Sed
+            anima est simplicissima formarum. Ergo non debet uniri composito, sed simplici.</p>
+          <p xml:id="ta-l1d1q2-d1e323">Praeterea, corpus organicum est magis difforme quam corpus homogeneum. Sed anima est
+            simplicissimus motor. Ergo corpus cui unitur sicut mobili, debet esse homogeneum et non
+            organicum.</p>
+          <p xml:id="ta-l1d1q2-d1e327">Praeterea, quanto corpus est subtilius, tanto magis accedit ad nobilitatem formae et
+            continentis. Sed ignis est subtilissimum corpus; unde in 2 de generatione dicitur, quod
+            habet plus de specie. Ergo videtur quod ad minus secundum praedominium ignis debeat esse
+            in corpore animato; cujus contrarium ostendit motus gravis quem habet; unumquodque enim
+            movetur motu praedominantis in ipso, ut in 1 de caelo et mundo dicitur.</p>
+          <p xml:id="ta-l1d1q2-d1e330">Sed contra est quod dicitur Genes. 2, 7: <quote xml:id="ta-l1d1q2-Qd1e332" ana="#gen2_7">formavit Deus hominem de limo
+              terrae</quote>. Et hoc etiam ad sensum videmus.</p>
+          <p xml:id="ta-l1d1q2-d1e336">Respondeo dicendum, quod oportuit talem formam, scilicet animam rationalem, corpori
+            bene complexionato uniri: cujus rationem assignat Avicenna dicens, quod oportet ordinem
+            perfectibilium esse secundum ordinem perfectionum. Inter omnes autem perfectiones illa
+            est nobilissima quae movet caelum, cui inter omnes alias perfectiones maxime anima
+            rationalis assimilatur: et ideo corpus oportet quod sit simillimum caelo. De nobilitate
+            autem corporis caelestis est, quod non habet contrarium; unde quanto plus corpus
+            separatur a contrarietate, similius caelo efficitur. Hoc autem non potest esse in
+            generabilibus et corruptibilibus hoc modo quod a contrariis omnimode absolvantur,
+            scilicet calido et frigido, per hoc quod conveniunt ad medium, quia medium neutrum
+            extremorum est actu; et ideo illud corpus quod venit ad maximam aequalitatem mixtionis,
+            est simillimum caelo; et tale corpus debet esse corpus humanum; et inde est quod dicitur
+            2 de anima quod homo habet meliorem tactum ceteris animalibus; et quanto est melioris
+            tactus, tanto est melioris intellectus, quia subtilitas tactus sequitur aequalitatem
+            complexionis. Instrumentum enim tactus debet esse in potentia respectu suorum
+            sensibilium sicut medium et non privatio, sicut pupilla est potentia album et nigrum, ut
+            in eodem libro dicitur.</p>
+          <p xml:id="ta-l1d1q2-d1e339">Ad primum ergo dicendum, quod corpus caeleste est nobilius quam corpus humanum, et
+            perfectio sua est nobilior quam anima humana. Sed, sicut dicit Commentator, in Lib. 1 de
+            substantia orbis, corpus caeleste non est generabile neque corruptibile sicut corpus
+            humanum; et ideo non indiget perfectione terminante ipsum sensificando et vegetando, sed
+            qua moveat ipsum in loco: et quaecumque sit virtus illa, sive Deus sive Angelus, est
+            superior in natura quam anima humana, quae est motor corporis humani; et corporeitas
+            caeli quam corporeitas corporis humani.</p>
+          <p xml:id="ta-l1d1q2-d1e342">Ad secundum dicendum, quod corpora simplicia maxime removentur a similitudine caeli,
+            inquantum in eorum natura est habere contrarium cum intentione, et ideo corpori tali
+            anima rationalis uniri non debuit.</p>
+          <p xml:id="ta-l1d1q2-d1e345">Ad tertium dicendum, quod anima rationalis quamvis sit simplex in essentia, tamen est
+            multiplex in potentiis et operationibus: et ideo oportet quod corpus suum multa habeat
+            organa ad diversas operationes apta; et propter hoc natura dedit homini manus, quibus
+            plurimas operationes facere potest; et propter hoc etiam quanto anima est minus nobilis,
+            requirit minorem diversitatem in organis, sicut patet in plantis et in animalibus
+            annulosis.</p>
+          <p xml:id="ta-l1d1q2-d1e349">Ad quartum dicendum, quod elementa quanto plus habent de specie et de qualitatibus
+            activis, tanto plus habent de virtute agendi: unde non posset fieri adaequatio, nisi de
+            elemento magis materiali esset plus secundum quantitatem vel materiam. Ideo oportet
+            corpus humanum secundum quantitatem habere plus de terrestri, quamvis non secundum
+            qualitatem, quia in corpore vivo dominatur calidum: unde in libris de anima dicitur,
+            quod nihil est sensitivum sine calore, et quod calor ignis est instrumentum animae. Et
+            quia gravitas et levitas, quae sunt principia motus localis, consequuntur quantitatem
+            materiae, ideo motus gravis apparet in corpore humano.</p>
+        </div>
+        <div xml:id="ta-l1d1q2-Dd1e353">
+          <head xml:id="ta-l1d1q2-Hd1e355">Expositio textus</head>
+          <p xml:id="ta-l1d1q2-d1e358"><quote xml:id="ta-l1d1q2-Qd1e359">Plato namque tria initia existimavit</quote>. Sciendum, quod in hoc Plato
+            erravit, quia posuit formas exemplares per se subsistentes extra intellectum divinum, et
+            neque ipsas neque materiam a Deo esse habere. <quote xml:id="ta-l1d1q2-Qd1e362">Aristoteles vero duo principia
+              dixit</quote>. Videtur imperfecte tangere positionem ejus: quia ipse ponit tria
+            principia, in 1 Phys., materiam, formam, et privationem. Praeterea, ipse ponit non solum
+            causam effectivam exemplarem, quae intelligitur per principium operatorium, sed etiam
+            causam finalem. Praeterea, secundum ipsum, forma et agens et finis incidunt in idem, ut
+            in 2 Phys. dicit; et ita videtur tantum duo principia posuisse. Ad quod dicendum, quod
+            Aristoteles non erravit in ponendo plura principia: quia posuit esse omnium tantum a
+            primo principio dependere; et ita relinquitur unum esse primum principium. Erravit autem
+            in positione aeternitatis mundi. Ad primum ergo dicendum, quod privatio ab eo non
+            ponitur per se principium, sed per accidens; nec in esse rei, sed in fieri tantum. Ad
+            aliud dicendum, quod secundum ipsum, primum principium agens et ultimus finis reducuntur
+            in idem numero, ut patet in 12 Metaph.: ubi ponit quod primum principium movens movet ut
+            desideratum ab omnibus. Forma autem quae est pars rei non ponitur ab eo in idem numero
+            incidere cum agente, sed in idem specie vel similitudine: ex quo sequitur quod sit unum
+            principium primum extra rem, quod est agens et exemplar et finis; et duo quae sunt
+            partes rei, scilicet forma et materia, quae ab illo primo principio producuntur.
+              <quote xml:id="ta-l1d1q2-Qd1e365">Intelligendo amaret</quote>. Hic ponit quatuor, quae se secundum ordinem
+            habent. Intellectus enim secundum apprehensionem boni gignit amorem, amor autem unit
+            amato, et quodammodo illud suum esse facit possidendo. Et ex hac conjunctione sequitur
+            delectatio quae perficit rationem fruitionis. Cetera ex praedictis manifesta sunt.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

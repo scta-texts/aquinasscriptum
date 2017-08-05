@@ -1,0 +1,1756 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 15, Quaestio 1</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.09-dev-master">
+          <title>Librum I, Distinctio 15, Quaestio 1</title>
+          <date when="2016-03-14">March 14, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-14">March 14, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p>1856 editum</p>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="2015.09">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <div xml:id="starts-on"> </div>
+    </front>
+    <body>
+      <div xml:id="ta-l1d15q1">
+        <head xml:id="ta-l1d15q1-Hd1e3490">Librum I, Distinctio 15, Quaestio 1</head>
+        <div xml:id="ta-l1d15q1-Dd1e3493">
+          <head xml:id="ta-l1d15q1-Hd1e3495">Prooemium</head>
+          <p xml:id="ta-l1d15q1-d1e3498">Ostenso quia spiritus sanctus procedit temporaliter et datur a patre et filio, hic
+            inquirit, utrum etiam a seipso detur vel mittatur; et dividitur in partes duas: in prima
+            ostendit quod spiritus sanctus datur et mittitur a seipso; in secunda inducit
+            similitudinem de missione filii, ibi: <quote xml:id="ta-l1d15q1-Qd1e3500">ne autem mireris quod spiritus sanctus
+              dicitur mitti vel procedere a se</quote>. Ostendit autem in prima partes duas. Primo
+            quod spiritus sanctus a se detur, scilicet per Augustini auctoritatem et per duas
+            rationes: quarum una talis est. Quidquid potest pater et filius, potest et spiritus
+            sanctus. Sed pater et filius possunt dare spiritum sanctum. Ergo et cetera. Alia est:
+            quidquid operatur pater et filius, operatur spiritus sanctus, et sic ut prius. Et
+            rationes istae habent efficaciam propter effectum connotatum in missione et datione
+            spiritus sancti ex parte creaturae. Operatio enim et potentia respectu creaturae, est
+            communis omnibus tribus personis. <quote xml:id="ta-l1d15q1-Qd1e3503">Ne autem mireris quod spiritus sanctus dicitur
+              mitti vel procedere a se</quote>. Hic inducit missionem filii ad notificandum
+            missionem spiritus sancti, et dividitur in partes duas: in prima determinat de filii
+            missione in communi; in secunda quantum ad speciales modos, ibi: <quote xml:id="ta-l1d15q1-Qd1e3506">hic quaeritur,
+              utrum semel tantum missus sit filius, an saepe mittatur</quote>. Prima in duas: in
+            prima movet quaestionem de missione filii duplicem, qualiter scilicet intelligatur et a
+            quo mittatur; in secunda solvit, ibi: <quote xml:id="ta-l1d15q1-Qd1e3509">quo circa quaerendum est, quomodo
+              intelligatur missio filii vel spiritus sancti</quote>. Et haec dividitur in duas: in
+            prima solvit quantum ad missionis modum; in secunda quantum ad missionis principium,
+            ibi: <quote xml:id="ta-l1d15q1-Qd1e3512">et quod a spiritu sancto filius sit missus (...) auctoritatibus
+              confirmatur</quote>. Et haec dividitur in duas: in prima ostendit quod non solum
+            filius missus est a patre, sed etiam a spiritu sancto; in secunda ostendit quod etiam a
+            seipso, ibi: <quote xml:id="ta-l1d15q1-Qd1e3516">deinde ostendit esse datum etiam a seipso</quote>. Et haec in duas:
+            in prima ostendit filium esse datum a seipso; in secunda ostendit filium esse missum a
+            seipso, ibi: <quote xml:id="ta-l1d15q1-Qd1e3519">quod autem a seipso mittatur, Augustinus astruit</quote>. Et circa
+            hoc tria facit: in prima ostendit veritatem; in secunda concludit intentionem suam, ibi:
+              <quote xml:id="ta-l1d15q1-Qd1e3522">ex supradictis aperte monstratur quod filius missus est a patre et spiritu
+              sancto, et a seipso</quote>; in tertia excludit objectionem, ibi: <quote xml:id="ta-l1d15q1-Qd1e3525">sed adhuc
+              opponitur. Si filius a seipso missus est, cur ergo ait: a meipso non veni?</quote> Ad
+            intellectum hujus partis de tribus quaeritur: primo de missione secundum se. Secundo de
+            ipsa ex parte missi. Tertio de eadem ex parte mittentis. Circa primum duo quaeruntur: 1
+            utrum missio aut datio conveniat divinis personis; 2 quid significet, utrum essentiam,
+            vel notionem.</p>
+        </div>
+        <div xml:id="ta-l1d15q1-Dd1e3530" type="articulus">
+          <head xml:id="ta-l1d15q1-Hd1e3532">Articulus 1</head>
+
+          <head xml:id="ta-l1d15q1-Hd1e3535" type="questionTitle">Utrum missio conveniat divinis personis</head>
+
+          <p xml:id="ta-l1d15q1-d1e3538">Ad primum sic proceditur. Videtur quod missio non conveniat divinis personis. Missio
+            enim videtur dicere quamdam loci mutationem, secundum quod dicimus nuntium mitti ad
+            aliquem locum. Sed divinis personis, quae ubique sunt, non convenit aliqua loci mutatio.
+            Ergo nec missio.</p>
+          <p xml:id="ta-l1d15q1-d1e3541">Praeterea, super illud Ezech. 16, 53: <quote xml:id="ta-l1d15q1-Qd1e3543">convertens restituam eos conversione
+              Sodomorum cum filiabus suis, et conversione Samariae et filiarum ejus</quote>; dicit
+            Hieronymus: <quote xml:id="ta-l1d15q1-Qd1e3546">quod conjunctum est et in uno corpore copulatum, mitti non
+              potest</quote>. Sed una persona conjuncta est alii majori unione quam aliqua copulatio
+            corporalis. Ergo una persona non potest mitti ab alia.</p>
+          <p xml:id="ta-l1d15q1-d1e3550">Item, nihil pertinens ad inferioritatem potest dici de una persona respectu alterius,
+            cum non sint gradus in Trinitate; unde dicit Damascenus, quod Christus non est obediens
+            patri nisi secundum quod homo. Missio autem et datio videntur importare quamdam
+            inferioritatem in misso et dato. Ergo neutrum convenit divinae personae.</p>
+          <p xml:id="ta-l1d15q1-d1e3554">Item, constat quod divina persona est in infinitum dignior quam aliquis Angelus. Sed
+            Angeli superiores qui sunt assistentes, secundum Dionysium non mittuntur ad nos propter
+            suam dignitatem. Ergo multo minus divinae personae mittuntur.</p>
+          <p xml:id="ta-l1d15q1-d1e3557">In contrarium autem sunt plurimae auctoritates canonis et sanctorum, ut in littera.</p>
+          <p xml:id="ta-l1d15q1-d1e3560">Respondeo dicendum, quod missio vel datio ratione suae significationis dicit exitum
+            alicujus ut missi ab aliquo sicut a mittente, et ad aliquem terminum. Iste autem exitus
+            in creaturis est secundum distantiam corporalem missi a mittente, et in comparatione ad
+            terminum ponit in misso esse ubi non fuit prius. Quia autem omnis imperfectio amovenda
+            est ab his quae in divinam praedicationem veniunt, ideo missio in divinis intelligitur
+            non secundum exitum localis distantiae, nec secundum aliquam novitatem advenientem ipsi
+            misso, ut sit ubi prius non fuerat; sed secundum exitum originis ab aliquo ut a
+            principio, et secundum novitatem advenientem ei ad quem fit missio, ut novo modo persona
+            missa in eo esse dicatur. Ex quo patet quod missio de ratione sui differt a processione
+            et datione. Processio enim, inquantum processio, dicit realem distinctionem et respectum
+            ad principium a quo procedit, et non ad aliquem terminum. Datio autem non importat
+            distinctionem dati a principio a quo datur, quia idem potest dare seipsum; sed tantum ab
+            eo cui datur, ut supra dictum est, dist. 14, qu. 2, art. 1. Sed missio ponit
+            distinctionem in misso et ad principium et ad terminum. Et ideo cum dicitur spiritus
+            sanctus mitti, includitur in significatione missionis uterque respectus, scilicet
+            temporalis et aeternus; aeternus prout a patre et filio procedit; et temporalis prout
+            significatur in habitudine ad creaturam, quae novo modo ad ipsum se habet.</p>
+          <p xml:id="ta-l1d15q1-d1e3563">Ad primum ergo dicendum, quod quamvis spiritus sanctus, qui ubique est, non possit esse
+            ubi non fuerat, loci mutatione circa ipsum intellecta; tamen potest esse aliquo modo quo
+            prius non fuerat, mutatione facta circa illud in quo esse dicitur; et in hoc salvatur
+            ratio missionis.</p>
+          <p xml:id="ta-l1d15q1-d1e3566">Ad secundum dicendum, quod Glossa Hieronymi intelligitur de missione creaturae quae fit
+            per loci mutationem, quae non potest esse nisi ejus quod localiter separatur. Ad divinam
+            autem missionem sufficit distinctio personarum in essentiae unitate.</p>
+          <p xml:id="ta-l1d15q1-d1e3569">Ad tertium dicendum, quod obedientia est proprie respectu praecepti, quod proprie ad
+            dominium pertinet. Unde patet quod obedientia gradum importat dignitatis. Unde non
+            potest dici de persona filii vel spiritus sancti secundum divinitatem. Mittere autem non
+            ponit gradum dignitatis, sed auctoritatem principii in uno, respectu alterius qui ab
+            illo exit: et iste ordo est in divinis personis.</p>
+          <p xml:id="ta-l1d15q1-d1e3573">Ad quartum dicendum, quod non secundum eamdem rationem missio dicitur de Angelo et de
+            divina persona. Angelus enim missus localiter movetur, cum sit ubi prius non fuerat:
+            quia cum sunt in caelo, non sunt in terra. Unde missio talis aliquam indignitatem vel
+            inferioritatem gradus ponit circa missum. Non autem missio divinae personae a qua omnino
+            loci mutatio excluditur. Et praeterea effectus ille ad quem est missio personae divinae
+            etiam immediate est ab ipsa persona, scilicet gratia gratum faciens, ut dictum est,
+            dist. 14, qu. 2, art. 2. Effectus autem superiorum Angelorum efficitur in nos
+            mediantibus inferioribus Angelis, secundum Dionysium, et ideo non dicuntur ipsi
+            superiores Angeli ad nos mitti, sed inferiores, qui circa nos immediate operantur; sicut
+            etiam nec missio divinae personae est secundum illas perfectiones quas creatura a Deo
+            recipit, agente aliqua media creatura.</p>
+        </div>
+        <div xml:id="ta-l1d15q1-Dd1e3577" type="articulus">
+          <head xml:id="ta-l1d15q1-Hd1e3579">Articulus 2</head>
+
+          <head xml:id="ta-l1d15q1-Hd1e3582" type="questionTitle">Utrum missio significet notionem</head>
+
+          <p xml:id="ta-l1d15q1-d1e3585">Ad secundum sic proceditur. Videtur quod missio significet notionem. Dicit enim Beda in
+            quadam Homil., quod missio spiritus sancti est ejus processio. Sed processio est
+            notionale. Ergo et missio.</p>
+          <p xml:id="ta-l1d15q1-d1e3588">Praeterea, quidquid importat originem in divinis, est notionale: quia essentia divina
+            non originatur, nec aliquam personam originat. Missio autem, ut dictum est, in art.
+            antec., importat exitum originis ab alio sicut a principio. Ergo est notionale.</p>
+          <p xml:id="ta-l1d15q1-d1e3591">Contra, secundum Dionysium, omne nomen connotans effectum aliquem in creatura, dictum
+            de Deo pertinet ad communitatem essentiae. Sed missio importat effectum aliquem in
+            creatura, ut dictum est. Ergo significat essentiam.</p>
+          <p xml:id="ta-l1d15q1-d1e3595">Praeterea, nulla notio communis est filio et spiritui sancto. Sed missio communis est
+            utrique: uterque enim legitur missus, ut in littera dicitur. Ergo missio non dicit
+            aliquam notionem.</p>
+          <p xml:id="ta-l1d15q1-d1e3598">Respondeo dicendum, quod quaedam nomina sunt in divinis quae significant tantum
+            personam, ut pater et filius; quaedam quae tantum significant essentiam, sicut hoc nomen
+            essentia; quaedam quae significant utrumque, sicut dictum est, dist. 7, qu. 1, art. 1,
+            de potentia generandi et spirandi. Et ita dico, quod missio est et essentiale et
+            notionale, secundum aliud et aliud. Secundum enim respectum quem importat missio ad suum
+            principium, est notionale; secundum autem respectum quem importat ad effectum in
+            creatura, est essentiale. Sed circa hoc est duplex opinio. Quidam enim dicunt, quod
+            principaliter significat notionem, et ex consequenti essentiam secundum effectum
+            connotatum. Alii dicunt e converso; et hoc mihi videtur verius esse, considerata virtute
+            vocabuli. Missio enim secundum rationem sui nominis non dicit exitum ab aliquo sicut a
+            principio a quo missio esse habet; sed solum in ordine ad effectum missionis ponitur
+            auctoritas alicujus ad missum. Servus enim qui mittitur a domino, non exit ab ipso
+            secundum suum esse, sed sicut a principio movente ipsum per imperium ad hunc actum. Sed
+            quia in divinis personis non potest esse auctoritas respectu missi, nisi secundum
+            originem essendi, ideo ex consequenti importatur relatio originis in missione, secundum
+            quam est notionale; et principaliter importatur ordo ad effectum missionis secundum quem
+            est essentiale. Sed in processione temporali est e converso: quia processio secundum
+            notionem suam, prout sumitur in divinis, dicit exitum a principio originante, et non
+            dicit ordinem ad effectum nisi ex consequenti; scilicet quantum ad modum processionis,
+            qui est temporalis, ut dictum est, art. antec. Et ideo processio temporalis videtur esse
+            principaliter notionale, et ex consequenti significare essentiam ratione connotati
+            effectus. Dico autem, quod hic accedit plus ad essentiam quam missio, ut patet ex
+            dictis.</p>
+          <p xml:id="ta-l1d15q1-d1e3601">Et per hoc patet solutio ad tria prima argumenta.</p>
+          <p xml:id="ta-l1d15q1-d1e3604">Ad quartum dicendum, quod notio potest significari in divinis dupliciter: aut proprie,
+            sicut paternitas vel innascibilitas; aut communiter, sicut esse ab alio vel a quo est
+            alius; et hoc modo significatur notio in missione; et ideo communis est duabus personis
+            ab alio existentibus.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

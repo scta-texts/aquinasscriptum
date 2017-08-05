@@ -1,0 +1,664 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 14, Quaestio 2</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Librum IV, Distinctio 14, Quaestio 2</title>
+          <date when="2016-03-19">March 19, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-19">March 19, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness>1856 editum</witness>
+          <witness xml:id="G" n="ghent567">Ghent, Belgium, Ghent University Library, 567</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="0.0.0-dev">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+
+
+
+
+      <div xml:id="starts-on">
+        <cb ed="#G" n="218b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ta-l4d14q2">
+        <head xml:id="ta-l4d14q2-Hd1e97">Librum IV, Distinctio 14, Quaestio 2</head>
+
+        <div xml:id="ta-l4d14q2-Dd1e100">
+          <head xml:id="ta-l4d14q2-Hd1e102">Prooemium</head>
+          <p xml:id="ta-l4d14q2-d1e105">Deinde quaeritur de effectu poenitentiae; et circa hoc quaeruntur quinque: 1 utrum
+            poenitentia peccata tollat; 2 utrum virtutes restituat; 3 utrum opera praecedentia
+            vivificet; 4 utrum praedicti effectus sint poenitentiae inquantum est virtus, vel
+            inquantum est sacramentum; 5 utrum sine poenitentia possit pervenire aliquis peccator ad
+            salutem.</p>
+
+        </div>
+        <div xml:id="ta-l4d14q2-Dd1e109" type="articulus">
+          <head xml:id="ta-l4d14q2-Hd1e111">Articulus 1</head>
+
+          <head xml:id="ta-l4d14q2-Hd1e114" type="questionTitle">Utrum per poenitentiam semper peccata tollantur</head>
+
+          <div xml:id="ta-l4d14q2-Dd1e117">
+            <head xml:id="ta-l4d14q2-Hd1e119">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d14q2-d1e122">Ad primum sic proceditur. Videtur quod per poenitentiam non semper peccata tollantur.
+              Hebr. 10, 26: <quote xml:id="ta-l4d14q2-Qd1e124" ana="#hebr10_26">voluntarie enim peccantibus nobis post acceptam notitiam
+                veritatis, jam non relinquitur hostia pro peccato</quote>. Sed in poenitentia homo
+              se offert hostiam Deo. Psalm. 50, 19: <quote xml:id="ta-l4d14q2-Qd1e127">sacrificium Deo spiritus
+                contribulatus</quote>. Ergo poenitentia peccata eorum qui prolapsi sunt post
+              notitiam veritatis, non delet.</p>
+            <p xml:id="ta-l4d14q2-d1e131">Praeterea, Hebr. 12, super illud: <quote xml:id="ta-l4d14q2-Qd1e133">non invenit poenitentiae locum</quote>,
+              inquit Glossa interlineali: <quote xml:id="ta-l4d14q2-Qd1e136">idest, veniae locum et benedictionis per
+                poenitentiam</quote>. Ergo poenitentia non semper tollit praeterita peccata.</p>
+            <p xml:id="ta-l4d14q2-d1e140">Praeterea, 2 Machab. 9, 13, dicitur de Antiocho: <quote xml:id="ta-l4d14q2-Qd1e142">orabat scelestus Deum, a quo
+                non esset misericordiam consecuturus</quote>. Ergo cum ipse poeniteret de malis
+              commissis, videtur quod non semper poenitentia peccata praecedentia deleat.</p>
+            <p xml:id="ta-l4d14q2-d1e146">Praeterea, peccatum commissum est quodammodo infinitum, inquantum est offensa Dei.
+              Sed actus nostri sunt finiti. Cum ergo finitum non possit in infinitum, videtur quod
+              poenitentia non possit delere peccatum commissum.</p>
+            <p xml:id="ta-l4d14q2-d1e150">Sed contra, Lucae 5, 32: <quote xml:id="ta-l4d14q2-Qd1e152">non veni vocare justos, sed peccatores ad
+                poenitentiam</quote>. Sed inutilis esset ista vocatio poenitentibus, nisi veniam de
+              peccato largiretur. Ergo poenitentia peccata delet.</p>
+            <p xml:id="ta-l4d14q2-d1e156">Praeterea, major est misericordia Dei quam iniquitas hominis; unde reprehenditur ille
+              qui dixit: <quote xml:id="ta-l4d14q2-Qd1e158">major est iniquitas mea quam ut veniam merear</quote>. Sed
+              poenitentia misericordiae Dei innititur. Ergo omnia peccata, quantacumque sint,
+              delet.</p>
+
+          </div>
+          <div xml:id="ta-l4d14q2-Dd1e163">
+            <head xml:id="ta-l4d14q2-Hd1e165">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d14q2-d1e168">Ulterius. Videtur quod etiam totaliter reatum tollat. Bonum enim est efficacius ad
+              agendum quam malum, quia malum non agit nisi in virtute boni, ut Dionysius dicit. Sed
+              per unum actum peccati homo et culpam et reatum incurrit. Ergo et per actum
+              contritionis et a culpa et a reatu absolvitur.</p>
+            <p xml:id="ta-l4d14q2-d1e171">Praeterea, Deus non plus exigit in poena quam erat in culpa. Sed major dolor est in
+              contritione de peccato quam fuerit in peccando delectatio: quia quantitas doloris de
+              peccato est secundum quantitatem amoris Dei, qui est major quam omnis cupiditas rei
+              temporalis, ut dicit Glossa super illud Psalm. 118: <quote xml:id="ta-l4d14q2-Qd1e173">dilexi mandata tua super
+                aurum et topazion</quote>. Ergo non exigit pro peccato aliam poenam quam illam quae
+              est in contritione; et sic poenitentia a toto reatu absolvit.</p>
+            <p xml:id="ta-l4d14q2-d1e177">Praeterea, magis valet ad removendum peccatum poena propria adjuncta alienae, quam
+              aliena poena tantum. Sed in Baptismo non est aliqua poena propria, sed tantum virtute
+              poenae Christi omnia peccata delet et quantum ad culpam et quantum ad reatum. Ergo et
+              poenitentia, in qua cum poena Christi adjungitur poena propria, totus reatus auferri
+              debet.</p>
+            <p xml:id="ta-l4d14q2-d1e180">Sed contra, poena non injungitur nisi ei qui est debitor poenae. Sed poenitenti
+              injungitur poena aliqua satisfactoria. Ergo adhuc est debitor poenae; et sic non est a
+              toto reatu per poenitentiam liberatus.</p>
+            <p xml:id="ta-l4d14q2-d1e184">Praeterea, per poenitentiam non aufertur illud quod est expedimentum ad profectum.
+              Sed poena remanens satisfactoria est ad profectum virtutum. Ergo per poenitentiam non
+              tollitur.</p>
+
+          </div>
+          <div xml:id="ta-l4d14q2-Dd1e188">
+            <head xml:id="ta-l4d14q2-Hd1e190">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d14q2-d1e193">Ulterius. Videtur quod per poenitentiam etiam reliquiae peccati actualis tollantur,
+              sicut pronitas ad malum, habitudo, et hujusmodi. Quia in generatione naturali non
+              solum tollitur forma contraria, sed etiam dispositiones ad formam illam. Sed gratia
+              quae per poenitentiam datur, est potentior quam forma naturalis. Ergo non solum tollit
+              culpam, sed etiam hujusmodi reliquias, quae sunt dispositio ad culpam.</p>
+            <p xml:id="ta-l4d14q2-d1e196">Praeterea, sicut gratia est in essentia animae, ita virtus in potentia. Sed
+              poenitentia restituit gratiam et virtutes, ut dicitur. Ergo sicut per gratiam aufert
+              culpam ab anima ipsa, ita et per virtutes aufert reliquias a potentiis.</p>
+            <p xml:id="ta-l4d14q2-d1e199">Sed contra, Baptismus est efficacior ad removendum peccatum quam poenitentia. Sed
+              Baptismus non removet peccati reliquias. Ergo nec poenitentia.</p>
+          </div>
+          <div xml:id="ta-l4d14q2-Dd1e204">
+            <head xml:id="ta-l4d14q2-Hd1e206">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d14q2-d1e209">Respondeo dicendum ad primam quaestionem, quod poenitentia potest considerari
+              inquantum est sacramentum, et inquantum est virtus; et utroque modo ad remissionem
+              peccatorum aliquo modo operatur. Secundum enim quod est novae legis sacramentum,
+              gratia in ea datur ad defectum illum sanandum contra quem inducta est, scilicet ad
+              dimissionem culpae actualis. Operatur etiam ad dimissionem peccati, inquantum est
+              virtus, speciali modo prae aliis virtutibus. Quia secundum omnem virtutem formatam ex
+              parte habitus peccata dimittuntur ratione gratiae, quae cum ea infunditur; sed hoc est
+              formaliter remittere: sed poenitentia ex ratione sui actus habet quod per eam peccata
+              dimittantur, secundum quod peccata commissa sunt materia actus ejus. Cum enim peccatum
+              ex hoc remitti dicatur vel retineri, quod habet rationem offensae; illud quod offensam
+              aufert, peccatum tollit. Cum autem offensa, inquantum hujusmodi, sit inaequalitas
+              quaedam, qua unus alii subtraxit quod debitum erat, actu illius virtutis peccatum
+              remittitur quae inaequalitatem praedictam ad aequalitatem reducit. Hoc autem facit
+              poenitentia, ut ex dictis patet, quae in recompensatione divinae offensae spiritum Deo
+              contribulatum offert; et ideo poenitentiae etiam ex parte actus sui competit peccatum
+              tollere; et hoc est efficienter, et non solum formaliter, per poenitentiam peccata
+              dimitti.</p>
+            <p xml:id="ta-l4d14q2-d1e212">Ad primum ergo dicendum, quod apostolus loquitur ibi de hostia quae universaliter pro
+              peccatis totius mundi oblata est, scilicet Christo, quae est unica et singularis; nec
+              iterum pro peccatis delendis offertur, sed unica sua oblatione valet ad hoc quod per
+              poenitentiam, et alia sacramenta omnia peccata possint dimitti.</p>
+            <p xml:id="ta-l4d14q2-d1e215">Ad secundum dicendum, quod ideo Esau, de quo apostolus loquitur, locum veniae non
+              invenit, quia non vere poenituit, etsi lacrymas exterius emiserit: quod patet ex hoc
+              quod dixit: <quote xml:id="ta-l4d14q2-Qd1e217">venient dies luctus patris mei, et occidam Jacob fratrem
+                meum</quote>.</p>
+            <p xml:id="ta-l4d14q2-d1e221">Et similiter dicendum, ad tertium de Antiocho, qui vere non poenituit interius,
+              quamvis exterius verba poenitentiae proferret magis propter infirmitatem corporis quam
+              propter offensam Dei vitandam.</p>
+            <p xml:id="ta-l4d14q2-d1e225">Ad quartum dicendum, quod offensa infinita est ex parte aversionis, sed non ex parte
+              conversionis; et similiter etiam actus poenitentiae habet infinitatem ex parte
+              gratiae, quae est Dei similitudo, et in virtute divinae misericordiae operans, quae
+              infinita est, quamvis ex parte actus nostri sit finita. Habet etiam efficaciam ex
+              virtute passionis Christi, quae infiniti valoris quodammodo est, inquantum fuit passio
+              Dei et hominis.</p>
+
+          </div>
+          <div xml:id="ta-l4d14q2-Dd1e229">
+            <head xml:id="ta-l4d14q2-Hd1e231">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d14q2-d1e234">Ad secundam quaestionem dicendum, quod secundum philosophum in 5 Ethic., tam justitia
+              quam amicitia in aequalitate quadam consistit. Qui ergo aliquem offendit, contra
+              aequalitatem amicitiae peccat, inquantum affectum debitum non impendit; et contra
+              aequalitatem justitiae, inquantum rem debitam subtrahit. Et sicut haec duo in offensa
+              quandoque dividuntur, ita etiam in recompensatione separantur; sicut quando poena per
+              violentiam offendenti infertur, fit recompensatio quantum ad justitiam, sed non
+              quantum ad amicitiam. Similiter quando offendens offensum verbis placat, nondum re
+              subtracta restituta, fit recompensatio amicitiae, sed non justitiae. Peccator ergo per
+              effectum peccati amicitiam Dei violavit, et per inobedientiam divinae legis honorem
+              debitum Deo subtraxit; et ex primo amittit gratiam et incurrit offensam; ex secundo
+              meretur poenam, ut ab eo qui per inobedientiam subtraxit, subtrahatur per poenam; et
+              hoc poenae meritum reatus dicitur; et ideo per poenitentiam, qua homo se Deo supponit,
+              peccata praeterita detestando cum emendationis proposito, remittitur quidem peccatum
+              quantum ad offensam, sed non oportet quod remittatur quantum ad totum reatum nisi
+              poena jam soluta; et sic per poenitentiam non simul cum culpae dimissione totus etiam
+              reatus dimittitur.</p>
+            <p xml:id="ta-l4d14q2-d1e237">Ad primum ergo dicendum, quod sicut quod est perfectum, est efficacius ad agendum
+              quam imperfectum; ita quod est perfectum, est difficilius ad fiendum; unde sicut bonum
+              est efficacius ad agendum quam malum, ita difficilius est ad constituendum quam malum.
+              In hoc ergo efficacior apparet actio boni quam actio mali, quod actio mali nunquam
+              terminatur ad malum quod non habet admixtum bonum; sed actio boni terminatur ad bonum
+              quandoque cui non admiscetur malum. Non tamen oportet quod, si aliquod malum per unum
+              actum malum incurritur, per unum actum bonum opposita bona reparentur.</p>
+            <p xml:id="ta-l4d14q2-d1e240">Ad secundum dicendum, quod secundum philosophum in 5 Ethic., in recompensatione
+              injuriae justitia commutativa non semper aequalem quantitatem absolute in poena infert
+              ei qui in culpa fuit; non enim si aliquis percussit principem, oportet ipsum solum
+              repercuti, sed etiam gravius puniri. Infert tamen aequalem poenam habita prius
+              comparatione ad personam in quam culpa commissa fuit. Et ideo, cum per poenitentiam
+              homo de seipso justitiam Deo faciat, non sufficit tantus dolor in poenitentia quanta
+              fuit delectatio in culpa; quia illa delectatio in injuriam Dei fuit, inquantum Deo
+              praetermisso homo delectationi se subdidit ad peccandum.</p>
+            <p xml:id="ta-l4d14q2-d1e243">Ad tertium dicendum, quod Baptismus est spiritualis regeneratio; et quia non potest
+              esse generatio unius nisi per corruptionem alterius, ideo oportet quod in Baptismo
+              quidquid ad praecedentem vitam pertinebat, totum aboleatur, scilicet et culpa et
+              reatus, nisi sit defectus ex parte recipientis. Sed poenitentia non est regeneratio,
+              sed magis reparatio vitae prius habitae; et ideo non est similis ratio.</p>
+
+          </div>
+          <div xml:id="ta-l4d14q2-Dd1e247">
+            <head xml:id="ta-l4d14q2-Hd1e249">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d14q2-d1e252">Ad tertiam quaestionem dicendum, quod sicut poenitentia non tollit totaliter reatum
+              per quemlibet actum primum, sed tunc tollit quando ad perfectum perducitur secundum
+              omnes poenitentiae partes; ita etiam non oportet quod per primum poenitentiae actum
+              omnes defectus ex peccato actuali consecuti, qui dicuntur reliquiae, reparentur; sed
+              poenitentia jam perfecta quantum ad omnes sui partes, reliquiae etiam tolluntur
+              peccati actualis.</p>
+            <p xml:id="ta-l4d14q2-d1e255">Ad primum ergo dicendum, quod poenitentia non comparatur generationi, sed magis
+              sanationi; quia per poenitentiam homini non datur nova vita, sed in pristinam vitam
+              reparatur. In sanatione autem hoc videmus accidere, quod sanitate restituta adhuc
+              reliquiae aliquae morbi manent ante perfectae sanitatis restitutionem; ita etiam ante
+              completam poenitentiam reliquiae actualis peccati manent.</p>
+            <p xml:id="ta-l4d14q2-d1e258">Ad secundum dicendum, quod peccatum per actum potentiarum commissum est; et ideo in
+              ipsis potentiis praeter privationem virtutum alii etiam defectus ex peccato causantur,
+              sed non in essentia animae, praeter defectum gratiae; et ideo non oportet quod si per
+              adventum gratiae ad essentiam animae, macula, quae nihil aliud erat quam gratiae
+              privatio, tollitur, etiam a potentiis omnes alii defectus tollantur.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d14q2-Dd1e263" type="articulus">
+          <head xml:id="ta-l4d14q2-Hd1e265">Articulus 2</head>
+
+          <head xml:id="ta-l4d14q2-Hd1e268" type="questionTitle">Utrum per poenitentiam virtutes restituantur</head>
+
+          <p xml:id="ta-l4d14q2-d1e271">Ad secundum sic proceditur. Videtur quod per poenitentiam virtutes non restituantur.
+            Virtutes enim de quibus loquimur, non causantur ex actibus nostris; quia secundum
+            Augustinum, Deus eas in nobis sine nobis operatur. Sed poenitentia in actu nostro
+            consistit. Ergo per poenitentiam virtutes non restituuntur.</p>
+          <p xml:id="ta-l4d14q2-d1e274">Praeterea, nihil restituit virtutem nisi quod est causa virtutis, sicut restituentia
+            sanitatem sunt causa sanitatis. Sed poenitentia non est causa omnium aliarum virtutum;
+            alias esset nobilior aliis virtutibus, quia causa praeeminet effectui. Ergo poenitentia
+            non restituit virtutes.</p>
+          <p xml:id="ta-l4d14q2-d1e277">Praeterea, quod non est, non potest aliquid restituere; et quod habetur, non potest
+            restitui, sicut neque quod est, fieri. Sed poenitentia non prius quam omnes virtutes
+            habetur, quia omnes virtutes simul infunduntur. Ergo non potest poenitentia virtutes
+            restituere.</p>
+          <p xml:id="ta-l4d14q2-d1e281">Praeterea, habitus virtutis non manet cum habitu vitii; quia contraria non sunt simul
+            in eodem. Sed post contritionem adhuc manet habitus vitii, quod patet ex inclinatione ad
+            pristinos actus. Ergo poenitentia non statim omnes virtutes restituit.</p>
+          <p xml:id="ta-l4d14q2-d1e284">Praeterea, nullus habet virtutem nisi qui sine difficultate et cum delectatione
+            operatur ea quae sunt virtutis. Sed post primam contritionem etiamsi sit vera, adhuc
+            remanet difficultas ad opera virtutis agenda. Ergo virtutes per primum actum
+            poenitentiae non restituuntur.</p>
+          <p xml:id="ta-l4d14q2-d1e287">Sed contra est quod Ambrosius dicit, quod poenitentia res optima est, quae omnes
+            defectus revocat ad perfectum. Sed hoc non esset, nisi virtutes amissas restitueret.
+            Ergo per poenitentiam virtutes restituuntur.</p>
+          <p xml:id="ta-l4d14q2-d1e290">Praeterea, effectus poenitentiae est justificatio, ut infra dicetur. Sed justitia
+            generalis, ex qua aliquis justificari dicitur, omnes virtutes includit, ut dicit Glossa
+            super illud Psalm. 118: <quote xml:id="ta-l4d14q2-Qd1e292">feci judicium et justitiam</quote>. Ergo omnes virtutes
+            per poenitentiam restaurantur.</p>
+          <p xml:id="ta-l4d14q2-d1e296">Praeterea, non remittitur peccatum sine gratia. Sed per poenitentiam peccatum
+            dimittitur. Ergo gratia restituitur. Sed simul cum gratia omnes virtutes infunduntur.
+            Ergo poenitentia omnes virtutes restituit.</p>
+          <p xml:id="ta-l4d14q2-d1e299">Respondeo dicendum, quod gratia et virtutes in anima causantur ex influentia divini
+            luminis; quae quidem influentia impeditur per peccatum, quod animam a Deo avertit, sicut
+            nubes interposita inter nos et solem, radium ejus a nobis prohibet. Unde dicitur Isaiae
+            59, 2: <quote xml:id="ta-l4d14q2-Qd1e301">peccata nostra diviserunt inter nos et Deum nostrum</quote>. Et quia per
+            poenitentiam peccata dimittuntur, ut dictum est, in primo poenitentiae actu quantum ad
+            offensam; ideo sicut ventus auferens nubem, nobis lumen solis restituit, ita poenitentia
+            tamquam removens prohibens, gratiam gratum facientem et omnes virtutes nobis
+            restituit.</p>
+          <p xml:id="ta-l4d14q2-d1e306">Ad primum ergo dicendum, quod solus Deus est per se causa gratiae et virtutum infusarum
+            in nobis; sed nihil prohibet etiam actus nostros esse causas per accidens, sicut
+            removens prohibens, sicut sunt causae etiam gratiae baptismalis, inquantum prohibent
+            fictionem; et hoc modo per poenitentiam virtutes restituuntur.</p>
+          <p xml:id="ta-l4d14q2-d1e309">Ad secundum dicendum, quod causa per accidens non oportet quod sit nobilior effectu,
+            sed solum causa per se. Poenitentiam autem causam per accidens posuimus virtutum, per
+            hoc quod est removens prohibens, scilicet peccata.</p>
+          <p xml:id="ta-l4d14q2-d1e312">Ad tertium dicendum, quod sicut in eodem instanti in quo obstaculum luminis primo
+            remotum est, lumen consequitur, et tamen remotio obstaculi est causa illuminationis; ita
+            in eodem instanti in quo est actus poenitentiae, peccatum aufertur, et virtus
+            restituitur; et tamen nihil prohibet per poenitentiam virtutes restitui.</p>
+          <p xml:id="ta-l4d14q2-d1e315">Ad quartum dicendum, quod, sicut in 3 Lib., dist. 33, qu. 1, art. 2, quaestiunc. 4,
+            dictum est, virtus infusa et acquisita non sunt ejusdem speciei: unde cum habitus ex
+            frequentia operum peccati generatus virtuti acquisitae contrarius sit, non contrariatur
+            directe virtuti infusae, quae habet oppositionem ad peccatum ex parte illa qua est
+            offensa Dei; unde non oportet quod statim virtutibus infusis restitutis, habitus
+            vitiorum totaliter tollantur, quamvis impediantur, et etiam diminuantur.</p>
+          <p xml:id="ta-l4d14q2-d1e318">Ad quintum dicendum, quod facilitas operandi opera virtutum potest esse ex duobus;
+            scilicet ex consuetudine praecedente; et hanc facilitatem non tribuit virtus infusa
+            statim in sui principio: et iterum ex forti inhaesione ad objectum virtutis; et hanc est
+            invenire in virtute infusa statim in sui principio.</p>
+
+        </div>
+        <div xml:id="ta-l4d14q2-Dd1e322" type="articulus">
+          <head xml:id="ta-l4d14q2-Hd1e324">Articulus 3</head>
+
+          <head xml:id="ta-l4d14q2-Hd1e327" type="questionTitle">Utrum per poenitentiam etiam bona opera in statu peccati
+            mortalis facta ad vitam reputentur</head>
+
+          <div xml:id="ta-l4d14q2-Dd1e330">
+            <head xml:id="ta-l4d14q2-Hd1e332">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d14q2-d1e335">Ad tertium sic proceditur. Videtur quod per poenitentiam etiam bona opera prius in
+              statu peccati mortalis facta ad vitam reputentur. Dicit enim Adamantius, supra Josue:
+                <quote xml:id="ta-l4d14q2-Qd1e337">sunt in Ecclesia credentes quidam, et acquiescentes divinis praeceptis, erga
+                servos Dei religiosi et officiosi, et ad ornatum Ecclesiae vel ministerium satis
+                prompti; sed in conversatione propria obscoenis vitiis involuti, nec omnino
+                deponentes veterem hominem cum actibus suis, nihil adhibent emendationis morum et
+                innovationis. In istis ergo Christus salutem concedit; sed quamdam insaniae notam
+                non evadent</quote>. Sed magis videtur quod eis qui per poenitentiam emendationem
+              adhibent, illa opera bona valeant ad salutem. Ergo poenitentia opera sine caritate
+              facta vivificat ad salutem.</p>
+            <p xml:id="ta-l4d14q2-d1e341">Praeterea, plus appropinquat caritati et gratiae bonum ex genere et bonum virtutis
+              moralis, quam bonum naturale. Sed gratia sequens per poenitentiam restituta, naturalia
+              perficit, et secundum quosdam ipsa naturalia gratuita fiunt. Ergo multo fortius bona
+              ex genere, vel ex circumstantia, aut etiam actus virtutis acquisitae, sine caritate
+              facta, per poenitentiam vivificantur, ut prosint ad vitam.</p>
+            <p xml:id="ta-l4d14q2-d1e344">Praeterea, remota causa, removetur effectus. Sed causa quare illa opera non valeant
+              ad vitam erat caritatis defectus et gratiae. Ergo cum poenitentia caritatem et gratiam
+              et omnes virtutes restituat, etiam opera bona sine caritate facta vivificabit.</p>
+            <p xml:id="ta-l4d14q2-d1e347">Sed contra, ante vivum non generatur aliquid vivum, vel habens potentiam ad vitam.
+              Sed homo sine caritate non vivit spirituali vita. Ergo non potest aliquod opus facere
+              spiritualiter vivum; sed est mortuum, non habens potentiam ad vitam; et ita non est
+              vivificabile.</p>
+            <p xml:id="ta-l4d14q2-d1e351">Praeterea, omnia vivificabilia sunt aliquo modo meritoria, quia ad minus in potentia.
+              Si ergo opera extra caritatem facta possent aliquo modo vivificari, aliquis sine
+              caritate posset aliquo modo mereri vitam aeternam; quod falsum est.</p>
+
+          </div>
+          <div xml:id="ta-l4d14q2-Dd1e355">
+            <head xml:id="ta-l4d14q2-Hd1e357">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d14q2-d1e360">Ulterius. Videtur quod opera in caritate facta per peccatum sequens mortificari non
+              possint. Quia quod non est, non potest mortificari. Sed opera quae in caritate facta
+              fuerant, transeunt, et post peccatum sequens non sunt. Ergo non possunt
+              mortificari.</p>
+            <p xml:id="ta-l4d14q2-d1e363">Praeterea, poena non debet excedere culpam. Sed in aliquo qui multa bona facit ex
+              maxima caritate, poena culpam excederet, si per unum peccatum mortale parvum, forte ex
+              surreptione factum, omnia bona praecedentia perderet. Ergo peccatum sequens non
+              mortificat omnia bona prius in caritate facta.</p>
+            <p xml:id="ta-l4d14q2-d1e366">Praeterea, illud quod est mortuum, non potest actum vitae habere respectu alicujus.
+              Sed opera in caritate facta etiam post peccatum facientis, actum vitae habent in aliis
+              sanctis; unde dicitur Apocal. 2, unus alterius coronam accipere. Ergo peccatum sequens
+              bona praecedentia non mortificat.</p>
+            <p xml:id="ta-l4d14q2-d1e369">Sed contra est quod dicitur Ezech. 18, 24: <quote xml:id="ta-l4d14q2-Qd1e371">si averterit se justus a justitia
+                sua, omnium quae operatus est, non recordabor amplius</quote>.</p>
+            <p xml:id="ta-l4d14q2-d1e376">Praeterea, vita operum ex vita operantis dependet. Sed per peccatum mortale ille qui
+              prius opera fecerat in caritate, mortificatur. Ergo et opera ab ipso facta
+              mortificantur.</p>
+
+          </div>
+          <div xml:id="ta-l4d14q2-Dd1e380">
+            <head xml:id="ta-l4d14q2-Hd1e382">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d14q2-d1e385">Ulterius. Videtur quod opera mortificata per peccatum, per poenitentiam non
+              vivificentur. Hugo de sancto Victore dicit, quod nemo debet in spe correctionis
+              peccare; quia quod semel amittitur, ipsum amplius non recuperatur. Sed opera in
+              caritate facta, sunt per peccatum amissa, ut dictum est. Ergo non possunt amplius per
+              poenitentiam recuperari.</p>
+            <p xml:id="ta-l4d14q2-d1e388">Praeterea, nihil vivificatur nisi quod natum est habere vitam. Sed vita non est
+              operum, sed opera facientis. Ergo opera non possunt vivificari per poenitentiam.</p>
+            <p xml:id="ta-l4d14q2-d1e391">Praeterea, quod non est, non potest vivificari. Sed opera mortificata, non sunt. Ergo
+              non possunt vivificari per poenitentiam.</p>
+            <p xml:id="ta-l4d14q2-d1e394">Praeterea, illud quod moritur, non solum cadit a vita, sed etiam a potentia vitae;
+              quia principia vitae corrumpuntur, sine quibus non est potentia ad vitam. Sed opera
+              praecedentia in caritate facta, sunt per peccatum sequens mortificata. Ergo non manet
+              in eis potentia ad vitam; et sic non possunt iterum vivificari.</p>
+            <p xml:id="ta-l4d14q2-d1e398">Sed contra, Joel. 2, super illud: <quote xml:id="ta-l4d14q2-Qd1e400">reddam vobis</quote>, dicit Glossa:
+                <quote xml:id="ta-l4d14q2-Qd1e403">non patiar perire ubertatem quam cum perturbationibus animi
+              amisistis</quote>. Sed ubertas illa fuit multitudo bonorum operum. Ergo illa per
+              poenitentiam restituuntur.</p>
+            <p xml:id="ta-l4d14q2-d1e407">Praeterea, poenitentia revocat omnes defectus ad perfectum, ut dictum est, art.
+              praec. Sed hoc non esset, nisi opera mortificata restitueret ad vitam. Ergo per
+              poenitentiam vivificantur.</p>
+          </div>
+          <div xml:id="ta-l4d14q2-Dd1e412">
+            <head xml:id="ta-l4d14q2-Hd1e414">Quaestiuncula 1</head>
+            <p xml:id="ta-l4d14q2-d1e417">Respondeo dicendum ad primam quaestionem, quod poenitentia de ratione sui ordinatur
+              ad remotionem mali. Unde quod aliqua bona per poenitentiam restituuntur, hoc non est
+              nisi per accidens, inquantum removet prohibens, ut dictum est. Causa autem quae est
+              removens prohibens, exigit causam per se aliquam respectu effectus, cujus ipsa est
+              causa per accidens. Vivificationis autem operum extra caritatem factorum non potest
+              poni aliqua causa per se; quia vita operum ex vita operantis dependet; et ideo a
+              gratia vel caritate habent opera quod vivant. Gratia autem vel caritas quam
+              poenitentia restituit, non potest operibus praecedentibus vitam conferre; quia habitus
+              non format actum nisi qui ab eo procedit; et ita patet quod per poenitentiam opera
+              extra caritatem facta vivificari non possunt.</p>
+            <p xml:id="ta-l4d14q2-d1e420">Ad primum ergo dicendum, quod sicut Isidorus verba Adamantii ibidem exponere videtur,
+              per salutem intelligitur signum salutis, quod etiam peccatores in sacramentis
+              suscipiunt. Vel dicendum, quod concedit eis salutem in spe, sed non in re.</p>
+            <p xml:id="ta-l4d14q2-d1e423">Ad secundum dicendum, quod potentiae naturales sunt magis propinquae caritati et
+              gratiae quantum ad rem, quam actus virtutum acquisitarum, inquantum sunt subjectum
+              gratiae et caritatis; sed quantum ad similitudinem speciei manifestum est quod est e
+              contrario. Et praeterea, potentiae naturales manent, non autem actus virtutum
+              acquisitarum. Unde illi qui dicebant naturalia fieri gratuita, non intelligebant
+              quantum ad actus qui transeunt, sed quo ad potentias et habitus, qui manent.</p>
+            <p xml:id="ta-l4d14q2-d1e426">Ad tertium dicendum, quod causa quare opera illa sunt mortua, est, quia non sunt a
+              caritate elicita; et ideo causa mortis ab eis non tollitur per poenitentiam, ut dictum
+              est.</p>
+
+          </div>
+          <div xml:id="ta-l4d14q2-Dd1e430">
+            <head xml:id="ta-l4d14q2-Hd1e432">Quaestiuncula 2</head>
+            <p xml:id="ta-l4d14q2-d1e435">Ad secundam quaestionem dicendum, quod illud proprie vivere apparet quod ex se
+              aliquem motum habet; et inde vitae nomen proprie ad illa omnia trahitur quae ex se
+              habent operationem aliquam sine aliquo principio extra, sicut quae intelligunt et
+              sentiunt, vel moventur vel appetunt vel nutriuntur. Et inde est quod nomen vitae
+              transumitur ad omnia illa quae habent debitam operationem vel effectum; et illa quae
+              privantur hac, dicuntur mortua; sicut dicimus aquam vivam quae est in impetu surgendi.
+              Proprius autem effectus humanorum operum est quod per ea homo ad ultimum finem humanae
+              vitae perveniat, scilicet beatitudinem; et ideo illa opera hominis proprie viva
+              dicuntur quae hominem ad vitam aeternam perducere possunt; illa autem mortua, quae hoc
+              faciendi potestatem amiserunt, cum prius eam habuerint. Et ideo opera bona ex caritate
+              facta, in eo qui gratiam habet, viva sunt; in eo autem qui gratia caret, opera non ex
+              caritate facta mortua sunt. Opera autem prius ex caritate facta, in eo qui gratiam
+              dimittit, per peccatum mortificata sunt; quia peccatum sequens impedit quod homo per
+              illa opera non possit ad vitam introduci.</p>
+            <p xml:id="ta-l4d14q2-d1e438">Ad primum ergo dicendum, quod sicut opera peccati transeunt actu, sed manent reatu;
+              ita opera bona in caritate facta, quamvis actu transeant, tamen manent in merendo; et
+              secundum hoc possunt mortificari.</p>
+            <p xml:id="ta-l4d14q2-d1e441">Ad secundum dicendum, quod per ingratitudinem meretur homo accepta beneficia
+              amittere; et ideo per quantumcumque parvum peccatum mortale, quo homo Deo ingratus de
+              beneficiis perceptis fit, omnia bona praecedentia perdit, quantumcumque fuerint ad
+              fructum vitae aeternae; nec propter hoc poena culpam excedit.</p>
+            <p xml:id="ta-l4d14q2-d1e444">Ad tertium dicendum, quod illud quod est in se mortuum, non potest respectu alterius
+              actum vitae habere. Sed accipiendo vivum metaphorice, ut dictum est, nihil prohibet
+              quod in se vivum est, respectu unius esse vivum, et respectu alterius esse mortuum;
+              quia respectu unius habet effectum suum, sed respectu alterius non habet, propter
+              indispositionem ipsius; sicut oculis aegris odiosa est lux, quae pueris est
+              amabilis.</p>
+
+          </div>
+          <div xml:id="ta-l4d14q2-Dd1e448">
+            <head xml:id="ta-l4d14q2-Hd1e450">Quaestiuncula 3</head>
+            <p xml:id="ta-l4d14q2-d1e453">Ad tertiam quaestionem dicendum, quod opera in caritate facta, ut dictum est, etsi
+              transeant actu, manent tamen quantum ad meritum in Dei acceptatione; et secundum quod
+              sic manent, habent efficaciam, quantum in ipsis est, inducendi facientem ad vitam
+              aeternam; et sic dicuntur viva manere. Sed quod hunc effectum in peccatore non
+              habeant, est per accidens, propter peccatum quod facit peccatorem indispositum ad
+              percipiendum effectum praecedentium meritorum, non autem quod ab ipsis operibus
+              aliquid dematur, cum in suo fieri efficaciam praedictam obtinuerint hoc ipso quod ex
+              caritate sunt elicita, quod eis sequens peccatum auferre non potest; et ideo remota
+              indispositione a peccatore per poenitentiam, opera illa praecedentia effectum suum in
+              ipso iterum habere incipiunt; et secundum hoc vivificari dicuntur. Quidam autem dicunt
+              quod non vivificantur per poenitentiam sequentem, quia non manent, ut vivificari
+              possint. Sed eadem ratione posset dici quod nec eis qui in justitia perseverant, ad
+              vitam praecedentia opera valeant; quia quod non est, non potest aliquid valere.</p>
+            <p xml:id="ta-l4d14q2-d1e456">Ad primum ergo dicendum, quod verbum Hugonis est intelligendum quantum ad bona
+              amissa, quae nunquam recuperantur, quia tempus amissum non recuperatur; et ideo ejus
+              jactura est gravissima, ut Seneca dicit; non autem loquitur de bonis mortificatis.</p>
+            <p xml:id="ta-l4d14q2-d1e459">Ad secundum dicendum, quod opus dicitur vivum metaphorice, inquantum habet effectum
+              debitum, ut dictum est.</p>
+            <p xml:id="ta-l4d14q2-d1e462">Ad tertium dicendum, quod quamvis non maneant actu, manent tamen merito in divina
+              acceptatione; sicut peccata transeunt actu, et manent reatu.</p>
+            <p xml:id="ta-l4d14q2-d1e466">Ad quartum dicendum, quod, sicut dictum est, opera prius viva non moriuntur in se,
+              sed moriuntur per accidens quo ad justum: et ideo remoto illo accidente vivificari
+              dicuntur.</p>
+          </div>
+        </div>
+        <div xml:id="ta-l4d14q2-Dd1e472" type="articulus">
+          <head xml:id="ta-l4d14q2-Hd1e474">Articulus 4</head>
+
+          <head xml:id="ta-l4d14q2-Hd1e477" type="questionTitle">Utrum praedicti effectus sint poenitentiae inquantum est
+            virtus</head>
+
+          <p xml:id="ta-l4d14q2-d1e480">Ad quartum sic proceditur. Videtur quod praedicti effectus non sint poenitentiae
+            inquantum est virtus. Diversorum enim diversi sunt effectus. Sed virtus et gratia
+            differunt, ut in 2 Lib., dist. 26, quaest. 1, art. 2, dictum est. Ergo cum remittere
+            peccatum, et alia praedicta, quae poenitentiae attribuuntur, sit effectus gratiae, non
+            erunt effectus poenitentiae inquantum est virtus.</p>
+          <p xml:id="ta-l4d14q2-d1e483">Praeterea, quod convenit poenitentiae inquantum est virtus, convenit cuilibet virtuti.
+            Sed remittere peccatum non convenit cuilibet virtuti: quia ad minus virtutibus
+            acquisitis non convenit. Ergo nec poenitentiae convenit inquantum est virtus.</p>
+          <p xml:id="ta-l4d14q2-d1e486">Praeterea, poenitentia, secundum quod est virtus, contra fidem dividitur. Sed remissio
+            peccatorum est per virtutem fidei: Act. 15, 9: <quote xml:id="ta-l4d14q2-Qd1e488">fide purificans corda
+              eorum</quote>. Ergo non est per poenitentiam inquantum est virtus.</p>
+          <p xml:id="ta-l4d14q2-d1e493">Praeterea, poenitentia alia et alia ratione est virtus, et sacramentum. Sed remittere
+            peccatum convenit ei inquantum est sacramentum; quia sic est medicina contra morbum
+            peccati ordinata. Ergo non competit ei secundum quod est virtus.</p>
+          <p xml:id="ta-l4d14q2-d1e496">Praeterea, poenitentia, inquantum delet peccatum, dicitur vel est secunda tabula
+            respectu Baptismi. Sed Baptismus liberat a peccato inquantum est sacramentum. Ergo et
+            poenitentia inquantum est sacramentum, non inquantum est virtus.</p>
+          <p xml:id="ta-l4d14q2-d1e499">Sed contra, poenitentia ex actu proprio habet quod a peccato liberet, ut dictum est.
+            Sed ad actum proprium comparatur inquantum est virtus. Ergo inquantum est virtus,
+            peccatum remittit.</p>
+          <p xml:id="ta-l4d14q2-d1e502">Praeterea, oppositum tollitur per suum oppositum. Sed inquantum est virtus, opponitur
+            peccato. Ergo inquantum est virtus, tollit peccatum.</p>
+          <p xml:id="ta-l4d14q2-d1e505">Praeterea, omne peccatum ex voluntate committitur; quia nisi sit voluntarium, non est
+            peccatum, ut Augustinus dicit. Sed ex eisdem causis aliquid generatur et corrumpitur, ut
+            in 2 Ethic. dicitur. Ergo oportet quod per voluntatem remittatur. Sed poenitentia habet
+            rationem voluntatis inquantum est virtus. Ergo per eam, inquantum est virtus, peccata
+            remittuntur.</p>
+          <p xml:id="ta-l4d14q2-d1e508">Respondeo dicendum, quod in peccato duo possunt considerari; scilicet ipsa inordinatio
+            quae in actu est, et macula quae ex actu inordinato consequitur in anima; et secundum
+            hoc peccatum dupliciter remittitur. Quia enim ex ipsa actus inordinatione homo, quantum
+            in se erat, injuriam Deo faciebat; ideo ex parte illa peccatum remittitur, secundum quod
+            inaequalitas praedicta injuriae ad aequalitatem justitiae reducitur; quod facit
+            poenitentia, inquantum est virtus quaedam, per suum actum, ut prius dictum est. Sed ex
+            parte maculae peccatum remittitur per gratiam, quae formaliter maculam tollit, sicut
+            albedo nigredinem; et per consequens per alias virtutes gratia formatas. Et quia
+            poenitentia est talis virtus, ideo etiam ipsa formaliter peccatum remittit ex parte
+            habitus; et hoc est quod quidam dicunt, quod remittit peccatum inquantum est gratia. Non
+            enim potest dici gratia nisi inquantum est gratia informata, vel propter similitudinem
+            effectus, ut prius dictum est. Sed ut est sacramentum, etiam ex parte ista effective
+            peccatum tollit; quia gratiam tribuit, sicut inducens albedinem aufert nigredinem; et
+            secundum hoc poenitentia, inquantum est sacramentum novae legis, est causa
+            instrumentalis gratiae, ut in 1 dist., qu. 1, art. 4, quaestiunc. 1, dictum est. Deus
+            autem remittit sicut causa gratiae efficiens, et Christus homo sicut causa meritoria
+            gratiae, et sacerdos sicut minister Dei et sacramentorum dispensator. Et quia omnes alii
+            effectus consequuntur ex poenitentia inquantum peccata remittit, ut dictum est, ideo
+            similis est ratio de omnibus illis effectibus poenitentiae.</p>
+          <p xml:id="ta-l4d14q2-d1e512">Ad primum ergo dicendum, quod non eodem modo est effectus gratiae et virtutis, ut
+            dictum est.</p>
+          <p xml:id="ta-l4d14q2-d1e515">Ad secundum dicendum, quod non quaelibet virtus est gratia informata, nec quaelibet
+            virtus habet actum ordinatum ad praedictam aequalitatem inter Deum et hominem
+            restituendam, ut dictum est; et ideo non oportet quod quaelibet virtus peccata remittat.
+            Hoc enim poenitentiae convenit non inquantum est virtus simpliciter, sed inquantum est
+            virtus quaedam.</p>
+          <p xml:id="ta-l4d14q2-d1e518">Ad tertium dicendum, quod fides dicitur purificare cor, eo quod primus motus ad
+            justificationem est fidei, et est etiam poenitentiae principium; unde quod est
+            poenitentiae, etiam fidei attribui potest.</p>
+          <p xml:id="ta-l4d14q2-d1e521">Ad quartum dicendum, quod sicut alia ratione poenitentia est virtus et sacramentum; ita
+            et praedictus effectus alio modo competit sibi inquantum est sacramentum, et inquantum
+            est virtus, ut dictum est.</p>
+          <p xml:id="ta-l4d14q2-d1e524">Ad quintum dicendum, quod Baptismus remittit peccatum tantum uno modo, quia est tantum
+            sacramentum; sed poenitentia pluribus, quia est virtus et sacramentum.</p>
+
+        </div>
+        <div xml:id="ta-l4d14q2-Dd1e528" type="articulus">
+          <head xml:id="ta-l4d14q2-Hd1e530">Articulus 5</head>
+
+          <head xml:id="ta-l4d14q2-Hd1e533" type="questionTitle">Utrum sine poenitentia peccatorum remissionem quis consequi
+            possit et cetera</head>
+
+          <p xml:id="ta-l4d14q2-d1e536">Ad quintum sic proceditur. Videtur quod sine poenitentia peccatorum remissionem quis
+            consequi possit, et praedictos effectus omnes; et ita non erit necessaria ad salutem.
+            Super illud Psalm. 125: <quote xml:id="ta-l4d14q2-Qd1e538">qui seminant in lacrymis</quote>, dicit Glossa
+            interlinealis: <quote xml:id="ta-l4d14q2-Qd1e541">noli esse tristis, si adsit tibi bona voluntas, unde metitur
+              pax</quote>. Sed aliquis potest habere bonam voluntatem sine dolore poenitentiae, vel
+            sine actuali consideratione peccatorum suorum praeteritorum. Ergo poenitentia non est
+            peccatori necessaria ad salutem.</p>
+          <p xml:id="ta-l4d14q2-d1e545">Praeterea, Luc. 7, super illud: <quote xml:id="ta-l4d14q2-Qd1e547">dimissa sunt ei peccata multa</quote>, dicit
+            Glossa Gregorii: <quote xml:id="ta-l4d14q2-Qd1e550">ardor caritatis rubiginem peccatorum in ea consumpsit</quote>.
+            Sed aliquis potest converti in Deum ardenter per caritatem sine hoc quod convertatur ad
+            peccata praeterita per poenitentiam. Ergo sine poenitentia potest salutem consequi post
+            peccatum.</p>
+          <p xml:id="ta-l4d14q2-d1e554">Praeterea, sicut se habet aversio a Deo ad damnationem, ita conversio ad Deum ad
+            salutem. Sed aversio a Deo sine omni delectatione potest esse causa damnationis. Ergo
+            conversio ad Deum sine omni dolore poenitentiae potest esse causa salutis; et sic idem
+            quod prius.</p>
+          <p xml:id="ta-l4d14q2-d1e558">Praeterea, motus fidei, qui praecedit poenitentiam, posset intantum intendi quod
+            sufficienter disponeret ad gratiam habendam. Sed gratia sufficit etiam ad salutem sine
+            operibus. Ergo sine opere poenitentiae peccator posset salutem consequi.</p>
+          <p xml:id="ta-l4d14q2-d1e561">Praeterea, in ultimo instanti vitae posset infundi gratia. Sed post ultimum instans non
+            remaneret aliquod instans vitae praesentis, in quo tantum poenitentia potest esse
+            fructifera. Ergo sine omni actu poenitentiae potest homo salutem per gratiam
+            consequi.</p>
+          <p xml:id="ta-l4d14q2-d1e564">Sed contra est quod Augustinus dicit: <quote xml:id="ta-l4d14q2-Qd1e566">nemo suae voluntatis arbiter constitutus
+              potest inchoare novam vitam, nisi poeniteat eum veteris vitae</quote>. Sed nullus
+            potest consequi salutem nisi in novitate vitae inveniatur. Ergo sine poenitentia nullus
+            salutem consequi potest.</p>
+          <p xml:id="ta-l4d14q2-d1e570">Praeterea, sicut Baptismus ordinatur contra originale peccatum, ita poenitentia contra
+            actuale. Sed nemo potest ab originali mundari nisi per Baptismum vel susceptum actu, vel
+            proposito saltem. Ergo nec ab actuali sine poenitentia.</p>
+          <p xml:id="ta-l4d14q2-d1e573">Praeterea ab omnibus dicitur quod poenitentia est sacramentum necessitatis. Sed hoc non
+            esset, si sine ea posset esse salus. Ergo et cetera.</p>
+          <p xml:id="ta-l4d14q2-d1e576">Respondeo dicendum, quod manente causa, manet effectus. Causa autem quare aliquis
+            privatur gratia per peccatum, est inaequalitas peccatoris, qua Deum offendit; unde
+            quamdiu ista inaequalitas ad aequalitatem non reducitur, non potest privatio gratiae
+            cessare. Hoc autem facit poenitentia per suum actum, ut dictum est supra; unde sine actu
+            poenitentiae peccatori salus esse non potest.</p>
+          <p xml:id="ta-l4d14q2-d1e580">Ad primum ergo dicendum, quod bona voluntas, quae ad pacem merendam sufficiat, sine
+            poenitentia esse non potest, quia non est ad aequalitatem reducta; et ideo ratio ex
+            falsis procedit.</p>
+          <p xml:id="ta-l4d14q2-d1e583">Ad secundum dicendum, quod sicut inter homines non restituitur amicitia post offensam
+            nisi per aliquem de offensa dolorem; ita nec caritas post peccatum, nisi per
+            poenitentiam.</p>
+          <p xml:id="ta-l4d14q2-d1e586">Ad tertium dicendum, quod in aversione a Deo semper est conversio ad bonum commutabile;
+            et illa quamvis non habeat delectationem sensibilem, semper tamen habet quamdam
+            placentiam voluntatis; et similiter oportet quod conversioni ad Deum adjungatur
+            displicentia; et hic dolor poenitentia dicitur.</p>
+          <p xml:id="ta-l4d14q2-d1e589">Ad quartum dicendum, quod motus fidei nunquam potest tantum intendi quod gratiae
+            continuetur, nisi poenitentia mediante.</p>
+          <p xml:id="ta-l4d14q2-d1e592">Ad quintum dicendum, quod forte non est accipere ultimum instans vitae, sed est
+            accipere primum instans mortis; alias inter primum instans vitae et primum instans
+            mortis, cum sit aliud et aliud instans, esset medium tempus. Sed supposito quod sit
+            ultimum instans vitae, tunc in illo eodem instanti et gratia infundetur, et motum
+            poenitentiae homo habebit; et talis poenitentia sufficit ad salutem, ut dicit Augustinus
+            in Lib. de ecclesiasticis dogmatibus, cap. 80.</p>
+        </div>
+        <div xml:id="ta-l4d14q2-Dd1e596">
+          <head xml:id="ta-l4d14q2-Hd1e598">Expositio textus</head>
+          <p xml:id="ta-l4d14q2-d1e601"><quote xml:id="ta-l4d14q2-Qd1e602">Post haec de poenitentia agendum est</quote>. Videtur quod de poenitentia ante
+            confirmationem et Eucharistiam debuerit tractari; quia prius est recedere a malo, quod
+            pertinet ad poenitentiam, quam perfici in bono, quod pertinet ad illa duo sacramenta. Et
+            dicendum, quod confirmatio et Eucharistia sunt de prima intentione sanctificationis; sed
+            poenitentia est de secunda intentione; quia si homo nunquam a gratia baptismali caderet,
+            non indigeret poenitentia; indigeret tamen confirmatione, et Eucharistia. <quote xml:id="ta-l4d14q2-Qd1e605">Est
+              enim poenitentia interior, et est exterior</quote>. Secundum hoc etiam videtur quod
+            Baptismus sit virtus; quia etiam est Baptismus interior, scilicet Baptismus flaminis. Et
+            dicendum, quod interior Baptismus non dicitur Baptismus nisi metaphorice; sed interior
+            poenitentia dicitur poenitentia vere. Et praeterea interior actus non est de necessitate
+            Baptismi, alias pueri non possent baptizari; sed interior actus est de necessitate
+            poenitentiae. <quote xml:id="ta-l4d14q2-Qd1e608">Nihil prosunt lamenta, si replicantur peccata</quote>. Hoc
+            intelligendum est de illis qui voluntate habituali replicant. Vel intelligendum, quod
+            nihil prosint ad vitam consequendam: quia <quote xml:id="ta-l4d14q2-Qd1e611" ana="#mt24_13">qui perseveraverit usque in finem, hic
+              salvus erit</quote>; Matth. 24, 13. Baptismus tamen ratione characteris quem imprimit,
+            aliquid valet, etiam si homo fictus accedat. <quote xml:id="ta-l4d14q2-Qd1e614">Poenae graviori se subjicit</quote>.
+            Hoc intelligendum est de illis qui exterius per poenitentiam hypocrisim praetendunt;
+            quia simulata aequitas est duplex iniquitas, ut Augustinus dicit. Vel hoc dicitur, quia
+            tollitur excusatio de ignorantia vel surreptione in eo quod peccatum advertit, de eo
+            poenitens. <quote xml:id="ta-l4d14q2-Qd1e617">Vera poenitentia est cessare a peccato</quote>. Sciendum, quod cessare
+            a peccato non dicit simplicem negationem peccati; quia qui intermittit actum peccati,
+            non dicitur a peccato cessare; sed cessare a peccato proprie dicitur, cui peccatum
+            displicet, et peccatum dimittere intendit; et haec est vera poenitentia. <quote xml:id="ta-l4d14q2-Qd1e621">Cum
+              emendationis proposito</quote>. Sed contra, unius habitus unus est actus; hic autem
+            ponuntur quatuor actus poenitentiae, scilicet propositum emendationis, plangere peccata
+            praeterita, et odire, et iterum nolle ulterius committere. Et dicendum, quod ista
+            quatuor se consequuntur in poenitentia, et ideo quasi pro uno actu computantur; quia
+            sicut amor delectationem parit in consideratione amati, ita odium peccati tristitiam de
+            ipso parit, et tristitia ad destructionem ipsius movet; et ideo inter quatuor praedicta
+            primum est odire peccata; secundum ea plangere, tertium ea destruere, quantum ad
+            praeterita cum proposito emendationis, et quantum ad futurum per hoc quod homo plangenda
+            committere nolit, quod est quartum. <quote xml:id="ta-l4d14q2-Qd1e624">Semper puniens in se</quote>, habitu vel
+            proposito, sed non semper actu; quia quandoque etiam motibus aliarum virtutum debet
+            commoveri. <quote xml:id="ta-l4d14q2-Qd1e627">De poenitentia perfectorum, vel ad salutem sufficienti, intelligendum
+              est quod supra dixit</quote>. Perfectos hic vocat qui in poenitentia sunt perfecti,
+            eam usque ad finem vitae continuantes. <quote xml:id="ta-l4d14q2-Qd1e630">Si nos aliqua culpa mortalis invenerit
+              quae non in crimine mortali vel in morum vitio consistat, haec culpa semper reparari
+              potest</quote>. Sciendum, quod culpa mortalis est quae gratiam tollit, per quam est
+            vita animae; et sic omnis culpa mortalis est contra gratiam; sed quaedam est contra
+            rationem, ut perjurium; quaedam etiam contra naturam, ut sodomia; quaedam autem est
+            crimen, quae est digna accusatione in judicio; quaedam autem est blasphemia, quae est
+            impositio alicujus falsi in Deum, vel ei subtrahendo quod inest, vel attribuendo quod
+            non inest. <quote xml:id="ta-l4d14q2-Qd1e633">Quod tamen in quibusdam Ecclesiis non servatur</quote>. Hoc
+            intelligitur de poenitentia publica; sed solemnis, ut quidam dicunt, nunquam iteratur.
+              <quote xml:id="ta-l4d14q2-Qd1e636">Nec minus tribuit quam ante tribuerat, largissima munera vitae et
+              salutis</quote>, videlicet quantum in ipso est, dummodo aequaliter se homo ad gratiam
+            habendam praeparet. Non tamen oportet quod semper in aequali caritate resurgat, ut in 3
+            Lib., dist. 31, qu. 1, art. 4, quaestiunc. 3, dictum est. <quote xml:id="ta-l4d14q2-Qd1e640">Etiam si ad summum
+              perveniat malorum</quote>. Hoc intelligendum est quantum ad actum, non quantum ad
+            potentiam; quia aliquis est ita malus quod nullus alius est pejor, non autem ita quod
+            nullus alius possit esse pejor. <quote xml:id="ta-l4d14q2-Qd1e643">Et tamen graviter postea deliquit</quote>. Sed
+            contra: Moyses etiam numeravit, nec tamen dicitur peccasse. Et dicendum, quod Moyses
+            numeravit ex praecepto domini, sed David ut in populo gloriaretur. Ideo autem eo
+            peccante populus percussus est propter ostendendam habitudinem populi ad principem,
+            sicut Augustinus dicit in quaestionibus utriusque testamenti, de Acham. Ostenditur enim
+            in ipsa poena Acham quantum sit bonum in populo ipsa unitas, ut non in seipsis singula,
+            sed in toto partes aestimentur. Vel sicut Gregorius dicit, super illud Job 34:
+              <quote xml:id="ta-l4d14q2-Qd1e646">qui regnare facit hypocritam</quote> etc., pro qualitatibus subditorum
+            disponuntur acta regentium, ut saepe propter demerita gregis, etiam vere boni delinquat
+            vita pastoris; et David populum numerando peccavit, et tamen vindictam populus de
+            peccato suscepit. Vel dicendum, quod quia de populi elatione peccavit, ideo in populi
+            occisione punitus fuit, sicut aliquis dominus in amissione possessionis. Nec tamen
+            populus injuste passus est, quia hoc meruerat, Absalon sequendo.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

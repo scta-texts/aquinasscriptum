@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum III, Distinctio 27, Quaestio 3</title>
+        <author>Thomas Aquinas</author>
+        <editor/>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.09-dev-master">
+          <title>Librum III, Distinctio 27, Quaestio 3</title>
+          <date when="2016-03-13">March 13, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-13">March 13, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness>1856 editum</witness>
+          <witness xml:id="H" n="harv245" xml:base="http://iiif.lib.harvard.edu/manifests/drs:51994085/canvas/">Cambridge, Mass.,
+            Harvard University, Houghton Library, MS Lat 245</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" who="#JW" status="draft" n="2015.09">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+
+
+
+
+
+
+
+      <div xml:id="starts-on">
+        <cb ed="#H" n="105vb"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ta-l3d27q3">
+        <head xml:id="ta-l3d27q3-Hd1e97">Librum III, Distinctio 27, Quaestio 3</head>
+        <head xml:id="ta-l3d27q3-Hd1e100" type="questionTitle">De actu caritatis</head>
+        <div xml:id="ta-l3d27q3-Dd1e103">
+          <head xml:id="ta-l3d27q3-Hd1e105">Prooemium</head>
+          <p xml:id="ta-l3d27q3-d1e108">Deinde quaeritur de actu caritatis, secundum quem diligitur Deus; quia de dilectione
+            proximi infra erit locus quaerendi. Quaeruntur autem quatuor: 1 utrum Deus immediate per
+            suam essentiam possit amari; 2 utrum possit totaliter amari; 3 utrum dilectio qua Deum
+            diligimus, habeat modum; 4 utrum ille modus qui in praecepto de caritate implicatur,
+            scilicet: <quote xml:id="ta-l3d27q3-Qd1e110">ex toto corde</quote> etc. possit in via servari.</p>
+        </div>
+        <div xml:id="ta-l3d27q3-Dd1e115" type="articulus">
+          <head xml:id="ta-l3d27q3-Hd1e117">Articulus 1</head>
+
+          <head xml:id="ta-l3d27q3-Hd1e120" type="questionTitle">Utrum Deus per essentiam suam in statu viae possit a nobis
+            amari</head>
+
+          <p xml:id="ta-l3d27q3-d1e123">Ad primum sic proceditur. Videtur quod Deus non possit a nobis in statu viae immediate
+            amari. Intellectus enim velocior est quam affectus: unde dicit Augustinus, quod
+            praecedit intellectus; sequitur tardus aut nullus affectus. Sed intellectus noster in
+            statu viae non potest Deum immediate videre. Ergo nec affectus amare.</p>
+          <p xml:id="ta-l3d27q3-d1e126">Praeterea, amor non potest esse incogniti et non visi; unde philosophus in 9 Ethic.,
+            dicit, quod nullus amare incipit specie non praedelectatus. Sed in statu viae non
+            videmus essentiam divinam. Ergo nec ipsum immediate per essentiam amare possumus.</p>
+          <p xml:id="ta-l3d27q3-d1e129">Praeterea, cognitio patriae excedit cognitionem viae, inquantum homo in patria videt
+            Deum per essentiam immediate. Si ergo in via homo Deum immediate amaret, caritas patriae
+            non excederet caritatem viae.</p>
+          <p xml:id="ta-l3d27q3-d1e133">Praeterea, ex hoc contingit quod Deum in statu viae immediate videre non possumus, quia
+            ex visibilibus in invisibilium cognitionem devenimus. Sed similiter devenimus ex amore
+            visibilium in amorem invisibilium; unde Gregorius dicit in quadam Homil.: <quote xml:id="ta-l3d27q3-Qd1e135">regnum
+              caelorum rebus terrenis simile dicitur, ut per hoc quod animus novit diligere, discat
+              et incognita amare</quote>; et in praefatione dicitur: <quote xml:id="ta-l3d27q3-Qd1e138">ut dum visibiliter Deum
+              cognoscimus, per hunc in invisibilium amorem rapiamur</quote>. Ergo similiter in statu
+            viae non diligimus Deum immediate.</p>
+          <p xml:id="ta-l3d27q3-d1e142">Praeterea, voluntas, quae est prima radix peccati, magis debuit corrumpi per peccatum
+            quam aliqua alia potentiarum animae. Sed intellectus non potest actum suum, qui est
+            videre, exercere circa Deum immediate. Ergo neque voluntas actum delectationis.</p>
+          <p xml:id="ta-l3d27q3-d1e145">Sed contra, Augustinus in Lib. Confess.: <quote xml:id="ta-l3d27q3-Qd1e147">vae illis qui diligunt nutus tuos pro
+              te</quote>. Nutus autem divini dicuntur participatio bonitatis divinae in creaturis.
+            Ergo Deus amatur a sanctis in statu viae immediate, non solum secundum quod ejus bonitas
+            in creaturis participatur.</p>
+          <p xml:id="ta-l3d27q3-d1e151">Praeterea cognitio viae, propter hoc quod Deum mediantibus creaturis cognoscit,
+            evacuatur, et est aenigmatica. Sed caritas nunquam excidit, 1 Corinth. 13. Ergo non
+            diligit Deum mediante creatura.</p>
+          <p xml:id="ta-l3d27q3-d1e154">Praeterea, illud quod est medium cognoscendi, est ratio cognitionis; et similiter debet
+            esse de dilectione. Sed ratio diligendi Deum non sunt creaturae, immo potius e converso,
+            maxime loquendo de dilectione caritatis. Ergo Deus immediate per essentiam amatur.</p>
+          <p xml:id="ta-l3d27q3-d1e157">Respondeo dicendum, quod in potentiis ordinatis ita est quod ubi terminatur operatio
+            prioris potentiae, ibi incipit operatio sequentis; sicut patet quod sensus terminatur ad
+            imaginationem, quae est motus factus a sensu secundum actum; et intellectus in termino
+            imaginationis incipit, quia phantasmata accipit pro objecto, ut dicitur in 2 Lib. de
+            anima; et ideo illarum rerum quae non habent phantasmata, cognitionem non potest
+            accipere, nisi ex rebus quarum sibi repraesentantur phantasmata. Unde in statu viae, in
+            qua accipit a phantasmatibus, non potest Deum immediate videre; sed oportet ut ex
+            visibilibus, quorum phantasmata capit, in ejus cognitionem deveniat. Quamvis autem ipsam
+            essentiam non videat immediate, tamen cognitio intellectus ad ipsum Deum terminatur,
+            quia ipsum esse ex effectibus apprehendit; unde cum ad intellectum affectus sequatur,
+            ubi terminatur operatio intellectus, ibi incipit operatio affectus, sive voluntatis.
+            Dictum est autem, quod operatio intellectus, scilicet ejus cognitio, ad ipsum Deum
+            terminatur, quem esse ex effectibus apprehendit; unde operatio voluntatis circa ipsum
+            Deum potest esse immediate nullo medio interveniente quod ad voluntatem pertineat;
+            multis tamen mediis praecedentibus ex parte intellectus, quibus in Deum cognoscendum
+            pervenit.</p>
+          <p xml:id="ta-l3d27q3-d1e161">Ad primum ergo dicendum, quod intellectus est velocior quantum ad hoc quod praevenit
+            affectum: sed affectus in amando magis pertingit ad intima, ut supra dictum est.</p>
+          <p xml:id="ta-l3d27q3-d1e164">Ad secundum dicendum, quod amor oportet quod sit cogniti et visi aliqualiter, sed non
+            cogniti et visi in se; unde illud quod cognoscitur in alio, potest in seipso amari.</p>
+          <p xml:id="ta-l3d27q3-d1e167">Ad tertium dicendum, quod quanto bonum plenius cognoscitur, tanto magis est amabile; et
+            praecipue illud bonum quod est finis, et in quo non invenitur aliquod quo offendatur
+            affectus; et ideo, quia Deus plenius cognoscetur in patria, quam nunc, etiam plenius
+            amabitur. Sed ista diversitas ex parte cognitionis erit per id quod est proprium
+            cognitioni, scilicet cognoscere per se, non alio; et ideo non erit unius rationis
+            cognitio. In affectu autem erit per diversitatem, non ejus quod per se ad ipsam
+            pertineat, sed per diversitatem cognitionis; et tamen erit eadem ratio amoris, sed
+            differt amor per magis et minus.</p>
+          <p xml:id="ta-l3d27q3-d1e170">Ad quartum dicendum, quod hoc quod amor ex visibilibus ad invisibilia tendat, non est
+            ex parte sui, sed ex parte cognitionis praecedentis; unde in utraque auctoritate inducta
+            fit mentio de cognitione.</p>
+          <p xml:id="ta-l3d27q3-d1e173">Ad quintum dicendum, quod per peccatum non est ablata potentiarum animae natura, nec
+            illud quod eas secundum naturam suam consequitur.</p>
+        </div>
+        <div xml:id="ta-l3d27q3-Dd1e177" type="articulus">
+          <head xml:id="ta-l3d27q3-Hd1e179">Articulus 2</head>
+
+          <head xml:id="ta-l3d27q3-Hd1e182" type="questionTitle">Utrum Deus possit totaliter diligi</head>
+
+          <p xml:id="ta-l3d27q3-d1e185">Ad secundum sic proceditur. Videtur quod Deus non possit totaliter diligi. Dilectio
+            enim cognitionem praesupponit. Sed Deus non totaliter cognoscitur etiam in patria a
+            sanctis. Ergo nec ab aliqua creatura potest totaliter diligi.</p>
+          <p xml:id="ta-l3d27q3-d1e188">Praeterea, sicut divina lux est infinita, ita et divina bonitas. Sed lux divina ratione
+            suae infinitatis comprehendi non potest intellectu, ut totaliter videatur. Ergo nec
+            divina bonitas potest comprehendi affectu, ut totaliter diligatur.</p>
+          <p xml:id="ta-l3d27q3-d1e191">Praeterea, Deus seipsum non diligit plusquam totaliter. Si ergo aliqua creatura
+            totaliter Deum diligere posset, dilectio alicujus creaturae adaequaretur dilectioni
+            divinae; quod falsum est.</p>
+          <p xml:id="ta-l3d27q3-d1e195">Sed contra, Deut. 6, 5: <quote xml:id="ta-l3d27q3-Qd1e197">diliges dominum Deum tuum ex toto corde tuo</quote>; ubi
+            Glossa: <quote xml:id="ta-l3d27q3-Qd1e200">hoc servabitur ad minus in patria</quote>. Ergo Deus potest ab homine
+            totaliter diligi.</p>
+          <p xml:id="ta-l3d27q3-d1e204">Respondeo dicendum, quod ad dilectionem tria concurrunt, scilicet diligens, dilectio,
+            et dilectum; et cuilibet horum respondet suus modus. Habet enim res dilecta modum quo
+            est diligibilis; et diligens modum quo est dilectivus, idest natus diligere. Sed
+            dilectionis modus attenditur in comparatione diligentis ad dilectum, quia dilectio media
+            est inter utrumque: et similiter etiam est de visione. Si ergo totaliter dicat modum rei
+            dilectae et visae, sic sancti qui sunt in patria, Deum totaliter diligunt, et totaliter
+            vident: quia sicut nihil est de sua essentia quod non videant et diligant (propter quod
+            dicuntur totum videre et diligere), ita etiam nihil de modo quo Deus est, remanet ab eis
+            non visum aut non dilectum; unde totaliter vident et diligunt: quia vident et diligunt
+            totum quod Deus est. Similiter etiam si totaliter dicat modum diligentis; quia secundum
+            totum modum suum, scilicet secundum totum suum posse diligent et videbunt, nihil suae
+            potentiae subtrahentes divinae visioni et dilectioni; et sic Deus intelligitur diligi ex
+            toto corde. Si autem totaliter dicat modum dilectionis, sic neque totaliter diligent,
+            neque totaliter videbunt: quia modus dilectionis et visionis, ut dictum est, attenditur
+            in comparatione diligibilis et visibilis ad diligentem et videntem. Modus autem quo Deus
+            diligibilis est et visibilis, excedit modum quo homo diligere et videre potest: quia lux
+            et bonitas ejus est infinita: et ideo non totaliter videtur et diligitur ab aliis, quia
+            non diligitur ita intense et ferventer, nec videtur ita clare, sicut est diligibilis et
+            visibilis, nisi a seipso; et ita ipse solus se comprehendit amando et videndo.</p>
+        </div>
+        <div xml:id="ta-l3d27q3-Dd1e209" type="articulus">
+          <head xml:id="ta-l3d27q3-Hd1e211">Articulus 3</head>
+
+          <head xml:id="ta-l3d27q3-Hd1e214" type="questionTitle">Utrum dilectio qua Deum diligimus, habeat modum</head>
+
+          <p xml:id="ta-l3d27q3-d1e217">Ad tertium sic proceditur. Videtur quod dilectio qua Deum diligimus, modum habeat. Omne
+            enim finitum mensuram habet. Sed motus ex mensura causatur, ut dictum est, in 1 Lib.,
+            dist. 3. Cum ergo dilectio qua Deum diligimus, finita sit, oportet quod modum
+            habeat.</p>
+          <p xml:id="ta-l3d27q3-d1e220">Praeterea, sicut dicit Bernardus, caritas in sapientiam proficit. Sed sapientia habet
+            modum: Rom. 12: <quote xml:id="ta-l3d27q3-Qd1e222">non plus sapere quam oportet</quote>. Ergo dilectio habet
+            modum.</p>
+          <p xml:id="ta-l3d27q3-d1e226">Praeterea, omnis actus virtutis moderatus est: quia quod immoderatum est, vituperabile
+            est et vitiosum. Sed dilectio qua Deum diligimus, actus est praecipuae virtutis. Ergo
+            habet modum.</p>
+          <p xml:id="ta-l3d27q3-d1e230">Praeterea, omnes actus aliarum virtutum ex caritate fiunt. Si ergo caritas in suo actu
+            non habet modum, nec aliae virtutes modum habent.</p>
+          <p xml:id="ta-l3d27q3-d1e233">Sed contra, Bernardus in Lib. de diligendo Deum: <quote xml:id="ta-l3d27q3-Qd1e235">causa diligendi Deum, Deus est:
+              modus, sine modo diligere</quote>.</p>
+          <p xml:id="ta-l3d27q3-d1e239">Praeterea, dilectio mensuranda est ad diligibile. Sed divina bonitas est immensa. Ergo
+            dilectio ipsius non habet modum.</p>
+          <p xml:id="ta-l3d27q3-d1e242">Respondeo dicendum, quod modus mensurationem quamdam importat. Actus autem ab eo
+            mensuratur quod est ratio agendi; sicut misericordia accipit mensuram in subventione
+            misero facienda ex quantitate miseriae quae misericordiam movet. Causa autem diligendi
+            Deum est divina bonitas, quae est infinita. Actus autem creaturae est finitus, cum ex
+            finita potentia procedat; et ideo non potest esse commensuratus rationi dilectionis; et
+            propter hoc in dilectione Dei non ponitur aliquis modus, ultra quem non oporteat
+            progredi; sed quantumcumque diligat, semper ad ulteriora se extendit: et propter hoc
+            dicitur, quod non habet modum, scilicet praefixum, ultra quem non oportet progredi.</p>
+          <p xml:id="ta-l3d27q3-d1e245">Ad primum ergo dicendum, quod quia dilectio qua Deum diligimus, est finita, ideo habet
+            quemdam modum ad quem pertingit; non autem habet modum in quo sistat vel sistere debeat,
+            sicut est in aliis virtutibus.</p>
+          <p xml:id="ta-l3d27q3-d1e248">Ad secundum dicendum, quod sicut supra dictum est, qu. 1, art. 1, res per cognitionem
+            quodammodo trahitur ad cognoscentem; et ideo ea quae ad cognitionem pertinent, ex
+            potentia cognoscentis sunt mensurata, quamvis veritas cognitionis ad rem mensuretur. Sed
+            per amorem amans trahitur ad ipsum amatum; et ideo amor mensurandus est ad ipsam rem
+            amatam magis quam ad amantem.</p>
+          <p xml:id="ta-l3d27q3-d1e252">Ad tertium dicendum, quod quantumcumque Deus diligatur, actus non erit immoderatus,
+            quia non excedit proportionem sui objecti.</p>
+          <p xml:id="ta-l3d27q3-d1e255">Ad quartum dicendum, quod hoc quod dicitur quod caritas non habet modum, intelligitur
+            quantum ad actum quem caritas elicit, non quantum ad actus quos imperat: quia illi modos
+            accipere debent ex ratione proprii objecti circa quod fiunt.</p>
+        </div>
+        <div xml:id="ta-l3d27q3-Dd1e259" type="articulus">
+          <head xml:id="ta-l3d27q3-Hd1e261">Articulus 4</head>
+
+          <head xml:id="ta-l3d27q3-Hd1e264" type="questionTitle">Utrum modus diligendi qui est in praecepto, possit in via
+            servari</head>
+
+          <p xml:id="ta-l3d27q3-d1e267">Ad quartum sic proceditur. Videtur quod modus ille qui in praecepto implicatur possit
+            in via servari: quia Hieronymus dicit: <quote xml:id="ta-l3d27q3-Qd1e269">qui dicit Deum homini aliquid impossibile
+              praecepisse, anathema sit</quote>. Sed hoc Deus praecepit omnibus existentibus in
+            statu viae. Ergo haereticum est dicere, quod non possit in via observari.</p>
+          <p xml:id="ta-l3d27q3-d1e273">Praeterea, caritas est magis necessaria virtus quam aliae. Sed praecepta data de
+            actibus aliarum virtutum, in via possunt impleri. Ergo et praeceptum datum de actu
+            caritatis.</p>
+          <p xml:id="ta-l3d27q3-d1e276">Praeterea, omne praeceptum legis ligat, quia lex a ligando dicitur. Sed nullus potest
+            dimittere illud ad quod obligatus est, quin peccet. Si ergo lex aliquid praecipiat quod
+            observari non possit, non solum occasionaliter, ut dicit apostolus, sed etiam directe
+            occideret; et sic erit mala; quod est inconveniens.</p>
+          <p xml:id="ta-l3d27q3-d1e280">Sed contra, non possumus in hac vita sine peccato manere, sicut patet 1 Joan., 1. Sed
+            cum quis peccat, non diligit Deum ex toto corde. Ergo illud praeceptum non potest
+            totaliter impleri in via.</p>
+          <p xml:id="ta-l3d27q3-d1e283">Praeterea, non potest homo simul cor ad multa habere. Sed oportet, dum in hac vita
+            sumus, quod cor rebus temporalibus aliquando apponamus. Ergo non potest homo in hac vita
+            Deum ex toto corde diligere.</p>
+          <p xml:id="ta-l3d27q3-d1e286">Respondeo dicendum, quod totum et perfectum idem est, ut dicit philosophus. Ratio autem
+            perfecti in hoc consistit ut nihil ei desit. Sed hoc contingit dupliciter: aut ita quod
+            nihil desit eorum quae natum est habere; aut ita quod nihil desit eorum quae debet
+            habere; sicut aliquis habet perfectam quantitatem, quando habet tantam quantitatem
+            quantam requirit humana natura, etsi non habeat quantitatem gigantis quam possibile est
+            esse in humana natura. Prima ergo perfectio humanae naturae est in statu gloriae, quando
+            homo habebit totum hoc quod possibile est esse in humana natura; sed secunda perfectio
+            est naturae conditae, quando scilicet homo habuit totum hoc quod debebat habere secundum
+            tempus illud. Et secundum hoc etiam duplex totalitas in dilectione Dei attenditur. Una,
+            qua nihil deerit de his quae homo potest expendere in amorem Dei, quin in dilectione
+            ponat: et haec quidem perfectio, seu totalitas, non praecipitur, ut facienda, sed magis
+            ostenditur, ut sciatur quo perveniendum est, ut dicit Augustinus; et per hanc
+            perfectionem seu totalitatem excluditur omne quod etiam ad tempus actum dilectionis
+            interrumpere posset. Alia secundum quam nihil homo subtrahit de his quae debet ponere
+            secundum tempus illud in amore Dei; et haec perfectio seu totalitas ponitur in praecepto
+            etiam ut nunc implenda, ut scilicet nihil omittat eorum quae ponere debet in amore Dei;
+            et haec totalitas excludit omne illud quod est contrarium et repugnans dilectioni
+            divinae, non autem illud quod ad tempus actum dilectionis intercipit: quia semper agere
+            secundum actum virtutis, non est nisi eorum qui sunt in statu beatitudinis: quia
+            perfectio felicis est in operatione; perfectio autem virtutis est in habitu.</p>
+          <p xml:id="ta-l3d27q3-d1e289">Ad primum ergo dicendum, quod illud quod praecipit lex ut faciendum, impleri potest, et
+            impletur ab omnibus in statu salutis.</p>
+          <p xml:id="ta-l3d27q3-d1e292">Ad secundum dicendum, quod actus aliarum virtutum non sunt finis praecepti, quemadmodum
+            actus caritatis; et ideo actus caritatis habet aliquem modum, qui competit uno modo
+            fini, et alio modo viae; non autem ita est in aliis virtutibus.</p>
+          <p xml:id="ta-l3d27q3-d1e295">Ad tertium dicendum, quod secundum hoc quod ponitur ut legis praeceptum, secundum hoc
+            ligat ad id quod implendum est in via; quantum vero ad id quod de ipso impletur in
+            patria, magis ponitur ut documentum fidei, quam ut praeceptum legis.</p>
+          <p xml:id="ta-l3d27q3-d1e299">Ad alia etiam patet solutio per ea quae dicta sunt.</p>
+        </div>
+        <div xml:id="ta-l3d27q3-Dd1e303">
+
+          <head xml:id="ta-l3d27q3-Hd1e305">Expositio textus</head>
+          <p xml:id="ta-l3d27q3-d1e308"><quote xml:id="ta-l3d27q3-Qd1e309">Non ergo jam se diligit</quote>. Contra. Omne peccatum, secundum Augustinum, est
+            ex amore sui. Ergo videtur etiam quod immoderate se diligat. Dicendum, quod diligit in
+            se naturam exteriorem, quam se aestimat esse; non autem naturam intellectivam, secundum
+            quam vere est id quod est; et ita diligit id quod se esse existimat, non autem id quod
+            vere est: quia unaquaeque res proprie est id quod est potissimum in ipsa; sicut civitas
+            est rex, ut dicit philosophus. <quote xml:id="ta-l3d27q3-Qd1e312">Sic condita est mens humana ut nunquam sui non
+              meminerit, nunquam se non intelligat, nunquam se non diligat</quote>. De his quae in
+            hac notula dicuntur, dictum est in 1 Lib., dist. 3. <quote xml:id="ta-l3d27q3-Qd1e315">Ex toto corde, idest ex toto
+              intellectu; ex tota anima, idest voluntate; ex tota mente, idest memoria</quote>.
+            Sciendum quod ad caritatem exigitur aliquid tripliciter: uno modo sicut subjectum
+            caritatis quod est ipsa voluntas; alio modo sicut praecedens ad caritatem, sicut memoria
+            et intelligentia; tertio sicut consequens ad caritatem, quemadmodum irascibilis et
+            concupiscibilis, et etiam membra corporalia quae imperium caritatis exequuntur. Quia
+            ergo actum caritatis oportet esse perfectum, sicut cujuslibet virtutis; ideo praeceptum
+            de actu caritatis, includit perfectionem omnium praedictorum secundum diversas
+            expositiones: ut scilicet neque in voluntate neque in omnibus praecedentibus aut
+            sequentibus aliquid sit quod caritati obsistat quantum ad perfectionem viae, vel quod
+            actum caritatis interrumpere possit quantum ad perfectionem patriae. Et ideo secundum
+            unam expositionem dicitur: <quote xml:id="ta-l3d27q3-Qd1e318">ex tota mente</quote>, idest ex tota memoria, ut absit
+            oblivio: <quote xml:id="ta-l3d27q3-Qd1e321">ex toto corde</quote>, idest intellectu, ut desit error: <quote xml:id="ta-l3d27q3-Qd1e324">ex tota
+              anima</quote>, idest voluntate, ut tollatur omnis contraria affectio. Alio modo
+            exponitur: ex toto corde, quantum ad concupiscibilem: ex tota anima, quantum ad
+            irascibilem, ut nulla passione sensitivi appetitus dilectio Dei impediatur: ex tota
+            mente, quantum ad rationalem, quae includit voluntatem et intellectum. Item Gregorius
+            Nyssenus exponit: <quote xml:id="ta-l3d27q3-Qd1e328">ex toto corde</quote>, quantum ad animam vegetabilem: <quote xml:id="ta-l3d27q3-Qd1e331">ex
+              tota anima</quote>, quantum ad sensibilem: <quote xml:id="ta-l3d27q3-Qd1e334">ex tota mente</quote>, quantum ad
+            rationalem. Sed Deuter. 6, ponitur: <quote xml:id="ta-l3d27q3-Qd1e337">ex tota fortitudine</quote>, quod referendum
+            est ad membra exteriora, quae imperium caritatis exequuntur; vel etiam ad irascibilem,
+            ut quidam dicunt: vel ponitur circumstantia dilectionis, ut scilicet sit firma.</p>
+        </div>
+
+      </div>
+    </body>
+  </text>
+</TEI>
