@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -345,8 +347,8 @@
           <div xml:id="ta-l3d35q2-Dd1e394">
             <head xml:id="ta-l3d35q2-Hd1e396">Quaestiuncula 1</head>
             <p xml:id="ta-l3d35q2-d1e399">Ad tertium sic proceditur. Videtur quod donum scientiae non sit tantum de humanis,
-              sed etiam de divinis. Dicit enim Augustinus in littera, quod scientia donum est, qua
-              fides defenditur et roboratur. Sed fides est de divinis. Ergo scientia est de
+              sed etiam de divinis. Dicit enim <ref xml:id="ta-l3d35q2-Rd1e401">Augustinus in littera</ref>, quod scientia donum est, <quote xml:id="ta-l3d35q2-Qd1e404" source="http://scta.info/resource/adt-l14-d1e1535@97-108">qua
+              fides defenditur et roboratur</quote>. Sed fides est de divinis. Ergo scientia est de
               divinis.</p>
             <p xml:id="ta-l3d35q2-d1e402">Praeterea, scientia donum est altior quam scientia virtus. Sed scientia virtus de
               divinis est, sicut metaphysica, vel etiam theologia. Ergo et scientia donum de divinis
