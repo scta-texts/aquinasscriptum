@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Aquinas">Thomas Aquinas</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2024-05-18">May 18, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="M" n="cod-mmnnbg">New York, Morgan Library, MS M.1021.40</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-05-18" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#M" n="1-r"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ta-l1d17q1">
+        <head xml:id="ta-l1d17q1-Hd1e3490">Quaestio 1</head>
+        <div xml:id="ta-l1d17q1-Dd1e3521" type="articulus">
+          <head xml:id="ta-l1d17q1-Hd1e3523">Articulus 1</head>
+          <p xml:id="ta-l1d17q1-d1e3589">
+          <pb ed="#M" n="1-r"/>
+          <cb ed="#M" n="a"/>
+          <lb ed="#M" n="1"/>reddi; sicut filius nunquam potest patri car<lb ed="#M" break="no" n="2"/>nali 
+          reddere aliquid aequivalens ei 
+          <lb ed="#M" n="3"/>quod ab ipso accepit, scilicet esse et doc<lb ed="#M" break="no" n="4"/>trinam 
+          et nutrimentum multo mi<lb ed="#M" break="no" n="5"/>nus 
+          divinis beneficiis et bonitati suae 
+          <lb ed="#M" n="6"/>possumus reddere amo<lb ed="#M" break="no" n="7"/>rem 
+          aequivalentem. Unde non sequitur quod amor quo 
+          <lb ed="#M" n="8"/>deum diligimus, sit infinitus quantum ad 
+          <lb ed="#M" n="9"/>substantiam actus; sed infinitatem habet 
+          <lb ed="#M" n="10"/>ex hoc quod objectum amoris omnibus 
+          <lb ed="#M" n="11"/>aliis praeponitur: sed sufficit quod ame<lb ed="#M" break="no" n="12"/>mus 
+          cum amore commensurato nobis.
+        </p>
+        <p xml:id="ta-l1d17q1-d1e3592">
+          <lb ed="#M" n="13"/><pc type="pilcrow"/> Ad ultimum dicendum, quod natura dicitur 
+          <lb ed="#M" n="14"/>multipliciter, secundum Boetium Dicitur enim
+          <lb ed="#M" n="15"/>natura uno modo omne quod est substantia 
+          <lb ed="#M" n="16"/>uel accidens et hoc modo gratia est
+          <lb ed="#M" n="17"/>natura quaedam Alio modo dicitur quod 
+          <lb ed="#M" n="18"/>est principium motus et quietis ipsius 
+          <lb ed="#M" n="19"/>in quo est unde illud dicitur esse naturale 
+          <lb ed="#M" n="20"/>nobis uel quod causatur a principiis 
+          <lb ed="#M" n="21"/>naturalibus vel causari potest et hoc 
+          <lb ed="#M" n="22"/>modo caritas non est natura quia per 
+          <lb ed="#M" n="23"/>principia naturalia creaturae non po<lb ed="#M" break="no" n="24"/>test 
+          causari et secundum hunc modum 
+          <lb ed="#M" n="25"/>dicit Pelagius per naturalia sola ho<lb ed="#M" break="no" n="26"/>minem 
+          posse in actus meritorios.
+        </p>
+      </div>
+      <div xml:id="ta-l1d17q1-Dd1e3596" type="articulus">
+        <head xml:id="ta-l1d17q1-Hd1e3598">Articulus 2</head>
+        <head xml:id="ta-l1d17q1-Hd1e3601" type="question-title">Utrum caritas sit accidens</head>
+        <p xml:id="ta-l1d17q1-d1e3604">
+          Ad secundum sic 
+          <lb ed="#M" n="27"/>proceditur <pc type="pilcrow"/> Videtur quod 
+          <lb ed="#M" n="28"/>caritas non sit accidens nul<lb ed="#M" break="no" n="29"/>lum 
+          enim accidens extenditur ultra 
+          <lb ed="#M" n="30"/>suum subiectum sed caritas exten<lb ed="#M" break="no" n="31"/>ditur 
+          ultra suum subiectum quia ca<lb ed="#M" break="no" n="32"/>ritate 
+          aliquos etiam amamus ergo vi<lb ed="#M" break="no" n="33"/>detur 
+          quod caritas non sit accidens
+        </p>
+        <p xml:id="ta-l1d17q1-d1e3607">
+          Item 
+          <lb ed="#M" n="34"/>omne accidens est causatum a substantia 
+          <lb ed="#M" n="35"/>quia secundum Avicennam subiectum est quod 
+          <lb ed="#M" n="36"/>est completum in se praebens alteri 
+          <cb ed="#M" n="b"/>
+          <lb ed="#M" n="37"/>essentiam sed caritas non causatur 
+          <lb ed="#M" n="38"/>a principiis animae in qua est <pc type="virgula">/</pc> ergo vide<lb ed="#M" break="no" n="39"/>tur 
+          quod non sit accidens
+        </p>
+        <p xml:id="ta-l1d17q1-d1e3610">
+          Praeterea nullum 
+          <lb ed="#M" n="40"/>accidens est melius et nobilius suo 
+          <lb ed="#M" n="41"/>subiecto sed caritas est nobilior quam
+          <lb ed="#M" n="42"/>anima <pc type="virgula">/</pc> ergo non est in anima sicut ac<lb ed="#M" break="no" n="43"/>cidens 
+          in subiecto Probatio mediae 
+          propter quod unumquodque et illud magis 
+          <lb ed="#M" n="44"/>sed anima est bona propter caritatem 
+          <lb ed="#M" n="45"/>ergo caritas est melior
+        </p>
+        <p xml:id="ta-l1d17q1-d1e3614">
+          <pc type="pilcrow"/>Item agens 
+          <lb ed="#M" n="46"/>est nobilius semper patiente secundum philosophum 
+          <lb ed="#M" n="47"/>3o de anima sed caritas agit in ani<lb ed="#M" break="no" n="48"/>mam 
+          mundando ipsam a peccatis ergo est 
+          <lb ed="#M" n="49"/>nobilior anima et sic idem quod prius
+        </p>
+        <p xml:id="ta-l1d17q1-d1e3617">
+          <lb ed="#M" n="50"/>contra quicquid potest adesse et ab<lb ed="#M" break="no" n="51"/>esse 
+          praeter subiecti corruptionem 
+          <lb ed="#M" n="52"/>est accidens sed caritas est huiusmodi 
+          ergo etc
+        </p>
+        <p xml:id="ta-l1d17q1-d1e3620">
+          <pc type="pilcrow"/> Respondeo dicendum quod omne 
+          <lb ed="#M" n="53"/>illud quod advenit alicui post esse 
+          <lb ed="#M" n="54"/>completum advenit ei accidenta<lb ed="#M" break="no" n="55"/>liter 
+          nisi forte sumatur ad participationem 
+          <lb ed="#M" n="56"/>ipsius esse substantialis sicut dictum est 
+          <lb ed="#M" n="57"/>supra de VIII de anima <pc type="punctus"/> sed hoc non 
+          <lb ed="#M" n="58"/>sufficit ut dicatur accidens in se propter
+          <lb ed="#M" n="59"/>hoc scilicet quod aduenit post esse com<lb ed="#M" break="no" n="60"/>pletum 
+          potest enim aliquid in se 
+          <lb ed="#M" n="61"/>substantia esse <pc type="punctus"/> et aduenire alicui 
+          <lb ed="#M" n="62"/>accidentaliter sicut vestimentum 
+          <lb ed="#M" n="63"/>sed si adueniat post esse completum 
+          <lb ed="#M" n="64"/>ut forma inhaerens de necessitate 
+          <lb ed="#M" n="65"/>est accidens Et quia post esse naturale 
+          <lb ed="#M" n="66"/>animae aduenit sibi caritas ut for<lb ed="#M" break="no" n="67"/>ma
+          perficiens ipsam ad esse gra<lb ed="#M" break="no" n="68"/>tiae 
+          prout dictum est ideo opor<lb ed="#M" break="no" n="69"/>tet 
+          quod sit accidens
+        </p>
+        <p xml:id="ta-l1d17q1-d1e3623">
+          <pc type="pilcrow"/> Ad primum ergo dicendum 
+          <lb ed="#M" n="70"/>quod accidens numquam extenditur ultra sub<lb ed="#M" break="no" n="71"/>iectum
+          suum id est ut sit in alio ut in 
+          <pb ed="#M" n="1-v"/>
+          <cb ed="#M" n="a"/>
+          <lb ed="#M" n="1"/>subiecto sed bene extenditur ul<lb ed="#M" break="no" n="2"/>tra 
+          subiectum suum sicut ad obiec<lb ed="#M" break="no" n="3"/>tum 
+          operationis Sed diversimode 
+          <lb ed="#M" n="4"/>in operatione activa et passiva quia 
+          <lb ed="#M" n="5"/>in activa extenditur ad obiectum 
+          <lb ed="#M" n="6"/>extrinsecum imprimens similitudinem 
+          <lb ed="#M" n="7"/>formae suae in ipso sicut patet quod 
+          <lb ed="#M" n="8"/>calor ignis active per aerem ca<lb ed="#M" break="no" n="9"/>lefacit 
+          aliud corpus et est activa 
+          <lb ed="#M" n="10"/>operatio similiter etiam quando est operatio 
+          <lb ed="#M" n="11"/>passiva extenditur in aliud ob<lb ed="#M" break="no" n="12"/>iectum
+          extrinsecum cuius similitu<lb ed="#M" break="no" n="13"/>do 
+          in ipso recipitur et ita anima 
+          <lb ed="#M" n="14"/>per habitum scientiae scit ea quae sunt 
+          <lb ed="#M" n="15"/>extra ipsam et per habitum amo<lb ed="#M" break="no" n="16"/>ris 
+          eadem amat
+        </p>
+        <p xml:id="ta-l1d17q1-d1e3626">
+          <pc type="pilcrow"/> Ad 2m dicendum 
+          <lb ed="#M" n="17"/>quod subiectum diversimode se 
+          <lb ed="#M" n="18"/>habet ad diversa accidentia quaedam 
+          <lb ed="#M" n="19"/>enim sunt accidentia naturalia quae 
+          <lb ed="#M" n="20"/>causantur ex principiis subiecti 
+          <lb ed="#M" n="21"/>et hoc dupliciter vel causantur ex prin<lb ed="#M" break="no" n="22"/>cipiis 
+          speciei et sic sunt propriae pas<lb ed="#M" break="no" n="23"/>siones 
+          quae consequuntur totam speciem 
+          <lb ed="#M" n="24"/>vel ex principiis individui et sic sunt 
+          <lb ed="#M" n="25"/>communia consequentia principia 
+          <lb ed="#M" n="26"/>naturalia individua sunt etiam 
+          <lb ed="#M" n="27"/>quaedam accidentia per violentiam 
+          <lb ed="#M" n="28"/>inducta sicut calor in aqua et 
+          <lb ed="#M" n="29"/>ista sunt repugnantia principiis 
+          <lb ed="#M" n="30"/>subiecti quaedam autem sunt quae 
+          <lb ed="#M" n="31"/>quidem causantur ab extrinseco non 
+          <lb ed="#M" n="32"/>repugnantia principiis subiecti 
+          <lb ed="#M" n="33"/>sed magis perficientia <sic>ipsam</sic> sicut 
+          <lb ed="#M" n="34"/>lumen in aere et ita <del rend="expunctuation">caliditas</del> ca<lb ed="#M" break="no" n="35"/>ritas 
+          etiam est ab extrinseco in anima 
+          <lb ed="#M" n="36"/>tamen sciendum quod in omnibus ac<lb ed="#M" break="no" n="37"/>cidentibus
+          communiter loquendo  
+          <cb ed="#M" n="b"/>
+          <lb ed="#M" n="38"/>subiectum est causa quodammodo <pc type="virgula">/</pc> in<lb ed="#M" break="no" n="39"/>quantum 
+          scilicet accidentia in esse subiec<lb ed="#M" break="no" n="40"/>ti 
+          sustentantur <pc type="punctus"/> non tamen ita quod 
+          <lb ed="#M" n="41"/>ex principiis subiecti omnia accidentia 
+          <lb ed="#M" n="42"/>educantur
+        </p>
+        <p xml:id="ta-l1d17q1-d1e3629">
+          <pc type="pilcrow"/> Ad 3m dicendum quod eadem 
+          <lb ed="#M" n="43"/>ratione posset probari quod nulla per<lb ed="#M" break="no" n="44"/>fectio 
+          animae esset accidens nec 
+          <lb ed="#M" n="45"/>aliqua perfectio corporis quia unumquodque 
+          <lb ed="#M" n="46"/>perfectibile habet bonitatem ex sua 
+          <lb ed="#M" n="47"/>perfectione. <pc type="pilcrow"/> Dicendum igitur quod sim<lb ed="#M" break="no" n="48"/>pliciter 
+          anima est melior carita<lb ed="#M" break="no" n="49"/>te 
+          et quodlibet subiectum suo acci<lb ed="#M" break="no" n="50"/>dente 
+          sed secundum quid est econverso 
+          <lb ed="#M" n="51"/>Cujus ratio est quia esse secundum dionysium 
+          <lb ed="#M" n="52"/>quinto capitulo de divinis nominibus est 
+          <lb ed="#M" n="53"/>nobilius omnibus aliis <pc type="punctus"/> quae consequuntur 
+          <lb ed="#M" n="54"/>unde esse est simpliciter nobilius 
+          <lb ed="#M" n="55"/>quam intelligere <pc type="punctus"/> si posset intelligi
+          <lb ed="#M" n="56"/>intelligere sine esse vnde illud 
+          <lb ed="#M" n="57"/>quod excedit in esse simpliciter 
+          <lb ed="#M" n="58"/>nobilius est omni eo quod exce<lb ed="#M" break="no" n="59"/>dit 
+          in aliquo de consequentibus esse 
+          <lb ed="#M" n="60"/>quamvis secundum aliud possit esse minus
+          <lb ed="#M" n="61"/>nobile ex quia anima et quaelibet 
+          <lb ed="#M" n="62"/>substantia habet nobilius esse quam accidens 
+          <lb ed="#M" n="63"/>ideo simpliciter nobilior est sed quan<lb ed="#M" break="no" n="64"/>tum 
+          ad aliquod esse secundum aliquod 
+          <lb ed="#M" n="65"/>accidens potest esse nobilius quia se 
+          <lb ed="#M" n="66"/>habet ad substantiam sicut actus ad 
+          <lb ed="#M" n="67"/>potentiam et hanc bonitatem con<lb ed="#M" break="no" n="68"/>sequentem 
+          habet substantia ab acciden<lb ed="#M" break="no" n="69"/>tibus 
+          <pc type="virgula">/</pc> sed non bonitatem primam
+          <lb ed="#M" n="70"/>essendi.
+        </p>
+        <p xml:id="ta-l1d17q1-d1e3633">
+          <pc type="pilcrow"/> Ad quartum dicendum quod cari<lb ed="#M" break="no" n="71"/>tas 
+          non dicitur agere in animam 
+          <lb ed="#M" n="72"/>per modum efficientis sed solum formaliter et secundum id quod for<lb ed="#M" break="no" n="73"/>ma 
+          est <pc type="virgula">/</pc> quantum ad esse secundum nobilior est
+        </p>
+      </div>
+      </div>
+    </body>
+  </text>
+</TEI>
