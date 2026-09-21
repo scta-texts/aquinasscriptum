@@ -1,0 +1,543 @@
+{
+  "_metadata": {
+    "schema_version": "1.0",
+    "generated_at": "2026-09-20T00:00:00Z",
+    "model": "claude-sonnet-5",
+    "prompt_version": "interpretation-v1",
+    "source_commit": "ee99cd4a166e6194a1f1311f83ba2d87ff4ad000",
+    "generation_method": "hierarchical"
+  },
+
+  "ta-l2d44q1-d1e97": {
+    "summary": "A divisio textus mapping Peter Lombard's text: having treated sin as to the act of sin, the text now treats the power to sin, before continuing on to the next book (on the Incarnation). It traces Lombard's division into the power to sin and the obedience owed to those holding power of prelacy from God, noting Lombard's own three-step treatment of the first topic (raising the question, narrating an opinion that the power to sin is not from God but from us or the devil, then determining the truth that the power of evil is indeed from God per the saints' testimony) and his transition to the obedience question and then to the following book. It closes by naming the three articles of this quaestio: whether the power to sin is good and from God; whether, given that the office of prelacy affords power to commit sins otherwise impossible, all prelacy is nonetheless from God; and whether prelacy/dominion belongs to the order of unfallen nature or is a punishment for corrupted nature.",
+    "claims": [],
+    "concepts": ["divisio textus", "potentia peccandi", "praelatio", "transition to Book III"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l2d44q1-Hd1e89"]
+    }
+  },
+
+  "ta-l2d44q1-d1e128": {
+    "summary": "First objection of Article 1. Anselm says the power to sin is neither freedom nor part of freedom. But every natural power in us for human acts belongs to free will. So the power to sin is not a natural power in us; nor is it a power of grace, since grace never orders anyone to sin. Since every power we have from God is either of nature or of grace, it seems the power to sin is not in us from God.",
+    "claims": ["Anselm's denial that the power to sin belongs to freedom, combined with the exhaustive nature/grace division of God-given powers, suggests the power to sin is not from God at all."],
+    "concepts": ["Anselm on posse peccare", "nature vs. grace as exhaustive sources of power"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l2d44q1-Hd1e125", "ta-l2d44q1-d1e156"]
+    }
+  },
+
+  "ta-l2d44q1-d1e131": {
+    "summary": "Second objection. Deut. 32:4: 'the works of God are perfect.' So the more perfect something is, the more it should be counted among God's works. But act is more perfect than potency. Since the act of sin is not from God, neither should the power to sin be from God.",
+    "claims": ["Since act exceeds potency in perfection, and God's works must be perfect, the non-divine origin of the sinful act should extend a fortiori to the underlying power."],
+    "concepts": ["act vs. potency in perfection", "divine works as perfect"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l2d44q1-Hd1e125", "ta-l2d44q1-d1e160"]
+    }
+  },
+
+  "ta-l2d44q1-d1e137": {
+    "summary": "Third objection. Power, knowledge, and will all concur in a human work. But the will to sin is not from God. So by the same reasoning, neither is the power to sin from him.",
+    "claims": ["If the will to sin (one co-principle of a sinful act) is not from God, parity of reasoning suggests the power to sin (another co-principle) should likewise not be from God."],
+    "concepts": ["co-principles of human action (power, knowledge, will)"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l2d44q1-Hd1e125", "ta-l2d44q1-d1e163"]
+    }
+  },
+
+  "ta-l2d44q1-d1e141": {
+    "summary": "Fourth objection. A per se cause produces its effect in its own likeness; hence everything produced by God, the per se cause of all, retains his likeness as far as possible — beings from the first Being, living things from the first Living thing. But a creature is not made like God in the power to sin. So the power to sin is not in us from God.",
+    "claims": ["Since divine causation always produces likeness to the cause, and the power to sin does not make the creature like God, this power cannot be from God."],
+    "concepts": ["causal likeness principle", "assimilation to the divine exemplar"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l2d44q1-Hd1e125", "ta-l2d44q1-d1e153"]
+    }
+  },
+
+  "ta-l2d44q1-d1e144": {
+    "summary": "Fifth objection. Whatever has an evil use is, per Boethius, itself evil. But the use of the power to sin is sin itself, which is evil. So the power to sin is evil. But nothing evil is from God. So the power to sin is not from God.",
+    "claims": ["Boethius's principle that a thing with an evil use is itself evil, applied to the power to sin (whose use is sin), implies this power is itself evil and hence not from God."],
+    "concepts": ["Boethius on evil use implying evil nature"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l2d44q1-Hd1e125", "ta-l2d44q1-d1e169"]
+    }
+  },
+
+  "ta-l2d44q1-d1e147": {
+    "summary": "First sed contra. The Philosopher says rational powers are directed to opposites. So the power to sin and the power to act well are the same power. But the power to act well is from God. So the power to sin is too.",
+    "claims": ["Since rational powers by nature extend to opposite acts, the power to sin is numerically the same power as the power to act well, and thus shares its divine origin."],
+    "concepts": ["rational powers as directed to opposites (Aristotle)"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l2d44q1-Hd1e125"]
+    }
+  },
+
+  "ta-l2d44q1-d1e150": {
+    "summary": "Second sed contra. Every being is from God. But the power to sin is itself a being. So the power to sin is from God.",
+    "claims": ["The universal principle that every being derives from God applies to the power to sin as a real, existing power."],
+    "concepts": ["universal divine causation of being"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l2d44q1-Hd1e125"]
+    }
+  },
+
+  "ta-l2d44q1-d1e153": {
+    "summary": "The main determination (respondeo) of Article 1. Since power is known through its act, judgment about the power to sin must be drawn from the act of sin, which contains two elements: the substance of the act, and the deformity or defect of due circumstances. Correspondingly, two things must be distinguished in the power to sin itself: the power as such — the same principle underlying both ordered and disordered acts — which is from God; and a certain defect considered in it, by reason of which it can produce a deficient act. The most perfect powers never fail regarding their proper end, as is clear in necessary things; so a power's being impeded from its natural end must stem from a defect in it, whereby it succumbs to some impeding agent. Since the human will is per se ordered to the good, its defection from the good must be caused by some defect in it — through delight, suggestion, or the like — by which it is drawn from what is natural to it toward what is unnatural. This defect consists in the will's being from nothing (ex nihilo); and of this defect God is not directly the cause, as Avicenna proves, since what belongs to a thing in virtue of itself is not caused in it by another — a created thing, left to itself, is nothing, so its being-from-nothing is not from God, though its being (esse) is from God. One might say the defect is from God indirectly, not as from an agent producing something but as from a non-agent, insofar as God simply does not grant the creature immunity from being ex nihilo — comparable to how God is called the cause of the privation of grace (a punishment) only because the creature is found incapable of the further perfection of not being ex nihilo; but strictly, this defect is from God neither directly nor indirectly. Thus the power to sin, insofar as it is a power, is from God; but insofar as it implicates a defect, it is not from God.",
+    "claims": [
+      "The power to sin has two aspects: the power itself (the same principle underlying both good and sinful acts), which is from God, and an implicated defect (rooted in the creature's being ex nihilo), which is not from God.",
+      "A power's liability to defective acts traces to a defect within it, not to the power's own positive nature, since the most perfect powers never fail regarding their proper end.",
+      "The creature's being-from-nothing is not caused by God even indirectly as a genuine effect, but only in the sense that God does not (and need not) grant immunity from it — paralleling how God is called cause of the privation of grace only by not supplying an unowed further perfection."
+    ],
+    "concepts": ["power known through act", "defect as failure from natural ordination", "ex nihilo as root of creaturely defectibility", "Avicenna", "direct vs. indirect (non-agent) causation of defect"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l2d44q1-Hd1e125", "ta-l2d44q1-d1e141", "ta-l2d44q1-d1e147", "ta-l2d44q1-d1e150"]
+    }
+  },
+
+  "ta-l2d44q1-d1e156": {
+    "summary": "Reply to the first objection. 'Being able to sin' is said not to be part of freedom because the will's freedom does not require the ability to sin; it suffices for freedom that the will be able to choose either of two contradictories — even though, in those who can sin, sin does occur through the will's free choice, since (per Augustine, Retractationes 1.9) the will is that by which one both sins and lives rightly.",
+    "claims": ["Freedom consists in the capacity for either of two contradictory choices, not specifically in the capacity to sin; sin nonetheless occurs through this same free will where it is present."],
+    "concepts": ["freedom as capacity for contradictories", "Augustine's Retractationes"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l2d44q1-d1e128", "ta-l2d44q1-d1e153"]
+    }
+  },
+
+  "ta-l2d44q1-d1e160": {
+    "summary": "Reply to the second objection. Act is always more perfect than power within the perfection proper to its own genus: a good act is more perfect in goodness than a good power, and likewise an evil act is more perfect in malice than an evil power — since an evil act has malice simply/unqualifiedly, while a power toward evil has evil only in a qualified sense. Hence an evil act is not said to be from God even in a qualified sense, while the power toward evil is said to be from God simply, and not-from-God only in a qualified sense — since 'perfection' in malice is not perfection properly and simply speaking, but only in a transferred sense, as one speaks of a 'perfect thief' or the 'perfection of blindness' (Metaphysics 5).",
+    "claims": [
+      "Evil act and evil power are asymmetrically related to God: the act is not from God even qualifiedly, while the power is from God simply and fails to be from God only qualifiedly.",
+      "This asymmetry rests on the merely metaphorical, transferred sense of 'perfection' when applied to malice — genuine perfection belongs to being, not privation."
+    ],
+    "concepts": ["degrees of predication (simply vs. secundum quid)", "transferred (transumptive) sense of perfection", "Metaphysics 5"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l2d44q1-d1e131", "ta-l2d44q1-d1e153"]
+    }
+  },
+
+  "ta-l2d44q1-d1e163": {
+    "summary": "Reply to the third objection. 'Will' can be taken in two ways: for the power of will itself, or for its act. In the first sense, the will by which one sins is from God; in the second, it is not. But 'power' never names an act — the use of a power is the act itself. So the objection trades on an equivocation between will-as-power and will-as-act.",
+    "claims": ["The objection equivocates on 'will,' conflating the will-power (from God) with the will-act of sinning (not from God); once disambiguated, no parity with the power-to-sin case follows."],
+    "concepts": ["equivocation on 'voluntas'", "power vs. act vs. use"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l2d44q1-d1e137", "ta-l2d44q1-d1e153"]
+    }
+  },
+
+  "ta-l2d44q1-d1e166": {
+    "summary": "Reply to the fourth objection. There is a perfect good and an imperfect good. If a name signifies the goodness in us that is from God, by which we are like him, without any admixture of imperfection, it applies to both God and us — like wisdom, goodness, and similar terms. But 'the power to sin' names a good together with imperfection, and so cannot apply to God, in whom there is no imperfection.",
+    "claims": ["The likeness-to-God argument fails for the power to sin specifically because this term names a good compounded with imperfection, unlike purely perfect goods (wisdom, goodness) that are predicated of both God and creatures without qualification."],
+    "concepts": ["perfect vs. imperfect good", "names predicable of both God and creatures without imperfection"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l2d44q1-d1e141", "ta-l2d44q1-d1e153"]
+    }
+  },
+
+  "ta-l2d44q1-d1e169": {
+    "summary": "Reply to the fifth objection. The 'use' of a thing is that to which it is principally ordered. But the power by which we are able to sin is ordered not to evil but to good, so sinning is not its proper use; hence it does not follow that, sin being evil, the power is evil — rather, since to fail from what is good is itself evil, the power (which grounds the possibility of such failure without being the failure itself) is shown to be good.",
+    "claims": ["Boethius's 'evil use implies evil nature' principle does not apply here because sin is not the power's proper use (which is ordered to good) but a failure from that use — and failure-from-good is what constitutes evil, not the power that makes failure possible."],
+    "concepts": ["proper use vs. failure of use", "failure from the good as the locus of evil"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l2d44q1-d1e144", "ta-l2d44q1-d1e153"]
+    }
+  },
+
+  "ta-l2d44q1-d1e181": {
+    "summary": "First objection of Article 2. Hosea 8:4: 'they reigned, but not from me' — cited as scriptural evidence that not every prelacy is from God.",
+    "claims": ["Scripture's statement that certain kings 'reigned, but not from me' (Hos. 8:4) directly denies that all prelacy is from God."],
+    "concepts": ["Hosea 8:4"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l2d44q1-Hd1e178", "ta-l2d44q1-d1e215"]
+    }
+  },
+
+  "ta-l2d44q1-d1e187": {
+    "summary": "Second objection. What is done perversely is not from God. But some prelacies are acquired perversely, as with simoniacs and similar cases. So not every prelacy is from God.",
+    "claims": ["Perverse means of acquiring prelacy (e.g. simony) show that not every prelacy can be from God, since what is perversely done cannot be from God."],
+    "concepts": ["simony", "perverse acquisition of office"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l2d44q1-Hd1e178", "ta-l2d44q1-d1e219"]
+    }
+  },
+
+  "ta-l2d44q1-d1e190": {
+    "summary": "Third objection. Prelacy granted by the supreme king cannot be called usurped. But Boethius (Consolation of Philosophy 3) says the wicked hold usurped power. So their prelacy is not from God.",
+    "claims": ["Boethius's characterization of the wicked's power as 'usurped' is incompatible with its being granted by God, since a grant from the supreme king could not properly be called usurpation."],
+    "concepts": ["Boethius's Consolation of Philosophy", "usurped power"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l2d44q1-Hd1e178", "ta-l2d44q1-d1e222"]
+    }
+  },
+
+  "ta-l2d44q1-d1e194": {
+    "summary": "Fourth objection. What God has given, man ought not to take away, as 'what God has joined, let man not separate' (Matt. 19:6). But the power of prelacy is justly taken from some. So their prelacies are not from God.",
+    "claims": ["The inviolability principle applied to divinely-given things (from Matt. 19:6 on marriage) suggests that a prelacy justly revocable by human agency cannot have been from God in the first place."],
+    "concepts": ["Matthew 19:6", "inviolability of divine gifts"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l2d44q1-Hd1e178", "ta-l2d44q1-d1e225"]
+    }
+  },
+
+  "ta-l2d44q1-d1e200": {
+    "summary": "Fifth objection. Everything from God is ordered (Rom. 13). But in some prelacies there seems to be great disorder — a fool set over a wise man, a boy over an elder, a sinner over a just man, as often happens. So not every prelacy is from God.",
+    "claims": ["Manifestly disordered cases of prelacy (the foolish ruling the wise, etc.) seem incompatible with the Romans 13 principle that whatever is from God is ordered."],
+    "concepts": ["Romans 13 on ordination from God", "apparent disorder in unworthy rulers"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l2d44q1-Hd1e178", "ta-l2d44q1-d1e228"]
+    }
+  },
+
+  "ta-l2d44q1-d1e203": {
+    "summary": "First sed contra. It seems more fitting that the prelacy of the good, rather than the wicked, be from God. But the prelacies of the wicked are from God, per Job 34:30: 'who makes a hypocrite reign on account of the sins of the people.' Therefore all prelacies are from God.",
+    "claims": ["Scripture's attribution of even wicked rulers' reign to God (Job 34:30) implies, a fortiori, that all prelacies (including the good) are from God."],
+    "concepts": ["Job 34:30", "a fortiori argument from wicked to good prelacy"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l2d44q1-Hd1e178"]
+    }
+  },
+
+  "ta-l2d44q1-d1e209": {
+    "summary": "Second sed contra. Everything ordered is from God, since by this very fact it is good. But in every prelacy some order of superior to inferior is found. Therefore every prelacy is from God.",
+    "claims": ["Since order as such is good and everything good and ordered is from God, and every prelacy exhibits a superior-inferior order, every prelacy must be from God."],
+    "concepts": ["order as good and hence divine"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l2d44q1-Hd1e178"]
+    }
+  },
+
+  "ta-l2d44q1-d1e212": {
+    "summary": "The main determination (respondeo) of Article 2. Since God is the author of all goods but not of evil, if both good and evil are found in a given prelacy, that prelacy must be from God as regards its good, but not from God as regards the evil attached to it. Three things can be distinguished in prelacy: its principle (how one comes to hold it), its mode/form, and its use. In some cases all three are good; in some the principle is evil (illegitimate attainment) but the use good; in some the reverse; in some both are evil. But the mode or form of prelacy — consisting in an order of one ruling and another subject — is always good in every case. Since judgment about a thing simply speaking must be drawn from what is formal in it, it must be said simply/unqualifiedly that every prelacy is from God; but in a qualified sense, some prelacies are not from God — namely insofar as their abuse, or the unjust action by which one arrives at them, is not from God.",
+    "claims": [
+      "Prelacy comprises three distinguishable elements — principle, mode/form, and use — each of which can independently be good or evil, while the mode/form (the order of ruler to ruled) is always good.",
+      "Because judgment 'simply speaking' tracks what is formal in a thing, and the form of prelacy is always good, every prelacy is from God simply speaking; only the evil attached to its principle or use is not from God, and only in a qualified sense."
+    ],
+    "concepts": ["principle, mode, and use of prelacy", "form as the basis of unqualified judgment", "God as author of good, not evil"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l2d44q1-Hd1e178", "ta-l2d44q1-d1e203", "ta-l2d44q1-d1e209"]
+    }
+  },
+
+  "ta-l2d44q1-d1e215": {
+    "summary": "Reply to the first objection. The kings of the Jews are said not to have reigned 'from God' insofar as, against Samuel's counsel, the people chose to have a king for themselves; nevertheless the very form of prelacy [kingship as such] was instituted by God.",
+    "claims": ["Hosea's denial concerns the people's disordered manner of demanding a king against Samuel's counsel, not the form of kingship itself, which God did institute."],
+    "concepts": ["Samuel's counsel against kingship", "form vs. manner of institution"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l2d44q1-d1e181", "ta-l2d44q1-d1e212"]
+    }
+  },
+
+  "ta-l2d44q1-d1e219": {
+    "summary": "Reply to the second objection. It is not incongruous for an effect to be from God even when its cause is, in some respect, not from God — as punishment or suffering is from God even though the unjust action of which it is the effect is not (explained earlier). Likewise it is not incongruous that prelacy, as to its form, be from God, even though the unjust action (e.g. simony) by which one arrives at it is not from God, except perhaps permissively.",
+    "claims": ["An effect (prelacy's form) can be from God even when the proximate cause of a person's attaining it (an unjust act) is not, paralleling how punishment is from God though the sin it punishes is not."],
+    "concepts": ["effect from God despite non-divine proximate cause", "divine permission"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l2d44q1-d1e187", "ta-l2d44q1-d1e212"]
+    }
+  },
+
+  "ta-l2d44q1-d1e222": {
+    "summary": "Reply to the third objection. The wicked are said to have usurped power insofar as they arrive at it unworthily, as far as depends on them, being unworthy to be set over such people — although those afflicted by them may well deserve to be so afflicted; accordingly, their prelacy is from God as a punishment of the subjects who deserve such a prelate.",
+    "claims": ["'Usurpation' describes the unworthy manner of the wicked ruler's own attainment of power, not the fact of the subjects' being under him — which, as their deserved punishment, is genuinely from God."],
+    "concepts": ["usurpation as unworthy attainment", "prelacy of the wicked as punishment of subjects"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l2d44q1-d1e190", "ta-l2d44q1-d1e212"]
+    }
+  },
+
+  "ta-l2d44q1-d1e225": {
+    "summary": "Reply to the fourth objection. One deprives oneself of a received benefit through abuse of it; so even if some have obtained prelacy from God, because they abuse it, it is fitting that the power of prelacy be taken from them — and both are from God: that they had the prelacy, and that they justly lose it, just as all have life from God, yet someone can justly be deprived of life.",
+    "claims": ["Both the granting and the just revocation of prelacy are from God, since revocation is a just consequence of abuse — paralleling how life, though from God, can be justly taken away."],
+    "concepts": ["self-forfeiture through abuse", "life-and-just-deprivation analogy"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l2d44q1-d1e194", "ta-l2d44q1-d1e212"]
+    }
+  },
+
+  "ta-l2d44q1-d1e228": {
+    "summary": "Reply to the fifth objection. It is not entirely disordered that the unworthy are raised to prelacies, for this is itself ordered as a punishment of the subjects who deserve it, as signified in Job 34:30 and Hosea 13:11 ('I will give them a king in my fury'). Since every punishment is from God, even such prelacies are from God.",
+    "claims": ["The apparent disorder of unworthy rulers is itself a higher-order form of order — divine punishment of deserving subjects — and so remains, at that level, fully from God."],
+    "concepts": ["punishment as a form of higher-order order", "Job 34:30 and Hosea 13:11"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l2d44q1-d1e200", "ta-l2d44q1-d1e212"]
+    }
+  },
+
+  "ta-l2d44q1-d1e246": {
+    "summary": "First objection of Article 3. Gregory says: 'nature made all men equal; but on account of merits, the hidden but just dispensation of God subjected some to others.' But if men had not sinned, they would have retained the state of nature. So all would have been equal, and there would have been no prelacy among them.",
+    "claims": ["Gregory's statement that subjection follows from merit (implicitly, from sin) implies that in an unfallen state of natural equality, no prelacy would have existed."],
+    "concepts": ["Gregory the Great", "natural equality and merit-based subjection"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l2d44q1-Hd1e243", "ta-l2d44q1-d1e280"]
+    }
+  },
+
+  "ta-l2d44q1-d1e252": {
+    "summary": "Second objection. Augustine (City of God 19) says man, made in the image of God, was set over irrational creatures alone. But man is made equal to irrational creatures only through sin, per Psalm 48:13 ('man, when he was in honor, did not understand; he is compared to senseless beasts and made like them'). So if there had been no sin, one man would not have been subjected to another.",
+    "claims": ["Augustine's restriction of man's original dominion to irrational creatures, combined with the Psalm's linking of man's beast-like comparison to sin, implies human-over-human subjection is itself a post-sin phenomenon."],
+    "concepts": ["Augustine's City of God", "Psalm 48:13", "dominion originally over irrational creatures only"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l2d44q1-Hd1e243", "ta-l2d44q1-d1e284"]
+    }
+  },
+
+  "ta-l2d44q1-d1e258": {
+    "summary": "Third objection. Dominion cannot exist without servitude. But Augustine and other saints commonly say servitude was introduced on account of sin. So dominion, or prelacy, would not have existed before sin either.",
+    "claims": ["Since dominion presupposes servitude, and servitude is a post-lapsarian institution per patristic consensus, dominion itself cannot have preceded sin."],
+    "concepts": ["dominion presupposing servitude", "patristic consensus on servitude's origin in sin"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l2d44q1-Hd1e243", "ta-l2d44q1-d1e287"]
+    }
+  },
+
+  "ta-l2d44q1-d1e262": {
+    "summary": "Fourth objection. The Apostle says (1 Tim. 1:9) 'the law is not laid down for the just.' But the Philosopher says at the end of the Ethics that the necessity of establishing kings and other rulers was precisely to enact laws with coercive force toward virtuous acts, a force the wise's persuasive speech lacks. So if all had preserved the original justice, there would have been no need for prelacy.",
+    "claims": ["If prelacy's necessity is tied to law's coercive function for the unjust (per 1 Tim. 1:9 and Aristotle's Ethics), then a state of universal preserved justice would have had no need for prelacy at all."],
+    "concepts": ["1 Timothy 1:9", "Aristotle's Nicomachean Ethics on coercive law", "law as remedy for the unjust"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l2d44q1-Hd1e243", "ta-l2d44q1-d1e290"]
+    }
+  },
+
+  "ta-l2d44q1-d1e268": {
+    "summary": "Fifth objection. Things that follow upon integral (unfallen) nature also remain in the heavenly homeland. But in the future all prelacy will cease, per the Gloss on 1 Corinthians 15. So prelacy would not have belonged to integral nature either.",
+    "claims": ["Since prelacy is destined to cease in the eschaton, and whatever belongs to unfallen nature persists into the heavenly state, prelacy cannot have belonged to unfallen (integral) nature in the first place."],
+    "concepts": ["Gloss on 1 Corinthians 15", "persistence of integral-nature features into the heavenly state"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l2d44q1-Hd1e243", "ta-l2d44q1-d1e293"]
+    }
+  },
+
+  "ta-l2d44q1-d1e271": {
+    "summary": "First sed contra. What pertains to dignity would have existed much more nobly in the state of integral nature. But dominion and prelacy pertain to dignity. So they would have existed even more fully in the state of integral nature.",
+    "claims": ["Since integral (unfallen) nature enjoys greater dignity than fallen nature, and dominion/prelacy are dignities, they should have belonged to unfallen nature all the more."],
+    "concepts": ["dignity as amplified, not diminished, in unfallen nature"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l2d44q1-Hd1e243"]
+    }
+  },
+
+  "ta-l2d44q1-d1e274": {
+    "summary": "Second sed contra. The state of integral human nature was not higher than the present state of the angels. But among angels there is an order called Dominations, along with others pertaining to prelacy (Principalities, Powers, Archangels). So prelacy would have existed in the state of unfallen human nature as well.",
+    "claims": ["Since angelic hierarchy (which exceeds or equals unfallen human nature in dignity) includes ranks of prelacy (Dominations, Principalities, Powers, Archangels), unfallen human nature should likewise have included prelacy."],
+    "concepts": ["angelic hierarchy (Dominations, Principalities, Powers, Archangels)", "comparative dignity of unfallen human and angelic nature"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l2d44q1-Hd1e243"]
+    }
+  },
+
+  "ta-l2d44q1-d1e277": {
+    "summary": "The main determination (respondeo) of Article 3. Thomas distinguishes two modes of prelacy: one ordered to governance, the other to domination. The latter — master over slave, as a tyrant over a subject (per Ethics 8) — differs from kingship in that a king orders his rule to the good of the people, enacting law for their benefit, while a tyrant orders rule to his own benefit; the two modes of prelacy thus differ in whose good is intended, that of the subjects or that of the one presiding. The second (dominative) mode could not have existed in integral nature except with respect to irrational creatures, over which man would have presided for his own benefit even more fully than now. The rational creature, however, is not of itself ordered as to an end to another rational creature (man to man); where this does happen, it is only because sin has made man comparable to irrational creatures — hence the Philosopher's comparison of a slave to a tool: 'a slave is an animate tool, and a tool is an inanimate slave.' So dominative prelacy of man over man would not have existed before sin. But the first (governing) mode, ordered to the subjects' benefit, would have existed with respect to some, though not all, of its uses: prelacy serves to direct subjects in what is to be done, to supply defects (e.g. defense by kings), and to correct morals by punishing and coercing the wicked toward virtue. Since before sin nothing could have harmed man, nor would any will have contradicted the good, prelacy in the state of innocence would not have existed regarding the last two uses (defense, coercive correction), but only regarding the first — directing others in action or knowledge, insofar as one person was endowed with greater wisdom and intellectual light than another.",
+    "claims": [
+      "Prelacy has two modes — governing (for the subjects' good) and dominative (for the ruler's own good, as with tyrants and masters of slaves) — and only the governing mode is compatible with unfallen human nature among rational creatures.",
+      "Dominative prelacy over irrational creatures would have existed in unfallen nature, even more fully than now, but dominative prelacy of man over man presupposes sin's reduction of man to something comparable to an irrational tool.",
+      "Governing prelacy in the state of innocence would have existed only in its directive use (guiding others via superior wisdom), not in its defensive or coercive-corrective uses, since nothing harmful or contrary to the good would have existed to necessitate those."
+    ],
+    "concepts": ["governing vs. dominative prelacy", "king vs. tyrant (Ethics 8)", "slave as animate tool", "three uses of prelacy (directive, defensive, corrective)"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l2d44q1-Hd1e243", "ta-l2d44q1-d1e271", "ta-l2d44q1-d1e274"]
+    }
+  },
+
+  "ta-l2d44q1-d1e280": {
+    "summary": "Reply to the first objection. Nature made all men equal in freedom, not in natural perfections: for 'free,' per the Philosopher (Metaphysics 1), is what is its own cause. One man is not by nature ordered to another as to an end; so the second (dominative) mode of prelacy, which removes the subjects' freedom, would not have existed, but the first (governing) mode could have, since it brings no prejudice to freedom — the subjects are not ordered to the good of the one presiding, but rather the presider's rule is ordered to the subjects' good, which is why rulers can fittingly call themselves the servants of their subjects.",
+    "claims": ["Natural equality concerns freedom (self-causation), not natural perfections such as wisdom, so unequal endowment is compatible with equal freedom, and governing prelacy (ordered to subjects' good) does not compromise that freedom the way dominative prelacy would."],
+    "concepts": ["freedom as self-causation (Metaphysics 1)", "equality in freedom vs. inequality in natural gifts", "ruler as servant of subjects"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l2d44q1-d1e246", "ta-l2d44q1-d1e277"]
+    }
+  },
+
+  "ta-l2d44q1-d1e284": {
+    "summary": "Reply to the second objection. Augustine's authority speaks with respect to the second (dominative) mode of prelacy.",
+    "claims": ["Augustine's statement that man was originally set over irrational creatures alone concerns dominative prelacy specifically, not the governing mode among rational creatures."],
+    "concepts": ["dominative mode as the referent of Augustine's authority"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l2d44q1-d1e252", "ta-l2d44q1-d1e277"]
+    }
+  },
+
+  "ta-l2d44q1-d1e287": {
+    "summary": "A one-line reply: 'and likewise to the third' — applying the same resolution (that the objection concerns only the dominative mode of prelacy, which presupposes servitude) to the third objection as well.",
+    "claims": ["The dominion-requires-servitude objection, like the second, concerns only the dominative mode of prelacy, which indeed would not have existed before sin — leaving the governing mode untouched."],
+    "concepts": ["reuse of the governing/dominative distinction"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l2d44q1-d1e258", "ta-l2d44q1-d1e277"]
+    }
+  },
+
+  "ta-l2d44q1-d1e290": {
+    "summary": "Reply to the fourth objection. As regards the coercive, law-enforcing use, prelacy would not have existed in the state of innocence; but as regards its other uses (chiefly the directive use), it would have, as already explained.",
+    "claims": ["The 1 Timothy/Ethics argument correctly rules out only the coercive-legal use of prelacy in the unfallen state, leaving the directive use intact."],
+    "concepts": ["coercive use of prelacy excluded, directive use retained"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l2d44q1-d1e262", "ta-l2d44q1-d1e277"]
+    }
+  },
+
+  "ta-l2d44q1-d1e293": {
+    "summary": "Reply to the fifth objection. It was already explained above (Distinction 11) how the claim that all prelacy will be emptied out in the future should be understood. But even taken simply, that prelacy will be removed in the future, it would not follow that prelacy was absent from the state of innocence, since that state was still a state of 'the way' (viator status), and in the way prelacy — by which one is directed by another — is necessary, in a way not conceded to be equally necessary at the way's end (the heavenly homeland).",
+    "claims": ["Prelacy's future cessation does not retroactively exclude it from the state of innocence, since that state, like the present one, was still a 'wayfaring' condition in which prelacy's directive function remains necessary, unlike the terminal, heavenly state."],
+    "concepts": ["status viae vs. status termini (wayfaring vs. homeland)", "cross-reference to Distinction 11"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l2d44q1-d1e268", "ta-l2d44q1-d1e277"]
+    }
+  },
+
+  "ta-l2d44q1-Dd1e92": {
+    "summary": "The Prooemium to Quaestio 1, a single paragraph locating this question within Lombard's text (the transition from the act of sin to the power to sin, and onward to Book III) and identifying the three articles: whether the power to sin is good and from God; whether all prelacy is from God despite the sins it enables; and whether prelacy belongs to unfallen nature or is a consequence of the fall.",
+    "claims": [],
+    "concepts": ["structure of the quaestio", "potentia peccandi", "praelatio"],
+    "_metadata": {
+      "level": "div",
+      "generation_method": "descendant_summaries",
+      "input_ids": ["ta-l2d44q1-d1e97"]
+    }
+  },
+
+  "ta-l2d44q1-Dd1e120": {
+    "summary": "Article 1 asks whether the power to sin is from God. Five objections deny it, from Anselm's denial that it belongs to freedom (combined with the exhaustive nature/grace division of divine gifts), from the priority of act over potency in divine works, from the parity between the sinful will (not from God) and the power to sin, from the causal-likeness principle (the power to sin does not assimilate the creature to God), and from Boethius's principle that evil use implies evil nature. Two sed contra arguments counter that rational powers extend to opposites (so the power to sin is the same power as the power to act well, which is from God) and that every being, including this power, is from God. In the respondeo, Thomas distinguishes, within the power to sin, the power itself (the common principle of both ordered and disordered acts, which is from God) from the defect implicated in it (rooted in the creature's being ex nihilo, which is from God neither directly nor indirectly). The replies clarify that freedom requires only the capacity for contradictory choices, not specifically the capacity to sin; that act and power stand in an asymmetric relation to God regarding evil (the evil act is not from God even qualifiedly, the power to it is from God simply); that the third objection equivocates on 'will' as power versus act; that the fourth objection fails because 'the power to sin' names a good compounded with imperfection, unlike properly perfect divine names; and that the fifth objection misidentifies the power's proper use, which is ordered to good, not to sin.",
+    "claims": [
+      "The power to sin, considered strictly as a power, is from God; the defect that allows it to issue in sin is not from God, tracing instead to the creature's being from nothing.",
+      "Act and power stand asymmetrically with respect to evil: an evil act is not from God even in a qualified sense, while the power underlying it is from God simply and fails to be from God only in the qualified sense of the defect it carries."
+    ],
+    "concepts": ["power known through act", "ex nihilo as root of defectibility", "asymmetry of act and power regarding evil", "equivocation on will"],
+    "_metadata": {
+      "level": "articulus",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "ta-l2d44q1-d1e128", "ta-l2d44q1-d1e131", "ta-l2d44q1-d1e137", "ta-l2d44q1-d1e141", "ta-l2d44q1-d1e144",
+        "ta-l2d44q1-d1e147", "ta-l2d44q1-d1e150", "ta-l2d44q1-d1e153",
+        "ta-l2d44q1-d1e156", "ta-l2d44q1-d1e160", "ta-l2d44q1-d1e163", "ta-l2d44q1-d1e166", "ta-l2d44q1-d1e169"
+      ]
+    }
+  },
+
+  "ta-l2d44q1-Dd1e173": {
+    "summary": "Article 2 asks whether every prelacy is from God. Five objections deny it, appealing to Hosea 8:4 ('they reigned, but not from me'), the perverse means by which some (e.g. simoniacs) attain office, Boethius's characterization of wicked rulers' power as usurped, the principle that what God gives man should not take away (yet prelacies are justly revoked), and the apparent disorder of unworthy rulers set over the worthy. Two sed contra arguments counter that Scripture attributes even wicked rulers' reign to God (Job 34:30), a fortiori implying all prelacies are from God, and that every prelacy exhibits an order (superior to inferior) that, as ordered, must be from God. In the respondeo, Thomas distinguishes three elements of prelacy — principle (mode of attainment), form (the order of ruler to ruled), and use — noting that the form is always good and, since judgment simply speaking tracks what is formal, every prelacy is from God simply speaking, while the evil sometimes attached to its principle or use is not from God, only in a qualified sense. The replies show that Hosea's denial concerns the people's disordered demand against Samuel's counsel, not kingship's form; that an effect (prelacy's form) can be from God despite an unjust proximate cause (its attainment); that 'usurpation' describes the wicked ruler's unworthy attainment while his rule over deserving subjects remains a divine punishment; that both the granting and just revocation of prelacy are from God, paralleling life and just deprivation of life; and that apparently disordered rulers instantiate a higher-order divine justice, punishing subjects who deserve such rulers.",
+    "claims": [
+      "Prelacy comprises principle, form, and use, of which the form (order of ruler to ruled) is always good; since judgment simply speaking tracks what is formal, every prelacy is from God simply speaking, and only its principle or use can fail to be from God, and only in a qualified sense.",
+      "Even manifestly unworthy or unjustly-attained prelacies remain, in their form, from God, and their apparent disorder is frequently itself an instance of higher-order divine justice, punishing subjects through the rulers they deserve."
+    ],
+    "concepts": ["principle, form, and use of prelacy", "simply vs. qualifiedly predicated divine origin", "prelacy as punishment"],
+    "_metadata": {
+      "level": "articulus",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "ta-l2d44q1-d1e181", "ta-l2d44q1-d1e187", "ta-l2d44q1-d1e190", "ta-l2d44q1-d1e194", "ta-l2d44q1-d1e200",
+        "ta-l2d44q1-d1e203", "ta-l2d44q1-d1e209", "ta-l2d44q1-d1e212",
+        "ta-l2d44q1-d1e215", "ta-l2d44q1-d1e219", "ta-l2d44q1-d1e222", "ta-l2d44q1-d1e225", "ta-l2d44q1-d1e228"
+      ]
+    }
+  },
+
+  "ta-l2d44q1-Dd1e238": {
+    "summary": "Article 3 asks whether dominion or prelacy would have existed in the state of innocence. Five objections deny it, from Gregory's linking of subjection to merit (implicitly, sin), from Augustine's restriction of man's original dominion to irrational creatures alone (with human-beast comparison arising only through sin, per Psalm 48:13), from dominion's presupposition of servitude (a post-lapsarian institution per patristic consensus), from the tie between prelacy's necessity and coercive law for the unjust (1 Tim. 1:9, Ethics), and from prelacy's future cessation implying its absence from unfallen nature. Two sed contra arguments counter that dignities (including dominion) would have existed even more fully in unfallen nature, and that angelic hierarchy — not surpassed by unfallen human nature — itself includes ranks of prelacy. In the respondeo, Thomas distinguishes governing prelacy (ordered to the subjects' good, like kingship) from dominative prelacy (ordered to the ruler's own good, like tyranny or mastery over slaves), arguing that dominative prelacy over irrational creatures would have existed in unfallen nature even more fully than now, but dominative prelacy of man over man presupposes sin's reduction of man to something comparable to an irrational tool; governing prelacy among rational creatures, however, would have existed in its directive use (guiding by superior wisdom) but not its defensive or coercive-corrective uses, since nothing harmful or opposed to the good would have existed. The replies apply the governing/dominative distinction to resolve the Gregory, Augustine, and servitude objections (all concerning only the dominative mode), confirm that only the coercive use of prelacy is excluded from the state of innocence, and clarify that prelacy's future cessation (explained at Distinction 11) does not retroactively exclude it from the state of innocence, since both states share the same 'wayfaring' condition in which directive guidance remains necessary.",
+    "claims": [
+      "Prelacy divides into a governing mode (ordered to the subjects' good) and a dominative mode (ordered to the ruler's own good); only the dominative mode of man over man presupposes sin, while governing prelacy in its directive use would have existed even in the unfallen state.",
+      "The objections drawn from Gregory, Augustine, and the presupposition of servitude all target the dominative mode specifically, leaving governing prelacy — and dominative prelacy over irrational creatures — untouched, since unfallen human nature shared with the present state of the angelic hierarchy (and with heaven's future 'wayfaring' contrast) the same underlying structure of directive order."
+    ],
+    "concepts": ["governing vs. dominative prelacy", "slave as animate tool", "status viae vs. status termini", "angelic hierarchy as precedent"],
+    "_metadata": {
+      "level": "articulus",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "ta-l2d44q1-d1e246", "ta-l2d44q1-d1e252", "ta-l2d44q1-d1e258", "ta-l2d44q1-d1e262", "ta-l2d44q1-d1e268",
+        "ta-l2d44q1-d1e271", "ta-l2d44q1-d1e274", "ta-l2d44q1-d1e277",
+        "ta-l2d44q1-d1e280", "ta-l2d44q1-d1e284", "ta-l2d44q1-d1e287", "ta-l2d44q1-d1e290", "ta-l2d44q1-d1e293"
+      ]
+    }
+  },
+
+  "ta-l2d44q1": {
+    "summary": "Quaestio 1 of Distinction 44 (Book II) turns from the act of sin to the power to sin and, more broadly, to power and prelacy as such, before the text moves on to Book III. It divides into a Prooemium and three articles. Article 1 establishes that the power to sin, considered as a power (the same principle underlying both ordered and disordered acts), is from God, while the defect that allows it to fail — rooted in the creature's being ex nihilo — is not from God in any sense, direct or indirect. Article 2 extends this same principle-versus-defect structure to prelacy: distinguishing a prelacy's principle (mode of attainment), form (the order of ruler to ruled, always good), and use, Thomas concludes that every prelacy is from God simply speaking (since judgment tracks the formal element), while only its principle or use can fail to be from God, and only in a qualified sense — with even unworthy rulers often instantiating a higher-order divine justice as punishment of deserving subjects. Article 3 asks whether this structure of prelacy would have obtained even without sin, and answers by distinguishing governing prelacy (ordered to the subjects' good) from dominative prelacy (ordered to the ruler's own good): dominative prelacy over irrational creatures would have existed in unfallen nature even more fully than now, but dominative prelacy of man over man presupposes the sin-caused reduction of man to something comparable to an irrational tool, while governing prelacy in its directive use (though not its defensive or coercive uses) would have existed among unfallen rational creatures as well.",
+    "claims": [
+      "A single structural principle unifies the quaestio: in both the power to sin and prelacy, what is positively a power or form is from God, while what is defective — whether an implicated defect rooted in createdness, or an unjust principle/use — is not from God, and only in a qualified sense fails to be attributed to him.",
+      "Prelacy divides into a governing mode (ordered to subjects' good, compatible with unfallen rational nature in its directive use) and a dominative mode (ordered to the ruler's own good, proper to irrational creatures and, among humans, a consequence of sin)."
+    ],
+    "concepts": ["potentia peccandi", "praelatio", "principle/form/use distinction", "governing vs. dominative prelacy", "ex nihilo as root of defectibility"],
+    "_metadata": {
+      "level": "quaestio",
+      "generation_method": "descendant_summaries",
+      "input_ids": ["ta-l2d44q1-Dd1e92", "ta-l2d44q1-Dd1e120", "ta-l2d44q1-Dd1e173", "ta-l2d44q1-Dd1e238"]
+    }
+  }
+}

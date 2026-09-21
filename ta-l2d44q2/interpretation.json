@@ -1,0 +1,593 @@
+{
+  "_metadata": {
+    "schema_version": "1.0",
+    "generated_at": "2026-09-20T00:00:00Z",
+    "model": "claude-sonnet-5",
+    "prompt_version": "interpretation-v1",
+    "source_commit": "ee99cd4a166e6194a1f1311f83ba2d87ff4ad000",
+    "generation_method": "hierarchical"
+  },
+
+  "ta-l2d44q2-d1e97": {
+    "summary": "The Prooemium to Quaestio 2, a single paragraph turning to obedience to prelates and identifying three articles: whether obedience is a virtue, and if so a special one; whether Christians are bound to obey secular powers, especially tyrants; and whether those professing obedience are bound to obey their prelates in everything.",
+    "claims": [],
+    "concepts": ["obedientia", "structure of the quaestio"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l2d44q2-Hd1e89"]
+    }
+  },
+
+  "ta-l2d44q2-d1e109": {
+    "summary": "First objection of Article 1. Every virtue is a mean between vices (Ethics 2). But obedience is not like this, since it is not corrupted by excess but rather perfected, if one obeys even in matters where one is not bound. Therefore obedience is not a virtue.",
+    "claims": ["Obedience's apparent perfection through 'excess' (obeying beyond what is strictly owed) seems incompatible with the general Aristotelian principle that virtue is a mean corrupted by excess."],
+    "concepts": ["virtue as a mean (Ethics 2)", "supererogatory obedience"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l2d44q2-Hd1e106", "ta-l2d44q2-d1e144"]
+    }
+  },
+
+  "ta-l2d44q2-d1e112": {
+    "summary": "Second objection. Obedience concerns precept. But precept extends to all acts of virtue, since all fall under the precept of law. So obedience is not a determinate virtue but something consequent upon every virtue — as also appears from Ambrose's definition (cited at D35) that sin is 'transgression of God's law, and disobedience of heavenly commandments.'",
+    "claims": ["Since precept covers all virtuous acts, and obedience is defined relative to precept, obedience appears to be coextensive with virtue generally rather than a determinate virtue of its own."],
+    "concepts": ["precept as coextensive with virtue", "Ambrose's definition of sin"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l2d44q2-Hd1e106", "ta-l2d44q2-d1e147"]
+    }
+  },
+
+  "ta-l2d44q2-d1e118": {
+    "summary": "Third objection. If obedience is a determinate virtue, it must be either one of the four cardinal virtues or one of their adjunct virtues. But it is neither: it is not among the four cardinal virtues, nor among the adjunct virtues the Philosopher enumerates (Ethics 4). So obedience is not a determinate virtue.",
+    "claims": ["Obedience fits into neither of the two standard classificatory slots (cardinal or adjunct virtue), suggesting it is not a determinate virtue at all."],
+    "concepts": ["cardinal virtues", "adjunct (annexed) virtues"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l2d44q2-Hd1e106", "ta-l2d44q2-d1e150"]
+    }
+  },
+
+  "ta-l2d44q2-d1e122": {
+    "summary": "Fourth objection, anticipating the reply that obedience is reduced to justice. Against this: no virtue is perfected by diminishing its own proper object, as is clear with magnanimity, which concerns great things — the greater the deed, the more it pertains to magnanimity. But justice's object is the debt owed, its act being to render to another what is his. Since obedience is perfected precisely by the diminishment of the debt owed (the less one considers it, per Bernard, the more perfect the obedience), it seems obedience cannot be reduced to justice.",
+    "claims": ["Obedience's perfection through diminishing (not magnifying) attention to what is owed seems structurally opposed to how virtues are normally perfected by intensifying their proper object, telling against reducing obedience to justice."],
+    "concepts": ["proper object of a virtue", "Bernard on diminishing regard for what is owed", "magnanimity as contrast case"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l2d44q2-Hd1e106", "ta-l2d44q2-d1e150"]
+    }
+  },
+
+  "ta-l2d44q2-d1e125": {
+    "summary": "Fifth objection. Legal justice is that according to which man is conformed to precepts. But obedience concerns precepts. So obedience is the same as legal justice. But legal justice, per the Philosopher (Ethics 5), is every virtue. So obedience is not a determinate virtue, but a general one.",
+    "claims": ["If obedience is identified with legal justice, and legal justice is coextensive with virtue as such (per Aristotle), then obedience would be a general, not a determinate, virtue."],
+    "concepts": ["legal justice (Ethics 5)", "identification of obedience with legal justice"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l2d44q2-Hd1e106", "ta-l2d44q2-d1e156"]
+    }
+  },
+
+  "ta-l2d44q2-d1e128": {
+    "summary": "Sixth objection. Gregory says obedience is not so much a virtue as the mother of all virtues. But being mother of the virtues belongs to charity. So obedience seems to be the same as charity, and thus not distinct from the other virtues.",
+    "claims": ["Gregory's characterization of obedience as 'mother of the virtues' — a role elsewhere attributed to charity — suggests obedience collapses into charity rather than standing as a distinct virtue."],
+    "concepts": ["Gregory on obedience as mother of virtues", "charity as mother of virtues"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l2d44q2-Hd1e106", "ta-l2d44q2-d1e159"]
+    }
+  },
+
+  "ta-l2d44q2-d1e131": {
+    "summary": "First sed contra. Hugh of St. Victor says: 'obedience is a virtue that embraces all things enjoined, necessarily to be fulfilled, unless the authority of the one commanding is opposed [to a higher law]' — and so it is a special virtue, since a special act is assigned to it.",
+    "claims": ["Hugh of St. Victor's definition explicitly calls obedience a virtue with its own special act, supporting its status as a determinate, special virtue."],
+    "concepts": ["Hugh of St. Victor's definition of obedience"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l2d44q2-Hd1e106"]
+    }
+  },
+
+  "ta-l2d44q2-d1e137": {
+    "summary": "Second sed contra. What is assigned as the greatest within a genus is something determinate within that genus. But Gregory says obedience is the greatest of the virtues. So obedience is a determinate virtue.",
+    "claims": ["Calling obedience 'greatest of the virtues' presupposes it is a determinate member of the genus 'virtue,' since only determinate members can be ranked within a genus."],
+    "concepts": ["greatest-in-a-genus implies determinate membership"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l2d44q2-Hd1e106"]
+    }
+  },
+
+  "ta-l2d44q2-d1e140": {
+    "summary": "The main determination (respondeo) of Article 1. Obedience is a virtue, and a special virtue. Since habits, powers, and acts are distinguished by their objects, a virtue with a special object must be special. A 'special object' derives from a special formal aspect (ratio), even one applicable across many or all subject-matters — the same thing can pertain to diverse powers under diverse aspects (as color to sight, imagination, and intellect), so a special virtue can extend to the acts of all virtues under one special aspect, as the Philosopher says of magnanimity (which operates greatly in the acts of all virtues, an ornament of the others); such virtues are called 'general' in having general subject-matter, while remaining special in object because of the special aspect involved. Obedience is special in exactly this way, attending to the special aspect of precept-together-with-the-debt-of-consenting. Since rendering to another what is his and owed belongs to justice, obedience is a part of justice, specifically divine justice, since the 'own' rendered to superiors (fulfillment of commands) is a species of the common genus of debt or what is one's own, even exactable before a judge — the proper concern of special justice. Special justice, however, is taken two ways: most properly, per the Philosopher (Ethics 5), only between parties with a certain equality allowing them to stand before a ruler and reciprocally claim what is theirs — a sense in which justice does not obtain between master and slave or father and son, since what belongs to the slave/son belongs to the master/father; but commonly, special justice also covers a master rendering a slave what is his (or vice versa), without requiring that equality — and it is in this common sense that obedience, whereby an inferior renders a superior what is due, pertains to justice.",
+    "claims": [
+      "Obedience is a special virtue because it attends to a special formal aspect — precept together with the debt of consenting — even though, like magnanimity, its subject-matter spans the acts of all other virtues.",
+      "Obedience is a part of justice taken in the common (not most proper) sense of special justice, since the most proper sense presupposes an equality between parties that does not hold between superior and subject."
+    ],
+    "concepts": ["distinction of powers/habits/acts by object", "special object via special formal aspect (ratio)", "magnanimity as a parallel 'general' special virtue", "special justice: proper vs. common sense"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l2d44q2-Hd1e106", "ta-l2d44q2-d1e131", "ta-l2d44q2-d1e137"]
+    }
+  },
+
+  "ta-l2d44q2-d1e144": {
+    "summary": "Reply to the first objection. Obedience, like other virtues, can be a mean between two vices, but not every virtue admits excess with respect to every circumstance once other circumstances are duly ordered — as with truthfulness, whose mean concerns showing oneself as one is, and whose excess arises not from excessive quantity of truth-telling but from exaggerating what one is (the circumstance of 'what,' not 'how much'). Similarly, the excess of obedience consists in obeying in matters where one ought not to obey, not in obeying more than one ought when other circumstances are duly assumed.",
+    "claims": ["Obedience's excess is not a matter of obeying 'too much' in quantity, but of obeying in the wrong matters (things one ought not to obey in) — paralleling how truthfulness's excess is exaggeration of content, not excessive frequency."],
+    "concepts": ["circumstance of quantum vs. quid", "truthfulness as parallel case", "excess as wrong matter, not wrong degree"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l2d44q2-d1e109", "ta-l2d44q2-d1e140"]
+    }
+  },
+
+  "ta-l2d44q2-d1e147": {
+    "summary": "Reply to the second objection. Although obedience extends to all acts of virtue, it does not consider in them what is proper to each individual virtue (it does not elicit the act of fortitude insofar as fortitude is a mean between fear and boldness), but considers in all virtuous acts one special aspect: that the act be done as owed, on account of a superior's precept.",
+    "claims": ["Obedience's extension across all virtuous acts does not dissolve its special determinacy, since it always picks out the same single formal aspect (owed-because-commanded) rather than the diverse proper aspects of each virtue it touches."],
+    "concepts": ["special formal aspect distinguishing obedience from the virtues it touches"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l2d44q2-d1e112", "ta-l2d44q2-d1e140"]
+    }
+  },
+
+  "ta-l2d44q2-d1e150": {
+    "summary": "Reply to the third objection. Obedience is reduced to special justice. A virtue can be reduced to another in two ways: as a part of it, when the reduced virtue's object is a part of the containing virtue's object (as chastity and sobriety are parts of temperance, whose object — the delightful according to touch — includes both sexual and culinary pleasure); or as an adjunct, when the containing virtue's object is what is most important in some subject-matter and the adjunct virtue's object is less principal (as meekness, concerning lesser anger-provoking difficulties, is adjunct to fortitude, whose object is the greatest difficulties regarding death; similarly modesty and wit are adjuncts to temperance). Obedience is reduced to special justice as a part, not as an adjunct.",
+    "claims": ["Obedience belongs to justice specifically as a part (sharing in a portion of justice's object, the rendering of what is owed) rather than as a merely adjunct virtue concerned with something less principal — resolving both the cardinal/adjunct classification problem and the justice-reduction objection."],
+    "concepts": ["reduction as part vs. as adjunct", "chastity/sobriety as parts of temperance", "meekness/modesty/eutrapelia as adjuncts"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l2d44q2-d1e118", "ta-l2d44q2-d1e122", "ta-l2d44q2-d1e140"]
+    }
+  },
+
+  "ta-l2d44q2-d1e153": {
+    "summary": "Reply to the fourth objection. A virtue's perfection can be considered either as regards what is proper to itself, or as regards what is proper to a superior virtue commanding its act. The perfection of obedience arising from diminished regard for the debt is not with respect to obedience's own proper aspect, but with respect to charity's proper aspect, which commands obedience's act just as it commands the acts of other virtues.",
+    "claims": ["The Bernard-derived perfection of obedience (less regard for what is owed) belongs to charity's commanding influence on the act, not to obedience's own intrinsic measure — so it does not actually diminish obedience's proper object (the debt) and poses no problem for reducing obedience to justice."],
+    "concepts": ["intrinsic perfection vs. perfection from a commanding virtue", "charity as commanding virtue"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l2d44q2-d1e122", "ta-l2d44q2-d1e140"]
+    }
+  },
+
+  "ta-l2d44q2-d1e156": {
+    "summary": "Reply to the fifth objection. Obedience is not the same as legal justice. Legal justice concerns the precept of law and the acts of virtues ordered by law insofar as they bear on another — namely, ordered to the good of the city ruled by laws (Ethics 5). Obedience, by contrast, concerns precept only insofar as it has the character of a debt arising from one's order to a superior; hence it need not be a general virtue.",
+    "claims": ["Legal justice and obedience differ in their formal object: legal justice concerns law's orientation toward the common civic good, while obedience concerns the debt arising specifically from subordination to a superior — distinct enough that obedience need not be as general as legal justice."],
+    "concepts": ["legal justice's orientation to the common good", "obedience's orientation to hierarchical debt"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l2d44q2-d1e125", "ta-l2d44q2-d1e140"]
+    }
+  },
+
+  "ta-l2d44q2-d1e159": {
+    "summary": "Reply to the sixth objection. One virtue can arise from another in two ways: by way of final cause, when a virtue's act is ordered to the end of another virtue (in this way charity, whose object is the ultimate end, is called mother of all virtues); or insofar as one virtue's acts cause or conserve another virtue — and obedience is 'mother of the virtues' in this second way, since superiors' precepts are ordered to lead to virtue by commanding virtuous acts themselves, which cause acquired (political) virtues through habituation and dispose toward infused virtues. Thomas clarifies he means not only the act that flows from virtue but also the act that leads toward virtue, whether disposing or causing it — someone in mortal sin can still perform an act of obedience even while lacking the virtue of obedience itself.",
+    "claims": [
+      "Charity and obedience are each 'mother of the virtues' in different senses: charity by final causation (all virtuous acts ordered to its ultimate end), obedience by efficient/dispositive causation (commanding acts that habituate toward, or dispose toward, virtue).",
+      "An act of obedience can occur even in someone lacking the virtue of obedience (e.g. one in mortal sin), since obedience's generative role concerns acts that dispose toward or cause virtue, not only acts flowing from an already-possessed virtue."
+    ],
+    "concepts": ["final vs. efficient/dispositive causation between virtues", "acquired (political) vs. infused virtues", "act of obedience without the habit"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l2d44q2-d1e128", "ta-l2d44q2-d1e140"]
+    }
+  },
+
+  "ta-l2d44q2-d1e171": {
+    "summary": "First objection of Article 2. Matt. 17:25: 'therefore the sons are free.' If, in any kingdom, the sons of the king ruling that kingdom are free, then the sons of the King to whom all kingdoms are subject should be free in every kingdom. But Christians have been made sons of God (Rom. 8:16). Therefore they are free everywhere, and so are not bound to obey secular powers.",
+    "claims": ["Christ's argument that royal sons are free from tribute (Matt. 17:25), applied to Christians as sons of God, seems to entail universal Christian exemption from secular political obedience."],
+    "concepts": ["Matthew 17:25 (temple-tax pericope)", "sonship of God (Rom. 8:16)"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l2d44q2-Hd1e168", "ta-l2d44q2-d1e208"]
+    }
+  },
+
+  "ta-l2d44q2-d1e180": {
+    "summary": "Second objection. Servitude was introduced on account of sin (Q1 A1). But through Baptism men are cleansed from sin. Therefore they are freed from servitude too, reaching the same conclusion as the first objection.",
+    "claims": ["If servitude's origin is sin, and Baptism removes sin, it seems Baptism should also remove servitude."],
+    "concepts": ["servitude as consequence of sin", "baptismal cleansing from sin"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l2d44q2-Hd1e168", "ta-l2d44q2-d1e212"]
+    }
+  },
+
+  "ta-l2d44q2-d1e183": {
+    "summary": "Third objection. A greater bond dissolves a lesser one, just as the New Law dissolved observance of the Old Law. But in Baptism a man is bound to God — a greater bond than that of servitude between men. Therefore Baptism dissolves the bond of servitude.",
+    "claims": ["By analogy with the New Law superseding the Old, the greater bond of baptismal obligation to God should dissolve the lesser bond of human servitude."],
+    "concepts": ["greater bond dissolving lesser bond", "New Law superseding Old Law as precedent"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l2d44q2-Hd1e168", "ta-l2d44q2-d1e215"]
+    }
+  },
+
+  "ta-l2d44q2-d1e187": {
+    "summary": "Fourth objection. Anyone may licitly reclaim, when able, what was unjustly taken from him. But many secular princes have tyrannically seized dominion over lands. So, since the opportunity to rebel against them is available, subjects are not bound to obey them.",
+    "claims": ["The right to reclaim unjustly taken property, applied to lands seized by tyrannical princes, seems to license subjects' rebellion and release from obedience."],
+    "concepts": ["right to reclaim unjust seizure", "tyrannical acquisition of dominion"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l2d44q2-Hd1e168", "ta-l2d44q2-d1e218"]
+    }
+  },
+
+  "ta-l2d44q2-d1e190": {
+    "summary": "Fifth objection. No one is bound to obey someone whom he could licitly, even laudably, kill. But Cicero, in De Officiis, vindicates the killers of Julius Caesar, though a friend and intimate, since he had usurped imperial rights like a tyrant. Therefore no one is bound to obey such tyrants.",
+    "claims": ["Cicero's approval of Caesar's assassins, on the ground that Caesar usurped power tyrannically, seems to entail that tyrants generally need not be obeyed, since they may licitly be killed."],
+    "concepts": ["Cicero's De Officiis", "tyrannicide", "Julius Caesar as usurper"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l2d44q2-Hd1e168", "ta-l2d44q2-d1e221"]
+    }
+  },
+
+  "ta-l2d44q2-d1e193": {
+    "summary": "First sed contra: 1 Peter 2:18, 'servants, be subject to your masters.'",
+    "claims": ["Scripture (1 Pet. 2:18) directly commands servants' subjection to their masters, supporting an obligation to obey secular authority."],
+    "concepts": ["1 Peter 2:18"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l2d44q2-Hd1e168"]
+    }
+  },
+
+  "ta-l2d44q2-d1e199": {
+    "summary": "Second sed contra. Rom. 13:2: 'he who resists authority, resists the ordinance of God.' But it is not licit to resist God's ordinance. Therefore it is not licit to resist secular authority either.",
+    "claims": ["Since resisting authority is equated with resisting God's own ordinance (Rom. 13:2), and resisting God is impermissible, resisting secular authority must likewise be impermissible."],
+    "concepts": ["Romans 13:2", "secular authority as divine ordinance"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l2d44q2-Hd1e168"]
+    }
+  },
+
+  "ta-l2d44q2-d1e205": {
+    "summary": "The main determination (respondeo) of Article 2. Obedience concerns the debt of observing a precept, a debt caused by the order of prelacy, which has coercive force not only temporally but spiritually, for conscience's sake (Rom. 13), insofar as this order descends from God. So a Christian is bound to obey such authorities insofar as the prelacy is from God, but not insofar as it is not. Prelacy can fail to be from God in two ways: as to the mode of acquiring it, or as to its use. Regarding acquisition, this occurs either through a defect in the person (unworthiness) or a defect in the mode of acquiring it (violence, simony, or other illicit means). The first defect does not impede the right of prelacy from being acquired — since prelacy's form is always from God — so subjects must obey even unworthy prelates. The second defect does impede the right of prelacy: one who seizes dominion through violence does not become a true prelate, so subjects may repel such dominion when able, unless he later becomes a true lord through the subjects' consent or a superior's authority. Abuse of prelacy occurs in two ways: commanding something contrary to what prelacy is ordained for (e.g. an act of sin contrary to the virtue prelacy should induce), in which case one is bound not merely to withhold obedience but actively to disobey, as the martyrs did rather than obey tyrants' impious commands; or compelling something beyond the order of prelacy's proper extent (e.g. an unowed tribute), in which case the subject is neither bound to obey nor bound to disobey.",
+    "claims": [
+      "The debt of obedience tracks the divine origin of prelacy's form, which persists even under an unworthy holder, but is voided when the prelacy itself was illicitly acquired through violence or simony.",
+      "Abuse of legitimate prelacy divides into commands contrary to prelacy's purpose (which must be actively disobeyed, even unto martyrdom) and commands exceeding prelacy's proper scope (which may be freely obeyed or refused)."
+    ],
+    "concepts": ["debt of obedience from order of prelacy", "defect of person vs. defect of acquisition", "abuse contrary to purpose vs. abuse exceeding scope", "martyrdom as active disobedience"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l2d44q2-Hd1e168", "ta-l2d44q2-d1e193", "ta-l2d44q2-d1e199"]
+    }
+  },
+
+  "ta-l2d44q2-d1e208": {
+    "summary": "Reply to the first objection. The prelacy ordered to the subjects' benefit does not take away their freedom, so it is not incongruous that those made sons of God be subject to it. Alternatively, Christ may be speaking of himself and his disciples specifically, who were neither of servile condition nor possessed temporal goods obligating them to pay tribute — so this freedom need not extend to every Christian, but only to those following the apostolic life, possessing nothing and free from servile condition.",
+    "claims": ["Sonship of God does not entail exemption from beneficial (governing-mode) prelacy, since such prelacy does not compromise freedom; alternatively, Christ's statement may apply narrowly to himself and his propertyless disciples rather than to all Christians."],
+    "concepts": ["governing prelacy compatible with freedom", "apostolic poverty as the narrower referent"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l2d44q2-d1e171", "ta-l2d44q2-d1e205"]
+    }
+  },
+
+  "ta-l2d44q2-d1e212": {
+    "summary": "Reply to the second objection. Baptism does not immediately remove all penalties following from the sin of the first parent — such as the necessity of dying or blindness — but regenerates one into the living hope of the life in which all these will be removed; so one need not be immediately freed from servile condition upon baptism, even though that condition is a punishment for sin.",
+    "claims": ["Baptism's removal of sin does not entail immediate removal of sin's temporal penalties (including servitude), which persist as part of the present order pending the eschatological removal of all such penalties."],
+    "concepts": ["baptismal regeneration into hope, not immediate removal of penalties", "servitude as a persisting penalty of original sin"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l2d44q2-d1e180", "ta-l2d44q2-d1e205"]
+    }
+  },
+
+  "ta-l2d44q2-d1e215": {
+    "summary": "Reply to the third objection. A greater bond dissolves a lesser one only when the two cannot coexist, as shadow and truth cannot — hence the shadow of the Old Law ceased with the coming of the Gospel's truth. But the baptismal bond is compatible with the bond of servitude, and so does not dissolve it.",
+    "claims": ["The 'greater bond dissolves lesser' principle applies only to genuinely incompatible bonds (like shadow and reality); since the baptismal and servile bonds are compatible, the principle does not apply here."],
+    "concepts": ["incompatibility as the condition for one bond dissolving another", "shadow-and-truth analogy (Old Law/Gospel)"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l2d44q2-d1e183", "ta-l2d44q2-d1e205"]
+    }
+  },
+
+  "ta-l2d44q2-d1e218": {
+    "summary": "Reply to the fourth objection. Those who acquire prelacy through violence are not true prelates, so subjects are not bound to obey them, except as already explained [i.e. once they attain legitimacy through consent or higher authority].",
+    "claims": ["Violent usurpers lack true prelacy from the start, so the objection's premise (unjustly taken things may be reclaimed) applies straightforwardly, without needing to override any genuine obedience-debt."],
+    "concepts": ["absence of true prelacy for violent usurpers"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l2d44q2-d1e187", "ta-l2d44q2-d1e205"]
+    }
+  },
+
+  "ta-l2d44q2-d1e221": {
+    "summary": "Reply to the fifth objection. Cicero speaks of the case where someone seizes dominion through violence against unwilling (or coerced) subjects, with no recourse to a superior for judgment against the invader — in that case alone, one who kills the tyrant for the liberation of the fatherland is praised and rewarded.",
+    "claims": ["Cicero's endorsement of tyrannicide is conditioned on the absence of any higher legal recourse against a violent usurper — a narrow case that does not generalize to obedience toward legitimately (if imperfectly) established rulers."],
+    "concepts": ["conditions narrowing the scope of licit tyrannicide", "absence of recourse to a superior authority"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l2d44q2-d1e190", "ta-l2d44q2-d1e205"]
+    }
+  },
+
+  "ta-l2d44q2-d1e233": {
+    "summary": "First objection of Article 3. Col. 3:20: 'children, obey your parents in all things.' But one is bound to obey a spiritual father even more than a carnal one. Therefore spiritual sons, especially those professing obedience, are bound to obey their spiritual fathers in all things.",
+    "claims": ["The scriptural command for children's unlimited obedience to parents (Col. 3:20), applied a fortiori to spiritual fatherhood, seems to require unlimited obedience from professed religious to their spiritual superiors."],
+    "concepts": ["Colossians 3:20", "spiritual vs. carnal fatherhood"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l2d44q2-Hd1e230", "ta-l2d44q2-d1e276"]
+    }
+  },
+
+  "ta-l2d44q2-d1e239": {
+    "summary": "Second objection. Blessed Benedict's Rule says that even an impossible command from the prelate must nonetheless be attempted. But one is far more bound to obey in possible things than in impossible ones. Therefore one professing obedience simply is bound to obey the prelate in all possible things.",
+    "claims": ["If Benedict's Rule requires even attempting impossible commands, then a fortiori all possible commands must be obeyed, supporting unlimited (unqualified) obedience."],
+    "concepts": ["Benedict's Rule on impossible commands"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l2d44q2-Hd1e230", "ta-l2d44q2-d1e280"]
+    }
+  },
+
+  "ta-l2d44q2-d1e242": {
+    "summary": "Third objection. Every religious order has three principal substantial vows: chastity, poverty, and obedience. One is bound to keep chastity and poverty absolutely (having nothing of one's own). Therefore one is likewise bound to keep obedience absolutely, obeying simply in all things.",
+    "claims": ["Since the other two substantial vows (chastity, poverty) admit no qualification, obedience, being their structural parallel, should likewise be unqualified and total."],
+    "concepts": ["parallel structure of the three substantial vows"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l2d44q2-Hd1e230", "ta-l2d44q2-d1e283"]
+    }
+  },
+
+  "ta-l2d44q2-d1e246": {
+    "summary": "Fourth objection. Judgment about a superior is not left to an inferior. But if a subject had to discern in what to obey and in what not, judgment about the superior's precept would be left to him. Therefore a subject is bound to obey simply in all things.",
+    "claims": ["Allowing a subject to selectively obey would require him to judge the prelate's commands, violating the principle that inferiors do not judge superiors — hence obedience must be total."],
+    "concepts": ["prohibition on inferiors judging superiors"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l2d44q2-Hd1e230", "ta-l2d44q2-d1e286"]
+    }
+  },
+
+  "ta-l2d44q2-d1e249": {
+    "summary": "Fifth objection. Every Christian is bound to obey spiritual prelates in some things. So if those professing obedience were not bound to obey simply in all things, professing obedience would not differ from not professing it, rendering such profession superfluous. Since it is not superfluous, they must be bound to obey in all things.",
+    "claims": ["Unless professed obedience entails total obedience, the religious vow of obedience would add nothing beyond the baseline obedience owed by every Christian, making the vow pointless — an unacceptable conclusion."],
+    "concepts": ["distinctiveness of the vow of obedience relative to baseline Christian obedience"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l2d44q2-Hd1e230", "ta-l2d44q2-d1e289"]
+    }
+  },
+
+  "ta-l2d44q2-d1e252": {
+    "summary": "First sed contra. Bernard, in On Precept and Dispensation: 'let nothing prohibit me from what I have promised, let nothing demand more than I promised.' But only what is in the Rule is promised. So a subject is not bound to obey beyond what pertains to the Rule.",
+    "claims": ["Bernard's principle that a vow binds only to what was promised, combined with the fact that only the Rule's contents are promised, limits the obedience owed to matters covered by the Rule."],
+    "concepts": ["Bernard's On Precept and Dispensation", "vow limited to its explicit promise"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l2d44q2-Hd1e230"]
+    }
+  },
+
+  "ta-l2d44q2-d1e258": {
+    "summary": "Second sed contra. No one is bound to something others are not bound to, except by a special vow obligating him to it. But those professing obedience do not vow to obey in all things, only according to a specific rule. So they are not bound to obey in all things — a conclusion Bernard also draws, stating that profession promises obedience determinately according to the rule (not unlimited obedience), and that the prelate too is bound by the measure the rule prescribes, moderating his commands only to what the rule's founder established as right.",
+    "claims": ["The specific wording of the vow (obedience 'according to the rule,' not 'in all things') restricts the scope of obligatory obedience — a limitation Bernard extends symmetrically to the prelate's own authority to command."],
+    "concepts": ["specificity of the vow's content", "symmetric limitation on both subject's obedience and prelate's authority"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l2d44q2-Hd1e230"]
+    }
+  },
+
+  "ta-l2d44q2-d1e267": {
+    "summary": "The main determination (respondeo) of Article 3. Thomas distinguishes three kinds of obedience. Indiscreet obedience — which should not even be called obedience — occurs when one obeys in matters contrary to divine law (which must always be inviolably observed) or contrary to one's professed rule in matters not subject to the prelate's dispensation; no one is bound to this, and indeed everyone is bound not to have it. Imperfect (but salvifically sufficient) obedience is obedience only in what one has promised to observe and no more — Benedict himself calls this 'imperfect' obedience 'confined by the bounds of the vow' — and to this obedience those professing are bound of necessity. Perfect obedience is obedience simply in all things not contrary to divine law or one's professed rule — Benedict describes it as knowing no law, unconfined by limits, borne by generous will into the breadth of charity, extending infinitely without measure — but no one is bound to this by necessity, only by a certain honorableness, as one is always encouraged to emulate the better gifts. Some hold instead that professed religious are bound of necessity to obey in everything not contrary to the rule, whether indifferent or good, provided it does not exceed what their order's profession requires; but Thomas judges the first opinion far better, since the debt of obedience is caused by the order of prelacy, and prelacies in religious life are ordained solely to preserve the state of religious life according to the rule's institutes — so the debt of obedience arises only in matters pertaining to the rule, whether directly (explicit statutes, like abstaining from meat or keeping silence) or indirectly (mutual services necessary to preserve religious life, or the punishment of transgressions, even without explicit mention in the rule).",
+    "claims": [
+      "Obedience divides into three grades — indiscreet (forbidden), imperfect (obligatory, bounded by the vow's explicit content), and perfect (praiseworthy but not obligatory, unbounded) — and professed religious are bound by necessity only to the imperfect, rule-bounded grade.",
+      "Because the debt of obedience is caused by prelacy's proper ordination (here, preserving religious life per the rule), the obligatory scope of a religious's obedience is fixed by the rule, directly or indirectly, not by the prelate's unlimited will."
+    ],
+    "concepts": ["threefold obedience (indiscreet, imperfect, perfect)", "Benedict's Rule", "debt of obedience tracks prelacy's proper ordination", "direct vs. indirect pertinence to the rule"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l2d44q2-Hd1e230", "ta-l2d44q2-d1e252", "ta-l2d44q2-d1e258"]
+    }
+  },
+
+  "ta-l2d44q2-d1e276": {
+    "summary": "Reply to the first objection. The Apostle's precept (Col. 3:20) is understood not of absolutely all things, but of all things pertaining to a father's prelacy over his son — since, per the Philosopher (Ethics 9), in some matters one should obey the father more, and in others the army's general more, and in others the physician more, and so on.",
+    "claims": ["'Obey in all things' (Col. 3:20) is implicitly restricted to the proper domain of the relevant authority, paralleling Aristotle's observation that different authorities (father, general, physician) command greater obedience in their respective domains."],
+    "concepts": ["domain-restricted authority (Ethics 9)"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l2d44q2-d1e233", "ta-l2d44q2-d1e267"]
+    }
+  },
+
+  "ta-l2d44q2-d1e280": {
+    "summary": "Reply to the second objection. Blessed Benedict is speaking of perfect obedience, which all professing obedience ought to emulate out of honorableness, but are not obligated to by necessity.",
+    "claims": ["Benedict's requirement to attempt even impossible commands describes the ideal of perfect (supererogatory) obedience, not the necessary minimum owed by every professed religious."],
+    "concepts": ["perfect obedience as supererogatory ideal"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l2d44q2-d1e239", "ta-l2d44q2-d1e267"]
+    }
+  },
+
+  "ta-l2d44q2-d1e283": {
+    "summary": "Reply to the third objection. Chastity has a determinate subject-matter and act, and likewise poverty; but obedience has general subject-matter, as already explained. If someone vowed obedience absolutely in all things, confusion among religious orders would result, since each religious would be bound to the same things as any other, regardless of their differing rules; hence the vow of obedience is determined according to a specific rule, unlike the other two vows.",
+    "claims": ["Obedience differs structurally from chastity and poverty precisely because its subject-matter is general (potentially unlimited), which is exactly why it must be rule-bounded — an unbounded vow of obedience would erase the distinctiveness of different religious orders."],
+    "concepts": ["general vs. determinate subject-matter of vows", "confusion of religious orders as the reductio"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l2d44q2-d1e242", "ta-l2d44q2-d1e267"]
+    }
+  },
+
+  "ta-l2d44q2-d1e286": {
+    "summary": "Reply to the fourth objection. Although a subject may not judge the prelate's precept as such, he may still judge his own act, at least in matters where he is not subject to the prelate by the order of prelacy; so it is not necessary that he obey in all things — indeed it is necessary that in some things he not obey.",
+    "claims": ["The prohibition on inferiors judging superiors concerns judging the precept itself, not judging whether one's own act falls within the prelate's proper jurisdiction — a distinction that permits, and sometimes requires, selective obedience."],
+    "concepts": ["judging the precept vs. judging one's own act's proper jurisdiction"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l2d44q2-d1e246", "ta-l2d44q2-d1e267"]
+    }
+  },
+
+  "ta-l2d44q2-d1e289": {
+    "summary": "Reply to the fifth objection. Those who do not profess obedience are not bound to obey spiritual prelates in all things, but only in matters pertaining to the rule they professed at Baptism — namely renouncing Satan and all his pomps, professing to lead a Christian life, and putting on the new man created according to God.",
+    "claims": ["The vow of religious obedience is distinctive not because it is unlimited while baptismal obedience is limited, but because each is bound to a different, specific 'rule' — the baptismal renunciation for ordinary Christians, the religious rule for professed religious — preserving the vow's non-superfluity without requiring totality."],
+    "concepts": ["baptismal vow as ordinary Christians' 'rule'", "renunciation of Satan as the baseline obligation"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l2d44q2-d1e249", "ta-l2d44q2-d1e267"]
+    }
+  },
+
+  "ta-l2d44q2-d1e299": {
+    "summary": "The Expositio textus, a single extended paragraph glossing seven phrases spanning the transition from Quaestio 1 into Quaestio 2. (1) 'After the foregoing, something worthy of consideration occurs': the order (treating the act of sin before the power to sin) follows because power is known through act, even though power is naturally prior to act. (2) 'Whether the power to sin is from God or from us' (singular 'potentia' rather than plural): though sin can occur through several powers' acts, no power elicits an act of sin except as will or as moved by will, so there is properly one power — will or free choice — in which sin primarily inheres. (3) 'An evil will is not from God for us, but from us and the devil': true only if 'will' means the act of will, not the power (principle of the act); so no valid analogy supports concluding the same of the power to sin. (4) 'But by many testimonies of the saints it is shown indubitably that the power of evil is from God': though the cited authorities speak of the power of prelacy, not the power to sin directly, the habitual power to sin is included within the habitual power of prelacy, since prelates can commit sins (through their office) that they could not commit otherwise. (5) 'By me kings reign, and tyrants hold the land by me': the difference between king and tyrant was already explained at Q1 A3. (6) 'But it should be known that the Apostle there speaks of secular power': since the devil's power to harm was earlier shown to be from God too, one might wrongly conclude the devil must also be obeyed — but the Apostle's authority concerns only the power of prelacy, which the devil does not have over men except through an illicit pact of sin (a pact that must be broken, per Isa. 28:18), so not every God-derived power commands obedience, only that power God has instituted precisely to receive due obedience. (7) 'Despise [lesser] power by fearing greater powers': this might suggest greater power is always to be obeyed more than lesser, but several counterexamples (father vs. army general, bishop vs. archbishop, abbot vs. bishop, secular vs. spiritual power) show this is not universally true. Thomas resolves this by distinguishing two relations between superior and inferior power: when the inferior arises entirely from the superior (as with God over all created power, emperor over proconsul, Pope over all ecclesiastical power), the superior is to be obeyed more simply and in all things, since the first cause's influence on an effect always exceeds the second cause's (Liber de Causis); but when both superior and inferior arise from one common supreme power that subjects one to the other only in certain matters (as bishops and archbishops both descend from papal power), the superior is to be obeyed more only in those specific matters. This resolves each counterexample: a father is superior in domestic matters, a general in military ones, but God (and the Pope as his vicar) is superior in all things simply; an archbishop is not superior to a bishop except in legally determined cases of appeal; a monk owes the abbot more in matters of the rule but the bishop more in matters of ecclesiastical discipline (since there the abbot is himself subject to the bishop); and secular and spiritual power, both derived from God, mutually determine the sphere of greater obedience — spiritual power in matters of the soul's salvation, secular power in matters of civil good (per Matt. 22:21) — except in the Pope, who alone unites both powers as priest and king forever, after the order of Melchizedek.",
+    "claims": [
+      "The one power in which sin primarily inheres is the will (or free choice) alone; other 'powers' of sin are only instrumental to it.",
+      "The habitual power to sin is included within — not separate from — the habitual power of prelacy, since office-holding enables sins otherwise impossible; this is how the cited authorities on prelacy bear on the power to sin.",
+      "Obedience is owed to a power derived from God only when that power was instituted by God specifically to receive obedience (i.e. prelacy); the devil's God-permitted power to harm does not meet this criterion, and any pact granting him obedience is itself illicit and must be broken.",
+      "Whether a 'greater' power commands more obedience than a 'lesser' one depends on their structural relation: total derivation of the inferior from the superior (as God over all creation, or the Pope over the Church) grounds unconditional greater obedience to the superior; joint derivation from one common supreme source, which subjects one to the other only in specific matters, grounds greater obedience to the superior only within those matters."
+    ],
+    "concepts": ["power known through act", "will as the primary locus of sin", "power of prelacy including habitual power to sin", "obedience owed only to power instituted for obedience", "total vs. partial derivation of inferior from superior power", "Liber de Causis on first and second causes", "Pope as uniting spiritual and secular power (Melchizedek)"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l2d44q2-Hd1e296", "ta-l2d44q2-Qd1e300", "ta-l2d44q2-Qd1e303", "ta-l2d44q2-Qd1e306", "ta-l2d44q2-Qd1e309", "ta-l2d44q2-Qd1e312", "ta-l2d44q2-Qd1e315", "ta-l2d44q2-Qd1e322", "ta-l2d44q2-Qd1e325"]
+    }
+  },
+
+  "ta-l2d44q2-Dd1e92": {
+    "summary": "The Prooemium to Quaestio 2, a single paragraph identifying its three articles: whether obedience is a (special) virtue; whether Christians are bound to obey secular powers, especially tyrants; and whether professed religious are bound to obey their prelates in everything.",
+    "claims": [],
+    "concepts": ["structure of the quaestio", "obedientia"],
+    "_metadata": {
+      "level": "div",
+      "generation_method": "descendant_summaries",
+      "input_ids": ["ta-l2d44q2-d1e97"]
+    }
+  },
+
+  "ta-l2d44q2-Dd1e101": {
+    "summary": "Article 1 asks whether obedience is a virtue, and a special one. Six objections deny special virtue status, from obedience's apparent perfection through excess (contra virtue-as-mean), from precept's coextension with all virtue, from obedience's fit into neither the cardinal nor adjunct virtue classifications, from its seeming incompatibility with justice's proper object (a diminished, not intensified, regard for what is owed), from its apparent identity with legal justice (itself coextensive with virtue), and from Gregory's calling it 'mother of the virtues' (a role elsewhere assigned to charity). Two sed contra arguments counter with Hugh of St. Victor's explicit definition of obedience as a virtue with a special act, and with the logical point that 'greatest of the virtues' (Gregory) presupposes determinate membership in the genus. In the respondeo, Thomas argues obedience is a special virtue because it attends to a special formal aspect (precept-with-debt-of-consent) even while, like magnanimity, extending across the acts of all other virtues; and that it is a part (not merely an adjunct) of justice, taken in the common rather than most proper sense (which would require an equality between parties not found between superior and subject). The replies clarify that obedience's 'excess' concerns wrong matter, not wrong degree; that its special aspect (owed-because-commanded) distinguishes it from the virtues it touches; that it is reduced to justice as a part, not an adjunct; that its Bernard-derived perfection belongs to charity's commanding influence, not to its own proper measure; that it differs from legal justice in formal object (hierarchical debt vs. the common civic good); and that it is 'mother of the virtues' by efficient/dispositive, not final, causation, distinct from charity's role.",
+    "claims": [
+      "Obedience is a special virtue, attending to the single formal aspect of precept-with-debt-of-consent even as it extends across all other virtues' acts, much as magnanimity does.",
+      "Obedience is a part (not adjunct) of justice taken in its common sense, and is 'mother of the virtues' through efficient/dispositive causation (commanding acts that habituate or dispose toward virtue) rather than through charity's final causation toward the ultimate end."
+    ],
+    "concepts": ["special formal aspect (ratio)", "part vs. adjunct reduction to justice", "common vs. proper special justice", "efficient vs. final causation between virtues"],
+    "_metadata": {
+      "level": "articulus",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "ta-l2d44q2-d1e109", "ta-l2d44q2-d1e112", "ta-l2d44q2-d1e118", "ta-l2d44q2-d1e122", "ta-l2d44q2-d1e125", "ta-l2d44q2-d1e128",
+        "ta-l2d44q2-d1e131", "ta-l2d44q2-d1e137", "ta-l2d44q2-d1e140",
+        "ta-l2d44q2-d1e144", "ta-l2d44q2-d1e147", "ta-l2d44q2-d1e150", "ta-l2d44q2-d1e153", "ta-l2d44q2-d1e156", "ta-l2d44q2-d1e159"
+      ]
+    }
+  },
+
+  "ta-l2d44q2-Dd1e163": {
+    "summary": "Article 2 asks whether Christians are bound to obey secular powers, especially tyrants. Five objections argue against such obligation: from Christians' sonship of God implying freedom from tribute (Matt. 17:25, Rom. 8:16); from Baptism's removal of sin implying removal of its consequence, servitude; from the principle that a greater bond (Baptism) dissolves a lesser one (servitude); from the right to reclaim unjustly seized dominion; and from Cicero's vindication of Caesar's assassins as tyrannicides. Two sed contra arguments counter with 1 Peter 2:18 (servants' subjection to masters) and Romans 13:2 (resisting authority as resisting God's ordinance). In the respondeo, Thomas grounds the debt of obedience in prelacy's divine origin, distinguishing defects of acquisition (unworthiness, which does not void the debt, versus illicit means like violence or simony, which does) from defects of use (commands contrary to prelacy's purpose, which must be actively disobeyed even unto martyrdom, versus commands merely exceeding its proper scope, which may be freely obeyed or refused). The replies show that beneficial prelacy does not compromise the freedom of God's sons (or that Christ's saying applies narrowly to his propertyless disciples); that Baptism removes sin's guilt without immediately removing its temporal penalties, including servitude; that the baptismal and servile bonds are compatible (unlike Old and New Law) and so the greater does not dissolve the lesser; that violent usurpers are not true prelates, so the reclaiming-principle applies without conflict; and that Cicero's endorsement of tyrannicide is narrowly conditioned on the absence of any higher legal recourse against a violent usurper.",
+    "claims": [
+      "The debt of obedience to secular power tracks the divine origin of prelacy's form, surviving personal unworthiness but voided by illicit (violent or simoniacal) acquisition, and it can require active disobedience (even martyrdom) when a command contradicts prelacy's very purpose.",
+      "None of the freedom-based objections succeed: baptismal and Christian freedom do not remove the temporal penalty of servitude or the divinely-grounded debt owed to legitimately-formed (even personally unworthy) governing authority."
+    ],
+    "concepts": ["defect of person vs. defect of acquisition", "abuse contrary to purpose vs. exceeding scope", "compatibility of baptismal and servile bonds", "conditions on licit tyrannicide"],
+    "_metadata": {
+      "level": "articulus",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "ta-l2d44q2-d1e171", "ta-l2d44q2-d1e180", "ta-l2d44q2-d1e183", "ta-l2d44q2-d1e187", "ta-l2d44q2-d1e190",
+        "ta-l2d44q2-d1e193", "ta-l2d44q2-d1e199", "ta-l2d44q2-d1e205",
+        "ta-l2d44q2-d1e208", "ta-l2d44q2-d1e212", "ta-l2d44q2-d1e215", "ta-l2d44q2-d1e218", "ta-l2d44q2-d1e221"
+      ]
+    }
+  },
+
+  "ta-l2d44q2-Dd1e225": {
+    "summary": "Article 3 asks whether professed religious are bound to obey their prelates in everything. Five objections argue for unlimited obedience: from Colossians 3:20 ('obey your parents in all things'), applied a fortiori to spiritual fatherhood; from Benedict's Rule requiring even an attempt at impossible commands; from the unqualified character of the parallel vows of chastity and poverty; from the principle that inferiors may not judge superiors' precepts; and from the risk that limited obedience would make the vow superfluous relative to ordinary Christian obedience. Two sed contra arguments counter with Bernard's principle that a vow binds only to what was explicitly promised (i.e. the Rule), and with the general principle that no one is bound beyond their specific vow, further supported by Bernard's own statement that profession promises obedience 'according to the rule,' not unlimited obedience, with a corresponding limit on the prelate's own authority to command. In the respondeo, Thomas distinguishes three grades of obedience — indiscreet (contrary to divine law or one's rule; forbidden), imperfect (bounded by the vow's explicit content; obligatory by necessity), and perfect (extending without limit; praiseworthy but not obligatory) — arguing that because the debt of obedience is caused by prelacy's proper ordination (preserving religious life per the rule), professed religious are bound by necessity only to the imperfect grade, whether the matter pertains to the rule directly (explicit statutes) or indirectly (necessary mutual services or discipline). The replies show that Colossians 3:20 is implicitly domain-restricted (as Aristotle notes for father, general, physician); that Benedict's 'even impossible things' describes the supererogatory ideal of perfect obedience, not the necessary minimum; that obedience's general (as opposed to chastity's and poverty's determinate) subject-matter is precisely why it must be rule-bounded, to avoid erasing distinctions between religious orders; that subjects may judge their own act's jurisdictional scope without judging the prelate's precept itself; and that the vow's distinctiveness lies in binding to a different, specific 'rule' than ordinary baptismal obedience, not in unlimited scope.",
+    "claims": [
+      "Obedience admits three grades — indiscreet (forbidden), imperfect (obligatory, bounded by the vow's explicit and implicit content in the rule), and perfect (praiseworthy, unbounded but not obligatory) — and professed religious are bound by necessity only to the imperfect, rule-bounded grade.",
+      "The vow of obedience differs structurally from chastity and poverty precisely because its subject-matter is general rather than determinate, which is exactly why it must (unlike them) be bounded by a specific rule to preserve the distinctiveness of different religious orders."
+    ],
+    "concepts": ["threefold obedience (indiscreet, imperfect, perfect)", "debt of obedience tracks prelacy's proper ordination", "domain-restricted authority", "general vs. determinate subject-matter of vows"],
+    "_metadata": {
+      "level": "articulus",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "ta-l2d44q2-d1e233", "ta-l2d44q2-d1e239", "ta-l2d44q2-d1e242", "ta-l2d44q2-d1e246", "ta-l2d44q2-d1e249",
+        "ta-l2d44q2-d1e252", "ta-l2d44q2-d1e258", "ta-l2d44q2-d1e267",
+        "ta-l2d44q2-d1e276", "ta-l2d44q2-d1e280", "ta-l2d44q2-d1e283", "ta-l2d44q2-d1e286", "ta-l2d44q2-d1e289"
+      ]
+    }
+  },
+
+  "ta-l2d44q2-Dd1e294": {
+    "summary": "The Expositio textus, a single extended paragraph glossing seven phrases spanning the transition from the power-to-sin material of Quaestio 1 into the obedience material of Quaestio 2: the rationale for treating act before power despite power's natural priority; the argument that the will (or free choice) alone is the one power in which sin primarily inheres; the disambiguation of 'will' as power versus act that blocks a false analogy about the power to sin; the inclusion of the habitual power to sin within the habitual power of prelacy; a cross-reference on the king/tyrant distinction; the restriction of obedience-owed-to-God-derived-power specifically to power instituted for obedience (excluding the devil's God-permitted power to harm); and a resolution of apparently conflicting cases about which of two powers commands greater obedience, via the distinction between total derivation of inferior from superior power (grounding unconditional greater obedience, as with God, emperor, and Pope) and joint derivation from one common source that subjects one to the other only in specific matters (grounding greater obedience only within those matters, as with bishops and archbishops both under papal power).",
+    "claims": [
+      "The power to sin is included within, not separate from, the power of prelacy, since office enables sins otherwise impossible — resolving the apparent mismatch between Lombard's proof-texts (about prelacy) and his stated topic (the power to sin).",
+      "Obedience is owed to a God-derived power only when God instituted that power specifically to receive obedience; the resolution of conflicting cases about 'greater' and 'lesser' power turns on whether the inferior power derives totally from the superior (unconditional priority) or both derive jointly from one common supreme source that subjects one to the other only in specific matters (conditional priority)."
+    ],
+    "concepts": ["power known through act", "will as primary locus of sin", "power of prelacy including power to sin", "total vs. partial derivation of inferior from superior power", "Pope as uniting spiritual and secular power"],
+    "_metadata": {
+      "level": "div",
+      "generation_method": "descendant_summaries",
+      "input_ids": ["ta-l2d44q2-d1e299"]
+    }
+  },
+
+  "ta-l2d44q2": {
+    "summary": "Quaestio 2 of Distinction 44 turns from the power to sin (Quaestio 1) to obedience owed to those in prelacy. It divides into a Prooemium and three articles, followed by an Expositio textus. Article 1 establishes that obedience is a special virtue — attending to the single formal aspect of precept-with-debt-of-consent even while, like magnanimity, extending across all other virtues' acts — and is a part (not adjunct) of justice taken in its common sense, serving as 'mother of the virtues' by disposing toward or causing them rather than, like charity, by final causation toward the ultimate end. Article 2 shows that the debt of obedience to secular authority tracks the divine origin of prelacy's form (surviving personal unworthiness but voided by violent or simoniacal acquisition), can require active disobedience when a command contradicts prelacy's very purpose, and is untouched by appeals to Christian freedom, since Baptism removes sin's guilt without immediately removing its temporal penalties like servitude. Article 3 shows that professed religious are bound by necessity only to 'imperfect' obedience — bounded by their specific rule's direct and indirect content — since the debt of obedience tracks prelacy's proper ordination (here, preserving religious life per the rule), while 'perfect,' unbounded obedience remains praiseworthy but supererogatory. The Expositio textus closes by clarifying that the power to sin is included within the power of prelacy (resolving an apparent mismatch in Lombard's proof-texts) and by resolving conflicting cases about which of two authorities commands greater obedience through the distinction between total and partial derivation of inferior from superior power.",
+    "claims": [
+      "A single principle unifies the quaestio: the debt of obedience — whether owed to a virtue's proper superior act (charity commanding obedience), to political authority (prelacy's divine form), or to religious superiors (the rule's proper scope) — is always measured by the proper ordination of the authority in question, never extending automatically to its full logical maximum.",
+      "Obedience is structurally parallel across all three articles: it is a determinate, rule-bound relation of debt arising from legitimate order, distinguishable from the merely honorable, non-obligatory extremes of either total refusal (when authority exceeds its purpose) or unbounded compliance (when obedience exceeds necessity)."
+    ],
+    "concepts": ["obedientia as special virtue", "debt of obedience tracks proper ordination of authority", "governing vs. abusive/illicit prelacy", "threefold grades of obedience"],
+    "_metadata": {
+      "level": "quaestio",
+      "generation_method": "descendant_summaries",
+      "input_ids": ["ta-l2d44q2-Dd1e92", "ta-l2d44q2-Dd1e101", "ta-l2d44q2-Dd1e163", "ta-l2d44q2-Dd1e225", "ta-l2d44q2-Dd1e294"]
+    }
+  }
+}

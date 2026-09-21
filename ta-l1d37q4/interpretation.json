@@ -1,0 +1,641 @@
+{
+  "_metadata": {
+    "schema_version": "1.0",
+    "generated_at": "2026-09-20T00:00:00Z",
+    "model": "claude-sonnet-5",
+    "prompt_version": "interpretation-v1",
+    "source_commit": "f5ab68dcb3e3e66d7e5ef97bd0725321273a809f",
+    "generation_method": "hierarchical"
+  },
+
+  "ta-l1d37q4-d1e97": {
+    "summary": "The Prooemium to Quaestio 4, a single paragraph turning to the motion of an angel and identifying the three articles to follow: whether an angel is moved; whether it necessarily traverses the medium in its motion; and whether its motion is in time or in an instant.",
+    "claims": [],
+    "concepts": ["angelic motion", "structure of the quaestio"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l1d37q4-Hd1e89"]
+    }
+  },
+
+  "ta-l1d37q4-d1e109": {
+    "summary": "First objection of Article 1. Per the Philosopher, motion is the act of something imperfect, being the act of what exists in potency as such. But an angel is perfect, especially the blessed angel. Therefore it is not moved.",
+    "claims": ["Since motion is by definition the act of an imperfect (potential) being, and an angel — especially a blessed one — is perfect, an angel cannot be moved."],
+    "concepts": ["motion as act of the imperfect", "act and potency"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l1d37q4-Hd1e106", "ta-l1d37q4-d1e134"]
+    }
+  },
+
+  "ta-l1d37q4-d1e112": {
+    "summary": "Second objection. Whatever is moved is moved by some species of motion. But surveying all species of motion and change, none applies to an angel: it is not increased or diminished, since it is not quantified; it is not generated or corrupted, having no internal contrariety to be corrupted per se and being per se subsistent so as not to be corrupted per accidens (through the corruption of a subject in which it inheres); and, as further argued, it is not altered (since alteration, per the Philosopher, concerns only sensible qualities and the sensible part of the soul, both absent from an angel) nor moved locally (since all local motion arises from some need, and the angel, especially the blessed one, needs nothing).",
+    "claims": [
+      "None of the standard Aristotelian species of motion (growth/diminution, generation/corruption, alteration, local motion) can apply to an angel, given its lack of quantity, contrariety, sensibility, and need."
+    ],
+    "concepts": ["species of motion", "alteration and sensible qualities", "local motion as arising from need"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l1d37q4-Hd1e106", "ta-l1d37q4-d1e138"]
+    }
+  },
+
+  "ta-l1d37q4-d1e115": {
+    "summary": "Third objection. If an angel moves locally, it moves from a to b, b being the first thing it changes into. While moving it must be in a, in b, or in both. It cannot be moving while in a (the beginning of motion is not motion) nor while in b (it is already changed there, and nothing is simultaneously moving and already changed). So it must be simultaneously in both — but it cannot be wholly in two places at once (established at Q3 A2). It would therefore have to be partly in a and partly in b, and hence divisible — an unfitting conclusion for an angel.",
+    "claims": ["Analyzing local motion into 'in a, in b, or in both' forces the conclusion that a moving angel would have to be partly in each of two places, implying it is divisible."],
+    "concepts": ["analysis of motion into termini", "divisibility as unfitting for an angel"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l1d37q4-Hd1e106", "ta-l1d37q4-d1e141"]
+    }
+  },
+
+  "ta-l1d37q4-d1e119": {
+    "summary": "Fourth objection, anticipating the reply that an angel is moved per accidens rather than per se in place. Against this: whatever is moved per accidens in place is moved along with the motion of that in which it is. But an angel is in whatever it operates on. So it would be moved per accidens along with that motion — yet by the same reasoning, since God too is in whatever he operates on, God would be moved locally per accidens, which is unfitting, since (per Physics 8) God is moved neither per se nor per accidens. By the same reasoning, then, neither should an angel be.",
+    "claims": ["If per-accidens motion follows automatically from being present in something that moves, then since God is likewise present in moving things, God would have to be moved per accidens too — an unacceptable conclusion that, by parity, should also block ascribing per-accidens motion to an angel."],
+    "concepts": ["per accidens motion", "Physics 8 on God's immobility", "parity argument between God and angel"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l1d37q4-Hd1e106", "ta-l1d37q4-d1e144"]
+    }
+  },
+
+  "ta-l1d37q4-d1e122": {
+    "summary": "Fifth objection. What the saints expound as metaphorical concerning God or angels should not be attributed to them without qualification. But Dionysius expounds the ascent and descent of angels as among the metaphorical expressions. So local motion should not be attributed to an angel without qualification.",
+    "claims": ["Dionysius's metaphorical reading of angelic ascent/descent suggests local motion cannot be attributed to angels in an unqualified, literal sense."],
+    "concepts": ["Dionysius", "metaphorical vs. unqualified predication"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l1d37q4-Hd1e106", "ta-l1d37q4-d1e147"]
+    }
+  },
+
+  "ta-l1d37q4-d1e125": {
+    "summary": "First sed contra. What is proper to something belongs to it alone. But immutability, as stated earlier (D8 Q3 A1), is proper to God. Therefore it does not belong to an angel, and so an angel can be moved.",
+    "claims": ["Since immutability is exclusively proper to God, it cannot belong to an angel, which therefore must be capable of motion."],
+    "concepts": ["divine immutability as incommunicable proprium"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l1d37q4-Hd1e106"]
+    }
+  },
+
+  "ta-l1d37q4-d1e128": {
+    "summary": "Second sed contra. Whatever is here and there, but not simultaneously, is moved locally. But an angel is not simultaneously in two places, as already established. Since one and the same angel is found in Scripture operating — and hence being — in diverse places (as with Gabriel in Luke 1, who announced to Zachariah in the temple and to Mary in Nazareth), it seems that an angel is moved according to place.",
+    "claims": ["The scriptural record of the same angel (Gabriel) being successively in different places, given that an angel cannot be in two places at once, entails that angels undergo local motion."],
+    "concepts": ["Gabriel's annunciations (Luke 1)", "successive non-simultaneous presence as the criterion of local motion"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l1d37q4-Hd1e106"]
+    }
+  },
+
+  "ta-l1d37q4-d1e131": {
+    "summary": "The main determination (respondeo) of Article 1. Thomas surveys three kinds of angelic motion handed down by the saints. The first is motion according to illuminations descending from God into the angel's mind — called motion only metaphorically — which Dionysius (De Div. Nom. 4) distinguishes into circular motion (the intellect's ascent to contemplation of God through the light originally received from him, uniform and self-returning), straight motion (the angel passing received light on to inferior beings in a direct line), and oblique motion (light's egress from God, reflected onward to inferiors who are led back not to the angel but to God — a motion composite of straight and circular, varying with the uniformity of light received, which differs between higher and lower angels). The second is motion through time, assigned by Augustine: since time measures successive things, all succession is called motion through time, and succession is found in the angel's intellect because an intellect that knows diverse things through diverse species cannot know them all simultaneously — an angel can know via the single likeness of the Word (seeing many things at once) or via its many innate/concreated species (which cannot all be actual at once), producing succession broadly called motion, though it differs from motion properly so called in not being from potency to act (but act to act) and in not being continuous, since continuity arises from the continuity of what underlies the motion, and there is no continuity, only succession, between two intellected species. The third is motion according to place, attributed to angels in the text on Ambrose's and Bede's authority: since being-moved-in-place follows being-in-place, and an angel is in place only equivocally (through operation applied to a place), its 'local motion' is simply the non-simultaneous succession of such place-applying operations, called 'successive' rather than continuous, just as the angel's intellectual conceptions succeed one another without continuity.",
+    "claims": [
+      "Angelic motion is threefold: metaphorical motion through illumination (circular, straight, oblique), motion through time as the succession of intellectual acts among diverse species, and motion through place as the succession of place-applying operations.",
+      "None of these three kinds of angelic motion is continuous in the manner of corporeal motion; each is a non-continuous succession — of illuminations, of intellectual acts, or of operations — and 'motion' is predicated of angels only equivocally with respect to bodies."
+    ],
+    "concepts": ["Dionysian threefold illumination (circular, straight, oblique)", "succession of intellectual species", "equivocal predication of motion", "successive vs. continuous"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l1d37q4-Hd1e106", "ta-l1d37q4-d1e125", "ta-l1d37q4-d1e128"]
+    }
+  },
+
+  "ta-l1d37q4-d1e134": {
+    "summary": "Reply to the first objection. Motion, properly taken, always belongs to something in potency; but sometimes, improperly, a thing's very operation is called its motion (as understanding and sensing), in which case motion is the act of something perfect (De Anima 3; operation is distinguished from motion in Ethics 10) — this is the sense Dionysius uses for the first mode of angelic motion (itself threefold). The other two modes do posit some imperfection in the angel, though not one incompatible with beatitude: imperfection appears only by comparison to God, who by one and the same act (his essence) sees all things and is everywhere simultaneously — a perfection the angel lacks, hence its passing from place to place (third mode) and from intellect to intellect (second mode).",
+    "claims": [
+      "'Motion' as used of the angel's first (illuminative) mode is really operation, the act of a perfect being, not motion in the strict potency-to-act sense.",
+      "The second and third modes do involve a real, if minor, imperfection relative to God's simultaneous, undivided knowledge and presence — but this imperfection does not compromise angelic beatitude."
+    ],
+    "concepts": ["operation as act of the perfect", "imperfection relative to God's simultaneity", "compatibility with beatitude"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l1d37q4-d1e109", "ta-l1d37q4-d1e131"]
+    }
+  },
+
+  "ta-l1d37q4-d1e138": {
+    "summary": "Reply to the second objection. The first mode of angelic motion is not reduced to any species of motion at all, being called motion only metaphorically, since it involves no transition from one thing to another (the angel always remains in the reception of divine light). The second mode has some likeness to alteration: the objection that alteration concerns only sensible qualities holds only when 'passion' is taken properly, as material transmutation departing from substance; taken broadly, as any reception (understanding itself being a kind of undergoing, per De Anima 3), alteration is also found in intellectual operations, as De Anima 3 calls the passage from idleness to act 'a new kind of alteration.' The third mode has likeness to local motion, which need not arise from the angel's own need but from ours — not as an ultimate end (just as the heavens' motion is not ultimately for the generation of lower bodies, since nothing exists for the sake of something baser than itself, but for assimilation to God through becoming, in its way, a cause of lower things), but analogously the angel's ultimate end in operating around us is to attain divine likeness by cooperating with God in leading lower things back to him, as Dionysius says.",
+    "claims": [
+      "The first mode of angelic motion is not really a species of motion at all, being metaphorical and involving no transition.",
+      "The second mode is genuinely analogous to alteration once 'passion' is understood broadly as any reception, including intellectual reception.",
+      "The third (local) mode of angelic motion serves not the angel's own need but ours, paralleling how the heavens' motion ultimately serves assimilation to God rather than the generation of lower bodies."
+    ],
+    "concepts": ["broad vs. proper sense of 'passion'", "alteration in intellectual operations", "assimilation to God as ultimate end", "angelic ministry to humans"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l1d37q4-d1e112", "ta-l1d37q4-d1e131"]
+    }
+  },
+
+  "ta-l1d37q4-d1e141": {
+    "summary": "Reply to the third objection. The argument would hold only if angelic motion were posited as continuous like a body's motion, in which case every part of the motion would itself have to be motion, requiring the angel to be partly in one place and partly in another as it left one continuous place and entered the next. But since angelic local motion is not continuous, no part of it need itself be motion: the angel is moved neither in a nor in b, though a and b are its termini — rather, the succession of being-in-a and being-in-b is itself called its motion, as is clear when its motion is considered according to intellect or affection, where the succession of intellections or affections is likewise simply called motion.",
+    "claims": ["Because angelic motion is non-continuous, the dilemma of the objection (the angel must be partly in each place) dissolves: the angel is simply successively in a, then in b, and that succession itself — not any intermediate partial state — is what 'motion' names."],
+    "concepts": ["non-continuity dissolving the divisibility problem", "succession as constituting motion"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l1d37q4-d1e115", "ta-l1d37q4-d1e131"]
+    }
+  },
+
+  "ta-l1d37q4-d1e144": {
+    "summary": "Reply to the fourth objection. In the manner described, an angel is moved per se according to place, just as it is per se in place by operating. But if 'motion in place' is taken in the corporeal mode, the angel is moved in place only per accidens, following the motion of an assumed body. It does not follow that God is moved per accidens in place, since nothing is moved per accidens by the motion of that in which it is unless it is definitively in it (such that it is not equally in another) — just as the soul is moved per accidens by the motion of the whole body, but not by the motion of the hand alone.",
+    "claims": [
+      "An angel is moved per se (properly) in place through operation, and only per accidens in the corporeal sense (via an assumed body).",
+      "The parity argument fails because per-accidens motion requires definitive (not merely operative-everywhere) presence, and God's mode of presence differs from an angel's in exactly this respect."
+    ],
+    "concepts": ["definitive presence as condition for per accidens motion", "soul-body analogy (whole body vs. hand)"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l1d37q4-d1e119", "ta-l1d37q4-d1e131"]
+    }
+  },
+
+  "ta-l1d37q4-d1e147": {
+    "summary": "This also resolves the fifth objection: local motion, insofar as it belongs to bodies, belongs to an angel only metaphorically; but speaking equivocally of motion (in the sense proper to angels established above), it belongs to an angel properly.",
+    "claims": ["Dionysius's metaphorical reading of angelic ascent/descent concerns motion in the corporeal sense; angelic motion in its own proper (equivocal) sense is not merely metaphorical."],
+    "concepts": ["equivocal vs. metaphorical predication of motion"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l1d37q4-d1e122", "ta-l1d37q4-d1e131"]
+    }
+  },
+
+  "ta-l1d37q4-d1e159": {
+    "summary": "First objection of Article 2. Per Physics 5, the medium is that into which what is changed arrives before its final terminus. So if an angel moves from a to c with b as medium, it must arrive at b before c, and so must traverse the medium.",
+    "claims": ["The Aristotelian definition of a medium as necessarily reached before the terminus entails that an angel moving from a to c must pass through the intervening medium b."],
+    "concepts": ["Physics 5 definition of medium"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l1d37q4-Hd1e156", "ta-l1d37q4-d1e181"]
+    }
+  },
+
+  "ta-l1d37q4-d1e162": {
+    "summary": "Second objection. Let the angel move from a to c with b as medium; when it is in c it has been changed. But before every 'having been changed' there precedes a 'being moved' (Physics 6). So it was being moved before reaching c. It was not being moved in a, since a was its indivisible place, and there is no motion in an indivisible. So it must have been moved in b, and thus must traverse the medium.",
+    "claims": ["The principle that 'being changed' is always preceded by 'being moved,' combined with the impossibility of motion in an indivisible place, forces the angel to be moved in the medium b, hence to traverse it."],
+    "concepts": ["Physics 6 principle (moved precedes changed)", "no motion in an indivisible"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l1d37q4-Hd1e156", "ta-l1d37q4-d1e184"]
+    }
+  },
+
+  "ta-l1d37q4-d1e165": {
+    "summary": "Third objection. When the angel is in a it is not in c. If it is afterward in c, either its essence is newly created there and corrupted here, or it passes through the medium. The first is impossible. Therefore it must pass through the medium.",
+    "claims": ["Since an angel's essence cannot be repeatedly annihilated and recreated to account for its change of location, it must instead pass continuously through the intervening medium."],
+    "concepts": ["exclusion of annihilation/recreation as an account of angelic relocation"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l1d37q4-Hd1e156"]
+    }
+  },
+
+  "ta-l1d37q4-d1e169": {
+    "summary": "Fourth objection, anticipating the reply that an angel, being of intellective nature, can pass from one thing to another without traversing a medium, as thought does. Against this: the succession of thoughts occurs through species equally present and close to the intellect, the species of a medial object being no closer than that of the extremes. But an angel existing in one place does not have all places equally present — one place is closer to it than another. So it seems the angel must arrive at the medium before the extreme, unlike thought.",
+    "claims": ["The thought-analogy fails because thought's objects (intelligible species) are all equally 'close' to the intellect, whereas places are not equally close to a located angel, so the angel should still have to traverse nearer places before farther ones."],
+    "concepts": ["disanalogy between intellectual succession and spatial succession", "relative proximity of places"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l1d37q4-Hd1e156", "ta-l1d37q4-d1e191"]
+    }
+  },
+
+  "ta-l1d37q4-d1e172": {
+    "summary": "First sed contra of Article 2, arguing (against needing to traverse the medium at all) via reductio: per Physics 6, and self-evidently, whatever moves traverses an equal space before a greater one. For an indivisible angel the only 'equal' place is an indivisible, punctual one. So if moved, it must traverse a point before a line — but between any two points there are infinitely many points, and the infinite cannot be traversed. So if the angel must traverse media, it could never get from the start of any line, however small, to its end.",
+    "claims": ["Requiring an indivisible angel to traverse media leads to an infinite regress of points that can never be completed, so the angel could never actually complete any local motion — an absurd result telling against the requirement to traverse the medium."],
+    "concepts": ["reductio via infinite points", "impossibility of traversing an actual infinite"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l1d37q4-Hd1e156", "ta-l1d37q4-d1e194"]
+    }
+  },
+
+  "ta-l1d37q4-d1e175": {
+    "summary": "Second sed contra. The same reasoning applies to one medium as to all of them. But the angel cannot traverse all media, since they are infinite (as established at Q2 A1 of this distinction). So it cannot traverse any of them either, and it therefore seems the angel always passes from place to place without traversing any medium.",
+    "claims": ["If traversing 'a' medium requires (by parity) being able to traverse 'all' media, and the latter is impossible (infinitely many media), then the angel cannot be required to traverse any medium at all."],
+    "concepts": ["parity between one medium and all media", "infinite media as an obstacle"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l1d37q4-Hd1e156", "ta-l1d37q4-d1e197"]
+    }
+  },
+
+  "ta-l1d37q4-d1e178": {
+    "summary": "The main determination (respondeo) of Article 2. Two opinions exist — some say an angel passes from place to place without traversing the medium, others that it does traverse the medium — and Thomas holds each is true in some respect. An angel can pass from place to place by traversing all the intervening media; it can also pass without being in any of them; and it can be in some but not others. The reason, drawn from what was established (D37 Q3 A2), is that the angel's essence in itself is absolute from every place and is defined to a place only through operation — not as operation proceeds from the essence, but as it terminates at what is operated on in a place. Since the angel's essence, considered in itself, is not bound to any particular place but indifferently related to all, its operation, when directed at a given place, can proceed immediately to a place near or far without the operation on the distant depending on the operation on the near. So, depending on whether it has something to operate on in all, some, or none of the intervening places, it can traverse all the media, some of them, or none.",
+    "claims": [
+      "An angel's traversal of media is not fixed one way but varies case by case, depending entirely on whether it has something to operate on in the intervening places.",
+      "Because the angel's essence is indifferently related to all places and its operation on a distant place does not depend on operating on nearer ones, it can reach a remote place immediately without needing to operate on, or thereby occupy, the intervening ones."
+    ],
+    "concepts": ["essence indifferent to place", "operation terminating in a place vs. proceeding from essence", "independence of operations on near and far places"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l1d37q4-Hd1e156", "ta-l1d37q4-d1e172", "ta-l1d37q4-d1e175"]
+    }
+  },
+
+  "ta-l1d37q4-d1e181": {
+    "summary": "Reply to the first objection. The objection fails once the Philosopher's own qualification is added: the medium is that into which what is continuously changed first arrives. But the angel's motion is not continuous, as already established (Article 1).",
+    "claims": ["The Physics 5 definition of medium presupposes continuous motion; since angelic motion is not continuous, the objection's inference does not go through."],
+    "concepts": ["continuity as a hidden premise of the medium argument"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l1d37q4-d1e159", "ta-l1d37q4-d1e178"]
+    }
+  },
+
+  "ta-l1d37q4-d1e184": {
+    "summary": "Reply to the second objection. It is true that 'being moved' always precedes 'having been changed,' but this holds differently for angelic and corporeal motion. In a body's motion, 'having been changed' is not a part of 'being moved' but its terminus, so the whole of 'being moved' precedes it, requiring something prior in which the motion occurred. But in the angel's non-continuous motion, 'having been changed' is itself one (the last) part of the motion, and the first part is where the motion begins; neither part is itself motion, but the succession of both is — so 'being moved' precedes 'having been changed' the way a whole precedes a part in a discrete quantity, not as a continuous prior state precedes its terminus.",
+    "claims": ["The 'moved precedes changed' principle applies differently to discrete (angelic) and continuous (corporeal) motion: in the discrete case, the 'precedence' is that of a whole (the two-part succession) over one of its parts, not of an intervening continuous process over its terminus."],
+    "concepts": ["discrete vs. continuous application of a shared principle", "whole and part in discrete succession"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l1d37q4-d1e162", "ta-l1d37q4-d1e178"]
+    }
+  },
+
+  "ta-l1d37q4-d1e188": {
+    "summary": "Reply to the third objection. That argument would hold for things determined to a 'where' by their very essence, which does not happen with an angel; hence its motion is only according to operations, which are here and there successively — not according to a continuously persisting essence that must pass through intervening positions.",
+    "claims": ["The 'newly created or must traverse the medium' dilemma presupposes essence-based location, which does not apply to an angel, whose location is entirely a function of successive operations."],
+    "concepts": ["essence-based vs. operation-based location"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l1d37q4-d1e165", "ta-l1d37q4-d1e178"]
+    }
+  },
+
+  "ta-l1d37q4-d1e191": {
+    "summary": "Reply to the fourth objection. The proposed analogy to thought is not entirely sufficient, since an angel understanding this and that is not thereby said to be here and there — existing in one place, it can understand what is in another place. But the analogy approaches the truth insofar as the succession of the angel's operations follows the succession found in its intellect.",
+    "claims": ["The thought-analogy is only partially apt: understanding itself does not locate an angel, but the succession of the angel's place-directed operations does mirror the succession already found in its intellectual acts."],
+    "concepts": ["limits of the intellect-motion analogy", "operation vs. understanding as the basis of location"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l1d37q4-d1e169", "ta-l1d37q4-d1e178"]
+    }
+  },
+
+  "ta-l1d37q4-d1e194": {
+    "summary": "Reply to the fifth objection. An angel can traverse all the media, but need not thereby count infinitely many points in a line, because the place an angel occupies is not always indivisible — sometimes it is divisible, as explained in the body of the article — and since no finite space is divided into infinitely many actually-taken divisions, it is clear the angel can traverse all the media.",
+    "claims": ["The infinite-points reductio fails because an angel's 'places' can be divisible spans, not indivisible points, and a finite divisible space is never actually divided into infinitely many parts."],
+    "concepts": ["divisible vs. indivisible angelic place", "potential vs. actual infinite division"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l1d37q4-d1e172", "ta-l1d37q4-d1e178"]
+    }
+  },
+
+  "ta-l1d37q4-d1e197": {
+    "summary": "Reply to the sixth objection. The same reasoning does not hold for all media: media can be taken as divisible (and finite) or as indivisible (and infinite, hence not actually traversable if enumerated). Moreover, the angel has something to operate on in one intervening place and not in another, so it follows that it passes through some media and not others.",
+    "claims": ["The 'one medium implies all media' parity fails because media are not uniform (divisible vs. indivisible) and because the angel's operative engagement differs from place to place."],
+    "concepts": ["non-uniformity of media", "operative engagement as the differentiator"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l1d37q4-d1e175", "ta-l1d37q4-d1e178"]
+    }
+  },
+
+  "ta-l1d37q4-d1e209": {
+    "summary": "First objection of Article 3. An angel's change of place is simpler than any corporeal change. But some corporeal changes are instantaneous, per the Commentator on Physics 6 (illumination, generation, corruption, and the like). Much more, then, should the angel's change be instantaneous.",
+    "claims": ["Since some corporeal changes are already instantaneous despite their relative complexity, the simpler change of angelic locomotion should be instantaneous a fortiori."],
+    "concepts": ["instantaneous corporeal changes (illumination, generation, corruption)", "Averroes (the Commentator)", "a fortiori argument from simplicity"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l1d37q4-Hd1e206", "ta-l1d37q4-d1e241"]
+    }
+  },
+
+  "ta-l1d37q4-d1e212": {
+    "summary": "Second objection, a detailed argument that if the angel's change from a to b is measured by a time c, it must be wholly in a throughout every prior and posterior part of that time (since it cannot be simultaneously partly in a and partly in b, being indivisible), which would mean it is at rest in a throughout — making part of its 'motion' actually rest, an absurd result, and further implying that the time in question measures its rest rather than its motion. It seems, therefore, that the angel is not moved in time at all.",
+    "claims": ["If a genuine time interval measured the angel's change, the indivisibility of the angel would force it to occupy the initial place throughout every sub-interval of that time, collapsing its supposed motion into rest — showing that the angel cannot be moved in (continuous) time."],
+    "concepts": ["indivisibility precluding partial presence", "motion collapsing into rest", "time measuring rest rather than motion"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l1d37q4-Hd1e206", "ta-l1d37q4-d1e244"]
+    }
+  },
+
+  "ta-l1d37q4-d1e215": {
+    "summary": "Third objection, a quantitative argument: if the angel moves in time, and a body of lesser power takes longer to cross the same space (since greater mover-power requires less time, per Physics 6), then by constructing a body g whose power exceeds the angel's original comparison body by exactly the same proportion by which the angel's time is shorter than the body's, one derives that the angel's time of motion would equal that of an ordinary corporeal mover g — even granting the angel its maximum possible speed. Since this equating of angelic and corporeal motion-times is impossible, it seems the angel is not moved in time.",
+    "claims": ["Treating angelic motion as measured by ordinary time, combined with the inverse relation between mover-power and motion-time, leads by construction to the absurd conclusion that some finite corporeal power could match the angel's motion-time exactly — showing the angel cannot be moved in (ordinary, proportional) time."],
+    "concepts": ["inverse proportion of power and time (Physics 6)", "proportionality of finite times (Physics 4)", "reductio via constructed comparison body"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l1d37q4-Hd1e206", "ta-l1d37q4-d1e247"]
+    }
+  },
+
+  "ta-l1d37q4-d1e219": {
+    "summary": "Fourth objection. All time is divisible. So if the angel moves from a to b in some time, it must be somewhere in the middle of that time — not in a (it was there at the start) nor in b (it was there at the end), and since in two instants it cannot be in the same 'where' (Physics 6), it must be in the middle of the space at the middle instant. But it does not necessarily traverse the medium (established in the preceding article). Therefore its motion is not in time.",
+    "claims": ["If the angel's motion occupied a genuine (divisible) time, it would have to occupy a middle place at the middle instant, contradicting the prior article's finding that the angel need not traverse any given medium — hence the motion cannot be in time."],
+    "concepts": ["divisibility of time entailing a middle state", "conflict with Article 2's findings on traversing media"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l1d37q4-Hd1e206", "ta-l1d37q4-d1e250"]
+    }
+  },
+
+  "ta-l1d37q4-d1e222": {
+    "summary": "First sed contra. Every motion and change has a before and after, since it has two termini, one following the other. But the number of before and after in motion is time (Physics 4). Therefore every motion, including the angel's, is measured by time.",
+    "claims": ["The general Aristotelian definition of time as the number of before-and-after in motion applies to any motion with two successive termini, including the angel's, so the angel's motion must be measured by time."],
+    "concepts": ["Aristotelian definition of time (Physics 4)", "before and after as constitutive of motion"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l1d37q4-Hd1e206", "ta-l1d37q4-d1e253"]
+    }
+  },
+
+  "ta-l1d37q4-d1e225": {
+    "summary": "Second sed contra. If the angel moves from a to b, either it is in both at the same instant — impossible, since that would mean simultaneous presence in two places and no actual motion toward b (nothing moves toward where it already is) — or it is in a and b at two different instants, c and d respectively. But between any two instants there is a medial time (Physics 6). Therefore the angel's motion is in time.",
+    "claims": ["Ruling out simultaneity forces distinct instants c and d for the angel's presence in a and b respectively, and since any two distinct instants necessarily bracket a medial time (per Physics 6), the angel's motion must occur in time."],
+    "concepts": ["exclusion of simultaneous bi-location", "necessity of a medial time between any two instants"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l1d37q4-Hd1e206", "ta-l1d37q4-d1e257"]
+    }
+  },
+
+  "ta-l1d37q4-d1e228": {
+    "summary": "A further argument continuing the sed contra line, rebutting the proposal that the two instants c and d succeed each other with no medium between them (as was said of the angel's operations). Constructing a body g moving alongside the angel from a to b beginning at the same instant c, and noting the angel arrives sooner, Thomas's interlocutor shows that at instant d the body is only at some intermediate point r; since the space ar is divisible at a point h, the body reaches h at some further intermediate instant n — at which the angel itself must be somewhere (not a, not b by the same non-repetition argument, hence in the medium). Repeating this process indefinitely shows that between any two instants of the angel's motion, a further instant and time can always be found, so the angel's motion must occur in continuous time.",
+    "claims": ["By pairing the angel's motion with an arbitrarily fine subdivision of a companion body's continuous motion, one can always locate the angel at some further intermediate instant, seemingly forcing the angel's own motion to be genuinely continuous rather than composed of just two bare successive instants."],
+    "concepts": ["constructed companion-body argument", "infinite subdivision forcing continuity"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l1d37q4-Hd1e206", "ta-l1d37q4-d1e260"]
+    }
+  },
+
+  "ta-l1d37q4-d1e231": {
+    "summary": "A further argument, addressing the proposal (by analogy with natural changes like white-to-black) that the angel's motion has no assignable last instant of being in a, only a last time whose limit is not-a. Against this: every non-perpetual motion is medial between two states of rest, at its initial and final termini alike, and just as the terminus-instant of motion goes with the following rest, the initial instant likewise goes with the preceding rest (as with white persisting through the whole initial time in the white-to-black case). Applying this to the angel moving from a to b in time cd: since (per Physics 6) whatever occupies one 'where' throughout a time is at rest there, and since that rest extends to the very limit of the time, the angel would still be in a, not b, at the final instant d — contradicting the very motion being described.",
+    "claims": ["The proposed asymmetric account (no last instant of being-in-a, only a last time) fails, because the same logic that assigns rest through a whole time to its final instant applies symmetrically to the initial instant, forcing the angel to still be at a — not b — at the time's endpoint, undermining the claim that it has moved at all."],
+    "concepts": ["symmetry of rest at both termini of a time interval", "white-to-black analogy from natural philosophy", "Physics 6 principle on rest throughout a time"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l1d37q4-Hd1e206", "ta-l1d37q4-d1e263"]
+    }
+  },
+
+  "ta-l1d37q4-d1e234": {
+    "summary": "A further argument. All time is caused by motion (Physics 4). But the angel is not moved while in a, nor has it any relation to a prior motion by whose time its rest there might be measured. So it is meaningless to say the angel is 'in a' during some time at all.",
+    "claims": ["Since time is caused by (continuous) motion, and the angel's static presence in a has no relation to any such motion, there is no legitimate time by which even the angel's initial resting presence could be measured."],
+    "concepts": ["time as caused by motion (Physics 4)", "absence of a measuring motion for angelic rest"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l1d37q4-Hd1e206", "ta-l1d37q4-d1e263"]
+    }
+  },
+
+  "ta-l1d37q4-d1e238": {
+    "summary": "The main determination (respondeo) of Article 3. Since every change has two termini that cannot coexist, every motion or change necessarily involves succession, and hence time (the number of before and after). But this happens in two different ways. When the terminus of motion is mediated from its principle — either by a medium of dimensive quantity (local motion, growth/diminution) or of virtual quantity gauged by intensification/remission of a form (alteration of sensible qualities) — time per se measures the motion itself, since the terminus is reached successively through a divisible medium. But when the terminus is not mediated from the principle — as in changes from privation to form or vice versa (generation, corruption, illumination) — time must still be attached (since a subject cannot simultaneously be under both form and privation), but not because the transition itself occurs in time; rather, one extreme (the one cast off) is conjoined to some continuous motion (e.g. the sun's local motion, in illumination), and the terminus of that continuous motion is also the terminus of the instantaneous change — hence such changes are said to occur 'in an instant,' as termini of a preceding continuous motion (per the Commentator on Physics 6). The angel's motion, however, cannot be the terminus of some other motion, so it must be in time, not in an instant — but a time other than that which measures the motion of the heavens, since (as philosophers prove regarding hypothetical plural worlds) a motion is measured by the heavens' motion only if ordered to it, and the angel's motion (a mere procession of operations, per Article 1) has no such order. Time has a formal aspect (the discrete number of before and after) and a material aspect (continuity, derived from the continuous motion — the heavens' — that is its primary subject); since the angel's motion is not continuous, lacking the conditions of magnitude proper to bodies, but consists of a succession of operations with no principle of continuity among them, the 'time' that numbers this succession is likewise not continuous but composed of discrete 'nows' succeeding one another — as many as there are operations composing the motion. Thomas notes this accords with the Philosopher's own remark (Physics 6) that it is equally impossible for an indivisible to be moved, for time to be composed of 'nows,' for motion to be composed of moments, and for a line to be composed of points — the line the angel traverses being continuous in itself, but not with respect to the angel's non-continuous traversal of it.",
+    "claims": [
+      "The angel's motion is genuinely in time, since every change with successive termini entails time — but this time is essentially different in kind from the continuous time that measures corporeal (especially celestial) motion.",
+      "Time has a formal component (discrete number of before/after) and a material component (continuity, borrowed from the primary continuous motion it measures); the angel's 'time' has only the formal component, being composed of discrete successive 'nows' equal in number to its successive operations.",
+      "This discrete, non-continuous angelic time is not an ad hoc device but is licensed by Aristotle's own parallel claims that the indivisible-moved, time-from-nows, motion-from-moments, and line-from-points are equally impossible or equally valid together."
+    ],
+    "concepts": ["mediated vs. unmediated terminus of change", "instantaneous change as terminus of a continuous motion", "formal vs. material aspect of time", "discrete time composed of successive nows", "Physics 6 parallel on indivisibles"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l1d37q4-Hd1e206", "ta-l1d37q4-d1e222", "ta-l1d37q4-d1e225", "ta-l1d37q4-d1e228", "ta-l1d37q4-d1e231", "ta-l1d37q4-d1e234"]
+    }
+  },
+
+  "ta-l1d37q4-d1e241": {
+    "summary": "Reply to the first objection. All the changes called instantaneous are termini of some prior (continuous) motion, which is not the case with the angel's motion, as explained in the body of the article.",
+    "claims": ["The instantaneous corporeal changes cited (illumination, generation, corruption) are instantaneous precisely as termini of a preceding continuous motion — a structural condition the angel's motion, having no such preceding motion, does not share."],
+    "concepts": ["instantaneous change as motion-terminus, disanalogous to angelic motion"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l1d37q4-d1e209", "ta-l1d37q4-d1e238"]
+    }
+  },
+
+  "ta-l1d37q4-d1e244": {
+    "summary": "Reply to the second objection. The time in which the angel moves from a to b is composed of just two instants; in one it is in a, in the other in b. It need not therefore be at rest in either of them — that would follow of necessity only if the time were continuous.",
+    "claims": ["The objection's inference to 'rest throughout' presupposes a continuous time interval; since the angel's time is discretely composed of exactly two instants, no intervening 'throughout' exists in which rest could be predicated."],
+    "concepts": ["two-instant discrete time blocking the rest-inference"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l1d37q4-d1e212", "ta-l1d37q4-d1e238"]
+    }
+  },
+
+  "ta-l1d37q4-d1e247": {
+    "summary": "Reply to the third objection. No proportion can be taken between the time in which a body moves and the time in which an angel moves, because the angel's time is divisible not by the division of the continuum but of the discrete, into a finite number of instants, whereas a body's time contains infinitely many instants in potency; there is accordingly no proportion between them, just as there is none between the infinite and the finite.",
+    "claims": ["The quantitative reductio fails because angelic and corporeal times are incommensurable in kind (finite-discrete vs. potentially-infinite-continuous), so no proportion — and hence no equating construction — between them is possible in the first place."],
+    "concepts": ["incommensurability of discrete finite and continuous infinite times", "no proportion between finite and infinite"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l1d37q4-d1e215", "ta-l1d37q4-d1e238"]
+    }
+  },
+
+  "ta-l1d37q4-d1e250": {
+    "summary": "Reply to the fourth objection. The time in which the angel moves is divisible into two instants not joined to any common terminus, since this time is not continuous. It therefore does not follow that at a 'middle instant' the angel is in the middle of the space, because there is no need to take any middle instant at all.",
+    "claims": ["Since the angel's two-instant time has no continuum-structure, the very premise of the objection — that a middle instant must exist — fails to apply."],
+    "concepts": ["absence of a middle instant in discrete time"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l1d37q4-d1e219", "ta-l1d37q4-d1e238"]
+    }
+  },
+
+  "ta-l1d37q4-d1e253": {
+    "summary": "Reply to the fifth objection (the first sed contra argument, d1e222), opening a further round of replies to the arguments that seemed to prove the angel's time continuous. Every motion has a before and after, but differently: in continuous motion, before and after are taken relative to two times joined at one 'now,' or two 'nows' bracketing one time; in instantaneous changes, the 'before' is the time itself measuring the preceding motion (to which one extreme is annexed) and the 'after' is the terminating 'now,' with no medium falling between them (just as none falls between a time and a bare 'now'). In the angel's motion, before and after are simply two successive 'nows' with no medial continuing time between them.",
+    "claims": ["The Physics 4 definition of time as 'number of before and after' is satisfied by the angel's two bare successive 'nows' without requiring any continuous medial time between them, on the model of how a time and its bounding instantaneous 'now' relate without a medium."],
+    "concepts": ["before/after without a medial continuum", "analogy to time-and-terminating-now relation"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l1d37q4-d1e222", "ta-l1d37q4-d1e238"]
+    }
+  },
+
+  "ta-l1d37q4-d1e257": {
+    "summary": "Reply to the sixth objection (the second sed contra argument, d1e225). That a medial time exists between any two 'nows' follows upon time by reason of continuity, this being a property common to every continuum, and continuity itself derives from (continuous) motion. Since the angel's motion is not continuous, that inference does not follow for its two 'nows.'",
+    "claims": ["The 'medial time between any two instants' principle presupposes continuity, which the angel's motion lacks, so it cannot be invoked to force a continuous time between the angel's two successive instants."],
+    "concepts": ["continuity as the source of the between-instants principle"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l1d37q4-d1e225", "ta-l1d37q4-d1e238"]
+    }
+  },
+
+  "ta-l1d37q4-d1e260": {
+    "summary": "Reply to the seventh objection (the companion-body argument, d1e228). If the angel's and a body's motions begin simultaneously, then whenever the angel reaches its second terminus at its second instant, the body will likewise be at some instant of its own (continuous) time — and since the body's motion is continuous, a medial instant can indeed be designated within its time. But no medial time exists between the angel's own two instants, so no medial instant of the angel's own motion need be designated — though one can be if the angel occupies three places successively (giving it three 'nows,' the middle one medial). The angel's two instants can include the body's entire (infinite) span of instants, just as a single standing 'now' of aeviternity includes the whole of time — so it is not incongruous that the angel's motion occupies only two instants while the body's occupies infinitely many, even though both motions last exactly as long, and neither is wholly indivisible. Moreover, when the body is at its own middle instant, the angel may be in no place at all, since it need not always be in a place (Q3 A1) — so, coordinated against continuous time, no 'now' corresponds to the angel at all, only aeviternity.",
+    "claims": [
+      "The companion-body construction does not force continuity onto the angel's own time: the continuity belongs entirely to the body's motion, while the angel's two instants can encompass the body's whole continuous span without themselves being continuously subdivided — analogous to how aeviternity's single standing 'now' encompasses all of time.",
+      "During the interval the companion body occupies, the angel may correspond to no instant at all, since it need not occupy any place continuously — its presence is punctuated, aeviternal, not temporal in the corporeal sense."
+    ],
+    "concepts": ["aeviternity's single 'now' containing all time", "angelic time encompassing continuous time without matching it instant-for-instant", "angel's non-necessity of always being in a place"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l1d37q4-d1e228", "ta-l1d37q4-d1e238"]
+    }
+  },
+
+  "ta-l1d37q4-d1e263": {
+    "summary": "A brief closing note: 'the others we concede' — the two remaining arguments (d1e231 and d1e234) are granted rather than refuted, since, properly understood, they support rather than undermine Thomas's own position that the angel's time is discrete and non-continuous rather than a genuine continuum.",
+    "claims": ["The final two objections in the sed contra series are not defeated but accepted, since their conclusions (e.g. the absence of an intrinsic measuring motion, or the asymmetric-instant puzzle) are consistent with, rather than opposed to, the respondeo's account of discrete angelic time."],
+    "concepts": ["concession of arguments compatible with the respondeo"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l1d37q4-d1e231", "ta-l1d37q4-d1e234", "ta-l1d37q4-d1e238"]
+    }
+  },
+
+  "ta-l1d37q4-d1e273": {
+    "summary": "The Expositio textus glosses three phrases from the base text. (1) On 'God, omnipotent, by unchangeable eternity, will, and truth, always the same, moves the spiritual creature through time': the distinction among these kinds of motion, and the reason for their names, was already given at Distinction 8. (2) On 'just as this earth (humus) or this light is diffused': this is said because nothing has extension (distensio) in place except insofar as it is quantified — either per se, as bodies are (hence the example of humus, i.e. earth), or per accidens, as corporeal qualities such as light are. (3) On 'there is one wisdom, neither greater in the greater nor lesser in the lesser': wisdom can be considered either with respect to the knowable object, in which case it has unity of species even as differently possessed by different knowers, or with respect to the esse it has in the knower, in which case it differs numerically from subject to subject — yet it is never greater or lesser by bodily quantity, not being a form with spatial extension, but it can be greater or lesser according to the intensity of its certitude or the number of things known.",
+    "claims": [
+      "The threefold motion attributed to spiritual creatures in this text (by eternity, will, truth) was already distinguished and explained at Distinction 8.",
+      "Extension in place presupposes quantification, either substantial (as in bodies) or accidental (as in light and other corporeal qualities), which is why 'earth' and 'light' serve as the text's illustrative examples.",
+      "Wisdom is specifically one relative to its object but numerically multiplied across knowers, and admits of greater/lesser only by intensity of certitude or breadth of what is known, never by spatial quantity."
+    ],
+    "concepts": ["threefold motion by eternity/will/truth", "quantification as condition for spatial extension", "unity of species vs. numerical multiplication", "intensive vs. quantitative greater/lesser"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["ta-l1d37q4-Hd1e270", "ta-l1d37q4-Qd1e274", "ta-l1d37q4-Qd1e277", "ta-l1d37q4-Qd1e280"]
+    }
+  },
+
+  "ta-l1d37q4-Dd1e92": {
+    "summary": "The Prooemium to Quaestio 4, a single paragraph identifying the three articles on angelic motion: whether an angel is moved, whether it necessarily traverses the medium in motion, and whether its motion is in time or in an instant.",
+    "claims": [],
+    "concepts": ["structure of the quaestio", "angelic motion"],
+    "_metadata": {
+      "level": "div",
+      "generation_method": "descendant_summaries",
+      "input_ids": ["ta-l1d37q4-d1e97"]
+    }
+  },
+
+  "ta-l1d37q4-Dd1e101": {
+    "summary": "Article 1 asks whether an angel is moved. Five objections deny genuine angelic motion, from motion's definition as the act of the imperfect, the failure of any Aristotelian species of motion to fit an angel, a divisibility problem generated by analyzing local motion into 'in a, in b, or in both,' a parity argument threatening to make even God move per accidens, and Dionysius's metaphorical reading of angelic ascent/descent. Two sed contra arguments counter that immutability is proper to God alone (so angels must be mutable) and that Scripture's record of one angel (Gabriel) acting successively in different places entails local motion. In the respondeo, Thomas distinguishes three kinds of angelic motion handed down by the saints — metaphorical motion through illumination (Dionysius's circular, straight, and oblique modes), motion through time as the non-continuous succession of intellectual acts among diverse species, and motion through place as the non-continuous succession of place-applying operations — none of them continuous in the corporeal sense, and 'motion' being predicated of angels only equivocally. The replies clarify that the first mode is really operation (act of the perfect) rather than motion in the strict sense, that the second and third modes involve a real but beatitude-compatible imperfection relative to God's simultaneous omniscience and omnipresence, that non-continuity dissolves the divisibility problem, that per-accidens motion requires definitive presence (which distinguishes the angel's case from God's), and that Dionysius's metaphor concerns the corporeal sense of motion, not the proper, equivocal sense applicable to angels.",
+    "claims": [
+      "An angel undergoes motion only equivocally with respect to bodies, in three modes — illuminative (really operation, not motion), intellectual (succession among species), and local (succession of place-applying operations) — none of them continuous.",
+      "The imperfection these modes reveal, relative to God's simultaneous, undivided knowledge and presence, is real but does not conflict with angelic beatitude."
+    ],
+    "concepts": ["equivocal predication of motion to angels", "Dionysian threefold illumination", "non-continuous succession", "definitive presence and per accidens motion"],
+    "_metadata": {
+      "level": "articulus",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "ta-l1d37q4-d1e109", "ta-l1d37q4-d1e112", "ta-l1d37q4-d1e115", "ta-l1d37q4-d1e119", "ta-l1d37q4-d1e122",
+        "ta-l1d37q4-d1e125", "ta-l1d37q4-d1e128", "ta-l1d37q4-d1e131",
+        "ta-l1d37q4-d1e134", "ta-l1d37q4-d1e138", "ta-l1d37q4-d1e141", "ta-l1d37q4-d1e144", "ta-l1d37q4-d1e147"
+      ]
+    }
+  },
+
+  "ta-l1d37q4-Dd1e151": {
+    "summary": "Article 2 asks whether an angel necessarily traverses the medium in its motion. Four objections argue that it must (from the Physics 5 definition of medium, from the 'moved precedes changed' principle combined with the impossibility of motion in an indivisible, from the need to avoid positing repeated annihilation/creation, and from a disanalogy between spatial proximity and the equal presence of intelligible species in thought). Two sed contra arguments push toward the opposite extreme by reductio, showing that requiring the angel to traverse media leads to an unfinishable infinite regress of points, and that if traversing 'one' medium requires (by parity) traversing 'all,' and all is impossible, then none can be required. In the respondeo, Thomas takes a middle position: since an angel is defined to a place only by its operation's terminus, and its essence is indifferently related to all places (so that its operation on a distant place does not depend on operating nearer ones), it can traverse all media, some, or none, depending simply on whether it has something to operate on in each intervening place. The replies show that the medium-definition presupposes continuity (absent in angelic motion), that the 'moved precedes changed' principle applies differently to discrete succession than to continuous process, that essence-based location (which the dilemma-argument presupposes) does not apply to angels, that the thought-analogy is only partly apt, and that the infinite-points and one-medium/all-media reductios both fail once it is recognized that angelic places can be divisible spans (not indivisible points) and that operative engagement, not any uniform rule, determines which media are actually traversed.",
+    "claims": [
+      "Whether an angel traverses a given medium depends entirely on whether it has something to operate on there; it can traverse all, some, or none of the intervening media on a given occasion.",
+      "The standard medium-traversal arguments (from Physics 5, the moved/changed principle, and the infinite-points and infinite-media reductios) all fail once applied to angelic motion, because they presuppose continuity, essence-based location, or indivisible points — none of which govern the angel's operation-based mode of local presence."
+    ],
+    "concepts": ["operation-terminated definition of place", "essence indifferent to distance", "divisible vs. indivisible angelic place", "operative engagement as determinant of traversal"],
+    "_metadata": {
+      "level": "articulus",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "ta-l1d37q4-d1e159", "ta-l1d37q4-d1e162", "ta-l1d37q4-d1e165", "ta-l1d37q4-d1e169",
+        "ta-l1d37q4-d1e172", "ta-l1d37q4-d1e175", "ta-l1d37q4-d1e178",
+        "ta-l1d37q4-d1e181", "ta-l1d37q4-d1e184", "ta-l1d37q4-d1e188", "ta-l1d37q4-d1e191", "ta-l1d37q4-d1e194", "ta-l1d37q4-d1e197"
+      ]
+    }
+  },
+
+  "ta-l1d37q4-Dd1e201": {
+    "summary": "Article 3 asks whether an angel is moved in an instant (rather than in time). Four objections argue for instantaneity, from the simplicity of angelic change relative to already-instantaneous corporeal changes, from a detailed argument that a genuine time interval would collapse the angel's motion into rest, from a quantitative reductio equating angelic and corporeal motion-times, and from the conflict between occupying a 'middle instant' and the previous article's finding that the angel need not traverse any given medium. A lengthy sed contra series (five arguments) presses in the opposite direction, arguing from the general definition of time as before-and-after, from the necessity of distinct instants for distinct locations, from a constructed companion-body argument forcing ever-finer subdivision, and from a symmetry argument about rest at both termini of a time interval — concluding that the angel's motion must occur in genuinely continuous time. In the respondeo, Thomas charts a middle course: every change involves succession and hence time, but only changes with a *mediated* terminus (reached through a continuous quantitative medium) are measured by continuous time per se; changes with an *unmediated* terminus (privation-to-form changes like generation, corruption, illumination) are instantaneous only as termini of some other continuous motion — a structure the angel's motion, having no other motion to terminate, cannot share. The angel's motion is therefore genuinely in time, but in a distinct, non-continuous kind of time composed of discrete 'nows' equal in number to its successive operations, lacking the continuity that corporeal time borrows from the continuous motion of the heavens. The replies work through each objection and sed contra argument in turn, showing that the instantaneous-corporeal-change analogy fails (angelic motion has no preceding motion to terminate), that the rest-collapse and middle-instant arguments presuppose a continuous time the angel's two-instant time does not have, that no proportion exists between angelic and corporeal motion-times (finite-discrete vs. potentially-infinite-continuous), that the medial-time-between-any-two-instants principle presupposes continuity absent from angelic motion, and that the companion-body construction shows only that the angel's discrete instants can encompass a body's continuous span (as aeviternity's single 'now' encompasses all of time) without themselves being continuous — with the remaining two sed contra arguments conceded as actually compatible with, rather than opposed to, this account.",
+    "claims": [
+      "The angel's motion occurs in time, but in a distinct kind of time from the continuous time measuring corporeal motion: it is composed of discrete successive 'nows,' one per operation, lacking the continuity that ordinary time borrows from the continuous motion of the heavens.",
+      "Instantaneous corporeal changes (generation, corruption, illumination) are instantaneous only because they are termini of some preceding continuous motion — a structural feature the angel's motion lacks, which is precisely why it is temporal (though discretely so) rather than instantaneous.",
+      "Because angelic and corporeal time differ in kind (discrete-finite vs. continuous-infinitely-divisible), no proportion can be drawn between them, defusing the quantitative reductio arguments; and the angel's discrete instants can encompass an arbitrarily long span of continuous corporeal time without becoming continuous themselves."
+    ],
+    "concepts": ["mediated vs. unmediated terminus of change", "discrete time composed of successive nows", "aeviternity", "incommensurability of discrete and continuous time", "formal vs. material aspect of time"],
+    "_metadata": {
+      "level": "articulus",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "ta-l1d37q4-d1e209", "ta-l1d37q4-d1e212", "ta-l1d37q4-d1e215", "ta-l1d37q4-d1e219",
+        "ta-l1d37q4-d1e222", "ta-l1d37q4-d1e225", "ta-l1d37q4-d1e228", "ta-l1d37q4-d1e231", "ta-l1d37q4-d1e234",
+        "ta-l1d37q4-d1e238",
+        "ta-l1d37q4-d1e241", "ta-l1d37q4-d1e244", "ta-l1d37q4-d1e247", "ta-l1d37q4-d1e250",
+        "ta-l1d37q4-d1e253", "ta-l1d37q4-d1e257", "ta-l1d37q4-d1e260", "ta-l1d37q4-d1e263"
+      ]
+    }
+  },
+
+  "ta-l1d37q4-Dd1e268": {
+    "summary": "The Expositio textus, a single paragraph glossing three phrases of the base text: a cross-reference to Distinction 8 for the distinction among the kinds of motion (by eternity, will, truth) attributed to the spiritual creature; an explanation that spatial extension (as illustrated by earth and light) presupposes quantification, whether substantial or accidental; and a clarification that wisdom is one in species relative to its object but numerically multiplied across knowing subjects, admitting of greater or lesser only by intensity of certitude or breadth of knowledge, never by spatial quantity.",
+    "claims": [
+      "Spatial extension in the text's examples (earth, light) presupposes quantification, substantial for bodies and accidental for qualities like light.",
+      "Wisdom's numerical multiplication across knowers does not entail spatial magnitude; its 'greater and lesser' is purely intensive (certitude) or extensive-in-content (number of things known)."
+    ],
+    "concepts": ["quantification as condition for extension", "intensive vs. quantitative greater/lesser", "unity of species vs. numerical multiplication"],
+    "_metadata": {
+      "level": "div",
+      "generation_method": "descendant_summaries",
+      "input_ids": ["ta-l1d37q4-d1e273"]
+    }
+  },
+
+  "ta-l1d37q4": {
+    "summary": "Quaestio 4 of Distinction 37 investigates the motion of an angel, following the treatment of angelic place in Quaestio 3. It divides into a Prooemium and three articles. Article 1 establishes that an angel is moved only equivocally with respect to bodies, in three non-continuous modes — illuminative (properly operation, not motion), intellectual (succession among species of knowledge), and local (succession of place-applying operations) — each revealing a real but beatitude-compatible imperfection relative to God's simultaneous, undivided knowledge and presence. Article 2 shows that whether an angel traverses the medium between two places depends entirely on whether it has something to operate on in the intervening places, since its essence, being indifferent to distance and defined to place only by its operation's terminus, can direct that operation immediately to a near or far place without dependency between them. Article 3 shows that angelic motion, while genuinely temporal (since every change involves succession), occurs in a distinct, discrete kind of time — composed of successive 'nows' equal in number to the angel's operations — rather than the continuous time that measures corporeal, especially celestial, motion, because the angel's motion (unlike instantaneous corporeal changes) is not the terminus of any prior continuous motion, and because angelic and corporeal time are simply incommensurable in kind. The Expositio textus closes with brief glosses on the base text's threefold motion of the spiritual creature, on quantification as the condition for spatial extension, and on the purely intensive (not quantitative) sense in which created wisdom admits of greater and lesser.",
+    "claims": [
+      "Angelic motion is real but equivocal with respect to corporeal motion: non-continuous in all three of its modes (illuminative, intellectual, local), variable in its traversal of media according to where the angel has something to operate on, and measured by a discrete, non-continuous time incommensurable with the continuous time of corporeal motion.",
+      "The angel's mode of motion, place, and time are all ultimately grounded in the same principle — that an angel's relation to place and succession is constituted entirely by its operations, not by any essence-based determination to a 'where,' unlike bodies, whose motion, place, and time are grounded in continuous magnitude."
+    ],
+    "concepts": ["equivocal predication of motion", "operation-grounded location and succession", "discrete vs. continuous time", "aeviternity", "incommensurability of angelic and corporeal measures"],
+    "_metadata": {
+      "level": "quaestio",
+      "generation_method": "descendant_summaries",
+      "input_ids": ["ta-l1d37q4-Dd1e92", "ta-l1d37q4-Dd1e101", "ta-l1d37q4-Dd1e151", "ta-l1d37q4-Dd1e201", "ta-l1d37q4-Dd1e268"]
+    }
+  }
+}
