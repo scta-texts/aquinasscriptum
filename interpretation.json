@@ -1,0 +1,207 @@
+{
+  "_metadata": {
+    "schema_version": "1.0",
+    "generated_at": "2026-10-03T00:00:00Z",
+    "model": "claude-opus-5-5",
+    "prompt_version": "interpretation-v1",
+    "source_commit": "4fb0aa0b8b8d050f814dea91432e72041c8d5e34",
+    "generation_method": "hierarchical",
+    "scope": "Ancestor levels above the item for the Book I Prologue, Book I Distinction 37, and Book II Distinction 44, together with partial Book I, Book II, and whole-work entries built from them."
+  },
+  "ta-l1prol": {
+    "summary": "The Prologue to Book I has a single quaestio. In it Aquinas comments on Lombard's prologue and then sets out a methodological account of sacred doctrine in five articles. Theology is necessary beyond philosophy because the human end is the immediate vision of God, which no creaturely knowledge reaches. It is one science, unified by the divine light under which it considers all things, and it commands the other sciences and uses them as servants. It is principally speculative, a true science whose principles are the articles of faith, and it is wisdom in the highest sense. Its subject is God, together with all things as they come from God and are ordered to God. Its many modes, and the fourfold sense of Scripture, follow from its revealed matter and its ends, with argument reserved to the literal sense. The Prologue thus sets the epistemic terms for the whole Scriptum: a single, contemplative science that rests on revealed principles and is ordered to beatitude.",
+    "claims": [
+      "Sacred doctrine is necessary beyond philosophy because the human end, the vision of God, exceeds what natural reason can attain.",
+      "Sacred doctrine is a single, principally speculative science and wisdom, whose principles are the articles of faith and which commands the philosophical disciplines.",
+      "Its subject is God and all things as related to God, and its modes of procedure and the senses of Scripture derive from its revealed principles and its ends."
+    ],
+    "concepts": [
+      "sacra doctrina",
+      "necessity of revelation",
+      "theology as science",
+      "sapientia",
+      "articles of faith as principles",
+      "subject of theology",
+      "modus procedendi",
+      "fourfold sense of Scripture",
+      "philosophy as handmaid"
+    ],
+    "_metadata": {
+      "level": "prologus",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "ta-l1prolq1"
+      ],
+      "partial": false,
+      "model": "claude-opus-5-5",
+      "prompt_version": "interpretation-v1",
+      "generated_at": "2026-10-03T00:00:00Z",
+      "source_commit": "4fb0aa0b8b8d050f814dea91432e72041c8d5e34",
+      "source_structure": "scta-projectfiles/ta-projectdata.xml"
+    }
+  },
+  "ta-l1d37": {
+    "summary": "Distinction 37 of Book I treats the presence and location of spiritual beings in four quaestiones, moving from God to the angels. Quaestio 1 shows that God is essentially and immediately in every creature as the continuous cause of its esse. It then distinguishes a common mode of presence (by essence, presence, and power), a special mode by grace in the saints, and a unique mode by union in Christ. These modes are really grounded in the creature's cumulative conjunction to God and are only rationally distinct on God's side. Quaestio 2 argues that God is properly everywhere, in the spiritual sense of containing and conserving rather than being contained. Such per se omnipresence belongs to God alone because it presupposes infinite power, and it holds only from time, not from eternity, since it is a relation founded on God's operation toward creatures. Quaestio 3 turns to the angel. An angel is in place only through its operation, is in exactly one place at a time because its finite power sustains one operation terminating in one object, and cannot share its proper place with another angel of the same kind of operation. Quaestio 4 treats angelic motion. It is equivocal with respect to bodily motion and non-continuous in its illuminative, intellectual, and local modes. Whether an angel passes through a medium depends on whether it operates there, and its motion is measured by a discrete time of successive 'nows', incommensurable with the continuous time of bodies. One contrast runs through the distinction. God's infinite power and self-identical operation make him present to all things at once and from within, as the giver of esse. The angel's finite operation alone defines its place, its motion, and its time.",
+    "claims": [
+      "God is present in all things essentially, immediately, and properly everywhere as the cause of their esse, with modes of presence (common, grace, union) really grounded in the creature and only rationally distinct in God.",
+      "Divine omnipresence belongs to God alone because it presupposes infinite power, and it holds only temporally because it is a relation founded on operation toward creatures.",
+      "An angel's place, motion, and time are all constituted by its finite operation: it is in one place at a time, cannot share a proper place with a like angel, moves non-continuously, and is measured by discrete time.",
+      "The contrast between divine infinity and angelic finitude of power and operation explains the difference between God's omnipresence and the angel's definitive, single location."
+    ],
+    "concepts": [
+      "divine omnipresence",
+      "esse",
+      "modes of divine presence",
+      "grace",
+      "hypostatic union",
+      "ubique",
+      "operator-in-operated presence",
+      "definitive vs. circumscriptive presence",
+      "angelic motion",
+      "discrete vs. continuous time",
+      "divine infinity vs. angelic finitude"
+    ],
+    "_metadata": {
+      "level": "distinctio",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "ta-l1d37q1",
+        "ta-l1d37q2",
+        "ta-l1d37q3",
+        "ta-l1d37q4"
+      ],
+      "partial": false,
+      "model": "claude-opus-5-5",
+      "prompt_version": "interpretation-v1",
+      "generated_at": "2026-10-03T00:00:00Z",
+      "source_commit": "4fb0aa0b8b8d050f814dea91432e72041c8d5e34",
+      "source_structure": "scta-projectfiles/ta-projectdata.xml"
+    }
+  },
+  "ta-l2d44": {
+    "summary": "Distinction 44, the last of Book II, moves from the act of sin to the power to sin, and from there to authority (praelatio) and the obedience owed to it. It has two quaestiones. Quaestio 1 holds that the power to sin, insofar as it is a power, is from God. The defect that lets it fail, which is rooted in the creature's coming from nothing, is in no way from God. The same principle-and-defect structure is applied to prelacy, analyzed by its principle (mode of acquisition), its form (the order of ruler to ruled), and its use. Every prelacy is from God simply by its form, while an unjust principle or use is not from God, except in the qualified sense that God may permit it as just punishment of subjects. Quaestio 1 also distinguishes governing prelacy, ordered to the subjects' good, from dominative prelacy, ordered to the ruler's own good. Dominion over irrational creatures, and directive governance among humans, would have existed without sin. Domination of one human by another presupposes sin. Quaestio 2 treats obedience. It is a special virtue and a part of justice, and it is called 'mother of the virtues' because it disposes to the other virtues. The debt of obedience to secular rulers follows the divine origin of prelacy's form. Personal unworthiness does not void it, but violent or simoniacal acquisition does, and commands that contradict prelacy's purpose may be refused. Baptism does not dissolve servitude, since it removes guilt without at once removing temporal penalties. Religious are bound only to the obedience their rule specifies, and unbounded obedience is praiseworthy but not required. The Expositio textus places the power to sin within the power of prelacy and settles conflicts between authorities by asking whether the lower power derives from the higher wholly or only in part. Throughout, what is positive in a power or an authority is from God, defect is not, and the debt of obedience is measured by each authority's proper ordination.",
+    "claims": [
+      "In both the power to sin and prelacy, what is positively power or form is from God, while defect (rooted in creation ex nihilo, or in an unjust principle or use) is not from God except in a qualified sense.",
+      "Prelacy divides into a governing mode compatible with unfallen rational nature in its directive use and a dominative mode over humans that is a consequence of sin.",
+      "Obedience is a special virtue, a part of justice, and the debt of obedience, whether to secular or religious superiors, is measured by the proper ordination of the authority, not extended to its logical maximum."
+    ],
+    "concepts": [
+      "potentia peccandi",
+      "ex nihilo as root of defectibility",
+      "praelatio",
+      "principle/form/use distinction",
+      "governing vs. dominative prelacy",
+      "obedientia as special virtue",
+      "debt of obedience",
+      "political authority",
+      "religious obedience",
+      "servitude and sin"
+    ],
+    "_metadata": {
+      "level": "distinctio",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "ta-l2d44q1",
+        "ta-l2d44q2"
+      ],
+      "partial": false,
+      "model": "claude-opus-5-5",
+      "prompt_version": "interpretation-v1",
+      "generated_at": "2026-10-03T00:00:00Z",
+      "source_commit": "4fb0aa0b8b8d050f814dea91432e72041c8d5e34",
+      "source_structure": "scta-projectfiles/ta-projectdata.xml"
+    }
+  },
+  "ta-l1": {
+    "summary": "This summary of Book I is partial. It rests only on the Prologue and Distinction 37, which are 2 of the book's 49 direct divisions, and should not be read as an account of Book I as a whole. The Prologue defines sacred doctrine as a single, principally speculative science and wisdom. Its principles are the articles of faith, its subject is God and all things as related to God, and it is necessary because the human end, the vision of God, lies beyond natural reason. Distinction 37 treats how God is in things and everywhere: essentially and immediately as the cause of esse, with modes of presence by grace and by union, and with an omnipresence that belongs to God alone because of his infinite power. It contrasts this with the angels, whose finite operation alone defines their place, motion, and time. Read together, these two divisions show a theology grounded in revealed principles that treats God as the source and end of all things, and that marks off divine infinity from the finitude of even the highest creatures. The intervening distinctions are not yet interpreted and are not represented here.",
+    "claims": [
+      "On the evidence of the Prologue, Book I treats theology as a unified, revealed science whose subject is God and all things as ordered to God.",
+      "On the evidence of Distinction 37, Book I explains God's presence in creatures through his causality of esse and distinguishes divine omnipresence from the operation-bound location of angels."
+    ],
+    "concepts": [
+      "sacra doctrina",
+      "theology as science",
+      "subject of theology",
+      "divine omnipresence",
+      "esse",
+      "modes of divine presence",
+      "angelic place and motion",
+      "divine infinity vs. creaturely finitude"
+    ],
+    "_metadata": {
+      "level": "liber",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "ta-l1prol",
+        "ta-l1d37"
+      ],
+      "partial": true,
+      "coverage": "2 of 49 direct children have interpretations",
+      "model": "claude-opus-5-5",
+      "prompt_version": "interpretation-v1",
+      "generated_at": "2026-10-03T00:00:00Z",
+      "source_commit": "4fb0aa0b8b8d050f814dea91432e72041c8d5e34",
+      "source_structure": "scta-projectfiles/ta-projectdata.xml"
+    }
+  },
+  "ta-l2": {
+    "summary": "This summary of Book II is partial. It rests only on Distinction 44, the book's last division (1 of its 44 direct divisions), and should not be read as an account of Book II as a whole. Distinction 44 closes the book's treatment of sin by asking where the power to sin comes from, and it then extends the analysis to authority and obedience. The power to sin, insofar as it is a power, is from God. Its defectibility, rooted in creation from nothing, is not. Prelacy is likewise from God in its form, though not necessarily in its acquisition or use. Governing prelacy would have existed without sin, while the domination of one human by another is a consequence of sin. Obedience is a special virtue, a part of justice, whose debt is measured by the proper ordination of each authority, secular or religious. The preceding distinctions are not yet interpreted and are not represented here.",
+    "claims": [
+      "On the evidence of Distinction 44, Book II attributes the power to sin, as power, to God while denying that its defect is from God.",
+      "On the evidence of Distinction 44, Book II grounds political and religious authority in the divine origin of prelacy's form and measures the debt of obedience by each authority's proper ordination."
+    ],
+    "concepts": [
+      "potentia peccandi",
+      "praelatio",
+      "governing vs. dominative prelacy",
+      "obedientia",
+      "authority and sin"
+    ],
+    "_metadata": {
+      "level": "liber",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "ta-l2d44"
+      ],
+      "partial": true,
+      "coverage": "1 of 44 direct children have interpretations",
+      "model": "claude-opus-5-5",
+      "prompt_version": "interpretation-v1",
+      "generated_at": "2026-10-03T00:00:00Z",
+      "source_commit": "4fb0aa0b8b8d050f814dea91432e72041c8d5e34",
+      "source_structure": "scta-projectfiles/ta-projectdata.xml"
+    }
+  },
+  "aquinasscriptum": {
+    "summary": "This summary of Aquinas's Scriptum on the Sentences is highly partial. It rests on partial summaries of Books I and II, built from only three divisions: the Book I Prologue, Book I Distinction 37, and Book II Distinction 44. Books III and IV are not represented at all. Within that limited scope, the work opens by defining sacred doctrine as a unified, principally contemplative science that rests on revealed principles and is ordered to the vision of God, with God and all things as related to God as its subject. The interpreted material then shows a recurring pattern of explanation. God's causality of esse, and his infinite power, ground his intimate presence to all things and set him apart from finite creatures, whose place, motion, and time are defined by their limited operation. The same pattern holds in moral and political matters: what is positive in a creaturely power or an authority comes from God, defect does not, and the obligations that follow (such as obedience) are measured by each authority's proper ordination. No claim is made here about the structure or content of the work as a whole.",
+    "claims": [
+      "Within the interpreted material, the Scriptum frames theology as a single revealed science whose subject is God and all things as related to God.",
+      "Within the interpreted material, a common explanatory pattern recurs: what is positive (being, power, authority) is traced to God as cause, while defect and limitation are traced to the creature's finitude."
+    ],
+    "concepts": [
+      "sacra doctrina",
+      "theology as science",
+      "esse",
+      "divine omnipresence",
+      "divine infinity vs. creaturely finitude",
+      "potentia peccandi",
+      "praelatio",
+      "obedientia"
+    ],
+    "_metadata": {
+      "level": "work",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "ta-l1",
+        "ta-l2"
+      ],
+      "partial": true,
+      "coverage": "2 of 4 direct children have interpretations; both are themselves partial",
+      "model": "claude-opus-5-5",
+      "prompt_version": "interpretation-v1",
+      "generated_at": "2026-10-03T00:00:00Z",
+      "source_commit": "4fb0aa0b8b8d050f814dea91432e72041c8d5e34",
+      "source_structure": "scta-projectfiles/ta-projectdata.xml"
+    }
+  }
+}
