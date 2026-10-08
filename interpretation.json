@@ -1,12 +1,12 @@
 {
   "_metadata": {
     "schema_version": "1.0",
-    "generated_at": "2026-10-03T00:00:00Z",
+    "generated_at": "2026-10-08T00:00:00Z",
     "model": "claude-opus-5-5",
     "prompt_version": "interpretation-v1",
-    "source_commit": "4fb0aa0b8b8d050f814dea91432e72041c8d5e34",
+    "source_commit": "fb86136b8e55a7612aaff9f972eb2d532f5c461c",
     "generation_method": "hierarchical",
-    "scope": "Ancestor levels above the item for the Book I Prologue, Book I Distinction 37, and Book II Distinction 44, together with partial Book I, Book II, and whole-work entries built from them."
+    "scope": "Ancestor levels above the item for the Book I Prologue, Book I Distinction 37, Book II Distinction 44, and Book III Distinctions 23-25, together with partial Book I, Book II, Book III, and whole-work entries built from them."
   },
   "ta-l1prol": {
     "summary": "The Prologue to Book I has a single quaestio. In it Aquinas comments on Lombard's prologue and then sets out a methodological account of sacred doctrine in five articles. Theology is necessary beyond philosophy because the human end is the immediate vision of God, which no creaturely knowledge reaches. It is one science, unified by the divine light under which it considers all things, and it commands the other sciences and uses them as servants. It is principally speculative, a true science whose principles are the articles of faith, and it is wisdom in the highest sense. Its subject is God, together with all things as they come from God and are ordered to God. Its many modes, and the fourfold sense of Scripture, follow from its revealed matter and its ends, with argument reserved to the literal sense. The Prologue thus sets the epistemic terms for the whole Scriptum: a single, contemplative science that rests on revealed principles and is ordered to beatitude.",
@@ -112,6 +112,115 @@
       "source_structure": "scta-projectfiles/ta-projectdata.xml"
     }
   },
+  "ta-l3d23": {
+    "summary": "Distinction 23 opens the Book III treatise on the virtues. It treats them first in general and then faith in itself and in its formation. Question 1 sets out the framework. Rational powers are not determined to the good by nature, so they need habits that make the rule's rectitude their own second nature. Habits are known through their acts and by reflection, though no one can be certain of having charity. Virtue is a habit, distinct from power, passion and act. Virtues are intellectual, moral or theological, and the theological virtues are needed because humanity's end, the enjoyment of God, exceeds nature. There are exactly three, faith, hope and charity, matching knowledge of the end, confidence in reaching it, and love of it. Question 2 treats faith itself. It defends Hebrews 11:1 as defining faith by its object (first truth, unseen) and its end (the good hoped for). Belief is assent caused by the will's command on account of God's testimony, so it exceeds science in firmness though not in evidence. Faith resides in the speculative intellect, it is a theological rather than an intellectual virtue, it is one because its object is simple, and it is naturally prior to the other virtues. Question 3 explains how charity forms faith: the perfected will gives faith a common form and end while faith keeps its own species. Unformed faith is an infused gift but not a virtue. Demons have only a compelled faith and heretics lose infused faith entirely. When charity comes, the same faith becomes formed. Together the questions set out the psychology of habit and the nature of faith on which the rest of the treatise depends.",
+    "claims": [
+      "Human rational powers need habits, because only an inherent, quasi-natural rectitude determines them to the good, and virtue is such a habit.",
+      "The theological virtues are required because humanity's end exceeds nature, and they are exactly three: faith, hope and charity.",
+      "Faith is the intellect's assent to first truth, commanded by the will on account of divine testimony, firmer than science though lacking evidence.",
+      "Faith is a theological virtue resident in the intellect, one in its object, and naturally prior to the other virtues.",
+      "Charity forms faith as the common form and end given by the perfected will, and the same faith passes from unformed to formed."
+    ],
+    "concepts": [
+      "habitus",
+      "rectitudo",
+      "division of virtues",
+      "theological virtue",
+      "supernatural end",
+      "definition of faith",
+      "assensus",
+      "certitude",
+      "prima veritas",
+      "fides formata and informis",
+      "caritas forma fidei",
+      "faith of demons",
+      "heresy"
+    ],
+    "_metadata": {
+      "level": "distinctio",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "ta-l3d23q1",
+        "ta-l3d23q2",
+        "ta-l3d23q3"
+      ],
+      "partial": false,
+      "model": "claude-opus-5-5",
+      "prompt_version": "interpretation-v1",
+      "generated_at": "2026-10-08T00:00:00Z",
+      "source_commit": "fb86136b8e55a7612aaff9f972eb2d532f5c461c",
+      "source_structure": "scta-projectfiles/ta-projectdata.xml"
+    }
+  },
+  "ta-l3d24": {
+    "summary": "Distinction 24, in a single question, treats faith in relation to its object and to human knowledge. First truth is the formal object of faith, through which anything is credible, as light makes colour visible. Created realities such as the passion are its material object. The object is propositional, and the articles' tensed variation is merely accidental, so the faith of the patriarchs and of Christians is essentially the same. Nothing false can fall under faith, since it rests on infallible first truth and regards contingents as divinely foreknown. Faith is neither vision nor science of its per se objects, since neither God nor the articles are evident in this life. Preambles such as God's existence can be demonstrated and are believed only per accidens. Human reason defends the faith but does not prove it, and miracles attest the messenger, not the message. The objects of faith are known imperfectly, through words and likenesses, 'in a mirror and an enigma'. Faith is necessary because humanity is ordered to a supernatural end and because natural knowledge of God is difficult, rare and late. Believing the unseen on divine authority is praiseworthy and meritorious, and arguments for or against faith of themselves increase its merit. The distinction defines faith as a certain but non-evident cognition of first truth, between ignorance and vision.",
+    "claims": [
+      "First truth is the formal object of faith, and what is believed about God, including created realities, is its material object.",
+      "Faith concerns propositions whose temporal aspect is accidental, so faith is the same across history.",
+      "Faith is neither vision nor science of its proper objects, though the preambles of faith can be demonstrated.",
+      "Faith is necessary for the supernatural end, and believing on divine authority is meritorious, with reasoning about faith increasing rather than diminishing its merit."
+    ],
+    "concepts": [
+      "object of faith",
+      "prima veritas",
+      "formal and material object",
+      "verum complexum",
+      "infallibility",
+      "faith and vision",
+      "faith and science",
+      "praeambula fidei",
+      "necessity of faith",
+      "merit of faith"
+    ],
+    "_metadata": {
+      "level": "distinctio",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "ta-l3d24q1"
+      ],
+      "partial": false,
+      "model": "claude-opus-5-5",
+      "prompt_version": "interpretation-v1",
+      "generated_at": "2026-10-08T00:00:00Z",
+      "source_commit": "fb86136b8e55a7612aaff9f972eb2d532f5c461c",
+      "source_structure": "scta-projectfiles/ta-projectdata.xml"
+    }
+  },
+  "ta-l3d25": {
+    "summary": "Distinction 25 treats faith in relation to believers, chiefly through the content that must be believed. Question 1 defines the article of faith. Following Richard of St Victor, an article is an indivisible truth about God with its own special difficulty, accepted on God's testimony and binding by necessity of the end. Creeds legitimately gather the faith of Scripture, and later creeds explain or make explicit what the Apostles' Creed contains. The articles number fourteen by content (seven on the divinity, seven on Christ's humanity) and twelve by apostolic authorship. They are distinguished by distinct difficulties, with omnipotence as the root of faith and the sacraments falling under the article on the Church. Question 2 asks how much must be believed explicitly. Every adult needs some explicit faith, since merit depends on faith directing intention, and God supplies it to anyone who does what lies in them. The measure is what suffices to direct one to the end. It is greater for those charged with teaching, and the lesser rest their implicit faith in teachers only insofar as those teachers conform to God, the first rule. Historically, explicit faith grew until it was completed in Christ. Before the fall implicit trust in providence sufficed. Between the fall and Christ the greater believed explicitly and the lesser implicitly in the redeemer's nativity, passion, resurrection and judgment, and gentiles could be saved by implicit faith. After Christ all must believe explicitly in the redeemer and the Trinity. The distinction thus gives a structured and historically graded account of faith's content.",
+    "claims": [
+      "An article of faith is an indivisible, difficult truth about God, believed on divine testimony and necessary for salvation, and the articles number fourteen by content.",
+      "Creeds gather and make explicit the faith of Scripture without adding to its essentials.",
+      "Some explicit faith is necessary for every adult; its measure depends on what directs intention to the end and on one's teaching office.",
+      "Explicit faith developed historically and was completed in Christ, after whom all must believe explicitly in the redeemer and the Trinity."
+    ],
+    "concepts": [
+      "articles of faith",
+      "symbolum",
+      "fourteen articles",
+      "explicit and implicit faith",
+      "majores and minores",
+      "rule of faith",
+      "development of doctrine",
+      "faith in the redeemer",
+      "salvation of gentiles",
+      "Trinity"
+    ],
+    "_metadata": {
+      "level": "distinctio",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "ta-l3d25q1",
+        "ta-l3d25q2"
+      ],
+      "partial": false,
+      "model": "claude-opus-5-5",
+      "prompt_version": "interpretation-v1",
+      "generated_at": "2026-10-08T00:00:00Z",
+      "source_commit": "fb86136b8e55a7612aaff9f972eb2d532f5c461c",
+      "source_structure": "scta-projectfiles/ta-projectdata.xml"
+    }
+  },
   "ta-l1": {
     "summary": "This summary of Book I is partial. It rests only on the Prologue and Distinction 37, which are 2 of the book's 49 direct divisions, and should not be read as an account of Book I as a whole. The Prologue defines sacred doctrine as a single, principally speculative science and wisdom. Its principles are the articles of faith, its subject is God and all things as related to God, and it is necessary because the human end, the vision of God, lies beyond natural reason. Distinction 37 treats how God is in things and everywhere: essentially and immediately as the cause of esse, with modes of presence by grace and by union, and with an omnipresence that belongs to God alone because of his infinite power. It contrasts this with the angels, whose finite operation alone defines their place, motion, and time. Read together, these two divisions show a theology grounded in revealed principles that treats God as the source and end of all things, and that marks off divine infinity from the finitude of even the highest creatures. The intervening distinctions are not yet interpreted and are not represented here.",
     "claims": [
@@ -172,15 +281,58 @@
       "source_structure": "scta-projectfiles/ta-projectdata.xml"
     }
   },
-  "aquinasscriptum": {
-    "summary": "This summary of Aquinas's Scriptum on the Sentences is highly partial. It rests on partial summaries of Books I and II, built from only three divisions: the Book I Prologue, Book I Distinction 37, and Book II Distinction 44. Books III and IV are not represented at all. Within that limited scope, the work opens by defining sacred doctrine as a unified, principally contemplative science that rests on revealed principles and is ordered to the vision of God, with God and all things as related to God as its subject. The interpreted material then shows a recurring pattern of explanation. God's causality of esse, and his infinite power, ground his intimate presence to all things and set him apart from finite creatures, whose place, motion, and time are defined by their limited operation. The same pattern holds in moral and political matters: what is positive in a creaturely power or an authority comes from God, defect does not, and the obligations that follow (such as obedience) are measured by each authority's proper ordination. No claim is made here about the structure or content of the work as a whole.",
+  "ta-l3": {
+    "summary": "This summary of Book III is partial. It rests only on Distinctions 23, 24 and 25 (3 of the book's 40 direct divisions), which together form the opening of the treatise on faith within Book III's account of the virtues. It does not cover the Christology of Distinctions 1–22 or the later treatment of hope, charity, the cardinal virtues, the gifts and the commandments, and should not be read as an account of Book III as a whole. In the interpreted distinctions, Aquinas first gives a general theory of virtue. Rational powers are rectified by habits, virtue is a habit, and the theological virtues are needed because the human end exceeds nature. He then treats faith in itself. Faith is the intellect's assent to first truth, commanded by the will on account of divine testimony, firmer than science but without evidence. It is a theological virtue, one in its object, and formed by charity, with the same habit passing from unformed to formed. Next he treats faith in its object. First truth is formal, created realities material, and the propositional articles are the same in substance across history; faith is neither vision nor science, though its preambles can be demonstrated. Finally he treats faith in believers: the fourteen articles gathered in the creeds, and the graded, historically developing obligation of explicit faith, completed in Christ and differentiated by teaching office. Within this scope the book presents faith as a supernatural, will-moved cognition of first truth that orders human life to an end beyond nature.",
     "claims": [
-      "Within the interpreted material, the Scriptum frames theology as a single revealed science whose subject is God and all things as related to God.",
-      "Within the interpreted material, a common explanatory pattern recurs: what is positive (being, power, authority) is traced to God as cause, while defect and limitation are traced to the creature's finitude."
+      "On the evidence of Distinctions 23–25, Book III grounds the virtues in a theory of habit and derives the theological virtues from humanity's supernatural end.",
+      "On the evidence of Distinctions 23–25, Book III treats faith as assent to first truth commanded by the will, formed by charity, certain without evidence, and distinct from both vision and science.",
+      "On the evidence of Distinction 25, Book III holds that the content of explicit faith is articulated in fourteen articles and that its required extent varies with historical state and ecclesial office."
+    ],
+    "concepts": [
+      "habitus",
+      "theological virtue",
+      "supernatural end",
+      "faith",
+      "assensus",
+      "prima veritas",
+      "caritas forma fidei",
+      "faith and science",
+      "articles of faith",
+      "explicit and implicit faith",
+      "development of doctrine"
+    ],
+    "_metadata": {
+      "level": "liber",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "ta-l3d23",
+        "ta-l3d24",
+        "ta-l3d25"
+      ],
+      "partial": true,
+      "coverage": "3 of 40 direct children have interpretations",
+      "model": "claude-opus-5-5",
+      "prompt_version": "interpretation-v1",
+      "generated_at": "2026-10-08T00:00:00Z",
+      "source_commit": "fb86136b8e55a7612aaff9f972eb2d532f5c461c",
+      "source_structure": "scta-projectfiles/ta-projectdata.xml"
+    }
+  },
+  "aquinasscriptum": {
+    "summary": "This summary of Aquinas's Scriptum on the Sentences is highly partial. It rests on partial summaries of Books I, II and III, built from only six divisions: the Book I Prologue, Book I Distinction 37, Book II Distinction 44, and Book III Distinctions 23–25. Book IV is not represented at all. Within that scope, the work opens by defining sacred doctrine as a unified, principally contemplative science that rests on revealed principles and is ordered to the vision of God, with God and all things as related to God as its subject. The Book III material makes that epistemic foundation concrete. Faith is the assent of the intellect to first truth, commanded by the will on divine testimony, formed by charity, and set between ignorance and vision. Its articles are the revealed principles on which theology proceeds. The interpreted material also shows a recurring pattern of explanation. God's causality of esse and his infinite power ground his presence to all things and set him apart from finite creatures. What is positive in a creaturely power or an authority comes from God, while defect does not. And because the human end exceeds nature, human powers need supernaturally infused habits to reach it. No claim is made here about the structure or content of the work as a whole.",
+    "claims": [
+      "Within the interpreted material, the Scriptum frames theology as a single revealed science whose principles are the articles of faith and whose subject is God and all things as related to God.",
+      "Within the interpreted material, faith is treated as the will-commanded assent of the intellect to first truth, the supernatural cognition on which theology rests.",
+      "Within the interpreted material, a common explanatory pattern recurs: what is positive (being, power, authority, virtue) is traced to God as cause, while defect and limitation are traced to the creature's finitude, and the supernatural end requires infused habits beyond nature."
     ],
     "concepts": [
       "sacra doctrina",
       "theology as science",
+      "articles of faith",
+      "faith",
+      "prima veritas",
+      "supernatural end",
+      "theological virtue",
       "esse",
       "divine omnipresence",
       "divine infinity vs. creaturely finitude",
@@ -193,14 +345,15 @@
       "generation_method": "descendant_summaries",
       "input_ids": [
         "ta-l1",
-        "ta-l2"
+        "ta-l2",
+        "ta-l3"
       ],
       "partial": true,
-      "coverage": "2 of 4 direct children have interpretations; both are themselves partial",
+      "coverage": "3 of 4 direct children have interpretations; all three are themselves partial",
       "model": "claude-opus-5-5",
       "prompt_version": "interpretation-v1",
-      "generated_at": "2026-10-03T00:00:00Z",
-      "source_commit": "4fb0aa0b8b8d050f814dea91432e72041c8d5e34",
+      "generated_at": "2026-10-08T00:00:00Z",
+      "source_commit": "fb86136b8e55a7612aaff9f972eb2d532f5c461c",
       "source_structure": "scta-projectfiles/ta-projectdata.xml"
     }
   }
