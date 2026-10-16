@@ -4,9 +4,9 @@
     "generated_at": "2026-10-16T00:00:00Z",
     "model": "claude-opus-5-5",
     "prompt_version": "interpretation-v1",
-    "source_commit": "ee898a4d3638809ed66e5dd6e4a579f2b875da0d",
+    "source_commit": "c11598230456a5a40b60300c8d9c6d4aec0e0c5d",
     "generation_method": "hierarchical",
-    "scope": "Ancestor levels above the item for the Book I Prologue, Book I Distinctions 1–20 and 37, Book II Distinction 44, and Book III Distinctions 23–25, together with partial Book I, Book II, Book III, and whole-work entries built from them.",
+    "scope": "Ancestor levels above the item for the Book I Prologue, Book I Distinctions 1–30 and 37, Book II Distinction 44, and Book III Distinctions 23–25, together with partial Book I, Book II, Book III, and whole-work entries built from them.",
     "source_structure": "/scta-projectfiles/ta-projectdata.xml",
     "structure_commit": "6949a82"
   },
@@ -706,6 +706,298 @@
       "source_structure": "scta-projectfiles/ta-projectdata.xml"
     }
   },
+  "ta-l1d21": {
+    "summary": "Distinction 21 of Book I treats exclusive words ('solus', 'tantum') in Trinitarian propositions, in two quaestiones. Quaestio 1 takes the exclusive word on the subject side. Categorematic 'solus', implying solitude, cannot be said of God, while syncategorematic 'solus', excluding others from the subject's form or from the predicate, can, so 'God alone is God', 'God alone creates', and 'God alone is Father' are true. An exclusive word joined to a supposit excludes every other supposit, even a correlative, and since the Son is another person but not another thing, 'the Father alone is God' is false if it excludes another person and true if it excludes another thing. Quaestio 2 takes the exclusive word on the predicate side. 'The Trinity is the only God' is true, since 'Deus' predicates a subsistent nature. 'The Father is the only God' is false when 'solus' excludes other supposits, since 'Deus' then stands for the Father's supposit, but true when it means 'tantum' or excludes another nature.",
+    "claims": [
+      "Categorematic 'solus' cannot be said of God; syncategorematic 'solus' can.",
+      "'The Father alone is God' is false excluding another person and true excluding another thing.",
+      "'The Trinity is the only God' is true; 'the Father is the only God' is false when excluding other persons."
+    ],
+    "concepts": [
+      "exclusive terms",
+      "categorematic vs. syncategorematic",
+      "alius vs. aliud",
+      "supposition",
+      "Trinitarian logic"
+    ],
+    "_metadata": {
+      "level": "distinctio",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "ta-l1d21q1",
+        "ta-l1d21q2"
+      ],
+      "partial": false,
+      "model": "claude-opus-5-5",
+      "prompt_version": "interpretation-v1",
+      "generated_at": "2026-10-16T00:00:00Z",
+      "source_commit": "c11598230456a5a40b60300c8d9c6d4aec0e0c5d",
+      "source_structure": "scta-projectfiles/ta-projectdata.xml"
+    }
+  },
+  "ta-l1d22": {
+    "summary": "Distinction 22 of Book I, a single quaestio, gives Thomas's general theory of divine names. God is nameable as he is known, imperfectly, and names himself perfectly only in the Word. Distinguishing the thing signified from the mode of signifying, Thomas holds that names of pure perfections are said properly and first of God as to the thing signified, while names whose meaning includes a creaturely mode are said only metaphorically, so negations are absolutely true and affirmations true as to the thing signified. The many divine names are not synonyms, being founded on the persons, on attribute concepts truly grounded in God, and on negations and relations to creatures. The threefold division of names into metaphorical, common-proper, and personal-proper is sufficient and reconciles Damascene, Dionysius, and Lombard.",
+    "claims": [
+      "God is named imperfectly, as known, and names himself perfectly in the Word.",
+      "Names of pure perfections are said properly of God as to the thing signified, not as to the mode of signifying.",
+      "The many divine names are non-synonymous, founded on truly distinct concepts in God."
+    ],
+    "concepts": [
+      "divine names",
+      "res significata vs. modus significandi",
+      "proper vs. metaphorical predication",
+      "non-synonymy",
+      "division of names"
+    ],
+    "_metadata": {
+      "level": "distinctio",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "ta-l1d22q1"
+      ],
+      "partial": false,
+      "model": "claude-opus-5-5",
+      "prompt_version": "interpretation-v1",
+      "generated_at": "2026-10-16T00:00:00Z",
+      "source_commit": "c11598230456a5a40b60300c8d9c6d4aec0e0c5d",
+      "source_structure": "scta-projectfiles/ta-projectdata.xml"
+    }
+  },
+  "ta-l1d23": {
+    "summary": "Distinction 23 of Book I, a single quaestio, treats the name 'person'. Following Boethius, Thomas distinguishes essence, subsistence, and substance by the acts of being, subsisting, and standing under, each taken as quo est or quod est. He defines person as an individual substance of intellectual nature under a property of dignity and explains the Latin–Greek correspondences of usia, usiosis, hypostasis, and prosopon. 'Person' is properly said of God, by the concept of completeness in intellectual nature rather than particularity, since names are judged by what they are imposed to signify, not their origin. In God it signifies relation by way of substance: the distinguishing relation, which is the subsistent person having the divine essence. It is predicated plurally because personality is multiplied with distinct subsistents, which in God are the opposed relations, while 'God' stays singular because deity is one.",
+    "claims": [
+      "Essence, subsistence, and substance are distinguished by esse, subsistere, and substare.",
+      "'Person' is properly said of God and signifies relation by way of substance.",
+      "There are three persons in one nature, numbered by opposed subsistent relations."
+    ],
+    "concepts": [
+      "persona",
+      "essentia, subsistentia, substantia",
+      "subsistent relation",
+      "relation per modum substantiae",
+      "plurality of persons",
+      "Latin–Greek terminology"
+    ],
+    "_metadata": {
+      "level": "distinctio",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "ta-l1d23q1"
+      ],
+      "partial": false,
+      "model": "claude-opus-5-5",
+      "prompt_version": "interpretation-v1",
+      "generated_at": "2026-10-16T00:00:00Z",
+      "source_commit": "c11598230456a5a40b60300c8d9c6d4aec0e0c5d",
+      "source_structure": "scta-projectfiles/ta-projectdata.xml"
+    }
+  },
+  "ta-l1d24": {
+    "summary": "Distinction 24 of Book I treats names of unity and plurality in God, in two quaestiones. Quaestio 1 holds that God is supremely one, as wholly undivided, and that there is in God a certain number, of really subsisting relations, midway between number simply and merely conceptual number. Following Aristotle and Averroes against Avicenna, it distinguishes the transcendental one, which adds only the negation of division, from numerical unity, which adds measure. Only the transcendental one and many apply to God, adding negation conceptually while the persons remain really distinct, and such terms signify essence or notion according to the term they modify. Quaestio 2 gives the rule for Trinitarian language: affirm what opposes both Arius and Sabellius and deny what agrees with either. So the Church affirms unity, simplicity, likeness, and equality of essence, and plurality, distinction, order, and harmony of persons, denying diversity, division, alienness, singularity, uniqueness, confusion, and solitude. 'Trinity' signifies three persons of one essence and is only quasi-collective.",
+    "claims": [
+      "God is supremely one, and there is a number of subsistent relations in God, not quantitative number.",
+      "Transcendental one and many add only negation and apply to God; numerical unity does not.",
+      "Trinitarian terms are governed by opposition to Arianism and Sabellianism; 'Trinity' means three persons of one essence."
+    ],
+    "concepts": [
+      "unity",
+      "number",
+      "transcendental one vs. numerical one",
+      "subsistent relations",
+      "Arius and Sabellius",
+      "Trinitas"
+    ],
+    "_metadata": {
+      "level": "distinctio",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "ta-l1d24q1",
+        "ta-l1d24q2"
+      ],
+      "partial": false,
+      "model": "claude-opus-5-5",
+      "prompt_version": "interpretation-v1",
+      "generated_at": "2026-10-16T00:00:00Z",
+      "source_commit": "c11598230456a5a40b60300c8d9c6d4aec0e0c5d",
+      "source_structure": "scta-projectfiles/ta-projectdata.xml"
+    }
+  },
+  "ta-l1d25": {
+    "summary": "Distinction 25 of Book I, a single quaestio, treats 'person' further. Thomas defends Boethius's definition, 'an individual substance of rational nature', taken broadly. Its parts give the genus, the determinate nature, and the intention of particularity. In God definitional composition is only conceptual and individuation is incommunicability grounded in the distinguishing relation. 'Person' is analogical between God and creatures, prior in God as to the thing signified. It is common in the Trinity by a commonness of concept founded in reality, which is not a universal, since the persons share one being. The three persons are three things, from the plurality of relative forms, but not three beings in the substantive sense, since they have one esse. The Expositio rejects the view that 'person' signifies essence in the plural.",
+    "claims": [
+      "Boethius's definition of person, taken broadly, applies to the divine persons.",
+      "'Person' is analogical between God and creatures and common in the Trinity by concept, not as a universal.",
+      "The three persons are three things but one being."
+    ],
+    "concepts": [
+      "persona",
+      "Boethian definition",
+      "analogy",
+      "commonness of concept",
+      "ens and res",
+      "incommunicability"
+    ],
+    "_metadata": {
+      "level": "distinctio",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "ta-l1d25q1"
+      ],
+      "partial": false,
+      "model": "claude-opus-5-5",
+      "prompt_version": "interpretation-v1",
+      "generated_at": "2026-10-16T00:00:00Z",
+      "source_commit": "c11598230456a5a40b60300c8d9c6d4aec0e0c5d",
+      "source_structure": "scta-projectfiles/ta-projectdata.xml"
+    }
+  },
+  "ta-l1d26": {
+    "summary": "Distinction 26 of Book I treats hypostasis and the personal properties, in two quaestiones. Quaestio 1 holds that 'hypostasis' is properly said of God and signifies relation as distinct by way of a subsistent in the divine nature. Hypostasis, divine hypostasis, person, and Father are progressively determinate. Since only relation distinguishes in God and the relations subsist without substrate, abstracting the relations leaves no distinct hypostases, though without them God would be one person. Quaestio 2 holds that relations are really in God, founded on the communication of nature, and are both in the persons and identical with them. Four ways in which relations are merely of reason are distinguished, among them God's relations to creatures. Relation, specifically relation of origin, is the only principle of distinction in God, since only relative opposition is free of imperfection. There are five notions, four properties, four relations, and three personal properties.",
+    "claims": [
+      "'Hypostasis' in God signifies subsistent relation as distinct; abstracting the relations, no distinct hypostases remain.",
+      "Relations are really in God and identical with the persons; relations of origin alone distinguish them.",
+      "There are five notions, three of them personal."
+    ],
+    "concepts": [
+      "hypostasis",
+      "subsistent relation",
+      "real relations",
+      "relations of reason",
+      "relative opposition",
+      "five notions",
+      "personal properties"
+    ],
+    "_metadata": {
+      "level": "distinctio",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "ta-l1d26q1",
+        "ta-l1d26q2"
+      ],
+      "partial": false,
+      "model": "claude-opus-5-5",
+      "prompt_version": "interpretation-v1",
+      "generated_at": "2026-10-16T00:00:00Z",
+      "source_commit": "c11598230456a5a40b60300c8d9c6d4aec0e0c5d",
+      "source_structure": "scta-projectfiles/ta-projectdata.xml"
+    }
+  },
+  "ta-l1d27": {
+    "summary": "Distinction 27 of Book I treats the notions in relation to the personal names, especially 'Word', in two quaestiones. Quaestio 1 holds that the five notions are only three things, since only relatively opposed relations are really distinct. Unopposed relations of one person, like paternity and common spiration, differ as relations by their terms, and Father, paternity, and generation differ only in mode of signifying. Relation, as constituting the person, conceptually precedes the personal operation, though as relation simply it follows it. Quaestio 2 holds that God is properly a Word, as the word of the heart, an emanation from the intellect ordered to manifestation. 'Word' signifies something absolute with a relation of origin, so it can be essential, with a relation of reason, or personal, with a real relation. Usage makes it personal, and so taken it belongs to the Son alone, who proceeds by intellect from one. 'Word' implies relation to creatures only as exemplar or as manifestation to another.",
+    "claims": [
+      "The five notions are three things, distinguished by relative opposition.",
+      "Constitutive relation conceptually precedes personal operation.",
+      "God is properly a Word; 'Word' can be essential or personal, and personally it is the Son alone."
+    ],
+    "concepts": [
+      "notions",
+      "relative opposition",
+      "relation and operation",
+      "Verbum",
+      "verbum essentiale vs. personale",
+      "exemplarity"
+    ],
+    "_metadata": {
+      "level": "distinctio",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "ta-l1d27q1",
+        "ta-l1d27q2"
+      ],
+      "partial": false,
+      "model": "claude-opus-5-5",
+      "prompt_version": "interpretation-v1",
+      "generated_at": "2026-10-16T00:00:00Z",
+      "source_commit": "c11598230456a5a40b60300c8d9c6d4aec0e0c5d",
+      "source_structure": "scta-projectfiles/ta-projectdata.xml"
+    }
+  },
+  "ta-l1d28": {
+    "summary": "Distinction 28 of Book I treats innascibility and image, in two quaestiones. Quaestio 1 holds that innascibility is a notion of the Father, who as principle not from a principle is known by innascibility, paternity, and common spiration. 'Unbegotten' is a negation, a quasi-privation without imperfection, founded on the character of principle and reduced to the genus of relation. It is not a personal property, since it presupposes paternity, which alone constitutes the Father and is the formal principle of generation. Quaestio 2 defines image as imitation in an express sign of nature, with equality and an order to an exemplar. Of its three grades the Son is the most perfect image, sharing numerically the same nature. Properly 'image' is personal in God, the essence being exemplar, and it belongs only to the Son, by his procession as Son and Word, not to the Spirit, who proceeds as love.",
+    "claims": [
+      "Innascibility is a notion of the Father, founded on his being principle, but not a personal property.",
+      "Image is imitation with equality and order to an exemplar; the Son is the perfect image.",
+      "Properly 'image' is personal and belongs to the Son alone."
+    ],
+    "concepts": [
+      "innascibilitas",
+      "principium non de principio",
+      "personal vs. non-personal properties",
+      "imago",
+      "exemplar",
+      "Son as Image"
+    ],
+    "_metadata": {
+      "level": "distinctio",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "ta-l1d28q1",
+        "ta-l1d28q2"
+      ],
+      "partial": false,
+      "model": "claude-opus-5-5",
+      "prompt_version": "interpretation-v1",
+      "generated_at": "2026-10-16T00:00:00Z",
+      "source_commit": "c11598230456a5a40b60300c8d9c6d4aec0e0c5d",
+      "source_structure": "scta-projectfiles/ta-projectdata.xml"
+    }
+  },
+  "ta-l1d29": {
+    "summary": "Distinction 29 of Book I, a single quaestio, treats 'principle' in God. One person is principle of another but not cause, since they share one essence and being, and only the Father is author. 'Principle' is analogical between persons and creatures and is said first of the persons absolutely, since their procession exemplifies that of creatures. Common spiration is numerically one notion in Father and Son, since nothing of a special character is numerically multiplied in God. Father and Son are one principle of the Spirit by unity of notion, or of spirative power. They are one Creator but not one spirator, since names from personal acts pluralize by supposits while creation is the essence's work. The Expositio explains how the Father is principle of the whole deity.",
+    "claims": [
+      "The Father is principle, not cause, of the Son.",
+      "'Principle' is analogical, said first of the persons.",
+      "Father and Son are one principle of the Spirit by one notion of common spiration."
+    ],
+    "concepts": [
+      "principium",
+      "principium vs. causa",
+      "analogy",
+      "communis spiratio",
+      "unum principium"
+    ],
+    "_metadata": {
+      "level": "distinctio",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "ta-l1d29q1"
+      ],
+      "partial": false,
+      "model": "claude-opus-5-5",
+      "prompt_version": "interpretation-v1",
+      "generated_at": "2026-10-16T00:00:00Z",
+      "source_commit": "c11598230456a5a40b60300c8d9c6d4aec0e0c5d",
+      "source_structure": "scta-projectfiles/ta-projectdata.xml"
+    }
+  },
+  "ta-l1d30": {
+    "summary": "Distinction 30 of Book I, a single quaestio, treats names said of God from time. Relations to creatures are said of God from time, since a relation in act needs both extremes, without any change in God, because relation posits nothing in its subject. Names relating God to creatures as principle signify the essence and belong to the whole Trinity. Names relating God as term, by operation, exemplarity, or the Incarnation, can be personal while including the Trinity as principle. God's relations to creatures are relations of reason founded on his real power and operation: mixed relations in which only the creature's side is real, unlike the mutually real relations of Father and Son.",
+    "claims": [
+      "Temporal names imply no change in God.",
+      "They signify the essence as principle and can be personal as term.",
+      "God's relations to creatures are of reason, with real foundation."
+    ],
+    "concepts": [
+      "nomina ex tempore",
+      "relations of reason",
+      "mixed relations",
+      "mission",
+      "Incarnation"
+    ],
+    "_metadata": {
+      "level": "distinctio",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "ta-l1d30q1"
+      ],
+      "partial": false,
+      "model": "claude-opus-5-5",
+      "prompt_version": "interpretation-v1",
+      "generated_at": "2026-10-16T00:00:00Z",
+      "source_commit": "c11598230456a5a40b60300c8d9c6d4aec0e0c5d",
+      "source_structure": "scta-projectfiles/ta-projectdata.xml"
+    }
+  },
   "ta-l1d37": {
     "summary": "Distinction 37 of Book I treats the presence and location of spiritual beings in four quaestiones, moving from God to the angels. Quaestio 1 shows that God is essentially and immediately in every creature as the continuous cause of its esse. It then distinguishes a common mode of presence (by essence, presence, and power), a special mode by grace in the saints, and a unique mode by union in Christ. These modes are really grounded in the creature's cumulative conjunction to God and are only rationally distinct on God's side. Quaestio 2 argues that God is properly everywhere, in the spiritual sense of containing and conserving rather than being contained. Such per se omnipresence belongs to God alone because it presupposes infinite power, and it holds only from time, not from eternity, since it is a relation founded on God's operation toward creatures. Quaestio 3 turns to the angel. An angel is in place only through its operation, is in exactly one place at a time because its finite power sustains one operation terminating in one object, and cannot share its proper place with another angel of the same kind of operation. Quaestio 4 treats angelic motion. It is equivocal with respect to bodily motion and non-continuous in its illuminative, intellectual, and local modes. Whether an angel passes through a medium depends on whether it operates there, and its motion is measured by a discrete time of successive 'nows', incommensurable with the continuous time of bodies. One contrast runs through the distinction. God's infinite power and self-identical operation make him present to all things at once and from within, as the giver of esse. The angel's finite operation alone defines its place, its motion, and its time.",
     "claims": [
@@ -888,13 +1180,15 @@
     }
   },
   "ta-l1": {
-    "summary": "This summary of Book I is partial. It rests on the Prologue, Distinctions 1–20, and Distinction 37, which are 22 of the book's 49 direct divisions, and it does not cover Distinctions 21–36 or 38–48. Within that scope, the interpreted divisions cover the book's foundations, its doctrine of the one God, and its Trinitarian theology through the processions, missions, and equality of the persons. The Prologue defines sacred doctrine as a single, principally speculative science whose principles are the articles of faith and whose subject is God and all things as related to God. Distinction 1 orders all things to God as end: God alone is enjoyed, and every created good is used, loved for his sake. Distinctions 2–3 set the work within an exitus–reditus scheme and lay the metaphysical groundwork. God is one because his essence is his esse, his attributes are really one and conceptually distinct, and natural reason knows God through creatures by analogy but cannot reach the Trinity, which creatures reflect only as vestige and, in the rational mind, as image. Distinctions 4–7 treat the Son's generation through the semantics of divine names: generation is communication of nature without change, the essence neither begets nor is begotten, and the Father begets by nature through a power that is the essence under the aspect of paternity. Distinction 8 develops the metaphysics of esse: God is subsistent being, eternal, immutable, simple, and in no genus, while creatures, including the soul, are composed of essence and received esse. Distinctions 9–13 establish the Son's coeternity and the Spirit's procession as love from Father and Son, the filioque being required to distinguish Son and Spirit. Exactly three persons are constituted by relations of origin, with order of nature but no priority among them. Distinctions 14–18 treat the temporal processions or missions. The Spirit proceeds into creatures as the same love by which the Father loves the Son and is sent, as the Son is sent, only through sanctifying grace in the return of creatures to God. Visible missions manifest grace overflowing to the Church, and, against Lombard, the charity by which we love is a created habit flowing exemplarily from the Spirit, who is properly named Gift. Distinctions 19–20 establish the persons' equality in eternity, magnitude, and power, with the essence common but not universal, and give Thomas's theory of truth as the adequation of intellect and being, with God as first truth. Distinction 37 treats God's presence in all things as cause of esse and contrasts divine omnipresence with the finite location of angels. Across these divisions, Book I presents the procession of the persons in one essence as the cause and exemplar of the procession of creatures and of their return to God. The remaining distinctions are not yet interpreted and are not represented here.",
+    "summary": "This summary of Book I is partial. It rests on the Prologue, Distinctions 1–30, and Distinction 37, which are 32 of the book's 49 direct divisions, and it does not cover Distinctions 31–36 or 38–48. Within that scope, the interpreted divisions cover the book's foundations, its doctrine of the one God, and its Trinitarian theology through the processions, missions, equality, and names of the persons. The Prologue defines sacred doctrine as a single, principally speculative science whose principles are the articles of faith and whose subject is God and all things as related to God. Distinction 1 orders all things to God as end: God alone is enjoyed, and every created good is used, loved for his sake. Distinctions 2–3 set the work within an exitus–reditus scheme and lay the metaphysical groundwork. God is one because his essence is his esse, his attributes are really one and conceptually distinct, and natural reason knows God through creatures by analogy but cannot reach the Trinity, which creatures reflect only as vestige and, in the rational mind, as image. Distinctions 4–7 treat the Son's generation through the semantics of divine names: generation is communication of nature without change, the essence neither begets nor is begotten, and the Father begets by nature through a power that is the essence under the aspect of paternity. Distinction 8 develops the metaphysics of esse: God is subsistent being, eternal, immutable, simple, and in no genus, while creatures, including the soul, are composed of essence and received esse. Distinctions 9–13 establish the Son's coeternity and the Spirit's procession as love from Father and Son, the filioque being required to distinguish Son and Spirit. Exactly three persons are constituted by relations of origin, with order of nature but no priority among them. Distinctions 14–18 treat the temporal processions or missions. The Spirit proceeds into creatures as the same love by which the Father loves the Son and is sent, as the Son is sent, only through sanctifying grace in the return of creatures to God. Visible missions manifest grace overflowing to the Church, and, against Lombard, the charity by which we love is a created habit flowing exemplarily from the Spirit, who is properly named Gift. Distinctions 19–20 establish the persons' equality in eternity, magnitude, and power, with the essence common but not universal, and give Thomas's theory of truth as the adequation of intellect and being, with God as first truth. Distinctions 21–22 turn to the logic and semantics of divine language: exclusive terms in Trinitarian propositions, and a general theory of divine names distinguishing the thing signified from the mode of signifying. Distinctions 23–30 treat the persons' names and properties. 'Person' and 'hypostasis' signify subsistent relation by way of substance; unity and number in God are transcendental, not quantitative; relations are really in God and identical with the persons, relations of origin alone distinguishing them; and there are five notions, three of them personal. 'Word' and 'Image' belong personally to the Son alone, innascibility is a non-personal notion of the Father, and Father and Son are one principle of the Spirit by one notion. Names said of God from time imply only relations of reason in him, real in the creature. Distinction 37 treats God's presence in all things as cause of esse and contrasts divine omnipresence with the finite location of angels. Across these divisions, Book I presents the procession of the persons in one essence as the cause and exemplar of the procession of creatures and of their return to God. The remaining distinctions are not yet interpreted and are not represented here.",
     "claims": [
       "On the evidence of the Prologue and Distinctions 1–3, Book I treats theology as a revealed science of God and all things ordered to God, who is known naturally by analogy but not as Trinity.",
       "On the evidence of Distinctions 2 and 4–13, Book I holds that the one divine essence, identical with its esse, is shared by exactly three persons distinguished only by relations of origin, with the Spirit proceeding as love from Father and Son.",
       "On the evidence of Distinction 8 and 19, Book I holds that God alone is subsistent, eternal, immutable, and simple being and first truth, while creatures have received, composite, and mutable being and truth.",
       "On the evidence of Distinctions 14–18, Book I holds that the persons are sent into creatures through sanctifying grace, the Spirit as love and gift, and that charity is a created habit flowing from the Spirit, against Lombard.",
       "On the evidence of Distinctions 19–20, Book I holds that the persons are equal in eternity, magnitude, and power, with order of origin but no priority.",
+      "On the evidence of Distinctions 21–22 and 30, Book I holds that God is named imperfectly, as known, by non-synonymous names true as to the thing signified, and that names said of him from time imply no change or real relation in him.",
+      "On the evidence of Distinctions 23–29, Book I holds that the divine persons are subsistent relations, really distinct by relative opposition alone, with five notions of which three are personal, and that 'Word' and 'Image' belong personally to the Son.",
       "On the evidence of Distinction 37, Book I explains God's presence in creatures through his causality of esse."
     ],
     "concepts": [
@@ -915,6 +1209,12 @@
       "equality of persons",
       "eternity",
       "truth",
+      "divine names",
+      "persona and hypostasis",
+      "subsistent relation",
+      "notions",
+      "Verbum",
+      "relations of reason",
       "divine simplicity",
       "divine omnipresence"
     ],
@@ -943,14 +1243,24 @@
         "ta-l1d18",
         "ta-l1d19",
         "ta-l1d20",
+        "ta-l1d21",
+        "ta-l1d22",
+        "ta-l1d23",
+        "ta-l1d24",
+        "ta-l1d25",
+        "ta-l1d26",
+        "ta-l1d27",
+        "ta-l1d28",
+        "ta-l1d29",
+        "ta-l1d30",
         "ta-l1d37"
       ],
       "partial": true,
-      "coverage": "22 of 49 direct children have interpretations",
+      "coverage": "32 of 49 direct children have interpretations",
       "model": "claude-opus-5-5",
       "prompt_version": "interpretation-v1",
       "generated_at": "2026-10-16T00:00:00Z",
-      "source_commit": "ee898a4d3638809ed66e5dd6e4a579f2b875da0d",
+      "source_commit": "c11598230456a5a40b60300c8d9c6d4aec0e0c5d",
       "source_structure": "scta-projectfiles/ta-projectdata.xml"
     }
   },
@@ -1020,11 +1330,11 @@
     }
   },
   "aquinasscriptum": {
-    "summary": "This summary of Aquinas's Scriptum on the Sentences is highly partial. It rests on partial summaries of Books I, II and III, built from twenty-six divisions: the Book I Prologue, Book I Distinctions 1–20 and 37, Book II Distinction 44, and Book III Distinctions 23–25. Book IV is not represented at all. Within that scope, the work opens by defining sacred doctrine as a unified, principally contemplative science that rests on revealed principles and is ordered to the vision of God, with God and all things as related to God as its subject, and it sets the whole within an exitus–reditus scheme in which things go forth from God and return to him. The fullest interpreted stretch, Book I Distinctions 1–20, shows the foundation of that scheme. God, whose essence is his very esse, is one, simple, eternal, immutable, first truth, and the analogical cause of all being. He is known by natural reason through creatures but never comprehended. In that one essence three equal persons are distinguished only by relations of origin, the Son by generation and the Spirit by spiration as love from Father and Son. Their eternal processions are the cause and exemplar of creatures' going out from God, and their temporal missions through sanctifying grace are the means of creatures' return. The Book III material makes the epistemic foundation of theology concrete: faith is the intellect's will-commanded assent to first truth, formed by charity, which is itself a created habit, and its articles are the revealed principles on which theology proceeds. A recurring pattern of explanation runs through the interpreted material. What is positive in creatures (being, truth, power, authority, virtue) is traced to God as cause, defect and limitation to the creature's finitude and composition, and the supernatural end requires supernaturally infused habits beyond nature. No claim is made here about the structure or content of the work as a whole.",
+    "summary": "This summary of Aquinas's Scriptum on the Sentences is highly partial. It rests on partial summaries of Books I, II and III, built from thirty-six divisions: the Book I Prologue, Book I Distinctions 1–30 and 37, Book II Distinction 44, and Book III Distinctions 23–25. Book IV is not represented at all. Within that scope, the work opens by defining sacred doctrine as a unified, principally contemplative science that rests on revealed principles and is ordered to the vision of God, with God and all things as related to God as its subject, and it sets the whole within an exitus–reditus scheme in which things go forth from God and return to him. The fullest interpreted stretch, Book I Distinctions 1–30, shows the foundation of that scheme. God, whose essence is his very esse, is one, simple, eternal, immutable, first truth, and the analogical cause of all being. He is known by natural reason through creatures but never comprehended, and named imperfectly by non-synonymous names true as to the thing signified. In that one essence three equal persons are distinguished only by relations of origin, the Son by generation and the Spirit by spiration as love from Father and Son. The persons are themselves subsistent relations, really distinct by relative opposition alone. Their eternal processions are the cause and exemplar of creatures' going out from God, and their temporal missions through sanctifying grace are the means of creatures' return, while God's relations to creatures are real only on the creature's side. The Book III material makes the epistemic foundation of theology concrete: faith is the intellect's will-commanded assent to first truth, formed by charity, which is itself a created habit, and its articles are the revealed principles on which theology proceeds. A recurring pattern of explanation runs through the interpreted material. What is positive in creatures (being, truth, power, authority, virtue) is traced to God as cause, defect and limitation to the creature's finitude and composition, and the supernatural end requires supernaturally infused habits beyond nature. No claim is made here about the structure or content of the work as a whole.",
     "claims": [
       "Within the interpreted material, the Scriptum frames theology as a single revealed science whose principles are the articles of faith and whose subject is God and all things as related to God, going forth from and returning to him.",
-      "Within the interpreted material, God is subsistent being and first truth, and the processions of three equal persons in one essence are the cause and exemplar of creation, while their missions through sanctifying grace bring about creatures' return.",
-      "Within the interpreted material, natural reason reaches God's existence and attributes through creatures by analogy but not the Trinity, which rests on faith, the will-commanded assent of the intellect to first truth.",
+      "Within the interpreted material, God is subsistent being and first truth, and the processions of three equal persons, subsistent relations in one essence, are the cause and exemplar of creation, while their missions through sanctifying grace bring about creatures' return.",
+      "Within the interpreted material, natural reason reaches God's existence and attributes through creatures by analogy but not the Trinity, which rests on faith, the will-commanded assent of the intellect to first truth, and God is named imperfectly, as known.",
       "Within the interpreted material, a common explanatory pattern recurs: what is positive is traced to God as cause, defect and limitation to the creature's finitude, and the supernatural end requires infused habits beyond nature."
     ],
     "concepts": [
@@ -1036,9 +1346,12 @@
       "divine simplicity",
       "Trinity",
       "relations of origin",
+      "subsistent relation",
+      "divine names",
       "missio",
       "created charity",
       "analogy",
+      "relations of reason",
       "truth",
       "articles of faith",
       "faith",
@@ -1064,7 +1377,7 @@
       "model": "claude-opus-5-5",
       "prompt_version": "interpretation-v1",
       "generated_at": "2026-10-16T00:00:00Z",
-      "source_commit": "ee898a4d3638809ed66e5dd6e4a579f2b875da0d",
+      "source_commit": "c11598230456a5a40b60300c8d9c6d4aec0e0c5d",
       "source_structure": "scta-projectfiles/ta-projectdata.xml"
     }
   }
