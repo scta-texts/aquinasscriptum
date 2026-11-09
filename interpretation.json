@@ -1,14 +1,14 @@
 {
   "_metadata": {
     "schema_version": "1.0",
-    "generated_at": "2026-10-16T00:00:00Z",
+    "generated_at": "2026-11-08T00:00:00Z",
     "model": "claude-opus-5-5",
     "prompt_version": "interpretation-v1",
-    "source_commit": "c11598230456a5a40b60300c8d9c6d4aec0e0c5d",
+    "source_commit": "2e5a74a5983ece14c2e9e584cd93ec37f5e4d446",
     "generation_method": "hierarchical",
-    "scope": "Ancestor levels above the item for the Book I Prologue, Book I Distinctions 1–30 and 37, Book II Distinction 44, and Book III Distinctions 23–25, together with partial Book I, Book II, Book III, and whole-work entries built from them.",
+    "scope": "Ancestor levels above the item for all of Book I (Prologue and Distinctions 1–48), Book II Distinction 44, and Book III Distinctions 23–25, together with a complete Book I entry and partial Book II, Book III, and whole-work entries built from them.",
     "source_structure": "/scta-projectfiles/ta-projectdata.xml",
-    "structure_commit": "6949a82"
+    "structure_commit": "357d968"
   },
   "ta-l1prol": {
     "summary": "The Prologue to Book I has a single quaestio. In it Aquinas comments on Lombard's prologue and then sets out a methodological account of sacred doctrine in five articles. Theology is necessary beyond philosophy because the human end is the immediate vision of God, which no creaturely knowledge reaches. It is one science, unified by the divine light under which it considers all things, and it commands the other sciences and uses them as servants. It is principally speculative, a true science whose principles are the articles of faith, and it is wisdom in the highest sense. Its subject is God, together with all things as they come from God and are ordered to God. Its many modes, and the fourfold sense of Scripture, follow from its revealed matter and its ends, with argument reserved to the literal sense. The Prologue thus sets the epistemic terms for the whole Scriptum: a single, contemplative science that rests on revealed principles and is ordered to beatitude.",
@@ -998,6 +998,179 @@
       "source_structure": "scta-projectfiles/ta-projectdata.xml"
     }
   },
+  "ta-l1d31": {
+    "summary": "Distinction 31 of Book I treats equality and appropriation in three quaestiones. Quaestio 1 holds that equality in God is a relation of reason founded on the unity of essence, privative as to its foundation, so a real relation of equality would require the essence to be related to itself. It also holds that essential attributes are appropriated to the persons by the likeness of their concepts to the persons' propers: power to the Father, wisdom to the Son, goodness to the Spirit. Such appropriation is fitting in reality and useful as an imperfect manifestation of the Trinity, without excluding any person. Quaestio 2 explains Hilary's appropriation of eternity to the Father, as principle of duration without principle, beauty to the Son, as the consonance, magnitude, and clarity of the perfect Image, Son, and Word, and use to the Spirit, as Love overflowing as Gift. Quaestio 3 explains Augustine's appropriation of unity to the Father, equality to the Son, and connection to the Spirit, and how all are one because of the Father, equal because of the Son, and connected because of the Spirit, both by the order of number and by the persons' properties.",
+    "claims": [
+      "Equality in God is a relation of reason founded on unity of essence.",
+      "Attributes are appropriated to persons by likeness to their propers, without excluding the other persons.",
+      "Hilary's and Augustine's triads of appropriation rest on likeness to the persons' propers."
+    ],
+    "concepts": [
+      "aequalitas",
+      "appropriation",
+      "power, wisdom, goodness",
+      "Hilary's triad",
+      "Augustine's triad",
+      "pulchritudo"
+    ],
+    "_metadata": {
+      "level": "distinctio",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "ta-l1d31q1",
+        "ta-l1d31q2",
+        "ta-l1d31q3"
+      ],
+      "partial": false,
+      "model": "claude-opus-5-5",
+      "prompt_version": "interpretation-v1",
+      "generated_at": "2026-11-08T00:00:00Z",
+      "source_commit": "2e5a74a5983ece14c2e9e584cd93ec37f5e4d446",
+      "source_structure": "scta-projectfiles/ta-projectdata.xml"
+    }
+  },
+  "ta-l1d32": {
+    "summary": "Distinction 32 of Book I treats locutions comparing the persons by their propers and appropriations, in two quaestiones. Quaestio 1 holds, with Hugh of St Victor, that the Father loves the Son by the Holy Spirit, the ablative signifying a quasi-formal effect, since in the genus of action something is denominated by what proceeds from it; so the Father loves and speaks by the persons proceeding as operations, though he does not spirate by the Spirit or beget by the Son. Notionally the Father loves himself by the Spirit too, and Father and Son love us by the Spirit, whose procession is the reason of creatures' free going out and of every gift. Quaestio 2 holds that the Father is not wise by begotten wisdom, since wisdom denominates as an inhering form, which would make the Son a principle of the Father. The Son is wise from the Father efficiently and by essential wisdom formally, and per se through his own hypostasis.",
+    "claims": [
+      "The Father loves the Son, himself, and us by the Spirit, as by a proceeding operation that denominates him.",
+      "The Father is not wise by begotten wisdom; the Son is wise from the Father efficiently and by essential wisdom formally."
+    ],
+    "concepts": [
+      "diligere spiritu sancto",
+      "denomination by action",
+      "sapientia genita",
+      "a vs. per",
+      "Spirit and creation"
+    ],
+    "_metadata": {
+      "level": "distinctio",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "ta-l1d32q1",
+        "ta-l1d32q2"
+      ],
+      "partial": false,
+      "model": "claude-opus-5-5",
+      "prompt_version": "interpretation-v1",
+      "generated_at": "2026-11-08T00:00:00Z",
+      "source_commit": "2e5a74a5983ece14c2e9e584cd93ec37f5e4d446",
+      "source_structure": "scta-projectfiles/ta-projectdata.xml"
+    }
+  },
+  "ta-l1d33": {
+    "summary": "Distinction 33 of Book I, a single quaestio, treats the relation of the properties to essence and persons. Against the Porretan doctrine of assisting relations, Thomas holds that the properties are really the divine essence and differ only in concept, since by divine simplicity their being is the essence's being, though relation alone keeps its generic character opposed to substance. Properties and persons are really the same and differ as abstract and concrete, against Praepositinus, who denied properties. Properties are in the essence by identity and in the persons as in supposits, personal properties as constituting and non-personal ones as consequent. Absolute and negative adjectives are said of essence, person, and property alike, but act-adjectives and concrete adjectives belong properly to persons, so 'paternity begets' is improper. Contrary opinions about the notions become heretical only with pertinacity after their consequences for faith are shown.",
+    "claims": [
+      "The properties are really the essence and the persons, distinct only in concept.",
+      "Acts and concrete predicates belong properly to persons, not properties.",
+      "Error about the notions becomes heresy only with pertinacity."
+    ],
+    "concepts": [
+      "identity of relation and essence",
+      "Gilbert of Poitiers",
+      "abstract and concrete",
+      "predication of properties",
+      "error vs. heresy"
+    ],
+    "_metadata": {
+      "level": "distinctio",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "ta-l1d33q1"
+      ],
+      "partial": false,
+      "model": "claude-opus-5-5",
+      "prompt_version": "interpretation-v1",
+      "generated_at": "2026-11-08T00:00:00Z",
+      "source_commit": "2e5a74a5983ece14c2e9e584cd93ec37f5e4d446",
+      "source_structure": "scta-projectfiles/ta-projectdata.xml"
+    }
+  },
+  "ta-l1d34": {
+    "summary": "Distinction 34 of Book I, which closes the treatise on the Trinity, has three quaestiones. Quaestio 1 holds that person and essence are really identical, since the divine nature subsists by itself without individuating matter. They are conceptually distinct, person signifying God as subsistent and proper and essence as simple and common. The three persons are of one essence, the genitive expressing formal causality grounded in the mode of signifying, and are in, not from, one essence. Quaestio 2 defends the appropriation of power to the Father, wisdom to the Son, and goodness to the Spirit, both by contrast with creaturely defects of fathers, sons, and 'spirit' and by likeness to the divine propers. Quaestio 3 holds that signifying God by bodily metaphors is most fitting, since we rise from sensibles, sense too is led to God, bodily images show his transcendence by negation, and truth must be hidden from the unworthy, with metaphor resting on likeness of proportionality. Base creatures signify God even more fittingly than noble ones.",
+    "claims": [
+      "Person and essence are really identical; the three persons are of one essence by a genitive of formal cause.",
+      "Appropriations work by contrast with creatures and by likeness to the persons' propers.",
+      "Metaphor is fitting in theology and rests on proportionality; base images signify God best."
+    ],
+    "concepts": [
+      "identity of person and essence",
+      "homoousion",
+      "appropriation",
+      "metaphor in theology",
+      "similitudo proportionalitatis"
+    ],
+    "_metadata": {
+      "level": "distinctio",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "ta-l1d34q1",
+        "ta-l1d34q2",
+        "ta-l1d34q3"
+      ],
+      "partial": false,
+      "model": "claude-opus-5-5",
+      "prompt_version": "interpretation-v1",
+      "generated_at": "2026-11-08T00:00:00Z",
+      "source_commit": "2e5a74a5983ece14c2e9e584cd93ec37f5e4d446",
+      "source_structure": "scta-projectfiles/ta-projectdata.xml"
+    }
+  },
+  "ta-l1d35": {
+    "summary": "Distinction 35 of Book I, a single quaestio, opens the treatment of God as voluntary principle through knowledge, power, and will (Distinctions 35–48) and treats God's knowledge. God is knowing by Dionysius's three ways: removal, since immaterial subsistent form is intelligent; causality, since the first agent directs nature to ends; and eminence. In him knower, known, and knowledge are one, and such names are said properly as to the thing signified. He knows other things through his essence, their likeness, and, against Averroes, knows each thing's proper nature, since he causes all that is in things and orders each to its end. Knowledge is said of God and creatures neither univocally nor purely equivocally but analogically, by imitation. God's knowledge is neither universal, particular, potential, nor habitual, but only actual. The Expositio orders the names of divine knowledge (foreknowledge, disposition, providence, predestination) by conditions on the side of their objects.",
+    "claims": [
+      "God knows himself and all things through his essence, properly and with certainty.",
+      "Knowledge is analogical between God and creatures, by imitation.",
+      "God's knowledge is pure act."
+    ],
+    "concepts": [
+      "scientia Dei",
+      "three ways of Dionysius",
+      "God's knowledge of singular natures",
+      "analogy",
+      "pure act"
+    ],
+    "_metadata": {
+      "level": "distinctio",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "ta-l1d35q1"
+      ],
+      "partial": false,
+      "model": "claude-opus-5-5",
+      "prompt_version": "interpretation-v1",
+      "generated_at": "2026-11-08T00:00:00Z",
+      "source_commit": "2e5a74a5983ece14c2e9e584cd93ec37f5e4d446",
+      "source_structure": "scta-projectfiles/ta-projectdata.xml"
+    }
+  },
+  "ta-l1d36": {
+    "summary": "Distinction 36 of Book I treats what God knows and the ideas, in two quaestiones. Quaestio 1 holds, against Averroes, Avicenna, and Maimonides, that God knows singulars as singular. As creator of matter and immediate agent in all things, his essence is the likeness of the whole thing, unlike a builder's art. He knows evils through the goods they deprive. Being in God's knowledge, in God, and in his essence are distinguished: creatures are in God as subject to his work and have truer being there, while evils are only in his knowledge. Quaestio 2 holds that ideas exist as the forms of things in God's mind, principles of practical and speculative knowledge, and that Aristotle rejected only separate Forms. There are many ideas, the one essence understood as imitable in many ways, eternally in God's intellect and causing the diversity of things. There are ideas of all things he produces, perfect for composites and imperfect for matter, singulars, and accidents, but none for privation.",
+    "claims": [
+      "God knows singulars and evils through his essence, as cause of matter and form.",
+      "Ideas are the divine essence understood as variously imitable; there are ideas of all things God produces."
+    ],
+    "concepts": [
+      "God's knowledge of singulars",
+      "God's knowledge of evil",
+      "esse in Deo",
+      "ideae",
+      "essentia imitabilis"
+    ],
+    "_metadata": {
+      "level": "distinctio",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "ta-l1d36q1",
+        "ta-l1d36q2"
+      ],
+      "partial": false,
+      "model": "claude-opus-5-5",
+      "prompt_version": "interpretation-v1",
+      "generated_at": "2026-11-08T00:00:00Z",
+      "source_commit": "2e5a74a5983ece14c2e9e584cd93ec37f5e4d446",
+      "source_structure": "scta-projectfiles/ta-projectdata.xml"
+    }
+  },
   "ta-l1d37": {
     "summary": "Distinction 37 of Book I treats the presence and location of spiritual beings in four quaestiones, moving from God to the angels. Quaestio 1 shows that God is essentially and immediately in every creature as the continuous cause of its esse. It then distinguishes a common mode of presence (by essence, presence, and power), a special mode by grace in the saints, and a unique mode by union in Christ. These modes are really grounded in the creature's cumulative conjunction to God and are only rationally distinct on God's side. Quaestio 2 argues that God is properly everywhere, in the spiritual sense of containing and conserving rather than being contained. Such per se omnipresence belongs to God alone because it presupposes infinite power, and it holds only from time, not from eternity, since it is a relation founded on God's operation toward creatures. Quaestio 3 turns to the angel. An angel is in place only through its operation, is in exactly one place at a time because its finite power sustains one operation terminating in one object, and cannot share its proper place with another angel of the same kind of operation. Quaestio 4 treats angelic motion. It is equivocal with respect to bodily motion and non-continuous in its illuminative, intellectual, and local modes. Whether an angel passes through a medium depends on whether it operates there, and its motion is measured by a discrete time of successive 'nows', incommensurable with the continuous time of bodies. One contrast runs through the distinction. God's infinite power and self-identical operation make him present to all things at once and from within, as the giver of esse. The angel's finite operation alone defines its place, its motion, and its time.",
     "claims": [
@@ -1033,6 +1206,312 @@
       "prompt_version": "interpretation-v1",
       "generated_at": "2026-10-03T00:00:00Z",
       "source_commit": "4fb0aa0b8b8d050f814dea91432e72041c8d5e34",
+      "source_structure": "scta-projectfiles/ta-projectdata.xml"
+    }
+  },
+  "ta-l1d38": {
+    "summary": "Distinction 38 of Book I, a single quaestio, treats God's knowledge in relation to things known. God's knowledge causes goods as an artisan's art joined with will, not evils. It is uniform in its act while knowing the diverse modes of things. God knows enuntiables simply, through his being, the exemplar of all being. He knows actuals by knowledge of vision and possibles by knowledge of simple understanding. He knows future contingents with certainty: effects follow their proximate causes in contingency, and his eternal knowledge, present to all times at once (Boethius), sees each contingent as present in its determinate being. So contingents are necessary relative to his knowledge only conditionally, as what is, when it is, is necessary.",
+    "claims": [
+      "God's knowledge causes goods with will and knows enuntiables and possibles.",
+      "God knows future contingents certainly because eternity is present to all times; contingency is preserved by proximate causes and conditional necessity."
+    ],
+    "concepts": [
+      "causality of divine knowledge",
+      "scientia visionis vs. simplicis intelligentiae",
+      "future contingents",
+      "eternity",
+      "necessitas conditionata"
+    ],
+    "_metadata": {
+      "level": "distinctio",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "ta-l1d38q1"
+      ],
+      "partial": false,
+      "model": "claude-opus-5-5",
+      "prompt_version": "interpretation-v1",
+      "generated_at": "2026-11-08T00:00:00Z",
+      "source_commit": "2e5a74a5983ece14c2e9e584cd93ec37f5e4d446",
+      "source_structure": "scta-projectfiles/ta-projectdata.xml"
+    }
+  },
+  "ta-l1d39": {
+    "summary": "Distinction 39 of Book I treats the immutability of God's knowledge and his providence, in two quaestiones. Quaestio 1 holds that God's operative knowledge, commanded by his eternal will, is free: in the divided sense he can not know what he knows and can know what he does not, though not in the composite sense, and his knowledge cannot increase. By simple understanding he knows infinitely many possibles in one non-discursive glance. Quaestio 2 defines providence by addition to knowledge and disposition, as provision of means and removal of obstacles, distinguishing it from governance and from fate, which is providence realized in secondary causes. Against Democritus, Averroes, Maimonides, and the Manichaeans, providence extends to all singulars according to their natures, ordering natural and voluntary evils to good without intending them. The prevalence of human evil is explained by original sin and by human nature's need for acquired or infused virtues.",
+    "claims": [
+      "God's knowledge is immutable yet free in the divided sense; he knows infinitely many possibles.",
+      "Providence orders all things to their ends according to their natures, ordering evils to good without intending them."
+    ],
+    "concepts": [
+      "immutability of divine knowledge",
+      "sensus compositus vs. divisus",
+      "providentia",
+      "fatum",
+      "universal providence",
+      "problem of evil"
+    ],
+    "_metadata": {
+      "level": "distinctio",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "ta-l1d39q1",
+        "ta-l1d39q2"
+      ],
+      "partial": false,
+      "model": "claude-opus-5-5",
+      "prompt_version": "interpretation-v1",
+      "generated_at": "2026-11-08T00:00:00Z",
+      "source_commit": "2e5a74a5983ece14c2e9e584cd93ec37f5e4d446",
+      "source_structure": "scta-projectfiles/ta-projectdata.xml"
+    }
+  },
+  "ta-l1d40": {
+    "summary": "Distinction 40 of Book I treats predestination and reprobation in four quaestiones. Quaestio 1 holds that predestination is an immanent operation in God, positing nothing in the predestined but its temporal effect, grace and glory. It is a special providence over rational creatures, directed to supernatural ends, with purpose of will and foreknowledge of the outcome, distinct from the book of life. Quaestio 2 holds that predestination is of grace and glory and of those who will attain glory through grace, including future persons known by vision, angels, and Christ as man. Quaestio 3 holds that the number of the predestined is certain to God, formally and materially, without imposing necessity, since effects follow proximate causes and God's eternal knowledge regards things as present. Quaestio 4 holds that reprobation foreknows fault without causing it and wills and causes the punishment that orders it, and that hardening has its first cause in the person's refusal of grace, God only permitting and ordering it.",
+    "claims": [
+      "Predestination is a special providence in God whose effect is grace and glory.",
+      "The number of the predestined is certain to God without imposing necessity.",
+      "Reprobation causes punishment, not fault; God permits and orders hardening."
+    ],
+    "concepts": [
+      "praedestinatio",
+      "reprobatio",
+      "certainty of predestination",
+      "liber vitae",
+      "obduratio",
+      "permission"
+    ],
+    "_metadata": {
+      "level": "distinctio",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "ta-l1d40q1",
+        "ta-l1d40q2",
+        "ta-l1d40q3",
+        "ta-l1d40q4"
+      ],
+      "partial": false,
+      "model": "claude-opus-5-5",
+      "prompt_version": "interpretation-v1",
+      "generated_at": "2026-11-08T00:00:00Z",
+      "source_commit": "2e5a74a5983ece14c2e9e584cd93ec37f5e4d446",
+      "source_structure": "scta-projectfiles/ta-projectdata.xml"
+    }
+  },
+  "ta-l1d41": {
+    "summary": "Distinction 41 of Book I, a single quaestio, treats the causes of predestination and the immutability of God's knowledge. Election is eternal in purpose and temporal in execution, and it conceptually precedes predestination as disposition precedes providence. Foreknowledge of merits does not cause predestination, whose only cause is God's goodness, though God wills that grace-informed merits cause glory and that preparation dispose to grace. So glory follows distributive justice and grace liberality. Predestination's effect is helped by condign and congruous merit, prayer, disposition, and natural causes, which it includes as means. God knows every thing he once knew, though tensed enuntiables change in truth.",
+    "claims": [
+      "Predestination has no cause in our merits but includes merits and prayers as causes of its effects.",
+      "Election precedes predestination.",
+      "God's knowledge is immutable though tensed propositions change."
+    ],
+    "concepts": [
+      "electio",
+      "causality of predestination",
+      "merit",
+      "intercession",
+      "enuntiabilia and tense"
+    ],
+    "_metadata": {
+      "level": "distinctio",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "ta-l1d41q1"
+      ],
+      "partial": false,
+      "model": "claude-opus-5-5",
+      "prompt_version": "interpretation-v1",
+      "generated_at": "2026-11-08T00:00:00Z",
+      "source_commit": "2e5a74a5983ece14c2e9e584cd93ec37f5e4d446",
+      "source_structure": "scta-projectfiles/ta-projectdata.xml"
+    }
+  },
+  "ta-l1d42": {
+    "summary": "Distinction 42 of Book I begins the treatment of God's power, in two quaestiones. Quaestio 1 holds that power belongs to God most perfectly, as pure act who acts on all and is acted on by nothing. His power is his essence as principle of operation, needing no matter, and it is one, really many only in its effects. Quaestio 2 holds that God causes creaturely acts as first cause but cannot do what belongs to limited natures, nor sin. He can do whatever does not imply contradiction, including what is impossible to nature, but not the per se impossible, like undoing the past. Miracles are above or beside nature, not against it, since matter has obediential potency. Relative possibility is judged by proximate causes, and effects immediate from God are judged by God.",
+    "claims": [
+      "God's power is his essence, one and perfect.",
+      "God can do all that does not imply contradiction; he cannot sin or undo the past.",
+      "Miracles are above or beside nature."
+    ],
+    "concepts": [
+      "potentia Dei",
+      "omnipotence",
+      "contradiction",
+      "miracles",
+      "potentia obedientialis"
+    ],
+    "_metadata": {
+      "level": "distinctio",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "ta-l1d42q1",
+        "ta-l1d42q2"
+      ],
+      "partial": false,
+      "model": "claude-opus-5-5",
+      "prompt_version": "interpretation-v1",
+      "generated_at": "2026-11-08T00:00:00Z",
+      "source_commit": "2e5a74a5983ece14c2e9e584cd93ec37f5e4d446",
+      "source_structure": "scta-projectfiles/ta-projectdata.xml"
+    }
+  },
+  "ta-l1d43": {
+    "summary": "Distinction 43 of Book I treats the infinity of God's power and the freedom of his action, in two quaestiones. Quaestio 1 holds that God's essence is infinite negatively, his being unreceived and so unlimited, and that his power is infinite as following from it. Omnipotence cannot be communicated to any creature, since power follows essence and every created essence is finite, received being. Quaestio 2 holds that God does not act by necessity of nature but by the order of his wisdom and his free will, as shown in the arrangement of the heavens. He can do nothing unjust, yet justice does not determine him to one course, since his will is the source of created justice, and his mercy is consistent with the justice of his goodness.",
+    "claims": [
+      "God's power is infinite because his being is unreceived; omnipotence is incommunicable.",
+      "God creates freely, not by natural necessity, and his justice does not bind him to one course."
+    ],
+    "concepts": [
+      "infinity of divine power",
+      "esse non receptum",
+      "freedom of creation",
+      "justice and mercy"
+    ],
+    "_metadata": {
+      "level": "distinctio",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "ta-l1d43q1",
+        "ta-l1d43q2"
+      ],
+      "partial": false,
+      "model": "claude-opus-5-5",
+      "prompt_version": "interpretation-v1",
+      "generated_at": "2026-11-08T00:00:00Z",
+      "source_commit": "2e5a74a5983ece14c2e9e584cd93ec37f5e4d446",
+      "source_structure": "scta-projectfiles/ta-projectdata.xml"
+    }
+  },
+  "ta-l1d44": {
+    "summary": "Distinction 44 of Book I, a single quaestio, asks whether God could make things better. He could improve things accidentally and make better things, but not improve a thing essentially while it remains itself, since that would change its species, like adding a unit to a number. He could make a better universe, by adding species or improving all its parts, though this one is best given its parts, its perfection lying in the diversity of natures filling the grades of goodness. Christ's humanity, the Mother of God, grace, and the ordered universe have a relative infinite dignity from their relation to God. Christ as man cannot be bettered, and Mary's purity, free of original and actual sin, is unsurpassable among creatures. God's power never diminishes, though past and present things cease to be possible objects.",
+    "claims": [
+      "God could make better things and a better universe, but not improve a thing essentially while it remains itself.",
+      "Christ's humanity cannot be bettered; Mary's purity is unsurpassable among creatures.",
+      "God's power never diminishes."
+    ],
+    "concepts": [
+      "best possible world",
+      "essential vs. accidental goodness",
+      "plenitude",
+      "relative infinity of dignity",
+      "immutability of power"
+    ],
+    "_metadata": {
+      "level": "distinctio",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "ta-l1d44q1"
+      ],
+      "partial": false,
+      "model": "claude-opus-5-5",
+      "prompt_version": "interpretation-v1",
+      "generated_at": "2026-11-08T00:00:00Z",
+      "source_commit": "2e5a74a5983ece14c2e9e584cd93ec37f5e4d446",
+      "source_structure": "scta-projectfiles/ta-projectdata.xml"
+    }
+  },
+  "ta-l1d45": {
+    "summary": "Distinction 45 of Book I, a single quaestio, begins the treatment of God's will. God has will and delight, since will follows intellect, with love but not appetite. He wills his goodness first and creatures as sharing it, out of liberality. His will completes the causality of his indeterminate power and specifying knowledge and is the first cause of things, without excluding secondary causes, which share the dignity of causing. His will of good pleasure, said properly, is distinguished from five metaphorical signs of will: precept, prohibition, counsel, permission, and operation, which correspond to providence over human goods and evils.",
+    "claims": [
+      "God has will, wills creatures out of liberality, and his will is the first cause of things.",
+      "God's will of good pleasure is distinguished from five signs of will."
+    ],
+    "concepts": [
+      "voluntas Dei",
+      "liberalitas",
+      "will as cause",
+      "voluntas beneplaciti vs. signi"
+    ],
+    "_metadata": {
+      "level": "distinctio",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "ta-l1d45q1"
+      ],
+      "partial": false,
+      "model": "claude-opus-5-5",
+      "prompt_version": "interpretation-v1",
+      "generated_at": "2026-11-08T00:00:00Z",
+      "source_commit": "2e5a74a5983ece14c2e9e584cd93ec37f5e4d446",
+      "source_structure": "scta-projectfiles/ta-projectdata.xml"
+    }
+  },
+  "ta-l1d46": {
+    "summary": "Distinction 46 of Book I, a single quaestio, treats God's will and evil. By antecedent will, considering human nature, God wills all to be saved; by consequent will, considering all circumstances, he wills the salvation of those who consent, the distinction lying in the conditions of the thing willed. It is not good that evils happen, though it is good that they are occasions of good. Evil contributes to the universe's perfection only per accidens, through defectible natures and goods occasioned by it, and sin leaves the world worse. God does not will evils to happen but wills to permit them, by willing defectible natures, and to order them.",
+    "claims": [
+      "God wills all to be saved antecedently, the consenting consequently.",
+      "God permits and orders evils without willing them; evil perfects the universe only per accidens."
+    ],
+    "concepts": [
+      "antecedent and consequent will",
+      "God and evil",
+      "permission of evil",
+      "perfection of the universe"
+    ],
+    "_metadata": {
+      "level": "distinctio",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "ta-l1d46q1"
+      ],
+      "partial": false,
+      "model": "claude-opus-5-5",
+      "prompt_version": "interpretation-v1",
+      "generated_at": "2026-11-08T00:00:00Z",
+      "source_commit": "2e5a74a5983ece14c2e9e584cd93ec37f5e4d446",
+      "source_structure": "scta-projectfiles/ta-projectdata.xml"
+    }
+  },
+  "ta-l1d47": {
+    "summary": "Distinction 47 of Book I, a single quaestio, treats the efficacy of God's will. Consequent will is always fulfilled, antecedent will not necessarily. Things happen beside but not against consequent will, and nothing beyond his permission, which regards the cause's power to either opposite. Evils serve God's will passively by falling into the order of punishment, so the wicked do not merit by serving. God can command acts disordered toward creatures by ordering them to himself, as with Abraham's sacrifice, so he dispenses from the second table of the Decalogue but never from the first, which orders immediately to him.",
+    "claims": [
+      "God's consequent will is always fulfilled, and even evils serve it.",
+      "God can dispense from precepts of the second table, never the first."
+    ],
+    "concepts": [
+      "efficacy of God's will",
+      "antecedent and consequent will",
+      "permission",
+      "divine dispensation",
+      "natural law"
+    ],
+    "_metadata": {
+      "level": "distinctio",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "ta-l1d47q1"
+      ],
+      "partial": false,
+      "model": "claude-opus-5-5",
+      "prompt_version": "interpretation-v1",
+      "generated_at": "2026-11-08T00:00:00Z",
+      "source_commit": "2e5a74a5983ece14c2e9e584cd93ec37f5e4d446",
+      "source_structure": "scta-projectfiles/ta-projectdata.xml"
+    }
+  },
+  "ta-l1d48": {
+    "summary": "Distinction 48 of Book I, a single quaestio, closes the book by treating the conformity of human to divine will. Our will can be conformed to God's by imitation, in its act, where merit lies. Conformity consists essentially in willing good as God ordered and for his glory, perfected by charity, not in agreement about the thing willed. All are bound to it, directly to right willing and indirectly to charity. The deliberate will must conform to God's known will, though natural will and sensitive appetite may rightly shrink, as Christ's and Mary's did at the passion; wayfarers need only not resist, while the blessed rejoice. The Expositio justifies proceeding from God to creatures because faith rests on first truth, anticipating knowledge in the Word.",
+    "claims": [
+      "Conformity to God's will consists in willing good as he ordered, perfected by charity.",
+      "All are bound to it; the deliberate will must accept God's known will, though lower appetites may shrink."
+    ],
+    "concepts": [
+      "conformity of wills",
+      "charity",
+      "grades of appetite",
+      "passion of Christ",
+      "order of theology"
+    ],
+    "_metadata": {
+      "level": "distinctio",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "ta-l1d48q1"
+      ],
+      "partial": false,
+      "model": "claude-opus-5-5",
+      "prompt_version": "interpretation-v1",
+      "generated_at": "2026-11-08T00:00:00Z",
+      "source_commit": "2e5a74a5983ece14c2e9e584cd93ec37f5e4d446",
       "source_structure": "scta-projectfiles/ta-projectdata.xml"
     }
   },
@@ -1180,42 +1659,40 @@
     }
   },
   "ta-l1": {
-    "summary": "This summary of Book I is partial. It rests on the Prologue, Distinctions 1–30, and Distinction 37, which are 32 of the book's 49 direct divisions, and it does not cover Distinctions 31–36 or 38–48. Within that scope, the interpreted divisions cover the book's foundations, its doctrine of the one God, and its Trinitarian theology through the processions, missions, equality, and names of the persons. The Prologue defines sacred doctrine as a single, principally speculative science whose principles are the articles of faith and whose subject is God and all things as related to God. Distinction 1 orders all things to God as end: God alone is enjoyed, and every created good is used, loved for his sake. Distinctions 2–3 set the work within an exitus–reditus scheme and lay the metaphysical groundwork. God is one because his essence is his esse, his attributes are really one and conceptually distinct, and natural reason knows God through creatures by analogy but cannot reach the Trinity, which creatures reflect only as vestige and, in the rational mind, as image. Distinctions 4–7 treat the Son's generation through the semantics of divine names: generation is communication of nature without change, the essence neither begets nor is begotten, and the Father begets by nature through a power that is the essence under the aspect of paternity. Distinction 8 develops the metaphysics of esse: God is subsistent being, eternal, immutable, simple, and in no genus, while creatures, including the soul, are composed of essence and received esse. Distinctions 9–13 establish the Son's coeternity and the Spirit's procession as love from Father and Son, the filioque being required to distinguish Son and Spirit. Exactly three persons are constituted by relations of origin, with order of nature but no priority among them. Distinctions 14–18 treat the temporal processions or missions. The Spirit proceeds into creatures as the same love by which the Father loves the Son and is sent, as the Son is sent, only through sanctifying grace in the return of creatures to God. Visible missions manifest grace overflowing to the Church, and, against Lombard, the charity by which we love is a created habit flowing exemplarily from the Spirit, who is properly named Gift. Distinctions 19–20 establish the persons' equality in eternity, magnitude, and power, with the essence common but not universal, and give Thomas's theory of truth as the adequation of intellect and being, with God as first truth. Distinctions 21–22 turn to the logic and semantics of divine language: exclusive terms in Trinitarian propositions, and a general theory of divine names distinguishing the thing signified from the mode of signifying. Distinctions 23–30 treat the persons' names and properties. 'Person' and 'hypostasis' signify subsistent relation by way of substance; unity and number in God are transcendental, not quantitative; relations are really in God and identical with the persons, relations of origin alone distinguishing them; and there are five notions, three of them personal. 'Word' and 'Image' belong personally to the Son alone, innascibility is a non-personal notion of the Father, and Father and Son are one principle of the Spirit by one notion. Names said of God from time imply only relations of reason in him, real in the creature. Distinction 37 treats God's presence in all things as cause of esse and contrasts divine omnipresence with the finite location of angels. Across these divisions, Book I presents the procession of the persons in one essence as the cause and exemplar of the procession of creatures and of their return to God. The remaining distinctions are not yet interpreted and are not represented here.",
+    "summary": "Book I of the Scriptum, in its Prologue and forty-eight distinctions, treats God in himself: the one divine essence, the Trinity of persons, and God as the knowing, powerful, and willing principle of creatures. The Prologue defines sacred doctrine as a single, principally speculative science whose principles are the articles of faith and whose subject is God and all things as related to God. Distinction 1 orders all things to God as end: God alone is enjoyed, and every created good is used, loved for his sake. Distinctions 2–3 set the work within an exitus–reditus scheme and lay the metaphysical groundwork. God is one because his essence is his esse, his attributes are really one and conceptually distinct, and natural reason knows God through creatures by analogy but cannot reach the Trinity, which creatures reflect only as vestige and image. Distinctions 4–7 treat the Son's generation through the semantics of divine names: generation is communication of nature without change, the essence neither begets nor is begotten, and the Father begets by nature. Distinction 8 develops the metaphysics of esse: God is subsistent being, eternal, immutable, simple, and in no genus, while creatures are composed of essence and received esse. Distinctions 9–13 establish the Son's coeternity and the Spirit's procession as love from Father and Son, exactly three persons being constituted by relations of origin. Distinctions 14–18 treat the missions: the persons are sent into creatures only through sanctifying grace, the Spirit as Love and Gift, and, against Lombard, charity is a created habit. Distinctions 19–20 establish the persons' equality in eternity, magnitude, and power and give Thomas's theory of truth. Distinctions 21–22 treat the logic of exclusive terms and a general theory of divine names. Distinctions 23–30 treat the persons' names and properties: 'person' and 'hypostasis' signify subsistent relation; unity and number in God are transcendental; relations are really in God and identical with the persons, relations of origin alone distinguishing them; there are five notions, three of them personal; 'Word' and 'Image' belong personally to the Son; and names said of God from time imply only relations of reason in him. Distinctions 31–34 complete the Trinitarian treatise: equality is a relation of reason; attributes are appropriated to persons by likeness to their propers (Hilary's and Augustine's triads; power, wisdom, goodness); the Father loves the Son by the Spirit as by a proceeding operation; properties, persons, and essence are really one and conceptually distinct, against Gilbert of Poitiers; and metaphor is fitting in theology. Distinctions 35–41 treat God's knowledge. He knows himself and all things, singulars and evils included, through his essence, the exemplar of the many ideas. His knowledge is analogical to ours, causes goods together with his will, and knows future contingents with certainty because eternity is present to all times. It grounds providence, which extends to all things according to their natures, and predestination, a special providence whose effect is grace and glory, uncaused by merits but including them as means. Distinction 37 treats God's presence in all things as cause of esse and the location of angels. Distinctions 42–44 treat God's power: it is his infinite essence, incommunicable, able to do all that implies no contradiction, freely exercised by wisdom and will, and able to make better things and a better universe, though this one is best given its parts. Distinctions 45–48 treat God's will: he wills creatures out of liberality, his will completes his causality, and he wills all to be saved antecedently and the consenting consequently. He permits and orders evils without willing them, his consequent will is always fulfilled, he can dispense from the second table of the Decalogue but not the first, and human wills are bound to conform to his by charity. Across the book, the procession of the persons in one essence is presented as the cause and exemplar of the procession of creatures and of their return to God, and God's knowledge, power, and will as the complete character of his causality.",
     "claims": [
-      "On the evidence of the Prologue and Distinctions 1–3, Book I treats theology as a revealed science of God and all things ordered to God, who is known naturally by analogy but not as Trinity.",
-      "On the evidence of Distinctions 2 and 4–13, Book I holds that the one divine essence, identical with its esse, is shared by exactly three persons distinguished only by relations of origin, with the Spirit proceeding as love from Father and Son.",
-      "On the evidence of Distinction 8 and 19, Book I holds that God alone is subsistent, eternal, immutable, and simple being and first truth, while creatures have received, composite, and mutable being and truth.",
-      "On the evidence of Distinctions 14–18, Book I holds that the persons are sent into creatures through sanctifying grace, the Spirit as love and gift, and that charity is a created habit flowing from the Spirit, against Lombard.",
-      "On the evidence of Distinctions 19–20, Book I holds that the persons are equal in eternity, magnitude, and power, with order of origin but no priority.",
-      "On the evidence of Distinctions 21–22 and 30, Book I holds that God is named imperfectly, as known, by non-synonymous names true as to the thing signified, and that names said of him from time imply no change or real relation in him.",
-      "On the evidence of Distinctions 23–29, Book I holds that the divine persons are subsistent relations, really distinct by relative opposition alone, with five notions of which three are personal, and that 'Word' and 'Image' belong personally to the Son.",
-      "On the evidence of Distinction 37, Book I explains God's presence in creatures through his causality of esse."
+      "Book I treats theology as a revealed science of God and all things ordered to God, who is known naturally by analogy but not as Trinity.",
+      "The one divine essence, identical with its esse, is shared by exactly three persons, subsistent relations distinguished only by relative opposition, with the Spirit proceeding as love from Father and Son.",
+      "The persons are sent into creatures through sanctifying grace, and their processions are the cause and exemplar of creation and return.",
+      "God knows all things, including singulars, evils, and future contingents, through his essence; his providence extends to all things, and predestination is uncaused by merits though it includes them as means.",
+      "God's power is infinite and free, extending to all that implies no contradiction, and this universe is best given its parts though a better one is possible.",
+      "God wills creatures out of liberality, permits and orders evils without willing them, and human wills are bound to conform to his by charity."
     ],
     "concepts": [
       "sacra doctrina",
-      "frui and uti",
       "exitus–reditus",
       "identity of essence and esse",
-      "divine attributes",
+      "divine simplicity",
       "analogy",
-      "vestigium and imago",
-      "divine generation",
-      "filioque",
+      "Trinity",
       "relations of origin",
-      "procession of the Holy Spirit",
+      "subsistent relation",
+      "filioque",
       "missio",
       "created charity",
-      "Spirit as gift",
-      "equality of persons",
-      "eternity",
-      "truth",
       "divine names",
-      "persona and hypostasis",
-      "subsistent relation",
-      "notions",
-      "Verbum",
-      "relations of reason",
-      "divine simplicity",
+      "appropriation",
+      "scientia Dei",
+      "ideae",
+      "future contingents",
+      "providentia",
+      "praedestinatio",
+      "omnipotence",
+      "best possible world",
+      "voluntas Dei",
+      "antecedent and consequent will",
+      "God and evil",
+      "conformity of wills",
       "divine omnipresence"
     ],
     "_metadata": {
@@ -1253,14 +1730,30 @@
         "ta-l1d28",
         "ta-l1d29",
         "ta-l1d30",
-        "ta-l1d37"
+        "ta-l1d31",
+        "ta-l1d32",
+        "ta-l1d33",
+        "ta-l1d34",
+        "ta-l1d35",
+        "ta-l1d36",
+        "ta-l1d37",
+        "ta-l1d38",
+        "ta-l1d39",
+        "ta-l1d40",
+        "ta-l1d41",
+        "ta-l1d42",
+        "ta-l1d43",
+        "ta-l1d44",
+        "ta-l1d45",
+        "ta-l1d46",
+        "ta-l1d47",
+        "ta-l1d48"
       ],
-      "partial": true,
-      "coverage": "32 of 49 direct children have interpretations",
+      "partial": false,
       "model": "claude-opus-5-5",
       "prompt_version": "interpretation-v1",
-      "generated_at": "2026-10-16T00:00:00Z",
-      "source_commit": "c11598230456a5a40b60300c8d9c6d4aec0e0c5d",
+      "generated_at": "2026-11-08T00:00:00Z",
+      "source_commit": "2e5a74a5983ece14c2e9e584cd93ec37f5e4d446",
       "source_structure": "scta-projectfiles/ta-projectdata.xml"
     }
   },
@@ -1330,11 +1823,12 @@
     }
   },
   "aquinasscriptum": {
-    "summary": "This summary of Aquinas's Scriptum on the Sentences is highly partial. It rests on partial summaries of Books I, II and III, built from thirty-six divisions: the Book I Prologue, Book I Distinctions 1–30 and 37, Book II Distinction 44, and Book III Distinctions 23–25. Book IV is not represented at all. Within that scope, the work opens by defining sacred doctrine as a unified, principally contemplative science that rests on revealed principles and is ordered to the vision of God, with God and all things as related to God as its subject, and it sets the whole within an exitus–reditus scheme in which things go forth from God and return to him. The fullest interpreted stretch, Book I Distinctions 1–30, shows the foundation of that scheme. God, whose essence is his very esse, is one, simple, eternal, immutable, first truth, and the analogical cause of all being. He is known by natural reason through creatures but never comprehended, and named imperfectly by non-synonymous names true as to the thing signified. In that one essence three equal persons are distinguished only by relations of origin, the Son by generation and the Spirit by spiration as love from Father and Son. The persons are themselves subsistent relations, really distinct by relative opposition alone. Their eternal processions are the cause and exemplar of creatures' going out from God, and their temporal missions through sanctifying grace are the means of creatures' return, while God's relations to creatures are real only on the creature's side. The Book III material makes the epistemic foundation of theology concrete: faith is the intellect's will-commanded assent to first truth, formed by charity, which is itself a created habit, and its articles are the revealed principles on which theology proceeds. A recurring pattern of explanation runs through the interpreted material. What is positive in creatures (being, truth, power, authority, virtue) is traced to God as cause, defect and limitation to the creature's finitude and composition, and the supernatural end requires supernaturally infused habits beyond nature. No claim is made here about the structure or content of the work as a whole.",
+    "summary": "This summary of Aquinas's Scriptum on the Sentences is partial. It rests on a complete summary of Book I and on partial summaries of Books II and III, built from fifty-three divisions: all forty-nine divisions of Book I (the Prologue and Distinctions 1–48), Book II Distinction 44, and Book III Distinctions 23–25. Book IV is not represented at all, and Books II and III are represented only by the distinctions named. Within that scope, the work opens by defining sacred doctrine as a unified, principally contemplative science that rests on revealed principles and is ordered to the vision of God, with God and all things as related to God as its subject, and it sets the whole within an exitus–reditus scheme in which things go forth from God and return to him. Book I, now interpreted in full, lays the foundation of that scheme. God, whose essence is his very esse, is one, simple, eternal, immutable, infinite, first truth, and the analogical cause of all being. He is known by natural reason through creatures but never comprehended, and named imperfectly by non-synonymous names true as to the thing signified. In that one essence three equal persons are distinguished only by relations of origin, the persons being themselves subsistent relations. Their eternal processions are the cause and exemplar of creatures' going out from God, and their temporal missions through sanctifying grace are the means of creatures' return. As principle of creatures, God acts by knowledge, power, and will. He knows all things, singulars, evils, and future contingents included, through his essence and its ideas. His power extends to all that implies no contradiction and is exercised freely by wisdom, not by natural necessity. His will, out of liberality, causes all goods, permits and orders evils without willing them, and governs all things by a providence that preserves their natures and includes predestination to grace and glory. The Book II material traces the power to sin and the authority of prelates to God as to their positive being, and their defect to creaturely finitude. The Book III material makes the epistemic foundation of theology concrete: faith is the intellect's will-commanded assent to first truth, formed by charity, which is itself a created habit, and its articles are the revealed principles on which theology proceeds. A recurring pattern of explanation runs through the interpreted material. What is positive in creatures (being, truth, power, authority, virtue) is traced to God as cause, defect and limitation to the creature's finitude and composition, and the supernatural end requires supernaturally infused habits beyond nature. No claim is made here about the content of the uninterpreted parts of Books II–IV.",
     "claims": [
       "Within the interpreted material, the Scriptum frames theology as a single revealed science whose principles are the articles of faith and whose subject is God and all things as related to God, going forth from and returning to him.",
-      "Within the interpreted material, God is subsistent being and first truth, and the processions of three equal persons, subsistent relations in one essence, are the cause and exemplar of creation, while their missions through sanctifying grace bring about creatures' return.",
-      "Within the interpreted material, natural reason reaches God's existence and attributes through creatures by analogy but not the Trinity, which rests on faith, the will-commanded assent of the intellect to first truth, and God is named imperfectly, as known.",
+      "Within the interpreted material, God is subsistent, infinite being and first truth, and the processions of three equal persons, subsistent relations in one essence, are the cause and exemplar of creation, while their missions through sanctifying grace bring about creatures' return.",
+      "Within the interpreted material, God causes creatures by knowledge, power, and free will, knowing all things through his essence, able to do all that implies no contradiction, and governing all by a providence that permits and orders evil without willing it.",
+      "Within the interpreted material, natural reason reaches God's existence and attributes through creatures by analogy but not the Trinity, which rests on faith, the will-commanded assent of the intellect to first truth.",
       "Within the interpreted material, a common explanatory pattern recurs: what is positive is traced to God as cause, defect and limitation to the creature's finitude, and the supernatural end requires infused habits beyond nature."
     ],
     "concepts": [
@@ -1344,6 +1838,7 @@
       "esse",
       "identity of essence and esse",
       "divine simplicity",
+      "divine infinity",
       "Trinity",
       "relations of origin",
       "subsistent relation",
@@ -1351,18 +1846,19 @@
       "missio",
       "created charity",
       "analogy",
-      "relations of reason",
-      "truth",
+      "scientia Dei",
+      "omnipotence",
+      "voluntas Dei",
+      "providentia",
+      "praedestinatio",
+      "God and evil",
       "articles of faith",
       "faith",
       "prima veritas",
       "supernatural end",
       "theological virtue",
-      "divine omnipresence",
-      "divine infinity vs. creaturely finitude",
       "potentia peccandi",
-      "praelatio",
-      "obedientia"
+      "praelatio"
     ],
     "_metadata": {
       "level": "work",
@@ -1373,11 +1869,11 @@
         "ta-l3"
       ],
       "partial": true,
-      "coverage": "3 of 4 direct children have interpretations; all three are themselves partial",
+      "coverage": "3 of 4 direct children have interpretations; two of the three (ta-l2, ta-l3) are themselves partial",
       "model": "claude-opus-5-5",
       "prompt_version": "interpretation-v1",
-      "generated_at": "2026-10-16T00:00:00Z",
-      "source_commit": "c11598230456a5a40b60300c8d9c6d4aec0e0c5d",
+      "generated_at": "2026-11-08T00:00:00Z",
+      "source_commit": "2e5a74a5983ece14c2e9e584cd93ec37f5e4d446",
       "source_structure": "scta-projectfiles/ta-projectdata.xml"
     }
   }
